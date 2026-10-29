@@ -3,6 +3,7 @@
 // usage: node scripts/check-links.mjs <file-or-dir>...
 import { readFile, writeFile, readdir, stat } from 'node:fs/promises';
 import path from 'node:path';
+import { execFileSync } from 'node:child_process';
 import { cachedFetch, ROOT } from './lib/cache.mjs';
 
 async function files(p) {
@@ -20,6 +21,13 @@ for (const f of (await Promise.all(process.argv.slice(2).map(files))).flat()) {
     const url = m[1];
     let r;
     try { r = await cachedFetch(url); } catch (e) { r = { status: 'ERR' }; }
+    if (r.status === 'ERR') {
+      // some hosts stall Node's fetch but answer curl; fall back to a plain status check
+      try {
+        const code = execFileSync('curl', ['-sL', '-o', process.platform === 'win32' ? 'NUL' : '/dev/null', '-w', '%{http_code}', '-m', '40', url], { encoding: 'utf8' });
+        r = { status: Number(code), fetched_at: new Date().toISOString() };
+      } catch {}
+    }
     if (r.status === 'ERR' || r.status >= 400) {
       // some sites block bots with 403 but are fine in a browser; report, don't stamp
       console.log(`${r.status}  ${url}  (${path.relative(ROOT, f)})`);
