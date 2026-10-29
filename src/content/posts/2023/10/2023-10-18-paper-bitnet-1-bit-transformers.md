@@ -16,10 +16,6 @@ sources:
     url: "https://arxiv.org/html/2310.11453"
     publisher: "arXiv"
     fetched_at: "2026-10-29T15:38:21.378Z"
-  - title: "Code repository"
-    url: "https://github.com/Beomi/BitNet-Transformers"
-    publisher: "GitHub"
-    fetched_at: "2026-10-29T15:38:21.378Z"
 highlights: ["Training with 1-bit weights from the start, rather than quantising afterwards, is the core idea.", "BitNet follows a scaling law similar to full-precision Transformers, according to the authors."]
 papers: 
   - title: "BitNet: Scaling 1-bit Transformers for Large Language Models"
@@ -27,7 +23,6 @@ papers:
     year: 2023
     arxiv: "https://arxiv.org/abs/2310.11453"
     pdf: "https://arxiv.org/pdf/2310.11453v1"
-    code: "https://github.com/Beomi/BitNet-Transformers"
     license: "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
 card: 
   task: "Memory- and energy-efficient large language models"

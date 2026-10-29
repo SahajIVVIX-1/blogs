@@ -17,7 +17,7 @@
 import { readFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import path from 'node:path';
-import { ROOT } from './lib/cache.mjs';
+import { ROOT, cachedFetch } from './lib/cache.mjs';
 import { writePost } from './lib/post.mjs';
 
 const now = new Date().toISOString();
@@ -32,14 +32,21 @@ async function fromArxiv(date, id, fm) {
   const assets = existsSync(path.join(dir, `paper-${id}.json`)) ? JSON.parse(await readFile(path.join(dir, `paper-${id}.json`), 'utf8')) : {};
   const hf = JSON.parse(await readFile(path.join(dir, 'hf-daily.json'), 'utf8'));
   const lic = meta.license ?? null;
+  // Hugging Face sometimes auto-links an unrelated or unofficial repo; keep it only if the paper itself cites it
+  let code;
+  if (meta.github) {
+    const repo = meta.github.replace(/^https?:\/\/github\.com\//i, '').replace(/\/$/, '').toLowerCase();
+    const html = assets.html ? (await cachedFetch(assets.html)).body.toLowerCase() : '';
+    if ((meta.abstract + html).toLowerCase().includes(`github.com/${repo}`)) code = meta.github;
+  }
   const out = {
     title: fm.title || `Paper summary: ${meta.title}`,
-    papers: [{ title: meta.title, authors: meta.authors, year: Number(meta.published.slice(0, 4)), arxiv: meta.abs, pdf: meta.pdf, code: meta.github ?? undefined, license: lic ?? 'arXiv non-exclusive licence' }],
+    papers: [{ title: meta.title, authors: meta.authors, year: Number(meta.published.slice(0, 4)), arxiv: meta.abs, pdf: meta.pdf, code, license: lic ?? 'arXiv non-exclusive licence' }],
     sources: [
       { title: `${meta.title} (arXiv:${id})`, url: meta.abs, publisher: 'arXiv', fetched_at: meta.fetched_at },
       { title: `Hugging Face Daily Papers, ${date}`, url: `https://huggingface.co/papers?date=${date}`, publisher: 'Hugging Face', fetched_at: hf.fetched_at },
       ...(assets.limitations || assets.conclusion ? [{ title: `${meta.title} (arXiv HTML full text)`, url: assets.html, publisher: 'arXiv', fetched_at: meta.fetched_at }] : []),
-      ...(meta.github ? [{ title: 'Code repository', url: meta.github, publisher: 'GitHub', fetched_at: meta.fetched_at }] : []),
+      ...(code ? [{ title: 'Code repository (linked in the paper)', url: code, publisher: 'GitHub', fetched_at: meta.fetched_at }] : []),
     ],
   };
   if (assets.figure) {

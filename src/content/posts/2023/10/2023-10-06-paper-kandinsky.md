@@ -16,7 +16,7 @@ sources:
     url: "https://arxiv.org/html/2310.03502"
     publisher: "arXiv"
     fetched_at: "2026-10-29T15:38:09.036Z"
-  - title: "Code repository"
+  - title: "Code repository (linked in the paper)"
     url: "https://github.com/ai-forever/Kandinsky-2"
     publisher: "GitHub"
     fetched_at: "2026-10-29T15:38:09.036Z"

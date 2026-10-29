@@ -16,10 +16,6 @@ sources:
     url: "https://arxiv.org/html/2308.16512"
     publisher: "arXiv"
     fetched_at: "2026-10-29T15:37:38.247Z"
-  - title: "Code repository"
-    url: "https://github.com/bytedance/MVDream"
-    publisher: "GitHub"
-    fetched_at: "2026-10-29T15:37:38.247Z"
 highlights: ["Generating multiple views jointly gives the model 3D consistency that single-view 2D diffusion lacks.", "Used with Score Distillation Sampling, the multi-view model stabilises text-to-3D generation."]
 papers: 
   - title: "MVDream: Multi-view Diffusion for 3D Generation"
@@ -27,7 +23,6 @@ papers:
     year: 2023
     arxiv: "https://arxiv.org/abs/2308.16512"
     pdf: "https://arxiv.org/pdf/2308.16512v4"
-    code: "https://github.com/bytedance/MVDream"
     license: "http://creativecommons.org/licenses/by/4.0/"
 cover: "images/2023/paper-2308.16512.webp"
 cover_credit: "Figure from <a href=\"https://arxiv.org/abs/2308.16512\">Shi et al. (2023)</a>, licensed <a href=\"http://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Figure 1: Typical multi-view consistency problems of 2D-lifting methods for 3D generation. Left: “A photo of a horse walking” where the horse has two faces. Right: “a DSLR photo of a plate of fried chicken and waffles …"

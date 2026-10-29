@@ -16,10 +16,6 @@ sources:
     url: "https://arxiv.org/html/2308.06259"
     publisher: "arXiv"
     fetched_at: "2026-10-29T15:37:32.204Z"
-  - title: "Code repository"
-    url: "https://github.com/Spico197/Humback"
-    publisher: "GitHub"
-    fetched_at: "2026-10-29T15:37:32.204Z"
 highlights: ["The model writes the missing instruction for an existing human-written answer, which is the reverse of normal generation.", "Self-curation, where the model scores its own candidate pairs, matters as much as self-augmentation."]
 papers: 
   - title: "Self-Alignment with Instruction Backtranslation"
@@ -27,7 +23,6 @@ papers:
     year: 2023
     arxiv: "https://arxiv.org/abs/2308.06259"
     pdf: "https://arxiv.org/pdf/2308.06259v3"
-    code: "https://github.com/Spico197/Humback"
     license: "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
 card: 
   task: "Building instruction-following LLMs without large human-labelled instruction sets"

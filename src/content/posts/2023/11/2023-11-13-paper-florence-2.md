@@ -16,10 +16,6 @@ sources:
     url: "https://arxiv.org/html/2311.06242"
     publisher: "arXiv"
     fetched_at: "2026-10-29T15:38:46.513Z"
-  - title: "Code repository"
-    url: "https://github.com/retkowsky/florence-2"
-    publisher: "GitHub"
-    fetched_at: "2026-10-29T15:38:46.513Z"
 highlights: ["Every vision task, including boxes and masks, is turned into \"prompt in, text out\".", "The data engine (FLD-5B: 5.4B annotations on 126M images) is as much the contribution as the model."]
 papers: 
   - title: "Florence-2: Advancing a Unified Representation for a Variety of Vision Tasks"
@@ -27,7 +23,6 @@ papers:
     year: 2023
     arxiv: "https://arxiv.org/abs/2311.06242"
     pdf: "https://arxiv.org/pdf/2311.06242v1"
-    code: "https://github.com/retkowsky/florence-2"
     license: "http://creativecommons.org/licenses/by/4.0/"
 cover: "images/2023/paper-2311.06242.webp"
 cover_credit: "Figure from <a href=\"https://arxiv.org/abs/2311.06242\">Xiao et al. (2023)</a>, licensed <a href=\"http://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Figure 1 : We aim to build a vision foundation model to enable extensive perception capabilities including spatial hierarchy and semantic granularity. To achieve this, a single unified model Florence-2 is pre-trained on …"

@@ -12,10 +12,6 @@ sources:
     url: "https://huggingface.co/papers?date=2023-10-12"
     publisher: "Hugging Face"
     fetched_at: "2026-10-29T15:25:37.530Z"
-  - title: "Code repository"
-    url: "https://github.com/kaistAI/Prometheus"
-    publisher: "GitHub"
-    fetched_at: "2026-10-29T15:38:15.235Z"
 highlights: ["Given a reference answer and a scoring rubric, a 13B open model can grade answers about as well as GPT-4, according to the paper.", "Fine-grained, user-defined rubrics are the key input, not a generic \"rate this 1–10\"."]
 papers: 
   - title: "Prometheus: Inducing Fine-grained Evaluation Capability in Language Models"
@@ -23,7 +19,6 @@ papers:
     year: 2023
     arxiv: "https://arxiv.org/abs/2310.08491"
     pdf: "https://arxiv.org/pdf/2310.08491v2"
-    code: "https://github.com/kaistAI/Prometheus"
     license: "http://creativecommons.org/licenses/by/4.0/"
 cover: "images/2023/paper-2310.08491.webp"
 cover_credit: "Figure from <a href=\"https://arxiv.org/abs/2310.08491\">Kim et al. (2023)</a>, licensed <a href=\"http://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Figure 1: Compared to conventional, coarse-grained LLM evaluation, we propose a fine-grained approach that takes user-defined score rubrics as input."
