@@ -24,6 +24,8 @@ const now = new Date().toISOString();
 
 // `arxiv: <id>` fills paper metadata, sources and (licence permitting) the figure from the data that
 // scripts/fetch.mjs and scripts/paper-assets.mjs saved, so titles/authors/links are never retyped.
+const clip = (t, n) => (t.length > n ? t.slice(0, t.lastIndexOf(' ', n)) + ' …' : t);
+
 async function fromArxiv(date, id, fm) {
   const dir = path.join(ROOT, 'data/sources', date);
   const meta = JSON.parse(await readFile(path.join(dir, `arxiv-${id}.json`), 'utf8'));
@@ -44,7 +46,7 @@ async function fromArxiv(date, id, fm) {
     const first = meta.authors[0].split(' ').pop();
     const licName = /by-sa/.test(lic) ? 'CC BY-SA 4.0' : /by\//.test(lic) ? 'CC BY 4.0' : /zero|publicdomain/.test(lic) ? 'CC0 1.0' : lic;
     out.cover = assets.figure.path;
-    out.cover_credit = `Figure from <a href="${meta.abs}">${first}${meta.authors.length > 1 ? ' et al.' : ''} (${meta.published.slice(0, 4)})</a>, licensed <a href="${lic}">${licName}</a>. ${assets.figure.caption.replace(/"/g, '&quot;').slice(0, 220)}`;
+    out.cover_credit = `Figure from <a href="${meta.abs}">${first}${meta.authors.length > 1 ? ' et al.' : ''} (${meta.published.slice(0, 4)})</a>, licensed <a href="${lic}">${licName}</a>. ${clip(assets.figure.caption.replace(/"/g, '&quot;'), 220)}`;
     out.images = [{ src: assets.figure.path, alt: `Figure from the paper "${meta.title}"`, credit: out.cover_credit }];
   }
   return out;
