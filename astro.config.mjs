@@ -4,14 +4,16 @@ import sitemap from '@astrojs/sitemap';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 
-// The one place the base path lives. Pages URL: https://info.sahaj.si/blogs/
-export const BASE = '/blogs';
+// The one place the base path and site URL live. The repo's Pages custom domain is blog.sahaj.si
+// (served at the root). For a project path like https://info.sahaj.si/blogs/ set BASE = '/blogs'.
+export const BASE = '/';
+export const SITE = 'https://blog.sahaj.si';
 
 // Posts write images as /images/...; prefix the base path and lazy-load them.
 function rehypeImages() {
   const walk = (node) => {
     if (node.tagName === 'img' && node.properties?.src?.startsWith('/images/')) {
-      node.properties.src = BASE + node.properties.src;
+      node.properties.src = BASE.replace(/\/$/, '') + node.properties.src;
       node.properties.loading = 'lazy';
       node.properties.decoding = 'async';
     }
@@ -21,7 +23,7 @@ function rehypeImages() {
 }
 
 export default defineConfig({
-  site: 'https://info.sahaj.si',
+  site: SITE,
   base: BASE,
   trailingSlash: 'always',
   integrations: [mdx(), sitemap()],
