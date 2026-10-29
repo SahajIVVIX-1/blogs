@@ -1,0 +1,46 @@
+---
+import Base from '../layouts/Base.astro';
+import { allPosts, postUrl, dayKey } from '../lib/posts';
+const posts = (await allPosts()).filter((p) => p.data.categories.includes('papers'));
+const rows = posts.map((p) => {
+  const paper = p.data.papers[0];
+  return {
+    date: dayKey(p.data.date), title: p.data.title.replace(/^Paper summary:\s*/, ''), url: postUrl(p),
+    authors: paper ? paper.authors.slice(0, 3).join(', ') + (paper.authors.length > 3 ? ' et al.' : '') : '',
+    topic: p.data.tags[0] ?? '', arxiv: paper?.arxiv, pdf: paper?.pdf, code: paper?.code,
+  };
+});
+---
+<Base title="Papers" wide>
+  <h1>Paper summaries</h1>
+  <p class="muted" style="max-width:65ch">One notable paper on many days, picked from arXiv or Hugging Face Daily Papers. These are summaries of the papers, written from the papers themselves. Click a column header to sort.</p>
+  <div class="table-wrap">
+    <table class="data" id="papers">
+      <thead><tr>
+        <th><button data-k="0">Date</button></th><th><button data-k="1">Title</button></th>
+        <th><button data-k="2">Authors</button></th><th><button data-k="3">Topic</button></th><th>Links</th>
+      </tr></thead>
+      <tbody>
+        {rows.map((r) => (
+          <tr>
+            <td class="label">{r.date}</td>
+            <td><a href={r.url}>{r.title}</a></td>
+            <td>{r.authors}</td>
+            <td><span class="chip">{r.topic}</span></td>
+            <td class="label">{r.arxiv && <a href={r.arxiv}>arXiv</a>} {r.pdf && <a href={r.pdf}>PDF</a>} {r.code && <a href={r.code}>code</a>}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+  <script is:inline>
+    const t = document.getElementById('papers');
+    let dir = {};
+    t.querySelectorAll('th button').forEach((b) => b.addEventListener('click', () => {
+      const k = +b.dataset.k; dir[k] = !dir[k];
+      const rows = [...t.tBodies[0].rows];
+      rows.sort((a, c) => a.cells[k].textContent.localeCompare(c.cells[k].textContent) * (dir[k] ? 1 : -1));
+      rows.forEach((r) => t.tBodies[0].appendChild(r));
+    }));
+  </script>
+</Base>

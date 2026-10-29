@@ -1,0 +1,17 @@
+---
+import { postUrl, fmtDate, CATEGORY_LABEL, type Post } from '../lib/posts';
+interface Props { posts: Post[]; showDate?: boolean }
+const { posts, showDate = true } = Astro.props;
+---
+<ul class="post-list">
+  {posts.map((p) => (
+    <li>
+      <div>
+        {showDate && <span class="label muted">{fmtDate(p.data.date)} · </span>}
+        {p.data.categories.map((c) => <span class="chip cat">{CATEGORY_LABEL[c]}</span>)}
+      </div>
+      <h3><a href={postUrl(p)}>{p.data.title}</a></h3>
+      <p>{p.data.summary}</p>
+    </li>
+  ))}
+</ul>

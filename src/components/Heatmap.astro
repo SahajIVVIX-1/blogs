@@ -1,0 +1,39 @@
+---
+// GitHub-style calendar: one cell per day from START to today, grouped by year.
+import { START, today, dayKey, dayUrl, CATEGORY_LABEL, type Post } from '../lib/posts';
+interface Props { days: Map<string, Post[]> }
+const { days } = Astro.props;
+
+const end = new Date(today() + 'T00:00:00Z');
+const years: { year: number; cells: (null | { key: string; n: number; cats: string[] })[] }[] = [];
+for (let y = Number(START.slice(0, 4)); y <= end.getUTCFullYear(); y++) {
+  const from = new Date(Math.max(Date.parse(`${y}-01-01`), Date.parse(START)));
+  const to = new Date(Math.min(Date.parse(`${y}-12-31`), end.getTime()));
+  const cells: (null | { key: string; n: number; cats: string[] })[] = [];
+  for (let i = 0; i < from.getUTCDay(); i++) cells.push(null); // align to Sunday rows
+  for (const d = new Date(from); d <= to; d.setUTCDate(d.getUTCDate() + 1)) {
+    const key = dayKey(d);
+    const ps = days.get(key) ?? [];
+    cells.push({ key, n: ps.length, cats: [...new Set(ps.flatMap((p) => p.data.categories.map((c) => CATEGORY_LABEL[c])))] });
+  }
+  years.unshift({ year: y, cells });
+}
+const level = (n: number) => (n === 0 ? '' : n === 1 ? 'l1' : n === 2 ? 'l2' : n === 3 ? 'l3' : 'l4');
+---
+<section aria-label="Posting calendar">
+  {years.map(({ year, cells }) => (
+    <>
+      <div class="heat-year">{year}</div>
+      <div class="heat-scroll">
+        <div class="heat">
+          {cells.map((c) =>
+            !c ? <span class="pad" aria-hidden="true" /> :
+            c.n ? <a class={level(c.n)} href={dayUrl(c.key)} title={`${c.key}: ${c.n} post${c.n > 1 ? 's' : ''} · ${c.cats.join(', ')}`} aria-label={`${c.key}, ${c.n} posts: ${c.cats.join(', ')}`} /> :
+            <span title={`${c.key}: no posts`} />
+          )}
+        </div>
+      </div>
+    </>
+  ))}
+  <div class="heat-legend">less <i style="background:var(--heat-0)" /><i style="background:var(--heat-1)" /><i style="background:var(--heat-2)" /><i style="background:var(--heat-3)" /><i style="background:var(--heat-4)" /> more</div>
+</section>

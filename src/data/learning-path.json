@@ -1,0 +1,55 @@
+[
+  { "n": 1, "name": "Python", "from": "2023-08-04", "to": "2023-10-31", "topics": [
+    "Setup: installing Python and running a script", "Syntax: indentation, comments, print", "Types: int, float, bool, None",
+    "Strings: indexing, slicing, methods", "Strings: f-strings and formatting", "Lists", "Tuples and unpacking", "Dictionaries", "Sets",
+    "Control flow: if, for, while", "Functions: arguments and return values", "Functions: *args, **kwargs and scope",
+    "Comprehensions", "Modules and imports", "Files: reading and writing", "Exceptions", "OOP: classes and objects",
+    "OOP: inheritance and dunder methods", "Iterators", "Generators", "Decorators", "venv and pip"] },
+  { "n": 2, "name": "C++", "from": "2023-11-01", "to": "2024-01-31", "topics": [
+    "Basics: compiling and hello world", "Variables, types and I/O", "Control flow", "Pointers", "References", "Arrays",
+    "std::string", "Functions and overloading", "OOP: classes and constructors", "OOP: inheritance and virtual functions",
+    "Templates", "STL: vector", "STL: map and unordered_map", "STL: set", "STL: algorithms", "Memory: new, delete and RAII",
+    "Smart pointers", "DSA: stack and queue", "DSA: binary search", "DSA: sorting", "DSA: linked list"] },
+  { "n": 3, "name": "NumPy", "from": "2024-02-01", "to": "2024-02-29", "topics": [
+    "ndarray basics", "dtypes", "Indexing and slicing", "Boolean and fancy indexing", "Broadcasting", "Vectorisation",
+    "Linear algebra", "Random numbers"] },
+  { "n": 4, "name": "Pandas", "from": "2024-03-01", "to": "2024-03-31", "topics": [
+    "Series and DataFrame", "Reading and writing files", "Selection with loc and iloc", "Cleaning data", "Missing data",
+    "groupby", "merge and join", "pivot_table", "Time series"] },
+  { "n": 5, "name": "Matplotlib (+ Seaborn)", "from": "2024-04-01", "to": "2024-04-30", "topics": [
+    "Figure and Axes", "Line, bar, scatter and histogram", "Subplots", "Styling", "Seaborn statistical plots", "Mini EDA project"] },
+  { "n": 6, "name": "Probability and Statistics", "from": "2024-05-01", "to": "2024-07-31", "topics": [
+    "Descriptive statistics", "Probability rules", "Conditional probability", "Bayes' theorem", "Random variables",
+    "Discrete distributions", "Continuous distributions", "Central Limit Theorem", "Sampling", "Point and interval estimation",
+    "Hypothesis tests", "t-test and chi-square", "Correlation", "Simple linear regression"] },
+  { "n": 7, "name": "Machine Learning", "from": "2024-08-01", "to": "2024-12-31", "topics": [
+    "The ML workflow", "Linear regression", "Gradient descent", "Logistic regression", "Regularisation: ridge and lasso",
+    "k-nearest neighbours", "Decision trees", "Random forest", "Boosting and XGBoost", "Support vector machines",
+    "k-means clustering", "Hierarchical clustering and DBSCAN", "PCA", "Model evaluation metrics", "Cross-validation",
+    "scikit-learn pipelines", "Feature engineering", "Hyperparameter search"] },
+  { "n": 8, "name": "Deep Learning", "from": "2025-01-01", "to": "2025-04-30", "topics": [
+    "The perceptron", "Multilayer perceptron", "Backpropagation", "Activation functions", "Optimisers: SGD, momentum, Adam",
+    "Weight initialisation", "Batch normalisation", "Dropout", "PyTorch tensors and autograd", "PyTorch training loop",
+    "CNN intro", "RNN", "LSTM and GRU"] },
+  { "n": 9, "name": "NLP", "from": "2025-05-01", "to": "2025-07-31", "topics": [
+    "Text preprocessing", "Tokenisation", "Bag of words and TF-IDF", "word2vec", "GloVe", "Seq2seq",
+    "Attention (Bahdanau)", "Named entity recognition", "Sentiment analysis", "Text classification"] },
+  { "n": 10, "name": "Computer Vision", "from": "2025-08-01", "to": "2025-09-30", "topics": [
+    "Image basics", "OpenCV essentials", "CNN architectures: LeNet to AlexNet", "CNN architectures: VGG and ResNet",
+    "Transfer learning", "Object detection and YOLO", "Segmentation and U-Net", "Data augmentation"] },
+  { "n": 11, "name": "Transformers", "from": "2025-10-01", "to": "2025-12-31", "topics": [
+    "Attention Is All You Need", "Self-attention", "Multi-head attention", "Positional encoding", "Encoder and decoder",
+    "BERT", "GPT", "Vision Transformer (ViT)", "Hugging Face Transformers: pipelines", "Hugging Face Transformers: fine-tuning"] },
+  { "n": 12, "name": "LLMs", "from": "2026-01-01", "to": "2026-03-31", "topics": [
+    "Pre-training", "Scaling laws", "Tokenizers: BPE", "Decoding: greedy, beam, sampling", "Prompting", "Instruction tuning",
+    "RLHF", "DPO", "Fine-tuning with LoRA", "QLoRA", "Quantisation", "Evaluation", "Embeddings"] },
+  { "n": 13, "name": "LangChain", "from": "2026-04-01", "to": "2026-05-31", "topics": [
+    "Chat models", "Prompt templates", "Chains and LCEL", "Memory and message history", "Document loaders", "Text splitters",
+    "Vector stores", "RAG", "LangGraph", "LangSmith"] },
+  { "n": 14, "name": "Generative AI", "from": "2026-06-01", "to": "2026-07-31", "topics": [
+    "Variational autoencoders", "GANs", "DCGAN", "Diffusion models", "Stable Diffusion", "Multimodal models (CLIP)",
+    "Text-to-image", "Text-to-speech"] },
+  { "n": 15, "name": "Agentic AI", "from": "2026-08-01", "to": "2026-10-29", "topics": [
+    "What is an agent", "ReAct", "Tool and function calling", "Planning", "Agent memory", "Multi-agent systems",
+    "Model Context Protocol (MCP)", "Agent evaluation", "Agent safety"] }
+]

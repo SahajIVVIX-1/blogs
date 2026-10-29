@@ -1,0 +1,11 @@
+---
+import Base from '../layouts/Base.astro';
+import PostList from '../components/PostList.astro';
+import { allPosts, base } from '../lib/posts';
+const posts = (await allPosts()).filter((p) => p.data.categories.includes('study') || p.data.categories.includes('projects'));
+---
+<Base title="Study">
+  <h1>Study notes</h1>
+  <p class="muted">My topic-by-topic notes, each with a small runnable example. See them in order on the <a href={base('learning-path/')}>learning path</a>.</p>
+  <PostList posts={posts} />
+</Base>

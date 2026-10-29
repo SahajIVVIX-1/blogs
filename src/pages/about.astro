@@ -1,0 +1,18 @@
+---
+import Base from '../layouts/Base.astro';
+import { base } from '../lib/posts';
+---
+<Base title="About">
+  <h1>About</h1>
+  <div class="prose">
+    <p>I'm Sahaj Saliya, a B.Tech ICT student at Pandit Deendayal Energy University (PDEU), Gandhinagar (2023–2027). I'm interested in LLMs, NLP, computer vision, generative AI and agents.</p>
+    <p>This site is a day-wise log that starts on 4 August 2023, my first day at PDEU. It has three kinds of posts:</p>
+    <ul>
+      <li><b>Study</b>: my own notes, one topic at a time, following my <a href={base('learning-path/')}>learning path</a>. Every code example on these pages was run before it was published, and the output shown is the real output.</li>
+      <li><b>AI updates</b>: short summaries of announcements from official sources (company blogs, model cards, library release notes), dated by the source's publish date.</li>
+      <li><b>Paper summaries</b>: summaries of papers from arXiv and Hugging Face Daily Papers. They are summaries of the public paper, not reviews.</li>
+    </ul>
+    <p>Every post lists the public sources it was written from, and numbers are given only as those sources report them. Images are either drawn for this site or reused under their licence, with credit. If you spot a mistake, open an issue on <a href="https://github.com/SahajIVVIX-1/blogs">GitHub</a>.</p>
+    <p>More about me: <a href="https://info.sahaj.si">portfolio</a> · <a href="https://github.com/SahajIVVIX-1">GitHub</a> · <a href="https://x.com/SahajS59">X</a> · <a href="https://www.linkedin.com/in/sahajs59">LinkedIn</a></p>
+  </div>
+</Base>
