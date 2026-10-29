@@ -1,0 +1,62 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>NLP · Tokenisation · Sahaj&#39;s blog</title><meta name="description" content="Word, character and subword tokenisation compared, out-of-vocabulary words, and what a real BERT WordPiece tokenizer does to unusual words."><link rel="canonical" href="https://blog.sahaj.si/2025/05/09/nlp-02-tokenisation/"><link rel="alternate" type="application/rss+xml" title="Sahaj's blog" href="/rss.xml"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><meta property="og:title" content="NLP · Tokenisation · Sahaj's blog"><meta property="og:description" content="Word, character and subword tokenisation compared, out-of-vocabulary words, and what a real BERT WordPiece tokenizer does to unusual words."><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@1,6..72,400;1,6..72,500&family=Source+Sans+3:wght@400;600&display=swap"><script>
+    try { const t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script><link rel="stylesheet" href="/_astro/Base.BVZBSHkL.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-head"><div class="wide"><a class="brand" href="/">Sahaj<span>.</span>blogs</a><nav class="nav" aria-label="Main"><a href="/learning-path/">Learning path</a><a href="/study/">Study</a><a href="/ai/">AI updates</a><a href="/papers/">Papers</a><a href="/archive/">Archive</a><a href="/search/">Search</a><a href="/about/">About</a></nav><button class="theme-btn" id="theme" type="button" aria-label="Toggle colour theme">◐ theme</button></div></header><main id="main"><div class="wrap"><article data-pagefind-body><div><a class="label" href="/2025/05/09/">9 May 2025</a><span class="label muted"> · </span><span class="chip cat" data-pagefind-filter="category">Study</span><a class="chip" href="/learning-path/#phase-9">Phase 9 · NLP</a></div><h1>NLP · Tokenisation</h1><p class="muted" style="font-size:1.05rem">Word, character and subword tokenisation compared, out-of-vocabulary words, and what a real BERT WordPiece tokenizer does to unusual words.</p><div class="prose"><p>A model needs integer IDs, so text must be split into <strong>tokens</strong> first. The three choices:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>level</th><th>vocabulary</th><th>sequence length</th><th>unknown words</th></tr></thead><tbody><tr><td>word</td><td>huge (every inflection)</td><td>short</td><td>many OOV words</td></tr><tr><td>character</td><td>tiny</td><td>very long</td><td>none</td></tr><tr><td><strong>subword</strong> (BPE, WordPiece)</td><td>about 30k–100k</td><td>medium</td><td>none, rare words split into pieces</td></tr></tbody></table>
+<p>Subword methods (Sennrich et al., 2016, brought BPE to NMT) keep frequent words whole and break rare ones into reusable pieces. I’ll build BPE from scratch in the LLM phase. Today I just inspected a real tokenizer: BERT’s WordPiece, loaded from the Hugging Face Hub. The <code>##</code> prefix means “continues the previous piece”.</p>
+<pre class="astro-code astro-code-themes github-light github-dark-dimmed" style="background-color:#fff;--shiki-dark-bg:#22272e;color:#24292e;--shiki-dark:#adbac7; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word;" tabindex="0" data-language="python"><code><span class="line"><span style="color:#D73A49;--shiki-dark:#F47067">import</span><span style="color:#24292E;--shiki-dark:#ADBAC7"> re</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F47067">from</span><span style="color:#24292E;--shiki-dark:#ADBAC7"> transformers </span><span style="color:#D73A49;--shiki-dark:#F47067">import</span><span style="color:#24292E;--shiki-dark:#ADBAC7"> AutoTokenizer</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#ADBAC7">sentence </span><span style="color:#D73A49;--shiki-dark:#F47067">=</span><span style="color:#032F62;--shiki-dark:#96D0FF"> "Tokenisation of unbelievably rare words like Gandhinagar"</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#6CB6FF">print</span><span style="color:#24292E;--shiki-dark:#ADBAC7">(</span><span style="color:#032F62;--shiki-dark:#96D0FF">"word :"</span><span style="color:#24292E;--shiki-dark:#ADBAC7">, re.findall(</span><span style="color:#D73A49;--shiki-dark:#F47067">r</span><span style="color:#032F62;--shiki-dark:#96D0FF">"</span><span style="color:#005CC5;--shiki-dark:#6CB6FF">\w</span><span style="color:#D73A49;--shiki-dark:#F47067">+</span><span style="color:#032F62;--shiki-dark:#96D0FF">"</span><span style="color:#24292E;--shiki-dark:#ADBAC7">, sentence))</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#6CB6FF">print</span><span style="color:#24292E;--shiki-dark:#ADBAC7">(</span><span style="color:#032F62;--shiki-dark:#96D0FF">"char :"</span><span style="color:#24292E;--shiki-dark:#ADBAC7">, </span><span style="color:#005CC5;--shiki-dark:#6CB6FF">list</span><span style="color:#24292E;--shiki-dark:#ADBAC7">(sentence[:</span><span style="color:#005CC5;--shiki-dark:#6CB6FF">20</span><span style="color:#24292E;--shiki-dark:#ADBAC7">]), </span><span style="color:#032F62;--shiki-dark:#96D0FF">"..."</span><span style="color:#24292E;--shiki-dark:#ADBAC7">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#ADBAC7">tok </span><span style="color:#D73A49;--shiki-dark:#F47067">=</span><span style="color:#24292E;--shiki-dark:#ADBAC7"> AutoTokenizer.from_pretrained(</span><span style="color:#032F62;--shiki-dark:#96D0FF">"bert-base-uncased"</span><span style="color:#24292E;--shiki-dark:#ADBAC7">)</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#ADBAC7">pieces </span><span style="color:#D73A49;--shiki-dark:#F47067">=</span><span style="color:#24292E;--shiki-dark:#ADBAC7"> tok.tokenize(sentence)</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#6CB6FF">print</span><span style="color:#24292E;--shiki-dark:#ADBAC7">(</span><span style="color:#032F62;--shiki-dark:#96D0FF">"bert :"</span><span style="color:#24292E;--shiki-dark:#ADBAC7">, pieces)</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#ADBAC7">ids </span><span style="color:#D73A49;--shiki-dark:#F47067">=</span><span style="color:#24292E;--shiki-dark:#ADBAC7"> tok(sentence)[</span><span style="color:#032F62;--shiki-dark:#96D0FF">"input_ids"</span><span style="color:#24292E;--shiki-dark:#ADBAC7">]</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#6CB6FF">print</span><span style="color:#24292E;--shiki-dark:#ADBAC7">(</span><span style="color:#032F62;--shiki-dark:#96D0FF">"ids  :"</span><span style="color:#24292E;--shiki-dark:#ADBAC7">, ids)</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#6CB6FF">print</span><span style="color:#24292E;--shiki-dark:#ADBAC7">(</span><span style="color:#032F62;--shiki-dark:#96D0FF">"back :"</span><span style="color:#24292E;--shiki-dark:#ADBAC7">, tok.decode(ids))</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#6CB6FF">print</span><span style="color:#24292E;--shiki-dark:#ADBAC7">(</span><span style="color:#032F62;--shiki-dark:#96D0FF">"vocab size:"</span><span style="color:#24292E;--shiki-dark:#ADBAC7">, tok.vocab_size)</span></span></code></pre>
+<p>Output:</p>
+<pre class="astro-code astro-code-themes github-light github-dark-dimmed" style="background-color:#fff;--shiki-dark-bg:#22272e;color:#24292e;--shiki-dark:#adbac7; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word;" tabindex="0" data-language="text"><code><span class="line"><span>word : ['Tokenisation', 'of', 'unbelievably', 'rare', 'words', 'like', 'Gandhinagar']</span></span>
+<span class="line"><span>char : ['T', 'o', 'k', 'e', 'n', 'i', 's', 'a', 't', 'i', 'o', 'n', ' ', 'o', 'f', ' ', 'u', 'n', 'b', 'e'] ...</span></span>
+<span class="line"><span>bert : ['token', '##isation', 'of', 'un', '##bel', '##ie', '##va', '##bly', 'rare', 'words', 'like', 'gandhi', '##nagar']</span></span>
+<span class="line"><span>ids  : [101, 19204, 6648, 1997, 4895, 8671, 2666, 3567, 6321, 4678, 2616, 2066, 12338, 14346, 102]</span></span>
+<span class="line"><span>back : [CLS] tokenisation of unbelievably rare words like gandhinagar [SEP]</span></span>
+<span class="line"><span>vocab size: 30522</span></span></code></pre></div><p><a class="chip" href="/tags/nlp/">#nlp</a><a class="chip" href="/tags/tokenisation/">#tokenisation</a></p><section class="sources"><h2 style="font-size:1.2rem">Sources</h2><ol><li><a href="https://huggingface.co/learn/llm-course/chapter2/4">Hugging Face LLM Course: Tokenizers</a> <span class="muted">— Hugging Face</span></li><li><a href="https://huggingface.co/docs/transformers/tokenizer_summary">Hugging Face: Summary of the tokenizers</a> <span class="muted">— Hugging Face</span></li><li><a href="https://arxiv.org/abs/1508.07909">Sennrich et al. (2016), Neural Machine Translation of Rare Words with Subword Units</a> <span class="muted">— arXiv</span></li></ol></section></article><nav class="pager" aria-label="Learning path navigation"><a href="/2025/05/01/nlp-01-preprocessing/">← NLP · Text preprocessing</a><a href="/2025/05/20/nlp-03-bow-tfidf/">NLP · Bag of words and TF-IDF →</a></nav></div></main><footer class="site-foot"><div class="wide">© Sahaj Saliya · <a href="https://info.sahaj.si">portfolio</a> · <a href="https://github.com/SahajIVVIX-1">GitHub</a> · <a href="/rss.xml">RSS</a></div></footer><script>
+    document.getElementById('theme').addEventListener('click', () => {
+      const root = document.documentElement;
+      const dark = root.dataset.theme ? root.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+      root.dataset.theme = dark ? 'light' : 'dark';
+      try { localStorage.setItem('theme', root.dataset.theme); } catch (e) {}
+    });
+  </script></body></html>
