@@ -10,7 +10,7 @@
     "fetch": "node scripts/fetch.mjs",
     "new": "node scripts/new.mjs",
     "daily": "node scripts/daily.mjs",
-    "deploy": "npm run build && gh-pages -d dist -b gh-pages --dotfiles"
+    "deploy": "node scripts/deploy.mjs"
   },
   "dependencies": {
     "@astrojs/markdown-remark": "^7.3.5",
