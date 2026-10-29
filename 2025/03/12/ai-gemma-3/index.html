@@ -1,0 +1,47 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Gemma 3: multimodal, 128K context, 140+ languages · Sahaj&#39;s blog</title><meta name="description" content="Google's Gemma 3 comes in 1B, 4B, 12B and 27B sizes; the 4B and up accept images, support 128K context and 140+ languages, and the 27B instruct model is reported to beat Gemini 1.5 Pro."><link rel="canonical" href="https://blog.sahaj.si/2025/03/12/ai-gemma-3/"><link rel="alternate" type="application/rss+xml" title="Sahaj's blog" href="/rss.xml"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><meta property="og:title" content="Gemma 3: multimodal, 128K context, 140+ languages · Sahaj's blog"><meta property="og:description" content="Google's Gemma 3 comes in 1B, 4B, 12B and 27B sizes; the 4B and up accept images, support 128K context and 140+ languages, and the 27B instruct model is reported to beat Gemini 1.5 Pro."><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@1,6..72,400;1,6..72,500&family=Source+Sans+3:wght@400;600&display=swap"><script>
+    try { const t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script><link rel="stylesheet" href="/_astro/Base.BVZBSHkL.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-head"><div class="wide"><a class="brand" href="/">Sahaj<span>.</span>blogs</a><nav class="nav" aria-label="Main"><a href="/learning-path/">Learning path</a><a href="/study/">Study</a><a href="/ai/">AI updates</a><a href="/papers/">Papers</a><a href="/archive/">Archive</a><a href="/search/">Search</a><a href="/about/">About</a></nav><button class="theme-btn" id="theme" type="button" aria-label="Toggle colour theme">◐ theme</button></div></header><main id="main"><div class="wrap"><article data-pagefind-body><div><a class="label" href="/2025/03/12/">12 Mar 2025</a><span class="label muted"> · </span><span class="chip cat" data-pagefind-filter="category">AI updates</span></div><h1>Gemma 3: multimodal, 128K context, 140+ languages</h1><p class="muted" style="font-size:1.05rem">Google&#39;s Gemma 3 comes in 1B, 4B, 12B and 27B sizes; the 4B and up accept images, support 128K context and 140+ languages, and the 27B instruct model is reported to beat Gemini 1.5 Pro.</p><div class="prose"><h2 id="what-happened">What happened</h2>
+<p><strong>Google</strong> released <strong>Gemma 3</strong>, with base and instruction-tuned models on the Hub and Hugging Face integration.</p>
+<h2 id="the-technical-details">The technical details</h2>
+<p>From the Hugging Face post (comparing with Gemma 2):</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th></th><th>Gemma 2</th><th>Gemma 3</th></tr></thead><tbody><tr><td>sizes</td><td>2B, 9B, 27B</td><td><strong>1B, 4B, 12B, 27B</strong></td></tr><tr><td>context</td><td>8K</td><td><strong>32K</strong> (1B), <strong>128K</strong> (4B, 12B, 27B)</td></tr><tr><td>images + text</td><td>no</td><td><strong>yes</strong> for 4B, 12B and 27B (1B is text-only)</td></tr><tr><td>languages</td><td>–</td><td>English (1B), <strong>140+</strong> (larger sizes)</td></tr></tbody></table>
+<p>The post quotes two headline results: <strong>Gemma-3-4B-IT beats Gemma-2-27B-IT</strong>, and <strong>Gemma-3-27B-IT beats Gemini 1.5-Pro</strong> across benchmarks.</p>
+<h2 id="why-it-matters">Why it matters</h2>
+<p>A 4B model beating its 27B predecessor is the same story as phi and SmolLM: better data and training let small models catch up fast.</p></div><p><a class="chip" href="/tags/llm/">#llm</a><a class="chip" href="/tags/multimodal/">#multimodal</a><a class="chip" href="/tags/open-weights/">#open-weights</a><a class="chip" href="/tags/google/">#google</a></p><section class="sources"><h2 style="font-size:1.2rem">Sources</h2><ol><li><a href="https://huggingface.co/blog/gemma3">Welcome Gemma 3: Google&#39;s all new multimodal, multilingual, long context open LLM</a> <span class="muted">— Hugging Face</span></li></ol><p class="muted" style="font-size:0.88rem">This is a summary written from the linked public sources. Figures and numbers are as reported there.</p></section></article></div></main><footer class="site-foot"><div class="wide">© Sahaj Saliya · <a href="https://info.sahaj.si">portfolio</a> · <a href="https://github.com/SahajIVVIX-1">GitHub</a> · <a href="/rss.xml">RSS</a></div></footer><script>
+    document.getElementById('theme').addEventListener('click', () => {
+      const root = document.documentElement;
+      const dark = root.dataset.theme ? root.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+      root.dataset.theme = dark ? 'light' : 'dark';
+      try { localStorage.setItem('theme', root.dataset.theme); } catch (e) {}
+    });
+  </script></body></html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Built this: AgentForge · Sahaj&#39;s blog</title><meta name="description" content="A three-agent CrewAI research assistant (Researcher, Analyst, Reviewer) whose sources come only from real tool activity and whose failures are reported as failures."><link rel="canonical" href="https://blog.sahaj.si/2026/10/07/built-agentforge/"><link rel="alternate" type="application/rss+xml" title="Sahaj's blog" href="/rss.xml"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><meta property="og:title" content="Built this: AgentForge · Sahaj's blog"><meta property="og:description" content="A three-agent CrewAI research assistant (Researcher, Analyst, Reviewer) whose sources come only from real tool activity and whose failures are reported as failures."><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@1,6..72,400;1,6..72,500&family=Source+Sans+3:wght@400;600&display=swap"><script>
+    try { const t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script><link rel="stylesheet" href="/_astro/Base.BVZBSHkL.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-head"><div class="wide"><a class="brand" href="/">Sahaj<span>.</span>blogs</a><nav class="nav" aria-label="Main"><a href="/learning-path/">Learning path</a><a href="/study/">Study</a><a href="/ai/">AI updates</a><a href="/papers/">Papers</a><a href="/archive/">Archive</a><a href="/search/">Search</a><a href="/about/">About</a></nav><button class="theme-btn" id="theme" type="button" aria-label="Toggle colour theme">◐ theme</button></div></header><main id="main"><div class="wrap"><article data-pagefind-body><div><a class="label" href="/2026/10/07/">7 Oct 2026</a><span class="label muted"> · </span><span class="chip cat" data-pagefind-filter="category">Projects</span></div><h1>Built this: AgentForge</h1><p class="muted" style="font-size:1.05rem">A three-agent CrewAI research assistant (Researcher, Analyst, Reviewer) whose sources come only from real tool activity and whose failures are reported as failures.</p><div class="prose"><p>On 7 October 2026 I started <strong>AgentForge</strong>. It has 67 commits so far, more than any of my other repos.</p>
+<h2 id="how-it-works">How it works</h2>
+<p>From the README, three <strong>CrewAI</strong> agents run in sequence:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>agent</th><th>job</th></tr></thead><tbody><tr><td><strong>Researcher</strong></td><td>searches the web and reads pages with real tools</td></tr><tr><td><strong>Analyst</strong></td><td>separates evidence from interpretation and lists gaps</td></tr><tr><td><strong>Reviewer</strong></td><td>audits the analysis, records failed checks, writes the final report</td></tr></tbody></table>
+<p>The design rules the README spells out:</p>
+<ul>
+<li><strong>Sources are never written by the model.</strong> The <code>sources</code> list is recorded by the <code>web_search</code> and <code>fetch_page</code> tools, and each source is labelled “page read” or “search result only”.</li>
+<li><strong>Progress is real.</strong> The timeline is driven by events from the running crew.</li>
+<li><strong>Failures are reported as failures.</strong> Errors, timeouts and missing sources end the job as <code>failed</code> with a reason.</li>
+<li><strong>Async jobs</strong>: <code>POST</code> returns <code>202</code> with a job id and the UI polls for results.</li>
+<li><code>fetch_page</code> only accepts public http(s) addresses, as a basic SSRF guard.</li>
+</ul>
+<p>Stack: React + Vite + TypeScript frontend, Python + FastAPI + CrewAI backend.</p>
+<h2 id="status-as-the-readme-states-it">Status, as the README states it</h2>
+<p>Built and tested, but <strong>not yet run against a live LLM or deployed as a hosted app</strong>. The screenshots come from a stubbed test backend.</p></div><p><a class="chip" href="/tags/agents/">#agents</a><a class="chip" href="/tags/crewai/">#crewai</a><a class="chip" href="/tags/research-assistant/">#research-assistant</a></p><section class="sources"><h2 style="font-size:1.2rem">Sources</h2><ol><li><a href="https://github.com/SahajIVVIX-1/AgentForge">SahajIVVIX-1/AgentForge (GitHub)</a> <span class="muted">— GitHub</span></li><li><a href="https://github.com/SahajIVVIX-1/AgentForge/commit/5eea635">First commit 5eea635</a> <span class="muted">— GitHub</span></li><li><a href="https://info.sahaj.si/AgentForge/">AgentForge project site</a> <span class="muted">— Sahaj Saliya</span></li></ol><p class="muted" style="font-size:0.88rem">This is a summary written from the linked public sources. Figures and numbers are as reported there.</p></section></article></div></main><footer class="site-foot"><div class="wide">© Sahaj Saliya · <a href="https://info.sahaj.si">portfolio</a> · <a href="https://github.com/SahajIVVIX-1">GitHub</a> · <a href="/rss.xml">RSS</a></div></footer><script>
+    document.getElementById('theme').addEventListener('click', () => {
+      const root = document.documentElement;
+      const dark = root.dataset.theme ? root.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+      root.dataset.theme = dark ? 'light' : 'dark';
+      try { localStorage.setItem('theme', root.dataset.theme); } catch (e) {}
+    });
+  </script></body></html>
