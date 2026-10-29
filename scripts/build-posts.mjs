@@ -15,9 +15,40 @@
 //   markdown body
 // usage: node scripts/build-posts.mjs authoring/study-01.md ...
 import { readFile } from 'node:fs/promises';
+import { existsSync } from 'node:fs';
+import path from 'node:path';
+import { ROOT } from './lib/cache.mjs';
 import { writePost } from './lib/post.mjs';
 
 const now = new Date().toISOString();
+
+// `arxiv: <id>` fills paper metadata, sources and (licence permitting) the figure from the data that
+// scripts/fetch.mjs and scripts/paper-assets.mjs saved, so titles/authors/links are never retyped.
+async function fromArxiv(date, id, fm) {
+  const dir = path.join(ROOT, 'data/sources', date);
+  const meta = JSON.parse(await readFile(path.join(dir, `arxiv-${id}.json`), 'utf8'));
+  const assets = existsSync(path.join(dir, `paper-${id}.json`)) ? JSON.parse(await readFile(path.join(dir, `paper-${id}.json`), 'utf8')) : {};
+  const hf = JSON.parse(await readFile(path.join(dir, 'hf-daily.json'), 'utf8'));
+  const lic = meta.license ?? null;
+  const out = {
+    title: fm.title || `Paper summary: ${meta.title}`,
+    papers: [{ title: meta.title, authors: meta.authors, year: Number(meta.published.slice(0, 4)), arxiv: meta.abs, pdf: meta.pdf, code: meta.github ?? undefined, license: lic ?? 'arXiv non-exclusive licence' }],
+    sources: [
+      { title: `${meta.title} (arXiv:${id})`, url: meta.abs, publisher: 'arXiv', fetched_at: meta.fetched_at },
+      { title: `Hugging Face Daily Papers, ${date}`, url: `https://huggingface.co/papers?date=${date}`, publisher: 'Hugging Face', fetched_at: hf.fetched_at },
+      ...(assets.limitations || assets.conclusion ? [{ title: `${meta.title} (arXiv HTML full text)`, url: assets.html, publisher: 'arXiv', fetched_at: meta.fetched_at }] : []),
+      ...(meta.github ? [{ title: 'Code repository', url: meta.github, publisher: 'GitHub', fetched_at: meta.fetched_at }] : []),
+    ],
+  };
+  if (assets.figure) {
+    const first = meta.authors[0].split(' ').pop();
+    const licName = /by-sa/.test(lic) ? 'CC BY-SA 4.0' : /by\//.test(lic) ? 'CC BY 4.0' : /zero|publicdomain/.test(lic) ? 'CC0 1.0' : lic;
+    out.cover = assets.figure.path;
+    out.cover_credit = `Figure from <a href="${meta.abs}">${first}${meta.authors.length > 1 ? ' et al.' : ''} (${meta.published.slice(0, 4)})</a>, licensed <a href="${lic}">${licName}</a>. ${assets.figure.caption.replace(/"/g, '&quot;').slice(0, 220)}`;
+    out.images = [{ src: assets.figure.path, alt: `Figure from the paper "${meta.title}"`, credit: out.cover_credit }];
+  }
+  return out;
+}
 let count = 0;
 for (const f of process.argv.slice(2)) {
   const text = (await readFile(f, 'utf8')).replace(/\r\n/g, '\n');
@@ -42,6 +73,7 @@ for (const f of process.argv.slice(2)) {
       else if (k === 'cover') fm.cover = v;
       else if (k === 'credit') fm.cover_credit = v;
       else if (k === 'alt') fm.images = [{ src: fm.cover, alt: v, credit: fm.cover_credit ?? '' }];
+      else if (k === 'arxiv') Object.assign(fm, await fromArxiv(date, v, fm));
     }
     fm.draft = false;
     await writePost({ date, slug, fm, body, overwrite: true });
