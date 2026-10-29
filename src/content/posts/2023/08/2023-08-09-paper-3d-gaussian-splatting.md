@@ -16,10 +16,6 @@ sources:
     url: "https://arxiv.org/html/2308.04079"
     publisher: "arXiv"
     fetched_at: "2026-10-29T15:37:25.285Z"
-  - title: "Code repository"
-    url: "https://github.com/graphdeco-inria/gaussian-splatting"
-    publisher: "GitHub"
-    fetched_at: "2026-10-29T15:37:25.285Z"
 highlights: ["The scene is a cloud of anisotropic 3D Gaussians, optimised from camera-calibration points.", "The paper reports at least 30 fps at 1080p with quality comparable to the best NeRF-style methods."]
 papers: 
   - title: "3D Gaussian Splatting for Real-Time Radiance Field Rendering"
@@ -27,7 +23,6 @@ papers:
     year: 2023
     arxiv: "https://arxiv.org/abs/2308.04079"
     pdf: "https://arxiv.org/pdf/2308.04079v1"
-    code: "https://github.com/graphdeco-inria/gaussian-splatting"
     license: "http://creativecommons.org/licenses/by/4.0/"
 cover: "images/2023/paper-2308.04079.webp"
 cover_credit: "Figure from <a href=\"https://arxiv.org/abs/2308.04079\">Kerbl et al. (2023)</a>, licensed <a href=\"http://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Figure 1 . Our method achieves real-time rendering of radiance fields with quality that equals the previous method with the best quality ( Barron et al., 2022 ) , while only requiring optimization times competitive with …"

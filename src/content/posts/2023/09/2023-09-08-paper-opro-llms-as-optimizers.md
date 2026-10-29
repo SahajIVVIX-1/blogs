@@ -16,7 +16,7 @@ sources:
     url: "https://arxiv.org/html/2309.03409"
     publisher: "arXiv"
     fetched_at: "2026-10-29T15:37:43.920Z"
-  - title: "Code repository"
+  - title: "Code repository (linked in the paper)"
     url: "https://github.com/google-deepmind/opro"
     publisher: "GitHub"
     fetched_at: "2026-10-29T15:37:43.920Z"

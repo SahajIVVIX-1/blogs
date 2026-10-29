@@ -16,7 +16,7 @@ sources:
     url: "https://arxiv.org/html/2309.16588"
     publisher: "arXiv"
     fetched_at: "2026-10-29T15:38:02.548Z"
-  - title: "Code repository"
+  - title: "Code repository (linked in the paper)"
     url: "https://github.com/facebookresearch/dinov2"
     publisher: "GitHub"
     fetched_at: "2026-10-29T15:38:02.548Z"

@@ -16,7 +16,7 @@ sources:
     url: "https://arxiv.org/html/2312.06550"
     publisher: "arXiv"
     fetched_at: "2026-10-29T15:39:11.173Z"
-  - title: "Code repository"
+  - title: "Code repository (linked in the paper)"
     url: "https://github.com/llm360/analysis360"
     publisher: "GitHub"
     fetched_at: "2026-10-29T15:39:11.173Z"

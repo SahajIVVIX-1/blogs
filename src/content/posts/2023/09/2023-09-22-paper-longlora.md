@@ -16,7 +16,7 @@ sources:
     url: "https://arxiv.org/html/2309.12307"
     publisher: "arXiv"
     fetched_at: "2026-10-29T15:37:56.476Z"
-  - title: "Code repository"
+  - title: "Code repository (linked in the paper)"
     url: "https://github.com/dvlab-research/longlora"
     publisher: "GitHub"
     fetched_at: "2026-10-29T15:37:56.476Z"

@@ -16,10 +16,6 @@ sources:
     url: "https://arxiv.org/html/2401.04088"
     publisher: "arXiv"
     fetched_at: "2026-10-29T15:39:35.803Z"
-  - title: "Code repository"
-    url: "https://github.com/pwc-1/Paper-9"
-    publisher: "GitHub"
-    fetched_at: "2026-10-29T15:39:35.803Z"
 highlights: ["Each token goes through only 2 of the 8 experts per layer, so it uses 13B of the 47B parameters.", "The paper reports Mixtral matching or beating Llama 2 70B and GPT-3.5 on the benchmarks it evaluates."]
 papers: 
   - title: "Mixtral of Experts"
@@ -27,7 +23,6 @@ papers:
     year: 2024
     arxiv: "https://arxiv.org/abs/2401.04088"
     pdf: "https://arxiv.org/pdf/2401.04088v1"
-    code: "https://github.com/pwc-1/Paper-9"
     license: "http://creativecommons.org/licenses/by/4.0/"
 card: 
   task: "Open general-purpose language model"

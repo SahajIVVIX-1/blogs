@@ -16,10 +16,6 @@ sources:
     url: "https://arxiv.org/html/2401.10020"
     publisher: "arXiv"
     fetched_at: "2026-10-29T15:39:42.020Z"
-  - title: "Code repository"
-    url: "https://github.com/gagan3012/self_rewarding_models"
-    publisher: "GitHub"
-    fetched_at: "2026-10-29T15:39:42.020Z"
 highlights: ["The same model generates candidates, scores them as a judge, and learns from the resulting preference pairs.", "The authors report that the model's ability to reward itself also improves across iterations."]
 papers: 
   - title: "Self-Rewarding Language Models"
@@ -27,7 +23,6 @@ papers:
     year: 2024
     arxiv: "https://arxiv.org/abs/2401.10020"
     pdf: "https://arxiv.org/pdf/2401.10020v3"
-    code: "https://github.com/gagan3012/self_rewarding_models"
     license: "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
 card: 
   task: "Aligning LLMs without a fixed, separately trained reward model"
