@@ -1,0 +1,318 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-09-04",
+  "fetched_at": "2026-10-29T15:28:57.406Z",
+  "candidates": [
+    {
+      "id": "2409.01704",
+      "title": "General OCR Theory: Towards OCR-2.0 via a Unified End-to-end Model",
+      "authors": [
+        "Haoran Wei",
+        "Chenglong Liu",
+        "Jinyue Chen",
+        "Jia Wang",
+        "Lingyu Kong",
+        "Yanming Xu",
+        "Zheng Ge",
+        "Liang Zhao",
+        "Jianjian Sun",
+        "Yuang Peng",
+        "Chunrui Han",
+        "Xiangyu Zhang"
+      ],
+      "upvotes": 83,
+      "github": "https://github.com/ucas-haoranwei/got-ocr2.0",
+      "published": "2024-09-03T08:41:31.000Z"
+    },
+    {
+      "id": "2409.02060",
+      "title": "OLMoE: Open Mixture-of-Experts Language Models",
+      "authors": [
+        "Niklas Muennighoff",
+        "Luca Soldaini",
+        "Dirk Groeneveld",
+        "Kyle Lo",
+        "Jacob Morrison",
+        "Sewon Min",
+        "Weijia Shi",
+        "Pete Walsh",
+        "Oyvind Tafjord",
+        "Nathan Lambert",
+        "Yuling Gu",
+        "Shane Arora",
+        "Akshita Bhagia",
+        "Dustin Schwenk",
+        "David Wadden",
+        "Alexander Wettig",
+        "Binyuan Hui",
+        "Tim Dettmers",
+        "Douwe Kiela",
+        "Ali Farhadi",
+        "Noah A. Smith",
+        "Pang Wei Koh",
+        "Amanpreet Singh",
+        "Hannaneh Hajishirzi"
+      ],
+      "upvotes": 82,
+      "github": null,
+      "published": "2024-09-03T17:08:20.000Z"
+    },
+    {
+      "id": "2409.01437",
+      "title": "Kvasir-VQA: A Text-Image Pair GI Tract Dataset",
+      "authors": [
+        "Sushant Gautam",
+        "Andrea Storås",
+        "Cise Midoglu",
+        "Steven A. Hicks",
+        "Vajira Thambawita",
+        "Pål Halvorsen",
+        "Michael A. Riegler"
+      ],
+      "upvotes": 71,
+      "github": "https://github.com/simula/Kvasir-VQA",
+      "published": "2024-09-02T19:41:59.000Z"
+    },
+    {
+      "id": "2409.00509",
+      "title": "LongRecipe: Recipe for Efficient Long Context Generalization in Large Languge Models",
+      "authors": [
+        "Zhiyuan Hu",
+        "Yuliang Liu",
+        "Jinman Zhao",
+        "Suyuchen Wang",
+        "Yan Wang",
+        "Wei Shen",
+        "Qing Gu",
+        "Anh Tuan Luu",
+        "See-Kiong Ng",
+        "Zhiwei Jiang",
+        "Bryan Hooi"
+      ],
+      "upvotes": 42,
+      "github": "https://github.com/zhiyuanhubj/LongRecipe",
+      "published": "2024-08-31T17:19:30.000Z"
+    },
+    {
+      "id": "2409.02095",
+      "title": "DepthCrafter: Generating Consistent Long Depth Sequences for Open-world Videos",
+      "authors": [
+        "Wenbo Hu",
+        "Xiangjun Gao",
+        "Xiaoyu Li",
+        "Sijie Zhao",
+        "Xiaodong Cun",
+        "Yong Zhang",
+        "Long Quan",
+        "Ying Shan"
+      ],
+      "upvotes": 38,
+      "github": "https://github.com/Tencent/DepthCrafter",
+      "published": "2024-09-03T17:52:03.000Z"
+    },
+    {
+      "id": "2409.02097",
+      "title": "LinFusion: 1 GPU, 1 Minute, 16K Image",
+      "authors": [
+        "Songhua Liu",
+        "Weihao Yu",
+        "Zhenxiong Tan",
+        "Xinchao Wang"
+      ],
+      "upvotes": 34,
+      "github": "https://github.com/Huage001/LinFusion",
+      "published": "2024-09-03T17:54:39.000Z"
+    },
+    {
+      "id": "2409.00587",
+      "title": "FLUX that Plays Music",
+      "authors": [
+        "Zhengcong Fei",
+        "Mingyuan Fan",
+        "Changqian Yu",
+        "Junshi Huang"
+      ],
+      "upvotes": 33,
+      "github": "https://github.com/feizc/fluxmusic",
+      "published": "2024-09-01T02:43:33.000Z"
+    },
+    {
+      "id": "2409.01071",
+      "title": "VideoLLaMB: Long-context Video Understanding with Recurrent Memory Bridges",
+      "authors": [
+        "Yuxuan Wang",
+        "Cihang Xie",
+        "Yang Liu",
+        "Zilong Zheng"
+      ],
+      "upvotes": 27,
+      "github": null,
+      "published": "2024-09-02T08:52:58.000Z"
+    },
+    {
+      "id": "2409.00588",
+      "title": "Diffusion Policy Policy Optimization",
+      "authors": [
+        "Allen Z. Ren",
+        "Justin Lidard",
+        "Lars L. Ankile",
+        "Anthony Simeonov",
+        "Pulkit Agrawal",
+        "Anirudha Majumdar",
+        "Benjamin Burchfiel",
+        "Hongkai Dai",
+        "Max Simchowitz"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/irom-princeton/dppo",
+      "published": "2024-09-01T02:47:50.000Z"
+    },
+    {
+      "id": "2409.00558",
+      "title": "Compositional 3D-aware Video Generation with LLM Director",
+      "authors": [
+        "Hanxin Zhu",
+        "Tianyu He",
+        "Anni Tang",
+        "Junliang Guo",
+        "Zhibo Chen",
+        "Jiang Bian"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2024-08-31T23:07:22.000Z"
+    },
+    {
+      "id": "2409.00729",
+      "title": "ContextCite: Attributing Model Generation to Context",
+      "authors": [
+        "Benjamin Cohen-Wang",
+        "Harshay Shah",
+        "Kristian Georgiev",
+        "Aleksander Madry"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/madrylab/context-cite",
+      "published": "2024-09-01T14:36:36.000Z"
+    },
+    {
+      "id": "2409.01199",
+      "title": "OD-VAE: An Omni-dimensional Video Compressor for Improving Latent Video Diffusion Model",
+      "authors": [
+        "Liuhan Chen",
+        "Zongjian Li",
+        "Bin Lin",
+        "Bin Zhu",
+        "Qian Wang",
+        "Shenghai Yuan",
+        "Xing Zhou",
+        "Xinghua Cheng",
+        "Li Yuan"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2024-09-02T12:20:42.000Z"
+    },
+    {
+      "id": "2409.00492",
+      "title": "Accurate Compression of Text-to-Image Diffusion Models via Vector Quantization",
+      "authors": [
+        "Vage Egiazarian",
+        "Denis Kuznedelev",
+        "Anton Voronov",
+        "Ruslan Svirschevski",
+        "Michael Goin",
+        "Daniil Pavlov",
+        "Dan Alistarh",
+        "Dmitry Baranchuk"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2024-08-31T16:09:20.000Z"
+    },
+    {
+      "id": "2409.01392",
+      "title": "GenAgent: Build Collaborative AI Systems with Automated Workflow Generation -- Case Studies on ComfyUI",
+      "authors": [
+        "Xiangyuan Xue",
+        "Zeyu Lu",
+        "Di Huang",
+        "Wanli Ouyang",
+        "Lei Bai"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/xxyQwQ/ComfyBench",
+      "published": "2024-09-02T17:44:10.000Z"
+    },
+    {
+      "id": "2409.01055",
+      "title": "Follow-Your-Canvas: Higher-Resolution Video Outpainting with Extensive Content Generation",
+      "authors": [
+        "Qihua Chen",
+        "Yue Ma",
+        "Hongfa Wang",
+        "Junkun Yuan",
+        "Wenzhe Zhao",
+        "Qi Tian",
+        "Hongmei Wang",
+        "Shaobo Min",
+        "Qifeng Chen",
+        "Wei Liu"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/mayuelala/FollowYourCanvas",
+      "published": "2024-09-02T08:28:57.000Z"
+    },
+    {
+      "id": "2409.00391",
+      "title": "Density Adaptive Attention-based Speech Network: Enhancing Feature Understanding for Mental Health Disorders",
+      "authors": [
+        "Georgios Ioannides",
+        "Adrian Kieback",
+        "Aman Chadha",
+        "Aaron Elkins"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2024-08-31T08:50:28.000Z"
+    },
+    {
+      "id": "2409.01357",
+      "title": "Know When to Fuse: Investigating Non-English Hybrid Retrieval in the Legal Domain",
+      "authors": [
+        "Antoine Louis",
+        "Gijs van Dijck",
+        "Gerasimos Spanakis"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/maastrichtlawtech/fusion",
+      "published": "2024-09-02T16:19:13.000Z"
+    },
+    {
+      "id": "2409.00447",
+      "title": "The MERIT Dataset: Modelling and Efficiently Rendering Interpretable Transcripts",
+      "authors": [
+        "I. de Rodrigo",
+        "A. Sanchez-Cuadrado",
+        "J. Boal",
+        "A. J. Lopez-Lopez"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/nachoDRT/MERIT-Dataset",
+      "published": "2024-08-31T12:56:38.000Z"
+    },
+    {
+      "id": "2409.00138",
+      "title": "PrivacyLens: Evaluating Privacy Norm Awareness of Language Models in Action",
+      "authors": [
+        "Yijia Shao",
+        "Tianshi Li",
+        "Weiyan Shi",
+        "Yanchen Liu",
+        "Diyi Yang"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/salt-nlp/privacylens",
+      "published": "2024-08-29T17:58:38.000Z"
+    }
+  ]
+}

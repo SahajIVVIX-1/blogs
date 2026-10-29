@@ -1,0 +1,211 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-09-27",
+  "fetched_at": "2026-10-29T15:29:11.465Z",
+  "candidates": [
+    {
+      "id": "2409.17481",
+      "title": "MaskLLM: Learnable Semi-Structured Sparsity for Large Language Models",
+      "authors": [
+        "Gongfan Fang",
+        "Hongxu Yin",
+        "Saurav Muralidharan",
+        "Greg Heinrich",
+        "Jeff Pool",
+        "Jan Kautz",
+        "Pavlo Molchanov",
+        "Xinchao Wang"
+      ],
+      "upvotes": 47,
+      "github": "https://github.com/nvlabs/maskllm",
+      "published": "2024-09-26T02:37:41.000Z"
+    },
+    {
+      "id": "2409.18042",
+      "title": "EMOVA: Empowering Language Models to See, Hear and Speak with Vivid Emotions",
+      "authors": [
+        "Kai Chen",
+        "Yunhao Gou",
+        "Runhui Huang",
+        "Zhili Liu",
+        "Daxin Tan",
+        "Jing Xu",
+        "Chunwei Wang",
+        "Yi Zhu",
+        "Yihan Zeng",
+        "Kuo Yang",
+        "Dingdong Wang",
+        "Kun Xiang",
+        "Haoyuan Li",
+        "Haoli Bai",
+        "Jianhua Han",
+        "Xiaohui Li",
+        "Weike Jin",
+        "Nian Xie",
+        "Yu Zhang",
+        "James T. Kwok",
+        "Hengshuang Zhao",
+        "Xiaodan Liang",
+        "Dit-Yan Yeung",
+        "Xiao Chen",
+        "Zhenguo Li",
+        "Wei Zhang",
+        "Qun Liu",
+        "Lanqing Hong",
+        "Lu Hou",
+        "Hang Xu"
+      ],
+      "upvotes": 40,
+      "github": "https://github.com/emova-ollm/EMOVA",
+      "published": "2024-09-26T16:44:02.000Z"
+    },
+    {
+      "id": "2409.18125",
+      "title": "LLaVA-3D: A Simple yet Effective Pathway to Empowering LMMs with 3D-awareness",
+      "authors": [
+        "Chenming Zhu",
+        "Tai Wang",
+        "Wenwei Zhang",
+        "Jiangmiao Pang",
+        "Xihui Liu"
+      ],
+      "upvotes": 34,
+      "github": null,
+      "published": "2024-09-26T17:59:11.000Z"
+    },
+    {
+      "id": "2409.18124",
+      "title": "Lotus: Diffusion-based Visual Foundation Model for High-quality Dense Prediction",
+      "authors": [
+        "Jing He",
+        "Haodong Li",
+        "Wei Yin",
+        "Yixun Liang",
+        "Leheng Li",
+        "Kaiqiang Zhou",
+        "Hongbo Liu",
+        "Bingbing Liu",
+        "Ying-Cong Chen"
+      ],
+      "upvotes": 33,
+      "github": "https://github.com/envision-research/lotus",
+      "published": "2024-09-26T17:58:55.000Z"
+    },
+    {
+      "id": "2409.14254",
+      "title": "Instruction Following without Instruction Tuning",
+      "authors": [
+        "John Hewitt",
+        "Nelson F. Liu",
+        "Percy Liang",
+        "Christopher D. Manning"
+      ],
+      "upvotes": 28,
+      "github": "https://github.com/john-hewitt/implicit-ins",
+      "published": "2024-09-21T22:36:22.000Z"
+    },
+    {
+      "id": "2409.17422",
+      "title": "Discovering the Gems in Early Layers: Accelerating Long-Context LLMs with 1000x Input Token Reduction",
+      "authors": [
+        "Zhenmei Shi",
+        "Yifei Ming",
+        "Xuan-Phi Nguyen",
+        "Yingyu Liang",
+        "Shafiq Joty"
+      ],
+      "upvotes": 26,
+      "github": "https://github.com/salesforceairesearch/gemfilter",
+      "published": "2024-09-25T23:14:47.000Z"
+    },
+    {
+      "id": "2409.17565",
+      "title": "Pixel-Space Post-Training of Latent Diffusion Models",
+      "authors": [
+        "Christina Zhang",
+        "Simran Motwani",
+        "Matthew Yu",
+        "Ji Hou",
+        "Felix Juefei-Xu",
+        "Sam Tsai",
+        "Peter Vajda",
+        "Zijian He",
+        "Jialiang Wang"
+      ],
+      "upvotes": 20,
+      "github": null,
+      "published": "2024-09-26T06:27:26.000Z"
+    },
+    {
+      "id": "2409.14195",
+      "title": "The Imperative of Conversation Analysis in the Era of LLMs: A Survey of Tasks, Techniques, and Trends",
+      "authors": [
+        "Xinghua Zhang",
+        "Haiyang Yu",
+        "Yongbin Li",
+        "Minzheng Wang",
+        "Longze Chen",
+        "Fei Huang"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2024-09-21T16:52:43.000Z"
+    },
+    {
+      "id": "2409.14683",
+      "title": "Reducing the Footprint of Multi-Vector Retrieval with Minimal Performance Impact via Token Pooling",
+      "authors": [
+        "Benjamin Clavié",
+        "Antoine Chaffin",
+        "Griffin Adams"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2024-09-23T03:12:43.000Z"
+    },
+    {
+      "id": "2409.17280",
+      "title": "Disco4D: Disentangled 4D Human Generation and Animation from a Single Image",
+      "authors": [
+        "Hui En Pang",
+        "Shuai Liu",
+        "Zhongang Cai",
+        "Lei Yang",
+        "Tianwei Zhang",
+        "Ziwei Liu"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2024-09-25T18:46:06.000Z"
+    },
+    {
+      "id": "2409.17580",
+      "title": "Enhancing Structured-Data Retrieval with GraphRAG: Soccer Data Case Study",
+      "authors": [
+        "Zahra Sepasdar",
+        "Sushant Gautam",
+        "Cise Midoglu",
+        "Michael A. Riegler",
+        "Pål Halvorsen"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2024-09-26T06:53:29.000Z"
+    },
+    {
+      "id": "2409.18121",
+      "title": "Robot See Robot Do: Imitating Articulated Object Manipulation with Monocular 4D Reconstruction",
+      "authors": [
+        "Justin Kerr",
+        "Chung Min Kim",
+        "Mingxuan Wu",
+        "Brent Yi",
+        "Qianqian Wang",
+        "Ken Goldberg",
+        "Angjoo Kanazawa"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/kerrj/rsrd",
+      "published": "2024-09-26T17:57:16.000Z"
+    }
+  ]
+}

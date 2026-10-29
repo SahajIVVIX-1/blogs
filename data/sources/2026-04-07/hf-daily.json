@@ -1,0 +1,677 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-04-07",
+  "fetched_at": "2026-10-29T15:35:14.532Z",
+  "candidates": [
+    {
+      "id": "2604.04707",
+      "title": "OpenWorldLib: A Unified Codebase and Definition of Advanced World Models",
+      "authors": [
+        "DataFlow Team",
+        "Bohan Zeng",
+        "Daili Hua",
+        "Kaixin Zhu",
+        "Yifan Dai",
+        "Bozhou Li",
+        "Yuran Wang",
+        "Chengzhuo Tong",
+        "Yifan Yang",
+        "Mingkun Chang",
+        "Jianbin Zhao",
+        "Zhou Liu",
+        "Hao Liang",
+        "Xiaochen Ma",
+        "Ruichuan An",
+        "Junbo Niu",
+        "Zimo Meng",
+        "Tianyi Bai",
+        "Meiyi Qiang",
+        "Huanyao Zhang",
+        "Zhiyou Xiao",
+        "Tianyu Guo",
+        "Qinhan Yu",
+        "Runhao Zhao",
+        "Zhengpin Li",
+        "Xinyi Huang",
+        "Yisheng Pan",
+        "Yiwen Tang",
+        "Yang Shi",
+        "Yue Ding",
+        "Xinlong Chen",
+        "Hongcheng Gao",
+        "Minglei Shi",
+        "Jialong Wu",
+        "Zekun Wang",
+        "Yuanxing Zhang",
+        "Xintao Wang",
+        "Pengfei Wan",
+        "Yiren Song",
+        "Mike Zheng Shou",
+        "Wentao Zhang"
+      ],
+      "upvotes": 198,
+      "github": "https://github.com/OpenDCAI/OpenWorldLib",
+      "published": "2026-04-06T00:00:00.000Z"
+    },
+    {
+      "id": "2604.04921",
+      "title": "TriAttention: Efficient Long Reasoning with Trigonometric KV Compression",
+      "authors": [
+        "Weian Mao",
+        "Xi Lin",
+        "Wei Huang",
+        "Yuxin Xie",
+        "Tianfu Fu",
+        "Bohan Zhuang",
+        "Song Han",
+        "Yukang Chen"
+      ],
+      "upvotes": 112,
+      "github": "https://github.com/WeianMao/triattention",
+      "published": "2026-04-06T00:00:00.000Z"
+    },
+    {
+      "id": "2604.04771",
+      "title": "MinerU2.5-Pro: Pushing the Limits of Data-Centric Document Parsing at Scale",
+      "authors": [
+        "Bin Wang",
+        "Tianyao He",
+        "Linke Ouyang",
+        "Fan Wu",
+        "Zhiyuan Zhao",
+        "Tao Chu",
+        "Yuan Qu",
+        "Zhenjiang Jin",
+        "Weijun Zeng",
+        "Ziyang Miao",
+        "Bangrui Xu",
+        "Junbo Niu",
+        "Mengzhang Cai",
+        "Jiantao Qiu",
+        "Qintong Zhang",
+        "Dongsheng Ma",
+        "Yuefeng Sun",
+        "Hejun Dong",
+        "Wenzheng Zhang",
+        "Jutao Xiao",
+        "Jiayong Shi",
+        "Pengyu Liao",
+        "Xiaomeng Zhao",
+        "Huaping Zhong",
+        "Liqun Wei",
+        "Jing Yu",
+        "Jie Yang",
+        "Wei Li",
+        "Shasha Wang",
+        "Qianqian Wu",
+        "Xuanhe Zhou",
+        "Weijia Li",
+        "Zhenxiang Li",
+        "Zhongying Tu",
+        "Jiang Wu",
+        "Lijun Wu",
+        "Chao Xu",
+        "Kai Chen",
+        "Wentao Zhang",
+        "Yu Qiao",
+        "Bowen Zhou",
+        "Dahua Lin",
+        "Conghui He"
+      ],
+      "upvotes": 102,
+      "github": null,
+      "published": "2026-04-06T00:00:00.000Z"
+    },
+    {
+      "id": "2604.02176",
+      "title": "Adam's Law: Textual Frequency Law on Large Language Models",
+      "authors": [
+        "Hongyuan Adam Lu",
+        "Z. L.",
+        "Victor Wei",
+        "Zefan Zhang",
+        "Zhao Hong",
+        "Qiqi Xiang",
+        "Bowen Cao",
+        "Wai Lam"
+      ],
+      "upvotes": 83,
+      "github": "https://github.com/HongyuanLuke/frequencylaw",
+      "published": "2026-04-02T00:00:00.000Z"
+    },
+    {
+      "id": "2603.28301",
+      "title": "LIBERO-Para: A Diagnostic Benchmark and Metrics for Paraphrase Robustness in VLA Models",
+      "authors": [
+        "Chanyoung Kim",
+        "Minwoo Kim",
+        "Minseok Kang",
+        "Hyunwoo Kim",
+        "Dahuin Jung"
+      ],
+      "upvotes": 75,
+      "github": "https://github.com/cau-hai-lab/LIBERO-Para",
+      "published": "2026-03-30T00:00:00.000Z"
+    },
+    {
+      "id": "2604.04503",
+      "title": "Memory Intelligence Agent",
+      "authors": [
+        "Jingyang Qiao",
+        "Weicheng Meng",
+        "Yu Cheng",
+        "Zhihang Lin",
+        "Zhizhong Zhang",
+        "Xin Tan",
+        "Jingyu Gong",
+        "Kun Shao",
+        "Yuan Xie"
+      ],
+      "upvotes": 57,
+      "github": "https://github.com/ECNU-SII/MIA",
+      "published": "2026-04-06T00:00:00.000Z"
+    },
+    {
+      "id": "2604.04184",
+      "title": "AURA: Always-On Understanding and Real-Time Assistance via Video Streams",
+      "authors": [
+        "Xudong Lu",
+        "Yang Bo",
+        "Jinpeng Chen",
+        "Shuhan Li",
+        "Xintong Guo",
+        "Huankang Guan",
+        "Fang Liu",
+        "Dunyuan Xu",
+        "Peiwen Sun",
+        "Heyang Sun",
+        "Rui Liu",
+        "Hongsheng Li"
+      ],
+      "upvotes": 48,
+      "github": "https://github.com/aurateam2026/AURA",
+      "published": "2026-04-05T00:00:00.000Z"
+    },
+    {
+      "id": "2604.03993",
+      "title": "Can LLMs Learn to Reason Robustly under Noisy Supervision?",
+      "authors": [
+        "Shenzhi Yang",
+        "Guangcheng Zhu",
+        "Bowen Song",
+        "Sharon Li",
+        "Haobo Wang",
+        "Xing Zheng",
+        "Yingfan Ma",
+        "Zhongqi Chen",
+        "Weiqiang Wang",
+        "Gang Chen"
+      ],
+      "upvotes": 38,
+      "github": "https://github.com/ShenzhiYang2000/OLR",
+      "published": "2026-04-05T00:00:00.000Z"
+    },
+    {
+      "id": "2604.04901",
+      "title": "FileGram: Grounding Agent Personalization in File-System Behavioral Traces",
+      "authors": [
+        "Shuai Liu",
+        "Shulin Tian",
+        "Kairui Hu",
+        "Yuhao Dong",
+        "Zhe Yang",
+        "Bo Li",
+        "Jingkang Yang",
+        "Chen Change Loy",
+        "Ziwei Liu"
+      ],
+      "upvotes": 35,
+      "github": "https://github.com/synvo-ai/FileGram",
+      "published": "2026-04-06T00:00:00.000Z"
+    },
+    {
+      "id": "2604.03679",
+      "title": "LightThinker++: From Reasoning Compression to Memory Management",
+      "authors": [
+        "Yuqi Zhu",
+        "Jintian Zhang",
+        "Zhenjie Wan",
+        "Yujie Luo",
+        "Shuofei Qiao",
+        "Zhengke Gui",
+        "Da Zheng",
+        "Lei Liang",
+        "Huajun Chen",
+        "Ningyu Zhang"
+      ],
+      "upvotes": 35,
+      "github": null,
+      "published": "2026-04-04T00:00:00.000Z"
+    },
+    {
+      "id": "2604.02045",
+      "title": "BidirLM: From Text to Omnimodal Bidirectional Encoders by Adapting and Composing Causal LLMs",
+      "authors": [
+        "Nicolas Boizard",
+        "Théo Deschamps-Berger",
+        "Hippolyte Gisserot-Boukhlef",
+        "Céline Hudelot",
+        "Pierre Colombo"
+      ],
+      "upvotes": 33,
+      "github": null,
+      "published": "2026-04-02T00:00:00.000Z"
+    },
+    {
+      "id": "2604.04202",
+      "title": "ClawArena: Benchmarking AI Agents in Evolving Information Environments",
+      "authors": [
+        "Haonian Ji",
+        "Kaiwen Xiong",
+        "Siwei Han",
+        "Peng Xia",
+        "Shi Qiu",
+        "Yiyang Zhou",
+        "Jiaqi Liu",
+        "Jinlong Li",
+        "Bingzhou Li",
+        "Zeyu Zheng",
+        "Cihang Xie",
+        "Huaxiu Yao"
+      ],
+      "upvotes": 33,
+      "github": "https://github.com/aiming-lab/ClawArena",
+      "published": "2026-04-05T00:00:00.000Z"
+    },
+    {
+      "id": "2604.04911",
+      "title": "SpatialEdit: Benchmarking Fine-Grained Image Spatial Editing",
+      "authors": [
+        "Yicheng Xiao",
+        "Wenhu Zhang",
+        "Lin Song",
+        "Yukang Chen",
+        "Wenbo Li",
+        "Nan Jiang",
+        "Tianhe Ren",
+        "Haokun Lin",
+        "Wei Huang",
+        "Haoyang Huang",
+        "Xiu Li",
+        "Nan Duan",
+        "Xiaojuan Qi"
+      ],
+      "upvotes": 32,
+      "github": "https://github.com/EasonXiao-888/SpatialEdit",
+      "published": "2026-04-06T00:00:00.000Z"
+    },
+    {
+      "id": "2604.02288",
+      "title": "Unifying Group-Relative and Self-Distillation Policy Optimization via Sample Routing",
+      "authors": [
+        "Gengsheng Li",
+        "Tianyu Yang",
+        "Junfeng Fang",
+        "Mingyang Song",
+        "Mao Zheng",
+        "Haiyun Guo",
+        "Dan Zhang",
+        "Jinqiao Wang",
+        "Tat-Seng Chua"
+      ],
+      "upvotes": 31,
+      "github": null,
+      "published": "2026-04-02T00:00:00.000Z"
+    },
+    {
+      "id": "2604.04917",
+      "title": "Vero: An Open RL Recipe for General Visual Reasoning",
+      "authors": [
+        "Gabriel Sarch",
+        "Linrong Cai",
+        "Qunzhong Wang",
+        "Haoyang Wu",
+        "Danqi Chen",
+        "Zhuang Liu"
+      ],
+      "upvotes": 31,
+      "github": null,
+      "published": "2026-04-06T00:00:00.000Z"
+    },
+    {
+      "id": "2604.03253",
+      "title": "Self-Execution Simulation Improves Coding Models",
+      "authors": [
+        "Gallil Maimon",
+        "Ori Yoran",
+        "Felix Kreuk",
+        "Michael Hassid",
+        "Gal Cohen",
+        "Pierre Chambon",
+        "Yossi Adi"
+      ],
+      "upvotes": 30,
+      "github": null,
+      "published": "2026-03-11T00:00:00.000Z"
+    },
+    {
+      "id": "2604.04804",
+      "title": "SkillX: Automatically Constructing Skill Knowledge Bases for Agents",
+      "authors": [
+        "Chenxi Wang",
+        "Zhuoyun Yu",
+        "Xin Xie",
+        "Wuguannan Yao",
+        "Runnan Fang",
+        "Shuofei Qiao",
+        "Kexin Cao",
+        "Guozhou Zheng",
+        "Xiang Qi",
+        "Peng Zhang",
+        "Shumin Deng"
+      ],
+      "upvotes": 29,
+      "github": "https://github.com/zjunlp/SkillX",
+      "published": "2026-04-06T00:00:00.000Z"
+    },
+    {
+      "id": "2604.04759",
+      "title": "Your Agent, Their Asset: A Real-World Safety Analysis of OpenClaw",
+      "authors": [
+        "Zijun Wang",
+        "Haoqin Tu",
+        "Letian Zhang",
+        "Hardy Chen",
+        "Juncheng Wu",
+        "Xiangyan Liu",
+        "Zhenlong Yuan",
+        "Tianyu Pang",
+        "Michael Qizhe Shieh",
+        "Fengze Liu",
+        "Zeyu Zheng",
+        "Huaxiu Yao",
+        "Yuyin Zhou",
+        "Cihang Xie"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/UCSC-VLAA/CIK-Bench",
+      "published": "2026-04-06T00:00:00.000Z"
+    },
+    {
+      "id": "2602.08602",
+      "title": "Mimic Intent, Not Just Trajectories",
+      "authors": [
+        "Renming Huang",
+        "Chendong Zeng",
+        "Wenjing Tang",
+        "Jintian Cai",
+        "Cewu Lu",
+        "Panpan Cai"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/RenMing-Huang/MINT",
+      "published": "2026-03-28T00:00:00.000Z"
+    },
+    {
+      "id": "2604.02073",
+      "title": "PLUME: Latent Reasoning Based Universal Multimodal Embedding",
+      "authors": [
+        "Chenwei He",
+        "Xiangzhao Hao",
+        "Tianyu Yang",
+        "Yuxiang Ma",
+        "Yuheng Jia",
+        "Lingxiang Wu",
+        "Chaoyang Zhao",
+        "Haiyun Guo",
+        "Jinqiao Wang"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/haoxiangzhao12138/PLUME",
+      "published": "2026-04-02T00:00:00.000Z"
+    },
+    {
+      "id": "2604.00830",
+      "title": "Learning to Learn-at-Test-Time: Language Agents with Learnable Adaptation Policies",
+      "authors": [
+        "Zhanzhi Lou",
+        "Hui Chen",
+        "Yibo Li",
+        "Qian Wang",
+        "Bryan Hooi"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/zzzlou/meta-ttl",
+      "published": "2026-04-02T00:00:00.000Z"
+    },
+    {
+      "id": "2604.04838",
+      "title": "Less Detail, Better Answers: Degradation-Driven Prompting for VQA",
+      "authors": [
+        "Haoxuan Han",
+        "Weijie Wang",
+        "Zeyu Zhang",
+        "Yefei He",
+        "Bohan Zhuang"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/ziplab/DDP",
+      "published": "2026-04-06T00:00:00.000Z"
+    },
+    {
+      "id": "2604.04872",
+      "title": "Synthetic Sandbox for Training Machine Learning Engineering Agents",
+      "authors": [
+        "Yuhang Zhou",
+        "Lizhu Zhang",
+        "Yifan Wu",
+        "Jiayi Liu",
+        "Xiangjun Fan",
+        "Zhuokai Zhao",
+        "Hong Yan"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2026-04-06T00:00:00.000Z"
+    },
+    {
+      "id": "2604.01043",
+      "title": "ONE-SHOT: Compositional Human-Environment Video Synthesis via Spatial-Decoupled Motion Injection and Hybrid Context Integration",
+      "authors": [
+        "Fengyuan Yang",
+        "Luying Huang",
+        "Jiazhi Guan",
+        "Quanwei Yang",
+        "Dongwei Pan",
+        "Jianglin Fu",
+        "Haocheng Feng",
+        "Wei He",
+        "Kaisiyuan Wang",
+        "Hang Zhou",
+        "Angela Yao"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2026-04-01T00:00:00.000Z"
+    },
+    {
+      "id": "2604.04780",
+      "title": "CLEAR: Unlocking Generative Potential for Degraded Image Understanding in Unified Multimodal Models",
+      "authors": [
+        "Xiangzhao Hao",
+        "Zefeng Zhang",
+        "Zhenyu Zhang",
+        "Linhao Yu",
+        "Yao Chen",
+        "Yiqian Zhang",
+        "Haiyun Guo",
+        "Shuohuan Wang",
+        "Yu Sun"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/haoxiangzhao12138/CLEAR",
+      "published": "2026-04-06T00:00:00.000Z"
+    },
+    {
+      "id": "2604.03295",
+      "title": "Scaling Teams or Scaling Time? Memory Enabled Lifelong Learning in LLM Multi-Agent Systems",
+      "authors": [
+        "Shanglin Wu",
+        "Yuyang Luo",
+        "Yueqing Liang",
+        "Kaiwen Shi",
+        "Yanfang Ye",
+        "Ali Payani",
+        "Kai Shu"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/ShanglinWu/MAS_lifelong_learning",
+      "published": "2026-03-27T00:00:00.000Z"
+    },
+    {
+      "id": "2604.04155",
+      "title": "The Geometric Alignment Tax: Tokenization vs. Continuous Geometry in Scientific Foundation Models",
+      "authors": [
+        "Prashant C. Raju"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/prashantcraju/geometric-alignment-tax",
+      "published": "2026-04-05T00:00:00.000Z"
+    },
+    {
+      "id": "2604.04562",
+      "title": "Paper Espresso: From Paper Overload to Research Insight",
+      "authors": [
+        "Mingzhe Du",
+        "Luu Anh Tuan",
+        "Dong Huang",
+        "See-kiong Ng"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2026-04-06T00:00:00.000Z"
+    },
+    {
+      "id": "2604.04787",
+      "title": "AvatarPointillist: AutoRegressive 4D Gaussian Avatarization",
+      "authors": [
+        "Hongyu Liu",
+        "Xuan Wang",
+        "Yating Wang",
+        "Zijian Wu",
+        "Ziyu Wan",
+        "Yue Ma",
+        "Runtao Liu",
+        "Boyao Zhou",
+        "Yujun Shen",
+        "Qifeng Chen"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/KumapowerLIU/AvatarPointillist",
+      "published": "2026-04-06T00:00:00.000Z"
+    },
+    {
+      "id": "2604.04522",
+      "title": "HDP: A Lightweight Cryptographic Protocol for Human Delegation Provenance in Agentic AI Systems",
+      "authors": [
+        "Asiri Dalugoda"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2026-04-06T00:00:00.000Z"
+    },
+    {
+      "id": "2604.02605",
+      "title": "Do Audio-Visual Large Language Models Really See and Hear?",
+      "authors": [
+        "Ramaneswaran Selvakumar",
+        "Kaousheik Jayakumar",
+        "S Sakshi",
+        "Sreyan Ghosh",
+        "Ruohan Gao",
+        "Dinesh Manocha"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/ramaneswaran/avllm_interpretability",
+      "published": "2026-04-03T00:00:00.000Z"
+    },
+    {
+      "id": "2604.00375",
+      "title": "Locally Confident, Globally Stuck: The Quality-Exploration Dilemma in Diffusion Language Models",
+      "authors": [
+        "Liancheng Fang",
+        "Aiwei Liu",
+        "Henry Peng Zou",
+        "Yankai Chen",
+        "Enze Ma",
+        "Leyi Pan",
+        "Chunyu Miao",
+        "Wei-Chieh Huang",
+        "Xue Liu",
+        "Philip S. Yu"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-04-01T00:00:00.000Z"
+    },
+    {
+      "id": "2604.04767",
+      "title": "Cog-DRIFT: Exploration on Adaptively Reformulated Instances Enables Learning from Hard Reasoning Problems",
+      "authors": [
+        "Justin Chih-Yao Chen",
+        "Archiki Prasad",
+        "Zaid Khan",
+        "Joykirat Singh",
+        "Runchu Tian",
+        "Elias Stengel-Eskin",
+        "Mohit Bansal"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/dinobby/Cog-DRIFT",
+      "published": "2026-04-06T00:00:00.000Z"
+    },
+    {
+      "id": "2604.03687",
+      "title": "SciLT: Long-Tailed Classification in Scientific Image Domains",
+      "authors": [
+        "Jiahao Chen",
+        "Bing Su"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-04-04T00:00:00.000Z"
+    },
+    {
+      "id": "2604.01483",
+      "title": "Type-Checked Compliance: Deterministic Guardrails for Agentic Financial Systems Using Lean 4 Theorem Proving",
+      "authors": [
+        "Devakh Rashie",
+        "Veda Rashi"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/arkanemystic/lean-agent-protocol",
+      "published": "2026-04-01T00:00:00.000Z"
+    },
+    {
+      "id": "2604.03266",
+      "title": "Emergent Compositional Communication for Latent World Properties",
+      "authors": [
+        "Tomek Kaszyński"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/TomekKaszynski/emergent-physics-comm",
+      "published": "2026-03-18T00:00:00.000Z"
+    },
+    {
+      "id": "2604.03695",
+      "title": "POEMetric: The Last Stanza of Humanity",
+      "authors": [
+        "Bingru Li",
+        "Han Wang",
+        "Hazel Wilkinson"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/Bingru-Li/POEMetric",
+      "published": "2026-04-04T00:00:00.000Z"
+    }
+  ]
+}

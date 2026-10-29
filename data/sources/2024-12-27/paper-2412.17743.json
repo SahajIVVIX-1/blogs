@@ -1,0 +1,7 @@
+{
+  "id": "2412.17743",
+  "html": "https://arxiv.org/html/2412.17743",
+  "limitations": null,
+  "conclusion": "During our training process, we thoroughly explore and utilize various training stabilization techniques. Below, we provide a brief introduction to these methods. 3.3.1 Warmup Based Methods To ensure the model transitions smoothly from its initial state to a stable training phase, we empirically find that employing learning rate warmup and sequence length warmup is often effective, which are detailed below. Learning rate warmup Learning rate warmup involves gradually increasing the learning rate from a small initial value ( e.g., [math] ) to the max learning rate in [math] steps. Wortsman et al. (2024) suggests that a longer learning rate warmup can reduce sensitivity to the learning rate, as measured by training stability across different learning rates. We empirically verify this conclusion and find increasing [math] indeed enhances training stability. For our final training, we set [m",
+  "figure": null
+}

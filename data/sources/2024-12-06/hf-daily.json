@@ -1,0 +1,584 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-12-06",
+  "fetched_at": "2026-10-29T15:29:53.974Z",
+  "candidates": [
+    {
+      "id": "2412.04467",
+      "title": "VisionZip: Longer is Better but Not Necessary in Vision Language Models",
+      "authors": [
+        "Senqiao Yang",
+        "Yukang Chen",
+        "Zhuotao Tian",
+        "Chengyao Wang",
+        "Jingyao Li",
+        "Bei Yu",
+        "Jiaya Jia"
+      ],
+      "upvotes": 119,
+      "github": "https://github.com/dvlab-research/visionzip",
+      "published": "2024-12-05T18:59:53.000Z"
+    },
+    {
+      "id": "2412.01506",
+      "title": "Structured 3D Latents for Scalable and Versatile 3D Generation",
+      "authors": [
+        "Jianfeng Xiang",
+        "Zelong Lv",
+        "Sicheng Xu",
+        "Yu Deng",
+        "Ruicheng Wang",
+        "Bowen Zhang",
+        "Dong Chen",
+        "Xin Tong",
+        "Jiaolong Yang"
+      ],
+      "upvotes": 92,
+      "github": "https://github.com/Microsoft/TRELLIS",
+      "published": "2024-12-02T13:58:38.000Z"
+    },
+    {
+      "id": "2412.04454",
+      "title": "Aguvis: Unified Pure Vision Agents for Autonomous GUI Interaction",
+      "authors": [
+        "Yiheng Xu",
+        "Zekun Wang",
+        "Junli Wang",
+        "Dunjie Lu",
+        "Tianbao Xie",
+        "Amrita Saha",
+        "Doyen Sahoo",
+        "Tao Yu",
+        "Caiming Xiong"
+      ],
+      "upvotes": 70,
+      "github": "https://github.com/xlang-ai/aguvis",
+      "published": "2024-12-05T18:58:26.000Z"
+    },
+    {
+      "id": "2412.04424",
+      "title": "Florence-VL: Enhancing Vision-Language Models with Generative Vision Encoder and Depth-Breadth Fusion",
+      "authors": [
+        "Jiuhai Chen",
+        "Jianwei Yang",
+        "Haiping Wu",
+        "Dianqi Li",
+        "Jianfeng Gao",
+        "Tianyi Zhou",
+        "Bin Xiao"
+      ],
+      "upvotes": 63,
+      "github": "https://github.com/JiuhaiChen/CVPR2025-Florence-VL",
+      "published": "2024-12-05T18:50:39.000Z"
+    },
+    {
+      "id": "2412.04468",
+      "title": "NVILA: Efficient Frontier Visual Language Models",
+      "authors": [
+        "Zhijian Liu",
+        "Ligeng Zhu",
+        "Baifeng Shi",
+        "Zhuoyang Zhang",
+        "Yuming Lou",
+        "Shang Yang",
+        "Haocheng Xi",
+        "Shiyi Cao",
+        "Yuxian Gu",
+        "Dacheng Li",
+        "Xiuyu Li",
+        "Yunhao Fang",
+        "Yukang Chen",
+        "Cheng-Yu Hsieh",
+        "De-An Huang",
+        "An-Chieh Cheng",
+        "Vishwesh Nath",
+        "Jinyi Hu",
+        "Sifei Liu",
+        "Ranjay Krishna",
+        "Daguang Xu",
+        "Xiaolong Wang",
+        "Pavlo Molchanov",
+        "Jan Kautz",
+        "Hongxu Yin",
+        "Song Han",
+        "Yao Lu"
+      ],
+      "upvotes": 61,
+      "github": "https://github.com/NVlabs/VILA",
+      "published": "2024-12-05T18:59:55.000Z"
+    },
+    {
+      "id": "2412.03679",
+      "title": "Evaluating Language Models as Synthetic Data Generators",
+      "authors": [
+        "Seungone Kim",
+        "Juyoung Suk",
+        "Xiang Yue",
+        "Vijay Viswanathan",
+        "Seongyun Lee",
+        "Yizhong Wang",
+        "Kiril Gashteovski",
+        "Carolin Lawrence",
+        "Sean Welleck",
+        "Graham Neubig"
+      ],
+      "upvotes": 47,
+      "github": "https://github.com/neulab/data-agora",
+      "published": "2024-12-04T19:20:32.000Z"
+    },
+    {
+      "id": "2412.04455",
+      "title": "Code-as-Monitor: Constraint-aware Visual Programming for Reactive and Proactive Robotic Failure Detection",
+      "authors": [
+        "Enshen Zhou",
+        "Qi Su",
+        "Cheng Chi",
+        "Zhizheng Zhang",
+        "Zhongyuan Wang",
+        "Tiejun Huang",
+        "Lu Sheng",
+        "He Wang"
+      ],
+      "upvotes": 36,
+      "github": null,
+      "published": "2024-12-05T18:58:27.000Z"
+    },
+    {
+      "id": "2412.03895",
+      "title": "A Noise is Worth Diffusion Guidance",
+      "authors": [
+        "Donghoon Ahn",
+        "Jiwon Kang",
+        "Sanghyun Lee",
+        "Jaewon Min",
+        "Minjae Kim",
+        "Wooseok Jang",
+        "Hyoungwon Cho",
+        "Sayak Paul",
+        "SeonHwa Kim",
+        "Eunju Cha",
+        "Kyong Hwan Jin",
+        "Seungryong Kim"
+      ],
+      "upvotes": 29,
+      "github": null,
+      "published": "2024-12-05T06:09:56.000Z"
+    },
+    {
+      "id": "2412.03632",
+      "title": "MV-Adapter: Multi-view Consistent Image Generation Made Easy",
+      "authors": [
+        "Zehuan Huang",
+        "Yuan-Chen Guo",
+        "Haoran Wang",
+        "Ran Yi",
+        "Lizhuang Ma",
+        "Yan-Pei Cao",
+        "Lu Sheng"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/huanngzh/MV-Adapter",
+      "published": "2024-12-04T18:48:20.000Z"
+    },
+    {
+      "id": "2412.04146",
+      "title": "AnyDressing: Customizable Multi-Garment Virtual Dressing via Latent Diffusion Models",
+      "authors": [
+        "Xinghui Li",
+        "Qichao Sun",
+        "Pengze Zhang",
+        "Fulong Ye",
+        "Zhichao Liao",
+        "Wanquan Feng",
+        "Songtao Zhao",
+        "Qian He"
+      ],
+      "upvotes": 22,
+      "github": null,
+      "published": "2024-12-05T13:16:47.000Z"
+    },
+    {
+      "id": "2412.01339",
+      "title": "Negative Token Merging: Image-based Adversarial Feature Guidance",
+      "authors": [
+        "Jaskirat Singh",
+        "Lindsey Li",
+        "Weijia Shi",
+        "Ranjay Krishna",
+        "Yejin Choi",
+        "Pang Wei Koh",
+        "Michael F. Cohen",
+        "Stephen Gould",
+        "Liang Zheng",
+        "Luke Zettlemoyer"
+      ],
+      "upvotes": 22,
+      "github": null,
+      "published": "2024-12-02T10:06:57.000Z"
+    },
+    {
+      "id": "2412.03304",
+      "title": "Global MMLU: Understanding and Addressing Cultural and Linguistic Biases in Multilingual Evaluation",
+      "authors": [
+        "Shivalika Singh",
+        "Angelika Romanou",
+        "Clémentine Fourrier",
+        "David I. Adelani",
+        "Jian Gang Ngui",
+        "Daniel Vila-Suero",
+        "Peerat Limkonchotiwat",
+        "Kelly Marchisio",
+        "Wei Qi Leong",
+        "Yosephine Susanto",
+        "Raymond Ng",
+        "Shayne Longpre",
+        "Wei-Yin Ko",
+        "Madeline Smith",
+        "Antoine Bosselut",
+        "Alice Oh",
+        "Andre F. T. Martins",
+        "Leshem Choshen",
+        "Daphne Ippolito",
+        "Enzo Ferrante",
+        "Marzieh Fadaee",
+        "Beyza Ermis",
+        "Sara Hooker"
+      ],
+      "upvotes": 20,
+      "github": null,
+      "published": "2024-12-04T13:27:09.000Z"
+    },
+    {
+      "id": "2412.04315",
+      "title": "Densing Law of LLMs",
+      "authors": [
+        "Chaojun Xiao",
+        "Jie Cai",
+        "Weilin Zhao",
+        "Guoyang Zeng",
+        "Xu Han",
+        "Zhiyuan Liu",
+        "Maosong Sun"
+      ],
+      "upvotes": 19,
+      "github": null,
+      "published": "2024-12-05T16:31:13.000Z"
+    },
+    {
+      "id": "2412.04431",
+      "title": "Infinity: Scaling Bitwise AutoRegressive Modeling for High-Resolution Image Synthesis",
+      "authors": [
+        "Jian Han",
+        "Jinlai Liu",
+        "Yi Jiang",
+        "Bin Yan",
+        "Yuqi Zhang",
+        "Zehuan Yuan",
+        "Bingyue Peng",
+        "Xiaobing Liu"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2024-12-05T18:53:02.000Z"
+    },
+    {
+      "id": "2412.02142",
+      "title": "Personalized Multimodal Large Language Models: A Survey",
+      "authors": [
+        "Junda Wu",
+        "Hanjia Lyu",
+        "Yu Xia",
+        "Zhehao Zhang",
+        "Joe Barrow",
+        "Ishita Kumar",
+        "Mehrnoosh Mirtaheri",
+        "Hongjie Chen",
+        "Ryan A. Rossi",
+        "Franck Dernoncourt",
+        "Tong Yu",
+        "Ruiyi Zhang",
+        "Jiuxiang Gu",
+        "Nesreen K. Ahmed",
+        "Yu Wang",
+        "Xiang Chen",
+        "Hanieh Deilamsalehy",
+        "Namyong Park",
+        "Sungchul Kim",
+        "Huanrui Yang",
+        "Subrata Mitra",
+        "Zhengmian Hu",
+        "Nedim Lipka",
+        "Dang Nguyen",
+        "Yue Zhao",
+        "Jiebo Luo",
+        "Julian McAuley"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2024-12-03T03:59:03.000Z"
+    },
+    {
+      "id": "2412.04139",
+      "title": "Monet: Mixture of Monosemantic Experts for Transformers",
+      "authors": [
+        "Jungwoo Park",
+        "Young Jin Ahn",
+        "Kee-Eung Kim",
+        "Jaewoo Kang"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/dmis-lab/monet",
+      "published": "2024-12-05T13:06:03.000Z"
+    },
+    {
+      "id": "2412.04280",
+      "title": "HumanEdit: A High-Quality Human-Rewarded Dataset for Instruction-based Image Editing",
+      "authors": [
+        "Jinbin Bai",
+        "Wei Chow",
+        "Ling Yang",
+        "Xiangtai Li",
+        "Juncheng Li",
+        "Hanwang Zhang",
+        "Shuicheng Yan"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/viiika/humanedit",
+      "published": "2024-12-05T16:00:59.000Z"
+    },
+    {
+      "id": "2412.01169",
+      "title": "OmniFlow: Any-to-Any Generation with Multi-Modal Rectified Flows",
+      "authors": [
+        "Shufan Li",
+        "Konstantinos Kallidromitis",
+        "Akash Gokul",
+        "Zichun Liao",
+        "Yusuke Kato",
+        "Kazuki Kozuka",
+        "Aditya Grover"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/jacklishufan/omniflows",
+      "published": "2024-12-02T06:13:01.000Z"
+    },
+    {
+      "id": "2412.01820",
+      "title": "Towards Universal Soccer Video Understanding",
+      "authors": [
+        "Jiayuan Rao",
+        "Haoning Wu",
+        "Hao Jiang",
+        "Ya Zhang",
+        "Yanfeng Wang",
+        "Weidi Xie"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/jyrao/UniSoccer",
+      "published": "2024-12-02T18:58:04.000Z"
+    },
+    {
+      "id": "2412.04378",
+      "title": "Discriminative Fine-tuning of LVLMs",
+      "authors": [
+        "Yassine Ouali",
+        "Adrian Bulat",
+        "Alexandros Xenos",
+        "Anestis Zaganidis",
+        "Ioannis Maniadis Metaxas",
+        "Georgios Tzimiropoulos",
+        "Brais Martinez"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2024-12-05T17:54:27.000Z"
+    },
+    {
+      "id": "2412.04003",
+      "title": "Marco-LLM: Bridging Languages via Massive Multilingual Training for Cross-Lingual Enhancement",
+      "authors": [
+        "Lingfeng Ming",
+        "Bo Zeng",
+        "Chenyang Lyu",
+        "Tianqi Shi",
+        "Yu Zhao",
+        "Xue Yang",
+        "Yefeng Liu",
+        "Yiyu Wang",
+        "Linlong Xu",
+        "Yangyang Liu",
+        "Xiaohu Zhao",
+        "Hao Wang",
+        "Heng Liu",
+        "Hao Zhou",
+        "Huifeng Yin",
+        "Zifu Shang",
+        "Haijun Li",
+        "Longyue Wang",
+        "Weihua Luo",
+        "Kaifu Zhang"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2024-12-05T09:26:58.000Z"
+    },
+    {
+      "id": "2412.04448",
+      "title": "MEMO: Memory-Guided Diffusion for Expressive Talking Video Generation",
+      "authors": [
+        "Longtao Zheng",
+        "Yifan Zhang",
+        "Hanzhong Guo",
+        "Jiachun Pan",
+        "Zhenxiong Tan",
+        "Jiahao Lu",
+        "Chuanxin Tang",
+        "Bo An",
+        "Shuicheng Yan"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2024-12-05T18:57:26.000Z"
+    },
+    {
+      "id": "2412.04062",
+      "title": "ZipAR: Accelerating Autoregressive Image Generation through Spatial Locality",
+      "authors": [
+        "Yefei He",
+        "Feng Chen",
+        "Yuanyu He",
+        "Shaoxuan He",
+        "Hong Zhou",
+        "Kaipeng Zhang",
+        "Bohan Zhuang"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/ThisisBillhe/ZipAR",
+      "published": "2024-12-05T10:57:08.000Z"
+    },
+    {
+      "id": "2411.19574",
+      "title": "KV Shifting Attention Enhances Language Modeling",
+      "authors": [
+        "Mingyu Xu",
+        "Wei Cheng",
+        "Bingning Wang",
+        "Weipeng Chen"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/erogol/blagpt",
+      "published": "2024-11-29T09:42:38.000Z"
+    },
+    {
+      "id": "2412.04462",
+      "title": "4Real-Video: Learning Generalizable Photo-Realistic 4D Video Diffusion",
+      "authors": [
+        "Chaoyang Wang",
+        "Peiye Zhuang",
+        "Tuan Duc Ngo",
+        "Willi Menapace",
+        "Aliaksandr Siarohin",
+        "Michael Vasilkovsky",
+        "Ivan Skorokhodov",
+        "Sergey Tulyakov",
+        "Peter Wonka",
+        "Hsin-Ying Lee"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2024-12-05T18:59:41.000Z"
+    },
+    {
+      "id": "2412.03704",
+      "title": "Scaling Inference-Time Search with Vision Value Model for Improved Visual Comprehension",
+      "authors": [
+        "Wang Xiyao",
+        "Yang Zhengyuan",
+        "Li Linjie",
+        "Lu Hongjin",
+        "Xu Yuancheng",
+        "Lin Chung-Ching Lin",
+        "Lin Kevin",
+        "Huang Furong",
+        "Wang Lijuan"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/si0wang/visvm",
+      "published": "2024-12-04T20:35:07.000Z"
+    },
+    {
+      "id": "2412.04449",
+      "title": "p-MoD: Building Mixture-of-Depths MLLMs via Progressive Ratio Decay",
+      "authors": [
+        "Jun Zhang",
+        "Desen Meng",
+        "Ji Qi",
+        "Zhenpeng Huang",
+        "Tao Wu",
+        "Limin Wang"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/mcg-nju/p-mod",
+      "published": "2024-12-05T18:58:03.000Z"
+    },
+    {
+      "id": "2412.04106",
+      "title": "MRGen: Diffusion-based Controllable Data Engine for MRI Segmentation towards Unannotated Modalities",
+      "authors": [
+        "Haoning Wu",
+        "Ziheng Zhao",
+        "Ya Zhang",
+        "Weidi Xie",
+        "Yanfeng Wang"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/haoningwu3639/MRGen",
+      "published": "2024-12-04T16:34:22.000Z"
+    },
+    {
+      "id": "2412.04262",
+      "title": "SynFinTabs: A Dataset of Synthetic Financial Tables for Information and Table Extraction",
+      "authors": [
+        "Ethan Bradley",
+        "Muhammad Roman",
+        "Karen Rafferty",
+        "Barry Devereux"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/ethanbradley/synfintabgen",
+      "published": "2024-12-05T15:42:59.000Z"
+    },
+    {
+      "id": "2412.04403",
+      "title": "Establishing Task Scaling Laws via Compute-Efficient Model Ladders",
+      "authors": [
+        "Akshita Bhagia",
+        "Jiacheng Liu",
+        "Alexander Wettig",
+        "David Heineman",
+        "Oyvind Tafjord",
+        "Ananya Harsh Jha",
+        "Luca Soldaini",
+        "Noah A. Smith",
+        "Dirk Groeneveld",
+        "Pang Wei Koh",
+        "Jesse Dodge",
+        "Hannaneh Hajishirzi"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2024-12-05T18:21:49.000Z"
+    },
+    {
+      "id": "2412.04363",
+      "title": "Challenges in Trustworthy Human Evaluation of Chatbots",
+      "authors": [
+        "Wenting Zhao",
+        "Alexander M. Rush",
+        "Tanya Goyal"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2024-12-05T17:22:04.000Z"
+    }
+  ]
+}

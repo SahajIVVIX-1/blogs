@@ -1,0 +1,616 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-11-26",
+  "fetched_at": "2026-10-29T15:33:54.659Z",
+  "candidates": [
+    {
+      "id": "2511.17592",
+      "title": "GigaEvo: An Open Source Optimization Framework Powered By LLMs And Evolution Algorithms",
+      "authors": [
+        "Valentin Khrulkov",
+        "Andrey Galichin",
+        "Denis Bashkirov",
+        "Dmitry Vinichenko",
+        "Oleg Travkin",
+        "Roman Alferov",
+        "Andrey Kuznetsov",
+        "Ivan Oseledets"
+      ],
+      "upvotes": 122,
+      "github": "https://github.com/FusionBrainLab/gigaevo-core",
+      "published": "2025-11-17T14:44:47.000Z"
+    },
+    {
+      "id": "2511.19046",
+      "title": "MedSAM3: Delving into Segment Anything with Medical Concepts",
+      "authors": [
+        "Anglin Liu",
+        "Rundong Xue",
+        "Xu R. Cao",
+        "Yifan Shen",
+        "Yi Lu",
+        "Xiang Li",
+        "Qianqian Chen",
+        "Jintai Chen"
+      ],
+      "upvotes": 56,
+      "github": "https://github.com/Joey-S-Liu/MedSAM3",
+      "published": "2025-11-24T12:34:38.000Z"
+    },
+    {
+      "id": "2511.19900",
+      "title": "Agent0-VL: Exploring Self-Evolving Agent for Tool-Integrated Vision-Language Reasoning",
+      "authors": [
+        "Jiaqi Liu",
+        "Kaiwen Xiong",
+        "Peng Xia",
+        "Yiyang Zhou",
+        "Haonian Ji",
+        "Lu Feng",
+        "Siwei Han",
+        "Mingyu Ding",
+        "Huaxiu Yao"
+      ],
+      "upvotes": 49,
+      "github": null,
+      "published": "2025-11-25T04:15:14.000Z"
+    },
+    {
+      "id": "2511.20347",
+      "title": "Soft Adaptive Policy Optimization",
+      "authors": [
+        "Chang Gao",
+        "Chujie Zheng",
+        "Xiong-Hui Chen",
+        "Kai Dang",
+        "Shixuan Liu",
+        "Bowen Yu",
+        "An Yang",
+        "Shuai Bai",
+        "Jingren Zhou",
+        "Junyang Lin"
+      ],
+      "upvotes": 44,
+      "github": "https://github.com/modelscope/ms-swift",
+      "published": "2025-11-25T14:25:19.000Z"
+    },
+    {
+      "id": "2511.20626",
+      "title": "ROOT: Robust Orthogonalized Optimizer for Neural Network Training",
+      "authors": [
+        "Wei He",
+        "Kai Han",
+        "Hang Zhou",
+        "Hanting Chen",
+        "Zhicheng Liu",
+        "Xinghao Chen",
+        "Yunhe Wang"
+      ],
+      "upvotes": 36,
+      "github": "https://github.com/huawei-noah/noah-research",
+      "published": "2025-11-25T18:48:05.000Z"
+    },
+    {
+      "id": "2511.20462",
+      "title": "STARFlow-V: End-to-End Video Generative Modeling with Normalizing Flow",
+      "authors": [
+        "Jiatao Gu",
+        "Ying Shen",
+        "Tianrong Chen",
+        "Laurent Dinh",
+        "Yuyang Wang",
+        "Miguel Angel Bautista",
+        "David Berthelot",
+        "Josh Susskind",
+        "Shuangfei Zhai"
+      ],
+      "upvotes": 33,
+      "github": "https://github.com/apple/ml-starflow",
+      "published": "2025-11-25T16:27:58.000Z"
+    },
+    {
+      "id": "2511.20561",
+      "title": "Does Understanding Inform Generation in Unified Multimodal Models? From Analysis to Path Forward",
+      "authors": [
+        "Yuwei Niu",
+        "Weiyang Jin",
+        "Jiaqi Liao",
+        "Chaoran Feng",
+        "Peng Jin",
+        "Bin Lin",
+        "Zongjian Li",
+        "Bin Zhu",
+        "Weihao Yu",
+        "Li Yuan"
+      ],
+      "upvotes": 33,
+      "github": "https://github.com/PKU-YuanGroup/UniSandBox",
+      "published": "2025-11-25T17:58:48.000Z"
+    },
+    {
+      "id": "2511.20635",
+      "title": "iMontage: Unified, Versatile, Highly Dynamic Many-to-many Image Generation",
+      "authors": [
+        "Zhoujie Fu",
+        "Xianfang Zeng",
+        "Jinghong Lan",
+        "Xinyao Liao",
+        "Cheng Chen",
+        "Junyi Chen",
+        "Jiacheng Wei",
+        "Wei Cheng",
+        "Shiyu Liu",
+        "Yunuo Chen",
+        "Gang Yu",
+        "Guosheng Lin"
+      ],
+      "upvotes": 32,
+      "github": "https://github.com/Kr1sJFU/iMontage",
+      "published": "2025-11-25T18:54:16.000Z"
+    },
+    {
+      "id": "2511.19861",
+      "title": "GigaWorld-0: World Models as Data Engine to Empower Embodied AI",
+      "authors": [
+        "GigaWorld Team",
+        "Angen Ye",
+        "Boyuan Wang",
+        "Chaojun Ni",
+        "Guan Huang",
+        "Guosheng Zhao",
+        "Haoyun Li",
+        "Jiagang Zhu",
+        "Kerui Li",
+        "Mengyuan Xu",
+        "Qiuping Deng",
+        "Siting Wang",
+        "Wenkang Qin",
+        "Xinze Chen",
+        "Xiaofeng Wang",
+        "Yankai Wang",
+        "Yu Cao",
+        "Yifan Chang",
+        "Yuan Xu",
+        "Yun Ye",
+        "Yang Wang",
+        "Yukun Zhou",
+        "Zhengyuan Zhang",
+        "Zhehao Dong",
+        "Zheng Zhu"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/open-gigaai/giga-world-0",
+      "published": "2025-11-25T03:00:42.000Z"
+    },
+    {
+      "id": "2511.20102",
+      "title": "SSA: Sparse Sparse Attention by Aligning Full and Sparse Attention Outputs in Feature Space",
+      "authors": [
+        "Zhenyi Shen",
+        "Junru Lu",
+        "Lin Gui",
+        "Jiazheng Li",
+        "Yulan He",
+        "Di Yin",
+        "Xing Sun"
+      ],
+      "upvotes": 29,
+      "github": "https://github.com/zhenyi4/ssa",
+      "published": "2025-11-25T09:21:57.000Z"
+    },
+    {
+      "id": "2511.19320",
+      "title": "SteadyDancer: Harmonized and Coherent Human Image Animation with First-Frame Preservation",
+      "authors": [
+        "Jiaming Zhang",
+        "Shengming Cao",
+        "Rui Li",
+        "Xiaotong Zhao",
+        "Yutao Cui",
+        "Xinglin Hou",
+        "Gangshan Wu",
+        "Haolan Chen",
+        "Yu Xu",
+        "Limin Wang",
+        "Kai Ma"
+      ],
+      "upvotes": 26,
+      "github": "https://github.com/MCG-NJU/SteadyDancer",
+      "published": "2025-11-24T17:15:55.000Z"
+    },
+    {
+      "id": "2511.18659",
+      "title": "CLaRa: Bridging Retrieval and Generation with Continuous Latent Reasoning",
+      "authors": [
+        "Jie He",
+        "Richard He Bai",
+        "Sinead Williamson",
+        "Jeff Z. Pan",
+        "Navdeep Jaitly",
+        "Yizhe Zhang"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/apple/ml-clara",
+      "published": "2025-11-24T00:11:14.000Z"
+    },
+    {
+      "id": "2511.19575",
+      "title": "HunyuanOCR Technical Report",
+      "authors": [
+        "Hunyuan Vision Team",
+        "Pengyuan Lyu",
+        "Xingyu Wan",
+        "Gengluo Li",
+        "Shangpin Peng",
+        "Weinong Wang",
+        "Liang Wu",
+        "Huawen Shen",
+        "Yu Zhou",
+        "Canhui Tang",
+        "Qi Yang",
+        "Qiming Peng",
+        "Bin Luo",
+        "Hower Yang",
+        "Houwen Peng",
+        "Hongming Yang",
+        "Senhao Xie",
+        "Binghong Wu",
+        "Mana Yang",
+        "Sergey Wang",
+        "Raccoon Liu",
+        "Dick Zhu",
+        "Jie Jiang",
+        "Linus",
+        "Han Hu",
+        "Chengquan Zhang"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/Tencent-Hunyuan/HunyuanOCR",
+      "published": "2025-11-24T17:59:59.000Z"
+    },
+    {
+      "id": "2511.19663",
+      "title": "Fara-7B: An Efficient Agentic Model for Computer Use",
+      "authors": [
+        "Ahmed Awadallah",
+        "Yash Lara",
+        "Raghav Magazine",
+        "Hussein Mozannar",
+        "Akshay Nambi",
+        "Yash Pandya",
+        "Aravind Rajeswaran",
+        "Corby Rosset",
+        "Alexey Taymanov",
+        "Vibhav Vineet",
+        "Spencer Whitehead",
+        "Andrew Zhao"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/microsoft/fara",
+      "published": "2025-11-24T19:56:28.000Z"
+    },
+    {
+      "id": "2511.20123",
+      "title": "UltraViCo: Breaking Extrapolation Limits in Video Diffusion Transformers",
+      "authors": [
+        "Min Zhao",
+        "Hongzhou Zhu",
+        "Yingze Wang",
+        "Bokai Yan",
+        "Jintao Zhang",
+        "Guande He",
+        "Ling Yang",
+        "Chongxuan Li",
+        "Jun Zhu"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/thu-ml/DiT-Extrapolation",
+      "published": "2025-11-25T09:44:10.000Z"
+    },
+    {
+      "id": "2511.18886",
+      "title": "MagicWorld: Interactive Geometry-driven Video World Exploration",
+      "authors": [
+        "Guangyuan Li",
+        "Siming Zheng",
+        "Shuolin Xu",
+        "Jinwei Chen",
+        "Bo Li",
+        "Xiaobin Hu",
+        "Lei Zhao",
+        "Peng-Tao Jiang"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2025-11-24T08:41:28.000Z"
+    },
+    {
+      "id": "2511.20211",
+      "title": "OmniAlpha: A Sequence-to-Sequence Framework for Unified Multi-Task RGBA Generation",
+      "authors": [
+        "Hao Yu",
+        "Jiabo Zhan",
+        "Zile Wang",
+        "Jinglin Wang",
+        "Huaisong Zhang",
+        "Hongyu Li",
+        "Xinrui Chen",
+        "Yongxian Wei",
+        "Chun Yuan"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/Longin-Yu/OmniAlpha",
+      "published": "2025-11-25T11:34:51.000Z"
+    },
+    {
+      "id": "2511.16660",
+      "title": "Cognitive Foundations for Reasoning and Their Manifestation in LLMs",
+      "authors": [
+        "Priyanka Kargupta",
+        "Shuyue Stella Li",
+        "Haocheng Wang",
+        "Jinu Lee",
+        "Shan Chen",
+        "Orevaoghene Ahia",
+        "Dean Light",
+        "Thomas L. Griffiths",
+        "Max Kleiman-Weiner",
+        "Jiawei Han",
+        "Asli Celikyilmaz",
+        "Yulia Tsvetkov"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/pkargupta/cognitive_foundations",
+      "published": "2025-11-20T18:59:00.000Z"
+    },
+    {
+      "id": "2511.19827",
+      "title": "ReDirector: Creating Any-Length Video Retakes with Rotary Camera Encoding",
+      "authors": [
+        "Byeongjun Park",
+        "Byung-Hoon Kim",
+        "Hyungjin Chung",
+        "Jong Chul Ye"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/byeongjun-park/ReDirector",
+      "published": "2025-11-25T01:38:56.000Z"
+    },
+    {
+      "id": "2511.19773",
+      "title": "Scaling Agentic Reinforcement Learning for Tool-Integrated Reasoning in VLMs",
+      "authors": [
+        "Meng Lu",
+        "Ran Xu",
+        "Yi Fang",
+        "Wenxuan Zhang",
+        "Yue Yu",
+        "Gaurav Srivastava",
+        "Yuchen Zhuang",
+        "Mohamed Elhoseiny",
+        "Charles Fleming",
+        "Carl Yang",
+        "Zhengzhong Tu",
+        "Yang Xie",
+        "Guanghua Xiao",
+        "Hanrui Wang",
+        "Di Jin",
+        "Wenqi Shi",
+        "Xuan Wang"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/Lucanyc/VISTA-Gym",
+      "published": "2025-11-24T22:58:26.000Z"
+    },
+    {
+      "id": "2511.15703",
+      "title": "Think Visually, Reason Textually: Vision-Language Synergy in ARC",
+      "authors": [
+        "Beichen Zhang",
+        "Yuhang Zang",
+        "Xiaoyi Dong",
+        "Yuhang Cao",
+        "Haodong Duan",
+        "Dahua Lin",
+        "Jiaqi Wang"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/InternLM/ARC-VL",
+      "published": "2025-11-19T18:59:04.000Z"
+    },
+    {
+      "id": "2511.20415",
+      "title": "MajutsuCity: Language-driven Aesthetic-adaptive City Generation with Controllable 3D Assets and Layouts",
+      "authors": [
+        "Zilong Huang",
+        "Jun He",
+        "Xiaobin Huang",
+        "Ziyi Xiong",
+        "Yang Luo",
+        "Junyan Ye",
+        "Weijia Li",
+        "Yiping Chen",
+        "Ting Han"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/LongHZ140516/MajutsuCity",
+      "published": "2025-11-25T15:40:12.000Z"
+    },
+    {
+      "id": "2511.19430",
+      "title": "Cook and Clean Together: Teaching Embodied Agents for Parallel Task Execution",
+      "authors": [
+        "Dingkang Liang",
+        "Cheng Zhang",
+        "Xiaopeng Xu",
+        "Jianzhong Ju",
+        "Zhenbo Luo",
+        "Xiang Bai"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/H-EmbodVis/GRANT",
+      "published": "2025-11-24T18:59:17.000Z"
+    },
+    {
+      "id": "2511.18734",
+      "title": "Yo'City: Personalized and Boundless 3D Realistic City Scene Generation via Self-Critic Expansion",
+      "authors": [
+        "Keyang Lu",
+        "Sifan Zhou",
+        "Hongbin Xu",
+        "Gang Xu",
+        "Zhifei Yang",
+        "Yikai Wang",
+        "Zhen Xiao",
+        "Jieyi Long",
+        "Ming Li"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2025-11-24T04:02:48.000Z"
+    },
+    {
+      "id": "2511.20573",
+      "title": "VQ-VA World: Towards High-Quality Visual Question-Visual Answering",
+      "authors": [
+        "Chenhui Gou",
+        "Zilong Chen",
+        "Zeyu Wang",
+        "Feng Li",
+        "Deyao Zhu",
+        "Zicheng Duan",
+        "Kunchang Li",
+        "Chaorui Deng",
+        "Hongyi Yuan",
+        "Haoqi Fan",
+        "Cihang Xie",
+        "Jianfei Cai",
+        "Hamid Rezatofighi"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2025-11-25T18:06:22.000Z"
+    },
+    {
+      "id": "2511.20250",
+      "title": "Uplifting Table Tennis: A Robust, Real-World Application for 3D Trajectory and Spin Estimation",
+      "authors": [
+        "Daniel Kienzle",
+        "Katja Ludwig",
+        "Julian Lorenz",
+        "Shin'ichi Satoh",
+        "Rainer Lienhart"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/KieDani/UpliftingTableTennis",
+      "published": "2025-11-25T12:25:20.000Z"
+    },
+    {
+      "id": "2511.20562",
+      "title": "PhysChoreo: Physics-Controllable Video Generation with Part-Aware Semantic Grounding",
+      "authors": [
+        "Haoze Zhang",
+        "Tianyu Huang",
+        "Zichen Wan",
+        "Xiaowei Jin",
+        "Hongzhi Zhang",
+        "Hui Li",
+        "Wangmeng Zuo"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-11-25T17:59:04.000Z"
+    },
+    {
+      "id": "2511.20643",
+      "title": "Concept-Aware Batch Sampling Improves Language-Image Pretraining",
+      "authors": [
+        "Adhiraj Ghosh",
+        "Vishaal Udandarao",
+        "Thao Nguyen",
+        "Matteo Farina",
+        "Mehdi Cherti",
+        "Jenia Jitsev",
+        "Sewoong Oh",
+        "Elisa Ricci",
+        "Ludwig Schmidt",
+        "Matthias Bethge"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/bethgelab/cabs",
+      "published": "2025-11-25T18:58:07.000Z"
+    },
+    {
+      "id": "2511.17943",
+      "title": "SciEducator: Scientific Video Understanding and Educating via Deming-Cycle Multi-Agent System",
+      "authors": [
+        "Zhiyu Xu",
+        "Weilong Yan",
+        "Yufei Shi",
+        "Xin Meng",
+        "Tao He",
+        "Huiping Zhuang",
+        "Ming Li",
+        "Hehe Fan"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-11-22T06:54:16.000Z"
+    },
+    {
+      "id": "2511.19111",
+      "title": "DiffSeg30k: A Multi-Turn Diffusion Editing Benchmark for Localized AIGC Detection",
+      "authors": [
+        "Hai Ci",
+        "Ziheng Peng",
+        "Pei Yang",
+        "Yingxin Xuan",
+        "Mike Zheng Shou"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2025-11-24T13:43:54.000Z"
+    },
+    {
+      "id": "2511.20647",
+      "title": "Diverse Video Generation with Determinantal Point Process-Guided Policy Optimization",
+      "authors": [
+        "Tahira Kazimi",
+        "Connor Dunlop",
+        "Pinar Yanardag"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2025-11-25T18:59:45.000Z"
+    },
+    {
+      "id": "2511.18394",
+      "title": "Future Is Unevenly Distributed: Forecasting Ability of LLMs Depends on What We're Asking",
+      "authors": [
+        "Chinmay Karkar",
+        "Paras Chopra"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2025-11-23T10:41:19.000Z"
+    },
+    {
+      "id": "2511.15906",
+      "title": "Unified all-atom molecule generation with neural fields",
+      "authors": [
+        "Matthieu Kirchmeyer",
+        "Pedro O. Pinheiro",
+        "Emma Willett",
+        "Karolis Martinkus",
+        "Joseph Kleinhenz",
+        "Emily K. Makowski",
+        "Andrew M. Watkins",
+        "Vladimir Gligorijevic",
+        "Richard Bonneau",
+        "Saeed Saremi"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/prescient-design/funcbind",
+      "published": "2025-11-19T22:18:13.000Z"
+    }
+  ]
+}

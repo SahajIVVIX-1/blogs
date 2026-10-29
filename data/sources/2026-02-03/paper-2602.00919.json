@@ -1,0 +1,11 @@
+{
+  "id": "2602.00919",
+  "html": "https://arxiv.org/html/2602.00919",
+  "limitations": null,
+  "conclusion": "We presented Green-VLA , a staged vision–language–action framework that moves beyond raw scale toward quality alignment, action unification, and reinforcement learning fine-tuning. At the data level, our DataQA pipeline filters and smooths heterogeneous demonstrations and aligns temporal dynamics via optical flow–based resampling. At the policy level, a unified action space with embodiment prompts resolves cross-robot inconsistencies and enables positive transfer. At the training level, a target-balanced sampling schedule stabilizes multi-embodiment flow matching, while conservative RL fine-tuning boosts performance on difficult, long-horizon tasks requiring advanced dexterity. Finally, at inference, efficiency optimizations and guidance enable low-latency, instruction-following control—even for novel, language-specified items. Empirically, Green-VLA demonstrates strong pretrain-stage pe",
+  "figure": {
+    "path": "images/2026/paper-2602.00919.webp",
+    "src": "https://arxiv.org/html/2602.00919v2/GreenVLA_Pipeline5.png",
+    "caption": "Figure 1 : Green-VLA architecture. A multimodal vision–language model encodes instructions, camera views, and proprioception into tokens that feed a flow-matching action expert. A high-level task planner decomposes user goals into subtasks, queries the VLA loop, and uses auxiliary signals (episode end, OOD, and JPM-based guidance for precise target points) to ensure safe, instruction-faithful exec"
+  }
+}

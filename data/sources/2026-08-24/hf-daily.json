@@ -1,0 +1,395 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-08-24",
+  "fetched_at": "2026-10-29T15:36:38.852Z",
+  "candidates": [
+    {
+      "id": "2608.21156",
+      "title": "Graph Engineering in the Era of LLM Agents: From Individual Intelligence to System Intelligence",
+      "authors": [
+        "Yuyuan Feng",
+        "Zhishang Xiang",
+        "Chaobin Yang",
+        "Qichao Ma",
+        "Zerui Chen",
+        "Yujing Zhang",
+        "Ke Huang",
+        "Chuanjie Wu",
+        "Zhaoxu Liu",
+        "Yili Wang",
+        "Xin He",
+        "Jiapu Wang",
+        "Zijin Hong",
+        "Hao Chen",
+        "Yuanchen Bei",
+        "Kun Wang",
+        "Shengyuan Chen",
+        "Ningyu Zhang",
+        "Enyan Dai",
+        "Linhao Luo",
+        "Qingyi Pan",
+        "Qi Wang",
+        "Wenqi Fan",
+        "Guangjing Wang",
+        "Na Zou",
+        "Yangqiu Song",
+        "Xin Wang",
+        "Zechao Li",
+        "Xia Hu",
+        "Qing Li",
+        "Xiao Huang",
+        "Zhihong Zhang",
+        "Jinsong Su",
+        "Qinggang Zhang",
+        "Yi Chang"
+      ],
+      "upvotes": 69,
+      "github": "https://github.com/DEEP-JLU/Awesome-Graph-Engineering",
+      "published": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "2608.16425",
+      "title": "ParaTempo: Efficient Parallel Reasoning via Temporal Confidence",
+      "authors": [
+        "Xuteng Zhang",
+        "Wenhao Zeng",
+        "Xiaodong Gu",
+        "Chao Hu",
+        "Haotian Lin",
+        "Yuling Shi",
+        "Min Wang",
+        "Beijun Shen"
+      ],
+      "upvotes": 42,
+      "github": "https://github.com/ScottZhang812/ParaTempo",
+      "published": "2026-08-17T11:24:46.000Z"
+    },
+    {
+      "id": "2608.20910",
+      "title": "InfinityEdit: Infinite Video Editing with a Lightweight Edit-Ignition Adapter",
+      "authors": [
+        "Yunze Tong",
+        "Mushui Liu",
+        "Canyu Zhao",
+        "Shiyi Zhang",
+        "Didi Zhu",
+        "Peng Zhang",
+        "Wanggui He",
+        "Jinlong Liu",
+        "Ying Chen",
+        "Hao Jiang",
+        "Pipei Huang",
+        "Bo Zheng"
+      ],
+      "upvotes": 40,
+      "github": "https://github.com/YunzeTong/InfinityEdit",
+      "published": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "2608.12781",
+      "title": "Beyond Correctness: Benchmarking and Aligning Response Behaviors in Hybrid-Thinking MLLMs",
+      "authors": [
+        "Xinming Wang",
+        "Weinong Wang",
+        "Hongming Yang",
+        "Yansong Lin",
+        "Zheng Ruan",
+        "Shangpin Peng",
+        "Qiming Peng",
+        "Nan Qiao",
+        "Fengyuan Lu",
+        "Guoqing Ma",
+        "Marito Li",
+        "Songyang Zhang",
+        "Saiyong Yang",
+        "Han Hu",
+        "Yonglong Tian",
+        "Xu-Yao Zhang"
+      ],
+      "upvotes": 35,
+      "github": null,
+      "published": "2026-08-17T00:00:00.000Z"
+    },
+    {
+      "id": "2608.20061",
+      "title": "Let's Scale Step by Step: Compute-Efficient Hyperparameter Transfer for Large-Scale Mixture-of-Experts",
+      "authors": [
+        "Nayeon Kim",
+        "Hojin Lee",
+        "Yunju Bak",
+        "Jaesun Park",
+        "Boseop Kim"
+      ],
+      "upvotes": 32,
+      "github": null,
+      "published": "2026-08-20T13:57:43.000Z"
+    },
+    {
+      "id": "2608.21360",
+      "title": "OmniAssistBench: Assistant-style Interaction Benchmark for Omni-LLMs",
+      "authors": [
+        "Xianyun Sun",
+        "Chaoyou Fu",
+        "Zhengye Zhang",
+        "Feiyang Duan",
+        "Qingyuan Cao",
+        "Yonghui Niu",
+        "Sihang Yuan",
+        "Ge Zhang",
+        "Caifeng Shan"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/XianyunSun/OmniAssistBench",
+      "published": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "2608.16647",
+      "title": "Every Coin Has Two Sides: On the Dual Nature of Generalization in On-Policy Distillation of Large Language Models",
+      "authors": [
+        "Zhaoyi Li",
+        "Deyang Kong",
+        "Yuan Wei",
+        "Evan Yang",
+        "Ranran Shen",
+        "Mahardika Krisna Ihsani",
+        "Ming Yang",
+        "Wei Zhang",
+        "Chuan Hao",
+        "Jian Yang",
+        "Ran Tao",
+        "Bryan Dai",
+        "Shikun Zhang",
+        "Wei Ye",
+        "Ying Wei",
+        "Defu Lian"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2026-08-17T00:00:00.000Z"
+    },
+    {
+      "id": "2608.20634",
+      "title": "AgentMercury: Your Agent Can Synthesize Verifiable Environments for Business Scenarios at scale",
+      "authors": [
+        "Minbyul Jeong",
+        "Chanwoong Yoon"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "2608.21439",
+      "title": "WorldMind: Decoupled Game World Model for State-Aware NPC Behavior",
+      "authors": [
+        "Zhiyang Deng",
+        "Boran Zhang",
+        "Danze Chen",
+        "Yeying Jin"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/TeaWhiteBro/WorldMind",
+      "published": "2026-08-18T00:00:00.000Z"
+    },
+    {
+      "id": "2608.08676",
+      "title": "UniSpace: Unified Visual Representation and Scalable Multimodal Modeling",
+      "authors": [
+        "Jinbo Yan",
+        "Limeng Qiao",
+        "Jie Qin",
+        "Junyan He",
+        "Feize Wu",
+        "Guanglu Wan"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/yjb6/UniSpace",
+      "published": "2026-08-09T00:00:00.000Z"
+    },
+    {
+      "id": "2608.20886",
+      "title": "EviRank: Structured Relevance Evidence for Multimodal Image Re-ranking",
+      "authors": [
+        "Enjun Du",
+        "Siyi Liu",
+        "Zirong Chen",
+        "Xinyu Zuo",
+        "Jinwen Luo",
+        "Ruiwen Tao",
+        "Lisheng Duan",
+        "Haijin Liang",
+        "Jin Ma",
+        "Junfu Pu",
+        "Yongqi Zhang"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "2608.18484",
+      "title": "Partition the Support, Reconstruct the Residual: Training-Free Sparse Attention for Video Generation and World Models",
+      "authors": [
+        "Pardis Taghavi",
+        "Reza Langari",
+        "Gaurav Pandey"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2026-08-19T00:00:00.000Z"
+    },
+    {
+      "id": "2608.21134",
+      "title": "Llama-Mobile: Efficient 2.7-Bit Quantization of VLMs",
+      "authors": [
+        "Luka Ribar",
+        "Jeevan Bhoot",
+        "Douglas Orr"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "2608.18077",
+      "title": "Hydra-0: Action Flow for Generalist World Modeling and Control",
+      "authors": [
+        "Hongyu Li",
+        "Bowen Wen",
+        "Xinghao Zhu",
+        "Yixuan Wang",
+        "Yilun Du",
+        "Yunzhu Li",
+        "George Konidaris",
+        "Stan Birchfield",
+        "Soha Pouya",
+        "Chenran Li",
+        "Yan Chang"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2026-08-18T17:59:30.000Z"
+    },
+    {
+      "id": "2608.18184",
+      "title": "Human-Centric Intelligence in the Era of Foundation Models: A Survey",
+      "authors": [
+        "Yang Chen",
+        "Tianqi Wang",
+        "Xiaorui Jiang",
+        "Yilei Man",
+        "Yihua Shao",
+        "Mengyuan Liu",
+        "Zhi Chen",
+        "Xiaofeng Cao",
+        "Qibin Zhao",
+        "Chi Harold Liu",
+        "Albert Y. Zomaya",
+        "Nicu Sebe",
+        "Jingren Zhou",
+        "Dacheng Tao",
+        "Song Guo",
+        "Jingcai Guo"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/cseeyangchen/Human-Centric-AI",
+      "published": "2026-08-18T00:00:00.000Z"
+    },
+    {
+      "id": "2608.20210",
+      "title": "Daedalus-150M: A Convolution-Attention Hybrid Designed for CPU Inference",
+      "authors": [
+        "Christos Koutsiaris"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/unseen1980/daedalus",
+      "published": "2026-08-20T00:00:00.000Z"
+    },
+    {
+      "id": "2608.20707",
+      "title": "Towards Faithful Simulation of Human Shopping Behavior",
+      "authors": [
+        "Jiakai Tang",
+        "Yan Mi",
+        "Jing Yu",
+        "Yang Zhang",
+        "See-Kiong Ng",
+        "Qi Cao",
+        "Fei Sun",
+        "Xu Chen",
+        "Wen Chen",
+        "Jian Wu",
+        "Han Zhu",
+        "Bo Zheng"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "2608.21278",
+      "title": "CLEAR: Continuous Latent Adapter Routing for Utility-Preserving LLM Safety Alignment",
+      "authors": [
+        "Chengxiao Wang",
+        "Enyi Jiang",
+        "Xiaojing Liao",
+        "Sanmi Koyejo"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "2608.21031",
+      "title": "PhysCaP: Grounding Code-as-Policy Agent with Physics-Informed Exploration",
+      "authors": [
+        "Chen-Yu Lin",
+        "Jing-Wen Chen",
+        "Hsueh-En Chang",
+        "Hung-An Chen",
+        "Sheng-Hsun Chang",
+        "Chi-Pin Huang",
+        "Fu-En Yang",
+        "Min-Hung Chen",
+        "Yi-Ting Chen",
+        "Yu-Chiang Frank Wang",
+        "Shao-Hua Sun"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "2608.20438",
+      "title": "Peer-Voted LLM-Agent Stress Tests Find Feed-Induced Lexical Convergence but No Reliable Matched-Exposure Advantage for Distributed Sources",
+      "authors": [
+        "Rana Muhammad Usman",
+        "Dominic Williamson"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/ranausmanai/synthetic-social-networks",
+      "published": "2026-08-20T00:00:00.000Z"
+    },
+    {
+      "id": "2608.20574",
+      "title": "FlavourBench: Ranking Frontier Language Models with Executable Culinary Ground Truth",
+      "authors": [
+        "Josef Chen",
+        "Erim Hayretci"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/josefchen/flavourbench",
+      "published": "2026-08-20T00:00:00.000Z"
+    },
+    {
+      "id": "2608.20364",
+      "title": "Hadith computational science in the age of large language models: a critical narrative review",
+      "authors": [
+        "Md. Ashraful Haque",
+        "Riasat Islam"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2026-06-18T00:00:00.000Z"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "2409.02795",
+  "html": "https://arxiv.org/html/2409.02795",
+  "limitations": null,
+  "conclusion": "In this survey, we decompose the strategies of preference learning into several modules: Model, Data, Feedback, and Algorithm. By distinguishing different strategies according to their variants, we build a unified view of preference learning strategies and establish connections among them. We believe that although the core objectives of these alignment algorithms are essentially similar, their performance can vary significantly across different application scenarios. We leave the exploration of which variants perform better in specific contexts as our future work. Finally, we hope this survey provides researchers with a further understanding of preference learning and thereby inspires further research in this field.",
+  "figure": {
+    "path": "images/2024/paper-2409.02795.webp",
+    "src": "https://arxiv.org/html/2409.02795v5/Head_picture.png",
+    "caption": "Figure 1 : A unified view and an illustrative example of preference learning for LLMs."
+  }
+}

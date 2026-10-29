@@ -1,0 +1,315 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-05-15",
+  "fetched_at": "2026-10-29T15:31:31.237Z",
+  "candidates": [
+    {
+      "id": "2505.09568",
+      "title": "BLIP3-o: A Family of Fully Open Unified Multimodal Models-Architecture, Training and Dataset",
+      "authors": [
+        "Jiuhai Chen",
+        "Zhiyang Xu",
+        "Xichen Pan",
+        "Yushi Hu",
+        "Can Qin",
+        "Tom Goldstein",
+        "Lifu Huang",
+        "Tianyi Zhou",
+        "Saining Xie",
+        "Silvio Savarese",
+        "Le Xue",
+        "Caiming Xiong",
+        "Ran Xu"
+      ],
+      "upvotes": 101,
+      "github": "https://github.com/JiuhaiChen/BLIP3o",
+      "published": "2025-05-14T17:11:07.000Z"
+    },
+    {
+      "id": "2505.09343",
+      "title": "Insights into DeepSeek-V3: Scaling Challenges and Reflections on Hardware for AI Architectures",
+      "authors": [
+        "Chenggang Zhao",
+        "Chengqi Deng",
+        "Chong Ruan",
+        "Damai Dai",
+        "Huazuo Gao",
+        "Jiashi Li",
+        "Liyue Zhang",
+        "Panpan Huang",
+        "Shangyan Zhou",
+        "Shirong Ma",
+        "Wenfeng Liang",
+        "Ying He",
+        "Yuqing Wang",
+        "Yuxuan Liu",
+        "Y. X. Wei"
+      ],
+      "upvotes": 78,
+      "github": null,
+      "published": "2025-05-14T12:39:03.000Z"
+    },
+    {
+      "id": "2505.10557",
+      "title": "MathCoder-VL: Bridging Vision and Code for Enhanced Multimodal Mathematical Reasoning",
+      "authors": [
+        "Ke Wang",
+        "Junting Pan",
+        "Linda Wei",
+        "Aojun Zhou",
+        "Weikang Shi",
+        "Zimu Lu",
+        "Han Xiao",
+        "Yunqiao Yang",
+        "Houxing Ren",
+        "Mingjie Zhan",
+        "Hongsheng Li"
+      ],
+      "upvotes": 51,
+      "github": "https://github.com/mathllm/MathCoder",
+      "published": "2025-05-15T17:59:21.000Z"
+    },
+    {
+      "id": "2505.04410",
+      "title": "DeCLIP: Decoupled Learning for Open-Vocabulary Dense Perception",
+      "authors": [
+        "Junjie Wang",
+        "Bin Chen",
+        "Yulin Li",
+        "Bin Kang",
+        "Yichi Chen",
+        "Zhuotao Tian"
+      ],
+      "upvotes": 44,
+      "github": "https://github.com/xiaomoguhz/DeCLIP",
+      "published": "2025-05-07T13:46:34.000Z"
+    },
+    {
+      "id": "2505.09608",
+      "title": "LightLab: Controlling Light Sources in Images with Diffusion Models",
+      "authors": [
+        "Nadav Magar",
+        "Amir Hertz",
+        "Eric Tabellion",
+        "Yael Pritch",
+        "Alex Rav-Acha",
+        "Ariel Shamir",
+        "Yedid Hoshen"
+      ],
+      "upvotes": 38,
+      "github": null,
+      "published": "2025-05-14T17:57:27.000Z"
+    },
+    {
+      "id": "2505.09358",
+      "title": "Marigold: Affordable Adaptation of Diffusion-Based Image Generators for Image Analysis",
+      "authors": [
+        "Bingxin Ke",
+        "Kevin Qu",
+        "Tianfu Wang",
+        "Nando Metzger",
+        "Shengyu Huang",
+        "Bo Li",
+        "Anton Obukhov",
+        "Konrad Schindler"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/prs-eth/Marigold",
+      "published": "2025-05-14T13:07:03.000Z"
+    },
+    {
+      "id": "2502.12894",
+      "title": "CAST: Component-Aligned 3D Scene Reconstruction from an RGB Image",
+      "authors": [
+        "Kaixin Yao",
+        "Longwen Zhang",
+        "Xinhao Yan",
+        "Yan Zeng",
+        "Qixuan Zhang",
+        "Lan Xu",
+        "Wei Yang",
+        "Jiayuan Gu",
+        "Jingyi Yu"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2025-02-18T14:29:52.000Z"
+    },
+    {
+      "id": "2505.08787",
+      "title": "UniSkill: Imitating Human Videos via Cross-Embodiment Skill Representations",
+      "authors": [
+        "Hanjung Kim",
+        "Jaehyun Kang",
+        "Hyolim Kang",
+        "Meedeum Cho",
+        "Seon Joo Kim",
+        "Youngwoon Lee"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/KimHanjung/UniSkill",
+      "published": "2025-05-13T17:59:22.000Z"
+    },
+    {
+      "id": "2505.09558",
+      "title": "WavReward: Spoken Dialogue Models With Generalist Reward Evaluators",
+      "authors": [
+        "Shengpeng Ji",
+        "Tianle Liang",
+        "Yangzhuo Li",
+        "Jialong Zuo",
+        "Minghui Fang",
+        "Jinzheng He",
+        "Yifu Chen",
+        "Zhengqing Liu",
+        "Ziyue Jiang",
+        "Xize Cheng",
+        "Siqi Zheng",
+        "Jin Xu",
+        "Junyang Lin",
+        "Zhou Zhao"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/jishengpeng/wavreward",
+      "published": "2025-05-14T16:54:15.000Z"
+    },
+    {
+      "id": "2505.09439",
+      "title": "Omni-R1: Do You Really Need Audio to Fine-Tune Your Audio LLM?",
+      "authors": [
+        "Andrew Rouditchenko",
+        "Saurabhchand Bhati",
+        "Edson Araujo",
+        "Samuel Thomas",
+        "Hilde Kuehne",
+        "Rogerio Feris",
+        "James Glass"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2025-05-14T14:47:16.000Z"
+    },
+    {
+      "id": "2505.07849",
+      "title": "SweRank: Software Issue Localization with Code Ranking",
+      "authors": [
+        "Revanth Gangi Reddy",
+        "Tarun Suresh",
+        "JaeHyeok Doo",
+        "Ye Liu",
+        "Xuan Phi Nguyen",
+        "Yingbo Zhou",
+        "Semih Yavuz",
+        "Caiming Xiong",
+        "Heng Ji",
+        "Shafiq Joty"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2025-05-07T19:44:09.000Z"
+    },
+    {
+      "id": "2505.08455",
+      "title": "VCRBench: Exploring Long-form Causal Reasoning Capabilities of Large Video Language Models",
+      "authors": [
+        "Pritam Sarkar",
+        "Ali Etemad"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/pritamqu/VCRBench",
+      "published": "2025-05-13T11:35:58.000Z"
+    },
+    {
+      "id": "2505.06356",
+      "title": "Understanding and Mitigating Toxicity in Image-Text Pretraining Datasets: A Case Study on LLaVA",
+      "authors": [
+        "Karthik Reddy Kanjula",
+        "Surya Guthikonda",
+        "Nahid Alam",
+        "Shayekh Bin Islam"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2025-05-09T18:01:50.000Z"
+    },
+    {
+      "id": "2505.04793",
+      "title": "DetReIDX: A Stress-Test Dataset for Real-World UAV-Based Person Recognition",
+      "authors": [
+        "Kailash A. Hambarde",
+        "Nzakiese Mbongo",
+        "Pavan Kumar MP",
+        "Satish Mekewad",
+        "Carolina Fernandes",
+        "Gökhan Silahtaroğlu",
+        "Alice Nithya",
+        "Pawan Wasnik",
+        "MD. Rashidunnabi",
+        "Pranita Samale",
+        "Hugo Proença"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/kailashhambarde/DetReIDX",
+      "published": "2025-05-07T20:41:06.000Z"
+    },
+    {
+      "id": "2505.08910",
+      "title": "Behind Maya: Building a Multilingual Vision Language Model",
+      "authors": [
+        "Nahid Alam",
+        "Karthik Reddy Kanjula",
+        "Surya Guthikonda",
+        "Timothy Chung",
+        "Bala Krishna S Vegesna",
+        "Abhipsha Das",
+        "Anthony Susevski",
+        "Ryan Sze-Yin Chan",
+        "S M Iftekhar Uddin",
+        "Shayekh Bin Islam",
+        "Roshan Santhosh",
+        "Snegha A",
+        "Drishti Sharma",
+        "Chen Liu",
+        "Isha Chaturvedi",
+        "Genta Indra Winata",
+        "Ashvanth. S",
+        "Snehanshu Mukherjee",
+        "Alham Fikri Aji"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/nahidalam/maya",
+      "published": "2025-05-13T19:01:12.000Z"
+    },
+    {
+      "id": "2505.05587",
+      "title": "Steepest Descent Density Control for Compact 3D Gaussian Splatting",
+      "authors": [
+        "Peihao Wang",
+        "Yuehao Wang",
+        "Dilin Wang",
+        "Sreyas Mohan",
+        "Zhiwen Fan",
+        "Lemeng Wu",
+        "Ruisi Cai",
+        "Yu-Ying Yeh",
+        "Zhangyang Wang",
+        "Qiang Liu",
+        "Rakesh Ranjan"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/facebookresearch/SteepGS",
+      "published": "2025-05-08T18:41:38.000Z"
+    },
+    {
+      "id": "2505.08084",
+      "title": "Visually Interpretable Subtask Reasoning for Visual Question Answering",
+      "authors": [
+        "Yu Cheng",
+        "Arushi Goel",
+        "Hakan Bilen"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/ChengJade/VISTAR",
+      "published": "2025-05-12T21:37:06.000Z"
+    }
+  ]
+}

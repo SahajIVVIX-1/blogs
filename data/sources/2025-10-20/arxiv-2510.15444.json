@@ -1,0 +1,27 @@
+{
+  "id": "2510.15444",
+  "title": "A Theoretical Study on Bridging Internal Probability and Self-Consistency for LLM Reasoning",
+  "authors": [
+    "Zhi Zhou",
+    "Yuhao Tan",
+    "Zenan Li",
+    "Yuan Yao",
+    "Lan-Zhe Guo",
+    "Yu-Feng Li",
+    "Xiaoxing Ma"
+  ],
+  "published": "2025-10-17T08:59:30Z",
+  "abstract": "Test-time scaling seeks to improve the reasoning performance of large language models (LLMs) by adding computational resources. A prevalent approach within the field is sampling-based test-time scaling methods, which enhance reasoning by generating multiple reasoning paths for a given input during inference. However, despite its practical success, the theoretical foundations remain underexplored. In this paper, we provide the first theoretical framework for analyzing sampling-based test-time scaling methods, grounded in the perspective of confidence estimation. Based on the framework, we analyze two dominant paradigms: self-consistency and perplexity, and reveal key limitations: self-consistency suffers from high estimation error while perplexity exhibits substantial modeling error and possible degradation of the estimation error convergence. To address these limitations, we introduce RPC, a hybrid method that leverages our theoretical insights through two key components: Perplexity Consistency and Reasoning Pruning. Perplexity Consistency combines the strengths of self-consistency and perplexity, boosting the convergence rate of estimation error from linear to exponential while preserving model error. Reasoning Pruning prevents degradation by eliminating low-probability reasoning paths. Both theoretical analysis and empirical results across seven benchmark datasets demonstrate that RPC has a strong potential for reducing reasoning error. Notably, RPC achieves reasoning performance comparable to self-consistency while not only enhancing confidence reliability but also reducing sampling costs by 50%. The code and resources are available at https://wnjxyk.github.io/RPC.",
+  "categories": [
+    "cs.LG",
+    "cs.AI"
+  ],
+  "abs": "https://arxiv.org/abs/2510.15444",
+  "pdf": "https://arxiv.org/pdf/2510.15444v1",
+  "source_url": "https://export.arxiv.org/api/query?id_list=2510.15444",
+  "fetched_at": "2026-10-29T15:49:16.436Z",
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "reusable_figures": true,
+  "github": "https://github.com/WNJXYK/RPC",
+  "upvotes": 125
+}

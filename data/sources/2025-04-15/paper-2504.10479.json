@@ -1,0 +1,7 @@
+{
+  "id": "2504.10479",
+  "html": "https://arxiv.org/html/2504.10479",
+  "limitations": null,
+  "conclusion": "We have introduced InternVL3 , a significant advancement in the InternVL series that implements a native multimodal pre-training paradigm. By jointly learning linguistic and multimodal capabilities during the pre-training phase, InternVL3 avoids the training complexities and optimization challenges typically associated with post-hoc MLLM training pipelines. Through the incorporation of variable visual position encoding (V2PE) for extended multimodal contexts, advanced post-training strategies—such as supervised fine-tuning and mixed preference optimization—and test-time scaling, InternVL3 establishes a new open-source benchmark across a wide range of multimodal tasks, while simultaneously preserving robust linguistic competencies. Notably, InternVL3-78B attains a 72.2-point score on the MMMU benchmark, exceeding previous open-source MLLMs and reducing the performance gap relative to lead",
+  "figure": null
+}

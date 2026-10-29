@@ -1,0 +1,35 @@
+{
+  "id": "2507.19849",
+  "title": "Agentic Reinforced Policy Optimization",
+  "authors": [
+    "Guanting Dong",
+    "Hangyu Mao",
+    "Kai Ma",
+    "Licheng Bao",
+    "Yifei Chen",
+    "Zhongyuan Wang",
+    "Zhongxia Chen",
+    "Jiazhen Du",
+    "Huiyang Wang",
+    "Fuzheng Zhang",
+    "Guorui Zhou",
+    "Yutao Zhu",
+    "Ji-Rong Wen",
+    "Zhicheng Dou"
+  ],
+  "published": "2025-07-26T07:53:11Z",
+  "abstract": "Large-scale reinforcement learning with verifiable rewards (RLVR) has demonstrated its effectiveness in harnessing the potential of large language models (LLMs) for single-turn reasoning tasks. In realistic reasoning scenarios, LLMs can often utilize external tools to assist in task-solving processes. However, current RL algorithms inadequately balance the models' intrinsic long-horizon reasoning capabilities and their proficiency in multi-turn tool interactions. To bridge this gap, we propose Agentic Reinforced Policy Optimization (ARPO), a novel agentic RL algorithm tailored for training multi-turn LLM-based agents. Through preliminary experiments, we observe that LLMs tend to exhibit highly uncertain behavior, characterized by an increase in the entropy distribution of generated tokens, immediately following interactions with external tools. Motivated by this observation, ARPO incorporates an entropy-based adaptive rollout mechanism, dynamically balancing global trajectory sampling and step-level sampling, thereby promoting exploration at steps with high uncertainty after tool usage. By integrating an advantage attribution estimation, ARPO enables LLMs to internalize advantage differences in stepwise tool-use interactions. Our experiments across 13 challenging benchmarks in computational reasoning, knowledge reasoning, and deep search domains demonstrate ARPO's superiority over trajectory-level RL algorithms. Remarkably, ARPO achieves improved performance using only half of the tool-use budget required by existing methods, offering a scalable solution for aligning LLM-based agents with real-time dynamic environments. Our code and datasets are released at https://github.com/dongguanting/ARPO",
+  "categories": [
+    "cs.LG",
+    "cs.AI",
+    "cs.CL"
+  ],
+  "abs": "https://arxiv.org/abs/2507.19849",
+  "pdf": "https://arxiv.org/pdf/2507.19849v1",
+  "source_url": "https://export.arxiv.org/api/query?id_list=2507.19849",
+  "fetched_at": "2026-10-29T15:48:01.673Z",
+  "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  "reusable_figures": false,
+  "github": "https://github.com/dongguanting/ARPO",
+  "upvotes": 162
+}

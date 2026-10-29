@@ -1,0 +1,7 @@
+{
+  "id": "2607.19191",
+  "html": "https://arxiv.org/html/2607.19191",
+  "limitations": null,
+  "conclusion": "Explicit actions admit simple conditioning. Keyboard inputs are discrete, temporally aligned with the video, and directly reflect user intent. For these explicit control signals, we use additive injection at the patch-embedding stage to provide reliable control while preserving the visual prior of the pretrained model. More elaborate conditioning may remain useful for ambiguous signals such as latent actions, continuous camera trajectories, or semantic instructions. Long-horizon drift is better understood as a distribution-shift problem. As autoregressive generation proceeds, small errors accumulate in the visual context and gradually move the model beyond the states covered during short-horizon training. Sink-based context stabilization and fixed reference frames can delay this process, but excessive anchoring may keep the model too close to its initial observation, restricting motion a",
+  "figure": null
+}

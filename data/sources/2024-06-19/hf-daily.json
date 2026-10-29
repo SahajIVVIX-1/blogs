@@ -1,0 +1,548 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-06-19",
+  "fetched_at": "2026-10-29T15:28:10.426Z",
+  "candidates": [
+    {
+      "id": "2406.11931",
+      "title": "DeepSeek-Coder-V2: Breaking the Barrier of Closed-Source Models in Code Intelligence",
+      "authors": [
+        "DeepSeek-AI",
+        "Qihao Zhu",
+        "Daya Guo",
+        "Zhihong Shao",
+        "Dejian Yang",
+        "Peiyi Wang",
+        "Runxin Xu",
+        "Y. Wu",
+        "Yukun Li",
+        "Huazuo Gao",
+        "Shirong Ma",
+        "Wangding Zeng",
+        "Xiao Bi",
+        "Zihui Gu",
+        "Hanwei Xu",
+        "Damai Dai",
+        "Kai Dong",
+        "Liyue Zhang",
+        "Yishi Piao",
+        "Zhibin Gou",
+        "Zhenda Xie",
+        "Zhewen Hao",
+        "Bingxuan Wang",
+        "Junxiao Song",
+        "Deli Chen",
+        "Xin Xie",
+        "Kang Guan",
+        "Yuxiang You",
+        "Aixin Liu",
+        "Qiushi Du",
+        "Wenjun Gao",
+        "Xuan Lu",
+        "Qinyu Chen",
+        "Yaohui Wang",
+        "Chengqi Deng",
+        "Jiashi Li",
+        "Chenggang Zhao",
+        "Chong Ruan",
+        "Fuli Luo",
+        "Wenfeng Liang"
+      ],
+      "upvotes": 73,
+      "github": "https://github.com/deepseek-ai/deepseek-coder-v2",
+      "published": "2024-06-17T13:51:35.000Z"
+    },
+    {
+      "id": "2406.12849",
+      "title": "Depth Anywhere: Enhancing 360 Monocular Depth Estimation via Perspective Distillation and Unlabeled Data Augmentation",
+      "authors": [
+        "Ning-Hsu Wang",
+        "Yu-Lun Liu"
+      ],
+      "upvotes": 50,
+      "github": null,
+      "published": "2024-06-18T17:59:31.000Z"
+    },
+    {
+      "id": "2406.09760",
+      "title": "Bootstrapping Language Models with DPO Implicit Rewards",
+      "authors": [
+        "Changyu Chen",
+        "Zichen Liu",
+        "Chao Du",
+        "Tianyu Pang",
+        "Qian Liu",
+        "Arunesh Sinha",
+        "Pradeep Varakantham",
+        "Min Lin"
+      ],
+      "upvotes": 41,
+      "github": "https://github.com/sail-sg/dice",
+      "published": "2024-06-14T06:57:18.000Z"
+    },
+    {
+      "id": "2406.12246",
+      "title": "TroL: Traversal of Layers for Large Language and Vision Models",
+      "authors": [
+        "Byung-Kwan Lee",
+        "Sangyun Chung",
+        "Chae Won Kim",
+        "Beomchan Park",
+        "Yong Man Ro"
+      ],
+      "upvotes": 36,
+      "github": "https://github.com/byungkwanlee/trol",
+      "published": "2024-06-18T03:42:00.000Z"
+    },
+    {
+      "id": "2406.12793",
+      "title": "ChatGLM: A Family of Large Language Models from GLM-130B to GLM-4 All Tools",
+      "authors": [
+        "Team GLM",
+        "Aohan Zeng",
+        "Bin Xu",
+        "Bowen Wang",
+        "Chenhui Zhang",
+        "Da Yin",
+        "Diego Rojas",
+        "Guanyu Feng",
+        "Hanlin Zhao",
+        "Hanyu Lai",
+        "Hao Yu",
+        "Hongning Wang",
+        "Jiadai Sun",
+        "Jiajie Zhang",
+        "Jiale Cheng",
+        "Jiayi Gui",
+        "Jie Tang",
+        "Jing Zhang",
+        "Juanzi Li",
+        "Lei Zhao",
+        "Lindong Wu",
+        "Lucen Zhong",
+        "Mingdao Liu",
+        "Minlie Huang",
+        "Peng Zhang",
+        "Qinkai Zheng",
+        "Rui Lu",
+        "Shuaiqi Duan",
+        "Shudan Zhang",
+        "Shulin Cao",
+        "Shuxun Yang",
+        "Weng Lam Tam",
+        "Wenyi Zhao",
+        "Xiao Liu",
+        "Xiao Xia",
+        "Xiaohan Zhang",
+        "Xiaotao Gu",
+        "Xin Lv",
+        "Xinghan Liu",
+        "Xinyi Liu",
+        "Xinyue Yang",
+        "Xixuan Song",
+        "Xunkai Zhang",
+        "Yifan An",
+        "Yifan Xu",
+        "Yilin Niu",
+        "Yuantao Yang",
+        "Yueyan Li",
+        "Yushi Bai",
+        "Yuxiao Dong",
+        "Zehan Qi",
+        "Zhaoyu Wang",
+        "Zhen Yang",
+        "Zhengxiao Du",
+        "Zhenyu Hou",
+        "Zihan Wang"
+      ],
+      "upvotes": 35,
+      "github": "https://github.com/thudm/chatglm-6b",
+      "published": "2024-06-18T16:58:21.000Z"
+    },
+    {
+      "id": "2406.12275",
+      "title": "VoCo-LLaMA: Towards Vision Compression with Large Language Models",
+      "authors": [
+        "Xubing Ye",
+        "Yukang Gan",
+        "Xiaoke Huang",
+        "Yixiao Ge",
+        "Ying Shan",
+        "Yansong Tang"
+      ],
+      "upvotes": 31,
+      "github": "https://github.com/Yxxxb/VoCo-LLaMA",
+      "published": "2024-06-18T05:05:12.000Z"
+    },
+    {
+      "id": "2406.11912",
+      "title": "AgileCoder: Dynamic Collaborative Agents for Software Development based on Agile Methodology",
+      "authors": [
+        "Minh Huynh Nguyen",
+        "Thang Phan Chau",
+        "Phong X. Nguyen",
+        "Nghi D. Q. Bui"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/fsoft-ai4code/agilecoder",
+      "published": "2024-06-16T17:57:48.000Z"
+    },
+    {
+      "id": "2406.12824",
+      "title": "From RAGs to rich parameters: Probing how language models utilize external knowledge over parametric information for factual queries",
+      "authors": [
+        "Hitesh Wadhwa",
+        "Rahul Seetharaman",
+        "Somyaa Aggarwal",
+        "Reshmi Ghosh",
+        "Samyadeep Basu",
+        "Soundararajan Srinivasan",
+        "Wenlong Zhao",
+        "Shreyas Chaudhari",
+        "Ehsan Aghazadeh"
+      ],
+      "upvotes": 21,
+      "github": null,
+      "published": "2024-06-18T17:46:08.000Z"
+    },
+    {
+      "id": "2406.12050",
+      "title": "Learn Beyond The Answer: Training Language Models with Reflection for Mathematical Reasoning",
+      "authors": [
+        "Zhihan Zhang",
+        "Zhenwen Liang",
+        "Wenhao Yu",
+        "Dian Yu",
+        "Mengzhao Jia",
+        "Dong Yu",
+        "Meng Jiang"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/ytyz1307zzh/RefAug",
+      "published": "2024-06-17T19:42:22.000Z"
+    },
+    {
+      "id": "2406.12753",
+      "title": "OlympicArena: Benchmarking Multi-discipline Cognitive Reasoning for Superintelligent AI",
+      "authors": [
+        "Zhen Huang",
+        "Zengzhi Wang",
+        "Shijie Xia",
+        "Xuefeng Li",
+        "Haoyang Zou",
+        "Ruijie Xu",
+        "Run-Ze Fan",
+        "Lyumanshan Ye",
+        "Ethan Chern",
+        "Yixin Ye",
+        "Yikai Zhang",
+        "Yuqing Yang",
+        "Ting Wu",
+        "Binjie Wang",
+        "Shichao Sun",
+        "Yang Xiao",
+        "Yiyuan Li",
+        "Fan Zhou",
+        "Steffi Chern",
+        "Yiwei Qin",
+        "Yan Ma",
+        "Jiadi Su",
+        "Yixiu Liu",
+        "Yuxiang Zheng",
+        "Shaoting Zhang",
+        "Dahua Lin",
+        "Yu Qiao",
+        "Pengfei Liu"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/gair-nlp/olympicarena",
+      "published": "2024-06-18T16:20:53.000Z"
+    },
+    {
+      "id": "2406.11801",
+      "title": "Safety Arithmetic: A Framework for Test-time Safety Alignment of Language Models by Steering Parameters and Activations",
+      "authors": [
+        "Rima Hazra",
+        "Sayan Layek",
+        "Somnath Banerjee",
+        "Soujanya Poria"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/declare-lab/safety-arithmetic",
+      "published": "2024-06-17T17:48:13.000Z"
+    },
+    {
+      "id": "2406.11687",
+      "title": "Tokenization Falling Short: The Curse of Tokenization",
+      "authors": [
+        "Yekun Chai",
+        "Yewei Fang",
+        "Qiwei Peng",
+        "Xuhong Li"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/floatai/tkeval",
+      "published": "2024-06-17T16:05:32.000Z"
+    },
+    {
+      "id": "2406.11811",
+      "title": "RepLiQA: A Question-Answering Dataset for Benchmarking LLMs on Unseen Reference Content",
+      "authors": [
+        "Joao Monteiro",
+        "Pierre-Andre Noel",
+        "Etienne Marcotte",
+        "Sai Rajeswar",
+        "Valentina Zantedeschi",
+        "David Vazquez",
+        "Nicolas Chapados",
+        "Christopher Pal",
+        "Perouz Taslakian"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/ServiceNow/repliqa",
+      "published": "2024-06-17T17:52:54.000Z"
+    },
+    {
+      "id": "2406.12274",
+      "title": "SafeInfer: Context Adaptive Decoding Time Safety Alignment for Large Language Models",
+      "authors": [
+        "Somnath Banerjee",
+        "Soham Tripathy",
+        "Sayan Layek",
+        "Shanu Kumar",
+        "Animesh Mukherjee",
+        "Rima Hazra"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/neuralsentinel/safeinfer",
+      "published": "2024-06-18T05:03:23.000Z"
+    },
+    {
+      "id": "2406.12742",
+      "title": "Benchmarking Multi-Image Understanding in Vision and Language Models: Perception, Knowledge, Reasoning, and Multi-Hop Reasoning",
+      "authors": [
+        "Bingchen Zhao",
+        "Yongshuo Zong",
+        "Letian Zhang",
+        "Timothy Hospedales"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/dtennant/mirb_eval",
+      "published": "2024-06-18T16:02:18.000Z"
+    },
+    {
+      "id": "2406.12459",
+      "title": "HumanSplat: Generalizable Single-Image Human Gaussian Splatting with Structure Priors",
+      "authors": [
+        "Panwang Pan",
+        "Zhuo Su",
+        "Chenguo Lin",
+        "Zhen Fan",
+        "Yongjie Zhang",
+        "Zeming Li",
+        "Tingting Shen",
+        "Yadong Mu",
+        "Yebin Liu"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/humansplat/humansplat.github.io",
+      "published": "2024-06-18T10:05:33.000Z"
+    },
+    {
+      "id": "2406.12031",
+      "title": "Large Scale Transfer Learning for Tabular Data via Language Modeling",
+      "authors": [
+        "Josh Gardner",
+        "Juan C. Perdomo",
+        "Ludwig Schmidt"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/mlfoundations/rtfm",
+      "published": "2024-06-17T18:58:20.000Z"
+    },
+    {
+      "id": "2406.12673",
+      "title": "Estimating Knowledge in Large Language Models Without Generating a Single Token",
+      "authors": [
+        "Daniela Gottesman",
+        "Mor Geva"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2024-06-18T14:45:50.000Z"
+    },
+    {
+      "id": "2406.12042",
+      "title": "Not All Prompts Are Made Equal: Prompt-based Pruning of Text-to-Image Diffusion Models",
+      "authors": [
+        "Alireza Ganjdanesh",
+        "Reza Shirkavand",
+        "Shangqian Gao",
+        "Heng Huang"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/rezashkv/diffusion_pruning",
+      "published": "2024-06-17T19:22:04.000Z"
+    },
+    {
+      "id": "2406.11939",
+      "title": "From Crowdsourced Data to High-Quality Benchmarks: Arena-Hard and BenchBuilder Pipeline",
+      "authors": [
+        "Tianle Li",
+        "Wei-Lin Chiang",
+        "Evan Frick",
+        "Lisa Dunlap",
+        "Tianhao Wu",
+        "Banghua Zhu",
+        "Joseph E. Gonzalez",
+        "Ion Stoica"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/lm-sys/arena-hard-auto",
+      "published": "2024-06-17T17:26:10.000Z"
+    },
+    {
+      "id": "2406.12311",
+      "title": "Mixture of Scales: Memory-Efficient Token-Adaptive Binarization for Large Language Models",
+      "authors": [
+        "Dongwon Jo",
+        "Taesu Kim",
+        "Yulhwa Kim",
+        "Jae-Joon Kim"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/dongwonjo/BinaryMoS",
+      "published": "2024-06-18T06:32:23.000Z"
+    },
+    {
+      "id": "2406.12066",
+      "title": "Language Models are Surprisingly Fragile to Drug Names in Biomedical Benchmarks",
+      "authors": [
+        "Jack Gallifant",
+        "Shan Chen",
+        "Pedro Moreira",
+        "Nikolaj Munch",
+        "Mingye Gao",
+        "Jackson Pond",
+        "Leo Anthony Celi",
+        "Hugo Aerts",
+        "Thomas Hartvigsen",
+        "Danielle Bitterman"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/bittermanlab/rabbits",
+      "published": "2024-06-17T20:09:24.000Z"
+    },
+    {
+      "id": "2406.12168",
+      "title": "BPO: Supercharging Online Preference Learning by Adhering to the Proximity of Behavior LLM",
+      "authors": [
+        "Wenda Xu",
+        "Jiachen Li",
+        "William Yang Wang",
+        "Lei Li"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/xu1998hz/bpo",
+      "published": "2024-06-18T00:41:40.000Z"
+    },
+    {
+      "id": "2406.12831",
+      "title": "VIA: A Spatiotemporal Video Adaptation Framework for Global and Local Video Editing",
+      "authors": [
+        "Jing Gu",
+        "Yuwei Fang",
+        "Ivan Skorokhodov",
+        "Peter Wonka",
+        "Xinya Du",
+        "Sergey Tulyakov",
+        "Xin Eric Wang"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2024-06-18T17:51:37.000Z"
+    },
+    {
+      "id": "2406.12644",
+      "title": "Hierarchical Prompting Taxonomy: A Universal Evaluation Framework for Large Language Models",
+      "authors": [
+        "Devichand Budagam",
+        "Sankalp KJ",
+        "Ashutosh Kumar",
+        "Vinija Jain",
+        "Aman Chadha"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/devichand579/HPT",
+      "published": "2024-06-18T14:12:27.000Z"
+    },
+    {
+      "id": "2406.11431",
+      "title": "Super(ficial)-alignment: Strong Models May Deceive Weak Models in Weak-to-Strong Generalization",
+      "authors": [
+        "Wenkai Yang",
+        "Shiqi Shen",
+        "Guangyao Shen",
+        "Zhi Gong",
+        "Yankai Lin"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/keven980716/weak-to-strong-deception",
+      "published": "2024-06-17T11:36:39.000Z"
+    },
+    {
+      "id": "2406.12303",
+      "title": "Immiscible Diffusion: Accelerating Diffusion Training with Noise Assignment",
+      "authors": [
+        "Yiheng Li",
+        "Heyang Jiang",
+        "Akio Kodaira",
+        "Masayoshi Tomizuka",
+        "Kurt Keutzer",
+        "Chenfeng Xu"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2024-06-18T06:20:42.000Z"
+    },
+    {
+      "id": "2406.12814",
+      "title": "Adversarial Attacks on Multimodal Agents",
+      "authors": [
+        "Chen Henry Wu",
+        "Jing Yu Koh",
+        "Ruslan Salakhutdinov",
+        "Daniel Fried",
+        "Aditi Raghunathan"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/chenwu98/agent-attack",
+      "published": "2024-06-18T17:32:48.000Z"
+    },
+    {
+      "id": "2406.12292",
+      "title": "JEN-1 DreamStyler: Customized Musical Concept Learning via Pivotal Parameters Tuning",
+      "authors": [
+        "Boyu Chen",
+        "Peike Li",
+        "Yao Yao",
+        "Alex Wang"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2024-06-18T05:54:11.000Z"
+    },
+    {
+      "id": "2406.11909",
+      "title": "Mixture-of-Subspaces in Low-Rank Adaptation",
+      "authors": [
+        "Taiqiang Wu",
+        "Jiahao Wang",
+        "Zhe Zhao",
+        "Ngai Wong"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/wutaiqiang/MoSLoRA",
+      "published": "2024-06-16T14:19:49.000Z"
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-05-15",
+  "fetched_at": "2026-10-29T15:27:49.003Z",
+  "candidates": [
+    {
+      "id": "2405.08707",
+      "title": "Beyond Scaling Laws: Understanding Transformer Performance with Associative Memory",
+      "authors": [
+        "Xueyan Niu",
+        "Bo Bai",
+        "Lei Deng",
+        "Wei Han"
+      ],
+      "upvotes": 31,
+      "github": null,
+      "published": "2024-05-14T15:48:36.000Z"
+    },
+    {
+      "id": "2405.08054",
+      "title": "Coin3D: Controllable and Interactive 3D Assets Generation with Proxy-Guided Conditioning",
+      "authors": [
+        "Wenqi Dong",
+        "Bangbang Yang",
+        "Lin Ma",
+        "Xiao Liu",
+        "Liyuan Cui",
+        "Hujun Bao",
+        "Yuewen Ma",
+        "Zhaopeng Cui"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/zju3dv/Coin3D",
+      "published": "2024-05-13T17:56:13.000Z"
+    },
+    {
+      "id": "2405.08748",
+      "title": "Hunyuan-DiT: A Powerful Multi-Resolution Diffusion Transformer with Fine-Grained Chinese Understanding",
+      "authors": [
+        "Zhimin Li",
+        "Jianwei Zhang",
+        "Qin Lin",
+        "Jiangfeng Xiong",
+        "Yanxin Long",
+        "Xinchi Deng",
+        "Yingfang Zhang",
+        "Xingchao Liu",
+        "Minbin Huang",
+        "Zedong Xiao",
+        "Dayou Chen",
+        "Jiajun He",
+        "Jiahao Li",
+        "Wenyue Li",
+        "Chen Zhang",
+        "Rongwei Quan",
+        "Jianxiang Lu",
+        "Jiabin Huang",
+        "Xiaoyan Yuan",
+        "Xiaoxiao Zheng",
+        "Yixuan Li",
+        "Jihong Zhang",
+        "Chao Zhang",
+        "Meng Chen",
+        "Jie Liu",
+        "Zheng Fang",
+        "Weiyan Wang",
+        "Jinbao Xue",
+        "Yangyu Tao",
+        "Jianchen Zhu",
+        "Kai Liu",
+        "Sihuan Lin",
+        "Yifu Sun",
+        "Yun Li",
+        "Dongdong Wang",
+        "Mingtao Chen",
+        "Zhichao Hu",
+        "Xiao Xiao",
+        "Yan Chen",
+        "Yuhong Liu",
+        "Wei Liu",
+        "Di Wang",
+        "Yong Yang",
+        "Jie Jiang",
+        "Qinglin Lu"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/tencent/hunyuandit",
+      "published": "2024-05-14T16:33:25.000Z"
+    },
+    {
+      "id": "2405.08295",
+      "title": "SpeechVerse: A Large-scale Generalizable Audio Language Model",
+      "authors": [
+        "Nilaksh Das",
+        "Saket Dingliwal",
+        "Srikanth Ronanki",
+        "Rohit Paturi",
+        "David Huang",
+        "Prashant Mathur",
+        "Jie Yuan",
+        "Dhanush Bekal",
+        "Xing Niu",
+        "Sai Muralidhar Jayanthi",
+        "Xilai Li",
+        "Karel Mundnich",
+        "Monica Sunkara",
+        "Sundararajan Srinivasan",
+        "Kyu J Han",
+        "Katrin Kirchhoff"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2024-05-14T03:33:31.000Z"
+    },
+    {
+      "id": "2405.08344",
+      "title": "No Time to Waste: Squeeze Time into Channel for Mobile Video Understanding",
+      "authors": [
+        "Yingjie Zhai",
+        "Wenshuo Li",
+        "Yehui Tang",
+        "Xinghao Chen",
+        "Yunhe Wang"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2024-05-14T06:32:40.000Z"
+    },
+    {
+      "id": "2405.08448",
+      "title": "Understanding the performance gap between online and offline alignment algorithms",
+      "authors": [
+        "Yunhao Tang",
+        "Daniel Zhaohan Guo",
+        "Zeyu Zheng",
+        "Daniele Calandriello",
+        "Yuan Cao",
+        "Eugene Tarassov",
+        "Rémi Munos",
+        "Bernardo Ávila Pires",
+        "Michal Valko",
+        "Yong Cheng",
+        "Will Dabney"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2024-05-14T09:12:30.000Z"
+    },
+    {
+      "id": "2405.08246",
+      "title": "Compositional Text-to-Image Generation with Dense Blob Representations",
+      "authors": [
+        "Weili Nie",
+        "Sifei Liu",
+        "Morteza Mardani",
+        "Chao Liu",
+        "Benjamin Eckart",
+        "Arash Vahdat"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2024-05-14T00:22:06.000Z"
+    },
+    {
+      "id": "2405.08317",
+      "title": "SpeechGuard: Exploring the Adversarial Robustness of Multimodal Large Language Models",
+      "authors": [
+        "Raghuveer Peri",
+        "Sai Muralidhar Jayanthi",
+        "Srikanth Ronanki",
+        "Anshu Bhatia",
+        "Karel Mundnich",
+        "Saket Dingliwal",
+        "Nilaksh Das",
+        "Zejiang Hou",
+        "Goeric Huybrechts",
+        "Srikanth Vishnubhotla",
+        "Daniel Garcia-Romero",
+        "Sundararajan Srinivasan",
+        "Kyu J Han",
+        "Katrin Kirchhoff"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2024-05-14T04:51:23.000Z"
+    }
+  ]
+}

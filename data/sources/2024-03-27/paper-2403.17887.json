@@ -1,0 +1,7 @@
+{
+  "id": "2403.17887",
+  "html": "https://arxiv.org/html/2403.17887",
+  "limitations": null,
+  "conclusion": "At the end of this work, many readers are puzzled by the following: are the deeper layers entirely useless? So far, we’ve provided evidence that the elimination of the deeper layers does not affect performance on QA tasks like MMLU (Figure 2 ), while at the same time have shown that their removal does disrupt the next-token predictions of the underlying model (Figure 3 ). Since perplexity often correlates with performance on downstream tasks, which are the tasks that are hurt by layer pruning? Here are two hypotheses consistent with the fact that the model’s perplexity is disturbed proportionally to pruning fraction: (i) The deeper layers are not essential for storing knowledge, but are useful for more complicated computations, such as those that involve reasoning. (ii) The deeper layers are necessary when the model has to generate many tokens before answering a question, such as when it",
+  "figure": null
+}

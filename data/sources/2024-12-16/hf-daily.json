@@ -1,0 +1,321 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-12-16",
+  "fetched_at": "2026-10-29T15:30:00.029Z",
+  "candidates": [
+    {
+      "id": "2412.10360",
+      "title": "Apollo: An Exploration of Video Understanding in Large Multimodal Models",
+      "authors": [
+        "Orr Zohar",
+        "Xiaohan Wang",
+        "Yann Dubois",
+        "Nikhil Mehta",
+        "Tong Xiao",
+        "Philippe Hansen-Estruch",
+        "Licheng Yu",
+        "Xiaofang Wang",
+        "Felix Juefei-Xu",
+        "Ning Zhang",
+        "Serena Yeung-Levy",
+        "Xide Xia"
+      ],
+      "upvotes": 148,
+      "github": null,
+      "published": "2024-12-13T18:53:24.000Z"
+    },
+    {
+      "id": "2412.09624",
+      "title": "GenEx: Generating an Explorable World",
+      "authors": [
+        "Taiming Lu",
+        "Tianmin Shu",
+        "Junfei Xiao",
+        "Luoxin Ye",
+        "Jiahao Wang",
+        "Cheng Peng",
+        "Chen Wei",
+        "Daniel Khashabi",
+        "Rama Chellappa",
+        "Alan Yuille",
+        "Jieneng Chen"
+      ],
+      "upvotes": 98,
+      "github": null,
+      "published": "2024-12-12T18:59:57.000Z"
+    },
+    {
+      "id": "2412.09604",
+      "title": "SynerGen-VL: Towards Synergistic Image Understanding and Generation with Vision Experts and Token Folding",
+      "authors": [
+        "Hao Li",
+        "Changyao Tian",
+        "Jie Shao",
+        "Xizhou Zhu",
+        "Zhaokai Wang",
+        "Jinguo Zhu",
+        "Wenhan Dou",
+        "Xiaogang Wang",
+        "Hongsheng Li",
+        "Lewei Lu",
+        "Jifeng Dai"
+      ],
+      "upvotes": 39,
+      "github": null,
+      "published": "2024-12-12T18:59:26.000Z"
+    },
+    {
+      "id": "2412.10047",
+      "title": "Large Action Models: From Inception to Implementation",
+      "authors": [
+        "Lu Wang",
+        "Fangkai Yang",
+        "Chaoyun Zhang",
+        "Junting Lu",
+        "Jiaxu Qian",
+        "Shilin He",
+        "Pu Zhao",
+        "Bo Qiao",
+        "Ray Huang",
+        "Si Qin",
+        "Qisheng Su",
+        "Jiayi Ye",
+        "Yudi Zhang",
+        "Jian-Guang Lou",
+        "Qingwei Lin",
+        "Saravan Rajmohan",
+        "Dongmei Zhang",
+        "Qi Zhang"
+      ],
+      "upvotes": 36,
+      "github": null,
+      "published": "2024-12-13T11:19:56.000Z"
+    },
+    {
+      "id": "2412.07769",
+      "title": "BiMediX2: Bio-Medical EXpert LMM for Diverse Medical Modalities",
+      "authors": [
+        "Sahal Shaji Mullappilly",
+        "Mohammed Irfan Kurpath",
+        "Sara Pieri",
+        "Saeed Yahya Alseiari",
+        "Shanavas Cholakkal",
+        "Khaled Aldahmani",
+        "Fahad Khan",
+        "Rao Anwer",
+        "Salman Khan",
+        "Timothy Baldwin",
+        "Hisham Cholakkal"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/mbzuai-oryx/bimedix2",
+      "published": "2024-12-10T18:59:35.000Z"
+    },
+    {
+      "id": "2412.09626",
+      "title": "FreeScale: Unleashing the Resolution of Diffusion Models via Tuning-Free Scale Fusion",
+      "authors": [
+        "Haonan Qiu",
+        "Shiwei Zhang",
+        "Yujie Wei",
+        "Ruihang Chu",
+        "Hangjie Yuan",
+        "Xiang Wang",
+        "Yingya Zhang",
+        "Ziwei Liu"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/ali-vilab/FreeScale",
+      "published": "2024-12-12T18:59:59.000Z"
+    },
+    {
+      "id": "2412.10208",
+      "title": "Efficient Generative Modeling with Residual Vector Quantization-Based Tokens",
+      "authors": [
+        "Jaehyeon Kim",
+        "Taehong Moon",
+        "Keon Lee",
+        "Jaewoong Cho"
+      ],
+      "upvotes": 19,
+      "github": null,
+      "published": "2024-12-13T15:31:17.000Z"
+    },
+    {
+      "id": "2412.09283",
+      "title": "InstanceCap: Improving Text-to-Video Generation via Instance-aware Structured Caption",
+      "authors": [
+        "Tiehan Fan",
+        "Kepan Nan",
+        "Rui Xie",
+        "Penghao Zhou",
+        "Zhenheng Yang",
+        "Chaoyou Fu",
+        "Xiang Li",
+        "Jian Yang",
+        "Ying Tai"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2024-12-12T13:48:40.000Z"
+    },
+    {
+      "id": "2412.09611",
+      "title": "FluxSpace: Disentangled Semantic Editing in Rectified Flow Transformers",
+      "authors": [
+        "Yusuf Dalva",
+        "Kavana Venkatesh",
+        "Pinar Yanardag"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2024-12-12T18:59:40.000Z"
+    },
+    {
+      "id": "2412.10319",
+      "title": "SCBench: A KV Cache-Centric Analysis of Long-Context Methods",
+      "authors": [
+        "Yucheng Li",
+        "Huiqiang Jiang",
+        "Qianhui Wu",
+        "Xufang Luo",
+        "Surin Ahn",
+        "Chengruidong Zhang",
+        "Amir H. Abdi",
+        "Dongsheng Li",
+        "Jianfeng Gao",
+        "Yuqing Yang",
+        "Lili Qiu"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2024-12-13T17:59:52.000Z"
+    },
+    {
+      "id": "2412.07517",
+      "title": "FireFlow: Fast Inversion of Rectified Flow for Image Semantic Editing",
+      "authors": [
+        "Yingying Deng",
+        "Xiangyu He",
+        "Changwang Mei",
+        "Peisong Wang",
+        "Fan Tang"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/holmesshuan/fireflow",
+      "published": "2024-12-10T13:56:26.000Z"
+    },
+    {
+      "id": "2412.09856",
+      "title": "LinGen: Towards High-Resolution Minute-Length Text-to-Video Generation with Linear Computational Complexity",
+      "authors": [
+        "Hongjie Wang",
+        "Chih-Yao Ma",
+        "Yen-Cheng Liu",
+        "Ji Hou",
+        "Tao Xu",
+        "Jialiang Wang",
+        "Felix Juefei-Xu",
+        "Yaqiao Luo",
+        "Peizhao Zhang",
+        "Tingbo Hou",
+        "Peter Vajda",
+        "Niraj K. Jha",
+        "Xiaoliang Dai"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2024-12-13T04:55:10.000Z"
+    },
+    {
+      "id": "2412.09428",
+      "title": "Multimodal Music Generation with Explicit Bridges and Retrieval Augmentation",
+      "authors": [
+        "Baisen Wang",
+        "Le Zhuo",
+        "Zhaokai Wang",
+        "Chenxi Bao",
+        "Wu Chengjing",
+        "Xuecheng Nie",
+        "Jiao Dai",
+        "Jizhong Han",
+        "Yue Liao",
+        "Si Liu"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/wbs2788/vmb",
+      "published": "2024-12-12T16:33:21.000Z"
+    },
+    {
+      "id": "2412.08645",
+      "title": "ObjectMate: A Recurrence Prior for Object Insertion and Subject-Driven Generation",
+      "authors": [
+        "Daniel Winter",
+        "Asaf Shul",
+        "Matan Cohen",
+        "Dana Berman",
+        "Yael Pritch",
+        "Alex Rav-Acha",
+        "Yedid Hoshen"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2024-12-11T18:59:53.000Z"
+    },
+    {
+      "id": "2412.09722",
+      "title": "GReaTer: Gradients over Reasoning Makes Smaller Language Models Strong Prompt Optimizers",
+      "authors": [
+        "Sarkar Snigdha Sarathi Das",
+        "Ryo Kamoi",
+        "Bo Pang",
+        "Yusen Zhang",
+        "Caiming Xiong",
+        "Rui Zhang"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/psunlpgroup/greater",
+      "published": "2024-12-12T20:59:43.000Z"
+    },
+    {
+      "id": "2412.08347",
+      "title": "SmolTulu: Higher Learning Rate to Batch Size Ratios Can Lead to Better Reasoning in SLMs",
+      "authors": [
+        "Sultan Alrashed"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2024-12-11T12:41:36.000Z"
+    },
+    {
+      "id": "2412.10345",
+      "title": "TraceVLA: Visual Trace Prompting Enhances Spatial-Temporal Awareness for Generalist Robotic Policies",
+      "authors": [
+        "Ruijie Zheng",
+        "Yongyuan Liang",
+        "Shuaiyi Huang",
+        "Jianfeng Gao",
+        "Hal Daumé III",
+        "Andrey Kolobov",
+        "Furong Huang",
+        "Jianwei Yang"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2024-12-13T18:40:51.000Z"
+    },
+    {
+      "id": "2412.09910",
+      "title": "Prompt2Perturb (P2P): Text-Guided Diffusion-Based Adversarial Attacks on Breast Ultrasound Images",
+      "authors": [
+        "Yasamin Medghalchi",
+        "Moein Heidari",
+        "Clayton Allard",
+        "Leonid Sigal",
+        "Ilker Hacihaliloglu"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/yasamin-med/p2p",
+      "published": "2024-12-13T06:56:12.000Z"
+    }
+  ]
+}

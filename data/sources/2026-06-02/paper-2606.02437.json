@@ -1,0 +1,7 @@
+{
+  "id": "2606.02437",
+  "html": "https://arxiv.org/html/2606.02437",
+  "limitations": null,
+  "conclusion": "The phrase “million personal models of trillion parameters” should not be read as a claim that each user owns and trains a separate trillion-parameter checkpoint. The intended architecture is different. A small number of strong trillion-scale base models provide shared capability, while millions of lightweight adapters provide persistent local adaptive state. The base model carries general reasoning, world knowledge, language competence, and tool-use priors. The adapter carries part of the learned consequences of repeated experience, such as memories, preferences, skills, and policies. This architecture depends on all three scaling axes at once. Scale Up makes the shared base model worth adapting. Scale Down makes each update cheap and stable enough to repeat. Scale Out turns repeated updates into persistent populations. Removing any axis breaks the thesis. Weak base models limit what ad",
+  "figure": null
+}

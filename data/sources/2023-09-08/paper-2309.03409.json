@@ -1,0 +1,7 @@
+{
+  "id": "2309.03409",
+  "html": "https://arxiv.org/html/2309.03409",
+  "limitations": null,
+  "conclusion": "We embark on employing LLMs as optimizers, where the LLM progressively generates new solutions to optimize an objective function. We first motivate OPRO with linear regression and traveling salesman problems, then proceed to prompt optimization as a concrete application. Our evaluation demonstrates that LLMs have the capacity of gradually improving the generated solutions based on the past optimization trajectory. Interestingly, on small-scale traveling salesman problems, OPRO performs on par with some hand-crafted heuristic algorithms. For prompt optimization, optimized prompts outperform human-designed prompts on GSM8K and Big-Bench Hard by a significant margin, sometimes over [math] . A number of unresolved questions are open for future research on LLMs for optimization. In general, how to reduce the sensitivity to initialization and better balance exploitation with exploration remain",
+  "figure": null
+}

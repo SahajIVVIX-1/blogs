@@ -1,0 +1,230 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-08-04",
+  "fetched_at": "2026-10-29T15:32:45.522Z",
+  "candidates": [
+    {
+      "id": "2508.00414",
+      "title": "Cognitive Kernel-Pro: A Framework for Deep Research Agents and Agent Foundation Models Training",
+      "authors": [
+        "Tianqing Fang",
+        "Zhisong Zhang",
+        "Xiaoyang Wang",
+        "Rui Wang",
+        "Can Qin",
+        "Yuxuan Wan",
+        "Jun-Yu Ma",
+        "Ce Zhang",
+        "Jiaqi Chen",
+        "Xiyun Li",
+        "Hongming Zhang",
+        "Haitao Mi",
+        "Dong Yu"
+      ],
+      "upvotes": 96,
+      "github": "https://github.com/Tencent/CognitiveKernel-Pro",
+      "published": "2025-08-01T08:11:31.000Z"
+    },
+    {
+      "id": "2508.00819",
+      "title": "Beyond Fixed: Variable-Length Denoising for Diffusion Large Language Models",
+      "authors": [
+        "Jinsong Li",
+        "Xiaoyi Dong",
+        "Yuhang Zang",
+        "Yuhang Cao",
+        "Jiaqi Wang",
+        "Dahua Lin"
+      ],
+      "upvotes": 64,
+      "github": "https://github.com/Li-Jinsong/DAEDAL",
+      "published": "2025-08-01T17:56:07.000Z"
+    },
+    {
+      "id": "2507.23268",
+      "title": "PixNerd: Pixel Neural Field Diffusion",
+      "authors": [
+        "Shuai Wang",
+        "Ziteng Gao",
+        "Chenhui Zhu",
+        "Weilin Huang",
+        "Limin Wang"
+      ],
+      "upvotes": 49,
+      "github": "https://github.com/MCG-NJU/PixNerd",
+      "published": "2025-07-31T06:07:20.000Z"
+    },
+    {
+      "id": "2508.02124",
+      "title": "Trainable Dynamic Mask Sparse Attention",
+      "authors": [
+        "Jingze Shi",
+        "Yifan Wu",
+        "Bingheng Wu",
+        "Yiran Peng",
+        "Liangdong Wang",
+        "Guang Liu",
+        "Yuyu Luo"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/SmallDoges/flash-dmattn",
+      "published": "2025-08-04T07:05:15.000Z"
+    },
+    {
+      "id": "2507.23478",
+      "title": "3D-R1: Enhancing Reasoning in 3D VLMs for Unified Scene Understanding",
+      "authors": [
+        "Ting Huang",
+        "Zeyu Zhang",
+        "Hao Tang"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/AIGeeksGroup/3D-R1",
+      "published": "2025-07-31T11:59:06.000Z"
+    },
+    {
+      "id": "2507.23361",
+      "title": "SWE-Exp: Experience-Driven Software Issue Resolution",
+      "authors": [
+        "Silin Chen",
+        "Shaoxin Lin",
+        "Xiaodong Gu",
+        "Yuling Shi",
+        "Heng Lian",
+        "Longfei Yun",
+        "Dong Chen",
+        "Weiguo Sun",
+        "Lin Cao",
+        "Qianxiang Wang"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/YerbaPage/SWE-Exp",
+      "published": "2025-07-31T09:13:42.000Z"
+    },
+    {
+      "id": "2507.23348",
+      "title": "SWE-Debate: Competitive Multi-Agent Debate for Software Issue Resolution",
+      "authors": [
+        "Han Li",
+        "Yuling Shi",
+        "Shaoxin Lin",
+        "Xiaodong Gu",
+        "Heng Lian",
+        "Xin Wang",
+        "Yantao Jia",
+        "Tao Huang",
+        "Qianxiang Wang"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/YerbaPage/SWE-Debate",
+      "published": "2025-07-31T08:54:46.000Z"
+    },
+    {
+      "id": "2507.19634",
+      "title": "MCIF: Multimodal Crosslingual Instruction-Following Benchmark from Scientific Talks",
+      "authors": [
+        "Sara Papi",
+        "Maike Züfle",
+        "Marco Gaido",
+        "Beatrice Savoldi",
+        "Danni Liu",
+        "Ioannis Douros",
+        "Luisa Bentivogli",
+        "Jan Niehues"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/hlt-mt/mcif",
+      "published": "2025-07-25T19:00:51.000Z"
+    },
+    {
+      "id": "2508.00454",
+      "title": "Learning an Efficient Multi-Turn Dialogue Evaluator from Multiple Judges",
+      "authors": [
+        "Yuqi Tang",
+        "Kehua Feng",
+        "Yunfeng Wang",
+        "Zhiwen Chen",
+        "Chengfei Lv",
+        "Gang Yu",
+        "Qiang Zhang",
+        "Keyan Ding"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/James-TYQ/MTDEval",
+      "published": "2025-08-01T09:26:01.000Z"
+    },
+    {
+      "id": "2508.00265",
+      "title": "Multimodal Referring Segmentation: A Survey",
+      "authors": [
+        "Henghui Ding",
+        "Song Tang",
+        "Shuting He",
+        "Chang Liu",
+        "Zuxuan Wu",
+        "Yu-Gang Jiang"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/henghuiding/Awesome-Multimodal-Referring-Segmentation",
+      "published": "2025-08-01T02:14:00.000Z"
+    },
+    {
+      "id": "2508.00782",
+      "title": "SpA2V: Harnessing Spatial Auditory Cues for Audio-driven Spatially-aware Video Generation",
+      "authors": [
+        "Kien T. Pham",
+        "Yingqing He",
+        "Yazhou Xing",
+        "Qifeng Chen",
+        "Long Chen"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2025-08-01T17:05:04.000Z"
+    },
+    {
+      "id": "2507.22720",
+      "title": "Investigating Hallucination in Conversations for Low Resource Languages",
+      "authors": [
+        "Amit Das",
+        "Md. Najib Hasan",
+        "Souvika Sarkar",
+        "Zheng Zhang",
+        "Fatemeh Jamshidi",
+        "Tathagata Bhattacharya",
+        "Nilanjana Raychawdhury",
+        "Dongji Feng",
+        "Vinija Jain",
+        "Aman Chadha"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/AmitDasRup123/LLM-Hallucination-Low-Resource-Languages",
+      "published": "2025-07-30T14:39:51.000Z"
+    },
+    {
+      "id": "2508.00823",
+      "title": "IGL-Nav: Incremental 3D Gaussian Localization for Image-goal Navigation",
+      "authors": [
+        "Wenxuan Guo",
+        "Xiuwei Xu",
+        "Hang Yin",
+        "Ziwei Wang",
+        "Jianjiang Feng",
+        "Jie Zhou",
+        "Jiwen Lu"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/GWxuan/IGL-Nav",
+      "published": "2025-08-01T17:59:56.000Z"
+    },
+    {
+      "id": "2508.00632",
+      "title": "Multi-Agent Game Generation and Evaluation via Audio-Visual Recordings",
+      "authors": [
+        "Alexia Jolicoeur-Martineau"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/SamsungSAILMontreal/AVR-Eval-Agent",
+      "published": "2025-08-01T13:45:13.000Z"
+    }
+  ]
+}

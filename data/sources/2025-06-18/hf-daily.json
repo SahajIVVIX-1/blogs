@@ -1,0 +1,668 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-06-18",
+  "fetched_at": "2026-10-29T15:31:52.034Z",
+  "candidates": [
+    {
+      "id": "2506.14028",
+      "title": "MultiFinBen: A Multilingual, Multimodal, and Difficulty-Aware Benchmark for Financial LLM Evaluation",
+      "authors": [
+        "Xueqing Peng",
+        "Lingfei Qian",
+        "Yan Wang",
+        "Ruoyu Xiang",
+        "Yueru He",
+        "Yang Ren",
+        "Mingyang Jiang",
+        "Jeff Zhao",
+        "Huan He",
+        "Yi Han",
+        "Yun Feng",
+        "Yuechen Jiang",
+        "Yupeng Cao",
+        "Haohang Li",
+        "Yangyang Yu",
+        "Xiaoyu Wang",
+        "Penglei Gao",
+        "Shengyuan Lin",
+        "Keyi Wang",
+        "Shanshan Yang",
+        "Yilun Zhao",
+        "Zhiwei Liu",
+        "Peng Lu",
+        "Jerry Huang",
+        "Suyuchen Wang",
+        "Triantafillos Papadopoulos",
+        "Polydoros Giannouris",
+        "Efstathia Soufleri",
+        "Nuo Chen",
+        "Guojun Xiong",
+        "Zhiyang Deng",
+        "Yijia Zhao",
+        "Mingquan Lin",
+        "Meikang Qiu",
+        "Kaleb E Smith",
+        "Arman Cohan",
+        "Xiao-Yang Liu",
+        "Jimin Huang",
+        "Alejandro Lopez-Lira",
+        "Xi Chen",
+        "Junichi Tsujii",
+        "Jian-Yun Nie",
+        "Sophia Ananiadou",
+        "Qianqian Xie"
+      ],
+      "upvotes": 94,
+      "github": "https://github.com/xueqingpeng/MultiFinBen",
+      "published": "2025-06-16T22:01:49.000Z"
+    },
+    {
+      "id": "2506.12928",
+      "title": "Scaling Test-time Compute for LLM Agents",
+      "authors": [
+        "King Zhu",
+        "Hanhao Li",
+        "Siwei Wu",
+        "Tianshun Xing",
+        "Dehua Ma",
+        "Xiangru Tang",
+        "Minghao Liu",
+        "Jian Yang",
+        "Jiaheng Liu",
+        "Yuchen Eleanor Jiang",
+        "Changwang Zhang",
+        "Chenghua Lin",
+        "Jun Wang",
+        "Ge Zhang",
+        "Wangchunshu Zhou"
+      ],
+      "upvotes": 64,
+      "github": null,
+      "published": "2025-06-15T17:59:47.000Z"
+    },
+    {
+      "id": "2506.12285",
+      "title": "CMI-Bench: A Comprehensive Benchmark for Evaluating Music Instruction Following",
+      "authors": [
+        "Yinghao Ma",
+        "Siyou Li",
+        "Juntao Yu",
+        "Emmanouil Benetos",
+        "Akira Maezawa"
+      ],
+      "upvotes": 52,
+      "github": "https://github.com/nicolaus625/CMI-bench",
+      "published": "2025-06-14T00:18:44.000Z"
+    },
+    {
+      "id": "2506.14245",
+      "title": "Reinforcement Learning with Verifiable Rewards Implicitly Incentivizes Correct Reasoning in Base LLMs",
+      "authors": [
+        "Xumeng Wen",
+        "Zihan Liu",
+        "Shun Zheng",
+        "Zhijian Xu",
+        "Shengyu Ye",
+        "Zhirong Wu",
+        "Xiao Liang",
+        "Yang Wang",
+        "Junjie Li",
+        "Ziming Miao",
+        "Jiang Bian",
+        "Mao Yang"
+      ],
+      "upvotes": 45,
+      "github": null,
+      "published": "2025-06-17T07:06:56.000Z"
+    },
+    {
+      "id": "2506.14429",
+      "title": "LongLLaDA: Unlocking Long Context Capabilities in Diffusion LLMs",
+      "authors": [
+        "Xiaoran Liu",
+        "Zhigeng Liu",
+        "Zengfeng Huang",
+        "Qipeng Guo",
+        "Ziwei He",
+        "Xipeng Qiu"
+      ],
+      "upvotes": 44,
+      "github": "https://github.com/OpenMOSS/LongLLaDA",
+      "published": "2025-06-17T11:45:37.000Z"
+    },
+    {
+      "id": "2506.14234",
+      "title": "Xolver: Multi-Agent Reasoning with Holistic Experience Learning Just Like an Olympiad Team",
+      "authors": [
+        "Md Tanzib Hosain",
+        "Salman Rahman",
+        "Md Kishor Morol",
+        "Md Rizwan Parvez"
+      ],
+      "upvotes": 41,
+      "github": "https://github.com/kagnlp/Xolver",
+      "published": "2025-06-17T06:47:19.000Z"
+    },
+    {
+      "id": "2506.09985",
+      "title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
+      "authors": [
+        "Mido Assran",
+        "Adrien Bardes",
+        "David Fan",
+        "Quentin Garrido",
+        "Russell Howes",
+        "Mojtaba",
+        "Komeili",
+        "Matthew Muckley",
+        "Ammar Rizvi",
+        "Claire Roberts",
+        "Koustuv Sinha",
+        "Artem Zholus",
+        "Sergio Arnaud",
+        "Abha Gejji",
+        "Ada Martin",
+        "Francois Robert Hogan",
+        "Daniel Dugas",
+        "Piotr Bojanowski",
+        "Vasil Khalidov",
+        "Patrick Labatut",
+        "Francisco Massa",
+        "Marc Szafraniec",
+        "Kapil Krishnakumar",
+        "Yong Li",
+        "Xiaodong Ma",
+        "Sarath Chandar",
+        "Franziska Meier",
+        "Yann LeCun",
+        "Michael Rabbat",
+        "Nicolas Ballas"
+      ],
+      "upvotes": 34,
+      "github": "https://github.com/facebookresearch/vjepa2",
+      "published": "2025-06-11T17:57:09.000Z"
+    },
+    {
+      "id": "2506.13363",
+      "title": "Efficient Medical VIE via Reinforcement Learning",
+      "authors": [
+        "Lijun Liu",
+        "Ruiyang Li",
+        "Zhaocheng Liu",
+        "Chenglin Zhu",
+        "Chong Li",
+        "Jiehan Cheng",
+        "Qiang Ju",
+        "Jian Xie"
+      ],
+      "upvotes": 32,
+      "github": null,
+      "published": "2025-06-16T11:10:25.000Z"
+    },
+    {
+      "id": "2506.14758",
+      "title": "Reasoning with Exploration: An Entropy Perspective",
+      "authors": [
+        "Daixuan Cheng",
+        "Shaohan Huang",
+        "Xuekai Zhu",
+        "Bo Dai",
+        "Wayne Xin Zhao",
+        "Zhenliang Zhang",
+        "Furu Wei"
+      ],
+      "upvotes": 30,
+      "github": null,
+      "published": "2025-06-17T17:54:03.000Z"
+    },
+    {
+      "id": "2506.13642",
+      "title": "Stream-Omni: Simultaneous Multimodal Interactions with Large Language-Vision-Speech Model",
+      "authors": [
+        "Shaolei Zhang",
+        "Shoutao Guo",
+        "Qingkai Fang",
+        "Yan Zhou",
+        "Yang Feng"
+      ],
+      "upvotes": 28,
+      "github": "https://github.com/ictnlp/Stream-Omni",
+      "published": "2025-06-16T16:06:45.000Z"
+    },
+    {
+      "id": "2506.14603",
+      "title": "Align Your Flow: Scaling Continuous-Time Flow Map Distillation",
+      "authors": [
+        "Amirmojtaba Sabour",
+        "Sanja Fidler",
+        "Karsten Kreis"
+      ],
+      "upvotes": 19,
+      "github": null,
+      "published": "2025-06-17T15:06:07.000Z"
+    },
+    {
+      "id": "2506.12860",
+      "title": "QFFT, Question-Free Fine-Tuning for Adaptive Reasoning",
+      "authors": [
+        "Wanlong Liu",
+        "Junxiao Xu",
+        "Fei Yu",
+        "Yukang Lin",
+        "Ke Ji",
+        "Wenyu Chen",
+        "Yan Xu",
+        "Yasheng Wang",
+        "Lifeng Shang",
+        "Benyou Wang"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/LWL-cpu/Question-Free-Fine-Tuning",
+      "published": "2025-06-15T14:21:28.000Z"
+    },
+    {
+      "id": "2506.14761",
+      "title": "From Bytes to Ideas: Language Modeling with Autoregressive U-Nets",
+      "authors": [
+        "Mathurin Videau",
+        "Badr Youbi Idrissi",
+        "Alessandro Leite",
+        "Marc Schoenauer",
+        "Olivier Teytaud",
+        "David Lopez-Paz"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/facebookresearch/lingua",
+      "published": "2025-06-17T17:55:11.000Z"
+    },
+    {
+      "id": "2506.12278",
+      "title": "Can LLMs Generate High-Quality Test Cases for Algorithm Problems? TestCase-Eval: A Systematic Evaluation of Fault Coverage and Exposure",
+      "authors": [
+        "Zheyuan Yang",
+        "Zexi Kuang",
+        "Xue Xia",
+        "Yilun Zhao"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/FlowRays/TestCase-Eval",
+      "published": "2025-06-13T23:56:17.000Z"
+    },
+    {
+      "id": "2506.14606",
+      "title": "Guaranteed Guess: A Language Modeling Approach for CISC-to-RISC Transpilation with Testing Guarantees",
+      "authors": [
+        "Ahmed Heakl",
+        "Sarim Hashmi",
+        "Chaimaa Abi",
+        "Celine Lee",
+        "Abdulrahman Mahmoud"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/ahmedheakl/Guaranteed-Guess",
+      "published": "2025-06-17T15:06:54.000Z"
+    },
+    {
+      "id": "2506.13977",
+      "title": "CRITICTOOL: Evaluating Self-Critique Capabilities of Large Language Models in Tool-Calling Error Scenarios",
+      "authors": [
+        "Shiting Huang",
+        "Zhen Fang",
+        "Zehui Chen",
+        "Siyu Yuan",
+        "Junjie Ye",
+        "Yu Zeng",
+        "Lin Chen",
+        "Qi Mao",
+        "Feng Zhao"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/Shellorley0513/CriticTool",
+      "published": "2025-06-11T17:59:18.000Z"
+    },
+    {
+      "id": "2506.10100",
+      "title": "EfficientVLA: Training-Free Acceleration and Compression for Vision-Language-Action Models",
+      "authors": [
+        "Yantai Yang",
+        "Yuhao Wang",
+        "Zichen Wen",
+        "Luo Zhongwei",
+        "Chang Zou",
+        "Zhipeng Zhang",
+        "Chuan Wen",
+        "Linfeng Zhang"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2025-06-11T18:34:57.000Z"
+    },
+    {
+      "id": "2506.05336",
+      "title": "VideoMolmo: Spatio-Temporal Grounding Meets Pointing",
+      "authors": [
+        "Ghazi Shazan Ahmad",
+        "Ahmed Heakl",
+        "Hanan Gani",
+        "Abdelrahman Shaker",
+        "Zhiqiang Shen",
+        "Ranjay Krishna",
+        "Fahad Shahbaz Khan",
+        "Salman Khan"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/mbzuai-oryx/VideoMolmo",
+      "published": "2025-06-05T17:59:29.000Z"
+    },
+    {
+      "id": "2506.14755",
+      "title": "Optimizing Length Compression in Large Reasoning Models",
+      "authors": [
+        "Zhengxiang Cheng",
+        "Dongping Chen",
+        "Mingyang Fu",
+        "Tianyi Zhou"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/zxiangx/LC-R1",
+      "published": "2025-06-17T17:50:16.000Z"
+    },
+    {
+      "id": "2506.10038",
+      "title": "Ambient Diffusion Omni: Training Good Models with Bad Data",
+      "authors": [
+        "Giannis Daras",
+        "Adrian Rodriguez-Munoz",
+        "Adam Klivans",
+        "Antonio Torralba",
+        "Constantinos Daskalakis"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/giannisdaras/ambient-omni",
+      "published": "2025-06-10T22:37:39.000Z"
+    },
+    {
+      "id": "2506.14205",
+      "title": "AgentSynth: Scalable Task Generation for Generalist Computer-Use Agents",
+      "authors": [
+        "Jingxu Xie",
+        "Dylan Xu",
+        "Xuandong Zhao",
+        "Dawn Song"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/sunblaze-ucb/agentsynth",
+      "published": "2025-06-17T05:46:52.000Z"
+    },
+    {
+      "id": "2506.13651",
+      "title": "xbench: Tracking Agents Productivity Scaling with Profession-Aligned Real-World Evaluations",
+      "authors": [
+        "Kaiyuan Chen",
+        "Yixin Ren",
+        "Yang Liu",
+        "Xiaobo Hu",
+        "Haotong Tian",
+        "Tianbao Xie",
+        "Fangfu Liu",
+        "Haoye Zhang",
+        "Hongzhang Liu",
+        "Yuan Gong",
+        "Chen Sun",
+        "Han Hou",
+        "Hui Yang",
+        "James Pan",
+        "Jianan Lou",
+        "Jiayi Mao",
+        "Jizheng Liu",
+        "Jinpeng Li",
+        "Kangyi Liu",
+        "Kenkun Liu",
+        "Rui Wang",
+        "Run Li",
+        "Tong Niu",
+        "Wenlong Zhang",
+        "Wenqi Yan",
+        "Xuanzheng Wang",
+        "Yuchen Zhang",
+        "Yi-Hsin Hung",
+        "Yuan Jiang",
+        "Zexuan Liu",
+        "Zihan Yin",
+        "Zijian Ma",
+        "Zhiwen Mo"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/xbench-ai/xbench-evals",
+      "published": "2025-06-16T16:16:14.000Z"
+    },
+    {
+      "id": "2506.14731",
+      "title": "Ring-lite: Scalable Reasoning via C3PO-Stabilized Reinforcement Learning for LLMs",
+      "authors": [
+        "Ring Team",
+        "Bin Hu",
+        "Cai Chen",
+        "Deng Zhao",
+        "Ding Liu",
+        "Dingnan Jin",
+        "Feng Zhu",
+        "Hao Dai",
+        "Hongzhi Luan",
+        "Jia Guo",
+        "Jiaming Liu",
+        "Jiewei Wu",
+        "Jun Mei",
+        "Jun Zhou",
+        "Junbo Zhao",
+        "Junwu Xiong",
+        "Kaihong Zhang",
+        "Kuan Xu",
+        "Lei Liang",
+        "Liang Jiang",
+        "Liangcheng Fu",
+        "Longfei Zheng",
+        "Qiang Gao",
+        "Qing Cui",
+        "Quan Wan",
+        "Shaomian Zheng",
+        "Shuaicheng Li",
+        "Tongkai Yang",
+        "Wang Ren",
+        "Xiaodong Yan",
+        "Xiaopei Wan",
+        "Xiaoyun Feng",
+        "Xin Zhao",
+        "Xinxing Yang",
+        "Xinyu Kong",
+        "Xuemin Yang",
+        "Yang Li",
+        "Yingting Wu",
+        "Yongkang Liu",
+        "Zhankai Xu",
+        "Zhenduo Zhang",
+        "Zhenglei Zhou",
+        "Zhenyu Huang",
+        "Zhiqiang Zhang",
+        "Zihao Wang",
+        "Zujie Wen"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/inclusionAI/Ring",
+      "published": "2025-06-17T17:12:34.000Z"
+    },
+    {
+      "id": "2506.09033",
+      "title": "Router-R1: Teaching LLMs Multi-Round Routing and Aggregation via Reinforcement Learning",
+      "authors": [
+        "Haozhen Zhang",
+        "Tao Feng",
+        "Jiaxuan You"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/ulab-uiuc/Router-R1",
+      "published": "2025-06-10T17:56:45.000Z"
+    },
+    {
+      "id": "2506.05426",
+      "title": "Mixture-of-Experts Meets In-Context Reinforcement Learning",
+      "authors": [
+        "Wenhao Wu",
+        "Fuhong Liu",
+        "Haoru Li",
+        "Zican Hu",
+        "Daoyi Dong",
+        "Chunlin Chen",
+        "Zhi Wang"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/NJU-RL/T2MIR",
+      "published": "2025-06-05T06:29:14.000Z"
+    },
+    {
+      "id": "2506.14002",
+      "title": "Taming Polysemanticity in LLMs: Provable Feature Recovery via Sparse Autoencoders",
+      "authors": [
+        "Siyu Chen",
+        "Heejune Sheen",
+        "Xuyuan Xiong",
+        "Tianhao Wang",
+        "Zhuoran Yang"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/FFishy-git/TamingSAE_GBA",
+      "published": "2025-06-16T20:58:05.000Z"
+    },
+    {
+      "id": "2506.12880",
+      "title": "Universal Jailbreak Suffixes Are Strong Attention Hijackers",
+      "authors": [
+        "Matan Ben-Tov",
+        "Mor Geva",
+        "Mahmood Sharif"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/matanbt/interp-jailbreak",
+      "published": "2025-06-15T15:20:37.000Z"
+    },
+    {
+      "id": "2506.12015",
+      "title": "EMLoC: Emulator-based Memory-efficient Fine-tuning with LoRA Correction",
+      "authors": [
+        "Hsi-Che Lin",
+        "Yu-Chu Yu",
+        "Kai-Po Chang",
+        "Yu-Chiang Frank Wang"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/hsi-che-lin/EMLoC",
+      "published": "2025-06-13T17:59:58.000Z"
+    },
+    {
+      "id": "2506.13901",
+      "title": "Alignment Quality Index (AQI) : Beyond Refusals: AQI as an Intrinsic Alignment Diagnostic via Latent Geometry, Cluster Divergence, and Layer wise Pooled Representations",
+      "authors": [
+        "Abhilekh Borah",
+        "Chhavi Sharma",
+        "Danush Khanna",
+        "Utkarsh Bhatt",
+        "Gurpreet Singh",
+        "Hasnat Md Abdullah",
+        "Raghav Kaushik Ravi",
+        "Vinija Jain",
+        "Jyoti Patel",
+        "Shubham Singh",
+        "Vasu Sharma",
+        "Arpita Vats",
+        "Rahul Raja",
+        "Aman Chadha",
+        "Amitava Das"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2025-06-16T18:22:28.000Z"
+    },
+    {
+      "id": "2506.14702",
+      "title": "Treasure Hunt: Real-time Targeting of the Long Tail using Training-Time Markers",
+      "authors": [
+        "Daniel D'souza",
+        "Julia Kreutzer",
+        "Adrien Morisot",
+        "Ahmet Üstün",
+        "Sara Hooker"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2025-06-17T16:40:42.000Z"
+    },
+    {
+      "id": "2506.13599",
+      "title": "CAMS: A CityGPT-Powered Agentic Framework for Urban Human Mobility Simulation",
+      "authors": [
+        "Yuwei Du",
+        "Jie Feng",
+        "Jian Yuan",
+        "Yong Li"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2025-06-16T15:24:07.000Z"
+    },
+    {
+      "id": "2506.03939",
+      "title": "Graph Counselor: Adaptive Graph Exploration via Multi-Agent Synergy to Enhance LLM Reasoning",
+      "authors": [
+        "Junqi Gao",
+        "Xiang Zou",
+        "YIng Ai",
+        "Dong Li",
+        "Yichen Niu",
+        "Biqing Qi",
+        "Jianxing Liu"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/gjq100/graph-counselor",
+      "published": "2025-06-04T13:31:21.000Z"
+    },
+    {
+      "id": "2506.13387",
+      "title": "TR2M: Transferring Monocular Relative Depth to Metric Depth with Language Descriptions and Scale-Oriented Contrast",
+      "authors": [
+        "Beilei Cui",
+        "Yiming Huang",
+        "Long Bai",
+        "Hongliang Ren"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/beileicui/tr2m",
+      "published": "2025-06-16T11:50:00.000Z"
+    },
+    {
+      "id": "2506.14629",
+      "title": "VisText-Mosquito: A Multimodal Dataset and Benchmark for AI-Based Mosquito Breeding Site Detection and Reasoning",
+      "authors": [
+        "Md. Adnanul Islam",
+        "Md. Faiyaz Abdullah Sayeedi",
+        "Md. Asaduzzaman Shuvo",
+        "Muhammad Ziaur Rahman",
+        "Shahanur Rahman Bappy",
+        "Raiyan Rahman",
+        "Swakkhar Shatabda"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/adnanul-islam-jisun/VisText-Mosquito",
+      "published": "2025-06-17T15:24:30.000Z"
+    },
+    {
+      "id": "2506.13922",
+      "title": "DynaGuide: Steering Diffusion Polices with Active Dynamic Guidance",
+      "authors": [
+        "Maximilian Du",
+        "Shuran Song"
+      ],
+      "upvotes": 0,
+      "github": "https://github.com/MaxDu17/DynaGuide",
+      "published": "2025-06-16T19:00:54.000Z"
+    }
+  ]
+}

@@ -1,0 +1,435 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-06-16",
+  "fetched_at": "2026-10-29T15:31:50.790Z",
+  "candidates": [
+    {
+      "id": "2506.09600",
+      "title": "Effective Red-Teaming of Policy-Adherent Agents",
+      "authors": [
+        "Itay Nakash",
+        "George Kour",
+        "Koren Lazar",
+        "Matan Vetzler",
+        "Guy Uziel",
+        "Ateret Anaby-Tavor"
+      ],
+      "upvotes": 39,
+      "github": null,
+      "published": "2025-06-11T10:59:47.000Z"
+    },
+    {
+      "id": "2506.10892",
+      "title": "The Diffusion Duality",
+      "authors": [
+        "Subham Sekhar Sahoo",
+        "Justin Deschenaux",
+        "Aaron Gokaslan",
+        "Guanghan Wang",
+        "Justin Chiu",
+        "Volodymyr Kuleshov"
+      ],
+      "upvotes": 37,
+      "github": "https://github.com/s-sahoo/duo",
+      "published": "2025-06-12T16:55:35.000Z"
+    },
+    {
+      "id": "2506.11924",
+      "title": "Aligned Novel View Image and Geometry Synthesis via Cross-modal Attention Instillation",
+      "authors": [
+        "Min-Seop Kwak",
+        "Junho Kim",
+        "Sangdoo Yun",
+        "Dongyoon Han",
+        "Taekyoung Kim",
+        "Seungryong Kim",
+        "Jin-Hwa Kim"
+      ],
+      "upvotes": 35,
+      "github": "https://github.com/cvlab-kaist/MoAI",
+      "published": "2025-06-13T16:19:00.000Z"
+    },
+    {
+      "id": "2506.11928",
+      "title": "LiveCodeBench Pro: How Do Olympiad Medalists Judge LLMs in Competitive Programming?",
+      "authors": [
+        "Zihan Zheng",
+        "Zerui Cheng",
+        "Zeyu Shen",
+        "Shang Zhou",
+        "Kaiyuan Liu",
+        "Hansen He",
+        "Dongruixuan Li",
+        "Stanley Wei",
+        "Hangyi Hao",
+        "Jianzhu Yao",
+        "Peiyao Sheng",
+        "Zixuan Wang",
+        "Wenhao Chai",
+        "Aleksandra Korolova",
+        "Peter Henderson",
+        "Sanjeev Arora",
+        "Pramod Viswanath",
+        "Jingbo Shang",
+        "Saining Xie"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/GavinZhengOI/LiveCodeBench-Pro",
+      "published": "2025-06-13T16:29:09.000Z"
+    },
+    {
+      "id": "2506.11930",
+      "title": "Feedback Friction: LLMs Struggle to Fully Incorporate External Feedback",
+      "authors": [
+        "Dongwei Jiang",
+        "Alvin Zhang",
+        "Andrew Wang",
+        "Nicholas Andrews",
+        "Daniel Khashabi"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/JHU-CLSP/Feedback-Friction",
+      "published": "2025-06-13T16:31:51.000Z"
+    },
+    {
+      "id": "2506.10128",
+      "title": "ViCrit: A Verifiable Reinforcement Learning Proxy Task for Visual Perception in VLMs",
+      "authors": [
+        "Xiyao Wang",
+        "Zhengyuan Yang",
+        "Chao Feng",
+        "Yongyuan Liang",
+        "Yuhang Zhou",
+        "Xiaoyu Liu",
+        "Ziyi Zang",
+        "Ming Li",
+        "Chung-Ching Lin",
+        "Kevin Lin",
+        "Linjie Li",
+        "Furong Huang",
+        "Lijuan Wang"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/si0wang/ViCrit",
+      "published": "2025-06-11T19:16:54.000Z"
+    },
+    {
+      "id": "2506.08592",
+      "title": "Dense Retrievers Can Fail on Simple Queries: Revealing The Granularity Dilemma of Embeddings",
+      "authors": [
+        "Liyan Xu",
+        "Zhenlin Su",
+        "Mo Yu",
+        "Jiangnan Li",
+        "Fandong Meng",
+        "Jie Zhou"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/lxucs/CapRetrieval",
+      "published": "2025-06-10T09:00:33.000Z"
+    },
+    {
+      "id": "2506.11886",
+      "title": "Beyond Homogeneous Attention: Memory-Efficient LLMs via Fourier-Approximated KV Cache",
+      "authors": [
+        "Xiaoran Liu",
+        "Siyang He",
+        "Qiqi Wang",
+        "Ruixiao Li",
+        "Yuerong Song",
+        "Zhigeng Liu",
+        "Linlin Li",
+        "Qun Liu",
+        "Zengfeng Huang",
+        "Qipeng Guo",
+        "Ziwei He",
+        "Xipeng Qiu"
+      ],
+      "upvotes": 20,
+      "github": null,
+      "published": "2025-06-13T15:35:54.000Z"
+    },
+    {
+      "id": "2506.11474",
+      "title": "Med-PRM: Medical Reasoning Models with Stepwise, Guideline-verified Process Rewards",
+      "authors": [
+        "Jaehoon Yun",
+        "Jiwoong Sohn",
+        "Jungwoo Park",
+        "Hyunjae Kim",
+        "Xiangru Tang",
+        "Yanjun Shao",
+        "Yonghoe Koo",
+        "Minhyeok Ko",
+        "Qingyu Chen",
+        "Mark Gerstein",
+        "Michael Moor",
+        "Jaewoo Kang"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/eth-medical-ai-lab/Med-PRM",
+      "published": "2025-06-13T05:36:30.000Z"
+    },
+    {
+      "id": "2506.07464",
+      "title": "DeepVideo-R1: Video Reinforcement Fine-Tuning via Difficulty-aware Regressive GRPO",
+      "authors": [
+        "Jinyoung Park",
+        "Jeehye Na",
+        "Jinyoung Kim",
+        "Hyunwoo J. Kim"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/mlvlab/DeepVideoR1",
+      "published": "2025-06-09T06:15:54.000Z"
+    },
+    {
+      "id": "2506.08989",
+      "title": "SwS: Self-aware Weakness-driven Problem Synthesis in Reinforcement Learning for LLM Reasoning",
+      "authors": [
+        "Xiao Liang",
+        "Zhong-Zhi Li",
+        "Yeyun Gong",
+        "Yang Wang",
+        "Hengyuan Zhang",
+        "Yelong Shen",
+        "Ying Nian Wu",
+        "Weizhu Chen"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/MasterVito/SwS",
+      "published": "2025-06-10T17:02:00.000Z"
+    },
+    {
+      "id": "2506.11136",
+      "title": "JAFAR: Jack up Any Feature at Any Resolution",
+      "authors": [
+        "Paul Couairon",
+        "Loick Chambon",
+        "Louis Serrano",
+        "Jean-Emmanuel Haugeard",
+        "Matthieu Cord",
+        "Nicolas Thome"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/PaulCouairon/JAFAR",
+      "published": "2025-06-10T20:53:12.000Z"
+    },
+    {
+      "id": "2506.11997",
+      "title": "pLSTM: parallelizable Linear Source Transition Mark networks",
+      "authors": [
+        "Korbinian Pöppel",
+        "Richard Freinschlag",
+        "Thomas Schmied",
+        "Wei Lin",
+        "Sepp Hochreiter"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/ml-jku/plstm_experiments",
+      "published": "2025-06-13T17:51:37.000Z"
+    },
+    {
+      "id": "2506.10082",
+      "title": "LoRA-Edit: Controllable First-Frame-Guided Video Editing via Mask-Aware LoRA Fine-Tuning",
+      "authors": [
+        "Chenjian Gao",
+        "Lihe Ding",
+        "Xin Cai",
+        "Zhanpeng Huang",
+        "Zibin Wang",
+        "Tianfan Xue"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/cjeen/LoRAEdit",
+      "published": "2025-06-11T18:03:55.000Z"
+    },
+    {
+      "id": "2506.09366",
+      "title": "SkillBlender: Towards Versatile Humanoid Whole-Body Loco-Manipulation via Skill Blending",
+      "authors": [
+        "Yuxuan Kuang",
+        "Haoran Geng",
+        "Amine Elhafsi",
+        "Tan-Dzung Do",
+        "Pieter Abbeel",
+        "Jitendra Malik",
+        "Marco Pavone",
+        "Yue Wang"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/Humanoid-SkillBlender/SkillBlender",
+      "published": "2025-06-11T03:24:26.000Z"
+    },
+    {
+      "id": "2506.09427",
+      "title": "A High-Quality Dataset and Reliable Evaluation for Interleaved Image-Text Generation",
+      "authors": [
+        "Yukang Feng",
+        "Jianwen Sun",
+        "Chuanhao Li",
+        "Zizhen Li",
+        "Jiaxin Ai",
+        "Fanrui Zhang",
+        "Yifan Chang",
+        "Sizhuo Zhou",
+        "Shenglin Zhang",
+        "Yu Dai",
+        "Kaipeng Zhang"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2025-06-11T06:21:20.000Z"
+    },
+    {
+      "id": "2506.11305",
+      "title": "Don't Pay Attention",
+      "authors": [
+        "Mohammad Hammoud",
+        "Devang Acharya"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/rimads/avey-dpa",
+      "published": "2025-06-12T21:11:06.000Z"
+    },
+    {
+      "id": "2506.09038",
+      "title": "AbstentionBench: Reasoning LLMs Fail on Unanswerable Questions",
+      "authors": [
+        "Polina Kirichenko",
+        "Mark Ibrahim",
+        "Kamalika Chaudhuri",
+        "Samuel J. Bell"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/facebookresearch/abstentionbench",
+      "published": "2025-06-10T17:57:30.000Z"
+    },
+    {
+      "id": "2506.11116",
+      "title": "Infinity Instruct: Scaling Instruction Selection and Synthesis to Enhance Language Models",
+      "authors": [
+        "Jijie Li",
+        "Li Du",
+        "Hanyu Zhao",
+        "Bo-wen Zhang",
+        "Liangdong Wang",
+        "Boyan Gao",
+        "Guang Liu",
+        "Yonghua Lin"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-06-09T06:37:15.000Z"
+    },
+    {
+      "id": "2506.11274",
+      "title": "Learning a Continue-Thinking Token for Enhanced Test-Time Scaling",
+      "authors": [
+        "Liran Ringel",
+        "Elad Tolochinsky",
+        "Yaniv Romano"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/liranringel/learning-continue-thinking-token",
+      "published": "2025-06-12T20:28:54.000Z"
+    },
+    {
+      "id": "2506.11130",
+      "title": "A Self-Refining Framework for Enhancing ASR Using TTS-Synthesized Data",
+      "authors": [
+        "Cheng Kang Chou",
+        "Chan-Jan Hsu",
+        "Ho-Lam Chung",
+        "Liang-Hsuan Tseng",
+        "Hsi-Chun Cheng",
+        "Yu-Kuan Fu",
+        "Kuan Po Huang",
+        "Hung-Yi Lee"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-06-10T17:30:32.000Z"
+    },
+    {
+      "id": "2506.10387",
+      "title": "Mirage-1: Augmenting and Updating GUI Agent with Hierarchical Multimodal Skills",
+      "authors": [
+        "Yuquan Xie",
+        "Zaijing Li",
+        "Rui Shao",
+        "Gongwei Chen",
+        "Kaiwen Zhou",
+        "Yinchuan Li",
+        "Dongmei Jiang",
+        "Liqiang Nie"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/JiuTian-VL/Mirage-1",
+      "published": "2025-06-12T06:21:19.000Z"
+    },
+    {
+      "id": "2506.08477",
+      "title": "Detecting Harmful Memes with Decoupled Understanding and Guided CoT Reasoning",
+      "authors": [
+        "Fengjun Pan",
+        "Anh Tuan Luu",
+        "Xiaobao Wu"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/panFJCharlotte98/HMC",
+      "published": "2025-06-10T06:10:45.000Z"
+    },
+    {
+      "id": "2506.08915",
+      "title": "Inherently Faithful Attention Maps for Vision Transformers",
+      "authors": [
+        "Ananthu Aniraj",
+        "Cassio F. Dantas",
+        "Dino Ienco",
+        "Diego Marcos"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/ananthu-aniraj/ifam",
+      "published": "2025-06-10T15:41:22.000Z"
+    },
+    {
+      "id": "2506.10056",
+      "title": "Reward Models Enable Scalable Code Verification by Trading Accuracy for Throughput",
+      "authors": [
+        "Gabriel Orlanski",
+        "Nicholas Roberts",
+        "Aws Albarghouthi",
+        "Frederic Sala"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/SprocketLab/orm-code-verifier",
+      "published": "2025-06-11T17:58:21.000Z"
+    },
+    {
+      "id": "2506.03857",
+      "title": "Prompt Candidates, then Distill: A Teacher-Student Framework for LLM-driven Data Annotation",
+      "authors": [
+        "Mingxuan Xia",
+        "Haobo Wang",
+        "Yixuan Li",
+        "Zewei Yu",
+        "Jindong Wang",
+        "Junbo Zhao",
+        "Runze Wu"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/MingxuanXia/CanDist",
+      "published": "2025-06-04T11:42:37.000Z"
+    },
+    {
+      "id": "2506.11702",
+      "title": "Configurable Preference Tuning with Rubric-Guided Synthetic Data",
+      "authors": [
+        "Víctor Gallego"
+      ],
+      "upvotes": 0,
+      "github": "https://github.com/vicgalle/configurable-preference-tuning",
+      "published": "2025-06-13T12:17:38.000Z"
+    }
+  ]
+}

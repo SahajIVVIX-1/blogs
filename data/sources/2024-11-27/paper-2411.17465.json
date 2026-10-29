@@ -1,0 +1,7 @@
+{
+  "id": "2411.17465",
+  "html": "https://arxiv.org/html/2411.17465",
+  "limitations": null,
+  "conclusion": "We introduced ShowUI, a vision-language-action model for GUI visual agents that addresses key challenges in UI visual and action modeling, and instruction-tuning data curations. From the model aspect, our development of UI-Guided Visual Token Selection allows for efficient processing of high-resolution UI screenshots, significantly reducing computational costs. Our Interleaved Vision-Language-Action Streaming framework effectively manages complex interactions across modalities. From the data aspect, with a carefully curated, high-quality instruction-following dataset, ShowUI achieves strong performance, with a lightweight model size. These results demonstrate ShowUI’s potential to advance GUI visual agents towards more human-like interaction and perception. Limitation and Future work. Our model is primarily trained on offline data. A promising future direction is to enhance it in online ",
+  "figure": null
+}

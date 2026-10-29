@@ -1,0 +1,476 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-09-24",
+  "fetched_at": "2026-10-29T15:33:16.434Z",
+  "candidates": [
+    {
+      "id": "2509.18174",
+      "title": "Baseer: A Vision-Language Model for Arabic Document-to-Markdown OCR",
+      "authors": [
+        "Khalil Hennara",
+        "Muhammad Hreden",
+        "Mohamed Motasim Hamed",
+        "Ahmad Bastati",
+        "Zeina Aldallal",
+        "Sara Chrouf",
+        "Safwan AlModhayan"
+      ],
+      "upvotes": 135,
+      "github": null,
+      "published": "2025-09-17T15:07:29.000Z"
+    },
+    {
+      "id": "2509.19249",
+      "title": "Reinforcement Learning on Pre-Training Data",
+      "authors": [
+        "Siheng Li",
+        "Kejiao Li",
+        "Zenan Xu",
+        "Guanhua Huang",
+        "Evander Yang",
+        "Kun Li",
+        "Haoyuan Wu",
+        "Jiajia Wu",
+        "Zihao Zheng",
+        "Chenchen Zhang",
+        "Kun Shi",
+        "Kyrierl Deng",
+        "Qi Yi",
+        "Ruibin Xiong",
+        "Tingqiang Xu",
+        "Yuhao Jiang",
+        "Jianfeng Yan",
+        "Yuyuan Zeng",
+        "Guanghui Xu",
+        "Jinbao Xue",
+        "Zhijiang Xu",
+        "Zheng Fang",
+        "Shuai Li",
+        "Qibin Liu",
+        "Xiaoxue Li",
+        "Zhuoyu Li",
+        "Yangyu Tao",
+        "Fei Gao",
+        "Cheng Jiang",
+        "Bo Chao Wang",
+        "Kai Liu",
+        "Jianchen Zhu",
+        "Wai Lam",
+        "Wayyt Wang",
+        "Bo Zhou",
+        "Di Wang"
+      ],
+      "upvotes": 67,
+      "github": null,
+      "published": "2025-09-23T17:10:40.000Z"
+    },
+    {
+      "id": "2509.18154",
+      "title": "MiniCPM-V 4.5: Cooking Efficient MLLMs via Architecture, Data, and Training Recipe",
+      "authors": [
+        "Tianyu Yu",
+        "Zefan Wang",
+        "Chongyi Wang",
+        "Fuwei Huang",
+        "Wenshuo Ma",
+        "Zhihui He",
+        "Tianchi Cai",
+        "Weize Chen",
+        "Yuxiang Huang",
+        "Yuanqian Zhao",
+        "Bokai Xu",
+        "Junbo Cui",
+        "Yingjing Xu",
+        "Liqing Ruan",
+        "Luoyuan Zhang",
+        "Hanyu Liu",
+        "Jingkun Tang",
+        "Hongyuan Liu",
+        "Qining Guo",
+        "Wenhao Hu",
+        "Bingxiang He",
+        "Jie Zhou",
+        "Jie Cai",
+        "Ji Qi",
+        "Zonghao Guo",
+        "Chi Chen",
+        "Guoyang Zeng",
+        "Yuxuan Li",
+        "Ganqu Cui",
+        "Ning Ding",
+        "Xu Han",
+        "Yuan Yao",
+        "Zhiyuan Liu",
+        "Maosong Sun"
+      ],
+      "upvotes": 63,
+      "github": "https://github.com/OpenBMB/MiniCPM-V",
+      "published": "2025-09-16T19:41:48.000Z"
+    },
+    {
+      "id": "2509.18644",
+      "title": "Do You Need Proprioceptive States in Visuomotor Policies?",
+      "authors": [
+        "Juntu Zhao",
+        "Wenbo Lu",
+        "Di Zhang",
+        "Yufeng Liu",
+        "Yushen Liang",
+        "Tianluo Zhang",
+        "Yifeng Cao",
+        "Junyuan Xie",
+        "Yingdong Hu",
+        "Shengjie Wang",
+        "Junliang Guo",
+        "Dequan Wang",
+        "Yang Gao"
+      ],
+      "upvotes": 49,
+      "github": null,
+      "published": "2025-09-23T04:56:59.000Z"
+    },
+    {
+      "id": "2509.19296",
+      "title": "Lyra: Generative 3D Scene Reconstruction via Video Diffusion Model Self-Distillation",
+      "authors": [
+        "Sherwin Bahmani",
+        "Tianchang Shen",
+        "Jiawei Ren",
+        "Jiahui Huang",
+        "Yifeng Jiang",
+        "Haithem Turki",
+        "Andrea Tagliasacchi",
+        "David B. Lindell",
+        "Zan Gojcic",
+        "Sanja Fidler",
+        "Huan Ling",
+        "Jun Gao",
+        "Xuanchi Ren"
+      ],
+      "upvotes": 32,
+      "github": "https://github.com/nv-tlabs/lyra",
+      "published": "2025-09-23T17:58:01.000Z"
+    },
+    {
+      "id": "2509.18905",
+      "title": "How Far are VLMs from Visual Spatial Intelligence? A Benchmark-Driven Perspective",
+      "authors": [
+        "Songsong Yu",
+        "Yuxin Chen",
+        "Hao Ju",
+        "Lianjie Jia",
+        "Fuxi Zhang",
+        "Shaofei Huang",
+        "Yuhan Wu",
+        "Rundi Cui",
+        "Binghao Ran",
+        "Zaibin Zhang",
+        "Zhedong Zheng",
+        "Zhipeng Zhang",
+        "Yifan Wang",
+        "Lin Song",
+        "Lijun Wang",
+        "Yanwei Li",
+        "Ying Shan",
+        "Huchuan Lu"
+      ],
+      "upvotes": 31,
+      "github": "https://github.com/song2yu/SIBench-VSR",
+      "published": "2025-09-23T12:00:14.000Z"
+    },
+    {
+      "id": "2509.18849",
+      "title": "MAPO: Mixed Advantage Policy Optimization",
+      "authors": [
+        "Wenke Huang",
+        "Quan Zhang",
+        "Yiyang Fang",
+        "Jian Liang",
+        "Xuankun Rong",
+        "Huanjin Yao",
+        "Guancheng Wan",
+        "Ke Liang",
+        "Wenwen He",
+        "Mingjun Li",
+        "Leszek Rutkowski",
+        "Mang Ye",
+        "Bo Du",
+        "Dacheng Tao"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/WenkeHuang/MAPO",
+      "published": "2025-09-23T09:37:16.000Z"
+    },
+    {
+      "id": "2509.19297",
+      "title": "VolSplat: Rethinking Feed-Forward 3D Gaussian Splatting with Voxel-Aligned Prediction",
+      "authors": [
+        "Weijie Wang",
+        "Yeqing Chen",
+        "Zeyu Zhang",
+        "Hengyu Liu",
+        "Haoxiao Wang",
+        "Zhiyuan Feng",
+        "Wenkang Qin",
+        "Zheng Zhu",
+        "Donny Y. Chen",
+        "Bohan Zhuang"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/ziplab/VolSplat",
+      "published": "2025-09-23T17:59:02.000Z"
+    },
+    {
+      "id": "2509.19284",
+      "title": "What Characterizes Effective Reasoning? Revisiting Length, Review, and Structure of CoT",
+      "authors": [
+        "Yunzhen Feng",
+        "Julia Kempe",
+        "Cheng Zhang",
+        "Parag Jain",
+        "Anthony Hartshorn"
+      ],
+      "upvotes": 23,
+      "github": null,
+      "published": "2025-09-23T17:50:54.000Z"
+    },
+    {
+      "id": "2509.18824",
+      "title": "Hyper-Bagel: A Unified Acceleration Framework for Multimodal Understanding and Generation",
+      "authors": [
+        "Yanzuo Lu",
+        "Xin Xia",
+        "Manlin Zhang",
+        "Huafeng Kuang",
+        "Jianbin Zheng",
+        "Yuxi Ren",
+        "Xuefeng Xiao"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/hyperbagel/hyperbagel",
+      "published": "2025-09-23T09:12:46.000Z"
+    },
+    {
+      "id": "2509.16506",
+      "title": "CommonForms: A Large, Diverse Dataset for Form Field Detection",
+      "authors": [
+        "Joe Barrow"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/jbarrow/commonforms",
+      "published": "2025-09-20T02:55:40.000Z"
+    },
+    {
+      "id": "2509.19170",
+      "title": "Soft Tokens, Hard Truths",
+      "authors": [
+        "Natasha Butt",
+        "Ariel Kwiatkowski",
+        "Ismail Labiad",
+        "Julia Kempe",
+        "Yann Ollivier"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2025-09-23T15:43:47.000Z"
+    },
+    {
+      "id": "2509.14635",
+      "title": "SWE-QA: Can Language Models Answer Repository-level Code Questions?",
+      "authors": [
+        "Weihan Peng",
+        "Yuling Shi",
+        "Yuhang Wang",
+        "Xinyun Zhang",
+        "Beijun Shen",
+        "Xiaodong Gu"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/peng-weihan/SWE-QA-Bench",
+      "published": "2025-09-18T05:25:32.000Z"
+    },
+    {
+      "id": "2509.13835",
+      "title": "Large Language Models Discriminate Against Speakers of German Dialects",
+      "authors": [
+        "Minh Duc Bui",
+        "Carolin Holtermann",
+        "Valentin Hofmann",
+        "Anne Lauscher",
+        "Katharina von der Wense"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2025-09-17T09:05:37.000Z"
+    },
+    {
+      "id": "2509.17083",
+      "title": "HyRF: Hybrid Radiance Fields for Memory-efficient and High-quality Novel View Synthesis",
+      "authors": [
+        "Zipeng Wang",
+        "Dan Xu"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/wzpscott/hybrid-radiance-fields",
+      "published": "2025-09-21T13:59:26.000Z"
+    },
+    {
+      "id": "2509.19300",
+      "title": "CAR-Flow: Condition-Aware Reparameterization Aligns Source and Target for Better Flow Matching",
+      "authors": [
+        "Chen Chen",
+        "Pengsheng Guo",
+        "Liangchen Song",
+        "Jiasen Lu",
+        "Rui Qian",
+        "Xinze Wang",
+        "Tsu-Jui Fu",
+        "Wei Liu",
+        "Yinfei Yang",
+        "Alex Schwing"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2025-09-23T17:59:31.000Z"
+    },
+    {
+      "id": "2509.18090",
+      "title": "GeoSVR: Taming Sparse Voxels for Geometrically Accurate Surface Reconstruction",
+      "authors": [
+        "Jiahe Li",
+        "Jiawei Zhang",
+        "Youmin Zhang",
+        "Xiao Bai",
+        "Jin Zheng",
+        "Xiaohan Yu",
+        "Lin Gu"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/Fictionarry/GeoSVR",
+      "published": "2025-09-22T17:58:48.000Z"
+    },
+    {
+      "id": "2509.19002",
+      "title": "VIR-Bench: Evaluating Geospatial and Temporal Understanding of MLLMs via Travel Video Itinerary Reconstruction",
+      "authors": [
+        "Hao Wang",
+        "Eiki Murata",
+        "Lingfang Zhang",
+        "Ayako Sato",
+        "So Fukuda",
+        "Ziqi Yin",
+        "Wentao Hu",
+        "Keisuke Nakao",
+        "Yusuke Nakamura",
+        "Sebastian Zwirner",
+        "Yi-Chia Chen",
+        "Hiroyuki Otomo",
+        "Hiroki Ouchi",
+        "Daisuke Kawahara"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/nlp-waseda/VIR-Bench",
+      "published": "2025-11-15T00:00:00.000Z"
+    },
+    {
+      "id": "2509.17321",
+      "title": "OpenGVL - Benchmarking Visual Temporal Progress for Data Curation",
+      "authors": [
+        "Paweł Budzianowski",
+        "Emilia Wiśnios",
+        "Gracjan Góral",
+        "Igor Kulakov",
+        "Viktor Petrenko",
+        "Krzysztof Walas"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/budzianowski/opengvl",
+      "published": "2025-09-22T02:52:55.000Z"
+    },
+    {
+      "id": "2509.18030",
+      "title": "RadEval: A framework for radiology text evaluation",
+      "authors": [
+        "Justin Xu",
+        "Xi Zhang",
+        "Javid Abderezaei",
+        "Julie Bauml",
+        "Roger Boodoo",
+        "Fatemeh Haghighi",
+        "Ali Ganjizadeh",
+        "Eric Brattain",
+        "Dave Van Veen",
+        "Zaiqiao Meng",
+        "David Eyre",
+        "Jean-Benoit Delbrouck"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/jbdel/RadEval",
+      "published": "2025-09-22T17:03:48.000Z"
+    },
+    {
+      "id": "2509.18282",
+      "title": "PEEK: Guiding and Minimal Image Representations for Zero-Shot Generalization of Robot Manipulation Policies",
+      "authors": [
+        "Jesse Zhang",
+        "Marius Memmel",
+        "Kevin Kim",
+        "Dieter Fox",
+        "Jesse Thomason",
+        "Fabio Ramos",
+        "Erdem Bıyık",
+        "Abhishek Gupta",
+        "Anqi Li"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/peek-robot/peek",
+      "published": "2025-09-22T18:10:14.000Z"
+    },
+    {
+      "id": "2509.17349",
+      "title": "Better Late Than Never: Evaluation of Latency Metrics for Simultaneous Speech-to-Text Translation",
+      "authors": [
+        "Peter Polák",
+        "Sara Papi",
+        "Luisa Bentivogli",
+        "Ondřej Bojar"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2025-09-22T04:21:19.000Z"
+    },
+    {
+      "id": "2509.19274",
+      "title": "DRISHTIKON: A Multimodal Multilingual Benchmark for Testing Language Models' Understanding on Indian Culture",
+      "authors": [
+        "Arijit Maji",
+        "Raghvendra Kumar",
+        "Akash Ghosh",
+        "Anushka",
+        "Nemil Shah",
+        "Abhilekh Borah",
+        "Vanshika Shah",
+        "Nishant Mishra",
+        "Sriparna Saha"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/13ari/DRISHTIKON",
+      "published": "2025-09-23T17:40:43.000Z"
+    },
+    {
+      "id": "2509.19087",
+      "title": "Zero-Shot Multi-Spectral Learning: Reimagining a Generalist Multimodal Gemini 2.5 Model for Remote Sensing Applications",
+      "authors": [
+        "Ganesh Mallya",
+        "Yotam Gigi",
+        "Dahun Kim",
+        "Maxim Neumann",
+        "Genady Beryozkin",
+        "Tomer Shekel",
+        "Anelia Angelova"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2025-09-23T14:40:52.000Z"
+    }
+  ]
+}

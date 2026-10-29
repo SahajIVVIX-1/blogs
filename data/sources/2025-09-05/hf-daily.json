@@ -1,0 +1,280 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-09-05",
+  "fetched_at": "2026-10-29T15:33:04.895Z",
+  "candidates": [
+    {
+      "id": "2509.03867",
+      "title": "Drivel-ology: Challenging LLMs with Interpreting Nonsense with Depth",
+      "authors": [
+        "Yang Wang",
+        "Chenghao Xiao",
+        "Chia-Yi Hsiao",
+        "Zi Yan Chang",
+        "Chi-Li Chen",
+        "Tyler Loakman",
+        "Chenghua Lin"
+      ],
+      "upvotes": 213,
+      "github": "https://github.com/ExtraOrdinaryLab/drivelology",
+      "published": "2025-09-04T03:58:55.000Z"
+    },
+    {
+      "id": "2509.04338",
+      "title": "From Editor to Dense Geometry Estimator",
+      "authors": [
+        "JiYuan Wang",
+        "Chunyu Lin",
+        "Lei Sun",
+        "Rongying Liu",
+        "Lang Nie",
+        "Mingxing Li",
+        "Kang Liao",
+        "Xiangxiang Chu",
+        "Yao Zhao"
+      ],
+      "upvotes": 96,
+      "github": "https://github.com/AMAP-ML/FE2E",
+      "published": "2025-09-04T15:58:50.000Z"
+    },
+    {
+      "id": "2509.04419",
+      "title": "Towards a Unified View of Large Language Model Post-Training",
+      "authors": [
+        "Xingtai Lv",
+        "Yuxin Zuo",
+        "Youbang Sun",
+        "Hongyi Liu",
+        "Yuntian Wei",
+        "Zhekai Chen",
+        "Lixuan He",
+        "Xuekai Zhu",
+        "Kaiyan Zhang",
+        "Bingning Wang",
+        "Ning Ding",
+        "Bowen Zhou"
+      ],
+      "upvotes": 76,
+      "github": "https://github.com/TsinghuaC3I/Unify-Post-Training",
+      "published": "2025-09-04T17:40:33.000Z"
+    },
+    {
+      "id": "2509.04292",
+      "title": "Inverse IFEval: Can LLMs Unlearn Stubborn Training Conventions to Follow Real Instructions?",
+      "authors": [
+        "Qinyan Zhang",
+        "Xinping Lei",
+        "Ruijie Miao",
+        "Yu Fu",
+        "Haojie Fan",
+        "Le Chang",
+        "Jiafan Hou",
+        "Dingling Zhang",
+        "Zhongfei Hou",
+        "Ziqiang Yang",
+        "Changxin Pu",
+        "Fei Hu",
+        "Jingkai Liu",
+        "Mengyun Liu",
+        "Yang Liu",
+        "Xiang Gao",
+        "Jiaheng Liu",
+        "Tong Yang",
+        "Zaiyuan Wang",
+        "Ge Zhang",
+        "Wenhao Huang"
+      ],
+      "upvotes": 62,
+      "github": null,
+      "published": "2025-09-04T15:03:02.000Z"
+    },
+    {
+      "id": "2509.01396",
+      "title": "DeepResearch Arena: The First Exam of LLMs' Research Abilities via Seminar-Grounded Tasks",
+      "authors": [
+        "Haiyuan Wan",
+        "Chen Yang",
+        "Junchi Yu",
+        "Meiqi Tu",
+        "Jiaxuan Lu",
+        "Di Yu",
+        "Jianbao Cao",
+        "Ben Gao",
+        "Jiaqing Xie",
+        "Aoran Wang",
+        "Wenlong Zhang",
+        "Philip Torr",
+        "Dongzhan Zhou"
+      ],
+      "upvotes": 55,
+      "github": null,
+      "published": "2025-09-01T11:42:47.000Z"
+    },
+    {
+      "id": "2509.04011",
+      "title": "NER Retriever: Zero-Shot Named Entity Retrieval with Type-Aware Embeddings",
+      "authors": [
+        "Or Shachar",
+        "Uri Katz",
+        "Yoav Goldberg",
+        "Oren Glickman"
+      ],
+      "upvotes": 29,
+      "github": "https://github.com/ShacharOr100/ner_retriever",
+      "published": "2025-09-04T08:42:23.000Z"
+    },
+    {
+      "id": "2509.04394",
+      "title": "Transition Models: Rethinking the Generative Learning Objective",
+      "authors": [
+        "Zidong Wang",
+        "Yiyuan Zhang",
+        "Xiaoyu Yue",
+        "Xiangyu Yue",
+        "Yangguang Li",
+        "Wanli Ouyang",
+        "Lei Bai"
+      ],
+      "upvotes": 29,
+      "github": "https://github.com/WZDTHU/TiM",
+      "published": "2025-09-04T17:05:59.000Z"
+    },
+    {
+      "id": "2509.03059",
+      "title": "Loong: Synthesize Long Chain-of-Thoughts at Scale through Verifiers",
+      "authors": [
+        "Xingyue Huang",
+        "Rishabh",
+        "Gregor Franke",
+        "Ziyi Yang",
+        "Jiamu Bai",
+        "Weijie Bai",
+        "Jinhe Bi",
+        "Zifeng Ding",
+        "Yiqun Duan",
+        "Chengyu Fan",
+        "Wendong Fan",
+        "Xin Gao",
+        "Ruohao Guo",
+        "Yuan He",
+        "Zhuangzhuang He",
+        "Xianglong Hu",
+        "Neil Johnson",
+        "Bowen Li",
+        "Fangru Lin",
+        "Siyu Lin",
+        "Tong Liu",
+        "Yunpu Ma",
+        "Hao Shen",
+        "Hao Sun",
+        "Beibei Wang",
+        "Fangyijie Wang",
+        "Hao Wang",
+        "Haoran Wang",
+        "Yang Wang",
+        "Yifeng Wang",
+        "Zhaowei Wang",
+        "Ziyang Wang",
+        "Yifan Wu",
+        "Zikai Xiao",
+        "Chengxing Xie",
+        "Fan Yang",
+        "Junxiao Yang",
+        "Qianshuo Ye",
+        "Ziyu Ye",
+        "Guangtao Zeng",
+        "Yuwen Ebony Zhang",
+        "Zeyu Zhang",
+        "Zihao Zhu",
+        "Bernard Ghanem",
+        "Philip Torr",
+        "Guohao Li"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/camel-ai/loong",
+      "published": "2025-09-03T06:42:40.000Z"
+    },
+    {
+      "id": "2508.20478",
+      "title": "Video-MTR: Reinforced Multi-Turn Reasoning for Long Video Understanding",
+      "authors": [
+        "Yuan Xie",
+        "Tianshui Chen",
+        "Zheng Ge",
+        "Lionel Ni"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2025-08-28T06:55:08.000Z"
+    },
+    {
+      "id": "2509.04406",
+      "title": "Few-step Flow for 3D Generation via Marginal-Data Transport Distillation",
+      "authors": [
+        "Zanwei Zhou",
+        "Taoran Yi",
+        "Jiemin Fang",
+        "Chen Yang",
+        "Lingxi Xie",
+        "Xinggang Wang",
+        "Wei Shen",
+        "Qi Tian"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/Zanue/MDT-dist",
+      "published": "2025-09-04T17:24:31.000Z"
+    },
+    {
+      "id": "2509.04434",
+      "title": "Durian: Dual Reference-guided Portrait Animation with Attribute Transfer",
+      "authors": [
+        "Hyunsoo Cha",
+        "Byungjun Kim",
+        "Hanbyul Joo"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/snuvclab/durian",
+      "published": "2025-09-04T17:53:03.000Z"
+    },
+    {
+      "id": "2508.18733",
+      "title": "Drawing2CAD: Sequence-to-Sequence Learning for CAD Generation from Vector Drawings",
+      "authors": [
+        "Feiwei Qin",
+        "Shichao Lu",
+        "Junhao Hou",
+        "Changmiao Wang",
+        "Meie Fang",
+        "Ligang Liu"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/lllssc/Drawing2CAD",
+      "published": "2025-08-26T07:01:58.000Z"
+    },
+    {
+      "id": "2509.04442",
+      "title": "Delta Activations: A Representation for Finetuned Large Language Models",
+      "authors": [
+        "Zhiqiu Xu",
+        "Amish Sethi",
+        "Mayur Naik",
+        "Ser-Nam Lim"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/OscarXZQ/delta_activations",
+      "published": "2025-09-04T17:59:06.000Z"
+    },
+    {
+      "id": "2509.03888",
+      "title": "False Sense of Security: Why Probing-based Malicious Input Detection Fails to Generalize",
+      "authors": [
+        "Cheng Wang",
+        "Zeming Wei",
+        "Qin Liu",
+        "Muhao Chen"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/WangCheng0116/Why-Probe-Fails",
+      "published": "2025-09-04T05:15:55.000Z"
+    }
+  ]
+}

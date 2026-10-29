@@ -1,0 +1,11 @@
+{
+  "id": "2310.03502",
+  "html": "https://arxiv.org/html/2310.03502",
+  "limitations": "The current system produces images that appear natural, however, additional research can be conducted to (1) enhance the semantic coherence between the input text and the generated image, and (2) to improve the absolute values of FID and image quality based on human evaluations.",
+  "conclusion": "We presented Kandinsky, a system for various image generation and processing tasks based on a novel latent diffusion model. Our model yielded the SotA results among open-sourced systems. Additionally, we provided an extensive ablation study of an image prior to design choices. Our system is equipped with free-to-use interfaces in the form of Web application and Telegram messenger bot. The pre-trained models are available on Hugging Face, and the source code is released under a permissive license enabling various, including commercial, applications of the developed technology. In future research, our goal is to investigate the potential of the latest image encoders. We plan to explore the development of more efficient UNet architectures for text-to-image tasks and focus on improving the understanding of textual prompts. Additionally, we aim to experiment with generating images at higher r",
+  "figure": {
+    "path": "images/2023/paper-2310.03502.webp",
+    "src": "https://arxiv.org/html/2310.03502v1/special_generation.png",
+    "caption": "Figure 1: Image prior scheme and inference regimes of the Kandinsky model."
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "id": "2404.09656",
+  "html": "https://arxiv.org/html/2404.09656",
+  "limitations": null,
+  "conclusion": "This paper introduces Trust Region (TR) methods—TR-DPO, TR-IPO, and TR-KTO—that update the reference policy during training, distinguishing them from classical offline optimization methods. Our approach addresses the reward overoptimization problem, showing that TR methods are less affected by overoptimization compared to their vanilla counterparts. Limitations and Future Work. Future research could explore the generalization of our methods to other domains, modalities, and especially smaller datasets. In particular, large [math] values in hard updates may not scale well, indicating the need for more flexible, data-adaptive approaches. We linked reward overoptimization to gradient dynamics that decrease in-domain sequence probabilities and demonstrated that our approach improves offline alignment methods. Other methods to prevent overoptimization (e.g., scheduling [math] values or optimi",
+  "figure": null
+}

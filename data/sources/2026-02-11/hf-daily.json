@@ -1,0 +1,910 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-02-11",
+  "fetched_at": "2026-10-29T15:34:41.213Z",
+  "candidates": [
+    {
+      "id": "2602.05400",
+      "title": "OPUS: Towards Efficient and Principled Data Selection in Large Language Model Pre-training in Every Iteration",
+      "authors": [
+        "Shaobo Wang",
+        "Xuan Ouyang",
+        "Tianyi Xu",
+        "Yuzheng Hu",
+        "Jialin Liu",
+        "Guo Chen",
+        "Tianyu Zhang",
+        "Junhao Zheng",
+        "Kexin Yang",
+        "Xingzhang Ren",
+        "Dayiheng Liu",
+        "Linfeng Zhang"
+      ],
+      "upvotes": 275,
+      "github": null,
+      "published": "2026-02-05T07:34:23.000Z"
+    },
+    {
+      "id": "2602.09856",
+      "title": "Code2World: A GUI World Model via Renderable Code Generation",
+      "authors": [
+        "Yuhao Zheng",
+        "Li'an Zhong",
+        "Yi Wang",
+        "Rui Dai",
+        "Kaikui Liu",
+        "Xiangxiang Chu",
+        "Linyuan Lv",
+        "Philip Torr",
+        "Kevin Qinghong Lin"
+      ],
+      "upvotes": 186,
+      "github": "https://github.com/AMAP-ML/Code2World",
+      "published": "2026-02-10T14:56:19.000Z"
+    },
+    {
+      "id": "2602.09082",
+      "title": "UI-Venus-1.5 Technical Report",
+      "authors": [
+        "Veuns-Team",
+        "Changlong Gao",
+        "Zhangxuan Gu",
+        "Yulin Liu",
+        "Xinyu Qiu",
+        "Shuheng Shen",
+        "Yue Wen",
+        "Tianyu Xia",
+        "Zhenyu Xu",
+        "Zhengwen Zeng",
+        "Beitong Zhou",
+        "Xingran Zhou",
+        "Weizhi Chen",
+        "Sunhao Dai",
+        "Jingya Dou",
+        "Yichen Gong",
+        "Yuan Guo",
+        "Zhenlin Guo",
+        "Feng Li",
+        "Qian Li",
+        "Jinzhen Lin",
+        "Yuqi Zhou",
+        "Linchao Zhu",
+        "Liang Chen",
+        "Zhenyu Guo",
+        "Changhua Meng",
+        "Weiqiang Wang"
+      ],
+      "upvotes": 120,
+      "github": "https://github.com/inclusionAI/UI-Venus",
+      "published": "2026-02-09T18:43:40.000Z"
+    },
+    {
+      "id": "2602.08234",
+      "title": "SkillRL: Evolving Agents via Recursive Skill-Augmented Reinforcement Learning",
+      "authors": [
+        "Peng Xia",
+        "Jianwen Chen",
+        "Hanyang Wang",
+        "Jiaqi Liu",
+        "Kaide Zeng",
+        "Yu Wang",
+        "Siwei Han",
+        "Yiyang Zhou",
+        "Xujiang Zhao",
+        "Haifeng Chen",
+        "Zeyu Zheng",
+        "Cihang Xie",
+        "Huaxiu Yao"
+      ],
+      "upvotes": 75,
+      "github": "https://github.com/aiming-lab/SkillRL",
+      "published": "2026-02-09T03:17:17.000Z"
+    },
+    {
+      "id": "2602.09443",
+      "title": "P1-VL: Bridging Visual Perception and Scientific Reasoning in Physics Olympiads",
+      "authors": [
+        "Yun Luo",
+        "Futing Wang",
+        "Qianjia Cheng",
+        "Fangchen Yu",
+        "Haodi Lei",
+        "Jianhao Yan",
+        "Chenxi Li",
+        "Jiacheng Chen",
+        "Yufeng Zhao",
+        "Haiyuan Wan",
+        "Yuchen Zhang",
+        "Shenghe Zheng",
+        "Junchi Yao",
+        "Qingyang Zhang",
+        "Haonan He",
+        "Wenxuan Zeng",
+        "Li Sheng",
+        "Chengxing Xie",
+        "Yuxin Zuo",
+        "Yizhuo Li",
+        "Yulun Wu",
+        "Rui Huang",
+        "Dongzhan Zhou",
+        "Kai Chen",
+        "Yu Qiao",
+        "Lei Bai",
+        "Yu Cheng",
+        "Ning Ding",
+        "Bowen Zhou",
+        "Peng Ye",
+        "Ganqu Cui"
+      ],
+      "upvotes": 58,
+      "github": "https://github.com/PRIME-RL/P1-VL",
+      "published": "2026-02-10T06:28:08.000Z"
+    },
+    {
+      "id": "2602.10090",
+      "title": "Agent World Model: Infinity Synthetic Environments for Agentic Reinforcement Learning",
+      "authors": [
+        "Zhaoyang Wang",
+        "Canwen Xu",
+        "Boyi Liu",
+        "Yite Wang",
+        "Siwei Han",
+        "Zhewei Yao",
+        "Huaxiu Yao",
+        "Yuxiong He"
+      ],
+      "upvotes": 53,
+      "github": "https://github.com/Snowflake-Labs/agent-world-model",
+      "published": "2026-02-10T18:55:41.000Z"
+    },
+    {
+      "id": "2602.10063",
+      "title": "Chain of Mindset: Reasoning with Adaptive Cognitive Modes",
+      "authors": [
+        "Tianyi Jiang",
+        "Arctanx An",
+        "Hengyi Feng",
+        "Naixin Zhai",
+        "Haodong Li",
+        "Xiaomin Yu",
+        "Jiahui Liu",
+        "Hanwen Du",
+        "Shuo Zhang",
+        "Zhi Yang",
+        "Jie Huang",
+        "Yuhua Li",
+        "Yongxin Ni",
+        "Huacan Wang",
+        "Ronghao Chen"
+      ],
+      "upvotes": 38,
+      "github": "https://github.com/QuantaAlpha/chain-of-mindset",
+      "published": "2026-02-10T18:31:47.000Z"
+    },
+    {
+      "id": "2602.08426",
+      "title": "Prism: Spectral-Aware Block-Sparse Attention",
+      "authors": [
+        "Xinghao Wang",
+        "Pengyu Wang",
+        "Xiaoran Liu",
+        "Fangxu Liu",
+        "Jason Chu",
+        "Kai Song",
+        "Xipeng Qiu"
+      ],
+      "upvotes": 38,
+      "github": "https://github.com/xinghaow99/prism",
+      "published": "2026-02-09T09:31:06.000Z"
+    },
+    {
+      "id": "2602.08847",
+      "title": "Dr. MAS: Stable Reinforcement Learning for Multi-Agent LLM Systems",
+      "authors": [
+        "Lang Feng",
+        "Longtao Zheng",
+        "Shuo He",
+        "Fuxiang Zhang",
+        "Bo An"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/langfengQ/DrMAS",
+      "published": "2026-02-09T16:13:39.000Z"
+    },
+    {
+      "id": "2602.09084",
+      "title": "Agent Banana: High-Fidelity Image Editing with Agentic Thinking and Tooling",
+      "authors": [
+        "Ruijie Ye",
+        "Jiayi Zhang",
+        "Zhuoxin Liu",
+        "Zihao Zhu",
+        "Siyuan Yang",
+        "Li Li",
+        "Tianfu Fu",
+        "Franck Dernoncourt",
+        "Yue Zhao",
+        "Jiacheng Zhu",
+        "Ryan Rossi",
+        "Wenhao Chai",
+        "Zhengzhong Tu"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/taco-group/agent-banana",
+      "published": "2026-02-09T18:59:18.000Z"
+    },
+    {
+      "id": "2602.07035",
+      "title": "DLLM-Searcher: Adapting Diffusion Large Language Model for Search Agents",
+      "authors": [
+        "Jiahao Zhao",
+        "Shaoxuan Xu",
+        "Zhongxiang Sun",
+        "Fengqi Zhu",
+        "Jingyang Ou",
+        "Yuling Shi",
+        "Chongxuan Li",
+        "Xiao Zhang",
+        "Jun Xu"
+      ],
+      "upvotes": 29,
+      "github": "https://github.com/bubble65/DLLM-Searcher",
+      "published": "2026-02-03T09:12:08.000Z"
+    },
+    {
+      "id": "2602.10104",
+      "title": "Olaf-World: Orienting Latent Actions for Video World Modeling",
+      "authors": [
+        "Yuxin Jiang",
+        "Yuchao Gu",
+        "Ivor W. Tsang",
+        "Mike Zheng Shou"
+      ],
+      "upvotes": 28,
+      "github": "https://github.com/showlab/Olaf-World",
+      "published": "2026-02-10T18:58:41.000Z"
+    },
+    {
+      "id": "2602.10098",
+      "title": "VLA-JEPA: Enhancing Vision-Language-Action Model with Latent World Model",
+      "authors": [
+        "Jingwen Sun",
+        "Wenyao Zhang",
+        "Zekun Qi",
+        "Shaojie Ren",
+        "Zezhi Liu",
+        "Hanxin Zhu",
+        "Guangzhong Sun",
+        "Xin Jin",
+        "Zhibo Chen"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/ginwind/VLA-JEPA",
+      "published": "2026-02-10T18:58:01.000Z"
+    },
+    {
+      "id": "2602.07422",
+      "title": "Secure Code Generation via Online Reinforcement Learning with Vulnerability Reward Model",
+      "authors": [
+        "Tianyi Wu",
+        "Mingzhe Du",
+        "Yue Liu",
+        "Chengran Yang",
+        "Terry Yue Zhuo",
+        "Jiaheng Zhang",
+        "See-Kiong Ng"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/AndrewWTY/SecCoderX",
+      "published": "2026-02-07T07:42:07.000Z"
+    },
+    {
+      "id": "2602.00268",
+      "title": "TokenTrim: Inference-Time Token Pruning for Autoregressive Long Video Generation",
+      "authors": [
+        "Ariel Shaulov",
+        "Eitan Shaar",
+        "Amit Edenzon",
+        "Lior Wolf"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/arielshaulov/TokenTrim",
+      "published": "2026-01-30T19:44:16.000Z"
+    },
+    {
+      "id": "2602.00462",
+      "title": "LatentLens: Revealing Highly Interpretable Visual Tokens in LLMs",
+      "authors": [
+        "Benno Krojer",
+        "Shravan Nayak",
+        "Oscar Mañas",
+        "Vaibhav Adlakha",
+        "Desmond Elliott",
+        "Siva Reddy",
+        "Marius Mosbach"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/McGill-NLP/latentlens",
+      "published": "2026-01-31T02:33:07.000Z"
+    },
+    {
+      "id": "2602.04208",
+      "title": "SCALE: Self-uncertainty Conditioned Adaptive Looking and Execution for Vision-Language-Action Models",
+      "authors": [
+        "Hyeonbeom Choi",
+        "Daechul Ahn",
+        "Youhan Lee",
+        "Taewook Kang",
+        "Seongwon Cho",
+        "Jonghyun Choi"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/snumprlab/scale",
+      "published": "2026-02-04T04:48:16.000Z"
+    },
+    {
+      "id": "2602.09000",
+      "title": "iGRPO: Self-Feedback-Driven LLM Reasoning",
+      "authors": [
+        "Ali Hatamizadeh",
+        "Shrimai Prabhumoye",
+        "Igor Gitman",
+        "Ximing Lu",
+        "Seungju Han",
+        "Wei Ping",
+        "Yejin Choi",
+        "Jan Kautz"
+      ],
+      "upvotes": 19,
+      "github": null,
+      "published": "2026-02-09T18:45:11.000Z"
+    },
+    {
+      "id": "2602.07022",
+      "title": "Condition Errors Refinement in Autoregressive Image Generation with Diffusion Loss",
+      "authors": [
+        "Yucheng Zhou",
+        "Hao Li",
+        "Jianbing Shen"
+      ],
+      "upvotes": 19,
+      "github": null,
+      "published": "2026-02-02T07:48:04.000Z"
+    },
+    {
+      "id": "2602.01244",
+      "title": "Large-Scale Terminal Agentic Trajectory Generation from Dockerized Environments",
+      "authors": [
+        "Siwei Wu",
+        "Yizhi Li",
+        "Yuyang Song",
+        "Wei Zhang",
+        "Yang Wang",
+        "Riza Batista-Navarro",
+        "Xian Yang",
+        "Mingjie Tang",
+        "Bryan Dai",
+        "Jian Yang",
+        "Chenghua Lin"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/multimodal-art-projection/TerminalTraj",
+      "published": "2026-02-01T14:09:23.000Z"
+    },
+    {
+      "id": "2602.09849",
+      "title": "BagelVLA: Enhancing Long-Horizon Manipulation via Interleaved Vision-Language-Action Generation",
+      "authors": [
+        "Yucheng Hu",
+        "Jianke Zhang",
+        "Yuanfei Luo",
+        "Yanjiang Guo",
+        "Xiaoyu Chen",
+        "Xinshu Sun",
+        "Kun Feng",
+        "Qingzhou Lu",
+        "Sheng Chen",
+        "Yangang Zhang",
+        "Wei Li",
+        "Jianyu Chen"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2026-02-10T14:54:01.000Z"
+    },
+    {
+      "id": "2602.09823",
+      "title": "Covo-Audio Technical Report",
+      "authors": [
+        "Wenfu Wang",
+        "Chenxing Li",
+        "Liqiang Zhang",
+        "Yiyang Zhao",
+        "Yuxiang Zou",
+        "Hanzhao Li",
+        "Mingyu Cui",
+        "Hao Zhang",
+        "Kun Wei",
+        "Le Xu",
+        "Zikang Huang",
+        "Jiajun Xu",
+        "Jiliang Hu",
+        "Xiang He",
+        "Zeyu Xie",
+        "Jiawen Kang",
+        "Youjun Chen",
+        "Meng Yu",
+        "Dong Yu",
+        "Rilin Chen",
+        "Linlin Di",
+        "Shulin Feng",
+        "Na Hu",
+        "Yang Liu",
+        "Bang Wang",
+        "Shan Yang"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2026-02-10T14:31:11.000Z"
+    },
+    {
+      "id": "2602.08025",
+      "title": "MIND: Benchmarking Memory Consistency and Action Control in World Models",
+      "authors": [
+        "Yixuan Ye",
+        "Xuanyu Lu",
+        "Yuxin Jiang",
+        "Yuchao Gu",
+        "Rui Zhao",
+        "Qiwei Liang",
+        "Jiachun Pan",
+        "Fengda Zhang",
+        "Weijia Wu",
+        "Alex Jinpeng Wang"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/CSU-JPG/MIND",
+      "published": "2026-02-08T15:57:23.000Z"
+    },
+    {
+      "id": "2602.09439",
+      "title": "Fine-T2I: An Open, Large-Scale, and Diverse Dataset for High-Quality T2I Fine-Tuning",
+      "authors": [
+        "Xu Ma",
+        "Yitian Zhang",
+        "Qihua Dong",
+        "Yun Fu"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2026-02-10T06:06:54.000Z"
+    },
+    {
+      "id": "2602.10116",
+      "title": "SAGE: Scalable Agentic 3D Scene Generation for Embodied AI",
+      "authors": [
+        "Hongchi Xia",
+        "Xuan Li",
+        "Zhaoshuo Li",
+        "Qianli Ma",
+        "Jiashu Xu",
+        "Ming-Yu Liu",
+        "Yin Cui",
+        "Tsung-Yi Lin",
+        "Wei-Chiu Ma",
+        "Shenlong Wang",
+        "Shuran Song",
+        "Fangyin Wei"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/NVlabs/sage",
+      "published": "2026-02-10T18:59:55.000Z"
+    },
+    {
+      "id": "2602.10102",
+      "title": "VideoWorld 2: Learning Transferable Knowledge from Real-world Videos",
+      "authors": [
+        "Zhongwei Ren",
+        "Yunchao Wei",
+        "Xiao Yu",
+        "Guixun Luo",
+        "Yao Zhao",
+        "Bingyi Kang",
+        "Jiashi Feng",
+        "Xiaojie Jin"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/ByteDance-Seed/VideoWorld",
+      "published": "2026-02-10T18:58:19.000Z"
+    },
+    {
+      "id": "2602.09017",
+      "title": "Contact-Anchored Policies: Contact Conditioning Creates Strong Robot Utility Models",
+      "authors": [
+        "Zichen Jeff Cui",
+        "Omar Rayyan",
+        "Haritheja Etukuru",
+        "Bowen Tan",
+        "Zavier Andrianarivo",
+        "Zicheng Teng",
+        "Yihang Zhou",
+        "Krish Mehta",
+        "Nicholas Wojno",
+        "Kevin Yuanbo Wu",
+        "Manan H Anjaria",
+        "Ziyuan Wu",
+        "Manrong Mao",
+        "Guangxun Zhang",
+        "Binit Shah",
+        "Yejin Kim",
+        "Soumith Chintala",
+        "Lerrel Pinto",
+        "Nur Muhammad Mahi Shafiullah"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/jeffacce/cap-policy",
+      "published": "2026-02-09T18:58:50.000Z"
+    },
+    {
+      "id": "2602.09276",
+      "title": "Effective Reasoning Chains Reduce Intrinsic Dimensionality",
+      "authors": [
+        "Archiki Prasad",
+        "Mandar Joshi",
+        "Kenton Lee",
+        "Mohit Bansal",
+        "Peter Shaw"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2026-02-09T23:32:12.000Z"
+    },
+    {
+      "id": "2602.07276",
+      "title": "Steer2Adapt: Dynamically Composing Steering Vectors Elicits Efficient Adaptation of LLMs",
+      "authors": [
+        "Pengrui Han",
+        "Xueqiang Xu",
+        "Keyang Xuan",
+        "Peiyang Song",
+        "Siru Ouyang",
+        "Runchu Tian",
+        "Yuqing Jiang",
+        "Cheng Qian",
+        "Pengcheng Jiang",
+        "Jiashuo Sun",
+        "Junxia Cui",
+        "Ming Zhong",
+        "Ge Liu",
+        "Jiawei Han",
+        "Jiaxuan You"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2026-02-07T00:00:50.000Z"
+    },
+    {
+      "id": "2602.08382",
+      "title": "Dynamic Long Context Reasoning over Compressed Memory via End-to-End Reinforcement Learning",
+      "authors": [
+        "Zhuoen Chen",
+        "Dongfang Li",
+        "Meishan Zhang",
+        "Baotian Hu",
+        "Min Zhang"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2026-02-09T08:33:11.000Z"
+    },
+    {
+      "id": "2602.09268",
+      "title": "Rethinking Global Text Conditioning in Diffusion Transformers",
+      "authors": [
+        "Nikita Starodubcev",
+        "Daniil Pakhomov",
+        "Zongze Wu",
+        "Ilya Drobyshevskiy",
+        "Yuchen Liu",
+        "Zhonghao Wang",
+        "Yuqian Zhou",
+        "Zhe Lin",
+        "Dmitry Baranchuk"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/quickjkee/modulation-guidance",
+      "published": "2026-02-09T23:06:58.000Z"
+    },
+    {
+      "id": "2602.07755",
+      "title": "Learning to Continually Learn via Meta-learning Agentic Memory Designs",
+      "authors": [
+        "Yiming Xiong",
+        "Shengran Hu",
+        "Jeff Clune"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/zksha/alma",
+      "published": "2026-02-08T01:20:49.000Z"
+    },
+    {
+      "id": "2602.09024",
+      "title": "Autoregressive Image Generation with Masked Bit Modeling",
+      "authors": [
+        "Qihang Yu",
+        "Qihao Liu",
+        "Ju He",
+        "Xinyang Zhang",
+        "Yang Liu",
+        "Liang-Chieh Chen",
+        "Xi Chen"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/amazon-far/BAR",
+      "published": "2026-02-09T18:59:58.000Z"
+    },
+    {
+      "id": "2602.09591",
+      "title": "On the Optimal Reasoning Length for RL-Trained Language Models",
+      "authors": [
+        "Daisuke Nohara",
+        "Taishi Nakamura",
+        "Rio Yokota"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2026-02-10T09:45:42.000Z"
+    },
+    {
+      "id": "2602.09662",
+      "title": "TreeCUA: Efficiently Scaling GUI Automation with Tree-Structured Verifiable Evolution",
+      "authors": [
+        "Deyang Jiang",
+        "Jing Huang",
+        "Xuanle Zhao",
+        "Lei Chen",
+        "Liming Zheng",
+        "Fanfan Liu",
+        "Haibo Qiu",
+        "Peng Shi",
+        "Zhixiong Zeng"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/UITron-hub/TreeCUA",
+      "published": "2026-02-10T11:16:57.000Z"
+    },
+    {
+      "id": "2602.07839",
+      "title": "TodoEvolve: Learning to Architect Agent Planning Systems",
+      "authors": [
+        "Jiaxi Liu",
+        "Yanzuo Jiang",
+        "Guibin Zhang",
+        "Zihan Zhang",
+        "Heng Chang",
+        "Zhenfei Yin",
+        "Qibing Ren",
+        "Junchi Yan"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/EcthelionLiu/TodoEvolve",
+      "published": "2026-02-08T06:37:01.000Z"
+    },
+    {
+      "id": "2602.06820",
+      "title": "ScaleEnv: Scaling Environment Synthesis from Scratch for Generalist Interactive Tool-Use Agent Training",
+      "authors": [
+        "Dunwei Tu",
+        "Hongyan Hao",
+        "Hansi Yang",
+        "Yihao Chen",
+        "Yi-Kai Zhang",
+        "Zhikang Xia",
+        "Yu Yang",
+        "Yueqing Sun",
+        "Xingchen Liu",
+        "Furao Shen",
+        "Qi Gu",
+        "Hui Su",
+        "Xunliang Cai"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2026-02-06T16:05:55.000Z"
+    },
+    {
+      "id": "2602.09153",
+      "title": "SceneSmith: Agentic Generation of Simulation-Ready Indoor Scenes",
+      "authors": [
+        "Nicholas Pfaff",
+        "Thomas Cohn",
+        "Sergey Zakharov",
+        "Rick Cory",
+        "Russ Tedrake"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/nepfaff/scenesmith",
+      "published": "2026-02-09T19:56:04.000Z"
+    },
+    {
+      "id": "2602.05085",
+      "title": "Locas: Your Models are Principled Initializers of Locally-Supported Parametric Memories",
+      "authors": [
+        "Sidi Lu",
+        "Zhenwen Liang",
+        "Dongyang Ma",
+        "Yan Wang",
+        "Haitao Mi",
+        "Dong Yu"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/desire2020/Locas-Memory",
+      "published": "2026-02-04T22:09:40.000Z"
+    },
+    {
+      "id": "2602.07918",
+      "title": "CausalArmor: Efficient Indirect Prompt Injection Guardrails via Causal Attribution",
+      "authors": [
+        "Minbeom Kim",
+        "Mihir Parmar",
+        "Phillip Wallis",
+        "Lesly Miculicich",
+        "Kyomin Jung",
+        "Krishnamurthy Dj Dvijotham",
+        "Long T. Le",
+        "Tomas Pfister"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2026-02-08T11:34:08.000Z"
+    },
+    {
+      "id": "2602.05892",
+      "title": "ContextBench: A Benchmark for Context Retrieval in Coding Agents",
+      "authors": [
+        "Han Li",
+        "Letian Zhu",
+        "Bohan Zhang",
+        "Rili Feng",
+        "Jiaming Wang",
+        "Yue Pan",
+        "Earl T. Barr",
+        "Sarro Federica",
+        "Zhaoyang Chu",
+        "He Ye"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/EuniAI/ContextBench",
+      "published": "2026-02-05T17:10:26.000Z"
+    },
+    {
+      "id": "2602.10099",
+      "title": "Learning on the Manifold: Unlocking Standard Diffusion Transformers with Representation Encoders",
+      "authors": [
+        "Amandeep Kumar",
+        "Vishal M. Patel"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/amandpkr/RJF",
+      "published": "2026-02-10T18:58:04.000Z"
+    },
+    {
+      "id": "2602.08344",
+      "title": "OPE: Overcoming Information Saturation in Parallel Thinking via Outline-Guided Path Exploration",
+      "authors": [
+        "Qi Guo",
+        "Jianing Wang",
+        "Deyang Kong",
+        "Xiangyu Xi",
+        "Jianfei Zhang",
+        "Yi Lu",
+        "Jingang Wang",
+        "Wei Wang",
+        "Shikun Zhang",
+        "Wei Ye"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2026-02-09T07:29:13.000Z"
+    },
+    {
+      "id": "2602.02464",
+      "title": "From Directions to Regions: Decomposing Activations in Language Models via Local Geometry",
+      "authors": [
+        "Or Shafran",
+        "Shaked Ronen",
+        "Omri Fahn",
+        "Shauli Ravfogel",
+        "Atticus Geiger",
+        "Mor Geva"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/ordavid-s/decomposing-activations-local-geometry",
+      "published": "2026-02-02T18:49:05.000Z"
+    },
+    {
+      "id": "2602.05435",
+      "title": "Stable Velocity: A Variance Perspective on Flow Matching",
+      "authors": [
+        "Donglin Yang",
+        "Yongxing Zhang",
+        "Xin Yu",
+        "Liang Hou",
+        "Xin Tao",
+        "Pengfei Wan",
+        "Xiaojuan Qi",
+        "Renjie Liao"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/linYDTHU/StableVelocity",
+      "published": "2026-02-05T08:25:05.000Z"
+    },
+    {
+      "id": "2602.08503",
+      "title": "Learning Self-Correction in Vision-Language Models via Rollout Augmentation",
+      "authors": [
+        "Yi Ding",
+        "Ziliang Qiu",
+        "Bolian Li",
+        "Ruqi Zhang"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/DripNowhy/Octopus",
+      "published": "2026-02-09T10:55:13.000Z"
+    },
+    {
+      "id": "2602.07153",
+      "title": "ANCHOR: Branch-Point Data Generation for GUI Agents",
+      "authors": [
+        "Jinbiao Wei",
+        "Yilun Zhao",
+        "Kangqi Ni",
+        "Arman Cohan"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/yale-nlp/Anchor",
+      "published": "2026-02-06T19:55:26.000Z"
+    },
+    {
+      "id": "2602.04802",
+      "title": "VISTA-Bench: Do Vision-Language Models Really Understand Visualized Text as Well as Pure Text?",
+      "authors": [
+        "Qing'an Liu",
+        "Juntong Feng",
+        "Yuhao Wang",
+        "Xinzhe Han",
+        "Yujie Cheng",
+        "Yue Zhu",
+        "Haiwen Diao",
+        "Yunzhi Zhuge",
+        "Huchuan Lu"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/QingAnLiu/VISTA-Bench",
+      "published": "2026-02-04T17:48:55.000Z"
+    },
+    {
+      "id": "2602.04908",
+      "title": "Temporal Pair Consistency for Variance-Reduced Flow Matching",
+      "authors": [
+        "Chika Maduabuchi",
+        "Jindong Wang"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2026-02-04T00:05:21.000Z"
+    },
+    {
+      "id": "2602.07398",
+      "title": "AgentSys: Secure and Dynamic LLM Agents Through Explicit Hierarchical Memory Management",
+      "authors": [
+        "Ruoyao Wen",
+        "Hao Li",
+        "Chaowei Xiao",
+        "Ning Zhang"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/ruoyaow/agentsys-memory",
+      "published": "2026-02-07T06:28:51.000Z"
+    }
+  ]
+}

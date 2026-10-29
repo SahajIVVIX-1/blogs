@@ -1,0 +1,453 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-01-28",
+  "fetched_at": "2026-10-29T15:34:32.699Z",
+  "candidates": [
+    {
+      "id": "2601.18491",
+      "title": "AgentDoG: A Diagnostic Guardrail Framework for AI Agent Safety and Security",
+      "authors": [
+        "Dongrui Liu",
+        "Qihan Ren",
+        "Chen Qian",
+        "Shuai Shao",
+        "Yuejin Xie",
+        "Yu Li",
+        "Zhonghao Yang",
+        "Haoyu Luo",
+        "Peng Wang",
+        "Qingyu Liu",
+        "Binxin Hu",
+        "Ling Tang",
+        "Jilin Mei",
+        "Dadi Guo",
+        "Leitao Yuan",
+        "Junyao Yang",
+        "Guanxu Chen",
+        "Qihao Lin",
+        "Yi Yu",
+        "Bo Zhang",
+        "Jiaxuan Guo",
+        "Jie Zhang",
+        "Wenqi Shao",
+        "Huiqi Deng",
+        "Zhiheng Xi",
+        "Wenjie Wang",
+        "Wenxuan Wang",
+        "Wen Shen",
+        "Zhikai Chen",
+        "Haoyu Xie",
+        "Jialing Tao",
+        "Juntao Dai",
+        "Jiaming Ji",
+        "Zhongjie Ba",
+        "Linfeng Zhang",
+        "Yong Liu",
+        "Quanshi Zhang",
+        "Lei Zhu",
+        "Zhihua Wei",
+        "Hui Xue",
+        "Chaochao Lu",
+        "Jing Shao",
+        "Xia Hu"
+      ],
+      "upvotes": 127,
+      "github": "https://github.com/AI45Lab/AgentDoG",
+      "published": "2026-01-26T13:45:41.000Z"
+    },
+    {
+      "id": "2601.18692",
+      "title": "A Pragmatic VLA Foundation Model",
+      "authors": [
+        "Wei Wu",
+        "Fan Lu",
+        "Yunnan Wang",
+        "Shuai Yang",
+        "Shi Liu",
+        "Fangjing Wang",
+        "Qian Zhu",
+        "He Sun",
+        "Yong Wang",
+        "Shuailei Ma",
+        "Yiyu Ren",
+        "Kejia Zhang",
+        "Hui Yu",
+        "Jingmei Zhao",
+        "Shuai Zhou",
+        "Zhenqi Qiu",
+        "Houlong Xiong",
+        "Ziyu Wang",
+        "Zechen Wang",
+        "Ran Cheng",
+        "Yong-Lu Li",
+        "Yongtao Huang",
+        "Xing Zhu",
+        "Yujun Shen",
+        "Kecheng Zheng"
+      ],
+      "upvotes": 50,
+      "github": "https://github.com/robbyant/lingbot-vla",
+      "published": "2026-01-26T17:08:04.000Z"
+    },
+    {
+      "id": "2601.18631",
+      "title": "AdaReasoner: Dynamic Tool Orchestration for Iterative Visual Reasoning",
+      "authors": [
+        "Mingyang Song",
+        "Haoyu Sun",
+        "Jiawei Gu",
+        "Linjie Li",
+        "Luxin Xu",
+        "Ranjay Krishna",
+        "Yu Cheng"
+      ],
+      "upvotes": 48,
+      "github": "https://github.com/ssmisya/AdaReasoner",
+      "published": "2026-01-26T16:04:43.000Z"
+    },
+    {
+      "id": "2601.19897",
+      "title": "Self-Distillation Enables Continual Learning",
+      "authors": [
+        "Idan Shenfeld",
+        "Mehul Damani",
+        "Jonas Hübotter",
+        "Pulkit Agrawal"
+      ],
+      "upvotes": 41,
+      "github": "https://github.com/idanshen/Self-Distillation",
+      "published": "2026-01-27T18:59:08.000Z"
+    },
+    {
+      "id": "2601.19798",
+      "title": "Youtu-VL: Unleashing Visual Potential via Unified Vision-Language Supervision",
+      "authors": [
+        "Zhixiang Wei",
+        "Yi Li",
+        "Zhehan Kan",
+        "Xinghua Jiang",
+        "Zuwei Long",
+        "Shifeng Liu",
+        "Hongze Shen",
+        "Wei Liu",
+        "Xiaoyu Tan",
+        "Haojia Lin",
+        "Yubo Zhu",
+        "Qianyu Li",
+        "Di Yin",
+        "Haoyu Cao",
+        "Weibo Gu",
+        "Xin Li",
+        "Yinsong Liu",
+        "Deqiang Jiang",
+        "Xing Sun",
+        "Yunsheng Wu",
+        "Mingkong Tang",
+        "Shuangyin Liu",
+        "Lexiang Tang",
+        "Haodong Lin",
+        "Junru Lu",
+        "Jiarui Qin",
+        "Lingfeng Qiao",
+        "Ruizhi Qiao",
+        "Bo Ke",
+        "Jianfeng He",
+        "Ke Li",
+        "Yangning Li",
+        "Yunhang Shen",
+        "Mengdan Zhang",
+        "Peixian Chen",
+        "Kun Yin",
+        "Bing Liu",
+        "Yunfei Wu",
+        "Huang Chen",
+        "Zhongpeng Cai",
+        "Xiaotian Li"
+      ],
+      "upvotes": 31,
+      "github": "https://github.com/TencentCloudADP/youtu-vl",
+      "published": "2026-01-27T17:01:16.000Z"
+    },
+    {
+      "id": "2601.19895",
+      "title": "Post-LayerNorm Is Back: Stable, ExpressivE, and Deep",
+      "authors": [
+        "Chen Chen",
+        "Lai Wei"
+      ],
+      "upvotes": 26,
+      "github": null,
+      "published": "2026-01-27T18:58:46.000Z"
+    },
+    {
+      "id": "2601.19834",
+      "title": "Visual Generation Unlocks Human-Like Reasoning through Multimodal World Models",
+      "authors": [
+        "Jialong Wu",
+        "Xiaoying Zhang",
+        "Hongyi Yuan",
+        "Xiangcheng Zhang",
+        "Tianhao Huang",
+        "Changjing He",
+        "Chaoyi Deng",
+        "Renrui Zhang",
+        "Youbin Wu",
+        "Mingsheng Long"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/thuml/Reasoning-Visual-World",
+      "published": "2026-01-27T17:40:07.000Z"
+    },
+    {
+      "id": "2601.17645",
+      "title": "AVMeme Exam: A Multimodal Multilingual Multicultural Benchmark for LLMs' Contextual and Cultural Knowledge and Thinking",
+      "authors": [
+        "Xilin Jiang",
+        "Qiaolin Wang",
+        "Junkai Wu",
+        "Xiaomin He",
+        "Zhongweiyang Xu",
+        "Yinghao Ma",
+        "Minshuo Piao",
+        "Kaiyi Yang",
+        "Xiuwen Zheng",
+        "Riki Shimizu",
+        "Yicong Chen",
+        "Arsalan Firoozi",
+        "Gavin Mischler",
+        "Sukru Samet Dindar",
+        "Richard Antonello",
+        "Linyang He",
+        "Tsun-An Hsieh",
+        "Xulin Fan",
+        "Yulun Wu",
+        "Yuesheng Ma",
+        "Chaitanya Amballa",
+        "Weixiong Chen",
+        "Jiarui Hai",
+        "Ruisi Li",
+        "Vishal Choudhari",
+        "Cong Han",
+        "Yinghao Aaron Li",
+        "Adeen Flinker",
+        "Mounya Elhilali",
+        "Emmanouil Benetos",
+        "Mark Hasegawa-Johnson",
+        "Romit Roy Choudhury",
+        "Nima Mesgarani"
+      ],
+      "upvotes": 23,
+      "github": null,
+      "published": "2026-01-25T01:40:15.000Z"
+    },
+    {
+      "id": "2601.19228",
+      "title": "Towards Pixel-Level VLM Perception via Simple Points Prediction",
+      "authors": [
+        "Tianhui Song",
+        "Haoyu Lu",
+        "Hao Yang",
+        "Lin Sui",
+        "Haoning Wu",
+        "Zaida Zhou",
+        "Zhiqi Huang",
+        "Yiping Bao",
+        "Y. Charles",
+        "Xinyu Zhou",
+        "Limin Wang"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/songtianhui/SimpleSeg",
+      "published": "2026-01-27T05:50:40.000Z"
+    },
+    {
+      "id": "2601.09150",
+      "title": "World Craft: Agentic Framework to Create Visualizable Worlds via Text",
+      "authors": [
+        "Jianwen Sun",
+        "Yukang Feng",
+        "Kaining Ying",
+        "Chuanhao Li",
+        "Zizhen Li",
+        "Fanrui Zhang",
+        "Jiaxin Ai",
+        "Yifan Chang",
+        "Yu Dai",
+        "Yifei Huang",
+        "Kaipeng Zhang"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/HerzogFL/World-Craft",
+      "published": "2026-01-14T04:45:05.000Z"
+    },
+    {
+      "id": "2601.18116",
+      "title": "FABLE: Forest-Based Adaptive Bi-Path LLM-Enhanced Retrieval for Multi-Document Reasoning",
+      "authors": [
+        "Lin Sun",
+        "Linglin Zhang",
+        "Jingang Huang",
+        "Change Jia",
+        "Zhengwei Cheng",
+        "Xiangzheng Zhang"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2026-01-26T04:00:56.000Z"
+    },
+    {
+      "id": "2601.18292",
+      "title": "TriPlay-RL: Tri-Role Self-Play Reinforcement Learning for LLM Safety Alignment",
+      "authors": [
+        "Zhewen Tan",
+        "Wenhan Yu",
+        "Jianfeng Si",
+        "Tongxin Liu",
+        "Kaiqi Guan",
+        "Huiyan Jin",
+        "Jiawen Tao",
+        "Xiaokun Yuan",
+        "Duohe Ma",
+        "Xiangzheng Zhang",
+        "Tong Yang",
+        "Lin Sun"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2026-01-26T09:21:43.000Z"
+    },
+    {
+      "id": "2601.15968",
+      "title": "HyperAlign: Hypernetwork for Efficient Test-Time Alignment of Diffusion Models",
+      "authors": [
+        "Xin Xie",
+        "Jiaxian Guo",
+        "Dong Gong"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/Shelsin/HyperAlign",
+      "published": "2026-01-22T13:49:47.000Z"
+    },
+    {
+      "id": "2601.19362",
+      "title": "Revisiting Parameter Server in LLM Post-Training",
+      "authors": [
+        "Xinyi Wan",
+        "Penghui Qi",
+        "Guangxing Huang",
+        "Chaoyi Ruan",
+        "Min Lin",
+        "Jialin Li"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/sail-sg/odc",
+      "published": "2026-01-27T08:44:46.000Z"
+    },
+    {
+      "id": "2601.18067",
+      "title": "EvolVE: Evolutionary Search for LLM-based Verilog Generation and Optimization",
+      "authors": [
+        "Wei-Po Hsin",
+        "Ren-Hao Deng",
+        "Yao-Ting Hsieh",
+        "En-Ming Huang",
+        "Shih-Hao Hung"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/weiber2002/ICRTL",
+      "published": "2026-01-26T01:53:54.000Z"
+    },
+    {
+      "id": "2601.18724",
+      "title": "HalluCitation Matters: Revealing the Impact of Hallucinated References with 300 Hallucinated Papers in ACL Conferences",
+      "authors": [
+        "Yusuke Sakai",
+        "Hidetaka Kamigaito",
+        "Taro Watanabe"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2026-01-26T17:48:23.000Z"
+    },
+    {
+      "id": "2601.19375",
+      "title": "Selective Steering: Norm-Preserving Control Through Discriminative Layer Selection",
+      "authors": [
+        "Quy-Anh Dang",
+        "Chris Ngo"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/knoveleng/steering",
+      "published": "2026-01-27T08:56:25.000Z"
+    },
+    {
+      "id": "2601.13295",
+      "title": "CooperBench: Why Coding Agents Cannot be Your Teammates Yet",
+      "authors": [
+        "Arpandeep Khatua",
+        "Hao Zhu",
+        "Peter Tran",
+        "Arya Prabhudesai",
+        "Frederic Sadrieh",
+        "Johann K. Lieberwirth",
+        "Xinkai Yu",
+        "Yicheng Fu",
+        "Michael J. Ryan",
+        "Jiaxin Pei",
+        "Diyi Yang"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/cooperbench/CooperBench",
+      "published": "2026-01-19T18:48:37.000Z"
+    },
+    {
+      "id": "2601.18923",
+      "title": "DeFM: Learning Foundation Representations from Depth for Robotics",
+      "authors": [
+        "Manthan Patel",
+        "Jonas Frey",
+        "Mayank Mittal",
+        "Fan Yang",
+        "Alexander Hansson",
+        "Amir Bar",
+        "Cesar Cadena",
+        "Marco Hutter"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/leggedrobotics/defm",
+      "published": "2026-01-26T19:45:31.000Z"
+    },
+    {
+      "id": "2601.19532",
+      "title": "Benchmarks Saturate When The Model Gets Smarter Than The Judge",
+      "authors": [
+        "Marthe Ballon",
+        "Andres Algaba",
+        "Brecht Verbeken",
+        "Vincent Ginis"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-01-27T12:20:44.000Z"
+    },
+    {
+      "id": "2601.19149",
+      "title": "GPCR-Filter: a deep learning framework for efficient and precise GPCR modulator discovery",
+      "authors": [
+        "Jingjie Ning",
+        "Xiangzhen Shen",
+        "Li Hou",
+        "Shiyi Shen",
+        "Jiahao Yang",
+        "Junrui Li",
+        "Hong Shan",
+        "Sanan Wu",
+        "Sihan Gao",
+        "Huaqiang Eric Xu",
+        "Xinheng He"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-01-27T03:27:04.000Z"
+    }
+  ]
+}

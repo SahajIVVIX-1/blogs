@@ -1,0 +1,638 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-10-21",
+  "fetched_at": "2026-10-29T15:33:32.840Z",
+  "candidates": [
+    {
+      "id": "2510.16872",
+      "title": "DeepAnalyze: Agentic Large Language Models for Autonomous Data Science",
+      "authors": [
+        "Shaolei Zhang",
+        "Ju Fan",
+        "Meihao Fan",
+        "Guoliang Li",
+        "Xiaoyong Du"
+      ],
+      "upvotes": 113,
+      "github": "https://github.com/ruc-datalab/DeepAnalyze",
+      "published": "2025-10-19T15:13:42.000Z"
+    },
+    {
+      "id": "2510.17269",
+      "title": "FineVision: Open Data Is All You Need",
+      "authors": [
+        "Luis Wiedmann",
+        "Orr Zohar",
+        "Amir Mahla",
+        "Xiaohan Wang",
+        "Rui Li",
+        "Thibaud Frere",
+        "Leandro von Werra",
+        "Aritra Roy Gosthipaty",
+        "Andrés Marafioti"
+      ],
+      "upvotes": 81,
+      "github": null,
+      "published": "2025-10-20T07:54:46.000Z"
+    },
+    {
+      "id": "2510.17800",
+      "title": "Glyph: Scaling Context Windows via Visual-Text Compression",
+      "authors": [
+        "Jiale Cheng",
+        "Yusen Liu",
+        "Xinyu Zhang",
+        "Yulin Fei",
+        "Wenyi Hong",
+        "Ruiliang Lyu",
+        "Weihan Wang",
+        "Zhe Su",
+        "Xiaotao Gu",
+        "Xiao Liu",
+        "Yushi Bai",
+        "Jie Tang",
+        "Hongning Wang",
+        "Minlie Huang"
+      ],
+      "upvotes": 69,
+      "github": "https://github.com/thu-coai/Glyph",
+      "published": "2025-10-20T17:58:56.000Z"
+    },
+    {
+      "id": "2510.16333",
+      "title": "RL makes MLLMs see better than SFT",
+      "authors": [
+        "Junha Song",
+        "Sangdoo Yun",
+        "Dongyoon Han",
+        "Jaegul Choo",
+        "Byeongho Heo"
+      ],
+      "upvotes": 50,
+      "github": "https://github.com/june-page/pivot",
+      "published": "2025-10-18T03:37:17.000Z"
+    },
+    {
+      "id": "2510.17681",
+      "title": "PICABench: How Far Are We from Physically Realistic Image Editing?",
+      "authors": [
+        "Yuandong Pu",
+        "Le Zhuo",
+        "Songhao Han",
+        "Jinbo Xing",
+        "Kaiwen Zhu",
+        "Shuo Cao",
+        "Bin Fu",
+        "Si Liu",
+        "Hongsheng Li",
+        "Yu Qiao",
+        "Wenlong Zhang",
+        "Xi Chen",
+        "Yihao Liu"
+      ],
+      "upvotes": 48,
+      "github": "https://github.com/Andrew0613/PICABench",
+      "published": "2025-10-20T15:53:57.000Z"
+    },
+    {
+      "id": "2510.17715",
+      "title": "QueST: Incentivizing LLMs to Generate Difficult Problems",
+      "authors": [
+        "Hanxu Hu",
+        "Xingxing Zhang",
+        "Jannis Vamvas",
+        "Rico Sennrich",
+        "Furu Wei"
+      ],
+      "upvotes": 36,
+      "github": null,
+      "published": "2025-10-20T16:29:53.000Z"
+    },
+    {
+      "id": "2510.17354",
+      "title": "Towards Mixed-Modal Retrieval for Universal Retrieval-Augmented Generation",
+      "authors": [
+        "Chenghao Zhang",
+        "Guanting Dong",
+        "Xinyu Yang",
+        "Zhicheng Dou"
+      ],
+      "upvotes": 35,
+      "github": "https://github.com/SnowNation101/Nyx",
+      "published": "2025-10-20T09:56:43.000Z"
+    },
+    {
+      "id": "2510.17960",
+      "title": "AION-1: Omnimodal Foundation Model for Astronomical Sciences",
+      "authors": [
+        "Liam Parker",
+        "Francois Lanusse",
+        "Jeff Shen",
+        "Ollie Liu",
+        "Tom Hehir",
+        "Leopoldo Sarra",
+        "Lucas Meyer",
+        "Micah Bowles",
+        "Sebastian Wagner-Carena",
+        "Helen Qu",
+        "Siavash Golkar",
+        "Alberto Bietti",
+        "Hatim Bourfoune",
+        "Nathan Casserau",
+        "Pierre Cornette",
+        "Keiya Hirashima",
+        "Geraud Krawezik",
+        "Ruben Ohana",
+        "Nicholas Lourie",
+        "Michael McCabe",
+        "Rudy Morel",
+        "Payel Mukhopadhyay",
+        "Mariel Pettee",
+        "Bruno Regaldo-Saint Blancard",
+        "Kyunghyun Cho",
+        "Miles Cranmer",
+        "Shirley Ho"
+      ],
+      "upvotes": 33,
+      "github": "https://github.com/PolymathicAI/AION",
+      "published": "2025-10-20T18:00:00.000Z"
+    },
+    {
+      "id": "2510.15346",
+      "title": "When to Ensemble: Identifying Token-Level Points for Stable and Fast LLM Ensembling",
+      "authors": [
+        "Heecheol Yun",
+        "Kwangmin Ki",
+        "Junghyun Lee",
+        "Eunho Yang"
+      ],
+      "upvotes": 33,
+      "github": null,
+      "published": "2025-10-17T06:18:29.000Z"
+    },
+    {
+      "id": "2510.15821",
+      "title": "Chronos-2: From Univariate to Universal Forecasting",
+      "authors": [
+        "Abdul Fatir Ansari",
+        "Oleksandr Shchur",
+        "Jaris Küken",
+        "Andreas Auer",
+        "Boran Han",
+        "Pedro Mercado",
+        "Syama Sundar Rangapuram",
+        "Huibin Shen",
+        "Lorenzo Stella",
+        "Xiyuan Zhang",
+        "Mononito Goswami",
+        "Shubham Kapoor",
+        "Danielle C. Maddix",
+        "Pablo Guerron",
+        "Tony Hu",
+        "Junming Yin",
+        "Nick Erickson",
+        "Prateek Mutalik Desai",
+        "Hao Wang",
+        "Huzefa Rangwala",
+        "George Karypis",
+        "Yuyang Wang",
+        "Michael Bohlke-Schneider"
+      ],
+      "upvotes": 28,
+      "github": "https://github.com/amazon-science/chronos-forecasting",
+      "published": "2025-10-17T17:00:53.000Z"
+    },
+    {
+      "id": "2510.16888",
+      "title": "Uniworld-V2: Reinforce Image Editing with Diffusion Negative-aware Finetuning and MLLM Implicit Feedback",
+      "authors": [
+        "Zongjian Li",
+        "Zheyuan Liu",
+        "Qihui Zhang",
+        "Bin Lin",
+        "Shenghai Yuan",
+        "Zhiyuan Yan",
+        "Yang Ye",
+        "Wangbo Yu",
+        "Yuwei Niu",
+        "Li Yuan"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/PKU-YuanGroup/UniWorld-V2",
+      "published": "2025-10-19T15:38:06.000Z"
+    },
+    {
+      "id": "2510.17509",
+      "title": "Annotation-Efficient Universal Honesty Alignment",
+      "authors": [
+        "Shiyu Ni",
+        "Keping Bi",
+        "Jiafeng Guo",
+        "Minghao Tang",
+        "Jingtong Wu",
+        "Zengxin Han",
+        "Xueqi Cheng"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/Trustworthy-Information-Access/Annotation-Efficient-Universal-Honesty-Alignment",
+      "published": "2025-10-20T13:05:22.000Z"
+    },
+    {
+      "id": "2510.16751",
+      "title": "Visual Autoregressive Models Beat Diffusion Models on Inference Time Scaling",
+      "authors": [
+        "Erik Riise",
+        "Mehmet Onurcan Kaya",
+        "Dim P. Papadopoulos"
+      ],
+      "upvotes": 21,
+      "github": null,
+      "published": "2025-10-19T08:28:06.000Z"
+    },
+    {
+      "id": "2510.17795",
+      "title": "Executable Knowledge Graphs for Replicating AI Research",
+      "authors": [
+        "Yujie Luo",
+        "Zhuoyun Yu",
+        "Xuehai Wang",
+        "Yuqi Zhu",
+        "Ningyu Zhang",
+        "Lanning Wei",
+        "Lun Du",
+        "Da Zheng",
+        "Huajun Chen"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/zjunlp/xKG",
+      "published": "2025-10-20T17:53:23.000Z"
+    },
+    {
+      "id": "2510.17803",
+      "title": "ConsistEdit: Highly Consistent and Precise Training-free Visual Editing",
+      "authors": [
+        "Zixin Yin",
+        "Ling-Hao Chen",
+        "Lionel Ni",
+        "Xili Dai"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/zxYin/ConsistEdit_Code",
+      "published": "2025-10-20T17:59:52.000Z"
+    },
+    {
+      "id": "2510.17498",
+      "title": "Deep Self-Evolving Reasoning",
+      "authors": [
+        "Zihan Liu",
+        "Shun Zheng",
+        "Xumeng Wen",
+        "Yang Wang",
+        "Jiang Bian",
+        "Mao Yang"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2025-10-20T12:51:42.000Z"
+    },
+    {
+      "id": "2510.17797",
+      "title": "Enterprise Deep Research: Steerable Multi-Agent Deep Research for Enterprise Analytics",
+      "authors": [
+        "Akshara Prabhakar",
+        "Roshan Ram",
+        "Zixiang Chen",
+        "Silvio Savarese",
+        "Frank Wang",
+        "Caiming Xiong",
+        "Huan Wang",
+        "Weiran Yao"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/SalesforceAIResearch/enterprise-deep-research",
+      "published": "2025-10-20T17:55:11.000Z"
+    },
+    {
+      "id": "2510.15021",
+      "title": "Constantly Improving Image Models Need Constantly Improving Benchmarks",
+      "authors": [
+        "Jiaxin Ge",
+        "Grace Luo",
+        "Heekyung Lee",
+        "Nishant Malpani",
+        "Long Lian",
+        "XuDong Wang",
+        "Aleksander Holynski",
+        "Trevor Darrell",
+        "Sewon Min",
+        "David M. Chan"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/para-lost/ECHO",
+      "published": "2025-10-16T17:59:30.000Z"
+    },
+    {
+      "id": "2510.16258",
+      "title": "Embody 3D: A Large-scale Multimodal Motion and Behavior Dataset",
+      "authors": [
+        "Claire McLean",
+        "Makenzie Meendering",
+        "Tristan Swartz",
+        "Orri Gabbay",
+        "Alexandra Olsen",
+        "Rachel Jacobs",
+        "Nicholas Rosen",
+        "Philippe de Bree",
+        "Tony Garcia",
+        "Gadsden Merrill",
+        "Jake Sandakly",
+        "Julia Buffalini",
+        "Neham Jain",
+        "Steven Krenn",
+        "Moneish Kumar",
+        "Dejan Markovic",
+        "Evonne Ng",
+        "Fabian Prada",
+        "Andrew Saba",
+        "Siwei Zhang",
+        "Vasu Agrawal",
+        "Tim Godisart",
+        "Alexander Richard",
+        "Michael Zollhoefer"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2025-10-17T23:06:36.000Z"
+    },
+    {
+      "id": "2510.16720",
+      "title": "Beyond Pipelines: A Survey of the Paradigm Shift toward Model-Native Agentic AI",
+      "authors": [
+        "Jitao Sang",
+        "Jinlin Xiao",
+        "Jiarun Han",
+        "Jilin Chen",
+        "Xiaoyi Chen",
+        "Shuyu Wei",
+        "Yongjie Sun",
+        "Yuhang Wang"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/ADaM-BJTU/model-native-agentic-ai",
+      "published": "2025-10-19T05:23:43.000Z"
+    },
+    {
+      "id": "2510.14605",
+      "title": "Knowledge-based Visual Question Answer with Multimodal Processing, Retrieval and Filtering",
+      "authors": [
+        "Yuyang Hong",
+        "Jiaqi Gu",
+        "Qi Yang",
+        "Lubin Fan",
+        "Yue Wu",
+        "Ying Wang",
+        "Kun Ding",
+        "Shiming Xiang",
+        "Jieping Ye"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/cqu-student/Wiki-PRF",
+      "published": "2025-10-16T12:10:00.000Z"
+    },
+    {
+      "id": "2510.17790",
+      "title": "UltraCUA: A Foundation Model for Computer Use Agents with Hybrid Action",
+      "authors": [
+        "Yuhao Yang",
+        "Zhen Yang",
+        "Zi-Yi Dou",
+        "Anh Nguyen",
+        "Keen You",
+        "Omar Attia",
+        "Andrew Szot",
+        "Michael Feng",
+        "Ram Ramrakhya",
+        "Alexander Toshev",
+        "Chao Huang",
+        "Yinfei Yang",
+        "Zhe Gan"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2025-10-20T17:48:26.000Z"
+    },
+    {
+      "id": "2510.17431",
+      "title": "Agentic Reinforcement Learning for Search is Unsafe",
+      "authors": [
+        "Yushi Yang",
+        "Shreyansh Padarha",
+        "Andrew Lee",
+        "Adam Mahdi"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/Yushi-Y/RL-search-safety",
+      "published": "2025-10-20T11:19:37.000Z"
+    },
+    {
+      "id": "2510.16641",
+      "title": "MultiVerse: A Multi-Turn Conversation Benchmark for Evaluating Large Vision and Language Models",
+      "authors": [
+        "Young-Jun Lee",
+        "Byung-Kwan Lee",
+        "Jianshu Zhang",
+        "Yechan Hwang",
+        "Byungsoo Ko",
+        "Han-Gyu Kim",
+        "Dongyu Yao",
+        "Xuankun Rong",
+        "Eojin Joo",
+        "Seung-Ho Han",
+        "Bowon Ko",
+        "Ho-Jin Choi"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/passing2961/MultiVerse",
+      "published": "2025-10-18T21:00:12.000Z"
+    },
+    {
+      "id": "2510.16136",
+      "title": "GuideFlow3D: Optimization-Guided Rectified Flow For Appearance Transfer",
+      "authors": [
+        "Sayan Deb Sarkar",
+        "Sinisa Stekovic",
+        "Vincent Lepetit",
+        "Iro Armeni"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/GradientSpaces/GuideFlow3D",
+      "published": "2025-10-17T18:22:04.000Z"
+    },
+    {
+      "id": "2510.16276",
+      "title": "What Limits Agentic Systems Efficiency?",
+      "authors": [
+        "Song Bian",
+        "Minghao Yan",
+        "Anand Jayarajan",
+        "Gennady Pekhimenko",
+        "Shivaram Venkataraman"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-10-18T00:21:45.000Z"
+    },
+    {
+      "id": "2510.16499",
+      "title": "Automated Composition of Agents: A Knapsack Approach for Agentic Component Selection",
+      "authors": [
+        "Michelle Yuan",
+        "Khushbu Pahwa",
+        "Shuaichen Chang",
+        "Mustafa Kaba",
+        "Jiarong Jiang",
+        "Xiaofei Ma",
+        "Yi Zhang",
+        "Monica Sunkara"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-10-18T13:37:47.000Z"
+    },
+    {
+      "id": "2510.17793",
+      "title": "Foundational Automatic Evaluators: Scaling Multi-Task Generative Evaluator Training for Reasoning-Centric Domains",
+      "authors": [
+        "Austin Xu",
+        "Xuan-Phi Nguyen",
+        "Yilun Zhou",
+        "Chien-Sheng Wu",
+        "Caiming Xiong",
+        "Shafiq Joty"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-10-20T17:52:06.000Z"
+    },
+    {
+      "id": "2510.16449",
+      "title": "TrajSelector: Harnessing Latent Representations for Efficient and Effective Best-of-N in Large Reasoning Model",
+      "authors": [
+        "Bin Yu",
+        "Xinming Wang",
+        "Shijie Lian",
+        "Haotian Li",
+        "Changti Wu",
+        "Ruina Hu",
+        "Bailing Wang",
+        "Yuliang Wei",
+        "Kai Chen"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2025-10-18T11:01:39.000Z"
+    },
+    {
+      "id": "2510.15768",
+      "title": "On Non-interactive Evaluation of Animal Communication Translators",
+      "authors": [
+        "Orr Paradise",
+        "David F. Gruber",
+        "Adam Tauman Kalai"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2025-10-17T15:56:30.000Z"
+    },
+    {
+      "id": "2510.15527",
+      "title": "Balanced Multi-Task Attention for Satellite Image Classification: A Systematic Approach to Achieving 97.23% Accuracy on EuroSAT Without Pre-Training",
+      "authors": [
+        "Aditya Vir"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2025-10-17T10:59:24.000Z"
+    },
+    {
+      "id": "2510.16380",
+      "title": "MoReBench: Evaluating Procedural and Pluralistic Moral Reasoning in Language Models, More than Outcomes",
+      "authors": [
+        "Yu Ying Chiu",
+        "Michael S. Lee",
+        "Rachel Calcott",
+        "Brandon Handoko",
+        "Paul de Font-Reaulx",
+        "Paula Rodriguez",
+        "Chen Bo Calvin Zhang",
+        "Ziwen Han",
+        "Udari Madhushani Sehwag",
+        "Yash Maurya",
+        "Christina Q Knight",
+        "Harry R. Lloyd",
+        "Florence Bacus",
+        "Mantas Mazeika",
+        "Bing Liu",
+        "Yejin Choi",
+        "Mitchell L Gordon",
+        "Sydney Levine"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/morebench/morebench",
+      "published": "2025-10-18T07:34:31.000Z"
+    },
+    {
+      "id": "2510.06471",
+      "title": "Test-Time Scaling of Reasoning Models for Machine Translation",
+      "authors": [
+        "Zihao Li",
+        "Shaoxiong Ji",
+        "Jörg Tiedemann"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2025-10-07T21:15:18.000Z"
+    },
+    {
+      "id": "2510.16259",
+      "title": "Distractor Injection Attacks on Large Reasoning Models: Characterization and Defense",
+      "authors": [
+        "Zhehao Zhang",
+        "Weijie Xu",
+        "Shixian Cui",
+        "Chandan K. Reddy"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2025-10-17T23:16:34.000Z"
+    },
+    {
+      "id": "2510.16156",
+      "title": "AsyncVoice Agent: Real-Time Explanation for LLM Planning and Reasoning",
+      "authors": [
+        "Yueqian Lin",
+        "Zhengmian Hu",
+        "Jayakumar Subramanian",
+        "Qinsi Wang",
+        "Nikos Vlassis",
+        "Hai \"Helen\" Li",
+        "Yiran Chen"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2025-10-17T19:00:08.000Z"
+    },
+    {
+      "id": "2510.16727",
+      "title": "Beacon: Single-Turn Diagnosis and Mitigation of Latent Sycophancy in Large Language Models",
+      "authors": [
+        "Sanskar Pandey",
+        "Ruhaan Chopra",
+        "Angkul Puniya",
+        "Sohom Pal"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2025-10-19T06:36:57.000Z"
+    }
+  ]
+}

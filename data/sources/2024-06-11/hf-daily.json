@@ -1,0 +1,261 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-06-11",
+  "fetched_at": "2026-10-29T15:28:05.510Z",
+  "candidates": [
+    {
+      "id": "2406.06525",
+      "title": "Autoregressive Model Beats Diffusion: Llama for Scalable Image Generation",
+      "authors": [
+        "Peize Sun",
+        "Yi Jiang",
+        "Shoufa Chen",
+        "Shilong Zhang",
+        "Bingyue Peng",
+        "Ping Luo",
+        "Zehuan Yuan"
+      ],
+      "upvotes": 68,
+      "github": "https://github.com/foundationvision/llamagen",
+      "published": "2024-06-10T17:59:52.000Z"
+    },
+    {
+      "id": "2406.06469",
+      "title": "Husky: A Unified, Open-Source Language Agent for Multi-Step Reasoning",
+      "authors": [
+        "Joongwon Kim",
+        "Bhargavi Paranjape",
+        "Tushar Khot",
+        "Hannaneh Hajishirzi"
+      ],
+      "upvotes": 26,
+      "github": "https://github.com/agent-husky/husky-v1",
+      "published": "2024-06-10T17:07:25.000Z"
+    },
+    {
+      "id": "2406.06040",
+      "title": "Vript: A Video Is Worth Thousands of Words",
+      "authors": [
+        "Dongjie Yang",
+        "Suyuan Huang",
+        "Chengqiang Lu",
+        "Xiaodong Han",
+        "Haoxin Zhang",
+        "Yan Gao",
+        "Yao Hu",
+        "Hai Zhao"
+      ],
+      "upvotes": 26,
+      "github": "https://github.com/mutonix/vript",
+      "published": "2024-06-10T06:17:55.000Z"
+    },
+    {
+      "id": "2406.06474",
+      "title": "Towards a Personal Health Large Language Model",
+      "authors": [
+        "Justin Cosentino",
+        "Anastasiya Belyaeva",
+        "Xin Liu",
+        "Nicholas A. Furlotte",
+        "Zhun Yang",
+        "Chace Lee",
+        "Erik Schenck",
+        "Yojan Patel",
+        "Jian Cui",
+        "Logan Douglas Schneider",
+        "Robby Bryant",
+        "Ryan G. Gomes",
+        "Allen Jiang",
+        "Roy Lee",
+        "Yun Liu",
+        "Javier Perez",
+        "Jameson K. Rogers",
+        "Cathy Speed",
+        "Shyam Tailor",
+        "Megan Walker",
+        "Jeffrey Yu",
+        "Tim Althoff",
+        "Conor Heneghan",
+        "John Hernandez",
+        "Mark Malhotra",
+        "Leor Stern",
+        "Yossi Matias",
+        "Greg S. Corrado",
+        "Shwetak Patel",
+        "Shravya Shetty",
+        "Jiening Zhan",
+        "Shruthi Prabhakara",
+        "Daniel McDuff",
+        "Cory Y. McLean"
+      ],
+      "upvotes": 21,
+      "github": null,
+      "published": "2024-06-10T17:16:49.000Z"
+    },
+    {
+      "id": "2406.06216",
+      "title": "Lighting Every Darkness with 3DGS: Fast Training and Real-Time Rendering for HDR View Synthesis",
+      "authors": [
+        "Xin Jin",
+        "Pengyi Jiao",
+        "Zheng-Peng Duan",
+        "Xingchao Yang",
+        "Chun-Le Guo",
+        "Bo Ren",
+        "Chongyi Li"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/Srameo/LE3D",
+      "published": "2024-06-10T12:33:08.000Z"
+    },
+    {
+      "id": "2406.06316",
+      "title": "Tx-LLM: A Large Language Model for Therapeutics",
+      "authors": [
+        "Juan Manuel Zambrano Chaves",
+        "Eric Wang",
+        "Tao Tu",
+        "Eeshit Dhaval Vaishnav",
+        "Byron Lee",
+        "S. Sara Mahdavi",
+        "Christopher Semturs",
+        "David Fleet",
+        "Vivek Natarajan",
+        "Shekoofeh Azizi"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2024-06-10T14:33:02.000Z"
+    },
+    {
+      "id": "2406.05370",
+      "title": "VALL-E 2: Neural Codec Language Models are Human Parity Zero-Shot Text to Speech Synthesizers",
+      "authors": [
+        "Sanyuan Chen",
+        "Shujie Liu",
+        "Long Zhou",
+        "Yanqing Liu",
+        "Xu Tan",
+        "Jinyu Li",
+        "Sheng Zhao",
+        "Yao Qian",
+        "Furu Wei"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2024-06-08T06:31:03.000Z"
+    },
+    {
+      "id": "2406.06424",
+      "title": "Margin-aware Preference Optimization for Aligning Diffusion Models without Reference",
+      "authors": [
+        "Jiwoo Hong",
+        "Sayak Paul",
+        "Noah Lee",
+        "Kashif Rasul",
+        "James Thorne",
+        "Jongheon Jeong"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/mapo-t2i/mapo",
+      "published": "2024-06-10T16:14:45.000Z"
+    },
+    {
+      "id": "2406.05981",
+      "title": "ShiftAddLLM: Accelerating Pretrained LLMs via Post-Training Multiplication-Less Reparameterization",
+      "authors": [
+        "Haoran You",
+        "Yipin Guo",
+        "Yichao Fu",
+        "Wei Zhou",
+        "Huihong Shi",
+        "Xiaofan Zhang",
+        "Souvik Kundu",
+        "Amir Yazdanbakhsh",
+        "Yingyan Lin"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/gatech-eic/shiftaddllm",
+      "published": "2024-06-10T02:47:55.000Z"
+    },
+    {
+      "id": "2406.05814",
+      "title": "Unified Text-to-Image Generation and Retrieval",
+      "authors": [
+        "Leigang Qu",
+        "Haochuan Li",
+        "Tan Wang",
+        "Wenjie Wang",
+        "Yongqi Li",
+        "Liqiang Nie",
+        "Tat-Seng Chua"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2024-06-09T15:00:28.000Z"
+    },
+    {
+      "id": "2406.06527",
+      "title": "IllumiNeRF: 3D Relighting without Inverse Rendering",
+      "authors": [
+        "Xiaoming Zhao",
+        "Pratul P. Srinivasan",
+        "Dor Verbin",
+        "Keunhong Park",
+        "Ricardo Martin Brualla",
+        "Philipp Henzler"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2024-06-10T17:59:59.000Z"
+    },
+    {
+      "id": "2406.05768",
+      "title": "MLCM: Multistep Consistency Distillation of Latent Diffusion Model",
+      "authors": [
+        "Qingsong Xie",
+        "Zhenyi Liao",
+        "Zhijie Deng",
+        "Chen chen",
+        "Shixiang Tang",
+        "Haonan Lu"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/oppo-mente-lab/tlcm",
+      "published": "2024-06-09T12:55:50.000Z"
+    },
+    {
+      "id": "2406.06133",
+      "title": "ExtraNeRF: Visibility-Aware View Extrapolation of Neural Radiance Fields with Diffusion Models",
+      "authors": [
+        "Meng-Li Shih",
+        "Wei-Chiu Ma",
+        "Aleksander Holynski",
+        "Forrester Cole",
+        "Brian L. Curless",
+        "Janne Kontkanen"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2024-06-10T09:44:06.000Z"
+    },
+    {
+      "id": "2406.05649",
+      "title": "GTR: Improving Large 3D Reconstruction Models through Geometry and Texture Refinement",
+      "authors": [
+        "Peiye Zhuang",
+        "Songfang Han",
+        "Chaoyang Wang",
+        "Aliaksandr Siarohin",
+        "Jiaxu Zou",
+        "Michael Vasilkovsky",
+        "Vladislav Shakhrai",
+        "Sergey Korolev",
+        "Sergey Tulyakov",
+        "Hsin-Ying Lee"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2024-06-09T05:19:24.000Z"
+    }
+  ]
+}

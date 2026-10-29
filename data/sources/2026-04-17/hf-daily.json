@@ -1,0 +1,483 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-04-17",
+  "fetched_at": "2026-10-29T15:35:20.569Z",
+  "candidates": [
+    {
+      "id": "2604.14268",
+      "title": "HY-World 2.0: A Multi-Modal World Model for Reconstructing, Generating, and Simulating 3D Worlds",
+      "authors": [
+        "Team HY-World",
+        "Chenjie Cao",
+        "Xuhui Zuo",
+        "Zhenwei Wang",
+        "Yisu Zhang",
+        "Junta Wu",
+        "Zhenyang Liu",
+        "Yuning Gong",
+        "Yang Liu",
+        "Bo Yuan",
+        "Chao Zhang",
+        "Coopers Li",
+        "Dongyuan Guo",
+        "Fan Yang",
+        "Haiyu Zhang",
+        "Hang Cao",
+        "Jianchen Zhu",
+        "Jiaxin Lin",
+        "Jie Xiao",
+        "Jihong Zhang",
+        "Junlin Yu",
+        "Lei Wang",
+        "Lifu Wang",
+        "Lilin Wang",
+        "Linus",
+        "Minghui Chen",
+        "Peng He",
+        "Penghao Zhao",
+        "Qi Chen",
+        "Rui Chen",
+        "Rui Shao",
+        "Sicong Liu",
+        "Wangchen Qin",
+        "Xiaochuan Niu",
+        "Xiang Yuan",
+        "Yi Sun",
+        "Yifei Tang",
+        "Yifu Sun",
+        "Yihang Lian",
+        "Yonghao Tan",
+        "Yuhong Liu",
+        "Yuyang Yin",
+        "Zhiyuan Min",
+        "Tengfei Wang",
+        "Chunchao Guo"
+      ],
+      "upvotes": 127,
+      "github": "https://github.com/Tencent-Hunyuan/HY-World-2.0",
+      "published": "2026-04-15T00:00:00.000Z"
+    },
+    {
+      "id": "2604.14164",
+      "title": "How to Fine-Tune a Reasoning Model? A Teacher-Student Cooperation Framework to Synthesize Student-Consistent SFT Data",
+      "authors": [
+        "Zixian Huang",
+        "Kaichen Yang",
+        "Xu Huang",
+        "Feiyang Hao",
+        "Qiming Ge",
+        "Bowen Li",
+        "He Du",
+        "Kai Chen",
+        "Qipeng Guo"
+      ],
+      "upvotes": 35,
+      "github": "https://github.com/CoopReason/TESSY",
+      "published": "2026-03-23T00:00:00.000Z"
+    },
+    {
+      "id": "2604.14683",
+      "title": "DR^{3}-Eval: Towards Realistic and Reproducible Deep Research Evaluation",
+      "authors": [
+        "Qianqian Xie",
+        "Qingheng Xiong",
+        "He Zhu",
+        "Tiantian Xia",
+        "Xueming Han",
+        "Fanyu Meng",
+        "Jiakai Wang",
+        "Zhiqi Bai",
+        "Chengkang Jiang",
+        "Zhaohui Wang",
+        "Yubin Guo",
+        "Yuqing Wen",
+        "Jiayang Mao",
+        "Zijie Zhang",
+        "Shihao Li",
+        "Yanghai Wang",
+        "Yuxiang Ren",
+        "Junlan Feng",
+        "Jiaheng Liu"
+      ],
+      "upvotes": 35,
+      "github": "https://github.com/NJU-LINK/DR3-Eval",
+      "published": "2026-04-16T00:00:00.000Z"
+    },
+    {
+      "id": "2604.15308",
+      "title": "RAD-2: Scaling Reinforcement Learning in a Generator-Discriminator Framework",
+      "authors": [
+        "Hao Gao",
+        "Shaoyu Chen",
+        "Yifan Zhu",
+        "Yuehao Song",
+        "Wenyu Liu",
+        "Qian Zhang",
+        "Xinggang Wang"
+      ],
+      "upvotes": 29,
+      "github": "https://github.com/hustvl/RAD",
+      "published": "2026-04-16T00:00:00.000Z"
+    },
+    {
+      "id": "2604.15284",
+      "title": "GlobalSplat: Efficient Feed-Forward 3D Gaussian Splatting via Global Scene Tokens",
+      "authors": [
+        "Roni Itkin",
+        "Noam Issachar",
+        "Yehonatan Keypur",
+        "Yehonatan Keypur",
+        "Anpei Chen",
+        "Sagie Benaim"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/R-Itk/globalsplat",
+      "published": "2026-04-16T00:00:00.000Z"
+    },
+    {
+      "id": "2604.14228",
+      "title": "Dive into Claude Code: The Design Space of Today's and Future AI Agent Systems",
+      "authors": [
+        "Jiacheng Liu",
+        "Xiaohan Zhao",
+        "Xinyi Shang",
+        "Zhiqiang Shen"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/VILA-Lab/Dive-into-Claude-Code",
+      "published": "2026-04-14T00:00:00.000Z"
+    },
+    {
+      "id": "2509.25843",
+      "title": "ASGuard: Activation-Scaling Guard to Mitigate Targeted Jailbreaking Attack",
+      "authors": [
+        "Yein Park",
+        "Jungwoo Park",
+        "Jaewoo Kang"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/dmis-lab/ASGuard",
+      "published": "2026-04-14T00:00:00.000Z"
+    },
+    {
+      "id": "2604.14125",
+      "title": "HiVLA: A Visual-Grounded-Centric Hierarchical Embodied Manipulation System",
+      "authors": [
+        "Tianshuo Yang",
+        "Guanyu Chen",
+        "Yutian Chen",
+        "Zhixuan Liang",
+        "Yitian Liu",
+        "Zanxin Chen",
+        "Chunpu Xu",
+        "Haotian Liang",
+        "Jiangmiao Pang",
+        "Yao Mu",
+        "Ping Luo"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2026-04-15T00:00:00.000Z"
+    },
+    {
+      "id": "2604.14967",
+      "title": "UniDoc-RL: Coarse-to-Fine Visual RAG with Hierarchical Actions and Dense Rewards",
+      "authors": [
+        "Jun Wang",
+        "Shuo Tan",
+        "Zelong Sun",
+        "Tiancheng Gu",
+        "Yongle Zhao",
+        "Ziyong Feng",
+        "Kaicheng Yang",
+        "Cewu Lu"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/deepglint/UniDoc-RL",
+      "published": "2026-04-16T00:00:00.000Z"
+    },
+    {
+      "id": "2604.15311",
+      "title": "LeapAlign: Post-Training Flow Matching Models at Any Generation Step by Building Two-Step Trajectories",
+      "authors": [
+        "Zhanhao Liang",
+        "Tao Yang",
+        "Jie Wu",
+        "Chengjian Feng",
+        "Liang Zheng"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2026-04-16T00:00:00.000Z"
+    },
+    {
+      "id": "2604.12966",
+      "title": "Boosting Visual Instruction Tuning with Self-Supervised Guidance",
+      "authors": [
+        "Sophia Sirko-Galouchenko",
+        "Monika Wysoczanska",
+        "Andrei Bursuc",
+        "Nicolas Thome",
+        "Spyros Gidaris"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/sirkosophia/V-GIFT",
+      "published": "2026-04-14T00:00:00.000Z"
+    },
+    {
+      "id": "2604.13226",
+      "title": "KV Packet: Recomputation-Free Context-Independent KV Caching for LLMs",
+      "authors": [
+        "Chuangtao Chen",
+        "Grace Li Zhang",
+        "Xunzhao Yin",
+        "Cheng Zhuo",
+        "Bing Li",
+        "Ulf Schlichtmann"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/ChuangtaoChen-TUM/KVPacket",
+      "published": "2026-04-14T00:00:00.000Z"
+    },
+    {
+      "id": "2604.14629",
+      "title": "Switch-KD: Visual-Switch Knowledge Distillation for Vision-Language Models",
+      "authors": [
+        "Haoyi Sun",
+        "Xiaoxiao Wang",
+        "Ning Mao",
+        "Qian Wang",
+        "Lifu Mu",
+        "Wen Zheng",
+        "Tao Wei",
+        "Wei Chen"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/haoyi199815/Switch-KD",
+      "published": "2026-04-16T00:00:00.000Z"
+    },
+    {
+      "id": "2604.04514",
+      "title": "SuperLocalMemory V3.3: The Living Brain -- Biologically-Inspired Forgetting, Cognitive Quantization, and Multi-Channel Retrieval for Zero-LLM Agent Memory Systems",
+      "authors": [
+        "Varun Pratap Bhardwaj"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2026-04-06T00:00:00.000Z"
+    },
+    {
+      "id": "2604.14922",
+      "title": "LongAct: Harnessing Intrinsic Activation Patterns for Long-Context Reinforcement Learning",
+      "authors": [
+        "Bowen Ping",
+        "Zijun Chen",
+        "Tingfeng Hui",
+        "Qize Yu",
+        "Chenxuan Li",
+        "Junchi Yan",
+        "Baobao Chang"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2026-04-16T00:00:00.000Z"
+    },
+    {
+      "id": "2604.15309",
+      "title": "MM-WebAgent: A Hierarchical Multimodal Web Agent for Webpage Generation",
+      "authors": [
+        "Yan Li",
+        "Zezi Zeng",
+        "Yifan Yang",
+        "Yuqing Yang",
+        "Ning Liao",
+        "Weiwei Guo",
+        "Lili Qiu",
+        "Mingxi Cheng",
+        "Qi Dai",
+        "Zhendong Wang",
+        "Zhengyuan Yang",
+        "Xue Yang",
+        "Ji Li",
+        "Lijuan Wang",
+        "Chong Luo"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/microsoft/MM-webagent",
+      "published": "2026-04-16T00:00:00.000Z"
+    },
+    {
+      "id": "2604.14572",
+      "title": "Don't Retrieve, Navigate: Distilling Enterprise Knowledge into Navigable Agent Skills for QA and RAG",
+      "authors": [
+        "Yiqun Sun",
+        "Pengfei Wei",
+        "Lawrence B. Hsieh"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/dukesun99/Corpus2Skill",
+      "published": "2026-04-16T00:00:00.000Z"
+    },
+    {
+      "id": "2604.11707",
+      "title": "Representations Before Pixels: Semantics-Guided Hierarchical Video Prediction",
+      "authors": [
+        "Efstathios Karypidis",
+        "Spyros Gidaris",
+        "Nikos Komodakis"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/Sta8is/Re2Pix",
+      "published": "2026-04-13T00:00:00.000Z"
+    },
+    {
+      "id": "2604.14531",
+      "title": "TRACER: Trace-Based Adaptive Cost-Efficient Routing for LLM Classification",
+      "authors": [
+        "Adam Rida"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/adrida/tracer",
+      "published": "2026-04-16T00:00:00.000Z"
+    },
+    {
+      "id": "2604.14062",
+      "title": "OneHOI: Unifying Human-Object Interaction Generation and Editing",
+      "authors": [
+        "Jiun Tian Hoe",
+        "Weipeng Hu",
+        "Xudong Jiang",
+        "Yap-Peng Tan",
+        "Chee Seng Chan"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/jiuntian/OneHOI",
+      "published": "2026-04-15T00:00:00.000Z"
+    },
+    {
+      "id": "2604.14265",
+      "title": "Reinforcement Learning via Value Gradient Flow",
+      "authors": [
+        "Haoran Xu",
+        "Kaiwen Hu",
+        "Somayeh Sojoudi",
+        "Amy Zhang"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/ryanxhr/vgf",
+      "published": "2026-04-15T00:00:00.000Z"
+    },
+    {
+      "id": "2604.07466",
+      "title": "Cross-Tokenizer LLM Distillation through a Byte-Level Interface",
+      "authors": [
+        "Avyav Kumar Singh",
+        "Yen-Chen Wu",
+        "Alexandru Cioba",
+        "Alberto Bernacchia",
+        "Davide Buffelli"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2026-04-13T00:00:00.000Z"
+    },
+    {
+      "id": "2604.15231",
+      "title": "RadAgent: A tool-using AI agent for stepwise interpretation of chest computed tomography",
+      "authors": [
+        "Mélanie Roschewitz",
+        "Kenneth Styppa",
+        "Yitian Tao",
+        "Jiwoong Sohn",
+        "Jean-Benoit Delbrouck",
+        "Benjamin Gundersen",
+        "Nicolas Deperrois",
+        "Christian Bluethgen",
+        "Julia Vogt",
+        "Bjoern Menze",
+        "Farhad Nooralahzadeh",
+        "Michael Krauthammer",
+        "Michael Moor"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2026-04-16T00:00:00.000Z"
+    },
+    {
+      "id": "2604.11661",
+      "title": "Towards Autonomous Mechanistic Reasoning in Virtual Cells",
+      "authors": [
+        "Yunhui Jang",
+        "Lu Zhu",
+        "Jake Fawkes",
+        "Alisandra Kaye Denton",
+        "Dominique Beaini",
+        "Emmanuel Noutahi"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/valence-labs/VCR-Agent",
+      "published": "2026-04-14T00:00:00.000Z"
+    },
+    {
+      "id": "2604.14914",
+      "title": "Beyond Prompts: Unconditional 3D Inversion for Out-of-Distribution Shapes",
+      "authors": [
+        "Victoria Yue Chen",
+        "Emery Pierson",
+        "Léopold Maillard",
+        "Maks Ovsjanikov"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-04-16T00:00:00.000Z"
+    },
+    {
+      "id": "2604.14430",
+      "title": "Three-Phase Transformer",
+      "authors": [
+        "Mohammad R. Abu Ayyash"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/achelousace/three-phase-transformer",
+      "published": "2026-04-15T00:00:00.000Z"
+    },
+    {
+      "id": "2603.27844",
+      "title": "Model Capability Dominates: Inference-Time Optimization Lessons from AIMO 3",
+      "authors": [
+        "Natapong Nitarach"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/nat-nischw/model-capability-dominates-lessons-aimo3",
+      "published": "2026-04-16T00:00:00.000Z"
+    },
+    {
+      "id": "2604.13618",
+      "title": "C2: Scalable Rubric-Augmented Reward Modeling from Binary Preferences",
+      "authors": [
+        "Akira Kawabata",
+        "Saku Sugawara"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/asahi-research/C2",
+      "published": "2026-04-15T00:00:00.000Z"
+    },
+    {
+      "id": "2211.16780",
+      "title": "An Optimal Transport-driven Approach for Cultivating Latent Space in Online Incremental Learning",
+      "authors": [
+        "Quyen Tran",
+        "Hai Nguyen",
+        "Hoang Phan",
+        "Quan Dao",
+        "Linh Ngo",
+        "Khoat Than",
+        "Dinh Phung",
+        "Dimitris Metaxas",
+        "Trung Le"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2026-04-16T00:00:00.000Z"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "2505.03335",
+  "html": "https://arxiv.org/html/2505.03335",
+  "limitations": null,
+  "conclusion": "Conclusion. In this work, we proposed the Absolute Zero paradigm, a novel setting that addresses the data limitations of existing RLVR frameworks. In this paradigm, reasoning agents are tasked with generating their own learning task distributions and improving their reasoning abilities with environmental guidance. We then presented our own instantiation, the Absolute Zero Reasoner (AZR), which is trained by having them propose and solve code-related reasoning tasks grounded by code executor. We evaluated our trained models on out-of-distribution benchmarks in both the code generation and mathematical reasoning domains. Remarkably, even though our models were not directly trained on these tasks and lacked human expert-curated datasets, our reasoning agents achieved exceptional performance, surpassing the state-of-the-art in combined general reasoning scores and in coding. This demonstrate",
+  "figure": {
+    "path": "images/2025/paper-2505.03335.webp",
+    "src": "https://arxiv.org/html/2505.03335v3/figures/azr_teaser.png",
+    "caption": "Figure 1: Absolute Zero Reasoner (AZR) achieves state-of-the-art performance with ZERO DATA . Without relying on any gold labels or human-defined queries, Absolute Zero Reasoner trained using our proposed self-play approach demonstrates impressive general reasoning capabilities improvements in both math and coding, despite operating entirely out-of-distribution. Remarkably, AZR surpasses models tr"
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2023-10-17",
+  "fetched_at": "2026-10-29T15:25:40.632Z",
+  "candidates": [
+    {
+      "id": "2310.10631",
+      "title": "Llemma: An Open Language Model For Mathematics",
+      "authors": [
+        "Zhangir Azerbayev",
+        "Hailey Schoelkopf",
+        "Keiran Paster",
+        "Marco Dos Santos",
+        "Stephen McAleer",
+        "Albert Q. Jiang",
+        "Jia Deng",
+        "Stella Biderman",
+        "Sean Welleck"
+      ],
+      "upvotes": 57,
+      "github": "https://github.com/EleutherAI/math-lm",
+      "published": "2023-10-16T17:54:07.000Z"
+    },
+    {
+      "id": "2310.10638",
+      "title": "In-Context Pretraining: Language Modeling Beyond Document Boundaries",
+      "authors": [
+        "Weijia Shi",
+        "Sewon Min",
+        "Maria Lomeli",
+        "Chunting Zhou",
+        "Margaret Li",
+        "Victoria Lin",
+        "Noah A. Smith",
+        "Luke Zettlemoyer",
+        "Scott Yih",
+        "Mike Lewis"
+      ],
+      "upvotes": 29,
+      "github": "https://github.com/swj0419/in-context-pretraining",
+      "published": "2023-10-16T17:57:12.000Z"
+    },
+    {
+      "id": "2310.09478",
+      "title": "MiniGPT-v2: large language model as a unified interface for vision-language multi-task learning",
+      "authors": [
+        "Jun Chen",
+        "Deyao Zhu",
+        "Xiaoqian Shen",
+        "Xiang Li",
+        "Zechun Liu",
+        "Pengchuan Zhang",
+        "Raghuraman Krishnamoorthi",
+        "Vikas Chandra",
+        "Yunyang Xiong",
+        "Mohamed Elhoseiny"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/Vision-CAIR/MiniGPT-4",
+      "published": "2023-10-14T03:22:07.000Z"
+    },
+    {
+      "id": "2310.10645",
+      "title": "Interactive Task Planning with Language Models",
+      "authors": [
+        "Boyi Li",
+        "Philipp Wu",
+        "Pieter Abbeel",
+        "Jitendra Malik"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/Boyiliee/ITP",
+      "published": "2023-10-16T17:59:12.000Z"
+    },
+    {
+      "id": "2310.10625",
+      "title": "Video Language Planning",
+      "authors": [
+        "Yilun Du",
+        "Mengjiao Yang",
+        "Pete Florence",
+        "Fei Xia",
+        "Ayzaan Wahid",
+        "Brian Ichter",
+        "Pierre Sermanet",
+        "Tianhe Yu",
+        "Pieter Abbeel",
+        "Joshua B. Tenenbaum",
+        "Leslie Kaelbling",
+        "Andy Zeng",
+        "Jonathan Tompson"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2023-10-16T17:48:45.000Z"
+    },
+    {
+      "id": "2310.09520",
+      "title": "Reward-Augmented Decoding: Efficient Controlled Text Generation With a Unidirectional Reward Model",
+      "authors": [
+        "Haikang Deng",
+        "Colin Raffel"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/r-three/RAD",
+      "published": "2023-10-14T07:19:47.000Z"
+    },
+    {
+      "id": "2310.09983",
+      "title": "Farzi Data: Autoregressive Data Distillation",
+      "authors": [
+        "Noveen Sachdeva",
+        "Zexue He",
+        "Wang-Cheng Kang",
+        "Jianmo Ni",
+        "Derek Zhiyuan Cheng",
+        "Julian McAuley"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2023-10-15T23:23:27.000Z"
+    },
+    {
+      "id": "2310.10537",
+      "title": "Microscaling Data Formats for Deep Learning",
+      "authors": [
+        "Bita Darvish Rouhani",
+        "Ritchie Zhao",
+        "Ankit More",
+        "Mathew Hall",
+        "Alireza Khodamoradi",
+        "Summer Deng",
+        "Dhruv Choudhary",
+        "Marius Cornea",
+        "Eric Dellinger",
+        "Kristof Denolf",
+        "Stosic Dusan",
+        "Venmugil Elango",
+        "Maximilian Golub",
+        "Alexander Heinecke",
+        "Phil James-Roxby",
+        "Dharmesh Jani",
+        "Gaurav Kolhe",
+        "Martin Langhammer",
+        "Ada Li",
+        "Levi Melnick",
+        "Maral Mesmakhosroshahi",
+        "Andres Rodriguez",
+        "Michael Schulte",
+        "Rasoul Shafipour",
+        "Lei Shao",
+        "Michael Siu",
+        "Pradeep Dubey",
+        "Paulius Micikevicius",
+        "Maxim Naumov",
+        "Colin Verilli",
+        "Ralph Wittig",
+        "Eric Chung"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/microsoft/microxcaling",
+      "published": "2023-10-16T16:07:41.000Z"
+    },
+    {
+      "id": "2310.10047",
+      "title": "Improving Large Language Model Fine-tuning for Solving Math Problems",
+      "authors": [
+        "Yixin Liu",
+        "Avi Singh",
+        "C. Daniel Freeman",
+        "John D. Co-Reyes",
+        "Peter J. Liu"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2023-10-16T04:11:19.000Z"
+    },
+    {
+      "id": "2310.09753",
+      "title": "When can transformers reason with abstract symbols?",
+      "authors": [
+        "Enric Boix-Adsera",
+        "Omid Saremi",
+        "Emmanuel Abbe",
+        "Samy Bengio",
+        "Etai Littwin",
+        "Joshua Susskind"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/eboix/relational-reasoning",
+      "published": "2023-10-15T06:45:38.000Z"
+    },
+    {
+      "id": "2310.09342",
+      "title": "Ranking LLM-Generated Loop Invariants for Program Verification",
+      "authors": [
+        "Saikat Chakraborty",
+        "Shuvendu K. Lahiri",
+        "Sarah Fakhoury",
+        "Madanlal Musuvathi",
+        "Akash Lal",
+        "Aseem Rastogi",
+        "Aditya Senthilnathan",
+        "Rahul Sharma",
+        "Nikhil Swamy"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/microsoft/NeuralInvariantRanker",
+      "published": "2023-10-13T18:13:52.000Z"
+    }
+  ]
+}

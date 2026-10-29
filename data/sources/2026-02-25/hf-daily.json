@@ -1,0 +1,525 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-02-25",
+  "fetched_at": "2026-10-29T15:34:49.719Z",
+  "candidates": [
+    {
+      "id": "2602.21193",
+      "title": "On Data Engineering for Scaling LLM Terminal Capabilities",
+      "authors": [
+        "Renjie Pi",
+        "Grace Lam",
+        "Mohammad Shoeybi",
+        "Pooya Jannaty",
+        "Bryan Catanzaro",
+        "Wei Ping"
+      ],
+      "upvotes": 104,
+      "github": null,
+      "published": "2026-02-24T18:51:04.000Z"
+    },
+    {
+      "id": "2602.12192",
+      "title": "Query-focused and Memory-aware Reranker for Long Context Processing",
+      "authors": [
+        "Yuqing Li",
+        "Jiangnan Li",
+        "Mo Yu",
+        "Guoxuan Ding",
+        "Zheng Lin",
+        "Weiping Wang",
+        "Jie Zhou"
+      ],
+      "upvotes": 59,
+      "github": null,
+      "published": "2026-02-12T17:23:38.000Z"
+    },
+    {
+      "id": "2602.21204",
+      "title": "Test-Time Training with KV Binding Is Secretly Linear Attention",
+      "authors": [
+        "Junchen Liu",
+        "Sven Elflein",
+        "Or Litany",
+        "Zan Gojcic",
+        "Ruilong Li"
+      ],
+      "upvotes": 32,
+      "github": "https://github.com/nv-tlabs/tttla",
+      "published": "2026-02-24T18:59:30.000Z"
+    },
+    {
+      "id": "2602.20739",
+      "title": "PyVision-RL: Forging Open Agentic Vision Models via RL",
+      "authors": [
+        "Shitian Zhao",
+        "Shaoheng Lin",
+        "Ming Li",
+        "Haoquan Zhang",
+        "Wenshuo Peng",
+        "Kaipeng Zhang",
+        "Chen Wei"
+      ],
+      "upvotes": 32,
+      "github": "https://github.com/agents-x-project/PyVision-RL",
+      "published": "2026-02-24T10:08:33.000Z"
+    },
+    {
+      "id": "2602.21015",
+      "title": "From Perception to Action: An Interactive Benchmark for Vision Reasoning",
+      "authors": [
+        "Yuhao Wu",
+        "Maojia Song",
+        "Yihuai Lan",
+        "Lei Wang",
+        "Zhiqiang Hu",
+        "Yao Xiao",
+        "Heng Zhou",
+        "Weihua Zheng",
+        "Dylan Raharja",
+        "Soujanya Poria",
+        "Roy Ka-Wei Lee"
+      ],
+      "upvotes": 26,
+      "github": "https://github.com/Social-AI-Studio/CHAIN",
+      "published": "2026-02-24T15:33:02.000Z"
+    },
+    {
+      "id": "2602.21202",
+      "title": "Multi-Vector Index Compression in Any Modality",
+      "authors": [
+        "Hanxiang Qin",
+        "Alexander Martin",
+        "Rohan Jha",
+        "Chunsheng Zuo",
+        "Reno Kriz",
+        "Benjamin Van Durme"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/hanxiangqin/omni-col-press",
+      "published": "2026-02-24T18:57:33.000Z"
+    },
+    {
+      "id": "2602.14337",
+      "title": "LongCLI-Bench: A Preliminary Benchmark and Study for Long-horizon Agentic Programming in Command-Line Interfaces",
+      "authors": [
+        "Yukang Feng",
+        "Jianwen Sun",
+        "Zelai Yang",
+        "Jiaxin Ai",
+        "Chuanhao Li",
+        "Zizhen Li",
+        "Fanrui Zhang",
+        "Kang He",
+        "Rui Ma",
+        "Jifan Lin",
+        "Jie Sun",
+        "Yang Xiao",
+        "Sizhuo Zhou",
+        "Wenxiao Wu",
+        "Yiming Liu",
+        "Pengfei Liu",
+        "Yu Qiao",
+        "Shenglin Zhang",
+        "Kaipeng Zhang"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/finyorko/longcli-bench",
+      "published": "2026-02-15T23:12:57.000Z"
+    },
+    {
+      "id": "2602.18940",
+      "title": "DREAM: Deep Research Evaluation with Agentic Metrics",
+      "authors": [
+        "Elad Ben Avraham",
+        "Changhao Li",
+        "Ron Dorfman",
+        "Roy Ganz",
+        "Oren Nuriel",
+        "Amir Dudai",
+        "Aviad Aberdam",
+        "Noah Flynn",
+        "Elman Mansimov",
+        "Adi Kalyanpur",
+        "Ron Litman"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2026-02-21T19:14:31.000Z"
+    },
+    {
+      "id": "2602.20309",
+      "title": "QuantVLA: Scale-Calibrated Post-Training Quantization for Vision-Language-Action Models",
+      "authors": [
+        "Jingxuan Zhang",
+        "Yunta Hsieh",
+        "Zhongwei Wang",
+        "Haokun Lin",
+        "Xin Wang",
+        "Ziqi Wang",
+        "Yingtie Lei",
+        "Mi Zhang"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/AIoT-MLSys-Lab/QuantVLA",
+      "published": "2026-02-23T19:55:54.000Z"
+    },
+    {
+      "id": "2602.16990",
+      "title": "Conv-FinRe: A Conversational and Longitudinal Benchmark for Utility-Grounded Financial Recommendation",
+      "authors": [
+        "Yan Wang",
+        "Yi Han",
+        "Lingfei Qian",
+        "Yueru He",
+        "Xueqing Peng",
+        "Dongji Feng",
+        "Zhuohan Xie",
+        "Vincent Jim Zhang",
+        "Rosie Guo",
+        "Fengran Mo",
+        "Jimin Huang",
+        "Yankai Chen",
+        "Xue Liu",
+        "Jian-Yun Nie"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/The-FinAI/Conv-FinRe",
+      "published": "2026-02-19T01:29:50.000Z"
+    },
+    {
+      "id": "2602.18998",
+      "title": "Benchmark Test-Time Scaling of General LLM Agents",
+      "authors": [
+        "Xiaochuan Li",
+        "Ryan Ming",
+        "Pranav Setlur",
+        "Abhijay Paladugu",
+        "Andy Tang",
+        "Hao Kang",
+        "Shuai Shao",
+        "Rong Jin",
+        "Chenyan Xiong"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/cxcscmu/General-AgentBench",
+      "published": "2026-02-22T01:08:02.000Z"
+    },
+    {
+      "id": "2602.19633",
+      "title": "TAPE: Tool-Guided Adaptive Planning and Constrained Execution in Language Model Agents",
+      "authors": [
+        "Jongwon Jeong",
+        "Jungtaek Kim",
+        "Kangwook Lee"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/UW-Madison-Lee-Lab/TAPE",
+      "published": "2026-02-23T09:19:56.000Z"
+    },
+    {
+      "id": "2602.16745",
+      "title": "PETS: A Principled Framework Towards Optimal Trajectory Allocation for Efficient Test-Time Self-Consistency",
+      "authors": [
+        "Zhangyi Liu",
+        "Huaizhi Qu",
+        "Xiaowei Yin",
+        "He Sun",
+        "Yanjun Han",
+        "Tianlong Chen",
+        "Zhun Deng"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/ZDCSlab/PETS",
+      "published": "2026-02-18T03:28:23.000Z"
+    },
+    {
+      "id": "2602.21196",
+      "title": "Untied Ulysses: Memory-Efficient Context Parallelism via Headwise Chunking",
+      "authors": [
+        "Ravi Ghadia",
+        "Maksim Abraham",
+        "Sergei Vorobyov",
+        "Max Ryabinin"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/togethercomputer/Untied-Ulysses",
+      "published": "2026-02-24T18:54:39.000Z"
+    },
+    {
+      "id": "2602.20945",
+      "title": "The Art of Efficient Reasoning: Data, Reward, and Optimization",
+      "authors": [
+        "Taiqiang Wu",
+        "Zenan Zu",
+        "Bo Zhou",
+        "Ngai Wong"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2026-02-24T14:28:16.000Z"
+    },
+    {
+      "id": "2602.16932",
+      "title": "RankEvolve: Automating the Discovery of Retrieval Algorithms via LLM-Driven Evolution",
+      "authors": [
+        "Jinming Nian",
+        "Fangchen Li",
+        "Dae Hoon Park",
+        "Yi Fang"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/fangchenli/ranking-evolved",
+      "published": "2026-02-18T22:53:18.000Z"
+    },
+    {
+      "id": "2602.20951",
+      "title": "See and Fix the Flaws: Enabling VLMs and Diffusion Models to Comprehend Visual Artifacts via Agentic Data Synthesis",
+      "authors": [
+        "Jaehyun Park",
+        "Minyoung Ahn",
+        "Minkyu Kim",
+        "Jonghyun Lee",
+        "Jae-Gil Lee",
+        "Dongmin Park"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/krafton-ai/ArtiAgent",
+      "published": "2026-02-24T14:34:13.000Z"
+    },
+    {
+      "id": "2602.21201",
+      "title": "Aletheia tackles FirstProof autonomously",
+      "authors": [
+        "Tony Feng",
+        "Junehyuk Jung",
+        "Sang-hyun Kim",
+        "Carlo Pagano",
+        "Sergei Gukov",
+        "Chiang-Chiang Tsai",
+        "David Woodruff",
+        "Adel Javanmard",
+        "Aryan Mokhtari",
+        "Dawsen Hwang",
+        "Yuri Chervonyi",
+        "Jonathan N. Lee",
+        "Garrett Bingham",
+        "Trieu H. Trinh",
+        "Vahab Mirrokni",
+        "Quoc V. Le",
+        "Thang Luong"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2026-02-24T18:56:10.000Z"
+    },
+    {
+      "id": "2602.20424",
+      "title": "Implicit Intelligence -- Evaluating Agents on What Users Don't Say",
+      "authors": [
+        "Ved Sirdeshmukh",
+        "Marc Wetter"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2026-02-23T23:46:55.000Z"
+    },
+    {
+      "id": "2602.20792",
+      "title": "SIMSPINE: A Biomechanics-Aware Simulation Framework for 3D Spine Motion Annotation and Benchmarking",
+      "authors": [
+        "Muhammad Saif Ullah Khan",
+        "Didier Stricker"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/dfki-av/simspine",
+      "published": "2026-02-24T11:31:20.000Z"
+    },
+    {
+      "id": "2602.20731",
+      "title": "Communication-Inspired Tokenization for Structured Image Representations",
+      "authors": [
+        "Aram Davtyan",
+        "Yusuf Sahin",
+        "Yasaman Haghighi",
+        "Sebastian Stapf",
+        "Pablo Acuaviva",
+        "Alexandre Alahi",
+        "Paolo Favaro"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/araachie/comit",
+      "published": "2026-02-24T09:53:50.000Z"
+    },
+    {
+      "id": "2602.16813",
+      "title": "One-step Language Modeling via Continuous Denoising",
+      "authors": [
+        "Chanhyuk Lee",
+        "Jaehoon Yoo",
+        "Manan Agarwal",
+        "Sheel Shah",
+        "Jerry Huang",
+        "Aditi Raghunathan",
+        "Seunghoon Hong",
+        "Nicholas M. Boffi",
+        "Jinwoo Kim"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/david3684/flm",
+      "published": "2026-02-18T19:23:07.000Z"
+    },
+    {
+      "id": "2602.20540",
+      "title": "Generative AI and Machine Learning Collaboration for Container Dwell Time Prediction via Data Standardization",
+      "authors": [
+        "Minseop Kim",
+        "Takhyeong Kim",
+        "Taekhyun Park",
+        "Hanbyeol Park",
+        "Hyerim Bae"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-02-24T04:38:31.000Z"
+    },
+    {
+      "id": "2602.21185",
+      "title": "The Diffusion Duality, Chapter II: Ψ-Samplers and Efficient Curriculum",
+      "authors": [
+        "Justin Deschenaux",
+        "Caglar Gulcehre",
+        "Subham Sekhar Sahoo"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-02-24T18:35:22.000Z"
+    },
+    {
+      "id": "2602.21198",
+      "title": "Learning from Trials and Errors: Reflective Test-Time Planning for Embodied LLMs",
+      "authors": [
+        "Yining Hong",
+        "Huang Huang",
+        "Manling Li",
+        "Li Fei-Fei",
+        "Jiajun Wu",
+        "Yejin Choi"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/Reflective-Test-Time-Planning/Reflective-Test-Time-Planning",
+      "published": "2026-02-24T18:55:18.000Z"
+    },
+    {
+      "id": "2602.21053",
+      "title": "OCR-Agent: Agentic OCR with Capability and Memory Reflection",
+      "authors": [
+        "Shimin Wen",
+        "Zeyu Zhang",
+        "Xingdou Bian",
+        "Hongjie Zhu",
+        "Lulu He",
+        "Layi Shama",
+        "Daji Ergu",
+        "Ying Cai"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/AIGeeksGroup/OCR-Agent",
+      "published": "2026-02-24T16:10:27.000Z"
+    },
+    {
+      "id": "2602.19020",
+      "title": "Learning to Detect Language Model Training Data via Active Reconstruction",
+      "authors": [
+        "Junjie Oscar Yin",
+        "John X. Morris",
+        "Vitaly Shmatikov",
+        "Sewon Min",
+        "Hannaneh Hajishirzi"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/oseyosey/MIA-RL",
+      "published": "2026-02-22T03:20:06.000Z"
+    },
+    {
+      "id": "2602.20743",
+      "title": "Adaptive Text Anonymization: Learning Privacy-Utility Trade-offs via Prompt Optimization",
+      "authors": [
+        "Gabriel Loiseau",
+        "Damien Sileo",
+        "Damien Riquet",
+        "Maxime Meyer",
+        "Marc Tommasi"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2026-02-24T10:12:40.000Z"
+    },
+    {
+      "id": "2602.18735",
+      "title": "LaS-Comp: Zero-shot 3D Completion with Latent-Spatial Consistency",
+      "authors": [
+        "Weilong Yan",
+        "Haipeng Li",
+        "Hao Xu",
+        "Nianjin Ye",
+        "Yihao Ai",
+        "Shuaicheng Liu",
+        "Jingyu Hu"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/DavidYan2001/LaS-Comp",
+      "published": "2026-02-21T06:55:28.000Z"
+    },
+    {
+      "id": "2602.21042",
+      "title": "OmniOCR: Generalist OCR for Ethnic Minority Languages",
+      "authors": [
+        "Bonan Liu",
+        "Zeyu Zhang",
+        "Bingbing Meng",
+        "Han Wang",
+        "Hanshuo Zhang",
+        "Chengping Wang",
+        "Daji Ergu",
+        "Ying Cai"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/AIGeeksGroup/OmniOCR",
+      "published": "2026-02-24T16:02:49.000Z"
+    },
+    {
+      "id": "2602.20903",
+      "title": "TextPecker: Rewarding Structural Anomaly Quantification for Enhancing Visual Text Rendering",
+      "authors": [
+        "Hanshen Zhu",
+        "Yuliang Liu",
+        "Xuecheng Wu",
+        "An-Lan Wang",
+        "Hao Feng",
+        "Dingkang Yang",
+        "Chao Feng",
+        "Can Huang",
+        "Jingqun Tang",
+        "Xiang Bai"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/CIawevy/TextPecker",
+      "published": "2026-02-24T13:40:23.000Z"
+    },
+    {
+      "id": "2602.16603",
+      "title": "FlowPrefill: Decoupling Preemption from Prefill Scheduling Granularity to Mitigate Head-of-Line Blocking in LLM Serving",
+      "authors": [
+        "Chia-chi Hsieh",
+        "Zan Zong",
+        "Xinyang Chen",
+        "Jianjiang Li",
+        "Jidong Zhai",
+        "Lijie Wen"
+      ],
+      "upvotes": 0,
+      "github": "https://github.com/HSIEHCHIACHI/FlowPrefill",
+      "published": "2026-02-18T16:57:45.000Z"
+    }
+  ]
+}

@@ -1,0 +1,466 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-12-13",
+  "fetched_at": "2026-10-29T15:29:58.215Z",
+  "candidates": [
+    {
+      "id": "2412.08905",
+      "title": "Phi-4 Technical Report",
+      "authors": [
+        "Marah Abdin",
+        "Jyoti Aneja",
+        "Harkirat Behl",
+        "Sébastien Bubeck",
+        "Ronen Eldan",
+        "Suriya Gunasekar",
+        "Michael Harrison",
+        "Russell J. Hewett",
+        "Mojan Javaheripi",
+        "Piero Kauffmann",
+        "James R. Lee",
+        "Yin Tat Lee",
+        "Yuanzhi Li",
+        "Weishung Liu",
+        "Caio C. T. Mendes",
+        "Anh Nguyen",
+        "Eric Price",
+        "Gustavo de Rosa",
+        "Olli Saarikivi",
+        "Adil Salim",
+        "Shital Shah",
+        "Xin Wang",
+        "Rachel Ward",
+        "Yue Wu",
+        "Dingli Yu",
+        "Cyril Zhang",
+        "Yi Zhang"
+      ],
+      "upvotes": 122,
+      "github": null,
+      "published": "2024-12-12T03:37:41.000Z"
+    },
+    {
+      "id": "2412.09596",
+      "title": "InternLM-XComposer2.5-OmniLive: A Comprehensive Multimodal System for Long-term Streaming Video and Audio Interactions",
+      "authors": [
+        "Pan Zhang",
+        "Xiaoyi Dong",
+        "Yuhang Cao",
+        "Yuhang Zang",
+        "Rui Qian",
+        "Xilin Wei",
+        "Lin Chen",
+        "Yifei Li",
+        "Junbo Niu",
+        "Shuangrui Ding",
+        "Qipeng Guo",
+        "Haodong Duan",
+        "Xin Chen",
+        "Han Lv",
+        "Zheng Nie",
+        "Min Zhang",
+        "Bin Wang",
+        "Wenwei Zhang",
+        "Xinyue Zhang",
+        "Jiaye Ge",
+        "Wei Li",
+        "Jingwen Li",
+        "Zhongying Tu",
+        "Conghui He",
+        "Xingcheng Zhang",
+        "Kai Chen",
+        "Yu Qiao",
+        "Dahua Lin",
+        "Jiaqi Wang"
+      ],
+      "upvotes": 96,
+      "github": null,
+      "published": "2024-12-12T18:58:30.000Z"
+    },
+    {
+      "id": "2412.08737",
+      "title": "Euclid: Supercharging Multimodal LLMs with Synthetic High-Fidelity Visual Descriptions",
+      "authors": [
+        "Jiarui Zhang",
+        "Ollie Liu",
+        "Tianyu Yu",
+        "Jinyi Hu",
+        "Willie Neiswanger"
+      ],
+      "upvotes": 53,
+      "github": "https://github.com/euclid-multimodal/Euclid",
+      "published": "2024-12-11T19:12:13.000Z"
+    },
+    {
+      "id": "2412.08635",
+      "title": "Multimodal Latent Language Modeling with Next-Token Diffusion",
+      "authors": [
+        "Yutao Sun",
+        "Hangbo Bao",
+        "Wenhui Wang",
+        "Zhiliang Peng",
+        "Li Dong",
+        "Shaohan Huang",
+        "Jianyong Wang",
+        "Furu Wei"
+      ],
+      "upvotes": 49,
+      "github": null,
+      "published": "2024-12-11T18:57:32.000Z"
+    },
+    {
+      "id": "2412.09501",
+      "title": "Lyra: An Efficient and Speech-Centric Framework for Omni-Cognition",
+      "authors": [
+        "Zhisheng Zhong",
+        "Chengyao Wang",
+        "Yuqi Liu",
+        "Senqiao Yang",
+        "Longxiang Tang",
+        "Yuechen Zhang",
+        "Jingyao Li",
+        "Tianyuan Qu",
+        "Yanwei Li",
+        "Yukang Chen",
+        "Shaozuo Yu",
+        "Sitong Wu",
+        "Eric Lo",
+        "Shu Liu",
+        "Jiaya Jia"
+      ],
+      "upvotes": 48,
+      "github": "https://github.com/dvlab-research/Lyra",
+      "published": "2024-12-12T17:50:39.000Z"
+    },
+    {
+      "id": "2412.09619",
+      "title": "SnapGen: Taming High-Resolution Text-to-Image Models for Mobile Devices with Efficient Architectures and Training",
+      "authors": [
+        "Dongting Hu",
+        "Jierun Chen",
+        "Xijie Huang",
+        "Huseyin Coskun",
+        "Arpit Sahni",
+        "Aarush Gupta",
+        "Anujraaj Goyal",
+        "Dishani Lahiri",
+        "Rajesh Singh",
+        "Yerlan Idelbayev",
+        "Junli Cao",
+        "Yanyu Li",
+        "Kwang-Ting Cheng",
+        "S. -H. Gary Chan",
+        "Mingming Gong",
+        "Sergey Tulyakov",
+        "Anil Kag",
+        "Yanwu Xu",
+        "Jian Ren"
+      ],
+      "upvotes": 32,
+      "github": null,
+      "published": "2024-12-12T18:59:53.000Z"
+    },
+    {
+      "id": "2412.09605",
+      "title": "AgentTrek: Agent Trajectory Synthesis via Guiding Replay with Web Tutorials",
+      "authors": [
+        "Yiheng Xu",
+        "Dunjie Lu",
+        "Zhennan Shen",
+        "Junli Wang",
+        "Zekun Wang",
+        "Yuchen Mao",
+        "Caiming Xiong",
+        "Tao Yu"
+      ],
+      "upvotes": 31,
+      "github": null,
+      "published": "2024-12-12T18:59:27.000Z"
+    },
+    {
+      "id": "2412.09618",
+      "title": "EasyRef: Omni-Generalized Group Image Reference for Diffusion Models via Multimodal LLM",
+      "authors": [
+        "Zhuofan Zong",
+        "Dongzhi Jiang",
+        "Bingqi Ma",
+        "Guanglu Song",
+        "Hao Shao",
+        "Dazhong Shen",
+        "Yu Liu",
+        "Hongsheng Li"
+      ],
+      "upvotes": 21,
+      "github": null,
+      "published": "2024-12-12T18:59:48.000Z"
+    },
+    {
+      "id": "2412.09569",
+      "title": "JuStRank: Benchmarking LLM Judges for System Ranking",
+      "authors": [
+        "Ariel Gera",
+        "Odellia Boni",
+        "Yotam Perlitz",
+        "Roy Bar-Haim",
+        "Lilach Eden",
+        "Asaf Yehudai"
+      ],
+      "upvotes": 20,
+      "github": null,
+      "published": "2024-12-12T18:51:13.000Z"
+    },
+    {
+      "id": "2412.09593",
+      "title": "Neural LightRig: Unlocking Accurate Object Normal and Material Estimation with Multi-Light Diffusion",
+      "authors": [
+        "Zexin He",
+        "Tengfei Wang",
+        "Xin Huang",
+        "Xingang Pan",
+        "Ziwei Liu"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/ZexinHe/Neural-LightRig",
+      "published": "2024-12-12T18:58:09.000Z"
+    },
+    {
+      "id": "2412.05994",
+      "title": "PIG: Physics-Informed Gaussians as Adaptive Parametric Mesh Representations",
+      "authors": [
+        "Namgyu Kang",
+        "Jaemin Oh",
+        "Youngjoon Hong",
+        "Eunbyung Park"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/NamGyuKang/Physics-Informed-Gaussians",
+      "published": "2024-12-08T16:58:29.000Z"
+    },
+    {
+      "id": "2412.08687",
+      "title": "VisionArena: 230K Real World User-VLM Conversations with Preference Labels",
+      "authors": [
+        "Christopher Chou",
+        "Lisa Dunlap",
+        "Koki Mashita",
+        "Krishna Mandal",
+        "Trevor Darrell",
+        "Ion Stoica",
+        "Joseph E. Gonzalez",
+        "Wei-Lin Chiang"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2024-12-11T18:59:46.000Z"
+    },
+    {
+      "id": "2412.09013",
+      "title": "Arbitrary-steps Image Super-resolution via Diffusion Inversion",
+      "authors": [
+        "Zongsheng Yue",
+        "Kang Liao",
+        "Chen Change Loy"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/zsyoaoa/invsr",
+      "published": "2024-12-12T07:24:13.000Z"
+    },
+    {
+      "id": "2412.09405",
+      "title": "Learned Compression for Compressed Learning",
+      "authors": [
+        "Dan Jacobellis",
+        "Neeraja J. Yadwadkar"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/danjacobellis/walloc",
+      "published": "2024-12-12T16:09:57.000Z"
+    },
+    {
+      "id": "2412.08972",
+      "title": "RuleArena: A Benchmark for Rule-Guided Reasoning with LLMs in Real-World Scenarios",
+      "authors": [
+        "Ruiwen Zhou",
+        "Wenyue Hua",
+        "Liangming Pan",
+        "Sitao Cheng",
+        "Xiaobao Wu",
+        "En Yu",
+        "William Yang Wang"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/skyriver-2000/rulearena",
+      "published": "2024-12-12T06:08:46.000Z"
+    },
+    {
+      "id": "2412.06329",
+      "title": "Normalizing Flows are Capable Generative Models",
+      "authors": [
+        "Shuangfei Zhai",
+        "Ruixiang Zhang",
+        "Preetum Nakkiran",
+        "David Berthelot",
+        "Jiatao Gu",
+        "Huangjie Zheng",
+        "Tianrong Chen",
+        "Miguel Angel Bautista",
+        "Navdeep Jaitly",
+        "Josh Susskind"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/MindSpore-scientific-2/code-10",
+      "published": "2024-12-09T09:28:06.000Z"
+    },
+    {
+      "id": "2412.09585",
+      "title": "OLA-VLM: Elevating Visual Perception in Multimodal LLMs with Auxiliary Embedding Distillation",
+      "authors": [
+        "Jitesh Jain",
+        "Zhengyuan Yang",
+        "Humphrey Shi",
+        "Jianfeng Gao",
+        "Jianwei Yang"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/shi-labs/ola-vlm",
+      "published": "2024-12-12T18:55:18.000Z"
+    },
+    {
+      "id": "2412.09370",
+      "title": "Word Sense Linking: Disambiguating Outside the Sandbox",
+      "authors": [
+        "Andrei Stefan Bejgu",
+        "Edoardo Barba",
+        "Luigi Procopio",
+        "Alberte Fernández-Castro",
+        "Roberto Navigli"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/Babelscape/WSL",
+      "published": "2024-12-12T15:38:34.000Z"
+    },
+    {
+      "id": "2412.09349",
+      "title": "DisPose: Disentangling Pose Guidance for Controllable Human Image Animation",
+      "authors": [
+        "Hongxiang Li",
+        "Yaowei Li",
+        "Yuhang Yang",
+        "Junjie Cao",
+        "Zhihong Zhu",
+        "Xuxin Cheng",
+        "Long Chen"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/lihxxx/dispose",
+      "published": "2024-12-12T15:15:59.000Z"
+    },
+    {
+      "id": "2412.09460",
+      "title": "The Impact of Copyrighted Material on Large Language Models: A Norwegian Perspective",
+      "authors": [
+        "Javier de la Rosa",
+        "Vladislav Mikhailov",
+        "Lemei Zhang",
+        "Freddy Wetjen",
+        "David Samuel",
+        "Peng Liu",
+        "Rolv-Arild Braaten",
+        "Petter Mæhlum",
+        "Magnus Breder Birkenes",
+        "Andrey Kutuzov",
+        "Tita Enstad",
+        "Svein Arne Brygfjeld",
+        "Jon Atle Gulla",
+        "Stephan Oepen",
+        "Erik Velldal",
+        "Wilfred Østgulen",
+        "Liljia Øvrelid",
+        "Aslak Sira Myhre"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2024-12-12T17:11:22.000Z"
+    },
+    {
+      "id": "2412.09573",
+      "title": "FreeSplatter: Pose-free Gaussian Splatting for Sparse-view 3D Reconstruction",
+      "authors": [
+        "Jiale Xu",
+        "Shenghua Gao",
+        "Ying Shan"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/TencentARC/FreeSplatter",
+      "published": "2024-12-12T18:52:53.000Z"
+    },
+    {
+      "id": "2412.09622",
+      "title": "LoRACLR: Contrastive Adaptation for Customization of Diffusion Models",
+      "authors": [
+        "Enis Simsar",
+        "Thomas Hofmann",
+        "Federico Tombari",
+        "Pinar Yanardag"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2024-12-12T18:59:55.000Z"
+    },
+    {
+      "id": "2412.09586",
+      "title": "Gaze-LLE: Gaze Target Estimation via Large-Scale Learned Encoders",
+      "authors": [
+        "Fiona Ryan",
+        "Ajay Bati",
+        "Sangmin Lee",
+        "Daniel Bolya",
+        "Judy Hoffman",
+        "James M. Rehg"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2024-12-12T18:55:30.000Z"
+    },
+    {
+      "id": "2412.06745",
+      "title": "ONEBench to Test Them All: Sample-Level Benchmarking Over Open-Ended Capabilities",
+      "authors": [
+        "Adhiraj Ghosh",
+        "Sebastian Dziadzio",
+        "Ameya Prabhu",
+        "Vishaal Udandarao",
+        "Samuel Albanie",
+        "Matthias Bethge"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2024-12-09T18:37:14.000Z"
+    },
+    {
+      "id": "2412.05552",
+      "title": "SAME: Learning Generic Language-Guided Visual Navigation with State-Adaptive Mixture of Experts",
+      "authors": [
+        "Gengze Zhou",
+        "Yicong Hong",
+        "Zun Wang",
+        "Chongyang Zhao",
+        "Mohit Bansal",
+        "Qi Wu"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/gengzezhou/same",
+      "published": "2024-12-07T06:12:53.000Z"
+    },
+    {
+      "id": "2412.09025",
+      "title": "Shiksha: A Technical Domain focused Translation Dataset and Model for Indian Languages",
+      "authors": [
+        "Advait Joglekar",
+        "Srinivasan Umesh"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2024-12-12T07:40:55.000Z"
+    }
+  ]
+}

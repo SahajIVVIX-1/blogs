@@ -1,0 +1,394 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-12-08",
+  "fetched_at": "2026-10-29T15:34:01.873Z",
+  "candidates": [
+    {
+      "id": "2512.05150",
+      "title": "TwinFlow: Realizing One-step Generation on Large Models with Self-adversarial Flows",
+      "authors": [
+        "Zhenglin Cheng",
+        "Peng Sun",
+        "Jianguo Li",
+        "Tao Lin"
+      ],
+      "upvotes": 76,
+      "github": "https://github.com/inclusionAI/TwinFlow",
+      "published": "2025-12-03T07:45:46.000Z"
+    },
+    {
+      "id": "2512.05965",
+      "title": "EditThinker: Unlocking Iterative Reasoning for Any Image Editor",
+      "authors": [
+        "Hongyu Li",
+        "Manyuan Zhang",
+        "Dian Zheng",
+        "Ziyu Guo",
+        "Yimeng Jia",
+        "Kaituo Feng",
+        "Hao Yu",
+        "Yexin Liu",
+        "Yan Feng",
+        "Peng Pei",
+        "Xunliang Cai",
+        "Linjiang Huang",
+        "Hongsheng Li",
+        "Si Liu"
+      ],
+      "upvotes": 38,
+      "github": "https://github.com/appletea233/EditThinker",
+      "published": "2025-12-05T18:58:09.000Z"
+    },
+    {
+      "id": "2512.00473",
+      "title": "RealGen: Photorealistic Text-to-Image Generation via Detector-Guided Rewards",
+      "authors": [
+        "Junyan Ye",
+        "Leiqi Zhu",
+        "Yuncheng Guo",
+        "Dongzhi Jiang",
+        "Zilong Huang",
+        "Yifan Zhang",
+        "Zhiyuan Yan",
+        "Haohuan Fu",
+        "Conghui He",
+        "Weijia Li"
+      ],
+      "upvotes": 28,
+      "github": "https://github.com/yejy53/RealGen",
+      "published": "2025-11-29T12:52:26.000Z"
+    },
+    {
+      "id": "2512.02580",
+      "title": "From Imitation to Discrimination: Toward A Generalized Curriculum Advantage Mechanism Enhancing Cross-Domain Reasoning Tasks",
+      "authors": [
+        "Changpeng Yang",
+        "Jinyang Wu",
+        "Yuchen Liu",
+        "Shuai Zhang",
+        "Yang Li",
+        "Qiliang Liang",
+        "Hongzhen Wang",
+        "Shuai Nie",
+        "Jiaming Xu",
+        "Runyu Shi",
+        "Ying Huang",
+        "Guoquan Zhang"
+      ],
+      "upvotes": 28,
+      "github": null,
+      "published": "2025-12-02T09:48:57.000Z"
+    },
+    {
+      "id": "2512.04784",
+      "title": "PaCo-RL: Advancing Reinforcement Learning for Consistent Image Generation with Pairwise Reward Modeling",
+      "authors": [
+        "Bowen Ping",
+        "Chengyou Jia",
+        "Minnan Luo",
+        "Changliang Xia",
+        "Xin Shen",
+        "Zhuohang Dang",
+        "Hangwei Qian"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/X-GenGroup/PaCo-RL",
+      "published": "2025-12-02T13:39:03.000Z"
+    },
+    {
+      "id": "2512.05343",
+      "title": "SpaceControl: Introducing Test-Time Spatial Control to 3D Generative Modeling",
+      "authors": [
+        "Elisabetta Fedele",
+        "Francis Engelmann",
+        "Ian Huang",
+        "Or Litany",
+        "Marc Pollefeys",
+        "Leonidas Guibas"
+      ],
+      "upvotes": 25,
+      "github": null,
+      "published": "2025-12-05T00:54:48.000Z"
+    },
+    {
+      "id": "2512.05905",
+      "title": "SCAIL: Towards Studio-Grade Character Animation via In-Context Learning of 3D-Consistent Pose Representations",
+      "authors": [
+        "Wenhao Yan",
+        "Sheng Ye",
+        "Zhuoyi Yang",
+        "Jiayan Teng",
+        "ZhenHui Dong",
+        "Kairui Wen",
+        "Xiaotao Gu",
+        "Yong-Jin Liu",
+        "Jie Tang"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/teal024/SCAIL-Official",
+      "published": "2025-12-05T17:38:55.000Z"
+    },
+    {
+      "id": "2512.05145",
+      "title": "Self-Improving VLM Judges Without Human Annotations",
+      "authors": [
+        "Inna Wanyin Lin",
+        "Yushi Hu",
+        "Shuyue Stella Li",
+        "Scott Geng",
+        "Pang Wei Koh",
+        "Luke Zettlemoyer",
+        "Tim Althoff",
+        "Marjan Ghazvininejad"
+      ],
+      "upvotes": 21,
+      "github": null,
+      "published": "2025-12-02T20:52:19.000Z"
+    },
+    {
+      "id": "2512.05591",
+      "title": "Entropy Ratio Clipping as a Soft Global Constraint for Stable Reinforcement Learning",
+      "authors": [
+        "Zhenpeng Su",
+        "Leiyu Pan",
+        "Minxuan Lv",
+        "Tiehua Mei",
+        "Zijia Lin",
+        "Yuntao Li",
+        "Wenping Hu",
+        "Ruiming Tang",
+        "Kun Gai",
+        "Guorui Zhou"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2025-12-05T10:26:32.000Z"
+    },
+    {
+      "id": "2512.05044",
+      "title": "Joint 3D Geometry Reconstruction and Motion Generation for 4D Synthesis from a Single Image",
+      "authors": [
+        "Yanran Zhang",
+        "Ziyi Wang",
+        "Wenzhao Zheng",
+        "Zheng Zhu",
+        "Jie Zhou",
+        "Jiwen Lu"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/Zhangyr2022/MoRe4D",
+      "published": "2025-12-04T17:59:10.000Z"
+    },
+    {
+      "id": "2512.04563",
+      "title": "COOPER: A Unified Model for Cooperative Perception and Reasoning in Spatial Intelligence",
+      "authors": [
+        "Zefeng Zhang",
+        "Xiangzhao Hao",
+        "Hengzhu Tang",
+        "Zhenyu Zhang",
+        "Jiawei Sheng",
+        "Xiaodong Li",
+        "Zhenyang Li",
+        "Li Gao",
+        "Daiting Shi",
+        "Dawei Yin",
+        "Tingwen Liu"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/zhangzef/COOPER",
+      "published": "2025-12-04T08:26:04.000Z"
+    },
+    {
+      "id": "2512.05927",
+      "title": "World Models That Know When They Don't Know: Controllable Video Generation with Calibrated Uncertainty",
+      "authors": [
+        "Zhiting Mei",
+        "Tenny Yin",
+        "Micah Baker",
+        "Ola Shorinwa",
+        "Anirudha Majumdar"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/irom-princeton/c-cubed",
+      "published": "2025-12-05T18:06:18.000Z"
+    },
+    {
+      "id": "2512.03514",
+      "title": "M3DR: Towards Universal Multilingual Multimodal Document Retrieval",
+      "authors": [
+        "Adithya S Kolavi",
+        "Vyoman Jain"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/adithya-s-k/colpali",
+      "published": "2025-12-03T07:17:59.000Z"
+    },
+    {
+      "id": "2512.05356",
+      "title": "AI & Human Co-Improvement for Safer Co-Superintelligence",
+      "authors": [
+        "Jason Weston",
+        "Jakob Foerster"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2025-12-05T01:50:23.000Z"
+    },
+    {
+      "id": "2512.02835",
+      "title": "ReVSeg: Incentivizing the Reasoning Chain for Video Segmentation with Reinforcement Learning",
+      "authors": [
+        "Yifan Li",
+        "Yingda Yin",
+        "Lingting Zhu",
+        "Weikai Chen",
+        "Shengju Qian",
+        "Xin Wang",
+        "Yanwei Fu"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/Clementine24/ReVSeg",
+      "published": "2025-12-02T14:44:12.000Z"
+    },
+    {
+      "id": "2512.04810",
+      "title": "EMMA: Efficient Multimodal Understanding, Generation, and Editing with a Unified Architecture",
+      "authors": [
+        "Xin He",
+        "Longhui Wei",
+        "Jianbo Ouyang",
+        "Lingxi Xie",
+        "Qi Tian"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/umm-emma/emma",
+      "published": "2025-12-04T14:01:53.000Z"
+    },
+    {
+      "id": "2512.05774",
+      "title": "Active Video Perception: Iterative Evidence Seeking for Agentic Long Video Understanding",
+      "authors": [
+        "Ziyang Wang",
+        "Honglu Zhou",
+        "Shijie Wang",
+        "Junnan Li",
+        "Caiming Xiong",
+        "Silvio Savarese",
+        "Mohit Bansal",
+        "Michael S. Ryoo",
+        "Juan Carlos Niebles"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2025-12-05T15:03:48.000Z"
+    },
+    {
+      "id": "2512.03667",
+      "title": "Colon-X: Advancing Intelligent Colonoscopy from Multimodal Understanding to Clinical Reasoning",
+      "authors": [
+        "Ge-Peng Ji",
+        "Jingyi Liu",
+        "Deng-Ping Fan",
+        "Nick Barnes"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/ai4colonoscopy/Colon-X",
+      "published": "2025-12-03T10:55:07.000Z"
+    },
+    {
+      "id": "2512.05277",
+      "title": "From Segments to Scenes: Temporal Understanding in Autonomous Driving via Vision-Language Model",
+      "authors": [
+        "Kevin Cannons",
+        "Saeed Ranjbar Alvar",
+        "Mohammad Asiful Hossain",
+        "Ahmad Rezaei",
+        "Mohsen Gholami",
+        "Alireza Heidarikhazaei",
+        "Zhou Weimin",
+        "Yong Zhang",
+        "Mohammad Akbari"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/vbdi/tad_bench",
+      "published": "2025-12-04T21:57:10.000Z"
+    },
+    {
+      "id": "2512.05564",
+      "title": "ProPhy: Progressive Physical Alignment for Dynamic World Simulation",
+      "authors": [
+        "Zijun Wang",
+        "Panwen Hu",
+        "Jing Wang",
+        "Terry Jingchen Zhang",
+        "Yuhao Cheng",
+        "Long Chen",
+        "Yiqiang Yan",
+        "Zutao Jiang",
+        "Hanhui Li",
+        "Xiaodan Liang"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2025-12-05T09:39:26.000Z"
+    },
+    {
+      "id": "2512.05409",
+      "title": "SQ-format: A Unified Sparse-Quantized Hardware-friendly Data Format for LLMs",
+      "authors": [
+        "Ruixuan Huang",
+        "Hao Zeng",
+        "Hantao Huang",
+        "Jinyuan Shi",
+        "Minghui Yu",
+        "Ian En-Hsu Yen",
+        "Shuai Wang"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-12-05T03:58:04.000Z"
+    },
+    {
+      "id": "2512.04694",
+      "title": "TimesNet-Gen: Deep Learning-based Site Specific Strong Motion Generation",
+      "authors": [
+        "Baris Yilmaz",
+        "Bevan Deniz Cilgin",
+        "Erdem Akagündüz",
+        "Salih Tileylioglu"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/brsylmz23/TimesNet-Gen",
+      "published": "2025-12-04T11:44:13.000Z"
+    },
+    {
+      "id": "2512.04142",
+      "title": "From FLOPs to Footprints: The Resource Cost of Artificial Intelligence",
+      "authors": [
+        "Sophia Falk",
+        "Nicholas Kluge Corrêa",
+        "Sasha Luccioni",
+        "Lisa Biber-Freudenberger",
+        "Aimee van Wynsberghe"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2025-12-03T17:01:46.000Z"
+    },
+    {
+      "id": "2512.05339",
+      "title": "Taxonomy-Adaptive Moderation Model with Robust Guardrails for Large Language Models",
+      "authors": [
+        "Mahesh Kumar Nandwana",
+        "Youngwan Lim",
+        "Joseph Liu",
+        "Alex Yang",
+        "Varun Notibala",
+        "Nishchaie Khanna"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/Roblox/RobloxGuard-1.0",
+      "published": "2025-12-05T00:43:55.000Z"
+    }
+  ]
+}

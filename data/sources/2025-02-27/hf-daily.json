@@ -1,0 +1,473 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-02-27",
+  "fetched_at": "2026-10-29T15:30:44.332Z",
+  "candidates": [
+    {
+      "id": "2502.18417",
+      "title": "GHOST 2.0: generative high-fidelity one shot transfer of heads",
+      "authors": [
+        "Alexander Groshev",
+        "Anastasiia Iashchenko",
+        "Pavel Paramonov",
+        "Denis Dimitrov",
+        "Andrey Kuznetsov"
+      ],
+      "upvotes": 67,
+      "github": null,
+      "published": "2025-02-25T18:13:55.000Z"
+    },
+    {
+      "id": "2502.18934",
+      "title": "Kanana: Compute-efficient Bilingual Language Models",
+      "authors": [
+        "Kanana LLM Team",
+        "Yunju Bak",
+        "Hojin Lee",
+        "Minho Ryu",
+        "Jiyeon Ham",
+        "Seungjae Jung",
+        "Daniel Wontae Nam",
+        "Taegyeong Eo",
+        "Donghun Lee",
+        "Doohae Jung",
+        "Boseop Kim",
+        "Nayeon Kim",
+        "Jaesun Park",
+        "Hyunho Kim",
+        "Hyunwoong Ko",
+        "Changmin Lee",
+        "Kyoung-Woon On",
+        "Seulye Baeg",
+        "Junrae Cho",
+        "Sunghee Jung",
+        "Jieun Kang",
+        "EungGyun Kim",
+        "Eunhwa Kim",
+        "Byeongil Ko",
+        "Daniel Lee",
+        "Minchul Lee",
+        "Miok Lee",
+        "Shinbok Lee",
+        "Gaeun Seo"
+      ],
+      "upvotes": 65,
+      "github": "https://github.com/kakao/kanana",
+      "published": "2025-02-26T08:36:20.000Z"
+    },
+    {
+      "id": "2502.18864",
+      "title": "Towards an AI co-scientist",
+      "authors": [
+        "Juraj Gottweis",
+        "Wei-Hung Weng",
+        "Alexander Daryin",
+        "Tao Tu",
+        "Anil Palepu",
+        "Petar Sirkovic",
+        "Artiom Myaskovsky",
+        "Felix Weissenberger",
+        "Keran Rong",
+        "Ryutaro Tanno",
+        "Khaled Saab",
+        "Dan Popovici",
+        "Jacob Blum",
+        "Fan Zhang",
+        "Katherine Chou",
+        "Avinatan Hassidim",
+        "Burak Gokturk",
+        "Amin Vahdat",
+        "Pushmeet Kohli",
+        "Yossi Matias",
+        "Andrew Carroll",
+        "Kavita Kulkarni",
+        "Nenad Tomasev",
+        "Yuan Guan",
+        "Vikram Dhillon",
+        "Eeshit Dhaval Vaishnav",
+        "Byron Lee",
+        "Tiago R D Costa",
+        "José R Penadés",
+        "Gary Peltz",
+        "Yunhan Xu",
+        "Annalisa Pawlosky",
+        "Alan Karthikesalingam",
+        "Vivek Natarajan"
+      ],
+      "upvotes": 53,
+      "github": null,
+      "published": "2025-02-26T06:17:13.000Z"
+    },
+    {
+      "id": "2502.19400",
+      "title": "TheoremExplainAgent: Towards Multimodal Explanations for LLM Theorem Understanding",
+      "authors": [
+        "Max Ku",
+        "Thomas Chong",
+        "Jonathan Leung",
+        "Krish Shah",
+        "Alvin Yu",
+        "Wenhu Chen"
+      ],
+      "upvotes": 47,
+      "github": "https://github.com/TIGER-AI-Lab/TheoremExplainAgent",
+      "published": "2025-02-26T18:50:09.000Z"
+    },
+    {
+      "id": "2502.17955",
+      "title": "Language Models' Factuality Depends on the Language of Inquiry",
+      "authors": [
+        "Tushar Aggarwal",
+        "Kumar Tanmay",
+        "Ayush Agrawal",
+        "Kumar Ayush",
+        "Hamid Palangi",
+        "Paul Pu Liang"
+      ],
+      "upvotes": 32,
+      "github": "https://github.com/kmrtanmay/X_FaKT",
+      "published": "2025-02-25T08:27:18.000Z"
+    },
+    {
+      "id": "2502.18772",
+      "title": "Plutus: Benchmarking Large Language Models in Low-Resource Greek Finance",
+      "authors": [
+        "Xueqing Peng",
+        "Triantafillos Papadopoulos",
+        "Efstathia Soufleri",
+        "Polydoros Giannouris",
+        "Ruoyu Xiang",
+        "Yan Wang",
+        "Lingfei Qian",
+        "Jimin Huang",
+        "Qianqian Xie",
+        "Sophia Ananiadou"
+      ],
+      "upvotes": 32,
+      "github": null,
+      "published": "2025-02-26T03:04:01.000Z"
+    },
+    {
+      "id": "2502.18418",
+      "title": "Rank1: Test-Time Compute for Reranking in Information Retrieval",
+      "authors": [
+        "Orion Weller",
+        "Kathryn Ricci",
+        "Eugene Yang",
+        "Andrew Yates",
+        "Dawn Lawrie",
+        "Benjamin Van Durme"
+      ],
+      "upvotes": 28,
+      "github": "https://github.com/orionw/rank1",
+      "published": "2025-02-25T18:14:06.000Z"
+    },
+    {
+      "id": "2502.19361",
+      "title": "Can Large Language Models Detect Errors in Long Chain-of-Thought Reasoning?",
+      "authors": [
+        "Yancheng He",
+        "Shilong Li",
+        "Jiaheng Liu",
+        "Weixun Wang",
+        "Xingyuan Bu",
+        "Ge Zhang",
+        "Zhongyuan Peng",
+        "Zhaoxiang Zhang",
+        "Wenbo Su",
+        "Bo Zheng"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/openstellarteam/deltabench",
+      "published": "2025-02-26T17:59:27.000Z"
+    },
+    {
+      "id": "2502.19413",
+      "title": "Project Alexandria: Towards Freeing Scientific Knowledge from Copyright Burdens via LLMs",
+      "authors": [
+        "Christoph Schuhmann",
+        "Gollam Rabby",
+        "Ameya Prabhu",
+        "Tawsif Ahmed",
+        "Andreas Hochlehnert",
+        "Huu Nguyen",
+        "Nick Akinci Heidrich",
+        "Ludwig Schmidt",
+        "Robert Kaczmarczyk",
+        "Sören Auer",
+        "Jenia Jitsev",
+        "Matthias Bethge"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/laion-ai/project-alexandria",
+      "published": "2025-02-26T18:56:52.000Z"
+    },
+    {
+      "id": "2502.19328",
+      "title": "Agentic Reward Modeling: Integrating Human Preferences with Verifiable Correctness Signals for Reliable Reward Systems",
+      "authors": [
+        "Hao Peng",
+        "Yunjia Qi",
+        "Xiaozhi Wang",
+        "Zijun Yao",
+        "Bin Xu",
+        "Lei Hou",
+        "Juanzi Li"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/THU-KEG/Agentic-Reward-Modeling",
+      "published": "2025-02-26T17:19:12.000Z"
+    },
+    {
+      "id": "2502.19414",
+      "title": "Can Language Models Falsify? Evaluating Algorithmic Reasoning with Counterexample Creation",
+      "authors": [
+        "Shiven Sinha",
+        "Shashwat Goel",
+        "Ponnurangam Kumaraguru",
+        "Jonas Geiping",
+        "Matthias Bethge",
+        "Ameya Prabhu"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/falsifiers/REFUTE",
+      "published": "2025-02-26T18:58:13.000Z"
+    },
+    {
+      "id": "2502.18906",
+      "title": "VEM: Environment-Free Exploration for Training GUI Agent with Value Environment Model",
+      "authors": [
+        "Jiani Zheng",
+        "Lu Wang",
+        "Fangkai Yang",
+        "Chaoyun Zhang",
+        "Lingrui Mei",
+        "Wenjie Yin",
+        "Qingwei Lin",
+        "Dongmei Zhang",
+        "Saravan Rajmohan",
+        "Qi Zhang"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/microsoft/gui-agent-rl",
+      "published": "2025-02-26T07:52:02.000Z"
+    },
+    {
+      "id": "2502.19187",
+      "title": "BIG-Bench Extra Hard",
+      "authors": [
+        "Mehran Kazemi",
+        "Bahare Fatemi",
+        "Hritik Bansal",
+        "John Palowitch",
+        "Chrysovalantis Anastasiou",
+        "Sanket Vaibhav Mehta",
+        "Lalit K. Jain",
+        "Virginia Aglietti",
+        "Disha Jindal",
+        "Peter Chen",
+        "Nishanth Dikkala",
+        "Gladys Tyen",
+        "Xin Liu",
+        "Uri Shalit",
+        "Silvia Chiappa",
+        "Kate Olszewska",
+        "Yi Tay",
+        "Vinh Q. Tran",
+        "Quoc V. Le",
+        "Orhan Firat"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/google-deepmind/bbeh",
+      "published": "2025-02-26T14:50:50.000Z"
+    },
+    {
+      "id": "2502.19279",
+      "title": "CritiQ: Mining Data Quality Criteria from Human Preferences",
+      "authors": [
+        "Honglin Guo",
+        "Kai Lv",
+        "Qipeng Guo",
+        "Tianyi Liang",
+        "Zhiheng Xi",
+        "Demin Song",
+        "Qiuyinzhe Zhang",
+        "Yu Sun",
+        "Kai Chen",
+        "Xipeng Qiu",
+        "Tao Gui"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/KYLN24/CritiQ",
+      "published": "2025-02-26T16:33:41.000Z"
+    },
+    {
+      "id": "2502.19204",
+      "title": "Distill Any Depth: Distillation Creates a Stronger Monocular Depth Estimator",
+      "authors": [
+        "Xiankang He",
+        "Dongyan Guo",
+        "Hongji Li",
+        "Ruibo Li",
+        "Ying Cui",
+        "Chi Zhang"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/Westlake-AGI-Lab/Distill-Any-Depth",
+      "published": "2025-02-26T15:10:05.000Z"
+    },
+    {
+      "id": "2502.19870",
+      "title": "MMKE-Bench: A Multimodal Editing Benchmark for Diverse Visual Knowledge",
+      "authors": [
+        "Yuntao Du",
+        "Kailin Jiang",
+        "Zhi Gao",
+        "Chenrui Shi",
+        "Zilong Zheng",
+        "Siyuan Qi",
+        "Qing Li"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/MMKE-Bench-ICLR/MMKE-Bench",
+      "published": "2025-02-27T08:21:28.000Z"
+    },
+    {
+      "id": "2502.19312",
+      "title": "FSPO: Few-Shot Preference Optimization of Synthetic Preference Data in LLMs Elicits Effective Personalization to Real Users",
+      "authors": [
+        "Anikait Singh",
+        "Sheryl Hsu",
+        "Kyle Hsu",
+        "Eric Mitchell",
+        "Stefano Ermon",
+        "Tatsunori Hashimoto",
+        "Archit Sharma",
+        "Chelsea Finn"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/Asap7772/fewshot-preference-optimization",
+      "published": "2025-02-26T17:08:46.000Z"
+    },
+    {
+      "id": "2502.16284",
+      "title": "MolSpectra: Pre-training 3D Molecular Representation with Multi-modal Energy Spectra",
+      "authors": [
+        "Liang Wang",
+        "Shaozhen Liu",
+        "Yu Rong",
+        "Deli Zhao",
+        "Qiang Liu",
+        "Shu Wu",
+        "Liang Wang"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/azureleon1/molspectra",
+      "published": "2025-02-22T16:34:32.000Z"
+    },
+    {
+      "id": "2502.20311",
+      "title": "Adapting Automatic Speech Recognition for Accented Air Traffic Control Communications",
+      "authors": [
+        "Marcus Yu Zhe Wee",
+        "Justin Juin Hng Wong",
+        "Lynus Lim",
+        "Joe Yu Wei Tan",
+        "Prannaya Gupta",
+        "Dillion Lim",
+        "En Hao Tew",
+        "Aloysius Keng Siew Han",
+        "Yong Zhi Lim"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-02-27T17:35:59.000Z"
+    },
+    {
+      "id": "2502.19261",
+      "title": "Drop-Upcycling: Training Sparse Mixture of Experts with Partial Re-initialization",
+      "authors": [
+        "Taishi Nakamura",
+        "Takuya Akiba",
+        "Kazuki Fujii",
+        "Yusuke Oda",
+        "Rio Yokota",
+        "Jun Suzuki"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/Taishi-N324/Drop-Upcycling",
+      "published": "2025-02-26T16:06:36.000Z"
+    },
+    {
+      "id": "2502.16776",
+      "title": "AISafetyLab: A Comprehensive Framework for AI Safety Evaluation and Improvement",
+      "authors": [
+        "Zhexin Zhang",
+        "Leqi Lei",
+        "Junxiao Yang",
+        "Xijie Huang",
+        "Yida Lu",
+        "Shiyao Cui",
+        "Renmiao Chen",
+        "Qinglin Zhang",
+        "Xinyuan Wang",
+        "Hao Wang",
+        "Hao Li",
+        "Xianqi Lei",
+        "Chengwei Pan",
+        "Lei Sha",
+        "Hongning Wang",
+        "Minlie Huang"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/thu-coai/AISafetyLab",
+      "published": "2025-02-24T02:11:52.000Z"
+    },
+    {
+      "id": "2502.18779",
+      "title": "Towards Optimal Multi-draft Speculative Decoding",
+      "authors": [
+        "Zhengmian Hu",
+        "Tong Zheng",
+        "Vignesh Viswanathan",
+        "Ziyi Chen",
+        "Ryan A. Rossi",
+        "Yihan Wu",
+        "Dinesh Manocha",
+        "Heng Huang"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-02-26T03:22:44.000Z"
+    },
+    {
+      "id": "2502.17540",
+      "title": "PosterSum: A Multimodal Benchmark for Scientific Poster Summarization",
+      "authors": [
+        "Rohit Saxena",
+        "Pasquale Minervini",
+        "Frank Keller"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/saxenarohit/postersum",
+      "published": "2025-02-24T18:35:39.000Z"
+    },
+    {
+      "id": "2502.15885",
+      "title": "DOEI: Dual Optimization of Embedding Information for Attention-Enhanced Class Activation Maps",
+      "authors": [
+        "Hongjie Zhu",
+        "Zeyu Zhang",
+        "Guansong Pang",
+        "Xu Wang",
+        "Shimin Wen",
+        "Yu Bai",
+        "Daji Ergu",
+        "Ying Cai",
+        "Yang Zhao"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/AIGeeksGroup/DOEI",
+      "published": "2025-02-21T19:06:01.000Z"
+    }
+  ]
+}

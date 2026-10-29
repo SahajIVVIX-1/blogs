@@ -1,0 +1,312 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-03-30",
+  "fetched_at": "2026-10-29T15:35:09.661Z",
+  "candidates": [
+    {
+      "id": "2603.25716",
+      "title": "Out of Sight but Not Out of Mind: Hybrid Memory for Dynamic Video World Models",
+      "authors": [
+        "Kaijin Chen",
+        "Dingkang Liang",
+        "Xin Zhou",
+        "Yikang Ding",
+        "Xiaoqiang Liu",
+        "Pengfei Wan",
+        "Xiang Bai"
+      ],
+      "upvotes": 74,
+      "github": "https://github.com/H-EmbodVis/HyDRA",
+      "published": "2026-03-26T17:56:01.000Z"
+    },
+    {
+      "id": "2603.25158",
+      "title": "Trace2Skill: Distill Trajectory-Local Lessons into Transferable Agent Skills",
+      "authors": [
+        "Jingwei Ni",
+        "Yihao Liu",
+        "Xinpeng Liu",
+        "Yutao Sun",
+        "Mengyu Zhou",
+        "Pengyu Cheng",
+        "Dexin Wang",
+        "Xiaoxi Jiang",
+        "Guanjun Jiang"
+      ],
+      "upvotes": 50,
+      "github": null,
+      "published": "2026-03-26T08:26:38.000Z"
+    },
+    {
+      "id": "2603.25730",
+      "title": "PackForcing: Short Video Training Suffices for Long Video Sampling and Long Context Inference",
+      "authors": [
+        "Xiaofeng Mao",
+        "Shaohao Rui",
+        "Kaining Ying",
+        "Bo Zheng",
+        "Chuanhao Li",
+        "Mingmin Chi",
+        "Kaipeng Zhang"
+      ],
+      "upvotes": 49,
+      "github": "https://github.com/ShandaAI/PackForcing",
+      "published": "2026-03-26T17:59:05.000Z"
+    },
+    {
+      "id": "2603.25750",
+      "title": "Sommelier: Scalable Open Multi-turn Audio Pre-processing for Full-duplex Speech Language Models",
+      "authors": [
+        "Kyudan Jung",
+        "Jihwan Kim",
+        "Soyoon Kim",
+        "Jeongoon Kim",
+        "Jaegul Choo",
+        "Cheonbok Park"
+      ],
+      "upvotes": 33,
+      "github": "https://github.com/naver-ai/sommelier",
+      "published": "2026-03-20T09:10:43.000Z"
+    },
+    {
+      "id": "2603.25746",
+      "title": "ShotStream: Streaming Multi-Shot Video Generation for Interactive Storytelling",
+      "authors": [
+        "Yawen Luo",
+        "Xiaoyu Shi",
+        "Junhao Zhuang",
+        "Yutian Chen",
+        "Quande Liu",
+        "Xintao Wang",
+        "Pengfei Wan",
+        "Tianfan Xue"
+      ],
+      "upvotes": 32,
+      "github": "https://github.com/KlingAIResearch/ShotStream",
+      "published": "2026-03-26T17:59:59.000Z"
+    },
+    {
+      "id": "2603.24649",
+      "title": "MedOpenClaw: Auditable Medical Imaging Agents Reasoning over Uncurated Full Studies",
+      "authors": [
+        "Weixiang Shen",
+        "Yanzhu Hu",
+        "Che Liu",
+        "Junde Wu",
+        "Jiayuan Zhu",
+        "Chengzhi Shen",
+        "Min Xu",
+        "Yueming Jin",
+        "Benedikt Wiestler",
+        "Daniel Rueckert",
+        "Jiazhen Pan"
+      ],
+      "upvotes": 29,
+      "github": null,
+      "published": "2026-03-25T17:33:58.000Z"
+    },
+    {
+      "id": "2603.25804",
+      "title": "RealChart2Code: Advancing Chart-to-Code Generation with Real Data and Multi-Task Evaluation",
+      "authors": [
+        "Jiajun Zhang",
+        "Yuying Li",
+        "Zhixun Li",
+        "Xingyu Guo",
+        "Jingzhuo Wu",
+        "Leqi Zheng",
+        "Yiran Yang",
+        "Jianke Zhang",
+        "Qingbin Li",
+        "Shannan Yan",
+        "Zhetong Li",
+        "Changguo Jia",
+        "Junfei Wu",
+        "Zilei Wang",
+        "Qiang Liu",
+        "Liang Wang"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/Speakn0w/RealChart2Code",
+      "published": "2026-03-26T18:11:46.000Z"
+    },
+    {
+      "id": "2603.25723",
+      "title": "Natural-Language Agent Harnesses",
+      "authors": [
+        "Linyue Pan",
+        "Lexiao Zou",
+        "Shuo Guo",
+        "Jingchen Ni",
+        "Hai-Tao Zheng"
+      ],
+      "upvotes": 20,
+      "github": null,
+      "published": "2026-03-26T17:58:15.000Z"
+    },
+    {
+      "id": "2603.24477",
+      "title": "Composer 2 Technical Report",
+      "authors": [
+        "Cursor Research",
+        "Aaron Chan",
+        "Ahmed Shalaby",
+        "Alexander Wettig",
+        "Aman Sanger",
+        "Andrew Zhai",
+        "Anurag Ajay",
+        "Ashvin Nair",
+        "Charlie Snell",
+        "Chen Lu",
+        "Chen Shen",
+        "Emily Jia",
+        "Federico Cassano",
+        "Hanpeng Liu",
+        "Haoyu Chen",
+        "Henry Wildermuth",
+        "Jacob Jackson",
+        "Janet Li",
+        "Jediah Katz",
+        "Jiajun Yao",
+        "Joey Hejna",
+        "Josh Warner",
+        "Julius Vering",
+        "Kevin Frans",
+        "Lee Danilek",
+        "Less Wright",
+        "Lujing Cen",
+        "Luke Melas-Kyriazi",
+        "Michael Truell",
+        "Michiel de Jong",
+        "Naman Jain",
+        "Nate Schmidt",
+        "Nathan Wang",
+        "Niklas Muennighoff",
+        "Oleg Rybkin",
+        "Paul Loh",
+        "Phillip Kravtsov",
+        "Rishabh Yadav",
+        "Sahil Shah",
+        "Sam Kottler",
+        "Alexander M Rush",
+        "Shengtong Zhang",
+        "Shomil Jain",
+        "Sriram Sankar",
+        "Stefan Heule",
+        "Stuart H. Sul",
+        "Sualeh Asif",
+        "Victor Rong",
+        "Wanqi Zhu",
+        "William Lin",
+        "Yuchen Wu",
+        "Yuri Volkov",
+        "Yury Zemlyanskiy",
+        "Zack Holbrook",
+        "Zhiyuan Zhang"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2026-03-25T16:18:37.000Z"
+    },
+    {
+      "id": "2603.22782",
+      "title": "Know3D: Prompting 3D Generation with Knowledge from Vision-Language Models",
+      "authors": [
+        "Wenyue Chen",
+        "Wenjue Chen",
+        "Peng Li",
+        "Qinghe Wang",
+        "Xu Jia",
+        "Heliang Zheng",
+        "Rongfei Jia",
+        "Yuan Liu",
+        "Ronggang Wang"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2026-03-24T04:18:29.000Z"
+    },
+    {
+      "id": "2603.23607",
+      "title": "LongTail Driving Scenarios with Reasoning Traces: The KITScenes LongTail Dataset",
+      "authors": [
+        "Royden Wagner",
+        "Omer Sahin Tas",
+        "Jaime Villa",
+        "Felix Hauser",
+        "Yinzhe Shen",
+        "Marlon Steiner",
+        "Dominik Strutz",
+        "Carlos Fernandez",
+        "Christian Kinzig",
+        "Guillermo S. Guitierrez-Cabello",
+        "Hendrik Königshof",
+        "Fabian Immel",
+        "Richard Schwarzkopf",
+        "Nils Alexander Rack",
+        "Kevin Rösch",
+        "Kaiwen Wang",
+        "Jan-Hendrik Pauls",
+        "Martin Lauer",
+        "Igor Gilitschenski",
+        "Holger Caesar",
+        "Christoph Stiller"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2026-03-24T18:00:08.000Z"
+    },
+    {
+      "id": "2603.23906",
+      "title": "GenMask: Adapting DiT for Segmentation via Direct Mask",
+      "authors": [
+        "Yuhuan Yang",
+        "Xianwei Zhuang",
+        "Yuxuan Cai",
+        "Chaofan Ma",
+        "Shuai Bai",
+        "Jiangchao Yao",
+        "Ya Zhang",
+        "Junyang Lin",
+        "Yanfeng Wang"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2026-03-25T03:52:05.000Z"
+    },
+    {
+      "id": "2603.26664",
+      "title": "Learning to Commit: Generating Organic Pull Requests via Online Repository Memory",
+      "authors": [
+        "Mo Li",
+        "L. H. Xu",
+        "Qitai Tan",
+        "Ting Cao",
+        "Yunxin Liu"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2026-03-27T17:58:56.000Z"
+    },
+    {
+      "id": "2603.22582",
+      "title": "Lie to Me: How Faithful Is Chain-of-Thought Reasoning in Reasoning Models?",
+      "authors": [
+        "Richard J. Young"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/ricyoung/cot-faithfulness-open-models",
+      "published": "2026-03-23T21:21:37.000Z"
+    },
+    {
+      "id": "2603.20466",
+      "title": "Diffutron: A Masked Diffusion Language Model for Turkish Language",
+      "authors": [
+        "Şuayp Talha Kocabay",
+        "Talha Rüzgar Akkuş"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-03-20T19:52:37.000Z"
+    }
+  ]
+}

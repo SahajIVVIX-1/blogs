@@ -1,0 +1,523 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-05-05",
+  "fetched_at": "2026-10-29T15:35:31.546Z",
+  "candidates": [
+    {
+      "id": "2605.02881",
+      "title": "MolmoAct2: Action Reasoning Models for Real-world Deployment",
+      "authors": [
+        "Haoquan Fang",
+        "Jiafei Duan",
+        "Donovan Clay",
+        "Sam Wang",
+        "Shuo Liu",
+        "Weikai Huang",
+        "Xiang Fan",
+        "Wei-Chuan Tsai",
+        "Shirui Chen",
+        "Yi Ru Wang",
+        "Shanli Xing",
+        "Jaemin Cho",
+        "Jae Sung Park",
+        "Ainaz Eftekhar",
+        "Peter Sushko",
+        "Karen Farley",
+        "Angad Wadhwa",
+        "Cole Harrison",
+        "Winson Han",
+        "Ying-Chun Lee",
+        "Eli VanderBilt",
+        "Rose Hendrix",
+        "Suveen Ellawela",
+        "Lucas Ngoo",
+        "Joyce Chai",
+        "Zhongzheng Ren",
+        "Ali Farhadi",
+        "Dieter Fox",
+        "Ranjay Krishna"
+      ],
+      "upvotes": 267,
+      "github": "https://github.com/allenai/molmoact2",
+      "published": "2026-05-04T00:00:00.000Z"
+    },
+    {
+      "id": "2604.27660",
+      "title": "From Context to Skills: Can Language Models Learn from Context Skillfully?",
+      "authors": [
+        "Shuzheng Si",
+        "Haozhe Zhao",
+        "Yu Lei",
+        "Qingyi Wang",
+        "Dingwei Chen",
+        "Zhitong Wang",
+        "Zhenhailong Wang",
+        "Kangyang Luo",
+        "Zheng Wang",
+        "Gang Chen",
+        "Fanchao Qi",
+        "Minjia Zhang",
+        "Maosong Sun"
+      ],
+      "upvotes": 73,
+      "github": "https://github.com/S1s-Z/Ctx2Skill",
+      "published": "2026-05-03T00:00:00.000Z"
+    },
+    {
+      "id": "2605.01428",
+      "title": "Hallucinations Undermine Trust; Metacognition is a Way Forward",
+      "authors": [
+        "Gal Yona",
+        "Mor Geva",
+        "Yossi Matias"
+      ],
+      "upvotes": 23,
+      "github": null,
+      "published": "2026-05-02T00:00:00.000Z"
+    },
+    {
+      "id": "2604.28075",
+      "title": "Repetition over Diversity: High-Signal Data Filtering for Sample-Efficient German Language Modeling",
+      "authors": [
+        "Ansar Aynetdinov",
+        "Patrick Haller",
+        "Alan Akbik"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2026-04-30T00:00:00.000Z"
+    },
+    {
+      "id": "2605.00877",
+      "title": "OceanPile: A Large-Scale Multimodal Ocean Corpus for Foundation Models",
+      "authors": [
+        "Yida Xue",
+        "Ningyu Zhang",
+        "Tingwei Wu",
+        "Zhe Ma",
+        "Daxiong Ji",
+        "Zhao Wang",
+        "Guozhou Zheng",
+        "Huajun Chen"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/OceanGPT/OceanPile",
+      "published": "2026-04-25T00:00:00.000Z"
+    },
+    {
+      "id": "2605.02661",
+      "title": "AcademiClaw: When Students Set Challenges for AI Agents",
+      "authors": [
+        "Junjie Yu",
+        "Pengrui Lu",
+        "Weiye Si",
+        "Hongliang Lu",
+        "Jiabao Wu",
+        "Kaiwen Tao",
+        "Kun Wang",
+        "Lingyu Yang",
+        "Qiran Zhang",
+        "Xiuting Guo",
+        "Xuanyu Wang",
+        "Yang Wang",
+        "Yanjie Wang",
+        "Yi Yang",
+        "Zijian Hu",
+        "Ziyi Yang",
+        "Zonghan Zhou",
+        "Binghao Qiang",
+        "Borui Zhang",
+        "Chenning Li",
+        "Enchang Zhang",
+        "Feifan Chen",
+        "Feng Jian",
+        "Fengyin Sun",
+        "Hao Qiu",
+        "Hao Zheng",
+        "Haoran Zhu",
+        "Hongyu Liu",
+        "Jianbin Deng",
+        "Jiaxin Song",
+        "Jiaying Chi",
+        "Jiayou Shi",
+        "Jie Fang",
+        "Jinghui Zhong",
+        "Jingyu Zhou",
+        "Jinze Li",
+        "Junfeng Yi",
+        "Junyan Yu",
+        "Junzhi Xue",
+        "Ni Song",
+        "Pengyi Chen",
+        "Qi Chen",
+        "Quansheng Li",
+        "Rui Tao",
+        "Shenghai Gong",
+        "Shenhang Lu",
+        "Tianqi Shen",
+        "Tianxiang Zhu",
+        "Tiehan Kang",
+        "Tingyu Li",
+        "Wendi Wu",
+        "Xiao Shen",
+        "Xiao Zhou",
+        "Xiaotao Zhang",
+        "Xinrong Li",
+        "Xuankun Yang",
+        "Xun Zhang",
+        "Yan Li",
+        "Ye Lu",
+        "Yi Wang",
+        "Yibo Zhou",
+        "Yichi Zhang",
+        "Yihao Sun",
+        "Yijun Huang",
+        "Yixin Zhu",
+        "Yixuan Wu",
+        "Yuchen Sun",
+        "Yue Wu",
+        "Yuheng Sun",
+        "Yukun Li",
+        "Yutian Tu",
+        "Yuxuan Qin",
+        "Yuzhuo Wu",
+        "Zeyu Li",
+        "Zhengyu Lou",
+        "Zhenning Ran",
+        "Zizhu He",
+        "Pengfei Liu"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/GAIR-NLP/AcademiClaw",
+      "published": "2026-05-04T00:00:00.000Z"
+    },
+    {
+      "id": "2604.27776",
+      "title": "WindowsWorld: A Process-Centric Benchmark of Autonomous GUI Agents in Professional Cross-Application Environments",
+      "authors": [
+        "Jinchao Li",
+        "Yunxin Li",
+        "Chenrui Zhao",
+        "Zhenran Xu",
+        "Baotian Hu",
+        "Min Zhang"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/HITsz-TMG/WindowsWorld",
+      "published": "2026-04-30T00:00:00.000Z"
+    },
+    {
+      "id": "2405.13729",
+      "title": "ComboStoc: Combinatorial Stochasticity for Diffusion Generative Models",
+      "authors": [
+        "Rui Xu",
+        "Jiepeng Wang",
+        "Hao Pan",
+        "Yang Liu",
+        "Xin Tong",
+        "Shiqing Xin",
+        "Changhe Tu",
+        "Taku Komura",
+        "Wenping Wang"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/Xrvitd/ComboStoc",
+      "published": "2026-04-29T00:00:00.000Z"
+    },
+    {
+      "id": "2605.00814",
+      "title": "Persistent Visual Memory: Sustaining Perception for Deep Generation in LVLMs",
+      "authors": [
+        "Siyuan Huang",
+        "Xiaoye Qu",
+        "Yafu Li",
+        "Tong Zhu",
+        "Zefeng He",
+        "Muxin Fu",
+        "Daizong Liu",
+        "Wei-Long Zheng",
+        "Yu Cheng"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/huaixuheqing/PVM",
+      "published": "2026-05-01T00:00:00.000Z"
+    },
+    {
+      "id": "2605.02222",
+      "title": "Generative Modeling with Orbit-Space Particle Flow Matching",
+      "authors": [
+        "Sinan Wang",
+        "Jinjin He",
+        "Shenyifan Lu",
+        "Ruicheng Wang",
+        "Greg Turk",
+        "Bo Zhu"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2026-05-04T00:00:00.000Z"
+    },
+    {
+      "id": "2605.02178",
+      "title": "T^2PO: Uncertainty-Guided Exploration Control for Stable Multi-Turn Agentic Reinforcement Learning",
+      "authors": [
+        "Haixin Wang",
+        "Hejie Cui",
+        "Chenwei Zhang",
+        "Xin Liu",
+        "Shuowei Jin",
+        "Shijie Geng",
+        "Xinyang Zhang",
+        "Nasser Zalmout",
+        "Zhenyu Shi",
+        "Yizhou Sun"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/WillDreamer/T2PO",
+      "published": "2026-05-04T00:00:00.000Z"
+    },
+    {
+      "id": "2605.02240",
+      "title": "PhysicianBench: Evaluating LLM Agents in Real-World EHR Environments",
+      "authors": [
+        "Ruoqi Liu",
+        "Imran Q. Mohiuddin",
+        "Austin J. Schoeffler",
+        "Kavita Renduchintala",
+        "Ashwin Nayak",
+        "Prasantha L. Vemu",
+        "Shivam C. Vedak",
+        "Kameron C. Black",
+        "John L. Havlik",
+        "Isaac Ogunmola",
+        "Stephen P. Ma",
+        "Roopa Dhatt",
+        "Jonathan H. Chen"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/HealthRex/PhysicianBench",
+      "published": "2026-05-04T00:00:00.000Z"
+    },
+    {
+      "id": "2605.01711",
+      "title": "Linear-Time Global Visual Modeling without Explicit Attention",
+      "authors": [
+        "Ruize He",
+        "Dongchen Han",
+        "Gao Huang"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/LeapLabTHU/WeightFormer",
+      "published": "2026-05-03T00:00:00.000Z"
+    },
+    {
+      "id": "2605.01725",
+      "title": "Motion-Aware Caching for Efficient Autoregressive Video Generation",
+      "authors": [
+        "Jing Xu",
+        "Yuexiao Ma",
+        "Songwei Liu",
+        "Xuzhe Zheng",
+        "Shiwei Liu",
+        "Chenqian Yan",
+        "Xiawu Zheng",
+        "Rongrong Ji",
+        "Fei Chao",
+        "Xing Wang"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/ywlq/MotionCache",
+      "published": "2026-05-03T00:00:00.000Z"
+    },
+    {
+      "id": "2605.00529",
+      "title": "Hierarchical Abstract Tree for Cross-Document Retrieval-Augmented Generation",
+      "authors": [
+        "Ziwen Zhao",
+        "Menglin Yang"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/Newiz430/Psi-RAG",
+      "published": "2026-05-01T00:00:00.000Z"
+    },
+    {
+      "id": "2604.09408",
+      "title": "HiL-Bench (Human-in-Loop Benchmark): Do Agents Know When to Ask for Help?",
+      "authors": [
+        "Mohamed Elfeki",
+        "Tu Trinh",
+        "Kelvin Luu",
+        "Guangze Luo",
+        "Nathan Hunt",
+        "Ernesto Montoya",
+        "Nandan Marwaha",
+        "Yannis He",
+        "Charles Wang",
+        "Fernando Crabedo",
+        "Alessa Castilo",
+        "Bing Liu"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/hilbenchauthors/hil-bench",
+      "published": "2026-04-29T00:00:00.000Z"
+    },
+    {
+      "id": "2605.02730",
+      "title": "Perceptual Flow Network for Visually Grounded Reasoning",
+      "authors": [
+        "Yangfu Li",
+        "Yuning Gong",
+        "Hongjian Zhan",
+        "Teng Li",
+        "Yuanhuiyi Lyu",
+        "Tianyi Chen",
+        "Qi Liu",
+        "Ziyuan Huang",
+        "Zhihang Zhong",
+        "Dandan Zheng",
+        "Yue Lu"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-05-04T00:00:00.000Z"
+    },
+    {
+      "id": "2605.00925",
+      "title": "Linking spatial biology and clinical histology via Haiku",
+      "authors": [
+        "Yan Cui",
+        "Jacob S. Leiby",
+        "Wenhui Lei",
+        "Dokyoon Kim",
+        "Yanxiang Deng",
+        "Aaron T. Mayer",
+        "Zhenqin Wu",
+        "Alexandro E. Trevino",
+        "Zhi Huang"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/zhihuanglab/Haiku",
+      "published": "2026-04-30T00:00:00.000Z"
+    },
+    {
+      "id": "2605.01214",
+      "title": "Agentic AI Systems Should Be Designed as Marginal Token Allocators",
+      "authors": [
+        "Siqi Zhu"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2026-05-02T00:00:00.000Z"
+    },
+    {
+      "id": "2604.27582",
+      "title": "Assessing Pancreatic Ductal Adenocarcinoma Vascular Invasion: the PDACVI Benchmark",
+      "authors": [
+        "M. Riera-Marín",
+        "O. K. Sikha",
+        "J. Rodríguez-Comas",
+        "M. S. May",
+        "T. Kirscher",
+        "X. Coubez",
+        "P. Meyer",
+        "S. Faisan",
+        "Z. Pan",
+        "X. Zhou",
+        "X. Liang",
+        "C. Hémon",
+        "V. Boussot",
+        "J. -L. Dillenseger",
+        "J. -C. Nunes",
+        "K. -C. Kahl",
+        "C. Lüth",
+        "J. Traub",
+        "P. -H. Conze",
+        "M. M. Duh",
+        "A. Aubanell",
+        "R. de Figueiredo Cardoso",
+        "S. Egger-Hackenschmidt",
+        "J. García-López",
+        "M. A. González-Ballester",
+        "A. Galdran"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2026-04-30T00:00:00.000Z"
+    },
+    {
+      "id": "2604.25154",
+      "title": "Prior-Aligned Data Cleaning for Tabular Foundation Models",
+      "authors": [
+        "Laure Berti-Equille"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/LaureBerti/Learn2Clean",
+      "published": "2026-04-28T00:00:00.000Z"
+    },
+    {
+      "id": "2605.00932",
+      "title": "Code World Model Preparedness Report",
+      "authors": [
+        "Daniel Song",
+        "Peter Ney",
+        "Cristina Menghini",
+        "Faizan Ahmad",
+        "Aidan Boyd",
+        "Nathaniel Li",
+        "Ziwen Han",
+        "Jean-Christophe Testud",
+        "Saisuke Okabayashi",
+        "Maeve Ryan",
+        "Jinpeng Miao",
+        "Hamza Kwisaba",
+        "Felix Binder",
+        "Spencer Whitman",
+        "Jim Gust",
+        "Esteban Arcaute",
+        "Dhaval Kapil",
+        "Jacob Kahn",
+        "Ayaz Minhas",
+        "Tristan Goodman",
+        "Lauren Deason",
+        "Alexander Vaughan",
+        "Shengjia Zhao",
+        "Summer Yue"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2026-05-01T00:00:00.000Z"
+    },
+    {
+      "id": "2605.02291",
+      "title": "A Hybrid Approach for Closing the Sim2real Appearance Gap in Game Engine Synthetic Datasets",
+      "authors": [
+        "Stefanos Pasios"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/stefanos50/Hybrid-Sim2Real",
+      "published": "2026-05-04T00:00:00.000Z"
+    },
+    {
+      "id": "2605.02028",
+      "title": "Counting as a minimal probe of language model reliability",
+      "authors": [
+        "Tianxiang Dai",
+        "Jonathan Fan"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2026-05-03T00:00:00.000Z"
+    },
+    {
+      "id": "2605.00632",
+      "title": "BlenderRAG: High-Fidelity 3D Object Generation via Retrieval-Augmented Code Synthesis",
+      "authors": [
+        "Massimo Rondelli",
+        "Francesco Pivi",
+        "Maurizio Gabbrielli"
+      ],
+      "upvotes": 0,
+      "github": "https://github.com/MaxRondelli/BlenderRAG",
+      "published": "2026-05-01T00:00:00.000Z"
+    }
+  ]
+}

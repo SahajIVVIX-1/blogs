@@ -1,0 +1,11 @@
+{
+  "id": "2311.06242",
+  "html": "https://arxiv.org/html/2311.06242",
+  "limitations": null,
+  "conclusion": "The Florence Project endeavors to develop a foundational vision model endowed with a diverse array of perceptual capabilities, encompassing spatial hierarchy and semantic granularity. To this end, we construct FLD-5B dataset containing an extensive collection of 126M images paired with 5B comprehensive annotations, which are collected by the Florence data engine. Subsequently, we pre-train Florence-2 on this rich dataset through comprehensive multitask learning in a unified manner. Florence-2 has exhibited remarkable zero-shot capabilities that extend across a wide spectrum of visual tasks, such as captioning, object detection, visual grounding, and referring segmentation, among others. The experimental findings underscore the potency of the universal representation pre-trained by Florence-2 , revealing its substantial contributions to the enhancement of a multitude of downstream tasks. ",
+  "figure": {
+    "path": "images/2023/paper-2311.06242.webp",
+    "src": "https://arxiv.org/html/2311.06242v1/teaser_v3.png",
+    "caption": "Figure 1 : We aim to build a vision foundation model to enable extensive perception capabilities including spatial hierarchy and semantic granularity. To achieve this, a single unified model Florence-2 is pre-trained on our FLD-5B dataset encompassing a total of 5.4B comprehensive annotations across 126M images, which are collected by our Florence data engine."
+  }
+}

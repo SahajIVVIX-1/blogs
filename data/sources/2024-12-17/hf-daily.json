@@ -1,0 +1,444 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-12-17",
+  "fetched_at": "2026-10-29T15:30:00.665Z",
+  "candidates": [
+    {
+      "id": "2412.09871",
+      "title": "Byte Latent Transformer: Patches Scale Better Than Tokens",
+      "authors": [
+        "Artidoro Pagnoni",
+        "Ram Pasunuru",
+        "Pedro Rodriguez",
+        "John Nguyen",
+        "Benjamin Muller",
+        "Margaret Li",
+        "Chunting Zhou",
+        "Lili Yu",
+        "Jason Weston",
+        "Luke Zettlemoyer",
+        "Gargi Ghosh",
+        "Mike Lewis",
+        "Ari Holtzman",
+        "Srinivasan Iyer"
+      ],
+      "upvotes": 104,
+      "github": "https://github.com/facebookresearch/blt",
+      "published": "2024-12-13T05:33:32.000Z"
+    },
+    {
+      "id": "2412.10316",
+      "title": "BrushEdit: All-In-One Image Inpainting and Editing",
+      "authors": [
+        "Yaowei Li",
+        "Yuxuan Bian",
+        "Xuan Ju",
+        "Zhaoyang Zhang",
+        "Ying Shan",
+        "Qiang Xu"
+      ],
+      "upvotes": 36,
+      "github": null,
+      "published": "2024-12-13T17:58:06.000Z"
+    },
+    {
+      "id": "2412.09645",
+      "title": "Evaluation Agent: Efficient and Promptable Evaluation Framework for Visual Generative Models",
+      "authors": [
+        "Fan Zhang",
+        "Shulin Tian",
+        "Ziqi Huang",
+        "Yu Qiao",
+        "Ziwei Liu"
+      ],
+      "upvotes": 36,
+      "github": "https://github.com/Vchitect/Evaluation-Agent",
+      "published": "2024-12-10T18:52:39.000Z"
+    },
+    {
+      "id": "2412.11919",
+      "title": "RetroLLM: Empowering Large Language Models to Retrieve Fine-grained Evidence within Generation",
+      "authors": [
+        "Xiaoxi Li",
+        "Jiajie Jin",
+        "Yujia Zhou",
+        "Yongkang Wu",
+        "Zhonghua Li",
+        "Qi Ye",
+        "Zhicheng Dou"
+      ],
+      "upvotes": 36,
+      "github": "https://github.com/sunnynexus/retrollm",
+      "published": "2024-12-16T16:03:25.000Z"
+    },
+    {
+      "id": "2412.11231",
+      "title": "Smaller Language Models Are Better Instruction Evolvers",
+      "authors": [
+        "Tingfeng Hui",
+        "Lulu Zhao",
+        "Guanting Dong",
+        "Yaqi Zhang",
+        "Hua Zhou",
+        "Sen Su"
+      ],
+      "upvotes": 29,
+      "github": "https://github.com/hypherx/evolution-analysis",
+      "published": "2024-12-15T16:07:48.000Z"
+    },
+    {
+      "id": "2412.11815",
+      "title": "ColorFlow: Retrieval-Augmented Image Sequence Colorization",
+      "authors": [
+        "Junhao Zhuang",
+        "Xuan Ju",
+        "Zhaoyang Zhang",
+        "Yong Liu",
+        "Shiyi Zhang",
+        "Chun Yuan",
+        "Ying Shan"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/TencentARC/ColorFlow",
+      "published": "2024-12-16T14:32:49.000Z"
+    },
+    {
+      "id": "2412.12095",
+      "title": "Causal Diffusion Transformers for Generative Modeling",
+      "authors": [
+        "Chaorui Deng",
+        "Deyao Zh",
+        "Kunchang Li",
+        "Shi Guan",
+        "Haoqi Fan"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/causalfusion/causalfusion",
+      "published": "2024-12-16T18:59:29.000Z"
+    },
+    {
+      "id": "2412.11605",
+      "title": "SPaR: Self-Play with Tree-Search Refinement to Improve Instruction-Following in Large Language Models",
+      "authors": [
+        "Jiale Cheng",
+        "Xiao Liu",
+        "Cunxiang Wang",
+        "Xiaotao Gu",
+        "Yida Lu",
+        "Dan Zhang",
+        "Yuxiao Dong",
+        "Jie Tang",
+        "Hongning Wang",
+        "Minlie Huang"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/thu-coai/spar",
+      "published": "2024-12-16T09:47:43.000Z"
+    },
+    {
+      "id": "2412.12091",
+      "title": "Wonderland: Navigating 3D Scenes from a Single Image",
+      "authors": [
+        "Hanwen Liang",
+        "Junli Cao",
+        "Vidit Goel",
+        "Guocheng Qian",
+        "Sergei Korolev",
+        "Demetri Terzopoulos",
+        "Konstantinos N. Plataniotis",
+        "Sergey Tulyakov",
+        "Jian Ren"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2024-12-16T18:58:17.000Z"
+    },
+    {
+      "id": "2412.11279",
+      "title": "VividFace: A Diffusion-Based Hybrid Framework for High-Fidelity Video Face Swapping",
+      "authors": [
+        "Hao Shao",
+        "Shulun Wang",
+        "Yang Zhou",
+        "Guanglu Song",
+        "Dailan He",
+        "Shuo Qin",
+        "Zhuofan Zong",
+        "Bingqi Ma",
+        "Yu Liu",
+        "Hongsheng Li"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2024-12-15T18:58:32.000Z"
+    },
+    {
+      "id": "2412.11258",
+      "title": "GaussianProperty: Integrating Physical Properties to 3D Gaussians with LMMs",
+      "authors": [
+        "Xinli Xu",
+        "Wenhang Ge",
+        "Dicong Qiu",
+        "ZhiFei Chen",
+        "Dongyu Yan",
+        "Zhuoyun Liu",
+        "Haoyu Zhao",
+        "Hanfeng Zhao",
+        "Shunsi Zhang",
+        "Junwei Liang",
+        "Ying-Cong Chen"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/xxlbigbrother/Gaussian-Property",
+      "published": "2024-12-15T17:44:10.000Z"
+    },
+    {
+      "id": "2412.12083",
+      "title": "IDArb: Intrinsic Decomposition for Arbitrary Number of Input Views and Illuminations",
+      "authors": [
+        "Zhibing Li",
+        "Tong Wu",
+        "Jing Tan",
+        "Mengchen Zhang",
+        "Jiaqi Wang",
+        "Dahua Lin"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2024-12-16T18:52:56.000Z"
+    },
+    {
+      "id": "2412.12094",
+      "title": "SepLLM: Accelerate Large Language Models by Compressing One Segment into One Separator",
+      "authors": [
+        "Guoxuan Chen",
+        "Han Shi",
+        "Jiawei Li",
+        "Yihang Gao",
+        "Xiaozhe Ren",
+        "Yimeng Chen",
+        "Xin Jiang",
+        "Zhenguo Li",
+        "Weiyang Liu",
+        "Chao Huang"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/HKUDS/SepLLM",
+      "published": "2024-12-16T18:58:57.000Z"
+    },
+    {
+      "id": "2412.11586",
+      "title": "StrandHead: Text to Strand-Disentangled 3D Head Avatars Using Hair Geometric Priors",
+      "authors": [
+        "Xiaokun Sun",
+        "Zeyu Cai",
+        "Zhenyu Zhang",
+        "Ying Tai",
+        "Jian Yang"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/XiaokunSun/StrandHead",
+      "published": "2024-12-16T09:17:36.000Z"
+    },
+    {
+      "id": "2412.11974",
+      "title": "Emma-X: An Embodied Multimodal Action Model with Grounded Chain of Thought and Look-ahead Spatial Reasoning",
+      "authors": [
+        "Qi Sun",
+        "Pengfei Hong",
+        "Tej Deep Pala",
+        "Vernon Toh",
+        "U-Xuan Tan",
+        "Deepanway Ghosal",
+        "Soujanya Poria"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/declare-lab/emma-x",
+      "published": "2024-12-16T16:58:28.000Z"
+    },
+    {
+      "id": "2412.12004",
+      "title": "The Open Source Advantage in Large Language Models (LLMs)",
+      "authors": [
+        "Jiya Manchanda",
+        "Laura Boettcher",
+        "Matheus Westphalen",
+        "Jasser Jasser"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2024-12-16T17:32:11.000Z"
+    },
+    {
+      "id": "2412.11834",
+      "title": "Wonderful Matrices: Combining for a More Efficient and Effective Foundation Model Architecture",
+      "authors": [
+        "Jingze Shi",
+        "Bingheng Wu"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/losercheems/doge",
+      "published": "2024-12-16T14:56:28.000Z"
+    },
+    {
+      "id": "2412.09982",
+      "title": "SplineGS: Robust Motion-Adaptive Spline for Real-Time Dynamic 3D Gaussians from Monocular Video",
+      "authors": [
+        "Jongmin Park",
+        "Minh-Quan Viet Bui",
+        "Juan Luis Gonzalez Bello",
+        "Jaeho Moon",
+        "Jihyong Oh",
+        "Munchurl Kim"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2024-12-13T09:09:14.000Z"
+    },
+    {
+      "id": "2412.11100",
+      "title": "DynamicScaler: Seamless and Scalable Video Generation for Panoramic Scenes",
+      "authors": [
+        "Jinxiu Liu",
+        "Shaoheng Lin",
+        "Yinxiao Li",
+        "Ming-Hsuan Yang"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/sh-Lin/DynamicScaler",
+      "published": "2024-12-15T07:42:26.000Z"
+    },
+    {
+      "id": "2412.11457",
+      "title": "MOVIS: Enhancing Multi-Object Novel View Synthesis for Indoor Scenes",
+      "authors": [
+        "Ruijie Lu",
+        "Yixin Chen",
+        "Junfeng Ni",
+        "Baoxiong Jia",
+        "Yu Liu",
+        "Diwen Wan",
+        "Gang Zeng",
+        "Siyuan Huang"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/Jason-aplp/MOVIS-code",
+      "published": "2024-12-16T05:23:45.000Z"
+    },
+    {
+      "id": "2412.10447",
+      "title": "TidyBot++: An Open-Source Holonomic Mobile Manipulator for Robot Learning",
+      "authors": [
+        "Jimmy Wu",
+        "William Chong",
+        "Robert Holmberg",
+        "Aaditya Prasad",
+        "Yihuai Gao",
+        "Oussama Khatib",
+        "Shuran Song",
+        "Szymon Rusinkiewicz",
+        "Jeannette Bohg"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/jimmyyhwu/tidybot2",
+      "published": "2024-12-11T18:54:22.000Z"
+    },
+    {
+      "id": "2412.11863",
+      "title": "GeoX: Geometric Problem Solving Through Unified Formalized Vision-Language Pre-training",
+      "authors": [
+        "Renqiu Xia",
+        "Mingsheng Li",
+        "Hancheng Ye",
+        "Wenjie Wu",
+        "Hongbin Zhou",
+        "Jiakang Yuan",
+        "Tianshuo Peng",
+        "Xinyu Cai",
+        "Xiangchao Yan",
+        "Bin Wang",
+        "Conghui He",
+        "Botian Shi",
+        "Tao Chen",
+        "Junchi Yan",
+        "Bo Zhang"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/alpha-innovator/geox",
+      "published": "2024-12-16T15:20:03.000Z"
+    },
+    {
+      "id": "2412.12098",
+      "title": "MaxInfoRL: Boosting exploration in reinforcement learning through information gain maximization",
+      "authors": [
+        "Bhavya Sukhija",
+        "Stelian Coros",
+        "Andreas Krause",
+        "Pieter Abbeel",
+        "Carmelo Sferrazza"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/sukhijab/maxinforl_jax",
+      "published": "2024-12-16T18:59:53.000Z"
+    },
+    {
+      "id": "2412.11449",
+      "title": "Whisper-GPT: A Hybrid Representation Audio Large Language Model",
+      "authors": [
+        "Prateek Verma"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2024-12-16T05:03:48.000Z"
+    },
+    {
+      "id": "2412.11423",
+      "title": "Nearly Zero-Cost Protection Against Mimicry by Personalized Diffusion Models",
+      "authors": [
+        "Namhyuk Ahn",
+        "KiYoon Yoo",
+        "Wonhyuk Ahn",
+        "Daesik Kim",
+        "Seung-Hun Nam"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2024-12-16T03:46:45.000Z"
+    },
+    {
+      "id": "2412.09858",
+      "title": "RLDG: Robotic Generalist Policy Distillation via Reinforcement Learning",
+      "authors": [
+        "Charles Xu",
+        "Qiyang Li",
+        "Jianlan Luo",
+        "Sergey Levine"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2024-12-13T04:57:55.000Z"
+    },
+    {
+      "id": "2412.11314",
+      "title": "Reliable, Reproducible, and Really Fast Leaderboards with Evalica",
+      "authors": [
+        "Dmitry Ustalov"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/dustalov/evalica",
+      "published": "2024-12-15T21:22:46.000Z"
+    },
+    {
+      "id": "2412.11689",
+      "title": "Just a Simple Transformation is Enough for Data Protection in Vertical Federated Learning",
+      "authors": [
+        "Andrei Semenov",
+        "Philip Zmushko",
+        "Alexander Pichugin",
+        "Aleksandr Beznosikov"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/Andron00e/JAST",
+      "published": "2024-12-16T12:02:12.000Z"
+    }
+  ]
+}

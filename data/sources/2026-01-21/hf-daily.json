@@ -1,0 +1,542 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-01-21",
+  "fetched_at": "2026-10-29T15:34:28.481Z",
+  "candidates": [
+    {
+      "id": "2601.12993",
+      "title": "Being-H0.5: Scaling Human-Centric Robot Learning for Cross-Embodiment Generalization",
+      "authors": [
+        "Hao Luo",
+        "Ye Wang",
+        "Wanpeng Zhang",
+        "Sipeng Zheng",
+        "Ziheng Xi",
+        "Chaoyi Xu",
+        "Haiweng Xu",
+        "Haoqi Yuan",
+        "Chi Zhang",
+        "Yiqing Wang",
+        "Yicheng Feng",
+        "Zongqing Lu"
+      ],
+      "upvotes": 77,
+      "github": "https://github.com/BeingBeyond/Being-H",
+      "published": "2026-01-19T12:20:38.000Z"
+    },
+    {
+      "id": "2601.11655",
+      "title": "Advances and Frontiers of LLM-based Issue Resolution in Software Engineering: A Comprehensive Survey",
+      "authors": [
+        "Caihua Li",
+        "Lianghong Guo",
+        "Yanlin Wang",
+        "Daya Guo",
+        "Wei Tao",
+        "Zhenyu Shan",
+        "Mingwei Liu",
+        "Jiachi Chen",
+        "Haoyu Song",
+        "Duyu Tang",
+        "Hongyu Zhang",
+        "Zibin Zheng"
+      ],
+      "upvotes": 63,
+      "github": "https://github.com/DeepSoftwareAnalytics/Awesome-Issue-Resolution",
+      "published": "2026-01-15T18:55:03.000Z"
+    },
+    {
+      "id": "2601.14192",
+      "title": "Toward Efficient Agents: Memory, Tool learning, and Planning",
+      "authors": [
+        "Xiaofang Yang",
+        "Lijun Li",
+        "Heng Zhou",
+        "Tong Zhu",
+        "Xiaoye Qu",
+        "Yuchen Fan",
+        "Qianshan Wei",
+        "Rui Ye",
+        "Li Kang",
+        "Yiran Qin",
+        "Zhiqiang Kou",
+        "Daizong Liu",
+        "Qi Li",
+        "Ning Ding",
+        "Siheng Chen",
+        "Jing Shao"
+      ],
+      "upvotes": 57,
+      "github": "https://github.com/yxf203/Awesome-Efficient-Agents",
+      "published": "2026-01-20T17:51:56.000Z"
+    },
+    {
+      "id": "2601.14250",
+      "title": "OmniTransfer: All-in-one Framework for Spatio-temporal Video Transfer",
+      "authors": [
+        "Pengze Zhang",
+        "Yanze Wu",
+        "Mengtian Li",
+        "Xu Bai",
+        "Songtao Zhao",
+        "Fulong Ye",
+        "Chong Mou",
+        "Xinghui Li",
+        "Zhuowei Chen",
+        "Qian He",
+        "Mingyuan Gao"
+      ],
+      "upvotes": 48,
+      "github": "https://github.com/PangzeCheung/OmniTransfer",
+      "published": "2026-01-20T18:58:11.000Z"
+    },
+    {
+      "id": "2601.13029",
+      "title": "Think3D: Thinking with Space for Spatial Reasoning",
+      "authors": [
+        "Zaibin Zhang",
+        "Yuhan Wu",
+        "Lianjie Jia",
+        "Yifan Wang",
+        "Zhongbo Zhang",
+        "Yijiang Li",
+        "Binghao Ran",
+        "Fuxi Zhang",
+        "Zhuohan Sun",
+        "Zhenfei Yin",
+        "Lijun Wang",
+        "Huchuan Lu"
+      ],
+      "upvotes": 47,
+      "github": "https://github.com/zhangzaibin/spagent",
+      "published": "2026-01-19T13:13:54.000Z"
+    },
+    {
+      "id": "2601.13836",
+      "title": "FutureOmni: Evaluating Future Forecasting from Omni-Modal Context for Multimodal LLMs",
+      "authors": [
+        "Qian Chen",
+        "Jinlan Fu",
+        "Changsong Li",
+        "See-Kiong Ng",
+        "Xipeng Qiu"
+      ],
+      "upvotes": 37,
+      "github": "https://github.com/OpenMOSS/FutureOmni",
+      "published": "2026-01-20T10:47:20.000Z"
+    },
+    {
+      "id": "2601.14251",
+      "title": "LightOnOCR: A 1B End-to-End Multilingual Vision-Language Model for State-of-the-Art OCR",
+      "authors": [
+        "Said Taghadouini",
+        "Adrien Cavaillès",
+        "Baptiste Aubertin"
+      ],
+      "upvotes": 34,
+      "github": null,
+      "published": "2026-01-20T18:58:32.000Z"
+    },
+    {
+      "id": "2601.14004",
+      "title": "Locate, Steer, and Improve: A Practical Survey of Actionable Mechanistic Interpretability in Large Language Models",
+      "authors": [
+        "Hengyuan Zhang",
+        "Zhihao Zhang",
+        "Mingyang Wang",
+        "Zunhai Su",
+        "Yiwei Wang",
+        "Qianli Wang",
+        "Shuzhou Yuan",
+        "Ercong Nie",
+        "Xufeng Duan",
+        "Qibo Xue",
+        "Zeping Yu",
+        "Chenming Shang",
+        "Xiao Liang",
+        "Jing Xiong",
+        "Hui Shen",
+        "Chaofan Tao",
+        "Zhengwu Liu",
+        "Senjie Jin",
+        "Zhiheng Xi",
+        "Dongdong Zhang",
+        "Sophia Ananiadou",
+        "Tao Gui",
+        "Ruobing Xie",
+        "Hayden Kwok-Hay So",
+        "Hinrich Schütze",
+        "Xuanjing Huang",
+        "Qi Zhang",
+        "Ngai Wong"
+      ],
+      "upvotes": 33,
+      "github": "https://github.com/rattlesnakey/Awesome-Actionable-MI-Survey",
+      "published": "2026-01-20T14:23:23.000Z"
+    },
+    {
+      "id": "2601.11969",
+      "title": "MemoryRewardBench: Benchmarking Reward Models for Long-Term Memory Management in Large Language Models",
+      "authors": [
+        "Zecheng Tang",
+        "Baibei Ji",
+        "Ruoxi Sun",
+        "Haitian Wang",
+        "WangJie You",
+        "Zhang Yijun",
+        "Wenpeng Zhu",
+        "Ji Qi",
+        "Juntao Li",
+        "Min Zhang"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/LCM-Lab/MemRewardBench",
+      "published": "2026-01-17T09:04:53.000Z"
+    },
+    {
+      "id": "2601.13976",
+      "title": "FantasyVLN: Unified Multimodal Chain-of-Thought Reasoning for Vision-Language Navigation",
+      "authors": [
+        "Jing Zuo",
+        "Lingzhou Mu",
+        "Fan Jiang",
+        "Chengcheng Ma",
+        "Mu Xu",
+        "Yonggang Qi"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/Fantasy-AMAP/fantasy-vln",
+      "published": "2026-01-20T13:54:10.000Z"
+    },
+    {
+      "id": "2601.11888",
+      "title": "Agentic-R: Learning to Retrieve for Agentic Search",
+      "authors": [
+        "Wenhan Liu",
+        "Xinyu Ma",
+        "Yutao Zhu",
+        "Yuchen Li",
+        "Daiting Shi",
+        "Dawei Yin",
+        "Zhicheng Dou"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/8421BCD/Agentic-R",
+      "published": "2026-01-17T02:59:54.000Z"
+    },
+    {
+      "id": "2601.10700",
+      "title": "LIBERTy: A Causal Framework for Benchmarking Concept-Based Explanations of LLMs with Structural Counterfactuals",
+      "authors": [
+        "Gilat Toker",
+        "Nitay Calderon",
+        "Ohad Amosy",
+        "Roi Reichart"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/GilatToker/Liberty-benchmark",
+      "published": "2026-01-15T18:54:50.000Z"
+    },
+    {
+      "id": "2601.12294",
+      "title": "ToolPRMBench: Evaluating and Advancing Process Reward Models for Tool-using Agents",
+      "authors": [
+        "Dawei Li",
+        "Yuguang Yao",
+        "Zhen Tan",
+        "Huan Liu",
+        "Ruocheng Guo"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/David-Li0406/ToolPRMBench",
+      "published": "2026-01-18T07:48:36.000Z"
+    },
+    {
+      "id": "2601.13247",
+      "title": "Aligning Agentic World Models via Knowledgeable Experience Learning",
+      "authors": [
+        "Baochang Ren",
+        "Yunzhi Yao",
+        "Rui Sun",
+        "Shuofei Qiao",
+        "Ningyu Zhang",
+        "Huajun Chen"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/zjunlp/WorldMind",
+      "published": "2026-01-19T17:33:31.000Z"
+    },
+    {
+      "id": "2601.14249",
+      "title": "Which Reasoning Trajectories Teach Students to Reason Better? A Simple Metric of Informative Alignment",
+      "authors": [
+        "Yuming Yang",
+        "Mingyoung Lai",
+        "Wanxu Zhao",
+        "Xiaoran Fan",
+        "Zhiheng Xi",
+        "Mingqi Wu",
+        "Chiyue Huang",
+        "Jun Zhao",
+        "Haijun Lv",
+        "Jian Tong",
+        "Yunhua Zhou",
+        "Yicheng Zou",
+        "Qipeng Guo",
+        "Tao Gui",
+        "Qi Zhang",
+        "Xuanjing Huang"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/UmeanNever/RankSurprisalRatio",
+      "published": "2026-01-20T18:58:10.000Z"
+    },
+    {
+      "id": "2601.13288",
+      "title": "A BERTology View of LLM Orchestrations: Token- and Layer-Selective Probes for Efficient Single-Pass Classification",
+      "authors": [
+        "Gonzalo Ariel Meyoyan",
+        "Luciano Del Corro"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2026-01-19T18:40:29.000Z"
+    },
+    {
+      "id": "2601.13761",
+      "title": "DARC: Decoupled Asymmetric Reasoning Curriculum for LLM Evolution",
+      "authors": [
+        "Shengda Fan",
+        "Xuyan Ye",
+        "Yankai Lin"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/RUCBM/DARC",
+      "published": "2026-01-20T09:12:27.000Z"
+    },
+    {
+      "id": "2601.14232",
+      "title": "KAGE-Bench: Fast Known-Axis Visual Generalization Evaluation for Reinforcement Learning",
+      "authors": [
+        "Egor Cherepanov",
+        "Daniil Zelezetsky",
+        "Alexey K. Kovalev",
+        "Aleksandr I. Panov"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/CognitiveAISystems/kage-bench",
+      "published": "2026-01-20T18:44:28.000Z"
+    },
+    {
+      "id": "2601.14046",
+      "title": "PRiSM: Benchmarking Phone Realization in Speech Models",
+      "authors": [
+        "Shikhar Bharadwaj",
+        "Chin-Jou Li",
+        "Yoonjae Kim",
+        "Kwanghee Choi",
+        "Eunjung Yeo",
+        "Ryan Soh-Eun Shim",
+        "Hanyu Zhou",
+        "Brendon Boldt",
+        "Karen Rosero Jacome",
+        "Kalvin Chang",
+        "Darsh Agrawal",
+        "Keer Xu",
+        "Chao-Han Huck Yang",
+        "Jian Zhu",
+        "Shinji Watanabe",
+        "David R. Mortensen"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/changelinglab/prism",
+      "published": "2026-01-20T15:00:36.000Z"
+    },
+    {
+      "id": "2601.14209",
+      "title": "InT: Self-Proposed Interventions Enable Credit Assignment in LLM Reasoning",
+      "authors": [
+        "Matthew Y. R. Yang",
+        "Hao Bai",
+        "Ian Wu",
+        "Gene Yang",
+        "Amrith Setlur",
+        "Aviral Kumar"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/intervention-training/int",
+      "published": "2026-01-20T18:15:38.000Z"
+    },
+    {
+      "id": "2601.11522",
+      "title": "UniX: Unifying Autoregression and Diffusion for Chest X-Ray Understanding and Generation",
+      "authors": [
+        "Ruiheng Zhang",
+        "Jingfeng Yao",
+        "Huangxuan Zhao",
+        "Hao Yan",
+        "Xiao He",
+        "Lei Chen",
+        "Zhou Wei",
+        "Yong Luo",
+        "Zengmao Wang",
+        "Lefei Zhang",
+        "Dacheng Tao",
+        "Bo Du"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/ZrH42/UniX",
+      "published": "2026-01-16T18:59:58.000Z"
+    },
+    {
+      "id": "2601.11898",
+      "title": "RemoteVAR: Autoregressive Visual Modeling for Remote Sensing Change Detection",
+      "authors": [
+        "Yilmaz Korkmaz",
+        "Vishal M. Patel"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/yilmazkorkmaz1/RemoteVAR",
+      "published": "2026-01-17T03:50:00.000Z"
+    },
+    {
+      "id": "2601.13697",
+      "title": "Uncertainty-Aware Gradient Signal-to-Noise Data Selection for Instruction Tuning",
+      "authors": [
+        "Zhihang Yuan",
+        "Chengyu Yue",
+        "Long Huang",
+        "Litu Ou",
+        "Lei Shi"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-01-20T07:51:32.000Z"
+    },
+    {
+      "id": "2601.13253",
+      "title": "A Hybrid Protocol for Large-Scale Semantic Dataset Generation in Low-Resource Languages: The Turkish Semantic Relations Corpus",
+      "authors": [
+        "Ebubekir Tosun",
+        "Mehmet Emin Buldur",
+        "Özay Ezerceli",
+        "Mahmoud ElHussieni"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-01-19T17:38:52.000Z"
+    },
+    {
+      "id": "2601.13251",
+      "title": "Beyond Cosine Similarity: Taming Semantic Drift and Antonym Intrusion in a 15-Million Node Turkish Synonym Graph",
+      "authors": [
+        "Ebubekir Tosun",
+        "Mehmet Emin Buldur",
+        "Özay Ezerceli",
+        "Mahmoud ElHussieni"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-01-19T17:37:25.000Z"
+    },
+    {
+      "id": "2601.13481",
+      "title": "Towards Efficient and Robust Linguistic Emotion Diagnosis for Mental Health via Multi-Agent Instruction Refinement",
+      "authors": [
+        "Jian Zhang",
+        "Zhangqi Wang",
+        "Zhiyuan Wang",
+        "Weiping Fu",
+        "Yu He",
+        "Haiping Zhu",
+        "Qika Lin",
+        "Jun Liu"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2026-01-20T00:31:19.000Z"
+    },
+    {
+      "id": "2601.13075",
+      "title": "METIS: Mentoring Engine for Thoughtful Inquiry & Solutions",
+      "authors": [
+        "Abhinav Rajeev Kumar",
+        "Dhruv Trehan",
+        "Paras Chopra"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2026-01-19T14:10:35.000Z"
+    },
+    {
+      "id": "2601.12910",
+      "title": "SciCoQA: Quality Assurance for Scientific Paper--Code Alignment",
+      "authors": [
+        "Tim Baumgärtner",
+        "Iryna Gurevych"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/ukplab/scicoqa",
+      "published": "2026-01-19T10:04:33.000Z"
+    },
+    {
+      "id": "2601.13591",
+      "title": "DSAEval: Evaluating Data Science Agents on a Wide Range of Real-World Data Science Problems",
+      "authors": [
+        "Maojun Sun",
+        "Yifei Xie",
+        "Yue Wu",
+        "Ruijian Han",
+        "Binyan Jiang",
+        "Defeng Sun",
+        "Yancheng Yuan",
+        "Jian Huang"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2026-01-20T04:44:36.000Z"
+    },
+    {
+      "id": "2601.13677",
+      "title": "Finally Outshining the Random Baseline: A Simple and Effective Solution for Active Learning in 3D Biomedical Imaging",
+      "authors": [
+        "Carsten T. Lüth",
+        "Jeremias Traub",
+        "Kim-Celine Kahl",
+        "Till J. Bungert",
+        "Lukas Klein",
+        "Lars Krämer",
+        "Paul F. Jäger",
+        "Klaus Maier-Hein",
+        "Fabian Isensee"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/MIC-DKFZ/nnActive",
+      "published": "2026-01-20T07:29:50.000Z"
+    },
+    {
+      "id": "2601.10237",
+      "title": "Fundamental Limitations of Favorable Privacy-Utility Guarantees for DP-SGD",
+      "authors": [
+        "Murat Bilgehan Ertan",
+        "Marten van Dijk"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2026-01-15T09:50:36.000Z"
+    },
+    {
+      "id": "2601.12937",
+      "title": "On the Evidentiary Limits of Membership Inference for Copyright Auditing",
+      "authors": [
+        "Murat Bilgehan Ertan",
+        "Emirhan Böge",
+        "Min Chen",
+        "Kaleel Mahmood",
+        "Marten van Dijk"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/kiraz-ai/sage-sps-mia",
+      "published": "2026-01-19T10:46:51.000Z"
+    }
+  ]
+}

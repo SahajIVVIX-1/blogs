@@ -1,0 +1,710 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-06-03",
+  "fetched_at": "2026-10-29T15:35:49.127Z",
+  "candidates": [
+    {
+      "id": "2606.00683",
+      "title": "OCC-RAG: Optimal Cognitive Core for Faithful Question Answering",
+      "authors": [
+        "Maksim Savkin",
+        "Mikhail Goncharov",
+        "Alexander Gambashidze",
+        "Alla Chepurova",
+        "Dmitrii Tarasov",
+        "Nikita Andriianov",
+        "Daria Pugacheva",
+        "Vasily Konovalov",
+        "Andrey Galichin",
+        "Ivan Oseledets"
+      ],
+      "upvotes": 102,
+      "github": "https://github.com/optimal-cognitive-core/OCC-RAG",
+      "published": "2026-05-30T00:00:00.000Z"
+    },
+    {
+      "id": "2606.03458",
+      "title": "KVarN: Variance-Normalized KV-Cache Quantization Mitigates Error Accumulation in Reasoning Tasks",
+      "authors": [
+        "Lorenz K. Muller",
+        "Philippe Bich",
+        "Chiara Boretti",
+        "Hyun-Min Chang",
+        "Jiawei Zhuang",
+        "Lukas Cavigelli"
+      ],
+      "upvotes": 67,
+      "github": "https://github.com/huawei-csl/KVarN",
+      "published": "2026-06-02T00:00:00.000Z"
+    },
+    {
+      "id": "2605.23895",
+      "title": "From Activation to Causality: Discovery of Causal Visual Representations in the Human Brain",
+      "authors": [
+        "Yuval Golbari",
+        "Navve Wasserman",
+        "Matias Cosarinsky",
+        "Roman Beliy",
+        "Aude Oliva",
+        "Antonio Torralba",
+        "Michal Irani",
+        "Tamar Rott Shaham"
+      ],
+      "upvotes": 52,
+      "github": null,
+      "published": "2026-05-22T00:00:00.000Z"
+    },
+    {
+      "id": "2606.03920",
+      "title": "Benchmarking Visual State Tracking in Multimodal Video Understanding",
+      "authors": [
+        "Sihyun Yu",
+        "Nanye Ma",
+        "Pinzhi Huang",
+        "Hyunseok Lee",
+        "Shusheng Yang",
+        "June Suk Choi",
+        "Ellis Brown",
+        "Oscar Michel",
+        "Boyang Zheng",
+        "Jinwoo Shin",
+        "Saining Xie"
+      ],
+      "upvotes": 52,
+      "github": "https://github.com/vision-x-nyu/vstat",
+      "published": "2026-06-02T00:00:00.000Z"
+    },
+    {
+      "id": "2606.01249",
+      "title": "Trust Region On-Policy Distillation",
+      "authors": [
+        "Xingrun Xing",
+        "Haoqing Wang",
+        "Boyan Gao",
+        "Ziheng Li",
+        "Yehui Tang"
+      ],
+      "upvotes": 46,
+      "github": null,
+      "published": "2026-05-31T00:00:00.000Z"
+    },
+    {
+      "id": "2606.03985",
+      "title": "Humanoid-GPT: Scaling Data and Structure for Zero-Shot Motion Tracking",
+      "authors": [
+        "Zekun Qi",
+        "Xuchuan Chen",
+        "Dairu Liu",
+        "Chenghuai Lin",
+        "Yunrui Lian",
+        "Sikai Liang",
+        "Zhikai Zhang",
+        "Yu Guan",
+        "Jilong Wang",
+        "Wenyao Zhang",
+        "Xinqiang Yu",
+        "He Wang",
+        "Li Yi"
+      ],
+      "upvotes": 41,
+      "github": "https://github.com/GalaxyGeneralRobotics/Humanoid-GPT",
+      "published": "2026-06-02T00:00:00.000Z"
+    },
+    {
+      "id": "2606.03979",
+      "title": "Language Models Need Sleep: Learning to Self-Modify and Consolidate Memories",
+      "authors": [
+        "Ali Behrouz",
+        "Farnoosh Hashemi",
+        "Vahab Mirrokni"
+      ],
+      "upvotes": 28,
+      "github": null,
+      "published": "2026-06-02T00:00:00.000Z"
+    },
+    {
+      "id": "2606.03603",
+      "title": "World Models Meet Language Models: On the Complementarity of Concrete and Abstract Reasoning",
+      "authors": [
+        "Yucheng Zhou",
+        "Wei Tao",
+        "Yiwen Guo",
+        "Jianbing Shen"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/yczhou001/PF-OPSD",
+      "published": "2026-06-02T13:07:49.000Z"
+    },
+    {
+      "id": "2606.03748",
+      "title": "Ultralytics YOLO26: Unified Real-Time End-to-End Vision Models",
+      "authors": [
+        "Glenn Jocher",
+        "Jing Qiu",
+        "Mengyu Liu",
+        "Shuai Lyu",
+        "Fatih Cagatay Akyon",
+        "Muhammet Esat Kalfaoglu"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/ultralytics/ultralytics",
+      "published": "2026-06-02T00:00:00.000Z"
+    },
+    {
+      "id": "2606.03264",
+      "title": "PaddleOCR-VL-1.6: Expanding the Frontier of Document Parsing with Under-Optimized Region Refinement and Progressive Post-Training",
+      "authors": [
+        "Zelun Zhang",
+        "Hongen Liu",
+        "Suyin Liang",
+        "Yubo Zhang",
+        "Yiqing Xiang",
+        "Jiaxuan Liu",
+        "Ting Sun",
+        "Manhui Lin",
+        "Yue Zhang",
+        "Changda Zhou",
+        "Tingquan Gao",
+        "Cheng Cui",
+        "Yi Liu",
+        "Dianhai Yu",
+        "Yanjun Ma"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/PaddlePaddle/PaddleOCR",
+      "published": "2026-06-02T00:00:00.000Z"
+    },
+    {
+      "id": "2606.02398",
+      "title": "A Local Perturbation Theory for Cross-Domain Interference and Recovery in Multi-Domain RL",
+      "authors": [
+        "Lei Yang",
+        "Siyu Ding",
+        "Deyi Xiong"
+      ],
+      "upvotes": 25,
+      "github": null,
+      "published": "2026-06-01T00:00:00.000Z"
+    },
+    {
+      "id": "2606.01955",
+      "title": "WALL-WM: Carving World Action Modeling at the Event Joints",
+      "authors": [
+        "Shalfun Li",
+        "Victor Yao",
+        "Charles Yang",
+        "Truth Qu",
+        "Regis Cheng",
+        "Ryan Yu",
+        "Howard Lu",
+        "Newton Von",
+        "Vincent Chen",
+        "Yohann Tang",
+        "Maeve Zhang",
+        "Ellie Ma",
+        "Gody Li",
+        "Sage Yang",
+        "Lorien Shu",
+        "J. W. Gao",
+        "Ethan Chen",
+        "Colin Ye",
+        "Yu Sun",
+        "Elise Mon",
+        "PS Zhang",
+        "Neo Li",
+        "Lily Li",
+        "James Wang",
+        "Ping Yang",
+        "Chris Pan",
+        "Lucy Liang",
+        "Hang Su",
+        "Roy Gan",
+        "Hao Wang",
+        "Qian Wang"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/X-Square-Robot/wall-x",
+      "published": "2026-06-01T00:00:00.000Z"
+    },
+    {
+      "id": "2605.30288",
+      "title": "MIRA: Mid-training Rubric Anchoring for Source-Aware Data Selection",
+      "authors": [
+        "Haowen Wang",
+        "Yaxin Du",
+        "Jian Yang",
+        "Jiajun Wu",
+        "Shukai Liu",
+        "Yuxuan Zhang",
+        "Pingjie Wang",
+        "Siheng Chen",
+        "Tuney Zheng",
+        "Ming Zhou",
+        "Xianglong Liu",
+        "Bryan Dai"
+      ],
+      "upvotes": 21,
+      "github": null,
+      "published": "2026-05-29T00:00:00.000Z"
+    },
+    {
+      "id": "2606.01961",
+      "title": "AutoMedBench: Towards Medical AutoResearch with Agentic AI Models",
+      "authors": [
+        "Junqi Liu",
+        "Selena Song",
+        "Yuhan Wang",
+        "Jiawei Mao",
+        "Hardy Chen",
+        "Xiaoke Huang",
+        "Tianhao Qi",
+        "Pengfei Guo",
+        "Yucheng Tang",
+        "Yufan He",
+        "Can Zhao",
+        "Andriy Myronenko",
+        "Dong Yang",
+        "Daguang Xu",
+        "Yuyin Zhou",
+        "Salena Song"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/AutoMedBench/AutoMedBench",
+      "published": "2026-06-03T00:00:00.000Z"
+    },
+    {
+      "id": "2606.03159",
+      "title": "NVIDIA OmniDreams: Real-Time Generative World Model for Closed-Loop Autonomous Vehicle Simulation",
+      "authors": [
+        "NVIDIA",
+        "Aarti Basant",
+        "Amlan Kar",
+        "Despoina Paschalidou",
+        "Fangyin Wei",
+        "Francesco Ferroni",
+        "Guillermo Garcia Cobo",
+        "Haithem Turki",
+        "Huan Ling",
+        "Jaewoo Seo",
+        "James Lucas",
+        "Jay Zhangjie Wu",
+        "Jialiang Wang",
+        "Jonathan Lorraine",
+        "Jun Gao",
+        "Kai He",
+        "Katarina Tothova",
+        "Kevin Xie",
+        "Michał Tyszkiewicz",
+        "Qi Wu",
+        "Riccardo de Lutio",
+        "Ruilong Li",
+        "Sanja Fidler",
+        "Seung Wook Kim",
+        "Tianchang Shen",
+        "Tianshi Cao",
+        "Tobias Pfaff",
+        "William Lew",
+        "Xindi Wu",
+        "Xuanchi Ren",
+        "Yifan Lu",
+        "Yuxuan Zhang",
+        "Zan Gojcic",
+        "Zian Wang"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/nv-tlabs/omni-dreams",
+      "published": "2026-06-02T00:00:00.000Z"
+    },
+    {
+      "id": "2606.03911",
+      "title": "Bootstrap Your Generator: Unpaired Visual Editing with Flow Matching",
+      "authors": [
+        "Yoad Tewel",
+        "Yuval Atzmon",
+        "Gal Chechik",
+        "Lior Wolf"
+      ],
+      "upvotes": 19,
+      "github": null,
+      "published": "2026-06-02T00:00:00.000Z"
+    },
+    {
+      "id": "2605.30039",
+      "title": "Domain-Specific Data Synthesis for LLMs via Minimal Sufficient Representation Learning",
+      "authors": [
+        "Tong Ye",
+        "Hang Yu",
+        "Tengfei Ma",
+        "Xuhong Zhang",
+        "Jianguo Li",
+        "Peng Di",
+        "Peiyu Liu",
+        "Jianwei Yin",
+        "Wenhai Wang"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/tongye98/DOMINO",
+      "published": "2026-05-29T00:00:00.000Z"
+    },
+    {
+      "id": "2606.01717",
+      "title": "Decentralized Instruction Tuning: Conflict-Aware Splitting and Weight Merging",
+      "authors": [
+        "Minsik Choi",
+        "Geewook Kim"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/naver-ai/merit",
+      "published": "2026-06-01T00:00:00.000Z"
+    },
+    {
+      "id": "2606.01599",
+      "title": "TRON: Targeted Rule-Verifiable Online Environments for Visual Reasoning RL",
+      "authors": [
+        "Tianze Yang",
+        "Yucheng Shi",
+        "Ruitong Sun",
+        "Jingyuan Huang",
+        "Ninghao Liu",
+        "Jin Sun"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/YangTianze009/TRON",
+      "published": "2026-06-01T02:52:49.000Z"
+    },
+    {
+      "id": "2606.03102",
+      "title": "Small RL Controller, Large Language Model: RL-Guided Adaptive Sampling for Test-Time Scaling",
+      "authors": [
+        "Runpeng Dai",
+        "Tong Zheng",
+        "Rui Liu",
+        "Chengsong Huang",
+        "Hongtu Zhu"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2026-06-02T03:42:04.000Z"
+    },
+    {
+      "id": "2606.01048",
+      "title": "Decoupled Residual Denoising Diffusion Models for Unified and Data Efficient Image-to-Image Translation",
+      "authors": [
+        "Ziyue Lin",
+        "Jiahe Hou",
+        "Hongyu Xia",
+        "Xinrui Xie",
+        "Feifei Wang",
+        "Yuyin Zhou",
+        "Wei Wang",
+        "Jiawei Liu",
+        "Liangqiong Qu"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/HKU-HealthAI/DRDD",
+      "published": "2026-05-31T06:38:18.000Z"
+    },
+    {
+      "id": "2606.02754",
+      "title": "Ψ-Bench: Evaluating Persona-Sensitive Influencing in Persuasive Dialogues",
+      "authors": [
+        "Peixuan Han",
+        "Hongyi Du",
+        "Jiayu Liu",
+        "Yihang Sun",
+        "Yutong Liu",
+        "Jiaxuan You"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2026-06-01T18:20:27.000Z"
+    },
+    {
+      "id": "2606.01770",
+      "title": "Adaptive Auto-Harness: Sustained Self-Improvement for Agentic System Deployment on Open-Ended Task Streams",
+      "authors": [
+        "Zewen Liu",
+        "Zhan Shi",
+        "Yisi Sang",
+        "Bing He",
+        "Minhua Lin",
+        "Tianxin Wei",
+        "Dakuo Wang",
+        "Benoit Dumoulin",
+        "Wei Jin",
+        "Hanqing Lu"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2026-06-01T06:51:14.000Z"
+    },
+    {
+      "id": "2606.01788",
+      "title": "PlatonicNav: Unveiling Semantic Correspondence in Navigation with Platonic Topological Maps",
+      "authors": [
+        "Junlin Long",
+        "Zeyu Zhang",
+        "Xu Deng",
+        "Yiran Wang",
+        "Yue Yang",
+        "Luke Borgnolo",
+        "Maxwell Twelftree",
+        "Yang Zhao"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/AIGeeksGroup/PlatonicNav",
+      "published": "2026-06-01T00:00:00.000Z"
+    },
+    {
+      "id": "2606.04433",
+      "title": "Stateful Visual Encoders for Vision-Language Models",
+      "authors": [
+        "Zirui Wang",
+        "Junwei Yu",
+        "Adam Yala",
+        "David M. Chan",
+        "Joseph E. Gonzalez",
+        "Trevor Darrell"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/StatefulVisualEncoders/StatefulVisualEncoders",
+      "published": "2026-06-03T00:00:00.000Z"
+    },
+    {
+      "id": "2606.01476",
+      "title": "OmniOPD: Logit-Free On-Policy Distillation via Speculative Verification",
+      "authors": [
+        "Yuhang Zhou",
+        "Lizhu Zhang",
+        "Yifan Wu",
+        "Mingyi Wang",
+        "Peng Bo",
+        "Jiayi Liu",
+        "Xiangjun Fan",
+        "Zhuokai Zhao"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2026-05-31T00:00:00.000Z"
+    },
+    {
+      "id": "2605.29288",
+      "title": "Diagnosing Harmful Continuation in Answer-Correct Long-CoT Training Traces",
+      "authors": [
+        "Chen He",
+        "Yuhao Wu",
+        "Lei Wang",
+        "Wenxuan Zhang",
+        "Fumin Shen"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2026-05-28T00:00:00.000Z"
+    },
+    {
+      "id": "2606.02461",
+      "title": "AgentCL: Toward Rigorous Evaluation of Continual Learning in Language Agents",
+      "authors": [
+        "Yiheng Shu",
+        "Bernal Jiménez Gutiérrez",
+        "Saisri Padmaja Jonnalagedda",
+        "Yuguang Yao",
+        "Huan Sun",
+        "Yu Su"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2026-06-02T00:00:00.000Z"
+    },
+    {
+      "id": "2606.00386",
+      "title": "αDepth: Learning Single-Pass Soft Boundary Decomposition for Stereo Conversion",
+      "authors": [
+        "Xiang Zhang",
+        "Yang Zhang",
+        "Lukas Mehl",
+        "Karlis Martins Briedis",
+        "Markus Gross",
+        "Christopher Schroers"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2026-05-29T00:00:00.000Z"
+    },
+    {
+      "id": "2605.27346",
+      "title": "MERIT: Learning Disentangled Music Representations for Audio Similarity",
+      "authors": [
+        "Abhinaba Roy",
+        "Junyi Liang",
+        "Dorien Herremans"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/AMAAI-Lab/MERIT",
+      "published": "2026-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "2606.03928",
+      "title": "Value-Aware Stochastic KV Cache Eviction for Reasoning Models",
+      "authors": [
+        "Ting-Yun Chang",
+        "Harvey Yiyun Fu",
+        "Deqing Fu",
+        "Chenghao Yang",
+        "Jesse Thomason",
+        "Robin Jia"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/terarachang/VaSE",
+      "published": "2026-06-02T17:16:33.000Z"
+    },
+    {
+      "id": "2606.03029",
+      "title": "Conditional Hypothesis Generation for LLM-Based Text Analysis with Researcher-Specified Covariates",
+      "authors": [
+        "Paiheng Xu",
+        "Jing Liu",
+        "Wei Ai"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-06-02T02:07:46.000Z"
+    },
+    {
+      "id": "2606.02578",
+      "title": "Mitigating Perceptual Judgment Bias in Multimodal LLM-as-a-Judge via Perceptual Perturbation and Reward Modeling",
+      "authors": [
+        "Seojeong Park",
+        "Jiho Choi",
+        "Junyong Kang",
+        "Seonho Lee",
+        "Jaeyo Shin",
+        "Hyunjung Shim"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/kaist-cvml/perception-judge",
+      "published": "2026-06-01T00:00:00.000Z"
+    },
+    {
+      "id": "2606.04889",
+      "title": "GRAIL: Gradient-Reweighted Advantages for Reinforcement Learning with Verifiable Rewards",
+      "authors": [
+        "Tej Deep Pala",
+        "Vernon Toh",
+        "Soujanya Poria"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/declare-lab/grail",
+      "published": "2026-06-03T00:00:00.000Z"
+    },
+    {
+      "id": "2606.04455",
+      "title": "The Meta-Agent Challenge: Are Current Agents Capable of Autonomous Agent Development?",
+      "authors": [
+        "Xinyu Lu",
+        "Tianshu Wang",
+        "Pengbo Wang",
+        "zujie wen",
+        "Zhiqiang Zhang",
+        "Jun Zhou",
+        "Boxi Cao",
+        "Yaojie Lu",
+        "Hongyu Lin",
+        "Xianpei Han",
+        "Le Sun"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/ant-research/meta-agent-challenge",
+      "published": "2026-06-03T00:00:00.000Z"
+    },
+    {
+      "id": "2606.01494",
+      "title": "ClawHub Security Signals: When VirusTotal, Static Analysis, and SkillSpector Disagree",
+      "authors": [
+        "Vincent Koc",
+        "Patrick Erichsen",
+        "Jacob Tomlinson",
+        "Agustin Rivera",
+        "Michael Appel",
+        "Nir Paz"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-05-31T23:20:25.000Z"
+    },
+    {
+      "id": "2606.00138",
+      "title": "A Multi-AI-agent Framework Enabling End-to-end Finite Element Analysis for Solid Mechanics Problems",
+      "authors": [
+        "Titu Ranjan Sarker",
+        "Muhammed Jawaad Zulqernine",
+        "Ling Yue",
+        "Shaowu Pan",
+        "Chenxi Wang",
+        "Shiyao Lin"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/LIRAM-LIN/AbaqusAgent",
+      "published": "2026-05-28T00:00:00.000Z"
+    },
+    {
+      "id": "2606.03348",
+      "title": "SynCred-Bench: Benchmarking Synthetic Credibility in AI-Generated Visual Misinformation",
+      "authors": [
+        "Junxiao Yang",
+        "Minghao Zhang",
+        "Xiaoce Wang",
+        "Haoran Liu",
+        "Shiyao Cui",
+        "Hongning Wang",
+        "Minlie Huang"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2026-06-02T00:00:00.000Z"
+    },
+    {
+      "id": "2605.30581",
+      "title": "Prior Availability in Industrial Visual Sim-to-Real: A Review of CAD-Guided and CAD-Unavailable Regimes",
+      "authors": [
+        "Chenxi Tao",
+        "Seung-Kyum Choi"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/JacksonTao888/industrial-visual-sim2real-priors",
+      "published": "2026-05-28T00:00:00.000Z"
+    },
+    {
+      "id": "2606.03287",
+      "title": "BA-T: An Iterative Transformer for Two-View Bundle Adjustment",
+      "authors": [
+        "Ganlin Zhang",
+        "Weirong Chen",
+        "Daniel Cremers",
+        "Xi Wang"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/zhangganlin/BA-T",
+      "published": "2026-06-02T00:00:00.000Z"
+    },
+    {
+      "id": "2606.02775",
+      "title": "AURA: Action-Gated Memory for Robot Policies at Constant VRAM",
+      "authors": [
+        "Josef Chen"
+      ],
+      "upvotes": 0,
+      "github": null,
+      "published": "2026-06-01T18:38:21.000Z"
+    },
+    {
+      "id": "2605.27958",
+      "title": "Pressure-Testing Deception Probes in LLMs: Scaling, Robustness, and the Geometry of Deceptive Representations",
+      "authors": [
+        "Sachin Kumar"
+      ],
+      "upvotes": 0,
+      "github": "https://github.com/techsachinkr/llm-deception-probe-stress-test",
+      "published": "2026-05-27T04:51:55.000Z"
+    }
+  ]
+}

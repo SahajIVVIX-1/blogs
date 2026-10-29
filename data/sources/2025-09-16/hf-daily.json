@@ -1,0 +1,336 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-09-16",
+  "fetched_at": "2026-10-29T15:33:11.587Z",
+  "candidates": [
+    {
+      "id": "2509.12201",
+      "title": "OmniWorld: A Multi-Domain and Multi-Modal Dataset for 4D World Modeling",
+      "authors": [
+        "Yang Zhou",
+        "Yifan Wang",
+        "Jianjun Zhou",
+        "Wenzheng Chang",
+        "Haoyu Guo",
+        "Zizun Li",
+        "Kaijing Ma",
+        "Xinyue Li",
+        "Yating Wang",
+        "Haoyi Zhu",
+        "Mingyu Liu",
+        "Dingning Liu",
+        "Jiange Yang",
+        "Zhoujie Fu",
+        "Junyi Chen",
+        "Chunhua Shen",
+        "Jiangmiao Pang",
+        "Kaipeng Zhang",
+        "Tong He"
+      ],
+      "upvotes": 107,
+      "github": "https://github.com/yangzhou24/OmniWorld",
+      "published": "2025-09-15T17:59:19.000Z"
+    },
+    {
+      "id": "2509.11543",
+      "title": "UI-S1: Advancing GUI Automation via Semi-online Reinforcement Learning",
+      "authors": [
+        "Zhengxi Lu",
+        "Jiabo Ye",
+        "Fei Tang",
+        "Yongliang Shen",
+        "Haiyang Xu",
+        "Ziwei Zheng",
+        "Weiming Lu",
+        "Ming Yan",
+        "Fei Huang",
+        "Jun Xiao",
+        "Yueting Zhuang"
+      ],
+      "upvotes": 50,
+      "github": null,
+      "published": "2025-09-15T03:24:08.000Z"
+    },
+    {
+      "id": "2509.10813",
+      "title": "InternScenes: A Large-scale Simulatable Indoor Scene Dataset with Realistic Layouts",
+      "authors": [
+        "Weipeng Zhong",
+        "Peizhou Cao",
+        "Yichen Jin",
+        "Li Luo",
+        "Wenzhe Cai",
+        "Jingli Lin",
+        "Hanqing Wang",
+        "Zhaoyang Lyu",
+        "Tai Wang",
+        "Bo Dai",
+        "Xudong Xu",
+        "Jiangmiao Pang"
+      ],
+      "upvotes": 31,
+      "github": "https://github.com/InternRobotics/InternScenes",
+      "published": "2025-09-13T14:25:17.000Z"
+    },
+    {
+      "id": "2509.07403",
+      "title": "LongEmotion: Measuring Emotional Intelligence of Large Language Models in Long-Context Interaction",
+      "authors": [
+        "Weichu Liu",
+        "Jing Xiong",
+        "Yuxuan Hu",
+        "Zixuan Li",
+        "Minghuan Tan",
+        "Ningning Mao",
+        "Chenyang Zhao",
+        "Zhongwei Wan",
+        "Chaofan Tao",
+        "Wendong Xu",
+        "Hui Shen",
+        "Chengming Li",
+        "Lingpeng Kong",
+        "Ngai Wong"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/LongEmotion/LongEmotion",
+      "published": "2025-09-09T05:32:45.000Z"
+    },
+    {
+      "id": "2509.11986",
+      "title": "Lost in Embeddings: Information Loss in Vision-Language Models",
+      "authors": [
+        "Wenyan Li",
+        "Raphael Tang",
+        "Chengzu Li",
+        "Caiqi Zhang",
+        "Ivan Vulić",
+        "Anders Søgaard"
+      ],
+      "upvotes": 29,
+      "github": "https://github.com/lyan62/vlm-info-loss",
+      "published": "2025-09-15T14:38:06.000Z"
+    },
+    {
+      "id": "2509.12203",
+      "title": "LazyDrag: Enabling Stable Drag-Based Editing on Multi-Modal Diffusion Transformers via Explicit Correspondence",
+      "authors": [
+        "Zixin Yin",
+        "Xili Dai",
+        "Duomin Wang",
+        "Xianfang Zeng",
+        "Lionel M. Ni",
+        "Gang Yu",
+        "Heung-Yeung Shum"
+      ],
+      "upvotes": 20,
+      "github": null,
+      "published": "2025-09-15T17:59:47.000Z"
+    },
+    {
+      "id": "2509.10708",
+      "title": "SearchInstruct: Enhancing Domain Adaptation via Retrieval-Based Instruction Dataset Creation",
+      "authors": [
+        "Iman Barati",
+        "Mostafa Amiri",
+        "Heshaam Faili"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/mostafaamiri/SearchInstruct",
+      "published": "2025-09-12T21:50:39.000Z"
+    },
+    {
+      "id": "2509.11452",
+      "title": "Learning to Optimize Multi-Objective Alignment Through Dynamic Reward Weighting",
+      "authors": [
+        "Yining Lu",
+        "Zilong Wang",
+        "Shiyang Li",
+        "Xin Liu",
+        "Changlong Yu",
+        "Qingyu Yin",
+        "Zhan Shi",
+        "Zixuan Zhang",
+        "Meng Jiang"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/yining610/dynamic-reward-weighting",
+      "published": "2025-09-14T21:56:35.000Z"
+    },
+    {
+      "id": "2509.09672",
+      "title": "Locality in Image Diffusion Models Emerges from Data Statistics",
+      "authors": [
+        "Artem Lukoianov",
+        "Chenyang Yuan",
+        "Justin Solomon",
+        "Vincent Sitzmann"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/ottogin/locality-in-diffusion-models",
+      "published": "2025-09-11T17:59:08.000Z"
+    },
+    {
+      "id": "2509.10884",
+      "title": "Nav-R1: Reasoning and Navigation in Embodied Scenes",
+      "authors": [
+        "Qingxiang Liu",
+        "Ting Huang",
+        "Zeyu Zhang",
+        "Hao Tang"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/AIGeeksGroup/Nav-R1",
+      "published": "2025-09-13T16:31:03.000Z"
+    },
+    {
+      "id": "2509.12132",
+      "title": "Look Again, Think Slowly: Enhancing Visual Reflection in Vision-Language Models",
+      "authors": [
+        "Pu Jian",
+        "Junhong Wu",
+        "Wei Sun",
+        "Chen Wang",
+        "Shuo Ren",
+        "Jiajun Zhang"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2025-09-15T16:57:25.000Z"
+    },
+    {
+      "id": "2509.09658",
+      "title": "Measuring Epistemic Humility in Multimodal Large Language Models",
+      "authors": [
+        "Bingkui Tong",
+        "Jiaer Xia",
+        "Sifeng Shang",
+        "Kaiyang Zhou"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/maifoundations/HumbleBench",
+      "published": "2025-09-11T17:54:00.000Z"
+    },
+    {
+      "id": "2509.11362",
+      "title": "PersonaX: Multimodal Datasets with LLM-Inferred Behavior Traits",
+      "authors": [
+        "Loka Li",
+        "Wong Yu Kang",
+        "Minghao Fu",
+        "Guangyi Chen",
+        "Zhenhao Chen",
+        "Gongxu Luo",
+        "Yuewen Sun",
+        "Salman Khan",
+        "Peter Spirtes",
+        "Kun Zhang"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-09-14T17:30:03.000Z"
+    },
+    {
+      "id": "2509.11425",
+      "title": "FuseCodec: Semantic-Contextual Fusion and Supervision for Neural Codecs",
+      "authors": [
+        "Md Mubtasim Ahasan",
+        "Rafat Hasan Khan",
+        "Tasnim Mohiuddin",
+        "Aman Chadha",
+        "Tariq Iqbal",
+        "M Ashraful Amin",
+        "Amin Ahsan Ali",
+        "Md Mofijul Islam",
+        "A K M Mahbubur Rahman"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/mubtasimahasan/FuseCodec",
+      "published": "2025-09-14T20:35:36.000Z"
+    },
+    {
+      "id": "2509.11963",
+      "title": "ToolRM: Outcome Reward Models for Tool-Calling Large Language Models",
+      "authors": [
+        "Mayank Agarwal",
+        "Ibrahim Abdelaziz",
+        "Kinjal Basu",
+        "Merve Unuvar",
+        "Luis A. Lastras",
+        "Yara Rizk",
+        "Pavan Kapanipathi"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-09-15T14:17:17.000Z"
+    },
+    {
+      "id": "2509.10844",
+      "title": "GAPrune: Gradient-Alignment Pruning for Domain-Aware Embeddings",
+      "authors": [
+        "Yixuan Tang",
+        "Yi Yang"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/yixuantt/GAPrune",
+      "published": "2025-09-13T15:03:37.000Z"
+    },
+    {
+      "id": "2509.11444",
+      "title": "CognitiveSky: Scalable Sentiment and Narrative Analysis for Decentralized Social Media",
+      "authors": [
+        "Gaurab Chhetri",
+        "Anandi Dutta",
+        "Subasish Das"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/gauravfs-14/CognitiveSky",
+      "published": "2025-09-14T21:37:24.000Z"
+    },
+    {
+      "id": "2509.11492",
+      "title": "ClaimIQ at CheckThat! 2025: Comparing Prompted and Fine-Tuned Language Models for Verifying Numerical Claims",
+      "authors": [
+        "Anirban Saha Anik",
+        "Md Fahimul Kabir Chowdhury",
+        "Andrew Wyckoff",
+        "Sagnik Ray Choudhury"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2025-09-15T01:03:09.000Z"
+    },
+    {
+      "id": "2509.11866",
+      "title": "Dr.V: A Hierarchical Perception-Temporal-Cognition Framework to Diagnose Video Hallucination by Fine-grained Spatial-Temporal Grounding",
+      "authors": [
+        "Meng Luo",
+        "Shengqiong Wu",
+        "Liqiang Jing",
+        "Tianjie Ju",
+        "Li Zheng",
+        "Jinxiang Lai",
+        "Tianlong Wu",
+        "Xinya Du",
+        "Jian Li",
+        "Siyuan Yan",
+        "Jiebo Luo",
+        "William Yang Wang",
+        "Hao Fei",
+        "Mong-Li Lee",
+        "Wynne Hsu"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/Eurekaleo/Dr.V",
+      "published": "2025-09-15T12:39:19.000Z"
+    },
+    {
+      "id": "2509.11648",
+      "title": "EthicsMH: A Pilot Benchmark for Ethical Reasoning in Mental Health AI",
+      "authors": [
+        "Sai Kartheek Reddy Kasu"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2025-09-15T07:35:35.000Z"
+    }
+  ]
+}

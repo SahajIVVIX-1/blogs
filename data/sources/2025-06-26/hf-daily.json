@@ -1,0 +1,287 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-06-26",
+  "fetched_at": "2026-10-29T15:31:56.854Z",
+  "candidates": [
+    {
+      "id": "2506.20920",
+      "title": "FineWeb2: One Pipeline to Scale Them All -- Adapting Pre-Training Data Processing to Every Language",
+      "authors": [
+        "Guilherme Penedo",
+        "Hynek Kydlíček",
+        "Vinko Sabolčec",
+        "Bettina Messmer",
+        "Negar Foroutan",
+        "Amir Hossein Kargaran",
+        "Colin Raffel",
+        "Martin Jaggi",
+        "Leandro Von Werra",
+        "Thomas Wolf"
+      ],
+      "upvotes": 81,
+      "github": "https://github.com/huggingface/fineweb-2",
+      "published": "2025-06-26T01:01:47.000Z"
+    },
+    {
+      "id": "2506.18095",
+      "title": "ShareGPT-4o-Image: Aligning Multimodal Models with GPT-4o-Level Image Generation",
+      "authors": [
+        "Junying Chen",
+        "Zhenyang Cai",
+        "Pengcheng Chen",
+        "Shunian Chen",
+        "Ke Ji",
+        "Xidong Wang",
+        "Yunjin Yang",
+        "Benyou Wang"
+      ],
+      "upvotes": 66,
+      "github": "https://github.com/FreedomIntelligence/ShareGPT-4o-Image",
+      "published": "2025-06-22T16:51:09.000Z"
+    },
+    {
+      "id": "2506.20512",
+      "title": "OctoThinker: Mid-training Incentivizes Reinforcement Learning Scaling",
+      "authors": [
+        "Zengzhi Wang",
+        "Fan Zhou",
+        "Xuefeng Li",
+        "Pengfei Liu"
+      ],
+      "upvotes": 49,
+      "github": "https://github.com/GAIR-NLP/OctoThinker",
+      "published": "2025-06-25T14:58:13.000Z"
+    },
+    {
+      "id": "2506.19697",
+      "title": "Outlier-Safe Pre-Training for Robust 4-Bit Quantization of Large Language Models",
+      "authors": [
+        "Jungwoo Park",
+        "Taewhoo Lee",
+        "Chanwoong Yoon",
+        "Hyeon Hwang",
+        "Jaewoo Kang"
+      ],
+      "upvotes": 45,
+      "github": "https://github.com/dmis-lab/Outlier-Safe-Pre-Training",
+      "published": "2025-06-24T15:03:57.000Z"
+    },
+    {
+      "id": "2506.19103",
+      "title": "Inverse-and-Edit: Effective and Fast Image Editing by Cycle Consistency Models",
+      "authors": [
+        "Ilia Beletskii",
+        "Andrey Kuznetsov",
+        "Aibek Alanov"
+      ],
+      "upvotes": 42,
+      "github": "https://github.com/ControlGenAI/Inverse-and-Edit",
+      "published": "2025-06-23T20:34:43.000Z"
+    },
+    {
+      "id": "2506.16012",
+      "title": "DualTHOR: A Dual-Arm Humanoid Simulation Platform for Contingency-Aware Planning",
+      "authors": [
+        "Boyu Li",
+        "Siyuan He",
+        "Hang Xu",
+        "Haoqi Yuan",
+        "Yu Zang",
+        "Liwei Hu",
+        "Junpeng Yue",
+        "Zhenxiong Jiang",
+        "Pengbo Hu",
+        "Börje F. Karlsson",
+        "Yehui Tang",
+        "Zongqing Lu"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/ds199895/dualthor",
+      "published": "2025-06-19T04:13:36.000Z"
+    },
+    {
+      "id": "2506.20452",
+      "title": "HiWave: Training-Free High-Resolution Image Generation via Wavelet-Based Diffusion Sampling",
+      "authors": [
+        "Tobias Vontobel",
+        "Seyedmorteza Sadat",
+        "Farnood Salehi",
+        "Romann M. Weber"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2025-06-25T13:58:37.000Z"
+    },
+    {
+      "id": "2506.18088",
+      "title": "RoboTwin 2.0: A Scalable Data Generator and Benchmark with Strong Domain Randomization for Robust Bimanual Robotic Manipulation",
+      "authors": [
+        "Tianxing Chen",
+        "Zanxin Chen",
+        "Baijun Chen",
+        "Zijian Cai",
+        "Yibin Liu",
+        "Qiwei Liang",
+        "Zixuan Li",
+        "Xianliang Lin",
+        "Yiheng Ge",
+        "Zhenyu Gu",
+        "Weiliang Deng",
+        "Yubin Guo",
+        "Tian Nian",
+        "Xuanbing Xie",
+        "Qiangyu Chen",
+        "Kailun Su",
+        "Tianling Xu",
+        "Guodong Liu",
+        "Mengkang Hu",
+        "Huan-ang Gao",
+        "Kaixuan Wang",
+        "Zhixuan Liang",
+        "Yusen Qin",
+        "Xiaokang Yang",
+        "Ping Luo",
+        "Yao Mu"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/robotwin-Platform/RoboTwin",
+      "published": "2025-06-22T16:26:53.000Z"
+    },
+    {
+      "id": "2506.19143",
+      "title": "Thought Anchors: Which LLM Reasoning Steps Matter?",
+      "authors": [
+        "Paul C. Bogdan",
+        "Uzay Macar",
+        "Neel Nanda",
+        "Arthur Conmy"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/interp-reasoning/principled-attribution",
+      "published": "2025-06-23T21:28:45.000Z"
+    },
+    {
+      "id": "2506.20544",
+      "title": "When Life Gives You Samples: The Benefits of Scaling up Inference Compute for Multilingual LLMs",
+      "authors": [
+        "Ammar Khairi",
+        "Daniel D'souza",
+        "Ye Shen",
+        "Julia Kreutzer",
+        "Sara Hooker"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2025-06-25T15:37:53.000Z"
+    },
+    {
+      "id": "2506.20495",
+      "title": "ReCode: Updating Code API Knowledge with Reinforcement Learning",
+      "authors": [
+        "Haoze Wu",
+        "Yunzhi Yao",
+        "Wenhao Yu",
+        "Huajun Chen",
+        "Ningyu Zhang"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/zjunlp/ReCode",
+      "published": "2025-06-25T14:41:13.000Z"
+    },
+    {
+      "id": "2506.18674",
+      "title": "Is There a Case for Conversation Optimized Tokenizers in Large Language Models?",
+      "authors": [
+        "Raquel Ferrando",
+        "Javier Conde",
+        "Gonzalo Martínez",
+        "Pedro Reviriego"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2025-06-23T14:18:46.000Z"
+    },
+    {
+      "id": "2506.18899",
+      "title": "FilMaster: Bridging Cinematic Principles and Generative AI for Automated Film Generation",
+      "authors": [
+        "Kaiyi Huang",
+        "Yukun Huang",
+        "Xintao Wang",
+        "Zinan Lin",
+        "Xuefei Ning",
+        "Pengfei Wan",
+        "Di Zhang",
+        "Yu Wang",
+        "Xihui Liu"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2025-06-23T17:59:16.000Z"
+    },
+    {
+      "id": "2506.20331",
+      "title": "Biomed-Enriched: A Biomedical Dataset Enriched with LLMs for Pretraining and Extracting Rare and Hidden Content",
+      "authors": [
+        "Rian Touchent",
+        "Nathan Godey",
+        "Eric de la Clergerie"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2025-06-25T11:30:25.000Z"
+    },
+    {
+      "id": "2506.20480",
+      "title": "GPTailor: Large Language Model Pruning Through Layer Cutting and Stitching",
+      "authors": [
+        "Guinan Su",
+        "Li Shen",
+        "Lu Yin",
+        "Shiwei Liu",
+        "Yanwu Yang",
+        "Jonas Geiping"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/Guinan-Su/auto-merge-llm",
+      "published": "2025-06-25T14:24:59.000Z"
+    },
+    {
+      "id": "2506.18315",
+      "title": "Use Property-Based Testing to Bridge LLM Code Generation and Validation",
+      "authors": [
+        "Lehan He",
+        "Zeren Chen",
+        "Zhe Zhang",
+        "Jing Shao",
+        "Xiang Gao",
+        "Lu Sheng"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/HeLeHanPrivate/PBTwithCodeGen",
+      "published": "2025-06-23T06:01:12.000Z"
+    },
+    {
+      "id": "2506.19502",
+      "title": "MATE: LLM-Powered Multi-Agent Translation Environment for Accessibility Applications",
+      "authors": [
+        "Aleksandr Algazinov",
+        "Matt Laing",
+        "Paul Laban"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/AlgazinovAleksandr/Multi-Agent-MATE",
+      "published": "2025-06-24T10:40:23.000Z"
+    },
+    {
+      "id": "2506.18403",
+      "title": "The Debugging Decay Index: Rethinking Debugging Strategies for Code LLMs",
+      "authors": [
+        "Muntasir Adnan",
+        "Carlos C. N. Kuhn"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2025-06-23T08:40:45.000Z"
+    }
+  ]
+}

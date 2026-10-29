@@ -1,0 +1,537 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-01-09",
+  "fetched_at": "2026-10-29T15:34:21.191Z",
+  "candidates": [
+    {
+      "id": "2601.05242",
+      "title": "GDPO: Group reward-Decoupled Normalization Policy Optimization for Multi-reward RL Optimization",
+      "authors": [
+        "Shih-Yang Liu",
+        "Xin Dong",
+        "Ximing Lu",
+        "Shizhe Diao",
+        "Peter Belcak",
+        "Mingjie Liu",
+        "Min-Hung Chen",
+        "Hongxu Yin",
+        "Yu-Chiang Frank Wang",
+        "Kwang-Ting Cheng",
+        "Yejin Choi",
+        "Jan Kautz",
+        "Pavlo Molchanov"
+      ],
+      "upvotes": 236,
+      "github": "https://github.com/NVlabs/GDPO",
+      "published": "2026-01-08T18:59:24.000Z"
+    },
+    {
+      "id": "2601.05249",
+      "title": "RL-AWB: Deep Reinforcement Learning for Auto White Balance Correction in Low-Light Night-time Scenes",
+      "authors": [
+        "Yuan-Kang Lee",
+        "Kuan-Lin Chen",
+        "Chia-Che Chang",
+        "Yu-Lun Liu"
+      ],
+      "upvotes": 47,
+      "github": "https://github.com/BrianChen1120/RL-AWB",
+      "published": "2026-01-08T18:59:55.000Z"
+    },
+    {
+      "id": "2601.04890",
+      "title": "Learnable Multipliers: Freeing the Scale of Language Model Matrix Layers",
+      "authors": [
+        "Maksim Velikanov",
+        "Ilyas Chahed",
+        "Jingwei Zuo",
+        "Dhia Eddine Rhaiem",
+        "Younes Belkada",
+        "Hakim Hacid"
+      ],
+      "upvotes": 45,
+      "github": null,
+      "published": "2026-01-08T12:41:49.000Z"
+    },
+    {
+      "id": "2601.05106",
+      "title": "Token-Level LLM Collaboration via FusionRoute",
+      "authors": [
+        "Nuoya Xiong",
+        "Yuhang Zhou",
+        "Hanqing Zeng",
+        "Zhaorun Chen",
+        "Furong Huang",
+        "Shuchao Bi",
+        "Lizhu Zhang",
+        "Zhuokai Zhao"
+      ],
+      "upvotes": 40,
+      "github": null,
+      "published": "2026-01-08T16:53:16.000Z"
+    },
+    {
+      "id": "2601.05175",
+      "title": "VideoAuto-R1: Video Auto Reasoning via Thinking Once, Answering Twice",
+      "authors": [
+        "Shuming Liu",
+        "Mingchen Zhuge",
+        "Changsheng Zhao",
+        "Jun Chen",
+        "Lemeng Wu",
+        "Zechun Liu",
+        "Chenchen Zhu",
+        "Zhipeng Cai",
+        "Chong Zhou",
+        "Haozhe Liu",
+        "Ernie Chang",
+        "Saksham Suri",
+        "Hongyu Xu",
+        "Qi Qian",
+        "Wei Wen",
+        "Balakrishnan Varadarajan",
+        "Zhuang Liu",
+        "Hu Xu",
+        "Florian Bordes",
+        "Raghuraman Krishnamoorthi",
+        "Bernard Ghanem",
+        "Vikas Chandra",
+        "Yunyang Xiong"
+      ],
+      "upvotes": 38,
+      "github": "https://github.com/IVUL-KAUST/VideoAuto-R1",
+      "published": "2026-01-08T18:00:59.000Z"
+    },
+    {
+      "id": "2601.05167",
+      "title": "RelayLLM: Efficient Reasoning via Collaborative Decoding",
+      "authors": [
+        "Chengsong Huang",
+        "Tong Zheng",
+        "Langlin Huang",
+        "Jinyuan Li",
+        "Haolin Liu",
+        "Jiaxin Huang"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/Chengsong-Huang/RelayLLM",
+      "published": "2026-01-08T17:56:16.000Z"
+    },
+    {
+      "id": "2601.04767",
+      "title": "AT^2PO: Agentic Turn-based Policy Optimization via Tree Search",
+      "authors": [
+        "Zefang Zong",
+        "Dingwei Chen",
+        "Yang Li",
+        "Qi Yi",
+        "Bo Zhou",
+        "Chengming Li",
+        "Bo Qian",
+        "Peng Chen",
+        "Jie Jiang"
+      ],
+      "upvotes": 28,
+      "github": "https://github.com/zzfoutofspace/ATPO",
+      "published": "2026-01-08T09:35:49.000Z"
+    },
+    {
+      "id": "2601.05241",
+      "title": "RoboVIP: Multi-View Video Generation with Visual Identity Prompting Augments Robot Manipulation",
+      "authors": [
+        "Boyang Wang",
+        "Haoran Zhang",
+        "Shujie Zhang",
+        "Jinkun Hao",
+        "Mingda Jia",
+        "Qi Lv",
+        "Yucheng Mao",
+        "Zhaoyang Lyu",
+        "Jia Zeng",
+        "Xudong Xu",
+        "Jiangmiao Pang"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/RoboVIP/RoboVIP_VDM",
+      "published": "2026-01-08T18:59:22.000Z"
+    },
+    {
+      "id": "2512.21815",
+      "title": "Few Tokens Matter: Entropy Guided Attacks on Vision-Language Models",
+      "authors": [
+        "Mengqi He",
+        "Xinyu Tian",
+        "Xin Shen",
+        "Jinhong Ni",
+        "Shu Zou",
+        "Zhaoyuan Yang",
+        "Jing Zhang"
+      ],
+      "upvotes": 22,
+      "github": null,
+      "published": "2025-12-26T01:01:25.000Z"
+    },
+    {
+      "id": "2601.05111",
+      "title": "Agent-as-a-Judge",
+      "authors": [
+        "Runyang You",
+        "Hongru Cai",
+        "Caiqi Zhang",
+        "Qiancheng Xu",
+        "Meng Liu",
+        "Tiezheng Yu",
+        "Yongqi Li",
+        "Wenjie Li"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/ModalityDance/Awesome-Agent-as-a-Judge",
+      "published": "2026-01-08T16:58:10.000Z"
+    },
+    {
+      "id": "2601.05138",
+      "title": "VerseCrafter: Dynamic Realistic Video World Model with 4D Geometric Control",
+      "authors": [
+        "Sixiao Zheng",
+        "Minghao Yin",
+        "Wenbo Hu",
+        "Xiaoyu Li",
+        "Ying Shan",
+        "Yanwei Fu"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/TencentARC/VerseCrafter",
+      "published": "2026-01-08T17:28:52.000Z"
+    },
+    {
+      "id": "2601.03425",
+      "title": "The Illusion of Specialization: Unveiling the Domain-Invariant \"Standing Committee\" in Mixture-of-Experts Models",
+      "authors": [
+        "Yan Wang",
+        "Yitao Xu",
+        "Nanhan Shen",
+        "Jinyan Su",
+        "Jimin Huang",
+        "Zining Zhu"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2026-01-06T21:29:45.000Z"
+    },
+    {
+      "id": "2601.03559",
+      "title": "DiffCoT: Diffusion-styled Chain-of-Thought Reasoning in LLMs",
+      "authors": [
+        "Shidong Cao",
+        "Hongzhan Lin",
+        "Yuxuan Gu",
+        "Ziyang Luo",
+        "Jing Ma"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/caoshidong66/DiffCoT",
+      "published": "2026-01-07T03:58:42.000Z"
+    },
+    {
+      "id": "2601.04575",
+      "title": "Scaling Behavior Cloning Improves Causal Reasoning: An Open Model for Real-Time Video Game Playing",
+      "authors": [
+        "Yuguang Yue",
+        "Irakli Salia",
+        "Samuel Hunt",
+        "Chris Green",
+        "Wenzhe Shi",
+        "Jonathan J Hunt"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/elefant-ai/open-p2p",
+      "published": "2026-01-08T04:06:17.000Z"
+    },
+    {
+      "id": "2601.05239",
+      "title": "Plenoptic Video Generation",
+      "authors": [
+        "Xiao Fu",
+        "Shitao Tang",
+        "Min Shi",
+        "Xian Liu",
+        "Jinwei Gu",
+        "Ming-Yu Liu",
+        "Dahua Lin",
+        "Chen-Hsuan Lin"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2026-01-08T18:58:32.000Z"
+    },
+    {
+      "id": "2601.03111",
+      "title": "One Sample to Rule Them All: Extreme Data Efficiency in RL Scaling",
+      "authors": [
+        "Yiyuan Li",
+        "Zhen Huang",
+        "Yanan Wu",
+        "Weixun Wang",
+        "Xuefeng Li",
+        "Yijia Luo",
+        "Wenbo Su",
+        "Bo Zheng",
+        "Pengfei Liu"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/GAIR-NLP/polymath-learning",
+      "published": "2026-01-06T15:41:35.000Z"
+    },
+    {
+      "id": "2601.05172",
+      "title": "CoV: Chain-of-View Prompting for Spatial Reasoning",
+      "authors": [
+        "Haoyu Zhao",
+        "Akide Liu",
+        "Zeyu Zhang",
+        "Weijie Wang",
+        "Feng Chen",
+        "Ruihan Zhu",
+        "Gholamreza Haffari",
+        "Bohan Zhuang"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/ziplab/CoV",
+      "published": "2026-01-08T17:59:42.000Z"
+    },
+    {
+      "id": "2601.05163",
+      "title": "DocDancer: Towards Agentic Document-Grounded Information Seeking",
+      "authors": [
+        "Qintong Zhang",
+        "Xinjie Lv",
+        "Jialong Wu",
+        "Baixuan Li",
+        "Zhengwei Tao",
+        "Guochen Yan",
+        "Huanyao Zhang",
+        "Bin Wang",
+        "Jiahao Xu",
+        "Haitao Mi",
+        "Wentao Zhang"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2026-01-08T17:54:32.000Z"
+    },
+    {
+      "id": "2601.05124",
+      "title": "Re-Align: Structured Reasoning-guided Alignment for In-Context Image Generation and Editing",
+      "authors": [
+        "Runze He",
+        "Yiji Cheng",
+        "Tiankai Hang",
+        "Zhimin Li",
+        "Yu Xu",
+        "Zijin Yin",
+        "Shiyi Zhang",
+        "Wenxun Dai",
+        "Penghui Du",
+        "Ao Ma",
+        "Chunyu Wang",
+        "Qinglin Lu",
+        "Jizhong Han",
+        "Jiao Dai"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/hrz2000/realign",
+      "published": "2026-01-08T17:13:00.000Z"
+    },
+    {
+      "id": "2601.04342",
+      "title": "ReHyAt: Recurrent Hybrid Attention for Video Diffusion Transformers",
+      "authors": [
+        "Mohsen Ghafoorian",
+        "Amirhossein Habibian"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2026-01-07T19:26:30.000Z"
+    },
+    {
+      "id": "2601.04792",
+      "title": "PyramidalWan: On Making Pretrained Video Model Pyramidal for Efficient Inference",
+      "authors": [
+        "Denis Korzhenkov",
+        "Adil Karjauv",
+        "Animesh Karnewar",
+        "Mohsen Ghafoorian",
+        "Amirhossein Habibian"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-01-08T10:16:06.000Z"
+    },
+    {
+      "id": "2601.05149",
+      "title": "Multi-Scale Local Speculative Decoding for Image Generation",
+      "authors": [
+        "Elia Peruzzo",
+        "Guillaume Sautière",
+        "Amirhossein Habibian"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-01-08T17:39:35.000Z"
+    },
+    {
+      "id": "2601.04754",
+      "title": "ProFuse: Efficient Cross-View Context Fusion for Open-Vocabulary 3D Gaussian Splatting",
+      "authors": [
+        "Yen-Jen Chiou",
+        "Wei-Tse Cheng",
+        "Yuan-Fu Yang"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/chiou1203/ProFuse",
+      "published": "2026-01-08T09:20:46.000Z"
+    },
+    {
+      "id": "2512.24160",
+      "title": "Towards Open-Vocabulary Industrial Defect Understanding with a Large-Scale Multimodal Dataset",
+      "authors": [
+        "TsaiChing Ni",
+        "ZhenQi Chen",
+        "YuanFu Yang"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/NinaNeon/IMDD-1M-Towards-Open-Vocabulary-Industrial-Defect-",
+      "published": "2025-12-30T11:45:22.000Z"
+    },
+    {
+      "id": "2601.04620",
+      "title": "AgentDevel: Reframing Self-Evolving LLM Agents as Release Engineering",
+      "authors": [
+        "Di Zhang"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-01-08T05:49:01.000Z"
+    },
+    {
+      "id": "2601.04300",
+      "title": "Beyond Binary Preference: Aligning Diffusion Models to Fine-grained Criteria by Decoupling Attributes",
+      "authors": [
+        "Chenye Meng",
+        "Zejian Li",
+        "Zhongni Liu",
+        "Yize Li",
+        "Changle Xie",
+        "Kaixin Jia",
+        "Ling Yang",
+        "Huanghuang Deng",
+        "Shiying Ding",
+        "Shengyuan Zhang",
+        "Jiayi Li",
+        "Lingyun Sun"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-01-07T18:11:22.000Z"
+    },
+    {
+      "id": "2601.03362",
+      "title": "Guardians of the Hair: Rescuing Soft Boundaries in Depth, Stereo, and Novel Views",
+      "authors": [
+        "Xiang Zhang",
+        "Yang Zhang",
+        "Lukas Mehl",
+        "Markus Gross",
+        "Christopher Schroers"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-01-06T19:02:34.000Z"
+    },
+    {
+      "id": "2512.23628",
+      "title": "Memorization in 3D Shape Generation: An Empirical Study",
+      "authors": [
+        "Shu Pu",
+        "Boya Zeng",
+        "Kaichen Zhou",
+        "Mengyu Wang",
+        "Zhuang Liu"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/zlab-princeton/3d_mem",
+      "published": "2025-12-29T17:39:21.000Z"
+    },
+    {
+      "id": "2601.02702",
+      "title": "Learning User Preferences Through Interaction for Long-Term Collaboration",
+      "authors": [
+        "Shuhaib Mehri",
+        "Priyanka Kargupta",
+        "Tal August",
+        "Dilek Hakkani-Tür"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/Shuhaibm/multisessioncollab",
+      "published": "2026-01-06T04:26:22.000Z"
+    },
+    {
+      "id": "2601.04233",
+      "title": "LEMAS: Large A 150K-Hour Large-scale Extensible Multilingual Audio Suite with Generative Speech Models",
+      "authors": [
+        "Zhiyuan Zhao",
+        "Lijian Lin",
+        "Ye Zhu",
+        "Kai Xie",
+        "Yunfei Liu",
+        "Yu Li"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2026-01-04T03:43:52.000Z"
+    },
+    {
+      "id": "2601.05125",
+      "title": "VERSE: Visual Embedding Reduction and Space Exploration. Clustering-Guided Insights for Training Data Enhancement in Visually-Rich Document Understanding",
+      "authors": [
+        "Ignacio de Rodrigo",
+        "Alvaro J. Lopez-Lopez",
+        "Jaime Boal"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/nachoDRT/VrDU-Doctor",
+      "published": "2026-01-08T17:15:15.000Z"
+    },
+    {
+      "id": "2601.02016",
+      "title": "Enhancing Object Detection with Privileged Information: A Model-Agnostic Teacher-Student Approach",
+      "authors": [
+        "Matthias Bartolo",
+        "Dylan Seychell",
+        "Gabriel Hili",
+        "Matthew Montebello",
+        "Carl James Debono",
+        "Saviour Formosa",
+        "Konstantinos Makantasis"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/mbar0075/lupi-for-object-detection",
+      "published": "2026-01-05T11:24:34.000Z"
+    },
+    {
+      "id": "2601.01887",
+      "title": "Safety at One Shot: Patching Fine-Tuned LLMs with A Single Instance",
+      "authors": [
+        "Jiawen Zhang",
+        "Lipeng He",
+        "Kejia Chen",
+        "Jian Lou",
+        "Jian Liu",
+        "Xiaohu Yang",
+        "Ruoxi Jia"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2026-01-05T08:26:34.000Z"
+    }
+  ]
+}

@@ -1,0 +1,333 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2023-12-15",
+  "fetched_at": "2026-10-29T15:26:16.516Z",
+  "candidates": [
+    {
+      "id": "2312.08723",
+      "title": "StemGen: A music generation model that listens",
+      "authors": [
+        "Julian D. Parker",
+        "Janne Spijkervet",
+        "Katerina Kosta",
+        "Furkan Yesiler",
+        "Boris Kuznetsov",
+        "Ju-Chiang Wang",
+        "Matt Avent",
+        "Jitong Chen",
+        "Duc Le"
+      ],
+      "upvotes": 48,
+      "github": null,
+      "published": "2023-12-14T08:09:20.000Z"
+    },
+    {
+      "id": "2312.09241",
+      "title": "TinyGSM: achieving >80% on GSM8k with small language models",
+      "authors": [
+        "Bingbin Liu",
+        "Sebastien Bubeck",
+        "Ronen Eldan",
+        "Janardhan Kulkarni",
+        "Yuanzhi Li",
+        "Anh Nguyen",
+        "Rachel Ward",
+        "Yi Zhang"
+      ],
+      "upvotes": 40,
+      "github": null,
+      "published": "2023-12-14T18:58:28.000Z"
+    },
+    {
+      "id": "2312.08914",
+      "title": "CogAgent: A Visual Language Model for GUI Agents",
+      "authors": [
+        "Wenyi Hong",
+        "Weihan Wang",
+        "Qingsong Lv",
+        "Jiazheng Xu",
+        "Wenmeng Yu",
+        "Junhui Ji",
+        "Yan Wang",
+        "Zihan Wang",
+        "Yuxiao Dong",
+        "Ming Ding",
+        "Jie Tang"
+      ],
+      "upvotes": 32,
+      "github": "https://github.com/thudm/cogvlm",
+      "published": "2023-12-14T13:20:57.000Z"
+    },
+    {
+      "id": "2312.09109",
+      "title": "VideoLCM: Video Latent Consistency Model",
+      "authors": [
+        "Xiang Wang",
+        "Shiwei Zhang",
+        "Han Zhang",
+        "Yu Liu",
+        "Yingya Zhang",
+        "Changxin Gao",
+        "Nong Sang"
+      ],
+      "upvotes": 23,
+      "github": null,
+      "published": "2023-12-14T16:45:36.000Z"
+    },
+    {
+      "id": "2312.08578",
+      "title": "A Picture is Worth More Than 77 Text Tokens: Evaluating CLIP-Style Models on Dense Captions",
+      "authors": [
+        "Jack Urbanek",
+        "Florian Bordes",
+        "Pietro Astolfi",
+        "Mary Williamson",
+        "Vasu Sharma",
+        "Adriana Romero-Soriano"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/facebookresearch/dci",
+      "published": "2023-12-14T00:42:23.000Z"
+    },
+    {
+      "id": "2312.09222",
+      "title": "Mosaic-SDF for 3D Generative Models",
+      "authors": [
+        "Lior Yariv",
+        "Omri Puny",
+        "Natalia Neverova",
+        "Oran Gafni",
+        "Yaron Lipman"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2023-12-14T18:52:52.000Z"
+    },
+    {
+      "id": "2312.09237",
+      "title": "Pixel Aligned Language Models",
+      "authors": [
+        "Jiarui Xu",
+        "Xingyi Zhou",
+        "Shen Yan",
+        "Xiuye Gu",
+        "Anurag Arnab",
+        "Chen Sun",
+        "Xiaolong Wang",
+        "Cordelia Schmid"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2023-12-14T18:57:58.000Z"
+    },
+    {
+      "id": "2312.08889",
+      "title": "SEEAvatar: Photorealistic Text-to-3D Avatar Generation with Constrained Geometry and Appearance",
+      "authors": [
+        "Yuanyou Xu",
+        "Zongxin Yang",
+        "Yi Yang"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2023-12-13T14:48:35.000Z"
+    },
+    {
+      "id": "2312.09187",
+      "title": "Vision-Language Models as a Source of Rewards",
+      "authors": [
+        "Kate Baumli",
+        "Satinder Baveja",
+        "Feryal Behbahani",
+        "Harris Chan",
+        "Gheorghe Comanici",
+        "Sebastian Flennerhag",
+        "Maxime Gazeau",
+        "Kristian Holsheimer",
+        "Dan Horgan",
+        "Michael Laskin",
+        "Clare Lyle",
+        "Hussain Masoom",
+        "Kay McKinney",
+        "Volodymyr Mnih",
+        "Alexander Neitz",
+        "Fabio Pardo",
+        "Jack Parker-Holder",
+        "John Quan",
+        "Tim Rocktäschel",
+        "Himanshu Sahni",
+        "Tom Schaul",
+        "Yannick Schroecker",
+        "Stephen Spencer",
+        "Richie Steigerwald",
+        "Luyu Wang",
+        "Lei Zhang"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2023-12-14T18:06:17.000Z"
+    },
+    {
+      "id": "2312.08618",
+      "title": "Zebra: Extending Context Window with Layerwise Grouped Local-Global Attention",
+      "authors": [
+        "Kaiqiang Song",
+        "Xiaoyang Wang",
+        "Sangwoo Cho",
+        "Xiaoman Pan",
+        "Dong Yu"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2023-12-14T02:45:31.000Z"
+    },
+    {
+      "id": "2312.09252",
+      "title": "FineControlNet: Fine-level Text Control for Image Generation with Spatially Aligned Text Control Injection",
+      "authors": [
+        "Hongsuk Choi",
+        "Isaac Kasahara",
+        "Selim Engin",
+        "Moritz Graule",
+        "Nikhil Chavan-Dafle",
+        "Volkan Isler"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2023-12-14T18:59:43.000Z"
+    },
+    {
+      "id": "2312.09256",
+      "title": "LIME: Localized Image Editing via Attention Regularization in Diffusion Models",
+      "authors": [
+        "Enis Simsar",
+        "Alessio Tonioni",
+        "Yongqin Xian",
+        "Thomas Hofmann",
+        "Federico Tombari"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2023-12-14T18:59:59.000Z"
+    },
+    {
+      "id": "2312.09158",
+      "title": "General Object Foundation Model for Images and Videos at Scale",
+      "authors": [
+        "Junfeng Wu",
+        "Yi Jiang",
+        "Qihao Liu",
+        "Zehuan Yuan",
+        "Xiang Bai",
+        "Song Bai"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/FoundationVision/GLEE",
+      "published": "2023-12-14T17:26:00.000Z"
+    },
+    {
+      "id": "2312.08583",
+      "title": "ZeroQuant(4+2): Redefining LLMs Quantization with a New FP6-Centric Strategy for Diverse Generative Tasks",
+      "authors": [
+        "Xiaoxia Wu",
+        "Haojun Xia",
+        "Stephen Youn",
+        "Zhen Zheng",
+        "Shiyang Chen",
+        "Arash Bakhtiari",
+        "Michael Wyatt",
+        "Yuxiong He",
+        "Olatunji Ruwase",
+        "Leon Song",
+        "Zhewei Yao"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2023-12-14T01:06:37.000Z"
+    },
+    {
+      "id": "2312.08754",
+      "title": "UniDream: Unifying Diffusion Priors for Relightable Text-to-3D Generation",
+      "authors": [
+        "Zexiang Liu",
+        "Yangguang Li",
+        "Youtian Lin",
+        "Xin Yu",
+        "Sida Peng",
+        "Yan-Pei Cao",
+        "Xiaojuan Qi",
+        "Xiaoshui Huang",
+        "Ding Liang",
+        "Wanli Ouyang"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2023-12-14T09:07:37.000Z"
+    },
+    {
+      "id": "2312.09244",
+      "title": "Helping or Herding? Reward Model Ensembles Mitigate but do not Eliminate Reward Hacking",
+      "authors": [
+        "Jacob Eisenstein",
+        "Chirag Nagpal",
+        "Alekh Agarwal",
+        "Ahmad Beirami",
+        "Alex D'Amour",
+        "DJ Dvijotham",
+        "Adam Fisch",
+        "Katherine Heller",
+        "Stephen Pfohl",
+        "Deepak Ramachandran",
+        "Peter Shaw",
+        "Jonathan Berant"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/google-deepmind/reward-ensembles",
+      "published": "2023-12-14T18:59:04.000Z"
+    },
+    {
+      "id": "2312.09251",
+      "title": "VL-GPT: A Generative Pre-trained Transformer for Vision and Language Understanding and Generation",
+      "authors": [
+        "Jinguo Zhu",
+        "Xiaohan Ding",
+        "Yixiao Ge",
+        "Yuying Ge",
+        "Sijie Zhao",
+        "Hengshuang Zhao",
+        "Xiaohua Wang",
+        "Ying Shan"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/ailab-cvc/vl-gpt",
+      "published": "2023-12-14T18:59:43.000Z"
+    },
+    {
+      "id": "2312.09246",
+      "title": "SHAP-EDITOR: Instruction-guided Latent 3D Editing in Seconds",
+      "authors": [
+        "Minghao Chen",
+        "Junyu Xie",
+        "Iro Laina",
+        "Andrea Vedaldi"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2023-12-14T18:59:06.000Z"
+    },
+    {
+      "id": "2312.08688",
+      "title": "TigerBot: An Open Multilingual Multitask LLM",
+      "authors": [
+        "Ye Chen",
+        "Wei Cai",
+        "Liangmin Wu",
+        "Xiaowei Li",
+        "Zhanxuan Xin",
+        "Cong Fu"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/tigerresearch/tigerbot",
+      "published": "2023-12-14T07:05:42.000Z"
+    }
+  ]
+}

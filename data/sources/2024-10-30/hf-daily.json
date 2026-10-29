@@ -1,0 +1,227 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-10-30",
+  "fetched_at": "2026-10-29T15:29:31.510Z",
+  "candidates": [
+    {
+      "id": "2410.18057",
+      "title": "CLEAR: Character Unlearning in Textual and Visual Modalities",
+      "authors": [
+        "Alexey Dontsov",
+        "Dmitrii Korzh",
+        "Alexey Zhavoronkin",
+        "Boris Mikheev",
+        "Denis Bobkov",
+        "Aibek Alanov",
+        "Oleg Y. Rogov",
+        "Ivan Oseledets",
+        "Elena Tutubalina"
+      ],
+      "upvotes": 209,
+      "github": "https://github.com/somvy/multimodal_unlearning",
+      "published": "2024-10-23T17:30:50.000Z"
+    },
+    {
+      "id": "2410.20424",
+      "title": "AutoKaggle: A Multi-Agent Framework for Autonomous Data Science Competitions",
+      "authors": [
+        "Ziming Li",
+        "Qianbo Zang",
+        "David Ma",
+        "Jiawei Guo",
+        "Tuney Zheng",
+        "Minghao Liu",
+        "Xinyao Niu",
+        "Yue Wang",
+        "Jian Yang",
+        "Jiaheng Liu",
+        "Wanjun Zhong",
+        "Wangchunshu Zhou",
+        "Wenhao Huang",
+        "Ge Zhang"
+      ],
+      "upvotes": 40,
+      "github": "https://github.com/multimodal-art-projection/AutoKaggle",
+      "published": "2024-10-27T12:44:25.000Z"
+    },
+    {
+      "id": "2410.21647",
+      "title": "Can Language Models Replace Programmers? REPOCOD Says 'Not Yet'",
+      "authors": [
+        "Shanchao Liang",
+        "Yiran Hu",
+        "Nan Jiang",
+        "Lin Tan"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/lt-asset/repocod",
+      "published": "2024-10-29T01:21:05.000Z"
+    },
+    {
+      "id": "2410.19609",
+      "title": "OpenWebVoyager: Building Multimodal Web Agents via Iterative Real-World Exploration, Feedback and Optimization",
+      "authors": [
+        "Hongliang He",
+        "Wenlin Yao",
+        "Kaixin Ma",
+        "Wenhao Yu",
+        "Hongming Zhang",
+        "Tianqing Fang",
+        "Zhenzhong Lan",
+        "Dong Yu"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/minorjerry/openwebvoyager",
+      "published": "2024-10-25T15:01:27.000Z"
+    },
+    {
+      "id": "2410.21411",
+      "title": "SocialGPT: Prompting LLMs for Social Relation Reasoning via Greedy Segment Optimization",
+      "authors": [
+        "Wanhua Li",
+        "Zibin Meng",
+        "Jiawei Zhou",
+        "Donglai Wei",
+        "Chuang Gan",
+        "Hanspeter Pfister"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/mengzibin/socialgpt",
+      "published": "2024-10-28T18:10:26.000Z"
+    },
+    {
+      "id": "2410.22304",
+      "title": "Flow-DPO: Improving LLM Mathematical Reasoning through Online Multi-Agent Learning",
+      "authors": [
+        "Yihe Deng",
+        "Paul Mineiro"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2024-10-29T17:50:31.000Z"
+    },
+    {
+      "id": "2410.21845",
+      "title": "Precise and Dexterous Robotic Manipulation via Human-in-the-Loop Reinforcement Learning",
+      "authors": [
+        "Jianlan Luo",
+        "Charles Xu",
+        "Jeffrey Wu",
+        "Sergey Levine"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/rail-berkeley/hil-serl",
+      "published": "2024-10-29T08:12:20.000Z"
+    },
+    {
+      "id": "2410.21333",
+      "title": "Mind Your Step (by Step): Chain-of-Thought can Reduce Performance on Tasks where Thinking Makes Humans Worse",
+      "authors": [
+        "Ryan Liu",
+        "Jiayi Geng",
+        "Addison J. Wu",
+        "Ilia Sucholutsky",
+        "Tania Lombrozo",
+        "Thomas L. Griffiths"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2024-10-27T18:30:41.000Z"
+    },
+    {
+      "id": "2410.22330",
+      "title": "Task Vectors are Cross-Modal",
+      "authors": [
+        "Grace Luo",
+        "Trevor Darrell",
+        "Amir Bar"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/g-luo/vlm_cross_modal_reps",
+      "published": "2024-10-29T17:59:45.000Z"
+    },
+    {
+      "id": "2410.21465",
+      "title": "ShadowKV: KV Cache in Shadows for High-Throughput Long-Context LLM Inference",
+      "authors": [
+        "Hanshi Sun",
+        "Li-Wen Chang",
+        "Wenlei Bao",
+        "Size Zheng",
+        "Ningxin Zheng",
+        "Xin Liu",
+        "Harry Dong",
+        "Yuejie Chi",
+        "Beidi Chen"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/bytedance/ShadowKV",
+      "published": "2024-10-28T19:08:12.000Z"
+    },
+    {
+      "id": "2410.22325",
+      "title": "Robots Pre-train Robots: Manipulation-Centric Robotic Representation from Large-Scale Robot Dataset",
+      "authors": [
+        "Guangqi Jiang",
+        "Yifei Sun",
+        "Tao Huang",
+        "Huanyu Li",
+        "Yongyuan Liang",
+        "Huazhe Xu"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/luccachiang/robots-pretrain-robots",
+      "published": "2024-10-29T17:58:13.000Z"
+    },
+    {
+      "id": "2410.21242",
+      "title": "Zero-Shot Dense Retrieval with Embeddings from Relevance Feedback",
+      "authors": [
+        "Nour Jedidi",
+        "Yung-Sung Chuang",
+        "Leslie Shing",
+        "James Glass"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2024-10-28T17:40:40.000Z"
+    },
+    {
+      "id": "2410.20305",
+      "title": "Accelerating Direct Preference Optimization with Prefix Sharing",
+      "authors": [
+        "Franklin Wang",
+        "Sumanth Hegde"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/frankxwang/dpo-prefix-sharing",
+      "published": "2024-10-27T02:06:17.000Z"
+    },
+    {
+      "id": "2410.19482",
+      "title": "Measuring memorization through probabilistic discoverable extraction",
+      "authors": [
+        "Jamie Hayes",
+        "Marika Swanberg",
+        "Harsh Chaudhari",
+        "Itay Yona",
+        "Ilia Shumailov"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2024-10-25T11:37:04.000Z"
+    },
+    {
+      "id": "2410.20088",
+      "title": "RARe: Retrieval Augmented Retrieval with In-Context Examples",
+      "authors": [
+        "Atula Tejaswi",
+        "Yoonsang Lee",
+        "Sujay Sanghavi",
+        "Eunsol Choi"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/atutej/RARe",
+      "published": "2024-10-26T05:46:20.000Z"
+    }
+  ]
+}

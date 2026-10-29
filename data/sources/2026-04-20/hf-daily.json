@@ -1,0 +1,505 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-04-20",
+  "fetched_at": "2026-10-29T15:35:22.373Z",
+  "candidates": [
+    {
+      "id": "2604.15804",
+      "title": "Qwen3.5-Omni Technical Report",
+      "authors": [
+        "Qwen Team"
+      ],
+      "upvotes": 59,
+      "github": null,
+      "published": "2026-04-17T00:00:00.000Z"
+    },
+    {
+      "id": "2502.07408",
+      "title": "Maximal Brain Damage Without Data or Optimization: Disrupting Neural Networks via Sign-Bit Flips",
+      "authors": [
+        "Ido Galil",
+        "Moshe Kimhi",
+        "Ran El-Yaniv"
+      ],
+      "upvotes": 57,
+      "github": "https://github.com/IdoGalil/maximal-brain-damage",
+      "published": "2026-04-16T00:00:00.000Z"
+    },
+    {
+      "id": "2604.13074",
+      "title": "PersonaVLM: Long-Term Personalized Multimodal LLMs",
+      "authors": [
+        "Chang Nie",
+        "Chaoyou Fu",
+        "Yifan Zhang",
+        "Haihua Yang",
+        "Caifeng Shan"
+      ],
+      "upvotes": 37,
+      "github": "https://github.com/MiG-NJU/PersonaVLM",
+      "published": "2026-03-20T00:00:00.000Z"
+    },
+    {
+      "id": "2604.16044",
+      "title": "Elucidating the SNR-t Bias of Diffusion Probabilistic Models",
+      "authors": [
+        "Meng Yu",
+        "Lei Sun",
+        "Jianhao Zeng",
+        "Xiangxiang Chu",
+        "Kun Zhan"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/AMAP-ML/DCW",
+      "published": "2026-04-17T00:00:00.000Z"
+    },
+    {
+      "id": "2604.04936",
+      "title": "Web Retrieval-Aware Chunking (W-RAC) for Efficient and Cost-Effective Retrieval-Augmented Generation Systems",
+      "authors": [
+        "Uday Allu",
+        "Sonu Kedia",
+        "Tanmay Odapally",
+        "Biddwan Ahmed"
+      ],
+      "upvotes": 25,
+      "github": null,
+      "published": "2026-01-08T00:00:00.000Z"
+    },
+    {
+      "id": "2604.16029",
+      "title": "Cut Your Losses! Learning to Prune Paths Early for Efficient Parallel Reasoning",
+      "authors": [
+        "Jiaxi Bi",
+        "Tongxu Luo",
+        "Wenyu Du",
+        "Zhengyang Tang",
+        "Benyou Wang"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/bijiaxihh/STOP",
+      "published": "2026-04-17T00:00:00.000Z"
+    },
+    {
+      "id": "2604.16503",
+      "title": "Motif-Video 2B: Technical Report",
+      "authors": [
+        "Junghwan Lim",
+        "Wai Ting Cheung",
+        "Minsu Ha",
+        "Beomgyu Kim",
+        "Taewhan Kim",
+        "Haesol Lee",
+        "Dongpin Oh",
+        "Jeesoo Lee",
+        "Taehyun Kim",
+        "Minjae Kim",
+        "Sungmin Lee",
+        "Hyeyeon Cho",
+        "Dahye Choi",
+        "Jaeheui Her",
+        "Jaeyeon Huh",
+        "Hanbin Jung",
+        "Changjin Kang",
+        "Dongseok Kim",
+        "Jangwoong Kim",
+        "Youngrok Kim",
+        "Hyukjin Kweon",
+        "Hongjoo Lee",
+        "Jeongdoo Lee",
+        "Junhyeok Lee",
+        "Eunhwan Park",
+        "Yeongjae Park",
+        "Bokki Ryu",
+        "Dongjoo Weon"
+      ],
+      "upvotes": 20,
+      "github": null,
+      "published": "2026-04-14T00:00:00.000Z"
+    },
+    {
+      "id": "2604.16027",
+      "title": "Where does output diversity collapse in post-training?",
+      "authors": [
+        "Constantinos Karouzos",
+        "Xingwei Tan",
+        "Nikolaos Aletras"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/ckarouzos/where-diversity-collapses",
+      "published": "2026-04-17T00:00:00.000Z"
+    },
+    {
+      "id": "2604.15151",
+      "title": "QuantCode-Bench: A Benchmark for Evaluating the Ability of Large Language Models to Generate Executable Algorithmic Trading Strategies",
+      "authors": [
+        "Alexey Khoroshilov",
+        "Alexey Chernysh",
+        "Orkhan Ekhtibarov",
+        "Nini Kamkia",
+        "Dmitry Zmitrovich"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/LimexAILab/QuantCode-Bench",
+      "published": "2026-04-16T00:00:00.000Z"
+    },
+    {
+      "id": "2604.15453",
+      "title": "(1D) Ordered Tokens Enable Efficient Test-Time Search",
+      "authors": [
+        "Zhitong Gao",
+        "Parham Rezaei",
+        "Ali Cy",
+        "Mingqiao Ye",
+        "Nataša Jovanović",
+        "Jesse Allardice",
+        "Afshin Dehghan",
+        "Amir Zamir",
+        "Roman Bachmann",
+        "Oğuzhan Fatih Kar"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/EPFL-VILAB/search-over-tokens",
+      "published": "2026-04-16T00:00:00.000Z"
+    },
+    {
+      "id": "2604.12012",
+      "title": "TIPSv2: Advancing Vision-Language Pretraining with Enhanced Patch-Text Alignment",
+      "authors": [
+        "Bingyi Cao",
+        "Koert Chen",
+        "Kevis-Kokitsi Maninis",
+        "Kaifeng Chen",
+        "Arjun Karpur",
+        "Ye Xia",
+        "Sahil Dua",
+        "Tanmaya Dabral",
+        "Guangxing Han",
+        "Bohyung Han",
+        "Joshua Ainslie",
+        "Alex Bewley",
+        "Mithun Jacob",
+        "René Wagner",
+        "Washington Ramos",
+        "Krzysztof Choromanski",
+        "Mojtaba Seyedhosseini",
+        "Howard Zhou",
+        "André Araujo"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2026-04-13T00:00:00.000Z"
+    },
+    {
+      "id": "2604.13902",
+      "title": "DiPO: Disentangled Perplexity Policy Optimization for Fine-grained Exploration-Exploitation Trade-Off",
+      "authors": [
+        "Xiaofan Li",
+        "Ming Yang",
+        "Zhiyuan Ma",
+        "Shichao Ma",
+        "Jintao Du",
+        "Yu Cheng",
+        "Weiqiang Wang",
+        "Zhizhong Zhang",
+        "Xin Tan",
+        "Yanyun Qu",
+        "Lizhuang Ma",
+        "Yuan Xie"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2026-04-15T00:00:00.000Z"
+    },
+    {
+      "id": "2604.16299",
+      "title": "Repurposing 3D Generative Model for Autoregressive Layout Generation",
+      "authors": [
+        "Haoran Feng",
+        "Yifan Niu",
+        "Zehuan Huang",
+        "Yang-Tian Sun",
+        "Chunchao Guo",
+        "Yuxin Peng",
+        "Lu Sheng"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/fenghora/LaviGen",
+      "published": "2026-04-17T00:00:00.000Z"
+    },
+    {
+      "id": "2604.09860",
+      "title": "RoboLab: A High-Fidelity Simulation Benchmark for Analysis of Task Generalist Policies",
+      "authors": [
+        "Xuning Yang",
+        "Rishit Dagli",
+        "Alex Zook",
+        "Hugo Hadfield",
+        "Ankit Goyal",
+        "Stan Birchfield",
+        "Fabio Ramos",
+        "Jonathan Tremblay"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/NVLabs/RoboLab",
+      "published": "2026-04-14T00:00:00.000Z"
+    },
+    {
+      "id": "2604.05716",
+      "title": "Can Large Language Models Reinvent Foundational Algorithms?",
+      "authors": [
+        "Jian Zhao",
+        "Haoren Luo",
+        "Yu Wang",
+        "Yuhan Cao",
+        "Pingyue Sheng",
+        "Tianxing He"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/Algo-Reinvention/algo-reinvention",
+      "published": "2026-04-07T00:00:00.000Z"
+    },
+    {
+      "id": "2604.14568",
+      "title": "Learning Adaptive Reasoning Paths for Efficient Visual Reasoning",
+      "authors": [
+        "Yixu Huang",
+        "Tinghui Zhu",
+        "Muhao Chen"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/RunRiotComeOn/AVR",
+      "published": "2026-04-16T00:00:00.000Z"
+    },
+    {
+      "id": "2604.14518",
+      "title": "Mind DeepResearch Technical Report",
+      "authors": [
+        "MindDR Team",
+        "Li Auto Inc"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2026-04-17T00:00:00.000Z"
+    },
+    {
+      "id": "2604.10261",
+      "title": "The Amazing Agent Race: Strong Tool Users, Weak Navigators",
+      "authors": [
+        "Zae Myung Kim",
+        "Dongseok Lee",
+        "Jaehyung Kim",
+        "Vipul Raheja",
+        "Dongyeop Kang"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/minnesotanlp/the-amazing-agent-race",
+      "published": "2026-04-17T00:00:00.000Z"
+    },
+    {
+      "id": "2511.15915",
+      "title": "AccelOpt: A Self-Improving LLM Agentic System for AI Accelerator Kernel Optimization",
+      "authors": [
+        "Genghan Zhang",
+        "Shaowei Zhu",
+        "Anjiang Wei",
+        "Zhenyu Song",
+        "Allen Nie",
+        "Zhen Jia",
+        "Nandita Vijaykumar",
+        "Yida Wang",
+        "Kunle Olukotun"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/zhang677/AccelOpt",
+      "published": "2026-04-15T00:00:00.000Z"
+    },
+    {
+      "id": "2604.15715",
+      "title": "GTA-2: Benchmarking General Tool Agents from Atomic Tool-Use to Open-Ended Workflows",
+      "authors": [
+        "Jize Wang",
+        "Xuanxuan Liu",
+        "Yining Li",
+        "Songyang Zhang",
+        "Yijun Wang",
+        "Zifei Shan",
+        "Xinyi Le",
+        "Cailian Chen",
+        "Xinping Guan",
+        "Dacheng Tao"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-04-17T00:00:00.000Z"
+    },
+    {
+      "id": "2604.16272",
+      "title": "VEFX-Bench: A Holistic Benchmark for Generic Video Editing and Visual Effects",
+      "authors": [
+        "Xiangbo Gao",
+        "Sicong Jiang",
+        "Bangya Liu",
+        "Xinghao Chen",
+        "Minglai Yang",
+        "Siyuan Yang",
+        "Mingyang Wu",
+        "Jiongze Yu",
+        "Qi Zheng",
+        "Haozhi Wang",
+        "Jiayi Zhang",
+        "Jared Yang",
+        "Jie Yang",
+        "Zihan Wang",
+        "Qing Yin",
+        "Zhengzhong Tu"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-04-17T00:00:00.000Z"
+    },
+    {
+      "id": "2604.10571",
+      "title": "Universal statistical signatures of evolution in artificial intelligence architectures",
+      "authors": [
+        "Theodor Spiro"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/mool32/ai-evolution-universal-signatures",
+      "published": "2026-04-12T00:00:00.000Z"
+    },
+    {
+      "id": "2604.15411",
+      "title": "PRL-Bench: A Comprehensive Benchmark Evaluating LLMs' Capabilities in Frontier Physics Research",
+      "authors": [
+        "Tingjia Miao",
+        "Wenkai Jin",
+        "Muhua Zhang",
+        "Jinxin Tan",
+        "Yuelin Hu",
+        "Tu Guo",
+        "Jiejun Zhang",
+        "Yuhan Wang",
+        "Wenbo Li",
+        "Yinuo Gao",
+        "Shuo Chen",
+        "Weiqi Jiang",
+        "Yayun Hu",
+        "Zixing Lei",
+        "Xianghe Pang",
+        "Zexi Liu",
+        "Yuzhi Zhang",
+        "Linfeng Zhang",
+        "Kun Chen",
+        "Wei Wang",
+        "Weinan E",
+        "Siheng Chen"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-04-16T00:00:00.000Z"
+    },
+    {
+      "id": "2604.15923",
+      "title": "Hierarchical Codec Diffusion for Video-to-Speech Generation",
+      "authors": [
+        "Jiaxin Ye",
+        "Gaoxiang Cong",
+        "Chenhui Wang",
+        "Xin-Cheng Wen",
+        "Zhaoyang Li",
+        "Boyuan Cao",
+        "Hongming Shan"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2026-04-17T00:00:00.000Z"
+    },
+    {
+      "id": "2604.14663",
+      "title": "EdgeDetect: Importance-Aware Gradient Compression with Homomorphic Aggregation for Federated Intrusion Detection",
+      "authors": [
+        "Noor Islam S. Mohammad"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2026-04-16T00:00:00.000Z"
+    },
+    {
+      "id": "2604.15950",
+      "title": "TwinTrack: Post-hoc Multi-Rater Calibration for Medical Image Segmentation",
+      "authors": [
+        "Tristan Kirscher",
+        "Alexandra Ertl",
+        "Klaus Maier-Hein",
+        "Xavier Coubez",
+        "Philippe Meyer",
+        "Sylvain Faisan"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2026-04-17T00:00:00.000Z"
+    },
+    {
+      "id": "2604.14816",
+      "title": "NTIRE 2026 Challenge on Video Saliency Prediction: Methods and Results",
+      "authors": [
+        "Andrey Moskalenko",
+        "Alexey Bryncev",
+        "Ivan Kosmynin",
+        "Kira Shilovskaya",
+        "Mikhail Erofeev",
+        "Dmitry Vatolin",
+        "Radu Timofte",
+        "Kun Wang",
+        "Yupeng Hu",
+        "Zhiran Li",
+        "Hao Liu",
+        "Qianlong Xiang",
+        "Liqiang Nie",
+        "Konstantinos Chaldaiopoulos",
+        "Niki Efthymiou",
+        "Athanasia Zlatintsi",
+        "Panagiotis Filntisis",
+        "Katerina Pastra",
+        "Petros Maragos",
+        "Li Yang",
+        "Gen Zhan",
+        "Yiting Liao",
+        "Yabin Zhang",
+        "Yuxin Liu",
+        "Xu Wu",
+        "Yunheng Zheng",
+        "Linze Li",
+        "Kun He",
+        "Cong Wu",
+        "Xuefeng Zhu",
+        "Tianyang Xu",
+        "Xiaojun Wu",
+        "Wenzhuo Zhao",
+        "Keren Fu",
+        "Gongyang Li",
+        "Shixiang Shi",
+        "Jianlin Chen",
+        "Haibin Ling",
+        "Yaoxin Jiang",
+        "Guoyi Xu",
+        "Jiajia Liu",
+        "Yaokun Shi",
+        "Jiachen Tu"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/msu-video-group/NTIRE26_Saliency_Prediction",
+      "published": "2026-04-16T00:00:00.000Z"
+    },
+    {
+      "id": "2604.16254",
+      "title": "ArtifactNet: Detecting AI-Generated Music via Forensic Residual Physics",
+      "authors": [
+        "Heewon Oh"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/Intrect-io/artifactbench",
+      "published": "2026-04-17T00:00:00.000Z"
+    }
+  ]
+}

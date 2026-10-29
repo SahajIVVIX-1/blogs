@@ -1,0 +1,559 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-05-25",
+  "fetched_at": "2026-10-29T15:35:43.583Z",
+  "candidates": [
+    {
+      "id": "2605.23904",
+      "title": "SkillOpt: Executive Strategy for Self-Evolving Agent Skills",
+      "authors": [
+        "Yifan Yang",
+        "Ziyang Gong",
+        "Weiquan Huang",
+        "Qihao Yang",
+        "Ziwei Zhou",
+        "Zisu Huang",
+        "Yan Li",
+        "Xuemei Gao",
+        "Qi Dai",
+        "Bei Liu",
+        "Kai Qiu",
+        "Yuqing Yang",
+        "Dongdong Chen",
+        "Xue Yang",
+        "Chong Luo"
+      ],
+      "upvotes": 228,
+      "github": "https://github.com/microsoft/SkillOpt",
+      "published": "2026-05-22T00:00:00.000Z"
+    },
+    {
+      "id": "2605.20708",
+      "title": "Rethinking Cross-Layer Information Routing in Diffusion Transformers",
+      "authors": [
+        "Chao Xu",
+        "Maohua Li",
+        "Qirui Li",
+        "Yixuan Xu",
+        "Yanke Zhou",
+        "Yunhe Li",
+        "Cuifeng Shen",
+        "Hanlin Tang",
+        "Kan Liu",
+        "Tao Lan",
+        "Lin Qu",
+        "Shao-Qun Zhang"
+      ],
+      "upvotes": 112,
+      "github": "https://github.com/cg233666/attention-residuals-on-dit",
+      "published": "2026-05-20T00:00:00.000Z"
+    },
+    {
+      "id": "2605.21573",
+      "title": "Lens: Rethinking Training Efficiency for Foundational Text-to-Image Models",
+      "authors": [
+        "Dong Chen",
+        "Fangyun Wei",
+        "Ziyu Wan",
+        "Dongdong Chen",
+        "Jiawei Zhang",
+        "Jinjing Zhao",
+        "Sirui Zhang",
+        "Yang Yue",
+        "Zhiyang Liang",
+        "Baining Guo",
+        "Chong Luo",
+        "Jianmin Bao",
+        "Ji Li",
+        "Lei Shi",
+        "Qinhong Yang",
+        "Xiuyu Wu",
+        "Xuelu Feng",
+        "Yan Lu",
+        "Yanchen Dong",
+        "Yitong Wang",
+        "Yunuo Chen"
+      ],
+      "upvotes": 104,
+      "github": null,
+      "published": "2026-05-20T00:00:00.000Z"
+    },
+    {
+      "id": "2605.22878",
+      "title": "SciAtlas: A Large-Scale Knowledge Graph for Automated Scientific Research",
+      "authors": [
+        "Shuofei Qiao",
+        "Yunxiang Wei",
+        "Jiazheng Fan",
+        "Bin Wu",
+        "Busheng Zhang",
+        "Mengru Wang",
+        "Yuqi Zhu",
+        "Ningyu Zhang",
+        "Keyan Ding",
+        "Qiang Zhang",
+        "Huajun Chen"
+      ],
+      "upvotes": 60,
+      "github": "https://github.com/zjunlp/SciAtlas",
+      "published": "2026-05-20T00:00:00.000Z"
+    },
+    {
+      "id": "2605.23463",
+      "title": "StepAudio 2.5 Technical Report",
+      "authors": [
+        "Bin Lin",
+        "Bo Zhao",
+        "Boyong Wu",
+        "Chao Yan",
+        "Chen Wu",
+        "Cheng Yi",
+        "Chengyuan Yao",
+        "Daijiao Liu",
+        "Fei Tian",
+        "Feng Tian",
+        "Haiyang Sun",
+        "Haoyang Zhang",
+        "Jiangjie Zhen",
+        "Jinglan Gong",
+        "Jun Chen",
+        "Li Xie",
+        "Peilin Li",
+        "Peng Yang",
+        "Pengfei Tan",
+        "Qingjian Lin",
+        "Runze Li",
+        "Shenghua Hu",
+        "Siyi Zhou",
+        "Wenwen Qu",
+        "Xiangyu Li",
+        "Xiangyu Tony Zhang",
+        "Xuerui Yang",
+        "Yang Yang",
+        "Yechang Huang",
+        "Yu Fu",
+        "Yuchu Luo",
+        "Yuxin Li",
+        "Yuxin Zhang",
+        "Zhengyan Sheng",
+        "Brian Li",
+        "Chang Zeng",
+        "Changlin Zhang",
+        "Chen Geng",
+        "Chenghao Dong",
+        "Chengli Feng",
+        "Dan Zhou",
+        "Danni Wan",
+        "Di Chen",
+        "Die Zhang",
+        "Dongqing Pang",
+        "Guanglong Yang",
+        "Guoqiang Hu",
+        "Huangxi Zhu",
+        "Jianzheng Gao",
+        "Jinghua Liang",
+        "Jinmei Wan",
+        "Junjie Yuan",
+        "Kang An",
+        "Lei Lei",
+        "Limin Zhong",
+        "Lun Cai",
+        "Mengqiang Ren",
+        "Min Xu",
+        "Mingliang Li",
+        "Mingxiao Li",
+        "Na Wang",
+        "Qiang Tong",
+        "Qiaoling Huang",
+        "Qingfu Du",
+        "Rui Wang",
+        "Shengchen Zhou",
+        "Shi Qiu",
+        "Shihao Peng",
+        "Shiliang Yang",
+        "Siqi Tu",
+        "Tianjiao Deng",
+        "Ting Xu",
+        "Tong Wang",
+        "WeiMing Niu",
+        "Wuxun Xie",
+        "Xianwei Zhang",
+        "Xianyu Feng",
+        "Xiaojia Liu",
+        "Xing Chen",
+        "Xiongbin Wu",
+        "Yan Wu",
+        "Yang Li",
+        "Yi Liu",
+        "Yifan Zhang",
+        "Yile Liu",
+        "Yongshen Long",
+        "Yu Luo",
+        "Yuanhao Ding",
+        "Yuhao Wang",
+        "Yuhe Yin",
+        "Yunfang Xu",
+        "Yuxiang Yang",
+        "Zhiguo Huang",
+        "Zhiyue Wu",
+        "Zichao Li",
+        "Zichao Zhou",
+        "Daxin Jiang",
+        "Future Li",
+        "Gang Yu",
+        "Xiangyu Zhang",
+        "Yibo Zhu"
+      ],
+      "upvotes": 48,
+      "github": null,
+      "published": "2026-05-22T00:00:00.000Z"
+    },
+    {
+      "id": "2605.23902",
+      "title": "PiD: Fast and High-Resolution Latent Decoding with Pixel Diffusion",
+      "authors": [
+        "Yifan Lu",
+        "Qi Wu",
+        "Jay Zhangjie Wu",
+        "Zian Wang",
+        "Huan Ling",
+        "Sanja Fidler",
+        "Xuanchi Ren"
+      ],
+      "upvotes": 45,
+      "github": null,
+      "published": "2026-05-22T00:00:00.000Z"
+    },
+    {
+      "id": "2605.23899",
+      "title": "From Raw Experience to Skill Consumption: A Systematic Study of Model-Generated Agent Skills",
+      "authors": [
+        "Zisu Huang",
+        "Jingwen Xu",
+        "Yifan Yang",
+        "Ziyang Gong",
+        "Qihao Yang",
+        "Muzhao Tian",
+        "Xiaohua Wang",
+        "Changze Lv",
+        "Xuemei Gao",
+        "Qi Dai",
+        "Bei Liu",
+        "Kai Qiu",
+        "Xue Yang",
+        "Dongdong Chen",
+        "Xiaoqing Zheng",
+        "Chong Luo"
+      ],
+      "upvotes": 26,
+      "github": "https://github.com/microsoft/SkillLens",
+      "published": "2026-05-22T00:00:00.000Z"
+    },
+    {
+      "id": "2605.23771",
+      "title": "PhotoFlow: Agentic 3D Virtual Photography Missions",
+      "authors": [
+        "Jiarui Guo",
+        "Haojia Wei",
+        "Yiming Zhang",
+        "Yifei Liu",
+        "Yuning Gong",
+        "Hongjie Zhang",
+        "Xue Yang",
+        "Zhihang Zhong"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/Visionary-Laboratory/PhotoFlow",
+      "published": "2026-05-22T00:00:00.000Z"
+    },
+    {
+      "id": "2605.17448",
+      "title": "Self-Improving CAD Generation Agents with Finite Element Analysis as Feedback",
+      "authors": [
+        "Guijin Son",
+        "Jehyun Park",
+        "Seyeon Park",
+        "Sunghee Ahn",
+        "Youngjae Yu"
+      ],
+      "upvotes": 20,
+      "github": null,
+      "published": "2026-05-17T00:00:00.000Z"
+    },
+    {
+      "id": "2605.22570",
+      "title": "VGenST-Bench: A Benchmark for Spatio-Temporal Reasoning via Active Video Synthesis",
+      "authors": [
+        "Jinho Park",
+        "Youbin Kim",
+        "Hogun Park",
+        "Eunbyung Park"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/zinosii/VGenST-Bench",
+      "published": "2026-05-21T00:00:00.000Z"
+    },
+    {
+      "id": "2605.23888",
+      "title": "GenRecon: Bridging Generative Priors for Multi-View 3D Scene Reconstruction",
+      "authors": [
+        "Katharina Schmid",
+        "Nicolas von Lützow",
+        "Jozef Hladký",
+        "Angela Dai",
+        "Matthias Nießner"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2026-05-22T00:00:00.000Z"
+    },
+    {
+      "id": "2605.18018",
+      "title": "See What I Mean: Aligning Vision and Language Representations for Video Fine-grained Object Understanding",
+      "authors": [
+        "Boyuan Sun",
+        "Bowen Yin",
+        "Yuanming Li",
+        "Xihan Wei",
+        "Qibin Hou"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/HumanMLLM/SWIM",
+      "published": "2026-05-18T00:00:00.000Z"
+    },
+    {
+      "id": "2605.23897",
+      "title": "ETCHR: Editing To Clarify and Harness Reasoning",
+      "authors": [
+        "Beichen Zhang",
+        "Yuhong Liu",
+        "Jinsong Li",
+        "Yuhang Zang",
+        "Jiaqi Wang",
+        "Dahua Lin"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/InternLM/ETCHR",
+      "published": "2026-05-22T00:00:00.000Z"
+    },
+    {
+      "id": "2605.23345",
+      "title": "SCOPE: Simulating Cross-game Operations in Playable Environments for FPS World Models",
+      "authors": [
+        "Zizhao Tong",
+        "Hongfeng Lai",
+        "Zeqing Wang",
+        "Zhaohu Xing",
+        "Kexu Cheng",
+        "Haoran Xu",
+        "Zhao Pu",
+        "Shangwen Zhu",
+        "Ruili Feng",
+        "Jian Zhao",
+        "Yan Zhang",
+        "Hao Tang",
+        "Yeying Jin",
+        "Ling Shao"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/z2tong/SCOPE",
+      "published": "2026-05-22T00:00:00.000Z"
+    },
+    {
+      "id": "2605.17873",
+      "title": "HINT-SD: Targeted Hindsight Self-Distillation for Long-Horizon Agents",
+      "authors": [
+        "Woongyeng Yeo",
+        "Yumin Choi",
+        "Taekyung Ki",
+        "Sung Ju Hwang"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/wgcyeo/HINT-SD",
+      "published": "2026-05-18T00:00:00.000Z"
+    },
+    {
+      "id": "2605.23901",
+      "title": "LLMs as Noisy Channels: A Shannon Perspective on Model Capacity and Scaling Laws",
+      "authors": [
+        "Xu Ouyang",
+        "Deyi Liu",
+        "Yuhang Cai",
+        "Jing Liu",
+        "Yuan Yang",
+        "Chen Zheng",
+        "Thomas Hartvigsen",
+        "Yiyuan Ma"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2026-05-22T00:00:00.000Z"
+    },
+    {
+      "id": "2605.21195",
+      "title": "RankE: End-to-End Post-Training for Discrete Text-to-Image Generation with Decoder Co-Evolution",
+      "authors": [
+        "Siyong Jian",
+        "Siyuan Li",
+        "Luyuan Zhang",
+        "Zedong Wang",
+        "Xin Jin",
+        "Ying Li",
+        "Cheng Tan",
+        "Huan Wang"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/syjmelody/RankE",
+      "published": "2026-05-20T00:00:00.000Z"
+    },
+    {
+      "id": "2605.19282",
+      "title": "Rethinking Muon Beyond Pretraining: Spectral Failures and High-Pass Remedies for VLA and RLVR",
+      "authors": [
+        "Chongyu Fan",
+        "Gaowen Liu",
+        "Mingyi Hong",
+        "Ramana Rao Kompella",
+        "Sijia Liu"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/OPTML-Group/Pion",
+      "published": "2026-05-19T00:00:00.000Z"
+    },
+    {
+      "id": "2605.17766",
+      "title": "LatentUMM: Dual Latent Alignment for Unified Multimodal Models",
+      "authors": [
+        "Yinyi Luo",
+        "Wenwen Wang",
+        "Hayes Bai",
+        "Marios Savvides",
+        "Jindong Wang"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2026-05-18T00:00:00.000Z"
+    },
+    {
+      "id": "2605.23903",
+      "title": "Geo-Align: Video Generation Alignment via Metric Geometry Reward",
+      "authors": [
+        "Zizun Li",
+        "Haoyu Guo",
+        "Runzhe Teng",
+        "Chunhua Shen",
+        "Tong He"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/LiZizun/GeoAlign",
+      "published": "2026-05-22T00:00:00.000Z"
+    },
+    {
+      "id": "2605.21488",
+      "title": "Equilibrium Reasoners: Learning Attractors Enables Scalable Reasoning",
+      "authors": [
+        "Benhao Huang",
+        "Zhengyang Geng",
+        "Zico Kolter"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/locuslab/eqr",
+      "published": "2026-05-20T00:00:00.000Z"
+    },
+    {
+      "id": "2605.21856",
+      "title": "The Illusion of Reasoning: Exposing Evasive Data Contamination in LLMs via Zero-CoT Truncation",
+      "authors": [
+        "Yifan Lan",
+        "Yuanpu Cao",
+        "Hanyu Wang",
+        "Lu Lin",
+        "Jinghui Chen"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/Yifan-Lan/zero-cot-probe",
+      "published": "2026-05-21T00:00:00.000Z"
+    },
+    {
+      "id": "2605.23892",
+      "title": "Good Token Hunting: A Hitchhiker's Guide to Token Selection for Visual Geometry Transformers",
+      "authors": [
+        "Shuhong Zheng",
+        "Michael Oechsle",
+        "Erik Sandström",
+        "Marie-Julie Rakotosaona",
+        "Federico Tombari",
+        "Igor Gilitschenski"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/zsh2000/gotohunt",
+      "published": "2026-05-22T00:00:00.000Z"
+    },
+    {
+      "id": "2605.20177",
+      "title": "From Seeing to Thinking: Decoupling Perception and Reasoning Improves Post-Training of Vision-Language Models",
+      "authors": [
+        "Juncheng Wu",
+        "Hardy Chen",
+        "Haoqin Tu",
+        "Xianfeng Tang",
+        "Freda Shi",
+        "Hui Liu",
+        "Hanqing Lu",
+        "Cihang Xie",
+        "Yuyin Zhou"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/UCSC-VLAA/VLM-CapCurriculum",
+      "published": "2026-05-19T00:00:00.000Z"
+    },
+    {
+      "id": "2604.20665",
+      "title": "The Expense of Seeing: Attaining Trustworthy Multimodal Reasoning Within the Monolithic Paradigm",
+      "authors": [
+        "Karan Goyal"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-05-21T00:00:00.000Z"
+    },
+    {
+      "id": "2605.24675",
+      "title": "VaaWIT: Visual-Aware Adaptation of Large Language Models for Multilingual Web Image Translation",
+      "authors": [
+        "Bo Li",
+        "Ronghao Chen",
+        "Ningyuan Deng",
+        "Huacan Wang",
+        "Shaolin Zhu",
+        "Lijie Wen"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2026-05-23T00:00:00.000Z"
+    },
+    {
+      "id": "2605.24681",
+      "title": "Mix-MoE: Improving Multilingual Machine Translation of Large Language Models through Mixed MoEs",
+      "authors": [
+        "Bo Li",
+        "Tianyu Dong",
+        "Shaolin Zhu",
+        "Deyi Xiong"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2026-05-23T00:00:00.000Z"
+    },
+    {
+      "id": "2605.19354",
+      "title": "Next-Acceleration-Scale Prediction for Autoregressive MRI Reconstruction",
+      "authors": [
+        "Yilmaz Korkmaz",
+        "Vishal M. Patel"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/yilmazkorkmaz1/discrete-mri-reconstruction-opd",
+      "published": "2026-05-21T00:00:00.000Z"
+    }
+  ]
+}

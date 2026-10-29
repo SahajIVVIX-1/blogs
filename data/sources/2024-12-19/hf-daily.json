@@ -1,0 +1,421 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-12-19",
+  "fetched_at": "2026-10-29T15:30:02.037Z",
+  "candidates": [
+    {
+      "id": "2412.13663",
+      "title": "Smarter, Better, Faster, Longer: A Modern Bidirectional Encoder for Fast, Memory Efficient, and Long Context Finetuning and Inference",
+      "authors": [
+        "Benjamin Warner",
+        "Antoine Chaffin",
+        "Benjamin Clavié",
+        "Orion Weller",
+        "Oskar Hallström",
+        "Said Taghadouini",
+        "Alexis Gallagher",
+        "Raja Biswas",
+        "Faisal Ladhak",
+        "Tom Aarsen",
+        "Nathan Cooper",
+        "Griffin Adams",
+        "Jeremy Howard",
+        "Iacopo Poli"
+      ],
+      "upvotes": 153,
+      "github": null,
+      "published": "2024-12-18T09:39:44.000Z"
+    },
+    {
+      "id": "2412.13303",
+      "title": "FastVLM: Efficient Vision Encoding for Vision Language Models",
+      "authors": [
+        "Pavan Kumar Anasosalu Vasu",
+        "Fartash Faghri",
+        "Chun-Liang Li",
+        "Cem Koc",
+        "Nate True",
+        "Albert Antony",
+        "Gokul Santhanam",
+        "James Gabriel",
+        "Peter Grasch",
+        "Oncel Tuzel",
+        "Hadi Pouransari"
+      ],
+      "upvotes": 77,
+      "github": "https://github.com/apple/ml-fastvlm",
+      "published": "2024-12-17T20:09:55.000Z"
+    },
+    {
+      "id": "2412.14173",
+      "title": "AniDoc: Animation Creation Made Easier",
+      "authors": [
+        "Yihao Meng",
+        "Hao Ouyang",
+        "Hanlin Wang",
+        "Qiuyu Wang",
+        "Wen Wang",
+        "Ka Leong Cheng",
+        "Zhiheng Liu",
+        "Yujun Shen",
+        "Huamin Qu"
+      ],
+      "upvotes": 58,
+      "github": "https://github.com/yihao-meng/AniDoc",
+      "published": "2024-12-18T18:59:59.000Z"
+    },
+    {
+      "id": "2412.14161",
+      "title": "TheAgentCompany: Benchmarking LLM Agents on Consequential Real World Tasks",
+      "authors": [
+        "Frank F. Xu",
+        "Yufan Song",
+        "Boxuan Li",
+        "Yuxuan Tang",
+        "Kritanjali Jain",
+        "Mengxue Bao",
+        "Zora Z. Wang",
+        "Xuhui Zhou",
+        "Zhitong Guo",
+        "Murong Cao",
+        "Mingyang Yang",
+        "Hao Yang Lu",
+        "Amaad Martin",
+        "Zhe Su",
+        "Leander Maben",
+        "Raj Mehta",
+        "Wayne Chi",
+        "Lawrence Jang",
+        "Yiqing Xie",
+        "Shuyan Zhou",
+        "Graham Neubig"
+      ],
+      "upvotes": 51,
+      "github": "https://github.com/TheAgentCompany/TheAgentCompany",
+      "published": "2024-12-18T18:55:40.000Z"
+    },
+    {
+      "id": "2412.11768",
+      "title": "No More Adam: Learning Rate Scaling at Initialization is All You Need",
+      "authors": [
+        "Minghao Xu",
+        "Lichuan Xiang",
+        "Xu Cai",
+        "Hongkai Wen"
+      ],
+      "upvotes": 35,
+      "github": "https://github.com/anonymousalethiometer/sgd_sai",
+      "published": "2024-12-16T13:41:37.000Z"
+    },
+    {
+      "id": "2412.13501",
+      "title": "GUI Agents: A Survey",
+      "authors": [
+        "Dang Nguyen",
+        "Jian Chen",
+        "Yu Wang",
+        "Gang Wu",
+        "Namyong Park",
+        "Zhengmian Hu",
+        "Hanjia Lyu",
+        "Junda Wu",
+        "Ryan Aponte",
+        "Yu Xia",
+        "Xintong Li",
+        "Jing Shi",
+        "Hongjie Chen",
+        "Viet Dac Lai",
+        "Zhouhang Xie",
+        "Sungchul Kim",
+        "Ruiyi Zhang",
+        "Tong Yu",
+        "Mehrab Tanjim",
+        "Nesreen K. Ahmed",
+        "Puneet Mathur",
+        "Seunghyun Yoon",
+        "Lina Yao",
+        "Branislav Kveton",
+        "Thien Huu Nguyen",
+        "Trung Bui",
+        "Tianyi Zhou",
+        "Ryan A. Rossi",
+        "Franck Dernoncourt"
+      ],
+      "upvotes": 29,
+      "github": null,
+      "published": "2024-12-18T04:48:28.000Z"
+    },
+    {
+      "id": "2412.14171",
+      "title": "Thinking in Space: How Multimodal Large Language Models See, Remember, and Recall Spaces",
+      "authors": [
+        "Jihan Yang",
+        "Shusheng Yang",
+        "Anjali W. Gupta",
+        "Rilyn Han",
+        "Li Fei-Fei",
+        "Saining Xie"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/vision-x-nyu/thinking-in-space",
+      "published": "2024-12-18T18:59:54.000Z"
+    },
+    {
+      "id": "2412.13795",
+      "title": "Mix-LN: Unleashing the Power of Deeper Layers by Combining Pre-LN and Post-LN",
+      "authors": [
+        "Pengxiang Li",
+        "Lu Yin",
+        "Shiwei Liu"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/pixeli99/mixln",
+      "published": "2024-12-18T12:39:53.000Z"
+    },
+    {
+      "id": "2412.13871",
+      "title": "LLaVA-UHD v2: an MLLM Integrating High-Resolution Feature Pyramid via Hierarchical Window Transformer",
+      "authors": [
+        "Yipeng Zhang",
+        "Yifan Liu",
+        "Zonghao Guo",
+        "Yidan Zhang",
+        "Xuesong Yang",
+        "Chi Chen",
+        "Jun Song",
+        "Bo Zheng",
+        "Yuan Yao",
+        "Zhiyuan Liu",
+        "Tat-Seng Chua",
+        "Maosong Sun"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/thunlp/LLaVA-UHD",
+      "published": "2024-12-18T14:07:46.000Z"
+    },
+    {
+      "id": "2412.14168",
+      "title": "FashionComposer: Compositional Fashion Image Generation",
+      "authors": [
+        "Sihui Ji",
+        "Yiyang Wang",
+        "Xi Chen",
+        "Xiaogang Xu",
+        "Hao Luo",
+        "Hengshuang Zhao"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/zjuer-huijun/FashionComposer",
+      "published": "2024-12-18T18:59:50.000Z"
+    },
+    {
+      "id": "2412.14169",
+      "title": "Autoregressive Video Generation without Vector Quantization",
+      "authors": [
+        "Haoge Deng",
+        "Ting Pan",
+        "Haiwen Diao",
+        "Zhengxiong Luo",
+        "Yufeng Cui",
+        "Huchuan Lu",
+        "Shiguang Shan",
+        "Yonggang Qi",
+        "Xinlong Wang"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/baaivision/nova",
+      "published": "2024-12-18T18:59:53.000Z"
+    },
+    {
+      "id": "2412.14015",
+      "title": "Prompting Depth Anything for 4K Resolution Accurate Metric Depth Estimation",
+      "authors": [
+        "Haotong Lin",
+        "Sida Peng",
+        "Jingxiao Chen",
+        "Songyou Peng",
+        "Jiaming Sun",
+        "Minghuan Liu",
+        "Hujun Bao",
+        "Jiashi Feng",
+        "Xiaowei Zhou",
+        "Bingyi Kang"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/DepthAnything/PromptDA",
+      "published": "2024-12-18T16:32:12.000Z"
+    },
+    {
+      "id": "2412.14123",
+      "title": "AnySat: An Earth Observation Model for Any Resolutions, Scales, and Modalities",
+      "authors": [
+        "Guillaume Astruc",
+        "Nicolas Gonthier",
+        "Clement Mallet",
+        "Loic Landrieu"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/gastruc/anysat",
+      "published": "2024-12-18T18:11:53.000Z"
+    },
+    {
+      "id": "2412.12953",
+      "title": "Efficient Diffusion Transformer Policies with Mixture of Expert Denoisers for Multitask Learning",
+      "authors": [
+        "Moritz Reuss",
+        "Jyothish Pari",
+        "Pulkit Agrawal",
+        "Rudolf Lioutikov"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/intuitive-robots/MoDE_Diffusion_Policy",
+      "published": "2024-12-17T14:34:51.000Z"
+    },
+    {
+      "id": "2412.14093",
+      "title": "Alignment faking in large language models",
+      "authors": [
+        "Ryan Greenblatt",
+        "Carson Denison",
+        "Benjamin Wright",
+        "Fabien Roger",
+        "Monte MacDiarmid",
+        "Sam Marks",
+        "Johannes Treutlein",
+        "Tim Belonax",
+        "Jack Chen",
+        "David Duvenaud",
+        "Akbir Khan",
+        "Julian Michael",
+        "Sören Mindermann",
+        "Ethan Perez",
+        "Linda Petrini",
+        "Jonathan Uesato",
+        "Jared Kaplan",
+        "Buck Shlegeris",
+        "Samuel R. Bowman",
+        "Evan Hubinger"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/redwoodresearch/alignment_faking_public",
+      "published": "2024-12-18T17:41:24.000Z"
+    },
+    {
+      "id": "2412.14172",
+      "title": "Learning from Massive Human Videos for Universal Humanoid Pose Control",
+      "authors": [
+        "Jiageng Mao",
+        "Siheng Zhao",
+        "Siqi Song",
+        "Tianheng Shi",
+        "Junjie Ye",
+        "Mingtong Zhang",
+        "Haoran Geng",
+        "Jitendra Malik",
+        "Vitor Guizilini",
+        "Yue Wang"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2024-12-18T18:59:56.000Z"
+    },
+    {
+      "id": "2412.13746",
+      "title": "RAG-RewardBench: Benchmarking Reward Models in Retrieval Augmented Generation for Preference Alignment",
+      "authors": [
+        "Zhuoran Jin",
+        "Hongbang Yuan",
+        "Tianyi Men",
+        "Pengfei Cao",
+        "Yubo Chen",
+        "Kang Liu",
+        "Jun Zhao"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/jinzhuoran/rag-rewardbench",
+      "published": "2024-12-18T11:28:05.000Z"
+    },
+    {
+      "id": "2412.12571",
+      "title": "ChatDiT: A Training-Free Baseline for Task-Agnostic Free-Form Chatting with Diffusion Transformers",
+      "authors": [
+        "Lianghua Huang",
+        "Wei Wang",
+        "Zhi-Fan Wu",
+        "Yupeng Shi",
+        "Chen Liang",
+        "Tong Shen",
+        "Han Zhang",
+        "Huanzhang Dou",
+        "Yu Liu",
+        "Jingren Zhou"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/ali-vilab/chatdit",
+      "published": "2024-12-17T06:03:05.000Z"
+    },
+    {
+      "id": "2412.13061",
+      "title": "VidTok: A Versatile and Open-Source Video Tokenizer",
+      "authors": [
+        "Anni Tang",
+        "Tianyu He",
+        "Junliang Guo",
+        "Xinle Cheng",
+        "Li Song",
+        "Jiang Bian"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2024-12-17T16:27:11.000Z"
+    },
+    {
+      "id": "2412.14042",
+      "title": "CAD-Recode: Reverse Engineering CAD Code from Point Clouds",
+      "authors": [
+        "Danila Rukhovich",
+        "Elona Dupont",
+        "Dimitrios Mallis",
+        "Kseniya Cherenkova",
+        "Anis Kacem",
+        "Djamila Aouada"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/filaPro/cad-recode",
+      "published": "2024-12-18T16:55:42.000Z"
+    },
+    {
+      "id": "2412.13670",
+      "title": "AntiLeak-Bench: Preventing Data Contamination by Automatically Constructing Benchmarks with Updated Real-World Knowledge",
+      "authors": [
+        "Xiaobao Wu",
+        "Liangming Pan",
+        "Yuxi Xie",
+        "Ruiwen Zhou",
+        "Shuai Zhao",
+        "Yubo Ma",
+        "Mingzhe Du",
+        "Rui Mao",
+        "Anh Tuan Luu",
+        "William Yang Wang"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/bobxwu/AntiLeak-Bench",
+      "published": "2024-12-18T09:53:12.000Z"
+    },
+    {
+      "id": "2412.11634",
+      "title": "Predicting the Original Appearance of Damaged Historical Documents",
+      "authors": [
+        "Zhenhua Yang",
+        "Dezhi Peng",
+        "Yongxin Shi",
+        "Yuyi Zhang",
+        "Chongyu Liu",
+        "Lianwen Jin"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/yeungchenwa/hdr",
+      "published": "2024-12-16T10:25:03.000Z"
+    }
+  ]
+}

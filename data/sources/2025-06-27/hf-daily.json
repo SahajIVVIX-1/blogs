@@ -1,0 +1,296 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-06-27",
+  "fetched_at": "2026-10-29T15:31:57.463Z",
+  "candidates": [
+    {
+      "id": "2506.21506",
+      "title": "Mind2Web 2: Evaluating Agentic Search with Agent-as-a-Judge",
+      "authors": [
+        "Boyu Gou",
+        "Zanming Huang",
+        "Yuting Ning",
+        "Yu Gu",
+        "Michael Lin",
+        "Weijian Qi",
+        "Andrei Kopanev",
+        "Botao Yu",
+        "Bernal Jiménez Gutiérrez",
+        "Yiheng Shu",
+        "Chan Hee Song",
+        "Jiaman Wu",
+        "Shijie Chen",
+        "Hanane Nour Moussa",
+        "Tianshu Zhang",
+        "Jian Xie",
+        "Yifei Li",
+        "Tianci Xue",
+        "Zeyi Liao",
+        "Kai Zhang",
+        "Boyuan Zheng",
+        "Zhaowei Cai",
+        "Viktor Rozgic",
+        "Morteza Ziyadi",
+        "Huan Sun",
+        "Yu Su"
+      ],
+      "upvotes": 52,
+      "github": "https://github.com/OSU-NLP-Group/Mind2Web-2",
+      "published": "2025-06-26T17:32:50.000Z"
+    },
+    {
+      "id": "2506.20670",
+      "title": "MMSearch-R1: Incentivizing LMMs to Search",
+      "authors": [
+        "Jinming Wu",
+        "Zihao Deng",
+        "Wei Li",
+        "Yiding Liu",
+        "Bo You",
+        "Bo Li",
+        "Zejun Ma",
+        "Ziwei Liu"
+      ],
+      "upvotes": 46,
+      "github": "https://github.com/EvolvingLMMs-Lab/multimodal-search-r1",
+      "published": "2025-06-25T17:59:42.000Z"
+    },
+    {
+      "id": "2506.20911",
+      "title": "FaSTA^*: Fast-Slow Toolpath Agent with Subroutine Mining for Efficient Multi-turn Image Editing",
+      "authors": [
+        "Advait Gupta",
+        "Rishie Raj",
+        "Dang Nguyen",
+        "Tianyi Zhou"
+      ],
+      "upvotes": 41,
+      "github": "https://github.com/tianyi-lab/FaSTAR",
+      "published": "2025-06-26T00:33:43.000Z"
+    },
+    {
+      "id": "2506.21539",
+      "title": "WorldVLA: Towards Autoregressive Action World Model",
+      "authors": [
+        "Jun Cen",
+        "Chaohui Yu",
+        "Hangjie Yuan",
+        "Yuming Jiang",
+        "Siteng Huang",
+        "Jiayan Guo",
+        "Xin Li",
+        "Yibing Song",
+        "Hao Luo",
+        "Fan Wang",
+        "Deli Zhao",
+        "Hao Chen"
+      ],
+      "upvotes": 40,
+      "github": "https://github.com/alibaba-damo-academy/WorldVLA",
+      "published": "2025-06-26T17:55:40.000Z"
+    },
+    {
+      "id": "2506.21520",
+      "title": "MADrive: Memory-Augmented Driving Scene Modeling",
+      "authors": [
+        "Polina Karpikova",
+        "Daniil Selikhanovych",
+        "Kirill Struminsky",
+        "Ruslan Musaev",
+        "Maria Golitsyna",
+        "Dmitry Baranchuk"
+      ],
+      "upvotes": 36,
+      "github": null,
+      "published": "2025-06-26T17:41:07.000Z"
+    },
+    {
+      "id": "2506.21551",
+      "title": "Where to find Grokking in LLM Pretraining? Monitor Memorization-to-Generalization without Test",
+      "authors": [
+        "Ziyue Li",
+        "Chenrui Fan",
+        "Tianyi Zhou"
+      ],
+      "upvotes": 28,
+      "github": null,
+      "published": "2025-06-26T17:59:58.000Z"
+    },
+    {
+      "id": "2506.21103",
+      "title": "Learning to Skip the Middle Layers of Transformers",
+      "authors": [
+        "Tim Lawson",
+        "Laurence Aitchison"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/tim-lawson/skip-middle",
+      "published": "2025-06-26T09:01:19.000Z"
+    },
+    {
+      "id": "2506.16655",
+      "title": "Arch-Router: Aligning LLM Routing with Human Preferences",
+      "authors": [
+        "Co Tran",
+        "Salman Paracha",
+        "Adil Hafeez",
+        "Shuguang Chen"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/katanemo/archgw",
+      "published": "2025-06-19T23:57:41.000Z"
+    },
+    {
+      "id": "2506.21547",
+      "title": "SAM4D: Segment Anything in Camera and LiDAR Streams",
+      "authors": [
+        "Jianyun Xu",
+        "Song Wang",
+        "Ziqian Ni",
+        "Chunyong Hu",
+        "Sheng Yang",
+        "Jianke Zhu",
+        "Qiang Li"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/CN-ADLab/SAM4D",
+      "published": "2025-06-26T17:59:14.000Z"
+    },
+    {
+      "id": "2506.20936",
+      "title": "PhysRig: Differentiable Physics-Based Skinning and Rigging Framework for Realistic Articulated Object Modeling",
+      "authors": [
+        "Hao Zhang",
+        "Haolan Xu",
+        "Chun Feng",
+        "Varun Jampani",
+        "Narendra Ahuja"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2025-06-26T01:58:09.000Z"
+    },
+    {
+      "id": "2506.21552",
+      "title": "Whole-Body Conditioned Egocentric Video Prediction",
+      "authors": [
+        "Yutong Bai",
+        "Danny Tran",
+        "Amir Bar",
+        "Yann LeCun",
+        "Trevor Darrell",
+        "Jitendra Malik"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2025-06-26T17:59:59.000Z"
+    },
+    {
+      "id": "2506.21272",
+      "title": "FairyGen: Storied Cartoon Video from a Single Child-Drawn Character",
+      "authors": [
+        "Jiayi Zheng",
+        "Xiaodong Cun"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/GVCLab/FairyGen",
+      "published": "2025-06-26T13:58:16.000Z"
+    },
+    {
+      "id": "2506.20430",
+      "title": "An Agentic System for Rare Disease Diagnosis with Traceable Reasoning",
+      "authors": [
+        "Weike Zhao",
+        "Chaoyi Wu",
+        "Yanjie Fan",
+        "Xiaoman Zhang",
+        "Pengcheng Qiu",
+        "Yuze Sun",
+        "Xiao Zhou",
+        "Yanfeng Wang",
+        "Ya Zhang",
+        "Yongguo Yu",
+        "Kun Sun",
+        "Weidi Xie"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2025-06-25T13:42:26.000Z"
+    },
+    {
+      "id": "2506.20703",
+      "title": "Generative Blocks World: Moving Things Around in Pictures",
+      "authors": [
+        "Vaibhav Vavilala",
+        "Seemandhar Jain",
+        "Rahul Vasanth",
+        "D. A. Forsyth",
+        "Anand Bhattad"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-06-25T17:59:55.000Z"
+    },
+    {
+      "id": "2506.21263",
+      "title": "DiLoCoX: A Low-Communication Large-Scale Training Framework for Decentralized Cluster",
+      "authors": [
+        "Ji Qi",
+        "WenPeng Zhu",
+        "Li Li",
+        "Ming Wu",
+        "YingJun Wu",
+        "Wu He",
+        "Xun Gao",
+        "Jason Zeng",
+        "Michael Heinrich"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-06-26T13:45:04.000Z"
+    },
+    {
+      "id": "2506.18729",
+      "title": "MuseControlLite: Multifunctional Music Generation with Lightweight Conditioners",
+      "authors": [
+        "Fang-Duo Tsai",
+        "Shih-Lun Wu",
+        "Weijaw Lee",
+        "Sheng-Ping Yang",
+        "Bo-Rui Chen",
+        "Hao-Chung Cheng",
+        "Yi-Hsuan Yang"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/fundwotsai2001/MuseControlLite",
+      "published": "2025-06-23T15:08:03.000Z"
+    },
+    {
+      "id": "2506.17533",
+      "title": "DuaShepherd: Integrating Stepwise Correctness and Potential Rewards for Mathematical Reasoning",
+      "authors": [
+        "Yuanhao Wu",
+        "Juntong Song",
+        "Hanning Zhang",
+        "Tong Zhang",
+        "Cheng Niu"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2025-06-21T01:11:01.000Z"
+    },
+    {
+      "id": "2506.15196",
+      "title": "HeurAgenix: Leveraging LLMs for Solving Complex Combinatorial Optimization Challenges",
+      "authors": [
+        "Xianliang Yang",
+        "Ling Zhang",
+        "Haolong Qian",
+        "Lei Song",
+        "Jiang Bian"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/microsoft/HeurAgenix",
+      "published": "2025-06-18T07:20:01.000Z"
+    }
+  ]
+}

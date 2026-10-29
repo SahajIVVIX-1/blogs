@@ -1,0 +1,271 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-09-20",
+  "fetched_at": "2026-10-29T15:29:07.124Z",
+  "candidates": [
+    {
+      "id": "2409.12917",
+      "title": "Training Language Models to Self-Correct via Reinforcement Learning",
+      "authors": [
+        "Aviral Kumar",
+        "Vincent Zhuang",
+        "Rishabh Agarwal",
+        "Yi Su",
+        "John D Co-Reyes",
+        "Avi Singh",
+        "Kate Baumli",
+        "Shariq Iqbal",
+        "Colton Bishop",
+        "Rebecca Roelofs",
+        "Lei M Zhang",
+        "Kay McKinney",
+        "Disha Shrivastava",
+        "Cosmin Paduraru",
+        "George Tucker",
+        "Doina Precup",
+        "Feryal Behbahani",
+        "Aleksandra Faust"
+      ],
+      "upvotes": 140,
+      "github": "https://github.com/daje0601/Google_SCoRe",
+      "published": "2024-09-19T17:16:21.000Z"
+    },
+    {
+      "id": "2409.12568",
+      "title": "InfiMM-WebMath-40B: Advancing Multimodal Pre-Training for Enhanced Mathematical Reasoning",
+      "authors": [
+        "Xiaotian Han",
+        "Yiren Jian",
+        "Xuefeng Hu",
+        "Haogeng Liu",
+        "Yiqi Wang",
+        "Qihang Fan",
+        "Yuang Ai",
+        "Huaibo Huang",
+        "Ran He",
+        "Zhenheng Yang",
+        "Quanzeng You"
+      ],
+      "upvotes": 49,
+      "github": null,
+      "published": "2024-09-19T08:41:21.000Z"
+    },
+    {
+      "id": "2409.12959",
+      "title": "MMSearch: Benchmarking the Potential of Large Models as Multi-modal Search Engines",
+      "authors": [
+        "Dongzhi Jiang",
+        "Renrui Zhang",
+        "Ziyu Guo",
+        "Yanmin Wu",
+        "Jiayi Lei",
+        "Pengshuo Qiu",
+        "Pan Lu",
+        "Zehui Chen",
+        "Guanglu Song",
+        "Peng Gao",
+        "Yu Liu",
+        "Chunyuan Li",
+        "Hongsheng Li"
+      ],
+      "upvotes": 38,
+      "github": null,
+      "published": "2024-09-19T17:59:45.000Z"
+    },
+    {
+      "id": "2409.08692",
+      "title": "B4: Towards Optimal Assessment of Plausible Code Solutions with Plausible Tests",
+      "authors": [
+        "Mouxiang Chen",
+        "Zhongxin Liu",
+        "He Tao",
+        "Yusu Hong",
+        "David Lo",
+        "Xin Xia",
+        "Jianling Sun"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/zju-ctag/b4",
+      "published": "2024-09-13T10:22:08.000Z"
+    },
+    {
+      "id": "2409.12961",
+      "title": "Oryx MLLM: On-Demand Spatial-Temporal Understanding at Arbitrary Resolution",
+      "authors": [
+        "Zuyan Liu",
+        "Yuhao Dong",
+        "Ziwei Liu",
+        "Winston Hu",
+        "Jiwen Lu",
+        "Yongming Rao"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/oryx-mllm/oryx",
+      "published": "2024-09-19T17:59:51.000Z"
+    },
+    {
+      "id": "2409.12960",
+      "title": "LVCD: Reference-based Lineart Video Colorization with Diffusion Models",
+      "authors": [
+        "Zhitong Huang",
+        "Mohan Zhang",
+        "Jing Liao"
+      ],
+      "upvotes": 24,
+      "github": null,
+      "published": "2024-09-19T17:59:48.000Z"
+    },
+    {
+      "id": "2409.12903",
+      "title": "Scaling Smart: Accelerating Large Language Model Pre-training with Small Model Initialization",
+      "authors": [
+        "Mohammad Samragh",
+        "Iman Mirzadeh",
+        "Keivan Alizadeh Vahid",
+        "Fartash Faghri",
+        "Minsik Cho",
+        "Moin Nabi",
+        "Devang Naik",
+        "Mehrdad Farajtabar"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/apple/ml-hypercloning",
+      "published": "2024-09-19T16:50:26.000Z"
+    },
+    {
+      "id": "2409.12957",
+      "title": "3DTopia-XL: Scaling High-quality 3D Asset Generation via Primitive Diffusion",
+      "authors": [
+        "Zhaoxi Chen",
+        "Jiaxiang Tang",
+        "Yuhao Dong",
+        "Ziang Cao",
+        "Fangzhou Hong",
+        "Yushi Lan",
+        "Tengfei Wang",
+        "Haozhe Xie",
+        "Tong Wu",
+        "Shunsuke Saito",
+        "Liang Pan",
+        "Dahua Lin",
+        "Ziwei Liu"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/3dtopia/3dtopia-xl",
+      "published": "2024-09-19T17:59:06.000Z"
+    },
+    {
+      "id": "2409.12576",
+      "title": "StoryMaker: Towards Holistic Consistent Characters in Text-to-image Generation",
+      "authors": [
+        "Zhengguang Zhou",
+        "Jing Li",
+        "Huaxia Li",
+        "Nemo Chen",
+        "Xu Tang"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/redaigc/storymaker",
+      "published": "2024-09-19T08:53:06.000Z"
+    },
+    {
+      "id": "2409.12431",
+      "title": "FlexiTex: Enhancing Texture Generation with Visual Guidance",
+      "authors": [
+        "DaDong Jiang",
+        "Xianghui Yang",
+        "Zibo Zhao",
+        "Sheng Zhang",
+        "Jiaao Yu",
+        "Zeqiang Lai",
+        "Shaoxiong Yang",
+        "Chunchao Guo",
+        "Xiaobo Zhou",
+        "Zhihui Ke"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2024-09-19T03:24:22.000Z"
+    },
+    {
+      "id": "2409.12822",
+      "title": "Language Models Learn to Mislead Humans via RLHF",
+      "authors": [
+        "Jiaxin Wen",
+        "Ruiqi Zhong",
+        "Akbir Khan",
+        "Ethan Perez",
+        "Jacob Steinhardt",
+        "Minlie Huang",
+        "Samuel R. Boman",
+        "He He",
+        "Shi Feng"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/jiaxin-wen/misleadlm",
+      "published": "2024-09-19T14:50:34.000Z"
+    },
+    {
+      "id": "2409.12958",
+      "title": "MURI: High-Quality Instruction Tuning Datasets for Low-Resource Languages via Reverse Instructions",
+      "authors": [
+        "Abdullatif Köksal",
+        "Marion Thaler",
+        "Ayyoob Imani",
+        "Ahmet Üstün",
+        "Anna Korhonen",
+        "Hinrich Schütze"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/akoksal/muri",
+      "published": "2024-09-19T17:59:20.000Z"
+    },
+    {
+      "id": "2409.12892",
+      "title": "3DGS-LM: Faster Gaussian-Splatting Optimization with Levenberg-Marquardt",
+      "authors": [
+        "Lukas Höllein",
+        "Aljaž Božič",
+        "Michael Zollhöfer",
+        "Matthias Nießner"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/lukashoel/3dgs-lm",
+      "published": "2024-09-19T16:31:44.000Z"
+    },
+    {
+      "id": "2409.12532",
+      "title": "Denoising Reuse: Exploiting Inter-frame Motion Consistency for Efficient Video Latent Generation",
+      "authors": [
+        "Chenyu Wang",
+        "Shuo Yan",
+        "Yixuan Chen",
+        "Yujiang Wang",
+        "Mingzhi Dong",
+        "Xiaochen Yang",
+        "Dongsheng Li",
+        "Robert P. Dick",
+        "Qin Lv",
+        "Fan Yang",
+        "Tun Lu",
+        "Ning Gu",
+        "Li Shang"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2024-09-19T07:50:34.000Z"
+    },
+    {
+      "id": "2409.12962",
+      "title": "CLAIR-A: Leveraging Large Language Models to Judge Audio Captions",
+      "authors": [
+        "Tsung-Han Wu",
+        "Joseph E. Gonzalez",
+        "Trevor Darrell",
+        "David M. Chan"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/davidmchan/clair-a",
+      "published": "2024-09-19T17:59:52.000Z"
+    }
+  ]
+}

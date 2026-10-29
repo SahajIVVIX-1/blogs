@@ -1,0 +1,561 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-06-17",
+  "fetched_at": "2026-10-29T15:35:57.527Z",
+  "candidates": [
+    {
+      "id": "2606.18208",
+      "title": "Looped World Models",
+      "authors": [
+        "Hongyuan Adam Lu",
+        "Z. L. Victor Wei",
+        "Qun Zhang",
+        "Jinrui Zeng",
+        "Bowen Cao",
+        "Lingwei Meng",
+        "Mocheng Li",
+        "Zezhong Wang",
+        "Haonan Yin",
+        "Naifu Xue",
+        "Minyu Chen",
+        "Cenyuan Zhang",
+        "Zefan Zhang",
+        "Hao Wei",
+        "Jiawei Zhou",
+        "Haoran Xu",
+        "Hao Yang",
+        "Ronglai Zuo",
+        "Tongda Xu",
+        "Yonghao Li",
+        "Jian Chen",
+        "Hebin Wang",
+        "Zeyu Gao",
+        "Yang Li",
+        "Wei Zhao",
+        "Qimin Zhong",
+        "Siqi Liu",
+        "Yumeng Zhang",
+        "Leyan Cui",
+        "Zhangyu Wang",
+        "Wai Lam"
+      ],
+      "upvotes": 252,
+      "github": null,
+      "published": "2026-06-16T00:00:00.000Z"
+    },
+    {
+      "id": "2606.18023",
+      "title": "LoopCoder-v2: Only Loop Once for Efficient Test-Time Computation Scaling",
+      "authors": [
+        "Jian Yang",
+        "Shawn Guo",
+        "Wei Zhang",
+        "Tianyu Zheng",
+        "Yaxin Du",
+        "Haau-Sing Li",
+        "Jiajun Wu",
+        "Yue Song",
+        "Yan Xing",
+        "Qingsong Cai",
+        "Zelong Huang",
+        "Chuan Hao",
+        "Ran Tao",
+        "Xianglong Liu",
+        "Wayne Xin Zhao",
+        "Mingjie Tang",
+        "Weifeng Lv",
+        "Ming Zhou",
+        "Bryan Dai"
+      ],
+      "upvotes": 183,
+      "github": null,
+      "published": "2026-06-16T00:00:00.000Z"
+    },
+    {
+      "id": "2606.18195",
+      "title": "Learning from the Self-future: On-policy Self-distillation for dLLMs",
+      "authors": [
+        "Yifu Luo",
+        "Zeyu Chen",
+        "Haoyu Wang",
+        "Xinhao Hu",
+        "Yuxuan Zhang",
+        "Zhizhou Sha",
+        "Shiwei Liu"
+      ],
+      "upvotes": 105,
+      "github": "https://github.com/xingzhejun/d-opsd-code",
+      "published": "2026-06-16T00:00:00.000Z"
+    },
+    {
+      "id": "2606.18216",
+      "title": "Zone of Proximal Policy Optimization: Teacher in Prompts, Not Gradients",
+      "authors": [
+        "Byung-Kwan Lee",
+        "Ximing Lu",
+        "Shizhe Diao",
+        "Minki Kang",
+        "Saurav Muralidharan",
+        "Karan Sapra",
+        "Andrew Tao",
+        "Pavlo Molchanov",
+        "Yejin Choi",
+        "Yu-Chiang Frank Wang",
+        "Ryo Hachiuma"
+      ],
+      "upvotes": 64,
+      "github": null,
+      "published": "2026-06-16T00:00:00.000Z"
+    },
+    {
+      "id": "2606.17861",
+      "title": "GameCraft-Bench: Can Agents Build Playable Games End-to-End in a Real Game Engine?",
+      "authors": [
+        "Tongxu Luo",
+        "Rongsheng Wang",
+        "Jiaxi Bi",
+        "Chenming Xu",
+        "Zhengyang Tang",
+        "Jianlong Chen",
+        "Juhao Liang",
+        "Ke Ji",
+        "Shuqi Guo",
+        "Yuhao Du",
+        "Fan Bu",
+        "Wenyu Du",
+        "Xiaotong Zhang",
+        "Kyle Li",
+        "Shaobo Wang",
+        "Linfeng Zhang",
+        "Yuxuan Liu",
+        "Xin Lai",
+        "Chenxin Li",
+        "Yiduo Guo",
+        "Zhexin Zhang",
+        "Xinyuan Wang",
+        "Tianyi Bai",
+        "Ziniu Li",
+        "Benyou Wang"
+      ],
+      "upvotes": 59,
+      "github": "https://github.com/tongxuluo/gamecraft-bench",
+      "published": "2026-06-16T00:00:00.000Z"
+    },
+    {
+      "id": "2606.17200",
+      "title": "ACE-Ego-0: Unifying Egocentric Human and Robotic Data for VLA Pretraining",
+      "authors": [
+        "Hao Li",
+        "Ganlong Zhao",
+        "Yufei Liu",
+        "Haotian Hou",
+        "Guoquan Ye",
+        "Tongyan Fang",
+        "Chunxiao Liu",
+        "Siyuan Huang",
+        "Jianbo Liu",
+        "Xiaogang Wang",
+        "Hongsheng Li"
+      ],
+      "upvotes": 54,
+      "github": "https://github.com/ACERobotics-VLA/ACE-Ego-0",
+      "published": "2026-06-15T00:00:00.000Z"
+    },
+    {
+      "id": "2606.16428",
+      "title": "LectūraAgents: A Multi-Agent Framework for Adaptive Personalized AI-Assisted Learning and Embodied Teaching",
+      "authors": [
+        "Jaward Sesay",
+        "Yue Yu",
+        "Siwei Dong",
+        "Yemin Shi",
+        "Guangyao Chen",
+        "Börje F. Karlsson"
+      ],
+      "upvotes": 40,
+      "github": null,
+      "published": "2026-06-15T00:00:00.000Z"
+    },
+    {
+      "id": "2606.17628",
+      "title": "OPD-Evolver: Cultivating Holistic Agent Evolver via On-Policy Distillation",
+      "authors": [
+        "Guibin Zhang",
+        "Xun Xu",
+        "Yanwei Yue",
+        "Zikun Su",
+        "Wangchunshu Zhou",
+        "Xiaobin Hu",
+        "Shuicheng Yan"
+      ],
+      "upvotes": 29,
+      "github": "https://github.com/bingreeky/opd-evolver",
+      "published": "2026-06-16T00:00:00.000Z"
+    },
+    {
+      "id": "2606.09030",
+      "title": "TRIAGE: Dialectical LLM Reasoning for Explainable Risk Prediction on Irregularly Sampled Medical Time Series",
+      "authors": [
+        "Hyeongwon Jang",
+        "Gyouk Chu",
+        "Changhun Kim",
+        "Hangyul Yoon",
+        "Jeonguk Lee",
+        "Eunho Yang",
+        "Joonhyung Park"
+      ],
+      "upvotes": 28,
+      "github": "https://github.com/HyeongWon-Jang/TRIAGE",
+      "published": "2026-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "2606.15236",
+      "title": "Show the Signal, Hide the Noise: Spectral Forcing for Pixel-Space Diffusion",
+      "authors": [
+        "Weichen Fan",
+        "Haiwen Diao",
+        "Penghao Wu",
+        "Ziwei Liu"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/WeichenFan/Spectral_Forcing",
+      "published": "2026-06-16T00:00:00.000Z"
+    },
+    {
+      "id": "2606.15378",
+      "title": "Rethinking the Role of Efficient Attention in Hybrid Architectures",
+      "authors": [
+        "Ziqing Qiao",
+        "Yinuo Xu",
+        "Chaojun Xiao",
+        "Zhou Su",
+        "Zihan Zhou",
+        "Yingfa Chen",
+        "Xiaoyue Xu",
+        "Xu Han",
+        "Zhiyuan Liu"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/thunlp/rethinking-hybrid-attention",
+      "published": "2026-06-13T00:00:00.000Z"
+    },
+    {
+      "id": "2606.16767",
+      "title": "Text-Vision Co-Instructed Image Editing",
+      "authors": [
+        "Chenxi Xie",
+        "Yuhui Wu",
+        "Qiaosi Yi",
+        "Lei Zhang"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/PolyU-VCLab/TVEdit",
+      "published": "2026-06-15T00:00:00.000Z"
+    },
+    {
+      "id": "2606.18180",
+      "title": "EgoCS-400K: An Egocentric Gameplay Dataset for World Models",
+      "authors": [
+        "Rongjin Guo",
+        "Dong Liang",
+        "Yuhao Liu",
+        "Fang Liu",
+        "Tianyu Huang",
+        "Gerhard P. Hancke",
+        "Rynson W. H. Lau"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/EgoCS-400K/Dataset",
+      "published": "2026-06-16T00:00:00.000Z"
+    },
+    {
+      "id": "2606.15345",
+      "title": "Beyond Monolingual Deep Research: Evaluating Agents and Retrievers with Cross-Lingual BrowseComp-Plus",
+      "authors": [
+        "Yuheng Lu",
+        "Qingcheng Zeng",
+        "Heli Qi",
+        "Puxuan Yu",
+        "Fuheng Zhao",
+        "Rui Yang",
+        "Hitomi Yanaka",
+        "Naoto Yokoya",
+        "Weihao Xuan"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2026-06-13T00:00:00.000Z"
+    },
+    {
+      "id": "2606.13929",
+      "title": "Self-Evolving Visual Questioner",
+      "authors": [
+        "Yijun Liang",
+        "Hengguang Zhou",
+        "Ming Li",
+        "Lichen Li",
+        "Cho-Jui Hsieh",
+        "Tianyi Zhou"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/tianyi-lab/SeeQ",
+      "published": "2026-06-11T00:00:00.000Z"
+    },
+    {
+      "id": "2606.18249",
+      "title": "Unified Multimodal Autoregressive Modeling with Shared Context-Visual Tokenizer is Key to Unification",
+      "authors": [
+        "Wujian Peng",
+        "Lingchen Meng",
+        "Yuxuan Cai",
+        "Xianwei Zhuang",
+        "Yuhuan Yang",
+        "Rongyao Fang",
+        "Chenfei Wu",
+        "Junyang Lin",
+        "Zuxuan Wu",
+        "Shuai Bai"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/ShareLab-SII/UniAR",
+      "published": "2026-06-16T00:00:00.000Z"
+    },
+    {
+      "id": "2606.18246",
+      "title": "Variable-Width Transformers",
+      "authors": [
+        "Zhaofeng Wu",
+        "Oliver Sieberling",
+        "Shawn Tan",
+        "Rameswar Panda",
+        "Yury Polyanskiy",
+        "Yoon Kim"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/ZhaofengWu/variable-width-transformers",
+      "published": "2026-06-16T00:00:00.000Z"
+    },
+    {
+      "id": "2606.14885",
+      "title": "Dr-DCI: Scaling Direct Corpus Interaction via Dynamic Workspace Expansion",
+      "authors": [
+        "Yi Lu",
+        "Zhuofeng Li",
+        "Ping Nie",
+        "Haoxiang Zhang",
+        "Yuyu Zhang",
+        "Kai Zou",
+        "Wenhu Chen",
+        "Jimmy Lin",
+        "Dongfu Jiang",
+        "Yu Zhang"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/EigenTom/DR-DCI",
+      "published": "2026-06-12T00:00:00.000Z"
+    },
+    {
+      "id": "2606.17321",
+      "title": "ProCUA-SFT Technical Report",
+      "authors": [
+        "Jaehun Jung",
+        "Ximing Lu",
+        "Brandon Cui",
+        "Muhammad Khalifa",
+        "Shaokun Zhang",
+        "Hao Zhang",
+        "Jin Xu",
+        "Amala Sanjay Deshmukh",
+        "Karan Sapra",
+        "Andrew Tao",
+        "Yejin Choi",
+        "Jan Kautz",
+        "Mingjie Liu",
+        "Yi Dong"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2026-06-15T00:00:00.000Z"
+    },
+    {
+      "id": "2606.15158",
+      "title": "RefGC-SR^2: Reference-guided Generated Content Super-Resolution and Refinement",
+      "authors": [
+        "Jeahun Sung",
+        "Dahyeon Kye",
+        "Soo Ye Kim",
+        "Jihyong Oh"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2026-06-13T00:00:00.000Z"
+    },
+    {
+      "id": "2606.17730",
+      "title": "ActWorld: From Explorable to Interactive World Model via Action-Aware Memory",
+      "authors": [
+        "Zhexiao Xiong",
+        "Yizhi Song",
+        "Hao Kang",
+        "Qing Yan",
+        "Liming Jiang",
+        "Jenson Yang",
+        "Zhoujie Fu",
+        "Stathi Fotiadis",
+        "Angtian Wang",
+        "Zichuan Liu",
+        "Bo Liu",
+        "Yiding Yang",
+        "Xin Lu",
+        "Nathan Jacobs"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2026-06-16T00:00:00.000Z"
+    },
+    {
+      "id": "2606.17905",
+      "title": "ChLogic: Evaluating Robustness of Logical Reasoning in Chinese Expressions",
+      "authors": [
+        "Peixian Zhou",
+        "Yuxu Chen",
+        "Chaorui Zhang",
+        "Wei Han",
+        "Bo Bai",
+        "Xueyan Niu"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/0328zpx/ChLogic",
+      "published": "2026-06-16T00:00:00.000Z"
+    },
+    {
+      "id": "2606.16905",
+      "title": "Speaking the Language of Science: Toward a General-Purpose Generative Foundation Model for the Natural Sciences",
+      "authors": [
+        "Mingyang Li",
+        "Yurou Liu",
+        "Jieping Ye",
+        "Bing Su",
+        "Ji-Rong Wen",
+        "Zheng Wang"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/LOGOS-Hub/LOGOS",
+      "published": "2026-06-15T00:00:00.000Z"
+    },
+    {
+      "id": "2606.15142",
+      "title": "MotionVLA: Vision-Language-Action Model for Humanoid Motion",
+      "authors": [
+        "Nonghai Zhang",
+        "Siyu Zhai",
+        "Yanjun Li",
+        "Zeyu Zhang",
+        "Zhihan Yin",
+        "Yandong Guo",
+        "Boxin Shi",
+        "Hao Tang"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/AIGeeksGroup/MotionVLA",
+      "published": "2026-06-13T00:00:00.000Z"
+    },
+    {
+      "id": "2606.15231",
+      "title": "Visual-Seeker: Towards Visual-Native Multimodal Agentic Search via Active Visual Reasoning",
+      "authors": [
+        "Zhengbo Zhang",
+        "Changtao Miao",
+        "Jinbo Su",
+        "Zhaowen Zhou",
+        "Chunxia Zhang",
+        "Xukai Wang",
+        "Ruiqi Liu",
+        "Kaiyuan Zheng",
+        "Jiansheng Cai",
+        "Bo Zhang",
+        "Zhe Li",
+        "Shiming Xiang",
+        "Ying Yan"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-06-13T00:00:00.000Z"
+    },
+    {
+      "id": "2606.17168",
+      "title": "RepSelect: Robust LLM Unlearning via Representation Selectivity",
+      "authors": [
+        "Filip Sondej",
+        "Yushi Yang",
+        "Adam Mahdi"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/filyp/RepSelect",
+      "published": "2026-06-15T00:00:00.000Z"
+    },
+    {
+      "id": "2606.13811",
+      "title": "Aligning Quantum Operators with Large Language Models",
+      "authors": [
+        "Rogerio Feris",
+        "Yunchao Liu",
+        "Pengyuan Li",
+        "Hang Hua",
+        "David Kremer"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-06-11T00:00:00.000Z"
+    },
+    {
+      "id": "2606.15134",
+      "title": "Beyond Scalar Distances: Semantic Attribute Gradients from Frozen MLLMs for Visual Embeddings",
+      "authors": [
+        "Shubhang Bhatnagar",
+        "Dheeraj Baiju",
+        "Narendra Ahuja"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2026-06-13T00:00:00.000Z"
+    },
+    {
+      "id": "2606.16154",
+      "title": "A Gradient Perspective on RLVR Stability and Winner Advantage Policy Optimization",
+      "authors": [
+        "Prasanth YSS",
+        "Zhichen Ren",
+        "Rasa Hosseinzadeh",
+        "Ilan Gofman",
+        "Yuqi Chen",
+        "Zhaoyan Liu",
+        "Guangwei Yu",
+        "Jesse C. Cresswell",
+        "Satya Krishna Gorti"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/layer6ai-labs/wapo",
+      "published": "2026-06-15T00:00:00.000Z"
+    },
+    {
+      "id": "2606.17081",
+      "title": "The Price of Anarchy in Disaggregated Inference",
+      "authors": [
+        "Athos Georgiou"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2026-06-11T00:00:00.000Z"
+    },
+    {
+      "id": "2606.17182",
+      "title": "Verified Detection and Prevention of Concurrency Anomalies in Multi-Agent Large Language Model Systems",
+      "authors": [
+        "Sajjad Khan"
+      ],
+      "upvotes": 0,
+      "github": null,
+      "published": "2026-06-15T00:00:00.000Z"
+    }
+  ]
+}

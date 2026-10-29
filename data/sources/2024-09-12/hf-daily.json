@@ -1,0 +1,231 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-09-12",
+  "fetched_at": "2026-10-29T15:29:02.259Z",
+  "candidates": [
+    {
+      "id": "2409.06820",
+      "title": "PingPong: A Benchmark for Role-Playing Language Models with User Emulation and Multi-Model Evaluation",
+      "authors": [
+        "Ilya Gusev"
+      ],
+      "upvotes": 68,
+      "github": "https://github.com/IlyaGusev/ping_pong_bench",
+      "published": "2024-09-10T19:00:44.000Z"
+    },
+    {
+      "id": "2409.07314",
+      "title": "MEDIC: Towards a Comprehensive Framework for Evaluating LLMs in Clinical Applications",
+      "authors": [
+        "Praveen K Kanithi",
+        "Clément Christophe",
+        "Marco AF Pimentel",
+        "Tathagata Raha",
+        "Nada Saadi",
+        "Hamza Javed",
+        "Svetlana Maslenkova",
+        "Nasir Hayat",
+        "Ronnie Rajan",
+        "Shadab Khan"
+      ],
+      "upvotes": 56,
+      "github": null,
+      "published": "2024-09-11T14:44:51.000Z"
+    },
+    {
+      "id": "2409.07429",
+      "title": "Agent Workflow Memory",
+      "authors": [
+        "Zora Zhiruo Wang",
+        "Jiayuan Mao",
+        "Daniel Fried",
+        "Graham Neubig"
+      ],
+      "upvotes": 33,
+      "github": "https://github.com/zorazrw/agent-workflow-memory",
+      "published": "2024-09-11T17:21:00.000Z"
+    },
+    {
+      "id": "2409.07146",
+      "title": "Gated Slot Attention for Efficient Linear-Time Sequence Modeling",
+      "authors": [
+        "Yu Zhang",
+        "Songlin Yang",
+        "Ruijie Zhu",
+        "Yue Zhang",
+        "Leyang Cui",
+        "Yiqiao Wang",
+        "Bolun Wang",
+        "Freda Shi",
+        "Bailin Wang",
+        "Wei Bi",
+        "Peng Zhou",
+        "Guohong Fu"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/sustcsonglin/flash-linear-attention",
+      "published": "2024-09-11T09:49:50.000Z"
+    },
+    {
+      "id": "2409.07452",
+      "title": "Hi3D: Pursuing High-Resolution Image-to-3D Generation with Video Diffusion Models",
+      "authors": [
+        "Haibo Yang",
+        "Yang Chen",
+        "Yingwei Pan",
+        "Ting Yao",
+        "Zhineng Chen",
+        "Chong-Wah Ngo",
+        "Tao Mei"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/yanghb22-fdu/hi3d-official",
+      "published": "2024-09-11T17:58:57.000Z"
+    },
+    {
+      "id": "2409.06765",
+      "title": "gsplat: An Open-Source Library for Gaussian Splatting",
+      "authors": [
+        "Vickie Ye",
+        "Ruilong Li",
+        "Justin Kerr",
+        "Matias Turkulainen",
+        "Brent Yi",
+        "Zhuoyang Pan",
+        "Otto Seiskari",
+        "Jianbo Ye",
+        "Jeffrey Hu",
+        "Matthew Tancik",
+        "Angjoo Kanazawa"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/nerfstudio-project/gsplat",
+      "published": "2024-09-10T17:57:38.000Z"
+    },
+    {
+      "id": "2409.04057",
+      "title": "Self-Harmonized Chain of Thought",
+      "authors": [
+        "Ziqi Jin",
+        "Wei Lu"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/Xalp/ECHO",
+      "published": "2024-09-06T06:57:04.000Z"
+    },
+    {
+      "id": "2409.06185",
+      "title": "Can Large Language Models Unlock Novel Scientific Research Ideas?",
+      "authors": [
+        "Sandeep Kumar",
+        "Tirthankar Ghosal",
+        "Vinayak Goyal",
+        "Asif Ekbal"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/sandeep82945/future-idea-generation",
+      "published": "2024-09-10T03:26:42.000Z"
+    },
+    {
+      "id": "2409.07441",
+      "title": "Instant Facial Gaussians Translator for Relightable and Interactable Facial Rendering",
+      "authors": [
+        "Dafei Qin",
+        "Hongyang Lin",
+        "Qixuan Zhang",
+        "Kaichun Qiao",
+        "Longwen Zhang",
+        "Zijun Zhao",
+        "Jun Saito",
+        "Jingyi Yu",
+        "Lan Xu",
+        "Taku Komura"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2024-09-11T17:40:21.000Z"
+    },
+    {
+      "id": "2409.07450",
+      "title": "VMAS: Video-to-Music Generation via Semantic Alignment in Web Music Videos",
+      "authors": [
+        "Yan-Bo Lin",
+        "Yu Tian",
+        "Linjie Yang",
+        "Gedas Bertasius",
+        "Heng Wang"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2024-09-11T17:56:48.000Z"
+    },
+    {
+      "id": "2409.07440",
+      "title": "SUPER: Evaluating Agents on Setting Up and Executing Tasks from Research Repositories",
+      "authors": [
+        "Ben Bogin",
+        "Kejuan Yang",
+        "Shashank Gupta",
+        "Kyle Richardson",
+        "Erin Bransom",
+        "Peter Clark",
+        "Ashish Sabharwal",
+        "Tushar Khot"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/allenai/super-benchmark",
+      "published": "2024-09-11T17:37:48.000Z"
+    },
+    {
+      "id": "2409.06744",
+      "title": "ProteinBench: A Holistic Evaluation of Protein Foundation Models",
+      "authors": [
+        "Fei Ye",
+        "Zaixiang Zheng",
+        "Dongyu Xue",
+        "Yuning Shen",
+        "Lihao Wang",
+        "Yiming Ma",
+        "Yan Wang",
+        "Xinyou Wang",
+        "Xiangxin Zhou",
+        "Quanquan Gu"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2024-09-10T06:52:33.000Z"
+    },
+    {
+      "id": "2409.07129",
+      "title": "MVLLaVA: An Intelligent Agent for Unified and Flexible Novel View Synthesis",
+      "authors": [
+        "Hanyu Jiang",
+        "Jian Xue",
+        "Xing Lan",
+        "Guohong Hu",
+        "Ke Lu"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2024-09-11T09:25:37.000Z"
+    },
+    {
+      "id": "2409.06762",
+      "title": "Generative Hierarchical Materials Search",
+      "authors": [
+        "Sherry Yang",
+        "Simon Batzner",
+        "Ruiqi Gao",
+        "Muratahan Aykol",
+        "Alexander L. Gaunt",
+        "Brendan McMorrow",
+        "Danilo J. Rezende",
+        "Dale Schuurmans",
+        "Igor Mordatch",
+        "Ekin D. Cubuk"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2024-09-10T17:51:28.000Z"
+    }
+  ]
+}

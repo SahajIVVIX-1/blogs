@@ -1,0 +1,203 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-07-03",
+  "fetched_at": "2026-10-29T15:28:18.891Z",
+  "candidates": [
+    {
+      "id": "2407.01370",
+      "title": "Summary of a Haystack: A Challenge to Long-Context LLMs and RAG Systems",
+      "authors": [
+        "Philippe Laban",
+        "Alexander R. Fabbri",
+        "Caiming Xiong",
+        "Chien-Sheng Wu"
+      ],
+      "upvotes": 87,
+      "github": "https://github.com/salesforce/summary-of-a-haystack",
+      "published": "2024-07-01T15:23:42.000Z"
+    },
+    {
+      "id": "2407.01489",
+      "title": "Agentless: Demystifying LLM-based Software Engineering Agents",
+      "authors": [
+        "Chunqiu Steven Xia",
+        "Yinlin Deng",
+        "Soren Dunn",
+        "Lingming Zhang"
+      ],
+      "upvotes": 63,
+      "github": "https://github.com/OpenAutoCoder/Agentless",
+      "published": "2024-07-01T17:24:45.000Z"
+    },
+    {
+      "id": "2407.02371",
+      "title": "OpenVid-1M: A Large-Scale High-Quality Dataset for Text-to-video Generation",
+      "authors": [
+        "Kepan Nan",
+        "Rui Xie",
+        "Penghao Zhou",
+        "Tiehan Fan",
+        "Zhenheng Yang",
+        "Zhijie Chen",
+        "Xiang Li",
+        "Jian Yang",
+        "Ying Tai"
+      ],
+      "upvotes": 55,
+      "github": "https://github.com/NJU-PCALab/OpenVid-1M",
+      "published": "2024-07-02T15:40:29.000Z"
+    },
+    {
+      "id": "2407.02490",
+      "title": "MInference 1.0: Accelerating Pre-filling for Long-Context LLMs via Dynamic Sparse Attention",
+      "authors": [
+        "Huiqiang Jiang",
+        "Yucheng Li",
+        "Chengruidong Zhang",
+        "Qianhui Wu",
+        "Xufang Luo",
+        "Surin Ahn",
+        "Zhenhua Han",
+        "Amir H. Abdi",
+        "Dongsheng Li",
+        "Chin-Yew Lin",
+        "Yuqing Yang",
+        "Lili Qiu"
+      ],
+      "upvotes": 26,
+      "github": null,
+      "published": "2024-07-02T17:59:56.000Z"
+    },
+    {
+      "id": "2407.02477",
+      "title": "Understanding Alignment in Multimodal LLMs: A Comprehensive Study",
+      "authors": [
+        "Elmira Amirloo",
+        "Jean-Philippe Fauconnier",
+        "Christoph Roesmann",
+        "Christian Kerl",
+        "Rinu Boney",
+        "Yusu Qian",
+        "Zirui Wang",
+        "Afshin Dehghan",
+        "Yinfei Yang",
+        "Zhe Gan",
+        "Peter Grasch"
+      ],
+      "upvotes": 23,
+      "github": null,
+      "published": "2024-07-02T17:55:03.000Z"
+    },
+    {
+      "id": "2407.02489",
+      "title": "Magic Insert: Style-Aware Drag-and-Drop",
+      "authors": [
+        "Nataniel Ruiz",
+        "Yuanzhen Li",
+        "Neal Wadhwa",
+        "Yael Pritch",
+        "Michael Rubinstein",
+        "David E. Jacobs",
+        "Shlomi Fruchter"
+      ],
+      "upvotes": 20,
+      "github": null,
+      "published": "2024-07-02T17:59:50.000Z"
+    },
+    {
+      "id": "2407.02398",
+      "title": "Consistency Flow Matching: Defining Straight Flows with Velocity Consistency",
+      "authors": [
+        "Ling Yang",
+        "Zixiang Zhang",
+        "Zhilong Zhang",
+        "Xingchao Liu",
+        "Minkai Xu",
+        "Wentao Zhang",
+        "Chenlin Meng",
+        "Stefano Ermon",
+        "Bin Cui"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/yangling0818/consistency_flow_matching",
+      "published": "2024-07-02T16:15:37.000Z"
+    },
+    {
+      "id": "2406.19238",
+      "title": "Revealing Fine-Grained Values and Opinions in Large Language Models",
+      "authors": [
+        "Dustin Wright",
+        "Arnav Arora",
+        "Nadav Borenstein",
+        "Srishti Yadav",
+        "Serge Belongie",
+        "Isabelle Augenstein"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/copenlu/llm-pct-tropes",
+      "published": "2024-06-27T15:01:53.000Z"
+    },
+    {
+      "id": "2407.01920",
+      "title": "To Forget or Not? Towards Practical Knowledge Unlearning for Large Language Models",
+      "authors": [
+        "Bozhong Tian",
+        "Xiaozhuan Liang",
+        "Siyuan Cheng",
+        "Qingbin Liu",
+        "Mengru Wang",
+        "Dianbo Sui",
+        "Xi Chen",
+        "Huajun Chen",
+        "Ningyu Zhang"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/zjunlp/knowundo",
+      "published": "2024-07-02T03:34:16.000Z"
+    },
+    {
+      "id": "2406.19568",
+      "title": "What Matters in Detecting AI-Generated Videos like Sora?",
+      "authors": [
+        "Chirui Chang",
+        "Zhengzhe Liu",
+        "Xiaoyang Lyu",
+        "Xiaojuan Qi"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2024-06-27T23:03:58.000Z"
+    },
+    {
+      "id": "2407.01494",
+      "title": "FoleyCrafter: Bring Silent Videos to Life with Lifelike and Synchronized Sounds",
+      "authors": [
+        "Yiming Zhang",
+        "Yicheng Gu",
+        "Yanhong Zeng",
+        "Zhening Xing",
+        "Yuancheng Wang",
+        "Zhizheng Wu",
+        "Kai Chen"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/open-mmlab/foleycrafter",
+      "published": "2024-07-01T17:35:56.000Z"
+    },
+    {
+      "id": "2407.01791",
+      "title": "μ-Bench: A Vision-Language Benchmark for Microscopy Understanding",
+      "authors": [
+        "Alejandro Lozano",
+        "Jeffrey Nirschl",
+        "James Burgess",
+        "Sanket Rajan Gupte",
+        "Yuhui Zhang",
+        "Alyssa Unell",
+        "Serena Yeung-Levy"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/Ale9806/eVLLM",
+      "published": "2024-07-01T20:30:26.000Z"
+    }
+  ]
+}

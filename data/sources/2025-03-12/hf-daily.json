@@ -1,0 +1,825 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-03-12",
+  "fetched_at": "2026-10-29T15:30:52.207Z",
+  "candidates": [
+    {
+      "id": "2503.07920",
+      "title": "Crowdsource, Crawl, or Generate? Creating SEA-VL, a Multicultural Vision-Language Dataset for Southeast Asia",
+      "authors": [
+        "Samuel Cahyawijaya",
+        "Holy Lovenia",
+        "Joel Ruben Antony Moniz",
+        "Tack Hwa Wong",
+        "Mohammad Rifqi Farhansyah",
+        "Thant Thiri Maung",
+        "Frederikus Hudi",
+        "David Anugraha",
+        "Muhammad Ravi Shulthan Habibi",
+        "Muhammad Reza Qorib",
+        "Amit Agarwal",
+        "Joseph Marvin Imperial",
+        "Hitesh Laxmichand Patel",
+        "Vicky Feliren",
+        "Bahrul Ilmi Nasution",
+        "Manuel Antonio Rufino",
+        "Genta Indra Winata",
+        "Rian Adam Rajagede",
+        "Carlos Rafael Catalan",
+        "Mohamed Fazli Imam",
+        "Priyaranjan Pattnayak",
+        "Salsabila Zahirah Pranida",
+        "Kevin Pratama",
+        "Yeshil Bangera",
+        "Adisai Na-Thalang",
+        "Patricia Nicole Monderin",
+        "Yueqi Song",
+        "Christian Simon",
+        "Lynnette Hui Xian Ng",
+        "Richardy Lobo' Sapan",
+        "Taki Hasan Rafi",
+        "Bin Wang",
+        "Supryadi",
+        "Kanyakorn Veerakanjana",
+        "Piyalitt Ittichaiwong",
+        "Matthew Theodore Roque",
+        "Karissa Vincentio",
+        "Takdanai Kreangphet",
+        "Phakphum Artkaew",
+        "Kadek Hendrawan Palgunadi",
+        "Yanzhi Yu",
+        "Rochana Prih Hastuti",
+        "William Nixon",
+        "Mithil Bangera",
+        "Adrian Xuan Wei Lim",
+        "Aye Hninn Khine",
+        "Hanif Muhammad Zhafran",
+        "Teddy Ferdinan",
+        "Audra Aurora Izzani",
+        "Ayushman Singh",
+        "Evan",
+        "Jauza Akbar Krito",
+        "Michael Anugraha",
+        "Fenal Ashokbhai Ilasariya",
+        "Haochen Li",
+        "John Amadeo Daniswara",
+        "Filbert Aurelian Tjiaranata",
+        "Eryawan Presma Yulianrifat",
+        "Can Udomcharoenchaikit",
+        "Fadil Risdian Ansori",
+        "Mahardika Krisna Ihsani",
+        "Giang Nguyen",
+        "Anab Maulana Barik",
+        "Dan John Velasco",
+        "Rifo Ahmad Genadi",
+        "Saptarshi Saha",
+        "Chengwei Wei",
+        "Isaiah Flores",
+        "Kenneth Ko Han Chen",
+        "Anjela Gail Santos",
+        "Wan Shen Lim",
+        "Kaung Si Phyo",
+        "Tim Santos",
+        "Meisyarah Dwiastuti",
+        "Jiayun Luo",
+        "Jan Christian Blaise Cruz",
+        "Ming Shan Hee",
+        "Ikhlasul Akmal Hanif",
+        "M. Alif Al Hakim",
+        "Muhammad Rizky Sya'ban",
+        "Kun Kerdthaisong",
+        "Lester James V. Miranda",
+        "Fajri Koto",
+        "Tirana Noor Fatyanosa",
+        "Alham Fikri Aji",
+        "Jostin Jerico Rosal",
+        "Jun Kevin",
+        "Robert Wijaya",
+        "Onno P. Kampman",
+        "Ruochen Zhang",
+        "Börje F. Karlsson",
+        "Peerat Limkonchotiwat"
+      ],
+      "upvotes": 103,
+      "github": null,
+      "published": "2025-03-10T23:54:52.000Z"
+    },
+    {
+      "id": "2503.07536",
+      "title": "LMM-R1: Empowering 3B LMMs with Strong Reasoning Abilities Through Two-Stage Rule-Based RL",
+      "authors": [
+        "Yingzhe Peng",
+        "Gongrui Zhang",
+        "Miaosen Zhang",
+        "Zhiyuan You",
+        "Jie Liu",
+        "Qipeng Zhu",
+        "Kai Yang",
+        "Xingzhong Xu",
+        "Xin Geng",
+        "Xu Yang"
+      ],
+      "upvotes": 89,
+      "github": "https://github.com/TideDra/lmm-r1",
+      "published": "2025-03-10T17:04:14.000Z"
+    },
+    {
+      "id": "2503.08638",
+      "title": "YuE: Scaling Open Foundation Models for Long-Form Music Generation",
+      "authors": [
+        "Ruibin Yuan",
+        "Hanfeng Lin",
+        "Shuyue Guo",
+        "Ge Zhang",
+        "Jiahao Pan",
+        "Yongyi Zang",
+        "Haohe Liu",
+        "Yiming Liang",
+        "Wenye Ma",
+        "Xingjian Du",
+        "Xinrun Du",
+        "Zhen Ye",
+        "Tianyu Zheng",
+        "Yinghao Ma",
+        "Minghao Liu",
+        "Zeyue Tian",
+        "Ziya Zhou",
+        "Liumeng Xue",
+        "Xingwei Qu",
+        "Yizhi Li",
+        "Shangda Wu",
+        "Tianhao Shen",
+        "Ziyang Ma",
+        "Jun Zhan",
+        "Chunhui Wang",
+        "Yatian Wang",
+        "Xiaowei Chi",
+        "Xinyue Zhang",
+        "Zhenzhu Yang",
+        "Xiangzhou Wang",
+        "Shansong Liu",
+        "Lingrui Mei",
+        "Peng Li",
+        "Junjie Wang",
+        "Jianwei Yu",
+        "Guojian Pang",
+        "Xu Li",
+        "Zihao Wang",
+        "Xiaohuan Zhou",
+        "Lijun Yu",
+        "Emmanouil Benetos",
+        "Yong Chen",
+        "Chenghua Lin",
+        "Xie Chen",
+        "Gus Xia",
+        "Zhaoxiang Zhang",
+        "Chao Zhang",
+        "Wenhu Chen",
+        "Xinyu Zhou",
+        "Xipeng Qiu",
+        "Roger Dannenberg",
+        "Jiaheng Liu",
+        "Jian Yang",
+        "Wenhao Huang",
+        "Wei Xue",
+        "Xu Tan",
+        "Yike Guo"
+      ],
+      "upvotes": 78,
+      "github": null,
+      "published": "2025-03-11T17:26:50.000Z"
+    },
+    {
+      "id": "2503.07891",
+      "title": "Gemini Embedding: Generalizable Embeddings from Gemini",
+      "authors": [
+        "Jinhyuk Lee",
+        "Feiyang Chen",
+        "Sahil Dua",
+        "Daniel Cer",
+        "Madhuri Shanbhogue",
+        "Iftekhar Naim",
+        "Gustavo Hernández Ábrego",
+        "Zhe Li",
+        "Kaifeng Chen",
+        "Henrique Schechter Vera",
+        "Xiaoqi Ren",
+        "Shanfeng Zhang",
+        "Daniel Salz",
+        "Michael Boratko",
+        "Jay Han",
+        "Blair Chen",
+        "Shuo Huang",
+        "Vikram Rao",
+        "Paul Suganthan",
+        "Feng Han",
+        "Andreas Doumanoglou",
+        "Nithi Gupta",
+        "Fedor Moiseev",
+        "Cathy Yip",
+        "Aashi Jain",
+        "Simon Baumgartner",
+        "Shahrokh Shahi",
+        "Frank Palma Gomez",
+        "Sandeep Mariserla",
+        "Min Choi",
+        "Parashar Shah",
+        "Sonam Goenka",
+        "Ke Chen",
+        "Ye Xia",
+        "Koert Chen",
+        "Sai Meher Karthik Duddu",
+        "Yichang Chen",
+        "Trevor Walker",
+        "Wenlei Zhou",
+        "Rakesh Ghiya",
+        "Zach Gleicher",
+        "Karan Gill",
+        "Zhe Dong",
+        "Mojtaba Seyedhosseini",
+        "Yunhsuan Sung",
+        "Raphael Hoffmann",
+        "Tom Duerig"
+      ],
+      "upvotes": 49,
+      "github": null,
+      "published": "2025-03-10T22:16:45.000Z"
+    },
+    {
+      "id": "2503.07572",
+      "title": "Optimizing Test-Time Compute via Meta Reinforcement Fine-Tuning",
+      "authors": [
+        "Yuxiao Qu",
+        "Matthew Y. R. Yang",
+        "Amrith Setlur",
+        "Lewis Tunstall",
+        "Edward Emanuel Beeching",
+        "Ruslan Salakhutdinov",
+        "Aviral Kumar"
+      ],
+      "upvotes": 48,
+      "github": "https://github.com/CMU-AIRe/MRT",
+      "published": "2025-03-10T17:40:43.000Z"
+    },
+    {
+      "id": "2503.07703",
+      "title": "Seedream 2.0: A Native Chinese-English Bilingual Image Generation Foundation Model",
+      "authors": [
+        "Lixue Gong",
+        "Xiaoxia Hou",
+        "Fanshi Li",
+        "Liang Li",
+        "Xiaochen Lian",
+        "Fei Liu",
+        "Liyang Liu",
+        "Wei Liu",
+        "Wei Lu",
+        "Yichun Shi",
+        "Shiqi Sun",
+        "Yu Tian",
+        "Zhi Tian",
+        "Peng Wang",
+        "Xun Wang",
+        "Ye Wang",
+        "Guofeng Wu",
+        "Jie Wu",
+        "Xin Xia",
+        "Xuefeng Xiao",
+        "Linjie Yang",
+        "Zhonghua Zhai",
+        "Xinyu Zhang",
+        "Qi Zhang",
+        "Yuwei Zhang",
+        "Shijia Zhao",
+        "Jianchao Yang",
+        "Weilin Huang"
+      ],
+      "upvotes": 37,
+      "github": null,
+      "published": "2025-03-10T17:58:33.000Z"
+    },
+    {
+      "id": "2503.05978",
+      "title": "MagicInfinite: Generating Infinite Talking Videos with Your Words and Voice",
+      "authors": [
+        "Hongwei Yi",
+        "Tian Ye",
+        "Shitong Shao",
+        "Xuancheng Yang",
+        "Jiantong Zhao",
+        "Hanzhong Guo",
+        "Terrance Wang",
+        "Qingyu Yin",
+        "Zeke Xie",
+        "Lei Zhu",
+        "Wei Li",
+        "Michael Lingelbach",
+        "Daquan Zhou"
+      ],
+      "upvotes": 36,
+      "github": null,
+      "published": "2025-03-07T23:21:11.000Z"
+    },
+    {
+      "id": "2503.07860",
+      "title": "Video Action Differencing",
+      "authors": [
+        "James Burgess",
+        "Xiaohan Wang",
+        "Yuhui Zhang",
+        "Anita Rau",
+        "Alejandro Lozano",
+        "Lisa Dunlap",
+        "Trevor Darrell",
+        "Serena Yeung-Levy"
+      ],
+      "upvotes": 33,
+      "github": "https://github.com/jmhb0/viddiff",
+      "published": "2025-03-10T21:18:32.000Z"
+    },
+    {
+      "id": "2503.08120",
+      "title": "UniF^2ace: Fine-grained Face Understanding and Generation with Unified Multimodal Models",
+      "authors": [
+        "Junzhe Li",
+        "Xuerui Qiu",
+        "Linrui Xu",
+        "Liya Guo",
+        "Delin Qu",
+        "Tingting Long",
+        "Chun Fan",
+        "Ming Li"
+      ],
+      "upvotes": 31,
+      "github": "https://github.com/tulvgengenr/UniF2ace",
+      "published": "2025-03-11T07:34:59.000Z"
+    },
+    {
+      "id": "2503.08625",
+      "title": "SegAgent: Exploring Pixel Understanding Capabilities in MLLMs by Imitating Human Annotator Trajectories",
+      "authors": [
+        "Muzhi Zhu",
+        "Yuzhuo Tian",
+        "Hao Chen",
+        "Chunluan Zhou",
+        "Qingpei Guo",
+        "Yang Liu",
+        "Ming Yang",
+        "Chunhua Shen"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/aim-uofa/SegAgent",
+      "published": "2025-03-11T17:08:54.000Z"
+    },
+    {
+      "id": "2503.08605",
+      "title": "Tuning-Free Multi-Event Long Video Generation via Synchronized Coupled Sampling",
+      "authors": [
+        "Subin Kim",
+        "Seoung Wug Oh",
+        "Jui-Hsien Wang",
+        "Joon-Young Lee",
+        "Jinwoo Shin"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/subin-kim-cv/SynCoS",
+      "published": "2025-03-11T16:43:45.000Z"
+    },
+    {
+      "id": "2503.07604",
+      "title": "Implicit Reasoning in Transformers is Reasoning through Shortcuts",
+      "authors": [
+        "Tianhe Lin",
+        "Jian Xie",
+        "Siyu Yuan",
+        "Deqing Yang"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/TianheL/LM-Implicit-Reasoning",
+      "published": "2025-03-10T17:58:31.000Z"
+    },
+    {
+      "id": "2503.08619",
+      "title": "LightGen: Efficient Image Generation through Knowledge Distillation and Direct Preference Optimization",
+      "authors": [
+        "Xianfeng Wu",
+        "Yajing Bai",
+        "Haoze Zheng",
+        "Harold Haodong Chen",
+        "Yexin Liu",
+        "Zihao Wang",
+        "Xuran Ma",
+        "Wen-Jie Shu",
+        "Xianzu Wu",
+        "Harry Yang",
+        "Ser-Nam Lim"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/XianfengWu01/LightGen",
+      "published": "2025-03-11T16:58:02.000Z"
+    },
+    {
+      "id": "2503.08686",
+      "title": "OmniMamba: Efficient and Unified Multimodal Understanding and Generation via State Space Models",
+      "authors": [
+        "Jialv Zou",
+        "Bencheng Liao",
+        "Qian Zhang",
+        "Wenyu Liu",
+        "Xinggang Wang"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/hustvl/omnimamba",
+      "published": "2025-03-11T17:59:46.000Z"
+    },
+    {
+      "id": "2503.08644",
+      "title": "Exploiting Instruction-Following Retrievers for Malicious Information Retrieval",
+      "authors": [
+        "Parishad BehnamGhader",
+        "Nicholas Meade",
+        "Siva Reddy"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/McGill-NLP/malicious-ir",
+      "published": "2025-03-11T17:36:53.000Z"
+    },
+    {
+      "id": "2503.09089",
+      "title": "LocAgent: Graph-Guided LLM Agents for Code Localization",
+      "authors": [
+        "Zhaoling Chen",
+        "Xiangru Tang",
+        "Gangda Deng",
+        "Fang Wu",
+        "Jialong Wu",
+        "Zhiwei Jiang",
+        "Viktor Prasanna",
+        "Arman Cohan",
+        "Xingyao Wang"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/gersteinlab/locagent",
+      "published": "2025-03-12T05:55:01.000Z"
+    },
+    {
+      "id": "2503.08102",
+      "title": "AI-native Memory 2.0: Second Me",
+      "authors": [
+        "Jiale Wei",
+        "Xiang Ying",
+        "Tao Gao",
+        "Felix Tao",
+        "Jingbo Shang"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/Mindverse/Second-Me",
+      "published": "2025-03-11T07:05:52.000Z"
+    },
+    {
+      "id": "2503.08685",
+      "title": "\"Principal Components\" Enable A New Language of Images",
+      "authors": [
+        "Xin Wen",
+        "Bingchen Zhao",
+        "Ismail Elezi",
+        "Jiankang Deng",
+        "Xiaojuan Qi"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/visual-gen/semanticist",
+      "published": "2025-03-11T17:59:41.000Z"
+    },
+    {
+      "id": "2503.07587",
+      "title": "Robusto-1 Dataset: Comparing Humans and VLMs on real out-of-distribution Autonomous Driving VQA from Peru",
+      "authors": [
+        "Dunant Cusipuma",
+        "David Ortega",
+        "Victor Flores-Benites",
+        "Arturo Deza"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2025-03-10T17:50:04.000Z"
+    },
+    {
+      "id": "2503.05860",
+      "title": "Benchmarking AI Models in Software Engineering: A Review, Search Tool, and Enhancement Protocol",
+      "authors": [
+        "Roham Koohestani",
+        "Philippe de Bekker",
+        "Maliheh Izadi"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/AISE-TUDelft/AI4SE-benchmarks",
+      "published": "2025-03-07T18:44:32.000Z"
+    },
+    {
+      "id": "2503.06492",
+      "title": "VisualSimpleQA: A Benchmark for Decoupled Evaluation of Large Vision-Language Models in Fact-Seeking Question Answering",
+      "authors": [
+        "Yanling Wang",
+        "Yihan Zhao",
+        "Xiaodong Chen",
+        "Shasha Guo",
+        "Lixin Liu",
+        "Haoyang Li",
+        "Yong Xiao",
+        "Jing Zhang",
+        "Qi Li",
+        "Ke Xu"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2025-03-09T07:25:32.000Z"
+    },
+    {
+      "id": "2503.06940",
+      "title": "CineBrain: A Large-Scale Multi-Modal Brain Dataset During Naturalistic Audiovisual Narrative Processing",
+      "authors": [
+        "Jianxiong Gao",
+        "Yichang Liu",
+        "Baofeng Yang",
+        "Jianfeng Feng",
+        "Yanwei Fu"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/JianxGao/CineBrain",
+      "published": "2025-03-10T05:39:43.000Z"
+    },
+    {
+      "id": "2503.07639",
+      "title": "Mixture of Experts Made Intrinsically Interpretable",
+      "authors": [
+        "Xingyi Yang",
+        "Constantin Venhoff",
+        "Ashkan Khakzar",
+        "Christian Schroeder de Witt",
+        "Puneet K. Dokania",
+        "Adel Bibi",
+        "Philip Torr"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2025-03-05T17:40:54.000Z"
+    },
+    {
+      "id": "2503.08307",
+      "title": "^RFLAV: Rolling Flow matching for infinite Audio Video generation",
+      "authors": [
+        "Alex Ergasti",
+        "Giuseppe Gabriele Tarollo",
+        "Filippo Botti",
+        "Tomaso Fontanini",
+        "Claudio Ferrari",
+        "Massimo Bertozzi",
+        "Andrea Prati"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/ErgastiAlex/R-FLAV",
+      "published": "2025-03-11T11:18:47.000Z"
+    },
+    {
+      "id": "2503.08417",
+      "title": "AnyMoLe: Any Character Motion In-betweening Leveraging Video Diffusion Models",
+      "authors": [
+        "Kwan Yun",
+        "Seokhyeon Hong",
+        "Chaelin Kim",
+        "Junyong Noh"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/kwanyun/AnyMoLe",
+      "published": "2025-03-11T13:28:59.000Z"
+    },
+    {
+      "id": "2503.08507",
+      "title": "Referring to Any Person",
+      "authors": [
+        "Qing Jiang",
+        "Lin Wu",
+        "Zhaoyang Zeng",
+        "Tianhe Ren",
+        "Yuda Xiong",
+        "Yihao Chen",
+        "Qin Liu",
+        "Lei Zhang"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/IDEA-Research/RexSeek",
+      "published": "2025-03-11T14:57:14.000Z"
+    },
+    {
+      "id": "2503.08588",
+      "title": "BiasEdit: Debiasing Stereotyped Language Models via Model Editing",
+      "authors": [
+        "Xin Xu",
+        "Wei Xu",
+        "Ningyu Zhang",
+        "Julian McAuley"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/zjunlp/BiasEdit",
+      "published": "2025-03-11T16:25:36.000Z"
+    },
+    {
+      "id": "2503.07565",
+      "title": "Inductive Moment Matching",
+      "authors": [
+        "Linqi Zhou",
+        "Stefano Ermon",
+        "Jiaming Song"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/sefalkner/IMM-Training",
+      "published": "2025-03-10T17:37:39.000Z"
+    },
+    {
+      "id": "2503.06594",
+      "title": "Beyond Decoder-only: Large Language Models Can be Good Encoders for Machine Translation",
+      "authors": [
+        "Yingfeng Luo",
+        "Tong Zheng",
+        "Yongyu Mu",
+        "Bei Li",
+        "Qinghong Zhang",
+        "Yongqi Gao",
+        "Ziqiang Xu",
+        "Peinan Feng",
+        "Xiaoqian Liu",
+        "Tong Xiao",
+        "Jingbo Zhu"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/NiuTrans/LaMaTE",
+      "published": "2025-03-09T12:54:05.000Z"
+    },
+    {
+      "id": "2503.05066",
+      "title": "Capacity-Aware Inference: Mitigating the Straggler Effect in Mixture of Experts",
+      "authors": [
+        "Shwai He",
+        "Weilin Cai",
+        "Jiayi Huang",
+        "Ang Li"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/CASE-Lab-UMD/Capacity-Aware-MoE",
+      "published": "2025-03-07T01:11:39.000Z"
+    },
+    {
+      "id": "2503.08037",
+      "title": "ObjectMover: Generative Object Movement with Video Prior",
+      "authors": [
+        "Xin Yu",
+        "Tianyu Wang",
+        "Soo Ye Kim",
+        "Paul Guerrero",
+        "Xi Chen",
+        "Qing Liu",
+        "Zhe Lin",
+        "Xiaojuan Qi"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-03-11T04:42:59.000Z"
+    },
+    {
+      "id": "2503.08684",
+      "title": "Perplexity Trap: PLM-Based Retrievers Overrate Low Perplexity Documents",
+      "authors": [
+        "Haoyu Wang",
+        "Sunhao Dai",
+        "Haiyuan Zhao",
+        "Liang Pang",
+        "Xiao Zhang",
+        "Gang Wang",
+        "Zhenhua Dong",
+        "Jun Xu",
+        "Ji-Rong Wen"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/WhyDwelledOnAi/Perplexity-Trap",
+      "published": "2025-03-11T17:59:00.000Z"
+    },
+    {
+      "id": "2503.07699",
+      "title": "RayFlow: Instance-Aware Diffusion Acceleration via Adaptive Flow Trajectories",
+      "authors": [
+        "Huiyang Shao",
+        "Xin Xia",
+        "Yuhong Yang",
+        "Yuxi Ren",
+        "Xing Wang",
+        "Xuefeng Xiao"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-03-10T17:20:52.000Z"
+    },
+    {
+      "id": "2502.18858",
+      "title": "Evaluating Intelligence via Trial and Error",
+      "authors": [
+        "Jingtao Zhan",
+        "Jiahao Zhao",
+        "Jiayu Li",
+        "Yiqun Liu",
+        "Bo Zhang",
+        "Qingyao Ai",
+        "Jiaxin Mao",
+        "Hongning Wang",
+        "Min Zhang",
+        "Shaoping Ma"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/jingtaozhan/IntelligenceTest",
+      "published": "2025-02-26T05:59:45.000Z"
+    },
+    {
+      "id": "2503.05037",
+      "title": "Collapse of Dense Retrievers: Short, Early, and Literal Biases Outranking Factual Evidence",
+      "authors": [
+        "Mohsen Fayyaz",
+        "Ali Modarressi",
+        "Hinrich Schuetze",
+        "Nanyun Peng"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/mohsenfayyaz/ColDeR",
+      "published": "2025-03-06T23:23:13.000Z"
+    },
+    {
+      "id": "2503.08890",
+      "title": "PlainQAFact: Automatic Factuality Evaluation Metric for Biomedical Plain Language Summaries Generation",
+      "authors": [
+        "Zhiwen You",
+        "Yue Guo"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/zhiwenyou103/PlainQAFact",
+      "published": "2025-03-11T20:59:53.000Z"
+    },
+    {
+      "id": "2503.07154",
+      "title": "Ideas in Inference-time Scaling can Benefit Generative Pre-training Algorithms",
+      "authors": [
+        "Jiaming Song",
+        "Linqi Zhou"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2025-03-10T10:27:30.000Z"
+    },
+    {
+      "id": "2503.08478",
+      "title": "NullFace: Training-Free Localized Face Anonymization",
+      "authors": [
+        "Han-Wei Kung",
+        "Tuomas Varanka",
+        "Terence Sim",
+        "Nicu Sebe"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/hanweikung/nullface",
+      "published": "2025-03-11T14:29:37.000Z"
+    },
+    {
+      "id": "2503.08689",
+      "title": "QuoTA: Query-oriented Token Assignment via CoT Query Decouple for Long Video Comprehension",
+      "authors": [
+        "Yongdong Luo",
+        "Wang Chen",
+        "Xiawu Zheng",
+        "Weizhong Huang",
+        "Shukang Yin",
+        "Haojia Lin",
+        "Chaoyou Fu",
+        "Jinfa Huang",
+        "Jiayi Ji",
+        "Jiebo Luo",
+        "Rongrong Ji"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/MAC-AutoML/QuoTA",
+      "published": "2025-03-11T17:59:57.000Z"
+    },
+    {
+      "id": "2503.03734",
+      "title": "OTTER: A Vision-Language-Action Model with Text-Aware Visual Feature Extraction",
+      "authors": [
+        "Huang Huang",
+        "Fangchen Liu",
+        "Letian Fu",
+        "Tingfan Wu",
+        "Mustafa Mukadam",
+        "Jitendra Malik",
+        "Ken Goldberg",
+        "Pieter Abbeel"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/Max-Fu/otter",
+      "published": "2025-03-05T18:44:48.000Z"
+    }
+  ]
+}

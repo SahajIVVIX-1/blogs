@@ -1,0 +1,397 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-12-23",
+  "fetched_at": "2026-10-29T15:34:10.952Z",
+  "candidates": [
+    {
+      "id": "2512.16676",
+      "title": "DataFlow: An LLM-Driven Framework for Unified Data Preparation and Workflow Automation in the Era of Data-Centric AI",
+      "authors": [
+        "Hao Liang",
+        "Xiaochen Ma",
+        "Zhou Liu",
+        "Zhen Hao Wong",
+        "Zhengyang Zhao",
+        "Zimo Meng",
+        "Runming He",
+        "Chengyu Shen",
+        "Qifeng Cai",
+        "Zhaoyang Han",
+        "Meiyi Qiang",
+        "Yalin Feng",
+        "Tianyi Bai",
+        "Zewei Pan",
+        "Ziyi Guo",
+        "Yizhen Jiang",
+        "Jingwen Deng",
+        "Qijie You",
+        "Peichao Lai",
+        "Tianyu Guo",
+        "Chi Hsu Tsai",
+        "Hengyi Feng",
+        "Rui Hu",
+        "Wenkai Yu",
+        "Junbo Niu",
+        "Bohan Zeng",
+        "Ruichuan An",
+        "Lu Ma",
+        "Jihao Huang",
+        "Yaowei Zheng",
+        "Conghui He",
+        "Linpeng Tang",
+        "Bin Cui",
+        "Weinan E",
+        "Wentao Zhang"
+      ],
+      "upvotes": 225,
+      "github": "https://github.com/OpenDCAI/DataFlow",
+      "published": "2025-12-18T15:46:15.000Z"
+    },
+    {
+      "id": "2512.19693",
+      "title": "The Prism Hypothesis: Harmonizing Semantic and Pixel Representations via Unified Autoencoding",
+      "authors": [
+        "Weichen Fan",
+        "Haiwen Diao",
+        "Quan Wang",
+        "Dahua Lin",
+        "Ziwei Liu"
+      ],
+      "upvotes": 68,
+      "github": "https://github.com/WeichenFan/UAE",
+      "published": "2025-12-22T18:59:57.000Z"
+    },
+    {
+      "id": "2512.17650",
+      "title": "Region-Constraint In-Context Generation for Instructional Video Editing",
+      "authors": [
+        "Zhongwei Zhang",
+        "Fuchen Long",
+        "Wei Li",
+        "Zhaofan Qiu",
+        "Wu Liu",
+        "Ting Yao",
+        "Tao Mei"
+      ],
+      "upvotes": 34,
+      "github": "https://github.com/HiDream-ai/ReCo",
+      "published": "2025-12-19T14:49:30.000Z"
+    },
+    {
+      "id": "2512.19134",
+      "title": "QuCo-RAG: Quantifying Uncertainty from the Pre-training Corpus for Dynamic Retrieval-Augmented Generation",
+      "authors": [
+        "Dehai Min",
+        "Kailin Zhang",
+        "Tongtong Wu",
+        "Lu Cheng"
+      ],
+      "upvotes": 32,
+      "github": "https://github.com/ZhishanQ/QuCo-RAG",
+      "published": "2025-12-22T08:28:05.000Z"
+    },
+    {
+      "id": "2512.19678",
+      "title": "WorldWarp: Propagating 3D Geometry with Asynchronous Video Diffusion",
+      "authors": [
+        "Hanyang Kong",
+        "Xingyi Yang",
+        "Xiaoxu Zheng",
+        "Xinchao Wang"
+      ],
+      "upvotes": 32,
+      "github": "https://github.com/HyoKong/WorldWarp",
+      "published": "2025-12-22T18:53:50.000Z"
+    },
+    {
+      "id": "2512.18880",
+      "title": "Can LLMs Estimate Student Struggles? Human-AI Difficulty Alignment with Proficiency Simulation for Item Difficulty Prediction",
+      "authors": [
+        "Ming Li",
+        "Han Chen",
+        "Yunze Xiao",
+        "Jian Chen",
+        "Hong Jiao",
+        "Tianyi Zhou"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/MingLiiii/Difficulty_Alignment",
+      "published": "2025-12-21T20:41:36.000Z"
+    },
+    {
+      "id": "2512.18184",
+      "title": "Is There a Better Source Distribution than Gaussian? Exploring Source Distributions for Image Flow Matching",
+      "authors": [
+        "Junho Lee",
+        "Kwanseok Kim",
+        "Joonseok Lee"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/kwanseokk/SourceFM",
+      "published": "2025-12-20T02:44:54.000Z"
+    },
+    {
+      "id": "2512.19629",
+      "title": "LoGoPlanner: Localization Grounded Navigation Policy with Metric-aware Visual Geometry",
+      "authors": [
+        "Jiaqi Peng",
+        "Wenzhe Cai",
+        "Yuqiang Yang",
+        "Tai Wang",
+        "Yuan Shen",
+        "Jiangmiao Pang"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/InternRobotics/NavDP",
+      "published": "2025-12-22T18:03:08.000Z"
+    },
+    {
+      "id": "2512.17385",
+      "title": "UCoder: Unsupervised Code Generation by Internal Probing of Large Language Models",
+      "authors": [
+        "Jiajun Wu",
+        "Jian Yang",
+        "Wei Zhang",
+        "Lin Jing",
+        "Yuqing Ma",
+        "Ensheng Shi",
+        "Yuchi Ma",
+        "Zhoujun Li",
+        "Xianglong Liu"
+      ],
+      "upvotes": 20,
+      "github": null,
+      "published": "2025-12-19T09:42:04.000Z"
+    },
+    {
+      "id": "2512.17206",
+      "title": "Reasoning Palette: Modulating Reasoning via Latent Contextualization for Controllable Exploration for (V)LMs",
+      "authors": [
+        "Rujiao Long",
+        "Yang Li",
+        "Xingyao Zhang",
+        "Weixun Wang",
+        "Tianqianjin Lin",
+        "Xi Zhao",
+        "Yuchi Xu",
+        "Wenbo Su",
+        "Junchi Yan",
+        "Bo Zheng"
+      ],
+      "upvotes": 20,
+      "github": null,
+      "published": "2025-12-19T03:32:53.000Z"
+    },
+    {
+      "id": "2512.19539",
+      "title": "StoryMem: Multi-shot Long Video Storytelling with Memory",
+      "authors": [
+        "Kaiwen Zhang",
+        "Liming Jiang",
+        "Angtian Wang",
+        "Jacob Zhiyuan Fang",
+        "Tiancheng Zhi",
+        "Qing Yan",
+        "Hao Kang",
+        "Xin Lu",
+        "Xingang Pan"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/Kevin-thu/StoryMem",
+      "published": "2025-12-22T16:23:24.000Z"
+    },
+    {
+      "id": "2512.19682",
+      "title": "GenEnv: Difficulty-Aligned Co-Evolution Between LLM Agents and Environment Simulators",
+      "authors": [
+        "Jiacheng Guo",
+        "Ling Yang",
+        "Peter Chen",
+        "Qixin Xiao",
+        "Yinjie Wang",
+        "Xinzhe Juan",
+        "Jiahao Qiu",
+        "Ke Shen",
+        "Mengdi Wang"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/Gen-Verse/GenEnv",
+      "published": "2025-12-22T18:57:13.000Z"
+    },
+    {
+      "id": "2512.16229",
+      "title": "LoPA: Scaling dLLM Inference via Lookahead Parallel Decoding",
+      "authors": [
+        "Chenkai Xu",
+        "Yijie Jin",
+        "Jiajun Li",
+        "Yi Tu",
+        "Guoping Long",
+        "Dandan Tu",
+        "Mingcong Song",
+        "Hongjie Si",
+        "Tianqi Hou",
+        "Junchi Yan",
+        "Zhijie Deng"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/zhijie-group/LoPA",
+      "published": "2025-12-18T06:22:01.000Z"
+    },
+    {
+      "id": "2512.19535",
+      "title": "CASA: Cross-Attention via Self-Attention for Efficient Vision-Language Fusion",
+      "authors": [
+        "Moritz Böhle",
+        "Amélie Royer",
+        "Juliette Marrie",
+        "Edouard Grave",
+        "Patrick Pérez"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/kyutai-labs/casa",
+      "published": "2025-12-22T16:21:39.000Z"
+    },
+    {
+      "id": "2512.19432",
+      "title": "MobileWorld: Benchmarking Autonomous Mobile Agents in Agent-User Interactive, and MCP-Augmented Environments",
+      "authors": [
+        "Quyu Kong",
+        "Xu Zhang",
+        "Zhenyu Yang",
+        "Nolan Gao",
+        "Chen Liu",
+        "Panrong Tong",
+        "Chenglin Cai",
+        "Hanzhang Zhou",
+        "Jianan Zhang",
+        "Liangyu Chen",
+        "Zhidan Liu",
+        "Steven Hoi",
+        "Yue Wang"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/Tongyi-MAI/MobileWorld",
+      "published": "2025-12-22T14:31:28.000Z"
+    },
+    {
+      "id": "2512.19661",
+      "title": "Over++: Generative Video Compositing for Layer Interaction Effects",
+      "authors": [
+        "Luchao Qi",
+        "Jiaye Wu",
+        "Jun Myeong Choi",
+        "Cary Phillips",
+        "Roni Sengupta",
+        "Dan B Goldman"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/luchaoqi/overplusplus",
+      "published": "2025-12-22T18:39:58.000Z"
+    },
+    {
+      "id": "2512.18658",
+      "title": "Does It Tie Out? Towards Autonomous Legal Agents in Venture Capital",
+      "authors": [
+        "Pierre Colombo",
+        "Malik Boudiaf",
+        "Allyn Sweet",
+        "Michael Desa",
+        "Hongxi Wang",
+        "Kevin Candra",
+        "Syméon del Marmol"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2025-12-21T09:12:21.000Z"
+    },
+    {
+      "id": "2512.18314",
+      "title": "MatSpray: Fusing 2D Material World Knowledge on 3D Geometry",
+      "authors": [
+        "Philipp Langsteiner",
+        "Jan-Niklas Dihlmann",
+        "Hendrik P. A. Lensch"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/cgtuebingen/MatSpray",
+      "published": "2025-12-20T10:58:45.000Z"
+    },
+    {
+      "id": "2512.19402",
+      "title": "Real2Edit2Real: Generating Robotic Demonstrations via a 3D Control Interface",
+      "authors": [
+        "Yujie Zhao",
+        "Hongwei Fan",
+        "Di Chen",
+        "Shengcong Chen",
+        "Liliang Chen",
+        "Xiaoqi Li",
+        "Guanghui Ren",
+        "Hao Dong"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/Real2Edit2Real/Real2Edit2Real",
+      "published": "2025-12-22T13:53:25.000Z"
+    },
+    {
+      "id": "2512.17040",
+      "title": "Infinite-Homography as Robust Conditioning for Camera-Controlled Video Generation",
+      "authors": [
+        "Min-Jung Kim",
+        "Jeongho Kim",
+        "Hoiyeong Jin",
+        "Junha Hyung",
+        "Jaegul Choo"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/emjay73/InfCam",
+      "published": "2025-12-18T20:03:05.000Z"
+    },
+    {
+      "id": "2512.18542",
+      "title": "SecureCode v2.0: A Production-Grade Dataset for Training Security-Aware Code Generation Models",
+      "authors": [
+        "Scott Thornton"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/scthornton/securecode-v2",
+      "published": "2025-12-20T23:52:12.000Z"
+    },
+    {
+      "id": "2512.18003",
+      "title": "Name That Part: 3D Part Segmentation and Naming",
+      "authors": [
+        "Soumava Paul",
+        "Prakhar Kaushik",
+        "Ankit Vaidya",
+        "Anand Bhattad",
+        "Alan Yuille"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-12-19T19:02:36.000Z"
+    },
+    {
+      "id": "2512.12620",
+      "title": "Understanding Syllogistic Reasoning in LLMs from Formal and Natural Language Perspectives",
+      "authors": [
+        "Aheli Poddar",
+        "Saptarshi Sahoo",
+        "Sujata Ghosh"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/XAheli/Logic-in-LLMs",
+      "published": "2025-12-14T09:50:10.000Z"
+    },
+    {
+      "id": "2512.19399",
+      "title": "Brain-Grounded Axes for Reading and Steering LLM States",
+      "authors": [
+        "Sandro Andric"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2025-12-22T13:51:03.000Z"
+    }
+  ]
+}

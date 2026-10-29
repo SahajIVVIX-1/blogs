@@ -1,0 +1,461 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-01-22",
+  "fetched_at": "2026-10-29T15:34:29.077Z",
+  "candidates": [
+    {
+      "id": "2601.12538",
+      "title": "Agentic Reasoning for Large Language Models",
+      "authors": [
+        "Tianxin Wei",
+        "Ting-Wei Li",
+        "Zhining Liu",
+        "Xuying Ning",
+        "Ze Yang",
+        "Jiaru Zou",
+        "Zhichen Zeng",
+        "Ruizhong Qiu",
+        "Xiao Lin",
+        "Dongqi Fu",
+        "Zihao Li",
+        "Mengting Ai",
+        "Duo Zhou",
+        "Wenxuan Bao",
+        "Yunzhe Li",
+        "Gaotang Li",
+        "Cheng Qian",
+        "Yu Wang",
+        "Xiangru Tang",
+        "Yin Xiao",
+        "Liri Fang",
+        "Hui Liu",
+        "Xianfeng Tang",
+        "Yuji Zhang",
+        "Chi Wang",
+        "Jiaxuan You",
+        "Heng Ji",
+        "Hanghang Tong",
+        "Jingrui He"
+      ],
+      "upvotes": 207,
+      "github": "https://github.com/weitianxin/Awesome-Agentic-Reasoning",
+      "published": "2026-01-18T18:58:23.000Z"
+    },
+    {
+      "id": "2601.14171",
+      "title": "Paper2Rebuttal: A Multi-Agent Framework for Transparent Author Response Assistance",
+      "authors": [
+        "Qianli Ma",
+        "Chang Guo",
+        "Zhiheng Tian",
+        "Siyu Wang",
+        "Jipeng Xiao",
+        "Yuanhao Yue",
+        "Zhipeng Zhang"
+      ],
+      "upvotes": 54,
+      "github": "https://github.com/AutoLab-SAI-SJTU/Paper2Rebuttal",
+      "published": "2026-01-20T17:23:51.000Z"
+    },
+    {
+      "id": "2601.15282",
+      "title": "Rethinking Video Generation Model for the Embodied World",
+      "authors": [
+        "Yufan Deng",
+        "Zilin Pan",
+        "Hongyu Zhang",
+        "Xiaojie Li",
+        "Ruoqing Hu",
+        "Yufei Ding",
+        "Yiming Zou",
+        "Yan Zeng",
+        "Daquan Zhou"
+      ],
+      "upvotes": 46,
+      "github": "https://github.com/DAGroup-PKU/ReVidgen",
+      "published": "2026-01-21T18:59:18.000Z"
+    },
+    {
+      "id": "2601.12346",
+      "title": "MMDeepResearch-Bench: A Benchmark for Multimodal Deep Research Agents",
+      "authors": [
+        "Peizhou Huang",
+        "Zixuan Zhong",
+        "Zhongwei Wan",
+        "Donghao Zhou",
+        "Samiul Alam",
+        "Xin Wang",
+        "Zexin Li",
+        "Zhihao Dou",
+        "Li Zhu",
+        "Jing Xiong",
+        "Chaofan Tao",
+        "Yan Xu",
+        "Dimitrios Dimitriadis",
+        "Tuo Zhang",
+        "Mi Zhang"
+      ],
+      "upvotes": 44,
+      "github": "https://github.com/AIoT-MLSys-Lab/MMDeepResearch-Bench",
+      "published": "2026-01-18T10:41:33.000Z"
+    },
+    {
+      "id": "2601.14490",
+      "title": "GutenOCR: A Grounded Vision-Language Front-End for Documents",
+      "authors": [
+        "Hunter Heidenreich",
+        "Ben Elliott",
+        "Olivia Dinica",
+        "Yosheb Getachew"
+      ],
+      "upvotes": 37,
+      "github": "https://github.com/Roots-Automation/GutenOCR",
+      "published": "2026-01-20T21:26:15.000Z"
+    },
+    {
+      "id": "2601.13572",
+      "title": "Behavior Knowledge Merge in Reinforced Agentic Models",
+      "authors": [
+        "Xiangchi Yuan",
+        "Dachuan Shi",
+        "Chunhui Zhang",
+        "Zheyuan Liu",
+        "Shenglong Yao",
+        "Soroush Vosoughi",
+        "Wenke Lee"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/xiangchi-yuan/mrl",
+      "published": "2026-01-20T03:56:53.000Z"
+    },
+    {
+      "id": "2601.11141",
+      "title": "FlashLabs Chroma 1.0: A Real-Time End-to-End Spoken Dialogue Model with Personalized Voice Cloning",
+      "authors": [
+        "Tanyu Chen",
+        "Tairan Chen",
+        "Kai Shen",
+        "Zhenghua Bao",
+        "Zhihui Zhang",
+        "Man Yuan",
+        "Yi Shi"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/FlashLabs-AI-Corp/FlashLabs-Chroma",
+      "published": "2026-01-16T10:00:03.000Z"
+    },
+    {
+      "id": "2601.14750",
+      "title": "Render-of-Thought: Rendering Textual Chain-of-Thought as Images for Visual Latent Reasoning",
+      "authors": [
+        "Yifan Wang",
+        "Shiyu Li",
+        "Peiming Li",
+        "Xiaochen Yang",
+        "Yang Tang",
+        "Zheng Wei"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/TencentBAC/RoT",
+      "published": "2026-01-21T08:09:25.000Z"
+    },
+    {
+      "id": "2601.14722",
+      "title": "Typhoon OCR: Open Vision-Language Model For Thai Document Extraction",
+      "authors": [
+        "Surapon Nonesung",
+        "Natapong Nitarach",
+        "Teetouch Jaknamon",
+        "Pittawat Taveekitworachai",
+        "Kunat Pipatanakul"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/scb-10x/typhoon-ocr",
+      "published": "2026-01-21T07:24:32.000Z"
+    },
+    {
+      "id": "2601.14027",
+      "title": "Numina-Lean-Agent: An Open and General Agentic Reasoning System for Formal Mathematics",
+      "authors": [
+        "Junqi Liu",
+        "Zihao Zhou",
+        "Zekai Zhu",
+        "Marco Dos Santos",
+        "Weikun He",
+        "Jiawei Liu",
+        "Ran Wang",
+        "Yunzhou Xie",
+        "Junqiao Zhao",
+        "Qiufeng Wang",
+        "Lihong Zhi",
+        "Jia Li",
+        "Wenda Li"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/project-numina/numina-lean-agent",
+      "published": "2026-01-20T14:51:45.000Z"
+    },
+    {
+      "id": "2601.14352",
+      "title": "RoboBrain 2.5: Depth in Sight, Time in Mind",
+      "authors": [
+        "Huajie Tan",
+        "Enshen Zhou",
+        "Zhiyu Li",
+        "Yijie Xu",
+        "Yuheng Ji",
+        "Xiansheng Chen",
+        "Cheng Chi",
+        "Pengwei Wang",
+        "Huizhu Jia",
+        "Yulong Ao",
+        "Mingyu Cao",
+        "Sixiang Chen",
+        "Zhe Li",
+        "Mengzhen Liu",
+        "Zixiao Wang",
+        "Shanyu Rong",
+        "Yaoxu Lyu",
+        "Zhongxia Zhao",
+        "Peterson Co",
+        "Yibo Li",
+        "Yi Han",
+        "Shaoxuan Xie",
+        "Guocai Yao",
+        "Songjing Wang",
+        "Leiduo Zhang",
+        "Xi Yang",
+        "Yance Jiao",
+        "Donghai Shi",
+        "Kunchang Xie",
+        "Shaokai Nie",
+        "Chunlei Men",
+        "Yonghua Lin",
+        "Zhongyuan Wang",
+        "Tiejun Huang",
+        "Shanghang Zhang"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/FlagOpen/RoboBrain2.5",
+      "published": "2026-01-20T17:21:54.000Z"
+    },
+    {
+      "id": "2601.13044",
+      "title": "Typhoon ASR Real-time: FastConformer-Transducer for Thai Automatic Speech Recognition",
+      "authors": [
+        "Warit Sirichotedumrong",
+        "Adisai Na-Thalang",
+        "Potsawee Manakul",
+        "Pittawat Taveekitworachai",
+        "Sittipong Sripaisarnmongkol",
+        "Kunat Pipatanakul"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/scb-10x/typhoon-asr",
+      "published": "2026-01-19T13:28:17.000Z"
+    },
+    {
+      "id": "2601.14253",
+      "title": "Motion 3-to-4: 3D Motion Reconstruction for 4D Synthesis",
+      "authors": [
+        "Hongyuan Chen",
+        "Xingyu Chen",
+        "Youjia Zhang",
+        "Zexiang Xu",
+        "Anpei Chen"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/Inception3D/Motion324",
+      "published": "2026-01-20T18:59:48.000Z"
+    },
+    {
+      "id": "2601.15220",
+      "title": "Privacy Collapse: Benign Fine-Tuning Can Break Contextual Privacy in Language Models",
+      "authors": [
+        "Anmol Goel",
+        "Cornelius Emde",
+        "Sangdoo Yun",
+        "Seong Joon Oh",
+        "Martin Gubri"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/parameterlab/privacy-collapse",
+      "published": "2026-01-21T17:53:06.000Z"
+    },
+    {
+      "id": "2601.14245",
+      "title": "XR: Cross-Modal Agents for Composed Image Retrieval",
+      "authors": [
+        "Zhongyu Yang",
+        "Wei Pang",
+        "Yingfang Yuan"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/01yzzyu/xr.github.io",
+      "published": "2026-01-20T18:57:00.000Z"
+    },
+    {
+      "id": "2601.14681",
+      "title": "FARE: Fast-Slow Agentic Robotic Exploration",
+      "authors": [
+        "Shuhao Liao",
+        "Xuxin Lv",
+        "Jeric Lew",
+        "Shizhe Zhang",
+        "Jingsong Liang",
+        "Peizhuo Li",
+        "Yuhong Cao",
+        "Wenjun Wu",
+        "Guillaume Sartoretti"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2026-01-21T05:56:24.000Z"
+    },
+    {
+      "id": "2601.14256",
+      "title": "Implicit Neural Representation Facilitates Unified Universal Vision Encoding",
+      "authors": [
+        "Matthew Gwilliam",
+        "Xiao Wang",
+        "Xuefeng Hu",
+        "Zhenheng Yang"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/tiktok/huvr",
+      "published": "2026-01-20T18:59:57.000Z"
+    },
+    {
+      "id": "2601.14152",
+      "title": "Lost in the Prompt Order: Revealing the Limitations of Causal Attention in Language Models",
+      "authors": [
+        "Hyunjong Ok",
+        "Jaeho Lee"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2026-01-20T16:54:22.000Z"
+    },
+    {
+      "id": "2601.13918",
+      "title": "AgentEHR: Advancing Autonomous Clinical Decision-Making via Retrospective Summarization",
+      "authors": [
+        "Yusheng Liao",
+        "Chuan Xuan",
+        "Yutong Cai",
+        "Lina Yang",
+        "Zhe Chen",
+        "Yanfeng Wang",
+        "Yu Wang"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/BlueZeros/AgentEHR",
+      "published": "2026-01-20T12:48:04.000Z"
+    },
+    {
+      "id": "2601.13262",
+      "title": "CURE-Med: Curriculum-Informed Reinforcement Learning for Multilingual Medical Reasoning",
+      "authors": [
+        "Eric Onyame",
+        "Akash Ghosh",
+        "Subhadip Baidya",
+        "Sriparna Saha",
+        "Xiuying Chen",
+        "Chirag Agarwal"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/AikyamLab/cure-med",
+      "published": "2026-01-19T17:51:00.000Z"
+    },
+    {
+      "id": "2601.14417",
+      "title": "Quantifying Speaker Embedding Phonological Rule Interactions in Accented Speech Synthesis",
+      "authors": [
+        "Thanathai Lertpetchpun",
+        "Yoonjeong Lee",
+        "Thanapat Trachu",
+        "Jihwan Lee",
+        "Tiantian Feng",
+        "Dani Byrd",
+        "Shrikanth Narayanan"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-01-20T19:25:33.000Z"
+    },
+    {
+      "id": "2601.07853",
+      "title": "FinVault: Benchmarking Financial Agent Safety in Execution-Grounded Environments",
+      "authors": [
+        "Zhi Yang",
+        "Runguo Li",
+        "Qiqi Qiang",
+        "Jiashun Wang",
+        "Fangqi Lou",
+        "Mengping Li",
+        "Dongpo Cheng",
+        "Rui Xu",
+        "Heng Lian",
+        "Shuo Zhang",
+        "Xiaolong Liang",
+        "Xiaoming Huang",
+        "Zheng Wei",
+        "Zhaowei Liu",
+        "Xin Guo",
+        "Huacan Wang",
+        "Ronghao Chen",
+        "Liwen Zhang"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/aifinlab/FinVault",
+      "published": "2026-01-09T03:25:45.000Z"
+    },
+    {
+      "id": "2601.15059",
+      "title": "The Responsibility Vacuum: Organizational Failure in Scaled Agent Systems",
+      "authors": [
+        "Oleg Romanchuk",
+        "Roman Bondar"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-01-21T15:05:27.000Z"
+    },
+    {
+      "id": "2601.15100",
+      "title": "Facilitating Proactive and Reactive Guidance for Decision Making on the Web: A Design Probe with WebSeek",
+      "authors": [
+        "Yanwei Huang",
+        "Arpit Narechania"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-01-21T15:38:57.000Z"
+    },
+    {
+      "id": "2601.11387",
+      "title": "Show me the evidence: Evaluating the role of evidence and natural language explanations in AI-supported fact-checking",
+      "authors": [
+        "Greta Warren",
+        "Jingyi Sun",
+        "Irina Shklovski",
+        "Isabelle Augenstein"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2026-01-16T15:55:31.000Z"
+    },
+    {
+      "id": "2601.12029",
+      "title": "sangkuriang: A pseudo-spectral Python library for Korteweg-de Vries soliton simulation",
+      "authors": [
+        "Sandy H. S. Herho",
+        "Faruq Khadami",
+        "Iwan P. Anwar",
+        "Dasapta E. Irawan"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/sandyherho/sangkuriang-ideal-solver",
+      "published": "2026-01-17T12:12:52.000Z"
+    }
+  ]
+}

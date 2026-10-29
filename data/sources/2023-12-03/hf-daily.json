@@ -1,0 +1,194 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2023-12-03",
+  "fetched_at": "2026-10-29T15:26:09.213Z",
+  "candidates": [
+    {
+      "id": "2312.00589",
+      "title": "Merlin:Empowering Multimodal LLMs with Foresight Minds",
+      "authors": [
+        "En Yu",
+        "Liang Zhao",
+        "Yana Wei",
+        "Jinrong Yang",
+        "Dongming Wu",
+        "Lingyu Kong",
+        "Haoran Wei",
+        "Tiancai Wang",
+        "Zheng Ge",
+        "Xiangyu Zhang",
+        "Wenbing Tao"
+      ],
+      "upvotes": 26,
+      "github": null,
+      "published": "2023-11-30T17:57:34.000Z"
+    },
+    {
+      "id": "2312.00738",
+      "title": "SeaLLMs -- Large Language Models for Southeast Asia",
+      "authors": [
+        "Xuan-Phi Nguyen",
+        "Wenxuan Zhang",
+        "Xin Li",
+        "Mahani Aljunied",
+        "Qingyu Tan",
+        "Liying Cheng",
+        "Guanzheng Chen",
+        "Yue Deng",
+        "Sen Yang",
+        "Chaoqun Liu",
+        "Hang Zhang",
+        "Lidong Bing"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/damo-nlp-sg/seallms",
+      "published": "2023-12-01T17:17:56.000Z"
+    },
+    {
+      "id": "2312.00777",
+      "title": "VideoBooth: Diffusion-based Video Generation with Image Prompts",
+      "authors": [
+        "Yuming Jiang",
+        "Tianxing Wu",
+        "Shuai Yang",
+        "Chenyang Si",
+        "Dahua Lin",
+        "Yu Qiao",
+        "Chen Change Loy",
+        "Ziwei Liu"
+      ],
+      "upvotes": 23,
+      "github": null,
+      "published": "2023-12-01T18:55:40.000Z"
+    },
+    {
+      "id": "2312.00763",
+      "title": "Beyond ChatBots: ExploreLLM for Structured Thoughts and Personalized Model Responses",
+      "authors": [
+        "Xiao Ma",
+        "Swaroop Mishra",
+        "Ariel Liu",
+        "Sophie Su",
+        "Jilin Chen",
+        "Chinmay Kulkarni",
+        "Heng-Tze Cheng",
+        "Quoc Le",
+        "Ed Chi"
+      ],
+      "upvotes": 22,
+      "github": null,
+      "published": "2023-12-01T18:31:28.000Z"
+    },
+    {
+      "id": "2312.00079",
+      "title": "HiFi Tuner: High-Fidelity Subject-Driven Fine-Tuning for Diffusion Models",
+      "authors": [
+        "Zhonghao Wang",
+        "Wei Wei",
+        "Yang Zhao",
+        "Zhisheng Xiao",
+        "Mark Hasegawa-Johnson",
+        "Humphrey Shi",
+        "Tingbo Hou"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2023-11-30T02:33:29.000Z"
+    },
+    {
+      "id": "2312.00093",
+      "title": "GraphDreamer: Compositional 3D Scene Synthesis from Scene Graphs",
+      "authors": [
+        "Gege Gao",
+        "Weiyang Liu",
+        "Anpei Chen",
+        "Andreas Geiger",
+        "Bernhard Schölkopf"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2023-11-30T18:59:58.000Z"
+    },
+    {
+      "id": "2312.00575",
+      "title": "Instruction-tuning Aligns LLMs to the Human Brain",
+      "authors": [
+        "Khai Loong Aw",
+        "Syrielle Montariol",
+        "Badr AlKhamissi",
+        "Martin Schrimpf",
+        "Antoine Bosselut"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/brain-score/language",
+      "published": "2023-12-01T13:31:02.000Z"
+    },
+    {
+      "id": "2312.00438",
+      "title": "Dolphins: Multimodal Language Model for Driving",
+      "authors": [
+        "Yingzi Ma",
+        "Yulong Cao",
+        "Jiachen Sun",
+        "Marco Pavone",
+        "Chaowei Xiao"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/safolab-wisc/dolphins",
+      "published": "2023-12-01T09:10:33.000Z"
+    },
+    {
+      "id": "2312.00330",
+      "title": "StyleCrafter: Enhancing Stylized Text-to-Video Generation with Style Adapter",
+      "authors": [
+        "Gongye Liu",
+        "Menghan Xia",
+        "Yong Zhang",
+        "Haoxin Chen",
+        "Jinbo Xing",
+        "Xintao Wang",
+        "Yujiu Yang",
+        "Ying Shan"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/GongyeLiu/StyleCrafter",
+      "published": "2023-12-01T03:53:21.000Z"
+    },
+    {
+      "id": "2312.00164",
+      "title": "Towards Accurate Differential Diagnosis with Large Language Models",
+      "authors": [
+        "Daniel McDuff",
+        "Mike Schaekermann",
+        "Tao Tu",
+        "Anil Palepu",
+        "Amy Wang",
+        "Jake Garrison",
+        "Karan Singhal",
+        "Yash Sharma",
+        "Shekoofeh Azizi",
+        "Kavita Kulkarni",
+        "Le Hou",
+        "Yong Cheng",
+        "Yun Liu",
+        "S Sara Mahdavi",
+        "Sushant Prakash",
+        "Anupam Pathak",
+        "Christopher Semturs",
+        "Shwetak Patel",
+        "Dale R Webster",
+        "Ewa Dominowska",
+        "Juraj Gottweis",
+        "Joelle Barral",
+        "Katherine Chou",
+        "Greg S Corrado",
+        "Yossi Matias",
+        "Jake Sunshine",
+        "Alan Karthikesalingam",
+        "Vivek Natarajan"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2023-11-30T19:55:51.000Z"
+    }
+  ]
+}

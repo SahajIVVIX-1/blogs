@@ -1,0 +1,7 @@
+{
+  "id": "2403.19887",
+  "html": "https://arxiv.org/html/2403.19887",
+  "limitations": null,
+  "conclusion": "We presented Jamba, a novel architecture which combines Attention and Mamba layers, with MoE modules, and an open implementation of it, reaching state-of-the-art performance and supporting long contexts. We showed how Jamba provides flexibility for balancing performance and memory requirements, while maintaining a high throughput. We experimented with several design choices such as the ratio of Attention-to-Mamba layers and discussed some discoveries made during the development process, which will inform future work on hybrid attention–state-space models. To facilitate such research, we plan to release model checkpoints from smaller-scale training runs. The largest model we provide with this release has 12B active and 52B total available parameters, supporting context lengths of up to 256K tokens and fitting in a single 80GB GPU even when processing 140K-token texts.",
+  "figure": null
+}

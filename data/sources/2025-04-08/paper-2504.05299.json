@@ -1,0 +1,11 @@
+{
+  "id": "2504.05299",
+  "html": "https://arxiv.org/html/2504.05299",
+  "limitations": null,
+  "conclusion": "We introduced SmolVLM , a family of memory-efficient Vision-Language Models ranging from 256M to 2.2B parameters. Remarkably, even our smallest variant requires less than 1GB of GPU memory yet surpasses state-of-the-art 80B-parameter models from just 18 months ago ( Laurençon et al., 2023 ) . Our findings emphasize a critical insight: scaling down large VLM architectures optimized under resource-rich conditions results in disproportionately high memory demands during inference with little advantage over specialized architectures. By contrast, SmolVLM’s design philosophy explicitly prioritizes compact architectural innovations, aggressive but careful tokenization methods, and efficient training strategies, enabling powerful multimodal capabilities at a fraction of the computational cost. All model weights, training datasets, and training code are publicly released to encourage reproducibi",
+  "figure": {
+    "path": "images/2025/paper-2504.05299.webp",
+    "src": "https://arxiv.org/html/2504.05299v1/figures/combined_plots.png",
+    "caption": "Figure 1 : Smol yet Mighty: comparison of SmolVLM with other state-of-the-art small VLM models. Image results are sourced from the OpenCompass OpenVLM leaderboard ( Duan et al., 2024 ) ."
+  }
+}

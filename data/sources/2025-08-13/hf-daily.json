@@ -1,0 +1,615 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-08-13",
+  "fetched_at": "2026-10-29T15:32:50.999Z",
+  "candidates": [
+    {
+      "id": "2508.05748",
+      "title": "WebWatcher: Breaking New Frontier of Vision-Language Deep Research Agent",
+      "authors": [
+        "Xinyu Geng",
+        "Peng Xia",
+        "Zhen Zhang",
+        "Xinyu Wang",
+        "Qiuchen Wang",
+        "Ruixue Ding",
+        "Chenxi Wang",
+        "Jialong Wu",
+        "Yida Zhao",
+        "Kuan Li",
+        "Yong Jiang",
+        "Pengjun Xie",
+        "Fei Huang",
+        "Jingren Zhou"
+      ],
+      "upvotes": 141,
+      "github": "https://github.com/Alibaba-NLP/WebAgent",
+      "published": "2025-08-07T18:03:50.000Z"
+    },
+    {
+      "id": "2508.08086",
+      "title": "Matrix-3D: Omnidirectional Explorable 3D World Generation",
+      "authors": [
+        "Zhongqi Yang",
+        "Wenhang Ge",
+        "Yuqi Li",
+        "Jiaqi Chen",
+        "Haoyuan Li",
+        "Mengyin An",
+        "Fei Kang",
+        "Hua Xue",
+        "Baixin Xu",
+        "Yuyang Yin",
+        "Eric Li",
+        "Yang Liu",
+        "Yikai Wang",
+        "Hao-Xiang Guo",
+        "Yahui Zhou"
+      ],
+      "upvotes": 50,
+      "github": "https://github.com/SkyworkAI/Matrix-3D",
+      "published": "2025-08-11T15:29:57.000Z"
+    },
+    {
+      "id": "2508.07976",
+      "title": "Beyond Ten Turns: Unlocking Long-Horizon Agentic Search with Large-Scale Asynchronous RL",
+      "authors": [
+        "Jiaxuan Gao",
+        "Wei Fu",
+        "Minyang Xie",
+        "Shusheng Xu",
+        "Chuyi He",
+        "Zhiyu Mei",
+        "Banghua Zhu",
+        "Yi Wu"
+      ],
+      "upvotes": 49,
+      "github": "https://github.com/inclusionAI/ASearcher",
+      "published": "2025-08-11T13:36:57.000Z"
+    },
+    {
+      "id": "2508.09125",
+      "title": "Complex Logical Instruction Generation",
+      "authors": [
+        "Mian Zhang",
+        "Shujian Liu",
+        "Sixun Dong",
+        "Ming Yin",
+        "Yebowen Hu",
+        "Xun Wang",
+        "Steven Ma",
+        "Song Wang",
+        "Sathish Reddy Indurthi",
+        "Haoyun Deng",
+        "Zhiyu Zoey Chen",
+        "Kaiqiang Song"
+      ],
+      "upvotes": 39,
+      "github": "https://github.com/mianzhang/LogicIF",
+      "published": "2025-08-12T17:54:27.000Z"
+    },
+    {
+      "id": "2508.09062",
+      "title": "VertexRegen: Mesh Generation with Continuous Level of Detail",
+      "authors": [
+        "Xiang Zhang",
+        "Yawar Siddiqui",
+        "Armen Avetisyan",
+        "Chris Xie",
+        "Jakob Engel",
+        "Henry Howard-Jenkins"
+      ],
+      "upvotes": 39,
+      "github": "https://github.com/zx1239856/VertexRegen",
+      "published": "2025-08-12T16:25:46.000Z"
+    },
+    {
+      "id": "2508.07409",
+      "title": "CharacterShot: Controllable and Consistent 4D Character Animation",
+      "authors": [
+        "Junyao Gao",
+        "Jiaxing Li",
+        "Wenran Liu",
+        "Yanhong Zeng",
+        "Fei Shen",
+        "Kai Chen",
+        "Yanan Sun",
+        "Cairong Zhao"
+      ],
+      "upvotes": 39,
+      "github": "https://github.com/Jeoyal/CharacterShot",
+      "published": "2025-08-10T16:15:04.000Z"
+    },
+    {
+      "id": "2508.09138",
+      "title": "Time Is a Feature: Exploiting Temporal Dynamics in Diffusion Language Models",
+      "authors": [
+        "Wen Wang",
+        "Bozhen Fang",
+        "Chenchen Jing",
+        "Yongliang Shen",
+        "Yangyi Shen",
+        "Qiuyu Wang",
+        "Hao Ouyang",
+        "Hao Chen",
+        "Chunhua Shen"
+      ],
+      "upvotes": 36,
+      "github": "https://github.com/aim-uofa/dLLM-MidTruth",
+      "published": "2025-08-12T17:59:57.000Z"
+    },
+    {
+      "id": "2508.09123",
+      "title": "OpenCUA: Open Foundations for Computer-Use Agents",
+      "authors": [
+        "Xinyuan Wang",
+        "Bowen Wang",
+        "Dunjie Lu",
+        "Junlin Yang",
+        "Tianbao Xie",
+        "Junli Wang",
+        "Jiaqi Deng",
+        "Xiaole Guo",
+        "Yiheng Xu",
+        "Chen Henry Wu",
+        "Zhennan Shen",
+        "Zhuokai Li",
+        "Ryan Li",
+        "Xiaochuan Li",
+        "Junda Chen",
+        "Boyuan Zheng",
+        "Peihang Li",
+        "Fangyu Lei",
+        "Ruisheng Cao",
+        "Yeqiao Fu",
+        "Dongchan Shin",
+        "Martin Shin",
+        "Jiarui Hu",
+        "Yuyan Wang",
+        "Jixuan Chen",
+        "Yuxiao Ye",
+        "Danyang Zhang",
+        "Dikang Du",
+        "Hao Hu",
+        "Huarong Chen",
+        "Zaida Zhou",
+        "Yipu Wang",
+        "Heng Wang",
+        "Diyi Yang",
+        "Victor Zhong",
+        "Flood Sung",
+        "Y. Charles",
+        "Zhilin Yang",
+        "Tao Yu"
+      ],
+      "upvotes": 33,
+      "github": "https://github.com/xlang-ai/OpenCUA",
+      "published": "2025-08-12T17:52:32.000Z"
+    },
+    {
+      "id": "2508.08940",
+      "title": "Train Long, Think Short: Curriculum Learning for Efficient Reasoning",
+      "authors": [
+        "Hasan Abed Al Kader Hammoud",
+        "Kumail Alhamoud",
+        "Abed Hammoud",
+        "Elie Bou-Zeid",
+        "Marzyeh Ghassemi",
+        "Bernard Ghanem"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/hammoudhasan/curriculum_grpo",
+      "published": "2025-08-12T13:48:03.000Z"
+    },
+    {
+      "id": "2508.08088",
+      "title": "HierSearch: A Hierarchical Enterprise Deep Search Framework Integrating Local and Web Searches",
+      "authors": [
+        "Jiejun Tan",
+        "Zhicheng Dou",
+        "Yan Yu",
+        "Jiehan Cheng",
+        "Qiang Ju",
+        "Jian Xie",
+        "Ji-Rong Wen"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/plageon/HierSearch",
+      "published": "2025-08-11T15:31:47.000Z"
+    },
+    {
+      "id": "2508.08248",
+      "title": "StableAvatar: Infinite-Length Audio-Driven Avatar Video Generation",
+      "authors": [
+        "Shuyuan Tu",
+        "Yueming Pan",
+        "Yinming Huang",
+        "Xintong Han",
+        "Zhen Xing",
+        "Qi Dai",
+        "Chong Luo",
+        "Zuxuan Wu",
+        "Yu-Gang Jiang"
+      ],
+      "upvotes": 26,
+      "github": "https://github.com/Francis-Rings/StableAvatar",
+      "published": "2025-08-11T17:58:24.000Z"
+    },
+    {
+      "id": "2508.05615",
+      "title": "Test-Time Reinforcement Learning for GUI Grounding via Region Consistency",
+      "authors": [
+        "Yong Du",
+        "Yuchen Yan",
+        "Fei Tang",
+        "Zhengxi Lu",
+        "Chang Zong",
+        "Weiming Lu",
+        "Shengpei Jiang",
+        "Yongliang Shen"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/zju-real/gui-rcpo",
+      "published": "2025-08-07T17:54:27.000Z"
+    },
+    {
+      "id": "2508.08665",
+      "title": "Aryabhata: An exam-focused language model for JEE Math",
+      "authors": [
+        "Ritvik Rastogi",
+        "Sachin Dharashivkar",
+        "Sandeep Varma"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2025-08-12T06:20:07.000Z"
+    },
+    {
+      "id": "2508.08791",
+      "title": "Feedback-Driven Tool-Use Improvements in Large Language Models via Automated Build Environments",
+      "authors": [
+        "Junjie Ye",
+        "Changhao Jiang",
+        "Zhengyin Du",
+        "Yufei Xu",
+        "Xuesong Yao",
+        "Zhiheng Xi",
+        "Xiaoran Fan",
+        "Qi Zhang",
+        "Xuanjing Huang",
+        "Jiecao Chen"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/bytedance/FTRL",
+      "published": "2025-08-12T09:45:19.000Z"
+    },
+    {
+      "id": "2508.05399",
+      "title": "UNCAGE: Contrastive Attention Guidance for Masked Generative Transformers in Text-to-Image Generation",
+      "authors": [
+        "Wonjun Kang",
+        "Byeongkeun Ahn",
+        "Minjae Lee",
+        "Kevin Galim",
+        "Seunghyuk Oh",
+        "Hyung Il Koo",
+        "Nam Ik Cho"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/furiosa-ai/uncage",
+      "published": "2025-08-07T13:51:17.000Z"
+    },
+    {
+      "id": "2508.08244",
+      "title": "Cut2Next: Generating Next Shot via In-Context Tuning",
+      "authors": [
+        "Jingwen He",
+        "Hongbo Liu",
+        "Jiajun Li",
+        "Ziqi Huang",
+        "Yu Qiao",
+        "Wanli Ouyang",
+        "Ziwei Liu"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/Vchitect/Cut2Next",
+      "published": "2025-08-11T17:56:59.000Z"
+    },
+    {
+      "id": "2508.08896",
+      "title": "Towards Affordance-Aware Robotic Dexterous Grasping with Human-like Priors",
+      "authors": [
+        "Haoyu Zhao",
+        "Linghao Zhuang",
+        "Xingyue Zhao",
+        "Cheng Zeng",
+        "Haoran Xu",
+        "Yuming Jiang",
+        "Jun Cen",
+        "Kexiang Wang",
+        "Jiayan Guo",
+        "Siteng Huang",
+        "Xin Li",
+        "Deli Zhao",
+        "Hua Zou"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/Maxwell-Zhao/AffordDex",
+      "published": "2025-08-12T12:36:01.000Z"
+    },
+    {
+      "id": "2508.08113",
+      "title": "AimBot: A Simple Auxiliary Visual Cue to Enhance Spatial Awareness of Visuomotor Policies",
+      "authors": [
+        "Yinpei Dai",
+        "Jayjun Lee",
+        "Yichi Zhang",
+        "Ziqiao Ma",
+        "Jed Yang",
+        "Amir Zadeh",
+        "Chuan Li",
+        "Nima Fazeli",
+        "Joyce Chai"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/aimbot-reticle/openpi0-aimbot",
+      "published": "2025-08-11T15:53:23.000Z"
+    },
+    {
+      "id": "2508.08938",
+      "title": "DeCRED: Decoder-Centric Regularization for Encoder-Decoder Based Speech Recognition",
+      "authors": [
+        "Alexander Polok",
+        "Santosh Kesiraju",
+        "Karel Beneš",
+        "Bolaji Yusuf",
+        "Lukáš Burget",
+        "Jan Černocký"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2025-08-12T13:44:50.000Z"
+    },
+    {
+      "id": "2508.09101",
+      "title": "AutoCodeBench: Large Language Models are Automatic Code Benchmark Generators",
+      "authors": [
+        "Jason Chou",
+        "Ao Liu",
+        "Yuchi Deng",
+        "Zhiying Zeng",
+        "Tao Zhang",
+        "Haotian Zhu",
+        "Jianwei Cai",
+        "Yue Mao",
+        "Chenchen Zhang",
+        "Lingyun Tan",
+        "Ziyan Xu",
+        "Bohui Zhai",
+        "Hengyi Liu",
+        "Speed Zhu",
+        "Wiggin Zhou",
+        "Fengzong Lian"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2025-08-12T17:29:20.000Z"
+    },
+    {
+      "id": "2508.03936",
+      "title": "ASTRA: Autonomous Spatial-Temporal Red-teaming for AI Software Assistants",
+      "authors": [
+        "Xiangzhe Xu",
+        "Guangyu Shen",
+        "Zian Su",
+        "Siyuan Cheng",
+        "Hanxi Guo",
+        "Lu Yan",
+        "Xuan Chen",
+        "Jiasheng Jiang",
+        "Xiaolong Jin",
+        "Chengpeng Wang",
+        "Zhuo Zhang",
+        "Xiangyu Zhang"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/PurCL/ASTRA",
+      "published": "2025-08-05T21:57:52.000Z"
+    },
+    {
+      "id": "2508.06813",
+      "title": "Technical Report: Full-Stack Fine-Tuning for the Q Programming Language",
+      "authors": [
+        "Brendan R. Hogan",
+        "Will Brown",
+        "Adel Boyarsky",
+        "Anderson Schneider",
+        "Yuriy Nevmyvaka"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/morganstanley/MSML",
+      "published": "2025-08-09T04:22:07.000Z"
+    },
+    {
+      "id": "2508.07485",
+      "title": "Democratizing Diplomacy: A Harness for Evaluating Any Large Language Model on Full-Press Diplomacy",
+      "authors": [
+        "Alexander Duffy",
+        "Samuel J Paech",
+        "Ishana Shastri",
+        "Elizabeth Karpinski",
+        "Baptiste Alloui-Cros",
+        "Tyler Marques",
+        "Matthew Lyle Olson"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/GoodStartLabs/AI_Diplomacy",
+      "published": "2025-08-10T21:07:08.000Z"
+    },
+    {
+      "id": "2508.06964",
+      "title": "Adversarial Video Promotion Against Text-to-Video Retrieval",
+      "authors": [
+        "Qiwei Tian",
+        "Chenhao Lin",
+        "Zhengyu Zhao",
+        "Qian Li",
+        "Shuai Liu",
+        "Chao Shen"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/michaeltian108/ViPro",
+      "published": "2025-08-09T12:20:13.000Z"
+    },
+    {
+      "id": "2508.05813",
+      "title": "Optimization-Free Style Transfer for 3D Gaussian Splats",
+      "authors": [
+        "Raphael Du Sablon",
+        "David Hart"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/davidmhart/FastSplatStyler",
+      "published": "2025-08-07T19:35:01.000Z"
+    },
+    {
+      "id": "2508.08680",
+      "title": "TopXGen: Topic-Diverse Parallel Data Generation for Low-Resource Machine Translation",
+      "authors": [
+        "Armel Zebaze",
+        "Benoît Sagot",
+        "Rachel Bawden"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/ArmelRandy/topxgen",
+      "published": "2025-08-12T06:58:02.000Z"
+    },
+    {
+      "id": "2508.04676",
+      "title": "GeRe: Towards Efficient Anti-Forgetting in Continual Learning of LLM via General Samples Replay",
+      "authors": [
+        "Yunan Zhang",
+        "Shuoran Jiang",
+        "Mengchen Zhao",
+        "Yuefeng Li",
+        "Yang Fan",
+        "Xiangping Wu",
+        "Qingcai Chen"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/Qznan/GeRe",
+      "published": "2025-08-06T17:42:22.000Z"
+    },
+    {
+      "id": "2508.09050",
+      "title": "Bridging Theory and Practice in Quantum Game Theory: Optimized Implementation of the Battle of the Sexes with Error Mitigation on NISQ Hardware",
+      "authors": [
+        "Germán Díaz Agreda",
+        "Carlos Andres Duran Paredes",
+        "Mateo Buenaventura Samboni",
+        "Jhon Alejandro Andrade",
+        "Sebastián Andrés Cajas Ordoñez"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2025-08-12T16:10:05.000Z"
+    },
+    {
+      "id": "2508.08180",
+      "title": "RedDino: A foundation model for red blood cell analysis",
+      "authors": [
+        "Luca Zedda",
+        "Andrea Loddo",
+        "Cecilia Di Ruberto",
+        "Carsten Marr"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/Snarci/RedDino",
+      "published": "2025-08-11T16:59:31.000Z"
+    },
+    {
+      "id": "2508.04195",
+      "title": "NVSpeech: An Integrated and Scalable Pipeline for Human-Like Speech Modeling with Paralinguistic Vocalizations",
+      "authors": [
+        "Huan Liao",
+        "Qinke Ni",
+        "Yuancheng Wang",
+        "Yiheng Lu",
+        "Haoyue Zhan",
+        "Pengyuan Xie",
+        "Qiang Zhang",
+        "Zhizheng Wu"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/Hannieliao/NVSpeech",
+      "published": "2025-08-06T08:25:26.000Z"
+    },
+    {
+      "id": "2508.08292",
+      "title": "Putnam-AXIOM: A Functional and Static Benchmark",
+      "authors": [
+        "Aryan Gulati",
+        "Brando Miranda",
+        "Eric Chen",
+        "Emily Xia",
+        "Kai Fronsdal",
+        "Bruno Dumont",
+        "Elyas Obbad",
+        "Sanmi Koyejo"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2025-08-05T17:57:50.000Z"
+    },
+    {
+      "id": "2508.08855",
+      "title": "BiasGym: Fantastic Biases and How to Find (and Remove) Them",
+      "authors": [
+        "Sekh Mainul Islam",
+        "Nadav Borenstein",
+        "Siddhesh Milind Pawar",
+        "Haeun Yu",
+        "Arnav Arora",
+        "Isabelle Augenstein"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2025-08-12T11:23:44.000Z"
+    },
+    {
+      "id": "2508.08974",
+      "title": "Text-conditioned State Space Model For Domain-generalized Change Detection Visual Question Answering",
+      "authors": [
+        "Elman Ghazaei",
+        "Erchan Aptoula"
+      ],
+      "upvotes": 0,
+      "github": "https://github.com/Elman295/TCSSM",
+      "published": "2025-08-12T14:37:53.000Z"
+    },
+    {
+      "id": "2508.05769",
+      "title": "Improving Masked Style Transfer using Blended Partial Convolution",
+      "authors": [
+        "Seyed Hadi Seyed",
+        "Ayberk Cansever",
+        "David Hart"
+      ],
+      "upvotes": 0,
+      "github": "https://github.com/davidmhart/StyleTransferMasked",
+      "published": "2025-08-07T18:35:44.000Z"
+    },
+    {
+      "id": "2508.06485",
+      "title": "WGAST: Weakly-Supervised Generative Network for Daily 10 m Land Surface Temperature Estimation via Spatio-Temporal Fusion",
+      "authors": [
+        "Sofiane Bouaziz",
+        "Adel Hafiane",
+        "Raphael Canals",
+        "Rachid Nedjai"
+      ],
+      "upvotes": 0,
+      "github": "https://github.com/Sofianebouaziz1/WGAST",
+      "published": "2025-08-08T17:49:46.000Z"
+    }
+  ]
+}

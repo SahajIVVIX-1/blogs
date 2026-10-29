@@ -1,0 +1,203 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-11-21",
+  "fetched_at": "2026-10-29T15:29:44.793Z",
+  "candidates": [
+    {
+      "id": "2411.10958",
+      "title": "SageAttention2 Technical Report: Accurate 4 Bit Attention for Plug-and-play Inference Acceleration",
+      "authors": [
+        "Jintao Zhang",
+        "Haofeng Huang",
+        "Pengle Zhang",
+        "Jia Wei",
+        "Jun Zhu",
+        "Jianfei Chen"
+      ],
+      "upvotes": 58,
+      "github": null,
+      "published": "2024-11-17T04:35:49.000Z"
+    },
+    {
+      "id": "2411.13503",
+      "title": "VBench++: Comprehensive and Versatile Benchmark Suite for Video Generative Models",
+      "authors": [
+        "Ziqi Huang",
+        "Fan Zhang",
+        "Xiaojie Xu",
+        "Yinan He",
+        "Jiashuo Yu",
+        "Ziyue Dong",
+        "Qianli Ma",
+        "Nattapol Chanpaisit",
+        "Chenyang Si",
+        "Yuming Jiang",
+        "Yaohui Wang",
+        "Xinyuan Chen",
+        "Ying-Cong Chen",
+        "Limin Wang",
+        "Dahua Lin",
+        "Yu Qiao",
+        "Ziwei Liu"
+      ],
+      "upvotes": 33,
+      "github": "https://github.com/vchitect/vbench",
+      "published": "2024-11-20T17:54:41.000Z"
+    },
+    {
+      "id": "2411.14251",
+      "title": "Natural Language Reinforcement Learning",
+      "authors": [
+        "Xidong Feng",
+        "Ziyu Wan",
+        "Haotian Fu",
+        "Bo Liu",
+        "Mengyue Yang",
+        "Girish A. Koushik",
+        "Zhiyuan Hu",
+        "Ying Wen",
+        "Jun Wang"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/waterhorse1/Natural-language-RL",
+      "published": "2024-11-21T15:57:02.000Z"
+    },
+    {
+      "id": "2411.13281",
+      "title": "VideoAutoArena: An Automated Arena for Evaluating Large Multimodal Models in Video Analysis through User Simulation",
+      "authors": [
+        "Ziyang Luo",
+        "Haoning Wu",
+        "Dongxu Li",
+        "Jing Ma",
+        "Mohan Kankanhalli",
+        "Junnan Li"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/VideoAutoArena/VideoAutoArena",
+      "published": "2024-11-20T12:48:34.000Z"
+    },
+    {
+      "id": "2411.11922",
+      "title": "SAMURAI: Adapting Segment Anything Model for Zero-Shot Visual Tracking with Motion-Aware Memory",
+      "authors": [
+        "Cheng-Yen Yang",
+        "Hsiang-Wei Huang",
+        "Wenhao Chai",
+        "Zhongyu Jiang",
+        "Jenq-Neng Hwang"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/yangchris11/samurai",
+      "published": "2024-11-18T05:59:03.000Z"
+    },
+    {
+      "id": "2411.06559",
+      "title": "Is Your LLM Secretly a World Model of the Internet? Model-Based Planning for Web Agents",
+      "authors": [
+        "Yu Gu",
+        "Boyuan Zheng",
+        "Boyu Gou",
+        "Kai Zhang",
+        "Cheng Chang",
+        "Sanjari Srivastava",
+        "Yanan Xie",
+        "Peng Qi",
+        "Huan Sun",
+        "Yu Su"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/osu-nlp-group/webdreamer",
+      "published": "2024-11-10T18:50:51.000Z"
+    },
+    {
+      "id": "2411.13476",
+      "title": "When Precision Meets Position: BFloat16 Breaks Down RoPE in Long-Context Training",
+      "authors": [
+        "Haonan Wang",
+        "Qian Liu",
+        "Chao Du",
+        "Tongyao Zhu",
+        "Cunxiao Du",
+        "Kenji Kawaguchi",
+        "Tianyu Pang"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/haonan3/anchorcontext",
+      "published": "2024-11-20T17:22:31.000Z"
+    },
+    {
+      "id": "2411.12811",
+      "title": "Stylecodes: Encoding Stylistic Information For Image Generation",
+      "authors": [
+        "Ciara Rowles"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/ciarastrawberry/stylecodes",
+      "published": "2024-11-19T19:04:31.000Z"
+    },
+    {
+      "id": "2411.10867",
+      "title": "ViBe: A Text-to-Video Benchmark for Evaluating Hallucination in Large Multimodal Models",
+      "authors": [
+        "Vipula Rawte",
+        "Sarthak Jain",
+        "Aarush Sinha",
+        "Garv Kaushik",
+        "Aman Bansal",
+        "Prathiksha Rumale Vishwanath",
+        "Samyak Rajesh Jain",
+        "Aishwarya Naresh Reganti",
+        "Vinija Jain",
+        "Aman Chadha",
+        "Amit P. Sheth",
+        "Amitava Das"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/prathiksharv/ViBe",
+      "published": "2024-11-16T19:23:12.000Z"
+    },
+    {
+      "id": "2411.12925",
+      "title": "Loss-to-Loss Prediction: Scaling Laws for All Datasets",
+      "authors": [
+        "David Brandfonbrener",
+        "Nikhil Anand",
+        "Nikhil Vyas",
+        "Eran Malach",
+        "Sham Kakade"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/KempnerInstitute/loss-to-loss-notebooks",
+      "published": "2024-11-19T23:23:16.000Z"
+    },
+    {
+      "id": "2411.10913",
+      "title": "Generating Compositional Scenes via Text-to-image RGBA Instance Generation",
+      "authors": [
+        "Alessandro Fontanella",
+        "Petru-Daniel Tudosiu",
+        "Yongxin Yang",
+        "Shifeng Zhang",
+        "Sarah Parisot"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2024-11-16T23:44:14.000Z"
+    },
+    {
+      "id": "2411.13025",
+      "title": "ORID: Organ-Regional Information Driven Framework for Radiology Report Generation",
+      "authors": [
+        "Tiancheng Gu",
+        "Kaicheng Yang",
+        "Xiang An",
+        "Ziyong Feng",
+        "Dongnan Liu",
+        "Weidong Cai"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2024-11-20T04:13:43.000Z"
+    }
+  ]
+}

@@ -1,0 +1,292 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2023-12-13",
+  "fetched_at": "2026-10-29T15:26:15.302Z",
+  "candidates": [
+    {
+      "id": "2312.07987",
+      "title": "SwitchHead: Accelerating Transformers with Mixture-of-Experts Attention",
+      "authors": [
+        "Róbert Csordás",
+        "Piotr Piękos",
+        "Kazuki Irie",
+        "Jürgen Schmidhuber"
+      ],
+      "upvotes": 40,
+      "github": "https://github.com/robertcsordas/moe_attention",
+      "published": "2023-12-13T09:00:21.000Z"
+    },
+    {
+      "id": "2312.07537",
+      "title": "FreeInit: Bridging Initialization Gap in Video Diffusion Models",
+      "authors": [
+        "Tianxing Wu",
+        "Chenyang Si",
+        "Yuming Jiang",
+        "Ziqi Huang",
+        "Ziwei Liu"
+      ],
+      "upvotes": 26,
+      "github": "https://github.com/tianxingwu/freeinit",
+      "published": "2023-12-12T18:59:16.000Z"
+    },
+    {
+      "id": "2312.07409",
+      "title": "DiffMorpher: Unleashing the Capability of Diffusion Models for Image Morphing",
+      "authors": [
+        "Kaiwen Zhang",
+        "Yifan Zhou",
+        "Xudong Xu",
+        "Xingang Pan",
+        "Bo Dai"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/kevin-thu/diffmorpher",
+      "published": "2023-12-12T16:28:08.000Z"
+    },
+    {
+      "id": "2312.07533",
+      "title": "VILA: On Pre-training for Visual Language Models",
+      "authors": [
+        "Ji Lin",
+        "Hongxu Yin",
+        "Wei Ping",
+        "Yao Lu",
+        "Pavlo Molchanov",
+        "Andrew Tao",
+        "Huizi Mao",
+        "Jan Kautz",
+        "Mohammad Shoeybi",
+        "Song Han"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/mit-han-lab/llm-awq",
+      "published": "2023-12-12T18:58:18.000Z"
+    },
+    {
+      "id": "2312.07536",
+      "title": "FreeControl: Training-Free Spatial Control of Any Text-to-Image Diffusion Model with Any Condition",
+      "authors": [
+        "Sicheng Mo",
+        "Fangzhou Mu",
+        "Kuan Heng Lin",
+        "Yanli Liu",
+        "Bochen Guan",
+        "Yin Li",
+        "Bolei Zhou"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2023-12-12T18:59:14.000Z"
+    },
+    {
+      "id": "2312.07910",
+      "title": "PromptBench: A Unified Library for Evaluation of Large Language Models",
+      "authors": [
+        "Kaijie Zhu",
+        "Qinlin Zhao",
+        "Hao Chen",
+        "Jindong Wang",
+        "Xing Xie"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/microsoft/promptbench",
+      "published": "2023-12-13T05:58:34.000Z"
+    },
+    {
+      "id": "2312.07843",
+      "title": "Foundation Models in Robotics: Applications, Challenges, and the Future",
+      "authors": [
+        "Roya Firoozi",
+        "Johnathan Tucker",
+        "Stephen Tian",
+        "Anirudha Majumdar",
+        "Jiankai Sun",
+        "Weiyu Liu",
+        "Yuke Zhu",
+        "Shuran Song",
+        "Ashish Kapoor",
+        "Karol Hausman",
+        "Brian Ichter",
+        "Danny Driess",
+        "Jiajun Wu",
+        "Cewu Lu",
+        "Mac Schwager"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/robotics-survey/awesome-robotics-foundation-models",
+      "published": "2023-12-13T02:20:42.000Z"
+    },
+    {
+      "id": "2312.07046",
+      "title": "Rethinking Compression: Reduced Order Modelling of Latent Features in Large Language Models",
+      "authors": [
+        "Arnav Chavan",
+        "Nahush Lele",
+        "Deepak Gupta"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/transmuteai/trailmet",
+      "published": "2023-12-12T07:56:57.000Z"
+    },
+    {
+      "id": "2312.07000",
+      "title": "Alignment for Honesty",
+      "authors": [
+        "Yuqing Yang",
+        "Ethan Chern",
+        "Xipeng Qiu",
+        "Graham Neubig",
+        "Pengfei Liu"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/gair-nlp/alignment-for-honesty",
+      "published": "2023-12-12T06:10:42.000Z"
+    },
+    {
+      "id": "2312.06681",
+      "title": "Steering Llama 2 via Contrastive Activation Addition",
+      "authors": [
+        "Nina Rimsky",
+        "Nick Gabrieli",
+        "Julian Schulz",
+        "Meg Tong",
+        "Evan Hubinger",
+        "Alexander Matt Turner"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/wusche1/caa_hallucination",
+      "published": "2023-12-09T04:40:46.000Z"
+    },
+    {
+      "id": "2312.06971",
+      "title": "CCM: Adding Conditional Controls to Text-to-Image Consistency Models",
+      "authors": [
+        "Jie Xiao",
+        "Kai Zhu",
+        "Han Zhang",
+        "Zhiheng Liu",
+        "Yujun Shen",
+        "Yu Liu",
+        "Xueyang Fu",
+        "Zheng-Jun Zha"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2023-12-12T04:16:03.000Z"
+    },
+    {
+      "id": "2312.07504",
+      "title": "COLMAP-Free 3D Gaussian Splatting",
+      "authors": [
+        "Yang Fu",
+        "Sifei Liu",
+        "Amey Kulkarni",
+        "Jan Kautz",
+        "Alexei A. Efros",
+        "Xiaolong Wang"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/NVlabs/CF-3DGS",
+      "published": "2023-12-12T18:39:52.000Z"
+    },
+    {
+      "id": "2312.06742",
+      "title": "Honeybee: Locality-enhanced Projector for Multimodal LLM",
+      "authors": [
+        "Junbum Cha",
+        "Wooyoung Kang",
+        "Jonghwan Mun",
+        "Byungseok Roh"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/kakaobrain/honeybee",
+      "published": "2023-12-11T18:59:06.000Z"
+    },
+    {
+      "id": "2312.07532",
+      "title": "Interfacing Foundation Models' Embeddings",
+      "authors": [
+        "Xueyan Zou",
+        "Linjie Li",
+        "Jianfeng Wang",
+        "Jianwei Yang",
+        "Mingyu Ding",
+        "Zhengyuan Yang",
+        "Feng Li",
+        "Hao Zhang",
+        "Shilong Liu",
+        "Arul Aravinthan",
+        "Yong Jae Lee",
+        "Lijuan Wang"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/ux-decoder/find",
+      "published": "2023-12-12T18:58:02.000Z"
+    },
+    {
+      "id": "2312.07424",
+      "title": "How Well Does GPT-4V(ision) Adapt to Distribution Shifts? A Preliminary Investigation",
+      "authors": [
+        "Zhongyi Han",
+        "Guanglin Zhou",
+        "Rundong He",
+        "Jindong Wang",
+        "Xing Xie",
+        "Tailin Wu",
+        "Yilong Yin",
+        "Salman Khan",
+        "Lina Yao",
+        "Tongliang Liu",
+        "Kun Zhang"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/jameszhou-gl/gpt-4v-distribution-shift",
+      "published": "2023-12-12T16:48:07.000Z"
+    },
+    {
+      "id": "2312.07509",
+      "title": "PEEKABOO: Interactive Video Generation via Masked-Diffusion",
+      "authors": [
+        "Yash Jain",
+        "Anshul Nasery",
+        "Vibhav Vineet",
+        "Harkirat Behl"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/microsoft/peekaboo",
+      "published": "2023-12-12T18:43:05.000Z"
+    },
+    {
+      "id": "2312.07231",
+      "title": "Fast Training of Diffusion Transformer with Extreme Masking for 3D Point Clouds Generation",
+      "authors": [
+        "Shentong Mo",
+        "Enze Xie",
+        "Yue Wu",
+        "Junsong Chen",
+        "Matthias Nießner",
+        "Zhenguo Li"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2023-12-12T12:50:33.000Z"
+    },
+    {
+      "id": "2312.06908",
+      "title": "\"I Want It That Way\": Enabling Interactive Decision Support Using Large Language Models and Constraint Programming",
+      "authors": [
+        "Connor Lawless",
+        "Jakob Schoeffer",
+        "Lindy Le",
+        "Kael Rowan",
+        "Shilad Sen",
+        "Cristina St. Hill",
+        "Jina Suh",
+        "Bahar Sarrafzadeh"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2023-12-12T00:39:24.000Z"
+    }
+  ]
+}

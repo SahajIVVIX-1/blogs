@@ -1,0 +1,316 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-07-22",
+  "fetched_at": "2026-10-29T15:28:30.556Z",
+  "candidates": [
+    {
+      "id": "2407.14057",
+      "title": "LazyLLM: Dynamic Token Pruning for Efficient Long Context LLM Inference",
+      "authors": [
+        "Qichen Fu",
+        "Minsik Cho",
+        "Thomas Merth",
+        "Sachin Mehta",
+        "Mohammad Rastegari",
+        "Mahyar Najibi"
+      ],
+      "upvotes": 46,
+      "github": null,
+      "published": "2024-07-19T06:34:45.000Z"
+    },
+    {
+      "id": "2407.14177",
+      "title": "EVLM: An Efficient Vision-Language Model for Visual Understanding",
+      "authors": [
+        "Kaibing Chen",
+        "Dong Shen",
+        "Hanwen Zhong",
+        "Huasong Zhong",
+        "Kui Xia",
+        "Di Xu",
+        "Wei Yuan",
+        "Yifei Hu",
+        "Bin Wen",
+        "Tianke Zhang",
+        "Changyi Liu",
+        "Dewen Fan",
+        "Huihui Xiao",
+        "Jiahong Wu",
+        "Fan Yang",
+        "Size Li",
+        "Di Zhang"
+      ],
+      "upvotes": 44,
+      "github": null,
+      "published": "2024-07-19T10:09:51.000Z"
+    },
+    {
+      "id": "2407.14507",
+      "title": "Internal Consistency and Self-Feedback in Large Language Models: A Survey",
+      "authors": [
+        "Xun Liang",
+        "Shichao Song",
+        "Zifan Zheng",
+        "Hanyu Wang",
+        "Qingchen Yu",
+        "Xunkai Li",
+        "Rong-Hua Li",
+        "Feiyu Xiong",
+        "Zhiyu Li"
+      ],
+      "upvotes": 32,
+      "github": "https://github.com/iaar-shanghai/icsfsurvey",
+      "published": "2024-07-19T17:59:03.000Z"
+    },
+    {
+      "id": "2407.14358",
+      "title": "Stable Audio Open",
+      "authors": [
+        "Zach Evans",
+        "Julian D. Parker",
+        "CJ Carr",
+        "Zack Zukowski",
+        "Josiah Taylor",
+        "Jordi Pons"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/stability-ai/stable-audio-tools",
+      "published": "2024-07-19T14:40:23.000Z"
+    },
+    {
+      "id": "2407.14482",
+      "title": "ChatQA 2: Bridging the Gap to Proprietary LLMs in Long Context and RAG Capabilities",
+      "authors": [
+        "Peng Xu",
+        "Wei Ping",
+        "Xianchao Wu",
+        "Zihan Liu",
+        "Mohammad Shoeybi",
+        "Bryan Catanzaro"
+      ],
+      "upvotes": 26,
+      "github": null,
+      "published": "2024-07-19T17:35:47.000Z"
+    },
+    {
+      "id": "2407.13559",
+      "title": "Qalam : A Multimodal LLM for Arabic Optical Character and Handwriting Recognition",
+      "authors": [
+        "Gagan Bhatia",
+        "El Moatez Billah Nagoudi",
+        "Fakhraddin Alwajih",
+        "Muhammad Abdul-Mageed"
+      ],
+      "upvotes": 23,
+      "github": null,
+      "published": "2024-07-18T14:31:09.000Z"
+    },
+    {
+      "id": "2407.12594",
+      "title": "VisFocus: Prompt-Guided Vision Encoders for OCR-Free Dense Document Understanding",
+      "authors": [
+        "Ofir Abramovich",
+        "Niv Nayman",
+        "Sharon Fogel",
+        "Inbal Lavi",
+        "Ron Litman",
+        "Shahar Tsiper",
+        "Royee Tichauer",
+        "Srikar Appalaraju",
+        "Shai Mazor",
+        "R. Manmatha"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/amazon-science/visfocus",
+      "published": "2024-07-17T14:16:46.000Z"
+    },
+    {
+      "id": "2407.13168",
+      "title": "SciCode: A Research Coding Benchmark Curated by Scientists",
+      "authors": [
+        "Minyang Tian",
+        "Luyu Gao",
+        "Shizhuo Dylan Zhang",
+        "Xinan Chen",
+        "Cunwei Fan",
+        "Xuefei Guo",
+        "Roland Haas",
+        "Pan Ji",
+        "Kittithat Krongchon",
+        "Yao Li",
+        "Shengyan Liu",
+        "Di Luo",
+        "Yutao Ma",
+        "Hao Tong",
+        "Kha Trinh",
+        "Chenyu Tian",
+        "Zihan Wang",
+        "Bohao Wu",
+        "Yanyu Xiong",
+        "Shengzhu Yin",
+        "Minhui Zhu",
+        "Kilian Lieret",
+        "Yanxin Lu",
+        "Genglin Liu",
+        "Yufeng Du",
+        "Tianhua Tao",
+        "Ofir Press",
+        "Jamie Callan",
+        "Eliu Huerta",
+        "Hao Peng"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2024-07-18T05:15:24.000Z"
+    },
+    {
+      "id": "2407.14402",
+      "title": "The Vision of Autonomic Computing: Can LLMs Make It a Reality?",
+      "authors": [
+        "Zhiyang Zhang",
+        "Fangkai Yang",
+        "Xiaoting Qin",
+        "Jue Zhang",
+        "Qingwei Lin",
+        "Gong Cheng",
+        "Dongmei Zhang",
+        "Saravan Rajmohan",
+        "Qi Zhang"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2024-07-19T15:30:32.000Z"
+    },
+    {
+      "id": "2407.10960",
+      "title": "Fast Matrix Multiplications for Lookup Table-Quantized LLMs",
+      "authors": [
+        "Han Guo",
+        "William Brandon",
+        "Radostin Cholakov",
+        "Jonathan Ragan-Kelley",
+        "Eric P. Xing",
+        "Yoon Kim"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/hanguo97/flute",
+      "published": "2024-07-15T17:55:42.000Z"
+    },
+    {
+      "id": "2407.13833",
+      "title": "Phi-3 Safety Post-Training: Aligning Language Models with a \"Break-Fix\" Cycle",
+      "authors": [
+        "Emman Haider",
+        "Daniel Perez-Becker",
+        "Thomas Portet",
+        "Piyush Madan",
+        "Amit Garg",
+        "David Majercak",
+        "Wen Wen",
+        "Dongwoo Kim",
+        "Ziyi Yang",
+        "Jianwen Zhang",
+        "Hiteshi Sharma",
+        "Blake Bullwinkel",
+        "Martin Pouliot",
+        "Amanda Minnich",
+        "Shiven Chawla",
+        "Solianna Herrera",
+        "Shahed Warreth",
+        "Maggie Engler",
+        "Gary Lopez",
+        "Nina Chikanov",
+        "Raja Sekhar Rao Dheekonda",
+        "Bolor-Erdene Jagdagdorj",
+        "Roman Lutz",
+        "Richard Lundeen",
+        "Tori Westerhoff",
+        "Pete Bryan",
+        "Christian Seifert",
+        "Ram Shankar Siva Kumar",
+        "Andrew Berkley",
+        "Alex Kessler"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2024-07-18T18:06:59.000Z"
+    },
+    {
+      "id": "2407.14138",
+      "title": "Visual Text Generation in the Wild",
+      "authors": [
+        "Yuanzhi Zhu",
+        "Jiawei Liu",
+        "Feiyu Gao",
+        "Wenyu Liu",
+        "Xinggang Wang",
+        "Peng Wang",
+        "Fei Huang",
+        "Cong Yao",
+        "Zhibo Yang"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2024-07-19T09:08:20.000Z"
+    },
+    {
+      "id": "2407.14435",
+      "title": "Jumping Ahead: Improving Reconstruction Fidelity with JumpReLU Sparse Autoencoders",
+      "authors": [
+        "Senthooran Rajamanoharan",
+        "Tom Lieberum",
+        "Nicolas Sonnerat",
+        "Arthur Conmy",
+        "Vikrant Varma",
+        "János Kramár",
+        "Neel Nanda"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2024-07-19T16:07:19.000Z"
+    },
+    {
+      "id": "2407.14329",
+      "title": "Efficient Audio Captioning with Encoder-Level Knowledge Distillation",
+      "authors": [
+        "Xuenan Xu",
+        "Haohe Liu",
+        "Mengyue Wu",
+        "Wenwu Wang",
+        "Mark D. Plumbley"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2024-07-19T14:09:50.000Z"
+    },
+    {
+      "id": "2407.14257",
+      "title": "SparseCraft: Few-Shot Neural Reconstruction through Stereopsis Guided Geometric Linearization",
+      "authors": [
+        "Mae Younes",
+        "Amine Ouasfi",
+        "Adnane Boukhayma"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/maeyounes/SparseCraft",
+      "published": "2024-07-19T12:36:36.000Z"
+    },
+    {
+      "id": "2407.13976",
+      "title": "PlacidDreamer: Advancing Harmony in Text-to-3D Generation",
+      "authors": [
+        "Shuo Huang",
+        "Shikun Sun",
+        "Zixuan Wang",
+        "Xiaoyu Qin",
+        "Yanmin Xiong",
+        "Yuan Zhang",
+        "Pengfei Wan",
+        "Di Zhang",
+        "Jia Jia"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/hansenhuang0823/placiddreamer",
+      "published": "2024-07-19T02:00:04.000Z"
+    }
+  ]
+}

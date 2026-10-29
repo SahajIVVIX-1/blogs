@@ -1,0 +1,7 @@
+{
+  "id": "2412.05271",
+  "html": "https://arxiv.org/html/2412.05271",
+  "limitations": null,
+  "conclusion": "In this work, we introduce InternVL 2.5, an advanced open-source multimodal large language model (MLLM) series that builds upon the architecture of InternVL 2.0 with significant improvements in training, testing strategies, and data quality. We systematically explore the relationship between model scaling and performance, analyzing vision encoders, language models, dataset sizes, and test-time configurations. Extensive evaluations on diverse benchmarks demonstrate that InternVL 2.5 achieves competitive performance across tasks such as multi-discipline reasoning, document understanding, video understanding, multilingual processing, etc . Notably, it is the first open-source MLLM to surpass 70% on the MMMU benchmark, narrowing the gap between open-source and commercial models like OpenAI o1. By sharing InternVL 2.5 with the community, we hope to contribute a powerful tool for advancing mul",
+  "figure": null
+}

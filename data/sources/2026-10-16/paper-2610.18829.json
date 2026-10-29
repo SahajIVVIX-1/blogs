@@ -1,0 +1,11 @@
+{
+  "id": "2610.18829",
+  "html": "https://arxiv.org/html/2610.18829",
+  "limitations": null,
+  "conclusion": "In this paper, we introduce OmniCompass, a holistic benchmark for omni-modal video grounding and understanding. It unifies TG, SG, and QA across VL and AV tracks with paired Text and Text+Image specifications for the same video, target, task semantics, and ground truth. The benchmark covers 820 manually annotated videos across seven domains, including a 240-video AV subset with native audio. The paired settings and CS metric assess both prediction correctness and consistency under changes in target specification. Leading proprietary models outperform open-source models, especially in audio-visual understanding, while precise grounding, fine-grained perception, and audio-visual event binding remain challenging. Reference images yield task-dependent effects, while timestamps improve model performance in both tracks. These findings motivate stronger multimodal alignment and audio-aware grou",
+  "figure": {
+    "path": "images/2026/paper-2610.18829.webp",
+    "src": "https://arxiv.org/html/2610.18829v1/omnicompass_vl_index.png",
+    "caption": "Figure 1 : Overall model performance on OmniCompass-VL. Gemini-3.8-Flash and Kimi-K3 achieve the highest scores among proprietary and open-source models, respectively, at 42.8% and 39.6%."
+  }
+}

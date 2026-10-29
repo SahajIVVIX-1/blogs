@@ -1,0 +1,11 @@
+{
+  "id": "2607.03118",
+  "html": "https://arxiv.org/html/2607.03118",
+  "limitations": null,
+  "conclusion": "We present Vidu S1 , a real-time interactive video generation model for voice-controlled digital characters. Vidu S1 enables users to guide video content at any moment through voice instructions and supports infinite-length generation with stable visual quality and subject identity. With an efficient inference and serving pipeline, it produces 540p videos at up to 42 FPS on consumer GPUs. Experiments show that Vidu S1 achieves the best overall performance while meeting real-time inference requirements. These results highlight the potential of Vidu S1 for practical, controllable, and personalized video generation. We hope this work provides a useful step toward real-time generative video systems that are realistic, consistent, and easy to control.",
+  "figure": {
+    "path": "images/2026/paper-2607.03118.webp",
+    "src": "https://arxiv.org/html/2607.03118v2/Overview_final.png",
+    "caption": "Figure 1 : Overview of Vidu S1 . Vidu S1 supports speech-guided future control, efficient infinite-duration inference, and diverse customized characters for real-time interactive video generation."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "2401.00908",
+  "html": "https://arxiv.org/html/2401.00908",
+  "limitations": null,
+  "conclusion": "In addition to its immediate utility in visually rich document understanding tasks, we posit that DocLLM offers an opportunity to change the landscape of generative pre-training by enabling language models to go beyond next token prediction in plain text settings. By accommodating complex layout structures, DocLLM allows for e-books, e-publications, and other documents with rich layouts to be incorporated into the pre-training corpus without requiring extensive preprocessing. The spatial-aware reading approach enables the model to perceive the document as inherently structured knowledge. Moreover, the multi-page awareness, of both page breaks and document boundaries, enhances the model’s ability to comprehend documents of various lengths. This addresses the limitations of previous smaller multi-modal models (which are mainly for single-page documents) and the existing multimodal LLMs (wh",
+  "figure": {
+    "path": "images/2024/paper-2401.00908.webp",
+    "src": "https://arxiv.org/html/2401.00908v1/pics/Overview.png",
+    "caption": "Figure 1: Key elements of DocLLM . (1) Input documents contain text tokens and their bounding boxes. (2) Attention mechanism of LLMs are extended to capture dependencies between text semantics and spatial layouts. (3) Infilling text blocks is used as pre-training objective. (4) Task adaptation is performed on a newly collated dataset of instructions."
+  }
+}

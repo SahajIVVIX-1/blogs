@@ -1,0 +1,428 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-03-20",
+  "fetched_at": "2026-10-29T15:30:57.050Z",
+  "candidates": [
+    {
+      "id": "2503.13288",
+      "title": "φ-Decoding: Adaptive Foresight Sampling for Balanced Inference-Time Exploration and Exploitation",
+      "authors": [
+        "Fangzhi Xu",
+        "Hang Yan",
+        "Chang Ma",
+        "Haiteng Zhao",
+        "Jun Liu",
+        "Qika Lin",
+        "Zhiyong Wu"
+      ],
+      "upvotes": 50,
+      "github": "https://github.com/xufangzhi/phi-Decoding",
+      "published": "2025-03-17T15:38:33.000Z"
+    },
+    {
+      "id": "2503.15485",
+      "title": "TULIP: Towards Unified Language-Image Pretraining",
+      "authors": [
+        "Zineng Tang",
+        "Long Lian",
+        "Seun Eisape",
+        "XuDong Wang",
+        "Roei Herzig",
+        "Adam Yala",
+        "Alane Suhr",
+        "Trevor Darrell",
+        "David M. Chan"
+      ],
+      "upvotes": 49,
+      "github": "https://github.com/tulip-berkeley/open_clip",
+      "published": "2025-03-19T17:58:57.000Z"
+    },
+    {
+      "id": "2503.15265",
+      "title": "DeepMesh: Auto-Regressive Artist-mesh Creation with Reinforcement Learning",
+      "authors": [
+        "Ruowen Zhao",
+        "Junliang Ye",
+        "Zhengyi Wang",
+        "Guangce Liu",
+        "Yiwen Chen",
+        "Yikai Wang",
+        "Jun Zhu"
+      ],
+      "upvotes": 46,
+      "github": "https://github.com/zhaorw02/DeepMesh",
+      "published": "2025-03-19T14:39:30.000Z"
+    },
+    {
+      "id": "2503.15475",
+      "title": "Cube: A Roblox View of 3D Intelligence",
+      "authors": [
+        "Foundation AI Team",
+        "Kiran Bhat",
+        "Nishchaie Khanna",
+        "Karun Channa",
+        "Tinghui Zhou",
+        "Yiheng Zhu",
+        "Xiaoxia Sun",
+        "Charles Shang",
+        "Anirudh Sudarshan",
+        "Maurice Chu",
+        "Daiqing Li",
+        "Kangle Deng",
+        "Jean-Philippe Fauconnier",
+        "Tijmen Verhulsdonck",
+        "Maneesh Agrawala",
+        "Kayvon Fatahalian",
+        "Alexander Weiss",
+        "Christian Reiser",
+        "Ravi Kiran Chirravuri",
+        "Ravali Kandur",
+        "Alejandro Pelaez",
+        "Akash Garg",
+        "Michael Palleschi",
+        "Jessica Wang",
+        "Skylar Litz",
+        "Leon Liu",
+        "Anying Li",
+        "David Harmon",
+        "Derek Liu",
+        "Liangjun Feng",
+        "Denis Goupil",
+        "Lukas Kuczynski",
+        "Jihyun Yoon",
+        "Naveen Marri",
+        "Peiye Zhuang",
+        "Yinan Zhang",
+        "Brian Yin",
+        "Haomiao Jiang",
+        "Marcel van Workum",
+        "Thomas Lane",
+        "Bryce Erickson",
+        "Salil Pathare",
+        "Kyle Price",
+        "Anupam Singh",
+        "David Baszucki"
+      ],
+      "upvotes": 31,
+      "github": "https://github.com/Roblox/cube",
+      "published": "2025-03-19T17:52:17.000Z"
+    },
+    {
+      "id": "2503.11557",
+      "title": "VERIFY: A Benchmark of Visual Explanation and Reasoning for Investigating Multimodal Reasoning Fidelity",
+      "authors": [
+        "Jing Bi",
+        "Junjia Guo",
+        "Susan Liang",
+        "Guangyu Sun",
+        "Luchuan Song",
+        "Yunlong Tang",
+        "Jinxi He",
+        "Jiarui Wu",
+        "Ali Vosoughi",
+        "Chen Chen",
+        "Chenliang Xu"
+      ],
+      "upvotes": 22,
+      "github": null,
+      "published": "2025-03-14T16:26:11.000Z"
+    },
+    {
+      "id": "2503.14891",
+      "title": "MetaLadder: Ascending Mathematical Solution Quality via Analogical-Problem Reasoning Transfer",
+      "authors": [
+        "Honglin Lin",
+        "Zhuoshi Pan",
+        "Yu Li",
+        "Qizhi Pei",
+        "Xin Gao",
+        "Mengzhang Cai",
+        "Conghui He",
+        "Lijun Wu"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/LHL3341/MetaLadder",
+      "published": "2025-03-19T04:36:35.000Z"
+    },
+    {
+      "id": "2503.11227",
+      "title": "GKG-LLM: A Unified Framework for Generalized Knowledge Graph Construction",
+      "authors": [
+        "Jian Zhang",
+        "Bifan Wei",
+        "Shihao Qi",
+        "haiping Zhu",
+        "Jun Liu",
+        "Qika Lin"
+      ],
+      "upvotes": 22,
+      "github": null,
+      "published": "2025-03-14T09:23:22.000Z"
+    },
+    {
+      "id": "2503.15417",
+      "title": "Temporal Regularization Makes Your Video Generator Stronger",
+      "authors": [
+        "Harold Haodong Chen",
+        "Haojian Huang",
+        "Xianfeng Wu",
+        "Yexin Liu",
+        "Yajing Bai",
+        "Wen-Jie Shu",
+        "Harry Yang",
+        "Ser-Nam Lim"
+      ],
+      "upvotes": 22,
+      "github": null,
+      "published": "2025-03-19T16:59:32.000Z"
+    },
+    {
+      "id": "2503.15264",
+      "title": "LEGION: Learning to Ground and Explain for Synthetic Image Detection",
+      "authors": [
+        "Hengrui Kang",
+        "Siwei Wen",
+        "Zichen Wen",
+        "Junyan Ye",
+        "Weijia Li",
+        "Peilin Feng",
+        "Baichuan Zhou",
+        "Bin Wang",
+        "Dahua Lin",
+        "Linfeng Zhang",
+        "Conghui He"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/opendatalab/LEGION",
+      "published": "2025-03-19T14:37:21.000Z"
+    },
+    {
+      "id": "2503.14868",
+      "title": "Efficient Personalization of Quantized Diffusion Model without Backpropagation",
+      "authors": [
+        "Hoigi Seo",
+        "Wongi Jeong",
+        "Kyungryeol Lee",
+        "Se Young Chun"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/ignoww/ZOODiP",
+      "published": "2025-03-19T03:45:37.000Z"
+    },
+    {
+      "id": "2503.15354",
+      "title": "Optimizing Decomposition for Optimal Claim Verification",
+      "authors": [
+        "Yining Lu",
+        "Noah Ziems",
+        "Hy Dang",
+        "Meng Jiang"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/yining610/dynamic-decomposition",
+      "published": "2025-03-19T15:56:21.000Z"
+    },
+    {
+      "id": "2503.12532",
+      "title": "STEVE: AStep Verification Pipeline for Computer-use Agent Training",
+      "authors": [
+        "Fanbin Lu",
+        "Zhisheng Zhong",
+        "Ziqin Wei",
+        "Shu Liu",
+        "Chi-Wing Fu",
+        "Jiaya Jia"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/FanbinLu/STEVE",
+      "published": "2025-03-16T14:53:43.000Z"
+    },
+    {
+      "id": "2503.15478",
+      "title": "SWEET-RL: Training Multi-Turn LLM Agents on Collaborative Reasoning Tasks",
+      "authors": [
+        "Yifei Zhou",
+        "Song Jiang",
+        "Yuandong Tian",
+        "Jason Weston",
+        "Sergey Levine",
+        "Sainbayar Sukhbaatar",
+        "Xian Li"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/facebookresearch/sweet_rl",
+      "published": "2025-03-19T17:55:08.000Z"
+    },
+    {
+      "id": "2503.15450",
+      "title": "SkyLadder: Better and Faster Pretraining via Context Window Scheduling",
+      "authors": [
+        "Tongyao Zhu",
+        "Qian Liu",
+        "Haonan Wang",
+        "Shiqi Chen",
+        "Xiangming Gu",
+        "Tianyu Pang",
+        "Min-Yen Kan"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/sail-sg/skyladder",
+      "published": "2025-03-19T17:31:15.000Z"
+    },
+    {
+      "id": "2503.14505",
+      "title": "MusicInfuser: Making Video Diffusion Listen and Dance",
+      "authors": [
+        "Susung Hong",
+        "Ira Kemelmacher-Shlizerman",
+        "Brian Curless",
+        "Steven M. Seitz"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/SusungHong/MusicInfuser",
+      "published": "2025-03-18T17:59:58.000Z"
+    },
+    {
+      "id": "2503.14830",
+      "title": "Decompositional Neural Scene Reconstruction with Generative Diffusion Prior",
+      "authors": [
+        "Junfeng Ni",
+        "Yu Liu",
+        "Ruijie Lu",
+        "Zirui Zhou",
+        "Song-Chun Zhu",
+        "Yixin Chen",
+        "Siyuan Huang"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/DP-Recon/DP-Recon",
+      "published": "2025-03-19T02:11:31.000Z"
+    },
+    {
+      "id": "2503.14434",
+      "title": "LLM-FE: Automated Feature Engineering for Tabular Data with LLMs as Evolutionary Optimizers",
+      "authors": [
+        "Nikhil Abhyankar",
+        "Parshin Shojaee",
+        "Chandan K. Reddy"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/nikhilsab/LLMFE",
+      "published": "2025-03-18T17:11:24.000Z"
+    },
+    {
+      "id": "2503.13360",
+      "title": "Mitigating Visual Forgetting via Take-along Visual Conditioning for Multi-modal Long CoT Reasoning",
+      "authors": [
+        "Hai-Long Sun",
+        "Zhun Sun",
+        "Houwen Peng",
+        "Han-Jia Ye"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/sun-hailong/TVC",
+      "published": "2025-03-17T16:45:12.000Z"
+    },
+    {
+      "id": "2503.15055",
+      "title": "ELTEX: A Framework for Domain-Driven Synthetic Data Generation",
+      "authors": [
+        "Arina Razmyslovich",
+        "Kseniia Murasheva",
+        "Sofia Sedlova",
+        "Julien Capitaine",
+        "Eugene Dmitriev"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/1712n/eltex",
+      "published": "2025-03-19T09:46:54.000Z"
+    },
+    {
+      "id": "2503.12769",
+      "title": "ViSpeak: Visual Instruction Feedback in Streaming Videos",
+      "authors": [
+        "Shenghao Fu",
+        "Qize Yang",
+        "Yuan-Ming Li",
+        "Yi-Xing Peng",
+        "Kun-Yu Lin",
+        "Xihan Wei",
+        "Jian-Fang Hu",
+        "Xiaohua Xie",
+        "Wei-Shi Zheng"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/HumanMLLM/ViSpeak",
+      "published": "2025-03-17T03:05:31.000Z"
+    },
+    {
+      "id": "2503.12963",
+      "title": "Unlock Pose Diversity: Accurate and Efficient Implicit Keypoint-based Spatiotemporal Diffusion for Audio-driven Talking Portrait",
+      "authors": [
+        "Chaolong Yang",
+        "Kai Yao",
+        "Yuyao Yan",
+        "Chenru Jiang",
+        "Weiguang Zhao",
+        "Jie Sun",
+        "Guangliang Cheng",
+        "Yifei Zhang",
+        "Bin Dong",
+        "Kaizhu Huang"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/chaolongy/kdtalker",
+      "published": "2025-03-17T09:18:31.000Z"
+    },
+    {
+      "id": "2503.13553",
+      "title": "LLM-Mediated Guidance of MARL Systems",
+      "authors": [
+        "Philipp D. Siedler",
+        "Ian Gemp"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/hivex-research/llm_mediated_guidance",
+      "published": "2025-03-16T20:16:13.000Z"
+    },
+    {
+      "id": "2503.13517",
+      "title": "CURIE: Evaluating LLMs On Multitask Scientific Long Context Understanding and Reasoning",
+      "authors": [
+        "Hao Cui",
+        "Zahra Shamsi",
+        "Gowoon Cheon",
+        "Xuejian Ma",
+        "Shutong Li",
+        "Maria Tikhanovskaya",
+        "Peter Norgaard",
+        "Nayantara Mudur",
+        "Martyna Plomecka",
+        "Paul Raccuglia",
+        "Yasaman Bahri",
+        "Victor V. Albert",
+        "Pranesh Srinivasan",
+        "Haining Pan",
+        "Philippe Faist",
+        "Brian Rohr",
+        "Michael J. Statt",
+        "Dan Morris",
+        "Drew Purves",
+        "Elise Kleeman",
+        "Ruth Alcantara",
+        "Matthew Abraham",
+        "Muqthar Mohammad",
+        "Ean Phing VanLee",
+        "Chenfei Jiang",
+        "Elizabeth Dorfman",
+        "Eun-Ah Kim",
+        "Michael P Brenner",
+        "Viren Jain",
+        "Sameera Ponda",
+        "Subhashini Venugopalan"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/google/curie",
+      "published": "2025-03-14T17:53:03.000Z"
+    }
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-11-25",
+  "fetched_at": "2026-10-29T15:29:47.253Z",
+  "candidates": [
+    {
+      "id": "2411.15124",
+      "title": "TÜLU 3: Pushing Frontiers in Open Language Model Post-Training",
+      "authors": [
+        "Nathan Lambert",
+        "Jacob Morrison",
+        "Valentina Pyatkin",
+        "Shengyi Huang",
+        "Hamish Ivison",
+        "Faeze Brahman",
+        "Lester James V. Miranda",
+        "Alisa Liu",
+        "Nouha Dziri",
+        "Shane Lyu",
+        "Yuling Gu",
+        "Saumya Malik",
+        "Victoria Graf",
+        "Jena D. Hwang",
+        "Jiangjiang Yang",
+        "Ronan Le Bras",
+        "Oyvind Tafjord",
+        "Chris Wilhelm",
+        "Luca Soldaini",
+        "Noah A. Smith",
+        "Yizhong Wang",
+        "Pradeep Dasigi",
+        "Hannaneh Hajishirzi"
+      ],
+      "upvotes": 68,
+      "github": null,
+      "published": "2024-11-22T18:44:04.000Z"
+    },
+    {
+      "id": "2411.15098",
+      "title": "OminiControl: Minimal and Universal Control for Diffusion Transformer",
+      "authors": [
+        "Zhenxiong Tan",
+        "Songhua Liu",
+        "Xingyi Yang",
+        "Qiaochu Xue",
+        "Xinchao Wang"
+      ],
+      "upvotes": 61,
+      "github": "https://github.com/Yuanshi9815/OminiControl",
+      "published": "2024-11-22T17:55:15.000Z"
+    },
+    {
+      "id": "2411.15138",
+      "title": "Material Anything: Generating Materials for Any 3D Object via Diffusion",
+      "authors": [
+        "Xin Huang",
+        "Tengfei Wang",
+        "Ziwei Liu",
+        "Qing Wang"
+      ],
+      "upvotes": 51,
+      "github": null,
+      "published": "2024-11-22T18:59:39.000Z"
+    },
+    {
+      "id": "2411.15466",
+      "title": "Large-Scale Text-to-Image Model with Inpainting is a Zero-Shot Subject-Driven Image Generator",
+      "authors": [
+        "Chaehun Shin",
+        "Jooyoung Choi",
+        "Heeseung Kim",
+        "Sungroh Yoon"
+      ],
+      "upvotes": 39,
+      "github": "https://github.com/chaehunshin/DiptychPrompting",
+      "published": "2024-11-23T06:17:43.000Z"
+    },
+    {
+      "id": "2411.14521",
+      "title": "MyTimeMachine: Personalized Facial Age Transformation",
+      "authors": [
+        "Luchao Qi",
+        "Jiaye Wu",
+        "Bang Gong",
+        "Annie N. Wang",
+        "David W. Jacobs",
+        "Roni Sengupta"
+      ],
+      "upvotes": 23,
+      "github": null,
+      "published": "2024-11-21T18:54:13.000Z"
+    },
+    {
+      "id": "2411.12946",
+      "title": "A Flexible Large Language Models Guardrail Development Methodology Applied to Off-Topic Prompt Detection",
+      "authors": [
+        "Gabriel Chua",
+        "Shing Yee Chan",
+        "Shaun Khoo"
+      ],
+      "upvotes": 22,
+      "github": null,
+      "published": "2024-11-20T00:31:23.000Z"
+    },
+    {
+      "id": "2411.14982",
+      "title": "Large Multi-modal Models Can Interpret Features in Large Multi-modal Models",
+      "authors": [
+        "Kaichen Zhang",
+        "Yifei Shen",
+        "Bo Li",
+        "Ziwei Liu"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/EvolvingLMMs-Lab/multimodal-sae",
+      "published": "2024-11-22T14:41:36.000Z"
+    },
+    {
+      "id": "2411.13543",
+      "title": "BALROG: Benchmarking Agentic LLM and VLM Reasoning On Games",
+      "authors": [
+        "Davide Paglieri",
+        "Bartłomiej Cupiał",
+        "Samuel Coward",
+        "Ulyana Piterbarg",
+        "Maciej Wolczyk",
+        "Akbir Khan",
+        "Eduardo Pignatelli",
+        "Łukasz Kuciński",
+        "Lerrel Pinto",
+        "Rob Fergus",
+        "Jakob Nicolaus Foerster",
+        "Jack Parker-Holder",
+        "Tim Rocktäschel"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/balrog-ai/BALROG",
+      "published": "2024-11-20T18:54:32.000Z"
+    },
+    {
+      "id": "2411.14794",
+      "title": "VideoEspresso: A Large-Scale Chain-of-Thought Dataset for Fine-Grained Video Reasoning via Core Frame Selection",
+      "authors": [
+        "Songhao Han",
+        "Wei Huang",
+        "Hairong Shi",
+        "Le Zhuo",
+        "Xiu Su",
+        "Shifeng Zhang",
+        "Xu Zhou",
+        "Xiaojuan Qi",
+        "Yue Liao",
+        "Si Liu"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/hshjerry/videoespresso",
+      "published": "2024-11-22T08:33:36.000Z"
+    },
+    {
+      "id": "2411.14762",
+      "title": "Efficient Long Video Tokenization via Coordinated-based Patch Reconstruction",
+      "authors": [
+        "Huiwon Jang",
+        "Sihyun Yu",
+        "Jinwoo Shin",
+        "Pieter Abbeel",
+        "Younggyo Seo"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/huiwon-jang/CoordTok",
+      "published": "2024-11-22T06:50:44.000Z"
+    },
+    {
+      "id": "2411.15115",
+      "title": "VideoRepair: Improving Text-to-Video Generation via Misalignment Evaluation and Localized Refinement",
+      "authors": [
+        "Daeun Lee",
+        "Jaehong Yoon",
+        "Jaemin Cho",
+        "Mohit Bansal"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2024-11-22T18:31:47.000Z"
+    },
+    {
+      "id": "2411.14208",
+      "title": "Novel View Extrapolation with Video Diffusion Priors",
+      "authors": [
+        "Kunhao Liu",
+        "Ling Shao",
+        "Shijian Lu"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/Kunhao-Liu/ViewExtrapolator",
+      "published": "2024-11-21T15:16:48.000Z"
+    },
+    {
+      "id": "2411.14486",
+      "title": "The Impossible Test: A 2024 Unsolvable Dataset and A Chance for an AGI Quiz",
+      "authors": [
+        "David Noever",
+        "Forrest McKee"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2024-11-20T04:12:29.000Z"
+    },
+    {
+      "id": "2411.15131",
+      "title": "WildLMa: Long Horizon Loco-Manipulation in the Wild",
+      "authors": [
+        "Ri-Zhao Qiu",
+        "Yuchen Song",
+        "Xuanbin Peng",
+        "Sai Aneesh Suryadevara",
+        "Ge Yang",
+        "Minghuan Liu",
+        "Mazeyu Ji",
+        "Chengzhe Jia",
+        "Ruihan Yang",
+        "Xueyan Zou",
+        "Xiaolong Wang"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2024-11-22T18:56:56.000Z"
+    },
+    {
+      "id": "2411.13127",
+      "title": "Adapting Vision Foundation Models for Robust Cloud Segmentation in Remote Sensing Images",
+      "authors": [
+        "Xuechao Zou",
+        "Shun Zhang",
+        "Kai Li",
+        "Shiying Wang",
+        "Junliang Xing",
+        "Lei Jin",
+        "Congyan Lang",
+        "Pin Tao"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/xavierjiezou/cloud-adapter",
+      "published": "2024-11-20T08:37:39.000Z"
+    },
+    {
+      "id": "2411.15033",
+      "title": "One to rule them all: natural language to bind communication, perception and action",
+      "authors": [
+        "Simone Colombani",
+        "Dimitri Ognibene",
+        "Giuseppe Boccignone"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2024-11-22T16:05:54.000Z"
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-06-27",
+  "fetched_at": "2026-10-29T15:28:15.230Z",
+  "candidates": [
+    {
+      "id": "2406.16793",
+      "title": "Adam-mini: Use Fewer Learning Rates To Gain More",
+      "authors": [
+        "Yushun Zhang",
+        "Congliang Chen",
+        "Ziniu Li",
+        "Tian Ding",
+        "Chenwei Wu",
+        "Yinyu Ye",
+        "Zhi-Quan Luo",
+        "Ruoyu Sun"
+      ],
+      "upvotes": 69,
+      "github": "https://github.com/zyushun/adam-mini",
+      "published": "2024-06-24T16:56:41.000Z"
+    },
+    {
+      "id": "2406.18082",
+      "title": "Octo-planner: On-device Language Model for Planner-Action Agents",
+      "authors": [
+        "Wei Chen",
+        "Zhiyuan Li",
+        "Zhen Guo",
+        "Yikang Shen"
+      ],
+      "upvotes": 48,
+      "github": null,
+      "published": "2024-06-26T05:40:10.000Z"
+    },
+    {
+      "id": "2406.18521",
+      "title": "CharXiv: Charting Gaps in Realistic Chart Understanding in Multimodal LLMs",
+      "authors": [
+        "Zirui Wang",
+        "Mengzhou Xia",
+        "Luxi He",
+        "Howard Chen",
+        "Yitao Liu",
+        "Richard Zhu",
+        "Kaiqu Liang",
+        "Xindi Wu",
+        "Haotian Liu",
+        "Sadhika Malladi",
+        "Alexis Chevalier",
+        "Sanjeev Arora",
+        "Danqi Chen"
+      ],
+      "upvotes": 31,
+      "github": "https://github.com/princeton-nlp/CharXiv",
+      "published": "2024-06-26T17:50:11.000Z"
+    },
+    {
+      "id": "2406.18522",
+      "title": "ChronoMagic-Bench: A Benchmark for Metamorphic Evaluation of Text-to-Time-lapse Video Generation",
+      "authors": [
+        "Shenghai Yuan",
+        "Jinfa Huang",
+        "Yongqi Xu",
+        "Yaoyang Liu",
+        "Shaofeng Zhang",
+        "Yujun Shi",
+        "Ruijie Zhu",
+        "Xinhua Cheng",
+        "Jiebo Luo",
+        "Li Yuan"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/PKU-YuanGroup/ChronoMagic-Bench",
+      "published": "2024-06-26T17:50:47.000Z"
+    },
+    {
+      "id": "2406.18219",
+      "title": "A Closer Look into Mixture-of-Experts in Large Language Models",
+      "authors": [
+        "Ka Man Lo",
+        "Zeyu Huang",
+        "Zihan Qiu",
+        "Zili Wang",
+        "Jie Fu"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/kamanphoebe/look-into-moes",
+      "published": "2024-06-26T10:07:57.000Z"
+    },
+    {
+      "id": "2406.18495",
+      "title": "WildGuard: Open One-Stop Moderation Tools for Safety Risks, Jailbreaks, and Refusals of LLMs",
+      "authors": [
+        "Seungju Han",
+        "Kavel Rao",
+        "Allyson Ettinger",
+        "Liwei Jiang",
+        "Bill Yuchen Lin",
+        "Nathan Lambert",
+        "Yejin Choi",
+        "Nouha Dziri"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/allenai/wildguard",
+      "published": "2024-06-26T16:58:20.000Z"
+    },
+    {
+      "id": "2406.16341",
+      "title": "EHRCon: Dataset for Checking Consistency between Unstructured Notes and Structured Tables in Electronic Health Records",
+      "authors": [
+        "Yeonsu Kwon",
+        "Jiho Kim",
+        "Gyubok Lee",
+        "Seongsu Bae",
+        "Daeun Kyung",
+        "Wonchul Cha",
+        "Tom Pollard",
+        "Alistair Johnson",
+        "Edward Choi"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/dustn1259/ehrcon",
+      "published": "2024-06-24T06:26:50.000Z"
+    },
+    {
+      "id": "2406.18532",
+      "title": "Symbolic Learning Enables Self-Evolving Agents",
+      "authors": [
+        "Wangchunshu Zhou",
+        "Yixin Ou",
+        "Shengwei Ding",
+        "Long Li",
+        "Jialong Wu",
+        "Tiannan Wang",
+        "Jiamin Chen",
+        "Shuai Wang",
+        "Xiaohua Xu",
+        "Ningyu Zhang",
+        "Huajun Chen",
+        "Yuchen Eleanor Jiang"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2024-06-26T17:59:18.000Z"
+    },
+    {
+      "id": "2406.18530",
+      "title": "MatchTime: Towards Automatic Soccer Game Commentary Generation",
+      "authors": [
+        "Jiayuan Rao",
+        "Haoning Wu",
+        "Chang Liu",
+        "Yanfeng Wang",
+        "Weidi Xie"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/jyrao/MatchTime",
+      "published": "2024-06-26T17:57:25.000Z"
+    },
+    {
+      "id": "2406.18510",
+      "title": "WildTeaming at Scale: From In-the-Wild Jailbreaks to (Adversarially) Safer Language Models",
+      "authors": [
+        "Liwei Jiang",
+        "Kavel Rao",
+        "Seungju Han",
+        "Allyson Ettinger",
+        "Faeze Brahman",
+        "Sachin Kumar",
+        "Niloofar Mireshghallah",
+        "Ximing Lu",
+        "Maarten Sap",
+        "Yejin Choi",
+        "Nouha Dziri"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/allenai/wildteaming",
+      "published": "2024-06-26T17:31:22.000Z"
+    },
+    {
+      "id": "2406.16979",
+      "title": "Understanding and Diagnosing Deep Reinforcement Learning",
+      "authors": [
+        "Ezgi Korkmaz"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2024-06-23T18:10:16.000Z"
+    },
+    {
+      "id": "2406.17294",
+      "title": "Math-LLaVA: Bootstrapping Mathematical Reasoning for Multimodal Large Language Models",
+      "authors": [
+        "Wenhao Shi",
+        "Zhiqiang Hu",
+        "Yi Bin",
+        "Junhua Liu",
+        "Yang Yang",
+        "See-Kiong Ng",
+        "Lidong Bing",
+        "Roy Ka-Wei Lee"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/hzq950419/math-llava",
+      "published": "2024-06-25T05:43:21.000Z"
+    },
+    {
+      "id": "2406.15334",
+      "title": "Multimodal Task Vectors Enable Many-Shot Multimodal In-Context Learning",
+      "authors": [
+        "Brandon Huang",
+        "Chancharik Mitra",
+        "Assaf Arbelle",
+        "Leonid Karlinsky",
+        "Trevor Darrell",
+        "Roei Herzig"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2024-06-21T17:50:02.000Z"
+    },
+    {
+      "id": "2406.17565",
+      "title": "MemServe: Context Caching for Disaggregated LLM Serving with Elastic Memory Pool",
+      "authors": [
+        "Cunchen Hu",
+        "Heyang Huang",
+        "Junhao Hu",
+        "Jiang Xu",
+        "Xusheng Chen",
+        "Tao Xie",
+        "Chenxi Wang",
+        "Sa Wang",
+        "Yungang Bao",
+        "Ninghui Sun",
+        "Yizhou Shan"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2024-06-25T14:02:08.000Z"
+    }
+  ]
+}

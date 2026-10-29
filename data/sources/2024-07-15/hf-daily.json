@@ -1,0 +1,256 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-07-15",
+  "fetched_at": "2026-10-29T15:28:26.272Z",
+  "candidates": [
+    {
+      "id": "2407.09025",
+      "title": "SpreadsheetLLM: Encoding Spreadsheets for Large Language Models",
+      "authors": [
+        "Yuzhang Tian",
+        "Jianbo Zhao",
+        "Haoyu Dong",
+        "Junyu Xiong",
+        "Shiyu Xia",
+        "Mengyu Zhou",
+        "Yun Lin",
+        "José Cambronero",
+        "Yeye He",
+        "Shi Han",
+        "Dongmei Zhang"
+      ],
+      "upvotes": 139,
+      "github": null,
+      "published": "2024-07-12T06:34:21.000Z"
+    },
+    {
+      "id": "2407.09450",
+      "title": "Human-like Episodic Memory for Infinite Context LLMs",
+      "authors": [
+        "Zafeirios Fountas",
+        "Martin A Benfeghoul",
+        "Adnan Oomerjee",
+        "Fenia Christopoulou",
+        "Gerasimos Lampouras",
+        "Haitham Bou-Ammar",
+        "Jun Wang"
+      ],
+      "upvotes": 62,
+      "github": "https://github.com/em-llm/EM-LLM-model",
+      "published": "2024-07-12T17:34:03.000Z"
+    },
+    {
+      "id": "2407.07874",
+      "title": "Toto: Time Series Optimized Transformer for Observability",
+      "authors": [
+        "Ben Cohen",
+        "Emaad Khwaja",
+        "Kan Wang",
+        "Charles Masson",
+        "Elise Ramé",
+        "Youssef Doubli",
+        "Othmane Abou-Amal"
+      ],
+      "upvotes": 33,
+      "github": null,
+      "published": "2024-07-10T17:40:30.000Z"
+    },
+    {
+      "id": "2407.09435",
+      "title": "MUSCLE: A Model Update Strategy for Compatible LLM Evolution",
+      "authors": [
+        "Jessica Echterhoff",
+        "Fartash Faghri",
+        "Raviteja Vemulapalli",
+        "Ting-Yao Hu",
+        "Chun-Liang Li",
+        "Oncel Tuzel",
+        "Hadi Pouransari"
+      ],
+      "upvotes": 22,
+      "github": null,
+      "published": "2024-07-12T17:12:48.000Z"
+    },
+    {
+      "id": "2407.08770",
+      "title": "Model Surgery: Modulating LLM's Behavior Via Simple Parameter Editing",
+      "authors": [
+        "Huanqian Wang",
+        "Yang Yue",
+        "Rui Lu",
+        "Jingxin Shi",
+        "Andrew Zhao",
+        "Shenzhi Wang",
+        "Shiji Song",
+        "Gao Huang"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/lucywang720/model-surgery",
+      "published": "2024-07-11T17:52:03.000Z"
+    },
+    {
+      "id": "2407.09276",
+      "title": "H2O-Danube3 Technical Report",
+      "authors": [
+        "Pascal Pfeiffer",
+        "Philipp Singer",
+        "Yauhen Babakhin",
+        "Gabor Fodor",
+        "Nischay Dhankhar",
+        "Sri Satish Ambati"
+      ],
+      "upvotes": 19,
+      "github": null,
+      "published": "2024-07-12T14:09:40.000Z"
+    },
+    {
+      "id": "2407.09388",
+      "title": "GAVEL: Generating Games Via Evolution and Language Models",
+      "authors": [
+        "Graham Todd",
+        "Alexander Padula",
+        "Matthew Stephenson",
+        "Éric Piette",
+        "Dennis J. N. J. Soemers",
+        "Julian Togelius"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/gdrtodd/gavel",
+      "published": "2024-07-12T16:08:44.000Z"
+    },
+    {
+      "id": "2407.09298",
+      "title": "Transformer Layers as Painters",
+      "authors": [
+        "Qi Sun",
+        "Marc Pickett",
+        "Aakash Kumar Nain",
+        "Llion Jones"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2024-07-12T14:31:05.000Z"
+    },
+    {
+      "id": "2407.09473",
+      "title": "StyleSplat: 3D Object Style Transfer with Gaussian Splatting",
+      "authors": [
+        "Sahil Jain",
+        "Avik Kuthiala",
+        "Prabhdeep Singh Sethi",
+        "Prakanshul Saxena"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2024-07-12T17:55:08.000Z"
+    },
+    {
+      "id": "2407.09413",
+      "title": "SPIQA: A Dataset for Multimodal Question Answering on Scientific Papers",
+      "authors": [
+        "Shraman Pramanick",
+        "Rama Chellappa",
+        "Subhashini Venugopalan"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/google/spiqa",
+      "published": "2024-07-12T16:37:59.000Z"
+    },
+    {
+      "id": "2407.09072",
+      "title": "New Desiderata for Direct Preference Optimization",
+      "authors": [
+        "Xiangkun Hu",
+        "Tong He",
+        "David Wipf"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2024-07-12T07:52:32.000Z"
+    },
+    {
+      "id": "2407.08892",
+      "title": "Characterizing Prompt Compression Methods for Long Context Inference",
+      "authors": [
+        "Siddharth Jha",
+        "Lutfi Eren Erdogan",
+        "Sehoon Kim",
+        "Kurt Keutzer",
+        "Amir Gholami"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2024-07-11T23:34:32.000Z"
+    },
+    {
+      "id": "2407.09732",
+      "title": "Speech Slytherin: Examining the Performance and Efficiency of Mamba for Speech Separation, Recognition, and Synthesis",
+      "authors": [
+        "Xilin Jiang",
+        "Yinghao Aaron Li",
+        "Adrian Nicolas Florea",
+        "Cong Han",
+        "Nima Mesgarani"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/xi-j/mamba-asr",
+      "published": "2024-07-13T00:35:21.000Z"
+    },
+    {
+      "id": "2407.09012",
+      "title": "TCAN: Animating Human Images with Temporally Consistent Pose Guidance using Diffusion Models",
+      "authors": [
+        "Jeongho Kim",
+        "Min-Jung Kim",
+        "Junsoo Lee",
+        "Jaegul Choo"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2024-07-12T06:02:13.000Z"
+    },
+    {
+      "id": "2406.02265",
+      "title": "Understanding Retrieval Robustness for Retrieval-Augmented Image Captioning",
+      "authors": [
+        "Wenyan Li",
+        "Jiaang Li",
+        "Rita Ramos",
+        "Raphael Tang",
+        "Desmond Elliott"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/lyan62/RobustCap",
+      "published": "2024-06-04T12:41:54.000Z"
+    },
+    {
+      "id": "2407.09121",
+      "title": "Refuse Whenever You Feel Unsafe: Improving Safety in LLMs via Decoupled Refusal Training",
+      "authors": [
+        "Youliang Yuan",
+        "Wenxiang Jiao",
+        "Wenxuan Wang",
+        "Jen-tse Huang",
+        "Jiahao Xu",
+        "Tian Liang",
+        "Pinjia He",
+        "Zhaopeng Tu"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/robustnlp/derta",
+      "published": "2024-07-12T09:36:33.000Z"
+    },
+    {
+      "id": "2407.06397",
+      "title": "RRM: Relightable assets using Radiance guided Material extraction",
+      "authors": [
+        "Diego Gomez",
+        "Julien Philip",
+        "Adrien Kaiser",
+        "Élie Michel"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2024-07-08T21:10:31.000Z"
+    }
+  ]
+}

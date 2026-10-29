@@ -1,0 +1,193 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-01-20",
+  "fetched_at": "2026-10-29T15:34:27.876Z",
+  "candidates": [
+    {
+      "id": "2601.11077",
+      "title": "ABC-Bench: Benchmarking Agentic Backend Coding in Real-World Development",
+      "authors": [
+        "Jie Yang",
+        "Honglin Guo",
+        "Li Ji",
+        "Jiazheng Zhou",
+        "Rui Zheng",
+        "Zhikai Lei",
+        "Shuo Zhang",
+        "Zhiheng Xi",
+        "Shichun Liu",
+        "Yuxin Wang",
+        "Bo Wang",
+        "Yining Zheng",
+        "Tao Gui",
+        "Xipeng Qiu"
+      ],
+      "upvotes": 66,
+      "github": "https://github.com/OpenMOSS/ABC-Bench",
+      "published": "2026-01-16T08:23:52.000Z"
+    },
+    {
+      "id": "2601.08808",
+      "title": "Multiplex Thinking: Reasoning via Token-wise Branch-and-Merge",
+      "authors": [
+        "Yao Tang",
+        "Li Dong",
+        "Yaru Hao",
+        "Qingxiu Dong",
+        "Furu Wei",
+        "Jiatao Gu"
+      ],
+      "upvotes": 40,
+      "github": "https://github.com/GMLR-Penn/Multiplex-Thinking",
+      "published": "2026-01-13T18:48:00.000Z"
+    },
+    {
+      "id": "2601.11004",
+      "title": "NAACL: Noise-AwAre Verbal Confidence Calibration for LLMs in RAG Systems",
+      "authors": [
+        "Jiayu Liu",
+        "Rui Wang",
+        "Qing Zong",
+        "Qingcheng Zeng",
+        "Tianshi Zheng",
+        "Haochen Shi",
+        "Dadi Guo",
+        "Baixuan Xu",
+        "Chunyang Li",
+        "Yangqiu Song"
+      ],
+      "upvotes": 31,
+      "github": "https://github.com/HKUST-KnowComp/NAACL",
+      "published": "2026-01-16T05:38:25.000Z"
+    },
+    {
+      "id": "2601.10880",
+      "title": "Medical SAM3: A Foundation Model for Universal Prompt-Driven Medical Image Segmentation",
+      "authors": [
+        "Chongcong Jiang",
+        "Tianxingjian Ding",
+        "Chuhan Song",
+        "Jiachen Tu",
+        "Ziyang Yan",
+        "Yihua Shao",
+        "Zhenyi Wang",
+        "Yuzhang Shang",
+        "Tianyu Han",
+        "Yu Tian"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/AIM-Research-Lab/Medical-SAM3",
+      "published": "2026-01-15T22:18:14.000Z"
+    },
+    {
+      "id": "2601.10387",
+      "title": "The Assistant Axis: Situating and Stabilizing the Default Persona of Language Models",
+      "authors": [
+        "Christina Lu",
+        "Jack Gallagher",
+        "Jonathan Michala",
+        "Kyle Fish",
+        "Jack Lindsey"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/safety-research/assistant-axis",
+      "published": "2026-01-15T13:40:06.000Z"
+    },
+    {
+      "id": "2601.11425",
+      "title": "PubMed-OCR: PMC Open Access OCR Annotations",
+      "authors": [
+        "Hunter Heidenreich",
+        "Yosheb Getachew",
+        "Olivia Dinica",
+        "Ben Elliott"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2026-01-16T16:44:50.000Z"
+    },
+    {
+      "id": "2601.08441",
+      "title": "YaPO: Learnable Sparse Activation Steering Vectors for Domain Adaptation",
+      "authors": [
+        "Abdelaziz Bounhar",
+        "Rania Hossam Elmohamady Elbadry",
+        "Hadi Abdine",
+        "Preslav Nakov",
+        "Michalis Vazirgiannis",
+        "Guokan Shang"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/MBZUAI-Paris/YaPO",
+      "published": "2026-01-13T11:10:13.000Z"
+    },
+    {
+      "id": "2601.11096",
+      "title": "CoDance: An Unbind-Rebind Paradigm for Robust Multi-Subject Animation",
+      "authors": [
+        "Shuai Tan",
+        "Biao Gong",
+        "Ke Ma",
+        "Yutong Feng",
+        "Qiyuan Zhang",
+        "Yan Wang",
+        "Yujun Shen",
+        "Hengshuang Zhao"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2026-01-16T08:53:09.000Z"
+    },
+    {
+      "id": "2601.11061",
+      "title": "Spurious Rewards Paradox: Mechanistically Understanding How RLVR Activates Memorization Shortcuts in LLMs",
+      "authors": [
+        "Lecheng Yan",
+        "Ruizhe Li",
+        "Guanhua Chen",
+        "Qing Li",
+        "Jiahui Geng",
+        "Wenxi Li",
+        "Vincent Wang",
+        "Chris Lee"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/idwts/How-RLVR-Activates-Memorization-Shortcuts",
+      "published": "2026-01-16T07:55:38.000Z"
+    },
+    {
+      "id": "2601.10108",
+      "title": "SIN-Bench: Tracing Native Evidence Chains in Long-Context Multimodal Scientific Interleaved Literature",
+      "authors": [
+        "Yiming Ren",
+        "Junjie Wang",
+        "Yuxin Meng",
+        "Yihang Shi",
+        "Zhiqiang Lin",
+        "Ruihang Chu",
+        "Yiran Xu",
+        "Ziming Li",
+        "Yunfei Zhao",
+        "Zihan Wang",
+        "Yu Qiao",
+        "Ruiming Tang",
+        "Minghao Liu",
+        "Yujiu Yang"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/IIGROUP/sin-bench",
+      "published": "2026-01-15T06:25:25.000Z"
+    },
+    {
+      "id": "2601.09512",
+      "title": "CLARE: Continual Learning for Vision-Language-Action Models via Autonomous Adapter Routing and Expansion",
+      "authors": [
+        "Ralf Römer",
+        "Yi Zhang",
+        "Angela P. Schoellig"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/utiasDSL/clare",
+      "published": "2026-01-14T14:23:42.000Z"
+    }
+  ]
+}

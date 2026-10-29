@@ -1,0 +1,488 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-03-11",
+  "fetched_at": "2026-10-29T15:34:58.150Z",
+  "candidates": [
+    {
+      "id": "2603.03143",
+      "title": "Geometry-Guided Reinforcement Learning for Multi-view Consistent 3D Scene Editing",
+      "authors": [
+        "Jiyuan Wang",
+        "Chunyu Lin",
+        "Lei Sun",
+        "Zhi Cao",
+        "Yuyang Yin",
+        "Lang Nie",
+        "Zhenlong Yuan",
+        "Xiangxiang Chu",
+        "Yunchao Wei",
+        "Kang Liao",
+        "Guosheng Lin"
+      ],
+      "upvotes": 145,
+      "github": "https://github.com/AMAP-ML/RL3DEdit",
+      "published": "2026-03-03T16:31:10.000Z"
+    },
+    {
+      "id": "2603.09906",
+      "title": "Thinking to Recall: How Reasoning Unlocks Parametric Knowledge in LLMs",
+      "authors": [
+        "Zorik Gekhman",
+        "Roee Aharoni",
+        "Eran Ofek",
+        "Mor Geva",
+        "Roi Reichart",
+        "Jonathan Herzig"
+      ],
+      "upvotes": 76,
+      "github": null,
+      "published": "2026-03-10T16:59:20.000Z"
+    },
+    {
+      "id": "2603.09206",
+      "title": "MM-Zero: Self-Evolving Multi-Model Vision Language Models From Zero Data",
+      "authors": [
+        "Zongxia Li",
+        "Hongyang Du",
+        "Chengsong Huang",
+        "Xiyang Wu",
+        "Lantao Yu",
+        "Yicheng He",
+        "Jing Xie",
+        "Xiaomin Wu",
+        "Zhichao Liu",
+        "Jiarui Zhang",
+        "Fuxiao Liu"
+      ],
+      "upvotes": 55,
+      "github": "https://github.com/zli12321/MM-Zero",
+      "published": "2026-03-10T05:23:26.000Z"
+    },
+    {
+      "id": "2603.06577",
+      "title": "Omni-Diffusion: Unified Multimodal Understanding and Generation with Masked Discrete Diffusion",
+      "authors": [
+        "Lijiang Li",
+        "Zuwei Long",
+        "Yunhang Shen",
+        "Heting Gao",
+        "Haoyu Cao",
+        "Xing Sun",
+        "Caifeng Shan",
+        "Ran He",
+        "Chaoyou Fu"
+      ],
+      "upvotes": 50,
+      "github": "https://github.com/VITA-MLLM/Omni-Diffusion",
+      "published": "2026-03-06T18:59:57.000Z"
+    },
+    {
+      "id": "2603.09877",
+      "title": "InternVL-U: Democratizing Unified Multimodal Models for Understanding, Reasoning, Generation and Editing",
+      "authors": [
+        "Changyao Tian",
+        "Danni Yang",
+        "Guanzhou Chen",
+        "Erfei Cui",
+        "Zhaokai Wang",
+        "Yuchen Duan",
+        "Penghao Yin",
+        "Sitao Chen",
+        "Ganlin Yang",
+        "Mingxin Liu",
+        "Zirun Zhu",
+        "Ziqian Fan",
+        "Leyao Gu",
+        "Haomin Wang",
+        "Qi Wei",
+        "Jinhui Yin",
+        "Xue Yang",
+        "Zhihang Zhong",
+        "Qi Qin",
+        "Yi Xin",
+        "Bin Fu",
+        "Yihao Liu",
+        "Jiaye Ge",
+        "Qipeng Guo",
+        "Gen Luo",
+        "Hongsheng Li",
+        "Yu Qiao",
+        "Kai Chen",
+        "Hongjie Zhang"
+      ],
+      "upvotes": 49,
+      "github": "https://github.com/OpenGVLab/InternVL-U",
+      "published": "2026-03-10T16:38:33.000Z"
+    },
+    {
+      "id": "2603.08823",
+      "title": "Fish Audio S2 Technical Report",
+      "authors": [
+        "Shijia Liao",
+        "Yuxuan Wang",
+        "Songting Liu",
+        "Yifan Cheng",
+        "Ruoyi Zhang",
+        "Tianyu Li",
+        "Shidong Li",
+        "Yisheng Zheng",
+        "Xingwei Liu",
+        "Qingzheng Wang",
+        "Zhizhuo Zhou",
+        "Jiahua Liu",
+        "Xin Chen",
+        "Dawei Han"
+      ],
+      "upvotes": 41,
+      "github": "https://github.com/fishaudio/fish-speech",
+      "published": "2026-03-09T18:34:33.000Z"
+    },
+    {
+      "id": "2603.09095",
+      "title": "Reading, Not Thinking: Understanding and Bridging the Modality Gap When Text Becomes Pixels in Multimodal LLMs",
+      "authors": [
+        "Kaiser Sun",
+        "Xiaochuang Yuan",
+        "Hongjun Liu",
+        "Chen Zhao",
+        "Cheng Zhang",
+        "Mark Dredze",
+        "Fan Bai"
+      ],
+      "upvotes": 29,
+      "github": null,
+      "published": "2026-03-10T02:14:23.000Z"
+    },
+    {
+      "id": "2603.09896",
+      "title": "Stepping VLMs onto the Court: Benchmarking Spatial Intelligence in Sports",
+      "authors": [
+        "Yuchen Yang",
+        "Yuqing Shao",
+        "Duxiu Huang",
+        "Linfeng Dong",
+        "Yifei Liu",
+        "Suixin Tang",
+        "Xiang Zhou",
+        "Yuanyuan Gao",
+        "Wei Wang",
+        "Yue Zhou",
+        "Xue Yang",
+        "Yanfeng Wang",
+        "Xiao Sun",
+        "Zhihang Zhong"
+      ],
+      "upvotes": 28,
+      "github": "https://github.com/Visionary-Laboratory/CourtSI",
+      "published": "2026-03-10T16:50:32.000Z"
+    },
+    {
+      "id": "2603.09652",
+      "title": "MiniAppBench: Evaluating the Shift from Text to Interactive HTML Responses in LLM-Powered Assistants",
+      "authors": [
+        "Zuhao Zhang",
+        "Chengyue Yu",
+        "Yuante Li",
+        "Chenyi Zhuang",
+        "Linjian Mo",
+        "Shuai Li"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/MiniAppBench/miniappbench",
+      "published": "2026-03-10T13:30:03.000Z"
+    },
+    {
+      "id": "2603.06854",
+      "title": "Are Audio-Language Models Listening? Audio-Specialist Heads for Adaptive Audio Steering",
+      "authors": [
+        "Neta Glazer",
+        "Lenny Aharon",
+        "Ethan Fetaya"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2026-03-06T20:18:30.000Z"
+    },
+    {
+      "id": "2603.09117",
+      "title": "Decoupling Reasoning and Confidence: Resurrecting Calibration in Reinforcement Learning from Verifiable Rewards",
+      "authors": [
+        "Zhengzhao Ma",
+        "Xueru Wen",
+        "Boxi Cao",
+        "Yaojie Lu",
+        "Hongyu Lin",
+        "Jinglin Yang",
+        "Min He",
+        "Xianpei Han",
+        "Le Sun"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/icip-cas/DCPO",
+      "published": "2026-03-10T02:47:59.000Z"
+    },
+    {
+      "id": "2603.07888",
+      "title": "VLM-SubtleBench: How Far Are VLMs from Human-Level Subtle Comparative Reasoning?",
+      "authors": [
+        "Minkyu Kim",
+        "Sangheon Lee",
+        "Dongmin Park"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/krafton-ai/VLM-SubtleBench",
+      "published": "2026-03-09T02:01:02.000Z"
+    },
+    {
+      "id": "2603.08806",
+      "title": "Test-Driven AI Agent Definition (TDAD): Compiling Tool-Using Agents from Behavioral Specifications",
+      "authors": [
+        "Tzafrir Rehan"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/f-labs-io/tdad-paper-code",
+      "published": "2026-03-09T18:04:54.000Z"
+    },
+    {
+      "id": "2603.09951",
+      "title": "Towards a Neural Debugger for Python",
+      "authors": [
+        "Maximilian Beck",
+        "Jonas Gehring",
+        "Jannik Kossen",
+        "Gabriel Synnaeve"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2026-03-10T17:47:05.000Z"
+    },
+    {
+      "id": "2603.05863",
+      "title": "ReflexiCoder: Teaching Large Language Models to Self-Reflect on Generated Code and Self-Correct It via Reinforcement Learning",
+      "authors": [
+        "Juyong Jiang",
+        "Jiasi Shen",
+        "Sunghun Kim",
+        "Kang Min Yoo",
+        "Jeonghoon Kim",
+        "Sungju Kim"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/juyongjiang/ReflexiCoder",
+      "published": "2026-03-06T03:38:17.000Z"
+    },
+    {
+      "id": "2603.09488",
+      "title": "Streaming Autoregressive Video Generation via Diagonal Distillation",
+      "authors": [
+        "Jinxiu Liu",
+        "Xuanming Liu",
+        "Kangfu Mei",
+        "Yandong Wen",
+        "Ming-HsuanYang",
+        "Weiyang Liu"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/Sphere-AI-Lab/diagdistill",
+      "published": "2026-03-10T10:45:24.000Z"
+    },
+    {
+      "id": "2603.09200",
+      "title": "The Reasoning Trap -- Logical Reasoning as a Mechanistic Pathway to Situational Awareness",
+      "authors": [
+        "Subramanyam Sahoo",
+        "Aman Chadha",
+        "Vinija Jain",
+        "Divya Chaudhary"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2026-03-10T05:18:48.000Z"
+    },
+    {
+      "id": "2603.09881",
+      "title": "Do What I Say: A Spoken Prompt Dataset for Instruction-Following",
+      "authors": [
+        "Maike Züfle",
+        "Sara Papi",
+        "Fabian Retkowski",
+        "Szymon Mazurek",
+        "Marek Kasztelnik",
+        "Alexander Waibel",
+        "Luisa Bentivogli",
+        "Jan Niehues"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/MaikeZuefle/DOWIS",
+      "published": "2026-03-10T16:39:46.000Z"
+    },
+    {
+      "id": "2603.02188",
+      "title": "Multi-Head Low-Rank Attention",
+      "authors": [
+        "Songtao Liu",
+        "Hongwu Peng",
+        "Zhiwei Zhang",
+        "Zhengyu Chen",
+        "Yue Guo"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/SongtaoLiu0823/MLRA",
+      "published": "2026-03-02T18:52:38.000Z"
+    },
+    {
+      "id": "2603.07513",
+      "title": "Bolbosh: Script-Aware Flow Matching for Kashmiri Text-to-Speech",
+      "authors": [
+        "Tajamul Ashraf",
+        "Burhaan Rasheed Zargar",
+        "Saeed Abdul Muizz",
+        "Ifrah Mushtaq",
+        "Nazima Mehdi",
+        "Iqra Altaf Gillani",
+        "Aadil Amin Kak",
+        "Janibul Bashir"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/gaash-lab/Bolbosh",
+      "published": "2026-03-08T07:34:15.000Z"
+    },
+    {
+      "id": "2603.09400",
+      "title": "Reward Prediction with Factorized World States",
+      "authors": [
+        "Yijun Shen",
+        "Delong Chen",
+        "Xianming Hu",
+        "Jiaming Mi",
+        "Hongbo Zhao",
+        "Kai Zhang",
+        "Pascale Fung"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/yijunshens/StateFactory",
+      "published": "2026-03-10T09:12:20.000Z"
+    },
+    {
+      "id": "2603.02816",
+      "title": "BrandFusion: A Multi-Agent Framework for Seamless Brand Integration in Text-to-Video Generation",
+      "authors": [
+        "Zihao Zhu",
+        "Ruotong Wang",
+        "Siwei Lyu",
+        "Min Zhang",
+        "Baoyuan Wu"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2026-03-03T10:10:41.000Z"
+    },
+    {
+      "id": "2603.08771",
+      "title": "Micro-Diffusion Compression -- Binary Tree Tweedie Denoising for Online Probability Estimation",
+      "authors": [
+        "Roberto Tacconelli"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/robtacconelli/midicoth",
+      "published": "2026-03-09T16:59:24.000Z"
+    },
+    {
+      "id": "2603.08942",
+      "title": "BiCLIP: Domain Canonicalization via Structured Geometric Transformation",
+      "authors": [
+        "Pranav Mantini",
+        "Shishir K. Shah"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/QuantitativeImagingLaboratory/BilinearCLIP",
+      "published": "2026-03-09T21:26:15.000Z"
+    },
+    {
+      "id": "2603.09221",
+      "title": "Beyond Test-Time Training: Learning to Reason via Hardware-Efficient Optimal Control",
+      "authors": [
+        "Peihao Wang",
+        "Shan Yang",
+        "Xijun Wang",
+        "Tesi Xiao",
+        "Xin Liu",
+        "Changlong Yu",
+        "Yu Lou",
+        "Pan Li",
+        "Zhangyang Wang",
+        "Ming Lin",
+        "René Vidal"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/VITA-Group/TTC-Net",
+      "published": "2026-03-10T05:42:13.000Z"
+    },
+    {
+      "id": "2603.08899",
+      "title": "ConFu: Contemplate the Future for Better Speculative Sampling",
+      "authors": [
+        "Zongyue Qin",
+        "Raghavv Goel",
+        "Mukul Gagrani",
+        "Risheek Garrepalli",
+        "Mingu Lee",
+        "Yizhou Sun"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2026-03-09T20:11:06.000Z"
+    },
+    {
+      "id": "2603.06333",
+      "title": "SAHOO: Safeguarded Alignment for High-Order Optimization Objectives in Recursive Self-Improvement",
+      "authors": [
+        "Subramanyam Sahoo",
+        "Aman Chadha",
+        "Vinija Jain",
+        "Divya Chaudhary"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/SubramanyamSahoo/SAHOO-Safeguarded-Alignment-for-High-Order-Optimization-Objectives-in-Recursive-Self-Improvement",
+      "published": "2026-03-06T14:44:51.000Z"
+    },
+    {
+      "id": "2603.08075",
+      "title": "TALON: Test-time Adaptive Learning for On-the-Fly Category Discovery",
+      "authors": [
+        "Yanan Wu",
+        "Yuhan Yan",
+        "Tailai Chen",
+        "Zhixiang Chi",
+        "ZiZhang Wu",
+        "Yi Jin",
+        "Yang Wang",
+        "Zhenbo Li"
+      ],
+      "upvotes": 0,
+      "github": "https://github.com/ynanwu/TALON",
+      "published": "2026-03-09T08:14:58.000Z"
+    },
+    {
+      "id": "2603.09555",
+      "title": "Compiler-First State Space Duality and Portable O(1) Autoregressive Caching for Inference",
+      "authors": [
+        "Cosmo Santoni"
+      ],
+      "upvotes": 0,
+      "github": "https://github.com/CosmoNaught/mamba2-jax",
+      "published": "2026-03-10T12:03:00.000Z"
+    },
+    {
+      "id": "2603.09072",
+      "title": "A Text-Native Interface for Generative Video Authoring",
+      "authors": [
+        "Xingyu Bruce Liu",
+        "Mira Dontcheva",
+        "Dingzeyu Li"
+      ],
+      "upvotes": 0,
+      "github": null,
+      "published": "2026-03-10T01:33:41.000Z"
+    }
+  ]
+}

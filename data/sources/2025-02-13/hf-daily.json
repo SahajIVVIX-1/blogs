@@ -1,0 +1,356 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-02-13",
+  "fetched_at": "2026-10-29T15:30:35.826Z",
+  "candidates": [
+    {
+      "id": "2502.07864",
+      "title": "TransMLA: Multi-head Latent Attention Is All You Need",
+      "authors": [
+        "Fanxu Meng",
+        "Zengwei Yao",
+        "Muhan Zhang"
+      ],
+      "upvotes": 70,
+      "github": "https://github.com/MuLabPKU/TransMLA",
+      "published": "2025-02-11T18:20:18.000Z"
+    },
+    {
+      "id": "2502.08127",
+      "title": "Fino1: On the Transferability of Reasoning Enhanced LLMs to Finance",
+      "authors": [
+        "Lingfei Qian",
+        "Weipeng Zhou",
+        "Yan Wang",
+        "Xueqing Peng",
+        "Jimin Huang",
+        "Qianqian Xie"
+      ],
+      "upvotes": 59,
+      "github": "https://github.com/the-finai/fino1",
+      "published": "2025-02-12T05:13:04.000Z"
+    },
+    {
+      "id": "2502.07346",
+      "title": "BenchMAX: A Comprehensive Multilingual Evaluation Suite for Large Language Models",
+      "authors": [
+        "Xu Huang",
+        "Wenhao Zhu",
+        "Hanxu Hu",
+        "Conghui He",
+        "Lei Li",
+        "Shujian Huang",
+        "Fei Yuan"
+      ],
+      "upvotes": 52,
+      "github": "https://github.com/cone-mt/benchmax",
+      "published": "2025-02-11T08:17:19.000Z"
+    },
+    {
+      "id": "2502.08606",
+      "title": "Distillation Scaling Laws",
+      "authors": [
+        "Dan Busbridge",
+        "Amitis Shidani",
+        "Floris Weers",
+        "Jason Ramapuram",
+        "Etai Littwin",
+        "Russ Webb"
+      ],
+      "upvotes": 48,
+      "github": null,
+      "published": "2025-02-12T17:52:47.000Z"
+    },
+    {
+      "id": "2502.08590",
+      "title": "Light-A-Video: Training-free Video Relighting via Progressive Light Fusion",
+      "authors": [
+        "Yujie Zhou",
+        "Jiazi Bu",
+        "Pengyang Ling",
+        "Pan Zhang",
+        "Tong Wu",
+        "Qidong Huang",
+        "Jinsong Li",
+        "Xiaoyi Dong",
+        "Yuhang Zang",
+        "Yuhang Cao",
+        "Anyi Rao",
+        "Jiaqi Wang",
+        "Li Niu"
+      ],
+      "upvotes": 43,
+      "github": "https://github.com/bcmi/Light-A-Video",
+      "published": "2025-02-12T17:24:19.000Z"
+    },
+    {
+      "id": "2502.08639",
+      "title": "CineMaster: A 3D-Aware and Controllable Framework for Cinematic Text-to-Video Generation",
+      "authors": [
+        "Qinghe Wang",
+        "Yawen Luo",
+        "Xiaoyu Shi",
+        "Xu Jia",
+        "Huchuan Lu",
+        "Tianfan Xue",
+        "Xintao Wang",
+        "Pengfei Wan",
+        "Di Zhang",
+        "Kun Gai"
+      ],
+      "upvotes": 43,
+      "github": null,
+      "published": "2025-02-12T18:55:36.000Z"
+    },
+    {
+      "id": "2502.07870",
+      "title": "TextAtlas5M: A Large-scale Dataset for Dense Text Image Generation",
+      "authors": [
+        "Alex Jinpeng Wang",
+        "Dongxing Mao",
+        "Jiawei Zhang",
+        "Weiming Han",
+        "Zhuobai Dong",
+        "Linjie Li",
+        "Yiqi Lin",
+        "Zhengyuan Yang",
+        "Libo Qin",
+        "Fuwei Zhang",
+        "Lijuan Wang",
+        "Min Li"
+      ],
+      "upvotes": 42,
+      "github": "https://github.com/CSU-JPG/TextAtlas",
+      "published": "2025-02-11T18:59:19.000Z"
+    },
+    {
+      "id": "2502.08524",
+      "title": "LLM Pretraining with Continuous Concepts",
+      "authors": [
+        "Jihoon Tack",
+        "Jack Lanchantin",
+        "Jane Yu",
+        "Andrew Cohen",
+        "Ilia Kulikov",
+        "Janice Lan",
+        "Shibo Hao",
+        "Yuandong Tian",
+        "Jason Weston",
+        "Xian Li"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/facebookresearch/RAM",
+      "published": "2025-02-12T16:00:11.000Z"
+    },
+    {
+      "id": "2502.08047",
+      "title": "WorldGUI: Dynamic Testing for Comprehensive Desktop GUI Automation",
+      "authors": [
+        "Henry Hengyuan Zhao",
+        "Difei Gao",
+        "Mike Zheng Shou"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/showlab/WorldGUI",
+      "published": "2025-02-12T01:06:10.000Z"
+    },
+    {
+      "id": "2502.07563",
+      "title": "LASP-2: Rethinking Sequence Parallelism for Linear Attention and Its Hybrid",
+      "authors": [
+        "Weigao Sun",
+        "Disen Lan",
+        "Yiran Zhong",
+        "Xiaoye Qu",
+        "Yu Cheng"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/OpenSparseLLMs/Linear-MoE",
+      "published": "2025-02-11T14:01:39.000Z"
+    },
+    {
+      "id": "2502.06145",
+      "title": "Animate Anyone 2: High-Fidelity Character Image Animation with Environment Affordance",
+      "authors": [
+        "Li Hu",
+        "Guangyuan Wang",
+        "Zhen Shen",
+        "Xin Gao",
+        "Dechao Meng",
+        "Lian Zhuo",
+        "Peng Zhang",
+        "Bang Zhang",
+        "Liefeng Bo"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2025-02-10T04:20:11.000Z"
+    },
+    {
+      "id": "2502.05167",
+      "title": "NoLiMa: Long-Context Evaluation Beyond Literal Matching",
+      "authors": [
+        "Ali Modarressi",
+        "Hanieh Deilamsalehy",
+        "Franck Dernoncourt",
+        "Trung Bui",
+        "Ryan A. Rossi",
+        "Seunghyun Yoon",
+        "Hinrich Schütze"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/adobe-research/NoLiMa",
+      "published": "2025-02-07T18:49:46.000Z"
+    },
+    {
+      "id": "2502.07599",
+      "title": "DPO-Shift: Shifting the Distribution of Direct Preference Optimization",
+      "authors": [
+        "Xiliang Yang",
+        "Feng Jiang",
+        "Qianen Zhang",
+        "Lei Zhao",
+        "Xiao Li"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/Meaquadddd/DPO-Shift",
+      "published": "2025-02-11T14:49:44.000Z"
+    },
+    {
+      "id": "2502.00963",
+      "title": "PDE-Controller: LLMs for Autoformalization and Reasoning of PDEs",
+      "authors": [
+        "Mauricio Soroco",
+        "Jialin Song",
+        "Mengzhou Xia",
+        "Kye Emond",
+        "Weiran Sun",
+        "Wuyang Chen"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/delta-lab-ai/pde-controller",
+      "published": "2025-02-03T00:03:41.000Z"
+    },
+    {
+      "id": "2502.06533",
+      "title": "Ignore the KL Penalty! Boosting Exploration on Critical Tokens to Enhance RL Fine-Tuning",
+      "authors": [
+        "Jean Vassoyan",
+        "Nathanaël Beau",
+        "Roman Plaud"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/jvasso/llm-rl-arithmetic",
+      "published": "2025-02-10T14:56:25.000Z"
+    },
+    {
+      "id": "2502.08168",
+      "title": "SARChat-Bench-2M: A Multi-Task Vision-Language Benchmark for SAR Image Interpretation",
+      "authors": [
+        "Zhiming Ma",
+        "Xiayang Xiao",
+        "Sihao Dong",
+        "Peidong Wang",
+        "HaiPeng Wang",
+        "Qingyun Pan"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/JimmyMa99/SARChat",
+      "published": "2025-02-12T07:19:36.000Z"
+    },
+    {
+      "id": "2502.07737",
+      "title": "Next Block Prediction: Video Generation via Semi-Autoregressive Modeling",
+      "authors": [
+        "Shuhuai Ren",
+        "Shuming Ma",
+        "Xu Sun",
+        "Furu Wei"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/RenShuhuai-Andy/NBP",
+      "published": "2025-02-11T17:57:53.000Z"
+    },
+    {
+      "id": "2502.06872",
+      "title": "Towards Trustworthy Retrieval Augmented Generation for Large Language Models: A Survey",
+      "authors": [
+        "Bo Ni",
+        "Zheyuan Liu",
+        "Leyao Wang",
+        "Yongjia Lei",
+        "Yuying Zhao",
+        "Xueqi Cheng",
+        "Qingkai Zeng",
+        "Luna Dong",
+        "Yinglong Xia",
+        "Krishnaram Kenthapadi",
+        "Ryan Rossi",
+        "Franck Dernoncourt",
+        "Md Mehrab Tanjim",
+        "Nesreen Ahmed",
+        "Xiaorui Liu",
+        "Wenqi Fan",
+        "Erik Blasch",
+        "Yu Wang",
+        "Meng Jiang",
+        "Tyler Derr"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/Arstanley/Awesome-Trustworthy-RAG",
+      "published": "2025-02-08T06:50:47.000Z"
+    },
+    {
+      "id": "2502.08213",
+      "title": "LLM Modules: Knowledge Transfer from a Large to a Small Model using Enhanced Cross-Attention",
+      "authors": [
+        "Konstantin Kolomeitsev"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-02-12T08:48:55.000Z"
+    },
+    {
+      "id": "2502.04411",
+      "title": "Mediator: Memory-efficient LLM Merging with Less Parameter Conflicts and Uncertainty Based Routing",
+      "authors": [
+        "Kunfeng Lai",
+        "Zhenheng Tang",
+        "Xinglin Pan",
+        "Peijie Dong",
+        "Xiang Liu",
+        "Haolan Chen",
+        "Li Shen",
+        "Bo Li",
+        "Xiaowen Chu"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-02-06T11:26:30.000Z"
+    },
+    {
+      "id": "2502.07985",
+      "title": "MetaSC: Test-Time Safety Specification Optimization for Language Models",
+      "authors": [
+        "Víctor Gallego"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/vicgalle/meta-self-critique",
+      "published": "2025-02-11T22:06:25.000Z"
+    },
+    {
+      "id": "2502.05282",
+      "title": "Homeomorphism Prior for False Positive and Negative Problem in Medical Image Dense Contrastive Representation Learning",
+      "authors": [
+        "Yuting He",
+        "Boyu Wang",
+        "Rongjun Ge",
+        "Yang Chen",
+        "Guanyu Yang",
+        "Shuo Li"
+      ],
+      "upvotes": 0,
+      "github": "https://github.com/YutingHe-list/GEMINI",
+      "published": "2025-02-07T19:34:22.000Z"
+    }
+  ]
+}

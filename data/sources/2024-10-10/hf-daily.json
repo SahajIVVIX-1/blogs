@@ -1,0 +1,801 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-10-10",
+  "fetched_at": "2026-10-29T15:29:19.334Z",
+  "candidates": [
+    {
+      "id": "2410.05993",
+      "title": "Aria: An Open Multimodal Native Mixture-of-Experts Model",
+      "authors": [
+        "Dongxu Li",
+        "Yudong Liu",
+        "Haoning Wu",
+        "Yue Wang",
+        "Zhiqi Shen",
+        "Bowen Qu",
+        "Xinyao Niu",
+        "Guoyin Wang",
+        "Bei Chen",
+        "Junnan Li"
+      ],
+      "upvotes": 111,
+      "github": "https://github.com/rhymes-ai/aria",
+      "published": "2024-10-08T12:44:57.000Z"
+    },
+    {
+      "id": "2410.05254",
+      "title": "GLEE: A Unified Framework and Benchmark for Language-based Economic Environments",
+      "authors": [
+        "Eilam Shapira",
+        "Omer Madmon",
+        "Itamar Reinman",
+        "Samuel Joseph Amouyal",
+        "Roi Reichart",
+        "Moshe Tennenholtz"
+      ],
+      "upvotes": 85,
+      "github": "https://github.com/eilamshapira/GLEE",
+      "published": "2024-10-07T17:55:35.000Z"
+    },
+    {
+      "id": "2410.07073",
+      "title": "Pixtral 12B",
+      "authors": [
+        "Pravesh Agrawal",
+        "Szymon Antoniak",
+        "Emma Bou Hanna",
+        "Devendra Chaplot",
+        "Jessica Chudnovsky",
+        "Saurabh Garg",
+        "Theophile Gervet",
+        "Soham Ghosh",
+        "Amélie Héliou",
+        "Paul Jacob",
+        "Albert Q. Jiang",
+        "Timothée Lacroix",
+        "Guillaume Lample",
+        "Diego Las Casas",
+        "Thibaut Lavril",
+        "Teven Le Scao",
+        "Andy Lo",
+        "William Marshall",
+        "Louis Martin",
+        "Arthur Mensch",
+        "Pavankumar Muddireddy",
+        "Valera Nemychnikova",
+        "Marie Pellat",
+        "Patrick Von Platen",
+        "Nikhil Raghuraman",
+        "Baptiste Rozière",
+        "Alexandre Sablayrolles",
+        "Lucile Saulnier",
+        "Romain Sauvestre",
+        "Wendy Shang",
+        "Roman Soletskyi",
+        "Lawrence Stewart",
+        "Pierre Stock",
+        "Joachim Studnia",
+        "Sandeep Subramanian",
+        "Sagar Vaze",
+        "Thomas Wang"
+      ],
+      "upvotes": 71,
+      "github": "https://github.com/mistralai/mistral-inference",
+      "published": "2024-10-09T17:16:22.000Z"
+    },
+    {
+      "id": "2410.07113",
+      "title": "Personalized Visual Instruction Tuning",
+      "authors": [
+        "Renjie Pi",
+        "Jianshu Zhang",
+        "Tianyang Han",
+        "Jipeng Zhang",
+        "Rui Pan",
+        "Tong Zhang"
+      ],
+      "upvotes": 70,
+      "github": "https://github.com/sterzhang/pvit",
+      "published": "2024-10-09T17:46:53.000Z"
+    },
+    {
+      "id": "2410.06885",
+      "title": "F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching",
+      "authors": [
+        "Yushen Chen",
+        "Zhikang Niu",
+        "Ziyang Ma",
+        "Keqi Deng",
+        "Chunhui Wang",
+        "Jian Zhao",
+        "Kai Yu",
+        "Xie Chen"
+      ],
+      "upvotes": 49,
+      "github": "https://github.com/SWivid/F5-TTS",
+      "published": "2024-10-09T13:46:34.000Z"
+    },
+    {
+      "id": "2410.05363",
+      "title": "Towards World Simulator: Crafting Physical Commonsense-Based Benchmark for Video Generation",
+      "authors": [
+        "Fanqing Meng",
+        "Jiaqi Liao",
+        "Xinyu Tan",
+        "Wenqi Shao",
+        "Quanfeng Lu",
+        "Kaipeng Zhang",
+        "Yu Cheng",
+        "Dianqi Li",
+        "Yu Qiao",
+        "Ping Luo"
+      ],
+      "upvotes": 45,
+      "github": "https://github.com/opengvlab/phygenbench",
+      "published": "2024-10-07T17:56:04.000Z"
+    },
+    {
+      "id": "2410.07171",
+      "title": "IterComp: Iterative Composition-Aware Feedback Learning from Model Gallery for Text-to-Image Generation",
+      "authors": [
+        "Xinchen Zhang",
+        "Ling Yang",
+        "Guohao Li",
+        "Yaqi Cai",
+        "Jiake Xie",
+        "Yong Tang",
+        "Yujiu Yang",
+        "Mengdi Wang",
+        "Bin Cui"
+      ],
+      "upvotes": 43,
+      "github": "https://github.com/YangLing0818/IterComp",
+      "published": "2024-10-09T17:59:13.000Z"
+    },
+    {
+      "id": "2410.05954",
+      "title": "Pyramidal Flow Matching for Efficient Video Generative Modeling",
+      "authors": [
+        "Yang Jin",
+        "Zhicheng Sun",
+        "Ningyuan Li",
+        "Kun Xu",
+        "Kun Xu",
+        "Hao Jiang",
+        "Nan Zhuang",
+        "Quzhe Huang",
+        "Yang Song",
+        "Yadong Mu",
+        "Zhouchen Lin"
+      ],
+      "upvotes": 41,
+      "github": "https://github.com/jy0205/Pyramid-Flow",
+      "published": "2024-10-08T12:10:37.000Z"
+    },
+    {
+      "id": "2410.07167",
+      "title": "Deciphering Cross-Modal Alignment in Large Vision-Language Models with Modality Integration Rate",
+      "authors": [
+        "Qidong Huang",
+        "Xiaoyi Dong",
+        "Pan Zhang",
+        "Yuhang Zang",
+        "Yuhang Cao",
+        "Jiaqi Wang",
+        "Dahua Lin",
+        "Weiming Zhang",
+        "Nenghai Yu"
+      ],
+      "upvotes": 39,
+      "github": "https://github.com/shikiw/modality-integration-rate",
+      "published": "2024-10-09T17:59:04.000Z"
+    },
+    {
+      "id": "2410.05355",
+      "title": "Falcon Mamba: The First Competitive Attention-free 7B Language Model",
+      "authors": [
+        "Jingwei Zuo",
+        "Maksim Velikanov",
+        "Dhia Eddine Rhaiem",
+        "Ilyas Chahed",
+        "Younes Belkada",
+        "Guillaume Kunsch",
+        "Hakim Hacid"
+      ],
+      "upvotes": 35,
+      "github": null,
+      "published": "2024-10-07T15:40:45.000Z"
+    },
+    {
+      "id": "2410.06373",
+      "title": "Unveiling the Backbone-Optimizer Coupling Bias in Visual Representation Learning",
+      "authors": [
+        "Siyuan Li",
+        "Juanxi Tian",
+        "Zedong Wang",
+        "Luyuan Zhang",
+        "Zicheng Liu",
+        "Weiyang Jin",
+        "Yang Liu",
+        "Baigui Sun",
+        "Stan Z. Li"
+      ],
+      "upvotes": 35,
+      "github": "https://github.com/Backbone-Optimization-Coupling-Bias/BOCB",
+      "published": "2024-10-08T21:14:23.000Z"
+    },
+    {
+      "id": "2410.07177",
+      "title": "MM-Ego: Towards Building Egocentric Multimodal LLMs",
+      "authors": [
+        "Hanrong Ye",
+        "Haotian Zhang",
+        "Erik Daxberger",
+        "Lin Chen",
+        "Zongyu Lin",
+        "Yanghao Li",
+        "Bowen Zhang",
+        "Haoxuan You",
+        "Dan Xu",
+        "Zhe Gan",
+        "Jiasen Lu",
+        "Yinfei Yang"
+      ],
+      "upvotes": 22,
+      "github": null,
+      "published": "2024-10-09T17:59:59.000Z"
+    },
+    {
+      "id": "2410.06244",
+      "title": "Story-Adapter: A Training-free Iterative Framework for Long Story Visualization",
+      "authors": [
+        "Jiawei Mao",
+        "Xiaoke Huang",
+        "Yunfei Xie",
+        "Yuanqi Chang",
+        "Mude Hui",
+        "Bingjie Xu",
+        "Yuyin Zhou"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/jwmao1/story-adapter",
+      "published": "2024-10-08T17:59:30.000Z"
+    },
+    {
+      "id": "2410.07170",
+      "title": "One Initialization to Rule them All: Fine-tuning via Explained Variance Adaptation",
+      "authors": [
+        "Fabian Paischer",
+        "Lukas Hauzenberger",
+        "Thomas Schmied",
+        "Benedikt Alkin",
+        "Marc Peter Deisenroth",
+        "Sepp Hochreiter"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/ml-jku/EVA",
+      "published": "2024-10-09T17:59:06.000Z"
+    },
+    {
+      "id": "2410.06961",
+      "title": "Self-Boosting Large Language Models with Synthetic Preference Data",
+      "authors": [
+        "Qingxiu Dong",
+        "Li Dong",
+        "Xingxing Zhang",
+        "Zhifang Sui",
+        "Furu Wei"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2024-10-09T14:57:31.000Z"
+    },
+    {
+      "id": "2410.05677",
+      "title": "T2V-Turbo-v2: Enhancing Video Generation Model Post-Training through Data, Reward, and Conditional Guidance Design",
+      "authors": [
+        "Jiachen Li",
+        "Qian Long",
+        "Jian Zheng",
+        "Xiaofeng Gao",
+        "Robinson Piramuthu",
+        "Wenhu Chen",
+        "William Yang Wang"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2024-10-08T04:30:06.000Z"
+    },
+    {
+      "id": "2410.06166",
+      "title": "Temporal Reasoning Transfer from Text to Video",
+      "authors": [
+        "Lei Li",
+        "Yuanxin Liu",
+        "Linli Yao",
+        "Peiyuan Zhang",
+        "Chenxin An",
+        "Lean Wang",
+        "Xu Sun",
+        "Lingpeng Kong",
+        "Qi Liu"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/llyx97/video-t3",
+      "published": "2024-10-08T16:10:29.000Z"
+    },
+    {
+      "id": "2410.02465",
+      "title": "Response Tuning: Aligning Large Language Models without Instruction",
+      "authors": [
+        "Seokhyun An",
+        "Hyounghun Kim"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/seokhyunan/response-tuning",
+      "published": "2024-10-03T13:15:19.000Z"
+    },
+    {
+      "id": "2410.07002",
+      "title": "CursorCore: Assist Programming through Aligning Anything",
+      "authors": [
+        "Hao Jiang",
+        "Qi Liu",
+        "Rui Li",
+        "Shengyu Ye",
+        "Shijin Wang"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/TechxGenus/CursorCore",
+      "published": "2024-10-09T15:45:52.000Z"
+    },
+    {
+      "id": "2410.05591",
+      "title": "TweedieMix: Improving Multi-Concept Fusion for Diffusion-based Image/Video Generation",
+      "authors": [
+        "Gihyun Kwon",
+        "Jong Chul Ye"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/kwongihyun/tweediemix",
+      "published": "2024-10-08T01:06:01.000Z"
+    },
+    {
+      "id": "2410.05295",
+      "title": "AutoDAN-Turbo: A Lifelong Agent for Strategy Self-Exploration to Jailbreak LLMs",
+      "authors": [
+        "Xiaogeng Liu",
+        "Peiran Li",
+        "Edward Suh",
+        "Yevgeniy Vorobeychik",
+        "Zhuoqing Mao",
+        "Somesh Jha",
+        "Patrick McDaniel",
+        "Huan Sun",
+        "Bo Li",
+        "Chaowei Xiao"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/safolab-wisc/autodan-turbo",
+      "published": "2024-10-03T17:59:01.000Z"
+    },
+    {
+      "id": "2410.06172",
+      "title": "Multimodal Situational Safety",
+      "authors": [
+        "Kaiwen Zhou",
+        "Chengzhi Liu",
+        "Xuandong Zhao",
+        "Anderson Compalas",
+        "Dawn Song",
+        "Xin Eric Wang"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/eric-ai-lab/MSSBench",
+      "published": "2024-10-08T16:16:07.000Z"
+    },
+    {
+      "id": "2410.05651",
+      "title": "ViBiDSampler: Enhancing Video Interpolation Using Bidirectional Diffusion Sampler",
+      "authors": [
+        "Serin Yang",
+        "Taesung Kwon",
+        "Jong Chul Ye"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2024-10-08T03:01:54.000Z"
+    },
+    {
+      "id": "2410.07155",
+      "title": "Trans4D: Realistic Geometry-Aware Transition for Compositional Text-to-4D Synthesis",
+      "authors": [
+        "Bohan Zeng",
+        "Ling Yang",
+        "Siyu Li",
+        "Jiaming Liu",
+        "Zixiang Zhang",
+        "Juanxi Tian",
+        "Kaixin Zhu",
+        "Yongzhen Guo",
+        "Fu-Yun Wang",
+        "Minkai Xu",
+        "Stefano Ermon",
+        "Wentao Zhang"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/YangLing0818/Trans4D",
+      "published": "2024-10-09T17:56:03.000Z"
+    },
+    {
+      "id": "2410.06084",
+      "title": "Diversity-Rewarded CFG Distillation",
+      "authors": [
+        "Geoffrey Cideron",
+        "Andrea Agostinelli",
+        "Johan Ferret",
+        "Sertan Girgin",
+        "Romuald Elie",
+        "Olivier Bachem",
+        "Sarah Perrin",
+        "Alexandre Ramé"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2024-10-08T14:40:51.000Z"
+    },
+    {
+      "id": "2410.06241",
+      "title": "BroadWay: Boost Your Text-to-Video Generation Model in a Training-free Way",
+      "authors": [
+        "Jiazi Bu",
+        "Pengyang Ling",
+        "Pan Zhang",
+        "Tong Wu",
+        "Xiaoyi Dong",
+        "Yuhang Zang",
+        "Yuhang Cao",
+        "Dahua Lin",
+        "Jiaqi Wang"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2024-10-08T17:56:33.000Z"
+    },
+    {
+      "id": "2410.07095",
+      "title": "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
+      "authors": [
+        "Jun Shern Chan",
+        "Neil Chowdhury",
+        "Oliver Jaffe",
+        "James Aung",
+        "Dane Sherburn",
+        "Evan Mays",
+        "Giulio Starace",
+        "Kevin Liu",
+        "Leon Maksin",
+        "Tejal Patwardhan",
+        "Lilian Weng",
+        "Aleksander Mądry"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/openai/mle-bench",
+      "published": "2024-10-09T17:34:27.000Z"
+    },
+    {
+      "id": "2410.05664",
+      "title": "Holistic Unlearning Benchmark: A Multi-Faceted Evaluation for Text-to-Image Diffusion Model Unlearning",
+      "authors": [
+        "Saemi Moon",
+        "Minjong Lee",
+        "Sangdon Park",
+        "Dongwoo Kim"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/ml-postech/HUB",
+      "published": "2024-10-08T03:30:39.000Z"
+    },
+    {
+      "id": "2410.04223",
+      "title": "Multimodal Large Language Models for Inverse Molecular Design with Retrosynthetic Planning",
+      "authors": [
+        "Gang Liu",
+        "Michael Sun",
+        "Wojciech Matusik",
+        "Meng Jiang",
+        "Jie Chen"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/liugangcode/Llamole",
+      "published": "2024-10-05T16:35:32.000Z"
+    },
+    {
+      "id": "2410.07064",
+      "title": "Data Selection via Optimal Control for Language Models",
+      "authors": [
+        "Yuxian Gu",
+        "Li Dong",
+        "Hongning Wang",
+        "Yaru Hao",
+        "Qingxiu Dong",
+        "Furu Wei",
+        "Minlie Huang"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2024-10-09T17:06:57.000Z"
+    },
+    {
+      "id": "2410.06458",
+      "title": "LLM Self-Correction with DeCRIM: Decompose, Critique, and Refine for Enhanced Following of Instructions with Multiple Constraints",
+      "authors": [
+        "Thomas Palmeira Ferraz",
+        "Kartik Mehta",
+        "Yu-Hsiang Lin",
+        "Haw-Shiuan Chang",
+        "Shereen Oraby",
+        "Sijia Liu",
+        "Vivek Subramanian",
+        "Tagyoung Chung",
+        "Mohit Bansal",
+        "Nanyun Peng"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2024-10-09T01:25:10.000Z"
+    },
+    {
+      "id": "2410.02503",
+      "title": "Mixed-Session Conversation with Egocentric Memory",
+      "authors": [
+        "Jihyoung Jang",
+        "Taeyoung Kim",
+        "Hyounghun Kim"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2024-10-03T14:06:43.000Z"
+    },
+    {
+      "id": "2410.06555",
+      "title": "ING-VP: MLLMs cannot Play Easy Vision-based Games Yet",
+      "authors": [
+        "Haoran Zhang",
+        "Hangyu Guo",
+        "Shuyue Guo",
+        "Meng Cao",
+        "Wenhao Huang",
+        "Jiaheng Liu",
+        "Ge Zhang"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/thisisus7/ing-vp",
+      "published": "2024-10-09T05:17:38.000Z"
+    },
+    {
+      "id": "2410.05643",
+      "title": "TRACE: Temporal Grounding Video LLM via Causal Event Modeling",
+      "authors": [
+        "Yongxin Guo",
+        "Jingyu Liu",
+        "Mingda Li",
+        "Xiaoying Tang",
+        "Qingbin Liu",
+        "Xi Chen"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/gyxxyg/trace",
+      "published": "2024-10-08T02:46:30.000Z"
+    },
+    {
+      "id": "2410.02428",
+      "title": "Collective Critics for Creative Story Generation",
+      "authors": [
+        "Minwook Bae",
+        "Hyounghun Kim"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/emnlp-2024-critics/collective-critics-for-creative-story-generation",
+      "published": "2024-10-03T12:21:17.000Z"
+    },
+    {
+      "id": "2410.07071",
+      "title": "Retrieval-Augmented Decision Transformer: External Memory for In-context RL",
+      "authors": [
+        "Thomas Schmied",
+        "Fabian Paischer",
+        "Vihang Patil",
+        "Markus Hofmarcher",
+        "Razvan Pascanu",
+        "Sepp Hochreiter"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/ml-jku/RA-DT",
+      "published": "2024-10-09T17:15:30.000Z"
+    },
+    {
+      "id": "2410.07160",
+      "title": "TextToon: Real-Time Text Toonify Head Avatar from Single Video",
+      "authors": [
+        "Luchuan Song",
+        "Lele Chen",
+        "Celong Liu",
+        "Pinxin Liu",
+        "Chenliang Xu"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2024-09-23T15:04:45.000Z"
+    },
+    {
+      "id": "2410.05791",
+      "title": "FürElise: Capturing and Physically Synthesizing Hand Motions of Piano Performance",
+      "authors": [
+        "Ruocheng Wang",
+        "Pei Xu",
+        "Haochen Shi",
+        "Elizabeth Schumann",
+        "C. Karen Liu"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2024-10-08T08:21:05.000Z"
+    },
+    {
+      "id": "2410.06462",
+      "title": "Hallucinating AI Hijacking Attack: Large Language Models and Malicious Code Recommenders",
+      "authors": [
+        "David Noever",
+        "Forrest McKee"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2024-10-09T01:36:25.000Z"
+    },
+    {
+      "id": "2410.06949",
+      "title": "Seeker: Enhancing Exception Handling in Code with LLM-based Multi-Agent Approach",
+      "authors": [
+        "Xuanming Zhang",
+        "Yuxuan Chen",
+        "Yuan Yuan",
+        "Minlie Huang"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/XMZhangAI/Seeker",
+      "published": "2024-10-09T14:45:45.000Z"
+    },
+    {
+      "id": "2410.06985",
+      "title": "Jointly Generating Multi-view Consistent PBR Textures using Collaborative Control",
+      "authors": [
+        "Shimon Vainer",
+        "Konstantin Kutsy",
+        "Dante De Nigris",
+        "Ciara Rowles",
+        "Slava Elizarov",
+        "Simon Donné"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2024-10-09T15:21:46.000Z"
+    },
+    {
+      "id": "2410.06845",
+      "title": "MentalArena: Self-play Training of Language Models for Diagnosis and Treatment of Mental Health Disorders",
+      "authors": [
+        "Cheng Li",
+        "May Fung",
+        "Qingyun Wang",
+        "Chi Han",
+        "Manling Li",
+        "Jindong Wang",
+        "Heng Ji"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/scarelette/mentalarena",
+      "published": "2024-10-09T13:06:40.000Z"
+    },
+    {
+      "id": "2410.05160",
+      "title": "VLM2Vec: Training Vision-Language Models for Massive Multimodal Embedding Tasks",
+      "authors": [
+        "Ziyan Jiang",
+        "Rui Meng",
+        "Xinyi Yang",
+        "Semih Yavuz",
+        "Yingbo Zhou",
+        "Wenhu Chen"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2024-10-07T16:14:05.000Z"
+    },
+    {
+      "id": "2410.07062",
+      "title": "TinyEmo: Scaling down Emotional Reasoning via Metric Projection",
+      "authors": [
+        "Cristian Gutierrez"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/ggcr/tinyemo",
+      "published": "2025-02-13T00:00:00.000Z"
+    },
+    {
+      "id": "2410.06524",
+      "title": "Do great minds think alike? Investigating Human-AI Complementarity in Question Answering with CAIMIRA",
+      "authors": [
+        "Maharshi Gor",
+        "Hal Daumé III",
+        "Tianyi Zhou",
+        "Jordan Boyd-Graber"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2024-10-09T03:53:26.000Z"
+    },
+    {
+      "id": "2410.07112",
+      "title": "VHELM: A Holistic Evaluation of Vision Language Models",
+      "authors": [
+        "Tony Lee",
+        "Haoqin Tu",
+        "Chi Heem Wong",
+        "Wenhao Zheng",
+        "Yiyang Zhou",
+        "Yifan Mai",
+        "Josselin Somerville Roberts",
+        "Michihiro Yasunaga",
+        "Huaxiu Yao",
+        "Cihang Xie",
+        "Percy Liang"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2024-10-09T17:46:34.000Z"
+    },
+    {
+      "id": "2410.07145",
+      "title": "Stuffed Mamba: State Collapse and State Capacity of RNN-Based Long-Context Modeling",
+      "authors": [
+        "Yingfa Chen",
+        "Xinrong Zhang",
+        "Shengding Hu",
+        "Xu Han",
+        "Zhiyuan Liu",
+        "Maosong Sun"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2024-10-09T17:54:28.000Z"
+    },
+    {
+      "id": "2410.05873",
+      "title": "MEXA: Multilingual Evaluation of English-Centric LLMs via Cross-Lingual Alignment",
+      "authors": [
+        "Amir Hossein Kargaran",
+        "Ali Modarressi",
+        "Nafiseh Nikeghbal",
+        "Jana Diesner",
+        "François Yvon",
+        "Hinrich Schütze"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/cisnlp/MEXA",
+      "published": "2024-10-08T09:59:23.000Z"
+    },
+    {
+      "id": "2410.06468",
+      "title": "Does Spatial Cognition Emerge in Frontier Models?",
+      "authors": [
+        "Santhosh Kumar Ramakrishnan",
+        "Erik Wijmans",
+        "Philipp Kraehenbuehl",
+        "Vladlen Koltun"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/apple/ml-space-benchmark",
+      "published": "2024-10-09T01:41:49.000Z"
+    }
+  ]
+}

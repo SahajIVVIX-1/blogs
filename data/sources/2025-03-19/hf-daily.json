@@ -1,0 +1,600 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-03-19",
+  "fetched_at": "2026-10-29T15:30:56.482Z",
+  "candidates": [
+    {
+      "id": "2503.14456",
+      "title": "RWKV-7 \"Goose\" with Expressive Dynamic State Evolution",
+      "authors": [
+        "Bo Peng",
+        "Ruichong Zhang",
+        "Daniel Goldstein",
+        "Eric Alcaide",
+        "Haowen Hou",
+        "Janna Lu",
+        "William Merrill",
+        "Guangyu Song",
+        "Kaifeng Tan",
+        "Saiteja Utpala",
+        "Nathan Wilce",
+        "Johan S. Wind",
+        "Tianyi Wu",
+        "Daniel Wuttke",
+        "Christian Zhou-Zheng"
+      ],
+      "upvotes": 154,
+      "github": "https://github.com/RWKV/RWKV-LM",
+      "published": "2025-03-18T17:31:05.000Z"
+    },
+    {
+      "id": "2503.14476",
+      "title": "DAPO: An Open-Source LLM Reinforcement Learning System at Scale",
+      "authors": [
+        "Qiying Yu",
+        "Zheng Zhang",
+        "Ruofei Zhu",
+        "Yufeng Yuan",
+        "Xiaochen Zuo",
+        "Yu Yue",
+        "Tiantian Fan",
+        "Gaohong Liu",
+        "Lingjun Liu",
+        "Xin Liu",
+        "Haibin Lin",
+        "Zhiqi Lin",
+        "Bole Ma",
+        "Guangming Sheng",
+        "Yuxuan Tong",
+        "Chi Zhang",
+        "Mofan Zhang",
+        "Wang Zhang",
+        "Hang Zhu",
+        "Jinhua Zhu",
+        "Jiaze Chen",
+        "Jiangjie Chen",
+        "Chengyi Wang",
+        "Hongli Yu",
+        "Weinan Dai",
+        "Yuxuan Song",
+        "Xiangpeng Wei",
+        "Hao Zhou",
+        "Jingjing Liu",
+        "Wei-Ying Ma",
+        "Ya-Qin Zhang",
+        "Lin Yan",
+        "Mu Qiao",
+        "Yonghui Wu",
+        "Mingxuan Wang"
+      ],
+      "upvotes": 148,
+      "github": "https://github.com/BytedTsinghua-SIA/DAPO",
+      "published": "2025-03-18T17:49:06.000Z"
+    },
+    {
+      "id": "2503.14378",
+      "title": "Impossible Videos",
+      "authors": [
+        "Zechen Bai",
+        "Hai Ci",
+        "Mike Zheng Shou"
+      ],
+      "upvotes": 61,
+      "github": "https://github.com/showlab/Impossible-Videos",
+      "published": "2025-03-18T16:10:24.000Z"
+    },
+    {
+      "id": "2503.14478",
+      "title": "Creation-MMBench: Assessing Context-Aware Creative Intelligence in MLLM",
+      "authors": [
+        "Xinyu Fang",
+        "Zhijian Chen",
+        "Kai Lan",
+        "Shengyuan Ding",
+        "Yingji Liang",
+        "Xiangyu Zhao",
+        "Farong Wen",
+        "Zicheng Zhang",
+        "Guofeng Zhang",
+        "Haodong Duan",
+        "Kai Chen",
+        "Dahua Lin"
+      ],
+      "upvotes": 48,
+      "github": "https://github.com/open-compass/Creation-MMBench",
+      "published": "2025-03-18T17:51:34.000Z"
+    },
+    {
+      "id": "2503.12797",
+      "title": "DeepPerception: Advancing R1-like Cognitive Visual Perception in MLLMs for Knowledge-Intensive Visual Grounding",
+      "authors": [
+        "Xinyu Ma",
+        "Ziyang Ding",
+        "Zhicong Luo",
+        "Chi Chen",
+        "Zonghao Guo",
+        "Derek F. Wong",
+        "Xiaoyi Feng",
+        "Maosong Sun"
+      ],
+      "upvotes": 32,
+      "github": "https://github.com/thunlp/DeepPerception",
+      "published": "2025-03-17T04:06:34.000Z"
+    },
+    {
+      "id": "2503.13424",
+      "title": "Infinite Mobility: Scalable High-Fidelity Synthesis of Articulated Objects via Procedural Generation",
+      "authors": [
+        "Xinyu Lian",
+        "Zichao Yu",
+        "Ruiming Liang",
+        "Yitong Wang",
+        "Li Ray Luo",
+        "Kaixu Chen",
+        "Yuanzhen Zhou",
+        "Qihong Tang",
+        "Xudong Xu",
+        "Zhaoyang Lyu",
+        "Bo Dai",
+        "Jiangmiao Pang"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/Intern-Nexus/Infinite-Mobility",
+      "published": "2025-03-17T17:53:56.000Z"
+    },
+    {
+      "id": "2503.12329",
+      "title": "CapArena: Benchmarking and Analyzing Detailed Image Captioning in the LLM Era",
+      "authors": [
+        "Kanzhi Cheng",
+        "Wenpo Song",
+        "Jiaxin Fan",
+        "Zheng Ma",
+        "Qiushi Sun",
+        "Fangzhi Xu",
+        "Chenyang Yan",
+        "Nuo Chen",
+        "Jianbing Zhang",
+        "Jiajun Chen"
+      ],
+      "upvotes": 28,
+      "github": "https://github.com/njucckevin/CapArena",
+      "published": "2025-03-16T02:56:09.000Z"
+    },
+    {
+      "id": "2503.10522",
+      "title": "AudioX: Diffusion Transformer for Anything-to-Audio Generation",
+      "authors": [
+        "Zeyue Tian",
+        "Yizhu Jin",
+        "Zhaoyang Liu",
+        "Ruibin Yuan",
+        "Xu Tan",
+        "Qifeng Chen",
+        "Wei Xue",
+        "Yike Guo"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/ZeyueT/AudioX",
+      "published": "2025-03-13T16:30:59.000Z"
+    },
+    {
+      "id": "2503.14504",
+      "title": "Aligning Multimodal LLM with Human Preference: A Survey",
+      "authors": [
+        "Tao Yu",
+        "Yi-Fan Zhang",
+        "Chaoyou Fu",
+        "Junkang Wu",
+        "Jinda Lu",
+        "Kun Wang",
+        "Xingyu Lu",
+        "Yunhang Shen",
+        "Guibin Zhang",
+        "Dingjie Song",
+        "Yibo Yan",
+        "Tianlong Xu",
+        "Qingsong Wen",
+        "Zhang Zhang",
+        "Yan Huang",
+        "Liang Wang",
+        "Tieniu Tan"
+      ],
+      "upvotes": 26,
+      "github": "https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models",
+      "published": "2025-03-18T17:59:56.000Z"
+    },
+    {
+      "id": "2503.14125",
+      "title": "Frac-Connections: Fractional Extension of Hyper-Connections",
+      "authors": [
+        "Defa Zhu",
+        "Hongzhi Huang",
+        "Jundong Zhou",
+        "Zihao Huang",
+        "Yutao Zeng",
+        "Banggu Wu",
+        "Qiyang Min",
+        "Xun Zhou"
+      ],
+      "upvotes": 22,
+      "github": null,
+      "published": "2025-03-18T10:37:50.000Z"
+    },
+    {
+      "id": "2503.14492",
+      "title": "Cosmos-Transfer1: Conditional World Generation with Adaptive Multimodal Control",
+      "authors": [
+        "NVIDIA",
+        "Hassan Abu Alhaija",
+        "Jose Alvarez",
+        "Maciej Bala",
+        "Tiffany Cai",
+        "Tianshi Cao",
+        "Liz Cha",
+        "Joshua Chen",
+        "Mike Chen",
+        "Francesco Ferroni",
+        "Sanja Fidler",
+        "Dieter Fox",
+        "Yunhao Ge",
+        "Jinwei Gu",
+        "Ali Hassani",
+        "Michael Isaev",
+        "Pooya Jannaty",
+        "Shiyi Lan",
+        "Tobias Lasser",
+        "Huan Ling",
+        "Ming-Yu Liu",
+        "Xian Liu",
+        "Yifan Lu",
+        "Alice Luo",
+        "Qianli Ma",
+        "Hanzi Mao",
+        "Fabio Ramos",
+        "Xuanchi Ren",
+        "Tianchang Shen",
+        "Shitao Tang",
+        "Ting-Chun Wang",
+        "Jay Wu",
+        "Jiashu Xu",
+        "Stella Xu",
+        "Kevin Xie",
+        "Yuchong Ye",
+        "Xiaodong Yang",
+        "Xiaohui Zeng",
+        "Yu Zeng"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/nvidia-cosmos/cosmos-transfer1",
+      "published": "2025-03-18T17:57:54.000Z"
+    },
+    {
+      "id": "2503.14499",
+      "title": "Measuring AI Ability to Complete Long Tasks",
+      "authors": [
+        "Thomas Kwa",
+        "Ben West",
+        "Joel Becker",
+        "Amy Deng",
+        "Katharyn Garcia",
+        "Max Hasin",
+        "Sami Jawhar",
+        "Megan Kinniment",
+        "Nate Rush",
+        "Sydney Von Arx",
+        "Ryan Bloom",
+        "Thomas Broadley",
+        "Haoxing Du",
+        "Brian Goodrich",
+        "Nikola Jurkovic",
+        "Luke Harold Miles",
+        "Seraphina Nix",
+        "Tao Lin",
+        "Neev Parikh",
+        "David Rein",
+        "Lucas Jun Koba Sato",
+        "Hjalmar Wijk",
+        "Daniel M. Ziegler",
+        "Elizabeth Barnes",
+        "Lawrence Chan"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/METR/eval-analysis-public",
+      "published": "2025-03-18T17:59:31.000Z"
+    },
+    {
+      "id": "2503.13265",
+      "title": "FlexWorld: Progressively Expanding 3D Scenes for Flexiable-View Synthesis",
+      "authors": [
+        "Luxi Chen",
+        "Zihan Zhou",
+        "Min Zhao",
+        "Yikai Wang",
+        "Ge Zhang",
+        "Wenhao Huang",
+        "Hao Sun",
+        "Ji-Rong Wen",
+        "Chongxuan Li"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/ML-GSAI/FlexWorld",
+      "published": "2025-03-17T15:18:38.000Z"
+    },
+    {
+      "id": "2503.12355",
+      "title": "Atlas: Multi-Scale Attention Improves Long Context Image Modeling",
+      "authors": [
+        "Kumar Krishna Agrawal",
+        "Long Lian",
+        "Longchao Liu",
+        "Natalia Harguindeguy",
+        "Boyi Li",
+        "Alexander Bick",
+        "Maggie Chung",
+        "Trevor Darrell",
+        "Adam Yala"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/YalaLab/atlas",
+      "published": "2025-03-16T04:52:13.000Z"
+    },
+    {
+      "id": "2503.14495",
+      "title": "Temporal Consistency for LLM Reasoning Process Error Identification",
+      "authors": [
+        "Jiacheng Guo",
+        "Yue Wu",
+        "Jiahao Qiu",
+        "Kaixuan Huang",
+        "Xinzhe Juan",
+        "Ling Yang",
+        "Mengdi Wang"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/jcguo123/temporal-consistency",
+      "published": "2025-03-18T17:58:28.000Z"
+    },
+    {
+      "id": "2503.12505",
+      "title": "MPBench: A Comprehensive Multimodal Reasoning Benchmark for Process Errors Identification",
+      "authors": [
+        "Zhaopan Xu",
+        "Pengfei Zhou",
+        "Jiaxin Ai",
+        "Wangbo Zhao",
+        "Kai Wang",
+        "Xiaojiang Peng",
+        "Wenqi Shao",
+        "Hongxun Yao",
+        "Kaipeng Zhang"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2025-03-16T13:50:38.000Z"
+    },
+    {
+      "id": "2503.14151",
+      "title": "Concat-ID: Towards Universal Identity-Preserving Video Synthesis",
+      "authors": [
+        "Yong Zhong",
+        "Zhuoyi Yang",
+        "Jiayan Teng",
+        "Xiaotao Gu",
+        "Chongxuan Li"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/ML-GSAI/Concat-ID",
+      "published": "2025-03-18T11:17:32.000Z"
+    },
+    {
+      "id": "2503.12271",
+      "title": "Reflect-DiT: Inference-Time Scaling for Text-to-Image Diffusion Transformers via In-Context Reflection",
+      "authors": [
+        "Shufan Li",
+        "Konstantinos Kallidromitis",
+        "Akash Gokul",
+        "Arsh Koneru",
+        "Yusuke Kato",
+        "Kazuki Kozuka",
+        "Aditya Grover"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/jacklishufan/Reflect-DiT",
+      "published": "2025-03-15T21:58:12.000Z"
+    },
+    {
+      "id": "2503.09443",
+      "title": "Scaling Laws for Conditional Emergence of Multilingual Image Captioning via Generalization from Translation",
+      "authors": [
+        "Julian Spravil",
+        "Sebastian Houben",
+        "Sven Behnke"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/spravil/caption-via-translation",
+      "published": "2025-11-16T00:00:00.000Z"
+    },
+    {
+      "id": "2503.13111",
+      "title": "MM-Spatial: Exploring 3D Spatial Understanding in Multimodal LLMs",
+      "authors": [
+        "Erik Daxberger",
+        "Nina Wenzel",
+        "David Griffiths",
+        "Haiming Gang",
+        "Justin Lazarow",
+        "Gefen Kohavi",
+        "Kai Kang",
+        "Marcin Eichner",
+        "Yinfei Yang",
+        "Afshin Dehghan",
+        "Peter Grasch"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/apple/ml-cubifyanything",
+      "published": "2025-03-17T12:34:22.000Z"
+    },
+    {
+      "id": "2503.12545",
+      "title": "PEBench: A Fictitious Dataset to Benchmark Machine Unlearning for Multimodal Large Language Models",
+      "authors": [
+        "Zhaopan Xu",
+        "Pengfei Zhou",
+        "Weidong Tang",
+        "Jiaxin Ai",
+        "Wangbo Zhao",
+        "Xiaojiang Peng",
+        "Kai Wang",
+        "Yang You",
+        "Wenqi Shao",
+        "Hongxun Yao",
+        "Kaipeng Zhang"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2025-03-16T15:26:20.000Z"
+    },
+    {
+      "id": "2503.08893",
+      "title": "EvalTree: Profiling Language Model Weaknesses via Hierarchical Capability Trees",
+      "authors": [
+        "Zhiyuan Zeng",
+        "Yizhong Wang",
+        "Hannaneh Hajishirzi",
+        "Pang Wei Koh"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/Zhiyuan-Zeng/EvalTree",
+      "published": "2025-03-11T21:12:48.000Z"
+    },
+    {
+      "id": "2503.14002",
+      "title": "MeshFleet: Filtered and Annotated 3D Vehicle Dataset for Domain Specific Generative Modeling",
+      "authors": [
+        "Damian Boborzi",
+        "Phillip Mueller",
+        "Jonas Emrich",
+        "Dominik Schmid",
+        "Sebastian Mueller",
+        "Lars Mikelsons"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/FeMa42/MeshFleet",
+      "published": "2025-03-18T08:09:24.000Z"
+    },
+    {
+      "id": "2503.12303",
+      "title": "Towards Self-Improving Systematic Cognition for Next-Generation Foundation MLLMs",
+      "authors": [
+        "Xiaoying Zhang",
+        "Da Peng",
+        "Yipeng Zhang",
+        "Zonghao Guo",
+        "Chengyue Wu",
+        "Chi Chen",
+        "Wei Ke",
+        "Helen Meng",
+        "Maosong Sun"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/thunlp/SICOG",
+      "published": "2025-03-16T00:25:13.000Z"
+    },
+    {
+      "id": "2503.13661",
+      "title": "Pensez: Less Data, Better Reasoning -- Rethinking French LLM",
+      "authors": [
+        "Huy Hoang Ha"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-03-17T19:09:11.000Z"
+    },
+    {
+      "id": "2503.10284",
+      "title": "PyGDA: A Python Library for Graph Domain Adaptation",
+      "authors": [
+        "Zhen Zhang",
+        "Meihan Liu",
+        "Bingsheng He"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/pygda-team/pygda",
+      "published": "2025-03-13T11:52:23.000Z"
+    },
+    {
+      "id": "2503.10905",
+      "title": "Learning to Inference Adaptively for Multimodal Large Language Models",
+      "authors": [
+        "Zhuoyan Xu",
+        "Khoi Duc Nguyen",
+        "Preeti Mukherjee",
+        "Saurabh Bagchi",
+        "Somali Chaterji",
+        "Yingyu Liang",
+        "Yin Li"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/zhuoyan-xu/AdaLLaVA",
+      "published": "2025-03-13T21:39:38.000Z"
+    },
+    {
+      "id": "2503.12127",
+      "title": "Hyperbolic Safety-Aware Vision-Language Models",
+      "authors": [
+        "Tobia Poppi",
+        "Tejaswi Kasarla",
+        "Pascal Mettes",
+        "Lorenzo Baraldi",
+        "Rita Cucchiara"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/aimagelab/hysac",
+      "published": "2025-03-15T13:18:04.000Z"
+    },
+    {
+      "id": "2503.10410",
+      "title": "RoCo-Sim: Enhancing Roadside Collaborative Perception through Foreground Simulation",
+      "authors": [
+        "Yuwen Du",
+        "Anning Hu",
+        "Zichen Chao",
+        "Yifan Lu",
+        "Junhao Ge",
+        "Genjia Liu",
+        "Weitao Wu",
+        "Lanjun Wang",
+        "Siheng Chen"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/duyuwen-duen/RoCo-Sim",
+      "published": "2025-03-13T14:33:42.000Z"
+    },
+    {
+      "id": "2503.10546",
+      "title": "KUDA: Keypoints to Unify Dynamics Learning and Visual Prompting for Open-Vocabulary Robotic Manipulation",
+      "authors": [
+        "Zixian Liu",
+        "Mingtong Zhang",
+        "Yunzhu Li"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/StoreBlank/KUDA",
+      "published": "2025-03-13T16:59:17.000Z"
+    },
+    {
+      "id": "2503.08683",
+      "title": "CoLMDriver: LLM-based Negotiation Benefits Cooperative Autonomous Driving",
+      "authors": [
+        "Changxing Liu",
+        "Genjia Liu",
+        "Zijun Wang",
+        "Jinchang Yang",
+        "Siheng Chen"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/cxliu0314/colmdriver",
+      "published": "2025-03-11T17:58:42.000Z"
+    }
+  ]
+}

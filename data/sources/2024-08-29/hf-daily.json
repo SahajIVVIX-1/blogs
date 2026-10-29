@@ -1,0 +1,240 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-08-29",
+  "fetched_at": "2026-10-29T15:28:53.691Z",
+  "candidates": [
+    {
+      "id": "2408.15998",
+      "title": "Eagle: Exploring The Design Space for Multimodal LLMs with Mixture of Encoders",
+      "authors": [
+        "Min Shi",
+        "Fuxiao Liu",
+        "Shihao Wang",
+        "Shijia Liao",
+        "Subhashree Radhakrishnan",
+        "De-An Huang",
+        "Hongxu Yin",
+        "Karan Sapra",
+        "Yaser Yacoob",
+        "Humphrey Shi",
+        "Bryan Catanzaro",
+        "Andrew Tao",
+        "Jan Kautz",
+        "Zhiding Yu",
+        "Guilin Liu"
+      ],
+      "upvotes": 89,
+      "github": "https://github.com/nvlabs/eagle",
+      "published": "2024-08-28T17:59:31.000Z"
+    },
+    {
+      "id": "2408.15079",
+      "title": "BaichuanSEED: Sharing the Potential of ExtensivE Data Collection and Deduplication by Introducing a Competitive Large Language Model Baseline",
+      "authors": [
+        "Guosheng Dong",
+        "Da Pan",
+        "Yiding Sun",
+        "Shusen Zhang",
+        "Zheng Liang",
+        "Xin Wu",
+        "Yanjun Shen",
+        "Fan Yang",
+        "Haoze Sun",
+        "Tianpeng Li",
+        "Mingan Lin",
+        "Jianhua Xu",
+        "Yufan Zhang",
+        "Xiaonan Nie",
+        "Lei Su",
+        "Bingning Wang",
+        "Wentao Zhang",
+        "Jiaxin Mao",
+        "Zenan Zhou",
+        "Weipeng Chen"
+      ],
+      "upvotes": 56,
+      "github": null,
+      "published": "2024-08-27T14:08:23.000Z"
+    },
+    {
+      "id": "2408.15518",
+      "title": "Dolphin: Long Context as a New Modality for Energy-Efficient On-Device Language Models",
+      "authors": [
+        "Wei Chen",
+        "Zhiyuan Li",
+        "Shuo Xin",
+        "Yihao Wang"
+      ],
+      "upvotes": 42,
+      "github": null,
+      "published": "2024-08-28T04:06:14.000Z"
+    },
+    {
+      "id": "2408.15881",
+      "title": "LLaVA-MoD: Making LLaVA Tiny via MoE Knowledge Distillation",
+      "authors": [
+        "Fangxun Shu",
+        "Yue Liao",
+        "Le Zhuo",
+        "Chenning Xu",
+        "Guanghao Zhang",
+        "Haonan Shi",
+        "Long Chen",
+        "Tao Zhong",
+        "Wanggui He",
+        "Siming Fu",
+        "Haoyuan Li",
+        "Bolin Li",
+        "Zhelun Yu",
+        "Si Liu",
+        "Hongsheng Li",
+        "Hao Jiang"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/shufangxun/llava-mod",
+      "published": "2024-08-28T15:52:23.000Z"
+    },
+    {
+      "id": "2408.15792",
+      "title": "Efficient LLM Scheduling by Learning to Rank",
+      "authors": [
+        "Yichao Fu",
+        "Siqi Zhu",
+        "Runlong Su",
+        "Aurick Qiao",
+        "Ion Stoica",
+        "Hao Zhang"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/hao-ai-lab/vllm-ltr",
+      "published": "2024-08-28T13:35:54.000Z"
+    },
+    {
+      "id": "2408.15915",
+      "title": "Leveraging Open Knowledge for Advancing Task Expertise in Large Language Models",
+      "authors": [
+        "Yuncheng Yang",
+        "Yulei Qin",
+        "Tong Wu",
+        "Zihan Xu",
+        "Gang Li",
+        "Pengcheng Guo",
+        "Hang Shao",
+        "Yucheng Shi",
+        "Ke Li",
+        "Xing Sun",
+        "Jie Yang",
+        "Yun Gu"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/yaphabates/rocket",
+      "published": "2024-08-28T16:28:07.000Z"
+    },
+    {
+      "id": "2408.15991",
+      "title": "Distribution Backtracking Builds A Faster Convergence Trajectory for One-step Diffusion Distillation",
+      "authors": [
+        "Shengyuan Zhang",
+        "Ling Yang",
+        "Zejian Li",
+        "An Zhao",
+        "Chenye Meng",
+        "Changyuan Yang",
+        "Guang Yang",
+        "Zhiyuan Yang",
+        "Lingyun Sun"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/syzhang0805/disback",
+      "published": "2024-08-28T17:58:17.000Z"
+    },
+    {
+      "id": "2408.15664",
+      "title": "Auxiliary-Loss-Free Load Balancing Strategy for Mixture-of-Experts",
+      "authors": [
+        "Lean Wang",
+        "Huazuo Gao",
+        "Chenggang Zhao",
+        "Xu Sun",
+        "Damai Dai"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2024-08-28T09:31:09.000Z"
+    },
+    {
+      "id": "2408.15836",
+      "title": "Knowledge Navigator: LLM-guided Browsing Framework for Exploratory Search in Scientific Literature",
+      "authors": [
+        "Uri Katz",
+        "Mosh Levy",
+        "Yoav Goldberg"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2024-08-28T14:48:37.000Z"
+    },
+    {
+      "id": "2408.15496",
+      "title": "ReMamba: Equip Mamba with Effective Long-Sequence Modeling",
+      "authors": [
+        "Danlong Yuan",
+        "Jiahao Liu",
+        "Bei Li",
+        "Huishuai Zhang",
+        "Jingang Wang",
+        "Xunliang Cai",
+        "Dongyan Zhao"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/lblankl/remamba",
+      "published": "2024-08-28T02:47:27.000Z"
+    },
+    {
+      "id": "2408.15980",
+      "title": "In-Context Imitation Learning via Next-Token Prediction",
+      "authors": [
+        "Letian Fu",
+        "Huang Huang",
+        "Gaurav Datta",
+        "Lawrence Yunliang Chen",
+        "William Chung-Ho Panitch",
+        "Fangchen Liu",
+        "Hui Li",
+        "Ken Goldberg"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/Max-Fu/icrt",
+      "published": "2024-08-28T17:50:19.000Z"
+    },
+    {
+      "id": "2408.15708",
+      "title": "Towards Realistic Example-based Modeling via 3D Gaussian Stitching",
+      "authors": [
+        "Xinyu Gao",
+        "Ziyi Yang",
+        "Bingchen Gong",
+        "Xiaoguang Han",
+        "Sipeng Yang",
+        "Xiaogang Jin"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2024-08-28T11:13:27.000Z"
+    },
+    {
+      "id": "2408.15995",
+      "title": "TEDRA: Text-based Editing of Dynamic and Photoreal Actors",
+      "authors": [
+        "Basavaraj Sunagad",
+        "Heming Zhu",
+        "Mohit Mendiratta",
+        "Adam Kortylewski",
+        "Christian Theobalt",
+        "Marc Habermann"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2024-08-28T17:59:02.000Z"
+    }
+  ]
+}

@@ -1,0 +1,631 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-08-06",
+  "fetched_at": "2026-10-29T15:36:27.868Z",
+  "candidates": [
+    {
+      "id": "2608.05466",
+      "title": "Recursive Synthesis for Long-Horizon Terminal Tasks",
+      "authors": [
+        "Zhongzhi Li",
+        "Yucheng Shi",
+        "Zongxia Li",
+        "Ruhan Wang",
+        "Anhao Li",
+        "Zixun Huang",
+        "Junyao Yang",
+        "Lei Ke",
+        "Ninghao Liu",
+        "Haitao Mi",
+        "Leowei Liang"
+      ],
+      "upvotes": 176,
+      "github": null,
+      "published": "2026-08-07T00:00:00.000Z"
+    },
+    {
+      "id": "2608.05000",
+      "title": "Towards Physics of Multimodal Pretraining: Knowledge Flow, Modality Synergy, Early Unification, and Recipes",
+      "authors": [
+        "Junlin Han",
+        "Shengbang Tong",
+        "David Fan",
+        "Minghao Chen",
+        "Philip Torr",
+        "Filippos Kokkinos",
+        "Mike Lewis"
+      ],
+      "upvotes": 63,
+      "github": null,
+      "published": "2026-08-06T00:00:00.000Z"
+    },
+    {
+      "id": "2608.04436",
+      "title": "ToolArtist: Tool-Using Unified Multimodal Models for Agentic Image Generation",
+      "authors": [
+        "Jiahao Zhao",
+        "Xiaomin Yu",
+        "Zhongxiang Sun",
+        "Fengwei Teng",
+        "Chengwei Qin",
+        "Xiaobin Hu",
+        "Jun Xu",
+        "Shuicheng Yan"
+      ],
+      "upvotes": 62,
+      "github": null,
+      "published": "2026-08-05T00:00:00.000Z"
+    },
+    {
+      "id": "2608.05102",
+      "title": "ABSeeker: Training Long-Horizon Search Agents via Answer-Backtracked Credit Assignment",
+      "authors": [
+        "Yijun Lu",
+        "Rui Ye",
+        "Jiajun Wang",
+        "Yuwen Du",
+        "Tian Jin",
+        "Songhua Liu",
+        "Siheng Chen"
+      ],
+      "upvotes": 38,
+      "github": null,
+      "published": "2026-08-05T00:00:00.000Z"
+    },
+    {
+      "id": "2608.05013",
+      "title": "OneDayAgent: Towards a Long-Horizon Harness for Autonomous Agents",
+      "authors": [
+        "Jingsheng Zheng",
+        "Xinyuan Fang",
+        "Jintian Zhang",
+        "Zhengke Gui",
+        "Huajun Chen",
+        "Ningyu Zhang"
+      ],
+      "upvotes": 38,
+      "github": "https://github.com/zjunlp/OneDayAgent",
+      "published": "2026-08-04T00:00:00.000Z"
+    },
+    {
+      "id": "2608.04570",
+      "title": "The Personalization Mirage: How LLMs Fabricate User Profiles, and Why Self-Monitoring Misleads",
+      "authors": [
+        "Yushi Sun",
+        "Yanjie Zhang",
+        "Rui Sheng"
+      ],
+      "upvotes": 38,
+      "github": null,
+      "published": "2026-08-05T00:00:00.000Z"
+    },
+    {
+      "id": "2608.05070",
+      "title": "HelloWorld: Enabling Socially Interactive Characters in Video World Models",
+      "authors": [
+        "Liangyang Ouyang",
+        "Ruicong Liu",
+        "Xuangeng Chu",
+        "Kaipeng Zhang",
+        "Yoichi Sato"
+      ],
+      "upvotes": 36,
+      "github": "https://github.com/AlayaLab/HelloWorld",
+      "published": "2026-08-05T00:00:00.000Z"
+    },
+    {
+      "id": "2608.04505",
+      "title": "K-EXAONE 2.0 Technical Report",
+      "authors": [
+        "Eunbi Choi",
+        "Kibong Choi",
+        "Sehyun Chun",
+        "Seokhee Hong",
+        "Junwon Hwang",
+        "Hyojin Jeon",
+        "Ahra Jo",
+        "Hyunjik Jo",
+        "Yeonsik Jo",
+        "Minhyeok Jung",
+        "Doyoung Kim",
+        "Heegyu Kim",
+        "Joonkee Kim",
+        "Seonghwan Kim",
+        "Soyeon Kim",
+        "Sunkyoung Kim",
+        "Yireun Kim",
+        "Yongil Kim",
+        "Byungoh Ko",
+        "Changhun Lee",
+        "Dohaeng Lee",
+        "Haeju Lee",
+        "Jinsik Lee",
+        "Kyungmin Lee",
+        "Minwoo Lee",
+        "Wonkee Lee",
+        "Sangha Park",
+        "Sungjune Park",
+        "Kwangrok Ryoo",
+        "Kijung Seo",
+        "Minju Seo",
+        "Yongwoo Song",
+        "Sejong Yang",
+        "Heuiyeen Yeen",
+        "Stanley Jungkyu Choi",
+        "Yemuk Choi",
+        "Yongchan Chun",
+        "Jiwon Ham",
+        "Dasol Hong",
+        "Sujeong Im",
+        "Kijeong Jeon",
+        "Gerrard Jeongwon Jo",
+        "Hyeongjun Jo",
+        "Yujin Jo",
+        "Jiyeon Jung",
+        "Naeun Kang",
+        "Daeseong Kim",
+        "Euisoon Kim",
+        "Hayeon Kim",
+        "Hyosang Kim",
+        "Myoungshin Kim",
+        "Unsol Kim",
+        "Youchul Kim",
+        "Chaeeun Lee",
+        "ChaeYoon Lee",
+        "Edward Hwayoung Lee",
+        "Honglak Lee",
+        "Hwansoo Lee",
+        "Minkyung Lee",
+        "Sangeun Lee",
+        "Solji Lim",
+        "Woohyung Lim",
+        "Chanwoo Moon",
+        "Jueun Mun",
+        "Jimin Park",
+        "Seojeong Park",
+        "Yongmin Park",
+        "Hyerin Seo",
+        "Donghyeon Shin",
+        "Donghyun Son",
+        "Eunyong Son",
+        "Kaehyun Um",
+        "Sihoon Yang",
+        "Chang En Yea",
+        "Sihyuk Yi",
+        "Kyungjae Yoo",
+        "Chansik Yoon"
+      ],
+      "upvotes": 27,
+      "github": null,
+      "published": "2026-08-05T00:00:00.000Z"
+    },
+    {
+      "id": "2608.05139",
+      "title": "Toward Skill-Native LLMs: Skill Entropy for Benchmarking and Training Long-Horizon Reasoning",
+      "authors": [
+        "Yinghui He",
+        "Ling Yang",
+        "Jiarui Liu",
+        "Yongjin Yang",
+        "Lechen Zhang",
+        "Yingcheng Wu",
+        "Zhenfei Yin",
+        "Mengdi Wang",
+        "Sanjeev Arora"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/Gen-Verse/Skill-Entropy-RL",
+      "published": "2026-08-05T00:00:00.000Z"
+    },
+    {
+      "id": "2608.03764",
+      "title": "GDPevo: Evaluating Agent Self-Evolution on Real Business Tasks",
+      "authors": [
+        "Leijun Zhou",
+        "Zhihao Liu",
+        "Xiang Qu",
+        "Chenxu Liu",
+        "Yifei Liu",
+        "Yanke Yu",
+        "Jingzhe Xu",
+        "Xuejun Wu",
+        "Buyue Qian",
+        "Xi Chen",
+        "Yaowei Zheng",
+        "Junhao Hu"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/Prism-Shadow/GDPevo",
+      "published": "2026-08-04T00:00:00.000Z"
+    },
+    {
+      "id": "2608.02580",
+      "title": "Ego2Robot: Scalable Robot Data Synthesis from Egocentric Human Data",
+      "authors": [
+        "Ye Wang",
+        "Pei Lin",
+        "Xiong-Hui Chen",
+        "Haoqi Yuan",
+        "Zhixuan Liang",
+        "Yiyang Huang",
+        "Anzhe Chen",
+        "Zixing Lei",
+        "Jie Zhang",
+        "Tao Zhang",
+        "Haoyang Li",
+        "Tong Zhang",
+        "Chenxi Xiao",
+        "Ziyuan Jiao",
+        "Qin Jin"
+      ],
+      "upvotes": 24,
+      "github": null,
+      "published": "2026-08-03T17:52:26.000Z"
+    },
+    {
+      "id": "2608.03632",
+      "title": "When Teachers Mislead: Spurious-Signal-Aware On-Policy Distillation",
+      "authors": [
+        "Yinuo Jiang",
+        "Yongjie Ye",
+        "Zhou Tao",
+        "Xiang Zhuang",
+        "Qiang Zhang",
+        "Huajun Chen",
+        "Tiankai Li"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/jjjyinuo/SA-OPD",
+      "published": "2026-08-04T00:00:00.000Z"
+    },
+    {
+      "id": "2608.04397",
+      "title": "NOLLI: A Difficulty-Calibrated Puzzle Benchmark for Diagnosing the English-Korean Performance Gap",
+      "authors": [
+        "Dasol Choi",
+        "Joonyong Park",
+        "Daegon Yu",
+        "Soo Yong Kim",
+        "Youngsook Song",
+        "Seunghyeok Hong"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/HAE-RAE/NOLLI",
+      "published": "2026-08-05T00:00:00.000Z"
+    },
+    {
+      "id": "2608.00782",
+      "title": "Distill Where You Fail: Recovering Learning Signals of Negative RL-Groups from Adaptive Teacher Guidance",
+      "authors": [
+        "Zhuowen Han",
+        "Jinwei Xiao",
+        "Zhengxi Lu",
+        "Renren Jin",
+        "Zhiyuan Yao",
+        "Yuxin Liu",
+        "Hongyan Hao",
+        "Yueqing Sun",
+        "Yu Yang",
+        "Qi GU",
+        "Xunliang Cai",
+        "Deyi Xiong"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2026-08-01T00:00:00.000Z"
+    },
+    {
+      "id": "2607.24821",
+      "title": "AVE-Compass: Towards Holistic Evaluation for Audio-Video Editing Abilities",
+      "authors": [
+        "Yuqing Wen",
+        "Yukai Huang",
+        "Qianqian Xie",
+        "Jiangtao Wu",
+        "Yibin Lin",
+        "Yikai Gu",
+        "Jialu Chen",
+        "Yuanxing Zhang",
+        "Jiaheng Liu"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/NJU-LINK/AVE-Compass",
+      "published": "2026-07-17T00:00:00.000Z"
+    },
+    {
+      "id": "2608.04574",
+      "title": "When Memory Lies: An Empirical Study of Spatial Memory Staleness in VLM Agents",
+      "authors": [
+        "Yushi Sun",
+        "Yanjie Zhang"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2026-08-05T00:00:00.000Z"
+    },
+    {
+      "id": "2608.02162",
+      "title": "Lossless Tensor Compression as Program Synthesis",
+      "authors": [
+        "Jieke Shi",
+        "Junda He",
+        "Wenjia Jiang",
+        "Weifeng Sun",
+        "Shidong Pan",
+        "Zhensu Sun",
+        "Chengran Yang",
+        "Peixin Zhang",
+        "Yifan Jia",
+        "Zhou Yang",
+        "Thong Hoang",
+        "Xiwei Xu",
+        "Zhenchang Xing",
+        "David Lo"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/jiekeshi/Brevis",
+      "published": "2026-08-03T00:00:00.000Z"
+    },
+    {
+      "id": "2608.04964",
+      "title": "WorldCycle: Self-Verifiable Reinforcement Learning for Long-Horizon Video World Models",
+      "authors": [
+        "Bohai Gu",
+        "Yueyang Yuan",
+        "Taiyi Wu",
+        "Dazhao Du",
+        "Jian Liu",
+        "Xiaoyi Pang",
+        "Jie Zhang",
+        "Xiaocheng Lu",
+        "Haobin Zhong",
+        "Xiaotong Zhao",
+        "Alan Zhao",
+        "Song Guo"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2026-08-05T00:00:00.000Z"
+    },
+    {
+      "id": "2608.04530",
+      "title": "FocusMem: Factorizing Content, Readout, and Trust in Latent GUI Memory",
+      "authors": [
+        "Zhuoran Zhang",
+        "Bowen Li",
+        "Jingcheng Ju",
+        "Yang Shi",
+        "Qixun Wang",
+        "Haotian Wang",
+        "Wei Chen",
+        "Tengjiao Wang"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/stanley-ju/FocusMem",
+      "published": "2026-08-05T00:00:00.000Z"
+    },
+    {
+      "id": "2607.27853",
+      "title": "FinanceHarness: Autonomous Financial Deep Research Framework",
+      "authors": [
+        "Yijia Xiao",
+        "Rujun Han",
+        "Yanfei Chen",
+        "Zifeng Wang",
+        "Ke Jiang",
+        "Zhongying CuiZhu",
+        "Vishy Tirumalashetty",
+        "Wei Wang",
+        "Burak Gokturk",
+        "Tomas Pfister",
+        "Chen-Yu Lee"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2026-08-07T00:00:00.000Z"
+    },
+    {
+      "id": "2607.28048",
+      "title": "SKILL-KD: Contrastive Skill Distillation for LLM Agents",
+      "authors": [
+        "Qiming Shi",
+        "Yibo Dou",
+        "Jiawen Zhu",
+        "Yulong Tao",
+        "Linbo Jin",
+        "Zhaolu Kang",
+        "Yunfan Zhou",
+        "Di Weng"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2026-08-04T00:00:00.000Z"
+    },
+    {
+      "id": "2608.05131",
+      "title": "OPD-V: Visual On-Policy Self-Distillation with Modality Balance",
+      "authors": [
+        "Aniri",
+        "Jinhe Bi",
+        "Peng Liao",
+        "Zengjie Jin",
+        "Volker Tresp",
+        "Fei Shen",
+        "Yunpu Ma",
+        "Tat-Seng Chua"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2026-08-06T00:00:00.000Z"
+    },
+    {
+      "id": "2608.04349",
+      "title": "Poly-OPD: Heterogeneous Multi-Teacher On-Policy Distillation for Capability-Selectable Flow Models",
+      "authors": [
+        "Siming Fu",
+        "Haojun Xu",
+        "Ruizhe He",
+        "Zheming Fu",
+        "Hualiang Wang",
+        "Jie Huang",
+        "Xiaoxiao Ma",
+        "Mingchen Zhong",
+        "Weihu Huang",
+        "Xiaoxuan He",
+        "Linjiang Huang",
+        "Si Liu"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2026-08-05T00:00:00.000Z"
+    },
+    {
+      "id": "2608.03392",
+      "title": "Self-Evolving Coding Agents",
+      "authors": [
+        "Hao Zhou",
+        "Haichuan Hu",
+        "Ye Shang",
+        "Quanjun Zhang"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/zhouhao1024/Awesome-Self-Evolving-Coding-Agents",
+      "published": "2026-08-04T00:00:00.000Z"
+    },
+    {
+      "id": "2608.05042",
+      "title": "BridgeVLA++: A Data-Efficient, Generalizable, and Memory-Augmented Vision-Language-Action Framework for 3D Manipulation",
+      "authors": [
+        "Peiyan Li",
+        "Yuze Zhu",
+        "Yixiang Chen",
+        "Qisen Ma",
+        "Yuan Xu",
+        "Jiabing Yang",
+        "He Guan",
+        "Yan Huang",
+        "Hongtao Wu",
+        "Xiao Ma",
+        "Tao Kong",
+        "Liang Wang",
+        "Tieniu Tan"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2026-08-05T00:00:00.000Z"
+    },
+    {
+      "id": "2608.04701",
+      "title": "UniWorld-View: Large-Baseline View Synthesis via Video Diffusion Models",
+      "authors": [
+        "Haiyang Zhou",
+        "Wangbo Yu",
+        "Chaoran Feng",
+        "Xunyu Zhou",
+        "Yonghong Tian",
+        "Li Yuan"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/PKU-YuanGroup/UniWorld-View",
+      "published": "2026-08-05T00:00:00.000Z"
+    },
+    {
+      "id": "2608.04926",
+      "title": "Consistency-Driven Co-Evolution for Self-Supervised Cross-Representation Learning",
+      "authors": [
+        "Xuehang Guo",
+        "Pengyuan Li",
+        "Tom Hope",
+        "Tirthankar Ghosal",
+        "Manling Li",
+        "Qingyun Wang"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2026-08-05T00:00:00.000Z"
+    },
+    {
+      "id": "2607.21735",
+      "title": "What AI Red-Team Evaluations Can and Cannot Prove",
+      "authors": [
+        "Bandana Kaur"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/hackwither/ai-redteam-evidential-limits",
+      "published": "2026-07-23T00:00:00.000Z"
+    },
+    {
+      "id": "2608.05108",
+      "title": "Agent Against Agent: An Agentic System for Automatic Prompt Injection Red Teaming",
+      "authors": [
+        "Yanting Wang",
+        "Chenlong Yin",
+        "Runpeng Geng",
+        "Jinyuan Jia"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/wang-yanting/PIMiner",
+      "published": "2026-08-05T00:00:00.000Z"
+    },
+    {
+      "id": "2607.22143",
+      "title": "TriGlue: a Biology-Inspired Generative Model for Generating Molecular Glue-Induced Ternary Complex",
+      "authors": [
+        "Yuliang Yan",
+        "Shuo Yan",
+        "Haochun Tang",
+        "Yiqin Sun",
+        "Enyan Dai"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/yuliangyan0807/molecular-glue-design",
+      "published": "2026-08-04T00:00:00.000Z"
+    },
+    {
+      "id": "2608.04244",
+      "title": "SIGNPOST-Bench: Benchmarking Text-Vision Conflict Resolution in Multimodal Large Language Models",
+      "authors": [
+        "Sirun Li",
+        "Minghao Liu",
+        "Ling Dai",
+        "Yong Li",
+        "Haoxin Lyu",
+        "Junting Zhou",
+        "Fan Zhang"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/inorganicwriter/SIGNPOST-Bench",
+      "published": "2026-08-04T00:00:00.000Z"
+    },
+    {
+      "id": "2608.03207",
+      "title": "DRIFT: Derailing Denoising Trajectories of Flow-Matching VLAs with Adversarial Patch Attack",
+      "authors": [
+        "Hoseong Tae",
+        "Jong-Seok Lee"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-08-04T00:00:00.000Z"
+    },
+    {
+      "id": "2608.04378",
+      "title": "Helping Music Co-Creation Agents 'Listen' Well: Hierarchical Self-Supervised World Models for Understanding and Generation",
+      "authors": [
+        "Scott H. Hawley"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2026-08-05T00:00:00.000Z"
+    },
+    {
+      "id": "2608.03836",
+      "title": "Resume Means Resume: A Machine-Checked Conformance Contract for Checkpoint, Interrupt, and Resume Semantics in Workflow Persistence Layers",
+      "authors": [
+        "Sajjad Khan"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/sajjadanwar0/resume-contract",
+      "published": "2026-08-08T00:00:00.000Z"
+    }
+  ]
+}

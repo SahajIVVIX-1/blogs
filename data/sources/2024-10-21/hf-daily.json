@@ -1,0 +1,313 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-10-21",
+  "fetched_at": "2026-10-29T15:29:25.975Z",
+  "candidates": [
+    {
+      "id": "2410.14059",
+      "title": "UCFE: A User-Centric Financial Expertise Benchmark for Large Language Models",
+      "authors": [
+        "Yuzhe Yang",
+        "Yifei Zhang",
+        "Yan Hu",
+        "Yilin Guo",
+        "Ruoli Gan",
+        "Yueru He",
+        "Mingcong Lei",
+        "Xiao Zhang",
+        "Haining Wang",
+        "Qianqian Xie",
+        "Jimin Huang",
+        "Honghai Yu",
+        "Benyou Wang"
+      ],
+      "upvotes": 59,
+      "github": "https://github.com/TobyYang7/UCFE-Benchmark",
+      "published": "2024-10-17T22:03:52.000Z"
+    },
+    {
+      "id": "2410.13232",
+      "title": "Web Agents with World Models: Learning and Leveraging Environment Dynamics in Web Navigation",
+      "authors": [
+        "Hyungjoo Chae",
+        "Namyoung Kim",
+        "Kai Tzu-iunn Ong",
+        "Minju Gwak",
+        "Gwanwoo Song",
+        "Jihoon Kim",
+        "Sunghwan Kim",
+        "Dongha Lee",
+        "Jinyoung Yeo"
+      ],
+      "upvotes": 43,
+      "github": null,
+      "published": "2024-10-17T05:37:00.000Z"
+    },
+    {
+      "id": "2410.14669",
+      "title": "NaturalBench: Evaluating Vision-Language Models on Natural Adversarial Samples",
+      "authors": [
+        "Baiqi Li",
+        "Zhiqiu Lin",
+        "Wenxuan Peng",
+        "Jean de Dieu Nyandwi",
+        "Daniel Jiang",
+        "Zixian Ma",
+        "Simran Khanuja",
+        "Ranjay Krishna",
+        "Graham Neubig",
+        "Deva Ramanan"
+      ],
+      "upvotes": 37,
+      "github": null,
+      "published": "2024-10-18T17:58:21.000Z"
+    },
+    {
+      "id": "2410.13370",
+      "title": "MagicTailor: Component-Controllable Personalization in Text-to-Image Diffusion Models",
+      "authors": [
+        "Donghao Zhou",
+        "Jiancheng Huang",
+        "Jinbin Bai",
+        "Jiaze Wang",
+        "Hao Chen",
+        "Guangyong Chen",
+        "Xiaowei Hu",
+        "Pheng-Ann Heng"
+      ],
+      "upvotes": 36,
+      "github": null,
+      "published": "2024-10-17T09:22:53.000Z"
+    },
+    {
+      "id": "2410.13276",
+      "title": "SeerAttention: Learning Intrinsic Sparse Attention in Your LLMs",
+      "authors": [
+        "Yizhao Gao",
+        "Zhichen Zeng",
+        "Dayou Du",
+        "Shijie Cao",
+        "Hayden Kwok-Hay So",
+        "Ting Cao",
+        "Fan Yang",
+        "Mao Yang"
+      ],
+      "upvotes": 28,
+      "github": "https://github.com/microsoft/seerattention",
+      "published": "2024-10-17T07:07:09.000Z"
+    },
+    {
+      "id": "2410.13925",
+      "title": "FiTv2: Scalable and Improved Flexible Vision Transformer for Diffusion Model",
+      "authors": [
+        "ZiDong Wang",
+        "Zeyu Lu",
+        "Di Huang",
+        "Cai Zhou",
+        "Wanli Ouyang",
+        "and Lei Bai"
+      ],
+      "upvotes": 23,
+      "github": null,
+      "published": "2024-10-17T15:51:49.000Z"
+    },
+    {
+      "id": "2410.13782",
+      "title": "DPLM-2: A Multimodal Diffusion Protein Language Model",
+      "authors": [
+        "Xinyou Wang",
+        "Zaixiang Zheng",
+        "Fei Ye",
+        "Dongyu Xue",
+        "Shujian Huang",
+        "Quanquan Gu"
+      ],
+      "upvotes": 21,
+      "github": null,
+      "published": "2024-10-17T17:20:24.000Z"
+    },
+    {
+      "id": "2410.11190",
+      "title": "Mini-Omni2: Towards Open-source GPT-4o with Vision, Speech and Duplex Capabilities",
+      "authors": [
+        "Zhifei Xie",
+        "Changqiao Wu"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/gpt-omni/mini-omni2",
+      "published": "2024-10-15T02:10:45.000Z"
+    },
+    {
+      "id": "2410.10812",
+      "title": "HART: Efficient Visual Generation with Hybrid Autoregressive Transformer",
+      "authors": [
+        "Haotian Tang",
+        "Yecheng Wu",
+        "Shang Yang",
+        "Enze Xie",
+        "Junsong Chen",
+        "Junyu Chen",
+        "Zhuoyang Zhang",
+        "Han Cai",
+        "Yao Lu",
+        "Song Han"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/mit-han-lab/hart",
+      "published": "2024-10-14T17:59:42.000Z"
+    },
+    {
+      "id": "2410.13674",
+      "title": "Diffusion Curriculum: Synthetic-to-Real Generative Curriculum Learning via Image-Guided Diffusion",
+      "authors": [
+        "Yijun Liang",
+        "Shweta Bhardwaj",
+        "Tianyi Zhou"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/tianyi-lab/DisCL",
+      "published": "2024-10-17T15:33:35.000Z"
+    },
+    {
+      "id": "2410.13726",
+      "title": "DAWN: Dynamic Frame Avatar with Non-autoregressive Diffusion Framework for Talking Head Video Generation",
+      "authors": [
+        "Hanbo Cheng",
+        "Limin Lin",
+        "Chenyu Liu",
+        "Pengcheng Xia",
+        "Pengfei Hu",
+        "Jiefeng Ma",
+        "Jun Du",
+        "Jia Pan"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/hanbo-cheng/dawn-pytorch",
+      "published": "2024-10-17T16:32:36.000Z"
+    },
+    {
+      "id": "2410.14677",
+      "title": "Are AI Detectors Good Enough? A Survey on Quality of Datasets With Machine-Generated Texts",
+      "authors": [
+        "German Gritsai",
+        "Anastasia Voznyuk",
+        "Andrey Grabovoy",
+        "Yury Chekhovich"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/Advacheck-OU/ai-dataset-analysing",
+      "published": "2024-10-18T17:59:57.000Z"
+    },
+    {
+      "id": "2410.11331",
+      "title": "SHAKTI: A 2.5 Billion Parameter Small Language Model Optimized for Edge AI and Low-Resource Environments",
+      "authors": [
+        "Syed Abdul Gaffar Shakhadri",
+        "Kruthika KR",
+        "Rakshit Aralimatti"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2024-10-15T06:59:44.000Z"
+    },
+    {
+      "id": "2410.14672",
+      "title": "BiGR: Harnessing Binary Latent Codes for Image Generation and Improved Visual Representation Capabilities",
+      "authors": [
+        "Shaozhe Hao",
+        "Xuantong Liu",
+        "Xianbiao Qi",
+        "Shihao Zhao",
+        "Bojia Zi",
+        "Rong Xiao",
+        "Kai Han",
+        "Kwan-Yee K. Wong"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/haoosz/BiGR",
+      "published": "2024-10-18T17:59:04.000Z"
+    },
+    {
+      "id": "2410.13787",
+      "title": "Looking Inward: Language Models Can Learn About Themselves by Introspection",
+      "authors": [
+        "Felix J Binder",
+        "James Chua",
+        "Tomek Korbak",
+        "Henry Sleight",
+        "John Hughes",
+        "Robert Long",
+        "Ethan Perez",
+        "Miles Turpin",
+        "Owain Evans"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/felixbinder/introspection_self_prediction",
+      "published": "2024-10-17T17:24:10.000Z"
+    },
+    {
+      "id": "2410.14470",
+      "title": "How Do Training Methods Influence the Utilization of Vision Models?",
+      "authors": [
+        "Paul Gavrikov",
+        "Shashank Agnihotri",
+        "Margret Keuper",
+        "Janis Keuper"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/paulgavrikov/layer_criticality",
+      "published": "2024-10-18T13:54:46.000Z"
+    },
+    {
+      "id": "2410.12791",
+      "title": "Context is Key(NMF): Modelling Topical Information Dynamics in Chinese Diaspora Media",
+      "authors": [
+        "Ross Deans Kristensen-McLachlan",
+        "Rebecca M. M. Hicke",
+        "Márton Kardos",
+        "Mette Thunø"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2024-10-16T17:59:52.000Z"
+    },
+    {
+      "id": "2410.14208",
+      "title": "Montessori-Instruct: Generate Influential Training Data Tailored for Student Learning",
+      "authors": [
+        "Xiaochuan Li",
+        "Zichun Yu",
+        "Chenyan Xiong"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/cxcscmu/montessori-instruct",
+      "published": "2024-10-18T06:50:15.000Z"
+    },
+    {
+      "id": "2410.14596",
+      "title": "Teaching Models to Balance Resisting and Accepting Persuasion",
+      "authors": [
+        "Elias Stengel-Eskin",
+        "Peter Hase",
+        "Mohit Bansal"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/esteng/persuasion_balanced_training",
+      "published": "2024-10-18T16:49:36.000Z"
+    },
+    {
+      "id": "2410.13828",
+      "title": "A Common Pitfall of Margin-based Language Model Alignment: Gradient Entanglement",
+      "authors": [
+        "Hui Yuan",
+        "Yifan Zeng",
+        "Yue Wu",
+        "Huazheng Wang",
+        "Mengdi Wang",
+        "Liu Leqi"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/HumainLab/Understand_MarginPO",
+      "published": "2024-10-17T17:52:01.000Z"
+    }
+  ]
+}

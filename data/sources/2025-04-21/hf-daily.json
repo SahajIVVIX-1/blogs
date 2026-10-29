@@ -1,0 +1,255 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-04-21",
+  "fetched_at": "2026-10-29T15:31:16.688Z",
+  "candidates": [
+    {
+      "id": "2504.13837",
+      "title": "Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?",
+      "authors": [
+        "Yang Yue",
+        "Zhiqi Chen",
+        "Rui Lu",
+        "Andrew Zhao",
+        "Zhaokai Wang",
+        "Yang Yue",
+        "Shiji Song",
+        "Gao Huang"
+      ],
+      "upvotes": 140,
+      "github": "https://github.com/LeapLabTHU/limit-of-RLVR",
+      "published": "2025-04-18T17:59:56.000Z"
+    },
+    {
+      "id": "2504.11544",
+      "title": "NodeRAG: Structuring Graph-based RAG with Heterogeneous Nodes",
+      "authors": [
+        "Tianyang Xu",
+        "Haojie Zheng",
+        "Chengze Li",
+        "Haoxiang Chen",
+        "Yixin Liu",
+        "Ruoxi Chen",
+        "Lichao Sun"
+      ],
+      "upvotes": 44,
+      "github": "https://github.com/Terry-Xu-666/NodeRAG",
+      "published": "2025-04-15T18:24:00.000Z"
+    },
+    {
+      "id": "2504.13835",
+      "title": "MIG: Automatic Data Selection for Instruction Tuning by Maximizing Information Gain in Semantic Space",
+      "authors": [
+        "Yicheng Chen",
+        "Yining Li",
+        "Kai Hu",
+        "Zerun Ma",
+        "Haochen Ye",
+        "Kai Chen"
+      ],
+      "upvotes": 39,
+      "github": "https://github.com/yichengchen24/MIG",
+      "published": "2025-04-18T17:59:46.000Z"
+    },
+    {
+      "id": "2504.11833",
+      "title": "Could Thinking Multilingually Empower LLM Reasoning?",
+      "authors": [
+        "Changjiang Gao",
+        "Xu Huang",
+        "Wenhao Zhu",
+        "Shujian Huang",
+        "Lei Li",
+        "Fei Yuan"
+      ],
+      "upvotes": 29,
+      "github": "https://github.com/CONE-MT/multilingual_reasoning",
+      "published": "2025-04-16T07:45:10.000Z"
+    },
+    {
+      "id": "2504.13173",
+      "title": "It's All Connected: A Journey Through Test-Time Memorization, Attentional Bias, Retention, and Online Optimization",
+      "authors": [
+        "Ali Behrouz",
+        "Meisam Razaviyayn",
+        "Peilin Zhong",
+        "Vahab Mirrokni"
+      ],
+      "upvotes": 21,
+      "github": null,
+      "published": "2025-04-17T17:59:33.000Z"
+    },
+    {
+      "id": "2504.13157",
+      "title": "AerialMegaDepth: Learning Aerial-Ground Reconstruction and View Synthesis",
+      "authors": [
+        "Khiem Vuong",
+        "Anurag Ghosh",
+        "Deva Ramanan",
+        "Srinivasa Narasimhan",
+        "Shubham Tulsiani"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/kvuong2711/aerial-megadepth",
+      "published": "2025-04-17T17:57:05.000Z"
+    },
+    {
+      "id": "2504.13816",
+      "title": "Analyzing LLMs' Knowledge Boundary Cognition Across Languages Through the Lens of Internal Representations",
+      "authors": [
+        "Chenghao Xiao",
+        "Hou Pong Chan",
+        "Hao Zhang",
+        "Mahani Aljunied",
+        "Lidong Bing",
+        "Noura Al Moubayed",
+        "Yu Rong"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/DAMO-NLP-SG/LLM-Multilingual-Knowledge-Boundaries",
+      "published": "2025-04-18T17:44:12.000Z"
+    },
+    {
+      "id": "2504.13828",
+      "title": "Generative AI Act II: Test Time Scaling Drives Cognition Engineering",
+      "authors": [
+        "Shijie Xia",
+        "Yiwei Qin",
+        "Xuefeng Li",
+        "Yan Ma",
+        "Run-Ze Fan",
+        "Steffi Chern",
+        "Haoyang Zou",
+        "Fan Zhou",
+        "Xiangkun Hu",
+        "Jiahe Jin",
+        "Yanheng He",
+        "Yixin Ye",
+        "Yixiu Liu",
+        "Pengfei Liu"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/GAIR-NLP/cognition-engineering",
+      "published": "2025-04-18T17:55:58.000Z"
+    },
+    {
+      "id": "2504.13072",
+      "title": "HiScene: Creating Hierarchical 3D Scenes with Isometric View Generation",
+      "authors": [
+        "Wenqi Dong",
+        "Bangbang Yang",
+        "Zesong Yang",
+        "Yuan Li",
+        "Tao Hu",
+        "Hujun Bao",
+        "Yuewen Ma",
+        "Zhaopeng Cui"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2025-04-17T16:33:39.000Z"
+    },
+    {
+      "id": "2504.09621",
+      "title": "Tokenize Image Patches: Global Context Fusion for Effective Haze Removal in Large Images",
+      "authors": [
+        "Jiuchen Chen",
+        "Xinyu Yan",
+        "Qizhi Xu",
+        "Kaiqi Li"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/CastleChen339/DehazeXL",
+      "published": "2025-04-13T15:41:25.000Z"
+    },
+    {
+      "id": "2504.10823",
+      "title": "CLASH: Evaluating Language Models on Judging High-Stakes Dilemmas from Multiple Perspectives",
+      "authors": [
+        "Ayoung Lee",
+        "Ryan Sungmo Kwon",
+        "Peter Railton",
+        "Lu Wang"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2025-04-15T02:54:16.000Z"
+    },
+    {
+      "id": "2504.13626",
+      "title": "Thought Manipulation: External Thought Can Be Efficient for Large Reasoning Models",
+      "authors": [
+        "Yule Liu",
+        "Jingyi Zheng",
+        "Zhen Sun",
+        "Zifan Peng",
+        "Wenhan Dong",
+        "Zeyang Sha",
+        "Shiwen Cui",
+        "Weiqiang Wang",
+        "Xinlei He"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2025-04-18T11:07:19.000Z"
+    },
+    {
+      "id": "2504.13359",
+      "title": "Cost-of-Pass: An Economic Framework for Evaluating Language Models",
+      "authors": [
+        "Mehmet Hamza Erol",
+        "Batu El",
+        "Mirac Suzgun",
+        "Mert Yuksekgonul",
+        "James Zou"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/mhamzaerol/Cost-of-Pass",
+      "published": "2025-04-17T21:58:29.000Z"
+    },
+    {
+      "id": "2504.12083",
+      "title": "Self-alignment of Large Video Language Models with Refined Regularized Preference Optimization",
+      "authors": [
+        "Pritam Sarkar",
+        "Ali Etemad"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/pritamqu/RRPO",
+      "published": "2025-04-16T13:43:56.000Z"
+    },
+    {
+      "id": "2504.13519",
+      "title": "Filter2Noise: Interpretable Self-Supervised Single-Image Denoising for Low-Dose CT with Attention-Guided Bilateral Filtering",
+      "authors": [
+        "Yipeng Sun",
+        "Linda-Sophie Schneider",
+        "Mingxuan Gu",
+        "Siyuan Mei",
+        "Chengze Ye",
+        "Fabian Wagner",
+        "Siming Bayer",
+        "Andreas Maier"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/sypsyp97/Filter2Noise",
+      "published": "2025-04-18T07:15:27.000Z"
+    },
+    {
+      "id": "2504.13677",
+      "title": "Revisiting Uncertainty Quantification Evaluation in Language Models: Spurious Interactions with Response Length Bias Results",
+      "authors": [
+        "Andrea Santilli",
+        "Adam Golinski",
+        "Michael Kirchhof",
+        "Federico Danieli",
+        "Arno Blaas",
+        "Miao Xiong",
+        "Luca Zappella",
+        "Sinead Williamson"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2025-04-18T13:13:42.000Z"
+    }
+  ]
+}

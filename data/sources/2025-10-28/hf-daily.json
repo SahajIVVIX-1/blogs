@@ -1,0 +1,604 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-10-28",
+  "fetched_at": "2026-10-29T15:33:37.163Z",
+  "candidates": [
+    {
+      "id": "2510.23607",
+      "title": "Concerto: Joint 2D-3D Self-Supervised Learning Emerges Spatial Representations",
+      "authors": [
+        "Yujia Zhang",
+        "Xiaoyang Wu",
+        "Yixing Lao",
+        "Chengyao Wang",
+        "Zhuotao Tian",
+        "Naiyan Wang",
+        "Hengshuang Zhao"
+      ],
+      "upvotes": 157,
+      "github": "https://github.com/Pointcept/Concerto",
+      "published": "2025-10-27T17:59:59.000Z"
+    },
+    {
+      "id": "2510.23564",
+      "title": "ReCode: Unify Plan and Action for Universal Granularity Control",
+      "authors": [
+        "Zhaoyang Yu",
+        "Jiayi Zhang",
+        "Huixue Su",
+        "Yufan Zhao",
+        "Yifan Wu",
+        "Mingyi Deng",
+        "Jinyu Xiang",
+        "Yizhang Lin",
+        "Lingxiao Tang",
+        "Yingchao Li",
+        "Yuyu Luo",
+        "Bang Liu",
+        "Chenglin Wu"
+      ],
+      "upvotes": 124,
+      "github": "https://github.com/FoundationAgents/ReCode",
+      "published": "2025-10-27T17:35:15.000Z"
+    },
+    {
+      "id": "2510.23587",
+      "title": "A Survey of Data Agents: Emerging Paradigm or Overstated Hype?",
+      "authors": [
+        "Yizhang Zhu",
+        "Liangwei Wang",
+        "Chenyu Yang",
+        "Xiaotian Lin",
+        "Boyan Li",
+        "Wei Zhou",
+        "Xinyu Liu",
+        "Zhangyang Peng",
+        "Tianqi Luo",
+        "Yu Li",
+        "Chengliang Chai",
+        "Chong Chen",
+        "Shimin Di",
+        "Ju Fan",
+        "Ji Sun",
+        "Nan Tang",
+        "Fugee Tsung",
+        "Jiannan Wang",
+        "Chenglin Wu",
+        "Yanwei Xu",
+        "Shaolei Zhang",
+        "Yong Zhang",
+        "Xuanhe Zhou",
+        "Guoliang Li",
+        "Yuyu Luo"
+      ],
+      "upvotes": 67,
+      "github": "https://github.com/HKUSTDial/awesome-data-agents",
+      "published": "2025-10-27T17:54:07.000Z"
+    },
+    {
+      "id": "2510.23588",
+      "title": "FARMER: Flow AutoRegressive Transformer over Pixels",
+      "authors": [
+        "Guangting Zheng",
+        "Qinyu Zhao",
+        "Tao Yang",
+        "Fei Xiao",
+        "Zhijie Lin",
+        "Jie Wu",
+        "Jiajun Deng",
+        "Yanyong Zhang",
+        "Rui Zhu"
+      ],
+      "upvotes": 51,
+      "github": null,
+      "published": "2025-10-27T17:54:08.000Z"
+    },
+    {
+      "id": "2510.22200",
+      "title": "LongCat-Video Technical Report",
+      "authors": [
+        "Meituan LongCat Team",
+        "Xunliang Cai",
+        "Qilong Huang",
+        "Zhuoliang Kang",
+        "Hongyu Li",
+        "Shijun Liang",
+        "Liya Ma",
+        "Siyu Ren",
+        "Xiaoming Wei",
+        "Rixu Xie",
+        "Tong Zhang"
+      ],
+      "upvotes": 45,
+      "github": "https://github.com/meituan-longcat/LongCat-Video",
+      "published": "2025-10-25T07:41:02.000Z"
+    },
+    {
+      "id": "2510.23581",
+      "title": "Lookahead Anchoring: Preserving Character Identity in Audio-Driven Human Animation",
+      "authors": [
+        "Junyoung Seo",
+        "Rodrigo Mira",
+        "Alexandros Haliassos",
+        "Stella Bounareli",
+        "Honglie Chen",
+        "Linh Tran",
+        "Seungryong Kim",
+        "Zoe Landgraf",
+        "Jie Shen"
+      ],
+      "upvotes": 42,
+      "github": "https://github.com/j0seo/lookahead-anchoring",
+      "published": "2025-10-27T17:50:19.000Z"
+    },
+    {
+      "id": "2510.21817",
+      "title": "VITA-E: Natural Embodied Interaction with Concurrent Seeing, Hearing, Speaking, and Acting",
+      "authors": [
+        "Xiaoyu Liu",
+        "Chaoyou Fu",
+        "Chi Yan",
+        "Chu Wu",
+        "Haihan Gao",
+        "Yi-Fan Zhang",
+        "Shaoqi Dong",
+        "Cheng Qian",
+        "Bin Luo",
+        "Xiuyong Yang",
+        "Guanwu Li",
+        "Yusheng Cai",
+        "Yunhang Shen",
+        "Deqiang Jiang",
+        "Haoyu Cao",
+        "Xing Sun",
+        "Caifeng Shan",
+        "Ran He"
+      ],
+      "upvotes": 41,
+      "github": "https://github.com/Tencent/VITA",
+      "published": "2025-10-21T17:59:56.000Z"
+    },
+    {
+      "id": "2510.22706",
+      "title": "IGGT: Instance-Grounded Geometry Transformer for Semantic 3D Reconstruction",
+      "authors": [
+        "Hao Li",
+        "Zhengyu Zou",
+        "Fangfu Liu",
+        "Xuanyang Zhang",
+        "Fangzhou Hong",
+        "Yukang Cao",
+        "Yushi Lan",
+        "Manyuan Zhang",
+        "Gang Yu",
+        "Dingwen Zhang",
+        "Ziwei Liu"
+      ],
+      "upvotes": 37,
+      "github": "https://github.com/lifuguan/IGGT_official",
+      "published": "2025-10-26T14:57:44.000Z"
+    },
+    {
+      "id": "2510.22201",
+      "title": "ACG: Action Coherence Guidance for Flow-based VLA models",
+      "authors": [
+        "Minho Park",
+        "Kinam Kim",
+        "Junha Hyung",
+        "Hyojin Jang",
+        "Hoiyeong Jin",
+        "Jooyeol Yun",
+        "Hojoon Lee",
+        "Jaegul Choo"
+      ],
+      "upvotes": 37,
+      "github": "https://github.com/DAVIAN-Robotics/ACG",
+      "published": "2025-10-25T07:44:33.000Z"
+    },
+    {
+      "id": "2510.22733",
+      "title": "E^2Rank: Your Text Embedding can Also be an Effective and Efficient Listwise Reranker",
+      "authors": [
+        "Qi Liu",
+        "Yanzhao Zhang",
+        "Mingxin Li",
+        "Dingkun Long",
+        "Pengjun Xie",
+        "Jiaxin Mao"
+      ],
+      "upvotes": 33,
+      "github": "https://github.com/Alibaba-NLP/E2Rank",
+      "published": "2025-10-26T16:04:48.000Z"
+    },
+    {
+      "id": "2510.23052",
+      "title": "Knocking-Heads Attention",
+      "authors": [
+        "Zhanchao Zhou",
+        "Xiaodong Chen",
+        "Haoxing Chen",
+        "Zhenzhong Lan",
+        "Jianguo Li"
+      ],
+      "upvotes": 30,
+      "github": null,
+      "published": "2025-10-27T06:28:58.000Z"
+    },
+    {
+      "id": "2510.23451",
+      "title": "Omni-Reward: Towards Generalist Omni-Modal Reward Modeling with Free-Form Preferences",
+      "authors": [
+        "Zhuoran Jin",
+        "Hongbang Yuan",
+        "Kejian Zhu",
+        "Jiachun Li",
+        "Pengfei Cao",
+        "Yubo Chen",
+        "Kang Liu",
+        "Jun Zhao"
+      ],
+      "upvotes": 28,
+      "github": "https://github.com/HongbangYuan/OmniReward",
+      "published": "2025-10-27T15:53:20.000Z"
+    },
+    {
+      "id": "2510.23603",
+      "title": "PixelRefer: A Unified Framework for Spatio-Temporal Object Referring with Arbitrary Granularity",
+      "authors": [
+        "Yuqian Yuan",
+        "Wenqiao Zhang",
+        "Xin Li",
+        "Shihao Wang",
+        "Kehan Li",
+        "Wentong Li",
+        "Jun Xiao",
+        "Lei Zhang",
+        "Beng Chin Ooi"
+      ],
+      "upvotes": 26,
+      "github": "https://github.com/alibaba-damo-academy/PixelRefer",
+      "published": "2025-10-27T17:59:32.000Z"
+    },
+    {
+      "id": "2510.23393",
+      "title": "The Best of N Worlds: Aligning Reinforcement Learning with Best-of-N Sampling via max@k Optimisation",
+      "authors": [
+        "Farid Bagirov",
+        "Mikhail Arkhipov",
+        "Ksenia Sycheva",
+        "Evgeniy Glukhov",
+        "Egor Bogomolov"
+      ],
+      "upvotes": 21,
+      "github": null,
+      "published": "2025-10-27T14:47:30.000Z"
+    },
+    {
+      "id": "2510.23479",
+      "title": "MergeMix: A Unified Augmentation Paradigm for Visual and Multi-Modal Understanding",
+      "authors": [
+        "Xin Jin",
+        "Siyuan Li",
+        "Siyong Jian",
+        "Kai Yu",
+        "Huan Wang"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/JinXins/MergeMix",
+      "published": "2025-10-27T16:12:40.000Z"
+    },
+    {
+      "id": "2510.22946",
+      "title": "LightBagel: A Light-weighted, Double Fusion Framework for Unified Multimodal Understanding and Generation",
+      "authors": [
+        "Zeyu Wang",
+        "Zilong Chen",
+        "Chenhui Gou",
+        "Feng Li",
+        "Chaorui Deng",
+        "Deyao Zhu",
+        "Kunchang Li",
+        "Weihao Yu",
+        "Haoqin Tu",
+        "Haoqi Fan",
+        "Cihang Xie"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2025-10-27T02:59:57.000Z"
+    },
+    {
+      "id": "2510.23595",
+      "title": "Multi-Agent Evolve: LLM Self-Improve through Co-evolution",
+      "authors": [
+        "Yixing Chen",
+        "Yiding Wang",
+        "Siqi Zhu",
+        "Haofei Yu",
+        "Tao Feng",
+        "Muhan Zhan",
+        "Mostofa Patwary",
+        "Jiaxuan You"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/ulab-uiuc/Multi-agent-evolve",
+      "published": "2025-10-27T17:58:02.000Z"
+    },
+    {
+      "id": "2510.22975",
+      "title": "VoMP: Predicting Volumetric Mechanical Property Fields",
+      "authors": [
+        "Rishit Dagli",
+        "Donglai Xiang",
+        "Vismay Modi",
+        "Charles Loop",
+        "Clement Fuji Tsang",
+        "Anka He Chen",
+        "Anita Hu",
+        "Gavriel State",
+        "David I. W. Levin",
+        "Maria Shugrina"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2025-10-27T03:56:25.000Z"
+    },
+    {
+      "id": "2510.23571",
+      "title": "RobotArena infty: Scalable Robot Benchmarking via Real-to-Sim Translation",
+      "authors": [
+        "Yash Jangir",
+        "Yidi Zhang",
+        "Kashu Yamazaki",
+        "Chenyu Zhang",
+        "Kuan-Hsun Tu",
+        "Tsung-Wei Ke",
+        "Lei Ke",
+        "Yonatan Bisk",
+        "Katerina Fragkiadaki"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2025-10-27T17:41:38.000Z"
+    },
+    {
+      "id": "2510.23272",
+      "title": "Code Aesthetics with Agentic Reward Feedback",
+      "authors": [
+        "Bang Xiao",
+        "Lingjie Jiang",
+        "Shaohan Huang",
+        "Tengchao Lv",
+        "Yupan Huang",
+        "Xun Wu",
+        "Lei Cui",
+        "Furu Wei"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/bangx7/code_aesthetics",
+      "published": "2025-10-27T12:32:33.000Z"
+    },
+    {
+      "id": "2510.23544",
+      "title": "LimRank: Less is More for Reasoning-Intensive Information Reranking",
+      "authors": [
+        "Tingyu Song",
+        "Yilun Zhao",
+        "Siyue Zhang",
+        "Chen Zhao",
+        "Arman Cohan"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/SighingSnow/LimRank",
+      "published": "2025-10-27T17:19:37.000Z"
+    },
+    {
+      "id": "2510.21986",
+      "title": "Sprint: Sparse-Dense Residual Fusion for Efficient Diffusion Transformers",
+      "authors": [
+        "Dogyun Park",
+        "Moayed Haji-Ali",
+        "Yanyu Li",
+        "Willi Menapace",
+        "Sergey Tulyakov",
+        "Hyunwoo J. Kim",
+        "Aliaksandr Siarohin",
+        "Anil Kag"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/snap-research/Sprint",
+      "published": "2025-10-24T19:29:55.000Z"
+    },
+    {
+      "id": "2510.23605",
+      "title": "Track, Inpaint, Resplat: Subject-driven 3D and 4D Generation with Progressive Texture Infilling",
+      "authors": [
+        "Shuhong Zheng",
+        "Ashkan Mirzaei",
+        "Igor Gilitschenski"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/zsh2000/tire",
+      "published": "2025-10-27T17:59:51.000Z"
+    },
+    {
+      "id": "2510.21003",
+      "title": "Distilled Decoding 2: One-step Sampling of Image Auto-regressive Models with Conditional Score Distillation",
+      "authors": [
+        "Enshu Liu",
+        "Qian Chen",
+        "Xuefei Ning",
+        "Shengen Yan",
+        "Guohao Dai",
+        "Zinan Lin",
+        "Yu Wang"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/imagination-research/Distilled-Decoding-2",
+      "published": "2025-10-23T21:21:38.000Z"
+    },
+    {
+      "id": "2510.23594",
+      "title": "PRISM-Bench: A Benchmark of Puzzle-Based Visual Tasks with CoT Error Detection",
+      "authors": [
+        "Yusu Qian",
+        "Cheng Wan",
+        "Chao Jia",
+        "Yinfei Yang",
+        "Qingyu Zhao",
+        "Zhe Gan"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/JornyWan/PRISM-Bench",
+      "published": "2025-10-27T17:57:52.000Z"
+    },
+    {
+      "id": "2510.07723",
+      "title": "SyncHuman: Synchronizing 2D and 3D Generative Models for Single-view Human Reconstruction",
+      "authors": [
+        "Wenyue Chen",
+        "Peng Li",
+        "Wangguandong Zheng",
+        "Chengfeng Zhao",
+        "Mengfei Li",
+        "Yaolong Zhu",
+        "Zhiyang Dou",
+        "Ronggang Wang",
+        "Yuan Liu"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/IGL-HKUST/SyncHuman",
+      "published": "2025-10-09T03:01:10.000Z"
+    },
+    {
+      "id": "2510.22907",
+      "title": "Language Server CLI Empowers Language Agents with Process Rewards",
+      "authors": [
+        "Yifan Zhang",
+        "Lanser Contributors"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/yifanzhang-pro/lanser-cli",
+      "published": "2025-10-27T01:25:20.000Z"
+    },
+    {
+      "id": "2510.22849",
+      "title": "Once Upon an Input: Reasoning via Per-Instance Program Synthesis",
+      "authors": [
+        "Adam Stein",
+        "Neelay Velingker",
+        "Mayur Naik",
+        "Eric Wong"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/adaminsky/pips",
+      "published": "2025-10-26T21:58:33.000Z"
+    },
+    {
+      "id": "2510.16320",
+      "title": "Scaling Laws for Deepfake Detection",
+      "authors": [
+        "Wenhao Wang",
+        "Longqi Cai",
+        "Taihong Xiao",
+        "Yuxiao Wang",
+        "Ming-Hsuan Yang"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-10-18T03:08:10.000Z"
+    },
+    {
+      "id": "2510.22236",
+      "title": "DiffusionLane: Diffusion Model for Lane Detection",
+      "authors": [
+        "Kunyang Zhou",
+        "Yeqin Shao"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/zkyntu/UnLanedet",
+      "published": "2025-10-25T09:42:49.000Z"
+    },
+    {
+      "id": "2510.22317",
+      "title": "Memory-based Language Models: An Efficient, Explainable, and Eco-friendly Approach to Large Language Modeling",
+      "authors": [
+        "Antal van den Bosch",
+        "Ainhoa Risco Patón",
+        "Teun Buijse",
+        "Peter Berck",
+        "Maarten van Gompel"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/antalvdb/olifant",
+      "published": "2025-10-25T14:34:18.000Z"
+    },
+    {
+      "id": "2510.22521",
+      "title": "Open Multimodal Retrieval-Augmented Factual Image Generation",
+      "authors": [
+        "Yang Tian",
+        "Fan Liu",
+        "Jingyuan Zhang",
+        "Wei Bi",
+        "Yupeng Hu",
+        "Liqiang Nie"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2025-10-26T04:13:31.000Z"
+    },
+    {
+      "id": "2510.20512",
+      "title": "EchoDistill: Bidirectional Concept Distillation for One-Step Diffusion Personalization",
+      "authors": [
+        "Yixiong Yang",
+        "Tao Wu",
+        "Senmao Li",
+        "Shiqi Yang",
+        "Yaxing Wang",
+        "Joost van de Weijer",
+        "Kai Wang"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2025-10-23T12:56:33.000Z"
+    },
+    {
+      "id": "2510.22603",
+      "title": "Mitigating Attention Sinks and Massive Activations in Audio-Visual Speech Recognition with LLMS",
+      "authors": [
+        "Anand",
+        "Umberto Cappellazzo",
+        "Stavros Petridis",
+        "Maja Pantic"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/umbertocappellazzo/Llama-AVSR",
+      "published": "2025-10-26T09:44:20.000Z"
+    },
+    {
+      "id": "2510.21800",
+      "title": "MARS-M: When Variance Reduction Meets Matrices",
+      "authors": [
+        "Yifeng Liu",
+        "Angela Yuan",
+        "Quanquan Gu"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2025-10-20T16:49:22.000Z"
+    },
+    {
+      "id": "2510.22010",
+      "title": "FlowOpt: Fast Optimization Through Whole Flow Processes for Training-Free Editing",
+      "authors": [
+        "Or Ronai",
+        "Vladimir Kulikov",
+        "Tomer Michaeli"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/orronai/FlowOpt",
+      "published": "2025-10-24T20:24:26.000Z"
+    }
+  ]
+}

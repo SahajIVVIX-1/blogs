@@ -1,0 +1,688 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-08-11",
+  "fetched_at": "2026-10-29T15:36:30.905Z",
+  "candidates": [
+    {
+      "id": "2608.09888",
+      "title": "BDH-CQ: In-Context Learning with Recurrent Latent Reasoning",
+      "authors": [
+        "Björn Engdahl",
+        "Adrian Kosowski",
+        "Jan Chorowski",
+        "Zuzanna Stamirowska",
+        "Przemysław Uznański",
+        "Junlin Jiang",
+        "Rohan Phadke",
+        "Remigiusz Kinas",
+        "Richard Zhong"
+      ],
+      "upvotes": 803,
+      "github": "https://github.com/pathwaycom/arc-task-gen",
+      "published": "2026-08-10T00:00:00.000Z"
+    },
+    {
+      "id": "2608.09819",
+      "title": "Macaron-V1: Towards Open Continual Learning with Self-Improvement and Mixture-of-LoRA",
+      "authors": [
+        "Mind Lab",
+        "Vin Bo",
+        "Asher Cai",
+        "Jingwei Cao",
+        "Song Cao",
+        "Vic Cao",
+        "Amelia Chen",
+        "Andrew Chen",
+        "Kaijie Chen",
+        "Cleon Cheng",
+        "Steven Chiang",
+        "Kaixuan Fan",
+        "Hera Feng",
+        "Huan Feng",
+        "Arthur Fu",
+        "Jun Gao",
+        "Pyke Han",
+        "Nolan Ho",
+        "Ori Hong",
+        "Hailee Hou",
+        "Piers Hua",
+        "Charles Huang",
+        "Miles Jiang",
+        "Nora Jiang",
+        "Yuyi Jiang",
+        "Qiuyu Jin",
+        "Fancy Kong",
+        "Kuss Koo",
+        "Jaron Lee",
+        "Andrew Lei",
+        "Alexy Li",
+        "Dawn Li",
+        "Lucian Li",
+        "Ray Li",
+        "Ricardo Li",
+        "Smith Li",
+        "Theo Li",
+        "Allen Lin",
+        "Elliot Lin",
+        "Fan Lin",
+        "Chen Ling",
+        "Kairus Liu",
+        "Kieran Liu",
+        "Logan Liu",
+        "Neo Liu",
+        "Xiang Liu",
+        "Yuxin Lu",
+        "Maeve Luo",
+        "Pony Ma",
+        "Verity Niu",
+        "Cole Qiao",
+        "Guian Qiu",
+        "Vince Qu",
+        "Sentry",
+        "Niko Song",
+        "Vincent Wang",
+        "Bo Wu",
+        "Rio Yang",
+        "Evelyn Ye",
+        "Fiona Ye",
+        "Ina Ye",
+        "Regis Ye",
+        "Josh Ying",
+        "Atlas Zeng",
+        "Danney Zeng",
+        "Salmon Zhan",
+        "Anya Zhang",
+        "Di Zhang",
+        "Mia Zhang",
+        "Sueky Zhang",
+        "Wei Zhao",
+        "Ada Zhou",
+        "Adrian Zhou",
+        "Yuhua Zhou",
+        "Juno Zhu",
+        "Murphy Zhuang"
+      ],
+      "upvotes": 247,
+      "github": null,
+      "published": "2026-08-10T00:00:00.000Z"
+    },
+    {
+      "id": "2608.06296",
+      "title": "On-Policy Self-Distillation without Any Supervision",
+      "authors": [
+        "Yijiang Li",
+        "Bingyang Wang",
+        "Yijun Liang",
+        "Yunjie Tian",
+        "Di Fu",
+        "Nuno Vasconcelos"
+      ],
+      "upvotes": 192,
+      "github": null,
+      "published": "2026-08-09T00:00:00.000Z"
+    },
+    {
+      "id": "2608.09867",
+      "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+      "authors": [
+        "Alexander Panfilov",
+        "David Schmotz",
+        "Ilia Shumailov",
+        "Luca Beurer-Kellner",
+        "Joachim Schaeffer",
+        "Ameya Prabhu",
+        "Jonas Geiping",
+        "Maksym Andriushchenko"
+      ],
+      "upvotes": 120,
+      "github": null,
+      "published": "2026-08-10T00:00:00.000Z"
+    },
+    {
+      "id": "2608.08311",
+      "title": "Ouroboros: A Self-Developing Frontier Coding Agent with Reviewed Core Evolution",
+      "authors": [
+        "Anton Razzhigaev",
+        "Andrei Gritsaev",
+        "Andrei Kaznacheev",
+        "Nikita Dragunov",
+        "Roman Yampolskiy",
+        "Andrei Kuznetsov"
+      ],
+      "upvotes": 93,
+      "github": "https://github.com/razzant/ouroboros",
+      "published": "2026-08-08T00:00:00.000Z"
+    },
+    {
+      "id": "2608.09802",
+      "title": "SWE-Bench ProMax: Benchmarking Agents on Large-Scale Multilingual Code Refactoring",
+      "authors": [
+        "Yuling Shi",
+        "Jinghan Xu",
+        "Kelin Fu",
+        "Wenhao Zeng",
+        "Shilin He",
+        "Lei Zhang",
+        "Yue Liu",
+        "Zelin Zhao",
+        "Terry Yue Zhuo",
+        "Jialun Cao",
+        "Siyu Ye",
+        "Tianyu Liu",
+        "Kai Cai",
+        "Shing-Chi Cheung",
+        "Xiaodong Gu"
+      ],
+      "upvotes": 84,
+      "github": null,
+      "published": "2026-08-10T00:00:00.000Z"
+    },
+    {
+      "id": "2608.07169",
+      "title": "Agent Memory Distillation: Empowering Small LLM Agents with Hierarchical Teacher Memory",
+      "authors": [
+        "Taeil Kim",
+        "Kangsan Kim",
+        "Sung Ju Hwang"
+      ],
+      "upvotes": 49,
+      "github": "https://github.com/taeilkim2465/agentic_memory_distillation",
+      "published": "2026-08-07T00:00:00.000Z"
+    },
+    {
+      "id": "2608.09119",
+      "title": "Motif 3: Technical Report",
+      "authors": [
+        "Junghwan Lim",
+        "Joon Son Chung",
+        "Sungmin Lee",
+        "Wai Ting Cheung",
+        "Gihun Cho",
+        "Minsu Ha",
+        "Sangho Kang",
+        "Beomgyu Kim",
+        "Dongseok Kim",
+        "Jangwoong Kim",
+        "Taehyun Kim",
+        "Taewhan Kim",
+        "Jeesoo Lee",
+        "Jeongdoo Lee",
+        "Junhyeok Lee",
+        "Dongpin Oh",
+        "Hyeyeon Cho",
+        "Dahye Choi",
+        "Jaeheui Her",
+        "Hanbin Jung",
+        "Changjin Kang",
+        "Minjae Kim",
+        "Youngrok Kim",
+        "Hyukjin Kweon",
+        "Hongjoo Lee",
+        "Yeongjae Park",
+        "Bokki Ryu"
+      ],
+      "upvotes": 48,
+      "github": null,
+      "published": "2026-08-10T00:00:00.000Z"
+    },
+    {
+      "id": "2608.06751",
+      "title": "Beyond Starry Night: Shortcut-Aware Control-State Planning for Artist-Grounded Text to Image Generation",
+      "authors": [
+        "Kuan Xing",
+        "Ye Wang",
+        "Changyi Gan",
+        "Yuheng Li",
+        "Thao Nguyen",
+        "Yi Chang",
+        "Yilin Wang"
+      ],
+      "upvotes": 28,
+      "github": null,
+      "published": "2026-08-07T00:00:00.000Z"
+    },
+    {
+      "id": "2608.07565",
+      "title": "What to Edit Next: Visually Aligned Image-Editing Follow-Up Suggestions in Conversational Systems",
+      "authors": [
+        "Zhijing Zhang",
+        "Jinpeng Yu",
+        "Xin Song",
+        "Bingnan Li",
+        "Chuyue Li",
+        "Changhui Du",
+        "Xiaolin Fang",
+        "Jiaming Liu",
+        "Ruihua Huang"
+      ],
+      "upvotes": 27,
+      "github": null,
+      "published": "2026-08-03T00:00:00.000Z"
+    },
+    {
+      "id": "2608.09873",
+      "title": "Sci-VBench: Evaluating Knowledge- and Reasoning-Intensive Video Generation in Science Domains",
+      "authors": [
+        "Diandian Zhang",
+        "Tingyu Song",
+        "Lin Fu",
+        "Zheyuan Yang",
+        "Yilun Zhao"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/sci-vbench/sci-vbench",
+      "published": "2026-08-10T00:00:00.000Z"
+    },
+    {
+      "id": "2608.08097",
+      "title": "OasisKV: Scaling In-Decode KV Cache Beyond HBM with Lookahead Sparse Prefetching",
+      "authors": [
+        "Can Xiao",
+        "Sukmin Cho",
+        "Junbong We",
+        "Zhixiong Niu",
+        "Jianyi Cheng",
+        "Yiren Zhao",
+        "Youngjin Kwon",
+        "Yongqiang Xiong",
+        "Rui Ma",
+        "Junyi Liu"
+      ],
+      "upvotes": 26,
+      "github": null,
+      "published": "2026-08-08T00:00:00.000Z"
+    },
+    {
+      "id": "2608.08621",
+      "title": "Business Arena: Benchmarking LLM Agents in a Realistic Marketplace",
+      "authors": [
+        "Yijun Pan",
+        "Yukun Lian",
+        "Kunyu Shi",
+        "Junbo Li",
+        "Hongwei Xue",
+        "Sicong Xie",
+        "Guannan Zhang",
+        "Xiaoying Xing"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/Accio-org/BusinessArena",
+      "published": "2026-08-09T00:00:00.000Z"
+    },
+    {
+      "id": "2608.07594",
+      "title": "Scaling Inherently Interpretable Language Models",
+      "authors": [
+        "Guide Labs Team",
+        "Andreas Madsen",
+        "Aya Abdelsalam Ismail",
+        "Giang Nguyen",
+        "Isaac Plant",
+        "Muawiz Chaudhary",
+        "Nathaniel Monson",
+        "Saqib Azim",
+        "Zhichen Guo",
+        "Julius Adebayo"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/guidelabs/steerling",
+      "published": "2026-08-06T00:00:00.000Z"
+    },
+    {
+      "id": "2608.09096",
+      "title": "Evo-Bench: Can Language Models Improve Agent Harness?",
+      "authors": [
+        "Lisheng Huang",
+        "Chen Yang",
+        "Hao Zhou",
+        "Huatong Song",
+        "Zongchao Chen",
+        "Ran Le",
+        "Yang Song",
+        "Wayne Xin Zhao",
+        "Tao Zhang"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/RUCAIBox/Evo-Bench",
+      "published": "2026-08-10T00:00:00.000Z"
+    },
+    {
+      "id": "2608.04419",
+      "title": "SPOT: Sparse Probing and Outcome Calibration for On-Policy Distillation",
+      "authors": [
+        "Zikun Qu",
+        "Min Zhang",
+        "Mingze Kong",
+        "Zhiwei Shang",
+        "Yikun Ban",
+        "Shuang Qiu",
+        "Zhongxiang Dai"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/QuZikun/SPOT",
+      "published": "2026-08-05T00:00:00.000Z"
+    },
+    {
+      "id": "2608.08021",
+      "title": "Evidence-RL: Towards Evidence-intensive Visual Reasoning",
+      "authors": [
+        "Haojie Huang",
+        "Xinlei Yu",
+        "Chengming Xu",
+        "Zhangquan Chen",
+        "Cheng Yang",
+        "Qingdong He",
+        "Yu Yang",
+        "Jiangning Zhang",
+        "Xiaobin Hu"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/evidencerl/code",
+      "published": "2026-08-08T00:00:00.000Z"
+    },
+    {
+      "id": "2608.09853",
+      "title": "RynnValue: Scaling Robotic Value Foundation Models with Temporal Distance",
+      "authors": [
+        "Dongchi Huang",
+        "Hongyin Zhang",
+        "Bohan Hou",
+        "Siteng Huang",
+        "Zhian Su",
+        "Hang Guo",
+        "Tong Lu",
+        "Zhaofeng Xu",
+        "Jiahao Tang",
+        "Jianfei Yang",
+        "Donglin Wang",
+        "Peixi Peng",
+        "Mingxiu Chen",
+        "Deli Zhao",
+        "Xin Li"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/alibaba-damo-academy/RynnValue",
+      "published": "2026-08-10T00:00:00.000Z"
+    },
+    {
+      "id": "2608.07346",
+      "title": "A^2E : An End-to-End Agent Auditing Engine",
+      "authors": [
+        "Haoning Wang",
+        "Mingxun Zhang",
+        "Chenyue Yu",
+        "Yingjun Shang",
+        "Xia Hu",
+        "Guanchu Wang",
+        "Na Zou"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/datamllab/A2E",
+      "published": "2026-08-10T00:00:00.000Z"
+    },
+    {
+      "id": "2608.02508",
+      "title": "RoMeRL: Balancing Feedback Coverage and the Memory-Reward Trap in Self-Evolving Agent Memory via Reduced-Order Utility States",
+      "authors": [
+        "Yi Yang",
+        "Zhennan Chen",
+        "Yihong Zhuang",
+        "Tiehan Fan",
+        "Yinan Chen",
+        "Jian Li",
+        "Jian Yang",
+        "Ying Tai"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/YOUNG-fnxm/RoMeRL",
+      "published": "2026-08-10T00:00:00.000Z"
+    },
+    {
+      "id": "2608.03499",
+      "title": "WeClawArena: An Auditable Sandbox and Benchmark for Cross-User Agents Collaboration and Security in Human-Centered Agent Networks",
+      "authors": [
+        "Prince Zizhuang Wang",
+        "Aojie Yuan",
+        "Haiyue Zhang",
+        "Xiyang Hu",
+        "Yue Zhao",
+        "Shuli Jiang"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/kingofspace0wzz/WeClawArena",
+      "published": "2026-08-04T00:00:00.000Z"
+    },
+    {
+      "id": "2608.08722",
+      "title": "Gaming Without an Attacker: Benchmark Fingerprinting in LLM-Driven Search Under Selection Pressure",
+      "authors": [
+        "Víctor Gallego"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2026-08-09T00:00:00.000Z"
+    },
+    {
+      "id": "2608.08156",
+      "title": "A Hybrid Nested Harness for Decoupling Structure and Parameters in LLM-Driven Optimization",
+      "authors": [
+        "Víctor Gallego"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/vicgalle/hybrid-nested-search",
+      "published": "2026-08-08T00:00:00.000Z"
+    },
+    {
+      "id": "2608.09043",
+      "title": "Don't Scroll Back: Missing-Evidence Memory for Streaming Dialogue Summarization",
+      "authors": [
+        "Hyangsuk Min",
+        "Hwanjun Song"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2026-08-10T00:00:00.000Z"
+    },
+    {
+      "id": "2608.08285",
+      "title": "Ego-OSCAR: Egocentric Open source Stereo CAptuRe System",
+      "authors": [
+        "Gunjan Paul",
+        "Senthil Palanisamy",
+        "Satpal Singh Rathore",
+        "Pratyush Kumar Patnaik",
+        "Shubhanshu Khatana",
+        "Abhishek Anand"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2026-08-08T00:00:00.000Z"
+    },
+    {
+      "id": "2608.06614",
+      "title": "Factorized Hypothesis Search for Evidence-to-Taxonomy Retrieval",
+      "authors": [
+        "Linhai Ma",
+        "Ethan F. Wei",
+        "Xueqing Peng",
+        "Yan Wang",
+        "Lingfei Qian",
+        "Víctor Gutiérrez-Basulto"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/SarielMa/FHS",
+      "published": "2026-08-06T00:00:00.000Z"
+    },
+    {
+      "id": "2608.09420",
+      "title": "Intent Speaks Louder: Controllable User Simulation Beyond Response Imitation",
+      "authors": [
+        "Bo Wang",
+        "Ruixing Zhang",
+        "Yunqi Liu",
+        "Yang Zhang",
+        "Liangzhe Han",
+        "Tongyu Zhu",
+        "Leilei Sun"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/ptwang773/UserIDA",
+      "published": "2026-08-10T00:00:00.000Z"
+    },
+    {
+      "id": "2608.06065",
+      "title": "The Next Screenshot Knows: Gated Hindsight Distillation for Mobile GUI Agents",
+      "authors": [
+        "Weiwei Li",
+        "Junzhuo Liu",
+        "Tong Chu",
+        "Hengfu Yu",
+        "Wen Li"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2026-08-06T00:00:00.000Z"
+    },
+    {
+      "id": "2608.06111",
+      "title": "Beyond Sequence Order: Syntax-Informed Positional Embeddings for Transformers",
+      "authors": [
+        "Haris Riaz",
+        "Hyungji Kim",
+        "Mihai Surdeanu"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/hriaz17/SiPE",
+      "published": "2026-08-06T00:00:00.000Z"
+    },
+    {
+      "id": "2608.05136",
+      "title": "The Loss Does Not See the Basis, but Adam Does",
+      "authors": [
+        "Devender Singh"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/idevender/loss-basis-adam",
+      "published": "2026-08-05T00:00:00.000Z"
+    },
+    {
+      "id": "2608.07886",
+      "title": "Vision-Language Grounding as Bidirectional Concept Correspondence",
+      "authors": [
+        "Jieyu Zhang",
+        "Ziqi Gao",
+        "Luke Zettlemoyer",
+        "Ranjay Krishna"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/RAIVNLab/ConCor",
+      "published": "2026-08-08T00:00:00.000Z"
+    },
+    {
+      "id": "2608.08477",
+      "title": "VectraYX-Vision-1B: A Sub-2B Spanish/LATAM Cybersecurity Vision-Language Model with Structured Visual Reasoning and Native Tool Use",
+      "authors": [
+        "Juan S. Santillana"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-08-09T00:00:00.000Z"
+    },
+    {
+      "id": "2608.09766",
+      "title": "Cultivar: A Contrastive and Locale-Oriented Translation Benchmark for Investigating Contamination and Localisation Robustness",
+      "authors": [
+        "Pinzhen Chen",
+        "Koel Dutta Chowdhury",
+        "Xiaoya Xu",
+        "David Tan",
+        "Doreen Osmelak",
+        "Ona de Gibert",
+        "Ariun-Erdene Tumurchuluun",
+        "Ashok Urlana",
+        "Fedor Sizov",
+        "Hale Sirin",
+        "Jesujoba Alabi",
+        "Karrar Talib Abed",
+        "Mateusz Klimaszewski",
+        "Nikolay Bogoychev",
+        "Niyati Bafna",
+        "Patricia Schmidtova",
+        "Preksha Manjunath Shanbhag",
+        "Sherrie Shen",
+        "Vilem Zouhar",
+        "Vivek Iyer",
+        "Yasser Hamidullah",
+        "Yusser Al Ghussin",
+        "Zheng Zhao"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-08-10T00:00:00.000Z"
+    },
+    {
+      "id": "2608.07463",
+      "title": "MirrorWorld: Taming Video Diffusion Models for Mirror Reflection Generation",
+      "authors": [
+        "Youjun Zhao",
+        "Alex Warren",
+        "Gary K. L. Tam",
+        "Rynson W. H. Lau"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/YoujunZhao/MirrorWorld",
+      "published": "2026-08-07T00:00:00.000Z"
+    },
+    {
+      "id": "2608.03887",
+      "title": "Omega-S: A Functional Resilience Index for LLM Fine-Tuning",
+      "authors": [
+        "Alberto Acedo"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-08-04T00:00:00.000Z"
+    },
+    {
+      "id": "2607.27637",
+      "title": "MMOOC: A Comprehensive Benchmark for Out-of-Context Evaluation in Multimodal Large Language Models",
+      "authors": [
+        "Wenjie Zhu",
+        "Yabin Zhang",
+        "Wenjun Zeng",
+        "Lei Zhang"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/ZhuWenjie98/MMOOC",
+      "published": "2026-08-01T00:00:00.000Z"
+    },
+    {
+      "id": "2608.09848",
+      "title": "CEAA: A Cognitive Embodied Agents Architecture for Interactive Computing Systems",
+      "authors": [
+        "Aimilios Hadjiliasi",
+        "Louis Nisiotis"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-08-10T00:00:00.000Z"
+    },
+    {
+      "id": "2608.08786",
+      "title": "SymDiag: Explainable Diagnosis for LLM Reasoning via Neuro-Symbolic Verification",
+      "authors": [
+        "Wenyao Cui",
+        "Huaping Zhang",
+        "Yongyi Huang",
+        "Qiuchi Li",
+        "Jian Xu",
+        "Cheng-Lin Liu",
+        "Chunxiao Gao",
+        "Juan Wang",
+        "Baohua Zhang"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2026-08-09T00:00:00.000Z"
+    }
+  ]
+}

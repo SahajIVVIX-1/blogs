@@ -1,0 +1,473 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-08-05",
+  "fetched_at": "2026-10-29T15:32:46.141Z",
+  "candidates": [
+    {
+      "id": "2508.02324",
+      "title": "Qwen-Image Technical Report",
+      "authors": [
+        "Chenfei Wu",
+        "Jiahao Li",
+        "Jingren Zhou",
+        "Junyang Lin",
+        "Kaiyuan Gao",
+        "Kun Yan",
+        "Sheng-ming Yin",
+        "Shuai Bai",
+        "Xiao Xu",
+        "Yilei Chen",
+        "Yuxiang Chen",
+        "Zecheng Tang",
+        "Zekai Zhang",
+        "Zhengyi Wang",
+        "An Yang",
+        "Bowen Yu",
+        "Chen Cheng",
+        "Dayiheng Liu",
+        "Deqing Li",
+        "Hang Zhang",
+        "Hao Meng",
+        "Hu Wei",
+        "Jingyuan Ni",
+        "Kai Chen",
+        "Kuan Cao",
+        "Liang Peng",
+        "Lin Qu",
+        "Minggang Wu",
+        "Peng Wang",
+        "Shuting Yu",
+        "Tingkun Wen",
+        "Wensen Feng",
+        "Xiaoxiao Xu",
+        "Yi Wang",
+        "Yichang Zhang",
+        "Yongqiang Zhu",
+        "Yujia Wu",
+        "Yuxuan Cai",
+        "Zenan Liu"
+      ],
+      "upvotes": 277,
+      "github": "https://github.com/QwenLM/Qwen-Image",
+      "published": "2025-08-04T11:49:20.000Z"
+    },
+    {
+      "id": "2508.01959",
+      "title": "SitEmb-v1.5: Improved Context-Aware Dense Retrieval for Semantic Association and Long Story Comprehension",
+      "authors": [
+        "Junjie Wu",
+        "Jiangnan Li",
+        "Yuqing Li",
+        "Lemao Liu",
+        "Liyan Xu",
+        "Jiwei Li",
+        "Dit-Yan Yeung",
+        "Jie Zhou",
+        "Mo Yu"
+      ],
+      "upvotes": 61,
+      "github": null,
+      "published": "2025-08-03T23:59:31.000Z"
+    },
+    {
+      "id": "2508.02276",
+      "title": "CellForge: Agentic Design of Virtual Cell Models",
+      "authors": [
+        "Xiangru Tang",
+        "Zhuoyun Yu",
+        "Jiapeng Chen",
+        "Yan Cui",
+        "Daniel Shao",
+        "Weixu Wang",
+        "Fang Wu",
+        "Yuchen Zhuang",
+        "Wenqi Shi",
+        "Zhi Huang",
+        "Arman Cohan",
+        "Xihong Lin",
+        "Fabian Theis",
+        "Smita Krishnaswamy",
+        "Mark Gerstein"
+      ],
+      "upvotes": 40,
+      "github": "https://github.com/gersteinlab/CellForge",
+      "published": "2025-08-04T10:43:31.000Z"
+    },
+    {
+      "id": "2508.02150",
+      "title": "Beyond the Trade-off: Self-Supervised Reinforcement Learning for Reasoning Models' Instruction Following",
+      "authors": [
+        "Qingyu Ren",
+        "Qianyu He",
+        "Bowei Zhang",
+        "Jie Zeng",
+        "Jiaqing Liang",
+        "Yanghua Xiao",
+        "Weikang Zhou",
+        "Zeye Sun",
+        "Fei Yu"
+      ],
+      "upvotes": 37,
+      "github": "https://github.com/Rainier-rq/verl-if",
+      "published": "2025-08-04T07:48:59.000Z"
+    },
+    {
+      "id": "2508.01059",
+      "title": "Llama-3.1-FoundationAI-SecurityLLM-8B-Instruct Technical Report",
+      "authors": [
+        "Sajana Weerawardhena",
+        "Paul Kassianik",
+        "Blaine Nelson",
+        "Baturay Saglam",
+        "Anu Vellore",
+        "Aman Priyanshu",
+        "Supriti Vijay",
+        "Massimo Aufiero",
+        "Arthur Goldblatt",
+        "Fraser Burch",
+        "Ed Li",
+        "Jianliang He",
+        "Dhruv Kedia",
+        "Kojin Oshiba",
+        "Zhouran Yang",
+        "Yaron Singer",
+        "Amin Karbasi"
+      ],
+      "upvotes": 35,
+      "github": null,
+      "published": "2025-08-01T20:25:57.000Z"
+    },
+    {
+      "id": "2508.02137",
+      "title": "Fitness aligned structural modeling enables scalable virtual screening with AuroBind",
+      "authors": [
+        "Zhongyue Zhang",
+        "Jiahua Rao",
+        "Jie Zhong",
+        "Weiqiang Bai",
+        "Dongxue Wang",
+        "Shaobo Ning",
+        "Lifeng Qiao",
+        "Sheng Xu",
+        "Runze Ma",
+        "Will Hua",
+        "Jack Xiaoyu Chen",
+        "Odin Zhang",
+        "Wei Lu",
+        "Hanyi Feng",
+        "He Yang",
+        "Xinchao Shi",
+        "Rui Li",
+        "Wanli Ouyang",
+        "Xinzhu Ma",
+        "Jiahao Wang",
+        "Jixian Zhang",
+        "Jia Duan",
+        "Siqi Sun",
+        "Jian Zhang",
+        "Shuangjia Zheng"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/GENTEL-lab/AuroBind",
+      "published": "2025-08-04T07:34:48.000Z"
+    },
+    {
+      "id": "2508.02317",
+      "title": "VeOmni: Scaling Any Modality Model Training with Model-Centric Distributed Recipe Zoo",
+      "authors": [
+        "Qianli Ma",
+        "Yaowei Zheng",
+        "Zhelun Shi",
+        "Zhongkai Zhao",
+        "Bin Jia",
+        "Ziyue Huang",
+        "Zhiqi Lin",
+        "Youjie Li",
+        "Jiacheng Yang",
+        "Yanghua Peng",
+        "Zhi Zhang",
+        "Xin Liu"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/ByteDance-Seed/VeOmni",
+      "published": "2025-08-04T11:33:04.000Z"
+    },
+    {
+      "id": "2507.17520",
+      "title": "InstructVLA: Vision-Language-Action Instruction Tuning from Understanding to Manipulation",
+      "authors": [
+        "Shuai Yang",
+        "Hao Li",
+        "Yilun Chen",
+        "Bin Wang",
+        "Yang Tian",
+        "Tai Wang",
+        "Hanqing Wang",
+        "Feng Zhao",
+        "Yiyi Liao",
+        "Jiangmiao Pang"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/InternRobotics/InstructVLA",
+      "published": "2025-07-23T13:57:06.000Z"
+    },
+    {
+      "id": "2508.01548",
+      "title": "A Glimpse to Compress: Dynamic Visual Token Pruning for Large Vision-Language Models",
+      "authors": [
+        "Quan-Sheng Zeng",
+        "Yunheng Li",
+        "Qilong Wang",
+        "Peng-Tao Jiang",
+        "Zuxuan Wu",
+        "Ming-Ming Cheng",
+        "Qibin Hou"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/HVision-NKU/GlimpsePrune",
+      "published": "2025-08-03T02:15:43.000Z"
+    },
+    {
+      "id": "2508.02558",
+      "title": "Sparse-dLLM: Accelerating Diffusion LLMs with Dynamic Cache Eviction",
+      "authors": [
+        "Yuerong Song",
+        "Xiaoran Liu",
+        "Ruixiao Li",
+        "Zhigeng Liu",
+        "Zengfeng Huang",
+        "Qipeng Guo",
+        "Ziwei He",
+        "Xipeng Qiu"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/OpenMOSS/Sparse-dLLM",
+      "published": "2025-08-04T16:14:03.000Z"
+    },
+    {
+      "id": "2508.01691",
+      "title": "Voxlect: A Speech Foundation Model Benchmark for Modeling Dialects and Regional Languages Around the Globe",
+      "authors": [
+        "Tiantian Feng",
+        "Kevin Huang",
+        "Anfeng Xu",
+        "Xuan Shi",
+        "Thanathai Lertpetchpun",
+        "Jihwan Lee",
+        "Yoonjeong Lee",
+        "Dani Byrd",
+        "Shrikanth Narayanan"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/tiantiaf0627/voxlect",
+      "published": "2025-08-03T09:51:28.000Z"
+    },
+    {
+      "id": "2508.00910",
+      "title": "Cyber-Zero: Training Cybersecurity Agents without Runtime",
+      "authors": [
+        "Terry Yue Zhuo",
+        "Dingmin Wang",
+        "Hantian Ding",
+        "Varun Kumar",
+        "Zijian Wang"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/amazon-science/Cyber-Zero",
+      "published": "2025-07-29T18:10:37.000Z"
+    },
+    {
+      "id": "2508.02271",
+      "title": "Dynaword: From One-shot to Continuously Developed Datasets",
+      "authors": [
+        "Kenneth Enevoldsen",
+        "Kristian Nørgaard Jensen",
+        "Jan Kostkan",
+        "Balázs Szabó",
+        "Márton Kardos",
+        "Kirten Vad",
+        "Andrea Blasi Núñez",
+        "Gianluca Barmina",
+        "Jacob Nielsen",
+        "Rasmus Larsen",
+        "Peter Vahlstrup",
+        "Per Møldrup Dalum",
+        "Desmond Elliott",
+        "Lukas Galke",
+        "Peter Schneider-Kamp",
+        "Kristoffer Nielbo"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2025-08-04T10:30:42.000Z"
+    },
+    {
+      "id": "2508.01408",
+      "title": "Artificial Intelligence and Misinformation in Art: Can Vision Language Models Judge the Hand or the Machine Behind the Canvas?",
+      "authors": [
+        "Tarian Fu",
+        "Javier Conde",
+        "Gonzalo Martínez",
+        "Pedro Reviriego",
+        "Elena Merino-Gómez",
+        "Fernando Moral"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2025-08-02T15:27:31.000Z"
+    },
+    {
+      "id": "2507.16290",
+      "title": "Dens3R: A Foundation Model for 3D Geometry Prediction",
+      "authors": [
+        "Xianze Fang",
+        "Jingnan Gao",
+        "Zhe Wang",
+        "Zhuo Chen",
+        "Xingyu Ren",
+        "Jiangjing Lyu",
+        "Qiaomu Ren",
+        "Zhonglei Yang",
+        "Xiaokang Yang",
+        "Yichao Yan",
+        "Chengfei Lyu"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/G-1nOnly/Dens3R",
+      "published": "2025-07-22T07:22:30.000Z"
+    },
+    {
+      "id": "2508.00024",
+      "title": "Embedding-Aware Quantum-Classical SVMs for Scalable Quantum Machine Learning",
+      "authors": [
+        "Sebastián Andrés Cajas Ordóñez",
+        "Luis Fernando Torres Torres",
+        "Mario Bifulco",
+        "Carlos Andrés Durán",
+        "Cristian Bosch",
+        "Ricardo Simón Carbajo"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/sebasmos/QuantumVE",
+      "published": "2025-07-28T21:23:51.000Z"
+    },
+    {
+      "id": "2508.01415",
+      "title": "RoboMemory: A Brain-inspired Multi-memory Agentic Framework for Lifelong Learning in Physical Embodied Systems",
+      "authors": [
+        "Mingcong Lei",
+        "Honghao Cai",
+        "Zezhou Cui",
+        "Liangchen Tan",
+        "Junkun Hong",
+        "Gehan Hu",
+        "Shuangyu Zhu",
+        "Yimou Wu",
+        "Shaohan Jiang",
+        "Ge Wang",
+        "Zhen Li",
+        "Shuguang Cui",
+        "Yiming Zhao",
+        "Yatong Han"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/SP4595/RoboMemory-Code",
+      "published": "2025-08-02T15:39:42.000Z"
+    },
+    {
+      "id": "2508.01151",
+      "title": "Personalized Safety Alignment for Text-to-Image Diffusion Models",
+      "authors": [
+        "Yu Lei",
+        "Jinbin Bai",
+        "Qingyu Shi",
+        "Aosong Feng",
+        "Kaidong Yu"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/M-E-AGI-Lab/PSAlign",
+      "published": "2025-08-02T02:23:20.000Z"
+    },
+    {
+      "id": "2508.01287",
+      "title": "Exploitation Is All You Need... for Exploration",
+      "authors": [
+        "Micah Rentschler",
+        "Jesse Roberts"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2025-08-02T09:42:59.000Z"
+    },
+    {
+      "id": "2508.00890",
+      "title": "AgentTTS: Large Language Model Agent for Test-time Compute-optimal Scaling Strategy in Complex Tasks",
+      "authors": [
+        "Fali Wang",
+        "Hui Liu",
+        "Zhenwei Dai",
+        "Jingying Zeng",
+        "Zhiwei Zhang",
+        "Zongyu Wu",
+        "Chen Luo",
+        "Zhen Li",
+        "Xianfeng Tang",
+        "Qi He",
+        "Suhang Wang"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2025-07-26T19:21:18.000Z"
+    },
+    {
+      "id": "2508.02605",
+      "title": "ReMoMask: Retrieval-Augmented Masked Motion Generation",
+      "authors": [
+        "Zhengdao Li",
+        "Siheng Wang",
+        "Zeyu Zhang",
+        "Hao Tang"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/AIGeeksGroup/ReMoMask",
+      "published": "2025-08-04T16:56:35.000Z"
+    },
+    {
+      "id": "2508.01109",
+      "title": "Platonic Representations for Poverty Mapping: Unified Vision-Language Codes or Agent-Induced Novelty?",
+      "authors": [
+        "Satiyabooshan Murugaboopathy",
+        "Connor T. Jerzak",
+        "Adel Daoud"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-08-01T23:07:16.000Z"
+    },
+    {
+      "id": "2508.02268",
+      "title": "SHAMI-MT: A Syrian Arabic Dialect to Modern Standard Arabic Bidirectional Machine Translation System",
+      "authors": [
+        "Serry Sibaee",
+        "Omer Nacar",
+        "Yasser Al-Habashi",
+        "Adel Ammar",
+        "Wadii Boulila"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2025-08-04T10:21:11.000Z"
+    },
+    {
+      "id": "2508.01773",
+      "title": "Uncertainty-Based Methods for Automated Process Reward Data Construction and Output Aggregation in Mathematical Reasoning",
+      "authors": [
+        "Jiuzhou Han",
+        "Wray Buntine",
+        "Ehsan Shareghi"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/Jiuzhouh/UnPRM",
+      "published": "2025-08-03T14:14:13.000Z"
+    }
+  ]
+}

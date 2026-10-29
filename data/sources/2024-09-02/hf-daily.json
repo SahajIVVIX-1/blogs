@@ -1,0 +1,271 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-09-02",
+  "fetched_at": "2026-10-29T15:28:56.267Z",
+  "candidates": [
+    {
+      "id": "2408.15545",
+      "title": "SciLitLLM: How to Adapt LLMs for Scientific Literature Understanding",
+      "authors": [
+        "Sihang Li",
+        "Jin Huang",
+        "Jiaxi Zhuang",
+        "Yaorui Shi",
+        "Xiaochen Cai",
+        "Mingjun Xu",
+        "Xiang Wang",
+        "Linfeng Zhang",
+        "Guolin Ke",
+        "Hengxing Cai"
+      ],
+      "upvotes": 38,
+      "github": "https://github.com/dptech-corp/Uni-SMART",
+      "published": "2024-08-28T05:41:52.000Z"
+    },
+    {
+      "id": "2408.17267",
+      "title": "UrBench: A Comprehensive Benchmark for Evaluating Large Multimodal Models in Multi-View Urban Scenarios",
+      "authors": [
+        "Baichuan Zhou",
+        "Haote Yang",
+        "Dairong Chen",
+        "Junyan Ye",
+        "Tianyi Bai",
+        "Jinhua Yu",
+        "Songyang Zhang",
+        "Dahua Lin",
+        "Conghui He",
+        "Weijia Li"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/opendatalab/urbench",
+      "published": "2024-08-30T13:13:35.000Z"
+    },
+    {
+      "id": "2408.15914",
+      "title": "CoRe: Context-Regularized Text Embedding Learning for Text-to-Image Personalization",
+      "authors": [
+        "Feize Wu",
+        "Yun Pang",
+        "Junyi Zhang",
+        "Lianyu Pang",
+        "Jian Yin",
+        "Baoquan Zhao",
+        "Qing Li",
+        "Xudong Mao"
+      ],
+      "upvotes": 23,
+      "github": null,
+      "published": "2024-08-28T16:27:58.000Z"
+    },
+    {
+      "id": "2408.14765",
+      "title": "CrossViewDiff: A Cross-View Diffusion Model for Satellite-to-Street View Synthesis",
+      "authors": [
+        "Weijia Li",
+        "Jun He",
+        "Junyan Ye",
+        "Huaping Zhong",
+        "Zhimeng Zheng",
+        "Zilong Huang",
+        "Dahua Lin",
+        "Conghui He"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2024-08-27T03:41:44.000Z"
+    },
+    {
+      "id": "2408.17024",
+      "title": "InkubaLM: A small language model for low-resource African languages",
+      "authors": [
+        "Atnafu Lambebo Tonja",
+        "Bonaventure F. P. Dossou",
+        "Jessica Ojo",
+        "Jenalea Rajab",
+        "Fadel Thior",
+        "Eric Peter Wairagala",
+        "Aremu Anuoluwapo",
+        "Pelonomi Moiloa",
+        "Jade Abbott",
+        "Vukosi Marivate",
+        "Benjamin Rosman"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2024-08-30T05:42:31.000Z"
+    },
+    {
+      "id": "2408.17131",
+      "title": "VQ4DiT: Efficient Post-Training Vector Quantization for Diffusion Transformers",
+      "authors": [
+        "Juncan Deng",
+        "Shuaiting Li",
+        "Zeyu Wang",
+        "Hong Gu",
+        "Kedong Xu",
+        "Kejie Huang"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2024-08-30T09:15:54.000Z"
+    },
+    {
+      "id": "2408.16672",
+      "title": "Jina-ColBERT-v2: A General-Purpose Multilingual Late Interaction Retriever",
+      "authors": [
+        "Rohan Jha",
+        "Bo Wang",
+        "Michael Günther",
+        "Saba Sturua",
+        "Mohammad Kalim Akram",
+        "Han Xiao"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2024-08-29T16:21:00.000Z"
+    },
+    {
+      "id": "2408.14886",
+      "title": "The VoxCeleb Speaker Recognition Challenge: A Retrospective",
+      "authors": [
+        "Jaesung Huh",
+        "Joon Son Chung",
+        "Arsha Nagrani",
+        "Andrew Brown",
+        "Jee-weon Jung",
+        "Daniel Garcia-Romero",
+        "Andrew Zisserman"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2024-08-27T08:57:31.000Z"
+    },
+    {
+      "id": "2408.16444",
+      "title": "SurveySum: A Dataset for Summarizing Multiple Scientific Articles into a Survey Section",
+      "authors": [
+        "Leandro Carísio Fernandes",
+        "Gustavo Bartz Guedes",
+        "Thiago Soares Laitz",
+        "Thales Sales Almeida",
+        "Rodrigo Nogueira",
+        "Roberto Lotufo",
+        "Jayr Pereira"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2024-08-29T11:13:23.000Z"
+    },
+    {
+      "id": "2408.16176",
+      "title": "VLM4Bio: A Benchmark Dataset to Evaluate Pretrained Vision-Language Models for Trait Discovery from Biological Images",
+      "authors": [
+        "M. Maruf",
+        "Arka Daw",
+        "Kazi Sajeed Mehrab",
+        "Harish Babu Manogaran",
+        "Abhilash Neog",
+        "Medha Sawhney",
+        "Mridul Khurana",
+        "James P. Balhoff",
+        "Yasin Bakis",
+        "Bahadir Altintas",
+        "Matthew J. Thompson",
+        "Elizabeth G. Campolongo",
+        "Josef C. Uyeda",
+        "Hilmar Lapp",
+        "Henry L. Bart",
+        "Paula M. Mabee",
+        "Yu Su",
+        "Wei-Lun Chao",
+        "Charles Stewart",
+        "Tanya Berger-Wolf",
+        "Wasila Dahdul",
+        "Anuj Karpatne"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/Imageomics/VLM4Bio",
+      "published": "2024-08-28T23:53:57.000Z"
+    },
+    {
+      "id": "2408.15993",
+      "title": "ClimDetect: A Benchmark Dataset for Climate Change Detection and Attribution",
+      "authors": [
+        "Sungduk Yu",
+        "Brian L. White",
+        "Anahita Bhiwandiwalla",
+        "Musashi Hinck",
+        "Matthew Lyle Olson",
+        "Tung Nguyen",
+        "Vasudev Lal"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2024-08-28T17:58:53.000Z"
+    },
+    {
+      "id": "2408.14572",
+      "title": "CURLoRA: Stable LLM Continual Fine-Tuning and Catastrophic Forgetting Mitigation",
+      "authors": [
+        "Muhammad Fawi"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/mnoorfawi/curlora",
+      "published": "2024-08-26T18:42:59.000Z"
+    },
+    {
+      "id": "2408.15827",
+      "title": "Automatic Differential Diagnosis using Transformer-Based Multi-Label Sequence Classification",
+      "authors": [
+        "Abu Adnan Sadi",
+        "Mohammad Ashrafuzzaman Khan",
+        "Lubaba Binte Saber"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2024-08-28T14:40:15.000Z"
+    },
+    {
+      "id": "2408.16245",
+      "title": "Large-Scale Multi-omic Biosequence Transformers for Modeling Peptide-Nucleotide Interactions",
+      "authors": [
+        "Sully F. Chen",
+        "Robert J. Steele",
+        "Beakal Lemeneh",
+        "Shivanand P. Lad",
+        "Eric Oermann"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/nyuolab/omnibiote",
+      "published": "2024-08-29T03:56:40.000Z"
+    },
+    {
+      "id": "2408.15300",
+      "title": "GIFT-SW: Gaussian noise Injected Fine-Tuning of Salient Weights for LLMs",
+      "authors": [
+        "Maxim Zhelnin",
+        "Viktor Moskvoretskii",
+        "Egor Shvetsov",
+        "Egor Venediktov",
+        "Mariya Krylova",
+        "Aleksandr Zuev",
+        "Evgeny Burnaev"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/On-Point-RND/GIFT_SW",
+      "published": "2024-08-27T14:41:14.000Z"
+    },
+    {
+      "id": "2408.16667",
+      "title": "Iterative Graph Alignment",
+      "authors": [
+        "Fangyuan Yu",
+        "Hardeep Singh Arora",
+        "Matt Johnson"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/fangyuan-ksgk/ruleeval",
+      "published": "2024-08-29T16:15:01.000Z"
+    }
+  ]
+}

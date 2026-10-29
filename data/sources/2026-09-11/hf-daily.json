@@ -1,0 +1,469 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-09-11",
+  "fetched_at": "2026-10-29T15:36:49.782Z",
+  "candidates": [
+    {
+      "id": "2609.10715",
+      "title": "NCP-ArchPreview Technical Report: Moving towards Latent Space Language Models through Next Concept Prediction",
+      "authors": [
+        "NCP Team",
+        "Jiaqi Cao",
+        "Chiyu Chen",
+        "Shuang Cheng",
+        "Xu Cheng",
+        "Beiya Dai",
+        "Yufan Feng",
+        "Kewen Ge",
+        "Ruijun Ge",
+        "Jiayi Huang",
+        "Yang Jiao",
+        "Dahua Lin",
+        "Zhouhan Lin",
+        "Yifan Liu",
+        "Yuliang Liu",
+        "Biqing Qi",
+        "Mowen Ruan",
+        "Junzhe Shen",
+        "Yunchong Song",
+        "Hao Sun",
+        "Zhongbo Tian",
+        "Yixuan Wang",
+        "Rubin Wei",
+        "Jiaxin Xiong",
+        "Kangyu Yang",
+        "Qian Yao",
+        "Qi Zhang",
+        "Bowen Zhou"
+      ],
+      "upvotes": 197,
+      "github": "https://github.com/LUMIA-Group/ncp_olmo_eval",
+      "published": "2026-09-09T00:00:00.000Z"
+    },
+    {
+      "id": "2609.11929",
+      "title": "SenseNova-U1.5: Towards Native Unified Visual Intelligence",
+      "authors": [
+        "Haiwen Diao",
+        "Jiahao Wang",
+        "Chenjing Ding",
+        "Hanming Deng",
+        "Jiangnan Chen",
+        "Ruixi Zhang",
+        "Ruohui Wang",
+        "Wenwen Tong",
+        "Xiangyu Fan",
+        "Yubo Wang",
+        "Yue Zhu",
+        "Yuwei Niu",
+        "Zhengqi Bai",
+        "Zhiqian Lin",
+        "Zhitao Yang",
+        "Zhongang Cai",
+        "Bo Yang",
+        "Chen Feng",
+        "Chengguang Lv",
+        "Guangjia Liu",
+        "Guanlin Wang",
+        "Hanyu Zhang",
+        "Haojia Yu",
+        "Hongcan Xiao",
+        "Hongli Wang",
+        "Huan Wu",
+        "Huaping Zhong",
+        "Jian Fang",
+        "Jianan Fan",
+        "Jiaqi Li",
+        "Jiefan Lu",
+        "Jing Zuo",
+        "Jingcheng Ni",
+        "Junxiang Xu",
+        "Linjun Dai",
+        "Mutian Xu",
+        "Peishen Yan",
+        "Penghao Wu",
+        "Ruijie Mao",
+        "Ruisi Wang",
+        "Shihao Bai",
+        "Shuang Yang",
+        "Shuya Yang",
+        "Shuyan Zheng",
+        "Silei Wu",
+        "Siying Li",
+        "Tao Chu",
+        "Tianbo Zhong",
+        "Tongxi Zhou",
+        "Weichao Luo",
+        "Weichen Fan",
+        "Wenhao Jia",
+        "Wenjie Gao",
+        "Xiangli Kong",
+        "Yan Li",
+        "Yang Yong",
+        "Zimo Wen",
+        "Zixuan Qian",
+        "Wenxiu Sun",
+        "Ruihao Gong",
+        "Quan Wang",
+        "Lewei Lu",
+        "Lei Yang",
+        "Ziwei Liu",
+        "Dahua Lin"
+      ],
+      "upvotes": 166,
+      "github": null,
+      "published": "2026-09-10T00:00:00.000Z"
+    },
+    {
+      "id": "2609.07064",
+      "title": "SpatialBlock: Enhancing Spatial Intelligence in LVLMs via Synthetic Block-Stacking Problem",
+      "authors": [
+        "Soohyun Ryu",
+        "Sohee Kim",
+        "Eunho Yang"
+      ],
+      "upvotes": 80,
+      "github": "https://github.com/rsoohyun/SpatialBlock",
+      "published": "2026-09-07T00:00:00.000Z"
+    },
+    {
+      "id": "2609.11317",
+      "title": "Mi-Ripple: Restoring Images Degraded by Iterative AI Editing",
+      "authors": [
+        "Jiayin Chen",
+        "Yicheng Xu",
+        "Muting Wang"
+      ],
+      "upvotes": 41,
+      "github": "https://github.com/miyang-ai/Mi-Ripple",
+      "published": "2026-09-10T00:00:00.000Z"
+    },
+    {
+      "id": "2609.11412",
+      "title": "X-AuT: Progressive Audio-Encoder Compression for Speech LLMs with Cross-Scale Distillation",
+      "authors": [
+        "Haojun Zhang",
+        "Yi Zou",
+        "Min Chen",
+        "Qize Yu",
+        "Lianrui Fan",
+        "Xini Ding",
+        "Hao Li",
+        "Shuchang Zhou",
+        "Xianming Liu",
+        "Shiyu Huang"
+      ],
+      "upvotes": 38,
+      "github": "https://github.com/XPENG-AI/X-AuT",
+      "published": "2026-09-10T00:00:00.000Z"
+    },
+    {
+      "id": "2609.11561",
+      "title": "Memory as Plans: World-Action Modeling with Memory-Grounded Planning",
+      "authors": [
+        "Sizhe Zhao",
+        "Haozhe Xie",
+        "Weiyu Zhao",
+        "Chenchu Zhang",
+        "Huan Wang",
+        "Chenyang Wang",
+        "Qinglin Liu",
+        "Shengping Zhang"
+      ],
+      "upvotes": 36,
+      "github": "https://github.com/aipixel/MaP-WAM",
+      "published": "2026-09-10T00:00:00.000Z"
+    },
+    {
+      "id": "2609.10712",
+      "title": "An Open Recipe for IMO Gold: Training Nemotron for Olympiad Mathematics",
+      "authors": [
+        "Ivan Moshkov",
+        "Stephen Ge",
+        "George Armstrong",
+        "Wei Du",
+        "Sadegh Mahdavi",
+        "Igor Gitman"
+      ],
+      "upvotes": 36,
+      "github": null,
+      "published": "2026-09-09T00:00:00.000Z"
+    },
+    {
+      "id": "2609.05903",
+      "title": "EvoSafeHarness: Evolving Model- and Domain-Specific Harnesses for Securing Agents",
+      "authors": [
+        "Nanxi Li",
+        "Yingzi Ma",
+        "Yulong Cao",
+        "Edward Suh",
+        "Bo Li",
+        "Dawn Song",
+        "Chaowei Xiao"
+      ],
+      "upvotes": 32,
+      "github": "https://github.com/SaFo-Lab/EvoSafeHarness",
+      "published": "2026-09-05T00:00:00.000Z"
+    },
+    {
+      "id": "2609.11085",
+      "title": "Beyond Solver Verdicts: Generative Reward Models for Autoformalization",
+      "authors": [
+        "Vikash Singh",
+        "Debargha Ganguly",
+        "Aman Goel",
+        "Ali Torkamani",
+        "Xiaoxue Han",
+        "Joseph Lilien",
+        "Ferhat Erata",
+        "Vipin Chaudhary"
+      ],
+      "upvotes": 27,
+      "github": null,
+      "published": "2026-09-10T00:00:00.000Z"
+    },
+    {
+      "id": "2609.11699",
+      "title": "Negative Self-Distillation: Learning to Reason by Avoiding Flaws",
+      "authors": [
+        "Rongcan Pei",
+        "Zhepei Wei",
+        "Shuyao Xu",
+        "Xinyu Zhu",
+        "Wei-Lin Chen",
+        "Yu Meng"
+      ],
+      "upvotes": 26,
+      "github": "https://github.com/Prongcan/NSD",
+      "published": "2026-09-10T00:00:00.000Z"
+    },
+    {
+      "id": "2609.11486",
+      "title": "FreeFlow: A Bias-free Hierarchical Transformer for Optical Flow Estimation",
+      "authors": [
+        "Vladislav Bargatin",
+        "Alexander Yakovenko",
+        "Khaled Abud",
+        "Dmitriy Vatolin"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/msu-video-group/freeflow",
+      "published": "2026-09-10T00:00:00.000Z"
+    },
+    {
+      "id": "2609.11499",
+      "title": "Recursive Code World Models: Building Complex Worlds through Recursive Scene Programs",
+      "authors": [
+        "Zhiqi Li",
+        "Yuxuan Liao",
+        "Bo Zhu"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/ZhiqiLi-CG/RecursiveCWM_code",
+      "published": "2026-09-10T00:00:00.000Z"
+    },
+    {
+      "id": "2609.11548",
+      "title": "World in World: Explore the World with World Models",
+      "authors": [
+        "Chenxi Song",
+        "Yanming Yang",
+        "Chi Zhang"
+      ],
+      "upvotes": 23,
+      "github": null,
+      "published": "2026-09-10T00:00:00.000Z"
+    },
+    {
+      "id": "2609.10445",
+      "title": "Building Multilingual Bridges: Data Mixing as the Pillar of Generalization for In-Language Reasoning",
+      "authors": [
+        "Mehrnaz Mofakhami",
+        "Ananya Sahu",
+        "Alejandro R. Salamanca",
+        "Daniel D&#39;souza",
+        "Alexandre Berard",
+        "Thomas Euyang",
+        "Marzieh Fadaee",
+        "Julia Kreutzer"
+      ],
+      "upvotes": 22,
+      "github": null,
+      "published": "2026-09-09T00:00:00.000Z"
+    },
+    {
+      "id": "2609.01515",
+      "title": "TempCloze: Can Video-LLMs Identify the Missing Middle?",
+      "authors": [
+        "Wenqi Pei",
+        "Henry Hengyuan Zhao",
+        "Yilai Liu",
+        "Jiahao Meng",
+        "Han Chen",
+        "Ziyu Wang",
+        "Hongyang Du"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/CedricPei/Temporal-Cloze",
+      "published": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "id": "2609.09143",
+      "title": "Studying Image Tokenizers as Visual Languages in Unified Multimodal Models",
+      "authors": [
+        "Siting Li",
+        "Zhengyang Wang",
+        "Simon Shaolei Du",
+        "Xi Chen",
+        "Yang Liu"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/amazon-far/Tokenizer_UMM",
+      "published": "2026-09-08T00:00:00.000Z"
+    },
+    {
+      "id": "2609.10016",
+      "title": "MetroLLM-Bench: Evaluating Language Models as Transit Kiosk Runtimes",
+      "authors": [
+        "Remco Hendriks"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/continker/metrollm-bench",
+      "published": "2026-09-09T00:00:00.000Z"
+    },
+    {
+      "id": "2609.09076",
+      "title": "ActReview: Rebuttal-Guided Training Data and Rubric Rewards for Actionable Peer Review Generation",
+      "authors": [
+        "Yiling Ma",
+        "Yilun Zhao",
+        "Sihong Wu",
+        "Ziyu Chen",
+        "Manasi Patwardhan",
+        "Arman Cohan"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/Yiling-Ma/ActReview",
+      "published": "2026-09-08T00:00:00.000Z"
+    },
+    {
+      "id": "2609.11155",
+      "title": "DRG-MAPPO: Hierarchical Dynamic Role-Graph Multi-Agent Reinforcement Learning for Cooperative Air Combat",
+      "authors": [
+        "Junlin Liu",
+        "Chengwei Li",
+        "Yang Gao",
+        "Hui Chang",
+        "Xinchen Zhang",
+        "Zhijun Zhao",
+        "Hao Zhao"
+      ],
+      "upvotes": 20,
+      "github": null,
+      "published": "2026-09-10T00:00:00.000Z"
+    },
+    {
+      "id": "2608.27875",
+      "title": "HyQuant: Hybrid-Precision Quantization for LLM Attention",
+      "authors": [
+        "Jiatong Ding",
+        "Bingxin Xing",
+        "Yu Zhang",
+        "Dian Ding",
+        "Xiaodong Yi",
+        "Xianbin Ouyang",
+        "Feihu Zhou",
+        "Kun Zhang",
+        "Zhenyu Guo",
+        "Hao Pan",
+        "Guangtao Xue",
+        "Yiming Zhang"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/jerrysfls/HyQuant",
+      "published": "2026-08-28T00:00:00.000Z"
+    },
+    {
+      "id": "2609.10539",
+      "title": "IdeaAMBIG: Benchmarking Implementation-Critical Gaps in Research-Idea Specifications",
+      "authors": [
+        "Yiling Ma",
+        "Yilun Zhao",
+        "Sihong Wu",
+        "Manasi Patwardhan",
+        "Arman Cohan"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/Yiling-Ma/IdeaAMBIG",
+      "published": "2026-09-09T00:00:00.000Z"
+    },
+    {
+      "id": "2608.15380",
+      "title": "Adaptive Bridge: A Proxy-Based Decoupling Layer for Mitigating DDS Backpressure in ROS 2",
+      "authors": [
+        "Kaushalraj Puwar",
+        "B. Thangaraju"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/KaushalrajPuwar/adaptive-bridge",
+      "published": "2026-09-06T00:00:00.000Z"
+    },
+    {
+      "id": "2609.06931",
+      "title": "CARDEA: Auditable Reasoning Grounded in Spatial Evidence for End-to-End Coronary Angiography Interpretation",
+      "authors": [
+        "Jia-Jen Lee",
+        "Shih-Yen Hou",
+        "Kee Koon Ng",
+        "Wei-Chun Wang",
+        "Shih-Sheng Chang"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/benbayibaurba/cardea",
+      "published": "2026-09-07T00:00:00.000Z"
+    },
+    {
+      "id": "2609.11808",
+      "title": "Generative Late-Interaction Embeddings For Visual Document Retrieval",
+      "authors": [
+        "Mohamed Eltahir",
+        "Talal Aloushan",
+        "Rose Khairoalsendi",
+        "Jana Shata",
+        "Mohammed Alhassan",
+        "Leen Alrehaili",
+        "Tanveer Hussain",
+        "Naeemullah Khan"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/mohammad2012191/GLIE",
+      "published": "2026-09-10T00:00:00.000Z"
+    },
+    {
+      "id": "2609.10745",
+      "title": "Think Before You Link: Rarity, Reasoning, and Retrieval in Multilingual Entity Linking",
+      "authors": [
+        "Parinthapat Pengpun",
+        "Simran Khanuja",
+        "Graham Neubig"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/neulab/think-before-you-link",
+      "published": "2026-09-09T00:00:00.000Z"
+    },
+    {
+      "id": "2609.11156",
+      "title": "UniH^3: Unifying Hierarchical Homogeneity and Heterogeneity for All-in-One Medical Image Restoration",
+      "authors": [
+        "Zhiwen Yang",
+        "Jiayin Li",
+        "Chengyu Liu",
+        "Hui Zhang",
+        "Bingzheng Wei",
+        "Yan Xu"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/Yaziwel/UniH3",
+      "published": "2026-09-10T00:00:00.000Z"
+    }
+  ]
+}

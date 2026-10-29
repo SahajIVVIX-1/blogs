@@ -1,0 +1,817 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-06-23",
+  "fetched_at": "2026-10-29T15:36:01.220Z",
+  "candidates": [
+    {
+      "id": "2606.23050",
+      "title": "Unlimited OCR Works",
+      "authors": [
+        "Youyang Yin",
+        "Huanhuan Liu",
+        "YY",
+        "Qunyi Xie",
+        "Chaorun Liu",
+        "Shiqi Yang",
+        "Shaohua Wang",
+        "Zhanlong Liu",
+        "Hao Zou",
+        "Jinyue Chen",
+        "Shu Wei",
+        "Jingjing Wu",
+        "Mingxin Huang",
+        "Zhen Wu",
+        "Guibin Wang",
+        "Tengyu Du",
+        "Lei Jia"
+      ],
+      "upvotes": 105,
+      "github": "https://github.com/baidu/Unlimited-OCR",
+      "published": "2026-06-22T00:00:00.000Z"
+    },
+    {
+      "id": "2606.22388",
+      "title": "PlanBench-XL: Evaluating Long-Horizon Planning of LLM Tool-Use Agents in Large-Scale Tool Ecosystems",
+      "authors": [
+        "Jiayu Liu",
+        "Qihan Lin",
+        "Cheng Qian",
+        "Rui Wang",
+        "Emre Can Acikgoz",
+        "Xiaocheng Yang",
+        "Jiateng Liu",
+        "Zhenhailong Wang",
+        "Xiusi Chen",
+        "Heng Ji",
+        "Dilek Hakkani-Tür"
+      ],
+      "upvotes": 96,
+      "github": "https://github.com/JiayuJeff/PlanBench-XL",
+      "published": "2026-06-21T00:00:00.000Z"
+    },
+    {
+      "id": "2606.20945",
+      "title": "Grouped Query Experts: Mixture-of-Experts on GQA Self-Attention",
+      "authors": [
+        "Vishesh Tripathi",
+        "Abhay Kumar"
+      ],
+      "upvotes": 81,
+      "github": null,
+      "published": "2026-06-18T00:00:00.000Z"
+    },
+    {
+      "id": "2606.23654",
+      "title": "EnterpriseClawBench: Benchmarking Agents from Real Workplace Sessions",
+      "authors": [
+        "Jincheng Zhong",
+        "Weizhi Wang",
+        "Che Jiang",
+        "Kai Tian",
+        "Zhenzhao Yuan",
+        "Junlin Yang",
+        "Dianqiao Lei",
+        "Kaiyan Zhang"
+      ],
+      "upvotes": 81,
+      "github": "https://github.com/FrontisAI/EnterpriseClawBench",
+      "published": "2026-06-22T00:00:00.000Z"
+    },
+    {
+      "id": "2606.20781",
+      "title": "World Action Models: A Survey",
+      "authors": [
+        "Qiuhong Shen",
+        "Shihua Zhang",
+        "Yue Liao",
+        "Qi Li",
+        "Zhenxiong Tan",
+        "Shizun Wang",
+        "Shuicheng Yan",
+        "Xinchao Wang"
+      ],
+      "upvotes": 59,
+      "github": "https://github.com/world-action-models/awesome-world-action-models",
+      "published": "2026-06-18T00:00:00.000Z"
+    },
+    {
+      "id": "2606.22807",
+      "title": "KaLM-Reranker-V1: Fast but Not Late Interaction for Compressed Document Reranking",
+      "authors": [
+        "Xinping Zhao",
+        "Jiaxin Xu",
+        "Ziqi Dai",
+        "Xin Zhang",
+        "Shouzheng Huang",
+        "Danyu Tang",
+        "Xinshuo Hu",
+        "Meishan Zhang",
+        "Baotian Hu",
+        "Min Zhang"
+      ],
+      "upvotes": 49,
+      "github": "https://github.com/HITsz-TMG/Lychee-Reranker",
+      "published": "2026-06-22T00:00:00.000Z"
+    },
+    {
+      "id": "2606.19409",
+      "title": "OpenRath: Session-Centered Runtime State for Agent Systems",
+      "authors": [
+        "Fukang Wen",
+        "Zhijie Wang",
+        "Ruilin Xu"
+      ],
+      "upvotes": 48,
+      "github": "https://github.com/Rath-Team/OpenRath",
+      "published": "2026-06-17T00:00:00.000Z"
+    },
+    {
+      "id": "2606.21337",
+      "title": "DataClaw0: Agentic Tailoring Multimodal Data from Raw Streams",
+      "authors": [
+        "Cong Wan",
+        "Zeyu Guo",
+        "Zijian Cai",
+        "Jiangyang Li",
+        "SongLin Dong",
+        "Lin Peng",
+        "Xiangyang Luo",
+        "Zhiheng Ma",
+        "Yihong Gong"
+      ],
+      "upvotes": 45,
+      "github": "https://github.com/vancyland/DataClaw0",
+      "published": "2026-06-19T00:00:00.000Z"
+    },
+    {
+      "id": "2606.22883",
+      "title": "CLI-Universe: Towards Verifiable Task Synthesis Engine for Terminal Agents",
+      "authors": [
+        "Zhanbo Hua",
+        "Yifan Yao",
+        "Weihao Xie",
+        "Yongchi Zhao",
+        "Minghao Liu",
+        "Ruizhi Qiu",
+        "Zhewei Huang",
+        "Zun Wang",
+        "Yiyan Ji",
+        "Yunhai Ye",
+        "Letian Zhu",
+        "Xinping Lei",
+        "Han Li",
+        "Zhiyuan Ma",
+        "Zili Wang",
+        "Zhaoxiang Zhang",
+        "Jiaheng Liu"
+      ],
+      "upvotes": 38,
+      "github": null,
+      "published": "2026-06-22T00:00:00.000Z"
+    },
+    {
+      "id": "2606.21649",
+      "title": "EvoEmbedding: Evolvable Representations for Long-Context Retrieval and Agentic Memory",
+      "authors": [
+        "Chang Nie",
+        "Chaoyou Fu",
+        "Junlan Feng",
+        "Caifeng Shan"
+      ],
+      "upvotes": 36,
+      "github": "https://github.com/MiG-NJU/EvoEmbedding",
+      "published": "2026-06-19T00:00:00.000Z"
+    },
+    {
+      "id": "2606.21906",
+      "title": "Deeper is Not Always Better: Mitigating the Alignment Tax via Confident Layer Decoding",
+      "authors": [
+        "Xuanming Zhang",
+        "Sining Zhoubian",
+        "Yuxuan Chen",
+        "Tianyi Tang",
+        "An Yang",
+        "Sean Du",
+        "Chujie Zheng",
+        "Fei Huang",
+        "Dayiheng Liu",
+        "Gao Huang",
+        "Jingren Zhou"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/QwenLM/Confident-Decoding",
+      "published": "2026-06-20T00:00:00.000Z"
+    },
+    {
+      "id": "2606.22138",
+      "title": "BioMatrix: Towards a Comprehensive Biological Foundation Model Spanning the Modality Matrix of Sequences, Structures, and Language",
+      "authors": [
+        "Qizhi Pei",
+        "Zhimeng Zhou",
+        "Yi Duan",
+        "Yiyang Zhao",
+        "Wei Li",
+        "Han Guo",
+        "Liang He",
+        "Chengping Li",
+        "Chang-Yu Hsieh",
+        "Conghui He",
+        "Rui Yan",
+        "Lijun Wu"
+      ],
+      "upvotes": 26,
+      "github": "https://github.com/QizhiPei/BioMatrix",
+      "published": "2026-06-20T00:00:00.000Z"
+    },
+    {
+      "id": "2606.20636",
+      "title": "SkillHarness: Harnessing Safe Skills for Computer-Use Agents",
+      "authors": [
+        "Yurun Chen",
+        "Biao Yi",
+        "Keting Yin",
+        "Shengyu Zhang"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/YurunChen/SkillHarness",
+      "published": "2026-06-02T00:00:00.000Z"
+    },
+    {
+      "id": "2606.23525",
+      "title": "Self-Compacting Language Model Agents",
+      "authors": [
+        "Tianjian Li",
+        "Jingyu Zhang",
+        "William Jurayj",
+        "Xi Wang",
+        "Chuanyang Jin",
+        "Mehrdad Farajtabar",
+        "Eric Nalisnick",
+        "Daniel Khashabi"
+      ],
+      "upvotes": 19,
+      "github": null,
+      "published": "2026-06-22T00:00:00.000Z"
+    },
+    {
+      "id": "2606.23049",
+      "title": "Training Open Models for Agentic Phone Use",
+      "authors": [
+        "Zhengyang Tang",
+        "Xin Lai",
+        "Pengyuan Lyu",
+        "Xinyuan Wang",
+        "Tianyi Bai",
+        "Chenxin Li",
+        "Yiduo Guo",
+        "Huawen Shen",
+        "Yuxuan Liu",
+        "Junyi Li",
+        "Zhengyao Fang",
+        "Yang Ding",
+        "Yi Zhang",
+        "Weinong Wang",
+        "Xingran Zhou",
+        "Liang Wu",
+        "Fei Tang",
+        "Sunqi Fan",
+        "Shangpin Peng",
+        "Zheng Ruan",
+        "Anran Zhang",
+        "Benyou Wang",
+        "Ji-Rong Wen",
+        "Rui Yan",
+        "Chengquan Zhang",
+        "Han Hu"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/PhoneBuddyAI/phonebuddy",
+      "published": "2026-06-22T00:00:00.000Z"
+    },
+    {
+      "id": "2606.23321",
+      "title": "Tmax: A simple recipe for terminal agents",
+      "authors": [
+        "Hamish Ivison",
+        "Junjie Oscar Yin",
+        "Rulin Shao",
+        "Teng Xiao",
+        "Nathan Lambert",
+        "Hannaneh Hajishirzi"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/hamishivi/tmax",
+      "published": "2026-06-22T00:00:00.000Z"
+    },
+    {
+      "id": "2606.20097",
+      "title": "HydraHead: From Head-Level Functional Heterogeneity to Specialized Attention Hybridization",
+      "authors": [
+        "Zhentao Tan",
+        "Wei Chen",
+        "Jingyi Shen",
+        "Yao Liu",
+        "Xu Shen",
+        "Yue Wu",
+        "Jieping Ye"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2026-06-18T00:00:00.000Z"
+    },
+    {
+      "id": "2606.18648",
+      "title": "Deep Research in Physical Sciences: A Multi-Agent Framework and Comprehensive Benchmark",
+      "authors": [
+        "Yigeng Jiang",
+        "Tengchao Yang",
+        "Taoyong Cui",
+        "Jiaxing Wan",
+        "Yuan Wang",
+        "Weida Wang",
+        "Zhiyu Liu",
+        "Chuyi Peng",
+        "Binzhao Luo",
+        "Maoli Gao",
+        "Huaihai Huang",
+        "Yuqianer Zeng",
+        "Ziyang Zheng",
+        "Dongchen Huang",
+        "Chao Chen",
+        "Zichao Liu",
+        "Weiping Shen",
+        "Shuchen Pu",
+        "Siyu Zhou",
+        "Runmin Ma",
+        "Yusong Hu",
+        "Fei Chao",
+        "Bo Zhang",
+        "Xiawu Zheng",
+        "Zifu Wang",
+        "Lei Bai",
+        "Yunqi Cai",
+        "Shufei Zhang"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/yigengjiang/physci-deepresearch",
+      "published": "2026-06-17T00:00:00.000Z"
+    },
+    {
+      "id": "2606.11897",
+      "title": "Notes2Skills: From Lab Notebooks to Certainty-Aware Scientific Agent Skills",
+      "authors": [
+        "Shi Liu",
+        "Jiayao Chen",
+        "Chengwei Qin",
+        "Yanqing Hu",
+        "Jufan Zhang",
+        "Linyi Yang"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2026-06-10T00:00:00.000Z"
+    },
+    {
+      "id": "2606.23085",
+      "title": "Foresight: Failure Detection for Long-Horizon Robotic Manipulation with Action-Conditioned World Model Latents",
+      "authors": [
+        "Haoran Zhang",
+        "Yifu Lu",
+        "Boyang Wang",
+        "Xuhui Kang",
+        "Yen-Ling Kuo",
+        "Zezhou Cheng",
+        "Mengdi Wang",
+        "Odest Chadwicke Jenkins"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2026-06-22T00:00:00.000Z"
+    },
+    {
+      "id": "2606.12871",
+      "title": "DailyReport: An Open-ended Benchmark for Evaluating Search Agents on Daily Search Tasks",
+      "authors": [
+        "Jingxuan Han",
+        "Wei Liu",
+        "Mingyang Zhu",
+        "Youpeng Wang",
+        "Ziwen Wang",
+        "Lin Qiu",
+        "Xuezhi Cao",
+        "Xunliang Cai",
+        "Zheren Fu",
+        "Licheng Zhang",
+        "Zhendong Mao"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/AGI-Eval-Official/DailyReport",
+      "published": "2026-06-11T00:00:00.000Z"
+    },
+    {
+      "id": "2606.21139",
+      "title": "PoLAR: Factorizing Extent and Mode in Latent Actions for Robot Policy Learning",
+      "authors": [
+        "Youngjoon Jeong",
+        "Jihwan Yu",
+        "Minsoo Jo",
+        "Junha Chun",
+        "Taesup Kim"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/joon-stack/PoLAR",
+      "published": "2026-06-19T00:00:00.000Z"
+    },
+    {
+      "id": "2606.18844",
+      "title": "Learning from Your Own Mistakes: Constructing Learnable Micro-Reflective Trajectories for Self-Distillation",
+      "authors": [
+        "Zhilin Huang",
+        "Hang Gao",
+        "Ziqiang Dong",
+        "Yuan Chen",
+        "Yifeng Luo",
+        "Chujun Qin",
+        "Jingyi Wang",
+        "Yang Yang",
+        "Guanjun Jiang"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2026-06-17T00:00:00.000Z"
+    },
+    {
+      "id": "2606.23610",
+      "title": "Vera: A Layered Diffusion Model for Content-Preserving Video Editing",
+      "authors": [
+        "Hongkai Zheng",
+        "Ta-Ying Cheng",
+        "Benjamin Klein",
+        "Yisong Yue",
+        "Zhuoning Yuan"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2026-06-22T00:00:00.000Z"
+    },
+    {
+      "id": "2606.23670",
+      "title": "Tapered Language Models",
+      "authors": [
+        "Reza Bayat",
+        "Ali Behrouz",
+        "Aaron Courville"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2026-06-22T00:00:00.000Z"
+    },
+    {
+      "id": "2606.20002",
+      "title": "Connect the Dots: Training LLMs for Long-Lifecycle Agents with Cross-Domain Generalization Via Reinforcement Learning",
+      "authors": [
+        "Yanxi Chen",
+        "Weijie Shi",
+        "Yuexiang Xie",
+        "Boyi Hu",
+        "Yaliang Li",
+        "Bolin Ding",
+        "Jingren Zhou"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2026-06-18T00:00:00.000Z"
+    },
+    {
+      "id": "2606.11075",
+      "title": "Exploring the Design Space of Reward Backpropagation for Flow Matching",
+      "authors": [
+        "Ruoyu Wang",
+        "Boye Niu",
+        "Xiangxin Zhou",
+        "Yushi Huang",
+        "Tongliang Liu",
+        "Chi Zhang"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/RuoyuWang-2077/FlowBP",
+      "published": "2026-06-09T16:36:54.000Z"
+    },
+    {
+      "id": "2606.18831",
+      "title": "Beyond Reward Engineering: A Data Recipe for Long-Context Reinforcement Learning",
+      "authors": [
+        "Xiaoyue Xu",
+        "Sikui Zhang",
+        "Xiaorong Wang",
+        "Xu Han",
+        "Chaojun Xiao"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2026-06-17T00:00:00.000Z"
+    },
+    {
+      "id": "2606.21638",
+      "title": "Toward Open Weight Models Without Risks: Separating Public and Private Capabilities in LLMs",
+      "authors": [
+        "Charbel El Feghali",
+        "Arkil Patel",
+        "Nicholas Meade",
+        "Spandana Gella",
+        "Verna Dankers",
+        "Siva Reddy"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/McGill-NLP/tiered-language-models",
+      "published": "2026-06-19T00:00:00.000Z"
+    },
+    {
+      "id": "2606.21627",
+      "title": "Counsel: A Meta-Evaluation Dataset for Agentic Tasks",
+      "authors": [
+        "Sashank Pisupati",
+        "Henry Broomfield",
+        "Eujeong Choi",
+        "Antonia Calvi",
+        "Charlie Wang",
+        "Roman Engeler",
+        "Max Bartolo",
+        "Patrick Lewis"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2026-06-19T00:00:00.000Z"
+    },
+    {
+      "id": "2606.23608",
+      "title": "Causal Discovery in the Era of Agents",
+      "authors": [
+        "Yujia Zheng",
+        "Vishal Verma",
+        "Mantej Gill",
+        "Haoyue Dai",
+        "Peter Spirtes",
+        "Kun Zhang"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/py-why/causal-learn",
+      "published": "2026-06-22T00:00:00.000Z"
+    },
+    {
+      "id": "2606.23267",
+      "title": "Safe Few-Step Generation via Velocity Editing",
+      "authors": [
+        "Yujin Choi",
+        "Jaehong Yoon"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/uzn36/Safe_Velocity_Editing",
+      "published": "2026-06-22T00:00:00.000Z"
+    },
+    {
+      "id": "2606.23557",
+      "title": "Dense Reward for Multi-View 3D Reasoning with Global Maps and Local Views",
+      "authors": [
+        "Jiho Choi",
+        "Seonho Lee",
+        "Seojeong Park",
+        "Hyunjung Shim"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/kaist-cvml/DR-MV3D",
+      "published": "2026-06-22T00:00:00.000Z"
+    },
+    {
+      "id": "2606.23688",
+      "title": "Lift4D: Harmonizing Single-View 3D Estimation for 4D Reconstruction In-the-Wild",
+      "authors": [
+        "Yehonathan Litman",
+        "Xiaoxuan Ma",
+        "Manan Shah",
+        "Nicolas Ugrinovic",
+        "Kris Kitani",
+        "Fernando De la Torre",
+        "Shubham Tulsiani"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/yehonathanlitman/Lift4D",
+      "published": "2026-06-22T00:00:00.000Z"
+    },
+    {
+      "id": "2606.23514",
+      "title": "Arbor: Explicit Geometric Conditioning for Controllable 3D Asset Generation",
+      "authors": [
+        "Jan-Niklas Dihlmann",
+        "Andreas Engelhardt",
+        "Simon Donne",
+        "Hendrik P. A. Lensch",
+        "Mark Boss"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/Stability-AI/arbor",
+      "published": "2026-06-22T00:00:00.000Z"
+    },
+    {
+      "id": "2606.23489",
+      "title": "MeshFlow: Mesh Generation with Equivariant Flow Matching",
+      "authors": [
+        "Qi Sun",
+        "Kiyohiro Nakayama",
+        "Jing Nathan Yan",
+        "Qixing Huang",
+        "Alexander Rush",
+        "Leonidas Guibas",
+        "Gordon Wetzstein",
+        "Jing Liao",
+        "Guandao Yang"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/qiisun/MeshFlow",
+      "published": "2026-06-22T00:00:00.000Z"
+    },
+    {
+      "id": "2606.22540",
+      "title": "PolicyTrim: Boosting Intrinsic Policy Efficiency of Vision-Language-Action Models",
+      "authors": [
+        "Xianghui Wang",
+        "Feng Chen",
+        "Wenbo Zhang",
+        "Hua Yan",
+        "Zixuan Wang",
+        "Changsheng Li",
+        "Yinjie Lei"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/INCEPTIONwang/PolicyTrim",
+      "published": "2026-06-21T00:00:00.000Z"
+    },
+    {
+      "id": "2606.21777",
+      "title": "CalVerT: Augmenting Agents with Calibrated Verifier Telemetry Improves Action and Learning in Knowledge-Intensive Tasks",
+      "authors": [
+        "Ashwin Vinod",
+        "Ying Ding",
+        "Elias Stengel-Eskin"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/ashwinn-v/CalVerT",
+      "published": "2026-06-19T00:00:00.000Z"
+    },
+    {
+      "id": "2606.19603",
+      "title": "Comparing Linear Probes with Mahalanobis Cosine Similarity",
+      "authors": [
+        "Zhuofan Josh Ying",
+        "Peter Hase",
+        "Nikolaus Kriegeskorte"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-06-17T00:00:00.000Z"
+    },
+    {
+      "id": "2606.20891",
+      "title": "Go-with-the-Track: Video Compositing and Motion Control with Point Tracking",
+      "authors": [
+        "Koichi Namekata",
+        "Yash Kant",
+        "Zhizheng Liu",
+        "Ryan D Burgert",
+        "Yuancheng Xu",
+        "Kuan Heng Lin",
+        "Emmett Steven",
+        "Julien Philip",
+        "Li Ma",
+        "Andrea Vedaldi",
+        "Paul Debevec",
+        "Ning Yu"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/Eyeline-Labs/Go-with-the-Track",
+      "published": "2026-06-18T00:00:00.000Z"
+    },
+    {
+      "id": "2606.20980",
+      "title": "Robusto-2: Benchmarking Humans & VLMs for Autonomous Driving in Lima & New York City",
+      "authors": [
+        "Adrian Cespedes",
+        "Marcelo Chincha",
+        "Dunant Cusipuma",
+        "Victor Flores-Benites",
+        "David Ortega",
+        "Arturo Deza"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-06-18T00:00:00.000Z"
+    },
+    {
+      "id": "2606.16246",
+      "title": "Demystifying Training-Time Augmentation for Data-Constrained Language Model Pretraining",
+      "authors": [
+        "Michael K. Chen",
+        "Xikun Zhang",
+        "Fan Bai",
+        "Zhengding Hu",
+        "Zhen Wang"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/michaelchen-lab/data-augmentations-for-pretraining",
+      "published": "2026-06-19T00:00:00.000Z"
+    },
+    {
+      "id": "2606.14971",
+      "title": "FastMix: Fast Data Mixture Optimization via Gradient Descent",
+      "authors": [
+        "Haoru Tan",
+        "Sitong Wu",
+        "Yanfeng Chen",
+        "Jun Xia",
+        "Ruobing Xie",
+        "Bin Xia",
+        "Xingwu Sun",
+        "Xiaojuan Qi"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/hrtan/fastmix",
+      "published": "2026-06-12T00:00:00.000Z"
+    },
+    {
+      "id": "2606.19750",
+      "title": "Manifold Bandits: Bayesian Curriculum Learning over the Latent Geometry of Large Language Models",
+      "authors": [
+        "Darrien McKenzie",
+        "Nicklas Hansen",
+        "Xiaolong Wang"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/DarrienMcKenzie/manifold-bandits",
+      "published": "2026-06-18T00:00:00.000Z"
+    },
+    {
+      "id": "2606.21884",
+      "title": "A Verifiable Search Is Not a Learnable Chain-of-Thought",
+      "authors": [
+        "Harsh Patel"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/harshpatel1692/search-not-learnable",
+      "published": "2026-06-20T00:00:00.000Z"
+    },
+    {
+      "id": "2606.22778",
+      "title": "HAKARI-Bench: A Lightweight Benchmark for Comparing Retrieval Architectures and Efficiency Settings under Unified Conditions",
+      "authors": [
+        "Yuichi Tateno"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/hakari-bench/hakari-bench",
+      "published": "2026-06-22T00:00:00.000Z"
+    },
+    {
+      "id": "2606.23503",
+      "title": "UniverSat: Resolution- and Modality-Agnostic Transformers for Earth Observation",
+      "authors": [
+        "Yohann Perron",
+        "Guillaume Astruc",
+        "Nicolas Gonthier",
+        "Clement Mallet",
+        "Loic Landrieu"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/gastruc/UniverSat",
+      "published": "2026-06-22T00:00:00.000Z"
+    },
+    {
+      "id": "2606.22936",
+      "title": "When Agents Commit Too Soon: Diagnosing Premature Commitment in LLM Agents",
+      "authors": [
+        "Aman Mehta"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2026-06-22T00:00:00.000Z"
+    },
+    {
+      "id": "2606.22708",
+      "title": "Libretto: Giving LLM Agents a Sense of Musical Structure",
+      "authors": [
+        "Yichen Xu"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/Xyc-arch/Libretto",
+      "published": "2026-06-21T00:00:00.000Z"
+    },
+    {
+      "id": "2606.23189",
+      "title": "Capable but Careless: Do Computer-Use Agents Follow Contextual Integrity?",
+      "authors": [
+        "Anmol Goel",
+        "Iryna Gurevych"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/UKPLab/arxiv2026-agentcibench",
+      "published": "2026-06-22T00:00:00.000Z"
+    }
+  ]
+}

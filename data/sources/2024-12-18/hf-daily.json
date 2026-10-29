@@ -1,0 +1,200 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-12-18",
+  "fetched_at": "2026-10-29T15:30:01.274Z",
+  "candidates": [
+    {
+      "id": "2412.13147",
+      "title": "Are Your LLMs Capable of Stable Reasoning?",
+      "authors": [
+        "Junnan Liu",
+        "Hongwei Liu",
+        "Linchen Xiao",
+        "Ziyi Wang",
+        "Kuikun Liu",
+        "Songyang Gao",
+        "Wenwei Zhang",
+        "Songyang Zhang",
+        "Kai Chen"
+      ],
+      "upvotes": 92,
+      "github": "https://github.com/open-compass/gpassk",
+      "published": "2024-12-17T18:12:47.000Z"
+    },
+    {
+      "id": "2412.13018",
+      "title": "OmniEval: An Omnidirectional and Automatic RAG Evaluation Benchmark in Financial Domain",
+      "authors": [
+        "Shuting Wang",
+        "Jiejun Tan",
+        "Zhicheng Dou",
+        "Ji-Rong Wen"
+      ],
+      "upvotes": 41,
+      "github": "https://github.com/RUC-NLPIR/OmniEval",
+      "published": "2024-12-17T15:38:42.000Z"
+    },
+    {
+      "id": "2412.12606",
+      "title": "Multi-Dimensional Insights: Benchmarking Real-World Personalization in Large Multimodal Models",
+      "authors": [
+        "YiFan Zhang",
+        "Shanglin Lei",
+        "Runqi Qiao",
+        "Zhuoma GongQue",
+        "Xiaoshuai Song",
+        "Guanting Dong",
+        "Qiuna Tan",
+        "Zhe Wei",
+        "Peiqing Yang",
+        "Ye Tian",
+        "Yadong Xue",
+        "Xiaofei Wang",
+        "Honggang Zhang"
+      ],
+      "upvotes": 41,
+      "github": "https://github.com/MDI-Benchmark/MDI-Benchmark",
+      "published": "2024-12-17T07:06:10.000Z"
+    },
+    {
+      "id": "2412.13171",
+      "title": "Compressed Chain of Thought: Efficient Reasoning Through Dense Representations",
+      "authors": [
+        "Jeffrey Cheng",
+        "Benjamin Van Durme"
+      ],
+      "upvotes": 35,
+      "github": null,
+      "published": "2024-12-17T18:50:33.000Z"
+    },
+    {
+      "id": "2412.10704",
+      "title": "VisDoM: Multi-Document QA with Visually Rich Elements Using Multimodal Retrieval-Augmented Generation",
+      "authors": [
+        "Manan Suri",
+        "Puneet Mathur",
+        "Franck Dernoncourt",
+        "Kanika Goswami",
+        "Ryan A. Rossi",
+        "Dinesh Manocha"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2024-12-14T06:24:55.000Z"
+    },
+    {
+      "id": "2412.12276",
+      "title": "Emergence of Abstractions: Concept Encoding and Decoding Mechanism for In-Context Learning in Transformers",
+      "authors": [
+        "Seungwook Han",
+        "Jinyeop Song",
+        "Jeff Gore",
+        "Pulkit Agrawal"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2024-12-16T19:00:18.000Z"
+    },
+    {
+      "id": "2412.13180",
+      "title": "Feather the Throttle: Revisiting Visual Token Pruning for Vision-Language Model Acceleration",
+      "authors": [
+        "Mark Endo",
+        "Xiaohan Wang",
+        "Serena Yeung-Levy"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2024-12-17T18:56:50.000Z"
+    },
+    {
+      "id": "2412.13194",
+      "title": "Proposer-Agent-Evaluator(PAE): Autonomous Skill Discovery For Foundation Model Internet Agents",
+      "authors": [
+        "Yifei Zhou",
+        "Qianlan Yang",
+        "Kaixiang Lin",
+        "Min Bai",
+        "Xiong Zhou",
+        "Yu-Xiong Wang",
+        "Sergey Levine",
+        "Erran Li"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/amazon-science/PAE",
+      "published": "2024-12-17T18:59:50.000Z"
+    },
+    {
+      "id": "2412.13389",
+      "title": "Marigold-DC: Zero-Shot Monocular Depth Completion with Guided Diffusion",
+      "authors": [
+        "Massimiliano Viola",
+        "Kevin Qu",
+        "Nando Metzger",
+        "Bingxin Ke",
+        "Alexander Becker",
+        "Konrad Schindler",
+        "Anton Obukhov"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/prs-eth/marigold-dc",
+      "published": "2024-12-18T00:06:41.000Z"
+    },
+    {
+      "id": "2412.11713",
+      "title": "Seeker: Towards Exception Safety Code Generation with Intermediate Language Agents Framework",
+      "authors": [
+        "Xuanming Zhang",
+        "Yuxuan Chen",
+        "Yiming Zheng",
+        "Zhexin Zhang",
+        "Yuan Yuan",
+        "Minlie Huang"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2024-12-16T12:35:29.000Z"
+    },
+    {
+      "id": "2412.10533",
+      "title": "SUGAR: Subject-Driven Video Customization in a Zero-Shot Manner",
+      "authors": [
+        "Yufan Zhou",
+        "Ruiyi Zhang",
+        "Jiuxiang Gu",
+        "Nanxuan Zhao",
+        "Jing Shi",
+        "Tong Sun"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2024-12-13T20:01:51.000Z"
+    },
+    {
+      "id": "2412.12877",
+      "title": "MIVE: New Design and Benchmark for Multi-Instance Video Editing",
+      "authors": [
+        "Samuel Teodoro",
+        "Agus Gunawan",
+        "Soo Ye Kim",
+        "Jihyong Oh",
+        "Munchurl Kim"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2024-12-17T13:00:04.000Z"
+    },
+    {
+      "id": "2412.12527",
+      "title": "When to Speak, When to Abstain: Contrastive Decoding with Abstention",
+      "authors": [
+        "Hyuhng Joon Kim",
+        "Youna Kim",
+        "Sang-goo Lee",
+        "Taeuk Kim"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2024-12-17T04:38:08.000Z"
+    }
+  ]
+}

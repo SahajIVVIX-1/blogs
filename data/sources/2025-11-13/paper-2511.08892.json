@@ -1,0 +1,7 @@
+{
+  "id": "2511.08892",
+  "html": "https://arxiv.org/html/2511.08892",
+  "limitations": null,
+  "conclusion": "We proposed Lumine, an open recipe that spans the entire lifecycle of developing generalist agents in 3D open world environments, from environment selection, data collection and preprocessing to interaction frequency, model design, training procedures, and inference optimization. Lumine offers a unified framework that organically integrates perception, reasoning, and action. The success of Lumine demonstrates that with only 2400 hours of raw gameplay data and 64 H100 GPUs, a small open-source VLM can be seamlessly and efficiently transformed into a powerful agent capable of following natural language instructions in real time to perform diverse tasks and complete hours-long missions in complex 3D open-worlds, without the need to modify model structures or loss functions. Experimental results also reveal substantial potential for further scaling. Lumine’s remarkable zero-shot generalizati",
+  "figure": null
+}

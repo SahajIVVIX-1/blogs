@@ -1,0 +1,421 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-08-28",
+  "fetched_at": "2026-10-29T15:36:41.346Z",
+  "candidates": [
+    {
+      "id": "2608.25518",
+      "title": "Agentic Game Development as a Verifiable Trajectory Data Engine for Scaling World Models",
+      "authors": [
+        "Pengfei Zhou",
+        "Hexin Wang",
+        "Zhengfeiyang Zhang",
+        "Yixing Ma",
+        "Zhenglin Wan",
+        "Kaipeng Zhang",
+        "Wangbo Zhao",
+        "Yang You"
+      ],
+      "upvotes": 85,
+      "github": null,
+      "published": "2026-08-26T00:00:00.000Z"
+    },
+    {
+      "id": "2608.27456",
+      "title": "UrbanGround: From Local Perception to Spatial Agency in a Real-Scale City",
+      "authors": [
+        "Tianjie Ju",
+        "Zheng Wu",
+        "Yueqing Sun",
+        "Yuhan Cui",
+        "Bobo Li",
+        "Shengqiong Wu",
+        "Pengzhou Cheng",
+        "Haodong Zhao",
+        "Zongru Wu",
+        "Xinbei Ma",
+        "Doris Zhang",
+        "Kunling Li",
+        "Mong-Li Lee",
+        "Wynne Hsu",
+        "Hao Fei",
+        "Qi Gu",
+        "Gongshen Liu",
+        "Zhuosheng Zhang"
+      ],
+      "upvotes": 84,
+      "github": "https://github.com/UrbanGround/UrbanGround",
+      "published": "2026-08-27T00:00:00.000Z"
+    },
+    {
+      "id": "2608.27448",
+      "title": "TTPO: Test-Time Policy Optimization",
+      "authors": [
+        "Aozhe Wang",
+        "Zhengxi Lu",
+        "Jianze Wang",
+        "Shangke Lv",
+        "Ying Liu",
+        "Weiming Lu",
+        "Jun Xiao",
+        "Yueting Zhuang",
+        "Hua Yang",
+        "Qianglong Chen",
+        "Yongliang Shen"
+      ],
+      "upvotes": 83,
+      "github": "https://github.com/ZJU-REAL/TTPO",
+      "published": "2026-08-27T00:00:00.000Z"
+    },
+    {
+      "id": "2608.27260",
+      "title": "What Makes Good Agentic Data? An ACE Lens on Data Generation for LLM Agents",
+      "authors": [
+        "Xingshan Zeng",
+        "Zishan Xu",
+        "Boju Zhang",
+        "Yuzhou Wu",
+        "Lingzhi Wang",
+        "Jianghao Lin",
+        "Liangyou Li",
+        "Yasheng Wang",
+        "Lifeng Shang",
+        "Xin Jiang",
+        "Weinan Zhang",
+        "Yong Yu",
+        "Qun Liu",
+        "Weiwen Liu"
+      ],
+      "upvotes": 74,
+      "github": null,
+      "published": "2026-08-27T00:00:00.000Z"
+    },
+    {
+      "id": "2608.26872",
+      "title": "Self-OPD: On-Policy Distillation for Flow Matching Models without Teacher",
+      "authors": [
+        "Shiyi Zhang",
+        "Mushui Liu",
+        "Yunze Tong",
+        "Wanggui He",
+        "Siyu Zou",
+        "Jinlong Liu",
+        "Yunlong Yu",
+        "Jian Song",
+        "Hao Jiang",
+        "Pipei Huang",
+        "Bo Zheng"
+      ],
+      "upvotes": 43,
+      "github": null,
+      "published": "2026-08-27T00:00:00.000Z"
+    },
+    {
+      "id": "2608.27345",
+      "title": "PAWBench: How Far Are We from Probabilistically Aligned World Modeling?",
+      "authors": [
+        "Yuandong Pu",
+        "Le Zhuo",
+        "Sayak Paul",
+        "Gabriel Jorge Menezes",
+        "Avram Đorđević",
+        "Shiyang Li",
+        "Yifan Zhou",
+        "Bin Fu",
+        "Wenlong Zhang",
+        "Junjun He",
+        "Yu Qiao",
+        "Yihao Liu",
+        "Jingbo Xing",
+        "Xi Chen"
+      ],
+      "upvotes": 38,
+      "github": "https://github.com/Andrew0613/PAWBench",
+      "published": "2026-08-27T00:00:00.000Z"
+    },
+    {
+      "id": "2608.27454",
+      "title": "WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution",
+      "authors": [
+        "Liyan Tang",
+        "Cyrus Rashtchian",
+        "Chun-Sung Ferng",
+        "Andrew Tomkins",
+        "Da-Cheng Juan",
+        "Tu Vu"
+      ],
+      "upvotes": 37,
+      "github": null,
+      "published": "2026-08-27T00:00:00.000Z"
+    },
+    {
+      "id": "2608.26530",
+      "title": "PILOT in the Loop: Live Self-Improvement for Long-Horizon Agents",
+      "authors": [
+        "Yang Xiao",
+        "Yusong Sun",
+        "Haoyi Wu",
+        "Wenyang Hui",
+        "Wen Da",
+        "Zhaokai Luo",
+        "Mu Chuan",
+        "Yao Hu",
+        "Wenjie Li",
+        "Chengyue Jiang"
+      ],
+      "upvotes": 36,
+      "github": null,
+      "published": "2026-08-27T00:00:00.000Z"
+    },
+    {
+      "id": "2608.26200",
+      "title": "GameWAM: A World Action Model for Video Games",
+      "authors": [
+        "Yuncheng Guo",
+        "Zhanqiu Zhang",
+        "Yiwen Guo",
+        "Weijia Li"
+      ],
+      "upvotes": 36,
+      "github": "https://github.com/yunncheng/GameWAM",
+      "published": "2026-08-25T00:00:00.000Z"
+    },
+    {
+      "id": "2608.15763",
+      "title": "Training Agents to Evolve with Their Harness: TaoLive Digital Avatar Agent Technical Report",
+      "authors": [
+        "TaoLive AIGC LLM Team",
+        "Yuhan Sun",
+        "Wenhao Lin",
+        "Yongdong Luo",
+        "Yibo Hu",
+        "Meiguang Jin",
+        "Junfeng Ma",
+        "Weihang Pan",
+        "Jiaxin Zhao",
+        "Zulong Chen"
+      ],
+      "upvotes": 26,
+      "github": null,
+      "published": "2026-08-22T00:00:00.000Z"
+    },
+    {
+      "id": "2608.26103",
+      "title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
+      "authors": [
+        "Jiaming Zhou",
+        "Qihang Zhang",
+        "Gangwei Xu",
+        "Cunxin Fan",
+        "Yujie Zhao",
+        "Ruilin Wang",
+        "Yiming Luo",
+        "Shuai Yang",
+        "Xing Zhu",
+        "Yujun Shen",
+        "Junwei Liang",
+        "Yinghao Xu"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/robbyant-research/Zero-WAM",
+      "published": "2026-08-26T00:00:00.000Z"
+    },
+    {
+      "id": "2608.27351",
+      "title": "Understanding Evolution Strategies for LLM Reasoning: Broader Reasoning Coverage than GRPO",
+      "authors": [
+        "Yunpeng Ba",
+        "Zhi Zheng",
+        "Yue Xie",
+        "Jiaqing Li",
+        "Xialiang Tong",
+        "Tao Zhong",
+        "Mingxuan Yuan",
+        "Zhichao Lu",
+        "Xuyang Wu",
+        "Zhenkun Wang"
+      ],
+      "upvotes": 21,
+      "github": null,
+      "published": "2026-08-27T00:00:00.000Z"
+    },
+    {
+      "id": "2608.26238",
+      "title": "Procedura: Agentic 3D Modeling with Procedural Control",
+      "authors": [
+        "Youtian Lin",
+        "Yikang Yang",
+        "Zhanpeng Hu",
+        "Mengqi Zhou",
+        "Feihu Zhang",
+        "Xun Cao",
+        "Jiaheng Liu",
+        "Yao Yao"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/SpatiaOS/Procedura",
+      "published": "2026-08-26T00:00:00.000Z"
+    },
+    {
+      "id": "2608.27455",
+      "title": "CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes",
+      "authors": [
+        "Yufan Wu",
+        "Yinghui He",
+        "Zhengyi Hu",
+        "Lang Wei",
+        "Ruichen Li",
+        "Qifan Yang",
+        "Ting Zhu"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2026-08-27T00:00:00.000Z"
+    },
+    {
+      "id": "2608.23943",
+      "title": "Luce: Relightable Gaussians for 3D Asset Generation",
+      "authors": [
+        "Mayank Singh",
+        "Michele Stoppa",
+        "Alvise Memo",
+        "Rui Yu",
+        "Harsha Kalli",
+        "Srimanth Gunturi",
+        "Muhammad Ahmed Riaz",
+        "Behrooz Shahsavari",
+        "Waleed Abdulla",
+        "David E. Jacobs"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2026-08-25T00:00:00.000Z"
+    },
+    {
+      "id": "2608.27168",
+      "title": "Magpie: Real-Time World Renderer for Interactive Games",
+      "authors": [
+        "Xiaoyu Zhan",
+        "Xinyu Wang",
+        "Xiaohong Zhang",
+        "Huanjie Zhu",
+        "Tengjiao Sun",
+        "Pengcheng Fang",
+        "Jiaxing Yu",
+        "Yanwen Guo",
+        "Dongjie Fu"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2026-08-27T00:00:00.000Z"
+    },
+    {
+      "id": "2608.23172",
+      "title": "CaRGo-T: Causal Reasoning Graph-of-Thought improves Multimodal Humor Comprehension",
+      "authors": [
+        "Abhilash Nandy",
+        "Rahul Seetharaman",
+        "Aman Bansal",
+        "Rounak Saha",
+        "Manav Nitin Kapadnis",
+        "Millon Madhur Das",
+        "Pawan Goyal",
+        "Niloy Ganguly"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/abhi1nandy2/CaRGo-T",
+      "published": "2026-08-24T00:00:00.000Z"
+    },
+    {
+      "id": "2608.26809",
+      "title": "Thinking on Shots: Consistent Multi-Shot Video Editing with Agentic Reasoning",
+      "authors": [
+        "Chenyang Wu",
+        "Fuchen Long",
+        "Binyuan Huang",
+        "Xinlong Sun",
+        "Xi Chen",
+        "Chun-Le Guo",
+        "Chongyi Li"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/Wucy0519/MMLVE",
+      "published": "2026-08-27T00:00:00.000Z"
+    },
+    {
+      "id": "2608.25500",
+      "title": "CaSKG: Counterfactual-Causal Skill Graphs for Scalable Agent Skill Retrieval",
+      "authors": [
+        "Zhiyuan Li",
+        "Linyuan Gao",
+        "Xuechun Ding",
+        "Hongwei Chen",
+        "Yuan Wu",
+        "Yi Chang"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/ZhiyuanLi218/Caskg",
+      "published": "2026-08-26T00:00:00.000Z"
+    },
+    {
+      "id": "2608.25798",
+      "title": "TacForcing: Streaming Action Generation with Execution-Time Tactile Feedback",
+      "authors": [
+        "Jianbo Zhou",
+        "Boyuan Zhao",
+        "Yuzheng Zhang",
+        "Yiyang Chen",
+        "Wenxin Chen",
+        "Qiuyue Li",
+        "Xiangyang Gu",
+        "Yuhan Cao",
+        "Xiao Xia",
+        "Yanzhe Hu",
+        "Zhijie Deng"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2026-08-26T00:00:00.000Z"
+    },
+    {
+      "id": "2608.19269",
+      "title": "What Does an Evaluation License? A Commit-Bound Census of Claim Replay in Inspect Evals",
+      "authors": [
+        "Xi Qin",
+        "Jizhou Tong"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2026-08-29T00:00:00.000Z"
+    },
+    {
+      "id": "2608.27123",
+      "title": "EditaLive! Unified Character Video Editing for Live Streaming",
+      "authors": [
+        "Zhiyuan Li",
+        "Chi-Man Pun",
+        "Peng-Tao Jiang",
+        "Bo Li",
+        "Xiaodong Cun"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/GVCLab/EditaLive",
+      "published": "2026-08-27T00:00:00.000Z"
+    },
+    {
+      "id": "2608.26993",
+      "title": "Aphanta: Diagnosing Task-Aligned Image-Edited Intermediates for Multimodal Reasoning",
+      "authors": [
+        "Hengyuan Xu",
+        "Wei Cheng",
+        "Yumeng Ji",
+        "Xuanyang Zhang",
+        "Xianfang Zeng",
+        "Gang Yu",
+        "Xingjun Ma"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2026-08-27T00:00:00.000Z"
+    }
+  ]
+}

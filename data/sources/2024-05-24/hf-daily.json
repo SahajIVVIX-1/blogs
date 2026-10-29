@@ -1,0 +1,286 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-05-24",
+  "fetched_at": "2026-10-29T15:27:54.498Z",
+  "candidates": [
+    {
+      "id": "2405.14333",
+      "title": "DeepSeek-Prover: Advancing Theorem Proving in LLMs through Large-Scale Synthetic Data",
+      "authors": [
+        "Huajian Xin",
+        "Daya Guo",
+        "Zhihong Shao",
+        "Zhizhou Ren",
+        "Qihao Zhu",
+        "Bo Liu",
+        "Chong Ruan",
+        "Wenda Li",
+        "Xiaodan Liang"
+      ],
+      "upvotes": 49,
+      "github": null,
+      "published": "2024-05-23T09:03:42.000Z"
+    },
+    {
+      "id": "2405.14860",
+      "title": "Not All Language Model Features Are Linear",
+      "authors": [
+        "Joshua Engels",
+        "Isaac Liao",
+        "Eric J. Michaud",
+        "Wes Gurnee",
+        "Max Tegmark"
+      ],
+      "upvotes": 40,
+      "github": "https://github.com/joshengels/multidimensionalfeatures",
+      "published": "2024-05-23T17:59:04.000Z"
+    },
+    {
+      "id": "2405.13800",
+      "title": "Dense Connector for MLLMs",
+      "authors": [
+        "Huanjin Yao",
+        "Wenhao Wu",
+        "Taojiannan Yang",
+        "YuXin Song",
+        "Mengxi Zhang",
+        "Haocheng Feng",
+        "Yifan Sun",
+        "Zhiheng Li",
+        "Wanli Ouyang",
+        "Jingdong Wang"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/HJYao00/DenseConnector",
+      "published": "2024-05-22T16:25:03.000Z"
+    },
+    {
+      "id": "2405.13865",
+      "title": "ReVideo: Remake a Video with Motion and Content Control",
+      "authors": [
+        "Chong Mou",
+        "Mingdeng Cao",
+        "Xintao Wang",
+        "Zhaoyang Zhang",
+        "Ying Shan",
+        "Jian Zhang"
+      ],
+      "upvotes": 24,
+      "github": null,
+      "published": "2024-05-22T17:46:08.000Z"
+    },
+    {
+      "id": "2405.14867",
+      "title": "Improved Distribution Matching Distillation for Fast Image Synthesis",
+      "authors": [
+        "Tianwei Yin",
+        "Michaël Gharbi",
+        "Taesung Park",
+        "Richard Zhang",
+        "Eli Shechtman",
+        "Fredo Durand",
+        "William T. Freeman"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/tianweiy/DMD2",
+      "published": "2024-05-23T17:59:49.000Z"
+    },
+    {
+      "id": "2405.14477",
+      "title": "LiteVAE: Lightweight and Efficient Variational Autoencoders for Latent Diffusion Models",
+      "authors": [
+        "Seyedmorteza Sadat",
+        "Jakob Buhmann",
+        "Derek Bradley",
+        "Otmar Hilliges",
+        "Romann M. Weber"
+      ],
+      "upvotes": 20,
+      "github": null,
+      "published": "2024-05-23T12:06:00.000Z"
+    },
+    {
+      "id": "2405.14105",
+      "title": "Distributed Speculative Inference of Large Language Models",
+      "authors": [
+        "Nadav Timor",
+        "Jonathan Mamou",
+        "Daniel Korat",
+        "Moshe Berchansky",
+        "Oren Pereg",
+        "Moshe Wasserblat",
+        "Tomer Galanti",
+        "Michal Gordon",
+        "David Harel"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/keyboardAnt/distributed-speculative-inference",
+      "published": "2024-05-23T02:14:17.000Z"
+    },
+    {
+      "id": "2405.13817",
+      "title": "Thermodynamic Natural Gradient Descent",
+      "authors": [
+        "Kaelan Donatella",
+        "Samuel Duffield",
+        "Maxwell Aifer",
+        "Denis Melanson",
+        "Gavin Crooks",
+        "Patrick J. Coles"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2024-05-22T16:47:03.000Z"
+    },
+    {
+      "id": "2405.14224",
+      "title": "DiM: Diffusion Mamba for Efficient High-Resolution Image Synthesis",
+      "authors": [
+        "Yao Teng",
+        "Yue Wu",
+        "Han Shi",
+        "Xuefei Ning",
+        "Guohao Dai",
+        "Yu Wang",
+        "Zhenguo Li",
+        "Xihui Liu"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/tyshiwo1/dim-diffusionmamba",
+      "published": "2024-05-23T06:53:18.000Z"
+    },
+    {
+      "id": "2405.14129",
+      "title": "AlignGPT: Multi-modal Large Language Models with Adaptive Alignment Capability",
+      "authors": [
+        "Fei Zhao",
+        "Taotian Pang",
+        "Chunhui Li",
+        "Zhen Wu",
+        "Junjie Guo",
+        "Shangyu Xing",
+        "Xinyu Dai"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/AlignGPT-VL/AlignGPT",
+      "published": "2024-05-23T03:07:56.000Z"
+    },
+    {
+      "id": "2405.14598",
+      "title": "Visual Echoes: A Simple Unified Transformer for Audio-Visual Generation",
+      "authors": [
+        "Shiqi Yang",
+        "Zhi Zhong",
+        "Mengjie Zhao",
+        "Shusuke Takahashi",
+        "Masato Ishii",
+        "Takashi Shibuya",
+        "Yuki Mitsufuji"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2024-05-23T14:13:16.000Z"
+    },
+    {
+      "id": "2405.13195",
+      "title": "CamViG: Camera Aware Image-to-Video Generation with Multimodal Transformers",
+      "authors": [
+        "Andrew Marmon",
+        "Grant Schindler",
+        "José Lezama",
+        "Dan Kondratyuk",
+        "Bryan Seybold",
+        "Irfan Essa"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2024-05-21T20:54:27.000Z"
+    },
+    {
+      "id": "2405.14677",
+      "title": "RectifID: Personalizing Rectified Flow with Anchored Classifier Guidance",
+      "authors": [
+        "Zhicheng Sun",
+        "Zhenhao Yang",
+        "Yang Jin",
+        "Haozhe Chi",
+        "Kun Xu",
+        "Kun Xu",
+        "Liwei Chen",
+        "Hao Jiang",
+        "Di Zhang",
+        "Yang Song",
+        "Kun Gai",
+        "Yadong Mu"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/feifeiobama/RectifID",
+      "published": "2024-05-23T15:12:15.000Z"
+    },
+    {
+      "id": "2405.14857",
+      "title": "Semantica: An Adaptable Image-Conditioned Diffusion Model",
+      "authors": [
+        "Manoj Kumar",
+        "Neil Houlsby",
+        "Emiel Hoogeboom"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2024-05-23T17:58:03.000Z"
+    },
+    {
+      "id": "2405.14871",
+      "title": "NeRF-Casting: Improved View-Dependent Appearance with Consistent Reflections",
+      "authors": [
+        "Dor Verbin",
+        "Pratul P. Srinivasan",
+        "Peter Hedman",
+        "Ben Mildenhall",
+        "Benjamin Attal",
+        "Richard Szeliski",
+        "Jonathan T. Barron"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2024-05-23T17:59:57.000Z"
+    },
+    {
+      "id": "2405.14847",
+      "title": "Neural Directional Encoding for Efficient and Accurate View-Dependent Appearance Modeling",
+      "authors": [
+        "Liwen Wu",
+        "Sai Bi",
+        "Zexiang Xu",
+        "Fujun Luan",
+        "Kai Zhang",
+        "Iliyan Georgiev",
+        "Kalyan Sunkavalli",
+        "Ravi Ramamoorthi"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2024-05-23T17:56:34.000Z"
+    },
+    {
+      "id": "2405.14866",
+      "title": "Tele-Aloha: A Low-budget and High-authenticity Telepresence System Using Sparse RGB Cameras",
+      "authors": [
+        "Hanzhang Tu",
+        "Ruizhi Shao",
+        "Xue Dong",
+        "Shunyuan Zheng",
+        "Hao Zhang",
+        "Lili Chen",
+        "Meili Wang",
+        "Wenyu Li",
+        "Siyan Ma",
+        "Shengping Zhang",
+        "Boyao Zhou",
+        "Yebin Liu"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2024-05-23T17:59:45.000Z"
+    }
+  ]
+}

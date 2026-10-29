@@ -1,0 +1,27 @@
+{
+  "id": "2308.06259",
+  "title": "Self-Alignment with Instruction Backtranslation",
+  "authors": [
+    "Xian Li",
+    "Ping Yu",
+    "Chunting Zhou",
+    "Timo Schick",
+    "Omer Levy",
+    "Luke Zettlemoyer",
+    "Jason Weston",
+    "Mike Lewis"
+  ],
+  "published": "2023-08-11T17:47:54Z",
+  "abstract": "We present a scalable method to build a high quality instruction following language model by automatically labelling human-written text with corresponding instructions. Our approach, named instruction backtranslation, starts with a language model finetuned on a small amount of seed data, and a given web corpus. The seed model is used to construct training examples by generating instruction prompts for web documents (self-augmentation), and then selecting high quality examples from among these candidates (self-curation). This data is then used to finetune a stronger model. Finetuning LLaMa on two iterations of our approach yields a model that outperforms all other LLaMa-based models on the Alpaca leaderboard not relying on distillation data, demonstrating highly effective self-alignment.",
+  "categories": [
+    "cs.CL"
+  ],
+  "abs": "https://arxiv.org/abs/2308.06259",
+  "pdf": "https://arxiv.org/pdf/2308.06259v3",
+  "source_url": "https://export.arxiv.org/api/query?id_list=2308.06259",
+  "fetched_at": "2026-10-29T15:37:32.204Z",
+  "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  "reusable_figures": false,
+  "github": "https://github.com/Spico197/Humback",
+  "upvotes": 43
+}

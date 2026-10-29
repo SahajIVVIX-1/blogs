@@ -1,0 +1,280 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-03-03",
+  "fetched_at": "2026-10-29T15:30:46.684Z",
+  "candidates": [
+    {
+      "id": "2503.00808",
+      "title": "Predictive Data Selection: The Data That Predicts Is the Data That Teaches",
+      "authors": [
+        "Kashun Shum",
+        "Yuzhen Huang",
+        "Hongjian Zou",
+        "Ding Qi",
+        "Yixuan Liao",
+        "Xiaoxin Chen",
+        "Qian Liu",
+        "Junxian He"
+      ],
+      "upvotes": 57,
+      "github": "https://github.com/hkust-nlp/PreSelect",
+      "published": "2025-03-02T09:21:28.000Z"
+    },
+    {
+      "id": "2502.18600",
+      "title": "Chain of Draft: Thinking Faster by Writing Less",
+      "authors": [
+        "Silei Xu",
+        "Wenhao Xie",
+        "Lingxiao Zhao",
+        "Pengcheng He"
+      ],
+      "upvotes": 48,
+      "github": "https://github.com/sileix/chain-of-draft",
+      "published": "2025-02-25T19:36:06.000Z"
+    },
+    {
+      "id": "2502.20730",
+      "title": "DeepSolution: Boosting Complex Engineering Solution Design via Tree-based Exploration and Bi-point Thinking",
+      "authors": [
+        "Zhuoqun Li",
+        "Haiyang Yu",
+        "Xuanang Chen",
+        "Hongyu Lin",
+        "Yaojie Lu",
+        "Fei Huang",
+        "Xianpei Han",
+        "Yongbin Li",
+        "Le Sun"
+      ],
+      "upvotes": 38,
+      "github": "https://github.com/Li-Z-Q/DeepSolution",
+      "published": "2025-02-28T05:23:10.000Z"
+    },
+    {
+      "id": "2502.20380",
+      "title": "Multi-Turn Code Generation Through Single-Step Rewards",
+      "authors": [
+        "Arnav Kumar Jain",
+        "Gonzalo Gonzalez-Pumariega",
+        "Wayne Chen",
+        "Alexander M Rush",
+        "Wenting Zhao",
+        "Sanjiban Choudhury"
+      ],
+      "upvotes": 32,
+      "github": "https://github.com/portal-cornell/muCode",
+      "published": "2025-02-27T18:55:05.000Z"
+    },
+    {
+      "id": "2502.21318",
+      "title": "How far can we go with ImageNet for Text-to-Image generation?",
+      "authors": [
+        "L. Degeorge",
+        "A. Ghosh",
+        "N. Dufour",
+        "D. Picard",
+        "V. Kalogeiton"
+      ],
+      "upvotes": 26,
+      "github": "https://github.com/lucasdegeorge/T2I-ImageNet",
+      "published": "2025-02-28T18:59:42.000Z"
+    },
+    {
+      "id": "2502.20545",
+      "title": "SoS1: O1 and R1-Like Reasoning LLMs are Sum-of-Square Solvers",
+      "authors": [
+        "Kechen Li",
+        "Wenqi Zhu",
+        "Coralia Cartis",
+        "Tianbo Ji",
+        "Shiwei Liu"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/Joe-2002/SoS1",
+      "published": "2025-02-27T21:41:43.000Z"
+    },
+    {
+      "id": "2502.18017",
+      "title": "ViDoRAG: Visual Document Retrieval-Augmented Generation via Dynamic Iterative Reasoning Agents",
+      "authors": [
+        "Qiuchen Wang",
+        "Ruixue Ding",
+        "Zehui Chen",
+        "Weiqi Wu",
+        "Shihang Wang",
+        "Pengjun Xie",
+        "Feng Zhao"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/Alibaba-NLP/ViDoRAG",
+      "published": "2025-02-25T09:26:12.000Z"
+    },
+    {
+      "id": "2502.20396",
+      "title": "Sim-to-Real Reinforcement Learning for Vision-Based Dexterous Manipulation on Humanoids",
+      "authors": [
+        "Toru Lin",
+        "Kartik Sachdev",
+        "Linxi Fan",
+        "Jitendra Malik",
+        "Yuke Zhu"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2025-02-27T18:59:52.000Z"
+    },
+    {
+      "id": "2502.17125",
+      "title": "LettuceDetect: A Hallucination Detection Framework for RAG Applications",
+      "authors": [
+        "Ádám Kovács",
+        "Gábor Recski"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/KRLabsOrg/LettuceDetect",
+      "published": "2025-02-24T13:11:47.000Z"
+    },
+    {
+      "id": "2502.20583",
+      "title": "LiteASR: Efficient Automatic Speech Recognition with Low-Rank Approximation",
+      "authors": [
+        "Keisuke Kamahori",
+        "Jungo Kasai",
+        "Noriyuki Kojima",
+        "Baris Kasikci"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/efeslab/LiteASR",
+      "published": "2025-02-27T22:52:21.000Z"
+    },
+    {
+      "id": "2502.20969",
+      "title": "TeleRAG: Efficient Retrieval-Augmented Generation Inference with Lookahead Retrieval",
+      "authors": [
+        "Chien-Yu Lin",
+        "Keisuke Kamahori",
+        "Yiyu Liu",
+        "Xiaoxiang Shi",
+        "Madhav Kashyap",
+        "Yile Gu",
+        "Rulin Shao",
+        "Zihao Ye",
+        "Kan Zhu",
+        "Stephanie Wang",
+        "Arvind Krishnamurthy",
+        "Rohan Kadekodi",
+        "Luis Ceze",
+        "Baris Kasikci"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2025-02-28T11:32:22.000Z"
+    },
+    {
+      "id": "2502.19577",
+      "title": "Tell me why: Visual foundation models as self-explainable classifiers",
+      "authors": [
+        "Hugues Turbé",
+        "Mina Bjelogrlic",
+        "Gianmarco Mengaldo",
+        "Christian Lovis"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/hturbe/proto-fm",
+      "published": "2025-02-26T21:40:30.000Z"
+    },
+    {
+      "id": "2502.17941",
+      "title": "Optimal Brain Apoptosis",
+      "authors": [
+        "Mingyuan Sun",
+        "Zheng Fang",
+        "Jiaxu Wang",
+        "Junjie Jiang",
+        "Delei Kong",
+        "Chenming Hu",
+        "Yuetong Fang",
+        "Renjing Xu"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/NEU-REAL/OBA",
+      "published": "2025-02-25T08:03:04.000Z"
+    },
+    {
+      "id": "2502.20900",
+      "title": "DexGraspVLA: A Vision-Language-Action Framework Towards General Dexterous Grasping",
+      "authors": [
+        "Yifan Zhong",
+        "Xuchuan Huang",
+        "Ruochong Li",
+        "Ceyao Zhang",
+        "Yitao Liang",
+        "Yaodong Yang",
+        "Yuanpei Chen"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/Psi-Robot/DexGraspVLA",
+      "published": "2025-02-28T09:57:20.000Z"
+    },
+    {
+      "id": "2502.19731",
+      "title": "Preference Learning Unlocks LLMs' Psycho-Counseling Skills",
+      "authors": [
+        "Mian Zhang",
+        "Shaun M. Eack",
+        "Zhiyu Zoey Chen"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2025-02-27T03:50:25.000Z"
+    },
+    {
+      "id": "2502.20490",
+      "title": "EgoNormia: Benchmarking Physical Social Norm Understanding",
+      "authors": [
+        "MohammadHossein Rezaei",
+        "Yicheng Fu",
+        "Phil Cuvin",
+        "Caleb Ziems",
+        "Yanzhe Zhang",
+        "Hao Zhu",
+        "Diyi Yang"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/open-social-world/egonormia",
+      "published": "2025-02-27T19:54:16.000Z"
+    },
+    {
+      "id": "2502.21291",
+      "title": "MIGE: A Unified Framework for Multimodal Instruction-Based Image Generation and Editing",
+      "authors": [
+        "Xueyun Tian",
+        "Wei Li",
+        "Bingbing Xu",
+        "Yige Yuan",
+        "Yuanzhuo Wang",
+        "Huawei Shen"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/Eureka-Maggie/MIGE",
+      "published": "2025-02-28T18:21:08.000Z"
+    },
+    {
+      "id": "2502.20811",
+      "title": "HAIC: Improving Human Action Understanding and Generation with Better Captions for Multi-modal Large Language Models",
+      "authors": [
+        "Xiao Wang",
+        "Jingyun Hua",
+        "Weihong Lin",
+        "Yuanxing Zhang",
+        "Fuzheng Zhang",
+        "Jianlong Wu",
+        "Di Zhang",
+        "Liqiang Nie"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2025-02-28T07:53:40.000Z"
+    }
+  ]
+}

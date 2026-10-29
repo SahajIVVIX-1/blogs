@@ -1,0 +1,535 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-02-24",
+  "fetched_at": "2026-10-29T15:30:42.498Z",
+  "candidates": [
+    {
+      "id": "2502.15007",
+      "title": "LLM-Microscope: Uncovering the Hidden Role of Punctuation in Context Memory of Transformers",
+      "authors": [
+        "Anton Razzhigaev",
+        "Matvey Mikhalchuk",
+        "Temurbek Rahmatullaev",
+        "Elizaveta Goncharova",
+        "Polina Druzhinina",
+        "Ivan Oseledets",
+        "Andrey Kuznetsov"
+      ],
+      "upvotes": 175,
+      "github": null,
+      "published": "2025-02-20T19:59:35.000Z"
+    },
+    {
+      "id": "2502.14776",
+      "title": "SurveyX: Academic Survey Automation via Large Language Models",
+      "authors": [
+        "Xun Liang",
+        "Jiawei Yang",
+        "Yezhaohui Wang",
+        "Chen Tang",
+        "Zifan Zheng",
+        "Simin Niu",
+        "Shichao Song",
+        "Hanyu Wang",
+        "Bo Tang",
+        "Feiyu Xiong",
+        "Keming Mao",
+        "Zhiyu li"
+      ],
+      "upvotes": 100,
+      "github": "https://github.com/IAAR-Shanghai/SurveyX",
+      "published": "2025-02-20T17:59:45.000Z"
+    },
+    {
+      "id": "2502.13449",
+      "title": "Mol-LLaMA: Towards General Understanding of Molecules in Large Molecular Language Model",
+      "authors": [
+        "Dongki Kim",
+        "Wonbin Lee",
+        "Sung Ju Hwang"
+      ],
+      "upvotes": 44,
+      "github": "https://github.com/DongkiKim95/Mol-LLaMA",
+      "published": "2025-02-19T05:49:10.000Z"
+    },
+    {
+      "id": "2502.14397",
+      "title": "PhotoDoodle: Learning Artistic Image Editing from Few-Shot Pairwise Data",
+      "authors": [
+        "Shijie Huang",
+        "Yiren Song",
+        "Yuxuan Zhang",
+        "Hailong Guo",
+        "Xueyin Wang",
+        "Mike Zheng Shou",
+        "Jiaming Liu"
+      ],
+      "upvotes": 41,
+      "github": "https://github.com/showlab/PhotoDoodle",
+      "published": "2025-02-20T09:35:38.000Z"
+    },
+    {
+      "id": "2502.11663",
+      "title": "MaskGWM: A Generalizable Driving World Model with Video Mask Reconstruction",
+      "authors": [
+        "Jingcheng Ni",
+        "Yuxin Guo",
+        "Yichen Liu",
+        "Rui Chen",
+        "Lewei Lu",
+        "Zehuan Wu"
+      ],
+      "upvotes": 37,
+      "github": "https://github.com/sensetime-fvg/opendwm",
+      "published": "2025-02-17T10:53:56.000Z"
+    },
+    {
+      "id": "2502.12084",
+      "title": "VLM^2-Bench: A Closer Look at How Well VLMs Implicitly Link Explicit Matching Visual Cues",
+      "authors": [
+        "Jianshu Zhang",
+        "Dongyu Yao",
+        "Renjie Pi",
+        "Paul Pu Liang",
+        "Yi R.",
+        "Fung"
+      ],
+      "upvotes": 35,
+      "github": "https://github.com/vlm2-bench/VLM2-Bench",
+      "published": "2025-02-17T17:57:50.000Z"
+    },
+    {
+      "id": "2502.14922",
+      "title": "SIFT: Grounding LLM Reasoning in Contexts via Stickers",
+      "authors": [
+        "Zihao Zeng",
+        "Xuyao Huang",
+        "Boxiu Li",
+        "Zhijie Deng"
+      ],
+      "upvotes": 32,
+      "github": "https://github.com/zhijie-group/sift",
+      "published": "2025-02-19T17:38:46.000Z"
+    },
+    {
+      "id": "2502.15589",
+      "title": "LightThinker: Thinking Step-by-Step Compression",
+      "authors": [
+        "Jintian Zhang",
+        "Yuqi Zhu",
+        "Mengshu Sun",
+        "Yujie Luo",
+        "Shuofei Qiao",
+        "Lun Du",
+        "Da Zheng",
+        "Huajun Chen",
+        "Ningyu Zhang"
+      ],
+      "upvotes": 31,
+      "github": "https://github.com/zjunlp/LightThinker",
+      "published": "2025-02-21T16:57:22.000Z"
+    },
+    {
+      "id": "2502.13189",
+      "title": "MoBA: Mixture of Block Attention for Long-Context LLMs",
+      "authors": [
+        "Enzhe Lu",
+        "Zhejun Jiang",
+        "Jingyuan Liu",
+        "Yulun Du",
+        "Tao Jiang",
+        "Chao Hong",
+        "Shaowei Liu",
+        "Weiran He",
+        "Enming Yuan",
+        "Yuzhi Wang",
+        "Zhiqi Huang",
+        "Huan Yuan",
+        "Suting Xu",
+        "Xinran Xu",
+        "Guokun Lai",
+        "Yanru Chen",
+        "Huabin Zheng",
+        "Junjie Yan",
+        "Jianlin Su",
+        "Yuxin Wu",
+        "Neo Y. Zhang",
+        "Zhilin Yang",
+        "Xinyu Zhou",
+        "Mingxing Zhang",
+        "Jiezhong Qiu"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/moonshotai/moba",
+      "published": "2025-02-18T14:06:05.000Z"
+    },
+    {
+      "id": "2502.15086",
+      "title": "Is Safety Standard Same for Everyone? User-Specific Safety Evaluation of Large Language Models",
+      "authors": [
+        "Yeonjun In",
+        "Wonjoong Kim",
+        "Kanghoon Yoon",
+        "Sungchul Kim",
+        "Mehrab Tanjim",
+        "Kibum Kim",
+        "Chanyoung Park"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/yeonjun-in/u-safebench",
+      "published": "2025-02-20T22:58:44.000Z"
+    },
+    {
+      "id": "2502.14494",
+      "title": "StructFlowBench: A Structured Flow Benchmark for Multi-turn Instruction Following",
+      "authors": [
+        "Jinnan Li",
+        "Jinzhe Li",
+        "Yue Wang",
+        "Yi Chang",
+        "Yuan Wu"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/mlgroupjlu/structflowbench",
+      "published": "2025-02-20T12:22:18.000Z"
+    },
+    {
+      "id": "2502.16457",
+      "title": "Towards Fully-Automated Materials Discovery via Large-Scale Synthesis Dataset and Expert-Level LLM-as-a-Judge",
+      "authors": [
+        "Heegyu Kim",
+        "Taeyang Jeon",
+        "Seungtaek Choi",
+        "Jihoon Hong",
+        "Dongwon Jeon",
+        "Sungbum Cho",
+        "Ga-Yeon Baek",
+        "Kyung-Won Kwak",
+        "Dong-Hee Lee",
+        "Sun-Jin Choi",
+        "Jisu Bae",
+        "Chihoon Lee",
+        "Yunseo Kim",
+        "Jinsung Park",
+        "Hyunsouk Cho"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/HeegyuKim/AlchemyBench",
+      "published": "2025-02-23T06:16:23.000Z"
+    },
+    {
+      "id": "2502.15422",
+      "title": "Evaluating Multimodal Generative AI with Korean Educational Standards",
+      "authors": [
+        "Sanghee Park",
+        "Geewook Kim"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/naver-ai/KoNET",
+      "published": "2025-02-21T12:46:40.000Z"
+    },
+    {
+      "id": "2502.14905",
+      "title": "Think Inside the JSON: Reinforcement Strategy for Strict LLM Schema Adherence",
+      "authors": [
+        "Bhavik Agarwal",
+        "Ishan Joshi",
+        "Viktoria Rojkova"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2025-02-18T16:44:55.000Z"
+    },
+    {
+      "id": "2502.14302",
+      "title": "MedHallu: A Comprehensive Benchmark for Detecting Medical Hallucinations in Large Language Models",
+      "authors": [
+        "Shrey Pandit",
+        "Jiawei Xu",
+        "Junyuan Hong",
+        "Zhangyang Wang",
+        "Tianlong Chen",
+        "Kaidi Xu",
+        "Ying Ding"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/MedHallu/MedHallu",
+      "published": "2025-02-20T06:33:23.000Z"
+    },
+    {
+      "id": "2502.14949",
+      "title": "KITAB-Bench: A Comprehensive Multi-Domain Benchmark for Arabic OCR and Document Understanding",
+      "authors": [
+        "Ahmed Heakl",
+        "Abdullah Sohail",
+        "Mukul Ranjan",
+        "Rania Hossam",
+        "Ghazi Ahmed",
+        "Mohamed El-Geish",
+        "Omar Maher",
+        "Zhiqiang Shen",
+        "Fahad Khan",
+        "Salman Khan"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/mbzuai-oryx/KITAB-Bench",
+      "published": "2025-02-20T18:41:23.000Z"
+    },
+    {
+      "id": "2502.15631",
+      "title": "The Relationship Between Reasoning and Performance in Large Language Models -- o3 (mini) Thinks Harder, Not Longer",
+      "authors": [
+        "Marthe Ballon",
+        "Andres Algaba",
+        "Vincent Ginis"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/MartheBallon/analysis_o3-mini_thinks_harder_not_longer",
+      "published": "2025-02-21T17:59:13.000Z"
+    },
+    {
+      "id": "2502.13995",
+      "title": "FantasyID: Face Knowledge Enhanced ID-Preserving Video Generation",
+      "authors": [
+        "Yunpeng Zhang",
+        "Qiang Wang",
+        "Fan Jiang",
+        "Yaqi Fan",
+        "Mu Xu",
+        "Yonggang Qi"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/Fantasy-AMAP/fantasy-id",
+      "published": "2025-02-19T06:50:27.000Z"
+    },
+    {
+      "id": "2502.14637",
+      "title": "ReQFlow: Rectified Quaternion Flow for Efficient and High-Quality Protein Backbone Generation",
+      "authors": [
+        "Angxiao Yue",
+        "Zichong Wang",
+        "Hongteng Xu"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/AngxiaoYue/ReQFlow",
+      "published": "2025-02-20T15:20:37.000Z"
+    },
+    {
+      "id": "2502.15681",
+      "title": "One-step Diffusion Models with f-Divergence Distribution Matching",
+      "authors": [
+        "Yilun Xu",
+        "Weili Nie",
+        "Arash Vahdat"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2025-02-21T18:59:20.000Z"
+    },
+    {
+      "id": "2502.14767",
+      "title": "Tree-of-Debate: Multi-Persona Debate Trees Elicit Critical Thinking for Scientific Comparative Analysis",
+      "authors": [
+        "Priyanka Kargupta",
+        "Ishika Agarwal",
+        "Tal August",
+        "Jiawei Han"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/pkargupta/tree-of-debate",
+      "published": "2025-02-20T17:43:40.000Z"
+    },
+    {
+      "id": "2502.15027",
+      "title": "InterFeedback: Unveiling Interactive Intelligence of Large Multimodal Models via Human Feedback",
+      "authors": [
+        "Henry Hengyuan Zhao",
+        "Wenqi Pei",
+        "Yifei Tao",
+        "Haiyang Mei",
+        "Mike Zheng Shou"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2025-02-20T20:27:06.000Z"
+    },
+    {
+      "id": "2502.14892",
+      "title": "EgoSpeak: Learning When to Speak for Egocentric Conversational Agents in the Wild",
+      "authors": [
+        "Junhyeok Kim",
+        "Min Soo Kim",
+        "Jiwan Chung",
+        "Jungbin Cho",
+        "Jisoo Kim",
+        "Sungwoong Kim",
+        "Gyeongbo Sim",
+        "Youngjae Yu"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2025-02-17T04:47:12.000Z"
+    },
+    {
+      "id": "2502.15657",
+      "title": "Superintelligent Agents Pose Catastrophic Risks: Can Scientist AI Offer a Safer Path?",
+      "authors": [
+        "Yoshua Bengio",
+        "Michael Cohen",
+        "Damiano Fornasiere",
+        "Joumana Ghosn",
+        "Pietro Greiner",
+        "Matt MacDermott",
+        "Sören Mindermann",
+        "Adam Oberman",
+        "Jesse Richardson",
+        "Oliver Richardson",
+        "Marc-Antoine Rondeau",
+        "Pierre-Luc St-Charles",
+        "David Williams-King"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-02-21T18:28:36.000Z"
+    },
+    {
+      "id": "2403.12959",
+      "title": "WHAC: World-grounded Humans and Cameras",
+      "authors": [
+        "Wanqi Yin",
+        "Zhongang Cai",
+        "Ruisi Wang",
+        "Fanzhou Wang",
+        "Chen Wei",
+        "Haiyi Mei",
+        "Weiye Xiao",
+        "Zhitao Yang",
+        "Qingping Sun",
+        "Atsushi Yamashita",
+        "Ziwei Liu",
+        "Lei Yang"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/openxrlab/xrfeitoria",
+      "published": "2024-03-19T17:58:02.000Z"
+    },
+    {
+      "id": "2502.13502",
+      "title": "PLDR-LLMs Learn A Generalizable Tensor Operator That Can Replace Its Own Deep Neural Net At Inference",
+      "authors": [
+        "Burc Gokden"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/burcgokden/PLDR-LLM-with-KVG-cache",
+      "published": "2025-02-19T07:43:36.000Z"
+    },
+    {
+      "id": "2502.13991",
+      "title": "Learning to Discover Regulatory Elements for Gene Expression Prediction",
+      "authors": [
+        "Xingyu Su",
+        "Haiyang Yu",
+        "Degui Zhi",
+        "Shuiwang Ji"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/divelab/AIRS",
+      "published": "2025-02-19T03:25:49.000Z"
+    },
+    {
+      "id": "2502.15069",
+      "title": "Rare Disease Differential Diagnosis with Large Language Models at Scale: From Abdominal Actinomycosis to Wilson's Disease",
+      "authors": [
+        "Elliot Schumacher",
+        "Dhruv Naik",
+        "Anitha Kannan"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2025-02-20T22:02:52.000Z"
+    },
+    {
+      "id": "2502.14122",
+      "title": "Benchmarking LLMs for Political Science: A United Nations Perspective",
+      "authors": [
+        "Yueqing Liang",
+        "Liangwei Yang",
+        "Chen Wang",
+        "Congying Xia",
+        "Rui Meng",
+        "Xiongxiao Xu",
+        "Haoran Wang",
+        "Ali Payani",
+        "Kai Shu"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/yueqingliang1/unbench",
+      "published": "2025-02-19T21:51:01.000Z"
+    },
+    {
+      "id": "2502.15168",
+      "title": "mStyleDistance: Multilingual Style Embeddings and their Evaluation",
+      "authors": [
+        "Justin Qiu",
+        "Jiacheng Zhu",
+        "Ajay Patel",
+        "Marianna Apidianaki",
+        "Chris Callison-Burch"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2025-02-21T03:11:41.000Z"
+    },
+    {
+      "id": "2502.13407",
+      "title": "JL1-CD: A New Benchmark for Remote Sensing Change Detection and a Robust Multi-Teacher Knowledge Distillation Framework",
+      "authors": [
+        "Ziyuan Liu",
+        "Ruifei Zhu",
+        "Long Gao",
+        "Yuanxiu Zhou",
+        "Jingyu Ma",
+        "Yuantao Gu"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/circlelzy/mtkd-cd",
+      "published": "2025-02-19T03:33:54.000Z"
+    },
+    {
+      "id": "2502.15011",
+      "title": "CrossOver: 3D Scene Cross-Modal Alignment",
+      "authors": [
+        "Sayan Deb Sarkar",
+        "Ondrej Miksik",
+        "Marc Pollefeys",
+        "Daniel Barath",
+        "Iro Armeni"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/GradientSpaces/CrossOver",
+      "published": "2025-02-20T20:05:30.000Z"
+    },
+    {
+      "id": "2502.15082",
+      "title": "UPCORE: Utility-Preserving Coreset Selection for Balanced Unlearning",
+      "authors": [
+        "Vaidehi Patil",
+        "Elias Stengel-Eskin",
+        "Mohit Bansal"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/vaidehi99/upcore",
+      "published": "2025-02-20T22:51:10.000Z"
+    },
+    {
+      "id": "2502.14975",
+      "title": "Beyond No: Quantifying AI Over-Refusal and Emotional Attachment Boundaries",
+      "authors": [
+        "David Noever",
+        "Grant Rosario"
+      ],
+      "upvotes": 0,
+      "github": null,
+      "published": "2025-02-20T19:09:40.000Z"
+    }
+  ]
+}

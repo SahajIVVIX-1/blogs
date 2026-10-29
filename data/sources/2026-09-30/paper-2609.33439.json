@@ -1,0 +1,7 @@
+{
+  "id": "2609.33439",
+  "html": "https://arxiv.org/html/2609.33439",
+  "limitations": null,
+  "conclusion": "We introduced Raven, The Harness of Harnesses , an open-source multi-agent ecosystem that addresses the growing complexity of harness design and the difficulty of composing specialized capabilities across domains. Raven treats each executable model–harness pair as a unit of intelligence that can be constructed, improved through experience, and composed with other agents. The Host Agent organizes native and third-party agents through explicit task dependencies, while modular harness evolution, persistent memory, and Skill Forge support adaptation and reuse across tasks. Our theory establishes sufficient conditions under which composition expands reliable task coverage beyond that of the available individual agents under a shared resource budget, accounting for planning and coordination costs. To assess the system’s components, our evaluation examines planning quality, specialist performan",
+  "figure": null
+}

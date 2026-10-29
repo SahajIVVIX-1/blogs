@@ -1,0 +1,229 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-10-02",
+  "fetched_at": "2026-10-29T15:29:14.389Z",
+  "candidates": [
+    {
+      "id": "2409.19951",
+      "title": "Law of the Weakest Link: Cross Capabilities of Large Language Models",
+      "authors": [
+        "Ming Zhong",
+        "Aston Zhang",
+        "Xuewei Wang",
+        "Rui Hou",
+        "Wenhan Xiong",
+        "Chenguang Zhu",
+        "Zhengxing Chen",
+        "Liang Tan",
+        "Chloe Bi",
+        "Mike Lewis",
+        "Sravya Popuri",
+        "Sharan Narang",
+        "Melanie Kambadur",
+        "Dhruv Mahajan",
+        "Sergey Edunov",
+        "Jiawei Han",
+        "Laurens van der Maaten"
+      ],
+      "upvotes": 54,
+      "github": "https://github.com/facebookresearch/llm-cross-capabilities",
+      "published": "2024-09-30T05:12:01.000Z"
+    },
+    {
+      "id": "2410.00531",
+      "title": "TPI-LLM: Serving 70B-scale LLMs Efficiently on Low-resource Edge Devices",
+      "authors": [
+        "Zonghang Li",
+        "Wenjiao Feng",
+        "Mohsen Guizani",
+        "Hongfang Yu"
+      ],
+      "upvotes": 33,
+      "github": null,
+      "published": "2024-10-01T09:18:56.000Z"
+    },
+    {
+      "id": "2409.17912",
+      "title": "Atlas-Chat: Adapting Large Language Models for Low-Resource Moroccan Arabic Dialect",
+      "authors": [
+        "Guokan Shang",
+        "Hadi Abdine",
+        "Yousef Khoubrane",
+        "Amr Mohamed",
+        "Yassine Abbahaddou",
+        "Sofiane Ennadir",
+        "Imane Momayiz",
+        "Xuguang Ren",
+        "Eric Moulines",
+        "Preslav Nakov",
+        "Michalis Vazirgiannis",
+        "Eric Xing"
+      ],
+      "upvotes": 26,
+      "github": null,
+      "published": "2024-09-26T14:56:38.000Z"
+    },
+    {
+      "id": "2410.00890",
+      "title": "Flex3D: Feed-Forward 3D Generation With Flexible Reconstruction Model And Input View Curation",
+      "authors": [
+        "Junlin Han",
+        "Jianyuan Wang",
+        "Andrea Vedaldi",
+        "Philip Torr",
+        "Filippos Kokkinos"
+      ],
+      "upvotes": 20,
+      "github": null,
+      "published": "2024-10-01T17:29:43.000Z"
+    },
+    {
+      "id": "2409.19603",
+      "title": "One Token to Seg Them All: Language Instructed Reasoning Segmentation in Videos",
+      "authors": [
+        "Zechen Bai",
+        "Tong He",
+        "Haiyang Mei",
+        "Pichao Wang",
+        "Ziteng Gao",
+        "Joya Chen",
+        "Lei Liu",
+        "Zheng Zhang",
+        "Mike Zheng Shou"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/showlab/videolisa",
+      "published": "2024-09-29T07:47:15.000Z"
+    },
+    {
+      "id": "2409.19946",
+      "title": "Illustrious: an Open Advanced Illustration Model",
+      "authors": [
+        "Sang Hyun Park",
+        "Jun Young Koh",
+        "Junha Lee",
+        "Joy Song",
+        "Dongha Kim",
+        "Hoyeon Moon",
+        "Hyunju Lee",
+        "Min Song"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2024-09-30T04:59:12.000Z"
+    },
+    {
+      "id": "2410.00337",
+      "title": "SyntheOcc: Synthesize Geometric-Controlled Street View Images through 3D Semantic MPIs",
+      "authors": [
+        "Leheng Li",
+        "Weichao Qiu",
+        "Yingjie Cai",
+        "Xu Yan",
+        "Qing Lian",
+        "Bingbing Liu",
+        "Ying-Cong Chen"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2024-10-01T02:29:24.000Z"
+    },
+    {
+      "id": "2410.00086",
+      "title": "ACE: All-round Creator and Editor Following Instructions via Diffusion Transformer",
+      "authors": [
+        "Zhen Han",
+        "Zeyinzi Jiang",
+        "Yulin Pan",
+        "Jingfeng Zhang",
+        "Chaojie Mao",
+        "Chenwei Xie",
+        "Yu Liu",
+        "Jingren Zhou"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2024-09-30T17:56:27.000Z"
+    },
+    {
+      "id": "2409.20018",
+      "title": "Visual Context Window Extension: A New Perspective for Long Video Understanding",
+      "authors": [
+        "Hongchen Wei",
+        "Zhenzhong Chen"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2024-09-30T07:25:16.000Z"
+    },
+    {
+      "id": "2410.00418",
+      "title": "Posterior-Mean Rectified Flow: Towards Minimum MSE Photo-Realistic Image Restoration",
+      "authors": [
+        "Guy Ohayon",
+        "Tomer Michaeli",
+        "Michael Elad"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/ohayonguy/PMRF",
+      "published": "2024-10-01T05:54:07.000Z"
+    },
+    {
+      "id": "2409.20563",
+      "title": "DressRecon: Freeform 4D Human Reconstruction from Monocular Video",
+      "authors": [
+        "Jeff Tan",
+        "Donglai Xiang",
+        "Shubham Tulsiani",
+        "Deva Ramanan",
+        "Gengshan Yang"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2024-09-30T17:59:15.000Z"
+    },
+    {
+      "id": "2410.00231",
+      "title": "Helpful DoggyBot: Open-World Object Fetching using Legged Robots and Vision-Language Models",
+      "authors": [
+        "Qi Wu",
+        "Zipeng Fu",
+        "Xuxin Cheng",
+        "Xiaolong Wang",
+        "Chelsea Finn"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2024-09-30T20:58:38.000Z"
+    },
+    {
+      "id": "2410.00545",
+      "title": "What the Harm? Quantifying the Tangible Impact of Gender Bias in Machine Translation with a Human-centered Study",
+      "authors": [
+        "Beatrice Savoldi",
+        "Sara Papi",
+        "Matteo Negri",
+        "Ana Guerberof",
+        "Luisa Bentivogli"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/bsavoldi/post-edit_guidelines",
+      "published": "2024-10-01T09:38:34.000Z"
+    },
+    {
+      "id": "2409.18313",
+      "title": "Embodied-RAG: General non-parametric Embodied Memory for Retrieval and Generation",
+      "authors": [
+        "Quanting Xie",
+        "So Yeon Min",
+        "Tianyi Zhang",
+        "Aarav Bajaj",
+        "Ruslan Salakhutdinov",
+        "Matthew Johnson-Roberson",
+        "Yonatan Bisk"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2024-09-26T21:44:11.000Z"
+    }
+  ]
+}

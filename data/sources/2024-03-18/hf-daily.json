@@ -1,0 +1,182 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-03-18",
+  "fetched_at": "2026-10-29T15:27:13.651Z",
+  "candidates": [
+    {
+      "id": "2403.10131",
+      "title": "RAFT: Adapting Language Model to Domain Specific RAG",
+      "authors": [
+        "Tianjun Zhang",
+        "Shishir G. Patil",
+        "Naman Jain",
+        "Sheng Shen",
+        "Matei Zaharia",
+        "Ion Stoica",
+        "Joseph E. Gonzalez"
+      ],
+      "upvotes": 72,
+      "github": "https://github.com/ShishirPatil/gorilla",
+      "published": "2024-03-15T09:26:02.000Z"
+    },
+    {
+      "id": "2403.10301",
+      "title": "Uni-SMART: Universal Science Multimodal Analysis and Research Transformer",
+      "authors": [
+        "Hengxing Cai",
+        "Xiaochen Cai",
+        "Shuwen Yang",
+        "Jiankun Wang",
+        "Lin Yao",
+        "Zhifeng Gao",
+        "Junhan Chang",
+        "Sihang Li",
+        "Mingjun Xu",
+        "Changxin Wang",
+        "Hongshuai Wang",
+        "Yongge Li",
+        "Mujie Lin",
+        "Yaqi Li",
+        "Yuqi Yin",
+        "Linfeng Zhang",
+        "Guolin Ke"
+      ],
+      "upvotes": 54,
+      "github": null,
+      "published": "2024-03-15T13:43:47.000Z"
+    },
+    {
+      "id": "2403.10517",
+      "title": "VideoAgent: Long-form Video Understanding with Large Language Model as Agent",
+      "authors": [
+        "Xiaohan Wang",
+        "Yuhui Zhang",
+        "Orr Zohar",
+        "Serena Yeung-Levy"
+      ],
+      "upvotes": 37,
+      "github": "https://github.com/wxh1996/VideoAgent",
+      "published": "2024-03-15T17:57:52.000Z"
+    },
+    {
+      "id": "2403.09704",
+      "title": "Alignment Studio: Aligning Large Language Models to Particular Contextual Regulations",
+      "authors": [
+        "Swapnaja Achintalwar",
+        "Ioana Baldini",
+        "Djallel Bouneffouf",
+        "Joan Byamugisha",
+        "Maria Chang",
+        "Pierre Dognin",
+        "Eitan Farchi",
+        "Ndivhuwo Makondo",
+        "Aleksandra Mojsilovic",
+        "Manish Nagireddy",
+        "Karthikeyan Natesan Ramamurthy",
+        "Inkit Padhi",
+        "Orna Raz",
+        "Jesus Rios",
+        "Prasanna Sattigeri",
+        "Moninder Singh",
+        "Siphiwe Thwala",
+        "Rosario A. Uceda-Sosa",
+        "Kush R. Varshney"
+      ],
+      "upvotes": 31,
+      "github": null,
+      "published": "2024-03-08T21:26:49.000Z"
+    },
+    {
+      "id": "2403.09919",
+      "title": "Recurrent Drafter for Fast Speculative Decoding in Large Language Models",
+      "authors": [
+        "Aonan Zhang",
+        "Chong Wang",
+        "Yi Wang",
+        "Xuanyu Zhang",
+        "Yunfei Cheng"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/apple/ml-recurrent-drafter",
+      "published": "2024-03-14T23:40:56.000Z"
+    },
+    {
+      "id": "2403.10493",
+      "title": "MusicHiFi: Fast High-Fidelity Stereo Vocoding",
+      "authors": [
+        "Ge Zhu",
+        "Juan-Pablo Caceres",
+        "Zhiyao Duan",
+        "Nicholas J. Bryan"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2024-03-15T17:27:42.000Z"
+    },
+    {
+      "id": "2403.10242",
+      "title": "FDGaussian: Fast Gaussian Splatting from Single Image via Geometric-aware Diffusion Model",
+      "authors": [
+        "Qijun Feng",
+        "Zhen Xing",
+        "Zuxuan Wu",
+        "Yu-Gang Jiang"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2024-03-15T12:24:36.000Z"
+    },
+    {
+      "id": "2403.09977",
+      "title": "EfficientVMamba: Atrous Selective Scan for Light Weight Visual Mamba",
+      "authors": [
+        "Xiaohuan Pei",
+        "Tao Huang",
+        "Chang Xu"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/terrypei/efficientvmamba",
+      "published": "2024-03-15T02:48:47.000Z"
+    },
+    {
+      "id": "2403.10395",
+      "title": "Isotropic3D: Image-to-3D Generation Based on a Single CLIP Embedding",
+      "authors": [
+        "Pengkun Liu",
+        "Yikai Wang",
+        "Fuchun Sun",
+        "Jiafang Li",
+        "Hang Xiao",
+        "Hongxiang Xue",
+        "Xinzhou Wang"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/pkunliu/isotropic3d",
+      "published": "2024-03-15T15:27:58.000Z"
+    },
+    {
+      "id": "2403.09981",
+      "title": "Controllable Text-to-3D Generation via Surface-Aligned Gaussian Splatting",
+      "authors": [
+        "Zhiqi Li",
+        "Yiming Chen",
+        "Lingzhe Zhao",
+        "Peidong Liu"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/WU-CVGL/MVControl-threestudio",
+      "published": "2024-03-15T02:57:20.000Z"
+    },
+    {
+      "id": "2403.10425",
+      "title": "NeuFlow: Real-time, High-accuracy Optical Flow Estimation on Robots Using Edge Devices",
+      "authors": [
+        "Zhiyong Zhang",
+        "Huaizu Jiang",
+        "Hanumant Singh"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/neufieldrobotics/neuflow",
+      "published": "2024-03-15T15:58:51.000Z"
+    }
+  ]
+}

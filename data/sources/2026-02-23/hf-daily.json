@@ -1,0 +1,269 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-02-23",
+  "fetched_at": "2026-10-29T15:34:48.458Z",
+  "candidates": [
+    {
+      "id": "2602.08354",
+      "title": "Does Your Reasoning Model Implicitly Know When to Stop Thinking?",
+      "authors": [
+        "Zixuan Huang",
+        "Xin Xia",
+        "Yuxi Ren",
+        "Jianbin Zheng",
+        "Xuanda Wang",
+        "Zhixia Zhang",
+        "Hongyan Xie",
+        "Songshi Liang",
+        "Zehao Chen",
+        "Xuefeng Xiao",
+        "Fuzhen Zhuang",
+        "Jianxin Li",
+        "Yikun Ban",
+        "Deqing Wang"
+      ],
+      "upvotes": 136,
+      "github": null,
+      "published": "2026-02-09T07:38:22.000Z"
+    },
+    {
+      "id": "2602.10693",
+      "title": "VESPO: Variational Sequence-Level Soft Policy Optimization for Stable Off-Policy LLM Training",
+      "authors": [
+        "Guobin Shen",
+        "Chenxiao Zhao",
+        "Xiang Cheng",
+        "Lei Huang",
+        "Xing Yu"
+      ],
+      "upvotes": 35,
+      "github": "https://github.com/FloyedShen/VESPO",
+      "published": "2026-02-11T09:48:08.000Z"
+    },
+    {
+      "id": "2602.18422",
+      "title": "Generated Reality: Human-centric World Simulation using Interactive Video Generation with Hand and Camera Control",
+      "authors": [
+        "Linxi Xie",
+        "Lisong C. Sun",
+        "Ashley Neall",
+        "Tong Wu",
+        "Shengqu Cai",
+        "Gordon Wetzstein"
+      ],
+      "upvotes": 30,
+      "github": null,
+      "published": "2026-02-20T18:45:29.000Z"
+    },
+    {
+      "id": "2602.18071",
+      "title": "EgoPush: Learning End-to-End Egocentric Multi-Object Rearrangement for Mobile Robots",
+      "authors": [
+        "Boyuan An",
+        "Zhexiong Wang",
+        "Yipeng Wang",
+        "Jiaqi Li",
+        "Sihang Li",
+        "Jing Zhang",
+        "Chen Feng"
+      ],
+      "upvotes": 22,
+      "github": null,
+      "published": "2026-02-20T08:54:20.000Z"
+    },
+    {
+      "id": "2602.18292",
+      "title": "Decoding as Optimisation on the Probability Simplex: From Top-K to Top-P (Nucleus) to Best-of-K Samplers",
+      "authors": [
+        "Xiaotong Ji",
+        "Rasul Tutunov",
+        "Matthieu Zimmer",
+        "Haitham Bou-Ammar"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2026-02-20T15:38:16.000Z"
+    },
+    {
+      "id": "2602.15727",
+      "title": "Spanning the Visual Analogy Space with a Weight Basis of LoRAs",
+      "authors": [
+        "Hila Manor",
+        "Rinon Gal",
+        "Haggai Maron",
+        "Tomer Michaeli",
+        "Gal Chechik"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/NVlabs/LoRWeB",
+      "published": "2026-02-17T17:02:38.000Z"
+    },
+    {
+      "id": "2602.16742",
+      "title": "DeepVision-103K: A Visually Diverse, Broad-Coverage, and Verifiable Mathematical Dataset for Multimodal Reasoning",
+      "authors": [
+        "Haoxiang Sun",
+        "Lizhen Xu",
+        "Bing Zhao",
+        "Wotao Yin",
+        "Wei Wang",
+        "Boyu Yang",
+        "Rui Wang",
+        "Hu Wei"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/SKYLENAGE-AI/DeepVision-103K",
+      "published": "2026-02-18T01:51:21.000Z"
+    },
+    {
+      "id": "2602.17807",
+      "title": "VidEoMT: Your ViT is Secretly Also a Video Segmentation Model",
+      "authors": [
+        "Narges Norouzi",
+        "Idil Esen Zulfikar",
+        "Niccol`o Cavagnero",
+        "Tommie Kerssies",
+        "Bastian Leibe",
+        "Gijs Dubbelman",
+        "Daan de Geus"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/tue-mps/videomt",
+      "published": "2026-02-19T20:14:14.000Z"
+    },
+    {
+      "id": "2602.18432",
+      "title": "SARAH: Spatially Aware Real-time Agentic Humans",
+      "authors": [
+        "Evonne Ng",
+        "Siwei Zhang",
+        "Zhang Chen",
+        "Michael Zollhoefer",
+        "Alexander Richard"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/facebookresearch/embody-3d",
+      "published": "2026-02-20T18:59:35.000Z"
+    },
+    {
+      "id": "2602.10094",
+      "title": "4RC: 4D Reconstruction via Conditional Querying Anytime and Anywhere",
+      "authors": [
+        "Yihang Luo",
+        "Shangchen Zhou",
+        "Yushi Lan",
+        "Xingang Pan",
+        "Chen Change Loy"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/Luo-Yihang/4RC",
+      "published": "2026-02-10T18:57:04.000Z"
+    },
+    {
+      "id": "2602.17080",
+      "title": "Adam Improves Muon: Adaptive Moment Estimation with Orthogonalized Momentum",
+      "authors": [
+        "Minxin Zhang",
+        "Yuxuan Liu",
+        "Hayden Schaeffer"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/minxin-zhg/namo",
+      "published": "2026-02-19T05:00:39.000Z"
+    },
+    {
+      "id": "2602.17664",
+      "title": "Sink-Aware Pruning for Diffusion Language Models",
+      "authors": [
+        "Aidar Myrzakhan",
+        "Tianyi Li",
+        "Bowei Guo",
+        "Shengkun Tang",
+        "Zhiqiang Shen"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/VILA-Lab/Sink-Aware-Pruning",
+      "published": "2026-02-19T18:59:50.000Z"
+    },
+    {
+      "id": "2602.17186",
+      "title": "Selective Training for Large Vision Language Models via Visual Information Gain",
+      "authors": [
+        "Seulbi Lee",
+        "Sangheum Hwang"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-02-19T09:12:21.000Z"
+    },
+    {
+      "id": "2602.14279",
+      "title": "Whom to Query for What: Adaptive Group Elicitation via Multi-Turn LLM Interactions",
+      "authors": [
+        "Ruomeng Ding",
+        "Tianwei Gao",
+        "Thomas P. Zollo",
+        "Eitan Bachmat",
+        "Richard Zemel",
+        "Zhun Deng"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/ZDCSlab/Group-Adaptive-Elicitation",
+      "published": "2026-02-15T19:05:34.000Z"
+    },
+    {
+      "id": "2602.15814",
+      "title": "Avey-B",
+      "authors": [
+        "Devang Acharya",
+        "Mohammad Hammoud"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/rimads/avey-b",
+      "published": "2026-02-17T18:50:40.000Z"
+    },
+    {
+      "id": "2602.13576",
+      "title": "Rubrics as an Attack Surface: Stealthy Preference Drift in LLM Judges",
+      "authors": [
+        "Ruomeng Ding",
+        "Yifei Pang",
+        "He Sun",
+        "Yizhong Wang",
+        "Zhiwei Steven Wu",
+        "Zhun Deng"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/ZDCSlab/Rubrics-as-an-Attack-Surface",
+      "published": "2026-02-14T03:19:14.000Z"
+    },
+    {
+      "id": "2602.17022",
+      "title": "ReIn: Conversational Error Recovery with Reasoning Inception",
+      "authors": [
+        "Takyoung Kim",
+        "Jinseok Nam",
+        "Chandrayee Basu",
+        "Xing Fan",
+        "Chengyuan Ma",
+        "Heng Ji",
+        "Gokhan Tur",
+        "Dilek Hakkani-Tür"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/youngerous/rein",
+      "published": "2026-02-19T02:37:29.000Z"
+    },
+    {
+      "id": "2602.18312",
+      "title": "Learning Smooth Time-Varying Linear Policies with an Action Jacobian Penalty",
+      "authors": [
+        "Zhaoming Xie",
+        "Kevin Karol",
+        "Jessica Hodgins"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2026-02-20T16:11:19.000Z"
+    }
+  ]
+}

@@ -1,0 +1,351 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-04-03",
+  "fetched_at": "2026-10-29T15:31:05.606Z",
+  "candidates": [
+    {
+      "id": "2504.00999",
+      "title": "MergeVQ: A Unified Framework for Visual Generation and Representation with Disentangled Token Merging and Quantization",
+      "authors": [
+        "Siyuan Li",
+        "Luyuan Zhang",
+        "Zedong Wang",
+        "Juanxi Tian",
+        "Cheng Tan",
+        "Zicheng Liu",
+        "Chang Yu",
+        "Qingsong Xie",
+        "Haonan Lu",
+        "Haoqian Wang",
+        "Zhen Lei"
+      ],
+      "upvotes": 97,
+      "github": "https://github.com/ApexGen-X/MergeVQ",
+      "published": "2025-04-01T17:39:19.000Z"
+    },
+    {
+      "id": "2504.01724",
+      "title": "DreamActor-M1: Holistic, Expressive and Robust Human Image Animation with Hybrid Guidance",
+      "authors": [
+        "Yuxuan Luo",
+        "Zhengkun Rong",
+        "Lizhen Wang",
+        "Longhao Zhang",
+        "Tianshu Hu",
+        "Yongming Zhu"
+      ],
+      "upvotes": 68,
+      "github": null,
+      "published": "2025-04-02T13:30:32.000Z"
+    },
+    {
+      "id": "2504.00883",
+      "title": "Improved Visual-Spatial Reasoning via R1-Zero-Like Training",
+      "authors": [
+        "Zhenyi Liao",
+        "Qingsong Xie",
+        "Yanhao Zhang",
+        "Zijian Kong",
+        "Haonan Lu",
+        "Zhenyu Yang",
+        "Zhijie Deng"
+      ],
+      "upvotes": 67,
+      "github": "https://github.com/zhijie-group/R1-Zero-VSI",
+      "published": "2025-04-01T15:11:11.000Z"
+    },
+    {
+      "id": "2504.01014",
+      "title": "AnimeGamer: Infinite Anime Life Simulation with Next Game State Prediction",
+      "authors": [
+        "Junhao Cheng",
+        "Yuying Ge",
+        "Yixiao Ge",
+        "Jing Liao",
+        "Ying Shan"
+      ],
+      "upvotes": 65,
+      "github": "https://github.com/TencentARC/AnimeGamer",
+      "published": "2025-04-01T17:57:18.000Z"
+    },
+    {
+      "id": "2503.20783",
+      "title": "Understanding R1-Zero-Like Training: A Critical Perspective",
+      "authors": [
+        "Zichen Liu",
+        "Changyu Chen",
+        "Wenjun Li",
+        "Penghui Qi",
+        "Tianyu Pang",
+        "Chao Du",
+        "Wee Sun Lee",
+        "Min Lin"
+      ],
+      "upvotes": 60,
+      "github": "https://github.com/sail-sg/understand-r1-zero",
+      "published": "2025-03-26T17:59:14.000Z"
+    },
+    {
+      "id": "2504.00824",
+      "title": "ScholarCopilot: Training Large Language Models for Academic Writing with Accurate Citations",
+      "authors": [
+        "Yubo Wang",
+        "Xueguang Ma",
+        "Ping Nie",
+        "Huaye Zeng",
+        "Zhiheng Lyu",
+        "Yuxuan Zhang",
+        "Benjamin Schneider",
+        "Yi Lu",
+        "Xiang Yue",
+        "Wenhu Chen"
+      ],
+      "upvotes": 43,
+      "github": "https://github.com/TIGER-AI-Lab/ScholarCopilot",
+      "published": "2025-04-01T14:12:14.000Z"
+    },
+    {
+      "id": "2504.01956",
+      "title": "VideoScene: Distilling Video Diffusion Model to Generate 3D Scenes in One Step",
+      "authors": [
+        "Hanyang Wang",
+        "Fangfu Liu",
+        "Jiawei Chi",
+        "Yueqi Duan"
+      ],
+      "upvotes": 41,
+      "github": "https://github.com/hanyang-21/VideoScene",
+      "published": "2025-04-02T17:59:21.000Z"
+    },
+    {
+      "id": "2503.23368",
+      "title": "Towards Physically Plausible Video Generation via VLM Planning",
+      "authors": [
+        "Xindi Yang",
+        "Baolu Li",
+        "Yiming Zhang",
+        "Zhenfei Yin",
+        "Lei Bai",
+        "Liqian Ma",
+        "Zhiyong Wang",
+        "Jianfei Cai",
+        "Tien-Tsin Wong",
+        "Huchuan Lu",
+        "Xu Jia"
+      ],
+      "upvotes": 40,
+      "github": "https://github.com/Madaoer/VLIPP",
+      "published": "2025-03-30T09:03:09.000Z"
+    },
+    {
+      "id": "2504.01848",
+      "title": "PaperBench: Evaluating AI's Ability to Replicate AI Research",
+      "authors": [
+        "Giulio Starace",
+        "Oliver Jaffe",
+        "Dane Sherburn",
+        "James Aung",
+        "Jun Shern Chan",
+        "Leon Maksin",
+        "Rachel Dias",
+        "Evan Mays",
+        "Benjamin Kinsella",
+        "Wyatt Thompson",
+        "Johannes Heidecke",
+        "Amelia Glaese",
+        "Tejal Patwardhan"
+      ],
+      "upvotes": 37,
+      "github": "https://github.com/openai/preparedness",
+      "published": "2025-04-02T15:55:24.000Z"
+    },
+    {
+      "id": "2504.01204",
+      "title": "Articulated Kinematics Distillation from Video Diffusion Models",
+      "authors": [
+        "Xuan Li",
+        "Qianli Ma",
+        "Tsung-Yi Lin",
+        "Yongxin Chen",
+        "Chenfanfu Jiang",
+        "Ming-Yu Liu",
+        "Donglai Xiang"
+      ],
+      "upvotes": 23,
+      "github": null,
+      "published": "2025-04-01T21:37:57.000Z"
+    },
+    {
+      "id": "2504.01934",
+      "title": "ILLUME+: Illuminating Unified MLLM with Dual Visual Tokenization and Diffusion Refinement",
+      "authors": [
+        "Runhui Huang",
+        "Chunwei Wang",
+        "Junwei Yang",
+        "Guansong Lu",
+        "Yunlong Yuan",
+        "Jianhua Han",
+        "Lu Hou",
+        "Wei Zhang",
+        "Lanqing Hong",
+        "Hengshuang Zhao",
+        "Hang Xu"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/illume-unified-mllm/ILLUME_plus",
+      "published": "2025-04-02T17:45:00.000Z"
+    },
+    {
+      "id": "2405.20216",
+      "title": "Boost Your Own Human Image Generation Model via Direct Preference Optimization with AI Feedback",
+      "authors": [
+        "Sanghyeon Na",
+        "Yonggyu Kim",
+        "Hyunjoon Lee"
+      ],
+      "upvotes": 21,
+      "github": null,
+      "published": "2024-05-30T16:18:05.000Z"
+    },
+    {
+      "id": "2502.18924",
+      "title": "MegaTTS 3: Sparse Alignment Enhanced Latent Diffusion Transformer for Zero-Shot Speech Synthesis",
+      "authors": [
+        "Ziyue Jiang",
+        "Yi Ren",
+        "Ruiqi Li",
+        "Shengpeng Ji",
+        "Boyang Zhang",
+        "Zhenhui Ye",
+        "Chen Zhang",
+        "Bai Jionghao",
+        "Xiaoda Yang",
+        "Jialong Zuo",
+        "Yu Zhang",
+        "Rui Liu",
+        "Xiang Yin",
+        "Zhou Zhao"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2025-02-26T08:22:00.000Z"
+    },
+    {
+      "id": "2504.01308",
+      "title": "Safeguarding Vision-Language Models: Mitigating Vulnerabilities to Gaussian Noise in Perturbation-based Attacks",
+      "authors": [
+        "Jiawei Wang",
+        "Yushen Zuo",
+        "Yuanjun Chai",
+        "Zhendong Liu",
+        "Yichen Fu",
+        "Yichun Feng",
+        "Kin-man Lam"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/JarvisUSTC/DiffPure-RobustVLM",
+      "published": "2025-04-02T02:35:19.000Z"
+    },
+    {
+      "id": "2503.23573",
+      "title": "DASH: Detection and Assessment of Systematic Hallucinations of VLMs",
+      "authors": [
+        "Maximilian Augustin",
+        "Yannic Neuhaus",
+        "Matthias Hein"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/YanNeu/DASH",
+      "published": "2025-03-30T19:45:09.000Z"
+    },
+    {
+      "id": "2503.23135",
+      "title": "LSNet: See Large, Focus Small",
+      "authors": [
+        "Ao Wang",
+        "Hui Chen",
+        "Zijia Lin",
+        "Jungong Han",
+        "Guiguang Ding"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/THU-MIG/lsnet",
+      "published": "2025-03-29T16:00:54.000Z"
+    },
+    {
+      "id": "2503.22879",
+      "title": "Quamba2: A Robust and Scalable Post-training Quantization Framework for Selective State Space Models",
+      "authors": [
+        "Hung-Yueh Chiang",
+        "Chi-Chih Chang",
+        "Natalia Frumkin",
+        "Kai-Chiang Wu",
+        "Mohamed S. Abdelfattah",
+        "Diana Marculescu"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/enyac-group/Quamba",
+      "published": "2025-03-28T21:10:39.000Z"
+    },
+    {
+      "id": "2504.00406",
+      "title": "VerifiAgent: a Unified Verification Agent in Language Model Reasoning",
+      "authors": [
+        "Jiuzhou Han",
+        "Wray Buntine",
+        "Ehsan Shareghi"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/Jiuzhouh/VerifiAgent",
+      "published": "2025-04-01T04:05:03.000Z"
+    },
+    {
+      "id": "2503.23798",
+      "title": "Adaptive Layer-skipping in Pre-trained LLMs",
+      "authors": [
+        "Xuan Luo",
+        "Weizhi Wang",
+        "Xifeng Yan"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/luoxuan-cs/Flexidepth",
+      "published": "2025-03-31T07:20:58.000Z"
+    },
+    {
+      "id": "2503.18950",
+      "title": "Target-Aware Video Diffusion Models",
+      "authors": [
+        "Taeksoo Kim",
+        "Hanbyul Joo"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/taeksuu/tavid",
+      "published": "2025-03-24T17:59:59.000Z"
+    },
+    {
+      "id": "2504.01201",
+      "title": "Medical large language models are easily distracted",
+      "authors": [
+        "Krithik Vishwanath",
+        "Anton Alyakin",
+        "Daniel Alexander Alber",
+        "Jin Vivian Lee",
+        "Douglas Kondziolka",
+        "Eric Karl Oermann"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/nyuolab/MedDistractQA",
+      "published": "2025-04-01T21:34:01.000Z"
+    },
+    {
+      "id": "2503.18817",
+      "title": "Enhanced OoD Detection through Cross-Modal Alignment of Multi-Modal Representations",
+      "authors": [
+        "Jeonghyeon Kim",
+        "Sangheum Hwang"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/ma-kjh/CMA-OoDD",
+      "published": "2025-03-24T16:00:21.000Z"
+    }
+  ]
+}

@@ -1,0 +1,551 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-01-23",
+  "fetched_at": "2026-10-29T15:34:29.688Z",
+  "candidates": [
+    {
+      "id": "2601.16206",
+      "title": "LLM-in-Sandbox Elicits General Agentic Intelligence",
+      "authors": [
+        "Daixuan Cheng",
+        "Shaohan Huang",
+        "Yuxian Gu",
+        "Huatong Song",
+        "Guoxin Chen",
+        "Li Dong",
+        "Wayne Xin Zhao",
+        "Ji-Rong Wen",
+        "Furu Wei"
+      ],
+      "upvotes": 87,
+      "github": "https://github.com/llm-in-sandbox/llm-in-sandbox",
+      "published": "2026-01-22T18:57:09.000Z"
+    },
+    {
+      "id": "2601.15876",
+      "title": "EvoCUA: Evolving Computer Use Agents via Learning from Scalable Synthetic Experience",
+      "authors": [
+        "Taofeng Xue",
+        "Chong Peng",
+        "Mianqiu Huang",
+        "Linsen Guo",
+        "Tiancheng Han",
+        "Haozhe Wang",
+        "Jianing Wang",
+        "Xiaocheng Zhang",
+        "Xin Yang",
+        "Dengchang Zhao",
+        "Jinrui Ding",
+        "Xiandi Ma",
+        "Yuchen Xie",
+        "Peng Pei",
+        "Xunliang Cai",
+        "Xipeng Qiu"
+      ],
+      "upvotes": 86,
+      "github": "https://github.com/meituan/EvoCUA",
+      "published": "2026-01-22T11:36:43.000Z"
+    },
+    {
+      "id": "2601.15621",
+      "title": "Qwen3-TTS Technical Report",
+      "authors": [
+        "Hangrui Hu",
+        "Xinfa Zhu",
+        "Ting He",
+        "Dake Guo",
+        "Bin Zhang",
+        "Xiong Wang",
+        "Zhifang Guo",
+        "Ziyue Jiang",
+        "Hongkun Hao",
+        "Zishan Guo",
+        "Xinyu Zhang",
+        "Pei Zhang",
+        "Baosong Yang",
+        "Jin Xu",
+        "Jingren Zhou",
+        "Junyang Lin"
+      ],
+      "upvotes": 80,
+      "github": "https://github.com/QwenLM/Qwen3-TTS",
+      "published": "2026-01-22T03:51:43.000Z"
+    },
+    {
+      "id": "2601.14724",
+      "title": "HERMES: KV Cache as Hierarchical Memory for Efficient Streaming Video Understanding",
+      "authors": [
+        "Haowei Zhang",
+        "Shudong Yang",
+        "Jinlan Fu",
+        "See-Kiong Ng",
+        "Xipeng Qiu"
+      ],
+      "upvotes": 75,
+      "github": "https://github.com/haowei-freesky/HERMES",
+      "published": "2026-01-21T07:26:15.000Z"
+    },
+    {
+      "id": "2601.15165",
+      "title": "The Flexibility Trap: Why Arbitrary Order Limits Reasoning Potential in Diffusion Language Models",
+      "authors": [
+        "Zanlin Ni",
+        "Shenzhi Wang",
+        "Yang Yue",
+        "Tianyu Yu",
+        "Weilin Zhao",
+        "Yeguo Hua",
+        "Tianyi Chen",
+        "Jun Song",
+        "Cheng Yu",
+        "Bo Zheng",
+        "Gao Huang"
+      ],
+      "upvotes": 67,
+      "github": "https://github.com/LeapLabTHU/JustGRPO",
+      "published": "2026-01-21T16:41:58.000Z"
+    },
+    {
+      "id": "2601.16208",
+      "title": "Scaling Text-to-Image Diffusion Transformers with Representation Autoencoders",
+      "authors": [
+        "Shengbang Tong",
+        "Boyang Zheng",
+        "Ziteng Wang",
+        "Bingda Tang",
+        "Nanye Ma",
+        "Ellis Brown",
+        "Jihan Yang",
+        "Rob Fergus",
+        "Yann LeCun",
+        "Saining Xie"
+      ],
+      "upvotes": 55,
+      "github": "https://github.com/ZitengWangNYU/Scale-RAE",
+      "published": "2026-01-22T18:58:16.000Z"
+    },
+    {
+      "id": "2601.16175",
+      "title": "Learning to Discover at Test Time",
+      "authors": [
+        "Mert Yuksekgonul",
+        "Daniel Koceja",
+        "Xinhao Li",
+        "Federico Bianchi",
+        "Jed McCaleb",
+        "Xiaolong Wang",
+        "Jan Kautz",
+        "Yejin Choi",
+        "James Zou",
+        "Carlos Guestrin",
+        "Yu Sun"
+      ],
+      "upvotes": 45,
+      "github": "https://github.com/test-time-training/discover",
+      "published": "2026-01-22T18:24:00.000Z"
+    },
+    {
+      "id": "2601.16093",
+      "title": "SAMTok: Representing Any Mask with Two Words",
+      "authors": [
+        "Yikang Zhou",
+        "Tao Zhang",
+        "Dengxian Gong",
+        "Yuanzheng Wu",
+        "Ye Tian",
+        "Haochen Wang",
+        "Haobo Yuan",
+        "Jiacong Wang",
+        "Lu Qi",
+        "Hao Fei",
+        "Anran Wang",
+        "Zhuochen Wang",
+        "Yujing Wang",
+        "Cheng Chen",
+        "Shunping Ji",
+        "Xiangtai Li"
+      ],
+      "upvotes": 44,
+      "github": "https://github.com/bytedance/Sa2VA",
+      "published": "2026-01-22T00:00:00.000Z"
+    },
+    {
+      "id": "2601.15197",
+      "title": "BayesianVLA: Bayesian Decomposition of Vision Language Action Models via Latent Action Queries",
+      "authors": [
+        "Shijie Lian",
+        "Bin Yu",
+        "Xiaopeng Lin",
+        "Laurence T. Yang",
+        "Zhaolong Shen",
+        "Changti Wu",
+        "Yuzhuo Miao",
+        "Cong Huang",
+        "Kai Chen"
+      ],
+      "upvotes": 40,
+      "github": "https://github.com/ZGC-EmbodyAI/LangForce",
+      "published": "2026-01-21T17:15:22.000Z"
+    },
+    {
+      "id": "2601.11868",
+      "title": "Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces",
+      "authors": [
+        "Mike A. Merrill",
+        "Alexander G. Shaw",
+        "Nicholas Carlini",
+        "Boxuan Li",
+        "Harsh Raj",
+        "Ivan Bercovich",
+        "Lin Shi",
+        "Jeong Yeon Shin",
+        "Thomas Walshe",
+        "E. Kelly Buchanan",
+        "Junhong Shen",
+        "Guanghao Ye",
+        "Haowei Lin",
+        "Jason Poulos",
+        "Maoyu Wang",
+        "Marianna Nezhurina",
+        "Jenia Jitsev",
+        "Di Lu",
+        "Orfeas Menis Mastromichalakis",
+        "Zhiwei Xu",
+        "Zizhao Chen",
+        "Yue Liu",
+        "Robert Zhang",
+        "Leon Liangyu Chen",
+        "Anurag Kashyap",
+        "Jan-Lucas Uslu",
+        "Jeffrey Li",
+        "Jianbo Wu",
+        "Minghao Yan",
+        "Song Bian",
+        "Vedang Sharma",
+        "Ke Sun",
+        "Steven Dillmann",
+        "Akshay Anand",
+        "Andrew Lanpouthakoun",
+        "Bardia Koopah",
+        "Changran Hu",
+        "Etash Guha",
+        "Gabriel H. S. Dreiman",
+        "Jiacheng Zhu",
+        "Karl Krauth",
+        "Li Zhong",
+        "Niklas Muennighoff",
+        "Robert Amanfu",
+        "Shangyin Tan",
+        "Shreyas Pimpalgaonkar",
+        "Tushar Aggarwal",
+        "Xiangning Lin",
+        "Xin Lan",
+        "Xuandong Zhao",
+        "Yiqing Liang",
+        "Yuanli Wang",
+        "Zilong Wang",
+        "Changzhi Zhou",
+        "David Heineman",
+        "Hange Liu",
+        "Harsh Trivedi",
+        "John Yang",
+        "Junhong Lin",
+        "Manish Shetty",
+        "Michael Yang",
+        "Nabil Omi",
+        "Negin Raoof",
+        "Shanda Li",
+        "Terry Yue Zhuo",
+        "Wuwei Lin",
+        "Yiwei Dai",
+        "Yuxin Wang",
+        "Wenhao Chai",
+        "Shang Zhou",
+        "Dariush Wahdany",
+        "Ziyu She",
+        "Jiaming Hu",
+        "Zhikang Dong",
+        "Yuxuan Zhu",
+        "Sasha Cui",
+        "Ahson Saiyed",
+        "Arinbjörn Kolbeinsson",
+        "Jesse Hu",
+        "Christopher Michael Rytting",
+        "Ryan Marten",
+        "Yixin Wang",
+        "Alex Dimakis",
+        "Andy Konwinski",
+        "Ludwig Schmidt"
+      ],
+      "upvotes": 38,
+      "github": "https://github.com/laude-institute/terminal-bench",
+      "published": "2026-01-17T01:29:30.000Z"
+    },
+    {
+      "id": "2601.15892",
+      "title": "Stable-DiffCoder: Pushing the Frontier of Code Diffusion Large Language Model",
+      "authors": [
+        "Chenghao Fan",
+        "Wen Heng",
+        "Bo Li",
+        "Sichen Liu",
+        "Yuxuan Song",
+        "Jing Su",
+        "Xiaoye Qu",
+        "Kai Shen",
+        "Wei Wei"
+      ],
+      "upvotes": 38,
+      "github": "https://github.com/ByteDance-Seed/Stable-DiffCoder",
+      "published": "2026-01-22T12:13:17.000Z"
+    },
+    {
+      "id": "2601.15369",
+      "title": "OpenVision 3: A Family of Unified Visual Encoder for Both Understanding and Generation",
+      "authors": [
+        "Letian Zhang",
+        "Sucheng Ren",
+        "Yanqing Liu",
+        "Xianhang Li",
+        "Zeyu Wang",
+        "Yuyin Zhou",
+        "Huaxiu Yao",
+        "Zeyu Zheng",
+        "Weili Nie",
+        "Guilin Liu",
+        "Zhiding Yu",
+        "Cihang Xie"
+      ],
+      "upvotes": 23,
+      "github": null,
+      "published": "2026-01-21T18:47:12.000Z"
+    },
+    {
+      "id": "2601.15727",
+      "title": "Towards Automated Kernel Generation in the Era of LLMs",
+      "authors": [
+        "Yang Yu",
+        "Peiyu Zang",
+        "Chi Hsu Tsai",
+        "Haiming Wu",
+        "Yixin Shen",
+        "Jialing Zhang",
+        "Haoyu Wang",
+        "Zhiyou Xiao",
+        "Jingze Shi",
+        "Yuyu Luo",
+        "Wentao Zhang",
+        "Chunlei Men",
+        "Guang Liu",
+        "Yonghua Lin"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/flagos-ai/awesome-LLM-driven-kernel-generation",
+      "published": "2026-01-22T07:53:52.000Z"
+    },
+    {
+      "id": "2601.14255",
+      "title": "VideoMaMa: Mask-Guided Video Matting via Generative Prior",
+      "authors": [
+        "Sangbeom Lim",
+        "Seoung Wug Oh",
+        "Jiahui Huang",
+        "Heeji Yoon",
+        "Seungryong Kim",
+        "Joon-Young Lee"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/cvlab-kaist/VideoMaMa",
+      "published": "2026-01-20T18:59:56.000Z"
+    },
+    {
+      "id": "2601.16163",
+      "title": "Cosmos Policy: Fine-Tuning Video Models for Visuomotor Control and Planning",
+      "authors": [
+        "Moo Jin Kim",
+        "Yihuai Gao",
+        "Tsung-Yi Lin",
+        "Yen-Chen Lin",
+        "Yunhao Ge",
+        "Grace Lam",
+        "Percy Liang",
+        "Shuran Song",
+        "Ming-Yu Liu",
+        "Chelsea Finn",
+        "Jinwei Gu"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2026-01-22T18:09:30.000Z"
+    },
+    {
+      "id": "2601.16125",
+      "title": "Rethinking Composed Image Retrieval Evaluation: A Fine-Grained Benchmark from Image Editing",
+      "authors": [
+        "Tingyu Song",
+        "Yanzhao Zhang",
+        "Mingxin Li",
+        "Zhuoning Guo",
+        "Dingkun Long",
+        "Pengjun Xie",
+        "Siyue Zhang",
+        "Yilun Zhao",
+        "Shu Wu"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/SighingSnow/edir",
+      "published": "2026-01-22T17:26:52.000Z"
+    },
+    {
+      "id": "2601.16148",
+      "title": "ActionMesh: Animated 3D Mesh Generation with Temporal 3D Diffusion",
+      "authors": [
+        "Remy Sabathier",
+        "David Novotny",
+        "Niloy J. Mitra",
+        "Tom Monnier"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/facebookresearch/actionmesh",
+      "published": "2026-01-22T17:41:13.000Z"
+    },
+    {
+      "id": "2601.15703",
+      "title": "Agentic Uncertainty Quantification",
+      "authors": [
+        "Jiaxin Zhang",
+        "Prafulla Kumar Choubey",
+        "Kung-Hsiang Huang",
+        "Caiming Xiong",
+        "Chien-Sheng Wu"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2026-01-22T07:16:26.000Z"
+    },
+    {
+      "id": "2601.15224",
+      "title": "PROGRESSLM: Towards Progress Reasoning in Vision-Language Models",
+      "authors": [
+        "Jianshu Zhang",
+        "Chengxuan Qian",
+        "Haosen Sun",
+        "Haoran Lu",
+        "Dingcheng Wang",
+        "Letian Xue",
+        "Han Liu"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/ProgressLM/ProgressLM",
+      "published": "2026-01-21T17:56:59.000Z"
+    },
+    {
+      "id": "2601.16192",
+      "title": "360Anything: Geometry-Free Lifting of Images and Videos to 360°",
+      "authors": [
+        "Ziyi Wu",
+        "Daniel Watson",
+        "Andrea Tagliasacchi",
+        "David J. Fleet",
+        "Marcus A. Brubaker",
+        "Saurabh Saxena"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2026-01-22T18:45:59.000Z"
+    },
+    {
+      "id": "2601.15778",
+      "title": "Agentic Confidence Calibration",
+      "authors": [
+        "Jiaxin Zhang",
+        "Caiming Xiong",
+        "Chien-Sheng Wu"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2026-01-22T09:08:25.000Z"
+    },
+    {
+      "id": "2601.15549",
+      "title": "VIOLA: Towards Video In-Context Learning with Minimal Annotations",
+      "authors": [
+        "Ryo Fujii",
+        "Hideo Saito",
+        "Ryo Hachiuma"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2026-01-22T00:35:30.000Z"
+    },
+    {
+      "id": "2601.15690",
+      "title": "From Passive Metric to Active Signal: The Evolving Role of Uncertainty Quantification in Large Language Models",
+      "authors": [
+        "Jiaxin Zhang",
+        "Wendi Cui",
+        "Zhuohang Li",
+        "Lifu Huang",
+        "Bradley Malin",
+        "Caiming Xiong",
+        "Chien-Sheng Wu"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-01-22T06:21:31.000Z"
+    },
+    {
+      "id": "2601.08118",
+      "title": "MirrorBench: An Extensible Framework to Evaluate User-Proxy Agents for Human-Likeness",
+      "authors": [
+        "Ashutosh Hathidara",
+        "Julien Yu",
+        "Vaishali Senthil",
+        "Sebastian Schreiber",
+        "Anil Babu Ankisettipalli"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/SAP/mirrorbench",
+      "published": "2026-01-13T01:16:13.000Z"
+    },
+    {
+      "id": "2601.16134",
+      "title": "LLM Prompt Evaluation for Educational Applications",
+      "authors": [
+        "Langdon Holmes",
+        "Adam Coscia",
+        "Scott Crossley",
+        "Joon Suh Choi",
+        "Wesley Morris"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2026-01-22T17:31:25.000Z"
+    },
+    {
+      "id": "2601.15440",
+      "title": "Numba-Accelerated 2D Diffusion-Limited Aggregation: Implementation and Fractal Characterization",
+      "authors": [
+        "Sandy H. S. Herho",
+        "Faiz R. Fajary",
+        "Iwan P. Anwar",
+        "Faruq Khadami",
+        "Nurjanna J. Trilaksono",
+        "Rusmawan Suwarman",
+        "Dasapta E. Irawan"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/sandyherho/dla-ideal-solver",
+      "published": "2026-01-21T20:10:12.000Z"
+    },
+    {
+      "id": "2601.16004",
+      "title": "Wigner's Friend as a Circuit: Inter-Branch Communication Witness Benchmarks on Superconducting Quantum Hardware",
+      "authors": [
+        "Christopher Altman"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/christopher-altman/ibm-qml-kernel",
+      "published": "2026-01-22T14:30:09.000Z"
+    }
+  ]
+}

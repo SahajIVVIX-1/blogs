@@ -1,0 +1,11 @@
+{
+  "id": "2404.14219",
+  "html": "https://arxiv.org/html/2404.14219",
+  "limitations": null,
+  "conclusion": null,
+  "figure": {
+    "path": "images/2024/paper-2404.14219.webp",
+    "src": "https://arxiv.org/html/2404.14219v4/figures/illustration-of-bs-attn.png",
+    "caption": "Figure 1 : Toy illustration of the blocksparse attention in phi-3-small with 2 local blocks and vertical stride of 3. The table shows the Keys/values a query token in block 8 attended to. Blue =local blocks, orange =remote/vertical blocks, gray =blocks skipped."
+  }
+}

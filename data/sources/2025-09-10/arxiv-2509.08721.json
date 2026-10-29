@@ -1,0 +1,35 @@
+{
+  "id": "2509.08721",
+  "title": "Sharing is Caring: Efficient LM Post-Training with Collective RL Experience Sharing",
+  "authors": [
+    "Jeffrey Amico",
+    "Gabriel Passamani Andrade",
+    "John Donaghy",
+    "Ben Fielding",
+    "Tristin Forbus",
+    "Harry Grieve",
+    "Semih Kara",
+    "Jari Kolehmainen",
+    "Yihua Lou",
+    "Christopher Nies",
+    "Edward Phillip Flores Nuño",
+    "Diogo Ortega",
+    "Shikhar Rastogi",
+    "Austin Virts",
+    "Matthew J. Wright"
+  ],
+  "published": "2025-09-10T16:14:20Z",
+  "abstract": "Post-training language models (LMs) with reinforcement learning (RL) can enhance their complex reasoning capabilities without supervised fine-tuning, as demonstrated by DeepSeek-R1-Zero. However, effectively utilizing RL for LMs requires significant parallelization to scale-up inference, which introduces non-trivial technical challenges (e.g. latency, memory, and reliability) alongside ever-growing financial costs. We present Swarm sAmpling Policy Optimization (SAPO), a fully decentralized and asynchronous RL post-training algorithm. SAPO is designed for decentralized networks of heterogenous compute nodes, where each node manages its own policy model(s) while \"sharing\" rollouts with others in the network; no explicit assumptions about latency, model homogeneity, or hardware are required and nodes can operate in silo if desired. As a result, the algorithm avoids common bottlenecks in scaling RL post-training while also allowing (and even encouraging) new possibilities. By sampling rollouts \"shared\" across the network, it enables \"Aha moments\" to propagate, thereby bootstrapping the learning process. In this paper we show SAPO achieved cumulative reward gains of up to 94% in controlled experiments. We also share insights from tests on a network with thousands of nodes contributed by Gensyn community members running the algorithm on diverse hardware and models during an open-source demo.",
+  "categories": [
+    "cs.LG",
+    "cs.MA"
+  ],
+  "abs": "https://arxiv.org/abs/2509.08721",
+  "pdf": "https://arxiv.org/pdf/2509.08721v1",
+  "source_url": "https://export.arxiv.org/api/query?id_list=2509.08721",
+  "fetched_at": "2026-10-29T15:48:39.086Z",
+  "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  "reusable_figures": false,
+  "github": "https://github.com/gensyn-ai/rl-swarm",
+  "upvotes": 665
+}

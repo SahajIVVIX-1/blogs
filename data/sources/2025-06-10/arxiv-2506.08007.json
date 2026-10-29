@@ -1,0 +1,26 @@
+{
+  "id": "2506.08007",
+  "title": "Reinforcement Pre-Training",
+  "authors": [
+    "Qingxiu Dong",
+    "Li Dong",
+    "Yao Tang",
+    "Tianzhu Ye",
+    "Yutao Sun",
+    "Zhifang Sui",
+    "Furu Wei"
+  ],
+  "published": "2025-06-09T17:59:53Z",
+  "abstract": "In this work, we introduce Reinforcement Pre-Training (RPT) as a new scaling paradigm for large language models and reinforcement learning (RL). Specifically, we reframe next-token prediction as a reasoning task trained using RL, where it receives verifiable rewards for correctly predicting the next token for a given context. RPT offers a scalable method to leverage vast amounts of text data for general-purpose RL, rather than relying on domain-specific annotated answers. By incentivizing the capability of next-token reasoning, RPT significantly improves the language modeling accuracy of predicting the next tokens. Moreover, RPT provides a strong pre-trained foundation for further reinforcement fine-tuning. The scaling curves show that increased training compute consistently improves the next-token prediction accuracy. The results position RPT as an effective and promising scaling paradigm to advance language model pre-training.",
+  "categories": [
+    "cs.CL"
+  ],
+  "abs": "https://arxiv.org/abs/2506.08007",
+  "pdf": "https://arxiv.org/pdf/2506.08007v1",
+  "source_url": "https://export.arxiv.org/api/query?id_list=2506.08007",
+  "fetched_at": "2026-10-29T15:47:18.081Z",
+  "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  "reusable_figures": false,
+  "github": null,
+  "upvotes": 266
+}

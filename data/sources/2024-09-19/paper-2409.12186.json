@@ -1,0 +1,7 @@
+{
+  "id": "2409.12186",
+  "html": "https://arxiv.org/html/2409.12186",
+  "limitations": null,
+  "conclusion": "In Figure 14 , We present a comparison of different sizes of Qwen2.5-Coder with other open-source LLMs on MBPP-3shot and LiveCodeBench. For the base LLM, we choose MBPP-3shot as the evaluation metric. Our extensive experiments show that MBPP-3shot is more suitable for evaluating base models and correlates well with the actual performance of the models. For the instruction model, we select the latest 4 months of LiveCodeBench (2024.07 [math] 2024.11) questions as the evaluation to strictly avoid test data contamination, truly reflecting the OOD capabilities of the LLM. There is a positive correlation between model size and model performance, and Qwen2.5-Coder has achieved state-of-the-art performance across all sizes, encouraging us to continue exploring larger sizes of code LLM. Figure 14: The evaluation results of Qwen2.5-Coder models with different sizes on MBPP-3shot and LiveCodeBench",
+  "figure": null
+}

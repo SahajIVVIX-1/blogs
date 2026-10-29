@@ -1,0 +1,425 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-02-11",
+  "fetched_at": "2026-10-29T15:30:34.593Z",
+  "candidates": [
+    {
+      "id": "2502.06703",
+      "title": "Can 1B LLM Surpass 405B LLM? Rethinking Compute-Optimal Test-Time Scaling",
+      "authors": [
+        "Runze Liu",
+        "Junqi Gao",
+        "Jian Zhao",
+        "Kaiyan Zhang",
+        "Xiu Li",
+        "Biqing Qi",
+        "Wanli Ouyang",
+        "Bowen Zhou"
+      ],
+      "upvotes": 152,
+      "github": "https://github.com/RyanLiu112/compute-optimal-tts",
+      "published": "2025-02-10T17:30:23.000Z"
+    },
+    {
+      "id": "2502.06394",
+      "title": "SynthDetoxM: Modern LLMs are Few-Shot Parallel Detoxification Data Annotators",
+      "authors": [
+        "Daniil Moskovskiy",
+        "Nikita Sushko",
+        "Sergey Pletenev",
+        "Elena Tutubalina",
+        "Alexander Panchenko"
+      ],
+      "upvotes": 86,
+      "github": "https://github.com/s-nlp/synthdetoxm",
+      "published": "2025-02-10T12:30:25.000Z"
+    },
+    {
+      "id": "2502.06781",
+      "title": "Exploring the Limit of Outcome Reward for Learning Mathematical Reasoning",
+      "authors": [
+        "Chengqi Lyu",
+        "Songyang Gao",
+        "Yuzhe Gu",
+        "Wenwei Zhang",
+        "Jianfei Gao",
+        "Kuikun Liu",
+        "Ziyi Wang",
+        "Shuaibin Li",
+        "Qian Zhao",
+        "Haian Huang",
+        "Weihan Cao",
+        "Jiangning Liu",
+        "Hongwei Liu",
+        "Junnan Liu",
+        "Songyang Zhang",
+        "Dahua Lin",
+        "Kai Chen"
+      ],
+      "upvotes": 56,
+      "github": "https://github.com/internlm/oreal",
+      "published": "2025-02-10T18:57:29.000Z"
+    },
+    {
+      "id": "2502.05795",
+      "title": "The Curse of Depth in Large Language Models",
+      "authors": [
+        "Wenfang Sun",
+        "Xinyuan Song",
+        "Pengxiang Li",
+        "Lu Yin",
+        "Yefeng Zheng",
+        "Shiwei Liu"
+      ],
+      "upvotes": 40,
+      "github": "https://github.com/lmsdss/LayerNorm-Scaling",
+      "published": "2025-02-09T07:03:36.000Z"
+    },
+    {
+      "id": "2502.06060",
+      "title": "Training Language Models for Social Deduction with Multi-Agent Reinforcement Learning",
+      "authors": [
+        "Bidipta Sarkar",
+        "Warren Xia",
+        "C. Karen Liu",
+        "Dorsa Sadigh"
+      ],
+      "upvotes": 37,
+      "github": "https://github.com/SocialDeductionLLM/SocialDeductionLLM",
+      "published": "2025-02-09T22:44:45.000Z"
+    },
+    {
+      "id": "2502.06786",
+      "title": "Matryoshka Quantization",
+      "authors": [
+        "Pranav Nair",
+        "Puranjay Datta",
+        "Jeff Dean",
+        "Prateek Jain",
+        "Aditya Kusupati"
+      ],
+      "upvotes": 33,
+      "github": null,
+      "published": "2025-02-10T18:59:10.000Z"
+    },
+    {
+      "id": "2502.06049",
+      "title": "LM2: Large Memory Models",
+      "authors": [
+        "Jikun Kang",
+        "Wenqi Wu",
+        "Filippos Christianos",
+        "Alex J. Chan",
+        "Fraser Greenlee",
+        "George Thomas",
+        "Marvin Purtorab",
+        "Andy Toulis"
+      ],
+      "upvotes": 32,
+      "github": "https://github.com/convergence-ai/lm2",
+      "published": "2025-02-09T22:11:42.000Z"
+    },
+    {
+      "id": "2502.05664",
+      "title": "CODESIM: Multi-Agent Code Generation and Problem Solving through Simulation-Driven Planning and Debugging",
+      "authors": [
+        "Md. Ashraful Islam",
+        "Mohammed Eunus Ali",
+        "Md Rizwan Parvez"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/kagnlp/CodeGenerator",
+      "published": "2025-02-08T18:43:59.000Z"
+    },
+    {
+      "id": "2502.06772",
+      "title": "ReasonFlux: Hierarchical LLM Reasoning via Scaling Thought Templates",
+      "authors": [
+        "Ling Yang",
+        "Zhaochen Yu",
+        "Bin Cui",
+        "Mengdi Wang"
+      ],
+      "upvotes": 22,
+      "github": null,
+      "published": "2025-02-10T18:51:47.000Z"
+    },
+    {
+      "id": "2502.05415",
+      "title": "Show-o Turbo: Towards Accelerated Unified Multimodal Understanding and Generation",
+      "authors": [
+        "Chenkai Xu",
+        "Xu Wang",
+        "Zhenyi Liao",
+        "Yishun Li",
+        "Tianqi Hou",
+        "Zhijie Deng"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/zhijie-group/unicms",
+      "published": "2025-02-08T02:52:25.000Z"
+    },
+    {
+      "id": "2502.05609",
+      "title": "Lossless Acceleration of Large Language Models with Hierarchical Drafting based on Temporal Locality in Speculative Decoding",
+      "authors": [
+        "Sukmin Cho",
+        "Sangjin Choi",
+        "Taeho Hwang",
+        "Jeongyeon Seo",
+        "Soyeong Jeong",
+        "Huije Lee",
+        "Hoyun Song",
+        "Jong C. Park",
+        "Youngjin Kwon"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/zomss/Hierarchy_Drafting",
+      "published": "2025-02-08T15:32:53.000Z"
+    },
+    {
+      "id": "2502.05957",
+      "title": "MetaChain: A Fully-Automated and Zero-Code Framework for LLM Agents",
+      "authors": [
+        "Jiabin Tang",
+        "Tianyu Fan",
+        "Chao Huang"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/HKUDS/MetaChain",
+      "published": "2025-02-09T16:53:56.000Z"
+    },
+    {
+      "id": "2502.06782",
+      "title": "Lumina-Video: Efficient and Flexible Video Generation with Multi-scale Next-DiT",
+      "authors": [
+        "Dongyang Liu",
+        "Shicheng Li",
+        "Yutong Liu",
+        "Zhen Li",
+        "Kai Wang",
+        "Xinyue Li",
+        "Qi Qin",
+        "Yufei Liu",
+        "Yi Xin",
+        "Zhongyu Li",
+        "Bin Fu",
+        "Chenyang Si",
+        "Yuewen Cao",
+        "Conghui He",
+        "Ziwei Liu",
+        "Yu Qiao",
+        "Qibin Hou",
+        "Hongsheng Li",
+        "Peng Gao"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/Alpha-VLLM/Lumina-Video",
+      "published": "2025-02-10T18:58:11.000Z"
+    },
+    {
+      "id": "2502.06788",
+      "title": "EVEv2: Improved Baselines for Encoder-Free Vision-Language Models",
+      "authors": [
+        "Haiwen Diao",
+        "Xiaotong Li",
+        "Yufeng Cui",
+        "Yueze Wang",
+        "Haoge Deng",
+        "Ting Pan",
+        "Wenxuan Wang",
+        "Huchuan Lu",
+        "Xinlong Wang"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/baaivision/eve",
+      "published": "2025-02-10T18:59:58.000Z"
+    },
+    {
+      "id": "2502.06764",
+      "title": "History-Guided Video Diffusion",
+      "authors": [
+        "Kiwhan Song",
+        "Boyuan Chen",
+        "Max Simchowitz",
+        "Yilun Du",
+        "Russ Tedrake",
+        "Vincent Sitzmann"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/kwsong0113/diffusion-forcing-transformer",
+      "published": "2025-02-10T18:44:25.000Z"
+    },
+    {
+      "id": "2502.03628",
+      "title": "The Hidden Life of Tokens: Reducing Hallucination of Large Vision-Language Models via Visual Information Steering",
+      "authors": [
+        "Zhuowei Li",
+        "Haizhou Shi",
+        "Yunhe Gao",
+        "Di Liu",
+        "Zhenting Wang",
+        "Yuxiao Chen",
+        "Ting Liu",
+        "Long Zhao",
+        "Hao Wang",
+        "Dimitris N. Metaxas"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/LzVv123456/VISTA",
+      "published": "2025-02-05T21:34:02.000Z"
+    },
+    {
+      "id": "2502.06776",
+      "title": "InSTA: Towards Internet-Scale Training For Agents",
+      "authors": [
+        "Brandon Trabucco",
+        "Gunnar Sigurdsson",
+        "Robinson Piramuthu",
+        "Ruslan Salakhutdinov"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/data-for-agents/insta",
+      "published": "2025-02-10T18:54:05.000Z"
+    },
+    {
+      "id": "2502.06527",
+      "title": "CustomVideoX: 3D Reference Attention Driven Dynamic Adaptation for Zero-Shot Customized Video Diffusion Transformers",
+      "authors": [
+        "D. She",
+        "Mushui Liu",
+        "Jingxuan Pang",
+        "Jin Wang",
+        "Zhen Yang",
+        "Wanggui He",
+        "Guanghao Zhang",
+        "Yi Wang",
+        "Qihan Huang",
+        "Haobin Tang",
+        "Yunlong Yu",
+        "Siming Fu"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2025-02-10T14:50:32.000Z"
+    },
+    {
+      "id": "2502.06023",
+      "title": "Dual Caption Preference Optimization for Diffusion Models",
+      "authors": [
+        "Amir Saeidi",
+        "Yiran Luo",
+        "Agneet Chatterjee",
+        "Shamanthak Hegde",
+        "Bimsara Pathiraja",
+        "Yezhou Yang",
+        "Chitta Baral"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/sahsaeedi/DCPO-T2I",
+      "published": "2025-02-09T20:34:43.000Z"
+    },
+    {
+      "id": "2502.06155",
+      "title": "Efficient-vDiT: Efficient Video Diffusion Transformers With Attention Tile",
+      "authors": [
+        "Hangliang Ding",
+        "Dacheng Li",
+        "Runlong Su",
+        "Peiyuan Zhang",
+        "Zhijie Deng",
+        "Ion Stoica",
+        "Hao Zhang"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2025-02-10T05:00:56.000Z"
+    },
+    {
+      "id": "2502.06282",
+      "title": "Jakiro: Boosting Speculative Decoding with Decoupled Multi-Head via MoE",
+      "authors": [
+        "Haiduo Huang",
+        "Fuwei Yang",
+        "Zhenhua Liu",
+        "Yixing Xu",
+        "Jinze Li",
+        "Yang Liu",
+        "Xuanwu Yin",
+        "Dong Li",
+        "Pengju Ren",
+        "Emad Barsoum"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/haiduo/Jakiro",
+      "published": "2025-02-10T09:24:06.000Z"
+    },
+    {
+      "id": "2502.04370",
+      "title": "DreamDPO: Aligning Text-to-3D Generation with Human Preferences via Direct Preference Optimization",
+      "authors": [
+        "Zhenglin Zhou",
+        "Xiaobo Xia",
+        "Fan Ma",
+        "Hehe Fan",
+        "Yi Yang",
+        "Tat-Seng Chua"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2025-02-05T11:03:08.000Z"
+    },
+    {
+      "id": "2502.05431",
+      "title": "APE: Faster and Longer Context-Augmented Generation via Adaptive Parallel Encoding",
+      "authors": [
+        "Xinyu Yang",
+        "Tianqi Chen",
+        "Beidi Chen"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/infini-ai-lab/ape",
+      "published": "2025-02-08T03:41:16.000Z"
+    },
+    {
+      "id": "2502.06635",
+      "title": "Steel-LLM:From Scratch to Open Source -- A Personal Journey in Building a Chinese-Centric LLM",
+      "authors": [
+        "Qingshui Gu",
+        "Shu Li",
+        "Tianyu Zheng",
+        "Zhaoxiang Zhang"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/zhanshijinwat/steel-llm",
+      "published": "2025-02-10T16:31:37.000Z"
+    },
+    {
+      "id": "2411.18676",
+      "title": "Embodied Red Teaming for Auditing Robotic Foundation Models",
+      "authors": [
+        "Sathwik Karnik",
+        "Zhang-Wei Hong",
+        "Nishant Abhangi",
+        "Yen-Chen Lin",
+        "Tsun-Hsuan Wang",
+        "Christophe Dupuy",
+        "Rahul Gupta",
+        "Pulkit Agrawal"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/Improbable-AI/embodied-red-teaming",
+      "published": "2024-11-27T18:57:26.000Z"
+    },
+    {
+      "id": "2502.06867",
+      "title": "Forbidden Science: Dual-Use AI Challenge Benchmark and Scientific Refusal Tests",
+      "authors": [
+        "David Noever",
+        "Forrest McKee"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2025-02-08T04:27:33.000Z"
+    }
+  ]
+}

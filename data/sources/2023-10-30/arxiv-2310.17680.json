@@ -1,0 +1,28 @@
+{
+  "id": "2310.17680",
+  "title": "CodeFusion: A Pre-trained Diffusion Model for Code Generation",
+  "authors": [
+    "Mukul Singh",
+    "José Cambronero",
+    "Sumit Gulwani",
+    "Vu Le",
+    "Carina Negreanu",
+    "Gust Verbruggen"
+  ],
+  "published": "2023-10-26T11:06:15Z",
+  "abstract": "Imagine a developer who can only change their last line of code, how often would they have to start writing a function from scratch before it is correct? Auto-regressive models for code generation from natural language have a similar limitation: they do not easily allow reconsidering earlier tokens generated. We introduce CodeFusion, a pre-trained diffusion code generation model that addresses this limitation by iteratively denoising a complete program conditioned on the encoded natural language. We evaluate CodeFusion on the task of natural language to code generation for Bash, Python, and Microsoft Excel conditional formatting (CF) rules. Experiments show that CodeFusion (75M parameters) performs on par with state-of-the-art auto-regressive systems (350M-175B parameters) in top-1 accuracy and outperforms them in top-3 and top-5 accuracy due to its better balance in diversity versus quality.",
+  "categories": [
+    "cs.SE",
+    "cs.AI",
+    "cs.CL",
+    "cs.PL"
+  ],
+  "abs": "https://arxiv.org/abs/2310.17680",
+  "pdf": "https://arxiv.org/pdf/2310.17680v3",
+  "source_url": "https://export.arxiv.org/api/query?id_list=2310.17680",
+  "fetched_at": "2026-10-29T15:38:33.758Z",
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "reusable_figures": true,
+  "github": null,
+  "upvotes": 75
+}

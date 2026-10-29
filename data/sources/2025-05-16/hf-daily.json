@@ -1,0 +1,452 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-05-16",
+  "fetched_at": "2026-10-29T15:31:31.891Z",
+  "candidates": [
+    {
+      "id": "2505.10554",
+      "title": "Beyond 'Aha!': Toward Systematic Meta-Abilities Alignment in Large Reasoning Models",
+      "authors": [
+        "Zhiyuan Hu",
+        "Yibo Wang",
+        "Hanze Dong",
+        "Yuhui Xu",
+        "Amrita Saha",
+        "Caiming Xiong",
+        "Bryan Hooi",
+        "Junnan Li"
+      ],
+      "upvotes": 119,
+      "github": "https://github.com/zhiyuanhubj/Meta-Ability-Alignment",
+      "published": "2025-05-15T17:58:33.000Z"
+    },
+    {
+      "id": "2505.10475",
+      "title": "Parallel Scaling Law for Language Models",
+      "authors": [
+        "Mouxiang Chen",
+        "Binyuan Hui",
+        "Zeyu Cui",
+        "Jiaxi Yang",
+        "Dayiheng Liu",
+        "Jianling Sun",
+        "Junyang Lin",
+        "Zhongxin Liu"
+      ],
+      "upvotes": 83,
+      "github": "https://github.com/QwenLM/ParScale",
+      "published": "2025-05-15T16:24:45.000Z"
+    },
+    {
+      "id": "2505.09666",
+      "title": "System Prompt Optimization with Meta-Learning",
+      "authors": [
+        "Yumin Choi",
+        "Jinheon Baek",
+        "Sung Ju Hwang"
+      ],
+      "upvotes": 72,
+      "github": "https://github.com/Dozi01/MetaSPO",
+      "published": "2025-05-14T16:46:15.000Z"
+    },
+    {
+      "id": "2505.08617",
+      "title": "OpenThinkIMG: Learning to Think with Images via Visual Tool Reinforcement Learning",
+      "authors": [
+        "Zhaochen Su",
+        "Linjie Li",
+        "Mingyang Song",
+        "Yunzhuo Hao",
+        "Zhengyuan Yang",
+        "Jun Zhang",
+        "Guanjie Chen",
+        "Jiawei Gu",
+        "Juntao Li",
+        "Xiaoye Qu",
+        "Yu Cheng"
+      ],
+      "upvotes": 42,
+      "github": "https://github.com/zhaochen0110/OpenThinkIMG",
+      "published": "2025-05-13T14:35:51.000Z"
+    },
+    {
+      "id": "2505.10527",
+      "title": "WorldPM: Scaling Human Preference Modeling",
+      "authors": [
+        "Binghai Wang",
+        "Runji Lin",
+        "Keming Lu",
+        "Le Yu",
+        "Zhenru Zhang",
+        "Fei Huang",
+        "Chujie Zheng",
+        "Kai Dang",
+        "Yang Fan",
+        "Xingzhang Ren",
+        "An Yang",
+        "Binyuan Hui",
+        "Dayiheng Liu",
+        "Tao Gui",
+        "Qi Zhang",
+        "Xuanjing Huang",
+        "Yu-Gang Jiang",
+        "Bowen Yu",
+        "Jingren Zhou",
+        "Junyang Lin"
+      ],
+      "upvotes": 34,
+      "github": "https://github.com/qwenlm/worldpm",
+      "published": "2025-05-15T17:38:37.000Z"
+    },
+    {
+      "id": "2505.10185",
+      "title": "The CoT Encyclopedia: Analyzing, Predicting, and Controlling how a Reasoning Model will Think",
+      "authors": [
+        "Seongyun Lee",
+        "Seungone Kim",
+        "Minju Seo",
+        "Yongrae Jo",
+        "Dongyoung Go",
+        "Hyeonbin Hwang",
+        "Jinho Park",
+        "Xiang Yue",
+        "Sean Welleck",
+        "Graham Neubig",
+        "Moontae Lee",
+        "Minjoon Seo"
+      ],
+      "upvotes": 26,
+      "github": null,
+      "published": "2025-05-15T11:31:02.000Z"
+    },
+    {
+      "id": "2505.09723",
+      "title": "EnerVerse-AC: Envisioning Embodied Environments with Action Condition",
+      "authors": [
+        "Yuxin Jiang",
+        "Shengcong Chen",
+        "Siyuan Huang",
+        "Liliang Chen",
+        "Pengfei Zhou",
+        "Yue Liao",
+        "Xindong He",
+        "Chiming Liu",
+        "Hongsheng Li",
+        "Maoqing Yao",
+        "Guanghui Ren"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/AgibotTech/EnerVerse-AC",
+      "published": "2025-05-14T18:30:53.000Z"
+    },
+    {
+      "id": "2505.10320",
+      "title": "J1: Incentivizing Thinking in LLM-as-a-Judge via Reinforcement Learning",
+      "authors": [
+        "Chenxi Whitehouse",
+        "Tianlu Wang",
+        "Ping Yu",
+        "Xian Li",
+        "Jason Weston",
+        "Ilia Kulikov",
+        "Swarnadeep Saha"
+      ],
+      "upvotes": 24,
+      "github": null,
+      "published": "2025-05-15T14:05:15.000Z"
+    },
+    {
+      "id": "2505.10562",
+      "title": "End-to-End Vision Tokenizer Tuning",
+      "authors": [
+        "Wenxuan Wang",
+        "Fan Zhang",
+        "Yufeng Cui",
+        "Haiwen Diao",
+        "Zhuoyan Luo",
+        "Huchuan Lu",
+        "Jing Liu",
+        "Xinlong Wang"
+      ],
+      "upvotes": 22,
+      "github": null,
+      "published": "2025-05-15T17:59:39.000Z"
+    },
+    {
+      "id": "2505.09694",
+      "title": "EWMBench: Evaluating Scene, Motion, and Semantic Quality in Embodied World Models",
+      "authors": [
+        "Hu Yue",
+        "Siyuan Huang",
+        "Yue Liao",
+        "Shengcong Chen",
+        "Pengfei Zhou",
+        "Liliang Chen",
+        "Maoqing Yao",
+        "Guanghui Ren"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/agibottech/ewmbench",
+      "published": "2025-05-14T18:00:19.000Z"
+    },
+    {
+      "id": "2505.07782",
+      "title": "MLE-Dojo: Interactive Environments for Empowering LLM Agents in Machine Learning Engineering",
+      "authors": [
+        "Rushi Qiang",
+        "Yuchen Zhuang",
+        "Yinghao Li",
+        "Dingu Sagar V K",
+        "Rongzhi Zhang",
+        "Changhao Li",
+        "Ian Shu-Hei Wong",
+        "Sherry Yang",
+        "Percy Liang",
+        "Chao Zhang",
+        "Bo Dai"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/MLE-Dojo/MLE-Dojo",
+      "published": "2025-05-12T17:35:43.000Z"
+    },
+    {
+      "id": "2505.06027",
+      "title": "Unilogit: Robust Machine Unlearning for LLMs Using Uniform-Target Self-Distillation",
+      "authors": [
+        "Stefan Vasilev",
+        "Christian Herold",
+        "Baohao Liao",
+        "Seyyed Hadi Hashemi",
+        "Shahram Khadivi",
+        "Christof Monz"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/eBay/unilogit-acl-2025",
+      "published": "2025-05-09T13:19:09.000Z"
+    },
+    {
+      "id": "2505.10558",
+      "title": "Style Customization of Text-to-Vector Generation with Image Diffusion Priors",
+      "authors": [
+        "Peiying Zhang",
+        "Nanxuan Zhao",
+        "Jing Liao"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/intchous/custom-svg-style",
+      "published": "2025-05-15T17:59:21.000Z"
+    },
+    {
+      "id": "2505.10565",
+      "title": "Depth Anything with Any Prior",
+      "authors": [
+        "Zehan Wang",
+        "Siyu Chen",
+        "Lihe Yang",
+        "Jialei Wang",
+        "Ziang Zhang",
+        "Hengshuang Zhao",
+        "Zhou Zhao"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/SpatialVision/Prior-Depth-Anything",
+      "published": "2025-05-15T17:59:50.000Z"
+    },
+    {
+      "id": "2505.09990",
+      "title": "PointArena: Probing Multimodal Grounding Through Language-Guided Pointing",
+      "authors": [
+        "Long Cheng",
+        "Jiafei Duan",
+        "Yi Ru Wang",
+        "Haoquan Fang",
+        "Boyang Li",
+        "Yushan Huang",
+        "Elvis Wang",
+        "Ainaz Eftekhar",
+        "Jason Lee",
+        "Wentao Yuan",
+        "Rose Hendrix",
+        "Noah A. Smith",
+        "Fei Xia",
+        "Dieter Fox",
+        "Ranjay Krishna"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/pointarena/pointarena",
+      "published": "2025-05-15T06:04:42.000Z"
+    },
+    {
+      "id": "2505.10468",
+      "title": "AI Agents vs. Agentic AI: A Conceptual Taxonomy, Applications and Challenge",
+      "authors": [
+        "Ranjan Sapkota",
+        "Konstantinos I. Roumeliotis",
+        "Manoj Karkee"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2025-05-15T16:21:33.000Z"
+    },
+    {
+      "id": "2505.08581",
+      "title": "ReSurgSAM2: Referring Segment Anything in Surgical Video via Credible Long-term Tracking",
+      "authors": [
+        "Haofeng Liu",
+        "Mingqi Gao",
+        "Xuxiao Luo",
+        "Ziyue Wang",
+        "Guanyi Qin",
+        "Junde Wu",
+        "Yueming Jin"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/jinlab-imvr/ReSurgSAM2",
+      "published": "2025-05-13T13:56:10.000Z"
+    },
+    {
+      "id": "2505.10046",
+      "title": "Exploring the Deep Fusion of Large Language Models and Diffusion Transformers for Text-to-Image Synthesis",
+      "authors": [
+        "Bingda Tang",
+        "Boyang Zheng",
+        "Xichen Pan",
+        "Sayak Paul",
+        "Saining Xie"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/tang-bd/fuse-dit",
+      "published": "2025-05-15T07:43:23.000Z"
+    },
+    {
+      "id": "2505.09601",
+      "title": "Real2Render2Real: Scaling Robot Data Without Dynamics Simulation or Robot Hardware",
+      "authors": [
+        "Justin Yu",
+        "Letian Fu",
+        "Huang Huang",
+        "Karim El-Refai",
+        "Rares Andrei Ambrus",
+        "Richard Cheng",
+        "Muhammad Zubair Irshad",
+        "Ken Goldberg"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/uynitsuj/real2render2real",
+      "published": "2025-05-14T17:50:35.000Z"
+    },
+    {
+      "id": "2505.10566",
+      "title": "3D-Fixup: Advancing Photo Editing with 3D Priors",
+      "authors": [
+        "Yen-Chi Cheng",
+        "Krishna Kumar Singh",
+        "Jae Shin Yoon",
+        "Alex Schwing",
+        "Liangyan Gui",
+        "Matheus Gadelha",
+        "Paul Guerrero",
+        "Nanxuan Zhao"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2025-05-15T17:59:51.000Z"
+    },
+    {
+      "id": "2505.09926",
+      "title": "AdaptCLIP: Adapting CLIP for Universal Visual Anomaly Detection",
+      "authors": [
+        "Bin-Bin Gao",
+        "Yue Zhu",
+        "Jiangtao Yan",
+        "Yuezhi Cai",
+        "Weixi Zhang",
+        "Meng Wang",
+        "Jun Liu",
+        "Yong Liu",
+        "Lei Wang",
+        "Chengjie Wang"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/gaobb/AdaptCLIP",
+      "published": "2025-05-15T03:24:28.000Z"
+    },
+    {
+      "id": "2505.07096",
+      "title": "X-Sim: Cross-Embodiment Learning via Real-to-Sim-to-Real",
+      "authors": [
+        "Prithwish Dan",
+        "Kushal Kedia",
+        "Angela Chao",
+        "Edward Weiyi Duan",
+        "Maximus Adrian Pace",
+        "Wei-Chiu Ma",
+        "Sanjiban Choudhury"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/portal-cornell/X-Sim",
+      "published": "2025-05-11T19:04:00.000Z"
+    },
+    {
+      "id": "2505.09738",
+      "title": "Achieving Tokenizer Flexibility in Language Models through Heuristic Adaptation and Supertoken Learning",
+      "authors": [
+        "Shaurya Sharthak",
+        "Vinayak Pahalwan",
+        "Adithya Kamath",
+        "Adarsh Shirawalmath"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/Tinycompany-AI/tokenadapt",
+      "published": "2025-05-14T19:00:27.000Z"
+    },
+    {
+      "id": "2505.10167",
+      "title": "QuXAI: Explainers for Hybrid Quantum Machine Learning Models",
+      "authors": [
+        "Saikat Barua",
+        "Mostafizur Rahman",
+        "Shehenaz Khaled",
+        "Md Jafor Sadek",
+        "Rafiul Islam",
+        "Shahnewaz Siddique"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/GitsSaikat/QuXAI",
+      "published": "2025-05-15T10:51:34.000Z"
+    },
+    {
+      "id": "2505.09263",
+      "title": "Few-Shot Anomaly-Driven Generation for Anomaly Classification and Segmentation",
+      "authors": [
+        "Guan Gui",
+        "Bin-Bin Gao",
+        "Jun Liu",
+        "Chengjie Wang",
+        "Yunsheng Wu"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/gaobb/anogen",
+      "published": "2025-05-14T10:25:06.000Z"
+    },
+    {
+      "id": "2505.09264",
+      "title": "Learning to Detect Multi-class Anomalies with Just One Normal Image Prompt",
+      "authors": [
+        "Bin-Bin Gao"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/gaobb/OneNIP",
+      "published": "2025-05-14T10:25:14.000Z"
+    },
+    {
+      "id": "2505.09265",
+      "title": "MetaUAS: Universal Anomaly Segmentation with One-Prompt Meta-Learning",
+      "authors": [
+        "Bin-Bin Gao"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/gaobb/MetaUAS",
+      "published": "2025-05-14T10:25:26.000Z"
+    }
+  ]
+}

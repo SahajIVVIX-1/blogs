@@ -1,0 +1,357 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-10-17",
+  "fetched_at": "2026-10-29T15:29:23.522Z",
+  "candidates": [
+    {
+      "id": "2410.11623",
+      "title": "VidEgoThink: Assessing Egocentric Video Understanding Capabilities for Embodied AI",
+      "authors": [
+        "Sijie Cheng",
+        "Kechen Fang",
+        "Yangyang Yu",
+        "Sicheng Zhou",
+        "Bohao Li",
+        "Ye Tian",
+        "Tingguang Li",
+        "Lei Han",
+        "Yang Liu"
+      ],
+      "upvotes": 49,
+      "github": null,
+      "published": "2024-10-15T14:08:53.000Z"
+    },
+    {
+      "id": "2410.12628",
+      "title": "DocLayout-YOLO: Enhancing Document Layout Analysis through Diverse Synthetic Data and Global-to-Local Adaptive Perception",
+      "authors": [
+        "Zhiyuan Zhao",
+        "Hengrui Kang",
+        "Bin Wang",
+        "Conghui He"
+      ],
+      "upvotes": 42,
+      "github": "https://github.com/opendatalab/DocLayout-YOLO",
+      "published": "2024-10-16T14:50:47.000Z"
+    },
+    {
+      "id": "2410.12381",
+      "title": "HumanEval-V: Benchmarking High-Level Visual Reasoning with Complex Diagrams in Coding Tasks",
+      "authors": [
+        "Fengji Zhang",
+        "Linquan Wu",
+        "Huiyu Bai",
+        "Guancheng Lin",
+        "Xiao Li",
+        "Xiao Yu",
+        "Yue Wang",
+        "Bei Chen",
+        "Jacky Keung"
+      ],
+      "upvotes": 41,
+      "github": "https://github.com/HumanEval-V/HumanEval-V-Benchmark",
+      "published": "2024-10-16T09:04:57.000Z"
+    },
+    {
+      "id": "2410.12787",
+      "title": "The Curse of Multi-Modalities: Evaluating Hallucinations of Large Multimodal Models across Language, Visual, and Audio",
+      "authors": [
+        "Sicong Leng",
+        "Yun Xing",
+        "Zesen Cheng",
+        "Yang Zhou",
+        "Hang Zhang",
+        "Xin Li",
+        "Deli Zhao",
+        "Shijian Lu",
+        "Chunyan Miao",
+        "Lidong Bing"
+      ],
+      "upvotes": 30,
+      "github": null,
+      "published": "2024-10-16T17:59:02.000Z"
+    },
+    {
+      "id": "2410.12409",
+      "title": "Revealing the Barriers of Language Agents in Planning",
+      "authors": [
+        "Jian Xie",
+        "Kexun Zhang",
+        "Jiangjie Chen",
+        "Siyu Yuan",
+        "Kai Zhang",
+        "Yikai Zhang",
+        "Lei Li",
+        "Yanghua Xiao"
+      ],
+      "upvotes": 26,
+      "github": "https://github.com/hsaest/Agent-Planning-Analysis",
+      "published": "2024-10-16T09:44:38.000Z"
+    },
+    {
+      "id": "2410.12613",
+      "title": "Exploring Model Kinship for Merging Large Language Models",
+      "authors": [
+        "Yedi Hu",
+        "Yunzhi Yao",
+        "Ningyu Zhang",
+        "Shumin Deng",
+        "Huajun Chen"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/zjunlp/ModelKinship",
+      "published": "2024-10-16T14:29:29.000Z"
+    },
+    {
+      "id": "2410.10672",
+      "title": "Large Language Model Evaluation via Matrix Nuclear-Norm",
+      "authors": [
+        "Yahan Li",
+        "Tingyu Xia",
+        "Yi Chang",
+        "Yuan Wu"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/mlgroupjlu/matrixnuclearnorm",
+      "published": "2024-10-14T16:15:57.000Z"
+    },
+    {
+      "id": "2410.11081",
+      "title": "Simplifying, Stabilizing and Scaling Continuous-Time Consistency Models",
+      "authors": [
+        "Cheng Lu",
+        "Yang Song"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/xandergos/sCM-mnist",
+      "published": "2024-10-14T20:43:25.000Z"
+    },
+    {
+      "id": "2410.07722",
+      "title": "DyVo: Dynamic Vocabularies for Learned Sparse Retrieval with Entities",
+      "authors": [
+        "Thong Nguyen",
+        "Shubham Chatterjee",
+        "Sean MacAvaney",
+        "Iain Mackie",
+        "Jeff Dalton",
+        "Andrew Yates"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/thongnt99/dyvo",
+      "published": "2024-10-10T08:41:34.000Z"
+    },
+    {
+      "id": "2410.11817",
+      "title": "Improving Long-Text Alignment for Text-to-Image Diffusion Models",
+      "authors": [
+        "Luping Liu",
+        "Chao Du",
+        "Tianyu Pang",
+        "Zehan Wang",
+        "Chongxuan Li",
+        "Dong Xu"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/luping-liu/longalign",
+      "published": "2024-10-15T17:46:31.000Z"
+    },
+    {
+      "id": "2410.08968",
+      "title": "Controllable Safety Alignment: Inference-Time Adaptation to Diverse Safety Requirements",
+      "authors": [
+        "Jingyu Zhang",
+        "Ahmed Elgohary",
+        "Ahmed Magooda",
+        "Daniel Khashabi",
+        "Benjamin Van Durme"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/microsoft/controllable-safety-alignment",
+      "published": "2024-10-11T16:38:01.000Z"
+    },
+    {
+      "id": "2410.12405",
+      "title": "ProSA: Assessing and Understanding the Prompt Sensitivity of LLMs",
+      "authors": [
+        "Jingming Zhuo",
+        "Songyang Zhang",
+        "Xinyu Fang",
+        "Haodong Duan",
+        "Dahua Lin",
+        "Kai Chen"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/open-compass/ProSA",
+      "published": "2024-10-16T09:38:13.000Z"
+    },
+    {
+      "id": "2410.08584",
+      "title": "ZipVL: Efficient Large Vision-Language Models with Dynamic Token Sparsification and KV Cache Compression",
+      "authors": [
+        "Yefei He",
+        "Feng Chen",
+        "Jing Liu",
+        "Wenqi Shao",
+        "Hong Zhou",
+        "Kaipeng Zhang",
+        "Bohan Zhuang"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2024-10-11T07:24:21.000Z"
+    },
+    {
+      "id": "2410.12490",
+      "title": "Stabilize the Latent Space for Image Autoregressive Modeling: A Unified Perspective",
+      "authors": [
+        "Yongxin Zhu",
+        "Bocheng Li",
+        "Hang Zhang",
+        "Xin Li",
+        "Linli Xu",
+        "Lidong Bing"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/DAMO-NLP-SG/DiGIT",
+      "published": "2024-10-16T12:13:17.000Z"
+    },
+    {
+      "id": "2410.09870",
+      "title": "ChroKnowledge: Unveiling Chronological Knowledge of Language Models in Multiple Domains",
+      "authors": [
+        "Yein Park",
+        "Chanwoong Yoon",
+        "Jungwoo Park",
+        "Donghyeon Lee",
+        "Minbyul Jeong",
+        "Jaewoo Kang"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/dmis-lab/chroknowledge",
+      "published": "2024-10-13T15:08:49.000Z"
+    },
+    {
+      "id": "2410.11878",
+      "title": "Neural Metamorphosis",
+      "authors": [
+        "Xingyi Yang",
+        "Xinchao Wang"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2024-10-10T14:49:58.000Z"
+    },
+    {
+      "id": "2410.12391",
+      "title": "Tracking Universal Features Through Fine-Tuning and Model Merging",
+      "authors": [
+        "Niels Horn",
+        "Desmond Elliott"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2024-10-16T09:18:39.000Z"
+    },
+    {
+      "id": "2410.12722",
+      "title": "WorldMedQA-V: a multilingual, multimodal medical examination dataset for multimodal language models evaluation",
+      "authors": [
+        "João Matos",
+        "Shan Chen",
+        "Siena Placino",
+        "Yingya Li",
+        "Juan Carlos Climent Pardo",
+        "Daphna Idan",
+        "Takeshi Tohyama",
+        "David Restrepo",
+        "Luis F. Nakayama",
+        "Jose M. M. Pascual-Leone",
+        "Guergana Savova",
+        "Hugo Aerts",
+        "Leo A. Celi",
+        "A. Ian Wong",
+        "Danielle S. Bitterman",
+        "Jack Gallifant"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/WorldMedQA/V",
+      "published": "2024-10-16T16:31:24.000Z"
+    },
+    {
+      "id": "2410.11900",
+      "title": "FLARE: Faithful Logic-Aided Reasoning and Exploration",
+      "authors": [
+        "Erik Arakelyan",
+        "Pasquale Minervini",
+        "Pat Verga",
+        "Patrick Lewis",
+        "Isabelle Augenstein"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2024-10-14T19:39:11.000Z"
+    },
+    {
+      "id": "2410.12491",
+      "title": "Insights from the Inverse: Reconstructing LLM Training Goals Through Inverse RL",
+      "authors": [
+        "Jared Joselowitz",
+        "Arjun Jagota",
+        "Satyapriya Krishna",
+        "Sonali Parbhoo"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2024-10-16T12:14:25.000Z"
+    },
+    {
+      "id": "2410.12109",
+      "title": "OMCAT: Omni Context Aware Transformer",
+      "authors": [
+        "Arushi Goel",
+        "Karan Sapra",
+        "Matthieu Le",
+        "Rafael Valle",
+        "Andrew Tao",
+        "Bryan Catanzaro"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2024-10-15T23:16:28.000Z"
+    },
+    {
+      "id": "2410.11843",
+      "title": "From Commands to Prompts: LLM-based Semantic File System for AIOS",
+      "authors": [
+        "Zeru Shi",
+        "Kai Mei",
+        "Mingyu Jin",
+        "Yongye Su",
+        "Chaoji Zuo",
+        "Wenyue Hua",
+        "Wujiang Xu",
+        "Yujie Ren",
+        "Zirui Liu",
+        "Mengnan Du",
+        "Dong Deng",
+        "Yongfeng Zhang"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/agiresearch/aios-lsfs",
+      "published": "2024-09-23T08:39:16.000Z"
+    },
+    {
+      "id": "2410.09724",
+      "title": "Taming Overconfidence in LLMs: Reward Calibration in RLHF",
+      "authors": [
+        "Jixuan Leng",
+        "Chengsong Huang",
+        "Banghua Zhu",
+        "Jiaxin Huang"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/SeanLeng1/Reward-Calibration",
+      "published": "2024-10-13T04:48:40.000Z"
+    }
+  ]
+}

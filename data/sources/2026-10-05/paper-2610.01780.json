@@ -1,0 +1,7 @@
+{
+  "id": "2610.01780",
+  "html": "https://arxiv.org/html/2610.01780",
+  "limitations": null,
+  "conclusion": "RealCompanion releases ten real relationships between people and an AI companion, and every chat item carries the reasoning trace that produced it, checked against the conversation it came from. The past is rarely needed and, when it is, far away: 3.4% of sampled messages reach outside the current thread, a median of 2,157 messages back, and the demand concentrates in the longest relationships. Where it is needed, supplying the recorded evidence raises content match by 0.455, yet no system we evaluate decides when to reach back, and no detector we tried tells the two situations apart on real messages. On who the person is, three agent systems reconstruct the persona with the same F1 at a 31-fold difference in cost, and all three add about seventy to eighty further fields for every hundred they recover. Unlike an authored corpus, RealCompanion knows how often memory is actually required. ",
+  "figure": null
+}

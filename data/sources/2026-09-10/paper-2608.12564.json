@@ -1,0 +1,11 @@
+{
+  "id": "2608.12564",
+  "html": "https://arxiv.org/html/2608.12564",
+  "limitations": null,
+  "conclusion": "We note that the proposed denoising weights are not only theoretically sound (Section 4 ) but also empirically interpretable. On the anchor groups, the tracked residual [math] measures how far the calibrated predictions fall from the true scores, and thereby audits the world model throughout training. When the audit worsens, the anchor weight in Equation ( 5 ) rises. Consider a task whose outcome hinges on randomness that no reading of the solution reveals. In this case, [math] remains large and the gradient is carried by the anchor groups, so WMRL degrades toward the standard GRPO of Section 3.1 instead of learning from a corrupted signal. This fallback follows from the measurement itself rather than a mixing ratio fixed in advance. Additionally, although the design targets the execution bottleneck of AutoResearch, it is not limited to this scenario. The construction requires only that ",
+  "figure": {
+    "path": "images/2026/paper-2608.12564.webp",
+    "src": "https://arxiv.org/html/2608.12564v3/figures/fig1.png",
+    "caption": "Figure 1 : AutoResearch trajectories scale asymmetrically, making environment execution the bottleneck, and our WMRL removes it. (a) Per research question, the agent proposes a group of solutions [math] , graded by execution into rewards [math] , and RL demands a massive number of such trajectories. (b) Per trajectory, generation amortizes compute via batching, but execution needs one isolated san"
+  }
+}

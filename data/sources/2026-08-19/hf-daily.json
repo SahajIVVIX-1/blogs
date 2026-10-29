@@ -1,0 +1,647 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-08-19",
+  "fetched_at": "2026-10-29T15:36:35.723Z",
+  "candidates": [
+    {
+      "id": "2608.14036",
+      "title": "Demystifying Agent Skills: Why They Work-Until They Don't",
+      "authors": [
+        "Zhiyuan Jiang",
+        "Fangrui Huang",
+        "Hanwen Xing",
+        "Xander Wu",
+        "Yipeng Gao",
+        "Rui Cao",
+        "Mengdi Wang",
+        "Shilong Liu",
+        "Yijiang Li"
+      ],
+      "upvotes": 116,
+      "github": "https://github.com/zhiyuanjiang04/demystify-agent-skills",
+      "published": "2026-08-14T00:00:00.000Z"
+    },
+    {
+      "id": "2608.17310",
+      "title": "Agentic ESOpt: Fine-Tuning Long-Horizon LLM Agents with Minimal GPU Requirements",
+      "authors": [
+        "Zhi Zheng",
+        "Rongsheng Chen",
+        "Yunpeng Ba",
+        "Zhenkun Wang",
+        "Yee Whye Teh",
+        "Wee Sun Lee"
+      ],
+      "upvotes": 111,
+      "github": "https://github.com/zz1358m/Agentic-ESOpt",
+      "published": "2026-08-18T00:00:00.000Z"
+    },
+    {
+      "id": "2608.16157",
+      "title": "FreeToken: Efficient Edge-Native MoE Serving with Bandwidth-Adaptive Execution",
+      "authors": [
+        "Shuo Yang",
+        "Xiaoze Fan",
+        "Melissa Pan",
+        "Haocheng Xi",
+        "Zhe Wang",
+        "Shanlin Sun",
+        "Kurt Keutzer",
+        "Song Han",
+        "Matei Zaharia",
+        "Chenfeng Xu",
+        "Ion Stoica"
+      ],
+      "upvotes": 87,
+      "github": "https://github.com/FlashML-org/FreeToken",
+      "published": "2026-08-17T00:00:00.000Z"
+    },
+    {
+      "id": "2608.17271",
+      "title": "ASI-Bench: At the Dawn of Artificial Superintelligence",
+      "authors": [
+        "Junwei Zhou",
+        "Zhen Sun",
+        "Binyu Li",
+        "Jiangyu Zhou",
+        "Yuexi Pan",
+        "Hengyu Wang",
+        "Honghe Ren",
+        "Xiaohan Jia",
+        "Xueyang Zhou",
+        "Xiaoyu Cao",
+        "Yongchao Chen",
+        "Yuanning Feng",
+        "Junhao Wu",
+        "Cheng Zhang",
+        "Sijia Chen",
+        "Haoyu Xue",
+        "Chengsong You",
+        "Huan Wang",
+        "Koutian Wu",
+        "Peigan Gao",
+        "Jiakun Wu",
+        "Wenzhe Li",
+        "Ergan Shang",
+        "Qingyuan Zheng",
+        "Jingjing Zhou",
+        "Ruixuan Jia",
+        "Yan Xu",
+        "Hongrui Zhang",
+        "Xiao-Han Ma",
+        "Zhengxiang Cheng",
+        "Yuexing Hao",
+        "Liting Mai",
+        "Xianglin Ji",
+        "Wenjun Zhang",
+        "Zhuofan Chen",
+        "Yixiao Huang",
+        "Chi Wang",
+        "Wenyue Hua",
+        "Yilun Hao",
+        "Yuantao Zhai",
+        "Ziyan Zhao",
+        "Jingyan Xie"
+      ],
+      "upvotes": 70,
+      "github": "https://github.com/apexin-ai/ASI-Bench",
+      "published": "2026-08-18T00:00:00.000Z"
+    },
+    {
+      "id": "2608.17800",
+      "title": "StartupBench: Benchmarking General-Purpose Agents on Market-Validated End-to-End Workflows",
+      "authors": [
+        "Liya Zhu",
+        "Xin Ma",
+        "Tao Liu",
+        "Haodong Wang",
+        "Ge Zhang",
+        "Jingzhe Ding",
+        "Qingshui Gu",
+        "Yongjie Zhong",
+        "Jinxiang Meng",
+        "Yuan Gao",
+        "Yunqiu Zhou",
+        "Hao Zhu",
+        "Jifeng He",
+        "Yongzhi Liao",
+        "Xinyi Zhang",
+        "Chaoxin Li",
+        "Yi Zhu",
+        "Xi Lin",
+        "Duju Zeng",
+        "Xiang Gao",
+        "Wen Zhang",
+        "Yunyang Wang",
+        "Duo Wang",
+        "Huan Zhou",
+        "Zuo Wang",
+        "Jin Chen",
+        "Kaiyuan Zhang",
+        "Chuqian Yu",
+        "Tianhao Yu",
+        "Longxiang Liu",
+        "Jianbo Xue",
+        "Huimin Che",
+        "Jiahao Wang",
+        "Yujia Qin",
+        "Jiaheng Liu",
+        "Shen Yan",
+        "Xiaolong Chang",
+        "Wenhao Huang"
+      ],
+      "upvotes": 70,
+      "github": null,
+      "published": "2026-08-18T00:00:00.000Z"
+    },
+    {
+      "id": "2608.17512",
+      "title": "Embodied-Navigator: Point, Think, Memorize, and Align for Efficient Navigation",
+      "authors": [
+        "Hongyan Feng",
+        "Sunlai Chen",
+        "Xuanyu Liu",
+        "Miao Pan",
+        "Yangfan Xie",
+        "Yuxiang Cui",
+        "Zhongxiang Zhou",
+        "Rong Xiong",
+        "Wenqi Zhang",
+        "Jianwei Yin",
+        "Yueting Zhuang",
+        "Xuhong Zhang"
+      ],
+      "upvotes": 47,
+      "github": "https://github.com/ZJU-OmniAI/Embodied-Omni",
+      "published": "2026-08-18T00:00:00.000Z"
+    },
+    {
+      "id": "2608.17528",
+      "title": "Agent Lightning v1.0: Towards Harnessed Agentic RL",
+      "authors": [
+        "Zhiyuan He",
+        "Siwei Zhang",
+        "Zhiwen Zhou",
+        "Yuqing Yang",
+        "Yu Kang",
+        "Yuge Zhang",
+        "Luna K. Qiu",
+        "Tin Yan Tsui",
+        "Jiahang Xu",
+        "Chong Luo"
+      ],
+      "upvotes": 35,
+      "github": null,
+      "published": "2026-08-18T00:00:00.000Z"
+    },
+    {
+      "id": "2608.13556",
+      "title": "V-RAE: Rethinking Video Latent Spaces for Generation",
+      "authors": [
+        "Minghui Guo",
+        "Shengqiong Wu",
+        "Hao Fei"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/V-RAE/V-RAE",
+      "published": "2026-08-13T00:00:00.000Z"
+    },
+    {
+      "id": "2608.12313",
+      "title": "AVA-Encoder: Towards Agent-Native Video Representation Learning",
+      "authors": [
+        "Chuyue Li",
+        "Jinpeng Yu",
+        "Haozhe Wang",
+        "Tian Xueyun",
+        "Zhijing Zhang",
+        "Bingnan Li",
+        "Shuqi Gu",
+        "Kan Ren",
+        "Jiaming Liu",
+        "Ruihua Hua"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/HBDYW/AVA-Encoder",
+      "published": "2026-08-12T00:00:00.000Z"
+    },
+    {
+      "id": "2608.17393",
+      "title": "LEGO-RL: Harness-Native Reinforcement Learning for Coding Agents",
+      "authors": [
+        "Yiming Du",
+        "Yuxin Jiang",
+        "Tao Yuan",
+        "Jianbo Dai",
+        "Shaowei Wang",
+        "Jierun Chen",
+        "Chaofan Tao",
+        "Xianzhi Yu",
+        "Lifeng Shang",
+        "Kam-Fai Wong",
+        "Xiaohui Li",
+        "Haoli Bai"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/LegoX/Lego-RL",
+      "published": "2026-08-18T00:00:00.000Z"
+    },
+    {
+      "id": "2608.17067",
+      "title": "DiSCO: Defending text-to-image generation through distribution-guided contrastive prompt optimization",
+      "authors": [
+        "Tong Zhang",
+        "Motasem Alfarra",
+        "Carlos Hinojosa",
+        "Christos Louizos",
+        "Bernard Ghanem"
+      ],
+      "upvotes": 23,
+      "github": null,
+      "published": "2026-08-17T00:00:00.000Z"
+    },
+    {
+      "id": "2608.18063",
+      "title": "EDITBRIDGE: Towards Faithful and Efficient Ultra-High-Resolution Image Editing",
+      "authors": [
+        "Jiayi Song",
+        "Shijie Huang",
+        "Fangtai Wu",
+        "Yubo Huang",
+        "Zhenxiong Tan",
+        "Songhua Liu",
+        "Jiaming Liu",
+        "Ruihua Huang"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/songyangyifei/editbridge",
+      "published": "2026-08-18T00:00:00.000Z"
+    },
+    {
+      "id": "2608.17402",
+      "title": "MoE-ViE: Mixture of Experts Vision Encoder for Efficient Image and Video Understanding",
+      "authors": [
+        "Bonan Zhang",
+        "Shiyu Dong",
+        "Quan Hung Tran",
+        "Katharina Gschwind",
+        "Shuqi Yang",
+        "Sijia Chen",
+        "Adel Ahmadyan",
+        "Seungwhan Moon",
+        "Lu Zhang",
+        "Ahmed Kirmani",
+        "Babak Damavandi",
+        "Anuj Kumar"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/facebookresearch/moe_vie",
+      "published": "2026-08-18T00:00:00.000Z"
+    },
+    {
+      "id": "2608.15454",
+      "title": "Dynamic Multi-Byte Prediction With Hierarchical Language Models",
+      "authors": [
+        "Abraham Toluwase Owodunni",
+        "Chibuzor Okocha",
+        "Christan Grant",
+        "Tomasz Limisiewicz",
+        "Sachin Kumar"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/skai-research/lca-multibyte",
+      "published": "2026-08-16T00:00:00.000Z"
+    },
+    {
+      "id": "2608.17566",
+      "title": "CoinVE-200K: A Large-Scale High-Quality Dataset for Compositional Instruction-Guided Video Editing",
+      "authors": [
+        "Fuchen Long",
+        "Cong Wang",
+        "Zitao Gao",
+        "Wenhao Zhong",
+        "Yu Cheng",
+        "Xiaolu Hou",
+        "Yan Li",
+        "Xiao Cao",
+        "Xinlong Sun",
+        "Xi Chen",
+        "Yu Liu"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/coinve200k/CoinVE-200K",
+      "published": "2026-08-18T00:00:00.000Z"
+    },
+    {
+      "id": "2608.15008",
+      "title": "Harness the Memory: A Holistic Evaluation of Memory Substrates in Memory Agents",
+      "authors": [
+        "Wei-Chieh Huang",
+        "Weizhi Zhang",
+        "Yuchen Wu",
+        "Yankai Chen",
+        "Eric Hanchen Jiang",
+        "Wooseong Yang",
+        "Yiwei Yang",
+        "Henry Peng Zou",
+        "Hanrong Zhang",
+        "Ying Nian Wu",
+        "Haolun Wu",
+        "Kai-Wei Chang",
+        "Philip S. Yu",
+        "Xue Liu",
+        "Aylin Caliskan"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2026-08-15T00:00:00.000Z"
+    },
+    {
+      "id": "2608.18933",
+      "title": "SkillForge: Self-Distilling Agents for Project-Specific Issue Resolution",
+      "authors": [
+        "Silin Chen",
+        "Han Li",
+        "Xiaodong Gu",
+        "Yuling Shi",
+        "Haibing Guan"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2026-08-19T00:00:00.000Z"
+    },
+    {
+      "id": "2608.18076",
+      "title": "From Corpora to Co-Evolving Capabilities: Capability-Centric Data Design for Generalist Image Generation",
+      "authors": [
+        "Xingjian Wang",
+        "Zhao Wang",
+        "Taihang Hu",
+        "Jun Zheng",
+        "Qing Jin",
+        "Qinye Zhou",
+        "Zhengtao Wu",
+        "Yongchao Du",
+        "Zuan Gao",
+        "Chao Lin",
+        "Yefeng Shen",
+        "Xiaoli Xu",
+        "Zhengze Xu",
+        "Hao Yan",
+        "Yuhang Yu",
+        "Mingzhou Zhang",
+        "Mengting Chen"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2026-08-18T00:00:00.000Z"
+    },
+    {
+      "id": "2608.17286",
+      "title": "Abra: Scaling Diffusion Image Training",
+      "authors": [
+        "Kyle Chickering",
+        "Wei-An Lin",
+        "Swayam Bhanded",
+        "Dan Saunders",
+        "Akshat Tripathi",
+        "Jiaming Song",
+        "Shyamal Buch",
+        "Xinchen Yan"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2026-08-18T00:00:00.000Z"
+    },
+    {
+      "id": "2608.17597",
+      "title": "HarnessRisk: A Lifecycle-Oriented Benchmark for Agent Harness Safety",
+      "authors": [
+        "Yajing Bai",
+        "Jinhao Duan",
+        "Jie Peng",
+        "Xianfeng Wu",
+        "Sijia Liu",
+        "Song Wang",
+        "Tianlong Chen"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/Baiyajing/HarnessRisk",
+      "published": "2026-08-18T00:00:00.000Z"
+    },
+    {
+      "id": "2608.05811",
+      "title": "Energy-Guided Flow Matching",
+      "authors": [
+        "Haoyang Tong",
+        "Yu He",
+        "Fang Li",
+        "Lichen Ma",
+        "Jingling Fu",
+        "Dong Chen",
+        "Zhen Chen",
+        "Junshi Huang",
+        "Jie Cao"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/ysng123/EG-FM",
+      "published": "2026-08-07T00:00:00.000Z"
+    },
+    {
+      "id": "2608.17050",
+      "title": "Cross-Model Memory Transfer via Target-Side Reader Adaptation",
+      "authors": [
+        "Mingyuan Li",
+        "Guangsheng Yu",
+        "Xu Wang",
+        "Shaoxiong Ji"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/OLAResearch/XMemTransfer",
+      "published": "2026-08-17T00:00:00.000Z"
+    },
+    {
+      "id": "2608.16977",
+      "title": "The Problem Is the Problem: Towards Scalable Mathematical Discovery",
+      "authors": [
+        "Zeyu Zheng",
+        "Shengtong Zhang",
+        "Jeremy Avigad",
+        "Prasad Tetali",
+        "Sean Welleck"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/zeyu-zheng/FAR",
+      "published": "2026-08-17T00:00:00.000Z"
+    },
+    {
+      "id": "2608.14221",
+      "title": "MathForm: Scaling Mathematical Autoformalization with Knowledge Retrieval and Verification-Guided Refinement",
+      "authors": [
+        "Lushi Pu",
+        "Weiming Zhang",
+        "Xinheng Xie",
+        "Zixuan Fu",
+        "Bingxiang He",
+        "Hengyu Zhao",
+        "Hongya Lyu",
+        "Xin Li",
+        "Jie Zhou",
+        "Yudong Wang"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/OpenBMB/MathForm",
+      "published": "2026-08-14T11:51:12.000Z"
+    },
+    {
+      "id": "2608.14881",
+      "title": "Personalized Auto-Research: Towards a True AI Co-Scientist",
+      "authors": [
+        "Bo Ni",
+        "Franck Dernoncourt",
+        "Hongjie Chen",
+        "Yu Wang",
+        "Nesreen K. Ahmed",
+        "Zhengzhong Tu",
+        "Tyler Derr",
+        "Ryan A. Rossi"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2026-08-14T00:00:00.000Z"
+    },
+    {
+      "id": "2608.16393",
+      "title": "Security Assessment of DeepSeek Harness with A.I.G: Evaluating Resistance to Indirect Prompt Injection",
+      "authors": [
+        "Zonghao Ying",
+        "Xiangfan Wu",
+        "Huiyu Wu",
+        "Xing Zheng",
+        "Huangsheng Cheng",
+        "Xiaorong Shi",
+        "Jing Guo"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2026-08-18T00:00:00.000Z"
+    },
+    {
+      "id": "2608.17975",
+      "title": "aDSL: Agentic 3D Creation via Joint Agent-Program Design",
+      "authors": [
+        "Rui-Huan Wang",
+        "Si-Tong Wei",
+        "Jia-Qi He",
+        "Heng-Yi Wei",
+        "Baoquan Chen",
+        "Peng-Shuai Wang"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2026-08-18T00:00:00.000Z"
+    },
+    {
+      "id": "2608.16097",
+      "title": "Unifying Graph Neural Networks Through a Common Layer Equation",
+      "authors": [
+        "Sai Karthik Navuluru",
+        "Siddhartha Shankar Das",
+        "Bo Ni",
+        "Hongjie Chen",
+        "Yu Wang",
+        "Baris Coskunuzer",
+        "Nesreen K. Ahmed",
+        "Franck Dernoncourt",
+        "Mahantesh Halappanavar",
+        "Tyler Derr",
+        "Ryan A. Rossi",
+        "Lakshman Tamil"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2026-08-17T00:00:00.000Z"
+    },
+    {
+      "id": "2608.17988",
+      "title": "GS-Voxel: Fitting-Free Structured Latents for Large-Scale 3DGS Generation",
+      "authors": [
+        "Ming Qian",
+        "Zijian Wang",
+        "Minchao Sun",
+        "Jincheng Xiong",
+        "Hang Zhang",
+        "Mu Xu",
+        "Chi Wang",
+        "Baoquan Chen"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2026-08-18T00:00:00.000Z"
+    },
+    {
+      "id": "2608.16002",
+      "title": "From Sequence to Structure: Relational Uncertainty Propagation for LLM Agents",
+      "authors": [
+        "Zhengzhao Ma",
+        "Boxi Cao",
+        "Yaojie Lu",
+        "Hongyu Lin",
+        "Xianpei Han",
+        "Le Sun",
+        "Zhengzhao Ma. Boxi Cao"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/icip-cas/RUPA",
+      "published": "2026-08-19T00:00:00.000Z"
+    },
+    {
+      "id": "2608.17379",
+      "title": "PTXBench: Benchmark and Adapt LLMs for GPU Kernel Optimization with Architecture-specific PTX",
+      "authors": [
+        "Genghan Zhang",
+        "Yixin Dong",
+        "Chengze Fan",
+        "Zhichen Zeng",
+        "Yueming Yuan",
+        "Shaowei Zhu",
+        "Kunle Olukotun"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/zhang677/PTXBench",
+      "published": "2026-08-18T00:00:00.000Z"
+    },
+    {
+      "id": "2608.16793",
+      "title": "PixRestore: Unified Image Restoration via Pixel Diffusion Transformer",
+      "authors": [
+        "Lingchen Sun",
+        "Rongyuan Wu",
+        "Xiangtao Kong",
+        "Jixin Zhao",
+        "Qiaosi Yi",
+        "Yujing Sun",
+        "Shuaizheng Liu",
+        "Zhengqiang Zhang",
+        "Lei Zhang"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/csslc/PixRestore",
+      "published": "2026-08-17T00:00:00.000Z"
+    },
+    {
+      "id": "2608.12944",
+      "title": "CardioState-JEPA: Delay-Aware Cross-Modal Learning of a Shared Cardiac Representation",
+      "authors": [
+        "Hamza Shafiq",
+        "Hung Manh Pham",
+        "Bin Zhu",
+        "Pan Zhou",
+        "Jun Hu",
+        "Aaqib Saeed"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/hamzashafiq28/CardioState-Jepa",
+      "published": "2026-08-13T00:00:00.000Z"
+    }
+  ]
+}

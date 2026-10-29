@@ -1,0 +1,205 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-02-19",
+  "fetched_at": "2026-10-29T15:26:56.605Z",
+  "candidates": [
+    {
+      "id": "2402.10644",
+      "title": "Linear Transformers with Learnable Kernel Functions are Better In-Context Models",
+      "authors": [
+        "Yaroslav Aksenov",
+        "Nikita Balagansky",
+        "Sofia Maria Lo Cicero Vaina",
+        "Boris Shaposhnikov",
+        "Alexey Gorbatovski",
+        "Daniil Gavrilov"
+      ],
+      "upvotes": 81,
+      "github": "https://github.com/corl-team/rebased",
+      "published": "2024-02-16T12:44:15.000Z"
+    },
+    {
+      "id": "2402.10790",
+      "title": "In Search of Needles in a 10M Haystack: Recurrent Memory Finds What LLMs Miss",
+      "authors": [
+        "Yuri Kuratov",
+        "Aydar Bulatov",
+        "Petr Anokhin",
+        "Dmitry Sorokin",
+        "Artyom Sorokin",
+        "Mikhail Burtsev"
+      ],
+      "upvotes": 42,
+      "github": null,
+      "published": "2024-02-16T16:15:01.000Z"
+    },
+    {
+      "id": "2402.10555",
+      "title": "SPAR: Personalized Content-Based Recommendation via Long Engagement Attention",
+      "authors": [
+        "Chiyu Zhang",
+        "Yifei Sun",
+        "Jun Chen",
+        "Jie Lei",
+        "Muhammad Abdul-Mageed",
+        "Sinong Wang",
+        "Rong Jin",
+        "Sem Park",
+        "Ning Yao",
+        "Bo Long"
+      ],
+      "upvotes": 35,
+      "github": "https://github.com/jyonn/legommenders",
+      "published": "2024-02-16T10:36:38.000Z"
+    },
+    {
+      "id": "2402.10379",
+      "title": "DataDreamer: A Tool for Synthetic Data Generation and Reproducible LLM Workflows",
+      "authors": [
+        "Ajay Patel",
+        "Colin Raffel",
+        "Chris Callison-Burch"
+      ],
+      "upvotes": 31,
+      "github": "https://github.com/datadreamer-dev/datadreamer",
+      "published": "2024-02-16T00:10:26.000Z"
+    },
+    {
+      "id": "2402.10294",
+      "title": "LAVE: LLM-Powered Agent Assistance and Language Augmentation for Video Editing",
+      "authors": [
+        "Bryan Wang",
+        "Yuliang Li",
+        "Zhaoyang Lv",
+        "Haijun Xia",
+        "Yan Xu",
+        "Raj Sodhi"
+      ],
+      "upvotes": 27,
+      "github": null,
+      "published": "2024-02-15T19:53:11.000Z"
+    },
+    {
+      "id": "2402.10524",
+      "title": "LLM Comparator: Visual Analytics for Side-by-Side Evaluation of Large Language Models",
+      "authors": [
+        "Minsuk Kahng",
+        "Ian Tenney",
+        "Mahima Pushkarna",
+        "Michael Xieyang Liu",
+        "James Wexler",
+        "Emily Reif",
+        "Krystal Kallarackal",
+        "Minsuk Chang",
+        "Michael Terry",
+        "Lucas Dixon"
+      ],
+      "upvotes": 23,
+      "github": null,
+      "published": "2024-02-16T09:14:49.000Z"
+    },
+    {
+      "id": "2402.10466",
+      "title": "Large Language Models as Zero-shot Dialogue State Tracker through Function Calling",
+      "authors": [
+        "Zekun Li",
+        "Zhiyu Zoey Chen",
+        "Mike Ross",
+        "Patrick Huber",
+        "Seungwhan Moon",
+        "Zhaojiang Lin",
+        "Xin Luna Dong",
+        "Adithya Sagar",
+        "Xifeng Yan",
+        "Paul A. Crook"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/facebookresearch/fnctod",
+      "published": "2024-02-16T06:13:18.000Z"
+    },
+    {
+      "id": "2402.10491",
+      "title": "Make a Cheap Scaling: A Self-Cascade Diffusion Model for Higher-Resolution Adaptation",
+      "authors": [
+        "Lanqing Guo",
+        "Yingqing He",
+        "Haoxin Chen",
+        "Menghan Xia",
+        "Xiaodong Cun",
+        "Yufei Wang",
+        "Siyu Huang",
+        "Yong Zhang",
+        "Xintao Wang",
+        "Qifeng Chen",
+        "Ying Shan",
+        "Bihan Wen"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/guolanqing/self-cascade",
+      "published": "2024-02-16T07:48:35.000Z"
+    },
+    {
+      "id": "2402.10259",
+      "title": "GaussianObject: Just Taking Four Images to Get A High-Quality 3D Object with Gaussian Splatting",
+      "authors": [
+        "Chen Yang",
+        "Sikuang Li",
+        "Jiemin Fang",
+        "Ruofan Liang",
+        "Lingxi Xie",
+        "Xiaopeng Zhang",
+        "Wei Shen",
+        "Qi Tian"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/GaussianObject/GaussianObject",
+      "published": "2024-02-15T18:42:33.000Z"
+    },
+    {
+      "id": "2402.10896",
+      "title": "PaLM2-VAdapter: Progressively Aligned Language Model Makes a Strong Vision-language Adapter",
+      "authors": [
+        "Junfei Xiao",
+        "Zheng Xu",
+        "Alan Yuille",
+        "Shen Yan",
+        "Boyu Wang"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2024-02-16T18:54:47.000Z"
+    },
+    {
+      "id": "2402.10329",
+      "title": "Universal Manipulation Interface: In-The-Wild Robot Teaching Without In-The-Wild Robots",
+      "authors": [
+        "Cheng Chi",
+        "Zhenjia Xu",
+        "Chuer Pan",
+        "Eric Cousineau",
+        "Benjamin Burchfiel",
+        "Siyuan Feng",
+        "Russ Tedrake",
+        "Shuran Song"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2024-02-15T21:11:50.000Z"
+    },
+    {
+      "id": "2402.10893",
+      "title": "RLVF: Learning from Verbal Feedback without Overgeneralization",
+      "authors": [
+        "Moritz Stephan",
+        "Alexander Khazatsky",
+        "Eric Mitchell",
+        "Annie S Chen",
+        "Sheryl Hsu",
+        "Archit Sharma",
+        "Chelsea Finn"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/austrian-code-wizard/c3po",
+      "published": "2024-02-16T18:50:24.000Z"
+    }
+  ]
+}

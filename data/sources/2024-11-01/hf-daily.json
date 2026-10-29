@@ -1,0 +1,254 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-11-01",
+  "fetched_at": "2026-10-29T15:29:32.637Z",
+  "candidates": [
+    {
+      "id": "2410.22366",
+      "title": "Unpacking SDXL Turbo: Interpreting Text-to-Image Models with Sparse Autoencoders",
+      "authors": [
+        "Viacheslav Surkov",
+        "Chris Wendler",
+        "Mikhail Terekhov",
+        "Justin Deschenaux",
+        "Robert West",
+        "Caglar Gulcehre"
+      ],
+      "upvotes": 84,
+      "github": "https://github.com/surkovv/sdxl-unbox",
+      "published": "2024-10-28T19:01:18.000Z"
+    },
+    {
+      "id": "2410.23743",
+      "title": "What Happened in LLMs Layers when Trained for Fast vs. Slow Thinking: A Gradient Perspective",
+      "authors": [
+        "Ming Li",
+        "Yanhong Li",
+        "Tianyi Zhou"
+      ],
+      "upvotes": 64,
+      "github": "https://github.com/MingLiiii/Layer_Gradient",
+      "published": "2024-10-31T08:58:06.000Z"
+    },
+    {
+      "id": "2410.22476",
+      "title": "A Pointer Network-based Approach for Joint Extraction and Detection of Multi-Label Multi-Class Intents",
+      "authors": [
+        "Ankan Mullick",
+        "Sombit Bose",
+        "Abhilash Nandy",
+        "Gajula Sai Chaitanya",
+        "Pawan Goyal"
+      ],
+      "upvotes": 27,
+      "github": null,
+      "published": "2024-10-29T19:10:12.000Z"
+    },
+    {
+      "id": "2410.24198",
+      "title": "SelfCodeAlign: Self-Alignment for Code Generation",
+      "authors": [
+        "Yuxiang Wei",
+        "Federico Cassano",
+        "Jiawei Liu",
+        "Yifeng Ding",
+        "Naman Jain",
+        "Zachary Mueller",
+        "Harm de Vries",
+        "Leandro von Werra",
+        "Arjun Guha",
+        "Lingming Zhang"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/bigcode-project/selfcodealign",
+      "published": "2024-10-31T17:55:13.000Z"
+    },
+    {
+      "id": "2410.23918",
+      "title": "BitStack: Fine-Grained Size Control for Compressed Large Language Models in Variable Memory Environments",
+      "authors": [
+        "Xinghao Wang",
+        "Pengyu Wang",
+        "Bo Wang",
+        "Dong Zhang",
+        "Yunhua Zhou",
+        "Xipeng Qiu"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/xinghaow99/bitstack",
+      "published": "2024-10-31T13:26:11.000Z"
+    },
+    {
+      "id": "2410.24175",
+      "title": "Constraint Back-translation Improves Complex Instruction Following of Large Language Models",
+      "authors": [
+        "Yunjia Qi",
+        "Hao Peng",
+        "Xiaozhi Wang",
+        "Bin Xu",
+        "Lei Hou",
+        "Juanzi Li"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/thu-keg/crab",
+      "published": "2024-10-31T17:42:26.000Z"
+    },
+    {
+      "id": "2410.23933",
+      "title": "Language Models can Self-Lengthen to Generate Long Texts",
+      "authors": [
+        "Shanghaoran Quan",
+        "Tianyi Tang",
+        "Bowen Yu",
+        "An Yang",
+        "Dayiheng Liu",
+        "Bofei Gao",
+        "Jianhong Tu",
+        "Yichang Zhang",
+        "Jingren Zhou",
+        "Junyang Lin"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/QwenLM/Self-Lengthen",
+      "published": "2024-10-31T13:47:10.000Z"
+    },
+    {
+      "id": "2410.20650",
+      "title": "NeuZip: Memory-Efficient Training and Inference with Dynamic Compression of Neural Networks",
+      "authors": [
+        "Yongchang Hao",
+        "Yanshuai Cao",
+        "Lili Mou"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/borealisai/neuzip",
+      "published": "2024-10-28T01:12:20.000Z"
+    },
+    {
+      "id": "2410.22394",
+      "title": "AAAR-1.0: Assessing AI's Potential to Assist Research",
+      "authors": [
+        "Renze Lou",
+        "Hanzi Xu",
+        "Sijia Wang",
+        "Jiangshu Du",
+        "Ryo Kamoi",
+        "Xiaoxin Lu",
+        "Jian Xie",
+        "Yuxuan Sun",
+        "Yusen Zhang",
+        "Jihyun Janice Ahn",
+        "Hongchao Fang",
+        "Zhuoyang Zou",
+        "Wenchao Ma",
+        "Xi Li",
+        "Kai Zhang",
+        "Congying Xia",
+        "Lifu Huang",
+        "Wenpeng Yin"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2024-10-29T17:58:29.000Z"
+    },
+    {
+      "id": "2410.24213",
+      "title": "Learning Video Representations without Natural Videos",
+      "authors": [
+        "Xueyang Yu",
+        "Xinlei Chen",
+        "Yossi Gandelsman"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2024-10-31T17:59:30.000Z"
+    },
+    {
+      "id": "2410.24032",
+      "title": "Navigating the Unknown: A Chat-Based Collaborative Interface for Personalized Exploratory Tasks",
+      "authors": [
+        "Yingzhe Peng",
+        "Xiaoting Qin",
+        "Zhiyang Zhang",
+        "Jue Zhang",
+        "Qingwei Lin",
+        "Xu Yang",
+        "Dongmei Zhang",
+        "Saravan Rajmohan",
+        "Qi Zhang"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2024-10-31T15:30:55.000Z"
+    },
+    {
+      "id": "2410.24211",
+      "title": "DELTA: Dense Efficient Long-range 3D Tracking for any video",
+      "authors": [
+        "Tuan Duc Ngo",
+        "Peiye Zhuang",
+        "Chuang Gan",
+        "Evangelos Kalogerakis",
+        "Sergey Tulyakov",
+        "Hsin-Ying Lee",
+        "Chaoyang Wang"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2024-10-31T17:59:01.000Z"
+    },
+    {
+      "id": "2410.21969",
+      "title": "BenchX: A Unified Benchmark Framework for Medical Vision-Language Pretraining on Chest X-Rays",
+      "authors": [
+        "Yang Zhou",
+        "Tan Li Hui Faith",
+        "Yanyu Xu",
+        "Sicong Leng",
+        "Xinxing Xu",
+        "Yong Liu",
+        "Rick Siow Mong Goh"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/yangzhou12/benchx",
+      "published": "2024-10-29T11:53:18.000Z"
+    },
+    {
+      "id": "2410.24218",
+      "title": "Teaching Embodied Reinforcement Learning Agents: Informativeness and Diversity of Language Use",
+      "authors": [
+        "Jiajun Xi",
+        "Yinong He",
+        "Jianing Yang",
+        "Yinpei Dai",
+        "Joyce Chai"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/sled-group/teachable_rl",
+      "published": "2024-10-31T17:59:52.000Z"
+    },
+    {
+      "id": "2410.21666",
+      "title": "Minimum Entropy Coupling with Bottleneck",
+      "authors": [
+        "M. Reza Ebrahimi",
+        "Jun Chen",
+        "Ashish Khisti"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2024-10-29T02:19:07.000Z"
+    },
+    {
+      "id": "2410.23825",
+      "title": "GlotCC: An Open Broad-Coverage CommonCrawl Corpus and Pipeline for Minority Languages",
+      "authors": [
+        "Amir Hossein Kargaran",
+        "François Yvon",
+        "Hinrich Schütze"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/cisnlp/GlotCC",
+      "published": "2024-10-31T11:14:12.000Z"
+    }
+  ]
+}

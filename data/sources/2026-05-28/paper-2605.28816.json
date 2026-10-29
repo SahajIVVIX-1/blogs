@@ -1,0 +1,11 @@
+{
+  "id": "2605.28816",
+  "html": "https://arxiv.org/html/2605.28816",
+  "limitations": null,
+  "conclusion": "We presented [math] -World, a generative multi-agent world model for interactive simulation beyond two players. [math] -World combines Simplex Rotary Agent Encoding for distinct yet permutation-symmetric agent identities with Sparse Hub Attention for efficient hub-mediated cross-agent communication. Together with conditional teacher–student distillation and KV-cached streaming inference, these components enable real-time action-responsive rollouts that remain consistent across time and agent perspectives. Experiments in multiplayer virtual environments show that [math] -World improves fidelity, controllability, and inter-agent consistency over baselines. Ablations validate the design choices, while scaling experiments show that the model generalizes from two-player training to four-player simulation without additional training and achieves lower inference cost as the number of agents inc",
+  "figure": {
+    "path": "images/2026/paper-2605.28816.webp",
+    "src": "https://arxiv.org/html/2605.28816v1/teaser.png",
+    "caption": "Figure 1 : We propose [math] -World, a novel generative multi-agent world model from virtual games to real-world environments. More results and video demos are available on our project page ."
+  }
+}

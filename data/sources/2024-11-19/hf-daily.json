@@ -1,0 +1,260 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-11-19",
+  "fetched_at": "2026-10-29T15:29:43.583Z",
+  "candidates": [
+    {
+      "id": "2411.11844",
+      "title": "Generative World Explorer",
+      "authors": [
+        "Taiming Lu",
+        "Tianmin Shu",
+        "Alan Yuille",
+        "Daniel Khashabi",
+        "Jieneng Chen"
+      ],
+      "upvotes": 77,
+      "github": "https://github.com/Beckschen/genex",
+      "published": "2024-11-18T18:59:31.000Z"
+    },
+    {
+      "id": "2411.10640",
+      "title": "BlueLM-V-3B: Algorithm and System Co-Design for Multimodal Large Language Models on Mobile Devices",
+      "authors": [
+        "Xudong Lu",
+        "Yinghao Chen",
+        "Cheng Chen",
+        "Hui Tan",
+        "Boheng Chen",
+        "Yina Xie",
+        "Rui Hu",
+        "Guanxin Tan",
+        "Renshou Wu",
+        "Yan Hu",
+        "Yi Zeng",
+        "Lei Wu",
+        "Liuyang Bian",
+        "Zhaoxiong Wang",
+        "Long Liu",
+        "Yanzhou Yang",
+        "Han Xiao",
+        "Aojun Zhou",
+        "Yafei Wen",
+        "Xiaoxin Chen",
+        "Shuai Ren",
+        "Hongsheng Li"
+      ],
+      "upvotes": 47,
+      "github": null,
+      "published": "2024-11-16T00:14:51.000Z"
+    },
+    {
+      "id": "2411.10836",
+      "title": "AnimateAnything: Consistent and Controllable Animation for Video Generation",
+      "authors": [
+        "Guojun Lei",
+        "Chi Wang",
+        "Hong Li",
+        "Rong Zhang",
+        "Yikai Wang",
+        "Weiwei Xu"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/yu-shaonian/AnimateAnything",
+      "published": "2024-11-16T16:36:49.000Z"
+    },
+    {
+      "id": "2411.11504",
+      "title": "Search, Verify and Feedback: Towards Next Generation Post-training Paradigm of Foundation Models via Verifier Engineering",
+      "authors": [
+        "Xinyan Guan",
+        "Yanjiang Liu",
+        "Xinyu Lu",
+        "Boxi Cao",
+        "Ben He",
+        "Xianpei Han",
+        "Le Sun",
+        "Jie Lou",
+        "Bowen Yu",
+        "Yaojie Lu",
+        "Hongyu Lin"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/icip-cas/Verifier-Engineering",
+      "published": "2024-11-18T12:04:52.000Z"
+    },
+    {
+      "id": "2411.07641",
+      "title": "Top-nσ: Not All Logits Are You Need",
+      "authors": [
+        "Chenxia Tang",
+        "Jianchun Liu",
+        "Hongli Xu",
+        "Liusheng Huang"
+      ],
+      "upvotes": 24,
+      "github": null,
+      "published": "2024-11-12T08:46:43.000Z"
+    },
+    {
+      "id": "2411.11767",
+      "title": "Drowning in Documents: Consequences of Scaling Reranker Inference",
+      "authors": [
+        "Mathew Jacob",
+        "Erik Lindgren",
+        "Matei Zaharia",
+        "Michael Carbin",
+        "Omar Khattab",
+        "Andrew Drozdov"
+      ],
+      "upvotes": 19,
+      "github": null,
+      "published": "2024-11-18T17:46:32.000Z"
+    },
+    {
+      "id": "2411.10499",
+      "title": "FitDiT: Advancing the Authentic Garment Details for High-fidelity Virtual Try-on",
+      "authors": [
+        "Boyuan Jiang",
+        "Xiaobin Hu",
+        "Donghao Luo",
+        "Qingdong He",
+        "Chengming Xu",
+        "Jinlong Peng",
+        "Jiangning Zhang",
+        "Chengjie Wang",
+        "Yunsheng Wu",
+        "Yanwei Fu"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/BoyuanJiang/FitDiT",
+      "published": "2024-11-15T11:02:23.000Z"
+    },
+    {
+      "id": "2411.09944",
+      "title": "SlimLM: An Efficient Small Language Model for On-Device Document Assistance",
+      "authors": [
+        "Thang M. Pham",
+        "Phat T. Nguyen",
+        "Seunghyun Yoon",
+        "Viet Dac Lai",
+        "Franck Dernoncourt",
+        "Trung Bui"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2024-11-15T04:44:34.000Z"
+    },
+    {
+      "id": "2411.09661",
+      "title": "Adaptive Decoding via Latent Preference Optimization",
+      "authors": [
+        "Shehzaad Dhuliawala",
+        "Ilia Kulikov",
+        "Ping Yu",
+        "Asli Celikyilmaz",
+        "Jason Weston",
+        "Sainbayar Sukhbaatar",
+        "Jack Lanchantin"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2024-11-14T18:31:39.000Z"
+    },
+    {
+      "id": "2411.11045",
+      "title": "StableV2V: Stablizing Shape Consistency in Video-to-Video Editing",
+      "authors": [
+        "Chang Liu",
+        "Rui Li",
+        "Kaidong Zhang",
+        "Yunwei Lan",
+        "Dong Liu"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/alonzoleeeooo/stablev2v",
+      "published": "2024-11-17T11:48:01.000Z"
+    },
+    {
+      "id": "2411.10669",
+      "title": "Awaker2.5-VL: Stably Scaling MLLMs with Parameter-Efficient Mixture of Experts",
+      "authors": [
+        "Jinqiang Long",
+        "Yanqi Dai",
+        "Guoxing Yang",
+        "Hongpeng Lin",
+        "Nanyi Fei",
+        "Yizhao Gao",
+        "Zhiwu Lu"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/metabrainagi/awaker",
+      "published": "2024-11-16T02:10:14.000Z"
+    },
+    {
+      "id": "2411.11171",
+      "title": "LLäMmlein: Compact and Competitive German-Only Language Models from Scratch",
+      "authors": [
+        "Jan Pfister",
+        "Julia Wunderle",
+        "Andreas Hotho"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/LSX-UniWue/LLaMmlein",
+      "published": "2024-11-17T20:44:34.000Z"
+    },
+    {
+      "id": "2411.10510",
+      "title": "SmoothCache: A Universal Inference Acceleration Technique for Diffusion Transformers",
+      "authors": [
+        "Joseph Liu",
+        "Joshua Geddes",
+        "Ziyu Guo",
+        "Haomiao Jiang",
+        "Mahesh Kumar Nandwana"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/roblox/smoothcache",
+      "published": "2024-11-15T16:24:02.000Z"
+    },
+    {
+      "id": "2411.11024",
+      "title": "VeGaS: Video Gaussian Splatting",
+      "authors": [
+        "Weronika Smolak-Dyżewska",
+        "Dawid Malarz",
+        "Kornel Howil",
+        "Jan Kaczmarczyk",
+        "Marcin Mazur",
+        "Przemysław Spurek"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/gmum/VeGaS",
+      "published": "2024-11-17T10:02:36.000Z"
+    },
+    {
+      "id": "2411.09213",
+      "title": "Comprehensive and Practical Evaluation of Retrieval-Augmented Generation Systems for Medical Question Answering",
+      "authors": [
+        "Nghia Trung Ngo",
+        "Chien Van Nguyen",
+        "Franck Dernoncourt",
+        "Thien Huu Nguyen"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2024-11-14T06:19:18.000Z"
+    },
+    {
+      "id": "2411.10168",
+      "title": "Evaluating the role of `Constitutions' for learning from AI feedback",
+      "authors": [
+        "Saskia Redgate",
+        "Andrew M. Bean",
+        "Adam Mahdi"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2024-11-15T13:16:11.000Z"
+    }
+  ]
+}

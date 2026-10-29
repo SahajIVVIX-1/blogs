@@ -1,0 +1,224 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-02-06",
+  "fetched_at": "2026-10-29T15:30:31.565Z",
+  "candidates": [
+    {
+      "id": "2502.02737",
+      "title": "SmolLM2: When Smol Goes Big -- Data-Centric Training of a Small Language Model",
+      "authors": [
+        "Loubna Ben Allal",
+        "Anton Lozhkov",
+        "Elie Bakouch",
+        "Gabriel Martín Blázquez",
+        "Guilherme Penedo",
+        "Lewis Tunstall",
+        "Andrés Marafioti",
+        "Hynek Kydlíček",
+        "Agustín Piqueres Lajarín",
+        "Vaibhav Srivastav",
+        "Joshua Lochner",
+        "Caleb Fahlgren",
+        "Xuan-Son Nguyen",
+        "Clémentine Fourrier",
+        "Ben Burtenshaw",
+        "Hugo Larcher",
+        "Haojun Zhao",
+        "Cyril Zakka",
+        "Mathieu Morlon",
+        "Colin Raffel",
+        "Leandro von Werra",
+        "Thomas Wolf"
+      ],
+      "upvotes": 262,
+      "github": "https://github.com/huggingface/smollm",
+      "published": "2025-02-04T21:43:16.000Z"
+    },
+    {
+      "id": "2502.03387",
+      "title": "LIMO: Less is More for Reasoning",
+      "authors": [
+        "Yixin Ye",
+        "Zhen Huang",
+        "Yang Xiao",
+        "Ethan Chern",
+        "Shijie Xia",
+        "Pengfei Liu"
+      ],
+      "upvotes": 63,
+      "github": "https://github.com/gair-nlp/limo",
+      "published": "2025-02-05T17:23:45.000Z"
+    },
+    {
+      "id": "2502.03373",
+      "title": "Demystifying Long Chain-of-Thought Reasoning in LLMs",
+      "authors": [
+        "Edward Yeo",
+        "Yuxuan Tong",
+        "Morry Niu",
+        "Graham Neubig",
+        "Xiang Yue"
+      ],
+      "upvotes": 57,
+      "github": "https://github.com/eddycmu/demystify-long-cot",
+      "published": "2025-02-05T17:13:32.000Z"
+    },
+    {
+      "id": "2502.01506",
+      "title": "TwinMarket: A Scalable Behavioral and Social Simulation for Financial Markets",
+      "authors": [
+        "Yuzhe Yang",
+        "Yifei Zhang",
+        "Minghao Wu",
+        "Kaidi Zhang",
+        "Yunmiao Zhang",
+        "Honghai Yu",
+        "Yan Hu",
+        "Benyou Wang"
+      ],
+      "upvotes": 39,
+      "github": "https://github.com/tobyyang7/twinmarket",
+      "published": "2025-02-03T16:39:48.000Z"
+    },
+    {
+      "id": "2502.02339",
+      "title": "Boosting Multimodal Reasoning with MCTS-Automated Structured Thinking",
+      "authors": [
+        "Jinyang Wu",
+        "Mingkuan Feng",
+        "Shuai Zhang",
+        "Ruihan Jin",
+        "Feihu Che",
+        "Zengqi Wen",
+        "Jianhua Tao"
+      ],
+      "upvotes": 22,
+      "github": null,
+      "published": "2025-02-04T14:18:29.000Z"
+    },
+    {
+      "id": "2502.01105",
+      "title": "LayerTracer: Cognitive-Aligned Layered SVG Synthesis via Diffusion Transformer",
+      "authors": [
+        "Yiren Song",
+        "Danze Chen",
+        "Mike Zheng Shou"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/showlab/LayerTracer",
+      "published": "2025-02-03T06:49:58.000Z"
+    },
+    {
+      "id": "2502.02671",
+      "title": "On Teacher Hacking in Language Model Distillation",
+      "authors": [
+        "Daniil Tiapkin",
+        "Daniele Calandriello",
+        "Johan Ferret",
+        "Sarah Perrin",
+        "Nino Vieillard",
+        "Alexandre Ramé",
+        "Mathieu Blondel"
+      ],
+      "upvotes": 19,
+      "github": null,
+      "published": "2025-02-04T19:26:28.000Z"
+    },
+    {
+      "id": "2502.03275",
+      "title": "Token Assorted: Mixing Latent and Text Tokens for Improved Language Model Reasoning",
+      "authors": [
+        "DiJia Su",
+        "Hanlin Zhu",
+        "Yingchen Xu",
+        "Jiantao Jiao",
+        "Yuandong Tian",
+        "Qinqing Zheng"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2025-02-05T15:33:00.000Z"
+    },
+    {
+      "id": "2502.02928",
+      "title": "Large Language Model Guided Self-Debugging Code Generation",
+      "authors": [
+        "Muntasir Adnan",
+        "Zhiwei Xu",
+        "Carlos C. N. Kuhn"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2025-02-05T06:43:40.000Z"
+    },
+    {
+      "id": "2502.01618",
+      "title": "A Probabilistic Inference Approach to Inference-Time Scaling of LLMs using Particle-Based Monte Carlo Methods",
+      "authors": [
+        "Isha Puri",
+        "Shivchander Sudalairaj",
+        "Guangxuan Xu",
+        "Kai Xu",
+        "Akash Srivastava"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/Red-Hat-AI-Innovation-Team/its_hub",
+      "published": "2025-02-03T18:50:50.000Z"
+    },
+    {
+      "id": "2502.01154",
+      "title": "Jailbreaking with Universal Multi-Prompts",
+      "authors": [
+        "Yu-Ling Hsu",
+        "Hsuan Su",
+        "Shang-Tse Chen"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/ntuaislab/jump",
+      "published": "2025-02-03T08:44:24.000Z"
+    },
+    {
+      "id": "2502.02421",
+      "title": "Activation-Informed Merging of Large Language Models",
+      "authors": [
+        "Amin Heyrani Nobari",
+        "Kaveh Alimohammadi",
+        "Ali ArjomandBigdeli",
+        "Akash Srivastava",
+        "Faez Ahmed",
+        "Navid Azizan"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/ahnobari/ActivationInformedMerging",
+      "published": "2025-02-04T15:42:03.000Z"
+    },
+    {
+      "id": "2502.00306",
+      "title": "Riddle Me This! Stealthy Membership Inference for Retrieval-Augmented Generation",
+      "authors": [
+        "Ali Naseh",
+        "Yuefeng Peng",
+        "Anshuman Suri",
+        "Harsh Chaudhari",
+        "Alina Oprea",
+        "Amir Houmansadr"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/ali7naseh/RAG_MIA",
+      "published": "2025-02-01T04:01:18.000Z"
+    },
+    {
+      "id": "2502.00226",
+      "title": "HackerRank-ASTRA: Evaluating Correctness & Consistency of Large Language Models on cross-domain multi-file project problems",
+      "authors": [
+        "Jun Xing",
+        "Mayur Bhatia",
+        "Sahil Phulwani",
+        "Darshan Suresh",
+        "Rafik Matta"
+      ],
+      "upvotes": 0,
+      "github": null,
+      "published": "2025-01-31T23:47:02.000Z"
+    }
+  ]
+}

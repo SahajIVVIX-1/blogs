@@ -1,0 +1,210 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-08-20",
+  "fetched_at": "2026-10-29T15:28:48.210Z",
+  "candidates": [
+    {
+      "id": "2408.10188",
+      "title": "LongVILA: Scaling Long-Context Visual Language Models for Long Videos",
+      "authors": [
+        "Fuzhao Xue",
+        "Yukang Chen",
+        "Dacheng Li",
+        "Qinghao Hu",
+        "Ligeng Zhu",
+        "Xiuyu Li",
+        "Yunhao Fang",
+        "Haotian Tang",
+        "Shang Yang",
+        "Zhijian Liu",
+        "Ethan He",
+        "Hongxu Yin",
+        "Pavlo Molchanov",
+        "Jan Kautz",
+        "Linxi Fan",
+        "Yuke Zhu",
+        "Yao Lu",
+        "Song Han"
+      ],
+      "upvotes": 52,
+      "github": null,
+      "published": "2024-08-19T17:48:08.000Z"
+    },
+    {
+      "id": "2408.10198",
+      "title": "MeshFormer: High-Quality Mesh Generation with 3D-Guided Reconstruction Model",
+      "authors": [
+        "Minghua Liu",
+        "Chong Zeng",
+        "Xinyue Wei",
+        "Ruoxi Shi",
+        "Linghao Chen",
+        "Chao Xu",
+        "Mengqi Zhang",
+        "Zhaoning Wang",
+        "Xiaoshuai Zhang",
+        "Isabella Liu",
+        "Hongzhi Wu",
+        "Hao Su"
+      ],
+      "upvotes": 35,
+      "github": null,
+      "published": "2024-08-19T17:55:17.000Z"
+    },
+    {
+      "id": "2408.09085",
+      "title": "Segment Anything with Multiple Modalities",
+      "authors": [
+        "Aoran Xiao",
+        "Weihao Xuan",
+        "Heli Qi",
+        "Yun Xing",
+        "Naoto Yokoya",
+        "Shijian Lu"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/weihao1115/mm-sam",
+      "published": "2024-08-17T03:45:40.000Z"
+    },
+    {
+      "id": "2408.09858",
+      "title": "ShortCircuit: AlphaZero-Driven Circuit Design",
+      "authors": [
+        "Dimitrios Tsaras",
+        "Antoine Grosnit",
+        "Lei Chen",
+        "Zhiyao Xie",
+        "Haitham Bou-Ammar",
+        "Mingxuan Yuan"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2024-08-19T10:03:14.000Z"
+    },
+    {
+      "id": "2408.10119",
+      "title": "Factorized-Dreamer: Training A High-Quality Video Generator with Limited and Low-Quality Data",
+      "authors": [
+        "Tao Yang",
+        "Yangming Shi",
+        "Yunwen Huang",
+        "Feng Chen",
+        "Yin Zheng",
+        "Lei Zhang"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/yangxy/Factorized-Dreamer",
+      "published": "2024-08-19T16:08:00.000Z"
+    },
+    {
+      "id": "2408.10161",
+      "title": "NeuFlow v2: High-Efficiency Optical Flow Estimation on Edge Devices",
+      "authors": [
+        "Zhiyong Zhang",
+        "Aniket Gupta",
+        "Huaizu Jiang",
+        "Hanumant Singh"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/neufieldrobotics/NeuFlow_v2",
+      "published": "2024-08-19T17:13:34.000Z"
+    },
+    {
+      "id": "2408.10195",
+      "title": "SpaRP: Fast 3D Object Reconstruction and Pose Estimation from Sparse Views",
+      "authors": [
+        "Chao Xu",
+        "Ang Li",
+        "Linghao Chen",
+        "Yulin Liu",
+        "Ruoxi Shi",
+        "Hao Su",
+        "Minghua Liu"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2024-08-19T17:53:10.000Z"
+    },
+    {
+      "id": "2408.08946",
+      "title": "Authorship Attribution in the Era of LLMs: Problems, Methodologies, and Challenges",
+      "authors": [
+        "Baixiang Huang",
+        "Canyu Chen",
+        "Kai Shu"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2024-08-16T17:58:49.000Z"
+    },
+    {
+      "id": "2408.09702",
+      "title": "Photorealistic Object Insertion with Diffusion-Guided Inverse Rendering",
+      "authors": [
+        "Ruofan Liang",
+        "Zan Gojcic",
+        "Merlin Nimier-David",
+        "David Acuna",
+        "Nandita Vijaykumar",
+        "Sanja Fidler",
+        "Zian Wang"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2024-08-19T05:15:45.000Z"
+    },
+    {
+      "id": "2408.09739",
+      "title": "TraDiffusion: Trajectory-Based Training-Free Image Generation",
+      "authors": [
+        "Mingrui Wu",
+        "Oucheng Huang",
+        "Jiayi Ji",
+        "Jiale Li",
+        "Xinyue Cai",
+        "Huafeng Kuang",
+        "Jianzhuang Liu",
+        "Xiaoshuai Sun",
+        "Rongrong Ji"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/och-mac/tradiffusion",
+      "published": "2024-08-19T07:01:43.000Z"
+    },
+    {
+      "id": "2408.08926",
+      "title": "Cybench: A Framework for Evaluating Cybersecurity Capabilities and Risk of Language Models",
+      "authors": [
+        "Andy K. Zhang",
+        "Neil Perry",
+        "Riya Dulepet",
+        "Eliot Jones",
+        "Justin W. Lin",
+        "Joey Ji",
+        "Celeste Menders",
+        "Gashon Hussein",
+        "Samantha Liu",
+        "Donovan Jasper",
+        "Pura Peetathawatchai",
+        "Ari Glenn",
+        "Vikram Sivashankar",
+        "Daniel Zamoshchin",
+        "Leo Glikbarg",
+        "Derek Askaryar",
+        "Mike Yang",
+        "Teddy Zhang",
+        "Rishi Alluri",
+        "Nathan Tran",
+        "Rinnara Sangpisit",
+        "Polycarpos Yiorkadjis",
+        "Kenny Osele",
+        "Gautham Raghupathi",
+        "Dan Boneh",
+        "Daniel E. Ho",
+        "Percy Liang"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/andyzorigin/cybench",
+      "published": "2024-08-15T17:23:10.000Z"
+    }
+  ]
+}

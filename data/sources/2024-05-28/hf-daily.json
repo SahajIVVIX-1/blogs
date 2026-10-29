@@ -1,0 +1,292 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-05-28",
+  "fetched_at": "2026-10-29T15:27:56.932Z",
+  "candidates": [
+    {
+      "id": "2405.17247",
+      "title": "An Introduction to Vision-Language Modeling",
+      "authors": [
+        "Florian Bordes",
+        "Richard Yuanzhe Pang",
+        "Anurag Ajay",
+        "Alexander C. Li",
+        "Adrien Bardes",
+        "Suzanne Petryk",
+        "Oscar Mañas",
+        "Zhiqiu Lin",
+        "Anas Mahmoud",
+        "Bargav Jayaraman",
+        "Mark Ibrahim",
+        "Melissa Hall",
+        "Yunyang Xiong",
+        "Jonathan Lebensold",
+        "Candace Ross",
+        "Srihari Jayakumar",
+        "Chuan Guo",
+        "Diane Bouchacourt",
+        "Haider Al-Tahan",
+        "Karthik Padthe",
+        "Vasu Sharma",
+        "Hu Xu",
+        "Xiaoqing Ellen Tan",
+        "Megan Richards",
+        "Samuel Lavoie",
+        "Pietro Astolfi",
+        "Reyhane Askari Hemmat",
+        "Jun Chen",
+        "Kushal Tirumala",
+        "Rim Assouel",
+        "Mazda Moayeri",
+        "Arjang Talattof",
+        "Kamalika Chaudhuri",
+        "Zechun Liu",
+        "Xilun Chen",
+        "Quentin Garrido",
+        "Karen Ullrich",
+        "Aishwarya Agrawal",
+        "Kate Saenko",
+        "Asli Celikyilmaz",
+        "Vikas Chandra"
+      ],
+      "upvotes": 91,
+      "github": null,
+      "published": "2024-05-27T15:01:23.000Z"
+    },
+    {
+      "id": "2405.17399",
+      "title": "Transformers Can Do Arithmetic with the Right Embeddings",
+      "authors": [
+        "Sean McLeish",
+        "Arpit Bansal",
+        "Alex Stein",
+        "Neel Jain",
+        "John Kirchenbauer",
+        "Brian R. Bartoldson",
+        "Bhavya Kailkhura",
+        "Abhinav Bhatele",
+        "Jonas Geiping",
+        "Avi Schwarzschild",
+        "Tom Goldstein"
+      ],
+      "upvotes": 55,
+      "github": "https://github.com/mcleish7/arithmetic",
+      "published": "2024-05-27T17:49:18.000Z"
+    },
+    {
+      "id": "2405.17430",
+      "title": "Matryoshka Multimodal Models",
+      "authors": [
+        "Mu Cai",
+        "Jianwei Yang",
+        "Jianfeng Gao",
+        "Yong Jae Lee"
+      ],
+      "upvotes": 35,
+      "github": "https://github.com/mu-cai/matryoshka-mm",
+      "published": "2024-05-27T17:59:56.000Z"
+    },
+    {
+      "id": "2405.16712",
+      "title": "Zamba: A Compact 7B SSM Hybrid Model",
+      "authors": [
+        "Paolo Glorioso",
+        "Quentin Anthony",
+        "Yury Tokpanov",
+        "James Whittington",
+        "Jonathan Pilault",
+        "Adam Ibrahim",
+        "Beren Millidge"
+      ],
+      "upvotes": 26,
+      "github": null,
+      "published": "2024-05-26T22:23:02.000Z"
+    },
+    {
+      "id": "2405.17428",
+      "title": "NV-Embed: Improved Techniques for Training LLMs as Generalist Embedding Models",
+      "authors": [
+        "Chankyu Lee",
+        "Rajarshi Roy",
+        "Mengyao Xu",
+        "Jonathan Raiman",
+        "Mohammad Shoeybi",
+        "Bryan Catanzaro",
+        "Wei Ping"
+      ],
+      "upvotes": 21,
+      "github": null,
+      "published": "2024-05-27T17:59:45.000Z"
+    },
+    {
+      "id": "2405.16537",
+      "title": "I2VEdit: First-Frame-Guided Video Editing via Image-to-Video Diffusion Models",
+      "authors": [
+        "Wenqi Ouyang",
+        "Yi Dong",
+        "Lei Yang",
+        "Jianlou Si",
+        "Xingang Pan"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2024-05-26T11:47:40.000Z"
+    },
+    {
+      "id": "2405.17258",
+      "title": "Trans-LoRA: towards data-free Transferable Parameter Efficient Finetuning",
+      "authors": [
+        "Runqian Wang",
+        "Soumya Ghosh",
+        "David Cox",
+        "Diego Antognini",
+        "Aude Oliva",
+        "Rogerio Feris",
+        "Leonid Karlinsky"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2024-05-27T15:15:08.000Z"
+    },
+    {
+      "id": "2405.17405",
+      "title": "Human4DiT: Free-view Human Video Generation with 4D Diffusion Transformer",
+      "authors": [
+        "Ruizhi Shao",
+        "Youxin Pang",
+        "Zerong Zheng",
+        "Jingxiang Sun",
+        "Yebin Liu"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2024-05-27T17:53:29.000Z"
+    },
+    {
+      "id": "2405.15757",
+      "title": "Looking Backward: Streaming Video-to-Video Translation with Feature Banks",
+      "authors": [
+        "Feng Liang",
+        "Akio Kodaira",
+        "Chenfeng Xu",
+        "Masayoshi Tomizuka",
+        "Kurt Keutzer",
+        "Diana Marculescu"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/Jeff-LiangF/streamv2v",
+      "published": "2024-05-24T17:53:06.000Z"
+    },
+    {
+      "id": "2405.16822",
+      "title": "Vidu4D: Single Generated Video to High-Fidelity 4D Reconstruction with Dynamic Gaussian Surfels",
+      "authors": [
+        "Yikai Wang",
+        "Xinzhou Wang",
+        "Zilong Chen",
+        "Zhengyi Wang",
+        "Fuchun Sun",
+        "Jun Zhu"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2024-05-27T04:43:44.000Z"
+    },
+    {
+      "id": "2405.16852",
+      "title": "EM Distillation for One-step Diffusion Models",
+      "authors": [
+        "Sirui Xie",
+        "Zhisheng Xiao",
+        "Diederik P Kingma",
+        "Tingbo Hou",
+        "Ying Nian Wu",
+        "Kevin Patrick Murphy",
+        "Tim Salimans",
+        "Ben Poole",
+        "Ruiqi Gao"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2024-05-27T05:55:22.000Z"
+    },
+    {
+      "id": "2405.16888",
+      "title": "Part123: Part-aware 3D Reconstruction from a Single-view Image",
+      "authors": [
+        "Anran Liu",
+        "Cheng Lin",
+        "Yuan Liu",
+        "Xiaoxiao Long",
+        "Zhiyang Dou",
+        "Hao-Xiang Guo",
+        "Ping Luo",
+        "Wenping Wang"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2024-05-27T07:10:21.000Z"
+    },
+    {
+      "id": "2405.17414",
+      "title": "Collaborative Video Diffusion: Consistent Multi-video Generation with Camera Control",
+      "authors": [
+        "Zhengfei Kuang",
+        "Shengqu Cai",
+        "Hao He",
+        "Yinghao Xu",
+        "Hongsheng Li",
+        "Leonidas Guibas",
+        "Gordon Wetzstein"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2024-05-27T17:58:01.000Z"
+    },
+    {
+      "id": "2405.16287",
+      "title": "LoGAH: Predicting 774-Million-Parameter Transformers using Graph HyperNetworks with 1/100 Parameters",
+      "authors": [
+        "Xinyu Zhou",
+        "Boris Knyazev",
+        "Alexia Jolicoeur-Martineau",
+        "Jie Fu"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/blackzxy/logah",
+      "published": "2024-05-25T15:56:15.000Z"
+    },
+    {
+      "id": "2405.16759",
+      "title": "Greedy Growing Enables High-Resolution Pixel-Based Diffusion Models",
+      "authors": [
+        "Cristina N. Vasconcelos",
+        "Abdullah Rashwan Austin Waters",
+        "Trevor Walker",
+        "Keyang Xu",
+        "Jimmy Yan",
+        "Rui Qian",
+        "Shixin Luo",
+        "Zarana Parekh",
+        "Andrew Bunner",
+        "Hongliang Fei",
+        "Roopal Garg",
+        "Mandy Guo",
+        "Ivana Kajic",
+        "Yeqing Li",
+        "Henna Nandwani",
+        "Jordi Pont-Tuset",
+        "Yasumasa Onoe",
+        "Sarah Rosston",
+        "Su Wang",
+        "Wenlei Zhou",
+        "Kevin Swersky",
+        "David J. Fleet",
+        "Jason M. Baldridge",
+        "Oliver Wang"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2024-05-27T02:12:39.000Z"
+    }
+  ]
+}

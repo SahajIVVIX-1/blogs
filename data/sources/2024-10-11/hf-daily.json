@@ -1,0 +1,421 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-10-11",
+  "fetched_at": "2026-10-29T15:29:19.860Z",
+  "candidates": [
+    {
+      "id": "2410.07484",
+      "title": "WALL-E: World Alignment by Rule Learning Improves World Model-based LLM Agents",
+      "authors": [
+        "Siyu Zhou",
+        "Tianyi Zhou",
+        "Yijun Yang",
+        "Guodong Long",
+        "Deheng Ye",
+        "Jing Jiang",
+        "Chengqi Zhang"
+      ],
+      "upvotes": 50,
+      "github": null,
+      "published": "2024-10-09T23:37:36.000Z"
+    },
+    {
+      "id": "2410.08196",
+      "title": "MathCoder2: Better Math Reasoning from Continued Pretraining on Model-translated Mathematical Code",
+      "authors": [
+        "Zimu Lu",
+        "Aojun Zhou",
+        "Ke Wang",
+        "Houxing Ren",
+        "Weikang Shi",
+        "Junting Pan",
+        "Mingjie Zhan",
+        "Hongsheng Li"
+      ],
+      "upvotes": 49,
+      "github": "https://github.com/mathllm/mathcoder2",
+      "published": "2024-10-10T17:58:40.000Z"
+    },
+    {
+      "id": "2410.03450",
+      "title": "MLLM as Retriever: Interactively Learning Multimodal Retrieval for Embodied Agents",
+      "authors": [
+        "Junpeng Yue",
+        "Xinru Xu",
+        "Börje F. Karlsson",
+        "Zongqing Lu"
+      ],
+      "upvotes": 36,
+      "github": null,
+      "published": "2024-10-04T14:10:39.000Z"
+    },
+    {
+      "id": "2410.05265",
+      "title": "PrefixQuant: Static Quantization Beats Dynamic through Prefixed Outliers in LLMs",
+      "authors": [
+        "Mengzhao Chen",
+        "Yi Liu",
+        "Jiahao Wang",
+        "Yi Bin",
+        "Wenqi Shao",
+        "Ping Luo"
+      ],
+      "upvotes": 33,
+      "github": "https://github.com/chenmnz/prefixquant",
+      "published": "2024-10-07T17:59:35.000Z"
+    },
+    {
+      "id": "2410.07869",
+      "title": "Benchmarking Agentic Workflow Generation",
+      "authors": [
+        "Shuofei Qiao",
+        "Runnan Fang",
+        "Zhisong Qiu",
+        "Xiaobin Wang",
+        "Ningyu Zhang",
+        "Yong Jiang",
+        "Pengjun Xie",
+        "Fei Huang",
+        "Huajun Chen"
+      ],
+      "upvotes": 29,
+      "github": "https://github.com/zjunlp/worfbench",
+      "published": "2024-10-10T12:41:19.000Z"
+    },
+    {
+      "id": "2410.08164",
+      "title": "Agent S: An Open Agentic Framework that Uses Computers Like a Human",
+      "authors": [
+        "Saaket Agashe",
+        "Jiuzhou Han",
+        "Shuyu Gan",
+        "Jiachen Yang",
+        "Ang Li",
+        "Xin Eric Wang"
+      ],
+      "upvotes": 28,
+      "github": null,
+      "published": "2024-10-10T17:43:51.000Z"
+    },
+    {
+      "id": "2410.08159",
+      "title": "DART: Denoising Autoregressive Transformer for Scalable Text-to-Image Generation",
+      "authors": [
+        "Jiatao Gu",
+        "Yuyang Wang",
+        "Yizhe Zhang",
+        "Qihang Zhang",
+        "Dinghuai Zhang",
+        "Navdeep Jaitly",
+        "Josh Susskind",
+        "Shuangfei Zhai"
+      ],
+      "upvotes": 25,
+      "github": null,
+      "published": "2024-10-10T17:41:54.000Z"
+    },
+    {
+      "id": "2410.07303",
+      "title": "Rectified Diffusion: Straightness Is Not Your Need in Rectified Flow",
+      "authors": [
+        "Fu-Yun Wang",
+        "Ling Yang",
+        "Zhaoyang Huang",
+        "Mengdi Wang",
+        "Hongsheng Li"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/g-u-n/rectified-diffusion",
+      "published": "2024-10-09T17:43:38.000Z"
+    },
+    {
+      "id": "2410.08207",
+      "title": "DICE: Discrete Inversion Enabling Controllable Editing for Multinomial Diffusion and Masked Generative Models",
+      "authors": [
+        "Xiaoxiao He",
+        "Ligong Han",
+        "Quan Dao",
+        "Song Wen",
+        "Minhao Bai",
+        "Di Liu",
+        "Han Zhang",
+        "Martin Renqiang Min",
+        "Felix Juefei-Xu",
+        "Chaowei Tan",
+        "Bo Liu",
+        "Kang Li",
+        "Hongdong Li",
+        "Junzhou Huang",
+        "Faez Ahmed",
+        "Akash Srivastava",
+        "Dimitris Metaxas"
+      ],
+      "upvotes": 19,
+      "github": null,
+      "published": "2024-10-10T17:59:48.000Z"
+    },
+    {
+      "id": "2410.06154",
+      "title": "GLOV: Guided Large Language Models as Implicit Optimizers for Vision Language Models",
+      "authors": [
+        "M. Jehanzeb Mirza",
+        "Mengjie Zhao",
+        "Zhuoyuan Mao",
+        "Sivan Doveh",
+        "Wei Lin",
+        "Paul Gavrikov",
+        "Michael Dorkenwald",
+        "Shiqi Yang",
+        "Saurav Jha",
+        "Hiromi Wakaki",
+        "Yuki Mitsufuji",
+        "Horst Possegger",
+        "Rogerio Feris",
+        "Leonid Karlinsky",
+        "James Glass"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/jmiemirza/glov",
+      "published": "2024-10-08T15:55:40.000Z"
+    },
+    {
+      "id": "2410.04751",
+      "title": "Intriguing Properties of Large Language and Vision Models",
+      "authors": [
+        "Young-Jun Lee",
+        "Byungsoo Ko",
+        "Han-Gyu Kim",
+        "Yechan Hwang",
+        "Ho-Jin Choi"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2024-10-07T05:07:01.000Z"
+    },
+    {
+      "id": "2410.08151",
+      "title": "Progressive Autoregressive Video Diffusion Models",
+      "authors": [
+        "Desai Xie",
+        "Zhan Xu",
+        "Yicong Hong",
+        "Hao Tan",
+        "Difan Liu",
+        "Feng Liu",
+        "Arie Kaufman",
+        "Yang Zhou"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/desaixie/pa_vdm",
+      "published": "2024-10-10T17:36:15.000Z"
+    },
+    {
+      "id": "2410.05603",
+      "title": "Everything Everywhere All at Once: LLMs can In-Context Learn Multiple Tasks in Superposition",
+      "authors": [
+        "Zheyang Xiong",
+        "Ziyang Cai",
+        "John Cooper",
+        "Albert Ge",
+        "Vasilis Papageorgiou",
+        "Zack Sifakis",
+        "Angeliki Giannou",
+        "Ziqian Lin",
+        "Liu Yang",
+        "Saurabh Agarwal",
+        "Grigorios G Chrysos",
+        "Samet Oymak",
+        "Kangwook Lee",
+        "Dimitris Papailiopoulos"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2024-10-08T01:28:57.000Z"
+    },
+    {
+      "id": "2410.06508",
+      "title": "Towards Self-Improvement of LLMs via MCTS: Leveraging Stepwise Knowledge with Curriculum Preference Learning",
+      "authors": [
+        "Xiyao Wang",
+        "Linfeng Song",
+        "Ye Tian",
+        "Dian Yu",
+        "Baolin Peng",
+        "Haitao Mi",
+        "Furong Huang",
+        "Dong Yu"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2024-10-09T03:20:02.000Z"
+    },
+    {
+      "id": "2410.05210",
+      "title": "Preserving Multi-Modal Capabilities of Pre-trained VLMs for Improving Vision-Linguistic Compositionality",
+      "authors": [
+        "Youngtaek Oh",
+        "Jae Won Cho",
+        "Dong-Jin Kim",
+        "In So Kweon",
+        "Junmo Kim"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/ytaek-oh/fsc-clip",
+      "published": "2024-10-07T17:16:20.000Z"
+    },
+    {
+      "id": "2410.05248",
+      "title": "SFTMix: Elevating Language Model Instruction Tuning with Mixup Recipe",
+      "authors": [
+        "Yuxin Xiao",
+        "Shujian Zhang",
+        "Wenxuan Zhou",
+        "Marzyeh Ghassemi",
+        "Sanqiang Zhao"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2024-10-07T17:52:21.000Z"
+    },
+    {
+      "id": "2410.08049",
+      "title": "Scaling Up Your Kernels: Large Kernel Design in ConvNets towards Universal Representations",
+      "authors": [
+        "Yiyuan Zhang",
+        "Xiaohan Ding",
+        "Xiangyu Yue"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/ailab-cvc/unireplknet",
+      "published": "2024-10-10T15:43:55.000Z"
+    },
+    {
+      "id": "2410.08115",
+      "title": "Optima: Optimizing Effectiveness and Efficiency for LLM-Based Multi-Agent System",
+      "authors": [
+        "Weize Chen",
+        "Jiarui Yuan",
+        "Chen Qian",
+        "Cheng Yang",
+        "Zhiyuan Liu",
+        "Maosong Sun"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/thunlp/Optima",
+      "published": "2024-10-10T17:00:06.000Z"
+    },
+    {
+      "id": "2410.07041",
+      "title": "Emergent properties with repeated examples",
+      "authors": [
+        "François Charton",
+        "Julia Kempe"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2024-10-09T16:28:23.000Z"
+    },
+    {
+      "id": "2410.07137",
+      "title": "Cheating Automatic LLM Benchmarks: Null Models Achieve High Win Rates",
+      "authors": [
+        "Xiaosen Zheng",
+        "Tianyu Pang",
+        "Chao Du",
+        "Qian Liu",
+        "Jing Jiang",
+        "Min Lin"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/sail-sg/Cheating-LLM-Benchmarks",
+      "published": "2024-10-09T17:53:06.000Z"
+    },
+    {
+      "id": "2410.06293",
+      "title": "Accelerated Preference Optimization for Large Language Model Alignment",
+      "authors": [
+        "Jiafan He",
+        "Huizhuo Yuan",
+        "Quanquan Gu"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2024-10-08T18:51:01.000Z"
+    },
+    {
+      "id": "2410.05629",
+      "title": "Vector-ICL: In-context Learning with Continuous Vector Representations",
+      "authors": [
+        "Yufan Zhuang",
+        "Chandan Singh",
+        "Liyuan Liu",
+        "Jingbo Shang",
+        "Jianfeng Gao"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/EvanZhuang/vector-icl",
+      "published": "2024-10-08T02:25:38.000Z"
+    },
+    {
+      "id": "2410.07707",
+      "title": "MotionGS: Exploring Explicit Motion Guidance for Deformable 3D Gaussian Splatting",
+      "authors": [
+        "Ruijie Zhu",
+        "Yanzhe Liang",
+        "Hanzhi Chang",
+        "Jiacheng Deng",
+        "Jiahao Lu",
+        "Wenfei Yang",
+        "Tianzhu Zhang",
+        "Yongdong Zhang"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/RuijieZhu94/MotionGS",
+      "published": "2024-10-10T08:19:47.000Z"
+    },
+    {
+      "id": "2410.05269",
+      "title": "Data Advisor: Dynamic Data Curation for Safety Alignment of Large Language Models",
+      "authors": [
+        "Fei Wang",
+        "Ninareh Mehrabi",
+        "Palash Goyal",
+        "Rahul Gupta",
+        "Kai-Wei Chang",
+        "Aram Galstyan"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/feiwang96/Data-Advisor",
+      "published": "2024-10-07T17:59:58.000Z"
+    },
+    {
+      "id": "2410.03437",
+      "title": "Zebra: In-Context and Generative Pretraining for Solving Parametric PDEs",
+      "authors": [
+        "Louis Serrano",
+        "Armand Kassaï Koupaï",
+        "Thomas X Wang",
+        "Pierre Erbacher",
+        "Patrick Gallinari"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2024-10-04T13:52:02.000Z"
+    },
+    {
+      "id": "2410.04808",
+      "title": "LPZero: Language Model Zero-cost Proxy Search from Zero",
+      "authors": [
+        "Peijie Dong",
+        "Lujun Li",
+        "Xiang Liu",
+        "Zhenheng Tang",
+        "Xuebo Liu",
+        "Qiang Wang",
+        "Xiaowen Chu"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2024-10-07T07:41:48.000Z"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+v0.1.0
+https://github.com/langchain-ai/langchain/releases/tag/v0.1.0
+via: https://github.com/langchain-ai/langchain/releases/tag/v0.1.0
+fetched_at: 2026-10-29T22:02:34.073Z
+publisher: GitHub · langchain-ai/langchain
+
+## What's Changed
+* docs: contributor faq by @efriis in https://github.com/langchain-ai/langchain/pull/15502
+* templates: fix deps by @efriis in https://github.com/langchain-ai/langchain/pull/15439
+* infra: fail check_diffs if too many files changed by @efriis in https://github.com/langchain-ai/langchain/pull/15423
+* docs: broken link in contributor docs by @efriis in https://github.com/langchain-ai/langchain/pull/15436
+* docs: fix broken link by @efriis in https://github.com/langchain-ai/langchain/pull/15509
+* add new chain howtos by @hwchase17 in https://github.com/langchain-ai/langchain/pull/15430
+* Revert #15326 by @baskaryan in https://github.com/langchain-ai/langchain/pull/15546
+* core[patch]: Release 0.1.6 by @baskaryan in https://github.com/langchain-ai/langchain/pull/15547
+* core[patch]: Further restrict recursive URL loader by @eyurtsev in https://github.com/langchain-ai/langchain/pull/15559
+* add ragatouille by @hwchase17 in https://github.com/langchain-ai/langchain/pull/15561
+* langchain[minor]: add warnings when importing integrations from langchain by @baskaryan in https://github.com/langchain-ai/langchain/pull/15505
+* removed deprecated openai model  by @VpkPrasanna in https://github.com/langchain-ai/langchain/pull/15533
+* Feat: support Milvus more params by @chyroc in https://github.com/langchain-ai/langchain/pull/15447
+* Docs: Fix typos in question_answering by @Speuce in https://github.com/langchain-ai/langchain/pull/15565
+* fix links by @hwchase17 in https://github.com/langchain-ai/langchain/pull/15566
+* core[minor], langchain[minor]: deprecate Chain and BaseLanguageModel … by @baskaryan in https://github.com/langchain-ai/langchain/pull/15499
+* update chain docs by @hwchase17 in https://github.com/langchain-ai/langchain/pull/15495
+* langchain[patch]: deprecate old agent classes and methods by @baskaryan in https://github.com/langchain-ai/langchain/pull/15558
+* update memory by @hwchase17 in https://github.com/langchain-ai/langchain/pull/15507
+* core[patch]: add beta decorator by @baskaryan in https://github.com/langchain-ai/langchain/pull/15589
+* google-vertexai: added langchain_google_vertexai package by @lkuligin in https://github.com/langchain-ai/langchain/pull/15218
+* Fix chain docs redirects by @baskaryan in https://github.com/langchain-ai/langchain/pull/15600
+* core[patch], community[patch]: mark context, load as beta by @baskaryan in https://github.com/langchain-ai/langchain/pull/15603
+* openai[minor]: implement langchain-openai package by @efriis in https://github.com/langchain-ai/langchain/pull/15503
+* infra: vertex integration test creds by @efriis in https://github.com/langchain-ai/langchain/pull/15609
+* google-vertexai, openai: release candidate version
+ by @efriis in https://github.com/langchain-ai/langchain/pull/15611
+* core[patch]: Release 0.1.7 by @baskaryan in https://github.com/langchain-ai/langchain/pull/15610
+* google-vertexai: release 0.0.1 by @efriis in https://github.com/langchain-ai/langchain/pull/15613
+* infra: title release action runs by @efriis in https://github.com/langchain-ai/langchain/pull/15612
+* openai: core version, rc1 by @efriis in https://github.com/langchain-ai/langchain/pull/15614
+* community[patch]: Release 0.0.9 by @baskaryan in https://github.com/langchain-ai/langchain/pull/15615
+* infra: community bump min core version by @baskaryan in https://github.com/langchain-ai/langchain/pull/15617
+* core[patch]: deprecate v1 tracer by @baskaryan in https://github.com/langchain-ai/langchain/pull/15608
+* openai[patch]: v0.0.2 by @efriis in https://github.com/langchain-ai/langchain/pull/15618
+* docs: update cohere chat integration by @baskaryan in https://github.com/langchain-ai/langchain/pull/15562
+* langchain[minor]: Release 0.1.0 by @baskaryan in https://github.com/langchain-ai/langchain/pull/15619
+* infra: fix langchain openai test dep by @baskaryan in https://github.com/langchain-ai/langchain/pull/15620
+
+## New Contributors
+* @VpkPrasanna made their first contribution in https://github.com/langchain-ai/langchain/pull/15533
+* @Speuce made their first contribution in https://github.com/langchain-ai/langchain/pull/15565
+
+**Full Changelog**: https://github.com/langchain-ai/langchain/compare/v0.0.354...v0.1.0

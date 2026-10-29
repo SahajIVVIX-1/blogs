@@ -1,0 +1,11 @@
+{
+  "id": "2603.25040",
+  "html": "https://arxiv.org/html/2603.25040",
+  "limitations": null,
+  "conclusion": "In this report, we introduced Intern-S1-Pro, a trillion-parameter scientific multimodal foundation model designed to advance the frontiers of AI in scientific discovery. Building upon the strong foundation of Intern-S1, we scaled the model through a novel expert expansion strategy combined with Grouped Routing. This architectural innovation not only ensures efficient load balancing across devices but also significantly enhances training stability, mitigating the risks of expert homogenization and training instability often observed in large-scale MoE models. To further bolster the model’s scientific understanding, we conducted continued pre-training on 6T tokens of high-quality multimodal data. A critical component of this process was the development of a specialized caption pipeline tailored for scientific imagery. By generating precise, alignment-focused captions for scientific figures",
+  "figure": {
+    "path": "images/2026/paper-2603.25040.webp",
+    "src": "https://arxiv.org/html/2603.25040v2/intro_sage.png",
+    "caption": "Figure 1 : The SAGE (Synergistic Architecture for Generalizable Experts, including three layers, Foundation, Fusion, and Evolution) framework used in Intern-S1-Pro development, illustrating the core capabilities and the integrated learning process that enables synergistic improvements across domains."
+  }
+}

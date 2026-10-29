@@ -1,0 +1,267 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-12-04",
+  "fetched_at": "2026-10-29T15:29:52.751Z",
+  "candidates": [
+    {
+      "id": "2411.19943",
+      "title": "Critical Tokens Matter: Token-Level Contrastive Estimation Enhence LLM's Reasoning Capability",
+      "authors": [
+        "Zicheng Lin",
+        "Tian Liang",
+        "Jiahao Xu",
+        "Xing Wang",
+        "Ruilin Luo",
+        "Chufan Shi",
+        "Siheng Li",
+        "Yujiu Yang",
+        "Zhaopeng Tu"
+      ],
+      "upvotes": 63,
+      "github": "https://github.com/chenzhiling9954/critical-tokens-matter",
+      "published": "2024-11-29T18:58:22.000Z"
+    },
+    {
+      "id": "2412.02259",
+      "title": "VideoGen-of-Thought: A Collaborative Framework for Multi-Shot Video Generation",
+      "authors": [
+        "Mingzhe Zheng",
+        "Yongqi Xu",
+        "Haojian Huang",
+        "Xuran Ma",
+        "Yexin Liu",
+        "Wenjie Shu",
+        "Yatian Pang",
+        "Feilong Tang",
+        "Qifeng Chen",
+        "Harry Yang",
+        "Ser-Nam Lim"
+      ],
+      "upvotes": 60,
+      "github": "https://github.com/DuNGEOnmassster/VideoGen-of-Thought",
+      "published": "2024-12-03T08:33:50.000Z"
+    },
+    {
+      "id": "2412.01928",
+      "title": "MALT: Improving Reasoning with Multi-Agent LLM Training",
+      "authors": [
+        "Sumeet Ramesh Motwani",
+        "Chandler Smith",
+        "Rocktim Jyoti Das",
+        "Markian Rybchuk",
+        "Philip H. S. Torr",
+        "Ivan Laptev",
+        "Fabio Pizzati",
+        "Ronald Clark",
+        "Christian Schroeder de Witt"
+      ],
+      "upvotes": 46,
+      "github": null,
+      "published": "2024-12-02T19:30:36.000Z"
+    },
+    {
+      "id": "2412.01981",
+      "title": "Free Process Rewards without Process Labels",
+      "authors": [
+        "Lifan Yuan",
+        "Wendi Li",
+        "Huayu Chen",
+        "Ganqu Cui",
+        "Ning Ding",
+        "Kaiyan Zhang",
+        "Bowen Zhou",
+        "Zhiyuan Liu",
+        "Hao Peng"
+      ],
+      "upvotes": 34,
+      "github": "https://github.com/lifan-yuan/implicitprm",
+      "published": "2024-12-02T21:20:02.000Z"
+    },
+    {
+      "id": "2412.03248",
+      "title": "AIM: Adaptive Inference of Multi-Modal LLMs via Token Merging and Pruning",
+      "authors": [
+        "Yiwu Zhong",
+        "Zhuoming Liu",
+        "Yin Li",
+        "Liwei Wang"
+      ],
+      "upvotes": 26,
+      "github": "https://github.com/lavi-lab/aim",
+      "published": "2024-12-04T11:47:57.000Z"
+    },
+    {
+      "id": "2412.02592",
+      "title": "OCR Hinders RAG: Evaluating the Cascading Impact of OCR on Retrieval-Augmented Generation",
+      "authors": [
+        "Junyuan Zhang",
+        "Qintong Zhang",
+        "Bin Wang",
+        "Linke Ouyang",
+        "Zichen Wen",
+        "Ying Li",
+        "Ka-Ho Chow",
+        "Conghui He",
+        "Wentao Zhang"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/opendatalab/OHR-Bench",
+      "published": "2024-12-03T17:23:47.000Z"
+    },
+    {
+      "id": "2412.02611",
+      "title": "AV-Odyssey Bench: Can Your Multimodal LLMs Really Understand Audio-Visual Information?",
+      "authors": [
+        "Kaixiong Gong",
+        "Kaituo Feng",
+        "Bohao Li",
+        "Yibing Wang",
+        "Mofan Cheng",
+        "Shijia Yang",
+        "Jiaming Han",
+        "Benyou Wang",
+        "Yutong Bai",
+        "Zhuoran Yang",
+        "Xiangyu Yue"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/AV-Odyssey/AV-Odyssey",
+      "published": "2024-12-03T17:41:23.000Z"
+    },
+    {
+      "id": "2411.19655",
+      "title": "Truth or Mirage? Towards End-to-End Factuality Evaluation with LLM-OASIS",
+      "authors": [
+        "Alessandro Scirè",
+        "Andrei Stefan Bejgu",
+        "Simone Tedeschi",
+        "Karim Ghonim",
+        "Federico Martelli",
+        "Roberto Navigli"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/Babelscape/LLM-Oasis",
+      "published": "2024-11-29T12:21:15.000Z"
+    },
+    {
+      "id": "2412.02700",
+      "title": "Motion Prompting: Controlling Video Generation with Motion Trajectories",
+      "authors": [
+        "Daniel Geng",
+        "Charles Herrmann",
+        "Junhwa Hur",
+        "Forrester Cole",
+        "Serena Zhang",
+        "Tobias Pfaff",
+        "Tatiana Lopez-Guevara",
+        "Carl Doersch",
+        "Yusuf Aytar",
+        "Michael Rubinstein",
+        "Chen Sun",
+        "Oliver Wang",
+        "Andrew Owens",
+        "Deqing Sun"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2024-12-03T18:59:56.000Z"
+    },
+    {
+      "id": "2412.01292",
+      "title": "LSceneLLM: Enhancing Large 3D Scene Understanding Using Adaptive Visual Preferences",
+      "authors": [
+        "Hongyan Zhi",
+        "Peihao Chen",
+        "Junyan Li",
+        "Shuailei Ma",
+        "Xinyu Sun",
+        "Tianhang Xiang",
+        "Yinjie Lei",
+        "Mingkui Tan",
+        "Chuang Gan"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/Hoyyyaard/LSceneLLM",
+      "published": "2024-12-02T09:07:57.000Z"
+    },
+    {
+      "id": "2412.02114",
+      "title": "OmniCreator: Self-Supervised Unified Generation with Universal Editing",
+      "authors": [
+        "Haodong Chen",
+        "Lan Wang",
+        "Harry Yang",
+        "Ser-Nam Lim"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2024-12-03T03:10:19.000Z"
+    },
+    {
+      "id": "2412.02632",
+      "title": "Scaling Image Tokenizers with Grouped Spherical Quantization",
+      "authors": [
+        "Jiangtao Wang",
+        "Zhen Qin",
+        "Yifan Zhang",
+        "Vincent Tao Hu",
+        "Björn Ommer",
+        "Rania Briq",
+        "Stefan Kesselheim"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/helmholtzai-fzj/flex_gen",
+      "published": "2024-12-03T18:01:45.000Z"
+    },
+    {
+      "id": "2411.19067",
+      "title": "MaskRIS: Semantic Distortion-aware Data Augmentation for Referring Image Segmentation",
+      "authors": [
+        "Minhyun Lee",
+        "Seungho Lee",
+        "Song Park",
+        "Dongyoon Han",
+        "Byeongho Heo",
+        "Hyunjung Shim"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/naver-ai/maskris",
+      "published": "2024-11-28T11:27:56.000Z"
+    },
+    {
+      "id": "2412.00239",
+      "title": "Generating a Low-code Complete Workflow via Task Decomposition and RAG",
+      "authors": [
+        "Orlando Marquez Ayala",
+        "Patrice Béchard"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2024-11-29T20:13:56.000Z"
+    },
+    {
+      "id": "2411.19542",
+      "title": "A dynamic parallel method for performance optimization on hybrid CPUs",
+      "authors": [
+        "Luo Yu",
+        "Liu Yucheng",
+        "Shen Haihao"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2024-11-29T08:39:24.000Z"
+    },
+    {
+      "id": "2412.01558",
+      "title": "VideoLights: Feature Refinement and Cross-Task Alignment Transformer for Joint Video Highlight Detection and Moment Retrieval",
+      "authors": [
+        "Dhiman Paul",
+        "Md Rizwan Parvez",
+        "Nabeel Mohammed",
+        "Shafin Rahman"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/dpaul06/VideoLights",
+      "published": "2024-12-02T14:45:53.000Z"
+    }
+  ]
+}

@@ -1,0 +1,350 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-02-26",
+  "fetched_at": "2026-10-29T15:30:43.706Z",
+  "candidates": [
+    {
+      "id": "2502.18449",
+      "title": "SWE-RL: Advancing LLM Reasoning via Reinforcement Learning on Open Software Evolution",
+      "authors": [
+        "Yuxiang Wei",
+        "Olivier Duchenne",
+        "Jade Copet",
+        "Quentin Carbonneaux",
+        "Lingming Zhang",
+        "Daniel Fried",
+        "Gabriel Synnaeve",
+        "Rishabh Singh",
+        "Sida I. Wang"
+      ],
+      "upvotes": 75,
+      "github": "https://github.com/facebookresearch/swe-rl",
+      "published": "2025-02-25T18:45:04.000Z"
+    },
+    {
+      "id": "2502.18411",
+      "title": "OmniAlign-V: Towards Enhanced Alignment of MLLMs with Human Preference",
+      "authors": [
+        "Xiangyu Zhao",
+        "Shengyuan Ding",
+        "Zicheng Zhang",
+        "Haian Huang",
+        "Maosong Cao",
+        "Weiyun Wang",
+        "Jiaqi Wang",
+        "Xinyu Fang",
+        "Wenhai Wang",
+        "Guangtao Zhai",
+        "Haodong Duan",
+        "Hua Yang",
+        "Kai Chen"
+      ],
+      "upvotes": 74,
+      "github": "https://github.com/phoenixz810/omnialign-v",
+      "published": "2025-02-25T18:05:14.000Z"
+    },
+    {
+      "id": "2502.18137",
+      "title": "SpargeAttn: Accurate Sparse Attention Accelerating Any Model Inference",
+      "authors": [
+        "Jintao Zhang",
+        "Chendong Xiang",
+        "Haofeng Huang",
+        "Jia Wei",
+        "Haocheng Xi",
+        "Jun Zhu",
+        "Jianfei Chen"
+      ],
+      "upvotes": 60,
+      "github": "https://github.com/thu-ml/SpargeAttn",
+      "published": "2025-02-25T12:02:17.000Z"
+    },
+    {
+      "id": "2502.17363",
+      "title": "KV-Edit: Training-Free Image Editing for Precise Background Preservation",
+      "authors": [
+        "Tianrui Zhu",
+        "Shiyi Zhang",
+        "Jiawei Shao",
+        "Yansong Tang"
+      ],
+      "upvotes": 37,
+      "github": "https://github.com/Xilluill/KV-Edit",
+      "published": "2025-02-24T17:40:09.000Z"
+    },
+    {
+      "id": "2502.18364",
+      "title": "ART: Anonymous Region Transformer for Variable Multi-Layer Transparent Image Generation",
+      "authors": [
+        "Yifan Pu",
+        "Yiming Zhao",
+        "Zhicong Tang",
+        "Ruihong Yin",
+        "Haoxing Ye",
+        "Yuhui Yuan",
+        "Dong Chen",
+        "Jianmin Bao",
+        "Sirui Zhang",
+        "Yanbin Wang",
+        "Lin Liang",
+        "Lijuan Wang",
+        "Ji Li",
+        "Xiu Li",
+        "Zhouhui Lian",
+        "Gao Huang",
+        "Baining Guo"
+      ],
+      "upvotes": 35,
+      "github": "https://github.com/microsoft/art-msra",
+      "published": "2025-02-25T16:57:04.000Z"
+    },
+    {
+      "id": "2502.17262",
+      "title": "Unveiling Downstream Performance Scaling of LLMs: A Clustering-Based Perspective",
+      "authors": [
+        "Chengyin Xu",
+        "Kaiyuan Chen",
+        "Xiao Li",
+        "Ke Shen",
+        "Chenggang Li"
+      ],
+      "upvotes": 22,
+      "github": null,
+      "published": "2025-02-24T15:44:57.000Z"
+    },
+    {
+      "id": "2502.16069",
+      "title": "Curie: Toward Rigorous and Automated Scientific Experimentation with AI Agents",
+      "authors": [
+        "Patrick Tser Jern Kon",
+        "Jiachen Liu",
+        "Qiuyi Ding",
+        "Yiming Qiu",
+        "Zhenning Yang",
+        "Yibo Huang",
+        "Jayanth Srinivasa",
+        "Myungjin Lee",
+        "Mosharaf Chowdhury",
+        "Ang Chen"
+      ],
+      "upvotes": 20,
+      "github": null,
+      "published": "2025-02-22T03:58:19.000Z"
+    },
+    {
+      "id": "2502.17425",
+      "title": "Introducing Visual Perception Token into Multimodal Large Language Model",
+      "authors": [
+        "Runpeng Yu",
+        "Xinyin Ma",
+        "Xinchao Wang"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/yu-rp/visualperceptiontoken",
+      "published": "2025-02-24T18:56:12.000Z"
+    },
+    {
+      "id": "2502.18461",
+      "title": "K-LoRA: Unlocking Training-Free Fusion of Any Subject and Style LoRAs",
+      "authors": [
+        "Ziheng Ouyang",
+        "Zhen Li",
+        "Qibin Hou"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/HVision-NKU/K-LoRA",
+      "published": "2025-02-25T18:59:12.000Z"
+    },
+    {
+      "id": "2502.15499",
+      "title": "Scale-Distribution Decoupling: Enabling Stable and Effective Training of Large Language Models",
+      "authors": [
+        "Ya Wang",
+        "Zhijian Zhuo",
+        "Yutao Zeng",
+        "Xun Zhou",
+        "Jian Yang",
+        "Xiaoqing Li"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/kaihemo/SDD",
+      "published": "2025-02-21T14:49:34.000Z"
+    },
+    {
+      "id": "2502.18356",
+      "title": "WebGames: Challenging General-Purpose Web-Browsing AI Agents",
+      "authors": [
+        "George Thomas",
+        "Alex J. Chan",
+        "Jikun Kang",
+        "Wenqi Wu",
+        "Filippos Christianos",
+        "Fraser Greenlee",
+        "Andy Toulis",
+        "Marvin Purtorab"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/convergence-ai/webgames",
+      "published": "2025-02-25T16:45:08.000Z"
+    },
+    {
+      "id": "2502.17535",
+      "title": "The Lottery LLM Hypothesis, Rethinking What Abilities Should LLM Compression Preserve?",
+      "authors": [
+        "Zhenheng Tang",
+        "Xiang Liu",
+        "Qian Wang",
+        "Peijie Dong",
+        "Bingsheng He",
+        "Xiaowen Chu",
+        "Bo Li"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2025-02-24T15:39:35.000Z"
+    },
+    {
+      "id": "2502.17422",
+      "title": "MLLMs Know Where to Look: Training-free Perception of Small Visual Details with Multimodal LLMs",
+      "authors": [
+        "Jiarui Zhang",
+        "Mahyar Khayatkhoei",
+        "Prateek Chhikara",
+        "Filip Ilievski"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/saccharomycetes/mllms_know",
+      "published": "2025-02-24T18:54:40.000Z"
+    },
+    {
+      "id": "2502.14855",
+      "title": "Prompt-to-Leaderboard",
+      "authors": [
+        "Evan Frick",
+        "Connor Chen",
+        "Joseph Tennyson",
+        "Tianle Li",
+        "Wei-Lin Chiang",
+        "Anastasios N. Angelopoulos",
+        "Ion Stoica"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/lmarena/p2l",
+      "published": "2025-02-20T18:58:07.000Z"
+    },
+    {
+      "id": "2502.16825",
+      "title": "Finding the Sweet Spot: Preference Data Construction for Scaling Preference Optimization",
+      "authors": [
+        "Yao Xiao",
+        "Hai Ye",
+        "Linyao Chen",
+        "Hwee Tou Ng",
+        "Lidong Bing",
+        "Xiaoli Li",
+        "Roy Ka-wei Lee"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2025-02-24T04:22:57.000Z"
+    },
+    {
+      "id": "2502.18302",
+      "title": "LDGen: Enhancing Text-to-Image Synthesis via Large Language Model-Driven Language Representation",
+      "authors": [
+        "Pengzhi Li",
+        "Pengfei Yu",
+        "Zide Liu",
+        "Wei He",
+        "Xuhao Pan",
+        "Xudong Rao",
+        "Tao Wei",
+        "Wei Chen"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/zrealli/LDGen",
+      "published": "2025-02-25T15:42:34.000Z"
+    },
+    {
+      "id": "2502.16794",
+      "title": "AAD-LLM: Neural Attention-Driven Auditory Scene Understanding",
+      "authors": [
+        "Xilin Jiang",
+        "Sukru Samet Dindar",
+        "Vishal Choudhari",
+        "Stephan Bickel",
+        "Ashesh Mehta",
+        "Guy M McKhann",
+        "Adeen Flinker",
+        "Daniel Friedman",
+        "Nima Mesgarani"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/xi-j/AAD-LLM",
+      "published": "2025-02-24T03:06:45.000Z"
+    },
+    {
+      "id": "2502.17814",
+      "title": "An Overview of Large Language Models for Statisticians",
+      "authors": [
+        "Wenlong Ji",
+        "Weizhe Yuan",
+        "Emily Getzen",
+        "Kyunghyun Cho",
+        "Michael I. Jordan",
+        "Song Mei",
+        "Jason E Weston",
+        "Weijie J. Su",
+        "Jing Xu",
+        "Linjun Zhang"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-02-25T03:40:36.000Z"
+    },
+    {
+      "id": "2502.15612",
+      "title": "LaTIM: Measuring Latent Token-to-Token Interactions in Mamba Models",
+      "authors": [
+        "Hugo Pitorro",
+        "Marcos Treviso"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/deep-spin/latim",
+      "published": "2025-02-21T17:33:59.000Z"
+    },
+    {
+      "id": "2502.17092",
+      "title": "Shakti-VLMs: Scalable Vision-Language Models for Enterprise AI",
+      "authors": [
+        "Syed Abdul Gaffar Shakhadri",
+        "Kruthika KR",
+        "Kartik Basavaraj Angadi"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2025-02-24T12:15:07.000Z"
+    },
+    {
+      "id": "2502.18316",
+      "title": "WiCkeD: A Simple Method to Make Multiple Choice Benchmarks More Challenging",
+      "authors": [
+        "Ahmed Elhady",
+        "Eneko Agirre",
+        "Mikel Artetxe"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/ahmedselhady/wicked-benchmarks",
+      "published": "2025-02-25T16:09:38.000Z"
+    },
+    {
+      "id": "2502.17910",
+      "title": "Scaling LLM Pre-training with Vocabulary Curriculum",
+      "authors": [
+        "Fangyuan Yu"
+      ],
+      "upvotes": 0,
+      "github": "https://github.com/fangyuan-ksgk/VocabularyCurriculum",
+      "published": "2025-02-25T07:18:29.000Z"
+    }
+  ]
+}

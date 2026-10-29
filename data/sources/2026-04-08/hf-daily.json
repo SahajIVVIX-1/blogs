@@ -1,0 +1,547 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-04-08",
+  "fetched_at": "2026-10-29T15:35:15.133Z",
+  "candidates": [
+    {
+      "id": "2604.05015",
+      "title": "Video-MME-v2: Towards the Next Stage in Benchmarks for Comprehensive Video Understanding",
+      "authors": [
+        "Chaoyou Fu",
+        "Haozhi Yuan",
+        "Yuhao Dong",
+        "Yi-Fan Zhang",
+        "Yunhang Shen",
+        "Xiaoxing Hu",
+        "Xueying Li",
+        "Jinsen Su",
+        "Chengwu Long",
+        "Xiaoyao Xie",
+        "Yongkang Xie",
+        "Xiawu Zheng",
+        "Xue Yang",
+        "Haoyu Cao",
+        "Yunsheng Wu",
+        "Ziwei Liu",
+        "Xing Sun",
+        "Caifeng Shan",
+        "Ran He"
+      ],
+      "upvotes": 231,
+      "github": "https://github.com/MME-Benchmarks/Video-MME-v2",
+      "published": "2026-04-06T00:00:00.000Z"
+    },
+    {
+      "id": "2604.06132",
+      "title": "Claw-Eval: Toward Trustworthy Evaluation of Autonomous Agents",
+      "authors": [
+        "Bowen Ye",
+        "Rang Li",
+        "Qibin Yang",
+        "Yuanxin Liu",
+        "Linli Yao",
+        "Hanglong Lv",
+        "Zhihui Xie",
+        "Chenxin An",
+        "Lei Li",
+        "Lingpeng Kong",
+        "Qi Liu",
+        "Zhifang Sui",
+        "Tong Yang"
+      ],
+      "upvotes": 116,
+      "github": "https://github.com/claw-eval/claw-eval",
+      "published": "2026-04-07T00:00:00.000Z"
+    },
+    {
+      "id": "2604.05117",
+      "title": "Watch Before You Answer: Learning from Visually Grounded Post-Training",
+      "authors": [
+        "Yuxuan Zhang",
+        "EunJeong Hwang",
+        "Huaisong Zhang",
+        "Penghui Du",
+        "Yiming Jia",
+        "Dongfu Jiang",
+        "Xuan He",
+        "Shenhui Zhang",
+        "Ping Nie",
+        "Peter West",
+        "Kelsey R. Allen"
+      ],
+      "upvotes": 90,
+      "github": "https://github.com/reacher-z/vidground",
+      "published": "2026-04-06T00:00:00.000Z"
+    },
+    {
+      "id": "2604.04949",
+      "title": "Learning to Retrieve from Agent Trajectories",
+      "authors": [
+        "Yuqi Zhou",
+        "Sunhao Dai",
+        "Changle Qu",
+        "Liang Pang",
+        "Jun Xu",
+        "Ji-Rong Wen"
+      ],
+      "upvotes": 67,
+      "github": "https://github.com/Yuqi-Zhou/LRAT",
+      "published": "2026-03-30T00:00:00.000Z"
+    },
+    {
+      "id": "2604.05091",
+      "title": "MegaTrain: Full Precision Training of 100B+ Parameter Large Language Models on a Single GPU",
+      "authors": [
+        "Zhengqing Yuan",
+        "Hanchi Sun",
+        "Lichao Sun",
+        "Yanfang Ye"
+      ],
+      "upvotes": 44,
+      "github": "https://github.com/DLYuanGod/MegaTrain",
+      "published": "2026-04-06T00:00:00.000Z"
+    },
+    {
+      "id": "2604.05404",
+      "title": "Beyond Accuracy: Unveiling Inefficiency Patterns in Tool-Integrated Reasoning",
+      "authors": [
+        "Qisheng Su",
+        "Shiting Huang",
+        "Zhen Fang",
+        "Ziyan Chen",
+        "Zehui Chen",
+        "Feng Zhao"
+      ],
+      "upvotes": 44,
+      "github": "https://github.com/sqs-ustc/tool-reasoning-framework-PTE",
+      "published": "2026-04-07T00:00:00.000Z"
+    },
+    {
+      "id": "2604.04934",
+      "title": "Vanast: Virtual Try-On with Human Image Animation via Synthetic Triplet Supervision",
+      "authors": [
+        "Hyunsoo Cha",
+        "Wonjung Woo",
+        "Byungjun Kim",
+        "Hanbyul Joo"
+      ],
+      "upvotes": 43,
+      "github": "https://github.com/snuvclab/vanast",
+      "published": "2026-04-06T00:00:00.000Z"
+    },
+    {
+      "id": "2604.04323",
+      "title": "How Well Do Agentic Skills Work in the Wild: Benchmarking LLM Skill Usage in Realistic Settings",
+      "authors": [
+        "Yujian Liu",
+        "Jiabao Ji",
+        "Li An",
+        "Tommi Jaakkola",
+        "Yang Zhang",
+        "Shiyu Chang"
+      ],
+      "upvotes": 38,
+      "github": "https://github.com/UCSB-NLP-Chang/Skill-Usage",
+      "published": "2026-04-06T00:00:00.000Z"
+    },
+    {
+      "id": "2604.01591",
+      "title": "ThinkTwice: Jointly Optimizing Large Language Models for Reasoning and Self-Refinement",
+      "authors": [
+        "Difan Jiao",
+        "Qianfeng Wen",
+        "Blair Yang",
+        "Zhenwei Tang",
+        "Ashton Anderson"
+      ],
+      "upvotes": 36,
+      "github": "https://github.com/CSSLab/ThinkTwice",
+      "published": "2026-04-02T00:00:00.000Z"
+    },
+    {
+      "id": "2604.06170",
+      "title": "Paper Circle: An Open-source Multi-agent Research Discovery and Analysis Framework",
+      "authors": [
+        "Komal Kumar",
+        "Aman Chadha",
+        "Salman Khan",
+        "Fahad Shahbaz Khan",
+        "Hisham Cholakkal"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/MAXNORM8650/papercircle",
+      "published": "2026-04-07T00:00:00.000Z"
+    },
+    {
+      "id": "2604.05181",
+      "title": "General Multimodal Protein Design Enables DNA-Encoding of Chemistry",
+      "authors": [
+        "Jarrid Rector-Brooks",
+        "Théophile Lambert",
+        "Marta Skreta",
+        "Daniel Roth",
+        "Yueming Long",
+        "Zi-Qi Li",
+        "Xi Zhang",
+        "Miruna Cretu",
+        "Francesca-Zhoufan Li",
+        "Tanvi Ganapathy",
+        "Emily Jin",
+        "Avishek Joey Bose",
+        "Jason Yang",
+        "Kirill Neklyudov",
+        "Yoshua Bengio",
+        "Alexander Tong",
+        "Frances H. Arnold",
+        "Cheng-Hao Liu"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/DISCO-design/DISCO",
+      "published": "2026-04-06T00:00:00.000Z"
+    },
+    {
+      "id": "2604.05172",
+      "title": "ClawsBench: Evaluating Capability and Safety of LLM Productivity Agents in Simulated Workspaces",
+      "authors": [
+        "Xiangyi Li",
+        "Kyoung Whan Choe",
+        "Yimin Liu",
+        "Xiaokun Chen",
+        "Chujun Tao",
+        "Bingran You",
+        "Wenbo Chen",
+        "Zonglin Di",
+        "Jiankai Sun",
+        "Shenghan Zheng",
+        "Jiajun Bao",
+        "Yuanli Wang",
+        "Weixiang Yan",
+        "Yiyuan Li",
+        "Han-chung Lee"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/benchflow-ai/ClawsBench",
+      "published": "2026-04-06T00:00:00.000Z"
+    },
+    {
+      "id": "2604.06169",
+      "title": "In-Place Test-Time Training",
+      "authors": [
+        "Guhao Feng",
+        "Shengjie Luo",
+        "Kai Hua",
+        "Ge Zhang",
+        "Di He",
+        "Wenhao Huang",
+        "Tianle Cai"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/ByteDance-Seed/In-Place-TTT",
+      "published": "2026-04-07T00:00:00.000Z"
+    },
+    {
+      "id": "2604.04215",
+      "title": "DARE: Diffusion Large Language Models Alignment and Reinforcement Executor",
+      "authors": [
+        "Jingyi Yang",
+        "Yuxian Jiang",
+        "Xuhao Hu",
+        "Shuang Cheng",
+        "Biqing Qi",
+        "Jing Shao"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/yjyddq/DARE",
+      "published": "2026-04-05T00:00:00.000Z"
+    },
+    {
+      "id": "2603.24652",
+      "title": "Demystifying When Pruning Works via Representation Hierarchies",
+      "authors": [
+        "Shwai He",
+        "Guoheng Sun",
+        "Haichao Zhang",
+        "Yun Fu",
+        "Ang Li"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/CASE-Lab-UMD/Pruning-on-Representations",
+      "published": "2026-04-06T00:00:00.000Z"
+    },
+    {
+      "id": "2604.03922",
+      "title": "ACES: Who Tests the Tests? Leave-One-Out AUC Consistency for Code Generation",
+      "authors": [
+        "Hui Sun",
+        "Yun-Ji Zhang",
+        "Zheng Xie",
+        "Ren-Biao Liu",
+        "Yali Du",
+        "Xin-Ye Li",
+        "Ming Li"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2026-04-05T00:00:00.000Z"
+    },
+    {
+      "id": "2604.02648",
+      "title": "GBQA: A Game Benchmark for Evaluating LLMs as Quality Assurance Engineers",
+      "authors": [
+        "Shufan Jiang",
+        "Chios Chen",
+        "Zhiyang Chen"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/camel-ai/GBQA",
+      "published": "2026-04-03T00:00:00.000Z"
+    },
+    {
+      "id": "2604.05081",
+      "title": "MedGemma 1.5 Technical Report",
+      "authors": [
+        "Andrew Sellergren",
+        "Chufan Gao",
+        "Fereshteh Mahvar",
+        "Timo Kohlberger",
+        "Fayaz Jamil",
+        "Madeleine Traverse",
+        "Alberto Tono",
+        "Bashir Sadjad",
+        "Lin Yang",
+        "Charles Lau",
+        "Liron Yatziv",
+        "Tiffany Chen",
+        "Bram Sterling",
+        "Kenneth Philbrick",
+        "Richa Tiwari",
+        "Yun Liu",
+        "Madhuram Jajoo",
+        "Chandrashekar Sankarapu",
+        "Swapnil Vispute",
+        "Harshad Purandare",
+        "Abhishek Bijay Mishra",
+        "Sam Schmidgall",
+        "Tao Tu",
+        "Anil Palepu",
+        "Chunjong Park",
+        "Tim Strother",
+        "Rahul Thapa",
+        "Yong Cheng",
+        "Preeti Singh",
+        "Kat Black",
+        "Yossi Matias",
+        "Katherine Chou",
+        "Avinatan Hassidim",
+        "Kavi Goel",
+        "Joelle Barral",
+        "Tris Warkentin",
+        "Shravya Shetty",
+        "Dale Webster",
+        "Sunny Virmani",
+        "David F. Steiner",
+        "Can Kirmizibayrak",
+        "Daniel Golden"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2026-04-06T00:00:00.000Z"
+    },
+    {
+      "id": "2604.05533",
+      "title": "Experience Transfer for Multimodal LLM Agents in Minecraft Game",
+      "authors": [
+        "Chenghao Li",
+        "Jun Liu",
+        "Songbo Zhang",
+        "Huadong Jian",
+        "Hao Ni",
+        "Lik-Hang Lee",
+        "Sung-Ho Bae",
+        "Guoqing Wang",
+        "Yang Yang",
+        "Chaoning Zhang"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2026-04-07T00:00:00.000Z"
+    },
+    {
+      "id": "2604.06168",
+      "title": "Action Images: End-to-End Policy Learning via Multiview Video Generation",
+      "authors": [
+        "Haoyu Zhen",
+        "Zixian Gao",
+        "Qiao Sun",
+        "Yilin Zhao",
+        "Yuncong Yang",
+        "Yilun Du",
+        "Tsun-Hsuan Wang",
+        "Yi-Ling Qiao",
+        "Chuang Gan"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2026-04-07T00:00:00.000Z"
+    },
+    {
+      "id": "2604.04356",
+      "title": "REAM: Merging Improves Pruning of Experts in LLMs",
+      "authors": [
+        "Saurav Jha",
+        "Maryam Hashemzadeh",
+        "Ali Saheb Pasand",
+        "Ali Parviz",
+        "Min-Joong Lee",
+        "Boris Knyazev"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/SamsungSAILMontreal/ream",
+      "published": "2026-04-06T00:00:00.000Z"
+    },
+    {
+      "id": "2604.06156",
+      "title": "MMEmb-R1: Reasoning-Enhanced Multimodal Embedding with Pair-Aware Selection and Adaptive Control",
+      "authors": [
+        "Yuchi Wang",
+        "Haiyang Yu",
+        "Weikang Bian",
+        "Jiefeng Long",
+        "Xiao Liang",
+        "Chao Feng",
+        "Hongsheng Li"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2026-04-07T00:00:00.000Z"
+    },
+    {
+      "id": "2604.04979",
+      "title": "Squeez: Task-Conditioned Tool-Output Pruning for Coding Agents",
+      "authors": [
+        "Ádám Kovács"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/KRLabsOrg/squeez",
+      "published": "2026-04-04T00:00:00.000Z"
+    },
+    {
+      "id": "2604.05939",
+      "title": "Context-Value-Action Architecture for Value-Driven Large Language Model Agents",
+      "authors": [
+        "TianZe Zhang",
+        "Sirui Sun",
+        "Yuhang Xie",
+        "Xin Zhang",
+        "Zhiqiang Wu",
+        "Guojie Song"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2026-04-07T00:00:00.000Z"
+    },
+    {
+      "id": "2604.06079",
+      "title": "Scientific Graphics Program Synthesis via Dual Self-Consistency Reinforcement Learning",
+      "authors": [
+        "Juekai Lin",
+        "Yun Zhu",
+        "Honglin Lin",
+        "Sijing Li",
+        "Tianwei Lin",
+        "Zheng Liu",
+        "Xiaoyang Wang",
+        "Wenqiao Zhang",
+        "Lijun Wu"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2026-04-07T00:00:00.000Z"
+    },
+    {
+      "id": "2604.01622",
+      "title": "Expert-Choice Routing Enables Adaptive Computation in Diffusion Language Models",
+      "authors": [
+        "Shuibai Zhang",
+        "Caspian Zhuang",
+        "Chihan Cui",
+        "Zhihan Yang",
+        "Fred Zhangzhi Peng",
+        "Yanxin Zhang",
+        "Haoyue Bai",
+        "Zack Jia",
+        "Yang Zhou",
+        "Guanhua Chen",
+        "Ming Liu"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/zhangshuibai/EC-DLM",
+      "published": "2026-04-02T00:00:00.000Z"
+    },
+    {
+      "id": "2604.03619",
+      "title": "Can Natural Image Autoencoders Compactly Tokenize fMRI Volumes for Long-Range Dynamics Modeling?",
+      "authors": [
+        "Peter Yongho Kim",
+        "Juhyeon Park",
+        "Jungwoo Park",
+        "Jubin Choi",
+        "Jungwoo Seo",
+        "Jiook Cha",
+        "Taesup Moon"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/beotborry/TABLeT",
+      "published": "2026-04-04T00:00:00.000Z"
+    },
+    {
+      "id": "2604.04074",
+      "title": "FactReview: Evidence-Grounded Reviews with Literature Positioning and Execution-Based Claim Verification",
+      "authors": [
+        "Hang Xu",
+        "Ling Yue",
+        "Chaoqian Ouyang",
+        "Yuchen Liu",
+        "Libin Zheng",
+        "Shaowu Pan",
+        "Shimin Di",
+        "Min-Ling Zhang"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-04-07T00:00:00.000Z"
+    },
+    {
+      "id": "2604.05467",
+      "title": "CUE-R: Beyond the Final Answer in Retrieval-Augmented Generation",
+      "authors": [
+        "Siddharth Jain",
+        "Venkat Narayan Vedam"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/jainsid24/cue-r",
+      "published": "2026-04-07T00:00:00.000Z"
+    },
+    {
+      "id": "2604.05963",
+      "title": "QiMeng-PRepair: Precise Code Repair via Edit-Aware Reward Optimization",
+      "authors": [
+        "Changxin Ke",
+        "Rui Zhang",
+        "Jiaming Guo",
+        "Yuanbo Wen",
+        "Li Ding",
+        "Shuo Wang",
+        "Xuyuan Zhu",
+        "Xiong Peng",
+        "Di Huang",
+        "Zidong Du",
+        "Xing Hu",
+        "Qi Guo",
+        "Yunji Chen"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/kcxain/QiMeng-PRepair",
+      "published": "2026-04-07T00:00:00.000Z"
+    }
+  ]
+}

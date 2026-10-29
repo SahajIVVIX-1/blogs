@@ -1,0 +1,7 @@
+{
+  "id": "2403.13372",
+  "html": "https://arxiv.org/html/2403.13372",
+  "limitations": null,
+  "conclusion": "In this paper, we demonstrate LlamaFactory , a unified framework for the efficient fine-tuning of LLMs. Through a modular design, we minimize dependencies between the models, datasets and training methods and provide an integrated approach to fine-tune over 100 LLMs with a diverse range of efficient fine-tuning techniques. Additionally, we offer a flexible web UI LlamaBoard , enabling customized fine-tuning and evaluation of LLMs without coding efforts. We empirically validate the efficiency and effectiveness of our framework on language modeling and text generation tasks. We will consistently keep LlamaFactory synchronous with the state-of-the-art models and efficient fine-tuning techniques. We also welcome contributions from the open-source community. The road map of LlamaFactory including: (1) Enabling fine-tuning for models that supports a wider range of modalities, e . g ., the audi",
+  "figure": null
+}

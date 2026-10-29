@@ -1,0 +1,710 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-01-13",
+  "fetched_at": "2026-10-29T15:34:23.643Z",
+  "candidates": [
+    {
+      "id": "2601.06521",
+      "title": "BabyVision: Visual Reasoning Beyond Language",
+      "authors": [
+        "Liang Chen",
+        "Weichu Xie",
+        "Yiyan Liang",
+        "Hongfeng He",
+        "Hans Zhao",
+        "Zhibo Yang",
+        "Zhiqi Huang",
+        "Haoning Wu",
+        "Haoyu Lu",
+        "Y. charles",
+        "Yiping Bao",
+        "Yuantao Fan",
+        "Guopeng Li",
+        "Haiyang Shen",
+        "Xuanzhong Chen",
+        "Wendong Xu",
+        "Shuzheng Si",
+        "Zefan Cai",
+        "Wenhao Chai",
+        "Ziqi Huang",
+        "Fangfu Liu",
+        "Tianyu Liu",
+        "Baobao Chang",
+        "Xiaobo Hu",
+        "Kaiyuan Chen",
+        "Yixin Ren",
+        "Yang Liu",
+        "Yuan Gong",
+        "Kuan Li"
+      ],
+      "upvotes": 202,
+      "github": "https://github.com/UniPat-AI/BabyVision",
+      "published": "2026-01-10T10:42:44.000Z"
+    },
+    {
+      "id": "2601.06943",
+      "title": "Watching, Reasoning, and Searching: A Video Deep Research Benchmark on Open Web for Agentic Video Reasoning",
+      "authors": [
+        "Chengwen Liu",
+        "Xiaomin Yu",
+        "Zhuoyue Chang",
+        "Zhe Huang",
+        "Shuo Zhang",
+        "Heng Lian",
+        "Kunyi Wang",
+        "Rui Xu",
+        "Sen Hu",
+        "Jianheng Hou",
+        "Hao Peng",
+        "Chengwei Qin",
+        "Xiaobin Hu",
+        "Hong Peng",
+        "Ronghao Chen",
+        "Huacan Wang"
+      ],
+      "upvotes": 198,
+      "github": "https://github.com/QuantaAlpha/VideoDR-Benchmark",
+      "published": "2026-01-11T15:07:37.000Z"
+    },
+    {
+      "id": "2601.05593",
+      "title": "PaCoRe: Learning to Scale Test-Time Compute with Parallel Coordinated Reasoning",
+      "authors": [
+        "Jingcheng Hu",
+        "Yinmin Zhang",
+        "Shijie Shang",
+        "Xiaobo Yang",
+        "Yue Peng",
+        "Zhewei Huang",
+        "Hebin Zhou",
+        "Xin Wu",
+        "Jie Cheng",
+        "Fanqi Wan",
+        "Xiangwen Kong",
+        "Chengyuan Yao",
+        "Kaiwen Yan",
+        "Ailin Huang",
+        "Hongyu Zhou",
+        "Qi Han",
+        "Zheng Ge",
+        "Daxin Jiang",
+        "Xiangyu Zhang",
+        "Heung-Yeung Shum"
+      ],
+      "upvotes": 89,
+      "github": "https://github.com/stepfun-ai/PaCoRe",
+      "published": "2026-01-09T07:24:43.000Z"
+    },
+    {
+      "id": "2601.06953",
+      "title": "X-Coder: Advancing Competitive Programming with Fully Synthetic Tasks, Solutions, and Tests",
+      "authors": [
+        "Jie Wu",
+        "Haoling Li",
+        "Xin Zhang",
+        "Jiani Guo",
+        "Jane Luo",
+        "Steven Liu",
+        "Yangyu Huang",
+        "Ruihang Chu",
+        "Scarlett Li",
+        "Yujiu Yang"
+      ],
+      "upvotes": 48,
+      "github": "https://github.com/JieWu02/X-Coder",
+      "published": "2026-01-11T15:22:33.000Z"
+    },
+    {
+      "id": "2601.07832",
+      "title": "MHLA: Restoring Expressivity of Linear Attention via Token-Level Multi-Head",
+      "authors": [
+        "Kewei Zhang",
+        "Ye Huang",
+        "Yufan Deng",
+        "Jincheng Yu",
+        "Junsong Chen",
+        "Huan Ling",
+        "Enze Xie",
+        "Daquan Zhou"
+      ],
+      "upvotes": 40,
+      "github": "https://github.com/DAGroup-PKU/MHLA",
+      "published": "2026-01-12T18:59:18.000Z"
+    },
+    {
+      "id": "2601.07226",
+      "title": "Lost in the Noise: How Reasoning Models Fail with Contextual Distractors",
+      "authors": [
+        "Seongyun Lee",
+        "Yongrae Jo",
+        "Minju Seo",
+        "Moontae Lee",
+        "Minjoon Seo"
+      ],
+      "upvotes": 33,
+      "github": null,
+      "published": "2026-01-12T05:43:51.000Z"
+    },
+    {
+      "id": "2601.05107",
+      "title": "Controllable Memory Usage: Balancing Anchoring and Innovation in Long-Term Human-Agent Interaction",
+      "authors": [
+        "Muzhao Tian",
+        "Zisu Huang",
+        "Xiaohua Wang",
+        "Jingwen Xu",
+        "Zhengkang Guo",
+        "Qi Qian",
+        "Yuanzhe Shen",
+        "Kaitao Song",
+        "Jiakang Yuan",
+        "Changze Lv",
+        "Xiaoqing Zheng"
+      ],
+      "upvotes": 23,
+      "github": null,
+      "published": "2026-01-08T16:54:30.000Z"
+    },
+    {
+      "id": "2601.07526",
+      "title": "MegaFlow: Large-Scale Distributed Orchestration System for the Agentic Era",
+      "authors": [
+        "Lei Zhang",
+        "Mouxiang Chen",
+        "Ruisheng Cao",
+        "Jiawei Chen",
+        "Fan Zhou",
+        "Yiheng Xu",
+        "Jiaxi Yang",
+        "Liang Chen",
+        "Changwei Luo",
+        "Kai Zhang",
+        "Fan Yan",
+        "KaShun Shum",
+        "Jiajun Zhang",
+        "Zeyu Cui",
+        "Hu Feng",
+        "Junyang Lin",
+        "Binyuan Hui",
+        "Min Yang"
+      ],
+      "upvotes": 23,
+      "github": null,
+      "published": "2026-01-12T13:25:33.000Z"
+    },
+    {
+      "id": "2601.07055",
+      "title": "Dr. Zero: Self-Evolving Search Agents without Training Data",
+      "authors": [
+        "Zhenrui Yue",
+        "Kartikeya Upasani",
+        "Xianjun Yang",
+        "Suyu Ge",
+        "Shaoliang Nie",
+        "Yuning Mao",
+        "Zhe Liu",
+        "Dong Wang"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/facebookresearch/drzero",
+      "published": "2026-01-11T20:27:55.000Z"
+    },
+    {
+      "id": "2601.05823",
+      "title": "Boosting Latent Diffusion Models via Disentangled Representation Alignment",
+      "authors": [
+        "John Page",
+        "Xuesong Niu",
+        "Kai Wu",
+        "Kun Gai"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2026-01-09T14:54:30.000Z"
+    },
+    {
+      "id": "2601.01528",
+      "title": "DrivingGen: A Comprehensive Benchmark for Generative Video World Models in Autonomous Driving",
+      "authors": [
+        "Yang Zhou",
+        "Hao Shao",
+        "Letian Wang",
+        "Zhuofan Zong",
+        "Hongsheng Li",
+        "Steven L. Waslander"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/youngzhou1999/DrivingGen",
+      "published": "2026-01-04T13:36:21.000Z"
+    },
+    {
+      "id": "2601.06860",
+      "title": "ET-Agent: Incentivizing Effective Tool-Integrated Reasoning Agent via Behavior Calibration",
+      "authors": [
+        "Yifei Chen",
+        "Guanting Dong",
+        "Zhicheng Dou"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/asilverlight/ET-Agent",
+      "published": "2026-01-11T11:05:26.000Z"
+    },
+    {
+      "id": "2601.06165",
+      "title": "What Users Leave Unsaid: Under-Specified Queries Limit Vision-Language Models",
+      "authors": [
+        "Dasol Choi",
+        "Guijin Son",
+        "Hanwool Lee",
+        "Minhyuk Kim",
+        "Hyunwoo Ko",
+        "Teabin Lim",
+        "Ahn Eungyeol",
+        "Jungwhan Kim",
+        "Seunghyeok Hong",
+        "Youngsook Song"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/HAE-RAE/HAERAE-VISION",
+      "published": "2026-01-07T02:33:03.000Z"
+    },
+    {
+      "id": "2601.07351",
+      "title": "Beyond Hard Masks: Progressive Token Evolution for Diffusion Language Models",
+      "authors": [
+        "Linhao Zhong",
+        "Linyu Wu",
+        "Bozhen Fang",
+        "Tianjian Feng",
+        "Chenchen Jing",
+        "Wen Wang",
+        "Jiaheng Zhang",
+        "Hao Chen",
+        "Chunhua Shen"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/aim-uofa/EvoTokenDLM",
+      "published": "2026-01-12T09:25:14.000Z"
+    },
+    {
+      "id": "2601.05110",
+      "title": "GlimpRouter: Efficient Collaborative Inference by Glimpsing One Token of Thoughts",
+      "authors": [
+        "Wenhao Zeng",
+        "Xuteng Zhang",
+        "Yuling Shi",
+        "Chao Hu",
+        "Yuting Chen",
+        "Beijun Shen",
+        "Xiaodong Gu"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/Zengwh02/GlimpRouter",
+      "published": "2026-01-08T16:58:07.000Z"
+    },
+    {
+      "id": "2601.06803",
+      "title": "Forest Before Trees: Latent Superposition for Efficient Visual Reasoning",
+      "authors": [
+        "Yubo Wang",
+        "Juntian Zhang",
+        "Yichen Wu",
+        "Yankai Lin",
+        "Nils Lukas",
+        "Yuhan Liu"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/ybb6/laser",
+      "published": "2026-01-11T08:30:49.000Z"
+    },
+    {
+      "id": "2601.07779",
+      "title": "OS-Symphony: A Holistic Framework for Robust and Generalist Computer-Using Agent",
+      "authors": [
+        "Bowen Yang",
+        "Kaiming Jin",
+        "Zhenyu Wu",
+        "Zhaoyang Liu",
+        "Qiushi Sun",
+        "Zehao Li",
+        "JingJing Xie",
+        "Zhoumianze Liu",
+        "Fangzhi Xu",
+        "Kanzhi Cheng",
+        "Qingyun Li",
+        "Yian Wang",
+        "Yu Qiao",
+        "Zun Wang",
+        "Zichen Ding"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/OS-Copilot/OS-Symphony",
+      "published": "2026-01-12T17:55:51.000Z"
+    },
+    {
+      "id": "2601.04698",
+      "title": "TourPlanner: A Competitive Consensus Framework with Constraint-Gated Reinforcement Learning for Travel Planning",
+      "authors": [
+        "Yinuo Wang",
+        "Mining Tan",
+        "Wenxiang Jiao",
+        "Xiaoxi Li",
+        "Hao Wang",
+        "Xuanyu Zhang",
+        "Yuan Lu",
+        "Weiming Dong"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2026-01-08T08:08:35.000Z"
+    },
+    {
+      "id": "2601.06966",
+      "title": "RealMem: Benchmarking LLMs in Real-World Memory-Driven Interaction",
+      "authors": [
+        "Haonan Bian",
+        "Zhiyuan Yao",
+        "Sen Hu",
+        "Zishan Xu",
+        "Shaolei Zhang",
+        "Yifu Guo",
+        "Ziliang Yang",
+        "Xueran Han",
+        "Huacan Wang",
+        "Ronghao Chen"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/AvatarMemory/RealMemBench",
+      "published": "2026-01-11T15:49:36.000Z"
+    },
+    {
+      "id": "2601.07376",
+      "title": "OpenTinker: Separating Concerns in Agentic Reinforcement Learning",
+      "authors": [
+        "Siqi Zhu",
+        "Jiaxuan You"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/open-tinker/OpenTinker",
+      "published": "2026-01-12T09:57:46.000Z"
+    },
+    {
+      "id": "2601.06788",
+      "title": "Artificial Entanglement in the Fine-Tuning of Large Language Models",
+      "authors": [
+        "Min Chen",
+        "Zihan Wang",
+        "Canyu Chen",
+        "Zeguan Wu",
+        "Manling Li",
+        "Junyu Liu"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2026-01-11T06:34:50.000Z"
+    },
+    {
+      "id": "2601.07767",
+      "title": "Are LLM Decisions Faithful to Verbal Confidence?",
+      "authors": [
+        "Jiawei Wang",
+        "Yanfei Zhou",
+        "Siddartha Devic",
+        "Deqing Fu"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2026-01-12T17:49:51.000Z"
+    },
+    {
+      "id": "2601.03666",
+      "title": "e5-omni: Explicit Cross-modal Alignment for Omni-modal Embeddings",
+      "authors": [
+        "Haonan Chen",
+        "Sicheng Gao",
+        "Radu Timofte",
+        "Tetsuya Sakai",
+        "Zhicheng Dou"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2026-01-07T07:39:40.000Z"
+    },
+    {
+      "id": "2601.06411",
+      "title": "Structured Episodic Event Memory",
+      "authors": [
+        "Zhengxuan Lu",
+        "Dongfang Li",
+        "Yukun Shi",
+        "Beilun Wang",
+        "Longyue Wang",
+        "Baotian Hu"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-01-10T03:17:25.000Z"
+    },
+    {
+      "id": "2601.07181",
+      "title": "ShowUI-Aloha: Human-Taught GUI Agent",
+      "authors": [
+        "Yichun Zhang",
+        "Xiangwu Guo",
+        "Yauhong Goh",
+        "Jessica Hu",
+        "Zhiheng Chen",
+        "Xin Wang",
+        "Difei Gao",
+        "Mike Zheng Shou"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/showlab/ShowUI-Aloha",
+      "published": "2026-01-12T04:04:20.000Z"
+    },
+    {
+      "id": "2601.07389",
+      "title": "On the Non-decoupling of Supervised Fine-tuning and Reinforcement Learning in Post-training",
+      "authors": [
+        "Xueyan Niu",
+        "Bo Bai",
+        "Wei Han",
+        "Weixi Zhang"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-01-12T10:14:09.000Z"
+    },
+    {
+      "id": "2601.03570",
+      "title": "How Do Large Language Models Learn Concepts During Continual Pre-Training?",
+      "authors": [
+        "Barry Menglong Yao",
+        "Sha Li",
+        "Yunzhi Yao",
+        "Minqian Liu",
+        "Zaishuo Xia",
+        "Qifan Wang",
+        "Lifu Huang"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-08-17T00:00:00.000Z"
+    },
+    {
+      "id": "2601.07239",
+      "title": "Stochastic CHAOS: Why Deterministic Inference Kills, and Distributional Variability Is the Heartbeat of Artifical Cognition",
+      "authors": [
+        "Tanmay Joshi",
+        "Shourya Aggarwal",
+        "Anusa Saha",
+        "Aadi Pandey",
+        "Shreyash Dhoot",
+        "Vighnesh Rai",
+        "Raxit Goswami",
+        "Aman Chadha",
+        "Vinija Jain",
+        "Amitava Das"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-01-12T06:19:09.000Z"
+    },
+    {
+      "id": "2601.04577",
+      "title": "Sci-Reasoning: A Dataset Decoding AI Innovation Patterns",
+      "authors": [
+        "Jiachen Liu",
+        "Maestro Harmon",
+        "Zechen Zhang"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/AmberLJC/Sci-Reasoning",
+      "published": "2026-01-08T04:12:47.000Z"
+    },
+    {
+      "id": "2601.06423",
+      "title": "Does Inference Scaling Improve Reasoning Faithfulness? A Multi-Model Analysis of Self-Consistency Tradeoffs",
+      "authors": [
+        "Deep Mehta"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-01-10T04:20:00.000Z"
+    },
+    {
+      "id": "2601.07786",
+      "title": "\"TODO: Fix the Mess Gemini Created\": Towards Understanding GenAI-Induced Self-Admitted Technical Debt",
+      "authors": [
+        "Abdullah Al Mujahid",
+        "Mia Mohammad Imran"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-01-12T17:59:34.000Z"
+    },
+    {
+      "id": "2601.07033",
+      "title": "Codified Foreshadowing-Payoff Text Generation",
+      "authors": [
+        "Longfei Yun",
+        "Kun Zhou",
+        "Yupeng Hou",
+        "Letian Peng",
+        "Jingbo Shang"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-01-11T19:05:37.000Z"
+    },
+    {
+      "id": "2601.07790",
+      "title": "Benchmarking Small Language Models and Small Reasoning Language Models on System Log Severity Classification",
+      "authors": [
+        "Yahya Masri",
+        "Emily Ma",
+        "Zifu Wang",
+        "Joseph Rogers",
+        "Chaowei Yang"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/stccenter/Benchmarking-SLMs-and-SRLMs-on-System-Log-Severity-Classification",
+      "published": "2026-01-12T18:02:33.000Z"
+    },
+    {
+      "id": "2601.05747",
+      "title": "FlyPose: Towards Robust Human Pose Estimation From Aerial Views",
+      "authors": [
+        "Hassaan Farooq",
+        "Marvin Brenner",
+        "Peter St\\ütz"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/farooqhassaan/FlyPose",
+      "published": "2026-01-09T12:01:36.000Z"
+    },
+    {
+      "id": "2601.06463",
+      "title": "Gecko: An Efficient Neural Architecture Inherently Processing Sequences with Arbitrary Lengths",
+      "authors": [
+        "Xuezhe Ma",
+        "Shicheng Wen",
+        "Linghao Jin",
+        "Bilge Acun",
+        "Ruihang Lai",
+        "Bohan Hou",
+        "Will Lin",
+        "Hao Zhang",
+        "Songlin Yang",
+        "Ryan Lee",
+        "Mengxi Wu",
+        "Jonathan May",
+        "Luke Zettlemoyer",
+        "Carole-Jean Wu"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/XuezheMax/gecko-llm",
+      "published": "2026-01-10T07:12:41.000Z"
+    },
+    {
+      "id": "2601.06747",
+      "title": "FinForge: Semi-Synthetic Financial Benchmark Generation",
+      "authors": [
+        "Glenn Matlin",
+        "Akhil Theerthala",
+        "Anant Gupta",
+        "Anirudh JM",
+        "Rayan Castilla",
+        "Yi Mei Ng",
+        "Sudheer Chava"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2026-01-11T01:38:33.000Z"
+    },
+    {
+      "id": "2601.06329",
+      "title": "On the Fallacy of Global Token Perplexity in Spoken Language Model Evaluation",
+      "authors": [
+        "Jeff Chan-Jan Sju",
+        "Liang-Hsuan Tseng",
+        "Yi-Cheng Lin",
+        "Yen-Chun Kuo",
+        "Ju-Chieh Chou",
+        "Kai-Wei Chang",
+        "Hung-yi Lee",
+        "Carlos Busso"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2026-01-09T22:01:56.000Z"
+    },
+    {
+      "id": "2601.06944",
+      "title": "SketchJudge: A Diagnostic Benchmark for Grading Hand-drawn Diagrams with Multimodal Large Language Models",
+      "authors": [
+        "Yuhang Su",
+        "Mei Wang",
+        "Yaoyao Zhong",
+        "Guozhang Li",
+        "Shixing Li",
+        "Yihan Feng",
+        "Hua Huang"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/yuhangsu82/SketchJudge",
+      "published": "2026-01-11T15:08:05.000Z"
+    },
+    {
+      "id": "2601.06238",
+      "title": "SPINAL -- Scaling-law and Preference Integration in Neural Alignment Layers",
+      "authors": [
+        "Arion Das",
+        "Partha Pratim Saha",
+        "Amit Dhanda",
+        "Vinija Jain",
+        "Aman Chadha",
+        "Amitava Das"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2026-01-08T17:47:12.000Z"
+    },
+    {
+      "id": "2601.06307",
+      "title": "A Rising Tide Lifts All Boats: MTQE Rewards for Idioms Improve General Translation Quality",
+      "authors": [
+        "Ishika Agarwal",
+        "Zhenlin He",
+        "Dhruva Patil",
+        "Dilek Hakkani-Tür"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2026-01-09T20:55:09.000Z"
+    },
+    {
+      "id": "2601.06993",
+      "title": "Can Textual Reasoning Improve the Performance of MLLMs on Fine-grained Visual Classification?",
+      "authors": [
+        "Jie Zhu",
+        "Yiyang Su",
+        "Xiaoming Liu"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/jiezhu23/ReFine-RFT",
+      "published": "2026-01-11T17:07:47.000Z"
+    },
+    {
+      "id": "2601.06496",
+      "title": "3D CoCa v2: Contrastive Learners with Test-Time Search for Generalizable Spatial Intelligence",
+      "authors": [
+        "Hao Tang",
+        "Ting Huang",
+        "Zeyu Zhang"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/AIGeeksGroup/3DCoCav2",
+      "published": "2026-01-10T09:13:10.000Z"
+    }
+  ]
+}

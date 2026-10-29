@@ -1,0 +1,380 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-01-29",
+  "fetched_at": "2026-10-29T15:34:33.319Z",
+  "candidates": [
+    {
+      "id": "2601.20540",
+      "title": "Advancing Open-source World Models",
+      "authors": [
+        "Robbyant Team",
+        "Zelin Gao",
+        "Qiuyu Wang",
+        "Yanhong Zeng",
+        "Jiapeng Zhu",
+        "Ka Leong Cheng",
+        "Yixuan Li",
+        "Hanlin Wang",
+        "Yinghao Xu",
+        "Shuailei Ma",
+        "Yihang Chen",
+        "Jie Liu",
+        "Yansong Cheng",
+        "Yao Yao",
+        "Jiayi Zhu",
+        "Yihao Meng",
+        "Kecheng Zheng",
+        "Qingyan Bai",
+        "Jingye Chen",
+        "Zehong Shen",
+        "Yue Yu",
+        "Xing Zhu",
+        "Yujun Shen",
+        "Hao Ouyang"
+      ],
+      "upvotes": 135,
+      "github": "https://github.com/Robbyant/lingbot-world",
+      "published": "2026-01-28T12:37:01.000Z"
+    },
+    {
+      "id": "2601.20614",
+      "title": "Harder Is Better: Boosting Mathematical Reasoning via Difficulty-Aware GRPO and Multi-Aspect Question Reformulation",
+      "authors": [
+        "Yanqi Dai",
+        "Yuxiang Ji",
+        "Xiao Zhang",
+        "Yong Wang",
+        "Xiangxiang Chu",
+        "Zhiwu Lu"
+      ],
+      "upvotes": 118,
+      "github": "https://github.com/AMAP-ML/MathForge",
+      "published": "2026-01-28T13:49:23.000Z"
+    },
+    {
+      "id": "2601.19325",
+      "title": "Innovator-VL: A Multimodal Large Language Model for Scientific Discovery",
+      "authors": [
+        "Zichen Wen",
+        "Boxue Yang",
+        "Shuang Chen",
+        "Yaojie Zhang",
+        "Yuhang Han",
+        "Junlong Ke",
+        "Cong Wang",
+        "Yicheng Fu",
+        "Jiawang Zhao",
+        "Jiangchao Yao",
+        "Xi Fang",
+        "Zhen Wang",
+        "Henxing Cai",
+        "Lin Yao",
+        "Zhifeng Gao",
+        "Yanhui Hong",
+        "Nang Yuan",
+        "Yixuan Li",
+        "Guojiang Zhao",
+        "Haoyi Tao",
+        "Nan Wang",
+        "Han Lyu",
+        "Guolin Ke",
+        "Ning Liao",
+        "Xiaoxing Wang",
+        "Kai Chen",
+        "Zhiyu Li",
+        "Feiyu Xiong",
+        "Sihan Hu",
+        "Kun Chen",
+        "Yanfeng Wang",
+        "Weinan E",
+        "Linfeng Zhang",
+        "Linfeng Zhang"
+      ],
+      "upvotes": 85,
+      "github": "https://github.com/InnovatorLM/Innovator-VL",
+      "published": "2026-01-27T08:12:18.000Z"
+    },
+    {
+      "id": "2601.20552",
+      "title": "DeepSeek-OCR 2: Visual Causal Flow",
+      "authors": [
+        "Haoran Wei",
+        "Yaofeng Sun",
+        "Yukun Li"
+      ],
+      "upvotes": 76,
+      "github": "https://github.com/deepseek-ai/DeepSeek-OCR-2",
+      "published": "2026-01-28T12:46:07.000Z"
+    },
+    {
+      "id": "2601.20802",
+      "title": "Reinforcement Learning via Self-Distillation",
+      "authors": [
+        "Jonas Hübotter",
+        "Frederike Lübeck",
+        "Lejs Behric",
+        "Anton Baumann",
+        "Marco Bagatella",
+        "Daniel Marta",
+        "Ido Hakimi",
+        "Idan Shenfeld",
+        "Thomas Kleine Buening",
+        "Carlos Guestrin",
+        "Andreas Krause"
+      ],
+      "upvotes": 50,
+      "github": "https://github.com/lasgroup/SDPO",
+      "published": "2026-01-28T17:45:12.000Z"
+    },
+    {
+      "id": "2601.20209",
+      "title": "Spark: Strategic Policy-Aware Exploration via Dynamic Branching for Long-Horizon Agentic Learning",
+      "authors": [
+        "Jinyang Wu",
+        "Shuo Yang",
+        "Changpeng Yang",
+        "Yuhao Shen",
+        "Shuai Zhang",
+        "Zhengqi Wen",
+        "Jianhua Tao"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/jinyangwu/SPARK",
+      "published": "2026-01-28T03:15:34.000Z"
+    },
+    {
+      "id": "2601.20834",
+      "title": "Linear representations in language models can change dramatically over a conversation",
+      "authors": [
+        "Andrew Kyle Lampinen",
+        "Yuxuan Li",
+        "Eghbal Hosseini",
+        "Sangnie Bhardwaj",
+        "Murray Shanahan"
+      ],
+      "upvotes": 21,
+      "github": null,
+      "published": "2026-01-28T18:33:17.000Z"
+    },
+    {
+      "id": "2601.19494",
+      "title": "AACR-Bench: Evaluating Automatic Code Review with Holistic Repository-Level Context",
+      "authors": [
+        "Lei Zhang",
+        "Yongda Yu",
+        "Minghui Yu",
+        "Xinxin Guo",
+        "Zhengqi Zhuang",
+        "Guoping Rong",
+        "Dong Shao",
+        "Haifeng Shen",
+        "Hongyu Kuang",
+        "Zhengfeng Li",
+        "Boge Wang",
+        "Guoan Zhang",
+        "Bangyu Xiang",
+        "Xiaobin Xu"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/alibaba/aacr-bench",
+      "published": "2026-01-27T11:28:44.000Z"
+    },
+    {
+      "id": "2601.20789",
+      "title": "SERA: Soft-Verified Efficient Repository Agents",
+      "authors": [
+        "Ethan Shen",
+        "Danny Tormoen",
+        "Saurabh Shah",
+        "Ali Farhadi",
+        "Tim Dettmers"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/allenai/SERA",
+      "published": "2026-01-28T17:27:08.000Z"
+    },
+    {
+      "id": "2601.18150",
+      "title": "FP8-RL: A Practical and Stable Low-Precision Stack for LLM Reinforcement Learning",
+      "authors": [
+        "Zhaopeng Qiu",
+        "Shuang Yu",
+        "Jingqi Zhang",
+        "Shuai Zhang",
+        "Xue Huang",
+        "Jingyi Yang",
+        "Junjie Lai"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2026-01-26T05:12:05.000Z"
+    },
+    {
+      "id": "2601.20245",
+      "title": "How AI Impacts Skill Formation",
+      "authors": [
+        "Judy Hanwen Shen",
+        "Alex Tamkin"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2026-01-28T04:40:43.000Z"
+    },
+    {
+      "id": "2601.20380",
+      "title": "OmegaUse: Building a General-Purpose GUI Agent for Autonomous Task Execution",
+      "authors": [
+        "Le Zhang",
+        "Yixiong Xiao",
+        "Xinjiang Lu",
+        "Jingjia Cao",
+        "Yusai Zhao",
+        "Jingbo Zhou",
+        "Lang An",
+        "Zikan Feng",
+        "Wanxiang Sha",
+        "Yu Shi",
+        "Congxi Xiao",
+        "Jian Xiong",
+        "Yankai Zhang",
+        "Hua Wu",
+        "Haifeng Wang"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2026-01-28T08:45:17.000Z"
+    },
+    {
+      "id": "2601.19280",
+      "title": "Group Distributionally Robust Optimization-Driven Reinforcement Learning for LLM Reasoning",
+      "authors": [
+        "Kishan Panaganti",
+        "Zhenwen Liang",
+        "Wenhao Yu",
+        "Haitao Mi",
+        "Dong Yu"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2026-01-27T07:10:41.000Z"
+    },
+    {
+      "id": "2601.20055",
+      "title": "VERGE: Formal Refinement and Guidance Engine for Verifiable LLM Reasoning",
+      "authors": [
+        "Vikash Singh",
+        "Darion Cassel",
+        "Nathaniel Weir",
+        "Nick Feng",
+        "Sam Bayless"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2026-01-27T20:59:11.000Z"
+    },
+    {
+      "id": "2601.20829",
+      "title": "Training Reasoning Models on Saturated Problems via Failure-Prefix Conditioning",
+      "authors": [
+        "Minwu Kim",
+        "Safal Shrestha",
+        "Keith Ross"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/minwukim/training-on-saturated-problems",
+      "published": "2026-01-28T18:29:21.000Z"
+    },
+    {
+      "id": "2601.17950",
+      "title": "UPLiFT: Efficient Pixel-Dense Feature Upsampling with Local Attenders",
+      "authors": [
+        "Matthew Walmer",
+        "Saksham Suri",
+        "Anirud Aggarwal",
+        "Abhinav Shrivastava"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/mwalmer-umd/UPLiFT",
+      "published": "2026-01-25T18:59:45.000Z"
+    },
+    {
+      "id": "2601.20757",
+      "title": "Persona Prompting as a Lens on LLM Social Reasoning",
+      "authors": [
+        "Jing Yang",
+        "Moritz Hechtbauer",
+        "Elisabeth Khalilov",
+        "Evelyn Luise Brinkmann",
+        "Vera Schmitt",
+        "Nils Feldhus"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/jingyng/PP-social-reasoning",
+      "published": "2026-01-28T16:41:17.000Z"
+    },
+    {
+      "id": "2601.19194",
+      "title": "SE-DiCoW: Self-Enrolled Diarization-Conditioned Whisper",
+      "authors": [
+        "Alexander Polok",
+        "Dominik Klement",
+        "Samuele Cornell",
+        "Matthew Wiesner",
+        "Jan Černocký",
+        "Sanjeev Khudanpur",
+        "Lukáš Burget"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-01-27T04:51:07.000Z"
+    },
+    {
+      "id": "2601.19949",
+      "title": "RIR-Mega-Speech: A Reverberant Speech Corpus with Comprehensive Acoustic Metadata and Reproducible Evaluation",
+      "authors": [
+        "Mandip Goswami"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/mandip42/rir-mega-speech",
+      "published": "2026-01-25T22:17:18.000Z"
+    },
+    {
+      "id": "2601.20262",
+      "title": "Shallow-π: Knowledge Distillation for Flow-based VLAs",
+      "authors": [
+        "Boseong Jeon",
+        "Yunho Choi",
+        "Taehan Kim"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/icsl-Jeon/openpi",
+      "published": "2026-01-28T05:16:26.000Z"
+    },
+    {
+      "id": "2601.20622",
+      "title": "SketchDynamics: Exploring Free-Form Sketches for Dynamic Intent Expression in Animation Generation",
+      "authors": [
+        "Boyu Li",
+        "Lin-Ping Yuan",
+        "Zeyu Wang",
+        "Hongbo Fu"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2026-01-28T13:55:36.000Z"
+    },
+    {
+      "id": "2601.20618",
+      "title": "GDCNet: Generative Discrepancy Comparison Network for Multimodal Sarcasm Detection",
+      "authors": [
+        "Shuguang Zhang",
+        "Junhong Lian",
+        "Guoxin Yu",
+        "Baoxun Xu",
+        "Xiang Ao"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2026-01-28T13:51:34.000Z"
+    }
+  ]
+}

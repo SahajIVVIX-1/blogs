@@ -1,0 +1,368 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-06-21",
+  "fetched_at": "2026-10-29T15:28:11.601Z",
+  "candidates": [
+    {
+      "id": "2406.14347",
+      "title": "nabla^2DFT: A Universal Quantum Chemistry Dataset of Drug-Like Molecules and a Benchmark for Neural Network Potentials",
+      "authors": [
+        "Kuzma Khrabrov",
+        "Anton Ber",
+        "Artem Tsypin",
+        "Konstantin Ushenin",
+        "Egor Rumiantsev",
+        "Alexander Telepov",
+        "Dmitry Protasov",
+        "Ilya Shenbin",
+        "Anton Alekseev",
+        "Mikhail Shirokikh",
+        "Sergey Nikolenko",
+        "Elena Tutubalina",
+        "Artur Kadurin"
+      ],
+      "upvotes": 102,
+      "github": "https://github.com/AIRI-Institute/nablaDFT",
+      "published": "2024-06-20T14:14:59.000Z"
+    },
+    {
+      "id": "2406.14491",
+      "title": "Instruction Pre-Training: Language Models are Supervised Multitask Learners",
+      "authors": [
+        "Daixuan Cheng",
+        "Yuxian Gu",
+        "Shaohan Huang",
+        "Junyu Bi",
+        "Minlie Huang",
+        "Furu Wei"
+      ],
+      "upvotes": 96,
+      "github": "https://github.com/microsoft/LMOps",
+      "published": "2024-06-20T16:55:33.000Z"
+    },
+    {
+      "id": "2406.10601",
+      "title": "The Devil is in the Details: StyleFeatureEditor for Detail-Rich StyleGAN Inversion and High Quality Image Editing",
+      "authors": [
+        "Denis Bobkov",
+        "Vadim Titov",
+        "Aibek Alanov",
+        "Dmitry Vetrov"
+      ],
+      "upvotes": 69,
+      "github": "https://github.com/airi-institute/stylefeatureeditor",
+      "published": "2024-06-15T11:28:32.000Z"
+    },
+    {
+      "id": "2406.11410",
+      "title": "HARE: HumAn pRiors, a key to small language model Efficiency",
+      "authors": [
+        "Lingyun Zhang",
+        "Bin jin",
+        "Gaojian Ge",
+        "Lunhui Liu",
+        "Xuewen Shen",
+        "Mingyong Wu",
+        "Houqian Zhang",
+        "Yongneng Jiang",
+        "Shiqi Chen",
+        "Shi Pu"
+      ],
+      "upvotes": 40,
+      "github": null,
+      "published": "2024-06-17T10:56:03.000Z"
+    },
+    {
+      "id": "2406.14544",
+      "title": "Prism: A Framework for Decoupling and Assessing the Capabilities of VLMs",
+      "authors": [
+        "Yuxuan Qiao",
+        "Haodong Duan",
+        "Xinyu Fang",
+        "Junming Yang",
+        "Lin Chen",
+        "Songyang Zhang",
+        "Jiaqi Wang",
+        "Dahua Lin",
+        "Kai Chen"
+      ],
+      "upvotes": 35,
+      "github": "https://github.com/sparksjoe/prism",
+      "published": "2024-06-20T17:54:03.000Z"
+    },
+    {
+      "id": "2406.14515",
+      "title": "MMBench-Video: A Long-Form Multi-Shot Benchmark for Holistic Video Understanding",
+      "authors": [
+        "Xinyu Fang",
+        "Kangrui Mao",
+        "Haodong Duan",
+        "Xiangyu Zhao",
+        "Yining Li",
+        "Dahua Lin",
+        "Kai Chen"
+      ],
+      "upvotes": 33,
+      "github": null,
+      "published": "2024-06-20T17:26:01.000Z"
+    },
+    {
+      "id": "2406.14563",
+      "title": "Model Merging and Safety Alignment: One Bad Model Spoils the Bunch",
+      "authors": [
+        "Hasan Abed Al Kader Hammoud",
+        "Umberto Michieli",
+        "Fabio Pizzati",
+        "Philip Torr",
+        "Adel Bibi",
+        "Bernard Ghanem",
+        "Mete Ozay"
+      ],
+      "upvotes": 30,
+      "github": null,
+      "published": "2024-06-20T17:59:58.000Z"
+    },
+    {
+      "id": "2406.14562",
+      "title": "Whiteboard-of-Thought: Thinking Step-by-Step Across Modalities",
+      "authors": [
+        "Sachit Menon",
+        "Richard Zemel",
+        "Carl Vondrick"
+      ],
+      "upvotes": 28,
+      "github": null,
+      "published": "2024-06-20T17:59:45.000Z"
+    },
+    {
+      "id": "2406.14539",
+      "title": "Invertible Consistency Distillation for Text-Guided Image Editing in Around 7 Steps",
+      "authors": [
+        "Nikita Starodubcev",
+        "Mikhail Khoroshikh",
+        "Artem Babenko",
+        "Dmitry Baranchuk"
+      ],
+      "upvotes": 27,
+      "github": null,
+      "published": "2024-06-20T17:49:11.000Z"
+    },
+    {
+      "id": "2406.12925",
+      "title": "GLiNER multi-task: Generalist Lightweight Model for Various Information Extraction Tasks",
+      "authors": [
+        "Ihor Stepanov",
+        "Mykhailo Shtopko"
+      ],
+      "upvotes": 25,
+      "github": null,
+      "published": "2024-06-14T13:54:29.000Z"
+    },
+    {
+      "id": "2406.13923",
+      "title": "PIN: A Knowledge-Intensive Dataset for Paired and Interleaved Multimodal Documents",
+      "authors": [
+        "Junjie Wang",
+        "Yin Zhang",
+        "Yatai Ji",
+        "Yuxiang Zhang",
+        "Chunyang Jiang",
+        "Yubo Wang",
+        "Kang Zhu",
+        "Zekun Wang",
+        "Tiezhen Wang",
+        "Wenhao Huang",
+        "Jie Fu",
+        "Bei Chen",
+        "Qunshu Lin",
+        "Minghao Liu",
+        "Ge Zhang",
+        "Wenhu Chen"
+      ],
+      "upvotes": 25,
+      "github": null,
+      "published": "2024-06-20T01:43:08.000Z"
+    },
+    {
+      "id": "2406.11896",
+      "title": "DigiRL: Training In-The-Wild Device-Control Agents with Autonomous Reinforcement Learning",
+      "authors": [
+        "Hao Bai",
+        "Yifei Zhou",
+        "Mert Cemri",
+        "Jiayi Pan",
+        "Alane Suhr",
+        "Sergey Levine",
+        "Aviral Kumar"
+      ],
+      "upvotes": 20,
+      "github": null,
+      "published": "2024-06-14T17:49:55.000Z"
+    },
+    {
+      "id": "2406.13542",
+      "title": "Self-play with Execution Feedback: Improving Instruction-following Capabilities of Large Language Models",
+      "authors": [
+        "Guanting Dong",
+        "Keming Lu",
+        "Chengpeng Li",
+        "Tingyu Xia",
+        "Bowen Yu",
+        "Chang Zhou",
+        "Jingren Zhou"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/QwenLM/AutoIF",
+      "published": "2024-06-19T13:29:53.000Z"
+    },
+    {
+      "id": "2406.14319",
+      "title": "LiveMind: Low-latency Large Language Models with Simultaneous Inference",
+      "authors": [
+        "Chuangtao Chen",
+        "Grace Li Zhang",
+        "Xunzhao Yin",
+        "Cheng Zhuo",
+        "Ulf Schlichtmann",
+        "Bing Li"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/chuangtaochen-tum/livemind",
+      "published": "2024-06-20T13:52:30.000Z"
+    },
+    {
+      "id": "2406.13621",
+      "title": "Improving Visual Commonsense in Language Models via Multiple Image Generation",
+      "authors": [
+        "Guy Yariv",
+        "Idan Schwartz",
+        "Yossi Adi",
+        "Sagie Benaim"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/guyyariv/vlmig",
+      "published": "2024-06-19T15:17:10.000Z"
+    },
+    {
+      "id": "2406.11817",
+      "title": "Iterative Length-Regularized Direct Preference Optimization: A Case Study on Improving 7B Language Models to GPT-4 Level",
+      "authors": [
+        "Jie Liu",
+        "Zhanhui Zhou",
+        "Jiaheng Liu",
+        "Xingyuan Bu",
+        "Chao Yang",
+        "Han-Sen Zhong",
+        "Wanli Ouyang"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2024-06-17T17:55:38.000Z"
+    },
+    {
+      "id": "2406.12045",
+      "title": "τ-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains",
+      "authors": [
+        "Shunyu Yao",
+        "Noah Shinn",
+        "Pedram Razavi",
+        "Karthik Narasimhan"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/sierra-research/tau-bench",
+      "published": "2024-06-17T19:33:08.000Z"
+    },
+    {
+      "id": "2406.11927",
+      "title": "REPOEXEC: Evaluate Code Generation with a Repository-Level Executable Benchmark",
+      "authors": [
+        "Nam Le Hai",
+        "Dung Manh Nguyen",
+        "Nghi D. Q. Bui"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/FSoft-AI4Code/RepoExec",
+      "published": "2024-06-17T10:45:22.000Z"
+    },
+    {
+      "id": "2406.14130",
+      "title": "ExVideo: Extending Video Diffusion Models via Parameter-Efficient Post-Tuning",
+      "authors": [
+        "Zhongjie Duan",
+        "Wenmeng Zhou",
+        "Cen Chen",
+        "Yaliang Li",
+        "Weining Qian"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/modelscope/DiffSynth-Studio",
+      "published": "2024-06-20T09:18:54.000Z"
+    },
+    {
+      "id": "2406.13735",
+      "title": "StableSemantics: A Synthetic Language-Vision Dataset of Semantic Representations in Naturalistic Images",
+      "authors": [
+        "Rushikesh Zawar",
+        "Shaurya Dewan",
+        "Andrew F. Luo",
+        "Margaret M. Henderson",
+        "Michael J. Tarr",
+        "Leila Wehbe"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2024-06-19T17:59:40.000Z"
+    },
+    {
+      "id": "2406.13663",
+      "title": "Model Internals-based Answer Attribution for Trustworthy Retrieval-Augmented Generation",
+      "authors": [
+        "Jirui Qi",
+        "Gabriele Sarti",
+        "Raquel Fernández",
+        "Arianna Bisazza"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/Betswish/MIRAGE",
+      "published": "2024-06-19T16:10:26.000Z"
+    },
+    {
+      "id": "2406.11289",
+      "title": "A Systematic Survey of Text Summarization: From Statistical Methods to Large Language Models",
+      "authors": [
+        "Haopeng Zhang",
+        "Philip S. Yu",
+        "Jiawei Zhang"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2024-06-17T07:52:32.000Z"
+    },
+    {
+      "id": "2406.12618",
+      "title": "From Insights to Actions: The Impact of Interpretability and Analysis Research on NLP",
+      "authors": [
+        "Marius Mosbach",
+        "Vagrant Gautam",
+        "Tomás Vergara-Browne",
+        "Dietrich Klakow",
+        "Mor Geva"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/mmarius/interpretability-impact",
+      "published": "2024-06-18T13:45:07.000Z"
+    },
+    {
+      "id": "2406.13099",
+      "title": "Sampling 3D Gaussian Scenes in Seconds with Latent Diffusion Models",
+      "authors": [
+        "Paul Henderson",
+        "Melonie de Almeida",
+        "Daniela Ivanova",
+        "Titas Anciukevičius"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2024-06-18T23:14:29.000Z"
+    }
+  ]
+}

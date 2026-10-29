@@ -1,0 +1,80 @@
+0.2.0
+https://github.com/langchain-ai/langgraph/releases/tag/0.2.0
+via: https://github.com/langchain-ai/langgraph/releases/tag/0.2.0
+fetched_at: 2026-10-29T22:03:07.799Z
+publisher: GitHub · langchain-ai/langgraph
+
+# LangGraph v0.2.0
+
+We've released LangGraph v0.2 for increased customization with new checkpointer libraries.
+
+LangGraph v0.2 allows you to tailor stateful LangGraph apps to your custom needs. Using a checkpointer, you can manage the graph state and build resilient LLM apps with session memory, robust error recovery, and human-in-the-loop capabilities. 
+
+We now have a suite of new, dedicated checkpointer libraries:
+
+- `langgraph_checkpoint`  : The base interface for checkpointer savers (`BaseCheckpointSaver` ) and serialization/deserialization interface (`SerializationProtocol`). Includes in-memory checkpointer implementation (`MemorySaver`) for experimentation.
+- `langgraph_checkpoint_sqlite` : An implementation of LangGraph checkpointer that uses SQLite database. Ideal for experimentation and local workflows.
+- `langgraph_checkpoint_postgres` : Our advanced checkpointer that we wrote and optimized for Postgres in LangGraph Cloud is now open-sourced and available to the community to build upon. Ideal for using in production.
+
+Since LangGraph checkpointer libraries are implemented as namespace packages, you can import checkpointer interfaces and implementations the same way as before, using:
+
+- `from langgraph.checkpoint.base import BaseCheckpointSaver`
+- `from langgraph.checkpoint.memory import MemorySaver`
+- `from langgraph.checkpoint.sqlite import SqliteSaver`
+- `from langgraph.checkpoint.postgres import PostgresSaver`
+
+Since Sqlite and Postgres checkpointers are provided via separate libraries, you would need to install them using `pip install langgraph-checkpoint-sqlite` or `pip install langgraph-checkpoint-postgres`.
+
+### Breaking changes
+
+LangGraph v0.2 introduces several breaking changes:
+
+- `thread_ts` and `parent_ts` have been renamed to `checkpoint_id` and `parent_checkpoint_id` , respectively (via `langgraph_checkpoint==1.0.0`).
+    - Note: LangGraph checkpointers still recognize `thread_ts` if passed via config and treat it as `checkpoint_id`
+- re-exported imports like `from langgraph.checkpoint import BaseCheckpointSaver` are no longer possible due to the use of namespace packages. instead, use `from langgraph.checkpoint.base import BaseCheckpointSaver`
+- Sqlite checkpointers have been moved to a separate library, so you’ll need to install it separately using `pip install langgraph-checkpoint-sqlite`
+- `.from_conn_string` method of `SqliteSaver` / `AsyncSqliteSaver` is now a context manager
+- new parameter `new_versions` in `BaseCheckpointSaver.put` - can be used for further optimizing your checkpointer, see `langgraph-checkpoint-postgres`
+- Graph stream output now includes outputs from all nodes ran, even if they returned no writes to the state channels. For example:
+
+```python
+from typing import TypedDict
+from langgraph.graph.state import StateGraph
+
+class State(TypedDict):
+    a: str
+
+def node_1(state):
+    # node that doesn't update state
+    pass
+
+def node_2(state):
+    return state
+
+graph = StateGraph(State)
+graph.add_node("node_1", node_1)
+graph.add_node("node_2", node_2)
+graph.set_entry_point("node_1")
+graph.set_finish_point("node_2")
+graph.add_edge("node_1", "node_2")
+app = graph.compile()
+
+for chunk in app.stream({"a": "meow"}):
+    print(chunk)
+    
+# Before    
+
+{'node_2': {'a': 'meow'}}
+
+# After
+
+{'node_1': None}
+{'node_2': {'a': 'meow'}}
+```
+
+### Deprecations
+
+Removed in 0.2:
+
+- `langgraph.prebuilt.chat_agent_executor.create_function_calling_executor` — use `langgraph.prebuilt.chat_agent_executor.create_react_agent` instead
+- `langgraph.prebuilt.agent_executor` — use `langgraph.prebuilt.chat_agent_executor.create_react_agent` instead

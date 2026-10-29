@@ -1,0 +1,467 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-02-10",
+  "fetched_at": "2026-10-29T15:30:34.007Z",
+  "candidates": [
+    {
+      "id": "2502.05171",
+      "title": "Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach",
+      "authors": [
+        "Jonas Geiping",
+        "Sean McLeish",
+        "Neel Jain",
+        "John Kirchenbauer",
+        "Siddharth Singh",
+        "Brian R. Bartoldson",
+        "Bhavya Kailkhura",
+        "Abhinav Bhatele",
+        "Tom Goldstein"
+      ],
+      "upvotes": 165,
+      "github": "https://github.com/seal-rg/recurrent-pretraining",
+      "published": "2025-02-07T18:55:02.000Z"
+    },
+    {
+      "id": "2502.04896",
+      "title": "Goku: Flow Based Video Generative Foundation Models",
+      "authors": [
+        "Shoufa Chen",
+        "Chongjian Ge",
+        "Yuqi Zhang",
+        "Yida Zhang",
+        "Fengda Zhu",
+        "Hao Yang",
+        "Hongxiang Hao",
+        "Hui Wu",
+        "Zhichao Lai",
+        "Yifei Hu",
+        "Ting-Che Lin",
+        "Shilong Zhang",
+        "Fu Li",
+        "Chuan Li",
+        "Xing Wang",
+        "Yanghua Peng",
+        "Peize Sun",
+        "Ping Luo",
+        "Yi Jiang",
+        "Zehuan Yuan",
+        "Bingyue Peng",
+        "Xiaobing Liu"
+      ],
+      "upvotes": 106,
+      "github": "https://github.com/saiyan-world/goku",
+      "published": "2025-02-07T13:03:55.000Z"
+    },
+    {
+      "id": "2502.05173",
+      "title": "VideoRoPE: What Makes for Good Video Rotary Position Embedding?",
+      "authors": [
+        "Xilin Wei",
+        "Xiaoran Liu",
+        "Yuhang Zang",
+        "Xiaoyi Dong",
+        "Pan Zhang",
+        "Yuhang Cao",
+        "Jian Tong",
+        "Haodong Duan",
+        "Qipeng Guo",
+        "Jiaqi Wang",
+        "Xipeng Qiu",
+        "Dahua Lin"
+      ],
+      "upvotes": 64,
+      "github": "https://github.com/Wiselnn570/VideoRoPE",
+      "published": "2025-02-07T18:56:04.000Z"
+    },
+    {
+      "id": "2502.04507",
+      "title": "Fast Video Generation with Sliding Tile Attention",
+      "authors": [
+        "Peiyuan Zhang",
+        "Yongqi Chen",
+        "Runlong Su",
+        "Hangliang Ding",
+        "Ion Stoica",
+        "Zhenghong Liu",
+        "Hao Zhang"
+      ],
+      "upvotes": 50,
+      "github": null,
+      "published": "2025-02-06T21:17:09.000Z"
+    },
+    {
+      "id": "2502.05003",
+      "title": "QuEST: Stable Training of LLMs with 1-Bit Weights and Activations",
+      "authors": [
+        "Andrei Panferov",
+        "Jiale Chen",
+        "Soroush Tabesh",
+        "Roberto L. Castro",
+        "Mahdi Nikdan",
+        "Dan Alistarh"
+      ],
+      "upvotes": 48,
+      "github": "https://github.com/IST-DASLab/QuEST",
+      "published": "2025-02-07T15:23:34.000Z"
+    },
+    {
+      "id": "2502.05176",
+      "title": "AuraFusion360: Augmented Unseen Region Alignment for Reference-based 360° Unbounded Scene Inpainting",
+      "authors": [
+        "Chung-Ho Wu",
+        "Yang-Jung Chen",
+        "Ying-Huan Chen",
+        "Jie-Ying Lee",
+        "Bo-Hsu Ke",
+        "Chun-Wei Tuan Mu",
+        "Yi-Chuan Huang",
+        "Chin-Yang Lin",
+        "Min-Hung Chen",
+        "Yen-Yu Lin",
+        "Yu-Lun Liu"
+      ],
+      "upvotes": 40,
+      "github": "https://github.com/kkennethwu/AuraFusion360_official",
+      "published": "2025-02-07T18:59:55.000Z"
+    },
+    {
+      "id": "2502.04404",
+      "title": "Step Back to Leap Forward: Self-Backtracking for Boosting Reasoning of Language Models",
+      "authors": [
+        "Xiao-Wen Yang",
+        "Xuan-Yi Zhu",
+        "Wen-Da Wei",
+        "Ding-Chu Zhang",
+        "Jie-Jing Shao",
+        "Zhi Zhou",
+        "Lan-Zhe Guo",
+        "Yu-Feng Li"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/LAMDASZ-ML/Self-Backtracking",
+      "published": "2025-02-06T08:52:43.000Z"
+    },
+    {
+      "id": "2502.05179",
+      "title": "FlashVideo:Flowing Fidelity to Detail for Efficient High-Resolution Video Generation",
+      "authors": [
+        "Shilong Zhang",
+        "Wenbo Li",
+        "Shoufa Chen",
+        "Chongjian Ge",
+        "Peize Sun",
+        "Yida Zhang",
+        "Yi Jiang",
+        "Zehuan Yuan",
+        "Binyue Peng",
+        "Ping Luo"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/FoundationVision/FlashVideo",
+      "published": "2025-02-07T18:59:59.000Z"
+    },
+    {
+      "id": "2502.04403",
+      "title": "Agency Is Frame-Dependent",
+      "authors": [
+        "David Abel",
+        "André Barreto",
+        "Michael Bowling",
+        "Will Dabney",
+        "Shi Dong",
+        "Steven Hansen",
+        "Anna Harutyunyan",
+        "Khimya Khetarpal",
+        "Clare Lyle",
+        "Razvan Pascanu",
+        "Georgios Piliouras",
+        "Doina Precup",
+        "Jonathan Richens",
+        "Mark Rowland",
+        "Tom Schaul",
+        "Satinder Singh"
+      ],
+      "upvotes": 23,
+      "github": null,
+      "published": "2025-02-06T08:34:57.000Z"
+    },
+    {
+      "id": "2502.05163",
+      "title": "DuoGuard: A Two-Player RL-Driven Framework for Multilingual LLM Guardrails",
+      "authors": [
+        "Yihe Deng",
+        "Yu Yang",
+        "Junkai Zhang",
+        "Wei Wang",
+        "Bo Li"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/yihedeng9/duoguard",
+      "published": "2025-02-07T18:45:03.000Z"
+    },
+    {
+      "id": "2502.04728",
+      "title": "Generating Symbolic World Models via Test-time Scaling of Large Language Models",
+      "authors": [
+        "Zhouliang Yu",
+        "Yuhuan Yuan",
+        "Tim Z. Xiao",
+        "Fuxiang Frank Xia",
+        "Jie Fu",
+        "Ge Zhang",
+        "Ge Lin",
+        "Weiyang Liu"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/VMLPDDL/VML_PDDL",
+      "published": "2025-02-07T07:52:25.000Z"
+    },
+    {
+      "id": "2502.04959",
+      "title": "No Task Left Behind: Isotropic Model Merging with Common and Task-Specific Subspaces",
+      "authors": [
+        "Daniel Marczak",
+        "Simone Magistri",
+        "Sebastian Cygert",
+        "Bartłomiej Twardowski",
+        "Andrew D. Bagdanov",
+        "Joost van de Weijer"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/danielm1405/iso-merging",
+      "published": "2025-02-07T14:22:56.000Z"
+    },
+    {
+      "id": "2502.04363",
+      "title": "On-device Sora: Enabling Diffusion-Based Text-to-Video Generation for Mobile Devices",
+      "authors": [
+        "Bosung Kim",
+        "Kyuhwan Lee",
+        "Isu Jeong",
+        "Jungmin Cheon",
+        "Yeojin Lee",
+        "Seulki Lee"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/eai-lab/On-device-Sora",
+      "published": "2025-02-05T05:42:29.000Z"
+    },
+    {
+      "id": "2502.04416",
+      "title": "CMoE: Fast Carving of Mixture-of-Experts for Efficient LLM Inference",
+      "authors": [
+        "Zehua Pei",
+        "Lancheng Zou",
+        "Hui-Ling Zhen",
+        "Xianzhi Yu",
+        "Wulong Liu",
+        "Sinno Jialin Pan",
+        "Mingxuan Yuan",
+        "Bei Yu"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/JarvisPei/CMoE",
+      "published": "2025-02-06T14:05:30.000Z"
+    },
+    {
+      "id": "2502.03738",
+      "title": "Scaling Laws in Patchification: An Image Is Worth 50,176 Tokens And More",
+      "authors": [
+        "Feng Wang",
+        "Yaodong Yu",
+        "Guoyizhe Wei",
+        "Wei Shao",
+        "Yuyin Zhou",
+        "Alan Yuille",
+        "Cihang Xie"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/wangf3014/Patch_Scaling",
+      "published": "2025-02-06T03:01:38.000Z"
+    },
+    {
+      "id": "2502.04350",
+      "title": "CodeSteer: Symbolic-Augmented Language Models via Code/Text Guidance",
+      "authors": [
+        "Yongchao Chen",
+        "Yilun Hao",
+        "Yueying Liu",
+        "Yang Zhang",
+        "Chuchu Fan"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/yongchao98/CodeSteer-v1.0",
+      "published": "2025-02-04T15:53:59.000Z"
+    },
+    {
+      "id": "2502.05178",
+      "title": "QLIP: Text-Aligned Visual Tokenization Unifies Auto-Regressive Multimodal Understanding and Generation",
+      "authors": [
+        "Yue Zhao",
+        "Fuzhao Xue",
+        "Scott Reed",
+        "Linxi Fan",
+        "Yuke Zhu",
+        "Jan Kautz",
+        "Zhiding Yu",
+        "Philipp Krähenbühl",
+        "De-An Huang"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/NVlabs/QLIP",
+      "published": "2025-02-07T18:59:57.000Z"
+    },
+    {
+      "id": "2502.04520",
+      "title": "Linear Correlation in LM's Compositional Generalization and Hallucination",
+      "authors": [
+        "Letian Peng",
+        "Chenyang An",
+        "Shibo Hao",
+        "Chengyu Dong",
+        "Jingbo Shang"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/KomeijiForce/LinCorr",
+      "published": "2025-02-06T21:44:30.000Z"
+    },
+    {
+      "id": "2502.04689",
+      "title": "ARR: Question Answering with Large Language Models via Analyzing, Retrieving, and Reasoning",
+      "authors": [
+        "Yuwei Yin",
+        "Giuseppe Carenini"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/YuweiYin/IA",
+      "published": "2025-02-07T06:30:33.000Z"
+    },
+    {
+      "id": "2502.05092",
+      "title": "Lost in Time: Clock and Calendar Understanding Challenges in Multimodal LLMs",
+      "authors": [
+        "Rohit Saxena",
+        "Aryo Pradipta Gema",
+        "Pasquale Minervini"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2025-02-07T17:11:23.000Z"
+    },
+    {
+      "id": "2502.04327",
+      "title": "Value-Based Deep RL Scales Predictably",
+      "authors": [
+        "Oleh Rybkin",
+        "Michal Nauman",
+        "Preston Fu",
+        "Charlie Snell",
+        "Pieter Abbeel",
+        "Sergey Levine",
+        "Aviral Kumar"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2025-02-06T18:59:47.000Z"
+    },
+    {
+      "id": "2502.03512",
+      "title": "YINYANG-ALIGN: Benchmarking Contradictory Objectives and Proposing Multi-Objective Optimization based DPO for Text-to-Image Alignment",
+      "authors": [
+        "Amitava Das",
+        "Yaswanth Narsupalli",
+        "Gurpreet Singh",
+        "Vinija Jain",
+        "Vasu Sharma",
+        "Suranjana Trivedy",
+        "Aman Chadha",
+        "Amit Sheth"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-02-05T18:46:20.000Z"
+    },
+    {
+      "id": "2501.12387",
+      "title": "Continuous 3D Perception Model with Persistent State",
+      "authors": [
+        "Qianqian Wang",
+        "Yifei Zhang",
+        "Aleksander Holynski",
+        "Alexei A. Efros",
+        "Angjoo Kanazawa"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/CUT3R/CUT3R",
+      "published": "2025-01-21T18:59:23.000Z"
+    },
+    {
+      "id": "2502.03771",
+      "title": "Adaptive Semantic Prompt Caching with VectorQ",
+      "authors": [
+        "Luis Gaspar Schroeder",
+        "Shu Liu",
+        "Alejandro Cuadron",
+        "Mark Zhao",
+        "Stephan Krusche",
+        "Alfons Kemper",
+        "Matei Zaharia",
+        "Joseph E. Gonzalez"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2025-02-06T04:16:20.000Z"
+    },
+    {
+      "id": "2502.04376",
+      "title": "MEETING DELEGATE: Benchmarking LLMs on Attending Meetings on Our Behalf",
+      "authors": [
+        "Lingxiang Hu",
+        "Shurun Yuan",
+        "Xiaoting Qin",
+        "Jue Zhang",
+        "Qingwei Lin",
+        "Dongmei Zhang",
+        "Saravan Rajmohan",
+        "Qi Zhang"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2025-02-05T16:25:43.000Z"
+    },
+    {
+      "id": "2502.02909",
+      "title": "SPARC: Subspace-Aware Prompt Adaptation for Robust Continual Learning in LLMs",
+      "authors": [
+        "Dinithi Jayasuriya",
+        "Sina Tayebati",
+        "Davide Ettori",
+        "Ranganath Krishnan",
+        "Amit Ranjan Trivedi"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2025-02-05T06:11:55.000Z"
+    },
+    {
+      "id": "2502.02692",
+      "title": "Intelligent Sensing-to-Action for Robust Autonomy at the Edge: Opportunities and Challenges",
+      "authors": [
+        "Amit Ranjan Trivedi",
+        "Sina Tayebati",
+        "Hemant Kumawat",
+        "Nastaran Darabi",
+        "Divake Kumar",
+        "Adarsh Kumar Kosta",
+        "Yeshwanth Venkatesha",
+        "Dinithi Jayasuriya",
+        "Nethmi Jayasinghe",
+        "Priyadarshini Panda",
+        "Saibal Mukhopadhyay",
+        "Kaushik Roy"
+      ],
+      "upvotes": 0,
+      "github": null,
+      "published": "2025-02-04T20:13:58.000Z"
+    }
+  ]
+}

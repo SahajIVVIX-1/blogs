@@ -1,0 +1,555 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-06-29",
+  "fetched_at": "2026-10-29T15:36:04.764Z",
+  "candidates": [
+    {
+      "id": "2606.27378",
+      "title": "Formalizing Latent Thoughts: Four Axioms of Thought Representation in LLMs",
+      "authors": [
+        "Fahd Seddik",
+        "Fatemeh Fard"
+      ],
+      "upvotes": 60,
+      "github": "https://github.com/fard-lab/formalize-thoughts",
+      "published": "2026-05-07T00:00:00.000Z"
+    },
+    {
+      "id": "2606.27608",
+      "title": "Qwen-Image-2.0-RL Technical Report",
+      "authors": [
+        "Yixian Xu",
+        "Kaiyuan Gao",
+        "Yuxiang Chen",
+        "Yilei Chen",
+        "Zecheng Tang",
+        "Zihao Liu",
+        "Zikai Zhou",
+        "Deqing Li",
+        "Hao Meng",
+        "Kuan Cao",
+        "Jiahao Li",
+        "Jie Zhang",
+        "Liang Peng",
+        "Lihan Jiang",
+        "Ningyuan Tang",
+        "Shengming Yin",
+        "Tianhe Wu",
+        "Xiaoyue Chen",
+        "Yan Shu",
+        "Yanran Zhang",
+        "Yi Wang",
+        "Yu Wu",
+        "Yujia Wu",
+        "Zekai Zhang",
+        "Zhendong Wang",
+        "Xiao Xu",
+        "Kun Yan",
+        "Chenfei Wu"
+      ],
+      "upvotes": 54,
+      "github": null,
+      "published": "2026-06-25T00:00:00.000Z"
+    },
+    {
+      "id": "2606.28128",
+      "title": "PhysisForcing: Physics Reinforced World Simulator for Robotic Manipulation",
+      "authors": [
+        "Peiwen Zhang",
+        "Yufan Deng",
+        "Shangkun Sun",
+        "Juncheng Ma",
+        "Duomin Wang",
+        "Jonas Du",
+        "Zilin Pan",
+        "Ye Huang",
+        "Hao Liang",
+        "Songyan Huang",
+        "Ruihua Zhang",
+        "Enze Xie",
+        "Ming-Yu Liu",
+        "Daquan Zhou"
+      ],
+      "upvotes": 54,
+      "github": "https://github.com/DAGroup-PKU/PhysisForcing",
+      "published": "2026-06-26T00:00:00.000Z"
+    },
+    {
+      "id": "2606.28133",
+      "title": "Translation as a Bridging Action: Transferring Manipulation Skills from Humans to Robots",
+      "authors": [
+        "Sijin Chen",
+        "Kaixuan Jiang",
+        "Haixin Shi",
+        "Yanhui Wang",
+        "Weiheng Zhong",
+        "Haosheng Li",
+        "Bo Jiang",
+        "Yuxiao Liu",
+        "Xihui Liu"
+      ],
+      "upvotes": 39,
+      "github": null,
+      "published": "2026-06-26T00:00:00.000Z"
+    },
+    {
+      "id": "2606.17846",
+      "title": "Qwen-RobotManip Technical Report: Alignment Unlocks Scale for Robotic Manipulation Foundation Models",
+      "authors": [
+        "Haoqi Yuan",
+        "Zhixuan Liang",
+        "Anzhe Chen",
+        "Ye Wang",
+        "Haoyang Li",
+        "Pei Lin",
+        "Yiyang Huang",
+        "Zixing Lei",
+        "Tong Zhang",
+        "Jiazhao Zhang",
+        "Jie Zhang",
+        "Jingyang Fan",
+        "Gengze Zhou",
+        "Qihang Peng",
+        "Chenxu Lv",
+        "Xiaoyue Chen",
+        "An Yang",
+        "Fei Huang",
+        "Junyang Lin",
+        "Dayiheng Liu",
+        "Jingren Zhou",
+        "Chenfei Wu",
+        "Xiong-Hui Chen"
+      ],
+      "upvotes": 35,
+      "github": "https://github.com/QwenLM/Qwen-RobotManip",
+      "published": "2026-06-17T00:00:00.000Z"
+    },
+    {
+      "id": "2606.18112",
+      "title": "Qwen-RobotNav Technical Report: A Scalable Navigation Model Designed for an Agentic Navigation System",
+      "authors": [
+        "Jiazhao Zhang",
+        "Gengze Zhou",
+        "Hale Yin",
+        "Yiyang Huang",
+        "Zixing Lei",
+        "Qihang Peng",
+        "Haoqi Yuan",
+        "Jie Zhang",
+        "Xudong Guo",
+        "Xiaoyue Chen",
+        "An Yang",
+        "Fei Huang",
+        "Zhibo Yang",
+        "Junyang Lin",
+        "Dayiheng Liu",
+        "Jingren Zhou",
+        "Zhuoyuan Yu",
+        "Jingyang Fan",
+        "Zhixuan Liang",
+        "Pei Lin",
+        "Ye Wang",
+        "Anzhe Chen",
+        "Kun Yan",
+        "Xiao Xu",
+        "Jiahao Li",
+        "Lulu Hu",
+        "Minying Zhang",
+        "Shurui Li",
+        "Wenhu Xiao",
+        "Shuai Bai",
+        "Xuancheng Ren",
+        "Chenxu Lv",
+        "Chenfei Wu",
+        "Xiong-Hui Chen"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/QwenLM/Qwen-RobotNav",
+      "published": "2026-06-18T00:00:00.000Z"
+    },
+    {
+      "id": "2606.28276",
+      "title": "SimFoundry: Modular and Automated Scene Generation for Policy Learning and Evaluation",
+      "authors": [
+        "Nadun Ranawaka",
+        "Josiah Wong",
+        "Wei-Lin Pai",
+        "Wei-Teng Chu",
+        "Tianyuan Dai",
+        "Masoud Moghani",
+        "Hang Yin",
+        "Yunfan Jiang",
+        "Wesley Durbano",
+        "Brandon Huynh",
+        "Yu Fang",
+        "Linxi Fan",
+        "Danfei Xu",
+        "Ruohan Zhang",
+        "Li Fei-Fei",
+        "Bowen Wen",
+        "Ajay Mandlekar",
+        "Yuke Zhu"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2026-06-26T00:00:00.000Z"
+    },
+    {
+      "id": "2606.20905",
+      "title": "Vesta: A Generalist Embodied Reasoning Model",
+      "authors": [
+        "Johan Bjorck",
+        "Zhiqi Li",
+        "Yunze Man",
+        "Jing Wang",
+        "An-Chieh Cheng",
+        "Sifei Liu",
+        "Shihao Wang",
+        "Zhiding Yu",
+        "Abhishek Badki",
+        "Stan Birchfield",
+        "Valts Blukis",
+        "Yevgen Chebotar",
+        "Siyi Chen",
+        "Sicong Leng",
+        "Yu-Cheng Chou",
+        "Tianli Ding",
+        "Boyi Li",
+        "Zhengyi Luo",
+        "Hang Su",
+        "Jonathan Tremblay",
+        "Tingwu Wang",
+        "Bowen Wen",
+        "Jimmy Wu",
+        "Xianghui Xie",
+        "Hanrong Ye",
+        "Hongxu Yin",
+        "K. R. Zentner",
+        "Liangyan Gui",
+        "Yu-Xiong Wang",
+        "Yuke Zhu",
+        "Linxi \"Jim\" Fan",
+        "Jan Kautz"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2026-06-18T00:00:00.000Z"
+    },
+    {
+      "id": "2606.28187",
+      "title": "GBC: Gradient-Based Connections for Optimizing Multi-Agent Systems",
+      "authors": [
+        "Xiaocheng Yang",
+        "Abdulrahman Alrabah",
+        "Dilek Hakkani-Tür",
+        "Gokhan Tur"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/yxc-cyber/AgentChord",
+      "published": "2026-06-26T00:00:00.000Z"
+    },
+    {
+      "id": "2606.28057",
+      "title": "MultiHashFormer: Hash-based Generative Language Models",
+      "authors": [
+        "Huiyin Xue",
+        "Atsuki Yamaguchi",
+        "Nikolaos Aletras"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/HUIYINXUE/MHF",
+      "published": "2026-06-26T00:00:00.000Z"
+    },
+    {
+      "id": "2511.07397",
+      "title": "Thinking While Speaking: Inference-Time Knowledge Transfer for Responsive and Intelligent Conversational Voice Agents",
+      "authors": [
+        "Vidya Srinivas",
+        "Zachary Englhardt",
+        "Vikram Iyer",
+        "Shwetak Patel",
+        "Maximus Powers"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/vysri/conversational-infill",
+      "published": "2026-07-01T00:00:00.000Z"
+    },
+    {
+      "id": "2606.27974",
+      "title": "ProMSA:Progressive Multimodal Search Agents for Knowledge-Based Visual Question Answering",
+      "authors": [
+        "ZhengXian Wu",
+        "Hangrui Xu",
+        "Kai Shi",
+        "Zhuohong Chen",
+        "Yunyao Yu",
+        "Chuanrui Zhang",
+        "Zirui Liao",
+        "Jun Yang",
+        "Zhenyu Yang",
+        "Haonan Lu",
+        "Haoqian Wang"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/DingWu1021/Promsa",
+      "published": "2026-06-26T00:00:00.000Z"
+    },
+    {
+      "id": "2606.28277",
+      "title": "Towards Automating Scientific Review with Google's Paper Assistant Tool",
+      "authors": [
+        "Rajesh Jayaram",
+        "Drew Tyler",
+        "David Woodruff",
+        "Corinna Cortes",
+        "Yossi Matias",
+        "Vahab Mirrokni",
+        "Vincent Cohen-Addad"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2026-06-26T00:00:00.000Z"
+    },
+    {
+      "id": "2606.22873",
+      "title": "SingGuard: A Policy-Adaptive Multimodal LLM Guardrail with Dynamic Reasoning",
+      "authors": [
+        "SingGuard Team"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/inclusionAI/Sing-Guard",
+      "published": "2026-06-22T00:00:00.000Z"
+    },
+    {
+      "id": "2606.26015",
+      "title": "The Tatoxa System for Text Detoxification in Low-Resource Languages: The Case of Tatar",
+      "authors": [
+        "Ilseyar Alimova",
+        "Bogdan Monogov",
+        "Artyom Mazur",
+        "Daniil Antonov",
+        "Vsevolod Karimov",
+        "Vitaliy Egorov",
+        "Bulat Khakimov",
+        "Alexander Panchenko"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2026-06-24T00:00:00.000Z"
+    },
+    {
+      "id": "2606.18953",
+      "title": "Object-Centric Residual RL for Zero-Shot Sim-to-Real VLA Enhancement",
+      "authors": [
+        "Kinam Kim",
+        "Namiko Saito",
+        "Heecheol Kim",
+        "Katsushi Ikeuchi",
+        "Jaegul Choo",
+        "Yasuyuki Matsushita"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2026-06-17T00:00:00.000Z"
+    },
+    {
+      "id": "2606.27595",
+      "title": "Ko-WideSearch: A Korean Breadth-Search Benchmark for Exhaustive Set Enumeration by Web Agents",
+      "authors": [
+        "Minbyul Jeong"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2026-06-25T00:00:00.000Z"
+    },
+    {
+      "id": "2606.24893",
+      "title": "AgentOdyssey: Open-Ended Long-Horizon Text Game Generation for Test-Time Continual Learning Agents",
+      "authors": [
+        "Zheyuan Zhang",
+        "Zehao Wen",
+        "Alvin Zhang",
+        "Andrew Wang",
+        "Jianwen Xie",
+        "Daniel Khashabi",
+        "Tianmin Shu"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/agentodyssey/agentodyssey",
+      "published": "2026-05-29T00:00:00.000Z"
+    },
+    {
+      "id": "2604.20920",
+      "title": "Simplified Sparse Attention via Gist Tokens",
+      "authors": [
+        "Yuzhen Mao",
+        "Michael Y. Li",
+        "Emily B. Fox"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2026-06-26T00:00:00.000Z"
+    },
+    {
+      "id": "2606.27978",
+      "title": "Parallel Rollout Approximation for Pixel-Space Autoregressive Image Generation",
+      "authors": [
+        "Jiayi Xu",
+        "Di He",
+        "Guolin Ke"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/MangataX/PRA",
+      "published": "2026-06-26T00:00:00.000Z"
+    },
+    {
+      "id": "2606.27537",
+      "title": "MemoBench: Benchmarking World Modeling in Dynamically Changing Environments",
+      "authors": [
+        "Haoyu Chen",
+        "Kaichen Zhou",
+        "Hang Hua",
+        "Kaile Zhang",
+        "Jingwen Qian",
+        "Wufei Ma",
+        "Haonan Chen",
+        "Chunjiang Liu",
+        "Yizhou Zhao",
+        "Xiaoyuan Wang",
+        "Weiyue Li",
+        "Alan Yuille",
+        "Paul Pu Liang",
+        "Yilun Du"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/MemoBench-Team/MemoBench",
+      "published": "2026-06-25T00:00:00.000Z"
+    },
+    {
+      "id": "2606.27163",
+      "title": "Learning to Fold: prizewinning solution at LeHome Challenge 2026 (1st place online, 2nd offline)",
+      "authors": [
+        "Ilia Larchenko"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/IliaLarchenko/lehome_solution",
+      "published": "2026-06-25T00:00:00.000Z"
+    },
+    {
+      "id": "2606.27457",
+      "title": "Cluster, Route, Escalate: Cascaded Framework for Cost-Aware LLM Serving",
+      "authors": [
+        "Yasmin Moslem",
+        "Magdalena Kacmajor",
+        "Vasudevan Nedumpozhimana",
+        "Ammar Abbas",
+        "Solmaz Panahi",
+        "David Lynch",
+        "Zhuangzhuang Nie",
+        "Alexandros Agapitos",
+        "Aleksandar Milenovic",
+        "Hongmeng Song",
+        "Yucheng Shi",
+        "Yue Pan",
+        "Patricia Buffini",
+        "John D. Kelleher"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/ymoslem/CRE-Router",
+      "published": "2026-06-25T00:00:00.000Z"
+    },
+    {
+      "id": "2606.27771",
+      "title": "NormGuard: Reward-Preserving Norm Constraints in Flow-Matching Reinforcement Learning",
+      "authors": [
+        "Tianlin Pan",
+        "Lianyu Pang",
+        "Cheng Da",
+        "Huan Yang",
+        "Changqian Yu",
+        "Kun Gai",
+        "Wenhan Luo"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-06-26T00:00:00.000Z"
+    },
+    {
+      "id": "2606.20970",
+      "title": "CogniRoute: Learning to Route Social Evidence in Omni-Modal Models",
+      "authors": [
+        "Yifan Shen",
+        "Pei Tian",
+        "Xinzhuo Li",
+        "Bowen Fang",
+        "Shujun Xia",
+        "Bingxuan Li",
+        "Ana Jojic",
+        "Wenming Ye",
+        "Xu Cao",
+        "James Matthew Rehg",
+        "Ismini Lourentzou"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-06-18T00:00:00.000Z"
+    },
+    {
+      "id": "2606.25610",
+      "title": "The Galaxy's Guide to the Tokenizer: A Benchmark for Scientific Foundation Models",
+      "authors": [
+        "Sogol Sanjaripour",
+        "Michael J. Smith",
+        "Manuel Pérez-Carrasco",
+        "Juan Rafael Martínez-Galarza",
+        "Bahram Mobasher",
+        "Gabriela Canalizo"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/smith42/astropt",
+      "published": "2026-06-24T00:00:00.000Z"
+    },
+    {
+      "id": "2606.26979",
+      "title": "How Much Static Structure Do Code Agents Need? A Study of Deterministic Anchoring",
+      "authors": [
+        "Zhihao Lin",
+        "Mingyi Zhou",
+        "Yizhuo Yang",
+        "Li Li"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2026-06-25T00:00:00.000Z"
+    },
+    {
+      "id": "2606.26978",
+      "title": "To Run or Not to Run: Analyzing the Cost-Effectiveness of Code Execution in LLM-Based Program Repair",
+      "authors": [
+        "Zhihao Lin",
+        "Junhua Zhu",
+        "Mingyi Zhou",
+        "Xin Wang",
+        "Zhensu Sun",
+        "Renyu Yang",
+        "David Lo",
+        "Li Li"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2026-06-25T00:00:00.000Z"
+    },
+    {
+      "id": "2606.26519",
+      "title": "Boundary-Aware Context Grounding for A Low-Channel EEG Agent",
+      "authors": [
+        "Zhiyuan Xu",
+        "Yueqing Dai",
+        "Junling Li",
+        "Junwen Luo"
+      ],
+      "upvotes": 0,
+      "github": "https://github.com/Neuradock/eeg-workstation-agent",
+      "published": "2026-06-25T00:00:00.000Z"
+    }
+  ]
+}

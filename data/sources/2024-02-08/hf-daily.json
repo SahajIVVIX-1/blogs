@@ -1,0 +1,177 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-02-08",
+  "fetched_at": "2026-10-29T15:26:49.924Z",
+  "candidates": [
+    {
+      "id": "2402.04494",
+      "title": "Grandmaster-Level Chess Without Search",
+      "authors": [
+        "Anian Ruoss",
+        "Grégoire Delétang",
+        "Sourabh Medapati",
+        "Jordi Grau-Moya",
+        "Li Kevin Wenliang",
+        "Elliot Catt",
+        "John Reid",
+        "Tim Genewein"
+      ],
+      "upvotes": 70,
+      "github": "https://github.com/google-deepmind/searchless_chess",
+      "published": "2024-02-07T00:36:24.000Z"
+    },
+    {
+      "id": "2402.04615",
+      "title": "ScreenAI: A Vision-Language Model for UI and Infographics Understanding",
+      "authors": [
+        "Gilles Baechler",
+        "Srinivas Sunkara",
+        "Maria Wang",
+        "Fedir Zubach",
+        "Hassan Mansoor",
+        "Vincent Etter",
+        "Victor Cărbune",
+        "Jason Lin",
+        "Jindong Chen",
+        "Abhanshu Sharma"
+      ],
+      "upvotes": 45,
+      "github": "https://github.com/google-research-datasets/screen_annotation",
+      "published": "2024-02-07T06:42:33.000Z"
+    },
+    {
+      "id": "2402.04792",
+      "title": "Direct Language Model Alignment from Online AI Feedback",
+      "authors": [
+        "Shangmin Guo",
+        "Biao Zhang",
+        "Tianlin Liu",
+        "Tianqi Liu",
+        "Misha Khalman",
+        "Felipe Llinares",
+        "Alexandre Rame",
+        "Thomas Mesnard",
+        "Yao Zhao",
+        "Bilal Piot",
+        "Johan Ferret",
+        "Mathieu Blondel"
+      ],
+      "upvotes": 36,
+      "github": null,
+      "published": "2024-02-07T12:31:13.000Z"
+    },
+    {
+      "id": "2402.05054",
+      "title": "LGM: Large Multi-View Gaussian Model for High-Resolution 3D Content Creation",
+      "authors": [
+        "Jiaxiang Tang",
+        "Zhaoxi Chen",
+        "Xiaokang Chen",
+        "Tengfei Wang",
+        "Gang Zeng",
+        "Ziwei Liu"
+      ],
+      "upvotes": 29,
+      "github": "https://github.com/3dtopia/lgm",
+      "published": "2024-02-07T17:57:03.000Z"
+    },
+    {
+      "id": "2402.05008",
+      "title": "EfficientViT-SAM: Accelerated Segment Anything Model Without Performance Loss",
+      "authors": [
+        "Zhuoyang Zhang",
+        "Han Cai",
+        "Song Han"
+      ],
+      "upvotes": 24,
+      "github": null,
+      "published": "2024-02-07T16:28:36.000Z"
+    },
+    {
+      "id": "2402.05099",
+      "title": "Hydragen: High-Throughput LLM Inference with Shared Prefixes",
+      "authors": [
+        "Jordan Juravsky",
+        "Bradley Brown",
+        "Ryan Ehrlich",
+        "Daniel Y. Fu",
+        "Christopher Ré",
+        "Azalia Mirhoseini"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/jordan-benjamin/hydragen",
+      "published": "2024-02-07T18:53:01.000Z"
+    },
+    {
+      "id": "2402.04347",
+      "title": "The Hedgehog & the Porcupine: Expressive Linear Attentions with Softmax Mimicry",
+      "authors": [
+        "Michael Zhang",
+        "Kush Bhatia",
+        "Hermann Kumbong",
+        "Christopher Ré"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2024-02-06T19:31:26.000Z"
+    },
+    {
+      "id": "2402.04858",
+      "title": "CodeIt: Self-Improving Language Models with Prioritized Hindsight Replay",
+      "authors": [
+        "Natasha Butt",
+        "Blazej Manczak",
+        "Auke Wiggers",
+        "Corrado Rainone",
+        "David Zhang",
+        "Michaël Defferrard",
+        "Taco Cohen"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/Qualcomm-AI-research/codeit",
+      "published": "2024-02-07T13:55:27.000Z"
+    },
+    {
+      "id": "2402.04825",
+      "title": "Fast Timing-Conditioned Latent Audio Diffusion",
+      "authors": [
+        "Zach Evans",
+        "CJ Carr",
+        "Josiah Taylor",
+        "Scott H. Hawley",
+        "Jordi Pons"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/stability-ai/stable-audio-metrics",
+      "published": "2024-02-07T13:23:25.000Z"
+    },
+    {
+      "id": "2402.04925",
+      "title": "TP-Aware Dequantization",
+      "authors": [
+        "Adnan Hoque",
+        "Mudhakar Srivatsa",
+        "Chih-Chieh Yang",
+        "Raghu Ganti"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2024-01-15T08:01:40.000Z"
+    },
+    {
+      "id": "2402.04744",
+      "title": "Progressive Gradient Flow for Robust N:M Sparsity Training in Transformers",
+      "authors": [
+        "Abhimanyu Rajeshkumar Bambhaniya",
+        "Amir Yazdanbakhsh",
+        "Suvinay Subramanian",
+        "Sheng-Chun Kao",
+        "Shivani Agrawal",
+        "Utku Evci",
+        "Tushar Krishna"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/abhibambhaniya/progressive_gradient_flow_nm_sparsity",
+      "published": "2024-02-07T10:55:59.000Z"
+    }
+  ]
+}

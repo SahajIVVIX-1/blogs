@@ -1,0 +1,27 @@
+{
+  "id": "2509.26507",
+  "title": "The Dragon Hatchling: The Missing Link between the Transformer and Models of the Brain",
+  "authors": [
+    "Adrian Kosowski",
+    "Przemysław Uznański",
+    "Jan Chorowski",
+    "Zuzanna Stamirowska",
+    "Michał Bartoszkiewicz"
+  ],
+  "published": "2025-09-30T16:49:01Z",
+  "abstract": "The relationship between computing systems and the brain has served as motivation for pioneering theoreticians since John von Neumann and Alan Turing. Uniform, scale-free biological networks, such as the brain, have powerful properties, including generalizing over time, which is the main barrier for Machine Learning on the path to Universal Reasoning Models. We introduce `Dragon Hatchling' (BDH), a new Large Language Model architecture based on a scale-free biologically inspired network of \\$n\\$ locally-interacting neuron particles. BDH couples strong theoretical foundations and inherent interpretability without sacrificing Transformer-like performance. BDH is a practical, performant state-of-the-art attention-based state space sequence learning architecture. In addition to being a graph model, BDH admits a GPU-friendly formulation. It exhibits Transformer-like scaling laws: empirically BDH rivals GPT2 performance on language and translation tasks, at the same number of parameters (10M to 1B), for the same training data. BDH can be represented as a brain model. The working memory of BDH during inference entirely relies on synaptic plasticity with Hebbian learning using spiking neurons. We confirm empirically that specific, individual synapses strengthen connection whenever BDH hears or reasons about a specific concept while processing language inputs. The neuron interaction network of BDH is a graph of high modularity with heavy-tailed degree distribution. The BDH model is biologically plausible, explaining one possible mechanism which human neurons could use to achieve speech. BDH is designed for interpretability. Activation vectors of BDH are sparse and positive. We demonstrate monosemanticity in BDH on language tasks. Interpretability of state, which goes beyond interpretability of neurons and model parameters, is an inherent feature of the BDH architecture.",
+  "categories": [
+    "cs.NE",
+    "cs.AI",
+    "cs.LG",
+    "stat.ML"
+  ],
+  "abs": "https://arxiv.org/abs/2509.26507",
+  "pdf": "https://arxiv.org/pdf/2509.26507v1",
+  "source_url": "https://export.arxiv.org/api/query?id_list=2509.26507",
+  "fetched_at": "2026-10-29T15:48:58.606Z",
+  "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  "reusable_figures": false,
+  "github": "https://github.com/pathwaycom/bdh",
+  "upvotes": 522
+}

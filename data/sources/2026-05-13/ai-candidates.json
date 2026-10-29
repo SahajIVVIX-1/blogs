@@ -1,0 +1,59 @@
+[
+  {
+    "publisher": "OpenAI",
+    "title": "Building a safe, effective sandbox to enable Codex on Windows",
+    "url": "https://openai.com/index/building-codex-windows-sandbox",
+    "date": "2026-05-13",
+    "description": "Learn how OpenAI built a safe, effective sandbox to enable Codex on Windows with controlled file access and network limits.",
+    "fetched_at": "2026-10-29T15:54:51.753Z"
+  },
+  {
+    "publisher": "OpenAI",
+    "title": "Our response to the TanStack npm supply chain attack",
+    "url": "https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack",
+    "date": "2026-05-13",
+    "description": "OpenAI details its response to the TanStack “Mini Shai-Hulud” supply chain attack, outlines protections taken to secure systems and signing certificates, and explains why macOS users must update OpenAI apps by June 12, 2026. Learn what happened, what was affected, and how OpenAI is strengthening defenses against evolving software supply chain threats.",
+    "fetched_at": "2026-10-29T15:54:51.753Z"
+  },
+  {
+    "publisher": "Microsoft Research",
+    "title": "mimalloc: A new, high-performance, scalable memory allocator for the modern era",
+    "url": "https://www.microsoft.com/en-us/research/blog/mimalloc-a-high-performance-scalable-memory-allocator-for-the-modern-era/",
+    "date": "2026-05-13",
+    "description": "mimalloc is an open-source, modern, scalable memory allocator that is a drop-in replacement for malloc and free. It is relatively small (~12K lines), with clear internal data structures, and is easy to build and integrate into other projects. It provides bounded worst-case allocation times (up to OS primitives), bounded space overhead, low internal fragmentation, and minimal contention by relying almost exclusively on atomic operations. The post mimalloc: A new, high-performance, scalable memory allocator for the modern era appeared first on Microsoft Research .",
+    "fetched_at": "2026-10-29T15:55:01.023Z"
+  },
+  {
+    "publisher": "Microsoft Research",
+    "title": "GridSFM: A new, small foundation model for the electric grid",
+    "url": "https://www.microsoft.com/en-us/research/blog/gridsfm-a-new-small-foundation-model-for-the-electric-grid/",
+    "date": "2026-05-13",
+    "description": "Introducing GridSFM, a small foundation model that can predict AC optimal power flow in milliseconds, boosting efficiency and unlocking cost savings. Learn how GridSFM gives grid operators direct visibility into congestion, stability, and system health. The post GridSFM: A new, small foundation model for the electric grid appeared first on Microsoft Research .",
+    "fetched_at": "2026-10-29T15:55:01.023Z"
+  },
+  {
+    "publisher": "NVIDIA",
+    "title": "NVIDIA, Ineffable Intelligence Team Up to Build the Future of Reinforcement Learning Infrastructure",
+    "url": "https://blogs.nvidia.com/blog/ineffable-intelligence-reinforcement-learning-infrastructure/",
+    "date": "2026-05-13",
+    "description": "Reinforcement-learning agents — AI systems that learn by trial and error — can convert computation into new knowledge. That’s the focus of a new engineering-level collaboration between NVIDIA and Ineffable Intelligence, the London-based AI lab founded by AlphaGo architect David Silver in the wake of Ineffable’s emergence from stealth last week. “The next frontier of [&#8230;]",
+    "fetched_at": "2026-10-29T15:56:25.328Z"
+  },
+  {
+    "publisher": "NVIDIA",
+    "title": "Hermes Unlocks Self-Improving AI Agents, Powered by NVIDIA RTX PCs and DGX Spark",
+    "url": "https://blogs.nvidia.com/blog/rtx-ai-garage-hermes-agent-dgx-spark/",
+    "date": "2026-05-13",
+    "description": "Agentic AI is changing the way users get work done. Following the success of OpenClaw, the community is embracing new open source agentic frameworks. The latest is Hermes Agent, which crossed 140,000 GitHub stars in under three months.",
+    "fetched_at": "2026-10-29T15:56:25.328Z"
+  },
+  {
+    "publisher": "GitHub · pytorch/pytorch",
+    "title": "PyTorch 2.12.0 Release",
+    "url": "https://github.com/pytorch/pytorch/releases/tag/v2.12.0",
+    "date": "2026-05-13",
+    "tag": "v2.12.0",
+    "repo": "pytorch/pytorch",
+    "fetched_at": "2026-10-29T15:57:29.047Z"
+  }
+]

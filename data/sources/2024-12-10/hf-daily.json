@@ -1,0 +1,256 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-12-10",
+  "fetched_at": "2026-10-29T15:29:56.426Z",
+  "candidates": [
+    {
+      "id": "2412.06769",
+      "title": "Training Large Language Models to Reason in a Continuous Latent Space",
+      "authors": [
+        "Shibo Hao",
+        "Sainbayar Sukhbaatar",
+        "DiJia Su",
+        "Xian Li",
+        "Zhiting Hu",
+        "Jason Weston",
+        "Yuandong Tian"
+      ],
+      "upvotes": 94,
+      "github": null,
+      "published": "2024-12-09T18:55:56.000Z"
+    },
+    {
+      "id": "2412.06559",
+      "title": "ProcessBench: Identifying Process Errors in Mathematical Reasoning",
+      "authors": [
+        "Chujie Zheng",
+        "Zhenru Zhang",
+        "Beichen Zhang",
+        "Runji Lin",
+        "Keming Lu",
+        "Bowen Yu",
+        "Dayiheng Liu",
+        "Jingren Zhou",
+        "Junyang Lin"
+      ],
+      "upvotes": 86,
+      "github": "https://github.com/QwenLM/ProcessBench",
+      "published": "2024-12-09T15:11:40.000Z"
+    },
+    {
+      "id": "2412.06531",
+      "title": "Unraveling the Complexity of Memory in RL Agents: an Approach for Classification and Evaluation",
+      "authors": [
+        "Egor Cherepanov",
+        "Nikita Kachaev",
+        "Artem Zholus",
+        "Alexey K. Kovalev",
+        "Aleksandr I. Panov"
+      ],
+      "upvotes": 72,
+      "github": null,
+      "published": "2024-12-09T14:34:31.000Z"
+    },
+    {
+      "id": "2412.07112",
+      "title": "Maya: An Instruction Finetuned Multilingual Multimodal Model",
+      "authors": [
+        "Nahid Alam",
+        "Karthik Reddy Kanjula",
+        "Surya Guthikonda",
+        "Timothy Chung",
+        "Bala Krishna S Vegesna",
+        "Abhipsha Das",
+        "Anthony Susevski",
+        "Ryan Sze-Yin Chan",
+        "S M Iftekhar Uddin",
+        "Shayekh Bin Islam",
+        "Roshan Santhosh",
+        "Snegha A",
+        "Drishti Sharma",
+        "Chen Liu",
+        "Isha Chaturvedi",
+        "Genta Indra Winata",
+        "Ashvanth. S",
+        "Snehanshu Mukherjee",
+        "Alham Fikri Aji"
+      ],
+      "upvotes": 27,
+      "github": null,
+      "published": "2024-12-10T01:57:17.000Z"
+    },
+    {
+      "id": "2412.06781",
+      "title": "Around the World in 80 Timesteps: A Generative Approach to Global Visual Geolocation",
+      "authors": [
+        "Nicolas Dufour",
+        "David Picard",
+        "Vicky Kalogeiton",
+        "Loic Landrieu"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/nicolas-dufour/plonk",
+      "published": "2024-12-09T18:59:04.000Z"
+    },
+    {
+      "id": "2412.06464",
+      "title": "Gated Delta Networks: Improving Mamba2 with Delta Rule",
+      "authors": [
+        "Songlin Yang",
+        "Jan Kautz",
+        "Ali Hatamizadeh"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/NVlabs/GatedDeltaNet",
+      "published": "2024-12-09T13:09:04.000Z"
+    },
+    {
+      "id": "2412.05939",
+      "title": "Exploring Multi-Grained Concept Annotations for Multimodal Large Language Models",
+      "authors": [
+        "Xiao Xu",
+        "Tianhao Niu",
+        "Yuxi Xie",
+        "Libo Qin",
+        "Wanxiang Che",
+        "Min-Yen Kan"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/LooperXX/MMGiC",
+      "published": "2024-12-08T13:45:44.000Z"
+    },
+    {
+      "id": "2412.04432",
+      "title": "Divot: Diffusion Powers Video Tokenizer for Comprehension and Generation",
+      "authors": [
+        "Yuying Ge",
+        "Yizhuo Li",
+        "Yixiao Ge",
+        "Ying Shan"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/tencentarc/divot",
+      "published": "2024-12-05T18:53:04.000Z"
+    },
+    {
+      "id": "2412.06699",
+      "title": "You See it, You Got it: Learning 3D Creation on Pose-Free Videos at Scale",
+      "authors": [
+        "Baorui Ma",
+        "Huachen Gao",
+        "Haoge Deng",
+        "Zhengxiong Luo",
+        "Tiejun Huang",
+        "Lulu Tang",
+        "Xinlong Wang"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/baaivision/See3D",
+      "published": "2024-12-09T17:44:56.000Z"
+    },
+    {
+      "id": "2412.05355",
+      "title": "MotionShop: Zero-Shot Motion Transfer in Video Diffusion Models with Mixture of Score Guidance",
+      "authors": [
+        "Hidir Yesiltepe",
+        "Tuna Han Salih Meral",
+        "Connor Dunlop",
+        "Pinar Yanardag"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/gemlab-vt/motionshop",
+      "published": "2024-12-06T18:59:17.000Z"
+    },
+    {
+      "id": "2412.06767",
+      "title": "MAtCha Gaussians: Atlas of Charts for High-Quality Geometry and Photorealism From Sparse Views",
+      "authors": [
+        "Antoine Guédon",
+        "Tomoki Ichikawa",
+        "Kohei Yamashita",
+        "Ko Nishino"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/Anttwo/MAtCha",
+      "published": "2024-12-09T18:55:23.000Z"
+    },
+    {
+      "id": "2412.06782",
+      "title": "CARP: Visuomotor Policy Learning via Coarse-to-Fine Autoregressive Prediction",
+      "authors": [
+        "Zhefei Gong",
+        "Pengxiang Ding",
+        "Shangke Lyu",
+        "Siteng Huang",
+        "Mingyang Sun",
+        "Wei Zhao",
+        "Zhaoxin Fan",
+        "Donglin Wang"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2024-12-09T18:59:18.000Z"
+    },
+    {
+      "id": "2412.04144",
+      "title": "If You Can't Use Them, Recycle Them: Optimizing Merging at Scale Mitigates Performance Tradeoffs",
+      "authors": [
+        "Muhammad Khalifa",
+        "Yi-Chern Tan",
+        "Arash Ahmadian",
+        "Tom Hosking",
+        "Honglak Lee",
+        "Lu Wang",
+        "Ahmet Üstün",
+        "Tom Sherborne",
+        "Matthias Gallé"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2024-12-05T13:12:51.000Z"
+    },
+    {
+      "id": "2412.05600",
+      "title": "Global and Dense Embeddings of Earth: Major TOM Floating in the Latent Space",
+      "authors": [
+        "Mikolaj Czerkawski",
+        "Marcin Kluczek",
+        "Jędrzej S. Bojanowski"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2024-12-07T09:49:47.000Z"
+    },
+    {
+      "id": "2412.03123",
+      "title": "Robust Multi-bit Text Watermark with LLM-based Paraphrasers",
+      "authors": [
+        "Xiaojun Xu",
+        "Jinghan Jia",
+        "Yuanshun Yao",
+        "Yang Liu",
+        "Hang Li"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/xiaojunxu/multi-bit-text-watermark",
+      "published": "2024-12-04T08:43:12.000Z"
+    },
+    {
+      "id": "2412.04470",
+      "title": "Turbo3D: Ultra-fast Text-to-3D Generation",
+      "authors": [
+        "Hanzhe Hu",
+        "Tianwei Yin",
+        "Fujun Luan",
+        "Yiwei Hu",
+        "Hao Tan",
+        "Zexiang Xu",
+        "Sai Bi",
+        "Shubham Tulsiani",
+        "Kai Zhang"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/hzhupku/Turbo3D",
+      "published": "2024-12-05T18:59:56.000Z"
+    }
+  ]
+}

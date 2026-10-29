@@ -1,0 +1,491 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-02-27",
+  "fetched_at": "2026-10-29T15:34:50.891Z",
+  "candidates": [
+    {
+      "id": "2602.23152",
+      "title": "The Trinity of Consistency as a Defining Principle for General World Models",
+      "authors": [
+        "Jingxuan Wei",
+        "Siyuan Li",
+        "Yuhang Xu",
+        "Zheng Sun",
+        "Junjie Jiang",
+        "Hexuan Jin",
+        "Caijun Jia",
+        "Honghao He",
+        "Xinglong Xu",
+        "Xi bai",
+        "Chang Yu",
+        "Yumou Liu",
+        "Junnan Zhu",
+        "Xuanhe Zhou",
+        "Jintao Chen",
+        "Xiaobin Hu",
+        "Shancheng Pang",
+        "Bihui Yu",
+        "Ran He",
+        "Zhen Lei",
+        "Stan Z. Li",
+        "Conghui He",
+        "Shuicheng Yan",
+        "Cheng Tan"
+      ],
+      "upvotes": 190,
+      "github": "https://github.com/openraiser/awesome-world-model-evolution",
+      "published": "2026-02-26T16:15:55.000Z"
+    },
+    {
+      "id": "2602.22638",
+      "title": "MobilityBench: A Benchmark for Evaluating Route-Planning Agents in Real-World Mobility Scenarios",
+      "authors": [
+        "Zhiheng Song",
+        "Jingshuai Zhang",
+        "Chuan Qin",
+        "Chao Wang",
+        "Chao Chen",
+        "Longfei Xu",
+        "Kaikui Liu",
+        "Xiangxiang Chu",
+        "Hengshu Zhu"
+      ],
+      "upvotes": 80,
+      "github": "https://github.com/AMAP-ML/MobilityBench",
+      "published": "2026-02-26T05:39:38.000Z"
+    },
+    {
+      "id": "2602.22897",
+      "title": "OmniGAIA: Towards Native Omni-Modal AI Agents",
+      "authors": [
+        "Xiaoxi Li",
+        "Wenxiang Jiao",
+        "Jiarui Jin",
+        "Shijian Wang",
+        "Guanting Dong",
+        "Jiajie Jin",
+        "Hao Wang",
+        "Yinuo Wang",
+        "Ji-Rong Wen",
+        "Yuan Lu",
+        "Zhicheng Dou"
+      ],
+      "upvotes": 53,
+      "github": "https://github.com/RUC-NLPIR/OmniGAIA",
+      "published": "2026-02-26T11:35:04.000Z"
+    },
+    {
+      "id": "2602.22766",
+      "title": "Imagination Helps Visual Reasoning, But Not Yet in Latent Space",
+      "authors": [
+        "You Li",
+        "Chi Chen",
+        "Yanghao Li",
+        "Fanhu Zeng",
+        "Kaiyu Huang",
+        "Jinan Xu",
+        "Maosong Sun"
+      ],
+      "upvotes": 45,
+      "github": "https://github.com/AI9Stars/CapImagine",
+      "published": "2026-02-26T08:56:23.000Z"
+    },
+    {
+      "id": "2602.23008",
+      "title": "Exploratory Memory-Augmented LLM Agent via Hybrid On- and Off-Policy Optimization",
+      "authors": [
+        "Zeyuan Liu",
+        "Jeonghye Kim",
+        "Xufang Luo",
+        "Dongsheng Li",
+        "Yuqing Yang"
+      ],
+      "upvotes": 36,
+      "github": null,
+      "published": "2026-02-26T13:50:57.000Z"
+    },
+    {
+      "id": "2602.23258",
+      "title": "AgentDropoutV2: Optimizing Information Flow in Multi-Agent Systems via Test-Time Rectify-or-Reject Pruning",
+      "authors": [
+        "Yutong Wang",
+        "Siyuan Xiong",
+        "Xuebo Liu",
+        "Wenkang Zhou",
+        "Liang Ding",
+        "Miao Zhang",
+        "Min Zhang"
+      ],
+      "upvotes": 28,
+      "github": "https://github.com/TonySY2/AgentDropoutV2",
+      "published": "2026-02-26T17:31:43.000Z"
+    },
+    {
+      "id": "2602.22675",
+      "title": "Search More, Think Less: Rethinking Long-Horizon Agentic Search for Efficiency and Generalization",
+      "authors": [
+        "Qianben Chen",
+        "Tianrui Qin",
+        "King Zhu",
+        "Qiexiang Wang",
+        "Chengjun Yu",
+        "Shu Xu",
+        "Jiaqi Wu",
+        "Jiayu Zhang",
+        "Xinpeng Liu",
+        "Xin Gui",
+        "Jingyi Cao",
+        "Piaohong Wang",
+        "Dingfeng Shi",
+        "He Zhu",
+        "Tiannan Wang",
+        "Yuqing Wang",
+        "Maojia Song",
+        "Tianyu Zheng",
+        "Ge Zhang",
+        "Jian Yang",
+        "Jiaheng Liu",
+        "Minghao Liu",
+        "Yuchen Eleanor Jiang",
+        "Wangchunshu Zhou"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/OPPO-PersonalAI/SMTL",
+      "published": "2026-02-26T06:46:41.000Z"
+    },
+    {
+      "id": "2602.23363",
+      "title": "MediX-R1: Open Ended Medical Reinforcement Learning",
+      "authors": [
+        "Sahal Shaji Mullappilly",
+        "Mohammed Irfan Kurpath",
+        "Omair Mohamed",
+        "Mohamed Zidan",
+        "Fahad Khan",
+        "Salman Khan",
+        "Rao Anwer",
+        "Hisham Cholakkal"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/mbzuai-oryx/MediX-R1",
+      "published": "2026-02-26T18:59:46.000Z"
+    },
+    {
+      "id": "2602.22859",
+      "title": "From Blind Spots to Gains: Diagnostic-Driven Iterative Training for Large Multimodal Models",
+      "authors": [
+        "Hongrui Jia",
+        "Chaoya Jiang",
+        "Shikun Zhang",
+        "Wei Ye"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/hongruijia/DPE",
+      "published": "2026-02-26T10:53:57.000Z"
+    },
+    {
+      "id": "2602.22953",
+      "title": "General Agent Evaluation",
+      "authors": [
+        "Elron Bandel",
+        "Asaf Yehudai",
+        "Lilach Eden",
+        "Yehoshua Sagron",
+        "Yotam Perlitz",
+        "Elad Venezian",
+        "Natalia Razinkov",
+        "Natan Ergas",
+        "Shlomit Shachor Ifergan",
+        "Segev Shlomov",
+        "Michal Jacovi",
+        "Leshem Choshen",
+        "Liat Ein-Dor",
+        "Yoav Katz",
+        "Michal Shmueli-Scheuer"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/Exgentic/exgentic",
+      "published": "2026-02-26T12:48:02.000Z"
+    },
+    {
+      "id": "2602.23205",
+      "title": "EmbodMocap: In-the-Wild 4D Human-Scene Reconstruction for Embodied Agents",
+      "authors": [
+        "Wenjia Wang",
+        "Liang Pan",
+        "Huaijin Pi",
+        "Yuke Lou",
+        "Xuqian Ren",
+        "Yifan Wu",
+        "Zhouyingcheng Liao",
+        "Lei Yang",
+        "Rishabh Dabral",
+        "Christian Theobalt",
+        "Taku Komura"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/WenjiaWang0312/EmbodMocap",
+      "published": "2026-02-26T16:53:41.000Z"
+    },
+    {
+      "id": "2602.23361",
+      "title": "VGG-T^3: Offline Feed-Forward 3D Reconstruction at Scale",
+      "authors": [
+        "Sven Elflein",
+        "Ruilong Li",
+        "Sérgio Agostinho",
+        "Zan Gojcic",
+        "Laura Leal-Taixé",
+        "Qunjie Zhou",
+        "Aljosa Osep"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2026-02-26T18:59:33.000Z"
+    },
+    {
+      "id": "2602.21760",
+      "title": "Accelerating Diffusion via Hybrid Data-Pipeline Parallelism Based on Conditional Guidance Scheduling",
+      "authors": [
+        "Euisoo Jung",
+        "Byunghyun Kim",
+        "Hyunjin Kim",
+        "Seonghye Cho",
+        "Jae-Gil Lee"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/kaist-dmlab/Hybridiff",
+      "published": "2026-02-25T10:23:07.000Z"
+    },
+    {
+      "id": "2602.17594",
+      "title": "AI Gamestore: Scalable, Open-Ended Evaluation of Machine General Intelligence with Human Games",
+      "authors": [
+        "Lance Ying",
+        "Ryan Truong",
+        "Prafull Sharma",
+        "Kaiya Ivy Zhao",
+        "Nathan Cloos",
+        "Kelsey R. Allen",
+        "Thomas L. Griffiths",
+        "Katherine M. Collins",
+        "José Hernández-Orallo",
+        "Phillip Isola",
+        "Samuel J. Gershman",
+        "Joshua B. Tenenbaum"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2026-02-19T18:17:25.000Z"
+    },
+    {
+      "id": "2602.22594",
+      "title": "Causal Motion Diffusion Models for Autoregressive Motion Generation",
+      "authors": [
+        "Qing Yu",
+        "Akihisa Watanabe",
+        "Kent Fujiwara"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2026-02-26T03:58:25.000Z"
+    },
+    {
+      "id": "2602.22437",
+      "title": "veScale-FSDP: Flexible and High-Performance FSDP at Scale",
+      "authors": [
+        "Zezhou Wang",
+        "Youjie Li",
+        "Zhiqi Lin",
+        "Jiacheng Yang",
+        "Cong Xie",
+        "Guanyu Feng",
+        "Zheng Zhong",
+        "Ziyue Huang",
+        "Hongyu Zhu",
+        "Zhi Zhang",
+        "Yanghua Peng",
+        "Xin Liu"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2026-02-25T21:55:43.000Z"
+    },
+    {
+      "id": "2602.23058",
+      "title": "GeoWorld: Geometric World Models",
+      "authors": [
+        "Zeyu Zhang",
+        "Danning Li",
+        "Ian Reid",
+        "Richard Hartley"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2026-02-26T14:42:53.000Z"
+    },
+    {
+      "id": "2602.21420",
+      "title": "Overconfident Errors Need Stronger Correction: Asymmetric Confidence Penalties for Reinforcement Learning",
+      "authors": [
+        "Yuanda Xu",
+        "Hejian Sang",
+        "Zhengze Zhou",
+        "Ran He",
+        "Zhipeng Wang"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2026-02-24T22:46:43.000Z"
+    },
+    {
+      "id": "2602.23339",
+      "title": "Retrieve and Segment: Are a Few Examples Enough to Bridge the Supervision Gap in Open-Vocabulary Segmentation?",
+      "authors": [
+        "Tilemachos Aravanis",
+        "Vladan Stojnić",
+        "Bill Psomas",
+        "Nikos Komodakis",
+        "Giorgos Tolias"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/TilemahosAravanis/Retrieve-and-Segment",
+      "published": "2026-02-26T18:45:33.000Z"
+    },
+    {
+      "id": "2602.20300",
+      "title": "What Makes a Good Query? Measuring the Impact of Human-Confusing Linguistic Features on LLM Performance",
+      "authors": [
+        "William Watson",
+        "Nicole Cho",
+        "Sumitra Ganesh",
+        "Manuela Veloso"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-02-23T19:30:08.000Z"
+    },
+    {
+      "id": "2602.20423",
+      "title": "MedCLIPSeg: Probabilistic Vision-Language Adaptation for Data-Efficient and Generalizable Medical Image Segmentation",
+      "authors": [
+        "Taha Koleilat",
+        "Hojat Asgariandehkordi",
+        "Omid Nejati Manzari",
+        "Berardino Barile",
+        "Yiming Xiao",
+        "Hassan Rivaz"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/HealthX-Lab/MedCLIPSeg",
+      "published": "2026-02-23T23:46:05.000Z"
+    },
+    {
+      "id": "2602.20332",
+      "title": "No One Size Fits All: QueryBandits for Hallucination Mitigation",
+      "authors": [
+        "Nicole Cho",
+        "William Watson",
+        "Alec Koppel",
+        "Sumitra Ganesh",
+        "Manuela Veloso"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-02-23T20:28:48.000Z"
+    },
+    {
+      "id": "2602.20981",
+      "title": "Echoes Over Time: Unlocking Length Generalization in Video-to-Audio Generation Models",
+      "authors": [
+        "Christian Simon",
+        "Masato Ishii",
+        "Wei-Yao Wang",
+        "Koichi Saito",
+        "Akio Hayakawa",
+        "Dongseok Shim",
+        "Zhi Zhong",
+        "Shuyang Cui",
+        "Shusuke Takahashi",
+        "Takashi Shibuya",
+        "Yuki Mitsufuji"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-02-24T15:01:39.000Z"
+    },
+    {
+      "id": "2602.23165",
+      "title": "DyaDiT: A Multi-Modal Diffusion Transformer for Socially Favorable Dyadic Gesture Generation",
+      "authors": [
+        "Yichen Peng",
+        "Jyun-Ting Song",
+        "Siyeol Jung",
+        "Ruofan Liu",
+        "Haiyang Liu",
+        "Xuangeng Chu",
+        "Ruicong Liu",
+        "Erwin Wu",
+        "Hideki Koike",
+        "Kris Kitani"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-02-26T16:30:07.000Z"
+    },
+    {
+      "id": "2602.23259",
+      "title": "Risk-Aware World Model Predictive Control for Generalizable End-to-End Autonomous Driving",
+      "authors": [
+        "Jiangxin Sun",
+        "Feng Xue",
+        "Teng Long",
+        "Chang Liu",
+        "Jian-Fang Hu",
+        "Wei-Shi Zheng",
+        "Nicu Sebe"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-02-26T17:32:30.000Z"
+    },
+    {
+      "id": "2602.22045",
+      "title": "DLT-Corpus: A Large-Scale Text Collection for the Distributed Ledger Technology Domain",
+      "authors": [
+        "Walter Hernandez Cruz",
+        "Peter Devine",
+        "Nikhil Vadgama",
+        "Paolo Tasca",
+        "Jiahua Xu"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/dlt-science/DLT-Corpus",
+      "published": "2026-02-25T15:53:41.000Z"
+    },
+    {
+      "id": "2602.18253",
+      "title": "MEG-to-MEG Transfer Learning and Cross-Task Speech/Silence Detection with Limited Data",
+      "authors": [
+        "Xabier de Zuazo",
+        "Vincenzo Verbeni",
+        "Eva Navas",
+        "Ibon Saratxaga",
+        "Mathieu Bourguignon",
+        "Nicola Molinaro"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/hitz-zentroa/meg-phone-decoding",
+      "published": "2026-02-20T14:39:50.000Z"
+    },
+    {
+      "id": "2602.22479",
+      "title": "Efficient Continual Learning in Language Models via Thalamically Routed Cortical Columns",
+      "authors": [
+        "Afshin Khadangi"
+      ],
+      "upvotes": 0,
+      "github": null,
+      "published": "2026-02-25T23:38:16.000Z"
+    }
+  ]
+}

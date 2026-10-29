@@ -1,0 +1,258 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-09-18",
+  "fetched_at": "2026-10-29T15:29:05.969Z",
+  "candidates": [
+    {
+      "id": "2409.11340",
+      "title": "OmniGen: Unified Image Generation",
+      "authors": [
+        "Shitao Xiao",
+        "Yueze Wang",
+        "Junjie Zhou",
+        "Huaying Yuan",
+        "Xingrun Xing",
+        "Ruiran Yan",
+        "Shuting Wang",
+        "Tiejun Huang",
+        "Zheng Liu"
+      ],
+      "upvotes": 115,
+      "github": "https://github.com/vectorspacelab/omnigen",
+      "published": "2024-09-17T16:42:46.000Z"
+    },
+    {
+      "id": "2409.11402",
+      "title": "NVLM: Open Frontier-Class Multimodal LLMs",
+      "authors": [
+        "Wenliang Dai",
+        "Nayeon Lee",
+        "Boxin Wang",
+        "Zhuoling Yang",
+        "Zihan Liu",
+        "Jon Barker",
+        "Tuomas Rintamaki",
+        "Mohammad Shoeybi",
+        "Bryan Catanzaro",
+        "Wei Ping"
+      ],
+      "upvotes": 75,
+      "github": null,
+      "published": "2024-09-17T17:59:06.000Z"
+    },
+    {
+      "id": "2409.11355",
+      "title": "Fine-Tuning Image-Conditional Diffusion Models is Easier than You Think",
+      "authors": [
+        "Gonzalo Martin Garcia",
+        "Karim Abou Zeid",
+        "Christian Schmidt",
+        "Daan de Geus",
+        "Alexander Hermans",
+        "Bastian Leibe"
+      ],
+      "upvotes": 31,
+      "github": "https://github.com/VisualComputingInstitute/diffusion-e2e-ft",
+      "published": "2024-09-17T16:58:52.000Z"
+    },
+    {
+      "id": "2409.11406",
+      "title": "Phidias: A Generative Model for Creating 3D Content from Text, Image, and 3D Conditions with Reference-Augmented Diffusion",
+      "authors": [
+        "Zhenwei Wang",
+        "Tengfei Wang",
+        "Zexin He",
+        "Gerhard Hancke",
+        "Ziwei Liu",
+        "Rynson W. H. Lau"
+      ],
+      "upvotes": 27,
+      "github": null,
+      "published": "2024-09-17T17:59:33.000Z"
+    },
+    {
+      "id": "2409.11136",
+      "title": "Promptriever: Instruction-Trained Retrievers Can Be Prompted Like Language Models",
+      "authors": [
+        "Orion Weller",
+        "Benjamin Van Durme",
+        "Dawn Lawrie",
+        "Ashwin Paranjape",
+        "Yuhao Zhang",
+        "Jack Hessel"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/orionw/promptriever",
+      "published": "2024-09-17T12:42:55.000Z"
+    },
+    {
+      "id": "2409.10819",
+      "title": "EzAudio: Enhancing Text-to-Audio Generation with Efficient Diffusion Transformer",
+      "authors": [
+        "Jiarui Hai",
+        "Yong Xu",
+        "Hao Zhang",
+        "Chenxing Li",
+        "Helin Wang",
+        "Mounya Elhilali",
+        "Dong Yu"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/haidog-yaqub/EzAudio",
+      "published": "2024-09-17T01:27:28.000Z"
+    },
+    {
+      "id": "2409.11055",
+      "title": "A Comprehensive Evaluation of Quantized Instruction-Tuned Large Language Models: An Experimental Analysis up to 405B",
+      "authors": [
+        "Jemin Lee",
+        "Sihyeong Park",
+        "Jinse Kwon",
+        "Jihun Oh",
+        "Yongin Kwon"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2024-09-17T10:31:37.000Z"
+    },
+    {
+      "id": "2409.10568",
+      "title": "On the limits of agency in agent-based models",
+      "authors": [
+        "Ayush Chopra",
+        "Shashank Kumar",
+        "Nurullah Giray-Kuru",
+        "Ramesh Raskar",
+        "Arnau Quera-Bofarull"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/agenttorch/agenttorch",
+      "published": "2024-09-14T04:17:24.000Z"
+    },
+    {
+      "id": "2409.11367",
+      "title": "OSV: One Step is Enough for High-Quality Image to Video Generation",
+      "authors": [
+        "Xiaofeng Mao",
+        "Zhengkai Jiang",
+        "Fu-Yun Wang",
+        "Wenbing Zhu",
+        "Jiangning Zhang",
+        "Hao Chen",
+        "Mingmin Chi",
+        "Yabiao Wang"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2024-09-17T17:16:37.000Z"
+    },
+    {
+      "id": "2409.10923",
+      "title": "Agile Continuous Jumping in Discontinuous Terrains",
+      "authors": [
+        "Yuxiang Yang",
+        "Guanya Shi",
+        "Changyi Lin",
+        "Xiangyun Meng",
+        "Rosario Scalise",
+        "Mateo Guaman Castro",
+        "Wenhao Yu",
+        "Tingnan Zhang",
+        "Ding Zhao",
+        "Jie Tan",
+        "Byron Boots"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2024-09-17T06:42:50.000Z"
+    },
+    {
+      "id": "2409.11211",
+      "title": "SplatFields: Neural Gaussian Splats for Sparse 3D and 4D Reconstruction",
+      "authors": [
+        "Marko Mihajlovic",
+        "Sergey Prokudin",
+        "Siyu Tang",
+        "Robert Maier",
+        "Federica Bogo",
+        "Tony Tung",
+        "Edmond Boyer"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/markomih/splatfields",
+      "published": "2024-09-17T14:04:20.000Z"
+    },
+    {
+      "id": "2409.11242",
+      "title": "Measuring and Enhancing Trustworthiness of LLMs in RAG through Grounded Attributions and Learning to Refuse",
+      "authors": [
+        "Maojia Song",
+        "Shang Hong Sim",
+        "Rishabh Bhardwaj",
+        "Hai Leong Chieu",
+        "Navonil Majumder",
+        "Soujanya Poria"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/declare-lab/trust-align",
+      "published": "2024-09-17T14:47:33.000Z"
+    },
+    {
+      "id": "2409.11733",
+      "title": "Human-like Affective Cognition in Foundation Models",
+      "authors": [
+        "Kanishk Gandhi",
+        "Zoe Lynch",
+        "Jan-Philipp Fränken",
+        "Kayla Patterson",
+        "Sharon Wambu",
+        "Tobias Gerstenberg",
+        "Desmond C. Ong",
+        "Noah D. Goodman"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2024-09-18T06:42:13.000Z"
+    },
+    {
+      "id": "2409.10831",
+      "title": "PDMX: A Large-Scale Public Domain MusicXML Dataset for Symbolic Music Processing",
+      "authors": [
+        "Phillip Long",
+        "Zachary Novack",
+        "Taylor Berg-Kirkpatrick",
+        "Julian McAuley"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/pnlong/PDMX",
+      "published": "2024-09-17T01:48:42.000Z"
+    },
+    {
+      "id": "2409.09323",
+      "title": "Implicit Neural Representations with Fourier Kolmogorov-Arnold Networks",
+      "authors": [
+        "Ali Mehrabian",
+        "Parsa Mojarad Adi",
+        "Moein Heidari",
+        "Ilker Hacihaliloglu"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/Ali-Meh619/FKAN",
+      "published": "2024-09-14T05:53:33.000Z"
+    },
+    {
+      "id": "2409.10836",
+      "title": "Single-Layer Learnable Activation for Implicit Neural Representation (SL^{2}A-INR)",
+      "authors": [
+        "Moein Heidari",
+        "Reza Rezaeian",
+        "Reza Azad",
+        "Dorit Merhof",
+        "Hamid Soltanian-Zadeh",
+        "Ilker Hacihaliloglu"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/Iceage7/SL2A-INR",
+      "published": "2024-09-17T02:02:15.000Z"
+    }
+  ]
+}

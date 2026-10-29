@@ -1,0 +1,455 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-09-07",
+  "fetched_at": "2026-10-29T15:36:47.218Z",
+  "candidates": [
+    {
+      "id": "2609.00365",
+      "title": "Dr. Claw: An AI Scientist Workspace for Vibe Research",
+      "authors": [
+        "Dingjie Song",
+        "Hanrong Zhang",
+        "Dawei Liu",
+        "Yixin Liu",
+        "Zongxia Li",
+        "Zhengqing Yuan",
+        "Siqi Zhang",
+        "Henry Peng Zou",
+        "Zhiling Yan",
+        "Yuxuan Zhang",
+        "Yanfang Ye",
+        "Philip S. Yu",
+        "Lichao Sun"
+      ],
+      "upvotes": 203,
+      "github": "https://github.com/OpenLAIR/dr-claw",
+      "published": "2026-08-31T00:00:00.000Z"
+    },
+    {
+      "id": "2609.02750",
+      "title": "Bilevel Coordinated Reflection: A Game-Theoretic Approach to Multi-Agent LLM Systems",
+      "authors": [
+        "Yihang Chen",
+        "Yuxiang Chen",
+        "Yuxuan Huang",
+        "Meng Fang",
+        "Weilin Luo",
+        "Jun Wang"
+      ],
+      "upvotes": 144,
+      "github": "https://github.com/YihangChen9/Bilevel-Coordinated-Reflection",
+      "published": "2026-09-02T00:00:00.000Z"
+    },
+    {
+      "id": "2609.04304",
+      "title": "Iris: Climbing to the Search Frontier",
+      "authors": [
+        "Ziyuan Liu",
+        "Hengqi Liu",
+        "Zichuan Wang",
+        "Yang Qin",
+        "Jiachen Liang",
+        "Xu Chu",
+        "Shaowei Chen",
+        "Yuantao Gu",
+        "Mu Chuan"
+      ],
+      "upvotes": 73,
+      "github": "https://github.com/AllSpark-Research/Iris",
+      "published": "2026-09-03T00:00:00.000Z"
+    },
+    {
+      "id": "2609.04250",
+      "title": "Motion-Omni: End-to-End Joint Speech and Full-Body Motion for Spoken Dialogue",
+      "authors": [
+        "Chengqian Ma",
+        "Wei Tao",
+        "Haoyu Zhang",
+        "Yiwen Guo"
+      ],
+      "upvotes": 43,
+      "github": "https://github.com/step-out/Motion-Omni",
+      "published": "2026-08-28T00:00:00.000Z"
+    },
+    {
+      "id": "2609.03586",
+      "title": "The Attention Triangle in Audio-Video Models",
+      "authors": [
+        "Sagi Polaczek",
+        "Noa Kraicer",
+        "Gal Metzer",
+        "Zhuo Ning",
+        "Ali Mahdavi-Amiri",
+        "Daniel Cohen-Or",
+        "Raja Giryes"
+      ],
+      "upvotes": 42,
+      "github": "https://github.com/SagiPolaczek/The-Attention-Triangle",
+      "published": "2026-09-03T00:00:00.000Z"
+    },
+    {
+      "id": "2609.00581",
+      "title": "Enoki: Efficient Multi-Level Hallucination Detection",
+      "authors": [
+        "Elisei Rykov",
+        "Timur Ionov",
+        "Nikolay Ivanov",
+        "Maksim Savkin",
+        "Maksim Makarenko",
+        "Alexander Panchenko",
+        "Vasily Konovalov",
+        "Julia Belikova"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/s-nlp/Enoki",
+      "published": "2026-09-01T02:21:28.000Z"
+    },
+    {
+      "id": "2609.05275",
+      "title": "Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference",
+      "authors": [
+        "Mostafa Elhoushi",
+        "Alex Pretko",
+        "Nolan Dey",
+        "Bin Claire Zhang",
+        "Gavia Gray",
+        "Gurpreet Gosal",
+        "Abdulrahman Mahmoud",
+        "Shane Bergsma",
+        "Joel Hestness"
+      ],
+      "upvotes": 25,
+      "github": null,
+      "published": "2026-09-04T00:00:00.000Z"
+    },
+    {
+      "id": "2609.05416",
+      "title": "WorldSculpt: Generating Compositional Worlds from Grounded Videos",
+      "authors": [
+        "Muyao Niu",
+        "Jixuan He",
+        "Ruihan Yu",
+        "Lian Fu",
+        "Yonghao Yu",
+        "Zheng-Hui Huang",
+        "Yifan Zhan",
+        "Fengbo Lan",
+        "Yongtao Ge",
+        "Yinqiang Zheng",
+        "Kaipeng Zhang",
+        "Zhixiang Wang"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/AlayaLab/WorldSculpt",
+      "published": "2026-09-04T00:00:00.000Z"
+    },
+    {
+      "id": "2609.05415",
+      "title": "UniMate: One Unified Model to Animate Diverse Skeletons",
+      "authors": [
+        "Linzhan Mou",
+        "Jiahui Lei",
+        "Zhiyang Dou",
+        "Chenyue Cai",
+        "Chaoyue Song",
+        "Adam Finkelstein",
+        "Szymon Rusinkiewicz"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/Friedrich-M/UniMate",
+      "published": "2026-09-04T00:00:00.000Z"
+    },
+    {
+      "id": "2609.05258",
+      "title": "Ask Before You Optimize: Dynamic Pre-Formulation Clarification for Interactive Optimization",
+      "authors": [
+        "Sihan Ge",
+        "Yichen Lin",
+        "Chenyu Zhou",
+        "Jianghao Lin",
+        "Tao Yao",
+        "Dongdong Ge"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/AIOR-Research/InterOpt",
+      "published": "2026-09-04T00:00:00.000Z"
+    },
+    {
+      "id": "2609.04523",
+      "title": "MaxKernel: Agentic Kernel Generation for TPUs",
+      "authors": [
+        "Shangkun Wang",
+        "Nina Cai",
+        "Charles Hoong",
+        "Julian Walker",
+        "Gerson Kroiz",
+        "George Vanica",
+        "Deepak Patil",
+        "Andi Gavrilescu",
+        "Hassan Sipra",
+        "Sethu Sankaran"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/AI-Hypercomputer/accelerator-agents",
+      "published": "2026-09-03T00:00:00.000Z"
+    },
+    {
+      "id": "2609.05295",
+      "title": "RISE: Recursive Improvement via Self-Extrapolating Policy Distillation",
+      "authors": [
+        "Yang Li",
+        "Semih Yavuz",
+        "Shafiq Joty"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2026-09-04T00:00:00.000Z"
+    },
+    {
+      "id": "2609.04753",
+      "title": "Beneath the Surface of Chains-of-Thought: A Mechanistic Interpretation of Reasoning Operations in LLMs",
+      "authors": [
+        "Seogyeong Jeong",
+        "Jaehui Hwang",
+        "Dongyoon Han",
+        "Geonmo Gu",
+        "Alice Oh",
+        "Taekyung Kim"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/naver-ai/beneath-cot",
+      "published": "2026-09-04T00:00:00.000Z"
+    },
+    {
+      "id": "2609.04611",
+      "title": "τ^τ-Bench: An Environment for End-To-End, Realistic Agent Construction",
+      "authors": [
+        "Quan Shi",
+        "Keshav Dhandhania",
+        "Karthik Narasimhan",
+        "Victor Barres"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/sierra-research/hyper-tau-bench",
+      "published": "2026-09-04T00:00:00.000Z"
+    },
+    {
+      "id": "2609.00444",
+      "title": "Group Adaptive Clipping Policy Optimization",
+      "authors": [
+        "Sheng Jia",
+        "Xiao Wang",
+        "Shiva Prasad Kasiviswanathan",
+        "Rein Houthooft"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/Sheng-J/GAPO",
+      "published": "2026-08-31T00:00:00.000Z"
+    },
+    {
+      "id": "2609.03729",
+      "title": "Unfold The World: Factorize 4D Properties in Reinforcing Spatial Reasoning",
+      "authors": [
+        "Yijun Yang",
+        "Shenghe Zheng",
+        "Wenbo Li",
+        "Jianhui Liu",
+        "Haoze Sun",
+        "Yanbing Zhang",
+        "Jiaxiu Jiang",
+        "Lin Song",
+        "Haoyang Huang",
+        "Nan Duan",
+        "Lei Zhu"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/ZimaBlue-WAM/FactoSR",
+      "published": "2026-09-03T00:00:00.000Z"
+    },
+    {
+      "id": "2609.04061",
+      "title": "When Models Edit Too Much: On the Fidelity of Minimal Code Edits",
+      "authors": [
+        "Tongyao Zhu",
+        "Wei Hern Lim",
+        "Min-Yen Kan"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/nreHieW/over-editing",
+      "published": "2026-09-03T00:00:00.000Z"
+    },
+    {
+      "id": "2608.05879",
+      "title": "To See a World in a Living Context: Unified Indoor-Outdoor Urban World Generation",
+      "authors": [
+        "Xiaobin Huang",
+        "Zilong Huang",
+        "Yang Luo",
+        "Hongchao Fan",
+        "Yiping Chen",
+        "Ting Han"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2026-08-29T00:00:00.000Z"
+    },
+    {
+      "id": "2609.04720",
+      "title": "Knowing What Not to Answer: Selective Non-Compliance in Vision-Language Models",
+      "authors": [
+        "Minji Kim",
+        "Jihyoung Jang",
+        "Hyounghun Kim"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/mz-kim/KoNA",
+      "published": "2026-09-04T00:00:00.000Z"
+    },
+    {
+      "id": "2609.04190",
+      "title": "One Editor, Many Edits: A Unified Training-Free Framework for Diverse Video Editing",
+      "authors": [
+        "Adheesh Sunil Juvekar",
+        "Onkar Kishor Susladkar",
+        "Kiet A. Nguyen",
+        "Muntasir Wahed",
+        "Nabeel Bashir",
+        "Xiaona Zhou",
+        "Tianjiao Yu",
+        "Vedant Shah",
+        "Ismini Lourentzou"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/PLAN-Lab/EditVid",
+      "published": "2026-09-03T00:00:00.000Z"
+    },
+    {
+      "id": "2609.04369",
+      "title": "AdaptVPR: Route-Aware Hard Positive Generation for Robust Visual Place Recognition",
+      "authors": [
+        "Shunpeng Chen",
+        "Jingyi Zhang",
+        "Changwei Wang",
+        "Shengpeng Xu",
+        "Yukun Song",
+        "Xingtian Pei",
+        "Jinzhou Lin",
+        "Li Guo",
+        "Shibiao Xu"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/chenshunpeng/AdaptVPR",
+      "published": "2026-09-03T00:00:00.000Z"
+    },
+    {
+      "id": "2609.04714",
+      "title": "Refuse without Refusal: A Structural Analysis of Safety-Tuning Responses for Reducing False Refusals in Language Models",
+      "authors": [
+        "Minji Kim",
+        "Hyounghun Kim"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/mz-kim/Refuse-without-Refusal",
+      "published": "2026-09-04T00:00:00.000Z"
+    },
+    {
+      "id": "2609.04490",
+      "title": "When Quantization Breaks Memory: Recurrent-State Write-Back in Low-Precision Temporal Inference",
+      "authors": [
+        "Ismail Erbas",
+        "Xavier Intes",
+        "Vikas Pandey"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2026-09-03T00:00:00.000Z"
+    },
+    {
+      "id": "2608.24263",
+      "title": "Real-World Knowledge-Guided Change Data Synthesis for Remote Sensing",
+      "authors": [
+        "Yaoyi Qi",
+        "Xingxing Weng",
+        "Chao Pang",
+        "Yongkang Cui",
+        "Xiangyu Hao",
+        "Xiaokang Zhang",
+        "Guibo Zhu",
+        "Gui-Song Xia"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/LINGQI711/KnowChange",
+      "published": "2026-08-25T00:00:00.000Z"
+    },
+    {
+      "id": "2609.04444",
+      "title": "HarvestBench: Measuring Whether LLM Agents Will Pay to Avoid Killing Animals",
+      "authors": [
+        "Jasmine Brazilek",
+        "Miles Tidmarsh",
+        "Matthias Endres",
+        "Anshuman Singh",
+        "Jeremiah Miller"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-09-03T00:00:00.000Z"
+    },
+    {
+      "id": "2609.03231",
+      "title": "The 2026 PNPL Competition: Word Classification and Efficient Cross-Subject Generalisation in LibriBrain100",
+      "authors": [
+        "Francesco Mantegna",
+        "Gereon Elvers",
+        "Dulhan Jayalath",
+        "Gilad Landau",
+        "Tasha Kim",
+        "Miran Özdogan",
+        "Luisa Kurth",
+        "Teyun Kwon",
+        "SungJun Cho",
+        "Benjamin Ballyk",
+        "Alex Fung",
+        "Anna Greer",
+        "Pratik Somaiya",
+        "Christian Herff",
+        "Yorguin Mantilla Ramos",
+        "Hamza Abdelhedi",
+        "Karim Jerbi",
+        "Greg Farquhar",
+        "Brendan Shillingford",
+        "Mark Woolrich",
+        "Oiwi Parker Jones"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-09-03T00:00:00.000Z"
+    },
+    {
+      "id": "2609.02780",
+      "title": "ShallowStream: Index Shallow then Answer Deep for Streaming Video Understanding",
+      "authors": [
+        "Jitai Hao",
+        "Ke Yang",
+        "Qiang Huang",
+        "Jun Yu"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/CURRENTF/ShallowStream",
+      "published": "2026-09-02T00:00:00.000Z"
+    },
+    {
+      "id": "2609.04242",
+      "title": "Training-Free Speech-Centric Omni Understanding with Frozen VLMs",
+      "authors": [
+        "Ankan Deria",
+        "Hanoona Rasheed",
+        "Xilin He",
+        "Fahad Shahbaz Khan",
+        "Salman Khan"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/mbzuai-oryx/OmniEvalKit",
+      "published": "2026-08-07T00:00:00.000Z"
+    }
+  ]
+}

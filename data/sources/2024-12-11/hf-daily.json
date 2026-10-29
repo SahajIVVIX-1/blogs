@@ -1,0 +1,471 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-12-11",
+  "fetched_at": "2026-10-29T15:29:57.001Z",
+  "candidates": [
+    {
+      "id": "2412.07589",
+      "title": "DiffSensei: Bridging Multi-Modal LLMs and Diffusion Models for Customized Manga Generation",
+      "authors": [
+        "Jianzong Wu",
+        "Chao Tang",
+        "Jingbo Wang",
+        "Yanhong Zeng",
+        "Xiangtai Li",
+        "Yunhai Tong"
+      ],
+      "upvotes": 48,
+      "github": "https://github.com/jianzongwu/DiffSensei",
+      "published": "2024-12-10T15:24:12.000Z"
+    },
+    {
+      "id": "2412.05210",
+      "title": "Evaluating and Aligning CodeLLMs on Human Preference",
+      "authors": [
+        "Jian Yang",
+        "Jiaxi Yang",
+        "Ke Jin",
+        "Yibo Miao",
+        "Lei Zhang",
+        "Liqun Yang",
+        "Zeyu Cui",
+        "Yichang Zhang",
+        "Binyuan Hui",
+        "Junyang Lin"
+      ],
+      "upvotes": 48,
+      "github": "https://github.com/QwenLM/Qwen2.5-Coder",
+      "published": "2024-12-06T17:40:38.000Z"
+    },
+    {
+      "id": "2412.07730",
+      "title": "STIV: Scalable Text and Image Conditioned Video Generation",
+      "authors": [
+        "Zongyu Lin",
+        "Wei Liu",
+        "Chen Chen",
+        "Jiasen Lu",
+        "Wenze Hu",
+        "Tsu-Jui Fu",
+        "Jesse Allardice",
+        "Zhengfeng Lai",
+        "Liangchen Song",
+        "Bowen Zhang",
+        "Cha Chen",
+        "Yiran Fei",
+        "Yifan Jiang",
+        "Lezhi Li",
+        "Yizhou Sun",
+        "Kai-Wei Chang",
+        "Yinfei Yang"
+      ],
+      "upvotes": 44,
+      "github": null,
+      "published": "2024-12-10T18:27:06.000Z"
+    },
+    {
+      "id": "2412.04653",
+      "title": "Hidden in the Noise: Two-Stage Robust Watermarking for Images",
+      "authors": [
+        "Kasra Arabi",
+        "Benjamin Feuer",
+        "R. Teal Witter",
+        "Chinmay Hegde",
+        "Niv Cohen"
+      ],
+      "upvotes": 31,
+      "github": "https://github.com/Kasraarabi/Hidden-in-the-Noise",
+      "published": "2024-12-05T22:50:42.000Z"
+    },
+    {
+      "id": "2412.07720",
+      "title": "ACDiT: Interpolating Autoregressive Conditional Modeling and Diffusion Transformer",
+      "authors": [
+        "Jinyi Hu",
+        "Shengding Hu",
+        "Yuxuan Song",
+        "Yufei Huang",
+        "Mingxuan Wang",
+        "Hao Zhou",
+        "Zhiyuan Liu",
+        "Wei-Ying Ma",
+        "Maosong Sun"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/thunlp/acdit",
+      "published": "2024-12-10T18:13:20.000Z"
+    },
+    {
+      "id": "2412.07774",
+      "title": "UniReal: Universal Image Generation and Editing via Learning Real-world Dynamics",
+      "authors": [
+        "Xi Chen",
+        "Zhifei Zhang",
+        "He Zhang",
+        "Yuqian Zhou",
+        "Soo Ye Kim",
+        "Qing Liu",
+        "Yijun Li",
+        "Jianming Zhang",
+        "Nanxuan Zhao",
+        "Yilin Wang",
+        "Hui Ding",
+        "Zhe Lin",
+        "Hengshuang Zhao"
+      ],
+      "upvotes": 30,
+      "github": null,
+      "published": "2024-12-10T18:59:55.000Z"
+    },
+    {
+      "id": "2412.07583",
+      "title": "Mobile Video Diffusion",
+      "authors": [
+        "Haitam Ben Yahia",
+        "Denis Korzhenkov",
+        "Ioannis Lelekas",
+        "Amir Ghodrati",
+        "Amirhossein Habibian"
+      ],
+      "upvotes": 20,
+      "github": null,
+      "published": "2024-12-10T15:19:10.000Z"
+    },
+    {
+      "id": "2412.07626",
+      "title": "OmniDocBench: Benchmarking Diverse PDF Document Parsing with Comprehensive Annotations",
+      "authors": [
+        "Linke Ouyang",
+        "Yuan Qu",
+        "Hongbin Zhou",
+        "Jiawei Zhu",
+        "Rui Zhang",
+        "Qunshu Lin",
+        "Bin Wang",
+        "Zhiyuan Zhao",
+        "Man Jiang",
+        "Xiaomeng Zhao",
+        "Jin Shi",
+        "Fan Wu",
+        "Pei Chu",
+        "Minghao Liu",
+        "Zhenxiang Li",
+        "Chao Xu",
+        "Bo Zhang",
+        "Botian Shi",
+        "Zhongying Tu",
+        "Conghui He"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/opendatalab/OmniDocBench",
+      "published": "2024-12-10T16:05:56.000Z"
+    },
+    {
+      "id": "2412.07674",
+      "title": "FiVA: Fine-grained Visual Attribute Dataset for Text-to-Image Diffusion Models",
+      "authors": [
+        "Tong Wu",
+        "Yinghao Xu",
+        "Ryan Po",
+        "Mengchen Zhang",
+        "Guandao Yang",
+        "Jiaqi Wang",
+        "Ziwei Liu",
+        "Dahua Lin",
+        "Gordon Wetzstein"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/wutong16/FiVA",
+      "published": "2024-12-10T17:02:58.000Z"
+    },
+    {
+      "id": "2412.07724",
+      "title": "Granite Guardian",
+      "authors": [
+        "Inkit Padhi",
+        "Manish Nagireddy",
+        "Giandomenico Cornacchia",
+        "Subhajit Chaudhury",
+        "Tejaswini Pedapati",
+        "Pierre Dognin",
+        "Keerthiram Murugesan",
+        "Erik Miehling",
+        "Martín Santillán Cooper",
+        "Kieran Fraser",
+        "Giulio Zizzo",
+        "Muhammad Zaid Hameed",
+        "Mark Purcell",
+        "Michael Desmond",
+        "Qian Pan",
+        "Inge Vejsbjerg",
+        "Elizabeth M. Daly",
+        "Michael Hind",
+        "Werner Geyer",
+        "Ambrish Rawat",
+        "Kush R. Varshney",
+        "Prasanna Sattigeri"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/ibm-granite/granite-guardian",
+      "published": "2024-12-10T18:17:02.000Z"
+    },
+    {
+      "id": "2412.06578",
+      "title": "MoViE: Mobile Diffusion for Video Editing",
+      "authors": [
+        "Adil Karjauv",
+        "Noor Fathima",
+        "Ioannis Lelekas",
+        "Fatih Porikli",
+        "Amir Ghodrati",
+        "Amirhossein Habibian"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2024-12-09T15:30:09.000Z"
+    },
+    {
+      "id": "2412.07759",
+      "title": "3DTrajMaster: Mastering 3D Trajectory for Multi-Entity Motion in Video Generation",
+      "authors": [
+        "Xiao Fu",
+        "Xian Liu",
+        "Xintao Wang",
+        "Sida Peng",
+        "Menghan Xia",
+        "Xiaoyu Shi",
+        "Ziyang Yuan",
+        "Pengfei Wan",
+        "Di Zhang",
+        "Dahua Lin"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/KwaiVGI/3DTrajMaster",
+      "published": "2025-07-04T00:00:00.000Z"
+    },
+    {
+      "id": "2412.07334",
+      "title": "Frame Representation Hypothesis: Multi-Token LLM Interpretability and Concept-Guided Text Generation",
+      "authors": [
+        "Pedro H. V. Valois",
+        "Lincon S. Souza",
+        "Erica K. Shimomoto",
+        "Kazuhiro Fukui"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/phvv-me/frame-representation-hypothesis",
+      "published": "2024-12-10T09:25:39.000Z"
+    },
+    {
+      "id": "2412.03548",
+      "title": "Perception Tokens Enhance Visual Reasoning in Multimodal Language Models",
+      "authors": [
+        "Mahtab Bigverdi",
+        "Zelun Luo",
+        "Cheng-Yu Hsieh",
+        "Ethan Shen",
+        "Dongping Chen",
+        "Linda G. Shapiro",
+        "Ranjay Krishna"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2024-12-04T18:45:35.000Z"
+    },
+    {
+      "id": "2412.07776",
+      "title": "Video Motion Transfer with Diffusion Transformers",
+      "authors": [
+        "Alexander Pondaven",
+        "Aliaksandr Siarohin",
+        "Sergey Tulyakov",
+        "Philip Torr",
+        "Fabio Pizzati"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/ditflow/ditflow",
+      "published": "2024-12-10T18:59:58.000Z"
+    },
+    {
+      "id": "2412.06674",
+      "title": "EMOv2: Pushing 5M Vision Model Frontier",
+      "authors": [
+        "Jiangning Zhang",
+        "Teng Hu",
+        "Haoyang He",
+        "Zhucun Xue",
+        "Yabiao Wang",
+        "Chengjie Wang",
+        "Yong Liu",
+        "Xiangtai Li",
+        "Dacheng Tao"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/zhangzjn/emov2",
+      "published": "2024-12-09T17:12:22.000Z"
+    },
+    {
+      "id": "2412.06845",
+      "title": "Fully Open Source Moxin-7B Technical Report",
+      "authors": [
+        "Pu Zhao",
+        "Xuan Shen",
+        "Zhenglun Kong",
+        "Yixin Shen",
+        "Sung-En Chang",
+        "Timothy Rupprecht",
+        "Lei Lu",
+        "Enfu Nan",
+        "Changdi Yang",
+        "Yumei He",
+        "Xingchen Xu",
+        "Yu Huang",
+        "Wei Wang",
+        "Yue Chen",
+        "Yong He",
+        "Yanzhi Wang"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/moxin-org/Moxin-LLM",
+      "published": "2024-12-08T02:01:46.000Z"
+    },
+    {
+      "id": "2412.06673",
+      "title": "ILLUME: Illuminating Your LLMs to See, Draw, and Self-Enhance",
+      "authors": [
+        "Chunwei Wang",
+        "Guansong Lu",
+        "Junwei Yang",
+        "Runhui Huang",
+        "Jianhua Han",
+        "Lu Hou",
+        "Wei Zhang",
+        "Hang Xu"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2024-12-09T17:11:50.000Z"
+    },
+    {
+      "id": "2412.05148",
+      "title": "LoRA.rar: Learning to Merge LoRAs via Hypernetworks for Subject-Style Conditioned Image Generation",
+      "authors": [
+        "Donald Shenaj",
+        "Ondrej Bohdal",
+        "Mete Ozay",
+        "Pietro Zanuttigh",
+        "Umberto Michieli"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/donaldssh/LoRA.rar",
+      "published": "2024-12-06T16:04:56.000Z"
+    },
+    {
+      "id": "2412.05983",
+      "title": "Chimera: Improving Generalist Model with Domain-Specific Experts",
+      "authors": [
+        "Tianshuo Peng",
+        "Mingsheng Li",
+        "Hongbin Zhou",
+        "Renqiu Xia",
+        "Renrui Zhang",
+        "Lei Bai",
+        "Song Mao",
+        "Bin Wang",
+        "Conghui He",
+        "Aojun Zhou",
+        "Botian Shi",
+        "Tao Chen",
+        "Bo Zhang",
+        "Xiangyu Yue"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/UniModal4Reasoning/Chimera",
+      "published": "2024-12-08T16:10:42.000Z"
+    },
+    {
+      "id": "2412.07721",
+      "title": "ObjCtrl-2.5D: Training-free Object Control with Camera Poses",
+      "authors": [
+        "Zhouxia Wang",
+        "Yushi Lan",
+        "Shangchen Zhou",
+        "Chen Change Loy"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/wzhouxiff/ObjCtrl-2.5D",
+      "published": "2024-12-10T18:14:30.000Z"
+    },
+    {
+      "id": "2412.06089",
+      "title": "GraPE: A Generate-Plan-Edit Framework for Compositional T2I Synthesis",
+      "authors": [
+        "Ashish Goswami",
+        "Satyam Kumar Modi",
+        "Santhosh Rishi Deshineni",
+        "Harman Singh",
+        "Prathosh A. P",
+        "Parag Singla"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/dair-iitd/GraPE",
+      "published": "2024-12-08T22:29:56.000Z"
+    },
+    {
+      "id": "2412.07282",
+      "title": "HARP: Hesitation-Aware Reframing in Transformer Inference Pass",
+      "authors": [
+        "Romain Storaï",
+        "Seung-won Hwang"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/romsto/harp",
+      "published": "2024-12-10T08:12:22.000Z"
+    },
+    {
+      "id": "2412.07187",
+      "title": "A New Federated Learning Framework Against Gradient Inversion Attacks",
+      "authors": [
+        "Pengxin Guo",
+        "Shuang Zeng",
+        "Wenhao Chen",
+        "Xiaodan Zhang",
+        "Weihong Ren",
+        "Yuyin Zhou",
+        "Liangqiong Qu"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/pengxin-guo/hyperfl",
+      "published": "2024-12-10T04:53:42.000Z"
+    },
+    {
+      "id": "2412.07338",
+      "title": "Contextualized Counterspeech: Strategies for Adaptation, Personalization, and Evaluation",
+      "authors": [
+        "Lorenzo Cima",
+        "Alessio Miaschi",
+        "Amaury Trujillo",
+        "Marco Avvenuti",
+        "Felice Dell'Orletta",
+        "Stefano Cresci"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2024-12-10T09:29:52.000Z"
+    },
+    {
+      "id": "2412.04835",
+      "title": "Maximizing Alignment with Minimal Feedback: Efficiently Learning Rewards for Visuomotor Robot Policy Alignment",
+      "authors": [
+        "Ran Tian",
+        "Yilin Wu",
+        "Chenfeng Xu",
+        "Masayoshi Tomizuka",
+        "Jitendra Malik",
+        "Andrea Bajcsy"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2024-12-06T08:04:02.000Z"
+    }
+  ]
+}

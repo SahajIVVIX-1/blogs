@@ -1,0 +1,805 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-03-13",
+  "fetched_at": "2026-10-29T15:34:59.373Z",
+  "candidates": [
+    {
+      "id": "2603.12255",
+      "title": "Spatial-TTT: Streaming Visual-based Spatial Intelligence with Test-Time Training",
+      "authors": [
+        "Fangfu Liu",
+        "Diankun Wu",
+        "Jiawei Chi",
+        "Yimo Cai",
+        "Yi-Hsin Hung",
+        "Xumin Yu",
+        "Hao Li",
+        "Han Hu",
+        "Yongming Rao",
+        "Yueqi Duan"
+      ],
+      "upvotes": 91,
+      "github": "https://github.com/THU-SI/Spatial-TTT",
+      "published": "2026-03-12T17:58:58.000Z"
+    },
+    {
+      "id": "2603.12201",
+      "title": "IndexCache: Accelerating Sparse Attention via Cross-Layer Index Reuse",
+      "authors": [
+        "Yushi Bai",
+        "Qian Dong",
+        "Ting Jiang",
+        "Xin Lv",
+        "Zhengxiao Du",
+        "Aohan Zeng",
+        "Jie Tang",
+        "Juanzi Li"
+      ],
+      "upvotes": 68,
+      "github": "https://github.com/THUDM/IndexCache",
+      "published": "2026-03-12T17:27:21.000Z"
+    },
+    {
+      "id": "2603.12180",
+      "title": "Strategic Navigation or Stochastic Search? How Agents and Humans Reason Over Document Collections",
+      "authors": [
+        "Łukasz Borchmann",
+        "Jordy Van Landeghem",
+        "Michał Turski",
+        "Shreyansh Padarha",
+        "Ryan Othniel Kearns",
+        "Adam Mahdi",
+        "Niels Rogge",
+        "Clémentine Fourrier",
+        "Siwei Han",
+        "Huaxiu Yao",
+        "Artemis Llabrés",
+        "Yiming Xu",
+        "Dimosthenis Karatzas",
+        "Hao Zhang",
+        "Anupam Datta"
+      ],
+      "upvotes": 67,
+      "github": "https://github.com/OxRML/MADQA",
+      "published": "2026-03-12T17:11:22.000Z"
+    },
+    {
+      "id": "2603.10178",
+      "title": "Video-Based Reward Modeling for Computer-Use Agents",
+      "authors": [
+        "Linxin Song",
+        "Jieyu Zhang",
+        "Huanxin Sheng",
+        "Taiwei Shi",
+        "Gupta Rahul",
+        "Yang Liu",
+        "Ranjay Krishna",
+        "Jian Kang",
+        "Jieyu Zhao"
+      ],
+      "upvotes": 43,
+      "github": "https://github.com/limenlp/ExeVRM",
+      "published": "2026-03-10T19:17:22.000Z"
+    },
+    {
+      "id": "2603.12056",
+      "title": "XSkill: Continual Learning from Experience and Skills in Multimodal Agents",
+      "authors": [
+        "Guanyu Jiang",
+        "Zhaochen Su",
+        "Xiaoye Qu",
+        "Yi R. Fung"
+      ],
+      "upvotes": 34,
+      "github": "https://github.com/XSkill-Agent/XSkill",
+      "published": "2026-07-01T00:00:00.000Z"
+    },
+    {
+      "id": "2603.11421",
+      "title": "ShotVerse: Advancing Cinematic Camera Control for Text-Driven Multi-Shot Video Creation",
+      "authors": [
+        "Songlin Yang",
+        "Zhe Wang",
+        "Xuyi Yang",
+        "Songchun Zhang",
+        "Xianghao Kong",
+        "Taiyi Wu",
+        "Xiaotong Zhao",
+        "Ran Zhang",
+        "Alan Zhao",
+        "Anyi Rao"
+      ],
+      "upvotes": 34,
+      "github": "https://github.com/Songlin1998/ShotVerse",
+      "published": "2026-03-12T01:27:08.000Z"
+    },
+    {
+      "id": "2603.12257",
+      "title": "DreamVideo-Omni: Omni-Motion Controlled Multi-Subject Video Customization with Latent Identity Reinforcement Learning",
+      "authors": [
+        "Yujie Wei",
+        "Xinyu Liu",
+        "Shiwei Zhang",
+        "Hangjie Yuan",
+        "Jinbo Xing",
+        "Zhekai Chen",
+        "Xiang Wang",
+        "Haonan Qiu",
+        "Rui Zhao",
+        "Yutong Feng",
+        "Ruihang Chu",
+        "Yingya Zhang",
+        "Yike Guo",
+        "Xihui Liu",
+        "Hongming Shan"
+      ],
+      "upvotes": 32,
+      "github": null,
+      "published": "2026-03-12T17:59:12.000Z"
+    },
+    {
+      "id": "2603.12250",
+      "title": "DVD: Deterministic Video Depth Estimation with Generative Priors",
+      "authors": [
+        "Hongfei Zhang",
+        "Harold Haodong Chen",
+        "Chenfei Liao",
+        "Jing He",
+        "Zixin Zhang",
+        "Haodong Li",
+        "Yihao Liang",
+        "Kanghao Chen",
+        "Bin Ren",
+        "Xu Zheng",
+        "Shuai Yang",
+        "Kun Zhou",
+        "Yinchuan Li",
+        "Nicu Sebe",
+        "Ying-Cong Chen"
+      ],
+      "upvotes": 28,
+      "github": "https://github.com/EnVision-Research/DVD",
+      "published": "2026-03-12T17:58:06.000Z"
+    },
+    {
+      "id": "2603.11593",
+      "title": "WeEdit: A Dataset, Benchmark and Glyph-Guided Framework for Text-centric Image Editing",
+      "authors": [
+        "Hui Zhang",
+        "Juntao Liu",
+        "Zongkai Liu",
+        "Liqiang Niu",
+        "Fandong Meng",
+        "Zuxuan Wu",
+        "Yu-Gang Jiang"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/HuiZhang0812/WeEdit",
+      "published": "2026-03-12T06:25:09.000Z"
+    },
+    {
+      "id": "2603.12247",
+      "title": "Trust Your Critic: Robust Reward Modeling and Reinforcement Learning for Faithful Image Editing and Generation",
+      "authors": [
+        "Xiangyu Zhao",
+        "Peiyuan Zhang",
+        "Junming Lin",
+        "Tianhao Liang",
+        "Yuchen Duan",
+        "Shengyuan Ding",
+        "Changyao Tian",
+        "Yuhang Zang",
+        "Junchi Yan",
+        "Xue Yang"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/VisionXLab/FIRM-Reward",
+      "published": "2026-03-12T17:57:21.000Z"
+    },
+    {
+      "id": "2603.12245",
+      "title": "One Model, Many Budgets: Elastic Latent Interfaces for Diffusion Transformers",
+      "authors": [
+        "Moayed Haji-Ali",
+        "Willi Menapace",
+        "Ivan Skorokhodov",
+        "Dogyun Park",
+        "Anil Kag",
+        "Michael Vasilkovsky",
+        "Sergey Tulyakov",
+        "Vicente Ordonez",
+        "Aliaksandr Siarohin"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/snap-research/elit",
+      "published": "2026-03-12T17:57:04.000Z"
+    },
+    {
+      "id": "2603.09160",
+      "title": "RubiCap: Rubric-Guided Reinforcement Learning for Dense Image Captioning",
+      "authors": [
+        "Tzu-Heng Huang",
+        "Sirajul Salekin",
+        "Javier Movellan",
+        "Frederic Sala",
+        "Manjot Bilkhu"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2026-03-10T03:51:27.000Z"
+    },
+    {
+      "id": "2603.12264",
+      "title": "GRADE: Benchmarking Discipline-Informed Reasoning in Image Editing",
+      "authors": [
+        "Mingxin Liu",
+        "Ziqian Fan",
+        "Zhaokai Wang",
+        "Leyao Gu",
+        "Zirun Zhu",
+        "Yiguo He",
+        "Yuchen Yang",
+        "Changyao Tian",
+        "Xiangyu Zhao",
+        "Ning Liao",
+        "Shaofeng Zhang",
+        "Qibing Ren",
+        "Zhihang Zhong",
+        "Xuanhe Zhou",
+        "Junchi Yan",
+        "Xue Yang"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/VisionXLab/GRADE",
+      "published": "2026-03-12T17:59:52.000Z"
+    },
+    {
+      "id": "2603.10444",
+      "title": "The Curse and Blessing of Mean Bias in FP4-Quantized LLM Training",
+      "authors": [
+        "Hengjie Cao",
+        "Zhendong Huang",
+        "Mengyi Chen",
+        "Yifeng Yang",
+        "Fanqi Yu",
+        "Ruijun Huang",
+        "Fang Dong",
+        "Xin Zhang",
+        "Jixian Zhou",
+        "Anrui Chen",
+        "Mingzhi Dong",
+        "Yujiang Wang",
+        "Jinlong Hou",
+        "Qin Lv",
+        "Yuan Cheng",
+        "Tun Lu",
+        "Fan Yang",
+        "Li Shang"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2026-03-11T05:59:12.000Z"
+    },
+    {
+      "id": "2603.12265",
+      "title": "OmniStream: Mastering Perception, Reconstruction and Action in Continuous Streams",
+      "authors": [
+        "Yibin Yan",
+        "Jilan Xu",
+        "Shangzhe Di",
+        "Haoning Wu",
+        "Weidi Xie"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/Go2Heart/OmniStream",
+      "published": "2026-03-12T17:59:55.000Z"
+    },
+    {
+      "id": "2603.12267",
+      "title": "EVATok: Adaptive Length Video Tokenization for Efficient Visual Autoregressive Generation",
+      "authors": [
+        "Tianwei Xiong",
+        "Jun Hao Liew",
+        "Zilong Huang",
+        "Zhijie Lin",
+        "Jiashi Feng",
+        "Xihui Liu"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/HKU-MMLab/EVATok",
+      "published": "2026-03-12T17:59:59.000Z"
+    },
+    {
+      "id": "2603.12252",
+      "title": "EndoCoT: Scaling Endogenous Chain-of-Thought Reasoning in Diffusion Models",
+      "authors": [
+        "Xuanlang Dai",
+        "Yujie Zhou",
+        "Long Xing",
+        "Jiazi Bu",
+        "Xilin Wei",
+        "Yuhong Liu",
+        "Beichen Zhang",
+        "Kai Chen",
+        "Yuhang Zang"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/InternLM/EndoCoT",
+      "published": "2026-03-12T17:58:48.000Z"
+    },
+    {
+      "id": "2603.12228",
+      "title": "Neural Thickets: Diverse Task Experts Are Dense Around Pretrained Weights",
+      "authors": [
+        "Yulu Gan",
+        "Phillip Isola"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/sunrainyg/RandOpt",
+      "published": "2026-03-12T17:49:30.000Z"
+    },
+    {
+      "id": "2603.11327",
+      "title": "Meta-Reinforcement Learning with Self-Reflection for Agentic Search",
+      "authors": [
+        "Teng Xiao",
+        "Yige Yuan",
+        "Hamish Ivison",
+        "Huaisheng Zhu",
+        "Faeze Brahman",
+        "Nathan Lambert",
+        "Pradeep Dasigi",
+        "Noah A. Smith",
+        "Hannaneh Hajishirzi"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/tengxiao1/MR-Search",
+      "published": "2026-03-11T21:40:26.000Z"
+    },
+    {
+      "id": "2603.11531",
+      "title": "Mobile-GS: Real-time Gaussian Splatting for Mobile Devices",
+      "authors": [
+        "Xiaobiao Du",
+        "Yida Wang",
+        "Kun Zhan",
+        "Xin Yu"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/xiaobiaodu/mobile-gs",
+      "published": "2026-03-12T04:33:04.000Z"
+    },
+    {
+      "id": "2603.11103",
+      "title": "Understanding by Reconstruction: Reversing the Software Development Process for LLM Pretraining",
+      "authors": [
+        "Zhiyuan Zeng",
+        "Yichi Zhang",
+        "Yong Shan",
+        "Kai Hua",
+        "Siyuan Fang",
+        "Zhaiyu Liu",
+        "Jiaheng Liu",
+        "Haozhe Wang",
+        "Yining Zheng",
+        "Ming Ding",
+        "Ke Shen",
+        "Ge Zhang",
+        "Wenhao Huang",
+        "Xipeng Qiu"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2026-03-11T09:23:20.000Z"
+    },
+    {
+      "id": "2603.11510",
+      "title": "Tiny Aya: Bridging Scale and Multilingual Depth",
+      "authors": [
+        "Alejandro R. Salamanca",
+        "Diana Abagyan",
+        "Daniel D'souza",
+        "Ammar Khairi",
+        "David Mora",
+        "Saurabh Dash",
+        "Viraat Aryabumi",
+        "Sara Rajaee",
+        "Mehrnaz Mofakhami",
+        "Ananya Sahu",
+        "Thomas Euyang",
+        "Brittawnya Prince",
+        "Madeline Smith",
+        "Hangyu Lin",
+        "Acyr Locatelli",
+        "Sara Hooker",
+        "Tom Kocmi",
+        "Aidan Gomez",
+        "Ivan Zhang",
+        "Phil Blunsom",
+        "Nick Frosst",
+        "Joelle Pineau",
+        "Beyza Ermis",
+        "Ahmet Üstün",
+        "Julia Kreutzer",
+        "Marzieh Fadaee"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2026-03-12T03:53:13.000Z"
+    },
+    {
+      "id": "2603.10055",
+      "title": "Training Language Models via Neural Cellular Automata",
+      "authors": [
+        "Dan Lee",
+        "Seungwook Han",
+        "Akarsh Kumar",
+        "Pulkit Agrawal"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/danihyunlee/nca-pre-pretraining",
+      "published": "2026-03-09T18:14:26.000Z"
+    },
+    {
+      "id": "2603.10420",
+      "title": "FireRedASR2S: A State-of-the-Art Industrial-Grade All-in-One Automatic Speech Recognition System",
+      "authors": [
+        "Kaituo Xu",
+        "Yan Jia",
+        "Kai Huang",
+        "Junjie Chen",
+        "Wenpeng Li",
+        "Kun Liu",
+        "Feng-Long Xie",
+        "Xu Tang",
+        "Yao Hu"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/FireRedTeam/FireRedASR2S",
+      "published": "2026-03-11T05:11:06.000Z"
+    },
+    {
+      "id": "2603.10652",
+      "title": "Are Video Reasoning Models Ready to Go Outside?",
+      "authors": [
+        "Yangfan He",
+        "Changgyu Boo",
+        "Jaehong Yoon"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/codepassionor/ROVA",
+      "published": "2026-03-11T11:10:52.000Z"
+    },
+    {
+      "id": "2603.10365",
+      "title": "Geometric Autoencoder for Diffusion Models",
+      "authors": [
+        "Hangyu Liu",
+        "Jianyong Wang",
+        "Yutao Sun"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/sii-research/GAE",
+      "published": "2026-03-11T03:29:16.000Z"
+    },
+    {
+      "id": "2603.09970",
+      "title": "CREATE: Testing LLMs for Associative Creativity",
+      "authors": [
+        "Manya Wadhwa",
+        "Tiasa Singha Roy",
+        "Harvey Lederman",
+        "Junyi Jessy Li",
+        "Greg Durrett"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/ManyaWadhwa/CREATE",
+      "published": "2026-03-10T17:58:44.000Z"
+    },
+    {
+      "id": "2603.12145",
+      "title": "Automatic Generation of High-Performance RL Environments",
+      "authors": [
+        "Seth Karten",
+        "Rahul Dev Appapogu",
+        "Chi Jin"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2026-03-12T16:45:47.000Z"
+    },
+    {
+      "id": "2603.11076",
+      "title": "DIVE: Scaling Diversity in Agentic Task Synthesis for Generalizable Tool Use",
+      "authors": [
+        "Aili Chen",
+        "Chi Zhang",
+        "Junteng Liu",
+        "Jiangjie Chen",
+        "Chengyu Du",
+        "Yunji Li",
+        "Ming Zhong",
+        "Qin Wang",
+        "Zhengmao Zhu",
+        "Jiayuan Song",
+        "Ke Ji",
+        "Junxian He",
+        "Pengyu Zhao",
+        "Yanghua Xiao"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/sheep333c/DIVE",
+      "published": "2026-03-10T20:54:23.000Z"
+    },
+    {
+      "id": "2603.12246",
+      "title": "Examining Reasoning LLMs-as-Judges in Non-Verifiable LLM Post-Training",
+      "authors": [
+        "Yixin Liu",
+        "Yue Yu",
+        "DiJia Su",
+        "Sid Wang",
+        "Xuewei Wang",
+        "Song Jiang",
+        "Bo Liu",
+        "Arman Cohan",
+        "Yuandong Tian",
+        "Zhengxing Chen"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2026-03-12T17:57:06.000Z"
+    },
+    {
+      "id": "2603.12057",
+      "title": "Coarse-Guided Visual Generation via Weighted h-Transform Sampling",
+      "authors": [
+        "Yanghao Wang",
+        "Ziqi Jiang",
+        "Zhen Wang",
+        "Long Chen"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/HKUST-LongGroup/Coarse-guided-Gen",
+      "published": "2026-03-12T15:26:19.000Z"
+    },
+    {
+      "id": "2603.07534",
+      "title": "Accent Vector: Controllable Accent Manipulation for Multilingual TTS Without Accented Data",
+      "authors": [
+        "Thanathai Lertpetchpun",
+        "Thanapat Trachu",
+        "Jihwan Lee",
+        "Tiantian Feng",
+        "Dani Byrd",
+        "Shrikanth Narayanan"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-03-08T08:48:42.000Z"
+    },
+    {
+      "id": "2603.11665",
+      "title": "Multi-Task Reinforcement Learning for Enhanced Multimodal LLM-as-a-Judge",
+      "authors": [
+        "Junjie Wu",
+        "Xuan Kan",
+        "Zihao He",
+        "Shunwen Tan",
+        "Bo Pan",
+        "Kaitai Zhang"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-03-12T08:32:38.000Z"
+    },
+    {
+      "id": "2603.08258",
+      "title": "WaDi: Weight Direction-aware Distillation for One-step Image Synthesis",
+      "authors": [
+        "Lei Wang",
+        "Yang Cheng",
+        "Senmao Li",
+        "Ge Wu",
+        "Yaxing Wang",
+        "Jian Yang"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/gudaochangsheng/WaDi",
+      "published": "2026-03-09T11:27:28.000Z"
+    },
+    {
+      "id": "2603.11178",
+      "title": "PACED: Distillation at the Frontier of Student Competence",
+      "authors": [
+        "Yuanda Xu",
+        "Hejian Sang",
+        "Zhengze Zhou",
+        "Ran He",
+        "Zhipeng Wang"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-03-11T18:00:05.000Z"
+    },
+    {
+      "id": "2603.12046",
+      "title": "Dr. SHAP-AV: Decoding Relative Modality Contributions via Shapley Attribution in Audio-Visual Speech Recognition",
+      "authors": [
+        "Umberto Cappellazzo",
+        "Stavros Petridis",
+        "Maja Pantic"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/umbertocappellazzo/Dr-SHAP-AV",
+      "published": "2026-03-12T15:22:27.000Z"
+    },
+    {
+      "id": "2603.07865",
+      "title": "SoundWeaver: Semantic Warm-Starting for Text-to-Audio Diffusion Serving",
+      "authors": [
+        "Ayush Barik",
+        "Sofia Stoica",
+        "Nikhil Sarda",
+        "Arnav Kethana",
+        "Abhinav Khanduja",
+        "Muchen Xu",
+        "Fan Lai"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-03-09T00:38:02.000Z"
+    },
+    {
+      "id": "2603.11653",
+      "title": "Simple Recipe Works: Vision-Language-Action Models are Natural Continual Learners with Reinforcement Learning",
+      "authors": [
+        "Jiaheng Hu",
+        "Jay Shim",
+        "Chen Tang",
+        "Yoonchang Sung",
+        "Bo Liu",
+        "Peter Stone",
+        "Roberto Martin-Martin"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/UT-Austin-RobIn/continual-vla-rl",
+      "published": "2026-03-12T08:22:39.000Z"
+    },
+    {
+      "id": "2602.24181",
+      "title": "A Mixed Diet Makes DINO An Omnivorous Vision Encoder",
+      "authors": [
+        "Rishabh Kabra",
+        "Maks Ovsjanikov",
+        "Drew A. Hudson",
+        "Ye Xia",
+        "Skanda Koppula",
+        "Andre Araujo",
+        "Joao Carreira",
+        "Niloy J. Mitra"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2026-02-27T17:03:45.000Z"
+    },
+    {
+      "id": "2603.11045",
+      "title": "Neural Field Thermal Tomography: A Differentiable Physics Framework for Non-Destructive Evaluation",
+      "authors": [
+        "Tao Zhong",
+        "Yixun Hu",
+        "Dongzhe Zheng",
+        "Aditya Sood",
+        "Christine Allen-Blanchette"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2026-03-11T17:59:42.000Z"
+    },
+    {
+      "id": "2603.12089",
+      "title": "EmbTracker: Traceable Black-box Watermarking for Federated Language Models",
+      "authors": [
+        "Haodong Zhao",
+        "Jinming Hu",
+        "Yijie Bai",
+        "Tian Dong",
+        "Wei Du",
+        "Zhuosheng Zhang",
+        "Yanjiao Chen",
+        "Haojin Zhu",
+        "Gongshen Liu"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2026-03-12T15:57:32.000Z"
+    },
+    {
+      "id": "2603.07988",
+      "title": "TeamHOI: Learning a Unified Policy for Cooperative Human-Object Interactions with Any Team Size",
+      "authors": [
+        "Stefan Lionar",
+        "Gim Hee Lee"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/sail-sg/TeamHOI",
+      "published": "2026-03-09T05:52:13.000Z"
+    },
+    {
+      "id": "2603.11487",
+      "title": "Attention Sinks Are Provably Necessary in Softmax Transformers: Evidence from Trigger-Conditional Tasks",
+      "authors": [
+        "Yuval Ran-Milo"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/YuvMilo/sinks-are-provably-necessary",
+      "published": "2026-03-12T03:13:28.000Z"
+    },
+    {
+      "id": "2603.06922",
+      "title": "NerVE: Nonlinear Eigenspectrum Dynamics in LLM Feed-Forward Networks",
+      "authors": [
+        "Nandan Kumar Jha",
+        "Brandon Reagen"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2026-03-06T22:50:43.000Z"
+    },
+    {
+      "id": "2603.05483",
+      "title": "SurvHTE-Bench: A Benchmark for Heterogeneous Treatment Effect Estimation in Survival Analysis",
+      "authors": [
+        "Shahriar Noroozizadeh",
+        "Xiaobin Shen",
+        "Jeremy C. Weiss",
+        "George H. Chen"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/Shahriarnz14/SurvHTE-Bench",
+      "published": "2026-03-05T18:52:02.000Z"
+    },
+    {
+      "id": "2603.10604",
+      "title": "HyPER-GAN: Hybrid Patch-Based Image-to-Image Translation for Real-Time Photorealism Enhancement",
+      "authors": [
+        "Stefanos Pasios",
+        "Nikos Nikolaidis"
+      ],
+      "upvotes": 0,
+      "github": "https://github.com/stefanos50/HyPER-GAN",
+      "published": "2026-03-11T10:05:32.000Z"
+    },
+    {
+      "id": "2603.07331",
+      "title": "Causal Attribution of Coastal Water Clarity Degradation to Nickel Processing Expansion at the Indonesia Morowali Industrial Park, Sulawesi",
+      "authors": [
+        "Sandy Hardian Susanto Herho",
+        "Alfita Puspa Handayani",
+        "Iwan Pramesti Anwar",
+        "Faruq Khadami",
+        "Karina Aprilia Sujatmiko",
+        "Doandy Yonathan Wibisono",
+        "Rusmawan Suwarman",
+        "Dasapta Erwin Irawan"
+      ],
+      "upvotes": 0,
+      "github": "https://github.com/sandyherho/supplMorowaliOcean",
+      "published": "2026-03-07T20:22:27.000Z"
+    },
+    {
+      "id": "2603.10125",
+      "title": "4DEquine: Disentangling Motion and Appearance for 4D Equine Reconstruction from Monocular Video",
+      "authors": [
+        "Jin Lyu",
+        "Liang An",
+        "Pujin Cheng",
+        "Yebin Liu",
+        "Xiaoying Tang"
+      ],
+      "upvotes": 0,
+      "github": "https://github.com/luoxue-star/4DEquine",
+      "published": "2026-03-10T18:01:10.000Z"
+    }
+  ]
+}

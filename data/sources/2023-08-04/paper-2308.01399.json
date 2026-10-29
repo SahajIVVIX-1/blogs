@@ -1,0 +1,7 @@
+{
+  "id": "2308.01399",
+  "html": "https://arxiv.org/html/2308.01399",
+  "limitations": null,
+  "conclusion": "Taken together, our results suggest a way forward for multimodal agents that can understand language and vision and act in the world. We presented Dynalang, an agent that does so through future prediction as a rich self-supervised objective. In contrast to model-free methods that struggle with increased language perplexity, we demonstrated in four diverse environments how Dynalang can understand various types of language and what they mean in the world, even when learning from scratch from its own experiences. Additionally, we show the same world model architecture can be pretrained on offline text data in a way that benefits downstream learning from experience, paving the way towards a self-improving multimodal agent that interacts with humans in the world.",
+  "figure": null
+}

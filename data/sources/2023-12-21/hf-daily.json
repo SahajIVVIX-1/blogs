@@ -1,0 +1,397 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2023-12-21",
+  "fetched_at": "2026-10-29T15:26:20.177Z",
+  "candidates": [
+    {
+      "id": "2312.12491",
+      "title": "StreamDiffusion: A Pipeline-level Solution for Real-time Interactive Generation",
+      "authors": [
+        "Akio Kodaira",
+        "Chenfeng Xu",
+        "Toshiki Hazama",
+        "Takanori Yoshimoto",
+        "Kohei Ohno",
+        "Shogo Mitsuhori",
+        "Soichi Sugano",
+        "Hanying Cho",
+        "Zhijian Liu",
+        "Kurt Keutzer"
+      ],
+      "upvotes": 75,
+      "github": "https://github.com/cumulo-autumn/StreamDiffusion",
+      "published": "2023-12-19T18:18:33.000Z"
+    },
+    {
+      "id": "2312.14125",
+      "title": "VideoPoet: A Large Language Model for Zero-Shot Video Generation",
+      "authors": [
+        "Dan Kondratyuk",
+        "Lijun Yu",
+        "Xiuye Gu",
+        "José Lezama",
+        "Jonathan Huang",
+        "Rachel Hornung",
+        "Hartwig Adam",
+        "Hassan Akbari",
+        "Yair Alon",
+        "Vighnesh Birodkar",
+        "Yong Cheng",
+        "Ming-Chang Chiu",
+        "Josh Dillon",
+        "Irfan Essa",
+        "Agrim Gupta",
+        "Meera Hahn",
+        "Anja Hauth",
+        "David Hendon",
+        "Alonso Martinez",
+        "David Minnen",
+        "David Ross",
+        "Grant Schindler",
+        "Mikhail Sirotenko",
+        "Kihyuk Sohn",
+        "Krishna Somandepalli",
+        "Huisheng Wang",
+        "Jimmy Yan",
+        "Ming-Hsuan Yang",
+        "Xuan Yang",
+        "Bryan Seybold",
+        "Lu Jiang"
+      ],
+      "upvotes": 47,
+      "github": null,
+      "published": "2023-12-21T18:46:41.000Z"
+    },
+    {
+      "id": "2312.12456",
+      "title": "PowerInfer: Fast Large Language Model Serving with a Consumer-grade GPU",
+      "authors": [
+        "Yixin Song",
+        "Zeyu Mi",
+        "Haotong Xie",
+        "Haibo Chen"
+      ],
+      "upvotes": 46,
+      "github": "https://github.com/sjtu-ipads/powerinfer",
+      "published": "2023-12-16T02:27:00.000Z"
+    },
+    {
+      "id": "2312.13286",
+      "title": "Generative Multimodal Models are In-Context Learners",
+      "authors": [
+        "Quan Sun",
+        "Yufeng Cui",
+        "Xiaosong Zhang",
+        "Fan Zhang",
+        "Qiying Yu",
+        "Zhengxiong Luo",
+        "Yueze Wang",
+        "Yongming Rao",
+        "Jingjing Liu",
+        "Tiejun Huang",
+        "Xinlong Wang"
+      ],
+      "upvotes": 36,
+      "github": "https://github.com/baaivision/emu",
+      "published": "2023-12-20T18:59:58.000Z"
+    },
+    {
+      "id": "2312.13578",
+      "title": "DREAM-Talk: Diffusion-based Realistic Emotional Audio-driven Method for Single Image Talking Face Generation",
+      "authors": [
+        "Chenxu Zhang",
+        "Chao Wang",
+        "Jianfeng Zhang",
+        "Hongyi Xu",
+        "Guoxian Song",
+        "You Xie",
+        "Linjie Luo",
+        "Yapeng Tian",
+        "Xiaohu Guo",
+        "Jiashi Feng"
+      ],
+      "upvotes": 29,
+      "github": null,
+      "published": "2023-12-21T05:03:18.000Z"
+    },
+    {
+      "id": "2312.13691",
+      "title": "DreamTuner: Single Image is Enough for Subject-Driven Generation",
+      "authors": [
+        "Miao Hua",
+        "Jiawei Liu",
+        "Fei Ding",
+        "Wei Liu",
+        "Jie Wu",
+        "Qian He"
+      ],
+      "upvotes": 27,
+      "github": null,
+      "published": "2023-12-21T09:37:14.000Z"
+    },
+    {
+      "id": "2312.13252",
+      "title": "Zero-Shot Metric Depth with a Field-of-View Conditioned Diffusion Model",
+      "authors": [
+        "Saurabh Saxena",
+        "Junhwa Hur",
+        "Charles Herrmann",
+        "Deqing Sun",
+        "David J. Fleet"
+      ],
+      "upvotes": 27,
+      "github": null,
+      "published": "2023-12-20T18:27:47.000Z"
+    },
+    {
+      "id": "2312.13834",
+      "title": "Fairy: Fast Parallelized Instruction-Guided Video-to-Video Synthesis",
+      "authors": [
+        "Bichen Wu",
+        "Ching-Yao Chuang",
+        "Xiaoyan Wang",
+        "Yichen Jia",
+        "Kapil Krishnakumar",
+        "Tong Xiao",
+        "Feng Liang",
+        "Licheng Yu",
+        "Peter Vajda"
+      ],
+      "upvotes": 26,
+      "github": null,
+      "published": "2023-12-20T01:49:47.000Z"
+    },
+    {
+      "id": "2312.12490",
+      "title": "InstructVideo: Instructing Video Diffusion Models with Human Feedback",
+      "authors": [
+        "Hangjie Yuan",
+        "Shiwei Zhang",
+        "Xiang Wang",
+        "Yujie Wei",
+        "Tao Feng",
+        "Yining Pan",
+        "Yingya Zhang",
+        "Ziwei Liu",
+        "Samuel Albanie",
+        "Dong Ni"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2023-12-19T17:55:16.000Z"
+    },
+    {
+      "id": "2312.13150",
+      "title": "Splatter Image: Ultra-Fast Single-View 3D Reconstruction",
+      "authors": [
+        "Stanislaw Szymanowicz",
+        "Christian Rupprecht",
+        "Andrea Vedaldi"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/szymanowiczs/splatter-image",
+      "published": "2023-12-20T16:14:58.000Z"
+    },
+    {
+      "id": "2312.13789",
+      "title": "TinySAM: Pushing the Envelope for Efficient Segment Anything Model",
+      "authors": [
+        "Han Shu",
+        "Wenshuo Li",
+        "Yehui Tang",
+        "Yiman Zhang",
+        "Yihao Chen",
+        "Houqiang Li",
+        "Yunhe Wang",
+        "Xinghao Chen"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2023-12-21T12:26:11.000Z"
+    },
+    {
+      "id": "2312.12742",
+      "title": "Cached Transformers: Improving Transformers with Differentiable Memory Cache",
+      "authors": [
+        "Zhaoyang Zhang",
+        "Wenqi Shao",
+        "Yixiao Ge",
+        "Xiaogang Wang",
+        "Jinwei Gu",
+        "Ping Luo"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/annosubmission/GRC-Cache",
+      "published": "2023-12-20T03:30:51.000Z"
+    },
+    {
+      "id": "2312.13469",
+      "title": "Neural feels with neural fields: Visuo-tactile perception for in-hand manipulation",
+      "authors": [
+        "Sudharshan Suresh",
+        "Haozhi Qi",
+        "Tingfan Wu",
+        "Taosha Fan",
+        "Luis Pineda",
+        "Mike Lambeta",
+        "Jitendra Malik",
+        "Mrinal Kalakrishnan",
+        "Roberto Calandra",
+        "Michael Kaess",
+        "Joseph Ortiz",
+        "Mustafa Mukadam"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2023-12-20T22:36:37.000Z"
+    },
+    {
+      "id": "2312.13763",
+      "title": "Align Your Gaussians: Text-to-4D with Dynamic 3D Gaussians and Composed Diffusion Models",
+      "authors": [
+        "Huan Ling",
+        "Seung Wook Kim",
+        "Antonio Torralba",
+        "Sanja Fidler",
+        "Karsten Kreis"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2023-12-21T11:41:02.000Z"
+    },
+    {
+      "id": "2312.12468",
+      "title": "MaskINT: Video Editing via Interpolative Non-autoregressive Masked Transformers",
+      "authors": [
+        "Haoyu Ma",
+        "Shahin Mahdizadehaghdam",
+        "Bichen Wu",
+        "Zhipeng Fan",
+        "Yuchao Gu",
+        "Wenliang Zhao",
+        "Lior Shapira",
+        "Xiaohui Xie"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2023-12-19T07:05:39.000Z"
+    },
+    {
+      "id": "2312.12487",
+      "title": "Adaptive Guidance: Training-free Acceleration of Conditional Diffusion Models",
+      "authors": [
+        "Angela Castillo",
+        "Jonas Kohler",
+        "Juan C. Pérez",
+        "Juan Pablo Pérez",
+        "Albert Pumarola",
+        "Bernard Ghanem",
+        "Pablo Arbeláez",
+        "Ali Thabet"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2023-12-19T17:08:48.000Z"
+    },
+    {
+      "id": "2312.12682",
+      "title": "Mini-GPTs: Efficient Large Language Models through Contextual Pruning",
+      "authors": [
+        "Tim Valicenti",
+        "Justice Vidal",
+        "Ritik Patnaik"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/tval2/contextual-pruning",
+      "published": "2023-12-20T00:48:13.000Z"
+    },
+    {
+      "id": "2312.13102",
+      "title": "SpecNeRF: Gaussian Directional Encoding for Specular Reflections",
+      "authors": [
+        "Li Ma",
+        "Vasu Agrawal",
+        "Haithem Turki",
+        "Changil Kim",
+        "Chen Gao",
+        "Pedro Sander",
+        "Michael Zollhöfer",
+        "Christian Richardt"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2023-12-20T15:20:25.000Z"
+    },
+    {
+      "id": "2312.12791",
+      "title": "Model-Based Control with Sparse Neural Dynamics",
+      "authors": [
+        "Ziang Liu",
+        "Genggeng Zhou",
+        "Jeff He",
+        "Tobia Marcucci",
+        "Li Fei-Fei",
+        "Jiajun Wu",
+        "Yunzhu Li"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2023-12-20T06:25:02.000Z"
+    },
+    {
+      "id": "2312.13285",
+      "title": "UniSDF: Unifying Neural Representations for High-Fidelity 3D Reconstruction of Complex Scenes with Reflections",
+      "authors": [
+        "Fangjinhua Wang",
+        "Marie-Julie Rakotosaona",
+        "Michael Niemeyer",
+        "Richard Szeliski",
+        "Marc Pollefeys",
+        "Federico Tombari"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2023-12-20T18:59:42.000Z"
+    },
+    {
+      "id": "2312.12865",
+      "title": "RadEdit: stress-testing biomedical vision models via diffusion image editing",
+      "authors": [
+        "Fernando Pérez-García",
+        "Sam Bond-Taylor",
+        "Pedro P. Sanchez",
+        "Boris van Breugel",
+        "Daniel C. Castro",
+        "Harshita Sharma",
+        "Valentina Salvatelli",
+        "Maria T. A. Wetscherek",
+        "Hannah Richardson",
+        "Matthew P. Lungren",
+        "Aditya Nori",
+        "Javier Alvarez-Valle",
+        "Ozan Oktay",
+        "Maximilian Ilse"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2023-12-20T09:27:41.000Z"
+    },
+    {
+      "id": "2312.13271",
+      "title": "Repaint123: Fast and High-quality One Image to 3D Generation with Progressive Controllable 2D Repainting",
+      "authors": [
+        "Junwu Zhang",
+        "Zhenyu Tang",
+        "Yatian Pang",
+        "Xinhua Cheng",
+        "Peng Jin",
+        "Yida Wei",
+        "Wangbo Yu",
+        "Munan Ning",
+        "Li Yuan"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/junwuzhang19/repaint123",
+      "published": "2023-12-20T18:51:02.000Z"
+    }
+  ]
+}

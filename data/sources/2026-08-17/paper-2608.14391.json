@@ -1,0 +1,7 @@
+{
+  "id": "2608.14391",
+  "html": "https://arxiv.org/html/2608.14391",
+  "limitations": null,
+  "conclusion": "Detector reliability is conditional. RA-Bench shows that detector reliability cannot be summarized by a single benchmark score. Traditional detectors fall sharply from their public-reference performance and change rank across generation sources, so performance on one generator does not establish transfer to another. Zero-shot multimodal models vary with prompt format and generation source, while MLLMs fine-tuned for AI-generated video detection depend on temporal-label format or strongly favor the Real class. No evaluated detector family therefore provides a decision rule that transfers reliably across sources and evaluation protocols. As generators evolve, detectors tuned to fixed sources or protocols may lose reliability. Evaluation should therefore separate source generalization, prompt sensitivity, protocol dependence, and class bias. These results also motivate systems that combine ",
+  "figure": null
+}

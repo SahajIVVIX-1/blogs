@@ -1,0 +1,478 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-12-10",
+  "fetched_at": "2026-10-29T15:34:03.064Z",
+  "candidates": [
+    {
+      "id": "2512.08765",
+      "title": "Wan-Move: Motion-controllable Video Generation via Latent Trajectory Guidance",
+      "authors": [
+        "Ruihang Chu",
+        "Yefei He",
+        "Zhekai Chen",
+        "Shiwei Zhang",
+        "Xiaogang Xu",
+        "Bin Xia",
+        "Dingdong Wang",
+        "Hongwei Yi",
+        "Xihui Liu",
+        "Hengshuang Zhao",
+        "Yu Liu",
+        "Yingya Zhang",
+        "Yujiu Yang"
+      ],
+      "upvotes": 134,
+      "github": "https://github.com/ali-vilab/Wan-Move",
+      "published": "2025-12-09T16:13:55.000Z"
+    },
+    {
+      "id": "2512.07951",
+      "title": "Preserving Source Video Realism: High-Fidelity Face Swapping for Cinematic Quality",
+      "authors": [
+        "Zekai Luo",
+        "Zongze Du",
+        "Zhouhang Zhu",
+        "Hao Zhong",
+        "Muzhi Zhu",
+        "Wen Wang",
+        "Yuling Xi",
+        "Chenchen Jing",
+        "Hao Chen",
+        "Chunhua Shen"
+      ],
+      "upvotes": 51,
+      "github": null,
+      "published": "2025-12-08T19:00:04.000Z"
+    },
+    {
+      "id": "2512.07802",
+      "title": "OneStory: Coherent Multi-Shot Video Generation with Adaptive Memory",
+      "authors": [
+        "Zhaochong An",
+        "Menglin Jia",
+        "Haonan Qiu",
+        "Zijian Zhou",
+        "Xiaoke Huang",
+        "Zhiheng Liu",
+        "Weiming Ren",
+        "Kumara Kahatapitiya",
+        "Ding Liu",
+        "Sen He",
+        "Chenyang Zhang",
+        "Tao Xiang",
+        "Fanny Yang",
+        "Serge Belongie",
+        "Tian Xie"
+      ],
+      "upvotes": 47,
+      "github": null,
+      "published": "2025-12-08T18:32:24.000Z"
+    },
+    {
+      "id": "2512.07921",
+      "title": "DeepCode: Open Agentic Coding",
+      "authors": [
+        "Zongwei Li",
+        "Zhonghang Li",
+        "Zirui Guo",
+        "Xubin Ren",
+        "Chao Huang"
+      ],
+      "upvotes": 35,
+      "github": "https://github.com/HKUDS/DeepCode",
+      "published": "2025-12-08T16:07:13.000Z"
+    },
+    {
+      "id": "2512.08924",
+      "title": "Efficiently Reconstructing Dynamic Scenes One D4RT at a Time",
+      "authors": [
+        "Chuhan Zhang",
+        "Guillaume Le Moing",
+        "Skanda Koppula",
+        "Ignacio Rocco",
+        "Liliane Momeni",
+        "Junyu Xie",
+        "Shuyang Sun",
+        "Rahul Sukthankar",
+        "Joëlle K Barral",
+        "Raia Hadsell",
+        "Zoubin Ghahramani",
+        "Andrew Zisserman",
+        "Junlin Zhang",
+        "Mehdi SM Sajjadi"
+      ],
+      "upvotes": 26,
+      "github": null,
+      "published": "2025-12-09T18:57:21.000Z"
+    },
+    {
+      "id": "2512.06776",
+      "title": "From Next-Token to Next-Block: A Principled Adaptation Path for Diffusion LLMs",
+      "authors": [
+        "Yuchuan Tian",
+        "Yuchen Liang",
+        "Jiacheng Sun",
+        "Shuo Zhang",
+        "Guangwen Yang",
+        "Yingte Shu",
+        "Sibo Fang",
+        "Tianyu Guo",
+        "Kai Han",
+        "Chao Xu",
+        "Hanting Chen",
+        "Xinghao Chen",
+        "Yunhe Wang"
+      ],
+      "upvotes": 26,
+      "github": null,
+      "published": "2025-12-07T10:28:21.000Z"
+    },
+    {
+      "id": "2512.08186",
+      "title": "Ground Slow, Move Fast: A Dual-System Foundation Model for Generalizable Vision-and-Language Navigation",
+      "authors": [
+        "Meng Wei",
+        "Chenyang Wan",
+        "Jiaqi Peng",
+        "Xiqian Yu",
+        "Yuqiang Yang",
+        "Delin Feng",
+        "Wenzhe Cai",
+        "Chenming Zhu",
+        "Tai Wang",
+        "Jiangmiao Pang",
+        "Xihui Liu"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/InternRobotics/InternNav",
+      "published": "2025-12-09T02:29:36.000Z"
+    },
+    {
+      "id": "2512.08478",
+      "title": "Visionary: The World Model Carrier Built on WebGPU-Powered Gaussian Splatting Platform",
+      "authors": [
+        "Yuning Gong",
+        "Yifei Liu",
+        "Yifan Zhan",
+        "Muyao Niu",
+        "Xueying Li",
+        "Yuanjun Liao",
+        "Jiaming Chen",
+        "Yuanyuan Gao",
+        "Jiaqi Chen",
+        "Minming Chen",
+        "Li Zhou",
+        "Yuning Zhang",
+        "Wei Wang",
+        "Xiaoqing Hou",
+        "Huaxi Huang",
+        "Shixiang Tang",
+        "Le Ma",
+        "Dingwen Zhang",
+        "Xue Yang",
+        "Junchi Yan",
+        "Yanchi Zhang",
+        "Yinqiang Zheng",
+        "Xiao Sun",
+        "Zhihang Zhong"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/Visionary-Laboratory/visionary",
+      "published": "2025-12-09T10:54:58.000Z"
+    },
+    {
+      "id": "2512.07843",
+      "title": "ThreadWeaver: Adaptive Threading for Efficient Parallel Reasoning in Language Models",
+      "authors": [
+        "Long Lian",
+        "Sida Wang",
+        "Felix Juefei-Xu",
+        "Tsu-Jui Fu",
+        "Xiuyu Li",
+        "Adam Yala",
+        "Trevor Darrell",
+        "Alane Suhr",
+        "Yuandong Tian",
+        "Xi Victoria Lin"
+      ],
+      "upvotes": 22,
+      "github": null,
+      "published": "2025-11-24T18:55:59.000Z"
+    },
+    {
+      "id": "2512.05033",
+      "title": "Arbitrage: Efficient Reasoning via Advantage-Aware Speculation",
+      "authors": [
+        "Monishwaran Maheswaran",
+        "Rishabh Tiwari",
+        "Yuezhou Hu",
+        "Kerem Dilmen",
+        "Coleman Hooper",
+        "Haocheng Xi",
+        "Nicholas Lee",
+        "Mehrdad Farajtabar",
+        "Michael W. Mahoney",
+        "Kurt Keutzer",
+        "Amir Gholami"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/SqueezeAILab/Arbitrage",
+      "published": "2025-12-04T17:50:53.000Z"
+    },
+    {
+      "id": "2512.06864",
+      "title": "Boosting Unsupervised Video Instance Segmentation with Automatic Quality-Guided Self-Training",
+      "authors": [
+        "Kaixuan Lu",
+        "Mehmet Onurcan Kaya",
+        "Dim P. Papadopoulos"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/wcbup/AutoQ-VIS",
+      "published": "2025-12-07T14:37:12.000Z"
+    },
+    {
+      "id": "2512.06628",
+      "title": "MIND-V: Hierarchical Video Generation for Long-Horizon Robotic Manipulation with RL-based Physical Alignment",
+      "authors": [
+        "Ruicheng Zhang",
+        "Mingyang Zhang",
+        "Jun Zhou",
+        "Zhangrui Guo",
+        "Xiaofan Liu",
+        "Zunnan Xu",
+        "Zhizhou Zhong",
+        "Puxin Yan",
+        "Haocheng Luo",
+        "Xiu Li"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/Richard-Zhang-AI/MIND-V",
+      "published": "2025-12-07T02:28:06.000Z"
+    },
+    {
+      "id": "2512.08309",
+      "title": "Terrain Diffusion: A Diffusion-Based Successor to Perlin Noise in Infinite, Real-Time Terrain Generation",
+      "authors": [
+        "Alexander Goslin"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/xandergos/terrain-diffusion",
+      "published": "2025-12-09T07:10:35.000Z"
+    },
+    {
+      "id": "2512.07197",
+      "title": "SUCCESS-GS: Survey of Compactness and Compression for Efficient Static and Dynamic Gaussian Splatting",
+      "authors": [
+        "Seokhyun Youn",
+        "Soohyun Lee",
+        "Geonho Kim",
+        "Weeyoung Kwon",
+        "Sung-Ho Bae",
+        "Jihyong Oh"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/CMLab-Korea/Awesome-Efficient-GS",
+      "published": "2025-12-08T06:15:59.000Z"
+    },
+    {
+      "id": "2512.08153",
+      "title": "TreeGRPO: Tree-Advantage GRPO for Online RL Post-Training of Diffusion Models",
+      "authors": [
+        "Zheng Ding",
+        "Weirui Ye"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2025-12-09T01:17:34.000Z"
+    },
+    {
+      "id": "2512.08564",
+      "title": "Modular Neural Image Signal Processing",
+      "authors": [
+        "Mahmoud Afifi",
+        "Zhongling Wang",
+        "Ran Zhang",
+        "Michael S. Brown"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/mahmoudnafifi/modular_neural_isp",
+      "published": "2025-12-09T13:04:08.000Z"
+    },
+    {
+      "id": "2512.08358",
+      "title": "TrackingWorld: World-centric Monocular 3D Tracking of Almost All Pixels",
+      "authors": [
+        "Jiahao Lu",
+        "Weitao Xiong",
+        "Jiacheng Deng",
+        "Peng Li",
+        "Tianyu Huang",
+        "Zhiyang Dou",
+        "Cheng Lin",
+        "Sai-Kit Yeung",
+        "Yuan Liu"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/IGL-HKUST/TrackingWorld",
+      "published": "2025-12-09T08:35:42.000Z"
+    },
+    {
+      "id": "2512.07107",
+      "title": "COREA: Coarse-to-Fine 3D Representation Alignment Between Relightable 3D Gaussians and SDF via Bidirectional 3D-to-3D Supervision",
+      "authors": [
+        "Jaeyoon Lee",
+        "Hojoon Jung",
+        "Sungtae Hwang",
+        "Jihyong Oh",
+        "Jongwon Choi"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/CAU-VILab/COREA-arXiv",
+      "published": "2025-12-08T02:41:42.000Z"
+    },
+    {
+      "id": "2512.04763",
+      "title": "MemLoRA: Distilling Expert Adapters for On-Device Memory Systems",
+      "authors": [
+        "Massimo Bini",
+        "Ondrej Bohdal",
+        "Umberto Michieli",
+        "Zeynep Akata",
+        "Mete Ozay",
+        "Taha Ceritli"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-12-04T12:56:30.000Z"
+    },
+    {
+      "id": "2512.05325",
+      "title": "LYNX: Learning Dynamic Exits for Confidence-Controlled Reasoning",
+      "authors": [
+        "Ömer Faruk Akgül",
+        "Yusuf Hakan Kalaycı",
+        "Rajgopal Kannan",
+        "Willie Neiswanger",
+        "Viktor Prasanna"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/farukakgul/LYNX",
+      "published": "2025-12-05T00:04:42.000Z"
+    },
+    {
+      "id": "2512.02231",
+      "title": "See, Hear, and Understand: Benchmarking Audiovisual Human Speech Understanding in Multimodal Large Language Models",
+      "authors": [
+        "Le Thien Phuc Nguyen",
+        "Zhuoran Yu",
+        "Samuel Low Yu Hang",
+        "Subin An",
+        "Jeongik Lee",
+        "Yohan Ban",
+        "SeungEun Chung",
+        "Thanh-Huy Nguyen",
+        "JuWan Maeng",
+        "Soochahn Lee",
+        "Yong Jae Lee"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/plnguyen2908/AV-SpeakerBench",
+      "published": "2025-12-01T21:57:26.000Z"
+    },
+    {
+      "id": "2512.08406",
+      "title": "SAM-Body4D: Training-Free 4D Human Body Mesh Recovery from Videos",
+      "authors": [
+        "Mingqi Gao",
+        "Yunqi Miao",
+        "Jungong Han"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/gaomingqi/sam-body4d",
+      "published": "2025-12-09T09:37:31.000Z"
+    },
+    {
+      "id": "2512.08730",
+      "title": "SegEarth-OV3: Exploring SAM 3 for Open-Vocabulary Semantic Segmentation in Remote Sensing Images",
+      "authors": [
+        "Kaiyu Li",
+        "Shengqi Zhang",
+        "Yupeng Deng",
+        "Zhi Wang",
+        "Deyu Meng",
+        "Xiangyong Cao"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/earth-insights/SegEarth-OV-3",
+      "published": "2025-12-09T15:42:28.000Z"
+    },
+    {
+      "id": "2512.08868",
+      "title": "EcomBench: Towards Holistic Evaluation of Foundation Agents in E-commerce",
+      "authors": [
+        "Rui Min",
+        "Zile Qiao",
+        "Ze Xu",
+        "Jiawen Zhai",
+        "Wenyu Gao",
+        "Xuanzhong Chen",
+        "Haozhen Sun",
+        "Zhen Zhang",
+        "Xinyu Wang",
+        "Hong Zhou",
+        "Wenbiao Yin",
+        "Xuan Zhou",
+        "Yong Jiang",
+        "Haicheng Liu",
+        "Liang Ding",
+        "Ling Zou",
+        "Yi R.",
+        "Fung",
+        "Yalong Li",
+        "Pengjun Xie"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2025-12-09T18:00:26.000Z"
+    },
+    {
+      "id": "2512.06531",
+      "title": "Novel Deep Learning Architectures for Classification and Segmentation of Brain Tumors from MRI Images",
+      "authors": [
+        "Sayan Das",
+        "Arghadip Biswas"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/arghadip2002/SAETCN-and-SASNET-Architectures",
+      "published": "2025-12-06T18:49:57.000Z"
+    },
+    {
+      "id": "2512.04434",
+      "title": "Predicting Time-Dependent Flow Over Complex Geometries Using Operator Networks",
+      "authors": [
+        "Ali Rabeh",
+        "Suresh Murugaiyan",
+        "Adarsh Krishnamurthy",
+        "Baskar Ganapathysubramanian"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/baskargroup/TimeDependent-DeepONet",
+      "published": "2025-12-04T04:00:22.000Z"
+    },
+    {
+      "id": "2512.08923",
+      "title": "Same Content, Different Answers: Cross-Modal Inconsistency in MLLMs",
+      "authors": [
+        "Angela van Sprang",
+        "Laurens Samson",
+        "Ana Lucic",
+        "Erman Acar",
+        "Sennay Ghebreab",
+        "Yuki M. Asano"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2025-12-09T18:57:07.000Z"
+    }
+  ]
+}

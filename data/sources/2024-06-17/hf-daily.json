@@ -1,0 +1,442 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-06-17",
+  "fetched_at": "2026-10-29T15:28:09.144Z",
+  "candidates": [
+    {
+      "id": "2406.08973",
+      "title": "XLand-100B: A Large-Scale Multi-Task Dataset for In-Context Reinforcement Learning",
+      "authors": [
+        "Alexander Nikulin",
+        "Ilya Zisman",
+        "Alexey Zemtsov",
+        "Viacheslav Sinii",
+        "Vladislav Kurenkov",
+        "Sergey Kolesnikov"
+      ],
+      "upvotes": 88,
+      "github": "https://github.com/dunno-lab/xland-minigrid-datasets",
+      "published": "2024-06-13T10:04:17.000Z"
+    },
+    {
+      "id": "2406.10210",
+      "title": "Make It Count: Text-to-Image Generation with an Accurate Number of Objects",
+      "authors": [
+        "Lital Binyamin",
+        "Yoad Tewel",
+        "Hilit Segev",
+        "Eran Hirsch",
+        "Royi Rassin",
+        "Gal Chechik"
+      ],
+      "upvotes": 78,
+      "github": "https://github.com/litalby1/make-it-count",
+      "published": "2024-06-14T17:46:08.000Z"
+    },
+    {
+      "id": "2406.09961",
+      "title": "ChartMimic: Evaluating LMM's Cross-Modal Reasoning Capability via Chart-to-Code Generation",
+      "authors": [
+        "Chufan Shi",
+        "Cheng Yang",
+        "Yaxin Liu",
+        "Bo Shui",
+        "Junjie Wang",
+        "Mohan Jing",
+        "Linran Xu",
+        "Xinyu Zhu",
+        "Siheng Li",
+        "Yuxiang Zhang",
+        "Gongye Liu",
+        "Xiaomei Nie",
+        "Deng Cai",
+        "Yujiu Yang"
+      ],
+      "upvotes": 55,
+      "github": "https://github.com/chartmimic/chartmimic",
+      "published": "2024-06-14T12:10:51.000Z"
+    },
+    {
+      "id": "2406.07230",
+      "title": "Needle In A Multimodal Haystack",
+      "authors": [
+        "Weiyun Wang",
+        "Shuibo Zhang",
+        "Yiming Ren",
+        "Yuchen Duan",
+        "Tiantong Li",
+        "Shuo Liu",
+        "Mengkang Hu",
+        "Zhe Chen",
+        "Kaipeng Zhang",
+        "Lewei Lu",
+        "Xizhou Zhu",
+        "Ping Luo",
+        "Yu Qiao",
+        "Jifeng Dai",
+        "Wenqi Shao",
+        "Wenhai Wang"
+      ],
+      "upvotes": 55,
+      "github": "https://github.com/opengvlab/mm-niah",
+      "published": "2024-06-11T13:09:16.000Z"
+    },
+    {
+      "id": "2406.10149",
+      "title": "BABILong: Testing the Limits of LLMs with Long Context Reasoning-in-a-Haystack",
+      "authors": [
+        "Yuri Kuratov",
+        "Aydar Bulatov",
+        "Petr Anokhin",
+        "Ivan Rodkin",
+        "Dmitry Sorokin",
+        "Artyom Sorokin",
+        "Mikhail Burtsev"
+      ],
+      "upvotes": 49,
+      "github": "https://github.com/booydar/babilong",
+      "published": "2024-06-14T16:00:29.000Z"
+    },
+    {
+      "id": "2406.10118",
+      "title": "SEACrowd: A Multilingual Multimodal Data Hub and Benchmark Suite for Southeast Asian Languages",
+      "authors": [
+        "Holy Lovenia",
+        "Rahmad Mahendra",
+        "Salsabil Maulana Akbar",
+        "Lester James V. Miranda",
+        "Jennifer Santoso",
+        "Elyanah Aco",
+        "Akhdan Fadhilah",
+        "Jonibek Mansurov",
+        "Joseph Marvin Imperial",
+        "Onno P. Kampman",
+        "Joel Ruben Antony Moniz",
+        "Muhammad Ravi Shulthan Habibi",
+        "Frederikus Hudi",
+        "Railey Montalan",
+        "Ryan Ignatius",
+        "Joanito Agili Lopo",
+        "William Nixon",
+        "Börje F. Karlsson",
+        "James Jaya",
+        "Ryandito Diandaru",
+        "Yuze Gao",
+        "Patrick Amadeus",
+        "Bin Wang",
+        "Jan Christian Blaise Cruz",
+        "Chenxi Whitehouse",
+        "Ivan Halim Parmonangan",
+        "Maria Khelli",
+        "Wenyu Zhang",
+        "Lucky Susanto",
+        "Reynard Adha Ryanda",
+        "Sonny Lazuardi Hermawan",
+        "Dan John Velasco",
+        "Muhammad Dehan Al Kautsar",
+        "Willy Fitra Hendria",
+        "Yasmin Moslem",
+        "Noah Flynn",
+        "Muhammad Farid Adilazuarda",
+        "Haochen Li",
+        "Johanes Lee",
+        "R. Damanhuri",
+        "Shuo Sun",
+        "Muhammad Reza Qorib",
+        "Amirbek Djanibekov",
+        "Wei Qi Leong",
+        "Quyet V. Do",
+        "Niklas Muennighoff",
+        "Tanrada Pansuwan",
+        "Ilham Firdausi Putra",
+        "Yan Xu",
+        "Ngee Chia Tai",
+        "Ayu Purwarianti",
+        "Sebastian Ruder",
+        "William Tjhi",
+        "Peerat Limkonchotiwat",
+        "Alham Fikri Aji",
+        "Sedrick Keh",
+        "Genta Indra Winata",
+        "Ruochen Zhang",
+        "Fajri Koto",
+        "Zheng-Xin Yong",
+        "Samuel Cahyawijaya"
+      ],
+      "upvotes": 33,
+      "github": "https://github.com/SEACrowd/seacrowd-datahub",
+      "published": "2024-06-14T15:23:39.000Z"
+    },
+    {
+      "id": "2406.08418",
+      "title": "OmniCorpus: A Unified Multimodal Corpus of 10 Billion-Level Images Interleaved with Text",
+      "authors": [
+        "Qingyun Li",
+        "Zhe Chen",
+        "Weiyun Wang",
+        "Wenhai Wang",
+        "Shenglong Ye",
+        "Zhenjiang Jin",
+        "Guanzhou Chen",
+        "Yinan He",
+        "Zhangwei Gao",
+        "Erfei Cui",
+        "Jiashuo Yu",
+        "Hao Tian",
+        "Jiasheng Zhou",
+        "Chao Xu",
+        "Bin Wang",
+        "Xingjian Wei",
+        "Wei Li",
+        "Wenjian Zhang",
+        "Bo Zhang",
+        "Pinlong Cai",
+        "Licheng Wen",
+        "Xiangchao Yan",
+        "Zhenxiang Li",
+        "Pei Chu",
+        "Yi Wang",
+        "Min Dou",
+        "Changyao Tian",
+        "Xizhou Zhu",
+        "Lewei Lu",
+        "Yushi Chen",
+        "Junjun He",
+        "Zhongying Tu",
+        "Tong Lu",
+        "Yali Wang",
+        "Limin Wang",
+        "Dahua Lin",
+        "Yu Qiao",
+        "Botian Shi",
+        "Conghui He",
+        "Jifeng Dai"
+      ],
+      "upvotes": 33,
+      "github": "https://github.com/opengvlab/omnicorpus",
+      "published": "2024-06-12T17:01:04.000Z"
+    },
+    {
+      "id": "2406.08451",
+      "title": "GUI Odyssey: A Comprehensive Dataset for Cross-App GUI Navigation on Mobile Devices",
+      "authors": [
+        "Quanfeng Lu",
+        "Wenqi Shao",
+        "Zitao Liu",
+        "Fanqing Meng",
+        "Boxuan Li",
+        "Botong Chen",
+        "Siyuan Huang",
+        "Kaipeng Zhang",
+        "Yu Qiao",
+        "Ping Luo"
+      ],
+      "upvotes": 26,
+      "github": "https://github.com/OpenGVLab/GUI-Odyssey",
+      "published": "2024-06-12T17:44:26.000Z"
+    },
+    {
+      "id": "2406.10208",
+      "title": "Glyph-ByT5-v2: A Strong Aesthetic Baseline for Accurate Multilingual Visual Text Rendering",
+      "authors": [
+        "Zeyu Liu",
+        "Weicong Liang",
+        "Yiming Zhao",
+        "Bohan Chen",
+        "Ji Li",
+        "Yuhui Yuan"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/AIGText/Glyph-ByT5",
+      "published": "2024-06-14T17:44:09.000Z"
+    },
+    {
+      "id": "2406.09900",
+      "title": "GEB-1.3B: Open Lightweight Large Language Model",
+      "authors": [
+        "Jie Wu",
+        "Yufeng Zhu",
+        "Lei Shen",
+        "Xuqing Lu"
+      ],
+      "upvotes": 21,
+      "github": null,
+      "published": "2024-06-14T10:15:49.000Z"
+    },
+    {
+      "id": "2406.10126",
+      "title": "Training-free Camera Control for Video Generation",
+      "authors": [
+        "Chen Hou",
+        "Guoqiang Wei",
+        "Yan Zeng",
+        "Zhibo Chen"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2024-06-14T15:33:00.000Z"
+    },
+    {
+      "id": "2406.07882",
+      "title": "Designing a Dashboard for Transparency and Control of Conversational AI",
+      "authors": [
+        "Yida Chen",
+        "Aoyu Wu",
+        "Trevor DePodesta",
+        "Catherine Yeh",
+        "Kenneth Li",
+        "Nicholas Castillo Marin",
+        "Oam Patel",
+        "Jan Riecke",
+        "Shivam Raval",
+        "Olivia Seow",
+        "Martin Wattenberg",
+        "Fernanda Viégas"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/yc015/talktuner-chatbot-llm-dashboard",
+      "published": "2024-06-12T05:20:16.000Z"
+    },
+    {
+      "id": "2406.10227",
+      "title": "VideoGUI: A Benchmark for GUI Automation from Instructional Videos",
+      "authors": [
+        "Kevin Qinghong Lin",
+        "Linjie Li",
+        "Difei Gao",
+        "Qinchen WU",
+        "Mingyi Yan",
+        "Zhengyuan Yang",
+        "Lijuan Wang",
+        "Mike Zheng Shou"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2024-06-14T17:59:08.000Z"
+    },
+    {
+      "id": "2406.08845",
+      "title": "Rethinking Human Evaluation Protocol for Text-to-Video Models: Enhancing Reliability,Reproducibility, and Practicality",
+      "authors": [
+        "Tianle Zhang",
+        "Langtian Ma",
+        "Yuchen Yan",
+        "Yuchen Zhang",
+        "Kai Wang",
+        "Yue Yang",
+        "Ziyao Guo",
+        "Wenqi Shao",
+        "Yang You",
+        "Yu Qiao",
+        "Ping Luo",
+        "Kaipeng Zhang"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/ztlmememe/T2VHE",
+      "published": "2024-06-13T06:09:22.000Z"
+    },
+    {
+      "id": "2406.10209",
+      "title": "Be like a Goldfish, Don't Memorize! Mitigating Memorization in Generative LLMs",
+      "authors": [
+        "Abhimanyu Hans",
+        "Yuxin Wen",
+        "Neel Jain",
+        "John Kirchenbauer",
+        "Hamid Kazemi",
+        "Prajwal Singhania",
+        "Siddharth Singh",
+        "Gowthami Somepalli",
+        "Jonas Geiping",
+        "Abhinav Bhatele",
+        "Tom Goldstein"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/ahans30/goldfish-loss",
+      "published": "2024-06-14T17:44:22.000Z"
+    },
+    {
+      "id": "2406.08545",
+      "title": "RVT-2: Learning Precise Manipulation from Few Demonstrations",
+      "authors": [
+        "Ankit Goyal",
+        "Valts Blukis",
+        "Jie Xu",
+        "Yijie Guo",
+        "Yu-Wei Chao",
+        "Dieter Fox"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/nvlabs/rvt",
+      "published": "2024-06-12T18:00:01.000Z"
+    },
+    {
+      "id": "2406.08920",
+      "title": "AV-GS: Learning Material and Geometry Aware Priors for Novel View Acoustic Synthesis",
+      "authors": [
+        "Swapnil Bhosale",
+        "Haosen Yang",
+        "Diptesh Kanojia",
+        "Jiankang Deng",
+        "Xiatian Zhu"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2024-06-13T08:34:12.000Z"
+    },
+    {
+      "id": "2406.08659",
+      "title": "Vivid-ZOO: Multi-View Video Generation with Diffusion Model",
+      "authors": [
+        "Bing Li",
+        "Cheng Zheng",
+        "Wenxuan Zhu",
+        "Jinjie Mai",
+        "Biao Zhang",
+        "Peter Wonka",
+        "Bernard Ghanem"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2024-06-12T21:44:04.000Z"
+    },
+    {
+      "id": "2406.10111",
+      "title": "GaussianSR: 3D Gaussian Super-Resolution with 2D Diffusion Priors",
+      "authors": [
+        "Xiqian Yu",
+        "Hanxin Zhu",
+        "Tianyu He",
+        "Zhibo Chen"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2024-06-14T15:19:21.000Z"
+    },
+    {
+      "id": "2406.09559",
+      "title": "Decoding the Diversity: A Review of the Indic AI Research Landscape",
+      "authors": [
+        "Sankalp KJ",
+        "Vinija Jain",
+        "Sreyoshi Bhaduri",
+        "Tamoghna Roy",
+        "Aman Chadha"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2024-06-13T19:55:20.000Z"
+    },
+    {
+      "id": "2406.06263",
+      "title": "MaskLID: Code-Switching Language Identification through Iterative Masking",
+      "authors": [
+        "Amir Hossein Kargaran",
+        "François Yvon",
+        "Hinrich Schütze"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/cisnlp/masklid",
+      "published": "2024-06-10T13:44:29.000Z"
+    }
+  ]
+}

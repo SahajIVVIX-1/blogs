@@ -1,0 +1,754 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-10-22",
+  "fetched_at": "2026-10-29T15:33:33.428Z",
+  "candidates": [
+    {
+      "id": "2510.18121",
+      "title": "Efficient Long-context Language Model Training by Core Attention Disaggregation",
+      "authors": [
+        "Yonghao Zhuang",
+        "Junda Chen",
+        "Bo Pang",
+        "Yi Gu",
+        "Yibo Zhu",
+        "Yimin Jiang",
+        "Ion Stoica",
+        "Eric Xing",
+        "Hao Zhang"
+      ],
+      "upvotes": 124,
+      "github": null,
+      "published": "2025-10-20T21:40:51.000Z"
+    },
+    {
+      "id": "2510.18866",
+      "title": "LightMem: Lightweight and Efficient Memory-Augmented Generation",
+      "authors": [
+        "Jizhan Fang",
+        "Xinle Deng",
+        "Haoming Xu",
+        "Ziyan Jiang",
+        "Yuqi Tang",
+        "Ziwen Xu",
+        "Shumin Deng",
+        "Yunzhi Yao",
+        "Mengru Wang",
+        "Shuofei Qiao",
+        "Huajun Chen",
+        "Ningyu Zhang"
+      ],
+      "upvotes": 116,
+      "github": "https://github.com/zjunlp/LightMem",
+      "published": "2025-10-21T17:58:17.000Z"
+    },
+    {
+      "id": "2510.18234",
+      "title": "DeepSeek-OCR: Contexts Optical Compression",
+      "authors": [
+        "Haoran Wei",
+        "Yaofeng Sun",
+        "Yukun Li"
+      ],
+      "upvotes": 97,
+      "github": "https://github.com/deepseek-ai/DeepSeek-OCR",
+      "published": "2025-10-21T02:41:44.000Z"
+    },
+    {
+      "id": "2510.18135",
+      "title": "World-in-World: World Models in a Closed-Loop World",
+      "authors": [
+        "Jiahan Zhang",
+        "Muqing Jiang",
+        "Nanru Dai",
+        "Taiming Lu",
+        "Arda Uzunoglu",
+        "Shunchi Zhang",
+        "Yana Wei",
+        "Jiahao Wang",
+        "Vishal M. Patel",
+        "Paul Pu Liang",
+        "Daniel Khashabi",
+        "Cheng Peng",
+        "Rama Chellappa",
+        "Tianmin Shu",
+        "Alan Yuille",
+        "Yilun Du",
+        "Jieneng Chen"
+      ],
+      "upvotes": 76,
+      "github": "https://github.com/World-In-World/world-in-world",
+      "published": "2025-10-20T22:09:15.000Z"
+    },
+    {
+      "id": "2510.18855",
+      "title": "Every Step Evolves: Scaling Reinforcement Learning for Trillion-Scale Thinking Model",
+      "authors": [
+        "Ling Team",
+        "Anqi Shen",
+        "Baihui Li",
+        "Bin Hu",
+        "Bin Jing",
+        "Cai Chen",
+        "Chao Huang",
+        "Chao Zhang",
+        "Chaokun Yang",
+        "Cheng Lin",
+        "Chengyao Wen",
+        "Congqi Li",
+        "Deng Zhao",
+        "Dingbo Yuan",
+        "Donghai You",
+        "Fagui Mao",
+        "Fanzhuang Meng",
+        "Feng Xu",
+        "Guojie Li",
+        "Guowei Wang",
+        "Hao Dai",
+        "Haonan Zheng",
+        "Hong Liu",
+        "Jia Guo",
+        "Jiaming Liu",
+        "Jian Liu",
+        "Jianhao Fu",
+        "Jiannan Shi",
+        "Jianwen Wang",
+        "Jianxin Lai",
+        "Jin Yang",
+        "Jun Mei",
+        "Jun Zhou",
+        "Junbo Zhao",
+        "Junping Zhao",
+        "Kuan Xu",
+        "Le Su",
+        "Lei Chen",
+        "Li Tang",
+        "Liang Jiang",
+        "Liangcheng Fu",
+        "Lianhao Xu",
+        "Linfeng Shi",
+        "Lisha Liao",
+        "Longfei Zheng",
+        "Meng Li",
+        "Mingchun Chen",
+        "Qi Zuo",
+        "Qiang Cheng",
+        "Qianggang Cao",
+        "Qitao Shi",
+        "Quanrui Guo",
+        "Senlin Zhu",
+        "Shaofei Wang",
+        "Shaomian Zheng",
+        "Shuaicheng Li",
+        "Shuwei Gu",
+        "Siba Chen",
+        "Tao Wu",
+        "Tao Zhang",
+        "Tianyu Zhang",
+        "Tianyu Zhou",
+        "Tiwei Bie",
+        "Tongkai Yang",
+        "Wang Hong",
+        "Wang Ren",
+        "Weihua Chen",
+        "Wenbo Yu",
+        "Wengang Zheng",
+        "Xiangchun Wang",
+        "Xiaodong Yan",
+        "Xiaopei Wan",
+        "Xin Zhao",
+        "Xinyu Kong",
+        "Xinyu Tang",
+        "Xudong Han",
+        "Xudong Wang",
+        "Xuemin Yang",
+        "Xueyu Hu",
+        "Yalin Zhang",
+        "Yan Sun",
+        "Yicheng Shan",
+        "Yilong Wang",
+        "Yingying Xu",
+        "Yongkang Liu",
+        "Yongzhen Guo",
+        "Yuanyuan Wang",
+        "Yuchen Yan",
+        "Yuefan Wang",
+        "Yuhong Guo",
+        "Zehuan Li",
+        "Zhankai Xu",
+        "Zhe Li",
+        "Zhenduo Zhang",
+        "Zhengke Gui",
+        "Zhenxuan Pan",
+        "Zhenyu Huang",
+        "Zhenzhong Lan",
+        "Zhiqiang Ding",
+        "Zhiqiang Zhang",
+        "Zhixun Li",
+        "Zhizhen Liu",
+        "Zihao Wang",
+        "Zujie Wen"
+      ],
+      "upvotes": 74,
+      "github": "https://github.com/inclusionAI/Ring-V2",
+      "published": "2025-10-21T17:46:14.000Z"
+    },
+    {
+      "id": "2510.18701",
+      "title": "UniGenBench++: A Unified Semantic Evaluation Benchmark for Text-to-Image Generation",
+      "authors": [
+        "Yibin Wang",
+        "Zhimin Li",
+        "Yuhang Zang",
+        "Jiazi Bu",
+        "Yujie Zhou",
+        "Yi Xin",
+        "Junjun He",
+        "Chunyu Wang",
+        "Qinglin Lu",
+        "Cheng Jin",
+        "Jiaqi Wang"
+      ],
+      "upvotes": 68,
+      "github": "https://github.com/CodeGoat24/UniGenBench",
+      "published": "2025-10-21T14:56:46.000Z"
+    },
+    {
+      "id": "2510.18692",
+      "title": "MoGA: Mixture-of-Groups Attention for End-to-End Long Video Generation",
+      "authors": [
+        "Weinan Jia",
+        "Yuning Lu",
+        "Mengqi Huang",
+        "Hualiang Wang",
+        "Binyuan Huang",
+        "Nan Chen",
+        "Mu Liu",
+        "Jidong Jiang",
+        "Zhendong Mao"
+      ],
+      "upvotes": 41,
+      "github": "https://github.com/bytedance-fanqie-ai/MoGA",
+      "published": "2025-10-21T14:50:42.000Z"
+    },
+    {
+      "id": "2510.16880",
+      "title": "Chem-R: Learning to Reason as a Chemist",
+      "authors": [
+        "Weida Wang",
+        "Benteng Chen",
+        "Di Zhang",
+        "Wanhao Liu",
+        "Shuchen Pu",
+        "Ben Gao",
+        "Jin Zeng",
+        "Lei Bai",
+        "Wanli Ouyang",
+        "Xiaoyong Wei",
+        "Tianshu Yu",
+        "Tianfan Fu",
+        "Shuzhou Sun",
+        "Jiatong Li",
+        "Zifu Wang",
+        "Yuqiang Li",
+        "Shufei Zhang"
+      ],
+      "upvotes": 37,
+      "github": "https://github.com/davidweidawang/Chem-R",
+      "published": "2025-10-19T15:27:13.000Z"
+    },
+    {
+      "id": "2510.18876",
+      "title": "Grasp Any Region: Towards Precise, Contextual Pixel Understanding for Multimodal LLMs",
+      "authors": [
+        "Haochen Wang",
+        "Yuhao Wang",
+        "Tao Zhang",
+        "Yikang Zhou",
+        "Yanwei Li",
+        "Jiacong Wang",
+        "Ye Tian",
+        "Jiahao Meng",
+        "Zilong Huang",
+        "Guangcan Mai",
+        "Anran Wang",
+        "Yunhai Tong",
+        "Zhuochen Wang",
+        "Xiangtai Li",
+        "Zhaoxiang Zhang"
+      ],
+      "upvotes": 37,
+      "github": "https://github.com/Haochen-Wang409/Grasp-Any-Region",
+      "published": "2025-10-21T17:59:59.000Z"
+    },
+    {
+      "id": "2510.18726",
+      "title": "IF-VidCap: Can Video Caption Models Follow Instructions?",
+      "authors": [
+        "Shihao Li",
+        "Yuanxing Zhang",
+        "Jiangtao Wu",
+        "Zhide Lei",
+        "Yiwen He",
+        "Runzhe Wen",
+        "Chenxi Liao",
+        "Chengkang Jiang",
+        "An Ping",
+        "Shuo Gao",
+        "Suhan Wang",
+        "Zhaozhou Bian",
+        "Zijun Zhou",
+        "Jingyi Xie",
+        "Jiayi Zhou",
+        "Jing Wang",
+        "Yifan Yao",
+        "Weihao Xie",
+        "Yingshui Tan",
+        "Yanghai Wang",
+        "Qianqian Xie",
+        "Zhaoxiang Zhang",
+        "Jiaheng Liu"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/NJU-LINK/IF-VidCap",
+      "published": "2025-10-21T15:25:08.000Z"
+    },
+    {
+      "id": "2510.18632",
+      "title": "Think with 3D: Geometric Imagination Grounded Spatial Reasoning from Limited Views",
+      "authors": [
+        "Zhangquan Chen",
+        "Manyuan Zhang",
+        "Xinlei Yu",
+        "Xufang Luo",
+        "Mingze Sun",
+        "Zihao Pan",
+        "Yan Feng",
+        "Peng Pei",
+        "Xunliang Cai",
+        "Ruqi Huang"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/zhangquanchen/3DThinker",
+      "published": "2025-10-21T13:36:58.000Z"
+    },
+    {
+      "id": "2510.17699",
+      "title": "GAS: Improving Discretization of Diffusion ODEs via Generalized Adversarial Solver",
+      "authors": [
+        "Aleksandr Oganov",
+        "Ilya Bykov",
+        "Eva Neudachina",
+        "Mishan Aliev",
+        "Alexander Tolmachev",
+        "Alexander Sidorov",
+        "Aleksandr Zuev",
+        "Andrey Okhotin",
+        "Denis Rakitin",
+        "Aibek Alanov"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/3145tttt/GAS",
+      "published": "2025-10-20T16:14:38.000Z"
+    },
+    {
+      "id": "2510.18849",
+      "title": "Towards Faithful and Controllable Personalization via Critique-Post-Edit Reinforcement Learning",
+      "authors": [
+        "Chenghao Zhu",
+        "Meiling Tao",
+        "Tiannan Wang",
+        "Dongyi Ding",
+        "Yuchen Eleanor Jiang",
+        "Wangchunshu Zhou"
+      ],
+      "upvotes": 21,
+      "github": null,
+      "published": "2025-10-21T17:40:03.000Z"
+    },
+    {
+      "id": "2510.17722",
+      "title": "MT-Video-Bench: A Holistic Video Understanding Benchmark for Evaluating Multimodal LLMs in Multi-Turn Dialogues",
+      "authors": [
+        "Yaning Pan",
+        "Zekun Wang",
+        "Qianqian Xie",
+        "Yongqian Wen",
+        "Yuanxing Zhang",
+        "Guohui Zhang",
+        "Haoxuan Hu",
+        "Zhiyu Pan",
+        "Yibing Huang",
+        "Zhidong Gan",
+        "Yonghong Lin",
+        "An Ping",
+        "Tianhao Peng",
+        "Jiaheng Liu"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/NJU-LINK/MT-Video-Bench",
+      "published": "2025-10-20T16:38:40.000Z"
+    },
+    {
+      "id": "2510.18019",
+      "title": "Is Multilingual LLM Watermarking Truly Multilingual? A Simple Back-Translation Solution",
+      "authors": [
+        "Asim Mohamed",
+        "Martin Gubri"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/asimzz/steam",
+      "published": "2025-10-20T18:51:20.000Z"
+    },
+    {
+      "id": "2510.18775",
+      "title": "UltraGen: High-Resolution Video Generation with Hierarchical Attention",
+      "authors": [
+        "Teng Hu",
+        "Jiangning Zhang",
+        "Zihan Su",
+        "Ran Yi"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/sjtuplayer/UltraGen",
+      "published": "2025-10-21T16:23:21.000Z"
+    },
+    {
+      "id": "2510.18250",
+      "title": "ssToken: Self-modulated and Semantic-aware Token Selection for LLM Fine-tuning",
+      "authors": [
+        "Xiaohan Qin",
+        "Xiaoxing Wang",
+        "Ning Liao",
+        "Cancheng Zhang",
+        "Xiangdong Zhang",
+        "Mingquan Feng",
+        "Jingzhi Wang",
+        "Junchi Yan"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/jianke0604/ssToken",
+      "published": "2025-10-21T03:21:04.000Z"
+    },
+    {
+      "id": "2510.18795",
+      "title": "ProCLIP: Progressive Vision-Language Alignment via LLM-based Embedder",
+      "authors": [
+        "Xiaoxing Hu",
+        "Kaicheng Yang",
+        "Ziyong Feng",
+        "Qi Ming",
+        "Zonghao Guo",
+        "Xiang An",
+        "Ziyong Feng",
+        "Junchi Yan",
+        "Xue Yang"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/VisionXLab/ProCLIP",
+      "published": "2025-10-21T16:48:49.000Z"
+    },
+    {
+      "id": "2510.15862",
+      "title": "PokeeResearch: Effective Deep Research via Reinforcement Learning from AI Feedback and Robust Reasoning Scaffold",
+      "authors": [
+        "Yi Wan",
+        "Jiuqi Wang",
+        "Liam Li",
+        "Jinsong Liu",
+        "Ruihao Zhu",
+        "Zheqing Zhu"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/Pokee-AI/PokeeResearchOSS",
+      "published": "2025-10-17T17:53:06.000Z"
+    },
+    {
+      "id": "2510.18554",
+      "title": "Extracting alignment data in open models",
+      "authors": [
+        "Federico Barbero",
+        "Xiangming Gu",
+        "Christopher A. Choquette-Choo",
+        "Chawin Sitawarin",
+        "Matthew Jagielski",
+        "Itay Yona",
+        "Petar Veličković",
+        "Ilia Shumailov",
+        "Jamie Hayes"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2025-10-21T12:06:00.000Z"
+    },
+    {
+      "id": "2510.14264",
+      "title": "AlphaQuanter: An End-to-End Tool-Orchestrated Agentic Reinforcement Learning Framework for Stock Trading",
+      "authors": [
+        "Zheye Deng",
+        "Jiashu Wang"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/AlphaQuanter/AlphaQuanter",
+      "published": "2025-10-16T03:30:22.000Z"
+    },
+    {
+      "id": "2510.18873",
+      "title": "DSI-Bench: A Benchmark for Dynamic Spatial Intelligence",
+      "authors": [
+        "Ziang Zhang",
+        "Zehan Wang",
+        "Guanghao Zhang",
+        "Weilong Dai",
+        "Yan Xia",
+        "Ziang Yan",
+        "Minjie Hong",
+        "Zhou Zhao"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/SpatialVision/dsibench",
+      "published": "2025-10-21T17:59:36.000Z"
+    },
+    {
+      "id": "2510.17519",
+      "title": "MUG-V 10B: High-efficiency Training Pipeline for Large Video Generation Models",
+      "authors": [
+        "Yongshun Zhang",
+        "Zhongyi Fan",
+        "Yonghang Zhang",
+        "Zhangzikang Li",
+        "Weifeng Chen",
+        "Zhongwei Feng",
+        "Chaoyue Wang",
+        "Peng Hou",
+        "Anxiang Zeng"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/Shopee-MUG/MUG-V",
+      "published": "2025-10-20T13:20:37.000Z"
+    },
+    {
+      "id": "2510.17045",
+      "title": "Video Reasoning without Training",
+      "authors": [
+        "Deepak Sridhar",
+        "Kartikeya Bhardwaj",
+        "Jeya Pradha Jeyaraj",
+        "Nuno Vasconcelos",
+        "Ankita Nayak",
+        "Harris Teague"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2025-10-19T23:17:13.000Z"
+    },
+    {
+      "id": "2510.17862",
+      "title": "When \"Correct\" Is Not Safe: Can We Trust Functionally Correct Patches Generated by Code Agents?",
+      "authors": [
+        "Yibo Peng",
+        "James Song",
+        "Lei Li",
+        "Xinyu Yang",
+        "Mihai Christodorescu",
+        "Ravi Mangal",
+        "Corina Pasareanu",
+        "Haizhong Zheng",
+        "Beidi Chen"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/Infini-AI-Lab/FCV",
+      "published": "2025-10-15T17:16:36.000Z"
+    },
+    {
+      "id": "2510.18087",
+      "title": "Planned Diffusion",
+      "authors": [
+        "Daniel Israel",
+        "Tian Jin",
+        "Ellie Cheng",
+        "Guy Van den Broeck",
+        "Aditya Grover",
+        "Suvinay Subramanian",
+        "Michael Carbin"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/planned-diffusion/planned-diffusion",
+      "published": "2025-10-20T20:27:48.000Z"
+    },
+    {
+      "id": "2510.07581",
+      "title": "Expanding the Action Space of LLMs to Reason Beyond Language",
+      "authors": [
+        "Zhongqi Yue",
+        "Weishi Wang",
+        "Yundaichuan Zhan",
+        "Juncheng Li",
+        "Daniel Dahlmeier",
+        "Fredrik D. Johansson"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/yue-zhongqi/earl",
+      "published": "2025-10-08T21:56:58.000Z"
+    },
+    {
+      "id": "2510.15710",
+      "title": "Unimedvl: Unifying Medical Multimodal Understanding And Generation Through Observation-Knowledge-Analysis",
+      "authors": [
+        "Junzhi Ning",
+        "Wei Li",
+        "Cheng Tang",
+        "Jiashi Lin",
+        "Chenglong Ma",
+        "Chaoyang Zhang",
+        "Jiyao Liu",
+        "Ying Chen",
+        "Shujian Gao",
+        "Lihao Liu",
+        "Yuandong Pu",
+        "Huihui Xu",
+        "Chenhui Gou",
+        "Ziyan Huang",
+        "Yi Xin",
+        "Qi Qin",
+        "Zhongying Deng",
+        "Diping Song",
+        "Bin Fu",
+        "Guang Yang",
+        "Yuanfeng Ji",
+        "Tianbin Li",
+        "Yanzhou Su",
+        "Jin Ye",
+        "Shixiang Tang",
+        "Ming Hu",
+        "Junjun He"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/uni-medical/UniMedVL",
+      "published": "2025-10-17T14:54:58.000Z"
+    },
+    {
+      "id": "2510.18489",
+      "title": "Mono4DGS-HDR: High Dynamic Range 4D Gaussian Splatting from Alternating-exposure Monocular Videos",
+      "authors": [
+        "Jinfeng Liu",
+        "Lingtong Kong",
+        "Mi Zhou",
+        "Jinwen Chen",
+        "Dan Xu"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/LiuJF1226/Mono4DGS-HDR",
+      "published": "2025-10-21T10:14:33.000Z"
+    },
+    {
+      "id": "2510.15600",
+      "title": "Unleashing Scientific Reasoning for Bio-experimental Protocol Generation via Structured Component-based Reward Mechanism",
+      "authors": [
+        "Haoran Sun",
+        "Yankai Jiang",
+        "Zhenyu Tang",
+        "Yaning Pan",
+        "Shuang Gu",
+        "Zekai Lin",
+        "Lilong Wang",
+        "Wenjie Lou",
+        "Lei Liu",
+        "Lei Bai",
+        "Xiaosong Wang"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/manglu097/Thoth",
+      "published": "2025-10-17T12:47:50.000Z"
+    },
+    {
+      "id": "2510.17388",
+      "title": "The Atomic Instruction Gap: Instruction-Tuned LLMs Struggle with Simple, Self-Contained Directives",
+      "authors": [
+        "Henry Lim",
+        "Kwan Hui Lim"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-10-20T10:26:26.000Z"
+    },
+    {
+      "id": "2510.16505",
+      "title": "PRISMM-Bench: A Benchmark of Peer-Review Grounded Multimodal Inconsistencies",
+      "authors": [
+        "Lukas Selch",
+        "Yufang Hou",
+        "M. Jehanzeb Mirza",
+        "Sivan Doveh",
+        "James Glass",
+        "Rogerio Feris",
+        "Wei Lin"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/da-luggas/prismm-bench",
+      "published": "2025-10-18T13:46:26.000Z"
+    },
+    {
+      "id": "2510.17928",
+      "title": "EvoSyn: Generalizable Evolutionary Data Synthesis for Verifiable Learning",
+      "authors": [
+        "He Du",
+        "Bowen Li",
+        "Aijun Yang",
+        "Siyang He",
+        "Qipeng Guo",
+        "Dacheng Tao"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/kinza99/openevolve",
+      "published": "2025-10-20T11:56:35.000Z"
+    },
+    {
+      "id": "2510.14463",
+      "title": "Pruning Overparameterized Multi-Task Networks for Degraded Web Image Restoration",
+      "authors": [
+        "Thomas Katraouras",
+        "Dimitrios Rafailidis"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/Thomkat/MIR-L",
+      "published": "2025-10-16T09:04:05.000Z"
+    },
+    {
+      "id": "2510.18081",
+      "title": "Any-Depth Alignment: Unlocking Innate Safety Alignment of LLMs to Any-Depth",
+      "authors": [
+        "Jiawei Zhang",
+        "Andrew Estornell",
+        "David D. Baek",
+        "Bo Li",
+        "Xiaojun Xu"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2025-10-20T20:18:59.000Z"
+    },
+    {
+      "id": "2510.13982",
+      "title": "Static Sandboxes Are Inadequate: Modeling Societal Complexity Requires Open-Ended Co-Evolution in LLM-Based Multi-Agent Simulations",
+      "authors": [
+        "Jinkun Chen",
+        "Sher Badshah",
+        "Xuemin Yu",
+        "Sijia Han"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2025-10-15T18:05:06.000Z"
+    },
+    {
+      "id": "2510.15136",
+      "title": "Predicting the Unpredictable: Reproducible BiLSTM Forecasting of Incident Counts in the Global Terrorism Database (GTD)",
+      "authors": [
+        "Oluwasegun Adegoke"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/Davidavid45/Deep-Learning-in-Counterterrorism",
+      "published": "2025-10-16T20:53:43.000Z"
+    }
+  ]
+}

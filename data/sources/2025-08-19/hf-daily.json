@@ -1,0 +1,383 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-08-19",
+  "fetched_at": "2026-10-29T15:32:54.577Z",
+  "candidates": [
+    {
+      "id": "2508.11737",
+      "title": "Ovis2.5 Technical Report",
+      "authors": [
+        "Shiyin Lu",
+        "Yang Li",
+        "Yu Xia",
+        "Yuwei Hu",
+        "Shanshan Zhao",
+        "Yanqing Ma",
+        "Zhichao Wei",
+        "Yinglun Li",
+        "Lunhao Duan",
+        "Jianshan Zhao",
+        "Yuxuan Han",
+        "Haijun Li",
+        "Wanying Chen",
+        "Junke Tang",
+        "Chengkun Hou",
+        "Zhixing Du",
+        "Tianli Zhou",
+        "Wenjie Zhang",
+        "Huping Ding",
+        "Jiahe Li",
+        "Wen Li",
+        "Gui Hu",
+        "Yiliang Gu",
+        "Siran Yang",
+        "Jiamang Wang",
+        "Hailong Sun",
+        "Yibo Wang",
+        "Hui Sun",
+        "Jinlong Huang",
+        "Yuping He",
+        "Shengze Shi",
+        "Weihong Zhang",
+        "Guodong Zheng",
+        "Junpeng Jiang",
+        "Sensen Gao",
+        "Yi-Feng Wu",
+        "Sijia Chen",
+        "Yuhui Chen",
+        "Qing-Guo Chen",
+        "Zhao Xu",
+        "Weihua Luo",
+        "Kaifu Zhang"
+      ],
+      "upvotes": 116,
+      "github": "https://github.com/AIDC-AI/Ovis",
+      "published": "2025-08-15T17:01:08.000Z"
+    },
+    {
+      "id": "2508.10419",
+      "title": "ComoRAG: A Cognitive-Inspired Memory-Organized RAG for Stateful Long Narrative Reasoning",
+      "authors": [
+        "Juyuan Wang",
+        "Rongchen Zhao",
+        "Wei Wei",
+        "Yufeng Wang",
+        "Mo Yu",
+        "Jie Zhou",
+        "Jin Xu",
+        "Liyan Xu"
+      ],
+      "upvotes": 75,
+      "github": "https://github.com/EternityJune25/ComoRAG",
+      "published": "2025-08-14T07:52:09.000Z"
+    },
+    {
+      "id": "2508.13154",
+      "title": "4DNeX: Feed-Forward 4D Generative Modeling Made Easy",
+      "authors": [
+        "Zhaoxi Chen",
+        "Tianqi Liu",
+        "Long Zhuo",
+        "Jiawei Ren",
+        "Zeng Tao",
+        "He Zhu",
+        "Fangzhou Hong",
+        "Liang Pan",
+        "Ziwei Liu"
+      ],
+      "upvotes": 63,
+      "github": "https://github.com/3DTopia/4DNeX",
+      "published": "2025-08-18T17:59:55.000Z"
+    },
+    {
+      "id": "2508.09834",
+      "title": "Speed Always Wins: A Survey on Efficient Architectures for Large Language Models",
+      "authors": [
+        "Weigao Sun",
+        "Jiaxi Hu",
+        "Yucheng Zhou",
+        "Jusen Du",
+        "Disen Lan",
+        "Kexin Wang",
+        "Tong Zhu",
+        "Xiaoye Qu",
+        "Yu Zhang",
+        "Xiaoyu Mo",
+        "Daizong Liu",
+        "Yuxuan Liang",
+        "Wenliang Chen",
+        "Guoqi Li",
+        "Yu Cheng"
+      ],
+      "upvotes": 53,
+      "github": "https://github.com/weigao266/Awesome-Efficient-Arch",
+      "published": "2025-08-13T14:13:46.000Z"
+    },
+    {
+      "id": "2508.12811",
+      "title": "Next Visual Granularity Generation",
+      "authors": [
+        "Yikai Wang",
+        "Zhouxia Wang",
+        "Zhonghua Wu",
+        "Qingyi Tao",
+        "Kang Liao",
+        "Chen Change Loy"
+      ],
+      "upvotes": 49,
+      "github": "https://github.com/Yikai-Wang/nvg",
+      "published": "2025-08-18T10:47:37.000Z"
+    },
+    {
+      "id": "2508.12880",
+      "title": "S^2-Guidance: Stochastic Self Guidance for Training-Free Enhancement of Diffusion Models",
+      "authors": [
+        "Chubin Chen",
+        "Jiashu Zhu",
+        "Xiaokun Feng",
+        "Nisha Huang",
+        "Meiqi Wu",
+        "Fangyuan Mao",
+        "Jiahong Wu",
+        "Xiangxiang Chu",
+        "Xiu Li"
+      ],
+      "upvotes": 48,
+      "github": "https://github.com/AMAP-ML/S2-Guidance",
+      "published": "2025-08-18T12:31:20.000Z"
+    },
+    {
+      "id": "2508.11383",
+      "title": "When Punctuation Matters: A Large-Scale Comparison of Prompt Robustness Methods for LLMs",
+      "authors": [
+        "Mikhail Seleznyov",
+        "Mikhail Chaichuk",
+        "Gleb Ershov",
+        "Alexander Panchenko",
+        "Elena Tutubalina",
+        "Oleg Somov"
+      ],
+      "upvotes": 39,
+      "github": "https://github.com/AIRI-Institute/when-punctuation-matters",
+      "published": "2025-08-15T10:32:50.000Z"
+    },
+    {
+      "id": "2508.13142",
+      "title": "Has GPT-5 Achieved Spatial Intelligence? An Empirical Study",
+      "authors": [
+        "Zhongang Cai",
+        "Yubo Wang",
+        "Qingping Sun",
+        "Ruisi Wang",
+        "Chenyang Gu",
+        "Wanqi Yin",
+        "Zhiqian Lin",
+        "Zhitao Yang",
+        "Chen Wei",
+        "Xuanke Shi",
+        "Kewang Deng",
+        "Xiaoyang Han",
+        "Zukai Chen",
+        "Jiaqi Li",
+        "Xiangyu Fan",
+        "Hanming Deng",
+        "Lewei Lu",
+        "Bo Li",
+        "Ziwei Liu",
+        "Quan Wang",
+        "Dahua Lin",
+        "Lei Yang"
+      ],
+      "upvotes": 37,
+      "github": "https://github.com/EvolvingLMMs-Lab/EASI",
+      "published": "2025-08-18T17:55:17.000Z"
+    },
+    {
+      "id": "2508.13009",
+      "title": "Matrix-Game 2.0: An Open-Source, Real-Time, and Streaming Interactive World Model",
+      "authors": [
+        "Xianglong He",
+        "Chunli Peng",
+        "Zexiang Liu",
+        "Boyang Wang",
+        "Yifan Zhang",
+        "Qi Cui",
+        "Fei Kang",
+        "Biao Jiang",
+        "Mengyin An",
+        "Yangyang Ren",
+        "Baixin Xu",
+        "Hao-Xiang Guo",
+        "Kaixiong Gong",
+        "Cyrus Wu",
+        "Wei Li",
+        "Xuchen Song",
+        "Yang Liu",
+        "Eric Li",
+        "Yahui Zhou"
+      ],
+      "upvotes": 26,
+      "github": null,
+      "published": "2025-08-18T15:28:53.000Z"
+    },
+    {
+      "id": "2508.12782",
+      "title": "HeroBench: A Benchmark for Long-Horizon Planning and Structured Reasoning in Virtual Worlds",
+      "authors": [
+        "Petr Anokhin",
+        "Roman Khalikov",
+        "Stefan Rebrikov",
+        "Viktor Volkov",
+        "Artyom Sorokin",
+        "Vincent Bissonnette"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/stefanrer/HeroBench",
+      "published": "2025-08-18T09:59:02.000Z"
+    },
+    {
+      "id": "2508.11598",
+      "title": "Representing Speech Through Autoregressive Prediction of Cochlear Tokens",
+      "authors": [
+        "Greta Tuckute",
+        "Klemen Kotar",
+        "Evelina Fedorenko",
+        "Daniel L. K. Yamins"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2025-08-15T17:06:04.000Z"
+    },
+    {
+      "id": "2508.12945",
+      "title": "Lumen: Consistent Video Relighting and Harmonious Background Replacement with Video Generative Models",
+      "authors": [
+        "Jianshu Zeng",
+        "Yuxuan Liu",
+        "Yutong Feng",
+        "Chenxuan Miao",
+        "Zixiang Gao",
+        "Jiwang Qu",
+        "Jianzhang Zhang",
+        "Bin Wang",
+        "Kun Yuan"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/Kunbyte-AI/Lumen",
+      "published": "2025-08-18T14:21:22.000Z"
+    },
+    {
+      "id": "2508.11379",
+      "title": "G-CUT3R: Guided 3D Reconstruction with Camera and Depth Prior Integration",
+      "authors": [
+        "Ramil Khafizov",
+        "Artem Komarichev",
+        "Ruslan Rakhimov",
+        "Peter Wonka",
+        "Evgeny Burnaev"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2025-08-15T10:25:58.000Z"
+    },
+    {
+      "id": "2508.12790",
+      "title": "Reinforcement Learning with Rubric Anchors",
+      "authors": [
+        "Zenan Huang",
+        "Yihong Zhuang",
+        "Guoshan Lu",
+        "Zeyu Qin",
+        "Haokai Xu",
+        "Tianyu Zhao",
+        "Ru Peng",
+        "Jiaqi Hu",
+        "Zhanming Shen",
+        "Xiaomeng Hu",
+        "Xijun Gu",
+        "Peiyi Tu",
+        "Jiaxin Liu",
+        "Wenyu Chen",
+        "Yuzhuo Fu",
+        "Zhiting Fan",
+        "Yanmei Gu",
+        "Yuanyuan Wang",
+        "Zhengkai Yang",
+        "Jianguo Li",
+        "Junbo Zhao"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2025-08-18T10:06:08.000Z"
+    },
+    {
+      "id": "2508.13104",
+      "title": "Precise Action-to-Video Generation Through Visual Action Prompts",
+      "authors": [
+        "Yuang Wang",
+        "Chao Wen",
+        "Haoyu Guo",
+        "Sida Peng",
+        "Minghan Qin",
+        "Hujun Bao",
+        "Xiaowei Zhou",
+        "Ruizhen Hu"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2025-08-18T17:12:28.000Z"
+    },
+    {
+      "id": "2508.12466",
+      "title": "Inverse-LLaVA: Eliminating Alignment Pre-training Through Text-to-Vision Mapping",
+      "authors": [
+        "Xuhui Zhan",
+        "Tyler Derr"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/xuhuizhan5/Inverse-LLaVA",
+      "published": "2025-08-17T18:36:04.000Z"
+    },
+    {
+      "id": "2508.12730",
+      "title": "Unlearning Comparator: A Visual Analytics System for Comparative Evaluation of Machine Unlearning Methods",
+      "authors": [
+        "Jaeung Lee",
+        "Suhyeon Yu",
+        "Yurim Jang",
+        "Simon S. Woo",
+        "Jaemin Jo"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/gnueaj/Machine-Unlearning-Comparator",
+      "published": "2025-08-18T08:53:53.000Z"
+    },
+    {
+      "id": "2508.11252",
+      "title": "Beyond Solving Math Quiz: Evaluating the Ability of Large Reasoning Models to Ask for Information",
+      "authors": [
+        "Youcheng Huang",
+        "Bowen Qin",
+        "Chen Huang",
+        "Duanyu Feng",
+        "Xi Yang",
+        "Wenqiang Lei"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2025-08-15T06:42:00.000Z"
+    },
+    {
+      "id": "2508.13968",
+      "title": "RotBench: Evaluating Multimodal Large Language Models on Identifying Image Rotation",
+      "authors": [
+        "Tianyi Niu",
+        "Jaemin Cho",
+        "Elias Stengel-Eskin",
+        "Mohit Bansal"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/tianyiniu/RotBench",
+      "published": "2025-08-19T15:58:25.000Z"
+    }
+  ]
+}

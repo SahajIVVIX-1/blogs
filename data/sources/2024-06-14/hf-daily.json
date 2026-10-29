@@ -1,0 +1,579 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-06-14",
+  "fetched_at": "2026-10-29T15:28:07.413Z",
+  "candidates": [
+    {
+      "id": "2406.09414",
+      "title": "Depth Anything V2",
+      "authors": [
+        "Lihe Yang",
+        "Bingyi Kang",
+        "Zilong Huang",
+        "Zhen Zhao",
+        "Xiaogang Xu",
+        "Jiashi Feng",
+        "Hengshuang Zhao"
+      ],
+      "upvotes": 105,
+      "github": "https://github.com/DepthAnything/Depth-Anything-V2",
+      "published": "2024-06-13T17:59:56.000Z"
+    },
+    {
+      "id": "2406.09415",
+      "title": "An Image is Worth More Than 16x16 Patches: Exploring Transformers on Individual Pixels",
+      "authors": [
+        "Duy-Kien Nguyen",
+        "Mahmoud Assran",
+        "Unnat Jain",
+        "Martin R. Oswald",
+        "Cees G. M. Snoek",
+        "Xinlei Chen"
+      ],
+      "upvotes": 52,
+      "github": null,
+      "published": "2024-06-13T17:59:58.000Z"
+    },
+    {
+      "id": "2406.09246",
+      "title": "OpenVLA: An Open-Source Vision-Language-Action Model",
+      "authors": [
+        "Moo Jin Kim",
+        "Karl Pertsch",
+        "Siddharth Karamcheti",
+        "Ted Xiao",
+        "Ashwin Balakrishna",
+        "Suraj Nair",
+        "Rafael Rafailov",
+        "Ethan Foster",
+        "Grace Lam",
+        "Pannag Sanketi",
+        "Quan Vuong",
+        "Thomas Kollar",
+        "Benjamin Burchfiel",
+        "Russ Tedrake",
+        "Dorsa Sadigh",
+        "Sergey Levine",
+        "Percy Liang",
+        "Chelsea Finn"
+      ],
+      "upvotes": 47,
+      "github": "https://github.com/openvla/openvla",
+      "published": "2024-06-13T15:46:55.000Z"
+    },
+    {
+      "id": "2406.09308",
+      "title": "Transformers meet Neural Algorithmic Reasoners",
+      "authors": [
+        "Wilfried Bounsi",
+        "Borja Ibarz",
+        "Andrew Dudzik",
+        "Jessica B. Hamrick",
+        "Larisa Markeeva",
+        "Alex Vitvitskyi",
+        "Razvan Pascanu",
+        "Petar Veličković"
+      ],
+      "upvotes": 44,
+      "github": null,
+      "published": "2024-06-13T16:42:06.000Z"
+    },
+    {
+      "id": "2406.07522",
+      "title": "Samba: Simple Hybrid State Space Models for Efficient Unlimited Context Language Modeling",
+      "authors": [
+        "Liliang Ren",
+        "Yang Liu",
+        "Yadong Lu",
+        "Yelong Shen",
+        "Chen Liang",
+        "Weizhu Chen"
+      ],
+      "upvotes": 39,
+      "github": "https://github.com/microsoft/Samba",
+      "published": "2024-06-11T17:50:51.000Z"
+    },
+    {
+      "id": "2406.09416",
+      "title": "Alleviating Distortion in Image Generation via Multi-Resolution Diffusion Models",
+      "authors": [
+        "Qihao Liu",
+        "Zhanpeng Zeng",
+        "Ju He",
+        "Qihang Yu",
+        "Xiaohui Shen",
+        "Liang-Chieh Chen"
+      ],
+      "upvotes": 29,
+      "github": "https://github.com/qihao067/DiMR",
+      "published": "2024-06-13T17:59:58.000Z"
+    },
+    {
+      "id": "2406.09170",
+      "title": "Test of Time: A Benchmark for Evaluating LLMs on Temporal Reasoning",
+      "authors": [
+        "Bahare Fatemi",
+        "Mehran Kazemi",
+        "Anton Tsitsulin",
+        "Karishma Malkan",
+        "Jinyeong Yim",
+        "John Palowitch",
+        "Sungyong Seo",
+        "Jonathan Halcrow",
+        "Bryan Perozzi"
+      ],
+      "upvotes": 27,
+      "github": null,
+      "published": "2024-06-13T14:31:19.000Z"
+    },
+    {
+      "id": "2406.08552",
+      "title": "DiTFastAttn: Attention Compression for Diffusion Transformer Models",
+      "authors": [
+        "Zhihang Yuan",
+        "Pu Lu",
+        "Hanling Zhang",
+        "Xuefei Ning",
+        "Linfeng Zhang",
+        "Tianchen Zhao",
+        "Shengen Yan",
+        "Guohao Dai",
+        "Yu Wang"
+      ],
+      "upvotes": 25,
+      "github": null,
+      "published": "2024-06-12T18:00:08.000Z"
+    },
+    {
+      "id": "2406.09403",
+      "title": "Visual Sketchpad: Sketching as a Visual Chain of Thought for Multimodal Language Models",
+      "authors": [
+        "Yushi Hu",
+        "Weijia Shi",
+        "Xingyu Fu",
+        "Dan Roth",
+        "Mari Ostendorf",
+        "Luke Zettlemoyer",
+        "Noah A Smith",
+        "Ranjay Krishna"
+      ],
+      "upvotes": 23,
+      "github": null,
+      "published": "2024-06-13T17:59:31.000Z"
+    },
+    {
+      "id": "2406.09413",
+      "title": "Interpreting the Weight Space of Customized Diffusion Models",
+      "authors": [
+        "Amil Dravid",
+        "Yossi Gandelsman",
+        "Kuan-Chieh Wang",
+        "Rameen Abdal",
+        "Gordon Wetzstein",
+        "Alexei A. Efros",
+        "Kfir Aberman"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/snap-research/weights2weights",
+      "published": "2024-06-13T17:59:56.000Z"
+    },
+    {
+      "id": "2406.08673",
+      "title": "HelpSteer2: Open-source dataset for training top-performing reward models",
+      "authors": [
+        "Zhilin Wang",
+        "Yi Dong",
+        "Olivier Delalleau",
+        "Jiaqi Zeng",
+        "Gerald Shen",
+        "Daniel Egert",
+        "Jimmy J. Zhang",
+        "Makesh Narsimhan Sreedhar",
+        "Oleksii Kuchaiev"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/nvidia/nemo-aligner",
+      "published": "2024-06-12T22:28:08.000Z"
+    },
+    {
+      "id": "2406.09411",
+      "title": "MuirBench: A Comprehensive Benchmark for Robust Multi-image Understanding",
+      "authors": [
+        "Fei Wang",
+        "Xingyu Fu",
+        "James Y. Huang",
+        "Zekun Li",
+        "Qin Liu",
+        "Xiaogeng Liu",
+        "Mingyu Derek Ma",
+        "Nan Xu",
+        "Wenxuan Zhou",
+        "Kai Zhang",
+        "Tianyi Lorena Yan",
+        "Wenjie Jacky Mo",
+        "Hsiang-Hui Liu",
+        "Pan Lu",
+        "Chunyuan Li",
+        "Chaowei Xiao",
+        "Kai-Wei Chang",
+        "Dan Roth",
+        "Sheng Zhang",
+        "Hoifung Poon",
+        "Muhao Chen"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/muirbench/MuirBench",
+      "published": "2024-06-13T17:59:52.000Z"
+    },
+    {
+      "id": "2406.08707",
+      "title": "mOSCAR: A Large-scale Multilingual and Multimodal Document-level Corpus",
+      "authors": [
+        "Matthieu Futeral",
+        "Armel Zebaze",
+        "Pedro Ortiz Suarez",
+        "Julien Abadji",
+        "Rémi Lacroix",
+        "Cordelia Schmid",
+        "Rachel Bawden",
+        "Benoît Sagot"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2024-06-13T00:13:32.000Z"
+    },
+    {
+      "id": "2406.08587",
+      "title": "CS-Bench: A Comprehensive Benchmark for Large Language Models towards Computer Science Mastery",
+      "authors": [
+        "Xiaoshuai Song",
+        "Muxi Diao",
+        "Guanting Dong",
+        "Zhengyang Wang",
+        "Yujia Fu",
+        "Runqi Qiao",
+        "Zhexu Wang",
+        "Dayuan Fu",
+        "Huangxuan Wu",
+        "Bin Liang",
+        "Weihao Zeng",
+        "Yejie Wang",
+        "Zhuoma GongQue",
+        "Jianing Yu",
+        "Qiuna Tan",
+        "Weiran Xu"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/csbench/csbench",
+      "published": "2024-06-12T18:47:28.000Z"
+    },
+    {
+      "id": "2406.09406",
+      "title": "4M-21: An Any-to-Any Vision Model for Tens of Tasks and Modalities",
+      "authors": [
+        "Roman Bachmann",
+        "Oğuzhan Fatih Kar",
+        "David Mizrahi",
+        "Ali Garjani",
+        "Mingfei Gao",
+        "David Griffiths",
+        "Jiaming Hu",
+        "Afshin Dehghan",
+        "Amir Zamir"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2024-06-13T17:59:42.000Z"
+    },
+    {
+      "id": "2406.09162",
+      "title": "EMMA: Your Text-to-Image Diffusion Model Can Secretly Accept Multi-Modal Prompts",
+      "authors": [
+        "Yucheng Han",
+        "Rui Wang",
+        "Chi Zhang",
+        "Juntao Hu",
+        "Pei Cheng",
+        "Bin Fu",
+        "Hanwang Zhang"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/TencentQQGYLab/ELLA",
+      "published": "2024-06-13T14:26:43.000Z"
+    },
+    {
+      "id": "2406.09412",
+      "title": "Explore the Limits of Omni-modal Pretraining at Scale",
+      "authors": [
+        "Yiyuan Zhang",
+        "Handong Li",
+        "Jing Liu",
+        "Xiangyu Yue"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/invictus717/MiCo",
+      "published": "2024-06-13T17:59:53.000Z"
+    },
+    {
+      "id": "2406.08657",
+      "title": "Mistral-C2F: Coarse to Fine Actor for Analytical and Reasoning Enhancement in RLHF and Effective-Merged LLMs",
+      "authors": [
+        "Chen Zheng",
+        "Ke Sun",
+        "Xun Zhou"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2024-06-12T21:42:13.000Z"
+    },
+    {
+      "id": "2406.07546",
+      "title": "Commonsense-T2I Challenge: Can Text-to-Image Generation Models Understand Commonsense?",
+      "authors": [
+        "Xingyu Fu",
+        "Muyu He",
+        "Yujie Lu",
+        "William Yang Wang",
+        "Dan Roth"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2024-06-11T17:59:48.000Z"
+    },
+    {
+      "id": "2406.08656",
+      "title": "TC-Bench: Benchmarking Temporal Compositionality in Text-to-Video and Image-to-Video Generation",
+      "authors": [
+        "Weixi Feng",
+        "Jiachen Li",
+        "Michael Saxon",
+        "Tsu-jui Fu",
+        "Wenhu Chen",
+        "William Yang Wang"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/weixi-feng/tc-bench",
+      "published": "2024-06-12T21:41:32.000Z"
+    },
+    {
+      "id": "2406.08862",
+      "title": "Cognitively Inspired Energy-Based World Models",
+      "authors": [
+        "Alexi Gladstone",
+        "Ganesh Nanduru",
+        "Md Mofijul Islam",
+        "Aman Chadha",
+        "Jundong Li",
+        "Tariq Iqbal"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2024-06-13T06:54:37.000Z"
+    },
+    {
+      "id": "2406.07457",
+      "title": "Estimating the Hallucination Rate of Generative AI",
+      "authors": [
+        "Andrew Jesson",
+        "Nicolas Beltran-Velez",
+        "Quentin Chu",
+        "Sweta Karlekar",
+        "Jannik Kossen",
+        "Yarin Gal",
+        "John P. Cunningham",
+        "David Blei"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2024-06-11T17:01:52.000Z"
+    },
+    {
+      "id": "2406.09356",
+      "title": "CMC-Bench: Towards a New Paradigm of Visual Signal Compression",
+      "authors": [
+        "Chunyi Li",
+        "Xiele Wu",
+        "Haoning Wu",
+        "Donghui Feng",
+        "Zicheng Zhang",
+        "Guo Lu",
+        "Xiongkuo Min",
+        "Xiaohong Liu",
+        "Guangtao Zhai",
+        "Weisi Lin"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/q-future/cmc-bench",
+      "published": "2024-06-13T17:41:37.000Z"
+    },
+    {
+      "id": "2406.09297",
+      "title": "MLKV: Multi-Layer Key-Value Heads for Memory Efficient Transformer Decoding",
+      "authors": [
+        "Zayd Muhammad Kawakibi Zuhri",
+        "Muhammad Farid Adilazuarda",
+        "Ayu Purwarianti",
+        "Alham Fikri Aji"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/zaydzuhri/pythia-mlkv",
+      "published": "2024-06-13T16:33:44.000Z"
+    },
+    {
+      "id": "2406.05967",
+      "title": "CVQA: Culturally-diverse Multilingual Visual Question Answering Benchmark",
+      "authors": [
+        "David Romero",
+        "Chenyang Lyu",
+        "Haryo Akbarianto Wibowo",
+        "Teresa Lynn",
+        "Injy Hamed",
+        "Aditya Nanda Kishore",
+        "Aishik Mandal",
+        "Alina Dragonetti",
+        "Artem Abzaliev",
+        "Atnafu Lambebo Tonja",
+        "Bontu Fufa Balcha",
+        "Chenxi Whitehouse",
+        "Christian Salamea",
+        "Dan John Velasco",
+        "David Ifeoluwa Adelani",
+        "David Le Meur",
+        "Emilio Villa-Cueva",
+        "Fajri Koto",
+        "Fauzan Farooqui",
+        "Frederico Belcavello",
+        "Ganzorig Batnasan",
+        "Gisela Vallejo",
+        "Grainne Caulfield",
+        "Guido Ivetta",
+        "Haiyue Song",
+        "Henok Biadglign Ademtew",
+        "Hernán Maina",
+        "Holy Lovenia",
+        "Israel Abebe Azime",
+        "Jan Christian Blaise Cruz",
+        "Jay Gala",
+        "Jiahui Geng",
+        "Jesus-German Ortiz-Barajas",
+        "Jinheon Baek",
+        "Jocelyn Dunstan",
+        "Laura Alonso Alemany",
+        "Kumaranage Ravindu Yasas Nagasinghe",
+        "Luciana Benotti",
+        "Luis Fernando D'Haro",
+        "Marcelo Viridiano",
+        "Marcos Estecha-Garitagoitia",
+        "Maria Camila Buitrago Cabrera",
+        "Mario Rodríguez-Cantelar",
+        "Mélanie Jouitteau",
+        "Mihail Mihaylov",
+        "Mohamed Fazli Mohamed Imam",
+        "Muhammad Farid Adilazuarda",
+        "Munkhjargal Gochoo",
+        "Munkh-Erdene Otgonbold",
+        "Naome Etori",
+        "Olivier Niyomugisha",
+        "Paula Mónica Silva",
+        "Pranjal Chitale",
+        "Raj Dabre",
+        "Rendi Chevi",
+        "Ruochen Zhang",
+        "Ryandito Diandaru",
+        "Samuel Cahyawijaya",
+        "Santiago Góngora",
+        "Soyeong Jeong",
+        "Sukannya Purkayastha",
+        "Tatsuki Kuribayashi",
+        "Thanmay Jayakumar",
+        "Tiago Timponi Torrent",
+        "Toqeer Ehsan",
+        "Vladimir Araujo",
+        "Yova Kementchedjhieva",
+        "Zara Burzo",
+        "Zheng Wei Lim",
+        "Zheng Xin Yong",
+        "Oana Ignat",
+        "Joan Nwatu",
+        "Rada Mihalcea",
+        "Thamar Solorio",
+        "Alham Fikri Aji"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2024-06-10T01:59:00.000Z"
+    },
+    {
+      "id": "2406.08598",
+      "title": "Language Model Council: Benchmarking Foundation Models on Highly Subjective Tasks by Consensus",
+      "authors": [
+        "Justin Zhao",
+        "Flor Miriam Plaza-del-Arco",
+        "Amanda Cercas Curry"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/llm-council/llm-council",
+      "published": "2024-06-12T19:05:43.000Z"
+    },
+    {
+      "id": "2406.08479",
+      "title": "Real3D: Scaling Up Large Reconstruction Models with Real-World Images",
+      "authors": [
+        "Hanwen Jiang",
+        "Qixing Huang",
+        "Georgios Pavlakos"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/hwjiang1510/Real3D",
+      "published": "2024-06-12T17:59:08.000Z"
+    },
+    {
+      "id": "2406.09358",
+      "title": "Understanding Hallucinations in Diffusion Models through Mode Interpolation",
+      "authors": [
+        "Sumukh K Aithal",
+        "Pratyush Maini",
+        "Zachary C. Lipton",
+        "J. Zico Kolter"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/locuslab/diffusion-model-hallucination",
+      "published": "2024-06-13T17:43:41.000Z"
+    },
+    {
+      "id": "2406.09305",
+      "title": "Toffee: Efficient Million-Scale Dataset Construction for Subject-Driven Text-to-Image Generation",
+      "authors": [
+        "Yufan Zhou",
+        "Ruiyi Zhang",
+        "Kaizhi Zheng",
+        "Nanxuan Zhao",
+        "Jiuxiang Gu",
+        "Zichao Wang",
+        "Xin Eric Wang",
+        "Tong Sun"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2024-06-13T16:40:39.000Z"
+    },
+    {
+      "id": "2406.09371",
+      "title": "LRM-Zero: Training Large Reconstruction Models with Synthesized Data",
+      "authors": [
+        "Desai Xie",
+        "Sai Bi",
+        "Zhixin Shu",
+        "Kai Zhang",
+        "Zexiang Xu",
+        "Yi Zhou",
+        "Sören Pirk",
+        "Arie Kaufman",
+        "Xin Sun",
+        "Hao Tan"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/desaixie/zeroverse",
+      "published": "2024-06-13T17:51:00.000Z"
+    }
+  ]
+}

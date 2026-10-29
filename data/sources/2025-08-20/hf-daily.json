@@ -1,0 +1,532 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-08-20",
+  "fetched_at": "2026-10-29T15:32:55.235Z",
+  "candidates": [
+    {
+      "id": "2508.13167",
+      "title": "Chain-of-Agents: End-to-End Agent Foundation Models via Multi-Agent Distillation and Agentic RL",
+      "authors": [
+        "Weizhen Li",
+        "Jianbo Lin",
+        "Zhuosong Jiang",
+        "Jingyi Cao",
+        "Xinpeng Liu",
+        "Jiayu Zhang",
+        "Zhenqiang Huang",
+        "Qianben Chen",
+        "Weichen Sun",
+        "Qiexiang Wang",
+        "Hongxuan Lu",
+        "Tianrui Qin",
+        "Chenghao Zhu",
+        "Yi Yao",
+        "Shuying Fan",
+        "Xiaowan Li",
+        "Tiannan Wang",
+        "Pai Liu",
+        "King Zhu",
+        "He Zhu",
+        "Dingfeng Shi",
+        "Piaohong Wang",
+        "Yeyi Guan",
+        "Xiangru Tang",
+        "Minghao Liu",
+        "Yuchen Eleanor Jiang",
+        "Jian Yang",
+        "Jiaheng Liu",
+        "Ge Zhang",
+        "Wangchunshu Zhou"
+      ],
+      "upvotes": 128,
+      "github": "https://github.com/OPPO-PersonalAI/Agent_Foundation_Models",
+      "published": "2025-08-06T17:01:02.000Z"
+    },
+    {
+      "id": "2508.14041",
+      "title": "LongSplat: Robust Unposed 3D Gaussian Splatting for Casual Long Videos",
+      "authors": [
+        "Chin-Yang Lin",
+        "Cheng Sun",
+        "Fu-En Yang",
+        "Min-Hung Chen",
+        "Yen-Yu Lin",
+        "Yu-Lun Liu"
+      ],
+      "upvotes": 60,
+      "github": "https://github.com/NVlabs/LongSplat",
+      "published": "2025-08-19T17:59:56.000Z"
+    },
+    {
+      "id": "2508.13948",
+      "title": "Prompt Orchestration Markup Language",
+      "authors": [
+        "Yuge Zhang",
+        "Nan Chen",
+        "Jiahang Xu",
+        "Yuqing Yang"
+      ],
+      "upvotes": 49,
+      "github": "https://github.com/microsoft/poml",
+      "published": "2025-08-19T15:37:29.000Z"
+    },
+    {
+      "id": "2508.13186",
+      "title": "MM-BrowseComp: A Comprehensive Benchmark for Multimodal Browsing Agents",
+      "authors": [
+        "Shilong Li",
+        "Xingyuan Bu",
+        "Wenjie Wang",
+        "Jiaheng Liu",
+        "Jun Dong",
+        "Haoyang He",
+        "Hao Lu",
+        "Haozhe Zhang",
+        "Chenchen Jing",
+        "Zhen Li",
+        "Chuanhao Li",
+        "Jiayi Tian",
+        "Chenchen Zhang",
+        "Tianhao Peng",
+        "Yancheng He",
+        "Jihao Gu",
+        "Yuanxing Zhang",
+        "Jian Yang",
+        "Ge Zhang",
+        "Wenhao Huang",
+        "Wangchunshu Zhou",
+        "Zhaoxiang Zhang",
+        "Ruizhe Ding",
+        "Shilei Wen"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/MMBrowseComp/MM-BrowseComp",
+      "published": "2025-08-14T13:46:47.000Z"
+    },
+    {
+      "id": "2508.06905",
+      "title": "MultiRef: Controllable Image Generation with Multiple Visual References",
+      "authors": [
+        "Ruoxi Chen",
+        "Dongping Chen",
+        "Siyuan Wu",
+        "Sinan Wang",
+        "Shiyun Lang",
+        "Petr Sushko",
+        "Gaoyang Jiang",
+        "Yao Wan",
+        "Ranjay Krishna"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/Dipsy0830/MultiRef-code",
+      "published": "2025-08-09T09:36:21.000Z"
+    },
+    {
+      "id": "2508.13998",
+      "title": "Embodied-R1: Reinforced Embodied Reasoning for General Robotic Manipulation",
+      "authors": [
+        "Yifu Yuan",
+        "Haiqin Cui",
+        "Yaoting Huang",
+        "Yibin Chen",
+        "Fei Ni",
+        "Zibin Dong",
+        "Pengyi Li",
+        "Yan Zheng",
+        "Jianye Hao"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/pickxiguapi/Embodied-R1",
+      "published": "2025-08-19T16:50:01.000Z"
+    },
+    {
+      "id": "2508.10830",
+      "title": "Advances in Speech Separation: Techniques, Challenges, and Future Trends",
+      "authors": [
+        "Kai Li",
+        "Guo Chen",
+        "Wendi Sang",
+        "Yi Luo",
+        "Zhuo Chen",
+        "Shuai Wang",
+        "Shulin He",
+        "Zhong-Qiu Wang",
+        "Andong Li",
+        "Zhiyong Wu",
+        "Xiaolin Hu"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/JusperLee/Speech-Separation-Paper-Tutorial",
+      "published": "2025-08-14T16:54:34.000Z"
+    },
+    {
+      "id": "2508.09131",
+      "title": "Training-Free Text-Guided Color Editing with Multi-Modal Diffusion Transformer",
+      "authors": [
+        "Zixin Yin",
+        "Xili Dai",
+        "Ling-Hao Chen",
+        "Deyu Zhou",
+        "Jianan Wang",
+        "Duomin Wang",
+        "Gang Yu",
+        "Lionel M. Ni",
+        "Lei Zhang",
+        "Heung-Yeung Shum"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2025-08-12T17:57:04.000Z"
+    },
+    {
+      "id": "2508.08777",
+      "title": "Evaluating Podcast Recommendations with Profile-Aware LLM-as-a-Judge",
+      "authors": [
+        "Francesco Fabbri",
+        "Gustavo Penha",
+        "Edoardo D'Amico",
+        "Alice Wang",
+        "Marco De Nadai",
+        "Jackie Doremus",
+        "Paul Gigioli",
+        "Andreas Damianou",
+        "Oskar Stal",
+        "Mounia Lalmas"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2025-08-12T09:23:35.000Z"
+    },
+    {
+      "id": "2508.13632",
+      "title": "OmniTry: Virtual Try-On Anything without Masks",
+      "authors": [
+        "Yutong Feng",
+        "Linlin Zhang",
+        "Hengyuan Cao",
+        "Yiming Chen",
+        "Xiaoduan Feng",
+        "Jian Cao",
+        "Yuxiong Wu",
+        "Bin Wang"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/Kunbyte-AI/OmniTry",
+      "published": "2025-08-19T08:47:31.000Z"
+    },
+    {
+      "id": "2508.12669",
+      "title": "Leveraging Large Language Models for Predictive Analysis of Human Misery",
+      "authors": [
+        "Bishanka Seal",
+        "Rahul Seetharaman",
+        "Aman Bansal",
+        "Abhilash Nandy"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/abhi1nandy2/Misery_Data_Exps_GitHub",
+      "published": "2025-08-18T07:02:59.000Z"
+    },
+    {
+      "id": "2508.12040",
+      "title": "Mind the Generation Process: Fine-Grained Confidence Estimation During LLM Generation",
+      "authors": [
+        "Jinyi Han",
+        "Tingyun Li",
+        "Shisong Chen",
+        "Jie Shi",
+        "Xinyi Wang",
+        "Guanglei Yue",
+        "Jiaqing Liang",
+        "Xin Lin",
+        "Liqian Wen",
+        "Zulong Chen",
+        "Yanghua Xiao"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/JinyiHan99/FineCE",
+      "published": "2025-08-16T13:29:35.000Z"
+    },
+    {
+      "id": "2508.04324",
+      "title": "TempFlow-GRPO: When Timing Matters for GRPO in Flow Models",
+      "authors": [
+        "Xiaoxuan He",
+        "Siming Fu",
+        "Yuke Zhao",
+        "Wanli Li",
+        "Jian Yang",
+        "Dacheng Yin",
+        "Fengyun Rao",
+        "Bo Zhang"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/Shredded-Pork/TempFlow-GRPO",
+      "published": "2025-08-06T11:10:39.000Z"
+    },
+    {
+      "id": "2508.12903",
+      "title": "A Stitch in Time Saves Nine: Proactive Self-Refinement for Language Models",
+      "authors": [
+        "Jinyi Han",
+        "Xinyi Wang",
+        "Haiquan Zhao",
+        "Tingyun li",
+        "Zishang Jiang",
+        "Sihang Jiang",
+        "Jiaqing Liang",
+        "Xin Lin",
+        "Weikang Zhou",
+        "Zeye Sun",
+        "Fei Yu",
+        "Yanghua Xiao"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/JinyiHan99/Proactive-Self-Refine-in-LLMs",
+      "published": "2025-08-18T13:07:21.000Z"
+    },
+    {
+      "id": "2508.12845",
+      "title": "CAMAR: Continuous Actions Multi-Agent Routing",
+      "authors": [
+        "Artem Pshenitsyn",
+        "Aleksandr Panov",
+        "Alexey Skrynnik"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/AIRI-Institute/CAMAR",
+      "published": "2025-08-18T11:32:26.000Z"
+    },
+    {
+      "id": "2508.13992",
+      "title": "MMAU-Pro: A Challenging and Comprehensive Benchmark for Holistic Evaluation of Audio General Intelligence",
+      "authors": [
+        "Sonal Kumar",
+        "Šimon Sedláček",
+        "Vaibhavi Lokegaonkar",
+        "Fernando López",
+        "Wenyi Yu",
+        "Nishit Anand",
+        "Hyeonggon Ryu",
+        "Lichang Chen",
+        "Maxim Plička",
+        "Miroslav Hlaváček",
+        "William Fineas Ellingwood",
+        "Sathvik Udupa",
+        "Siyuan Hou",
+        "Allison Ferner",
+        "Sara Barahona",
+        "Cecilia Bolaños",
+        "Satish Rahi",
+        "Laura Herrera-Alarcón",
+        "Satvik Dixit",
+        "Siddhi Patil",
+        "Soham Deshmukh",
+        "Lasha Koroshinadze",
+        "Yao Liu",
+        "Leibny Paola Garcia Perera",
+        "Eleni Zanou",
+        "Themos Stafylakis",
+        "Joon Son Chung",
+        "David Harwath",
+        "Chao Zhang",
+        "Dinesh Manocha",
+        "Alicia Lozano-Diez",
+        "Santosh Kesiraju",
+        "Sreyan Ghosh",
+        "Ramani Duraiswami"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2025-08-19T16:33:49.000Z"
+    },
+    {
+      "id": "2508.12800",
+      "title": "Atom-Searcher: Enhancing Agentic Deep Research via Fine-Grained Atomic Thought Reward",
+      "authors": [
+        "Yong Deng",
+        "Guoqing Wang",
+        "Zhenzhe Ying",
+        "Xiaofeng Wu",
+        "Jinzhen Lin",
+        "Wenwen Xiong",
+        "Yuqin Dai",
+        "Shuo Yang",
+        "Zhanwei Zhang",
+        "Qiwen Wang",
+        "Yang Qin",
+        "Changhua Meng"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/antgroup/Research-Venus",
+      "published": "2025-08-18T10:23:10.000Z"
+    },
+    {
+      "id": "2508.11386",
+      "title": "Retrieval-augmented reasoning with lean language models",
+      "authors": [
+        "Ryan Sze-Yin Chan",
+        "Federico Nanni",
+        "Tomas Lazauskas",
+        "Rosie Wood",
+        "Penelope Yong",
+        "Lionel Tarassenko",
+        "Mark Girolami",
+        "James Geddes",
+        "Andrew Duncan"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-08-15T10:38:15.000Z"
+    },
+    {
+      "id": "2508.10478",
+      "title": "Semantic IDs for Joint Generative Search and Recommendation",
+      "authors": [
+        "Gustavo Penha",
+        "Edoardo D'Amico",
+        "Marco De Nadai",
+        "Enrico Palumbo",
+        "Alexandre Tamborrino",
+        "Ali Vardasbi",
+        "Max Lefarov",
+        "Shawn Lin",
+        "Timothy Heath",
+        "Francesco Fabbri",
+        "Hugues Bouchard"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-08-14T09:28:49.000Z"
+    },
+    {
+      "id": "2508.09789",
+      "title": "Describe What You See with Multimodal Large Language Models to Enhance Video Recommendations",
+      "authors": [
+        "Marco De Nadai",
+        "Andreas Damianou",
+        "Mounia Lalmas"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-08-13T13:19:31.000Z"
+    },
+    {
+      "id": "2508.13139",
+      "title": "Motion2Motion: Cross-topology Motion Transfer with Sparse Correspondence",
+      "authors": [
+        "Ling-Hao Chen",
+        "Yuhong Zhang",
+        "Zixin Yin",
+        "Zhiyang Dou",
+        "Xin Chen",
+        "Jingbo Wang",
+        "Taku Komura",
+        "Lei Zhang"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/LinghaoChan/Motion2Motion_codes",
+      "published": "2025-08-18T17:50:31.000Z"
+    },
+    {
+      "id": "2508.13804",
+      "title": "Beyond Human Judgment: A Bayesian Evaluation of LLMs' Moral Values Understanding",
+      "authors": [
+        "Maciej Skorski",
+        "Alina Landowska"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/maciejskorski/moral-foundations-llm-eval",
+      "published": "2025-08-19T13:05:48.000Z"
+    },
+    {
+      "id": "2508.11548",
+      "title": "Copyright Protection for Large Language Models: A Survey of Methods, Challenges, and Trends",
+      "authors": [
+        "Zhenhua Xu",
+        "Xubin Yue",
+        "Zhebo Wang",
+        "Qichen Liu",
+        "Xixiang Zhao",
+        "Jingxuan Zhang",
+        "Wenjun Zeng",
+        "Wengpeng Xing",
+        "Dezhang Kong",
+        "Changting Lin",
+        "Meng Han"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/Xuzhenhua55/awesome-llm-copyright-protection",
+      "published": "2025-08-15T15:50:20.000Z"
+    },
+    {
+      "id": "2508.13320",
+      "title": "Rapidly Adapting to New Voice Spoofing: Few-Shot Detection of Synthesized Speech Under Distribution Shifts",
+      "authors": [
+        "Ashi Garg",
+        "Zexin Cai",
+        "Henry Li Xinyuan",
+        "Leibny Paola García-Perera",
+        "Kevin Duh",
+        "Sanjeev Khudanpur",
+        "Matthew Wiesner",
+        "Nicholas Andrews"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2025-08-18T19:14:45.000Z"
+    },
+    {
+      "id": "2508.12535",
+      "title": "CorrSteer: Steering Improves Task Performance and Safety in LLMs through Correlation-based Sparse Autoencoder Feature Selection",
+      "authors": [
+        "Seonglae Cho",
+        "Zekun Wu",
+        "Adriano Koshiyama"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2025-08-18T00:01:42.000Z"
+    },
+    {
+      "id": "2508.04326",
+      "title": "Radiance Fields in XR: A Survey on How Radiance Fields are Envisioned and Addressed for XR Research",
+      "authors": [
+        "Ke Li",
+        "Mana Masuda",
+        "Susanne Schmidt",
+        "Shohei Mori"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/mediated-reality/awesome-rf4xr",
+      "published": "2025-08-06T11:14:06.000Z"
+    },
+    {
+      "id": "2508.11032",
+      "title": "MedSAMix: A Training-Free Model Merging Approach for Medical Image Segmentation",
+      "authors": [
+        "Yanwu Yang",
+        "Guinan Su",
+        "Jiesi Hu",
+        "Francesco Sammarco",
+        "Jonas Geiping",
+        "Thomas Wolfers"
+      ],
+      "upvotes": 0,
+      "github": "https://github.com/podismine/MedSAMix",
+      "published": "2025-08-14T19:35:57.000Z"
+    },
+    {
+      "id": "2508.04038",
+      "title": "ZARA: Zero-shot Motion Time-Series Analysis via Knowledge and Retrieval Driven LLM Agents",
+      "authors": [
+        "Zechen Li",
+        "Baiyu Chen",
+        "Hao Xue",
+        "Flora D. Salim"
+      ],
+      "upvotes": 0,
+      "github": "https://github.com/zechenli03/ZARA",
+      "published": "2025-08-06T02:57:57.000Z"
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-01-09",
+  "fetched_at": "2026-10-29T15:26:31.680Z",
+  "candidates": [
+    {
+      "id": "2401.04088",
+      "title": "Mixtral of Experts",
+      "authors": [
+        "Albert Q. Jiang",
+        "Alexandre Sablayrolles",
+        "Antoine Roux",
+        "Arthur Mensch",
+        "Blanche Savary",
+        "Chris Bamford",
+        "Devendra Singh Chaplot",
+        "Diego de las Casas",
+        "Emma Bou Hanna",
+        "Florian Bressand",
+        "Gianna Lengyel",
+        "Guillaume Bour",
+        "Guillaume Lample",
+        "Lélio Renard Lavaud",
+        "Lucile Saulnier",
+        "Marie-Anne Lachaux",
+        "Pierre Stock",
+        "Sandeep Subramanian",
+        "Sophia Yang",
+        "Szymon Antoniak",
+        "Teven Le Scao",
+        "Théophile Gervet",
+        "Thibaut Lavril",
+        "Thomas Wang",
+        "Timothée Lacroix",
+        "William El Sayed"
+      ],
+      "upvotes": 161,
+      "github": "https://github.com/pwc-1/Paper-9",
+      "published": "2024-01-08T18:47:34.000Z"
+    },
+    {
+      "id": "2401.04081",
+      "title": "MoE-Mamba: Efficient Selective State Space Models with Mixture of Experts",
+      "authors": [
+        "Maciej Pióro",
+        "Kamil Ciebiera",
+        "Krystian Król",
+        "Jan Ludziejewski",
+        "Sebastian Jaszczur"
+      ],
+      "upvotes": 74,
+      "github": null,
+      "published": "2024-01-08T18:35:07.000Z"
+    },
+    {
+      "id": "2401.02994",
+      "title": "Blending Is All You Need: Cheaper, Better Alternative to Trillion-Parameters LLM",
+      "authors": [
+        "Xiaoding Lu",
+        "Adian Liusie",
+        "Vyas Raina",
+        "Yuwen Zhang",
+        "William Beauchamp"
+      ],
+      "upvotes": 52,
+      "github": null,
+      "published": "2024-01-04T07:45:49.000Z"
+    },
+    {
+      "id": "2401.03462",
+      "title": "Soaring from 4K to 400K: Extending LLM's Context with Activation Beacon",
+      "authors": [
+        "Peitian Zhang",
+        "Zheng Liu",
+        "Shitao Xiao",
+        "Ninglu Shao",
+        "Qiwei Ye",
+        "Zhicheng Dou"
+      ],
+      "upvotes": 31,
+      "github": null,
+      "published": "2024-01-07T11:57:40.000Z"
+    },
+    {
+      "id": "2401.04092",
+      "title": "GPT-4V(ision) is a Human-Aligned Evaluator for Text-to-3D Generation",
+      "authors": [
+        "Tong Wu",
+        "Guandao Yang",
+        "Zhibing Li",
+        "Kai Zhang",
+        "Ziwei Liu",
+        "Leonidas Guibas",
+        "Dahua Lin",
+        "Gordon Wetzstein"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/3DTopia/GPTEval3D",
+      "published": "2024-01-08T18:52:09.000Z"
+    },
+    {
+      "id": "2401.03506",
+      "title": "DiarizationLM: Speaker Diarization Post-Processing with Large Language Models",
+      "authors": [
+        "Quan Wang",
+        "Yiling Huang",
+        "Guanlong Zhao",
+        "Evan Clark",
+        "Wei Xia",
+        "Hank Liao"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/google/speaker-id",
+      "published": "2024-01-07T14:54:57.000Z"
+    },
+    {
+      "id": "2401.03003",
+      "title": "AST-T5: Structure-Aware Pretraining for Code Generation and Understanding",
+      "authors": [
+        "Linyuan Gong",
+        "Mostafa Elhoushi",
+        "Alvin Cheung"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/gonglinyuan/ast_t5",
+      "published": "2024-01-05T06:51:08.000Z"
+    },
+    {
+      "id": "2401.03065",
+      "title": "CRUXEval: A Benchmark for Code Reasoning, Understanding and Execution",
+      "authors": [
+        "Alex Gu",
+        "Baptiste Rozière",
+        "Hugh Leather",
+        "Armando Solar-Lezama",
+        "Gabriel Synnaeve",
+        "Sida I. Wang"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2024-01-05T20:53:51.000Z"
+    },
+    {
+      "id": "2401.04099",
+      "title": "AGG: Amortized Generative 3D Gaussians for Single Image to 3D",
+      "authors": [
+        "Dejia Xu",
+        "Ye Yuan",
+        "Morteza Mardani",
+        "Sifei Liu",
+        "Jiaming Song",
+        "Zhangyang Wang",
+        "Arash Vahdat"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2024-01-08T18:56:33.000Z"
+    },
+    {
+      "id": "2401.02987",
+      "title": "Has Your Pretrained Model Improved? A Multi-head Posterior Based Approach",
+      "authors": [
+        "Prince Aboagye",
+        "Yan Zheng",
+        "Junpeng Wang",
+        "Uday Singh Saini",
+        "Xin Dai",
+        "Michael Yeh",
+        "Yujie Fan",
+        "Zhongfang Zhuang",
+        "Shubham Jain",
+        "Liang Wang",
+        "Wei Zhang"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2024-01-02T17:08:26.000Z"
+    },
+    {
+      "id": "2401.03804",
+      "title": "TeleChat Technical Report",
+      "authors": [
+        "Zihan Wang",
+        "Xinzhang Liu",
+        "Shixuan Liu",
+        "Yitong Yao",
+        "Yuyao Huang",
+        "Zhongjiang He",
+        "Xuelong Li",
+        "Yongxiang Li",
+        "Zhonghao Che",
+        "Zhaoxi Zhang",
+        "Yan Wang",
+        "Xin Wang",
+        "Luwen Pu",
+        "Huihan Xu",
+        "Ruiyu Fang",
+        "Yu Zhao",
+        "Jie Zhang",
+        "Xiaomeng Huang",
+        "Zhilong Lu",
+        "Jiaxin Peng",
+        "Wenjun Zheng",
+        "Shiquan Wang",
+        "Bingkai Yang",
+        "Xuewei he",
+        "Zhuoru Jiang",
+        "Qiyi Xie",
+        "Yanhan Zhang",
+        "Zhongqiu Li",
+        "Lingling Shi",
+        "Weiwei Fu",
+        "Yin Zhang",
+        "Zilu Huang",
+        "Sishi Xiong",
+        "Yuxiang Zhang",
+        "Chao Wang",
+        "Shuangyong Song"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2024-01-08T10:43:19.000Z"
+    }
+  ]
+}

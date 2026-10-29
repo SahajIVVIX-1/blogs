@@ -1,0 +1,11 @@
+{
+  "id": "2511.04570",
+  "html": "https://arxiv.org/html/2511.04570",
+  "limitations": "We primarily evaluate Sora-2’s reasoning abilities among video generation models. Sora-2 is not open-source, limiting the analysis of its internal mechanisms. For future evaluation work, we plan to include more video generation models, especially open-source models. This allows for a deeper analysis of their internal mechanisms. Meanwhile, there are other capabilities of video models worth exploring. To enhance the reasoning abilities of video models through training, a promising direction is to scale up the verifiable tasks in VideoThinkBench via Reinforcement Learning with Verifiable Rewards (RLVR), thereby enhancing models’ “Thinking with Video” capabilities. Regarding unified multimodal training for video models, we will explore converting textual corpora into video-form training data (e.g., by generating the next word frame-by-frame to simulate whiteboard handwriting). The idea is t",
+  "conclusion": "In this paper, we introduce a reasoning paradigm termed “Thinking with Video.” We evaluate Sora-2 on our newly constructed VideoThinkBench. Our analysis shows that Sora-2 is inherently suitable for human-like reasoning through drawing and imagination. Furthermore, it demonstrates the potential to perform textual reasoning through video frames, enabling more unified multimodal understanding and generation. Thus, “Thinking with Video” is potentially a unified multimodal reasoning paradigm.",
+  "figure": {
+    "path": "images/2025/paper-2511.04570.webp",
+    "src": "https://arxiv.org/html/2511.04570v2/thinking_with_video_main-v3_2.png",
+    "caption": "Figure 1 : Examples of vision-centric and text-centric tasks in VideoThinkBench , and Sora-2’s “Thinking with Video” solutions. Vision-centric tasks are solved by reasoning about visual elements via drawing and imagination , including eyeballing puzzles, visual puzzles, ARC-AGI-2 and mazes. An example is shown for each. Typically, in the “ray reflection” problem from eyeballing puzzles, Sora-2 acc"
+  }
+}

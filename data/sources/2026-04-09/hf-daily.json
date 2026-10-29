@@ -1,0 +1,499 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-04-09",
+  "fetched_at": "2026-10-29T15:35:15.763Z",
+  "candidates": [
+    {
+      "id": "2604.04746",
+      "title": "Think in Strokes, Not Pixels: Process-Driven Image Generation via Interleaved Reasoning",
+      "authors": [
+        "Lei Zhang",
+        "Junjiao Tian",
+        "Zhipeng Fan",
+        "Kunpeng Li",
+        "Jialiang Wang",
+        "Weifeng Chen",
+        "Markos Georgopoulos",
+        "Felix Juefei-Xu",
+        "Yuxiang Bao",
+        "Julian McAuley",
+        "Manling Li",
+        "Zecheng He"
+      ],
+      "upvotes": 71,
+      "github": null,
+      "published": "2026-04-08T00:00:00.000Z"
+    },
+    {
+      "id": "2604.06268",
+      "title": "RAGEN-2: Reasoning Collapse in Agentic RL",
+      "authors": [
+        "Zihan Wang",
+        "Chi Gui",
+        "Xing Jin",
+        "Qineng Wang",
+        "Licheng Liu",
+        "Kangrui Wang",
+        "Shiqi Chen",
+        "Linjie Li",
+        "Zhengyuan Yang",
+        "Pingyue Zhang",
+        "Yiping Lu",
+        "Jiajun Wu",
+        "Li Fei-Fei",
+        "Lijuan Wang",
+        "Yejin Choi",
+        "Manling Li"
+      ],
+      "upvotes": 68,
+      "github": "https://github.com/mll-lab-nu/RAGEN",
+      "published": "2026-04-07T00:00:00.000Z"
+    },
+    {
+      "id": "2604.07023",
+      "title": "MARS: Enabling Autoregressive Models Multi-Token Generation",
+      "authors": [
+        "Ziqi Jin",
+        "Lei Wang",
+        "Ziwei Luo",
+        "Aixin Sun"
+      ],
+      "upvotes": 36,
+      "github": "https://github.com/Xalp/MARS",
+      "published": "2026-04-08T00:00:00.000Z"
+    },
+    {
+      "id": "2604.07209",
+      "title": "INSPATIO-WORLD: A Real-Time 4D World Simulator via Spatiotemporal Autoregressive Modeling",
+      "authors": [
+        "InSpatio Team",
+        "Donghui Shen",
+        "Guofeng Zhang",
+        "Haomin Liu",
+        "Haoyu Ji",
+        "Hujun Bao",
+        "Hongjia Zhai",
+        "Jialin Liu",
+        "Jing Guo",
+        "Nan Wang",
+        "Siji Pan",
+        "Weihong Pan",
+        "Weijian Xie",
+        "Xianbin Liu",
+        "Xiaojun Xiang",
+        "Xiaoyu Zhang",
+        "Xinyu Chen",
+        "Yifu Wang",
+        "Yipeng Chen",
+        "Zhenzhou Fan",
+        "Zhewen Le",
+        "Zhichao Ye",
+        "Ziqiang Zhao"
+      ],
+      "upvotes": 34,
+      "github": "https://github.com/inspatio/inspatio-world",
+      "published": "2026-04-08T00:00:00.000Z"
+    },
+    {
+      "id": "2604.06916",
+      "title": "FP4 Explore, BF16 Train: Diffusion Reinforcement Learning via Efficient Rollout Scaling",
+      "authors": [
+        "Yitong Li",
+        "Junsong Chen",
+        "Shuchen Xue",
+        "Pengcuo Zeren",
+        "Siyuan Fu",
+        "Dinghao Yang",
+        "Yangyang Tang",
+        "Junjie Bai",
+        "Ping Luo",
+        "Song Han",
+        "Enze Xie"
+      ],
+      "upvotes": 29,
+      "github": null,
+      "published": "2026-04-08T00:00:00.000Z"
+    },
+    {
+      "id": "2604.06425",
+      "title": "Neural Computers",
+      "authors": [
+        "Mingchen Zhuge",
+        "Changsheng Zhao",
+        "Haozhe Liu",
+        "Zijian Zhou",
+        "Shuming Liu",
+        "Wenyi Wang",
+        "Ernie Chang",
+        "Gael Le Lan",
+        "Junjie Fei",
+        "Wenxuan Zhang",
+        "Yasheng Sun",
+        "Zhipeng Cai",
+        "Zechun Liu",
+        "Yunyang Xiong",
+        "Yining Yang",
+        "Yuandong Tian",
+        "Yangyang Shi",
+        "Vikas Chandra",
+        "Jürgen Schmidhuber"
+      ],
+      "upvotes": 29,
+      "github": null,
+      "published": "2026-04-07T00:00:00.000Z"
+    },
+    {
+      "id": "2603.25111",
+      "title": "SEVerA: Verified Synthesis of Self-Evolving Agents",
+      "authors": [
+        "Debangshu Banerjee",
+        "Changming Xu",
+        "Gagandeep Singh"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/uiuc-focal-lab/severa",
+      "published": "2026-03-26T00:00:00.000Z"
+    },
+    {
+      "id": "2604.06392",
+      "title": "Qualixar OS: A Universal Operating System for AI Agent Orchestration",
+      "authors": [
+        "Varun Pratap Bhardwaj"
+      ],
+      "upvotes": 20,
+      "github": null,
+      "published": "2026-04-07T00:00:00.000Z"
+    },
+    {
+      "id": "2604.07340",
+      "title": "TC-AE: Unlocking Token Capacity for Deep Compression Autoencoders",
+      "authors": [
+        "Teng Li",
+        "Ziyuan Huang",
+        "Cong Chen",
+        "Yangfu Li",
+        "Yuanhuiyi Lyu",
+        "Dandan Zheng",
+        "Chunhua Shen",
+        "Jun Zhang"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/inclusionAI/TC-AE",
+      "published": "2026-04-08T00:00:00.000Z"
+    },
+    {
+      "id": "2604.04734",
+      "title": "Beyond Hard Negatives: The Importance of Score Distribution in Knowledge Distillation for Dense Retrieval",
+      "authors": [
+        "Youngjoon Jang",
+        "Seongtae Hong",
+        "Hyeonseok Moon",
+        "Heuiseok Lim"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2026-04-06T00:00:00.000Z"
+    },
+    {
+      "id": "2604.05643",
+      "title": "Graph-Based Chain-of-Thought Pruning for Reducing Redundant Reflections in Reasoning LLMs",
+      "authors": [
+        "Hongyuan Yuan",
+        "Xinran He",
+        "Run Shao",
+        "Bolei He",
+        "Xianwei Xue",
+        "Mengke Chen",
+        "Qiutong Pan",
+        "Haiwei Wang",
+        "Haifeng Li"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2026-04-07T00:00:00.000Z"
+    },
+    {
+      "id": "2604.04247",
+      "title": "Combee: Scaling Prompt Learning for Self-Improving Language Model Agents",
+      "authors": [
+        "Hanchen Li",
+        "Runyuan He",
+        "Qizheng Zhang",
+        "Changxiu Ji",
+        "Qiuyang Mang",
+        "Xiaokun Chen",
+        "Lakshya A Agrawal",
+        "Wei-Liang Liao",
+        "Eric Yang",
+        "Alvin Cheung",
+        "James Zou",
+        "Kunle Olukotun",
+        "Ion Stoica",
+        "Joseph E. Gonzalez"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2026-04-05T00:00:00.000Z"
+    },
+    {
+      "id": "2604.05846",
+      "title": "AgentGL: Towards Agentic Graph Learning with LLMs via Reinforcement Learning",
+      "authors": [
+        "Yuanfu Sun",
+        "Kang Li",
+        "Dongzhe Fan",
+        "Jiajin Liu",
+        "Qiaoyu Tan"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/sunyuanfu/AgentGL",
+      "published": "2026-04-07T00:00:00.000Z"
+    },
+    {
+      "id": "2604.04913",
+      "title": "A Frame is Worth One Token: Efficient Generative World Modeling with Delta Tokens",
+      "authors": [
+        "Tommie Kerssies",
+        "Gabriele Berton",
+        "Ju He",
+        "Qihang Yu",
+        "Wufei Ma",
+        "Daan de Geus",
+        "Gijs Dubbelman",
+        "Liang-Chieh Chen"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/amazon-far/deltatok",
+      "published": "2026-04-06T00:00:00.000Z"
+    },
+    {
+      "id": "2604.05684",
+      "title": "Improving Semantic Proximity in Information Retrieval through Cross-Lingual Alignment",
+      "authors": [
+        "Seongtae Hong",
+        "Youngjoon Jang",
+        "Jungseob Lee",
+        "Hyeonseok Moon",
+        "Heuiseok Lim"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2026-04-07T00:00:00.000Z"
+    },
+    {
+      "id": "2604.07343",
+      "title": "Personalized RewardBench: Evaluating Reward Models with Human Aligned Personalization",
+      "authors": [
+        "Qiyao Ma",
+        "Dechen Gao",
+        "Rui Cai",
+        "Boqi Zhao",
+        "Hanchu Zhou",
+        "Junshan Zhang",
+        "Zhe Zhao"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/Martin-qyma/Personalized-RewardBench",
+      "published": "2026-04-08T00:00:00.000Z"
+    },
+    {
+      "id": "2604.06757",
+      "title": "FlowInOne:Unifying Multimodal Generation as Image-in, Image-out Flow Matching",
+      "authors": [
+        "Junchao Yi",
+        "Rui Zhao",
+        "Jiahao Tang",
+        "Weixian Lei",
+        "Linjie Li",
+        "Qisheng Su",
+        "Zhengyuan Yang",
+        "Lijuan Wang",
+        "Xiaofeng Zhu",
+        "Alex Jinpeng Wang"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/CSU-JPG/FlowInOne",
+      "published": "2026-04-08T00:00:00.000Z"
+    },
+    {
+      "id": "2604.06427",
+      "title": "The Depth Ceiling: On the Limits of Large Language Models in Discovering Latent Planning",
+      "authors": [
+        "Yi Xu",
+        "Philipp Jettkant",
+        "Laura Ruis"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2026-04-07T00:00:00.000Z"
+    },
+    {
+      "id": "2604.07350",
+      "title": "Fast Spatial Memory with Elastic Test-Time Training",
+      "authors": [
+        "Ziqiao Ma",
+        "Xueyang Yu",
+        "Haoyu Zhen",
+        "Yuncong Yang",
+        "Joyce Chai",
+        "Chuang Gan"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/Mars-tin/fast-spatial-mem",
+      "published": "2026-04-08T00:00:00.000Z"
+    },
+    {
+      "id": "2604.00698",
+      "title": "Learning to Hint for Reinforcement Learning",
+      "authors": [
+        "Yu Xia",
+        "Canwen Xu",
+        "Zhewei Yao",
+        "Julian McAuley",
+        "Yuxiong He"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/Andree-9/HiLL",
+      "published": "2026-04-01T00:00:00.000Z"
+    },
+    {
+      "id": "2604.04443",
+      "title": "DeonticBench: A Benchmark for Reasoning over Rules",
+      "authors": [
+        "Guangyao Dou",
+        "Luis Brena",
+        "Akhil Deo",
+        "William Jurayj",
+        "Jingyu Zhang",
+        "Nils Holzenberger",
+        "Benjamin Van Durme"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/guangyaodou/DeonticBench",
+      "published": "2026-04-06T00:00:00.000Z"
+    },
+    {
+      "id": "2604.07348",
+      "title": "MoRight: Motion Control Done Right",
+      "authors": [
+        "Shaowei Liu",
+        "Xuanchi Ren",
+        "Tianchang Shen",
+        "Huan Ling",
+        "Saurabh Gupta",
+        "Shenlong Wang",
+        "Sanja Fidler",
+        "Jun Gao"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2026-04-08T00:00:00.000Z"
+    },
+    {
+      "id": "2603.26657",
+      "title": "Tunable Soft Equivariance with Guarantees",
+      "authors": [
+        "Md Ashiqur Rahman",
+        "Lim Jun Hao",
+        "Jeremiah Jiang",
+        "Teck-Yian Lim",
+        "Raymond A. Yeh"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/ashiq24/soft-equivariance",
+      "published": "2026-03-27T17:56:25.000Z"
+    },
+    {
+      "id": "2604.06912",
+      "title": "Q-Zoom: Query-Aware Adaptive Perception for Efficient Multimodal Large Language Models",
+      "authors": [
+        "Yuheng Shi",
+        "Xiaohuan Pei",
+        "Linfeng Wen",
+        "Minjing Dong",
+        "Chang Xu"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/YuHengsss/Q-Zoom",
+      "published": "2026-04-08T00:00:00.000Z"
+    },
+    {
+      "id": "2604.06834",
+      "title": "On the Step Length Confounding in LLM Reasoning Data Selection",
+      "authors": [
+        "Bing Wang",
+        "Rui Miao",
+        "Chen Shen",
+        "Shaotian Yan",
+        "Kaiyuan Liu",
+        "Ximing Li",
+        "Xiaosong Yuan",
+        "Sinan Fan",
+        "Jun Zhang",
+        "Jieping Ye"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/wangbing1416/ASLEC",
+      "published": "2026-04-08T00:00:00.000Z"
+    },
+    {
+      "id": "2604.05060",
+      "title": "R3PM-Net: Real-time, Robust, Real-world Point Matching Network",
+      "authors": [
+        "Yasaman Kashefbahrami",
+        "Erkut Akdag",
+        "Panagiotis Meletis",
+        "Evgeniya Balmashnova",
+        "Dip Goswami",
+        "Egor Bondarau"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/YasiiKB/R3PM-Net",
+      "published": "2026-04-06T00:00:00.000Z"
+    },
+    {
+      "id": "2604.06182",
+      "title": "VenusBench-Mobile: A Challenging and User-Centric Benchmark for Mobile GUI Agents with Capability Diagnostics",
+      "authors": [
+        "Yichen Gong",
+        "Zhuohan Cai",
+        "Sunhao Dai",
+        "Yuqi Zhou",
+        "Zhangxuan Gu",
+        "Changhua Meng",
+        "Shuheng Shen"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2026-02-06T00:00:00.000Z"
+    },
+    {
+      "id": "2604.07273",
+      "title": "GenLCA: 3D Diffusion for Full-Body Avatars from In-the-Wild Videos",
+      "authors": [
+        "Yiqian Wu",
+        "Rawal Khirodkar",
+        "Egor Zakharov",
+        "Timur Bagautdinov",
+        "Lei Xiao",
+        "Zhaoen Su",
+        "Shunsuke Saito",
+        "Xiaogang Jin",
+        "Junxuan Li"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2026-04-08T00:00:00.000Z"
+    },
+    {
+      "id": "2604.03995",
+      "title": "A Systematic Study of Cross-Modal Typographic Attacks on Audio-Visual Reasoning",
+      "authors": [
+        "Tianle Chen",
+        "Deepti Ghadiyaram"
+      ],
+      "upvotes": 0,
+      "github": null,
+      "published": "2026-04-05T00:00:00.000Z"
+    }
+  ]
+}

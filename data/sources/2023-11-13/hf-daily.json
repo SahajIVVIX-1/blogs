@@ -1,0 +1,255 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2023-11-13",
+  "fetched_at": "2026-10-29T15:25:57.091Z",
+  "candidates": [
+    {
+      "id": "2311.06242",
+      "title": "Florence-2: Advancing a Unified Representation for a Variety of Vision Tasks",
+      "authors": [
+        "Bin Xiao",
+        "Haiping Wu",
+        "Weijian Xu",
+        "Xiyang Dai",
+        "Houdong Hu",
+        "Yumao Lu",
+        "Michael Zeng",
+        "Ce Liu",
+        "Lu Yuan"
+      ],
+      "upvotes": 98,
+      "github": "https://github.com/retkowsky/florence-2",
+      "published": "2023-11-10T18:59:08.000Z"
+    },
+    {
+      "id": "2311.05997",
+      "title": "JARVIS-1: Open-World Multi-task Agents with Memory-Augmented Multimodal Language Models",
+      "authors": [
+        "Zihao Wang",
+        "Shaofei Cai",
+        "Anji Liu",
+        "Yonggang Jin",
+        "Jinbing Hou",
+        "Bowei Zhang",
+        "Haowei Lin",
+        "Zhaofeng He",
+        "Zilong Zheng",
+        "Yaodong Yang",
+        "Xiaojian Ma",
+        "Yitao Liang"
+      ],
+      "upvotes": 37,
+      "github": null,
+      "published": "2023-11-10T11:17:58.000Z"
+    },
+    {
+      "id": "2311.06214",
+      "title": "Instant3D: Fast Text-to-3D with Sparse-View Generation and Large Reconstruction Model",
+      "authors": [
+        "Jiahao Li",
+        "Hao Tan",
+        "Kai Zhang",
+        "Zexiang Xu",
+        "Fujun Luan",
+        "Yinghao Xu",
+        "Yicong Hong",
+        "Kalyan Sunkavalli",
+        "Greg Shakhnarovich",
+        "Sai Bi"
+      ],
+      "upvotes": 33,
+      "github": null,
+      "published": "2023-11-10T18:03:44.000Z"
+    },
+    {
+      "id": "2311.05640",
+      "title": "FinGPT: Large Generative Models for a Small Language",
+      "authors": [
+        "Risto Luukkonen",
+        "Ville Komulainen",
+        "Jouni Luoma",
+        "Anni Eskelinen",
+        "Jenna Kanerva",
+        "Hanna-Mari Kupari",
+        "Filip Ginter",
+        "Veronika Laippala",
+        "Niklas Muennighoff",
+        "Aleksandra Piktus",
+        "Thomas Wang",
+        "Nouamane Tazi",
+        "Teven Le Scao",
+        "Thomas Wolf",
+        "Osma Suominen",
+        "Samuli Sairanen",
+        "Mikko Merioksa",
+        "Jyrki Heinonen",
+        "Aija Vahtola",
+        "Samuel Antao",
+        "Sampo Pyysalo"
+      ],
+      "upvotes": 28,
+      "github": null,
+      "published": "2023-11-03T08:05:04.000Z"
+    },
+    {
+      "id": "2311.05657",
+      "title": "Lumos: Learning Agents with Unified Data, Modular Design, and Open-Source LLMs",
+      "authors": [
+        "Da Yin",
+        "Faeze Brahman",
+        "Abhilasha Ravichander",
+        "Khyathi Chandu",
+        "Kai-Wei Chang",
+        "Yejin Choi",
+        "Bill Yuchen Lin"
+      ],
+      "upvotes": 28,
+      "github": "https://github.com/allenai/lumos",
+      "published": "2023-11-09T00:30:13.000Z"
+    },
+    {
+      "id": "2311.05661",
+      "title": "Prompt Engineering a Prompt Engineer",
+      "authors": [
+        "Qinyuan Ye",
+        "Maxamed Axmed",
+        "Reid Pryzant",
+        "Fereshte Khani"
+      ],
+      "upvotes": 22,
+      "github": null,
+      "published": "2023-11-09T08:00:32.000Z"
+    },
+    {
+      "id": "2311.06158",
+      "title": "Language Models can be Logical Solvers",
+      "authors": [
+        "Jiazhan Feng",
+        "Ruochen Xu",
+        "Junheng Hao",
+        "Hiteshi Sharma",
+        "Yelong Shen",
+        "Dongyan Zhao",
+        "Weizhu Chen"
+      ],
+      "upvotes": 19,
+      "github": null,
+      "published": "2023-11-10T16:23:50.000Z"
+    },
+    {
+      "id": "2311.06243",
+      "title": "Parameter-Efficient Orthogonal Finetuning via Butterfly Factorization",
+      "authors": [
+        "Weiyang Liu",
+        "Zeju Qiu",
+        "Yao Feng",
+        "Yuliang Xiu",
+        "Yuxuan Xue",
+        "Longhui Yu",
+        "Haiwen Feng",
+        "Zhen Liu",
+        "Juyeon Heo",
+        "Songyou Peng",
+        "Yandong Wen",
+        "Michael J. Black",
+        "Adrian Weller",
+        "Bernhard Schölkopf"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2023-11-10T18:59:54.000Z"
+    },
+    {
+      "id": "2311.05908",
+      "title": "FlashFFTConv: Efficient Convolutions for Long Sequences with Tensor Cores",
+      "authors": [
+        "Daniel Y. Fu",
+        "Hermann Kumbong",
+        "Eric Nguyen",
+        "Christopher Ré"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2023-11-10T07:33:35.000Z"
+    },
+    {
+      "id": "2311.05772",
+      "title": "ADaPT: As-Needed Decomposition and Planning with Language Models",
+      "authors": [
+        "Archiki Prasad",
+        "Alexander Koller",
+        "Mareike Hartmann",
+        "Peter Clark",
+        "Ashish Sabharwal",
+        "Mohit Bansal",
+        "Tushar Khot"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/archiki/ADaPT",
+      "published": "2023-11-08T17:59:15.000Z"
+    },
+    {
+      "id": "2311.05698",
+      "title": "Mirasol3B: A Multimodal Autoregressive model for time-aligned and contextual modalities",
+      "authors": [
+        "AJ Piergiovanni",
+        "Isaac Nobel",
+        "Dahun Kim",
+        "Michael S. Ryoo",
+        "Victor Gomes",
+        "Anelia Angelova"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2023-11-09T19:15:12.000Z"
+    },
+    {
+      "id": "2311.05884",
+      "title": "Hiformer: Heterogeneous Feature Interactions Learning with Transformers for Recommender Systems",
+      "authors": [
+        "Huan Gui",
+        "Ruoxi Wang",
+        "Ke Yin",
+        "Long Jin",
+        "Maciej Kula",
+        "Taibai Xu",
+        "Lichan Hong",
+        "Ed H. Chi"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2023-11-10T05:57:57.000Z"
+    },
+    {
+      "id": "2311.05770",
+      "title": "PolyMaX: General Dense Prediction with Mask Transformer",
+      "authors": [
+        "Xuan Yang",
+        "Liangzhe Yuan",
+        "Kimberly Wilber",
+        "Astuti Sharma",
+        "Xiuye Gu",
+        "Siyuan Qiao",
+        "Stephanie Debats",
+        "Huisheng Wang",
+        "Hartwig Adam",
+        "Mikhail Sirotenko",
+        "Liang-Chieh Chen"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2023-11-09T22:29:21.000Z"
+    },
+    {
+      "id": "2311.05707",
+      "title": "FMViT: A multiple-frequency mixing Vision Transformer",
+      "authors": [
+        "Wei Tan",
+        "Yifeng Geng",
+        "Xuansong Xie"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/tany0699/FMViT",
+      "published": "2023-11-09T19:33:50.000Z"
+    }
+  ]
+}

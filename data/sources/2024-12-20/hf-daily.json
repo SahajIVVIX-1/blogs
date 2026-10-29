@@ -1,0 +1,312 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-12-20",
+  "fetched_at": "2026-10-29T15:30:02.475Z",
+  "candidates": [
+    {
+      "id": "2412.15115",
+      "title": "Qwen2.5 Technical Report",
+      "authors": [
+        "Qwen",
+        "An Yang",
+        "Baosong Yang",
+        "Beichen Zhang",
+        "Binyuan Hui",
+        "Bo Zheng",
+        "Bowen Yu",
+        "Chengyuan Li",
+        "Dayiheng Liu",
+        "Fei Huang",
+        "Haoran Wei",
+        "Huan Lin",
+        "Jian Yang",
+        "Jianhong Tu",
+        "Jianwei Zhang",
+        "Jianxin Yang",
+        "Jiaxi Yang",
+        "Jingren Zhou",
+        "Junyang Lin",
+        "Kai Dang",
+        "Keming Lu",
+        "Keqin Bao",
+        "Kexin Yang",
+        "Le Yu",
+        "Mei Li",
+        "Mingfeng Xue",
+        "Pei Zhang",
+        "Qin Zhu",
+        "Rui Men",
+        "Runji Lin",
+        "Tianhao Li",
+        "Tingyu Xia",
+        "Xingzhang Ren",
+        "Xuancheng Ren",
+        "Yang Fan",
+        "Yang Su",
+        "Yichang Zhang",
+        "Yu Wan",
+        "Yuqiong Liu",
+        "Zeyu Cui",
+        "Zhenru Zhang",
+        "Zihan Qiu"
+      ],
+      "upvotes": 381,
+      "github": "https://github.com/QwenLM/Qwen2.5",
+      "published": "2024-12-19T17:56:09.000Z"
+    },
+    {
+      "id": "2412.14835",
+      "title": "Progressive Multimodal Reasoning via Active Retrieval",
+      "authors": [
+        "Guanting Dong",
+        "Chenghao Zhang",
+        "Mengjie Deng",
+        "Yutao Zhu",
+        "Zhicheng Dou",
+        "Ji-Rong Wen"
+      ],
+      "upvotes": 73,
+      "github": null,
+      "published": "2024-12-19T13:25:39.000Z"
+    },
+    {
+      "id": "2412.14475",
+      "title": "MegaPairs: Massive Data Synthesis For Universal Multimodal Retrieval",
+      "authors": [
+        "Junjie Zhou",
+        "Zheng Liu",
+        "Ze Liu",
+        "Shitao Xiao",
+        "Yueze Wang",
+        "Bo Zhao",
+        "Chen Jason Zhang",
+        "Defu Lian",
+        "Yongping Xiong"
+      ],
+      "upvotes": 59,
+      "github": null,
+      "published": "2024-12-19T02:49:55.000Z"
+    },
+    {
+      "id": "2412.14689",
+      "title": "How to Synthesize Text Data without Model Collapse?",
+      "authors": [
+        "Xuekai Zhu",
+        "Daixuan Cheng",
+        "Hengli Li",
+        "Kaiyan Zhang",
+        "Ermo Hua",
+        "Xingtai Lv",
+        "Ning Ding",
+        "Zhouhan Lin",
+        "Zilong Zheng",
+        "Bowen Zhou"
+      ],
+      "upvotes": 52,
+      "github": null,
+      "published": "2024-12-19T09:43:39.000Z"
+    },
+    {
+      "id": "2412.15204",
+      "title": "LongBench v2: Towards Deeper Understanding and Reasoning on Realistic Long-context Multitasks",
+      "authors": [
+        "Yushi Bai",
+        "Shangqing Tu",
+        "Jiajie Zhang",
+        "Hao Peng",
+        "Xiaozhi Wang",
+        "Xin Lv",
+        "Shulin Cao",
+        "Jiazheng Xu",
+        "Lei Hou",
+        "Yuxiao Dong",
+        "Jie Tang",
+        "Juanzi Li"
+      ],
+      "upvotes": 39,
+      "github": null,
+      "published": "2024-12-19T18:59:17.000Z"
+    },
+    {
+      "id": "2412.15213",
+      "title": "Flowing from Words to Pixels: A Framework for Cross-Modality Evolution",
+      "authors": [
+        "Qihao Liu",
+        "Xi Yin",
+        "Alan Yuille",
+        "Andrew Brown",
+        "Mannat Singh"
+      ],
+      "upvotes": 28,
+      "github": "https://github.com/qihao067/CrossFlow",
+      "published": "2024-12-19T18:59:56.000Z"
+    },
+    {
+      "id": "2412.15214",
+      "title": "LeviTor: 3D Trajectory Oriented Image-to-Video Synthesis",
+      "authors": [
+        "Hanlin Wang",
+        "Hao Ouyang",
+        "Qiuyu Wang",
+        "Wen Wang",
+        "Ka Leong Cheng",
+        "Qifeng Chen",
+        "Yujun Shen",
+        "Limin Wang"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/qiuyu96/LeviTor",
+      "published": "2024-12-19T18:59:56.000Z"
+    },
+    {
+      "id": "2412.14462",
+      "title": "Affordance-Aware Object Insertion via Mask-Aware Dual Diffusion",
+      "authors": [
+        "Jixuan He",
+        "Wanhua Li",
+        "Ye Liu",
+        "Junsik Kim",
+        "Donglai Wei",
+        "Hanspeter Pfister"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/kakituken/affordance-aware-any",
+      "published": "2024-12-19T02:23:13.000Z"
+    },
+    {
+      "id": "2412.15084",
+      "title": "AceMath: Advancing Frontier Math Reasoning with Post-Training and Reward Modeling",
+      "authors": [
+        "Zihan Liu",
+        "Yang Chen",
+        "Mohammad Shoeybi",
+        "Bryan Catanzaro",
+        "Wei Ping"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2024-12-19T17:29:44.000Z"
+    },
+    {
+      "id": "2412.15200",
+      "title": "DI-PCG: Diffusion-based Efficient Inverse Procedural Content Generation for High-quality 3D Asset Creation",
+      "authors": [
+        "Wang Zhao",
+        "Yan-Pei Cao",
+        "Jiale Xu",
+        "Yuejiang Dong",
+        "Ying Shan"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2024-12-19T18:58:46.000Z"
+    },
+    {
+      "id": "2412.14233",
+      "title": "Descriptive Caption Enhancement with Visual Specialists for Multimodal Perception",
+      "authors": [
+        "Yanpeng Sun",
+        "Jing Hao",
+        "Ke Zhu",
+        "Jiang-Jiang Liu",
+        "Yuxiang Zhao",
+        "Xiaofan Li",
+        "Gang Zhang",
+        "Zechao Li",
+        "Jingdong Wang"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/syp2ysy/dce",
+      "published": "2024-12-18T18:45:43.000Z"
+    },
+    {
+      "id": "2412.15216",
+      "title": "UIP2P: Unsupervised Instruction-based Image Editing via Cycle Edit Consistency",
+      "authors": [
+        "Enis Simsar",
+        "Alessio Tonioni",
+        "Yongqin Xian",
+        "Thomas Hofmann",
+        "Federico Tombari"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2024-12-19T18:59:58.000Z"
+    },
+    {
+      "id": "2412.15191",
+      "title": "AV-Link: Temporally-Aligned Diffusion Features for Cross-Modal Audio-Video Generation",
+      "authors": [
+        "Moayed Haji-Ali",
+        "Willi Menapace",
+        "Aliaksandr Siarohin",
+        "Ivan Skorokhodov",
+        "Alper Canberk",
+        "Kwot Sin Lee",
+        "Vicente Ordonez",
+        "Sergey Tulyakov"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/snap-research/AVLink",
+      "published": "2024-12-19T18:57:21.000Z"
+    },
+    {
+      "id": "2412.14642",
+      "title": "TOMG-Bench: Evaluating LLMs on Text-based Open Molecule Generation",
+      "authors": [
+        "Jiatong Li",
+        "Junxian Li",
+        "Yunqing Liu",
+        "Dongzhan Zhou",
+        "Qing Li"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/phenixace/tomg-bench",
+      "published": "2024-12-19T08:51:16.000Z"
+    },
+    {
+      "id": "2412.13377",
+      "title": "DateLogicQA: Benchmarking Temporal Biases in Large Language Models",
+      "authors": [
+        "Gagan Bhatia",
+        "MingZe Tang",
+        "Cristina Mahanta",
+        "Madiha Kazi"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/gagan3012/eais-temporal-bias",
+      "published": "2024-12-17T23:25:47.000Z"
+    },
+    {
+      "id": "2412.14283",
+      "title": "PixelMan: Consistent Object Editing with Diffusion Models via Pixel Manipulation and Generation",
+      "authors": [
+        "Liyao Jiang",
+        "Negar Hassanpour",
+        "Mohammad Salameh",
+        "Mohammadreza Samadi",
+        "Jiao He",
+        "Fengyu Sun",
+        "Di Niu"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/LiyaoJiang1998/PixelMan",
+      "published": "2024-12-18T19:24:15.000Z"
+    },
+    {
+      "id": "2412.13185",
+      "title": "Move-in-2D: 2D-Conditioned Human Motion Generation",
+      "authors": [
+        "Hsin-Ping Huang",
+        "Yang Zhou",
+        "Jui-Hsien Wang",
+        "Difan Liu",
+        "Feng Liu",
+        "Ming-Hsuan Yang",
+        "Zhan Xu"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2024-12-17T18:58:07.000Z"
+    }
+  ]
+}

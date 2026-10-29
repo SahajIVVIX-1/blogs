@@ -1,0 +1,658 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-08-10",
+  "fetched_at": "2026-10-29T15:36:30.252Z",
+  "candidates": [
+    {
+      "id": "2608.07468",
+      "title": "SimWAM: A Simple World Action Model for End-to-End Autonomous Driving",
+      "authors": [
+        "Zongchuang Zhao",
+        "Xin Zhou",
+        "Tianyang Xu",
+        "Zhengyang Sun",
+        "Kaixuan Zhou",
+        "Honglin Li",
+        "Dingkang Liang",
+        "Xiang Bai"
+      ],
+      "upvotes": 65,
+      "github": "https://github.com/H-EmbodVis/SimWAM",
+      "published": "2026-08-07T00:00:00.000Z"
+    },
+    {
+      "id": "2608.03573",
+      "title": "SFT Conflicts, RL Coexists: A Theoretical and Empirical Analysis of Multi-Task Learning for LLMs",
+      "authors": [
+        "Kejian Zhu",
+        "Zhuoran Jin",
+        "Shangqing Tu",
+        "Hongbang Yuan",
+        "Yushi Bai",
+        "Kang Liu",
+        "Juanzi Li",
+        "Jun Zhao"
+      ],
+      "upvotes": 61,
+      "github": "https://github.com/GaryStack/Parallel-RL",
+      "published": "2026-08-06T00:00:00.000Z"
+    },
+    {
+      "id": "2608.04205",
+      "title": "MatrAIx: Simulating the World with 8.3 Billion Persona Agents",
+      "authors": [
+        "Xiaomin Li",
+        "Yuexing Hao",
+        "Jianheng Hou",
+        "Jintao Huang",
+        "Qianfeng Wen",
+        "Shirley Huang",
+        "Yifan Liu",
+        "Xiaoyi Liu",
+        "Yilan Fan",
+        "Yijun Wang",
+        "Koutian Wu",
+        "Ruoqi Gao",
+        "Muhammad Ahmed Mohsin",
+        "Jing Tang",
+        "Brihi Joshi",
+        "Heming Liu",
+        "Zheyuan Deng",
+        "Zonglin Di",
+        "Sankalp Jajee",
+        "Jiuyao Lu",
+        "Zhiwei Zhang",
+        "Saksham Kapoor",
+        "Ishan Gupta",
+        "Yunhan Zhao",
+        "Chanwoo Park",
+        "Yucheng Lu",
+        "Bing Hu",
+        "Weihang Xiao",
+        "Aravind Mohan",
+        "Hanwen Xing",
+        "Runyu Zhang",
+        "Mihir Kulshreshtha",
+        "Yuanda Xu",
+        "Qianyu Zhu",
+        "Dianzhuo Wang",
+        "Yuxin Xiao",
+        "Bowen Jiang",
+        "Yongye Su",
+        "Wenhao Chai",
+        "Zuxin Liu",
+        "Lawrence Yunliang Chen",
+        "Xuandong Zhao",
+        "Ethan Ye",
+        "Shivam Patel",
+        "Jason Xie",
+        "Alex Martin Richmond",
+        "Weixiang Ding",
+        "Emre Okcular",
+        "Diya Mathew",
+        "Ziheng Wang",
+        "Rana M. Shahroz Khan",
+        "Zhejian Peng",
+        "Fang Wu",
+        "Fan Nie",
+        "Xinyang Han",
+        "Yubin Kim",
+        "Jiawei Zhang",
+        "Zhenting Qi",
+        "Huangyuan Su",
+        "Xu Pan",
+        "Abinitha Gourabathina",
+        "Hyewon Jeong",
+        "Hemanth Neelgund Ramesh",
+        "Kumail Alhamoud",
+        "Kimia Hamidieh",
+        "Zidi Xiong",
+        "Samuel Schmidgall",
+        "Pengrui Han",
+        "Yepeng Huang",
+        "Yongheng Wang",
+        "Bowen Yang",
+        "Alex Gu",
+        "Yuchu Wang",
+        "Akshay Paruchuri",
+        "Brenna Li",
+        "Hejie Cui",
+        "Jiayuan Ding",
+        "Chaosheng Dong",
+        "Jiahao Wang",
+        "Yixuan He",
+        "Chi Wang",
+        "Pamela Bhattacharya",
+        "Tianyi Peng",
+        "Paul Pu Liang",
+        "Mitchell Gordon",
+        "Yilun Du",
+        "Marinka Zitnik",
+        "James Zou",
+        "Prasanna Tambe",
+        "Philip Torr",
+        "Emily Fox",
+        "Asu Ozdaglar",
+        "Dawn Song"
+      ],
+      "upvotes": 58,
+      "github": "https://github.com/MatrAIx-ai/MatrAIx-Persona-8B",
+      "published": "2026-08-04T00:00:00.000Z"
+    },
+    {
+      "id": "2608.03571",
+      "title": "Beyond Simply Environment Scaling: Designing Effective Environment Distributions for Multimodal Agent Learning",
+      "authors": [
+        "Kejian Zhu",
+        "Zhuoran Jin",
+        "Dongqi Huang",
+        "Hongbang Yuan",
+        "Yupu Hao",
+        "Kang Liu",
+        "Jun Zhao"
+      ],
+      "upvotes": 48,
+      "github": "https://github.com/GaryStack/Beyond-MMEnv-Scaling",
+      "published": "2026-08-06T00:00:00.000Z"
+    },
+    {
+      "id": "2608.05224",
+      "title": "Small Foundation Models of Human Cognition and Behaviour",
+      "authors": [
+        "Nick Oh",
+        "Fernand Gobet"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/socius-org/Centauri",
+      "published": "2026-08-09T00:00:00.000Z"
+    },
+    {
+      "id": "2608.07051",
+      "title": "YOLO-PEFT: Parameter-Efficient Fine-Tuning on YOLO Family",
+      "authors": [
+        "Xu Lin",
+        "WenJie Nie",
+        "Jinlong Peng",
+        "Weifu Fu",
+        "YueXiao Ma",
+        "Xiawu Zheng",
+        "Yong Liu"
+      ],
+      "upvotes": 21,
+      "github": null,
+      "published": "2026-08-07T00:00:00.000Z"
+    },
+    {
+      "id": "2607.23379",
+      "title": "When Activation Oracles Learn Not to Read: Concept-Specific Blind Spots in Fine-Tuned Oracles",
+      "authors": [
+        "Tobias Bersia",
+        "Tatiana Gaintseva"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2026-07-25T00:00:00.000Z"
+    },
+    {
+      "id": "2608.05703",
+      "title": "StreamArena: Toward Continuous, Interactive, and Long-Horizon Agentic Streaming Video Understanding",
+      "authors": [
+        "Xichen Zhang",
+        "Guankai Li",
+        "Yinghao Zhu",
+        "Shijian Wang",
+        "Sitong Wu",
+        "Shaozuo Yu",
+        "Meng Chu",
+        "Yuan Lu",
+        "Jiaya Jia"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/JIA-Lab-research/StreamArena",
+      "published": "2026-08-06T00:00:00.000Z"
+    },
+    {
+      "id": "2608.06113",
+      "title": "DCAS: Decoupling CLI Agent Scaffolding to Internalize Planning across Scaffolds",
+      "authors": [
+        "Kishanthan Thangarajah",
+        "Boyuan Chen",
+        "Ahmed E. Hassan"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2026-08-06T00:00:00.000Z"
+    },
+    {
+      "id": "2608.03796",
+      "title": "Efficient Knowledge Distillation for LLMs: Offline Top-K Logits and a Fused Chunked KL Loss",
+      "authors": [
+        "Bakbergen Ryskulov",
+        "Iker García-Ferrero",
+        "David Montero",
+        "David Jansen",
+        "Ali Hashemi",
+        "Jezabel R. Garcia",
+        "Antonio Tiene",
+        "Román Orús"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/CompactifAI/Full-Chunked-KL-Loss",
+      "published": "2026-08-04T00:00:00.000Z"
+    },
+    {
+      "id": "2608.07408",
+      "title": "Addressable Memory for Video World Models",
+      "authors": [
+        "Xindi Wu",
+        "Sven Elflein",
+        "James Lucas",
+        "Olga Russakovsky",
+        "Laura Leal-Taixé",
+        "Despoina Paschalidou",
+        "Jonathan Lorraine",
+        "Aljoša Ošep"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2026-08-07T00:00:00.000Z"
+    },
+    {
+      "id": "2608.02148",
+      "title": "Douyin Multimodal Embedding Model Technical Report",
+      "authors": [
+        "Haonan Chen",
+        "Chu Li",
+        "Zhicheng Wang",
+        "Yuanwei Liu",
+        "Yuanjiang Wang",
+        "Shaohua Jiang",
+        "Zhicheng Dou"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2026-08-03T00:00:00.000Z"
+    },
+    {
+      "id": "2608.07222",
+      "title": "Skaling: Chinchilla's Exponents Meet Kaplan's Coupling",
+      "authors": [
+        "Mathurin Videau",
+        "Badr Youbi-Idrissi",
+        "David Lopez-Paz",
+        "Kartik Ahuja"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2026-08-07T00:00:00.000Z"
+    },
+    {
+      "id": "2608.04569",
+      "title": "Relevant but Incomplete: Referential Dangling as a Paradigm-Level Failure Mode in Hard Prompt Compression",
+      "authors": [
+        "Zhengpei Hu",
+        "Kai Li",
+        "Dapeng Fu",
+        "Xuechao Zou",
+        "Yuanhao Tang",
+        "Yue Li",
+        "Tengfei Cao",
+        "Jianqiang Huang"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/JusperLee/Referential-Dangling",
+      "published": "2026-08-05T00:00:00.000Z"
+    },
+    {
+      "id": "2607.26178",
+      "title": "DuplexGen: Adaptive Synthesis of Human-AI Turn-Taking Dialogues",
+      "authors": [
+        "Takyoung Kim",
+        "Kang-wook Kim",
+        "Sang Hoon Woo",
+        "Julia Hirschberg",
+        "Gunhee Kim",
+        "Dilek Hakkani-Tür"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/duplexgen/duplexgen-code",
+      "published": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "2608.06865",
+      "title": "Multi-Agent Forensic Reasoning for Generalizable Deepfake Video Detection",
+      "authors": [
+        "Xuechao Zou",
+        "Shun Zhang",
+        "Kai Li",
+        "Yi Zhou",
+        "Xinyu Sun",
+        "Yuhui Chen",
+        "Zhe Wu",
+        "Congyan Lang",
+        "Junliang Xing"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/XavierJiezou/ARGUS",
+      "published": "2026-08-07T00:00:00.000Z"
+    },
+    {
+      "id": "2608.07110",
+      "title": "Modular TTT: Rethinking Test-Time Training as Composable Modules",
+      "authors": [
+        "Bohao Tang",
+        "Zhen Qin",
+        "Yuqi Pan",
+        "Zheng Li",
+        "Pengfei Liu",
+        "Ya Zhang"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2026-08-07T00:00:00.000Z"
+    },
+    {
+      "id": "2608.00675",
+      "title": "Round-Trip Consistency: Bidirectional Diffusion Models Can Predict Their Own Rollout Errors",
+      "authors": [
+        "Alexander Scheinker"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/alexscheinker/round-trip-consistency",
+      "published": "2026-08-01T13:49:46.000Z"
+    },
+    {
+      "id": "2608.05597",
+      "title": "Uncertainty-Aware World Model for Aerial Image-Goal Navigation",
+      "authors": [
+        "Deyi Zhu",
+        "Haoyu Fan",
+        "Yinan Zhu",
+        "Weichen Zhang",
+        "Shilin Ma",
+        "Xinlei Chen",
+        "Yansong Tang"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/DurYi/UA-NWM",
+      "published": "2026-08-06T00:00:00.000Z"
+    },
+    {
+      "id": "2608.06640",
+      "title": "Characterizing the Quality Profile of AI-Generated C++ in Production",
+      "authors": [
+        "Michael Tran",
+        "Fred Lewis",
+        "Kun Yang",
+        "Saksham Thakur",
+        "Aditya Kini",
+        "Aditya Patil",
+        "Milad Hashemi",
+        "Parthasarathy Ranganathan"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2026-08-06T00:00:00.000Z"
+    },
+    {
+      "id": "2608.06714",
+      "title": "The Optimizer Is the Agent: Reasoning-Driven Search across Prompts, Programs, and ML Workflows",
+      "authors": [
+        "Junbo Li",
+        "Boyi Liu",
+        "Canwen Xu",
+        "Yite Wang",
+        "Yuxiong He",
+        "Zhangyang Wang",
+        "Qiang Liu",
+        "Zhewei Yao"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2026-08-07T00:00:00.000Z"
+    },
+    {
+      "id": "2608.02831",
+      "title": "Reinforcement Learning with Evolving Rubrics as Rewards for Audio Reasoning",
+      "authors": [
+        "Fangxu Yu",
+        "Tao Feng",
+        "Dehai Min",
+        "Zinan Lin",
+        "Weijia Xu",
+        "Michael Xu",
+        "Philip S. Yu",
+        "Ge Liu",
+        "Tianyi Zhou"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/tianyi-lab/AudioRubrics",
+      "published": "2026-08-03T00:00:00.000Z"
+    },
+    {
+      "id": "2608.06013",
+      "title": "OneEmo: A Unified Multimodal Reasoning Model for Emotion Perception, Understanding, and Interaction",
+      "authors": [
+        "Jiahao Huang",
+        "Zheng Lian",
+        "Jingyi Zhang",
+        "Zhide Chen",
+        "Xiaojiang Peng",
+        "Shaonan Wang"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/waHAHJIAHAO/OneEmo",
+      "published": "2026-08-06T00:00:00.000Z"
+    },
+    {
+      "id": "2608.06756",
+      "title": "Capek 0.5: An Execution-Centric Vision-Language Model for Embodied Intelligence",
+      "authors": [
+        "Ying Chen",
+        "Weizhen Li",
+        "Zhe Hu",
+        "Zhenjiang Li",
+        "Rui Jiang",
+        "Zhifeng Gu",
+        "Lihuang Fang",
+        "Jiangping Liu",
+        "Lei Yi",
+        "Jie Chen"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2026-08-07T00:00:00.000Z"
+    },
+    {
+      "id": "2608.05219",
+      "title": "When Privileged Guidance Misaligns: State-Matched Routing and Contextualized Self-Distillation for Multi-Turn Agents",
+      "authors": [
+        "Junzhuo Liu",
+        "Weiwei Li",
+        "Jun Ling",
+        "Peng Wang"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/liujunzhuo/SMRC-SD",
+      "published": "2026-08-05T00:00:00.000Z"
+    },
+    {
+      "id": "2607.26657",
+      "title": "Enfold: Folding World Model Imagination into Predictive Representations for Ultra-Efficient Embodied Control",
+      "authors": [
+        "Weili Zeng",
+        "Yitong Xing",
+        "Fulong Liu",
+        "Chengqun Yang",
+        "Antao Xiang",
+        "Feng Tian",
+        "Jingnan Gao",
+        "Jisong Cai",
+        "Xin Wang",
+        "Xiaomin Wu",
+        "Yao Mu",
+        "Xiaokang Yang",
+        "Yichao Yan"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/zwl666666/enfold",
+      "published": "2026-08-06T00:00:00.000Z"
+    },
+    {
+      "id": "2608.01310",
+      "title": "FATE: Frame-Level Audio-Visual Temporal Embedding",
+      "authors": [
+        "Kaisi Guan",
+        "Bingzi Zhang",
+        "Xihua Wang",
+        "Ying Ba",
+        "Xin Cheng",
+        "Yijing Chen",
+        "Ruihua Song"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/guankaisi/FATE",
+      "published": "2026-08-02T00:00:00.000Z"
+    },
+    {
+      "id": "2608.07341",
+      "title": "Zero Gap Is Not Restoration: Stratified Per-Question Probability Evaluation and Step-wise Mitigation of Benchmark Contamination",
+      "authors": [
+        "Ruijie Hou",
+        "Yueyang Jiao",
+        "Zhao Wang",
+        "Yingming Li"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-08-07T00:00:00.000Z"
+    },
+    {
+      "id": "2608.06485",
+      "title": "Do AI Personas Grow? Analyzing and Benchmarking Personality Evolution in LLM Agents After Life Events",
+      "authors": [
+        "Ming Wang",
+        "Peidong Wang",
+        "Xiaocui Yang",
+        "Daling Wang",
+        "Shi Feng",
+        "Fiona Fui-Hoon Nah",
+        "Ee-Peng Lim"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/sci-m-wang/BFI-Adapt",
+      "published": "2026-08-06T00:00:00.000Z"
+    },
+    {
+      "id": "2608.04314",
+      "title": "Adversarial Attacks for Good: A Survey of Proactive Protection across the Visual Content Lifecycle",
+      "authors": [
+        "Jiaming Zhang",
+        "Boyang Chen",
+        "Zherui Li",
+        "Fuyao Zhang",
+        "Xinyu Yan",
+        "Hong Xi Tae",
+        "Wenwen He",
+        "Xuan Wang",
+        "Siqi Guo",
+        "Junhao Dong",
+        "Kun Wang",
+        "Hanxun Huang",
+        "Yige Li",
+        "Xingjun Ma",
+        "Yang Cao",
+        "Lingjuan Lyu",
+        "Wei Yang Bryan Lim"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-08-05T00:00:00.000Z"
+    },
+    {
+      "id": "2603.18846",
+      "title": "Towards Interpretable Foundation Models for Retinal Fundus Images",
+      "authors": [
+        "Samuel Ofosu Mensah",
+        "Camila Roa",
+        "Kerol Djoumessi",
+        "Philipp Berens"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/berenslab/interpretable_FM",
+      "published": "2026-08-04T00:00:00.000Z"
+    },
+    {
+      "id": "2608.06501",
+      "title": "Can MLLMs Decode the Creative Leap? Introducing C4 for Cross-Concept Understanding",
+      "authors": [
+        "Ming Wang",
+        "Yuqing Zhang",
+        "Tingna Xie",
+        "Xiangju Li",
+        "Xiaocui Yang",
+        "Daling Wang",
+        "Shi Feng",
+        "Yifei Zhang"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-08-06T00:00:00.000Z"
+    },
+    {
+      "id": "2606.00152",
+      "title": "PrivacyPeek: Auditing What LLM-Based Agents Acquire, Not Just What They Say",
+      "authors": [
+        "Mingxuan Zhang",
+        "Jiahui Han",
+        "Dadi Guo",
+        "Songze Li",
+        "Guanchu Wang",
+        "Na Zou",
+        "Dongrui Liu",
+        "Xia Hu"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/Xuan269/PrivacyPeek-Resource",
+      "published": "2026-08-06T00:00:00.000Z"
+    },
+    {
+      "id": "2608.04302",
+      "title": "CLIP-CC-Bench: Evaluating Paragraph-Level Video Descriptions in Video-Language Models",
+      "authors": [
+        "Mukhtiar Ali",
+        "Harsh Dubey",
+        "Sugam Mishra",
+        "Chulwoo Pack"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/Multimodal-Intelligence-Lab/CLIP-CC-Bench",
+      "published": "2026-08-05T00:00:00.000Z"
+    },
+    {
+      "id": "2607.27945",
+      "title": "Complementary Matrix-Gated QKAN Fast-Weight Programmers for Quantum Dynamics Forecasting",
+      "authors": [
+        "Kuo-Chung Peng",
+        "Samuel Yen-Chi Chen",
+        "Jiun-Cheng Jiang",
+        "Chen-Yu Liu",
+        "En-Jui Kuo",
+        "Yun-Yuan Wang",
+        "Tzung-Chi Huang",
+        "Prayag Tiwari",
+        "Chi-Sheng Chen",
+        "Chun-Hua Lin",
+        "Yu-Chao Hsu",
+        "Tai-Yue Li",
+        "Saif Al-Kuwari",
+        "Simon See",
+        "Kuan-Cheng Chen",
+        "Nan-Yow Chen",
+        "Hsi-Sheng Goan"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2026-07-30T00:00:00.000Z"
+    }
+  ]
+}

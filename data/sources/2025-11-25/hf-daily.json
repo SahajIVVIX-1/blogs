@@ -1,0 +1,624 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-11-25",
+  "fetched_at": "2026-10-29T15:33:54.067Z",
+  "candidates": [
+    {
+      "id": "2511.18423",
+      "title": "General Agentic Memory Via Deep Research",
+      "authors": [
+        "B. Y. Yan",
+        "Chaofan Li",
+        "Hongjin Qian",
+        "Shuqi Lu",
+        "Zheng Liu"
+      ],
+      "upvotes": 174,
+      "github": "https://github.com/VectorSpaceLab/general-agentic-memory",
+      "published": "2025-11-23T12:29:33.000Z"
+    },
+    {
+      "id": "2511.19304",
+      "title": "AutoEnv: Automated Environments for Measuring Cross-Environment Agent Learning",
+      "authors": [
+        "Jiayi Zhang",
+        "Yiran Peng",
+        "Fanqi Kong",
+        "Yang Cheng",
+        "Yifan Wu",
+        "Zhaoyang Yu",
+        "Jinyu Xiang",
+        "Jianhao Ruan",
+        "Jinlin Wang",
+        "Maojia Song",
+        "HongZhang Liu",
+        "Xiangru Tang",
+        "Bang Liu",
+        "Chenglin Wu",
+        "Yuyu Luo"
+      ],
+      "upvotes": 92,
+      "github": "https://github.com/FoundationAgents/AutoEnv",
+      "published": "2025-11-24T16:54:23.000Z"
+    },
+    {
+      "id": "2511.19365",
+      "title": "DeCo: Frequency-Decoupled Pixel Diffusion for End-to-End Image Generation",
+      "authors": [
+        "Zehong Ma",
+        "Longhui Wei",
+        "Shuai Wang",
+        "Shiliang Zhang",
+        "Qi Tian"
+      ],
+      "upvotes": 66,
+      "github": "https://github.com/Zehong-Ma/DeCo",
+      "published": "2025-11-24T17:59:06.000Z"
+    },
+    {
+      "id": "2511.19399",
+      "title": "DR Tulu: Reinforcement Learning with Evolving Rubrics for Deep Research",
+      "authors": [
+        "Rulin Shao",
+        "Akari Asai",
+        "Shannon Zejiang Shen",
+        "Hamish Ivison",
+        "Varsha Kishore",
+        "Jingming Zhuo",
+        "Xinran Zhao",
+        "Molly Park",
+        "Samuel G. Finlayson",
+        "David Sontag",
+        "Tyler Murray",
+        "Sewon Min",
+        "Pradeep Dasigi",
+        "Luca Soldaini",
+        "Faeze Brahman",
+        "Wen-tau Yih",
+        "Tongshuang Wu",
+        "Luke Zettlemoyer",
+        "Yoon Kim",
+        "Hannaneh Hajishirzi",
+        "Pang Wei Koh"
+      ],
+      "upvotes": 64,
+      "github": "https://github.com/rlresearch/dr-tulu",
+      "published": "2025-11-24T18:35:54.000Z"
+    },
+    {
+      "id": "2511.15567",
+      "title": "Computer-Use Agents as Judges for Generative User Interface",
+      "authors": [
+        "Kevin Qinghong Lin",
+        "Siyuan Hu",
+        "Linjie Li",
+        "Zhengyuan Yang",
+        "Lijuan Wang",
+        "Philip Torr",
+        "Mike Zheng Shou"
+      ],
+      "upvotes": 54,
+      "github": "https://github.com/showlab/AUI",
+      "published": "2025-11-19T16:00:02.000Z"
+    },
+    {
+      "id": "2511.18050",
+      "title": "UltraFlux: Data-Model Co-Design for High-quality Native 4K Text-to-Image Generation across Diverse Aspect Ratios",
+      "authors": [
+        "Tian Ye",
+        "Song Fei",
+        "Lei Zhu"
+      ],
+      "upvotes": 38,
+      "github": "https://github.com/W2GenAI-Lab/UltraFlux",
+      "published": "2025-11-22T13:07:21.000Z"
+    },
+    {
+      "id": "2511.17006",
+      "title": "Budget-Aware Tool-Use Enables Effective Agent Scaling",
+      "authors": [
+        "Tengxiao Liu",
+        "Zifeng Wang",
+        "Jin Miao",
+        "I-Hung Hsu",
+        "Jun Yan",
+        "Jiefeng Chen",
+        "Rujun Han",
+        "Fangyuan Xu",
+        "Yanfei Chen",
+        "Ke Jiang",
+        "Samira Daruki",
+        "Yi Liang",
+        "William Yang Wang",
+        "Tomas Pfister",
+        "Chen-Yu Lee"
+      ],
+      "upvotes": 34,
+      "github": null,
+      "published": "2025-11-21T07:18:55.000Z"
+    },
+    {
+      "id": "2511.19401",
+      "title": "In-Video Instructions: Visual Signals as Generative Control",
+      "authors": [
+        "Gongfan Fang",
+        "Xinyin Ma",
+        "Xinchao Wang"
+      ],
+      "upvotes": 32,
+      "github": "https://github.com/VainF/In-Video-Instructions",
+      "published": "2025-11-24T18:38:45.000Z"
+    },
+    {
+      "id": "2511.19418",
+      "title": "Chain-of-Visual-Thought: Teaching VLMs to See and Think Better with Continuous Visual Tokens",
+      "authors": [
+        "Yiming Qin",
+        "Bomin Wei",
+        "Jiaxin Ge",
+        "Konstantinos Kallidromitis",
+        "Stephanie Fu",
+        "Trevor Darrell",
+        "Xudong Wang"
+      ],
+      "upvotes": 29,
+      "github": "https://github.com/Wakals/CoVT",
+      "published": "2025-11-24T18:55:19.000Z"
+    },
+    {
+      "id": "2511.18870",
+      "title": "HunyuanVideo 1.5 Technical Report",
+      "authors": [
+        "Bing Wu",
+        "Chang Zou",
+        "Changlin Li",
+        "Duojun Huang",
+        "Fang Yang",
+        "Hao Tan",
+        "Jack Peng",
+        "Jianbing Wu",
+        "Jiangfeng Xiong",
+        "Jie Jiang",
+        "Linus",
+        "Patrol",
+        "Peizhen Zhang",
+        "Peng Chen",
+        "Penghao Zhao",
+        "Qi Tian",
+        "Songtao Liu",
+        "Weijie Kong",
+        "Weiyan Wang",
+        "Xiao He",
+        "Xin Li",
+        "Xinchi Deng",
+        "Xuefei Zhe",
+        "Yang Li",
+        "Yanxin Long",
+        "Yuanbo Peng",
+        "Yue Wu",
+        "Yuhong Liu",
+        "Zhenyu Wang",
+        "Zuozhuo Dai",
+        "Bo Peng",
+        "Coopers Li",
+        "Gu Gong",
+        "Guojian Xiao",
+        "Jiahe Tian",
+        "Jiaxin Lin",
+        "Jie Liu",
+        "Jihong Zhang",
+        "Jiesong Lian",
+        "Kaihang Pan",
+        "Lei Wang",
+        "Lin Niu",
+        "Mingtao Chen",
+        "Mingyang Chen",
+        "Mingzhe Zheng",
+        "Miles Yang",
+        "Qiangqiang Hu",
+        "Qi Yang",
+        "Qiuyong Xiao",
+        "Runzhou Wu",
+        "Ryan Xu",
+        "Rui Yuan",
+        "Shanshan Sang",
+        "Shisheng Huang",
+        "Siruis Gong",
+        "Shuo Huang",
+        "Weiting Guo",
+        "Xiang Yuan",
+        "Xiaojia Chen",
+        "Xiawei Hu",
+        "Wenzhi Sun",
+        "Xiele Wu",
+        "Xianshun Ren",
+        "Xiaoyan Yuan",
+        "Xiaoyue Mi",
+        "Yepeng Zhang",
+        "Yifu Sun",
+        "Yiting Lu",
+        "Yitong Li",
+        "You Huang",
+        "Yu Tang",
+        "Yixuan Li",
+        "Yuhang Deng",
+        "Yuan Zhou",
+        "Zhichao Hu",
+        "Zhiguang Liu",
+        "Zhihe Yang",
+        "Zilin Yang",
+        "Zhenzhi Lu",
+        "Zixiang Zhou",
+        "Zhao Zhong"
+      ],
+      "upvotes": 29,
+      "github": "https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5",
+      "published": "2025-11-24T08:22:07.000Z"
+    },
+    {
+      "id": "2511.20256",
+      "title": "The Image as Its Own Reward: Reinforcement Learning with Adversarial Reward for Image Generation",
+      "authors": [
+        "Weijia Mao",
+        "Hao Chen",
+        "Zhenheng Yang",
+        "Mike Zheng Shou"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/showlab/Adv-GRPO",
+      "published": "2025-11-25T12:35:57.000Z"
+    },
+    {
+      "id": "2511.17803",
+      "title": "Pillar-0: A New Frontier for Radiology Foundation Models",
+      "authors": [
+        "Kumar Krishna Agrawal",
+        "Longchao Liu",
+        "Long Lian",
+        "Michael Nercessian",
+        "Natalia Harguindeguy",
+        "Yufu Wu",
+        "Peter Mikhael",
+        "Gigin Lin",
+        "Lecia V. Sequist",
+        "Florian Fintelmann",
+        "Trevor Darrell",
+        "Yutong Bai",
+        "Maggie Chung",
+        "Adam Yala"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/YalaLab/pillar-pretrain",
+      "published": "2025-11-21T21:50:34.000Z"
+    },
+    {
+      "id": "2511.13288",
+      "title": "Multi-Agent Deep Research: Training Multi-Agent Systems with M-GRPO",
+      "authors": [
+        "Haoyang Hong",
+        "Jiajun Yin",
+        "Yuan Wang",
+        "Jingnan Liu",
+        "Zhe Chen",
+        "Ailing Yu",
+        "Ji Li",
+        "Zhiling Ye",
+        "Hansong Xiao",
+        "Yefei Chen",
+        "Hualei Zhou",
+        "Yun Yue",
+        "Minghui Yang",
+        "Chunxiao Guo",
+        "Junwei Liu",
+        "Peng Wei",
+        "Jinjie Gu"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/AQ-MedAI/MrlX",
+      "published": "2025-11-17T12:06:30.000Z"
+    },
+    {
+      "id": "2511.17986",
+      "title": "Plan-X: Instruct Video Generation via Semantic Planning",
+      "authors": [
+        "Lun Huang",
+        "You Xie",
+        "Hongyi Xu",
+        "Tianpei Gu",
+        "Chenxu Zhang",
+        "Guoxian Song",
+        "Zenan Li",
+        "Xiaochen Zhao",
+        "Linjie Luo",
+        "Guillermo Sapiro"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2025-11-22T08:59:09.000Z"
+    },
+    {
+      "id": "2511.17729",
+      "title": "M3-Bench: Multi-Modal, Multi-Hop, Multi-Threaded Tool-Using MLLM Agent Benchmark",
+      "authors": [
+        "Yang Zhou",
+        "Mingyu Zhao",
+        "Zhenting Wang",
+        "Difei Gu",
+        "Bangwei Guo",
+        "Ruosong Ye",
+        "Ligong Han",
+        "Can Jin",
+        "Dimitris N. Metaxas"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/EtaYang10th/Open-M3-Bench",
+      "published": "2025-11-21T19:27:02.000Z"
+    },
+    {
+      "id": "2511.18922",
+      "title": "One4D: Unified 4D Generation and Reconstruction via Decoupled LoRA Control",
+      "authors": [
+        "Zhenxing Mi",
+        "Yuxin Wang",
+        "Dan Xu"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/MiZhenxing/One4D",
+      "published": "2025-11-24T09:31:23.000Z"
+    },
+    {
+      "id": "2511.16397",
+      "title": "AICC: Parse HTML Finer, Make Models Better -- A 7.3T AI-Ready Corpus Built by a Model-Based HTML Parser",
+      "authors": [
+        "Ren Ma",
+        "Jiantao Qiu",
+        "Chao Xu",
+        "Pei Chu",
+        "Kaiwen Liu",
+        "Pengli Ren",
+        "Yuan Qu",
+        "Jiahui Peng",
+        "Linfeng Hou",
+        "Mengjie Liu",
+        "Lindong Lu",
+        "Wenchang Ning",
+        "Jia Yu",
+        "Rui Min",
+        "Jin Shi",
+        "Haojiong Chen",
+        "Peng Zhang",
+        "Wenjian Zhang",
+        "Qian Jiang",
+        "Zengjie Hu",
+        "Guoqiang Yang",
+        "Zhenxiang Li",
+        "Fukai Shang",
+        "Zhongying Tu",
+        "Wentao Zhang",
+        "Dahua Lin",
+        "Conghui He"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2025-11-20T14:15:23.000Z"
+    },
+    {
+      "id": "2511.16249",
+      "title": "Controllable Layer Decomposition for Reversible Multi-Layer Image Generation",
+      "authors": [
+        "Zihao Liu",
+        "Zunnan Xu",
+        "Shi Shu",
+        "Jun Zhou",
+        "Ruicheng Zhang",
+        "Zhenchao Tang",
+        "Xiu Li"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/monkek123King/CLD",
+      "published": "2025-11-20T11:27:21.000Z"
+    },
+    {
+      "id": "2511.18945",
+      "title": "MIST: Mutual Information Via Supervised Training",
+      "authors": [
+        "German Gritsai",
+        "Megan Richards",
+        "Maxime Méloux",
+        "Kyunghyun Cho",
+        "Maxime Peyrard"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/grgera/mist",
+      "published": "2025-11-24T09:55:28.000Z"
+    },
+    {
+      "id": "2511.16301",
+      "title": "Upsample Anything: A Simple and Hard to Beat Baseline for Feature Upsampling",
+      "authors": [
+        "Minseok Seo",
+        "Mark Hamilton",
+        "Changick Kim"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/seominseok0429/Upsample-Anything-A-Simple-and-Hard-to-Beat-Baseline-for-Feature-Upsampling",
+      "published": "2025-11-20T12:27:53.000Z"
+    },
+    {
+      "id": "2511.19314",
+      "title": "PRInTS: Reward Modeling for Long-Horizon Information Seeking",
+      "authors": [
+        "Jaewoo Lee",
+        "Archiki Prasad",
+        "Justin Chih-Yao Chen",
+        "Zaid Khan",
+        "Elias Stengel-Eskin",
+        "Mohit Bansal"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/G-JWLee/PRInTS",
+      "published": "2025-11-24T17:09:43.000Z"
+    },
+    {
+      "id": "2511.16166",
+      "title": "EvoVLA: Self-Evolving Vision-Language-Action Model",
+      "authors": [
+        "Zeting Liu",
+        "Zida Yang",
+        "Zeyu Zhang",
+        "Hao Tang"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/AIGeeksGroup/EvoVLA",
+      "published": "2025-11-20T09:08:33.000Z"
+    },
+    {
+      "id": "2511.18373",
+      "title": "MASS: Motion-Aware Spatial-Temporal Grounding for Physics Reasoning and Comprehension in Vision-Language Models",
+      "authors": [
+        "Xiyang Wu",
+        "Zongxia Li",
+        "Jihui Jin",
+        "Guangyao Shi",
+        "Gouthaman KV",
+        "Vishnu Raj",
+        "Nilotpal Sinha",
+        "Jingxi Chen",
+        "Fan Du",
+        "Dinesh Manocha"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2025-11-23T09:43:44.000Z"
+    },
+    {
+      "id": "2511.19428",
+      "title": "Flow Map Distillation Without Data",
+      "authors": [
+        "Shangyuan Tong",
+        "Nanye Ma",
+        "Saining Xie",
+        "Tommi Jaakkola"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/ShangyuanTong/FreeFlow",
+      "published": "2025-11-24T18:58:55.000Z"
+    },
+    {
+      "id": "2511.17792",
+      "title": "Target-Bench: Can World Models Achieve Mapless Path Planning with Semantic Targets?",
+      "authors": [
+        "Dingrui Wang",
+        "Hongyuan Ye",
+        "Zhihao Liang",
+        "Zhexiao Sun",
+        "Zhaowei Lu",
+        "Yuchen Zhang",
+        "Yuyu Zhao",
+        "Yuan Gao",
+        "Marvin Seegert",
+        "Finn Schäfer",
+        "Haotong Qin",
+        "Wei Li",
+        "Luigi Palmieri",
+        "Felix Jahncke",
+        "Mattia Piccinini",
+        "Johannes Betz"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/TUM-AVS/target-bench",
+      "published": "2025-11-21T21:36:02.000Z"
+    },
+    {
+      "id": "2511.17405",
+      "title": "Beyond Multiple Choice: Verifiable OpenQA for Robust Vision-Language RFT",
+      "authors": [
+        "Yesheng Liu",
+        "Hao Li",
+        "Haiyu Xu",
+        "Baoqi Pei",
+        "Jiahao Wang",
+        "Mingxuan Zhao",
+        "Jingshu Zheng",
+        "Zheqi He",
+        "JG Yao",
+        "Bowen Qin",
+        "Xi Yang",
+        "Jiajun Zhang"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/flageval-baai/ReVeL-Code",
+      "published": "2025-11-21T17:06:37.000Z"
+    },
+    {
+      "id": "2511.19166",
+      "title": "Epistemic Familiarity is Associated With Belief Stability in Large Language Models",
+      "authors": [
+        "Samantha Dies",
+        "Courtney Maynard",
+        "Germans Savcisens",
+        "Tina Eliassi-Rad"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2026-07-21T00:00:00.000Z"
+    },
+    {
+      "id": "2511.18024",
+      "title": "Extracting Interaction-Aware Monosemantic Concepts in Recommender Systems",
+      "authors": [
+        "Dor Arviv",
+        "Yehonatan Elisha",
+        "Oren Barkan",
+        "Noam Koenigstein"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/DeltaLabTLV/Monosemanticity4Rec",
+      "published": "2025-11-22T11:27:32.000Z"
+    },
+    {
+      "id": "2511.18047",
+      "title": "Fidelity-Aware Recommendation Explanations via Stochastic Path Integration",
+      "authors": [
+        "Oren Barkan",
+        "Yahlly Schein",
+        "Yehonatan Elisha",
+        "Veronika Bogina",
+        "Mikhail Baklanov",
+        "Noam Koenigstein"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/DeltaLabTLV/SPINRec",
+      "published": "2025-11-22T12:59:04.000Z"
+    },
+    {
+      "id": "2511.19319",
+      "title": "SyncMV4D: Synchronized Multi-view Joint Diffusion of Appearance and Motion for Hand-Object Interaction Synthesis",
+      "authors": [
+        "Lingwei Dang",
+        "Zonghan Li",
+        "Juntong Li",
+        "Hongwen Zhang",
+        "Liang An",
+        "Yebin Liu",
+        "Qingyao Wu"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2025-11-24T17:14:19.000Z"
+    },
+    {
+      "id": "2511.12810",
+      "title": "MSRNet: A Multi-Scale Recursive Network for Camouflaged Object Detection",
+      "authors": [
+        "Leena Alghamdi",
+        "Muhammad Usman",
+        "Hafeez Anwar",
+        "Abdul Bais",
+        "Saeed Anwar"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/linaagh98/MSRNet",
+      "published": "2025-11-16T22:29:06.000Z"
+    }
+  ]
+}

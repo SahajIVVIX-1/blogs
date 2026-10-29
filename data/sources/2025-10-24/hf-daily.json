@@ -1,0 +1,481 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-10-24",
+  "fetched_at": "2026-10-29T15:33:34.677Z",
+  "candidates": [
+    {
+      "id": "2510.19600",
+      "title": "Human-Agent Collaborative Paper-to-Page Crafting for Under $0.1",
+      "authors": [
+        "Qianli Ma",
+        "Siyu Wang",
+        "Yilin Chen",
+        "Yinhao Tang",
+        "Yixiang Yang",
+        "Chang Guo",
+        "Bingjie Gao",
+        "Zhening Xing",
+        "Yanan Sun",
+        "Zhipeng Zhang"
+      ],
+      "upvotes": 69,
+      "github": "https://github.com/AutoLab-SAI-SJTU/AutoPage",
+      "published": "2025-10-22T13:53:57.000Z"
+    },
+    {
+      "id": "2510.19779",
+      "title": "AdaSPEC: Selective Knowledge Distillation for Efficient Speculative Decoders",
+      "authors": [
+        "Yuezhou Hu",
+        "Jiaxin Guo",
+        "Xinyu Feng",
+        "Tuo Zhao"
+      ],
+      "upvotes": 62,
+      "github": "https://github.com/yuezhouhu/adaspec",
+      "published": "2025-10-22T17:13:00.000Z"
+    },
+    {
+      "id": "2510.20579",
+      "title": "Open-o3 Video: Grounded Video Reasoning with Explicit Spatio-Temporal Evidence",
+      "authors": [
+        "Jiahao Meng",
+        "Xiangtai Li",
+        "Haochen Wang",
+        "Yue Tan",
+        "Tao Zhang",
+        "Lingdong Kong",
+        "Yunhai Tong",
+        "Anran Wang",
+        "Zhiyang Teng",
+        "Yujing Wang",
+        "Zhuochen Wang"
+      ],
+      "upvotes": 56,
+      "github": "https://github.com/marinero4972/Open-o3-Video",
+      "published": "2025-10-23T14:05:56.000Z"
+    },
+    {
+      "id": "2510.20822",
+      "title": "HoloCine: Holistic Generation of Cinematic Multi-Shot Long Video Narratives",
+      "authors": [
+        "Yihao Meng",
+        "Hao Ouyang",
+        "Yue Yu",
+        "Qiuyu Wang",
+        "Wen Wang",
+        "Ka Leong Cheng",
+        "Hanlin Wang",
+        "Yixuan Li",
+        "Cheng Chen",
+        "Yanhong Zeng",
+        "Yujun Shen",
+        "Huamin Qu"
+      ],
+      "upvotes": 41,
+      "github": "https://github.com/yihao-meng/HoloCine",
+      "published": "2025-10-23T17:59:59.000Z"
+    },
+    {
+      "id": "2510.20766",
+      "title": "DyPE: Dynamic Position Extrapolation for Ultra High Resolution Diffusion",
+      "authors": [
+        "Noam Issachar",
+        "Guy Yariv",
+        "Sagie Benaim",
+        "Yossi Adi",
+        "Dani Lischinski",
+        "Raanan Fattal"
+      ],
+      "upvotes": 37,
+      "github": "https://github.com/guyyariv/DyPE",
+      "published": "2025-10-23T17:42:14.000Z"
+    },
+    {
+      "id": "2510.19304",
+      "title": "Loopholing Discrete Diffusion: Deterministic Bypass of the Sampling Wall",
+      "authors": [
+        "Mingyu Jo",
+        "Jaesik Yoon",
+        "Justin Deschenaux",
+        "Caglar Gulcehre",
+        "Sungjin Ahn"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/ahn-ml/lddm",
+      "published": "2025-10-22T07:08:47.000Z"
+    },
+    {
+      "id": "2510.19944",
+      "title": "Seed3D 1.0: From Images to High-Fidelity Simulation-Ready 3D Assets",
+      "authors": [
+        "Jiashi Feng",
+        "Xiu Li",
+        "Jing Lin",
+        "Jiahang Liu",
+        "Gaohong Liu",
+        "Weiqiang Lou",
+        "Su Ma",
+        "Guang Shi",
+        "Qinlong Wang",
+        "Jun Wang",
+        "Zhongcong Xu",
+        "Xuanyu Yi",
+        "Zihao Yu",
+        "Jianfeng Zhang",
+        "Yifan Zhu",
+        "Rui Chen",
+        "Jinxin Chi",
+        "Zixian Du",
+        "Li Han",
+        "Lixin Huang",
+        "Kaihua Jiang",
+        "Yuhan Li",
+        "Guan Luo",
+        "Shuguang Wang",
+        "Qianyi Wu",
+        "Fan Yang",
+        "Junyang Zhang",
+        "Xuanmeng Zhang"
+      ],
+      "upvotes": 22,
+      "github": null,
+      "published": "2025-10-22T18:16:32.000Z"
+    },
+    {
+      "id": "2510.16917",
+      "title": "SAKE: Towards Editing Auditory Attribute Knowledge of Large Audio-Language Models",
+      "authors": [
+        "Chih-Kai Yang",
+        "Yen-Ting Piao",
+        "Tzu-Wen Hsu",
+        "Szu-Wei Fu",
+        "Zhehuai Chen",
+        "Ke-Han Lu",
+        "Sung-Feng Huang",
+        "Chao-Han Huck Yang",
+        "Yu-Chiang Frank Wang",
+        "Yun-Nung Chen",
+        "Hung-yi Lee"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/ckyang1124/SAKE",
+      "published": "2025-10-19T16:22:09.000Z"
+    },
+    {
+      "id": "2510.20187",
+      "title": "Every Question Has Its Own Value: Reinforcement Learning with Explicit Human Values",
+      "authors": [
+        "Dian Yu",
+        "Yulai Zhao",
+        "Kishan Panaganti",
+        "Linfeng Song",
+        "Haitao Mi",
+        "Dong Yu"
+      ],
+      "upvotes": 19,
+      "github": null,
+      "published": "2025-10-23T04:15:22.000Z"
+    },
+    {
+      "id": "2510.16893",
+      "title": "Investigating Safety Vulnerabilities of Large Audio-Language Models Under Speaker Emotional Variations",
+      "authors": [
+        "Bo-Han Feng",
+        "Chien-Feng Liu",
+        "Yu-Hsuan Li Liang",
+        "Chih-Kai Yang",
+        "Szu-Wei Fu",
+        "Zhehuai Chen",
+        "Ke-Han Lu",
+        "Sung-Feng Huang",
+        "Chao-Han Huck Yang",
+        "Yu-Chiang Frank Wang",
+        "Yun-Nung Chen",
+        "Hung-yi Lee"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/WoZhenDeShenMeDouBuZhidao/LALM-emotional-vulnerability",
+      "published": "2025-10-19T15:41:25.000Z"
+    },
+    {
+      "id": "2510.18821",
+      "title": "Search Self-play: Pushing the Frontier of Agent Capability without Supervision",
+      "authors": [
+        "Hongliang Lu",
+        "Yuhang Wen",
+        "Pengyu Cheng",
+        "Ruijin Ding",
+        "Haotian Xu",
+        "Jiaqi Guo",
+        "Chutian Wang",
+        "Haonan Chen",
+        "Xiaoxi Jiang",
+        "Guanjun Jiang"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/Qwen-Applications/SSP",
+      "published": "2025-10-21T17:19:35.000Z"
+    },
+    {
+      "id": "2510.20733",
+      "title": "Thought Communication in Multiagent Collaboration",
+      "authors": [
+        "Yujia Zheng",
+        "Zhuokai Zhao",
+        "Zijian Li",
+        "Yaqi Xie",
+        "Mingze Gao",
+        "Lizhu Zhang",
+        "Kun Zhang"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2025-10-23T16:48:02.000Z"
+    },
+    {
+      "id": "2510.20470",
+      "title": "Conan: Progressive Learning to Reason Like a Detective over Multi-Scale Visual Evidence",
+      "authors": [
+        "Kun Ouyang",
+        "Yuanxin Liu",
+        "Linli Yao",
+        "Yishuo Cai",
+        "Hao Zhou",
+        "Jie Zhou",
+        "Fandong Meng",
+        "Xu Sun"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/OuyangKun10/Conan",
+      "published": "2025-10-23T12:11:46.000Z"
+    },
+    {
+      "id": "2510.20803",
+      "title": "ARGenSeg: Image Segmentation with Autoregressive Image Generation Model",
+      "authors": [
+        "Xiaolong Wang",
+        "Lixiang Ru",
+        "Ziyuan Huang",
+        "Kaixiang Ji",
+        "Dandan Zheng",
+        "Jingdong Chen",
+        "Jun Zhou"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/inclusionAI/ARGenSeg",
+      "published": "2025-10-23T17:58:26.000Z"
+    },
+    {
+      "id": "2510.20820",
+      "title": "LayerComposer: Interactive Personalized T2I via Spatially-Aware Layered Canvas",
+      "authors": [
+        "Guocheng Gordon Qian",
+        "Ruihang Zhang",
+        "Tsai-Shien Chen",
+        "Yusuf Dalva",
+        "Anujraaj Argo Goyal",
+        "Willi Menapace",
+        "Ivan Skorokhodov",
+        "Meng Dong",
+        "Arpit Sahni",
+        "Daniil Ostashev",
+        "Ju Hu",
+        "Sergey Tulyakov",
+        "Kuan-Chieh Jackson Wang"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2025-10-23T17:59:55.000Z"
+    },
+    {
+      "id": "2510.12487",
+      "title": "Diff-XYZ: A Benchmark for Evaluating Diff Understanding",
+      "authors": [
+        "Evgeniy Glukhov",
+        "Michele Conti",
+        "Egor Bogomolov",
+        "Yaroslav Golubev",
+        "Alexander Bezzubov"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2025-10-14T13:23:01.000Z"
+    },
+    {
+      "id": "2510.17853",
+      "title": "CiteGuard: Faithful Citation Attribution for LLMs via Retrieval-Augmented Validation",
+      "authors": [
+        "Yee Man Choi",
+        "Xuehang Guo",
+        "Yi R.",
+        "Fung",
+        "Qingyun Wang"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/KathCYM/CiteGuard",
+      "published": "2025-10-15T00:32:26.000Z"
+    },
+    {
+      "id": "2510.20668",
+      "title": "From Masks to Worlds: A Hitchhiker's Guide to World Models",
+      "authors": [
+        "Jinbin Bai",
+        "Yu Lei",
+        "Hecong Wu",
+        "Yuchen Zhu",
+        "Shufan Li",
+        "Yi Xin",
+        "Xiangtai Li",
+        "Molei Tao",
+        "Aditya Grover",
+        "Ming-Hsuan Yang"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/M-E-AGI-Lab/Awesome-World-Models",
+      "published": "2025-10-23T15:46:44.000Z"
+    },
+    {
+      "id": "2510.20270",
+      "title": "ImpossibleBench: Measuring LLMs' Propensity of Exploiting Test Cases",
+      "authors": [
+        "Ziqian Zhong",
+        "Aditi Raghunathan",
+        "Nicholas Carlini"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/safety-research/impossiblebench",
+      "published": "2025-10-23T06:58:32.000Z"
+    },
+    {
+      "id": "2510.20771",
+      "title": "AlphaFlow: Understanding and Improving MeanFlow Models",
+      "authors": [
+        "Huijie Zhang",
+        "Aliaksandr Siarohin",
+        "Willi Menapace",
+        "Michael Vasilkovsky",
+        "Sergey Tulyakov",
+        "Qing Qu",
+        "Ivan Skorokhodov"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/snap-research/alphaflow",
+      "published": "2025-10-23T17:45:06.000Z"
+    },
+    {
+      "id": "2510.18245",
+      "title": "Scaling Laws Meet Model Architecture: Toward Inference-Efficient LLMs",
+      "authors": [
+        "Song Bian",
+        "Tao Yu",
+        "Shivaram Venkataraman",
+        "Youngsuk Park"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2025-10-21T03:08:48.000Z"
+    },
+    {
+      "id": "2510.19365",
+      "title": "The Massive Legal Embedding Benchmark (MLEB)",
+      "authors": [
+        "Umar Butler",
+        "Abdur-Rahman Butler",
+        "Adrian Lucas Malec"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/isaacus-dev/mleb",
+      "published": "2025-10-22T08:38:44.000Z"
+    },
+    {
+      "id": "2510.18413",
+      "title": "Adamas: Hadamard Sparse Attention for Efficient Long-Context Inference",
+      "authors": [
+        "Siyuan Yan",
+        "Guo-Qing Jiang",
+        "Yuchen Zhang",
+        "Xiaoxing Ma",
+        "Ran Zhu",
+        "Chun Cao",
+        "Jingwei Xu"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/FibonaccciYan/Adamas",
+      "published": "2025-10-21T08:44:47.000Z"
+    },
+    {
+      "id": "2510.17896",
+      "title": "Long-Context Attention Benchmark: From Kernel Efficiency to Distributed Context Parallelism",
+      "authors": [
+        "Tao Bu",
+        "Qiangang Wang",
+        "Bowen Zeng",
+        "Hanwen Sun",
+        "Yunpeng Huang",
+        "Chun Cao",
+        "Jingwei Xu"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-10-19T07:07:37.000Z"
+    },
+    {
+      "id": "2510.19995",
+      "title": "Communication to Completion: Modeling Collaborative Workflows with Intelligent Multi-Agent Communication",
+      "authors": [
+        "Yiming Lu",
+        "Xun Wang",
+        "Simin Ma",
+        "Shujian Liu",
+        "Sathish Reddy Indurthi",
+        "Song Wang",
+        "Haoyun Deng",
+        "Fei Liu",
+        "Kaiqiang Song"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-10-22T19:48:17.000Z"
+    },
+    {
+      "id": "2510.19423",
+      "title": "MSC-Bench: A Rigorous Benchmark for Multi-Server Tool Orchestration",
+      "authors": [
+        "Jia-Kai Dong",
+        "I-Wei Huang",
+        "Chun-Tin Wu",
+        "Yi-Tien Tsai"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/snooow1029/MSC_Bench",
+      "published": "2025-10-22T09:45:11.000Z"
+    },
+    {
+      "id": "2510.20362",
+      "title": "ComProScanner: A multi-agent based framework for composition-property structured data extraction from scientific literature",
+      "authors": [
+        "Aritra Roy",
+        "Enrico Grisan",
+        "John Buckeridge",
+        "Chiara Gattinoni"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/slimeslab/comproscanner",
+      "published": "2025-10-23T09:01:44.000Z"
+    },
+    {
+      "id": "2510.15804",
+      "title": "Emergence of Linear Truth Encodings in Language Models",
+      "authors": [
+        "Shauli Ravfogel",
+        "Gilad Yehudai",
+        "Tal Linzen",
+        "Joan Bruna",
+        "Alberto Bietti"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2025-10-17T16:30:07.000Z"
+    }
+  ]
+}

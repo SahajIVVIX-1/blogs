@@ -1,0 +1,212 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-04-26",
+  "fetched_at": "2026-10-29T15:27:37.435Z",
+  "candidates": [
+    {
+      "id": "2404.16710",
+      "title": "LayerSkip: Enabling Early Exit Inference and Self-Speculative Decoding",
+      "authors": [
+        "Mostafa Elhoushi",
+        "Akshat Shrivastava",
+        "Diana Liskovich",
+        "Basil Hosmer",
+        "Bram Wasti",
+        "Liangzhen Lai",
+        "Anas Mahmoud",
+        "Bilge Acun",
+        "Saurabh Agarwal",
+        "Ahmed Roman",
+        "Ahmed A Aly",
+        "Beidi Chen",
+        "Carole-Jean Wu"
+      ],
+      "upvotes": 80,
+      "github": "https://github.com/facebookresearch/LayerSkip",
+      "published": "2024-04-25T16:20:23.000Z"
+    },
+    {
+      "id": "2404.16821",
+      "title": "How Far Are We to GPT-4V? Closing the Gap to Commercial Multimodal Models with Open-Source Suites",
+      "authors": [
+        "Zhe Chen",
+        "Weiyun Wang",
+        "Hao Tian",
+        "Shenglong Ye",
+        "Zhangwei Gao",
+        "Erfei Cui",
+        "Wenwen Tong",
+        "Kongzhi Hu",
+        "Jiapeng Luo",
+        "Zheng Ma",
+        "Ji Ma",
+        "Jiaqi Wang",
+        "Xiaoyi Dong",
+        "Hang Yan",
+        "Hewei Guo",
+        "Conghui He",
+        "Zhenjiang Jin",
+        "Chao Xu",
+        "Bin Wang",
+        "Xingjian Wei",
+        "Wei Li",
+        "Wenjian Zhang",
+        "Lewei Lu",
+        "Xizhou Zhu",
+        "Tong Lu",
+        "Dahua Lin",
+        "Yu Qiao"
+      ],
+      "upvotes": 59,
+      "github": null,
+      "published": "2024-04-25T17:59:19.000Z"
+    },
+    {
+      "id": "2404.16811",
+      "title": "Make Your LLM Fully Utilize the Context",
+      "authors": [
+        "Shengnan An",
+        "Zexiong Ma",
+        "Zeqi Lin",
+        "Nanning Zheng",
+        "Jian-Guang Lou"
+      ],
+      "upvotes": 54,
+      "github": "https://github.com/microsoft/FILM",
+      "published": "2024-04-25T17:55:14.000Z"
+    },
+    {
+      "id": "2404.16510",
+      "title": "Interactive3D: Create What You Want by Interactive 3D Generation",
+      "authors": [
+        "Shaocong Dong",
+        "Lihe Ding",
+        "Zhanpeng Huang",
+        "Zibin Wang",
+        "Tianfan Xue",
+        "Dan Xu"
+      ],
+      "upvotes": 20,
+      "github": null,
+      "published": "2024-04-25T11:06:57.000Z"
+    },
+    {
+      "id": "2404.16771",
+      "title": "ConsistentID: Portrait Generation with Multimodal Fine-Grained Identity Preserving",
+      "authors": [
+        "Jiehui Huang",
+        "Xiao Dong",
+        "Wenhui Song",
+        "Zheng Chong",
+        "Zhenchao Tang",
+        "Jun Zhou",
+        "Yuhao Cheng",
+        "Long Chen",
+        "Hanhui Li",
+        "Yiqiang Yan",
+        "Shengcai Liao",
+        "Xiaodan Liang",
+        "Shutao Liao"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/JackAILab/ConsistentID",
+      "published": "2024-12-28T00:00:00.000Z"
+    },
+    {
+      "id": "2404.16645",
+      "title": "Tele-FLM Technical Report",
+      "authors": [
+        "Xiang Li",
+        "Yiqun Yao",
+        "Xin Jiang",
+        "Xuezhi Fang",
+        "Chao Wang",
+        "Xinzhang Liu",
+        "Zihan Wang",
+        "Yu Zhao",
+        "Xin Wang",
+        "Yuyao Huang",
+        "Shuangyong Song",
+        "Yongxiang Li",
+        "Zheng Zhang",
+        "Bo Zhao",
+        "Aixin Sun",
+        "Yequan Wang",
+        "Zhongjiang He",
+        "Zhongyuan Wang",
+        "Xuelong Li",
+        "Tiejun Huang"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2024-04-25T14:34:47.000Z"
+    },
+    {
+      "id": "2404.16375",
+      "title": "List Items One by One: A New Data Source and Learning Paradigm for Multimodal LLMs",
+      "authors": [
+        "An Yan",
+        "Zhengyuan Yang",
+        "Junda Wu",
+        "Wanrong Zhu",
+        "Jianwei Yang",
+        "Linjie Li",
+        "Kevin Lin",
+        "Jianfeng Wang",
+        "Julian McAuley",
+        "Jianfeng Gao",
+        "Lijuan Wang"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/zzxslp/som-llava",
+      "published": "2024-04-25T07:29:17.000Z"
+    },
+    {
+      "id": "2404.16820",
+      "title": "Revisiting Text-to-Image Evaluation with Gecko: On Metrics, Prompts, and Human Ratings",
+      "authors": [
+        "Olivia Wiles",
+        "Chuhan Zhang",
+        "Isabela Albuquerque",
+        "Ivana Kajić",
+        "Su Wang",
+        "Emanuele Bugliarello",
+        "Yasumasa Onoe",
+        "Chris Knutsen",
+        "Cyrus Rashtchian",
+        "Jordi Pont-Tuset",
+        "Aida Nematzadeh"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/google-deepmind/gecko_benchmark_t2i",
+      "published": "2024-04-25T17:58:43.000Z"
+    },
+    {
+      "id": "2404.16221",
+      "title": "NeRF-XL: Scaling NeRFs with Multiple GPUs",
+      "authors": [
+        "Ruilong Li",
+        "Sanja Fidler",
+        "Angjoo Kanazawa",
+        "Francis Williams"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2024-04-24T21:43:15.000Z"
+    },
+    {
+      "id": "2404.16790",
+      "title": "SEED-Bench-2-Plus: Benchmarking Multimodal Large Language Models with Text-Rich Visual Comprehension",
+      "authors": [
+        "Bohao Li",
+        "Yuying Ge",
+        "Yi Chen",
+        "Yixiao Ge",
+        "Ruimao Zhang",
+        "Ying Shan"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/ailab-cvc/seed-bench",
+      "published": "2024-04-25T17:39:35.000Z"
+    }
+  ]
+}

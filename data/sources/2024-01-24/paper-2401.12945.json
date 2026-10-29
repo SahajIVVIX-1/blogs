@@ -1,0 +1,7 @@
+{
+  "id": "2401.12945",
+  "html": "https://arxiv.org/html/2401.12945",
+  "limitations": null,
+  "conclusion": "We presented a new text-to-video generation framework, utilizing a pre-trained text-to-image diffusion model. We identified an inherent limitation in learning globally-coherent motion in the prevalent approach of first generating distant keyframes and subsequently interpolating them using a cascade of temporal super-resolution models. To tackle this challenge, we introduced a space-time U-Net architecture design that directly generates full-frame-rate video clips, by incorporating both spatial, and temporal down- and up-sampling modules. We demonstrated state-of-the-art generation results, and showed the applicability of our approach for a wide range of applications, including image-to-video, video inapainting, and stylized generation. As for limitations, our method is not designed to generate videos that consist of multiple shots, or that involve transitions between scenes. Generating s",
+  "figure": null
+}

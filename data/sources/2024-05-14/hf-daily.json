@@ -1,0 +1,194 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-05-14",
+  "fetched_at": "2026-10-29T15:27:48.392Z",
+  "candidates": [
+    {
+      "id": "2405.02246",
+      "title": "What matters when building vision-language models?",
+      "authors": [
+        "Hugo Laurençon",
+        "Léo Tronchon",
+        "Matthieu Cord",
+        "Victor Sanh"
+      ],
+      "upvotes": 77,
+      "github": null,
+      "published": "2024-05-03T17:00:00.000Z"
+    },
+    {
+      "id": "2405.07863",
+      "title": "RLHF Workflow: From Reward Modeling to Online RLHF",
+      "authors": [
+        "Hanze Dong",
+        "Wei Xiong",
+        "Bo Pang",
+        "Haoxiang Wang",
+        "Han Zhao",
+        "Yingbo Zhou",
+        "Nan Jiang",
+        "Doyen Sahoo",
+        "Caiming Xiong",
+        "Tong Zhang"
+      ],
+      "upvotes": 71,
+      "github": "https://github.com/rlhflow/online-rlhf",
+      "published": "2024-05-13T15:50:39.000Z"
+    },
+    {
+      "id": "2405.06694",
+      "title": "SUTRA: Scalable Multilingual Language Model Architecture",
+      "authors": [
+        "Abhijit Bendale",
+        "Michael Sapienza",
+        "Steven Ripplinger",
+        "Simon Gibbs",
+        "Jaewon Lee",
+        "Pranav Mistry"
+      ],
+      "upvotes": 37,
+      "github": null,
+      "published": "2024-05-07T20:11:44.000Z"
+    },
+    {
+      "id": "2405.07518",
+      "title": "SambaNova SN40L: Scaling the AI Memory Wall with Dataflow and Composition of Experts",
+      "authors": [
+        "Raghu Prabhakar",
+        "Ram Sivaramakrishnan",
+        "Darshan Gandhi",
+        "Yun Du",
+        "Mingran Wang",
+        "Xiangyu Song",
+        "Kejie Zhang",
+        "Tianren Gao",
+        "Angela Wang",
+        "Karen Li",
+        "Yongning Sheng",
+        "Joshua Brot",
+        "Denis Sokolov",
+        "Apurv Vivek",
+        "Calvin Leung",
+        "Arjun Sabnis",
+        "Jiayu Bai",
+        "Tuowen Zhao",
+        "Mark Gottscho",
+        "David Jackson",
+        "Mark Luttrell",
+        "Manish K. Shah",
+        "Edison Chen",
+        "Kaizhao Liang",
+        "Swayambhoo Jain",
+        "Urmish Thakker",
+        "Dawei Huang",
+        "Sumti Jairath",
+        "Kevin J. Brown",
+        "Kunle Olukotun"
+      ],
+      "upvotes": 26,
+      "github": null,
+      "published": "2024-05-13T07:32:45.000Z"
+    },
+    {
+      "id": "2405.07526",
+      "title": "MS MARCO Web Search: a Large-scale Information-rich Web Dataset with Millions of Real Click Labels",
+      "authors": [
+        "Qi Chen",
+        "Xiubo Geng",
+        "Corby Rosset",
+        "Carolyn Buractaon",
+        "Jingwen Lu",
+        "Tao Shen",
+        "Kun Zhou",
+        "Chenyan Xiong",
+        "Yeyun Gong",
+        "Paul Bennett",
+        "Nick Craswell",
+        "Xing Xie",
+        "Fan Yang",
+        "Bryan Tower",
+        "Nikhil Rao",
+        "Anlei Dong",
+        "Wenqi Jiang",
+        "Zheng Liu",
+        "Mingqin Li",
+        "Chuanjie Liu",
+        "Zengzhong Li",
+        "Rangan Majumder",
+        "Jennifer Neville",
+        "Andy Oakley",
+        "Knut Magne Risvik",
+        "Harsha Vardhan Simhadri",
+        "Manik Varma",
+        "Yujing Wang",
+        "Linjun Yang",
+        "Mao Yang",
+        "Ce Zhang"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/microsoft/ms-marco-web-search",
+      "published": "2024-05-13T07:46:44.000Z"
+    },
+    {
+      "id": "2405.06932",
+      "title": "Piccolo2: General Text Embedding with Multi-task Hybrid Loss Training",
+      "authors": [
+        "Junqin Huang",
+        "Zhongjie Hu",
+        "Zihao Jing",
+        "Mengya Gao",
+        "Yichao Wu"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/hjq133/piccolo-embedding",
+      "published": "2024-05-11T06:32:08.000Z"
+    },
+    {
+      "id": "2405.07065",
+      "title": "LogoMotion: Visually Grounded Code Generation for Content-Aware Animation",
+      "authors": [
+        "Vivian Liu",
+        "Rubaiat Habib Kazi",
+        "Li-Yi Wei",
+        "Matthew Fisher",
+        "Timothy Langlois",
+        "Seth Walker",
+        "Lydia Chilton"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2024-05-11T18:20:40.000Z"
+    },
+    {
+      "id": "2405.07990",
+      "title": "Plot2Code: A Comprehensive Benchmark for Evaluating Multi-modal Large Language Models in Code Generation from Scientific Plots",
+      "authors": [
+        "Chengyue Wu",
+        "Yixiao Ge",
+        "Qiushan Guo",
+        "Jiahao Wang",
+        "Zhixuan Liang",
+        "Zeyu Lu",
+        "Ying Shan",
+        "Ping Luo"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/TencentARC/Plot2Code",
+      "published": "2024-05-13T17:59:22.000Z"
+    },
+    {
+      "id": "2405.06650",
+      "title": "Large Language Models as Planning Domain Generators",
+      "authors": [
+        "James Oswald",
+        "Kavitha Srinivas",
+        "Harsha Kokel",
+        "Junkyu Lee",
+        "Michael Katz",
+        "Shirin Sohrabi"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/IBM/NL2PDDL",
+      "published": "2024-04-02T19:39:23.000Z"
+    }
+  ]
+}

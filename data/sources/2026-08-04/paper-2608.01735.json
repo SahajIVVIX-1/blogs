@@ -1,0 +1,7 @@
+{
+  "id": "2608.01735",
+  "html": "https://arxiv.org/html/2608.01735",
+  "limitations": null,
+  "conclusion": "We identify information asymmetry as the root cause of privilege illusion in OPSD and propose DAPD to address it through two forms of anchoring. DPA aligns reference and rollout behavior under matched information availability, while DSA combines correctness-oriented reference guidance with student-reachable rollout guidance. Across benchmarks and Qwen3 models from 1.7B to 32B, DAPD significantly alleviates privilege illusion and consistently outperforms OPSD , validating the benefits of both matched-information paths and guidance sources. Limitations. DAPD constructs multiple anchored distributions during training, increasing training-time computation but adding no inference-time cost. Its weights may need recalibration across scales or architectures. The verified-rollout extension requires an automatic correctness signal, which may be unavailable for open-ended tasks.",
+  "figure": null
+}

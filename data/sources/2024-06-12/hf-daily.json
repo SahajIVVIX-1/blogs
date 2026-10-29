@@ -1,0 +1,300 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-06-12",
+  "fetched_at": "2026-10-29T15:28:06.091Z",
+  "candidates": [
+    {
+      "id": "2406.06608",
+      "title": "The Prompt Report: A Systematic Survey of Prompting Techniques",
+      "authors": [
+        "Sander Schulhoff",
+        "Michael Ilie",
+        "Nishant Balepur",
+        "Konstantine Kahadze",
+        "Amanda Liu",
+        "Chenglei Si",
+        "Yinheng Li",
+        "Aayush Gupta",
+        "HyoJung Han",
+        "Sevien Schulhoff",
+        "Pranav Sandeep Dulepet",
+        "Saurav Vidyadhara",
+        "Dayeon Ki",
+        "Sweta Agrawal",
+        "Chau Pham",
+        "Gerson Kroiz",
+        "Feileen Li",
+        "Hudson Tao",
+        "Ashay Srivastava",
+        "Hevander Da Costa",
+        "Saloni Gupta",
+        "Megan L. Rogers",
+        "Inna Goncearenco",
+        "Giuseppe Sarli",
+        "Igor Galynker",
+        "Denis Peskoff",
+        "Marine Carpuat",
+        "Jules White",
+        "Shyamal Anadkat",
+        "Alexander Hoyle",
+        "Philip Resnik"
+      ],
+      "upvotes": 67,
+      "github": "https://github.com/trigaten/Prompt_Systematic_Review",
+      "published": "2024-06-06T18:10:11.000Z"
+    },
+    {
+      "id": "2406.07550",
+      "title": "An Image is Worth 32 Tokens for Reconstruction and Generation",
+      "authors": [
+        "Qihang Yu",
+        "Mark Weber",
+        "Xueqing Deng",
+        "Xiaohui Shen",
+        "Daniel Cremers",
+        "Liang-Chieh Chen"
+      ],
+      "upvotes": 59,
+      "github": "https://github.com/bytedance/1d-tokenizer",
+      "published": "2024-06-11T17:59:56.000Z"
+    },
+    {
+      "id": "2406.07436",
+      "title": "McEval: Massively Multilingual Code Evaluation",
+      "authors": [
+        "Linzheng Chai",
+        "Shukai Liu",
+        "Jian Yang",
+        "Yuwei Yin",
+        "Ke Jin",
+        "Jiaheng Liu",
+        "Tao Sun",
+        "Ge Zhang",
+        "Changyu Ren",
+        "Hongcheng Guo",
+        "Zekun Wang",
+        "Boyang Wang",
+        "Xianjie Wu",
+        "Bing Wang",
+        "Tongliang Li",
+        "Liqun Yang",
+        "Sufeng Duan",
+        "Zhoujun Li"
+      ],
+      "upvotes": 37,
+      "github": "https://github.com/MCEVAL/McEval",
+      "published": "2024-06-11T16:45:17.000Z"
+    },
+    {
+      "id": "2406.07547",
+      "title": "Zero-shot Image Editing with Reference Imitation",
+      "authors": [
+        "Xi Chen",
+        "Yutong Feng",
+        "Mengting Chen",
+        "Yiyang Wang",
+        "Shilong Zhang",
+        "Yu Liu",
+        "Yujun Shen",
+        "Hengshuang Zhao"
+      ],
+      "upvotes": 31,
+      "github": "https://github.com/ali-vilab/MimicBrush",
+      "published": "2024-06-11T17:59:51.000Z"
+    },
+    {
+      "id": "2406.07496",
+      "title": "TextGrad: Automatic \"Differentiation\" via Text",
+      "authors": [
+        "Mert Yuksekgonul",
+        "Federico Bianchi",
+        "Joseph Boen",
+        "Sheng Liu",
+        "Zhi Huang",
+        "Carlos Guestrin",
+        "James Zou"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/zou-group/textgrad",
+      "published": "2024-06-11T17:32:21.000Z"
+    },
+    {
+      "id": "2406.07394",
+      "title": "Accessing GPT-4 level Mathematical Olympiad Solutions via Monte Carlo Tree Self-refine with LLaMa-3 8B",
+      "authors": [
+        "Di Zhang",
+        "Jiatong Li",
+        "Xiaoshui Huang",
+        "Dongzhan Zhou",
+        "Yuqiang Li",
+        "Wanli Ouyang"
+      ],
+      "upvotes": 28,
+      "github": "https://github.com/trotsky1997/mathblackbox",
+      "published": "2024-06-11T16:01:07.000Z"
+    },
+    {
+      "id": "2406.06592",
+      "title": "Improve Mathematical Reasoning in Language Models by Automated Process Supervision",
+      "authors": [
+        "Liangchen Luo",
+        "Yinxiao Liu",
+        "Rosanne Liu",
+        "Samrat Phatale",
+        "Harsh Lara",
+        "Yunxuan Li",
+        "Lei Shu",
+        "Yun Zhu",
+        "Lei Meng",
+        "Jiao Sun",
+        "Abhinav Rastogi"
+      ],
+      "upvotes": 27,
+      "github": null,
+      "published": "2024-06-05T19:25:40.000Z"
+    },
+    {
+      "id": "2406.06563",
+      "title": "Skywork-MoE: A Deep Dive into Training Techniques for Mixture-of-Experts Language Models",
+      "authors": [
+        "Tianwen Wei",
+        "Bo Zhu",
+        "Liang Zhao",
+        "Cheng Cheng",
+        "Biye Li",
+        "Weiwei Lü",
+        "Peng Cheng",
+        "Jianhao Zhang",
+        "Xiaoyu Zhang",
+        "Liang Zeng",
+        "Xiaokun Wang",
+        "Yutuan Ma",
+        "Rui Hu",
+        "Shuicheng Yan",
+        "Han Fang",
+        "Yahui Zhou"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2024-06-03T03:58:41.000Z"
+    },
+    {
+      "id": "2406.06612",
+      "title": "SEE-2-SOUND: Zero-Shot Spatial Environment-to-Spatial Sound",
+      "authors": [
+        "Rishit Dagli",
+        "Shivesh Prakash",
+        "Robert Wu",
+        "Houman Khosravani"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/see2sound/see2sound",
+      "published": "2024-06-06T22:55:01.000Z"
+    },
+    {
+      "id": "2406.07472",
+      "title": "4Real: Towards Photorealistic 4D Scene Generation via Video Diffusion Models",
+      "authors": [
+        "Heng Yu",
+        "Chaoyang Wang",
+        "Peiye Zhuang",
+        "Willi Menapace",
+        "Aliaksandr Siarohin",
+        "Junli Cao",
+        "Laszlo A Jeni",
+        "Sergey Tulyakov",
+        "Hsin-Ying Lee"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2024-06-11T17:19:26.000Z"
+    },
+    {
+      "id": "2406.06911",
+      "title": "AsyncDiff: Parallelizing Diffusion Models by Asynchronous Denoising",
+      "authors": [
+        "Zigeng Chen",
+        "Xinyin Ma",
+        "Gongfan Fang",
+        "Zhenxiong Tan",
+        "Xinchao Wang"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/czg1225/asyncdiff",
+      "published": "2024-06-11T03:09:37.000Z"
+    },
+    {
+      "id": "2406.07524",
+      "title": "Simple and Effective Masked Diffusion Language Models",
+      "authors": [
+        "Subham Sekhar Sahoo",
+        "Marianne Arriola",
+        "Yair Schiff",
+        "Aaron Gokaslan",
+        "Edgar Marroquin",
+        "Justin T Chiu",
+        "Alexander Rush",
+        "Volodymyr Kuleshov"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/kuleshov-group/mdlm",
+      "published": "2024-06-11T17:51:40.000Z"
+    },
+    {
+      "id": "2406.06573",
+      "title": "MedFuzz: Exploring the Robustness of Large Language Models in Medical Question Answering",
+      "authors": [
+        "Robert Osazuwa Ness",
+        "Katie Matton",
+        "Hayden Helm",
+        "Sheng Zhang",
+        "Junaid Bajwa",
+        "Carey E. Priebe",
+        "Eric Horvitz"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2024-06-03T18:15:56.000Z"
+    },
+    {
+      "id": "2406.05629",
+      "title": "Separating the \"Chirp\" from the \"Chat\": Self-supervised Visual Grounding of Sound and Language",
+      "authors": [
+        "Mark Hamilton",
+        "Andrew Zisserman",
+        "John R. Hershey",
+        "William T. Freeman"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/mhamilton723/DenseAV",
+      "published": "2024-06-09T03:38:21.000Z"
+    },
+    {
+      "id": "2406.07520",
+      "title": "Neural Gaffer: Relighting Any Object via Diffusion",
+      "authors": [
+        "Haian Jin",
+        "Yuan Li",
+        "Fujun Luan",
+        "Yuanbo Xiangli",
+        "Sai Bi",
+        "Kai Zhang",
+        "Zexiang Xu",
+        "Jin Sun",
+        "Noah Snavely"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2024-06-11T17:50:15.000Z"
+    },
+    {
+      "id": "2406.07188",
+      "title": "Merging Improves Self-Critique Against Jailbreak Attacks",
+      "authors": [
+        "Victor Gallego"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/vicgalle/merging-self-critique-jailbreaks",
+      "published": "2024-06-11T12:01:09.000Z"
+    }
+  ]
+}

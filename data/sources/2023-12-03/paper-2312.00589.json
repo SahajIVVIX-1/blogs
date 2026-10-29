@@ -1,0 +1,7 @@
+{
+  "id": "2312.00589",
+  "html": "https://arxiv.org/html/2312.00589",
+  "limitations": "This study highlighted an obvious deficiency in Multimodal Large-Language Models (MLLMs), specifically their ability to predict future events or outcomes based on current observations, referred as “foresight minds” . To address this, we serve as the first to point out that trajectory, as a highly structured representation, is a good learning objective to assist MLLM in obtaining dynamic information from the image observations. Based on this insight, we introduced a unique training method including Foresight Pre-Training (FPT) and Foresight Instruction-Tuning (FIT) . By synergizing FPT and FIT, we created Merlin , a unified MLLM that effectively understands and outputs spatial coordinates or tracklets from single images or multiple frames. Merlin excels at a range of traditional vision-language tasks while demonstrating powerful future reasoning capacities. Despite the substantial advance",
+  "conclusion": null,
+  "figure": null
+}

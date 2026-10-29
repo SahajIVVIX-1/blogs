@@ -1,0 +1,416 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-04-08",
+  "fetched_at": "2026-10-29T15:31:08.662Z",
+  "candidates": [
+    {
+      "id": "2504.05299",
+      "title": "SmolVLM: Redefining small and efficient multimodal models",
+      "authors": [
+        "Andrés Marafioti",
+        "Orr Zohar",
+        "Miquel Farré",
+        "Merve Noyan",
+        "Elie Bakouch",
+        "Pedro Cuenca",
+        "Cyril Zakka",
+        "Loubna Ben Allal",
+        "Anton Lozhkov",
+        "Nouamane Tazi",
+        "Vaibhav Srivastav",
+        "Joshua Lochner",
+        "Hugo Larcher",
+        "Mathieu Morlon",
+        "Lewis Tunstall",
+        "Leandro von Werra",
+        "Thomas Wolf"
+      ],
+      "upvotes": 212,
+      "github": null,
+      "published": "2025-04-07T17:58:57.000Z"
+    },
+    {
+      "id": "2504.05298",
+      "title": "One-Minute Video Generation with Test-Time Training",
+      "authors": [
+        "Karan Dalal",
+        "Daniel Koceja",
+        "Gashon Hussein",
+        "Jiarui Xu",
+        "Yue Zhao",
+        "Youjin Song",
+        "Shihao Han",
+        "Ka Chun Cheung",
+        "Jan Kautz",
+        "Carlos Guestrin",
+        "Tatsunori Hashimoto",
+        "Sanmi Koyejo",
+        "Yejin Choi",
+        "Yu Sun",
+        "Xiaolong Wang"
+      ],
+      "upvotes": 110,
+      "github": "https://github.com/test-time-training/ttt-video-dit",
+      "published": "2025-04-07T17:56:31.000Z"
+    },
+    {
+      "id": "2504.04718",
+      "title": "T1: Tool-integrated Self-verification for Test-time Compute Scaling in Small Language Models",
+      "authors": [
+        "Minki Kang",
+        "Jongwon Jeong",
+        "Jaewoong Cho"
+      ],
+      "upvotes": 43,
+      "github": null,
+      "published": "2025-04-07T04:01:17.000Z"
+    },
+    {
+      "id": "2504.04022",
+      "title": "Rethinking Reflection in Pre-Training",
+      "authors": [
+        "Essential AI",
+        "Darsh J Shah",
+        "Peter Rushton",
+        "Somanshu Singla",
+        "Mohit Parmar",
+        "Kurt Smith",
+        "Yash Vanjani",
+        "Ashish Vaswani",
+        "Adarsh Chaluvaraju",
+        "Andrew Hojel",
+        "Andrew Ma",
+        "Anil Thomas",
+        "Anthony Polloreno",
+        "Ashish Tanwer",
+        "Burhan Drak Sibai",
+        "Divya S Mansingka",
+        "Divya Shivaprasad",
+        "Ishaan Shah",
+        "Karl Stratos",
+        "Khoi Nguyen",
+        "Michael Callahan",
+        "Michael Pust",
+        "Mrinal Iyer",
+        "Philip Monk",
+        "Platon Mazarakis",
+        "Ritvik Kapila",
+        "Saurabh Srivastava",
+        "Tim Romanski"
+      ],
+      "upvotes": 37,
+      "github": "https://github.com/Essential-AI/reflection",
+      "published": "2025-04-05T02:24:07.000Z"
+    },
+    {
+      "id": "2504.05305",
+      "title": "URECA: Unique Region Caption Anything",
+      "authors": [
+        "Sangbeom Lim",
+        "Junwan Kim",
+        "Heeji Yoon",
+        "Jaewoo Jung",
+        "Seungryong Kim"
+      ],
+      "upvotes": 35,
+      "github": "https://github.com/cvlab-kaist/URECA",
+      "published": "2025-04-07T17:59:44.000Z"
+    },
+    {
+      "id": "2504.04823",
+      "title": "Quantization Hurts Reasoning? An Empirical Study on Quantized Reasoning Models",
+      "authors": [
+        "Ruikang Liu",
+        "Yuxuan Sun",
+        "Manyi Zhang",
+        "Haoli Bai",
+        "Xianzhi Yu",
+        "Tiezheng Yu",
+        "Chun Yuan",
+        "Lu Hou"
+      ],
+      "upvotes": 31,
+      "github": "https://github.com/ruikangliu/quantized-reasoning-models",
+      "published": "2025-04-07T08:22:45.000Z"
+    },
+    {
+      "id": "2504.05118",
+      "title": "VAPO: Efficient and Reliable Reinforcement Learning for Advanced Reasoning Tasks",
+      "authors": [
+        "YuYue",
+        "Yufeng Yuan",
+        "Qiying Yu",
+        "Xiaochen Zuo",
+        "Ruofei Zhu",
+        "Wenyuan Xu",
+        "Jiaze Chen",
+        "Chengyi Wang",
+        "TianTian Fan",
+        "Zhengyin Du",
+        "Xiangpeng Wei",
+        "Gaohong Liu",
+        "Juncai Liu",
+        "Lingjun Liu",
+        "Haibin Lin",
+        "Zhiqi Lin",
+        "Bole Ma",
+        "Chi Zhang",
+        "Mofan Zhang",
+        "Wang Zhang",
+        "Hang Zhu",
+        "Ru Zhang",
+        "Xin Liu",
+        "Mingxuan Wang",
+        "Yonghui Wu",
+        "Lin Yan"
+      ],
+      "upvotes": 27,
+      "github": null,
+      "published": "2025-04-07T14:21:11.000Z"
+    },
+    {
+      "id": "2504.03151",
+      "title": "Why Reasoning Matters? A Survey of Advancements in Multimodal Reasoning (v1)",
+      "authors": [
+        "Jing Bi",
+        "Susan Liang",
+        "Xiaofei Zhou",
+        "Pinxin Liu",
+        "Junjia Guo",
+        "Yunlong Tang",
+        "Luchuan Song",
+        "Chao Huang",
+        "Guangyu Sun",
+        "Jinxi He",
+        "Jiarui Wu",
+        "Shu Yang",
+        "Daoan Zhang",
+        "Chen Chen",
+        "Lianggong Bruce Wen",
+        "Zhang Liu",
+        "Jiebo Luo",
+        "Chenliang Xu"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2025-04-04T04:04:56.000Z"
+    },
+    {
+      "id": "2504.05288",
+      "title": "LiveVQA: Live Visual Knowledge Seeking",
+      "authors": [
+        "Mingyang Fu",
+        "Yuyang Peng",
+        "Benlin Liu",
+        "Yao Wan",
+        "Dongping Chen"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/fumingyang2004/LIVEVQA",
+      "published": "2025-04-07T17:39:31.000Z"
+    },
+    {
+      "id": "2504.02828",
+      "title": "Concept Lancet: Image Editing with Compositional Representation Transplant",
+      "authors": [
+        "Jinqi Luo",
+        "Tianjiao Ding",
+        "Kwan Ho Ryan Chan",
+        "Hancheng Min",
+        "Chris Callison-Burch",
+        "René Vidal"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/peterljq/Concept-Lancet",
+      "published": "2025-04-03T17:59:58.000Z"
+    },
+    {
+      "id": "2504.04715",
+      "title": "Are You Getting What You Pay For? Auditing Model Substitution in LLM APIs",
+      "authors": [
+        "Will Cai",
+        "Tianneng Shi",
+        "Xuandong Zhao",
+        "Dawn Song"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/sunblaze-ucb/llm-api-audit",
+      "published": "2025-04-07T03:57:41.000Z"
+    },
+    {
+      "id": "2504.05304",
+      "title": "Gaussian Mixture Flow Matching Models",
+      "authors": [
+        "Hansheng Chen",
+        "Kai Zhang",
+        "Hao Tan",
+        "Zexiang Xu",
+        "Fujun Luan",
+        "Leonidas Guibas",
+        "Gordon Wetzstein",
+        "Sai Bi"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/Lakonik/GMFlow",
+      "published": "2025-04-07T17:59:42.000Z"
+    },
+    {
+      "id": "2504.02882",
+      "title": "DiaTool-DPO: Multi-Turn Direct Preference Optimization for Tool-Augmented Large Language Models",
+      "authors": [
+        "Sunghee Jung",
+        "Donghun Lee",
+        "Shinbok Lee",
+        "Gaeun Seo",
+        "Daniel Lee",
+        "Byeongil Ko",
+        "Junrae Cho",
+        "Kihyun Kim",
+        "Eunggyun Kim",
+        "Myeongcheol Shin"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/kakao/diatool-dpo",
+      "published": "2025-04-02T05:47:28.000Z"
+    },
+    {
+      "id": "2504.02812",
+      "title": "BOP Challenge 2024 on Model-Based and Model-Free 6D Object Pose Estimation",
+      "authors": [
+        "Van Nguyen Nguyen",
+        "Stephen Tyree",
+        "Andrew Guo",
+        "Mederic Fourmy",
+        "Anas Gouda",
+        "Taeyeop Lee",
+        "Sungphill Moon",
+        "Hyeontae Son",
+        "Lukas Ranftl",
+        "Jonathan Tremblay",
+        "Eric Brachmann",
+        "Bertram Drost",
+        "Vincent Lepetit",
+        "Carsten Rother",
+        "Stan Birchfield",
+        "Jiri Matas",
+        "Yann Labbe",
+        "Martin Sundermeyer",
+        "Tomas Hodan"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/thodan/bop_toolkit",
+      "published": "2025-04-03T17:55:19.000Z"
+    },
+    {
+      "id": "2504.03875",
+      "title": "3D Scene Understanding Through Local Random Access Sequence Modeling",
+      "authors": [
+        "Wanhee Lee",
+        "Klemen Kotar",
+        "Rahul Mysore Venkatesh",
+        "Jared Watrous",
+        "Honglin Chen",
+        "Khai Loong Aw",
+        "Daniel L. K. Yamins"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/neuroailab/lras_3d",
+      "published": "2025-04-04T18:59:41.000Z"
+    },
+    {
+      "id": "2504.03947",
+      "title": "Distillation and Refinement of Reasoning in Small Language Models for Document Re-ranking",
+      "authors": [
+        "Chris Samarinas",
+        "Hamed Zamani"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/algoprog/InteRank",
+      "published": "2025-04-04T21:27:48.000Z"
+    },
+    {
+      "id": "2504.03964",
+      "title": "Clinical ModernBERT: An efficient and long context encoder for biomedical text",
+      "authors": [
+        "Simon A. Lee",
+        "Anthony Wu",
+        "Jeffrey N. Chiang"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/Simonlee711/Clinical_ModernBERT",
+      "published": "2025-04-04T22:14:12.000Z"
+    },
+    {
+      "id": "2504.03790",
+      "title": "Sample, Don't Search: Rethinking Test-Time Alignment for Language Models",
+      "authors": [
+        "Gonçalo Faria",
+        "Noah A. Smith"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/goncalorafaria/qalign",
+      "published": "2025-04-04T00:41:40.000Z"
+    },
+    {
+      "id": "2504.03193",
+      "title": "Mamba as a Bridge: Where Vision Foundation Models Meet Vision Language Models for Domain-Generalized Semantic Segmentation",
+      "authors": [
+        "Xin Zhang",
+        "Robby T. Tan"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/devinxzhang/MFuser",
+      "published": "2025-04-04T05:44:45.000Z"
+    },
+    {
+      "id": "2504.03770",
+      "title": "JailDAM: Jailbreak Detection with Adaptive Memory for Vision-Language Model",
+      "authors": [
+        "Yi Nian",
+        "Shenzhe Zhu",
+        "Yuehan Qin",
+        "Li Li",
+        "Ziyi Wang",
+        "Chaowei Xiao",
+        "Yue Zhao"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/ShenzheZhu/JailDAM",
+      "published": "2025-04-03T05:00:28.000Z"
+    },
+    {
+      "id": "2504.04152",
+      "title": "Rethinking Multilingual Continual Pretraining: Data Mixing for Adapting LLMs Across Languages and Resources",
+      "authors": [
+        "Zihao Li",
+        "Shaoxiong Ji",
+        "Hengyu Luo",
+        "Jörg Tiedemann"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2025-04-05T12:10:55.000Z"
+    },
+    {
+      "id": "2504.04155",
+      "title": "GlotEval: A Test Suite for Massively Multilingual Evaluation of Large Language Models",
+      "authors": [
+        "Hengyu Luo",
+        "Zihao Li",
+        "Joseph Attieh",
+        "Sawal Devkota",
+        "Ona de Gibert",
+        "Shaoxiong Ji",
+        "Peiqin Lin",
+        "Bhavani Sai Praneeth Varma Mantina",
+        "Ananda Sreenidhi",
+        "Raúl Vázquez",
+        "Mengjie Wang",
+        "Samea Yusofi",
+        "Jörg Tiedemann"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/MaLA-LM/GlotEval",
+      "published": "2025-04-05T12:30:58.000Z"
+    }
+  ]
+}

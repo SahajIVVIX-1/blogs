@@ -1,0 +1,420 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-08-23",
+  "fetched_at": "2026-10-29T15:28:50.086Z",
+  "candidates": [
+    {
+      "id": "2408.12569",
+      "title": "Sapiens: Foundation for Human Vision Models",
+      "authors": [
+        "Rawal Khirodkar",
+        "Timur Bagautdinov",
+        "Julieta Martinez",
+        "Su Zhaoen",
+        "Austin James",
+        "Peter Selednik",
+        "Stuart Anderson",
+        "Shunsuke Saito"
+      ],
+      "upvotes": 93,
+      "github": null,
+      "published": "2024-08-22T17:37:27.000Z"
+    },
+    {
+      "id": "2408.12599",
+      "title": "Controllable Text Generation for Large Language Models: A Survey",
+      "authors": [
+        "Xun Liang",
+        "Hanyu Wang",
+        "Yezhaohui Wang",
+        "Shichao Song",
+        "Jiawei Yang",
+        "Simin Niu",
+        "Jie Hu",
+        "Dan Liu",
+        "Shunyu Yao",
+        "Feiyu Xiong",
+        "Zhiyu Li"
+      ],
+      "upvotes": 65,
+      "github": "https://github.com/iaar-shanghai/ctgsurvey",
+      "published": "2024-08-22T17:59:04.000Z"
+    },
+    {
+      "id": "2408.11878",
+      "title": "Open-FinLLMs: Open Multimodal Large Language Models for Financial Applications",
+      "authors": [
+        "Qianqian Xie",
+        "Dong Li",
+        "Mengxi Xiao",
+        "Zihao Jiang",
+        "Ruoyu Xiang",
+        "Xiao Zhang",
+        "Zhengyu Chen",
+        "Yueru He",
+        "Weiguang Han",
+        "Yuzhe Yang",
+        "Shunian Chen",
+        "Yifei Zhang",
+        "Lihang Shen",
+        "Daniel Kim",
+        "Zhiwei Liu",
+        "Zheheng Luo",
+        "Yangyang Yu",
+        "Yupeng Cao",
+        "Zhiyang Deng",
+        "Zhiyuan Yao",
+        "Haohang Li",
+        "Duanyu Feng",
+        "Yongfu Dai",
+        "VijayaSai Somasundaram",
+        "Peng Lu",
+        "Yilun Zhao",
+        "Yitao Long",
+        "Guojun Xiong",
+        "Kaleb Smith",
+        "Honghai Yu",
+        "Yanzhao Lai",
+        "Min Peng",
+        "Jianyun Nie",
+        "Jordan W. Suchow",
+        "Xiao-Yang Liu",
+        "Benyou Wang",
+        "Alejandro Lopez-Lira",
+        "Jimin Huang",
+        "Sophia Ananiadou"
+      ],
+      "upvotes": 64,
+      "github": null,
+      "published": "2024-08-20T16:15:28.000Z"
+    },
+    {
+      "id": "2408.11857",
+      "title": "Hermes 3 Technical Report",
+      "authors": [
+        "Ryan Teknium",
+        "Jeffrey Quesnelle",
+        "Chen Guang"
+      ],
+      "upvotes": 59,
+      "github": null,
+      "published": "2024-08-15T20:17:33.000Z"
+    },
+    {
+      "id": "2408.12528",
+      "title": "Show-o: One Single Transformer to Unify Multimodal Understanding and Generation",
+      "authors": [
+        "Jinheng Xie",
+        "Weijia Mao",
+        "Zechen Bai",
+        "David Junhao Zhang",
+        "Weihao Wang",
+        "Kevin Qinghong Lin",
+        "Yuchao Gu",
+        "Zhijie Chen",
+        "Zhenheng Yang",
+        "Mike Zheng Shou"
+      ],
+      "upvotes": 51,
+      "github": "https://github.com/showlab/show-o",
+      "published": "2024-08-22T16:32:32.000Z"
+    },
+    {
+      "id": "2408.12590",
+      "title": "xGen-VideoSyn-1: High-fidelity Text-to-Video Synthesis with Compressed Representations",
+      "authors": [
+        "Can Qin",
+        "Congying Xia",
+        "Krithika Ramakrishnan",
+        "Michael Ryoo",
+        "Lifu Tu",
+        "Yihao Feng",
+        "Manli Shu",
+        "Honglu Zhou",
+        "Anas Awadalla",
+        "Jun Wang",
+        "Senthil Purushwalkam",
+        "Le Xue",
+        "Yingbo Zhou",
+        "Huan Wang",
+        "Silvio Savarese",
+        "Juan Carlos Niebles",
+        "Zeyuan Chen",
+        "Ran Xu",
+        "Caiming Xiong"
+      ],
+      "upvotes": 35,
+      "github": null,
+      "published": "2024-08-22T17:55:22.000Z"
+    },
+    {
+      "id": "2408.12570",
+      "title": "Jamba-1.5: Hybrid Transformer-Mamba Models at Scale",
+      "authors": [
+        "Jamba Team",
+        "Barak Lenz",
+        "Alan Arazi",
+        "Amir Bergman",
+        "Avshalom Manevich",
+        "Barak Peleg",
+        "Ben Aviram",
+        "Chen Almagor",
+        "Clara Fridman",
+        "Dan Padnos",
+        "Daniel Gissin",
+        "Daniel Jannai",
+        "Dor Muhlgay",
+        "Dor Zimberg",
+        "Edden M Gerber",
+        "Elad Dolev",
+        "Eran Krakovsky",
+        "Erez Safahi",
+        "Erez Schwartz",
+        "Gal Cohen",
+        "Gal Shachaf",
+        "Haim Rozenblum",
+        "Hofit Bata",
+        "Ido Blass",
+        "Inbal Magar",
+        "Itay Dalmedigos",
+        "Jhonathan Osin",
+        "Julie Fadlon",
+        "Maria Rozman",
+        "Matan Danos",
+        "Michael Gokhman",
+        "Mor Zusman",
+        "Naama Gidron",
+        "Nir Ratner",
+        "Noam Gat",
+        "Noam Rozen",
+        "Oded Fried",
+        "Ohad Leshno",
+        "Omer Antverg",
+        "Omri Abend",
+        "Opher Lieber",
+        "Or Dagan",
+        "Orit Cohavi",
+        "Raz Alon",
+        "Ro'i Belson",
+        "Roi Cohen",
+        "Rom Gilad",
+        "Roman Glozman",
+        "Shahar Lev",
+        "Shaked Meirom",
+        "Tal Delbari",
+        "Tal Ness",
+        "Tomer Asida",
+        "Tom Ben Gal",
+        "Tom Braude",
+        "Uriya Pumerantz",
+        "Yehoshua Cohen",
+        "Yonatan Belinkov",
+        "Yuval Globerson",
+        "Yuval Peleg Levy",
+        "Yoav Shoham"
+      ],
+      "upvotes": 33,
+      "github": null,
+      "published": "2024-08-22T17:38:59.000Z"
+    },
+    {
+      "id": "2408.12601",
+      "title": "DreamCinema: Cinematic Transfer with Free Camera and 3D Character",
+      "authors": [
+        "Weiliang Chen",
+        "Fangfu Liu",
+        "Diankun Wu",
+        "Haowen Sun",
+        "Haixu Song",
+        "Yueqi Duan"
+      ],
+      "upvotes": 32,
+      "github": null,
+      "published": "2024-08-22T17:59:44.000Z"
+    },
+    {
+      "id": "2408.12480",
+      "title": "Vintern-1B: An Efficient Multimodal Large Language Model for Vietnamese",
+      "authors": [
+        "Khang T. Doan",
+        "Bao G. Huynh",
+        "Dung T. Hoang",
+        "Thuc D. Pham",
+        "Nhat H. Pham",
+        "Quan T. M. Nguyen",
+        "Bang Q. Vo",
+        "Suong N. Hoang"
+      ],
+      "upvotes": 30,
+      "github": null,
+      "published": "2024-08-22T15:15:51.000Z"
+    },
+    {
+      "id": "2408.12503",
+      "title": "The Russian-focused embedders' exploration: ruMTEB benchmark and Russian embedding model design",
+      "authors": [
+        "Artem Snegirev",
+        "Maria Tikhonova",
+        "Anna Maksimova",
+        "Alena Fenogenova",
+        "Alexander Abramov"
+      ],
+      "upvotes": 29,
+      "github": null,
+      "published": "2024-08-22T15:53:23.000Z"
+    },
+    {
+      "id": "2408.12245",
+      "title": "Scalable Autoregressive Image Generation with Mamba",
+      "authors": [
+        "Haopeng Li",
+        "Jinyue Yang",
+        "Kexin Wang",
+        "Xuerui Qiu",
+        "Yuhong Chou",
+        "Xin Li",
+        "Guoqi Li"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/hp-l33/aim",
+      "published": "2024-08-22T09:27:49.000Z"
+    },
+    {
+      "id": "2408.12588",
+      "title": "Real-Time Video Generation with Pyramid Attention Broadcast",
+      "authors": [
+        "Xuanlei Zhao",
+        "Xiaolong Jin",
+        "Kai Wang",
+        "Yang You"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/nus-hpc-ai-lab/opendit",
+      "published": "2024-08-22T17:54:21.000Z"
+    },
+    {
+      "id": "2408.12114",
+      "title": "SPARK: Multi-Vision Sensor Perception and Reasoning Benchmark for Large-scale Vision-Language Models",
+      "authors": [
+        "Youngjoon Yu",
+        "Sangyun Chung",
+        "Byung-Kwan Lee",
+        "Yong Man Ro"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/top-yun/spark",
+      "published": "2024-08-22T03:59:48.000Z"
+    },
+    {
+      "id": "2408.10635",
+      "title": "Strategist: Learning Strategic Skills by LLMs via Bi-Level Tree Search",
+      "authors": [
+        "Jonathan Light",
+        "Min Cai",
+        "Weiqin Chen",
+        "Guanzhi Wang",
+        "Xiusi Chen",
+        "Wei Cheng",
+        "Yisong Yue",
+        "Ziniu Hu"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2024-08-20T08:22:04.000Z"
+    },
+    {
+      "id": "2408.12076",
+      "title": "ConflictBank: A Benchmark for Evaluating the Influence of Knowledge Conflicts in LLM",
+      "authors": [
+        "Zhaochen Su",
+        "Jun Zhang",
+        "Xiaoye Qu",
+        "Tong Zhu",
+        "Yanshu Li",
+        "Jiashuo Sun",
+        "Juntao Li",
+        "Min Zhang",
+        "Yu Cheng"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/zhaochen0110/conflictbank",
+      "published": "2024-08-22T02:33:13.000Z"
+    },
+    {
+      "id": "2408.11813",
+      "title": "SEA: Supervised Embedding Alignment for Token-Level Visual-Textual Integration in MLLMs",
+      "authors": [
+        "Yuanyang Yin",
+        "Yaqi Zhao",
+        "Yajie Zhang",
+        "Ke Lin",
+        "Jiahao Wang",
+        "Xin Tao",
+        "Pengfei Wan",
+        "Di Zhang",
+        "Baoqun Yin",
+        "Wentao Zhang"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2024-08-21T17:58:02.000Z"
+    },
+    {
+      "id": "2408.09787",
+      "title": "Anim-Director: A Large Multimodal Model Powered Agent for Controllable Animation Video Generation",
+      "authors": [
+        "Yunxin Li",
+        "Haoyuan Shi",
+        "Baotian Hu",
+        "Longyue Wang",
+        "Jiashun Zhu",
+        "Jinyi Xu",
+        "Zhen Zhao",
+        "Min Zhang"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2024-08-19T08:27:31.000Z"
+    },
+    {
+      "id": "2408.11915",
+      "title": "Video-Foley: Two-Stage Video-To-Sound Generation via Temporal Event Condition For Foley Sound",
+      "authors": [
+        "Junwon Lee",
+        "Jaekwon Im",
+        "Dabin Kim",
+        "Juhan Nam"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/jnwnlee/video-foley",
+      "published": "2024-08-21T18:06:15.000Z"
+    },
+    {
+      "id": "2408.12282",
+      "title": "Subsurface Scattering for 3D Gaussian Splatting",
+      "authors": [
+        "Jan-Niklas Dihlmann",
+        "Arjun Majumdar",
+        "Andreas Engelhardt",
+        "Raphael Braun",
+        "Hendrik P. A. Lensch"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2024-08-22T10:34:01.000Z"
+    },
+    {
+      "id": "2408.12060",
+      "title": "Evidence-backed Fact Checking using RAG and Few-Shot In-Context Learning with LLMs",
+      "authors": [
+        "Ronit Singhal",
+        "Pransh Patwa",
+        "Parth Patwa",
+        "Aman Chadha",
+        "Amitava Das"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/ronit-singhal/evidence-backed-fact-checking-using-rag-and-few-shot-in-context-learning-with-llms",
+      "published": "2024-08-22T01:42:34.000Z"
+    }
+  ]
+}

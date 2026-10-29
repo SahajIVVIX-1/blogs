@@ -1,0 +1,428 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-08-13",
+  "fetched_at": "2026-10-29T15:36:32.194Z",
+  "candidates": [
+    {
+      "id": "2608.00677",
+      "title": "OpenART: Scaling Agent Red Teaming via Open-Ended Environment Evolution",
+      "authors": [
+        "Yunhao Chen",
+        "Xin Wang",
+        "Yixu Wang",
+        "Yi Liu",
+        "Jie Li",
+        "Yan Teng",
+        "Xingjun Ma",
+        "Xia Hu",
+        "Yu-Gang Jiang"
+      ],
+      "upvotes": 195,
+      "github": "https://github.com/AI45Lab/OpenART",
+      "published": "2026-08-01T00:00:00.000Z"
+    },
+    {
+      "id": "2608.11924",
+      "title": "Spark-to-Paper: End-to-End Research Paper Generation as a Composable Skill",
+      "authors": [
+        "Zhuoyang Qian",
+        "Biao Wu",
+        "Yiran Wang",
+        "Chris D Yan",
+        "Desan Dai",
+        "Liangwei Zheng",
+        "Jin Jiang",
+        "Junsheng Zhang",
+        "Wenhao Wang"
+      ],
+      "upvotes": 187,
+      "github": "https://github.com/Spark-To-Paper-Skills/spark-to-paper-skills",
+      "published": "2026-08-12T00:00:00.000Z"
+    },
+    {
+      "id": "2608.12307",
+      "title": "AI4AI at Test-Time: Strong-to-Weak Capability Transfer via Harnesses",
+      "authors": [
+        "Cheng Qian",
+        "Wenting Zhao",
+        "Liangwei Yang",
+        "Heng Wang",
+        "Jielin Qiu",
+        "Heng Ji",
+        "Silvio Savarese",
+        "Huan Wang",
+        "Shelby Heinecke"
+      ],
+      "upvotes": 120,
+      "github": null,
+      "published": "2026-08-12T00:00:00.000Z"
+    },
+    {
+      "id": "2608.12036",
+      "title": "Mechanist: AI as a Scientific Instrument for Discovering the Mechanisms of Intelligence",
+      "authors": [
+        "Mengru Wang",
+        "Junfeng Fang",
+        "Shuofei Qiao",
+        "Zhenqian Xu",
+        "Haoming Xu",
+        "Haoxiong Wang",
+        "Shumin Deng",
+        "Linyi Yang",
+        "Zhixiang Cui",
+        "Xin Xu",
+        "Yunzhi Yao",
+        "Buqiang Xu",
+        "Fei Shen",
+        "Haozhe Luo",
+        "Yunxiang Wei",
+        "Ningyu Zhang",
+        "Julian McAuley",
+        "Tat Seng Chua",
+        "Huajun Chen"
+      ],
+      "upvotes": 90,
+      "github": "https://github.com/zjunlp/Mechanist",
+      "published": "2026-08-12T00:00:00.000Z"
+    },
+    {
+      "id": "2608.05604",
+      "title": "SkillZip: Contract-Preserving Graph Compression for Scalable Agent Skill Libraries",
+      "authors": [
+        "Xingyu Tan",
+        "Xiaoyang Wang",
+        "Qing Liu",
+        "Xiwei Xu",
+        "Xin Yuan",
+        "Liming Zhu",
+        "Wenjie Zhang"
+      ],
+      "upvotes": 59,
+      "github": null,
+      "published": "2026-08-06T00:00:00.000Z"
+    },
+    {
+      "id": "2608.12314",
+      "title": "StateFlow: Building, Evolving, and Accessing 3D World States for Previsualization",
+      "authors": [
+        "Yuyang Yin",
+        "Zixiang Li",
+        "Longxuan Deng",
+        "Hongkai Li",
+        "Shifang Zhao",
+        "Junnan Liu",
+        "Weirong Huang",
+        "Mengyu Wang",
+        "Tianxiao Fu",
+        "Yikai Wang",
+        "Peng-Shuai Wang",
+        "Xiaojie Jin",
+        "Yao Zhao",
+        "Yunchao Wei"
+      ],
+      "upvotes": 28,
+      "github": null,
+      "published": "2026-08-12T00:00:00.000Z"
+    },
+    {
+      "id": "2608.08160",
+      "title": "Can LLM Agents Stick to the Script? A Benchmark for Long-Horizon Consistency in Interactive Narratives",
+      "authors": [
+        "Yingpeng Ma",
+        "Jianhao Yan",
+        "Bei Shi",
+        "Ka Hou Kam",
+        "Runnan Wang",
+        "Xuebo Liu",
+        "Yulong Chen",
+        "Yue Zhang",
+        "Derek F. Wong"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/yingpengma/NCP-Bench",
+      "published": "2026-08-08T00:00:00.000Z"
+    },
+    {
+      "id": "2608.11350",
+      "title": "Self-Evolving Embodied Agents via Skill-Harness Evolution",
+      "authors": [
+        "Peidong Wang",
+        "Zhiming Ma",
+        "Ying Chang",
+        "Xufang Luo",
+        "Xiaocui Yang",
+        "Shi Feng",
+        "Yuqing Yang",
+        "Dongsheng Li"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2026-08-11T00:00:00.000Z"
+    },
+    {
+      "id": "2608.10708",
+      "title": "Self-Geometry: GT-Free and Plug-and-Play Test-Time Adaptation for Geometrically Consistent 3D Vision Foundation Models",
+      "authors": [
+        "Seokhyun Youn",
+        "Dahyeon Kye",
+        "Sung-Ho Bae",
+        "Jihyong Oh"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/CMLab-Korea/Self-Geometry",
+      "published": "2026-08-11T00:00:00.000Z"
+    },
+    {
+      "id": "2608.09926",
+      "title": "Learning How the World Evolves: Extrapolative Video World Models via Latent Dynamics Reasoning",
+      "authors": [
+        "Haodong Li",
+        "Shaoteng Liu",
+        "Tianyu Wang",
+        "Chongjian Ge",
+        "Sihui Ji",
+        "Jiahan Zhang",
+        "Xin Lin",
+        "Haolin Lu",
+        "Zhe Lin",
+        "Manmohan Chandraker"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/adobe-research/LDR",
+      "published": "2026-08-10T00:00:00.000Z"
+    },
+    {
+      "id": "2608.11216",
+      "title": "AutoWorldModel-Bench: A State-Centric Benchmark for Automated World-Model Research",
+      "authors": [
+        "Marjan Moodi",
+        "Xuankang Zhu",
+        "Fernando De Mesentier Silva",
+        "Harold Chaput",
+        "Mohammad Reza Taesiri"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2026-07-20T00:00:00.000Z"
+    },
+    {
+      "id": "2608.11878",
+      "title": "ToolHazard: Scaling Adversarial Environments for Security Evaluation and Alignment of LLM-based Agents",
+      "authors": [
+        "Yutao Mou",
+        "Pengfei Yang",
+        "Zhe Yin",
+        "Zhangchi Xue",
+        "Xiaotian Luan",
+        "Dingyao Yu",
+        "Tong Zhang",
+        "Shikun Zhang",
+        "Wei Ye"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/MurrayTom/ToolHazard",
+      "published": "2026-08-12T00:00:00.000Z"
+    },
+    {
+      "id": "2608.11562",
+      "title": "From Synthesis to Removal: Physics-Grounded Reflection Simulation and Diffusion-Based Video Dereflection",
+      "authors": [
+        "Zepeng Wang",
+        "Jiagao Hu",
+        "Fuhao Li",
+        "Yuxuan Chen",
+        "Fei Wang",
+        "Daiguo Zhou"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2026-08-12T00:00:00.000Z"
+    },
+    {
+      "id": "2608.09805",
+      "title": "Parameter Exploration for RLVR via Variational Learning",
+      "authors": [
+        "Vatsal Venkatkrishna",
+        "Nico Daheim",
+        "Iryna Gurevych"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/insait-institute/C3PO",
+      "published": "2026-08-10T16:28:07.000Z"
+    },
+    {
+      "id": "2608.10450",
+      "title": "Persistent Recursive Worlds Enable Autonomous Software Evolution",
+      "authors": [
+        "Beichen Huang",
+        "Zhenyu Liang",
+        "Bowen Zheng",
+        "Ran Cheng"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/EMI-Group/genesis",
+      "published": "2026-08-12T00:00:00.000Z"
+    },
+    {
+      "id": "2608.11215",
+      "title": "Poor Man's Agentic Modeling: Simulating Large LLM-Agent Societies on a Laptop",
+      "authors": [
+        "Igor Itkin"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/YehudaItkin/poor-mans-agentic-modeling",
+      "published": "2026-07-19T00:00:00.000Z"
+    },
+    {
+      "id": "2608.10615",
+      "title": "Simplex Relaxation for Discrete Diffusion",
+      "authors": [
+        "Jinya Sakurai",
+        "Patrick Pynadath",
+        "Satoshi Hayakawa",
+        "Jaehong Yoon",
+        "Xulei Yang",
+        "Nancy F. Chen",
+        "Xun Xu"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2026-08-11T00:00:00.000Z"
+    },
+    {
+      "id": "2608.06270",
+      "title": "The Illusion of Visual Tool-Use: A Causal Audit of Thinking with Images",
+      "authors": [
+        "Zhiheng Wang",
+        "Bo Peng",
+        "Lai Wei",
+        "Chaochao Lu"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/OpenCausaLab/CauAudit",
+      "published": "2026-08-06T00:00:00.000Z"
+    },
+    {
+      "id": "2608.11616",
+      "title": "MBA: Multimodal Benchmark and Agents for Real-World Business Ideation",
+      "authors": [
+        "Hojun Choi",
+        "Jaeyo Shin",
+        "Suin Lee",
+        "Hyunjung Shim"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/hchoi256/MBA",
+      "published": "2026-08-12T00:00:00.000Z"
+    },
+    {
+      "id": "2608.11367",
+      "title": "Gaze Target Estimation Anywhere with Concepts",
+      "authors": [
+        "Xu Cao",
+        "Houze Yang",
+        "Vipin Gunda",
+        "Zhongyi Zhou",
+        "Tianyu Xu",
+        "Adarsh Kowdle",
+        "Inki Kim",
+        "James M. Rehg"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/IrohXu/GazeAnywhere",
+      "published": "2026-08-11T00:00:00.000Z"
+    },
+    {
+      "id": "2608.11274",
+      "title": "Agent Safety Should Be a Runtime Contract",
+      "authors": [
+        "Albus W. Ng",
+        "Yi Han",
+        "Jusheng Zhang",
+        "Wenhao Wang"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2026-08-11T00:00:00.000Z"
+    },
+    {
+      "id": "2608.06729",
+      "title": "AtlasVLA: Persistent World-Ego State Modeling for Vision-Language-Action Models",
+      "authors": [
+        "Guiyu Zhao",
+        "Longteng Guo",
+        "Yanghong Mei",
+        "Zilin Zhu",
+        "Yu Zhang",
+        "Bin Cao",
+        "Mingming Yu",
+        "Xingjian He",
+        "Jie Jiang",
+        "Jing Liu"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-08-07T00:00:00.000Z"
+    },
+    {
+      "id": "2608.08107",
+      "title": "NeuPAT: Neuron-aware Plasticity Allocation Tuning for Language-Preserving MLLMs",
+      "authors": [
+        "Jiayue Jin",
+        "Jingwei Zhang",
+        "Chen Wang",
+        "Jing Liu",
+        "Longteng Guo"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-08-08T00:00:00.000Z"
+    },
+    {
+      "id": "2608.12836",
+      "title": "From Atomic Evidence to Logical Composition: Structured Compositional Reasoning over Compound Answer Options",
+      "authors": [
+        "Obed Junias",
+        "Maria Leonor Pacheco"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/obedjunias19/structured-compositional-reasoning",
+      "published": "2026-08-13T00:00:00.000Z"
+    },
+    {
+      "id": "2608.11045",
+      "title": "ReRound: Reconstructive Rounding to Resolve Midpoint Ambiguity in Calibration-Free LLM Quantization",
+      "authors": [
+        "He-Yen Hsieh",
+        "H. T. Kung"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/louisYen/ReRound",
+      "published": "2026-08-11T00:00:00.000Z"
+    },
+    {
+      "id": "2608.12123",
+      "title": "Ready Cohorts: Bounding GPU Opportunity and Avoiding Host Round Trips in LLM-Agent Control",
+      "authors": [
+        "Josef Liyanjun Chen"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/josefchen/ready-cohorts",
+      "published": "2026-08-12T00:00:00.000Z"
+    },
+    {
+      "id": "2608.11574",
+      "title": "Hand Visibility Detector: Per-Keypoint Visibility Estimation for Hands",
+      "authors": [
+        "Ryosei Hara",
+        "Masashi Hatano",
+        "Rintaro Yanagi",
+        "Atsushi Hashimoto",
+        "Takuma Yagi",
+        "Mariko Isogawa"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/ryhara/hand_visibility_detector",
+      "published": "2026-08-12T00:00:00.000Z"
+    }
+  ]
+}

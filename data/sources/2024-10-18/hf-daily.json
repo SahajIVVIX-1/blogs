@@ -1,0 +1,704 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-10-18",
+  "fetched_at": "2026-10-29T15:29:24.155Z",
+  "candidates": [
+    {
+      "id": "2410.13720",
+      "title": "Movie Gen: A Cast of Media Foundation Models",
+      "authors": [
+        "Adam Polyak",
+        "Amit Zohar",
+        "Andrew Brown",
+        "Andros Tjandra",
+        "Animesh Sinha",
+        "Ann Lee",
+        "Apoorv Vyas",
+        "Bowen Shi",
+        "Chih-Yao Ma",
+        "Ching-Yao Chuang",
+        "David Yan",
+        "Dhruv Choudhary",
+        "Dingkang Wang",
+        "Geet Sethi",
+        "Guan Pang",
+        "Haoyu Ma",
+        "Ishan Misra",
+        "Ji Hou",
+        "Jialiang Wang",
+        "Kiran Jagadeesh",
+        "Kunpeng Li",
+        "Luxin Zhang",
+        "Mannat Singh",
+        "Mary Williamson",
+        "Matt Le",
+        "Matthew Yu",
+        "Mitesh Kumar Singh",
+        "Peizhao Zhang",
+        "Peter Vajda",
+        "Quentin Duval",
+        "Rohit Girdhar",
+        "Roshan Sumbaly",
+        "Sai Saketh Rambhatla",
+        "Sam Tsai",
+        "Samaneh Azadi",
+        "Samyak Datta",
+        "Sanyuan Chen",
+        "Sean Bell",
+        "Sharadh Ramaswamy",
+        "Shelly Sheynin",
+        "Siddharth Bhattacharya",
+        "Simran Motwani",
+        "Tao Xu",
+        "Tianhe Li",
+        "Tingbo Hou",
+        "Wei-Ning Hsu",
+        "Xi Yin",
+        "Xiaoliang Dai",
+        "Yaniv Taigman",
+        "Yaqiao Luo",
+        "Yen-Cheng Liu",
+        "Yi-Chiao Wu",
+        "Yue Zhao",
+        "Yuval Kirstain",
+        "Zecheng He",
+        "Zijian He",
+        "Albert Pumarola",
+        "Ali Thabet",
+        "Artsiom Sanakoyeu",
+        "Arun Mallya",
+        "Baishan Guo",
+        "Boris Araya",
+        "Breena Kerr",
+        "Carleigh Wood",
+        "Ce Liu",
+        "Cen Peng",
+        "Dimitry Vengertsev",
+        "Edgar Schonfeld",
+        "Elliot Blanchard",
+        "Felix Juefei-Xu",
+        "Fraylie Nord",
+        "Jeff Liang",
+        "John Hoffman",
+        "Jonas Kohler",
+        "Kaolin Fire",
+        "Karthik Sivakumar",
+        "Lawrence Chen",
+        "Licheng Yu",
+        "Luya Gao",
+        "Markos Georgopoulos",
+        "Rashel Moritz",
+        "Sara K. Sampson",
+        "Shikai Li",
+        "Simone Parmeggiani",
+        "Steve Fine",
+        "Tara Fowler",
+        "Vladan Petrovic",
+        "Yuming Du"
+      ],
+      "upvotes": 100,
+      "github": "https://github.com/facebookresearch/moviegenbench",
+      "published": "2024-10-17T16:22:46.000Z"
+    },
+    {
+      "id": "2410.13754",
+      "title": "MixEval-X: Any-to-Any Evaluations from Real-World Data Mixtures",
+      "authors": [
+        "Jinjie Ni",
+        "Yifan Song",
+        "Deepanway Ghosal",
+        "Bo Li",
+        "David Junhao Zhang",
+        "Xiang Yue",
+        "Fuzhao Xue",
+        "Zian Zheng",
+        "Kaichen Zhang",
+        "Mahir Shah",
+        "Kabir Jain",
+        "Yang You",
+        "Michael Shieh"
+      ],
+      "upvotes": 76,
+      "github": null,
+      "published": "2024-10-17T16:52:28.000Z"
+    },
+    {
+      "id": "2410.12784",
+      "title": "JudgeBench: A Benchmark for Evaluating LLM-based Judges",
+      "authors": [
+        "Sijun Tan",
+        "Siyuan Zhuang",
+        "Kyle Montgomery",
+        "William Y. Tang",
+        "Alejandro Cuadron",
+        "Chenguang Wang",
+        "Raluca Ada Popa",
+        "Ion Stoica"
+      ],
+      "upvotes": 47,
+      "github": "https://github.com/ScalerLab/JudgeBench",
+      "published": "2024-10-16T17:58:19.000Z"
+    },
+    {
+      "id": "2410.13848",
+      "title": "Janus: Decoupling Visual Encoding for Unified Multimodal Understanding and Generation",
+      "authors": [
+        "Chengyue Wu",
+        "Xiaokang Chen",
+        "Zhiyu Wu",
+        "Yiyang Ma",
+        "Xingchao Liu",
+        "Zizheng Pan",
+        "Wen Liu",
+        "Zhenda Xie",
+        "Xingkai Yu",
+        "Chong Ruan",
+        "Ping Luo"
+      ],
+      "upvotes": 38,
+      "github": null,
+      "published": "2024-10-17T17:58:37.000Z"
+    },
+    {
+      "id": "2410.13863",
+      "title": "Fluid: Scaling Autoregressive Text-to-image Generative Models with Continuous Tokens",
+      "authors": [
+        "Lijie Fan",
+        "Tianhong Li",
+        "Siyang Qin",
+        "Yuanzhen Li",
+        "Chen Sun",
+        "Michael Rubinstein",
+        "Deqing Sun",
+        "Kaiming He",
+        "Yonglong Tian"
+      ],
+      "upvotes": 37,
+      "github": null,
+      "published": "2024-10-17T17:59:59.000Z"
+    },
+    {
+      "id": "2410.13268",
+      "title": "Roadmap towards Superhuman Speech Understanding using Large Language Models",
+      "authors": [
+        "Fan Bu",
+        "Yuhao Zhang",
+        "Xidong Wang",
+        "Benyou Wang",
+        "Qun Liu",
+        "Haizhou Li"
+      ],
+      "upvotes": 33,
+      "github": null,
+      "published": "2024-10-17T06:44:06.000Z"
+    },
+    {
+      "id": "2410.13824",
+      "title": "Harnessing Webpage UIs for Text-Rich Visual Understanding",
+      "authors": [
+        "Junpeng Liu",
+        "Tianyue Ou",
+        "Yifan Song",
+        "Yuxiao Qu",
+        "Wai Lam",
+        "Chenyan Xiong",
+        "Wenhu Chen",
+        "Graham Neubig",
+        "Xiang Yue"
+      ],
+      "upvotes": 30,
+      "github": null,
+      "published": "2024-10-17T17:48:54.000Z"
+    },
+    {
+      "id": "2410.12705",
+      "title": "WorldCuisines: A Massive-Scale Benchmark for Multilingual and Multicultural Visual Question Answering on Global Cuisines",
+      "authors": [
+        "Genta Indra Winata",
+        "Frederikus Hudi",
+        "Patrick Amadeus Irawan",
+        "David Anugraha",
+        "Rifki Afina Putri",
+        "Yutong Wang",
+        "Adam Nohejl",
+        "Ubaidillah Ariq Prathama",
+        "Nedjma Ousidhoum",
+        "Afifa Amriani",
+        "Anar Rzayev",
+        "Anirban Das",
+        "Ashmari Pramodya",
+        "Aulia Adila",
+        "Bryan Wilie",
+        "Candy Olivia Mawalim",
+        "Ching Lam Cheng",
+        "Daud Abolade",
+        "Emmanuele Chersoni",
+        "Enrico Santus",
+        "Fariz Ikhwantri",
+        "Garry Kuwanto",
+        "Hanyang Zhao",
+        "Haryo Akbarianto Wibowo",
+        "Holy Lovenia",
+        "Jan Christian Blaise Cruz",
+        "Jan Wira Gotama Putra",
+        "Junho Myung",
+        "Lucky Susanto",
+        "Maria Angelica Riera Machin",
+        "Marina Zhukova",
+        "Michael Anugraha",
+        "Muhammad Farid Adilazuarda",
+        "Natasha Santosa",
+        "Peerat Limkonchotiwat",
+        "Raj Dabre",
+        "Rio Alexander Audino",
+        "Samuel Cahyawijaya",
+        "Shi-Xiong Zhang",
+        "Stephanie Yulia Salim",
+        "Yi Zhou",
+        "Yinxuan Gui",
+        "David Ifeoluwa Adelani",
+        "En-Shiun Annie Lee",
+        "Shogo Okada",
+        "Ayu Purwarianti",
+        "Alham Fikri Aji",
+        "Taro Watanabe",
+        "Derry Tanti Wijaya",
+        "Alice Oh",
+        "Chong-Wah Ngo"
+      ],
+      "upvotes": 29,
+      "github": "https://github.com/worldcuisines/worldcuisines",
+      "published": "2024-10-16T16:11:49.000Z"
+    },
+    {
+      "id": "2410.13830",
+      "title": "DreamVideo-2: Zero-Shot Subject-Driven Video Customization with Precise Motion Control",
+      "authors": [
+        "Yujie Wei",
+        "Shiwei Zhang",
+        "Hangjie Yuan",
+        "Xiang Wang",
+        "Haonan Qiu",
+        "Rui Zhao",
+        "Yutong Feng",
+        "Feng Liu",
+        "Zhizhong Huang",
+        "Jiaxin Ye",
+        "Yingya Zhang",
+        "Hongming Shan"
+      ],
+      "upvotes": 25,
+      "github": null,
+      "published": "2024-10-17T17:52:57.000Z"
+    },
+    {
+      "id": "2410.13085",
+      "title": "MMed-RAG: Versatile Multimodal RAG System for Medical Vision Language Models",
+      "authors": [
+        "Peng Xia",
+        "Kangyu Zhu",
+        "Haoran Li",
+        "Tianze Wang",
+        "Weijia Shi",
+        "Sheng Wang",
+        "Linjun Zhang",
+        "James Zou",
+        "Huaxiu Yao"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/richard-peng-xia/mmed-rag",
+      "published": "2024-10-16T23:03:27.000Z"
+    },
+    {
+      "id": "2410.13757",
+      "title": "MobA: A Two-Level Agent System for Efficient Mobile Task Automation",
+      "authors": [
+        "Zichen Zhu",
+        "Hao Tang",
+        "Yansi Li",
+        "Kunyao Lan",
+        "Yixuan Jiang",
+        "Hao Zhou",
+        "Yixiao Wang",
+        "Situo Zhang",
+        "Liangtai Sun",
+        "Lu Chen",
+        "Kai Yu"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/OpenDFM/MobA",
+      "published": "2024-10-17T16:53:50.000Z"
+    },
+    {
+      "id": "2410.11842",
+      "title": "MoH: Multi-Head Attention as Mixture-of-Head Attention",
+      "authors": [
+        "Peng Jin",
+        "Bo Zhu",
+        "Li Yuan",
+        "Shuicheng Yan"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/skyworkai/moh",
+      "published": "2024-10-15T17:59:44.000Z"
+    },
+    {
+      "id": "2410.13804",
+      "title": "BenTo: Benchmark Task Reduction with In-Context Transferability",
+      "authors": [
+        "Hongyu Zhao",
+        "Ming Li",
+        "Lichao Sun",
+        "Tianyi Zhou"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/tianyi-lab/bento",
+      "published": "2024-10-17T17:41:15.000Z"
+    },
+    {
+      "id": "2410.13639",
+      "title": "A Comparative Study on Reasoning Patterns of OpenAI's o1 Model",
+      "authors": [
+        "Siwei Wu",
+        "Zhongyuan Peng",
+        "Xinrun Du",
+        "Tuney Zheng",
+        "Minghao Liu",
+        "Jialong Wu",
+        "Jiachen Ma",
+        "Yizhi Li",
+        "Jian Yang",
+        "Wangchunshu Zhou",
+        "Qunshu Lin",
+        "Junbo Zhao",
+        "Zhaoxiang Zhang",
+        "Wenhao Huang",
+        "Ge Zhang",
+        "Chenghua Lin",
+        "J. H. Liu"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/Open-Source-O1/o1_Reasoning_Patterns_Study",
+      "published": "2024-10-17T15:09:03.000Z"
+    },
+    {
+      "id": "2410.13785",
+      "title": "PopAlign: Diversifying Contrasting Patterns for a More Comprehensive Alignment",
+      "authors": [
+        "Zekun Moore Wang",
+        "Shawn Wang",
+        "Kang Zhu",
+        "Jiaheng Liu",
+        "Ke Xu",
+        "Jie Fu",
+        "Wangchunshu Zhou",
+        "Wenhao Huang"
+      ],
+      "upvotes": 19,
+      "github": null,
+      "published": "2024-10-17T17:22:05.000Z"
+    },
+    {
+      "id": "2410.09426",
+      "title": "FlatQuant: Flatness Matters for LLM Quantization",
+      "authors": [
+        "Yuxuan Sun",
+        "Ruikang Liu",
+        "Haoli Bai",
+        "Han Bao",
+        "Kang Zhao",
+        "Yuening Li",
+        "Jiaxin Hu",
+        "Xianzhi Yu",
+        "Lu Hou",
+        "Chun Yuan",
+        "Xin Jiang",
+        "Wulong Liu",
+        "Jun Yao"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/ruikangliu/flatquant",
+      "published": "2024-10-12T08:10:28.000Z"
+    },
+    {
+      "id": "2410.13841",
+      "title": "A Unified View of Delta Parameter Editing in Post-Trained Large-Scale Models",
+      "authors": [
+        "Qiaoyu Tang",
+        "Le Yu",
+        "Bowen Yu",
+        "Hongyu Lin",
+        "Keming Lu",
+        "Yaojie Lu",
+        "Xianpei Han",
+        "Le Sun"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2024-10-17T17:56:53.000Z"
+    },
+    {
+      "id": "2410.13334",
+      "title": "Do LLMs Have Political Correctness? Analyzing Ethical Biases and Jailbreak Vulnerabilities in AI Systems",
+      "authors": [
+        "Isack Lee",
+        "Haebin Seong"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/Isaac-theori/PCJailbreak",
+      "published": "2024-10-17T08:46:09.000Z"
+    },
+    {
+      "id": "2410.13832",
+      "title": "VidPanos: Generative Panoramic Videos from Casual Panning Videos",
+      "authors": [
+        "Jingwei Ma",
+        "Erika Lu",
+        "Roni Paiss",
+        "Shiran Zada",
+        "Aleksander Holynski",
+        "Tali Dekel",
+        "Brian Curless",
+        "Michael Rubinstein",
+        "Forrester Cole"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2024-10-17T17:53:24.000Z"
+    },
+    {
+      "id": "2410.13854",
+      "title": "Can MLLMs Understand the Deep Implication Behind Chinese Images?",
+      "authors": [
+        "Chenhao Zhang",
+        "Xi Feng",
+        "Yuelin Bai",
+        "Xinrun Du",
+        "Jinchang Hou",
+        "Kaixin Deng",
+        "Guangzeng Han",
+        "Qinrui Li",
+        "Bingli Wang",
+        "Jiaheng Liu",
+        "Xingwei Qu",
+        "Yifei Zhang",
+        "Qixuan Zhao",
+        "Yiming Liang",
+        "Ziqiang Liu",
+        "Feiteng Fang",
+        "Min Yang",
+        "Wenhao Huang",
+        "Chenghua Lin",
+        "Ge Zhang",
+        "Shiwen Ni"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/MING-ZCH/CII-Bench",
+      "published": "2024-10-17T17:59:24.000Z"
+    },
+    {
+      "id": "2410.09019",
+      "title": "MedMobile: A mobile-sized language model with expert-level clinical capabilities",
+      "authors": [
+        "Krithik Vishwanath",
+        "Jaden Stryker",
+        "Anton Alaykin",
+        "Daniel Alexander Alber",
+        "Eric Karl Oermann"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/nyuolab/MedMobile",
+      "published": "2024-10-11T17:32:59.000Z"
+    },
+    {
+      "id": "2410.13852",
+      "title": "Retrospective Learning from Interactions",
+      "authors": [
+        "Zizhao Chen",
+        "Mustafa Omer Gul",
+        "Yiwei Chen",
+        "Gloria Geng",
+        "Anne Wu",
+        "Yoav Artzi"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2024-10-17T17:59:03.000Z"
+    },
+    {
+      "id": "2410.13198",
+      "title": "Failing Forward: Improving Generative Error Correction for ASR with Synthetic Data and Retrieval Augmentation",
+      "authors": [
+        "Sreyan Ghosh",
+        "Mohammad Sadegh Rasooli",
+        "Michael Levit",
+        "Peidong Wang",
+        "Jian Xue",
+        "Dinesh Manocha",
+        "Jinyu Li"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2024-10-17T04:00:29.000Z"
+    },
+    {
+      "id": "2410.13859",
+      "title": "γ-MoD: Exploring Mixture-of-Depth Adaptation for Multimodal Large Language Models",
+      "authors": [
+        "Yaxin Luo",
+        "Gen Luo",
+        "Jiayi Ji",
+        "Yiyi Zhou",
+        "Xiaoshuai Sun",
+        "Zhiqiang Shen",
+        "Rongrong Ji"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2024-10-17T17:59:53.000Z"
+    },
+    {
+      "id": "2410.13360",
+      "title": "Remember, Retrieve and Generate: Understanding Infinite Visual Concepts as Your Personalized Assistant",
+      "authors": [
+        "Haoran Hao",
+        "Jiaming Han",
+        "Changsheng Li",
+        "Yu-Feng Li",
+        "Xiangyu Yue"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/Hoar012/RAP-MLLM",
+      "published": "2024-10-17T09:10:26.000Z"
+    },
+    {
+      "id": "2410.12957",
+      "title": "MuVi: Video-to-Music Generation with Semantic Alignment and Rhythmic Synchronization",
+      "authors": [
+        "Ruiqi Li",
+        "Siqi Zheng",
+        "Xize Cheng",
+        "Ziang Zhang",
+        "Shengpeng Ji",
+        "Zhou Zhao"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2024-10-16T18:44:56.000Z"
+    },
+    {
+      "id": "2410.12771",
+      "title": "Open Materials 2024 (OMat24) Inorganic Materials Dataset and Models",
+      "authors": [
+        "Luis Barroso-Luque",
+        "Muhammed Shuaibi",
+        "Xiang Fu",
+        "Brandon M. Wood",
+        "Misko Dzamba",
+        "Meng Gao",
+        "Ammar Rizvi",
+        "C. Lawrence Zitnick",
+        "Zachary W. Ulissi"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2024-10-16T17:48:34.000Z"
+    },
+    {
+      "id": "2410.13618",
+      "title": "LoLDU: Low-Rank Adaptation via Lower-Diag-Upper Decomposition for Parameter-Efficient Fine-Tuning",
+      "authors": [
+        "Yiming Shi",
+        "Jiwei Wei",
+        "Yujia Wu",
+        "Ran Ran",
+        "Chengwei Sun",
+        "Shiyuan He",
+        "Yang Yang"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/skddj/loldu",
+      "published": "2024-10-17T14:51:17.000Z"
+    },
+    {
+      "id": "2410.10210",
+      "title": "Minimum Tuning to Unlock Long Output from LLMs with High Quality Data as the Key",
+      "authors": [
+        "Yingda Chen",
+        "Xingjun Wang",
+        "Jintao Huang",
+        "Yunlin Mao",
+        "Daoze Zhang",
+        "Yuze Zhao"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2024-10-14T07:09:02.000Z"
+    },
+    {
+      "id": "2410.09347",
+      "title": "Toward Guidance-Free AR Visual Generation via Condition Contrastive Alignment",
+      "authors": [
+        "Huayu Chen",
+        "Hang Su",
+        "Peize Sun",
+        "Jun Zhu"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/thu-ml/cca",
+      "published": "2024-10-12T03:31:25.000Z"
+    },
+    {
+      "id": "2410.12183",
+      "title": "TransAgent: Transfer Vision-Language Foundation Models with Heterogeneous Agent Collaboration",
+      "authors": [
+        "Yiwei Guo",
+        "Shaobin Zhuang",
+        "Kunchang Li",
+        "Yu Qiao",
+        "Yali Wang"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/markywg/transagent",
+      "published": "2024-10-16T03:01:44.000Z"
+    },
+    {
+      "id": "2410.12781",
+      "title": "Long-LRM: Long-sequence Large Reconstruction Model for Wide-coverage Gaussian Splats",
+      "authors": [
+        "Chen Ziwen",
+        "Hao Tan",
+        "Kai Zhang",
+        "Sai Bi",
+        "Fujun Luan",
+        "Yicong Hong",
+        "Li Fuxin",
+        "Zexiang Xu"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/arthurhero/Long-LRM",
+      "published": "2024-10-16T17:54:06.000Z"
+    },
+    {
+      "id": "2410.13060",
+      "title": "AERO: Softmax-Only LLMs for Efficient Private Inference",
+      "authors": [
+        "Nandan Kumar Jha",
+        "Brandon Reagen"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2024-10-16T21:40:49.000Z"
+    },
+    {
+      "id": "2410.13293",
+      "title": "SBI-RAG: Enhancing Math Word Problem Solving for Students through Schema-Based Instruction and Retrieval-Augmented Generation",
+      "authors": [
+        "Prakhar Dixit",
+        "Tim Oates"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/pdx97/SBI-RAG_Neurips2024",
+      "published": "2024-10-17T07:46:49.000Z"
+    }
+  ]
+}

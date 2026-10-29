@@ -1,0 +1,549 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-12-30",
+  "fetched_at": "2026-10-29T15:34:15.196Z",
+  "candidates": [
+    {
+      "id": "2512.23447",
+      "title": "Coupling Experts and Routers in Mixture-of-Experts via an Auxiliary Loss",
+      "authors": [
+        "Ang Lv",
+        "Jin Ma",
+        "Yiyuan Ma",
+        "Siyuan Qiao"
+      ],
+      "upvotes": 100,
+      "github": null,
+      "published": "2025-12-29T13:03:18.000Z"
+    },
+    {
+      "id": "2512.23576",
+      "title": "LiveTalk: Real-Time Multimodal Interactive Video Diffusion via Improved On-Policy Distillation",
+      "authors": [
+        "Ethan Chern",
+        "Zhulin Hu",
+        "Bohao Tang",
+        "Jiadi Su",
+        "Steffi Chern",
+        "Zhijie Deng",
+        "Pengfei Liu"
+      ],
+      "upvotes": 66,
+      "github": "https://github.com/GAIR-NLP/LiveTalk",
+      "published": "2025-12-29T16:17:36.000Z"
+    },
+    {
+      "id": "2512.22096",
+      "title": "Yume-1.5: A Text-Controlled Interactive World Generation Model",
+      "authors": [
+        "Xiaofeng Mao",
+        "Zhen Li",
+        "Chuanhao Li",
+        "Xiaojie Xu",
+        "Kaining Ying",
+        "Tong He",
+        "Jiangmiao Pang",
+        "Yu Qiao",
+        "Kaipeng Zhang"
+      ],
+      "upvotes": 59,
+      "github": "https://github.com/stdstu12/YUME",
+      "published": "2025-12-26T17:52:49.000Z"
+    },
+    {
+      "id": "2512.23709",
+      "title": "Stream-DiffVSR: Low-Latency Streamable Video Super-Resolution via Auto-Regressive Diffusion",
+      "authors": [
+        "Hau-Shiang Shiu",
+        "Chin-Yang Lin",
+        "Zhixiang Wang",
+        "Chi-Wei Hsiao",
+        "Po-Fan Yu",
+        "Yu-Chih Chen",
+        "Yu-Lun Liu"
+      ],
+      "upvotes": 51,
+      "github": "https://github.com/jamichss/Stream-DiffVSR",
+      "published": "2025-12-29T18:59:57.000Z"
+    },
+    {
+      "id": "2512.22615",
+      "title": "Dream-VL & Dream-VLA: Open Vision-Language and Vision-Language-Action Models with Diffusion Language Model Backbone",
+      "authors": [
+        "Jiacheng Ye",
+        "Shansan Gong",
+        "Jiahui Gao",
+        "Junming Fan",
+        "Shuang Wu",
+        "Wei Bi",
+        "Haoli Bai",
+        "Lifeng Shang",
+        "Lingpeng Kong"
+      ],
+      "upvotes": 51,
+      "github": "https://github.com/DreamLM/Dream-VLX",
+      "published": "2025-12-27T14:46:24.000Z"
+    },
+    {
+      "id": "2512.23705",
+      "title": "Diffusion Knows Transparency: Repurposing Video Diffusion for Transparent Object Depth and Normal Estimation",
+      "authors": [
+        "Shaocong Xu",
+        "Songlin Wei",
+        "Qizhe Wei",
+        "Zheng Geng",
+        "Hong Li",
+        "Licheng Shen",
+        "Qianpu Sun",
+        "Shu Han",
+        "Bin Ma",
+        "Bohan Li",
+        "Chongjie Ye",
+        "Yuhang Zheng",
+        "Nan Wang",
+        "Saining Zhang",
+        "Hao Zhao"
+      ],
+      "upvotes": 45,
+      "github": "https://github.com/Daniellli/DKT",
+      "published": "2025-12-29T18:59:24.000Z"
+    },
+    {
+      "id": "2512.22323",
+      "title": "SpotEdit: Selective Region Editing in Diffusion Transformers",
+      "authors": [
+        "Zhibin Qin",
+        "Zhenxiong Tan",
+        "Zeqing Wang",
+        "Songhua Liu",
+        "Xinchao Wang"
+      ],
+      "upvotes": 39,
+      "github": "https://github.com/Biangbiang0321/SpotEdit",
+      "published": "2025-12-26T14:59:41.000Z"
+    },
+    {
+      "id": "2512.22322",
+      "title": "SmartSnap: Proactive Evidence Seeking for Self-Verifying Agents",
+      "authors": [
+        "Shaofei Cai",
+        "Yulei Qin",
+        "Haojia Lin",
+        "Zihan Xu",
+        "Gang Li",
+        "Yuchen Shi",
+        "Zongyi Li",
+        "Yong Mao",
+        "Siqi Cai",
+        "Xiaoyu Tan",
+        "Yitao Liang",
+        "Ke Li",
+        "Xing Sun"
+      ],
+      "upvotes": 39,
+      "github": "https://github.com/TencentYoutuResearch/SmartSnap",
+      "published": "2025-12-26T14:51:39.000Z"
+    },
+    {
+      "id": "2512.23676",
+      "title": "Web World Models",
+      "authors": [
+        "Jichen Feng",
+        "Yifan Zhang",
+        "Chenggong Zhang",
+        "Yifu Lu",
+        "Shilong Liu",
+        "Mengdi Wang"
+      ],
+      "upvotes": 28,
+      "github": "https://github.com/Princeton-AI2-Lab/Web-World-Models",
+      "published": "2025-12-29T18:31:45.000Z"
+    },
+    {
+      "id": "2512.15560",
+      "title": "GRAN-TED: Generating Robust, Aligned, and Nuanced Text Embedding for Diffusion Models",
+      "authors": [
+        "Bozhou Li",
+        "Sihan Yang",
+        "Yushuo Guan",
+        "Ruichuan An",
+        "Xinlong Chen",
+        "Yang Shi",
+        "Pengfei Wan",
+        "Wentao Zhang",
+        "Yuanxing zhang"
+      ],
+      "upvotes": 25,
+      "github": null,
+      "published": "2025-12-17T16:09:43.000Z"
+    },
+    {
+      "id": "2512.23541",
+      "title": "Act2Goal: From World Model To General Goal-conditioned Policy",
+      "authors": [
+        "Pengfei Zhou",
+        "Liliang Chen",
+        "Shengcong Chen",
+        "Di Chen",
+        "Wenzhi Zhao",
+        "Rongjun Jin",
+        "Guanghui Ren",
+        "Jianlan Luo"
+      ],
+      "upvotes": 23,
+      "github": null,
+      "published": "2025-12-29T15:28:42.000Z"
+    },
+    {
+      "id": "2512.22234",
+      "title": "DiRL: An Efficient Post-Training Framework for Diffusion Language Models",
+      "authors": [
+        "Ying Zhu",
+        "Jiaxin Wan",
+        "Xiaoran Liu",
+        "Siyanag He",
+        "Qiqi Wang",
+        "Xu Guo",
+        "Tianyi Liang",
+        "Zengfeng Huang",
+        "Ziwei He",
+        "Xipeng Qiu"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/OpenMOSS/DiRL",
+      "published": "2025-12-23T08:33:19.000Z"
+    },
+    {
+      "id": "2512.23707",
+      "title": "Training AI Co-Scientists Using Rubric Rewards",
+      "authors": [
+        "Shashwat Goel",
+        "Rishi Hazra",
+        "Dulhan Jayalath",
+        "Timon Willi",
+        "Parag Jain",
+        "William F. Shen",
+        "Ilias Leontiadis",
+        "Francesco Barbieri",
+        "Yoram Bachrach",
+        "Jonas Geiping",
+        "Chenxi Whitehouse"
+      ],
+      "upvotes": 21,
+      "github": null,
+      "published": "2025-12-29T18:59:33.000Z"
+    },
+    {
+      "id": "2512.23647",
+      "title": "Nested Browser-Use Learning for Agentic Information Seeking",
+      "authors": [
+        "Baixuan Li",
+        "Jialong Wu",
+        "Wenbiao Yin",
+        "Kuan Li",
+        "Zhongwang Zhang",
+        "Huifeng Yin",
+        "Zhengwei Tao",
+        "Liwen Zhang",
+        "Pengjun Xie",
+        "Jingren Zhou",
+        "Yong Jiang"
+      ],
+      "upvotes": 19,
+      "github": null,
+      "published": "2025-12-29T17:59:14.000Z"
+    },
+    {
+      "id": "2512.22374",
+      "title": "Self-Evaluation Unlocks Any-Step Text-to-Image Generation",
+      "authors": [
+        "Xin Yu",
+        "Xiaojuan Qi",
+        "Zhengqi Li",
+        "Kai Zhang",
+        "Richard Zhang",
+        "Zhe Lin",
+        "Eli Shechtman",
+        "Tianyu Wang",
+        "Yotam Nitzan"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2025-12-26T20:42:11.000Z"
+    },
+    {
+      "id": "2512.20927",
+      "title": "Quantile Rendering: Efficiently Embedding High-dimensional Feature on 3D Gaussian Splatting",
+      "authors": [
+        "Yoonwoo Jeong",
+        "Cheng Sun",
+        "Frank Wang",
+        "Minsu Cho",
+        "Jaesung Choe"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2025-12-24T04:16:18.000Z"
+    },
+    {
+      "id": "2512.23646",
+      "title": "OmniAgent: Audio-Guided Active Perception Agent for Omnimodal Audio-Video Understanding",
+      "authors": [
+        "Keda Tao",
+        "Wenjie Du",
+        "Bohan Yu",
+        "Weiqiang Wang",
+        "Jian Liu",
+        "Huan Wang"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2025-12-29T17:59:05.000Z"
+    },
+    {
+      "id": "2512.23273",
+      "title": "YOLO-Master: MOE-Accelerated with Specialized Transformers for Enhanced Real-time Detection",
+      "authors": [
+        "Xu Lin",
+        "Jinlong Peng",
+        "Zhenye Gan",
+        "Jiawen Zhu",
+        "Jun Liu"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/isLinXu/YOLO-Master",
+      "published": "2025-12-29T07:54:49.000Z"
+    },
+    {
+      "id": "2512.23162",
+      "title": "SurgWorld: Learning Surgical Robot Policies from Videos via World Modeling",
+      "authors": [
+        "Yufan He",
+        "Pengfei Guo",
+        "Mengya Xu",
+        "Zhaoshuo Li",
+        "Andriy Myronenko",
+        "Dillan Imans",
+        "Bingjie Liu",
+        "Dongren Yang",
+        "Mingxue Gu",
+        "Yongnan Ji",
+        "Yueming Jin",
+        "Ren Zhao",
+        "Baiyong Shen",
+        "Daguang Xu"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2025-12-29T03:03:00.000Z"
+    },
+    {
+      "id": "2512.22342",
+      "title": "VL-LN Bench: Towards Long-horizon Goal-oriented Navigation with Active Dialogs",
+      "authors": [
+        "Wensi Huang",
+        "Shaohao Zhu",
+        "Meng Wei",
+        "Jinming Xu",
+        "Xihui Liu",
+        "Hanqing Wang",
+        "Tai Wang",
+        "Feng Zhao",
+        "Jiangmiao Pang"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/InternRobotics/VL-LN",
+      "published": "2025-12-26T19:00:12.000Z"
+    },
+    {
+      "id": "2512.23044",
+      "title": "Video-BrowseComp: Benchmarking Agentic Video Research on Open Web",
+      "authors": [
+        "Zhengyang Liang",
+        "Yan Shu",
+        "Xiangrui Liu",
+        "Minghao Qin",
+        "Kaixin Liang",
+        "Paolo Rota",
+        "Nicu Sebe",
+        "Zheng Liu",
+        "Lizi Liao"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/chrisx599/Video-Browser",
+      "published": "2025-12-28T19:08:27.000Z"
+    },
+    {
+      "id": "2512.22431",
+      "title": "Monadic Context Engineering",
+      "authors": [
+        "Yifan Zhang",
+        "Mengdi Wang"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/iiis-ai/monadic-context-engineering",
+      "published": "2025-12-27T01:52:06.000Z"
+    },
+    {
+      "id": "2512.21720",
+      "title": "An Information Theoretic Perspective on Agentic System Design",
+      "authors": [
+        "Shizhe He",
+        "Avanika Narayan",
+        "Ishan S. Khare",
+        "Scott W. Linderman",
+        "Christopher Ré",
+        "Dan Biderman"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2025-12-25T15:45:31.000Z"
+    },
+    {
+      "id": "2512.23703",
+      "title": "Robo-Dopamine: General Process Reward Modeling for High-Precision Robotic Manipulation",
+      "authors": [
+        "Huajie Tan",
+        "Sixiang Chen",
+        "Yijie Xu",
+        "Zixiao Wang",
+        "Yuheng Ji",
+        "Cheng Chi",
+        "Yaoxu Lyu",
+        "Zhongxia Zhao",
+        "Xiansheng Chen",
+        "Peterson Co",
+        "Shaoxuan Xie",
+        "Guocai Yao",
+        "Pengwei Wang",
+        "Zhongyuan Wang",
+        "Shanghang Zhang"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/FlagOpen/Robo-Dopamine",
+      "published": "2025-12-29T18:57:44.000Z"
+    },
+    {
+      "id": "2512.22255",
+      "title": "Shape of Thought: When Distribution Matters More than Correctness in Reasoning Tasks",
+      "authors": [
+        "Abhranil Chandra",
+        "Ayush Agrawal",
+        "Arian Hosseini",
+        "Sebastian Fischmeister",
+        "Rishabh Agarwal",
+        "Navin Goyal",
+        "Aaron Courville"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2025-12-24T07:35:55.000Z"
+    },
+    {
+      "id": "2512.23573",
+      "title": "ProGuard: Towards Proactive Multimodal Safeguard",
+      "authors": [
+        "Shaohan Yu",
+        "Lijun Li",
+        "Chenyang Si",
+        "Lu Sheng",
+        "Jing Shao"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/yushaohan/ProGuard",
+      "published": "2025-12-29T16:13:23.000Z"
+    },
+    {
+      "id": "2512.23222",
+      "title": "Bridging Your Imagination with Audio-Video Generation via a Unified Director",
+      "authors": [
+        "Jiaxu Zhang",
+        "Tianshu Hu",
+        "Yuan Zhang",
+        "Zenan Li",
+        "Linjie Luo",
+        "Guosheng Lin",
+        "Xin Chen"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/Kebii/UniMAGE",
+      "published": "2025-12-29T05:56:22.000Z"
+    },
+    {
+      "id": "2512.23236",
+      "title": "KernelEvolve: Scaling Agentic Kernel Coding for Heterogeneous AI Accelerators at Meta",
+      "authors": [
+        "Gang Liao",
+        "Hongsen Qin",
+        "Ying Wang",
+        "Alicia Golden",
+        "Michael Kuchnik",
+        "Yavuz Yetim",
+        "Jia Jiunn Ang",
+        "Chunli Fu",
+        "Yihan He",
+        "Samuel Hsia",
+        "Zewei Jiang",
+        "Dianshi Li",
+        "Uladzimir Pashkevich",
+        "Varna Puvvada",
+        "Feng Shi",
+        "Matt Steiner",
+        "Ruichao Xiao",
+        "Nathan Yan",
+        "Xiayu Yu",
+        "Zhou Fang",
+        "Abdul Zainul-Abedin",
+        "Ketan Singh",
+        "Hongtao Yu",
+        "Wenyuan Chi",
+        "Barney Huang",
+        "Sean Zhang",
+        "Noah Weller",
+        "Zach Marine",
+        "Wyatt Cook",
+        "Carole-Jean Wu",
+        "Gaoxiang Liu"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-12-29T06:31:55.000Z"
+    },
+    {
+      "id": "2512.21734",
+      "title": "Knot Forcing: Taming Autoregressive Video Diffusion Models for Real-time Infinite Interactive Portrait Animation",
+      "authors": [
+        "Steven Xiao",
+        "Xindi Zhang",
+        "Dechao Meng",
+        "Qi Wang",
+        "Peng Zhang",
+        "Bang Zhang"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-12-25T16:34:56.000Z"
+    },
+    {
+      "id": "2512.22100",
+      "title": "Introducing TrGLUE and SentiTurca: A Comprehensive Benchmark for Turkish General Language Understanding and Sentiment Analysis",
+      "authors": [
+        "Duygu Altinok"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2025-12-26T18:02:09.000Z"
+    },
+    {
+      "id": "2512.22984",
+      "title": "Reverse Personalization",
+      "authors": [
+        "Han-Wei Kung",
+        "Tuomas Varanka",
+        "Nicu Sebe"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/hanweikung/reverse-personalization",
+      "published": "2025-12-28T16:06:55.000Z"
+    }
+  ]
+}

@@ -1,0 +1,300 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2023-12-12",
+  "fetched_at": "2026-10-29T15:26:14.687Z",
+  "candidates": [
+    {
+      "id": "2312.06550",
+      "title": "LLM360: Towards Fully Transparent Open-Source LLMs",
+      "authors": [
+        "Zhengzhong Liu",
+        "Aurick Qiao",
+        "Willie Neiswanger",
+        "Hongyi Wang",
+        "Bowen Tan",
+        "Tianhua Tao",
+        "Junbo Li",
+        "Yuqi Wang",
+        "Suqi Sun",
+        "Omkar Pangarkar",
+        "Richard Fan",
+        "Yi Gu",
+        "Victor Miller",
+        "Yonghao Zhuang",
+        "Guowei He",
+        "Haonan Li",
+        "Fajri Koto",
+        "Liping Tang",
+        "Nikhil Ranjan",
+        "Zhiqiang Shen",
+        "Xuguang Ren",
+        "Roberto Iriondo",
+        "Cun Mu",
+        "Zhiting Hu",
+        "Mark Schulze",
+        "Preslav Nakov",
+        "Tim Baldwin",
+        "Eric P. Xing"
+      ],
+      "upvotes": 57,
+      "github": "https://github.com/llm360/analysis360",
+      "published": "2023-12-11T17:39:00.000Z"
+    },
+    {
+      "id": "2312.06585",
+      "title": "Beyond Human Data: Scaling Self-Training for Problem-Solving with Language Models",
+      "authors": [
+        "Avi Singh",
+        "John D. Co-Reyes",
+        "Rishabh Agarwal",
+        "Ankesh Anand",
+        "Piyush Patil",
+        "Peter J. Liu",
+        "James Harrison",
+        "Jaehoon Lee",
+        "Kelvin Xu",
+        "Aaron Parisi",
+        "Abhishek Kumar",
+        "Alex Alemi",
+        "Alex Rizkowsky",
+        "Azade Nova",
+        "Ben Adlam",
+        "Bernd Bohnet",
+        "Hanie Sedghi",
+        "Igor Mordatch",
+        "Isabelle Simpson",
+        "Izzeddin Gur",
+        "Jasper Snoek",
+        "Jeffrey Pennington",
+        "Jiri Hron",
+        "Kathleen Kenealy",
+        "Kevin Swersky",
+        "Kshiteej Mahajan",
+        "Laura Culp",
+        "Lechao Xiao",
+        "Maxwell L. Bileschi",
+        "Noah Constant",
+        "Roman Novak",
+        "Rosanne Liu",
+        "Tris Warkentin",
+        "Yundi Qian",
+        "Ethan Dyer",
+        "Behnam Neyshabur",
+        "Jascha Sohl-Dickstein",
+        "Noah Fiedel"
+      ],
+      "upvotes": 29,
+      "github": null,
+      "published": "2023-12-11T18:17:43.000Z"
+    },
+    {
+      "id": "2312.06655",
+      "title": "Sherpa3D: Boosting High-Fidelity Text-to-3D Generation via Coarse 3D Prior",
+      "authors": [
+        "Fangfu Liu",
+        "Diankun Wu",
+        "Yi Wei",
+        "Yongming Rao",
+        "Yueqi Duan"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/liuff19/Sherpa3D",
+      "published": "2023-12-11T18:59:18.000Z"
+    },
+    {
+      "id": "2312.06662",
+      "title": "Photorealistic Video Generation with Diffusion Models",
+      "authors": [
+        "Agrim Gupta",
+        "Lijun Yu",
+        "Kihyuk Sohn",
+        "Xiuye Gu",
+        "Meera Hahn",
+        "Li Fei-Fei",
+        "Irfan Essa",
+        "Lu Jiang",
+        "José Lezama"
+      ],
+      "upvotes": 24,
+      "github": null,
+      "published": "2023-12-11T18:59:57.000Z"
+    },
+    {
+      "id": "2312.06109",
+      "title": "Vary: Scaling up the Vision Vocabulary for Large Vision-Language Models",
+      "authors": [
+        "Haoran Wei",
+        "Lingyu Kong",
+        "Jinyue Chen",
+        "Liang Zhao",
+        "Zheng Ge",
+        "Jinrong Yang",
+        "Jianjian Sun",
+        "Chunrui Han",
+        "Xiangyu Zhang"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/Ucas-HaoranWei/Vary",
+      "published": "2023-12-11T04:26:17.000Z"
+    },
+    {
+      "id": "2312.05708",
+      "title": "Context Tuning for Retrieval Augmented Generation",
+      "authors": [
+        "Raviteja Anantha",
+        "Tharun Bethi",
+        "Danil Vodianik",
+        "Srinivas Chappidi"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2023-12-09T23:33:16.000Z"
+    },
+    {
+      "id": "2312.06571",
+      "title": "From Text to Motion: Grounding GPT-4 in a Humanoid Robot \"Alter3\"",
+      "authors": [
+        "Takahide Yoshida",
+        "Atsushi Masumori",
+        "Takashi Ikegami"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2023-12-11T17:57:11.000Z"
+    },
+    {
+      "id": "2312.05431",
+      "title": "Efficient Quantization Strategies for Latent Diffusion Models",
+      "authors": [
+        "Yuewei Yang",
+        "Xiaoliang Dai",
+        "Jialiang Wang",
+        "Peizhao Zhang",
+        "Hongbo Zhang"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2023-12-09T01:47:16.000Z"
+    },
+    {
+      "id": "2312.06674",
+      "title": "Llama Guard: LLM-based Input-Output Safeguard for Human-AI Conversations",
+      "authors": [
+        "Hakan Inan",
+        "Kartikeya Upasani",
+        "Jianfeng Chi",
+        "Rashi Rungta",
+        "Krithika Iyer",
+        "Yuning Mao",
+        "Michael Tontchev",
+        "Qing Hu",
+        "Brian Fuller",
+        "Davide Testuggine",
+        "Madian Khabsa"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/lastmile-ai/aiconfig",
+      "published": "2023-12-07T19:40:50.000Z"
+    },
+    {
+      "id": "2312.06353",
+      "title": "Federated Full-Parameter Tuning of Billion-Sized Language Models with Communication Cost under 18 Kilobytes",
+      "authors": [
+        "Zhen Qin",
+        "Daoyuan Chen",
+        "Bingchen Qian",
+        "Bolin Ding",
+        "Yaliang Li",
+        "Shuiguang Deng"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/zhenqincn/fedkseed",
+      "published": "2023-12-11T13:03:21.000Z"
+    },
+    {
+      "id": "2312.06351",
+      "title": "Evaluation of Large Language Models for Decision Making in Autonomous Driving",
+      "authors": [
+        "Kotaro Tanahashi",
+        "Yuichi Inoue",
+        "Yu Yamaguchi",
+        "Hidetatsu Yaginuma",
+        "Daiki Shiotsuka",
+        "Hiroyuki Shimatani",
+        "Kohei Iwamasa",
+        "Yoshiaki Inoue",
+        "Takafumi Yamaguchi",
+        "Koki Igari",
+        "Tsukasa Horinouchi",
+        "Kento Tokuhiro",
+        "Yugo Tokuchi",
+        "Shunsuke Aoki"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2023-12-11T12:56:40.000Z"
+    },
+    {
+      "id": "2312.05605",
+      "title": "TCNCA: Temporal Convolution Network with Chunked Attention for Scalable Sequence Processing",
+      "authors": [
+        "Aleksandar Terzic",
+        "Michael Hersche",
+        "Geethan Karunaratne",
+        "Luca Benini",
+        "Abu Sebastian",
+        "Abbas Rahimi"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2023-12-09T16:12:25.000Z"
+    },
+    {
+      "id": "2312.05491",
+      "title": "Using Captum to Explain Generative Language Models",
+      "authors": [
+        "Vivek Miglani",
+        "Aobo Yang",
+        "Aram H. Markosyan",
+        "Diego Garcia-Olano",
+        "Narine Kokhlikyan"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2023-12-09T07:35:24.000Z"
+    },
+    {
+      "id": "2312.06134",
+      "title": "Order Matters in the Presence of Dataset Imbalance for Multilingual Learning",
+      "authors": [
+        "Dami Choi",
+        "Derrick Xin",
+        "Hamid Dadkhahi",
+        "Justin Gilmer",
+        "Ankush Garg",
+        "Orhan Firat",
+        "Chih-Kuan Yeh",
+        "Andrew M. Dai",
+        "Behrooz Ghorbani"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2023-12-11T05:46:57.000Z"
+    },
+    {
+      "id": "2312.06149",
+      "title": "Unlocking Anticipatory Text Generation: A Constrained Approach for Faithful Decoding with Large Language Models",
+      "authors": [
+        "Lifu Tu",
+        "Semih Yavuz",
+        "Jin Qu",
+        "Jiacheng Xu",
+        "Rui Meng",
+        "Caiming Xiong",
+        "Yingbo Zhou"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/SalesforceAIResearch/Unlocking-TextGen",
+      "published": "2023-12-11T06:35:33.000Z"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "2509.08721",
+  "html": "https://arxiv.org/html/2509.08721",
+  "limitations": null,
+  "conclusion": "In this paper we introduced SAPO , a fully decentralized and asynchronous RL post-training algorithm. Unlike many centralized approaches, SAPO allows heterogeneous nodes to manage their own models while sharing rollouts, enabling learning to spread across the swarm without assumptions about latency, homogeneity, or hardware. Our experiments, using the ReasoningGYM dataset, show that balanced experience sharing ( [math] local / [math] external) nearly doubles performance over the no-sharing baseline. However, excessive reliance on external rollouts can destabilize learning, causing steep learning and forgetting behavior. Overall, SAPO turns experience sharing into a core advantage, offering a scalable and practical path towards augmenting the reasoning capabilities of models through collaborative post-training. Future Directions As discussed in § 4.1 and § 5 , a natural next step is to ev",
+  "figure": null
+}

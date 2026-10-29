@@ -1,0 +1,459 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-06-30",
+  "fetched_at": "2026-10-29T15:31:59.290Z",
+  "candidates": [
+    {
+      "id": "2506.17450",
+      "title": "BlenderFusion: 3D-Grounded Visual Editing and Generative Compositing",
+      "authors": [
+        "Jiacheng Chen",
+        "Ramin Mehran",
+        "Xuhui Jia",
+        "Saining Xie",
+        "Sanghyun Woo"
+      ],
+      "upvotes": 64,
+      "github": null,
+      "published": "2025-06-20T19:38:34.000Z"
+    },
+    {
+      "id": "2506.21862",
+      "title": "LLaVA-Scissor: Token Compression with Semantic Connected Components for Video LLMs",
+      "authors": [
+        "Boyuan Sun",
+        "Jiaxing Zhao",
+        "Xihan Wei",
+        "Qibin Hou"
+      ],
+      "upvotes": 36,
+      "github": "https://github.com/HumanMLLM/LLaVA-Scissor",
+      "published": "2025-06-27T02:29:58.000Z"
+    },
+    {
+      "id": "2506.21876",
+      "title": "Do Vision-Language Models Have Internal World Models? Towards an Atomic Evaluation",
+      "authors": [
+        "Qiyue Gao",
+        "Xinyu Pi",
+        "Kevin Liu",
+        "Junrong Chen",
+        "Ruolan Yang",
+        "Xinqi Huang",
+        "Xinyu Fang",
+        "Lu Sun",
+        "Gautham Kishore",
+        "Bo Ai",
+        "Stone Tao",
+        "Mengyang Liu",
+        "Jiaxi Yang",
+        "Chao-Jung Lai",
+        "Chuanyang Jin",
+        "Jiannan Xiang",
+        "Benhao Huang",
+        "Zeming Chen",
+        "David Danks",
+        "Hao Su",
+        "Tianmin Shu",
+        "Ziqiao Ma",
+        "Lianhui Qin",
+        "Zhiting Hu"
+      ],
+      "upvotes": 28,
+      "github": null,
+      "published": "2025-06-27T03:24:29.000Z"
+    },
+    {
+      "id": "2506.21416",
+      "title": "XVerse: Consistent Multi-Subject Control of Identity and Semantic Attributes via DiT Modulation",
+      "authors": [
+        "Bowen Chen",
+        "Mengyi Zhao",
+        "Haomiao Sun",
+        "Li Chen",
+        "Xu Wang",
+        "Kang Du",
+        "Xinglong Wu"
+      ],
+      "upvotes": 28,
+      "github": "https://github.com/bytedance/XVerse",
+      "published": "2025-06-26T16:04:16.000Z"
+    },
+    {
+      "id": "2506.20279",
+      "title": "From Ideal to Real: Unified and Data-Efficient Dense Prediction for Real-World Scenarios",
+      "authors": [
+        "Changliang Xia",
+        "Chengyou Jia",
+        "Zhuohang Dang",
+        "Minnan Luo"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/xcltql666/DenseDiT",
+      "published": "2025-06-25T09:40:50.000Z"
+    },
+    {
+      "id": "2505.21411",
+      "title": "Pangu Pro MoE: Mixture of Grouped Experts for Efficient Sparsity",
+      "authors": [
+        "Yehui Tang",
+        "Xiaosong Li",
+        "Fangcheng Liu",
+        "Wei Guo",
+        "Hang Zhou",
+        "Yaoyuan Wang",
+        "Kai Han",
+        "Xianzhi Yu",
+        "Jinpeng Li",
+        "Hui Zang",
+        "Fei Mi",
+        "Xiaojun Meng",
+        "Zhicheng Liu",
+        "Hanting Chen",
+        "Binfan Zheng",
+        "Can Chen",
+        "Youliang Yan",
+        "Ruiming Tang",
+        "Peifeng Qin",
+        "Xinghao Chen",
+        "Dacheng Tao",
+        "Yunhe Wang"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2025-05-27T16:40:21.000Z"
+    },
+    {
+      "id": "2506.21628",
+      "title": "Ark: An Open-source Python-based Framework for Robot Learning",
+      "authors": [
+        "Magnus Dierking",
+        "Christopher E. Mower",
+        "Sarthak Das",
+        "Huang Helong",
+        "Jiacheng Qiu",
+        "Cody Reading",
+        "Wei Chen",
+        "Huidong Liang",
+        "Huang Guowei",
+        "Jan Peters",
+        "Quan Xingyue",
+        "Jun Wang",
+        "Haitham Bou-Ammar"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/Robotics-Ark/ark_framework",
+      "published": "2025-06-24T20:23:39.000Z"
+    },
+    {
+      "id": "2506.21656",
+      "title": "Fine-Grained Preference Optimization Improves Spatial Reasoning in VLMs",
+      "authors": [
+        "Yifan Shen",
+        "Yuanzhe Liu",
+        "Jingyuan Zhu",
+        "Xu Cao",
+        "Xiaofeng Zhang",
+        "Yixiao He",
+        "Wenming Ye",
+        "James Matthew Rehg",
+        "Ismini Lourentzou"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2025-06-26T18:00:00.000Z"
+    },
+    {
+      "id": "2506.22419",
+      "title": "The Automated LLM Speedrunning Benchmark: Reproducing NanoGPT Improvements",
+      "authors": [
+        "Bingchen Zhao",
+        "Despoina Magka",
+        "Minqi Jiang",
+        "Xian Li",
+        "Roberta Raileanu",
+        "Tatiana Shavrina",
+        "Jean-Christophe Gagnon-Audet",
+        "Kelvin Niu",
+        "Shagun Sodhani",
+        "Michael Shvartsman",
+        "Andrei Lupu",
+        "Alisia Lupidi",
+        "Edan Toledo",
+        "Karen Hambardzumyan",
+        "Martin Josifoski",
+        "Thomas Foster",
+        "Lucia Cipolina-Kun",
+        "Abhishek Charnalia",
+        "Derek Dunfield",
+        "Alexander H. Miller",
+        "Oisin Mac Aodha",
+        "Jakob Foerster",
+        "Yoram Bachrach"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/facebookresearch/llm-speedrunner",
+      "published": "2025-06-27T17:44:32.000Z"
+    },
+    {
+      "id": "2506.21458",
+      "title": "Spatial Mental Modeling from Limited Views",
+      "authors": [
+        "Baiqiao Yin",
+        "Qineng Wang",
+        "Pingyue Zhang",
+        "Jianshu Zhang",
+        "Kangrui Wang",
+        "Zihan Wang",
+        "Jieyu Zhang",
+        "Keshigeyan Chandrasegaran",
+        "Han Liu",
+        "Ranjay Krishna",
+        "Saining Xie",
+        "Manling Li",
+        "Jiajun Wu",
+        "Li Fei-Fei"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/qinengwang-aiden/mindcube",
+      "published": "2025-06-26T16:38:19.000Z"
+    },
+    {
+      "id": "2506.21356",
+      "title": "ShotBench: Expert-Level Cinematic Understanding in Vision-Language Models",
+      "authors": [
+        "Hongbo Liu",
+        "Jingwen He",
+        "Yi Jin",
+        "Dian Zheng",
+        "Yuhao Dong",
+        "Fan Zhang",
+        "Ziqi Huang",
+        "Yinan He",
+        "Yangguang Li",
+        "Weichao Chen",
+        "Yu Qiao",
+        "Wanli Ouyang",
+        "Shengjie Zhao",
+        "Ziwei Liu"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/Vchitect/ShotBench",
+      "published": "2025-06-26T15:09:21.000Z"
+    },
+    {
+      "id": "2506.21355",
+      "title": "SMMILE: An Expert-Driven Benchmark for Multimodal Medical In-Context Learning",
+      "authors": [
+        "Melanie Rieff",
+        "Maya Varma",
+        "Ossian Rabow",
+        "Subathra Adithan",
+        "Julie Kim",
+        "Ken Chang",
+        "Hannah Lee",
+        "Nidhi Rohatgi",
+        "Christian Bluethgen",
+        "Mohamed S. Muneer",
+        "Jean-Benoit Delbrouck",
+        "Michael Moor"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/eth-medical-ai-lab/smmile",
+      "published": "2025-06-26T15:08:18.000Z"
+    },
+    {
+      "id": "2506.17859",
+      "title": "In-Context Learning Strategies Emerge Rationally",
+      "authors": [
+        "Daniel Wurgaft",
+        "Ekdeep Singh Lubana",
+        "Core Francisco Park",
+        "Hidenori Tanaka",
+        "Gautam Reddy",
+        "Noah D. Goodman"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2025-06-21T23:49:08.000Z"
+    },
+    {
+      "id": "2506.22434",
+      "title": "MiCo: Multi-image Contrast for Reinforcement Visual Reasoning",
+      "authors": [
+        "Xi Chen",
+        "Mingkang Zhu",
+        "Shaoteng Liu",
+        "Xiaoyang Wu",
+        "Xiaogang Xu",
+        "Yu Liu",
+        "Xiang Bai",
+        "Hengshuang Zhao"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2025-06-27T17:59:27.000Z"
+    },
+    {
+      "id": "2506.22760",
+      "title": "Jan-nano Technical Report",
+      "authors": [
+        "Alan Dao",
+        "Dinh Bach Vu"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2025-06-28T05:44:57.000Z"
+    },
+    {
+      "id": "2506.21594",
+      "title": "Gazal-R1: Achieving State-of-the-Art Medical Reasoning with Parameter-Efficient Two-Stage Training",
+      "authors": [
+        "Ahmed M. Adly",
+        "Mostafa Samy",
+        "Amr Fawzy"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2025-06-18T09:44:21.000Z"
+    },
+    {
+      "id": "2506.21718",
+      "title": "Performance Prediction for Large Systems via Text-to-Text Regression",
+      "authors": [
+        "Yash Akhauri",
+        "Bryan Lewandowski",
+        "Cheng-Hsi Lin",
+        "Adrian N. Reyes",
+        "Grant C. Forbes",
+        "Arissa Wongpanich",
+        "Bangding Yang",
+        "Mohamed S. Abdelfattah",
+        "Sagi Perel",
+        "Xingyou Song"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2025-06-26T19:10:08.000Z"
+    },
+    {
+      "id": "2506.22432",
+      "title": "Shape-for-Motion: Precise and Consistent Video Editing with 3D Proxy",
+      "authors": [
+        "Yuhao Liu",
+        "Tengfei Wang",
+        "Fang Liu",
+        "Zhenwei Wang",
+        "Rynson W. H. Lau"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/yuhaoliu7456/Shape-for-Motion",
+      "published": "2025-06-27T17:59:01.000Z"
+    },
+    {
+      "id": "2506.22149",
+      "title": "RetFiner: A Vision-Language Refinement Scheme for Retinal Foundation Models",
+      "authors": [
+        "Ronald Fecso",
+        "José Morano",
+        "Ursula Schmidt-Erfurth",
+        "Hrvoje Bogunović"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/ronnief1/RetFiner",
+      "published": "2025-06-27T11:53:54.000Z"
+    },
+    {
+      "id": "2506.19741",
+      "title": "Noise Consistency Training: A Native Approach for One-Step Generator in Learning Additional Controls",
+      "authors": [
+        "Yihong Luo",
+        "Shuchen Xue",
+        "Tianyang Hu",
+        "Jing Tang"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/Luo-Yihong/NCT",
+      "published": "2025-06-24T15:58:55.000Z"
+    },
+    {
+      "id": "2506.22049",
+      "title": "GPAS: Accelerating Convergence of LLM Pretraining via Gradient-Preserving Activation Scaling",
+      "authors": [
+        "Tianhao Chen",
+        "Xin Xu",
+        "Zijing Liu",
+        "Pengxiang Li",
+        "Xinyuan Song",
+        "Ajay Kumar Jaiswal",
+        "Fan Zhang",
+        "Jishan Hu",
+        "Yang Wang",
+        "Hao Chen",
+        "Shizhe Diao",
+        "Shiwei Liu",
+        "Yu Li",
+        "Yin Lu",
+        "Can Yang"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/dandingsky/GPAS",
+      "published": "2025-06-27T09:45:15.000Z"
+    },
+    {
+      "id": "2506.18330",
+      "title": "Confucius3-Math: A Lightweight High-Performance Reasoning LLM for Chinese K-12 Mathematics Learning",
+      "authors": [
+        "Lixin Wu",
+        "Na Cai",
+        "Qiao Cheng",
+        "Jiachen Wang",
+        "Yitao Duan"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/netease-youdao/Confucius3-Math",
+      "published": "2025-06-23T06:23:53.000Z"
+    },
+    {
+      "id": "2506.15882",
+      "title": "Fractional Reasoning via Latent Steering Vectors Improves Inference Time Compute",
+      "authors": [
+        "Sheng Liu",
+        "Tianlang Chen",
+        "Pan Lu",
+        "Haotian Ye",
+        "Yizheng Chen",
+        "Lei Xing",
+        "James Zou"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/shengliu66/FractionalReason",
+      "published": "2025-06-18T21:15:59.000Z"
+    },
+    {
+      "id": "2506.19592",
+      "title": "Adaptive Domain Modeling with Language Models: A Multi-Agent Approach to Task Planning",
+      "authors": [
+        "Harisankar Babu",
+        "Philipp Schillinger",
+        "Tamim Asfour"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2025-06-24T13:02:06.000Z"
+    },
+    {
+      "id": "2506.21476",
+      "title": "Global and Local Entailment Learning for Natural World Imagery",
+      "authors": [
+        "Srikumar Sastry",
+        "Aayush Dhakal",
+        "Eric Xing",
+        "Subash Khanal",
+        "Nathan Jacobs"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/mvrl/RCME",
+      "published": "2025-06-26T17:05:06.000Z"
+    }
+  ]
+}

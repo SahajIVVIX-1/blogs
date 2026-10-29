@@ -1,0 +1,524 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-09-10",
+  "fetched_at": "2026-10-29T15:36:49.113Z",
+  "candidates": [
+    {
+      "id": "2608.12564",
+      "title": "Scaling Automatic Research Agents via World Models",
+      "authors": [
+        "Xiyuan Yang",
+        "Sheikh Sarwar",
+        "Jingru Cheng",
+        "Zhan Shi",
+        "Duanshun Li",
+        "Huiyuan Chen",
+        "Haiyang Zhang",
+        "Xing Fan",
+        "Chenlei Guo",
+        "Jingrui He",
+        "Zhenyu Liao"
+      ],
+      "upvotes": 364,
+      "github": "https://github.com/xiyuanyang45/WMRL",
+      "published": "2026-08-29T00:00:00.000Z"
+    },
+    {
+      "id": "2609.10522",
+      "title": "Show-Harness: Just a VLM Agent Can Play Robots",
+      "authors": [
+        "Yanzhe Chen",
+        "Zechen Bai",
+        "Zhijun Cao",
+        "Wenzheng Zeng",
+        "Kevin Qinghong Lin",
+        "Yiqi Lin",
+        "Guoqiang Liang",
+        "Kevin Yuchen Ma",
+        "Qiming Huang",
+        "Mike Zheng Shou"
+      ],
+      "upvotes": 107,
+      "github": "https://github.com/showlab/Show-Harness",
+      "published": "2026-09-09T00:00:00.000Z"
+    },
+    {
+      "id": "2609.10540",
+      "title": "Programmable World Model",
+      "authors": [
+        "Zheng-Hui Huang",
+        "Guixu Lin",
+        "Jiacheng Lin",
+        "Yi-Chuan Huang",
+        "Ruihan Yu",
+        "Muyao Niu",
+        "Siqi Yang",
+        "Yu-Lun Liu",
+        "Yung-Yu Chuang",
+        "Kaipeng Zhang",
+        "Zhixiang Wang"
+      ],
+      "upvotes": 81,
+      "github": "https://github.com/AlayaLab/pwm",
+      "published": "2026-09-09T00:00:00.000Z"
+    },
+    {
+      "id": "2609.11042",
+      "title": "T1: Terminal Agent Reinforcement Learning for Long-Horizon Tasks",
+      "authors": [
+        "Junyao Yang",
+        "Yucheng Shi",
+        "Zhongzhi Li",
+        "Ruhan Wang",
+        "Zongxia Li",
+        "Haitao Mi",
+        "Leowei Liang"
+      ],
+      "upvotes": 66,
+      "github": null,
+      "published": "2026-09-10T00:00:00.000Z"
+    },
+    {
+      "id": "2609.08572",
+      "title": "AgentGrad: Intervention-guided Prompt Optimization for Multi Agent Systems",
+      "authors": [
+        "Jaewon Chu",
+        "Jinwoo Seo",
+        "Jaewon Cho",
+        "Jeehye Na",
+        "Yunyang Xiong",
+        "Youngdae Kim",
+        "Hyunwoo J. Kim"
+      ],
+      "upvotes": 34,
+      "github": null,
+      "published": "2026-09-08T00:00:00.000Z"
+    },
+    {
+      "id": "2609.05405",
+      "title": "WearableQA: A Benchmark for Health Reasoning over Real-World Wearable Data",
+      "authors": [
+        "Ji Soo Lee",
+        "Xilun Chen",
+        "Pierce Chuang",
+        "Ashish Shenoy",
+        "Jason Wei",
+        "Dohwan Ko",
+        "Hyunwoo J. Kim",
+        "Benoit Corda"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/facebookresearch/WearableQA",
+      "published": "2026-09-04T00:00:00.000Z"
+    },
+    {
+      "id": "2609.06702",
+      "title": "PARSER: Read in Parallel, Reason in Depth for Long-Context LLM Agents",
+      "authors": [
+        "Kun Li",
+        "Zexuan Qiu",
+        "Tianhua Zhang",
+        "Irwin King",
+        "Helen Meng"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/cuhk-parser/PARSER",
+      "published": "2026-09-06T00:00:00.000Z"
+    },
+    {
+      "id": "2609.07103",
+      "title": "Revisiting Complete Reasoning Traces for Post-Training",
+      "authors": [
+        "Jaehui Hwang",
+        "Sangdoo Yun",
+        "Byeongho Heo",
+        "Dongyoon Han"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/naver-ai/revisiting-trace",
+      "published": "2026-09-07T00:00:00.000Z"
+    },
+    {
+      "id": "2609.09113",
+      "title": "SAEScientist-Bench: Can AI Agents Conduct Autonomous SAE Interpretability Research?",
+      "authors": [
+        "Yuqiao Tan",
+        "Shizhu He",
+        "Jun Zhao",
+        "Kang Liu"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/Trae1ounG/SAEScientist",
+      "published": "2026-09-08T00:00:00.000Z"
+    },
+    {
+      "id": "2609.00369",
+      "title": "Puppeteer: Object-Grounded Posture-Aware Co-Speech Gesture Generation",
+      "authors": [
+        "Vida Adeli",
+        "Soroush Mehraban",
+        "Jacob Rommann",
+        "Harrison Sanborn",
+        "Cole Clifford",
+        "Babak Taati"
+      ],
+      "upvotes": 20,
+      "github": null,
+      "published": "2026-08-31T00:00:00.000Z"
+    },
+    {
+      "id": "2609.10226",
+      "title": "Φ-Bench: Can Large Language Models Engineer the Infrastructure That Powers Them?",
+      "authors": [
+        "Leilei Ding",
+        "Shumin Wang",
+        "Yuting Huang",
+        "Fanqi Wan",
+        "Yinmin Zhang",
+        "Qi Han",
+        "Yiming Xu",
+        "Feiyuan Zhang",
+        "Xiaomeng Chu",
+        "Guoliang You",
+        "Wuyang Zhang",
+        "Daxin Jiang",
+        "Yanyong Zhang"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/one2piece2hello/faibench_Frontier_InfraBench",
+      "published": "2026-09-09T00:00:00.000Z"
+    },
+    {
+      "id": "2609.10355",
+      "title": "Why Is Video Still So Expensive? A Survey of Inference-Efficiency Mechanisms in Video and Audiovisual LLMs",
+      "authors": [
+        "Killian Steunou",
+        "Yannis Tevissen",
+        "Mounîm A. El Yacoubi"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/momentslab/awesome-efficient-videollm",
+      "published": "2026-09-09T00:00:00.000Z"
+    },
+    {
+      "id": "2609.09155",
+      "title": "SyncWorld: Visual Calibration Enables World Models as Zero-Shot Simulators",
+      "authors": [
+        "Yuncong Yang",
+        "Zhengtao Han",
+        "Furkan Ozyurt",
+        "Zeyuan Yang",
+        "Han Yang",
+        "Junyi Cao",
+        "Haoyu Zhen",
+        "Yilun Du",
+        "Chuang Gan"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/UMass-Embodied-AGI/SyncWorld",
+      "published": "2026-09-08T00:00:00.000Z"
+    },
+    {
+      "id": "2609.09219",
+      "title": "Scores Alone Do Not Prove Discovery: The Discovery Certification Protocol for Auditing AI Research Agents",
+      "authors": [
+        "Jingjie Ning",
+        "Shanshan Zhong",
+        "Xiaochuan Li",
+        "Ji Zeng"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/cxcscmu/Discovery-Certification-Protocol",
+      "published": "2026-09-07T00:00:00.000Z"
+    },
+    {
+      "id": "2609.09187",
+      "title": "AgenticGen: Reward-Guided Agentic Video Generation for Advertising",
+      "authors": [
+        "Xingyuan Bu",
+        "Chengru Song",
+        "Hao Zhou",
+        "Tao Zhou",
+        "Dong Li",
+        "Wei Li",
+        "Shilong Li",
+        "Hao Shi",
+        "Yongxin Guo",
+        "Donghao Zhou",
+        "Qiangpeng Yang",
+        "Shilei Wen"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2026-08-31T00:00:00.000Z"
+    },
+    {
+      "id": "2609.08149",
+      "title": "SWE-Bench Pro Verified: A Reliable Benchmark for Software Engineering Agents",
+      "authors": [
+        "Pujun Zheng",
+        "Zixin Shang",
+        "Shufan Jiang",
+        "Wenhui Tian",
+        "Dongsheng Zhu",
+        "Zerun Ma",
+        "Dingbo Yuan",
+        "Qi Zhang"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2026-09-08T00:00:00.000Z"
+    },
+    {
+      "id": "2609.08126",
+      "title": "SchemeArena: Factorized Stress Testing of Scheming in LLM Agents",
+      "authors": [
+        "Jie Ruan",
+        "Inderjeet Nair",
+        "Amy Liu",
+        "Muhammad Khalifa",
+        "Yusheng Zhou",
+        "Lu Wang"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/launchnlp/SchemeArena",
+      "published": "2026-09-08T00:00:00.000Z"
+    },
+    {
+      "id": "2609.06703",
+      "title": "DianShi-RxnDB: A Large-Scale, Fine-Grained Organic Reaction Data Platform Built via a Fully Automated Pipeline for Researchers and AI Agents",
+      "authors": [
+        "Yubin Wang",
+        "Xingjian Wei",
+        "Jiang Wu",
+        "Yinfan Wang",
+        "Boyu Zhu",
+        "Lin Zhang",
+        "Jianing Yu",
+        "Huazheng Zeng",
+        "Ruiyi Ding",
+        "Junyuan Gao",
+        "Jiaxing Sun",
+        "Lingli Ge",
+        "Haote Yang",
+        "Jingchao Wang",
+        "Aijia Guo",
+        "Qian Jiang",
+        "Yurui Zhao",
+        "Wenjian Zhang",
+        "Chen Zhu",
+        "Lijun Wu",
+        "Xiaolei Yang",
+        "Haodong Chen",
+        "Junjie Yuan",
+        "Zichao Ye",
+        "Shaowei Hou",
+        "Jing Ye",
+        "Jia Yu",
+        "Shan Wang",
+        "Lijun Wu",
+        "Jiantao Qiu",
+        "Chao Xu",
+        "Yuqiang Li",
+        "Guangyu Wang",
+        "Bowen Zhou",
+        "Dahua Lin",
+        "Conghui He"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2026-09-06T00:00:00.000Z"
+    },
+    {
+      "id": "2609.09134",
+      "title": "Co-Evolving Harnesses and Models: On-Policy Correction Helps Weaker Models Catch Up Where Imitation Fails",
+      "authors": [
+        "Zhou Yu",
+        "Bin Bi",
+        "Shiva Kumar Pentyala",
+        "Shubham Mehrotra",
+        "Sougata Chaudhuri",
+        "Shilpa Bhagavath",
+        "Zeyuan Chen",
+        "Ran Xu",
+        "Phil Mui",
+        "James Zhu",
+        "Sitaram Asur"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2026-09-08T00:00:00.000Z"
+    },
+    {
+      "id": "2609.09264",
+      "title": "StochBench: A Domain-Specific Benchmark for Stochastic Processes in Lean",
+      "authors": [
+        "Idan Davidovich",
+        "Debargha Ganguly",
+        "Vikash Singh",
+        "Vipin Chaudhary"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2026-09-08T00:00:00.000Z"
+    },
+    {
+      "id": "2609.05779",
+      "title": "Diffs vs. Whole Files: An Empirical Comparison of Iterative Edit-Based and Direct Generation for Flutter/Dart Code Models",
+      "authors": [
+        "Andrej Andrejev"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/bbidpa/rainbow-pony",
+      "published": "2026-09-05T00:00:00.000Z"
+    },
+    {
+      "id": "2609.08650",
+      "title": "Difficulty-Adaptive Tree-Structured Policy Optimization for Expanding Reasoning Coverage in RLVR",
+      "authors": [
+        "Youngjun Yu",
+        "Sanghwan Jang",
+        "Hwanjo Yu"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/colin31472/DATPO",
+      "published": "2026-09-08T00:00:00.000Z"
+    },
+    {
+      "id": "2609.05463",
+      "title": "A Three-Layer Caching Architecture for Low-Latency LLM Web Search on Commodity CPU Hardware",
+      "authors": [
+        "Ayushman Bhattacharya",
+        "Nihal Gazi"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/pollinations/search.elixpo",
+      "published": "2026-08-12T00:00:00.000Z"
+    },
+    {
+      "id": "2609.06490",
+      "title": "OracleZoom: On-Policy Self-Distillation Inspired Reference-Constrained Recursive Image Super Resolution",
+      "authors": [
+        "Shubhashis Roy Dipta",
+        "Sourajit Saha",
+        "Shaswati Saha",
+        "Nobin Sarwar"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/dipta007/OracleZoom",
+      "published": "2026-09-06T00:00:00.000Z"
+    },
+    {
+      "id": "2609.08965",
+      "title": "PlannerForge: LLM Agents for Scenario-Based Testing of Motion Planners in Autonomous Driving",
+      "authors": [
+        "Yuan Gao",
+        "Sebastian Müller",
+        "Mattia Piccinini",
+        "Marc Kaufeld",
+        "Yuchen Zhang",
+        "Finn Rasmus Schäfer",
+        "Qunying Song",
+        "Johannes Betz"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/TUM-AVS/PlannerForge",
+      "published": "2026-09-08T00:00:00.000Z"
+    },
+    {
+      "id": "2609.06806",
+      "title": "Train Smarter, Not Harder: Switching Signal-Guided Training in Active Learning",
+      "authors": [
+        "Nagham Omar",
+        "Maya Rozenshtein",
+        "Evgeny Mishlyakov",
+        "Avigdor Gal"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/naghamo/hybridAL",
+      "published": "2026-09-06T00:00:00.000Z"
+    },
+    {
+      "id": "2609.07369",
+      "title": "DF26: We Cannot Tell Fake From Real Anymore",
+      "authors": [
+        "Severyn Shykula",
+        "Andrii Yermakov",
+        "Ivan Samarskyi",
+        "Dmytro Mishkin",
+        "Jan Cech",
+        "Anastasiia Mishchuk"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2026-09-07T00:00:00.000Z"
+    },
+    {
+      "id": "2609.10296",
+      "title": "The Semantic Bottleneck: Leveraging Semantic Representations for Non-Invasive Speech Decoding",
+      "authors": [
+        "Gilad D. Landau",
+        "Dulhan Jayalath",
+        "Oiwi Parker Jones"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-09-09T00:00:00.000Z"
+    },
+    {
+      "id": "2509.01809",
+      "title": "The Price of Sparsity: Sufficient Conditions for Sparse Recovery using Sparse and Sparsified Measurements",
+      "authors": [
+        "Youssef Chaabouni",
+        "David Gamarnik"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-09-08T00:00:00.000Z"
+    },
+    {
+      "id": "2609.02771",
+      "title": "From Reweighting to Rewriting: Unlocking the Intervention Effects of Influential Samples in Training Data Attribution",
+      "authors": [
+        "Yuzhang Luo",
+        "Chenpeng Wang",
+        "Jianhui Chen",
+        "Liangming Pan"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-09-02T00:00:00.000Z"
+    },
+    {
+      "id": "2609.09657",
+      "title": "RESCUE-BENCH: Towards Relation-Aware Multi-Party Emotional Support Conversation Systems",
+      "authors": [
+        "Haichuan Hu",
+        "Yang Xiao",
+        "Mingni Tang",
+        "Jiawen Duan",
+        "Quanjun Zhang",
+        "Congqing He",
+        "Hao Zhang",
+        "Jiashuo Wang",
+        "Johan F. Hoorn",
+        "Wenjie Li"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/Tomsawyerhu/RESCUE-bench",
+      "published": "2026-09-09T00:00:00.000Z"
+    },
+    {
+      "id": "2609.10060",
+      "title": "Reference-Based Bias Detection in LLMs via Relative Representations of Hidden States",
+      "authors": [
+        "Marek Jeliński",
+        "Jan Dubiński",
+        "Maciej Chrabaszcz",
+        "Sebastian Cygert"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2026-09-09T00:00:00.000Z"
+    }
+  ]
+}

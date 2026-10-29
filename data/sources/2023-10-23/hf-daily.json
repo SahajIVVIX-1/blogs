@@ -1,0 +1,255 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2023-10-23",
+  "fetched_at": "2026-10-29T15:25:44.201Z",
+  "candidates": [
+    {
+      "id": "2310.13639",
+      "title": "Contrastive Prefence Learning: Learning from Human Feedback without RL",
+      "authors": [
+        "Joey Hejna",
+        "Rafael Rafailov",
+        "Harshit Sikchi",
+        "Chelsea Finn",
+        "Scott Niekum",
+        "W. Bradley Knox",
+        "Dorsa Sadigh"
+      ],
+      "upvotes": 25,
+      "github": null,
+      "published": "2023-10-20T16:37:56.000Z"
+    },
+    {
+      "id": "2310.13671",
+      "title": "Let's Synthesize Step by Step: Iterative Dataset Synthesis with Large Language Models by Extrapolating Errors from Small Models",
+      "authors": [
+        "Ruida Wang",
+        "Wangchunshu Zhou",
+        "Mrinmaya Sachan"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/rickyskywalker/synthesis_step-by-step_official",
+      "published": "2023-10-20T17:14:25.000Z"
+    },
+    {
+      "id": "2310.13268",
+      "title": "DPM-Solver-v3: Improved Diffusion ODE Solver with Empirical Model Statistics",
+      "authors": [
+        "Kaiwen Zheng",
+        "Cheng Lu",
+        "Jianfei Chen",
+        "Jun Zhu"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/thu-ml/DPM-Solver-v3",
+      "published": "2023-10-20T04:23:12.000Z"
+    },
+    {
+      "id": "2310.13289",
+      "title": "SALMONN: Towards Generic Hearing Abilities for Large Language Models",
+      "authors": [
+        "Changli Tang",
+        "Wenyi Yu",
+        "Guangzhi Sun",
+        "Xianzhao Chen",
+        "Tian Tan",
+        "Wei Li",
+        "Lu Lu",
+        "Zejun Ma",
+        "Chao Zhang"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/bytedance/salmonn",
+      "published": "2023-10-20T05:41:57.000Z"
+    },
+    {
+      "id": "2310.13332",
+      "title": "Democratizing Reasoning Ability: Tailored Learning from Large Language Model",
+      "authors": [
+        "Zhaoyang Wang",
+        "Shaohan Huang",
+        "Yuxuan Liu",
+        "Jiahai Wang",
+        "Minghui Song",
+        "Zihan Zhang",
+        "Haizhen Huang",
+        "Furu Wei",
+        "Weiwei Deng",
+        "Feng Sun",
+        "Qi Zhang"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/raibows/learn-to-reason",
+      "published": "2023-10-20T07:50:10.000Z"
+    },
+    {
+      "id": "2310.13227",
+      "title": "ToolChain*: Efficient Action Space Navigation in Large Language Models with A* Search",
+      "authors": [
+        "Yuchen Zhuang",
+        "Xiang Chen",
+        "Tong Yu",
+        "Saayan Mitra",
+        "Victor Bursztyn",
+        "Ryan A. Rossi",
+        "Somdeb Sarkhel",
+        "Chao Zhang"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2023-10-20T02:24:35.000Z"
+    },
+    {
+      "id": "2310.13119",
+      "title": "DreamSpace: Dreaming Your Room Space with Text-Driven Panoramic Texture Propagation",
+      "authors": [
+        "Bangbang Yang",
+        "Wenqi Dong",
+        "Lin Ma",
+        "Wenbo Hu",
+        "Xiao Liu",
+        "Zhaopeng Cui",
+        "Yuewen Ma"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/ybbbbt/dreamspace",
+      "published": "2023-10-19T19:29:23.000Z"
+    },
+    {
+      "id": "2310.13522",
+      "title": "Teaching Language Models to Self-Improve through Interactive Demonstrations",
+      "authors": [
+        "Xiao Yu",
+        "Baolin Peng",
+        "Michel Galley",
+        "Jianfeng Gao",
+        "Zhou Yu"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/jasonyux/tripost",
+      "published": "2023-10-20T14:11:04.000Z"
+    },
+    {
+      "id": "2310.13127",
+      "title": "Auto-Instruct: Automatic Instruction Generation and Ranking for Black-Box Language Models",
+      "authors": [
+        "Zhihan Zhang",
+        "Shuohang Wang",
+        "Wenhao Yu",
+        "Yichong Xu",
+        "Dan Iter",
+        "Qingkai Zeng",
+        "Yang Liu",
+        "Chenguang Zhu",
+        "Meng Jiang"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2023-10-19T19:52:55.000Z"
+    },
+    {
+      "id": "2310.13385",
+      "title": "Tuna: Instruction Tuning using Feedback from Large Language Models",
+      "authors": [
+        "Haoran Li",
+        "Yiran Liu",
+        "Xingxing Zhang",
+        "Wei Lu",
+        "Furu Wei"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2023-10-20T09:55:06.000Z"
+    },
+    {
+      "id": "2310.13065",
+      "title": "Creative Robot Tool Use with Large Language Models",
+      "authors": [
+        "Mengdi Xu",
+        "Peide Huang",
+        "Wenhao Yu",
+        "Shiqi Liu",
+        "Xilun Zhang",
+        "Yaru Niu",
+        "Tingnan Zhang",
+        "Fei Xia",
+        "Jie Tan",
+        "Ding Zhao"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2023-10-19T18:02:15.000Z"
+    },
+    {
+      "id": "2310.13355",
+      "title": "SILC: Improving Vision Language Pretraining with Self-Distillation",
+      "authors": [
+        "Muhammad Ferjad Naeem",
+        "Yongqin Xian",
+        "Xiaohua Zhai",
+        "Lukas Hoyer",
+        "Luc Van Gool",
+        "Federico Tombari"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2023-10-20T08:44:47.000Z"
+    },
+    {
+      "id": "2310.13012",
+      "title": "H2O Open Ecosystem for State-of-the-art Large Language Models",
+      "authors": [
+        "Arno Candel",
+        "Jon McKinney",
+        "Philipp Singer",
+        "Pascal Pfeiffer",
+        "Maximilian Jeblick",
+        "Chun Ming Lee",
+        "Marcos V. Conde"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/h2oai/h2ogpt",
+      "published": "2023-10-17T09:40:58.000Z"
+    },
+    {
+      "id": "2310.13548",
+      "title": "Towards Understanding Sycophancy in Language Models",
+      "authors": [
+        "Mrinank Sharma",
+        "Meg Tong",
+        "Tomasz Korbak",
+        "David Duvenaud",
+        "Amanda Askell",
+        "Samuel R. Bowman",
+        "Newton Cheng",
+        "Esin Durmus",
+        "Zac Hatfield-Dodds",
+        "Scott R. Johnston",
+        "Shauna Kravec",
+        "Timothy Maxwell",
+        "Sam McCandlish",
+        "Kamal Ndousse",
+        "Oliver Rausch",
+        "Nicholas Schiefer",
+        "Da Yan",
+        "Miranda Zhang",
+        "Ethan Perez"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/meg-tong/sycophancy-eval",
+      "published": "2023-10-20T14:46:48.000Z"
+    },
+    {
+      "id": "2310.13545",
+      "title": "ScaleLong: Towards More Stable Training of Diffusion Model via Scaling Network Long Skip Connection",
+      "authors": [
+        "Zhongzhan Huang",
+        "Pan Zhou",
+        "Shuicheng Yan",
+        "Liang Lin"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/sail-sg/scalelong",
+      "published": "2023-10-20T14:45:52.000Z"
+    }
+  ]
+}

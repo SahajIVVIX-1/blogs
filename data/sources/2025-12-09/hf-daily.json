@@ -1,0 +1,535 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-12-09",
+  "fetched_at": "2026-10-29T15:34:02.472Z",
+  "candidates": [
+    {
+      "id": "2512.07461",
+      "title": "Native Parallel Reasoner: Reasoning in Parallelism via Self-Distilled Reinforcement Learning",
+      "authors": [
+        "Tong Wu",
+        "Yang Liu",
+        "Jun Bai",
+        "Zixia Jia",
+        "Shuyi Zhang",
+        "Ziyong Lin",
+        "Yanting Wang",
+        "Song-Chun Zhu",
+        "Zilong Zheng"
+      ],
+      "upvotes": 73,
+      "github": "https://github.com/bigai-nlco/Native-Parallel-Reasoner",
+      "published": "2025-12-08T11:39:43.000Z"
+    },
+    {
+      "id": "2512.07525",
+      "title": "Beyond Real: Imaginary Extension of Rotary Position Embeddings for Long-Context LLMs",
+      "authors": [
+        "Xiaoran Liu",
+        "Yuerong Song",
+        "Zhigeng Liu",
+        "Zengfeng Huang",
+        "Qipeng Guo",
+        "Zhaoxiang Liu",
+        "Shiguo Lian",
+        "Ziwei He",
+        "Xipeng Qiu"
+      ],
+      "upvotes": 60,
+      "github": "https://github.com/OpenMOSS/rope_pp",
+      "published": "2025-12-08T12:59:54.000Z"
+    },
+    {
+      "id": "2512.07469",
+      "title": "Unified Video Editing with Temporal Reasoner",
+      "authors": [
+        "Xiangpeng Yang",
+        "Ji Xie",
+        "Yiyuan Yang",
+        "Yan Huang",
+        "Min Xu",
+        "Qiang Wu"
+      ],
+      "upvotes": 48,
+      "github": "https://github.com/knightyxp/VideoCoF",
+      "published": "2025-12-08T11:50:18.000Z"
+    },
+    {
+      "id": "2512.07834",
+      "title": "Voxify3D: Pixel Art Meets Volumetric Rendering",
+      "authors": [
+        "Yi-Chuan Huang",
+        "Jiewen Chan",
+        "Hao-Jen Chien",
+        "Yu-Lun Liu"
+      ],
+      "upvotes": 45,
+      "github": null,
+      "published": "2025-12-08T18:59:58.000Z"
+    },
+    {
+      "id": "2512.07783",
+      "title": "On the Interplay of Pre-Training, Mid-Training, and RL on Reasoning Language Models",
+      "authors": [
+        "Charlie Zhang",
+        "Graham Neubig",
+        "Xiang Yue"
+      ],
+      "upvotes": 41,
+      "github": "https://github.com/Interplay-LM-Reasoning/Interplay-LM-Reasoning",
+      "published": "2025-12-08T18:12:10.000Z"
+    },
+    {
+      "id": "2512.06905",
+      "title": "Scaling Zero-Shot Reference-to-Video Generation",
+      "authors": [
+        "Zijian Zhou",
+        "Shikun Liu",
+        "Haozhe Liu",
+        "Haonan Qiu",
+        "Zhaochong An",
+        "Weiming Ren",
+        "Zhiheng Liu",
+        "Xiaoke Huang",
+        "Kam Woh Ng",
+        "Tian Xie",
+        "Xiao Han",
+        "Yuren Cong",
+        "Hang Li",
+        "Chuyan Zhu",
+        "Aditya Patel",
+        "Tao Xiang",
+        "Sen He"
+      ],
+      "upvotes": 29,
+      "github": "https://github.com/franciszzj/Saber",
+      "published": "2025-12-07T16:10:25.000Z"
+    },
+    {
+      "id": "2512.06065",
+      "title": "EgoEdit: Dataset, Real-Time Streaming Model, and Benchmark for Egocentric Video Editing",
+      "authors": [
+        "Runjia Li",
+        "Moayed Haji-Ali",
+        "Ashkan Mirzaei",
+        "Chaoyang Wang",
+        "Arpit Sahni",
+        "Ivan Skorokhodov",
+        "Aliaksandr Siarohin",
+        "Tomas Jakab",
+        "Junlin Han",
+        "Sergey Tulyakov",
+        "Philip Torr",
+        "Willi Menapace"
+      ],
+      "upvotes": 29,
+      "github": "https://github.com/snap-research/EgoEdit",
+      "published": "2025-12-05T18:57:05.000Z"
+    },
+    {
+      "id": "2512.07778",
+      "title": "Distribution Matching Variational AutoEncoder",
+      "authors": [
+        "Sen Ye",
+        "Jianning Pei",
+        "Mengde Xu",
+        "Shuyang Gu",
+        "Chunyu Wang",
+        "Liwei Wang",
+        "Han Hu"
+      ],
+      "upvotes": 28,
+      "github": "https://github.com/sen-ye/dmvae",
+      "published": "2025-12-08T17:59:47.000Z"
+    },
+    {
+      "id": "2512.06749",
+      "title": "DoVer: Intervention-Driven Auto Debugging for LLM Multi-Agent Systems",
+      "authors": [
+        "Ming Ma",
+        "Jue Zhang",
+        "Fangkai Yang",
+        "Yu Kang",
+        "Qingwei Lin",
+        "Saravan Rajmohan",
+        "Dongmei Zhang"
+      ],
+      "upvotes": 28,
+      "github": null,
+      "published": "2025-12-07T09:23:48.000Z"
+    },
+    {
+      "id": "2512.07584",
+      "title": "LongCat-Image Technical Report",
+      "authors": [
+        "Meituan LongCat Team",
+        "Hanghang Ma",
+        "Haoxian Tan",
+        "Jiale Huang",
+        "Junqiang Wu",
+        "Jun-Yan He",
+        "Lishuai Gao",
+        "Songlin Xiao",
+        "Xiaoming Wei",
+        "Xiaoqi Ma",
+        "Xunliang Cai",
+        "Yayong Guan",
+        "Jie Hu"
+      ],
+      "upvotes": 26,
+      "github": "https://github.com/meituan-longcat/LongCat-Image",
+      "published": "2025-12-08T14:26:40.000Z"
+    },
+    {
+      "id": "2512.07829",
+      "title": "One Layer Is Enough: Adapting Pretrained Visual Encoders for Image Generation",
+      "authors": [
+        "Yuan Gao",
+        "Chen Chen",
+        "Tianrong Chen",
+        "Jiatao Gu"
+      ],
+      "upvotes": 25,
+      "github": null,
+      "published": "2025-12-08T18:57:26.000Z"
+    },
+    {
+      "id": "2512.07833",
+      "title": "Relational Visual Similarity",
+      "authors": [
+        "Thao Nguyen",
+        "Sicheng Mo",
+        "Krishna Kumar Singh",
+        "Yilin Wang",
+        "Jing Shi",
+        "Nicholas Kolkin",
+        "Eli Shechtman",
+        "Yong Jae Lee",
+        "Yuheng Li"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/thaoshibe/relsim",
+      "published": "2025-12-08T18:59:56.000Z"
+    },
+    {
+      "id": "2512.07806",
+      "title": "Multi-view Pyramid Transformer: Look Coarser to See Broader",
+      "authors": [
+        "Gyeongjin Kang",
+        "Seungkwon Yang",
+        "Seungtae Nam",
+        "Younggeun Lee",
+        "Jungwoo Kim",
+        "Eunbyung Park"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/Gynjn/MVP",
+      "published": "2025-12-08T18:39:27.000Z"
+    },
+    {
+      "id": "2512.06589",
+      "title": "OmniSafeBench-MM: A Unified Benchmark and Toolbox for Multimodal Jailbreak Attack-Defense Evaluation",
+      "authors": [
+        "Xiaojun Jia",
+        "Jie Liao",
+        "Qi Guo",
+        "Teng Ma",
+        "Simeng Qin",
+        "Ranjie Duan",
+        "Tianlin Li",
+        "Yihao Huang",
+        "Zhitao Zeng",
+        "Dongxian Wu",
+        "Yiming Li",
+        "Wenqi Ren",
+        "Xiaochun Cao",
+        "Yang Liu"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/jiaxiaojunQAQ/OmniSafeBench-MM",
+      "published": "2025-12-06T22:56:29.000Z"
+    },
+    {
+      "id": "2512.08294",
+      "title": "OpenSubject: Leveraging Video-Derived Identity and Diversity Priors for Subject-driven Image Generation and Manipulation",
+      "authors": [
+        "Yexin Liu",
+        "Manyuan Zhang",
+        "Yueze Wang",
+        "Hongyu Li",
+        "Dian Zheng",
+        "Weiming Zhang",
+        "Changsheng Lu",
+        "Xunliang Cai",
+        "Yan Feng",
+        "Peng Pei",
+        "Harry Yang"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/LAW1223/OpenSubject",
+      "published": "2025-12-09T06:49:33.000Z"
+    },
+    {
+      "id": "2512.03244",
+      "title": "SPARK: Stepwise Process-Aware Rewards for Reference-Free Reinforcement Learning",
+      "authors": [
+        "Salman Rahman",
+        "Sruthi Gorantla",
+        "Arpit Gupta",
+        "Swastik Roy",
+        "Nanyun Peng",
+        "Yang Liu"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2025-12-02T21:30:47.000Z"
+    },
+    {
+      "id": "2512.07831",
+      "title": "UnityVideo: Unified Multi-Modal Multi-Task Learning for Enhancing World-Aware Video Generation",
+      "authors": [
+        "Jiehui Huang",
+        "Yuechen Zhang",
+        "Xu He",
+        "Yuan Gao",
+        "Zhi Cen",
+        "Bin Xia",
+        "Yan Zhou",
+        "Xin Tao",
+        "Pengfei Wan",
+        "Jiaya Jia"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/dvlab-research/UnityVideo",
+      "published": "2025-12-08T18:59:01.000Z"
+    },
+    {
+      "id": "2511.23469",
+      "title": "Visual Generation Tuning",
+      "authors": [
+        "Jiahao Guo",
+        "Sinan Du",
+        "Jingfeng Yao",
+        "Wenyu Liu",
+        "Bo Li",
+        "Haoxiang Cao",
+        "Kun Gai",
+        "Chun Yuan",
+        "Kai Wu",
+        "Xinggang Wang"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/hustvl/VGT",
+      "published": "2025-11-28T18:57:13.000Z"
+    },
+    {
+      "id": "2512.03621",
+      "title": "ReCamDriving: LiDAR-Free Camera-Controlled Novel Trajectory Video Generation",
+      "authors": [
+        "Yaokun Li",
+        "Shuaixian Wang",
+        "Mantang Guo",
+        "Jiehui Huang",
+        "Taojun Ding",
+        "Mu Hu",
+        "Kaixuan Wang",
+        "Shaojie Shen",
+        "Guang Tan"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/Iron-LYK/ReCamDriving",
+      "published": "2025-12-03T09:55:25.000Z"
+    },
+    {
+      "id": "2512.06421",
+      "title": "Rethinking Training Dynamics in Scale-wise Autoregressive Generation",
+      "authors": [
+        "Gengze Zhou",
+        "Chongjian Ge",
+        "Hao Tan",
+        "Feng Liu",
+        "Yicong Hong"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/GengzeZhou/SAR",
+      "published": "2025-12-06T12:41:42.000Z"
+    },
+    {
+      "id": "2512.07805",
+      "title": "Group Representational Position Encoding",
+      "authors": [
+        "Yifan Zhang",
+        "Zixiang Chen",
+        "Yifeng Liu",
+        "Zhen Qin",
+        "Huizhuo Yuan",
+        "Kangping Xu",
+        "Yang Yuan",
+        "Quanquan Gu",
+        "Andrew Chi-Chih Yao"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/model-architectures/GRAPE",
+      "published": "2025-12-08T18:39:13.000Z"
+    },
+    {
+      "id": "2512.06963",
+      "title": "VideoVLA: Video Generators Can Be Generalizable Robot Manipulators",
+      "authors": [
+        "Yichao Shen",
+        "Fangyun Wei",
+        "Zhiying Du",
+        "Yaobo Liang",
+        "Yan Lu",
+        "Jiaolong Yang",
+        "Nanning Zheng",
+        "Baining Guo"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-12-07T18:57:15.000Z"
+    },
+    {
+      "id": "2512.06835",
+      "title": "Decouple to Generalize: Context-First Self-Evolving Learning for Data-Scarce Vision-Language Reasoning",
+      "authors": [
+        "Tingyu Li",
+        "Zheng Sun",
+        "Jingxuan Wei",
+        "Siyuan Li",
+        "Conghui He",
+        "Lijun Wu",
+        "Cheng Tan"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-12-07T13:17:31.000Z"
+    },
+    {
+      "id": "2512.06791",
+      "title": "Small-Gain Nash: Certified Contraction to Nash Equilibria in Differentiable Games",
+      "authors": [
+        "Vedansh Sharma"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/AashVed/SmallGainNash",
+      "published": "2025-12-07T11:11:36.000Z"
+    },
+    {
+      "id": "2512.06533",
+      "title": "Beyond Token-level Supervision: Unlocking the Potential of Decoding-based Regression via Reinforcement Learning",
+      "authors": [
+        "Ming Chen",
+        "Sheng Tang",
+        "Rong-Xi Tan",
+        "Ziniu Li",
+        "Jiacheng Chen",
+        "Ke Xue",
+        "Chao Qian"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2025-12-06T18:57:38.000Z"
+    },
+    {
+      "id": "2512.06373",
+      "title": "VG-Refiner: Towards Tool-Refined Referring Grounded Reasoning via Agentic Reinforcement Learning",
+      "authors": [
+        "Yuji Wang",
+        "Wenlong Liu",
+        "Jingxuan Niu",
+        "Haoji Zhang",
+        "Yansong Tang"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/VoyageWang/VG-Refiner",
+      "published": "2025-12-06T09:58:01.000Z"
+    },
+    {
+      "id": "2512.06558",
+      "title": "Embodied Referring Expression Comprehension in Human-Robot Interaction",
+      "authors": [
+        "Md Mofijul Islam",
+        "Alexi Gladstone",
+        "Sujan Sarker",
+        "Ganesh Nanduru",
+        "Md Fahim",
+        "Keyan Du",
+        "Aman Chadha",
+        "Tariq Iqbal"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2025-12-06T20:10:06.000Z"
+    },
+    {
+      "id": "2512.05100",
+      "title": "Structured Document Translation via Format Reinforcement Learning",
+      "authors": [
+        "Haiyue Song",
+        "Johannes Eschbach-Dymanus",
+        "Hour Kaing",
+        "Sumire Honda",
+        "Hideki Tanaka",
+        "Bianka Buschbeck",
+        "Masao Utiyama"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2025-12-04T18:58:30.000Z"
+    },
+    {
+      "id": "2512.07168",
+      "title": "JEPA as a Neural Tokenizer: Learning Robust Speech Representations with Density Adaptive Attention",
+      "authors": [
+        "Georgios Ioannides",
+        "Christos Constantinou",
+        "Aman Chadha",
+        "Aaron Elkins",
+        "Linsey Pang",
+        "Ravid Shwartz-Ziv",
+        "Yann LeCun"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2025-12-08T05:01:51.000Z"
+    },
+    {
+      "id": "2512.03704",
+      "title": "DZ-TDPO: Non-Destructive Temporal Alignment for Mutable State Tracking in Long-Context Dialogue",
+      "authors": [
+        "Yijun Liao"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/lyj20071013/DZ-TDPO",
+      "published": "2025-12-03T11:56:53.000Z"
+    },
+    {
+      "id": "2512.06032",
+      "title": "The SAM2-to-SAM3 Gap in the Segment Anything Model Family: Why Prompt-Based Expertise Fails in Concept-Driven Image Segmentation",
+      "authors": [
+        "Ranjan Sapkota",
+        "Konstantinos I. Roumeliotis",
+        "Manoj Karkee"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/Applied-AI-Research-Lab/The-SAM2-to-SAM3-Gap-in-the-Segment-Anything-Model-Family",
+      "published": "2025-12-04T16:27:18.000Z"
+    },
+    {
+      "id": "2512.06609",
+      "title": "Vector Quantization using Gaussian Variational Autoencoder",
+      "authors": [
+        "Tongda Xu",
+        "Wendi Zheng",
+        "Jiajun He",
+        "Jose Miguel Hernandez-Lobato",
+        "Yan Wang",
+        "Ya-Qin Zhang",
+        "Jie Tang"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/tongdaxu/VQ-VAE-from-Gaussian-VAE",
+      "published": "2025-12-07T00:57:58.000Z"
+    }
+  ]
+}

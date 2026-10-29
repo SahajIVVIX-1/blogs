@@ -1,0 +1,332 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-12-05",
+  "fetched_at": "2026-10-29T15:29:53.372Z",
+  "candidates": [
+    {
+      "id": "2412.03555",
+      "title": "PaliGemma 2: A Family of Versatile VLMs for Transfer",
+      "authors": [
+        "Andreas Steiner",
+        "André Susano Pinto",
+        "Michael Tschannen",
+        "Daniel Keysers",
+        "Xiao Wang",
+        "Yonatan Bitton",
+        "Alexey Gritsenko",
+        "Matthias Minderer",
+        "Anthony Sherbondy",
+        "Shangbang Long",
+        "Siyang Qin",
+        "Reeve Ingle",
+        "Emanuele Bugliarello",
+        "Sahar Kazemzadeh",
+        "Thomas Mesnard",
+        "Ibrahim Alabdulmohsin",
+        "Lucas Beyer",
+        "Xiaohua Zhai"
+      ],
+      "upvotes": 135,
+      "github": null,
+      "published": "2024-12-04T18:50:42.000Z"
+    },
+    {
+      "id": "2412.02687",
+      "title": "SNOOPI: Supercharged One-step Diffusion Distillation with Proper Guidance",
+      "authors": [
+        "Viet Nguyen",
+        "Anh Aengus Nguyen",
+        "Trung Dao",
+        "Khoi Nguyen",
+        "Cuong Pham",
+        "Toan Tran",
+        "Anh Tran"
+      ],
+      "upvotes": 112,
+      "github": null,
+      "published": "2024-12-03T18:56:32.000Z"
+    },
+    {
+      "id": "2412.03069",
+      "title": "TokenFlow: Unified Image Tokenizer for Multimodal Understanding and Generation",
+      "authors": [
+        "Liao Qu",
+        "Huichao Zhang",
+        "Yiheng Liu",
+        "Xu Wang",
+        "Yi Jiang",
+        "Yiming Gao",
+        "Hu Ye",
+        "Daniel K. Du",
+        "Zehuan Yuan",
+        "Xinglong Wu"
+      ],
+      "upvotes": 34,
+      "github": "https://github.com/ByteFlow-AI/TokenFlow",
+      "published": "2024-12-04T06:46:55.000Z"
+    },
+    {
+      "id": "2412.03552",
+      "title": "Imagine360: Immersive 360 Video Generation from Perspective Anchor",
+      "authors": [
+        "Jing Tan",
+        "Shuai Yang",
+        "Tong Wu",
+        "Jingwen He",
+        "Yuwei Guo",
+        "Ziwei Liu",
+        "Dahua Lin"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/YS-IMTech/Imagine360",
+      "published": "2024-12-04T18:50:08.000Z"
+    },
+    {
+      "id": "2412.03515",
+      "title": "Distilling Diffusion Models to Efficient 3D LiDAR Scene Completion",
+      "authors": [
+        "Shengyuan Zhang",
+        "An Zhao",
+        "Ling Yang",
+        "Zejian Li",
+        "Chenye Meng",
+        "Haoran Xu",
+        "Tianrun Chen",
+        "AnYang Wei",
+        "Perry Pengyun GU",
+        "Lingyun Sun"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/happyw1nd/scorelidar",
+      "published": "2024-12-04T17:57:25.000Z"
+    },
+    {
+      "id": "2412.01106",
+      "title": "One Shot, One Talk: Whole-body Talking Avatar from a Single Image",
+      "authors": [
+        "Jun Xiang",
+        "Yudong Guo",
+        "Leipeng Hu",
+        "Boyang Guo",
+        "Yancheng Yuan",
+        "Juyong Zhang"
+      ],
+      "upvotes": 24,
+      "github": null,
+      "published": "2024-12-02T04:27:41.000Z"
+    },
+    {
+      "id": "2411.19103",
+      "title": "VARCO-VISION: Expanding Frontiers in Korean Vision-Language Models",
+      "authors": [
+        "Jeongho Ju",
+        "Daeyoung Kim",
+        "SunYoung Park",
+        "Youngjune Kim"
+      ],
+      "upvotes": 22,
+      "github": null,
+      "published": "2024-11-28T12:38:42.000Z"
+    },
+    {
+      "id": "2412.02186",
+      "title": "VideoICL: Confidence-based Iterative In-context Learning for Out-of-Distribution Video Understanding",
+      "authors": [
+        "Kangsan Kim",
+        "Geon Park",
+        "Youngwan Lee",
+        "Woongyeong Yeo",
+        "Sung Ju Hwang"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/kangsankim07/videoicl",
+      "published": "2024-12-03T05:54:43.000Z"
+    },
+    {
+      "id": "2412.03558",
+      "title": "MIDI: Multi-Instance Diffusion for Single Image to 3D Scene Generation",
+      "authors": [
+        "Zehuan Huang",
+        "Yuan-Chen Guo",
+        "Xingqiao An",
+        "Yunhan Yang",
+        "Yangguang Li",
+        "Zi-Xin Zou",
+        "Ding Liang",
+        "Xihui Liu",
+        "Yan-Pei Cao",
+        "Lu Sheng"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/VAST-AI-Research/MIDI-3D",
+      "published": "2024-12-04T18:52:40.000Z"
+    },
+    {
+      "id": "2412.03517",
+      "title": "NVComposer: Boosting Generative Novel View Synthesis with Multiple Sparse and Unposed Images",
+      "authors": [
+        "Lingen Li",
+        "Zhaoyang Zhang",
+        "Yaowei Li",
+        "Jiale Xu",
+        "Xiaoyu Li",
+        "Wenbo Hu",
+        "Weihao Cheng",
+        "Jinwei Gu",
+        "Tianfan Xue",
+        "Ying Shan"
+      ],
+      "upvotes": 20,
+      "github": null,
+      "published": "2024-12-04T17:58:03.000Z"
+    },
+    {
+      "id": "2412.02030",
+      "title": "NitroFusion: High-Fidelity Single-Step Diffusion through Dynamic Adversarial Training",
+      "authors": [
+        "Dar-Yen Chen",
+        "Hmrishav Bandyopadhyay",
+        "Kai Zou",
+        "Yi-Zhe Song"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2024-12-02T23:20:35.000Z"
+    },
+    {
+      "id": "2412.02980",
+      "title": "Surveying the Effects of Quality, Diversity, and Complexity in Synthetic Data From Large Language Models",
+      "authors": [
+        "Alex Havrilla",
+        "Andrew Dai",
+        "Laura O'Mahony",
+        "Koen Oostermeijer",
+        "Vera Zisler",
+        "Alon Albalak",
+        "Fabrizio Milo",
+        "Sharath Chandra Raparthy",
+        "Kanishk Gandhi",
+        "Baber Abbasi",
+        "Duy Phung",
+        "Maia Iyer",
+        "Dakota Mahan",
+        "Chase Blagden",
+        "Srishti Gureja",
+        "Mohammed Hamdy",
+        "Wen-Ding Li",
+        "Giovanni Paolini",
+        "Pawan Sasanka Ammanamanchi",
+        "Elliot Meyerson"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2024-12-04T02:47:45.000Z"
+    },
+    {
+      "id": "2412.00493",
+      "title": "Video-3D LLM: Learning Position-Aware Video Representation for 3D Scene Understanding",
+      "authors": [
+        "Duo Zheng",
+        "Shijia Huang",
+        "Liwei Wang"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/LaVi-Lab/Video-3D-LLM",
+      "published": "2024-11-30T14:28:53.000Z"
+    },
+    {
+      "id": "2412.03439",
+      "title": "CleanDIFT: Diffusion Features without Noise",
+      "authors": [
+        "Nick Stracke",
+        "Stefan Andreas Baumann",
+        "Kolja Bauer",
+        "Frank Fundel",
+        "Björn Ommer"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/CompVis/cleandift",
+      "published": "2024-12-04T16:29:04.000Z"
+    },
+    {
+      "id": "2412.03205",
+      "title": "U-MATH: A University-Level Benchmark for Evaluating Mathematical Skills in LLMs",
+      "authors": [
+        "Konstantin Chernyshev",
+        "Vitaliy Polshkov",
+        "Ekaterina Artemova",
+        "Alex Myasnikov",
+        "Vlad Stepanov",
+        "Alexei Miasnikov",
+        "Sergei Tilga"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/toloka/u-math",
+      "published": "2024-12-04T10:44:50.000Z"
+    },
+    {
+      "id": "2412.03187",
+      "title": "Weighted-Reward Preference Optimization for Implicit Model Fusion",
+      "authors": [
+        "Ziyi Yang",
+        "Fanqi Wan",
+        "Longguang Zhong",
+        "Tianyuan Shi",
+        "Xiaojun Quan"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/SLIT-AI/WRPO",
+      "published": "2024-12-04T10:15:12.000Z"
+    },
+    {
+      "id": "2412.03085",
+      "title": "Mimir: Improving Video Diffusion Models for Precise Text Understanding",
+      "authors": [
+        "Shuai Tan",
+        "Biao Gong",
+        "Yutong Feng",
+        "Kecheng Zheng",
+        "Dandan Zheng",
+        "Shuwei Shi",
+        "Yujun Shen",
+        "Jingdong Chen",
+        "Ming Yang"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2024-12-04T07:26:44.000Z"
+    },
+    {
+      "id": "2412.03565",
+      "title": "Inst-IT: Boosting Multimodal Instance Understanding via Explicit Visual Prompt Instruction Tuning",
+      "authors": [
+        "Wujian Peng",
+        "Lingchen Meng",
+        "Yitong Chen",
+        "Yiweng Xie",
+        "Yang Liu",
+        "Tao Gui",
+        "Hang Xu",
+        "Xipeng Qiu",
+        "Zuxuan Wu",
+        "Yu-Gang Jiang"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/inst-it/inst-it",
+      "published": "2024-12-04T18:58:10.000Z"
+    },
+    {
+      "id": "2412.00177",
+      "title": "LumiNet: Latent Intrinsics Meets Diffusion Models for Indoor Scene Relighting",
+      "authors": [
+        "Xiaoyan Xing",
+        "Konrad Groh",
+        "Sezer Karaoglu",
+        "Theo Gevers",
+        "Anand Bhattad"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2024-11-29T18:59:11.000Z"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "2602.05400",
+  "title": "OPUS: Towards Efficient and Principled Data Selection in Large Language Model Pre-training in Every Iteration",
+  "authors": [
+    "Shaobo Wang",
+    "Xuan Ouyang",
+    "Tianyi Xu",
+    "Yuzheng Hu",
+    "Jialin Liu",
+    "Guo Chen",
+    "Tianyu Zhang",
+    "Junhao Zheng",
+    "Kexin Yang",
+    "Xingzhang Ren",
+    "Dayiheng Liu",
+    "Linfeng Zhang"
+  ],
+  "published": "2026-02-05T07:34:23Z",
+  "abstract": "As high-quality public text approaches exhaustion, a phenomenon known as the Data Wall, pre-training is shifting from more tokens to better tokens. However, existing methods either rely on heuristic static filters that ignore training dynamics, or use dynamic yet optimizer-agnostic criteria based on raw gradients. We propose OPUS (Optimizer-induced Projected Utility Selection), a dynamic data selection framework that defines utility in the optimizer-induced update space. OPUS scores candidates by projecting their effective updates, shaped by modern optimizers, onto a target direction derived from a stable, in-distribution proxy. To ensure scalability, we employ Ghost technique with CountSketch for computational efficiency, and Boltzmann sampling for data diversity, incurring only 4.7\\% additional compute overhead. OPUS achieves remarkable results across diverse corpora, quality tiers, optimizers, and model scales. In pre-training of GPT-2 Large/XL on FineWeb and FineWeb-Edu with 30B tokens, OPUS outperforms industrial-level baselines and even full 200B-token training. Moreover, when combined with industrial-level static filters, OPUS further improves pre-training efficiency, even with lower-quality data. Furthermore, in continued pre-training of Qwen3-8B-Base on SciencePedia, OPUS achieves superior performance using only 0.5B tokens compared to full training with 3B tokens, demonstrating significant data efficiency gains in specialized domains.",
+  "categories": [
+    "cs.CL"
+  ],
+  "abs": "https://arxiv.org/abs/2602.05400",
+  "pdf": "https://arxiv.org/pdf/2602.05400v2",
+  "source_url": "https://export.arxiv.org/api/query?id_list=2602.05400",
+  "fetched_at": "2026-10-29T15:51:00.683Z",
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "reusable_figures": true,
+  "github": null,
+  "upvotes": 275
+}

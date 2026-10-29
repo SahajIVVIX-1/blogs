@@ -1,0 +1,835 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-05-29",
+  "fetched_at": "2026-10-29T15:31:39.918Z",
+  "candidates": [
+    {
+      "id": "2505.22617",
+      "title": "The Entropy Mechanism of Reinforcement Learning for Reasoning Language Models",
+      "authors": [
+        "Ganqu Cui",
+        "Yuchen Zhang",
+        "Jiacheng Chen",
+        "Lifan Yuan",
+        "Zhi Wang",
+        "Yuxin Zuo",
+        "Haozhan Li",
+        "Yuchen Fan",
+        "Huayu Chen",
+        "Weize Chen",
+        "Zhiyuan Liu",
+        "Hao Peng",
+        "Lei Bai",
+        "Wanli Ouyang",
+        "Yu Cheng",
+        "Bowen Zhou",
+        "Ning Ding"
+      ],
+      "upvotes": 131,
+      "github": "https://github.com/PRIME-RL/Entropy-Mechanism-of-RL",
+      "published": "2025-05-28T17:38:45.000Z"
+    },
+    {
+      "id": "2505.20411",
+      "title": "SWE-rebench: An Automated Pipeline for Task Collection and Decontaminated Evaluation of Software Engineering Agents",
+      "authors": [
+        "Ibragim Badertdinov",
+        "Alexander Golubev",
+        "Maksim Nekrashevich",
+        "Anton Shevtsov",
+        "Simon Karasik",
+        "Andrei Andriushchenko",
+        "Maria Trofimova",
+        "Daria Litvintseva",
+        "Boris Yangel"
+      ],
+      "upvotes": 97,
+      "github": null,
+      "published": "2025-05-26T18:01:00.000Z"
+    },
+    {
+      "id": "2505.21600",
+      "title": "R2R: Efficiently Navigating Divergent Reasoning Paths with Small-Large Model Token Routing",
+      "authors": [
+        "Tianyu Fu",
+        "Yi Ge",
+        "Yichen You",
+        "Enshu Liu",
+        "Zhihang Yuan",
+        "Guohao Dai",
+        "Shengen Yan",
+        "Huazhong Yang",
+        "Yu Wang"
+      ],
+      "upvotes": 71,
+      "github": "https://github.com/thu-nics/R2R",
+      "published": "2025-05-27T16:57:20.000Z"
+    },
+    {
+      "id": "2505.22312",
+      "title": "Skywork Open Reasoner 1 Technical Report",
+      "authors": [
+        "Jujie He",
+        "Jiacai Liu",
+        "Chris Yuhao Liu",
+        "Rui Yan",
+        "Chaojie Wang",
+        "Peng Cheng",
+        "Xiaoyu Zhang",
+        "Fuxiang Zhang",
+        "Jiacheng Xu",
+        "Wei Shen",
+        "Siyuan Li",
+        "Liang Zeng",
+        "Tianwen Wei",
+        "Cheng Cheng",
+        "Bo An",
+        "Yang Liu",
+        "Yahui Zhou"
+      ],
+      "upvotes": 56,
+      "github": "https://github.com/SkyworkAI/Skywork-OR1",
+      "published": "2025-05-28T12:56:04.000Z"
+    },
+    {
+      "id": "2505.18600",
+      "title": "Chain-of-Zoom: Extreme Super-Resolution via Scale Autoregression and Preference Alignment",
+      "authors": [
+        "Bryan Sangwoo Kim",
+        "Jeongsol Kim",
+        "Jong Chul Ye"
+      ],
+      "upvotes": 49,
+      "github": "https://github.com/bryanswkim/Chain-of-Zoom",
+      "published": "2025-05-24T08:50:08.000Z"
+    },
+    {
+      "id": "2505.22453",
+      "title": "Unsupervised Post-Training for Multi-Modal LLM Reasoning via GRPO",
+      "authors": [
+        "Lai Wei",
+        "Yuting Li",
+        "Chen Wang",
+        "Yue Wang",
+        "Linghe Kong",
+        "Weiran Huang",
+        "Lichao Sun"
+      ],
+      "upvotes": 46,
+      "github": "https://github.com/waltonfuture/MM-UPT",
+      "published": "2025-05-28T15:11:16.000Z"
+    },
+    {
+      "id": "2505.21136",
+      "title": "SageAttention2++: A More Efficient Implementation of SageAttention2",
+      "authors": [
+        "Jintao Zhang",
+        "Xiaoming Xu",
+        "Jia Wei",
+        "Haofeng Huang",
+        "Pengle Zhang",
+        "Chendong Xiang",
+        "Jun Zhu",
+        "Jianfei Chen"
+      ],
+      "upvotes": 45,
+      "github": null,
+      "published": "2025-05-27T12:50:36.000Z"
+    },
+    {
+      "id": "2505.21925",
+      "title": "RenderFormer: Transformer-based Neural Rendering of Triangle Meshes with Global Illumination",
+      "authors": [
+        "Chong Zeng",
+        "Yue Dong",
+        "Pieter Peers",
+        "Hongzhi Wu",
+        "Xin Tong"
+      ],
+      "upvotes": 37,
+      "github": "https://github.com/microsoft/renderformer",
+      "published": "2025-05-28T03:20:46.000Z"
+    },
+    {
+      "id": "2505.22334",
+      "title": "Advancing Multimodal Reasoning via Reinforcement Learning with Cold Start",
+      "authors": [
+        "Lai Wei",
+        "Yuting Li",
+        "Kaipeng Zheng",
+        "Chen Wang",
+        "Yue Wang",
+        "Linghe Kong",
+        "Lichao Sun",
+        "Weiran Huang"
+      ],
+      "upvotes": 36,
+      "github": "https://github.com/waltonfuture/RL-with-Cold-Start",
+      "published": "2025-05-28T13:21:38.000Z"
+    },
+    {
+      "id": "2505.22648",
+      "title": "WebDancer: Towards Autonomous Information Seeking Agency",
+      "authors": [
+        "Jialong Wu",
+        "Baixuan Li",
+        "Runnan Fang",
+        "Wenbiao Yin",
+        "Liwen Zhang",
+        "Zhengwei Tao",
+        "Dingchu Zhang",
+        "Zekun Xi",
+        "Yong Jiang",
+        "Pengjun Xie",
+        "Fei Huang",
+        "Jingren Zhou"
+      ],
+      "upvotes": 33,
+      "github": null,
+      "published": "2025-05-28T17:57:07.000Z"
+    },
+    {
+      "id": "2505.22457",
+      "title": "Fostering Video Reasoning via Next-Event Prediction",
+      "authors": [
+        "Haonan Wang",
+        "Hongfu Liu",
+        "Xiangyan Liu",
+        "Chao Du",
+        "Kenji Kawaguchi",
+        "Ye Wang",
+        "Tianyu Pang"
+      ],
+      "upvotes": 29,
+      "github": "https://github.com/sail-sg/Video-Next-Event-Prediction",
+      "published": "2025-05-28T15:13:34.000Z"
+    },
+    {
+      "id": "2505.19253",
+      "title": "DeepResearchGym: A Free, Transparent, and Reproducible Evaluation Sandbox for Deep Research",
+      "authors": [
+        "João Coelho",
+        "Jingjie Ning",
+        "Jingyuan He",
+        "Kangrui Mao",
+        "Abhijay Paladugu",
+        "Pranav Setlur",
+        "Jiahe Jin",
+        "Jamie Callan",
+        "João Magalhães",
+        "Bruno Martins",
+        "Chenyan Xiong"
+      ],
+      "upvotes": 29,
+      "github": null,
+      "published": "2025-05-25T18:16:13.000Z"
+    },
+    {
+      "id": "2505.18366",
+      "title": "Hard Negative Mining for Domain-Specific Retrieval in Enterprise Systems",
+      "authors": [
+        "Hansa Meghwani",
+        "Amit Agarwal",
+        "Priyaranjan Pattnayak",
+        "Hitesh Laxmichand Patel",
+        "Srikant Panda"
+      ],
+      "upvotes": 25,
+      "github": null,
+      "published": "2025-05-23T20:51:20.000Z"
+    },
+    {
+      "id": "2505.17330",
+      "title": "FS-DAG: Few Shot Domain Adapting Graph Networks for Visually Rich Document Understanding",
+      "authors": [
+        "Amit Agarwal",
+        "Srikant Panda",
+        "Kulbhushan Pachauri"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/oracle-samples/fs-dag",
+      "published": "2025-05-22T22:53:58.000Z"
+    },
+    {
+      "id": "2505.22651",
+      "title": "Sherlock: Self-Correcting Reasoning in Vision-Language Models",
+      "authors": [
+        "Yi Ding",
+        "Ruqi Zhang"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/DripNowhy/Sherlock",
+      "published": "2025-05-28T17:58:03.000Z"
+    },
+    {
+      "id": "2505.19075",
+      "title": "Universal Reasoner: A Single, Composable Plug-and-Play Reasoner for Frozen LLMs",
+      "authors": [
+        "Jaemin Kim",
+        "Hangeol Chang",
+        "Hyunmin Hwang",
+        "Choonghan Kim",
+        "Jong Chul Ye"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/hangeol/unir",
+      "published": "2025-05-25T10:19:10.000Z"
+    },
+    {
+      "id": "2505.22202",
+      "title": "Let's Predict Sentence by Sentence",
+      "authors": [
+        "Hyeonbin Hwang",
+        "Byeongguk Jeon",
+        "Seungone Kim",
+        "Jiyeon Kim",
+        "Hoyeon Chang",
+        "Sohee Yang",
+        "Seungpil Won",
+        "Dohaeng Lee",
+        "Youbin Ahn",
+        "Minjoon Seo"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/hbin0701/pred-sent",
+      "published": "2025-05-28T10:28:35.000Z"
+    },
+    {
+      "id": "2505.22232",
+      "title": "Judging Quality Across Languages: A Multilingual Approach to Pretraining Data Filtering with Language Models",
+      "authors": [
+        "Mehdi Ali",
+        "Manuel Brack",
+        "Max Lübbering",
+        "Elias Wendt",
+        "Abbas Goher Khan",
+        "Richard Rutmann",
+        "Alex Jude",
+        "Maurice Kraus",
+        "Alexander Arno Weber",
+        "Felix Stollenwerk",
+        "David Kaczér",
+        "Florian Mai",
+        "Lucie Flek",
+        "Rafet Sifa",
+        "Nicolas Flores-Herr",
+        "Joachim Köhler",
+        "Patrick Schramowski",
+        "Michael Fromm",
+        "Kristian Kersting"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/JQL-AI/JQL-Annotation-Pipeline",
+      "published": "2025-05-28T11:06:54.000Z"
+    },
+    {
+      "id": "2505.22960",
+      "title": "Revisiting Multi-Agent Debate as Test-Time Scaling: A Systematic Study of Conditional Effectiveness",
+      "authors": [
+        "Yongjin Yang",
+        "Euiin Yi",
+        "Jongwoo Ko",
+        "Kimin Lee",
+        "Zhijing Jin",
+        "Se-Young Yun"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/euiin/MAD_as_TTS",
+      "published": "2025-05-29T01:02:55.000Z"
+    },
+    {
+      "id": "2505.18227",
+      "title": "Token Reduction Should Go Beyond Efficiency in Generative Models -- From Vision, Language to Multimodality",
+      "authors": [
+        "Zhenglun Kong",
+        "Yize Li",
+        "Fanhu Zeng",
+        "Lei Xin",
+        "Shvat Messica",
+        "Xue Lin",
+        "Pu Zhao",
+        "Manolis Kellis",
+        "Hao Tang",
+        "Marinka Zitnik"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/ZLKong/Awesome-Token-Compression-Reduction",
+      "published": "2025-05-23T11:30:30.000Z"
+    },
+    {
+      "id": "2505.22129",
+      "title": "What Makes for Text to 360-degree Panorama Generation with Stable Diffusion?",
+      "authors": [
+        "Jinhong Ni",
+        "Chang-Bin Zhang",
+        "Qiang Zhang",
+        "Jing Zhang"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/jinhong-ni/UniPano",
+      "published": "2025-05-28T08:54:04.000Z"
+    },
+    {
+      "id": "2505.22525",
+      "title": "Thinking with Generated Images",
+      "authors": [
+        "Ethan Chern",
+        "Zhulin Hu",
+        "Steffi Chern",
+        "Siqi Kou",
+        "Jiadi Su",
+        "Yan Ma",
+        "Zhijie Deng",
+        "Pengfei Liu"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/GAIR-NLP/thinking-with-generated-images",
+      "published": "2025-05-28T16:12:45.000Z"
+    },
+    {
+      "id": "2505.11821",
+      "title": "Reinforcing Multi-Turn Reasoning in LLM Agents via Turn-Level Credit Assignment",
+      "authors": [
+        "Siliang Zeng",
+        "Quan Wei",
+        "William Brown",
+        "Oana Frunza",
+        "Yuriy Nevmyvaka",
+        "Mingyi Hong"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/SiliangZeng/Multi-Turn-RL-Agent",
+      "published": "2025-05-17T04:09:46.000Z"
+    },
+    {
+      "id": "2505.18882",
+      "title": "Personalized Safety in LLMs: A Benchmark and A Planning-Based Agent Approach",
+      "authors": [
+        "Yuchen Wu",
+        "Edward Sun",
+        "Kaijie Zhu",
+        "Jianxun Lian",
+        "Jose Hernandez-Orallo",
+        "Aylin Caliskan",
+        "Jindong Wang"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2025-05-24T21:37:10.000Z"
+    },
+    {
+      "id": "2505.20779",
+      "title": "CHIMERA: A Knowledge Base of Idea Recombination in Scientific Literature",
+      "authors": [
+        "Noy Sternlicht",
+        "Tom Hope"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/noy-sternlicht/CHIMERA-KB",
+      "published": "2025-05-27T06:36:04.000Z"
+    },
+    {
+      "id": "2505.21887",
+      "title": "SVRPBench: A Realistic Benchmark for Stochastic Vehicle Routing Problem",
+      "authors": [
+        "Ahmed Heakl",
+        "Yahia Salaheldin Shaaban",
+        "Martin Takac",
+        "Salem Lahlou",
+        "Zangir Iklassov"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/yehias21/vrp-benchmarks",
+      "published": "2025-05-28T02:03:31.000Z"
+    },
+    {
+      "id": "2505.17663",
+      "title": "Towards Dynamic Theory of Mind: Evaluating LLM Adaptation to Temporal Evolution of Human States",
+      "authors": [
+        "Yang Xiao",
+        "Jiashuo Wang",
+        "Qiancheng Xu",
+        "Changhe Song",
+        "Chunpu Xu",
+        "Yi Cheng",
+        "Wenjie Li",
+        "Pengfei Liu"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/GAIR-NLP/DynToM",
+      "published": "2025-05-23T09:27:40.000Z"
+    },
+    {
+      "id": "2505.22019",
+      "title": "VRAG-RL: Empower Vision-Perception-Based RAG for Visually Rich Information Understanding via Iterative Reasoning with Reinforcement Learning",
+      "authors": [
+        "Qiuchen Wang",
+        "Ruixue Ding",
+        "Yu Zeng",
+        "Zehui Chen",
+        "Lin Chen",
+        "Shihang Wang",
+        "Pengjun Xie",
+        "Fei Huang",
+        "Feng Zhao"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/Alibaba-NLP/VRAG",
+      "published": "2025-05-28T06:30:51.000Z"
+    },
+    {
+      "id": "2505.19187",
+      "title": "LIMOPro: Reasoning Refinement for Efficient and Effective Test-time Scaling",
+      "authors": [
+        "Yang Xiao",
+        "Jiashuo Wang",
+        "Ruifeng Yuan",
+        "Chunpu Xu",
+        "Kaishuai Xu",
+        "Wenjie Li",
+        "Pengfei Liu"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/GAIR-NLP/LIMOPro",
+      "published": "2025-05-25T15:17:57.000Z"
+    },
+    {
+      "id": "2505.22613",
+      "title": "RICO: Improving Accuracy and Completeness in Image Recaptioning via Visual Reconstruction",
+      "authors": [
+        "Yuchi Wang",
+        "Yishuo Cai",
+        "Shuhuai Ren",
+        "Sihan Yang",
+        "Linli Yao",
+        "Yuanxin Liu",
+        "Yuanxing Zhang",
+        "Pengfei Wan",
+        "Xu Sun"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/wangyuchi369/RICO",
+      "published": "2025-05-28T17:29:34.000Z"
+    },
+    {
+      "id": "2505.20298",
+      "title": "MangaVQA and MangaLMM: A Benchmark and Specialized Model for Multimodal Manga Understanding",
+      "authors": [
+        "Jeonghun Baek",
+        "Kazuki Egashira",
+        "Shota Onohara",
+        "Atsuyuki Miyai",
+        "Yuki Imajuku",
+        "Hikaru Ikuta",
+        "Kiyoharu Aizawa"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/manga109/mangalmm",
+      "published": "2025-05-26T17:59:59.000Z"
+    },
+    {
+      "id": "2505.21876",
+      "title": "EPiC: Efficient Video Camera Control Learning with Precise Anchor-Video Guidance",
+      "authors": [
+        "Zun Wang",
+        "Jaemin Cho",
+        "Jialu Li",
+        "Han Lin",
+        "Jaehong Yoon",
+        "Yue Zhang",
+        "Mohit Bansal"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/wz0919/EPiC",
+      "published": "2025-05-28T01:45:26.000Z"
+    },
+    {
+      "id": "2505.12667",
+      "title": "Safe-Sora: Safe Text-to-Video Generation via Graphical Watermarking",
+      "authors": [
+        "Zihan Su",
+        "Xuerui Qiu",
+        "Hongbin Xu",
+        "Tangyu Jiang",
+        "Junhao Zhuang",
+        "Chun Yuan",
+        "Ming Li",
+        "Shengfeng He",
+        "Fei Richard Yu"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/Sugewud/Safe-Sora",
+      "published": "2025-05-19T03:31:31.000Z"
+    },
+    {
+      "id": "2505.22338",
+      "title": "Text2Grad: Reinforcement Learning from Natural Language Feedback",
+      "authors": [
+        "Hanyang Wang",
+        "Lu Wang",
+        "Chaoyun Zhang",
+        "Tianjun Mao",
+        "Si Qin",
+        "Qingwei Lin",
+        "Saravan Rajmohan",
+        "Dongmei Zhang"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/microsoft/Text2Grad",
+      "published": "2025-05-28T13:23:49.000Z"
+    },
+    {
+      "id": "2505.22664",
+      "title": "Zero-Shot Vision Encoder Grafting via LLM Surrogates",
+      "authors": [
+        "Kaiyu Yue",
+        "Vasu Singla",
+        "Menglin Jia",
+        "John Kirchenbauer",
+        "Rifaa Qadri",
+        "Zikui Cai",
+        "Abhinav Bhatele",
+        "Furong Huang",
+        "Tom Goldstein"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/facebookresearch/zero",
+      "published": "2025-05-28T17:59:59.000Z"
+    },
+    {
+      "id": "2505.22203",
+      "title": "Pitfalls of Rule- and Model-based Verifiers -- A Case Study on Mathematical Reasoning",
+      "authors": [
+        "Yuzhen Huang",
+        "Weihao Zeng",
+        "Xingshan Zeng",
+        "Qi Zhu",
+        "Junxian He"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/hkust-nlp/RL-Verifier-Pitfalls",
+      "published": "2025-05-28T10:28:41.000Z"
+    },
+    {
+      "id": "2505.22523",
+      "title": "PrismLayers: Open Data for High-Quality Multi-Layer Transparent Image Generative Models",
+      "authors": [
+        "Junwen Chen",
+        "Heyang Jiang",
+        "Yanbin Wang",
+        "Keming Wu",
+        "Ji Li",
+        "Chao Zhang",
+        "Keiji Yanai",
+        "Dong Chen",
+        "Yuhui Yuan"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2025-05-28T16:09:33.000Z"
+    },
+    {
+      "id": "2505.23727",
+      "title": "PixelThink: Towards Efficient Chain-of-Pixel Reasoning",
+      "authors": [
+        "Song Wang",
+        "Gongfan Fang",
+        "Lingdong Kong",
+        "Xiangtai Li",
+        "Jianyun Xu",
+        "Sheng Yang",
+        "Qiang Li",
+        "Jianke Zhu",
+        "Xinchao Wang"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/songw-zju/PixelThink",
+      "published": "2025-05-29T17:55:49.000Z"
+    },
+    {
+      "id": "2505.20589",
+      "title": "Prot2Token: A Unified Framework for Protein Modeling via Next-Token Prediction",
+      "authors": [
+        "Mahdi Pourmirzaei",
+        "Farzaneh Esmaili",
+        "Salhuldin Alqarghuli",
+        "Mohammadreza Pourmirzaei",
+        "Ye Han",
+        "Kai Chen",
+        "Mohsen Rezaei",
+        "Duolin Wang",
+        "Dong Xu"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/mahdip72/prot2token",
+      "published": "2025-05-26T23:50:36.000Z"
+    },
+    {
+      "id": "2505.20444",
+      "title": "HoPE: Hybrid of Position Embedding for Length Generalization in Vision-Language Models",
+      "authors": [
+        "Haoran Li",
+        "Yingjie Qin",
+        "Baoyuan Ou",
+        "Lai Xu",
+        "Ruiwen Xu"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/hrlics/HoPE",
+      "published": "2025-05-26T18:37:40.000Z"
+    },
+    {
+      "id": "2505.15813",
+      "title": "Meta-Learning an In-Context Transformer Model of Human Higher Visual Cortex",
+      "authors": [
+        "Muquan Yu",
+        "Mu Nan",
+        "Hossein Adeli",
+        "Jacob S. Prince",
+        "John A. Pyles",
+        "Leila Wehbe",
+        "Margaret M. Henderson",
+        "Michael J. Tarr",
+        "Andrew F. Luo"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-05-21T17:59:41.000Z"
+    },
+    {
+      "id": "2505.17870",
+      "title": "Just as Humans Need Vaccines, So Do Models: Model Immunization to Combat Falsehoods",
+      "authors": [
+        "Shaina Raza",
+        "Rizwan Qureshi",
+        "Marcelo Lotif",
+        "Aman Chadha",
+        "Deval Pandya",
+        "Christos Emmanouilidis"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-05-23T13:20:23.000Z"
+    },
+    {
+      "id": "2505.21960",
+      "title": "One-Way Ticket:Time-Independent Unified Encoder for Distilling Text-to-Image Diffusion Models",
+      "authors": [
+        "Senmao Li",
+        "Lei Wang",
+        "Kai Wang",
+        "Tao Liu",
+        "Jiehang Xie",
+        "Joost van de Weijer",
+        "Fahad Shahbaz Khan",
+        "Shiqi Yang",
+        "Yaxing Wang",
+        "Jian Yang"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/sen-mao/Loopfree",
+      "published": "2025-05-28T04:23:22.000Z"
+    },
+    {
+      "id": "2505.22642",
+      "title": "FastTD3: Simple, Fast, and Capable Reinforcement Learning for Humanoid Control",
+      "authors": [
+        "Younggyo Seo",
+        "Carmelo Sferrazza",
+        "Haoran Geng",
+        "Michal Nauman",
+        "Zhao-Heng Yin",
+        "Pieter Abbeel"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/younggyoseo/FastTD3",
+      "published": "2025-05-28T17:55:26.000Z"
+    },
+    {
+      "id": "2505.19051",
+      "title": "Efficient Data Selection at Scale via Influence Distillation",
+      "authors": [
+        "Mahdi Nikdan",
+        "Vincent Cohen-Addad",
+        "Dan Alistarh",
+        "Vahab Mirrokni"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/IST-DASLab/influence_distillation",
+      "published": "2025-05-25T09:08:00.000Z"
+    },
+    {
+      "id": "2505.21060",
+      "title": "Styl3R: Instant 3D Stylized Reconstruction for Arbitrary Scenes and Styles",
+      "authors": [
+        "Peng Wang",
+        "Xiang Liu",
+        "Peidong Liu"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/WU-CVGL/Styl3R",
+      "published": "2025-05-27T11:47:15.000Z"
+    },
+    {
+      "id": "2505.21582",
+      "title": "AITEE -- Agentic Tutor for Electrical Engineering",
+      "authors": [
+        "Christopher Knievel",
+        "Alexander Bernhardt",
+        "Christian Bernhardt"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/cknievel/aitee-dataset",
+      "published": "2025-05-27T10:07:05.000Z"
+    },
+    {
+      "id": "2505.18700",
+      "title": "GRE Suite: Geo-localization Inference via Fine-Tuned Vision-Language Models and Enhanced Reasoning Chains",
+      "authors": [
+        "Chun Wang",
+        "Xiaoran Pan",
+        "Zihao Pan",
+        "Haofan Wang",
+        "Yiren Song"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/thorin215/gre",
+      "published": "2025-05-24T13:48:57.000Z"
+    },
+    {
+      "id": "2505.21649",
+      "title": "Right Side Up? Disentangling Orientation Understanding in MLLMs with Fine-grained Multi-axis Perception Tasks",
+      "authors": [
+        "Keanu Nichols",
+        "Nazia Tasnim",
+        "Yan Yuting",
+        "Nicholas Ikechukwu",
+        "Elva Zou",
+        "Deepti Ghadiyaram",
+        "Bryan Plummer"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2025-05-27T18:22:44.000Z"
+    },
+    {
+      "id": "2505.21191",
+      "title": "Unveiling Instruction-Specific Neurons & Experts: An Analytical Framework for LLM's Instruction-Following Capabilities",
+      "authors": [
+        "Junyan Zhang",
+        "Yubo Gao",
+        "Yibo Yan",
+        "Jungang Li",
+        "Zhaorui Hou",
+        "Sicheng Tao",
+        "Shuliang Liu",
+        "Song Dai",
+        "Yonghua Hei",
+        "Junzhuo Li",
+        "Xuming Hu"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2025-05-27T13:40:28.000Z"
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-09-08",
+  "fetched_at": "2026-10-29T15:36:47.858Z",
+  "candidates": [
+    {
+      "id": "2609.04010",
+      "title": "Unlocking Lossless Speedups in LLMs via Discrete Diffusion",
+      "authors": [
+        "Subham Sekhar Sahoo",
+        "Lingjie Chen",
+        "Khiem Pham",
+        "Jonathan Geuter",
+        "Chaitanya Dwivedi",
+        "Varad Pimpalkhute",
+        "Yash Akhauri",
+        "Alexander Moreno",
+        "Mikhail Yurochkin",
+        "Zhenting Wang",
+        "Mostafa Elhoushi",
+        "Nolan Dey",
+        "Shane Bergsma",
+        "Joel Hestness",
+        "John Thickstun",
+        "Eric Xing",
+        "Zhengzhong Liu"
+      ],
+      "upvotes": 106,
+      "github": "https://github.com/ifm-ai/uno",
+      "published": "2026-09-03T00:00:00.000Z"
+    },
+    {
+      "id": "2609.03241",
+      "title": "FlowBalance: Verifier-Grounded Self-Improvement from On-Policy Reasoning Experience",
+      "authors": [
+        "Zixun Huang",
+        "Kishan Panaganti",
+        "Haitao Mi",
+        "Leowei Liang"
+      ],
+      "upvotes": 46,
+      "github": "https://github.com/alexhuang13/FlowBalance",
+      "published": "2026-09-03T00:00:00.000Z"
+    },
+    {
+      "id": "2609.03003",
+      "title": "Causal Foundation Models",
+      "authors": [
+        "Christopher Stith",
+        "Hossein Rahmani",
+        "Jesse C. Cresswell"
+      ],
+      "upvotes": 26,
+      "github": "https://github.com/layer6ai-labs/cfms",
+      "published": "2026-09-02T00:00:00.000Z"
+    },
+    {
+      "id": "2609.03756",
+      "title": "ENEAS: Embedding-guided Neural Ensemble for Adaptive Segmentation",
+      "authors": [
+        "Javier del Pino",
+        "Salvador Rodríguez",
+        "Alejandro Garabito",
+        "Javier Álvarez",
+        "Chema Garabito"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/speridlabs/eneas",
+      "published": "2026-09-03T00:00:00.000Z"
+    },
+    {
+      "id": "2609.02998",
+      "title": "Verify Before You Distill: Prompt-Level Teacher Gating for On-Policy Distillation",
+      "authors": [
+        "Zhiwei Zhang",
+        "Zechen Sun",
+        "Fei Zhao",
+        "Kang Peng",
+        "Bin Liang",
+        "Huayu Deng",
+        "Yao Hu",
+        "Kam-Fai Wong",
+        "Mu Chuan"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2026-09-02T00:00:00.000Z"
+    },
+    {
+      "id": "2609.05533",
+      "title": "SimpleMemVLA: A Simple but Effective Native-Video Memory for Vision-Language-Action Models",
+      "authors": [
+        "Cheng Yin",
+        "Wang Xu",
+        "Junpeng Yang",
+        "Sikyuen Tam",
+        "Hanyu Liu",
+        "Yuan Yao",
+        "Xiangrui Zeng",
+        "Junbo Cui",
+        "Yequan Wang",
+        "Zhouping Yin",
+        "Yankai Lin"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/OpenBMB/SimpleMemVLA",
+      "published": "2026-09-02T00:00:00.000Z"
+    },
+    {
+      "id": "2608.25936",
+      "title": "One Symptom, Three Levers: A Critical Review of On-Policy Self-Distillation",
+      "authors": [
+        "Justin Robert",
+        "Raheel Qader"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2026-08-26T00:00:00.000Z"
+    },
+    {
+      "id": "2609.01281",
+      "title": "EmbodiedSkills: A Unified Framework for Orchestrating, Training, and Deploying VLA Agents",
+      "authors": [
+        "Wei Wang",
+        "Wenqiao Zhang",
+        "Yutong Lin",
+        "Yuqian Yuan",
+        "Tianwei Lin",
+        "Jinhao Mao",
+        "Zhenxuan Fan",
+        "Mingjian Gao",
+        "Yang Dai",
+        "Wentong Li",
+        "Zheqi Lv",
+        "Zheng Dong",
+        "Yingjie Niu",
+        "Jiaqi Zhu",
+        "Jun Xiao",
+        "Chao Li",
+        "Yueting Zhuang"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/DCDmllm/EmbodiedSkills",
+      "published": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "id": "2609.04482",
+      "title": "Safety for Whom? Boundary-Aware Self-Distillation for Controlled LLM Safety Refusal",
+      "authors": [
+        "Alejo López-Ávila",
+        "Iker García-Ferrero",
+        "Jezabel Garcia",
+        "Antonio Tiene",
+        "Román Orús"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2026-09-03T00:00:00.000Z"
+    },
+    {
+      "id": "2609.03005",
+      "title": "Unifying Conformal Language Tasks with In-Context Ensembles",
+      "authors": [
+        "Xiao Shi Huang",
+        "Chen-Yuan Lin",
+        "Bruce Kuwahara",
+        "Kin Kwan Leung",
+        "Jesse C. Cresswell"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/layer6ai-labs/conformal-relevance",
+      "published": "2026-09-02T00:00:00.000Z"
+    },
+    {
+      "id": "2609.04382",
+      "title": "Privacy Failure in Split-LLM Training, The Returned Gradient Nullifies the Decoys",
+      "authors": [
+        "Georgios Politis",
+        "Evangelos Pappas"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/setloop-io/Privacy-Failure-in-Split-LLM-Training-The-Returned-Gradient-Nullifies-the-Decoys",
+      "published": "2026-09-03T00:00:00.000Z"
+    },
+    {
+      "id": "2609.03254",
+      "title": "What Else Needs Fixing? Exploring Cost-Effective Test-Time Compute for Revision Propagation in Artifacts Generated Through Conversation",
+      "authors": [
+        "Daisuke Kikuta"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/ntt-dkiku/llm-revision-propagation",
+      "published": "2026-09-03T00:00:00.000Z"
+    }
+  ]
+}

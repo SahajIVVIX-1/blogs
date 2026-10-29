@@ -1,0 +1,755 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-04-10",
+  "fetched_at": "2026-10-29T15:35:16.357Z",
+  "candidates": [
+    {
+      "id": "2604.08377",
+      "title": "SkillClaw: Let Skills Evolve Collectively with Agentic Evolver",
+      "authors": [
+        "Ziyu Ma",
+        "Shidong Yang",
+        "Yuxiang Ji",
+        "Xucong Wang",
+        "Yong Wang",
+        "Yiming Hu",
+        "Tongwen Huang",
+        "Xiangxiang Chu"
+      ],
+      "upvotes": 222,
+      "github": "https://github.com/AMAP-ML/SkillClaw",
+      "published": "2026-04-09T00:00:00.000Z"
+    },
+    {
+      "id": "2604.08523",
+      "title": "ClawBench: Can AI Agents Complete Everyday Online Tasks?",
+      "authors": [
+        "Yuxuan Zhang",
+        "Yubo Wang",
+        "Yipeng Zhu",
+        "Penghui Du",
+        "Junwen Miao",
+        "Xuan Lu",
+        "Wendong Xu",
+        "Yunzhuo Hao",
+        "Songcheng Cai",
+        "Xiaochen Wang",
+        "Huaisong Zhang",
+        "Xian Wu",
+        "Yi Lu",
+        "Minyi Lei",
+        "Kai Zou",
+        "Huifeng Yin",
+        "Ping Nie",
+        "Liang Chen",
+        "Dongfu Jiang",
+        "Wenhu Chen",
+        "Kelsey R. Allen"
+      ],
+      "upvotes": 210,
+      "github": "https://github.com/reacher-z/ClawBench",
+      "published": "2026-04-09T00:00:00.000Z"
+    },
+    {
+      "id": "2604.07430",
+      "title": "HY-Embodied-0.5: Embodied Foundation Models for Real-World Agents",
+      "authors": [
+        "Tencent Robotics X",
+        "HY Vision Team",
+        "Xumin Yu",
+        "Zuyan Liu",
+        "Ziyi Wang",
+        "He Zhang",
+        "Yongming Rao",
+        "Fangfu Liu",
+        "Yani Zhang",
+        "Ruowen Zhao",
+        "Oran Wang",
+        "Yves Liang",
+        "Haitao Lin",
+        "Minghui Wang",
+        "Yubo Dong",
+        "Kevin Cheng",
+        "Bolin Ni",
+        "Rui Huang",
+        "Han Hu",
+        "Zhengyou Zhang",
+        "Linus",
+        "Shunyu Yao"
+      ],
+      "upvotes": 124,
+      "github": "https://github.com/Tencent-Hunyuan/HY-Embodied",
+      "published": "2026-04-08T00:00:00.000Z"
+    },
+    {
+      "id": "2604.06628",
+      "title": "Rethinking Generalization in Reasoning SFT: A Conditional Analysis on Optimization, Data, and Model Capability",
+      "authors": [
+        "Qihan Ren",
+        "Peng Wang",
+        "Ruikun Cai",
+        "Shuai Shao",
+        "Dadi Guo",
+        "Yuejin Xie",
+        "Yafu Li",
+        "Quanshi Zhang",
+        "Xia Hu",
+        "Jing Shao",
+        "Dongrui Liu"
+      ],
+      "upvotes": 123,
+      "github": "https://github.com/Nebularaid2000/rethink_sft_generalization",
+      "published": "2026-04-08T00:00:00.000Z"
+    },
+    {
+      "id": "2604.07823",
+      "title": "LPM 1.0: Video-based Character Performance Model",
+      "authors": [
+        "Ailing Zeng",
+        "Casper Yang",
+        "Chauncey Ge",
+        "Eddie Zhang",
+        "Garvey Xu",
+        "Gavin Lin",
+        "Gilbert Gu",
+        "Jeremy Pi",
+        "Leo Li",
+        "Mingyi Shi",
+        "Sheng Bi",
+        "Steven Tang",
+        "Thorn Hang",
+        "Tobey Guo",
+        "Vincent Li",
+        "Xin Tong",
+        "Yikang Li",
+        "Yuchen Sun",
+        "Yue",
+        "Zhao",
+        "Yuhan Lu",
+        "Yuwei Li",
+        "Zane Zhang",
+        "Zeshi Yang",
+        "Zi Ye"
+      ],
+      "upvotes": 65,
+      "github": "https://github.com/large-performance-model/large-performance-model.github.io",
+      "published": "2026-04-09T00:00:00.000Z"
+    },
+    {
+      "id": "2604.08302",
+      "title": "DMax: Aggressive Parallel Decoding for dLLMs",
+      "authors": [
+        "Zigeng Chen",
+        "Gongfan Fang",
+        "Xinyin Ma",
+        "Ruonan Yu",
+        "Xinchao Wang"
+      ],
+      "upvotes": 52,
+      "github": "https://github.com/czg1225/DMax",
+      "published": "2026-04-09T00:00:00.000Z"
+    },
+    {
+      "id": "2604.08364",
+      "title": "MegaStyle: Constructing Diverse and Scalable Style Dataset via Consistent Text-to-Image Style Mapping",
+      "authors": [
+        "Junyao Gao",
+        "Sibo Liu",
+        "Jiaxing Li",
+        "Yanan Sun",
+        "Yuanpeng Tu",
+        "Fei Shen",
+        "Weidong Zhang",
+        "Cairong Zhao",
+        "Jun Zhang"
+      ],
+      "upvotes": 50,
+      "github": "https://github.com/Tencent/MegaStyle",
+      "published": "2026-04-09T00:00:00.000Z"
+    },
+    {
+      "id": "2604.08224",
+      "title": "Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering",
+      "authors": [
+        "Chenyu Zhou",
+        "Huacan Chai",
+        "Wenteng Chen",
+        "Zihan Guo",
+        "Rong Shan",
+        "Yuanyi Song",
+        "Tianyi Xu",
+        "Yingxuan Yang",
+        "Aofan Yu",
+        "Weiming Zhang",
+        "Congming Zheng",
+        "Jiachen Zhu",
+        "Zeyu Zheng",
+        "Zhuosheng Zhang",
+        "Xingyu Lou",
+        "Changwang Zhang",
+        "Zhihui Fu",
+        "Jun Wang",
+        "Weiwen Liu",
+        "Jianghao Lin",
+        "Weinan Zhang"
+      ],
+      "upvotes": 50,
+      "github": null,
+      "published": "2026-04-09T00:00:00.000Z"
+    },
+    {
+      "id": "2604.08539",
+      "title": "OpenVLThinkerV2: A Generalist Multimodal Reasoning Model for Multi-domain Visual Tasks",
+      "authors": [
+        "Wenbo Hu",
+        "Xin Chen",
+        "Yan Gao-Tian",
+        "Yihe Deng",
+        "Nanyun Peng",
+        "Kai-Wei Chang"
+      ],
+      "upvotes": 48,
+      "github": "https://github.com/uclanlp/OpenVLThinker",
+      "published": "2026-04-09T00:00:00.000Z"
+    },
+    {
+      "id": "2604.08516",
+      "title": "MolmoWeb: Open Visual Web Agent and Open Data for the Open Web",
+      "authors": [
+        "Tanmay Gupta",
+        "Piper Wolters",
+        "Zixian Ma",
+        "Peter Sushko",
+        "Rock Yuren Pang",
+        "Diego Llanes",
+        "Yue Yang",
+        "Taira Anderson",
+        "Boyuan Zheng",
+        "Zhongzheng Ren",
+        "Harsh Trivedi",
+        "Taylor Blanton",
+        "Caleb Ouellette",
+        "Winson Han",
+        "Ali Farhadi",
+        "Ranjay Krishna"
+      ],
+      "upvotes": 45,
+      "github": null,
+      "published": "2026-04-09T00:00:00.000Z"
+    },
+    {
+      "id": "2604.08455",
+      "title": "KnowU-Bench: Towards Interactive, Proactive, and Personalized Mobile Agent Evaluation",
+      "authors": [
+        "Tongbo Chen",
+        "Zhengxi Lu",
+        "Zhan Xu",
+        "Guocheng Shao",
+        "Shaohan Zhao",
+        "Fei Tang",
+        "Yong Du",
+        "Kaitao Song",
+        "Yizhou Liu",
+        "Yuchen Yan",
+        "Wenqi Zhang",
+        "Xu Tan",
+        "Weiming Lu",
+        "Jun Xiao",
+        "Yueting Zhuang",
+        "Yongliang Shen"
+      ],
+      "upvotes": 45,
+      "github": "https://github.com/ZJU-REAL/KnowU-Bench",
+      "published": "2026-04-09T00:00:00.000Z"
+    },
+    {
+      "id": "2604.08546",
+      "title": "When Numbers Speak: Aligning Textual Numerals and Visual Instances in Text-to-Video Diffusion Models",
+      "authors": [
+        "Zhengyang Sun",
+        "Yu Chen",
+        "Xin Zhou",
+        "Xiaofan Li",
+        "Xiwu Chen",
+        "Dingkang Liang",
+        "Xiang Bai"
+      ],
+      "upvotes": 42,
+      "github": "https://github.com/H-EmbodVis/NUMINA",
+      "published": "2026-04-09T00:00:00.000Z"
+    },
+    {
+      "id": "2604.08545",
+      "title": "Act Wisely: Cultivating Meta-Cognitive Tool Use in Agentic Multimodal Models",
+      "authors": [
+        "Shilin Yan",
+        "Jintao Tong",
+        "Hongwei Xue",
+        "Xiaojun Tang",
+        "Yangyang Wang",
+        "Kunyu Shi",
+        "Guannan Zhang",
+        "Ruixuan Li",
+        "Yixiong Zou"
+      ],
+      "upvotes": 40,
+      "github": "https://github.com/Accio-Lab/Metis",
+      "published": "2026-04-09T00:00:00.000Z"
+    },
+    {
+      "id": "2604.07296",
+      "title": "OpenSpatial: A Principled Data Engine for Empowering Spatial Intelligence",
+      "authors": [
+        "Jianhui Liu",
+        "Haoze Sun",
+        "Wenbo Li",
+        "Yanbing Zhang",
+        "Rui Yang",
+        "Zhiliang Zhu",
+        "Yijun Yang",
+        "Shenghe Zheng",
+        "Nan Jiang",
+        "Jiaxiu Jiang",
+        "Haoyang Huang",
+        "Tien-Tsin Wong",
+        "Nan Duan",
+        "Xiaojuan Qi"
+      ],
+      "upvotes": 38,
+      "github": "https://github.com/VINHYU/OpenSpatial",
+      "published": "2026-04-08T00:00:00.000Z"
+    },
+    {
+      "id": "2604.08209",
+      "title": "OmniJigsaw: Enhancing Omni-Modal Reasoning via Modality-Orchestrated Reordering",
+      "authors": [
+        "Yiduo Jia",
+        "Muzhi Zhu",
+        "Hao Zhong",
+        "Mingyu Liu",
+        "Yuling Xi",
+        "Hao Chen",
+        "Bin Qin",
+        "Yongjie Yang",
+        "Zhenbo Luo",
+        "Chunhua Shen"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/aim-uofa/OmniJigsaw",
+      "published": "2026-04-09T00:00:00.000Z"
+    },
+    {
+      "id": "2604.05333",
+      "title": "Graph of Skills: Dependency-Aware Structural Retrieval for Massive Agent Skills",
+      "authors": [
+        "Dawei Li",
+        "Zongxia Li",
+        "Hongyang Du",
+        "Xiyang Wu",
+        "Shihang Gui",
+        "Yongbei Kuang",
+        "Lichao Sun"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/davidliuk/graph-of-skills",
+      "published": "2026-04-07T00:00:00.000Z"
+    },
+    {
+      "id": "2604.07776",
+      "title": "Structured Distillation of Web Agent Capabilities Enables Generalization",
+      "authors": [
+        "Xing Han Lù",
+        "Siva Reddy"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/McGill-NLP/agent-as-annotators",
+      "published": "2026-04-09T00:00:00.000Z"
+    },
+    {
+      "id": "2604.08120",
+      "title": "Small Vision-Language Models are Smart Compressors for Long Video Understanding",
+      "authors": [
+        "Junjie Fei",
+        "Jun Chen",
+        "Zechun Liu",
+        "Yunyang Xiong",
+        "Chong Zhou",
+        "Wei Wen",
+        "Junlin Han",
+        "Mingchen Zhuge",
+        "Saksham Suri",
+        "Qi Qian",
+        "Shuming Liu",
+        "Lemeng Wu",
+        "Raghuraman Krishnamoorthi",
+        "Vikas Chandra",
+        "Mohamed Elhoseiny",
+        "Chenchen Zhu"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/FeiElysia/Tempo",
+      "published": "2026-04-09T00:00:00.000Z"
+    },
+    {
+      "id": "2604.08526",
+      "title": "FIT: A Large-Scale Dataset for Fit-Aware Virtual Try-On",
+      "authors": [
+        "Johanna Karras",
+        "Yuanhao Wang",
+        "Yingwei Li",
+        "Ira Kemelmacher-Shlizerman"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2026-04-09T00:00:00.000Z"
+    },
+    {
+      "id": "2604.06231",
+      "title": "Automating Database-Native Function Code Synthesis with LLMs",
+      "authors": [
+        "Wei Zhou",
+        "Xuanhe Zhou",
+        "Qikang He",
+        "Guoliang Li",
+        "Bingsheng He",
+        "Quanqing Xu",
+        "Fan Wu"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/weAIDB/OpenCook",
+      "published": "2026-04-02T00:00:00.000Z"
+    },
+    {
+      "id": "2604.08168",
+      "title": "ViVa: A Video-Generative Value Model for Robot Reinforcement Learning",
+      "authors": [
+        "Jindi Lv",
+        "Hao Li",
+        "Jie Li",
+        "Yifei Nie",
+        "Fankun Kong",
+        "Yang Wang",
+        "Xiaofeng Wang",
+        "Zheng Zhu",
+        "Chaojun Ni",
+        "Qiuping Deng",
+        "Hengtao Li",
+        "Jiancheng Lv",
+        "Guan Huang"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/GigaAI-research/ViVa",
+      "published": "2026-04-09T00:00:00.000Z"
+    },
+    {
+      "id": "2604.08544",
+      "title": "SIM1: Physics-Aligned Simulator as Zero-Shot Data Scaler in Deformable Worlds",
+      "authors": [
+        "Yunsong Zhou",
+        "Hangxu Liu",
+        "Xuekun Jiang",
+        "Xing Shen",
+        "Yuanzhen Zhou",
+        "Hui Wang",
+        "Baole Fang",
+        "Yang Tian",
+        "Mulin Yu",
+        "Qiaojun Yu",
+        "Li Ma",
+        "Hengjie Li",
+        "Hanqing Wang",
+        "Jia Zeng",
+        "Jiangmiao Pang"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/InternRobotics/SIM1",
+      "published": "2026-04-09T00:00:00.000Z"
+    },
+    {
+      "id": "2604.07394",
+      "title": "Flux Attention: Context-Aware Hybrid Attention for Efficient LLMs Inference",
+      "authors": [
+        "Quantong Qiu",
+        "Zhiyi Hong",
+        "Yi Yang",
+        "Haitian Wang",
+        "Kebin Liu",
+        "Qingqing Dang",
+        "Juntao Li",
+        "Min Zhang"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/qqtang-code/FluxAttention",
+      "published": "2026-04-08T00:00:00.000Z"
+    },
+    {
+      "id": "2604.08362",
+      "title": "Towards Real-world Human Behavior Simulation: Benchmarking Large Language Models on Long-horizon, Cross-scenario, Heterogeneous Behavior Traces",
+      "authors": [
+        "Jiawei Chen",
+        "Ruoxi Xu",
+        "Boxi Cao",
+        "Ruotong Pan",
+        "Yunfei Zhang",
+        "Yifei Hu",
+        "Yong Du",
+        "Tingting Gao",
+        "Yaojie Lu",
+        "Yingfei Sun",
+        "Xianpei Han",
+        "Le Sun",
+        "Xiangyu Wu",
+        "Hongyu Lin"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/icip-cas/OmniBehavior",
+      "published": "2026-04-09T00:00:00.000Z"
+    },
+    {
+      "id": "2604.03841",
+      "title": "Training a Student Expert via Semi-Supervised Foundation Model Distillation",
+      "authors": [
+        "Pardis Taghavi",
+        "Tian Liu",
+        "Renjie Li",
+        "Reza Langari",
+        "Zhengzhong Tu"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2026-04-04T00:00:00.000Z"
+    },
+    {
+      "id": "2604.06377",
+      "title": "The Master Key Hypothesis: Unlocking Cross-Model Capability Transfer via Linear Subspace Alignment",
+      "authors": [
+        "Rishab Balasubramanian",
+        "Pin-Jie Lin",
+        "Rituraj Sharma",
+        "Anjie Fang",
+        "Fardin Abdi",
+        "Viktor Rozgic",
+        "Zheng Du",
+        "Mohit Bansal",
+        "Tu Vu"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2026-04-07T19:02:10.000Z"
+    },
+    {
+      "id": "2604.08476",
+      "title": "Faithful GRPO: Improving Visual Spatial Reasoning in Multimodal Language Models via Constrained Policy Optimization",
+      "authors": [
+        "Sai Srinivas Kancheti",
+        "Aditya Kanade",
+        "Rohit Sinha",
+        "Vineeth N Balasubramanian",
+        "Tanuja Ganu"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2026-04-09T17:15:47.000Z"
+    },
+    {
+      "id": "2604.07427",
+      "title": "Personalizing Text-to-Image Generation to Individual Taste",
+      "authors": [
+        "Anne-Sofie Maerten",
+        "Juliane Verwiebe",
+        "Shyamgopal Karthik",
+        "Ameya Prabhu",
+        "Johan Wagemans",
+        "Matthias Bethge"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2026-04-08T00:00:00.000Z"
+    },
+    {
+      "id": "2604.07966",
+      "title": "Lighting-grounded Video Generation with Renderer-based Agent Reasoning",
+      "authors": [
+        "Ziqi Cai",
+        "Taoyu Yang",
+        "Zheng Chang",
+        "Si Li",
+        "Han Jiang",
+        "Shuchen Weng",
+        "Boxin Shi"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2026-04-09T00:00:00.000Z"
+    },
+    {
+      "id": "2604.08064",
+      "title": "ImplicitMemBench: Measuring Unconscious Behavioral Adaptation in Large Language Models",
+      "authors": [
+        "Chonghan Qin",
+        "Xiachong Feng",
+        "Weitao Ma",
+        "Xiaocheng Feng",
+        "Lingpeng Kong"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/qinchonghanzuibang/ImplicitMemBench",
+      "published": "2026-04-09T00:00:00.000Z"
+    },
+    {
+      "id": "2601.20524",
+      "title": "AnomalyVFM -- Transforming Vision Foundation Models into Zero-Shot Anomaly Detectors",
+      "authors": [
+        "Matic Fučka",
+        "Vitjan Zavrtanik",
+        "Danijel Skočaj"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/MaticFuc/AnomalyVFM",
+      "published": "2026-04-09T00:00:00.000Z"
+    },
+    {
+      "id": "2604.08536",
+      "title": "RewardFlow: Generate Images by Optimizing What You Reward",
+      "authors": [
+        "Onkar Susladkar",
+        "Dong-Hwan Jang",
+        "Tushar Prakash",
+        "Adheesh Juvekar",
+        "Vedant Shah",
+        "Ayush Barik",
+        "Nabeel Bashir",
+        "Muntasir Wahed",
+        "Ritish Shrirao",
+        "Ismini Lourentzou"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-04-09T00:00:00.000Z"
+    },
+    {
+      "id": "2604.08340",
+      "title": "PokeGym: A Visually-Driven Long-Horizon Benchmark for Vision-Language Models",
+      "authors": [
+        "Ruizhi Zhang",
+        "Ye Huang",
+        "Yuangang Pan",
+        "Chuanfu Shen",
+        "Zhilin Liu",
+        "Ting Xie",
+        "Wen Li",
+        "Lixin Duan"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-04-09T00:00:00.000Z"
+    },
+    {
+      "id": "2604.07338",
+      "title": "Appear2Meaning: A Cross-Cultural Benchmark for Structured Cultural Metadata Inference from Images",
+      "authors": [
+        "Yuechen Jiang",
+        "Enze Zhang",
+        "Md Mohsinul Kabir",
+        "Qianqian Xie",
+        "Stavroula Golfomitsou",
+        "Konstantinos Arvanitis",
+        "Sophia Ananiadou"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-04-08T00:00:00.000Z"
+    },
+    {
+      "id": "2604.08172",
+      "title": "On the Global Photometric Alignment for Low-Level Vision",
+      "authors": [
+        "Mingjia Li",
+        "Tianle Du",
+        "Hainuo Wang",
+        "Qiming Hu",
+        "Xiaojie Guo"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-04-09T00:00:00.000Z"
+    },
+    {
+      "id": "2604.06938",
+      "title": "POS-ISP: Pipeline Optimization at the Sequence Level for Task-aware ISP",
+      "authors": [
+        "Jiyun Won",
+        "Heemin Yang",
+        "Woohyeok Kim",
+        "Jungseul Ok",
+        "Sunghyun Cho"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/w1jyun/POS-ISP",
+      "published": "2026-04-08T00:00:00.000Z"
+    },
+    {
+      "id": "2603.27070",
+      "title": "Structural Graph Probing of Vision-Language Models",
+      "authors": [
+        "Haoyu He",
+        "Yue Zhuo",
+        "Yu Zheng",
+        "Qi R. Wang"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/he-h/vlm-graph-probing",
+      "published": "2026-03-28T00:00:00.000Z"
+    },
+    {
+      "id": "2604.08124",
+      "title": "Beyond Stochastic Exploration: What Makes Training Data Valuable for Agentic Search",
+      "authors": [
+        "Chuzhan Hao",
+        "Wenfeng Feng",
+        "Guochao Jiang",
+        "Guofeng Quan",
+        "Guohua Liu",
+        "Yuewei Zhang"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-04-09T00:00:00.000Z"
+    },
+    {
+      "id": "2604.08503",
+      "title": "Phantom: Physics-Infused Video Generation via Joint Modeling of Visual and Latent Physical Dynamics",
+      "authors": [
+        "Ying Shen",
+        "Jerry Xiong",
+        "Tianjiao Yu",
+        "Ismini Lourentzou"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2026-04-09T00:00:00.000Z"
+    },
+    {
+      "id": "2602.06057",
+      "title": "QEIL v2: Heterogeneous Computing for Edge Intelligence via Roofline-Derived Pareto-Optimal Energy Modeling and Multi-Objective Orchestration",
+      "authors": [
+        "Satyam Kumar",
+        "Saurabh Jha"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2026-04-05T00:00:00.000Z"
+    },
+    {
+      "id": "2511.16428",
+      "title": "CylinderDepth: Cylindrical Spatial Attention for Multi-View Consistent Self-Supervised Surround Depth Estimation",
+      "authors": [
+        "Samer Abualhanud",
+        "Christian Grannemann",
+        "Max Mehltretter"
+      ],
+      "upvotes": 0,
+      "github": "https://github.com/abualhanud/CylinderDepth",
+      "published": "2026-04-08T00:00:00.000Z"
+    }
+  ]
+}

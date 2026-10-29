@@ -1,0 +1,11 @@
+{
+  "id": "2502.15007",
+  "html": "https://arxiv.org/html/2502.15007",
+  "limitations": "• LM-head application: Using a pre-trained LM-head on intermediate embeddings without fine-tuning may not accurately reflect the actual functionality of these layers. • Contextual memory assessment: The adapter-based method’s accuracy may be influenced by the adapter’s architecture, training data, and optimization process. • Generalizability: The results may not be equally applicable to all model architectures, sizes, or training paradigms.",
+  "conclusion": "In this work, we introduced methods to quantify how Large Language Models (LLMs) encode and store contextual information, revealing the surprising importance of seemingly “minor” tokens — such as determiners, punctuation, and stopwords — in maintaining coherence and context. Our analysis showed a strong correlation between a token’s contextualization level and how linearly one layer’s representation can be mapped onto the next, suggesting a close relationship between model architecture and the retention of contextual cues. Through empirical evaluations on MMLU and BABILong 4k, we demonstrated that removing high-context tokens — even if they appear trivial — consistently degrades performance. Notably, this effect remains even when a strong language model (GPT-4o) is used to selectively remove only those tokens deemed least relevant. These findings highlight that “filler” tokens can carry ",
+  "figure": {
+    "path": "images/2025/paper-2502.15007.webp",
+    "src": "https://arxiv.org/html/2502.15007v2/figures/math.png",
+    "caption": "Figure 1: An example of token-wise non-linearity visualization for Llama3-8B."
+  }
+}

@@ -1,0 +1,337 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-04-07",
+  "fetched_at": "2026-10-29T15:31:08.030Z",
+  "candidates": [
+    {
+      "id": "2504.02605",
+      "title": "Multi-SWE-bench: A Multilingual Benchmark for Issue Resolving",
+      "authors": [
+        "Daoguang Zan",
+        "Zhirong Huang",
+        "Wei Liu",
+        "Hanwu Chen",
+        "Linhao Zhang",
+        "Shulin Xin",
+        "Lu Chen",
+        "Qi Liu",
+        "Xiaojian Zhong",
+        "Aoyan Li",
+        "Siyao Liu",
+        "Yongsheng Xiao",
+        "Liangqiang Chen",
+        "Yuyu Zhang",
+        "Jing Su",
+        "Tianyu Liu",
+        "Rui Long",
+        "Kai Shen",
+        "Liang Xiang"
+      ],
+      "upvotes": 49,
+      "github": "https://github.com/multi-swe-bench/multi-swe-bench",
+      "published": "2025-04-03T14:06:17.000Z"
+    },
+    {
+      "id": "2504.02807",
+      "title": "MegaMath: Pushing the Limits of Open Math Corpora",
+      "authors": [
+        "Fan Zhou",
+        "Zengzhi Wang",
+        "Nikhil Ranjan",
+        "Zhoujun Cheng",
+        "Liping Tang",
+        "Guowei He",
+        "Zhengzhong Liu",
+        "Eric P. Xing"
+      ],
+      "upvotes": 35,
+      "github": "https://github.com/LLM360/MegaMath",
+      "published": "2025-04-03T17:52:07.000Z"
+    },
+    {
+      "id": "2504.03553",
+      "title": "Agentic Knowledgeable Self-awareness",
+      "authors": [
+        "Shuofei Qiao",
+        "Zhisong Qiu",
+        "Baochang Ren",
+        "Xiaobin Wang",
+        "Xiangyuan Ru",
+        "Ningyu Zhang",
+        "Xiang Chen",
+        "Yong Jiang",
+        "Pengjun Xie",
+        "Fei Huang",
+        "Huajun Chen"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/zjunlp/KnowSelf",
+      "published": "2025-04-04T16:03:38.000Z"
+    },
+    {
+      "id": "2504.02949",
+      "title": "VARGPT-v1.1: Improve Visual Autoregressive Large Unified Model via Iterative Instruction Tuning and Reinforcement Learning",
+      "authors": [
+        "Xianwei Zhuang",
+        "Yuxin Xie",
+        "Yufan Deng",
+        "Dongchao Yang",
+        "Liming Liang",
+        "Jinghan Ru",
+        "Yuguo Yin",
+        "Yuexian Zou"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/VARGPT-family/VARGPT-v1.1",
+      "published": "2025-04-03T18:06:28.000Z"
+    },
+    {
+      "id": "2503.24067",
+      "title": "TransMamba: Flexibly Switching between Transformer and Mamba",
+      "authors": [
+        "Yixing Li",
+        "Ruobing Xie",
+        "Zhen Yang",
+        "Xingwu Sun",
+        "Shuaipeng Li",
+        "Weidong Han",
+        "Zhanhui Kang",
+        "Yu Cheng",
+        "Chengzhong Xu",
+        "Di Wang",
+        "Jie Jiang"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/Yixing-Li/TransMamba",
+      "published": "2025-03-31T13:26:24.000Z"
+    },
+    {
+      "id": "2504.03601",
+      "title": "APIGen-MT: Agentic Pipeline for Multi-Turn Data Generation via Simulated Agent-Human Interplay",
+      "authors": [
+        "Akshara Prabhakar",
+        "Zuxin Liu",
+        "Weiran Yao",
+        "Jianguo Zhang",
+        "Ming Zhu",
+        "Shiyu Wang",
+        "Zhiwei Liu",
+        "Tulika Awalgaonkar",
+        "Haolin Chen",
+        "Thai Hoang",
+        "Juan Carlos Niebles",
+        "Shelby Heinecke",
+        "Huan Wang",
+        "Silvio Savarese",
+        "Caiming Xiong"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2025-04-04T17:13:57.000Z"
+    },
+    {
+      "id": "2504.03561",
+      "title": "SynWorld: Virtual Scenario Synthesis for Agentic Action Knowledge Refinement",
+      "authors": [
+        "Runnan Fang",
+        "Xiaobin Wang",
+        "Yuan Liang",
+        "Shuofei Qiao",
+        "Jialong Wu",
+        "Zekun Xi",
+        "Ningyu Zhang",
+        "Yong Jiang",
+        "Pengjun Xie",
+        "Fei Huang",
+        "Huajun Chen"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/zjunlp/synworld",
+      "published": "2025-04-04T16:10:57.000Z"
+    },
+    {
+      "id": "2503.22738",
+      "title": "ShieldAgent: Shielding Agents via Verifiable Safety Policy Reasoning",
+      "authors": [
+        "Zhaorun Chen",
+        "Mintong Kang",
+        "Bo Li"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2025-03-26T17:58:40.000Z"
+    },
+    {
+      "id": "2504.03536",
+      "title": "HumanDreamer-X: Photorealistic Single-image Human Avatars Reconstruction via Gaussian Restoration",
+      "authors": [
+        "Boyuan Wang",
+        "Runqi Ouyang",
+        "Xiaofeng Wang",
+        "Zheng Zhu",
+        "Guosheng Zhao",
+        "Chaojun Ni",
+        "Guan Huang",
+        "Lihong Liu",
+        "Xingang Wang"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/GigaAI-research/HumanDreamer-X",
+      "published": "2025-04-04T15:35:14.000Z"
+    },
+    {
+      "id": "2504.03641",
+      "title": "MME-Unify: A Comprehensive Benchmark for Unified Multimodal Understanding and Generation Models",
+      "authors": [
+        "Wulin Xie",
+        "Yi-Fan Zhang",
+        "Chaoyou Fu",
+        "Yang Shi",
+        "Bingyan Nie",
+        "Hongkai Chen",
+        "Zhang Zhang",
+        "Liang Wang",
+        "Tieniu Tan"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/MME-Benchmarks/MME-Unify",
+      "published": "2025-04-04T17:59:55.000Z"
+    },
+    {
+      "id": "2504.03600",
+      "title": "MedSAM2: Segment Anything in 3D Medical Images and Videos",
+      "authors": [
+        "Jun Ma",
+        "Zongxin Yang",
+        "Sumin Kim",
+        "Bihui Chen",
+        "Mohammed Baharoon",
+        "Adibvafa Fallahpour",
+        "Reza Asakereh",
+        "Hongwei Lyu",
+        "Bo Wang"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/bowang-lab/MedSAM2",
+      "published": "2025-04-04T17:13:37.000Z"
+    },
+    {
+      "id": "2504.03011",
+      "title": "Comprehensive Relighting: Generalizable and Consistent Monocular Human Relighting and Harmonization",
+      "authors": [
+        "Junying Wang",
+        "Jingyuan Liu",
+        "Xin Sun",
+        "Krishna Kumar Singh",
+        "Zhixin Shu",
+        "He Zhang",
+        "Jimei Yang",
+        "Nanxuan Zhao",
+        "Tuanfeng Y. Wang",
+        "Simon S. Chen",
+        "Ulrich Neumann",
+        "Jae Shin Yoon"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2025-04-03T20:10:50.000Z"
+    },
+    {
+      "id": "2504.01328",
+      "title": "Slow-Fast Architecture for Video Multi-Modal Large Language Models",
+      "authors": [
+        "Min Shi",
+        "Shihao Wang",
+        "Chieh-Yun Chen",
+        "Jitesh Jain",
+        "Kai Wang",
+        "Junjun Xiong",
+        "Guilin Liu",
+        "Zhiding Yu",
+        "Humphrey Shi"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/shi-labs/slow-fast-video-multimodal-llm",
+      "published": "2025-04-02T03:24:58.000Z"
+    },
+    {
+      "id": "2503.24310",
+      "title": "BEATS: Bias Evaluation and Assessment Test Suite for Large Language Models",
+      "authors": [
+        "Alok Abhishek",
+        "Lisa Erickson",
+        "Tushar Bandopadhyay"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2025-03-31T16:56:52.000Z"
+    },
+    {
+      "id": "2504.02402",
+      "title": "EvMic: Event-based Non-contact sound recovery from effective spatial-temporal modeling",
+      "authors": [
+        "Hao Yin",
+        "Shi Guo",
+        "Xu Jia",
+        "Xudong XU",
+        "Lu Zhang",
+        "Si Liu",
+        "Dong Wang",
+        "Huchuan Lu",
+        "Tianfan Xue"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/yyzq1/EvMic",
+      "published": "2025-04-03T08:51:17.000Z"
+    },
+    {
+      "id": "2504.03597",
+      "title": "Real-is-Sim: Bridging the Sim-to-Real Gap with a Dynamic Digital Twin for Real-World Robot Policy Evaluation",
+      "authors": [
+        "Jad Abou-Chakra",
+        "Lingfeng Sun",
+        "Krishan Rana",
+        "Brandon May",
+        "Karl Schmeckpeper",
+        "Maria Vittoria Minniti",
+        "Laura Herlant"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2025-04-04T17:05:56.000Z"
+    },
+    {
+      "id": "2504.00396",
+      "title": "SPF-Portrait: Towards Pure Portrait Customization with Semantic Pollution-Free Fine-tuning",
+      "authors": [
+        "Xiaole Xian",
+        "Zhichao Liao",
+        "Qingyu Li",
+        "Wenyu Qin",
+        "Pengfei Wan",
+        "Weicheng Xie",
+        "Long Zeng",
+        "Linlin Shen",
+        "Pingfa Feng"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/KwaiVGI/SPF-Portrait",
+      "published": "2025-04-01T03:37:30.000Z"
+    },
+    {
+      "id": "2504.02534",
+      "title": "Delineate Anything: Resolution-Agnostic Field Boundary Delineation on Satellite Imagery",
+      "authors": [
+        "Mykola Lavreniuk",
+        "Nataliia Kussul",
+        "Andrii Shelestov",
+        "Bohdan Yailymov",
+        "Yevhenii Salii",
+        "Volodymyr Kuzin",
+        "Zoltan Szantoi"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/Lavreniuk/Delineate-Anything",
+      "published": "2025-04-03T12:37:04.000Z"
+    }
+  ]
+}

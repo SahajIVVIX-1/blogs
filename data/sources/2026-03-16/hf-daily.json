@@ -1,0 +1,509 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-03-16",
+  "fetched_at": "2026-10-29T15:35:01.153Z",
+  "candidates": [
+    {
+      "id": "2603.12572",
+      "title": "LMEB: Long-horizon Memory Embedding Benchmark",
+      "authors": [
+        "Xinping Zhao",
+        "Xinshuo Hu",
+        "Jiaxin Xu",
+        "Danyu Tang",
+        "Xin Zhang",
+        "Mengjia Zhou",
+        "Yan Zhong",
+        "Yao Zhou",
+        "Zifei Shan",
+        "Meishan Zhang",
+        "Baotian Hu",
+        "Min Zhang"
+      ],
+      "upvotes": 75,
+      "github": "https://github.com/KaLM-Embedding/LMEB",
+      "published": "2026-03-13T02:09:57.000Z"
+    },
+    {
+      "id": "2603.13032",
+      "title": "Multimodal OCR: Parse Anything from Documents",
+      "authors": [
+        "Handong Zheng",
+        "Yumeng Li",
+        "Kaile Zhang",
+        "Liang Xin",
+        "Guangwei Zhao",
+        "Hao Liu",
+        "Jiayu Chen",
+        "Jie Lou",
+        "Jiyu Qiu",
+        "Qi Fu",
+        "Rui Yang",
+        "Shuo Jiang",
+        "Weijian Luo",
+        "Weijie Su",
+        "Weijun Zhang",
+        "Xingyu Zhu",
+        "Yabin Li",
+        "Yiwei ma",
+        "Yu Chen",
+        "Zhaohui Yu",
+        "Guang Yang",
+        "Colin Zhang",
+        "Lei Zhang",
+        "Yuliang Liu",
+        "Xiang Bai"
+      ],
+      "upvotes": 48,
+      "github": "https://github.com/rednote-hilab/dots.mocr",
+      "published": "2026-03-13T14:42:21.000Z"
+    },
+    {
+      "id": "2603.08436",
+      "title": "Can Vision-Language Models Solve the Shell Game?",
+      "authors": [
+        "Tiedong Liu",
+        "Wee Sun Lee"
+      ],
+      "upvotes": 39,
+      "github": "https://github.com/liutiedong/shellgame",
+      "published": "2026-03-09T14:33:25.000Z"
+    },
+    {
+      "id": "2603.12793",
+      "title": "Cheers: Decoupling Patch Details from Semantic Representations Enables Unified Multimodal Comprehension and Generation",
+      "authors": [
+        "Yichen Zhang",
+        "Da Peng",
+        "Zonghao Guo",
+        "Zijian Zhang",
+        "Xuesong Yang",
+        "Tong Sun",
+        "Shichu Sun",
+        "Yidan Zhang",
+        "Yanghao Li",
+        "Haiyan Zhao",
+        "Wang Xu",
+        "Qi Shi",
+        "Yangang Sun",
+        "Chi Chen",
+        "Shuo Wang",
+        "Yukun Yan",
+        "Xu Han",
+        "Qiang Ma",
+        "Wei Ke",
+        "Liang Wang",
+        "Zhiyuan Liu",
+        "Maosong Sun"
+      ],
+      "upvotes": 38,
+      "github": null,
+      "published": "2026-03-13T08:55:27.000Z"
+    },
+    {
+      "id": "2603.12262",
+      "title": "Video Streaming Thinking: VideoLLMs Can Watch and Think Simultaneously",
+      "authors": [
+        "Yiran Guan",
+        "Liang Yin",
+        "Dingkang Liang",
+        "Jianzhong Ju",
+        "Zhenbo Luo",
+        "Jian Luan",
+        "Yuliang Liu",
+        "Xiang Bai"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/1ranGuan/VST",
+      "published": "2026-03-12T17:59:51.000Z"
+    },
+    {
+      "id": "2603.11647",
+      "title": "OmniForcing: Unleashing Real-time Joint Audio-Visual Generation",
+      "authors": [
+        "Yaofeng Su",
+        "Yuming Li",
+        "Zeyue Xue",
+        "Jie Huang",
+        "Siming Fu",
+        "Haoran Li",
+        "Ying Li",
+        "Zezhong Qian",
+        "Haoyang Huang",
+        "Nan Duan"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/OmniForcing/OmniForcing",
+      "published": "2026-03-12T08:17:36.000Z"
+    },
+    {
+      "id": "2603.13023",
+      "title": "daVinci-Env: Open SWE Environment Synthesis at Scale",
+      "authors": [
+        "Dayuan Fu",
+        "Shenyu Wu",
+        "Yunze Wu",
+        "Zerui Peng",
+        "Yaxing Huang",
+        "Jie Sun",
+        "Ji Zeng",
+        "Mohan Jiang",
+        "Lin Zhang",
+        "Yukun Li",
+        "Jiarui Hu",
+        "Liming Liu",
+        "Jinlong Hou",
+        "Pengfei Liu"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/GAIR-NLP/OpenSWE",
+      "published": "2026-03-13T14:32:40.000Z"
+    },
+    {
+      "id": "2603.13224",
+      "title": "Visual-ERM: Reward Modeling for Visual Equivalence",
+      "authors": [
+        "Ziyu Liu",
+        "Shengyuan Ding",
+        "Xinyu Fang",
+        "Xuanlang Dai",
+        "Penghui Yang",
+        "Jianze Liang",
+        "Jiaqi Wang",
+        "Kai Chen",
+        "Dahua Lin",
+        "Yuhang Zang"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/InternLM/Visual-ERM",
+      "published": "2026-03-13T17:58:14.000Z"
+    },
+    {
+      "id": "2603.12266",
+      "title": "MM-CondChain: A Programmatically Verified Benchmark for Visually Grounded Deep Compositional Reasoning",
+      "authors": [
+        "Haozhan Shen",
+        "Shilin Yan",
+        "Hongwei Xue",
+        "Shuaiqi Lu",
+        "Xiaojun Tang",
+        "Guannan Zhang",
+        "Tiancheng Zhao",
+        "Jianwei Yin"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/Accio-Lab/MM-CondChain",
+      "published": "2026-03-12T17:59:56.000Z"
+    },
+    {
+      "id": "2603.12634",
+      "title": "Spend Less, Reason Better: Budget-Aware Value Tree Search for LLM Agents",
+      "authors": [
+        "Yushu Li",
+        "Wenlong Deng",
+        "Jiajin Li",
+        "Xiaoxiao Li"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2026-03-13T04:10:27.000Z"
+    },
+    {
+      "id": "2603.08127",
+      "title": "EvoScientist: Towards Multi-Agent Evolving AI Scientists for End-to-End Scientific Discovery",
+      "authors": [
+        "Yougang Lyu",
+        "Xi Zhang",
+        "Xinhao Yi",
+        "Yuyue Zhao",
+        "Shuyu Guo",
+        "Wenxiang Hu",
+        "Jan Piotrowski",
+        "Jakub Kaliski",
+        "Jacopo Urbani",
+        "Zaiqiao Meng",
+        "Lun Zhou",
+        "Xiaohui Yan"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/EvoScientist/EvoScientist",
+      "published": "2026-03-09T09:07:19.000Z"
+    },
+    {
+      "id": "2603.12648",
+      "title": "From Sparse to Dense: Multi-View GRPO for Flow Models via Augmented Condition Space",
+      "authors": [
+        "Jiazi Bu",
+        "Pengyang Ling",
+        "Yujie Zhou",
+        "Yibin Wang",
+        "Yuhang Zang",
+        "Tianyi Wei",
+        "Xiaohang Zhan",
+        "Jiaqi Wang",
+        "Tong Wu",
+        "Xingang Pan",
+        "Dahua Lin"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2026-03-13T04:35:13.000Z"
+    },
+    {
+      "id": "2603.13089",
+      "title": "V-Bridge: Bridging Video Generative Priors to Versatile Few-shot Image Restoration",
+      "authors": [
+        "Shenghe Zheng",
+        "Junpeng Jiang",
+        "Wenbo Li"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/Zhengsh123/V-Bridge",
+      "published": "2026-03-13T15:39:44.000Z"
+    },
+    {
+      "id": "2603.11975",
+      "title": "HomeSafe-Bench: Evaluating Vision-Language Models on Unsafe Action Detection for Embodied Agents in Household Scenarios",
+      "authors": [
+        "Jiayue Pu",
+        "Zhongxiang Sun",
+        "Zilu Zhang",
+        "Xiao Zhang",
+        "Jun Xu"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/pujiayue/HomeSafe-Bench",
+      "published": "2026-03-12T14:25:44.000Z"
+    },
+    {
+      "id": "2603.11896",
+      "title": "Think While Watching: Online Streaming Segment-Level Memory for Multi-Turn Video Reasoning in Multimodal Large Language Models",
+      "authors": [
+        "Lu Wang",
+        "Zhuoran Jin",
+        "Yupu Hao",
+        "Yubo Chen",
+        "Kang Liu",
+        "Yulong Ao",
+        "Jun Zhao"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/wl666hhh/Think_While_Watching",
+      "published": "2026-03-12T13:13:50.000Z"
+    },
+    {
+      "id": "2603.07815",
+      "title": "HybridStitch: Pixel and Timestep Level Model Stitching for Diffusion Acceleration",
+      "authors": [
+        "Desen Sun",
+        "Jason Hon",
+        "Jintao Zhang",
+        "Sihang Liu"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2026-03-08T21:34:50.000Z"
+    },
+    {
+      "id": "2603.12310",
+      "title": "VQQA: An Agentic Approach for Video Evaluation and Quality Improvement",
+      "authors": [
+        "Yiwen Song",
+        "Tomas Pfister",
+        "Yale Song"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2026-03-12T18:00:00.000Z"
+    },
+    {
+      "id": "2603.10781",
+      "title": "Taking Shortcuts for Categorical VQA Using Super Neurons",
+      "authors": [
+        "Pierre Musacchio",
+        "Jaeyi Jeong",
+        "Dahun Kim",
+        "Jaesik Park"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2026-03-11T13:54:45.000Z"
+    },
+    {
+      "id": "2603.12824",
+      "title": "NanoVDR: Distilling a 2B Vision-Language Retriever into a 70M Text-Only Encoder for Visual Document Retrieval",
+      "authors": [
+        "Zhuchenyang Liu",
+        "Yao Zhang",
+        "Yu Xiao"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2026-03-13T09:24:23.000Z"
+    },
+    {
+      "id": "2603.10899",
+      "title": "LookaheadKV: Fast and Accurate KV Cache Eviction by Glimpsing into the Future without Generation",
+      "authors": [
+        "Jinwoo Ahn",
+        "Ingyu Seong",
+        "Akhil Kedia",
+        "Junhan Kim",
+        "Hyemi Jang",
+        "Kangwook Lee",
+        "Yongkweon Jeon"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/SamsungLabs/LookaheadKV",
+      "published": "2026-03-11T15:44:32.000Z"
+    },
+    {
+      "id": "2603.11863",
+      "title": "CreativeBench: Benchmarking and Enhancing Machine Creativity via Self-Evolving Challenges",
+      "authors": [
+        "Zi-Han Wang",
+        "Lam Nguyen",
+        "Zhengyang Zhao",
+        "Mengyue Yang",
+        "Chengwei Qin",
+        "Yujiu Yang",
+        "Linyi Yang"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/ZethWang/CreativeBench",
+      "published": "2026-03-12T12:36:56.000Z"
+    },
+    {
+      "id": "2603.13131",
+      "title": "Steve-Evolving: Open-World Embodied Self-Evolution via Fine-Grained Diagnosis and Dual-Track Knowledge Distillation",
+      "authors": [
+        "Zhengwei Xie",
+        "Zhisheng Chen",
+        "Ziyan Weng",
+        "Tingyu Wu",
+        "Chenglong Li",
+        "Vireo Zhang",
+        "Kun Wang"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/xzw-ustc/Steve-Evolving",
+      "published": "2026-03-13T16:23:34.000Z"
+    },
+    {
+      "id": "2603.02133",
+      "title": "SimRecon: SimReady Compositional Scene Reconstruction from Real Videos",
+      "authors": [
+        "Chong Xia",
+        "Kai Zhu",
+        "Zizhuo Wang",
+        "Fangfu Liu",
+        "Zhizheng Zhang",
+        "Yueqi Duan"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/xiac20/SimRecon",
+      "published": "2026-03-02T17:51:45.000Z"
+    },
+    {
+      "id": "2603.12916",
+      "title": "Surprised by Attention: Predictable Query Dynamics for Time Series Anomaly Detection",
+      "authors": [
+        "Kadir-Kaan Özer",
+        "René Ebeling",
+        "Markus Enzweiler"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/iis-esslingen/AxonAD",
+      "published": "2026-03-13T11:40:51.000Z"
+    },
+    {
+      "id": "2603.12935",
+      "title": "Can Fairness Be Prompted? Prompt-Based Debiasing Strategies in High-Stakes Recommendations",
+      "authors": [
+        "Mihaela Rotar",
+        "Theresia Veronika Rampisela",
+        "Maria Maistro"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2026-03-13T12:30:42.000Z"
+    },
+    {
+      "id": "2603.11749",
+      "title": "Compression Favors Consistency, Not Truth: When and Why Language Models Prefer Correct Information",
+      "authors": [
+        "Konstantin Krestnikov"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/Rai220/compression-drives-truth",
+      "published": "2026-03-12T09:52:38.000Z"
+    },
+    {
+      "id": "2603.10926",
+      "title": "ECoLAD: Deployment-Oriented Evaluation for Automotive Time-Series Anomaly Detection",
+      "authors": [
+        "Kadir-Kaan Özer",
+        "René Ebeling",
+        "Markus Enzweiler"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2026-03-11T16:08:56.000Z"
+    },
+    {
+      "id": "2603.11382",
+      "title": "Detecting Intrinsic and Instrumental Self-Preservation in Autonomous Agents: The Unified Continuation-Interest Protocol",
+      "authors": [
+        "Christopher Altman"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/christopher-altman/persistence-signal-detector",
+      "published": "2026-03-11T23:52:33.000Z"
+    },
+    {
+      "id": "2603.12533",
+      "title": "Do You See What I Am Pointing At? Gesture-Based Egocentric Video Question Answering",
+      "authors": [
+        "Yura Choi",
+        "Roy Miles",
+        "Rolandos Alexandros Potamias",
+        "Ismail Elezi",
+        "Jiankang Deng",
+        "Stefanos Zafeiriou"
+      ],
+      "upvotes": 0,
+      "github": "https://github.com/Yuuraa/EgoPointVQA",
+      "published": "2026-03-13T00:23:38.000Z"
+    },
+    {
+      "id": "2603.12588",
+      "title": "SDF-Net: Structure-Aware Disentangled Feature Learning for Opticall-SAR Ship Re-identification",
+      "authors": [
+        "Furui Chen",
+        "Han Wang",
+        "Yuhan Sun",
+        "Jianing You",
+        "Yixuan Lv",
+        "Zhuang Zhou",
+        "Hong Tan",
+        "Shengyang Li"
+      ],
+      "upvotes": 0,
+      "github": "https://github.com/cfrfree/SDF-Net",
+      "published": "2026-03-13T02:41:43.000Z"
+    },
+    {
+      "id": "2603.09930",
+      "title": "Fine-grained Motion Retrieval via Joint-Angle Motion Images and Token-Patch Late Interaction",
+      "authors": [
+        "Yao Zhang",
+        "Zhuchenyang Liu",
+        "Yanlan He",
+        "Thomas Ploetz",
+        "Yu Xiao"
+      ],
+      "upvotes": 0,
+      "github": null,
+      "published": "2026-03-10T17:26:42.000Z"
+    }
+  ]
+}

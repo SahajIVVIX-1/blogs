@@ -1,0 +1,194 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-03-06",
+  "fetched_at": "2026-10-29T15:27:06.354Z",
+  "candidates": [
+    {
+      "id": "2403.03100",
+      "title": "NaturalSpeech 3: Zero-Shot Speech Synthesis with Factorized Codec and Diffusion Models",
+      "authors": [
+        "Zeqian Ju",
+        "Yuancheng Wang",
+        "Kai Shen",
+        "Xu Tan",
+        "Detai Xin",
+        "Dongchao Yang",
+        "Yanqing Liu",
+        "Yichong Leng",
+        "Kaitao Song",
+        "Siliang Tang",
+        "Zhizheng Wu",
+        "Tao Qin",
+        "Xiang-Yang Li",
+        "Wei Ye",
+        "Shikun Zhang",
+        "Jiang Bian",
+        "Lei He",
+        "Jinyu Li",
+        "Sheng Zhao"
+      ],
+      "upvotes": 37,
+      "github": "https://github.com/lifeiteng/naturalspeech3_facodec",
+      "published": "2024-03-05T16:35:25.000Z"
+    },
+    {
+      "id": "2403.02677",
+      "title": "Finetuned Multimodal Language Models Are High-Quality Image-Text Data Filters",
+      "authors": [
+        "Weizhi Wang",
+        "Khalil Mrini",
+        "Linjie Yang",
+        "Sateesh Kumar",
+        "Yu Tian",
+        "Xifeng Yan",
+        "Heng Wang"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/Victorwz/MLM_Filter",
+      "published": "2024-03-05T06:05:15.000Z"
+    },
+    {
+      "id": "2403.02884",
+      "title": "MathScale: Scaling Instruction Tuning for Mathematical Reasoning",
+      "authors": [
+        "Zhengyang Tang",
+        "Xingxing Zhang",
+        "Benyou Wan",
+        "Furu Wei"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2024-03-05T11:42:59.000Z"
+    },
+    {
+      "id": "2403.02545",
+      "title": "Wukong: Towards a Scaling Law for Large-Scale Recommendation",
+      "authors": [
+        "Buyun Zhang",
+        "Liang Luo",
+        "Yuxin Chen",
+        "Jade Nie",
+        "Xi Liu",
+        "Daifeng Guo",
+        "Yanli Zhao",
+        "Shen Li",
+        "Yuchen Hao",
+        "Yantao Yao",
+        "Guna Lakshminarayanan",
+        "Ellie Dingqiao Wen",
+        "Jongsoo Park",
+        "Maxim Naumov",
+        "Wenlin Chen"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2024-03-04T23:40:20.000Z"
+    },
+    {
+      "id": "2403.03194",
+      "title": "MAGID: An Automated Pipeline for Generating Synthetic Multi-modal Datasets",
+      "authors": [
+        "Hossein Aboutalebi",
+        "Hwanjun Song",
+        "Yusheng Xie",
+        "Arshit Gupta",
+        "Justin Sun",
+        "Hang Su",
+        "Igor Shalyminov",
+        "Nikolaos Pappas",
+        "Siffi Singh",
+        "Saab Mansour"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/amazon-science/MAGID",
+      "published": "2024-03-05T18:31:28.000Z"
+    },
+    {
+      "id": "2403.02775",
+      "title": "EasyQuant: An Efficient Data-free Quantization Algorithm for LLMs",
+      "authors": [
+        "Hanlin Tang",
+        "Yifu Sun",
+        "Decheng Wu",
+        "Kai Liu",
+        "Jianchen Zhu",
+        "Zhanhui Kang"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2024-03-05T08:45:30.000Z"
+    },
+    {
+      "id": "2403.02626",
+      "title": "Modeling Collaborator: Enabling Subjective Vision Classification With Minimal Human Effort via LLM Tool-Use",
+      "authors": [
+        "Imad Eddine Toubal",
+        "Aditya Avinash",
+        "Neil Gordon Alldrin",
+        "Jan Dlabal",
+        "Wenlei Zhou",
+        "Enming Luo",
+        "Otilia Stretcu",
+        "Hao Xiong",
+        "Chun-Ta Lu",
+        "Howard Zhou",
+        "Ranjay Krishna",
+        "Ariel Fuxman",
+        "Tom Duerig"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2024-03-05T03:34:11.000Z"
+    },
+    {
+      "id": "2403.03003",
+      "title": "Feast Your Eyes: Mixture-of-Resolution Adaptation for Multimodal Large Language Models",
+      "authors": [
+        "Gen Luo",
+        "Yiyi Zhou",
+        "Yuxin Zhang",
+        "Xiawu Zheng",
+        "Xiaoshuai Sun",
+        "Rongrong Ji"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/luogen1996/llava-hr",
+      "published": "2024-03-05T14:31:24.000Z"
+    },
+    {
+      "id": "2403.02709",
+      "title": "RT-Sketch: Goal-Conditioned Imitation Learning from Hand-Drawn Sketches",
+      "authors": [
+        "Priya Sundaresan",
+        "Quan Vuong",
+        "Jiayuan Gu",
+        "Peng Xu",
+        "Ted Xiao",
+        "Sean Kirmani",
+        "Tianhe Yu",
+        "Michael Stark",
+        "Ajinkya Jain",
+        "Karol Hausman",
+        "Dorsa Sadigh",
+        "Jeannette Bohg",
+        "Stefan Schaal"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2024-03-05T07:00:46.000Z"
+    },
+    {
+      "id": "2403.02460",
+      "title": "MagicClay: Sculpting Meshes With Generative Neural Fields",
+      "authors": [
+        "Amir Barda",
+        "Vladimir G. Kim",
+        "Noam Aigerman",
+        "Amit H. Bermano",
+        "Thibault Groueix"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/amirbarda/MagicClay",
+      "published": "2024-03-04T20:20:14.000Z"
+    }
+  ]
+}

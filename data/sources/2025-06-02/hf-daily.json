@@ -1,0 +1,668 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-06-02",
+  "fetched_at": "2026-10-29T15:31:42.350Z",
+  "candidates": [
+    {
+      "id": "2505.24864",
+      "title": "ProRL: Prolonged Reinforcement Learning Expands Reasoning Boundaries in Large Language Models",
+      "authors": [
+        "Mingjie Liu",
+        "Shizhe Diao",
+        "Ximing Lu",
+        "Jian Hu",
+        "Xin Dong",
+        "Yejin Choi",
+        "Jan Kautz",
+        "Yi Dong"
+      ],
+      "upvotes": 146,
+      "github": null,
+      "published": "2025-05-30T17:59:01.000Z"
+    },
+    {
+      "id": "2505.24863",
+      "title": "AlphaOne: Reasoning Models Thinking Slow and Fast at Test Time",
+      "authors": [
+        "Junyu Zhang",
+        "Runpei Dong",
+        "Han Wang",
+        "Xuying Ning",
+        "Haoran Geng",
+        "Peihao Li",
+        "Xialin He",
+        "Yutong Bai",
+        "Jitendra Malik",
+        "Saurabh Gupta",
+        "Huan Zhang"
+      ],
+      "upvotes": 98,
+      "github": "https://github.com/ASTRAL-Group/AlphaOne",
+      "published": "2025-05-30T17:58:36.000Z"
+    },
+    {
+      "id": "2505.24867",
+      "title": "Time Blindness: Why Video-Language Models Can't See What Humans Can?",
+      "authors": [
+        "Ujjwal Upadhyay",
+        "Mukul Ranjan",
+        "Zhiqiang Shen",
+        "Mohamed Elhoseiny"
+      ],
+      "upvotes": 82,
+      "github": "https://github.com/TimeBlindness/time-blindness",
+      "published": "2025-05-30T17:59:12.000Z"
+    },
+    {
+      "id": "2505.14752",
+      "title": "Large Language Models for Data Synthesis",
+      "authors": [
+        "Yihong Tang",
+        "Menglin Kong",
+        "Lijun Sun"
+      ],
+      "upvotes": 50,
+      "github": "https://github.com/YihongT/LLMSynthor",
+      "published": "2025-05-20T13:35:38.000Z"
+    },
+    {
+      "id": "2505.24098",
+      "title": "HardTests: Synthesizing High-Quality Test Cases for LLM Coding",
+      "authors": [
+        "Zhongmou He",
+        "Yee Man Choi",
+        "Kexun Zhang",
+        "Jiabao Ji",
+        "Junting Zhou",
+        "Dejia Xu",
+        "Ivan Bercovich",
+        "Aidan Zhang",
+        "Lei Li"
+      ],
+      "upvotes": 44,
+      "github": null,
+      "published": "2025-05-30T01:00:34.000Z"
+    },
+    {
+      "id": "2505.18842",
+      "title": "Don't Look Only Once: Towards Multimodal Interactive Reasoning with Selective Visual Revisitation",
+      "authors": [
+        "Jiwan Chung",
+        "Junhyeok Kim",
+        "Siyeol Kim",
+        "Jaeyoung Lee",
+        "Min Soo Kim",
+        "Youngjae Yu"
+      ],
+      "upvotes": 36,
+      "github": "https://github.com/jun297/v1",
+      "published": "2025-05-24T19:30:47.000Z"
+    },
+    {
+      "id": "2505.24862",
+      "title": "ViStoryBench: Comprehensive Benchmark Suite for Story Visualization",
+      "authors": [
+        "Cailin Zhuang",
+        "Ailin Huang",
+        "Wei Cheng",
+        "Jingwei Wu",
+        "Yaoqi Hu",
+        "Jiaqi Liao",
+        "Zhewei Huang",
+        "Hongyuan Wang",
+        "Xinyao Liao",
+        "Weiwei Cai",
+        "Hengyuan Xu",
+        "Xuanyang Zhang",
+        "Xianfang Zeng",
+        "Gang Yu",
+        "Chi Zhang"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/vistorybench/vistorybench",
+      "published": "2025-05-30T17:58:21.000Z"
+    },
+    {
+      "id": "2505.24025",
+      "title": "DINO-R1: Incentivizing Reasoning Capability in Vision Foundation Models",
+      "authors": [
+        "Chenbin Pan",
+        "Wenbin He",
+        "Zhengzhong Tu",
+        "Liu Ren"
+      ],
+      "upvotes": 28,
+      "github": null,
+      "published": "2025-05-29T21:58:06.000Z"
+    },
+    {
+      "id": "2505.24785",
+      "title": "EXP-Bench: Can AI Conduct AI Research Experiments?",
+      "authors": [
+        "Patrick Tser Jern Kon",
+        "Jiachen Liu",
+        "Xinyi Zhu",
+        "Qiuyi Ding",
+        "Jingjia Peng",
+        "Jiarong Xing",
+        "Yibo Huang",
+        "Yiming Qiu",
+        "Jayanth Srinivasa",
+        "Myungjin Lee",
+        "Mosharaf Chowdhury",
+        "Matei Zaharia",
+        "Ang Chen"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/Just-Curieous/Curie",
+      "published": "2025-05-30T16:46:29.000Z"
+    },
+    {
+      "id": "2505.24871",
+      "title": "MoDoMoDo: Multi-Domain Data Mixtures for Multimodal LLM Reinforcement Learning",
+      "authors": [
+        "Yiqing Liang",
+        "Jielin Qiu",
+        "Wenhao Ding",
+        "Zuxin Liu",
+        "James Tompkin",
+        "Mengdi Xu",
+        "Mengzhou Xia",
+        "Zhengzhong Tu",
+        "Laixi Shi",
+        "Jiacheng Zhu"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/lynl7130/MoDoMoDo",
+      "published": "2025-05-30T17:59:38.000Z"
+    },
+    {
+      "id": "2505.23941",
+      "title": "Vision Language Models are Biased",
+      "authors": [
+        "An Vo",
+        "Khai-Nguyen Nguyen",
+        "Mohammad Reza Taesiri",
+        "Vy Tuong Dang",
+        "Anh Totti Nguyen",
+        "Daeyoung Kim"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/anvo25/vlms-are-biased",
+      "published": "2025-05-29T18:47:58.000Z"
+    },
+    {
+      "id": "2505.24878",
+      "title": "Open CaptchaWorld: A Comprehensive Web-based Platform for Testing and Benchmarking Multimodal LLM Agents",
+      "authors": [
+        "Yaxin Luo",
+        "Zhaoyi Li",
+        "Jiacheng Liu",
+        "Jiacheng Cui",
+        "Xiaohan Zhao",
+        "Zhiqiang Shen"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/MetaAgentX/OpenCaptchaWorld",
+      "published": "2025-05-30T17:59:55.000Z"
+    },
+    {
+      "id": "2505.21437",
+      "title": "CoDA: Coordinated Diffusion Noise Optimization for Whole-Body Manipulation of Articulated Objects",
+      "authors": [
+        "Huaijin Pi",
+        "Zhi Cen",
+        "Zhiyang Dou",
+        "Taku Komura"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/phj128/CoDA",
+      "published": "2025-05-27T17:11:50.000Z"
+    },
+    {
+      "id": "2505.23009",
+      "title": "EmergentTTS-Eval: Evaluating TTS Models on Complex Prosodic, Expressiveness, and Linguistic Challenges Using Model-as-a-Judge",
+      "authors": [
+        "Ruskin Raj Manku",
+        "Yuzhi Tang",
+        "Xingjian Shi",
+        "Mu Li",
+        "Alex Smola"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/boson-ai/emergenttts-eval-public",
+      "published": "2025-05-29T02:36:24.000Z"
+    },
+    {
+      "id": "2505.24858",
+      "title": "MetaFaith: Faithful Natural Language Uncertainty Expression in LLMs",
+      "authors": [
+        "Gabrielle Kaili-May Liu",
+        "Gal Yona",
+        "Avi Caciularu",
+        "Idan Szpektor",
+        "Tim G. J. Rudner",
+        "Arman Cohan"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/yale-nlp/MetaFaith",
+      "published": "2025-05-30T17:54:08.000Z"
+    },
+    {
+      "id": "2505.24521",
+      "title": "UniGeo: Taming Video Diffusion for Unified Consistent Geometry Estimation",
+      "authors": [
+        "Yang-Tian Sun",
+        "Xin Yu",
+        "Zehuan Huang",
+        "Yi-Hua Huang",
+        "Yuan-Chen Guo",
+        "Ziyi Yang",
+        "Yan-Pei Cao",
+        "Xiaojuan Qi"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/SunYangtian/UniGeo",
+      "published": "2025-05-30T12:31:59.000Z"
+    },
+    {
+      "id": "2505.24293",
+      "title": "Large Language Models are Locally Linear Mappings",
+      "authors": [
+        "James R. Golden"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/jamesgolden1/llms-are-llms",
+      "published": "2025-05-30T07:08:33.000Z"
+    },
+    {
+      "id": "2505.21523",
+      "title": "More Thinking, Less Seeing? Assessing Amplified Hallucination in Multimodal Reasoning Models",
+      "authors": [
+        "Chengzhi Liu",
+        "Zhongxing Xu",
+        "Qingyue Wei",
+        "Juncheng Wu",
+        "James Zou",
+        "Xin Eric Wang",
+        "Yuyin Zhou",
+        "Sheng Liu"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/MLRM-Halu/MLRM-Halu",
+      "published": "2025-05-23T05:08:40.000Z"
+    },
+    {
+      "id": "2505.24417",
+      "title": "EasyText: Controllable Diffusion Transformer for Multilingual Text Rendering",
+      "authors": [
+        "Runnan Lu",
+        "Yuxuan Zhang",
+        "Jailing Liu",
+        "Haifa Wang",
+        "Yiren Song"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/songyiren725/easytext",
+      "published": "2025-05-30T09:55:39.000Z"
+    },
+    {
+      "id": "2505.24196",
+      "title": "CLaSp: In-Context Layer Skip for Self-Speculative Decoding",
+      "authors": [
+        "Longze Chen",
+        "Renke Shan",
+        "Huiming Wang",
+        "Lu Wang",
+        "Ziqiang Liu",
+        "Run Luo",
+        "Jiawei Wang",
+        "Hamid Alinejad-Rokny",
+        "Min Yang"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2025-05-30T04:15:06.000Z"
+    },
+    {
+      "id": "2505.24875",
+      "title": "ReasonGen-R1: CoT for Autoregressive Image generation models through SFT and RL",
+      "authors": [
+        "Yu Zhang",
+        "Yunqi Li",
+        "Yifan Yang",
+        "Rui Wang",
+        "Yuqing Yang",
+        "Dai Qi",
+        "Jianmin Bao",
+        "Dongdong Chen",
+        "Chong Luo",
+        "Lili Qiu"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/Franklin-Zhang0/ReasonGen-R1",
+      "published": "2025-05-30T17:59:48.000Z"
+    },
+    {
+      "id": "2505.20977",
+      "title": "Evaluating and Steering Modality Preferences in Multimodal Large Language Model",
+      "authors": [
+        "Yu Zhang",
+        "Jinlong Ma",
+        "Yongshuai Hou",
+        "Xuefeng Bai",
+        "Kehai Chen",
+        "Yang Xiang",
+        "Jun Yu",
+        "Min Zhang"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/EchoDreamer/Modality-Preference",
+      "published": "2025-05-27T10:07:59.000Z"
+    },
+    {
+      "id": "2505.21864",
+      "title": "DexUMI: Using Human Hand as the Universal Manipulation Interface for Dexterous Manipulation",
+      "authors": [
+        "Mengda Xu",
+        "Han Zhang",
+        "Yifan Hou",
+        "Zhenjia Xu",
+        "Linxi Fan",
+        "Manuela Veloso",
+        "Shuran Song"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/real-stanford/DexUMI",
+      "published": "2025-05-28T01:25:27.000Z"
+    },
+    {
+      "id": "2505.23923",
+      "title": "ChARM: Character-based Act-adaptive Reward Modeling for Advanced Role-Playing Language Agents",
+      "authors": [
+        "Feiteng Fang",
+        "Ting-En Lin",
+        "Yuchuan Wu",
+        "Xiong Liu",
+        "Xiang Huang",
+        "Dingwei Chen",
+        "Jing Ye",
+        "Haonan Zhang",
+        "Liang Zhu",
+        "Hamid Alinejad-Rokny",
+        "Min Yang",
+        "Fei Huang",
+        "Yongbin Li"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2025-05-29T18:15:18.000Z"
+    },
+    {
+      "id": "2505.20873",
+      "title": "Fork-Merge Decoding: Enhancing Multimodal Understanding in Audio-Visual Large Language Models",
+      "authors": [
+        "Chaeyoung Jung",
+        "Youngjoon Jang",
+        "Jongmin Choi",
+        "Joon Son Chung"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2025-05-27T08:22:56.000Z"
+    },
+    {
+      "id": "2505.24850",
+      "title": "Harnessing Negative Signals: Reinforcement Distillation from Teacher Data for LLM Reasoning",
+      "authors": [
+        "Shuyao Xu",
+        "Cheng Peng",
+        "Jiangxuan Long",
+        "Weidi Xu",
+        "Wei Chu",
+        "Yuan Qi"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/Tim-Siu/reinforcement-distillation",
+      "published": "2025-05-30T17:47:17.000Z"
+    },
+    {
+      "id": "2505.24869",
+      "title": "SiLVR: A Simple Language-based Video Reasoning Framework",
+      "authors": [
+        "Ce Zhang",
+        "Yan-Bo Lin",
+        "Ziyang Wang",
+        "Mohit Bansal",
+        "Gedas Bertasius"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/CeeZh/SILVR",
+      "published": "2025-05-30T17:59:19.000Z"
+    },
+    {
+      "id": "2505.24189",
+      "title": "Fine-Tune an SLM or Prompt an LLM? The Case of Generating Low-Code Workflows",
+      "authors": [
+        "Orlando Marquez Ayala",
+        "Patrice Bechard",
+        "Emily Chen",
+        "Maggie Baird",
+        "Jingfei Chen"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-05-30T03:59:35.000Z"
+    },
+    {
+      "id": "2505.13157",
+      "title": "Role-Playing Evaluation for Large Language Models",
+      "authors": [
+        "Yassine El Boudouri",
+        "Walter Nuninger",
+        "Julian Alvarez",
+        "Yvan Peter"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/yelboudouri/RPEval",
+      "published": "2025-05-19T14:18:16.000Z"
+    },
+    {
+      "id": "2505.24517",
+      "title": "un^2CLIP: Improving CLIP's Visual Detail Capturing Ability via Inverting unCLIP",
+      "authors": [
+        "Yinqi Li",
+        "Jiahe Zhao",
+        "Hong Chang",
+        "Ruibing Hou",
+        "Shiguang Shan",
+        "Xilin Chen"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/LiYinqi/un2CLIP",
+      "published": "2025-05-30T12:29:38.000Z"
+    },
+    {
+      "id": "2505.24615",
+      "title": "Harnessing Large Language Models for Scientific Novelty Detection",
+      "authors": [
+        "Yan Liu",
+        "Zonglin Yang",
+        "Soujanya Poria",
+        "Thanh-Son Nguyen",
+        "Erik Cambria"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-05-30T14:08:13.000Z"
+    },
+    {
+      "id": "2505.23926",
+      "title": "Point-MoE: Towards Cross-Domain Generalization in 3D Semantic Segmentation via Mixture-of-Experts",
+      "authors": [
+        "Xuweiyi Chen",
+        "Wentao Zhou",
+        "Aruni RoyChowdhury",
+        "Zezhou Cheng"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-05-29T18:21:47.000Z"
+    },
+    {
+      "id": "2505.24672",
+      "title": "TRIDENT: Enhancing Large Language Model Safety with Tri-Dimensional Diversified Red-Teaming Data Synthesis",
+      "authors": [
+        "Xiaorui Wu",
+        "Xiaofeng Mao",
+        "Fei Li",
+        "Xin Zhang",
+        "Xuanhong Li",
+        "Chong Teng",
+        "Donghong Ji",
+        "Zhuang Li"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/fisht0ucher/trident",
+      "published": "2025-05-30T15:02:21.000Z"
+    },
+    {
+      "id": "2505.21749",
+      "title": "Revisiting Bi-Linear State Transitions in Recurrent Neural Networks",
+      "authors": [
+        "M. Reza Ebrahimi",
+        "Roland Memisevic"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-05-27T20:38:19.000Z"
+    },
+    {
+      "id": "2505.23844",
+      "title": "Enabling Flexible Multi-LLM Integration for Scalable Knowledge Aggregation",
+      "authors": [
+        "Zhenglun Kong",
+        "Zheng Zhan",
+        "Shiyue Hou",
+        "Yifan Gong",
+        "Xin Meng",
+        "Pengwei Sui",
+        "Peiyan Dong",
+        "Xuan Shen",
+        "Zifeng Wang",
+        "Pu Zhao",
+        "Hao Tang",
+        "Stratis Ioannidis",
+        "Yanzhi Wang"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/ZLKong/LLM_Integration",
+      "published": "2025-05-28T16:24:50.000Z"
+    },
+    {
+      "id": "2506.00073",
+      "title": "The Automated but Risky Game: Modeling Agent-to-Agent Negotiations and Transactions in Consumer Markets",
+      "authors": [
+        "Shenzhe Zhu",
+        "Jiao Sun",
+        "Yi Nian",
+        "Tobin South",
+        "Alex Pentland",
+        "Jiaxin Pei"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/ShenzheZhu/A2A-NT",
+      "published": "2025-05-29T17:41:39.000Z"
+    },
+    {
+      "id": "2505.23856",
+      "title": "OMNIGUARD: An Efficient Approach for AI Safety Moderation Across Modalities",
+      "authors": [
+        "Sahil Verma",
+        "Keegan Hines",
+        "Jeff Bilmes",
+        "Charlotte Siska",
+        "Luke Zettlemoyer",
+        "Hila Gonen",
+        "Chandan Singh"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/vsahil/omniguard",
+      "published": "2025-05-29T05:25:27.000Z"
+    },
+    {
+      "id": "2505.20047",
+      "title": "Grammars of Formal Uncertainty: When to Trust LLMs in Automated Reasoning Tasks",
+      "authors": [
+        "Debargha Ganguly",
+        "Vikash Singh",
+        "Sreehari Sankar",
+        "Biyao Zhang",
+        "Xuecen Zhang",
+        "Srinivasan Iyengar",
+        "Xiaotian Han",
+        "Amit Sharma",
+        "Shivkumar Kalyanaraman",
+        "Vipin Chaudhary"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2025-05-26T14:34:04.000Z"
+    },
+    {
+      "id": "2505.24581",
+      "title": "GATE: General Arabic Text Embedding for Enhanced Semantic Textual Similarity with Matryoshka Representation Learning and Hybrid Loss Training",
+      "authors": [
+        "Omer Nacar",
+        "Anis Koubaa",
+        "Serry Sibaee",
+        "Yasser Al-Habashi",
+        "Adel Ammar",
+        "Wadii Boulila"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2025-05-30T13:29:03.000Z"
+    },
+    {
+      "id": "2505.24782",
+      "title": "Context is Gold to find the Gold Passage: Evaluating and Training Contextual Document Embeddings",
+      "authors": [
+        "Max Conti",
+        "Manuel Faysse",
+        "Gautier Viaud",
+        "Antoine Bosselut",
+        "Céline Hudelot",
+        "Pierre Colombo"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/illuin-tech/contextual-embeddings",
+      "published": "2025-05-30T16:43:28.000Z"
+    },
+    {
+      "id": "2505.24119",
+      "title": "The State of Multilingual LLM Safety Research: From Measuring the Language Gap to Mitigating It",
+      "authors": [
+        "Zheng-Xin Yong",
+        "Beyza Ermis",
+        "Marzieh Fadaee",
+        "Stephen H. Bach",
+        "Julia Kreutzer"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2025-05-30T01:32:44.000Z"
+    },
+    {
+      "id": "2505.23832",
+      "title": "LegalSearchLM: Rethinking Legal Case Retrieval as Legal Elements Generation",
+      "authors": [
+        "Chaeeun Kim",
+        "Jinu Lee",
+        "Wonseok Hwang"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2025-05-28T09:02:41.000Z"
+    }
+  ]
+}

@@ -1,0 +1,336 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-11-04",
+  "fetched_at": "2026-10-29T15:29:34.570Z",
+  "candidates": [
+    {
+      "id": "2410.23218",
+      "title": "OS-ATLAS: A Foundation Action Model for Generalist GUI Agents",
+      "authors": [
+        "Zhiyong Wu",
+        "Zhenyu Wu",
+        "Fangzhi Xu",
+        "Yian Wang",
+        "Qiushi Sun",
+        "Chengyou Jia",
+        "Kanzhi Cheng",
+        "Zichen Ding",
+        "Liheng Chen",
+        "Paul Pu Liang",
+        "Yu Qiao"
+      ],
+      "upvotes": 51,
+      "github": "https://github.com/OS-Copilot/OS-Atlas",
+      "published": "2024-10-30T17:10:19.000Z"
+    },
+    {
+      "id": "2411.00027",
+      "title": "Personalization of Large Language Models: A Survey",
+      "authors": [
+        "Zhehao Zhang",
+        "Ryan A. Rossi",
+        "Branislav Kveton",
+        "Yijia Shao",
+        "Diyi Yang",
+        "Hamed Zamani",
+        "Franck Dernoncourt",
+        "Joe Barrow",
+        "Tong Yu",
+        "Sungchul Kim",
+        "Ruiyi Zhang",
+        "Jiuxiang Gu",
+        "Tyler Derr",
+        "Hongjie Chen",
+        "Junda Wu",
+        "Xiang Chen",
+        "Zichao Wang",
+        "Subrata Mitra",
+        "Nedim Lipka",
+        "Nesreen Ahmed",
+        "Yu Wang"
+      ],
+      "upvotes": 33,
+      "github": null,
+      "published": "2024-10-29T04:01:11.000Z"
+    },
+    {
+      "id": "2411.00322",
+      "title": "Constant Acceleration Flow",
+      "authors": [
+        "Dogyun Park",
+        "Sojin Lee",
+        "Sihyeon Kim",
+        "Taehoon Lee",
+        "Youngjoon Hong",
+        "Hyunwoo J. Kim"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/mlvlab/CAF",
+      "published": "2024-11-01T02:43:56.000Z"
+    },
+    {
+      "id": "2411.00776",
+      "title": "Randomized Autoregressive Visual Generation",
+      "authors": [
+        "Qihang Yu",
+        "Ju He",
+        "Xueqing Deng",
+        "Xiaohui Shen",
+        "Liang-Chieh Chen"
+      ],
+      "upvotes": 19,
+      "github": null,
+      "published": "2024-11-01T17:59:58.000Z"
+    },
+    {
+      "id": "2411.00836",
+      "title": "DynaMath: A Dynamic Visual Benchmark for Evaluating Mathematical Reasoning Robustness of Vision Language Models",
+      "authors": [
+        "Chengke Zou",
+        "Xingang Guo",
+        "Rui Yang",
+        "Junyu Zhang",
+        "Bin Hu",
+        "Huan Zhang"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/DynaMath/DynaMath",
+      "published": "2024-10-29T17:29:19.000Z"
+    },
+    {
+      "id": "2411.00660",
+      "title": "Physics in Next-token Prediction",
+      "authors": [
+        "Hongjun An",
+        "Yiliang Song",
+        "Xuelong Li"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2024-11-01T15:26:15.000Z"
+    },
+    {
+      "id": "2410.23266",
+      "title": "TOMATO: Assessing Visual Temporal Reasoning Capabilities in Multimodal Foundation Models",
+      "authors": [
+        "Ziyao Shangguan",
+        "Chuhan Li",
+        "Yuxuan Ding",
+        "Yanan Zheng",
+        "Yilun Zhao",
+        "Tesca Fitzgerald",
+        "Arman Cohan"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/yale-nlp/TOMATO",
+      "published": "2024-10-30T17:50:23.000Z"
+    },
+    {
+      "id": "2410.24159",
+      "title": "GPT or BERT: why not both?",
+      "authors": [
+        "Lucas Georges Gabriel Charpentier",
+        "David Samuel"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/ltgoslo/gpt-bert",
+      "published": "2024-10-31T17:18:11.000Z"
+    },
+    {
+      "id": "2411.00918",
+      "title": "LIBMoE: A Library for comprehensive benchmarking Mixture of Experts in Large Language Models",
+      "authors": [
+        "Nam V. Nguyen",
+        "Thong T. Doan",
+        "Luong Tran",
+        "Van Nguyen",
+        "Quang Pham"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/Fsoft-AIC/LibMoE",
+      "published": "2024-11-01T14:04:36.000Z"
+    },
+    {
+      "id": "2411.00225",
+      "title": "Fashion-VDM: Video Diffusion Model for Virtual Try-On",
+      "authors": [
+        "Johanna Karras",
+        "Yingwei Li",
+        "Nan Liu",
+        "Luyang Zhu",
+        "Innfarn Yoo",
+        "Andreas Lugmayr",
+        "Chris Lee",
+        "Ira Kemelmacher-Shlizerman"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2024-10-31T21:52:33.000Z"
+    },
+    {
+      "id": "2410.22370",
+      "title": "Survey of User Interface Design and Interaction Techniques in Generative AI Applications",
+      "authors": [
+        "Reuben Luera",
+        "Ryan A. Rossi",
+        "Alexa Siu",
+        "Franck Dernoncourt",
+        "Tong Yu",
+        "Sungchul Kim",
+        "Ruiyi Zhang",
+        "Xiang Chen",
+        "Hanieh Salehy",
+        "Jian Zhao",
+        "Samyadeep Basu",
+        "Puneet Mathur",
+        "Nedim Lipka"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2024-10-28T23:10:06.000Z"
+    },
+    {
+      "id": "2410.23775",
+      "title": "In-Context LoRA for Diffusion Transformers",
+      "authors": [
+        "Lianghua Huang",
+        "Wei Wang",
+        "Zhi-Fan Wu",
+        "Yupeng Shi",
+        "Huanzhang Dou",
+        "Chen Liang",
+        "Yutong Feng",
+        "Yu Liu",
+        "Jingren Zhou"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/ali-vilab/In-Context-LoRA",
+      "published": "2024-10-31T09:45:00.000Z"
+    },
+    {
+      "id": "2411.00771",
+      "title": "CityGaussianV2: Efficient and Geometrically Accurate Reconstruction for Large-Scale Scenes",
+      "authors": [
+        "Yang Liu",
+        "Chuanchen Luo",
+        "Zhongkai Mao",
+        "Junran Peng",
+        "Zhaoxiang Zhang"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/DekuLiuTesla/CityGaussian",
+      "published": "2024-11-01T17:59:31.000Z"
+    },
+    {
+      "id": "2411.00762",
+      "title": "Face Anonymization Made Simple",
+      "authors": [
+        "Han-Wei Kung",
+        "Tuomas Varanka",
+        "Sanjay Saha",
+        "Terence Sim",
+        "Nicu Sebe"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/hanweikung/face_anon_simple",
+      "published": "2024-11-01T17:45:21.000Z"
+    },
+    {
+      "id": "2411.00680",
+      "title": "Zipfian Whitening",
+      "authors": [
+        "Sho Yokoi",
+        "Han Bao",
+        "Hiroto Kurita",
+        "Hidetoshi Shimodaira"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/cl-tohoku/zipfian-whitening",
+      "published": "2024-11-01T15:40:19.000Z"
+    },
+    {
+      "id": "2411.00369",
+      "title": "GRS-QA -- Graph Reasoning-Structured Question Answering Dataset",
+      "authors": [
+        "Anish Pahilajani",
+        "Devasha Trivedi",
+        "Jincen Shuai",
+        "Khin S. Yone",
+        "Samyak Rajesh Jain",
+        "Namyong Park",
+        "Ryan A. Rossi",
+        "Nesreen K. Ahmed",
+        "Franck Dernoncourt",
+        "Yu Wang"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2024-11-01T05:14:03.000Z"
+    },
+    {
+      "id": "2410.22901",
+      "title": "HelloMeme: Integrating Spatial Knitting Attentions to Embed High-Level and Fidelity-Rich Conditions in Diffusion Models",
+      "authors": [
+        "Shengkai Zhang",
+        "Nianhong Jiao",
+        "Tian Li",
+        "Chaojie Yang",
+        "Chenhui Xue",
+        "Boya Niu",
+        "Jun Gao"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/HelloVision/HelloMeme",
+      "published": "2024-10-30T11:00:51.000Z"
+    },
+    {
+      "id": "2411.00233",
+      "title": "SambaMixer: State of Health Prediction of Li-ion Batteries using Mamba State Space Models",
+      "authors": [
+        "José Ignacio Olalde-Verano",
+        "Sascha Kirch",
+        "Clara Pérez-Molina",
+        "Sergio Martin"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/sascha-kirch/samba-mixer",
+      "published": "2024-10-31T22:12:27.000Z"
+    },
+    {
+      "id": "2410.21157",
+      "title": "M2rc-Eval: Massively Multilingual Repository-level Code Completion Evaluation",
+      "authors": [
+        "Jiaheng Liu",
+        "Ken Deng",
+        "Congnan Liu",
+        "Jian Yang",
+        "Shukai Liu",
+        "He Zhu",
+        "Peng Zhao",
+        "Linzheng Chai",
+        "Yanan Wu",
+        "Ke Jin",
+        "Ge Zhang",
+        "Zekun Wang",
+        "Guoan Zhang",
+        "Bangyu Xiang",
+        "Wenbo Su",
+        "Bo Zheng"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2024-10-28T15:58:41.000Z"
+    },
+    {
+      "id": "2411.00030",
+      "title": "WikiNER-fr-gold: A Gold-Standard NER Corpus",
+      "authors": [
+        "Danrun Cao",
+        "Nicolas Béchet",
+        "Pierre-François Marteau"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2024-10-29T08:00:16.000Z"
+    }
+  ]
+}

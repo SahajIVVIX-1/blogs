@@ -1,0 +1,382 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-12-02",
+  "fetched_at": "2026-10-29T15:29:51.515Z",
+  "candidates": [
+    {
+      "id": "2411.19309",
+      "title": "GRAPE: Generalizing Robot Policy via Preference Alignment",
+      "authors": [
+        "Zijian Zhang",
+        "Kaiyuan Zheng",
+        "Zhaorun Chen",
+        "Joel Jang",
+        "Yi Li",
+        "Chaoqi Wang",
+        "Mingyu Ding",
+        "Dieter Fox",
+        "Huaxiu Yao"
+      ],
+      "upvotes": 46,
+      "github": null,
+      "published": "2024-11-28T18:30:10.000Z"
+    },
+    {
+      "id": "2411.19189",
+      "title": "Video Depth without Video Models",
+      "authors": [
+        "Bingxin Ke",
+        "Dominik Narnhofer",
+        "Shengyu Huang",
+        "Lei Ke",
+        "Torben Peters",
+        "Katerina Fragkiadaki",
+        "Anton Obukhov",
+        "Konrad Schindler"
+      ],
+      "upvotes": 38,
+      "github": "https://github.com/prs-eth/rollingdepth",
+      "published": "2024-11-28T14:50:14.000Z"
+    },
+    {
+      "id": "2411.18478",
+      "title": "Beyond Examples: High-level Automated Reasoning Paradigm in In-Context Learning via MCTS",
+      "authors": [
+        "Jinyang Wu",
+        "Mingkuan Feng",
+        "Shuai Zhang",
+        "Feihu Che",
+        "Zengqi Wen",
+        "Jianhua Tao"
+      ],
+      "upvotes": 35,
+      "github": "https://github.com/jinyangwu/HiARICL",
+      "published": "2024-11-27T16:19:00.000Z"
+    },
+    {
+      "id": "2411.19930",
+      "title": "On Domain-Specific Post-Training for Multimodal Large Language Models",
+      "authors": [
+        "Daixuan Cheng",
+        "Shaohan Huang",
+        "Ziyu Zhu",
+        "Xintong Zhang",
+        "Wayne Xin Zhao",
+        "Zhongzhi Luan",
+        "Bo Dai",
+        "Zhenliang Zhang"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/bigai-ai/QA-Synthesizer",
+      "published": "2024-11-29T18:42:28.000Z"
+    },
+    {
+      "id": "2412.01253",
+      "title": "Yi-Lightning Technical Report",
+      "authors": [
+        "01. AI",
+        "Alan Wake",
+        "Albert Wang",
+        "Bei Chen",
+        "C. X. Lv",
+        "Chao Li",
+        "Chengen Huang",
+        "Chenglin Cai",
+        "Chujie Zheng",
+        "Daniel Cooper",
+        "Ethan Dai",
+        "Fan Zhou",
+        "Feng Hu",
+        "Heng Ji",
+        "Howard Qiu",
+        "Jiangcheng Zhu",
+        "Jun Tian",
+        "Katherine Su",
+        "Lihuan Zhang",
+        "Liying Li",
+        "Ming Song",
+        "Mou Li",
+        "Peng Liu",
+        "Qichen Hu",
+        "Shawn Wang",
+        "Shijun Zhou",
+        "Shiyong Li",
+        "Tianhang Zhu",
+        "Wen Xie",
+        "Xiang He",
+        "Xiaobo Chen",
+        "Xiaohui Hu",
+        "Xiaoyi Ren",
+        "Xinyao Niu",
+        "Yanpeng Li",
+        "Yongke Zhao",
+        "Yongzhen Luo",
+        "Yuchi Xu",
+        "Yuxuan Sha",
+        "Zhaodong Yan",
+        "Zhiyuan Liu",
+        "Zirui Zhang"
+      ],
+      "upvotes": 29,
+      "github": null,
+      "published": "2024-12-02T08:22:56.000Z"
+    },
+    {
+      "id": "2411.18664",
+      "title": "Spatiotemporal Skip Guidance for Enhanced Video Diffusion Sampling",
+      "authors": [
+        "Junha Hyung",
+        "Kinam Kim",
+        "Susung Hong",
+        "Min-Jung Kim",
+        "Jaegul Choo"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/junhahyung/STGuidance",
+      "published": "2024-11-27T15:59:48.000Z"
+    },
+    {
+      "id": "2411.19865",
+      "title": "Reverse Thinking Makes LLMs Stronger Reasoners",
+      "authors": [
+        "Justin Chih-Yao Chen",
+        "Zifeng Wang",
+        "Hamid Palangi",
+        "Rujun Han",
+        "Sayna Ebrahimi",
+        "Long Le",
+        "Vincent Perot",
+        "Swaroop Mishra",
+        "Mohit Bansal",
+        "Chen-Yu Lee",
+        "Tomas Pfister"
+      ],
+      "upvotes": 23,
+      "github": null,
+      "published": "2024-11-29T17:27:05.000Z"
+    },
+    {
+      "id": "2411.19146",
+      "title": "Puzzle: Distillation-Based NAS for Inference-Optimized LLMs",
+      "authors": [
+        "Akhiad Bercovich",
+        "Tomer Ronen",
+        "Talor Abramovich",
+        "Nir Ailon",
+        "Nave Assaf",
+        "Mohammad Dabbah",
+        "Ido Galil",
+        "Amnon Geifman",
+        "Yonatan Geifman",
+        "Izhak Golan",
+        "Netanel Haber",
+        "Ehud Karpas",
+        "Itay Levy",
+        "Shahar Mor",
+        "Zach Moshe",
+        "Najeeb Nabwani",
+        "Omri Puny",
+        "Ran Rubin",
+        "Itamar Schen",
+        "Ido Shahaf",
+        "Oren Tropp",
+        "Omer Ullman Argov",
+        "Ran Zilberstein",
+        "Ran El-Yaniv"
+      ],
+      "upvotes": 22,
+      "github": null,
+      "published": "2024-11-28T13:45:42.000Z"
+    },
+    {
+      "id": "2411.19108",
+      "title": "Timestep Embedding Tells: It's Time to Cache for Video Diffusion Model",
+      "authors": [
+        "Feng Liu",
+        "Shiwei Zhang",
+        "Xiaofeng Wang",
+        "Yujie Wei",
+        "Haonan Qiu",
+        "Yuzhong Zhao",
+        "Yingya Zhang",
+        "Qixiang Ye",
+        "Fang Wan"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/LiewFeng/TeaCache",
+      "published": "2024-11-28T12:50:05.000Z"
+    },
+    {
+      "id": "2411.18552",
+      "title": "FAM Diffusion: Frequency and Attention Modulation for High-Resolution Image Generation with Stable Diffusion",
+      "authors": [
+        "Haosen Yang",
+        "Adrian Bulat",
+        "Isma Hadji",
+        "Hai X. Pham",
+        "Xiatian Zhu",
+        "Georgios Tzimiropoulos",
+        "Brais Martinez"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2024-11-27T17:51:44.000Z"
+    },
+    {
+      "id": "2411.19324",
+      "title": "Trajectory Attention for Fine-grained Video Motion Control",
+      "authors": [
+        "Zeqi Xiao",
+        "Wenqi Ouyang",
+        "Yifan Zhou",
+        "Shuai Yang",
+        "Lei Yang",
+        "Jianlou Si",
+        "Xingang Pan"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/xizaoqu/TrajectoryAttention",
+      "published": "2024-11-28T18:59:51.000Z"
+    },
+    {
+      "id": "2411.19842",
+      "title": "Scaling Transformers for Low-Bitrate High-Quality Speech Coding",
+      "authors": [
+        "Julian D Parker",
+        "Anton Smirnov",
+        "Jordi Pons",
+        "CJ Carr",
+        "Zack Zukowski",
+        "Zach Evans",
+        "Xubo Liu"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/Stability-AI/stable-codec",
+      "published": "2024-11-29T16:58:02.000Z"
+    },
+    {
+      "id": "2411.19527",
+      "title": "DisCoRD: Discrete Tokens to Continuous Motion via Rectified Flow Decoding",
+      "authors": [
+        "Jungbin Cho",
+        "Junwan Kim",
+        "Jisoo Kim",
+        "Minseo Kim",
+        "Mingu Kang",
+        "Sungeun Hong",
+        "Tae-Hyun Oh",
+        "Youngjae Yu"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/whwjdqls/DisCoRD",
+      "published": "2024-11-29T07:54:56.000Z"
+    },
+    {
+      "id": "2411.19460",
+      "title": "Look Every Frame All at Once: Video-Ma^2mba for Efficient Long-form Video Understanding with Multi-Axis Gradient Checkpointing",
+      "authors": [
+        "Hosu Lee",
+        "Junho Kim",
+        "Hyunjun Kim",
+        "Yong Man Ro"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/IVY-LVLM/Video-MA2MBA",
+      "published": "2024-11-29T04:12:13.000Z"
+    },
+    {
+      "id": "2411.18673",
+      "title": "AC3D: Analyzing and Improving 3D Camera Control in Video Diffusion Transformers",
+      "authors": [
+        "Sherwin Bahmani",
+        "Ivan Skorokhodov",
+        "Guocheng Qian",
+        "Aliaksandr Siarohin",
+        "Willi Menapace",
+        "Andrea Tagliasacchi",
+        "David B. Lindell",
+        "Sergey Tulyakov"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2024-11-27T18:49:13.000Z"
+    },
+    {
+      "id": "2411.19870",
+      "title": "DeMo: Decoupled Momentum Optimization",
+      "authors": [
+        "Bowen Peng",
+        "Jeffrey Quesnelle",
+        "Diederik P. Kingma"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/bloc97/demo",
+      "published": "2024-11-29T17:31:47.000Z"
+    },
+    {
+      "id": "2411.19638",
+      "title": "LLM Teacher-Student Framework for Text Classification With No Manually Annotated Data: A Case Study in IPTC News Topic Classification",
+      "authors": [
+        "Taja Kuzman",
+        "Nikola Ljubešić"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/TajaKuzman/IPTC-Media-Topic-Classification",
+      "published": "2024-11-29T11:42:58.000Z"
+    },
+    {
+      "id": "2411.19950",
+      "title": "AlphaTablets: A Generic Plane Representation for 3D Planar Reconstruction from Monocular Videos",
+      "authors": [
+        "Yuze He",
+        "Wang Zhao",
+        "Shaohui Liu",
+        "Yubin Hu",
+        "Yushi Bai",
+        "Yu-Hui Wen",
+        "Yong-Jin Liu"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/THU-LYJ-Lab/AlphaTablets",
+      "published": "2024-11-29T18:59:52.000Z"
+    },
+    {
+      "id": "2411.18915",
+      "title": "MATATA: a weak-supervised MAthematical Tool-Assisted reasoning for Tabular Applications",
+      "authors": [
+        "Vishnou Vinayagame",
+        "Gregory Senay",
+        "Luis Martí"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2024-11-28T05:12:17.000Z"
+    },
+    {
+      "id": "2411.18665",
+      "title": "SpotLight: Shadow-Guided Object Relighting via Diffusion",
+      "authors": [
+        "Frédéric Fortier-Chouinard",
+        "Zitian Zhang",
+        "Louis-Etienne Messier",
+        "Mathieu Garon",
+        "Anand Bhattad",
+        "Jean-François Lalonde"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2024-11-27T16:06:08.000Z"
+    },
+    {
+      "id": "2411.18092",
+      "title": "Training Noise Token Pruning",
+      "authors": [
+        "Mingxing Rao",
+        "Bohan Jiang",
+        "Daniel Moyer"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/mx-ethan-rao/tnt",
+      "published": "2024-11-27T07:04:00.000Z"
+    }
+  ]
+}

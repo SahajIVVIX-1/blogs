@@ -1,0 +1,7 @@
+{
+  "id": "2405.11473",
+  "html": "https://arxiv.org/html/2405.11473",
+  "limitations": null,
+  "conclusion": "We introduced FIFO-Diffusion, a novel inference algorithm that enables the generation of infinitely long videos from text without tuning video diffusion models pretrained on short clips. Our approach achieves this by introducing diagonal denoising, which processes latents with increasing noise levels using a queue in a first-in-first-out fashion. While diagonal denoising presents a trade-off, we addressed its limitations with latent partitioning and leveraged its strengths with lookahead denoising. Together, these techniques allow FIFO-Diffusion to generate high-quality, long videos that maintain strong scene consistency and expressive dynamic motion. Although latent partitioning reduces the training-inference gap of diagonal denoising, the gap persists due to changes in the model’s input distribution. However, we believe that this gap could be addressed by integrating the diagonal denoi",
+  "figure": null
+}

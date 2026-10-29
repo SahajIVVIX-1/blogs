@@ -1,0 +1,500 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-03-04",
+  "fetched_at": "2026-10-29T15:30:47.538Z",
+  "candidates": [
+    {
+      "id": "2503.01743",
+      "title": "Phi-4-Mini Technical Report: Compact yet Powerful Multimodal Language Models via Mixture-of-LoRAs",
+      "authors": [
+        "Abdelrahman Abouelenin",
+        "Atabak Ashfaq",
+        "Adam Atkinson",
+        "Hany Awadalla",
+        "Nguyen Bach",
+        "Jianmin Bao",
+        "Alon Benhaim",
+        "Martin Cai",
+        "Vishrav Chaudhary",
+        "Congcong Chen",
+        "Dong Chen",
+        "Dongdong Chen",
+        "Junkun Chen",
+        "Weizhu Chen",
+        "Yen-Chun Chen",
+        "Yi-ling Chen",
+        "Qi Dai",
+        "Xiyang Dai",
+        "Ruchao Fan",
+        "Mei Gao",
+        "Min Gao",
+        "Amit Garg",
+        "Abhishek Goswami",
+        "Junheng Hao",
+        "Amr Hendy",
+        "Yuxuan Hu",
+        "Xin Jin",
+        "Mahmoud Khademi",
+        "Dongwoo Kim",
+        "Young Jin Kim",
+        "Gina Lee",
+        "Jinyu Li",
+        "Yunsheng Li",
+        "Chen Liang",
+        "Xihui Lin",
+        "Zeqi Lin",
+        "Mengchen Liu",
+        "Yang Liu",
+        "Gilsinia Lopez",
+        "Chong Luo",
+        "Piyush Madan",
+        "Vadim Mazalov",
+        "Ali Mousavi",
+        "Anh Nguyen",
+        "Jing Pan",
+        "Daniel Perez-Becker",
+        "Jacob Platin",
+        "Thomas Portet",
+        "Kai Qiu",
+        "Bo Ren",
+        "Liliang Ren",
+        "Sambuddha Roy",
+        "Ning Shang",
+        "Yelong Shen",
+        "Saksham Singhal",
+        "Subhojit Som",
+        "Xia Song",
+        "Tetyana Sych",
+        "Praneetha Vaddamanu",
+        "Shuohang Wang",
+        "Yiming Wang",
+        "Zhenghao Wang",
+        "Haibin Wu",
+        "Haoran Xu",
+        "Weijian Xu",
+        "Yifan Yang",
+        "Ziyi Yang",
+        "Donghan Yu",
+        "Ishmam Zabir",
+        "Jianwen Zhang",
+        "Li Lyna Zhang",
+        "Yunan Zhang",
+        "Xiren Zhou"
+      ],
+      "upvotes": 91,
+      "github": null,
+      "published": "2025-03-03T17:05:52.000Z"
+    },
+    {
+      "id": "2503.01785",
+      "title": "Visual-RFT: Visual Reinforcement Fine-Tuning",
+      "authors": [
+        "Ziyu Liu",
+        "Zeyi Sun",
+        "Yuhang Zang",
+        "Xiaoyi Dong",
+        "Yuhang Cao",
+        "Haodong Duan",
+        "Dahua Lin",
+        "Jiaqi Wang"
+      ],
+      "upvotes": 86,
+      "github": "https://github.com/Liuziyu77/Visual-RFT",
+      "published": "2025-03-03T18:16:32.000Z"
+    },
+    {
+      "id": "2503.01774",
+      "title": "Difix3D+: Improving 3D Reconstructions with Single-Step Diffusion Models",
+      "authors": [
+        "Jay Zhangjie Wu",
+        "Yuxuan Zhang",
+        "Haithem Turki",
+        "Xuanchi Ren",
+        "Jun Gao",
+        "Mike Zheng Shou",
+        "Sanja Fidler",
+        "Zan Gojcic",
+        "Huan Ling"
+      ],
+      "upvotes": 44,
+      "github": null,
+      "published": "2025-03-03T17:58:33.000Z"
+    },
+    {
+      "id": "2503.01307",
+      "title": "Cognitive Behaviors that Enable Self-Improving Reasoners, or, Four Habits of Highly Effective STaRs",
+      "authors": [
+        "Kanishk Gandhi",
+        "Ayush Chakravarthy",
+        "Anikait Singh",
+        "Nathan Lile",
+        "Noah D. Goodman"
+      ],
+      "upvotes": 39,
+      "github": "https://github.com/kanishkg/cognitive-behaviors",
+      "published": "2025-03-03T08:46:22.000Z"
+    },
+    {
+      "id": "2502.18890",
+      "title": "From Hours to Minutes: Lossless Acceleration of Ultra Long Sequence Generation up to 100K Tokens",
+      "authors": [
+        "Tong Wu",
+        "Junzhe Shen",
+        "Zixia Jia",
+        "Yuxuan Wang",
+        "Zilong Zheng"
+      ],
+      "upvotes": 29,
+      "github": "https://github.com/bigai-nlco/TokenSwift",
+      "published": "2025-02-26T07:10:08.000Z"
+    },
+    {
+      "id": "2503.01183",
+      "title": "DiffRhythm: Blazingly Fast and Embarrassingly Simple End-to-End Full-Length Song Generation with Latent Diffusion",
+      "authors": [
+        "Ziqian Ning",
+        "Huakang Chen",
+        "Yuepeng Jiang",
+        "Chunbo Hao",
+        "Guobin Ma",
+        "Shuai Wang",
+        "Jixun Yao",
+        "Lei Xie"
+      ],
+      "upvotes": 28,
+      "github": "https://github.com/ASLP-lab/DiffRhythm",
+      "published": "2025-03-03T05:15:34.000Z"
+    },
+    {
+      "id": "2502.18965",
+      "title": "OneRec: Unifying Retrieve and Rank with Generative Recommender and Iterative Preference Alignment",
+      "authors": [
+        "Jiaxin Deng",
+        "Shiyao Wang",
+        "Kuo Cai",
+        "Lejian Ren",
+        "Qigen Hu",
+        "Weifeng Ding",
+        "Qiang Luo",
+        "Guorui Zhou"
+      ],
+      "upvotes": 28,
+      "github": null,
+      "published": "2025-02-26T09:25:10.000Z"
+    },
+    {
+      "id": "2503.01688",
+      "title": "When an LLM is apprehensive about its answers -- and when its uncertainty is justified",
+      "authors": [
+        "Petr Sychev",
+        "Andrey Goncharov",
+        "Daniil Vyazhev",
+        "Edvard Khalafyan",
+        "Alexey Zaytsev"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/LabARSS/question-complextiy-estimation",
+      "published": "2025-03-03T16:03:46.000Z"
+    },
+    {
+      "id": "2503.01496",
+      "title": "Liger: Linearizing Large Language Models to Gated Recurrent Structures",
+      "authors": [
+        "Disen Lan",
+        "Weigao Sun",
+        "Jiaxi Hu",
+        "Jusen Du",
+        "Yu Cheng"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/opensparsellms/linearization",
+      "published": "2025-03-03T13:08:00.000Z"
+    },
+    {
+      "id": "2503.00031",
+      "title": "Efficient Test-Time Scaling via Self-Calibration",
+      "authors": [
+        "Chengsong Huang",
+        "Langlin Huang",
+        "Jixuan Leng",
+        "Jiacheng Liu",
+        "Jiaxin Huang"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/Chengsong-Huang/Self-Calibration",
+      "published": "2025-02-25T00:21:14.000Z"
+    },
+    {
+      "id": "2503.01370",
+      "title": "Kiss3DGen: Repurposing Image Diffusion Models for 3D Asset Generation",
+      "authors": [
+        "Jiantao Lin",
+        "Xin Yang",
+        "Meixi Chen",
+        "Yingjie Xu",
+        "Dongyu Yan",
+        "Leyi Wu",
+        "Xinli Xu",
+        "Lie XU",
+        "Shunsi Zhang",
+        "Ying-Cong Chen"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/EnVision-Research/Kiss3DGen",
+      "published": "2025-03-03T10:07:19.000Z"
+    },
+    {
+      "id": "2503.01807",
+      "title": "Large-Scale Data Selection for Instruction Tuning",
+      "authors": [
+        "Hamish Ivison",
+        "Muru Zhang",
+        "Faeze Brahman",
+        "Pang Wei Koh",
+        "Pradeep Dasigi"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/hamishivi/automated-instruction-selection",
+      "published": "2025-03-03T18:37:26.000Z"
+    },
+    {
+      "id": "2503.00714",
+      "title": "Speculative Ad-hoc Querying",
+      "authors": [
+        "Haoyu Li",
+        "Srikanth Kandula",
+        "Maria Angels de Luis Balaguer",
+        "Aditya Akella",
+        "Venkat Arun"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/lihy0529/SpeQL",
+      "published": "2025-03-02T03:44:31.000Z"
+    },
+    {
+      "id": "2503.00784",
+      "title": "DuoDecoding: Hardware-aware Heterogeneous Speculative Decoding with Dynamic Multi-Sequence Drafting",
+      "authors": [
+        "Kai Lv",
+        "Honglin Guo",
+        "Qipeng Guo",
+        "Xipeng Qiu"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/KaiLv69/DuoDecoding",
+      "published": "2025-03-02T08:27:48.000Z"
+    },
+    {
+      "id": "2503.00501",
+      "title": "Qilin: A Multimodal Information Retrieval Dataset with APP-level User Sessions",
+      "authors": [
+        "Jia Chen",
+        "Qian Dong",
+        "Haitao Li",
+        "Xiaohui He",
+        "Yan Gao",
+        "Shaosheng Cao",
+        "Yi Wu",
+        "Ping Yang",
+        "Chen Xu",
+        "Yao Hu",
+        "Qingyao Ai",
+        "Yiqun Liu"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/RED-Search/Qilin",
+      "published": "2025-03-01T14:15:00.000Z"
+    },
+    {
+      "id": "2503.01506",
+      "title": "SampleMix: A Sample-wise Pre-training Data Mixing Strategey by Coordinating Data Quality and Diversity",
+      "authors": [
+        "Xiangyu Xi",
+        "Deyang Kong",
+        "Jian Yang",
+        "Jiawei Yang",
+        "Zhengyu Chen",
+        "Wei Wang",
+        "Jingang Wang",
+        "Xunliang Cai",
+        "Shikun Zhang",
+        "Wei Ye"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2025-03-03T13:22:11.000Z"
+    },
+    {
+      "id": "2503.01739",
+      "title": "VideoUFO: A Million-Scale User-Focused Dataset for Text-to-Video Generation",
+      "authors": [
+        "Wenhao Wang",
+        "Yi Yang"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/wangwenhao0716/benchufo",
+      "published": "2025-03-03T17:00:36.000Z"
+    },
+    {
+      "id": "2503.01295",
+      "title": "CodeArena: A Collective Evaluation Platform for LLM Code Generation",
+      "authors": [
+        "Mingzhe Du",
+        "Anh Tuan Luu",
+        "Bin Ji",
+        "Xiaobao Wu",
+        "Dong Huang",
+        "Terry Yue Zhuo",
+        "Qian Liu",
+        "See-Kiong Ng"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2025-03-03T08:31:16.000Z"
+    },
+    {
+      "id": "2503.00455",
+      "title": "PodAgent: A Comprehensive Framework for Podcast Generation",
+      "authors": [
+        "Yujia Xiao",
+        "Lei He",
+        "Haohan Guo",
+        "Fenglong Xie",
+        "Tan Lee"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/yujxx/PodAgent",
+      "published": "2025-03-01T11:35:17.000Z"
+    },
+    {
+      "id": "2502.19402",
+      "title": "General Reasoning Requires Learning to Reason from the Get-go",
+      "authors": [
+        "Seungwook Han",
+        "Jyothish Pari",
+        "Samuel J. Gershman",
+        "Pulkit Agrawal"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-02-26T18:51:12.000Z"
+    },
+    {
+      "id": "2503.01714",
+      "title": "Word Form Matters: LLMs' Semantic Reconstruction under Typoglycemia",
+      "authors": [
+        "Chenxi Wang",
+        "Tianle Gu",
+        "Zhongyu Wei",
+        "Lang Gao",
+        "Zirui Song",
+        "Xiuying Chen"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/Aurora-cx/TypoLLM",
+      "published": "2025-03-03T16:31:45.000Z"
+    },
+    {
+      "id": "2503.01103",
+      "title": "Direct Discriminative Optimization: Your Likelihood-Based Visual Generative Model is Secretly a GAN Discriminator",
+      "authors": [
+        "Kaiwen Zheng",
+        "Yongxin Chen",
+        "Huayu Chen",
+        "Guande He",
+        "Ming-Yu Liu",
+        "Jun Zhu",
+        "Qinsheng Zhang"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-03-03T02:06:22.000Z"
+    },
+    {
+      "id": "2503.01063",
+      "title": "AI-Invented Tonal Languages: Preventing a Machine Lingua Franca Beyond Human Understanding",
+      "authors": [
+        "David Noever"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-03-02T23:59:52.000Z"
+    },
+    {
+      "id": "2503.02379",
+      "title": "Teaching Metric Distance to Autoregressive Multimodal Foundational Models",
+      "authors": [
+        "Jiwan Chung",
+        "Saejin Kim",
+        "Yongrae Jo",
+        "Jaewoo Park",
+        "Dongjun Min",
+        "Youngjae Yu"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-03-04T08:14:51.000Z"
+    },
+    {
+      "id": "2502.16779",
+      "title": "Unposed Sparse Views Room Layout Reconstruction in the Age of Pretrain Model",
+      "authors": [
+        "Yaxuan Huang",
+        "Xili Dai",
+        "Jianan Wang",
+        "Xianbiao Qi",
+        "Yixing Yuan",
+        "Xiangyu Yue"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/justacar/Plane-DUSt3R",
+      "published": "2025-02-24T02:14:19.000Z"
+    },
+    {
+      "id": "2503.00729",
+      "title": "CLEA: Closed-Loop Embodied Agent for Enhancing Task Execution in Dynamic Environments",
+      "authors": [
+        "Mingcong Lei",
+        "Ge Wang",
+        "Yiming Zhao",
+        "Zhixin Mai",
+        "Qing Zhao",
+        "Yao Guo",
+        "Zhen Li",
+        "Shuguang Cui",
+        "Yatong Han",
+        "Jinke Ren"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/SP4595/CLEA-Closed-Loop-Embodied-Agent",
+      "published": "2025-03-02T04:50:59.000Z"
+    },
+    {
+      "id": "2502.20383",
+      "title": "Why Are Web AI Agents More Vulnerable Than Standalone LLMs? A Security Analysis",
+      "authors": [
+        "Jeffrey Yang Fan Chiang",
+        "Seungjae Lee",
+        "Jia-Bin Huang",
+        "Furong Huang",
+        "Yizheng Chen"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2025-02-27T18:56:26.000Z"
+    },
+    {
+      "id": "2503.01820",
+      "title": "RSQ: Learning from Important Tokens Leads to Better Quantized LLMs",
+      "authors": [
+        "Yi-Lin Sung",
+        "Prateek Yadav",
+        "Jialu Li",
+        "Jaehong Yoon",
+        "Mohit Bansal"
+      ],
+      "upvotes": 0,
+      "github": "https://github.com/ylsung/rsq",
+      "published": "2025-03-03T18:46:33.000Z"
+    }
+  ]
+}

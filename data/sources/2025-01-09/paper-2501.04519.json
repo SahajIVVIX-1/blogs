@@ -1,0 +1,7 @@
+{
+  "id": "2501.04519",
+  "html": "https://arxiv.org/html/2501.04519",
+  "limitations": null,
+  "conclusion": "In this work, we present rStar-Math, a self-evolved System 2 deep thinking approach that significantly boosts the math reasoning capabilities of small LLMs, achieving state-of-the-art OpenAI o1-level performance. Our approach demonstrates that SLMs can self-generate high-quality training data for frontier-level math reasoning. Extensive experiments across four different-sized SLMs and challenging math benchmarks demonstrate the superiority of rStar-Math, with achieving leading results while outperforming existing math reasoning LLMs and Best-of-N baselines. We also reveal key findings, including the emergence of self-reflection and the effectiveness of the PPM in identifying critical intermediate steps, such as theorem-application steps. Finally, rStar-Math can achieve further improvements by collecting more challenging math problems, we leave this as future work.",
+  "figure": null
+}

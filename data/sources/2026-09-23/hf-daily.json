@@ -1,0 +1,353 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-09-23",
+  "fetched_at": "2026-10-29T15:36:56.965Z",
+  "candidates": [
+    {
+      "id": "2609.25270",
+      "title": "RULER: Instance-aware Rubric Rewards for SVG Generation",
+      "authors": [
+        "Hangyu Ran",
+        "Yuhao Zheng",
+        "Yingying Zhang",
+        "Kevin Qinghong Lin",
+        "Han Peng"
+      ],
+      "upvotes": 106,
+      "github": null,
+      "published": "2026-09-21T00:00:00.000Z"
+    },
+    {
+      "id": "2609.25804",
+      "title": "The Tasteful Agent: Measuring and Improving Taste in Long-Horizon Tasks",
+      "authors": [
+        "Wenbo Pan",
+        "Zhichao Liu",
+        "Shujie Liu",
+        "Jingying Zeng",
+        "Chin-Yew Lin",
+        "Xianfeng Tang",
+        "Yan Lu",
+        "Qi He",
+        "Xiaohua Jia"
+      ],
+      "upvotes": 105,
+      "github": "https://github.com/wbopan/tastebench",
+      "published": "2026-09-22T00:00:00.000Z"
+    },
+    {
+      "id": "2609.24981",
+      "title": "GAE: Learning a Geometry-Native Latent Space for 3D-Consistent World Generation",
+      "authors": [
+        "Jiahao Lu",
+        "Minghao Yin",
+        "Wenbo Hu",
+        "Hengyu Liu",
+        "Wang Zhao",
+        "Sai-Kit Yeung",
+        "Ying Shan",
+        "Yuan Liu"
+      ],
+      "upvotes": 78,
+      "github": "https://github.com/TencentARC/GAE-GeometricAutoEncoder",
+      "published": "2026-09-21T00:00:00.000Z"
+    },
+    {
+      "id": "2609.25165",
+      "title": "Ovis-Embedding: Pushing the Frontiers of Universal Omni-Modal Embeddings",
+      "authors": [
+        "Embedding Team"
+      ],
+      "upvotes": 78,
+      "github": "https://github.com/ATH-MaaS/Ovis-Omni-Embedding",
+      "published": "2026-09-21T00:00:00.000Z"
+    },
+    {
+      "id": "2609.26774",
+      "title": "StableVQ: Practical Guidelines for Stable Vector-Quantized Tokenizer Training",
+      "authors": [
+        "Bao Tang",
+        "Jiahao Guo",
+        "Haoxiang Cao",
+        "Wenyu Liu",
+        "Changqian Yu",
+        "Kun Gai",
+        "Xinggang Wang"
+      ],
+      "upvotes": 56,
+      "github": null,
+      "published": "2026-09-22T00:00:00.000Z"
+    },
+    {
+      "id": "2609.24058",
+      "title": "All-in-One Multilingual Scene Text Recognition with Script-aware Mixture-of-Experts",
+      "authors": [
+        "Xingsong Ye",
+        "Yongkun Du",
+        "Jiaxin Zhang",
+        "Zhixian Li",
+        "Chong Sun",
+        "Chen Li",
+        "Jing Lyu",
+        "Lianwen Jin",
+        "Zhineng Chen"
+      ],
+      "upvotes": 56,
+      "github": "https://github.com/YesianRohn/ScriptMoE",
+      "published": "2026-09-21T00:00:00.000Z"
+    },
+    {
+      "id": "2609.15987",
+      "title": "Bellman Policy Optimization",
+      "authors": [
+        "Zhuoqing Song",
+        "Haotian Xu",
+        "Xikun Zhang",
+        "Lidong Bing"
+      ],
+      "upvotes": 49,
+      "github": null,
+      "published": "2026-09-14T00:00:00.000Z"
+    },
+    {
+      "id": "2609.26550",
+      "title": "JEV-as-a-Judge: Accept When Confident, Escalate When Unsure",
+      "authors": [
+        "Yubo Li",
+        "Yidi Miao",
+        "Ramayya Krishnan",
+        "Rema Padman"
+      ],
+      "upvotes": 44,
+      "github": null,
+      "published": "2026-09-22T00:00:00.000Z"
+    },
+    {
+      "id": "2609.24657",
+      "title": "Circuit Hypernetworks for Quantum-Augmented Diffusion Language Models",
+      "authors": [
+        "Xiaoqiang Wang",
+        "Mengyang Xiong",
+        "Jun Dai",
+        "Bang Liu"
+      ],
+      "upvotes": 40,
+      "github": null,
+      "published": "2026-09-21T00:00:00.000Z"
+    },
+    {
+      "id": "2609.26796",
+      "title": "Flash-dLLM: IO-Aware KV Caching and Parallel Decoding for Fast, Memory-Efficient Diffusion LLMs",
+      "authors": [
+        "Quan Nguyen-Tri",
+        "Mukul Ranjan",
+        "Zhiqiang Shen"
+      ],
+      "upvotes": 37,
+      "github": "https://github.com/VILA-Lab/Flash-dLLM",
+      "published": "2026-09-22T00:00:00.000Z"
+    },
+    {
+      "id": "2609.25186",
+      "title": "From Pattern Recognizers to Personalized Companions: A Survey of Large Language Models in Mental Health",
+      "authors": [
+        "He Hu",
+        "Yucheng Zhou",
+        "Qianning Wang",
+        "Yingjian Zou",
+        "Chiyuan Ma",
+        "Juzheng Si",
+        "Jianzhuang Liu",
+        "Zitong Yu",
+        "Laizhong Cui",
+        "Fei Ma",
+        "Qi Tian"
+      ],
+      "upvotes": 34,
+      "github": "https://github.com/Emo-gml/Awesome-Mental-Health-LLMs",
+      "published": "2026-09-21T00:00:00.000Z"
+    },
+    {
+      "id": "2609.26781",
+      "title": "Agensh: Scaling Organizational Intelligence to 1,024 Agents",
+      "authors": [
+        "Zhihao Zhan",
+        "Ting Song",
+        "Li Dong",
+        "Shaohan Huang",
+        "Jianxun Lian",
+        "Yan Xia",
+        "Furu Wei"
+      ],
+      "upvotes": 31,
+      "github": null,
+      "published": "2026-09-22T00:00:00.000Z"
+    },
+    {
+      "id": "2609.26457",
+      "title": "Recursive self-improvement of AI research agents",
+      "authors": [
+        "Dhruv Srikanth",
+        "Bingchen Zhao",
+        "Dixing Xu",
+        "Yuxiang Wu",
+        "Zhengyao Jiang"
+      ],
+      "upvotes": 28,
+      "github": null,
+      "published": "2026-09-22T00:00:00.000Z"
+    },
+    {
+      "id": "2609.25199",
+      "title": "Lean Pool: An AI-Maintained Archive of Formalized Mathematics",
+      "authors": [
+        "Vasily Ilin"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/Vilin97/lean-pool",
+      "published": "2026-09-21T00:00:00.000Z"
+    },
+    {
+      "id": "2609.24967",
+      "title": "Emergent Collusion in Long-Horizon LLM Agent Interaction",
+      "authors": [
+        "Xinrui Shi",
+        "Yanzhe Zhang",
+        "Diyi Yang"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/SALT-NLP/agent-collusion",
+      "published": "2026-09-21T00:00:00.000Z"
+    },
+    {
+      "id": "2609.22319",
+      "title": "Embedding Physics Priors in Robot Learning: A Survey",
+      "authors": [
+        "Mattia Piccinini",
+        "Lucas Schulze",
+        "Alice Plebe",
+        "Matteo Saveriano",
+        "Thomas Beckers",
+        "Yuan Gao",
+        "Oleg Arenz",
+        "Baha Zarrouki",
+        "Dingrui Wang",
+        "Finn Rasmus Schäfer",
+        "Jan Peters",
+        "Johannes Betz",
+        "Gastone Pietro Rosati Papini"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/TUM-AVS/survey-physics-embedded-robot-learning",
+      "published": "2026-09-15T00:00:00.000Z"
+    },
+    {
+      "id": "2609.06011",
+      "title": "Tri-PvP: Exposing Modality Bias in Omni-Modal Large Language Models through Perceptual-Propositional Evidence Conflicts",
+      "authors": [
+        "Yen-Ting Piao",
+        "Shu-Yun Chen",
+        "Chin-Hui Chu",
+        "Chun-Wei Chen",
+        "Shih-Yun Shan Kuan",
+        "Hung-yi Lee",
+        "Yun-Nung Chen"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/MiuLab/Tri-PvP",
+      "published": "2026-09-05T00:00:00.000Z"
+    },
+    {
+      "id": "2609.25053",
+      "title": "LatentPort: Beyond KV Cache - Cross-Model Transfer of Recurrent Memory in Hybrid Language Models: A 4B-to-9B Hybrid-State Handoff Without Target Prefix Replay",
+      "authors": [
+        "Simon P. Villani"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/mmprotest/latentport-paper",
+      "published": "2026-09-07T00:00:00.000Z"
+    },
+    {
+      "id": "2609.25636",
+      "title": "RoboFollow: Unveiling the Instruction Following Mirage in Embodied Agents",
+      "authors": [
+        "Chang Guo",
+        "Yukun Xie",
+        "Bohan Tan",
+        "Zheng Chang",
+        "Zhaokai Yin",
+        "Qianli Ma",
+        "Yingqiao Wang",
+        "Chao Liang",
+        "Zhipeng Zhang"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/AutoLab-SAI-SJTU/RoboFollow",
+      "published": "2026-09-22T00:00:00.000Z"
+    },
+    {
+      "id": "2609.25267",
+      "title": "ImIR: Image-Instruction Tuning for All-in-One Image Restoration",
+      "authors": [
+        "Süleyman Aslan",
+        "Görkay Aydemir",
+        "Mısra Yavuz",
+        "Yunus Bilge Kurt",
+        "Nasrin Rahimi",
+        "Ahmet Rasim Emirdağı",
+        "Burak Can Biner",
+        "M. Akın Yılmaz"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/suleymanaslan/imir",
+      "published": "2026-09-21T00:00:00.000Z"
+    },
+    {
+      "id": "2609.26346",
+      "title": "Blaming Across the Aisle: Political Contrasting and Blame Attribution in the Danish Parliament",
+      "authors": [
+        "Markus Lundsfryd Jensen",
+        "Rune Egeskov Trust",
+        "Kenneth Christian Enevoldsen",
+        "Sara Kolding"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/Lundsfryd/BlameBERT",
+      "published": "2026-09-22T00:00:00.000Z"
+    },
+    {
+      "id": "2609.22323",
+      "title": "ALPINE: Adaptive Localization for Parameter- and Sample-Efficient Few-Shot Learning",
+      "authors": [
+        "Neeraj Yadav"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/NeerajYadav-coder/alpine-fewshot",
+      "published": "2026-09-16T00:00:00.000Z"
+    },
+    {
+      "id": "2609.25247",
+      "title": "Geometric and Semantic Coupling for Interaction Understanding in 3D Scenes",
+      "authors": [
+        "Hanyang Kong",
+        "Xingyi Yang"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/HyoKong/Segment-Snap",
+      "published": "2026-09-21T00:00:00.000Z"
+    },
+    {
+      "id": "2609.26793",
+      "title": "HARMONY: Hierarchical Agentic Reasoning for MONocular Image-to-Scene Synthesis",
+      "authors": [
+        "Shufan Sun",
+        "Chen Wang",
+        "Enxin Song",
+        "Jiatao Gu",
+        "Lingjie Liu"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/ShufanSun/harmony-release",
+      "published": "2026-09-22T00:00:00.000Z"
+    }
+  ]
+}

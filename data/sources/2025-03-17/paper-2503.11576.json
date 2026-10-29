@@ -1,0 +1,11 @@
+{
+  "id": "2503.11576",
+  "html": "https://arxiv.org/html/2503.11576",
+  "limitations": null,
+  "conclusion": "In this work, we introduce SmolDocling, an efficient and compact VLM optimized for document conversion while providing rich output representation. We also present a suite of new datasets with a unified format for document conversion, including the novel task of code listing transcription. We identify page element localization as a critical area requiring further refinement, where targeted techniques will significantly enhance performance in future iterations. Our results conclusively demonstrate that smaller models with unified, optimized output formats such as DocTags can effectively compete with significantly larger models, establishing a clear pathway for resource-efficient multi-task document understanding models.",
+  "figure": {
+    "path": "images/2025/paper-2503.11576.webp",
+    "src": "https://arxiv.org/html/2503.11576v1/model_architecture_v2.png",
+    "caption": "Figure 1: SmolDocling/SmolVLM architecture. SmolDocling converts images of document pages to DocTags sequences. First, input images are encoded using a vision encoder and reshaped via projection and pooling. Then, the projected embeddings are concatenated with the text embeddings of the user prompt, possibly with interleaving. Finally, the sequence is used by an LLM to autoregressively predict the"
+  }
+}

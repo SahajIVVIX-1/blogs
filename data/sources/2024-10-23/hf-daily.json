@@ -1,0 +1,214 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-10-23",
+  "fetched_at": "2026-10-29T15:29:27.247Z",
+  "candidates": [
+    {
+      "id": "2410.17247",
+      "title": "PyramidDrop: Accelerating Your Large Vision-Language Models via Pyramid Visual Redundancy Reduction",
+      "authors": [
+        "Long Xing",
+        "Qidong Huang",
+        "Xiaoyi Dong",
+        "Jiajie Lu",
+        "Pan Zhang",
+        "Yuhang Zang",
+        "Yuhang Cao",
+        "Conghui He",
+        "Jiaqi Wang",
+        "Feng Wu",
+        "Dahua Lin"
+      ],
+      "upvotes": 46,
+      "github": "https://github.com/cooperx521/pyramiddrop",
+      "published": "2024-10-22T17:59:53.000Z"
+    },
+    {
+      "id": "2410.17249",
+      "title": "SpectroMotion: Dynamic 3D Reconstruction of Specular Scenes",
+      "authors": [
+        "Cheng-De Fan",
+        "Chen-Wei Chang",
+        "Yi-Ruei Liu",
+        "Jie-Ying Lee",
+        "Jiun-Long Huang",
+        "Yu-Chee Tseng",
+        "Yu-Lun Liu"
+      ],
+      "upvotes": 44,
+      "github": null,
+      "published": "2024-10-22T17:59:56.000Z"
+    },
+    {
+      "id": "2410.16198",
+      "title": "Improve Vision Language Model Chain-of-thought Reasoning",
+      "authors": [
+        "Ruohong Zhang",
+        "Bowen Zhang",
+        "Yanghao Li",
+        "Haotian Zhang",
+        "Zhiqing Sun",
+        "Zhe Gan",
+        "Yinfei Yang",
+        "Ruoming Pang",
+        "Yiming Yang"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/riflezhang/llava-reasoner-dpo",
+      "published": "2024-10-21T17:00:06.000Z"
+    },
+    {
+      "id": "2410.17131",
+      "title": "Aligning Large Language Models via Self-Steering Optimization",
+      "authors": [
+        "Hao Xiang",
+        "Bowen Yu",
+        "Hongyu Lin",
+        "Keming Lu",
+        "Yaojie Lu",
+        "Xianpei Han",
+        "Le Sun",
+        "Jingren Zhou",
+        "Junyang Lin"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/icip-cas/sso",
+      "published": "2024-10-22T16:04:03.000Z"
+    },
+    {
+      "id": "2410.16267",
+      "title": "xGen-MM-Vid (BLIP-3-Video): You Only Need 32 Tokens to Represent a Video Even in VLMs",
+      "authors": [
+        "Michael S. Ryoo",
+        "Honglu Zhou",
+        "Shrikant Kendre",
+        "Can Qin",
+        "Le Xue",
+        "Manli Shu",
+        "Silvio Savarese",
+        "Ran Xu",
+        "Caiming Xiong",
+        "Juan Carlos Niebles"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2024-10-21T17:59:11.000Z"
+    },
+    {
+      "id": "2410.15926",
+      "title": "Mitigating Object Hallucination via Concentric Causal Attention",
+      "authors": [
+        "Yun Xing",
+        "Yiheng Li",
+        "Ivan Laptev",
+        "Shijian Lu"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/xing0047/cca-llava",
+      "published": "2024-10-21T11:54:53.000Z"
+    },
+    {
+      "id": "2410.16392",
+      "title": "LLM-based Optimization of Compound AI Systems: A Survey",
+      "authors": [
+        "Matthieu Lin",
+        "Jenny Sheng",
+        "Andrew Zhao",
+        "Shenzhi Wang",
+        "Yang Yue",
+        "Yiran Wu",
+        "Huan Liu",
+        "Jun Liu",
+        "Gao Huang",
+        "Yong-Jin Liu"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2024-10-21T18:06:25.000Z"
+    },
+    {
+      "id": "2410.17215",
+      "title": "MiniPLM: Knowledge Distillation for Pre-Training Language Models",
+      "authors": [
+        "Yuxian Gu",
+        "Hao Zhou",
+        "Fandong Meng",
+        "Jie Zhou",
+        "Minlie Huang"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/thu-coai/miniplm",
+      "published": "2024-10-22T17:40:32.000Z"
+    },
+    {
+      "id": "2410.17250",
+      "title": "JMMMU: A Japanese Massive Multi-discipline Multimodal Understanding Benchmark for Culture-aware Evaluation",
+      "authors": [
+        "Shota Onohara",
+        "Atsuyuki Miyai",
+        "Yuki Imajuku",
+        "Kazuki Egashira",
+        "Jeonghun Baek",
+        "Xiang Yue",
+        "Graham Neubig",
+        "Kiyoharu Aizawa"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2024-10-22T17:59:56.000Z"
+    },
+    {
+      "id": "2410.14649",
+      "title": "EvoPress: Towards Optimal Dynamic Model Compression via Evolutionary Search",
+      "authors": [
+        "Oliver Sieberling",
+        "Denis Kuznedelev",
+        "Eldar Kurtic",
+        "Dan Alistarh"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/ist-daslab/evopress",
+      "published": "2024-10-18T17:46:37.000Z"
+    },
+    {
+      "id": "2410.16930",
+      "title": "Math Neurosurgery: Isolating Language Models' Math Reasoning Abilities Using Only Forward Passes",
+      "authors": [
+        "Bryan R. Christ",
+        "Zack Gottesman",
+        "Jonathan Kropko",
+        "Thomas Hartvigsen"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/bryanchrist/mathneuro",
+      "published": "2024-10-22T12:00:58.000Z"
+    },
+    {
+      "id": "2410.17241",
+      "title": "Frontiers in Intelligent Colonoscopy",
+      "authors": [
+        "Ge-Peng Ji",
+        "Jingyi Liu",
+        "Peng Xu",
+        "Nick Barnes",
+        "Fahad Shahbaz Khan",
+        "Salman Khan",
+        "Deng-Ping Fan"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/ai4colonoscopy/intelliscope",
+      "published": "2024-10-22T17:57:12.000Z"
+    },
+    {
+      "id": "2410.16266",
+      "title": "3DGS-Enhancer: Enhancing Unbounded 3D Gaussian Splatting with View-consistent 2D Diffusion Priors",
+      "authors": [
+        "Xi Liu",
+        "Chaoyi Zhou",
+        "Siyu Huang"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2024-10-21T17:59:09.000Z"
+    }
+  ]
+}

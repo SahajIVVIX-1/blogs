@@ -1,0 +1,11 @@
+{
+  "id": "2508.06471",
+  "html": "https://arxiv.org/html/2508.06471",
+  "limitations": null,
+  "conclusion": "In this report, we have introduced the GLM-4.5 model series, including GLM-4.5 and GLM-4.5-Air. Both models adopt the MoE architecture, which improves the computational efficiency compared to previous GLM models. GLM-4.5 excels at reasoning, coding, and agentic tasks, ranked in 3rd place globally among open-source and proprietary models. We release the model weights of GLM-4.5 and GLM-4.5-Air to advance the applications and research of large language models.",
+  "figure": {
+    "path": "images/2025/paper-2508.06471.webp",
+    "src": "https://arxiv.org/html/2508.06471v1/arc_benchmark.png",
+    "caption": "Figure 1 : Average performance on agentic, reasoning, and coding (ARC) benchmarks. Overall, GLM-4.5 achieves a rank of 3rd, with GLM-4.5-Air following at rank 6th. The models listed are evaluated as of July 28, 2025."
+  }
+}

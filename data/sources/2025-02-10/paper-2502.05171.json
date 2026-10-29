@@ -1,0 +1,7 @@
+{
+  "id": "2502.05171",
+  "html": "https://arxiv.org/html/2502.05171",
+  "limitations": null,
+  "conclusion": "The models described in this paper are ultimately still a proof-of-concept. We describe how to train a latent recurrent-depth architecture, what parameters we chose, and then trained a single model at scale. Future training runs are likely to train with more optimized learning rate schedules, data mixes and accelerators. Still we observe a number of interesting behaviors emerging naturally from recurrent training. The most important of these is the ability to use latent reasoning to dramatically improve performance on reasoning tasks by expending test-time computation. In addition, we also observe context-dependent convergence speed, path independence, and various zero-shot abilities. This leads us to believe that latent reasoning is a promising research direction to complement existing approaches for test-time compute scaling. The model we realize is surprisingly powerful given its size",
+  "figure": null
+}

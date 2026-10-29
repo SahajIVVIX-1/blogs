@@ -1,0 +1,7 @@
+{
+  "id": "2402.13753",
+  "html": "https://arxiv.org/html/2402.13753",
+  "limitations": null,
+  "conclusion": "In this work, we present LongRoPE, a method that remarkably extends the context length of LLMs to an unprecedented 2048k, while maintaining their capabilities within original shorter context window. We exploit two forms of non-uniformities in RoPE positional embedding using an efficient evolutionary search. This offers twofold benefits: it provides good initialization for fine-tuning and enables an 8 [math] context window extension without fine-tuning. Building on this, we propose a progressive extension strategy using 256k-length fine-tuned LLMs to reach a 2048k context window size without extra fine-tuning. Extensive experiments validate the effectiveness of LongRoPE. We envision that our LongRoPE-2048k models will enable many new long context applications and inspire further research.",
+  "figure": null
+}

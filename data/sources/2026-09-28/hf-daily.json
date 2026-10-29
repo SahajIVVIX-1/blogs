@@ -1,0 +1,629 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-09-28",
+  "fetched_at": "2026-10-29T15:36:59.966Z",
+  "candidates": [
+    {
+      "id": "2609.31620",
+      "title": "FuseReg: Regularizing Layer Fusion Mitigates the Reconstruction-Generation Gap in Representation Autoencoders",
+      "authors": [
+        "Hongyang Du",
+        "Yunfei Xie",
+        "Junjie Ye",
+        "Jiawei Yang",
+        "Xiaoyan Cong",
+        "Haodong Zhang",
+        "Yongchao Huang",
+        "Haiyu Wu",
+        "Zongxia Li",
+        "Shihang Gui",
+        "Dawei Liu",
+        "Runhao Li",
+        "Jingcheng Ni",
+        "Chen Wei",
+        "Randall Balestriero",
+        "Yue Wang"
+      ],
+      "upvotes": 102,
+      "github": "https://github.com/Hongyang-Du/FuseReg",
+      "published": "2026-09-25T00:00:00.000Z"
+    },
+    {
+      "id": "2609.26333",
+      "title": "Disaggregated Quantization: Specializing LLM Prefill and Decode",
+      "authors": [
+        "Andrei Panferov",
+        "Maximilian Kleinegger",
+        "Sweta Priyadarshi",
+        "Tijmen Blankevoort",
+        "Dan Alistarh"
+      ],
+      "upvotes": 94,
+      "github": "https://github.com/IST-DASLab/disaggregated-quantization",
+      "published": "2026-09-22T00:00:00.000Z"
+    },
+    {
+      "id": "2609.18703",
+      "title": "RayOrch: Programming and Executing Lineage-Controlled Multi-Grain Dataflows for Foundation-Model Data Preparation",
+      "authors": [
+        "Xiaochen Ma",
+        "Zimo Meng",
+        "Junzhu Liang",
+        "Youhe Jiang",
+        "Yue Cheng",
+        "Hao Liang",
+        "Bohan Zeng",
+        "Dengchun Li",
+        "Lu Ma",
+        "Zhengyang Zhao",
+        "Zhen Hao Wong",
+        "Runming He",
+        "Meiyi Qiang",
+        "Jiangtao Guan",
+        "Binhang Yuan",
+        "Wentao Zhang"
+      ],
+      "upvotes": 57,
+      "github": "https://github.com/OpenDCAI/RayOrch",
+      "published": "2026-09-16T00:00:00.000Z"
+    },
+    {
+      "id": "2609.27277",
+      "title": "TimeEvo: Failure-Driven Self-Evolution of a Time Series Agent",
+      "authors": [
+        "Jie Yang",
+        "Yan Zheng",
+        "Jiarui Sun",
+        "Xiran Fan",
+        "Junpeng Wang",
+        "Liang Wang",
+        "Zelin Xu",
+        "Qinghua Liu",
+        "Zhengyu Fang",
+        "Yiwei Cai",
+        "Philip S. Yu"
+      ],
+      "upvotes": 33,
+      "github": "https://github.com/Muyiiiii/TimeEvo",
+      "published": "2026-09-23T00:00:00.000Z"
+    },
+    {
+      "id": "2609.31093",
+      "title": "Block Sparse Attention with Log-Linear Complexity",
+      "authors": [
+        "Bohao Tang",
+        "Zhen Qin",
+        "Yuqi Pan",
+        "Zheng Li",
+        "Pengfei Liu"
+      ],
+      "upvotes": 33,
+      "github": null,
+      "published": "2026-09-25T00:00:00.000Z"
+    },
+    {
+      "id": "2609.31394",
+      "title": "InternW0-Δ: A World Action Model Bridging Predictive Dynamics and Actions with 20K+ Hours of Open Data",
+      "authors": [
+        "Xingyu Miao",
+        "Zizun Li",
+        "Baole Fang",
+        "Kaiwen Song",
+        "Tenghui Wang",
+        "Hanxue Zhang",
+        "Yating Wang",
+        "Xudong Li",
+        "Yuping He",
+        "Xueyuan Wei",
+        "Chao Gao",
+        "Xijie Yang",
+        "Yingxiang Xu",
+        "Kerui Ren",
+        "Wenqi Guo",
+        "Jianjun Zhou",
+        "Xinzhe Wang",
+        "Weiguang Zhao",
+        "Ni Yang",
+        "Zetao Cai",
+        "Yufei Xue",
+        "Hengjie Li",
+        "Zeyu He",
+        "Yuanzhen Zhou",
+        "Rong Fu",
+        "Jianyang Zhang",
+        "Siwei Cui",
+        "Fuxian Huang",
+        "Yunsong Zhou",
+        "Xing Gao",
+        "Yifei Yao",
+        "Qiaojun Yu",
+        "Kailin Li",
+        "Ming Zhou",
+        "Mu Huang",
+        "Xinyue Li",
+        "Wenze Cui",
+        "Bingqi Jiang",
+        "Xueyue Zhu",
+        "Junting Dong",
+        "Haoyu Guo",
+        "Tao Lu",
+        "Mulin Yu",
+        "Bowen Zhou",
+        "Bin Zhao",
+        "Tianfan Xue",
+        "Weinan Zhang",
+        "Chunhua Shen"
+      ],
+      "upvotes": 32,
+      "github": null,
+      "published": "2026-09-25T00:00:00.000Z"
+    },
+    {
+      "id": "2609.28845",
+      "title": "LastOPD: Taming Collapse in Latent On-Policy Distillation",
+      "authors": [
+        "Jie Yang",
+        "Zhengyu Fang",
+        "Zelin Xu",
+        "Jiarui Sun",
+        "Xiran Fan",
+        "Junpeng Wang",
+        "Liang Wang",
+        "Qinghua Liu",
+        "Yiwei Cai",
+        "Yan Zheng"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/Muyiiiii/LastOPD",
+      "published": "2026-09-23T00:00:00.000Z"
+    },
+    {
+      "id": "2609.24385",
+      "title": "Tactile-JEPA: Topology-Aware Self-Supervised Representation Learning for Distributed Tactile Sensors",
+      "authors": [
+        "Elizaveta Kovtun",
+        "Matvey Konovalov",
+        "Andrey Sakhovskiy",
+        "Semen Budennyy"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/E-Kovtun/tactile",
+      "published": "2026-09-21T00:00:00.000Z"
+    },
+    {
+      "id": "2609.25716",
+      "title": "FoMo: Forking Moment in Generative Trajectory as a Perceptual Distance",
+      "authors": [
+        "Jaihyun Lew",
+        "Mingi Jung",
+        "Minjun Park",
+        "Wooseok Song",
+        "Sungroh Yoon"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/JHLew/FoMo",
+      "published": "2026-09-22T00:00:00.000Z"
+    },
+    {
+      "id": "2609.29167",
+      "title": "IndicBankBench: Evaluating Safety and Reliability of Language Model Assistants in Indian Retail Banking",
+      "authors": [
+        "Suvradip Paul",
+        "Chandra Bhushan",
+        "Harsh Sharma",
+        "Nitin Kukreja",
+        "Yatharth Dedhia",
+        "Keyur Doshi",
+        "Prashant Devadiga"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/npci/IndicBankBench",
+      "published": "2026-09-24T00:00:00.000Z"
+    },
+    {
+      "id": "2609.24749",
+      "title": "D-JEPA: A Decision-Aligned Latent World Model",
+      "authors": [
+        "Shuaijun Liu",
+        "Chengyu Wu",
+        "Qifu Wen",
+        "Feiyang You",
+        "Chenglong Zhang",
+        "Shuyang Hao",
+        "Xi Lin",
+        "Ningxin Su"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/NEBULIS-Lab/D-JEPA",
+      "published": "2026-09-21T15:17:32.000Z"
+    },
+    {
+      "id": "2609.30216",
+      "title": "Jev in the Wild: A Data-Driven Analysis of the Jev Model's Functionality, Applications and Ecosystem",
+      "authors": [
+        "Guoming Ling",
+        "Muen Xue",
+        "Zijian Ye"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/godxue1/Jev_in_the_wild",
+      "published": "2026-09-24T00:00:00.000Z"
+    },
+    {
+      "id": "2609.28660",
+      "title": "Morphometric Imitation: From Morphology and Contact Aware Hand Retargeting to Sim-to-Real Visuomotor Policy",
+      "authors": [
+        "Tara Sadjadpour",
+        "Siming He",
+        "C. K. Wolfe",
+        "Haozhi Qi",
+        "Lea Wilken",
+        "S. Shankar Sastry",
+        "Claire Tomlin",
+        "Jitendra Malik"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/tsadja/morphometric",
+      "published": "2026-09-23T00:00:00.000Z"
+    },
+    {
+      "id": "2609.30222",
+      "title": "TrackEverything: Long Horizon Dense Tracking via De-Duplicating 3D Scene Representations",
+      "authors": [
+        "Ayush Jain",
+        "Sreeharsha Paruchuri",
+        "Ishita Gupta",
+        "Fan Zhang",
+        "Tanner Schmidt",
+        "Jakob Engel",
+        "Katerina Fragkiadaki",
+        "Adam W. Harley"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2026-09-24T00:00:00.000Z"
+    },
+    {
+      "id": "2609.31199",
+      "title": "Enhancing Photogrammetric Digital Surface Models with Pretrained Diffusion Models and Multimodal Conditioning",
+      "authors": [
+        "Antoine Lorentz",
+        "Stéphane May",
+        "Valentine Bellet",
+        "Dawa Derksen",
+        "Bastien Nespoulous"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2026-09-25T00:00:00.000Z"
+    },
+    {
+      "id": "2609.31590",
+      "title": "AgentWorld: Benchmarking Long-Horizon Collaboration of Multi-agent LLMs",
+      "authors": [
+        "Raphael Shu",
+        "Yusen Zhang",
+        "Young Min Cho",
+        "Jin Mo Yang",
+        "Yuan Yuan",
+        "Wenliang Zheng",
+        "Sharath Chandra Guntuku",
+        "Lyle Ungar",
+        "Zhou Yu",
+        "Rui Zhang"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2026-09-25T00:00:00.000Z"
+    },
+    {
+      "id": "2609.28327",
+      "title": "LightMIS: Ultra-Lightweight Medical Image Segmentation Without a Stage-Wise Decoder",
+      "authors": [
+        "Andrei Arhire",
+        "Mihaela-Elena Breabăn",
+        "Radu Timofte"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/AndreiiArhire/LightMIS",
+      "published": "2026-09-24T00:00:00.000Z"
+    },
+    {
+      "id": "2608.09444",
+      "title": "Depth-adaptive Inference of Looped Language Models via Continuous Depth Batching",
+      "authors": [
+        "Kristian Schwethelm",
+        "Daniel Rueckert",
+        "Georgios Kaissis"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/kschwethelm/continuous-depth-batching",
+      "published": "2026-09-25T00:00:00.000Z"
+    },
+    {
+      "id": "2609.29050",
+      "title": "SLCA-GRPO: Resolving Cross-Segment Credit Misattribution in Tool-Calling RL",
+      "authors": [
+        "Yan Zhan",
+        "Shaobo Liu",
+        "Qiunan Liu",
+        "Yuanjun Shi",
+        "Siqi Xu",
+        "WeiYi Hou",
+        "Xiang Xu",
+        "Zekang Li",
+        "Weizhou Pan",
+        "Jiahong Yan"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/SLCA-GRPO/SLCA-GRPO",
+      "published": "2026-09-24T00:00:00.000Z"
+    },
+    {
+      "id": "2609.31473",
+      "title": "Game Arena: Strategic LLM Evaluation in Competitive Environments",
+      "authors": [
+        "Bovard Doerschuk-Tiberi",
+        "Yao Yan",
+        "Justin Chiu",
+        "Hann Wang",
+        "Timothy Chung",
+        "Martyna Plomecka",
+        "John Schultz",
+        "Jon Lipovetz",
+        "Clayton Drazner",
+        "Yuchen Zhuang",
+        "Jaimie Hwang",
+        "Nate Keating",
+        "Riley Jones",
+        "Andrew Lee",
+        "Oran Kelly",
+        "Ian Gemp",
+        "Michael Aaron",
+        "Laurel Prince",
+        "Kate Larson",
+        "Jeff Moser",
+        "Harrison Jobe",
+        "Chad Woodford",
+        "Siqi Liu",
+        "Andrew Wang",
+        "Bo Chang",
+        "Christopher D&#39;Mello",
+        "Diane Chaleff",
+        "Addison Howard",
+        "Johnny Yip",
+        "Chuck Sugnet",
+        "Antonio Gulli",
+        "Meghan O&#39;Connell",
+        "Will Cukierski",
+        "Nenad Tomasev",
+        "Dima Yeroshenko",
+        "Kinjal Parekh",
+        "Roxanne Daniel",
+        "Marc Lanctot",
+        "Domino Weir",
+        "Elsa Dong",
+        "Daniel Hennes",
+        "Melissa Nalubwama",
+        "Robert Fraser",
+        "Ryan Trostle",
+        "Jun Peng",
+        "Tom Mason",
+        "Lloyd Hightower",
+        "Chiamaka Chukwuka",
+        "Yuexiang Zhai",
+        "Phoebe Kirk",
+        "Yi Su",
+        "Yuting Han",
+        "Jie Ren",
+        "Chris Prichard",
+        "Sahand Sharifzadeh",
+        "Karim Hakimzadeh",
+        "DJ Sterling",
+        "Meg Risdal",
+        "Kate Olszewska",
+        "Ya Xu",
+        "Orhan Firat",
+        "Minmin Chen"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2026-09-25T00:00:00.000Z"
+    },
+    {
+      "id": "2609.30670",
+      "title": "TRACE: Temporal Audit and Condition-aware Evaluation of Streaming Video Understanding",
+      "authors": [
+        "Yibo Ma",
+        "Qianqian Zhang",
+        "Peng Liu",
+        "Tiancheng Zhao"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/om-ai-lab/trace-bench",
+      "published": "2026-09-25T00:00:00.000Z"
+    },
+    {
+      "id": "2601.06362",
+      "title": "Do Implicit Personalization and Explicit Styles Conflict? PsPLUG: A Lightweight Plug-in for Balancing Personalization and Style in Customized LLMs",
+      "authors": [
+        "Yutong Song",
+        "Jiang Wu",
+        "Shaofan Yuan",
+        "Chengze Shen",
+        "Jian Wang",
+        "Yu Wang",
+        "Nikil Dutt",
+        "Amir M. Rahmani"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2026-09-20T00:00:00.000Z"
+    },
+    {
+      "id": "2609.22237",
+      "title": "Not All Ranks Are Equal: Budget-Aware LoRA Merging Across Tasks",
+      "authors": [
+        "Avinash Amballa",
+        "Yashas Malur Saidutta",
+        "Wenbo Li",
+        "Lazar Valkov",
+        "Srinivas Chappidi"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2026-09-03T00:00:00.000Z"
+    },
+    {
+      "id": "2609.30837",
+      "title": "MOPD-Router: Rethinking Teacher Routing in Multi-Teacher On-Policy Distillation",
+      "authors": [
+        "Tianze Xu",
+        "Yanzhao Zheng",
+        "Zhentao Zhang",
+        "Yuanqiang Yu",
+        "Chao Ma",
+        "Jihuai Zhu",
+        "Lelun Wu",
+        "Lyumanshan Ye",
+        "Pengfei Liu",
+        "Baohua Dong",
+        "Hangcheng Zhu",
+        "Ruohui Huang",
+        "Gang Yu"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/TURLEing/MOPD-Router",
+      "published": "2026-09-25T00:00:00.000Z"
+    },
+    {
+      "id": "2609.04355",
+      "title": "VLA-Precision: Asymmetric Co-Bootstrapping for Efficient Real-World Online RL of Vision-Language-Action Models",
+      "authors": [
+        "Chenyu Su",
+        "Zhaolong Shen",
+        "Yuan Qian",
+        "Chen Qian",
+        "Rui Zhang",
+        "Feng Yan",
+        "Weixing Chen",
+        "Fei Zhang",
+        "Jiamin Wang",
+        "Shuang Cong",
+        "Weiwei Shang"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/scy-v/VLA-Precision",
+      "published": "2026-09-18T00:00:00.000Z"
+    },
+    {
+      "id": "2609.30192",
+      "title": "SAGE: Mitigating Long-Horizon Reasoning Biases via Topological Guidance",
+      "authors": [
+        "Xinyue Zeng",
+        "Jiawei Zhang",
+        "Yujun Yan",
+        "Dawei Zhou"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/Susan571/SAGE-NeurIPS2026",
+      "published": "2026-09-24T00:00:00.000Z"
+    },
+    {
+      "id": "2604.02103",
+      "title": "BoundInk: Boundary-Aware Online Handwriting Generation",
+      "authors": [
+        "Jinsu Shin",
+        "Sungeun Hong",
+        "JinYeong Bak"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/jinsu0000/cashg-official",
+      "published": "2026-09-20T00:00:00.000Z"
+    },
+    {
+      "id": "2609.23551",
+      "title": "Paragraph Boundaries Are Not White Space:Compression Depth as the Signature of Hierarchical Structure",
+      "authors": [
+        "Shuyang Xiang"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/ShuyangenFrance/hrope",
+      "published": "2026-09-20T00:00:00.000Z"
+    },
+    {
+      "id": "2601.06352",
+      "title": "CARD: Cluster-level Adaptation with Reward-guided Decoding for Personalized Text Generation",
+      "authors": [
+        "Yutong Song",
+        "Jiang Wu",
+        "Weijia Zhang",
+        "Chengze Shen",
+        "Shaofan Yuan",
+        "Weitao Lu",
+        "Jian Wang",
+        "Yu Wang",
+        "Nikil Dutt",
+        "Amir M. Rahmani"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2026-09-20T00:00:00.000Z"
+    },
+    {
+      "id": "2609.31291",
+      "title": "Softmax Reparameterization for Output-Head Quantization",
+      "authors": [
+        "Asim Kadav",
+        "Christian Flores",
+        "Chirag Arora",
+        "Varun Kotte",
+        "Hongbo Zheng",
+        "Lan Yan",
+        "Priya Shanmugasundaram",
+        "Tracy Holloway King"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2026-09-25T00:00:00.000Z"
+    },
+    {
+      "id": "2609.30867",
+      "title": "Evidence-Grounded Auditing of Identification Assumptions in Climate-Policy Causal Evaluations",
+      "authors": [
+        "Yonghong Zhang",
+        "Yong Xie",
+        "Isabel M. Parra",
+        "Ricardo Correia"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/yonghongzhang-io/ARGUS",
+      "published": "2026-09-25T00:00:00.000Z"
+    },
+    {
+      "id": "2609.29474",
+      "title": "CodeGraph: Open-Taxonomy Knowledge Graph for Source Code with Wikidata Grounding",
+      "authors": [
+        "Federico Pennino",
+        "Andrea Gurioli",
+        "Stefano Zacchiroli",
+        "Maurizio Gabbrielli",
+        "Paolo Ferragina"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/halykoss/CodeGraph",
+      "published": "2026-09-24T00:00:00.000Z"
+    },
+    {
+      "id": "2609.31002",
+      "title": "ZooWork-ShopRanker: An Open, Preference-Aligned E-Commerce Reranker",
+      "authors": [
+        "Siqiao Xue",
+        "Shuxuan Liu",
+        "Ning Hu"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-09-25T00:00:00.000Z"
+    }
+  ]
+}

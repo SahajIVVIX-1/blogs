@@ -1,0 +1,453 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-07-03",
+  "fetched_at": "2026-10-29T15:36:07.202Z",
+  "candidates": [
+    {
+      "id": "2607.02512",
+      "title": "Program-as-Weights: A Programming Paradigm for Fuzzy Functions",
+      "authors": [
+        "Wentao Zhang",
+        "Liliana Hotsko",
+        "Woojeong Kim",
+        "Pengyu Nie",
+        "Stuart Shieber",
+        "Yuntian Deng"
+      ],
+      "upvotes": 308,
+      "github": "https://github.com/programasweights/programasweights-python",
+      "published": "2026-07-02T00:00:00.000Z"
+    },
+    {
+      "id": "2607.02255",
+      "title": "AgenticSTS: A Bounded-Memory Testbed for Long-Horizon LLM Agents",
+      "authors": [
+        "Xiangchen Cheng",
+        "Yunwei Jiang",
+        "Jianwen Sun",
+        "Zizhen Li",
+        "Chuanhao Li",
+        "Xiangcheng Cao",
+        "Yihao Liu",
+        "Fanrui Zhang",
+        "Li Jin",
+        "Kaipeng Zhang"
+      ],
+      "upvotes": 67,
+      "github": "https://github.com/AlayaLab/AgenticSTS",
+      "published": "2026-07-02T00:00:00.000Z"
+    },
+    {
+      "id": "2606.30562",
+      "title": "Morphing into Hybrid Attention Models",
+      "authors": [
+        "Disen Lan",
+        "Jianbin Zheng",
+        "Yuxi Ren",
+        "Xin Xia",
+        "Xuanda Wang",
+        "Xuefeng Xiao",
+        "Xipeng Qiu",
+        "Yu Cheng"
+      ],
+      "upvotes": 49,
+      "github": "https://github.com/LanDisen/FlashMorph",
+      "published": "2026-06-29T00:00:00.000Z"
+    },
+    {
+      "id": "2607.02440",
+      "title": "EvoPolicyGym: Evaluating Autonomous Policy Evolution in Interactive Environments",
+      "authors": [
+        "Zhilin Wang",
+        "Han Song",
+        "Runzhe Zhan",
+        "Jusen Du",
+        "Jiacheng Chen",
+        "Tianle Li",
+        "Qingyu Yin",
+        "Yulun Wu",
+        "Zhennan Shen",
+        "Tong Zhu",
+        "Yanshu Li",
+        "Guanjie Chen",
+        "Derek F. Wong",
+        "Yafu Li",
+        "Yu Cheng",
+        "Yang Yang"
+      ],
+      "upvotes": 48,
+      "github": "https://github.com/Linzwcs/EvoPolicyGym",
+      "published": "2026-07-02T00:00:00.000Z"
+    },
+    {
+      "id": "2607.01642",
+      "title": "Multi-Resolution Flow Matching: Training-Free Diffusion Acceleration via Staged Sampling",
+      "authors": [
+        "Xingyu Zheng",
+        "Xianglong Liu",
+        "Yifu Ding",
+        "Weilun Feng",
+        "Junqing Lin",
+        "Jinyang Guo",
+        "Haotong Qin"
+      ],
+      "upvotes": 38,
+      "github": "https://github.com/Xingyu-Zheng/MrFlow",
+      "published": "2026-07-02T00:00:00.000Z"
+    },
+    {
+      "id": "2607.01647",
+      "title": "AgenticDataBench: A Comprehensive Benchmark for Data Agents",
+      "authors": [
+        "Zhaoyan Sun",
+        "Shan Zhong",
+        "Daizhou Wen",
+        "Jiaxing Han",
+        "Guoliang Li",
+        "Ying Yan",
+        "Peng Zhang",
+        "Yu Su",
+        "Xiang Qi",
+        "Baolin Sun",
+        "Chengyuan Yang",
+        "Tao Fang",
+        "Huaiyu Ruan"
+      ],
+      "upvotes": 35,
+      "github": "https://github.com/AgenticDataBench/AgenticDataBench",
+      "published": "2026-07-02T00:00:00.000Z"
+    },
+    {
+      "id": "2607.02517",
+      "title": "WorldDirector: Building Controllable World Simulators with Persistent Dynamic Memory",
+      "authors": [
+        "Hanlin Wang",
+        "Hao Ouyang",
+        "Qiuyu Wang",
+        "Wen Wang",
+        "Qingyan Bai",
+        "Ka Leong Cheng",
+        "Yue Yu",
+        "Yixuan Li",
+        "Yihao Meng",
+        "Zichen Liu",
+        "Yanhong Zeng",
+        "Yujun Shen",
+        "Qifeng Chen"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/pPetrichor/WorldDirector",
+      "published": "2026-07-02T00:00:00.000Z"
+    },
+    {
+      "id": "2606.31825",
+      "title": "Breaking Failure Cascades: Step-Aware Reinforcement Learning for Medical Multimodal Reasoning",
+      "authors": [
+        "Junha Jung",
+        "Minbyul Jeong",
+        "Suhyeon Lim",
+        "Sungwook Jung",
+        "Jaehoon Yun",
+        "Taeyun Roh",
+        "Mujeen Sung",
+        "Jaewoo Kang"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/dmis-lab/MRPO",
+      "published": "2026-06-30T00:00:00.000Z"
+    },
+    {
+      "id": "2607.01874",
+      "title": "SkillCoach: Self-Evolving Rubrics for Evaluating and Enhancing Agentic Skill-Use",
+      "authors": [
+        "Jiayin Zhu",
+        "Kelong Mao",
+        "Yudong Guo",
+        "Dengbo He",
+        "Sulong Xu",
+        "Simiu Gu",
+        "Yutao Yue"
+      ],
+      "upvotes": 21,
+      "github": null,
+      "published": "2026-07-02T00:00:00.000Z"
+    },
+    {
+      "id": "2607.01224",
+      "title": "AutoMem: Automated Learning of Memory as a Cognitive Skill",
+      "authors": [
+        "Shengguang Wu",
+        "Hao Zhu",
+        "Yuhui Zhang",
+        "Xiaohan Wang",
+        "Serena Yeung-Levy"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/autoLearnMem/AutoMem",
+      "published": "2026-07-01T00:00:00.000Z"
+    },
+    {
+      "id": "2607.02032",
+      "title": "PACE: A Proxy for Agentic Capability Evaluation",
+      "authors": [
+        "Yueqi Song",
+        "Lintang Sutawika",
+        "Jiarui Liu",
+        "Lindia Tjuatja",
+        "Jiayi Geng",
+        "Yunze Xiao",
+        "Daniel Lee",
+        "Aditya Bharat Soni",
+        "Vincent Lo",
+        "Xiang Yue",
+        "Graham Neubig"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2026-07-02T00:00:00.000Z"
+    },
+    {
+      "id": "2607.02291",
+      "title": "Optimizing Visual Generative Models via Distribution-wise Rewards",
+      "authors": [
+        "Ruihang Li",
+        "Mengde Xu",
+        "Shuyang Gu",
+        "Leigang Qu",
+        "Fuli Feng",
+        "Han Hu",
+        "Wenjie Wang"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2026-07-02T00:00:00.000Z"
+    },
+    {
+      "id": "2607.01002",
+      "title": "Logit-Contribution Scoring Identifies Non-Literal Retrieval Heads",
+      "authors": [
+        "Aryo Pradipta Gema",
+        "Beatrice Alex",
+        "Pasquale Minervini"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/aryopg/locos",
+      "published": "2026-07-01T00:00:00.000Z"
+    },
+    {
+      "id": "2607.02271",
+      "title": "AGVBench: A Reliability-Oriented Benchmark of Data Augmentation for Vein Recognition",
+      "authors": [
+        "Haiyang Li",
+        "Yuming Fu",
+        "Qun Song",
+        "Hongchao Liao",
+        "Jing Chen",
+        "Mounim A. EI-Yacoubi",
+        "Xin Jin"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/Advance-VeinTech-Innovators/AGVBench",
+      "published": "2026-07-02T00:00:00.000Z"
+    },
+    {
+      "id": "2607.02508",
+      "title": "From SRA to Self-Flow: Data Augmentation or Self-Supervision?",
+      "authors": [
+        "Dengyang Jiang",
+        "Mengmeng Wang",
+        "Harry Yang",
+        "Jingdong Wang"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2026-07-02T00:00:00.000Z"
+    },
+    {
+      "id": "2606.27669",
+      "title": "When Search Agents Should Ask: DiscoBench for Clarification-Aware Deep Search",
+      "authors": [
+        "Yiling Tao",
+        "Shihan Deng",
+        "Meiling Tao",
+        "Pengzhi Wei",
+        "Zhichao Hu",
+        "Zhihao Zhu"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2026-06-26T00:00:00.000Z"
+    },
+    {
+      "id": "2606.31924",
+      "title": "InstanceControl: Controllable Complex Image Generation without Instance Labeling",
+      "authors": [
+        "Xiaoyu Liu",
+        "Huan Wang",
+        "Fan Li",
+        "Zhixin Wang",
+        "Jiaqi Xu",
+        "Ming Liu",
+        "Wangmeng Zuo"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/liuxiaoyu1104/InstanceControl",
+      "published": "2026-06-30T00:00:00.000Z"
+    },
+    {
+      "id": "2607.02375",
+      "title": "Representation Distribution Matching for One-Step Visual Generation",
+      "authors": [
+        "Lan Feng",
+        "Wuyang Li",
+        "Eloi Zablocki",
+        "Matthieu Cord",
+        "Alexandre Alahi"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/vita-epfl/RDM",
+      "published": "2026-07-02T00:00:00.000Z"
+    },
+    {
+      "id": "2607.01686",
+      "title": "WARP: Weight-Space Analysis for Recovering Training Data Portfolios",
+      "authors": [
+        "Tzu-Heng Huang",
+        "Aditya Goyal",
+        "John Cooper",
+        "Frederic Sala"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/SprocketLab/WARP",
+      "published": "2026-07-02T00:00:00.000Z"
+    },
+    {
+      "id": "2606.29961",
+      "title": "DuoMem: Towards Capable On-Device Memory Agents via Dual-Space Distillation",
+      "authors": [
+        "Peyman Hosseini",
+        "Ondrej Bohdal",
+        "Ahmed Alajrami",
+        "Andrea Maracani",
+        "Ignacio Castro",
+        "Matthew Purver",
+        "Mete Ozay",
+        "Savas Ozkan",
+        "Taha Ceritli"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2026-06-29T00:00:00.000Z"
+    },
+    {
+      "id": "2607.01763",
+      "title": "Denser neq Better: Limits of On-Policy Self-Distillation for Continual Post-Training",
+      "authors": [
+        "Meng Wang",
+        "Haohan Zhao",
+        "Wenzhuo Liu",
+        "Lu Yang",
+        "Geng Liu",
+        "Haiyang Guo",
+        "Guo-Sen Xie",
+        "Gaofeng Meng",
+        "Hongbin Liu",
+        "Fei Zhu"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/Moenupa/SDPO-CL",
+      "published": "2026-07-02T00:00:00.000Z"
+    },
+    {
+      "id": "2607.01436",
+      "title": "Discrete Diffusion Language Models for Interactive Radiology Report Drafting",
+      "authors": [
+        "Max Van Puyvelde",
+        "Halil Ibrahim Gulluk",
+        "Wim Van Criekinge",
+        "Olivier Gevaert"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2026-07-01T00:00:00.000Z"
+    },
+    {
+      "id": "2607.02466",
+      "title": "Learning to Move Before Learning to Do: Task-Agnostic pretraining for VLAs",
+      "authors": [
+        "Junhao Shi",
+        "Siyin Wang",
+        "Xiaopeng Yu",
+        "Li Ji",
+        "Jingjing Gong",
+        "Xipeng Qiu"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/sjh0354/Task-Agnostic-Pretrain",
+      "published": "2026-07-02T00:00:00.000Z"
+    },
+    {
+      "id": "2607.02269",
+      "title": "AnyGroundBench: A Specialized-Domain Benchmark for Video Grounding in Vision-Language Models",
+      "authors": [
+        "Rintaro Otsubo",
+        "Ryo Fujii",
+        "Reina Ishikawa",
+        "Taiki Kanaya",
+        "Kanta Sawafuji",
+        "Hiroki Kajita",
+        "Shigeki Sakai",
+        "Hideo Saito",
+        "Ryo Hachiuma"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/rinost081/AnyGroundBench",
+      "published": "2026-07-02T00:00:00.000Z"
+    },
+    {
+      "id": "2606.25178",
+      "title": "Transferability for General Reasoning: An Automated Curriculum for Multi-Domain RLVR",
+      "authors": [
+        "Yongjin Yang",
+        "Jiarui Liu",
+        "Yinghui He",
+        "Lechen Zhang",
+        "Bernhard Schölkopf",
+        "Zhijing Jin"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/YangYongJin/transfer-aware-curriculum",
+      "published": "2026-06-27T00:00:00.000Z"
+    },
+    {
+      "id": "2607.01283",
+      "title": "Scaling Laws for Grid-Based Approximate Nearest Neighbor Search in High Dimensions",
+      "authors": [
+        "Matthew J Liu",
+        "Wei Hang Zheng",
+        "Vidhan Purohit",
+        "Siqi Xie",
+        "Chieh-En Li",
+        "Jerry Li",
+        "Noah Flynn"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/weiz345/MultiProbeANN",
+      "published": "2026-07-01T00:00:00.000Z"
+    },
+    {
+      "id": "2606.27821",
+      "title": "Parameter-Efficient Quantum-Inspired Fast Weight Programmers for Traffic-Matrix Forecasting",
+      "authors": [
+        "Kuo-Chung Peng",
+        "Jiun-Cheng Jiang",
+        "Chun-Hua Lin",
+        "Tai-Yue Li",
+        "Nan-Yow Chen",
+        "Samuel Yen-Chi Chen"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2026-06-26T00:00:00.000Z"
+    }
+  ]
+}

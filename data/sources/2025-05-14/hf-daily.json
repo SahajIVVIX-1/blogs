@@ -1,0 +1,267 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-05-14",
+  "fetched_at": "2026-10-29T15:31:30.615Z",
+  "candidates": [
+    {
+      "id": "2505.07916",
+      "title": "MiniMax-Speech: Intrinsic Zero-Shot Text-to-Speech with a Learnable Speaker Encoder",
+      "authors": [
+        "Bowen Zhang",
+        "Congchao Guo",
+        "Geng Yang",
+        "Hang Yu",
+        "Haozhe Zhang",
+        "Heidi Lei",
+        "Jialong Mai",
+        "Junjie Yan",
+        "Kaiyue Yang",
+        "Mingqi Yang",
+        "Peikai Huang",
+        "Ruiyang Jin",
+        "Sitan Jiang",
+        "Weihua Cheng",
+        "Yawei Li",
+        "Yichen Xiao",
+        "Yiying Zhou",
+        "Yongmao Zhang",
+        "Yuan Lu",
+        "Yucen He"
+      ],
+      "upvotes": 139,
+      "github": null,
+      "published": "2025-05-12T14:25:20.000Z"
+    },
+    {
+      "id": "2505.08175",
+      "title": "Fast Text-to-Audio Generation with Adversarial Post-Training",
+      "authors": [
+        "Zachary Novack",
+        "Zach Evans",
+        "Zack Zukowski",
+        "Josiah Taylor",
+        "CJ Carr",
+        "Julian Parker",
+        "Adnan Al-Sinan",
+        "Gian Marco Iodice",
+        "Julian McAuley",
+        "Taylor Berg-Kirkpatrick",
+        "Jordi Pons"
+      ],
+      "upvotes": 27,
+      "github": null,
+      "published": "2025-05-13T02:25:47.000Z"
+    },
+    {
+      "id": "2505.08311",
+      "title": "AM-Thinking-v1: Advancing the Frontier of Reasoning at 32B Scale",
+      "authors": [
+        "Yunjie Ji",
+        "Xiaoyu Tian",
+        "Sitong Zhao",
+        "Haotian Wang",
+        "Shuaiting Chen",
+        "Yiping Peng",
+        "Han Zhao",
+        "Xiangang Li"
+      ],
+      "upvotes": 19,
+      "github": null,
+      "published": "2025-05-13T07:41:15.000Z"
+    },
+    {
+      "id": "2505.08751",
+      "title": "Aya Vision: Advancing the Frontier of Multilingual Multimodality",
+      "authors": [
+        "Saurabh Dash",
+        "Yiyang Nan",
+        "John Dang",
+        "Arash Ahmadian",
+        "Shivalika Singh",
+        "Madeline Smith",
+        "Bharat Venkitesh",
+        "Vlad Shmyhlo",
+        "Viraat Aryabumi",
+        "Walter Beller-Morales",
+        "Jeremy Pekmez",
+        "Jason Ozuzu",
+        "Pierre Richemond",
+        "Acyr Locatelli",
+        "Nick Frosst",
+        "Phil Blunsom",
+        "Aidan Gomez",
+        "Ivan Zhang",
+        "Marzieh Fadaee",
+        "Manoj Govindassamy",
+        "Sudip Roy",
+        "Matthias Gallé",
+        "Beyza Ermis",
+        "Ahmet Üstün",
+        "Sara Hooker"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2025-05-13T17:03:48.000Z"
+    },
+    {
+      "id": "2505.05464",
+      "title": "Bring Reason to Vision: Understanding Perception and Reasoning through Model Merging",
+      "authors": [
+        "Shiqi Chen",
+        "Jinghan Zhang",
+        "Tongyao Zhu",
+        "Wei Liu",
+        "Siyang Gao",
+        "Miao Xiong",
+        "Manling Li",
+        "Junxian He"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/shiqichen17/VLM_Merging",
+      "published": "2025-05-08T17:56:23.000Z"
+    },
+    {
+      "id": "2505.07591",
+      "title": "A Multi-Dimensional Constraint Framework for Evaluating and Improving Instruction Following in Large Language Models",
+      "authors": [
+        "Junjie Ye",
+        "Caishuang Huang",
+        "Zhuohan Chen",
+        "Wenjie Fu",
+        "Chenyuan Yang",
+        "Leyi Yang",
+        "Yilong Wu",
+        "Peng Wang",
+        "Meng Zhou",
+        "Xiaolong Yang",
+        "Tao Gui",
+        "Qi Zhang",
+        "Zhongchao Shi",
+        "Jianping Fan",
+        "Xuanjing Huang"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/Junjie-Ye/MulDimIF",
+      "published": "2025-05-12T14:16:55.000Z"
+    },
+    {
+      "id": "2505.07215",
+      "title": "Measuring General Intelligence with Generated Games",
+      "authors": [
+        "Vivek Verma",
+        "David Huang",
+        "William Chen",
+        "Dan Klein",
+        "Nicholas Tomlin"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/vivek3141/gg-bench",
+      "published": "2025-05-12T04:01:03.000Z"
+    },
+    {
+      "id": "2504.21475",
+      "title": "Advancing Arabic Reverse Dictionary Systems: A Transformer-Based Approach with Dataset Construction Guidelines",
+      "authors": [
+        "Serry Sibaee",
+        "Samar Ahmed",
+        "Abdullah Al Harbi",
+        "Omer Nacar",
+        "Adel Ammar",
+        "Yasser Habashi",
+        "Wadii Boulila"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/serrysibaee/reverse_dictionary",
+      "published": "2025-04-30T09:56:36.000Z"
+    },
+    {
+      "id": "2505.08638",
+      "title": "TRAIL: Trace Reasoning and Agentic Issue Localization",
+      "authors": [
+        "Darshan Deshpande",
+        "Varun Gangal",
+        "Hersh Mehta",
+        "Jitin Krishnan",
+        "Anand Kannappan",
+        "Rebecca Qian"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2025-05-13T14:55:31.000Z"
+    },
+    {
+      "id": "2505.08712",
+      "title": "NavDP: Learning Sim-to-Real Navigation Diffusion Policy with Privileged Information Guidance",
+      "authors": [
+        "Wenzhe Cai",
+        "Jiaqi Peng",
+        "Yuqiang Yang",
+        "Yujian Zhang",
+        "Meng Wei",
+        "Hanqing Wang",
+        "Yilun Chen",
+        "Tai Wang",
+        "Jiangmiao Pang"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/wzcai99/NavDP",
+      "published": "2025-05-13T16:20:28.000Z"
+    },
+    {
+      "id": "2505.08665",
+      "title": "SkillFormer: Unified Multi-View Video Understanding for Proficiency Estimation",
+      "authors": [
+        "Edoardo Bianchi",
+        "Antonio Liotta"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/EdoWhite/SkillFormer",
+      "published": "2025-05-13T15:27:24.000Z"
+    },
+    {
+      "id": "2505.08727",
+      "title": "Memorization-Compression Cycles Improve Generalization",
+      "authors": [
+        "Fangyuan Yu"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-05-13T16:37:54.000Z"
+    },
+    {
+      "id": "2505.08445",
+      "title": "Optimizing Retrieval-Augmented Generation: Analysis of Hyperparameter Impact on Performance and Efficiency",
+      "authors": [
+        "Adel Ammar",
+        "Anis Koubaa",
+        "Omer Nacar",
+        "Wadii Boulila"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-05-13T11:13:27.000Z"
+    },
+    {
+      "id": "2505.07416",
+      "title": "ViMRHP: A Vietnamese Benchmark Dataset for Multimodal Review Helpfulness Prediction via Human-AI Collaborative Annotation",
+      "authors": [
+        "Truc Mai-Thanh Nguyen",
+        "Dat Minh Nguyen",
+        "Son T. Luu",
+        "Kiet Van Nguyen"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/trng28/ViMRHP",
+      "published": "2025-05-12T10:11:28.000Z"
+    },
+    {
+      "id": "2505.09027",
+      "title": "Tests as Prompt: A Test-Driven-Development Benchmark for LLM Code Generation",
+      "authors": [
+        "Yi Cui"
+      ],
+      "upvotes": 0,
+      "github": null,
+      "published": "2025-05-13T23:47:12.000Z"
+    }
+  ]
+}

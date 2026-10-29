@@ -1,0 +1,295 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-07-09",
+  "fetched_at": "2026-10-29T15:28:22.572Z",
+  "candidates": [
+    {
+      "id": "2407.04842",
+      "title": "MJ-Bench: Is Your Multimodal Reward Model Really a Good Judge for Text-to-Image Generation?",
+      "authors": [
+        "Zhaorun Chen",
+        "Yichao Du",
+        "Zichen Wen",
+        "Yiyang Zhou",
+        "Chenhang Cui",
+        "Zhenzhen Weng",
+        "Haoqin Tu",
+        "Chaoqi Wang",
+        "Zhengwei Tong",
+        "Qinglan Huang",
+        "Canyu Chen",
+        "Qinghao Ye",
+        "Zhihong Zhu",
+        "Yuqing Zhang",
+        "Jiawei Zhou",
+        "Zhuokai Zhao",
+        "Rafael Rafailov",
+        "Chelsea Finn",
+        "Huaxiu Yao"
+      ],
+      "upvotes": 52,
+      "github": "https://github.com/MJ-Bench/MJ-Bench",
+      "published": "2024-07-05T20:03:16.000Z"
+    },
+    {
+      "id": "2407.04841",
+      "title": "Associative Recurrent Memory Transformer",
+      "authors": [
+        "Ivan Rodkin",
+        "Yuri Kuratov",
+        "Aydar Bulatov",
+        "Mikhail Burtsev"
+      ],
+      "upvotes": 36,
+      "github": "https://github.com/RodkinIvan/associative-recurrent-memory-transformer",
+      "published": "2024-07-05T19:57:49.000Z"
+    },
+    {
+      "id": "2407.05975",
+      "title": "LLaMAX: Scaling Linguistic Horizons of LLM by Enhancing Translation Capabilities Beyond 100 Languages",
+      "authors": [
+        "Yinquan Lu",
+        "Wenhao Zhu",
+        "Lei Li",
+        "Yu Qiao",
+        "Fei Yuan"
+      ],
+      "upvotes": 36,
+      "github": "https://github.com/cone-mt/llamax",
+      "published": "2024-07-08T14:18:28.000Z"
+    },
+    {
+      "id": "2407.03471",
+      "title": "Learning Action and Reasoning-Centric Image Editing from Videos and Simulations",
+      "authors": [
+        "Benno Krojer",
+        "Dheeraj Vattikonda",
+        "Luis Lara",
+        "Varun Jampani",
+        "Eva Portelance",
+        "Christopher Pal",
+        "Siva Reddy"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/McGill-NLP/AURORA",
+      "published": "2024-07-03T19:36:33.000Z"
+    },
+    {
+      "id": "2407.06135",
+      "title": "ANOLE: An Open, Autoregressive, Native Large Multimodal Models for Interleaved Image-Text Generation",
+      "authors": [
+        "Ethan Chern",
+        "Jiadi Su",
+        "Yan Ma",
+        "Pengfei Liu"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/gair-nlp/anole",
+      "published": "2024-07-08T17:08:02.000Z"
+    },
+    {
+      "id": "2407.03651",
+      "title": "Evaluating Language Model Context Windows: A \"Working Memory\" Test and Inference-time Correction",
+      "authors": [
+        "Amanda Dsouza",
+        "Christopher Glaze",
+        "Changho Shin",
+        "Frederic Sala"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/snorkel-ai/long-context-eval",
+      "published": "2024-07-04T05:46:20.000Z"
+    },
+    {
+      "id": "2407.05282",
+      "title": "UltraEdit: Instruction-based Fine-Grained Image Editing at Scale",
+      "authors": [
+        "Haozhe Zhao",
+        "Xiaojian Ma",
+        "Liang Chen",
+        "Shuzheng Si",
+        "Rujie Wu",
+        "Kaikai An",
+        "Peiyu Yu",
+        "Minjia Zhang",
+        "Qing Li",
+        "Baobao Chang"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/pkunlp-icler/ultraedit",
+      "published": "2024-07-07T06:50:22.000Z"
+    },
+    {
+      "id": "2407.06182",
+      "title": "Compositional Video Generation as Flow Equalization",
+      "authors": [
+        "Xingyi Yang",
+        "Xinchao Wang"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/Adamdad/vico",
+      "published": "2024-06-10T16:27:47.000Z"
+    },
+    {
+      "id": "2407.05700",
+      "title": "InverseCoder: Unleashing the Power of Instruction-Tuned Code LLMs with Inverse-Instruct",
+      "authors": [
+        "Yutong Wu",
+        "Di Huang",
+        "Wenxuan Shi",
+        "Wei Wang",
+        "Lingzhe Gao",
+        "Shihao Liu",
+        "Ziyuan Nan",
+        "Kaizhao Yuan",
+        "Rui Zhang",
+        "Xishan Zhang",
+        "Zidong Du",
+        "Qi Guo",
+        "Yewen Pu",
+        "Dawei Yin",
+        "Xing Hu",
+        "Yunji Chen"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/wyt2000/InverseCoder",
+      "published": "2024-07-08T08:00:05.000Z"
+    },
+    {
+      "id": "2407.06191",
+      "title": "Tailor3D: Customized 3D Assets Editing and Generation with Dual-Side Images",
+      "authors": [
+        "Zhangyang Qi",
+        "Yunhan Yang",
+        "Mengchen Zhang",
+        "Long Xing",
+        "Xiaoyang Wu",
+        "Tong Wu",
+        "Dahua Lin",
+        "Xihui Liu",
+        "Jiaqi Wang",
+        "Hengshuang Zhao"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2024-07-08T17:59:55.000Z"
+    },
+    {
+      "id": "2407.06192",
+      "title": "Multi-Object Hallucination in Vision-Language Models",
+      "authors": [
+        "Xuweiyi Chen",
+        "Ziqiao Ma",
+        "Xuejun Zhang",
+        "Sihan Xu",
+        "Shengyi Qian",
+        "Jianing Yang",
+        "David F. Fouhey",
+        "Joyce Chai"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/sled-group/moh",
+      "published": "2024-07-08T17:59:57.000Z"
+    },
+    {
+      "id": "2407.06027",
+      "title": "PAS: Data-Efficient Plug-and-Play Prompt Augmentation System",
+      "authors": [
+        "Miao Zheng",
+        "Hao Liang",
+        "Fan Yang",
+        "Haoze Sun",
+        "Tianpeng Li",
+        "Lingchu Xiong",
+        "Yan Zhang",
+        "Yozhen Wu",
+        "Kun Li",
+        "Yanjun Sheng",
+        "Mingan Lin",
+        "Tao Zhang",
+        "Guosheng Dong",
+        "Yujing Qiao",
+        "Kun Fang",
+        "Weipeng Chen",
+        "Bin Cui",
+        "Wentao Zhang",
+        "Zenan Zhou"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2024-07-08T15:25:33.000Z"
+    },
+    {
+      "id": "2407.05463",
+      "title": "Training Task Experts through Retrieval Based Distillation",
+      "authors": [
+        "Jiaxin Ge",
+        "Xueying Jia",
+        "Vijay Viswanathan",
+        "Hongyin Luo",
+        "Graham Neubig"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2024-07-07T18:27:59.000Z"
+    },
+    {
+      "id": "2407.06076",
+      "title": "Understanding Visual Feature Reliance through the Lens of Complexity",
+      "authors": [
+        "Thomas Fel",
+        "Louis Bethune",
+        "Andrew Kyle Lampinen",
+        "Thomas Serre",
+        "Katherine Hermann"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2024-07-08T16:21:53.000Z"
+    },
+    {
+      "id": "2407.04604",
+      "title": "PartCraft: Crafting Creative Objects by Parts",
+      "authors": [
+        "Kam Woh Ng",
+        "Xiatian Zhu",
+        "Yi-Zhe Song",
+        "Tao Xiang"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/kamwoh/partcraft",
+      "published": "2024-07-05T15:53:04.000Z"
+    },
+    {
+      "id": "2407.04020",
+      "title": "LLMAEL: Large Language Models are Good Context Augmenters for Entity Linking",
+      "authors": [
+        "Amy Xin",
+        "Yunjia Qi",
+        "Zijun Yao",
+        "Fangwei Zhu",
+        "Kaisheng Zeng",
+        "Xu Bin",
+        "Lei Hou",
+        "Juanzi Li"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/THU-KEG/LLMAEL",
+      "published": "2024-07-04T15:55:13.000Z"
+    },
+    {
+      "id": "2407.04693",
+      "title": "ANAH-v2: Scaling Analytical Hallucination Annotation of Large Language Models",
+      "authors": [
+        "Yuzhe Gu",
+        "Ziwei Ji",
+        "Wenwei Zhang",
+        "Chengqi Lyu",
+        "Dahua Lin",
+        "Kai Chen"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2024-07-05T17:56:38.000Z"
+    }
+  ]
+}

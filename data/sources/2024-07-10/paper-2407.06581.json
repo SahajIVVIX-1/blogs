@@ -1,0 +1,11 @@
+{
+  "id": "2407.06581",
+  "html": "https://arxiv.org/html/2407.06581",
+  "limitations": null,
+  "conclusion": "We propose BlindTest , a benchmark of seven novel low-level visual tasks for testing VLM ability to “see” simple geometric primitives (such as line, circles, squares, intersections) that are the basic building blocks for many image tasks. The tasks are designed from scratch and require minimal to zero knowledge. As the tasks did not exist on the Internet before and require minimal world knowledge, there is minimal chance that VLMs can solve BlindTest by memorization or by not using the input image—an issue in some prior benchmarks [ 6 , 13 ] . Furthermore, we also test common prompting techniques ( Sec. 0.D.1 ) including 2-shot, chain-of-thought [ 52 ] , and meta-prompting [ 34 ] but do not obtain better accuracy, which (1) suggests that VLMs understand BlindTest questions and (2) confirms that these visual tasks do not benefit from thinking aloud [ 52 ] . The poor performance of VLMs on",
+  "figure": {
+    "path": "images/2024/paper-2407.06581.webp",
+    "src": "https://arxiv.org/html/2407.06581v6/pixels_769_rotation_diagonal_2_diameter_0.17_distance_0.05_crop.png",
+    "caption": "Figure 1 : VLMs fail on the simple tasks of BlindTest ."
+  }
+}

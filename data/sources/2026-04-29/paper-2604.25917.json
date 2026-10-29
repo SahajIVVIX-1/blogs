@@ -1,0 +1,11 @@
+{
+  "id": "2604.25917",
+  "html": "https://arxiv.org/html/2604.25917",
+  "limitations": null,
+  "conclusion": "We introduce RecursiveMAS , a recursive multi-agent framework that scales agent collaboration through system-level recursion. RecursiveMAS first supports latent-thoughts generation within each agent through inner RecursiveLink, then connects heterogeneous agents through outer RecursiveLink, and optimizes the whole system with an inner-outer loop training paradigm. Theoretically, our framework leads to more stable training dynamics and improves efficiency compared to text-based baselines. Our empirical results across mathematical and scientific reasoning, code generation, and search benchmarks show that RecursiveMAS consistently improves accuracy while substantially reducing inference time and token usage. Overall, RecursiveMAS provides a scalable and efficient framework for multi-agent systems to recursively collaborate, refine, and evolve in latent space. \\nobibliography *",
+  "figure": {
+    "path": "images/2026/paper-2604.25917.webp",
+    "src": "https://arxiv.org/html/2604.25917v2/hero_figure.png",
+    "caption": "Figure 1: Performance Landscape of RecursiveMAS across Training/Inference Recursion Depths (Top): The lightweight RecursiveMAS with sub-1.5B agents shows a clean scaling trend as recursion deepens. Generalization across Common Collaboration Patterns (Bottom): The Scaled RecursiveMAS with stronger LLM agents (5-10B) seamlessly adapts to diverse multi-agent system structures."
+  }
+}

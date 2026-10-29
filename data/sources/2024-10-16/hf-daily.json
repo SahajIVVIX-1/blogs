@@ -1,0 +1,314 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-10-16",
+  "fetched_at": "2026-10-29T15:29:22.878Z",
+  "candidates": [
+    {
+      "id": "2410.10814",
+      "title": "Your Mixture-of-Experts LLM Is Secretly an Embedding Model For Free",
+      "authors": [
+        "Ziyue Li",
+        "Tianyi Zhou"
+      ],
+      "upvotes": 50,
+      "github": "https://github.com/tianyi-lab/moe-embedding",
+      "published": "2024-10-14T17:59:44.000Z"
+    },
+    {
+      "id": "2410.10626",
+      "title": "Efficiently Democratizing Medical LLMs for 50 Languages via a Mixture of Language Family Experts",
+      "authors": [
+        "Guorui Zheng",
+        "Xidong Wang",
+        "Juhao Liang",
+        "Nuo Chen",
+        "Yuping Zheng",
+        "Benyou Wang"
+      ],
+      "upvotes": 38,
+      "github": "https://github.com/freedomintelligence/apollomoe",
+      "published": "2024-10-14T15:31:54.000Z"
+    },
+    {
+      "id": "2410.09342",
+      "title": "LLMtimesMapReduce: Simplified Long-Sequence Processing using Large Language Models",
+      "authors": [
+        "Zihan Zhou",
+        "Chong Li",
+        "Xinyi Chen",
+        "Shuo Wang",
+        "Yu Chao",
+        "Zhili Li",
+        "Haoyu Wang",
+        "Rongqiao An",
+        "Qi Shi",
+        "Zhixing Tan",
+        "Xu Han",
+        "Xiaodong Shi",
+        "Zhiyuan Liu",
+        "Maosong Sun"
+      ],
+      "upvotes": 37,
+      "github": null,
+      "published": "2024-10-12T03:13:44.000Z"
+    },
+    {
+      "id": "2406.15786",
+      "title": "What Matters in Transformers? Not All Attention is Needed",
+      "authors": [
+        "Shwai He",
+        "Guoheng Sun",
+        "Zheyu Shen",
+        "Ang Li"
+      ],
+      "upvotes": 32,
+      "github": "https://github.com/shwai-he/llm-drop",
+      "published": "2024-06-22T08:41:48.000Z"
+    },
+    {
+      "id": "2410.11779",
+      "title": "MLLM can see? Dynamic Correction Decoding for Hallucination Mitigation",
+      "authors": [
+        "Chenxi Wang",
+        "Xiang Chen",
+        "Ningyu Zhang",
+        "Bozhong Tian",
+        "Haoming Xu",
+        "Shumin Deng",
+        "Huajun Chen"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/zjunlp/Deco",
+      "published": "2024-10-15T16:57:44.000Z"
+    },
+    {
+      "id": "2410.10934",
+      "title": "Agent-as-a-Judge: Evaluate Agents with Agents",
+      "authors": [
+        "Mingchen Zhuge",
+        "Changsheng Zhao",
+        "Dylan Ashley",
+        "Wenyi Wang",
+        "Dmitrii Khizbullin",
+        "Yunyang Xiong",
+        "Zechun Liu",
+        "Ernie Chang",
+        "Raghuraman Krishnamoorthi",
+        "Yuandong Tian",
+        "Yangyang Shi",
+        "Vikas Chandra",
+        "Jürgen Schmidhuber"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/metauto-ai/agent-as-a-judge",
+      "published": "2024-10-14T17:57:02.000Z"
+    },
+    {
+      "id": "2410.11710",
+      "title": "MTU-Bench: A Multi-granularity Tool-Use Benchmark for Large Language Models",
+      "authors": [
+        "Pei Wang",
+        "Yanan Wu",
+        "Zekun Wang",
+        "Jiaheng Liu",
+        "Xiaoshuai Song",
+        "Zhongyuan Peng",
+        "Ken Deng",
+        "Chenchen Zhang",
+        "Jiakai Wang",
+        "Junran Peng",
+        "Ge Zhang",
+        "Hangyu Guo",
+        "Zhaoxiang Zhang",
+        "Wenbo Su",
+        "Bo Zheng"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/mtu-bench-team/mtu-bench",
+      "published": "2024-10-15T15:46:17.000Z"
+    },
+    {
+      "id": "2410.10816",
+      "title": "LVD-2M: A Long-take Video Dataset with Temporally Dense Captions",
+      "authors": [
+        "Tianwei Xiong",
+        "Yuqing Wang",
+        "Daquan Zhou",
+        "Zhijie Lin",
+        "Jiashi Feng",
+        "Xihui Liu"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/silentview/lvd-2m",
+      "published": "2024-10-14T17:59:56.000Z"
+    },
+    {
+      "id": "2410.11795",
+      "title": "Efficient Diffusion Models: A Comprehensive Survey from Principles to Practices",
+      "authors": [
+        "Zhiyuan Ma",
+        "Yuzhu Zhang",
+        "Guoli Jia",
+        "Liangliang Zhao",
+        "Yichao Ma",
+        "Mingjie Ma",
+        "Gaofeng Liu",
+        "Kaiyan Zhang",
+        "Jianjun Li",
+        "Bowen Zhou"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/TsinghuaC3I/Efficient-Diffusion-Models",
+      "published": "2024-10-15T17:19:46.000Z"
+    },
+    {
+      "id": "2410.09704",
+      "title": "EchoPrime: A Multi-Video View-Informed Vision-Language Model for Comprehensive Echocardiography Interpretation",
+      "authors": [
+        "Milos Vukadinovic",
+        "Xiu Tang",
+        "Neal Yuan",
+        "Paul Cheng",
+        "Debiao Li",
+        "Susan Cheng",
+        "Bryan He",
+        "David Ouyang"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2024-10-13T03:04:22.000Z"
+    },
+    {
+      "id": "2410.11805",
+      "title": "NesTools: A Dataset for Evaluating Nested Tool Learning Abilities of Large Language Models",
+      "authors": [
+        "Han Han",
+        "Tong Zhu",
+        "Xiang Zhang",
+        "Mengsong Wu",
+        "Hao Xiong",
+        "Wenliang Chen"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/hhan1018/nestools",
+      "published": "2024-10-15T17:33:43.000Z"
+    },
+    {
+      "id": "2410.11096",
+      "title": "SecCodePLT: A Unified Platform for Evaluating the Security of Code GenAI",
+      "authors": [
+        "Yu Yang",
+        "Yuzhou Nie",
+        "Zhun Wang",
+        "Yuheng Tang",
+        "Wenbo Guo",
+        "Bo Li",
+        "Dawn Song"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2024-10-14T21:17:22.000Z"
+    },
+    {
+      "id": "2410.11419",
+      "title": "GS^3: Efficient Relighting with Triple Gaussian Splatting",
+      "authors": [
+        "Zoubin Bi",
+        "Yixin Zeng",
+        "Chong Zeng",
+        "Fan Pei",
+        "Xiang Feng",
+        "Kun Zhou",
+        "Hongzhi Wu"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/gsrelight/gs-relight",
+      "published": "2024-10-15T09:11:30.000Z"
+    },
+    {
+      "id": "2410.09754",
+      "title": "SimBa: Simplicity Bias for Scaling Up Parameters in Deep Reinforcement Learning",
+      "authors": [
+        "Hojoon Lee",
+        "Dongyoon Hwang",
+        "Donghu Kim",
+        "Hyunseung Kim",
+        "Jun Jet Tai",
+        "Kaushik Subramanian",
+        "Peter R. Wurman",
+        "Jaegul Choo",
+        "Peter Stone",
+        "Takuma Seno"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2024-10-13T07:20:53.000Z"
+    },
+    {
+      "id": "2410.06593",
+      "title": "Towards Natural Image Matting in the Wild via Real-Scenario Prior",
+      "authors": [
+        "Ruihao Xia",
+        "Yu Liang",
+        "Peng-Tao Jiang",
+        "Hao Zhang",
+        "Qianru Sun",
+        "Yang Tang",
+        "Bo Li",
+        "Pan Zhou"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/xiarho/semat",
+      "published": "2024-10-09T06:43:19.000Z"
+    },
+    {
+      "id": "2410.08001",
+      "title": "Towards Synergistic, Generalized, and Efficient Dual-System for Robotic Manipulation",
+      "authors": [
+        "Qingwen Bu",
+        "Hongyang Li",
+        "Li Chen",
+        "Jisong Cai",
+        "Jia Zeng",
+        "Heming Cui",
+        "Maoqing Yao",
+        "Yu Qiao"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2024-10-10T14:57:51.000Z"
+    },
+    {
+      "id": "2410.09745",
+      "title": "Empirical Study of Mutual Reinforcement Effect and Application in Few-shot Text Classification Tasks via Prompt",
+      "authors": [
+        "Chengguang Gan",
+        "Tatsunori Mori"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2024-10-13T06:43:54.000Z"
+    },
+    {
+      "id": "2410.11619",
+      "title": "MultiVENT 2.0: A Massive Multilingual Benchmark for Event-Centric Video Retrieval",
+      "authors": [
+        "Reno Kriz",
+        "Kate Sanders",
+        "David Etter",
+        "Kenton Murray",
+        "Cameron Carpenter",
+        "Kelly Van Ochten",
+        "Hannah Recknor",
+        "Jimena Guallar-Blasco",
+        "Alexander Martin",
+        "Ronald Colaianni",
+        "Nolan King",
+        "Eugene Yang",
+        "Benjamin Van Durme"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2024-10-15T13:56:34.000Z"
+    }
+  ]
+}

@@ -1,0 +1,396 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-10-08",
+  "fetched_at": "2026-10-29T15:29:18.106Z",
+  "candidates": [
+    {
+      "id": "2410.05258",
+      "title": "Differential Transformer",
+      "authors": [
+        "Tianzhu Ye",
+        "Li Dong",
+        "Yuqing Xia",
+        "Yutao Sun",
+        "Yi Zhu",
+        "Gao Huang",
+        "Furu Wei"
+      ],
+      "upvotes": 183,
+      "github": "https://github.com/microsoft/unilm",
+      "published": "2024-10-07T17:57:38.000Z"
+    },
+    {
+      "id": "2410.02884",
+      "title": "LLaMA-Berry: Pairwise Optimization for O1-like Olympiad-Level Mathematical Reasoning",
+      "authors": [
+        "Di Zhang",
+        "Jianbo Wu",
+        "Jingdi Lei",
+        "Tong Che",
+        "Jiatong Li",
+        "Tong Xie",
+        "Xiaoshui Huang",
+        "Shufei Zhang",
+        "Marco Pavone",
+        "Yuqiang Li",
+        "Wanli Ouyang",
+        "Dongzhan Zhou"
+      ],
+      "upvotes": 53,
+      "github": null,
+      "published": "2024-10-03T18:12:29.000Z"
+    },
+    {
+      "id": "2410.02707",
+      "title": "LLMs Know More Than They Show: On the Intrinsic Representation of LLM Hallucinations",
+      "authors": [
+        "Hadas Orgad",
+        "Michael Toker",
+        "Zorik Gekhman",
+        "Roi Reichart",
+        "Idan Szpektor",
+        "Hadas Kotek",
+        "Yonatan Belinkov"
+      ],
+      "upvotes": 47,
+      "github": "https://github.com/technion-cs-nlp/llmsknow",
+      "published": "2024-10-03T17:31:31.000Z"
+    },
+    {
+      "id": "2410.04364",
+      "title": "VideoGuide: Improving Video Diffusion Models without Training Through a Teacher's Guide",
+      "authors": [
+        "Dohun Lee",
+        "Bryan S Kim",
+        "Geon Yeong Park",
+        "Jong Chul Ye"
+      ],
+      "upvotes": 29,
+      "github": null,
+      "published": "2024-10-06T05:46:17.000Z"
+    },
+    {
+      "id": "2410.02675",
+      "title": "FAN: Fourier Analysis Networks",
+      "authors": [
+        "Yihong Dong",
+        "Ge Li",
+        "Yongding Tao",
+        "Xue Jiang",
+        "Kechi Zhang",
+        "Jia Li",
+        "Jing Su",
+        "Jun Zhang",
+        "Jingjing Xu"
+      ],
+      "upvotes": 28,
+      "github": "https://github.com/yihongdong/fan",
+      "published": "2024-10-03T17:02:21.000Z"
+    },
+    {
+      "id": "2410.05229",
+      "title": "GSM-Symbolic: Understanding the Limitations of Mathematical Reasoning in Large Language Models",
+      "authors": [
+        "Iman Mirzadeh",
+        "Keivan Alizadeh",
+        "Hooman Shahrokhi",
+        "Oncel Tuzel",
+        "Samy Bengio",
+        "Mehrdad Farajtabar"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/apple/ml-gsm-symbolic",
+      "published": "2024-10-07T17:36:37.000Z"
+    },
+    {
+      "id": "2410.05080",
+      "title": "ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery",
+      "authors": [
+        "Ziru Chen",
+        "Shijie Chen",
+        "Yuting Ning",
+        "Qianheng Zhang",
+        "Boshi Wang",
+        "Botao Yu",
+        "Yifei Li",
+        "Zeyi Liao",
+        "Chen Wei",
+        "Zitong Lu",
+        "Vishal Dey",
+        "Mingyi Xue",
+        "Frazier N. Baker",
+        "Benjamin Burns",
+        "Daniel Adu-Ampratwum",
+        "Xuhui Huang",
+        "Xia Ning",
+        "Song Gao",
+        "Yu Su",
+        "Huan Sun"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/osu-nlp-group/scienceagentbench",
+      "published": "2024-10-07T14:33:50.000Z"
+    },
+    {
+      "id": "2410.03825",
+      "title": "MonST3R: A Simple Approach for Estimating Geometry in the Presence of Motion",
+      "authors": [
+        "Junyi Zhang",
+        "Charles Herrmann",
+        "Junhwa Hur",
+        "Varun Jampani",
+        "Trevor Darrell",
+        "Forrester Cole",
+        "Deqing Sun",
+        "Ming-Hsuan Yang"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/Junyi42/monst3r",
+      "published": "2024-10-04T18:00:07.000Z"
+    },
+    {
+      "id": "2410.05243",
+      "title": "Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents",
+      "authors": [
+        "Boyu Gou",
+        "Ruohan Wang",
+        "Boyuan Zheng",
+        "Yanan Xie",
+        "Cheng Chang",
+        "Yiheng Shu",
+        "Huan Sun",
+        "Yu Su"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/OSU-NLP-Group/UGround",
+      "published": "2024-10-07T17:47:50.000Z"
+    },
+    {
+      "id": "2410.04534",
+      "title": "UniMuMo: Unified Text, Music and Motion Generation",
+      "authors": [
+        "Han Yang",
+        "Kun Su",
+        "Yutong Zhang",
+        "Jiaben Chen",
+        "Kaizhi Qian",
+        "Gaowen Liu",
+        "Chuang Gan"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/hanyangclarence/UniMuMo",
+      "published": "2024-10-06T16:04:05.000Z"
+    },
+    {
+      "id": "2410.04734",
+      "title": "TLDR: Token-Level Detective Reward Model for Large Vision Language Models",
+      "authors": [
+        "Deqing Fu",
+        "Tong Xiao",
+        "Rui Wang",
+        "Wang Zhu",
+        "Pengchuan Zhang",
+        "Guan Pang",
+        "Robin Jia",
+        "Lawrence Chen"
+      ],
+      "upvotes": 19,
+      "github": null,
+      "published": "2024-10-07T04:00:22.000Z"
+    },
+    {
+      "id": "2410.05167",
+      "title": "Presto! Distilling Steps and Layers for Accelerating Music Generation",
+      "authors": [
+        "Zachary Novack",
+        "Ge Zhu",
+        "Jonah Casebeer",
+        "Julian McAuley",
+        "Taylor Berg-Kirkpatrick",
+        "Nicholas J. Bryan"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2024-10-07T16:24:18.000Z"
+    },
+    {
+      "id": "2410.04698",
+      "title": "MathHay: An Automated Benchmark for Long-Context Mathematical Reasoning in LLMs",
+      "authors": [
+        "Lei Wang",
+        "Shan Dong",
+        "Yuhui Xu",
+        "Hanze Dong",
+        "Yalu Wang",
+        "Amrita Saha",
+        "Ee-Peng Lim",
+        "Caiming Xiong",
+        "Doyen Sahoo"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2024-10-07T02:30:07.000Z"
+    },
+    {
+      "id": "2410.05046",
+      "title": "Named Clinical Entity Recognition Benchmark",
+      "authors": [
+        "Wadood M Abdul",
+        "Marco AF Pimentel",
+        "Muhammad Umar Salman",
+        "Tathagata Raha",
+        "Clément Christophe",
+        "Praveen K Kanithi",
+        "Nasir Hayat",
+        "Ronnie Rajan",
+        "Shadab Khan"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2024-10-07T14:00:18.000Z"
+    },
+    {
+      "id": "2410.05262",
+      "title": "TurtleBench: Evaluating Top Language Models via Real-World Yes/No Puzzles",
+      "authors": [
+        "Qingchen Yu",
+        "Shichao Song",
+        "Ke Fang",
+        "Yunfeng Shi",
+        "Zifan Zheng",
+        "Hanyu Wang",
+        "Simin Niu",
+        "Zhiyu Li"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/mazzzystar/TurtleBench",
+      "published": "2024-10-07T17:58:47.000Z"
+    },
+    {
+      "id": "2410.03617",
+      "title": "What Matters for Model Merging at Scale?",
+      "authors": [
+        "Prateek Yadav",
+        "Tu Vu",
+        "Jonathan Lai",
+        "Alexandra Chronopoulou",
+        "Manaal Faruqui",
+        "Mohit Bansal",
+        "Tsendsuren Munkhdalai"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2024-10-04T17:17:19.000Z"
+    },
+    {
+      "id": "2410.04932",
+      "title": "OmniBooth: Learning Latent Control for Image Synthesis with Multi-modal Instruction",
+      "authors": [
+        "Leheng Li",
+        "Weichao Qiu",
+        "Xu Yan",
+        "Jing He",
+        "Kaiqiang Zhou",
+        "Yingjie Cai",
+        "Qing Lian",
+        "Bingbing Liu",
+        "Ying-Cong Chen"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2024-10-07T11:26:13.000Z"
+    },
+    {
+      "id": "2410.03187",
+      "title": "Autonomous Character-Scene Interaction Synthesis from Text Instruction",
+      "authors": [
+        "Nan Jiang",
+        "Zimo He",
+        "Zi Wang",
+        "Hongjie Li",
+        "Yixin Chen",
+        "Siyuan Huang",
+        "Yixin Zhu"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/mileret/lingo-release",
+      "published": "2024-10-04T06:58:45.000Z"
+    },
+    {
+      "id": "2410.05057",
+      "title": "SELECT: A Large-Scale Benchmark of Data Curation Strategies for Image Classification",
+      "authors": [
+        "Benjamin Feuer",
+        "Jiawei Xu",
+        "Niv Cohen",
+        "Patrick Yubeaton",
+        "Govind Mittal",
+        "Chinmay Hegde"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/jimmyxu123/select",
+      "published": "2024-10-07T14:14:38.000Z"
+    },
+    {
+      "id": "2410.03160",
+      "title": "Redefining Temporal Modeling in Video Diffusion: The Vectorized Timestep Approach",
+      "authors": [
+        "Yaofang Liu",
+        "Yumeng Ren",
+        "Xiaodong Cun",
+        "Aitor Artola",
+        "Yang Liu",
+        "Tieyong Zeng",
+        "Raymond H. Chan",
+        "Jean-michel Morel"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/yaofang-liu/fvdm",
+      "published": "2024-10-04T05:47:39.000Z"
+    },
+    {
+      "id": "2410.05255",
+      "title": "SePPO: Semi-Policy Preference Optimization for Diffusion Alignment",
+      "authors": [
+        "Daoan Zhang",
+        "Guangchen Lan",
+        "Dong-Jun Han",
+        "Wenlin Yao",
+        "Xiaoman Pan",
+        "Hongming Zhang",
+        "Mingxiao Li",
+        "Pengcheng Chen",
+        "Yu Dong",
+        "Christopher Brinton",
+        "Jiebo Luo"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/dwanzhang-ai/seppo",
+      "published": "2024-10-07T17:56:53.000Z"
+    },
+    {
+      "id": "2410.03959",
+      "title": "Grounding Language in Multi-Perspective Referential Communication",
+      "authors": [
+        "Zineng Tang",
+        "Lingjun Mao",
+        "Alane Suhr"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/zinengtang/MulAgentRef",
+      "published": "2024-10-04T22:42:30.000Z"
+    },
+    {
+      "id": "2410.03960",
+      "title": "SwiftKV: Fast Prefill-Optimized Inference with Knowledge-Preserving Model Transformation",
+      "authors": [
+        "Aurick Qiao",
+        "Zhewei Yao",
+        "Samyam Rajbhandari",
+        "Yuxiong He"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2024-10-04T22:45:26.000Z"
+    }
+  ]
+}

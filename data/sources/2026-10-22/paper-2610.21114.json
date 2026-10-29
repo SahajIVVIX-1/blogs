@@ -1,0 +1,7 @@
+{
+  "id": "2610.21114",
+  "html": "https://arxiv.org/html/2610.21114",
+  "limitations": null,
+  "conclusion": "We introduced Spectral-Spatial Interpretation (SSI), which explains predictions of multi-channel image models at the level of joint position-channel players [math] . SSI fixes the observed surrounding context and allocates each position’s contribution among its channels via the Shapley value, producing a full attribution matrix whose channel aggregation exactly recovers the position-level contextual contrast. Across CUB-200, EuroSAT, and HLS Burn Scar, SSI improves joint faithfulness, spectral hit rates, and channel deletion over dense, flat, and rank-1 baselines, and outperforms MC-Owen on HLS Burn Scar with roughly [math] of its evaluation budget. Although SSI’s estimation error grows only as [math] and its per-image cost grows only linearly in [math] (Appendix B.4 ), applying SSI to hyperspectral sensors with hundreds of correlated bands may benefit from channel screening or adaptive ",
+  "figure": null
+}

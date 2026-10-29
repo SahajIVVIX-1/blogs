@@ -1,0 +1,417 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-03-28",
+  "fetched_at": "2026-10-29T15:31:02.002Z",
+  "candidates": [
+    {
+      "id": "2503.21776",
+      "title": "Video-R1: Reinforcing Video Reasoning in MLLMs",
+      "authors": [
+        "Kaituo Feng",
+        "Kaixiong Gong",
+        "Bohao Li",
+        "Zonghao Guo",
+        "Yibing Wang",
+        "Tianshuo Peng",
+        "Benyou Wang",
+        "Xiangyu Yue"
+      ],
+      "upvotes": 79,
+      "github": "https://github.com/tulerfeng/Video-R1",
+      "published": "2025-03-27T17:59:51.000Z"
+    },
+    {
+      "id": "2503.21460",
+      "title": "Large Language Model Agent: A Survey on Methodology, Applications and Challenges",
+      "authors": [
+        "Junyu Luo",
+        "Weizhi Zhang",
+        "Ye Yuan",
+        "Yusheng Zhao",
+        "Junwei Yang",
+        "Yiyang Gu",
+        "Bohan Wu",
+        "Binqi Chen",
+        "Ziyue Qiao",
+        "Qingqing Long",
+        "Rongcheng Tu",
+        "Xiao Luo",
+        "Wei Ju",
+        "Zhiping Xiao",
+        "Yifan Wang",
+        "Meng Xiao",
+        "Chenwu Liu",
+        "Jingyang Yuan",
+        "Shichang Zhang",
+        "Yiqiao Jin",
+        "Fan Zhang",
+        "Xian Wu",
+        "Hanqing Zhao",
+        "Dacheng Tao",
+        "Philip S. Yu",
+        "Ming Zhang"
+      ],
+      "upvotes": 62,
+      "github": "https://github.com/luo-junyu/Awesome-Agent-Papers",
+      "published": "2025-03-27T12:50:17.000Z"
+    },
+    {
+      "id": "2503.21620",
+      "title": "UI-R1: Enhancing Action Prediction of GUI Agents by Reinforcement Learning",
+      "authors": [
+        "Zhengxi Lu",
+        "Yuxiang Chai",
+        "Yaxuan Guo",
+        "Xi Yin",
+        "Liang Liu",
+        "Hao Wang",
+        "Guanjing Xiong",
+        "Hongsheng Li"
+      ],
+      "upvotes": 62,
+      "github": "https://github.com/lll6gg/UI-R1",
+      "published": "2025-03-27T15:39:30.000Z"
+    },
+    {
+      "id": "2503.21380",
+      "title": "Challenging the Boundaries of Reasoning: An Olympiad-Level Math Benchmark for Large Language Models",
+      "authors": [
+        "Haoxiang Sun",
+        "Yingqian Min",
+        "Zhipeng Chen",
+        "Wayne Xin Zhao",
+        "Zheng Liu",
+        "Zhongyuan Wang",
+        "Lei Fang",
+        "Ji-Rong Wen"
+      ],
+      "upvotes": 39,
+      "github": "https://github.com/RUCAIBox/OlymMATH",
+      "published": "2025-03-27T11:20:17.000Z"
+    },
+    {
+      "id": "2503.21755",
+      "title": "VBench-2.0: Advancing Video Generation Benchmark Suite for Intrinsic Faithfulness",
+      "authors": [
+        "Dian Zheng",
+        "Ziqi Huang",
+        "Hongbo Liu",
+        "Kai Zou",
+        "Yinan He",
+        "Fan Zhang",
+        "Yuanhan Zhang",
+        "Jingwen He",
+        "Wei-Shi Zheng",
+        "Yu Qiao",
+        "Ziwei Liu"
+      ],
+      "upvotes": 33,
+      "github": null,
+      "published": "2025-03-27T17:57:01.000Z"
+    },
+    {
+      "id": "2503.21729",
+      "title": "ReaRAG: Knowledge-guided Reasoning Enhances Factuality of Large Reasoning Models with Iterative Retrieval Augmented Generation",
+      "authors": [
+        "Zhicheng Lee",
+        "Shulin Cao",
+        "Jinxin Liu",
+        "Jiajie Zhang",
+        "Weichuan Liu",
+        "Xiaoyin Che",
+        "Lei Hou",
+        "Juanzi Li"
+      ],
+      "upvotes": 29,
+      "github": "https://github.com/THU-KEG/ReaRAG",
+      "published": "2025-03-27T17:44:18.000Z"
+    },
+    {
+      "id": "2503.21144",
+      "title": "ChatAnyone: Stylized Real-time Portrait Video Generation with Hierarchical Motion Diffusion Model",
+      "authors": [
+        "Jinwei Qi",
+        "Chaonan Ji",
+        "Sheng Xu",
+        "Peng Zhang",
+        "Bang Zhang",
+        "Liefeng Bo"
+      ],
+      "upvotes": 28,
+      "github": null,
+      "published": "2025-03-27T04:18:53.000Z"
+    },
+    {
+      "id": "2503.21749",
+      "title": "LeX-Art: Rethinking Text Generation via Scalable High-Quality Data Synthesis",
+      "authors": [
+        "Shitian Zhao",
+        "Qilong Wu",
+        "Xinyue Li",
+        "Bo Zhang",
+        "Ming Li",
+        "Qi Qin",
+        "Dongyang Liu",
+        "Kaipeng Zhang",
+        "Hongsheng Li",
+        "Yu Qiao",
+        "Peng Gao",
+        "Bin Fu",
+        "Zhen Li"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/zhaoshitian/LeX-Art",
+      "published": "2025-03-27T17:56:15.000Z"
+    },
+    {
+      "id": "2503.21696",
+      "title": "Embodied-Reasoner: Synergizing Visual Search, Reasoning, and Action for Embodied Interactive Tasks",
+      "authors": [
+        "Wenqi Zhang",
+        "Mengna Wang",
+        "Gangao Liu",
+        "Xu Huixin",
+        "Yiwei Jiang",
+        "Yongliang Shen",
+        "Guiyang Hou",
+        "Zhe Zheng",
+        "Hang Zhang",
+        "Xin Li",
+        "Weiming Lu",
+        "Peng Li",
+        "Yueting Zhuang"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/zwq2018/embodied_reasoner",
+      "published": "2025-03-27T17:00:51.000Z"
+    },
+    {
+      "id": "2503.21758",
+      "title": "Lumina-Image 2.0: A Unified and Efficient Image Generative Framework",
+      "authors": [
+        "Qi Qin",
+        "Le Zhuo",
+        "Yi Xin",
+        "Ruoyi Du",
+        "Zhen Li",
+        "Bin Fu",
+        "Yiting Lu",
+        "Jiakang Yuan",
+        "Xinyue Li",
+        "Dongyang Liu",
+        "Xiangyang Zhu",
+        "Manyuan Zhang",
+        "Will Beddow",
+        "Erwann Millon",
+        "Victor Perez",
+        "Wenhai Wang",
+        "Conghui He",
+        "Bo Zhang",
+        "Xiaohong Liu",
+        "Hongsheng Li",
+        "Yu Qiao",
+        "Chang Xu",
+        "Peng Gao"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/Alpha-VLLM/Lumina-Image-2.0",
+      "published": "2025-03-27T17:57:07.000Z"
+    },
+    {
+      "id": "2503.21248",
+      "title": "ResearchBench: Benchmarking LLMs in Scientific Discovery via Inspiration-Based Task Decomposition",
+      "authors": [
+        "Yujie Liu",
+        "Zonglin Yang",
+        "Tong Xie",
+        "Jinjie Ni",
+        "Ben Gao",
+        "Yuqiang Li",
+        "Shixiang Tang",
+        "Wanli Ouyang",
+        "Erik Cambria",
+        "Dongzhan Zhou"
+      ],
+      "upvotes": 21,
+      "github": null,
+      "published": "2025-03-27T08:09:15.000Z"
+    },
+    {
+      "id": "2503.20990",
+      "title": "FinAudio: A Benchmark for Audio Large Language Models in Financial Applications",
+      "authors": [
+        "Yupeng Cao",
+        "Haohang Li",
+        "Yangyang Yu",
+        "Shashidhar Reddy Javaji",
+        "Yueru He",
+        "Jimin Huang",
+        "Zining Zhu",
+        "Qianqian Xie",
+        "Xiao-yang Liu",
+        "Koduvayur Subbalakshmi",
+        "Meikang Qiu",
+        "Sophia Ananiadou",
+        "Jian-Yun Nie"
+      ],
+      "upvotes": 19,
+      "github": null,
+      "published": "2025-03-26T21:07:51.000Z"
+    },
+    {
+      "id": "2503.20822",
+      "title": "Synthetic Video Enhances Physical Fidelity in Video Synthesis",
+      "authors": [
+        "Qi Zhao",
+        "Xingyu Ni",
+        "Ziyu Wang",
+        "Feng Cheng",
+        "Ziyan Yang",
+        "Lu Jiang",
+        "Bohan Wang"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2025-03-26T00:45:07.000Z"
+    },
+    {
+      "id": "2503.21774",
+      "title": "Optimal Stepsize for Diffusion Sampling",
+      "authors": [
+        "Jianning Pei",
+        "Han Hu",
+        "Shuyang Gu"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/bebebe666/optimalsteps",
+      "published": "2025-03-27T17:59:46.000Z"
+    },
+    {
+      "id": "2503.21765",
+      "title": "Exploring the Evolution of Physics Cognition in Video Generation: A Survey",
+      "authors": [
+        "Minghui Lin",
+        "Xiang Wang",
+        "Yishan Wang",
+        "Shu Wang",
+        "Fengqi Dai",
+        "Pengxiang Ding",
+        "Cunxiang Wang",
+        "Zhengrong Zuo",
+        "Nong Sang",
+        "Siteng Huang",
+        "Donglin Wang"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/minnie-lin/Awesome-Physics-Cognition-based-Video-Generation",
+      "published": "2025-03-27T17:58:33.000Z"
+    },
+    {
+      "id": "2503.20776",
+      "title": "Feature4X: Bridging Any Monocular Video to 4D Agentic AI with Versatile Gaussian Feature Fields",
+      "authors": [
+        "Shijie Zhou",
+        "Hui Ren",
+        "Yijia Weng",
+        "Shuwang Zhang",
+        "Zhen Wang",
+        "Dejia Xu",
+        "Zhiwen Fan",
+        "Suya You",
+        "Zhangyang Wang",
+        "Leonidas Guibas",
+        "Achuta Kadambi"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2025-03-26T17:56:16.000Z"
+    },
+    {
+      "id": "2503.21780",
+      "title": "Semantic Library Adaptation: LoRA Retrieval and Fusion for Open-Vocabulary Semantic Segmentation",
+      "authors": [
+        "Reza Qorbani",
+        "Gianluca Villani",
+        "Theodoros Panagiotakopoulos",
+        "Marc Botet Colomer",
+        "Linus Härenstam-Nielsen",
+        "Mattia Segu",
+        "Pier Luigi Dovesi",
+        "Jussi Karlgren",
+        "Daniel Cremers",
+        "Federico Tombari",
+        "Matteo Poggi"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/rezaqorbani/SemLA",
+      "published": "2025-03-27T17:59:58.000Z"
+    },
+    {
+      "id": "2503.20853",
+      "title": "Unified Multimodal Discrete Diffusion",
+      "authors": [
+        "Alexander Swerdlow",
+        "Mihir Prabhudesai",
+        "Siddharth Gandhi",
+        "Deepak Pathak",
+        "Katerina Fragkiadaki"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/alexanderswerdlow/unidisc",
+      "published": "2025-03-26T17:59:51.000Z"
+    },
+    {
+      "id": "2503.21088",
+      "title": "ZJUKLAB at SemEval-2025 Task 4: Unlearning via Model Merging",
+      "authors": [
+        "Haoming Xu",
+        "Shuxun Wang",
+        "Yanqiu Zhao",
+        "Yi Zhong",
+        "Ziyan Jiang",
+        "Ningyuan Zhao",
+        "Shumin Deng",
+        "Huajun Chen",
+        "Ningyu Zhang"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/zjunlp/unlearn",
+      "published": "2025-03-27T02:03:25.000Z"
+    },
+    {
+      "id": "2503.20578",
+      "title": "LLPut: Investigating Large Language Models for Bug Report-Based Input Generation",
+      "authors": [
+        "Alif Al Hasan",
+        "Subarna Saha",
+        "Mia Mohammad Imran",
+        "Tarannum Shaila Zaman"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2025-03-26T14:25:01.000Z"
+    },
+    {
+      "id": "2503.19904",
+      "title": "Tracktention: Leveraging Point Tracking to Attend Videos Faster and Better",
+      "authors": [
+        "Zihang Lai",
+        "Andrea Vedaldi"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/zlai0/TrackTention",
+      "published": "2025-03-25T17:58:48.000Z"
+    },
+    {
+      "id": "2503.21541",
+      "title": "LOCATEdit: Graph Laplacian Optimized Cross Attention for Localized Text-Guided Image Editing",
+      "authors": [
+        "Achint Soni",
+        "Meet Soni",
+        "Sirisha Rambhatla"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/locatedit/locatedit",
+      "published": "2025-03-27T14:32:17.000Z"
+    }
+  ]
+}

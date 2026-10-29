@@ -1,0 +1,335 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-11-19",
+  "fetched_at": "2026-10-29T15:33:50.360Z",
+  "candidates": [
+    {
+      "id": "2511.11113",
+      "title": "VIDEOP2R: Video Understanding from Perception to Reasoning",
+      "authors": [
+        "Yifan Jiang",
+        "Yueying Wang",
+        "Rui Zhao",
+        "Toufiq Parag",
+        "Zhimin Chen",
+        "Zhenyu Liao",
+        "Jayakrishnan Unnikrishnan"
+      ],
+      "upvotes": 113,
+      "github": null,
+      "published": "2025-11-14T09:42:42.000Z"
+    },
+    {
+      "id": "2511.08577",
+      "title": "Think-at-Hard: Selective Latent Iterations to Improve Reasoning Language Models",
+      "authors": [
+        "Tianyu Fu",
+        "Yichen You",
+        "Zekai Chen",
+        "Guohao Dai",
+        "Huazhong Yang",
+        "Yu Wang"
+      ],
+      "upvotes": 110,
+      "github": null,
+      "published": "2025-11-11T18:57:02.000Z"
+    },
+    {
+      "id": "2511.14295",
+      "title": "AraLingBench A Human-Annotated Benchmark for Evaluating Arabic Linguistic Capabilities of Large Language Models",
+      "authors": [
+        "Mohammad Zbib",
+        "Hasan Abed Al Kader Hammoud",
+        "Sina Mukalled",
+        "Nadine Rizk",
+        "Fatima Karnib",
+        "Issam Lakkis",
+        "Ammar Mohanna",
+        "Bernard Ghanem"
+      ],
+      "upvotes": 74,
+      "github": "https://github.com/hammoudhasan/AraLingBench",
+      "published": "2025-11-18T09:47:01.000Z"
+    },
+    {
+      "id": "2511.10555",
+      "title": "A Style is Worth One Code: Unlocking Code-to-Style Image Generation with Discrete Style Space",
+      "authors": [
+        "Huijie Liu",
+        "Shuhao Cui",
+        "Haoxiang Cao",
+        "Shuai Ma",
+        "Kai Wu",
+        "Guoliang Kang"
+      ],
+      "upvotes": 63,
+      "github": "https://github.com/Kwai-Kolors/CoTyle",
+      "published": "2025-11-13T17:56:10.000Z"
+    },
+    {
+      "id": "2511.13189",
+      "title": "Large Language Models Meet Extreme Multi-label Classification: Scaling and Multi-modal Framework",
+      "authors": [
+        "Diego Ortego",
+        "Marlon Rodríguez",
+        "Mario Almagro",
+        "Kunal Dahiya",
+        "David Jiménez",
+        "Juan C. SanMiguel"
+      ],
+      "upvotes": 40,
+      "github": "https://github.com/DiegoOrtego/vixml",
+      "published": "2025-11-17T09:52:53.000Z"
+    },
+    {
+      "id": "2511.13853",
+      "title": "Can World Simulators Reason? Gen-ViRe: A Generative Visual Reasoning Benchmark",
+      "authors": [
+        "Xinxin Liu",
+        "Zhaopan Xu",
+        "Kai Wang",
+        "Yong Jae Lee",
+        "Yuzhang Shang"
+      ],
+      "upvotes": 37,
+      "github": "https://github.com/L-CodingSpace/GVR",
+      "published": "2025-11-17T19:11:39.000Z"
+    },
+    {
+      "id": "2511.12884",
+      "title": "Agent READMEs: An Empirical Study of Context Files for Agentic Coding",
+      "authors": [
+        "Worawalan Chatlatanagulchai",
+        "Hao Li",
+        "Yutaro Kashiwa",
+        "Brittany Reid",
+        "Kundjanasith Thonglek",
+        "Pattara Leelaprute",
+        "Arnon Rungsawang",
+        "Bundit Manaskasemsak",
+        "Bram Adams",
+        "Ahmed E. Hassan",
+        "Hajimu Iida"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/openai/agents.md",
+      "published": "2025-11-17T02:18:55.000Z"
+    },
+    {
+      "id": "2511.13026",
+      "title": "REVISOR: Beyond Textual Reflection, Towards Multimodal Introspective Reasoning in Long-Form Video Understanding",
+      "authors": [
+        "Jiaze Li",
+        "Hao Yin",
+        "Wenhui Tan",
+        "Jingyang Chen",
+        "Boshen Xu",
+        "Yuxun Qu",
+        "Yijing Chen",
+        "Jianzhong Ju",
+        "Zhenbo Luo",
+        "Jian Luan"
+      ],
+      "upvotes": 26,
+      "github": null,
+      "published": "2025-11-17T06:25:12.000Z"
+    },
+    {
+      "id": "2511.14159",
+      "title": "MVI-Bench: A Comprehensive Benchmark for Evaluating Robustness to Misleading Visual Inputs in LVLMs",
+      "authors": [
+        "Huiyi Chen",
+        "Jiawei Peng",
+        "Dehai Min",
+        "Changchang Sun",
+        "Kaijie Chen",
+        "Yan Yan",
+        "Xu Yang",
+        "Lu Cheng"
+      ],
+      "upvotes": 26,
+      "github": "https://github.com/chenyil6/MVI-Bench",
+      "published": "2025-11-18T05:48:08.000Z"
+    },
+    {
+      "id": "2511.14460",
+      "title": "Agent-R1: Training Powerful LLM Agents with End-to-End Reinforcement Learning",
+      "authors": [
+        "Mingyue Cheng",
+        "Jie Ouyang",
+        "Shuo Yu",
+        "Ruiran Yan",
+        "Yucong Luo",
+        "Zirui Liu",
+        "Daoyu Wang",
+        "Qi Liu",
+        "Enhong Chen"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/0russwest0/Agent-R1",
+      "published": "2025-11-18T13:03:15.000Z"
+    },
+    {
+      "id": "2511.14210",
+      "title": "Orion: A Unified Visual Agent for Multimodal Perception, Advanced Visual Reasoning and Execution",
+      "authors": [
+        "N Dinesh Reddy",
+        "Sudeep Pillai"
+      ],
+      "upvotes": 21,
+      "github": null,
+      "published": "2025-11-18T07:41:02.000Z"
+    },
+    {
+      "id": "2511.14582",
+      "title": "OmniZip: Audio-Guided Dynamic Token Compression for Fast Omnimodal Large Language Models",
+      "authors": [
+        "Keda Tao",
+        "Kele Shao",
+        "Bohan Yu",
+        "Weiqiang Wang",
+        "Jian liu",
+        "Huan Wang"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/KD-TAO/OmniZip",
+      "published": "2025-11-18T15:22:32.000Z"
+    },
+    {
+      "id": "2511.14366",
+      "title": "ATLAS: A High-Difficulty, Multidisciplinary Benchmark for Frontier Scientific Reasoning",
+      "authors": [
+        "Hongwei Liu",
+        "Junnan Liu",
+        "Shudong Liu",
+        "Haodong Duan",
+        "Yuqiang Li",
+        "Mao Su",
+        "Xiaohong Liu",
+        "Guangtao Zhai",
+        "Xinyu Fang",
+        "Qianhong Ma",
+        "Taolin Zhang",
+        "Zihan Ma",
+        "Yufeng Zhao",
+        "Peiheng Zhou",
+        "Linchen Xiao",
+        "Wenlong Zhang",
+        "Shijie Zhou",
+        "Xingjian Ma",
+        "Siqi Sun",
+        "Jiaye Ge",
+        "Meng Li",
+        "Yuhong Liu",
+        "Jianxin Dong",
+        "Jiaying Li",
+        "Hui Wu",
+        "Hanwen Liang",
+        "Jintai Lin",
+        "Yanting Wang",
+        "Jie Dong",
+        "Tong Zhu",
+        "Tianfan Fu",
+        "Conghui He",
+        "Qi Zhang",
+        "Songyang Zhang",
+        "Lei Bai",
+        "Kai Chen"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2025-11-18T11:13:06.000Z"
+    },
+    {
+      "id": "2511.11270",
+      "title": "Φeat: Physically-Grounded Feature Representation",
+      "authors": [
+        "Giuseppe Vecchio",
+        "Adrien Kaiser",
+        "Rouffet Romain",
+        "Rosalie Martin",
+        "Elena Garces",
+        "Tamy Boubekeur"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2025-11-14T13:05:10.000Z"
+    },
+    {
+      "id": "2511.11473",
+      "title": "Proactive Hearing Assistants that Isolate Egocentric Conversations",
+      "authors": [
+        "Guilin Hu",
+        "Malek Itani",
+        "Tuochao Chen",
+        "Shyamnath Gollakota"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/guilinhu/proactive_hearing_assistant",
+      "published": "2025-11-14T16:44:48.000Z"
+    },
+    {
+      "id": "2511.14385",
+      "title": "Mitigating Label Length Bias in Large Language Models",
+      "authors": [
+        "Mario Sanz-Guerrero",
+        "Katharina von der Wense"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2025-11-18T11:45:24.000Z"
+    },
+    {
+      "id": "2511.14086",
+      "title": "Error-Driven Scene Editing for 3D Grounding in Large Language Models",
+      "authors": [
+        "Yue Zhang",
+        "Zun Wang",
+        "Han Lin",
+        "Jialu Li",
+        "Jianing Yang",
+        "Yonatan Bitton",
+        "Idan Szpektor",
+        "Mohit Bansal"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/zhangyuejoslin/Deer-3D",
+      "published": "2025-11-18T03:13:29.000Z"
+    },
+    {
+      "id": "2511.13954",
+      "title": "A Brain Wave Encodes a Thousand Tokens: Modeling Inter-Cortical Neural Interactions for Effective EEG-based Emotion Recognition",
+      "authors": [
+        "Nilay Kumar",
+        "Priyansh Bhandari",
+        "G. Maragatham"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/nnilayy/rbtransformer",
+      "published": "2025-11-17T22:27:12.000Z"
+    },
+    {
+      "id": "2511.07865",
+      "title": "LLM-Powered Fully Automated Chaos Engineering: Towards Enabling Anyone to Build Resilient Software Systems at Low Cost",
+      "authors": [
+        "Daisuke Kikuta",
+        "Hiroki Ikeuchi",
+        "Kengo Tajiri"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/ntt-dkiku/chaos-eater",
+      "published": "2025-11-11T06:03:24.000Z"
+    },
+    {
+      "id": "2511.11831",
+      "title": "TopoPerception: A Shortcut-Free Evaluation of Global Visual Perception in Large Vision-Language Models",
+      "authors": [
+        "Wenhao Zhou",
+        "Hao Zheng",
+        "Rong Zhao"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/Wenhao-Zhou/TopoPerception",
+      "published": "2025-11-14T19:45:56.000Z"
+    }
+  ]
+}

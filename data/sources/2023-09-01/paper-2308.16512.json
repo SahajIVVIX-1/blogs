@@ -1,0 +1,11 @@
+{
+  "id": "2308.16512",
+  "html": "https://arxiv.org/html/2308.16512",
+  "limitations": null,
+  "conclusion": "Generalizability to More Views In the main paper, our model is trained for 4 orthogonal views with the same elevation angle. Thus, a question arises: can the method generalize to scenarios involving more camera views that are not orthogonal to each other? To answer the question, we conduct a simple extension experiment and found that the proposed 3D self-attention network can indeed generate random multi-view images if trained on such data. In spite of worse quality compared to the orthogonal model, an interesting finding is that such a random-view model able to generate a much larger number of views during inference, as shown in Fig. ( 11 ). In our experiments, we found it able to generate 64 views and potentially more, even though it is trained on 4 views. Although this many views are unnecessary for the proposed multi-view SDS, we believe this finding could be beneficial for future re",
+  "figure": {
+    "path": "images/2023/paper-2308.16512.webp",
+    "src": "https://arxiv.org/html/2308.16512v4/figs/multiview_problem/horse.jpeg",
+    "caption": "Figure 1: Typical multi-view consistency problems of 2D-lifting methods for 3D generation. Left: “A photo of a horse walking” where the horse has two faces. Right: “a DSLR photo of a plate of fried chicken and waffles with maple syrup on them” where the chicken gradually becomes a waffle."
+  }
+}

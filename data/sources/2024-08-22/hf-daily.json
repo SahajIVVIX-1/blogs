@@ -1,0 +1,193 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-08-22",
+  "fetched_at": "2026-10-29T15:28:49.438Z",
+  "candidates": [
+    {
+      "id": "2408.11796",
+      "title": "LLM Pruning and Distillation in Practice: The Minitron Approach",
+      "authors": [
+        "Sharath Turuvekere Sreenivas",
+        "Saurav Muralidharan",
+        "Raviraj Joshi",
+        "Marcin Chochowski",
+        "Mostofa Patwary",
+        "Mohammad Shoeybi",
+        "Bryan Catanzaro",
+        "Jan Kautz",
+        "Pavlo Molchanov"
+      ],
+      "upvotes": 62,
+      "github": null,
+      "published": "2024-08-21T17:38:48.000Z"
+    },
+    {
+      "id": "2408.11318",
+      "title": "TWLV-I: Analysis and Insights from Holistic Evaluation on Video Foundation Models",
+      "authors": [
+        "Hyeongmin Lee",
+        "Jin-Young Kim",
+        "Kyungjune Baek",
+        "Jihwan Kim",
+        "Hyojun Go",
+        "Seongsu Ha",
+        "Seokjin Han",
+        "Jiho Jang",
+        "Raehyuk Jung",
+        "Daewoo Kim",
+        "GeunOh Kim",
+        "JongMok Kim",
+        "Jongseok Kim",
+        "Junwan Kim",
+        "Soonwoo Kwon",
+        "Jangwon Lee",
+        "Seungjoon Park",
+        "Minjoon Seo",
+        "Jay Suh",
+        "Jaehyuk Yi",
+        "Aiden Lee"
+      ],
+      "upvotes": 57,
+      "github": "https://github.com/twelvelabs-io/video-embeddings-evaluation-framework",
+      "published": "2024-08-21T03:56:27.000Z"
+    },
+    {
+      "id": "2408.11745",
+      "title": "FocusLLM: Scaling LLM's Context by Parallel Decoding",
+      "authors": [
+        "Zhenyu Li",
+        "Yike Zhang",
+        "Tengyu Pan",
+        "Yutao Sun",
+        "Zhichao Duan",
+        "Junjie Fang",
+        "Rong Han",
+        "Zixuan Wang",
+        "Jianyong Wang"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/leezythu/focusllm",
+      "published": "2024-08-21T16:11:59.000Z"
+    },
+    {
+      "id": "2408.11475",
+      "title": "TrackGo: A Flexible and Efficient Method for Controllable Video Generation",
+      "authors": [
+        "Haitao Zhou",
+        "Chuang Wang",
+        "Rui Nie",
+        "Jinxiao Lin",
+        "Dongdong Yu",
+        "Qian Yu",
+        "Changhu Wang"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2024-08-21T09:42:04.000Z"
+    },
+    {
+      "id": "2408.11817",
+      "title": "GRAB: A Challenging GRaph Analysis Benchmark for Large Multimodal Models",
+      "authors": [
+        "Jonathan Roberts",
+        "Kai Han",
+        "Samuel Albanie"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2024-08-21T17:59:32.000Z"
+    },
+    {
+      "id": "2408.08793",
+      "title": "Backward-Compatible Aligned Representations via an Orthogonal Transformation Layer",
+      "authors": [
+        "Simone Ricci",
+        "Niccolò Biondi",
+        "Federico Pernici",
+        "Alberto Del Bimbo"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/z3n0e/oca",
+      "published": "2024-08-16T15:05:28.000Z"
+    },
+    {
+      "id": "2408.11706",
+      "title": "FRAP: Faithful and Realistic Text-to-Image Generation with Adaptive Prompt Weighting",
+      "authors": [
+        "Liyao Jiang",
+        "Negar Hassanpour",
+        "Mohammad Salameh",
+        "Mohan Sai Singamsetti",
+        "Fengyu Sun",
+        "Wei Lu",
+        "Di Niu"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/LiyaoJiang1998/FRAP",
+      "published": "2024-08-21T15:30:35.000Z"
+    },
+    {
+      "id": "2408.11237",
+      "title": "Out-of-Distribution Detection with Attention Head Masking for Multimodal Document Classification",
+      "authors": [
+        "Christos Constantinou",
+        "Georgios Ioannides",
+        "Aman Chadha",
+        "Aaron Elkins",
+        "Edwin Simpson"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/constantinouchristos/ood-ahm",
+      "published": "2024-08-20T23:30:00.000Z"
+    },
+    {
+      "id": "2408.11721",
+      "title": "Iterative Object Count Optimization for Text-to-image Diffusion Models",
+      "authors": [
+        "Oz Zafar",
+        "Lior Wolf",
+        "Idan Schwartz"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2024-08-21T15:51:46.000Z"
+    },
+    {
+      "id": "2408.11812",
+      "title": "Scaling Cross-Embodied Learning: One Policy for Manipulation, Navigation, Locomotion and Aviation",
+      "authors": [
+        "Ria Doshi",
+        "Homer Walke",
+        "Oier Mees",
+        "Sudeep Dasari",
+        "Sergey Levine"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/rail-berkeley/crossformer",
+      "published": "2024-08-21T17:57:51.000Z"
+    },
+    {
+      "id": "2408.11247",
+      "title": "Unboxing Occupational Bias: Grounded Debiasing LLMs with U.S. Labor Data",
+      "authors": [
+        "Atmika Gorti",
+        "Manas Gaur",
+        "Aman Chadha"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2024-08-20T23:54:26.000Z"
+    },
+    {
+      "id": "2408.11457",
+      "title": "Expanding FLORES+ Benchmark for more Low-Resource Settings: Portuguese-Emakhuwa Machine Translation Evaluation",
+      "authors": [
+        "Felermino D. M. Antonio Ali",
+        "Henrique Lopes Cardoso",
+        "Rui Sousa-Silva"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2024-08-21T09:23:20.000Z"
+    }
+  ]
+}

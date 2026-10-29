@@ -1,0 +1,7 @@
+{
+  "id": "2410.05258",
+  "html": "https://arxiv.org/html/2410.05258",
+  "limitations": null,
+  "conclusion": "In this work, we introduce Differential Transformer (a.k.a. Diff Transformer), which amplifies attention to the relevant context while canceling noise. Experimental results on language modeling show that Diff Transformer outperforms Transformer in terms of scaling properties, long-context modeling, key information retrieval, hallucination mitigation, in-context learning, and reduction of activation outliers. The results emphasize the importance of reducing attention noise. Moreover, the differential attention mechanism can be easily implemented with FlashAttention ( Dao et al., 2022 ) . The findings position Diff Transformer as a distinctive and promising foundation architecture for large language models. In the future, we can develop efficient low-bit attention kernels due to the reduced magnitude of activation outliers. As the attention pattern becomes much sparser, we would also like ",
+  "figure": null
+}

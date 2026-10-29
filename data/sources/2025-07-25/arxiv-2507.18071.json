@@ -1,0 +1,33 @@
+{
+  "id": "2507.18071",
+  "title": "Group Sequence Policy Optimization",
+  "authors": [
+    "Chujie Zheng",
+    "Shixuan Liu",
+    "Mingze Li",
+    "Xiong-Hui Chen",
+    "Bowen Yu",
+    "Chang Gao",
+    "Kai Dang",
+    "Yuqiong Liu",
+    "Rui Men",
+    "An Yang",
+    "Jingren Zhou",
+    "Junyang Lin"
+  ],
+  "published": "2025-07-24T03:50:32Z",
+  "abstract": "This paper introduces Group Sequence Policy Optimization (GSPO), our stable, efficient, and performant reinforcement learning algorithm for training large language models. Unlike previous algorithms that adopt token-level importance ratios, GSPO defines the importance ratio based on sequence likelihood and performs sequence-level clipping, rewarding, and optimization. We demonstrate that GSPO achieves superior training efficiency and performance compared to the GRPO algorithm, notably stabilizes Mixture-of-Experts (MoE) RL training, and has the potential for simplifying the design of RL infrastructure. These merits of GSPO have contributed to the remarkable improvements in the latest Qwen3 models.",
+  "categories": [
+    "cs.LG",
+    "cs.AI",
+    "cs.CL"
+  ],
+  "abs": "https://arxiv.org/abs/2507.18071",
+  "pdf": "https://arxiv.org/pdf/2507.18071v2",
+  "source_url": "https://export.arxiv.org/api/query?id_list=2507.18071",
+  "fetched_at": "2026-10-29T15:47:55.274Z",
+  "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  "reusable_figures": false,
+  "github": null,
+  "upvotes": 323
+}

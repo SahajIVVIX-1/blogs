@@ -1,0 +1,7 @@
+{
+  "id": "2411.04905",
+  "html": "https://arxiv.org/html/2411.04905",
+  "limitations": null,
+  "conclusion": "In this paper, we present OpenCoder, an open LLM specialized in code intelligence that achieves top-tier performance. To advance research transparency and reproducibility, we release our complete training materials, including: the complete data processing pipeline, the reproducible pretraining dataset, the open code SFT dataset, rigorous experimental ablation results, detailed training protocols and intermediate checkpoints. The performance of OpenCoder is on par with leading proprietary models, and it surpasses most previous open-source models at the both 1B+ and 6B+ parameter scale. Furthermore, we conducted a series of ablation analyses on each phase of the code LLM training process, providing valuable insights and recommendations for future code LLM training. We hope the release of OpenCoder can democratize access to all aspects of a top-tier code LLM, serving as both a powerful mode",
+  "figure": null
+}

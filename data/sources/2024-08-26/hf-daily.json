@@ -1,0 +1,179 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-08-26",
+  "fetched_at": "2026-10-29T15:28:51.875Z",
+  "candidates": [
+    {
+      "id": "2408.12637",
+      "title": "Building and better understanding vision-language models: insights and future directions",
+      "authors": [
+        "Hugo Laurençon",
+        "Andrés Marafioti",
+        "Victor Sanh",
+        "Léo Tronchon"
+      ],
+      "upvotes": 134,
+      "github": null,
+      "published": "2024-08-22T17:47:24.000Z"
+    },
+    {
+      "id": "2408.13252",
+      "title": "LayerPano3D: Layered 3D Panorama for Hyper-Immersive Scene Generation",
+      "authors": [
+        "Shuai Yang",
+        "Jing Tan",
+        "Mengchen Zhang",
+        "Tong Wu",
+        "Yixuan Li",
+        "Gordon Wetzstein",
+        "Ziwei Liu",
+        "Dahua Lin"
+      ],
+      "upvotes": 26,
+      "github": null,
+      "published": "2024-08-23T17:50:23.000Z"
+    },
+    {
+      "id": "2408.13257",
+      "title": "MME-RealWorld: Could Your Multimodal LLM Challenge High-Resolution Real-World Scenarios that are Difficult for Humans?",
+      "authors": [
+        "Yi-Fan Zhang",
+        "Huanyu Zhang",
+        "Haochen Tian",
+        "Chaoyou Fu",
+        "Shuangqing Zhang",
+        "Junfei Wu",
+        "Feng Li",
+        "Kun Wang",
+        "Qingsong Wen",
+        "Zhang Zhang",
+        "Liang Wang",
+        "Rong Jin",
+        "Tieniu Tan"
+      ],
+      "upvotes": 26,
+      "github": null,
+      "published": "2024-08-23T17:59:51.000Z"
+    },
+    {
+      "id": "2408.13233",
+      "title": "Multi-Layer Transformers Gradient Can be Approximated in Almost Linear Time",
+      "authors": [
+        "Yingyu Liang",
+        "Zhizhou Sha",
+        "Zhenmei Shi",
+        "Zhao Song",
+        "Yufa Zhou"
+      ],
+      "upvotes": 22,
+      "github": null,
+      "published": "2024-08-23T17:16:43.000Z"
+    },
+    {
+      "id": "2408.12857",
+      "title": "Memory-Efficient LLM Training with Online Subspace Descent",
+      "authors": [
+        "Kaizhao Liang",
+        "Bo Liu",
+        "Lizhang Chen",
+        "Qiang Liu"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/kyleliang919/online-subspace-descent",
+      "published": "2024-08-23T05:54:53.000Z"
+    },
+    {
+      "id": "2408.12885",
+      "title": "T3M: Text Guided 3D Human Motion Synthesis from Speech",
+      "authors": [
+        "Wenshuo Peng",
+        "Kaipeng Zhang",
+        "Sai Qian Zhang"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/gloria2tt/t3m",
+      "published": "2024-08-23T07:37:26.000Z"
+    },
+    {
+      "id": "2408.13239",
+      "title": "CustomCrafter: Customized Video Generation with Preserving Motion and Concept Composition Abilities",
+      "authors": [
+        "Tao Wu",
+        "Yong Zhang",
+        "Xintao Wang",
+        "Xianpan Zhou",
+        "Guangcong Zheng",
+        "Zhongang Qi",
+        "Ying Shan",
+        "Xi Li"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/wutao-cs/customcrafter",
+      "published": "2024-08-23T17:26:06.000Z"
+    },
+    {
+      "id": "2408.10945",
+      "title": "HiRED: Attention-Guided Token Dropping for Efficient Inference of High-Resolution Vision-Language Models in Resource-Constrained Environments",
+      "authors": [
+        "Kazi Hasan Ibn Arif",
+        "JinYi Yoon",
+        "Dimitrios S. Nikolopoulos",
+        "Hans Vandierendonck",
+        "Deepu John",
+        "Bo Ji"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/hasanar1f/hired",
+      "published": "2024-08-20T15:34:27.000Z"
+    },
+    {
+      "id": "2408.13010",
+      "title": "A Web-Based Solution for Federated Learning with LLM-Based Automation",
+      "authors": [
+        "Chamith Mawela",
+        "Chaouki Ben Issaid",
+        "Mehdi Bennis"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2024-08-23T11:57:02.000Z"
+    },
+    {
+      "id": "2408.12369",
+      "title": "RoundTable: Leveraging Dynamic Schema and Contextual Autocomplete for Enhanced Query Precision in Tabular Question Answering",
+      "authors": [
+        "Pratyush Kumar",
+        "Kuber Vijaykumar Bellad",
+        "Bharat Vadlamudi",
+        "Aman Chadha"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/pkscanvas/roundtable",
+      "published": "2024-08-22T13:13:06.000Z"
+    },
+    {
+      "id": "2408.12894",
+      "title": "FLoD: Integrating Flexible Level of Detail into 3D Gaussian Splatting for Customizable Rendering",
+      "authors": [
+        "Yunji Seo",
+        "Young Sun Choi",
+        "Hyun Seung Son",
+        "Youngjung Uh"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2024-08-23T07:56:25.000Z"
+    },
+    {
+      "id": "2408.12418",
+      "title": "CODE: Confident Ordinary Differential Editing",
+      "authors": [
+        "Bastien van Delft",
+        "Tommaso Martorella",
+        "Alexandre Alahi"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/vita-epfl/code",
+      "published": "2024-08-22T14:12:20.000Z"
+    }
+  ]
+}
