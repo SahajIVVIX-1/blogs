@@ -10,6 +10,8 @@ const UA = 'sahaj-blogs-fetcher/1.0 (+https://github.com/SahajIVVIX-1/blogs)';
 
 // minimum gap between requests per host, in ms (arXiv asks for 1 request per 3 seconds)
 const GAP = { 'export.arxiv.org': 3100, 'arxiv.org': 3100, default: 600 };
+// hosts that stall Node's fetch: give up after one attempt so callers can fall back to curl
+const FLAKY = new Set(['matplotlib.org']);
 const last = new Map();
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
@@ -31,11 +33,12 @@ export async function cachedFetch(url, { binary = false, maxAgeDays = Infinity }
     }
   }
   await mkdir(CACHE, { recursive: true });
-  for (let attempt = 0; attempt < 4; attempt++) {
+  const attempts = FLAKY.has(new URL(url).host) ? 1 : 4;
+  for (let attempt = 0; attempt < attempts; attempt++) {
     await throttle(new URL(url).host);
     let res;
     try {
-      res = await fetch(url, { headers: { 'user-agent': UA }, signal: AbortSignal.timeout(60000) });
+      res = await fetch(url, { headers: { 'user-agent': UA }, signal: AbortSignal.timeout(FLAKY.has(new URL(url).host) ? 15000 : 60000) });
     } catch (e) {
       // network hiccup (ECONNRESET, timeout): back off and retry
       await sleep(5000 * (attempt + 1));
