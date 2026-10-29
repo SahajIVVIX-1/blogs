@@ -1,0 +1,11 @@
+{
+  "id": "2509.17765",
+  "html": "https://arxiv.org/html/2509.17765",
+  "limitations": null,
+  "conclusion": "In this paper, we introduce Qwen3-Omni-30B-A3B, Qwen3-Omni-30B-A3B-Thinking, Qwen3-Omni-Flash-Instruct, and Qwen3-Omni-Flash-Thinking models. Qwen3-Omni-30B-A3B matches or surpasses the latest same-size unimodal Qwen models on text and vision benchmarks. Notably, on audio processing and dialogue benchmarks, it attains state-of-the-art performance among open-source systems on 32 benchmarks and is comparable to, or better than, the strong proprietary counterpart Gemini-2.5-Pro. The Qwen3-Omni-30B-A3B Thinking variant achieves further gains on complex tasks spanning text, vision, and audio-visual reasoning. Beyond accuracy, the model supports 119 text languages, 19 languages for speech recognition and 10 languages for speech synthesis, and enables audio understanding and interactive sessions up to 40 minutes. Thanks to its streaming architecture and multi-codebook design, Qwen3-Omni at the ",
+  "figure": {
+    "path": "images/2025/paper-2509.17765.webp",
+    "src": "https://arxiv.org/html/2509.17765v1/q3o.png",
+    "caption": "Figure 1: Qwen3-Omni is a unified end-to-end model capable of processing multiple modalities, such as text, audio, image and video, and generating real-time text or speech response. Based on these features, Qwen3-Omni supports a wide range of tasks, including but not limited to voice dialogue, video dialogue, and video reasoning."
+  }
+}

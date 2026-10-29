@@ -1,0 +1,385 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-01-15",
+  "fetched_at": "2026-10-29T15:30:18.255Z",
+  "candidates": [
+    {
+      "id": "2501.08313",
+      "title": "MiniMax-01: Scaling Foundation Models with Lightning Attention",
+      "authors": [
+        "MiniMax",
+        "Aonian Li",
+        "Bangwei Gong",
+        "Bo Yang",
+        "Boji Shan",
+        "Chang Liu",
+        "Cheng Zhu",
+        "Chunhao Zhang",
+        "Congchao Guo",
+        "Da Chen",
+        "Dong Li",
+        "Enwei Jiao",
+        "Gengxin Li",
+        "Guojun Zhang",
+        "Haohai Sun",
+        "Houze Dong",
+        "Jiadai Zhu",
+        "Jiaqi Zhuang",
+        "Jiayuan Song",
+        "Jin Zhu",
+        "Jingtao Han",
+        "Jingyang Li",
+        "Junbin Xie",
+        "Junhao Xu",
+        "Junjie Yan",
+        "Kaishun Zhang",
+        "Kecheng Xiao",
+        "Kexi Kang",
+        "Le Han",
+        "Leyang Wang",
+        "Lianfei Yu",
+        "Liheng Feng",
+        "Lin Zheng",
+        "Linbo Chai",
+        "Long Xing",
+        "Meizhi Ju",
+        "Mingyuan Chi",
+        "Mozhi Zhang",
+        "Peikai Huang",
+        "Pengcheng Niu",
+        "Pengfei Li",
+        "Pengyu Zhao",
+        "Qi Yang",
+        "Qidi Xu",
+        "Qiexiang Wang",
+        "Qin Wang",
+        "Qiuhui Li",
+        "Ruitao Leng",
+        "Shengmin Shi",
+        "Shuqi Yu",
+        "Sichen Li",
+        "Songquan Zhu",
+        "Tao Huang",
+        "Tianrun Liang",
+        "Weigao Sun",
+        "Weixuan Sun",
+        "Weiyu Cheng",
+        "Wenkai Li",
+        "Xiangjun Song",
+        "Xiao Su",
+        "Xiaodong Han",
+        "Xinjie Zhang",
+        "Xinzhu Hou",
+        "Xu Min",
+        "Xun Zou",
+        "Xuyang Shen",
+        "Yan Gong",
+        "Yingjie Zhu",
+        "Yipeng Zhou",
+        "Yiran Zhong",
+        "Yongyi Hu",
+        "Yuanxiang Fan",
+        "Yue Yu",
+        "Yufeng Yang",
+        "Yuhao Li",
+        "Yunan Huang",
+        "Yunji Li",
+        "Yunpeng Huang",
+        "Yunzhi Xu",
+        "Yuxin Mao",
+        "Zehan Li",
+        "Zekang Li",
+        "Zewei Tao",
+        "Zewen Ying",
+        "Zhaoyang Cong",
+        "Zhen Qin",
+        "Zhenhua Fan",
+        "Zhihang Yu",
+        "Zhuo Jiang",
+        "Zijia Wu"
+      ],
+      "upvotes": 304,
+      "github": "https://github.com/MiniMax-AI/MiniMax-01",
+      "published": "2025-01-14T18:50:05.000Z"
+    },
+    {
+      "id": "2501.08332",
+      "title": "MangaNinja: Line Art Colorization with Precise Reference Following",
+      "authors": [
+        "Zhiheng Liu",
+        "Ka Leong Cheng",
+        "Xi Chen",
+        "Jie Xiao",
+        "Hao Ouyang",
+        "Kai Zhu",
+        "Yu Liu",
+        "Yujun Shen",
+        "Qifeng Chen",
+        "Ping Luo"
+      ],
+      "upvotes": 62,
+      "github": "https://github.com/ali-vilab/MangaNinjia",
+      "published": "2025-01-14T18:59:55.000Z"
+    },
+    {
+      "id": "2501.05131",
+      "title": "3DIS-FLUX: simple and efficient multi-instance generation with DiT rendering",
+      "authors": [
+        "Dewei Zhou",
+        "Ji Xie",
+        "Zongxin Yang",
+        "Yi Yang"
+      ],
+      "upvotes": 36,
+      "github": null,
+      "published": "2025-01-09T10:34:00.000Z"
+    },
+    {
+      "id": "2501.08316",
+      "title": "Diffusion Adversarial Post-Training for One-Step Video Generation",
+      "authors": [
+        "Shanchuan Lin",
+        "Xin Xia",
+        "Yuxi Ren",
+        "Ceyuan Yang",
+        "Xuefeng Xiao",
+        "Lu Jiang"
+      ],
+      "upvotes": 36,
+      "github": null,
+      "published": "2025-01-14T18:51:48.000Z"
+    },
+    {
+      "id": "2501.08326",
+      "title": "Omni-RGPT: Unifying Image and Video Region-level Understanding via Token Marks",
+      "authors": [
+        "Miran Heo",
+        "Min-Hung Chen",
+        "De-An Huang",
+        "Sifei Liu",
+        "Subhashree Radhakrishnan",
+        "Seon Joo Kim",
+        "Yu-Chiang Frank Wang",
+        "Ryo Hachiuma"
+      ],
+      "upvotes": 34,
+      "github": null,
+      "published": "2025-01-14T18:58:04.000Z"
+    },
+    {
+      "id": "2501.06751",
+      "title": "Padding Tone: A Mechanistic Analysis of Padding Tokens in T2I Models",
+      "authors": [
+        "Michael Toker",
+        "Ido Galil",
+        "Hadas Orgad",
+        "Rinon Gal",
+        "Yoad Tewel",
+        "Gal Chechik",
+        "Yonatan Belinkov"
+      ],
+      "upvotes": 31,
+      "github": null,
+      "published": "2025-01-12T08:36:38.000Z"
+    },
+    {
+      "id": "2501.08187",
+      "title": "A Multi-Modal AI Copilot for Single-Cell Analysis with Instruction Following",
+      "authors": [
+        "Yin Fang",
+        "Xinle Deng",
+        "Kangwei Liu",
+        "Ningyu Zhang",
+        "Jingyang Qian",
+        "Penghui Yang",
+        "Xiaohui Fan",
+        "Huajun Chen"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/zjunlp/instructcell",
+      "published": "2025-01-14T15:12:19.000Z"
+    },
+    {
+      "id": "2501.08225",
+      "title": "FramePainter: Endowing Interactive Image Editing with Video Diffusion Priors",
+      "authors": [
+        "Yabo Zhang",
+        "Xinpeng Zhou",
+        "Yihan Zeng",
+        "Hang Xu",
+        "Hui Li",
+        "Wangmeng Zuo"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/ybybzhang/framepainter",
+      "published": "2025-01-14T16:09:16.000Z"
+    },
+    {
+      "id": "2501.08328",
+      "title": "PokerBench: Training Large Language Models to become Professional Poker Players",
+      "authors": [
+        "Richard Zhuang",
+        "Akshat Gupta",
+        "Richard Yang",
+        "Aniket Rahane",
+        "Zhengyu Li",
+        "Gopala Anumanchipalli"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/pokerllm/pokerbench",
+      "published": "2025-01-14T18:59:03.000Z"
+    },
+    {
+      "id": "2501.07730",
+      "title": "Democratizing Text-to-Image Masked Generative Models with Compact Text-Aware One-Dimensional Tokens",
+      "authors": [
+        "Dongwon Kim",
+        "Ju He",
+        "Qihang Yu",
+        "Chenglin Yang",
+        "Xiaohui Shen",
+        "Suha Kwak",
+        "Liang-Chieh Chen"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2025-01-13T22:37:17.000Z"
+    },
+    {
+      "id": "2501.08292",
+      "title": "HALoGEN: Fantastic LLM Hallucinations and Where to Find Them",
+      "authors": [
+        "Abhilasha Ravichander",
+        "Shrusti Ghela",
+        "David Wadden",
+        "Yejin Choi"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/AbhilashaRavichander/HALoGEN",
+      "published": "2025-01-14T18:13:08.000Z"
+    },
+    {
+      "id": "2501.07888",
+      "title": "Tarsier2: Advancing Large Vision-Language Models from Detailed Video Description to Comprehensive Video Understanding",
+      "authors": [
+        "Liping Yuan",
+        "Jiawei Wang",
+        "Haomiao Sun",
+        "Yuchen Zhang",
+        "Yuan Lin"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2025-01-14T06:54:39.000Z"
+    },
+    {
+      "id": "2501.08319",
+      "title": "Enhancing Automated Interpretability with Output-Centric Feature Descriptions",
+      "authors": [
+        "Yoav Gur-Arieh",
+        "Roy Mayan",
+        "Chen Agassy",
+        "Atticus Geiger",
+        "Mor Geva"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/yoavgur/feature-descriptions",
+      "published": "2025-05-29T00:00:00.000Z"
+    },
+    {
+      "id": "2501.08197",
+      "title": "OpenCSG Chinese Corpus: A Series of High-quality Chinese Datasets for LLM Training",
+      "authors": [
+        "Yijiong Yu",
+        "Ziyun Dai",
+        "Zekun Wang",
+        "Wei Wang",
+        "Ran Chen",
+        "Ji Pei"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/yuyijiong/fineweb-edu-chinese",
+      "published": "2025-01-14T15:22:47.000Z"
+    },
+    {
+      "id": "2501.07556",
+      "title": "MatchAnything: Universal Cross-Modality Image Matching with Large-Scale Pre-Training",
+      "authors": [
+        "Xingyi He",
+        "Hao Yu",
+        "Sida Peng",
+        "Dongli Tan",
+        "Zehong Shen",
+        "Hujun Bao",
+        "Xiaowei Zhou"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/zju3dv/MatchAnything",
+      "published": "2025-01-13T18:37:36.000Z"
+    },
+    {
+      "id": "2501.08284",
+      "title": "AfriHate: A Multilingual Collection of Hate Speech and Abusive Language Datasets for African Languages",
+      "authors": [
+        "Shamsuddeen Hassan Muhammad",
+        "Idris Abdulmumin",
+        "Abinew Ali Ayele",
+        "David Ifeoluwa Adelani",
+        "Ibrahim Said Ahmad",
+        "Saminu Mohammad Aliyu",
+        "Nelson Odhiambo Onyango",
+        "Lilian D. A. Wanzare",
+        "Samuel Rutunda",
+        "Lukman Jibril Aliyu",
+        "Esubalew Alemneh",
+        "Oumaima Hourrane",
+        "Hagos Tesfahun Gebremichael",
+        "Elyas Abdi Ismail",
+        "Meriem Beloucif",
+        "Ebrahim Chekol Jibril",
+        "Andiswa Bukula",
+        "Rooweither Mabuya",
+        "Salomey Osei",
+        "Abigail Oppong",
+        "Tadesse Destaw Belay",
+        "Tadesse Kebede Guge",
+        "Tesfa Tegegne Asfaw",
+        "Chiamaka Ijeoma Chukwuneke",
+        "Paul Röttger",
+        "Seid Muhie Yimam",
+        "Nedjma Ousidhoum"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/afrihate/afrihate",
+      "published": "2025-01-14T18:00:07.000Z"
+    },
+    {
+      "id": "2501.08120",
+      "title": "In-situ graph reasoning and knowledge expansion using Graph-PReFLexOR",
+      "authors": [
+        "Markus J. Buehler"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2025-01-14T13:52:41.000Z"
+    },
+    {
+      "id": "2501.08167",
+      "title": "Potential and Perils of Large Language Models as Judges of Unstructured Textual Data",
+      "authors": [
+        "Rewina Bedemariam",
+        "Natalie Perez",
+        "Sreyoshi Bhaduri",
+        "Satya Kapoor",
+        "Alex Gil",
+        "Elizabeth Conjar",
+        "Ikkei Itoku",
+        "David Theil",
+        "Aman Chadha",
+        "Naumaan Nayyar"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2025-01-14T14:49:14.000Z"
+    }
+  ]
+}

@@ -1,0 +1,316 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-09-25",
+  "fetched_at": "2026-10-29T15:29:10.176Z",
+  "candidates": [
+    {
+      "id": "2409.16191",
+      "title": "HelloBench: Evaluating Long Text Generation Capabilities of Large Language Models",
+      "authors": [
+        "Haoran Que",
+        "Feiyu Duan",
+        "Liqun He",
+        "Yutao Mou",
+        "Wangchunshu Zhou",
+        "Jiaheng Liu",
+        "Wenge Rong",
+        "Zekun Moore Wang",
+        "Jian Yang",
+        "Ge Zhang",
+        "Junran Peng",
+        "Zhaoxiang Zhang",
+        "Songyang Zhang",
+        "Kai Chen"
+      ],
+      "upvotes": 41,
+      "github": "https://github.com/quehry/hellobench",
+      "published": "2024-09-24T15:38:11.000Z"
+    },
+    {
+      "id": "2409.16160",
+      "title": "MIMO: Controllable Character Video Synthesis with Spatial Decomposed Modeling",
+      "authors": [
+        "Yifang Men",
+        "Yuan Yao",
+        "Miaomiao Cui",
+        "Liefeng Bo"
+      ],
+      "upvotes": 33,
+      "github": null,
+      "published": "2024-09-24T15:00:07.000Z"
+    },
+    {
+      "id": "2409.15272",
+      "title": "OmniBench: Towards The Future of Universal Omni-Language Models",
+      "authors": [
+        "Yizhi Li",
+        "Ge Zhang",
+        "Yinghao Ma",
+        "Ruibin Yuan",
+        "Kang Zhu",
+        "Hangyu Guo",
+        "Yiming Liang",
+        "Jiaheng Liu",
+        "Jian Yang",
+        "Siwei Wu",
+        "Xingwei Qu",
+        "Jinjie Shi",
+        "Xinyue Zhang",
+        "Zhenzhu Yang",
+        "Xiangzhou Wang",
+        "Zhaoxiang Zhang",
+        "Zachary Liu",
+        "Emmanouil Benetos",
+        "Wenhao Huang",
+        "Chenghua Lin"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/multimodal-art-projection/OmniBench",
+      "published": "2024-09-23T17:59:05.000Z"
+    },
+    {
+      "id": "2409.16235",
+      "title": "EuroLLM: Multilingual Language Models for Europe",
+      "authors": [
+        "Pedro Henrique Martins",
+        "Patrick Fernandes",
+        "João Alves",
+        "Nuno M. Guerreiro",
+        "Ricardo Rei",
+        "Duarte M. Alves",
+        "José Pombal",
+        "Amin Farajian",
+        "Manuel Faysse",
+        "Mateusz Klimaszewski",
+        "Pierre Colombo",
+        "Barry Haddow",
+        "José G. C. de Souza",
+        "Alexandra Birch",
+        "André F. T. Martins"
+      ],
+      "upvotes": 29,
+      "github": null,
+      "published": "2024-09-24T16:51:36.000Z"
+    },
+    {
+      "id": "2409.15700",
+      "title": "Making Text Embedders Few-Shot Learners",
+      "authors": [
+        "Chaofan Li",
+        "MingHao Qin",
+        "Shitao Xiao",
+        "Jianlyu Chen",
+        "Kun Luo",
+        "Yingxia Shao",
+        "Defu Lian",
+        "Zheng Liu"
+      ],
+      "upvotes": 29,
+      "github": null,
+      "published": "2024-09-24T03:30:19.000Z"
+    },
+    {
+      "id": "2409.14128",
+      "title": "Present and Future Generalization of Synthetic Image Detectors",
+      "authors": [
+        "Pablo Bernabeu-Perez",
+        "Enrique Lopez-Cuena",
+        "Dario Garcia-Gasulla"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/HPAI-BSC/SuSy",
+      "published": "2024-09-21T12:46:17.000Z"
+    },
+    {
+      "id": "2409.16143",
+      "title": "Seeing Faces in Things: A Model and Dataset for Pareidolia",
+      "authors": [
+        "Mark Hamilton",
+        "Simon Stent",
+        "Vasha DuTell",
+        "Anne Harrington",
+        "Jennifer Corbett",
+        "Ruth Rosenholtz",
+        "William T. Freeman"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2024-09-24T14:50:21.000Z"
+    },
+    {
+      "id": "2409.16280",
+      "title": "MonoFormer: One Transformer for Both Diffusion and Autoregression",
+      "authors": [
+        "Chuyang Zhao",
+        "Yuxing Song",
+        "Wenhao Wang",
+        "Haocheng Feng",
+        "Errui Ding",
+        "Yifan Sun",
+        "Xinyan Xiao",
+        "Jingdong Wang"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/MonoFormer/MonoFormer",
+      "published": "2024-09-24T17:51:04.000Z"
+    },
+    {
+      "id": "2409.16211",
+      "title": "MaskBit: Embedding-free Image Generation via Bit Tokens",
+      "authors": [
+        "Mark Weber",
+        "Lijun Yu",
+        "Qihang Yu",
+        "Xueqing Deng",
+        "Xiaohui Shen",
+        "Daniel Cremers",
+        "Liang-Chieh Chen"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/markweberdev/maskbit",
+      "published": "2024-09-24T16:12:12.000Z"
+    },
+    {
+      "id": "2409.16040",
+      "title": "Time-MoE: Billion-Scale Time Series Foundation Models with Mixture of Experts",
+      "authors": [
+        "Xiaoming Shi",
+        "Shiyu Wang",
+        "Yuqi Nie",
+        "Dianqi Li",
+        "Zhou Ye",
+        "Qingsong Wen",
+        "Ming Jin"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/time-moe/time-moe",
+      "published": "2024-09-24T12:42:18.000Z"
+    },
+    {
+      "id": "2409.15997",
+      "title": "Improvements to SDXL in NovelAI Diffusion V3",
+      "authors": [
+        "Juan Ossa",
+        "Eren Doğan",
+        "Alex Birch",
+        "F. Johnson"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2024-09-24T11:57:12.000Z"
+    },
+    {
+      "id": "2409.17143",
+      "title": "Attention Prompting on Image for Large Vision-Language Models",
+      "authors": [
+        "Runpeng Yu",
+        "Weihao Yu",
+        "Xinchao Wang"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/yu-rp/apiprompting",
+      "published": "2024-09-25T17:59:13.000Z"
+    },
+    {
+      "id": "2409.16283",
+      "title": "Gen2Act: Human Video Generation in Novel Scenarios enables Generalizable Robot Manipulation",
+      "authors": [
+        "Homanga Bharadhwaj",
+        "Debidatta Dwibedi",
+        "Abhinav Gupta",
+        "Shubham Tulsiani",
+        "Carl Doersch",
+        "Ted Xiao",
+        "Dhruv Shah",
+        "Fei Xia",
+        "Dorsa Sadigh",
+        "Sean Kirmani"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2024-09-24T17:57:33.000Z"
+    },
+    {
+      "id": "2409.13156",
+      "title": "RRM: Robust Reward Model Training Mitigates Reward Hacking",
+      "authors": [
+        "Tianqi Liu",
+        "Wei Xiong",
+        "Jie Ren",
+        "Lichang Chen",
+        "Junru Wu",
+        "Rishabh Joshi",
+        "Yang Gao",
+        "Jiaming Shen",
+        "Zhen Qin",
+        "Tianhe Yu",
+        "Daniel Sohn",
+        "Anastasiia Makarova",
+        "Jeremiah Liu",
+        "Yuan Liu",
+        "Bilal Piot",
+        "Abe Ittycheriah",
+        "Aviral Kumar",
+        "Mohammad Saleh"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2024-09-20T01:46:07.000Z"
+    },
+    {
+      "id": "2409.15360",
+      "title": "Reward-Robust RLHF in LLMs",
+      "authors": [
+        "Yuzi Yan",
+        "Xingzhou Lou",
+        "Jialian Li",
+        "Yiping Zhang",
+        "Jian Xie",
+        "Chao Yu",
+        "Yu Wang",
+        "Dong Yan",
+        "Yuan Shen"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2024-09-18T02:35:41.000Z"
+    },
+    {
+      "id": "2409.15933",
+      "title": "SLIMER-IT: Zero-Shot NER on Italian Language",
+      "authors": [
+        "Andrew Zamai",
+        "Leonardo Rigutini",
+        "Marco Maggini",
+        "Andrea Zugarini"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/andrewzamai/slimer_it",
+      "published": "2024-09-24T09:57:25.000Z"
+    },
+    {
+      "id": "2409.13882",
+      "title": "Tabular Data Generation using Binary Diffusion",
+      "authors": [
+        "Vitaliy Kinakh",
+        "Slava Voloshynovskiy"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/vkinakh/binary-diffusion-tabular",
+      "published": "2024-09-20T20:22:28.000Z"
+    },
+    {
+      "id": "2409.12192",
+      "title": "DynaMo: In-Domain Dynamics Pretraining for Visuo-Motor Control",
+      "authors": [
+        "Zichen Jeff Cui",
+        "Hengkai Pan",
+        "Aadhithya Iyer",
+        "Siddhant Haldar",
+        "Lerrel Pinto"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2024-09-18T17:59:43.000Z"
+    }
+  ]
+}

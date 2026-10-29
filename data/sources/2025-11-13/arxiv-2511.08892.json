@@ -1,0 +1,33 @@
+{
+  "id": "2511.08892",
+  "title": "Lumine: An Open Recipe for Building Generalist Agents in 3D Open Worlds",
+  "authors": [
+    "Weihao Tan",
+    "Xiangyang Li",
+    "Yunhao Fang",
+    "Heyuan Yao",
+    "Shi Yan",
+    "Hao Luo",
+    "Tenglong Ao",
+    "Huihui Li",
+    "Hongbin Ren",
+    "Bairen Yi",
+    "Yujia Qin",
+    "Bo An",
+    "Libin Liu",
+    "Guang Shi"
+  ],
+  "published": "2025-11-12T02:01:26Z",
+  "abstract": "We introduce Lumine, the first open recipe for developing generalist agents capable of completing hours-long complex missions in real time within challenging 3D open-world environments. Lumine adopts a human-like interaction paradigm that unifies perception, reasoning, and action in an end-to-end manner, powered by a vision-language model. It processes raw pixels at 5 Hz to produce precise 30 Hz keyboard-mouse actions and adaptively invokes reasoning only when necessary. Trained in Genshin Impact, Lumine successfully completes the entire five-hour Mondstadt main storyline on par with human-level efficiency and follows natural language instructions to perform a broad spectrum of tasks in both 3D open-world exploration and 2D GUI manipulation across collection, combat, puzzle-solving, and NPC interaction. In addition to its in-domain performance, Lumine demonstrates strong zero-shot cross-game generalization. Without any fine-tuning, it accomplishes 100-minute missions in Wuthering Waves and the full five-hour first chapter of Honkai: Star Rail. These promising results highlight Lumine's effectiveness across distinct worlds and interaction dynamics, marking a concrete step toward generalist agents in open-ended environments.",
+  "categories": [
+    "cs.AI"
+  ],
+  "abs": "https://arxiv.org/abs/2511.08892",
+  "pdf": "https://arxiv.org/pdf/2511.08892v1",
+  "source_url": "https://export.arxiv.org/api/query?id_list=2511.08892",
+  "fetched_at": "2026-10-29T15:49:34.917Z",
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "reusable_figures": true,
+  "github": null,
+  "upvotes": 219
+}

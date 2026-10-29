@@ -1,0 +1,394 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-05-06",
+  "fetched_at": "2026-10-29T15:31:25.756Z",
+  "candidates": [
+    {
+      "id": "2504.20752",
+      "title": "Grokking in the Wild: Data Augmentation for Real-World Multi-Hop Reasoning with Transformers",
+      "authors": [
+        "Roman Abramov",
+        "Felix Steinbauer",
+        "Gjergji Kasneci"
+      ],
+      "upvotes": 96,
+      "github": null,
+      "published": "2025-04-29T13:33:29.000Z"
+    },
+    {
+      "id": "2505.02707",
+      "title": "Voila: Voice-Language Foundation Models for Real-Time Autonomous Interaction and Voice Role-Play",
+      "authors": [
+        "Yemin Shi",
+        "Yu Shu",
+        "Siwei Dong",
+        "Guangyi Liu",
+        "Jaward Sesay",
+        "Jingwen Li",
+        "Zhiting Hu"
+      ],
+      "upvotes": 85,
+      "github": "https://github.com/maitrix-org/Voila",
+      "published": "2025-05-05T15:05:01.000Z"
+    },
+    {
+      "id": "2505.02387",
+      "title": "RM-R1: Reward Modeling as Reasoning",
+      "authors": [
+        "Xiusi Chen",
+        "Gaotang Li",
+        "Ziqi Wang",
+        "Bowen Jin",
+        "Cheng Qian",
+        "Yu Wang",
+        "Hongru Wang",
+        "Yu Zhang",
+        "Denghui Zhang",
+        "Tong Zhang",
+        "Hanghang Tong",
+        "Heng Ji"
+      ],
+      "upvotes": 81,
+      "github": "https://github.com/RM-R1-UIUC/RM-R1",
+      "published": "2025-05-05T06:11:12.000Z"
+    },
+    {
+      "id": "2505.01658",
+      "title": "A Survey on Inference Engines for Large Language Models: Perspectives on Optimization and Efficiency",
+      "authors": [
+        "Sihyeong Park",
+        "Sungryeol Jeon",
+        "Chaelyn Lee",
+        "Seokhun Jeon",
+        "Byung-Soo Kim",
+        "Jemin Lee"
+      ],
+      "upvotes": 41,
+      "github": "https://github.com/sihyeong/awesome-llm-inference-engine",
+      "published": "2025-05-03T02:47:43.000Z"
+    },
+    {
+      "id": "2505.01441",
+      "title": "Agentic Reasoning and Tool Integration for LLMs via Reinforcement Learning",
+      "authors": [
+        "Joykirat Singh",
+        "Raghav Magazine",
+        "Yash Pandya",
+        "Akshay Nambi"
+      ],
+      "upvotes": 38,
+      "github": null,
+      "published": "2025-04-28T10:42:49.000Z"
+    },
+    {
+      "id": "2505.02735",
+      "title": "FormalMATH: Benchmarking Formal Mathematical Reasoning of Large Language Models",
+      "authors": [
+        "Zhouliang Yu",
+        "Ruotian Peng",
+        "Keyi Ding",
+        "Yizhe Li",
+        "Zhongyuan Peng",
+        "Minghao Liu",
+        "Yifan Zhang",
+        "Zheng Yuan",
+        "Huajian Xin",
+        "Wenhao Huang",
+        "Yandong Wen",
+        "Ge Zhang",
+        "Weiyang Liu"
+      ],
+      "upvotes": 33,
+      "github": "https://github.com/Sphere-AI-Lab/FormalMATH-Bench",
+      "published": "2025-05-05T15:37:00.000Z"
+    },
+    {
+      "id": "2505.02222",
+      "title": "Practical Efficiency of Muon for Pretraining",
+      "authors": [
+        "Essential AI",
+        "Ishaan Shah",
+        "Anthony M. Polloreno",
+        "Karl Stratos",
+        "Philip Monk",
+        "Adarsh Chaluvaraju",
+        "Andrew Hojel",
+        "Andrew Ma",
+        "Anil Thomas",
+        "Ashish Tanwer",
+        "Darsh J Shah",
+        "Khoi Nguyen",
+        "Kurt Smith",
+        "Michael Callahan",
+        "Michael Pust",
+        "Mohit Parmar",
+        "Peter Rushton",
+        "Platon Mazarakis",
+        "Ritvik Kapila",
+        "Saurabh Srivastava",
+        "Somanshu Singla",
+        "Tim Romanski",
+        "Yash Vanjani",
+        "Ashish Vaswani"
+      ],
+      "upvotes": 32,
+      "github": null,
+      "published": "2025-05-04T19:14:43.000Z"
+    },
+    {
+      "id": "2505.02835",
+      "title": "R1-Reward: Training Multimodal Reward Model Through Stable Reinforcement Learning",
+      "authors": [
+        "Yi-Fan Zhang",
+        "Xingyu Lu",
+        "Xiao Hu",
+        "Chaoyou Fu",
+        "Bin Wen",
+        "Tianke Zhang",
+        "Changyi Liu",
+        "Kaiyu Jiang",
+        "Kaibing Chen",
+        "Kaiyu Tang",
+        "Haojie Ding",
+        "Jiankang Chen",
+        "Fan Yang",
+        "Zhang Zhang",
+        "Tingting Gao",
+        "Liang Wang"
+      ],
+      "upvotes": 28,
+      "github": "https://github.com/yfzhang114/r1_reward",
+      "published": "2025-05-05T17:59:50.000Z"
+    },
+    {
+      "id": "2505.02391",
+      "title": "Optimizing Chain-of-Thought Reasoners via Gradient Variance Minimization in Rejection Sampling and RL",
+      "authors": [
+        "Jiarui Yao",
+        "Yifan Hao",
+        "Hanning Zhang",
+        "Hanze Dong",
+        "Wei Xiong",
+        "Nan Jiang",
+        "Tong Zhang"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/rlhflow/gvm",
+      "published": "2025-05-05T06:26:00.000Z"
+    },
+    {
+      "id": "2505.02625",
+      "title": "LLaMA-Omni2: LLM-based Real-time Spoken Chatbot with Autoregressive Streaming Speech Synthesis",
+      "authors": [
+        "Qingkai Fang",
+        "Yan Zhou",
+        "Shoutao Guo",
+        "Shaolei Zhang",
+        "Yang Feng"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/ictnlp/llama-omni2",
+      "published": "2025-05-05T12:53:09.000Z"
+    },
+    {
+      "id": "2505.02819",
+      "title": "ReplaceMe: Network Simplification via Depth Pruning and Transformer Block Linearization",
+      "authors": [
+        "Dmitriy Shopkhoev",
+        "Ammar Ali",
+        "Magauiya Zhussip",
+        "Valentin Malykh",
+        "Stamatios Lefkimmiatis",
+        "Nikos Komodakis",
+        "Sergey Zagoruyko"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/mts-ai/ReplaceMe",
+      "published": "2026-02-19T00:00:00.000Z"
+    },
+    {
+      "id": "2505.02094",
+      "title": "SkillMimic-V2: Learning Robust and Generalizable Interaction Skills from Sparse and Noisy Demonstrations",
+      "authors": [
+        "Runyi Yu",
+        "Yinhuai Wang",
+        "Qihan Zhao",
+        "Hok Wai Tsui",
+        "Jingbo Wang",
+        "Ping Tan",
+        "Qifeng Chen"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/Ingrid789/SkillMimic-V2",
+      "published": "2025-05-04T13:00:29.000Z"
+    },
+    {
+      "id": "2505.02156",
+      "title": "Think on your Feet: Adaptive Thinking via Reinforcement Learning for Social Agents",
+      "authors": [
+        "Minzheng Wang",
+        "Yongbin Li",
+        "Haobo Wang",
+        "Xinghua Zhang",
+        "Nan Xu",
+        "Bingli Wu",
+        "Fei Huang",
+        "Haiyang Yu",
+        "Wenji Mao"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/MozerWang/AMPO",
+      "published": "2025-05-04T15:39:58.000Z"
+    },
+    {
+      "id": "2505.02370",
+      "title": "SuperEdit: Rectifying and Facilitating Supervision for Instruction-Based Image Editing",
+      "authors": [
+        "Ming Li",
+        "Xin Gu",
+        "Fan Chen",
+        "Xiaoying Xing",
+        "Longyin Wen",
+        "Chen Chen",
+        "Sijie Zhu"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/bytedance/SuperEdit",
+      "published": "2025-05-05T05:19:40.000Z"
+    },
+    {
+      "id": "2505.02471",
+      "title": "Ming-Lite-Uni: Advancements in Unified Architecture for Natural Multimodal Interaction",
+      "authors": [
+        "Biao Gong",
+        "Cheng Zou",
+        "Dandan Zheng",
+        "Hu Yu",
+        "Jingdong Chen",
+        "Jianxin Sun",
+        "Junbo Zhao",
+        "Jun Zhou",
+        "Kaixiang Ji",
+        "Lixiang Ru",
+        "Libin Wang",
+        "Qingpei Guo",
+        "Rui Liu",
+        "Weilong Chai",
+        "Xinyu Xiao",
+        "Ziyuan Huang"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2025-05-05T08:56:12.000Z"
+    },
+    {
+      "id": "2505.01043",
+      "title": "Low-Precision Training of Large Language Models: Methods, Challenges, and Opportunities",
+      "authors": [
+        "Zhiwei Hao",
+        "Jianyuan Guo",
+        "Li Shen",
+        "Yong Luo",
+        "Han Hu",
+        "Guoxia Wang",
+        "Dianhai Yu",
+        "Yonggang Wen",
+        "Dacheng Tao"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/Hao840/Awesome-Low-Precision-Training",
+      "published": "2025-05-02T06:33:25.000Z"
+    },
+    {
+      "id": "2505.01583",
+      "title": "TEMPURA: Temporal Event Masked Prediction and Understanding for Reasoning in Action",
+      "authors": [
+        "Jen-Hao Cheng",
+        "Vivian Wang",
+        "Huayu Wang",
+        "Huapeng Zhou",
+        "Yi-Hao Peng",
+        "Hou-I Liu",
+        "Hsiang-Wei Huang",
+        "Kuang-Ming Chen",
+        "Cheng-Yen Yang",
+        "Wenhao Chai",
+        "Yi-Ling Chen",
+        "Vibhav Vineet",
+        "Qin Cai",
+        "Jenq-Neng Hwang"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/Andy-Cheng/TEMPURA",
+      "published": "2025-05-02T21:00:17.000Z"
+    },
+    {
+      "id": "2505.02823",
+      "title": "MUSAR: Exploring Multi-Subject Customization from Single-Subject Dataset via Attention Routing",
+      "authors": [
+        "Zinan Guo",
+        "Pengze Zhang",
+        "Yanze Wu",
+        "Chong Mou",
+        "Songtao Zhao",
+        "Qian He"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/guozinan126/MUSAR",
+      "published": "2025-05-05T17:50:24.000Z"
+    },
+    {
+      "id": "2505.02130",
+      "title": "Attention Mechanisms Perspective: Exploring LLM Processing of Graph-Structured Data",
+      "authors": [
+        "Zhong Guan",
+        "Likang Wu",
+        "Hongke Zhao",
+        "Ming He",
+        "Jianpin Fan"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/millioniron/llm_exploration",
+      "published": "2025-05-04T14:40:31.000Z"
+    },
+    {
+      "id": "2505.02005",
+      "title": "Learning Heterogeneous Mixture of Scene Experts for Large-scale Neural Radiance Fields",
+      "authors": [
+        "Zhenxing Mi",
+        "Ping Yin",
+        "Xue Xiao",
+        "Dan Xu"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/MiZhenxing/Switch-NeRF",
+      "published": "2025-05-04T06:25:14.000Z"
+    },
+    {
+      "id": "2505.01456",
+      "title": "Unlearning Sensitive Information in Multimodal LLMs: Benchmark and Attack-Defense Evaluation",
+      "authors": [
+        "Vaidehi Patil",
+        "Yi-Lin Sung",
+        "Peter Hase",
+        "Jie Peng",
+        "Tianlong Chen",
+        "Mohit Bansal"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/Vaidehi99/UnLOK-VQA",
+      "published": "2025-05-01T01:54:00.000Z"
+    },
+    {
+      "id": "2505.01548",
+      "title": "Rethinking RGB-Event Semantic Segmentation with a Novel Bidirectional Motion-enhanced Event Representation",
+      "authors": [
+        "Zhen Yao",
+        "Xiaowen Ying",
+        "Mooi Choo Chuah"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/zyaocoder/BRENet",
+      "published": "2025-05-02T19:19:58.000Z"
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-12-25",
+  "fetched_at": "2026-10-29T15:30:05.496Z",
+  "candidates": [
+    {
+      "id": "2412.17739",
+      "title": "Fourier Position Embedding: Enhancing Attention's Periodic Extension for Length Generalization",
+      "authors": [
+        "Ermo Hua",
+        "Che Jiang",
+        "Xingtai Lv",
+        "Kaiyan Zhang",
+        "Ning Ding",
+        "Youbang Sun",
+        "Biqing Qi",
+        "Yuchen Fan",
+        "Xue Kai Zhu",
+        "Bowen Zhou"
+      ],
+      "upvotes": 40,
+      "github": "https://github.com/tsinghuac3i/fourier-position-embedding",
+      "published": "2024-12-23T17:44:01.000Z"
+    },
+    {
+      "id": "2412.18450",
+      "title": "3DGraphLLM: Combining Semantic Graphs and Large Language Models for 3D Scene Understanding",
+      "authors": [
+        "Tatiana Zemskova",
+        "Dmitry Yudin"
+      ],
+      "upvotes": 36,
+      "github": "https://github.com/cognitiveaisystems/3dgraphllm",
+      "published": "2024-12-24T14:21:58.000Z"
+    },
+    {
+      "id": "2412.18153",
+      "title": "DepthLab: From Partial to Complete",
+      "authors": [
+        "Zhiheng Liu",
+        "Ka Leong Cheng",
+        "Qiuyu Wang",
+        "Shuzhe Wang",
+        "Hao Ouyang",
+        "Bin Tan",
+        "Kai Zhu",
+        "Yujun Shen",
+        "Qifeng Chen",
+        "Ping Luo"
+      ],
+      "upvotes": 36,
+      "github": null,
+      "published": "2024-12-24T04:16:38.000Z"
+    },
+    {
+      "id": "2412.18608",
+      "title": "PartGen: Part-level 3D Generation and Reconstruction with Multi-View Diffusion Models",
+      "authors": [
+        "Minghao Chen",
+        "Roman Shapovalov",
+        "Iro Laina",
+        "Tom Monnier",
+        "Jianyuan Wang",
+        "David Novotny",
+        "Andrea Vedaldi"
+      ],
+      "upvotes": 19,
+      "github": null,
+      "published": "2024-12-24T18:59:43.000Z"
+    },
+    {
+      "id": "2412.18597",
+      "title": "DiTCtrl: Exploring Attention Control in Multi-Modal Diffusion Transformer for Tuning-Free Multi-Prompt Longer Video Generation",
+      "authors": [
+        "Minghong Cai",
+        "Xiaodong Cun",
+        "Xiaoyu Li",
+        "Wenze Liu",
+        "Zhaoyang Zhang",
+        "Yong Zhang",
+        "Ying Shan",
+        "Xiangyu Yue"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/TencentARC/DiTCtrl",
+      "published": "2024-12-24T18:51:19.000Z"
+    },
+    {
+      "id": "2412.15797",
+      "title": "Ensembling Large Language Models with Process Reward-Guided Tree Search for Better Complex Reasoning",
+      "authors": [
+        "Sungjin Park",
+        "Xiao Liu",
+        "Yeyun Gong",
+        "Edward Choi"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2024-12-20T11:14:29.000Z"
+    },
+    {
+      "id": "2412.17758",
+      "title": "In Case You Missed It: ARC 'Challenge' Is Not That Challenging",
+      "authors": [
+        "Łukasz Borchmann"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2024-12-23T18:14:36.000Z"
+    },
+    {
+      "id": "2412.14711",
+      "title": "ReMoE: Fully Differentiable Mixture-of-Experts with ReLU Routing",
+      "authors": [
+        "Ziteng Wang",
+        "Jianfei Chen",
+        "Jun Zhu"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/thu-ml/remoe",
+      "published": "2024-12-19T10:21:20.000Z"
+    },
+    {
+      "id": "2412.17847",
+      "title": "Bridging the Data Provenance Gap Across Text, Speech and Video",
+      "authors": [
+        "Shayne Longpre",
+        "Nikhil Singh",
+        "Manuel Cherep",
+        "Kushagra Tiwary",
+        "Joanna Materzynska",
+        "William Brannon",
+        "Robert Mahari",
+        "Manan Dey",
+        "Mohammed Hamdy",
+        "Nayan Saxena",
+        "Ahmad Mustafa Anis",
+        "Emad A. Alghamdi",
+        "Vu Minh Chien",
+        "Naana Obeng-Marnu",
+        "Da Yin",
+        "Kun Qian",
+        "Yizhi Li",
+        "Minnie Liang",
+        "An Dinh",
+        "Shrestha Mohanty",
+        "Deividas Mataciunas",
+        "Tobin South",
+        "Jianguo Zhang",
+        "Ariel N. Lee",
+        "Campbell S. Lund",
+        "Christopher Klamm",
+        "Damien Sileo",
+        "Diganta Misra",
+        "Enrico Shippole",
+        "Kevin Klyman",
+        "Lester JV Miranda",
+        "Niklas Muennighoff",
+        "Seonghyeon Ye",
+        "Seungone Kim",
+        "Vipul Gupta",
+        "Vivek Sharma",
+        "Xuhui Zhou",
+        "Caiming Xiong",
+        "Luis Villa",
+        "Stella Biderman",
+        "Alex Pentland",
+        "Sara Hooker",
+        "Jad Kabbara"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2024-12-19T01:30:19.000Z"
+    },
+    {
+      "id": "2412.15443",
+      "title": "SKETCH: Structured Knowledge Enhanced Text Comprehension for Holistic Retrieval",
+      "authors": [
+        "Aakash Mahalingam",
+        "Vinesh Kumar Gande",
+        "Aman Chadha",
+        "Vinija Jain",
+        "Divya Chaudhary"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2024-12-19T22:51:56.000Z"
+    },
+    {
+      "id": "2412.16153",
+      "title": "MotiF: Making Text Count in Image Animation with Motion Focal Loss",
+      "authors": [
+        "Shijie Wang",
+        "Samaneh Azadi",
+        "Rohit Girdhar",
+        "Saketh Rambhatla",
+        "Chen Sun",
+        "Xi Yin"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2024-12-20T18:57:06.000Z"
+    }
+  ]
+}

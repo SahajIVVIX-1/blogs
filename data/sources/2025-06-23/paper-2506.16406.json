@@ -1,0 +1,11 @@
+{
+  "id": "2506.16406",
+  "html": "https://arxiv.org/html/2506.16406",
+  "limitations": null,
+  "conclusion": "PEFT offers an efficient solution to reduce costs when customizing LLMs/VLLMs for downstream tasks, yet it is still expensive when models are large and tasks are diverse. In our study, we train a parameter generator to map prompt-weight pairs, which can produce customized weights for novel tasks by processing unlabeled task prompts. Notably, our approach can transform unlabeled task prompts directly to LoRA weights update in seconds . This prompt-to-weight paradigm, which can generate task-specific weights without further tuning , sheds lights on a promising new direction for efficient LLM and VLLM customization. Previous research [ 50 , 57 , 58 ] and our approach demonstrate that neural network weights can be effectively synthesized. It appears that network parameters can be viewed as a new form of data modality. To excavate this emerging field’s potential, several challenges remain to ",
+  "figure": {
+    "path": "images/2025/paper-2506.16406.webp",
+    "src": "https://arxiv.org/html/2506.16406v1/peft.png",
+    "caption": "(a) Parameter-Efficient-Fine-Tuning"
+  }
+}

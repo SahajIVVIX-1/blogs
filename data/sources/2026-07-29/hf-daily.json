@@ -1,0 +1,487 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-07-29",
+  "fetched_at": "2026-10-29T15:36:23.003Z",
+  "candidates": [
+    {
+      "id": "2607.25431",
+      "title": "CodeNib: A Multi-View Data System for Serving Repository Context to Coding Agents",
+      "authors": [
+        "Zhongming Yu",
+        "Hengjia Yu",
+        "Boqin Yuan",
+        "Shuting Zhao",
+        "Yizhao Chen",
+        "Aryan Dokania",
+        "Mihir Jagtap",
+        "Jiayu Chang",
+        "Yitong Ma",
+        "Yash Jayswal",
+        "Wentao Ni",
+        "Hejia Zhang",
+        "Zhaoling Chen",
+        "Gangda Deng",
+        "Jishen Zhao"
+      ],
+      "upvotes": 110,
+      "github": "https://github.com/sysevol-ai/CodeNib",
+      "published": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "2607.25895",
+      "title": "HiFi-UMI: Learning Deployable Manipulation Policies from High-Fidelity UMI Data Alone",
+      "authors": [
+        "Simple AI",
+        "Yuteng Wei",
+        "Jinming Ma",
+        "Jiawei Wang",
+        "Weitao Zhou",
+        "Yushen Zuo",
+        "Ke Rui",
+        "Minglei Li",
+        "Jinhao Zhang",
+        "Zhikang Pan",
+        "Xiang Wang",
+        "Haoran Jia",
+        "Huan Du",
+        "Zicheng Zeng",
+        "Jun Ma",
+        "Guiyu Qin",
+        "Di Zhang",
+        "Xiaofei Li"
+      ],
+      "upvotes": 107,
+      "github": null,
+      "published": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "2607.24223",
+      "title": "A New Role for Relevance: Guiding Corpus Interaction in Agentic Search",
+      "authors": [
+        "Jiangnan Li",
+        "Yuqing Li",
+        "Mo Yu",
+        "Jinchao Zhang",
+        "Jie Zhou"
+      ],
+      "upvotes": 94,
+      "github": "https://github.com/LeqsNaN/RARG",
+      "published": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "2607.25565",
+      "title": "ReDesign: Recovering Editable Design Structures from Images via Agentic Decomposition",
+      "authors": [
+        "Jooyeol Yun",
+        "Jintae Park",
+        "Hyesu Lim",
+        "Junha Hyung",
+        "Hyungjin Chung",
+        "Jaegul Choo"
+      ],
+      "upvotes": 62,
+      "github": "https://github.com/jintae-00/ReDesign",
+      "published": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "2607.24904",
+      "title": "Mage-VL: An Efficient Codec-Native Streaming Multimodal Foundation Model",
+      "authors": [
+        "Senqiao Yang",
+        "Kaichen Zhang",
+        "Zhaoyang Jia",
+        "Jinghao Guo",
+        "Yifei Shen",
+        "Xinjie Zhang",
+        "Xiaoyi Zhang",
+        "Haoqing Wang",
+        "Xiao Li",
+        "Peng Zhang",
+        "Xiang An",
+        "Yin Xie",
+        "Zhening Liu",
+        "Xun Guo",
+        "Jiahao Li",
+        "Shicheng Zheng",
+        "Jinglu Wang",
+        "Zongyu Guo",
+        "Wenxuan Xie",
+        "Zihan Zheng",
+        "Yuxuan Luo",
+        "Bin Li",
+        "Yan Lu"
+      ],
+      "upvotes": 38,
+      "github": "https://github.com/microsoft/Mage",
+      "published": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "2607.26057",
+      "title": "Pass the Baton: Trajectory-Relayed On-Policy Distillation",
+      "authors": [
+        "Haolei Xu",
+        "Xiaowen Xu",
+        "Haiwen Hong",
+        "Zixuan Ni",
+        "Hongxing Li",
+        "Yiwen Qiu",
+        "Weiming Lu",
+        "Yongliang Shen"
+      ],
+      "upvotes": 32,
+      "github": "https://github.com/ZJU-REAL/Relay-OPD",
+      "published": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "2607.24368",
+      "title": "Keep It InMind: Benchmarking the Implicit-Association Blind Spot in Agent Memory",
+      "authors": [
+        "Ruizhe Li",
+        "Mingxuan Du",
+        "Benfeng Xu",
+        "Zhendong Mao"
+      ],
+      "upvotes": 31,
+      "github": "https://github.com/imlrz/InMind",
+      "published": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "2607.25857",
+      "title": "Shieldstral",
+      "authors": [
+        "Antonia Calvi",
+        "Avinash Sooriyarachchi",
+        "Giada Pistilli",
+        "Guillaume Lample",
+        "Maarten Buyl",
+        "Maximilian Augustin",
+        "Maximilian Müller",
+        "Pierre Stock",
+        "Tom Bewley",
+        "Wassim Bouaziz",
+        "Yimu Pan"
+      ],
+      "upvotes": 22,
+      "github": null,
+      "published": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "2607.25537",
+      "title": "Visual prompt engineering for video models",
+      "authors": [
+        "Robert Geirhos",
+        "Yuxuan Li",
+        "Thaddäus Wiedemer",
+        "Neha Kalibhat",
+        "Zi Wang",
+        "Mani Malek",
+        "Oyvind Tafjord",
+        "Kevin Swersky",
+        "Been Kim",
+        "Priyank Jaini"
+      ],
+      "upvotes": 20,
+      "github": null,
+      "published": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "2607.26037",
+      "title": "Wonder: Video World Model Done Better",
+      "authors": [
+        "Jiacong Xu",
+        "Hanwen Jiang",
+        "Zhixin Shu",
+        "Kalyan Sunkavalli",
+        "Vishal M. Patel",
+        "Yiqun Mei"
+      ],
+      "upvotes": 19,
+      "github": null,
+      "published": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "2607.26004",
+      "title": "Parallel Decoding Distillation for Fast Image and Video Generation",
+      "authors": [
+        "Neta Shaul",
+        "Chao Liu",
+        "Arash Vahdat",
+        "Julius Berner"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/NVlabs/fastgen",
+      "published": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "2607.24957",
+      "title": "PerceptionBench: Evaluating Atomic Visual Perception in Multimodal Large Language Models",
+      "authors": [
+        "Zichao Lin",
+        "Yifeng Xie",
+        "Bowen Qu",
+        "Haiming Wang",
+        "Jia Li",
+        "Haoning Wu",
+        "Yuhao Dong",
+        "Zuhao Yang",
+        "Jinguo Zhu",
+        "Haoyu Lu",
+        "Zijia Zhao",
+        "Tongtian Yue",
+        "Zhangyang Qi",
+        "Junwei Yang",
+        "Mengfan Dong",
+        "Peizhou Cao",
+        "Chenzhuang Du",
+        "Zaida Zhou",
+        "Haotian Yao",
+        "Hao Yang",
+        "Hongcheng Gao",
+        "Lin Sui",
+        "Weihong Li",
+        "Xinxing Zu",
+        "Jia Chen",
+        "Yao Wang",
+        "Xiaoxue Wu",
+        "Yalin Wang",
+        "Y. Charles",
+        "Yiping Bao",
+        "Yangyang Liu",
+        "Zhiqi Huang",
+        "Xinyu Zhou"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "2607.25948",
+      "title": "MODUS: Decoder-Only Any-to-Any Modeling of Diverse Modalities",
+      "authors": [
+        "Mingqiao Ye",
+        "Zhaochong An",
+        "Zhitong Gao",
+        "Xian Liu",
+        "François Fleuret",
+        "Chuan Li",
+        "Amir Zadeh",
+        "Serge Belongie",
+        "Afshin Dehghan",
+        "Jesse Allardice",
+        "David Mizrahi",
+        "Oğuzhan Fatih Kar",
+        "Roman Bachmann",
+        "Amir Zamir"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/EPFL-VILAB/Modus",
+      "published": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "2607.23514",
+      "title": "Novel Claim or Déjà Vu? Rethinking \"Contamination-Free'' Dynamic Evaluation for Multimodal Automated Fact-Checking",
+      "authors": [
+        "Haorui He",
+        "Xinwen Chen",
+        "Dacheng Wen",
+        "Reynold Cheng",
+        "Francis C. M. Lau",
+        "Yupeng Li"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/TrustworthyComp/Rethink-MAFC-Eval",
+      "published": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "2607.25970",
+      "title": "Reinforcement Learning for Code Optimization",
+      "authors": [
+        "Pierre Chambon",
+        "Kunhao Zheng",
+        "Juliette Decugis",
+        "Benoit Sagot",
+        "Gabriel Synnaeve"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "2607.25091",
+      "title": "Towards Robust Reinforcement Learning for Small-Scale Language Model Agents",
+      "authors": [
+        "Md Rezwanul Haque",
+        "Md. Milon Islam",
+        "Fakhri Karray"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/rezwanh001/SLM-RL-Agents",
+      "published": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "2607.25669",
+      "title": "OmniDelta: Skill-Driven Budget Allocation for Token Compression in OmniLLMs",
+      "authors": [
+        "Haoyang Huang",
+        "Wenjie Huang",
+        "Tianqi Xu",
+        "Hongyaoxing Gu",
+        "Kang Tan",
+        "Yikai Fu",
+        "Yuhao Shen",
+        "Tianyu Liu",
+        "Baolin Zhang",
+        "Jun Zhang",
+        "Xinyi Hu",
+        "Jun Dai",
+        "Shuang Ge",
+        "Lei Chen",
+        "Yue Li",
+        "Mingchen Wang",
+        "Meng Zhang"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "2607.25236",
+      "title": "VisualPatchWorld: Code World Models as Latent Structured Representations for Planning",
+      "authors": [
+        "Jiaxin Bai",
+        "Jiaxuan Xiong"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/HKBU-KnowComp/VisualPatchWorld",
+      "published": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "2607.25337",
+      "title": "Temporal-Distance JEPA: Plan-Aware Representation Learning for Latent World Model Predictive Control",
+      "authors": [
+        "Jiaxin Bai",
+        "Jiaxuan Xiong"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/HKBU-KnowComp/TD-JEPA",
+      "published": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "2607.17674",
+      "title": "Uncovering Latent Reasoning Strategies in Language Models",
+      "authors": [
+        "Awni Altabaa",
+        "John Lafferty"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/Awni00/latent-strategies-in-lms",
+      "published": "2026-07-20T00:00:00.000Z"
+    },
+    {
+      "id": "2607.19712",
+      "title": "How Fast Can Reward Models Score? A Systems Study of C++ and PyTorch Inference Runtimes for RLHF",
+      "authors": [
+        "Venkata Naga Sai Vishnu Rohit Pulipaka",
+        "Anish Katta",
+        "Deva Rohit Reddy Peddireddy"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "id": "2607.24882",
+      "title": "Agent Retrieval Bench: Evaluating Repository Context Retrieval for Coding Agents",
+      "authors": [
+        "Bowen Qin",
+        "Yi Xie"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/eyuansu62/agent-retrieval-bench",
+      "published": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "2607.24176",
+      "title": "Where Quality Breaks in Compressed Short-Text Generation: Staged Bottleneck Localization",
+      "authors": [
+        "Alexey Gavrilov",
+        "Alan-Barsag Gazzaev",
+        "Sergey Muravyov"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "2607.25572",
+      "title": "Mapping CVEs to MITRE ATT&CK Techniques: A Curated Gold-Set Classifier and the Limits of LLM-Assisted Label Expansion",
+      "authors": [
+        "Cédric Bonhomme",
+        "Alexandre Dulaunoy"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/vulnerability-lookup/cve-attack-mapping-paper",
+      "published": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "2607.25310",
+      "title": "Human-in-the-Loop Signature Bootstrapping for UAV Hyperspectral PFM-1 Mine Detection",
+      "authors": [
+        "Sagar Lekhak",
+        "Prasanna Reddy Pulakurthi",
+        "Emmett J. Ientilucci"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/SagarLekhak/IEEE_WHISPERS_2026_UAV_HSI_PFM1",
+      "published": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "2607.25108",
+      "title": "OPERA: Offline Policy-guided Expert Routing and Adaptation for Universal Biomedical Image Analysis",
+      "authors": [
+        "Zihan Li",
+        "Feiyang Liu",
+        "Dandan Shan",
+        "Ruibo Wang",
+        "Qingqi Hong"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/HUANGLIZI/OPERA",
+      "published": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "2607.22135",
+      "title": "GLI-AL: A Multi-Modal Glioma MRI Label Resource with Unified Anatomy-Lesion Labels",
+      "authors": [
+        "Xingyu Xiang",
+        "Shuang Hao",
+        "Fan Wang",
+        "Jianhua Ma",
+        "Chunfeng Lian"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/xyx200/brats-gli-anatomy-lesion-code",
+      "published": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "2607.22117",
+      "title": "Projection Pursuit CPCANet for Domain Generalization",
+      "authors": [
+        "Yu-Hsi Chen",
+        "Abd-Krim Seghouane"
+      ],
+      "upvotes": 0,
+      "github": "https://github.com/wish44165/PP-CPCANet",
+      "published": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "2607.12544",
+      "title": "Edge-Aware Thermal Infrared UAV Swarm Tracking",
+      "authors": [
+        "Yu-Hsi Chen"
+      ],
+      "upvotes": 0,
+      "github": null,
+      "published": "2026-07-14T00:00:00.000Z"
+    }
+  ]
+}

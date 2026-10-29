@@ -1,0 +1,7 @@
+{
+  "id": "2402.17764",
+  "html": "https://arxiv.org/html/2402.17764",
+  "limitations": null,
+  "conclusion": "1-bit Mixture-of-Experts (MoE) LLMs Mixture-of-Experts (MoE) have proven to be a cost-effective approach for LLMs. While it significantly reduces the computation FLOPs, the high memory consumption and inter-chip communication overhead limit its deployment and application. These challenges can be addressed by 1.58-bit LLMs. Firstly, the reduced memory footprint reduces the number of devices required to deploy MoE models. Moreover, it significantly reduces the overhead of transferring activations across networks. Ultimately, there would be no overhead if the entire models could be placed on a single chip. Native Support of Long Sequence in LLMs In the era of LLMs, the ability to handle long sequence has become a critical demand. One major challenge for long sequence inference is the memory consumption introduced by the KV caches. BitNet b1.58 represents a significant step towards native su",
+  "figure": null
+}

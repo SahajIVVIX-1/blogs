@@ -1,0 +1,369 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-07-23",
+  "fetched_at": "2026-10-29T15:36:19.308Z",
+  "candidates": [
+    {
+      "id": "2607.20145",
+      "title": "SLAI T-Rex: Full-Parameter Post-training of the DeepSeek-V4 Family on Ascend SuperPOD",
+      "authors": [
+        "Dongfang Li",
+        "Xiaodong Luo",
+        "Ruoyu Sun",
+        "Xuhui Chen",
+        "Linyuan Qiu",
+        "Jian Meng",
+        "Zhengxuan Lu",
+        "Yiting Wang",
+        "Yucheng Xie",
+        "Tao Guo",
+        "Tianxiang Fang",
+        "Jing Li",
+        "Sihang Chen",
+        "Shihao Hong",
+        "Chang Liu",
+        "Weihua Dai",
+        "Zirong Zeng",
+        "Ziwei Zhu",
+        "Zhuohan Wang",
+        "Zhengjun Yue",
+        "Igor Vasilyev",
+        "Min Liu",
+        "Weijian Sun",
+        "Xin Chen",
+        "Yingmeng Gao",
+        "Jinhua Zhou",
+        "Taolue Chen",
+        "Chenwei Wu",
+        "Dong Zhang",
+        "Wenlong Jin",
+        "Jinmin Xiang",
+        "Barkova Maria",
+        "Ushakov Anton",
+        "Xianfei Jin",
+        "Tian Ding",
+        "Zhihang Lin",
+        "Qian Chen",
+        "Linxin Yang",
+        "Mingzhe Yang",
+        "Bingwei Zhang",
+        "Hongzhang Yang",
+        "Fangxue Zhang",
+        "Shijun Qin",
+        "Jie Yu",
+        "Cuihua Hu",
+        "Tolstykh Vasiliy",
+        "Nosov Ivan",
+        "Abdullin Amir",
+        "Zhichen Zhou",
+        "Xin Zhang",
+        "Zhixiong Ning",
+        "Xutong Zhao",
+        "Junjie Huang",
+        "Jiajun Liu",
+        "Weiyan Kong",
+        "Zheng Zhang",
+        "Wenhan Luo",
+        "Lin Hu",
+        "Yangbo Guo",
+        "Li Zeng",
+        "Shihao Zeng",
+        "Baotian Hu",
+        "Min Zhang",
+        "Haizhou Li",
+        "Zhiquan Luo"
+      ],
+      "upvotes": 77,
+      "github": "https://github.com/SLAI-AITP/SLAI-T-Rex",
+      "published": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "id": "2607.19747",
+      "title": "Beyond Relevance-Centric Retrieval: Rubric-Oriented Document Set Selection and Ranking",
+      "authors": [
+        "Kailin Jiang",
+        "Lei Liu",
+        "Jian Xi",
+        "Hui Xu",
+        "Junlin Liu",
+        "Baochen Fu",
+        "Shaoqing Ren",
+        "Bin Li",
+        "Vichwang",
+        "Yu Lu",
+        "Haibo Shi"
+      ],
+      "upvotes": 28,
+      "github": "https://github.com/Rubric4Setwise/Rubric4Setwise",
+      "published": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "id": "2607.20368",
+      "title": "Self Gradient Forcing: Native Long Video Extrapolation",
+      "authors": [
+        "Junhao Zhuang",
+        "Shiyi Zhang",
+        "Yuxuan Bian",
+        "Yaowei Li",
+        "Yawen Luo",
+        "Yijun Liu",
+        "Weiyang Jin",
+        "Songchun Zhang",
+        "Xianglong He",
+        "Xuying Zhang",
+        "Haoran Li",
+        "Haoyang Huang",
+        "Zeyue Xue",
+        "Nan Duan"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/zhuang2002/Self_Gradient_Forcing",
+      "published": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "id": "2607.16165",
+      "title": "An Exam for Active Observers",
+      "authors": [
+        "Jiarui Zhang",
+        "Muzi Tao",
+        "Shangshang Wang",
+        "Ollie Liu",
+        "Xuezhe Ma",
+        "Willie Neiswanger"
+      ],
+      "upvotes": 26,
+      "github": "https://github.com/saccharomycetes/ActiveVision",
+      "published": "2026-07-17T00:00:00.000Z"
+    },
+    {
+      "id": "2607.19604",
+      "title": "Scaling Laws for Hypernetwork-Based Knowledge Injection in Large Language Models",
+      "authors": [
+        "Nischay Dhankhar",
+        "Dos Baha",
+        "Abulhair Saparov"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/hdnndh/Latent-Geometry-Beyond-Search-Amortizing-Planning-in-World-Models",
+      "published": "2026-07-21T00:00:00.000Z"
+    },
+    {
+      "id": "2607.13429",
+      "title": "Generalizable VLA Finetuning via Representation Anchoring and Language-Action Alignment",
+      "authors": [
+        "Dwip Dalal",
+        "Shivansh Patel",
+        "Chahit Jain",
+        "Jeonghwan Kim",
+        "Utkarsh Mishra",
+        "Alex Baratian",
+        "Hyeonjeong Ha",
+        "Heng Ji",
+        "Svetlana Lazebnik",
+        "Unnat Jain"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/dwipddalal/Anchor-Align",
+      "published": "2026-07-15T00:00:00.000Z"
+    },
+    {
+      "id": "2607.10169",
+      "title": "Beyond Euclidean Clipping: Overcoming Exploration Collapse in LLM RL via Riemannian Isometric Policy Optimization",
+      "authors": [
+        "Zhicheng Cai",
+        "Xinyuan Guo",
+        "Hanlin Wu",
+        "Mingxuan Wang",
+        "Wei-Ying Ma",
+        "Ya-Qin Zhang",
+        "Hao Zhou"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/Aiolus-X/RIPO",
+      "published": "2026-07-11T00:00:00.000Z"
+    },
+    {
+      "id": "2607.21217",
+      "title": "ICAE-Bench: Evaluating Coding Agents as Interactive Project Builders",
+      "authors": [
+        "Zhongyuan Peng",
+        "Dan Huang",
+        "Chuyu Zhang",
+        "Caijun Xu",
+        "Changyi Xiao",
+        "Shibo Hong",
+        "David Lo",
+        "Lin Qiu",
+        "Xuezhi Cao",
+        "Jiyuan He",
+        "Yixin Cao"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/ALEX-nlp/ICAE-EVAL",
+      "published": "2026-07-23T00:00:00.000Z"
+    },
+    {
+      "id": "2607.20417",
+      "title": "ATSplat: Compact Feed-forward 3D Gaussian Splatting with Adaptive Token Expansion",
+      "authors": [
+        "Cho In",
+        "Jeonghwan Cho",
+        "Mijin Yoo",
+        "Gim Hee Lee",
+        "Seon Joo Kim"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "id": "2607.19865",
+      "title": "DocOps: A Verifiable Benchmark for Autonomous Agents in Complex Document Operations",
+      "authors": [
+        "Jiazhen Jiang",
+        "Boxi Cao",
+        "Lingyong Yan",
+        "Yaojie Lu",
+        "Hongyu Lin",
+        "Shuaiqiang Wang",
+        "Dawei Yin",
+        "Xianpei Han",
+        "Le Sun"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/icip-cas/DocOps",
+      "published": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "id": "2607.16190",
+      "title": "FVAttn: Adaptive Sparse Attention with Runtime Load Balancing for Video Generation",
+      "authors": [
+        "Hao Liu",
+        "Chenghuan Huang",
+        "Ye Huang",
+        "Zhiying Wen",
+        "Hao Liu",
+        "Mohan Zhang",
+        "Chen Li",
+        "Ziyang Ma",
+        "Jing Lyu",
+        "Jiangsu Du"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2026-07-17T00:00:00.000Z"
+    },
+    {
+      "id": "2607.20379",
+      "title": "Train the Model, Not the Reader: Decodability Supervision for Verifiable Activation Explanations",
+      "authors": [
+        "Hiskias Dingeto"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "id": "2607.19691",
+      "title": "SLPO: Scaling Latent Reasoning via a Surrogate Policy",
+      "authors": [
+        "Runyang You",
+        "Zhiyuan Liu",
+        "Yongqi Li",
+        "Wenjie Li"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/ModalityDance/SLPO",
+      "published": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "id": "2607.17699",
+      "title": "SLAM in Low-Light Environments: Project Report",
+      "authors": [
+        "Oleh Basystyi",
+        "Anna Stasyshyn",
+        "Oleksandr Kosovan",
+        "Yaroslav Prytula"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-07-20T00:00:00.000Z"
+    },
+    {
+      "id": "2607.19790",
+      "title": "Trace: A Taxonomy-Guided Environment for Multidomain Visual Reasoning",
+      "authors": [
+        "Md Tanvirul Alam"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/maveryn/trace",
+      "published": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "id": "2607.20207",
+      "title": "SeededGrasp: Language-Guided Grasping in Complex Scenes with Multiple Embodiments",
+      "authors": [
+        "Yang Xu",
+        "Gurpreet Singh Mukker",
+        "Raymond Wang",
+        "Jasper Gerigk",
+        "Maria Attarian",
+        "Igor Gilitschenski"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/uoft-isl/SeededGrasp",
+      "published": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "id": "2607.18149",
+      "title": "Differentiable Logic Gate Networks for Low-Latency EEG Classification on Edge Devices",
+      "authors": [
+        "Shyamal Y. Dharia",
+        "Stephen D. Smith",
+        "Camilo E. Valderrama"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/Shyamal-Dharia/eeg-difflogic",
+      "published": "2026-07-20T00:00:00.000Z"
+    },
+    {
+      "id": "2607.18789",
+      "title": "Moving Alphabet: A Controlled Study of Training Data for Text-to-Video Generation",
+      "authors": [
+        "Amber Yijia Zheng",
+        "Lu Liu",
+        "Raymond A. Yeh",
+        "Xi Yin"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-07-21T00:00:00.000Z"
+    },
+    {
+      "id": "2607.19942",
+      "title": "G-MAD: A Game-Based Data Generation Framework for Multi-View RGB-T Aerial Object Detection",
+      "authors": [
+        "Yechan Kim",
+        "JongHyun Park",
+        "Dongho Yoon",
+        "Namhoon Jung",
+        "Moongu Jeon"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/unique-chan/G-MAD",
+      "published": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "id": "2607.20092",
+      "title": "ENTRAP-VL: A Taxonomic Probe for Dual Contextual Entrainment in Vision-Language Models",
+      "authors": [
+        "Karan Goyal",
+        "Afreen Hossain",
+        "Debojyoti Das",
+        "Vishal Bhutani"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2026-07-22T00:00:00.000Z"
+    }
+  ]
+}

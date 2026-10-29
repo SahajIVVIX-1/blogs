@@ -1,0 +1,11 @@
+{
+  "id": "2507.03724",
+  "html": "https://arxiv.org/html/2507.03724",
+  "limitations": null,
+  "conclusion": "In this work, we introduce a memory operating system designed for Large Language Models, aimed at collaboratively building foundational memory infrastructure for next-generation LLM applications. MemOS provides a unified abstraction and integrated management framework for heterogeneous memory types, including parameter memory, activation memory, and explicit plaintext memory. We propose a standardized memory unit, MemCube , and implement key modules for scheduling, lifecycle management, structured storage, and transparent augmentation. These components collectively enhance reasoning coherence, adaptability, and system scalability in LLMs. Building on this foundation, we envision a future intelligent ecosystem centered on modular memory resources and supported by a decentralized memory marketplace. This paradigm shift enables the creation of next-generation AI systems capable of continual",
+  "figure": {
+    "path": "images/2025/paper-2507.03724.webp",
+    "src": "https://arxiv.org/html/2507.03724v4/img/locomo_bar_icon.png",
+    "caption": "Figure 1 : MemOS achieves state-of-the-art performance across all benchmarks. This figure provides a comprehensive summary of our evaluation results, illustrating the personalized response rate on PreFEval(0 turns and 10 turns), the precision score on PersonaMem, the overall mean score on LongMemEval, and the overall mean LLM judge score on the LoCoMo benchmark. The MemOS (MemOS-1031) consistently"
+  }
+}

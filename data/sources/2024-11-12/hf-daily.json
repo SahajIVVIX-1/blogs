@@ -1,0 +1,285 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-11-12",
+  "fetched_at": "2026-10-29T15:29:39.337Z",
+  "candidates": [
+    {
+      "id": "2411.07232",
+      "title": "Add-it: Training-Free Object Insertion in Images With Pretrained Diffusion Models",
+      "authors": [
+        "Yoad Tewel",
+        "Rinon Gal",
+        "Dvir Samuel Yuval Atzmon",
+        "Lior Wolf",
+        "Gal Chechik"
+      ],
+      "upvotes": 67,
+      "github": "https://github.com/mihirp1998/Add-it",
+      "published": "2024-11-11T18:50:09.000Z"
+    },
+    {
+      "id": "2411.07199",
+      "title": "OmniEdit: Building Image Editing Generalist Models Through Specialist Supervision",
+      "authors": [
+        "Cong Wei",
+        "Zheyang Xiong",
+        "Weiming Ren",
+        "Xinrun Du",
+        "Ge Zhang",
+        "Wenhu Chen"
+      ],
+      "upvotes": 50,
+      "github": null,
+      "published": "2024-11-11T18:21:43.000Z"
+    },
+    {
+      "id": "2411.06176",
+      "title": "M-Longdoc: A Benchmark For Multimodal Super-Long Document Understanding And A Retrieval-Aware Tuning Framework",
+      "authors": [
+        "Yew Ken Chia",
+        "Liying Cheng",
+        "Hou Pong Chan",
+        "Chaoqun Liu",
+        "Maojia Song",
+        "Sharifah Mahani Aljunied",
+        "Soujanya Poria",
+        "Lidong Bing"
+      ],
+      "upvotes": 45,
+      "github": "https://github.com/kenchan0226/multimodal-docs-public",
+      "published": "2024-11-09T13:30:38.000Z"
+    },
+    {
+      "id": "2411.07140",
+      "title": "Chinese SimpleQA: A Chinese Factuality Evaluation for Large Language Models",
+      "authors": [
+        "Yancheng He",
+        "Shilong Li",
+        "Jiaheng Liu",
+        "Yingshui Tan",
+        "Hui Huang",
+        "Weixun Wang",
+        "Xingyuan Bu",
+        "Hangyu Guo",
+        "Chengwei Hu",
+        "Boren Zheng",
+        "Xuepeng Liu",
+        "Dekai Sun",
+        "Wenbo Su",
+        "Bo Zheng"
+      ],
+      "upvotes": 35,
+      "github": null,
+      "published": "2024-11-11T17:10:56.000Z"
+    },
+    {
+      "id": "2411.07126",
+      "title": "Edify Image: High-Quality Image Generation with Pixel Space Laplacian Diffusion Models",
+      "authors": [
+        "NVIDIA",
+        "Yuval Atzmon",
+        "Maciej Bala",
+        "Yogesh Balaji",
+        "Tiffany Cai",
+        "Yin Cui",
+        "Jiaojiao Fan",
+        "Yunhao Ge",
+        "Siddharth Gururani",
+        "Jacob Huffman",
+        "Ronald Isaac",
+        "Pooya Jannaty",
+        "Tero Karras",
+        "Grace Lam",
+        "J. P. Lewis",
+        "Aaron Licata",
+        "Yen-Chen Lin",
+        "Ming-Yu Liu",
+        "Qianli Ma",
+        "Arun Mallya",
+        "Ashlee Martino-Tarr",
+        "Doug Mendez",
+        "Seungjun Nah",
+        "Chris Pruett",
+        "Fitsum Reda",
+        "Jiaming Song",
+        "Ting-Chun Wang",
+        "Fangyin Wei",
+        "Xiaohui Zeng",
+        "Yu Zeng",
+        "Qinsheng Zhang"
+      ],
+      "upvotes": 30,
+      "github": null,
+      "published": "2024-11-11T16:58:31.000Z"
+    },
+    {
+      "id": "2411.07231",
+      "title": "Watermark Anything with Localized Messages",
+      "authors": [
+        "Tom Sander",
+        "Pierre Fernandez",
+        "Alain Durmus",
+        "Teddy Furon",
+        "Matthijs Douze"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/facebookresearch/watermark-anything",
+      "published": "2024-11-11T18:49:58.000Z"
+    },
+    {
+      "id": "2411.05830",
+      "title": "GitChameleon: Unmasking the Version-Switching Capabilities of Code Generation Models",
+      "authors": [
+        "Nizar Islah",
+        "Justine Gehring",
+        "Diganta Misra",
+        "Eilif Muller",
+        "Irina Rish",
+        "Terry Yue Zhuo",
+        "Massimo Caccia"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/nizarislah/gitchameleon",
+      "published": "2024-11-05T23:34:06.000Z"
+    },
+    {
+      "id": "2411.06208",
+      "title": "IOPO: Empowering LLMs with Complex Instruction Following via Input-Output Preference Optimization",
+      "authors": [
+        "Xinghua Zhang",
+        "Haiyang Yu",
+        "Cheng Fu",
+        "Fei Huang",
+        "Yongbin Li"
+      ],
+      "upvotes": 21,
+      "github": null,
+      "published": "2024-11-09T15:12:43.000Z"
+    },
+    {
+      "id": "2411.05902",
+      "title": "Autoregressive Models in Vision: A Survey",
+      "authors": [
+        "Jing Xiong",
+        "Gongye Liu",
+        "Lun Huang",
+        "Chengyue Wu",
+        "Taiqiang Wu",
+        "Yao Mu",
+        "Yuan Yao",
+        "Hui Shen",
+        "Zhongwei Wan",
+        "Jinfa Huang",
+        "Chaofan Tao",
+        "Shen Yan",
+        "Huaxiu Yao",
+        "Lingpeng Kong",
+        "Hongxia Yang",
+        "Mi Zhang",
+        "Guillermo Sapiro",
+        "Jiebo Luo",
+        "Ping Luo",
+        "Ngai Wong"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/ChaofanTao/Autoregressive-Models-in-Vision-Survey",
+      "published": "2024-11-08T17:15:12.000Z"
+    },
+    {
+      "id": "2411.05990",
+      "title": "Game-theoretic LLM: Agent Workflow for Negotiation Games",
+      "authors": [
+        "Wenyue Hua",
+        "Ollie Liu",
+        "Lingyao Li",
+        "Alfonso Amayuelas",
+        "Julie Chen",
+        "Lucas Jiang",
+        "Mingyu Jin",
+        "Lizhou Fan",
+        "Fei Sun",
+        "William Wang",
+        "Xintong Wang",
+        "Yongfeng Zhang"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/wenyueh/game_theory",
+      "published": "2024-11-08T22:02:22.000Z"
+    },
+    {
+      "id": "2411.06424",
+      "title": "Ablation is Not Enough to Emulate DPO: How Neuron Dynamics Drive Toxicity Reduction",
+      "authors": [
+        "Yushi Yang",
+        "Filip Sondej",
+        "Harry Mayne",
+        "Adam Mahdi"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/yushi-y/dpo-toxic-neurons",
+      "published": "2024-11-10T11:07:34.000Z"
+    },
+    {
+      "id": "2411.06481",
+      "title": "KMM: Key Frame Mask Mamba for Extended Motion Generation",
+      "authors": [
+        "Zeyu Zhang",
+        "Hang Gao",
+        "Akide Liu",
+        "Qi Chen",
+        "Feng Chen",
+        "Yiran Wang",
+        "Danning Li",
+        "Hao Tang"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2024-11-10T14:41:38.000Z"
+    },
+    {
+      "id": "2411.07180",
+      "title": "Counterfactual Generation from Language Models",
+      "authors": [
+        "Shauli Ravfogel",
+        "Anej Svete",
+        "Vésteinn Snæbjarnarson",
+        "Ryan Cotterell"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/shauli-ravfogel/lm-counterfactuals",
+      "published": "2024-11-11T17:57:30.000Z"
+    },
+    {
+      "id": "2411.05945",
+      "title": "NeKo: Toward Post Recognition Generative Correction Large Language Models with Task-Oriented Experts",
+      "authors": [
+        "Yen-Ting Lin",
+        "Chao-Han Huck Yang",
+        "Zhehuai Chen",
+        "Piotr Zelasko",
+        "Xuesong Yang",
+        "Zih-Ching Chen",
+        "Krishna C Puvvada",
+        "Szu-Wei Fu",
+        "Ke Hu",
+        "Jun Wei Chiu",
+        "Jagadeesh Balam",
+        "Boris Ginsburg",
+        "Yu-Chiang Frank Wang"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2024-11-08T20:11:24.000Z"
+    },
+    {
+      "id": "2411.05966",
+      "title": "Energy Efficient Protein Language Models: Leveraging Small Language Models with LoRA for Controllable Protein Generation",
+      "authors": [
+        "Aayush Shah",
+        "Shankar Jayaratnam"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2024-11-08T20:52:06.000Z"
+    }
+  ]
+}

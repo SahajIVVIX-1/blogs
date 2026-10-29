@@ -1,0 +1,544 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2023-12-05",
+  "fetched_at": "2026-10-29T15:26:10.521Z",
+  "candidates": [
+    {
+      "id": "2312.02120",
+      "title": "Magicoder: Source Code Is All You Need",
+      "authors": [
+        "Yuxiang Wei",
+        "Zhe Wang",
+        "Jiawei Liu",
+        "Yifeng Ding",
+        "Lingming Zhang"
+      ],
+      "upvotes": 83,
+      "github": "https://github.com/ise-uiuc/magicoder",
+      "published": "2023-12-04T18:50:35.000Z"
+    },
+    {
+      "id": "2312.00845",
+      "title": "VMC: Video Motion Customization using Temporal Attention Adaption for Text-to-Video Diffusion Models",
+      "authors": [
+        "Hyeonho Jeong",
+        "Geon Yeong Park",
+        "Jong Chul Ye"
+      ],
+      "upvotes": 39,
+      "github": "https://github.com/HyeonHo99/Video-Motion-Customization",
+      "published": "2023-12-01T06:50:11.000Z"
+    },
+    {
+      "id": "2312.02663",
+      "title": "FaceStudio: Put Your Face Everywhere in Seconds",
+      "authors": [
+        "Yuxuan Yan",
+        "Chi Zhang",
+        "Rui Wang",
+        "Pei Cheng",
+        "Gang Yu",
+        "Bin Fu"
+      ],
+      "upvotes": 32,
+      "github": "https://github.com/xyynafc/FaceStudio",
+      "published": "2023-12-05T11:02:45.000Z"
+    },
+    {
+      "id": "2312.01552",
+      "title": "The Unlocking Spell on Base LLMs: Rethinking Alignment via In-Context Learning",
+      "authors": [
+        "Bill Yuchen Lin",
+        "Abhilasha Ravichander",
+        "Ximing Lu",
+        "Nouha Dziri",
+        "Melanie Sclar",
+        "Khyathi Chandu",
+        "Chandra Bhagavatula",
+        "Yejin Choi"
+      ],
+      "upvotes": 31,
+      "github": "https://github.com/re-align/urial",
+      "published": "2023-12-04T00:46:11.000Z"
+    },
+    {
+      "id": "2312.00858",
+      "title": "DeepCache: Accelerating Diffusion Models for Free",
+      "authors": [
+        "Xinyin Ma",
+        "Gongfan Fang",
+        "Xinchao Wang"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/horseee/deepcache",
+      "published": "2023-12-01T17:01:06.000Z"
+    },
+    {
+      "id": "2312.02087",
+      "title": "VideoSwap: Customized Video Subject Swapping with Interactive Semantic Point Correspondence",
+      "authors": [
+        "Yuchao Gu",
+        "Yipin Zhou",
+        "Bichen Wu",
+        "Licheng Yu",
+        "Jia-Wei Liu",
+        "Rui Zhao",
+        "Jay Zhangjie Wu",
+        "David Junhao Zhang",
+        "Mike Zheng Shou",
+        "Kevin Tang"
+      ],
+      "upvotes": 22,
+      "github": null,
+      "published": "2023-12-04T17:58:06.000Z"
+    },
+    {
+      "id": "2312.00869",
+      "title": "Segment and Caption Anything",
+      "authors": [
+        "Xiaoke Huang",
+        "Jianfeng Wang",
+        "Yansong Tang",
+        "Zheng Zhang",
+        "Han Hu",
+        "Jiwen Lu",
+        "Lijuan Wang",
+        "Zicheng Liu"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/xk-huang/segment-caption-anything",
+      "published": "2023-12-01T19:00:17.000Z"
+    },
+    {
+      "id": "2312.02928",
+      "title": "LivePhoto: Real Image Animation with Text-guided Motion Control",
+      "authors": [
+        "Xi Chen",
+        "Zhiheng Liu",
+        "Mengting Chen",
+        "Yutong Feng",
+        "Yu Liu",
+        "Yujun Shen",
+        "Hengshuang Zhao"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2023-12-05T17:59:52.000Z"
+    },
+    {
+      "id": "2312.00886",
+      "title": "Nash Learning from Human Feedback",
+      "authors": [
+        "Rémi Munos",
+        "Michal Valko",
+        "Daniele Calandriello",
+        "Mohammad Gheshlaghi Azar",
+        "Mark Rowland",
+        "Daniel Guo",
+        "Yunhao Tang",
+        "Matthieu Geist",
+        "Thomas Mésnard",
+        "Andrea Michi",
+        "Marco Selvi",
+        "Sertan Girgin",
+        "Nikola Momchev",
+        "Olivier Bachem",
+        "Daniel J. Mankowitz",
+        "Doina Precup",
+        "Bilal Piot"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2023-12-01T19:26:23.000Z"
+    },
+    {
+      "id": "2312.02974",
+      "title": "Describing Differences in Image Sets with Natural Language",
+      "authors": [
+        "Lisa Dunlap",
+        "Yuhui Zhang",
+        "Xiaohan Wang",
+        "Ruiqi Zhong",
+        "Trevor Darrell",
+        "Jacob Steinhardt",
+        "Joseph E. Gonzalez",
+        "Serena Yeung-Levy"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/understanding-visual-datasets/visdiff",
+      "published": "2023-12-05T18:59:16.000Z"
+    },
+    {
+      "id": "2312.02139",
+      "title": "DiffiT: Diffusion Vision Transformers for Image Generation",
+      "authors": [
+        "Ali Hatamizadeh",
+        "Jiaming Song",
+        "Guilin Liu",
+        "Jan Kautz",
+        "Arash Vahdat"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/nvlabs/diffit",
+      "published": "2023-12-04T18:57:01.000Z"
+    },
+    {
+      "id": "2312.02949",
+      "title": "LLaVA-Grounding: Grounded Visual Chat with Large Multimodal Models",
+      "authors": [
+        "Hao Zhang",
+        "Hongyang Li",
+        "Feng Li",
+        "Tianhe Ren",
+        "Xueyan Zou",
+        "Shilong Liu",
+        "Shijia Huang",
+        "Jianfeng Gao",
+        "Lei Zhang",
+        "Chunyuan Li",
+        "Jianwei Yang"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/ux-decoder/llava-grounding",
+      "published": "2023-12-05T18:29:31.000Z"
+    },
+    {
+      "id": "2312.02969",
+      "title": "Rank-without-GPT: Building GPT-Independent Listwise Rerankers on Open-Source Large Language Models",
+      "authors": [
+        "Xinyu Zhang",
+        "Sebastian Hofstätter",
+        "Patrick Lewis",
+        "Raphael Tang",
+        "Jimmy Lin"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2023-12-05T18:57:40.000Z"
+    },
+    {
+      "id": "2312.02155",
+      "title": "GPS-Gaussian: Generalizable Pixel-wise 3D Gaussian Splatting for Real-time Human Novel View Synthesis",
+      "authors": [
+        "Shunyuan Zheng",
+        "Boyao Zhou",
+        "Ruizhi Shao",
+        "Boning Liu",
+        "Shengping Zhang",
+        "Liqiang Nie",
+        "Yebin Liu"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/aipixel/gps-gaussian",
+      "published": "2023-12-04T18:59:55.000Z"
+    },
+    {
+      "id": "2312.02919",
+      "title": "Fine-grained Controllable Video Generation via Object Appearance and Context",
+      "authors": [
+        "Hsin-Ping Huang",
+        "Yu-Chuan Su",
+        "Deqing Sun",
+        "Lu Jiang",
+        "Xuhui Jia",
+        "Yukun Zhu",
+        "Ming-Hsuan Yang"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2023-12-05T17:47:33.000Z"
+    },
+    {
+      "id": "2312.02142",
+      "title": "Object Recognition as Next Token Prediction",
+      "authors": [
+        "Kaiyu Yue",
+        "Bor-Chun Chen",
+        "Jonas Geiping",
+        "Hengduo Li",
+        "Tom Goldstein",
+        "Ser-Nam Lim"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/kaiyuyue/nxtp",
+      "published": "2023-12-04T18:58:40.000Z"
+    },
+    {
+      "id": "2312.02116",
+      "title": "GIVT: Generative Infinite-Vocabulary Transformers",
+      "authors": [
+        "Michael Tschannen",
+        "Cian Eastwood",
+        "Fabian Mentzer"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2023-12-04T18:48:02.000Z"
+    },
+    {
+      "id": "2312.02189",
+      "title": "StableDreamer: Taming Noisy Score Distillation Sampling for Text-to-3D",
+      "authors": [
+        "Pengsheng Guo",
+        "Hans Hao",
+        "Adam Caccavale",
+        "Zhongzheng Ren",
+        "Edward Zhang",
+        "Qi Shan",
+        "Aditya Sankar",
+        "Alexander G. Schwing",
+        "Alex Colburn",
+        "Fangchang Ma"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2023-12-02T02:27:58.000Z"
+    },
+    {
+      "id": "2312.02135",
+      "title": "Fast View Synthesis of Casual Videos",
+      "authors": [
+        "Yao-Chih Lee",
+        "Zhoutong Zhang",
+        "Kevin Blackburn-Matzen",
+        "Simon Niklaus",
+        "Jianming Zhang",
+        "Jia-Bin Huang",
+        "Feng Liu"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2023-12-04T18:55:48.000Z"
+    },
+    {
+      "id": "2312.00860",
+      "title": "Segment Any 3D Gaussians",
+      "authors": [
+        "Jiazhong Cen",
+        "Jiemin Fang",
+        "Chen Yang",
+        "Lingxi Xie",
+        "Xiaopeng Zhang",
+        "Wei Shen",
+        "Qi Tian"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2023-12-01T17:15:24.000Z"
+    },
+    {
+      "id": "2312.02133",
+      "title": "Style Aligned Image Generation via Shared Attention",
+      "authors": [
+        "Amir Hertz",
+        "Andrey Voynov",
+        "Shlomi Fruchter",
+        "Daniel Cohen-Or"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/google/style-aligned",
+      "published": "2023-12-04T18:55:35.000Z"
+    },
+    {
+      "id": "2312.01409",
+      "title": "Generative Rendering: Controllable 4D-Guided Video Generation with 2D Diffusion Models",
+      "authors": [
+        "Shengqu Cai",
+        "Duygu Ceylan",
+        "Matheus Gadelha",
+        "Chun-Hao Paul Huang",
+        "Tuanfeng Yang Wang",
+        "Gordon Wetzstein"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2023-12-03T14:17:11.000Z"
+    },
+    {
+      "id": "2312.02980",
+      "title": "GPT4Point: A Unified Framework for Point-Language Understanding and Generation",
+      "authors": [
+        "Zhangyang Qi",
+        "Ye Fang",
+        "Zeyi Sun",
+        "Xiaoyang Wu",
+        "Tong Wu",
+        "Jiaqi Wang",
+        "Dahua Lin",
+        "Hengshuang Zhao"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2023-12-05T18:59:55.000Z"
+    },
+    {
+      "id": "2312.02179",
+      "title": "Training Chain-of-Thought via Latent-Variable Inference",
+      "authors": [
+        "Du Phan",
+        "Matthew D. Hoffman",
+        "David Dohan",
+        "Sholto Douglas",
+        "Tuan Anh Le",
+        "Aaron Parisi",
+        "Pavel Sountsov",
+        "Charles Sutton",
+        "Sharad Vikram",
+        "Rif A. Saurous"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2023-11-28T17:47:32.000Z"
+    },
+    {
+      "id": "2312.02206",
+      "title": "Axiomatic Preference Modeling for Longform Question Answering",
+      "authors": [
+        "Corby Rosset",
+        "Guoqing Zheng",
+        "Victor Dibia",
+        "Ahmed Awadallah",
+        "Paul Bennett"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2023-12-02T23:11:41.000Z"
+    },
+    {
+      "id": "2312.02931",
+      "title": "WhisBERT: Multimodal Text-Audio Language Modeling on 100M Words",
+      "authors": [
+        "Lukas Wolf",
+        "Klemen Kotar",
+        "Greta Tuckute",
+        "Eghbal Hosseini",
+        "Tamar Regev",
+        "Ethan Wilcox",
+        "Alex Warstadt"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/lu-wo/whisbert",
+      "published": "2023-12-05T18:03:13.000Z"
+    },
+    {
+      "id": "2312.01407",
+      "title": "VideoRF: Rendering Dynamic Radiance Fields as 2D Feature Video Streams",
+      "authors": [
+        "Liao Wang",
+        "Kaixin Yao",
+        "Chengcheng Guo",
+        "Zhirui Zhang",
+        "Qiang Hu",
+        "Jingyi Yu",
+        "Lan Xu",
+        "Minye Wu"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2023-12-03T14:14:35.000Z"
+    },
+    {
+      "id": "2312.01531",
+      "title": "SANeRF-HQ: Segment Anything for NeRF in High Quality",
+      "authors": [
+        "Yichen Liu",
+        "Benran Hu",
+        "Chi-Keung Tang",
+        "Yu-Wing Tai"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2023-12-03T23:09:38.000Z"
+    },
+    {
+      "id": "2312.02149",
+      "title": "Generative Powers of Ten",
+      "authors": [
+        "Xiaojuan Wang",
+        "Janne Kontkanen",
+        "Brian Curless",
+        "Steve Seitz",
+        "Ira Kemelmacher",
+        "Ben Mildenhall",
+        "Pratul Srinivasan",
+        "Dor Verbin",
+        "Aleksander Holynski"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2023-12-04T18:59:25.000Z"
+    },
+    {
+      "id": "2312.02147",
+      "title": "Rejuvenating image-GPT as Strong Visual Representation Learners",
+      "authors": [
+        "Sucheng Ren",
+        "Zeyu Wang",
+        "Hongru Zhu",
+        "Junfei Xiao",
+        "Alan Yuille",
+        "Cihang Xie"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/oliverrensu/d-igpt",
+      "published": "2023-12-04T18:59:20.000Z"
+    },
+    {
+      "id": "2312.01663",
+      "title": "Customize your NeRF: Adaptive Source Driven 3D Scene Editing via Local-Global Iterative Training",
+      "authors": [
+        "Runze He",
+        "Shaofei Huang",
+        "Xuecheng Nie",
+        "Tianrui Hui",
+        "Luoqi Liu",
+        "Jiao Dai",
+        "Jizhong Han",
+        "Guanbin Li",
+        "Si Liu"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2023-12-04T06:25:06.000Z"
+    },
+    {
+      "id": "2312.01532",
+      "title": "Using Large Language Models to Accelerate Communication for Users with Severe Motor Impairments",
+      "authors": [
+        "Shanqing Cai",
+        "Subhashini Venugopalan",
+        "Katie Seaver",
+        "Xiang Xiao",
+        "Katrin Tomanek",
+        "Sri Jalasutram",
+        "Meredith Ringel Morris",
+        "Shaun Kane",
+        "Ajit Narayanan",
+        "Robert L. MacDonald",
+        "Emily Kornman",
+        "Daniel Vance",
+        "Blair Casey",
+        "Steve M. Gleason",
+        "Philip Q. Nelson",
+        "Michael P. Brenner"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2023-12-03T23:12:49.000Z"
+    },
+    {
+      "id": "2312.01279",
+      "title": "TextGenSHAP: Scalable Post-hoc Explanations in Text Generation with Long Documents",
+      "authors": [
+        "James Enouen",
+        "Hootan Nakhost",
+        "Sayna Ebrahimi",
+        "Sercan O Arik",
+        "Yan Liu",
+        "Tomas Pfister"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2023-12-03T04:35:04.000Z"
+    }
+  ]
+}

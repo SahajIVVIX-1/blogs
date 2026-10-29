@@ -1,0 +1,430 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-02-04",
+  "fetched_at": "2026-10-29T15:30:30.422Z",
+  "candidates": [
+    {
+      "id": "2502.01061",
+      "title": "OmniHuman-1: Rethinking the Scaling-Up of One-Stage Conditioned Human Animation Models",
+      "authors": [
+        "Gaojie Lin",
+        "Jianwen Jiang",
+        "Jiaqi Yang",
+        "Zerong Zheng",
+        "Chao Liang"
+      ],
+      "upvotes": 225,
+      "github": null,
+      "published": "2025-02-03T05:17:32.000Z"
+    },
+    {
+      "id": "2502.01237",
+      "title": "The Differences Between Direct Alignment Algorithms are a Blur",
+      "authors": [
+        "Alexey Gorbatovski",
+        "Boris Shaposhnikov",
+        "Viacheslav Sinii",
+        "Alexey Malakhov",
+        "Daniil Gavrilov"
+      ],
+      "upvotes": 113,
+      "github": null,
+      "published": "2025-02-03T10:54:14.000Z"
+    },
+    {
+      "id": "2502.01456",
+      "title": "Process Reinforcement through Implicit Rewards",
+      "authors": [
+        "Ganqu Cui",
+        "Lifan Yuan",
+        "Zefan Wang",
+        "Hanbin Wang",
+        "Wendi Li",
+        "Bingxiang He",
+        "Yuchen Fan",
+        "Tianyu Yu",
+        "Qixin Xu",
+        "Weize Chen",
+        "Jiarui Yuan",
+        "Huayu Chen",
+        "Kaiyan Zhang",
+        "Xingtai Lv",
+        "Shuo Wang",
+        "Yuan Yao",
+        "Xu Han",
+        "Hao Peng",
+        "Yu Cheng",
+        "Zhiyuan Liu",
+        "Maosong Sun",
+        "Bowen Zhou",
+        "Ning Ding"
+      ],
+      "upvotes": 62,
+      "github": "https://github.com/PRIME-RL/PRIME",
+      "published": "2025-02-03T15:43:48.000Z"
+    },
+    {
+      "id": "2502.01534",
+      "title": "Preference Leakage: A Contamination Problem in LLM-as-a-judge",
+      "authors": [
+        "Dawei Li",
+        "Renliang Sun",
+        "Yue Huang",
+        "Ming Zhong",
+        "Bohan Jiang",
+        "Jiawei Han",
+        "Xiangliang Zhang",
+        "Wei Wang",
+        "Huan Liu"
+      ],
+      "upvotes": 39,
+      "github": "https://github.com/david-li0406/preference-leakage",
+      "published": "2025-02-03T17:13:03.000Z"
+    },
+    {
+      "id": "2502.01341",
+      "title": "AlignVLM: Bridging Vision and Language Latent Spaces for Multimodal Understanding",
+      "authors": [
+        "Ahmed Masry",
+        "Juan A. Rodriguez",
+        "Tianyu Zhang",
+        "Suyuchen Wang",
+        "Chao Wang",
+        "Aarash Feizi",
+        "Akshay Kalkunte Suresh",
+        "Abhay Puri",
+        "Xiangru Jian",
+        "Pierre-André Noël",
+        "Sathwik Tejaswi Madhusudhan",
+        "Marco Pedersoli",
+        "Bang Liu",
+        "Nicolas Chapados",
+        "Yoshua Bengio",
+        "Enamul Hoque",
+        "Christopher Pal",
+        "Issam H. Laradji",
+        "David Vazquez",
+        "Perouz Taslakian",
+        "Spandana Gella",
+        "Sai Rajeswar"
+      ],
+      "upvotes": 37,
+      "github": null,
+      "published": "2025-02-03T13:34:51.000Z"
+    },
+    {
+      "id": "2502.01639",
+      "title": "SliderSpace: Decomposing the Visual Capabilities of Diffusion Models",
+      "authors": [
+        "Rohit Gandikota",
+        "Zongze Wu",
+        "Richard Zhang",
+        "David Bau",
+        "Eli Shechtman",
+        "Nick Kolkin"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/rohitgandikota/sliderspace",
+      "published": "2025-02-03T18:59:55.000Z"
+    },
+    {
+      "id": "2501.18636",
+      "title": "SafeRAG: Benchmarking Security in Retrieval-Augmented Generation of Large Language Model",
+      "authors": [
+        "Xun Liang",
+        "Simin Niu",
+        "Zhiyu Li",
+        "Sensen Zhang",
+        "Hanyu Wang",
+        "Feiyu Xiong",
+        "Jason Zhaoxin Fan",
+        "Bo Tang",
+        "Shichao Song",
+        "Mengwei Wang",
+        "Jiawei Yang"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/iaar-shanghai/saferag",
+      "published": "2025-01-28T17:01:31.000Z"
+    },
+    {
+      "id": "2502.01142",
+      "title": "DeepRAG: Thinking to Retrieval Step by Step for Large Language Models",
+      "authors": [
+        "Xinyan Guan",
+        "Jiali Zeng",
+        "Fandong Meng",
+        "Chunlei Xin",
+        "Yaojie Lu",
+        "Hongyu Lin",
+        "Xianpei Han",
+        "Le Sun",
+        "Jie Zhou"
+      ],
+      "upvotes": 24,
+      "github": null,
+      "published": "2025-02-03T08:22:45.000Z"
+    },
+    {
+      "id": "2502.01637",
+      "title": "Scaling Embedding Layers in Language Models",
+      "authors": [
+        "Da Yu",
+        "Edith Cohen",
+        "Badih Ghazi",
+        "Yangsibo Huang",
+        "Pritish Kamath",
+        "Ravi Kumar",
+        "Daogao Liu",
+        "Chiyuan Zhang"
+      ],
+      "upvotes": 24,
+      "github": null,
+      "published": "2025-02-03T18:59:32.000Z"
+    },
+    {
+      "id": "2502.00698",
+      "title": "MM-IQ: Benchmarking Human-Like Abstraction and Reasoning in Multimodal Models",
+      "authors": [
+        "Huanqia Cai",
+        "Yijun Yang",
+        "Winston Hu"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/AceCHQ/MMIQ",
+      "published": "2025-02-02T07:12:03.000Z"
+    },
+    {
+      "id": "2502.01572",
+      "title": "MakeAnything: Harnessing Diffusion Transformers for Multi-Domain Procedural Sequence Generation",
+      "authors": [
+        "Yiren Song",
+        "Cheng Liu",
+        "Mike Zheng Shou"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/showlab/MakeAnything",
+      "published": "2025-02-03T17:55:30.000Z"
+    },
+    {
+      "id": "2502.01100",
+      "title": "ZebraLogic: On the Scaling Limits of LLMs for Logical Reasoning",
+      "authors": [
+        "Bill Yuchen Lin",
+        "Ronan Le Bras",
+        "Kyle Richardson",
+        "Ashish Sabharwal",
+        "Radha Poovendran",
+        "Peter Clark",
+        "Yejin Choi"
+      ],
+      "upvotes": 21,
+      "github": null,
+      "published": "2025-02-03T06:44:49.000Z"
+    },
+    {
+      "id": "2502.01068",
+      "title": "FastKV: Decoupling of Context Reduction and KV Cache Compression for Prefill-Decoding Acceleration",
+      "authors": [
+        "Dongwon Jo",
+        "Jiwon Song",
+        "Yulhwa Kim",
+        "Jae-Joon Kim"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/dongwonjo/FastKV",
+      "published": "2025-02-03T05:25:09.000Z"
+    },
+    {
+      "id": "2502.00094",
+      "title": "AIN: The Arabic INclusive Large Multimodal Model",
+      "authors": [
+        "Ahmed Heakl",
+        "Sara Ghaboura",
+        "Omkar Thawkar",
+        "Fahad Shahbaz Khan",
+        "Hisham Cholakkal",
+        "Rao Muhammad Anwer",
+        "Salman Khan"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/mbzuai-oryx/AIN",
+      "published": "2025-01-31T18:58:20.000Z"
+    },
+    {
+      "id": "2502.01081",
+      "title": "The Jumping Reasoning Curve? Tracking the Evolution of Reasoning Performance in GPT-[n] and o-[n] Models on Multimodal Puzzles",
+      "authors": [
+        "Vernon Y. H. Toh",
+        "Yew Ken Chia",
+        "Deepanway Ghosal",
+        "Soujanya Poria"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/declare-lab/LLM-PuzzleTest",
+      "published": "2025-02-03T05:47:04.000Z"
+    },
+    {
+      "id": "2502.01208",
+      "title": "Almost Surely Safe Alignment of Large Language Models at Inference-Time",
+      "authors": [
+        "Xiaotong Ji",
+        "Shyam Sundhar Ramesh",
+        "Matthieu Zimmer",
+        "Ilija Bogunovic",
+        "Jun Wang",
+        "Haitham Bou Ammar"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2025-02-03T09:59:32.000Z"
+    },
+    {
+      "id": "2502.01591",
+      "title": "Improving Transformer World Models for Data-Efficient RL",
+      "authors": [
+        "Antoine Dedieu",
+        "Joseph Ortiz",
+        "Xinghua Lou",
+        "Carter Wendelken",
+        "Wolfgang Lehrach",
+        "J Swaroop Guntupalli",
+        "Miguel Lazaro-Gredilla",
+        "Kevin Patrick Murphy"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2025-02-03T18:25:17.000Z"
+    },
+    {
+      "id": "2502.00987",
+      "title": "RandLoRA: Full-rank parameter-efficient fine-tuning of large models",
+      "authors": [
+        "Paul Albert",
+        "Frederic Z. Zhang",
+        "Hemanth Saratchandran",
+        "Cristian Rodriguez-Opazo",
+        "Anton van den Hengel",
+        "Ehsan Abbasnejad"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/PaulAlbert31/RandLoRA",
+      "published": "2025-02-03T01:59:45.000Z"
+    },
+    {
+      "id": "2502.01584",
+      "title": "PhD Knowledge Not Required: A Reasoning Challenge for Large Language Models",
+      "authors": [
+        "Carolyn Jane Anderson",
+        "Joydeep Biswas",
+        "Aleksander Boruch-Gruszecki",
+        "Federico Cassano",
+        "Molly Q Feldman",
+        "Arjun Guha",
+        "Francesca Lucchetti",
+        "Zixuan Wu"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2025-02-03T18:10:38.000Z"
+    },
+    {
+      "id": "2502.01441",
+      "title": "Improved Training Technique for Latent Consistency Models",
+      "authors": [
+        "Quan Dao",
+        "Khanh Doan",
+        "Di Liu",
+        "Trung Le",
+        "Dimitris Metaxas"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/quandao10/sLCT",
+      "published": "2025-02-03T15:25:58.000Z"
+    },
+    {
+      "id": "2502.02095",
+      "title": "LongDPO: Unlock Better Long-form Generation Abilities for LLMs via Critique-augmented Stepwise Information",
+      "authors": [
+        "Bowen Ping",
+        "Jiali Zeng",
+        "Fandong Meng",
+        "Shuo Wang",
+        "Jie Zhou",
+        "Shanghang Zhang"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/pingbowen23/longdpo",
+      "published": "2025-02-04T08:25:17.000Z"
+    },
+    {
+      "id": "2502.01619",
+      "title": "Learning to Generate Unit Tests for Automated Debugging",
+      "authors": [
+        "Archiki Prasad",
+        "Elias Stengel-Eskin",
+        "Justin Chih-Yao Chen",
+        "Zaid Khan",
+        "Mohit Bansal"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/archiki/utgendebug",
+      "published": "2025-02-03T18:51:43.000Z"
+    },
+    {
+      "id": "2502.01636",
+      "title": "Lifelong Sequential Knowledge Editing without Model Degradation",
+      "authors": [
+        "Akshat Gupta",
+        "Phudish Prateepamornkul",
+        "Maochuan Lu",
+        "Ahmed Alaa",
+        "Thomas Hartvigsen",
+        "Gopala Anumanchipalli"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/scalable-model-editing/knowledge-editing-regularization",
+      "published": "2025-02-03T18:59:14.000Z"
+    },
+    {
+      "id": "2502.01126",
+      "title": "Language Models Prefer What They Know: Relative Confidence Estimation via Confidence Preferences",
+      "authors": [
+        "Vaishnavi Shrivastava",
+        "Ananya Kumar",
+        "Percy Liang"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2025-02-03T07:43:27.000Z"
+    },
+    {
+      "id": "2501.18055",
+      "title": "Current Pathology Foundation Models are unrobust to Medical Center Differences",
+      "authors": [
+        "Edwin D. de Jong",
+        "Eric Marcus",
+        "Jonas Teuwen"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2025-01-29T23:38:14.000Z"
+    },
+    {
+      "id": "2502.00314",
+      "title": "A Study on the Performance of U-Net Modifications in Retroperitoneal Tumor Segmentation",
+      "authors": [
+        "Moein Heidari",
+        "Ehsan Khodapanah Aghdam",
+        "Alexander Manzella",
+        "Daniel Hsu",
+        "Rebecca Scalabrino",
+        "Wenjin Chen",
+        "David J. Foran",
+        "Ilker Hacihaliloglu"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/moeinheidari7829/Retroperitoneal_Tumour_Segmentation_SPIE2025",
+      "published": "2025-02-01T04:25:28.000Z"
+    }
+  ]
+}

@@ -1,0 +1,359 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-06-11",
+  "fetched_at": "2026-10-29T15:31:47.732Z",
+  "candidates": [
+    {
+      "id": "2506.06751",
+      "title": "Geopolitical biases in LLMs: what are the \"good\" and the \"bad\" countries according to contemporary language models",
+      "authors": [
+        "Mikhail Salnikov",
+        "Dmitrii Korzh",
+        "Ivan Lazichny",
+        "Elvir Karimov",
+        "Artyom Iudin",
+        "Ivan Oseledets",
+        "Oleg Y. Rogov",
+        "Alexander Panchenko",
+        "Natalia Loukachevitch",
+        "Elena Tutubalina"
+      ],
+      "upvotes": 71,
+      "github": "https://github.com/AIRI-Institute/geopolitical_llm_bias",
+      "published": "2025-06-07T10:45:17.000Z"
+    },
+    {
+      "id": "2506.09040",
+      "title": "Autoregressive Semantic Visual Reconstruction Helps VLMs Understand Better",
+      "authors": [
+        "Dianyi Wang",
+        "Wei Song",
+        "Yikun Wang",
+        "Siyuan Wang",
+        "Kaicheng Yu",
+        "Zhongyu Wei",
+        "Jiaqi Wang"
+      ],
+      "upvotes": 33,
+      "github": "https://github.com/alenjandrowang/asvr",
+      "published": "2025-06-10T17:57:50.000Z"
+    },
+    {
+      "id": "2506.08009",
+      "title": "Self Forcing: Bridging the Train-Test Gap in Autoregressive Video Diffusion",
+      "authors": [
+        "Xun Huang",
+        "Zhengqi Li",
+        "Guande He",
+        "Mingyuan Zhou",
+        "Eli Shechtman"
+      ],
+      "upvotes": 31,
+      "github": "https://github.com/guandeh17/Self-Forcing",
+      "published": "2025-06-09T17:59:55.000Z"
+    },
+    {
+      "id": "2506.08672",
+      "title": "RuleReasoner: Reinforced Rule-based Reasoning via Domain-aware Dynamic Sampling",
+      "authors": [
+        "Yang Liu",
+        "Jiaqi Li",
+        "Zilong Zheng"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/bigai-nlco/RuleReasoner",
+      "published": "2025-06-10T10:31:21.000Z"
+    },
+    {
+      "id": "2506.08279",
+      "title": "Seeing Voices: Generating A-Roll Video from Audio with Mirage",
+      "authors": [
+        "Aditi Sundararaman",
+        "Amogh Adishesha",
+        "Andrew Jaegle",
+        "Dan Bigioi",
+        "Hyoung-Kyu Song",
+        "Jon Kyl",
+        "Justin Mao",
+        "Kevin Lan",
+        "Mojtaba Komeili",
+        "ShahRukh Athar",
+        "Sheila Babayan",
+        "Stanislau Beliasau",
+        "William Buchwalter"
+      ],
+      "upvotes": 26,
+      "github": null,
+      "published": "2025-06-09T22:56:02.000Z"
+    },
+    {
+      "id": "2506.07177",
+      "title": "Frame Guidance: Training-Free Guidance for Frame-Level Control in Video Diffusion Models",
+      "authors": [
+        "Sangwon Jang",
+        "Taekyung Ki",
+        "Jaehyeong Jo",
+        "Jaehong Yoon",
+        "Soo Ye Kim",
+        "Zhe Lin",
+        "Sung Ju Hwang"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/agwmon/frame-guidance",
+      "published": "2025-06-08T14:54:41.000Z"
+    },
+    {
+      "id": "2506.08002",
+      "title": "Aligning Text, Images, and 3D Structure Token-by-Token",
+      "authors": [
+        "Aadarsh Sahoo",
+        "Vansh Tibrewal",
+        "Georgia Gkioxari"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/AadSah/kyvo",
+      "published": "2025-06-09T17:59:37.000Z"
+    },
+    {
+      "id": "2506.04614",
+      "title": "Look Before You Leap: A GUI-Critic-R1 Model for Pre-Operative Error Diagnosis in GUI Automation",
+      "authors": [
+        "Yuyang Wanyan",
+        "Xi Zhang",
+        "Haiyang Xu",
+        "Haowei Liu",
+        "Junyang Wang",
+        "Jiabo Ye",
+        "Yutong Kou",
+        "Ming Yan",
+        "Fei Huang",
+        "Xiaoshan Yang",
+        "Weiming Dong",
+        "Changsheng Xu"
+      ],
+      "upvotes": 19,
+      "github": null,
+      "published": "2025-06-05T04:12:36.000Z"
+    },
+    {
+      "id": "2506.07927",
+      "title": "Solving Inequality Proofs with Large Language Models",
+      "authors": [
+        "Jiayi Sheng",
+        "Luna Lyu",
+        "Jikai Jin",
+        "Tony Xia",
+        "Alex Gu",
+        "James Zou",
+        "Pan Lu"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/lupantech/ineqmath",
+      "published": "2025-06-09T16:43:38.000Z"
+    },
+    {
+      "id": "2506.08300",
+      "title": "Institutional Books 1.0: A 242B token dataset from Harvard Library's collections, refined for accuracy and usability",
+      "authors": [
+        "Matteo Cargnelutti",
+        "Catherine Brobston",
+        "John Hess",
+        "Jack Cushman",
+        "Kristi Mukk",
+        "Aristana Scourtas",
+        "Kyle Courtney",
+        "Greg Leppert",
+        "Amanda Watson",
+        "Martha Whitehead",
+        "Jonathan Zittrain"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/instdin/institutional-books-1-pipeline",
+      "published": "2025-06-10T00:11:30.000Z"
+    },
+    {
+      "id": "2506.07932",
+      "title": "Squeeze3D: Your 3D Generation Model is Secretly an Extreme Neural Compressor",
+      "authors": [
+        "Rishit Dagli",
+        "Yushi Guan",
+        "Sankeerth Durvasula",
+        "Mohammadreza Mofayezi",
+        "Nandita Vijaykumar"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/Rishit-dagli/squeeze3d",
+      "published": "2025-06-09T16:52:10.000Z"
+    },
+    {
+      "id": "2506.05167",
+      "title": "ECoRAG: Evidentiality-guided Compression for Long Context RAG",
+      "authors": [
+        "Yeonseok Jeong",
+        "Jinsu Kim",
+        "Dohyeon Lee",
+        "Seung-won Hwang"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/ldilab/ECoRAG",
+      "published": "2025-06-05T15:43:49.000Z"
+    },
+    {
+      "id": "2506.08500",
+      "title": "DRAGged into Conflicts: Detecting and Addressing Conflicting Sources in Search-Augmented LLMs",
+      "authors": [
+        "Arie Cattan",
+        "Alon Jacovi",
+        "Ori Ram",
+        "Jonathan Herzig",
+        "Roee Aharoni",
+        "Sasha Goldshtein",
+        "Eran Ofek",
+        "Idan Szpektor",
+        "Avi Caciularu"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/google-research-datasets/rag_conflicts",
+      "published": "2025-06-10T06:52:57.000Z"
+    },
+    {
+      "id": "2506.07976",
+      "title": "Thinking vs. Doing: Agents that Reason by Scaling Test-Time Interaction",
+      "authors": [
+        "Junhong Shen",
+        "Hao Bai",
+        "Lunjun Zhang",
+        "Yifei Zhou",
+        "Amrith Setlur",
+        "Shengbang Tong",
+        "Diego Caples",
+        "Nan Jiang",
+        "Tong Zhang",
+        "Ameet Talwalkar",
+        "Aviral Kumar"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/test-time-interaction/tti",
+      "published": "2025-06-09T17:50:02.000Z"
+    },
+    {
+      "id": "2506.07047",
+      "title": "Mathesis: Towards Formal Theorem Proving from Natural Languages",
+      "authors": [
+        "Yu Xuejun",
+        "Jianyuan Zhong",
+        "Zijin Feng",
+        "Pengyi Zhai",
+        "Roozbeh Yousefzadeh",
+        "Wei Chong Ng",
+        "Haoxiong Liu",
+        "Ziyi Shou",
+        "Jing Xiong",
+        "Yudong Zhou",
+        "Claudia Beth Ong",
+        "Austen Jeremy Sugiarto",
+        "Yaoxi Zhang",
+        "Wai Ming Tai",
+        "Huan Cao",
+        "Dongcai Lu",
+        "Jiacheng Sun",
+        "Qiang Xu",
+        "Shen Xin",
+        "Zhenguo Li"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/Huawei-AI4Math/Mathesis",
+      "published": "2025-06-08T09:04:14.000Z"
+    },
+    {
+      "id": "2506.07045",
+      "title": "Interpretable and Reliable Detection of AI-Generated Images via Grounded Reasoning in MLLMs",
+      "authors": [
+        "Yikun Ji",
+        "Hong Yan",
+        "Jun Lan",
+        "Huijia Zhu",
+        "Weiqiang Wang",
+        "Qi Fan",
+        "Liqing Zhang",
+        "Jianfu Zhang"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/Gennadiyev/mllm-defake",
+      "published": "2025-06-08T08:47:44.000Z"
+    },
+    {
+      "id": "2506.05928",
+      "title": "MoA: Heterogeneous Mixture of Adapters for Parameter-Efficient Fine-Tuning of Large Language Models",
+      "authors": [
+        "Jie Cao",
+        "Tianwei Lin",
+        "Hongyang He",
+        "Rolan Yan",
+        "Wenqiao Zhang",
+        "Juncheng Li",
+        "Dongping Zhang",
+        "Siliang Tang",
+        "Yueting Zhuang"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/DCDmllm/MoA",
+      "published": "2025-06-06T09:54:19.000Z"
+    },
+    {
+      "id": "2506.08887",
+      "title": "DiscoVLA: Discrepancy Reduction in Vision, Language, and Alignment for Parameter-Efficient Video-Text Retrieval",
+      "authors": [
+        "Leqi Shen",
+        "Guoqiang Gong",
+        "Tianxiang Hao",
+        "Tao He",
+        "Yifeng Zhang",
+        "Pengzhang Liu",
+        "Sicheng Zhao",
+        "Jungong Han",
+        "Guiguang Ding"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/LunarShen/DsicoVLA",
+      "published": "2025-06-10T15:16:40.000Z"
+    },
+    {
+      "id": "2506.05700",
+      "title": "RKEFino1: A Regulation Knowledge-Enhanced Large Language Model",
+      "authors": [
+        "Yan Wang",
+        "Yueru He",
+        "Ruoyu Xiang",
+        "Jeff Zhao"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-06-06T03:02:52.000Z"
+    },
+    {
+      "id": "2506.04688",
+      "title": "MMRefine: Unveiling the Obstacles to Robust Refinement in Multimodal Large Language Models",
+      "authors": [
+        "Gio Paik",
+        "Geewook Kim",
+        "Jinbae Im"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/naver-ai/MMRefine",
+      "published": "2025-06-05T07:11:36.000Z"
+    },
+    {
+      "id": "2506.04020",
+      "title": "QQSUM: A Novel Task and Model of Quantitative Query-Focused Summarization for Review-based Product Question Answering",
+      "authors": [
+        "An Quang Tang",
+        "Xiuzhen Zhang",
+        "Minh Ngoc Dinh",
+        "Zhuang Li"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2025-06-04T14:50:32.000Z"
+    }
+  ]
+}

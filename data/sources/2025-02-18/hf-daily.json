@@ -1,0 +1,622 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-02-18",
+  "fetched_at": "2026-10-29T15:30:38.890Z",
+  "candidates": [
+    {
+      "id": "2502.11089",
+      "title": "Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention",
+      "authors": [
+        "Jingyang Yuan",
+        "Huazuo Gao",
+        "Damai Dai",
+        "Junyu Luo",
+        "Liang Zhao",
+        "Zhengyan Zhang",
+        "Zhenda Xie",
+        "Y. X. Wei",
+        "Lean Wang",
+        "Zhiping Xiao",
+        "Yuqing Wang",
+        "Chong Ruan",
+        "Ming Zhang",
+        "Wenfeng Liang",
+        "Wangding Zeng"
+      ],
+      "upvotes": 158,
+      "github": null,
+      "published": "2025-02-16T11:53:44.000Z"
+    },
+    {
+      "id": "2502.12115",
+      "title": "SWE-Lancer: Can Frontier LLMs Earn $1 Million from Real-World Freelance Software Engineering?",
+      "authors": [
+        "Samuel Miserendino",
+        "Michele Wang",
+        "Tejal Patwardhan",
+        "Johannes Heidecke"
+      ],
+      "upvotes": 46,
+      "github": "https://github.com/openai/swelancer-benchmark",
+      "published": "2025-02-17T18:41:16.000Z"
+    },
+    {
+      "id": "2502.12152",
+      "title": "Learning Getting-Up Policies for Real-World Humanoid Robots",
+      "authors": [
+        "Xialin He",
+        "Runpei Dong",
+        "Zixuan Chen",
+        "Saurabh Gupta"
+      ],
+      "upvotes": 43,
+      "github": "https://github.com/RunpeiDong/humanup",
+      "published": "2025-02-17T18:59:06.000Z"
+    },
+    {
+      "id": "2502.10458",
+      "title": "I Think, Therefore I Diffuse: Enabling Multimodal In-Context Reasoning in Diffusion Models",
+      "authors": [
+        "Zhenxing Mi",
+        "Kuan-Chieh Wang",
+        "Guocheng Qian",
+        "Hanrong Ye",
+        "Runtao Liu",
+        "Sergey Tulyakov",
+        "Kfir Aberman",
+        "Dan Xu"
+      ],
+      "upvotes": 34,
+      "github": "https://github.com/MiZhenxing/ThinkDiff",
+      "published": "2025-02-12T05:30:08.000Z"
+    },
+    {
+      "id": "2502.11190",
+      "title": "ReLearn: Unlearning via Learning for Large Language Models",
+      "authors": [
+        "Haoming Xu",
+        "Ningyuan Zhao",
+        "Liming Yang",
+        "Sendong Zhao",
+        "Shumin Deng",
+        "Mengru Wang",
+        "Bryan Hooi",
+        "Nay Oo",
+        "Huajun Chen",
+        "Ningyu Zhang"
+      ],
+      "upvotes": 30,
+      "github": null,
+      "published": "2025-02-16T16:31:00.000Z"
+    },
+    {
+      "id": "2502.11196",
+      "title": "How Do LLMs Acquire New Knowledge? A Knowledge Circuits Perspective on Continual Pre-Training",
+      "authors": [
+        "Yixin Ou",
+        "Yunzhi Yao",
+        "Ningyu Zhang",
+        "Hui Jin",
+        "Jiacheng Sun",
+        "Shumin Deng",
+        "Zhenguo Li",
+        "Huajun Chen"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/zjunlp/dynamicknowledgecircuits",
+      "published": "2025-02-16T16:55:43.000Z"
+    },
+    {
+      "id": "2502.09061",
+      "title": "CRANE: Reasoning with constrained LLM generation",
+      "authors": [
+        "Debangshu Banerjee",
+        "Tarun Suresh",
+        "Shubham Ugare",
+        "Sasa Misailovic",
+        "Gagandeep Singh"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/uiuc-focal-lab/CRANE",
+      "published": "2025-02-13T08:23:42.000Z"
+    },
+    {
+      "id": "2502.11831",
+      "title": "Intuitive physics understanding emerges from self-supervised pretraining on natural videos",
+      "authors": [
+        "Quentin Garrido",
+        "Nicolas Ballas",
+        "Mahmoud Assran",
+        "Adrien Bardes",
+        "Laurent Najman",
+        "Michael Rabbat",
+        "Emmanuel Dupoux",
+        "Yann LeCun"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/facebookresearch/jepa-intuitive-physics",
+      "published": "2025-02-17T14:27:14.000Z"
+    },
+    {
+      "id": "2502.12982",
+      "title": "Sailor2: Sailing in South-East Asia with Inclusive Multilingual LLMs",
+      "authors": [
+        "Longxu Dou",
+        "Qian Liu",
+        "Fan Zhou",
+        "Changyu Chen",
+        "Zili Wang",
+        "Ziqi Jin",
+        "Zichen Liu",
+        "Tongyao Zhu",
+        "Cunxiao Du",
+        "Penghui Yang",
+        "Haonan Wang",
+        "Jiaheng Liu",
+        "Yongchi Zhao",
+        "Xiachong Feng",
+        "Xin Mao",
+        "Man Tsung Yeung",
+        "Kunat Pipatanakul",
+        "Fajri Koto",
+        "Min Si Thu",
+        "Hynek Kydlíček",
+        "Zeyi Liu",
+        "Qunshu Lin",
+        "Sittipong Sripaisarnmongkol",
+        "Kridtaphad Sae-Khow",
+        "Nirattisai Thongchim",
+        "Taechawat Konkaew",
+        "Narong Borijindargoon",
+        "Anh Dao",
+        "Matichon Maneegard",
+        "Phakphum Artkaew",
+        "Zheng-Xin Yong",
+        "Quan Nguyen",
+        "Wannaphong Phatthiyaphaibun",
+        "Hoang H. Tran",
+        "Mike Zhang",
+        "Shiqi Chen",
+        "Tianyu Pang",
+        "Chao Du",
+        "Xinyi Wan",
+        "Wei Lu",
+        "Min Lin"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/sail-sg/sailor2",
+      "published": "2025-02-18T16:04:57.000Z"
+    },
+    {
+      "id": "2502.08745",
+      "title": "IHEval: Evaluating Language Models on Following the Instruction Hierarchy",
+      "authors": [
+        "Zhihan Zhang",
+        "Shiyang Li",
+        "Zixuan Zhang",
+        "Xin Liu",
+        "Haoming Jiang",
+        "Xianfeng Tang",
+        "Yifan Gao",
+        "Zheng Li",
+        "Haodong Wang",
+        "Zhaoxuan Tan",
+        "Yichuan Li",
+        "Qingyu Yin",
+        "Bing Yin",
+        "Meng Jiang"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/ytyz1307zzh/IHEval",
+      "published": "2025-02-12T19:35:28.000Z"
+    },
+    {
+      "id": "2502.12148",
+      "title": "HermesFlow: Seamlessly Closing the Gap in Multimodal Understanding and Generation",
+      "authors": [
+        "Ling Yang",
+        "Xinchen Zhang",
+        "Ye Tian",
+        "Chenming Shang",
+        "Minghao Xu",
+        "Wentao Zhang",
+        "Bin Cui"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/Gen-Verse/HermesFlow",
+      "published": "2025-02-17T18:57:51.000Z"
+    },
+    {
+      "id": "2502.08826",
+      "title": "Ask in Any Modality: A Comprehensive Survey on Multimodal Retrieval-Augmented Generation",
+      "authors": [
+        "Mohammad Mahdi Abootorabi",
+        "Amirhosein Zobeiri",
+        "Mahdi Dehghani",
+        "Mohammadali Mohammadkhani",
+        "Bardia Mohammadi",
+        "Omid Ghahroodi",
+        "Mahdieh Soleymani Baghshah",
+        "Ehsaneddin Asgari"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/llm-lab-org/Multimodal-RAG-Survey",
+      "published": "2025-02-12T22:33:41.000Z"
+    },
+    {
+      "id": "2502.12146",
+      "title": "Diffusion-Sharpening: Fine-tuning Diffusion Models with Denoising Trajectory Sharpening",
+      "authors": [
+        "Ye Tian",
+        "Ling Yang",
+        "Xinchen Zhang",
+        "Yunhai Tong",
+        "Mengdi Wang",
+        "Bin Cui"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/gen-verse/diffusion-sharpening",
+      "published": "2025-02-17T18:57:26.000Z"
+    },
+    {
+      "id": "2502.11330",
+      "title": "System Message Generation for User Preferences using Open-Source Models",
+      "authors": [
+        "Minbyul Jeong",
+        "Jungho Cho",
+        "Minsoo Khang",
+        "Dawoon Jung",
+        "Teakgyu Hong"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2025-02-17T01:05:31.000Z"
+    },
+    {
+      "id": "2502.11098",
+      "title": "Talk Structurally, Act Hierarchically: A Collaborative Framework for LLM Multi-Agent Systems",
+      "authors": [
+        "Zhao Wang",
+        "Sota Moriyama",
+        "Wei-Yao Wang",
+        "Briti Gangopadhyay",
+        "Shingo Takamatsu"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/sony/talkhier",
+      "published": "2025-02-16T12:26:58.000Z"
+    },
+    {
+      "id": "2502.11177",
+      "title": "The Mirage of Model Editing: Revisiting Evaluation in the Wild",
+      "authors": [
+        "Wanli Yang",
+        "Fei Sun",
+        "Jiajun Tan",
+        "Xinyu Ma",
+        "Qi Cao",
+        "Dawei Yin",
+        "Huawei Shen",
+        "Xueqi Cheng"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/wanliyoung/revisit-editing-evaluation",
+      "published": "2025-02-16T15:57:55.000Z"
+    },
+    {
+      "id": "2502.11167",
+      "title": "SURGE: On the Potential of Large Language Models as General-Purpose Surrogate Code Executors",
+      "authors": [
+        "Bohan Lyu",
+        "Siqiao Huang",
+        "Zichen Liang"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/imbernoulli/surge",
+      "published": "2025-02-16T15:38:19.000Z"
+    },
+    {
+      "id": "2502.09509",
+      "title": "EQ-VAE: Equivariance Regularized Latent Space for Improved Generative Image Modeling",
+      "authors": [
+        "Theodoros Kouzelis",
+        "Ioannis Kakogeorgiou",
+        "Spyros Gidaris",
+        "Nikos Komodakis"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/zelaki/eqvae",
+      "published": "2025-02-13T17:21:51.000Z"
+    },
+    {
+      "id": "2502.11357",
+      "title": "Explorer: Scaling Exploration-driven Web Trajectory Synthesis for Multimodal Web Agents",
+      "authors": [
+        "Vardaan Pahuja",
+        "Yadong Lu",
+        "Corby Rosset",
+        "Boyu Gou",
+        "Arindam Mitra",
+        "Spencer Whitehead",
+        "Yu Su",
+        "Ahmed Awadallah"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2025-02-17T02:13:48.000Z"
+    },
+    {
+      "id": "2502.11775",
+      "title": "video-SALMONN-o1: Reasoning-enhanced Audio-visual Large Language Model",
+      "authors": [
+        "Guangzhi Sun",
+        "Yudong Yang",
+        "Jimin Zhuang",
+        "Changli Tang",
+        "Yixuan Li",
+        "Wei Li",
+        "Zejun MA",
+        "Chao Zhang"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/BriansIDP/video-SALMONN-o1",
+      "published": "2025-02-17T13:07:40.000Z"
+    },
+    {
+      "id": "2502.12154",
+      "title": "Diffusion Models without Classifier-free Guidance",
+      "authors": [
+        "Zhicong Tang",
+        "Jianmin Bao",
+        "Dong Chen",
+        "Baining Guo"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/tzco/Diffusion-wo-CFG",
+      "published": "2025-02-17T18:59:50.000Z"
+    },
+    {
+      "id": "2502.10550",
+      "title": "Memory, Benchmark & Robots: A Benchmark for Solving Complex Tasks with Reinforcement Learning",
+      "authors": [
+        "Egor Cherepanov",
+        "Nikita Kachaev",
+        "Alexey K. Kovalev",
+        "Aleksandr I. Panov"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/CognitiveAISystems/MIKASA-Robo",
+      "published": "2025-02-14T20:46:19.000Z"
+    },
+    {
+      "id": "2502.11438",
+      "title": "SAFE-SQL: Self-Augmented In-Context Learning with Fine-grained Example Selection for Text-to-SQL",
+      "authors": [
+        "Jimin Lee",
+        "Ingeol Baek",
+        "Byeongjeong Kim",
+        "Hwanhee Lee"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2025-02-17T04:52:24.000Z"
+    },
+    {
+      "id": "2502.11157",
+      "title": "Dyve: Thinking Fast and Slow for Dynamic Process Verification",
+      "authors": [
+        "Jianyuan Zhong",
+        "Zeju Li",
+        "Zhijian Xu",
+        "Xiangyu Wen",
+        "Qiang Xu"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/staymylove/Dyve",
+      "published": "2025-02-16T15:11:19.000Z"
+    },
+    {
+      "id": "2502.12135",
+      "title": "MagicArticulate: Make Your 3D Models Articulation-Ready",
+      "authors": [
+        "Chaoyue Song",
+        "Jianfeng Zhang",
+        "Xiu Li",
+        "Fan Yang",
+        "Yiwen Chen",
+        "Zhongcong Xu",
+        "Jun Hao Liew",
+        "Xiaoyang Guo",
+        "Fayao Liu",
+        "Jiashi Feng",
+        "Guosheng Lin"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/Seed3D/MagicArticulate",
+      "published": "2025-02-17T18:53:27.000Z"
+    },
+    {
+      "id": "2502.12054",
+      "title": "PhysReason: A Comprehensive Benchmark towards Physics-Based Reasoning",
+      "authors": [
+        "Xinyu Zhang",
+        "Yuxuan Dong",
+        "Yanrui Wu",
+        "Jiaxing Huang",
+        "Chengyou Jia",
+        "Basura Fernando",
+        "Mike Zheng Shou",
+        "Lingling Zhang",
+        "Jun Liu"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/dxzxy12138/PhysReason",
+      "published": "2025-02-17T17:24:14.000Z"
+    },
+    {
+      "id": "2502.10454",
+      "title": "One Example Shown, Many Concepts Known! Counterexample-Driven Conceptual Reasoning in Mathematical LLMs",
+      "authors": [
+        "Yinghui Li",
+        "Jiayi Kuang",
+        "Haojing Huang",
+        "Zhikun Xu",
+        "Xinnian Liang",
+        "Yi Yu",
+        "Wenlian Lu",
+        "Yangning Li",
+        "Xiaoyu Tan",
+        "Chao Qu",
+        "Ying Shen",
+        "Hai-Tao Zheng",
+        "Philip S. Yu"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/THUKElab/COUNTERMATH",
+      "published": "2025-02-12T02:01:10.000Z"
+    },
+    {
+      "id": "2502.11275",
+      "title": "Cuckoo: An IE Free Rider Hatched by Massive Nutrition in LLM's Nest",
+      "authors": [
+        "Letian Peng",
+        "Zilong Wang",
+        "Feng Yao",
+        "Jingbo Shang"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/KomeijiForce/Cuckoo",
+      "published": "2025-02-16T21:32:20.000Z"
+    },
+    {
+      "id": "2502.11901",
+      "title": "Building A Proof-Oriented Programmer That Is 64% Better Than GPT-4o Under Data Scarsity",
+      "authors": [
+        "Dylan Zhang",
+        "Justin Wang",
+        "Tianran Sun"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2025-02-17T15:24:11.000Z"
+    },
+    {
+      "id": "2502.11748",
+      "title": "ILIAS: Instance-Level Image retrieval At Scale",
+      "authors": [
+        "Giorgos Kordopatis-Zilos",
+        "Vladan Stojnić",
+        "Anna Manko",
+        "Pavel Šuma",
+        "Nikolaos-Antonios Ypsilantis",
+        "Nikos Efthymiadis",
+        "Zakaria Laskar",
+        "Jiří Matas",
+        "Ondřej Chum",
+        "Giorgos Tolias"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/ilias-vrg/ilias",
+      "published": "2025-02-17T12:42:38.000Z"
+    },
+    {
+      "id": "2502.08820",
+      "title": "Can a Single Model Master Both Multi-turn Conversations and Tool Use? CALM: A Unified Conversational Agentic Language Model",
+      "authors": [
+        "Emre Can Acikgoz",
+        "Jeremiah Greer",
+        "Akul Datta",
+        "Ze Yang",
+        "William Zeng",
+        "Oussama Elachqar",
+        "Emmanouil Koukoumidis",
+        "Dilek Hakkani-Tür",
+        "Gokhan Tur"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/oumi-ai/oumi",
+      "published": "2025-02-12T22:18:34.000Z"
+    },
+    {
+      "id": "2502.11574",
+      "title": "Large Language Models and Mathematical Reasoning Failures",
+      "authors": [
+        "Johan Boye",
+        "Birger Moell"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-02-17T09:07:32.000Z"
+    },
+    {
+      "id": "2502.09083",
+      "title": "Show Me the Work: Fact-Checkers' Requirements for Explainable Automated Fact-Checking",
+      "authors": [
+        "Greta Warren",
+        "Irina Shklovski",
+        "Isabelle Augenstein"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2025-02-13T08:56:25.000Z"
+    },
+    {
+      "id": "2502.11085",
+      "title": "Towards Data-Efficient Pretraining for Atomic Property Prediction",
+      "authors": [
+        "Yasir Ghunaim",
+        "Hasan Abed Al Kader Hammoud",
+        "Bernard Ghanem"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/Yasir-Ghunaim/efficient-atom",
+      "published": "2025-02-16T11:46:23.000Z"
+    },
+    {
+      "id": "2502.08441",
+      "title": "Better Embeddings with Coupled Adam",
+      "authors": [
+        "Felix Stollenwerk",
+        "Tobias Stollenwerk"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/flxst/coupled-adam",
+      "published": "2025-02-12T14:32:17.000Z"
+    },
+    {
+      "id": "2502.11336",
+      "title": "ExaGPT: Example-Based Machine-Generated Text Detection for Human Interpretability",
+      "authors": [
+        "Ryuto Koike",
+        "Masahiro Kaneko",
+        "Ayana Niwa",
+        "Preslav Nakov",
+        "Naoaki Okazaki"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2025-02-17T01:15:07.000Z"
+    },
+    {
+      "id": "2502.09969",
+      "title": "Data Valuation using Neural Networks for Efficient Instruction Fine-Tuning",
+      "authors": [
+        "Ishika Agarwal",
+        "Dilek Hakkani-Tür"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/agarwalishika/NN-CIFT",
+      "published": "2025-02-14T07:55:47.000Z"
+    },
+    {
+      "id": "2502.11578",
+      "title": "Language Complexity Measurement as a Noisy Zero-Shot Proxy for Evaluating LLM Performance",
+      "authors": [
+        "Birger Moell",
+        "Johan Boye"
+      ],
+      "upvotes": 0,
+      "github": null,
+      "published": "2025-02-17T09:09:58.000Z"
+    }
+  ]
+}

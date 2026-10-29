@@ -1,0 +1,177 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-01-26",
+  "fetched_at": "2026-10-29T15:26:42.025Z",
+  "candidates": [
+    {
+      "id": "2401.14196",
+      "title": "DeepSeek-Coder: When the Large Language Model Meets Programming -- The Rise of Code Intelligence",
+      "authors": [
+        "Daya Guo",
+        "Qihao Zhu",
+        "Dejian Yang",
+        "Zhenda Xie",
+        "Kai Dong",
+        "Wentao Zhang",
+        "Guanting Chen",
+        "Xiao Bi",
+        "Y. Wu",
+        "Y. K. Li",
+        "Fuli Luo",
+        "Yingfei Xiong",
+        "Wenfeng Liang"
+      ],
+      "upvotes": 74,
+      "github": "https://github.com/deepseek-ai/DeepSeek-Coder",
+      "published": "2024-01-25T14:17:53.000Z"
+    },
+    {
+      "id": "2401.13795",
+      "title": "Diffuse to Choose: Enriching Image Conditioned Inpainting in Latent Diffusion Models for Virtual Try-All",
+      "authors": [
+        "Mehmet Saygin Seyfioglu",
+        "Karim Bouyarmane",
+        "Suren Kumar",
+        "Amir Tavanaei",
+        "Ismail B. Tutar"
+      ],
+      "upvotes": 67,
+      "github": null,
+      "published": "2024-01-24T20:25:48.000Z"
+    },
+    {
+      "id": "2401.14391",
+      "title": "Rethinking Patch Dependence for Masked Autoencoders",
+      "authors": [
+        "Letian Fu",
+        "Long Lian",
+        "Renhao Wang",
+        "Baifeng Shi",
+        "Xudong Wang",
+        "Adam Yala",
+        "Trevor Darrell",
+        "Alexei A. Efros",
+        "Ken Goldberg"
+      ],
+      "upvotes": 26,
+      "github": "https://github.com/TonyLianLong/CrossMAE",
+      "published": "2024-01-25T18:49:57.000Z"
+    },
+    {
+      "id": "2401.14019",
+      "title": "Unitxt: Flexible, Shareable and Reusable Data Preparation and Evaluation for Generative AI",
+      "authors": [
+        "Elron Bandel",
+        "Yotam Perlitz",
+        "Elad Venezian",
+        "Roni Friedman-Melamed",
+        "Ofir Arviv",
+        "Matan Orbach",
+        "Shachar Don-Yehyia",
+        "Dafna Sheinwald",
+        "Ariel Gera",
+        "Leshem Choshen",
+        "Michal Shmueli-Scheuer",
+        "Yoav Katz"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/ibm/unitxt",
+      "published": "2024-01-25T08:57:33.000Z"
+    },
+    {
+      "id": "2401.14112",
+      "title": "FP6-LLM: Efficiently Serving Large Language Models Through FP6-Centric Algorithm-System Co-Design",
+      "authors": [
+        "Haojun Xia",
+        "Zhen Zheng",
+        "Xiaoxia Wu",
+        "Shiyang Chen",
+        "Zhewei Yao",
+        "Stephen Youn",
+        "Arash Bakhtiari",
+        "Michael Wyatt",
+        "Donglin Zhuang",
+        "Zhongzhu Zhou",
+        "Olatunji Ruwase",
+        "Yuxiong He",
+        "Shuaiwen Leon Song"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/yifu-ding/bgemm-cuda",
+      "published": "2024-01-25T11:46:38.000Z"
+    },
+    {
+      "id": "2401.14404",
+      "title": "Deconstructing Denoising Diffusion Models for Self-Supervised Learning",
+      "authors": [
+        "Xinlei Chen",
+        "Zhuang Liu",
+        "Saining Xie",
+        "Kaiming He"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2024-01-25T18:59:57.000Z"
+    },
+    {
+      "id": "2401.14405",
+      "title": "Multimodal Pathway: Improve Transformers with Irrelevant Data from Other Modalities",
+      "authors": [
+        "Yiyuan Zhang",
+        "Xiaohan Ding",
+        "Kaixiong Gong",
+        "Yixiao Ge",
+        "Ying Shan",
+        "Xiangyu Yue"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/ailab-cvc/m2pt",
+      "published": "2024-01-25T18:59:58.000Z"
+    },
+    {
+      "id": "2401.14398",
+      "title": "pix2gestalt: Amodal Segmentation by Synthesizing Wholes",
+      "authors": [
+        "Ege Ozguroglu",
+        "Ruoshi Liu",
+        "Dídac Surís",
+        "Dian Chen",
+        "Achal Dave",
+        "Pavel Tokmakov",
+        "Carl Vondrick"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/cvlab-columbia/pix2gestalt",
+      "published": "2024-01-25T18:57:36.000Z"
+    },
+    {
+      "id": "2401.14403",
+      "title": "Adaptive Mobile Manipulation for Articulated Objects In the Open World",
+      "authors": [
+        "Haoyu Xiong",
+        "Russell Mendonca",
+        "Kenneth Shaw",
+        "Deepak Pathak"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2024-01-25T18:59:44.000Z"
+    },
+    {
+      "id": "2401.14367",
+      "title": "Genie: Achieving Human Parity in Content-Grounded Datasets Generation",
+      "authors": [
+        "Asaf Yehudai",
+        "Boaz Carmeli",
+        "Yosi Mass",
+        "Ofir Arviv",
+        "Nathaniel Mills",
+        "Assaf Toledo",
+        "Eyal Shnarch",
+        "Leshem Choshen"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2024-01-25T18:14:57.000Z"
+    }
+  ]
+}

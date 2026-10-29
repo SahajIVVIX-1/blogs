@@ -1,0 +1,303 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-11-28",
+  "fetched_at": "2026-10-29T15:29:49.144Z",
+  "candidates": [
+    {
+      "id": "2411.18613",
+      "title": "CAT4D: Create Anything in 4D with Multi-View Video Diffusion Models",
+      "authors": [
+        "Rundi Wu",
+        "Ruiqi Gao",
+        "Ben Poole",
+        "Alex Trevithick",
+        "Changxi Zheng",
+        "Jonathan T. Barron",
+        "Aleksander Holynski"
+      ],
+      "upvotes": 60,
+      "github": null,
+      "published": "2024-11-27T18:57:16.000Z"
+    },
+    {
+      "id": "2411.18279",
+      "title": "Large Language Model-Brained GUI Agents: A Survey",
+      "authors": [
+        "Chaoyun Zhang",
+        "Shilin He",
+        "Jiaxu Qian",
+        "Bowen Li",
+        "Liqun Li",
+        "Si Qin",
+        "Yu Kang",
+        "Minghua Ma",
+        "Qingwei Lin",
+        "Saravan Rajmohan",
+        "Dongmei Zhang",
+        "Qi Zhang"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/vyokky/LLM-Brained-GUI-Agents-Survey",
+      "published": "2024-11-27T12:13:39.000Z"
+    },
+    {
+      "id": "2411.18616",
+      "title": "Diffusion Self-Distillation for Zero-Shot Customized Image Generation",
+      "authors": [
+        "Shengqu Cai",
+        "Eric Chan",
+        "Yunzhi Zhang",
+        "Leonidas Guibas",
+        "Jiajun Wu",
+        "Gordon Wetzstein"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/primecai/diffusion-self-distillation",
+      "published": "2024-11-27T18:58:52.000Z"
+    },
+    {
+      "id": "2411.14974",
+      "title": "3D Convex Splatting: Radiance Field Rendering with 3D Smooth Convexes",
+      "authors": [
+        "Jan Held",
+        "Renaud Vandeghen",
+        "Abdullah Hamdi",
+        "Adrien Deliege",
+        "Anthony Cioppa",
+        "Silvio Giancola",
+        "Andrea Vedaldi",
+        "Bernard Ghanem",
+        "Marc Van Droogenbroeck"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/convexsplatting/convex-splatting",
+      "published": "2024-11-22T14:31:39.000Z"
+    },
+    {
+      "id": "2411.18197",
+      "title": "Make-It-Animatable: An Efficient Framework for Authoring Animation-Ready 3D Characters",
+      "authors": [
+        "Zhiyang Guo",
+        "Jinxu Xiang",
+        "Kai Ma",
+        "Wengang Zhou",
+        "Houqiang Li",
+        "Ran Zhang"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/jasongzy/Make-It-Animatable",
+      "published": "2024-11-27T10:18:06.000Z"
+    },
+    {
+      "id": "2411.15139",
+      "title": "DiffusionDrive: Truncated Diffusion Model for End-to-End Autonomous Driving",
+      "authors": [
+        "Bencheng Liao",
+        "Shaoyu Chen",
+        "Haoran Yin",
+        "Bo Jiang",
+        "Cheng Wang",
+        "Sixu Yan",
+        "Xinbang Zhang",
+        "Xiangyu Li",
+        "Ying Zhang",
+        "Qian Zhang",
+        "Xinggang Wang"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/hustvl/diffusiondrive",
+      "published": "2024-11-22T18:59:47.000Z"
+    },
+    {
+      "id": "2411.16781",
+      "title": "UniPose: A Unified Multimodal Framework for Human Pose Comprehension, Generation and Editing",
+      "authors": [
+        "Yiheng Li",
+        "Ruibing Hou",
+        "Hong Chang",
+        "Shiguang Shan",
+        "Xilin Chen"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/liyiheng23/UniPose",
+      "published": "2024-11-25T08:06:30.000Z"
+    },
+    {
+      "id": "2411.17786",
+      "title": "DreamCache: Finetuning-Free Lightweight Personalized Image Generation via Feature Caching",
+      "authors": [
+        "Emanuele Aiello",
+        "Umberto Michieli",
+        "Diego Valsesia",
+        "Mete Ozay",
+        "Enrico Magli"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2024-11-26T15:03:14.000Z"
+    },
+    {
+      "id": "2411.17787",
+      "title": "Collaborative Decoding Makes Visual Auto-Regressive Modeling Efficient",
+      "authors": [
+        "Zigeng Chen",
+        "Xinyin Ma",
+        "Gongfan Fang",
+        "Xinchao Wang"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/czg1225/code",
+      "published": "2024-11-26T15:13:15.000Z"
+    },
+    {
+      "id": "2411.17698",
+      "title": "Video-Guided Foley Sound Generation with Multimodal Controls",
+      "authors": [
+        "Ziyang Chen",
+        "Prem Seetharaman",
+        "Bryan Russell",
+        "Oriol Nieto",
+        "David Bourgin",
+        "Andrew Owens",
+        "Justin Salamon"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2024-11-26T18:59:58.000Z"
+    },
+    {
+      "id": "2411.18363",
+      "title": "ChatRex: Taming Multimodal LLM for Joint Perception and Understanding",
+      "authors": [
+        "Qing Jiang",
+        "Gen luo",
+        "Yuqin Yang",
+        "Yuda Xiong",
+        "Yihao Chen",
+        "Zhaoyang Zeng",
+        "Tianhe Ren",
+        "Lei Zhang"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/idea-research/chatrex",
+      "published": "2024-11-27T14:11:10.000Z"
+    },
+    {
+      "id": "2411.17769",
+      "title": "Omegance: A Single Parameter for Various Granularities in Diffusion-Based Synthesis",
+      "authors": [
+        "Xinyu Hou",
+        "Zongsheng Yue",
+        "Xiaoming Li",
+        "Chen Change Loy"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/itsmag11/omegance",
+      "published": "2024-11-26T08:23:16.000Z"
+    },
+    {
+      "id": "2411.18462",
+      "title": "Draft Model Knows When to Stop: A Self-Verification Length Policy for Speculative Decoding",
+      "authors": [
+        "Ziyin Zhang",
+        "Jiahao Xu",
+        "Tian Liang",
+        "Xingyu Chen",
+        "Zhiwei He",
+        "Rui Wang",
+        "Zhaopeng Tu"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/geralt-targaryen/svip",
+      "published": "2024-11-27T15:53:17.000Z"
+    },
+    {
+      "id": "2411.17991",
+      "title": "VideoLLM Knows When to Speak: Enhancing Time-Sensitive Video Comprehension with Video-Text Duet Interaction Format",
+      "authors": [
+        "Yueqian Wang",
+        "Xiaojun Meng",
+        "Yuxuan Wang",
+        "Jianxin Liang",
+        "Jiansheng Wei",
+        "Huishuai Zhang",
+        "Dongyan Zhao"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/yellow-binary-tree/mmduet",
+      "published": "2024-11-27T02:15:34.000Z"
+    },
+    {
+      "id": "2411.18412",
+      "title": "Adaptive Blind All-in-One Image Restoration",
+      "authors": [
+        "David Serrano-Lozano",
+        "Luis Herranz",
+        "Shaolin Su",
+        "Javier Vazquez-Corral"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/davidserra9/abair",
+      "published": "2024-11-27T14:58:08.000Z"
+    },
+    {
+      "id": "2411.18104",
+      "title": "Training and Evaluating Language Models with Template-based Data Generation",
+      "authors": [
+        "Yifan Zhang"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/iiis-ai/TemplateMath",
+      "published": "2024-11-27T07:32:56.000Z"
+    },
+    {
+      "id": "2411.14951",
+      "title": "Morph: A Motion-free Physics Optimization Framework for Human Motion Generation",
+      "authors": [
+        "Zhuo Li",
+        "Mingshuang Luo",
+        "Ruibing Hou",
+        "Xin Zhao",
+        "Hao Liu",
+        "Hong Chang",
+        "Zimo Liu",
+        "Chen Li"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2024-11-22T14:09:56.000Z"
+    },
+    {
+      "id": "2411.16832",
+      "title": "Edit Away and My Face Will not Stay: Personal Biometric Defense against Malicious Generative Editing",
+      "authors": [
+        "Hanhui Wang",
+        "Yihua Zhang",
+        "Ruizheng Bai",
+        "Yue Zhao",
+        "Sijia Liu",
+        "Zhengzhong Tu"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/taco-group/facelock",
+      "published": "2024-11-25T18:59:03.000Z"
+    },
+    {
+      "id": "2411.15872",
+      "title": "Optimizing Brain Tumor Segmentation with MedNeXt: BraTS 2024 SSA and Pediatrics",
+      "authors": [
+        "Sarim Hashmi",
+        "Juan Lugo",
+        "Abdelrahman Elsayed",
+        "Dinesh Saggurthi",
+        "Mohammed Elseiagy",
+        "Alikhan Nurkamal",
+        "Jaskaran Walia",
+        "Fadillah Adamsyah Maani",
+        "Mohammad Yaqub"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/python-arch/biombz-optimizing-brain-tumor-segmentation-with-mednext-brats-2024-ssa-and-pediatrics",
+      "published": "2024-11-24T15:19:19.000Z"
+    }
+  ]
+}

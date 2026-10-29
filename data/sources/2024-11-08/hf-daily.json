@@ -1,0 +1,260 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-11-08",
+  "fetched_at": "2026-10-29T15:29:36.896Z",
+  "candidates": [
+    {
+      "id": "2411.04905",
+      "title": "OpenCoder: The Open Cookbook for Top-Tier Code Large Language Models",
+      "authors": [
+        "Siming Huang",
+        "Tianhao Cheng",
+        "Jason Klein Liu",
+        "Jiaran Hao",
+        "Liuyihan Song",
+        "Yang Xu",
+        "J. Yang",
+        "J. H. Liu",
+        "Chenchen Zhang",
+        "Linzheng Chai",
+        "Ruifeng Yuan",
+        "Zhaoxiang Zhang",
+        "Jie Fu",
+        "Qian Liu",
+        "Ge Zhang",
+        "Zili Wang",
+        "Yuan Qi",
+        "Yinghui Xu",
+        "Wei Chu"
+      ],
+      "upvotes": 128,
+      "github": null,
+      "published": "2024-11-07T17:47:25.000Z"
+    },
+    {
+      "id": "2411.04965",
+      "title": "BitNet a4.8: 4-bit Activations for 1-bit LLMs",
+      "authors": [
+        "Hongyu Wang",
+        "Shuming Ma",
+        "Furu Wei"
+      ],
+      "upvotes": 70,
+      "github": null,
+      "published": "2024-11-07T18:41:50.000Z"
+    },
+    {
+      "id": "2411.04928",
+      "title": "DimensionX: Create Any 3D and 4D Scenes from a Single Image with Controllable Video Diffusion",
+      "authors": [
+        "Wenqiang Sun",
+        "Shuo Chen",
+        "Fangfu Liu",
+        "Zilong Chen",
+        "Yueqi Duan",
+        "Jun Zhang",
+        "Yikai Wang"
+      ],
+      "upvotes": 56,
+      "github": "https://github.com/wenqsun/DimensionX",
+      "published": "2024-11-07T18:07:31.000Z"
+    },
+    {
+      "id": "2411.04996",
+      "title": "Mixture-of-Transformers: A Sparse and Scalable Architecture for Multi-Modal Foundation Models",
+      "authors": [
+        "Weixin Liang",
+        "Lili Yu",
+        "Liang Luo",
+        "Srinivasan Iyer",
+        "Ning Dong",
+        "Chunting Zhou",
+        "Gargi Ghosh",
+        "Mike Lewis",
+        "Wen-tau Yih",
+        "Luke Zettlemoyer",
+        "Xi Victoria Lin"
+      ],
+      "upvotes": 51,
+      "github": "https://github.com/allenzren/open-pi-zero",
+      "published": "2024-11-07T18:59:06.000Z"
+    },
+    {
+      "id": "2411.04952",
+      "title": "M3DocRAG: Multi-modal Retrieval is What You Need for Multi-page Multi-document Understanding",
+      "authors": [
+        "Jaemin Cho",
+        "Debanjan Mahata",
+        "Ozan Irsoy",
+        "Yujie He",
+        "Mohit Bansal"
+      ],
+      "upvotes": 29,
+      "github": null,
+      "published": "2024-11-07T18:29:38.000Z"
+    },
+    {
+      "id": "2411.05001",
+      "title": "Analyzing The Language of Visual Tokens",
+      "authors": [
+        "David M. Chan",
+        "Rodolfo Corona",
+        "Joonyong Park",
+        "Cheol Jun Cho",
+        "Yutong Bai",
+        "Trevor Darrell"
+      ],
+      "upvotes": 24,
+      "github": null,
+      "published": "2024-11-07T18:59:28.000Z"
+    },
+    {
+      "id": "2411.05007",
+      "title": "SVDQunat: Absorbing Outliers by Low-Rank Components for 4-Bit Diffusion Models",
+      "authors": [
+        "Muyang Li",
+        "Yujun Lin",
+        "Zhekai Zhang",
+        "Tianle Cai",
+        "Xiuyu Li",
+        "Junxian Guo",
+        "Enze Xie",
+        "Chenlin Meng",
+        "Jun-Yan Zhu",
+        "Song Han"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/mit-han-lab/nunchaku",
+      "published": "2024-11-07T18:59:58.000Z"
+    },
+    {
+      "id": "2411.04923",
+      "title": "VideoGLaMM: A Large Multimodal Model for Pixel-Level Visual Grounding in Videos",
+      "authors": [
+        "Shehan Munasinghe",
+        "Hanan Gani",
+        "Wenqi Zhu",
+        "Jiale Cao",
+        "Eric Xing",
+        "Fahad Shahbaz Khan",
+        "Salman Khan"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/mbzuai-oryx/VideoGLaMM",
+      "published": "2024-11-07T17:59:27.000Z"
+    },
+    {
+      "id": "2411.04496",
+      "title": "Thanos: Enhancing Conversational Agents with Skill-of-Mind-Infused Large Language Model",
+      "authors": [
+        "Young-Jun Lee",
+        "Dokyong Lee",
+        "Junyoung Youn",
+        "Kyeongjin Oh",
+        "Ho-Jin Choi"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/passing2961/thanos",
+      "published": "2024-11-07T07:46:06.000Z"
+    },
+    {
+      "id": "2411.05000",
+      "title": "Needle Threading: Can LLMs Follow Threads through Near-Million-Scale Haystacks?",
+      "authors": [
+        "Jonathan Roberts",
+        "Kai Han",
+        "Samuel Albanie"
+      ],
+      "upvotes": 21,
+      "github": null,
+      "published": "2024-11-07T18:59:27.000Z"
+    },
+    {
+      "id": "2411.04999",
+      "title": "DynaMem: Online Dynamic Spatio-Semantic Memory for Open World Mobile Manipulation",
+      "authors": [
+        "Peiqi Liu",
+        "Zhanqiu Guo",
+        "Mohit Warke",
+        "Soumith Chintala",
+        "Chris Paxton",
+        "Nur Muhammad Mahi Shafiullah",
+        "Lerrel Pinto"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/hello-robot/stretch_ai",
+      "published": "2024-11-07T18:59:27.000Z"
+    },
+    {
+      "id": "2411.04075",
+      "title": "M3SciQA: A Multi-Modal Multi-Document Scientific QA Benchmark for Evaluating Foundation Models",
+      "authors": [
+        "Chuhan Li",
+        "Ziyao Shangguan",
+        "Yilun Zhao",
+        "Deyuan Li",
+        "Yixin Liu",
+        "Arman Cohan"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2024-11-06T17:52:01.000Z"
+    },
+    {
+      "id": "2411.04752",
+      "title": "RetrieveGPT: Merging Prompts and Mathematical Models for Enhanced Code-Mixed Information Retrieval",
+      "authors": [
+        "Aniket Deroy",
+        "Subhankar Maity"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2024-11-07T14:41:01.000Z"
+    },
+    {
+      "id": "2411.04335",
+      "title": "GazeGen: Gaze-Driven User Interaction for Visual Content Generation",
+      "authors": [
+        "He-Yen Hsieh",
+        "Ziyun Li",
+        "Sai Qian Zhang",
+        "Wei-Te Mark Ting",
+        "Kao-Den Chang",
+        "Barbara De Salvo",
+        "Chiao Liu",
+        "H. T. Kung"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2024-11-07T00:22:38.000Z"
+    },
+    {
+      "id": "2411.04989",
+      "title": "SG-I2V: Self-Guided Trajectory Control in Image-to-Video Generation",
+      "authors": [
+        "Koichi Namekata",
+        "Sherwin Bahmani",
+        "Ziyi Wu",
+        "Yash Kant",
+        "Igor Gilitschenski",
+        "David B. Lindell"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/Kmcode1/SG-I2V",
+      "published": "2024-11-07T18:56:11.000Z"
+    },
+    {
+      "id": "2411.05005",
+      "title": "Diff-2-in-1: Bridging Generation and Dense Perception with Diffusion Models",
+      "authors": [
+        "Shuhong Zheng",
+        "Zhipeng Bao",
+        "Ruoyu Zhao",
+        "Martial Hebert",
+        "Yu-Xiong Wang"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2024-11-07T18:59:53.000Z"
+    }
+  ]
+}

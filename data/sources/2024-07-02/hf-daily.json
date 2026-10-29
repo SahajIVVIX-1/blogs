@@ -1,0 +1,470 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-07-02",
+  "fetched_at": "2026-10-29T15:28:18.320Z",
+  "candidates": [
+    {
+      "id": "2407.01284",
+      "title": "We-Math: Does Your Large Multimodal Model Achieve Human-like Mathematical Reasoning?",
+      "authors": [
+        "Runqi Qiao",
+        "Qiuna Tan",
+        "Guanting Dong",
+        "Minhui Wu",
+        "Chong Sun",
+        "Xiaoshuai Song",
+        "Zhuoma GongQue",
+        "Shanglin Lei",
+        "Zhe Wei",
+        "Miaoxuan Zhang",
+        "Runfeng Qiao",
+        "Yifan Zhang",
+        "Xiao Zong",
+        "Yida Xu",
+        "Muxi Diao",
+        "Zhimin Bao",
+        "Chen Li",
+        "Honggang Zhang"
+      ],
+      "upvotes": 81,
+      "github": "https://github.com/we-math/we-math",
+      "published": "2024-07-01T13:39:08.000Z"
+    },
+    {
+      "id": "2406.19741",
+      "title": "ROS-LLM: A ROS framework for embodied AI with task feedback and structured reasoning",
+      "authors": [
+        "Christopher E. Mower",
+        "Yuhui Wan",
+        "Hongzhan Yu",
+        "Antoine Grosnit",
+        "Jonas Gonzalez-Billandon",
+        "Matthieu Zimmer",
+        "Jinlong Wang",
+        "Xinyu Zhang",
+        "Yao Zhao",
+        "Anbang Zhai",
+        "Puze Liu",
+        "Davide Tateo",
+        "Cesar Cadena",
+        "Marco Hutter",
+        "Jan Peters",
+        "Guangjian Tian",
+        "Yuzheng Zhuang",
+        "Kun Shao",
+        "Xingyue Quan",
+        "Jianye Hao",
+        "Jun Wang",
+        "Haitham Bou-Ammar"
+      ],
+      "upvotes": 59,
+      "github": "https://github.com/huawei-noah/hebo",
+      "published": "2024-06-28T08:28:38.000Z"
+    },
+    {
+      "id": "2407.01449",
+      "title": "ColPali: Efficient Document Retrieval with Vision Language Models",
+      "authors": [
+        "Manuel Faysse",
+        "Hugues Sibille",
+        "Tony Wu",
+        "Gautier Viaud",
+        "Céline Hudelot",
+        "Pierre Colombo"
+      ],
+      "upvotes": 51,
+      "github": "https://github.com/illuin-tech/colpali",
+      "published": "2024-06-27T15:45:29.000Z"
+    },
+    {
+      "id": "2407.01492",
+      "title": "RegMix: Data Mixture as Regression for Language Model Pre-training",
+      "authors": [
+        "Qian Liu",
+        "Xiaosen Zheng",
+        "Niklas Muennighoff",
+        "Guangtao Zeng",
+        "Longxu Dou",
+        "Tianyu Pang",
+        "Jing Jiang",
+        "Min Lin"
+      ],
+      "upvotes": 39,
+      "github": "https://github.com/sail-sg/regmix",
+      "published": "2024-07-01T17:31:03.000Z"
+    },
+    {
+      "id": "2407.00320",
+      "title": "LiteSearch: Efficacious Tree Search for LLM",
+      "authors": [
+        "Ante Wang",
+        "Linfeng Song",
+        "Ye Tian",
+        "Baolin Peng",
+        "Dian Yu",
+        "Haitao Mi",
+        "Jinsong Su",
+        "Dong Yu"
+      ],
+      "upvotes": 39,
+      "github": null,
+      "published": "2024-06-29T05:14:04.000Z"
+    },
+    {
+      "id": "2407.00468",
+      "title": "MMEvalPro: Calibrating Multimodal Benchmarks Towards Trustworthy and Efficient Evaluation",
+      "authors": [
+        "Jinsheng Huang",
+        "Liang Chen",
+        "Taian Guo",
+        "Fu Zeng",
+        "Yusheng Zhao",
+        "Bohan Wu",
+        "Ye Yuan",
+        "Haozhe Zhao",
+        "Zhihui Guo",
+        "Yichi Zhang",
+        "Jingyang Yuan",
+        "Wei Ju",
+        "Luchen Liu",
+        "Tianyu Liu",
+        "Baobao Chang",
+        "Ming Zhang"
+      ],
+      "upvotes": 36,
+      "github": "https://github.com/chenllliang/mmevalpro",
+      "published": "2024-06-29T15:28:45.000Z"
+    },
+    {
+      "id": "2406.19997",
+      "title": "Wavelets Are All You Need for Autoregressive Image Generation",
+      "authors": [
+        "Wael Mattar",
+        "Idan Levy",
+        "Nir Sharon",
+        "Shai Dekel"
+      ],
+      "upvotes": 29,
+      "github": null,
+      "published": "2024-06-28T15:32:59.000Z"
+    },
+    {
+      "id": "2407.00782",
+      "title": "Step-Controlled DPO: Leveraging Stepwise Error for Enhanced Mathematical Reasoning",
+      "authors": [
+        "Zimu Lu",
+        "Aojun Zhou",
+        "Ke Wang",
+        "Houxing Ren",
+        "Weikang Shi",
+        "Junting Pan",
+        "Mingjie Zhan"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/mathllm/Step-Controlled_DPO",
+      "published": "2024-06-30T17:59:07.000Z"
+    },
+    {
+      "id": "2407.00788",
+      "title": "InstantStyle-Plus: Style Transfer with Content-Preserving in Text-to-Image Generation",
+      "authors": [
+        "Haofan Wang",
+        "Peng Xing",
+        "Renyuan Huang",
+        "Hao Ai",
+        "Qixun Wang",
+        "Xu Bai"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/instantX-research/InstantStyle-Plus",
+      "published": "2024-06-30T18:05:33.000Z"
+    },
+    {
+      "id": "2407.01519",
+      "title": "DiffIR2VR-Zero: Zero-Shot Video Restoration with Diffusion-based Image Restoration Models",
+      "authors": [
+        "Chang-Han Yeh",
+        "Chin-Yang Lin",
+        "Zhixiang Wang",
+        "Chi-Wei Hsiao",
+        "Ting-Hsuan Chen",
+        "Yu-Lun Liu"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/jimmycv07/DiffIR2VR-Zero",
+      "published": "2024-07-01T17:59:12.000Z"
+    },
+    {
+      "id": "2406.18009",
+      "title": "E2 TTS: Embarrassingly Easy Fully Non-Autoregressive Zero-Shot TTS",
+      "authors": [
+        "Sefik Emre Eskimez",
+        "Xiaofei Wang",
+        "Manthan Thakker",
+        "Canrun Li",
+        "Chung-Hsien Tsai",
+        "Zhen Xiao",
+        "Hemin Yang",
+        "Zirun Zhu",
+        "Min Tang",
+        "Xu Tan",
+        "Yanqing Liu",
+        "Sheng Zhao",
+        "Naoyuki Kanda"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/microsoft/e2tts-test-suite",
+      "published": "2024-06-26T01:38:37.000Z"
+    },
+    {
+      "id": "2406.18284",
+      "title": "RealTalk: Real-time and Realistic Audio-driven Face Generation with 3D Facial Prior-guided Identity Alignment Network",
+      "authors": [
+        "Xiaozhong Ji",
+        "Chuming Lin",
+        "Zhonggan Ding",
+        "Ying Tai",
+        "Jian Yang",
+        "Junwei Zhu",
+        "Xiaobin Hu",
+        "Jiangning Zhang",
+        "Donghao Luo",
+        "Chengjie Wang"
+      ],
+      "upvotes": 19,
+      "github": null,
+      "published": "2024-06-26T12:09:59.000Z"
+    },
+    {
+      "id": "2407.01231",
+      "title": "MIRAI: Evaluating LLM Agents for Event Forecasting",
+      "authors": [
+        "Chenchen Ye",
+        "Ziniu Hu",
+        "Yihe Deng",
+        "Zijie Huang",
+        "Mingyu Derek Ma",
+        "Yanqiao Zhu",
+        "Wei Wang"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2024-07-01T12:22:46.000Z"
+    },
+    {
+      "id": "2407.00402",
+      "title": "Is It Really Long Context if All You Need Is Retrieval? Towards Genuinely Difficult Long Context NLP",
+      "authors": [
+        "Omer Goldman",
+        "Alon Jacovi",
+        "Aviv Slobodkin",
+        "Aviya Maimon",
+        "Ido Dagan",
+        "Reut Tsarfaty"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2024-06-29T11:09:47.000Z"
+    },
+    {
+      "id": "2406.20085",
+      "title": "Auto Cherry-Picker: Learning from High-quality Generative Data Driven by Language",
+      "authors": [
+        "Yicheng Chen",
+        "Xiangtai Li",
+        "Yining Li",
+        "Yanhong Zeng",
+        "Jianzong Wu",
+        "Xiangyu Zhao",
+        "Kai Chen"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2024-06-28T17:53:18.000Z"
+    },
+    {
+      "id": "2407.00114",
+      "title": "OmniJARVIS: Unified Vision-Language-Action Tokenization Enables Open-World Instruction Following Agents",
+      "authors": [
+        "Zihao Wang",
+        "Shaofei Cai",
+        "Zhancun Mu",
+        "Haowei Lin",
+        "Ceyao Zhang",
+        "Xuejie Liu",
+        "Qing Li",
+        "Anji Liu",
+        "Xiaojian Ma",
+        "Yitao Liang"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2024-06-27T13:46:11.000Z"
+    },
+    {
+      "id": "2407.00653",
+      "title": "Chain-of-Knowledge: Integrating Knowledge Reasoning into Large Language Models by Learning from Knowledge Graphs",
+      "authors": [
+        "Yifei Zhang",
+        "Xintao Wang",
+        "Jiaqing Liang",
+        "Sirui Xia",
+        "Lida Chen",
+        "Yanghua Xiao"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2024-06-30T10:49:32.000Z"
+    },
+    {
+      "id": "2407.00088",
+      "title": "T-MAC: CPU Renaissance via Table Lookup for Low-Bit LLM Deployment on Edge",
+      "authors": [
+        "Jianyu Wei",
+        "Shijie Cao",
+        "Ting Cao",
+        "Lingxiao Ma",
+        "Lei Wang",
+        "Yanyong Zhang",
+        "Mao Yang"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/microsoft/t-mac",
+      "published": "2024-06-25T08:38:38.000Z"
+    },
+    {
+      "id": "2407.00837",
+      "title": "Towards Robust Speech Representation Learning for Thousands of Languages",
+      "authors": [
+        "William Chen",
+        "Wangyou Zhang",
+        "Yifan Peng",
+        "Xinjian Li",
+        "Jinchuan Tian",
+        "Jiatong Shi",
+        "Xuankai Chang",
+        "Soumi Maiti",
+        "Karen Livescu",
+        "Shinji Watanabe"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2024-06-30T21:40:26.000Z"
+    },
+    {
+      "id": "2407.00367",
+      "title": "SVG: 3D Stereoscopic Video Generation via Denoising Frame Matrix",
+      "authors": [
+        "Peng Dai",
+        "Feitong Tan",
+        "Qiangeng Xu",
+        "David Futschik",
+        "Ruofei Du",
+        "Sean Fanello",
+        "Xiaojuan Qi",
+        "Yinda Zhang"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2024-06-29T08:33:55.000Z"
+    },
+    {
+      "id": "2407.01272",
+      "title": "Show Less, Instruct More: Enriching Prompts with Definitions and Guidelines for Zero-Shot NER",
+      "authors": [
+        "Andrew Zamai",
+        "Andrea Zugarini",
+        "Leonardo Rigutini",
+        "Marco Ernandes",
+        "Marco Maggini"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/andrewzamai/SLIMER",
+      "published": "2024-07-01T13:25:33.000Z"
+    },
+    {
+      "id": "2407.01470",
+      "title": "DogeRM: Equipping Reward Models with Domain Knowledge through Model Merging",
+      "authors": [
+        "Tzu-Han Lin",
+        "Chen-An Li",
+        "Hung-yi Lee",
+        "Yun-Nung Chen"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/miulab/dogerm",
+      "published": "2024-07-01T17:01:54.000Z"
+    },
+    {
+      "id": "2406.19999",
+      "title": "The SIFo Benchmark: Investigating the Sequential Instruction Following Ability of Large Language Models",
+      "authors": [
+        "Xinyi Chen",
+        "Baohao Liao",
+        "Jirui Qi",
+        "Panagiotis Eustratiadis",
+        "Christof Monz",
+        "Arianna Bisazza",
+        "Maarten de Rijke"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/shin-ee-chen/SIFo",
+      "published": "2024-06-28T15:34:26.000Z"
+    },
+    {
+      "id": "2407.00111",
+      "title": "Accurate Prediction of Ligand-Protein Interaction Affinities with Fine-Tuned Small Language Models",
+      "authors": [
+        "Ben Fauber"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2024-06-27T13:04:58.000Z"
+    },
+    {
+      "id": "2407.00106",
+      "title": "UnUnlearning: Unlearning is not sufficient for content regulation in advanced generative AI",
+      "authors": [
+        "Ilia Shumailov",
+        "Jamie Hayes",
+        "Eleni Triantafillou",
+        "Guillermo Ortiz-Jimenez",
+        "Nicolas Papernot",
+        "Matthew Jagielski",
+        "Itay Yona",
+        "Heidi Howard",
+        "Eugene Bagdasaryan"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2024-06-27T10:24:35.000Z"
+    },
+    {
+      "id": "2406.20087",
+      "title": "ProgressGym: Alignment with a Millennium of Moral Progress",
+      "authors": [
+        "Tianyi Qiu",
+        "Yang Zhang",
+        "Xuchuan Huang",
+        "Jasmine Xinze Li",
+        "Jiaming Ji",
+        "Yaodong Yang"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/pku-alignment/progressgym",
+      "published": "2024-06-28T17:55:24.000Z"
+    },
+    {
+      "id": "2406.20086",
+      "title": "Token Erasure as a Footprint of Implicit Vocabulary Items in LLMs",
+      "authors": [
+        "Sheridan Feucht",
+        "David Atkinson",
+        "Byron Wallace",
+        "David Bau"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2024-06-28T17:54:47.000Z"
+    }
+  ]
+}

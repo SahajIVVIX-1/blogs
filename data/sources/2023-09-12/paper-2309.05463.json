@@ -1,0 +1,7 @@
+{
+  "id": "2309.05463",
+  "html": "https://arxiv.org/html/2309.05463",
+  "limitations": null,
+  "conclusion": "We introduced phi-1.5 , a 1.3 billion parameter LLM, trained primarily on a specially curated “textbook-quality” synthetic dataset. Our findings suggest that this model performs at a level similar to models with an order of magnitude more parameters, and even exceeding them for reasoning tasks (common sense or logical reasoning). This result challenges the prevailing notion that the capabilities of LLMs are solely determined by their scale, suggesting that data quality plays an even more important role than previously thought. The open-sourcing of phi-1.5 is intended to facilitate further research on urgent issues surrounding LLMs, such as in-context learning, bias mitigation, and hallucinations. While the model’s capabilities are still far from those of the largest LLMs, it exhibits several traits previously only seen in much larger models, making it an ideal platform for extensive rese",
+  "figure": null
+}

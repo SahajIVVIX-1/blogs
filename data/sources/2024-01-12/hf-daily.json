@@ -1,0 +1,260 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-01-12",
+  "fetched_at": "2026-10-29T15:26:33.559Z",
+  "candidates": [
+    {
+      "id": "2401.06066",
+      "title": "DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models",
+      "authors": [
+        "Damai Dai",
+        "Chengqi Deng",
+        "Chenggang Zhao",
+        "R. X. Xu",
+        "Huazuo Gao",
+        "Deli Chen",
+        "Jiashi Li",
+        "Wangding Zeng",
+        "Xingkai Yu",
+        "Y. Wu",
+        "Zhenda Xie",
+        "Y. K. Li",
+        "Panpan Huang",
+        "Fuli Luo",
+        "Chong Ruan",
+        "Zhifang Sui",
+        "Wenfeng Liang"
+      ],
+      "upvotes": 65,
+      "github": "https://github.com/deepseek-ai/deepseek-moe",
+      "published": "2024-01-11T17:31:42.000Z"
+    },
+    {
+      "id": "2401.06105",
+      "title": "PALP: Prompt Aligned Personalization of Text-to-Image Models",
+      "authors": [
+        "Moab Arar",
+        "Andrey Voynov",
+        "Amir Hertz",
+        "Omri Avrahami",
+        "Shlomi Fruchter",
+        "Yael Pritch",
+        "Daniel Cohen-Or",
+        "Ariel Shamir"
+      ],
+      "upvotes": 49,
+      "github": null,
+      "published": "2024-01-11T18:35:33.000Z"
+    },
+    {
+      "id": "2401.06080",
+      "title": "Secrets of RLHF in Large Language Models Part II: Reward Modeling",
+      "authors": [
+        "Binghai Wang",
+        "Rui Zheng",
+        "Lu Chen",
+        "Yan Liu",
+        "Shihan Dou",
+        "Caishuang Huang",
+        "Wei Shen",
+        "Senjie Jin",
+        "Enyu Zhou",
+        "Chenyu Shi",
+        "Songyang Gao",
+        "Nuo Xu",
+        "Yuhao Zhou",
+        "Xiaoran Fan",
+        "Zhiheng Xi",
+        "Jun Zhao",
+        "Xiao Wang",
+        "Tao Ji",
+        "Hang Yan",
+        "Lixing Shen",
+        "Zhan Chen",
+        "Tao Gui",
+        "Qi Zhang",
+        "Xipeng Qiu",
+        "Xuanjing Huang",
+        "Zuxuan Wu",
+        "Yu-Gang Jiang"
+      ],
+      "upvotes": 26,
+      "github": null,
+      "published": "2024-01-11T17:56:59.000Z"
+    },
+    {
+      "id": "2401.06003",
+      "title": "TRIPS: Trilinear Point Splatting for Real-Time Radiance Field Rendering",
+      "authors": [
+        "Linus Franke",
+        "Darius Rückert",
+        "Laura Fink",
+        "Marc Stamminger"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/lfranke/trips",
+      "published": "2024-01-11T16:06:36.000Z"
+    },
+    {
+      "id": "2401.05675",
+      "title": "Parrot: Pareto-optimal Multi-Reward Reinforcement Learning Framework for Text-to-Image Generation",
+      "authors": [
+        "Seung Hyun Lee",
+        "Yinxiao Li",
+        "Junjie Ke",
+        "Innfarn Yoo",
+        "Han Zhang",
+        "Jiahui Yu",
+        "Qifei Wang",
+        "Fei Deng",
+        "Glenn Entis",
+        "Junfeng He",
+        "Gang Li",
+        "Sangpil Kim",
+        "Irfan Essa",
+        "Feng Yang"
+      ],
+      "upvotes": 24,
+      "github": null,
+      "published": "2024-01-11T05:36:36.000Z"
+    },
+    {
+      "id": "2401.06121",
+      "title": "TOFU: A Task of Fictitious Unlearning for LLMs",
+      "authors": [
+        "Pratyush Maini",
+        "Zhili Feng",
+        "Avi Schwarzschild",
+        "Zachary C. Lipton",
+        "J. Zico Kolter"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/locuslab/tofu",
+      "published": "2024-01-11T18:57:12.000Z"
+    },
+    {
+      "id": "2401.06102",
+      "title": "Patchscope: A Unifying Framework for Inspecting Hidden Representations of Language Models",
+      "authors": [
+        "Asma Ghandeharioun",
+        "Avi Caciularu",
+        "Adam Pearce",
+        "Lucas Dixon",
+        "Mor Geva"
+      ],
+      "upvotes": 20,
+      "github": null,
+      "published": "2024-01-11T18:33:48.000Z"
+    },
+    {
+      "id": "2401.05654",
+      "title": "Towards Conversational Diagnostic AI",
+      "authors": [
+        "Tao Tu",
+        "Anil Palepu",
+        "Mike Schaekermann",
+        "Khaled Saab",
+        "Jan Freyberg",
+        "Ryutaro Tanno",
+        "Amy Wang",
+        "Brenna Li",
+        "Mohamed Amin",
+        "Nenad Tomasev",
+        "Shekoofeh Azizi",
+        "Karan Singhal",
+        "Yong Cheng",
+        "Le Hou",
+        "Albert Webson",
+        "Kavita Kulkarni",
+        "S Sara Mahdavi",
+        "Christopher Semturs",
+        "Juraj Gottweis",
+        "Joelle Barral",
+        "Katherine Chou",
+        "Greg S Corrado",
+        "Yossi Matias",
+        "Alan Karthikesalingam",
+        "Vivek Natarajan"
+      ],
+      "upvotes": 19,
+      "github": null,
+      "published": "2024-01-11T04:25:06.000Z"
+    },
+    {
+      "id": "2401.06071",
+      "title": "LEGO:Language Enhanced Multi-modal Grounding Model",
+      "authors": [
+        "Zhaowei Li",
+        "Qi Xu",
+        "Dong Zhang",
+        "Hang Song",
+        "Yiqing Cai",
+        "Qi Qi",
+        "Ran Zhou",
+        "Junting Pan",
+        "Zefeng Li",
+        "Van Tu Vu",
+        "Zhida Huang",
+        "Tao Wang"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2024-01-11T17:41:57.000Z"
+    },
+    {
+      "id": "2401.05583",
+      "title": "Diffusion Priors for Dynamic View Synthesis from Monocular Videos",
+      "authors": [
+        "Chaoyang Wang",
+        "Peiye Zhuang",
+        "Aliaksandr Siarohin",
+        "Junli Cao",
+        "Guocheng Qian",
+        "Hsin-Ying Lee",
+        "Sergey Tulyakov"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2024-01-10T23:26:41.000Z"
+    },
+    {
+      "id": "2401.05735",
+      "title": "Object-Centric Diffusion for Efficient Video Editing",
+      "authors": [
+        "Kumara Kahatapitiya",
+        "Adil Karjauv",
+        "Davide Abati",
+        "Fatih Porikli",
+        "Yuki M. Asano",
+        "Amirhossein Habibian"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2024-01-11T08:36:15.000Z"
+    },
+    {
+      "id": "2401.05811",
+      "title": "Tuning LLMs with Contrastive Alignment Instructions for Machine Translation in Unseen, Low-resource Languages",
+      "authors": [
+        "Zhuoyuan Mao",
+        "Yen Yu"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2024-01-11T10:28:17.000Z"
+    },
+    {
+      "id": "2401.05749",
+      "title": "A Shocking Amount of the Web is Machine Translated: Insights from Multi-Way Parallelism",
+      "authors": [
+        "Brian Thompson",
+        "Mehak Preet Dhaliwal",
+        "Peter Frisch",
+        "Tobias Domhan",
+        "Marcello Federico"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/amazon-science/multi-way-parallel-ccmatrix",
+      "published": "2024-01-11T08:56:13.000Z"
+    }
+  ]
+}

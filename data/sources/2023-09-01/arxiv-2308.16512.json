@@ -1,0 +1,25 @@
+{
+  "id": "2308.16512",
+  "title": "MVDream: Multi-view Diffusion for 3D Generation",
+  "authors": [
+    "Yichun Shi",
+    "Peng Wang",
+    "Jianglong Ye",
+    "Mai Long",
+    "Kejie Li",
+    "Xiao Yang"
+  ],
+  "published": "2023-08-31T07:49:06Z",
+  "abstract": "We introduce MVDream, a diffusion model that is able to generate consistent multi-view images from a given text prompt. Learning from both 2D and 3D data, a multi-view diffusion model can achieve the generalizability of 2D diffusion models and the consistency of 3D renderings. We demonstrate that such a multi-view diffusion model is implicitly a generalizable 3D prior agnostic to 3D representations. It can be applied to 3D generation via Score Distillation Sampling, significantly enhancing the consistency and stability of existing 2D-lifting methods. It can also learn new concepts from a few 2D examples, akin to DreamBooth, but for 3D generation.",
+  "categories": [
+    "cs.CV"
+  ],
+  "abs": "https://arxiv.org/abs/2308.16512",
+  "pdf": "https://arxiv.org/pdf/2308.16512v4",
+  "source_url": "https://export.arxiv.org/api/query?id_list=2308.16512",
+  "fetched_at": "2026-10-29T15:37:38.247Z",
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "reusable_figures": true,
+  "github": "https://github.com/bytedance/MVDream",
+  "upvotes": 106
+}

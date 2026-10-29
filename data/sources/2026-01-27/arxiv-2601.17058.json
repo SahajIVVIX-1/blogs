@@ -1,0 +1,41 @@
+{
+  "id": "2601.17058",
+  "title": "Can LLMs Clean Up Your Mess? A Survey of Application-Ready Data Preparation with LLMs",
+  "authors": [
+    "Wei Zhou",
+    "Jun Zhou",
+    "Haoyu Wang",
+    "Zhenghao Li",
+    "Qikang He",
+    "Shaokun Han",
+    "Guoliang Li",
+    "Xuanhe Zhou",
+    "Yeye He",
+    "Chunwei Liu",
+    "Zirui Tang",
+    "Bin Wang",
+    "Shen Tang",
+    "Kai Zuo",
+    "Yuyu Luo",
+    "Zhenzhe Zheng",
+    "Conghui He",
+    "Jingren Zhou",
+    "Fan Wu"
+  ],
+  "published": "2026-01-22T12:02:45Z",
+  "abstract": "Data preparation aims to denoise raw datasets, uncover cross-dataset relationships, and extract valuable insights from them, which is essential for a wide range of data-centric applications. Driven by (i) rising demands for application-ready data (e.g., for analytics, visualization, decision-making), (ii) increasingly powerful LLM techniques, and (iii) the emergence of infrastructures that facilitate flexible agent construction (e.g., using Databricks Unity Catalog), LLM-enhanced methods are rapidly becoming a transformative and potentially dominant paradigm for data preparation. By investigating hundreds of recent literature works, this paper presents a systematic review of this evolving landscape, focusing on the use of LLM techniques to prepare data for diverse downstream tasks. First, we characterize the fundamental paradigm shift, from rule-based, model-specific pipelines to prompt-driven, context-aware, and agentic preparation workflows. Next, we introduce a task-centric taxonomy that organizes the field into three major tasks: data cleaning (e.g., standardization, error processing, imputation), data integration (e.g., entity matching, schema matching), and data enrichment (e.g., data annotation, profiling). For each task, we survey representative techniques, and highlight their respective strengths (e.g., improved generalization, semantic understanding) and limitations (e.g., the prohibitive cost of scaling LLMs, persistent hallucinations even in advanced agents, the mismatch between advanced methods and weak evaluation). Moreover, we analyze commonly used datasets and evaluation metrics (the empirical part). Finally, we discuss open research challenges and outline a forward-looking roadmap that emphasizes scalable LLM-data systems, principled designs for reliable agentic workflows, and robust evaluation protocols.",
+  "categories": [
+    "cs.DB",
+    "cs.AI",
+    "cs.CL",
+    "cs.LG"
+  ],
+  "abs": "https://arxiv.org/abs/2601.17058",
+  "pdf": "https://arxiv.org/pdf/2601.17058v1",
+  "source_url": "https://export.arxiv.org/api/query?id_list=2601.17058",
+  "fetched_at": "2026-10-29T15:50:47.444Z",
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "reusable_figures": true,
+  "github": "https://github.com/weAIDB/awesome-data-llm",
+  "upvotes": 193
+}

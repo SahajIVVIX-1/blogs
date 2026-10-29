@@ -1,0 +1,362 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-03-05",
+  "fetched_at": "2026-10-29T15:34:54.547Z",
+  "candidates": [
+    {
+      "id": "2603.04379",
+      "title": "Helios: Real Real-Time Long Video Generation Model",
+      "authors": [
+        "Shenghai Yuan",
+        "Yuanyang Yin",
+        "Zongjian Li",
+        "Xinwei Huang",
+        "Xiao Yang",
+        "Li Yuan"
+      ],
+      "upvotes": 173,
+      "github": "https://github.com/PKU-YuanGroup/Helios",
+      "published": "2026-03-04T18:45:21.000Z"
+    },
+    {
+      "id": "2603.02604",
+      "title": "Heterogeneous Agent Collaborative Reinforcement Learning",
+      "authors": [
+        "Zhixia Zhang",
+        "Zixuan Huang",
+        "Xin Xia",
+        "Deqing Wang",
+        "Fuzhen Zhuang",
+        "Shuai Ma",
+        "Ning Ding",
+        "Yaodong Yang",
+        "Jianxin Li",
+        "Yikun Ban"
+      ],
+      "upvotes": 110,
+      "github": null,
+      "published": "2026-03-03T05:09:49.000Z"
+    },
+    {
+      "id": "2603.03790",
+      "title": "T2S-Bench & Structure-of-Thought: Benchmarking and Prompting Comprehensive Text-to-Structure Reasoning",
+      "authors": [
+        "Qinsi Wang",
+        "Hancheng Ye",
+        "Jinhee Kim",
+        "Jinghan Ke",
+        "Yifei Wang",
+        "Martin Kuo",
+        "Zishan Shao",
+        "Dongting Li",
+        "Yueqian Lin",
+        "Ting Jiang",
+        "Chiyue Wei",
+        "Qi Qian",
+        "Wei Wen",
+        "Helen Li",
+        "Yiran Chen"
+      ],
+      "upvotes": 79,
+      "github": "https://github.com/T2S-Bench/T2S-Bench",
+      "published": "2026-03-04T07:05:09.000Z"
+    },
+    {
+      "id": "2603.03447",
+      "title": "Proact-VL: A Proactive VideoLLM for Real-Time AI Companions",
+      "authors": [
+        "Weicai Yan",
+        "Yuhong Dai",
+        "Qi Ran",
+        "Haodong Li",
+        "Wang Lin",
+        "Hao Liao",
+        "Xing Xie",
+        "Tao Jin",
+        "Jianxun Lian"
+      ],
+      "upvotes": 37,
+      "github": "https://github.com/microsoft/AnthropomorphicIntelligence",
+      "published": "2026-03-03T19:02:46.000Z"
+    },
+    {
+      "id": "2603.03379",
+      "title": "MemSifter: Offloading LLM Memory Retrieval via Outcome-Driven Proxy Reasoning",
+      "authors": [
+        "Jiejun Tan",
+        "Zhicheng Dou",
+        "Liancheng Zhang",
+        "Yuyang Hu",
+        "Yiruo Cheng",
+        "Ji-Rong Wen"
+      ],
+      "upvotes": 32,
+      "github": "https://github.com/plageon/MemSifter",
+      "published": "2026-03-03T02:57:38.000Z"
+    },
+    {
+      "id": "2603.04338",
+      "title": "ArtHOI: Articulated Human-Object Interaction Synthesis by 4D Reconstruction from Video Priors",
+      "authors": [
+        "Zihao Huang",
+        "Tianqi Liu",
+        "Zhaoxi Chen",
+        "Shaocong Xu",
+        "Saining Zhang",
+        "Lixing Xiao",
+        "Zhiguo Cao",
+        "Wei Li",
+        "Hao Zhao",
+        "Ziwei Liu"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/Inso-13/ArtHOI",
+      "published": "2026-03-04T17:58:04.000Z"
+    },
+    {
+      "id": "2603.03975",
+      "title": "Phi-4-reasoning-vision-15B Technical Report",
+      "authors": [
+        "Jyoti Aneja",
+        "Michael Harrison",
+        "Neel Joshi",
+        "Tyler LaBonte",
+        "John Langford",
+        "Eduardo Salinas"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/microsoft/Phi-4-reasoning-vision-15B",
+      "published": "2026-03-04T12:16:53.000Z"
+    },
+    {
+      "id": "2603.04257",
+      "title": "Memex(RL): Scaling Long-Horizon LLM Agents via Indexed Experience Memory",
+      "authors": [
+        "Zhenting Wang",
+        "Huancheng Chen",
+        "Jiayun Wang",
+        "Wei Wei"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/Accenture/MemexRL",
+      "published": "2026-03-04T16:45:06.000Z"
+    },
+    {
+      "id": "2603.03197",
+      "title": "Specificity-aware reinforcement learning for fine-grained open-world classification",
+      "authors": [
+        "Samuele Angheben",
+        "Davide Berasi",
+        "Alessandro Conti",
+        "Elisa Ricci",
+        "Yiming Wang"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/s-angheben/SpeciaRL",
+      "published": "2026-03-03T17:52:39.000Z"
+    },
+    {
+      "id": "2603.04291",
+      "title": "CubeComposer: Spatio-Temporal Autoregressive 4K 360° Video Generation from Perspective Video",
+      "authors": [
+        "Lingen Li",
+        "Guangzhi Wang",
+        "Xiaoyu Li",
+        "Zhaoyang Zhang",
+        "Qi Dou",
+        "Jinwei Gu",
+        "Tianfan Xue",
+        "Ying Shan"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/TencentARC/CubeComposer",
+      "published": "2026-03-04T17:06:56.000Z"
+    },
+    {
+      "id": "2603.04304",
+      "title": "V_1: Unifying Generation and Self-Verification for Parallel Reasoners",
+      "authors": [
+        "Harman Singh",
+        "Xiuyu Li",
+        "Kusha Sareen",
+        "Monishwaran Maheswaran",
+        "Sijun Tan",
+        "Xiaoxia Wu",
+        "Junxiong Wang",
+        "Alpay Ariyak",
+        "Qingyang Wu",
+        "Samir Khaki",
+        "Rishabh Tiwari",
+        "Long Lian",
+        "Yucheng Lu",
+        "Boyi Li",
+        "Alane Suhr",
+        "Ben Athiwaratkun",
+        "Kurt Keutzer"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/HarmanDotpy/pairwise-self-verification",
+      "published": "2026-03-04T17:22:16.000Z"
+    },
+    {
+      "id": "2603.01236",
+      "title": "AgilePruner: An Empirical Study of Attention and Diversity for Adaptive Visual Token Pruning in Large Vision-Language Models",
+      "authors": [
+        "Changwoo Baek",
+        "Jouwon Song",
+        "Sohyeon Kim",
+        "Kyeongbo Kong"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/cvsp-lab/AgilePruner",
+      "published": "2026-03-01T19:14:39.000Z"
+    },
+    {
+      "id": "2603.03646",
+      "title": "InfinityStory: Unlimited Video Generation with World Consistency and Character-Aware Shot Transitions",
+      "authors": [
+        "Mohamed Elmoghany",
+        "Liangbing Zhao",
+        "Xiaoqian Shen",
+        "Subhojyoti Mukherjee",
+        "Yang Zhou",
+        "Gang Wu",
+        "Viet Dac Lai",
+        "Seunghyun Yoon",
+        "Ryan Rossi",
+        "Abdullah Rashwan",
+        "Puneet Mathur",
+        "Varun Manjunatha",
+        "Daksh Dangi",
+        "Chien Nguyen",
+        "Nedim Lipka",
+        "Trung Bui",
+        "Krishna Kumar Singh",
+        "Ruiyi Zhang",
+        "Xiaolei Huang",
+        "Jaemin Cho",
+        "Yu Wang",
+        "Namyong Park",
+        "Zhengzhong Tu",
+        "Hongjie Chen",
+        "Hoda Eldardiry",
+        "Nesreen Ahmed",
+        "Thien Nguyen",
+        "Dinesh Manocha",
+        "Mohamed Elhoseiny",
+        "Franck Dernoncourt"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2026-03-04T02:10:32.000Z"
+    },
+    {
+      "id": "2603.03823",
+      "title": "SWE-CI: Evaluating Agent Capabilities in Maintaining Codebases via Continuous Integration",
+      "authors": [
+        "Jialong Chen",
+        "Xander Xu",
+        "Hu Wei",
+        "Chuan Chen",
+        "Bing Zhao"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/SKYLENAGE-AI/SWE-CI",
+      "published": "2026-03-04T08:20:25.000Z"
+    },
+    {
+      "id": "2603.03985",
+      "title": "RIVER: A Real-Time Interaction Benchmark for Video LLMs",
+      "authors": [
+        "Yansong Shi",
+        "Qingsong Zhao",
+        "Tianxiang Jiang",
+        "Xiangyu Zeng",
+        "Yi Wang",
+        "Limin Wang"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/OpenGVLab/RIVER",
+      "published": "2026-03-04T12:29:34.000Z"
+    },
+    {
+      "id": "2603.03282",
+      "title": "MIBURI: Towards Expressive Interactive Gesture Synthesis",
+      "authors": [
+        "M. Hamza Mughal",
+        "Rishabh Dabral",
+        "Vera Demberg",
+        "Christian Theobalt"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/m-hamza-mughal/miburi",
+      "published": "2026-03-03T18:59:51.000Z"
+    },
+    {
+      "id": "2603.02482",
+      "title": "MUSE: A Run-Centric Platform for Multimodal Unified Safety Evaluation of Large Language Models",
+      "authors": [
+        "Zhongxi Wang",
+        "Yueqian Lin",
+        "Jingyang Zhang",
+        "Hai Helen Li",
+        "Yiran Chen"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-03-03T00:10:23.000Z"
+    },
+    {
+      "id": "2603.02924",
+      "title": "HDINO: A Concise and Efficient Open-Vocabulary Detector",
+      "authors": [
+        "Hao Zhang",
+        "Yiqun Wang",
+        "Qinran Lin",
+        "Runze Fan",
+        "Yong Li"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/HaoZ416/HDINO",
+      "published": "2026-03-03T12:29:19.000Z"
+    },
+    {
+      "id": "2603.04124",
+      "title": "BeamPERL: Parameter-Efficient RL with Verifiable Rewards Specializes Compact LLMs for Structured Beam Mechanics Reasoning",
+      "authors": [
+        "Tarjei Paule Hage",
+        "Markus J. Buehler"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/lamm-mit/BeamPERL",
+      "published": "2026-03-04T14:42:43.000Z"
+    },
+    {
+      "id": "2603.04254",
+      "title": "EmbodiedSplat: Online Feed-Forward Semantic 3DGS for Open-Vocabulary 3D Scene Understanding",
+      "authors": [
+        "Seungjun Lee",
+        "Zihan Wang",
+        "Yunsong Wang",
+        "Gim Hee Lee"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/0nandon/EmbodiedSplat",
+      "published": "2026-03-04T16:40:41.000Z"
+    },
+    {
+      "id": "2603.01847",
+      "title": "GroupEnsemble: Efficient Uncertainty Estimation for DETR-based Object Detection",
+      "authors": [
+        "Yutong Yang",
+        "Katarina Popović",
+        "Julian Wiederer",
+        "Markus Braun",
+        "Vasileios Belagiannis",
+        "Bin Yang"
+      ],
+      "upvotes": 0,
+      "github": "https://github.com/yutongy98/GroupEnsemble",
+      "published": "2026-03-02T13:26:40.000Z"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "2311.05556",
+  "html": "https://arxiv.org/html/2311.05556",
+  "limitations": null,
+  "conclusion": "We present LCM-LoRA, a universal training-free acceleration module for Stable-Diffusion (SD). LCM-LoRA can serve as an independent and efficient neural network-based solver module to predict the solution of PF-ODE, enabling fast inference with minimal steps on various finetuned SD models and SD LoRAs. Extensive experiments on text-to-image generation have demonstrated LCM-LoRA’s strong generalization capabilities and superiority.",
+  "figure": null
+}

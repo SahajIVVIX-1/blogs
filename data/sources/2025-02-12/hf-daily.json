@@ -1,0 +1,489 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-02-12",
+  "fetched_at": "2026-10-29T15:30:35.201Z",
+  "candidates": [
+    {
+      "id": "2502.06329",
+      "title": "Expect the Unexpected: FailSafe Long Context QA for Finance",
+      "authors": [
+        "Kiran Kamble",
+        "Melisa Russak",
+        "Dmytro Mozolevskyi",
+        "Muayad Ali",
+        "Mateusz Russak",
+        "Waseem AlShikh"
+      ],
+      "upvotes": 132,
+      "github": "https://github.com/fengbinzhu/fintech-nlp",
+      "published": "2025-02-10T10:29:28.000Z"
+    },
+    {
+      "id": "2502.06807",
+      "title": "Competitive Programming with Large Reasoning Models",
+      "authors": [
+        "OpenAI",
+        "Ahmed El-Kishky",
+        "Alexander Wei",
+        "Andre Saraiva",
+        "Borys Minaev",
+        "Daniel Selsam",
+        "David Dohan",
+        "Francis Song",
+        "Hunter Lightman",
+        "Ignasi Clavera",
+        "Jakub Pachocki",
+        "Jerry Tworek",
+        "Lorenz Kuhn",
+        "Lukasz Kaiser",
+        "Mark Chen",
+        "Max Schwarzer",
+        "Mostafa Rohaninejad",
+        "Nat McAleese",
+        "o3 contributors",
+        "Oleg Mürk",
+        "Rhythm Garg",
+        "Rui Shu",
+        "Szymon Sidor",
+        "Vineet Kosaraju",
+        "Wenda Zhou"
+      ],
+      "upvotes": 69,
+      "github": null,
+      "published": "2025-02-03T23:00:15.000Z"
+    },
+    {
+      "id": "2502.07316",
+      "title": "CodeI/O: Condensing Reasoning Patterns via Code Input-Output Prediction",
+      "authors": [
+        "Junlong Li",
+        "Daya Guo",
+        "Dejian Yang",
+        "Runxin Xu",
+        "Yu Wu",
+        "Junxian He"
+      ],
+      "upvotes": 51,
+      "github": "https://github.com/hkust-nlp/CodeIO",
+      "published": "2025-02-11T07:26:50.000Z"
+    },
+    {
+      "id": "2502.07374",
+      "title": "LLMs Can Easily Learn to Reason from Demonstrations Structure, not content, is what matters!",
+      "authors": [
+        "Dacheng Li",
+        "Shiyi Cao",
+        "Tyler Griggs",
+        "Shu Liu",
+        "Xiangxi Mo",
+        "Shishir G. Patil",
+        "Matei Zaharia",
+        "Joseph E. Gonzalez",
+        "Ion Stoica"
+      ],
+      "upvotes": 41,
+      "github": null,
+      "published": "2025-02-11T08:48:48.000Z"
+    },
+    {
+      "id": "2502.05878",
+      "title": "Retrieval-augmented Large Language Models for Financial Time Series Forecasting",
+      "authors": [
+        "Mengxi Xiao",
+        "Zihao Jiang",
+        "Lingfei Qian",
+        "Zhengyu Chen",
+        "Yueru He",
+        "Yijing Xu",
+        "Yuecheng Jiang",
+        "Dong Li",
+        "Ruey-Ling Weng",
+        "Min Peng",
+        "Jimin Huang",
+        "Sophia Ananiadou",
+        "Qianqian Xie"
+      ],
+      "upvotes": 39,
+      "github": null,
+      "published": "2025-02-09T12:26:05.000Z"
+    },
+    {
+      "id": "2502.07701",
+      "title": "Magic 1-For-1: Generating One Minute Video Clips within One Minute",
+      "authors": [
+        "Hongwei Yi",
+        "Shitong Shao",
+        "Tian Ye",
+        "Jiantong Zhao",
+        "Qingyu Yin",
+        "Michael Lingelbach",
+        "Li Yuan",
+        "Yonghong Tian",
+        "Enze Xie",
+        "Daquan Zhou"
+      ],
+      "upvotes": 37,
+      "github": null,
+      "published": "2025-02-11T16:58:15.000Z"
+    },
+    {
+      "id": "2502.07617",
+      "title": "Scaling Pre-training to One Hundred Billion Data for Vision Language Models",
+      "authors": [
+        "Xiao Wang",
+        "Ibrahim Alabdulmohsin",
+        "Daniel Salz",
+        "Zhe Li",
+        "Keran Rong",
+        "Xiaohua Zhai"
+      ],
+      "upvotes": 29,
+      "github": null,
+      "published": "2025-02-11T15:05:33.000Z"
+    },
+    {
+      "id": "2502.06857",
+      "title": "Gemstones: A Model Suite for Multi-Faceted Scaling Laws",
+      "authors": [
+        "Sean McLeish",
+        "John Kirchenbauer",
+        "David Yu Miller",
+        "Siddharth Singh",
+        "Abhinav Bhatele",
+        "Micah Goldblum",
+        "Ashwinee Panda",
+        "Tom Goldstein"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/mcleish7/gemstone-scaling-laws",
+      "published": "2025-02-07T18:09:38.000Z"
+    },
+    {
+      "id": "2502.03492",
+      "title": "Teaching Language Models to Critique via Reinforcement Learning",
+      "authors": [
+        "Zhihui Xie",
+        "Jie chen",
+        "Liyu Chen",
+        "Weichao Mao",
+        "Jingjing Xu",
+        "Lingpeng Kong"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/HKUNLP/critic-rl",
+      "published": "2025-02-05T02:18:46.000Z"
+    },
+    {
+      "id": "2502.07508",
+      "title": "Enhance-A-Video: Better Generated Video for Free",
+      "authors": [
+        "Yang Luo",
+        "Xuanlei Zhao",
+        "Mengzhao Chen",
+        "Kaipeng Zhang",
+        "Wenqi Shao",
+        "Kai Wang",
+        "Zhangyang Wang",
+        "Yang You"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/NUS-HPC-AI-Lab/Enhance-A-Video",
+      "published": "2025-02-11T12:22:35.000Z"
+    },
+    {
+      "id": "2502.07527",
+      "title": "NatureLM: Deciphering the Language of Nature for Scientific Discovery",
+      "authors": [
+        "Yingce Xia",
+        "Peiran Jin",
+        "Shufang Xie",
+        "Liang He",
+        "Chuan Cao",
+        "Renqian Luo",
+        "Guoqing Liu",
+        "Yue Wang",
+        "Zequn Liu",
+        "Yuan-Jyue Chen",
+        "Zekun Guo",
+        "Yeqi Bai",
+        "Pan Deng",
+        "Yaosen Min",
+        "Ziheng Lu",
+        "Hongxia Hao",
+        "Han Yang",
+        "Jielan Li",
+        "Chang Liu",
+        "Jia Zhang",
+        "Jianwei Zhu",
+        "Kehan Wu",
+        "Wei Zhang",
+        "Kaiyuan Gao",
+        "Qizhi Pei",
+        "Qian Wang",
+        "Xixian Liu",
+        "Yanting Li",
+        "Houtian Zhu",
+        "Yeqing Lu",
+        "Mingqian Ma",
+        "Zun Wang",
+        "Tian Xie",
+        "Krzysztof Maziarz",
+        "Marwin Segler",
+        "Zhao Yang",
+        "Zilong Chen",
+        "Yu Shi",
+        "Shuxin Zheng",
+        "Lijun Wu",
+        "Chen Hu",
+        "Peggy Dai",
+        "Tie-Yan Liu",
+        "Haiguang Liu",
+        "Tao Qin"
+      ],
+      "upvotes": 20,
+      "github": null,
+      "published": "2025-02-11T13:08:03.000Z"
+    },
+    {
+      "id": "2502.06589",
+      "title": "Hephaestus: Improving Fundamental Agent Capabilities of Large Language Models through Continual Pre-Training",
+      "authors": [
+        "Yuchen Zhuang",
+        "Jingfeng Yang",
+        "Haoming Jiang",
+        "Xin Liu",
+        "Kewei Cheng",
+        "Sanket Lokegaonkar",
+        "Yifan Gao",
+        "Qing Ping",
+        "Tianyi Liu",
+        "Binxuan Huang",
+        "Zheng Li",
+        "Zhengyang Wang",
+        "Pei Chen",
+        "Ruijie Wang",
+        "Rongzhi Zhang",
+        "Nasser Zalmout",
+        "Priyanka Nigam",
+        "Bing Yin",
+        "Chao Zhang"
+      ],
+      "upvotes": 20,
+      "github": null,
+      "published": "2025-02-10T15:54:34.000Z"
+    },
+    {
+      "id": "2502.07490",
+      "title": "Mask-Enhanced Autoregressive Prediction: Pay Less Attention to Learn More",
+      "authors": [
+        "Xialie Zhuang",
+        "Zhikai Jia",
+        "Jianjin Li",
+        "Zhenyu Zhang",
+        "Li Shen",
+        "Zheng Cao",
+        "Shiwei Liu"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2025-02-11T11:49:03.000Z"
+    },
+    {
+      "id": "2502.07531",
+      "title": "VidCRAFT3: Camera, Object, and Lighting Control for Image-to-Video Generation",
+      "authors": [
+        "Sixiao Zheng",
+        "Zimian Peng",
+        "Yanpeng Zhou",
+        "Yi Zhu",
+        "Hang Xu",
+        "Xiangru Huang",
+        "Yanwei Fu"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2025-02-11T13:11:59.000Z"
+    },
+    {
+      "id": "2502.04223",
+      "title": "Éclair -- Extracting Content and Layout with Integrated Reading Order for Documents",
+      "authors": [
+        "Ilia Karmanov",
+        "Amala Sanjay Deshmukh",
+        "Lukas Voegtle",
+        "Philipp Fischer",
+        "Kateryna Chumachenko",
+        "Timo Roman",
+        "Jarno Seppänen",
+        "Jupinder Parmar",
+        "Joseph Jennings",
+        "Andrew Tao",
+        "Karan Sapra"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2025-02-06T17:07:22.000Z"
+    },
+    {
+      "id": "2502.07445",
+      "title": "Forget What You Know about LLMs Evaluations - LLMs are Like a Chameleon",
+      "authors": [
+        "Nurit Cohen-Inger",
+        "Yehonatan Elisha",
+        "Bracha Shapira",
+        "Lior Rokach",
+        "Seffi Cohen"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/SeffiCohen/CBOD",
+      "published": "2025-02-11T10:43:36.000Z"
+    },
+    {
+      "id": "2502.03997",
+      "title": "CAD-Editor: A Locate-then-Infill Framework with Automated Training Data Synthesis for Text-Based CAD Editing",
+      "authors": [
+        "Yu Yuan",
+        "Shizhao Sun",
+        "Qi Liu",
+        "Jiang Bian"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/microsoft/CAD-Editor",
+      "published": "2025-02-06T11:57:14.000Z"
+    },
+    {
+      "id": "2502.07640",
+      "title": "Goedel-Prover: A Frontier Model for Open-Source Automated Theorem Proving",
+      "authors": [
+        "Yong Lin",
+        "Shange Tang",
+        "Bohan Lyu",
+        "Jiayun Wu",
+        "Hongzhou Lin",
+        "Kaiyu Yang",
+        "Jia Li",
+        "Mengzhou Xia",
+        "Danqi Chen",
+        "Sanjeev Arora",
+        "Chi Jin"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/Goedel-LM/Goedel-Prover",
+      "published": "2025-02-11T15:27:35.000Z"
+    },
+    {
+      "id": "2502.06428",
+      "title": "CoS: Chain-of-Shot Prompting for Long Video Understanding",
+      "authors": [
+        "Jian Hu",
+        "Zixu Cheng",
+        "Chenyang Si",
+        "Wei Li",
+        "Shaogang Gong"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/lwpyh/CoS_codes",
+      "published": "2025-02-10T13:03:05.000Z"
+    },
+    {
+      "id": "2502.07785",
+      "title": "Pippo: High-Resolution Multi-View Humans from a Single Image",
+      "authors": [
+        "Yash Kant",
+        "Ethan Weber",
+        "Jin Kyu Kim",
+        "Rawal Khirodkar",
+        "Su Zhaoen",
+        "Julieta Martinez",
+        "Igor Gilitschenski",
+        "Shunsuke Saito",
+        "Timur Bagautdinov"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/facebookresearch/pippo",
+      "published": "2025-02-11T18:59:59.000Z"
+    },
+    {
+      "id": "2502.05364",
+      "title": "Hypencoder: Hypernetworks for Information Retrieval",
+      "authors": [
+        "Julian Killingback",
+        "Hansi Zeng",
+        "Hamed Zamani"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/jfkback/hypencoder-paper",
+      "published": "2025-02-07T22:31:38.000Z"
+    },
+    {
+      "id": "2502.06755",
+      "title": "Sparse Autoencoders for Scientifically Rigorous Interpretation of Vision Models",
+      "authors": [
+        "Samuel Stevens",
+        "Wei-Lun Chao",
+        "Tanya Berger-Wolf",
+        "Yu Su"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/osu-nlp-group/SAE-V",
+      "published": "2025-02-10T18:32:41.000Z"
+    },
+    {
+      "id": "2502.07776",
+      "title": "Auditing Prompt Caching in Language Model APIs",
+      "authors": [
+        "Chenchen Gu",
+        "Xiang Lisa Li",
+        "Rohith Kuditipudi",
+        "Percy Liang",
+        "Tatsunori Hashimoto"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/chenchenygu/auditing-prompt-caching",
+      "published": "2025-02-11T18:58:04.000Z"
+    },
+    {
+      "id": "2502.05932",
+      "title": "Skill Expansion and Composition in Parameter Space",
+      "authors": [
+        "Tenglong Liu",
+        "Jianxiong Li",
+        "Yinan Zheng",
+        "Haoyi Niu",
+        "Yixing Lan",
+        "Xin Xu",
+        "Xianyuan Zhan"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/ltlhuuu/PSEC",
+      "published": "2025-02-09T15:22:38.000Z"
+    },
+    {
+      "id": "2502.04465",
+      "title": "FocalCodec: Low-Bitrate Speech Coding via Focal Modulation Networks",
+      "authors": [
+        "Luca Della Libera",
+        "Francesco Paissan",
+        "Cem Subakan",
+        "Mirco Ravanelli"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/lucadellalib/focalcodec",
+      "published": "2025-02-06T19:24:50.000Z"
+    },
+    {
+      "id": "2502.06884",
+      "title": "Learning Conformal Abstention Policies for Adaptive Risk Management in Large Language and Vision-Language Models",
+      "authors": [
+        "Sina Tayebati",
+        "Divake Kumar",
+        "Nastaran Darabi",
+        "Dinithi Jayasuriya",
+        "Ranganath Krishnan",
+        "Amit Ranjan Trivedi"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/sinatayebati/vlm-uncertainty",
+      "published": "2025-02-08T21:30:41.000Z"
+    }
+  ]
+}

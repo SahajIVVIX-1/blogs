@@ -1,0 +1,409 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-04-18",
+  "fetched_at": "2026-10-29T15:31:14.735Z",
+  "candidates": [
+    {
+      "id": "2504.13161",
+      "title": "CLIMB: CLustering-based Iterative Data Mixture Bootstrapping for Language Model Pre-training",
+      "authors": [
+        "Shizhe Diao",
+        "Yu Yang",
+        "Yonggan Fu",
+        "Xin Dong",
+        "Dan Su",
+        "Markus Kliegl",
+        "Zijia Chen",
+        "Peter Belcak",
+        "Yoshi Suhara",
+        "Hongxu Yin",
+        "Mostofa Patwary",
+        "Yingyan",
+        "Lin",
+        "Jan Kautz",
+        "Pavlo Molchanov"
+      ],
+      "upvotes": 96,
+      "github": null,
+      "published": "2025-04-17T17:58:13.000Z"
+    },
+    {
+      "id": "2504.13146",
+      "title": "Antidistillation Sampling",
+      "authors": [
+        "Yash Savani",
+        "Asher Trockman",
+        "Zhili Feng",
+        "Avi Schwarzschild",
+        "Alexander Robey",
+        "Marc Finzi",
+        "J. Zico Kolter"
+      ],
+      "upvotes": 60,
+      "github": "https://github.com/locuslab/antidistillation-sampling",
+      "published": "2025-04-17T17:54:14.000Z"
+    },
+    {
+      "id": "2504.12626",
+      "title": "Packing Input Frame Context in Next-Frame Prediction Models for Video Generation",
+      "authors": [
+        "Lvmin Zhang",
+        "Maneesh Agrawala"
+      ],
+      "upvotes": 52,
+      "github": "https://github.com/lllyasviel/FramePack",
+      "published": "2025-04-17T04:02:31.000Z"
+    },
+    {
+      "id": "2504.13181",
+      "title": "Perception Encoder: The best visual embeddings are not at the output of the network",
+      "authors": [
+        "Daniel Bolya",
+        "Po-Yao Huang",
+        "Peize Sun",
+        "Jang Hyun Cho",
+        "Andrea Madotto",
+        "Chen Wei",
+        "Tengyu Ma",
+        "Jiale Zhi",
+        "Jathushan Rajasegaran",
+        "Hanoona Rasheed",
+        "Junke Wang",
+        "Marco Monteiro",
+        "Hu Xu",
+        "Shiyu Dong",
+        "Nikhila Ravi",
+        "Daniel Li",
+        "Piotr Dollár",
+        "Christoph Feichtenhofer"
+      ],
+      "upvotes": 42,
+      "github": "https://github.com/facebookresearch/perception_models",
+      "published": "2025-04-17T17:59:57.000Z"
+    },
+    {
+      "id": "2504.13169",
+      "title": "Generate, but Verify: Reducing Hallucination in Vision-Language Models with Retrospective Resampling",
+      "authors": [
+        "Tsung-Han Wu",
+        "Heekyung Lee",
+        "Jiaxin Ge",
+        "Joseph E. Gonzalez",
+        "Trevor Darrell",
+        "David M. Chan"
+      ],
+      "upvotes": 39,
+      "github": "https://github.com/tsunghan-wu/reverse_vlm",
+      "published": "2025-04-17T17:59:22.000Z"
+    },
+    {
+      "id": "2504.12369",
+      "title": "WORLDMEM: Long-term Consistent World Simulation with Memory",
+      "authors": [
+        "Zeqi Xiao",
+        "Yushi Lan",
+        "Yifan Zhou",
+        "Wenqi Ouyang",
+        "Shuai Yang",
+        "Yanhong Zeng",
+        "Xingang Pan"
+      ],
+      "upvotes": 37,
+      "github": "https://github.com/xizaoqu/WorldMem",
+      "published": "2025-04-16T17:59:30.000Z"
+    },
+    {
+      "id": "2504.11651",
+      "title": "70% Size, 100% Accuracy: Lossless LLM Compression for Efficient GPU Inference via Dynamic-Length Float",
+      "authors": [
+        "Tianyi Zhang",
+        "Yang Sui",
+        "Shaochen Zhong",
+        "Vipin Chaudhary",
+        "Xia Hu",
+        "Anshumali Shrivastava"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/LeanModels/DFloat11",
+      "published": "2025-04-15T22:38:38.000Z"
+    },
+    {
+      "id": "2504.12322",
+      "title": "A Strategic Coordination Framework of Small LLMs Matches Large LLMs in Data Synthesis",
+      "authors": [
+        "Xin Gao",
+        "Qizhi Pei",
+        "Zinan Tang",
+        "Yu Li",
+        "Honglin Lin",
+        "Jiang Wu",
+        "Conghui He",
+        "Lijun Wu"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/GX-XinGao/GRA",
+      "published": "2025-04-11T06:13:43.000Z"
+    },
+    {
+      "id": "2504.05506",
+      "title": "ChartQAPro: A More Diverse and Challenging Benchmark for Chart Question Answering",
+      "authors": [
+        "Ahmed Masry",
+        "Mohammed Saidul Islam",
+        "Mahir Ahmed",
+        "Aayush Bajaj",
+        "Firoz Kabir",
+        "Aaryaman Kartha",
+        "Md Tahmid Rahman Laskar",
+        "Mizanur Rahman",
+        "Shadikur Rahman",
+        "Mehrad Shahmohammadi",
+        "Megh Thakkar",
+        "Md Rizwan Parvez",
+        "Enamul Hoque",
+        "Shafiq Joty"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/vis-nlp/ChartQAPro",
+      "published": "2025-04-07T21:05:06.000Z"
+    },
+    {
+      "id": "2504.12364",
+      "title": "DMM: Building a Versatile Image Generation Model via Distillation-Based Model Merging",
+      "authors": [
+        "Tianhui Song",
+        "Weixin Feng",
+        "Shuai Wang",
+        "Xubin Li",
+        "Tiezheng Ge",
+        "Bo Zheng",
+        "Limin Wang"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/MCG-NJU/DMM",
+      "published": "2025-04-16T15:09:45.000Z"
+    },
+    {
+      "id": "2504.13180",
+      "title": "PerceptionLM: Open-Access Data and Models for Detailed Visual Understanding",
+      "authors": [
+        "Jang Hyun Cho",
+        "Andrea Madotto",
+        "Effrosyni Mavroudi",
+        "Triantafyllos Afouras",
+        "Tushar Nagarajan",
+        "Muhammad Maaz",
+        "Yale Song",
+        "Tengyu Ma",
+        "Shuming Hu",
+        "Suyog Jain",
+        "Miguel Martin",
+        "Huiyu Wang",
+        "Hanoona Rasheed",
+        "Peize Sun",
+        "Po-Yao Huang",
+        "Daniel Bolya",
+        "Nikhila Ravi",
+        "Shashank Jain",
+        "Tammy Stark",
+        "Shane Moon",
+        "Babak Damavandi",
+        "Vivian Lee",
+        "Andrew Westbury",
+        "Salman Khan",
+        "Philipp Krähenbühl",
+        "Piotr Dollár",
+        "Lorenzo Torresani",
+        "Kristen Grauman",
+        "Christoph Feichtenhofer"
+      ],
+      "upvotes": 21,
+      "github": null,
+      "published": "2025-04-17T17:59:56.000Z"
+    },
+    {
+      "id": "2504.13122",
+      "title": "VistaDPO: Video Hierarchical Spatial-Temporal Direct Preference Optimization for Large Video Models",
+      "authors": [
+        "Haojian Huang",
+        "Haodong Chen",
+        "Shengqiong Wu",
+        "Meng Luo",
+        "Jinlan Fu",
+        "Xinya Du",
+        "Hanwang Zhang",
+        "Hao Fei"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/HaroldChen19/VistaDPO",
+      "published": "2025-04-17T17:39:41.000Z"
+    },
+    {
+      "id": "2504.13055",
+      "title": "NoisyRollout: Reinforcing Visual Reasoning with Data Augmentation",
+      "authors": [
+        "Xiangyan Liu",
+        "Jinjie Ni",
+        "Zijian Wu",
+        "Chao Du",
+        "Longxu Dou",
+        "Haonan Wang",
+        "Tianyu Pang",
+        "Michael Qizhe Shieh"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/John-AI-Lab/NoisyRollout",
+      "published": "2025-04-17T16:10:13.000Z"
+    },
+    {
+      "id": "2504.13171",
+      "title": "Sleep-time Compute: Beyond Inference Scaling at Test-time",
+      "authors": [
+        "Kevin Lin",
+        "Charlie Snell",
+        "Yu Wang",
+        "Charles Packer",
+        "Sarah Wooders",
+        "Ion Stoica",
+        "Joseph E. Gonzalez"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/letta-ai/sleep-time-compute",
+      "published": "2025-04-17T17:59:25.000Z"
+    },
+    {
+      "id": "2504.12395",
+      "title": "InstantCharacter: Personalize Any Characters with a Scalable Diffusion Transformer Framework",
+      "authors": [
+        "Jiale Tao",
+        "Yanbing Zhang",
+        "Qixun Wang",
+        "Yiji Cheng",
+        "Haofan Wang",
+        "Xu Bai",
+        "Zhengguang Zhou",
+        "Ruihuang Li",
+        "Linqing Wang",
+        "Chunyu Wang",
+        "Qin Lin",
+        "Qinglin Lu"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/Tencent/InstantCharacter",
+      "published": "2025-04-16T18:01:59.000Z"
+    },
+    {
+      "id": "2504.13145",
+      "title": "Exploring Expert Failures Improves LLM Agent Tuning",
+      "authors": [
+        "Li-Cheng Lan",
+        "Andrew Bai",
+        "Minhao Cheng",
+        "Cho-Jui Hsieh",
+        "Tianyi Zhou"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2025-04-17T17:53:54.000Z"
+    },
+    {
+      "id": "2504.07959",
+      "title": "CCMNet: Leveraging Calibrated Color Correction Matrices for Cross-Camera Color Constancy",
+      "authors": [
+        "Dongyoung Kim",
+        "Mahmoud Afifi",
+        "Dongyun Kim",
+        "Michael S. Brown",
+        "Seon Joo Kim"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/DY112/CCMNet",
+      "published": "2025-04-10T17:59:31.000Z"
+    },
+    {
+      "id": "2504.12157",
+      "title": "FocusedAD: Character-centric Movie Audio Description",
+      "authors": [
+        "Xiaojun Ye",
+        "Chun Wang",
+        "Yiren Song",
+        "Sheng Zhou",
+        "Liangcheng Li",
+        "Jiajun Bu"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2025-04-16T15:04:14.000Z"
+    },
+    {
+      "id": "2504.13143",
+      "title": "Complex-Edit: CoT-Like Instruction Generation for Complexity-Controllable Image Editing Benchmark",
+      "authors": [
+        "Siwei Yang",
+        "Mude Hui",
+        "Bingchen Zhao",
+        "Yuyin Zhou",
+        "Nataniel Ruiz",
+        "Cihang Xie"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/UCSC-VLAA/Complex-Edit",
+      "published": "2025-04-17T17:51:59.000Z"
+    },
+    {
+      "id": "2504.13079",
+      "title": "Retrieval-Augmented Generation with Conflicting Evidence",
+      "authors": [
+        "Han Wang",
+        "Archiki Prasad",
+        "Elias Stengel-Eskin",
+        "Mohit Bansal"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/HanNight/RAMDocs",
+      "published": "2025-04-17T16:46:11.000Z"
+    },
+    {
+      "id": "2504.12563",
+      "title": "MetaSynth: Meta-Prompting-Driven Agentic Scaffolds for Diverse Synthetic Data Generation",
+      "authors": [
+        "Haris Riaz",
+        "Sourav Bhabesh",
+        "Vinayak Arannil",
+        "Miguel Ballesteros",
+        "Graham Horwood"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-04-17T01:25:15.000Z"
+    },
+    {
+      "id": "2504.12782",
+      "title": "Set You Straight: Auto-Steering Denoising Trajectories to Sidestep Unwanted Concepts",
+      "authors": [
+        "Leyang Li",
+        "Shilin Lu",
+        "Yan Ren",
+        "Adams Wai-Kin Kong"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/lileyang1210/ant",
+      "published": "2025-04-17T09:29:30.000Z"
+    },
+    {
+      "id": "2504.09228",
+      "title": "Learning Occlusion-Robust Vision Transformers for Real-Time UAV Tracking",
+      "authors": [
+        "You Wu",
+        "Xucheng Wang",
+        "Xiangyang Yang",
+        "Mengyuan Liu",
+        "Dan Zeng",
+        "Hengzhou Ye",
+        "Shuiwang Li"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/wuyou3474/ORTrack",
+      "published": "2025-04-12T14:06:50.000Z"
+    }
+  ]
+}

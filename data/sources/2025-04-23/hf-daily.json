@@ -1,0 +1,384 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-04-23",
+  "fetched_at": "2026-10-29T15:31:17.808Z",
+  "candidates": [
+    {
+      "id": "2504.16084",
+      "title": "TTRL: Test-Time Reinforcement Learning",
+      "authors": [
+        "Yuxin Zuo",
+        "Kaiyan Zhang",
+        "Shang Qu",
+        "Li Sheng",
+        "Xuekai Zhu",
+        "Biqing Qi",
+        "Youbang Sun",
+        "Ganqu Cui",
+        "Ning Ding",
+        "Bowen Zhou"
+      ],
+      "upvotes": 123,
+      "github": "https://github.com/PRIME-RL/TTRL",
+      "published": "2025-04-22T17:59:56.000Z"
+    },
+    {
+      "id": "2504.15120",
+      "title": "Kuwain 1.5B: An Arabic SLM via Language Injection",
+      "authors": [
+        "Khalil Hennara",
+        "Sara Chrouf",
+        "Mohamed Motaism Hamed",
+        "Zeina Aldallal",
+        "Omar Hadid",
+        "Safwan AlModhayan"
+      ],
+      "upvotes": 121,
+      "github": "https://github.com/misraj-ai/Kuwain-Arabic-cleaner",
+      "published": "2025-04-21T14:17:25.000Z"
+    },
+    {
+      "id": "2504.16072",
+      "title": "Describe Anything: Detailed Localized Image and Video Captioning",
+      "authors": [
+        "Long Lian",
+        "Yifan Ding",
+        "Yunhao Ge",
+        "Sifei Liu",
+        "Hanzi Mao",
+        "Boyi Li",
+        "Marco Pavone",
+        "Ming-Yu Liu",
+        "Trevor Darrell",
+        "Adam Yala",
+        "Yin Cui"
+      ],
+      "upvotes": 66,
+      "github": "https://github.com/NVlabs/describe-anything",
+      "published": "2025-04-22T17:51:41.000Z"
+    },
+    {
+      "id": "2504.15521",
+      "title": "The Bitter Lesson Learned from 2,000+ Multilingual Benchmarks",
+      "authors": [
+        "Minghao Wu",
+        "Weixuan Wang",
+        "Sinuo Liu",
+        "Huifeng Yin",
+        "Xintong Wang",
+        "Yu Zhao",
+        "Chenyang Lyu",
+        "Longyue Wang",
+        "Weihua Luo",
+        "Kaifu Zhang"
+      ],
+      "upvotes": 64,
+      "github": null,
+      "published": "2025-04-22T01:47:37.000Z"
+    },
+    {
+      "id": "2504.15466",
+      "title": "Learning Adaptive Parallel Reasoning with Language Models",
+      "authors": [
+        "Jiayi Pan",
+        "Xiuyu Li",
+        "Long Lian",
+        "Charlie Snell",
+        "Yifei Zhou",
+        "Adam Yala",
+        "Trevor Darrell",
+        "Kurt Keutzer",
+        "Alane Suhr"
+      ],
+      "upvotes": 44,
+      "github": "https://github.com/Parallel-Reasoning/APR",
+      "published": "2025-04-21T22:29:02.000Z"
+    },
+    {
+      "id": "2504.16030",
+      "title": "LiveCC: Learning Video LLM with Streaming Speech Transcription at Scale",
+      "authors": [
+        "Joya Chen",
+        "Ziyun Zeng",
+        "Yiqi Lin",
+        "Wei Li",
+        "Zejun Ma",
+        "Mike Zheng Shou"
+      ],
+      "upvotes": 38,
+      "github": "https://github.com/showlab/livecc",
+      "published": "2025-04-22T00:00:00.000Z"
+    },
+    {
+      "id": "2504.14538",
+      "title": "BookWorld: From Novels to Interactive Agent Societies for Creative Story Generation",
+      "authors": [
+        "Yiting Ran",
+        "Xintao Wang",
+        "Tian Qiu",
+        "Jiaqing Liang",
+        "Yanghua Xiao",
+        "Deqing Yang"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/alienet1109/BookWorld",
+      "published": "2025-04-20T08:56:27.000Z"
+    },
+    {
+      "id": "2504.15785",
+      "title": "WALL-E 2.0: World Alignment by NeuroSymbolic Learning improves World Model-based LLM Agents",
+      "authors": [
+        "Siyu Zhou",
+        "Tianyi Zhou",
+        "Yijun Yang",
+        "Guodong Long",
+        "Deheng Ye",
+        "Jing Jiang",
+        "Chengqi Zhang"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/elated-sawyer/WALL-E",
+      "published": "2025-04-22T10:58:27.000Z"
+    },
+    {
+      "id": "2504.16078",
+      "title": "LLMs are Greedy Agents: Effects of RL Fine-tuning on Decision-Making Abilities",
+      "authors": [
+        "Thomas Schmied",
+        "Jörg Bornschein",
+        "Jordi Grau-Moya",
+        "Markus Wulfmeier",
+        "Razvan Pascanu"
+      ],
+      "upvotes": 21,
+      "github": null,
+      "published": "2025-04-22T17:57:14.000Z"
+    },
+    {
+      "id": "2504.15415",
+      "title": "IV-Bench: A Benchmark for Image-Grounded Video Perception and Reasoning in Multimodal LLMs",
+      "authors": [
+        "David Ma",
+        "Yuanxing Zhang",
+        "Jincheng Ren",
+        "Jarvis Guo",
+        "Yifan Yao",
+        "Zhenlin Wei",
+        "Zhenzhu Yang",
+        "Zhongyuan Peng",
+        "Boyu Feng",
+        "Jun Ma",
+        "Xiao Gu",
+        "Zhoufutu Wen",
+        "King Zhu",
+        "Yancheng He",
+        "Meng Cao",
+        "Shiwen Ni",
+        "Jiaheng Liu",
+        "Wenhao Huang",
+        "Ge Zhang",
+        "Xiaojie Jin"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/multimodal-art-projection/IV-Bench",
+      "published": "2025-04-21T19:53:44.000Z"
+    },
+    {
+      "id": "2504.13820",
+      "title": "CheXWorld: Exploring Image World Modeling for Radiograph Representation Learning",
+      "authors": [
+        "Yang Yue",
+        "Yulin Wang",
+        "Chenxin Tao",
+        "Pan Liu",
+        "Shiji Song",
+        "Gao Huang"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/LeapLabTHU/CheXWorld",
+      "published": "2025-04-18T17:50:43.000Z"
+    },
+    {
+      "id": "2504.14992",
+      "title": "Efficient Pretraining Length Scaling",
+      "authors": [
+        "Bohong Wu",
+        "Shen Yan",
+        "Sijun Zhang",
+        "Jianqiao Lu",
+        "Yutao Zeng",
+        "Ya Wang",
+        "Xun Zhou"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2025-04-21T09:41:26.000Z"
+    },
+    {
+      "id": "2504.16080",
+      "title": "From Reflection to Perfection: Scaling Inference-Time Optimization for Text-to-Image Diffusion Models via Reflection Tuning",
+      "authors": [
+        "Le Zhuo",
+        "Liangbing Zhao",
+        "Sayak Paul",
+        "Yue Liao",
+        "Renrui Zhang",
+        "Yi Xin",
+        "Peng Gao",
+        "Mohamed Elhoseiny",
+        "Hongsheng Li"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/Diffusion-CoT/ReflectionFlow",
+      "published": "2025-04-22T17:58:07.000Z"
+    },
+    {
+      "id": "2504.15681",
+      "title": "Vidi: Large Multimodal Models for Video Understanding and Editing",
+      "authors": [
+        "Vidi Team",
+        "Celong Liu",
+        "Chia-Wen Kuo",
+        "Dawei Du",
+        "Fan Chen",
+        "Guang Chen",
+        "Jiamin Yuan",
+        "Lingxi Zhang",
+        "Lu Guo",
+        "Lusha Li",
+        "Longyin Wen",
+        "Qingyu Chen",
+        "Rachel Deng",
+        "Sijie Zhu",
+        "Stuart Siew",
+        "Tong Jin",
+        "Wei Lu",
+        "Wen Zhong",
+        "Xiaohui Shen",
+        "Xin Gu",
+        "Xing Mei",
+        "Xueqiong Qu"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/bytedance/vidi",
+      "published": "2025-04-22T08:04:45.000Z"
+    },
+    {
+      "id": "2504.14977",
+      "title": "RealisDance-DiT: Simple yet Strong Baseline towards Controllable Character Animation in the Wild",
+      "authors": [
+        "Jingkai Zhou",
+        "Yifan Wu",
+        "Shikai Li",
+        "Min Wei",
+        "Chao Fan",
+        "Weihua Chen",
+        "Wei Jiang",
+        "Fan Wang"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/damo-cv/RealisDance",
+      "published": "2025-04-21T09:09:21.000Z"
+    },
+    {
+      "id": "2504.13162",
+      "title": "Personalized Text-to-Image Generation with Auto-Regressive Models",
+      "authors": [
+        "Kaiyue Sun",
+        "Xian Liu",
+        "Yao Teng",
+        "Xihui Liu"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/kaiyuesun98/t2i-personalization-with-ar",
+      "published": "2025-04-17T17:58:26.000Z"
+    },
+    {
+      "id": "2504.11703",
+      "title": "Progent: Programmable Privilege Control for LLM Agents",
+      "authors": [
+        "Tianneng Shi",
+        "Jingxuan He",
+        "Zhun Wang",
+        "Linyu Wu",
+        "Hongwei Li",
+        "Wenbo Guo",
+        "Dawn Song"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/sunblaze-ucb/progent",
+      "published": "2025-04-16T01:58:40.000Z"
+    },
+    {
+      "id": "2504.16082",
+      "title": "MR. Video: \"MapReduce\" is the Principle for Long Video Understanding",
+      "authors": [
+        "Ziqi Pang",
+        "Yu-Xiong Wang"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/ziqipang/MR-Video",
+      "published": "2025-04-22T17:59:41.000Z"
+    },
+    {
+      "id": "2504.15485",
+      "title": "CAPTURe: Evaluating Spatial Reasoning in Vision Language Models via Occluded Object Counting",
+      "authors": [
+        "Atin Pothiraj",
+        "Elias Stengel-Eskin",
+        "Jaemin Cho",
+        "Mohit Bansal"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/atinpothiraj/CAPTURe",
+      "published": "2025-04-21T23:38:43.000Z"
+    },
+    {
+      "id": "2504.15524",
+      "title": "IPBench: Benchmarking the Knowledge of Large Language Models in Intellectual Property",
+      "authors": [
+        "Qiyao Wang",
+        "Guhong Chen",
+        "Hongbo Wang",
+        "Huaren Liu",
+        "Minghui Zhu",
+        "Zhifei Qin",
+        "Linwei Li",
+        "Yilin Yue",
+        "Shiqiang Wang",
+        "Jiayan Li",
+        "Yihang Wu",
+        "Ziqiang Liu",
+        "Longze Chen",
+        "Run Luo",
+        "Liyang Fan",
+        "Jiaming Li",
+        "Lei Zhang",
+        "Kan Xu",
+        "Hongfei Lin",
+        "Hamid Alinejad-Rokny",
+        "Shiwen Ni",
+        "Yuan Lin",
+        "Min Yang"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/IPBench/IPBench",
+      "published": "2025-04-22T02:00:41.000Z"
+    },
+    {
+      "id": "2504.14735",
+      "title": "DiffVox: A Differentiable Model for Capturing and Analysing Professional Effects Distributions",
+      "authors": [
+        "Chin-Yun Yu",
+        "Marco A. Martínez-Ramírez",
+        "Junghyun Koo",
+        "Ben Hayes",
+        "Wei-Hsiang Liao",
+        "György Fazekas",
+        "Yuki Mitsufuji"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/SonyResearch/diffvox",
+      "published": "2025-04-20T20:52:58.000Z"
+    }
+  ]
+}

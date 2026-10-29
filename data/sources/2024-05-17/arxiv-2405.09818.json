@@ -1,0 +1,20 @@
+{
+  "id": "2405.09818",
+  "title": "Chameleon: Mixed-Modal Early-Fusion Foundation Models",
+  "authors": [
+    "Chameleon Team"
+  ],
+  "published": "2024-05-16T05:23:41Z",
+  "abstract": "We present Chameleon, a family of early-fusion token-based mixed-modal models capable of understanding and generating images and text in any arbitrary sequence. We outline a stable training approach from inception, an alignment recipe, and an architectural parameterization tailored for the early-fusion, token-based, mixed-modal setting. The models are evaluated on a comprehensive range of tasks, including visual question answering, image captioning, text generation, image generation, and long-form mixed modal generation. Chameleon demonstrates broad and general capabilities, including state-of-the-art performance in image captioning tasks, outperforms Llama-2 in text-only tasks while being competitive with models such as Mixtral 8x7B and Gemini-Pro, and performs non-trivial image generation, all in a single model. It also matches or exceeds the performance of much larger models, including Gemini Pro and GPT-4V, according to human judgments on a new long-form mixed-modal generation evaluation, where either the prompt or outputs contain mixed sequences of both images and text. Chameleon marks a significant step forward in a unified modeling of full multimodal documents.",
+  "categories": [
+    "cs.CL"
+  ],
+  "abs": "https://arxiv.org/abs/2405.09818",
+  "pdf": "https://arxiv.org/pdf/2405.09818v2",
+  "source_url": "https://export.arxiv.org/api/query?id_list=2405.09818",
+  "fetched_at": "2026-10-29T15:41:28.452Z",
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "reusable_figures": true,
+  "github": "https://github.com/facebookresearch/chameleon",
+  "upvotes": 134
+}

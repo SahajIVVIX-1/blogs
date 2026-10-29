@@ -1,0 +1,390 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-10-22",
+  "fetched_at": "2026-10-29T15:29:26.681Z",
+  "candidates": [
+    {
+      "id": "2410.16271",
+      "title": "FrugalNeRF: Fast Convergence for Few-shot Novel View Synthesis without Learned Priors",
+      "authors": [
+        "Chin-Yang Lin",
+        "Chung-Ho Wu",
+        "Chang-Han Yeh",
+        "Shih-Han Yen",
+        "Cheng Sun",
+        "Yu-Lun Liu"
+      ],
+      "upvotes": 84,
+      "github": null,
+      "published": "2024-10-21T17:59:53.000Z"
+    },
+    {
+      "id": "2410.16268",
+      "title": "SAM2Long: Enhancing SAM 2 for Long Video Segmentation with a Training-Free Memory Tree",
+      "authors": [
+        "Shuangrui Ding",
+        "Rui Qian",
+        "Xiaoyi Dong",
+        "Pan Zhang",
+        "Yuhang Zang",
+        "Yuhang Cao",
+        "Yuwei Guo",
+        "Dahua Lin",
+        "Jiaqi Wang"
+      ],
+      "upvotes": 68,
+      "github": "https://github.com/mark12ding/sam2long",
+      "published": "2024-10-21T17:59:19.000Z"
+    },
+    {
+      "id": "2410.16256",
+      "title": "CompassJudger-1: All-in-one Judge Model Helps Model Evaluation and Evolution",
+      "authors": [
+        "Maosong Cao",
+        "Alexander Lam",
+        "Haodong Duan",
+        "Hongwei Liu",
+        "Songyang Zhang",
+        "Kai Chen"
+      ],
+      "upvotes": 61,
+      "github": "https://github.com/open-compass/compassjudger",
+      "published": "2024-10-21T17:56:51.000Z"
+    },
+    {
+      "id": "2410.15735",
+      "title": "AutoTrain: No-code training for state-of-the-art models",
+      "authors": [
+        "Abhishek Thakur"
+      ],
+      "upvotes": 57,
+      "github": "https://github.com/huggingface/autotrain-advanced",
+      "published": "2024-10-21T07:53:32.000Z"
+    },
+    {
+      "id": "2410.13861",
+      "title": "PUMA: Empowering Unified MLLM with Multi-granular Visual Generation",
+      "authors": [
+        "Rongyao Fang",
+        "Chengqi Duan",
+        "Kun Wang",
+        "Hao Li",
+        "Hao Tian",
+        "Xingyu Zeng",
+        "Rui Zhao",
+        "Jifeng Dai",
+        "Hongsheng Li",
+        "Xihui Liu"
+      ],
+      "upvotes": 56,
+      "github": "https://github.com/rongyaofang/puma",
+      "published": "2024-10-17T17:59:57.000Z"
+    },
+    {
+      "id": "2410.14940",
+      "title": "Baichuan Alignment Technical Report",
+      "authors": [
+        "Mingan Lin",
+        "Fan Yang",
+        "Yanjun Shen",
+        "Haoze Sun",
+        "Tianpeng Li",
+        "Tao Zhang",
+        "Chenzheng Zhu",
+        "Tao Zhang",
+        "Miao Zheng",
+        "Xu Li",
+        "Yijie Zhou",
+        "Mingyang Chen",
+        "Yanzhao Qin",
+        "Youquan Li",
+        "Hao Liang",
+        "Fei Li",
+        "Yadong Li",
+        "Mang Wang",
+        "Guosheng Dong",
+        "Kun Fang",
+        "Jianhua Xu",
+        "Bin Cui",
+        "Wentao Zhang",
+        "Zenan Zhou",
+        "Weipeng Chen"
+      ],
+      "upvotes": 51,
+      "github": null,
+      "published": "2024-10-19T02:07:33.000Z"
+    },
+    {
+      "id": "2410.16153",
+      "title": "Pangea: A Fully Open Multilingual Multimodal LLM for 39 Languages",
+      "authors": [
+        "Xiang Yue",
+        "Yueqi Song",
+        "Akari Asai",
+        "Seungone Kim",
+        "Jean de Dieu Nyandwi",
+        "Simran Khanuja",
+        "Anjali Kantharuban",
+        "Lintang Sutawika",
+        "Sathyanarayanan Ramamoorthy",
+        "Graham Neubig"
+      ],
+      "upvotes": 44,
+      "github": null,
+      "published": "2024-10-21T16:19:41.000Z"
+    },
+    {
+      "id": "2410.16184",
+      "title": "RM-Bench: Benchmarking Reward Models of Language Models with Subtlety and Style",
+      "authors": [
+        "Yantao Liu",
+        "Zijun Yao",
+        "Rui Min",
+        "Yixin Cao",
+        "Lei Hou",
+        "Juanzi Li"
+      ],
+      "upvotes": 26,
+      "github": "https://github.com/THU-KEG/RM-Bench",
+      "published": "2024-10-21T16:48:26.000Z"
+    },
+    {
+      "id": "2410.12788",
+      "title": "Meta-Chunking: Learning Efficient Text Segmentation via Logical Perception",
+      "authors": [
+        "Jihao Zhao",
+        "Zhiyuan Ji",
+        "Pengnian Qi",
+        "Simin Niu",
+        "Bo Tang",
+        "Feiyu Xiong",
+        "Zhiyu Li"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/IAAR-Shanghai/Meta-Chunking",
+      "published": "2024-10-16T17:59:32.000Z"
+    },
+    {
+      "id": "2410.16215",
+      "title": "Pre-training Distillation for Large Language Models: A Design Space Exploration",
+      "authors": [
+        "Hao Peng",
+        "Xin Lv",
+        "Yushi Bai",
+        "Zijun Yao",
+        "Jiajie Zhang",
+        "Lei Hou",
+        "Juanzi Li"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2024-10-21T17:16:13.000Z"
+    },
+    {
+      "id": "2410.14745",
+      "title": "SemiEvol: Semi-supervised Fine-tuning for LLM Adaptation",
+      "authors": [
+        "Junyu Luo",
+        "Xiao Luo",
+        "Xiusi Chen",
+        "Zhiping Xiao",
+        "Wei Ju",
+        "Ming Zhang"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/luo-junyu/SemiEvol",
+      "published": "2024-10-17T16:59:46.000Z"
+    },
+    {
+      "id": "2410.15748",
+      "title": "Alchemy: Amplifying Theorem-Proving Capability through Symbolic Mutation",
+      "authors": [
+        "Shaonan Wu",
+        "Shuai Lu",
+        "Yeyun Gong",
+        "Nan Duan",
+        "Ping Wei"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/wclsn/Alchemy",
+      "published": "2024-10-21T08:04:21.000Z"
+    },
+    {
+      "id": "2410.15316",
+      "title": "Ichigo: Mixed-Modal Early-Fusion Realtime Voice Assistant",
+      "authors": [
+        "Alan Dao",
+        "Dinh Bach Vu",
+        "Huy Hoang Ha"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2024-10-20T07:03:49.000Z"
+    },
+    {
+      "id": "2410.11711",
+      "title": "Zero-shot Model-based Reinforcement Learning using Large Language Models",
+      "authors": [
+        "Abdelhakim Benechehab",
+        "Youssef Attia El Hili",
+        "Ambroise Odonnat",
+        "Oussama Zekri",
+        "Albert Thomas",
+        "Giuseppe Paolo",
+        "Maurizio Filippone",
+        "Ievgen Redko",
+        "Balázs Kégl"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/abenechehab/dicl",
+      "published": "2024-10-15T15:46:53.000Z"
+    },
+    {
+      "id": "2410.15633",
+      "title": "Selecting Influential Samples for Long Context Alignment via Homologous Models' Guidance and Contextual Awareness Measurement",
+      "authors": [
+        "Shuzheng Si",
+        "Haozhe Zhao",
+        "Gang Chen",
+        "Yunshui Li",
+        "Kangyang Luo",
+        "Chuancheng Lv",
+        "Kaikai An",
+        "Fanchao Qi",
+        "Baobao Chang",
+        "Maosong Sun"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/s1s-z/gateau",
+      "published": "2024-10-21T04:30:53.000Z"
+    },
+    {
+      "id": "2410.15002",
+      "title": "How Many Van Goghs Does It Take to Van Gogh? Finding the Imitation Threshold",
+      "authors": [
+        "Sahil Verma",
+        "Royi Rassin",
+        "Arnav Das",
+        "Gantavya Bhatt",
+        "Preethi Seshadri",
+        "Chirag Shah",
+        "Jeff Bilmes",
+        "Hannaneh Hajishirzi",
+        "Yanai Elazar"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/vsahil/mimetic-2",
+      "published": "2024-10-19T06:28:14.000Z"
+    },
+    {
+      "id": "2410.16259",
+      "title": "Agent-to-Sim: Learning Interactive Behavior Models from Casual Longitudinal Videos",
+      "authors": [
+        "Gengshan Yang",
+        "Andrea Bajcsy",
+        "Shunsuke Saito",
+        "Angjoo Kanazawa"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2024-10-21T17:57:50.000Z"
+    },
+    {
+      "id": "2410.13184",
+      "title": "Router-Tuning: A Simple and Effective Approach for Enabling Dynamic-Depth in Transformers",
+      "authors": [
+        "Shwai He",
+        "Tao Ge",
+        "Guoheng Sun",
+        "Bowei Tian",
+        "Xiaoyang Wang",
+        "Ang Li",
+        "Dong Yu"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/CASE-Lab-UMD/Router-Tuning-Mixture-of-Depths",
+      "published": "2024-10-17T03:23:50.000Z"
+    },
+    {
+      "id": "2410.13218",
+      "title": "CBT-Bench: Evaluating Large Language Models on Assisting Cognitive Behavior Therapy",
+      "authors": [
+        "Mian Zhang",
+        "Xianjun Yang",
+        "Xinlu Zhang",
+        "Travis Labrum",
+        "Jamie C. Chiu",
+        "Shaun M. Eack",
+        "Fei Fang",
+        "William Yang Wang",
+        "Zhiyu Zoey Chen"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2024-10-17T04:52:57.000Z"
+    },
+    {
+      "id": "2410.14086",
+      "title": "In-context learning and Occam's razor",
+      "authors": [
+        "Eric Elmoznino",
+        "Tom Marty",
+        "Tejas Kasetty",
+        "Leo Gagnon",
+        "Sarthak Mittal",
+        "Mahan Fathi",
+        "Dhanya Sridhar",
+        "Guillaume Lajoie"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/3rdcore/prequentialcode",
+      "published": "2024-10-17T23:37:34.000Z"
+    },
+    {
+      "id": "2410.15017",
+      "title": "DM-Codec: Distilling Multimodal Representations for Speech Tokenization",
+      "authors": [
+        "Md Mubtasim Ahasan",
+        "Md Fahim",
+        "Tasnim Mohiuddin",
+        "A K M Mahbubur Rahman",
+        "Aman Chadha",
+        "Tariq Iqbal",
+        "M Ashraful Amin",
+        "Md Mofijul Islam",
+        "Amin Ahsan Ali"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/mubtasimahasan/dm-codec",
+      "published": "2024-10-19T07:14:14.000Z"
+    },
+    {
+      "id": "2410.15460",
+      "title": "Hallucination Detox: Sensitive Neuron Dropout (SeND) for Large Language Model Training",
+      "authors": [
+        "Shahrad Mohammadzadeh",
+        "Juan David Guerra",
+        "Marco Bonizzato",
+        "Reihaneh Rabbany",
+        "Golnoosh Farnadi"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2024-10-20T18:18:23.000Z"
+    },
+    {
+      "id": "2410.13394",
+      "title": "Cross-Lingual Auto Evaluation for Assessing Multilingual LLMs",
+      "authors": [
+        "Sumanth Doddapaneni",
+        "Mohammed Safi Ur Rahman Khan",
+        "Dilip Venkatesh",
+        "Raj Dabre",
+        "Anoop Kunchukuttan",
+        "Mitesh M. Khapra"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/ai4bharat/cia",
+      "published": "2024-10-17T09:45:32.000Z"
+    }
+  ]
+}

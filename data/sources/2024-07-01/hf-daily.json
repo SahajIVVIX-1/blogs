@@ -1,0 +1,201 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-07-01",
+  "fetched_at": "2026-10-29T15:28:17.674Z",
+  "candidates": [
+    {
+      "id": "2406.20094",
+      "title": "Scaling Synthetic Data Creation with 1,000,000,000 Personas",
+      "authors": [
+        "Xin Chan",
+        "Xiaoyang Wang",
+        "Dian Yu",
+        "Haitao Mi",
+        "Dong Yu"
+      ],
+      "upvotes": 108,
+      "github": "https://github.com/tencent-ailab/persona-hub",
+      "published": "2024-06-28T17:59:01.000Z"
+    },
+    {
+      "id": "2406.19280",
+      "title": "HuatuoGPT-Vision, Towards Injecting Medical Visual Knowledge into Multimodal LLMs at Scale",
+      "authors": [
+        "Junying Chen",
+        "Ruyi Ouyang",
+        "Anningzhe Gao",
+        "Shunian Chen",
+        "Guiming Hardy Chen",
+        "Xidong Wang",
+        "Ruifei Zhang",
+        "Zhenyang Cai",
+        "Ke Ji",
+        "Guangjun Yu",
+        "Xiang Wan",
+        "Benyou Wang"
+      ],
+      "upvotes": 61,
+      "github": "https://github.com/freedomintelligence/huatuogpt-vision",
+      "published": "2024-06-27T15:50:41.000Z"
+    },
+    {
+      "id": "2406.19774",
+      "title": "Direct Preference Knowledge Distillation for Large Language Models",
+      "authors": [
+        "Yixing Li",
+        "Yuxian Gu",
+        "Li Dong",
+        "Dequan Wang",
+        "Yu Cheng",
+        "Furu Wei"
+      ],
+      "upvotes": 22,
+      "github": null,
+      "published": "2024-06-28T09:23:40.000Z"
+    },
+    {
+      "id": "2406.20095",
+      "title": "LLaRA: Supercharging Robot Learning Data for Vision-Language Policy",
+      "authors": [
+        "Xiang Li",
+        "Cristina Mata",
+        "Jongwoo Park",
+        "Kumara Kahatapitiya",
+        "Yoo Sung Jang",
+        "Jinghuan Shang",
+        "Kanchana Ranasinghe",
+        "Ryan Burgert",
+        "Mu Cai",
+        "Yong Jae Lee",
+        "Michael S. Ryoo"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/LostXine/LLaRA",
+      "published": "2024-06-28T17:59:12.000Z"
+    },
+    {
+      "id": "2406.18462",
+      "title": "GaussianDreamerPro: Text to Manipulable 3D Gaussians with Highly Enhanced Quality",
+      "authors": [
+        "Taoran Yi",
+        "Jiemin Fang",
+        "Zanwei Zhou",
+        "Junjie Wang",
+        "Guanjun Wu",
+        "Lingxi Xie",
+        "Xiaopeng Zhang",
+        "Wenyu Liu",
+        "Xinggang Wang",
+        "Qi Tian"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2024-06-26T16:12:09.000Z"
+    },
+    {
+      "id": "2406.20076",
+      "title": "EVF-SAM: Early Vision-Language Fusion for Text-Prompted Segment Anything Model",
+      "authors": [
+        "Yuxuan Zhang",
+        "Tianheng Cheng",
+        "Rui Hu",
+        "ei Liu",
+        "Heng Liu",
+        "Longjin Ran",
+        "Xiaoxin Chen",
+        "Wenyu Liu",
+        "Xinggang Wang"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/hustvl/evf-sam",
+      "published": "2024-06-28T17:38:18.000Z"
+    },
+    {
+      "id": "2406.19251",
+      "title": "AutoRAG-HP: Automatic Online Hyper-Parameter Tuning for Retrieval-Augmented Generation",
+      "authors": [
+        "Jia Fu",
+        "Xiaoting Qin",
+        "Fangkai Yang",
+        "Lu Wang",
+        "Jue Zhang",
+        "Qingwei Lin",
+        "Yubo Chen",
+        "Dongmei Zhang",
+        "Saravan Rajmohan",
+        "Qi Zhang"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2024-06-27T15:18:21.000Z"
+    },
+    {
+      "id": "2406.19320",
+      "title": "Efficient World Models with Context-Aware Tokenization",
+      "authors": [
+        "Vincent Micheli",
+        "Eloi Alonso",
+        "François Fleuret"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/vmicheli/delta-iris",
+      "published": "2024-06-27T16:54:12.000Z"
+    },
+    {
+      "id": "2407.00617",
+      "title": "Iterative Nash Policy Optimization: Aligning LLMs with General Preferences via No-Regret Learning",
+      "authors": [
+        "Yuheng Zhang",
+        "Dian Yu",
+        "Baolin Peng",
+        "Linfeng Song",
+        "Ye Tian",
+        "Mingyue Huo",
+        "Nan Jiang",
+        "Haitao Mi",
+        "Dong Yu"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2024-06-30T08:00:34.000Z"
+    },
+    {
+      "id": "2406.17720",
+      "title": "Arboretum: A Large Multimodal Dataset Enabling AI for Biodiversity",
+      "authors": [
+        "Chih-Hsuan Yang",
+        "Benjamin Feuer",
+        "Zaki Jubery",
+        "Zi K. Deng",
+        "Andre Nakkab",
+        "Md Zahid Hasan",
+        "Shivani Chiranjeevi",
+        "Kelly Marshall",
+        "Nirmal Baishnab",
+        "Asheesh K Singh",
+        "Arti Singh",
+        "Soumik Sarkar",
+        "Nirav Merchant",
+        "Chinmay Hegde",
+        "Baskar Ganapathysubramanian"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/baskargroup/Arboretum",
+      "published": "2024-06-25T17:09:54.000Z"
+    },
+    {
+      "id": "2406.16845",
+      "title": "RaTEScore: A Metric for Radiology Report Generation",
+      "authors": [
+        "Weike Zhao",
+        "Chaoyi Wu",
+        "Xiaoman Zhang",
+        "Ya Zhang",
+        "Yanfeng Wang",
+        "Weidi Xie"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/MAGIC-AI4Med/RaTEScore",
+      "published": "2024-06-24T17:49:28.000Z"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "2309.12307",
+  "html": "https://arxiv.org/html/2309.12307",
+  "limitations": null,
+  "conclusion": "In this work, we propose LongLoRA that can efficiently extend the context length of LLMs to be significantly larger. LongLoRA has less GPU memory cost and training time than standard full fine-tuning, with minimal accuracy compromise. At the architecture level, we propose [math] -Attn to approximate the standard self-attention pattern during training. [math] -Attn is easy to implement, requiring only two lines of code. Moreover, models trained via [math] -Attn retain the original standard attention architecture during inference, making most pre-existing infrastructure and optimization reusable. At the training level, we bridge the gap between LoRA and full fine-tuning with trainable normalization and embedding. Our method can extend Llama2 7B to 100k context length and 70B model to 32k context length, on a single 8 [math] A100 machine. We also present a long instruction-following dataset",
+  "figure": null
+}

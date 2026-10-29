@@ -1,0 +1,7 @@
+{
+  "id": "2512.08765",
+  "html": "https://arxiv.org/html/2512.08765",
+  "limitations": null,
+  "conclusion": "We propose Wan-Move, a simple and scalable framework for precise motion control in video generation. It represents motion with point trajectories and transfers them into latent coordinates through spatial mapping, requiring no extra motion encoder. We then inject trajectory guidance into first-frame condition features via latent feature replication, achieving effective motion control without architectural changes. For rigorous evaluation, we further present MoveBench, a comprehensive and well-curated benchmark featuring diverse content categories with hybrid-verified annotations. Extensive experiments on MoveBench and public datasets show that Wan-Move generates high-quality, long-duration (5s, 480p) videos with motion controllability on par with commercial tools like Kling 1.5 Pro’s Motion Brush. We believe our open-sourced solution offers an efficient path to scale motion-controllable ",
+  "figure": null
+}

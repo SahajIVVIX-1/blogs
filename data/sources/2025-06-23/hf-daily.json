@@ -1,0 +1,347 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-06-23",
+  "fetched_at": "2026-10-29T15:31:55.025Z",
+  "candidates": [
+    {
+      "id": "2506.16406",
+      "title": "Drag-and-Drop LLMs: Zero-Shot Prompt-to-Weights",
+      "authors": [
+        "Zhiyuan Liang",
+        "Dongwen Tang",
+        "Yuhao Zhou",
+        "Xuanlei Zhao",
+        "Mingjia Shi",
+        "Wangbo Zhao",
+        "Zekai Li",
+        "Peihao Wang",
+        "Konstantin Schürholt",
+        "Damian Borth",
+        "Michael M. Bronstein",
+        "Yang You",
+        "Zhangyang Wang",
+        "Kai Wang"
+      ],
+      "upvotes": 134,
+      "github": "https://github.com/jerryliang24/Drag-and-Drop-LLMs",
+      "published": "2025-06-19T15:38:21.000Z"
+    },
+    {
+      "id": "2506.16035",
+      "title": "Vision-Guided Chunking Is All You Need: Enhancing RAG with Multimodal Document Understanding",
+      "authors": [
+        "Vishesh Tripathi",
+        "Tanmay Odapally",
+        "Indraneel Das",
+        "Uday Allu",
+        "Biddwan Ahmed"
+      ],
+      "upvotes": 86,
+      "github": null,
+      "published": "2025-06-19T05:11:43.000Z"
+    },
+    {
+      "id": "2506.16054",
+      "title": "PAROAttention: Pattern-Aware ReOrdering for Efficient Sparse and Quantized Attention in Visual Generation Models",
+      "authors": [
+        "Tianchen Zhao",
+        "Ke Hong",
+        "Xinhao Yang",
+        "Xuefeng Xiao",
+        "Huixia Li",
+        "Feng Ling",
+        "Ruiqi Xie",
+        "Siqi Chen",
+        "Hongyu Zhu",
+        "Yichong Zhang",
+        "Yu Wang"
+      ],
+      "upvotes": 60,
+      "github": null,
+      "published": "2025-06-19T06:25:02.000Z"
+    },
+    {
+      "id": "2506.17201",
+      "title": "Hunyuan-GameCraft: High-dynamic Interactive Game Video Generation with Hybrid History Condition",
+      "authors": [
+        "Jiaqi Li",
+        "Junshu Tang",
+        "Zhiyong Xu",
+        "Longhuang Wu",
+        "Yuan Zhou",
+        "Shuai Shao",
+        "Tianbao Yu",
+        "Zhiguo Cao",
+        "Qinglin Lu"
+      ],
+      "upvotes": 55,
+      "github": null,
+      "published": "2025-06-20T17:50:37.000Z"
+    },
+    {
+      "id": "2506.09049",
+      "title": "VIKI-R: Coordinating Embodied Multi-Agent Cooperation via Reinforcement Learning",
+      "authors": [
+        "Li Kang",
+        "Xiufeng Song",
+        "Heng Zhou",
+        "Yiran Qin",
+        "Jie Yang",
+        "Xiaohong Liu",
+        "Philip Torr",
+        "Lei Bai",
+        "Zhenfei Yin"
+      ],
+      "upvotes": 38,
+      "github": "https://github.com/MARS-EAI/VIKI-R",
+      "published": "2025-06-10T17:59:44.000Z"
+    },
+    {
+      "id": "2506.16504",
+      "title": "Hunyuan3D 2.5: Towards High-Fidelity 3D Assets Generation with Ultimate Details",
+      "authors": [
+        "Zeqiang Lai",
+        "Yunfei Zhao",
+        "Haolin Liu",
+        "Zibo Zhao",
+        "Qingxiang Lin",
+        "Huiwen Shi",
+        "Xianghui Yang",
+        "Mingxin Yang",
+        "Shuhui Yang",
+        "Yifei Feng",
+        "Sheng Zhang",
+        "Xin Huang",
+        "Di Luo",
+        "Fan Yang",
+        "Fang Yang",
+        "Lifu Wang",
+        "Sicong Liu",
+        "Yixuan Tang",
+        "Yulin Cai",
+        "Zebin He",
+        "Tian Liu",
+        "Yuhong Liu",
+        "Jie Jiang",
+        "Linus",
+        "Jingwei Huang",
+        "Chunchao Guo"
+      ],
+      "upvotes": 32,
+      "github": null,
+      "published": "2025-06-19T17:57:40.000Z"
+    },
+    {
+      "id": "2506.17218",
+      "title": "Machine Mental Imagery: Empower Multimodal Reasoning with Latent Visual Tokens",
+      "authors": [
+        "Zeyuan Yang",
+        "Xueyang Yu",
+        "Delin Chen",
+        "Maohao Shen",
+        "Chuang Gan"
+      ],
+      "upvotes": 29,
+      "github": "https://github.com/UMass-Embodied-AGI/Mirage",
+      "published": "2025-06-20T17:59:31.000Z"
+    },
+    {
+      "id": "2506.17206",
+      "title": "DreamCube: 3D Panorama Generation via Multi-plane Synchronization",
+      "authors": [
+        "Yukun Huang",
+        "Yanning Zhou",
+        "Jianan Wang",
+        "Kaiyi Huang",
+        "Xihui Liu"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/yukun-huang/DreamCube",
+      "published": "2025-06-20T17:55:06.000Z"
+    },
+    {
+      "id": "2506.15442",
+      "title": "Hunyuan3D 2.1: From Images to High-Fidelity 3D Assets with Production-Ready PBR Material",
+      "authors": [
+        "Team Hunyuan3D",
+        "Shuhui Yang",
+        "Mingxin Yang",
+        "Yifei Feng",
+        "Xin Huang",
+        "Sheng Zhang",
+        "Zebin He",
+        "Di Luo",
+        "Haolin Liu",
+        "Yunfei Zhao",
+        "Qingxiang Lin",
+        "Zeqiang Lai",
+        "Xianghui Yang",
+        "Huiwen Shi",
+        "Zibo Zhao",
+        "Bowen Zhang",
+        "Hongyu Yan",
+        "Lifu Wang",
+        "Sicong Liu",
+        "Jihong Zhang",
+        "Meng Chen",
+        "Liang Dong",
+        "Yiwen Jia",
+        "Yulin Cai",
+        "Jiaao Yu",
+        "Yixuan Tang",
+        "Dongyuan Guo",
+        "Junlin Yu",
+        "Hao Zhang",
+        "Zheng Ye",
+        "Peng He",
+        "Runzhou Wu",
+        "Shida Wei",
+        "Chao Zhang",
+        "Yonghao Tan",
+        "Yifu Sun",
+        "Lin Niu",
+        "Shirui Huang",
+        "Bojian Zheng",
+        "Shu Liu",
+        "Shilin Chen",
+        "Xiang Yuan",
+        "Xiaofeng Yang",
+        "Kai Liu",
+        "Jianchen Zhu",
+        "Peng Chen",
+        "Tian Liu",
+        "Di Wang",
+        "Yuhong Liu",
+        "Linus",
+        "Jie Jiang",
+        "Jingwei Huang",
+        "Chunchao Guo"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/tencent-hunyuan/hunyuan3d-2.1",
+      "published": "2025-06-18T13:14:46.000Z"
+    },
+    {
+      "id": "2506.16310",
+      "title": "Optimizing Multilingual Text-To-Speech with Accents & Emotions",
+      "authors": [
+        "Pranav Pawar",
+        "Akshansh Dwivedi",
+        "Jenish Boricha",
+        "Himanshu Gohil",
+        "Aditya Dubey"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2025-06-19T13:35:05.000Z"
+    },
+    {
+      "id": "2506.15745",
+      "title": "InfiniPot-V: Memory-Constrained KV Cache Compression for Streaming Video Understanding",
+      "authors": [
+        "Minsoo Kim",
+        "Kyuhong Shim",
+        "Jungwook Choi",
+        "Simyung Chang"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/aiha-lab/InfiniPot-V",
+      "published": "2025-06-18T02:22:14.000Z"
+    },
+    {
+      "id": "2506.17202",
+      "title": "UniFork: Exploring Modality Alignment for Unified Multimodal Understanding and Generation",
+      "authors": [
+        "Teng Li",
+        "Quanfeng Lu",
+        "Lirui Zhao",
+        "Hao Li",
+        "Xizhou Zhu",
+        "Yu Qiao",
+        "Jun Zhang",
+        "Wenqi Shao"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/tliby/unifork",
+      "published": "2025-06-20T17:52:31.000Z"
+    },
+    {
+      "id": "2506.09930",
+      "title": "From Intention to Execution: Probing the Generalization Boundaries of Vision-Language-Action Models",
+      "authors": [
+        "Irving Fang",
+        "Juexiao Zhang",
+        "Shengbang Tong",
+        "Chen Feng"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/ai4ce/INT-ACT",
+      "published": "2025-06-11T16:52:18.000Z"
+    },
+    {
+      "id": "2506.17113",
+      "title": "MEXA: Towards General Multimodal Reasoning with Dynamic Multi-Expert Aggregation",
+      "authors": [
+        "Shoubin Yu",
+        "Yue Zhang",
+        "Ziyang Wang",
+        "Jaehong Yoon",
+        "Mohit Bansal"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/Yui010206/MEXA",
+      "published": "2025-06-20T16:14:13.000Z"
+    },
+    {
+      "id": "2506.15925",
+      "title": "Reranking-based Generation for Unbiased Perspective Summarization",
+      "authors": [
+        "Narutatsu Ri",
+        "Nicholas Deas",
+        "Kathleen McKeown"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/narutatsuri/Unbiased-Perspective-Summarization",
+      "published": "2025-06-19T00:01:43.000Z"
+    },
+    {
+      "id": "2506.17213",
+      "title": "Long-term Traffic Simulation with Interleaved Autoregressive Motion and Scenario Generation",
+      "authors": [
+        "Xiuyu Yang",
+        "Shuhan Tan",
+        "Philipp Krähenbühl"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/OrangeSodahub/infgen",
+      "published": "2025-06-20T17:59:21.000Z"
+    },
+    {
+      "id": "2506.16349",
+      "title": "Watermarking Autoregressive Image Generation",
+      "authors": [
+        "Nikola Jovanović",
+        "Ismail Labiad",
+        "Tomáš Souček",
+        "Martin Vechev",
+        "Pierre Fernandez"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/facebookresearch/wmar",
+      "published": "2025-06-19T14:25:51.000Z"
+    },
+    {
+      "id": "2506.17090",
+      "title": "Better Language Model Inversion by Compactly Representing Next-Token Distributions",
+      "authors": [
+        "Murtaza Nazir",
+        "Matthew Finlayson",
+        "John X. Morris",
+        "Xiang Ren",
+        "Swabha Swayamdipta"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2025-06-20T15:53:51.000Z"
+    }
+  ]
+}

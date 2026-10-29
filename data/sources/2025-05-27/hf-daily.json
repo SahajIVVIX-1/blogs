@@ -1,0 +1,822 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-05-27",
+  "fetched_at": "2026-10-29T15:31:38.782Z",
+  "candidates": [
+    {
+      "id": "2505.17894",
+      "title": "Mutarjim: Advancing Bidirectional Arabic-English Translation with a Small Language Model",
+      "authors": [
+        "Khalil Hennara",
+        "Muhammad Hreden",
+        "Mohamed Motaism Hamed",
+        "Zeina Aldallal",
+        "Sara Chrouf",
+        "Safwan AlModhayan"
+      ],
+      "upvotes": 220,
+      "github": null,
+      "published": "2025-05-23T13:42:21.000Z"
+    },
+    {
+      "id": "2505.19147",
+      "title": "Shifting AI Efficiency From Model-Centric to Data-Centric Compression",
+      "authors": [
+        "Xuyang Liu",
+        "Zichen Wen",
+        "Shaobo Wang",
+        "Junjie Chen",
+        "Zhishan Tao",
+        "Yubo Wang",
+        "Xiangqi Jin",
+        "Chang Zou",
+        "Yiyu Wang",
+        "Chenfei Liao",
+        "Xu Zheng",
+        "Honggang Chen",
+        "Weijia Li",
+        "Xuming Hu",
+        "Conghui He",
+        "Linfeng Zhang"
+      ],
+      "upvotes": 146,
+      "github": "https://github.com/xuyang-liu16/Awesome-Token-level-Model-Compression",
+      "published": "2025-05-25T13:51:17.000Z"
+    },
+    {
+      "id": "2505.19297",
+      "title": "Alchemist: Turning Public Text-to-Image Data into Generative Gold",
+      "authors": [
+        "Valerii Startsev",
+        "Alexander Ustyuzhanin",
+        "Alexey Kirillov",
+        "Dmitry Baranchuk",
+        "Sergey Kastryulin"
+      ],
+      "upvotes": 85,
+      "github": null,
+      "published": "2025-05-25T20:08:20.000Z"
+    },
+    {
+      "id": "2505.19457",
+      "title": "BizFinBench: A Business-Driven Real-World Financial Benchmark for Evaluating LLMs",
+      "authors": [
+        "Guilong Lu",
+        "Xuntao Guo",
+        "Rongjunchen Zhang",
+        "Wenqiao Zhu",
+        "Ji Liu"
+      ],
+      "upvotes": 64,
+      "github": "https://github.com/HiThink-Research/BizFinBench",
+      "published": "2025-05-26T03:23:02.000Z"
+    },
+    {
+      "id": "2505.16348",
+      "title": "Embodied Agents Meet Personalization: Exploring Memory Utilization for Personalized Assistance",
+      "authors": [
+        "Taeyoon Kwon",
+        "Dongwook Choi",
+        "Sunghwan Kim",
+        "Hyojun Kim",
+        "Seungjun Moon",
+        "Beong-woo Kwak",
+        "Kuan-Hao Huang",
+        "Jinyoung Yeo"
+      ],
+      "upvotes": 52,
+      "github": "https://github.com/Connoriginal/MEMENTO",
+      "published": "2025-05-22T08:00:10.000Z"
+    },
+    {
+      "id": "2505.19250",
+      "title": "PATS: Process-Level Adaptive Thinking Mode Switching",
+      "authors": [
+        "Yi Wang",
+        "Junxiao Liu",
+        "Shimao Zhang",
+        "Jiajun Chen",
+        "Shujian Huang"
+      ],
+      "upvotes": 46,
+      "github": "https://github.com/NJUNLP/PATS",
+      "published": "2025-05-25T17:58:50.000Z"
+    },
+    {
+      "id": "2505.19914",
+      "title": "Enigmata: Scaling Logical Reasoning in Large Language Models with Synthetic Verifiable Puzzles",
+      "authors": [
+        "Jiangjie Chen",
+        "Qianyu He",
+        "Siyu Yuan",
+        "Aili Chen",
+        "Zhicheng Cai",
+        "Weinan Dai",
+        "Hongli Yu",
+        "Qiying Yu",
+        "Xuefeng Li",
+        "Jiaze Chen",
+        "Hao Zhou",
+        "Mingxuan Wang"
+      ],
+      "upvotes": 46,
+      "github": "https://github.com/BytedTsinghua-SIA/Enigmata",
+      "published": "2025-05-26T12:40:31.000Z"
+    },
+    {
+      "id": "2505.20258",
+      "title": "ARM: Adaptive Reasoning Model",
+      "authors": [
+        "Siye Wu",
+        "Jian Xie",
+        "Yikai Zhang",
+        "Aili Chen",
+        "Kai Zhang",
+        "Yu Su",
+        "Yanghua Xiao"
+      ],
+      "upvotes": 45,
+      "github": "https://github.com/TEAM-ARM/arm",
+      "published": "2025-05-26T17:38:50.000Z"
+    },
+    {
+      "id": "2505.19815",
+      "title": "Deciphering Trajectory-Aided LLM Reasoning: An Optimization Perspective",
+      "authors": [
+        "Junnan Liu",
+        "Hongwei Liu",
+        "Linchen Xiao",
+        "Shudong Liu",
+        "Taolin Zhang",
+        "Zihan Ma",
+        "Songyang Zhang",
+        "Kai Chen"
+      ],
+      "upvotes": 36,
+      "github": "https://github.com/open-compass/RaML",
+      "published": "2025-05-26T10:52:17.000Z"
+    },
+    {
+      "id": "2505.19590",
+      "title": "Learning to Reason without External Rewards",
+      "authors": [
+        "Xuandong Zhao",
+        "Zhewei Kang",
+        "Aosong Feng",
+        "Sergey Levine",
+        "Dawn Song"
+      ],
+      "upvotes": 31,
+      "github": "https://github.com/sunblaze-ucb/Intuitor",
+      "published": "2025-05-26T07:01:06.000Z"
+    },
+    {
+      "id": "2505.19439",
+      "title": "Surrogate Signals from Format and Length: Reinforcement Learning for Solving Mathematical Problems without Ground Truth Answers",
+      "authors": [
+        "Rihui Xin",
+        "Han Liu",
+        "Zecheng Wang",
+        "Yupeng Zhang",
+        "Dianbo Sui",
+        "Xiaolin Hu",
+        "Bingning Wang"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/insightllm/rl-without-gt",
+      "published": "2025-05-26T02:56:22.000Z"
+    },
+    {
+      "id": "2505.18545",
+      "title": "B-score: Detecting biases in large language models using response history",
+      "authors": [
+        "An Vo",
+        "Mohammad Reza Taesiri",
+        "Daeyoung Kim",
+        "Anh Totti Nguyen"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/anvo25/b-score",
+      "published": "2025-05-24T06:23:52.000Z"
+    },
+    {
+      "id": "2505.18675",
+      "title": "Can MLLMs Guide Me Home? A Benchmark Study on Fine-Grained Visual Reasoning from Transit Maps",
+      "authors": [
+        "Sicheng Feng",
+        "Song Wang",
+        "Shuyi Ouyang",
+        "Lingdong Kong",
+        "Zikai Song",
+        "Jianke Zhu",
+        "Huan Wang",
+        "Xinchao Wang"
+      ],
+      "upvotes": 29,
+      "github": "https://github.com/fscdc/ReasonMap",
+      "published": "2025-05-24T12:33:52.000Z"
+    },
+    {
+      "id": "2505.18601",
+      "title": "Flex-Judge: Think Once, Judge Anywhere",
+      "authors": [
+        "Jongwoo Ko",
+        "Sungnyun Kim",
+        "Sungwoo Cho",
+        "Se-Young Yun"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/jongwooko/flex-judge",
+      "published": "2025-05-24T08:50:53.000Z"
+    },
+    {
+      "id": "2505.20259",
+      "title": "Lifelong Safety Alignment for Language Models",
+      "authors": [
+        "Haoyu Wang",
+        "Zeyu Qin",
+        "Yifei Zhao",
+        "Chao Du",
+        "Min Lin",
+        "Xueqian Wang",
+        "Tianyu Pang"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/sail-sg/LifelongSafetyAlignment",
+      "published": "2025-05-26T17:40:40.000Z"
+    },
+    {
+      "id": "2505.13136",
+      "title": "ModernGBERT: German-only 1B Encoder Model Trained from Scratch",
+      "authors": [
+        "Anton Ehrmanntraut",
+        "Julia Wunderle",
+        "Jan Pfister",
+        "Fotis Jannidis",
+        "Andreas Hotho"
+      ],
+      "upvotes": 23,
+      "github": null,
+      "published": "2025-05-19T14:07:20.000Z"
+    },
+    {
+      "id": "2505.19209",
+      "title": "MOOSE-Chem2: Exploring LLM Limits in Fine-Grained Scientific Hypothesis Discovery via Hierarchical Search",
+      "authors": [
+        "Zonglin Yang",
+        "Wanhao Liu",
+        "Ben Gao",
+        "Yujie Liu",
+        "Wei Li",
+        "Tong Xie",
+        "Lidong Bing",
+        "Wanli Ouyang",
+        "Erik Cambria",
+        "Dongzhan Zhou"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/ZonglinY/MOOSE-Chem2",
+      "published": "2025-05-25T16:13:46.000Z"
+    },
+    {
+      "id": "2505.18926",
+      "title": "Hybrid Neural-MPM for Interactive Fluid Simulations in Real-Time",
+      "authors": [
+        "Jingxuan Xu",
+        "Hong Huang",
+        "Chuhang Zou",
+        "Manolis Savva",
+        "Yunchao Wei",
+        "Wuyang Chen"
+      ],
+      "upvotes": 20,
+      "github": null,
+      "published": "2025-05-25T01:27:18.000Z"
+    },
+    {
+      "id": "2505.19084",
+      "title": "Jodi: Unification of Visual Generation and Understanding via Joint Modeling",
+      "authors": [
+        "Yifeng Xu",
+        "Zhenliang He",
+        "Meina Kan",
+        "Shiguang Shan",
+        "Xilin Chen"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/VIPL-GENUN/Jodi",
+      "published": "2025-05-25T10:40:52.000Z"
+    },
+    {
+      "id": "2505.20139",
+      "title": "StructEval: Benchmarking LLMs' Capabilities to Generate Structural Outputs",
+      "authors": [
+        "Jialin Yang",
+        "Dongfu Jiang",
+        "Lipeng He",
+        "Sherman Siu",
+        "Yuxuan Zhang",
+        "Disen Liao",
+        "Zhuofeng Li",
+        "Huaye Zeng",
+        "Yiming Jia",
+        "Haozhe Wang",
+        "Benjamin Schneider",
+        "Chi Ruan",
+        "Wentao Ma",
+        "Zhiheng Lyu",
+        "Yifei Wang",
+        "Yi Lu",
+        "Quy Duc Do",
+        "Ziyan Jiang",
+        "Ping Nie",
+        "Wenhu Chen"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/TIGER-AI-Lab/StructEval",
+      "published": "2025-05-26T15:40:42.000Z"
+    },
+    {
+      "id": "2505.20256",
+      "title": "Omni-R1: Reinforcement Learning for Omnimodal Reasoning via Two-System Collaboration",
+      "authors": [
+        "Hao Zhong",
+        "Muzhi Zhu",
+        "Zongze Du",
+        "Zheng Huang",
+        "Canyu Zhao",
+        "Mingyu Liu",
+        "Wen Wang",
+        "Hao Chen",
+        "Chunhua Shen"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/aim-uofa/Omni-R1",
+      "published": "2025-05-26T17:34:06.000Z"
+    },
+    {
+      "id": "2505.20046",
+      "title": "REARANK: Reasoning Re-ranking Agent via Reinforcement Learning",
+      "authors": [
+        "Le Zhang",
+        "Bo Wang",
+        "Xipeng Qiu",
+        "Siva Reddy",
+        "Aishwarya Agrawal"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/lezhang7/Rearank",
+      "published": "2025-05-26T14:31:48.000Z"
+    },
+    {
+      "id": "2505.18536",
+      "title": "Reinforcement Fine-Tuning Powers Reasoning Capability of Multimodal Large Language Models",
+      "authors": [
+        "Haoyuan Sun",
+        "Jiaqi Wu",
+        "Bo Xia",
+        "Yifu Luo",
+        "Yifei Zhao",
+        "Kai Qin",
+        "Xufei Lv",
+        "Tiantian Zhang",
+        "Yongzhe Chang",
+        "Xueqian Wang"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/Sun-Haoyuan23/Awesome-RL-based-Reasoning-MLLMs",
+      "published": "2025-05-24T06:01:48.000Z"
+    },
+    {
+      "id": "2505.19949",
+      "title": "Which Data Attributes Stimulate Math and Code Reasoning? An Investigation via Influence Functions",
+      "authors": [
+        "Siqi Kou",
+        "Qingyuan Tian",
+        "Hanwen Xu",
+        "Zihao Zeng",
+        "Zhijie Deng"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2025-05-26T13:15:26.000Z"
+    },
+    {
+      "id": "2505.19752",
+      "title": "Discrete Markov Bridge",
+      "authors": [
+        "Hengli Li",
+        "Yuxuan Wang",
+        "Song-Chun Zhu",
+        "Ying Nian Wu",
+        "Zilong Zheng"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/Henry839/Discrete-Markov-Bridge",
+      "published": "2025-05-26T09:32:12.000Z"
+    },
+    {
+      "id": "2505.18822",
+      "title": "AdaCtrl: Towards Adaptive and Controllable Reasoning via Difficulty-Aware Budgeting",
+      "authors": [
+        "Shijue Huang",
+        "Hongru Wang",
+        "Wanjun Zhong",
+        "Zhaochen Su",
+        "Jiazhan Feng",
+        "Bowen Cao",
+        "Yi R. Fung"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/joeying1019/adactrl",
+      "published": "2025-05-24T18:46:50.000Z"
+    },
+    {
+      "id": "2505.19640",
+      "title": "Interleaved Reasoning for Large Language Models via Reinforcement Learning",
+      "authors": [
+        "Roy Xie",
+        "David Qiu",
+        "Deepak Gopinath",
+        "Dong Lin",
+        "Yanchao Sun",
+        "Chong Wang",
+        "Saloni Potdar",
+        "Bhuwan Dhingra"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2025-05-26T07:58:17.000Z"
+    },
+    {
+      "id": "2505.19443",
+      "title": "Vibe Coding vs. Agentic Coding: Fundamentals and Practical Implications of Agentic AI",
+      "authors": [
+        "Ranjan Sapkota",
+        "Konstantinos I. Roumeliotis",
+        "Manoj Karkee"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2025-05-26T03:00:21.000Z"
+    },
+    {
+      "id": "2505.18759",
+      "title": "The Quest for Efficient Reasoning: A Data-Centric Benchmark to CoT Distillation",
+      "authors": [
+        "Ruichen Zhang",
+        "Rana Muhammad Shahroz Khan",
+        "Zhen Tan",
+        "Dawei Li",
+        "Song Wang",
+        "Tianlong Chen"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2025-05-24T15:54:19.000Z"
+    },
+    {
+      "id": "2505.19788",
+      "title": "Done Is Better than Perfect: Unlocking Efficient Reasoning by Structured Multi-Turn Decomposition",
+      "authors": [
+        "Zihao Zeng",
+        "Xuyao Huang",
+        "Boxiu Li",
+        "Hao Zhang",
+        "Zhijie Deng"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2025-05-26T10:18:57.000Z"
+    },
+    {
+      "id": "2505.19602",
+      "title": "Memory-Efficient Visual Autoregressive Modeling with Scale-Aware KV Cache Compression",
+      "authors": [
+        "Kunjun Li",
+        "Zigeng Chen",
+        "Cheng-Yen Yang",
+        "Jenq-Neng Hwang"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/stargazerx0/scalekv",
+      "published": "2025-05-26T07:11:42.000Z"
+    },
+    {
+      "id": "2505.13426",
+      "title": "G1: Bootstrapping Perception and Reasoning Abilities of Vision-Language Model via Reinforcement Learning",
+      "authors": [
+        "Liang Chen",
+        "Hongcheng Gao",
+        "Tianyu Liu",
+        "Zhiqi Huang",
+        "Flood Sung",
+        "Xinyu Zhou",
+        "Yuxin Wu",
+        "Baobao Chang"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/chenllliang/G1",
+      "published": "2025-05-19T17:54:39.000Z"
+    },
+    {
+      "id": "2505.19386",
+      "title": "Force Prompting: Video Generation Models Can Learn and Generalize Physics-based Control Signals",
+      "authors": [
+        "Nate Gillman",
+        "Charles Herrmann",
+        "Michael Freeman",
+        "Daksh Aggarwal",
+        "Evan Luo",
+        "Deqing Sun",
+        "Chen Sun"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/brown-palm/force-prompting",
+      "published": "2025-05-26T01:04:02.000Z"
+    },
+    {
+      "id": "2505.19955",
+      "title": "MLR-Bench: Evaluating AI Agents on Open-Ended Machine Learning Research",
+      "authors": [
+        "Hui Chen",
+        "Miao Xiong",
+        "Yujie Lu",
+        "Wei Han",
+        "Ailin Deng",
+        "Yufei He",
+        "Jiaying Wu",
+        "Yibo Li",
+        "Yue Liu",
+        "Bryan Hooi"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/chchenhui/mlrbench",
+      "published": "2025-05-26T13:18:37.000Z"
+    },
+    {
+      "id": "2505.20152",
+      "title": "Hard Negative Contrastive Learning for Fine-Grained Geometric Understanding in Large Multimodal Models",
+      "authors": [
+        "Kai Sun",
+        "Yushi Bai",
+        "Zhen Yang",
+        "Jiajie Zhang",
+        "Ji Qi",
+        "Lei Hou",
+        "Juanzi Li"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/thu-keg/mmgeolm",
+      "published": "2025-05-26T15:55:28.000Z"
+    },
+    {
+      "id": "2505.19427",
+      "title": "WINA: Weight Informed Neuron Activation for Accelerating Large Language Model Inference",
+      "authors": [
+        "Sihan Chen",
+        "Dan Zhao",
+        "Jongwoo Ko",
+        "Colby Banbury",
+        "Huiping Zhuang",
+        "Luming Liang",
+        "Tianyi Chen"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/microsoft/wina",
+      "published": "2025-05-26T02:37:32.000Z"
+    },
+    {
+      "id": "2505.19103",
+      "title": "WHISTRESS: Enriching Transcriptions with Sentence Stress Detection",
+      "authors": [
+        "Iddo Yosha",
+        "Dorin Shteyman",
+        "Yossi Adi"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/slp-rl/WhiStress",
+      "published": "2025-05-25T11:45:08.000Z"
+    },
+    {
+      "id": "2505.15804",
+      "title": "STAR-R1: Spatial TrAnsformation Reasoning by Reinforcing Multimodal LLMs",
+      "authors": [
+        "Zongzhao Li",
+        "Zongyang Ma",
+        "Mingze Li",
+        "Songyou Li",
+        "Yu Rong",
+        "Tingyang Xu",
+        "Ziqi Zhang",
+        "Deli Zhao",
+        "Wenbing Huang"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/zongzhao23/STAR-R1",
+      "published": "2025-05-21T17:57:38.000Z"
+    },
+    {
+      "id": "2505.19223",
+      "title": "LLaDA 1.5: Variance-Reduced Preference Optimization for Large Language Diffusion Models",
+      "authors": [
+        "Fengqi Zhu",
+        "Rongzhen Wang",
+        "Shen Nie",
+        "Xiaolu Zhang",
+        "Chunwei Wu",
+        "Jun Hu",
+        "Jun Zhou",
+        "Jianfei Chen",
+        "Yankai Lin",
+        "Ji-Rong Wen",
+        "Chongxuan Li"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/ML-GSAI/LLaDA-1.5",
+      "published": "2025-05-25T16:36:20.000Z"
+    },
+    {
+      "id": "2505.10887",
+      "title": "InfantAgent-Next: A Multimodal Generalist Agent for Automated Computer Interaction",
+      "authors": [
+        "Bin Lei",
+        "Weitai Kang",
+        "Zijian Zhang",
+        "Winson Chen",
+        "Xi Xie",
+        "Shan Zuo",
+        "Mimi Xie",
+        "Ali Payani",
+        "Mingyi Hong",
+        "Yan Yan",
+        "Caiwen Ding"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/bin123apple/InfantAgent",
+      "published": "2025-05-16T05:43:27.000Z"
+    },
+    {
+      "id": "2505.16972",
+      "title": "From Tens of Hours to Tens of Thousands: Scaling Back-Translation for Speech Recognition",
+      "authors": [
+        "Tianduo Wang",
+        "Lu Xu",
+        "Wei Lu",
+        "Shanbo Cheng"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/TianduoWang/Speech-BT",
+      "published": "2025-05-22T17:51:05.000Z"
+    },
+    {
+      "id": "2505.18384",
+      "title": "Dynamic Risk Assessments for Offensive Cybersecurity Agents",
+      "authors": [
+        "Boyi Wei",
+        "Benedikt Stroebl",
+        "Jiacen Xu",
+        "Joie Zhang",
+        "Zhou Li",
+        "Peter Henderson"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/boyiwei/Dynamic-Risk-Assessment",
+      "published": "2025-05-23T21:18:59.000Z"
+    },
+    {
+      "id": "2505.18454",
+      "title": "Hybrid Latent Reasoning via Reinforcement Learning",
+      "authors": [
+        "Zhenrui Yue",
+        "Bowen Jin",
+        "Huimin Zeng",
+        "Honglei Zhuang",
+        "Zhen Qin",
+        "Jinsung Yoon",
+        "Lanyu Shang",
+        "Jiawei Han",
+        "Dong Wang"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/yueeeeeeee/hrpo",
+      "published": "2025-05-24T01:26:16.000Z"
+    },
+    {
+      "id": "2505.18773",
+      "title": "Strong Membership Inference Attacks on Massive Datasets and (Moderately) Large Language Models",
+      "authors": [
+        "Jamie Hayes",
+        "Ilia Shumailov",
+        "Christopher A. Choquette-Choo",
+        "Matthew Jagielski",
+        "George Kaissis",
+        "Katherine Lee",
+        "Milad Nasr",
+        "Sahra Ghalebikesabi",
+        "Niloofar Mireshghallah",
+        "Meenatchi Sundaram Mutu Selva Annamalai",
+        "Igor Shilov",
+        "Matthieu Meeus",
+        "Yves-Alexandre de Montjoye",
+        "Franziska Boenisch",
+        "Adam Dziedzic",
+        "A. Feder Cooper"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2025-05-24T16:23:43.000Z"
+    },
+    {
+      "id": "2505.20278",
+      "title": "The Coverage Principle: A Framework for Understanding Compositional Generalization",
+      "authors": [
+        "Hoyeon Chang",
+        "Jinho Park",
+        "Hanseul Cho",
+        "Sohee Yang",
+        "Miyoung Ko",
+        "Hyeonbin Hwang",
+        "Seungpil Won",
+        "Dohaeng Lee",
+        "Youbin Ahn",
+        "Minjoon Seo"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/kaistai/coverage-principle",
+      "published": "2025-05-26T17:55:15.000Z"
+    },
+    {
+      "id": "2505.19630",
+      "title": "DoctorAgent-RL: A Multi-Agent Collaborative Reinforcement Learning System for Multi-Turn Clinical Dialogue",
+      "authors": [
+        "Yichun Feng",
+        "Jiawei Wang",
+        "Lu Zhou",
+        "Yixue Li"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/JarvisUSTC/DoctorAgent-RL",
+      "published": "2025-05-26T07:48:14.000Z"
+    },
+    {
+      "id": "2505.16886",
+      "title": "Don't \"Overthink\" Passage Reranking: Is Reasoning Truly Necessary?",
+      "authors": [
+        "Nour Jedidi",
+        "Yung-Sung Chuang",
+        "James Glass",
+        "Jimmy Lin"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2025-05-22T16:41:37.000Z"
+    },
+    {
+      "id": "2505.19731",
+      "title": "Accelerating Nash Learning from Human Feedback via Mirror Prox",
+      "authors": [
+        "Daniil Tiapkin",
+        "Daniele Calandriello",
+        "Denis Belomestny",
+        "Eric Moulines",
+        "Alexey Naumov",
+        "Kashif Rasul",
+        "Michal Valko",
+        "Pierre Menard"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2025-05-26T09:17:32.000Z"
+    },
+    {
+      "id": "2505.19056",
+      "title": "An Embarrassingly Simple Defense Against LLM Abliteration Attacks",
+      "authors": [
+        "Harethah Abu Shairah",
+        "Hasan Abed Al Kader Hammoud",
+        "Bernard Ghanem",
+        "George Turkiyyah"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2025-05-25T09:18:24.000Z"
+    },
+    {
+      "id": "2505.17652",
+      "title": "Rethinking the Sampling Criteria in Reinforcement Learning for LLM Reasoning: A Competence-Difficulty Alignment Perspective",
+      "authors": [
+        "Deyang Kong",
+        "Qi Guo",
+        "Xiangyu Xi",
+        "Wei Wang",
+        "Jingang Wang",
+        "Xunliang Cai",
+        "Shikun Zhang",
+        "Wei Ye"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2025-05-23T09:15:26.000Z"
+    }
+  ]
+}

@@ -1,0 +1,304 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-12-12",
+  "fetched_at": "2026-10-29T15:29:57.582Z",
+  "candidates": [
+    {
+      "id": "2412.08580",
+      "title": "LAION-SG: An Enhanced Large-Scale Dataset for Training Complex Image-Text Models with Structural Annotations",
+      "authors": [
+        "Zejian Li",
+        "Chenye Meng",
+        "Yize Li",
+        "Ling Yang",
+        "Shengyuan Zhang",
+        "Jiarui Ma",
+        "Jiayi Li",
+        "Guang Yang",
+        "Changyuan Yang",
+        "Zhiyuan Yang",
+        "Jinxiong Chang",
+        "Lingyun Sun"
+      ],
+      "upvotes": 45,
+      "github": "https://github.com/mengcye/LAION-SG",
+      "published": "2024-12-11T17:57:10.000Z"
+    },
+    {
+      "id": "2412.07760",
+      "title": "SynCamMaster: Synchronizing Multi-Camera Video Generation from Diverse Viewpoints",
+      "authors": [
+        "Jianhong Bai",
+        "Menghan Xia",
+        "Xintao Wang",
+        "Ziyang Yuan",
+        "Xiao Fu",
+        "Zuozhu Liu",
+        "Haoji Hu",
+        "Pengfei Wan",
+        "Di Zhang"
+      ],
+      "upvotes": 43,
+      "github": "https://github.com/kwaivgi/syncammaster",
+      "published": "2024-12-10T18:55:17.000Z"
+    },
+    {
+      "id": "2412.08443",
+      "title": "POINTS1.5: Building a Vision-Language Model towards Real World Applications",
+      "authors": [
+        "Yuan Liu",
+        "Le Tian",
+        "Xiao Zhou",
+        "Xinyu Gao",
+        "Kavio Yu",
+        "Yang Yu",
+        "Jie Zhou"
+      ],
+      "upvotes": 39,
+      "github": null,
+      "published": "2024-12-11T15:08:25.000Z"
+    },
+    {
+      "id": "2412.08486",
+      "title": "Learning Flow Fields in Attention for Controllable Person Image Generation",
+      "authors": [
+        "Zijian Zhou",
+        "Shikun Liu",
+        "Xiao Han",
+        "Haozhe Liu",
+        "Kam Woh Ng",
+        "Tian Xie",
+        "Yuren Cong",
+        "Hang Li",
+        "Mengmeng Xu",
+        "Juan-Manuel Pérez-Rúa",
+        "Aditya Patel",
+        "Tao Xiang",
+        "Miaojing Shi",
+        "Sen He"
+      ],
+      "upvotes": 36,
+      "github": "https://github.com/franciszzj/leffa",
+      "published": "2024-12-11T15:51:14.000Z"
+    },
+    {
+      "id": "2412.05467",
+      "title": "The BrowserGym Ecosystem for Web Agent Research",
+      "authors": [
+        "Thibault Le Sellier De Chezelles",
+        "Maxime Gasse",
+        "Alexandre Drouin",
+        "Massimo Caccia",
+        "Léo Boisvert",
+        "Megh Thakkar",
+        "Tom Marty",
+        "Rim Assouel",
+        "Sahar Omidi Shayegan",
+        "Lawrence Keunho Jang",
+        "Xing Han Lù",
+        "Ori Yoran",
+        "Dehan Kong",
+        "Frank F. Xu",
+        "Siva Reddy",
+        "Quentin Cappart",
+        "Graham Neubig",
+        "Ruslan Salakhutdinov",
+        "Nicolas Chapados",
+        "Alexandre Lacoste"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/servicenow/agentlab",
+      "published": "2024-12-06T23:43:59.000Z"
+    },
+    {
+      "id": "2412.06016",
+      "title": "Track4Gen: Teaching Video Diffusion Models to Track Points Improves Video Generation",
+      "authors": [
+        "Hyeonho Jeong",
+        "Chun-Hao Paul Huang",
+        "Jong Chul Ye",
+        "Niloy Mitra",
+        "Duygu Ceylan"
+      ],
+      "upvotes": 20,
+      "github": null,
+      "published": "2024-12-08T18:21:00.000Z"
+    },
+    {
+      "id": "2412.06234",
+      "title": "Generative Densification: Learning to Densify Gaussians for High-Fidelity Generalizable 3D Reconstruction",
+      "authors": [
+        "Seungtae Nam",
+        "Xiangyu Sun",
+        "Gyeongjin Kang",
+        "Younggeun Lee",
+        "Seungjun Oh",
+        "Eunbyung Park"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/stnamjef/GenerativeDensification",
+      "published": "2024-12-09T06:20:51.000Z"
+    },
+    {
+      "id": "2412.08646",
+      "title": "StreamChat: Chatting with Streaming Video",
+      "authors": [
+        "Jihao Liu",
+        "Zhiding Yu",
+        "Shiyi Lan",
+        "Shihao Wang",
+        "Rongyao Fang",
+        "Jan Kautz",
+        "Hongsheng Li",
+        "Jose M. Alvare"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2024-12-11T18:59:54.000Z"
+    },
+    {
+      "id": "2412.07744",
+      "title": "StyleMaster: Stylize Your Video with Artistic Generation and Translation",
+      "authors": [
+        "Zixuan Ye",
+        "Huijuan Huang",
+        "Xintao Wang",
+        "Pengfei Wan",
+        "Di Zhang",
+        "Wenhan Luo"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/KwaiVGI/StyleMaster",
+      "published": "2024-12-10T18:44:08.000Z"
+    },
+    {
+      "id": "2412.08629",
+      "title": "FlowEdit: Inversion-Free Text-Based Editing Using Pre-Trained Flow Models",
+      "authors": [
+        "Vladimir Kulikov",
+        "Matan Kleiner",
+        "Inbar Huberman-Spiegelglas",
+        "Tomer Michaeli"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/fallenshock/FlowEdit",
+      "published": "2024-12-11T18:50:29.000Z"
+    },
+    {
+      "id": "2412.07825",
+      "title": "3DSRBench: A Comprehensive 3D Spatial Reasoning Benchmark",
+      "authors": [
+        "Wufei Ma",
+        "Haoyu Chen",
+        "Guofeng Zhang",
+        "Celso M de Melo",
+        "Alan Yuille",
+        "Jieneng Chen"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2024-12-10T18:55:23.000Z"
+    },
+    {
+      "id": "2412.06071",
+      "title": "KaSA: Knowledge-Aware Singular-Value Adaptation of Large Language Models",
+      "authors": [
+        "Fan Wang",
+        "Juyong Jiang",
+        "Chansung Park",
+        "Sunghun Kim",
+        "Jing Tang"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/juyongjiang/kasa",
+      "published": "2024-12-08T21:26:22.000Z"
+    },
+    {
+      "id": "2412.07797",
+      "title": "Mogo: RQ Hierarchical Causal Transformer for High-Quality 3D Human Motion Generation",
+      "authors": [
+        "Dongjie Fu"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2024-12-05T08:30:43.000Z"
+    },
+    {
+      "id": "2412.09551",
+      "title": "Video Creation by Demonstration",
+      "authors": [
+        "Yihong Sun",
+        "Hao Zhou",
+        "Liangzhe Yuan",
+        "Jennifer J. Sun",
+        "Yandong Li",
+        "Xuhui Jia",
+        "Hartwig Adam",
+        "Bharath Hariharan",
+        "Long Zhao",
+        "Ting Liu"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2024-12-12T18:41:20.000Z"
+    },
+    {
+      "id": "2412.06676",
+      "title": "I Don't Know: Explicit Modeling of Uncertainty with an [IDK] Token",
+      "authors": [
+        "Roi Cohen",
+        "Konstantin Dobler",
+        "Eden Biran",
+        "Gerard de Melo"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/roi-hpi/IDK-token-tuning",
+      "published": "2024-12-09T17:13:20.000Z"
+    },
+    {
+      "id": "2412.08503",
+      "title": "StyleStudio: Text-Driven Style Transfer with Selective Control of Style Elements",
+      "authors": [
+        "Mingkun Lei",
+        "Xue Song",
+        "Beier Zhu",
+        "Hao Wang",
+        "Chi Zhang"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2024-12-11T16:13:23.000Z"
+    },
+    {
+      "id": "2412.08467",
+      "title": "Bootstrapping Language-Guided Navigation Learning with Self-Refining Data Flywheel",
+      "authors": [
+        "Zun Wang",
+        "Jialu Li",
+        "Yicong Hong",
+        "Songze Li",
+        "Kunchang Li",
+        "Shoubin Yu",
+        "Yi Wang",
+        "Yu Qiao",
+        "Yali Wang",
+        "Mohit Bansal",
+        "Limin Wang"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/wz0919/vln-srdf",
+      "published": "2024-12-11T15:32:24.000Z"
+    },
+    {
+      "id": "2412.07147",
+      "title": "MIT-10M: A Large Scale Parallel Corpus of Multilingual Image Translation",
+      "authors": [
+        "Bo Li",
+        "Shaolin Zhu",
+        "Lijie Wen"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2024-12-10T03:12:35.000Z"
+    }
+  ]
+}

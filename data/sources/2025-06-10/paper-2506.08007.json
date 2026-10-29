@@ -1,0 +1,7 @@
+{
+  "id": "2506.08007",
+  "html": "https://arxiv.org/html/2506.08007",
+  "limitations": null,
+  "conclusion": "We introduce reinforcement pre-training ( RPT ), a novel paradigm for pre-training large language models. By framing next-token prediction as a verifiable reasoning task and applying reinforcement learning with correctness-based rewards, RPT allows LLMs to leverage extended computation during pre-training to build stronger foundational reasoning capabilities. Our experiments demonstrate that RPT improves next-token prediction, enhances performance on mathematical and general reasoning benchmarks in zero-shot settings, and provides a better starting point for further RL fine-tuning. RPT offers a promising new direction for developing more capable and generally intelligent LLMs by fundamentally rethinking the pre-training objective itself. While promising, this initial exploration of RPT has certain limitations. Our experiments are primarily conducted using a 14B parameter model. Although ",
+  "figure": null
+}

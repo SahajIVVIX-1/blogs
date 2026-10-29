@@ -1,0 +1,34 @@
+{
+  "id": "2601.05242",
+  "title": "GDPO: Group reward-Decoupled Normalization Policy Optimization for Multi-reward RL Optimization",
+  "authors": [
+    "Shih-Yang Liu",
+    "Xin Dong",
+    "Ximing Lu",
+    "Shizhe Diao",
+    "Peter Belcak",
+    "Mingjie Liu",
+    "Min-Hung Chen",
+    "Hongxu Yin",
+    "Yu-Chiang Frank Wang",
+    "Kwang-Ting Cheng",
+    "Yejin Choi",
+    "Jan Kautz",
+    "Pavlo Molchanov"
+  ],
+  "published": "2026-01-08T18:59:24Z",
+  "abstract": "As language models become increasingly capable, users expect them to provide not only accurate responses but also behaviors aligned with diverse human preferences across a variety of scenarios. To achieve this, Reinforcement learning (RL) pipelines have begun incorporating multiple rewards, each capturing a distinct preference, to guide models toward these desired behaviors. However, recent work has defaulted to apply Group Relative Policy Optimization (GRPO) under multi-reward setting without examining its suitability. In this paper, we demonstrate that directly applying GRPO to normalize distinct rollout reward combinations causes them to collapse into identical advantage values, reducing the resolution of the training signal and resulting in suboptimal convergence and, in some cases, early training failure. We then introduce Group reward-Decoupled Normalization Policy Optimization (GDPO), a new policy optimization method to resolve these issues by decoupling the normalization of individual rewards, more faithfully preserving their relative differences and enabling more accurate multi-reward optimization, along with substantially improved training stability. We compare GDPO with GRPO across three tasks: tool calling, math reasoning, and coding reasoning, evaluating both correctness metrics (accuracy, bug ratio) and constraint adherence metrics (format, length). Across all settings, GDPO consistently outperforms GRPO, demonstrating its effectiveness and generalizability for multi-reward reinforcement learning optimization.",
+  "categories": [
+    "cs.CL",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "abs": "https://arxiv.org/abs/2601.05242",
+  "pdf": "https://arxiv.org/pdf/2601.05242v1",
+  "source_url": "https://export.arxiv.org/api/query?id_list=2601.05242",
+  "fetched_at": "2026-10-29T15:50:27.279Z",
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "reusable_figures": true,
+  "github": "https://github.com/NVlabs/GDPO",
+  "upvotes": 236
+}

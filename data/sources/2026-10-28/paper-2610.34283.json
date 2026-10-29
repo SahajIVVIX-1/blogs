@@ -1,0 +1,7 @@
+{
+  "id": "2610.34283",
+  "html": "https://arxiv.org/html/2610.34283",
+  "limitations": null,
+  "conclusion": "ChronoReplay replays heterogeneous spatial supervision in source chronology, retains native targets, and improves OVO-S, OST, and UCS together under matched observation access. We call the uneven cross-readout transfer observed in single-family training interface lock-in , an empirical pattern rather than an isolated internal mechanism. The single-family comparison retains the tradeoff: categorical-only training favors OVO-S, trajectory-only training gives little OST Overall gain, and full ChronoReplay has the highest three-benchmark mean. Objective controls show further gains beyond ordinary joint SFT. The full recipe gains 13.41 OST points over the base; the paired cyclic-shift control isolates a smaller, repeatable 2.41-point contribution from preserving source chronology as a whole. Native and canonical answer formats redistribute gains across UCS and OST rather than establishing a u",
+  "figure": null
+}

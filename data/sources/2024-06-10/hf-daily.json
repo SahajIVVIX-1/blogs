@@ -1,0 +1,194 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-06-10",
+  "fetched_at": "2026-10-29T15:28:04.866Z",
+  "candidates": [
+    {
+      "id": "2406.04692",
+      "title": "Mixture-of-Agents Enhances Large Language Model Capabilities",
+      "authors": [
+        "Junlin Wang",
+        "Jue Wang",
+        "Ben Athiwaratkun",
+        "Ce Zhang",
+        "James Zou"
+      ],
+      "upvotes": 58,
+      "github": "https://github.com/togethercomputer/moa",
+      "published": "2024-06-07T07:04:10.000Z"
+    },
+    {
+      "id": "2406.04744",
+      "title": "CRAG -- Comprehensive RAG Benchmark",
+      "authors": [
+        "Xiao Yang",
+        "Kai Sun",
+        "Hao Xin",
+        "Yushi Sun",
+        "Nikita Bhalla",
+        "Xiangsen Chen",
+        "Sajal Choudhary",
+        "Rongze Daniel Gui",
+        "Ziran Will Jiang",
+        "Ziyu Jiang",
+        "Lingkun Kong",
+        "Brian Moran",
+        "Jiaqi Wang",
+        "Yifan Ethan Xu",
+        "An Yan",
+        "Chenyu Yang",
+        "Eting Yuan",
+        "Hanwen Zha",
+        "Nan Tang",
+        "Lei Chen",
+        "Nicolas Scheffer",
+        "Yue Liu",
+        "Nirav Shah",
+        "Rakesh Wanga",
+        "Anuj Kumar",
+        "Wen-tau Yih",
+        "Xin Luna Dong"
+      ],
+      "upvotes": 46,
+      "github": "https://github.com/facebookresearch/crag",
+      "published": "2024-06-07T08:43:07.000Z"
+    },
+    {
+      "id": "2406.04770",
+      "title": "WildBench: Benchmarking LLMs with Challenging Tasks from Real Users in the Wild",
+      "authors": [
+        "Bill Yuchen Lin",
+        "Yuntian Deng",
+        "Khyathi Chandu",
+        "Faeze Brahman",
+        "Abhilasha Ravichander",
+        "Valentina Pyatkin",
+        "Nouha Dziri",
+        "Ronan Le Bras",
+        "Yejin Choi"
+      ],
+      "upvotes": 28,
+      "github": "https://github.com/allenai/wildbench",
+      "published": "2024-06-07T09:15:44.000Z"
+    },
+    {
+      "id": "2406.04370",
+      "title": "Large Language Model Confidence Estimation via Black-Box Access",
+      "authors": [
+        "Tejaswini Pedapati",
+        "Amit Dhurandhar",
+        "Soumya Ghosh",
+        "Soham Dan",
+        "Prasanna Sattigeri"
+      ],
+      "upvotes": 21,
+      "github": null,
+      "published": "2024-06-01T02:08:44.000Z"
+    },
+    {
+      "id": "2406.04485",
+      "title": "GenAI Arena: An Open Evaluation Platform for Generative Models",
+      "authors": [
+        "Dongfu Jiang",
+        "Max Ku",
+        "Tianle Li",
+        "Yuansheng Ni",
+        "Shizhuo Sun",
+        "Rongqi Fan",
+        "Wenhu Chen"
+      ],
+      "upvotes": 21,
+      "github": null,
+      "published": "2024-06-06T20:15:42.000Z"
+    },
+    {
+      "id": "2406.04523",
+      "title": "Proofread: Fixes All Errors with One Tap",
+      "authors": [
+        "Renjie Liu",
+        "Yanxiang Zhang",
+        "Yun Zhu",
+        "Haicheng Sun",
+        "Yuanbo Zhang",
+        "Michael Xuelin Huang",
+        "Shanqing Cai",
+        "Lei Meng",
+        "Shumin Zhai"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2024-06-06T21:38:08.000Z"
+    },
+    {
+      "id": "2406.04520",
+      "title": "NATURAL PLAN: Benchmarking LLMs on Natural Language Planning",
+      "authors": [
+        "Huaixiu Steven Zheng",
+        "Swaroop Mishra",
+        "Hugh Zhang",
+        "Xinyun Chen",
+        "Minmin Chen",
+        "Azade Nova",
+        "Le Hou",
+        "Heng-Tze Cheng",
+        "Quoc V. Le",
+        "Ed H. Chi",
+        "Denny Zhou"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2024-06-06T21:27:35.000Z"
+    },
+    {
+      "id": "2406.04391",
+      "title": "Why Has Predicting Downstream Capabilities of Frontier AI Models with Scale Remained Elusive?",
+      "authors": [
+        "Rylan Schaeffer",
+        "Hailey Schoelkopf",
+        "Brando Miranda",
+        "Gabriel Mukobi",
+        "Varun Madan",
+        "Adam Ibrahim",
+        "Herbie Bradley",
+        "Stella Biderman",
+        "Sanmi Koyejo"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2024-06-06T17:46:56.000Z"
+    },
+    {
+      "id": "2406.04594",
+      "title": "Boosting Large-scale Parallel Training Efficiency with C4: A Communication-Driven Approach",
+      "authors": [
+        "Jianbo Dong",
+        "Bin Luo",
+        "Jun Zhang",
+        "Pengcheng Zhang",
+        "Fei Feng",
+        "Yikai Zhu",
+        "Ang Liu",
+        "Zian Chen",
+        "Yi Shi",
+        "Hairong Jiao",
+        "Gang Lu",
+        "Yu Guan",
+        "Ennan Zhai",
+        "Wencong Xiao",
+        "Hanyu Zhao",
+        "Man Yuan",
+        "Siran Yang",
+        "Xiang Li",
+        "Jiamang Wang",
+        "Rui Men",
+        "Jianwei Zhang",
+        "Huang Zhong",
+        "Dennis Cai",
+        "Yuan Xie",
+        "Binzhang Fu"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2024-06-07T02:58:35.000Z"
+    }
+  ]
+}

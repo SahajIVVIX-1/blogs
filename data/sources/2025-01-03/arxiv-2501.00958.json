@@ -1,0 +1,30 @@
+{
+  "id": "2501.00958",
+  "title": "2.5 Years in Class: A Multimodal Textbook for Vision-Language Pretraining",
+  "authors": [
+    "Wenqi Zhang",
+    "Hang Zhang",
+    "Xin Li",
+    "Jiashuo Sun",
+    "Yongliang Shen",
+    "Weiming Lu",
+    "Deli Zhao",
+    "Yueting Zhuang",
+    "Lidong Bing"
+  ],
+  "published": "2025-01-01T21:29:37Z",
+  "abstract": "Compared to image-text pair data, interleaved corpora enable Vision-Language Models (VLMs) to understand the world more naturally like humans. However, such existing datasets are crawled from webpage, facing challenges like low knowledge density, loose image-text relations, and poor logical coherence between images. On the other hand, the internet hosts vast instructional videos (e.g., online geometry courses) that are widely used by humans to learn foundational subjects, yet these valuable resources remain underexplored in VLM training. In this paper, we introduce a high-quality \\textbf{multimodal textbook} corpus with richer foundational knowledge for VLM pretraining. It collects over 2.5 years of instructional videos, totaling 22,000 class hours. We first use an LLM-proposed taxonomy to systematically gather instructional videos. Then we progressively extract and refine visual (keyframes), audio (ASR), and textual knowledge (OCR) from the videos, and organize as an image-text interleaved corpus based on temporal order. Compared to its counterparts, our video-centric textbook offers more coherent context, richer knowledge, and better image-text alignment. Experiments demonstrate its superb pretraining performance, particularly in knowledge- and reasoning-intensive tasks like ScienceQA and MathVista. Moreover, VLMs pre-trained on our textbook exhibit outstanding interleaved context awareness, leveraging visual and textual cues in their few-shot context for task solving. Our code are available at https://github.com/DAMO-NLP-SG/multimodal_textbook.",
+  "categories": [
+    "cs.CV",
+    "cs.CL",
+    "cs.LG"
+  ],
+  "abs": "https://arxiv.org/abs/2501.00958",
+  "pdf": "https://arxiv.org/pdf/2501.00958v4",
+  "source_url": "https://export.arxiv.org/api/query?id_list=2501.00958",
+  "fetched_at": "2026-10-29T15:44:51.746Z",
+  "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  "reusable_figures": false,
+  "github": "https://github.com/damo-nlp-sg/multimodal_textbook",
+  "upvotes": 110
+}

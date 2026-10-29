@@ -1,0 +1,336 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-11-14",
+  "fetched_at": "2026-10-29T15:33:47.342Z",
+  "candidates": [
+    {
+      "id": "2511.10629",
+      "title": "One Small Step in Latent, One Giant Leap for Pixels: Fast Latent Upscale Adapter for Your Diffusion Models",
+      "authors": [
+        "Aleksandr Razin",
+        "Danil Kazantsev",
+        "Ilya Makarov"
+      ],
+      "upvotes": 133,
+      "github": "https://github.com/vaskers5/LUA",
+      "published": "2025-11-13T18:54:18.000Z"
+    },
+    {
+      "id": "2511.10647",
+      "title": "Depth Anything 3: Recovering the Visual Space from Any Views",
+      "authors": [
+        "Haotong Lin",
+        "Sili Chen",
+        "Junhao Liew",
+        "Donny Y. Chen",
+        "Zhenyu Li",
+        "Guang Shi",
+        "Jiashi Feng",
+        "Bingyi Kang"
+      ],
+      "upvotes": 103,
+      "github": "https://github.com/ByteDance-Seed/depth-anything-3",
+      "published": "2025-11-13T18:59:53.000Z"
+    },
+    {
+      "id": "2511.09057",
+      "title": "PAN: A World Model for General, Interactable, and Long-Horizon World Simulation",
+      "authors": [
+        "PAN Team",
+        "Jiannan Xiang",
+        "Yi Gu",
+        "Zihan Liu",
+        "Zeyu Feng",
+        "Qiyue Gao",
+        "Yiyan Hu",
+        "Benhao Huang",
+        "Guangyi Liu",
+        "Yichi Yang",
+        "Kun Zhou",
+        "Davit Abrahamyan",
+        "Arif Ahmad",
+        "Ganesh Bannur",
+        "Junrong Chen",
+        "Kimi Chen",
+        "Mingkai Deng",
+        "Ruobing Han",
+        "Xinqi Huang",
+        "Haoqiang Kang",
+        "Zheqi Li",
+        "Enze Ma",
+        "Hector Ren",
+        "Yashowardhan Shinde",
+        "Rohan Shingre",
+        "Ramsundar Tanikella",
+        "Kaiming Tao",
+        "Dequan Yang",
+        "Xinle Yu",
+        "Cong Zeng",
+        "Binglin Zhou",
+        "Zhengzhong Liu",
+        "Zhiting Hu",
+        "Eric P. Xing"
+      ],
+      "upvotes": 82,
+      "github": null,
+      "published": "2025-11-12T07:20:35.000Z"
+    },
+    {
+      "id": "2511.10643",
+      "title": "Black-Box On-Policy Distillation of Large Language Models",
+      "authors": [
+        "Tianzhu Ye",
+        "Li Dong",
+        "Zewen Chi",
+        "Xun Wu",
+        "Shaohan Huang",
+        "Furu Wei"
+      ],
+      "upvotes": 54,
+      "github": null,
+      "published": "2025-11-13T18:58:37.000Z"
+    },
+    {
+      "id": "2511.08521",
+      "title": "UniVA: Universal Video Agent towards Open-Source Next-Generation Video Generalist",
+      "authors": [
+        "Zhengyang Liang",
+        "Daoan Zhang",
+        "Huichi Zhou",
+        "Rui Huang",
+        "Bobo Li",
+        "Yuechen Zhang",
+        "Shengqiong Wu",
+        "Xiaohan Wang",
+        "Jiebo Luo",
+        "Lizi Liao",
+        "Hao Fei"
+      ],
+      "upvotes": 39,
+      "github": "https://github.com/univa-agent/univa",
+      "published": "2025-11-11T17:58:13.000Z"
+    },
+    {
+      "id": "2511.09780",
+      "title": "Hail to the Thief: Exploring Attacks and Defenses in Decentralised GRPO",
+      "authors": [
+        "Nikolay Blagoev",
+        "Oğuzhan Ersoy",
+        "Lydia Yiyu Chen"
+      ],
+      "upvotes": 29,
+      "github": null,
+      "published": "2025-11-12T22:29:07.000Z"
+    },
+    {
+      "id": "2511.09030",
+      "title": "Solving a Million-Step LLM Task with Zero Errors",
+      "authors": [
+        "Elliot Meyerson",
+        "Giuseppe Paolo",
+        "Roberto Dailey",
+        "Hormoz Shahrzad",
+        "Olivier Francon",
+        "Conor F. Hayes",
+        "Xin Qiu",
+        "Babak Hodjat",
+        "Risto Miikkulainen"
+      ],
+      "upvotes": 21,
+      "github": null,
+      "published": "2025-11-12T06:27:55.000Z"
+    },
+    {
+      "id": "2511.10289",
+      "title": "Music Flamingo: Scaling Music Understanding in Audio Language Models",
+      "authors": [
+        "Sreyan Ghosh",
+        "Arushi Goel",
+        "Lasha Koroshinadze",
+        "Sang-gil Lee",
+        "Zhifeng Kong",
+        "Joao Felipe Santos",
+        "Ramani Duraiswami",
+        "Dinesh Manocha",
+        "Wei Ping",
+        "Mohammad Shoeybi",
+        "Bryan Catanzaro"
+      ],
+      "upvotes": 20,
+      "github": null,
+      "published": "2025-11-13T13:21:09.000Z"
+    },
+    {
+      "id": "2511.08522",
+      "title": "AlphaResearch: Accelerating New Algorithm Discovery with Language Models",
+      "authors": [
+        "Zhaojian Yu",
+        "Kaiyue Feng",
+        "Yilun Zhao",
+        "Shilin He",
+        "Xiao-Ping Zhang",
+        "Arman Cohan"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/answers111/alpha-research",
+      "published": "2025-11-11T18:03:22.000Z"
+    },
+    {
+      "id": "2511.09715",
+      "title": "SliderEdit: Continuous Image Editing with Fine-Grained Instruction Control",
+      "authors": [
+        "Arman Zarei",
+        "Samyadeep Basu",
+        "Mobina Pournemat",
+        "Sayan Nag",
+        "Ryan Rossi",
+        "Soheil Feizi"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2025-11-12T20:21:37.000Z"
+    },
+    {
+      "id": "2511.07685",
+      "title": "ResearchRubrics: A Benchmark of Prompts and Rubrics For Evaluating Deep Research Agents",
+      "authors": [
+        "Manasi Sharma",
+        "Chen Bo Calvin Zhang",
+        "Chaithanya Bandi",
+        "Clinton Wang",
+        "Ankit Aich",
+        "Huy Nghiem",
+        "Tahseen Rabbani",
+        "Ye Htet",
+        "Brian Jang",
+        "Sumana Basu",
+        "Aishwarya Balwani",
+        "Denis Peskoff",
+        "Marcos Ayestaran",
+        "Sean M. Hendryx",
+        "Brad Kenstler",
+        "Bing Liu"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2025-11-10T23:07:14.000Z"
+    },
+    {
+      "id": "2511.10507",
+      "title": "Rubric-Based Benchmarking and Reinforcement Learning for Advancing LLM Instruction Following",
+      "authors": [
+        "Yun He",
+        "Wenzhe Li",
+        "Hejia Zhang",
+        "Songlin Li",
+        "Karishma Mandyam",
+        "Sopan Khosla",
+        "Yuanhao Xiong",
+        "Nanshu Wang",
+        "Selina Peng",
+        "Beibin Li",
+        "Shengjie Bi",
+        "Shishir G. Patil",
+        "Qi Qi",
+        "Shengyu Feng",
+        "Julian Katz-Samuels",
+        "Richard Yuanzhe Pang",
+        "Sujan Gonugondla",
+        "Hunter Lang",
+        "Yue Yu",
+        "Yundi Qian",
+        "Maryam Fazel-Zarandi",
+        "Licheng Yu",
+        "Amine Benhalloum",
+        "Hany Awadalla",
+        "Manaal Faruqui"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2025-11-13T17:14:01.000Z"
+    },
+    {
+      "id": "2511.01918",
+      "title": "Superpositional Gradient Descent: Harnessing Quantum Principles for Model Training",
+      "authors": [
+        "Ahmet Erdem Pamuk",
+        "Emir Kaan Özdemir",
+        "Şuayp Talha Kocabay"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/The-Aqua-Labs/Superpositional-Gradient-Descent",
+      "published": "2025-11-01T16:37:55.000Z"
+    },
+    {
+      "id": "2511.10017",
+      "title": "AffordBot: 3D Fine-grained Embodied Reasoning via Multimodal Large Language Models",
+      "authors": [
+        "Xinyi Wang",
+        "Xun Yang",
+        "Yanlong Xu",
+        "Yuchen Wu",
+        "Zhen Li",
+        "Na Zhao"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2025-11-13T06:43:00.000Z"
+    },
+    {
+      "id": "2511.10547",
+      "title": "Benchmarking Diversity in Image Generation via Attribute-Conditional Human Evaluation",
+      "authors": [
+        "Isabela Albuquerque",
+        "Ira Ktena",
+        "Olivia Wiles",
+        "Ivana Kajić",
+        "Amal Rannen-Triki",
+        "Cristina Vasconcelos",
+        "Aida Nematzadeh"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-11-13T17:48:38.000Z"
+    },
+    {
+      "id": "2511.07790",
+      "title": "CC30k: A Citation Contexts Dataset for Reproducibility-Oriented Sentiment Analysis",
+      "authors": [
+        "Rochana R. Obadage",
+        "Sarah M. Rajtmajer",
+        "Jian Wu"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/lamps-lab/CC30k",
+      "published": "2025-11-11T03:13:17.000Z"
+    },
+    {
+      "id": "2511.09067",
+      "title": "MM-CRITIC: A Holistic Evaluation of Large Multimodal Models as Multimodal Critique",
+      "authors": [
+        "Gailun Zeng",
+        "Ziyang Luo",
+        "Hongzhan Lin",
+        "Yuchen Tian",
+        "Kaixin Li",
+        "Ziyang Gong",
+        "Jianxiong Guo",
+        "Jing Ma"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/MichealZeng0420/MM-Critic",
+      "published": "2025-11-12T07:43:26.000Z"
+    },
+    {
+      "id": "2511.10047",
+      "title": "MuSc-V2: Zero-Shot Multimodal Industrial Anomaly Classification and Segmentation with Mutual Scoring of Unlabeled Samples",
+      "authors": [
+        "Xurui Li",
+        "Feng Xue",
+        "Yu Zhou"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/HUST-SLOW/MuSc-V2",
+      "published": "2025-11-13T07:47:37.000Z"
+    }
+  ]
+}

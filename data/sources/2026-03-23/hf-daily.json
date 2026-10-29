@@ -1,0 +1,580 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-03-23",
+  "fetched_at": "2026-10-29T15:35:05.391Z",
+  "candidates": [
+    {
+      "id": "2603.17024",
+      "title": "HopChain: Multi-Hop Data Synthesis for Generalizable Vision-Language Reasoning",
+      "authors": [
+        "Shenzhi Wang",
+        "Shixuan Liu",
+        "Jing Zhou",
+        "Chang Gao",
+        "Xiong-Hui Chen",
+        "Binghai Wang",
+        "An Yang",
+        "Shiji Song",
+        "Bowen Yu",
+        "Gao Huang",
+        "Junyang Lin"
+      ],
+      "upvotes": 65,
+      "github": null,
+      "published": "2026-03-17T18:04:58.000Z"
+    },
+    {
+      "id": "2603.17051",
+      "title": "Astrolabe: Steering Forward-Process Reinforcement Learning for Distilled Autoregressive Video Models",
+      "authors": [
+        "Songchun Zhang",
+        "Zeyue Xue",
+        "Siming Fu",
+        "Jie Huang",
+        "Xianghao Kong",
+        "Y Ma",
+        "Haoyang Huang",
+        "Nan Duan",
+        "Anyi Rao"
+      ],
+      "upvotes": 61,
+      "github": "https://github.com/franklinz233/Astrolabe",
+      "published": "2026-03-17T18:32:18.000Z"
+    },
+    {
+      "id": "2603.19461",
+      "title": "Hyperagents",
+      "authors": [
+        "Jenny Zhang",
+        "Bingchen Zhao",
+        "Wannan Yang",
+        "Jakob Foerster",
+        "Jeff Clune",
+        "Minqi Jiang",
+        "Sam Devlin",
+        "Tatiana Shavrina"
+      ],
+      "upvotes": 51,
+      "github": "https://github.com/facebookresearch/Hyperagents",
+      "published": "2026-03-19T20:50:08.000Z"
+    },
+    {
+      "id": "2603.19039",
+      "title": "TerraScope: Pixel-Grounded Visual Reasoning for Earth Observation",
+      "authors": [
+        "Yan Shu",
+        "Bin Ren",
+        "Zhitong Xiong",
+        "Xiao Xiang Zhu",
+        "Begüm Demir",
+        "Nicu Sebe",
+        "Paolo Rota"
+      ],
+      "upvotes": 50,
+      "github": "https://github.com/shuyansy/Earth-Observation-VLMs",
+      "published": "2026-03-19T15:38:02.000Z"
+    },
+    {
+      "id": "2603.19466",
+      "title": "ProactiveBench: Benchmarking Proactiveness in Multimodal Large Language Models",
+      "authors": [
+        "Thomas De Min",
+        "Subhankar Roy",
+        "Stéphane Lathuilière",
+        "Elisa Ricci",
+        "Massimiliano Mancini"
+      ],
+      "upvotes": 41,
+      "github": "https://github.com/tdemin16/proactivebench",
+      "published": "2026-03-19T20:58:03.000Z"
+    },
+    {
+      "id": "2603.20105",
+      "title": "The Y-Combinator for LLMs: Solving Long-Context Rot with λ-Calculus",
+      "authors": [
+        "Amartya Roy",
+        "Rasul Tutunov",
+        "Xiaotong Ji",
+        "Matthieu Zimmer",
+        "Haitham Bou-Ammar"
+      ],
+      "upvotes": 36,
+      "github": "https://github.com/lambda-calculus-LLM/lambda-RLM",
+      "published": "2026-03-20T16:29:51.000Z"
+    },
+    {
+      "id": "2603.19598",
+      "title": "FlowScene: Style-Consistent Indoor Scene Generation with Multimodal Graph Rectified Flow",
+      "authors": [
+        "Zhifei Yang",
+        "Guangyao Zhai",
+        "Keyang Lu",
+        "YuYang Yin",
+        "Chao Zhang",
+        "Zhen Xiao",
+        "Jieyi Long",
+        "Nassir Navab",
+        "Yikai Wang"
+      ],
+      "upvotes": 32,
+      "github": null,
+      "published": "2026-03-20T03:15:42.000Z"
+    },
+    {
+      "id": "2603.08462",
+      "title": "Reasoning as Compression: Unifying Budget Forcing via the Conditional Information Bottleneck",
+      "authors": [
+        "Fabio Valerio Massoli",
+        "Andrey Kuzmin",
+        "Arash Behboodi"
+      ],
+      "upvotes": 23,
+      "github": null,
+      "published": "2026-03-09T14:56:57.000Z"
+    },
+    {
+      "id": "2603.20192",
+      "title": "LumosX: Relate Any Identities with Their Attributes for Personalized Video Generation",
+      "authors": [
+        "Jiazheng Xing",
+        "Fei Du",
+        "Hangjie Yuan",
+        "Pengwei Liu",
+        "Hongbin Xu",
+        "Hai Ci",
+        "Ruigang Niu",
+        "Weihua Chen",
+        "Fan Wang",
+        "Yong Liu"
+      ],
+      "upvotes": 22,
+      "github": null,
+      "published": "2026-03-20T17:59:46.000Z"
+    },
+    {
+      "id": "2603.19685",
+      "title": "A Subgoal-driven Framework for Improving Long-Horizon LLM Agents",
+      "authors": [
+        "Taiyi Wang",
+        "Sian Gooding",
+        "Florian Hartmann",
+        "Oriana Riva",
+        "Edward Grefenstette"
+      ],
+      "upvotes": 22,
+      "github": null,
+      "published": "2026-03-20T06:32:16.000Z"
+    },
+    {
+      "id": "2603.17989",
+      "title": "Versatile Editing of Video Content, Actions, and Dynamics without Training",
+      "authors": [
+        "Vladimir Kulikov",
+        "Roni Paiss",
+        "Andrey Voynov",
+        "Inbar Mosseri",
+        "Tali Dekel",
+        "Tomer Michaeli"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2026-03-18T17:50:56.000Z"
+    },
+    {
+      "id": "2603.19714",
+      "title": "LoopRPT: Reinforcement Pre-Training for Looped Language Models",
+      "authors": [
+        "Guo Tang",
+        "Shixin Jiang",
+        "Heng Chang",
+        "Nuo Chen",
+        "Yuhan Li",
+        "Huiming Fan",
+        "Jia Li",
+        "Ming Liu",
+        "Bing Qin"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2026-03-20T07:35:38.000Z"
+    },
+    {
+      "id": "2603.19708",
+      "title": "WorldAgents: Can Foundation Image Models be Agents for 3D World Models?",
+      "authors": [
+        "Ziya Erkoç",
+        "Angela Dai",
+        "Matthias Nießner"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2026-03-20T07:22:41.000Z"
+    },
+    {
+      "id": "2603.09151",
+      "title": "Deep Tabular Research via Continual Experience-Driven Execution",
+      "authors": [
+        "Junnan Dong",
+        "Chuang Zhou",
+        "Zheng Yuan",
+        "Yifei Yu",
+        "Qiufeng Wang",
+        "Yinghui Li",
+        "Siyu An",
+        "Di Yin",
+        "Xing Sun",
+        "Feiyue Huang"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2026-03-10T03:42:54.000Z"
+    },
+    {
+      "id": "2603.19635",
+      "title": "BEAVER: A Training-Free Hierarchical Prompt Compression Method via Structure-Aware Page Selection",
+      "authors": [
+        "Zhengpei Hu",
+        "Kai Li",
+        "Dapeng Fu",
+        "Chang Zeng",
+        "Yue Li",
+        "Yuanhao Tang",
+        "Jianqiang Huang"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/JusperLee/BEAVER",
+      "published": "2026-03-20T04:35:04.000Z"
+    },
+    {
+      "id": "2603.19809",
+      "title": "How Well Does Generative Recommendation Generalize?",
+      "authors": [
+        "Yijie Ding",
+        "Zitian Guo",
+        "Jiacheng Li",
+        "Letian Peng",
+        "Shuai Shao",
+        "Wei Shao",
+        "Xiaoqiang Luo",
+        "Luke Simon",
+        "Jingbo Shang",
+        "Julian McAuley",
+        "Yupeng Hou"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/Jamesding000/MemGen-GR",
+      "published": "2026-03-20T09:48:57.000Z"
+    },
+    {
+      "id": "2603.18558",
+      "title": "HiMu: Hierarchical Multimodal Frame Selection for Long Video Question Answering",
+      "authors": [
+        "Dan Ben-Ami",
+        "Gabriele Serussi",
+        "Kobi Cohen",
+        "Chaim Baskin"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/DanBenAmi/HiMu",
+      "published": "2026-03-19T07:11:53.000Z"
+    },
+    {
+      "id": "2603.20169",
+      "title": "EgoForge: Goal-Directed Egocentric World Simulator",
+      "authors": [
+        "Yifan Shen",
+        "Jiateng Liu",
+        "Xinzhuo Li",
+        "Yuanzhe Liu",
+        "Bingxuan Li",
+        "Houze Yang",
+        "Wenqi Jia",
+        "Yijiang Li",
+        "Tianjiao Yu",
+        "James Matthew Rehg",
+        "Xu Cao",
+        "Ismini Lourentzou"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2026-03-20T17:46:55.000Z"
+    },
+    {
+      "id": "2603.20155",
+      "title": "Beyond Single Tokens: Distilling Discrete Diffusion Models via Discrete MMD",
+      "authors": [
+        "Emiel Hoogeboom",
+        "David Ruhe",
+        "Jonathan Heek",
+        "Thomas Mensink",
+        "Tim Salimans"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2026-03-20T17:29:12.000Z"
+    },
+    {
+      "id": "2603.19987",
+      "title": "Breaking the Capability Ceiling of LLM Post-Training by Reintroducing Markov States",
+      "authors": [
+        "Yurun Yuan",
+        "Tengyang Xie"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2026-03-20T14:35:49.000Z"
+    },
+    {
+      "id": "2603.19005",
+      "title": "AgentDS Technical Report: Benchmarking the Future of Human-AI Collaboration in Domain-Specific Data Science",
+      "authors": [
+        "An Luo",
+        "Jin Du",
+        "Xun Xian",
+        "Robert Specht",
+        "Fangqiao Tian",
+        "Ganghua Wang",
+        "Xuan Bi",
+        "Charles Fleming",
+        "Ashish Kundu",
+        "Jayanth Srinivasa",
+        "Mingyi Hong",
+        "Rui Zhang",
+        "Tianxi Li",
+        "Galin Jones",
+        "Jie Ding"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2026-03-19T15:11:13.000Z"
+    },
+    {
+      "id": "2603.19209",
+      "title": "Do VLMs Need Vision Transformers? Evaluating State Space Models as Vision Encoders",
+      "authors": [
+        "Shang-Jui Ray Kuo",
+        "Paola Cascante-Bonilla"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/raykuo18/vlm-ssm-vision-encoders",
+      "published": "2026-03-19T17:56:32.000Z"
+    },
+    {
+      "id": "2603.19453",
+      "title": "Cooperation and Exploitation in LLM Policy Synthesis for Sequential Social Dilemmas",
+      "authors": [
+        "Víctor Gallego"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/vicgalle/llm-policies-social-dilemmas",
+      "published": "2026-03-19T20:27:48.000Z"
+    },
+    {
+      "id": "2603.19500",
+      "title": "Teaching an Agent to Sketch One Part at a Time",
+      "authors": [
+        "Xiaodan Du",
+        "Ruize Xu",
+        "David Yunis",
+        "Yael Vinker",
+        "Greg Shakhnarovich"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2026-03-19T22:08:53.000Z"
+    },
+    {
+      "id": "2603.19470",
+      "title": "Adaptive Layerwise Perturbation: Unifying Off-Policy Corrections for LLM RL",
+      "authors": [
+        "Chenlu Ye",
+        "Xuanchang Zhang",
+        "Yifan Hao",
+        "Zhou Yu",
+        "Ziji Zhang",
+        "Abhinav Gullapalli",
+        "Hao Chen",
+        "Jing Huang",
+        "Tong Zhang"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-03-19T21:04:17.000Z"
+    },
+    {
+      "id": "2603.15911",
+      "title": "Human-AI Synergy in Agentic Code Review",
+      "authors": [
+        "Suzhen Zhong",
+        "Shayan Noei",
+        "Ying Zou",
+        "Bram Adams"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/Software-Evolution-Analytics-Lab-SEAL/AI_Vs_Human_Codereview",
+      "published": "2026-03-16T20:56:18.000Z"
+    },
+    {
+      "id": "2603.19076",
+      "title": "DROID-SLAM in the Wild",
+      "authors": [
+        "Moyang Li",
+        "Zihan Zhu",
+        "Marc Pollefeys",
+        "Daniel Barath"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/MoyangLi00/DROID-W",
+      "published": "2026-03-19T16:02:12.000Z"
+    },
+    {
+      "id": "2603.19753",
+      "title": "ReLi3D: Relightable Multi-view 3D Reconstruction with Disentangled Illumination",
+      "authors": [
+        "Jan-Niklas Dihlmann",
+        "Mark Boss",
+        "Simon Donne",
+        "Andreas Engelhardt",
+        "Hendrik P. A. Lensch",
+        "Varun Jampani"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/Stability-AI/ReLi3D",
+      "published": "2026-03-20T08:37:39.000Z"
+    },
+    {
+      "id": "2603.16749",
+      "title": "Probing Cultural Signals in Large Language Models through Author Profiling",
+      "authors": [
+        "Valentin Lafargue",
+        "Ariel Guerra-Adames",
+        "Emmanuelle Claeys",
+        "Elouan Vuichard",
+        "Jean-Michel Loubes"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/ValentinLafargue/CulturalProbingLLM",
+      "published": "2026-03-17T16:27:47.000Z"
+    },
+    {
+      "id": "2603.17735",
+      "title": "TAPESTRY: From Geometry to Appearance via Consistent Turntable Videos",
+      "authors": [
+        "Yan Zeng",
+        "Haoran Jiang",
+        "Kaixin Yao",
+        "Qixuan Zhang",
+        "Longwen Zhang",
+        "Lan Xu",
+        "Jingyi Yu"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-03-18T14:02:09.000Z"
+    },
+    {
+      "id": "2603.17512",
+      "title": "Language on Demand, Knowledge at Core: Composing LLMs with Encoder-Decoder Translation Models for Extensible Multilinguality",
+      "authors": [
+        "Mengyu Bu",
+        "Yang Feng"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/ictnlp/XBridge",
+      "published": "2026-03-18T09:19:08.000Z"
+    },
+    {
+      "id": "2603.14628",
+      "title": "s2n-bignum-bench: A practical benchmark for evaluating low-level code reasoning of LLMs",
+      "authors": [
+        "Balaji Rao",
+        "John Harrison",
+        "Soonho Kong",
+        "Juneyoung Lee",
+        "Carlo Lipizzi"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/kings-crown/s2n-bignum-bench",
+      "published": "2026-03-15T21:55:59.000Z"
+    },
+    {
+      "id": "2603.19571",
+      "title": "CurveStream: Boosting Streaming Video Understanding in MLLMs via Curvature-Aware Hierarchical Visual Memory Management",
+      "authors": [
+        "Chao Wang",
+        "Xudong Tan",
+        "Jianjian Cao",
+        "Kangcong Li",
+        "Tao Chen"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/streamingvideos/CurveStream",
+      "published": "2026-03-20T02:28:57.000Z"
+    },
+    {
+      "id": "2603.20193",
+      "title": "From Masks to Pixels and Meaning: A New Taxonomy, Benchmark, and Metrics for VLM Image Tampering",
+      "authors": [
+        "Xinyi Shang",
+        "Yi Tang",
+        "Jiacheng Cui",
+        "Ahmed Elhagry",
+        "Salwa K. Al Khatib",
+        "Sondos Mahmoud Bsharat",
+        "Jiacheng Liu",
+        "Xiaohan Zhao",
+        "Jing-Hao Xue",
+        "Hao Li",
+        "Salman Khan",
+        "Zhiqiang Shen"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/VILA-Lab/PIXAR",
+      "published": "2026-03-20T17:59:54.000Z"
+    },
+    {
+      "id": "2603.18750",
+      "title": "Automatic detection of Gen-AI texts: A comparative framework of neural models",
+      "authors": [
+        "Cristian Buttaro",
+        "Irene Amerini"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/cristian03git/DETECTION_GENAI",
+      "published": "2026-03-19T10:55:07.000Z"
+    },
+    {
+      "id": "2603.18655",
+      "title": "Multiscale Switch for Semi-Supervised and Contrastive Learning in Medical Ultrasound Image Segmentation",
+      "authors": [
+        "Jingguo Qu",
+        "Xinyang Han",
+        "Yao Pu",
+        "Man-Lik Chui",
+        "Simon Takadiyi Gunda",
+        "Ziman Chen",
+        "Jing Qin",
+        "Ann Dorothy King",
+        "Winnie Chiu-Wing Chu",
+        "Jing Cai",
+        "Michael Tin-Cheung Ying"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/jinggqu/Switch",
+      "published": "2026-03-19T09:20:37.000Z"
+    },
+    {
+      "id": "2603.17309",
+      "title": "ReLMXEL: Adaptive RL-Based Memory Controller with Explainable Energy and Latency Optimization",
+      "authors": [
+        "Panuganti Chirag Sai",
+        "Gandholi Sarat",
+        "R. Raghunatha Sarma",
+        "Venkata Kalyan Tavva",
+        "Naveen M"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/Chirag-Sai-Panuganti/ReLMXEL",
+      "published": "2026-03-18T03:07:54.000Z"
+    }
+  ]
+}

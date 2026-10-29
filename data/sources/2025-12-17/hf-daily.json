@@ -1,0 +1,718 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-12-17",
+  "fetched_at": "2026-10-29T15:34:07.378Z",
+  "candidates": [
+    {
+      "id": "2512.14691",
+      "title": "MMGR: Multi-Modal Generative Reasoning",
+      "authors": [
+        "Zefan Cai",
+        "Haoyi Qiu",
+        "Tianyi Ma",
+        "Haozhe Zhao",
+        "Gengze Zhou",
+        "Kung-Hsiang Huang",
+        "Parisa Kordjamshidi",
+        "Minjia Zhang",
+        "Xiao Wen",
+        "Jiuxiang Gu",
+        "Nanyun Peng",
+        "Junjie Hu"
+      ],
+      "upvotes": 121,
+      "github": "https://github.com/Zefan-Cai/MMGR",
+      "published": "2025-12-16T18:58:04.000Z"
+    },
+    {
+      "id": "2512.14614",
+      "title": "WorldPlay: Towards Long-Term Geometric Consistency for Real-Time Interactive World Modeling",
+      "authors": [
+        "Wenqiang Sun",
+        "Haiyu Zhang",
+        "Haoyuan Wang",
+        "Junta Wu",
+        "Zehan Wang",
+        "Zhenwei Wang",
+        "Yunhong Wang",
+        "Jun Zhang",
+        "Tengfei Wang",
+        "Chunchao Guo"
+      ],
+      "upvotes": 72,
+      "github": "https://github.com/Tencent-Hunyuan/HY-WorldPlay",
+      "published": "2025-12-16T17:22:46.000Z"
+    },
+    {
+      "id": "2512.13281",
+      "title": "Video Reality Test: Can AI-Generated ASMR Videos fool VLMs and Humans?",
+      "authors": [
+        "Jiaqi Wang",
+        "Weijia Wu",
+        "Yi Zhan",
+        "Rui Zhao",
+        "Ming Hu",
+        "James Cheng",
+        "Wei Liu",
+        "Philip Torr",
+        "Kevin Qinghong Lin"
+      ],
+      "upvotes": 63,
+      "github": "https://github.com/video-reality-test/video-reality-test",
+      "published": "2025-12-15T12:41:23.000Z"
+    },
+    {
+      "id": "2512.14051",
+      "title": "OpenDataArena: A Fair and Open Arena for Benchmarking Post-Training Dataset Value",
+      "authors": [
+        "Mengzhang Cai",
+        "Xin Gao",
+        "Yu Li",
+        "Honglin Lin",
+        "Zheng Liu",
+        "Zhuoshi Pan",
+        "Qizhi Pei",
+        "Xiaoran Shang",
+        "Mengyuan Sun",
+        "Zinan Tang",
+        "Xiaoyang Wang",
+        "Zhanping Zhong",
+        "Yun Zhu",
+        "Dahua Lin",
+        "Conghui He",
+        "Lijun Wu"
+      ],
+      "upvotes": 47,
+      "github": "https://github.com/OpenDataArena/OpenDataArena-Tool",
+      "published": "2025-12-16T03:33:24.000Z"
+    },
+    {
+      "id": "2512.12675",
+      "title": "Scone: Bridging Composition and Distinction in Subject-Driven Image Generation via Unified Understanding-Generation Modeling",
+      "authors": [
+        "Yuran Wang",
+        "Bohan Zeng",
+        "Chengzhuo Tong",
+        "Wenxuan Liu",
+        "Yang Shi",
+        "Xiaochen Ma",
+        "Hao Liang",
+        "Yuanxing Zhang",
+        "Wentao Zhang"
+      ],
+      "upvotes": 41,
+      "github": "https://github.com/Ryann-Ran/Scone",
+      "published": "2025-12-14T12:58:19.000Z"
+    },
+    {
+      "id": "2512.13607",
+      "title": "Nemotron-Cascade: Scaling Cascaded Reinforcement Learning for General-Purpose Reasoning Models",
+      "authors": [
+        "Boxin Wang",
+        "Chankyu Lee",
+        "Nayeon Lee",
+        "Sheng-Chieh Lin",
+        "Wenliang Dai",
+        "Yang Chen",
+        "Yangyi Chen",
+        "Zhuolin Yang",
+        "Zihan Liu",
+        "Mohammad Shoeybi",
+        "Bryan Catanzaro",
+        "Wei Ping"
+      ],
+      "upvotes": 40,
+      "github": null,
+      "published": "2025-12-15T18:02:35.000Z"
+    },
+    {
+      "id": "2512.13961",
+      "title": "Olmo 3",
+      "authors": [
+        "Team Olmo",
+        "Allyson Ettinger",
+        "Amanda Bertsch",
+        "Bailey Kuehl",
+        "David Graham",
+        "David Heineman",
+        "Dirk Groeneveld",
+        "Faeze Brahman",
+        "Finbarr Timbers",
+        "Hamish Ivison",
+        "Jacob Morrison",
+        "Jake Poznanski",
+        "Kyle Lo",
+        "Luca Soldaini",
+        "Matt Jordan",
+        "Mayee Chen",
+        "Michael Noukhovitch",
+        "Nathan Lambert",
+        "Pete Walsh",
+        "Pradeep Dasigi",
+        "Robert Berry",
+        "Saumya Malik",
+        "Saurabh Shah",
+        "Scott Geng",
+        "Shane Arora",
+        "Shashank Gupta",
+        "Taira Anderson",
+        "Teng Xiao",
+        "Tyler Murray",
+        "Tyler Romero",
+        "Victoria Graf",
+        "Akari Asai",
+        "Akshita Bhagia",
+        "Alexander Wettig",
+        "Alisa Liu",
+        "Aman Rangapur",
+        "Chloe Anastasiades",
+        "Costa Huang",
+        "Dustin Schwenk",
+        "Harsh Trivedi",
+        "Ian Magnusson",
+        "Jaron Lochner",
+        "Jiacheng Liu",
+        "Lester James V. Miranda",
+        "Maarten Sap",
+        "Malia Morgan",
+        "Michael Schmitz",
+        "Michal Guerquin",
+        "Michael Wilson",
+        "Regan Huff",
+        "Ronan Le Bras",
+        "Rui Xin",
+        "Rulin Shao",
+        "Sam Skjonsberg",
+        "Shannon Zejiang Shen",
+        "Shuyue Stella Li",
+        "Tucker Wilde",
+        "Valentina Pyatkin",
+        "Will Merrill",
+        "Yapei Chang",
+        "Yuling Gu",
+        "Zhiyuan Zeng",
+        "Ashish Sabharwal",
+        "Luke Zettlemoyer",
+        "Pang Wei Koh",
+        "Ali Farhadi",
+        "Noah A. Smith",
+        "Hannaneh Hajishirzi"
+      ],
+      "upvotes": 39,
+      "github": "https://github.com/allenai/olmo-core",
+      "published": "2025-12-15T23:41:48.000Z"
+    },
+    {
+      "id": "2512.13660",
+      "title": "RoboTracer: Mastering Spatial Trace with Reasoning in Vision-Language Models for Robotics",
+      "authors": [
+        "Enshen Zhou",
+        "Cheng Chi",
+        "Yibo Li",
+        "Jingkun An",
+        "Jiayuan Zhang",
+        "Shanyu Rong",
+        "Yi Han",
+        "Yuheng Ji",
+        "Mengzhen Liu",
+        "Pengwei Wang",
+        "Zhongyuan Wang",
+        "Lu Sheng",
+        "Shanghang Zhang"
+      ],
+      "upvotes": 38,
+      "github": "https://github.com/Zhoues/RoboTracer",
+      "published": "2025-12-15T18:52:43.000Z"
+    },
+    {
+      "id": "2512.14336",
+      "title": "Vector Prism: Animating Vector Graphics by Stratifying Semantic Structure",
+      "authors": [
+        "Jooyeol Yun",
+        "Jaegul Choo"
+      ],
+      "upvotes": 32,
+      "github": "https://github.com/YeolJ00/vector-prism",
+      "published": "2025-12-16T12:03:46.000Z"
+    },
+    {
+      "id": "2512.14699",
+      "title": "MemFlow: Flowing Adaptive Memory for Consistent and Efficient Long Video Narratives",
+      "authors": [
+        "Sihui Ji",
+        "Xi Chen",
+        "Shuai Yang",
+        "Xin Tao",
+        "Pengfei Wan",
+        "Hengshuang Zhao"
+      ],
+      "upvotes": 29,
+      "github": "https://github.com/KlingTeam/MemFlow",
+      "published": "2025-12-16T18:59:59.000Z"
+    },
+    {
+      "id": "2512.12980",
+      "title": "Reveal Hidden Pitfalls and Navigate Next Generation of Vector Similarity Search from Task-Centric Views",
+      "authors": [
+        "Tingyang Chen",
+        "Cong Fu",
+        "Jiahua Wu",
+        "Haotian Wu",
+        "Hua Fan",
+        "Xiangyu Ke",
+        "Yunjun Gao",
+        "Yabo Ni",
+        "Anxiang Zeng"
+      ],
+      "upvotes": 28,
+      "github": "https://github.com/ZJU-DAILY/Iceberg",
+      "published": "2025-12-15T04:49:33.000Z"
+    },
+    {
+      "id": "2512.14698",
+      "title": "TimeLens: Rethinking Video Temporal Grounding with Multimodal LLMs",
+      "authors": [
+        "Jun Zhang",
+        "Teng Wang",
+        "Yuying Ge",
+        "Yixiao Ge",
+        "Xinhao Li",
+        "Ying Shan",
+        "Limin Wang"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/TencentARC/TimeLens",
+      "published": "2025-12-16T18:59:58.000Z"
+    },
+    {
+      "id": "2512.13399",
+      "title": "Differentiable Evolutionary Reinforcement Learning",
+      "authors": [
+        "Sitao Cheng",
+        "Tianle Li",
+        "Xuhan Huang",
+        "Xunjian Yin",
+        "Difan Zou"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/sitaocheng/DERL",
+      "published": "2025-12-15T14:50:08.000Z"
+    },
+    {
+      "id": "2512.14503",
+      "title": "RecGPT-V2 Technical Report",
+      "authors": [
+        "Chao Yi",
+        "Dian Chen",
+        "Gaoyang Guo",
+        "Jiakai Tang",
+        "Jian Wu",
+        "Jing Yu",
+        "Mao Zhang",
+        "Wen Chen",
+        "Wenjun Yang",
+        "Yujie Luo",
+        "Yuning Jiang",
+        "Zhujin Gao",
+        "Bo Zheng",
+        "Binbin Cao",
+        "Changfa Wu",
+        "Dixuan Wang",
+        "Han Wu",
+        "Haoyi Hu",
+        "Kewei Zhu",
+        "Lang Tian",
+        "Lin Yang",
+        "Qiqi Huang",
+        "Siqi Yang",
+        "Wenbo Su",
+        "Xiaoxiao He",
+        "Xin Tong",
+        "Xu Chen",
+        "Xunke Xi",
+        "Xiaowei Huang",
+        "Yaxuan Wu",
+        "Yeqiu Yang",
+        "Yi Hu",
+        "Yujin Yuan",
+        "Yuliang Yan",
+        "Zile Zhou"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2025-12-16T15:40:44.000Z"
+    },
+    {
+      "id": "2512.14067",
+      "title": "Efficient-DLM: From Autoregressive to Diffusion Language Models, and Beyond in Speed",
+      "authors": [
+        "Yonggan Fu",
+        "Lexington Whalen",
+        "Zhifan Ye",
+        "Xin Dong",
+        "Shizhe Diao",
+        "Jingyu Liu",
+        "Chengyue Wu",
+        "Hao Zhang",
+        "Enze Xie",
+        "Song Han",
+        "Maksim Khadkevich",
+        "Jan Kautz",
+        "Yingyan Celine Lin",
+        "Pavlo Molchanov"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2025-12-16T04:12:17.000Z"
+    },
+    {
+      "id": "2512.13303",
+      "title": "ShowTable: Unlocking Creative Table Visualization with Collaborative Reflection and Refinement",
+      "authors": [
+        "Zhihang Liu",
+        "Xiaoyi Bao",
+        "Pandeng Li",
+        "Junjie Zhou",
+        "Zhaohe Liao",
+        "Yefei He",
+        "Kaixun Jiang",
+        "Chen-Wei Xie",
+        "Yun Zheng",
+        "Hongtao Xie"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2025-12-15T13:21:50.000Z"
+    },
+    {
+      "id": "2512.14531",
+      "title": "VersatileFFN: Achieving Parameter Efficiency in LLMs via Adaptive Wide-and-Deep Reuse",
+      "authors": [
+        "Ying Nie",
+        "Kai Han",
+        "Hongguang Li",
+        "Hang Zhou",
+        "Tianyu Guo",
+        "Enhua Wu",
+        "Xinghao Chen",
+        "Yunhe Wang"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2025-12-16T16:08:23.000Z"
+    },
+    {
+      "id": "2512.14284",
+      "title": "SS4D: Native 4D Generative Model via Structured Spacetime Latents",
+      "authors": [
+        "Zhibing Li",
+        "Mengchen Zhang",
+        "Tong Wu",
+        "Jing Tan",
+        "Jiaqi Wang",
+        "Dahua Lin"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/Lizb6626/SS4D",
+      "published": "2025-12-16T10:45:06.000Z"
+    },
+    {
+      "id": "2512.14391",
+      "title": "RePo: Language Models with Context Re-Positioning",
+      "authors": [
+        "Huayang Li",
+        "Tianyu Zhao",
+        "Richard Sproat"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/SakanaAI/repo",
+      "published": "2025-12-16T13:30:30.000Z"
+    },
+    {
+      "id": "2512.13678",
+      "title": "Feedforward 3D Editing via Text-Steerable Image-to-3D",
+      "authors": [
+        "Ziqi Ma",
+        "Hongqiao Chen",
+        "Yisong Yue",
+        "Georgia Gkioxari"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/ziqi-ma/Steer3D",
+      "published": "2025-12-15T18:58:55.000Z"
+    },
+    {
+      "id": "2512.14442",
+      "title": "A4-Agent: An Agentic Framework for Zero-Shot Affordance Reasoning",
+      "authors": [
+        "Zixin Zhang",
+        "Kanghao Chen",
+        "Hanqing Wang",
+        "Hongfei Zhang",
+        "Harold Haodong Chen",
+        "Chenfei Liao",
+        "Litao Guo",
+        "Ying-Cong Chen"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/EnVision-Research/A4-Agent",
+      "published": "2025-12-16T14:27:47.000Z"
+    },
+    {
+      "id": "2512.14273",
+      "title": "Zoom-Zero: Reinforced Coarse-to-Fine Video Understanding via Temporal Zoom-in",
+      "authors": [
+        "Xiaoqian Shen",
+        "Min-Hung Chen",
+        "Yu-Chiang Frank Wang",
+        "Mohamed Elhoseiny",
+        "Ryo Hachiuma"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2025-12-16T10:34:39.000Z"
+    },
+    {
+      "id": "2512.14666",
+      "title": "EVOLVE-VLA: Test-Time Training from Environment Feedback for Vision-Language-Action Models",
+      "authors": [
+        "Zechen Bai",
+        "Chen Gao",
+        "Mike Zheng Shou"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/showlab/EVOLVE-VLA",
+      "published": "2025-12-16T18:26:38.000Z"
+    },
+    {
+      "id": "2512.14008",
+      "title": "Sparse-LaViDa: Sparse Multimodal Discrete Diffusion Language Models",
+      "authors": [
+        "Shufan Li",
+        "Jiuxiang Gu",
+        "Kangning Liu",
+        "Zhe Lin",
+        "Zijun Wei",
+        "Aditya Grover",
+        "Jason Kuen"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2025-12-16T02:06:06.000Z"
+    },
+    {
+      "id": "2512.14696",
+      "title": "CRISP: Contact-Guided Real2Sim from Monocular Video with Planar Scene Primitives",
+      "authors": [
+        "Zihan Wang",
+        "Jiashun Wang",
+        "Jeff Tan",
+        "Yiwen Zhao",
+        "Jessica Hodgins",
+        "Shubham Tulsiani",
+        "Deva Ramanan"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/Z1hanW/CRISP-Real2Sim",
+      "published": "2025-12-16T18:59:50.000Z"
+    },
+    {
+      "id": "2512.14697",
+      "title": "Spherical Leech Quantization for Visual Tokenization and Generation",
+      "authors": [
+        "Yue Zhao",
+        "Hanwen Jiang",
+        "Zhenlin Xu",
+        "Chutong Yang",
+        "Ehsan Adeli",
+        "Philipp Krähenbühl"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/zhaoyue-zephyrus/InfinityCC",
+      "published": "2025-12-16T18:59:57.000Z"
+    },
+    {
+      "id": "2512.13655",
+      "title": "Comparative Analysis of LLM Abliteration Methods: A Cross-Architecture Evaluation",
+      "authors": [
+        "Richard J. Young"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2025-12-15T18:48:42.000Z"
+    },
+    {
+      "id": "2512.14550",
+      "title": "TAT: Task-Adaptive Transformer for All-in-One Medical Image Restoration",
+      "authors": [
+        "Zhiwen Yang",
+        "Jiaju Zhang",
+        "Yang Yi",
+        "Jian Liang",
+        "Bingzheng Wei",
+        "Yan Xu"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/Yaziwel/TAT",
+      "published": "2025-12-16T16:25:47.000Z"
+    },
+    {
+      "id": "2512.13106",
+      "title": "TraPO: A Semi-Supervised Reinforcement Learning Framework for Boosting LLM Reasoning",
+      "authors": [
+        "Shenzhi Yang",
+        "Guangcheng Zhu",
+        "Xing Zheng",
+        "Yingfan MA",
+        "Zhongqi Chen",
+        "Bowen Song",
+        "Weiqiang Wang",
+        "Junbo Zhao",
+        "Gang Chen",
+        "Haobo Wang"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/ShenzhiYang2000/TRAPO",
+      "published": "2025-12-15T09:03:45.000Z"
+    },
+    {
+      "id": "2512.14014",
+      "title": "MobileWorldBench: Towards Semantic World Modeling For Mobile Agents",
+      "authors": [
+        "Shufan Li",
+        "Konstantinos Kallidromitis",
+        "Akash Gokul",
+        "Yusuke Kato",
+        "Kazuki Kozuka",
+        "Aditya Grover"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/jacklishufan/MobileWorld",
+      "published": "2025-12-16T02:16:42.000Z"
+    },
+    {
+      "id": "2512.10952",
+      "title": "Hierarchical Dataset Selection for High-Quality Data Sharing",
+      "authors": [
+        "Xiaona Zhou",
+        "Yingyan Zeng",
+        "Ran Jin",
+        "Ismini Lourentzou"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/PLAN-Lab/DaSH",
+      "published": "2025-12-11T18:59:55.000Z"
+    },
+    {
+      "id": "2512.12941",
+      "title": "UAGLNet: Uncertainty-Aggregated Global-Local Fusion Network with Cooperative CNN-Transformer for Building Extraction",
+      "authors": [
+        "Siyuan Yao",
+        "Dongxiu Liu",
+        "Taotao Li",
+        "Shengjie Li",
+        "Wenqi Ren",
+        "Xiaochun Cao"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/Dstate/UAGLNet",
+      "published": "2025-12-15T02:59:16.000Z"
+    },
+    {
+      "id": "2512.13525",
+      "title": "Janus: Disaggregating Attention and Experts for Scalable MoE Inference",
+      "authors": [
+        "Zhexiang Zhang",
+        "Ye Wang",
+        "Xiangyu Wang",
+        "Yumiao Zhao",
+        "Jingzhe Jiang",
+        "Qizhen Weng",
+        "Shaohuai Shi",
+        "Yin Chen",
+        "Minchen Yu"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2025-12-15T16:53:49.000Z"
+    },
+    {
+      "id": "2512.14620",
+      "title": "JMMMU-Pro: Image-based Japanese Multi-discipline Multimodal Understanding Benchmark via Vibe Benchmark Construction",
+      "authors": [
+        "Atsuyuki Miyai",
+        "Shota Onohara",
+        "Jeonghun Baek",
+        "Kiyoharu Aizawa"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2025-12-16T17:33:00.000Z"
+    },
+    {
+      "id": "2512.11934",
+      "title": "Unveiling User Perceptions in the Generative AI Era: A Sentiment-Driven Evaluation of AI Educational Apps' Role in Digital Transformation of e-Teaching",
+      "authors": [
+        "Adeleh Mazaherian",
+        "Erfan Nourbakhsh"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/erfan-nourbakhsh/GenAI-EdSent",
+      "published": "2025-12-12T06:24:30.000Z"
+    },
+    {
+      "id": "2512.10342",
+      "title": "CoSPlan: Corrective Sequential Planning via Scene Graph Incremental Updates",
+      "authors": [
+        "Shresth Grover",
+        "Priyank Pathak",
+        "Akash Kumar",
+        "Vibhav Vineet",
+        "Yogesh S Rawat"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/shroglck/CosPlan",
+      "published": "2025-12-11T06:46:51.000Z"
+    },
+    {
+      "id": "2512.07328",
+      "title": "ContextAnyone: Context-Aware Diffusion for Character-Consistent Text-to-Video Generation",
+      "authors": [
+        "Ziyang Mai",
+        "Yu-Wing Tai"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/ziyang1106/ContextAnyone",
+      "published": "2025-12-08T09:12:18.000Z"
+    },
+    {
+      "id": "2512.10945",
+      "title": "MeViS: A Multi-Modal Dataset for Referring Motion Expression Video Segmentation",
+      "authors": [
+        "Henghui Ding",
+        "Chang Liu",
+        "Shuting He",
+        "Kaining Ying",
+        "Xudong Jiang",
+        "Chen Change Loy",
+        "Yu-Gang Jiang"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2025-12-11T18:59:44.000Z"
+    },
+    {
+      "id": "2512.14440",
+      "title": "S2D: Sparse-To-Dense Keymask Distillation for Unsupervised Video Instance Segmentation",
+      "authors": [
+        "Leon Sick",
+        "Lukas Hoyer",
+        "Dominik Engel",
+        "Pedro Hermosilla",
+        "Timo Ropinski"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/leonsick/s2d",
+      "published": "2025-12-16T14:26:30.000Z"
+    }
+  ]
+}

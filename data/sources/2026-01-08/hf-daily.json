@@ -1,0 +1,309 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-01-08",
+  "fetched_at": "2026-10-29T15:34:20.581Z",
+  "candidates": [
+    {
+      "id": "2601.02151",
+      "title": "Entropy-Adaptive Fine-Tuning: Resolving Confident Conflicts to Mitigate Forgetting",
+      "authors": [
+        "Muxi Diao",
+        "Lele Yang",
+        "Wuxuan Gong",
+        "Yutong Zhang",
+        "Zhonghao Yan",
+        "Yufei Han",
+        "Kongming Liang",
+        "Weiran Xu",
+        "Zhanyu Ma"
+      ],
+      "upvotes": 91,
+      "github": "https://github.com/PRIS-CV/EAFT",
+      "published": "2026-01-05T14:28:17.000Z"
+    },
+    {
+      "id": "2601.03509",
+      "title": "Evolving Programmatic Skill Networks",
+      "authors": [
+        "Haochen Shi",
+        "Xingdi Yuan",
+        "Bang Liu"
+      ],
+      "upvotes": 88,
+      "github": "https://github.com/evolving-skill-networks/psn",
+      "published": "2026-01-07T01:43:25.000Z"
+    },
+    {
+      "id": "2601.03872",
+      "title": "Atlas: Orchestrating Heterogeneous Models and Tools for Multi-Domain Complex Reasoning",
+      "authors": [
+        "Jinyang Wu",
+        "Guocheng Zhai",
+        "Ruihan Jin",
+        "Jiahao Yuan",
+        "Yuhao Shen",
+        "Shuai Zhang",
+        "Zhengqi Wen",
+        "Jianhua Tao"
+      ],
+      "upvotes": 45,
+      "github": null,
+      "published": "2026-01-07T12:38:33.000Z"
+    },
+    {
+      "id": "2601.03986",
+      "title": "Benchmark^2: Systematic Evaluation of LLM Benchmarks",
+      "authors": [
+        "Qi Qian",
+        "Chengsong Huang",
+        "Jingwen Xu",
+        "Changze Lv",
+        "Muling Wu",
+        "Wenhao Liu",
+        "Xiaohua Wang",
+        "Zhenghua Wang",
+        "Zisu Huang",
+        "Muzhao Tian",
+        "Jianhan Xu",
+        "Kun Hu",
+        "He-Da Wang",
+        "Yao Hu",
+        "Xuanjing Huang",
+        "Xiaoqing Zheng"
+      ],
+      "upvotes": 34,
+      "github": null,
+      "published": "2026-01-07T14:59:03.000Z"
+    },
+    {
+      "id": "2601.04151",
+      "title": "Klear: Unified Multi-Task Audio-Video Joint Generation",
+      "authors": [
+        "Jun Wang",
+        "Chunyu Qiang",
+        "Yuxin Guo",
+        "Yiran Wang",
+        "Xijuan Zeng",
+        "Chen Zhang",
+        "Pengfei Wan"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2026-01-07T18:03:45.000Z"
+    },
+    {
+      "id": "2601.04194",
+      "title": "Choreographing a World of Dynamic Objects",
+      "authors": [
+        "Yanzhe Lyu",
+        "Chen Geng",
+        "Karthik Dharmarajan",
+        "Yunzhi Zhang",
+        "Hadi Alzayer",
+        "Shangzhe Wu",
+        "Jiajun Wu"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2026-01-07T18:59:40.000Z"
+    },
+    {
+      "id": "2601.03448",
+      "title": "Enhancing Linguistic Competence of Language Models through Pre-training with Language Learning Tasks",
+      "authors": [
+        "Atsuki Yamaguchi",
+        "Maggie Mi",
+        "Nikolaos Aletras"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/gucci-j/l2t",
+      "published": "2026-01-06T22:28:15.000Z"
+    },
+    {
+      "id": "2601.04171",
+      "title": "Agentic Rubrics as Contextual Verifiers for SWE Agents",
+      "authors": [
+        "Mohit Raghavendra",
+        "Anisha Gunjal",
+        "Bing Liu",
+        "Yunzhong He"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2026-01-07T18:38:23.000Z"
+    },
+    {
+      "id": "2601.00423",
+      "title": "E-GRPO: High Entropy Steps Drive Effective Reinforcement Learning for Flow Models",
+      "authors": [
+        "Shengjun Zhang",
+        "Zhang Zhang",
+        "Chensheng Dai",
+        "Yueqi Duan"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/shengjun-zhang/VisualGRPO",
+      "published": "2026-01-01T18:27:32.000Z"
+    },
+    {
+      "id": "2601.03236",
+      "title": "MAGMA: A Multi-Graph based Agentic Memory Architecture for AI Agents",
+      "authors": [
+        "Dongming Jiang",
+        "Yi Li",
+        "Guanpeng Li",
+        "Bingzhe Li"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/FredJiang0324/MAMGA",
+      "published": "2026-01-06T18:29:43.000Z"
+    },
+    {
+      "id": "2601.03699",
+      "title": "RedBench: A Universal Dataset for Comprehensive Red Teaming of Large Language Models",
+      "authors": [
+        "Quy-Anh Dang",
+        "Chris Ngo",
+        "Truong-Son Hy"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/knoveleng/redeval",
+      "published": "2026-01-07T08:34:17.000Z"
+    },
+    {
+      "id": "2601.03315",
+      "title": "Why LLMs Aren't Scientists Yet: Lessons from Four Autonomous Research Attempts",
+      "authors": [
+        "Dhruv Trehan",
+        "Paras Chopra"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/Lossfunk/ai-scientist-artefacts-v1",
+      "published": "2026-01-06T13:20:54.000Z"
+    },
+    {
+      "id": "2601.03467",
+      "title": "ThinkRL-Edit: Thinking in Reinforcement Learning for Reasoning-Centric Image Editing",
+      "authors": [
+        "Hengjia Li",
+        "Liming Jiang",
+        "Qing Yan",
+        "Yizhi Song",
+        "Hao Kang",
+        "Zichuan Liu",
+        "Xin Lu",
+        "Boxi Wu",
+        "Deng Cai"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2026-01-06T23:43:00.000Z"
+    },
+    {
+      "id": "2601.03471",
+      "title": "EpiQAL: Benchmarking Large Language Models in Epidemiological Question Answering for Enhanced Alignment and Reasoning",
+      "authors": [
+        "Mingyang Wei",
+        "Dehai Min",
+        "Zewen Liu",
+        "Yuzhang Xie",
+        "Guanchen Wu",
+        "Carl Yang",
+        "Max S. Y. Lau",
+        "Qi He",
+        "Lu Cheng",
+        "Wei Jin"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/myweiii/EpiQAL",
+      "published": "2026-01-06T23:49:10.000Z"
+    },
+    {
+      "id": "2601.02075",
+      "title": "MDAgent2: Large Language Model for Code Generation and Knowledge Q&A in Molecular Dynamics",
+      "authors": [
+        "Zhuofan Shi",
+        "Hubao A",
+        "Yufei Shao",
+        "Mengyan Dai",
+        "Yadong Yu",
+        "Pan Xiang",
+        "Dongliang Huang",
+        "Hongxu An",
+        "Chunxiao Xin",
+        "Haiyang Shen",
+        "Zhenyu Wang",
+        "Yunshan Na",
+        "Gang Huang",
+        "Xiang Jing"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2026-01-05T12:56:51.000Z"
+    },
+    {
+      "id": "2601.03822",
+      "title": "ROI-Reasoning: Rational Optimization for Inference via Pre-Computation Meta-Cognition",
+      "authors": [
+        "Muyang Zhao",
+        "Qi Qi",
+        "Hao Sun"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2026-01-07T11:30:55.000Z"
+    },
+    {
+      "id": "2601.00705",
+      "title": "Rethinking Densification in Gaussian SLAM: A Stationary Sampling Perspective",
+      "authors": [
+        "Wei-Tse Cheng",
+        "Yen-Jen Chiou",
+        "Yuan-Fu Yang"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/Breeze1124/RGS-SLAM",
+      "published": "2026-10-26T00:00:00.000Z"
+    },
+    {
+      "id": "2601.03955",
+      "title": "ResTok: Learning Hierarchical Residuals in 1D Visual Tokenizers for Autoregressive Image Generation",
+      "authors": [
+        "Xu Zhang",
+        "Cheng Da",
+        "Huan Yang",
+        "Kun Gai",
+        "Ming Lu",
+        "Zhan Ma"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/Kwai-Kolors/ResTok",
+      "published": "2026-01-07T14:09:18.000Z"
+    },
+    {
+      "id": "2601.02933",
+      "title": "Pearmut: Human Evaluation of Translation Made Trivial",
+      "authors": [
+        "Vilém Zouhar",
+        "Tom Kocmi"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/zouharvi/pearmut",
+      "published": "2026-01-06T11:21:03.000Z"
+    },
+    {
+      "id": "2601.04090",
+      "title": "Gen3R: 3D Scene Generation Meets Feed-Forward Reconstruction",
+      "authors": [
+        "Jiaxin Huang",
+        "Yuanbo Yang",
+        "Bangbang Yang",
+        "Lin Ma",
+        "Yuewen Ma",
+        "Yiyi Liao"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/JaceyHuang/Gen3R",
+      "published": "2026-01-07T16:57:30.000Z"
+    }
+  ]
+}

@@ -1,0 +1,495 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-07-20",
+  "fetched_at": "2026-10-29T15:36:17.513Z",
+  "candidates": [
+    {
+      "id": "2607.11683",
+      "title": "RAGU: A Multi-Step GraphRAG Engine with a Compact Domain-Adapted LLM",
+      "authors": [
+        "Mikhail Komarov",
+        "Ivan Bondarenko",
+        "Stanislav Shtuka",
+        "Oleg Sedukhin",
+        "Roman Shuvalov",
+        "Yana Dementyeva",
+        "Matvey Solovyov",
+        "Nikolay O. Nikitin"
+      ],
+      "upvotes": 149,
+      "github": "https://github.com/RaguTeam/RAGU",
+      "published": "2026-07-13T00:00:00.000Z"
+    },
+    {
+      "id": "2606.29538",
+      "title": "RESOURCE2SKILL: Distilling Executable Agent Skills from Human-Created Multimodal Resources",
+      "authors": [
+        "Yijia Fan",
+        "Zonglin Di",
+        "Zimo Wen",
+        "Yifan Yang",
+        "Mingxi Cheng",
+        "Qi Dai",
+        "Bei Liu",
+        "Kai Qiu",
+        "Yue Dong",
+        "Ji Li",
+        "Chong Luo"
+      ],
+      "upvotes": 95,
+      "github": "https://github.com/microsoft/Resource2Skill",
+      "published": "2026-07-16T00:00:00.000Z"
+    },
+    {
+      "id": "2607.15330",
+      "title": "Xiaomi-Robotics-1: Scaling Vision-Language-Action Models with over 100K Hours of Real-World Trajectories",
+      "authors": [
+        "Xiaomi Robotics Team",
+        "Jun Guo",
+        "Piaopiao Jin",
+        "Jason Li",
+        "Peiyan Li",
+        "Yingyan Li",
+        "Futeng Liu",
+        "Wanli Peng",
+        "Optimus Qin",
+        "Yifei Su",
+        "Nan Sun",
+        "Qiao Sun",
+        "Runze Suo",
+        "Heyun Wang",
+        "Yunhong Wang",
+        "Rujie Wu",
+        "Caoyu Xia",
+        "Lina Zhang",
+        "Jack Zhao",
+        "Guoliang Chen",
+        "Wenlong Chen",
+        "Xinze He",
+        "Bin Li",
+        "Qing Li",
+        "Zhuorong Li",
+        "Heng Qu",
+        "Wenxuan Song",
+        "Diyun Xiang",
+        "Yifan Xie",
+        "Peiran Xu",
+        "Hangjun Ye",
+        "Wen Ye",
+        "Han Zhao",
+        "Quanyun Zhou"
+      ],
+      "upvotes": 72,
+      "github": "https://github.com/XiaomiRobotics/Xiaomi-Robotics-1",
+      "published": "2026-07-16T00:00:00.000Z"
+    },
+    {
+      "id": "2607.16051",
+      "title": "Loop the Loopies!",
+      "authors": [
+        "Zitian Gao",
+        "Yilong Chen",
+        "Yihao Xiao",
+        "Xinyu Yang",
+        "Ran Tao",
+        "Joey Zhou",
+        "Bryan Dai"
+      ],
+      "upvotes": 66,
+      "github": null,
+      "published": "2026-07-17T00:00:00.000Z"
+    },
+    {
+      "id": "2607.14530",
+      "title": "xHC: Expanded Hyper-Connections",
+      "authors": [
+        "Xiangdong Zhang",
+        "Xiaohan Qin",
+        "Sunan Zou",
+        "Tuo Dai",
+        "Xiaoming Shi",
+        "Huaijin Wu",
+        "Yebin Yang",
+        "Zhuo Xia",
+        "Shaofeng Zhang",
+        "Lin Yao",
+        "Yuliang Liu",
+        "Yu Cheng",
+        "Junchi Yan"
+      ],
+      "upvotes": 54,
+      "github": "https://github.com/aHapBean/xHC",
+      "published": "2026-07-16T00:00:00.000Z"
+    },
+    {
+      "id": "2607.15314",
+      "title": "Cura 1T: Specialized Model for Agentic Healthcare",
+      "authors": [
+        "actAVA AI",
+        "Haolin Chen",
+        "Leon Qi",
+        "Steve Brown",
+        "Deon Metelski",
+        "Tao Xia",
+        "Joonyul Lee",
+        "Qixuan Wang",
+        "Kevin Riley",
+        "Frank Wang",
+        "Weiran Yao"
+      ],
+      "upvotes": 50,
+      "github": "https://github.com/actava-ai/Cura",
+      "published": "2026-08-04T00:00:00.000Z"
+    },
+    {
+      "id": "2607.15161",
+      "title": "On-Policy Delta Distillation",
+      "authors": [
+        "Byeongho Heo",
+        "Jaehui Hwang",
+        "Sangdoo Yun",
+        "Dongyoon Han"
+      ],
+      "upvotes": 35,
+      "github": "https://github.com/naver-ai/opd2",
+      "published": "2026-07-16T00:00:00.000Z"
+    },
+    {
+      "id": "2607.11699",
+      "title": "Qwen-Music Technical Report",
+      "authors": [
+        "Jin Xu",
+        "Kangdi Wang",
+        "Ruibin Yuan",
+        "Shun Lei",
+        "Xiong Wang",
+        "Xize Cheng",
+        "Xueyao Zhang",
+        "Yang Zhang",
+        "Yiheng Chen",
+        "Yongqi Wang",
+        "Yue Wang",
+        "Zhifang Guo",
+        "Zihan Liu",
+        "Zijian Lin",
+        "Dake Guo",
+        "Hangrui Hu",
+        "Lei Xie",
+        "Linhan Ma",
+        "Wei Xue",
+        "Wenxiang Guo",
+        "Xinfa Zhu",
+        "Xipin Wei",
+        "Yangze Li",
+        "Yuanjun Lv",
+        "Yuxuan Wang",
+        "Yunfei Chu",
+        "Zhiyong Wu"
+      ],
+      "upvotes": 33,
+      "github": null,
+      "published": "2026-07-13T00:00:00.000Z"
+    },
+    {
+      "id": "2607.16097",
+      "title": "Understanding Reasoning from Pretraining to Post-Training",
+      "authors": [
+        "Jingyan Shen",
+        "Ang Li",
+        "Salman Rahman",
+        "Yifan Sun",
+        "Micah Goldblum",
+        "Matus Telgarsky",
+        "Pavel Izmailov"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/pavelslab-nyu/pre2post-chess",
+      "published": "2026-07-17T00:00:00.000Z"
+    },
+    {
+      "id": "2607.15591",
+      "title": "RecGPT-V3 Technical Report",
+      "authors": [
+        "Bowen Zheng",
+        "Chao Yi",
+        "Dian Chen",
+        "Gaoyang Guo",
+        "Han Zhu",
+        "Jiakai Tang",
+        "Jian Wu",
+        "Mao Zhang",
+        "Wen Chen",
+        "Yifan Lu",
+        "Yujie Luo",
+        "Yuning Jiang",
+        "Zhujin Gao",
+        "Bo Zheng",
+        "Dixuan Wang",
+        "Hao Fang",
+        "Jiancai Liu",
+        "Jing Yu",
+        "Ke Chen",
+        "Kewei Zhu",
+        "Mingke Xu",
+        "Wenjun Yang",
+        "Xunke Xi",
+        "Zile Zhou"
+      ],
+      "upvotes": 26,
+      "github": null,
+      "published": "2026-07-17T00:00:00.000Z"
+    },
+    {
+      "id": "2607.15524",
+      "title": "Recursive Harness Self-Improvement",
+      "authors": [
+        "Hyunin Lee",
+        "Jinglue Xu",
+        "Jeffrey Seely",
+        "Donghyun Lee",
+        "Matei Zaharia",
+        "Yujin Tang"
+      ],
+      "upvotes": 25,
+      "github": null,
+      "published": "2026-07-17T00:00:00.000Z"
+    },
+    {
+      "id": "2607.13196",
+      "title": "From Human-Centric to Agentic Code Review: The Impact of Different Generations of Generative AI Technology on Review Quality",
+      "authors": [
+        "Suzhen Zhong",
+        "Shayan Noei",
+        "Bram Adams",
+        "Ying Zou"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/suzhenxzhong/SWE-Review-Chat",
+      "published": "2026-07-14T00:00:00.000Z"
+    },
+    {
+      "id": "2607.09082",
+      "title": "REBASE: Reference-Background Subspace Elimination for Training-Free In-Context Segmentation",
+      "authors": [
+        "Mantha Sai Gopal",
+        "Jaison Saji Chacko",
+        "Harsh Nandwana",
+        "Sandesh Hegde",
+        "Debarshi Banerjee",
+        "Uma Mahesh"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/ai-and-lab/rebase",
+      "published": "2026-07-10T00:00:00.000Z"
+    },
+    {
+      "id": "2607.16169",
+      "title": "When Does Muon Help Agentic Reinforcement Learning?",
+      "authors": [
+        "Kai Ruan",
+        "Jinghao Lin",
+        "Zihe Huang",
+        "Ziqi Zhou",
+        "Qianshan Wei",
+        "Xuan Wang",
+        "Hao Sun"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/x66ccff/verl-muon",
+      "published": "2026-07-17T00:00:00.000Z"
+    },
+    {
+      "id": "2607.15686",
+      "title": "S1-Omni: A Unified Multimodal Reasoning Model for Scientific Understanding, Prediction, and Generation",
+      "authors": [
+        "Jiahao Zhao",
+        "Junyi Liu",
+        "Lifeng Xu",
+        "Nan Xu",
+        "Qingli Wang",
+        "Qingxiao Li",
+        "Tianle Chen",
+        "Xiaoyu Wu",
+        "Yawen Zheng",
+        "Zikai Wang",
+        "Guanming Liu",
+        "Hequn Zhou",
+        "Jingyi Wang",
+        "Jingyuan Shu",
+        "Keqi Wang",
+        "Li He",
+        "Songyang Diao",
+        "Wenhui Xu",
+        "Xinyu Ren",
+        "Yaqin Fan",
+        "Yujin Zhou",
+        "Zhanao Yao"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/ScienceOne-AI/S1-Omni",
+      "published": "2026-07-17T00:00:00.000Z"
+    },
+    {
+      "id": "2607.14614",
+      "title": "Beyond Entropy: Correctness-Aware Advantage Shaping via Contrastive Policy Optimization",
+      "authors": [
+        "Weiwen Xu",
+        "Jia Liu",
+        "Hou Pong Chan",
+        "Long Li",
+        "Deng Cai",
+        "Min Chen",
+        "Hao Zhang"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2026-07-16T00:00:00.000Z"
+    },
+    {
+      "id": "2607.15901",
+      "title": "DSWorld: A Data Science World Model for Efficient Autonomous Agents",
+      "authors": [
+        "Zherui Yang",
+        "Fan Liu",
+        "Hao Liu"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2026-07-17T00:00:00.000Z"
+    },
+    {
+      "id": "2607.14088",
+      "title": "VideoRAE: Taming Video Foundation Models for Generative Modeling via Representation Autoencoders",
+      "authors": [
+        "Zhihao Xie",
+        "Junfeng Wu",
+        "Xinting Hu",
+        "Junchao Huang",
+        "Li Jiang"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/zhxie0117/VideoRAE",
+      "published": "2026-07-15T00:00:00.000Z"
+    },
+    {
+      "id": "2607.16107",
+      "title": "Audio-Visual Flamingo: Open Audio-Visual Intelligence for Long and Complex Videos",
+      "authors": [
+        "Sreyan Ghosh",
+        "Arushi Goel",
+        "Kaousheik Jayakumar",
+        "Lasha Koroshinadze",
+        "Nishit Anand",
+        "Siddharth Gururani",
+        "Hanrong Ye",
+        "Pritam Biswas",
+        "Yuanhang Su",
+        "Ehsan Hosseini-Asl",
+        "Sang-gil Lee",
+        "Zhifeng Kong",
+        "Jaehyeon Kim",
+        "Sungwon Kim",
+        "S Sakshi",
+        "Ramani Duraiswami",
+        "Dinesh Manocha",
+        "Andrew Tao",
+        "Mohammad Shoeybi",
+        "Bryan Catanzaro",
+        "Ming-Yu Liu",
+        "Wei Ping"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2026-07-17T00:00:00.000Z"
+    },
+    {
+      "id": "2607.15263",
+      "title": "Beyond Success Rate: Cost-Aware Evaluation of Offensive and Defensive Security Agents",
+      "authors": [
+        "Paul Kassianik",
+        "Blaine Nelson",
+        "Yaron Singer"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2026-07-17T00:00:00.000Z"
+    },
+    {
+      "id": "2607.10966",
+      "title": "SVR-R1: Bootstrapping Multi-modal Reasoning with Self-verification in Reinforcement Learning",
+      "authors": [
+        "Mingyuan Wu",
+        "Jingcheng Yang",
+        "Shengyi Qian",
+        "Xudong Wang",
+        "Jize Jiang",
+        "Qifan Wang",
+        "Aashu Singh",
+        "Khoi Pham",
+        "Fei Liu",
+        "Zhaolun Su",
+        "Zhuokai Zhao",
+        "Klara Nahrstedt",
+        "Jianyu Wang",
+        "Hanchao Yu"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2026-07-13T00:00:00.000Z"
+    },
+    {
+      "id": "2607.11498",
+      "title": "See like a Robot: Robot-Centric Pointmaps for Vision-Language-Action Models",
+      "authors": [
+        "Byungkun Lee",
+        "Dongyoon Hwang",
+        "Dongjin Kim",
+        "Hojoon Lee",
+        "Minho Park",
+        "Jaegul Choo"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2026-07-13T00:00:00.000Z"
+    },
+    {
+      "id": "2607.07690",
+      "title": "Agon: Competitive Cross-Model RL with Implicit Rival Grading of Reasoning",
+      "authors": [
+        "Vladislav Beliaev"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2026-07-08T00:00:00.000Z"
+    },
+    {
+      "id": "2607.06815",
+      "title": "Behavioral Privacy Leakage in Agentic Negotiation: Formalizing and Mitigating Inference Attacks via Randomized Policies",
+      "authors": [
+        "Barkha Rani"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-07-07T00:00:00.000Z"
+    },
+    {
+      "id": "2607.13918",
+      "title": "Partially Correlated Verifier Cascades in LLM Harnesses: Concave Log-Odds, Polynomial Reliability, and Blind-Spot Ceilings",
+      "authors": [
+        "Jiangang Han"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2026-07-15T00:00:00.000Z"
+    },
+    {
+      "id": "2607.11915",
+      "title": "Benchmarking Sensor Robustness in Plasma Diagnostic Models: A Systematic Evaluation on TokaMark",
+      "authors": [
+        "Neerav Gupta"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/Neerav-Gupta/tokamark-robustness",
+      "published": "2026-07-05T00:00:00.000Z"
+    }
+  ]
+}

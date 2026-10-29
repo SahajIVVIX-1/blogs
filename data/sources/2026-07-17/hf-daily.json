@@ -1,0 +1,565 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-07-17",
+  "fetched_at": "2026-10-29T15:36:15.680Z",
+  "candidates": [
+    {
+      "id": "2607.14952",
+      "title": "LongStraw: Long-Context RL Beyond 2M Tokens under a Fixed GPU Budget",
+      "authors": [
+        "Changhai Zhou",
+        "Kieran Liu",
+        "Yuhua Zhou",
+        "Qian Qiao",
+        "Jun Gao",
+        "Harry Zhang",
+        "Irvine Lu",
+        "Nolan Ho",
+        "Lucian Li",
+        "Andrew Lei",
+        "Cleon Cheng",
+        "Steven Chiang",
+        "Yihang Zeng",
+        "Di Zhang",
+        "Rio Yang",
+        "Kaijie Chen",
+        "Andrew Chen",
+        "Pony Ma",
+        "Weizhong Zhang",
+        "Cheng Jin"
+      ],
+      "upvotes": 148,
+      "github": "https://github.com/MindLab-Research/longstraw",
+      "published": "2026-07-16T00:00:00.000Z"
+    },
+    {
+      "id": "2607.14935",
+      "title": "VideoChat3: Fully Open Video MLLM for Efficient and Generalist Video Understanding",
+      "authors": [
+        "Xinhao Li",
+        "Yuhan Zhu",
+        "Xiangyu Zeng",
+        "Yuhao Dong",
+        "Haoning Wu",
+        "Zhiqiu Zhang",
+        "Yuandong Yang",
+        "Changlian Ma",
+        "Qingyu Zhang",
+        "Yansong Shi",
+        "Xinyu Chen",
+        "Haoran Chen",
+        "Zizheng Huang",
+        "Jun Zhang",
+        "Kun Ouyang",
+        "Lin Sui",
+        "Ziang Yan",
+        "Yicheng Xu",
+        "Chenting Wang",
+        "Yinan He",
+        "Hongjie Zhang",
+        "Yi Wang",
+        "Yu Qiao",
+        "Yali Wang",
+        "Ziwei Liu",
+        "Kai Chen",
+        "Limin Wang"
+      ],
+      "upvotes": 135,
+      "github": "https://github.com/MCG-NJU/VideoChat3",
+      "published": "2026-07-16T00:00:00.000Z"
+    },
+    {
+      "id": "2607.14777",
+      "title": "SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning",
+      "authors": [
+        "Jinyang Wu",
+        "Shuo Yang",
+        "Zhengxi Lu",
+        "Fan Zhang",
+        "Yuhao Shen",
+        "Lang Feng",
+        "Haoran Luo",
+        "Zheng Lian",
+        "Shuai Zhang",
+        "Zhengqi Wen",
+        "Jianhua Tao"
+      ],
+      "upvotes": 105,
+      "github": "https://github.com/jinyangwu/SEED",
+      "published": "2026-07-16T00:00:00.000Z"
+    },
+    {
+      "id": "2607.15257",
+      "title": "SearchOS-V1: Towards Robust Open-Domain Information-Seeking Agent Collaboration",
+      "authors": [
+        "Yuyao Zhang",
+        "Junjie Gao",
+        "Zhengxian Wu",
+        "Jiaming Fan",
+        "Jin Zhang",
+        "Shihan Ma",
+        "Yao Yao",
+        "Weiran Qi",
+        "Chuyan Jin",
+        "Guiyu Ma",
+        "Xingzhong Xu",
+        "Kai Yang",
+        "Ji-Rong Wen",
+        "Zhicheng Dou"
+      ],
+      "upvotes": 70,
+      "github": "https://github.com/antins-labs/SearchOS",
+      "published": "2026-07-16T00:00:00.000Z"
+    },
+    {
+      "id": "2607.14202",
+      "title": "KeyFrame-Compass: Towards Comprehensive Evaluation of Keyframe-Conditioned Video Generation",
+      "authors": [
+        "Yuqi Tang",
+        "Tengfei Liu",
+        "Yizheng Lai",
+        "Yuran Wang",
+        "Yang Shi",
+        "Wanshun Su",
+        "Zhuoran Zhang",
+        "Qixun Wang",
+        "Xiaohan Zhang",
+        "Xinlei Yu",
+        "Xuehai Bai",
+        "Xuanyu Zhu",
+        "Bohan Zeng",
+        "Bozhou Li",
+        "Shujie Li",
+        "Yifan Dai",
+        "Yujie Wei",
+        "Shixuan Liu",
+        "Haotian Wang",
+        "Jialu Chen",
+        "Yuanxing Zhang"
+      ],
+      "upvotes": 43,
+      "github": "https://github.com/cactusqq/KeyFrame-Compass",
+      "published": "2026-07-15T00:00:00.000Z"
+    },
+    {
+      "id": "2607.15207",
+      "title": "BadWAM: When World-Action Models Dream Right but Act Wrong",
+      "authors": [
+        "Qi Li",
+        "Xingyi Yang",
+        "Xinchao Wang"
+      ],
+      "upvotes": 43,
+      "github": "https://github.com/LiQiiiii/BadWAM",
+      "published": "2026-07-16T00:00:00.000Z"
+    },
+    {
+      "id": "2607.14076",
+      "title": "From Pixels to States: Rethinking Interactive World Models as Game Engines",
+      "authors": [
+        "Zhen Li",
+        "Zian Meng",
+        "Shuwei Shi",
+        "Mingliang Zhai",
+        "Jiaming Tan",
+        "Chuanhao Li",
+        "Kaipeng Zhang"
+      ],
+      "upvotes": 31,
+      "github": "https://github.com/AlayaLab/WildWorld",
+      "published": "2026-07-15T00:00:00.000Z"
+    },
+    {
+      "id": "2607.14189",
+      "title": "MultiRef-Compass: Towards Comprehensive Evaluation of Multi-Reference-to-Audio-Video Generation",
+      "authors": [
+        "Xiaohan Zhang",
+        "Yuqing Wen",
+        "Junlin Chen",
+        "Yuqi Tang",
+        "Yiting He",
+        "Lizhuo Shao",
+        "Weiming Zhu",
+        "Tengfei Liu",
+        "Yang Shi",
+        "Jialu Chen",
+        "Yuanxing Zhang",
+        "Huaxiong Li"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/zxhhh0201/MultiRef-Compass",
+      "published": "2026-07-15T00:00:00.000Z"
+    },
+    {
+      "id": "2607.14187",
+      "title": "RxBrain: Embodied Cognition Foundation Model with Joint Language-Visual Reasoning and Imagination",
+      "authors": [
+        "Haotian Liang",
+        "Mingkang Chen",
+        "Yufei Huang",
+        "Yuchun Guo",
+        "Xiaomeng Zhu",
+        "Xiangli Shi",
+        "Kaixuan Wang",
+        "Yunxuan Mao",
+        "Weijie Zhou",
+        "Ling Chen",
+        "Shirong Zeng",
+        "Yueyu Long",
+        "Yuchen Si",
+        "Yajuan Zhu",
+        "Xingyu Zhou",
+        "Minghui Wang",
+        "Wanjia He",
+        "Xin Yang",
+        "Lingzhu Xiang",
+        "Zhiqing Liu",
+        "Bohan Ma",
+        "Xiran Huang",
+        "Tianshuo Yang",
+        "Zhiheng Liu",
+        "Xuantang Xiong",
+        "Zisheng Lu",
+        "Ping Luo",
+        "Yao Mu",
+        "Han Hu",
+        "Zhengyou Zhang"
+      ],
+      "upvotes": 29,
+      "github": "https://github.com/Tencent-Hunyuan/Hy-Embodied-RxBrain-1.0",
+      "published": "2026-07-15T00:00:00.000Z"
+    },
+    {
+      "id": "2607.12800",
+      "title": "UniVR: Thinking in Visual Space for Unified Visual Reasoning",
+      "authors": [
+        "Zhongwei Ren",
+        "Yunchao Wei",
+        "Yao Zhao",
+        "Weibo Gong",
+        "Xiao Liu",
+        "Anran Wang",
+        "Xiangtai Li",
+        "Xiaojie Jin"
+      ],
+      "upvotes": 29,
+      "github": "https://github.com/bytedance/UniVR",
+      "published": "2026-07-14T00:00:00.000Z"
+    },
+    {
+      "id": "2607.13188",
+      "title": "Concurrent Image Understanding and Generation: Self-Correcting Coupled Markov Jump Processes",
+      "authors": [
+        "Minh-Quan Le",
+        "Armand Comas",
+        "Alexandros Lattas",
+        "Stylianos Moschoglou",
+        "Pedro Vélez",
+        "Amit Raj",
+        "Aaron Germuth",
+        "Thabo Beeler",
+        "Dimitris Samaras",
+        "Di Qiu"
+      ],
+      "upvotes": 29,
+      "github": null,
+      "published": "2026-07-14T00:00:00.000Z"
+    },
+    {
+      "id": "2607.15038",
+      "title": "Video = World + Event Stream",
+      "authors": [
+        "Lianghua Huang",
+        "Zhi-Fan Wu",
+        "Yupeng Shi",
+        "Wei Wang",
+        "Mengyang Feng",
+        "Cheng Yu",
+        "Chen Liang",
+        "Junjie He",
+        "Chen-Wei Xie",
+        "Yu Liu",
+        "Jingren Zhou",
+        "Ang Wang",
+        "Bang Zhang",
+        "Baole Ai",
+        "Chongyang Zhong",
+        "Jinwei Qi",
+        "Kai Zhu",
+        "Pandeng Li",
+        "Peng Zhang",
+        "Wenyuan Zhang",
+        "Xinhua Cheng",
+        "Yitong Huang",
+        "Yun Zheng",
+        "Yuxiang Bao",
+        "Yuzheng Wang",
+        "Zhiwei Lin",
+        "Zoubin Bi"
+      ],
+      "upvotes": 22,
+      "github": null,
+      "published": "2026-07-16T00:00:00.000Z"
+    },
+    {
+      "id": "2607.13399",
+      "title": "Demystifying On-Policy Distillation: Roles, Pathologies, and Regulations",
+      "authors": [
+        "Rui Wang",
+        "Hongru Wang",
+        "Yi Chen",
+        "Boyang Xue",
+        "Tianqing Fang",
+        "Wenhao Yu",
+        "Kam-Fai Wong"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2026-07-15T00:00:00.000Z"
+    },
+    {
+      "id": "2607.15275",
+      "title": "RoboTTT: Context Scaling for Robot Policies",
+      "authors": [
+        "Yunfan Jiang",
+        "Yevgen Chebotar",
+        "Ruijie Zheng",
+        "Fengyuan Hu",
+        "Yunhao Ge",
+        "Jimmy Wu",
+        "Tianyuan Dai",
+        "Scott Reed",
+        "Li Fei-Fei",
+        "Yuke Zhu",
+        "Linxi \"Jim\" Fan"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2026-07-16T00:00:00.000Z"
+    },
+    {
+      "id": "2607.13491",
+      "title": "DeepLoop: Depth Scaling for Looped Transformers",
+      "authors": [
+        "Shuzhen Li",
+        "Yifan Zhang",
+        "Jiacheng Guo",
+        "Quanquan Gu",
+        "Mengdi Wang"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2026-07-15T00:00:00.000Z"
+    },
+    {
+      "id": "2607.14749",
+      "title": "WanSong v1.0 Technical Report",
+      "authors": [
+        "Binghui Chen",
+        "Pandeng Li",
+        "Yu Liu",
+        "Jingren Zhou"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2026-07-16T00:00:00.000Z"
+    },
+    {
+      "id": "2607.15273",
+      "title": "MeanFlowNFT: Bringing Forward-Process RL to Average-Velocity Generators",
+      "authors": [
+        "Yushi Huang",
+        "Xiangxin Zhou",
+        "Jun Zhang",
+        "Liefeng Bo",
+        "Tianyu Pang"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/Harahan/MeanFlowNFT",
+      "published": "2026-07-16T00:00:00.000Z"
+    },
+    {
+      "id": "2607.12227",
+      "title": "Rethinking the Evaluation of Harness Evolution for Agents",
+      "authors": [
+        "Yike Wang",
+        "Huaisheng Zhu",
+        "Zhengyu Hu",
+        "Yige Yuan",
+        "Zhengyu Chen",
+        "Shakti Senthil",
+        "Hannaneh Hajishirzi",
+        "Yulia Tsvetkov",
+        "Pradeep Dasigi",
+        "Teng Xiao"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/rethinking-harness-evolution/code",
+      "published": "2026-07-14T00:00:00.000Z"
+    },
+    {
+      "id": "2607.03065",
+      "title": "Spectral Rewiring for Exploration, Purification, and Model Merging",
+      "authors": [
+        "Zhilong Zhang",
+        "Hongli Yu",
+        "Huan-ang Gao",
+        "Hanlin Wu",
+        "Yuxuan Song",
+        "Wei-Ying Ma",
+        "Ya-Qin Zhang",
+        "Hao Zhou"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2026-07-03T00:00:00.000Z"
+    },
+    {
+      "id": "2607.15278",
+      "title": "Hierarchical Denoising For Multi-Step Visual Reasoning",
+      "authors": [
+        "Zezhong Qian",
+        "Xiaowei Chi",
+        "Chak-Wing Mak",
+        "Tianze Zhou",
+        "Ruibin Yuan",
+        "Yuhan Rui",
+        "Hengzhe Sun",
+        "Zhuoqun Wu",
+        "Yuming Li",
+        "Siyuan Qian",
+        "Sirui Han",
+        "Shanghang Zhang"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2026-07-16T00:00:00.000Z"
+    },
+    {
+      "id": "2607.10463",
+      "title": "GRASP: GRanularity-Aware Search Policy for Agentic RAG",
+      "authors": [
+        "Varun Gandhi",
+        "Jaewook Lee",
+        "Shantanu Todmal",
+        "Franck Dernoncourt",
+        "Ryan Rossi",
+        "Zichao Wang",
+        "Andrew Lan"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2026-07-11T00:00:00.000Z"
+    },
+    {
+      "id": "2607.14431",
+      "title": "Smarter and Cheaper at Once: Byte-Exact KV-Cache Grafting Turns a Frozen Small Model into a Verified-Knowledge Flywheel",
+      "authors": [
+        "Sietse Schelpe"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2026-07-15T00:00:00.000Z"
+    },
+    {
+      "id": "2607.10995",
+      "title": "AsySplat: Efficient Asymmetric 3D Gaussian Splatting for Long-Sequence Scene Modeling",
+      "authors": [
+        "Yingji Zhong",
+        "Dave Zhenyu Chen",
+        "Fuzhao Ou",
+        "Youyu Chen",
+        "Zhihao Li",
+        "Lanqing Hong",
+        "Dan Xu"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/zhongyingji/asysplat",
+      "published": "2026-07-13T00:00:00.000Z"
+    },
+    {
+      "id": "2607.14660",
+      "title": "VIABench: A Comprehensive Video Benchmark Collected from Blind Individuals for Visual Impairment Assistance",
+      "authors": [
+        "Yunfeng Liu",
+        "Yuandong Yang",
+        "Jiarui Han",
+        "Zhenpeng Huang",
+        "Yuqing Tang",
+        "Xiangyu Zeng",
+        "Gangshan Wu",
+        "Limin Wang"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/MCG-NJU/VIABench",
+      "published": "2026-07-16T00:00:00.000Z"
+    },
+    {
+      "id": "2607.14387",
+      "title": "Chat2Scenic: An Iterative RAG-Based Framework for Scenario Generation in Autonomous Driving",
+      "authors": [
+        "Yuan Gao",
+        "Wenting Miao",
+        "Mattia Piccinini",
+        "Haoyu Wang",
+        "Qunying Song",
+        "Johannes Betz"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/TUM-AVS/Chat2scenic",
+      "published": "2026-07-15T00:00:00.000Z"
+    },
+    {
+      "id": "2607.14106",
+      "title": "Token Time Continuous Diffusion for Language Modeling",
+      "authors": [
+        "Parikshit Bansal",
+        "Sujay Sanghavi"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-05-07T00:00:00.000Z"
+    },
+    {
+      "id": "2607.15058",
+      "title": "SUFLECA: Scaling Up Feature Learning for CAD-to-image Alignment",
+      "authors": [
+        "Saad Ejaz",
+        "Miguel Fernandez-Cortizas",
+        "Javier Civera",
+        "Holger Voos",
+        "Jose Luis Sanchez-Lopez"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/snt-arg/SUFLECA",
+      "published": "2026-07-16T00:00:00.000Z"
+    },
+    {
+      "id": "2607.15277",
+      "title": "Partition, Prompt, Aggregate: Statistical Self-Consistency in Language Models",
+      "authors": [
+        "Patrik Wolf",
+        "Thomas Kleine Buening",
+        "Andreas Krause",
+        "Celestine Mendler-Dünner"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/patrikwolf/statistical_self_consistency",
+      "published": "2026-07-16T00:00:00.000Z"
+    },
+    {
+      "id": "2607.09061",
+      "title": "On Locality and Length Generalization in Visual Reasoning",
+      "authors": [
+        "Pulkit Madan",
+        "Sanjay Haresh",
+        "Reza Ebrahimi",
+        "Sunny Panchal",
+        "Apratim Bhattacharyya",
+        "Roland Memisevic"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-07-10T00:00:00.000Z"
+    }
+  ]
+}

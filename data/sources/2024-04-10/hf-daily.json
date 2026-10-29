@@ -1,0 +1,299 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-04-10",
+  "fetched_at": "2026-10-29T15:27:27.624Z",
+  "candidates": [
+    {
+      "id": "2404.06212",
+      "title": "OmniFusion Technical Report",
+      "authors": [
+        "Elizaveta Goncharova",
+        "Anton Razzhigaev",
+        "Matvey Mikhalchuk",
+        "Maxim Kurkin",
+        "Irina Abdullaeva",
+        "Matvey Skripkin",
+        "Ivan Oseledets",
+        "Denis Dimitrov",
+        "Andrey Kuznetsov"
+      ],
+      "upvotes": 78,
+      "github": "https://github.com/airi-institute/omnifusion",
+      "published": "2024-04-09T11:00:19.000Z"
+    },
+    {
+      "id": "2404.05961",
+      "title": "LLM2Vec: Large Language Models Are Secretly Powerful Text Encoders",
+      "authors": [
+        "Parishad BehnamGhader",
+        "Vaibhav Adlakha",
+        "Marius Mosbach",
+        "Dzmitry Bahdanau",
+        "Nicolas Chapados",
+        "Siva Reddy"
+      ],
+      "upvotes": 67,
+      "github": "https://github.com/mcgill-nlp/llm2vec",
+      "published": "2024-04-09T02:51:05.000Z"
+    },
+    {
+      "id": "2404.05892",
+      "title": "Eagle and Finch: RWKV with Matrix-Valued States and Dynamic Recurrence",
+      "authors": [
+        "Bo Peng",
+        "Daniel Goldstein",
+        "Quentin Anthony",
+        "Alon Albalak",
+        "Eric Alcaide",
+        "Stella Biderman",
+        "Eugene Cheah",
+        "Teddy Ferdinan",
+        "Haowen Hou",
+        "Przemysław Kazienko",
+        "Kranthi Kiran GV",
+        "Jan Kocoń",
+        "Bartłomiej Koptyra",
+        "Satyapriya Krishna",
+        "Ronald McClelland Jr.",
+        "Niklas Muennighoff",
+        "Fares Obeid",
+        "Atsushi Saito",
+        "Guangyu Song",
+        "Haoqin Tu",
+        "Stanisław Woźniak",
+        "Ruichong Zhang",
+        "Bingchen Zhao",
+        "Qihang Zhao",
+        "Peng Zhou",
+        "Jian Zhu",
+        "Rui-Jie Zhu"
+      ],
+      "upvotes": 40,
+      "github": "https://github.com/rwkv/rwkv-infctx-trainer",
+      "published": "2024-04-08T22:20:59.000Z"
+    },
+    {
+      "id": "2404.06512",
+      "title": "InternLM-XComposer2-4KHD: A Pioneering Large Vision-Language Model Handling Resolutions from 336 Pixels to 4K HD",
+      "authors": [
+        "Xiaoyi Dong",
+        "Pan Zhang",
+        "Yuhang Zang",
+        "Yuhang Cao",
+        "Bin Wang",
+        "Linke Ouyang",
+        "Songyang Zhang",
+        "Haodong Duan",
+        "Wenwei Zhang",
+        "Yining Li",
+        "Hang Yan",
+        "Yang Gao",
+        "Zhe Chen",
+        "Xinyue Zhang",
+        "Wei Li",
+        "Jingwen Li",
+        "Wenhai Wang",
+        "Kai Chen",
+        "Conghui He",
+        "Xingcheng Zhang",
+        "Jifeng Dai",
+        "Yu Qiao",
+        "Dahua Lin",
+        "Jiaqi Wang"
+      ],
+      "upvotes": 31,
+      "github": null,
+      "published": "2024-04-09T17:59:32.000Z"
+    },
+    {
+      "id": "2404.06395",
+      "title": "MiniCPM: Unveiling the Potential of Small Language Models with Scalable Training Strategies",
+      "authors": [
+        "Shengding Hu",
+        "Yuge Tu",
+        "Xu Han",
+        "Chaoqun He",
+        "Ganqu Cui",
+        "Xiang Long",
+        "Zhi Zheng",
+        "Yewei Fang",
+        "Yuxiang Huang",
+        "Weilin Zhao",
+        "Xinrong Zhang",
+        "Zheng Leng Thai",
+        "Kaihuo Zhang",
+        "Chongyi Wang",
+        "Yuan Yao",
+        "Chenyang Zhao",
+        "Jie Zhou",
+        "Jie Cai",
+        "Zhongwu Zhai",
+        "Ning Ding",
+        "Chao Jia",
+        "Guoyang Zeng",
+        "Dahai Li",
+        "Zhiyuan Liu",
+        "Maosong Sun"
+      ],
+      "upvotes": 24,
+      "github": null,
+      "published": "2024-04-09T15:36:50.000Z"
+    },
+    {
+      "id": "2404.05875",
+      "title": "CodecLM: Aligning Language Models with Tailored Synthetic Data",
+      "authors": [
+        "Zifeng Wang",
+        "Chun-Liang Li",
+        "Vincent Perot",
+        "Long T. Le",
+        "Jin Miao",
+        "Zizhao Zhang",
+        "Chen-Yu Lee",
+        "Tomas Pfister"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2024-04-08T21:15:36.000Z"
+    },
+    {
+      "id": "2404.06393",
+      "title": "MuPT: A Generative Symbolic Music Pretrained Transformer",
+      "authors": [
+        "Xingwei Qu",
+        "Yuelin Bai",
+        "Yinghao Ma",
+        "Ziya Zhou",
+        "Ka Man Lo",
+        "Jiaheng Liu",
+        "Ruibin Yuan",
+        "Lejun Min",
+        "Xueling Liu",
+        "Tianyu Zhang",
+        "Xinrun Du",
+        "Shuyue Guo",
+        "Yiming Liang",
+        "Yizhi Li",
+        "Shangda Wu",
+        "Junting Zhou",
+        "Tianyu Zheng",
+        "Ziyang Ma",
+        "Fengze Han",
+        "Wei Xue",
+        "Gus Xia",
+        "Emmanouil Benetos",
+        "Xiang Yue",
+        "Chenghua Lin",
+        "Xu Tan",
+        "Stephen W. Huang",
+        "Wenhu Chen",
+        "Jie Fu",
+        "Ge Zhang"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2024-04-09T15:35:52.000Z"
+    },
+    {
+      "id": "2404.05829",
+      "title": "SambaLingo: Teaching Large Language Models New Languages",
+      "authors": [
+        "Zoltan Csaki",
+        "Bo Li",
+        "Jonathan Li",
+        "Qiantong Xu",
+        "Pian Pawakapan",
+        "Leon Zhang",
+        "Yun Du",
+        "Hengyu Zhao",
+        "Changran Hu",
+        "Urmish Thakker"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2024-04-08T19:48:36.000Z"
+    },
+    {
+      "id": "2404.06091",
+      "title": "Hash3D: Training-free Acceleration for 3D Generation",
+      "authors": [
+        "Xingyi Yang",
+        "Xinchao Wang"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/Adamdad/hash3D",
+      "published": "2024-04-09T07:49:30.000Z"
+    },
+    {
+      "id": "2404.06780",
+      "title": "Urban Architect: Steerable 3D Urban Scene Generation with Layout Prior",
+      "authors": [
+        "Fan Lu",
+        "Kwan-Yee Lin",
+        "Yan Xu",
+        "Hongsheng Li",
+        "Guang Chen",
+        "Changjun Jiang"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/UrbanArchitect/UrbanArchitect",
+      "published": "2024-04-10T06:41:30.000Z"
+    },
+    {
+      "id": "2404.06109",
+      "title": "Revising Densification in Gaussian Splatting",
+      "authors": [
+        "Samuel Rota Bulò",
+        "Lorenzo Porzi",
+        "Peter Kontschieder"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2024-04-09T08:20:37.000Z"
+    },
+    {
+      "id": "2404.06429",
+      "title": "Magic-Boost: Boost 3D Generation with Mutli-View Conditioned Diffusion",
+      "authors": [
+        "Fan Yang",
+        "Jianfeng Zhang",
+        "Yichun Shi",
+        "Bowen Chen",
+        "Chenxu Zhang",
+        "Huichao Zhang",
+        "Xiaofeng Yang",
+        "Jiashi Feng",
+        "Guosheng Lin"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/magic-research/magic-boost",
+      "published": "2024-04-09T16:20:03.000Z"
+    },
+    {
+      "id": "2404.06507",
+      "title": "Reconstructing Hand-Held Objects in 3D",
+      "authors": [
+        "Jane Wu",
+        "Georgios Pavlakos",
+        "Georgia Gkioxari",
+        "Jitendra Malik"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/janehwu/mcc-ho",
+      "published": "2024-04-09T17:55:41.000Z"
+    },
+    {
+      "id": "2404.06209",
+      "title": "Elephants Never Forget: Memorization and Learning of Tabular Data in Large Language Models",
+      "authors": [
+        "Sebastian Bordt",
+        "Harsha Nori",
+        "Vanessa Rodrigues",
+        "Besmira Nushi",
+        "Rich Caruana"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/interpretml/llm-tabular-memorization-checker",
+      "published": "2024-04-09T10:58:21.000Z"
+    }
+  ]
+}

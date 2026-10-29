@@ -1,0 +1,570 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-02-16",
+  "fetched_at": "2026-10-29T15:34:44.363Z",
+  "candidates": [
+    {
+      "id": "2602.10388",
+      "title": "Less is Enough: Synthesizing Diverse Data in Feature Space of LLMs",
+      "authors": [
+        "Zhongzhi Li",
+        "Xuansheng Wu",
+        "Yijiang Li",
+        "Lijie Hu",
+        "Ninghao Liu"
+      ],
+      "upvotes": 68,
+      "github": "https://github.com/Zhongzhi660/FAC-Synthesis",
+      "published": "2026-02-11T00:23:13.000Z"
+    },
+    {
+      "id": "2602.12705",
+      "title": "MedXIAOHE: A Comprehensive Recipe for Building Medical MLLMs",
+      "authors": [
+        "Baorong Shi",
+        "Bo Cui",
+        "Boyuan Jiang",
+        "Deli Yu",
+        "Fang Qian",
+        "Haihua Yang",
+        "Huichao Wang",
+        "Jiale Chen",
+        "Jianfei Pan",
+        "Jieqiong Cao",
+        "Jinghao Lin",
+        "Kai Wu",
+        "Lin Yang",
+        "Shengsheng Yao",
+        "Tao Chen",
+        "Xiaojun Xiao",
+        "Xiaozhong Ji",
+        "Xu Wang",
+        "Yijun He",
+        "Zhixiong Yang"
+      ],
+      "upvotes": 63,
+      "github": null,
+      "published": "2026-02-13T08:19:38.000Z"
+    },
+    {
+      "id": "2602.13013",
+      "title": "Towards Universal Video MLLMs with Attribute-Structured and Quality-Verified Instructions",
+      "authors": [
+        "Yunheng Li",
+        "Hengrui Zhang",
+        "Meng-Hao Guo",
+        "Wenzhao Gao",
+        "Shaoyong Jia",
+        "Shaohui Jiao",
+        "Qibin Hou",
+        "Ming-Ming Cheng"
+      ],
+      "upvotes": 54,
+      "github": "https://github.com/HVision-NKU/ASID-Caption",
+      "published": "2026-02-13T15:20:54.000Z"
+    },
+    {
+      "id": "2602.08683",
+      "title": "OneVision-Encoder: Codec-Aligned Sparsity as a Foundational Principle for Multimodal Intelligence",
+      "authors": [
+        "Feilong Tang",
+        "Xiang An",
+        "Yunyao Yan",
+        "Yin Xie",
+        "Bin Qin",
+        "Kaicheng Yang",
+        "Yifei Shen",
+        "Yuanhan Zhang",
+        "Chunyuan Li",
+        "Shikun Feng",
+        "Changrui Chen",
+        "Huajie Tan",
+        "Ming Hu",
+        "Manyuan Zhang",
+        "Bo Li",
+        "Ziyong Feng",
+        "Ziwei Liu",
+        "Zongyuan Ge",
+        "Jiankang Deng"
+      ],
+      "upvotes": 51,
+      "github": "https://github.com/EvolvingLMMs-Lab/OneVision-Encoder",
+      "published": "2026-02-09T14:06:17.000Z"
+    },
+    {
+      "id": "2602.13191",
+      "title": "CoPE-VideoLM: Codec Primitives For Efficient Video Language Models",
+      "authors": [
+        "Sayan Deb Sarkar",
+        "Rémi Pautrat",
+        "Ondrej Miksik",
+        "Marc Pollefeys",
+        "Iro Armeni",
+        "Mahdi Rad",
+        "Mihai Dusmanu"
+      ],
+      "upvotes": 34,
+      "github": null,
+      "published": "2026-02-13T18:57:31.000Z"
+    },
+    {
+      "id": "2602.11858",
+      "title": "Zooming without Zooming: Region-to-Image Distillation for Fine-Grained Multimodal Perception",
+      "authors": [
+        "Lai Wei",
+        "Liangbo He",
+        "Jun Lan",
+        "Lingzhong Dong",
+        "Yutong Cai",
+        "Siyuan Li",
+        "Huijia Zhu",
+        "Weiqiang Wang",
+        "Linghe Kong",
+        "Yue Wang",
+        "Zhuosheng Zhang",
+        "Weiran Huang"
+      ],
+      "upvotes": 26,
+      "github": "https://github.com/inclusionAI/Zooming-without-Zooming",
+      "published": "2026-02-12T12:00:35.000Z"
+    },
+    {
+      "id": "2602.09146",
+      "title": "SemanticMoments: Training-Free Motion Similarity via Third Moment Features",
+      "authors": [
+        "Saar Huberman",
+        "Kfir Goldberg",
+        "Or Patashnik",
+        "Sagie Benaim",
+        "Ron Mokady"
+      ],
+      "upvotes": 22,
+      "github": null,
+      "published": "2026-02-09T19:47:56.000Z"
+    },
+    {
+      "id": "2602.12783",
+      "title": "SQuTR: A Robustness Benchmark for Spoken Query to Text Retrieval under Acoustic Noise",
+      "authors": [
+        "Yuejie Li",
+        "Ke Yang",
+        "Yueying Hua",
+        "Berlin Chen",
+        "Jianhao Nie",
+        "Yueping He",
+        "Caixin Kang"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/ttoyekk1a/SQuTR-Spoken-Query-to-Text-Retrieval",
+      "published": "2026-02-13T10:08:27.000Z"
+    },
+    {
+      "id": "2602.12617",
+      "title": "GeoAgent: Learning to Geolocate Everywhere with Reinforced Geographic Characteristics",
+      "authors": [
+        "Modi Jin",
+        "Yiming Zhang",
+        "Boyuan Sun",
+        "Dingwen Zhang",
+        "MingMing Cheng",
+        "Qibin Hou"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/HVision-NKU/GeoAgent",
+      "published": "2026-02-13T04:48:05.000Z"
+    },
+    {
+      "id": "2602.12395",
+      "title": "What does RL improve for Visual Reasoning? A Frankenstein-Style Analysis",
+      "authors": [
+        "Xirui Li",
+        "Ming Li",
+        "Tianyi Zhou"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/tianyi-lab/Frankenstein",
+      "published": "2026-02-12T20:44:27.000Z"
+    },
+    {
+      "id": "2602.11865",
+      "title": "Intelligent AI Delegation",
+      "authors": [
+        "Nenad Tomašev",
+        "Matija Franklin",
+        "Simon Osindero"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2026-02-12T12:11:42.000Z"
+    },
+    {
+      "id": "2602.11236",
+      "title": "ABot-M0: VLA Foundation Model for Robotic Manipulation with Action Manifold Learning",
+      "authors": [
+        "Yandan Yang",
+        "Shuang Zeng",
+        "Tong Lin",
+        "Xinyuan Chang",
+        "Dekang Qi",
+        "Junjin Xiao",
+        "Haoyun Liu",
+        "Ronghan Chen",
+        "Yuzhi Chen",
+        "Dongjie Huo",
+        "Feng Xiong",
+        "Xing Wei",
+        "Zhiheng Ma",
+        "Mu Xu"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/amap-cvlab/ABot-Manipulation",
+      "published": "2026-02-11T16:47:01.000Z"
+    },
+    {
+      "id": "2602.12628",
+      "title": "RLinf-Co: Reinforcement Learning-Based Sim-Real Co-Training for VLA Models",
+      "authors": [
+        "Liangzhi Shi",
+        "Shuaihang Chen",
+        "Feng Gao",
+        "Yinuo Chen",
+        "Kang Chen",
+        "Tonghe Zhang",
+        "Hongzhi Zhang",
+        "Weinan Zhang",
+        "Chao Yu",
+        "Yu Wang"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2026-02-13T05:15:50.000Z"
+    },
+    {
+      "id": "2602.04163",
+      "title": "BPDQ: Bit-Plane Decomposition Quantization on a Variable Grid for Large Language Models",
+      "authors": [
+        "Junyu Chen",
+        "Jungang Li",
+        "Jing Xiong",
+        "Wenjie Wang",
+        "Qingyao Yang",
+        "He Xiao",
+        "Zhen Li",
+        "Taiqiang Wu",
+        "Mengzhao Chen",
+        "Zhen Peng",
+        "Chaofan Tao",
+        "Long Shi",
+        "Hongxia Yang",
+        "Ngai Wong"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2026-02-04T02:54:37.000Z"
+    },
+    {
+      "id": "2602.11715",
+      "title": "DICE: Diffusion Large Language Models Excel at Generating CUDA Kernels",
+      "authors": [
+        "Haolei Bai",
+        "Lingcheng Kong",
+        "Xueyi Chen",
+        "Jianmian Wang",
+        "Zhiqiang Tao",
+        "Huan Wang"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/deadlykitten4/DICE",
+      "published": "2026-02-12T08:45:13.000Z"
+    },
+    {
+      "id": "2602.12684",
+      "title": "Xiaomi-Robotics-0: An Open-Sourced Vision-Language-Action Model with Real-Time Execution",
+      "authors": [
+        "Rui Cai",
+        "Jun Guo",
+        "Xinze He",
+        "Piaopiao Jin",
+        "Jie Li",
+        "Bingxuan Lin",
+        "Futeng Liu",
+        "Wei Liu",
+        "Fei Ma",
+        "Kun Ma",
+        "Feng Qiu",
+        "Heng Qu",
+        "Yifei Su",
+        "Qiao Sun",
+        "Dong Wang",
+        "Donghao Wang",
+        "Yunhong Wang",
+        "Rujie Wu",
+        "Diyun Xiang",
+        "Yu Yang",
+        "Hangjun Ye",
+        "Yuan Zhang",
+        "Quanyun Zhou"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/XiaomiRobotics/Xiaomi-Robotics-0",
+      "published": "2026-02-13T07:30:43.000Z"
+    },
+    {
+      "id": "2602.12984",
+      "title": "SciAgentGym: Benchmarking Multi-Step Scientific Tool-use in LLM Agents",
+      "authors": [
+        "Yujiong Shen",
+        "Yajie Yang",
+        "Zhiheng Xi",
+        "Binze Hu",
+        "Huayu Sha",
+        "Jiazheng Zhang",
+        "Qiyuan Peng",
+        "Junlin Shang",
+        "Jixuan Huang",
+        "Yutao Fan",
+        "Jingqi Tong",
+        "Shihan Dou",
+        "Ming Zhang",
+        "Lei Bai",
+        "Zhenfei Yin",
+        "Tao Gui",
+        "Xingjun Ma",
+        "Qi Zhang",
+        "Xuanjing Huang",
+        "Yu-Gang Jiang"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/CMarsRover/SciAgentGYM",
+      "published": "2026-02-13T14:58:18.000Z"
+    },
+    {
+      "id": "2602.12221",
+      "title": "Best of Both Worlds: Multimodal Reasoning and Generation via Unified Discrete Flow Matching",
+      "authors": [
+        "Onkar Susladkar",
+        "Tushar Prakash",
+        "Gayatri Deshmukh",
+        "Kiet A. Nguyen",
+        "Jiaxun Zhang",
+        "Adheesh Juvekar",
+        "Tianshu Bao",
+        "Lin Chai",
+        "Sparsh Mittal",
+        "Inderjit S Dhillon",
+        "Ismini Lourentzou"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2026-02-12T17:59:08.000Z"
+    },
+    {
+      "id": "2602.07298",
+      "title": "Principled Synthetic Data Enables the First Scaling Laws for LLMs in Recommendation",
+      "authors": [
+        "Benyu Zhang",
+        "Qiang Zhang",
+        "Jianpeng Cheng",
+        "Hong-You Chen",
+        "Qifei Wang",
+        "Wei Sun",
+        "Shen Li",
+        "Jia Li",
+        "Jiahao Wu",
+        "Xiangjun Fan",
+        "Hong Yan"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2026-02-07T01:15:15.000Z"
+    },
+    {
+      "id": "2602.12612",
+      "title": "Self-EvolveRec: Self-Evolving Recommender Systems with LLM-based Directional Feedback",
+      "authors": [
+        "Sein Kim",
+        "Sangwu Park",
+        "Hongseok Kang",
+        "Wonjoong Kim",
+        "Jimin Seo",
+        "Yeonjun In",
+        "Kanghoon Yoon",
+        "Chanyoung Park"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/Sein-Kim/self_evolverec",
+      "published": "2026-02-13T04:38:32.000Z"
+    },
+    {
+      "id": "2602.12506",
+      "title": "On Robustness and Chain-of-Thought Consistency of RL-Finetuned VLMs",
+      "authors": [
+        "Rosie Zhao",
+        "Anshul Shah",
+        "Xiaoyu Zhu",
+        "Xinke Deng",
+        "Zhongyu Jiang",
+        "Yang Yang",
+        "Joerg Liebelt",
+        "Arnab Mondal"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-02-13T01:12:00.000Z"
+    },
+    {
+      "id": "2602.11757",
+      "title": "Code2Worlds: Empowering Coding LLMs for 4D World Generation",
+      "authors": [
+        "Yi Zhang",
+        "Yunshuang Wang",
+        "Zeyu Zhang",
+        "Hao Tang"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/AIGeeksGroup/Code2Worlds",
+      "published": "2026-02-12T09:34:28.000Z"
+    },
+    {
+      "id": "2602.12829",
+      "title": "FLAC: Maximum Entropy RL via Kinetic Energy Regularized Bridge Matching",
+      "authors": [
+        "Lei Lv",
+        "Yunfei Li",
+        "Yu Luo",
+        "Fuchun Sun",
+        "Xiao Ma"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-02-13T11:32:10.000Z"
+    },
+    {
+      "id": "2602.11609",
+      "title": "scPilot: Large Language Model Reasoning Toward Automated Single-Cell Analysis and Discovery",
+      "authors": [
+        "Yiming Gao",
+        "Zhen Wang",
+        "Jefferson Chen",
+        "Mark Antkowiak",
+        "Mengzhou Hu",
+        "JungHo Kong",
+        "Dexter Pratt",
+        "Jieyuan Liu",
+        "Enze Ma",
+        "Zhiting Hu",
+        "Eric P. Xing"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/maitrix-org/scPilot",
+      "published": "2026-02-12T06:04:11.000Z"
+    },
+    {
+      "id": "2602.12500",
+      "title": "Favia: Forensic Agent for Vulnerability-fix Identification and Analysis",
+      "authors": [
+        "André Storhaug",
+        "Jiamou Sun",
+        "Jingyue Li"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/andstor/agentic-security-patch-classification-replication-package",
+      "published": "2026-02-13T00:51:22.000Z"
+    },
+    {
+      "id": "2602.11910",
+      "title": "TADA! Tuning Audio Diffusion Models through Activation Steering",
+      "authors": [
+        "Łukasz Staniszewski",
+        "Katarzyna Zaleska",
+        "Mateusz Modrzejewski",
+        "Kamil Deja"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/luk-st/steer-audio",
+      "published": "2026-02-12T13:07:14.000Z"
+    },
+    {
+      "id": "2602.11769",
+      "title": "Light4D: Training-Free Extreme Viewpoint 4D Video Relighting",
+      "authors": [
+        "Zhenghuang Wu",
+        "Kang Chen",
+        "Zeyu Zhang",
+        "Hao Tang"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/AIGeeksGroup/Light4D",
+      "published": "2026-02-12T09:50:13.000Z"
+    },
+    {
+      "id": "2602.09870",
+      "title": "Steer2Edit: From Activation Steering to Component-Level Editing",
+      "authors": [
+        "Chung-En Sun",
+        "Ge Yan",
+        "Zimo Wang",
+        "Tsui-Wei Weng"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2026-02-10T15:15:15.000Z"
+    },
+    {
+      "id": "2602.13022",
+      "title": "Learning Image-based Tree Crown Segmentation from Enhanced Lidar-based Pseudo-labels",
+      "authors": [
+        "Julius Pesonen",
+        "Stefan Rua",
+        "Josef Taher",
+        "Niko Koivumäki",
+        "Xiaowei Yu",
+        "Eija Honkavaara"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2026-02-13T15:26:38.000Z"
+    },
+    {
+      "id": "2602.03120",
+      "title": "Quantized Evolution Strategies: High-precision Fine-tuning of Quantized LLMs at Low-precision Cost",
+      "authors": [
+        "Yinggan Xu",
+        "Risto Miikkulainen",
+        "Xin Qiu"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/dibbla/Quantized-Evolution-Strategies",
+      "published": "2026-02-03T05:24:31.000Z"
+    },
+    {
+      "id": "2602.04315",
+      "title": "GeneralVLA: Generalizable Vision-Language-Action Models with Knowledge-Guided Trajectory Planning",
+      "authors": [
+        "Guoqing Ma",
+        "Siheng Wang",
+        "Zeyu Zhang",
+        "Shan Yu",
+        "Hao Tang"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/AIGeeksGroup/GeneralVLA",
+      "published": "2026-02-04T08:30:27.000Z"
+    },
+    {
+      "id": "2602.13139",
+      "title": "OpenLID-v3: Improving the Precision of Closely Related Language Identification -- An Experience Report",
+      "authors": [
+        "Mariia Fedorova",
+        "Nikolay Arefyev",
+        "Maja Buljan",
+        "Jindřich Helcl",
+        "Stephan Oepen",
+        "Egil Rønningstad",
+        "Yves Scherrer"
+      ],
+      "upvotes": 0,
+      "github": "https://github.com/hplt-project/openlid",
+      "published": "2026-02-13T17:47:08.000Z"
+    }
+  ]
+}

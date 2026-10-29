@@ -1,0 +1,231 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2023-11-01",
+  "fetched_at": "2026-10-29T15:25:49.741Z",
+  "candidates": [
+    {
+      "id": "2310.20689",
+      "title": "Learning From Mistakes Makes LLM Better Reasoner",
+      "authors": [
+        "Shengnan An",
+        "Zexiong Ma",
+        "Zeqi Lin",
+        "Nanning Zheng",
+        "Jian-Guang Lou",
+        "Weizhu Chen"
+      ],
+      "upvotes": 29,
+      "github": "https://github.com/microsoft/lema",
+      "published": "2023-10-31T17:52:22.000Z"
+    },
+    {
+      "id": "2310.20550",
+      "title": "CapsFusion: Rethinking Image-Text Data at Scale",
+      "authors": [
+        "Qiying Yu",
+        "Quan Sun",
+        "Xiaosong Zhang",
+        "Yufeng Cui",
+        "Fan Zhang",
+        "Xinlong Wang",
+        "Jingjing Liu"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/baaivision/capsfusion",
+      "published": "2023-10-31T15:31:39.000Z"
+    },
+    {
+      "id": "2310.19909",
+      "title": "Battle of the Backbones: A Large-Scale Comparison of Pretrained Models across Computer Vision Tasks",
+      "authors": [
+        "Micah Goldblum",
+        "Hossein Souri",
+        "Renkun Ni",
+        "Manli Shu",
+        "Viraj Prabhu",
+        "Gowthami Somepalli",
+        "Prithvijit Chattopadhyay",
+        "Mark Ibrahim",
+        "Adrien Bardes",
+        "Judy Hoffman",
+        "Rama Chellappa",
+        "Andrew Gordon Wilson",
+        "Tom Goldstein"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/hsouri/battle-of-the-backbones",
+      "published": "2023-10-30T18:23:58.000Z"
+    },
+    {
+      "id": "2310.20587",
+      "title": "Unleashing the Power of Pre-trained Language Models for Offline Reinforcement Learning",
+      "authors": [
+        "Ruizhe Shi",
+        "Yuyao Liu",
+        "Yanjie Ze",
+        "Simon S. Du",
+        "Huazhe Xu"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/srzer/LaMo-2023",
+      "published": "2023-10-31T16:24:17.000Z"
+    },
+    {
+      "id": "2310.20216",
+      "title": "Does GPT-4 Pass the Turing Test?",
+      "authors": [
+        "Cameron Jones",
+        "Benjamin Bergen"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2023-10-31T06:27:52.000Z"
+    },
+    {
+      "id": "2310.20624",
+      "title": "LoRA Fine-tuning Efficiently Undoes Safety Training in Llama 2-Chat 70B",
+      "authors": [
+        "Simon Lermen",
+        "Charlie Rogers-Smith",
+        "Jeffrey Ladish"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2023-10-31T16:55:06.000Z"
+    },
+    {
+      "id": "2310.20092",
+      "title": "Beyond U: Making Diffusion Models Faster & Lighter",
+      "authors": [
+        "Sergio Calvo-Ordonez",
+        "Jiahao Huang",
+        "Lipei Zhang",
+        "Guang Yang",
+        "Carola-Bibiane Schonlieb",
+        "Angelica I Aviles-Rivero"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2023-10-31T00:12:14.000Z"
+    },
+    {
+      "id": "2310.20707",
+      "title": "What's In My Big Data?",
+      "authors": [
+        "Yanai Elazar",
+        "Akshita Bhagia",
+        "Ian Magnusson",
+        "Abhilasha Ravichander",
+        "Dustin Schwenk",
+        "Alane Suhr",
+        "Pete Walsh",
+        "Dirk Groeneveld",
+        "Luca Soldaini",
+        "Sameer Singh",
+        "Hanna Hajishirzi",
+        "Noah A. Smith",
+        "Jesse Dodge"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/allenai/wimbd",
+      "published": "2023-10-31T17:59:38.000Z"
+    },
+    {
+      "id": "2310.20700",
+      "title": "SEINE: Short-to-Long Video Diffusion Model for Generative Transition and Prediction",
+      "authors": [
+        "Xinyuan Chen",
+        "Yaohui Wang",
+        "Lingjun Zhang",
+        "Shaobin Zhuang",
+        "Xin Ma",
+        "Jiashuo Yu",
+        "Yali Wang",
+        "Dahua Lin",
+        "Yu Qiao",
+        "Ziwei Liu"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/vchitect/seine",
+      "published": "2023-10-31T17:58:17.000Z"
+    },
+    {
+      "id": "2310.19956",
+      "title": "The Impact of Depth and Width on Transformer Language Model Generalization",
+      "authors": [
+        "Jackson Petty",
+        "Sjoerd van Steenkiste",
+        "Ishita Dasgupta",
+        "Fei Sha",
+        "Dan Garrette",
+        "Tal Linzen"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2023-10-30T19:10:06.000Z"
+    },
+    {
+      "id": "2311.00176",
+      "title": "ChipNeMo: Domain-Adapted LLMs for Chip Design",
+      "authors": [
+        "Mingjie Liu",
+        "Teo Ene",
+        "Robert Kirby",
+        "Chris Cheng",
+        "Nathaniel Pinckney",
+        "Rongjian Liang",
+        "Jonah Alben",
+        "Himyanshu Anand",
+        "Sanmitra Banerjee",
+        "Ismet Bayraktaroglu",
+        "Bonita Bhaskaran",
+        "Bryan Catanzaro",
+        "Arjun Chaudhuri",
+        "Sharon Clay",
+        "Bill Dally",
+        "Laura Dang",
+        "Parikshit Deshpande",
+        "Siddhanth Dhodhi",
+        "Sameer Halepete",
+        "Eric Hill",
+        "Jiashang Hu",
+        "Sumit Jain",
+        "Brucek Khailany",
+        "Kishor Kunal",
+        "Xiaowei Li",
+        "Hao Liu",
+        "Stuart Oberman",
+        "Sujeet Omar",
+        "Sreedhar Pratty",
+        "Ambar Sarkar",
+        "Zhengjiang Shao",
+        "Hanfei Sun",
+        "Pratik P Suthar",
+        "Varun Tej",
+        "Kaizhe Xu",
+        "Haoxing Ren"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2023-10-31T22:35:58.000Z"
+    },
+    {
+      "id": "2310.20499",
+      "title": "Leveraging Word Guessing Games to Assess the Intelligence of Large Language Models",
+      "authors": [
+        "Tian Liang",
+        "Zhiwei He",
+        "Jen-tes Huang",
+        "Wenxuan Wang",
+        "Wenxiang Jiao",
+        "Rui Wang",
+        "Yujiu Yang",
+        "Zhaopeng Tu",
+        "Shuming Shi",
+        "Xing Wang"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/skytliang/spygame",
+      "published": "2023-10-31T14:37:42.000Z"
+    }
+  ]
+}

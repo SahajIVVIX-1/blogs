@@ -1,0 +1,579 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-12-01",
+  "fetched_at": "2026-10-29T15:33:57.702Z",
+  "candidates": [
+    {
+      "id": "2511.22699",
+      "title": "Z-Image: An Efficient Image Generation Foundation Model with Single-Stream Diffusion Transformer",
+      "authors": [
+        "Z-Image Team",
+        "Huanqia Cai",
+        "Sihan Cao",
+        "Ruoyi Du",
+        "Peng Gao",
+        "Steven Hoi",
+        "Shijie Huang",
+        "Zhaohui Hou",
+        "Dengyang Jiang",
+        "Xin Jin",
+        "Liangchen Li",
+        "Zhen Li",
+        "Zhong-Yu Li",
+        "David Liu",
+        "Dongyang Liu",
+        "Junhan Shi",
+        "Qilong Wu",
+        "Feng Yu",
+        "Chi Zhang",
+        "Shifeng Zhang",
+        "Shilin Zhou"
+      ],
+      "upvotes": 249,
+      "github": "https://github.com/Tongyi-MAI/Z-Image",
+      "published": "2025-11-27T18:52:07.000Z"
+    },
+    {
+      "id": "2511.22570",
+      "title": "DeepSeekMath-V2: Towards Self-Verifiable Mathematical Reasoning",
+      "authors": [
+        "Zhihong Shao",
+        "Yuxiang Luo",
+        "Chengda Lu",
+        "Z. Z. Ren",
+        "Jiewen Hu",
+        "Tian Ye",
+        "Zhibin Gou",
+        "Shirong Ma",
+        "Xiaokang Zhang"
+      ],
+      "upvotes": 99,
+      "github": "https://github.com/deepseek-ai/DeepSeek-Math-V2",
+      "published": "2025-11-27T16:01:22.000Z"
+    },
+    {
+      "id": "2511.22625",
+      "title": "REASONEDIT: Towards Reasoning-Enhanced Image Editing Models",
+      "authors": [
+        "Fukun Yin",
+        "Shiyu Liu",
+        "Yucheng Han",
+        "Zhibo Wang",
+        "Peng Xing",
+        "Rui Wang",
+        "Wei Cheng",
+        "Yingming Wang",
+        "Aojie Li",
+        "Zixin Yin",
+        "Pengtao Chen",
+        "Xiangyu Zhang",
+        "Daxin Jiang",
+        "Xianfang Zeng",
+        "Gang Yu"
+      ],
+      "upvotes": 48,
+      "github": null,
+      "published": "2025-11-27T17:02:48.000Z"
+    },
+    {
+      "id": "2511.23199",
+      "title": "Vision Bridge Transformer at Scale",
+      "authors": [
+        "Zhenxiong Tan",
+        "Zeqing Wang",
+        "Xingyi Yang",
+        "Songhua Liu",
+        "Xinchao Wang"
+      ],
+      "upvotes": 47,
+      "github": "https://github.com/Yuanshi9815/ViBT",
+      "published": "2025-11-28T14:03:39.000Z"
+    },
+    {
+      "id": "2511.23475",
+      "title": "AnyTalker: Scaling Multi-Person Talking Video Generation with Interactivity Refinement",
+      "authors": [
+        "Zhizhou Zhong",
+        "Yicheng Ji",
+        "Zhe Kong",
+        "Yiying Liu",
+        "Jiarui Wang",
+        "Jiasun Feng",
+        "Lupeng Liu",
+        "Xiangyi Wang",
+        "Yanjia Li",
+        "Yuqing She",
+        "Ying Qin",
+        "Huan Li",
+        "Shuiyang Mao",
+        "Wei Liu",
+        "Wenhan Luo"
+      ],
+      "upvotes": 43,
+      "github": "https://github.com/HKUST-C4G/AnyTalker",
+      "published": "2025-11-28T18:59:01.000Z"
+    },
+    {
+      "id": "2511.22659",
+      "title": "Geometrically-Constrained Agent for Spatial Reasoning",
+      "authors": [
+        "Zeren Chen",
+        "Xiaoya Lu",
+        "Zhijie Zheng",
+        "Pengrui Li",
+        "Lehan He",
+        "Yijin Zhou",
+        "Jing Shao",
+        "Bohan Zhuang",
+        "Lu Sheng"
+      ],
+      "upvotes": 41,
+      "github": "https://github.com/gca-spatial-reasoning/gca",
+      "published": "2025-11-27T17:50:37.000Z"
+    },
+    {
+      "id": "2511.18890",
+      "title": "Nemotron-Flash: Towards Latency-Optimal Hybrid Small Language Models",
+      "authors": [
+        "Yonggan Fu",
+        "Xin Dong",
+        "Shizhe Diao",
+        "Matthijs Van keirsbilck",
+        "Hanrong Ye",
+        "Wonmin Byeon",
+        "Yashaswi Karnati",
+        "Lucas Liebenwein",
+        "Hannah Zhang",
+        "Nikolaus Binder",
+        "Maksim Khadkevich",
+        "Alexander Keller",
+        "Jan Kautz",
+        "Yingyan Celine Lin",
+        "Pavlo Molchanov"
+      ],
+      "upvotes": 37,
+      "github": null,
+      "published": "2025-11-24T08:46:36.000Z"
+    },
+    {
+      "id": "2511.22677",
+      "title": "Decoupled DMD: CFG Augmentation as the Spear, Distribution Matching as the Shield",
+      "authors": [
+        "Dongyang Liu",
+        "Peng Gao",
+        "David Liu",
+        "Ruoyi Du",
+        "Zhen Li",
+        "Qilong Wu",
+        "Xin Jin",
+        "Sihan Cao",
+        "Shifeng Zhang",
+        "Hongsheng Li",
+        "Steven Hoi"
+      ],
+      "upvotes": 36,
+      "github": null,
+      "published": "2025-11-27T18:24:28.000Z"
+    },
+    {
+      "id": "2511.18822",
+      "title": "DiP: Taming Diffusion Models in Pixel Space",
+      "authors": [
+        "Zhennan Chen",
+        "Junwei Zhu",
+        "Xu Chen",
+        "Jiangning Zhang",
+        "Xiaobin Hu",
+        "Hanzhen Zhao",
+        "Chengjie Wang",
+        "Jian Yang",
+        "Ying Tai"
+      ],
+      "upvotes": 31,
+      "github": "https://github.com/NJU-PCALab/DiP",
+      "published": "2025-11-24T06:55:49.000Z"
+    },
+    {
+      "id": "2511.21025",
+      "title": "CaptionQA: Is Your Caption as Useful as the Image Itself?",
+      "authors": [
+        "Shijia Yang",
+        "Yunong Liu",
+        "Bohan Zhai",
+        "Ximeng Sun",
+        "Zicheng Liu",
+        "Emad Barsoum",
+        "Manling Li",
+        "Chenfeng Xu"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/bronyayang/CaptionQA",
+      "published": "2025-11-26T03:43:32.000Z"
+    },
+    {
+      "id": "2511.22663",
+      "title": "Architecture Decoupling Is Not All You Need For Unified Multimodal Model",
+      "authors": [
+        "Dian Zheng",
+        "Manyuan Zhang",
+        "Hongyu Li",
+        "Kai Zou",
+        "Hongbo Liu",
+        "Ziyu Guo",
+        "Kaituo Feng",
+        "Yexin Liu",
+        "Ying Luo",
+        "Yan Feng",
+        "Peng Pei",
+        "Xunliang Cai",
+        "Hongsheng Li"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/zhengdian1/AIA",
+      "published": "2025-11-27T17:55:25.000Z"
+    },
+    {
+      "id": "2511.23319",
+      "title": "Every Token Counts: Generalizing 16M Ultra-Long Context in Large Language Models",
+      "authors": [
+        "Xiang Hu",
+        "Zhanchao Zhou",
+        "Ruiqi Liang",
+        "Zehuan Li",
+        "Wei Wu",
+        "Jianguo Li"
+      ],
+      "upvotes": 25,
+      "github": null,
+      "published": "2025-11-28T16:17:53.000Z"
+    },
+    {
+      "id": "2511.22134",
+      "title": "DualVLA: Building a Generalizable Embodied Agent via Partial Decoupling of Reasoning and Action",
+      "authors": [
+        "Zhen Fang",
+        "Zhuoyang Liu",
+        "Jiaming Liu",
+        "Hao Chen",
+        "Yu Zeng",
+        "Shiting Huang",
+        "Zehui Chen",
+        "Lin Chen",
+        "Shanghang Zhang",
+        "Feng Zhao"
+      ],
+      "upvotes": 22,
+      "github": null,
+      "published": "2025-11-27T06:03:53.000Z"
+    },
+    {
+      "id": "2511.22475",
+      "title": "Adversarial Flow Models",
+      "authors": [
+        "Shanchuan Lin",
+        "Ceyuan Yang",
+        "Zhijie Lin",
+        "Hao Chen",
+        "Haoqi Fan"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/ByteDance-Seed/Adversarial-Flow-Models",
+      "published": "2025-11-27T14:04:08.000Z"
+    },
+    {
+      "id": "2511.22173",
+      "title": "RefineBench: Evaluating Refinement Capability of Language Models via Checklists",
+      "authors": [
+        "Young-Jun Lee",
+        "Seungone Kim",
+        "Byung-Kwan Lee",
+        "Minkyeong Moon",
+        "Yechan Hwang",
+        "Jong Myoung Kim",
+        "Graham Neubig",
+        "Sean Welleck",
+        "Ho-Jin Choi"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/RefineBench/refinebench-eval",
+      "published": "2025-11-27T07:20:52.000Z"
+    },
+    {
+      "id": "2511.22815",
+      "title": "Captain Safari: A World Engine",
+      "authors": [
+        "Yu-Cheng Chou",
+        "Xingrui Wang",
+        "Yitong Li",
+        "Jiahao Wang",
+        "Hanting Liu",
+        "Cihang Xie",
+        "Alan Yuille",
+        "Junfei Xiao"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2025-11-28T00:27:46.000Z"
+    },
+    {
+      "id": "2511.22787",
+      "title": "World in a Frame: Understanding Culture Mixing as a New Challenge for Vision-Language Models",
+      "authors": [
+        "Eunsu Kim",
+        "Junyeong Park",
+        "Na Min An",
+        "Junseong Kim",
+        "Hitesh Laxmichand Patel",
+        "Jiho Jin",
+        "Julia Kruk",
+        "Amit Agarwal",
+        "Srikant Panda",
+        "Fenal Ashokbhai Ilasariya",
+        "Hyunjung Shim",
+        "Alice Oh"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2025-11-27T22:23:08.000Z"
+    },
+    {
+      "id": "2511.22055",
+      "title": "OralGPT-Omni: A Versatile Dental Multimodal Large Language Model",
+      "authors": [
+        "Jing Hao",
+        "Yuci Liang",
+        "Lizhuo Lin",
+        "Yuxuan Fan",
+        "Wenkai Zhou",
+        "Kaixin Guo",
+        "Zanting Ye",
+        "Yanpeng Sun",
+        "Xinyu Zhang",
+        "Yanqi Yang",
+        "Qiankun Li",
+        "Hao Tang",
+        "James Kit-Hon Tsoi",
+        "Linlin Shen",
+        "Kuo Feng Hung"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2025-11-27T03:21:20.000Z"
+    },
+    {
+      "id": "2511.22281",
+      "title": "The Collapse of Patches",
+      "authors": [
+        "Wei Guo",
+        "Shunqi Mao",
+        "Zhuonan Liang",
+        "Heng Wang",
+        "Weidong Cai"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/wguo-ai/CoP",
+      "published": "2025-11-27T10:04:44.000Z"
+    },
+    {
+      "id": "2511.21750",
+      "title": "SO-Bench: A Structural Output Evaluation of Multimodal LLMs",
+      "authors": [
+        "Di Feng",
+        "Kaixin Ma",
+        "Feng Nan",
+        "Haofeng Chen",
+        "Bohan Zhai",
+        "David Griffiths",
+        "Mingfei Gao",
+        "Zhe Gan",
+        "Eshan Verma",
+        "Yinfei Yang",
+        "Zhifeng Chen",
+        "Afshin Dehghan"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2025-11-23T16:53:16.000Z"
+    },
+    {
+      "id": "2511.22688",
+      "title": "Test-time scaling of diffusions with flow maps",
+      "authors": [
+        "Amirmojtaba Sabour",
+        "Michael S. Albergo",
+        "Carles Domingo-Enrich",
+        "Nicholas M. Boffi",
+        "Sanja Fidler",
+        "Karsten Kreis",
+        "Eric Vanden-Eijnden"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2025-11-27T18:44:12.000Z"
+    },
+    {
+      "id": "2511.22176",
+      "title": "Focused Chain-of-Thought: Efficient LLM Reasoning via Structured Input Information",
+      "authors": [
+        "Lukas Struppek",
+        "Dominik Hintersdorf",
+        "Hannah Struppek",
+        "Daniel Neider",
+        "Kristian Kersting"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-11-27T07:31:52.000Z"
+    },
+    {
+      "id": "2511.20809",
+      "title": "Layer-Aware Video Composition via Split-then-Merge",
+      "authors": [
+        "Ozgur Kara",
+        "Yujia Chen",
+        "Ming-Hsuan Yang",
+        "James M. Rehg",
+        "Wen-Sheng Chu",
+        "Du Tran"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-11-25T19:53:15.000Z"
+    },
+    {
+      "id": "2511.19990",
+      "title": "OmniRefiner: Reinforcement-Guided Local Diffusion Refinement",
+      "authors": [
+        "Yaoli Liu",
+        "Ziheng Ouyang",
+        "Shengtao Lou",
+        "Yiren Song"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/yaoliliu/OmniRefiner",
+      "published": "2025-11-25T06:57:49.000Z"
+    },
+    {
+      "id": "2511.13344",
+      "title": "YOLO Meets Mixture-of-Experts: Adaptive Expert Routing for Robust Object Detection",
+      "authors": [
+        "Ori Meiraz",
+        "Sharon Shalev",
+        "Avishai Weizman"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-11-17T13:11:11.000Z"
+    },
+    {
+      "id": "2511.22805",
+      "title": "From Pixels to Feelings: Aligning MLLMs with Human Cognitive Perception of Images",
+      "authors": [
+        "Yiming Chen",
+        "Junlin Han",
+        "Tianyi Bai",
+        "Shengbang Tong",
+        "Filippos Kokkinos",
+        "Philip Torr"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/Follen-cry/MLLM_Cognition_Alignment",
+      "published": "2025-11-27T23:30:24.000Z"
+    },
+    {
+      "id": "2511.22533",
+      "title": "Fast3Dcache: Training-free 3D Geometry Synthesis Acceleration",
+      "authors": [
+        "Mengyu Yang",
+        "Yanming Yang",
+        "Chenyi Xu",
+        "Chenxi Song",
+        "Yufan Zuo",
+        "Tong Zhao",
+        "Ruibo Li",
+        "Chi Zhang"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/Westlake-AGI-Lab/Fast3Dcache",
+      "published": "2025-11-27T15:13:32.000Z"
+    },
+    {
+      "id": "2511.22265",
+      "title": "FedRE: A Representation Entanglement Framework for Model-Heterogeneous Federated Learning",
+      "authors": [
+        "Yuan Yao",
+        "Lixu Wang",
+        "Jiaqi Wu",
+        "Jin Song",
+        "Simin Chen",
+        "Zehua Wang",
+        "Zijian Tian",
+        "Wei Chen",
+        "Huixia Li",
+        "Xiaoxiao Li"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/AIResearch-Group/FedRE",
+      "published": "2025-11-27T09:42:22.000Z"
+    },
+    {
+      "id": "2511.19496",
+      "title": "Xmodel-2.5: 1.3B Data-Efficient Reasoning SLM",
+      "authors": [
+        "Yang Liu",
+        "Xiaolong Zhong",
+        "Ling Jiang"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/XiaoduoAILab/Xmodel-2.5",
+      "published": "2025-11-23T13:00:47.000Z"
+    },
+    {
+      "id": "2511.16854",
+      "title": "MRI Super-Resolution with Deep Learning: A Comprehensive Survey",
+      "authors": [
+        "Mohammad Khateri",
+        "Serge Vasylechko",
+        "Morteza Ghahremani",
+        "Liam Timms",
+        "Deniz Kocanaogullari",
+        "Simon K. Warfield",
+        "Camilo Jaimes",
+        "Davood Karimi",
+        "Alejandra Sierra",
+        "Jussi Tohka",
+        "Sila Kurugol",
+        "Onur Afacan"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/mkhateri/Awesome-MRI-Super-Resolution",
+      "published": "2025-11-20T23:36:07.000Z"
+    },
+    {
+      "id": "2511.13276",
+      "title": "Recognition of Abnormal Events in Surveillance Videos using Weakly Supervised Dual-Encoder Models",
+      "authors": [
+        "Noam Tsfaty",
+        "Avishai Weizman",
+        "Liav Cohen",
+        "Moshe Tshuva",
+        "Yehudit Aperstein"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2025-11-17T11:47:28.000Z"
+    },
+    {
+      "id": "2511.13944",
+      "title": "Find the Leak, Fix the Split: Cluster-Based Method to Prevent Leakage in Video-Derived Datasets",
+      "authors": [
+        "Noam Glazner",
+        "Noam Tsfaty",
+        "Sharon Shalev",
+        "Avishai Weizman"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2025-11-17T21:57:46.000Z"
+    }
+  ]
+}

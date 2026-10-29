@@ -1,0 +1,423 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-04-04",
+  "fetched_at": "2026-10-29T15:31:06.219Z",
+  "candidates": [
+    {
+      "id": "2504.01990",
+      "title": "Advances and Challenges in Foundation Agents: From Brain-Inspired Intelligence to Evolutionary, Collaborative, and Safe Systems",
+      "authors": [
+        "Bang Liu",
+        "Xinfeng Li",
+        "Jiayi Zhang",
+        "Jinlin Wang",
+        "Tanjin He",
+        "Sirui Hong",
+        "Hongzhang Liu",
+        "Shaokun Zhang",
+        "Kaitao Song",
+        "Kunlun Zhu",
+        "Yuheng Cheng",
+        "Suyuchen Wang",
+        "Xiaoqiang Wang",
+        "Yuyu Luo",
+        "Haibo Jin",
+        "Peiyan Zhang",
+        "Ollie Liu",
+        "Jiaqi Chen",
+        "Huan Zhang",
+        "Zhaoyang Yu",
+        "Haochen Shi",
+        "Boyan Li",
+        "Dekun Wu",
+        "Fengwei Teng",
+        "Xiaojun Jia",
+        "Jiawei Xu",
+        "Jinyu Xiang",
+        "Yizhang Lin",
+        "Tianming Liu",
+        "Tongliang Liu",
+        "Yu Su",
+        "Huan Sun",
+        "Glen Berseth",
+        "Jianyun Nie",
+        "Ian Foster",
+        "Logan Ward",
+        "Qingyun Wu",
+        "Yu Gu",
+        "Mingchen Zhuge",
+        "Xiangru Tang",
+        "Haohan Wang",
+        "Jiaxuan You",
+        "Chi Wang",
+        "Jian Pei",
+        "Qiang Yang",
+        "Xiaoliang Qi",
+        "Chenglin Wu"
+      ],
+      "upvotes": 304,
+      "github": "https://github.com/FoundationAgents/awesome-foundation-agents",
+      "published": "2025-03-31T18:00:29.000Z"
+    },
+    {
+      "id": "2504.02507",
+      "title": "ZClip: Adaptive Spike Mitigation for LLM Pre-Training",
+      "authors": [
+        "Abhay Kumar",
+        "Louis Owen",
+        "Nilabhra Roy Chowdhury",
+        "Fabian Güra"
+      ],
+      "upvotes": 90,
+      "github": "https://github.com/bluorion-com/ZClip",
+      "published": "2025-04-03T11:41:55.000Z"
+    },
+    {
+      "id": "2504.02826",
+      "title": "Envisioning Beyond the Pixels: Benchmarking Reasoning-Informed Visual Editing",
+      "authors": [
+        "Xiangyu Zhao",
+        "Peiyuan Zhang",
+        "Kexian Tang",
+        "Hao Li",
+        "Zicheng Zhang",
+        "Guangtao Zhai",
+        "Junchi Yan",
+        "Hua Yang",
+        "Xue Yang",
+        "Haodong Duan"
+      ],
+      "upvotes": 68,
+      "github": "https://github.com/PhoenixZ810/RISEBench",
+      "published": "2025-04-03T17:59:56.000Z"
+    },
+    {
+      "id": "2504.02495",
+      "title": "Inference-Time Scaling for Generalist Reward Modeling",
+      "authors": [
+        "Zijun Liu",
+        "Peiyi Wang",
+        "Runxin Xu",
+        "Shirong Ma",
+        "Chong Ruan",
+        "Peng Li",
+        "Yang Liu",
+        "Yu Wu"
+      ],
+      "upvotes": 60,
+      "github": null,
+      "published": "2025-04-03T11:19:49.000Z"
+    },
+    {
+      "id": "2504.02782",
+      "title": "GPT-ImgEval: A Comprehensive Benchmark for Diagnosing GPT4o in Image Generation",
+      "authors": [
+        "Zhiyuan Yan",
+        "Junyan Ye",
+        "Weijia Li",
+        "Zilong Huang",
+        "Shenghai Yuan",
+        "Xiangyang He",
+        "Kaiqing Lin",
+        "Jun He",
+        "Conghui He",
+        "Li Yuan"
+      ],
+      "upvotes": 57,
+      "github": "https://github.com/PicoTrex/GPT-ImgEval",
+      "published": "2025-04-03T17:23:16.000Z"
+    },
+    {
+      "id": "2503.23377",
+      "title": "JavisDiT: Joint Audio-Video Diffusion Transformer with Hierarchical Spatio-Temporal Prior Synchronization",
+      "authors": [
+        "Kai Liu",
+        "Wei Li",
+        "Lai Chen",
+        "Shengqiong Wu",
+        "Yanhao Zheng",
+        "Jiayi Ji",
+        "Fan Zhou",
+        "Rongxin Jiang",
+        "Jiebo Luo",
+        "Hao Fei",
+        "Tat-Seng Chua"
+      ],
+      "upvotes": 55,
+      "github": "https://github.com/JavisDiT/JavisDiT",
+      "published": "2025-03-30T09:40:42.000Z"
+    },
+    {
+      "id": "2504.02542",
+      "title": "Audio-visual Controlled Video Diffusion with Masked Selective State Spaces Modeling for Natural Talking Head Generation",
+      "authors": [
+        "Fa-Ting Hong",
+        "Zunnan Xu",
+        "Zixiang Zhou",
+        "Jun Zhou",
+        "Xiu Li",
+        "Qin Lin",
+        "Qinglin Lu",
+        "Dan Xu"
+      ],
+      "upvotes": 51,
+      "github": "https://github.com/harlanhong/ACTalker",
+      "published": "2025-04-03T12:44:41.000Z"
+    },
+    {
+      "id": "2504.02436",
+      "title": "SkyReels-A2: Compose Anything in Video Diffusion Transformers",
+      "authors": [
+        "Zhengcong Fei",
+        "Debang Li",
+        "Di Qiu",
+        "Jiahua Wang",
+        "Yikun Dou",
+        "Rui Wang",
+        "Jingtao Xu",
+        "Mingyuan Fan",
+        "Guibin Chen",
+        "Yang Li",
+        "Yahui Zhou"
+      ],
+      "upvotes": 39,
+      "github": "https://github.com/SkyworkAI/SkyReels-A2",
+      "published": "2025-04-03T09:50:50.000Z"
+    },
+    {
+      "id": "2504.00939",
+      "title": "WikiVideo: Article Generation from Multiple Videos",
+      "authors": [
+        "Alexander Martin",
+        "Reno Kriz",
+        "William Gantt Walden",
+        "Kate Sanders",
+        "Hannah Recknor",
+        "Eugene Yang",
+        "Francis Ferraro",
+        "Benjamin Van Durme"
+      ],
+      "upvotes": 37,
+      "github": "https://github.com/alexmartin1722/wikivideo",
+      "published": "2025-04-01T16:22:15.000Z"
+    },
+    {
+      "id": "2504.02587",
+      "title": "Rethinking RL Scaling for Vision Language Models: A Transparent, From-Scratch Framework and Comprehensive Evaluation Scheme",
+      "authors": [
+        "Yan Ma",
+        "Steffi Chern",
+        "Xuyang Shen",
+        "Yiran Zhong",
+        "Pengfei Liu"
+      ],
+      "upvotes": 32,
+      "github": "https://github.com/GAIR-NLP/MAYE",
+      "published": "2025-04-03T13:53:28.000Z"
+    },
+    {
+      "id": "2504.02398",
+      "title": "Scaling Analysis of Interleaved Speech-Text Language Models",
+      "authors": [
+        "Gallil Maimon",
+        "Michael Hassid",
+        "Amit Roth",
+        "Yossi Adi"
+      ],
+      "upvotes": 30,
+      "github": null,
+      "published": "2025-04-03T08:46:56.000Z"
+    },
+    {
+      "id": "2504.00502",
+      "title": "ShortV: Efficient Multimodal Large Language Models by Freezing Visual Tokens in Ineffective Layers",
+      "authors": [
+        "Qianhao Yuan",
+        "Qingyu Zhang",
+        "Yanjiang Liu",
+        "Jiawei Chen",
+        "Yaojie Lu",
+        "Hongyu Lin",
+        "Jia Zheng",
+        "Xianpei Han",
+        "Le Sun"
+      ],
+      "upvotes": 26,
+      "github": "https://github.com/icip-cas/ShortV",
+      "published": "2025-04-01T07:47:55.000Z"
+    },
+    {
+      "id": "2504.01943",
+      "title": "OpenCodeReasoning: Advancing Data Distillation for Competitive Coding",
+      "authors": [
+        "Wasi Uddin Ahmad",
+        "Sean Narenthiran",
+        "Somshubra Majumdar",
+        "Aleksander Ficek",
+        "Siddhartha Jain",
+        "Jocelyn Huang",
+        "Vahid Noroozi",
+        "Boris Ginsburg"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2025-04-02T17:50:31.000Z"
+    },
+    {
+      "id": "2504.02154",
+      "title": "FreSca: Unveiling the Scaling Space in Diffusion Models",
+      "authors": [
+        "Chao Huang",
+        "Susan Liang",
+        "Yunlong Tang",
+        "Li Ma",
+        "Yapeng Tian",
+        "Chenliang Xu"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/WikiChao/FreSca",
+      "published": "2025-04-02T22:03:11.000Z"
+    },
+    {
+      "id": "2504.02119",
+      "title": "Efficient Model Selection for Time Series Forecasting via LLMs",
+      "authors": [
+        "Wang Wei",
+        "Tiankai Yang",
+        "Hongjie Chen",
+        "Ryan A. Rossi",
+        "Yue Zhao",
+        "Franck Dernoncourt",
+        "Hoda Eldardiry"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2025-04-02T20:33:27.000Z"
+    },
+    {
+      "id": "2504.00891",
+      "title": "GenPRM: Scaling Test-Time Compute of Process Reward Models via Generative Reasoning",
+      "authors": [
+        "Jian Zhao",
+        "Runze Liu",
+        "Kaiyan Zhang",
+        "Zhimu Zhou",
+        "Junqi Gao",
+        "Dong Li",
+        "Jiafei Lyu",
+        "Zhouyi Qian",
+        "Biqing Qi",
+        "Xiu Li",
+        "Bowen Zhou"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/RyanLiu112/GenPRM",
+      "published": "2025-04-01T15:21:05.000Z"
+    },
+    {
+      "id": "2504.01871",
+      "title": "Interpreting Emergent Planning in Model-Free Reinforcement Learning",
+      "authors": [
+        "Thomas Bush",
+        "Stephen Chung",
+        "Usman Anwar",
+        "Adrià Garriga-Alonso",
+        "David Krueger"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2025-04-02T16:24:23.000Z"
+    },
+    {
+      "id": "2503.22444",
+      "title": "Scaling Laws in Scientific Discovery with AI and Robot Scientists",
+      "authors": [
+        "Pengsong Zhang",
+        "Heng Zhang",
+        "Huazhe Xu",
+        "Renjun Xu",
+        "Zhenting Wang",
+        "Cong Wang",
+        "Animesh Garg",
+        "Zhibin Li",
+        "Arash Ajoudani",
+        "Xinyu Liu"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/openags/Awesome-AI-Scientist-Papers",
+      "published": "2025-03-28T14:00:27.000Z"
+    },
+    {
+      "id": "2503.23162",
+      "title": "NeuralGS: Bridging Neural Fields and 3D Gaussian Splatting for Compact 3D Representations",
+      "authors": [
+        "Zhenyu Tang",
+        "Chaoran Feng",
+        "Xinhua Cheng",
+        "Wangbo Yu",
+        "Junwu Zhang",
+        "Yuan Liu",
+        "Xiaoxiao Long",
+        "Wenping Wang",
+        "Li Yuan"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/PKU-YuanGroup/NeuralGS",
+      "published": "2025-03-29T17:36:53.000Z"
+    },
+    {
+      "id": "2503.23542",
+      "title": "Whisper-LM: Improving ASR Models with Language Models for Low-Resource Languages",
+      "authors": [
+        "Xabier de Zuazo",
+        "Eva Navas",
+        "Ibon Saratxaga",
+        "Inma Hernáez Rioja"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/hitz-zentroa/whisper-lm",
+      "published": "2025-03-30T18:03:52.000Z"
+    },
+    {
+      "id": "2504.02821",
+      "title": "Sparse Autoencoders Learn Monosemantic Features in Vision-Language Models",
+      "authors": [
+        "Mateusz Pach",
+        "Shyamgopal Karthik",
+        "Quentin Bouniot",
+        "Serge Belongie",
+        "Zeynep Akata"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/ExplainableML/sae-for-vlm",
+      "published": "2025-04-03T17:58:35.000Z"
+    },
+    {
+      "id": "2504.02012",
+      "title": "Instruction-Guided Autoregressive Neural Network Parameter Generation",
+      "authors": [
+        "Soro Bedionita",
+        "Bruno Andreis",
+        "Song Chong",
+        "Sung Ju Hwang"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-04-02T05:50:19.000Z"
+    },
+    {
+      "id": "2504.01955",
+      "title": "Scene-Centric Unsupervised Panoptic Segmentation",
+      "authors": [
+        "Oliver Hahn",
+        "Christoph Reich",
+        "Nikita Araslanov",
+        "Daniel Cremers",
+        "Christian Rupprecht",
+        "Stefan Roth"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/visinf/cups",
+      "published": "2025-04-02T17:58:46.000Z"
+    }
+  ]
+}

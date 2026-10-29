@@ -1,0 +1,11 @@
+{
+  "id": "2510.11696",
+  "html": "https://arxiv.org/html/2510.11696",
+  "limitations": "We have demonstrated that our method, QeRL, achieves superior performance in RL training for LLMs compared to 16-bit vanilla LoRA training. Additionally, QeRL matches the accuracy of 16-bit full-parameter reinforcement fine-tuning while delivering over 2 [math] training speedup relative to both vanilla LoRA and QLoRA. However, since RL for LLMs inherently demands significantly greater computational resources than SFT, our experiments, conducted on model sizes ranging from 3B to 32B, do not yet establish whether QeRL can maintain the same level of performance for models exceeding 70B parameters, leaving that investigation for future work. Another limitation is that RL training often requires tens or even hundreds of hours, and while we have provided comprehensive evaluations on reasoning benchmarks such as GSM8K, MATH 500, AIME 24, AIME 25, and AMC 23, we did not extend our evaluations to",
+  "conclusion": "This paper presents QeRL, an efficient training framework for RL on LLMs, which integrates NVFP4 precision quantization with LoRA fine-tuning. The framework is based on the novel observation that quantization can enhance exploration during RL, contrary to findings in SFT. Quantized LLMs not only surpass vanilla 16-bit LoRA training but also approach full-parameter fine-tuning performance. To address the static nature of quantization noise, we introduce an AQN mechanism, which dynamically adjusts noise during training to enhance RL stability. Extensive experiments show that QeRL significantly improves accuracy across models of various sizes compared to both 16-bit LoRA and QLoRA. Additionally, with NVFP4 kernel support, QeRL achieves a round a [math] speedup in end-to-end RL training while drastically reducing memory usage.",
+  "figure": {
+    "path": "images/2025/paper-2510.11696.webp",
+    "src": "https://arxiv.org/html/2510.11696v1/figures/performance.png",
+    "caption": "Figure 1: Rollout speedup and accuracy of QeRL on Qwen2.5-7B-Instruct. QeRL achieves faster RL rollout and end-to-end training speeds (batch=8), while delivering performance superior to vanilla LoRA and QLoRA, also comparable to full-parameter RL on mathematical benchmarks."
+  }
+}

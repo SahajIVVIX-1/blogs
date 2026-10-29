@@ -1,0 +1,625 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-06-19",
+  "fetched_at": "2026-10-29T15:35:58.737Z",
+  "candidates": [
+    {
+      "id": "2606.19195",
+      "title": "Moebius: 0.2B Lightweight Image Inpainting Framework with 10B-Level Performance",
+      "authors": [
+        "Kangsheng Duan",
+        "Ziyang Xu",
+        "Wenyu Liu",
+        "Xiaohu Ruan",
+        "Xiaoxin Chen",
+        "Xinggang Wang"
+      ],
+      "upvotes": 99,
+      "github": "https://github.com/hustvl/Moebius",
+      "published": "2026-06-17T00:00:00.000Z"
+    },
+    {
+      "id": "2606.20517",
+      "title": "Multi-LCB: Extending LiveCodeBench to Multiple Programming Languages",
+      "authors": [
+        "Maria Ivanova",
+        "Pavel Zadorozhny",
+        "Rodion Levichev",
+        "Ivan Petrov",
+        "Adamenko Pavel",
+        "Ivan Lopatin",
+        "Alexey Kutalev",
+        "Dmitrii Babaev"
+      ],
+      "upvotes": 60,
+      "github": "https://github.com/Multi-LCB/Multi-LCB",
+      "published": "2026-06-18T00:00:00.000Z"
+    },
+    {
+      "id": "2606.15133",
+      "title": "DragMesh-2: Physically Plausible Dexterous Hand-Object Interaction with Articulated Objects",
+      "authors": [
+        "Tianshan Zhang",
+        "Yijia Duan",
+        "Yanjun Li",
+        "Zeyu Zhang",
+        "Hao Tang"
+      ],
+      "upvotes": 49,
+      "github": "https://github.com/AIGeeksGroup/DragMesh-2",
+      "published": "2026-06-13T00:00:00.000Z"
+    },
+    {
+      "id": "2606.19419",
+      "title": "Playful Agentic Robot Learning",
+      "authors": [
+        "Junyi Zhang",
+        "Jiaxin Ge",
+        "Hanjun Yoo",
+        "Letian Fu",
+        "Zihan Yang",
+        "Yaowei Liu",
+        "Raj Saravanan",
+        "Shaofeng Yin",
+        "Justin Yu",
+        "Dantong Niu",
+        "Zirui Wang",
+        "Roei Herzig",
+        "Ken Goldberg",
+        "Yutong Bai",
+        "David M. Chan",
+        "Ion Stoica",
+        "Angjoo Kanazawa",
+        "Jiahui Lei",
+        "Haiwen Feng",
+        "Trevor Darrell"
+      ],
+      "upvotes": 49,
+      "github": "https://github.com/Playful-RATs/rats",
+      "published": "2026-06-17T00:00:00.000Z"
+    },
+    {
+      "id": "2606.20515",
+      "title": "S-Agent: Spatial Tool-Use Elicits Reasoning for Spatial Intelligence",
+      "authors": [
+        "Yalun Dai",
+        "Hao Li",
+        "Shulin Tian",
+        "Runmao Yao",
+        "Yuhao Dong",
+        "Fangzhou Hong",
+        "Zhaoxi Chen",
+        "Fangfu Liu",
+        "Baoliang Tian",
+        "Dingwen Zhang",
+        "Tao Wang",
+        "Kim-Hui Yap",
+        "Ziwei Liu"
+      ],
+      "upvotes": 42,
+      "github": "https://github.com/Ropedia/S-Agent",
+      "published": "2026-06-18T00:00:00.000Z"
+    },
+    {
+      "id": "2606.19704",
+      "title": "Beyond Static Leaderboards: Predictive Validity for the Evaluation of LLM Agents",
+      "authors": [
+        "Dhaval C. Patel",
+        "Kaoutar El Maghraoui",
+        "Shuxin Lin",
+        "Yusheng Li",
+        "Tianjun Feng",
+        "Chun-Yi Tsai",
+        "Yihan Sun",
+        "Wei Alexander Xin",
+        "Akshat Bhandari",
+        "Tanisha Rathod",
+        "Aaron Fan",
+        "Sanskruti Vijay Shejwal",
+        "Tomas Pasiecznik",
+        "Sagar Chethan Kumar",
+        "Tanmay Agarwal",
+        "Rohith Kanathur",
+        "Sam Colman",
+        "Amaan Sheikh",
+        "Dev Bahl",
+        "Ann Li",
+        "Krish Veera",
+        "Alimurtaza Mustafa Merchant",
+        "Shambhawi Baswaraj Bhure",
+        "Sajal Kumar Goyla",
+        "Chengrui Li",
+        "Kirthana Natarajan",
+        "Rui Li",
+        "Thomas Ajai",
+        "Rujing Li",
+        "Vivek G. Iyer",
+        "Sanjaii Vijayakumar",
+        "Yitong Bai",
+        "Ayal Yakobe",
+        "Darief Maes",
+        "Yassine Jebbouri",
+        "Tianyang Xu",
+        "Thai Quoc On",
+        "Vera Mazeeva",
+        "Winston Li",
+        "Yuval Shemla",
+        "Yeshitha Bhuvanesh",
+        "Rushin Bhatt",
+        "Siddharth Chethan Gowda",
+        "Alisha Vinod",
+        "Caroline Cahill",
+        "Shriya Aishani Rachakonda",
+        "Yunfeng Chen",
+        "Aryaman Agrawal",
+        "Aman Upganlawar",
+        "Mao Le Jonathan Ang",
+        "Yubin Sally Go",
+        "Madhav Rajkondawar",
+        "Yang-Jung Chen",
+        "Trisha Maturi",
+        "Ananya Kapoor",
+        "Andrew Li",
+        "Shrey Arora",
+        "Mana Abbaszadeh",
+        "Shen Li",
+        "Charles Xu",
+        "Byeolah Kwon"
+      ],
+      "upvotes": 42,
+      "github": null,
+      "published": "2026-06-18T00:00:00.000Z"
+    },
+    {
+      "id": "2604.13416",
+      "title": "DF3DV-1K: A Large-Scale Dataset and Benchmark for Distractor-Free Novel View Synthesis",
+      "authors": [
+        "Cheng-You Lu",
+        "Yi-Shan Hung",
+        "Wei-Ling Chi",
+        "Hao-Ping Wang",
+        "Charlie Li-Ting Tsai",
+        "Yu-Cheng Chang",
+        "Yu-Lun Liu",
+        "Thomas Do",
+        "Chin-Teng Lin"
+      ],
+      "upvotes": 33,
+      "github": "https://github.com/johnnylu305/DF3DV",
+      "published": "2026-06-18T00:00:00.000Z"
+    },
+    {
+      "id": "2606.20506",
+      "title": "FreeStyle: Free Control of Style-Content Dual-Reference Generation from Community LoRA Mining",
+      "authors": [
+        "Jinghong Lan",
+        "Wei Cheng",
+        "Yunuo Chen",
+        "Ziqi Ye",
+        "Peng Xing",
+        "Yixiao Fang",
+        "Rui Wang",
+        "Yufeng Yang",
+        "Xuanyang Zhang",
+        "Xianfang Zeng",
+        "Difan Zou",
+        "Gang Yu",
+        "Chi Zhang"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/Blue2Giant/FreeStyle",
+      "published": "2026-06-18T00:00:00.000Z"
+    },
+    {
+      "id": "2606.19531",
+      "title": "ImageWAM: Do World Action Models Really Need Video Generation, or Just Image Editing?",
+      "authors": [
+        "Yuyang Zhang",
+        "Wenyao Zhang",
+        "Zekun Qi",
+        "He Zhang",
+        "Haitao Lin",
+        "Jingbo Zhang",
+        "Yao Mu",
+        "Xiaokang Yang",
+        "Wenjun Zeng",
+        "Xin Jin"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/yuyangalin/ImageWAM",
+      "published": "2026-06-17T00:00:00.000Z"
+    },
+    {
+      "id": "2606.20404",
+      "title": "FlowBender: Feedback-Aware Training for Self-Correcting Conditional Flows",
+      "authors": [
+        "Daniel Gilo",
+        "Sven Elflein",
+        "Ido Sobol",
+        "Or Litany"
+      ],
+      "upvotes": 21,
+      "github": null,
+      "published": "2026-06-18T00:00:00.000Z"
+    },
+    {
+      "id": "2606.20563",
+      "title": "JanusMesh: Fast and Zero-Shot 3D Visual Illusion Generation via Cross-Space Denoising",
+      "authors": [
+        "Siang-Ling Zhang",
+        "Huai-Hsun Cheng",
+        "Tsung-Ju Yang",
+        "Yu-Lun Liu"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/siang1105/JanusMesh",
+      "published": "2026-06-18T00:00:00.000Z"
+    },
+    {
+      "id": "2606.20545",
+      "title": "Current World Models Lack a Persistent State Core",
+      "authors": [
+        "Jinpeng Lu",
+        "Dexu Zhu",
+        "Haoyuan Shi",
+        "Linghan Cai",
+        "Guo Tang",
+        "Yinda Chen",
+        "Jie Cao",
+        "Duyu Tang",
+        "Yi Zhang",
+        "Yong Dai",
+        "Xiaozhu Ju"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/JinPLu/WRBench",
+      "published": "2026-06-18T00:00:00.000Z"
+    },
+    {
+      "id": "2606.17053",
+      "title": "Context-Aware RL for Agentic and Multimodal LLMs",
+      "authors": [
+        "Peiyang Xu",
+        "Bangzheng Li",
+        "Sijia Liu",
+        "Karthik R. Narasimhan",
+        "Pramod Viswanath",
+        "Prateek Mittal",
+        "Xingyu Fu"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/xupy2003/ContextAwareRL",
+      "published": "2026-06-15T00:00:00.000Z"
+    },
+    {
+      "id": "2606.19980",
+      "title": "ENPIRE: Agentic Robot Policy Self-Improvement in the Real World",
+      "authors": [
+        "Wenli Xiao",
+        "Jia Xie",
+        "Tonghe Zhang",
+        "Haotian Lin",
+        "Letian \"Max\" Fu",
+        "Haoru Xue",
+        "Jalen Lu",
+        "Yi Yang",
+        "Cunxi Dai",
+        "Zi Wang",
+        "Jimmy Wu",
+        "Guanzhi Wang",
+        "S. Shankar Sastry",
+        "Ken Goldberg",
+        "Linxi \"Jim\" Fan",
+        "Yuke Zhu",
+        "Guanya Shi"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2026-06-18T00:00:00.000Z"
+    },
+    {
+      "id": "2606.20521",
+      "title": "HumanScale: Egocentric Human Video Can Outperform Real-Robot Data for Embodied Pretraining",
+      "authors": [
+        "Juncheng Ma",
+        "Jianxin Bi",
+        "Yufan Deng",
+        "Xuanran Zhai",
+        "Kewei Zhang",
+        "Ye Huang",
+        "Bo Liang",
+        "Shukai Gong",
+        "Jiankai Tu",
+        "Xiaotian Tang",
+        "Jiaxin Li",
+        "Kaiqi Chen",
+        "Duomin Wang",
+        "Yuqi Wang",
+        "Bingyi Kang",
+        "Eric Huang",
+        "Zhiyang Dou",
+        "Zhen Dong",
+        "Enze Xie",
+        "Wojciech Matusik",
+        "Tat-Seng Chua",
+        "Daquan Zhou"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2026-06-18T00:00:00.000Z"
+    },
+    {
+      "id": "2606.20536",
+      "title": "The FID Lottery: Quantifying Hidden Randomness in Generative-Model Evaluation",
+      "authors": [
+        "Nicolas Dufour",
+        "Alexei A. Efros",
+        "Patrick Pérez"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2026-06-18T00:00:00.000Z"
+    },
+    {
+      "id": "2606.20083",
+      "title": "Holo-World: Unified Camera, Object and Weather Control for Video World Model",
+      "authors": [
+        "Xiangchen Yin",
+        "Wenzhang Sun",
+        "Jiahui Yuan",
+        "Zijie Liu",
+        "Yinda Chen",
+        "Wei Li",
+        "Dachun Kai",
+        "Chunfeng Wang",
+        "Xiaoyan Sun"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/XiangchenYin/Holo-World",
+      "published": "2026-06-18T00:00:00.000Z"
+    },
+    {
+      "id": "2606.20381",
+      "title": "Rethinking Shrinkage Bias in LLM FP4 Pretraining: Geometric Origin, Systemic Impact, and UFP4 Recipe",
+      "authors": [
+        "Qian Zhao",
+        "Kunlong Chen",
+        "Changxin Tian",
+        "Zhonghui Jiang",
+        "Haitao Zhang",
+        "Chaofan Yu",
+        "Peijie Jiang",
+        "Mingliang Gong",
+        "Jia Liu",
+        "Ziqi Liu",
+        "Zhiqiang Zhang",
+        "Jun Zhou"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2026-06-18T00:00:00.000Z"
+    },
+    {
+      "id": "2606.19605",
+      "title": "FAPO: Fully Autonomous Prompt Optimization of Multi-Step LLM Pipelines",
+      "authors": [
+        "Paul Kassianik",
+        "Baturay Saglam",
+        "Huaibo Zhao",
+        "Blaine Nelson",
+        "Supriti Vijay",
+        "Aman Priyanshu",
+        "Amin Karbasi"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/cisco-foundation-ai/fully-automated-prompt-optimization",
+      "published": "2026-06-17T00:00:00.000Z"
+    },
+    {
+      "id": "2606.19334",
+      "title": "Freeing the Law with LOCUS: A Local Ordinance Corpus for the United States",
+      "authors": [
+        "Denis Peskoff",
+        "Joe Barrow",
+        "Christopher Vu",
+        "Diag Davenport"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2026-06-17T00:00:00.000Z"
+    },
+    {
+      "id": "2606.16817",
+      "title": "Understanding the Behaviors of Environment-aware Information Retrieval",
+      "authors": [
+        "Ruifeng Yuan",
+        "Chaohao Yuan",
+        "David Dai",
+        "Yu Rong",
+        "Hong Cheng",
+        "Hou Pong Chan",
+        "Chenghao Xiao"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/LCO-Embedding/Envs-aware-Information-Retrieval",
+      "published": "2026-06-15T00:00:00.000Z"
+    },
+    {
+      "id": "2606.16122",
+      "title": "Thinking with Visual Grounding",
+      "authors": [
+        "Junkai Zhang",
+        "Yihe Deng",
+        "Kai-Wei Chang",
+        "Wei Wang"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/Jun-Kai-Zhang/visually_grounded_thinking",
+      "published": "2026-06-15T00:00:00.000Z"
+    },
+    {
+      "id": "2606.19495",
+      "title": "LooseControlVideo: Directorial Video Control using Spatial Blocking",
+      "authors": [
+        "Shariq Farooq Bhat",
+        "Niloy J. Mitra",
+        "Kalyan Sunkavalli"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2026-06-17T00:00:00.000Z"
+    },
+    {
+      "id": "2606.20529",
+      "title": "LedgerAgent: Structured State for Policy-Adherent Tool-Calling Agents",
+      "authors": [
+        "Md Nayem Uddin",
+        "Amir Saeidi",
+        "Eduardo Blanco",
+        "Chitta Baral"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2026-06-18T00:00:00.000Z"
+    },
+    {
+      "id": "2606.19830",
+      "title": "JAMER: Project-Level Code Framework Dataset and Benchmark on Professional Game Engines",
+      "authors": [
+        "Jianwen Sun",
+        "Chuanhao Li",
+        "Zizhen Li",
+        "Yukang Feng",
+        "Fanrui Zhang",
+        "Yifei Huang",
+        "Yu Dai",
+        "Kaipeng Zhang"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2026-06-18T00:00:00.000Z"
+    },
+    {
+      "id": "2606.16429",
+      "title": "Taylor-Calibrate: Principled Initialization for Hybrid Linear Attention Distillation",
+      "authors": [
+        "Zhongzhu Zhou",
+        "Qingyang Wu",
+        "Junxiong Wang",
+        "Mayank Mishra",
+        "Shuaiwen Leon Song",
+        "Ben Athiwaratkun",
+        "Chenfeng Xu"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/FutureMLS-Lab/Taylor-Calibrate",
+      "published": "2026-06-15T00:00:00.000Z"
+    },
+    {
+      "id": "2606.18021",
+      "title": "LegalHalluLens: Typed Hallucination Auditing and Calibrated Multi-Agent Debate for Trustworthy Legal AI",
+      "authors": [
+        "Lalit Yadav",
+        "Akshaj Gurugubelli"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/lalitdv9/LegalHallulens",
+      "published": "2026-06-16T00:00:00.000Z"
+    },
+    {
+      "id": "2606.16827",
+      "title": "No Resource, No Benchmarks, No Problem? Evaluating and Improving LLMs for Code Generation in No-Resource Languages",
+      "authors": [
+        "Alessandro Giagnorio",
+        "Alberto Martin-Lopez",
+        "Gabriele Bavota"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/Devy99/no-resource-pl-study",
+      "published": "2026-06-15T00:00:00.000Z"
+    },
+    {
+      "id": "2606.15527",
+      "title": "Selective Synergistic Learning for Video Object-Centric Learning",
+      "authors": [
+        "WonJun Moon",
+        "Jae-Pil Heo"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/wjun0830/SSync",
+      "published": "2026-06-14T00:00:00.000Z"
+    },
+    {
+      "id": "2606.18231",
+      "title": "Adaptive Volumetric Mechanical Property Fields Invariant to Resolution",
+      "authors": [
+        "Rishit Dagli",
+        "Donglai Xiang",
+        "Vismay Modi",
+        "Xuning Yang",
+        "Gavriel State",
+        "David I. W. Levin",
+        "Maria Shugrina"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-06-16T00:00:00.000Z"
+    },
+    {
+      "id": "2603.24624",
+      "title": "ReSyn: A Generalized Recursive Regular Expression Synthesis Framework",
+      "authors": [
+        "Seongmin Kim",
+        "Hyunjoon Cheon",
+        "Su-Hyeon Kim",
+        "Yo-Sub Han",
+        "Sang-Ki Ko"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/mrseongminkim/ReSyn",
+      "published": "2026-06-13T00:00:00.000Z"
+    },
+    {
+      "id": "2606.15760",
+      "title": "The Data Manifold under the Microscope",
+      "authors": [
+        "Marios Koulakis",
+        "Constantin Seibold"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/koulakis/manifold-microscope",
+      "published": "2026-06-14T00:00:00.000Z"
+    },
+    {
+      "id": "2603.11273",
+      "title": "Duration Aware Scheduling for ASR Serving Under Workload Drift",
+      "authors": [
+        "Darshan Makwana",
+        "Yash Jogi",
+        "Harsh Kotta",
+        "Aayush Kubba"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2026-03-11T00:00:00.000Z"
+    },
+    {
+      "id": "2606.19602",
+      "title": "Configurable Clinical Information Extraction with Agentic RAG: What Works, What Breaks, and Why",
+      "authors": [
+        "Osman Alperen Çinar-Koraş",
+        "Marie Bauer",
+        "Sameh Khattab",
+        "Merlin Engelke",
+        "Moon Kim",
+        "Stephan Settelmeier",
+        "Shigeyasu Sugawara",
+        "Fabian Freisleben",
+        "Felix Nensa",
+        "Jens Kleesiek"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2026-06-17T00:00:00.000Z"
+    }
+  ]
+}

@@ -1,0 +1,434 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-03-17",
+  "fetched_at": "2026-10-29T15:30:55.397Z",
+  "candidates": [
+    {
+      "id": "2503.11576",
+      "title": "SmolDocling: An ultra-compact vision-language model for end-to-end multi-modal document conversion",
+      "authors": [
+        "Ahmed Nassar",
+        "Andres Marafioti",
+        "Matteo Omenetti",
+        "Maksym Lysak",
+        "Nikolaos Livathinos",
+        "Christoph Auer",
+        "Lucas Morin",
+        "Rafael Teixeira de Lima",
+        "Yusik Kim",
+        "A. Said Gurbuz",
+        "Michele Dolfi",
+        "Miquel Farré",
+        "Peter W. J. Staar"
+      ],
+      "upvotes": 180,
+      "github": "https://github.com/docling-project/docling",
+      "published": "2025-03-14T16:44:14.000Z"
+    },
+    {
+      "id": "2503.11647",
+      "title": "ReCamMaster: Camera-Controlled Generative Rendering from A Single Video",
+      "authors": [
+        "Jianhong Bai",
+        "Menghan Xia",
+        "Xiao Fu",
+        "Xintao Wang",
+        "Lianrui Mu",
+        "Jinwen Cao",
+        "Zuozhu Liu",
+        "Haoji Hu",
+        "Xiang Bai",
+        "Pengfei Wan",
+        "Di Zhang"
+      ],
+      "upvotes": 148,
+      "github": "https://github.com/KwaiVGI/ReCamMaster",
+      "published": "2025-03-14T17:59:31.000Z"
+    },
+    {
+      "id": "2503.07677",
+      "title": "PLADIS: Pushing the Limits of Attention in Diffusion Models at Inference Time by Leveraging Sparsity",
+      "authors": [
+        "Kwanyoung Kim",
+        "Byeongsu Sim"
+      ],
+      "upvotes": 84,
+      "github": "https://github.com/cubeyoung/PLADIS",
+      "published": "2025-03-10T07:23:19.000Z"
+    },
+    {
+      "id": "2503.11651",
+      "title": "VGGT: Visual Geometry Grounded Transformer",
+      "authors": [
+        "Jianyuan Wang",
+        "Minghao Chen",
+        "Nikita Karaev",
+        "Andrea Vedaldi",
+        "Christian Rupprecht",
+        "David Novotny"
+      ],
+      "upvotes": 40,
+      "github": "https://github.com/facebookresearch/vggt",
+      "published": "2025-03-14T17:59:47.000Z"
+    },
+    {
+      "id": "2503.11069",
+      "title": "API Agents vs. GUI Agents: Divergence and Convergence",
+      "authors": [
+        "Chaoyun Zhang",
+        "Shilin He",
+        "Liqun Li",
+        "Si Qin",
+        "Yu Kang",
+        "Qingwei Lin",
+        "Dongmei Zhang"
+      ],
+      "upvotes": 36,
+      "github": null,
+      "published": "2025-03-14T04:26:21.000Z"
+    },
+    {
+      "id": "2503.11646",
+      "title": "Adversarial Data Collection: Human-Collaborative Perturbations for Efficient and Robust Robotic Imitation Learning",
+      "authors": [
+        "Siyuan Huang",
+        "Yue Liao",
+        "Siyuan Feng",
+        "Shu Jiang",
+        "Si Liu",
+        "Hongsheng Li",
+        "Maoqing Yao",
+        "Guanghui Ren"
+      ],
+      "upvotes": 34,
+      "github": null,
+      "published": "2025-03-14T17:59:07.000Z"
+    },
+    {
+      "id": "2503.11224",
+      "title": "Technologies on Effectiveness and Efficiency: A Survey of State Spaces Models",
+      "authors": [
+        "Xingtai Lv",
+        "Youbang Sun",
+        "Kaiyan Zhang",
+        "Shang Qu",
+        "Xuekai Zhu",
+        "Yuchen Fan",
+        "Yi Wu",
+        "Ermo Hua",
+        "Xinwei Long",
+        "Ning Ding",
+        "Bowen Zhou"
+      ],
+      "upvotes": 27,
+      "github": null,
+      "published": "2025-03-14T09:20:31.000Z"
+    },
+    {
+      "id": "2503.11579",
+      "title": "Vamba: Understanding Hour-Long Videos with Hybrid Mamba-Transformers",
+      "authors": [
+        "Weiming Ren",
+        "Wentao Ma",
+        "Huan Yang",
+        "Cong Wei",
+        "Ge Zhang",
+        "Wenhu Chen"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/TIGER-AI-Lab/Vamba",
+      "published": "2025-03-14T16:45:23.000Z"
+    },
+    {
+      "id": "2503.10772",
+      "title": "FlowTok: Flowing Seamlessly Across Text and Image Tokens",
+      "authors": [
+        "Ju He",
+        "Qihang Yu",
+        "Qihao Liu",
+        "Liang-Chieh Chen"
+      ],
+      "upvotes": 19,
+      "github": null,
+      "published": "2025-03-13T18:06:13.000Z"
+    },
+    {
+      "id": "2503.10970",
+      "title": "TxAgent: An AI Agent for Therapeutic Reasoning Across a Universe of Tools",
+      "authors": [
+        "Shanghua Gao",
+        "Richard Zhu",
+        "Zhenglun Kong",
+        "Ayush Noori",
+        "Xiaorui Su",
+        "Curtis Ginder",
+        "Theodoros Tsiligkaridis",
+        "Marinka Zitnik"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/mims-harvard/txagent",
+      "published": "2025-03-14T00:28:15.000Z"
+    },
+    {
+      "id": "2503.11514",
+      "title": "Exploring the Vulnerabilities of Federated Learning: A Deep Dive into Gradient Inversion Attacks",
+      "authors": [
+        "Pengxin Guo",
+        "Runxi Wang",
+        "Shuang Zeng",
+        "Jinjing Zhu",
+        "Haoning Jiang",
+        "Yanran Wang",
+        "Yuyin Zhou",
+        "Feifei Wang",
+        "Hui Xiong",
+        "Liangqiong Qu"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/1wrx1/GIA",
+      "published": "2025-03-13T08:08:44.000Z"
+    },
+    {
+      "id": "2503.10781",
+      "title": "Large-scale Pre-training for Grounded Video Caption Generation",
+      "authors": [
+        "Evangelos Kazakos",
+        "Cordelia Schmid",
+        "Josef Sivic"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/ekazakos/grove",
+      "published": "2025-03-13T18:21:07.000Z"
+    },
+    {
+      "id": "2503.10632",
+      "title": "Kolmogorov-Arnold Attention: Is Learnable Attention Better For Vision Transformers?",
+      "authors": [
+        "Subhajit Maity",
+        "Killian Hitsman",
+        "Xin Li",
+        "Aritra Dutta"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/MaitySubhajit/KArAt",
+      "published": "2025-03-13T17:59:52.000Z"
+    },
+    {
+      "id": "2503.06674",
+      "title": "Learning Few-Step Diffusion Models by Trajectory Distribution Matching",
+      "authors": [
+        "Yihong Luo",
+        "Tianyang Hu",
+        "Jiacheng Sun",
+        "Yujun Cai",
+        "Jing Tang"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/Luo-Yihong/TDM",
+      "published": "2025-03-09T15:53:49.000Z"
+    },
+    {
+      "id": "2503.10624",
+      "title": "ETCH: Generalizing Body Fitting to Clothed Humans via Equivariant Tightness",
+      "authors": [
+        "Boqian Li",
+        "Haiwen Feng",
+        "Zeyu Cai",
+        "Michael J. Black",
+        "Yuliang Xiu"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/boqian-li/ETCH",
+      "published": "2025-03-13T17:59:14.000Z"
+    },
+    {
+      "id": "2503.10696",
+      "title": "Neighboring Autoregressive Modeling for Efficient Visual Generation",
+      "authors": [
+        "Yefei He",
+        "Yuanyu He",
+        "Shaoxuan He",
+        "Feng Chen",
+        "Hong Zhou",
+        "Kaipeng Zhang",
+        "Bohan Zhuang"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/ThisisBillhe/NAR",
+      "published": "2025-03-12T05:52:27.000Z"
+    },
+    {
+      "id": "2503.10620",
+      "title": "From TOWER to SPIRE: Adding the Speech Modality to a Text-Only LLM",
+      "authors": [
+        "Kshitij Ambilduke",
+        "Ben Peters",
+        "Sonal Sannigrahi",
+        "Anil Keshwani",
+        "Tsz Kin Lam",
+        "Bruno Martins",
+        "Marcely Zanon Boito",
+        "André F. T. Martins"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/utter-project/SpireLM",
+      "published": "2025-03-13T17:57:32.000Z"
+    },
+    {
+      "id": "2503.08111",
+      "title": "MaRI: Material Retrieval Integration across Domains",
+      "authors": [
+        "Jianhui Wang",
+        "Zhifei Yang",
+        "Yangfan He",
+        "Huixiong Zhang",
+        "Yuxuan Chen",
+        "Jingwei Huang"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2025-03-11T07:23:11.000Z"
+    },
+    {
+      "id": "2503.06553",
+      "title": "ProJudge: A Multi-Modal Multi-Discipline Benchmark and Instruction-Tuning Dataset for MLLM-based Process Judges",
+      "authors": [
+        "Jiaxin Ai",
+        "Pengfei Zhou",
+        "Zhaopan Xu",
+        "Ming Li",
+        "Fanrui Zhang",
+        "Zizhen Li",
+        "Jianwen Sun",
+        "Yukang Feng",
+        "Baojin Huang",
+        "Zhongyuan Wang",
+        "Kaipeng Zhang"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/jiaxin-ai/ProJudge",
+      "published": "2025-03-09T10:55:51.000Z"
+    },
+    {
+      "id": "2503.06542",
+      "title": "ARMOR v0.1: Empowering Autoregressive Multimodal Understanding Model with Interleaved Multimodal Generation via Asymmetric Synergy",
+      "authors": [
+        "Jianwen Sun",
+        "Yukang Feng",
+        "Chuanhao Li",
+        "Fanrui Zhang",
+        "Zizhen Li",
+        "Jiaxin Ai",
+        "Sizhuo Zhou",
+        "Yu Dai",
+        "Shenglin Zhang",
+        "Kaipeng Zhang"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/finyorko/armor",
+      "published": "2025-03-09T10:15:39.000Z"
+    },
+    {
+      "id": "2503.11958",
+      "title": "CHOrD: Generation of Collision-Free, House-Scale, and Organized Digital Twins for 3D Indoor Scenes with Controllable Floor Plans and Optimal Layouts",
+      "authors": [
+        "Chong Su",
+        "Yingbin Fu",
+        "Zheyuan Hu",
+        "Jing Yang",
+        "Param Hanji",
+        "Shaojun Wang",
+        "Xuan Zhao",
+        "Cengiz Öztireli",
+        "Fangcheng Zhong"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2025-03-15T02:05:10.000Z"
+    },
+    {
+      "id": "2503.11207",
+      "title": "Can Large Reasoning Models do Analogical Reasoning under Perceptual Uncertainty?",
+      "authors": [
+        "Giacomo Camposampiero",
+        "Michael Hersche",
+        "Roger Wattenhofer",
+        "Abu Sebastian",
+        "Abbas Rahimi"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/IBM/raven-large-language-models",
+      "published": "2025-03-14T08:52:25.000Z"
+    },
+    {
+      "id": "2503.11629",
+      "title": "TreeMeshGPT: Artistic Mesh Generation with Autoregressive Tree Sequencing",
+      "authors": [
+        "Stefan Lionar",
+        "Jiabin Liang",
+        "Gim Hee Lee"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/sail-sg/treemeshgpt",
+      "published": "2025-03-14T17:48:06.000Z"
+    },
+    {
+      "id": "2503.09279",
+      "title": "Cockatiel: Ensembling Synthetic and Human Preferenced Training for Detailed Video Caption",
+      "authors": [
+        "Luozheng Qin",
+        "Zhiyu Tan",
+        "Mengping Yang",
+        "Xiaomeng Yang",
+        "Hao Li"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/Fr0zenCrane/Cockatiel",
+      "published": "2025-03-12T11:25:04.000Z"
+    },
+    {
+      "id": "2503.10684",
+      "title": "Open-World Skill Discovery from Unsegmented Demonstrations",
+      "authors": [
+        "Jingwen Deng",
+        "Zihao Wang",
+        "Shaofei Cai",
+        "Anji Liu",
+        "Yitao Liang"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/CraftJarvis/SkillDiscovery",
+      "published": "2025-03-11T18:51:40.000Z"
+    },
+    {
+      "id": "2503.05689",
+      "title": "GoalFlow: Goal-Driven Flow Matching for Multimodal Trajectories Generation in End-to-End Autonomous Driving",
+      "authors": [
+        "Zebin Xing",
+        "Xingyu Zhang",
+        "Yang Hu",
+        "Bo Jiang",
+        "Tong He",
+        "Qian Zhang",
+        "Xiaoxiao Long",
+        "Wei Yin"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/YvanYin/GoalFlow",
+      "published": "2025-03-07T18:52:08.000Z"
+    },
+    {
+      "id": "2503.09330",
+      "title": "Group-robust Machine Unlearning",
+      "authors": [
+        "Thomas De Min",
+        "Subhankar Roy",
+        "Stéphane Lathuilière",
+        "Elisa Ricci",
+        "Massimiliano Mancini"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/tdemin16/group-robust_machine_unlearning",
+      "published": "2025-03-12T12:24:05.000Z"
+    }
+  ]
+}

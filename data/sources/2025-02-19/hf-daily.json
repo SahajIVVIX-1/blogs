@@ -1,0 +1,530 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-02-19",
+  "fetched_at": "2026-10-29T15:30:39.490Z",
+  "candidates": [
+    {
+      "id": "2502.12900",
+      "title": "Soundwave: Less is More for Speech-Text Alignment in LLMs",
+      "authors": [
+        "Yuhao Zhang",
+        "Zhiheng Liu",
+        "Fan Bu",
+        "Ruiyu Zhang",
+        "Benyou Wang",
+        "Haizhou Li"
+      ],
+      "upvotes": 78,
+      "github": "https://github.com/FreedomIntelligence/Soundwave",
+      "published": "2025-02-18T14:36:39.000Z"
+    },
+    {
+      "id": "2502.13063",
+      "title": "Cramming 1568 Tokens into a Single Vector and Back Again: Exploring the Limits of Embedding Space Capacity",
+      "authors": [
+        "Yuri Kuratov",
+        "Mikhail Arkhipov",
+        "Aydar Bulatov",
+        "Mikhail Burtsev"
+      ],
+      "upvotes": 74,
+      "github": "https://github.com/yurakuratov/hidden_capacity",
+      "published": "2025-02-18T17:08:45.000Z"
+    },
+    {
+      "id": "2502.13130",
+      "title": "Magma: A Foundation Model for Multimodal AI Agents",
+      "authors": [
+        "Jianwei Yang",
+        "Reuben Tan",
+        "Qianhui Wu",
+        "Ruijie Zheng",
+        "Baolin Peng",
+        "Yongyuan Liang",
+        "Yu Gu",
+        "Mu Cai",
+        "Seonghyeon Ye",
+        "Joel Jang",
+        "Yuquan Deng",
+        "Lars Liden",
+        "Jianfeng Gao"
+      ],
+      "upvotes": 58,
+      "github": "https://github.com/microsoft/Magma",
+      "published": "2025-02-18T18:55:21.000Z"
+    },
+    {
+      "id": "2502.11079",
+      "title": "Phantom: Subject-consistent video generation via cross-modal alignment",
+      "authors": [
+        "Lijie Liu",
+        "Tianxiang Ma",
+        "Bingchuan Li",
+        "Zhuowei Chen",
+        "Jiawei Liu",
+        "Qian He",
+        "Xinglong Wu"
+      ],
+      "upvotes": 58,
+      "github": "https://github.com/Phantom-video/Phantom",
+      "published": "2025-02-16T11:02:50.000Z"
+    },
+    {
+      "id": "2502.11564",
+      "title": "Continuous Diffusion Model for Language Modeling",
+      "authors": [
+        "Jaehyeong Jo",
+        "Sung Ju Hwang"
+      ],
+      "upvotes": 53,
+      "github": "https://github.com/harryjo97/rdlm",
+      "published": "2025-02-17T08:54:29.000Z"
+    },
+    {
+      "id": "2502.13145",
+      "title": "Multimodal Mamba: Decoder-only Multimodal State Space Model via Quadratic to Linear Distillation",
+      "authors": [
+        "Bencheng Liao",
+        "Hongyuan Tao",
+        "Qian Zhang",
+        "Tianheng Cheng",
+        "Yingyue Li",
+        "Haoran Yin",
+        "Wenyu Liu",
+        "Xinggang Wang"
+      ],
+      "upvotes": 38,
+      "github": "https://github.com/hustvl/mmmamba",
+      "published": "2025-02-18T18:59:57.000Z"
+    },
+    {
+      "id": "2502.09245",
+      "title": "You Do Not Fully Utilize Transformer's Representation Capacity",
+      "authors": [
+        "Gleb Gerasimov",
+        "Yaroslav Aksenov",
+        "Nikita Balagansky",
+        "Viacheslav Sinii",
+        "Daniil Gavrilov"
+      ],
+      "upvotes": 37,
+      "github": "https://github.com/corl-team/lime",
+      "published": "2025-02-13T12:00:50.000Z"
+    },
+    {
+      "id": "2502.13131",
+      "title": "Rethinking Diverse Human Preference Learning through Principal Component Analysis",
+      "authors": [
+        "Feng Luo",
+        "Rui Yang",
+        "Hao Sun",
+        "Chunyuan Deng",
+        "Jiarui Yao",
+        "Jingyan Shen",
+        "Huan Zhang",
+        "Hanjie Chen"
+      ],
+      "upvotes": 37,
+      "github": null,
+      "published": "2025-02-18T18:55:26.000Z"
+    },
+    {
+      "id": "2502.11433",
+      "title": "FLAG-Trader: Fusion LLM-Agent with Gradient-based Reinforcement Learning for Financial Trading",
+      "authors": [
+        "Guojun Xiong",
+        "Zhiyang Deng",
+        "Keyi Wang",
+        "Yupeng Cao",
+        "Haohang Li",
+        "Yangyang Yu",
+        "Xueqing Peng",
+        "Mingquan Lin",
+        "Kaleb E Smith",
+        "Xiao-Yang Liu",
+        "Jimin Huang",
+        "Sophia Ananiadou",
+        "Qianqian Xie"
+      ],
+      "upvotes": 36,
+      "github": null,
+      "published": "2025-02-17T04:45:53.000Z"
+    },
+    {
+      "id": "2502.13143",
+      "title": "SoFar: Language-Grounded Orientation Bridges Spatial Reasoning and Object Manipulation",
+      "authors": [
+        "Zekun Qi",
+        "Wenyao Zhang",
+        "Yufei Ding",
+        "Runpei Dong",
+        "Xinqiang Yu",
+        "Jingwen Li",
+        "Lingyun Xu",
+        "Baoyu Li",
+        "Xialin He",
+        "Guofan Fan",
+        "Jiazhao Zhang",
+        "Jiawei He",
+        "Jiayuan Gu",
+        "Xin Jin",
+        "Kaisheng Ma",
+        "Zhizheng Zhang",
+        "He Wang",
+        "Li Yi"
+      ],
+      "upvotes": 31,
+      "github": "https://github.com/qizekun/SoFar",
+      "published": "2025-02-18T18:59:02.000Z"
+    },
+    {
+      "id": "2502.12464",
+      "title": "SafeRoute: Adaptive Model Selection for Efficient and Accurate Safety Guardrails in Large Language Models",
+      "authors": [
+        "Seanie Lee",
+        "Dong Bok Lee",
+        "Dominik Wagner",
+        "Minki Kang",
+        "Haebin Seong",
+        "Tobias Bocklet",
+        "Juho Lee",
+        "Sung Ju Hwang"
+      ],
+      "upvotes": 28,
+      "github": "https://github.com/seanie12/safe-route",
+      "published": "2025-02-18T02:51:17.000Z"
+    },
+    {
+      "id": "2502.11271",
+      "title": "OctoTools: An Agentic Framework with Extensible Tools for Complex Reasoning",
+      "authors": [
+        "Pan Lu",
+        "Bowen Chen",
+        "Sheng Liu",
+        "Rahul Thapa",
+        "Joseph Boen",
+        "James Zou"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/octotools/octotools",
+      "published": "2025-02-16T21:18:47.000Z"
+    },
+    {
+      "id": "2502.12018",
+      "title": "Atom of Thoughts for Markov LLM Test-Time Scaling",
+      "authors": [
+        "Fengwei Teng",
+        "Zhaoyang Yu",
+        "Quan Shi",
+        "Jiayi Zhang",
+        "Chenglin Wu",
+        "Yuyu Luo"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/qixucen/atom",
+      "published": "2025-02-17T16:52:42.000Z"
+    },
+    {
+      "id": "2502.12215",
+      "title": "Revisiting the Test-Time Scaling of o1-like Models: Do they Truly Possess Test-Time Scaling Capabilities?",
+      "authors": [
+        "Zhiyuan Zeng",
+        "Qinyuan Cheng",
+        "Zhangyue Yin",
+        "Yunhua Zhou",
+        "Xipeng Qiu"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/ZhiYuanZeng/test-time-scaling-eval",
+      "published": "2025-02-17T07:21:11.000Z"
+    },
+    {
+      "id": "2502.12513",
+      "title": "RealSyn: An Effective and Scalable Multimodal Interleaved Document Transformation Paradigm",
+      "authors": [
+        "Tiancheng Gu",
+        "Kaicheng Yang",
+        "Chaoyi Zhang",
+        "Yin Xie",
+        "Xiang An",
+        "Ziyong Feng",
+        "Dongnan Liu",
+        "Weidong Cai",
+        "Jiankang Deng"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/deepglint/RealSyn",
+      "published": "2025-02-18T03:58:38.000Z"
+    },
+    {
+      "id": "2502.12859",
+      "title": "PAFT: Prompt-Agnostic Fine-Tuning",
+      "authors": [
+        "Chenxing Wei",
+        "Yao Shu",
+        "Mingwen Ou",
+        "Ying Tiffany He",
+        "Fei Richard Yu"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/kithib/PAFT",
+      "published": "2025-02-18T13:46:47.000Z"
+    },
+    {
+      "id": "2502.12524",
+      "title": "YOLOv12: Attention-Centric Real-Time Object Detectors",
+      "authors": [
+        "Yunjie Tian",
+        "Qixiang Ye",
+        "David Doermann"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/sunsmarterjie/yolov12",
+      "published": "2025-02-18T04:20:14.000Z"
+    },
+    {
+      "id": "2502.12574",
+      "title": "HeadInfer: Memory-Efficient LLM Inference by Head-wise Offloading",
+      "authors": [
+        "Cheng Luo",
+        "Zefan Cai",
+        "Hanshi Sun",
+        "Jinqi Xiao",
+        "Bo Yuan",
+        "Wen Xiao",
+        "Junjie Hu",
+        "Jiawei Zhao",
+        "Beidi Chen",
+        "Anima Anandkumar"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/wdlctc/headinfer",
+      "published": "2025-02-18T06:26:05.000Z"
+    },
+    {
+      "id": "2502.13092",
+      "title": "Text2World: Benchmarking Large Language Models for Symbolic World Model Generation",
+      "authors": [
+        "Mengkang Hu",
+        "Tianxing Chen",
+        "Yude Zou",
+        "Yuheng Lei",
+        "Qiguang Chen",
+        "Ming Li",
+        "Hongyuan Zhang",
+        "Wenqi Shao",
+        "Ping Luo"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/Aaron617/text2world",
+      "published": "2025-02-18T17:59:48.000Z"
+    },
+    {
+      "id": "2502.12170",
+      "title": "MUDDFormer: Breaking Residual Bottlenecks in Transformers via Multiway Dynamic Dense Connections",
+      "authors": [
+        "Da Xiao",
+        "Qingye Meng",
+        "Shengping Li",
+        "Xingyuan Yuan"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/Caiyun-AI/MUDDFormer",
+      "published": "2025-02-13T10:26:27.000Z"
+    },
+    {
+      "id": "2502.09838",
+      "title": "HealthGPT: A Medical Large Vision-Language Model for Unifying Comprehension and Generation via Heterogeneous Knowledge Adaptation",
+      "authors": [
+        "Tianwei Lin",
+        "Wenqiao Zhang",
+        "Sijing Li",
+        "Yuqian Yuan",
+        "Binhe Yu",
+        "Haoyuan Li",
+        "Wanggui He",
+        "Hao Jiang",
+        "Mengze Li",
+        "Xiaohui Song",
+        "Siliang Tang",
+        "Jun Xiao",
+        "Hui Lin",
+        "Yueting Zhuang",
+        "Beng Chin Ooi"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/dcdmllm/healthgpt",
+      "published": "2025-02-14T00:42:36.000Z"
+    },
+    {
+      "id": "2502.12929",
+      "title": "Flow-of-Options: Diversified and Improved LLM Reasoning by Thinking Through Options",
+      "authors": [
+        "Lakshmi Nair",
+        "Ian Trase",
+        "Mark Kim"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/flagshippioneering/Flow-of-Options",
+      "published": "2025-02-18T15:11:46.000Z"
+    },
+    {
+      "id": "2502.12659",
+      "title": "The Hidden Risks of Large Reasoning Models: A Safety Assessment of R1",
+      "authors": [
+        "Kaiwen Zhou",
+        "Chengzhi Liu",
+        "Xuandong Zhao",
+        "Shreedhar Jangam",
+        "Jayanth Srinivasa",
+        "Gaowen Liu",
+        "Dawn Song",
+        "Xin Eric Wang"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2025-02-18T09:06:07.000Z"
+    },
+    {
+      "id": "2502.12996",
+      "title": "Eager Updates For Overlapped Communication and Computation in DiLoCo",
+      "authors": [
+        "Satyen Kale",
+        "Arthur Douillard",
+        "Yanislav Donchev"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2025-02-18T16:16:14.000Z"
+    },
+    {
+      "id": "2502.10990",
+      "title": "FinMTEB: Finance Massive Text Embedding Benchmark",
+      "authors": [
+        "Yixuan Tang",
+        "Yi Yang"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2025-02-16T04:23:52.000Z"
+    },
+    {
+      "id": "2502.13142",
+      "title": "Pre-training Auto-regressive Robotic Models with 4D Representations",
+      "authors": [
+        "Dantong Niu",
+        "Yuvan Sharma",
+        "Haoru Xue",
+        "Giscard Biamby",
+        "Junyi Zhang",
+        "Ziteng Ji",
+        "Trevor Darrell",
+        "Roei Herzig"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2025-02-18T18:59:01.000Z"
+    },
+    {
+      "id": "2502.12501",
+      "title": "Crowd Comparative Reasoning: Unlocking Comprehensive Evaluations for LLM-as-a-Judge",
+      "authors": [
+        "Qiyuan Zhang",
+        "Yufei Wang",
+        "Yuxin Jiang",
+        "Liangyou Li",
+        "Chuhan Wu",
+        "Yasheng Wang",
+        "Xin Jiang",
+        "Lifeng Shang",
+        "Ruiming Tang",
+        "Fuyuan Lyu",
+        "Chen Ma"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2025-02-18T03:31:06.000Z"
+    },
+    {
+      "id": "2502.10708",
+      "title": "Injecting Domain-Specific Knowledge into Large Language Models: A Comprehensive Survey",
+      "authors": [
+        "Zirui Song",
+        "Bin Yan",
+        "Yuhan Liu",
+        "Miao Fang",
+        "Mingzhe Li",
+        "Rui Yan",
+        "Xiuying Chen"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/abilliyb/Knowledge_Injection_Survey_Papers",
+      "published": "2025-02-15T07:43:43.000Z"
+    },
+    {
+      "id": "2502.12130",
+      "title": "Scaling Autonomous Agents via Automatic Reward Modeling And Planning",
+      "authors": [
+        "Zhenfang Chen",
+        "Delin Chen",
+        "Rui Sun",
+        "Wenjun Liu",
+        "Chuang Gan"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/heaplax/ARMAP",
+      "published": "2025-02-17T18:49:25.000Z"
+    },
+    {
+      "id": "2502.12669",
+      "title": "Perovskite-LLM: Knowledge-Enhanced Large Language Models for Perovskite Solar Cell Research",
+      "authors": [
+        "Xiang Liu",
+        "Penglei Sun",
+        "Shuyan Chen",
+        "Longhan Zhang",
+        "Peijie Dong",
+        "Huajie You",
+        "Yongqi Zhang",
+        "Chang Yan",
+        "Xiaowen Chu",
+        "Tong-yi Zhang"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2025-02-18T09:19:24.000Z"
+    },
+    {
+      "id": "2502.10852",
+      "title": "Multilingual Encoder Knows more than You Realize: Shared Weights Pretraining for Extremely Low-Resource Languages",
+      "authors": [
+        "Zeli Su",
+        "Ziyin Zhang",
+        "Guixian Xu",
+        "Jianing Liu",
+        "XU Han",
+        "Ting Zhang",
+        "Yushuang Dong"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/asd765973346/xlm-swcm",
+      "published": "2025-02-15T16:53:10.000Z"
+    },
+    {
+      "id": "2502.08869",
+      "title": "Harnessing Vision Models for Time Series Analysis: A Survey",
+      "authors": [
+        "Jingchao Ni",
+        "Ziming Zhao",
+        "ChengAo Shen",
+        "Hanghang Tong",
+        "Dongjin Song",
+        "Wei Cheng",
+        "Dongsheng Luo",
+        "Haifeng Chen"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/d2i-group/awesome-vision-time-series",
+      "published": "2025-02-13T00:42:11.000Z"
+    }
+  ]
+}

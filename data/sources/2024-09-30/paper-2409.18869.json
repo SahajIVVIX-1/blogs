@@ -1,0 +1,7 @@
+{
+  "id": "2409.18869",
+  "html": "https://arxiv.org/html/2409.18869",
+  "limitations": null,
+  "conclusion": "In this paper, we introduced Emu3 , a new series of multimodal models that excel at multimodal generation and perception through next-token prediction. By tokenizing images, text, and videos into a discrete space and training a single transformer from scratch, Emu3 not only eliminates the reliance on diffusion and compositional methods but also surpasses the performance of established task-specific models such as SDXL and LLaVA-1.6. Our results provide compelling evidence that next-token prediction can serve as a powerful paradigm for multimodal models, scaling beyond language models and delivering state-of-the-art performance across diverse tasks, including challenging video generation. We believe that next-token prediction is not only viable but also advantageous in the quest for general multimodal intelligence, bringing us closer to the realization of artificial general intelligence.",
+  "figure": null
+}

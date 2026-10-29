@@ -1,0 +1,328 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2023-11-07",
+  "fetched_at": "2026-10-29T15:25:53.417Z",
+  "candidates": [
+    {
+      "id": "2311.02462",
+      "title": "Levels of AGI for Operationalizing Progress on the Path to AGI",
+      "authors": [
+        "Meredith Ringel Morris",
+        "Jascha Sohl-dickstein",
+        "Noah Fiedel",
+        "Tris Warkentin",
+        "Allan Dafoe",
+        "Aleksandra Faust",
+        "Clement Farabet",
+        "Shane Legg"
+      ],
+      "upvotes": 36,
+      "github": null,
+      "published": "2023-11-04T17:44:58.000Z"
+    },
+    {
+      "id": "2311.03356",
+      "title": "GLaMM: Pixel Grounding Large Multimodal Model",
+      "authors": [
+        "Hanoona Rasheed",
+        "Muhammad Maaz",
+        "Sahal Shaji",
+        "Abdelrahman Shaker",
+        "Salman Khan",
+        "Hisham Cholakkal",
+        "Rao M. Anwer",
+        "Erix Xing",
+        "Ming-Hsuan Yang",
+        "Fahad S. Khan"
+      ],
+      "upvotes": 36,
+      "github": "https://github.com/mbzuai-oryx/groundingLMM",
+      "published": "2023-11-06T18:59:57.000Z"
+    },
+    {
+      "id": "2311.04145",
+      "title": "I2VGen-XL: High-Quality Image-to-Video Synthesis via Cascaded Diffusion Models",
+      "authors": [
+        "Shiwei Zhang",
+        "Jiayu Wang",
+        "Yingya Zhang",
+        "Kang Zhao",
+        "Hangjie Yuan",
+        "Zhiwu Qin",
+        "Xiang Wang",
+        "Deli Zhao",
+        "Jingren Zhou"
+      ],
+      "upvotes": 34,
+      "github": "https://github.com/modelscope/modelscope",
+      "published": "2023-11-07T17:16:06.000Z"
+    },
+    {
+      "id": "2311.03285",
+      "title": "S-LoRA: Serving Thousands of Concurrent LoRA Adapters",
+      "authors": [
+        "Ying Sheng",
+        "Shiyi Cao",
+        "Dacheng Li",
+        "Coleman Hooper",
+        "Nicholas Lee",
+        "Shuo Yang",
+        "Christopher Chou",
+        "Banghua Zhu",
+        "Lianmin Zheng",
+        "Kurt Keutzer",
+        "Joseph E. Gonzalez",
+        "Ion Stoica"
+      ],
+      "upvotes": 29,
+      "github": "https://github.com/s-lora/s-lora",
+      "published": "2023-11-06T17:26:17.000Z"
+    },
+    {
+      "id": "2311.03079",
+      "title": "CogVLM: Visual Expert for Pretrained Language Models",
+      "authors": [
+        "Weihan Wang",
+        "Qingsong Lv",
+        "Wenmeng Yu",
+        "Wenyi Hong",
+        "Ji Qi",
+        "Yan Wang",
+        "Junhui Ji",
+        "Zhuoyi Yang",
+        "Lei Zhao",
+        "Xixuan Song",
+        "Jiazheng Xu",
+        "Bin Xu",
+        "Juanzi Li",
+        "Yuxiao Dong",
+        "Ming Ding",
+        "Jie Tang"
+      ],
+      "upvotes": 27,
+      "github": null,
+      "published": "2023-11-06T13:04:39.000Z"
+    },
+    {
+      "id": "2311.02103",
+      "title": "Relax: Composable Abstractions for End-to-End Dynamic Machine Learning",
+      "authors": [
+        "Ruihang Lai",
+        "Junru Shao",
+        "Siyuan Feng",
+        "Steven S. Lyubomirsky",
+        "Bohan Hou",
+        "Wuwei Lin",
+        "Zihao Ye",
+        "Hongyi Jin",
+        "Yuchen Jin",
+        "Jiawei Liu",
+        "Lesheng Jin",
+        "Yaxing Cai",
+        "Ziheng Jiang",
+        "Yong Wu",
+        "Sunghyun Park",
+        "Prakalp Srivastava",
+        "Jared G. Roesch",
+        "Todd C. Mowry",
+        "Tianqi Chen"
+      ],
+      "upvotes": 19,
+      "github": null,
+      "published": "2023-11-01T23:03:59.000Z"
+    },
+    {
+      "id": "2311.03301",
+      "title": "Ziya2: Data-centric Learning is All LLMs Need",
+      "authors": [
+        "Ruyi Gan",
+        "Ziwei Wu",
+        "Renliang Sun",
+        "Junyu Lu",
+        "Xiaojun Wu",
+        "Dixiang Zhang",
+        "Kunhao Pan",
+        "Ping Yang",
+        "Qi Yang",
+        "Jiaxing Zhang",
+        "Yan Song"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2023-11-06T17:49:34.000Z"
+    },
+    {
+      "id": "2311.02542",
+      "title": "VR-NeRF: High-Fidelity Virtualized Walkable Spaces",
+      "authors": [
+        "Linning Xu",
+        "Vasu Agrawal",
+        "William Laney",
+        "Tony Garcia",
+        "Aayush Bansal",
+        "Changil Kim",
+        "Samuel Rota Bulò",
+        "Lorenzo Porzi",
+        "Peter Kontschieder",
+        "Aljaž Božič",
+        "Dahua Lin",
+        "Michael Zollhöfer",
+        "Christian Richardt"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/facebookresearch/eyefultower",
+      "published": "2023-11-05T02:03:14.000Z"
+    },
+    {
+      "id": "2311.02262",
+      "title": "Tell Your Model Where to Attend: Post-hoc Attention Steering for LLMs",
+      "authors": [
+        "Qingru Zhang",
+        "Chandan Singh",
+        "Liyuan Liu",
+        "Xiaodong Liu",
+        "Bin Yu",
+        "Jianfeng Gao",
+        "Tuo Zhao"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/qingruzhang/pasta",
+      "published": "2023-11-03T22:56:43.000Z"
+    },
+    {
+      "id": "2311.02303",
+      "title": "MFTCoder: Boosting Code LLMs with Multitask Fine-Tuning",
+      "authors": [
+        "Bingchang Liu",
+        "Chaoyu Chen",
+        "Cong Liao",
+        "Zi Gong",
+        "Huan Wang",
+        "Zhichao Lei",
+        "Ming Liang",
+        "Dajun Chen",
+        "Min Shen",
+        "Hailian Zhou",
+        "Hang Yu",
+        "Jianguo Li"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/codefuse-ai/mftcoder",
+      "published": "2023-11-04T02:22:40.000Z"
+    },
+    {
+      "id": "2311.03226",
+      "title": "LDM3D-VR: Latent Diffusion Model for 3D VR",
+      "authors": [
+        "Gabriela Ben Melech Stan",
+        "Diana Wofk",
+        "Estelle Aflalo",
+        "Shao-Yen Tseng",
+        "Zhipeng Cai",
+        "Michael Paulitsch",
+        "Vasudev Lal"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2023-11-06T16:12:10.000Z"
+    },
+    {
+      "id": "2311.03354",
+      "title": "CoVLM: Composing Visual Entities and Relationships in Large Language Models Via Communicative Decoding",
+      "authors": [
+        "Junyan Li",
+        "Delin Chen",
+        "Yining Hong",
+        "Zhenfang Chen",
+        "Peihao Chen",
+        "Yikang Shen",
+        "Chuang Gan"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2023-11-06T18:59:44.000Z"
+    },
+    {
+      "id": "2311.02849",
+      "title": "Co-training and Co-distillation for Quality Improvement and Compression of Language Models",
+      "authors": [
+        "Hayeon Lee",
+        "Rui Hou",
+        "Jongpil Kim",
+        "Davis Liang",
+        "Hongbo Zhang",
+        "Sung Ju Hwang",
+        "Alexander Min"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2023-11-06T03:29:00.000Z"
+    },
+    {
+      "id": "2311.02848",
+      "title": "Consistent4D: Consistent 360° Dynamic Object Generation from Monocular Video",
+      "authors": [
+        "Yanqin Jiang",
+        "Li Zhang",
+        "Jin Gao",
+        "Weimin Hu",
+        "Yao Yao"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2023-11-06T03:26:43.000Z"
+    },
+    {
+      "id": "2311.02805",
+      "title": "Tailoring Self-Rationalizers with Multi-Reward Distillation",
+      "authors": [
+        "Sahana Ramnath",
+        "Brihi Joshi",
+        "Skyler Hallinan",
+        "Ximing Lu",
+        "Liunian Harold Li",
+        "Aaron Chan",
+        "Jack Hessel",
+        "Yejin Choi",
+        "Xiang Ren"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/ink-usc/rationalemultirewarddistillation",
+      "published": "2023-11-06T00:20:11.000Z"
+    },
+    {
+      "id": "2311.02772",
+      "title": "Attention or Convolution: Transformer Encoders in Audio Language Models for Inference Efficiency",
+      "authors": [
+        "Sungho Jeon",
+        "Ching-Feng Yeh",
+        "Hakan Inan",
+        "Wei-Ning Hsu",
+        "Rashi Rungta",
+        "Yashar Mehdad",
+        "Daniel Bikel"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2023-11-05T21:30:10.000Z"
+    },
+    {
+      "id": "2311.02382",
+      "title": "Ultra-Long Sequence Distributed Transformer",
+      "authors": [
+        "Xiao Wang",
+        "Isaac Lyngaas",
+        "Aristeidis Tsaris",
+        "Peng Chen",
+        "Sajal Dash",
+        "Mayanka Chandra Shekar",
+        "Tao Luo",
+        "Hong-Jun Yoon",
+        "Mohamed Wahib",
+        "John Gouley"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2023-11-04T11:38:53.000Z"
+    }
+  ]
+}

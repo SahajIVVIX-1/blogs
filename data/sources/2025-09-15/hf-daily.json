@@ -1,0 +1,354 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-09-15",
+  "fetched_at": "2026-10-29T15:33:10.958Z",
+  "candidates": [
+    {
+      "id": "2509.09677",
+      "title": "The Illusion of Diminishing Returns: Measuring Long Horizon Execution in LLMs",
+      "authors": [
+        "Akshit Sinha",
+        "Arvindh Arun",
+        "Shashwat Goel",
+        "Steffen Staab",
+        "Jonas Geiping"
+      ],
+      "upvotes": 33,
+      "github": "https://github.com/long-horizon-execution/measuring-execution",
+      "published": "2025-09-11T17:59:34.000Z"
+    },
+    {
+      "id": "2509.10441",
+      "title": "InfGen: A Resolution-Agnostic Paradigm for Scalable Image Synthesis",
+      "authors": [
+        "Tao Han",
+        "Wanghan Xu",
+        "Junchao Gong",
+        "Xiaoyu Yue",
+        "Song Guo",
+        "Luping Zhou",
+        "Lei Bai"
+      ],
+      "upvotes": 31,
+      "github": null,
+      "published": "2025-09-12T17:48:57.000Z"
+    },
+    {
+      "id": "2509.10147",
+      "title": "Virtual Agent Economies",
+      "authors": [
+        "Nenad Tomasev",
+        "Matija Franklin",
+        "Joel Z. Leibo",
+        "Julian Jacobs",
+        "William A. Cunningham",
+        "Iason Gabriel",
+        "Simon Osindero"
+      ],
+      "upvotes": 27,
+      "github": null,
+      "published": "2025-09-12T11:20:11.000Z"
+    },
+    {
+      "id": "2509.09713",
+      "title": "HANRAG: Heuristic Accurate Noise-resistant Retrieval-Augmented Generation for Multi-hop Question Answering",
+      "authors": [
+        "Duolin Sun",
+        "Dan Yang",
+        "Yue Shen",
+        "Yihan Jiao",
+        "Zhehao Tan",
+        "Jie Feng",
+        "Lianzhen Zhong",
+        "Jian Wang",
+        "Peng Wei",
+        "Jinjie Gu"
+      ],
+      "upvotes": 25,
+      "github": null,
+      "published": "2025-09-08T06:22:38.000Z"
+    },
+    {
+      "id": "2509.08270",
+      "title": "Interpretable Physics Reasoning and Performance Taxonomy in Vision-Language Models",
+      "authors": [
+        "Pranav Pawar",
+        "Kavish Shah",
+        "Akshat Bhalani",
+        "Komal Kasat",
+        "Dev Mittal",
+        "Hadi Gala",
+        "Deepali Patil",
+        "Nikita Raichada",
+        "Monali Deshmukh"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/prnvpwr2612/Interpretable-Physics-Reasoning-and-Performance-Taxonomy-in-Vision-Language-Models",
+      "published": "2025-09-10T04:15:01.000Z"
+    },
+    {
+      "id": "2509.08643",
+      "title": "X-Part: high fidelity and structure coherent shape decomposition",
+      "authors": [
+        "Xinhao Yan",
+        "Jiachen Xu",
+        "Yang Li",
+        "Changfeng Ma",
+        "Yunhan Yang",
+        "Chunshi Wang",
+        "Zibo Zhao",
+        "Zeqiang Lai",
+        "Yunfei Zhao",
+        "Zhuo Chen",
+        "Chunchao Guo"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/Tencent-Hunyuan/Hunyuan3D-Part",
+      "published": "2025-09-10T14:37:02.000Z"
+    },
+    {
+      "id": "2509.10396",
+      "title": "Inpainting-Guided Policy Optimization for Diffusion Large Language Models",
+      "authors": [
+        "Siyan Zhao",
+        "Mengchen Liu",
+        "Jing Huang",
+        "Miao Liu",
+        "Chenyu Wang",
+        "Bo Liu",
+        "Yuandong Tian",
+        "Guan Pang",
+        "Sean Bell",
+        "Aditya Grover",
+        "Feiyu Chen"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2025-09-12T16:44:31.000Z"
+    },
+    {
+      "id": "2509.09995",
+      "title": "QuantAgent: Price-Driven Multi-Agent LLMs for High-Frequency Trading",
+      "authors": [
+        "Fei Xiong",
+        "Xiang Zhang",
+        "Aosong Feng",
+        "Siqi Sun",
+        "Chenyu You"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/Y-Research-SBU/QuantAgent",
+      "published": "2025-09-12T06:35:40.000Z"
+    },
+    {
+      "id": "2509.09734",
+      "title": "MCP-AgentBench: Evaluating Real-World Language Agent Performance with MCP-Mediated Tools",
+      "authors": [
+        "Zikang Guo",
+        "Benfeng Xu",
+        "Chiwei Zhu",
+        "Wentao Hong",
+        "Xiaorui Wang",
+        "Zhendong Mao"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2025-09-10T14:08:40.000Z"
+    },
+    {
+      "id": "2509.04996",
+      "title": "FLOWER: Democratizing Generalist Robot Policies with Efficient Vision-Language-Action Flow Policies",
+      "authors": [
+        "Moritz Reuss",
+        "Hongyi Zhou",
+        "Marcel Rühle",
+        "Ömer Erdinç Yağmurlu",
+        "Fabian Otto",
+        "Rudolf Lioutikov"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/intuitive-robots/flower_vla_calvin",
+      "published": "2025-09-05T10:43:12.000Z"
+    },
+    {
+      "id": "2509.09737",
+      "title": "World Modeling with Probabilistic Structure Integration",
+      "authors": [
+        "Klemen Kotar",
+        "Wanhee Lee",
+        "Rahul Venkatesh",
+        "Honglin Chen",
+        "Daniel Bear",
+        "Jared Watrous",
+        "Simon Kim",
+        "Khai Loong Aw",
+        "Lilian Naing Chen",
+        "Stefan Stojanov",
+        "Kevin Feigelis",
+        "Imran Thobani",
+        "Alex Durango",
+        "Khaled Jedoui",
+        "Atlas Kazemian",
+        "Dan Yamins"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2025-09-10T18:01:04.000Z"
+    },
+    {
+      "id": "2509.09926",
+      "title": "LoFT: Parameter-Efficient Fine-Tuning for Long-tailed Semi-Supervised Learning in Open-World Scenarios",
+      "authors": [
+        "Zhiyuan Huang",
+        "Jiahao Chen",
+        "Bing Su",
+        "Yurou Liu"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/games-liker/LoFT",
+      "published": "2026-04-08T00:00:00.000Z"
+    },
+    {
+      "id": "2509.10058",
+      "title": "Color Me Correctly: Bridging Perceptual Color Spaces and Text Embeddings for Improved Diffusion Generation",
+      "authors": [
+        "Sung-Lin Tsai",
+        "Bo-Lun Huang",
+        "Yu Ting Shen",
+        "Cheng Yu Yeo",
+        "Chiang Tseng",
+        "Bo-Kai Ruan",
+        "Wen-Sheng Lien",
+        "Hong-Han Shuai"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/Sung-Lin/TintBench",
+      "published": "2025-09-12T08:44:22.000Z"
+    },
+    {
+      "id": "2509.09716",
+      "title": "VStyle: A Benchmark for Voice Style Adaptation with Spoken Instructions",
+      "authors": [
+        "Jun Zhan",
+        "Mingyang Han",
+        "Yuxuan Xie",
+        "Chen Wang",
+        "Dong Zhang",
+        "Kexin Huang",
+        "Haoxiang Shi",
+        "DongXiao Wang",
+        "Tengtao Song",
+        "Qinyuan Cheng",
+        "Shimin Li",
+        "Jun Song",
+        "Xipeng Qiu",
+        "Bo Zheng"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/alibaba/vstyle",
+      "published": "2025-09-09T14:28:58.000Z"
+    },
+    {
+      "id": "2509.06652",
+      "title": "IntrEx: A Dataset for Modeling Engagement in Educational Conversations",
+      "authors": [
+        "Xingwei Tan",
+        "Mahathi Parvatham",
+        "Chiara Gambi",
+        "Gabriele Pergola"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/Xingwei-Tan/IntrEx",
+      "published": "2025-09-08T13:07:35.000Z"
+    },
+    {
+      "id": "2509.04500",
+      "title": "Context Engineering for Trustworthiness: Rescorla Wagner Steering Under Mixed and Inappropriate Contexts",
+      "authors": [
+        "Rushi Wang",
+        "Jiateng Liu",
+        "Cheng Qian",
+        "Yifan Shen",
+        "Yanzhou Pan",
+        "Zhaozhuo Xu",
+        "Ahmed Abbasi",
+        "Heng Ji",
+        "Denghui Zhang"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/Oppugno-Rushi/RW-Steering",
+      "published": "2025-09-02T00:40:34.000Z"
+    },
+    {
+      "id": "2509.07966",
+      "title": "Visual-TableQA: Open-Domain Benchmark for Reasoning over Table Images",
+      "authors": [
+        "Boammani Aser Lompo",
+        "Marc Haraoui"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/AI-4-Everyone/Visual-TableQA-v2",
+      "published": "2025-09-09T17:52:26.000Z"
+    },
+    {
+      "id": "2509.01535",
+      "title": "CAT: Causal Attention Tuning For Injecting Fine-grained Causal Knowledge into Large Language Models",
+      "authors": [
+        "Kairong Han",
+        "Wenshuo Zhao",
+        "Ziyu Zhao",
+        "JunJian Ye",
+        "Lujia Pan",
+        "Kun Kuang"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/Kairong-Han/CAT",
+      "published": "2025-09-01T15:13:15.000Z"
+    },
+    {
+      "id": "2509.09524",
+      "title": "DeMeVa at LeWiDi-2025: Modeling Perspectives with In-Context Learning and Label Distribution Learning",
+      "authors": [
+        "Daniil Ignatev",
+        "Nan Li",
+        "Hugh Mee Wong",
+        "Anh Dang",
+        "Shane Kaszefski Yaschuk"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/cs-nlp-uu/LeWiDi_ICL",
+      "published": "2025-09-11T15:04:42.000Z"
+    },
+    {
+      "id": "2509.08825",
+      "title": "Large Language Model Hacking: Quantifying the Hidden Risks of Using LLMs for Text Annotation",
+      "authors": [
+        "Joachim Baumann",
+        "Paul Röttger",
+        "Aleksandra Urman",
+        "Albert Wendsjö",
+        "Flor Miriam Plaza-del-Arco",
+        "Johannes B. Gruber",
+        "Dirk Hovy"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2025-09-10T17:58:53.000Z"
+    },
+    {
+      "id": "2509.09990",
+      "title": "CMHG: A Dataset and Benchmark for Headline Generation of Minority Languages in China",
+      "authors": [
+        "Guixian Xu",
+        "Zeli Su",
+        "Ziyin Zhang",
+        "Jianing Liu",
+        "XU Han",
+        "Ting Zhang",
+        "Yushuang Dong"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2025-09-12T06:18:44.000Z"
+    }
+  ]
+}

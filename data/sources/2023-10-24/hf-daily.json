@@ -1,0 +1,249 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2023-10-24",
+  "fetched_at": "2026-10-29T15:25:44.838Z",
+  "candidates": [
+    {
+      "id": "2310.15111",
+      "title": "Matryoshka Diffusion Models",
+      "authors": [
+        "Jiatao Gu",
+        "Shuangfei Zhai",
+        "Yizhe Zhang",
+        "Josh Susskind",
+        "Navdeep Jaitly"
+      ],
+      "upvotes": 46,
+      "github": "https://github.com/apple/ml-mdm",
+      "published": "2023-10-23T17:20:01.000Z"
+    },
+    {
+      "id": "2310.14566",
+      "title": "HallusionBench: You See What You Think? Or You Think What You See? An Image-Context Reasoning Benchmark Challenging for GPT-4V(ision), LLaVA-1.5, and Other Multi-modality Models",
+      "authors": [
+        "Fuxiao Liu",
+        "Tianrui Guan",
+        "Zongxia Li",
+        "Lichang Chen",
+        "Yaser Yacoob",
+        "Dinesh Manocha",
+        "Tianyi Zhou"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/tianyi-lab/hallusionbench",
+      "published": "2023-10-23T04:49:09.000Z"
+    },
+    {
+      "id": "2310.15144",
+      "title": "DEsignBench: Exploring and Benchmarking DALL-E 3 for Imagining Visual Design",
+      "authors": [
+        "Kevin Lin",
+        "Zhengyuan Yang",
+        "Linjie Li",
+        "Jianfeng Wang",
+        "Lijuan Wang"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2023-10-23T17:48:38.000Z"
+    },
+    {
+      "id": "2310.15169",
+      "title": "FreeNoise: Tuning-Free Longer Video Diffusion Via Noise Rescheduling",
+      "authors": [
+        "Haonan Qiu",
+        "Menghan Xia",
+        "Yong Zhang",
+        "Yingqing He",
+        "Xintao Wang",
+        "Ying Shan",
+        "Ziwei Liu"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/AILab-CVC/FreeNoise",
+      "published": "2023-10-23T17:59:58.000Z"
+    },
+    {
+      "id": "2310.14573",
+      "title": "Exploring the Boundaries of GPT-4 in Radiology",
+      "authors": [
+        "Qianchu Liu",
+        "Stephanie Hyland",
+        "Shruthi Bannur",
+        "Kenza Bouzid",
+        "Daniel C. Castro",
+        "Maria Teodora Wetscherek",
+        "Robert Tinn",
+        "Harshita Sharma",
+        "Fernando Pérez-García",
+        "Anton Schwaighofer",
+        "Pranav Rajpurkar",
+        "Sameer Tajdin Khanna",
+        "Hoifung Poon",
+        "Naoto Usuyama",
+        "Anja Thieme",
+        "Aditya V. Nori",
+        "Matthew P. Lungren",
+        "Ozan Oktay",
+        "Javier Alvarez-Valle"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2023-10-23T05:13:03.000Z"
+    },
+    {
+      "id": "2310.13724",
+      "title": "Habitat 3.0: A Co-Habitat for Humans, Avatars and Robots",
+      "authors": [
+        "Xavier Puig",
+        "Eric Undersander",
+        "Andrew Szot",
+        "Mikael Dallaire Cote",
+        "Tsung-Yen Yang",
+        "Ruslan Partsey",
+        "Ruta Desai",
+        "Alexander William Clegg",
+        "Michal Hlavac",
+        "So Yeon Min",
+        "Vladimír Vondruš",
+        "Theophile Gervet",
+        "Vincent-Pierre Berges",
+        "John M. Turner",
+        "Oleksandr Maksymets",
+        "Zsolt Kira",
+        "Mrinal Kalakrishnan",
+        "Jitendra Malik",
+        "Devendra Singh Chaplot",
+        "Unnat Jain",
+        "Dhruv Batra",
+        "Akshara Rai",
+        "Roozbeh Mottaghi"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2023-10-19T17:29:17.000Z"
+    },
+    {
+      "id": "2310.15123",
+      "title": "Branch-Solve-Merge Improves Large Language Model Evaluation and Generation",
+      "authors": [
+        "Swarnadeep Saha",
+        "Omer Levy",
+        "Asli Celikyilmaz",
+        "Mohit Bansal",
+        "Jason Weston",
+        "Xian Li"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2023-10-23T17:29:48.000Z"
+    },
+    {
+      "id": "2310.13772",
+      "title": "TexFusion: Synthesizing 3D Textures with Text-Guided Image Diffusion Models",
+      "authors": [
+        "Tianshi Cao",
+        "Karsten Kreis",
+        "Sanja Fidler",
+        "Nicholas Sharp",
+        "Kangxue Yin"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2023-10-20T19:15:29.000Z"
+    },
+    {
+      "id": "2310.13730",
+      "title": "Localizing and Editing Knowledge in Text-to-Image Generative Models",
+      "authors": [
+        "Samyadeep Basu",
+        "Nanxuan Zhao",
+        "Vlad Morariu",
+        "Soheil Feizi",
+        "Varun Manjunatha"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2023-10-20T17:31:12.000Z"
+    },
+    {
+      "id": "2310.13961",
+      "title": "Ensemble-Instruct: Generating Instruction-Tuning Data with a Heterogeneous Mixture of LMs",
+      "authors": [
+        "Young-Suk Lee",
+        "Md Arafat Sultan",
+        "Yousef El-Kurdi",
+        "Tahira Naseem Asim Munawar",
+        "Radu Florian",
+        "Salim Roukos",
+        "Ramón Fernandez Astudillo"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/ibm/ensemble-instruct",
+      "published": "2023-10-21T10:21:17.000Z"
+    },
+    {
+      "id": "2310.13798",
+      "title": "Specific versus General Principles for Constitutional AI",
+      "authors": [
+        "Sandipan Kundu",
+        "Yuntao Bai",
+        "Saurav Kadavath",
+        "Amanda Askell",
+        "Andrew Callahan",
+        "Anna Chen",
+        "Anna Goldie",
+        "Avital Balwit",
+        "Azalia Mirhoseini",
+        "Brayden McLean",
+        "Catherine Olsson",
+        "Cassie Evraets",
+        "Eli Tran-Johnson",
+        "Esin Durmus",
+        "Ethan Perez",
+        "Jackson Kernion",
+        "Jamie Kerr",
+        "Kamal Ndousse",
+        "Karina Nguyen",
+        "Nelson Elhage",
+        "Newton Cheng",
+        "Nicholas Schiefer",
+        "Nova DasSarma",
+        "Oliver Rausch",
+        "Robin Larson",
+        "Shannon Yang",
+        "Shauna Kravec",
+        "Timothy Telleen-Lawton",
+        "Thomas I. Liao",
+        "Tom Henighan",
+        "Tristan Hume",
+        "Zac Hatfield-Dodds",
+        "Sören Mindermann",
+        "Nicholas Joseph",
+        "Sam McCandlish",
+        "Jared Kaplan"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2023-10-20T20:12:45.000Z"
+    },
+    {
+      "id": "2310.14495",
+      "title": "InstructExcel: A Benchmark for Natural Language Instruction in Excel",
+      "authors": [
+        "Justin Payan",
+        "Swaroop Mishra",
+        "Mukul Singh",
+        "Carina Negreanu",
+        "Christian Poelitz",
+        "Chitta Baral",
+        "Subhro Roy",
+        "Rasika Chakravarthy",
+        "Benjamin Van Durme",
+        "Elnaz Nouri"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2023-10-23T02:00:55.000Z"
+    }
+  ]
+}

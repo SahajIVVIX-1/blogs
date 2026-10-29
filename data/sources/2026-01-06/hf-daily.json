@@ -1,0 +1,499 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-01-06",
+  "fetched_at": "2026-10-29T15:34:19.366Z",
+  "candidates": [
+    {
+      "id": "2512.24601",
+      "title": "Recursive Language Models",
+      "authors": [
+        "Alex L. Zhang",
+        "Tim Kraska",
+        "Omar Khattab"
+      ],
+      "upvotes": 99,
+      "github": "https://github.com/alexzhang13/rlm",
+      "published": "2025-12-31T03:43:41.000Z"
+    },
+    {
+      "id": "2601.01739",
+      "title": "K-EXAONE Technical Report",
+      "authors": [
+        "Eunbi Choi",
+        "Kibong Choi",
+        "Seokhee Hong",
+        "Junwon Hwang",
+        "Hyojin Jeon",
+        "Hyunjik Jo",
+        "Joonkee Kim",
+        "Seonghwan Kim",
+        "Soyeon Kim",
+        "Sunkyoung Kim",
+        "Yireun Kim",
+        "Yongil Kim",
+        "Haeju Lee",
+        "Jinsik Lee",
+        "Kyungmin Lee",
+        "Sangha Park",
+        "Heuiyeen Yeen",
+        "Hwan Chang",
+        "Stanley Jungkyu Choi",
+        "Yejin Choi",
+        "Jiwon Ham",
+        "Kijeong Jeon",
+        "Geunyeong Jeong",
+        "Gerrard Jeongwon Jo",
+        "Yonghwan Jo",
+        "Jiyeon Jung",
+        "Naeun Kang",
+        "Dohoon Kim",
+        "Euisoon Kim",
+        "Hayeon Kim",
+        "Hyosang Kim",
+        "Hyunseo Kim",
+        "Jieun Kim",
+        "Minu Kim",
+        "Myoungshin Kim",
+        "Unsol Kim",
+        "Youchul Kim",
+        "YoungJin Kim",
+        "Chaeeun Lee",
+        "Chaeyoon Lee",
+        "Changhun Lee",
+        "Dahm Lee",
+        "Edward Hwayoung Lee",
+        "Honglak Lee",
+        "Jinsang Lee",
+        "Jiyoung Lee",
+        "Sangeun Lee",
+        "Seungwon Lim",
+        "Solji Lim",
+        "Woohyung Lim",
+        "Chanwoo Moon",
+        "Jaewoo Park",
+        "Jinho Park",
+        "Yongmin Park",
+        "Hyerin Seo",
+        "Wooseok Seo",
+        "Yongwoo Song",
+        "Sejong Yang",
+        "Sihoon Yang",
+        "Chang En Yea",
+        "Sihyuk Yi",
+        "Chansik Yoon",
+        "Dongkeun Yoon",
+        "Sangyeon Yoon",
+        "Hyeongu Yun"
+      ],
+      "upvotes": 96,
+      "github": "https://github.com/LG-AI-EXAONE/K-EXAONE",
+      "published": "2026-01-05T02:30:59.000Z"
+    },
+    {
+      "id": "2512.20578",
+      "title": "Can LLMs Predict Their Own Failures? Self-Awareness via Internal Circuits",
+      "authors": [
+        "Amirhosein Ghasemabadi",
+        "Di Niu"
+      ],
+      "upvotes": 87,
+      "github": "https://github.com/Amirhosein-gh98/Gnosis",
+      "published": "2025-12-23T18:21:32.000Z"
+    },
+    {
+      "id": "2601.02204",
+      "title": "NextFlow: Unified Sequential Modeling Activates Multimodal Understanding and Generation",
+      "authors": [
+        "Huichao Zhang",
+        "Liao Qu",
+        "Yiheng Liu",
+        "Hang Chen",
+        "Yangyang Song",
+        "Yongsheng Dong",
+        "Shikun Sun",
+        "Xian Li",
+        "Xu Wang",
+        "Yi Jiang",
+        "Hu Ye",
+        "Bo Chen",
+        "Yiming Gao",
+        "Peng Liu",
+        "Akide Liu",
+        "Zhipeng Yang",
+        "Qili Deng",
+        "Linjie Xing",
+        "Jiyang Liu",
+        "Zhao Wang",
+        "Yang Zhou",
+        "Mingcong Liu",
+        "Yi Zhang",
+        "Qian He",
+        "Xiwei Hu",
+        "Zhongqi Qi",
+        "Jie Shao",
+        "Zhiye Fu",
+        "Shuai Wang",
+        "Fangmin Chen",
+        "Xuezhi Chai",
+        "Zhihua Wu",
+        "Yitong Wang",
+        "Zehuan Yuan",
+        "Daniel K. Du",
+        "Xinglong Wu"
+      ],
+      "upvotes": 64,
+      "github": "https://github.com/ByteVisionLab/NextFlow",
+      "published": "2026-01-05T15:27:04.000Z"
+    },
+    {
+      "id": "2601.01425",
+      "title": "DreamID-V:Bridging the Image-to-Video Gap for High-Fidelity Face Swapping via Diffusion Transformer",
+      "authors": [
+        "Xu Guo",
+        "Fulong Ye",
+        "Xinghui Li",
+        "Pengqi Tu",
+        "Pengze Zhang",
+        "Qichao Sun",
+        "Songtao Zhao",
+        "Xiangwang Hou",
+        "Qian He"
+      ],
+      "upvotes": 53,
+      "github": "https://github.com/bytedance/DreamID-V",
+      "published": "2026-01-04T08:07:11.000Z"
+    },
+    {
+      "id": "2601.02553",
+      "title": "SimpleMem: Efficient Lifelong Memory for LLM Agents",
+      "authors": [
+        "Jiaqi Liu",
+        "Yaofeng Su",
+        "Peng Xia",
+        "Siwei Han",
+        "Zeyu Zheng",
+        "Cihang Xie",
+        "Mingyu Ding",
+        "Huaxiu Yao"
+      ],
+      "upvotes": 38,
+      "github": "https://github.com/aiming-lab/SimpleMem",
+      "published": "2026-01-05T21:02:49.000Z"
+    },
+    {
+      "id": "2601.02256",
+      "title": "VAR RL Done Right: Tackling Asynchronous Policy Conflicts in Visual Autoregressive Generation",
+      "authors": [
+        "Shikun Sun",
+        "Liao Qu",
+        "Huichao Zhang",
+        "Yiheng Liu",
+        "Yangyang Song",
+        "Xian Li",
+        "Xu Wang",
+        "Yi Jiang",
+        "Daniel K. Du",
+        "Xinglong Wu",
+        "Jia Jia"
+      ],
+      "upvotes": 33,
+      "github": null,
+      "published": "2026-01-05T16:36:40.000Z"
+    },
+    {
+      "id": "2601.02281",
+      "title": "InfiniteVGGT: Visual Geometry Grounded Transformer for Endless Streams",
+      "authors": [
+        "Shuai Yuan",
+        "Yantai Yang",
+        "Xiaotian Yang",
+        "Xupeng Zhang",
+        "Zhonghao Zhao",
+        "Lingming Zhang",
+        "Zhipeng Zhang"
+      ],
+      "upvotes": 32,
+      "github": "https://github.com/AutoLab-SAI-SJTU/InfiniteVGGT",
+      "published": "2026-01-05T17:11:00.000Z"
+    },
+    {
+      "id": "2512.24138",
+      "title": "GARDO: Reinforcing Diffusion Models without Reward Hacking",
+      "authors": [
+        "Haoran He",
+        "Yuxiao Ye",
+        "Jie Liu",
+        "Jiajun Liang",
+        "Zhiyong Wang",
+        "Ziyang Yuan",
+        "Xintao Wang",
+        "Hangyu Mao",
+        "Pengfei Wan",
+        "Ling Pan"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/tinnerhrhe/GARDO",
+      "published": "2025-12-30T10:55:45.000Z"
+    },
+    {
+      "id": "2601.02358",
+      "title": "VINO: A Unified Visual Generator with Interleaved OmniModal Context",
+      "authors": [
+        "Junyi Chen",
+        "Tong He",
+        "Zhoujie Fu",
+        "Pengfei Wan",
+        "Kun Gai",
+        "Weicai Ye"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/SOTAMak1r/VINO-code",
+      "published": "2026-01-05T18:56:34.000Z"
+    },
+    {
+      "id": "2601.02346",
+      "title": "Falcon-H1R: Pushing the Reasoning Frontiers with a Hybrid Model for Efficient Test-Time Scaling",
+      "authors": [
+        "Falcon LLM Team",
+        "Iheb Chaabane",
+        "Puneesh Khanna",
+        "Suhail Mohmad",
+        "Slim Frikha",
+        "Shi Hu",
+        "Abdalgader Abubaker",
+        "Reda Alami",
+        "Mikhail Lubinets",
+        "Mohamed El Amine Seddik",
+        "Hakim Hacid"
+      ],
+      "upvotes": 28,
+      "github": null,
+      "published": "2026-01-05T18:44:27.000Z"
+    },
+    {
+      "id": "2601.01426",
+      "title": "SWE-Lego: Pushing the Limits of Supervised Fine-tuning for Software Issue Resolving",
+      "authors": [
+        "Chaofan Tao",
+        "Jierun Chen",
+        "Yuxin Jiang",
+        "Kaiqi Kou",
+        "Shaowei Wang",
+        "Ruoyu Wang",
+        "Xiaohui Li",
+        "Sidi Yang",
+        "Yiming Du",
+        "Jianbo Dai",
+        "Zhiming Mao",
+        "Xinyu Wang",
+        "Lifeng Shang",
+        "Haoli Bai"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/SWE-Lego/SWE-Lego",
+      "published": "2026-01-04T08:07:27.000Z"
+    },
+    {
+      "id": "2601.01576",
+      "title": "OpenNovelty: An LLM-powered Agentic System for Verifiable Scholarly Novelty Assessment",
+      "authors": [
+        "Ming Zhang",
+        "Kexin Tan",
+        "Yueyuan Huang",
+        "Yujiong Shen",
+        "Chunchun Ma",
+        "Li Ju",
+        "Xinran Zhang",
+        "Yuhui Wang",
+        "Wenqing Jing",
+        "Jingyi Deng",
+        "Huayu Sha",
+        "Binze Hu",
+        "Jingqi Tong",
+        "Changhao Jiang",
+        "Yage Geng",
+        "Yuankai Ying",
+        "Yue Zhang",
+        "Zhangyue Yin",
+        "Zhiheng Xi",
+        "Shihan Dou",
+        "Tao Gui",
+        "Qi Zhang",
+        "Xuanjing Huang"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/january-blue/OpenNovelty",
+      "published": "2026-01-04T15:48:51.000Z"
+    },
+    {
+      "id": "2601.02179",
+      "title": "Confidence Estimation for LLMs in Multi-turn Interactions",
+      "authors": [
+        "Caiqi Zhang",
+        "Ruihan Yang",
+        "Xiaochen Zhu",
+        "Chengzu Li",
+        "Tiancheng Hu",
+        "Yijiang River Dong",
+        "Deqing Yang",
+        "Nigel Collier"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/caiqizh/multi-turn-conf",
+      "published": "2026-01-05T14:58:04.000Z"
+    },
+    {
+      "id": "2601.02356",
+      "title": "Talk2Move: Reinforcement Learning for Text-Instructed Object-Level Geometric Transformation in Scenes",
+      "authors": [
+        "Jing Tan",
+        "Zhaoyang Zhang",
+        "Yantao Shen",
+        "Jiarui Cai",
+        "Shuo Yang",
+        "Jiajun Wu",
+        "Wei Xia",
+        "Zhuowen Tu",
+        "Stefano Soatto"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/sparkstj/Talk2Move",
+      "published": "2026-01-05T18:55:32.000Z"
+    },
+    {
+      "id": "2601.01046",
+      "title": "KV-Embedding: Training-free Text Embedding via Internal KV Re-routing in Decoder-only LLMs",
+      "authors": [
+        "Yixuan Tang",
+        "Yi Yang"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2026-01-03T02:55:43.000Z"
+    },
+    {
+      "id": "2601.01836",
+      "title": "COMPASS: A Framework for Evaluating Organization-Specific Policy Alignment in LLMs",
+      "authors": [
+        "Dasol Choi",
+        "DongGeon Lee",
+        "Brigitta Jesica Kartono",
+        "Helena Berndt",
+        "Taeyoun Kwon",
+        "Joonwon Jang",
+        "Haon Park",
+        "Hwanjo Yu",
+        "Minsuk Kahng"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/AIM-Intelligence/COMPASS",
+      "published": "2026-01-05T06:57:45.000Z"
+    },
+    {
+      "id": "2601.00501",
+      "title": "CPPO: Contrastive Perception for Vision Language Policy Optimization",
+      "authors": [
+        "Ahmad Rezaei",
+        "Mohsen Gholami",
+        "Saeed Ranjbar Alvar",
+        "Kevin Cannons",
+        "Mohammad Asiful Hossain",
+        "Zhou Weimin",
+        "Shunbo Zhou",
+        "Yong Zhang",
+        "Mohammad Akbari"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/vbdi/cppo",
+      "published": "2026-01-01T22:48:26.000Z"
+    },
+    {
+      "id": "2601.02267",
+      "title": "DiffProxy: Multi-View Human Mesh Recovery via Diffusion-Generated Dense Proxies",
+      "authors": [
+        "Renke Wang",
+        "Zhenyu Zhang",
+        "Ying Tai",
+        "Jian Yang"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/wrk226/DiffProxy",
+      "published": "2026-01-05T16:51:45.000Z"
+    },
+    {
+      "id": "2512.23035",
+      "title": "Toward Stable Semi-Supervised Remote Sensing Segmentation via Co-Guidance and Co-Fusion",
+      "authors": [
+        "Yi Zhou",
+        "Xuechao Zou",
+        "Shun Zhang",
+        "Kai Li",
+        "Shiying Wang",
+        "Jingming Chen",
+        "Congyan Lang",
+        "Tengfei Cao",
+        "Pin Tao",
+        "Yuanchun Shi"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/XavierJiezou/Co2S",
+      "published": "2025-12-28T18:24:19.000Z"
+    },
+    {
+      "id": "2601.02315",
+      "title": "Prithvi-Complimentary Adaptive Fusion Encoder (CAFE): unlocking full-potential for flood inundation mapping",
+      "authors": [
+        "Saurabh Kaushik",
+        "Lalit Maurya",
+        "Beth Tellman"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/Sk-2103/Prithvi-CAFE",
+      "published": "2026-01-05T18:07:21.000Z"
+    },
+    {
+      "id": "2512.21472",
+      "title": "IMA++: ISIC Archive Multi-Annotator Dermoscopic Skin Lesion Segmentation Dataset",
+      "authors": [
+        "Kumar Abhishek",
+        "Jeremy Kawahara",
+        "Ghassan Hamarneh"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/sfu-mial/IMAplusplus",
+      "published": "2025-12-25T02:21:55.000Z"
+    },
+    {
+      "id": "2601.00863",
+      "title": "Selective Imperfection as a Generative Framework for Analysis, Creativity and Discovery",
+      "authors": [
+        "Markus J. Buehler"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/lamm-mit/MusicAnalysis",
+      "published": "2025-12-30T11:14:51.000Z"
+    },
+    {
+      "id": "2512.22877",
+      "title": "M-ErasureBench: A Comprehensive Multimodal Evaluation Benchmark for Concept Erasure in Diffusion Models",
+      "authors": [
+        "Ju-Hsuan Weng",
+        "Jia-Wei Liao",
+        "Cheng-Fu Chou",
+        "Jun-Cheng Chen"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2025-12-28T10:58:36.000Z"
+    },
+    {
+      "id": "2601.02314",
+      "title": "Project Ariadne: A Structural Causal Framework for Auditing Faithfulness in LLM Agents",
+      "authors": [
+        "Sourena Khanzadeh"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/skhanzad/AridadneXAI",
+      "published": "2026-01-05T18:05:29.000Z"
+    }
+  ]
+}

@@ -1,0 +1,759 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-09-23",
+  "fetched_at": "2026-10-29T15:33:15.898Z",
+  "candidates": [
+    {
+      "id": "2509.17765",
+      "title": "Qwen3-Omni Technical Report",
+      "authors": [
+        "Jin Xu",
+        "Zhifang Guo",
+        "Hangrui Hu",
+        "Yunfei Chu",
+        "Xiong Wang",
+        "Jinzheng He",
+        "Yuxuan Wang",
+        "Xian Shi",
+        "Ting He",
+        "Xinfa Zhu",
+        "Yuanjun Lv",
+        "Yongqi Wang",
+        "Dake Guo",
+        "He Wang",
+        "Linhan Ma",
+        "Pei Zhang",
+        "Xinyu Zhang",
+        "Hongkun Hao",
+        "Zishan Guo",
+        "Baosong Yang",
+        "Bin Zhang",
+        "Ziyang Ma",
+        "Xipin Wei",
+        "Shuai Bai",
+        "Keqin Chen",
+        "Xuejing Liu",
+        "Peng Wang",
+        "Mingkun Yang",
+        "Dayiheng Liu",
+        "Xingzhang Ren",
+        "Bo Zheng",
+        "Rui Men",
+        "Fan Zhou",
+        "Bowen Yu",
+        "Jianxin Yang",
+        "Le Yu",
+        "Jingren Zhou",
+        "Junyang Lin"
+      ],
+      "upvotes": 155,
+      "github": "https://github.com/QwenLM/Qwen3-Omni",
+      "published": "2025-09-22T13:26:24.000Z"
+    },
+    {
+      "id": "2509.17567",
+      "title": "LIMI: Less is More for Agency",
+      "authors": [
+        "Yang Xiao",
+        "Mohan Jiang",
+        "Jie Sun",
+        "Keyu Li",
+        "Jifan Lin",
+        "Yumin Zhuang",
+        "Ji Zeng",
+        "Shijie Xia",
+        "Qishuo Hua",
+        "Xuefeng Li",
+        "Xiaojie Cai",
+        "Tongyu Wang",
+        "Yue Zhang",
+        "Liming Liu",
+        "Xia Wu",
+        "Jinlong Hou",
+        "Yuan Cheng",
+        "Wenjie Li",
+        "Xiang Wang",
+        "Dequan Wang",
+        "Pengfei Liu"
+      ],
+      "upvotes": 101,
+      "github": "https://github.com/GAIR-NLP/LIMI",
+      "published": "2025-09-22T10:59:32.000Z"
+    },
+    {
+      "id": "2509.17627",
+      "title": "OmniInsert: Mask-Free Video Insertion of Any Reference via Diffusion Transformer Models",
+      "authors": [
+        "Jinshu Chen",
+        "Xinghui Li",
+        "Xu Bai",
+        "Tianxiang Ma",
+        "Pengze Zhang",
+        "Zhuowei Chen",
+        "Gen Li",
+        "Lijie Liu",
+        "Songtao Zhao",
+        "Bingchuan Li",
+        "Qian He"
+      ],
+      "upvotes": 66,
+      "github": "https://github.com/Phantom-video/OmniInsert",
+      "published": "2025-09-22T11:35:55.000Z"
+    },
+    {
+      "id": "2509.17158",
+      "title": "ARE: Scaling Up Agent Environments and Evaluations",
+      "authors": [
+        "Pierre Andrews",
+        "Amine Benhalloum",
+        "Gerard Moreno-Torres Bertran",
+        "Matteo Bettini",
+        "Amar Budhiraja",
+        "Ricardo Silveira Cabral",
+        "Virginie Do",
+        "Romain Froger",
+        "Emilien Garreau",
+        "Jean-Baptiste Gaya",
+        "Hugo Laurençon",
+        "Maxime Lecanu",
+        "Kunal Malkan",
+        "Dheeraj Mekala",
+        "Pierre Ménard",
+        "Grégoire Mialon",
+        "Ulyana Piterbarg",
+        "Mikhail Plekhanov",
+        "Mathieu Rita",
+        "Andrey Rusakov",
+        "Thomas Scialom",
+        "Vladislav Vorotilov",
+        "Mengjue Wang",
+        "Ian Yu"
+      ],
+      "upvotes": 36,
+      "github": "https://github.com/facebookresearch/meta-agents-research-environments",
+      "published": "2025-09-21T16:59:45.000Z"
+    },
+    {
+      "id": "2509.18091",
+      "title": "OnePiece: Bringing Context Engineering and Reasoning to Industrial Cascade Ranking System",
+      "authors": [
+        "Sunhao Dai",
+        "Jiakai Tang",
+        "Jiahua Wu",
+        "Kun Wang",
+        "Yuxuan Zhu",
+        "Bingjun Chen",
+        "Bangyang Hong",
+        "Yu Zhao",
+        "Cong Fu",
+        "Kangle Wu",
+        "Yabo Ni",
+        "Anxiang Zeng",
+        "Wenjie Wang",
+        "Xu Chen",
+        "Jun Xu",
+        "See-Kiong Ng"
+      ],
+      "upvotes": 34,
+      "github": null,
+      "published": "2025-09-22T17:59:07.000Z"
+    },
+    {
+      "id": "2509.18056",
+      "title": "TempSamp-R1: Effective Temporal Sampling with Reinforcement Fine-Tuning for Video LLMs",
+      "authors": [
+        "Yunheng Li",
+        "Jing Cheng",
+        "Shaoyong Jia",
+        "Hangyi Kuang",
+        "Shaohui Jiao",
+        "Qibin Hou",
+        "Ming-Ming Cheng"
+      ],
+      "upvotes": 27,
+      "github": null,
+      "published": "2025-09-22T17:30:15.000Z"
+    },
+    {
+      "id": "2509.17985",
+      "title": "VideoFrom3D: 3D Scene Video Generation via Complementary Image and Video Diffusion Models",
+      "authors": [
+        "Geonung Kim",
+        "Janghyeok Han",
+        "Sunghyun Cho"
+      ],
+      "upvotes": 26,
+      "github": "https://github.com/KIMGEONUNG/VideoFrom3D",
+      "published": "2025-09-22T16:28:47.000Z"
+    },
+    {
+      "id": "2509.16117",
+      "title": "DiffusionNFT: Online Diffusion Reinforcement with Forward Process",
+      "authors": [
+        "Kaiwen Zheng",
+        "Huayu Chen",
+        "Haotian Ye",
+        "Haoxiang Wang",
+        "Qinsheng Zhang",
+        "Kai Jiang",
+        "Hang Su",
+        "Stefano Ermon",
+        "Jun Zhu",
+        "Ming-Yu Liu"
+      ],
+      "upvotes": 24,
+      "github": null,
+      "published": "2025-09-19T16:09:33.000Z"
+    },
+    {
+      "id": "2509.16941",
+      "title": "SWE-Bench Pro: Can AI Agents Solve Long-Horizon Software Engineering Tasks?",
+      "authors": [
+        "Xiang Deng",
+        "Jeff Da",
+        "Edwin Pan",
+        "Yannis Yiming He",
+        "Charles Ide",
+        "Kanak Garg",
+        "Niklas Lauffer",
+        "Andrew Park",
+        "Nitin Pasari",
+        "Chetan Rane",
+        "Karmini Sampath",
+        "Maya Krishnan",
+        "Srivatsa Kundurthy",
+        "Sean Hendryx",
+        "Zifan Wang",
+        "Chen Bo Calvin Zhang",
+        "Noah Jacobson",
+        "Bing Liu",
+        "Brad Kenstler"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/scaleapi/SWE-bench_Pro-os",
+      "published": "2025-09-21T06:28:17.000Z"
+    },
+    {
+      "id": "2509.17396",
+      "title": "EpiCache: Episodic KV Cache Management for Long Conversational Question Answering",
+      "authors": [
+        "Minsoo Kim",
+        "Arnav Kundu",
+        "Han-Byul Kim",
+        "Richa Dixit",
+        "Minsik Cho"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/apple/ml-epicache",
+      "published": "2025-09-22T06:56:35.000Z"
+    },
+    {
+      "id": "2509.17437",
+      "title": "GeoPQA: Bridging the Visual Perception Gap in MLLMs for Geometric Reasoning",
+      "authors": [
+        "Guizhen Chen",
+        "Weiwen Xu",
+        "Hao Zhang",
+        "Hou Pong Chan",
+        "Deli Zhao",
+        "Anh Tuan Luu",
+        "Yu Rong"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/DAMO-NLP-SG/GeoPQA",
+      "published": "2025-09-22T07:28:09.000Z"
+    },
+    {
+      "id": "2509.16596",
+      "title": "Analyzing the Effects of Supervised Fine-Tuning on Model Knowledge from Token and Parameter Levels",
+      "authors": [
+        "Junjie Ye",
+        "Yuming Yang",
+        "Yang Nan",
+        "Shuo Li",
+        "Qi Zhang",
+        "Tao Gui",
+        "Xuanjing Huang",
+        "Peng Wang",
+        "Zhongchao Shi",
+        "Jianping Fan"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/UmeanNever/ParamRestore",
+      "published": "2025-09-20T09:40:32.000Z"
+    },
+    {
+      "id": "2509.18084",
+      "title": "ByteWrist: A Parallel Robotic Wrist Enabling Flexible and Anthropomorphic Motion for Confined Spaces",
+      "authors": [
+        "Jiawen Tian",
+        "Liqun Huang",
+        "Zhongren Cui",
+        "Jingchao Qiao",
+        "Jiafeng Xu",
+        "Xiao Ma",
+        "Zeyu Ren"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2025-09-22T17:57:07.000Z"
+    },
+    {
+      "id": "2509.18058",
+      "title": "Strategic Dishonesty Can Undermine AI Safety Evaluations of Frontier LLM",
+      "authors": [
+        "Alexander Panfilov",
+        "Evgenii Kortukov",
+        "Kristina Nikolić",
+        "Matthias Bethge",
+        "Sebastian Lapuschkin",
+        "Wojciech Samek",
+        "Ameya Prabhu",
+        "Maksym Andriushchenko",
+        "Jonas Geiping"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2025-09-22T17:30:56.000Z"
+    },
+    {
+      "id": "2509.17671",
+      "title": "Turk-LettuceDetect: A Hallucination Detection Models for Turkish RAG Applications",
+      "authors": [
+        "Selva Taş",
+        "Mahmut El Huseyni",
+        "Özay Ezerceli",
+        "Reyhan Bayraktar",
+        "Fatma Betül Terzioğlu"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2025-09-22T12:14:11.000Z"
+    },
+    {
+      "id": "2509.17336",
+      "title": "Mano Report",
+      "authors": [
+        "Tianyu Fu",
+        "Anyang Su",
+        "Chenxu Zhao",
+        "Hanning Wang",
+        "Minghui Wu",
+        "Zhe Yu",
+        "Fei Hu",
+        "Mingjia Shi",
+        "Wei Dong",
+        "Jiayao Wang",
+        "Yuyang Chen",
+        "Ruiyang Yu",
+        "Siran Peng",
+        "Menglin Li",
+        "Nan Huang",
+        "Haitian Wei",
+        "Jiawei Yu",
+        "Yi Xin",
+        "Xilin Zhao",
+        "Kai Gu",
+        "Ping Jiang",
+        "Sifan Zhou",
+        "Shuo Wang"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2025-09-22T03:13:58.000Z"
+    },
+    {
+      "id": "2509.17428",
+      "title": "QWHA: Quantization-Aware Walsh-Hadamard Adaptation for Parameter-Efficient Fine-Tuning on Large Language Models",
+      "authors": [
+        "Hyesung Jeon",
+        "Seojune Lee",
+        "Beomseok Kang",
+        "Yulhwa Kim",
+        "Jae-Joon Kim"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/vantaa89/qwha",
+      "published": "2025-09-22T07:21:41.000Z"
+    },
+    {
+      "id": "2509.18095",
+      "title": "MetaEmbed: Scaling Multimodal Retrieval at Test-Time with Flexible Late Interaction",
+      "authors": [
+        "Zilin Xiao",
+        "Qi Ma",
+        "Mengting Gu",
+        "Chun-cheng Jason Chen",
+        "Xintao Chen",
+        "Vicente Ordonez",
+        "Vijai Mohan"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2025-09-22T17:59:42.000Z"
+    },
+    {
+      "id": "2509.15248",
+      "title": "Synthetic bootstrapped pretraining",
+      "authors": [
+        "Zitong Yang",
+        "Aonan Zhang",
+        "Hong Liu",
+        "Tatsunori Hashimoto",
+        "Emmanuel Candès",
+        "Chong Wang",
+        "Ruoming Pang"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2025-09-17T22:28:27.000Z"
+    },
+    {
+      "id": "2509.17818",
+      "title": "ContextFlow: Training-Free Video Object Editing via Adaptive Context Enrichment",
+      "authors": [
+        "Yiyang Chen",
+        "Xuanhua He",
+        "Xiujun Ma",
+        "Yue Ma"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/yyChen233/ContextFlow",
+      "published": "2025-09-22T14:13:31.000Z"
+    },
+    {
+      "id": "2509.18010",
+      "title": "Cross-Attention is Half Explanation in Speech-to-Text Models",
+      "authors": [
+        "Sara Papi",
+        "Dennis Fucci",
+        "Marco Gaido",
+        "Matteo Negri",
+        "Luisa Bentivogli"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2025-09-22T16:49:26.000Z"
+    },
+    {
+      "id": "2509.17177",
+      "title": "FlagEval Findings Report: A Preliminary Evaluation of Large Reasoning Models on Automatically Verifiable Textual and Visual Questions",
+      "authors": [
+        "Bowen Qin",
+        "Chen Yue",
+        "Fang Yin",
+        "Hui Wang",
+        "JG Yao",
+        "Jiakang Liu",
+        "Jing-Shu Zheng",
+        "Miguel Hu Chen",
+        "Richeng Xuan",
+        "Shibei Meng",
+        "Shiqi Zhou",
+        "Teng Dai",
+        "Tong-Shuai Ren",
+        "Wei Cui",
+        "Xi Yang",
+        "Xialin Du",
+        "Xiaojing Xu",
+        "Xue Sun",
+        "Xuejing Li",
+        "Yaming Liu",
+        "Yesheng Liu",
+        "Ying Liu",
+        "Yonghua Lin",
+        "Yu Zhao",
+        "Yunduo Zhang",
+        "Yuwen Luo",
+        "Zheqi He",
+        "Zhiyuan He",
+        "Zhongyuan Wang"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/flageval-baai/ROME-evaluation",
+      "published": "2025-09-21T17:53:30.000Z"
+    },
+    {
+      "id": "2509.15709",
+      "title": "Understanding Embedding Scaling in Collaborative Filtering",
+      "authors": [
+        "Zhuangzhuang He",
+        "Zhou Kaiyu",
+        "Haoyue Bai",
+        "Fengbin Zhu",
+        "Yonghui Yang"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-09-19T07:33:50.000Z"
+    },
+    {
+      "id": "2509.17938",
+      "title": "D-REX: A Benchmark for Detecting Deceptive Reasoning in Large Language Models",
+      "authors": [
+        "Satyapriya Krishna",
+        "Andy Zou",
+        "Rahul Gupta",
+        "Eliot Krzysztof Jones",
+        "Nick Winter",
+        "Dan Hendrycks",
+        "J. Zico Kolter",
+        "Matt Fredrikson",
+        "Spyros Matsoukas"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-09-22T15:59:40.000Z"
+    },
+    {
+      "id": "2509.18053",
+      "title": "V2V-GoT: Vehicle-to-Vehicle Cooperative Autonomous Driving with Multimodal Large Language Models and Graph-of-Thoughts",
+      "authors": [
+        "Hsu-kuang Chiu",
+        "Ryo Hachiuma",
+        "Chien-Yi Wang",
+        "Yu-Chiang Frank Wang",
+        "Min-Hung Chen",
+        "Stephen F. Smith"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/eddyhkchiu/V2V-GoT",
+      "published": "2025-09-22T17:27:29.000Z"
+    },
+    {
+      "id": "2509.18083",
+      "title": "Reasoning Core: A Scalable RL Environment for LLM Symbolic Reasoning",
+      "authors": [
+        "Valentin Lacombe",
+        "Valentin Quesnel",
+        "Damien Sileo"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-09-22T17:56:38.000Z"
+    },
+    {
+      "id": "2509.17641",
+      "title": "AuditoryBench++: Can Language Models Understand Auditory Knowledge without Hearing?",
+      "authors": [
+        "Hyunjong Ok",
+        "Suho Yoo",
+        "Hyeonjun Kim",
+        "Jaeho Lee"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/HJ-OK/AuditoryBenchpp",
+      "published": "2025-09-22T11:45:22.000Z"
+    },
+    {
+      "id": "2509.17786",
+      "title": "Accurate and Efficient Low-Rank Model Merging in Core Space",
+      "authors": [
+        "Aniello Panariello",
+        "Daniel Marczak",
+        "Simone Magistri",
+        "Angelo Porrello",
+        "Bartłomiej Twardowski",
+        "Andrew D. Bagdanov",
+        "Simone Calderara",
+        "Joost van de Weijer"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/apanariello4/core-space-merging",
+      "published": "2025-09-22T13:48:15.000Z"
+    },
+    {
+      "id": "2509.18094",
+      "title": "UniPixel: Unified Object Referring and Segmentation for Pixel-Level Visual Reasoning",
+      "authors": [
+        "Ye Liu",
+        "Zongyang Ma",
+        "Junfu Pu",
+        "Zhongang Qi",
+        "Yang Wu",
+        "Ying Shan",
+        "Chang Wen Chen"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/PolyU-ChenLab/UniPixel",
+      "published": "2025-09-22T17:59:40.000Z"
+    },
+    {
+      "id": "2509.16415",
+      "title": "StereoAdapter: Adapting Stereo Depth Estimation to Underwater Scenes",
+      "authors": [
+        "Zhengri Wu",
+        "Yiran Wang",
+        "Yu Wen",
+        "Zeyu Zhang",
+        "Biao Wu",
+        "Hao Tang"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/AIGeeksGroup/StereoAdapter",
+      "published": "2025-09-19T20:57:03.000Z"
+    },
+    {
+      "id": "2509.04441",
+      "title": "DEXOP: A Device for Robotic Transfer of Dexterous Human Manipulation",
+      "authors": [
+        "Hao-Shu Fang",
+        "Branden Romero",
+        "Yichen Xie",
+        "Arthur Hu",
+        "Bo-Ruei Huang",
+        "Juan Alvarez",
+        "Matthew Kim",
+        "Gabriel Margolis",
+        "Kavya Anbarasu",
+        "Masayoshi Tomizuka",
+        "Edward Adelson",
+        "Pulkit Agrawal"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2025-09-04T17:57:13.000Z"
+    },
+    {
+      "id": "2509.14856",
+      "title": "CodeFuse-CR-Bench: A Comprehensiveness-aware Benchmark for End-to-End Code Review Evaluation in Python Projects",
+      "authors": [
+        "Hanyang Guo",
+        "Xunjin Zheng",
+        "Zihan Liao",
+        "Hang Yu",
+        "Peng DI",
+        "Ziyin Zhang",
+        "Hong-Ning Dai"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2025-09-18T11:24:09.000Z"
+    },
+    {
+      "id": "2509.16591",
+      "title": "From Uniform to Heterogeneous: Tailoring Policy Optimization to Every Token's Nature",
+      "authors": [
+        "Zheng Liu",
+        "Mengjie Liu",
+        "Siwei Wen",
+        "Mengzhang Cai",
+        "Bin Cui",
+        "Conghui He",
+        "Wentao Zhang"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/starriver030515/HAPO",
+      "published": "2025-09-20T09:30:25.000Z"
+    },
+    {
+      "id": "2509.16633",
+      "title": "When Big Models Train Small Ones: Label-Free Model Parity Alignment for Efficient Visual Question Answering using Small VLMs",
+      "authors": [
+        "Abhirama Subramanyam Penamakuri",
+        "Navlika Singh",
+        "Piyush Arora",
+        "Anand Mishra"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/vl2g/MPA",
+      "published": "2025-09-20T11:12:23.000Z"
+    },
+    {
+      "id": "2509.09873",
+      "title": "From Hugging Face to GitHub: Tracing License Drift in the Open-Source AI Ecosystem",
+      "authors": [
+        "James Jewitt",
+        "Hao Li",
+        "Bram Adams",
+        "Gopi Krishnan Rajbahadur",
+        "Ahmed E. Hassan"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2025-09-11T21:46:20.000Z"
+    },
+    {
+      "id": "2509.16195",
+      "title": "FocalCodec-Stream: Streaming Low-Bitrate Speech Coding via Causal Distillation",
+      "authors": [
+        "Luca Della Libera",
+        "Cem Subakan",
+        "Mirco Ravanelli"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2025-09-19T17:57:13.000Z"
+    },
+    {
+      "id": "2509.17399",
+      "title": "DIWALI - Diversity and Inclusivity aWare cuLture specific Items for India: Dataset and Assessment of LLMs for Cultural Text Adaptation in Indian Context",
+      "authors": [
+        "Pramit Sahoo",
+        "Maharaj Brahma",
+        "Maunendra Sankar Desarkar"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/pramitsahoo/culture-evaluation",
+      "published": "2025-09-22T06:58:02.000Z"
+    },
+    {
+      "id": "2509.17191",
+      "title": "VaseVQA: Multimodal Agent and Benchmark for Ancient Greek Pottery",
+      "authors": [
+        "Jinchao Ge",
+        "Tengfei Cheng",
+        "Biao Wu",
+        "Zeyu Zhang",
+        "Shiya Huang",
+        "Judith Bishop",
+        "Gillian Shepherd",
+        "Meng Fang",
+        "Ling Chen",
+        "Yang Zhao"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/AIGeeksGroup/VaseVQA",
+      "published": "2025-09-21T18:36:54.000Z"
+    },
+    {
+      "id": "2509.17998",
+      "title": "Adaptive Kernel Design for Bayesian Optimization Is a Piece of CAKE with LLMs",
+      "authors": [
+        "Richard Cornelius Suwandi",
+        "Feng Yin",
+        "Juntao Wang",
+        "Renjie Li",
+        "Tsung-Hui Chang",
+        "Sergios Theodoridis"
+      ],
+      "upvotes": 0,
+      "github": "https://github.com/richardcsuwandi/cake",
+      "published": "2025-09-22T16:39:12.000Z"
+    },
+    {
+      "id": "2509.17277",
+      "title": "BeepBank-500: A Synthetic Earcon Mini-Corpus for UI Sound Research and Psychoacoustics Research",
+      "authors": [
+        "Mandip Goswami"
+      ],
+      "upvotes": 0,
+      "github": "https://github.com/mandip42/earcons-mini-500",
+      "published": "2025-09-21T23:26:10.000Z"
+    },
+    {
+      "id": "2509.16548",
+      "title": "SCAN: Self-Denoising Monte Carlo Annotation for Robust Process Reward Learning",
+      "authors": [
+        "Yuyang Ding",
+        "Xinyu Shi",
+        "Juntao Li",
+        "Xiaobo Liang",
+        "Zhaopeng Tu",
+        "Min Zhang"
+      ],
+      "upvotes": 0,
+      "github": "https://github.com/yyDing1/SCAN-PRM",
+      "published": "2025-09-20T06:19:55.000Z"
+    }
+  ]
+}

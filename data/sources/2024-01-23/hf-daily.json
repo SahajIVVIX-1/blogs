@@ -1,0 +1,331 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-01-23",
+  "fetched_at": "2026-10-29T15:26:40.215Z",
+  "candidates": [
+    {
+      "id": "2401.12070",
+      "title": "Spotting LLMs With Binoculars: Zero-Shot Detection of Machine-Generated Text",
+      "authors": [
+        "Abhimanyu Hans",
+        "Avi Schwarzschild",
+        "Valeriia Cherepanova",
+        "Hamid Kazemi",
+        "Aniruddha Saha",
+        "Micah Goldblum",
+        "Jonas Geiping",
+        "Tom Goldstein"
+      ],
+      "upvotes": 45,
+      "github": "https://github.com/ahans30/binoculars",
+      "published": "2024-01-22T16:09:47.000Z"
+    },
+    {
+      "id": "2401.12474",
+      "title": "Large Language Models are Superpositions of All Characters: Attaining Arbitrary Role-play via Self-Alignment",
+      "authors": [
+        "Keming Lu",
+        "Bowen Yu",
+        "Chang Zhou",
+        "Jingren Zhou"
+      ],
+      "upvotes": 36,
+      "github": "https://github.com/ofa-sys/ditto",
+      "published": "2024-01-23T03:56:22.000Z"
+    },
+    {
+      "id": "2401.12954",
+      "title": "Meta-Prompting: Enhancing Language Models with Task-Agnostic Scaffolding",
+      "authors": [
+        "Mirac Suzgun",
+        "Adam Tauman Kalai"
+      ],
+      "upvotes": 33,
+      "github": "https://github.com/suzgunmirac/meta-prompting",
+      "published": "2024-01-23T18:22:19.000Z"
+    },
+    {
+      "id": "2401.12168",
+      "title": "SpatialVLM: Endowing Vision-Language Models with Spatial Reasoning Capabilities",
+      "authors": [
+        "Boyuan Chen",
+        "Zhuo Xu",
+        "Sean Kirmani",
+        "Brian Ichter",
+        "Danny Driess",
+        "Pete Florence",
+        "Dorsa Sadigh",
+        "Leonidas Guibas",
+        "Fei Xia"
+      ],
+      "upvotes": 30,
+      "github": null,
+      "published": "2024-01-22T18:01:01.000Z"
+    },
+    {
+      "id": "2401.11708",
+      "title": "Mastering Text-to-Image Diffusion: Recaptioning, Planning, and Generating with Multimodal LLMs",
+      "authors": [
+        "Ling Yang",
+        "Zhaochen Yu",
+        "Chenlin Meng",
+        "Minkai Xu",
+        "Stefano Ermon",
+        "Bin Cui"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/yangling0818/rpg-diffusionmaster",
+      "published": "2024-01-22T06:16:29.000Z"
+    },
+    {
+      "id": "2401.12244",
+      "title": "Large-scale Reinforcement Learning for Diffusion Models",
+      "authors": [
+        "Yinan Zhang",
+        "Eric Tzeng",
+        "Yilun Du",
+        "Dmitry Kislyuk"
+      ],
+      "upvotes": 29,
+      "github": null,
+      "published": "2024-01-20T08:10:43.000Z"
+    },
+    {
+      "id": "2401.11944",
+      "title": "CMMMU: A Chinese Massive Multi-discipline Multimodal Understanding Benchmark",
+      "authors": [
+        "Ge Zhang",
+        "Xinrun Du",
+        "Bei Chen",
+        "Yiming Liang",
+        "Tongxu Luo",
+        "Tianyu Zheng",
+        "Kang Zhu",
+        "Yuyang Cheng",
+        "Chunpu Xu",
+        "Shuyue Guo",
+        "Haoran Zhang",
+        "Xingwei Qu",
+        "Junjie Wang",
+        "Ruibin Yuan",
+        "Yizhi Li",
+        "Zekun Wang",
+        "Yudong Liu",
+        "Yu-Hsuan Tsai",
+        "Fengji Zhang",
+        "Chenghua Lin",
+        "Wenhao Huang",
+        "Wenhu Chen",
+        "Jie Fu"
+      ],
+      "upvotes": 27,
+      "github": null,
+      "published": "2024-01-22T13:34:34.000Z"
+    },
+    {
+      "id": "2401.11605",
+      "title": "Scalable High-Resolution Pixel-Space Image Synthesis with Hourglass Diffusion Transformers",
+      "authors": [
+        "Katherine Crowson",
+        "Stefan Andreas Baumann",
+        "Alex Birch",
+        "Tanishq Mathew Abraham",
+        "Daniel Z. Kaplan",
+        "Enrico Shippole"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/crowsonkb/k-diffusion",
+      "published": "2024-01-21T21:49:49.000Z"
+    },
+    {
+      "id": "2401.12208",
+      "title": "CheXagent: Towards a Foundation Model for Chest X-Ray Interpretation",
+      "authors": [
+        "Zhihong Chen",
+        "Maya Varma",
+        "Jean-Benoit Delbrouck",
+        "Magdalini Paschali",
+        "Louis Blankemeier",
+        "Dave Van Veen",
+        "Jeya Maria Jose Valanarasu",
+        "Alaa Youssef",
+        "Joseph Paul Cohen",
+        "Eduardo Pontes Reis",
+        "Emily B. Tsai",
+        "Andrew Johnston",
+        "Cameron Olsen",
+        "Tanishq Mathew Abraham",
+        "Sergios Gatidis",
+        "Akshay S. Chaudhari",
+        "Curtis Langlotz"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/Stanford-AIMI/CheXagent",
+      "published": "2024-01-22T18:51:07.000Z"
+    },
+    {
+      "id": "2401.12179",
+      "title": "DITTO: Diffusion Inference-Time T-Optimization for Music Generation",
+      "authors": [
+        "Zachary Novack",
+        "Julian McAuley",
+        "Taylor Berg-Kirkpatrick",
+        "Nicholas J. Bryan"
+      ],
+      "upvotes": 21,
+      "github": null,
+      "published": "2024-01-22T18:10:10.000Z"
+    },
+    {
+      "id": "2401.12187",
+      "title": "WARM: On the Benefits of Weight Averaged Reward Models",
+      "authors": [
+        "Alexandre Ramé",
+        "Nino Vieillard",
+        "Léonard Hussenot",
+        "Robert Dadashi",
+        "Geoffrey Cideron",
+        "Olivier Bachem",
+        "Johan Ferret"
+      ],
+      "upvotes": 19,
+      "github": null,
+      "published": "2024-01-22T18:27:08.000Z"
+    },
+    {
+      "id": "2401.11739",
+      "title": "EmerDiff: Emerging Pixel-level Semantic Knowledge in Diffusion Models",
+      "authors": [
+        "Koichi Namekata",
+        "Amirmojtaba Sabour",
+        "Sanja Fidler",
+        "Seung Wook Kim"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2024-01-22T07:34:06.000Z"
+    },
+    {
+      "id": "2401.11067",
+      "title": "Make-A-Shape: a Ten-Million-scale 3D Shape Model",
+      "authors": [
+        "Ka-Hei Hui",
+        "Aditya Sanghi",
+        "Arianna Rampini",
+        "Kamal Rahimi Malekshan",
+        "Zhengzhe Liu",
+        "Hooman Shayani",
+        "Chi-Wing Fu"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/autodeskailab/make-a-shape",
+      "published": "2024-01-20T00:21:58.000Z"
+    },
+    {
+      "id": "2401.12246",
+      "title": "Orion-14B: Open-source Multilingual Large Language Models",
+      "authors": [
+        "Du Chen",
+        "Yi Huang",
+        "Xiaopu Li",
+        "Yongqiang Li",
+        "Yongqiang Liu",
+        "Haihui Pan",
+        "Leichao Xu",
+        "Dacheng Zhang",
+        "Zhipeng Zhang",
+        "Kun Han"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/orionstarai/orion",
+      "published": "2024-01-20T12:29:27.000Z"
+    },
+    {
+      "id": "2401.11053",
+      "title": "StreamVoice: Streamable Context-Aware Language Modeling for Real-time Zero-Shot Voice Conversion",
+      "authors": [
+        "Zhichao Wang",
+        "Yuanzhe Chen",
+        "Xinsheng Wang",
+        "Zhuo Chen",
+        "Lei Xie",
+        "Yuping Wang",
+        "Yuxuan Wang"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2024-01-19T23:05:05.000Z"
+    },
+    {
+      "id": "2401.12202",
+      "title": "OK-Robot: What Really Matters in Integrating Open-Knowledge Models for Robotics",
+      "authors": [
+        "Peiqi Liu",
+        "Yaswanth Orru",
+        "Chris Paxton",
+        "Nur Muhammad Mahi Shafiullah",
+        "Lerrel Pinto"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/ok-robot/ok-robot",
+      "published": "2024-01-22T18:42:20.000Z"
+    },
+    {
+      "id": "2401.11078",
+      "title": "UltrAvatar: A Realistic Animatable 3D Avatar Diffusion Model with Authenticity Guided Textures",
+      "authors": [
+        "Mingyuan Zhou",
+        "Rakib Hyder",
+        "Ziwei Xuan",
+        "Guojun Qi"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2024-01-20T01:55:17.000Z"
+    },
+    {
+      "id": "2401.12175",
+      "title": "Single-View 3D Human Digitalization with Large Reconstruction Models",
+      "authors": [
+        "Zhenzhen Weng",
+        "Jingyuan Liu",
+        "Hao Tan",
+        "Zhan Xu",
+        "Yang Zhou",
+        "Serena Yeung-Levy",
+        "Jimei Yang"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2024-01-22T18:08:22.000Z"
+    },
+    {
+      "id": "2401.11985",
+      "title": "Scaling Face Interaction Graph Networks to Real World Scenes",
+      "authors": [
+        "Tatiana Lopez-Guevara",
+        "Yulia Rubanova",
+        "William F. Whitney",
+        "Tobias Pfaff",
+        "Kimberly Stachenfeld",
+        "Kelsey R. Allen"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2024-01-22T14:38:25.000Z"
+    },
+    {
+      "id": "2401.11002",
+      "title": "Fast Registration of Photorealistic Avatars for VR Facial Animation",
+      "authors": [
+        "Chaitanya Patel",
+        "Shaojie Bai",
+        "Te-Li Wang",
+        "Jason Saragih",
+        "Shih-En Wei"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2024-01-19T19:42:38.000Z"
+    }
+  ]
+}

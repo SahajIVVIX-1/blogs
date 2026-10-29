@@ -1,0 +1,389 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-07-02",
+  "fetched_at": "2026-10-29T15:32:00.528Z",
+  "candidates": [
+    {
+      "id": "2507.01006",
+      "title": "GLM-4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning",
+      "authors": [
+        "Wenyi Hong",
+        "Wenmeng Yu",
+        "Xiaotao Gu",
+        "Guo Wang",
+        "Guobing Gan",
+        "Haomiao Tang",
+        "Jiale Cheng",
+        "Ji Qi",
+        "Junhui Ji",
+        "Lihang Pan",
+        "Shuaiqi Duan",
+        "Weihan Wang",
+        "Yan Wang",
+        "Yean Cheng",
+        "Zehai He",
+        "Zhe Su",
+        "Zhen Yang",
+        "Ziyang Pan",
+        "Aohan Zeng",
+        "Baoxu Wang",
+        "Boyan Shi",
+        "Changyu Pang",
+        "Chenhui Zhang",
+        "Da Yin",
+        "Fan Yang",
+        "Guoqing Chen",
+        "Jiazheng Xu",
+        "Jiali Chen",
+        "Jing Chen",
+        "Jinhao Chen",
+        "Jinghao Lin",
+        "Jinjiang Wang",
+        "Junjie Chen",
+        "Leqi Lei",
+        "Leyi Pan",
+        "Mingzhi Zhang",
+        "Qinkai Zheng",
+        "Sheng Yang",
+        "Shi Zhong",
+        "Shiyu Huang",
+        "Shuyuan Zhao",
+        "Siyan Xue",
+        "Shangqin Tu",
+        "Shengbiao Meng",
+        "Tianshu Zhang",
+        "Tianwei Luo",
+        "Tianxiang Hao",
+        "Tianle Gong",
+        "Wenkai Li",
+        "Wei Jia",
+        "Xin Lyu",
+        "Xuancheng Huang",
+        "Yanling Wang",
+        "Yadong Xue",
+        "Yanfeng Wang",
+        "Yifan An",
+        "Yifan Du",
+        "Yiming Shi",
+        "Yiheng Huang",
+        "Yilin Niu",
+        "Yuan Wang",
+        "Yuanchang Yue",
+        "Yuchen Li",
+        "Yutao Zhang",
+        "Yuxuan Zhang",
+        "Zhanxiao Du",
+        "Zhenyu Hou",
+        "Zhao Xue",
+        "Zhengxiao Du",
+        "Zihan Wang",
+        "Peng Zhang",
+        "Debing Liu",
+        "Bin Xu",
+        "Juanzi Li",
+        "Minlie Huang",
+        "Yuxiao Dong",
+        "Jie Tang"
+      ],
+      "upvotes": 257,
+      "github": "https://github.com/THUDM/GLM-4.1V-Thinking",
+      "published": "2025-07-01T17:55:04.000Z"
+    },
+    {
+      "id": "2507.00432",
+      "title": "Does Math Reasoning Improve General LLM Capabilities? Understanding Transferability of LLM Reasoning",
+      "authors": [
+        "Maggie Huan",
+        "Yuetai Li",
+        "Tuney Zheng",
+        "Xiaoyu Xu",
+        "Seungone Kim",
+        "Minxin Du",
+        "Radha Poovendran",
+        "Graham Neubig",
+        "Xiang Yue"
+      ],
+      "upvotes": 79,
+      "github": "https://github.com/ReasoningTransfer/Transferability-of-LLM-Reasoning",
+      "published": "2025-07-01T05:23:05.000Z"
+    },
+    {
+      "id": "2507.01001",
+      "title": "SciArena: An Open Evaluation Platform for Foundation Models in Scientific Literature Tasks",
+      "authors": [
+        "Yilun Zhao",
+        "Kaiyan Zhang",
+        "Tiansheng Hu",
+        "Sihong Wu",
+        "Ronan Le Bras",
+        "Taira Anderson",
+        "Jonathan Bragg",
+        "Joseph Chee Chang",
+        "Jesse Dodge",
+        "Matt Latzke",
+        "Yixin Liu",
+        "Charles McGrady",
+        "Xiangru Tang",
+        "Zihang Wang",
+        "Chen Zhao",
+        "Hannaneh Hajishirzi",
+        "Doug Downey",
+        "Arman Cohan"
+      ],
+      "upvotes": 47,
+      "github": "https://github.com/yale-nlp/SciArena",
+      "published": "2025-07-01T17:51:59.000Z"
+    },
+    {
+      "id": "2506.19852",
+      "title": "Radial Attention: O(nlog n) Sparse Attention with Energy Decay for Long Video Generation",
+      "authors": [
+        "Xingyang Li",
+        "Muyang Li",
+        "Tianle Cai",
+        "Haocheng Xi",
+        "Shuo Yang",
+        "Yujun Lin",
+        "Lvmin Zhang",
+        "Songlin Yang",
+        "Jinbo Hu",
+        "Kelly Peng",
+        "Maneesh Agrawala",
+        "Ion Stoica",
+        "Kurt Keutzer",
+        "Song Han"
+      ],
+      "upvotes": 41,
+      "github": "https://github.com/mit-han-lab/radial-attention",
+      "published": "2025-06-24T17:59:59.000Z"
+    },
+    {
+      "id": "2506.23115",
+      "title": "MoCa: Modality-aware Continual Pre-training Makes Better Bidirectional Multimodal Embeddings",
+      "authors": [
+        "Haonan Chen",
+        "Hong Liu",
+        "Yuping Luo",
+        "Liang Wang",
+        "Nan Yang",
+        "Furu Wei",
+        "Zhicheng Dou"
+      ],
+      "upvotes": 34,
+      "github": "https://github.com/haon-chen/MoCa",
+      "published": "2025-06-29T06:41:00.000Z"
+    },
+    {
+      "id": "2506.20639",
+      "title": "DiffuCoder: Understanding and Improving Masked Diffusion Models for Code Generation",
+      "authors": [
+        "Shansan Gong",
+        "Ruixiang Zhang",
+        "Huangjie Zheng",
+        "Jiatao Gu",
+        "Navdeep Jaitly",
+        "Lingpeng Kong",
+        "Yizhe Zhang"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/apple/ml-diffucoder",
+      "published": "2025-06-25T17:35:47.000Z"
+    },
+    {
+      "id": "2507.00951",
+      "title": "Thinking Beyond Tokens: From Brain-Inspired Intelligence to Cognitive Foundations for Artificial General Intelligence and its Societal Impact",
+      "authors": [
+        "Rizwan Qureshi",
+        "Ranjan Sapkota",
+        "Abbas Shah",
+        "Amgad Muneer",
+        "Anas Zafar",
+        "Ashmal Vayani",
+        "Maged Shoman",
+        "Abdelrahman B. M. Eldaly",
+        "Kai Zhang",
+        "Ferhat Sadak",
+        "Shaina Raza",
+        "Xinqi Fan",
+        "Ravid Shwartz-Ziv",
+        "Hong Yan",
+        "Vinjia Jain",
+        "Aman Chadha",
+        "Manoj Karkee",
+        "Jia Wu",
+        "Philip Torr",
+        "Seyedali Mirjalili"
+      ],
+      "upvotes": 24,
+      "github": null,
+      "published": "2025-07-01T16:52:25.000Z"
+    },
+    {
+      "id": "2506.21277",
+      "title": "HumanOmniV2: From Understanding to Omni-Modal Reasoning with Context",
+      "authors": [
+        "Qize Yang",
+        "Shimin Yao",
+        "Weixuan Chen",
+        "Shenghao Fu",
+        "Detao Bai",
+        "Jiaxing Zhao",
+        "Boyuan Sun",
+        "Bowen Yin",
+        "Xihan Wei",
+        "Jingren Zhou"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/HumanMLLM/HumanOmniV2",
+      "published": "2025-06-26T14:01:03.000Z"
+    },
+    {
+      "id": "2506.23009",
+      "title": "MusiXQA: Advancing Visual Music Understanding in Multimodal Large Language Models",
+      "authors": [
+        "Jian Chen",
+        "Wenye Ma",
+        "Penghang Liu",
+        "Wei Wang",
+        "Tengwei Song",
+        "Ming Li",
+        "Chenguang Wang",
+        "Ruiyi Zhang",
+        "Changyou Chen"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/puar-playground/MusiXQA",
+      "published": "2025-06-28T20:46:47.000Z"
+    },
+    {
+      "id": "2506.21545",
+      "title": "Data Efficacy for Language Model Training",
+      "authors": [
+        "Yalun Dai",
+        "Yangyu Huang",
+        "Xin Zhang",
+        "Wenshan Wu",
+        "Chong Li",
+        "Wenhui Lu",
+        "Shijie Cao",
+        "Li Dong",
+        "Scarlett Li"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/microsoft/DELT",
+      "published": "2025-06-26T17:59:07.000Z"
+    },
+    {
+      "id": "2507.00339",
+      "title": "Training for X-Ray Vision: Amodal Segmentation, Amodal Content Completion, and View-Invariant Object Representation from Multi-Camera Video",
+      "authors": [
+        "Alexander Moore",
+        "Amar Saini",
+        "Kylie Cancilla",
+        "Doug Poland",
+        "Carmen Carrano"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2025-07-01T00:36:56.000Z"
+    },
+    {
+      "id": "2506.23329",
+      "title": "IR3D-Bench: Evaluating Vision-Language Model Scene Understanding as Agentic Inverse Rendering",
+      "authors": [
+        "Parker Liu",
+        "Chenxin Li",
+        "Zhengxin Li",
+        "Yipeng Wu",
+        "Wuyang Li",
+        "Zhiqin Yang",
+        "Zhenyuan Zhang",
+        "Yunlong Lin",
+        "Sirui Han",
+        "Brandon Y. Feng"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/LiuHengyu321/IR3D-Bench",
+      "published": "2025-06-29T17:02:57.000Z"
+    },
+    {
+      "id": "2507.00162",
+      "title": "FreeLong++: Training-Free Long Video Generation via Multi-band SpectralFusion",
+      "authors": [
+        "Yu Lu",
+        "Yi Yang"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/aniki-ly/FreeLong",
+      "published": "2025-06-30T18:11:21.000Z"
+    },
+    {
+      "id": "2506.22960",
+      "title": "Peccavi: Visual Paraphrase Attack Safe and Distortion Free Image Watermarking Technique for AI-Generated Images",
+      "authors": [
+        "Shreyas Dixit",
+        "Ashhar Aziz",
+        "Shashwat Bajpai",
+        "Vasu Sharma",
+        "Aman Chadha",
+        "Vinija Jain",
+        "Amitava Das"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2025-06-28T17:34:08.000Z"
+    },
+    {
+      "id": "2507.00606",
+      "title": "Mixture of Reasonings: Teach Large Language Models to Reason with Adaptive Strategies",
+      "authors": [
+        "Tao Xiong",
+        "Xavier Hu",
+        "Wenyan Fan",
+        "Shengyu Zhang"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2025-07-01T09:39:04.000Z"
+    },
+    {
+      "id": "2506.22973",
+      "title": "Confident Splatting: Confidence-Based Compression of 3D Gaussian Splatting via Learnable Beta Distributions",
+      "authors": [
+        "AmirHossein Naghi Razlighi",
+        "Elaheh Badali Golezani",
+        "Shohreh Kasaei"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/amirhossein-razlighi/Confident-Splatting",
+      "published": "2025-06-28T18:11:30.000Z"
+    },
+    {
+      "id": "2506.24019",
+      "title": "Ella: Embodied Social Agents with Lifelong Memory",
+      "authors": [
+        "Hongxin Zhang",
+        "Zheyuan Zhang",
+        "Zeyuan Wang",
+        "Zunzhe Zhang",
+        "Lixing Fang",
+        "Qinhong Zhou",
+        "Chuang Gan"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/UMass-Embodied-AGI/Ella",
+      "published": "2025-06-30T16:22:51.000Z"
+    },
+    {
+      "id": "2507.00476",
+      "title": "FreNBRDF: A Frequency-Rectified Neural Material Representation",
+      "authors": [
+        "Chenliang Zhou",
+        "Zheyuan Hu",
+        "Cengiz Oztireli"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/PeterHUistyping/FreNBRDF",
+      "published": "2025-07-01T06:48:50.000Z"
+    }
+  ]
+}

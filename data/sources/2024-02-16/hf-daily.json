@@ -1,0 +1,198 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-02-16",
+  "fetched_at": "2026-10-29T15:26:54.829Z",
+  "candidates": [
+    {
+      "id": "2402.10200",
+      "title": "Chain-of-Thought Reasoning Without Prompting",
+      "authors": [
+        "Xuezhi Wang",
+        "Denny Zhou"
+      ],
+      "upvotes": 111,
+      "github": null,
+      "published": "2024-02-15T18:55:41.000Z"
+    },
+    {
+      "id": "2402.09906",
+      "title": "Generative Representational Instruction Tuning",
+      "authors": [
+        "Niklas Muennighoff",
+        "Hongjin Su",
+        "Liang Wang",
+        "Nan Yang",
+        "Furu Wei",
+        "Tao Yu",
+        "Amanpreet Singh",
+        "Douwe Kiela"
+      ],
+      "upvotes": 54,
+      "github": "https://github.com/contextualai/gritlm",
+      "published": "2024-02-15T12:12:19.000Z"
+    },
+    {
+      "id": "2402.09668",
+      "title": "How to Train Data-Efficient LLMs",
+      "authors": [
+        "Noveen Sachdeva",
+        "Benjamin Coleman",
+        "Wang-Cheng Kang",
+        "Jianmo Ni",
+        "Lichan Hong",
+        "Ed H. Chi",
+        "James Caverlee",
+        "Julian McAuley",
+        "Derek Zhiyuan Cheng"
+      ],
+      "upvotes": 42,
+      "github": null,
+      "published": "2024-02-15T02:27:57.000Z"
+    },
+    {
+      "id": "2402.09727",
+      "title": "A Human-Inspired Reading Agent with Gist Memory of Very Long Contexts",
+      "authors": [
+        "Kuang-Huei Lee",
+        "Xinyun Chen",
+        "Hiroki Furuta",
+        "John Canny",
+        "Ian Fischer"
+      ],
+      "upvotes": 38,
+      "github": null,
+      "published": "2024-02-15T05:40:21.000Z"
+    },
+    {
+      "id": "2402.10176",
+      "title": "OpenMathInstruct-1: A 1.8 Million Math Instruction Tuning Dataset",
+      "authors": [
+        "Shubham Toshniwal",
+        "Ivan Moshkov",
+        "Sean Narenthiran",
+        "Daria Gitman",
+        "Fei Jia",
+        "Igor Gitman"
+      ],
+      "upvotes": 38,
+      "github": "https://github.com/kipok/nemo-skills",
+      "published": "2024-02-15T18:26:11.000Z"
+    },
+    {
+      "id": "2402.10210",
+      "title": "Self-Play Fine-Tuning of Diffusion Models for Text-to-Image Generation",
+      "authors": [
+        "Huizhuo Yuan",
+        "Zixiang Chen",
+        "Kaixuan Ji",
+        "Quanquan Gu"
+      ],
+      "upvotes": 34,
+      "github": null,
+      "published": "2024-02-15T18:59:18.000Z"
+    },
+    {
+      "id": "2402.10171",
+      "title": "Data Engineering for Scaling Language Models to 128K Context",
+      "authors": [
+        "Yao Fu",
+        "Rameswar Panda",
+        "Xinyao Niu",
+        "Xiang Yue",
+        "Hannaneh Hajishirzi",
+        "Yoon Kim",
+        "Hao Peng"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/franxyao/long-context-data-engineering",
+      "published": "2024-02-15T18:19:16.000Z"
+    },
+    {
+      "id": "2402.10193",
+      "title": "BitDelta: Your Fine-Tune May Only Be Worth One Bit",
+      "authors": [
+        "James Liu",
+        "Guangxuan Xiao",
+        "Kai Li",
+        "Jason D. Lee",
+        "Song Han",
+        "Tri Dao",
+        "Tianle Cai"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/FasterDecoding/BitDelta",
+      "published": "2024-02-15T18:50:06.000Z"
+    },
+    {
+      "id": "2402.10009",
+      "title": "Zero-Shot Unsupervised and Text-Based Audio Editing Using DDPM Inversion",
+      "authors": [
+        "Hila Manor",
+        "Tomer Michaeli"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/jinhualiang/tage",
+      "published": "2024-02-15T15:17:26.000Z"
+    },
+    {
+      "id": "2402.10128",
+      "title": "GES: Generalized Exponential Splatting for Efficient Radiance Field Rendering",
+      "authors": [
+        "Abdullah Hamdi",
+        "Luke Melas-Kyriazi",
+        "Guocheng Qian",
+        "Jinjie Mai",
+        "Ruoshi Liu",
+        "Carl Vondrick",
+        "Bernard Ghanem",
+        "Andrea Vedaldi"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/ajhamdi/ges-splatting",
+      "published": "2024-02-15T17:32:50.000Z"
+    },
+    {
+      "id": "2402.09812",
+      "title": "DreamMatcher: Appearance Matching Self-Attention for Semantically-Consistent Text-to-Image Personalization",
+      "authors": [
+        "Jisu Nam",
+        "Heesu Kim",
+        "DongJae Lee",
+        "Siyoon Jin",
+        "Seungryong Kim",
+        "Seunggyu Chang"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/KU-CVLAB/DreamMatcher",
+      "published": "2024-02-15T09:21:16.000Z"
+    },
+    {
+      "id": "2402.09470",
+      "title": "Rolling Diffusion Models",
+      "authors": [
+        "David Ruhe",
+        "Jonathan Heek",
+        "Tim Salimans",
+        "Emiel Hoogeboom"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2024-02-12T08:16:10.000Z"
+    },
+    {
+      "id": "2402.10211",
+      "title": "Hierarchical State Space Models for Continuous Sequence-to-Sequence Modeling",
+      "authors": [
+        "Raunaq Bhirangi",
+        "Chenyu Wang",
+        "Venkatesh Pattabiraman",
+        "Carmel Majidi",
+        "Abhinav Gupta",
+        "Tess Hellebrekers",
+        "Lerrel Pinto"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/raunaqbhirangi/hiss",
+      "published": "2024-02-15T18:59:43.000Z"
+    }
+  ]
+}

@@ -1,0 +1,502 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-03-09",
+  "fetched_at": "2026-10-29T15:34:56.963Z",
+  "candidates": [
+    {
+      "id": "2603.06569",
+      "title": "Penguin-VL: Exploring the Efficiency Limits of VLM with LLM-based Vision Encoders",
+      "authors": [
+        "Boqiang Zhang",
+        "Lei Ke",
+        "Ruihan Yang",
+        "Qi Gao",
+        "Tianyuan Qu",
+        "Rossell Chen",
+        "Dong Yu",
+        "Leoweiliang"
+      ],
+      "upvotes": 120,
+      "github": "https://github.com/tencent-ailab/Penguin-VL",
+      "published": "2026-03-06T18:58:04.000Z"
+    },
+    {
+      "id": "2603.05706",
+      "title": "Reasoning Models Struggle to Control their Chains of Thought",
+      "authors": [
+        "Chen Yueh-Han",
+        "Robert McCarthy",
+        "Bruce W. Lee",
+        "He He",
+        "Ian Kivlichan",
+        "Bowen Baker",
+        "Micah Carroll",
+        "Tomek Korbak"
+      ],
+      "upvotes": 42,
+      "github": "https://github.com/YuehHanChen/CoTControl",
+      "published": "2026-03-05T22:03:48.000Z"
+    },
+    {
+      "id": "2603.05438",
+      "title": "Planning in 8 Tokens: A Compact Discrete Tokenizer for Latent World Model",
+      "authors": [
+        "Dongwon Kim",
+        "Gawon Seo",
+        "Jinsung Lee",
+        "Minsu Cho",
+        "Suha Kwak"
+      ],
+      "upvotes": 41,
+      "github": "https://github.com/kdwonn/CompACT",
+      "published": "2026-03-05T18:00:02.000Z"
+    },
+    {
+      "id": "2603.00586",
+      "title": "WildActor: Unconstrained Identity-Preserving Video Generation",
+      "authors": [
+        "Qin Guo",
+        "Tianyu Yang",
+        "Xuanhua He",
+        "Fei Shen",
+        "Yong Zhang",
+        "Zhuoliang Kang",
+        "Xiaoming Wei",
+        "Dan Xu"
+      ],
+      "upvotes": 36,
+      "github": "https://github.com/WildActor/WildActor",
+      "published": "2026-02-28T10:34:39.000Z"
+    },
+    {
+      "id": "2603.04639",
+      "title": "RoboMME: Benchmarking and Understanding Memory for Robotic Generalist Policies",
+      "authors": [
+        "Yinpei Dai",
+        "Hongze Fu",
+        "Jayjun Lee",
+        "Yuejiang Liu",
+        "Haoran Zhang",
+        "Jianing Yang",
+        "Chelsea Finn",
+        "Nima Fazeli",
+        "Joyce Chai"
+      ],
+      "upvotes": 32,
+      "github": "https://github.com/RoboMME/robomme_benchmark",
+      "published": "2026-03-04T21:59:32.000Z"
+    },
+    {
+      "id": "2603.05369",
+      "title": "Progressive Residual Warmup for Language Model Pretraining",
+      "authors": [
+        "Tianhao Chen",
+        "Xin Xu",
+        "Lu Yin",
+        "Hao Chen",
+        "Yang Wang",
+        "Shizhe Diao",
+        "Can Yang"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/dandingsky/ProRes",
+      "published": "2026-03-05T16:52:15.000Z"
+    },
+    {
+      "id": "2603.06351",
+      "title": "Dynamic Chunking Diffusion Transformer",
+      "authors": [
+        "Akash Haridas",
+        "Utkarsh Saxena",
+        "Parsa Ashrafi Fashi",
+        "Mehdi Rezagholizadeh",
+        "Vikram Appia",
+        "Emad Barsoum"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2026-03-06T14:59:11.000Z"
+    },
+    {
+      "id": "2603.04918",
+      "title": "BandPO: Bridging Trust Regions and Ratio Clipping via Probability-Aware Bounds for LLM Reinforcement Learning",
+      "authors": [
+        "Yuan Li",
+        "Bo Wang",
+        "Yufei Gao",
+        "Yuqian Yao",
+        "Xinyuan Wang",
+        "Zhangyue Yin",
+        "Xipeng Qiu"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/OpenMOSS/BandPO",
+      "published": "2026-03-05T08:03:05.000Z"
+    },
+    {
+      "id": "2603.06408",
+      "title": "Physical Simulator In-the-Loop Video Generation",
+      "authors": [
+        "Lin Geng Foo",
+        "Mark He Huang",
+        "Alexandros Lattas",
+        "Stylianos Moschoglou",
+        "Thabo Beeler",
+        "Christian Theobalt"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/MarkHershey/PSIVG",
+      "published": "2026-03-06T15:48:25.000Z"
+    },
+    {
+      "id": "2603.05181",
+      "title": "Mario: Multimodal Graph Reasoning with Large Language Models",
+      "authors": [
+        "Yuanfu Sun",
+        "Kang Li",
+        "Pengkang Guo",
+        "Jiajin Liu",
+        "Qiaoyu Tan"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/sunyuanfu/Mario",
+      "published": "2026-03-05T13:49:41.000Z"
+    },
+    {
+      "id": "2603.04750",
+      "title": "HiMAP-Travel: Hierarchical Multi-Agent Planning for Long-Horizon Constrained Travel",
+      "authors": [
+        "The Viet Bui",
+        "Wenjun Li",
+        "Yong Liu"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2026-03-05T02:55:53.000Z"
+    },
+    {
+      "id": "2603.06014",
+      "title": "EffectMaker: Unifying Reasoning and Generation for Customized Visual Effect Creation",
+      "authors": [
+        "Shiyuan Yang",
+        "Ruihuang Li",
+        "Jiale Tao",
+        "Shuai Shao",
+        "Qinglin Lu",
+        "Jing Liao"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/ysy31415/EffectMaker",
+      "published": "2026-03-06T08:09:14.000Z"
+    },
+    {
+      "id": "2603.02083",
+      "title": "π-StepNFT: Wider Space Needs Finer Steps in Online RL for Flow-based VLAs",
+      "authors": [
+        "Siting Wang",
+        "Xiaofeng Wang",
+        "Zheng Zhu",
+        "Minnan Pei",
+        "Xinyu Cui",
+        "Cheng Deng",
+        "Jian Zhao",
+        "Guan Huang",
+        "Haifeng Zhang",
+        "Jun Wang"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/wangst0181/pi-StepNFT",
+      "published": "2026-03-02T17:04:49.000Z"
+    },
+    {
+      "id": "2603.06199",
+      "title": "FlashPrefill: Instantaneous Pattern Discovery and Thresholding for Ultra-Fast Long-Context Prefilling",
+      "authors": [
+        "Qihang Fan",
+        "Huaibo Huang",
+        "Zhiying Wu",
+        "Juqiu Wang",
+        "Bingning Wang",
+        "Ran He"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/qhfan/FlashPrefill",
+      "published": "2026-03-06T12:12:46.000Z"
+    },
+    {
+      "id": "2603.04445",
+      "title": "Dynamic Model Routing and Cascading for Efficient LLM Inference: A Survey",
+      "authors": [
+        "Yasmin Moslem",
+        "John D. Kelleher"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/ymoslem/awesome-llm-routing-cascading",
+      "published": "2026-08-30T00:00:00.000Z"
+    },
+    {
+      "id": "2602.22839",
+      "title": "DeepPresenter: Environment-Grounded Reflection for Agentic Presentation Generation",
+      "authors": [
+        "Hao Zheng",
+        "Guozhao Mo",
+        "Xinru Yan",
+        "Qianhao Yuan",
+        "Wenkai Zhang",
+        "Xuanang Chen",
+        "Yaojie Lu",
+        "Hongyu Lin",
+        "Xianpei Han",
+        "Le Sun"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-02-26T10:26:48.000Z"
+    },
+    {
+      "id": "2603.06743",
+      "title": "Stabilizing Reinforcement Learning for Diffusion Language Models",
+      "authors": [
+        "Jianyuan Zhong",
+        "Kaibo Wang",
+        "Ding Ding",
+        "Zijin Feng",
+        "Haoli Bai",
+        "Yang Xiang",
+        "Jiacheng Sun",
+        "Qiang Xu"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/JianyuanZhong/StableDRL",
+      "published": "2026-03-06T08:55:37.000Z"
+    },
+    {
+      "id": "2603.04948",
+      "title": "nabla-Reasoner: LLM Reasoning via Test-Time Gradient Descent in Latent Space",
+      "authors": [
+        "Peihao Wang",
+        "Ruisi Cai",
+        "Zhen Wang",
+        "Hongyuan Mei",
+        "Qiang Liu",
+        "Pan Li",
+        "Zhangyang Wang"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/VITA-Group/Nabla-Reasoner",
+      "published": "2026-03-05T08:42:54.000Z"
+    },
+    {
+      "id": "2603.05607",
+      "title": "DreamCAD: Scaling Multi-modal CAD Generation using Differentiable Parametric Surfaces",
+      "authors": [
+        "Mohammad Sadil Khan",
+        "Muhammad Usama",
+        "Rolandos Alexandros Potamias",
+        "Didier Stricker",
+        "Muhammad Zeshan Afzal",
+        "Jiankang Deng",
+        "Ismail Elezi"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-03-05T19:04:07.000Z"
+    },
+    {
+      "id": "2603.04370",
+      "title": "τ-Knowledge: Evaluating Conversational Agents over Unstructured Knowledge",
+      "authors": [
+        "Quan Shi",
+        "Alexandra Zytek",
+        "Pedram Razavi",
+        "Karthik Narasimhan",
+        "Victor Barres"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-03-04T18:34:47.000Z"
+    },
+    {
+      "id": "2603.05494",
+      "title": "Censored LLMs as a Natural Testbed for Secret Knowledge Elicitation",
+      "authors": [
+        "Helena Casademunt",
+        "Bartosz Cywiński",
+        "Khoi Tran",
+        "Arya Jakkli",
+        "Samuel Marks",
+        "Neel Nanda"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/cywinski/chinese_auditing",
+      "published": "2026-03-05T18:58:14.000Z"
+    },
+    {
+      "id": "2603.06331",
+      "title": "WorldCache: Accelerating World Models for Free via Heterogeneous Token Caching",
+      "authors": [
+        "Weilun Feng",
+        "Guoxin Fan",
+        "Haotong Qin",
+        "Chuanguang Yang",
+        "Mingqiang Wu",
+        "Yuqi Li",
+        "Xiangqi Li",
+        "Zhulin An",
+        "Libo Huang",
+        "Dingrui Wang",
+        "Longlong Liao",
+        "Michele Magno",
+        "Yongjun Xu"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/FofGofx/WorldCache",
+      "published": "2026-03-06T14:43:47.000Z"
+    },
+    {
+      "id": "2603.01193",
+      "title": "Operator Learning Using Weak Supervision from Walk-on-Spheres",
+      "authors": [
+        "Hrishikesh Viswanath",
+        "Hong Chul Nam",
+        "Xi Deng",
+        "Julius Berner",
+        "Anima Anandkumar",
+        "Aniket Bera"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/neuraloperator/WoS-NO",
+      "published": "2026-03-01T17:23:39.000Z"
+    },
+    {
+      "id": "2602.23408",
+      "title": "Demystifying Action Space Design for Robotic Manipulation Policies",
+      "authors": [
+        "Yuchun Feng",
+        "Jinliang Zheng",
+        "Zhihao Wang",
+        "Dongxiu Liu",
+        "Jianxiong Li",
+        "Jiangmiao Pang",
+        "Tai Wang",
+        "Xianyuan Zhan"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2026-02-26T13:32:41.000Z"
+    },
+    {
+      "id": "2603.05888",
+      "title": "PixARMesh: Autoregressive Mesh-Native Single-View Scene Reconstruction",
+      "authors": [
+        "Xiang Zhang",
+        "Sohyun Yoo",
+        "Hongrui Wu",
+        "Chuan Li",
+        "Jianwen Xie",
+        "Zhuowen Tu"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/mlpc-ucsd/PixARMesh",
+      "published": "2026-03-06T04:14:53.000Z"
+    },
+    {
+      "id": "2602.23280",
+      "title": "Physics Informed Viscous Value Representations",
+      "authors": [
+        "Hrishikesh Viswanath",
+        "Juanwu Lu",
+        "S. Talha Bukhari",
+        "Damon Conover",
+        "Ziran Wang",
+        "Aniket Bera"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/HrishikeshVish/phys-fk-value-GCRL",
+      "published": "2026-02-26T17:53:46.000Z"
+    },
+    {
+      "id": "2603.04738",
+      "title": "IF-RewardBench: Benchmarking Judge Models for Instruction-Following Evaluation",
+      "authors": [
+        "Bosi Wen",
+        "Yilin Niu",
+        "Cunxiang Wang",
+        "Xiaoying Ling",
+        "Ying Zhang",
+        "Pei Ke",
+        "Hongning Wang",
+        "Minlie Huang"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/thu-coai/IF-RewardBench",
+      "published": "2026-03-05T02:21:17.000Z"
+    },
+    {
+      "id": "2603.05630",
+      "title": "Making Reconstruction FID Predictive of Diffusion Generation FID",
+      "authors": [
+        "Tongda Xu",
+        "Mingwei He",
+        "Shady Abu-Hussein",
+        "Jose Miguel Hernandez-Lobato",
+        "Haotian Zhang",
+        "Kai Zhao",
+        "Chao Zhou",
+        "Ya-Qin Zhang",
+        "Yan Wang"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/tongdaxu/Making-rFID-Predictive-of-Diffusion-gFID",
+      "published": "2026-03-05T19:39:01.000Z"
+    },
+    {
+      "id": "2603.05940",
+      "title": "SLER-IR: Spherical Layer-wise Expert Routing for All-in-One Image Restoration",
+      "authors": [
+        "Peng Shurui",
+        "Xin Lin",
+        "Shi Luo",
+        "Jincen Ou",
+        "Dizhe Zhang",
+        "Lu Qi",
+        "Truong Nguyen",
+        "Chao Ren"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2026-03-06T06:16:57.000Z"
+    },
+    {
+      "id": "2603.05280",
+      "title": "Layer by layer, module by module: Choose both for optimal OOD probing of ViT",
+      "authors": [
+        "Ambroise Odonnat",
+        "Vasilii Feofanov",
+        "Laetitia Chapel",
+        "Romain Tavenard",
+        "Ievgen Redko"
+      ],
+      "upvotes": 0,
+      "github": "https://github.com/ambroiseodt/vit-probing",
+      "published": "2026-03-05T15:23:41.000Z"
+    },
+    {
+      "id": "2603.01666",
+      "title": "Beyond the Grid: Layout-Informed Multi-Vector Retrieval with Parsed Visual Document Representations",
+      "authors": [
+        "Yibo Yan",
+        "Mingdong Ou",
+        "Yi Cao",
+        "Xin Zou",
+        "Shuliang Liu",
+        "Jiahao Huo",
+        "Yu Huang",
+        "James Kwok",
+        "Xuming Hu"
+      ],
+      "upvotes": 0,
+      "github": null,
+      "published": "2026-03-02T09:55:00.000Z"
+    }
+  ]
+}

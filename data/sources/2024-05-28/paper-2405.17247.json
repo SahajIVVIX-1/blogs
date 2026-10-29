@@ -1,0 +1,7 @@
+{
+  "id": "2405.17247",
+  "html": "https://arxiv.org/html/2405.17247",
+  "limitations": null,
+  "conclusion": "Mapping vision to language is still an active research area. From contrastive to generative methods, there are many ways to train VLMs. However, the high compute and data cost is often a barrier for most researchers. This mostly motivates the use of leveraging pre-trained LLMs or image encoders to learn only a mapping between modalities. Whatever the technique to train a VLM might be, there are still general considerations to bear in mind. Large-scale high-quality images and captions are important ingredients to push model performances. Improving model grounding and aligning the model with human preferences are also much needed steps to improve a model’s reliability. To assess performances, several benchmarks have been introduced to measure vision-linguistic and reasoning abilities; however, many of them have severe limitations such as being able to be solved only by using language prior",
+  "figure": null
+}

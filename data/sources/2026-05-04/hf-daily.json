@@ -1,0 +1,331 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-05-04",
+  "fetched_at": "2026-10-29T15:35:30.853Z",
+  "candidates": [
+    {
+      "id": "2605.00658",
+      "title": "UniVidX: A Unified Multimodal Framework for Versatile Video Generation via Diffusion Priors",
+      "authors": [
+        "Houyuan Chen",
+        "Hong Li",
+        "Xianghao Kong",
+        "Tianrui Zhu",
+        "Shaocong Xu",
+        "Weiqing Xiao",
+        "Yuwei Guo",
+        "Chongjie Ye",
+        "Lvmin Zhang",
+        "Hao Zhao",
+        "Anyi Rao"
+      ],
+      "upvotes": 86,
+      "github": "https://github.com/houyuanchen111/UniVidX",
+      "published": "2026-05-01T00:00:00.000Z"
+    },
+    {
+      "id": "2604.27221",
+      "title": "Web2BigTable: A Bi-Level Multi-Agent LLM System for Internet-Scale Information Search and Extraction",
+      "authors": [
+        "Yuxuan Huang",
+        "Yihang Chen",
+        "Zhiyuan He",
+        "Yuxiang Chen",
+        "Ka Yiu Lee",
+        "Huichi Zhou",
+        "Weilin Luo",
+        "Meng Fang",
+        "Jun Wang"
+      ],
+      "upvotes": 39,
+      "github": "https://github.com/web2bigtable/web2bigtable",
+      "published": "2026-04-29T00:00:00.000Z"
+    },
+    {
+      "id": "2605.00809",
+      "title": "Let ViT Speak: Generative Language-Image Pre-training",
+      "authors": [
+        "Yan Fang",
+        "Mengcheng Lan",
+        "Zilong Huang",
+        "Weixian Lei",
+        "Yunqing Zhao",
+        "Yujie Zhong",
+        "Yingchen Yu",
+        "Qi She",
+        "Yao Zhao",
+        "Yunchao Wei"
+      ],
+      "upvotes": 32,
+      "github": "https://github.com/YanFangCS/GenLIP",
+      "published": "2026-05-01T00:00:00.000Z"
+    },
+    {
+      "id": "2605.00781",
+      "title": "Map2World: Segment Map Conditioned Text to 3D World Generation",
+      "authors": [
+        "Jaeyoung Chung",
+        "Suyoung Lee",
+        "Jianfeng Xiang",
+        "Jiaolong Yang",
+        "Kyoung Mu Lee"
+      ],
+      "upvotes": 25,
+      "github": null,
+      "published": "2026-05-01T00:00:00.000Z"
+    },
+    {
+      "id": "2604.24026",
+      "title": "From Skill Text to Skill Structure: The Scheduling-Structural-Logical Representation for Agent Skills",
+      "authors": [
+        "Qiliang Liang",
+        "Hansi Wang",
+        "Zhong Liang",
+        "Yang Liu"
+      ],
+      "upvotes": 21,
+      "github": null,
+      "published": "2026-04-27T00:00:00.000Z"
+    },
+    {
+      "id": "2604.23774",
+      "title": "Prox-E: Fine-Grained 3D Shape Editing via Primitive-Based Abstractions",
+      "authors": [
+        "Etai Sella",
+        "Hao Phung",
+        "Nitay Amiel",
+        "Or Litany",
+        "Or Patashnik",
+        "Hadar Averbuch-Elor"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2026-04-29T00:00:00.000Z"
+    },
+    {
+      "id": "2605.00347",
+      "title": "Odysseus: Scaling VLMs to 100+ Turn Decision-Making in Games via Reinforcement Learning",
+      "authors": [
+        "Chengshuai Shi",
+        "Wenzhe Li",
+        "Xinran Liang",
+        "Yizhou Lu",
+        "Wenjia Yang",
+        "Ruirong Feng",
+        "Seth Karten",
+        "Ziran Yang",
+        "Zihan Ding",
+        "Gabriel Sarch",
+        "Danqi Chen",
+        "Karthik Narasimhan",
+        "Chi Jin"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2026-05-01T00:00:00.000Z"
+    },
+    {
+      "id": "2605.00553",
+      "title": "Stable-GFlowNet: Toward Diverse and Robust LLM Red-Teaming via Contrastive Trajectory Balance",
+      "authors": [
+        "Minchan Kwon",
+        "Sunghyun Baek",
+        "Minseo Kim",
+        "Jaemyung Yu",
+        "Dongyoon Han",
+        "Junmo Kim"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2026-05-01T00:00:00.000Z"
+    },
+    {
+      "id": "2605.00416",
+      "title": "Learning while Deploying: Fleet-Scale Reinforcement Learning for Generalist Robot Policies",
+      "authors": [
+        "Yi Wang",
+        "Xinchen Li",
+        "Pengwei Xie",
+        "Pu Yang",
+        "Buqing Nie",
+        "Yunuo Cai",
+        "Qinglin Zhang",
+        "Chendi Qu",
+        "Jeffrey Wu",
+        "Jianheng Song",
+        "Xinlin Ren",
+        "Jingshun Huang",
+        "Mingjie Pan",
+        "Siyuan Feng",
+        "Zhi Chen",
+        "Jianlan Luo"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2026-05-01T00:00:00.000Z"
+    },
+    {
+      "id": "2605.00503",
+      "title": "End-to-End Autoregressive Image Generation with 1D Semantic Tokenizer",
+      "authors": [
+        "Wenda Chu",
+        "Bingliang Zhang",
+        "Jiaqi Han",
+        "Yizhuo Li",
+        "Linjie Yang",
+        "Yisong Yue",
+        "Qiushan Guo"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2026-05-01T00:00:00.000Z"
+    },
+    {
+      "id": "2604.27124",
+      "title": "Better Models, Faster Training: Sigmoid Attention for single-cell Foundation Models",
+      "authors": [
+        "Vijay Sadashivaiah",
+        "Georgios Dasoulas",
+        "Judith Mueller",
+        "Soumya Ghosh"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2026-04-29T00:00:00.000Z"
+    },
+    {
+      "id": "2605.00273",
+      "title": "When Do Diffusion Models learn to Generate Multiple Objects?",
+      "authors": [
+        "Yujin Jeong",
+        "Arnas Uselis",
+        "Iro Laina",
+        "Seong Joon Oh",
+        "Anna Rohrbach"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/eugene6923/MOSAIC",
+      "published": "2026-04-30T00:00:00.000Z"
+    },
+    {
+      "id": "2605.00414",
+      "title": "Trees to Flows and Back: Unifying Decision Trees and Diffusion Models",
+      "authors": [
+        "Sai Niranjan Ramachandran",
+        "Suvrit Sra"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2026-05-01T00:00:00.000Z"
+    },
+    {
+      "id": "2604.23586",
+      "title": "Talker-T2AV: Joint Talking Audio-Video Generation with Autoregressive Diffusion Modeling",
+      "authors": [
+        "Zhen Ye",
+        "Xu Tan",
+        "Aoxiong Yin",
+        "Hongzhan Lin",
+        "Guangyan Zhang",
+        "Peiwen Sun",
+        "Yiming Li",
+        "Chi-Min Chan",
+        "Wei Ye",
+        "Shikun Zhang",
+        "Wei Xue"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/zhenye234/Talker-T2AV",
+      "published": "2026-04-26T00:00:00.000Z"
+    },
+    {
+      "id": "2604.21984",
+      "title": "Soft Anisotropic Diagrams for Differentiable Image Representation",
+      "authors": [
+        "Laki Iinbor",
+        "Zhiyang Dou",
+        "Wojciech Matusik"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/LuckyIYI/SAD",
+      "published": "2026-04-27T00:00:00.000Z"
+    },
+    {
+      "id": "2605.00691",
+      "title": "Learning to Act and Cooperate for Distributed Black-Box Consensus Optimization",
+      "authors": [
+        "Zi-Bo Qin",
+        "Feng-Feng Wei",
+        "Tai-You Chen",
+        "Wei-Neng Chen"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-05-01T00:00:00.000Z"
+    },
+    {
+      "id": "2604.27818",
+      "title": "MASCing: Configurable Mixture-of-Experts Behavior via Activation Steering Masks",
+      "authors": [
+        "Jona te Lintelo",
+        "Lichao Wu",
+        "Marina Krček",
+        "Sengim Karayalçin",
+        "Stjepan Picek"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/jonatelintelo/MASCing",
+      "published": "2026-04-30T00:00:00.000Z"
+    },
+    {
+      "id": "2605.00323",
+      "title": "Online Self-Calibration Against Hallucination in Vision-Language Models",
+      "authors": [
+        "Minghui Chen",
+        "Chenxu Yang",
+        "Hengjie Zhu",
+        "Dayan Wu",
+        "Zheng Lin",
+        "Qingyi Si"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2026-05-01T00:00:00.000Z"
+    },
+    {
+      "id": "2604.23195",
+      "title": "AnalogRetriever: Learning Cross-Modal Representations for Analog Circuit Retrieval",
+      "authors": [
+        "Yihan Wang",
+        "Lei Li",
+        "Yao Lai",
+        "Jing Wang",
+        "Yan Lu"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2026-04-25T00:00:00.000Z"
+    },
+    {
+      "id": "2605.00754",
+      "title": "Themis: Training Robust Multilingual Code Reward Models for Flexible Multi-Criteria Scoring",
+      "authors": [
+        "Indraneil Paul",
+        "Glavaš Glavas",
+        "Iryna Gurevych"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/iNeil77/Themis",
+      "published": "2026-05-01T00:00:00.000Z"
+    },
+    {
+      "id": "2605.00777",
+      "title": "LASE: Language-Adversarial Speaker Encoding for Indic Cross-Script Identity Preservation",
+      "authors": [
+        "Venkata Pushpak Teja Menta"
+      ],
+      "upvotes": 0,
+      "github": "https://github.com/praxelhq/lase",
+      "published": "2026-05-01T00:00:00.000Z"
+    }
+  ]
+}

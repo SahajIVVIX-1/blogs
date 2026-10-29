@@ -1,0 +1,296 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-06-28",
+  "fetched_at": "2026-10-29T15:28:15.837Z",
+  "candidates": [
+    {
+      "id": "2406.19389",
+      "title": "OMG-LLaVA: Bridging Image-level, Object-level, Pixel-level Reasoning and Understanding",
+      "authors": [
+        "Tao Zhang",
+        "Xiangtai Li",
+        "Hao Fei",
+        "Haobo Yuan",
+        "Shengqiong Wu",
+        "Shunping Ji",
+        "Chen Change Loy",
+        "Shuicheng Yan"
+      ],
+      "upvotes": 54,
+      "github": null,
+      "published": "2024-06-27T17:59:01.000Z"
+    },
+    {
+      "id": "2406.18629",
+      "title": "Step-DPO: Step-wise Preference Optimization for Long-chain Reasoning of LLMs",
+      "authors": [
+        "Xin Lai",
+        "Zhuotao Tian",
+        "Yukang Chen",
+        "Senqiao Yang",
+        "Xiangru Peng",
+        "Jiaya Jia"
+      ],
+      "upvotes": 42,
+      "github": "https://github.com/dvlab-research/step-dpo",
+      "published": "2024-06-26T17:43:06.000Z"
+    },
+    {
+      "id": "2406.18790",
+      "title": "MUMU: Bootstrapping Multimodal Image Generation from Text-to-Image Data",
+      "authors": [
+        "William Berman",
+        "Alexander Peysakhovich"
+      ],
+      "upvotes": 33,
+      "github": null,
+      "published": "2024-06-26T23:21:42.000Z"
+    },
+    {
+      "id": "2406.19226",
+      "title": "Simulating Classroom Education with LLM-Empowered Agents",
+      "authors": [
+        "Zheyuan Zhang",
+        "Daniel Zhang-Li",
+        "Jifan Yu",
+        "Linlu Gong",
+        "Jinchang Zhou",
+        "Zhiyuan Liu",
+        "Lei Hou",
+        "Juanzi Li"
+      ],
+      "upvotes": 32,
+      "github": null,
+      "published": "2024-06-27T14:51:07.000Z"
+    },
+    {
+      "id": "2406.19215",
+      "title": "SeaKR: Self-aware Knowledge Retrieval for Adaptive Retrieval Augmented Generation",
+      "authors": [
+        "Zijun Yao",
+        "Weijian Qi",
+        "Liangming Pan",
+        "Shulin Cao",
+        "Linmei Hu",
+        "Weichuan Liu",
+        "Lei Hou",
+        "Juanzi Li"
+      ],
+      "upvotes": 32,
+      "github": "https://github.com/thu-keg/seakr",
+      "published": "2024-06-27T14:38:33.000Z"
+    },
+    {
+      "id": "2406.19227",
+      "title": "Aligning Teacher with Student Preferences for Tailored Training Data Generation",
+      "authors": [
+        "Yantao Liu",
+        "Zhao Zhang",
+        "Zijun Yao",
+        "Shulin Cao",
+        "Lei Hou",
+        "Juanzi Li"
+      ],
+      "upvotes": 25,
+      "github": null,
+      "published": "2024-06-27T14:51:17.000Z"
+    },
+    {
+      "id": "2406.19314",
+      "title": "LiveBench: A Challenging, Contamination-Free LLM Benchmark",
+      "authors": [
+        "Colin White",
+        "Samuel Dooley",
+        "Manley Roberts",
+        "Arka Pal",
+        "Ben Feuer",
+        "Siddhartha Jain",
+        "Ravid Shwartz-Ziv",
+        "Neel Jain",
+        "Khalid Saifullah",
+        "Siddartha Naidu",
+        "Chinmay Hegde",
+        "Yann LeCun",
+        "Tom Goldstein",
+        "Willie Neiswanger",
+        "Micah Goldblum"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/livebench/livebench",
+      "published": "2024-06-27T16:47:42.000Z"
+    },
+    {
+      "id": "2406.14629",
+      "title": "Can LLMs Learn by Teaching? A Preliminary Study",
+      "authors": [
+        "Xuefei Ning",
+        "Zifu Wang",
+        "Shiyao Li",
+        "Zinan Lin",
+        "Peiran Yao",
+        "Tianyu Fu",
+        "Matthew B. Blaschko",
+        "Guohao Dai",
+        "Huazhong Yang",
+        "Yu Wang"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/imagination-research/lbt",
+      "published": "2024-06-20T18:00:17.000Z"
+    },
+    {
+      "id": "2406.19395",
+      "title": "Dataset Size Recovery from LoRA Weights",
+      "authors": [
+        "Mohammad Salama",
+        "Jonathan Kahana",
+        "Eliahu Horwitz",
+        "Yedid Hoshen"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/MoSalama98/DSiRe",
+      "published": "2024-06-27T17:59:53.000Z"
+    },
+    {
+      "id": "2406.14909",
+      "title": "MoA: Mixture of Sparse Attention for Automatic Large Language Model Compression",
+      "authors": [
+        "Tianyu Fu",
+        "Haofeng Huang",
+        "Xuefei Ning",
+        "Genghan Zhang",
+        "Boju Chen",
+        "Tianqi Wu",
+        "Hongyi Wang",
+        "Zixiao Huang",
+        "Shiyao Li",
+        "Shengen Yan",
+        "Guohao Dai",
+        "Huazhong Yang",
+        "Yu Wang"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/thu-nics/MoA",
+      "published": "2024-06-21T06:58:37.000Z"
+    },
+    {
+      "id": "2406.08316",
+      "title": "Is Programming by Example solved by LLMs?",
+      "authors": [
+        "Wen-Ding Li",
+        "Kevin Ellis"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2024-06-12T15:16:40.000Z"
+    },
+    {
+      "id": "2406.10900",
+      "title": "AUTOHALLUSION: Automatic Generation of Hallucination Benchmarks for Vision-Language Models",
+      "authors": [
+        "Xiyang Wu",
+        "Tianrui Guan",
+        "Dianqi Li",
+        "Shuaiyi Huang",
+        "Xiaoyu Liu",
+        "Xijun Wang",
+        "Ruiqi Xian",
+        "Abhinav Shrivastava",
+        "Furong Huang",
+        "Jordan Lee Boyd-Graber",
+        "Tianyi Zhou",
+        "Dinesh Manocha"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/wuxiyang1996/AutoHallusion",
+      "published": "2024-06-16T11:44:43.000Z"
+    },
+    {
+      "id": "2406.19223",
+      "title": "T-FREE: Tokenizer-Free Generative LLMs via Sparse Representations for Memory-Efficient Embeddings",
+      "authors": [
+        "Björn Deiseroth",
+        "Manuel Brack",
+        "Patrick Schramowski",
+        "Kristian Kersting",
+        "Samuel Weinbach"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/aleph-alpha/trigrams",
+      "published": "2024-06-27T14:49:08.000Z"
+    },
+    {
+      "id": "2406.19263",
+      "title": "Read Anywhere Pointed: Layout-aware GUI Screen Reading with Tree-of-Lens Grounding",
+      "authors": [
+        "Yue Fan",
+        "Lei Ding",
+        "Ching-Chen Kuo",
+        "Shan Jiang",
+        "Yang Zhao",
+        "Xinze Guan",
+        "Jie Yang",
+        "Yi Zhang",
+        "Xin Eric Wang"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/eric-ai-lab/Screen-Point-and-Read",
+      "published": "2024-06-27T15:34:16.000Z"
+    },
+    {
+      "id": "2406.18120",
+      "title": "ArzEn-LLM: Code-Switched Egyptian Arabic-English Translation and Speech Recognition Using LLMs",
+      "authors": [
+        "Ahmed Heakl",
+        "Youssef Zaghloul",
+        "Mennatullah Ali",
+        "Rania Hossam",
+        "Walid Gomaa"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/ahmedheakl/arazn-llm",
+      "published": "2024-06-26T07:19:51.000Z"
+    },
+    {
+      "id": "2406.18676",
+      "title": "Understand What LLM Needs: Dual Preference Alignment for Retrieval-Augmented Generation",
+      "authors": [
+        "Guanting Dong",
+        "Yutao Zhu",
+        "Chenghao Zhang",
+        "Zechen Wang",
+        "Zhicheng Dou",
+        "Ji-Rong Wen"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/dongguanting/dpa-rag",
+      "published": "2024-06-26T18:26:53.000Z"
+    },
+    {
+      "id": "2406.17513",
+      "title": "Benchmarking Mental State Representations in Language Models",
+      "authors": [
+        "Matteo Bortoletto",
+        "Constantin Ruhdorfer",
+        "Lei Shi",
+        "Andreas Bulling"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2024-06-25T12:51:06.000Z"
+    },
+    {
+      "id": "2406.18125",
+      "title": "ResumeAtlas: Revisiting Resume Classification with Large-Scale Datasets and Large Language Models",
+      "authors": [
+        "Ahmed Heakl",
+        "Youssef Mohamed",
+        "Noran Mohamed",
+        "Ali Sharkaway",
+        "Ahmed Zaky"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/noran-mohamed/Resume-Classification-Dataset",
+      "published": "2024-06-26T07:25:18.000Z"
+    }
+  ]
+}

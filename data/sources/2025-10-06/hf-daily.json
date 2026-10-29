@@ -1,0 +1,614 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-10-06",
+  "fetched_at": "2026-10-29T15:33:23.683Z",
+  "candidates": [
+    {
+      "id": "2510.01141",
+      "title": "Apriel-1.5-15b-Thinker",
+      "authors": [
+        "Shruthan Radhakrishna",
+        "Aman Tiwari",
+        "Aanjaneya Shukla",
+        "Masoud Hashemi",
+        "Rishabh Maheshwary",
+        "Shiva Krishna Reddy Malay",
+        "Jash Mehta",
+        "Pulkit Pattnaik",
+        "Saloni Mittal",
+        "Khalil Slimi",
+        "Kelechi Ogueji",
+        "Akintunde Oladipo",
+        "Soham Parikh",
+        "Oluwanifemi Bamgbose",
+        "Toby Liang",
+        "Ahmed Masry",
+        "Khyati Mahajan",
+        "Sai Rajeswar Mudumba",
+        "Vikas Yadav",
+        "Sathwik Tejaswi Madhusudhan",
+        "Torsten Scholak",
+        "Sagar Davasam",
+        "Srinivas Sunkara",
+        "Nicholas Chapados"
+      ],
+      "upvotes": 65,
+      "github": null,
+      "published": "2025-10-01T17:29:35.000Z"
+    },
+    {
+      "id": "2510.00938",
+      "title": "Large Reasoning Models Learn Better Alignment from Flawed Thinking",
+      "authors": [
+        "ShengYun Peng",
+        "Eric Smith",
+        "Ivan Evtimov",
+        "Song Jiang",
+        "Pin-Yu Chen",
+        "Hongyuan Zhan",
+        "Haozhu Wang",
+        "Duen Horng Chau",
+        "Mahesh Pasupuleti",
+        "Jianfeng Chi"
+      ],
+      "upvotes": 47,
+      "github": null,
+      "published": "2025-10-01T14:15:43.000Z"
+    },
+    {
+      "id": "2510.00515",
+      "title": "Efficient Multi-modal Large Language Models via Progressive Consistency Distillation",
+      "authors": [
+        "Zichen Wen",
+        "Shaobo Wang",
+        "Yufa Zhou",
+        "Junyuan Zhang",
+        "Qintong Zhang",
+        "Yifeng Gao",
+        "Zhaorun Chen",
+        "Bin Wang",
+        "Weijia Li",
+        "Conghui He",
+        "Linfeng Zhang"
+      ],
+      "upvotes": 41,
+      "github": "https://github.com/ZichenWen1/EPIC",
+      "published": "2025-10-01T04:56:40.000Z"
+    },
+    {
+      "id": "2510.03194",
+      "title": "CoDA: Agentic Systems for Collaborative Data Visualization",
+      "authors": [
+        "Zichen Chen",
+        "Jiefeng Chen",
+        "Sercan Ö. Arik",
+        "Misha Sra",
+        "Tomas Pfister",
+        "Jinsung Yoon"
+      ],
+      "upvotes": 32,
+      "github": null,
+      "published": "2025-10-03T17:30:16.000Z"
+    },
+    {
+      "id": "2509.23202",
+      "title": "Bridging the Gap Between Promise and Performance for Microscaling FP4 Quantization",
+      "authors": [
+        "Vage Egiazarian",
+        "Roberto L. Castro",
+        "Denis Kuznedelev",
+        "Andrei Panferov",
+        "Eldar Kurtic",
+        "Shubhra Pandit",
+        "Alexandre Marques",
+        "Mark Kurtz",
+        "Saleh Ashkboos",
+        "Torsten Hoefler",
+        "Dan Alistarh"
+      ],
+      "upvotes": 31,
+      "github": "https://github.com/IST-DASLab/FP-Quant",
+      "published": "2025-09-27T09:22:21.000Z"
+    },
+    {
+      "id": "2509.26388",
+      "title": "Game-Time: Evaluating Temporal Dynamics in Spoken Language Models",
+      "authors": [
+        "Kai-Wei Chang",
+        "En-Pei Hu",
+        "Chun-Yi Kuan",
+        "Wenze Ren",
+        "Wei-Chih Chen",
+        "Guan-Ting Lin",
+        "Yu Tsao",
+        "Shao-Hua Sun",
+        "Hung-yi Lee",
+        "James Glass"
+      ],
+      "upvotes": 25,
+      "github": null,
+      "published": "2025-09-30T15:23:39.000Z"
+    },
+    {
+      "id": "2510.02410",
+      "title": "OpenTSLM: Time-Series Language Models for Reasoning over Multivariate Medical Text- and Time-Series Data",
+      "authors": [
+        "Patrick Langer",
+        "Thomas Kaar",
+        "Max Rosenblattl",
+        "Maxwell A. Xu",
+        "Winnie Chow",
+        "Martin Maritsch",
+        "Aradhana Verma",
+        "Brian Han",
+        "Daniel Seung Kim",
+        "Henry Chubb",
+        "Scott Ceresnak",
+        "Aydin Zahedivash",
+        "Alexander Tarlochan Singh Sandhu",
+        "Fatima Rodriguez",
+        "Daniel McDuff",
+        "Elgar Fleisch",
+        "Oliver Aalami",
+        "Filipe Barata",
+        "Paul Schmiedmayer"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/StanfordBDHG/OpenTSLM",
+      "published": "2025-10-02T09:58:23.000Z"
+    },
+    {
+      "id": "2510.01068",
+      "title": "Compose Your Policies! Improving Diffusion-based or Flow-based Robot Policies via Test-time Distribution-level Composition",
+      "authors": [
+        "Jiahang Cao",
+        "Yize Huang",
+        "Hanzhong Guo",
+        "Rui Zhang",
+        "Mu Nan",
+        "Weijian Mai",
+        "Jiaxu Wang",
+        "Hao Cheng",
+        "Jingkai Sun",
+        "Gang Han",
+        "Wen Zhao",
+        "Qiang Zhang",
+        "Yijie Guo",
+        "Qihao Zheng",
+        "Chunfeng Song",
+        "Xiao Li",
+        "Ping Luo",
+        "Andrew F. Luo"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/SageCao1125/GPC",
+      "published": "2025-10-01T16:05:53.000Z"
+    },
+    {
+      "id": "2510.02665",
+      "title": "Self-Improvement in Multimodal Large Language Models: A Survey",
+      "authors": [
+        "Shijian Deng",
+        "Kai Wang",
+        "Tianyu Yang",
+        "Harsh Singh",
+        "Yapeng Tian"
+      ],
+      "upvotes": 21,
+      "github": null,
+      "published": "2025-10-03T01:48:26.000Z"
+    },
+    {
+      "id": "2509.26354",
+      "title": "Your Agent May Misevolve: Emergent Risks in Self-evolving LLM Agents",
+      "authors": [
+        "Shuai Shao",
+        "Qihan Ren",
+        "Chen Qian",
+        "Boyi Wei",
+        "Dadi Guo",
+        "Jingyi Yang",
+        "Xinhao Song",
+        "Linfeng Zhang",
+        "Weinan Zhang",
+        "Dongrui Liu",
+        "Jing Shao"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/ShaoShuai0605/Misevolution",
+      "published": "2025-09-30T14:55:55.000Z"
+    },
+    {
+      "id": "2509.22033",
+      "title": "OrtSAE: Orthogonal Sparse Autoencoders Uncover Atomic Features",
+      "authors": [
+        "Anton Korznikov",
+        "Andrey Galichin",
+        "Alexey Dontsov",
+        "Oleg Rogov",
+        "Elena Tutubalina",
+        "Ivan Oseledets"
+      ],
+      "upvotes": 19,
+      "github": null,
+      "published": "2025-09-26T08:10:52.000Z"
+    },
+    {
+      "id": "2509.25771",
+      "title": "Free Lunch Alignment of Text-to-Image Diffusion Models without Preference Image Pairs",
+      "authors": [
+        "Jia Jun Cheng Xian",
+        "Muchen Li",
+        "Haotian Yang",
+        "Xin Tao",
+        "Pengfei Wan",
+        "Leonid Sigal",
+        "Renjie Liao"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/DSL-Lab/T2I-Free-Lunch-Alignment",
+      "published": "2025-09-30T04:32:34.000Z"
+    },
+    {
+      "id": "2510.03574",
+      "title": "Efficient Test-Time Scaling for Small Vision-Language Models",
+      "authors": [
+        "Mehmet Onurcan Kaya",
+        "Desmond Elliott",
+        "Dim P. Papadopoulos"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/monurcan/efficient_test_time_scaling",
+      "published": "2025-10-03T23:49:06.000Z"
+    },
+    {
+      "id": "2509.25122",
+      "title": "Triangle Splatting+: Differentiable Rendering with Opaque Triangles",
+      "authors": [
+        "Jan Held",
+        "Renaud Vandeghen",
+        "Sanghyun Son",
+        "Daniel Rebain",
+        "Matheus Gadelha",
+        "Yi Zhou",
+        "Ming C. Lin",
+        "Marc Van Droogenbroeck",
+        "Andrea Tagliasacchi"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/trianglesplatting2/triangle-splatting2",
+      "published": "2025-09-29T17:43:46.000Z"
+    },
+    {
+      "id": "2510.01879",
+      "title": "REPAIR: Robust Editing via Progressive Adaptive Intervention and Reintegration",
+      "authors": [
+        "Yisu Wang",
+        "Ming Wang",
+        "Haoyuan Song",
+        "Wenjie Huang",
+        "Chaozheng Wang",
+        "Yi Xie",
+        "Xuming Ran"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2025-10-02T10:35:39.000Z"
+    },
+    {
+      "id": "2510.03204",
+      "title": "FocusAgent: Simple Yet Effective Ways of Trimming the Large Context of Web Agents",
+      "authors": [
+        "Imene Kerboua",
+        "Sahar Omidi Shayegan",
+        "Megh Thakkar",
+        "Xing Han Lù",
+        "Léo Boisvert",
+        "Massimo Caccia",
+        "Jérémy Espinas",
+        "Alexandre Aussem",
+        "Véronique Eglin",
+        "Alexandre Lacoste"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2025-10-03T17:41:30.000Z"
+    },
+    {
+      "id": "2510.03120",
+      "title": "SurveyBench: How Well Can LLM(-Agents) Write Academic Surveys?",
+      "authors": [
+        "Zhaojun Sun",
+        "Xuzhou Zhu",
+        "Xuanhe Zhou",
+        "Xin Tong",
+        "Shuo Wang",
+        "Jie Fu",
+        "Guoliang Li",
+        "Zhiyuan Liu",
+        "Fan Wu"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2025-10-03T15:49:09.000Z"
+    },
+    {
+      "id": "2510.01329",
+      "title": "Continuously Augmented Discrete Diffusion model for Categorical Generative Modeling",
+      "authors": [
+        "Huangjie Zheng",
+        "Shansan Gong",
+        "Ruixiang Zhang",
+        "Tianrong Chen",
+        "Jiatao Gu",
+        "Mingyuan Zhou",
+        "Navdeep Jaitly",
+        "Yizhe Zhang"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2025-10-01T18:00:56.000Z"
+    },
+    {
+      "id": "2510.02375",
+      "title": "Pretraining with hierarchical memories: separating long-tail and common knowledge",
+      "authors": [
+        "Hadi Pouransari",
+        "David Grangier",
+        "C Thomas",
+        "Michael Kirchhof",
+        "Oncel Tuzel"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2025-09-29T17:59:50.000Z"
+    },
+    {
+      "id": "2510.01132",
+      "title": "A Practitioner's Guide to Multi-turn Agentic Reinforcement Learning",
+      "authors": [
+        "Ruiyi Wang",
+        "Prithviraj Ammanabrolu"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/pearls-lab/meow-tea-taro",
+      "published": "2025-10-01T17:23:04.000Z"
+    },
+    {
+      "id": "2510.01698",
+      "title": "TalkPlay-Tools: Conversational Music Recommendation with LLM Tool Calling",
+      "authors": [
+        "Seungheon Doh",
+        "Keunwoo Choi",
+        "Juhan Nam"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/talkpl-ai/talkplay-tools",
+      "published": "2025-10-02T06:08:54.000Z"
+    },
+    {
+      "id": "2510.02730",
+      "title": "Dale meets Langevin: A Multiplicative Denoising Diffusion Model",
+      "authors": [
+        "Nishanth Shetty",
+        "Madhava Prasath",
+        "Chandra Sekhar Seelamantula"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-10-03T05:23:33.000Z"
+    },
+    {
+      "id": "2510.00658",
+      "title": "Align Your Tangent: Training Better Consistency Models via Manifold-Aligned Tangents",
+      "authors": [
+        "Beomsu Kim",
+        "Byunghee Cha",
+        "Jong Chul Ye"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/1202kbs/AYT",
+      "published": "2025-10-01T08:35:18.000Z"
+    },
+    {
+      "id": "2510.03160",
+      "title": "SpineBench: A Clinically Salient, Level-Aware Benchmark Powered by the SpineMed-450k Corpus",
+      "authors": [
+        "Ming Zhao",
+        "Wenhui Dong",
+        "Yang Zhang",
+        "Xiang Zheng",
+        "Zhonghao Zhang",
+        "Zian Zhou",
+        "Yunzhi Guan",
+        "Liukun Xu",
+        "Wei Peng",
+        "Zhaoyang Gong",
+        "Zhicheng Zhang",
+        "Dachuan Li",
+        "Xiaosheng Ma",
+        "Yuli Ma",
+        "Jianing Ni",
+        "Changjiang Jiang",
+        "Lixia Tian",
+        "Qixin Chen",
+        "Kaishun Xia",
+        "Pingping Liu",
+        "Tongshun Zhang",
+        "Zhiqiang Liu",
+        "Zhongan Bi",
+        "Chenyang Si",
+        "Tiansheng Sun",
+        "Caifeng Shan"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-10-03T16:32:02.000Z"
+    },
+    {
+      "id": "2510.03230",
+      "title": "Improving GUI Grounding with Explicit Position-to-Coordinate Mapping",
+      "authors": [
+        "Suyuchen Wang",
+        "Tianyu Zhang",
+        "Ahmed Masry",
+        "Christopher Pal",
+        "Spandana Gella",
+        "Bang Liu",
+        "Perouz Taslakian"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-10-03T17:59:34.000Z"
+    },
+    {
+      "id": "2510.02657",
+      "title": "Less LLM, More Documents: Searching for Improved RAG",
+      "authors": [
+        "Jingjie Ning",
+        "Yibo Kong",
+        "Yunfan Long",
+        "Jamie Callan"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2025-10-03T01:26:13.000Z"
+    },
+    {
+      "id": "2510.00177",
+      "title": "Personalized Reasoning: Just-In-Time Personalization and Why LLMs Fail At It",
+      "authors": [
+        "Shuyue Stella Li",
+        "Avinandan Bose",
+        "Faeze Brahman",
+        "Simon Shaolei Du",
+        "Pang Wei Koh",
+        "Maryam Fazel",
+        "Yulia Tsvetkov"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/stellalisy/PrefDisco",
+      "published": "2025-09-30T18:55:28.000Z"
+    },
+    {
+      "id": "2510.01354",
+      "title": "WAInjectBench: Benchmarking Prompt Injection Detections for Web Agents",
+      "authors": [
+        "Yinuo Liu",
+        "Ruohan Xu",
+        "Xilong Wang",
+        "Yuqi Jia",
+        "Neil Zhenqiang Gong"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/Norrrrrrr-lyn/WAInjectBench",
+      "published": "2025-10-01T18:34:06.000Z"
+    },
+    {
+      "id": "2510.01459",
+      "title": "LSPO: Length-aware Dynamic Sampling for Policy Optimization in LLM Reasoning",
+      "authors": [
+        "Weizhe Chen",
+        "Sven Koenig",
+        "Bistra Dilkina"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/laonahongchen/LSPO",
+      "published": "2025-10-01T20:57:22.000Z"
+    },
+    {
+      "id": "2510.02110",
+      "title": "SoundReactor: Frame-level Online Video-to-Audio Generation",
+      "authors": [
+        "Koichi Saito",
+        "Julian Tanke",
+        "Christian Simon",
+        "Masato Ishii",
+        "Kazuki Shimada",
+        "Zachary Novack",
+        "Zhi Zhong",
+        "Akio Hayakawa",
+        "Takashi Shibuya",
+        "Yuki Mitsufuji"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2025-10-02T15:18:00.000Z"
+    },
+    {
+      "id": "2510.02880",
+      "title": "Consolidating Reinforcement Learning for Multimodal Discrete Diffusion Models",
+      "authors": [
+        "Tianren Ma",
+        "Mu Zhang",
+        "Yibing Wang",
+        "Qixiang Ye"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/martian422/MaskGRPO",
+      "published": "2025-10-03T10:36:24.000Z"
+    },
+    {
+      "id": "2510.02571",
+      "title": "How Confident are Video Models? Empowering Video Models to Express their Uncertainty",
+      "authors": [
+        "Zhiting Mei",
+        "Ola Shorinwa",
+        "Anirudha Majumdar"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/irom-princeton/s-qubed",
+      "published": "2025-10-02T21:20:41.000Z"
+    },
+    {
+      "id": "2509.24975",
+      "title": "DiffTester: Accelerating Unit Test Generation for Diffusion LLMs via Repetitive Pattern",
+      "authors": [
+        "Lekang Yang",
+        "Yuetong Liu",
+        "Yitong Zhang",
+        "Jia Li"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/wellbeingyang/DLM4UTG-open",
+      "published": "2025-09-29T16:04:18.000Z"
+    },
+    {
+      "id": "2509.23291",
+      "title": "Scaling Policy Compliance Assessment in Language Models with Policy Reasoning Traces",
+      "authors": [
+        "Joseph Marvin Imperial",
+        "Harish Tayyar Madabushi"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/imperialite/policy-reasoning-traces",
+      "published": "2025-09-27T13:10:21.000Z"
+    },
+    {
+      "id": "2510.03232",
+      "title": "LEAML: Label-Efficient Adaptation to Out-of-Distribution Visual Tasks for Multimodal Large Language Models",
+      "authors": [
+        "Ci-Siang Lin",
+        "Min-Hung Chen",
+        "Yu-Yang Sheng",
+        "Yu-Chiang Frank Wang"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2025-10-03T17:59:56.000Z"
+    },
+    {
+      "id": "2509.25944",
+      "title": "NuRisk: A Visual Question Answering Dataset for Agent-Level Risk Assessment in Autonomous Driving",
+      "authors": [
+        "Yuan Gao",
+        "Mattia Piccinini",
+        "Roberto Brusnicki",
+        "Yuchen Zhang",
+        "Johannes Betz"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/TUM-AVS/NuRisk",
+      "published": "2025-09-30T08:37:31.000Z"
+    }
+  ]
+}

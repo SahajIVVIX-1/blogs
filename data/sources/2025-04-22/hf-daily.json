@@ -1,0 +1,480 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-04-22",
+  "fetched_at": "2026-10-29T15:31:17.187Z",
+  "candidates": [
+    {
+      "id": "2504.14945",
+      "title": "Learning to Reason under Off-Policy Guidance",
+      "authors": [
+        "Jianhao Yan",
+        "Yafu Li",
+        "Zican Hu",
+        "Zhi Wang",
+        "Ganqu Cui",
+        "Xiaoye Qu",
+        "Yu Cheng",
+        "Yue Zhang"
+      ],
+      "upvotes": 88,
+      "github": "https://github.com/ElliottYan/LUFFY",
+      "published": "2025-04-21T08:09:13.000Z"
+    },
+    {
+      "id": "2504.15271",
+      "title": "Eagle 2.5: Boosting Long-Context Post-Training for Frontier Vision-Language Models",
+      "authors": [
+        "Guo Chen",
+        "Zhiqi Li",
+        "Shihao Wang",
+        "Jindong Jiang",
+        "Yicheng Liu",
+        "Lidong Lu",
+        "De-An Huang",
+        "Wonmin Byeon",
+        "Matthieu Le",
+        "Tuomas Rintamaki",
+        "Tyler Poon",
+        "Max Ehrlich",
+        "Tuomas Rintamaki",
+        "Tyler Poon",
+        "Tong Lu",
+        "Limin Wang",
+        "Bryan Catanzaro",
+        "Jan Kautz",
+        "Andrew Tao",
+        "Zhiding Yu",
+        "Guilin Liu"
+      ],
+      "upvotes": 69,
+      "github": null,
+      "published": "2025-04-21T17:57:28.000Z"
+    },
+    {
+      "id": "2504.13958",
+      "title": "ToolRL: Reward is All Tool Learning Needs",
+      "authors": [
+        "Cheng Qian",
+        "Emre Can Acikgoz",
+        "Qi He",
+        "Hongru Wang",
+        "Xiusi Chen",
+        "Dilek Hakkani-Tür",
+        "Gokhan Tur",
+        "Heng Ji"
+      ],
+      "upvotes": 49,
+      "github": "https://github.com/qiancheng0/ToolRL",
+      "published": "2025-04-16T21:45:32.000Z"
+    },
+    {
+      "id": "2504.15257",
+      "title": "FlowReasoner: Reinforcing Query-Level Meta-Agents",
+      "authors": [
+        "Hongcheng Gao",
+        "Yue Liu",
+        "Yufei He",
+        "Longxu Dou",
+        "Chao Du",
+        "Zhijie Deng",
+        "Bryan Hooi",
+        "Min Lin",
+        "Tianyu Pang"
+      ],
+      "upvotes": 47,
+      "github": "https://github.com/sail-sg/flowreasoner",
+      "published": "2025-04-21T17:35:42.000Z"
+    },
+    {
+      "id": "2504.13203",
+      "title": "X-Teaming: Multi-Turn Jailbreaks and Defenses with Adaptive Multi-Agents",
+      "authors": [
+        "Salman Rahman",
+        "Liwei Jiang",
+        "James Shiffer",
+        "Genglin Liu",
+        "Sheriff Issaka",
+        "Md Rizwan Parvez",
+        "Hamid Palangi",
+        "Kai-Wei Chang",
+        "Yejin Choi",
+        "Saadia Gabriel"
+      ],
+      "upvotes": 35,
+      "github": "https://github.com/salman-lui/x-teaming",
+      "published": "2025-04-15T16:11:28.000Z"
+    },
+    {
+      "id": "2504.14603",
+      "title": "UFO2: The Desktop AgentOS",
+      "authors": [
+        "Chaoyun Zhang",
+        "He Huang",
+        "Chiming Ni",
+        "Jian Mu",
+        "Si Qin",
+        "Shilin He",
+        "Lu Wang",
+        "Fangkai Yang",
+        "Pu Zhao",
+        "Chao Du",
+        "Liqun Li",
+        "Yu Kang",
+        "Zhao Jiang",
+        "Suzhen Zheng",
+        "Rujia Wang",
+        "Jiaxu Qian",
+        "Minghua Ma",
+        "Jian-Guang Lou",
+        "Qingwei Lin",
+        "Saravan Rajmohan",
+        "Dongmei Zhang"
+      ],
+      "upvotes": 29,
+      "github": "https://github.com/microsoft/UFO",
+      "published": "2025-04-20T13:04:43.000Z"
+    },
+    {
+      "id": "2504.14396",
+      "title": "SphereDiff: Tuning-free Omnidirectional Panoramic Image and Video Generation via Spherical Latent Representation",
+      "authors": [
+        "Minho Park",
+        "Taewoong Kang",
+        "Jooyeol Yun",
+        "Sungwon Hwang",
+        "Jaegul Choo"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/pmh9960/SphereDiff",
+      "published": "2025-04-19T19:59:11.000Z"
+    },
+    {
+      "id": "2504.13367",
+      "title": "THOUGHTTERMINATOR: Benchmarking, Calibrating, and Mitigating Overthinking in Reasoning Models",
+      "authors": [
+        "Xiao Pu",
+        "Michael Saxon",
+        "Wenyue Hua",
+        "William Yang Wang"
+      ],
+      "upvotes": 26,
+      "github": null,
+      "published": "2025-04-17T22:16:30.000Z"
+    },
+    {
+      "id": "2504.15133",
+      "title": "EasyEdit2: An Easy-to-use Steering Framework for Editing Large Language Models",
+      "authors": [
+        "Ziwen Xu",
+        "Shuxun Wang",
+        "Kewei Xu",
+        "Haoming Xu",
+        "Mengru Wang",
+        "Xinle Deng",
+        "Yunzhi Yao",
+        "Guozhou Zheng",
+        "Huajun Chen",
+        "Ningyu Zhang"
+      ],
+      "upvotes": 26,
+      "github": "https://github.com/zjunlp/EasyEdit",
+      "published": "2025-04-21T14:33:55.000Z"
+    },
+    {
+      "id": "2504.15280",
+      "title": "Seeing from Another Perspective: Evaluating Multi-View Understanding in MLLMs",
+      "authors": [
+        "Chun-Hsiao Yeh",
+        "Chenyu Wang",
+        "Shengbang Tong",
+        "Ta-Ying Cheng",
+        "Rouyu Wang",
+        "Tianzhe Chu",
+        "Yuexiang Zhai",
+        "Yubei Chen",
+        "Shenghua Gao",
+        "Yi Ma"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/Chenyu-Wang567/All-Angles-Bench",
+      "published": "2025-04-21T17:59:53.000Z"
+    },
+    {
+      "id": "2504.15281",
+      "title": "StyleMe3D: Stylization with Disentangled Priors by Multiple Encoders on 3D Gaussians",
+      "authors": [
+        "Cailin Zhuang",
+        "Yaoqi Hu",
+        "Xuanyang Zhang",
+        "Wei Cheng",
+        "Jiacheng Bao",
+        "Shengqi Liu",
+        "Yiying Yang",
+        "Xianfang Zeng",
+        "Gang Yu",
+        "Ming Li"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/AIGCResearch/styleme3d",
+      "published": "2025-04-21T17:59:55.000Z"
+    },
+    {
+      "id": "2504.14655",
+      "title": "LeetCodeDataset: A Temporal Dataset for Robust Evaluation and Efficient Training of Code LLMs",
+      "authors": [
+        "Yunhui Xia",
+        "Wei Shen",
+        "Yan Wang",
+        "Jason Klein Liu",
+        "Huifeng Sun",
+        "Siyue Wu",
+        "Jian Hu",
+        "Xiaolong Xu"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/newfacade/LeetCodeDataset",
+      "published": "2025-04-20T15:28:16.000Z"
+    },
+    {
+      "id": "2504.14899",
+      "title": "Uni3C: Unifying Precisely 3D-Enhanced Camera and Human Motion Controls for Video Generation",
+      "authors": [
+        "Chenjie Cao",
+        "Jingkai Zhou",
+        "Shikai Li",
+        "Jingyun Liang",
+        "Chaohui Yu",
+        "Fan Wang",
+        "Xiangyang Xue",
+        "Yanwei Fu"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/ewrfcas/uni3c",
+      "published": "2025-04-21T07:10:41.000Z"
+    },
+    {
+      "id": "2504.14870",
+      "title": "OTC: Optimal Tool Calls via Reinforcement Learning",
+      "authors": [
+        "Hongru Wang",
+        "Cheng Qian",
+        "Wanjun Zhong",
+        "Xiusi Chen",
+        "Jiahao Qiu",
+        "Shijue Huang",
+        "Bowen Jin",
+        "Mengdi Wang",
+        "Kam-Fai Wong",
+        "Heng Ji"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2025-04-21T05:40:05.000Z"
+    },
+    {
+      "id": "2504.14239",
+      "title": "InfiGUI-R1: Advancing Multimodal GUI Agents from Reactive Actors to Deliberative Reasoners",
+      "authors": [
+        "Yuhang Liu",
+        "Pengxiang Li",
+        "Congkai Xie",
+        "Xavier Hu",
+        "Xiaotian Han",
+        "Shengyu Zhang",
+        "Hongxia Yang",
+        "Fei Wu"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/reallm-labs/infigui-r1",
+      "published": "2025-04-19T09:25:55.000Z"
+    },
+    {
+      "id": "2504.13941",
+      "title": "NEMOTRON-CROSSTHINK: Scaling Self-Learning beyond Math Reasoning",
+      "authors": [
+        "Syeda Nahida Akter",
+        "Shrimai Prabhumoye",
+        "Matvei Novikov",
+        "Seungju Han",
+        "Ying Lin",
+        "Evelina Bakhturi",
+        "Eric Nyberg",
+        "Yejin Choi",
+        "Mostofa Patwary",
+        "Mohammad Shoeybi",
+        "Bryan Catanzaro"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2025-04-15T21:37:13.000Z"
+    },
+    {
+      "id": "2504.15217",
+      "title": "DRAGON: Distributional Rewards Optimize Diffusion Generative Models",
+      "authors": [
+        "Yatong Bai",
+        "Jonah Casebeer",
+        "Somayeh Sojoudi",
+        "Nicholas J. Bryan"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2025-04-21T16:41:40.000Z"
+    },
+    {
+      "id": "2504.13805",
+      "title": "LearnAct: Few-Shot Mobile GUI Agent with a Unified Demonstration Benchmark",
+      "authors": [
+        "Guangyi Liu",
+        "Pengxiang Zhao",
+        "Liang Liu",
+        "Zhiming Chen",
+        "Yuxiang Chai",
+        "Shuai Ren",
+        "Hao Wang",
+        "Shibo He",
+        "Wenchao Meng"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/lgy0404/LearnAct",
+      "published": "2025-04-18T17:13:34.000Z"
+    },
+    {
+      "id": "2504.13099",
+      "title": "RF-DETR Object Detection vs YOLOv12 : A Study of Transformer-based and CNN-based Architectures for Single-Class and Multi-Class Greenfruit Detection in Complex Orchard Environments Under Label Ambiguity",
+      "authors": [
+        "Ranjan Sapkota",
+        "Rahul Harsha Cheppally",
+        "Ajay Sharda",
+        "Manoj Karkee"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2025-04-17T17:08:11.000Z"
+    },
+    {
+      "id": "2504.15270",
+      "title": "An LMM for Efficient Video Understanding via Reinforced Compression of Video Cubes",
+      "authors": [
+        "Ji Qi",
+        "Yuan Yao",
+        "Yushi Bai",
+        "Bin Xu",
+        "Juanzi Li",
+        "Zhiyuan Liu",
+        "Tat-Seng Chua"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/quicksviewer/quicksviewer",
+      "published": "2025-04-21T17:57:21.000Z"
+    },
+    {
+      "id": "2504.08902",
+      "title": "LookingGlass: Generative Anamorphoses via Laplacian Pyramid Warping",
+      "authors": [
+        "Pascal Chang",
+        "Sergio Sancho",
+        "Jingwei Tang",
+        "Markus Gross",
+        "Vinicius C. Azevedo"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2025-04-11T18:12:01.000Z"
+    },
+    {
+      "id": "2504.14717",
+      "title": "TAPIP3D: Tracking Any Point in Persistent 3D Geometry",
+      "authors": [
+        "Bowei Zhang",
+        "Lei Ke",
+        "Adam W. Harley",
+        "Katerina Fragkiadaki"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/zbw001/TAPIP3D",
+      "published": "2025-04-20T19:09:43.000Z"
+    },
+    {
+      "id": "2504.14032",
+      "title": "LoftUp: Learning a Coordinate-Based Feature Upsampler for Vision Foundation Models",
+      "authors": [
+        "Haiwen Huang",
+        "Anpei Chen",
+        "Volodymyr Havrylov",
+        "Andreas Geiger",
+        "Dan Zhang"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/andrehuang/loftup",
+      "published": "2025-04-18T18:46:08.000Z"
+    },
+    {
+      "id": "2504.15266",
+      "title": "Roll the dice & look before you leap: Going beyond the creative limits of next-token prediction",
+      "authors": [
+        "Vaishnavh Nagarajan",
+        "Chen Henry Wu",
+        "Charles Ding",
+        "Aditi Raghunathan"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/chenwu98/algorithmic-creativity",
+      "published": "2025-04-21T17:47:46.000Z"
+    },
+    {
+      "id": "2504.15047",
+      "title": "RainbowPlus: Enhancing Adversarial Prompt Generation via Evolutionary Quality-Diversity Search",
+      "authors": [
+        "Quy-Anh Dang",
+        "Chris Ngo",
+        "Truong-Son Hy"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/knoveleng/rainbowplus",
+      "published": "2025-04-21T12:04:57.000Z"
+    },
+    {
+      "id": "2504.14738",
+      "title": "PROMPTEVALS: A Dataset of Assertions and Guardrails for Custom Production Large Language Model Pipelines",
+      "authors": [
+        "Reya Vir",
+        "Shreya Shankar",
+        "Harrison Chase",
+        "Will Fu-Hinthorn",
+        "Aditya Parameswaran"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-04-20T21:04:23.000Z"
+    },
+    {
+      "id": "2504.12186",
+      "title": "CoMotion: Concurrent Multi-person 3D Motion",
+      "authors": [
+        "Alejandro Newell",
+        "Peiyun Hu",
+        "Lahav Lipson",
+        "Stephan R. Richter",
+        "Vladlen Koltun"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/apple/ml-comotion",
+      "published": "2025-04-16T15:40:15.000Z"
+    },
+    {
+      "id": "2504.10642",
+      "title": "SilVar-Med: A Speech-Driven Visual Language Model for Explainable Abnormality Detection in Medical Imaging",
+      "authors": [
+        "Tan-Hanh Pham",
+        "Chris Ngo",
+        "Trong-Duong Bui",
+        "Minh Luu Quang",
+        "Tan-Huong Pham",
+        "Truong-Son Hy"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/hanhpt23/silvarmed",
+      "published": "2025-04-14T18:51:37.000Z"
+    }
+  ]
+}

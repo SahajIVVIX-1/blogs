@@ -1,0 +1,506 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-04-02",
+  "fetched_at": "2026-10-29T15:35:11.477Z",
+  "candidates": [
+    {
+      "id": "2604.00073",
+      "title": "Terminal Agents Suffice for Enterprise Automation",
+      "authors": [
+        "Patrice Bechard",
+        "Orlando Marquez Ayala",
+        "Emily Chen",
+        "Jordan Skelton",
+        "Sagar Davasam",
+        "Srinivas Sunkara",
+        "Vikas Yadav",
+        "Sai Rajeswar"
+      ],
+      "upvotes": 90,
+      "github": "https://github.com/ServiceNow/starshell",
+      "published": "2026-03-31T14:14:47.000Z"
+    },
+    {
+      "id": "2603.28407",
+      "title": "MiroEval: Benchmarking Multimodal Deep Research Agents in Process and Outcome",
+      "authors": [
+        "Fangda Ye",
+        "Yuxin Hu",
+        "Pengxiang Zhu",
+        "Yibo Li",
+        "Ziqi Jin",
+        "Yao Xiao",
+        "Yibo Wang",
+        "Lei Wang",
+        "Zhen Zhang",
+        "Lu Wang",
+        "Yue Deng",
+        "Bin Wang",
+        "Yifan Zhang",
+        "Liangcai Su",
+        "Xinyu Wang",
+        "He Zhao",
+        "Chen Wei",
+        "Qiang Ren",
+        "Bryan Hooi",
+        "An Bo",
+        "Shuicheng Yan",
+        "Lidong Bing"
+      ],
+      "upvotes": 69,
+      "github": "https://github.com/MiroMindAI/MiroEval",
+      "published": "2026-03-30T13:16:03.000Z"
+    },
+    {
+      "id": "2604.01193",
+      "title": "Embarrassingly Simple Self-Distillation Improves Code Generation",
+      "authors": [
+        "Ruixiang Zhang",
+        "Richard He Bai",
+        "Huangjie Zheng",
+        "Navdeep Jaitly",
+        "Ronan Collobert",
+        "Yizhe Zhang"
+      ],
+      "upvotes": 55,
+      "github": "https://github.com/apple/ml-ssd",
+      "published": "2026-04-01T17:39:50.000Z"
+    },
+    {
+      "id": "2603.26648",
+      "title": "Vision2Web: A Hierarchical Benchmark for Visual Website Development with Agent Verification",
+      "authors": [
+        "Zehai He",
+        "Wenyi Hong",
+        "Zhen Yang",
+        "Ziyang Pan",
+        "Mingdao Liu",
+        "Xiaotao Gu",
+        "Jie Tang"
+      ],
+      "upvotes": 44,
+      "github": "https://github.com/zai-org/Vision2Web",
+      "published": "2026-03-27T17:50:45.000Z"
+    },
+    {
+      "id": "2603.25823",
+      "title": "ViGoR-Bench: How Far Are Visual Generative Models From Zero-Shot Visual Reasoners?",
+      "authors": [
+        "Haonan Han",
+        "Jiancheng Huang",
+        "Xiaopeng Sun",
+        "Junyan He",
+        "Rui Yang",
+        "Jie Hu",
+        "Xiaojiang Peng",
+        "Lin Ma",
+        "Xiaoming Wei",
+        "Xiu Li"
+      ],
+      "upvotes": 42,
+      "github": "https://github.com/VincentHancoder/ViGoR-Bench-Eval",
+      "published": "2026-03-26T18:40:09.000Z"
+    },
+    {
+      "id": "2604.01221",
+      "title": "HippoCamp: Benchmarking Contextual Agents on Personal Computers",
+      "authors": [
+        "Zhe Yang",
+        "Shulin Tian",
+        "Kairui Hu",
+        "Shuai Liu",
+        "Hoang-Nhat Nguyen",
+        "Yichi Zhang",
+        "Zujin Guo",
+        "Mengying Yu",
+        "Zinan Zhang",
+        "Jingkang Yang",
+        "Chen Change Loy",
+        "Ziwei Liu"
+      ],
+      "upvotes": 32,
+      "github": "https://github.com/Savannah-yz/HippoCamp",
+      "published": "2026-04-01T17:58:33.000Z"
+    },
+    {
+      "id": "2604.01161",
+      "title": "Reasoning Shift: How Context Silently Shortens LLM Reasoning",
+      "authors": [
+        "Gleb Rodionov"
+      ],
+      "upvotes": 31,
+      "github": null,
+      "published": "2026-04-01T17:14:18.000Z"
+    },
+    {
+      "id": "2603.24414",
+      "title": "ClawKeeper: Comprehensive Safety Protection for OpenClaw Agents Through Skills, Plugins, and Watchers",
+      "authors": [
+        "Songyang Liu",
+        "Chaozhuo Li",
+        "Chenxu Wang",
+        "Jinyu Hou",
+        "Zejian Chen",
+        "Litian Zhang",
+        "Zheng Liu",
+        "Qiwei Ye",
+        "Yiming Hei",
+        "Xi Zhang",
+        "Zhongyuan Wang"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/SafeAI-Lab-X/ClawKeeper",
+      "published": "2026-03-25T15:27:54.000Z"
+    },
+    {
+      "id": "2603.26661",
+      "title": "GaussianGPT: Towards Autoregressive 3D Gaussian Scene Generation",
+      "authors": [
+        "Nicolas von Lützow",
+        "Barbara Rössle",
+        "Katharina Schmid",
+        "Matthias Nießner"
+      ],
+      "upvotes": 21,
+      "github": null,
+      "published": "2026-03-27T17:58:05.000Z"
+    },
+    {
+      "id": "2604.00025",
+      "title": "Brevity Constraints Reverse Performance Hierarchies in Language Models",
+      "authors": [
+        "MD Azizul Hakim"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/logicsame/Brevity-Constraints-Reverse-Performance-Hierarchies-in-Language-Models",
+      "published": "2026-03-11T06:47:41.000Z"
+    },
+    {
+      "id": "2604.01220",
+      "title": "Universal YOCO for Efficient Depth Scaling",
+      "authors": [
+        "Yutao Sun",
+        "Li Dong",
+        "Tianzhu Ye",
+        "Shaohan Huang",
+        "Jianyong Wang",
+        "Furu Wei"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2026-04-01T17:58:21.000Z"
+    },
+    {
+      "id": "2603.26653",
+      "title": "PerceptionComp: A Video Benchmark for Complex Perception-Centric Reasoning",
+      "authors": [
+        "Shaoxuan Li",
+        "Zhixuan Zhao",
+        "Hanze Deng",
+        "Zirun Ma",
+        "Shulin Tian",
+        "Zuyan Liu",
+        "Yushi Hu",
+        "Haoning Wu",
+        "Yuhao Dong",
+        "Benlin Liu",
+        "Ziwei Liu",
+        "Ranjay Krishna"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/hrinnnn/PerceptionComp",
+      "published": "2026-03-27T17:54:36.000Z"
+    },
+    {
+      "id": "2603.26017",
+      "title": "QuitoBench: A High-Quality Open Time Series Forecasting Benchmark",
+      "authors": [
+        "Siqiao Xue",
+        "Zhaoyang Zhu",
+        "Wei Zhang",
+        "Rongyao Cai",
+        "Rui Wang",
+        "Yixiang Mu",
+        "Fan Zhou",
+        "Jianguo Li",
+        "Peng Di",
+        "Hang Yu"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2026-03-27T02:24:34.000Z"
+    },
+    {
+      "id": "2604.00842",
+      "title": "Proactive Agent Research Environment: Simulating Active Users to Evaluate Proactive Assistants",
+      "authors": [
+        "Deepak Nathani",
+        "Cheng Zhang",
+        "Chang Huan",
+        "Jiaming Shan",
+        "Yinfei Yang",
+        "Alkesh Patel",
+        "Zhe Gan",
+        "William Yang Wang",
+        "Michael Saxon",
+        "Xin Eric Wang"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/deepakn97/pare",
+      "published": "2026-04-01T12:53:01.000Z"
+    },
+    {
+      "id": "2604.01128",
+      "title": "Paper Reconstruction Evaluation: Evaluating Presentation and Hallucination in AI-written Papers",
+      "authors": [
+        "Atsuyuki Miyai",
+        "Mashiro Toyooka",
+        "Zaiying Zhao",
+        "Kenta Watanabe",
+        "Toshihiko Yamasaki",
+        "Kiyoharu Aizawa"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/Agent4Science-UTokyo/PaperRecon",
+      "published": "2026-04-01T16:48:04.000Z"
+    },
+    {
+      "id": "2604.00626",
+      "title": "A Survey of On-Policy Distillation for Large Language Models",
+      "authors": [
+        "Mingyang Song",
+        "Mao Zheng"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2026-04-01T08:32:34.000Z"
+    },
+    {
+      "id": "2604.00528",
+      "title": "Think, Act, Build: An Agentic Framework with Vision Language Models for Zero-Shot 3D Visual Grounding",
+      "authors": [
+        "Haibo Wang",
+        "Zihao Lin",
+        "Zhiyang Xu",
+        "Lifu Huang"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/WHB139426/TAB-Agent",
+      "published": "2026-04-01T06:12:16.000Z"
+    },
+    {
+      "id": "2604.00986",
+      "title": "Do Phone-Use Agents Respect Your Privacy?",
+      "authors": [
+        "Zhengyang Tang",
+        "Ke Ji",
+        "Xidong Wang",
+        "Zihan Ye",
+        "Xinyuan Wang",
+        "Yiduo Guo",
+        "Ziniu Li",
+        "Chenxin Li",
+        "Jingyuan Hu",
+        "Shunian Chen",
+        "Tongxu Luo",
+        "Jiaxi Bi",
+        "Zeyu Qin",
+        "Shaobo Wang",
+        "Xin Lai",
+        "Pengyuan Lyu",
+        "Junyi Li",
+        "Can Xu",
+        "Chengquan Zhang",
+        "Han Hu",
+        "Ming Yan",
+        "Benyou Wang"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/FreedomIntelligence/MyPhoneBench",
+      "published": "2026-04-01T14:50:50.000Z"
+    },
+    {
+      "id": "2604.00590",
+      "title": "UniMixer: A Unified Architecture for Scaling Laws in Recommendation Systems",
+      "authors": [
+        "Mingming Ha",
+        "Guanchen Wang",
+        "Linxun Chen",
+        "Xuan Rao",
+        "Yuexin Shi",
+        "Tianbao Ma",
+        "Zhaojie Liu",
+        "Yunqian Fan",
+        "Zilong Lu",
+        "Yanan Niu",
+        "Han Li",
+        "Kun Gai"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2026-04-01T07:57:40.000Z"
+    },
+    {
+      "id": "2604.01029",
+      "title": "Revision or Re-Solving? Decomposing Second-Pass Gains in Multi-LLM Pipelines",
+      "authors": [
+        "Jingjie Ning",
+        "Xueqi Li",
+        "Chengyu Yu"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2026-04-01T15:39:40.000Z"
+    },
+    {
+      "id": "2604.00892",
+      "title": "When Users Change Their Mind: Evaluating Interruptible Agents in Long-Horizon Web Navigation",
+      "authors": [
+        "Henry Peng Zou",
+        "Chunyu Miao",
+        "Wei-Chieh Huang",
+        "Yankai Chen",
+        "Yue Zhou",
+        "Hanrong Zhang",
+        "Yaozu Wu",
+        "Liancheng Fang",
+        "Zhengyao Gu",
+        "Zhen Zhang",
+        "Kening Zheng",
+        "Fangxin Wang",
+        "Yi Nian",
+        "Shanghao Li",
+        "Wenzhe Fan",
+        "Langzhou He",
+        "Weizhi Zhang",
+        "Xue Liu",
+        "Philip S. Yu"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/HenryPengZou/InterruptBench",
+      "published": "2026-04-01T00:00:00.000Z"
+    },
+    {
+      "id": "2603.29247",
+      "title": "MemRerank: Preference Memory for Personalized Product Reranking",
+      "authors": [
+        "Zhiyuan Peng",
+        "Xuyang Wu",
+        "Huaixiao Tou",
+        "Yi Fang",
+        "Yi Gong"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-03-31T04:16:18.000Z"
+    },
+    {
+      "id": "2603.29002",
+      "title": "Understand and Accelerate Memory Processing Pipeline for Disaggregated LLM Inference",
+      "authors": [
+        "Zifan He",
+        "Rui Ma",
+        "Yizhou Sun",
+        "Jason Cong"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/OswaldHe/HeteroLLM",
+      "published": "2026-03-30T21:03:39.000Z"
+    },
+    {
+      "id": "2603.25406",
+      "title": "MMaDA-VLA: Large Diffusion Vision-Language-Action Model with Unified Multi-Modal Instruction and Generation",
+      "authors": [
+        "Yang Liu",
+        "Pengxiang Ding",
+        "Tengyue Jiang",
+        "Xudong Wang",
+        "Wenxuan Song",
+        "Minghui Lin",
+        "Han Zhao",
+        "Hongyin Zhang",
+        "Zifeng Zhuang",
+        "Wei Zhao",
+        "Siteng Huang",
+        "Jinkui Shi",
+        "Donglin Wang"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/yliu-cs/MMaDA-VLA",
+      "published": "2026-03-26T12:55:51.000Z"
+    },
+    {
+      "id": "2604.00886",
+      "title": "PixelPrune: Pixel-Level Adaptive Visual Token Reduction via Predictive Coding",
+      "authors": [
+        "Nan Wang",
+        "Zhiwei Jin",
+        "Chen Chen",
+        "Haonan Lu"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/OPPO-Mente-Lab/PixelPrune",
+      "published": "2026-04-01T13:33:27.000Z"
+    },
+    {
+      "id": "2603.25764",
+      "title": "Consistency Amplifies: How Behavioral Variance Shapes Agent Accuracy",
+      "authors": [
+        "Aman Mehta"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-03-26T00:00:00.000Z"
+    },
+    {
+      "id": "2604.01168",
+      "title": "S0 Tuning: Zero-Overhead Adaptation of Hybrid Recurrent-Attention Models",
+      "authors": [
+        "Jack Young"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/JackYoung27/s0-tuning",
+      "published": "2026-04-03T00:00:00.000Z"
+    },
+    {
+      "id": "2604.00913",
+      "title": "Benchmarking and Mechanistic Analysis of Vision-Language Models for Cross-Depiction Assembly Instruction Alignment",
+      "authors": [
+        "Zhuchenyang Liu",
+        "Yao Zhang",
+        "Yu Xiao"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/Ryenhails/IKEA-Bench",
+      "published": "2026-04-01T13:55:28.000Z"
+    },
+    {
+      "id": "2604.01194",
+      "title": "AgentWatcher: A Rule-based Prompt Injection Monitor",
+      "authors": [
+        "Yanting Wang",
+        "Wei Zou",
+        "Runpeng Geng",
+        "Jinyuan Jia"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2026-04-01T17:40:03.000Z"
+    },
+    {
+      "id": "2603.23582",
+      "title": "AI Generalisation Gap In Comorbid Sleep Disorder Staging",
+      "authors": [
+        "Saswata Bose",
+        "Suvadeep Maiti",
+        "Shivam Kumar Sharma",
+        "Mythirayee S",
+        "Tapabrata Chakraborti",
+        "Srijitesh Rajendran",
+        "Raju S. Bapi"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/HimalayanSaswataBose/iSLEEPS_GeneralisationGapAndExplainability",
+      "published": "2026-03-24T15:02:35.000Z"
+    }
+  ]
+}

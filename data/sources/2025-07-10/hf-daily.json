@@ -1,0 +1,421 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-07-10",
+  "fetched_at": "2026-10-29T15:32:05.313Z",
+  "candidates": [
+    {
+      "id": "2507.07105",
+      "title": "4KAgent: Agentic Any Image to 4K Super-Resolution",
+      "authors": [
+        "Yushen Zuo",
+        "Qi Zheng",
+        "Mingyang Wu",
+        "Xinrui Jiang",
+        "Renjie Li",
+        "Jian Wang",
+        "Yide Zhang",
+        "Gengchen Mai",
+        "Lihong V. Wang",
+        "James Zou",
+        "Xiaoyu Wang",
+        "Ming-Hsuan Yang",
+        "Zhengzhong Tu"
+      ],
+      "upvotes": 107,
+      "github": "https://github.com/taco-group/4KAgent",
+      "published": "2025-07-09T17:59:19.000Z"
+    },
+    {
+      "id": "2507.07957",
+      "title": "MIRIX: Multi-Agent Memory System for LLM-Based Agents",
+      "authors": [
+        "Yu Wang",
+        "Xi Chen"
+      ],
+      "upvotes": 80,
+      "github": "https://github.com/Mirix-AI/MIRIX",
+      "published": "2025-07-10T17:40:11.000Z"
+    },
+    {
+      "id": "2507.06167",
+      "title": "Skywork-R1V3 Technical Report",
+      "authors": [
+        "Wei Shen",
+        "Jiangbo Pei",
+        "Yi Peng",
+        "Xuchen Song",
+        "Yang Liu",
+        "Jian Peng",
+        "Haofeng Sun",
+        "Yunzhuo Hao",
+        "Peiyu Wang",
+        "Yahui Zhou"
+      ],
+      "upvotes": 73,
+      "github": null,
+      "published": "2025-07-08T16:47:16.000Z"
+    },
+    {
+      "id": "2507.07095",
+      "title": "Go to Zero: Towards Zero-shot Motion Generation with Million-scale Data",
+      "authors": [
+        "Ke Fan",
+        "Shunlin Lu",
+        "Minyue Dai",
+        "Runyi Yu",
+        "Lixing Xiao",
+        "Zhiyang Dou",
+        "Junting Dong",
+        "Lizhuang Ma",
+        "Jingbo Wang"
+      ],
+      "upvotes": 56,
+      "github": "https://github.com/VankouF/MotionMillion-Codes",
+      "published": "2025-07-09T17:52:04.000Z"
+    },
+    {
+      "id": "2507.06448",
+      "title": "Perception-Aware Policy Optimization for Multimodal Reasoning",
+      "authors": [
+        "Zhenhailong Wang",
+        "Xuehang Guo",
+        "Sofia Stoica",
+        "Haiyang Xu",
+        "Hongru Wang",
+        "Hyeonjeong Ha",
+        "Xiusi Chen",
+        "Yangyi Chen",
+        "Ming Yan",
+        "Fei Huang",
+        "Heng Ji"
+      ],
+      "upvotes": 48,
+      "github": "https://github.com/MikeWangWZHL/PAPO",
+      "published": "2025-07-08T23:22:34.000Z"
+    },
+    {
+      "id": "2507.05687",
+      "title": "AutoTriton: Automatic Triton Programming with Reinforcement Learning in LLMs",
+      "authors": [
+        "Shangzhan Li",
+        "Zefan Wang",
+        "Ye He",
+        "Yuxuan Li",
+        "Qi Shi",
+        "Jianling Li",
+        "Yonggang Hu",
+        "Wanxiang Che",
+        "Xu Han",
+        "Zhiyuan Liu",
+        "Maosong Sun"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/AI9Stars/AutoTriton",
+      "published": "2025-07-08T05:38:24.000Z"
+    },
+    {
+      "id": "2507.06920",
+      "title": "Rethinking Verification for LLM Code Generation: From Generation to Testing",
+      "authors": [
+        "Zihan Ma",
+        "Taolin Zhang",
+        "Maosong Cao",
+        "Wenwei Zhang",
+        "Minnan Luo",
+        "Songyang Zhang",
+        "Kai Chen"
+      ],
+      "upvotes": 29,
+      "github": "https://github.com/open-compass/saga",
+      "published": "2025-07-09T14:58:47.000Z"
+    },
+    {
+      "id": "2507.06457",
+      "title": "A Systematic Analysis of Hybrid Linear Attention",
+      "authors": [
+        "Dustin Wang",
+        "Rui-Jie Zhu",
+        "Steven Abreu",
+        "Yong Shan",
+        "Taylor Kergan",
+        "Yuqi Pan",
+        "Yuhong Chou",
+        "Zheng Li",
+        "Ge Zhang",
+        "Wenhao Huang",
+        "Jason Eshraghian"
+      ],
+      "upvotes": 26,
+      "github": "https://github.com/fla-org/flash-linear-attention",
+      "published": "2025-07-08T23:54:11.000Z"
+    },
+    {
+      "id": "2507.07017",
+      "title": "First Return, Entropy-Eliciting Explore",
+      "authors": [
+        "Tianyu Zheng",
+        "Tianshun Xing",
+        "Qingshui Gu",
+        "Taoran Liang",
+        "Xingwei Qu",
+        "Xin Zhou",
+        "Yizhi Li",
+        "Zhoufutu Wen",
+        "Chenghua Lin",
+        "Wenhao Huang",
+        "Qian Liu",
+        "Ge Zhang",
+        "Zejun Ma"
+      ],
+      "upvotes": 24,
+      "github": null,
+      "published": "2025-07-09T16:45:48.000Z"
+    },
+    {
+      "id": "2507.06804",
+      "title": "Towards Solving More Challenging IMO Problems via Decoupled Reasoning and Proving",
+      "authors": [
+        "Zhenwen Liang",
+        "Linfeng Song",
+        "Yang Li",
+        "Tao Yang",
+        "Feng Zhang",
+        "Haitao Mi",
+        "Dong Yu"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2025-07-07T22:38:49.000Z"
+    },
+    {
+      "id": "2506.24044",
+      "title": "A Survey on Vision-Language-Action Models for Autonomous Driving",
+      "authors": [
+        "Sicong Jiang",
+        "Zilin Huang",
+        "Kangan Qian",
+        "Ziang Luo",
+        "Tianze Zhu",
+        "Yang Zhong",
+        "Yihong Tang",
+        "Menglin Kong",
+        "Yunlong Wang",
+        "Siwen Jiao",
+        "Hao Ye",
+        "Zihao Sheng",
+        "Xin Zhao",
+        "Tuopu Wen",
+        "Zheng Fu",
+        "Sikai Chen",
+        "Kun Jiang",
+        "Diange Yang",
+        "Seongjin Choi",
+        "Lijun Sun"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/JohnsonJiang1996/Awesome-VLA4AD",
+      "published": "2025-06-30T16:50:02.000Z"
+    },
+    {
+      "id": "2507.06607",
+      "title": "Decoder-Hybrid-Decoder Architecture for Efficient Reasoning with Long Generation",
+      "authors": [
+        "Liliang Ren",
+        "Congcong Chen",
+        "Haoran Xu",
+        "Young Jin Kim",
+        "Adam Atkinson",
+        "Zheng Zhan",
+        "Jiankai Sun",
+        "Baolin Peng",
+        "Liyuan Liu",
+        "Shuohang Wang",
+        "Hao Cheng",
+        "Jianfeng Gao",
+        "Weizhu Chen",
+        "Yelong Shen"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/microsoft/ArchScale",
+      "published": "2025-07-09T07:27:00.000Z"
+    },
+    {
+      "id": "2507.06415",
+      "title": "PERK: Long-Context Reasoning as Parameter-Efficient Test-Time Learning",
+      "authors": [
+        "Zeming Chen",
+        "Angelika Romanou",
+        "Gail Weiss",
+        "Antoine Bosselut"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/eric11eca/perk",
+      "published": "2025-07-08T21:38:45.000Z"
+    },
+    {
+      "id": "2507.07024",
+      "title": "FlexOlmo: Open Language Models for Flexible Data Use",
+      "authors": [
+        "Weijia Shi",
+        "Akshita Bhagia",
+        "Kevin Farhat",
+        "Niklas Muennighoff",
+        "Pete Walsh",
+        "Jacob Morrison",
+        "Dustin Schwenk",
+        "Shayne Longpre",
+        "Jake Poznanski",
+        "Allyson Ettinger",
+        "Daogao Liu",
+        "Margaret Li",
+        "Dirk Groeneveld",
+        "Mike Lewis",
+        "Wen-tau Yih",
+        "Luca Soldaini",
+        "Kyle Lo",
+        "Noah A. Smith",
+        "Luke Zettlemoyer",
+        "Pang Wei Koh",
+        "Hannaneh Hajishirzi",
+        "Ali Farhadi",
+        "Sewon Min"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/allenai/FlexOlmo",
+      "published": "2025-07-09T16:54:21.000Z"
+    },
+    {
+      "id": "2507.06853",
+      "title": "DiffSpectra: Molecular Structure Elucidation from Spectra using Diffusion Models",
+      "authors": [
+        "Liang Wang",
+        "Yu Rong",
+        "Tingyang Xu",
+        "Zhenyi Zhong",
+        "Zhiyuan Liu",
+        "Pengju Wang",
+        "Deli Zhao",
+        "Qiang Liu",
+        "Shu Wu",
+        "Liang Wang"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2025-07-09T13:57:20.000Z"
+    },
+    {
+      "id": "2507.06260",
+      "title": "Evaluating the Critical Risks of Amazon's Nova Premier under the Frontier Model Safety Framework",
+      "authors": [
+        "Satyapriya Krishna",
+        "Ninareh Mehrabi",
+        "Abhinav Mohanty",
+        "Matteo Memelli",
+        "Vincent Ponzo",
+        "Payal Motwani",
+        "Rahul Gupta"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2025-07-07T13:33:35.000Z"
+    },
+    {
+      "id": "2507.06485",
+      "title": "Video-RTS: Rethinking Reinforcement Learning and Test-Time Scaling for Efficient and Enhanced Video Reasoning",
+      "authors": [
+        "Ziyang Wang",
+        "Jaehong Yoon",
+        "Shoubin Yu",
+        "Md Mohaiminul Islam",
+        "Gedas Bertasius",
+        "Mohit Bansal"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/Ziyang412/Video-RTS",
+      "published": "2025-07-09T02:06:13.000Z"
+    },
+    {
+      "id": "2507.05455",
+      "title": "ModelCitizens: Representing Community Voices in Online Safety",
+      "authors": [
+        "Ashima Suvarna",
+        "Christina Chance",
+        "Karolina Naranjo",
+        "Hamid Palangi",
+        "Sophie Hao",
+        "Thomas Hartvigsen",
+        "Saadia Gabriel"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/asuvarna31/modelcitizens",
+      "published": "2025-07-07T20:15:18.000Z"
+    },
+    {
+      "id": "2505.10251",
+      "title": "SRT-H: A Hierarchical Framework for Autonomous Surgery via Language Conditioned Imitation Learning",
+      "authors": [
+        "Ji Woong Kim",
+        "Juo-Tung Chen",
+        "Pascal Hansen",
+        "Lucy X. Shi",
+        "Antony Goldenberg",
+        "Samuel Schmidgall",
+        "Paul Maria Scheikl",
+        "Anton Deguet",
+        "Brandon M. White",
+        "De Ru Tsai",
+        "Richard Cha",
+        "Jeffrey Jopling",
+        "Chelsea Finn",
+        "Axel Krieger"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-05-15T13:04:53.000Z"
+    },
+    {
+      "id": "2507.01702",
+      "title": "AdamMeme: Adaptively Probe the Reasoning Capacity of Multimodal Large Language Models on Harmfulness",
+      "authors": [
+        "Zixin Chen",
+        "Hongzhan Lin",
+        "Kaixin Li",
+        "Ziyang Luo",
+        "Zhen Ye",
+        "Guang Chen",
+        "Zhiyong Huang",
+        "Jing Ma"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/Lbotirx/AdamMeme",
+      "published": "2025-07-02T13:32:30.000Z"
+    },
+    {
+      "id": "2507.05980",
+      "title": "RabakBench: Scaling Human Annotations to Construct Localized Multilingual Safety Benchmarks for Low-Resource Languages",
+      "authors": [
+        "Gabriel Chua",
+        "Leanne Tan",
+        "Ziyu Ge",
+        "Roy Ka-Wei Lee"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/govtech-responsibleai/rabakbench",
+      "published": "2025-07-08T13:37:25.000Z"
+    },
+    {
+      "id": "2507.07106",
+      "title": "Towards Multimodal Understanding via Stable Diffusion as a Task-Aware Feature Extractor",
+      "authors": [
+        "Vatsal Agarwal",
+        "Matthew Gwilliam",
+        "Gefen Kohavi",
+        "Eshan Verma",
+        "Daniel Ulbricht",
+        "Abhinav Shrivastava"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2025-07-09T17:59:47.000Z"
+    }
+  ]
+}

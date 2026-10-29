@@ -1,0 +1,243 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-01-13",
+  "fetched_at": "2026-10-29T15:30:17.083Z",
+  "candidates": [
+    {
+      "id": "2501.05874",
+      "title": "VideoRAG: Retrieval-Augmented Generation over Video Corpus",
+      "authors": [
+        "Soyeong Jeong",
+        "Kangsan Kim",
+        "Jinheon Baek",
+        "Sung Ju Hwang"
+      ],
+      "upvotes": 71,
+      "github": "https://github.com/starsuzi/VideoRAG",
+      "published": "2025-01-10T11:17:15.000Z"
+    },
+    {
+      "id": "2501.06186",
+      "title": "LlamaV-o1: Rethinking Step-by-step Visual Reasoning in LLMs",
+      "authors": [
+        "Omkar Thawakar",
+        "Dinura Dissanayake",
+        "Ketan More",
+        "Ritesh Thawkar",
+        "Ahmed Heakl",
+        "Noor Ahsan",
+        "Yuhao Li",
+        "Mohammed Zumri",
+        "Jean Lahoud",
+        "Rao Muhammad Anwer",
+        "Hisham Cholakkal",
+        "Ivan Laptev",
+        "Mubarak Shah",
+        "Fahad Shahbaz Khan",
+        "Salman Khan"
+      ],
+      "upvotes": 67,
+      "github": "https://github.com/mbzuai-oryx/llamav-o1",
+      "published": "2025-01-10T18:59:51.000Z"
+    },
+    {
+      "id": "2501.05727",
+      "title": "Enabling Scalable Oversight via Self-Evolving Critic",
+      "authors": [
+        "Zhengyang Tang",
+        "Ziniu Li",
+        "Zhenyang Xiao",
+        "Tian Ding",
+        "Ruoyu Sun",
+        "Benyou Wang",
+        "Dayiheng Liu",
+        "Fei Huang",
+        "Tianyu Liu",
+        "Bowen Yu",
+        "Junyang Lin"
+      ],
+      "upvotes": 65,
+      "github": null,
+      "published": "2025-01-10T05:51:52.000Z"
+    },
+    {
+      "id": "2501.03841",
+      "title": "OmniManip: Towards General Robotic Manipulation via Object-Centric Interaction Primitives as Spatial Constraints",
+      "authors": [
+        "Mingjie Pan",
+        "Jiyao Zhang",
+        "Tianshu Wu",
+        "Yinghao Zhao",
+        "Wenlong Gao",
+        "Hao Dong"
+      ],
+      "upvotes": 57,
+      "github": null,
+      "published": "2025-01-07T14:50:33.000Z"
+    },
+    {
+      "id": "2501.05510",
+      "title": "OVO-Bench: How Far is Your Video-LLMs from Real-World Online Video Understanding?",
+      "authors": [
+        "Yifei Li",
+        "Junbo Niu",
+        "Ziyang Miao",
+        "Chunjiang Ge",
+        "Yuanhang Zhou",
+        "Qihao He",
+        "Xiaoyi Dong",
+        "Haodong Duan",
+        "Shuangrui Ding",
+        "Rui Qian",
+        "Pan Zhang",
+        "Yuhang Zang",
+        "Yuhang Cao",
+        "Conghui He",
+        "Jiaqi Wang"
+      ],
+      "upvotes": 46,
+      "github": "https://github.com/joeleelyf/ovo-bench",
+      "published": "2025-01-09T19:00:01.000Z"
+    },
+    {
+      "id": "2501.05767",
+      "title": "Migician: Revealing the Magic of Free-Form Multi-Image Grounding in Multimodal Large Language Models",
+      "authors": [
+        "You Li",
+        "Heyu Huang",
+        "Chi Chen",
+        "Kaiyu Huang",
+        "Chao Huang",
+        "Zonghao Guo",
+        "Zhiyuan Liu",
+        "Jinan Xu",
+        "Yuhua Li",
+        "Ruixuan Li",
+        "Maosong Sun"
+      ],
+      "upvotes": 29,
+      "github": "https://github.com/thunlp/Migician",
+      "published": "2025-01-10T07:56:23.000Z"
+    },
+    {
+      "id": "2501.05707",
+      "title": "Multiagent Finetuning: Self Improvement with Diverse Reasoning Chains",
+      "authors": [
+        "Vighnesh Subramaniam",
+        "Yilun Du",
+        "Joshua B. Tenenbaum",
+        "Antonio Torralba",
+        "Shuang Li",
+        "Igor Mordatch"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/vsubramaniam851/multiagent-ft",
+      "published": "2025-01-10T04:35:46.000Z"
+    },
+    {
+      "id": "2501.04698",
+      "title": "ConceptMaster: Multi-Concept Video Customization on Diffusion Transformer Models Without Test-Time Tuning",
+      "authors": [
+        "Yuzhou Huang",
+        "Ziyang Yuan",
+        "Quande Liu",
+        "Qiulin Wang",
+        "Xintao Wang",
+        "Ruimao Zhang",
+        "Pengfei Wan",
+        "Di Zhang",
+        "Kun Gai"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2025-01-08T18:59:01.000Z"
+    },
+    {
+      "id": "2501.06187",
+      "title": "Multi-subject Open-set Personalization in Video Generation",
+      "authors": [
+        "Tsai-Shien Chen",
+        "Aliaksandr Siarohin",
+        "Willi Menapace",
+        "Yuwei Fang",
+        "Kwot Sin Lee",
+        "Ivan Skorokhodov",
+        "Kfir Aberman",
+        "Jun-Yan Zhu",
+        "Ming-Hsuan Yang",
+        "Sergey Tulyakov"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/snap-research/MSRVTT-Personalization",
+      "published": "2025-01-10T18:59:54.000Z"
+    },
+    {
+      "id": "2501.05452",
+      "title": "ReFocus: Visual Editing as a Chain of Thought for Structured Image Understanding",
+      "authors": [
+        "Xingyu Fu",
+        "Minqian Liu",
+        "Zhengyuan Yang",
+        "John Corring",
+        "Yijuan Lu",
+        "Jianwei Yang",
+        "Dan Roth",
+        "Dinei Florencio",
+        "Cha Zhang"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/zeyofu/ReFocus_Code",
+      "published": "2025-01-09T18:59:58.000Z"
+    },
+    {
+      "id": "2501.05542",
+      "title": "Infecting Generative AI With Viruses",
+      "authors": [
+        "David Noever",
+        "Forrest McKee"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2025-01-09T19:27:29.000Z"
+    },
+    {
+      "id": "2501.06250",
+      "title": "Generative AI for Cel-Animation: A Survey",
+      "authors": [
+        "Yunlong Tang",
+        "Junjia Guo",
+        "Pinxin Liu",
+        "Zhiyuan Wang",
+        "Hang Hua",
+        "Jia-Xing Zhong",
+        "Yunzhong Xiao",
+        "Chao Huang",
+        "Luchuan Song",
+        "Susan Liang",
+        "Yizhi Song",
+        "Liu He",
+        "Jing Bi",
+        "Mingqian Feng",
+        "Xinyang Li",
+        "Zeliang Zhang",
+        "Chenliang Xu"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/yunlong10/Awesome-AI4Animation",
+      "published": "2025-01-08T20:57:39.000Z"
+    },
+    {
+      "id": "2501.04961",
+      "title": "Demystifying Domain-adaptive Post-training for Financial LLMs",
+      "authors": [
+        "Zixuan Ke",
+        "Yifei Ming",
+        "Xuan-Phi Nguyen",
+        "Caiming Xiong",
+        "Shafiq Joty"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/SalesforceAIResearch/FinDAP",
+      "published": "2025-01-09T04:26:15.000Z"
+    }
+  ]
+}

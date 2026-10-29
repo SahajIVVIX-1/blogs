@@ -1,0 +1,492 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-02-24",
+  "fetched_at": "2026-10-29T15:34:49.340Z",
+  "candidates": [
+    {
+      "id": "2602.20159",
+      "title": "A Very Big Video Reasoning Suite",
+      "authors": [
+        "Maijunxian Wang",
+        "Ruisi Wang",
+        "Juyi Lin",
+        "Ran Ji",
+        "Thaddäus Wiedemer",
+        "Qingying Gao",
+        "Dezhi Luo",
+        "Yaoyao Qian",
+        "Lianyu Huang",
+        "Zelong Hong",
+        "Jiahui Ge",
+        "Qianli Ma",
+        "Hang He",
+        "Yifan Zhou",
+        "Lingzi Guo",
+        "Lantao Mei",
+        "Jiachen Li",
+        "Hanwen Xing",
+        "Tianqi Zhao",
+        "Fengyuan Yu",
+        "Weihang Xiao",
+        "Yizheng Jiao",
+        "Jianheng Hou",
+        "Danyang Zhang",
+        "Pengcheng Xu",
+        "Boyang Zhong",
+        "Zehong Zhao",
+        "Gaoyun Fang",
+        "John Kitaoka",
+        "Yile Xu",
+        "Hua Xu",
+        "Kenton Blacutt",
+        "Tin Nguyen",
+        "Siyuan Song",
+        "Haoran Sun",
+        "Shaoyue Wen",
+        "Linyang He",
+        "Runming Wang",
+        "Yanzhi Wang",
+        "Mengyue Yang",
+        "Ziqiao Ma",
+        "Raphaël Millière",
+        "Freda Shi",
+        "Nuno Vasconcelos",
+        "Daniel Khashabi",
+        "Alan Yuille",
+        "Yilun Du",
+        "Ziming Liu",
+        "Bo Li",
+        "Dahua Lin",
+        "Ziwei Liu",
+        "Vikash Kumar",
+        "Yijiang Li",
+        "Lei Yang",
+        "Zhongang Cai",
+        "Hokin Deng"
+      ],
+      "upvotes": 194,
+      "github": "https://github.com/Video-Reason/VBVR-EvalKit",
+      "published": "2026-02-23T18:59:41.000Z"
+    },
+    {
+      "id": "2602.19672",
+      "title": "SkillOrchestra: Learning to Route Agents via Skill Transfer",
+      "authors": [
+        "Jiayu Wang",
+        "Yifei Ming",
+        "Zixuan Ke",
+        "Shafiq Joty",
+        "Aws Albarghouthi",
+        "Frederic Sala"
+      ],
+      "upvotes": 58,
+      "github": "https://github.com/jiayuww/SkillOrchestra",
+      "published": "2026-02-23T10:17:25.000Z"
+    },
+    {
+      "id": "2602.20021",
+      "title": "Agents of Chaos",
+      "authors": [
+        "Natalie Shapira",
+        "Chris Wendler",
+        "Avery Yen",
+        "Gabriele Sarti",
+        "Koyena Pal",
+        "Olivia Floody",
+        "Adam Belfki",
+        "Alex Loftus",
+        "Aditya Ratan Jannali",
+        "Nikhil Prakash",
+        "Jasmine Cui",
+        "Giordano Rogers",
+        "Jannik Brinkmann",
+        "Can Rager",
+        "Amir Zur",
+        "Michael Ripa",
+        "Aruna Sankaranarayanan",
+        "David Atkinson",
+        "Rohit Gandikota",
+        "Jaden Fiotto-Kaufman",
+        "EunJeong Hwang",
+        "Hadas Orgad",
+        "P Sam Sahil",
+        "Negev Taglicht",
+        "Tomer Shabtay",
+        "Atai Ambus",
+        "Nitay Alon",
+        "Shiri Oron",
+        "Ayelet Gordon-Tapiero",
+        "Yotam Kaplan",
+        "Vered Shwartz",
+        "Tamar Rott Shaham",
+        "Christoph Riedl",
+        "Reuth Mirsky",
+        "Maarten Sap",
+        "David Manheim",
+        "Tomer Ullman",
+        "David Bau"
+      ],
+      "upvotes": 35,
+      "github": null,
+      "published": "2026-02-23T16:28:48.000Z"
+    },
+    {
+      "id": "2602.20093",
+      "title": "ManCAR: Manifold-Constrained Latent Reasoning with Adaptive Test-Time Computation for Sequential Recommendation",
+      "authors": [
+        "Kun Yang",
+        "Yuxuan Zhu",
+        "Yazhe Chen",
+        "Siyao Zheng",
+        "Bangyang Hong",
+        "Kangle Wu",
+        "Yabo Ni",
+        "Anxiang Zeng",
+        "Cong Fu",
+        "Hui Li"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/FuCongResearchSquad/ManCAR",
+      "published": "2026-02-23T18:02:50.000Z"
+    },
+    {
+      "id": "2602.18532",
+      "title": "VLANeXt: Recipes for Building Strong VLA Models",
+      "authors": [
+        "Xiao-Ming Wu",
+        "Bin Fan",
+        "Kang Liao",
+        "Jian-Jian Jiang",
+        "Runze Yang",
+        "Yihang Luo",
+        "Zhonghua Wu",
+        "Wei-Shi Zheng",
+        "Chen Change Loy"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/DravenALG/VLANeXt",
+      "published": "2026-02-20T09:26:17.000Z"
+    },
+    {
+      "id": "2602.19313",
+      "title": "TOPReward: Token Probabilities as Hidden Zero-Shot Rewards for Robotics",
+      "authors": [
+        "Shirui Chen",
+        "Cole Harrison",
+        "Ying-Chun Lee",
+        "Angela Jin Yang",
+        "Zhongzheng Ren",
+        "Lillian J. Ratliff",
+        "Jiafei Duan",
+        "Dieter Fox",
+        "Ranjay Krishna"
+      ],
+      "upvotes": 26,
+      "github": "https://github.com/TOPReward/TOPReward",
+      "published": "2026-02-22T19:25:48.000Z"
+    },
+    {
+      "id": "2602.20161",
+      "title": "Mobile-O: Unified Multimodal Understanding and Generation on Mobile Device",
+      "authors": [
+        "Abdelrahman Shaker",
+        "Ahmed Heakl",
+        "Jaseel Muhammad",
+        "Ritesh Thawkar",
+        "Omkar Thawakar",
+        "Senmao Li",
+        "Hisham Cholakkal",
+        "Ian Reid",
+        "Eric P. Xing",
+        "Salman Khan",
+        "Fahad Shahbaz Khan"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/Amshaker/Mobile-O",
+      "published": "2026-02-23T18:59:58.000Z"
+    },
+    {
+      "id": "2602.16863",
+      "title": "SimToolReal: An Object-Centric Policy for Zero-Shot Dexterous Tool Manipulation",
+      "authors": [
+        "Kushal Kedia",
+        "Tyler Ga Wei Lum",
+        "Jeannette Bohg",
+        "C. Karen Liu"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/tylerlum/simtoolreal",
+      "published": "2026-02-18T20:42:39.000Z"
+    },
+    {
+      "id": "2602.18996",
+      "title": "Learning Cross-View Object Correspondence via Cycle-Consistent Mask Prediction",
+      "authors": [
+        "Shannan Yan",
+        "Leqi Zheng",
+        "Keyu Lv",
+        "Jingchen Ni",
+        "Hongyang Wei",
+        "Jiajun Zhang",
+        "Guangting Wang",
+        "Jing Lyu",
+        "Chun Yuan",
+        "Fengyun Rao"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/shannany0606/CCMP",
+      "published": "2026-02-22T00:53:03.000Z"
+    },
+    {
+      "id": "2602.19895",
+      "title": "DSDR: Dual-Scale Diversity Regularization for Exploration in LLM Reasoning",
+      "authors": [
+        "Zhongwei Wan",
+        "Yun Shen",
+        "Zhihao Dou",
+        "Donghao Zhou",
+        "Yu Zhang",
+        "Xin Wang",
+        "Hui Shen",
+        "Jing Xiong",
+        "Chaofan Tao",
+        "Zixuan Zhong",
+        "Peizhou Huang",
+        "Mi Zhang"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2026-02-23T14:37:01.000Z"
+    },
+    {
+      "id": "2602.16872",
+      "title": "DODO: Discrete OCR Diffusion Models",
+      "authors": [
+        "Sean Man",
+        "Roy Ganz",
+        "Roi Ronen",
+        "Shahar Tsiper",
+        "Shai Mazor",
+        "Niv Nayman"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2026-02-18T20:59:22.000Z"
+    },
+    {
+      "id": "2602.18742",
+      "title": "RoboCurate: Harnessing Diversity with Action-Verified Neural Trajectory for Robot Learning",
+      "authors": [
+        "Seungku Kim",
+        "Suhyeok Jang",
+        "Byungjun Yoon",
+        "Dongyoung Kim",
+        "John Won",
+        "Jinwoo Shin"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2026-02-21T07:33:24.000Z"
+    },
+    {
+      "id": "2602.20160",
+      "title": "tttLRM: Test-Time Training for Long Context and Autoregressive 3D Reconstruction",
+      "authors": [
+        "Chen Wang",
+        "Hao Tan",
+        "Wang Yifan",
+        "Zhiqin Chen",
+        "Yuheng Liu",
+        "Kalyan Sunkavalli",
+        "Sai Bi",
+        "Lingjie Liu",
+        "Yiwei Hu"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/cwchenwang/tttLRM",
+      "published": "2026-02-23T18:59:45.000Z"
+    },
+    {
+      "id": "2602.18640",
+      "title": "Decoding ML Decision: An Agentic Reasoning Framework for Large-Scale Ranking System",
+      "authors": [
+        "Longfei Yun",
+        "Yihan Wu",
+        "Haoran Liu",
+        "Xiaoxuan Liu",
+        "Ziyun Xu",
+        "Yi Wang",
+        "Yang Xia",
+        "Pengfei Wang",
+        "Mingze Gao",
+        "Yunxiang Wang",
+        "Changfan Chen",
+        "Junfeng Pan"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2026-02-20T22:24:01.000Z"
+    },
+    {
+      "id": "2602.19320",
+      "title": "Anatomy of Agentic Memory: Taxonomy and Empirical Analysis of Evaluation and System Limitations",
+      "authors": [
+        "Dongming Jiang",
+        "Yi Li",
+        "Songtao Wei",
+        "Jinxin Yang",
+        "Ayushi Kishore",
+        "Alysa Zhao",
+        "Dingyi Kang",
+        "Xu Hu",
+        "Feng Chen",
+        "Qiannan Li",
+        "Bingzhe Li"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/FredJiang0324/Anatomy-of-Agentic-Memory",
+      "published": "2026-02-22T19:50:01.000Z"
+    },
+    {
+      "id": "2602.19128",
+      "title": "K-Search: LLM Kernel Generation via Co-Evolving Intrinsic World Model",
+      "authors": [
+        "Shiyi Cao",
+        "Ziming Mao",
+        "Joseph E. Gonzalez",
+        "Ion Stoica"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/caoshiyi/K-Search",
+      "published": "2026-02-22T11:06:22.000Z"
+    },
+    {
+      "id": "2602.18333",
+      "title": "On the \"Induction Bias\" in Sequence Models",
+      "authors": [
+        "M. Reza Ebrahimi",
+        "Michaël Defferrard",
+        "Sunny Panchal",
+        "Roland Memisevic"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-02-20T16:39:07.000Z"
+    },
+    {
+      "id": "2602.18224",
+      "title": "SimVLA: A Simple VLA Baseline for Robotic Manipulation",
+      "authors": [
+        "Yuankai Luo",
+        "Woping Chen",
+        "Tong Liang",
+        "Baiqiao Wang",
+        "Zhenguo Li"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/LUOyk1999/SimVLA",
+      "published": "2026-02-20T14:04:27.000Z"
+    },
+    {
+      "id": "2602.19626",
+      "title": "Nacrith: Neural Lossless Compression via Ensemble Context Modeling and High-Precision CDF Coding",
+      "authors": [
+        "Roberto Tacconelli"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/robtacconelli/Nacrith-GPU",
+      "published": "2026-02-23T09:14:05.000Z"
+    },
+    {
+      "id": "2602.19089",
+      "title": "Ani3DHuman: Photorealistic 3D Human Animation with Self-guided Stochastic Sampling",
+      "authors": [
+        "Qi Sun",
+        "Can Wang",
+        "Jiaxiang Shang",
+        "Yingchun Liu",
+        "Jing Liao"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/qiisun/ani3dhuman",
+      "published": "2026-02-22T08:07:28.000Z"
+    },
+    {
+      "id": "2602.12100",
+      "title": "AssetFormer: Modular 3D Assets Generation with Autoregressive Transformer",
+      "authors": [
+        "Lingting Zhu",
+        "Shengju Qian",
+        "Haidi Fan",
+        "Jiayu Dong",
+        "Zhenchao Jin",
+        "Siwei Zhou",
+        "Gen Dong",
+        "Xin Wang",
+        "Lequan Yu"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/Advocate99/AssetFormer",
+      "published": "2026-02-12T15:55:21.000Z"
+    },
+    {
+      "id": "2602.17393",
+      "title": "Contact-Anchored Proprioceptive Odometry for Quadruped Robots",
+      "authors": [
+        "Minxing Sun",
+        "Yao Mao"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/ShineMinxing/Ros2Go2Estimator",
+      "published": "2026-02-19T14:18:26.000Z"
+    },
+    {
+      "id": "2602.18662",
+      "title": "Large Causal Models for Temporal Causal Discovery",
+      "authors": [
+        "Nikolaos Kougioulis",
+        "Nikolaos Gkorgkolis",
+        "MingXue Wang",
+        "Bora Caglayan",
+        "Dario Simionato",
+        "Andrea Tonon",
+        "Ioannis Tsamardinos"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/kougioulis/LCM",
+      "published": "2026-02-20T23:47:55.000Z"
+    },
+    {
+      "id": "2602.18915",
+      "title": "AAVGen: Precision Engineering of Adeno-associated Viral Capsids for Renal Selective Targeting",
+      "authors": [
+        "Mohammadreza Ghaffarzadeh-Esfahani",
+        "Yousof Gheisari"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/mohammad-gh009/AAVGen",
+      "published": "2026-02-21T17:46:34.000Z"
+    },
+    {
+      "id": "2602.19455",
+      "title": "SenTSR-Bench: Thinking with Injected Knowledge for Time-Series Reasoning",
+      "authors": [
+        "Zelin He",
+        "Boran Han",
+        "Xiyuan Zhang",
+        "Shuai Zhang",
+        "Haotian Lin",
+        "Qi Zhu",
+        "Haoyang Fang",
+        "Danielle C. Maddix",
+        "Abdul Fatir Ansari",
+        "Akash Chandrayan",
+        "Abhinav Pradhan",
+        "Bernie Wang",
+        "Matthew Reimherr"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2026-02-23T02:55:32.000Z"
+    }
+  ]
+}

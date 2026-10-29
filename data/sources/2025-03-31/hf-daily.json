@@ -1,0 +1,377 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-03-31",
+  "fetched_at": "2026-10-29T15:31:03.775Z",
+  "candidates": [
+    {
+      "id": "2503.19693",
+      "title": "AdaptiVocab: Enhancing LLM Efficiency in Focused Domains through Lightweight Vocabulary Adaptation",
+      "authors": [
+        "Itay Nakash",
+        "Nitay Calderon",
+        "Eyal Ben David",
+        "Elad Hoffer",
+        "Roi Reichart"
+      ],
+      "upvotes": 76,
+      "github": "https://github.com/itay-nakash/AdaptiVocab",
+      "published": "2025-03-25T14:18:21.000Z"
+    },
+    {
+      "id": "2503.22230",
+      "title": "Exploring Data Scaling Trends and Effects in Reinforcement Learning from Human Feedback",
+      "authors": [
+        "Wei Shen",
+        "Guanlin Liu",
+        "Zheng Wu",
+        "Ruofei Zhu",
+        "Qingping Yang",
+        "Chao Xin",
+        "Yu Yue",
+        "Lin Yan"
+      ],
+      "upvotes": 45,
+      "github": null,
+      "published": "2025-03-28T08:26:41.000Z"
+    },
+    {
+      "id": "2503.21614",
+      "title": "A Survey of Efficient Reasoning for Large Reasoning Models: Language, Multimodality, and Beyond",
+      "authors": [
+        "Xiaoye Qu",
+        "Yafu Li",
+        "Zhaochen Su",
+        "Weigao Sun",
+        "Jianhao Yan",
+        "Dongrui Liu",
+        "Ganqu Cui",
+        "Daizong Liu",
+        "Shuxian Liang",
+        "Junxian He",
+        "Peng Li",
+        "Wei Wei",
+        "Jing Shao",
+        "Chaochao Lu",
+        "Yue Zhang",
+        "Xian-Sheng Hua",
+        "Bowen Zhou",
+        "Yu Cheng"
+      ],
+      "upvotes": 44,
+      "github": "https://github.com/XiaoYee/Awesome_Efficient_LRM_Reasoning",
+      "published": "2025-03-27T15:36:30.000Z"
+    },
+    {
+      "id": "2503.22675",
+      "title": "Think Before Recommend: Unleashing the Latent Reasoning Power for Sequential Recommendation",
+      "authors": [
+        "Jiakai Tang",
+        "Sunhao Dai",
+        "Teng Shi",
+        "Jun Xu",
+        "Xu Chen",
+        "Wen Chen",
+        "Wu Jian",
+        "Yuning Jiang"
+      ],
+      "upvotes": 36,
+      "github": "https://github.com/TangJiakai/ReaRec",
+      "published": "2025-03-28T17:59:03.000Z"
+    },
+    {
+      "id": "2503.16081",
+      "title": "OThink-MR1: Stimulating multimodal generalized reasoning capabilities via dynamic reinforcement learning",
+      "authors": [
+        "Zhiyuan Liu",
+        "Yuting Zhang",
+        "Feng Liu",
+        "Changwang Zhang",
+        "Ying Sun",
+        "Jun Wang"
+      ],
+      "upvotes": 29,
+      "github": null,
+      "published": "2025-03-20T12:22:18.000Z"
+    },
+    {
+      "id": "2503.19108",
+      "title": "Your ViT is Secretly an Image Segmentation Model",
+      "authors": [
+        "Tommie Kerssies",
+        "Niccolò Cavagnero",
+        "Alexander Hermans",
+        "Narges Norouzi",
+        "Giuseppe Averta",
+        "Bastian Leibe",
+        "Gijs Dubbelman",
+        "Daan de Geus"
+      ],
+      "upvotes": 26,
+      "github": "https://github.com/tue-mps/eomt",
+      "published": "2025-03-24T19:56:02.000Z"
+    },
+    {
+      "id": "2503.21332",
+      "title": "ReFeed: Multi-dimensional Summarization Refinement with Reflective Reasoning on Feedback",
+      "authors": [
+        "Taewon Yun",
+        "Jihwan Oh",
+        "Hyangsuk Min",
+        "Yuho Lee",
+        "Jihwan Bang",
+        "Jason Cai",
+        "Hwanjun Song"
+      ],
+      "upvotes": 25,
+      "github": null,
+      "published": "2025-03-27T10:11:41.000Z"
+    },
+    {
+      "id": "2503.20308",
+      "title": "Perceptually Accurate 3D Talking Head Generation: New Definitions, Speech-Mesh Representation, and Evaluation Metrics",
+      "authors": [
+        "Lee Chae-Yeon",
+        "Oh Hyun-Bin",
+        "Han EunGi",
+        "Kim Sung-Bin",
+        "Suekyeong Nam",
+        "Tae-Hyun Oh"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/kaist-ami/Perceptual-3D-Talking-Head",
+      "published": "2025-03-31T00:00:00.000Z"
+    },
+    {
+      "id": "2503.22194",
+      "title": "ORIGEN: Zero-Shot 3D Orientation Grounding in Text-to-Image Generation",
+      "authors": [
+        "Yunhong Min",
+        "Daehyeon Choi",
+        "Kyeongmin Yeo",
+        "Jihyun Lee",
+        "Minhyuk Sung"
+      ],
+      "upvotes": 24,
+      "github": null,
+      "published": "2025-03-28T07:23:12.000Z"
+    },
+    {
+      "id": "2503.20785",
+      "title": "Free4D: Tuning-free 4D Scene Generation with Spatial-Temporal Consistency",
+      "authors": [
+        "Tianqi Liu",
+        "Zihao Huang",
+        "Zhaoxi Chen",
+        "Guangcong Wang",
+        "Shoukang Hu",
+        "Liao Shen",
+        "Huiqiang Sun",
+        "Zhiguo Cao",
+        "Wei Li",
+        "Ziwei Liu"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/tqtqliu/free4d",
+      "published": "2025-03-26T17:59:44.000Z"
+    },
+    {
+      "id": "2503.21821",
+      "title": "PHYSICS: Benchmarking Foundation Models on University-Level Physics Problem Solving",
+      "authors": [
+        "Kaiyue Feng",
+        "Yilun Zhao",
+        "Yixin Liu",
+        "Tianyu Yang",
+        "Chen Zhao",
+        "John Sous",
+        "Arman Cohan"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/yale-nlp/Physics",
+      "published": "2025-03-26T06:21:56.000Z"
+    },
+    {
+      "id": "2503.22268",
+      "title": "Segment Any Motion in Videos",
+      "authors": [
+        "Nan Huang",
+        "Wenzhao Zheng",
+        "Chenfeng Xu",
+        "Kurt Keutzer",
+        "Shanghang Zhang",
+        "Angjoo Kanazawa",
+        "Qianqian Wang"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/nnanhuang/SegAnyMo",
+      "published": "2025-03-28T09:34:11.000Z"
+    },
+    {
+      "id": "2503.22622",
+      "title": "Zero4D: Training-Free 4D Video Generation From Single Video Using Off-the-Shelf Video Diffusion Model",
+      "authors": [
+        "Jangho Park",
+        "Taesung Kwon",
+        "Jong Chul Ye"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2025-03-28T17:14:48.000Z"
+    },
+    {
+      "id": "2503.22329",
+      "title": "A Refined Analysis of Massive Activations in LLMs",
+      "authors": [
+        "Louis Owen",
+        "Nilabhra Roy Chowdhury",
+        "Abhay Kumar",
+        "Fabian Güra"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/bluorion-com/refine_massive_activations",
+      "published": "2025-03-28T11:08:34.000Z"
+    },
+    {
+      "id": "2503.21751",
+      "title": "Reconstructing Humans with a Biomechanically Accurate Skeleton",
+      "authors": [
+        "Yan Xia",
+        "Xiaowei Zhou",
+        "Etienne Vouga",
+        "Qixing Huang",
+        "Georgios Pavlakos"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/IsshikiHugh/HSMR",
+      "published": "2025-03-27T17:56:24.000Z"
+    },
+    {
+      "id": "2503.22236",
+      "title": "Hi3DGen: High-fidelity 3D Geometry Generation from Images via Normal Bridging",
+      "authors": [
+        "Chongjie Ye",
+        "Yushuang Wu",
+        "Ziteng Lu",
+        "Jiahao Chang",
+        "Xiaoyang Guo",
+        "Jiaqing Zhou",
+        "Hao Zhao",
+        "Xiaoguang Han"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2025-03-28T08:39:20.000Z"
+    },
+    {
+      "id": "2503.21732",
+      "title": "SparseFlex: High-Resolution and Arbitrary-Topology 3D Shape Modeling",
+      "authors": [
+        "Xianglong He",
+        "Zi-Xin Zou",
+        "Chia-Hao Chen",
+        "Yuan-Chen Guo",
+        "Ding Liang",
+        "Chun Yuan",
+        "Wanli Ouyang",
+        "Yan-Pei Cao",
+        "Yangguang Li"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/VAST-AI-Research/TripoSF",
+      "published": "2025-03-27T17:46:42.000Z"
+    },
+    {
+      "id": "2503.21851",
+      "title": "On Large Multimodal Models as Open-World Image Classifiers",
+      "authors": [
+        "Alessandro Conti",
+        "Massimiliano Mancini",
+        "Enrico Fini",
+        "Yiming Wang",
+        "Paolo Rota",
+        "Elisa Ricci"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/altndrr/lmms-owc",
+      "published": "2025-03-27T17:03:18.000Z"
+    },
+    {
+      "id": "2503.18968",
+      "title": "MedAgent-Pro: Towards Multi-modal Evidence-based Medical Diagnosis via Reasoning Agentic Workflow",
+      "authors": [
+        "Ziyue Wang",
+        "Junde Wu",
+        "Chang Han Low",
+        "Yueming Jin"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/jinlab-imvr/medagent-pro",
+      "published": "2025-03-21T14:04:18.000Z"
+    },
+    {
+      "id": "2503.17827",
+      "title": "4D-Bench: Benchmarking Multi-modal Large Language Models for 4D Object Understanding",
+      "authors": [
+        "Wenxuan Zhu",
+        "Bing Li",
+        "Cheng Zheng",
+        "Jinjie Mai",
+        "Jun Chen",
+        "Letian Jiang",
+        "Abdullah Hamdi",
+        "Sara Rojas Martinez",
+        "Chia-Wen Lin",
+        "Mohamed Elhoseiny",
+        "Bernard Ghanem"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/WenxuanZhu1103/4D-Bench",
+      "published": "2025-03-22T17:55:53.000Z"
+    },
+    {
+      "id": "2503.22625",
+      "title": "Challenges and Paths Towards AI for Software Engineering",
+      "authors": [
+        "Alex Gu",
+        "Naman Jain",
+        "Wen-Ding Li",
+        "Manish Shetty",
+        "Yijia Shao",
+        "Ziyang Li",
+        "Diyi Yang",
+        "Kevin Ellis",
+        "Koushik Sen",
+        "Armando Solar-Lezama"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-03-28T17:17:57.000Z"
+    },
+    {
+      "id": "2503.21779",
+      "title": "X^{2}-Gaussian: 4D Radiative Gaussian Splatting for Continuous-time Tomographic Reconstruction",
+      "authors": [
+        "Weihao Yu",
+        "Yuanhao Cai",
+        "Ruyi Zha",
+        "Zhiwen Fan",
+        "Chenxin Li",
+        "Yixuan Yuan"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/yuyouxixi/x2-gaussian",
+      "published": "2025-10-17T00:00:00.000Z"
+    },
+    {
+      "id": "2503.21544",
+      "title": "SWI: Speaking with Intent in Large Language Models",
+      "authors": [
+        "Yuwei Yin",
+        "EunJeong Hwang",
+        "Giuseppe Carenini"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/YuweiYin/SWI",
+      "published": "2025-03-27T14:34:28.000Z"
+    }
+  ]
+}

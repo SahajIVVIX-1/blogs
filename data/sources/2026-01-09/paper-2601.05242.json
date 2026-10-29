@@ -1,0 +1,11 @@
+{
+  "id": "2601.05242",
+  "html": "https://arxiv.org/html/2601.05242",
+  "limitations": null,
+  "conclusion": "In contrast to prior work that focuses on designing new reward functions for multi-reward reinforcement learning while assuming GRPO is the default optimization method, this study revisits a fundamental but often overlooked question: whether GRPO is actually suitable for multi-reward optimization. Our analysis shows that applying GRPO directly to the summed reward can cause different reward combinations to collapse into the same advantage values. This collapse eliminates important distinctions across reward dimensions, produces inaccurate policy updates and weaker optimization performance, and can in many cases lead to early training failure. To address this limitation, we introduce Group-wise Decoupled Policy Optimization (GDPO), a simple and effective modification to GRPO tailored for multi-reward reinforcement learning. GDPO performs normalization separately for each reward to preserv",
+  "figure": {
+    "path": "images/2026/paper-2601.05242.webp",
+    "src": "https://arxiv.org/html/2601.05242v1/figs/teaser.png",
+    "caption": "(a) An overview of our proposed GDPO"
+  }
+}

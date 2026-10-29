@@ -1,0 +1,329 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-04-25",
+  "fetched_at": "2026-10-29T15:31:18.991Z",
+  "candidates": [
+    {
+      "id": "2504.17192",
+      "title": "Paper2Code: Automating Code Generation from Scientific Papers in Machine Learning",
+      "authors": [
+        "Minju Seo",
+        "Jinheon Baek",
+        "Seongyun Lee",
+        "Sung Ju Hwang"
+      ],
+      "upvotes": 123,
+      "github": "https://github.com/going-doer/Paper2Code",
+      "published": "2025-04-24T01:57:01.000Z"
+    },
+    {
+      "id": "2504.17761",
+      "title": "Step1X-Edit: A Practical Framework for General Image Editing",
+      "authors": [
+        "Shiyu Liu",
+        "Yucheng Han",
+        "Peng Xing",
+        "Fukun Yin",
+        "Rui Wang",
+        "Wei Cheng",
+        "Jiaqi Liao",
+        "Yingming Wang",
+        "Honghao Fu",
+        "Chunrui Han",
+        "Guopeng Li",
+        "Yuang Peng",
+        "Quan Sun",
+        "Jingwei Wu",
+        "Yan Cai",
+        "Zheng Ge",
+        "Ranchen Ming",
+        "Lei Xia",
+        "Xianfang Zeng",
+        "Yibo Zhu",
+        "Binxing Jiao",
+        "Xiangyu Zhang",
+        "Gang Yu",
+        "Daxin Jiang"
+      ],
+      "upvotes": 92,
+      "github": "https://github.com/stepfun-ai/Step1X-Edit",
+      "published": "2025-04-24T17:25:12.000Z"
+    },
+    {
+      "id": "2504.17502",
+      "title": "RefVNLI: Towards Scalable Evaluation of Subject-driven Text-to-image Generation",
+      "authors": [
+        "Aviv Slobodkin",
+        "Hagai Taitelbaum",
+        "Yonatan Bitton",
+        "Brian Gordon",
+        "Michal Sokolik",
+        "Nitzan Bitton Guetta",
+        "Almog Gueta",
+        "Royi Rassin",
+        "Itay Laish",
+        "Dani Lischinski",
+        "Idan Szpektor"
+      ],
+      "upvotes": 55,
+      "github": null,
+      "published": "2025-04-24T12:44:51.000Z"
+    },
+    {
+      "id": "2504.17432",
+      "title": "Breaking the Modality Barrier: Universal Embedding Learning with Multimodal LLMs",
+      "authors": [
+        "Tiancheng Gu",
+        "Kaicheng Yang",
+        "Ziyong Feng",
+        "Xingjun Wang",
+        "Yanzhao Zhang",
+        "Dingkun Long",
+        "Yingda Chen",
+        "Weidong Cai",
+        "Jiankang Deng"
+      ],
+      "upvotes": 41,
+      "github": "https://github.com/deepglint/UniME",
+      "published": "2025-04-24T10:51:52.000Z"
+    },
+    {
+      "id": "2504.17207",
+      "title": "Perspective-Aware Reasoning in Vision-Language Models via Mental Imagery Simulation",
+      "authors": [
+        "Phillip Y. Lee",
+        "Jihyeon Je",
+        "Chanho Park",
+        "Mikaela Angelina Uy",
+        "Leonidas Guibas",
+        "Minhyuk Sung"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/KAIST-Visual-AI-Group/APC-VLM",
+      "published": "2025-04-24T02:41:34.000Z"
+    },
+    {
+      "id": "2504.17670",
+      "title": "DiMeR: Disentangled Mesh Reconstruction Model",
+      "authors": [
+        "Lutao Jiang",
+        "Jiantao Lin",
+        "Kanghao Chen",
+        "Wenhang Ge",
+        "Xin Yang",
+        "Yifan Jiang",
+        "Yuanhuiyi Lyu",
+        "Xu Zheng",
+        "Yingcong Chen"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/lutao2021/DiMeR",
+      "published": "2025-04-24T15:39:20.000Z"
+    },
+    {
+      "id": "2504.17789",
+      "title": "Token-Shuffle: Towards High-Resolution Image Generation with Autoregressive Models",
+      "authors": [
+        "Xu Ma",
+        "Peize Sun",
+        "Haoyu Ma",
+        "Hao Tang",
+        "Chih-Yao Ma",
+        "Jialiang Wang",
+        "Kunpeng Li",
+        "Xiaoliang Dai",
+        "Yujun Shi",
+        "Xuan Ju",
+        "Yushi Hu",
+        "Artsiom Sanakoyeu",
+        "Felix Juefei-Xu",
+        "Ji Hou",
+        "Junjiao Tian",
+        "Tao Xu",
+        "Tingbo Hou",
+        "Yen-Cheng Liu",
+        "Zecheng He",
+        "Zijian He",
+        "Matt Feiszli",
+        "Peizhao Zhang",
+        "Peter Vajda",
+        "Sam Tsai",
+        "Yun Fu"
+      ],
+      "upvotes": 23,
+      "github": null,
+      "published": "2025-04-24T17:59:56.000Z"
+    },
+    {
+      "id": "2504.16511",
+      "title": "QuaDMix: Quality-Diversity Balanced Data Selection for Efficient LLM Pretraining",
+      "authors": [
+        "Fengze Liu",
+        "Weidong Zhou",
+        "Binbin Liu",
+        "Zhimiao Yu",
+        "Yifan Zhang",
+        "Haobin Lin",
+        "Yifeng Yu",
+        "Xiaohuan Zhou",
+        "Taifeng Wang",
+        "Yong Cao"
+      ],
+      "upvotes": 23,
+      "github": null,
+      "published": "2025-04-23T08:36:50.000Z"
+    },
+    {
+      "id": "2504.16828",
+      "title": "Process Reward Models That Think",
+      "authors": [
+        "Muhammad Khalifa",
+        "Rishabh Agarwal",
+        "Lajanugen Logeswaran",
+        "Jaekyeom Kim",
+        "Hao Peng",
+        "Moontae Lee",
+        "Honglak Lee",
+        "Lu Wang"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/mukhal/thinkprm",
+      "published": "2025-04-23T15:44:54.000Z"
+    },
+    {
+      "id": "2504.17414",
+      "title": "3DV-TON: Textured 3D-Guided Consistent Video Try-on via Diffusion Models",
+      "authors": [
+        "Min Wei",
+        "Chaohui Yu",
+        "Jingkai Zhou",
+        "Fan Wang"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2025-04-24T10:12:40.000Z"
+    },
+    {
+      "id": "2504.16064",
+      "title": "Boosting Generative Image Modeling via Joint Image-Feature Synthesis",
+      "authors": [
+        "Theodoros Kouzelis",
+        "Efstathios Karypidis",
+        "Ioannis Kakogeorgiou",
+        "Spyros Gidaris",
+        "Nikos Komodakis"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/zelaki/ReDi",
+      "published": "2025-04-22T17:41:42.000Z"
+    },
+    {
+      "id": "2504.17343",
+      "title": "TimeChat-Online: 80% Visual Tokens are Naturally Redundant in Streaming Videos",
+      "authors": [
+        "Linli Yao",
+        "Yicheng Li",
+        "Yuancheng Wei",
+        "Lei Li",
+        "Shuhuai Ren",
+        "Yuanxin Liu",
+        "Kun Ouyang",
+        "Lean Wang",
+        "Shicheng Li",
+        "Sida Li",
+        "Lingpeng Kong",
+        "Qi Liu",
+        "Yuanxing Zhang",
+        "Xu Sun"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/yaolinli/TimeChat-Online",
+      "published": "2025-04-24T07:59:46.000Z"
+    },
+    {
+      "id": "2504.17040",
+      "title": "DyMU: Dynamic Merging and Virtual Unmerging for Efficient VLMs",
+      "authors": [
+        "Zhenhailong Wang",
+        "Senthil Purushwalkam",
+        "Caiming Xiong",
+        "Silvio Savarese",
+        "Heng Ji",
+        "Ran Xu"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/MikeWangWZHL/dymu",
+      "published": "2025-04-23T18:38:18.000Z"
+    },
+    {
+      "id": "2504.16921",
+      "title": "IberBench: LLM Evaluation on Iberian Languages",
+      "authors": [
+        "José Ángel González",
+        "Ian Borrego Obrador",
+        "Álvaro Romo Herrero",
+        "Areg Mikael Sarvazyan",
+        "Mara Chinea-Ríos",
+        "Angelo Basile",
+        "Marc Franco-Salvador"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/IberBench/IberBench",
+      "published": "2025-04-23T17:48:25.000Z"
+    },
+    {
+      "id": "2504.15921",
+      "title": "ViSMaP: Unsupervised Hour-long Video Summarisation by Meta-Prompting",
+      "authors": [
+        "Jian Hu",
+        "Dimitrios Korkinof",
+        "Shaogang Gong",
+        "Mariano Beguerisse-Diaz"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2025-04-22T14:06:01.000Z"
+    },
+    {
+      "id": "2504.17069",
+      "title": "Distilling semantically aware orders for autoregressive image generation",
+      "authors": [
+        "Rishav Pramanik",
+        "Antoine Poupon",
+        "Juan A. Rodriguez",
+        "Masih Aminbeidokhti",
+        "David Vazquez",
+        "Christopher Pal",
+        "Zhaozheng Yin",
+        "Marco Pedersoli"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2025-04-23T19:33:58.000Z"
+    },
+    {
+      "id": "2504.17788",
+      "title": "Dynamic Camera Poses and Where to Find Them",
+      "authors": [
+        "Chris Rockwell",
+        "Joseph Tung",
+        "Tsung-Yi Lin",
+        "Ming-Yu Liu",
+        "David F. Fouhey",
+        "Chen-Hsuan Lin"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2025-04-24T17:59:56.000Z"
+    },
+    {
+      "id": "2504.17601",
+      "title": "Interpretable non-linear dimensionality reduction using gaussian weighted linear transformation",
+      "authors": [
+        "Erik Bergh"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/erikbergh/interpretable_dim_reduction",
+      "published": "2025-04-24T14:26:42.000Z"
+    }
+  ]
+}

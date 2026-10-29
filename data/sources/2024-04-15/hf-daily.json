@@ -1,0 +1,106 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-04-15",
+  "fetched_at": "2026-10-29T15:27:30.650Z",
+  "candidates": [
+    {
+      "id": "2404.08634",
+      "title": "Pre-training Small Base LMs with Fewer Tokens",
+      "authors": [
+        "Sunny Sanyal",
+        "Sujay Sanghavi",
+        "Alexandros G. Dimakis"
+      ],
+      "upvotes": 36,
+      "github": "https://github.com/sanyalsunny111/LLM-Inheritune",
+      "published": "2024-04-12T17:53:34.000Z"
+    },
+    {
+      "id": "2404.08197",
+      "title": "Scaling (Down) CLIP: A Comprehensive Analysis of Data, Architecture, and Training Strategies",
+      "authors": [
+        "Zichao Li",
+        "Cihang Xie",
+        "Ekin Dogus Cubuk"
+      ],
+      "upvotes": 30,
+      "github": null,
+      "published": "2024-04-12T02:04:34.000Z"
+    },
+    {
+      "id": "2404.08639",
+      "title": "COCONut: Modernizing COCO Segmentation",
+      "authors": [
+        "Xueqing Deng",
+        "Qihang Yu",
+        "Peng Wang",
+        "Xiaohui Shen",
+        "Liang-Chieh Chen"
+      ],
+      "upvotes": 30,
+      "github": null,
+      "published": "2024-04-12T17:59:40.000Z"
+    },
+    {
+      "id": "2404.08636",
+      "title": "Probing the 3D Awareness of Visual Foundation Models",
+      "authors": [
+        "Mohamed El Banani",
+        "Amit Raj",
+        "Kevis-Kokitsi Maninis",
+        "Abhishek Kar",
+        "Yuanzhen Li",
+        "Michael Rubinstein",
+        "Deqing Sun",
+        "Leonidas Guibas",
+        "Justin Johnson",
+        "Varun Jampani"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/mbanani/probe3d",
+      "published": "2024-04-12T17:58:04.000Z"
+    },
+    {
+      "id": "2404.08540",
+      "title": "On the Robustness of Language Guidance for Low-Level Vision Tasks: Findings from Depth Estimation",
+      "authors": [
+        "Agneet Chatterjee",
+        "Tejas Gokhale",
+        "Chitta Baral",
+        "Yezhou Yang"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/agneet42/robustness_depth_lang",
+      "published": "2024-04-12T15:35:20.000Z"
+    },
+    {
+      "id": "2404.08495",
+      "title": "Dataset Reset Policy Optimization for RLHF",
+      "authors": [
+        "Jonathan D. Chang",
+        "Wenhao Shan",
+        "Owen Oertell",
+        "Kianté Brantley",
+        "Dipendra Misra",
+        "Jason D. Lee",
+        "Wen Sun"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/cornell-rl/drpo",
+      "published": "2024-04-12T14:25:49.000Z"
+    },
+    {
+      "id": "2404.08252",
+      "title": "MonoPatchNeRF: Improving Neural Radiance Fields with Patch-based Monocular Guidance",
+      "authors": [
+        "Yuqun Wu",
+        "Jae Yong Lee",
+        "Chuhang Zou",
+        "Shenlong Wang",
+        "Derek Hoiem"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/yuqunw/monopatch_nerf",
+      "published": "2024-04-12T05:43:10.000Z"
+    }
+  ]
+}

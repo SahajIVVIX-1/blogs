@@ -1,0 +1,256 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-03-15",
+  "fetched_at": "2026-10-29T15:27:11.835Z",
+  "candidates": [
+    {
+      "id": "2403.09611",
+      "title": "MM1: Methods, Analysis & Insights from Multimodal LLM Pre-training",
+      "authors": [
+        "Brandon McKinzie",
+        "Zhe Gan",
+        "Jean-Philippe Fauconnier",
+        "Sam Dodge",
+        "Bowen Zhang",
+        "Philipp Dufter",
+        "Dhruti Shah",
+        "Xianzhi Du",
+        "Futang Peng",
+        "Floris Weers",
+        "Anton Belyi",
+        "Haotian Zhang",
+        "Karanjeet Singh",
+        "Doug Kang",
+        "Hongyu Hè",
+        "Max Schwarzer",
+        "Tom Gunter",
+        "Xiang Kong",
+        "Aonan Zhang",
+        "Jianyu Wang",
+        "Chong Wang",
+        "Nan Du",
+        "Tao Lei",
+        "Sam Wiseman",
+        "Guoli Yin",
+        "Mark Lee",
+        "Zirui Wang",
+        "Ruoming Pang",
+        "Peter Grasch",
+        "Alexander Toshev",
+        "Yinfei Yang"
+      ],
+      "upvotes": 131,
+      "github": null,
+      "published": "2024-03-14T17:51:32.000Z"
+    },
+    {
+      "id": "2403.09629",
+      "title": "Quiet-STaR: Language Models Can Teach Themselves to Think Before Speaking",
+      "authors": [
+        "Eric Zelikman",
+        "Georges Harik",
+        "Yijia Shao",
+        "Varuna Jayasiri",
+        "Nick Haber",
+        "Noah D. Goodman"
+      ],
+      "upvotes": 80,
+      "github": "https://github.com/ezelikman/quiet-star",
+      "published": "2024-03-14T17:58:16.000Z"
+    },
+    {
+      "id": "2403.09029",
+      "title": "Unlocking the conversion of Web Screenshots into HTML Code with the WebSight Dataset",
+      "authors": [
+        "Hugo Laurençon",
+        "Léo Tronchon",
+        "Victor Sanh"
+      ],
+      "upvotes": 57,
+      "github": null,
+      "published": "2024-03-14T01:40:40.000Z"
+    },
+    {
+      "id": "2403.09055",
+      "title": "StreamMultiDiffusion: Real-Time Interactive Generation with Region-Based Semantic Control",
+      "authors": [
+        "Jaerin Lee",
+        "Daniel Sungho Jung",
+        "Kanggeon Lee",
+        "Kyoung Mu Lee"
+      ],
+      "upvotes": 26,
+      "github": "https://github.com/ironjr/streammultidiffusion",
+      "published": "2024-03-14T02:51:01.000Z"
+    },
+    {
+      "id": "2403.09394",
+      "title": "GiT: Towards Generalist Vision Transformer through Universal Language Interface",
+      "authors": [
+        "Haiyang Wang",
+        "Hao Tang",
+        "Li Jiang",
+        "Shaoshuai Shi",
+        "Muhammad Ferjad Naeem",
+        "Hongsheng Li",
+        "Bernt Schiele",
+        "Liwei Wang"
+      ],
+      "upvotes": 26,
+      "github": "https://github.com/haiyang-w/git",
+      "published": "2024-03-14T13:47:41.000Z"
+    },
+    {
+      "id": "2403.09347",
+      "title": "BurstAttention: An Efficient Distributed Attention Framework for Extremely Long Sequences",
+      "authors": [
+        "Sun Ao",
+        "Weilin Zhao",
+        "Xu Han",
+        "Cheng Yang",
+        "Zhiyuan Liu",
+        "Chuan Shi",
+        "Maosong Sun",
+        "Shengnan Wang",
+        "Teng Su"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/MayDomine/Burst-Attention",
+      "published": "2024-03-14T12:51:58.000Z"
+    },
+    {
+      "id": "2403.09334",
+      "title": "Video Editing via Factorized Diffusion Distillation",
+      "authors": [
+        "Uriel Singer",
+        "Amit Zohar",
+        "Yuval Kirstain",
+        "Shelly Sheynin",
+        "Adam Polyak",
+        "Devi Parikh",
+        "Yaniv Taigman"
+      ],
+      "upvotes": 22,
+      "github": null,
+      "published": "2024-03-14T12:22:54.000Z"
+    },
+    {
+      "id": "2403.09622",
+      "title": "Glyph-ByT5: A Customized Text Encoder for Accurate Visual Text Rendering",
+      "authors": [
+        "Zeyu Liu",
+        "Weicong Liang",
+        "Zhanhao Liang",
+        "Chong Luo",
+        "Ji Li",
+        "Gao Huang",
+        "Yuhui Yuan"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2024-03-14T17:55:33.000Z"
+    },
+    {
+      "id": "2403.09333",
+      "title": "Griffon v2: Advancing Multimodal Perception with High-Resolution Scaling and Visual-Language Co-Referring",
+      "authors": [
+        "Yufei Zhan",
+        "Yousong Zhu",
+        "Hongyin Zhao",
+        "Fan Yang",
+        "Ming Tang",
+        "Jinqiao Wang"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2024-03-14T12:21:37.000Z"
+    },
+    {
+      "id": "2403.09626",
+      "title": "Video Mamba Suite: State Space Model as a Versatile Alternative for Video Understanding",
+      "authors": [
+        "Guo Chen",
+        "Yifei Huang",
+        "Jilan Xu",
+        "Baoqi Pei",
+        "Zhe Chen",
+        "Zhiqi Li",
+        "Jiahao Wang",
+        "Kunchang Li",
+        "Tong Lu",
+        "Limin Wang"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/opengvlab/video-mamba-suite",
+      "published": "2024-03-14T17:57:07.000Z"
+    },
+    {
+      "id": "2403.09631",
+      "title": "3D-VLA: A 3D Vision-Language-Action Generative World Model",
+      "authors": [
+        "Haoyu Zhen",
+        "Xiaowen Qiu",
+        "Peihao Chen",
+        "Jincheng Yang",
+        "Xin Yan",
+        "Yilun Du",
+        "Yining Hong",
+        "Chuang Gan"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/UMass-Foundation-Model/3D-VLA",
+      "published": "2024-03-14T17:58:41.000Z"
+    },
+    {
+      "id": "2403.08773",
+      "title": "Veagle: Advancements in Multimodal Representation Learning",
+      "authors": [
+        "Rajat Chawla",
+        "Arkajit Datta",
+        "Tushar Verma",
+        "Adarsh Jha",
+        "Anmol Gautam",
+        "Ayush Vatsal",
+        "Sukrit Chaterjee",
+        "Mukunda NS",
+        "Ishaan Bhola"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/superagi/veagle",
+      "published": "2024-01-18T12:45:25.000Z"
+    },
+    {
+      "id": "2403.09530",
+      "title": "VisionGPT-3D: A Generalized Multimodal Agent for Enhanced 3D Vision Understanding",
+      "authors": [
+        "Chris Kelly",
+        "Luhui Hu",
+        "Jiayin Hu",
+        "Yu Tian",
+        "Deshun Yang",
+        "Bang Yang",
+        "Cindy Yang",
+        "Zihao Li",
+        "Zaoshan Huang",
+        "Yuexian Zou"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2024-03-14T16:13:00.000Z"
+    },
+    {
+      "id": "2403.09338",
+      "title": "LocalMamba: Visual State Space Model with Windowed Selective Scan",
+      "authors": [
+        "Tao Huang",
+        "Xiaohuan Pei",
+        "Shan You",
+        "Fei Wang",
+        "Chen Qian",
+        "Chang Xu"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/hunto/localmamba",
+      "published": "2024-03-14T12:32:40.000Z"
+    }
+  ]
+}

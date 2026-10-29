@@ -1,0 +1,403 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-02-19",
+  "fetched_at": "2026-10-29T15:34:46.039Z",
+  "candidates": [
+    {
+      "id": "2602.12675",
+      "title": "SLA2: Sparse-Linear Attention with Learnable Routing and QAT",
+      "authors": [
+        "Jintao Zhang",
+        "Haoxu Wang",
+        "Kai Jiang",
+        "Kaiwen Zheng",
+        "Youhe Jiang",
+        "Ion Stoica",
+        "Jianfei Chen",
+        "Jun Zhu",
+        "Joseph E. Gonzalez"
+      ],
+      "upvotes": 59,
+      "github": null,
+      "published": "2026-02-13T07:16:02.000Z"
+    },
+    {
+      "id": "2602.14296",
+      "title": "AutoWebWorld: Synthesizing Infinite Verifiable Web Environments via Finite State Machines",
+      "authors": [
+        "Yifan Wu",
+        "Yiran Peng",
+        "Yiyu Chen",
+        "Jianhao Ruan",
+        "Zijie Zhuang",
+        "Cheng Yang",
+        "Jiayi Zhang",
+        "Man Chen",
+        "Yenchi Tseng",
+        "Zhaoyang Yu",
+        "Liang Chen",
+        "Yuyao Zhai",
+        "Bang Liu",
+        "Chenglin Wu",
+        "Yuyu Luo"
+      ],
+      "upvotes": 51,
+      "github": null,
+      "published": "2026-02-15T20:03:19.000Z"
+    },
+    {
+      "id": "2602.14979",
+      "title": "RynnBrain: Open Embodied Foundation Models",
+      "authors": [
+        "Ronghao Dang",
+        "Jiayan Guo",
+        "Bohan Hou",
+        "Sicong Leng",
+        "Kehan Li",
+        "Xin Li",
+        "Jiangpin Liu",
+        "Yunxuan Mao",
+        "Zhikai Wang",
+        "Yuqian Yuan",
+        "Minghao Zhu",
+        "Xiao Lin",
+        "Yang Bai",
+        "Qian Jiang",
+        "Yaxi Zhao",
+        "Minghua Zeng",
+        "Junlong Gao",
+        "Yuming Jiang",
+        "Jun Cen",
+        "Siteng Huang",
+        "Liuyi Wang",
+        "Wenqiao Zhang",
+        "Chengju Liu",
+        "Jianfei Yang",
+        "Shijian Lu",
+        "Deli Zhao"
+      ],
+      "upvotes": 44,
+      "github": "https://github.com/alibaba-damo-academy/RynnBrain",
+      "published": "2026-02-13T18:59:56.000Z"
+    },
+    {
+      "id": "2602.16317",
+      "title": "CADEvolve: Creating Realistic CAD via Program Evolution",
+      "authors": [
+        "Maksim Elistratov",
+        "Marina Barannikov",
+        "Gregory Ivanov",
+        "Valentin Khrulkov",
+        "Anton Konushin",
+        "Andrey Kuznetsov",
+        "Dmitrii Zhemchuzhnikov"
+      ],
+      "upvotes": 29,
+      "github": "https://github.com/zhemdi/CADEvolve",
+      "published": "2026-02-18T09:54:57.000Z"
+    },
+    {
+      "id": "2602.16008",
+      "title": "MAEB: Massive Audio Embedding Benchmark",
+      "authors": [
+        "Adnan El Assadi",
+        "Isaac Chung",
+        "Chenghao Xiao",
+        "Roman Solomatin",
+        "Animesh Jha",
+        "Rahul Chand",
+        "Silky Singh",
+        "Kaitlyn Wang",
+        "Ali Sartaz Khan",
+        "Marc Moussa Nasser",
+        "Sufen Fong",
+        "Pengfei He",
+        "Alan Xiao",
+        "Ayush Sunil Munot",
+        "Aditya Shrivastava",
+        "Artem Gazizov",
+        "Niklas Muennighoff",
+        "Kenneth Enevoldsen"
+      ],
+      "upvotes": 26,
+      "github": null,
+      "published": "2026-02-17T21:00:51.000Z"
+    },
+    {
+      "id": "2602.16705",
+      "title": "Learning Humanoid End-Effector Control for Open-Vocabulary Visual Loco-Manipulation",
+      "authors": [
+        "Runpei Dong",
+        "Ziyan Li",
+        "Xialin He",
+        "Saurabh Gupta"
+      ],
+      "upvotes": 26,
+      "github": "https://github.com/RunpeiDong/HERO",
+      "published": "2026-02-18T18:55:02.000Z"
+    },
+    {
+      "id": "2602.16301",
+      "title": "Multi-agent cooperation through in-context co-player inference",
+      "authors": [
+        "Marissa A. Weis",
+        "Maciej Wołczyk",
+        "Rajai Nasser",
+        "Rif A. Saurous",
+        "Blaise Agüera y Arcas",
+        "João Sacramento",
+        "Alexander Meulemans"
+      ],
+      "upvotes": 23,
+      "github": null,
+      "published": "2026-02-18T09:31:43.000Z"
+    },
+    {
+      "id": "2602.14080",
+      "title": "Empty Shelves or Lost Keys? Recall Is the Bottleneck for Parametric Factuality",
+      "authors": [
+        "Nitay Calderon",
+        "Eyal Ben-David",
+        "Zorik Gekhman",
+        "Eran Ofek",
+        "Gal Yona"
+      ],
+      "upvotes": 22,
+      "github": null,
+      "published": "2026-02-15T10:13:30.000Z"
+    },
+    {
+      "id": "2602.15922",
+      "title": "World Action Models are Zero-shot Policies",
+      "authors": [
+        "Seonghyeon Ye",
+        "Yunhao Ge",
+        "Kaiyuan Zheng",
+        "Shenyuan Gao",
+        "Sihyun Yu",
+        "George Kurian",
+        "Suneel Indupuru",
+        "You Liang Tan",
+        "Chuning Zhu",
+        "Jiannan Xiang",
+        "Ayaan Malik",
+        "Kyungmin Lee",
+        "William Liang",
+        "Nadun Ranawaka",
+        "Jiasheng Gu",
+        "Yinzhen Xu",
+        "Guanzhi Wang",
+        "Fengyuan Hu",
+        "Avnish Narayan",
+        "Johan Bjorck",
+        "Jing Wang",
+        "Gwanghyun Kim",
+        "Dantong Niu",
+        "Ruijie Zheng",
+        "Yuqi Xie",
+        "Jimmy Wu",
+        "Qi Wang",
+        "Ryan Julian",
+        "Danfei Xu",
+        "Yilun Du",
+        "Yevgen Chebotar",
+        "Scott Reed",
+        "Jan Kautz",
+        "Yuke Zhu",
+        "Linxi \"Jim\" Fan",
+        "Joel Jang"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/dreamzero0/dreamzero",
+      "published": "2026-02-17T15:04:02.000Z"
+    },
+    {
+      "id": "2602.16666",
+      "title": "Towards a Science of AI Agent Reliability",
+      "authors": [
+        "Stephan Rabanser",
+        "Sayash Kapoor",
+        "Peter Kirgis",
+        "Kangheng Liu",
+        "Saiteja Utpala",
+        "Arvind Narayanan"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/princeton-pli/hal-harness",
+      "published": "2026-02-18T18:05:44.000Z"
+    },
+    {
+      "id": "2602.16704",
+      "title": "Reinforced Fast Weights with Next-Sequence Prediction",
+      "authors": [
+        "Hee Seung Hwang",
+        "Xindi Wu",
+        "Sanghyuk Chun",
+        "Olga Russakovsky"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/princetonvisualai/ReFINE",
+      "published": "2026-02-18T18:53:18.000Z"
+    },
+    {
+      "id": "2602.16173",
+      "title": "Learning Personalized Agents from Human Feedback",
+      "authors": [
+        "Kaiqu Liang",
+        "Julia Kruk",
+        "Shengyi Qian",
+        "Xianjun Yang",
+        "Shengjie Bi",
+        "Yuanshun Yao",
+        "Shaoliang Nie",
+        "Mingyang Zhang",
+        "Lijuan Liu",
+        "Jaime Fernández Fisac",
+        "Shuyan Zhou",
+        "Saghar Hosseini"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/facebookresearch/PAHF",
+      "published": "2026-02-18T04:18:47.000Z"
+    },
+    {
+      "id": "2602.07345",
+      "title": "Optimizing Few-Step Generation with Adaptive Matching Distillation",
+      "authors": [
+        "Lichen Bai",
+        "Zikai Zhou",
+        "Shitong Shao",
+        "Wenliang Zhong",
+        "Shuo Yang",
+        "Shuo Chen",
+        "Bojun Chen",
+        "Zeke Xie"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2026-02-07T04:00:20.000Z"
+    },
+    {
+      "id": "2602.15989",
+      "title": "SAM 3D Body: Robust Full-Body Human Mesh Recovery",
+      "authors": [
+        "Xitong Yang",
+        "Devansh Kukreja",
+        "Don Pinkus",
+        "Anushka Sagar",
+        "Taosha Fan",
+        "Jinhyung Park",
+        "Soyong Shin",
+        "Jinkun Cao",
+        "Jiawei Liu",
+        "Nicolas Ugrinovic",
+        "Matt Feiszli",
+        "Jitendra Malik",
+        "Piotr Dollar",
+        "Kris Kitani"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/facebookresearch/sam-3d-body",
+      "published": "2026-02-17T20:26:37.000Z"
+    },
+    {
+      "id": "2602.14514",
+      "title": "Efficient Text-Guided Convolutional Adapter for the Diffusion Model",
+      "authors": [
+        "Aryan Das",
+        "Koushik Biswas",
+        "Swalpa Kumar Roy",
+        "Badri Narayana Patro",
+        "Vinay Kumar Verma"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/arya-domain/Nexus-Adapters",
+      "published": "2026-02-16T06:51:29.000Z"
+    },
+    {
+      "id": "2602.16493",
+      "title": "MMA: Multimodal Memory Agent",
+      "authors": [
+        "Yihao Lu",
+        "Wanru Cheng",
+        "Zeyu Zhang",
+        "Hao Tang"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/AIGeeksGroup/MMA",
+      "published": "2026-02-18T14:30:35.000Z"
+    },
+    {
+      "id": "2602.14498",
+      "title": "Uncertainty-Aware Vision-Language Segmentation for Medical Imaging",
+      "authors": [
+        "Aryan Das",
+        "Tanishq Rachamalla",
+        "Koushik Biswas",
+        "Swalpa Kumar Roy",
+        "Vinay Kumar Verma"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/arya-domain/UA-VLS",
+      "published": "2026-02-16T06:27:51.000Z"
+    },
+    {
+      "id": "2602.16682",
+      "title": "Learning Situated Awareness in the Real World",
+      "authors": [
+        "Chuhan Li",
+        "Ruilin Han",
+        "Joy Hsu",
+        "Yongyuan Liang",
+        "Rajiv Dhawan",
+        "Jiajun Wu",
+        "Ming-Hsuan Yang",
+        "Xin Eric Wang"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/UCSB-AI/SAW-Bench",
+      "published": "2026-02-18T18:22:52.000Z"
+    },
+    {
+      "id": "2602.15927",
+      "title": "Visual Memory Injection Attacks for Multi-Turn Conversations",
+      "authors": [
+        "Christian Schlarmann",
+        "Matthias Hein"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/chs20/visual-memory-injection",
+      "published": "2026-02-17T18:34:59.000Z"
+    },
+    {
+      "id": "2602.08392",
+      "title": "BiManiBench: A Hierarchical Benchmark for Evaluating Bimanual Coordination of Multimodal Large Language Models",
+      "authors": [
+        "Xin Wu",
+        "Zhixuan Liang",
+        "Yue Ma",
+        "Mengkang Hu",
+        "Zhiyuan Qin",
+        "Xiu Li"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/bimanibench/BiManiBench",
+      "published": "2026-02-09T08:47:14.000Z"
+    },
+    {
+      "id": "2602.14602",
+      "title": "OPBench: A Graph Benchmark to Combat the Opioid Crisis",
+      "authors": [
+        "Tianyi Ma",
+        "Yiyang Li",
+        "Yiyue Qian",
+        "Zheyuan Zhang",
+        "Zehong Wang",
+        "Chuxu Zhang",
+        "Yanfang Ye"
+      ],
+      "upvotes": 0,
+      "github": "https://github.com/Tianyi-Billy-Ma/OPBench",
+      "published": "2026-02-16T10:04:57.000Z"
+    }
+  ]
+}

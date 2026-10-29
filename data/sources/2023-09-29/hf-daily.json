@@ -1,0 +1,325 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2023-09-29",
+  "fetched_at": "2026-10-29T15:25:29.700Z",
+  "candidates": [
+    {
+      "id": "2309.16588",
+      "title": "Vision Transformers Need Registers",
+      "authors": [
+        "Timothée Darcet",
+        "Maxime Oquab",
+        "Julien Mairal",
+        "Piotr Bojanowski"
+      ],
+      "upvotes": 86,
+      "github": "https://github.com/facebookresearch/dinov2",
+      "published": "2023-09-28T16:45:46.000Z"
+    },
+    {
+      "id": "2309.16058",
+      "title": "AnyMAL: An Efficient and Scalable Any-Modality Augmented Language Model",
+      "authors": [
+        "Seungwhan Moon",
+        "Andrea Madotto",
+        "Zhaojiang Lin",
+        "Tushar Nagarajan",
+        "Matt Smith",
+        "Shashank Jain",
+        "Chun-Fu Yeh",
+        "Prakash Murugesan",
+        "Peyman Heidari",
+        "Yue Liu",
+        "Kavya Srinet",
+        "Babak Damavandi",
+        "Anuj Kumar"
+      ],
+      "upvotes": 56,
+      "github": null,
+      "published": "2023-09-27T22:50:51.000Z"
+    },
+    {
+      "id": "2309.16653",
+      "title": "DreamGaussian: Generative Gaussian Splatting for Efficient 3D Content Creation",
+      "authors": [
+        "Jiaxiang Tang",
+        "Jiawei Ren",
+        "Hang Zhou",
+        "Ziwei Liu",
+        "Gang Zeng"
+      ],
+      "upvotes": 48,
+      "github": "https://github.com/dreamgaussian/dreamgaussian",
+      "published": "2023-09-28T17:55:05.000Z"
+    },
+    {
+      "id": "2309.16609",
+      "title": "Qwen Technical Report",
+      "authors": [
+        "Jinze Bai",
+        "Shuai Bai",
+        "Yunfei Chu",
+        "Zeyu Cui",
+        "Kai Dang",
+        "Xiaodong Deng",
+        "Yang Fan",
+        "Wenbin Ge",
+        "Yu Han",
+        "Fei Huang",
+        "Binyuan Hui",
+        "Luo Ji",
+        "Mei Li",
+        "Junyang Lin",
+        "Runji Lin",
+        "Dayiheng Liu",
+        "Gao Liu",
+        "Chengqiang Lu",
+        "Keming Lu",
+        "Jianxin Ma",
+        "Rui Men",
+        "Xingzhang Ren",
+        "Xuancheng Ren",
+        "Chuanqi Tan",
+        "Sinan Tan",
+        "Jianhong Tu",
+        "Peng Wang",
+        "Shijie Wang",
+        "Wei Wang",
+        "Shengguang Wu",
+        "Benfeng Xu",
+        "Jin Xu",
+        "An Yang",
+        "Hao Yang",
+        "Jian Yang",
+        "Shusheng Yang",
+        "Yang Yao",
+        "Bowen Yu",
+        "Hongyi Yuan",
+        "Zheng Yuan",
+        "Jianwei Zhang",
+        "Xingxuan Zhang",
+        "Yichang Zhang",
+        "Zhenru Zhang",
+        "Chang Zhou",
+        "Jingren Zhou",
+        "Xiaohuan Zhou",
+        "Tianhang Zhu"
+      ],
+      "upvotes": 40,
+      "github": "https://github.com/QwenLM/Qwen-7B",
+      "published": "2023-09-28T17:07:49.000Z"
+    },
+    {
+      "id": "2309.16585",
+      "title": "Text-to-3D using Gaussian Splatting",
+      "authors": [
+        "Zilong Chen",
+        "Feng Wang",
+        "Huaping Liu"
+      ],
+      "upvotes": 33,
+      "github": "https://github.com/gsgen3d/gsgen",
+      "published": "2023-09-28T16:44:31.000Z"
+    },
+    {
+      "id": "2309.16039",
+      "title": "Effective Long-Context Scaling of Foundation Models",
+      "authors": [
+        "Wenhan Xiong",
+        "Jingyu Liu",
+        "Igor Molybog",
+        "Hejia Zhang",
+        "Prajjwal Bhargava",
+        "Rui Hou",
+        "Louis Martin",
+        "Rashi Rungta",
+        "Karthik Abinav Sankararaman",
+        "Barlas Oguz",
+        "Madian Khabsa",
+        "Han Fang",
+        "Yashar Mehdad",
+        "Sharan Narang",
+        "Kshitiz Malik",
+        "Angela Fan",
+        "Shruti Bhosale",
+        "Sergey Edunov",
+        "Mike Lewis",
+        "Sinong Wang",
+        "Hao Ma"
+      ],
+      "upvotes": 31,
+      "github": null,
+      "published": "2023-09-27T21:41:49.000Z"
+    },
+    {
+      "id": "2309.16643",
+      "title": "Deep Geometrized Cartoon Line Inbetweening",
+      "authors": [
+        "Li Siyao",
+        "Tianpei Gu",
+        "Weiye Xiao",
+        "Henghui Ding",
+        "Ziwei Liu",
+        "Chen Change Loy"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/lisiyao21/animeinbet",
+      "published": "2023-09-28T17:50:05.000Z"
+    },
+    {
+      "id": "2309.16671",
+      "title": "Demystifying CLIP Data",
+      "authors": [
+        "Hu Xu",
+        "Saining Xie",
+        "Xiaoqing Ellen Tan",
+        "Po-Yao Huang",
+        "Russell Howes",
+        "Vasu Sharma",
+        "Shang-Wen Li",
+        "Gargi Ghosh",
+        "Luke Zettlemoyer",
+        "Christoph Feichtenhofer"
+      ],
+      "upvotes": 20,
+      "github": null,
+      "published": "2023-09-28T17:59:56.000Z"
+    },
+    {
+      "id": "2309.16414",
+      "title": "AutoCLIP: Auto-tuning Zero-Shot Classifiers for Vision-Language Models",
+      "authors": [
+        "Jan Hendrik Metzen",
+        "Piyapat Saranrittichai",
+        "Chaithanya Kumar Mummadi"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/boschresearch/autoclip",
+      "published": "2023-09-28T13:08:08.000Z"
+    },
+    {
+      "id": "2309.16534",
+      "title": "MotionLM: Multi-Agent Motion Forecasting as Language Modeling",
+      "authors": [
+        "Ari Seff",
+        "Brian Cera",
+        "Dian Chen",
+        "Mason Ng",
+        "Aurick Zhou",
+        "Nigamaa Nayakanti",
+        "Khaled S. Refaat",
+        "Rami Al-Rfou",
+        "Benjamin Sapp"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2023-09-28T15:46:25.000Z"
+    },
+    {
+      "id": "2309.16668",
+      "title": "RealFill: Reference-Driven Generation for Authentic Image Completion",
+      "authors": [
+        "Luming Tang",
+        "Nataniel Ruiz",
+        "Qinghao Chu",
+        "Yuanzhen Li",
+        "Aleksander Holynski",
+        "David E. Jacobs",
+        "Bharath Hariharan",
+        "Yael Pritch",
+        "Neal Wadhwa",
+        "Kfir Aberman",
+        "Michael Rubinstein"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2023-09-28T17:59:29.000Z"
+    },
+    {
+      "id": "2309.16583",
+      "title": "GPT-Fathom: Benchmarking Large Language Models to Decipher the Evolutionary Path towards GPT-4 and Beyond",
+      "authors": [
+        "Shen Zheng",
+        "Yuyu Zhang",
+        "Yijie Zhu",
+        "Chenguang Xi",
+        "Pengyang Gao",
+        "Xun Zhou",
+        "Kevin Chen-Chuan Chang"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/gpt-fathom/gpt-fathom",
+      "published": "2023-09-28T16:43:35.000Z"
+    },
+    {
+      "id": "2309.16429",
+      "title": "Diverse and Aligned Audio-to-Video Generation via Text-to-Video Model Adaptation",
+      "authors": [
+        "Guy Yariv",
+        "Itai Gat",
+        "Sagie Benaim",
+        "Lior Wolf",
+        "Idan Schwartz",
+        "Yossi Adi"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/guyyariv/TempoTokens",
+      "published": "2023-09-28T13:26:26.000Z"
+    },
+    {
+      "id": "2309.16235",
+      "title": "Language models in molecular discovery",
+      "authors": [
+        "Nikita Janakarajan",
+        "Tim Erdmann",
+        "Sarath Swaminathan",
+        "Teodoro Laino",
+        "Jannis Born"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2023-09-28T08:19:54.000Z"
+    },
+    {
+      "id": "2309.16650",
+      "title": "ConceptGraphs: Open-Vocabulary 3D Scene Graphs for Perception and Planning",
+      "authors": [
+        "Qiao Gu",
+        "Alihusein Kuwajerwala",
+        "Sacha Morin",
+        "Krishna Murthy Jatavallabhula",
+        "Bipasha Sen",
+        "Aditya Agarwal",
+        "Corban Rivera",
+        "William Paul",
+        "Kirsty Ellis",
+        "Rama Chellappa",
+        "Chuang Gan",
+        "Celso Miguel de Melo",
+        "Joshua B. Tenenbaum",
+        "Antonio Torralba",
+        "Florian Shkurti",
+        "Liam Paull"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2023-09-28T17:53:38.000Z"
+    },
+    {
+      "id": "2309.16496",
+      "title": "CCEdit: Creative and Controllable Video Editing via Diffusion Models",
+      "authors": [
+        "Ruoyu Feng",
+        "Wenming Weng",
+        "Yanhui Wang",
+        "Yuhui Yuan",
+        "Jianmin Bao",
+        "Chong Luo",
+        "Zhibo Chen",
+        "Baining Guo"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/ruoyufeng/ccedit",
+      "published": "2023-09-28T15:03:44.000Z"
+    }
+  ]
+}

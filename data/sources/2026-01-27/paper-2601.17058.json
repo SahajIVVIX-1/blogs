@@ -1,0 +1,11 @@
+{
+  "id": "2601.17058",
+  "html": "https://arxiv.org/html/2601.17058",
+  "limitations": "As discussed above, traditional preparation techniques, ranging from heuristic rule-based systems [ 15 , 16 , 12 ] to domain-specific machine-learning models [ 17 , 18 , 13 , 14 ] , face several fundamental limitations. [math] (Limitation ❶) High Manual Effort and Expertise Dependence. Traditional data preparation methods largely depend on fixed rules and domain-specific configurations, such as regular expressions and validation constraints [ 19 , 20 ] . This reliance demands substantial manual effort and specialized expert knowledge, introducing significant development and maintenance barriers. For instance, data standardization typically requires complex, handcrafted scripts (e.g., user-defined functions) or manual constraints (e.g., date formatting rules) [ 11 , 21 ] . Similarly, data error processing pipelines often rely on fixed detect-then-correct workflows defined by manually craf",
+  "conclusion": "In this survey, we present a task-centric review of recent advances in LLM -enhanced data preparation, covering data cleaning, data integration, and data enrichment. We systematically analyze how LLMs reshape traditional data preparation workflows by enabling capabilities such as instruction-driven automation, semantic-aware reasoning, cross-domain generalization, and knowledge-augmented processing. Through a unified taxonomy, we organize representative methods, distill their design principles, and discuss the limitations of existing LLM -enhanced methods. We also summarize representative datasets and metrics to facilitate comprehensive evaluations of these methods. Finally, we identify open challenges and outline future research directions.",
+  "figure": {
+    "path": "images/2026/paper-2601.17058.webp",
+    "src": "https://arxiv.org/html/2601.17058v1/motivation-data-preparation-v3.png",
+    "caption": "Fig. 1: Application-Ready Data Preparation – Three core tasks (i.e., Data Cleaning, Integration, and Enrichment) address key sources of data inefficiency: quality issues, integration barriers, and semantic gaps."
+  }
+}

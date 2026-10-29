@@ -1,0 +1,7 @@
+{
+  "id": "2510.04871",
+  "html": "https://arxiv.org/html/2510.04871",
+  "limitations": null,
+  "conclusion": "We propose Tiny Recursion Models (TRM), a simple recursive reasoning approach that achieves strong generalization on hard tasks using a single tiny network recursing on its latent reasoning feature and progressively improving its final answer. Contrary to the Hierarchical Reasoning Model (HRM), TRM requires no fixed-point theorem, no complex biological justifications, and no hierarchy. It significantly reduces the number of parameters by halving the number of layers and replacing the two networks with a single tiny network. It also simplifies the halting process, removing the need for the extra forward pass. Overall, TRM is much simpler than HRM, while achieving better generalization. While our approach led to better generalization on 4 benchmarks, every choice made is not guaranteed to be optimal on every dataset. For example, we found that replacing the self-attention with an MLP worke",
+  "figure": null
+}

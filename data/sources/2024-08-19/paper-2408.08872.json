@@ -1,0 +1,11 @@
+{
+  "id": "2408.08872",
+  "html": "https://arxiv.org/html/2408.08872",
+  "limitations": null,
+  "conclusion": "We introduce BLIP-3, a comprehensive framework for training a series of open-source large multimodal models on a curated mixture of large-scale datasets. BLIP-3 LMMs achieve competitive results on a range of multimodal benchmarks. By open-sourcing BLIP-3 (4B and 14B), our curated datasets, and our training code, we hope to empower the research community with better accessible multimodal foundation models and datasets, allowing practitioners to explore further and advance the potential and emergent abilities of LMMs.",
+  "figure": {
+    "path": "images/2024/paper-2408.08872.webp",
+    "src": "https://arxiv.org/html/2408.08872v4/blip3-figure1-v1.png",
+    "caption": "Figure 1 : We introduce BLIP-3, a framework (b) for developing Large Multimodal Models (LMMs). Our framework improves upon BLIP-2 (a) [ 42 ] by (1) increasing the richness, scale, and diversity of training data, (2) replacing the Q-Former layers with a more scalable vision token sampler, and (3) simplifying the training process via the unification of the training objectives to a single loss at eve"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "id": "2501.08313",
+  "html": "https://arxiv.org/html/2501.08313",
+  "limitations": null,
+  "conclusion": "In this report, we present MiniMax-Text-01 and MiniMax-VL-01, two novel models developed entirely from the ground up. These models demonstrate top-tier performance across standard benchmarks, particularly excelling in long-context processing with the ability to handle context windows of up to 4 million tokens. Our research findings challenge the prevailing assumption that state-of-the-art language models must be built upon traditional attention mechanisms. By strategically integrating linear attention with optimized hardware utilization and carefully designing training recipes, we have successfully expanded the context window by an order of magnitude. This breakthrough not only enhances the efficiency and scalability of LLMs but also paves the way for future models to support even longer context windows and facilitate the development of more sophisticated AI agents. To promote collaborat",
+  "figure": null
+}

@@ -1,0 +1,501 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-06-12",
+  "fetched_at": "2026-10-29T15:31:48.357Z",
+  "candidates": [
+    {
+      "id": "2506.06395",
+      "title": "Confidence Is All You Need: Few-Shot RL Fine-Tuning of Language Models",
+      "authors": [
+        "Pengyi Li",
+        "Matvey Skripkin",
+        "Alexander Zubrey",
+        "Andrey Kuznetsov",
+        "Ivan Oseledets"
+      ],
+      "upvotes": 135,
+      "github": null,
+      "published": "2025-06-05T19:55:15.000Z"
+    },
+    {
+      "id": "2506.09113",
+      "title": "Seedance 1.0: Exploring the Boundaries of Video Generation Models",
+      "authors": [
+        "Yu Gao",
+        "Haoyuan Guo",
+        "Tuyen Hoang",
+        "Weilin Huang",
+        "Lu Jiang",
+        "Fangyuan Kong",
+        "Huixia Li",
+        "Jiashi Li",
+        "Liang Li",
+        "Xiaojie Li",
+        "Xunsong Li",
+        "Yifu Li",
+        "Shanchuan Lin",
+        "Zhijie Lin",
+        "Jiawei Liu",
+        "Shu Liu",
+        "Xiaonan Nie",
+        "Zhiwu Qing",
+        "Yuxi Ren",
+        "Li Sun",
+        "Zhi Tian",
+        "Rui Wang",
+        "Sen Wang",
+        "Guoqiang Wei",
+        "Guohong Wu",
+        "Jie Wu",
+        "Ruiqi Xia",
+        "Fei Xiao",
+        "Xuefeng Xiao",
+        "Jiangqiao Yan",
+        "Ceyuan Yang",
+        "Jianchao Yang",
+        "Runkai Yang",
+        "Tao Yang",
+        "Yihang Yang",
+        "Zilyu Ye",
+        "Xuejiao Zeng",
+        "Yan Zeng",
+        "Heng Zhang",
+        "Yang Zhao",
+        "Xiaozheng Zheng",
+        "Peihao Zhu",
+        "Jiaxin Zou",
+        "Feilong Zuo"
+      ],
+      "upvotes": 109,
+      "github": null,
+      "published": "2025-06-10T17:56:11.000Z"
+    },
+    {
+      "id": "2506.09991",
+      "title": "Multiverse: Your Language Models Secretly Decide How to Parallelize and Merge Generation",
+      "authors": [
+        "Xinyu Yang",
+        "Yuwei An",
+        "Hongyi Liu",
+        "Tianqi Chen",
+        "Beidi Chen"
+      ],
+      "upvotes": 55,
+      "github": "https://github.com/Multiverse4FM/Multiverse",
+      "published": "2025-06-11T17:59:23.000Z"
+    },
+    {
+      "id": "2506.09790",
+      "title": "ComfyUI-R1: Exploring Reasoning Models for Workflow Generation",
+      "authors": [
+        "Zhenran Xu",
+        "Yiyu Wang",
+        "Xue Yang",
+        "Longyue Wang",
+        "Weihua Luo",
+        "Kaifu Zhang",
+        "Baotian Hu",
+        "Min Zhang"
+      ],
+      "upvotes": 53,
+      "github": null,
+      "published": "2025-06-11T14:35:15.000Z"
+    },
+    {
+      "id": "2506.09350",
+      "title": "Autoregressive Adversarial Post-Training for Real-Time Interactive Video Generation",
+      "authors": [
+        "Shanchuan Lin",
+        "Ceyuan Yang",
+        "Hao He",
+        "Jianwen Jiang",
+        "Yuxi Ren",
+        "Xin Xia",
+        "Yang Zhao",
+        "Xuefeng Xiao",
+        "Lu Jiang"
+      ],
+      "upvotes": 48,
+      "github": null,
+      "published": "2025-06-11T03:04:23.000Z"
+    },
+    {
+      "id": "2506.09995",
+      "title": "PlayerOne: Egocentric World Simulator",
+      "authors": [
+        "Yuanpeng Tu",
+        "Hao Luo",
+        "Xi Chen",
+        "Xiang Bai",
+        "Fan Wang",
+        "Hengshuang Zhao"
+      ],
+      "upvotes": 34,
+      "github": "https://github.com/yuanpengtu/PlayerOne",
+      "published": "2025-06-11T17:59:53.000Z"
+    },
+    {
+      "id": "2506.08889",
+      "title": "SeerAttention-R: Sparse Attention Adaptation for Long Reasoning",
+      "authors": [
+        "Yizhao Gao",
+        "Shuming Guo",
+        "Shijie Cao",
+        "Yuqing Xia",
+        "Yu Cheng",
+        "Lei Wang",
+        "Lingxiao Ma",
+        "Yutao Sun",
+        "Tianzhu Ye",
+        "Li Dong",
+        "Hayden Kwok-Hay So",
+        "Yu Hua",
+        "Ting Cao",
+        "Fan Yang",
+        "Mao Yang"
+      ],
+      "upvotes": 23,
+      "github": null,
+      "published": "2025-06-10T15:17:26.000Z"
+    },
+    {
+      "id": "2506.08570",
+      "title": "Auto-Regressive vs Flow-Matching: a Comparative Study of Modeling Paradigms for Text-to-Music Generation",
+      "authors": [
+        "Or Tal",
+        "Felix Kreuk",
+        "Yossi Adi"
+      ],
+      "upvotes": 21,
+      "github": null,
+      "published": "2025-06-10T08:37:45.000Z"
+    },
+    {
+      "id": "2506.09820",
+      "title": "CoRT: Code-integrated Reasoning within Thinking",
+      "authors": [
+        "Chengpeng Li",
+        "Zhengyang Tang",
+        "Ziniu Li",
+        "Mingfeng Xue",
+        "Keqin Bao",
+        "Tian Ding",
+        "Ruoyu Sun",
+        "Benyou Wang",
+        "Xiang Wang",
+        "Junyang Lin",
+        "Dayiheng Liu"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/chengpengli1003/cort",
+      "published": "2025-06-11T14:59:02.000Z"
+    },
+    {
+      "id": "2506.09501",
+      "title": "Give Me FP32 or Give Me Death? Challenges and Solutions for Reproducible Reasoning",
+      "authors": [
+        "Jiayi Yuan",
+        "Hao Li",
+        "Xinheng Ding",
+        "Wenya Xie",
+        "Yu-Jhe Li",
+        "Wentian Zhao",
+        "Kun Wan",
+        "Jing Shi",
+        "Xia Hu",
+        "Zirui Liu"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/nanomaoli/llm_reproducibility",
+      "published": "2025-06-11T08:23:53.000Z"
+    },
+    {
+      "id": "2506.09003",
+      "title": "SWE-Flow: Synthesizing Software Engineering Data in a Test-Driven Manner",
+      "authors": [
+        "Lei Zhang",
+        "Jiaxi Yang",
+        "Min Yang",
+        "Jian Yang",
+        "Mouxiang Chen",
+        "Jiajun Zhang",
+        "Zeyu Cui",
+        "Binyuan Hui",
+        "Junyang Lin"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/Hambaobao/SWE-Flow",
+      "published": "2025-06-10T17:23:33.000Z"
+    },
+    {
+      "id": "2506.05309",
+      "title": "Time to Talk: LLM Agents for Asynchronous Group Communication in Mafia Games",
+      "authors": [
+        "Niv Eckhaus",
+        "Uri Berger",
+        "Gabriel Stanovsky"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/niveck/LLMafia",
+      "published": "2025-06-05T17:53:44.000Z"
+    },
+    {
+      "id": "2506.09984",
+      "title": "InterActHuman: Multi-Concept Human Animation with Layout-Aligned Audio Conditions",
+      "authors": [
+        "Zhenzhi Wang",
+        "Jiaqi Yang",
+        "Jianwen Jiang",
+        "Chao Liang",
+        "Gaojie Lin",
+        "Zerong Zheng",
+        "Ceyuan Yang",
+        "Dahua Lin"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2025-06-11T17:57:09.000Z"
+    },
+    {
+      "id": "2506.09937",
+      "title": "SAFE: Multitask Failure Detection for Vision-Language-Action Models",
+      "authors": [
+        "Qiao Gu",
+        "Yuanliang Ju",
+        "Shengxiang Sun",
+        "Igor Gilitschenski",
+        "Haruki Nishimura",
+        "Masha Itkina",
+        "Florian Shkurti"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/vla-safe/SAFE",
+      "published": "2025-06-11T16:59:13.000Z"
+    },
+    {
+      "id": "2506.09736",
+      "title": "Vision Matters: Simple Visual Perturbations Can Boost Multimodal Math Reasoning",
+      "authors": [
+        "Yuting Li",
+        "Lai Wei",
+        "Kaipeng Zheng",
+        "Jingyuan Huang",
+        "Linghe Kong",
+        "Lichao Sun",
+        "Weiran Huang"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/YutingLi0606/Vision-Matters",
+      "published": "2025-06-11T13:39:46.000Z"
+    },
+    {
+      "id": "2506.09980",
+      "title": "Efficient Part-level 3D Object Generation via Dual Volume Packing",
+      "authors": [
+        "Jiaxiang Tang",
+        "Ruijie Lu",
+        "Zhaoshuo Li",
+        "Zekun Hao",
+        "Xuan Li",
+        "Fangyin Wei",
+        "Shuran Song",
+        "Gang Zeng",
+        "Ming-Yu Liu",
+        "Tsung-Yi Lin"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/NVlabs/PartPacker",
+      "published": "2025-06-11T17:55:03.000Z"
+    },
+    {
+      "id": "2506.09229",
+      "title": "Cross-Frame Representation Alignment for Fine-Tuning Video Diffusion Models",
+      "authors": [
+        "Sungwon Hwang",
+        "Hyojin Jang",
+        "Kinam Kim",
+        "Minho Park",
+        "Jaegul choo"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/deepshwang/crepa",
+      "published": "2025-06-10T20:34:47.000Z"
+    },
+    {
+      "id": "2506.08008",
+      "title": "Hidden in plain sight: VLMs overlook their visual representations",
+      "authors": [
+        "Stephanie Fu",
+        "Tyler Bonnen",
+        "Devin Guillory",
+        "Trevor Darrell"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2025-06-09T17:59:54.000Z"
+    },
+    {
+      "id": "2506.08001",
+      "title": "Reparameterized LLM Training via Orthogonal Equivalence Transformation",
+      "authors": [
+        "Zeju Qiu",
+        "Simon Buchholz",
+        "Tim Z. Xiao",
+        "Maximilian Dax",
+        "Bernhard Schölkopf",
+        "Weiyang Liu"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/Sphere-AI-Lab/poet",
+      "published": "2025-06-09T17:59:34.000Z"
+    },
+    {
+      "id": "2506.09278",
+      "title": "UFM: A Simple Path towards Unified Dense Correspondence with Flow",
+      "authors": [
+        "Yuchen Zhang",
+        "Nikhil Keetha",
+        "Chenwei Lyu",
+        "Bhuvan Jhamb",
+        "Yutian Chen",
+        "Yuheng Qiu",
+        "Jay Karhade",
+        "Shreyas Jha",
+        "Yaoyu Hu",
+        "Deva Ramanan",
+        "Sebastian Scherer",
+        "Wenshan Wang"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/UniFlowMatch/UFM",
+      "published": "2025-06-10T22:32:13.000Z"
+    },
+    {
+      "id": "2506.05412",
+      "title": "Can Vision Language Models Infer Human Gaze Direction? A Controlled Study",
+      "authors": [
+        "Zory Zhang",
+        "Pinyuan Feng",
+        "Bingyang Wang",
+        "Tianwei Zhao",
+        "Suyang Yu",
+        "Qingying Gao",
+        "Hokin Deng",
+        "Ziqiao Ma",
+        "Yijiang Li",
+        "Dezhi Luo"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/zoryzhang/referential-gaze",
+      "published": "2025-06-04T17:59:25.000Z"
+    },
+    {
+      "id": "2506.08900",
+      "title": "MIRAGE: Multimodal foundation model and benchmark for comprehensive retinal OCT image analysis",
+      "authors": [
+        "José Morano",
+        "Botond Fazekas",
+        "Emese Sükei",
+        "Ronald Fecso",
+        "Taha Emre",
+        "Markus Gumpinger",
+        "Georg Faustmann",
+        "Marzieh Oghbaie",
+        "Ursula Schmidt-Erfurth",
+        "Hrvoje Bogunović"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/j-morano/MIRAGE",
+      "published": "2025-06-10T15:25:55.000Z"
+    },
+    {
+      "id": "2506.09669",
+      "title": "Query-Level Uncertainty in Large Language Models",
+      "authors": [
+        "Lihu Chen",
+        "Gaël Varoquaux"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/tigerchen52/query_level_uncertainty",
+      "published": "2025-06-11T12:39:48.000Z"
+    },
+    {
+      "id": "2506.09007",
+      "title": "Branched Schrödinger Bridge Matching",
+      "authors": [
+        "Sophia Tang",
+        "Yinuo Zhang",
+        "Alexander Tong",
+        "Pranam Chatterjee"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2025-06-10T17:29:48.000Z"
+    },
+    {
+      "id": "2506.10209",
+      "title": "TTT-Bench: A Benchmark for Evaluating Reasoning Ability with Simple and Novel Tic-Tac-Toe-style Games",
+      "authors": [
+        "Prakamya Mishra",
+        "Jiang Liu",
+        "Jialian Wu",
+        "Xiaodong Yu",
+        "Zicheng Liu",
+        "Emad Barsoum"
+      ],
+      "upvotes": 0,
+      "github": null,
+      "published": "2025-06-11T22:03:19.000Z"
+    },
+    {
+      "id": "2506.09420",
+      "title": "A Call for Collaborative Intelligence: Why Human-Agent Systems Should Precede AI Autonomy",
+      "authors": [
+        "Henry Peng Zou",
+        "Wei-Chieh Huang",
+        "Yaozu Wu",
+        "Chunyu Miao",
+        "Dongyuan Li",
+        "Aiwei Liu",
+        "Yue Zhou",
+        "Yankai Chen",
+        "Weizhi Zhang",
+        "Yangning Li",
+        "Liancheng Fang",
+        "Renhe Jiang",
+        "Philip S. Yu"
+      ],
+      "upvotes": 0,
+      "github": null,
+      "published": "2025-06-11T06:08:13.000Z"
+    },
+    {
+      "id": "2506.06020",
+      "title": "When to Trust Context: Self-Reflective Debates for Context Reliability",
+      "authors": [
+        "Zeqi Zhou",
+        "Fang Wu",
+        "Shayan Talaei",
+        "Haokai Zhao",
+        "Cheng Meixin",
+        "Tinson Xu",
+        "Amin Saberi",
+        "Yejin Choi"
+      ],
+      "upvotes": 0,
+      "github": "https://github.com/smiles724/Self-Reflective-Debates",
+      "published": "2025-06-06T12:09:34.000Z"
+    },
+    {
+      "id": "2506.09958",
+      "title": "Kvasir-VQA-x1: A Multimodal Dataset for Medical Reasoning and Robust MedVQA in Gastrointestinal Endoscopy",
+      "authors": [
+        "Sushant Gautam",
+        "Michael A. Riegler",
+        "Pål Halvorsen"
+      ],
+      "upvotes": 0,
+      "github": "https://github.com/Simula/Kvasir-VQA-x1",
+      "published": "2025-06-11T17:31:38.000Z"
+    }
+  ]
+}

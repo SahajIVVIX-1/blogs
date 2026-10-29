@@ -1,0 +1,458 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-10-25",
+  "fetched_at": "2026-10-29T15:29:28.387Z",
+  "candidates": [
+    {
+      "id": "2410.17243",
+      "title": "Breaking the Memory Barrier: Near Infinite Batch Size Scaling for Contrastive Loss",
+      "authors": [
+        "Zesen Cheng",
+        "Hang Zhang",
+        "Kehan Li",
+        "Sicong Leng",
+        "Zhiqiang Hu",
+        "Fei Wu",
+        "Deli Zhao",
+        "Xin Li",
+        "Lidong Bing"
+      ],
+      "upvotes": 93,
+      "github": "https://github.com/damo-nlp-sg/inf-clip",
+      "published": "2024-10-22T17:59:30.000Z"
+    },
+    {
+      "id": "2410.16251",
+      "title": "Can Knowledge Editing Really Correct Hallucinations?",
+      "authors": [
+        "Baixiang Huang",
+        "Canyu Chen",
+        "Xiongxiao Xu",
+        "Ali Payani",
+        "Kai Shu"
+      ],
+      "upvotes": 53,
+      "github": "https://github.com/llm-editing/HalluEditBench",
+      "published": "2024-10-21T17:55:54.000Z"
+    },
+    {
+      "id": "2410.18533",
+      "title": "LOGO -- Long cOntext aliGnment via efficient preference Optimization",
+      "authors": [
+        "Zecheng Tang",
+        "Zechen Sun",
+        "Juntao Li",
+        "Qiaoming Zhu",
+        "Min Zhang"
+      ],
+      "upvotes": 42,
+      "github": null,
+      "published": "2024-10-24T08:27:26.000Z"
+    },
+    {
+      "id": "2410.18693",
+      "title": "Unleashing Reasoning Capability of LLMs via Scalable Question Synthesis from Scratch",
+      "authors": [
+        "Yuyang Ding",
+        "Xinyu Shi",
+        "Xiaobo Liang",
+        "Juntao Li",
+        "Qiaoming Zhu",
+        "Min Zhang"
+      ],
+      "upvotes": 41,
+      "github": "https://github.com/yyding1/scalequest",
+      "published": "2024-10-24T12:42:04.000Z"
+    },
+    {
+      "id": "2410.18978",
+      "title": "Framer: Interactive Frame Interpolation",
+      "authors": [
+        "Wen Wang",
+        "Qiuyu Wang",
+        "Kecheng Zheng",
+        "Hao Ouyang",
+        "Zhekai Chen",
+        "Biao Gong",
+        "Hao Chen",
+        "Yujun Shen",
+        "Chunhua Shen"
+      ],
+      "upvotes": 38,
+      "github": null,
+      "published": "2024-10-24T17:59:51.000Z"
+    },
+    {
+      "id": "2410.18975",
+      "title": "Unbounded: A Generative Infinite Game of Character Life Simulation",
+      "authors": [
+        "Jialu Li",
+        "Yuanzhen Li",
+        "Neal Wadhwa",
+        "Yael Pritch",
+        "David E. Jacobs",
+        "Michael Rubinstein",
+        "Mohit Bansal",
+        "Nataniel Ruiz"
+      ],
+      "upvotes": 36,
+      "github": null,
+      "published": "2024-10-24T17:59:31.000Z"
+    },
+    {
+      "id": "2410.18451",
+      "title": "Skywork-Reward: Bag of Tricks for Reward Modeling in LLMs",
+      "authors": [
+        "Chris Yuhao Liu",
+        "Liang Zeng",
+        "Jiacai Liu",
+        "Rui Yan",
+        "Jujie He",
+        "Chaojie Wang",
+        "Shuicheng Yan",
+        "Yang Liu",
+        "Yahui Zhou"
+      ],
+      "upvotes": 20,
+      "github": null,
+      "published": "2024-10-24T06:06:26.000Z"
+    },
+    {
+      "id": "2410.18798",
+      "title": "Distill Visual Chart Reasoning Ability from LLMs to MLLMs",
+      "authors": [
+        "Wei He",
+        "Zhiheng Xi",
+        "Wanxu Zhao",
+        "Xiaoran Fan",
+        "Yiwen Ding",
+        "Zifei Shan",
+        "Tao Gui",
+        "Qi Zhang",
+        "Xuanjing Huang"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/hewei2001/reachqa",
+      "published": "2024-10-24T14:50:42.000Z"
+    },
+    {
+      "id": "2410.15999",
+      "title": "Steering Knowledge Selection Behaviours in LLMs via SAE-Based Representation Engineering",
+      "authors": [
+        "Yu Zhao",
+        "Alessio Devoto",
+        "Giwon Hong",
+        "Xiaotang Du",
+        "Aryo Pradipta Gema",
+        "Hongru Wang",
+        "Kam-Fai Wong",
+        "Pasquale Minervini"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/yuzhaouoe/SAE-based-representation-engineering",
+      "published": "2024-10-21T13:30:47.000Z"
+    },
+    {
+      "id": "2410.18572",
+      "title": "Taipan: Efficient and Expressive State Space Language Models with Selective Attention",
+      "authors": [
+        "Chien Van Nguyen",
+        "Huy Huu Nguyen",
+        "Thang M. Pham",
+        "Ruiyi Zhang",
+        "Hanieh Deilamsalehy",
+        "Puneet Mathur",
+        "Ryan A. Rossi",
+        "Trung Bui",
+        "Viet Dac Lai",
+        "Franck Dernoncourt",
+        "Thien Huu Nguyen"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2024-10-24T09:25:37.000Z"
+    },
+    {
+      "id": "2410.18745",
+      "title": "Why Does the Effective Context Length of LLMs Fall Short?",
+      "authors": [
+        "Chenxin An",
+        "Jun Zhang",
+        "Ming Zhong",
+        "Lei Li",
+        "Shansan Gong",
+        "Yao Luo",
+        "Jingjing Xu",
+        "Lingpeng Kong"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2024-10-24T13:51:50.000Z"
+    },
+    {
+      "id": "2410.18977",
+      "title": "MotionCLR: Motion Generation and Training-free Editing via Understanding Attention Mechanisms",
+      "authors": [
+        "Ling-Hao Chen",
+        "Wenxun Dai",
+        "Xuan Ju",
+        "Shunlin Lu",
+        "Lei Zhang"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2024-10-24T17:59:45.000Z"
+    },
+    {
+      "id": "2410.18538",
+      "title": "SMITE: Segment Me In TimE",
+      "authors": [
+        "Amirhossein Alimohammadi",
+        "Sauradip Nag",
+        "Saeid Asgari Taghanaki",
+        "Andrea Tagliasacchi",
+        "Ghassan Hamarneh",
+        "Ali Mahdavi Amiri"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/alimohammadiamirhossein/smite",
+      "published": "2024-10-24T08:38:20.000Z"
+    },
+    {
+      "id": "2410.18976",
+      "title": "CAMEL-Bench: A Comprehensive Arabic LMM Benchmark",
+      "authors": [
+        "Sara Ghaboura",
+        "Ahmed Heakl",
+        "Omkar Thawakar",
+        "Ali Alharthi",
+        "Ines Riahi",
+        "Abduljalil Saif",
+        "Jorma Laaksonen",
+        "Fahad S. Khan",
+        "Salman Khan",
+        "Rao M. Anwer"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/mbzuai-oryx/CAMEL-Bench",
+      "published": "2024-10-24T17:59:38.000Z"
+    },
+    {
+      "id": "2410.18362",
+      "title": "WAFFLE: Multi-Modal Model for Automated Front-End Development",
+      "authors": [
+        "Shanchao Liang",
+        "Nan Jiang",
+        "Shangshu Qian",
+        "Lin Tan"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/lt-asset/Waffle",
+      "published": "2024-10-24T01:49:49.000Z"
+    },
+    {
+      "id": "2410.18860",
+      "title": "DeCoRe: Decoding by Contrasting Retrieval Heads to Mitigate Hallucinations",
+      "authors": [
+        "Aryo Pradipta Gema",
+        "Chen Jin",
+        "Ahmed Abdulaal",
+        "Tom Diethe",
+        "Philip Teare",
+        "Beatrice Alex",
+        "Pasquale Minervini",
+        "Amrutha Saseendran"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/aryopg/decore",
+      "published": "2024-10-24T15:44:33.000Z"
+    },
+    {
+      "id": "2410.18505",
+      "title": "CCI3.0-HQ: a large-scale Chinese dataset of high quality designed for pre-training large language models",
+      "authors": [
+        "Liangdong Wang",
+        "Bo-Wen Zhang",
+        "Chengwei Wu",
+        "Hanyu Zhao",
+        "Xiaofeng Shi",
+        "Shuhao Gu",
+        "Jijie Li",
+        "Quanyue Ma",
+        "TengFei Pan",
+        "Guang Liu"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2024-10-24T07:50:07.000Z"
+    },
+    {
+      "id": "2410.18958",
+      "title": "Stable Consistency Tuning: Understanding and Improving Consistency Models",
+      "authors": [
+        "Fu-Yun Wang",
+        "Zhengyang Geng",
+        "Hongsheng Li"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2024-10-24T17:55:52.000Z"
+    },
+    {
+      "id": "2410.18775",
+      "title": "Robust Watermarking Using Generative Priors Against Image Editing: From Benchmarking to Advances",
+      "authors": [
+        "Shilin Lu",
+        "Zihan Zhou",
+        "Jiayou Lu",
+        "Yuanzhi Zhu",
+        "Adams Wai-Kin Kong"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/shilin-lu/vine",
+      "published": "2024-10-24T14:28:32.000Z"
+    },
+    {
+      "id": "2410.17897",
+      "title": "Value Residual Learning For Alleviating Attention Concentration In Transformers",
+      "authors": [
+        "Zhanchao Zhou",
+        "Tianyi Wu",
+        "Zhiyun Jiang",
+        "Zhenzhong Lan"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/Zcchill/Value-Residual-Learning",
+      "published": "2024-10-23T14:15:07.000Z"
+    },
+    {
+      "id": "2410.17779",
+      "title": "ADEM-VL: Adaptive and Embedded Fusion for Efficient Vision-Language Tuning",
+      "authors": [
+        "Zhiwei Hao",
+        "Jianyuan Guo",
+        "Li Shen",
+        "Yong Luo",
+        "Han Hu",
+        "Yonggang Wen"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/hao840/adem-vl",
+      "published": "2024-10-23T11:31:06.000Z"
+    },
+    {
+      "id": "2410.18647",
+      "title": "Data Scaling Laws in Imitation Learning for Robotic Manipulation",
+      "authors": [
+        "Fanqi Lin",
+        "Yingdong Hu",
+        "Pingyue Sheng",
+        "Chuan Wen",
+        "Jiacheng You",
+        "Yang Gao"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/Fanqi-Lin/Data-Scaling-Laws",
+      "published": "2024-10-24T11:19:30.000Z"
+    },
+    {
+      "id": "2410.15580",
+      "title": "Language Models are Symbolic Learners in Arithmetic",
+      "authors": [
+        "Chunyuan Deng",
+        "Zhiqi Li",
+        "Roy Xie",
+        "Ruidi Chang",
+        "Hanjie Chen"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2024-10-21T01:57:16.000Z"
+    },
+    {
+      "id": "2410.18441",
+      "title": "The Nature of Mathematical Modeling and Probabilistic Optimization Engineering in Generative AI",
+      "authors": [
+        "Fulu Li"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2024-10-24T05:29:20.000Z"
+    },
+    {
+      "id": "2410.18252",
+      "title": "Asynchronous RLHF: Faster and More Efficient Off-Policy RL for Language Models",
+      "authors": [
+        "Michael Noukhovitch",
+        "Shengyi Huang",
+        "Sophie Xhonneux",
+        "Arian Hosseini",
+        "Rishabh Agarwal",
+        "Aaron Courville"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/mnoukhov/async_rlhf",
+      "published": "2024-10-23T19:59:50.000Z"
+    },
+    {
+      "id": "2410.18785",
+      "title": "Should We Really Edit Language Models? On the Evaluation of Edited Language Models",
+      "authors": [
+        "Qi Li",
+        "Xiang Liu",
+        "Zhenheng Tang",
+        "Peijie Dong",
+        "Zeyu Li",
+        "Xinglin Pan",
+        "Xiaowen Chu"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/lqinfdim/editingevaluation",
+      "published": "2024-10-24T14:36:48.000Z"
+    },
+    {
+      "id": "2410.18194",
+      "title": "ZIP-FIT: Embedding-Free Data Selection via Compression-Based Alignment",
+      "authors": [
+        "Elyas Obbad",
+        "Iddah Mlauzi",
+        "Brando Miranda",
+        "Rylan Schaeffer",
+        "Kamal Obbad",
+        "Suhana Bedi",
+        "Sanmi Koyejo"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2024-10-23T18:01:06.000Z"
+    },
+    {
+      "id": "2410.16429",
+      "title": "Pantograph: A Machine-to-Machine Interaction Interface for Advanced Theorem Proving, High Level Reasoning, and Data Extraction in Lean 4",
+      "authors": [
+        "Leni Aniva",
+        "Chuyue Sun",
+        "Brando Miranda",
+        "Clark Barrett",
+        "Sanmi Koyejo"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/lenianiva/pypantograph",
+      "published": "2024-10-21T18:49:28.000Z"
+    },
+    {
+      "id": "2410.18234",
+      "title": "Multi-Draft Speculative Sampling: Canonical Architectures and Theoretical Limits",
+      "authors": [
+        "Ashish Khisti",
+        "M. Reza Ebrahimi",
+        "Hassan Dbouk",
+        "Arash Behboodi",
+        "Roland Memisevic",
+        "Christos Louizos"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2024-10-23T19:28:34.000Z"
+    }
+  ]
+}

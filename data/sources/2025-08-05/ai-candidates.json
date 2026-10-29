@@ -1,0 +1,100 @@
+[
+  {
+    "publisher": "OpenAI",
+    "title": "Introducing gpt-oss",
+    "url": "https://openai.com/index/introducing-gpt-oss",
+    "date": "2025-08-05",
+    "description": "We’re releasing gpt-oss-120b and gpt-oss-20b—two state-of-the-art open-weight language models that deliver strong real-world performance at low cost. Available under the flexible Apache 2.0 license, these models outperform similarly sized open models on reasoning tasks, demonstrate strong tool use capabilities, and are optimized for efficient deployment on consumer hardware.",
+    "fetched_at": "2026-10-29T15:54:51.753Z"
+  },
+  {
+    "publisher": "OpenAI",
+    "title": "Estimating worst case frontier risks of open weight LLMs",
+    "url": "https://openai.com/index/estimating-worst-case-frontier-risks-of-open-weight-llms",
+    "date": "2025-08-05",
+    "description": "In this paper, we study the worst-case frontier risks of releasing gpt-oss. We introduce malicious fine-tuning (MFT), where we attempt to elicit maximum capabilities by fine-tuning gpt-oss to be as capable as possible in two domains: biology and cybersecurity.",
+    "fetched_at": "2026-10-29T15:54:51.753Z"
+  },
+  {
+    "publisher": "OpenAI",
+    "title": "gpt-oss-120b & gpt-oss-20b Model Card",
+    "url": "https://openai.com/index/gpt-oss-model-card",
+    "date": "2025-08-05",
+    "description": "We introduce gpt-oss-120b and gpt-oss-20b, two open-weight reasoning models available under the Apache 2.0 license and our gpt-oss usage policy.",
+    "fetched_at": "2026-10-29T15:54:51.753Z"
+  },
+  {
+    "publisher": "OpenAI",
+    "title": "Open Weights and AI for All",
+    "url": "https://openai.com/global-affairs/open-weights-and-ai-for-all",
+    "date": "2025-08-05",
+    "description": "AI’s next frontier isn’t just about capability—it’s about who gets to use it. Our mission to put AI in the hands of as many people as possible is what drives us. Today’s release of our most capable open-weights models is a major step forward that makes advanced AI more open, flexible, and accessible worldwide.",
+    "fetched_at": "2026-10-29T15:54:51.753Z"
+  },
+  {
+    "publisher": "Hugging Face",
+    "title": "Welcome GPT OSS, the new open-source model family from OpenAI!",
+    "url": "https://huggingface.co/blog/welcome-openai-gpt-oss",
+    "date": "2025-08-05",
+    "description": "",
+    "fetched_at": "2026-10-29T15:54:52.426Z"
+  },
+  {
+    "publisher": "Microsoft Research",
+    "title": "Project Ire autonomously identifies malware at scale",
+    "url": "https://www.microsoft.com/en-us/research/blog/project-ire-autonomously-identifies-malware-at-scale/",
+    "date": "2025-08-05",
+    "description": "Designed to classify software without context, Project Ire replicates the gold standard in malware analysis through reverse engineering. It streamlines a complex, expert-driven process, making large-scale malware detection faster &#038; more consistent. The post Project Ire autonomously identifies malware at scale appeared first on Microsoft Research .",
+    "fetched_at": "2026-10-29T15:55:12.852Z"
+  },
+  {
+    "publisher": "Microsoft Research",
+    "title": "VeriTrail: Detecting hallucination and tracing provenance in multi-step AI workflows",
+    "url": "https://www.microsoft.com/en-us/research/blog/veritrail-detecting-hallucination-and-tracing-provenance-in-multi-step-ai-workflows/",
+    "date": "2025-08-05",
+    "description": "VeriTrail, new from Microsoft Research, can detect AI-generated content that is not supported by the source text, trace the provenance of content from final output back to the source, and locate where errors were likely introduced. The post VeriTrail: Detecting hallucination and tracing provenance in multi-step AI workflows appeared first on Microsoft Research .",
+    "fetched_at": "2026-10-29T15:55:12.852Z"
+  },
+  {
+    "publisher": "NVIDIA",
+    "title": "OpenAI’s New Open Models Accelerated Locally on NVIDIA GeForce RTX and RTX PRO GPUs",
+    "url": "https://blogs.nvidia.com/blog/rtx-ai-garage-openai-oss/",
+    "date": "2025-08-05",
+    "description": "In collaboration with OpenAI, NVIDIA has optimized the company’s new open-source gpt-oss models for NVIDIA GPUs, delivering smart, fast inference from the cloud to the PC. These new reasoning models enable agentic AI applications such as web search, in-depth research and many more. With the launch of gpt-oss-20b and gpt-oss-120b, OpenAI has opened cutting-edge models [&#8230;]",
+    "fetched_at": "2026-10-29T15:56:39.510Z"
+  },
+  {
+    "publisher": "NVIDIA",
+    "title": "OpenAI and NVIDIA Propel AI Innovation With New Open Models Optimized for the World’s Largest AI Inference Infrastructure",
+    "url": "https://blogs.nvidia.com/blog/openai-gpt-oss/",
+    "date": "2025-08-05",
+    "description": "Two new open-weight AI reasoning models from OpenAI released today bring cutting-edge AI development directly into the hands of developers, enthusiasts, enterprises, startups and governments everywhere — across every industry and at every scale. NVIDIA’s collaboration with OpenAI on these open models — gpt-oss-120b and gpt-oss-20b — is a testament to the power of community-driven [&#8230;]",
+    "fetched_at": "2026-10-29T15:56:39.510Z"
+  },
+  {
+    "publisher": "NVIDIA",
+    "title": "No Backdoors. No Kill Switches. No Spyware.",
+    "url": "https://blogs.nvidia.com/blog/no-backdoors-no-kill-switches-no-spyware/",
+    "date": "2025-08-05",
+    "description": "NVIDIA GPUs are at the heart of modern computing. They’re used across industries — from healthcare and finance to scientific research, autonomous systems and AI infrastructure. NVIDIA GPUs are embedded into CT scanners and MRI machines, DNA sequencers, air-traffic radar tracking systems, city traffic-management systems, self-driving cars, supercomputers, TV broadcasting systems, casino machines and game [&#8230;]",
+    "fetched_at": "2026-10-29T15:56:39.510Z"
+  },
+  {
+    "publisher": "GitHub · huggingface/transformers",
+    "title": "v4.55.0: New openai GPT OSS model!",
+    "url": "https://github.com/huggingface/transformers/releases/tag/v4.55.0",
+    "date": "2025-08-05",
+    "tag": "v4.55.0",
+    "repo": "huggingface/transformers",
+    "fetched_at": "2026-10-29T15:57:26.249Z"
+  },
+  {
+    "publisher": "GitHub · huggingface/trl",
+    "title": "v0.21.0",
+    "url": "https://github.com/huggingface/trl/releases/tag/v0.21.0",
+    "date": "2025-08-05",
+    "tag": "v0.21.0",
+    "repo": "huggingface/trl",
+    "fetched_at": "2026-10-29T15:58:00.143Z"
+  }
+]

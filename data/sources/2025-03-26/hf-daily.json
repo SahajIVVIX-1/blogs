@@ -1,0 +1,536 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-03-26",
+  "fetched_at": "2026-10-29T15:31:00.672Z",
+  "candidates": [
+    {
+      "id": "2503.19325",
+      "title": "Long-Context Autoregressive Video Modeling with Next-Frame Prediction",
+      "authors": [
+        "Yuchao Gu",
+        "Weijia Mao",
+        "Mike Zheng Shou"
+      ],
+      "upvotes": 73,
+      "github": "https://github.com/showlab/FAR",
+      "published": "2025-03-25T03:38:06.000Z"
+    },
+    {
+      "id": "2503.19903",
+      "title": "Scaling Vision Pre-Training to 4K Resolution",
+      "authors": [
+        "Baifeng Shi",
+        "Boyi Li",
+        "Han Cai",
+        "Yao Lu",
+        "Sifei Liu",
+        "Marco Pavone",
+        "Jan Kautz",
+        "Song Han",
+        "Trevor Darrell",
+        "Pavlo Molchanov",
+        "Hongxu Yin"
+      ],
+      "upvotes": 42,
+      "github": "https://github.com/NVlabs/PS3",
+      "published": "2025-03-25T17:58:37.000Z"
+    },
+    {
+      "id": "2503.19385",
+      "title": "Inference-Time Scaling for Flow Models via Stochastic Generation and Rollover Budget Forcing",
+      "authors": [
+        "Jaihoon Kim",
+        "Taehoon Yoon",
+        "Jisung Hwang",
+        "Minhyuk Sung"
+      ],
+      "upvotes": 32,
+      "github": "https://github.com/KAIST-Visual-AI-Group/Flow-Inference-Time-Scaling",
+      "published": "2025-03-25T06:30:45.000Z"
+    },
+    {
+      "id": "2503.19622",
+      "title": "Exploring Hallucination of Large Multimodal Models in Video Understanding: Benchmark, Analysis and Mitigation",
+      "authors": [
+        "Hongcheng Gao",
+        "Jiashu Qu",
+        "Jingyi Tang",
+        "Baolong Bi",
+        "Yue Liu",
+        "Hongyu Chen",
+        "Li Liang",
+        "Li Su",
+        "Qingming Huang"
+      ],
+      "upvotes": 31,
+      "github": "https://github.com/Hongcheng-Gao/HAVEN",
+      "published": "2025-03-25T13:12:17.000Z"
+    },
+    {
+      "id": "2503.18931",
+      "title": "CoMP: Continual Multimodal Pre-training for Vision Foundation Models",
+      "authors": [
+        "Yitong Chen",
+        "Lingchen Meng",
+        "Wujian Peng",
+        "Zuxuan Wu",
+        "Yu-Gang Jiang"
+      ],
+      "upvotes": 29,
+      "github": "https://github.com/SliMM-X/CoMP-MM",
+      "published": "2025-03-24T17:52:47.000Z"
+    },
+    {
+      "id": "2503.19855",
+      "title": "Think Twice: Enhancing LLM Reasoning by Scaling Multi-round Test-time Thinking",
+      "authors": [
+        "Xiaoyu Tian",
+        "Sitong Zhao",
+        "Haotian Wang",
+        "Shuaiting Chen",
+        "Yunjie Ji",
+        "Yiping Peng",
+        "Han Zhao",
+        "Xiangang Li"
+      ],
+      "upvotes": 29,
+      "github": null,
+      "published": "2025-03-25T17:19:38.000Z"
+    },
+    {
+      "id": "2503.13964",
+      "title": "MDocAgent: A Multi-Modal Multi-Agent Framework for Document Understanding",
+      "authors": [
+        "Siwei Han",
+        "Peng Xia",
+        "Ruiyi Zhang",
+        "Tong Sun",
+        "Yun Li",
+        "Hongtu Zhu",
+        "Huaxiu Yao"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/aiming-lab/mdocagent",
+      "published": "2025-03-18T06:57:21.000Z"
+    },
+    {
+      "id": "2503.14905",
+      "title": "Spot the Fake: Large Multimodal Model-Based Synthetic Image Detection with Artifact Explanation",
+      "authors": [
+        "Siwei Wen",
+        "Junyan Ye",
+        "Peilin Feng",
+        "Hengrui Kang",
+        "Zichen Wen",
+        "Yize Chen",
+        "Jiang Wu",
+        "Wenjun Wu",
+        "Conghui He",
+        "Weijia Li"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/opendatalab/FakeVLM",
+      "published": "2025-03-19T05:14:44.000Z"
+    },
+    {
+      "id": "2503.19470",
+      "title": "ReSearch: Learning to Reason with Search for LLMs via Reinforcement Learning",
+      "authors": [
+        "Mingyang Chen",
+        "Tianpeng Li",
+        "Haoze Sun",
+        "Yijie Zhou",
+        "Chenzheng Zhu",
+        "Fan Yang",
+        "Zenan Zhou",
+        "Weipeng Chen",
+        "Haofen Wang",
+        "Jeff Z. Pan",
+        "Wen Zhang",
+        "Huajun Chen"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/agent-rl/research",
+      "published": "2025-03-25T09:00:58.000Z"
+    },
+    {
+      "id": "2503.19910",
+      "title": "CoLLM: A Large Language Model for Composed Image Retrieval",
+      "authors": [
+        "Chuong Huynh",
+        "Jinyu Yang",
+        "Ashish Tawari",
+        "Mubarak Shah",
+        "Son Tran",
+        "Raffay Hamid",
+        "Trishul Chilimbi",
+        "Abhinav Shrivastava"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/hmchuong/CoLLM",
+      "published": "2025-03-25T17:59:50.000Z"
+    },
+    {
+      "id": "2503.18446",
+      "title": "Latent Space Super-Resolution for Higher-Resolution Image Generation with Diffusion Models",
+      "authors": [
+        "Jinho Jeong",
+        "Sangmin Han",
+        "Jinwoo Kim",
+        "Seon Joo Kim"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/3587jjh/lsrna",
+      "published": "2025-03-24T08:50:15.000Z"
+    },
+    {
+      "id": "2503.19065",
+      "title": "WikiAutoGen: Towards Multi-Modal Wikipedia-Style Article Generation",
+      "authors": [
+        "Zhongyu Yang",
+        "Jun Chen",
+        "Dannong Xu",
+        "Junjie Fei",
+        "Xiaoqian Shen",
+        "Liangbing Zhao",
+        "Chun-Mei Feng",
+        "Mohamed Elhoseiny"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/01yzzyu/wikiautogen",
+      "published": "2025-03-24T18:51:55.000Z"
+    },
+    {
+      "id": "2503.15667",
+      "title": "DiffPortrait360: Consistent Portrait Diffusion for 360 View Synthesis",
+      "authors": [
+        "Yuming Gu",
+        "Phong Tran",
+        "Yujian Zheng",
+        "Hongyi Xu",
+        "Heyuan Li",
+        "Adilbek Karmanov",
+        "Hao Li"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/FreedomGu/DiffPortrait360",
+      "published": "2025-03-19T19:47:04.000Z"
+    },
+    {
+      "id": "2503.17973",
+      "title": "PhysTwin: Physics-Informed Reconstruction and Simulation of Deformable Objects from Videos",
+      "authors": [
+        "Hanxiao Jiang",
+        "Hao-Yu Hsu",
+        "Kaifeng Zhang",
+        "Hsin-Ni Yu",
+        "Shenlong Wang",
+        "Yunzhu Li"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/Jianghanxiao/PhysTwin",
+      "published": "2025-03-23T07:49:19.000Z"
+    },
+    {
+      "id": "2503.04919",
+      "title": "FirePlace: Geometric Refinements of LLM Common Sense Reasoning for 3D Object Placement",
+      "authors": [
+        "Ian Huang",
+        "Yanan Bao",
+        "Karen Truong",
+        "Howard Zhou",
+        "Cordelia Schmid",
+        "Leonidas Guibas",
+        "Alireza Fathi"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2025-03-06T19:34:15.000Z"
+    },
+    {
+      "id": "2503.19907",
+      "title": "FullDiT: Multi-Task Video Generative Foundation Model with Full Attention",
+      "authors": [
+        "Xuan Ju",
+        "Weicai Ye",
+        "Quande Liu",
+        "Qiulin Wang",
+        "Xintao Wang",
+        "Pengfei Wan",
+        "Di Zhang",
+        "Kun Gai",
+        "Qiang Xu"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2025-03-25T17:59:06.000Z"
+    },
+    {
+      "id": "2503.18893",
+      "title": "xKV: Cross-Layer SVD for KV-Cache Compression",
+      "authors": [
+        "Chi-Chih Chang",
+        "Chien-Yu Lin",
+        "Yash Akhauri",
+        "Wei-Cheng Lin",
+        "Kai-Chiang Wu",
+        "Luis Ceze",
+        "Mohamed S. Abdelfattah"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/abdelfattah-lab/xKV",
+      "published": "2025-03-24T17:06:37.000Z"
+    },
+    {
+      "id": "2503.19207",
+      "title": "FRESA:Feedforward Reconstruction of Personalized Skinned Avatars from Few Images",
+      "authors": [
+        "Rong Wang",
+        "Fabian Prada",
+        "Ziyan Wang",
+        "Zhongshi Jiang",
+        "Chengxiang Yin",
+        "Junxuan Li",
+        "Shunsuke Saito",
+        "Igor Santesteban",
+        "Javier Romero",
+        "Rohan Joshi",
+        "Hongdong Li",
+        "Jason Saragih",
+        "Yaser Sheikh"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/rongakowang/FRESA",
+      "published": "2025-03-24T23:20:47.000Z"
+    },
+    {
+      "id": "2503.11849",
+      "title": "Towards a Unified Copernicus Foundation Model for Earth Vision",
+      "authors": [
+        "Yi Wang",
+        "Zhitong Xiong",
+        "Chenying Liu",
+        "Adam J. Stewart",
+        "Thomas Dujardin",
+        "Nikolaos Ioannis Bountos",
+        "Angelos Zavras",
+        "Franziska Gerken",
+        "Ioannis Papoutsis",
+        "Laura Leal-Taixé",
+        "Xiao Xiang Zhu"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/zhu-xlab/Copernicus-FM",
+      "published": "2025-03-14T20:16:48.000Z"
+    },
+    {
+      "id": "2503.19041",
+      "title": "LookAhead Tuning: Safer Language Models via Partial Answer Previews",
+      "authors": [
+        "Kangwei Liu",
+        "Mengru Wang",
+        "Yujie Luo",
+        "Lin Yuan",
+        "Mengshu Sun",
+        "Ningyu Zhang",
+        "Lei Liang",
+        "Zhiqiang Zhang",
+        "Jun Zhou",
+        "Huajun Chen"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/zjunlp/lookaheadtuning",
+      "published": "2025-03-24T18:11:42.000Z"
+    },
+    {
+      "id": "2503.17361",
+      "title": "Gumbel-Softmax Flow Matching with Straight-Through Guidance for Controllable Biological Sequence Generation",
+      "authors": [
+        "Sophia Tang",
+        "Yinuo Zhang",
+        "Alexander Tong",
+        "Pranam Chatterjee"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-03-21T17:59:43.000Z"
+    },
+    {
+      "id": "2503.20110",
+      "title": "Efficient Model Development through Fine-tuning Transfer",
+      "authors": [
+        "Pin-Jie Lin",
+        "Rishab Balasubramanian",
+        "Fengyuan Liu",
+        "Nikhil Kandpal",
+        "Tu Vu"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/pjlintw/finetuning-transfer",
+      "published": "2025-03-25T23:24:43.000Z"
+    },
+    {
+      "id": "2503.18712",
+      "title": "LLaVAction: evaluating and training multi-modal large language models for action recognition",
+      "authors": [
+        "Shaokai Ye",
+        "Haozhe Qi",
+        "Alexander Mathis",
+        "Mackenzie W. Mathis"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/AdaptiveMotorControlLab/LLaVAction",
+      "published": "2025-03-24T14:24:17.000Z"
+    },
+    {
+      "id": "2503.17237",
+      "title": "Strong Baseline: Multi-UAV Tracking via YOLOv12 with BoT-SORT-ReID",
+      "authors": [
+        "Yu-Hsi Chen"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/wish44165/YOLOv12-BoT-SORT-ReID",
+      "published": "2025-03-21T15:40:18.000Z"
+    },
+    {
+      "id": "2503.16965",
+      "title": "When Words Outperform Vision: VLMs Can Self-Improve Via Text-Only Training For Human-Centered Decision Making",
+      "authors": [
+        "Zhe Hu",
+        "Jing Li",
+        "Yu Yin"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-03-21T09:25:23.000Z"
+    },
+    {
+      "id": "2503.19881",
+      "title": "Mask^2DiT: Dual Mask-based Diffusion Transformer for Multi-Scene Long Video Generation",
+      "authors": [
+        "Tianhao Qi",
+        "Jianlong Yuan",
+        "Wanquan Feng",
+        "Shancheng Fang",
+        "Jiawei Liu",
+        "SiYu Zhou",
+        "Qian He",
+        "Hongtao Xie",
+        "Yongdong Zhang"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/Tianhao-Qi/Mask2DiT",
+      "published": "2025-03-25T17:46:50.000Z"
+    },
+    {
+      "id": "2503.18673",
+      "title": "Any6D: Model-free 6D Pose Estimation of Novel Objects",
+      "authors": [
+        "Taeyeop Lee",
+        "Bowen Wen",
+        "Minjun Kang",
+        "Gyuree Kang",
+        "In So Kweon",
+        "Kuk-Jin Yoon"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/taeyeopl/Any6D",
+      "published": "2025-03-24T13:46:21.000Z"
+    },
+    {
+      "id": "2503.16776",
+      "title": "OpenCity3D: What do Vision-Language Models know about Urban Environments?",
+      "authors": [
+        "Valentin Bieri",
+        "Marco Zamboni",
+        "Nicolas S. Blumer",
+        "Qingxuan Chen",
+        "Francis Engelmann"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/opencity3d/opencity3d",
+      "published": "2025-03-21T01:11:21.000Z"
+    },
+    {
+      "id": "2503.19355",
+      "title": "ST-VLM: Kinematic Instruction Tuning for Spatio-Temporal Reasoning in Vision-Language Models",
+      "authors": [
+        "Dohwan Ko",
+        "Sihyeon Kim",
+        "Yumin Suh",
+        "Vijay Kumar B. G",
+        "Minseo Yoon",
+        "Manmohan Chandraker",
+        "Hyunwoo J. Kim"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/mlvlab/ST-VLM",
+      "published": "2025-03-25T05:08:06.000Z"
+    },
+    {
+      "id": "2503.19356",
+      "title": "Can Vision-Language Models Answer Face to Face Questions in the Real-World?",
+      "authors": [
+        "Reza Pourreza",
+        "Rishit Dagli",
+        "Apratim Bhattacharyya",
+        "Sunny Panchal",
+        "Guillaume Berger",
+        "Roland Memisevic"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2025-03-25T05:13:12.000Z"
+    },
+    {
+      "id": "2503.19123",
+      "title": "Overcoming Vocabulary Mismatch: Vocabulary-agnostic Teacher Guided Language Modeling",
+      "authors": [
+        "Haebin Shin",
+        "Lei Ji",
+        "Xiao Liu",
+        "Yeyun Gong"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2025-03-24T20:19:31.000Z"
+    },
+    {
+      "id": "2503.18783",
+      "title": "Frequency Dynamic Convolution for Dense Image Prediction",
+      "authors": [
+        "Linwei Chen",
+        "Lin Gu",
+        "Liang Li",
+        "Chenggang Yan",
+        "Ying Fu"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/linwei-chen/fdconv",
+      "published": "2025-03-24T15:32:06.000Z"
+    },
+    {
+      "id": "2503.19777",
+      "title": "LPOSS: Label Propagation Over Patches and Pixels for Open-vocabulary Semantic Segmentation",
+      "authors": [
+        "Vladan Stojnić",
+        "Yannis Kalantidis",
+        "Jiří Matas",
+        "Giorgos Tolias"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/vladan-stojnic/LPOSS",
+      "published": "2025-03-25T15:47:13.000Z"
+    },
+    {
+      "id": "2503.17982",
+      "title": "Co-SemDepth: Fast Joint Semantic Segmentation and Depth Estimation on Aerial Images",
+      "authors": [
+        "Yara AlaaEldin",
+        "Francesca Odone"
+      ],
+      "upvotes": 0,
+      "github": "https://github.com/malga-vision/co-semdepth",
+      "published": "2025-03-23T08:25:07.000Z"
+    }
+  ]
+}

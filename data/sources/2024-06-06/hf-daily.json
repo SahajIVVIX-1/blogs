@@ -1,0 +1,201 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-06-06",
+  "fetched_at": "2026-10-29T15:28:02.440Z",
+  "candidates": [
+    {
+      "id": "2406.02657",
+      "title": "Block Transformer: Global-to-Local Language Modeling for Fast Inference",
+      "authors": [
+        "Namgyu Ho",
+        "Sangmin Bae",
+        "Taehyeon Kim",
+        "Hyunjik Jo",
+        "Yireun Kim",
+        "Tal Schuster",
+        "Adam Fisch",
+        "James Thorne",
+        "Se-Young Yun"
+      ],
+      "upvotes": 39,
+      "github": "https://github.com/itsnamgyu/block-transformer",
+      "published": "2024-06-04T17:45:26.000Z"
+    },
+    {
+      "id": "2406.02539",
+      "title": "Parrot: Multilingual Visual Instruction Tuning",
+      "authors": [
+        "Hai-Long Sun",
+        "Da-Wei Zhou",
+        "Yang Li",
+        "Shiyin Lu",
+        "Chao Yi",
+        "Qing-Guo Chen",
+        "Zhao Xu",
+        "Weihua Luo",
+        "Kaifu Zhang",
+        "De-Chuan Zhan",
+        "Han-Jia Ye"
+      ],
+      "upvotes": 34,
+      "github": null,
+      "published": "2024-06-04T17:56:28.000Z"
+    },
+    {
+      "id": "2406.01014",
+      "title": "Mobile-Agent-v2: Mobile Device Operation Assistant with Effective Navigation via Multi-Agent Collaboration",
+      "authors": [
+        "Junyang Wang",
+        "Haiyang Xu",
+        "Haitao Jia",
+        "Xi Zhang",
+        "Ming Yan",
+        "Weizhou Shen",
+        "Ji Zhang",
+        "Fei Huang",
+        "Jitao Sang"
+      ],
+      "upvotes": 31,
+      "github": null,
+      "published": "2024-06-03T05:50:00.000Z"
+    },
+    {
+      "id": "2406.03344",
+      "title": "Audio Mamba: Bidirectional State Space Model for Audio Representation Learning",
+      "authors": [
+        "Mehmet Hamza Erol",
+        "Arda Senocak",
+        "Jiu Feng",
+        "Joon Son Chung"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/mhamzaerol/audio-mamba-aum",
+      "published": "2024-06-05T15:00:59.000Z"
+    },
+    {
+      "id": "2406.03184",
+      "title": "Ouroboros3D: Image-to-3D Generation via 3D-aware Recursive Diffusion",
+      "authors": [
+        "Hao Wen",
+        "Zehuan Huang",
+        "Yaohui Wang",
+        "Xinyuan Chen",
+        "Yu Qiao",
+        "Lu Sheng"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/Costwen/Ouroboros3D",
+      "published": "2024-06-05T12:15:22.000Z"
+    },
+    {
+      "id": "2406.02884",
+      "title": "PosterLLaVa: Constructing a Unified Multi-modal Layout Generator with LLM",
+      "authors": [
+        "Tao Yang",
+        "Yingmin Luo",
+        "Zhongang Qi",
+        "Yang Wu",
+        "Ying Shan",
+        "Chang Wen Chen"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/posterllava/posterllava",
+      "published": "2024-06-05T03:05:52.000Z"
+    },
+    {
+      "id": "2406.02897",
+      "title": "LiveSpeech: Low-Latency Zero-shot Text-to-Speech via Autoregressive Modeling of Audio Discrete Codes",
+      "authors": [
+        "Trung Dang",
+        "David Aponte",
+        "Dung Tran",
+        "Kazuhito Koishida"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2024-06-05T03:36:11.000Z"
+    },
+    {
+      "id": "2406.03215",
+      "title": "Searching Priors Makes Text-to-Video Synthesis Better",
+      "authors": [
+        "Haoran Cheng",
+        "Liang Peng",
+        "Linxuan Xia",
+        "Yuepeng Hu",
+        "Hengjia Li",
+        "Qinglin Lu",
+        "Xiaofei He",
+        "Boxi Wu"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2024-06-05T12:53:28.000Z"
+    },
+    {
+      "id": "2406.02900",
+      "title": "Scaling Laws for Reward Model Overoptimization in Direct Alignment Algorithms",
+      "authors": [
+        "Rafael Rafailov",
+        "Yaswanth Chittepu",
+        "Ryan Park",
+        "Harshit Sikchi",
+        "Joey Hejna",
+        "Bradley Knox",
+        "Chelsea Finn",
+        "Scott Niekum"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2024-06-05T03:41:37.000Z"
+    },
+    {
+      "id": "2406.02844",
+      "title": "Item-Language Model for Conversational Recommendation",
+      "authors": [
+        "Li Yang",
+        "Anushya Subbiah",
+        "Hardik Patel",
+        "Judith Yue Li",
+        "Yanwei Song",
+        "Reza Mirghaderi",
+        "Vikram Aggarwal"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2024-06-05T01:35:50.000Z"
+    },
+    {
+      "id": "2406.02886",
+      "title": "PLaD: Preference-based Large Language Model Distillation with Pseudo-Preference Pairs",
+      "authors": [
+        "Rongzhi Zhang",
+        "Jiaming Shen",
+        "Tianqi Liu",
+        "Haorui Wang",
+        "Zhen Qin",
+        "Feng Han",
+        "Jialu Liu",
+        "Simon Baumgartner",
+        "Michael Bendersky",
+        "Chao Zhang"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2024-06-05T03:08:25.000Z"
+    },
+    {
+      "id": "2406.02856",
+      "title": "Xmodel-LM Technical Report",
+      "authors": [
+        "Yichuan Wang",
+        "Yang Liu",
+        "Yu Yan",
+        "Xucheng Huang",
+        "Ling Jiang"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/MS-P3/code7",
+      "published": "2024-06-05T02:12:06.000Z"
+    }
+  ]
+}

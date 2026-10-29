@@ -1,0 +1,862 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-10-10",
+  "fetched_at": "2026-10-29T15:33:26.143Z",
+  "candidates": [
+    {
+      "id": "2510.08558",
+      "title": "Agent Learning via Early Experience",
+      "authors": [
+        "Kai Zhang",
+        "Xiangchao Chen",
+        "Bo Liu",
+        "Tianci Xue",
+        "Zeyi Liao",
+        "Zhihan Liu",
+        "Xiyao Wang",
+        "Yuting Ning",
+        "Zhaorun Chen",
+        "Xiaohan Fu",
+        "Jian Xie",
+        "Yuxuan Sun",
+        "Boyu Gou",
+        "Qi Qi",
+        "Zihang Meng",
+        "Jianwei Yang",
+        "Ning Zhang",
+        "Xian Li",
+        "Ashish Shah",
+        "Dat Huynh",
+        "Hengduo Li",
+        "Zi Yang",
+        "Sara Cao",
+        "Lawrence Jang",
+        "Shuyan Zhou",
+        "Jiacheng Zhu",
+        "Huan Sun",
+        "Jason Weston",
+        "Yu Su",
+        "Yifan Wu"
+      ],
+      "upvotes": 258,
+      "github": "https://github.com/OSU-NLP-Group/EarlyExperience",
+      "published": "2025-10-09T17:59:17.000Z"
+    },
+    {
+      "id": "2510.08540",
+      "title": "MM-HELIX: Boosting Multimodal Long-Chain Reflective Reasoning with Holistic Platform and Adaptive Hybrid Policy Optimization",
+      "authors": [
+        "Xiangyu Zhao",
+        "Junming Lin",
+        "Tianhao Liang",
+        "Yifan Zhou",
+        "Wenhao Chai",
+        "Yuzhe Gu",
+        "Weiyun Wang",
+        "Kai Chen",
+        "Gen Luo",
+        "Wenwei Zhang",
+        "Junchi Yan",
+        "Hua Yang",
+        "Haodong Duan",
+        "Xue Yang"
+      ],
+      "upvotes": 110,
+      "github": "https://github.com/PhoenixZ810/MM-HELIX",
+      "published": "2025-10-09T17:53:58.000Z"
+    },
+    {
+      "id": "2510.08377",
+      "title": "UniVideo: Unified Understanding, Generation, and Editing for Videos",
+      "authors": [
+        "Cong Wei",
+        "Quande Liu",
+        "Zixuan Ye",
+        "Qiulin Wang",
+        "Xintao Wang",
+        "Pengfei Wan",
+        "Kun Gai",
+        "Wenhu Chen"
+      ],
+      "upvotes": 81,
+      "github": "https://github.com/KlingTeam/UniVideo",
+      "published": "2025-10-09T16:01:30.000Z"
+    },
+    {
+      "id": "2510.03222",
+      "title": "Low-probability Tokens Sustain Exploration in Reinforcement Learning with Verifiable Reward",
+      "authors": [
+        "Guanhua Huang",
+        "Tingqiang Xu",
+        "Mingze Wang",
+        "Qi Yi",
+        "Xue Gong",
+        "Siheng Li",
+        "Ruibin Xiong",
+        "Kejiao Li",
+        "Yuhao Jiang",
+        "Bo Zhou"
+      ],
+      "upvotes": 76,
+      "github": "https://github.com/CarlanLark/Lp-Reg-dev",
+      "published": "2025-10-03T17:56:13.000Z"
+    },
+    {
+      "id": "2510.03279",
+      "title": "MemMamba: Rethinking Memory Patterns in State Space Model",
+      "authors": [
+        "Youjin Wang",
+        "Yangjingyi Chen",
+        "Jiahao Yan",
+        "Jiaxuan Lu",
+        "Xiao Sun"
+      ],
+      "upvotes": 75,
+      "github": null,
+      "published": "2025-09-28T14:40:58.000Z"
+    },
+    {
+      "id": "2510.08555",
+      "title": "VideoCanvas: Unified Video Completion from Arbitrary Spatiotemporal Patches via In-Context Conditioning",
+      "authors": [
+        "Minghong Cai",
+        "Qiulin Wang",
+        "Zongli Ye",
+        "Wenze Liu",
+        "Quande Liu",
+        "Weicai Ye",
+        "Xintao Wang",
+        "Pengfei Wan",
+        "Kun Gai",
+        "Xiangyu Yue"
+      ],
+      "upvotes": 65,
+      "github": "https://github.com/KwaiVGI/VideoCanvas",
+      "published": "2025-10-09T17:58:59.000Z"
+    },
+    {
+      "id": "2510.03259",
+      "title": "Meta-Awareness Enhances Reasoning Models: Self-Alignment Reinforcement Learning",
+      "authors": [
+        "Yoonjeon Kim",
+        "Doohyuk Jang",
+        "Eunho Yang"
+      ],
+      "upvotes": 57,
+      "github": "https://github.com/akatigre/MASA-RL",
+      "published": "2025-09-26T14:05:48.000Z"
+    },
+    {
+      "id": "2509.23768",
+      "title": "From What to Why: A Multi-Agent System for Evidence-based Chemical Reaction Condition Reasoning",
+      "authors": [
+        "Cheng Yang",
+        "Jiaxuan Lu",
+        "Haiyuan Wan",
+        "Junchi Yu",
+        "Feiwei Qin"
+      ],
+      "upvotes": 49,
+      "github": null,
+      "published": "2025-09-28T09:34:35.000Z"
+    },
+    {
+      "id": "2510.07499",
+      "title": "When Thoughts Meet Facts: Reusable Reasoning for Long-Context LMs",
+      "authors": [
+        "Soyeong Jeong",
+        "Taehee Jung",
+        "Sung Ju Hwang",
+        "Joo-Kyung Kim",
+        "Dongyeop Kang"
+      ],
+      "upvotes": 49,
+      "github": null,
+      "published": "2025-10-08T19:52:35.000Z"
+    },
+    {
+      "id": "2510.08191",
+      "title": "Training-Free Group Relative Policy Optimization",
+      "authors": [
+        "Yuzheng Cai",
+        "Siqi Cai",
+        "Yuchen Shi",
+        "Zihan Xu",
+        "Lichao Chen",
+        "Yulei Qin",
+        "Xiaoyu Tan",
+        "Gang Li",
+        "Zongyi Li",
+        "Haojia Lin",
+        "Yong Mao",
+        "Ke Li",
+        "Xing Sun"
+      ],
+      "upvotes": 46,
+      "github": null,
+      "published": "2025-10-09T13:18:17.000Z"
+    },
+    {
+      "id": "2510.08240",
+      "title": "The Alignment Waltz: Jointly Training Agents to Collaborate for Safety",
+      "authors": [
+        "Jingyu Zhang",
+        "Haozhu Wang",
+        "Eric Michael Smith",
+        "Sid Wang",
+        "Amr Sharaf",
+        "Mahesh Pasupuleti",
+        "Benjamin Van Durme",
+        "Daniel Khashabi",
+        "Jason Weston",
+        "Hongyuan Zhan"
+      ],
+      "upvotes": 41,
+      "github": null,
+      "published": "2025-10-09T14:03:05.000Z"
+    },
+    {
+      "id": "2510.08551",
+      "title": "ARTDECO: Towards Efficient and High-Fidelity On-the-Fly 3D Reconstruction with Structured Scene Representation",
+      "authors": [
+        "Guanghao Li",
+        "Kerui Ren",
+        "Linning Xu",
+        "Zhewen Zheng",
+        "Changjian Jiang",
+        "Xin Gao",
+        "Bo Dai",
+        "Jian Pu",
+        "Mulin Yu",
+        "Jiangmiao Pang"
+      ],
+      "upvotes": 34,
+      "github": "https://github.com/InternRobotics/ARTDECO",
+      "published": "2025-10-09T17:57:38.000Z"
+    },
+    {
+      "id": "2510.06679",
+      "title": "DreamOmni2: Multimodal Instruction-based Editing and Generation",
+      "authors": [
+        "Bin Xia",
+        "Bohao Peng",
+        "Yuechen Zhang",
+        "Junjia Huang",
+        "Jiyang Liu",
+        "Jingyao Li",
+        "Haoru Tan",
+        "Sitong Wu",
+        "Chengyao Wang",
+        "Yitong Wang",
+        "Xinglong Wu",
+        "Bei Yu",
+        "Jiaya Jia"
+      ],
+      "upvotes": 32,
+      "github": "https://github.com/dvlab-research/DreamOmni2",
+      "published": "2025-10-08T06:07:14.000Z"
+    },
+    {
+      "id": "2510.07172",
+      "title": "NewtonBench: Benchmarking Generalizable Scientific Law Discovery in LLM Agents",
+      "authors": [
+        "Tianshi Zheng",
+        "Kelvin Kiu-Wai Tam",
+        "Newt Hue-Nam K. Nguyen",
+        "Baixuan Xu",
+        "Zhaowei Wang",
+        "Jiayang Cheng",
+        "Hong Ting Tsang",
+        "Weiqi Wang",
+        "Jiaxin Bai",
+        "Tianqing Fang",
+        "Yangqiu Song",
+        "Ginny Y. Wong",
+        "Simon See"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/HKUST-KnowComp/NewtonBench",
+      "published": "2025-10-08T16:12:11.000Z"
+    },
+    {
+      "id": "2510.08002",
+      "title": "Learning on the Job: An Experience-Driven Self-Evolving Agent for Long-Horizon Tasks",
+      "authors": [
+        "Cheng Yang",
+        "Xuemeng Yang",
+        "Licheng Wen",
+        "Daocheng Fu",
+        "Jianbiao Mei",
+        "Rong Wu",
+        "Pinlong Cai",
+        "Yufan Shen",
+        "Nianchen Deng",
+        "Botian Shi",
+        "Yu Qiao",
+        "Haifeng Li"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/KnowledgeXLab/MUSE",
+      "published": "2025-10-09T09:40:34.000Z"
+    },
+    {
+      "id": "2510.08308",
+      "title": "First Try Matters: Revisiting the Role of Reflection in Reasoning Models",
+      "authors": [
+        "Liwei Kang",
+        "Yue Deng",
+        "Yao Xiao",
+        "Zhanfeng Mo",
+        "Wee Sun Lee",
+        "Lidong Bing"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/Olafyii/first-try-matters",
+      "published": "2025-10-09T14:57:10.000Z"
+    },
+    {
+      "id": "2510.08483",
+      "title": "DeepPrune: Parallel Scaling without Inter-trace Redundancy",
+      "authors": [
+        "Shangqing Tu",
+        "Yaxuan Li",
+        "Yushi Bai",
+        "Lei Hou",
+        "Juanzi Li"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/THU-KEG/DeepPrune",
+      "published": "2025-10-09T17:24:54.000Z"
+    },
+    {
+      "id": "2510.08211",
+      "title": "LLMs Learn to Deceive Unintentionally: Emergent Misalignment in Dishonesty from Misaligned Samples to Biased Human-AI Interactions",
+      "authors": [
+        "XuHao Hu",
+        "Peng Wang",
+        "Xiaoya Lu",
+        "Dongrui Liu",
+        "Xuanjing Huang",
+        "Jing Shao"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/hxhcreate/LLM_Deceive_Unintentionally",
+      "published": "2025-10-09T13:35:19.000Z"
+    },
+    {
+      "id": "2510.07546",
+      "title": "PickStyle: Video-to-Video Style Transfer with Context-Style Adapters",
+      "authors": [
+        "Soroush Mehraban",
+        "Vida Adeli",
+        "Jacob Rommann",
+        "Babak Taati",
+        "Kyryl Truskovskyi"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/PickfordAI/pickstyle",
+      "published": "2025-10-08T21:02:55.000Z"
+    },
+    {
+      "id": "2510.08565",
+      "title": "NaViL: Rethinking Scaling Properties of Native Multimodal Large Language Models under Data Constraints",
+      "authors": [
+        "Changyao Tian",
+        "Hao Li",
+        "Gen Luo",
+        "Xizhou Zhu",
+        "Weijie Su",
+        "Hanming Deng",
+        "Jinguo Zhu",
+        "Jie Shao",
+        "Ziran Zhu",
+        "Yunpeng Liu",
+        "Lewei Lu",
+        "Wenhai Wang",
+        "Hongsheng Li",
+        "Jifeng Dai"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/OpenGVLab/NaViL",
+      "published": "2025-10-09T17:59:37.000Z"
+    },
+    {
+      "id": "2510.07242",
+      "title": "Hybrid Reinforcement: When Reward Is Sparse, It's Better to Be Dense",
+      "authors": [
+        "Leitian Tao",
+        "Ilia Kulikov",
+        "Swarnadeep Saha",
+        "Tianlu Wang",
+        "Jing Xu",
+        "Yixuan Li",
+        "Jason E Weston",
+        "Ping Yu"
+      ],
+      "upvotes": 20,
+      "github": null,
+      "published": "2025-10-08T17:09:41.000Z"
+    },
+    {
+      "id": "2510.08143",
+      "title": "UniMMVSR: A Unified Multi-Modal Framework for Cascaded Video Super-Resolution",
+      "authors": [
+        "Shian Du",
+        "Menghan Xia",
+        "Chang Liu",
+        "Quande Liu",
+        "Xintao Wang",
+        "Pengfei Wan",
+        "Xiangyang Ji"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/ShianDu/UniMMVSR",
+      "published": "2025-10-09T12:25:16.000Z"
+    },
+    {
+      "id": "2510.08529",
+      "title": "CoMAS: Co-Evolving Multi-Agent Systems via Interaction Rewards",
+      "authors": [
+        "Xiangyuan Xue",
+        "Yifan Zhou",
+        "Guibin Zhang",
+        "Zaibin Zhang",
+        "Yijiang Li",
+        "Chen Zhang",
+        "Zhenfei Yin",
+        "Philip Torr",
+        "Wanli Ouyang",
+        "Lei Bai"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/xxyQwQ/CoMAS",
+      "published": "2025-10-09T17:50:26.000Z"
+    },
+    {
+      "id": "2510.08485",
+      "title": "InstructX: Towards Unified Visual Editing with MLLM Guidance",
+      "authors": [
+        "Chong Mou",
+        "Qichao Sun",
+        "Yanze Wu",
+        "Pengze Zhang",
+        "Xinghui Li",
+        "Fulong Ye",
+        "Songtao Zhao",
+        "Qian He"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/MC-E/InstructX",
+      "published": "2025-10-09T17:26:09.000Z"
+    },
+    {
+      "id": "2510.03663",
+      "title": "UNIDOC-BENCH: A Unified Benchmark for Document-Centric Multimodal RAG",
+      "authors": [
+        "Xiangyu Peng",
+        "Cab Qin",
+        "Zeyuan Chen",
+        "Ran Xu",
+        "Caiming Xiong",
+        "Chien-Sheng Wu"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/SalesforceAIResearch/UniDoc-Bench",
+      "published": "2025-10-04T04:30:13.000Z"
+    },
+    {
+      "id": "2510.06915",
+      "title": "LongRM: Revealing and Unlocking the Context Boundary of Reward Modeling",
+      "authors": [
+        "Zecheng Tang",
+        "Baibei Ji",
+        "Quantong Qiu",
+        "Haitian Wang",
+        "Xiaobo Liang",
+        "Juntao Li",
+        "Min Zhang"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/LCM-Lab/LongRM",
+      "published": "2025-10-08T11:48:16.000Z"
+    },
+    {
+      "id": "2510.07743",
+      "title": "OpenRubrics: Towards Scalable Synthetic Rubric Generation for Reward Modeling and LLM Alignment",
+      "authors": [
+        "Tianci Liu",
+        "Ran Xu",
+        "Tony Yu",
+        "Ilgee Hong",
+        "Carl Yang",
+        "Tuo Zhao",
+        "Haoyu Wang"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/wanghaoyu0408/OpenRubrics",
+      "published": "2025-10-09T03:31:26.000Z"
+    },
+    {
+      "id": "2510.03117",
+      "title": "Taming Text-to-Sounding Video Generation via Advanced Modality Condition and Interaction",
+      "authors": [
+        "Kaisi Guan",
+        "Xihua Wang",
+        "Zhengfeng Lai",
+        "Xin Cheng",
+        "Peng Zhang",
+        "XiaoJiang Liu",
+        "Ruihua Song",
+        "Meng Cao"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2025-10-03T15:43:56.000Z"
+    },
+    {
+      "id": "2510.08425",
+      "title": "Reinforcing Diffusion Models by Direct Group Preference Optimization",
+      "authors": [
+        "Yihong Luo",
+        "Tianyang Hu",
+        "Jing Tang"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/Luo-Yihong/DGPO",
+      "published": "2025-10-09T16:40:43.000Z"
+    },
+    {
+      "id": "2510.08203",
+      "title": "Memory Retrieval and Consolidation in Large Language Models through Function Tokens",
+      "authors": [
+        "Shaohua Zhang",
+        "Yuan Lin",
+        "Hang Li"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2025-10-09T13:31:20.000Z"
+    },
+    {
+      "id": "2510.08431",
+      "title": "Large Scale Diffusion Distillation via Score-Regularized Continuous-Time Consistency",
+      "authors": [
+        "Kaiwen Zheng",
+        "Yuji Wang",
+        "Qianli Ma",
+        "Huayu Chen",
+        "Jintao Zhang",
+        "Yogesh Balaji",
+        "Jianfei Chen",
+        "Ming-Yu Liu",
+        "Jun Zhu",
+        "Qinsheng Zhang"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/NVlabs/rcm",
+      "published": "2025-10-09T16:45:30.000Z"
+    },
+    {
+      "id": "2510.08276",
+      "title": "Beyond Turn Limits: Training Deep Search Agents with Dynamic Context Window",
+      "authors": [
+        "Qiaoyu Tang",
+        "Hao Xiang",
+        "Le Yu",
+        "Bowen Yu",
+        "Yaojie Lu",
+        "Xianpei Han",
+        "Le Sun",
+        "WenJuan Zhang",
+        "Pengbo Wang",
+        "Shixuan Liu",
+        "Zhenru Zhang",
+        "Jianhong Tu",
+        "Hongyu Lin",
+        "Junyang Lin"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2025-10-09T14:31:39.000Z"
+    },
+    {
+      "id": "2510.08559",
+      "title": "SciVideoBench: Benchmarking Scientific Video Reasoning in Large Multimodal Models",
+      "authors": [
+        "Andong Deng",
+        "Taojiannan Yang",
+        "Shoubin Yu",
+        "Lincoln Spencer",
+        "Mohit Bansal",
+        "Chen Chen",
+        "Serena Yeung-Levy",
+        "Xiaohan Wang"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/dengandong/SciVideoBench",
+      "published": "2025-10-09T17:59:23.000Z"
+    },
+    {
+      "id": "2509.24817",
+      "title": "UP2You: Fast Reconstruction of Yourself from Unconstrained Photo Collections",
+      "authors": [
+        "Zeyu Cai",
+        "Ziyang Li",
+        "Xiaoben Li",
+        "Boqian Li",
+        "Zeyu Wang",
+        "Zhenyu Zhang",
+        "Yuliang Xiu"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/zcai0612/UP2You",
+      "published": "2025-09-29T14:06:00.000Z"
+    },
+    {
+      "id": "2509.26633",
+      "title": "OmniRetarget: Interaction-Preserving Data Generation for Humanoid Whole-Body Loco-Manipulation and Scene Interaction",
+      "authors": [
+        "Lujie Yang",
+        "Xiaoyu Huang",
+        "Zhen Wu",
+        "Angjoo Kanazawa",
+        "Pieter Abbeel",
+        "Carmelo Sferrazza",
+        "C. Karen Liu",
+        "Rocky Duan",
+        "Guanya Shi"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2025-09-30T17:59:02.000Z"
+    },
+    {
+      "id": "2510.08556",
+      "title": "DexNDM: Closing the Reality Gap for Dexterous In-Hand Rotation via Joint-Wise Neural Dynamics Model",
+      "authors": [
+        "Xueyi Liu",
+        "He Wang",
+        "Li Yi"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2025-10-09T17:59:11.000Z"
+    },
+    {
+      "id": "2510.08549",
+      "title": "Entropy Regularizing Activation: Boosting Continuous Control, Large Language Models, and Image Classification with Activation as Entropy Constraints",
+      "authors": [
+        "Zilin Kang",
+        "Chonghua Liao",
+        "Tingqiang Xu",
+        "Huazhe Xu"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/nothingbutbut/era",
+      "published": "2025-10-09T17:56:17.000Z"
+    },
+    {
+      "id": "2510.08271",
+      "title": "SViM3D: Stable Video Material Diffusion for Single Image 3D Generation",
+      "authors": [
+        "Andreas Engelhardt",
+        "Mark Boss",
+        "Vikram Voletti",
+        "Chun-Han Yao",
+        "Hendrik P. A. Lensch",
+        "Varun Jampani"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2025-10-09T14:29:47.000Z"
+    },
+    {
+      "id": "2510.07790",
+      "title": "GCPO: When Contrast Fails, Go Gold",
+      "authors": [
+        "Hao Wu",
+        "Wei Liu"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/AchoWu/GCPO",
+      "published": "2025-10-09T05:09:06.000Z"
+    },
+    {
+      "id": "2510.07048",
+      "title": "Search-R3: Unifying Reasoning and Embedding Generation in Large Language Models",
+      "authors": [
+        "Yuntao Gui",
+        "James Cheng"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/ytgui/Search-R3",
+      "published": "2025-10-08T14:16:20.000Z"
+    },
+    {
+      "id": "2510.02994",
+      "title": "Towards Scalable and Consistent 3D Editing",
+      "authors": [
+        "Ruihao Xia",
+        "Yang Tang",
+        "Pan Zhou"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/LVLab-SMU/3DEditFormer",
+      "published": "2025-10-03T13:34:55.000Z"
+    },
+    {
+      "id": "2510.08008",
+      "title": "Recycling Pretrained Checkpoints: Orthogonal Growth of Mixture-of-Experts for Efficient Large Language Model Pre-Training",
+      "authors": [
+        "Ruizhe Wang",
+        "Yucheng Ding",
+        "Xiao Liu",
+        "Yaoxiang Wang",
+        "Peng Cheng",
+        "Baining Guo",
+        "Zhengjun Zha",
+        "Yeyun Gong"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2025-10-09T09:45:45.000Z"
+    },
+    {
+      "id": "2510.07958",
+      "title": "A^2Search: Ambiguity-Aware Question Answering with Reinforcement Learning",
+      "authors": [
+        "Fengji Zhang",
+        "Xinyao Niu",
+        "Chengyang Ying",
+        "Guancheng Lin",
+        "Zhongkai Hao",
+        "Zhou Fan",
+        "Chengen Huang",
+        "Jacky Keung",
+        "Bei Chen",
+        "Junyang Lin"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/zfj1998/A2Search",
+      "published": "2025-10-09T08:53:31.000Z"
+    },
+    {
+      "id": "2510.08547",
+      "title": "R2RGEN: Real-to-Real 3D Data Generation for Spatially Generalized Manipulation",
+      "authors": [
+        "Xiuwei Xu",
+        "Angyuan Ma",
+        "Hankun Li",
+        "Bingyao Yu",
+        "Zheng Zhu",
+        "Jie Zhou",
+        "Jiwen Lu"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-10-09T17:55:44.000Z"
+    },
+    {
+      "id": "2510.07429",
+      "title": "Learning to Route LLMs from Bandit Feedback: One Policy, Many Trade-offs",
+      "authors": [
+        "Wang Wei",
+        "Tiankai Yang",
+        "Hongjie Chen",
+        "Yue Zhao",
+        "Franck Dernoncourt",
+        "Ryan A. Rossi",
+        "Hoda Eldardiry"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-10-08T18:24:59.000Z"
+    },
+    {
+      "id": "2510.06209",
+      "title": "Drive&Gen: Co-Evaluating End-to-End Driving and Video Generation Models",
+      "authors": [
+        "Jiahao Wang",
+        "Zhenpei Yang",
+        "Yijing Bai",
+        "Yingwei Li",
+        "Yuliang Zou",
+        "Bo Sun",
+        "Abhijit Kundu",
+        "Jose Lezama",
+        "Luna Yue Huang",
+        "Zehao Zhu",
+        "Jyh-Jing Hwang",
+        "Dragomir Anguelov",
+        "Mingxing Tan",
+        "Chiyu Max Jiang"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2025-10-07T17:58:32.000Z"
+    },
+    {
+      "id": "2510.07314",
+      "title": "GyroSwin: 5D Surrogates for Gyrokinetic Plasma Turbulence Simulations",
+      "authors": [
+        "Fabian Paischer",
+        "Gianluca Galletti",
+        "William Hornsby",
+        "Paul Setinek",
+        "Lorenzo Zanisi",
+        "Naomi Carey",
+        "Stanislas Pamela",
+        "Johannes Brandstetter"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/ml-jku/neural-gyrokinetics",
+      "published": "2025-10-08T17:59:10.000Z"
+    },
+    {
+      "id": "2509.23500",
+      "title": "Beyond Outliers: A Study of Optimizers Under Quantization",
+      "authors": [
+        "Georgios Vlassis",
+        "Saleh Ashkboos",
+        "Alexandra Volkova",
+        "Torsten Hoefler",
+        "Dan Alistarh"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2025-09-27T21:15:22.000Z"
+    },
+    {
+      "id": "2510.02590",
+      "title": "Use the Online Network If You Can: Towards Fast and Stable Reinforcement Learning",
+      "authors": [
+        "Ahmed Hendawy",
+        "Henrik Metternich",
+        "Théo Vincent",
+        "Mahdi Kallel",
+        "Jan Peters",
+        "Carlo D'Eramo"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2025-10-02T21:48:01.000Z"
+    },
+    {
+      "id": "2509.24797",
+      "title": "Fidelity-Aware Data Composition for Robust Robot Generalization",
+      "authors": [
+        "Zizhao Tong",
+        "Di Chen",
+        "Sicheng Hu",
+        "Hongwei Fan",
+        "Liliang Chen",
+        "Guanghui Ren",
+        "Hao Tang",
+        "Hao Dong",
+        "Ling Shao"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2025-09-29T13:48:36.000Z"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "2512.16776",
+  "html": "https://arxiv.org/html/2512.16776",
+  "limitations": null,
+  "conclusion": "In this report, we present Kling-Omni, a generalist generative model that bridges the traditional boundaries between video generation, editing, and multimodal reasoning. By leveraging a diffusion transformer aligned with a vision-language model, Kling-Omni establishes a shared embedding space that enables deep cross-modal interaction. Kling-Omni effectively replaces fragmented expert models with a single, holistic system capable of processing Multi-modal Visual Language (MVL) inputs to produce high-fidelity, physically plausible video content. Our contributions extend beyond model architecture to encompass a robust training and data infrastructure. We constructed a comprehensive data engineering pipeline ensuring temporal stability and semantic alignment, and implemented a highly optimized infrastructure to ensure scalability and efficiency. Extensive evaluations demonstrate that Kling-O",
+  "figure": null
+}

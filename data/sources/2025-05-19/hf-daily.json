@@ -1,0 +1,355 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-05-19",
+  "fetched_at": "2026-10-29T15:31:33.669Z",
+  "candidates": [
+    {
+      "id": "2505.09388",
+      "title": "Qwen3 Technical Report",
+      "authors": [
+        "An Yang",
+        "Anfeng Li",
+        "Baosong Yang",
+        "Beichen Zhang",
+        "Binyuan Hui",
+        "Bo Zheng",
+        "Bowen Yu",
+        "Chang Gao",
+        "Chengen Huang",
+        "Chenxu Lv",
+        "Chujie Zheng",
+        "Dayiheng Liu",
+        "Fan Zhou",
+        "Fei Huang",
+        "Feng Hu",
+        "Hao Ge",
+        "Haoran Wei",
+        "Huan Lin",
+        "Jialong Tang",
+        "Jian Yang",
+        "Jianhong Tu",
+        "Jianwei Zhang",
+        "Jianxin Yang",
+        "Jiaxi Yang",
+        "Jing Zhou",
+        "Jingren Zhou",
+        "Junyang Lin",
+        "Kai Dang",
+        "Keqin Bao",
+        "Kexin Yang",
+        "Le Yu",
+        "Lianghao Deng",
+        "Mei Li",
+        "Mingfeng Xue",
+        "Mingze Li",
+        "Pei Zhang",
+        "Peng Wang",
+        "Qin Zhu",
+        "Rui Men",
+        "Ruize Gao",
+        "Shixuan Liu",
+        "Shuang Luo",
+        "Tianhao Li",
+        "Tianyi Tang",
+        "Wenbiao Yin",
+        "Xingzhang Ren",
+        "Xinyu Wang",
+        "Xinyu Zhang",
+        "Xuancheng Ren",
+        "Yang Fan",
+        "Yang Su",
+        "Yichang Zhang",
+        "Yinger Zhang",
+        "Yu Wan",
+        "Yuqiong Liu",
+        "Zekun Wang",
+        "Zeyu Cui",
+        "Zhenru Zhang",
+        "Zhipeng Zhou",
+        "Zihan Qiu"
+      ],
+      "upvotes": 345,
+      "github": "https://github.com/QwenLM/Qwen3",
+      "published": "2025-05-14T13:41:34.000Z"
+    },
+    {
+      "id": "2505.11049",
+      "title": "GuardReasoner-VL: Safeguarding VLMs via Reinforced Reasoning",
+      "authors": [
+        "Yue Liu",
+        "Shengfang Zhai",
+        "Mingzhe Du",
+        "Yulin Chen",
+        "Tri Cao",
+        "Hongcheng Gao",
+        "Cheng Wang",
+        "Xinfeng Li",
+        "Kun Wang",
+        "Junfeng Fang",
+        "Jiaheng Zhang",
+        "Bryan Hooi"
+      ],
+      "upvotes": 62,
+      "github": "https://github.com/yueliu1999/guardreasoner-vl",
+      "published": "2025-05-16T09:46:10.000Z"
+    },
+    {
+      "id": "2505.11409",
+      "title": "Visual Planning: Let's Think Only with Images",
+      "authors": [
+        "Yi Xu",
+        "Chengzu Li",
+        "Han Zhou",
+        "Xingchen Wan",
+        "Caiqi Zhang",
+        "Anna Korhonen",
+        "Ivan Vulić"
+      ],
+      "upvotes": 58,
+      "github": "https://github.com/yix8/VisualPlanning",
+      "published": "2025-05-16T16:17:22.000Z"
+    },
+    {
+      "id": "2505.10610",
+      "title": "MMLongBench: Benchmarking Long-Context Vision-Language Models Effectively and Thoroughly",
+      "authors": [
+        "Zhaowei Wang",
+        "Wenhao Yu",
+        "Xiyu Ren",
+        "Jipeng Zhang",
+        "Yu Zhao",
+        "Rohit Saxena",
+        "Liang Cheng",
+        "Ginny Wong",
+        "Simon See",
+        "Pasquale Minervini",
+        "Yangqiu Song",
+        "Mark Steedman"
+      ],
+      "upvotes": 42,
+      "github": "https://github.com/EdinburghNLP/MMLongBench",
+      "published": "2025-05-15T17:52:54.000Z"
+    },
+    {
+      "id": "2505.11107",
+      "title": "Group Think: Multiple Concurrent Reasoning Agents Collaborating at Token Level Granularity",
+      "authors": [
+        "Chan-Jan Hsu",
+        "Davide Buffelli",
+        "Jamie McGowan",
+        "Feng-Ting Liao",
+        "Yi-Chang Chen",
+        "Sattar Vakili",
+        "Da-shan Shiu"
+      ],
+      "upvotes": 29,
+      "github": null,
+      "published": "2025-05-16T10:40:35.000Z"
+    },
+    {
+      "id": "2505.07675",
+      "title": "Simple Semi-supervised Knowledge Distillation from Vision-Language Models via texttt{D}ual-texttt{H}ead texttt{O}ptimization",
+      "authors": [
+        "Seongjae Kang",
+        "Dong Bok Lee",
+        "Hyungjoon Jang",
+        "Sung Ju Hwang"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/erjui/DHO",
+      "published": "2025-05-12T15:39:51.000Z"
+    },
+    {
+      "id": "2505.11427",
+      "title": "Mergenetic: a Simple Evolutionary Model Merging Library",
+      "authors": [
+        "Adrian Robert Minut",
+        "Tommaso Mencattini",
+        "Andrea Santilli",
+        "Donato Crisostomi",
+        "Emanuele Rodolà"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/tommasomncttn/mergenetic",
+      "published": "2025-05-16T16:43:23.000Z"
+    },
+    {
+      "id": "2505.10518",
+      "title": "Multi-Token Prediction Needs Registers",
+      "authors": [
+        "Anastasios Gerontopoulos",
+        "Spyros Gidaris",
+        "Nikos Komodakis"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/nasosger/MuToR",
+      "published": "2025-05-15T17:25:03.000Z"
+    },
+    {
+      "id": "2505.11480",
+      "title": "Improving Assembly Code Performance with Large Language Models via Reinforcement Learning",
+      "authors": [
+        "Anjiang Wei",
+        "Tarun Suresh",
+        "Huanmi Tan",
+        "Yinglun Xu",
+        "Gagandeep Singh",
+        "Ke Wang",
+        "Alex Aiken"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2025-05-16T17:40:45.000Z"
+    },
+    {
+      "id": "2505.10962",
+      "title": "MPS-Prover: Advancing Stepwise Theorem Proving by Multi-Perspective Search and Data Curation",
+      "authors": [
+        "Zhenwen Liang",
+        "Linfeng Song",
+        "Yang Li",
+        "Tao Yang",
+        "Feng Zhang",
+        "Haitao Mi",
+        "Dong Yu"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2025-05-16T07:56:03.000Z"
+    },
+    {
+      "id": "2505.05678",
+      "title": "InstanceGen: Image Generation with Instance-level Instructions",
+      "authors": [
+        "Etai Sella",
+        "Yanir Kleiman",
+        "Hadar Averbuch-Elor"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/tsunghan-wu/SLD",
+      "published": "2025-05-08T22:31:23.000Z"
+    },
+    {
+      "id": "2505.10852",
+      "title": "MatTools: Benchmarking Large Language Models for Materials Science Tools",
+      "authors": [
+        "Siyu Liu",
+        "Jiamin Xu",
+        "Beilin Ye",
+        "Bo Hu",
+        "David J. Srolovitz",
+        "Tongqi Wen"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/Grenzlinie/MatTools",
+      "published": "2025-05-16T04:43:05.000Z"
+    },
+    {
+      "id": "2505.11140",
+      "title": "Scaling Reasoning can Improve Factuality in Large Language Models",
+      "authors": [
+        "Mike Zhang",
+        "Johannes Bjerva",
+        "Russa Biswas"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/jjzha/fs1",
+      "published": "2025-05-16T11:39:33.000Z"
+    },
+    {
+      "id": "2505.11011",
+      "title": "Humans expect rationality and cooperation from LLM opponents in strategic games",
+      "authors": [
+        "Darija Barak",
+        "Miguel Costa-Gomes"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-05-16T09:01:09.000Z"
+    },
+    {
+      "id": "2505.11493",
+      "title": "GIE-Bench: Towards Grounded Evaluation for Text-Guided Image Editing",
+      "authors": [
+        "Yusu Qian",
+        "Jiasen Lu",
+        "Tsu-Jui Fu",
+        "Xinze Wang",
+        "Chen Chen",
+        "Yinfei Yang",
+        "Wenze Hu",
+        "Zhe Gan"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/apple/ml-gie-bench",
+      "published": "2025-05-16T17:55:54.000Z"
+    },
+    {
+      "id": "2505.11152",
+      "title": "Learning Dense Hand Contact Estimation from Imbalanced Data",
+      "authors": [
+        "Daniel Sungho Jung",
+        "Kyoung Mu Lee"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/dqj5182/HACO_RELEASE",
+      "published": "2025-05-16T11:54:25.000Z"
+    },
+    {
+      "id": "2505.09924",
+      "title": "From Trade-off to Synergy: A Versatile Symbiotic Watermarking Framework for Large Language Models",
+      "authors": [
+        "Yidan Wang",
+        "Yubing Ren",
+        "Yanan Cao",
+        "Binxing Fang"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/redwyd/symmark",
+      "published": "2025-05-15T03:12:36.000Z"
+    },
+    {
+      "id": "2505.10769",
+      "title": "Unifying Segment Anything in Microscopy with Multimodal Large Language Model",
+      "authors": [
+        "Manyu Li",
+        "Ruian He",
+        "Zixian Zhang",
+        "Weimin Tan",
+        "Bo Yan"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/ieellee/ullsam",
+      "published": "2025-05-16T00:55:56.000Z"
+    },
+    {
+      "id": "2505.10496",
+      "title": "CheXGenBench: A Unified Benchmark For Fidelity, Privacy and Utility of Synthetic Chest Radiographs",
+      "authors": [
+        "Raman Dutt",
+        "Pedro Sanchez",
+        "Yongchen Yao",
+        "Steven McDonagh",
+        "Sotirios A. Tsaftaris",
+        "Timothy Hospedales"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/Raman1121/CheXGenBench",
+      "published": "2025-05-15T16:59:17.000Z"
+    },
+    {
+      "id": "2505.11315",
+      "title": "Improving Inference-Time Optimisation for Vocal Effects Style Transfer with a Gaussian Prior",
+      "authors": [
+        "Chin-Yun Yu",
+        "Marco A. Martínez-Ramírez",
+        "Junghyun Koo",
+        "Wei-Hsiang Liao",
+        "Yuki Mitsufuji",
+        "György Fazekas"
+      ],
+      "upvotes": 0,
+      "github": null,
+      "published": "2025-05-16T14:40:31.000Z"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "2503.20215",
+  "html": "https://arxiv.org/html/2503.20215",
+  "limitations": null,
+  "conclusion": "Qwen2.5-Omni is a unified model designed to understand and generate multiple modalities, including text and real-time speech. To enhance video integration, we’ve introduced a new positional embedding method called TMRoPE, which aligns audio and video timing. Our Thinker-Talker framework supports real-time speech generation while minimizing interference across different modalities. Additionally, we employ techniques such as block-wise audio/vision encoding and a sliding window mechanism for code-to-wav generation. This innovative model excels in complex audio-visual interactions and emotional context in speech dialogues. Comprehensive evaluations show that Qwen2.5-Omni outperforms similarly sized single-modality models, particularly in following voice commands, and achieves state-of-the-art performance in multi-modal tasks. In the development of the model, we have identified several criti",
+  "figure": {
+    "path": "images/2025/paper-2503.20215.webp",
+    "src": "https://arxiv.org/html/2503.20215v1/figures/qwen_omni.png",
+    "caption": "Figure 1: Qwen2.5-Omni is a unified end-to-end model capable of processing multiple modalities, such as text, audio, image and video, and generating real-time text or speech response. Based on these features, Qwen2.5-Omni supports a wide range of tasks, including but not limited to voice dialogue, video dialogue, and video reasoning."
+  }
+}

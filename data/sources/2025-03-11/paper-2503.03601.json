@@ -1,0 +1,11 @@
+{
+  "id": "2503.03601",
+  "html": "https://arxiv.org/html/2503.03601",
+  "limitations": "Artificial text detection (ATD) is a highly complex and evolving task. With new LLMs emerging almost every month, it is difficult to predict how our method will perform on future artificial text generators. Additionally, novel attack strategies continue to appear, and our approach covers only a subset of them. Besides, some of SAE features we studied remain challenging to interpret, as not all exhibit clear semantic meaning. Finally, in this short paper, we used a single Sparse Autoencoder (SAE) on the residual stream of Gemma 2-2B. Exploring different SAEs on other LLMs could reveal new features and offer additional insights into artificial text detection. We leave this for future work.",
+  "conclusion": "Our analysis shows that modern LLMs often generate easily detectable text due to specific writing styles, such as long-winded introductions, excessive synonym substitution, and repetition. However, adversaries can bypass these features by using less formal, more personalized prompts, like student essays, leading to more human-like outputs. Unlike previous approaches, we perform a multi-faceted analysis of features for Artificial Text Detection (ATD). We select key features, examine their behavior across domains and generators, and interpret them both through extreme values (manual) and medium shifts (steering + LLM interpretation). This approach provides deeper insights into feature meanings. For example, our interpretation of feature 3608 contrasts with Neuropedia’s narrow view, which links it to \"tokens associated with mathematical expressions.\" Similarly, feature 4645, described by Ne",
+  "figure": {
+    "path": "images/2025/paper-2503.03601.webp",
+    "src": "https://arxiv.org/html/2503.03601v1/images/SAE_features_3608.png",
+    "caption": "Figure 1: Interpretations of one of the most “universal” SAE features that are useful for ATD task."
+  }
+}

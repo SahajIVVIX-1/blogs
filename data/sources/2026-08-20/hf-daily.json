@@ -1,0 +1,364 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-08-20",
+  "fetched_at": "2026-10-29T15:36:36.379Z",
+  "candidates": [
+    {
+      "id": "2608.16590",
+      "title": "Zetta ζ: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
+      "authors": [
+        "Xin Ding",
+        "Liang Mi",
+        "Mingzhe Huang",
+        "Zixuan Wang",
+        "Chao Zhang",
+        "Zixu Hao",
+        "Fu Chen",
+        "Xiangyu Li",
+        "Yikai Zheng",
+        "Yaoyu Guo",
+        "Weijun Wang",
+        "Kun Li",
+        "Hao Wu",
+        "Yunxin Liu",
+        "Ting Cao"
+      ],
+      "upvotes": 150,
+      "github": "https://github.com/air-embodied-brain/Zetta-Embodiment",
+      "published": "2026-08-17T00:00:00.000Z"
+    },
+    {
+      "id": "2608.17426",
+      "title": "SemComp-Bench: Benchmarking Semantic Task Completion in Video Generation",
+      "authors": [
+        "Keyu Tu",
+        "Zhuowei Chen",
+        "Mengqi Huang",
+        "Yuxin Wang",
+        "Jiahao Zhu",
+        "Zhendong Mao",
+        "Yongdong Zhang"
+      ],
+      "upvotes": 128,
+      "github": "https://github.com/Kelly372/SemComp-Bench",
+      "published": "2026-08-18T00:00:00.000Z"
+    },
+    {
+      "id": "2608.17253",
+      "title": "Co-RL: Unsupervised Reasoning Emerges from Diverse Cohort in Multi-agent RL",
+      "authors": [
+        "Yunhao Yang",
+        "Yuexin Bian",
+        "Yunjie Tian",
+        "Di Fu",
+        "Tianjin Huang",
+        "Yuanyuan Shi",
+        "Ziang Xiao",
+        "Nuno Vasconcelos",
+        "Yijiang Li"
+      ],
+      "upvotes": 94,
+      "github": "https://github.com/DrStranded/Co-RL",
+      "published": "2026-08-19T00:00:00.000Z"
+    },
+    {
+      "id": "2608.13558",
+      "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
+      "authors": [
+        "Bobo Li",
+        "Hao Fei",
+        "Tianjie Ju",
+        "Mong-Li Lee",
+        "Wynne Hsu"
+      ],
+      "upvotes": 61,
+      "github": "https://github.com/Omni-Scientist/OmniScientist",
+      "published": "2026-08-13T00:00:00.000Z"
+    },
+    {
+      "id": "2608.19197",
+      "title": "SPADE: Self-Play in Adaptive Synthetic Executable Environments",
+      "authors": [
+        "Bo Liu",
+        "Simon Yu",
+        "Yiding Jiang",
+        "Ao Qu",
+        "Andrew Zhao",
+        "Zichen Liu",
+        "Junsu Kim",
+        "Zijian Zhou",
+        "Seungone Kim",
+        "Tongzheng Ren",
+        "Mickel Liu",
+        "Hanfei Yu",
+        "Zhaorun Chen",
+        "Weiyan Shi",
+        "Paul Pu Liang",
+        "Luke Zettlemoyer",
+        "Yejin Choi",
+        "Natasha Jaques"
+      ],
+      "upvotes": 58,
+      "github": "https://github.com/spade-rl/spade",
+      "published": "2026-08-19T00:00:00.000Z"
+    },
+    {
+      "id": "2608.18565",
+      "title": "SemaPLC: A Project-Grounded, Verification-Gated Agent Harness for PLC Code Generation",
+      "authors": [
+        "Yanlun Tu",
+        "Huacan Wang",
+        "Ziyue Zhou",
+        "Jie Zhou",
+        "Ningyan Zhu",
+        "Ge Chen",
+        "Wangyi Chen",
+        "Tengfei Zhou",
+        "Yifan Zhou",
+        "Dasheng Yang",
+        "Xiaofeng Mou",
+        "Hui Zhang",
+        "Yi Xu"
+      ],
+      "upvotes": 44,
+      "github": "https://github.com/midea-ai/SemaPLC",
+      "published": "2026-08-19T00:00:00.000Z"
+    },
+    {
+      "id": "2608.18940",
+      "title": "Training Chemical Plausibility-Aware Large Language Models for Single-Step Retrosynthesis",
+      "authors": [
+        "Bogdan Zagribelnyy",
+        "Ivan Ilin",
+        "Nikita Bondarev",
+        "Maksim Kuznetsov",
+        "Mathieu Reymond",
+        "Vladimir Aladinskiy",
+        "Alex Aliper",
+        "Alex Zhavoronkov"
+      ],
+      "upvotes": 31,
+      "github": null,
+      "published": "2026-08-19T00:00:00.000Z"
+    },
+    {
+      "id": "2608.18171",
+      "title": "Looped Language Models Improve Compositional Tool Calling",
+      "authors": [
+        "Andrei Cristian Popescu",
+        "Haitz Sáez de Ocáriz Borde",
+        "Pietro Liò"
+      ],
+      "upvotes": 21,
+      "github": null,
+      "published": "2026-08-17T00:00:00.000Z"
+    },
+    {
+      "id": "2608.14229",
+      "title": "The More Popular, The Harder to Forget: Adaptive Popularity for LLM Unlearning",
+      "authors": [
+        "Anna Borisiuk",
+        "Andrey Savchenko",
+        "Alexander Panchenko",
+        "Elena Tutubalina"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2026-08-14T00:00:00.000Z"
+    },
+    {
+      "id": "2608.14929",
+      "title": "Training Leaves Traces: Centered Residual Signatures for Language Model Lineage Verification",
+      "authors": [
+        "Aman Singh Thakur",
+        "Rayan Khoury"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2026-08-14T00:00:00.000Z"
+    },
+    {
+      "id": "2608.18423",
+      "title": "FM-Bench: A Benchmark for Long-Horizon Management with Competing Agents",
+      "authors": [
+        "Tianyou Wang",
+        "Chongyang Gao",
+        "Kezhen Chen",
+        "Chen Dong",
+        "Yinghao He",
+        "Donghan Li",
+        "Wangcheng Xu",
+        "Hongjiu Zhang",
+        "Chi Li"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/Analogy-AI/fm-bench",
+      "published": "2026-08-19T00:00:00.000Z"
+    },
+    {
+      "id": "2608.18607",
+      "title": "VA-Judger: Reward Modeling from Human Preference Feedback for Joint Video-Audio Generation",
+      "authors": [
+        "Yinming Huang",
+        "Shuyuan Tu",
+        "Xi Yan",
+        "Zihan Yang",
+        "Jianhua Han",
+        "Xu Hang",
+        "Yu-Gang Jiang",
+        "Zuxuan Wu"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/ShareLab-SII/VA-Judger",
+      "published": "2026-08-19T00:00:00.000Z"
+    },
+    {
+      "id": "2608.18746",
+      "title": "Decision-Metric Alignment in Latent World Models: Diagnostics and Action-Conditioned Objectives for MPC Planning",
+      "authors": [
+        "Jiawei Wang",
+        "Ke Rui",
+        "Yushen Zuo",
+        "Yichun Feng",
+        "Minglei Li"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2026-08-19T00:00:00.000Z"
+    },
+    {
+      "id": "2608.18701",
+      "title": "SoftVTBench: A Deformation-Aware Visuo-Tactile Dataset and Benchmark for Deformable-Object Manipulation",
+      "authors": [
+        "Bowen Jing",
+        "Mingxin Wang",
+        "Ruiyang Hao",
+        "Chenchen Ge",
+        "Hanwen Shen",
+        "Junjie He",
+        "Yang Cui",
+        "Yiming Hou",
+        "Weitao Zhou",
+        "Jiawei Wang",
+        "Minglei Li",
+        "Dandan Zhang",
+        "Ding Zhao",
+        "Houde Liu",
+        "Xiaofan Li",
+        "Si Liu",
+        "Ping Luo",
+        "Haibao Yu"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2026-08-19T00:00:00.000Z"
+    },
+    {
+      "id": "2608.13947",
+      "title": "Scaling Creative Writing Beyond Story-Centric Data with Attribute-Guided Genre Expansion",
+      "authors": [
+        "Hwan Chang",
+        "Yongil Kim",
+        "Heuiyeen Yeen",
+        "Yireun Kim",
+        "Jinsik Lee",
+        "Hwanhee Lee"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2026-08-14T00:00:00.000Z"
+    },
+    {
+      "id": "2608.18852",
+      "title": "SkillGate: Training In-Policy Skill Selection in Long-Horizon Agents",
+      "authors": [
+        "Qingyao Li",
+        "Wenxiang Jiao",
+        "Shuai Shao",
+        "Kangning Zhang",
+        "Yuan Lu",
+        "Yi Guo",
+        "Weiwen Liu",
+        "Weinan Zhang",
+        "Yong Yu"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/DeepExperience/SkillGate",
+      "published": "2026-08-19T00:00:00.000Z"
+    },
+    {
+      "id": "2608.15964",
+      "title": "LLMs Get Smarter from Targeted Synthetic Multilingual Data",
+      "authors": [
+        "Ishika Agarwal",
+        "Arkajyoti Charaborty",
+        "Tanner Sorensen",
+        "Neha Gupta",
+        "Andreas Stolcke"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2026-08-16T00:00:00.000Z"
+    },
+    {
+      "id": "2608.15888",
+      "title": "Bounded Agents: Delegation Security for Multi-Agent AI Systems",
+      "authors": [
+        "Xabier Muruaga"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/xmuruaga/bounded-agents",
+      "published": "2026-08-16T00:00:00.000Z"
+    },
+    {
+      "id": "2608.18115",
+      "title": "Temporal Multi-Signal Fusion for Token-Level Hallucination Detection",
+      "authors": [
+        "Igor Itkin"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/YehudaItkin/temporal-hallucination-detection",
+      "published": "2026-06-30T00:00:00.000Z"
+    },
+    {
+      "id": "2512.14629",
+      "title": "Evaluating Music Context Preservation: A Multi-facet Framework for Music Editing Systems",
+      "authors": [
+        "Yash Vishe",
+        "Eric Xue",
+        "Xunyi Jiang",
+        "Zachary Novack",
+        "Junda Wu",
+        "Julian McAuley",
+        "Xin Xu"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/Yashvishe13/MuseCPEval",
+      "published": "2026-08-18T00:00:00.000Z"
+    },
+    {
+      "id": "2608.16490",
+      "title": "Towards Real-Time and Adaptable LiDAR Scene Completion",
+      "authors": [
+        "Azhar Hussian",
+        "Martin Vossiek",
+        "Vasileios Belagiannis"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/AzharSindhi/RapidLiDAR",
+      "published": "2026-08-17T00:00:00.000Z"
+    },
+    {
+      "id": "2608.19080",
+      "title": "SPK: Eliciting Structured Prior Knowledge for Interpretable Out-of-Distribution Detection in Real-Time Object Detection",
+      "authors": [
+        "Changshun Wu",
+        "Weicheng He",
+        "Xiaowei Huang",
+        "Saddek Bensalem"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2026-08-19T00:00:00.000Z"
+    }
+  ]
+}

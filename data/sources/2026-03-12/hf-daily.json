@@ -1,0 +1,476 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-03-12",
+  "fetched_at": "2026-10-29T15:34:58.761Z",
+  "candidates": [
+    {
+      "id": "2603.10165",
+      "title": "OpenClaw-RL: Train Any Agent Simply by Talking",
+      "authors": [
+        "Yinjie Wang",
+        "Xuyang Chen",
+        "Xiaolong Jin",
+        "Mengdi Wang",
+        "Ling Yang"
+      ],
+      "upvotes": 160,
+      "github": "https://github.com/Gen-Verse/OpenClaw-RL",
+      "published": "2026-03-10T18:59:01.000Z"
+    },
+    {
+      "id": "2603.09229",
+      "title": "Flash-KMeans: Fast and Memory-Efficient Exact K-Means",
+      "authors": [
+        "Shuo Yang",
+        "Haocheng Xi",
+        "Yilong Zhao",
+        "Muyang Li",
+        "Xiaoze Fan",
+        "Jintao Zhang",
+        "Han Cai",
+        "Yujun Lin",
+        "Xiuyu Li",
+        "Kurt Keutzer",
+        "Song Han",
+        "Chenfeng Xu",
+        "Ion Stoica"
+      ],
+      "upvotes": 64,
+      "github": "https://github.com/svg-project/flash-kmeans",
+      "published": "2026-03-10T05:54:52.000Z"
+    },
+    {
+      "id": "2603.08068",
+      "title": "In-Context Reinforcement Learning for Tool Use in Large Language Models",
+      "authors": [
+        "Yaoqi Ye",
+        "Yiran Zhao",
+        "Keyu Duan",
+        "Zeyu Zheng",
+        "Kenji Kawaguchi",
+        "Cihang Xie",
+        "Michael Qizhe Shieh"
+      ],
+      "upvotes": 44,
+      "github": "https://github.com/applese233/ICRL",
+      "published": "2026-03-09T08:06:18.000Z"
+    },
+    {
+      "id": "2603.10913",
+      "title": "LLM2Vec-Gen: Generative Embeddings from Large Language Models",
+      "authors": [
+        "Parishad BehnamGhader",
+        "Vaibhav Adlakha",
+        "Fabian David Schmidt",
+        "Nicolas Chapados",
+        "Marius Mosbach",
+        "Siva Reddy"
+      ],
+      "upvotes": 44,
+      "github": "https://github.com/McGill-NLP/llm2vec-gen",
+      "published": "2026-03-11T15:58:47.000Z"
+    },
+    {
+      "id": "2603.04597",
+      "title": "Bootstrapping Exploration with Group-Level Natural Language Feedback in Reinforcement Learning",
+      "authors": [
+        "Lei Huang",
+        "Xiang Cheng",
+        "Chenxiao Zhao",
+        "Guobin Shen",
+        "Junjie Yang",
+        "Xiaocheng Feng",
+        "Yuxuan Gu",
+        "Xing Yu",
+        "Bing Qin"
+      ],
+      "upvotes": 36,
+      "github": "https://github.com/LuckyyySTA/GOLF",
+      "published": "2026-03-04T20:53:17.000Z"
+    },
+    {
+      "id": "2603.09827",
+      "title": "MA-EgoQA: Question Answering over Egocentric Videos from Multiple Embodied Agents",
+      "authors": [
+        "Kangsan Kim",
+        "Yanlai Yang",
+        "Suji Kim",
+        "Woongyeong Yeo",
+        "Youngwan Lee",
+        "Mengye Ren",
+        "Sung Ju Hwang"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/KangsanKim07/MA-EgoQA",
+      "published": "2026-03-10T15:48:35.000Z"
+    },
+    {
+      "id": "2603.10160",
+      "title": "ReMix: Reinforcement routing for mixtures of LoRAs in LLM finetuning",
+      "authors": [
+        "Ruizhong Qiu",
+        "Hanqing Zeng",
+        "Yinglong Xia",
+        "Yiwen Meng",
+        "Ren Chen",
+        "Jiarui Feng",
+        "Dongqi Fu",
+        "Qifan Wang",
+        "Jiayi Liu",
+        "Jun Xiao",
+        "Xiangjun Fan",
+        "Benyu Zhang",
+        "Hong Li",
+        "Zhining Liu",
+        "Hyunsik Yoo",
+        "Zhichen Zeng",
+        "Tianxin Wei",
+        "Hanghang Tong"
+      ],
+      "upvotes": 26,
+      "github": null,
+      "published": "2026-03-10T18:51:27.000Z"
+    },
+    {
+      "id": "2603.10256",
+      "title": "ID-LoRA: Identity-Driven Audio-Video Personalization with In-Context LoRA",
+      "authors": [
+        "Aviad Dahan",
+        "Moran Yanuka",
+        "Noa Kraicer",
+        "Lior Wolf",
+        "Raja Giryes"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/ID-LoRA/ID-LoRA",
+      "published": "2026-03-10T22:23:36.000Z"
+    },
+    {
+      "id": "2603.10848",
+      "title": "V_{0.5}: Generalist Value Model as a Prior for Sparse RL Rollouts",
+      "authors": [
+        "Yi-Kai Zhang",
+        "Yueqing Sun",
+        "Hongyan Hao",
+        "Qi Gu",
+        "Xunliang Cai",
+        "De-Chuan Zhan",
+        "Han-Jia Ye"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/Now-Join-Us/V0_5",
+      "published": "2026-03-11T14:57:41.000Z"
+    },
+    {
+      "id": "2603.10757",
+      "title": "CodePercept: Code-Grounded Visual STEM Perception for MLLMs",
+      "authors": [
+        "Tongkun Guan",
+        "Zhibo Yang",
+        "Jianqiang Wan",
+        "Mingkun Yang",
+        "Zhengtao Guo",
+        "Zijian Hu",
+        "Ruilin Luo",
+        "Ruize Chen",
+        "Songtao Jiang",
+        "Peng Wang",
+        "Wei Shen",
+        "Junyang Lin",
+        "Xiaokang Yang"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/TongkunGuan/Qwen-CodePercept",
+      "published": "2026-03-11T13:32:58.000Z"
+    },
+    {
+      "id": "2603.10145",
+      "title": "Lost in Backpropagation: The LM Head is a Gradient Bottleneck",
+      "authors": [
+        "Nathan Godey",
+        "Yoav Artzi"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2026-03-10T18:27:01.000Z"
+    },
+    {
+      "id": "2603.10705",
+      "title": "PRISM-Δ: Differential Subspace Steering for Prompt Highlighting in Large Language Models",
+      "authors": [
+        "Yuyao Ge",
+        "Shenghua Liu",
+        "Yiwei Wang",
+        "Baolong Bi",
+        "Lingrui Mei",
+        "Jiayu Yao",
+        "Jiafeng Guo",
+        "Xueqi Cheng"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/YuyaoGe/PRISM-DELTA",
+      "published": "2026-08-07T00:00:00.000Z"
+    },
+    {
+      "id": "2603.07392",
+      "title": "Can Large Language Models Keep Up? Benchmarking Online Adaptation to Continual Knowledge Streams",
+      "authors": [
+        "Jiyeon Kim",
+        "Hyunji Lee",
+        "Dylan Zhou",
+        "Sue Hyun Park",
+        "Seunghyun Yoon",
+        "Trung Bui",
+        "Franck Dernoncourt",
+        "Sungmin Cha",
+        "Minjoon Seo"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/kaistAI/OAKS",
+      "published": "2026-03-08T00:38:39.000Z"
+    },
+    {
+      "id": "2603.09723",
+      "title": "RbtAct: Rebuttal as Supervision for Actionable Review Feedback Generation",
+      "authors": [
+        "Sihong Wu",
+        "Yiling Ma",
+        "Yilun Zhao",
+        "Tiansheng Hu",
+        "Owen Jiang",
+        "Manasi Patwardhan",
+        "Arman Cohan"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/formula12/RbtAct",
+      "published": "2026-03-10T14:30:55.000Z"
+    },
+    {
+      "id": "2603.10744",
+      "title": "Just-in-Time: Training-Free Spatial Acceleration for Diffusion Transformers",
+      "authors": [
+        "Wenhao Sun",
+        "Ji Li",
+        "Zhaoqiang Liu"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/Anonym0u3/Just-in-Time",
+      "published": "2026-03-11T13:16:41.000Z"
+    },
+    {
+      "id": "2603.08754",
+      "title": "Hindsight Credit Assignment for Long-Horizon LLM Agents",
+      "authors": [
+        "Hui-Ze Tan",
+        "Xiao-Wen Yang",
+        "Hao Chen",
+        "Jie-Jing Shao",
+        "Yi Wen",
+        "Yuteng Shen",
+        "Weihong Luo",
+        "Xiku Du",
+        "Lan-Zhe Guo",
+        "Yu-Feng Li"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2026-03-07T06:05:20.000Z"
+    },
+    {
+      "id": "2603.08561",
+      "title": "RetroAgent: From Solving to Evolving via Retrospective Dual Intrinsic Feedback",
+      "authors": [
+        "Xiaoying Zhang",
+        "Zichen Liu",
+        "Yipeng Zhang",
+        "Xia Hu",
+        "Wenqi Shao"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/zhangxy-2019/RetroAgent",
+      "published": "2026-03-09T16:23:33.000Z"
+    },
+    {
+      "id": "2603.10101",
+      "title": "CLIPO: Contrastive Learning in Policy Optimization Generalizes RLVR",
+      "authors": [
+        "Sijia Cui",
+        "Pengyu Cheng",
+        "Jiajun Song",
+        "Yongbo Gai",
+        "Guojun Zhang",
+        "Zhechao Yu",
+        "Jianhe Lin",
+        "Xiaoxi Jiang",
+        "Guanjun Jiang"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/Qwen-Applications/CLIPO",
+      "published": "2026-03-10T17:59:54.000Z"
+    },
+    {
+      "id": "2603.09018",
+      "title": "Meissa: Multi-modal Medical Agentic Intelligence",
+      "authors": [
+        "Yixiong Chen",
+        "Xinyi Bai",
+        "Yue Pan",
+        "Zongwei Zhou",
+        "Alan Yuille"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/Schuture/Meissa",
+      "published": "2026-03-09T23:22:55.000Z"
+    },
+    {
+      "id": "2603.11048",
+      "title": "COMIC: Agentic Sketch Comedy Generation",
+      "authors": [
+        "Susung Hong",
+        "Brian Curless",
+        "Ira Kemelmacher-Shlizerman",
+        "Steve Seitz"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/SusungHong/COMIC",
+      "published": "2026-03-11T17:59:59.000Z"
+    },
+    {
+      "id": "2603.01990",
+      "title": "According to Me: Long-Term Personalized Referential Memory QA",
+      "authors": [
+        "Jingbiao Mei",
+        "Jinghong Chen",
+        "Guangyu Yang",
+        "Xinyu Hou",
+        "Margaret Li",
+        "Bill Byrne"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/JingbiaoMei/ATM-Bench",
+      "published": "2026-03-02T15:42:29.000Z"
+    },
+    {
+      "id": "2603.10702",
+      "title": "UniCom: Unified Multimodal Modeling via Compressed Continuous Semantic Representations",
+      "authors": [
+        "Yaqi Zhao",
+        "Wang Lin",
+        "Zijian Zhang",
+        "Miles Yang",
+        "Jingyuan Chen",
+        "Wentao Zhang",
+        "Zhao Zhong",
+        "Liefeng Bo"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-03-11T12:14:26.000Z"
+    },
+    {
+      "id": "2603.10377",
+      "title": "Causal Concept Graphs in LLM Latent Space for Stepwise Reasoning",
+      "authors": [
+        "Md Muntaqim Meherab",
+        "Noor Islam S. Mohammad",
+        "Faiza Feroz"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-03-11T03:46:38.000Z"
+    },
+    {
+      "id": "2603.11042",
+      "title": "V2M-Zero: Zero-Pair Time-Aligned Video-to-Music Generation",
+      "authors": [
+        "Yan-Bo Lin",
+        "Jonah Casebeer",
+        "Long Mai",
+        "Aniruddha Mahapatra",
+        "Gedas Bertasius",
+        "Nicholas J. Bryan"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-03-11T17:59:40.000Z"
+    },
+    {
+      "id": "2603.10098",
+      "title": "Code-Space Response Oracles: Generating Interpretable Multi-Agent Policies with Large Language Models",
+      "authors": [
+        "Daniel Hennes",
+        "Zun Li",
+        "John Schultz",
+        "Marc Lanctot"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-03-10T17:37:06.000Z"
+    },
+    {
+      "id": "2603.08982",
+      "title": "SVG-EAR: Parameter-Free Linear Compensation for Sparse Video Generation via Error-aware Routing",
+      "authors": [
+        "Xuanyi Zhou",
+        "Qiuyang Mang",
+        "Shuo Yang",
+        "Haocheng Xi",
+        "Jintao Zhang",
+        "Huanzhi Mao",
+        "Joseph E. Gonzalez",
+        "Kurt Keutzer",
+        "Ion Stoica",
+        "Alvin Cheung"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2026-03-09T22:15:31.000Z"
+    },
+    {
+      "id": "2603.09482",
+      "title": "StyleVLA: Driving Style-Aware Vision Language Action Model for Autonomous Driving",
+      "authors": [
+        "Yuan Gao",
+        "Dengyuan Hua",
+        "Mattia Piccinini",
+        "Finn Rasmus Schäfer",
+        "Korbinian Moller",
+        "Lin Li",
+        "Johannes Betz"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2026-03-10T10:33:58.000Z"
+    },
+    {
+      "id": "2603.05711",
+      "title": "Any to Full: Prompting Depth Anything for Depth Completion in One Stage",
+      "authors": [
+        "Zhiyuan Zhou",
+        "Ruofeng Liu",
+        "Taichi Liu",
+        "Weijian Zuo",
+        "Shanshan Wang",
+        "Zhiqing Hong",
+        "Desheng Zhang"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/zhiyuandaily/Any2Full",
+      "published": "2026-03-05T22:08:40.000Z"
+    },
+    {
+      "id": "2603.05757",
+      "title": "EmboAlign: Aligning Video Generation with Compositional Constraints for Zero-Shot Manipulation",
+      "authors": [
+        "Gehao Zhang",
+        "Zhenyang Ni",
+        "Payal Mohapatra",
+        "Han Liu",
+        "Ruohan Zhang",
+        "Qi Zhu"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2026-03-05T23:31:56.000Z"
+    }
+  ]
+}

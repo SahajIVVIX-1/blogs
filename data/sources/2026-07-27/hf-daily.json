@@ -1,0 +1,275 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-07-27",
+  "fetched_at": "2026-10-29T15:36:21.751Z",
+  "candidates": [
+    {
+      "id": "2607.20465",
+      "title": "DataPrep-Bench: Benchmarking LLMs as Training Data Preparators",
+      "authors": [
+        "Hao Liang",
+        "Qifeng Cai",
+        "Yibo Lin",
+        "Jianzhuo Du",
+        "Qifeng Xia",
+        "Sizhe Qiu",
+        "Linzhuang Sun",
+        "Meiyi Qiang",
+        "Zhaoyang Han",
+        "Xiaochen Ma",
+        "Bohan Zeng",
+        "Ruichuan An",
+        "Conghui He",
+        "Wentao Zhang"
+      ],
+      "upvotes": 56,
+      "github": "https://github.com/OpenDCAI/Data-Preparation-Bench",
+      "published": "2026-05-19T00:00:00.000Z"
+    },
+    {
+      "id": "2607.22529",
+      "title": "Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills",
+      "authors": [
+        "Siyuan Huang",
+        "Pengyu Cheng",
+        "Haotian Liu",
+        "Tao Chen",
+        "Yihao Liu",
+        "Jingwei Ni",
+        "Shijie Zhou",
+        "Ziyi Yang",
+        "Gangwei Jiang",
+        "Mengyu Zhou",
+        "Yu Cheng",
+        "Xiaoxi Jiang",
+        "Guanjun Jiang"
+      ],
+      "upvotes": 47,
+      "github": "https://github.com/Qwen-Applications/skill-self-play",
+      "published": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "2607.21653",
+      "title": "Molt: A Scalable PyTorch-Native Training Framework for Agentic Reinforcement Learning",
+      "authors": [
+        "Jian Hu",
+        "Huiying Li",
+        "Hao Zhang",
+        "Binfeng Xu",
+        "Yifan Zhang",
+        "Shaokun Zhang",
+        "Hemil Desai",
+        "Michael Demoret",
+        "Pavlo Molchanov",
+        "Jan Kautz",
+        "Yi Dong"
+      ],
+      "upvotes": 33,
+      "github": "https://github.com/NVIDIA-NeMo/labs-molt",
+      "published": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "id": "2607.22043",
+      "title": "Scaling Native Multimodal Pre-Training From Scratch",
+      "authors": [
+        "Haoyuan Wu",
+        "Aoqi Wu",
+        "Hai Wang",
+        "Jiajia Wu",
+        "Jinxiang Ou",
+        "Bei Yu"
+      ],
+      "upvotes": 29,
+      "github": null,
+      "published": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "2607.21503",
+      "title": "Agentic Context Management: Solving Agent Memory and Cost by Treating Them as Lifecycle and Architecture Problems",
+      "authors": [
+        "Gaurav Dadhich"
+      ],
+      "upvotes": 28,
+      "github": "https://github.com/maximem-ai/maximem_synap_sdk",
+      "published": "2026-07-23T00:00:00.000Z"
+    },
+    {
+      "id": "2607.18314",
+      "title": "Interactive Training 2: Auditable Control Plane for Live Model Training",
+      "authors": [
+        "Wentao Zhang",
+        "Xuanhe Pan",
+        "Han Zhou",
+        "Yang Lu",
+        "Yuntian Deng"
+      ],
+      "upvotes": 20,
+      "github": null,
+      "published": "2026-07-17T00:00:00.000Z"
+    },
+    {
+      "id": "2607.22042",
+      "title": "LAMAR: An Open Language-Aware Multilingual Alignment Reranker",
+      "authors": [
+        "Seongtae Hong",
+        "Youngjoon Jang",
+        "Jungseob Lee",
+        "Seungyoon Lee",
+        "Heuiseok Lim"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "2607.18198",
+      "title": "Three-Body Scattering for Generative Modeling",
+      "authors": [
+        "Peng Sun",
+        "Zhenglin Cheng",
+        "Deyuan Liu",
+        "Jun Xie",
+        "Xinyi Shang",
+        "Tao Lin"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/sp12138/TBSM",
+      "published": "2026-07-20T00:00:00.000Z"
+    },
+    {
+      "id": "2607.22830",
+      "title": "ID-V2V: Identity-Preserving Video Restylization",
+      "authors": [
+        "Yuancheng Xu",
+        "Mingming He",
+        "Pablo Salamanca",
+        "Li Ma",
+        "Yash Kant",
+        "Emmett Steven",
+        "Paul Debevec",
+        "Ning Yu"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/Eyeline-Labs/ID-V2V",
+      "published": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "2607.14277",
+      "title": "Multi-Head Latent Control: A Unified Interface for LLM Agent Decision Making",
+      "authors": [
+        "Amirhosein Ghasemabadi",
+        "Ruichen Chen",
+        "Bahador Rashidi",
+        "Di Niu"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/Amirhosein-gh98/Multi-Head-Latent-Control",
+      "published": "2026-07-15T00:00:00.000Z"
+    },
+    {
+      "id": "2607.22375",
+      "title": "IDEAgent: Agentic Quality-Diversity Search for Research Idea Generation",
+      "authors": [
+        "Varun Gumma",
+        "Navonil Majumder",
+        "Soumitra Sinhahajari",
+        "Soujanya Poria"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/declare-lab/IDEAgent",
+      "published": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "2607.21848",
+      "title": "Closing the Loop: Training-Free Revisit Consistency for Autoregressive Generative Rendering",
+      "authors": [
+        "Wenchao Ma",
+        "Changran Liu",
+        "Sharon X. Huang",
+        "Haomiao Jiang"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2026-07-23T00:00:00.000Z"
+    },
+    {
+      "id": "2607.22091",
+      "title": "Spectral Prior for Reducing Exposure Bias in Diffusion Models",
+      "authors": [
+        "Yuya Kobayashi",
+        "Masato Ishii",
+        "Yuhta Takida",
+        "Takashi Shibuya",
+        "Yuki Mitsufuji"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/SonyResearch/SPA",
+      "published": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "2607.22393",
+      "title": "SceneActBench: Can Agents Act on the 3D Scenes They See?",
+      "authors": [
+        "Yifei Zhao",
+        "Xiangxin Zhou",
+        "Wenhao Yang",
+        "Jiaqi Tang",
+        "Pu Jian",
+        "Huanjin Yao",
+        "Jiarui Yao",
+        "Haowei Lin",
+        "Chunchao Guo",
+        "Zhuo Chen",
+        "Wenkai Lyu",
+        "Jianzhu Ma",
+        "Xueqian Wang",
+        "Wenxi Zhu"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/Feinaldo2/SceneActBench",
+      "published": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "2607.12756",
+      "title": "VisCo: Leveraging Large Language Models as Intrinsic Encoders for Visual Token Compression",
+      "authors": [
+        "Yupeng Zheng",
+        "Kai Zou",
+        "Bin Liu",
+        "Nenghai Yu"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/Zyvpeng/VisCo",
+      "published": "2026-07-14T00:00:00.000Z"
+    },
+    {
+      "id": "2607.18142",
+      "title": "O-VAD: Industrial Video Anomaly Detection through Object-Centric Tracking and Reasoning",
+      "authors": [
+        "Mei Yuan",
+        "Qi Long",
+        "Qifeng Wu",
+        "Zhenyang Li",
+        "Yizhou Zhao",
+        "Lei Wang",
+        "Yang Liu",
+        "Min Xu"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/o-vad/O-VAD",
+      "published": "2026-07-20T00:00:00.000Z"
+    },
+    {
+      "id": "2607.19636",
+      "title": "Multimodal Speaker Verification as a Threat to Speaker Anonymization",
+      "authors": [
+        "Ashi Garg",
+        "Cristina Aggazzotti",
+        "Leibny Paola García-Perera",
+        "Nicholas Andrews"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/Ashigarg123/multimodal-speaker-verification",
+      "published": "2026-07-22T00:00:00.000Z"
+    }
+  ]
+}

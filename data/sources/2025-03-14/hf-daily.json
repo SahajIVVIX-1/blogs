@@ -1,0 +1,634 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-03-14",
+  "fetched_at": "2026-10-29T15:30:53.450Z",
+  "candidates": [
+    {
+      "id": "2503.10622",
+      "title": "Transformers without Normalization",
+      "authors": [
+        "Jiachen Zhu",
+        "Xinlei Chen",
+        "Kaiming He",
+        "Yann LeCun",
+        "Zhuang Liu"
+      ],
+      "upvotes": 171,
+      "github": "https://github.com/jiachenzhu/DyT",
+      "published": "2025-03-13T17:59:06.000Z"
+    },
+    {
+      "id": "2503.10633",
+      "title": "Charting and Navigating Hugging Face's Model Atlas",
+      "authors": [
+        "Eliahu Horwitz",
+        "Nitzan Kurer",
+        "Jonathan Kahana",
+        "Liel Amar",
+        "Yedid Hoshen"
+      ],
+      "upvotes": 93,
+      "github": "https://github.com/eliahuhorwitz/Model-Atlas",
+      "published": "2025-03-13T17:59:53.000Z"
+    },
+    {
+      "id": "2503.10613",
+      "title": "CoSTAast: Cost-Sensitive Toolpath Agent for Multi-turn Image Editing",
+      "authors": [
+        "Advait Gupta",
+        "NandaKiran Velaga",
+        "Dang Nguyen",
+        "Tianyi Zhou"
+      ],
+      "upvotes": 79,
+      "github": "https://github.com/tianyi-lab/CoSTAR",
+      "published": "2025-03-13T17:55:45.000Z"
+    },
+    {
+      "id": "2503.10480",
+      "title": "World Modeling Makes a Better Planner: Dual Preference Optimization for Embodied Task Planning",
+      "authors": [
+        "Siyin Wang",
+        "Zhaoye Fei",
+        "Qinyuan Cheng",
+        "Shiduo Zhang",
+        "Panpan Cai",
+        "Jinlan Fu",
+        "Xipeng Qiu"
+      ],
+      "upvotes": 58,
+      "github": "https://github.com/sinwang20/D2PO",
+      "published": "2025-03-13T15:49:56.000Z"
+    },
+    {
+      "id": "2503.10639",
+      "title": "GoT: Unleashing Reasoning Capability of Multimodal Large Language Model for Visual Generation and Editing",
+      "authors": [
+        "Rongyao Fang",
+        "Chengqi Duan",
+        "Kun Wang",
+        "Linjiang Huang",
+        "Hao Li",
+        "Shilin Yan",
+        "Hao Tian",
+        "Xingyu Zeng",
+        "Rui Zhao",
+        "Jifeng Dai",
+        "Xihui Liu",
+        "Hongsheng Li"
+      ],
+      "upvotes": 53,
+      "github": "https://github.com/rongyaofang/GoT",
+      "published": "2025-03-13T17:59:59.000Z"
+    },
+    {
+      "id": "2503.09641",
+      "title": "SANA-Sprint: One-Step Diffusion with Continuous-Time Consistency Distillation",
+      "authors": [
+        "Junsong Chen",
+        "Shuchen Xue",
+        "Yuyang Zhao",
+        "Jincheng Yu",
+        "Sayak Paul",
+        "Junyu Chen",
+        "Han Cai",
+        "Enze Xie",
+        "Song Han"
+      ],
+      "upvotes": 42,
+      "github": null,
+      "published": "2025-03-12T04:53:07.000Z"
+    },
+    {
+      "id": "2503.10291",
+      "title": "VisualPRM: An Effective Process Reward Model for Multimodal Reasoning",
+      "authors": [
+        "Weiyun Wang",
+        "Zhangwei Gao",
+        "Lianjie Chen",
+        "Zhe Chen",
+        "Jinguo Zhu",
+        "Xiangyu Zhao",
+        "Yangzhou Liu",
+        "Yue Cao",
+        "Shenglong Ye",
+        "Xizhou Zhu",
+        "Lewei Lu",
+        "Haodong Duan",
+        "Yu Qiao",
+        "Jifeng Dai",
+        "Wenhai Wang"
+      ],
+      "upvotes": 36,
+      "github": "https://github.com/open-compass/VLMEvalKit",
+      "published": "2025-03-13T12:03:37.000Z"
+    },
+    {
+      "id": "2503.09669",
+      "title": "Silent Branding Attack: Trigger-free Data Poisoning Attack on Text-to-Image Diffusion Models",
+      "authors": [
+        "Sangwon Jang",
+        "June Suk Choi",
+        "Jaehyeong Jo",
+        "Kimin Lee",
+        "Sung Ju Hwang"
+      ],
+      "upvotes": 35,
+      "github": "https://github.com/agwmon/silent-branding-attack",
+      "published": "2025-03-12T17:21:57.000Z"
+    },
+    {
+      "id": "2503.10437",
+      "title": "4D LangSplat: 4D Language Gaussian Splatting via Multimodal Large Language Models",
+      "authors": [
+        "Wanhua Li",
+        "Renping Zhou",
+        "Jiawei Zhou",
+        "Yingwei Song",
+        "Johannes Herter",
+        "Minghan Qin",
+        "Gao Huang",
+        "Hanspeter Pfister"
+      ],
+      "upvotes": 34,
+      "github": "https://github.com/zrporz/4DLangSplat",
+      "published": "2025-03-13T14:58:22.000Z"
+    },
+    {
+      "id": "2503.09662",
+      "title": "CoRe^2: Collect, Reflect and Refine to Generate Better and Faster",
+      "authors": [
+        "Shitong Shao",
+        "Zikai Zhou",
+        "Dian Xie",
+        "Yuetong Fang",
+        "Tian Ye",
+        "Lichen Bai",
+        "Zeke Xie"
+      ],
+      "upvotes": 33,
+      "github": "https://github.com/xie-lab-ml/CoRe2",
+      "published": "2025-03-12T15:15:25.000Z"
+    },
+    {
+      "id": "2503.10460",
+      "title": "Light-R1: Curriculum SFT, DPO and RL for Long COT from Scratch and Beyond",
+      "authors": [
+        "Liang Wen",
+        "Yunke Cai",
+        "Fenrui Xiao",
+        "Xin He",
+        "Qi An",
+        "Zhenyu Duan",
+        "Yimin Du",
+        "Junchen Liu",
+        "Lifu Tang",
+        "Xiaowei Lv",
+        "Haosheng Zou",
+        "Yongchao Deng",
+        "Shousheng Jia",
+        "Xiangzheng Zhang"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/qihoo360/light-r1",
+      "published": "2025-03-13T15:29:22.000Z"
+    },
+    {
+      "id": "2503.08677",
+      "title": "OmniPaint: Mastering Object-Oriented Editing via Disentangled Insertion-Removal Inpainting",
+      "authors": [
+        "Yongsheng Yu",
+        "Ziyun Zeng",
+        "Haitian Zheng",
+        "Jiebo Luo"
+      ],
+      "upvotes": 29,
+      "github": "https://github.com/yeates/OmniPaint",
+      "published": "2025-03-11T17:55:27.000Z"
+    },
+    {
+      "id": "2503.10351",
+      "title": "New Trends for Modern Machine Translation with Large Reasoning Models",
+      "authors": [
+        "Sinuo Liu",
+        "Chenyang Lyu",
+        "Minghao Wu",
+        "Longyue Wang",
+        "Weihua Luo",
+        "Kaifu Zhang"
+      ],
+      "upvotes": 25,
+      "github": null,
+      "published": "2025-03-13T13:27:53.000Z"
+    },
+    {
+      "id": "2503.10582",
+      "title": "VisualWebInstruct: Scaling up Multimodal Instruction Data through Web Search",
+      "authors": [
+        "Yiming Jia",
+        "Jiachen Li",
+        "Xiang Yue",
+        "Bo Li",
+        "Ping Nie",
+        "Kai Zou",
+        "Wenhu Chen"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/TIGER-AI-Lab/VisualWebInstruct",
+      "published": "2025-03-13T17:32:48.000Z"
+    },
+    {
+      "id": "2503.04723",
+      "title": "Shifting Long-Context LLMs Research from Input to Output",
+      "authors": [
+        "Yuhao Wu",
+        "Yushi Bai",
+        "Zhiqing Hu",
+        "Shangqing Tu",
+        "Ming Shan Hee",
+        "Juanzi Li",
+        "Roy Ka-Wei Lee"
+      ],
+      "upvotes": 22,
+      "github": null,
+      "published": "2025-03-06T18:59:37.000Z"
+    },
+    {
+      "id": "2503.09642",
+      "title": "Open-Sora 2.0: Training a Commercial-Level Video Generation Model in $200k",
+      "authors": [
+        "Xiangyu Peng",
+        "Zangwei Zheng",
+        "Chenhui Shen",
+        "Tom Young",
+        "Xinying Guo",
+        "Binluo Wang",
+        "Hang Xu",
+        "Hongxin Liu",
+        "Mingyan Jiang",
+        "Wenjun Li",
+        "Yuhui Wang",
+        "Anbang Ye",
+        "Gang Ren",
+        "Qianran Ma",
+        "Wanying Liang",
+        "Xiang Lian",
+        "Xiwen Wu",
+        "Yuting Zhong",
+        "Zhuangyan Li",
+        "Chaoyu Gong",
+        "Guojun Lei",
+        "Leijun Cheng",
+        "Limin Zhang",
+        "Minghao Li",
+        "Ruijie Zhang",
+        "Silan Hu",
+        "Shijie Huang",
+        "Xiaokang Wang",
+        "Yuanheng Zhao",
+        "Yuqi Wang",
+        "Ziang Wei",
+        "Yang You"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/hpcaitech/open-sora",
+      "published": "2025-03-12T05:00:07.000Z"
+    },
+    {
+      "id": "2503.10618",
+      "title": "DiT-Air: Revisiting the Efficiency of Diffusion Model Architecture Design in Text to Image Generation",
+      "authors": [
+        "Chen Chen",
+        "Rui Qian",
+        "Wenze Hu",
+        "Tsu-Jui Fu",
+        "Lezhi Li",
+        "Bowen Zhang",
+        "Alex Schwing",
+        "Wei Liu",
+        "Yinfei Yang"
+      ],
+      "upvotes": 19,
+      "github": null,
+      "published": "2025-03-13T17:57:25.000Z"
+    },
+    {
+      "id": "2503.10615",
+      "title": "R1-Onevision: Advancing Generalized Multimodal Reasoning through Cross-Modal Formalization",
+      "authors": [
+        "Yi Yang",
+        "Xiaoxuan He",
+        "Hongkun Pan",
+        "Xiyan Jiang",
+        "Yan Deng",
+        "Xingtao Yang",
+        "Haoyu Lu",
+        "Dacheng Yin",
+        "Fengyun Rao",
+        "Minfeng Zhu",
+        "Bo Zhang",
+        "Wei Chen"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2025-03-13T17:56:05.000Z"
+    },
+    {
+      "id": "2503.09799",
+      "title": "Communication-Efficient Language Model Training Scales Reliably and Robustly: Scaling Laws for DiLoCo",
+      "authors": [
+        "Zachary Charles",
+        "Gabriel Teston",
+        "Lucio Dery",
+        "Keith Rush",
+        "Nova Fallen",
+        "Zachary Garrett",
+        "Arthur Szlam",
+        "Arthur Douillard"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2025-03-12T20:04:38.000Z"
+    },
+    {
+      "id": "2503.10589",
+      "title": "Long Context Tuning for Video Generation",
+      "authors": [
+        "Yuwei Guo",
+        "Ceyuan Yang",
+        "Ziyan Yang",
+        "Zhibei Ma",
+        "Zhijie Lin",
+        "Zhenheng Yang",
+        "Dahua Lin",
+        "Lu Jiang"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2025-03-13T17:40:07.000Z"
+    },
+    {
+      "id": "2503.10596",
+      "title": "GroundingSuite: Measuring Complex Multi-Granular Pixel Grounding",
+      "authors": [
+        "Rui Hu",
+        "Lianghui Zhu",
+        "Yuxuan Zhang",
+        "Tianheng Cheng",
+        "Lei Liu",
+        "Heng Liu",
+        "Longjin Ran",
+        "Xiaoxin Chen",
+        "Wenyu Liu",
+        "Xinggang Wang"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/hustvl/groundingsuite",
+      "published": "2025-03-13T17:43:10.000Z"
+    },
+    {
+      "id": "2503.10637",
+      "title": "Distilling Diversity and Control in Diffusion Models",
+      "authors": [
+        "Rohit Gandikota",
+        "David Bau"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/rohitgandikota/distillation",
+      "published": "2025-03-13T17:59:56.000Z"
+    },
+    {
+      "id": "2503.10357",
+      "title": "Do I look like a `cat.n.01` to you? A Taxonomy Image Generation Benchmark",
+      "authors": [
+        "Viktor Moskvoretskii",
+        "Alina Lobanova",
+        "Ekaterina Neminova",
+        "Chris Biemann",
+        "Alexander Panchenko",
+        "Irina Nikishina"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2025-03-13T13:37:54.000Z"
+    },
+    {
+      "id": "2503.10391",
+      "title": "CINEMA: Coherent Multi-Subject Video Generation via MLLM-Based Guidance",
+      "authors": [
+        "Yufan Deng",
+        "Xun Guo",
+        "Yizhi Wang",
+        "Jacob Zhiyuan Fang",
+        "Angtian Wang",
+        "Shenghai Yuan",
+        "Yiding Yang",
+        "Bo Liu",
+        "Haibin Huang",
+        "Chongyang Ma"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2025-03-13T14:07:58.000Z"
+    },
+    {
+      "id": "2503.09837",
+      "title": "On the Limitations of Vision-Language Models in Understanding Image Transforms",
+      "authors": [
+        "Ahmad Mustafa Anis",
+        "Hasnain Ali",
+        "Saquib Sarfraz"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2025-03-12T20:58:16.000Z"
+    },
+    {
+      "id": "2503.10568",
+      "title": "Autoregressive Image Generation with Randomized Parallel Decoding",
+      "authors": [
+        "Haopeng Li",
+        "Jinyue Yang",
+        "Guoqi Li",
+        "Huan Wang"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/hp-l33/ARPG",
+      "published": "2025-03-13T17:19:51.000Z"
+    },
+    {
+      "id": "2503.10365",
+      "title": "Piece it Together: Part-Based Concepting with IP-Priors",
+      "authors": [
+        "Elad Richardson",
+        "Kfir Goldberg",
+        "Yuval Alaluf",
+        "Daniel Cohen-Or"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/eladrich/PiT",
+      "published": "2025-03-13T13:46:10.000Z"
+    },
+    {
+      "id": "2503.10614",
+      "title": "ConsisLoRA: Enhancing Content and Style Consistency for LoRA-based Style Transfer",
+      "authors": [
+        "Bolin Chen",
+        "Baoquan Zhao",
+        "Haoran Xie",
+        "Yi Cai",
+        "Qing Li",
+        "Xudong Mao"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/000linlin/ConsisLoRA",
+      "published": "2025-03-13T17:55:58.000Z"
+    },
+    {
+      "id": "2503.09046",
+      "title": "Discovering Influential Neuron Path in Vision Transformers",
+      "authors": [
+        "Yifan Wang",
+        "Yifei Liu",
+        "Yingdong Shi",
+        "Changming Li",
+        "Anqi Pang",
+        "Sibei Yang",
+        "Jingyi Yu",
+        "Kan Ren"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/foundation-model-research/NeuronPath",
+      "published": "2025-03-12T04:10:46.000Z"
+    },
+    {
+      "id": "2503.09905",
+      "title": "Quantization for OpenAI's Whisper Models: A Comparative Analysis",
+      "authors": [
+        "Allison Andreyev"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/allisonandreyev/WhisperQuantization",
+      "published": "2025-03-12T23:50:35.000Z"
+    },
+    {
+      "id": "2503.10630",
+      "title": "UniGoal: Towards Universal Zero-shot Goal-oriented Navigation",
+      "authors": [
+        "Hang Yin",
+        "Xiuwei Xu",
+        "Lingqing Zhao",
+        "Ziwei Wang",
+        "Jie Zhou",
+        "Jiwen Lu"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/bagh2178/UniGoal",
+      "published": "2025-03-13T17:59:48.000Z"
+    },
+    {
+      "id": "2503.10242",
+      "title": "MinorBench: A hand-built benchmark for content-based risks for children",
+      "authors": [
+        "Shaun Khoo",
+        "Gabriel Chua",
+        "Rachel Shong"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-03-13T10:34:43.000Z"
+    },
+    {
+      "id": "2503.10635",
+      "title": "A Frustratingly Simple Yet Highly Effective Attack Baseline: Over 90% Success Rate Against the Strong Black-box Models of GPT-4.5/4o/o1",
+      "authors": [
+        "Zhaoyi Li",
+        "Xiaohan Zhao",
+        "Dong-Dong Wu",
+        "Jiacheng Cui",
+        "Zhiqiang Shen"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/vila-lab/m-attack",
+      "published": "2025-03-13T17:59:55.000Z"
+    },
+    {
+      "id": "2503.10602",
+      "title": "TruthPrInt: Mitigating LVLM Object Hallucination Via Latent Truthful-Guided Pre-Intervention",
+      "authors": [
+        "Jinhao Duan",
+        "Fei Kong",
+        "Hao Cheng",
+        "James Diffenderfer",
+        "Bhavya Kailkhura",
+        "Lichao Sun",
+        "Xiaofeng Zhu",
+        "Xiaoshuang Shi",
+        "Kaidi Xu"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/jinhaoduan/truthprint",
+      "published": "2025-03-13T17:46:06.000Z"
+    },
+    {
+      "id": "2503.10072",
+      "title": "\"Silent Is Not Actually Silent\": An Investigation of Toxicity on Bug Report Discussion",
+      "authors": [
+        "Mia Mohammad Imran",
+        "Jaydeb Sarker"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-03-13T05:39:29.000Z"
+    },
+    {
+      "id": "2503.07111",
+      "title": "PoseLess: Depth-Free Vision-to-Joint Control via Direct Image Mapping with VLM",
+      "authors": [
+        "Alan Dao",
+        "Dinh Bach Vu",
+        "Tuan Le Duc Anh",
+        "Bui Quang Huy"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/janhq/poseless",
+      "published": "2025-03-10T09:34:05.000Z"
+    },
+    {
+      "id": "2503.09368",
+      "title": "PerCoV2: Improved Ultra-Low Bit-Rate Perceptual Image Compression with Implicit Hierarchical Masked Image Modeling",
+      "authors": [
+        "Nikolai Körber",
+        "Eduard Kromer",
+        "Andreas Siebert",
+        "Sascha Hauke",
+        "Daniel Mueller-Gritschneder",
+        "Björn Schuller"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/Nikolai10/PerCoV2",
+      "published": "2025-03-12T13:14:51.000Z"
+    },
+    {
+      "id": "2503.10636",
+      "title": "The Curse of Conditions: Analyzing and Improving Optimal Transport for Conditional Flow-Based Generation",
+      "authors": [
+        "Ho Kei Cheng",
+        "Alexander Schwing"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/hkchengrex/C2OT",
+      "published": "2025-03-13T17:59:56.000Z"
+    },
+    {
+      "id": "2503.10638",
+      "title": "Studying Classifier(-Free) Guidance From a Classifier-Centric Perspective",
+      "authors": [
+        "Xiaoming Zhao",
+        "Alexander G. Schwing"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2025-03-13T17:59:59.000Z"
+    }
+  ]
+}

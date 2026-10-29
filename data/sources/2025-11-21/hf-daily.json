@@ -1,0 +1,465 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-11-21",
+  "fetched_at": "2026-10-29T15:33:51.613Z",
+  "candidates": [
+    {
+      "id": "2511.16624",
+      "title": "SAM 3D: 3Dfy Anything in Images",
+      "authors": [
+        "SAM 3D Team",
+        "Xingyu Chen",
+        "Fu-Jen Chu",
+        "Pierre Gleize",
+        "Kevin J Liang",
+        "Alexander Sax",
+        "Hao Tang",
+        "Weiyao Wang",
+        "Michelle Guo",
+        "Thibaut Hardin",
+        "Xiang Li",
+        "Aohan Lin",
+        "Jiawei Liu",
+        "Ziqi Ma",
+        "Anushka Sagar",
+        "Bowen Song",
+        "Xiaodong Wang",
+        "Jianing Yang",
+        "Bowen Zhang",
+        "Piotr Dollár",
+        "Georgia Gkioxari",
+        "Matt Feiszli",
+        "Jitendra Malik"
+      ],
+      "upvotes": 117,
+      "github": "https://github.com/facebookresearch/sam-3d-objects",
+      "published": "2025-11-20T18:31:46.000Z"
+    },
+    {
+      "id": "2511.16043",
+      "title": "Agent0: Unleashing Self-Evolving Agents from Zero Data via Tool-Integrated Reasoning",
+      "authors": [
+        "Peng Xia",
+        "Kaide Zeng",
+        "Jiaqi Liu",
+        "Can Qin",
+        "Fang Wu",
+        "Yiyang Zhou",
+        "Caiming Xiong",
+        "Huaxiu Yao"
+      ],
+      "upvotes": 110,
+      "github": "https://github.com/aiming-lab/Agent0",
+      "published": "2025-11-20T05:01:57.000Z"
+    },
+    {
+      "id": "2511.15848",
+      "title": "Step-Audio-R1 Technical Report",
+      "authors": [
+        "Fei Tian",
+        "Xiangyu Tony Zhang",
+        "Yuxin Zhang",
+        "Haoyang Zhang",
+        "Yuxin Li",
+        "Daijiao Liu",
+        "Yayue Deng",
+        "Donghang Wu",
+        "Jun Chen",
+        "Liang Zhao",
+        "Chengyuan Yao",
+        "Hexin Liu",
+        "Eng Siong Chng",
+        "Xuerui Yang",
+        "Xiangyu Zhang",
+        "Daxin Jiang",
+        "Gang Yu"
+      ],
+      "upvotes": 61,
+      "github": null,
+      "published": "2025-11-19T20:12:50.000Z"
+    },
+    {
+      "id": "2511.16668",
+      "title": "V-ReasonBench: Toward Unified Reasoning Benchmark Suite for Video Generation Models",
+      "authors": [
+        "Yang Luo",
+        "Xuanlei Zhao",
+        "Baijiong Lin",
+        "Lingting Zhu",
+        "Liyao Tang",
+        "Yuqi Liu",
+        "Ying-Cong Chen",
+        "Shengju Qian",
+        "Xin Wang",
+        "Yang You"
+      ],
+      "upvotes": 56,
+      "github": "https://github.com/yangluo7/V-ReasonBench",
+      "published": "2025-11-20T18:59:42.000Z"
+    },
+    {
+      "id": "2511.15700",
+      "title": "First Frame Is the Place to Go for Video Content Customization",
+      "authors": [
+        "Jingxi Chen",
+        "Zongxia Li",
+        "Zhichao Liu",
+        "Guangyao Shi",
+        "Xiyang Wu",
+        "Fuxiao Liu",
+        "Cornelia Fermuller",
+        "Brandon Y. Feng",
+        "Yiannis Aloimonos"
+      ],
+      "upvotes": 54,
+      "github": "https://github.com/zli12321/FFGO-Video-Customization",
+      "published": "2025-11-19T18:56:50.000Z"
+    },
+    {
+      "id": "2511.13719",
+      "title": "Scaling Spatial Intelligence with Multimodal Foundation Models",
+      "authors": [
+        "Zhongang Cai",
+        "Ruisi Wang",
+        "Chenyang Gu",
+        "Fanyi Pu",
+        "Junxiang Xu",
+        "Yubo Wang",
+        "Wanqi Yin",
+        "Zhitao Yang",
+        "Chen Wei",
+        "Qingping Sun",
+        "Tongxi Zhou",
+        "Jiaqi Li",
+        "Hui En Pang",
+        "Oscar Qian",
+        "Yukun Wei",
+        "Zhiqian Lin",
+        "Xuanke Shi",
+        "Kewang Deng",
+        "Xiaoyang Han",
+        "Zukai Chen",
+        "Xiangyu Fan",
+        "Hanming Deng",
+        "Lewei Lu",
+        "Liang Pan",
+        "Bo Li",
+        "Ziwei Liu",
+        "Quan Wang",
+        "Dahua Lin",
+        "Lei Yang"
+      ],
+      "upvotes": 51,
+      "github": "https://github.com/OpenSenseNova/SenseNova-SI",
+      "published": "2025-11-17T18:59:33.000Z"
+    },
+    {
+      "id": "2511.16669",
+      "title": "Video-as-Answer: Predict and Generate Next Video Event with Joint-GRPO",
+      "authors": [
+        "Junhao Cheng",
+        "Liang Hou",
+        "Xin Tao",
+        "Jing Liao"
+      ],
+      "upvotes": 31,
+      "github": "https://github.com/KlingTeam/VANS",
+      "published": "2025-11-20T18:59:44.000Z"
+    },
+    {
+      "id": "2511.16664",
+      "title": "Nemotron Elastic: Towards Efficient Many-in-One Reasoning LLMs",
+      "authors": [
+        "Ali Taghibakhshi",
+        "Sharath Turuvekere Sreenivas",
+        "Saurav Muralidharan",
+        "Ruisi Cai",
+        "Marcin Chochowski",
+        "Ameya Sunil Mahabaleshwarkar",
+        "Yoshi Suhara",
+        "Oluwatobi Olabiyi",
+        "Daniel Korzekwa",
+        "Mostofa Patwary",
+        "Mohammad Shoeybi",
+        "Jan Kautz",
+        "Bryan Catanzaro",
+        "Ashwath Aithal",
+        "Nima Tajbakhsh",
+        "Pavlo Molchanov"
+      ],
+      "upvotes": 30,
+      "github": null,
+      "published": "2025-11-20T18:59:21.000Z"
+    },
+    {
+      "id": "2511.16518",
+      "title": "MiMo-Embodied: X-Embodied Foundation Model Technical Report",
+      "authors": [
+        "Xiaoshuai Hao",
+        "Lei Zhou",
+        "Zhijian Huang",
+        "Zhiwen Hou",
+        "Yingbo Tang",
+        "Lingfeng Zhang",
+        "Guang Li",
+        "Zheng Lu",
+        "Shuhuai Ren",
+        "Xianhui Meng",
+        "Yuchen Zhang",
+        "Jing Wu",
+        "Jinghui Lu",
+        "Chenxu Dang",
+        "Jiayi Guan",
+        "Jianhua Wu",
+        "Zhiyi Hou",
+        "Hanbing Li",
+        "Shumeng Xia",
+        "Mingliang Zhou",
+        "Yinan Zheng",
+        "Zihao Yue",
+        "Shuhao Gu",
+        "Hao Tian",
+        "Yuannan Shen",
+        "Jianwei Cui",
+        "Wen Zhang",
+        "Shaoqing Xu",
+        "Bing Wang",
+        "Haiyang Sun",
+        "Zeyu Zhu",
+        "Yuncheng Jiang",
+        "Zibin Guo",
+        "Chuhong Gong",
+        "Chaofan Zhang",
+        "Wenbo Ding",
+        "Kun Ma",
+        "Guang Chen",
+        "Rui Cai",
+        "Diyun Xiang",
+        "Heng Qu",
+        "Fuli Luo",
+        "Hangjun Ye",
+        "Long Chen"
+      ],
+      "upvotes": 26,
+      "github": "https://github.com/XiaomiMiMo/MiMo-Embodied",
+      "published": "2025-11-20T16:34:55.000Z"
+    },
+    {
+      "id": "2511.15605",
+      "title": "SRPO: Self-Referential Policy Optimization for Vision-Language-Action Models",
+      "authors": [
+        "Senyu Fei",
+        "Siyin Wang",
+        "Li Ji",
+        "Ao Li",
+        "Shiduo Zhang",
+        "Liming Liu",
+        "Jinlong Hou",
+        "Jingjing Gong",
+        "Xianzhong Zhao",
+        "Xipeng Qiu"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/sii-research/siiRL",
+      "published": "2025-11-19T16:52:23.000Z"
+    },
+    {
+      "id": "2511.16528",
+      "title": "TurkColBERT: A Benchmark of Dense and Late-Interaction Models for Turkish Information Retrieval",
+      "authors": [
+        "Özay Ezerceli",
+        "Mahmoud El Hussieni",
+        "Selva Taş",
+        "Reyhan Bayraktar",
+        "Fatma Betül Terzioğlu",
+        "Yusuf Çelebi",
+        "Yağız Asker"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/ozayezerceli/TurkColBERT",
+      "published": "2025-11-20T16:42:21.000Z"
+    },
+    {
+      "id": "2511.13703",
+      "title": "Generalist Foundation Models Are Not Clinical Enough for Hospital Operations",
+      "authors": [
+        "Lavender Y. Jiang",
+        "Angelica Chen",
+        "Xu Han",
+        "Xujin Chris Liu",
+        "Radhika Dua",
+        "Kevin Eaton",
+        "Frederick Wolff",
+        "Robert Steele",
+        "Jeff Zhang",
+        "Anton Alyakin",
+        "Qingkai Pan",
+        "Yanbing Chen",
+        "Karl L. Sangwon",
+        "Daniel A. Alber",
+        "Jaden Stryker",
+        "Jin Vivian Lee",
+        "Yindalon Aphinyanaphongs",
+        "Kyunghyun Cho",
+        "Eric Karl Oermann"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2025-11-17T18:52:22.000Z"
+    },
+    {
+      "id": "2511.16317",
+      "title": "NaTex: Seamless Texture Generation as Latent Color Diffusion",
+      "authors": [
+        "Zeqiang Lai",
+        "Yunfei Zhao",
+        "Zibo Zhao",
+        "Xin Yang",
+        "Xin Huang",
+        "Jingwei Huang",
+        "Xiangyu Yue",
+        "Chunchao Guo"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2025-11-20T12:47:22.000Z"
+    },
+    {
+      "id": "2511.16671",
+      "title": "Thinking-while-Generating: Interleaving Textual Reasoning throughout Visual Generation",
+      "authors": [
+        "Ziyu Guo",
+        "Renrui Zhang",
+        "Hongyu Li",
+        "Manyuan Zhang",
+        "Xinyan Chen",
+        "Sifan Wang",
+        "Yan Feng",
+        "Peng Pei",
+        "Pheng-Ann Heng"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/ZiyuGuo99/Thinking-while-Generating",
+      "published": "2025-11-20T18:59:52.000Z"
+    },
+    {
+      "id": "2511.16595",
+      "title": "TimeViper: A Hybrid Mamba-Transformer Vision-Language Model for Efficient Long Video Understanding",
+      "authors": [
+        "Boshen Xu",
+        "Zihan Xiao",
+        "Jiaze Li",
+        "Jianzhong Ju",
+        "Zhenbo Luo",
+        "Jian Luan",
+        "Qin Jin"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/xiaomi-research/timeviper",
+      "published": "2025-11-20T17:48:21.000Z"
+    },
+    {
+      "id": "2511.16659",
+      "title": "PartUV: Part-Based UV Unwrapping of 3D Meshes",
+      "authors": [
+        "Zhaoning Wang",
+        "Xinyue Wei",
+        "Ruoxi Shi",
+        "Xiaoshuai Zhang",
+        "Hao Su",
+        "Minghua Liu"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/EricWang12/PartUV",
+      "published": "2025-11-20T18:58:39.000Z"
+    },
+    {
+      "id": "2511.16618",
+      "title": "SAM2S: Segment Anything in Surgical Videos via Semantic Long-term Tracking",
+      "authors": [
+        "Haofeng Liu",
+        "Ziyue Wang",
+        "Sudhanshu Mishra",
+        "Mingqi Gao",
+        "Guanyi Qin",
+        "Chang Han Low",
+        "Alex Y. W. Kong",
+        "Yueming Jin"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/jinlab-imvr/SAM2S",
+      "published": "2025-11-20T18:18:49.000Z"
+    },
+    {
+      "id": "2511.15248",
+      "title": "EntroPIC: Towards Stable Long-Term Training of LLMs via Entropy Stabilization with Proportional-Integral Control",
+      "authors": [
+        "Kai Yang",
+        "Xin Xu",
+        "Yangkun Chen",
+        "Weijie Liu",
+        "Jiafei Lyu",
+        "Zichuan Lin",
+        "Deheng Ye",
+        "Saiyong Yang"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/yk7333/EntroPIC",
+      "published": "2025-11-19T09:06:42.000Z"
+    },
+    {
+      "id": "2511.14865",
+      "title": "FinTRec: Transformer Based Unified Contextual Ads Targeting and Personalization for Financial Applications",
+      "authors": [
+        "Dwipam Katariya",
+        "Snehita Varma",
+        "Akshat Shreemali",
+        "Benjamin Wu",
+        "Kalanand Mishra",
+        "Pranab Mohanty"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-11-18T19:32:38.000Z"
+    },
+    {
+      "id": "2511.16315",
+      "title": "BioBench: A Blueprint to Move Beyond ImageNet for Scientific ML Benchmarks",
+      "authors": [
+        "Samuel Stevens"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/samuelstevens/biobench",
+      "published": "2025-11-20T12:46:33.000Z"
+    },
+    {
+      "id": "2511.11005",
+      "title": "Draft and Refine with Visual Experts",
+      "authors": [
+        "Sungheon Jeong",
+        "Ryozo Masukawa",
+        "Jihong Park",
+        "Sanggeon Yun",
+        "Wenjun Huang",
+        "Hanning Chen",
+        "Mahdi Imani",
+        "Mohsen Imani"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/EavnJeong/Draft-and-Refine-with-Visual-Experts",
+      "published": "2025-11-14T06:50:14.000Z"
+    },
+    {
+      "id": "2511.15943",
+      "title": "Boosting Medical Visual Understanding From Multi-Granular Language Learning",
+      "authors": [
+        "Zihan Li",
+        "Yiqing Wang",
+        "Sina Farsiu",
+        "Paul Kinahan"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/HUANGLIZI/MGLL",
+      "published": "2025-11-20T00:24:26.000Z"
+    }
+  ]
+}

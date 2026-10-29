@@ -1,0 +1,11 @@
+{
+  "id": "2512.16676",
+  "html": "https://arxiv.org/html/2512.16676",
+  "limitations": null,
+  "conclusion": "In summary, DataFlow addresses a critical gap in the data-centric LLM ecosystem by providing the first unified, LLM-driven data preparation framework. It mitigates long-standing challenges in the field—such as the difficulty of sharing, reproducing, and comparing data preparation algorithms—through a modular and user-friendly programming interface. The framework integrates nearly 200 operators, over 80 prompt templates, and unified abstractions for serving and storage, all of which compose into six high-quality pipelines spanning the major LLM data domains. Extensive experiments demonstrate that these pipelines achieve strong, often state-of-the-art results, confirming that DataFlow effectively balances the tension between domain-specific customization and system-level standardization. Built atop this foundation, the DataFlow -CLI and DataFlow -Agent further amplify extensibility by enab",
+  "figure": {
+    "path": "images/2025/paper-2512.16676.webp",
+    "src": "https://arxiv.org/html/2512.16676v1/df_overview.png",
+    "caption": "Figure 1 : High-level architecture of DataFlow . The system consists of a core execution engine (storage, operators, templates, and LLM serving), reusable pipelines, user-facing control layers (CLI and agent), and an extensible ecosystem for domain-specialized workflows. DataFlow produces high-quality, task-aligned datasets consumed by downstream LLM applications."
+  }
+}

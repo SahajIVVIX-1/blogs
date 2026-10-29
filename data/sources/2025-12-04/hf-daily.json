@@ -1,0 +1,485 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-12-04",
+  "fetched_at": "2026-10-29T15:33:59.495Z",
+  "candidates": [
+    {
+      "id": "2511.21631",
+      "title": "Qwen3-VL Technical Report",
+      "authors": [
+        "Shuai Bai",
+        "Yuxuan Cai",
+        "Ruizhe Chen",
+        "Keqin Chen",
+        "Xionghui Chen",
+        "Zesen Cheng",
+        "Lianghao Deng",
+        "Wei Ding",
+        "Chang Gao",
+        "Chunjiang Ge",
+        "Wenbin Ge",
+        "Zhifang Guo",
+        "Qidong Huang",
+        "Jie Huang",
+        "Fei Huang",
+        "Binyuan Hui",
+        "Shutong Jiang",
+        "Zhaohai Li",
+        "Mingsheng Li",
+        "Mei Li",
+        "Kaixin Li",
+        "Zicheng Lin",
+        "Junyang Lin",
+        "Xuejing Liu",
+        "Jiawei Liu",
+        "Chenglong Liu",
+        "Yang Liu",
+        "Dayiheng Liu",
+        "Shixuan Liu",
+        "Dunjie Lu",
+        "Ruilin Luo",
+        "Chenxu Lv",
+        "Rui Men",
+        "Lingchen Meng",
+        "Xuancheng Ren",
+        "Xingzhang Ren",
+        "Sibo Song",
+        "Yuchong Sun",
+        "Jun Tang",
+        "Jianhong Tu",
+        "Jianqiang Wan",
+        "Peng Wang",
+        "Pengfei Wang",
+        "Qiuyue Wang",
+        "Yuxuan Wang",
+        "Tianbao Xie",
+        "Yiheng Xu",
+        "Haiyang Xu",
+        "Jin Xu",
+        "Zhibo Yang",
+        "Mingkun Yang",
+        "Jianxin Yang",
+        "An Yang",
+        "Bowen Yu",
+        "Fei Zhang",
+        "Hang Zhang",
+        "Xi Zhang",
+        "Bo Zheng",
+        "Humen Zhong",
+        "Jingren Zhou",
+        "Fan Zhou",
+        "Jing Zhou",
+        "Yuanzhi Zhu",
+        "Ke Zhu"
+      ],
+      "upvotes": 165,
+      "github": "https://github.com/QwenLM/Qwen3-VL",
+      "published": "2025-11-26T17:59:08.000Z"
+    },
+    {
+      "id": "2512.03442",
+      "title": "PretrainZero: Reinforcement Active Pretraining",
+      "authors": [
+        "Xingrun Xing",
+        "Zhiyuan Fan",
+        "Jie Lou",
+        "Guoqi Li",
+        "Jiajun Zhang",
+        "Debing Zhang"
+      ],
+      "upvotes": 51,
+      "github": null,
+      "published": "2025-12-03T04:51:32.000Z"
+    },
+    {
+      "id": "2512.02834",
+      "title": "Steering Vision-Language-Action Models as Anti-Exploration: A Test-Time Scaling Approach",
+      "authors": [
+        "Siyuan Yang",
+        "Yang Zhang",
+        "Haoran He",
+        "Ling Pan",
+        "Xiu Li",
+        "Chenjia Bai",
+        "Xuelong Li"
+      ],
+      "upvotes": 39,
+      "github": "https://github.com/breez3young/TACO",
+      "published": "2025-12-02T14:42:54.000Z"
+    },
+    {
+      "id": "2512.03043",
+      "title": "OneThinker: All-in-one Reasoning Model for Image and Video",
+      "authors": [
+        "Kaituo Feng",
+        "Manyuan Zhang",
+        "Hongyu Li",
+        "Kaixuan Fan",
+        "Shuang Chen",
+        "Yilei Jiang",
+        "Dian Zheng",
+        "Peiwen Sun",
+        "Yiyuan Zhang",
+        "Haoze Sun",
+        "Yan Feng",
+        "Peng Pei",
+        "Xunliang Cai",
+        "Xiangyu Yue"
+      ],
+      "upvotes": 35,
+      "github": "https://github.com/tulerfeng/OneThinker",
+      "published": "2025-12-02T18:59:52.000Z"
+    },
+    {
+      "id": "2512.03405",
+      "title": "ViDiC: Video Difference Captioning",
+      "authors": [
+        "Jiangtao Wu",
+        "Shihao Li",
+        "Zhaozhou Bian",
+        "Yuanxing Zhang",
+        "Jialu Chen",
+        "Runzhe Wen",
+        "An Ping",
+        "Yiwen He",
+        "Jiakai Wang",
+        "Jiaheng Liu"
+      ],
+      "upvotes": 29,
+      "github": "https://github.com/NJU-LINK/ViDiC-1K",
+      "published": "2025-12-03T03:23:24.000Z"
+    },
+    {
+      "id": "2512.04069",
+      "title": "SpaceTools: Tool-Augmented Spatial Reasoning via Double Interactive RL",
+      "authors": [
+        "Siyi Chen",
+        "Mikaela Angelina Uy",
+        "Chan Hee Song",
+        "Faisal Ladhak",
+        "Adithyavairavan Murali",
+        "Qing Qu",
+        "Stan Birchfield",
+        "Valts Blukis",
+        "Jonathan Tremblay"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/spacetools/SpaceTools",
+      "published": "2025-12-03T18:50:04.000Z"
+    },
+    {
+      "id": "2512.04040",
+      "title": "RELIC: Interactive Video World Model with Long-Horizon Memory",
+      "authors": [
+        "Yicong Hong",
+        "Yiqun Mei",
+        "Chongjian Ge",
+        "Yiran Xu",
+        "Yang Zhou",
+        "Sai Bi",
+        "Yannick Hold-Geoffroy",
+        "Mike Roberts",
+        "Matthew Fisher",
+        "Eli Shechtman",
+        "Kalyan Sunkavalli",
+        "Feng Liu",
+        "Zhengqi Li",
+        "Hao Tan"
+      ],
+      "upvotes": 24,
+      "github": null,
+      "published": "2025-12-03T18:29:20.000Z"
+    },
+    {
+      "id": "2512.03534",
+      "title": "Rethinking Prompt Design for Inference-time Scaling in Text-to-Visual Generation",
+      "authors": [
+        "Subin Kim",
+        "Sangwoo Mo",
+        "Mamshad Nayeem Rizve",
+        "Yiran Xu",
+        "Difan Liu",
+        "Jinwoo Shin",
+        "Tobias Hinz"
+      ],
+      "upvotes": 21,
+      "github": null,
+      "published": "2025-12-03T07:54:05.000Z"
+    },
+    {
+      "id": "2512.04032",
+      "title": "Jina-VLM: Small Multilingual Vision Language Model",
+      "authors": [
+        "Andreas Koukounas",
+        "Georgios Mastrapas",
+        "Florian Hönicke",
+        "Sedigheh Eslami",
+        "Guillaume Roncari",
+        "Scott Martens",
+        "Han Xiao"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2025-12-03T18:13:41.000Z"
+    },
+    {
+      "id": "2512.03746",
+      "title": "Thinking with Programming Vision: Towards a Unified View for Thinking with Images",
+      "authors": [
+        "Zirun Guo",
+        "Minjie Hong",
+        "Feng Zhang",
+        "Kai Jia",
+        "Tao Jin"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/ByteDance-BandAI/CodeVision",
+      "published": "2025-12-03T12:44:15.000Z"
+    },
+    {
+      "id": "2512.04082",
+      "title": "PosterCopilot: Toward Layout Reasoning and Controllable Editing for Professional Graphic Design",
+      "authors": [
+        "Jiazhe Wei",
+        "Ken Li",
+        "Tianyu Lao",
+        "Haofan Wang",
+        "Liang Wang",
+        "Caifeng Shan",
+        "Chenyang Si"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/JiazheWei/PosterCopilot",
+      "published": "2025-12-03T18:59:37.000Z"
+    },
+    {
+      "id": "2512.03540",
+      "title": "CookAnything: A Framework for Flexible and Consistent Multi-Step Recipe Image Generation",
+      "authors": [
+        "Ruoxuan Zhang",
+        "Bin Wen",
+        "Hongxia Xie",
+        "Yi Yao",
+        "Songhan Zuo",
+        "Jian-Yu Jiang-Lin",
+        "Hong-Han Shuai",
+        "Wen-Huang Cheng"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/zhangdaxia22/CookAnything",
+      "published": "2025-12-03T08:01:48.000Z"
+    },
+    {
+      "id": "2512.05115",
+      "title": "Light-X: Generative 4D Video Rendering with Camera and Illumination Control",
+      "authors": [
+        "Tianqi Liu",
+        "Zhaoxi Chen",
+        "Zihao Huang",
+        "Shaocong Xu",
+        "Saining Zhang",
+        "Chongjie Ye",
+        "Bohan Li",
+        "Zhiguo Cao",
+        "Wei Li",
+        "Hao Zhao",
+        "Ziwei Liu"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/TQTQliu/Light-X",
+      "published": "2025-12-04T18:59:57.000Z"
+    },
+    {
+      "id": "2512.02807",
+      "title": "SR-GRPO: Stable Rank as an Intrinsic Geometric Reward for Large Language Model Alignment",
+      "authors": [
+        "Yixuan Tang",
+        "Yi Yang"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2025-12-02T14:21:29.000Z"
+    },
+    {
+      "id": "2512.02924",
+      "title": "AutoNeural: Co-Designing Vision-Language Models for NPU Inference",
+      "authors": [
+        "Wei Chen",
+        "Liangmin Wu",
+        "Yunhai Hu",
+        "Zhiyuan Li",
+        "Zhiyuan Cheng",
+        "Yicheng Qian",
+        "Lingyue Zhu",
+        "Zhipeng Hu",
+        "Luoyi Liang",
+        "Qiang Tang",
+        "Zhen Liu",
+        "Han Yang"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2025-12-02T16:45:25.000Z"
+    },
+    {
+      "id": "2512.04072",
+      "title": "SkillFactory: Self-Distillation For Learning Cognitive Behaviors",
+      "authors": [
+        "Zayne Sprague",
+        "Jack Lu",
+        "Manya Wadhwa",
+        "Sedrick Keh",
+        "Mengye Ren",
+        "Greg Durrett"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/Zayne-sprague/SkillFactory",
+      "published": "2025-12-03T18:54:53.000Z"
+    },
+    {
+      "id": "2512.03383",
+      "title": "UniQL: Unified Quantization and Low-rank Compression for Adaptive Edge LLMs",
+      "authors": [
+        "Hung-Yueh Chiang",
+        "Chi-Chih Chang",
+        "Yu-Chen Lu",
+        "Chien-Yu Lin",
+        "Kai-Chiang Wu",
+        "Mohamed S. Abdelfattah",
+        "Diana Marculescu"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/enyac-group/UniQL",
+      "published": "2025-12-03T02:33:39.000Z"
+    },
+    {
+      "id": "2512.03979",
+      "title": "BlurDM: A Blur Diffusion Model for Image Deblurring",
+      "authors": [
+        "Jin-Ting He",
+        "Fu-Jen Tsai",
+        "Yan-Tsung Peng",
+        "Min-Hung Chen",
+        "Chia-Wen Lin",
+        "Yen-Yu Lin"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/Jin-Ting-He/BlurDM",
+      "published": "2025-12-03T17:10:44.000Z"
+    },
+    {
+      "id": "2512.03073",
+      "title": "Economies of Open Intelligence: Tracing Power & Participation in the Model Ecosystem",
+      "authors": [
+        "Shayne Longpre",
+        "Christopher Akiki",
+        "Campbell Lund",
+        "Atharva Kulkarni",
+        "Emily Chen",
+        "Irene Solaiman",
+        "Avijit Ghosh",
+        "Yacine Jernite",
+        "Lucie-Aimée Kaffee"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-11-27T12:50:25.000Z"
+    },
+    {
+      "id": "2512.03771",
+      "title": "In-Context Representation Hijacking",
+      "authors": [
+        "Itay Yona",
+        "Amir Sarid",
+        "Michael Karasik",
+        "Yossi Gandelsman"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/1tux/doublespeak",
+      "published": "2025-12-03T13:19:34.000Z"
+    },
+    {
+      "id": "2511.20515",
+      "title": "AlignBench: Benchmarking Fine-Grained Image-Text Alignment with Synthetic Image-Caption Pairs",
+      "authors": [
+        "Kuniaki Saito",
+        "Risa Shinoda",
+        "Shohei Tanaka",
+        "Tosho Hirasawa",
+        "Fumio Okura",
+        "Yoshitaka Ushiku"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-11-25T17:19:47.000Z"
+    },
+    {
+      "id": "2512.04000",
+      "title": "Divide, then Ground: Adapting Frame Selection to Query Types for Long-Form Video Understanding",
+      "authors": [
+        "Jialuo Li",
+        "Bin Li",
+        "Jiahao Li",
+        "Yan Lu"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/Jialuo-Li/DIG",
+      "published": "2025-12-03T17:36:06.000Z"
+    },
+    {
+      "id": "2512.03794",
+      "title": "AdaptVision: Efficient Vision-Language Models via Adaptive Visual Acquisition",
+      "authors": [
+        "Zichuan Lin",
+        "Yicheng Liu",
+        "Yang Yang",
+        "Lvfang Tao",
+        "Deheng Ye"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/AdaptVision/AdaptVision",
+      "published": "2025-12-03T13:43:30.000Z"
+    },
+    {
+      "id": "2511.22345",
+      "title": "Flowing Backwards: Improving Normalizing Flows via Reverse Representation Alignment",
+      "authors": [
+        "Yang Chen",
+        "Xiaowei Xu",
+        "Shuai Wang",
+        "Chenhui Zhu",
+        "Ruxue Wen",
+        "Xubin Li",
+        "Tiezheng Ge",
+        "Limin Wang"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/MCG-NJU/FlowBack",
+      "published": "2025-11-27T11:35:08.000Z"
+    },
+    {
+      "id": "2512.04025",
+      "title": "PSA: Pyramid Sparse Attention for Efficient Video Understanding and Generation",
+      "authors": [
+        "Xiaolong Li",
+        "Youping Gu",
+        "Xi Lin",
+        "Weijie Wang",
+        "Bohan Zhuang"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/ziplab/Pyramid-Sparse-Attention",
+      "published": "2025-12-03T18:02:11.000Z"
+    },
+    {
+      "id": "2511.20494",
+      "title": "Adversarial Confusion Attack: Disrupting Multimodal Large Language Models",
+      "authors": [
+        "Jakub Hoscilowicz",
+        "Artur Janicki"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2025-11-25T17:00:31.000Z"
+    }
+  ]
+}

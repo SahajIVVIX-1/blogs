@@ -1,0 +1,212 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-10-09",
+  "fetched_at": "2026-10-29T15:29:18.636Z",
+  "candidates": [
+    {
+      "id": "2410.04199",
+      "title": "LongGenBench: Long-context Generation Benchmark",
+      "authors": [
+        "Xiang Liu",
+        "Peijie Dong",
+        "Xuming Hu",
+        "Xiaowen Chu"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/dominic789654/longgenbench",
+      "published": "2024-10-05T15:33:25.000Z"
+    },
+    {
+      "id": "2410.04717",
+      "title": "Only-IF:Revealing the Decisive Effect of Instruction Diversity on Generalization",
+      "authors": [
+        "Dylan Zhang",
+        "Justin Wang",
+        "Francois Charton"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2024-10-07T03:15:11.000Z"
+    },
+    {
+      "id": "2410.01912",
+      "title": "A Spark of Vision-Language Intelligence: 2-Dimensional Autoregressive Transformer for Efficient Finegrained Image Generation",
+      "authors": [
+        "Liang Chen",
+        "Sinan Tan",
+        "Zefan Cai",
+        "Weichu Xie",
+        "Haozhe Zhao",
+        "Yichi Zhang",
+        "Junyang Lin",
+        "Jinze Bai",
+        "Tianyu Liu",
+        "Baobao Chang"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/chenllliang/dnd-transformer",
+      "published": "2024-10-02T18:10:05.000Z"
+    },
+    {
+      "id": "2410.05193",
+      "title": "RevisEval: Improving LLM-as-a-Judge via Response-Adapted References",
+      "authors": [
+        "Qiyuan Zhang",
+        "Yufei Wang",
+        "Tiezheng YU",
+        "Yuxin Jiang",
+        "Chuhan Wu",
+        "Liangyou Li",
+        "Yasheng Wang",
+        "Xin Jiang",
+        "Lifeng Shang",
+        "Ruiming Tang",
+        "Fuyuan Lyu",
+        "Chen Ma"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2024-10-07T16:50:47.000Z"
+    },
+    {
+      "id": "2410.03864",
+      "title": "DOTS: Learning to Reason Dynamically in LLMs via Optimal Reasoning Trajectories Search",
+      "authors": [
+        "Murong Yue",
+        "Wenlin Yao",
+        "Haitao Mi",
+        "Dian Yu",
+        "Ziyu Yao",
+        "Dong Yu"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/MurongYue/DOTS",
+      "published": "2024-10-04T18:58:09.000Z"
+    },
+    {
+      "id": "2410.02705",
+      "title": "ControlAR: Controllable Image Generation with Autoregressive Models",
+      "authors": [
+        "Zongming Li",
+        "Tianheng Cheng",
+        "Shoufa Chen",
+        "Peize Sun",
+        "Haocheng Shen",
+        "Longjin Ran",
+        "Xiaoxin Chen",
+        "Wenyu Liu",
+        "Xinggang Wang"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/hustvl/controlar",
+      "published": "2024-10-03T17:28:07.000Z"
+    },
+    {
+      "id": "2410.04343",
+      "title": "Inference Scaling for Long-Context Retrieval Augmented Generation",
+      "authors": [
+        "Zhenrui Yue",
+        "Honglei Zhuang",
+        "Aijun Bai",
+        "Kai Hui",
+        "Rolf Jagerman",
+        "Hansi Zeng",
+        "Zhen Qin",
+        "Dong Wang",
+        "Xuanhui Wang",
+        "Michael Bendersky"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2024-10-06T03:42:15.000Z"
+    },
+    {
+      "id": "2410.02743",
+      "title": "MA-RLHF: Reinforcement Learning from Human Feedback with Macro Actions",
+      "authors": [
+        "Yekun Chai",
+        "Haoran Sun",
+        "Huang Fang",
+        "Shuohuan Wang",
+        "Yu Sun",
+        "Hua Wu"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/ernie-research/MA-RLHF",
+      "published": "2024-10-03T17:55:13.000Z"
+    },
+    {
+      "id": "2410.05076",
+      "title": "TidalDecode: Fast and Accurate LLM Decoding with Position Persistent Sparse Attention",
+      "authors": [
+        "Lijie Yang",
+        "Zhihao Zhang",
+        "Zhuofu Chen",
+        "Zikun Li",
+        "Zhihao Jia"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/DerrickYLJ/TidalDecode",
+      "published": "2024-10-07T14:30:27.000Z"
+    },
+    {
+      "id": "2410.04081",
+      "title": "ε-VAE: Denoising as Visual Decoding",
+      "authors": [
+        "Long Zhao",
+        "Sanghyun Woo",
+        "Ziyu Wan",
+        "Yandong Li",
+        "Han Zhang",
+        "Boqing Gong",
+        "Hartwig Adam",
+        "Xuhui Jia",
+        "Ting Liu"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2024-10-05T08:27:53.000Z"
+    },
+    {
+      "id": "2410.03399",
+      "title": "EBES: Easy Benchmarking for Event Sequences",
+      "authors": [
+        "Dmitry Osin",
+        "Igor Udovichenko",
+        "Viktor Moskvoretskii",
+        "Egor Shvetsov",
+        "Evgeny Burnaev"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/on-point-rnd/ebes",
+      "published": "2024-10-04T13:03:43.000Z"
+    },
+    {
+      "id": "2410.03290",
+      "title": "Grounded-VideoLLM: Sharpening Fine-grained Temporal Grounding in Video Large Language Models",
+      "authors": [
+        "Haibo Wang",
+        "Zhiyang Xu",
+        "Yu Cheng",
+        "Shizhe Diao",
+        "Yufan Zhou",
+        "Yixin Cao",
+        "Qifan Wang",
+        "Weifeng Ge",
+        "Lifu Huang"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/whb139426/grounded-video-llm",
+      "published": "2024-10-04T10:04:37.000Z"
+    },
+    {
+      "id": "2410.04422",
+      "title": "Hyper-multi-step: The Truth Behind Difficult Long-context Tasks",
+      "authors": [
+        "Yijiong Yu"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/yuyijiong/hard_retrieval_for_llm",
+      "published": "2024-10-06T09:29:19.000Z"
+    }
+  ]
+}

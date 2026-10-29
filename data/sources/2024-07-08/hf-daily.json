@@ -1,0 +1,317 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-07-08",
+  "fetched_at": "2026-10-29T15:28:21.937Z",
+  "candidates": [
+    {
+      "id": "2406.11832",
+      "title": "Unveiling Encoder-Free Vision-Language Models",
+      "authors": [
+        "Haiwen Diao",
+        "Yufeng Cui",
+        "Xiaotong Li",
+        "Yueze Wang",
+        "Huchuan Lu",
+        "Xinlong Wang"
+      ],
+      "upvotes": 53,
+      "github": null,
+      "published": "2024-06-17T17:59:44.000Z"
+    },
+    {
+      "id": "2407.04051",
+      "title": "FunAudioLLM: Voice Understanding and Generation Foundation Models for Natural Interaction Between Humans and LLMs",
+      "authors": [
+        "Tongyi SpeechTeam"
+      ],
+      "upvotes": 38,
+      "github": "https://github.com/funaudiollm/cosyvoice",
+      "published": "2024-07-04T16:49:02.000Z"
+    },
+    {
+      "id": "2407.04620",
+      "title": "Learning to (Learn at Test Time): RNNs with Expressive Hidden States",
+      "authors": [
+        "Yu Sun",
+        "Xinhao Li",
+        "Karan Dalal",
+        "Jiarui Xu",
+        "Arjun Vikram",
+        "Genghan Zhang",
+        "Yann Dubois",
+        "Xinlei Chen",
+        "Xiaolong Wang",
+        "Sanmi Koyejo",
+        "Tatsunori Hashimoto",
+        "Carlos Guestrin"
+      ],
+      "upvotes": 33,
+      "github": "https://github.com/test-time-training/ttt-lm-jax",
+      "published": "2024-07-05T16:23:20.000Z"
+    },
+    {
+      "id": "2407.04363",
+      "title": "AriGraph: Learning Knowledge Graph World Models with Episodic Memory for LLM Agents",
+      "authors": [
+        "Petr Anokhin",
+        "Nikita Semenov",
+        "Artyom Sorokin",
+        "Dmitry Evseev",
+        "Mikhail Burtsev",
+        "Evgeny Burnaev"
+      ],
+      "upvotes": 32,
+      "github": "https://github.com/airi-institute/arigraph",
+      "published": "2024-07-05T09:06:47.000Z"
+    },
+    {
+      "id": "2407.05131",
+      "title": "RULE: Reliable Multimodal RAG for Factuality in Medical Vision Language Models",
+      "authors": [
+        "Peng Xia",
+        "Kangyu Zhu",
+        "Haoran Li",
+        "Hongtu Zhu",
+        "Yun Li",
+        "Gang Li",
+        "Linjun Zhang",
+        "Huaxiu Yao"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/richard-peng-xia/rule",
+      "published": "2024-07-06T16:45:07.000Z"
+    },
+    {
+      "id": "2407.04172",
+      "title": "ChartGemma: Visual Instruction-tuning for Chart Reasoning in the Wild",
+      "authors": [
+        "Ahmed Masry",
+        "Megh Thakkar",
+        "Aayush Bajaj",
+        "Aaryaman Kartha",
+        "Enamul Hoque",
+        "Shafiq Joty"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/vis-nlp/chartgemma",
+      "published": "2024-07-04T22:16:40.000Z"
+    },
+    {
+      "id": "2407.03958",
+      "title": "Stark: Social Long-Term Multi-Modal Conversation with Persona Commonsense Knowledge",
+      "authors": [
+        "Young-Jun Lee",
+        "Dokyong Lee",
+        "Junyoung Youn",
+        "Kyeongjin Oh",
+        "Byungsoo Ko",
+        "Jonghwan Hyeon",
+        "Ho-Jin Choi"
+      ],
+      "upvotes": 20,
+      "github": null,
+      "published": "2024-07-04T14:26:49.000Z"
+    },
+    {
+      "id": "2407.04078",
+      "title": "DotaMath: Decomposition of Thought with Code Assistance and Self-correction for Mathematical Reasoning",
+      "authors": [
+        "Chengpeng Li",
+        "Guanting Dong",
+        "Mingfeng Xue",
+        "Ru Peng",
+        "Xiang Wang",
+        "Dayiheng Liu"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/chengpengli1003/dotamath",
+      "published": "2024-07-04T17:39:16.000Z"
+    },
+    {
+      "id": "2407.03963",
+      "title": "LLM-jp: A Cross-organizational Project for the Research and Development of Fully Open Japanese LLMs",
+      "authors": [
+        "LLM-jp",
+        "Akiko Aizawa",
+        "Eiji Aramaki",
+        "Bowen Chen",
+        "Fei Cheng",
+        "Hiroyuki Deguchi",
+        "Rintaro Enomoto",
+        "Kazuki Fujii",
+        "Kensuke Fukumoto",
+        "Takuya Fukushima",
+        "Namgi Han",
+        "Yuto Harada",
+        "Chikara Hashimoto",
+        "Tatsuya Hiraoka",
+        "Shohei Hisada",
+        "Sosuke Hosokawa",
+        "Lu Jie",
+        "Keisuke Kamata",
+        "Teruhito Kanazawa",
+        "Hiroki Kanezashi",
+        "Hiroshi Kataoka",
+        "Satoru Katsumata",
+        "Daisuke Kawahara",
+        "Seiya Kawano",
+        "Atsushi Keyaki",
+        "Keisuke Kiryu",
+        "Hirokazu Kiyomaru",
+        "Takashi Kodama",
+        "Takahiro Kubo",
+        "Yohei Kuga",
+        "Ryoma Kumon",
+        "Shuhei Kurita",
+        "Sadao Kurohashi",
+        "Conglong Li",
+        "Taiki Maekawa",
+        "Hiroshi Matsuda",
+        "Yusuke Miyao",
+        "Kentaro Mizuki",
+        "Sakae Mizuki",
+        "Yugo Murawaki",
+        "Ryo Nakamura",
+        "Taishi Nakamura",
+        "Kouta Nakayama",
+        "Tomoka Nakazato",
+        "Takuro Niitsuma",
+        "Jiro Nishitoba",
+        "Yusuke Oda",
+        "Hayato Ogawa",
+        "Takumi Okamoto",
+        "Naoaki Okazaki",
+        "Yohei Oseki",
+        "Shintaro Ozaki",
+        "Koki Ryu",
+        "Rafal Rzepka",
+        "Keisuke Sakaguchi",
+        "Shota Sasaki",
+        "Satoshi Sekine",
+        "Kohei Suda",
+        "Saku Sugawara",
+        "Issa Sugiura",
+        "Hiroaki Sugiyama",
+        "Hisami Suzuki",
+        "Jun Suzuki",
+        "Toyotaro Suzumura",
+        "Kensuke Tachibana",
+        "Yu Takagi",
+        "Kyosuke Takami",
+        "Koichi Takeda",
+        "Masashi Takeshita",
+        "Masahiro Tanaka",
+        "Kenjiro Taura",
+        "Arseny Tolmachev",
+        "Nobuhiro Ueda",
+        "Zhen Wan",
+        "Shuntaro Yada",
+        "Sakiko Yahata",
+        "Yuya Yamamoto",
+        "Yusuke Yamauchi",
+        "Hitomi Yanaka",
+        "Rio Yokota",
+        "Koichiro Yoshino"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2024-07-04T14:33:03.000Z"
+    },
+    {
+      "id": "2406.08085",
+      "title": "Flash-VStream: Memory-Based Real-Time Understanding for Long Video Streams",
+      "authors": [
+        "Haoji Zhang",
+        "Yiqin Wang",
+        "Yansong Tang",
+        "Yong Liu",
+        "Jiashi Feng",
+        "Jifeng Dai",
+        "Xiaojie Jin"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2024-06-12T11:07:55.000Z"
+    },
+    {
+      "id": "2407.04622",
+      "title": "On scalable oversight with weak LLMs judging strong LLMs",
+      "authors": [
+        "Zachary Kenton",
+        "Noah Y. Siegel",
+        "János Kramár",
+        "Jonah Brown-Cohen",
+        "Samuel Albanie",
+        "Jannis Bulian",
+        "Rishabh Agarwal",
+        "David Lindner",
+        "Yunhao Tang",
+        "Noah D. Goodman",
+        "Rohin Shah"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2024-07-05T16:29:15.000Z"
+    },
+    {
+      "id": "2407.02855",
+      "title": "Safe Unlearning: A Surprisingly Effective and Generalizable Solution to Defend Against Jailbreak Attacks",
+      "authors": [
+        "Zhexin Zhang",
+        "Junxiao Yang",
+        "Pei Ke",
+        "Shiyao Cui",
+        "Chujie Zheng",
+        "Hongning Wang",
+        "Minlie Huang"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/thu-coai/safeunlearning",
+      "published": "2024-07-03T07:14:05.000Z"
+    },
+    {
+      "id": "2407.03418",
+      "title": "HEMM: Holistic Evaluation of Multimodal Foundation Models",
+      "authors": [
+        "Paul Pu Liang",
+        "Akshay Goindani",
+        "Talha Chafekar",
+        "Leena Mathur",
+        "Haofei Yu",
+        "Ruslan Salakhutdinov",
+        "Louis-Philippe Morency"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/pliang279/hemm",
+      "published": "2024-07-03T18:00:48.000Z"
+    },
+    {
+      "id": "2407.03923",
+      "title": "CRiM-GS: Continuous Rigid Motion-Aware Gaussian Splatting from Motion Blur Images",
+      "authors": [
+        "Junghe Lee",
+        "Donghyeong Kim",
+        "Dogyoon Lee",
+        "Suhwan Cho",
+        "Sangyoun Lee"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2024-07-04T13:37:04.000Z"
+    },
+    {
+      "id": "2407.04952",
+      "title": "Granular Privacy Control for Geolocation with Vision Language Models",
+      "authors": [
+        "Ethan Mendes",
+        "Yang Chen",
+        "James Hays",
+        "Sauvik Das",
+        "Wei Xu",
+        "Alan Ritter"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/ethanm88/GPTGeoChat",
+      "published": "2024-07-06T04:06:55.000Z"
+    }
+  ]
+}

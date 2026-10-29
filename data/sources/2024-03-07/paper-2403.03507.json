@@ -1,0 +1,7 @@
+{
+  "id": "2403.03507",
+  "html": "https://arxiv.org/html/2403.03507",
+  "limitations": null,
+  "conclusion": "We propose GaLore, a memory-efficient pre-training and fine-tuning strategy for large language models. GaLore significantly reduces memory usage by up to 65.5% in optimizer states while maintaining both efficiency and performance for large-scale LLM pre-training and fine-tuning. We identify several open problems for GaLore, which include (1) applying GaLore on training of various models such as vision transformers ( Dosovitskiy et al., 2021 ) and diffusion models ( Ho et al., 2020 ) , (2) further enhancing memory efficiency by employing low-memory projection matrices, and (3) exploring the feasibility of elastic data distributed training on low-bandwidth consumer-grade hardware. We hope that our work will inspire future research on memory-efficient training from the perspective of gradient low-rank projection. We believe that GaLore will be a valuable tool for the community, enabling the",
+  "figure": null
+}

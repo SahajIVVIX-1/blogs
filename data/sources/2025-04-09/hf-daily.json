@@ -1,0 +1,339 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-04-09",
+  "fetched_at": "2026-10-29T15:31:09.275Z",
+  "candidates": [
+    {
+      "id": "2504.06263",
+      "title": "OmniSVG: A Unified Scalable Vector Graphics Generation Model",
+      "authors": [
+        "Yiying Yang",
+        "Wei Cheng",
+        "Sijin Chen",
+        "Xianfang Zeng",
+        "Jiaxu Zhang",
+        "Liao Wang",
+        "Gang Yu",
+        "Xingjun Ma",
+        "Yu-Gang Jiang"
+      ],
+      "upvotes": 186,
+      "github": "https://github.com/OmniSVG/OmniSVG",
+      "published": "2025-04-08T17:59:49.000Z"
+    },
+    {
+      "id": "2504.06261",
+      "title": "Hogwild! Inference: Parallel LLM Generation via Concurrent Attention",
+      "authors": [
+        "Gleb Rodionov",
+        "Roman Garipov",
+        "Alina Shutova",
+        "George Yakushev",
+        "Vage Egiazarian",
+        "Anton Sinitsin",
+        "Denis Kuznedelev",
+        "Dan Alistarh"
+      ],
+      "upvotes": 111,
+      "github": "https://github.com/eqimp/hogwild_llm",
+      "published": "2025-04-08T17:59:41.000Z"
+    },
+    {
+      "id": "2504.05599",
+      "title": "Skywork R1V: Pioneering Multimodal Reasoning with Chain-of-Thought",
+      "authors": [
+        "Yi Peng",
+        "Chris",
+        "Xiaokun Wang",
+        "Yichen Wei",
+        "Jiangbo Pei",
+        "Weijie Qiu",
+        "Ai Jian",
+        "Yunzhuo Hao",
+        "Jiachun Pan",
+        "Tianyidan Xie",
+        "Li Ge",
+        "Rongxian Zhuang",
+        "Xuchen Song",
+        "Yang Liu",
+        "Yahui Zhou"
+      ],
+      "upvotes": 87,
+      "github": "https://github.com/SkyworkAI/Skywork-R1V",
+      "published": "2025-04-08T01:19:20.000Z"
+    },
+    {
+      "id": "2504.05979",
+      "title": "An Empirical Study of GPT-4o Image Generation Capabilities",
+      "authors": [
+        "Sixiang Chen",
+        "Jinbin Bai",
+        "Zhuoran Zhao",
+        "Tian Ye",
+        "Qingyu Shi",
+        "Donghao Zhou",
+        "Wenhao Chai",
+        "Xin Lin",
+        "Jianzong Wu",
+        "Chao Tang",
+        "Shilin Xu",
+        "Tao Zhang",
+        "Haobo Yuan",
+        "Yikang Zhou",
+        "Wei Chow",
+        "Linfeng Li",
+        "Xiangtai Li",
+        "Lei Zhu",
+        "Lu Qi"
+      ],
+      "upvotes": 64,
+      "github": "https://github.com/ephemeral182/empirical-study-of-gpt-4o-image-gen",
+      "published": "2025-04-08T12:34:36.000Z"
+    },
+    {
+      "id": "2504.05535",
+      "title": "COIG-P: A High-Quality and Large-Scale Chinese Preference Dataset for Alignment with Human Values",
+      "authors": [
+        "M-A-P Team",
+        "Siwei Wu",
+        "Jincheng Ren",
+        "Xinrun Du",
+        "Shuyue Guo",
+        "Xingwei Qu",
+        "Yiming Liang",
+        "Jie Liu",
+        "Yunwen Li",
+        "Tianyu Zheng",
+        "Boyu Feng",
+        "Huaqing Yuan",
+        "Zenith Wang",
+        "Jiaheng Liu",
+        "Wenhao Huang",
+        "Chenglin Cai",
+        "Haoran Que",
+        "Jian Yang",
+        "Yuelin Bai",
+        "Zekun Moore Wang",
+        "Zhouliang Yu",
+        "Qunshu Lin",
+        "Ding Pan",
+        "Yuchen Jiang",
+        "Tiannan Wang",
+        "Wangchunshu Zhou",
+        "Shenzhi Wang",
+        "Xingyuan Bu",
+        "Minghao Liu",
+        "Guoyin Wang",
+        "Ge Zhang",
+        "Chenghua Lin"
+      ],
+      "upvotes": 43,
+      "github": "https://github.com/multimodal-art-projection/COIG-P",
+      "published": "2025-04-07T22:15:51.000Z"
+    },
+    {
+      "id": "2504.02160",
+      "title": "Less-to-More Generalization: Unlocking More Controllability by In-Context Generation",
+      "authors": [
+        "Shaojin Wu",
+        "Mengqi Huang",
+        "Wenxu Wu",
+        "Yufeng Cheng",
+        "Fei Ding",
+        "Qian He"
+      ],
+      "upvotes": 35,
+      "github": "https://github.com/bytedance/UNO",
+      "published": "2025-04-02T22:20:21.000Z"
+    },
+    {
+      "id": "2504.05897",
+      "title": "HybriMoE: Hybrid CPU-GPU Scheduling and Cache Management for Efficient MoE Inference",
+      "authors": [
+        "Shuzhang Zhong",
+        "Yanfan Sun",
+        "Ling Liang",
+        "Runsheng Wang",
+        "Ru Huang",
+        "Meng Li"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/PKU-SEC-Lab/HybriMoE",
+      "published": "2025-04-08T10:47:37.000Z"
+    },
+    {
+      "id": "2504.06232",
+      "title": "HiFlow: Training-free High-Resolution Image Generation with Flow-Aligned Guidance",
+      "authors": [
+        "Jiazi Bu",
+        "Pengyang Ling",
+        "Yujie Zhou",
+        "Pan Zhang",
+        "Tong Wu",
+        "Xiaoyi Dong",
+        "Yuhang Zang",
+        "Yuhang Cao",
+        "Dahua Lin",
+        "Jiaqi Wang"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/Bujiazi/HiFlow",
+      "published": "2025-04-08T17:30:40.000Z"
+    },
+    {
+      "id": "2504.06148",
+      "title": "V-MAGE: A Game Evaluation Framework for Assessing Visual-Centric Capabilities in Multimodal Large Language Models",
+      "authors": [
+        "Xiangxi Zheng",
+        "Linjie Li",
+        "Zhengyuan Yang",
+        "Ping Yu",
+        "Alex Jinpeng Wang",
+        "Rui Yan",
+        "Yuan Yao",
+        "Lijuan Wang"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/CSU-JPG/V-MAGE",
+      "published": "2025-04-08T15:43:01.000Z"
+    },
+    {
+      "id": "2504.02810",
+      "title": "Generative Evaluation of Complex Reasoning in Large Language Models",
+      "authors": [
+        "Haowei Lin",
+        "Xiangyu Wang",
+        "Ruilin Yan",
+        "Baizhou Huang",
+        "Haotian Ye",
+        "Jianhua Zhu",
+        "Zihao Wang",
+        "James Zou",
+        "Jianzhu Ma",
+        "Yitao Liang"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/linhaowei1/kumo",
+      "published": "2025-04-03T17:54:18.000Z"
+    },
+    {
+      "id": "2504.07079",
+      "title": "SkillWeaver: Web Agents can Self-Improve by Discovering and Honing Skills",
+      "authors": [
+        "Boyuan Zheng",
+        "Michael Y. Fatemi",
+        "Xiaolong Jin",
+        "Zora Zhiruo Wang",
+        "Apurva Gandhi",
+        "Yueqi Song",
+        "Yu Gu",
+        "Jayanth Srinivasa",
+        "Gaowen Liu",
+        "Graham Neubig",
+        "Yu Su"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/OSU-NLP-Group/SkillWeaver",
+      "published": "2025-04-09T17:51:50.000Z"
+    },
+    {
+      "id": "2503.20533",
+      "title": "Accelerate Parallelizable Reasoning via Parallel Decoding within One Sequence",
+      "authors": [
+        "Yijiong Yu"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/yuyijiong/parallel-decoding-in-one-sequence",
+      "published": "2025-03-26T13:28:57.000Z"
+    },
+    {
+      "id": "2504.05594",
+      "title": "Tuning-Free Image Editing with Fidelity and Editability via Unified Latent Diffusion Model",
+      "authors": [
+        "Qi Mao",
+        "Lan Chen",
+        "Yuchao Gu",
+        "Mike Zheng Shou",
+        "Ming-Hsuan Yang"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/CUC-MIPG/UnifyEdit",
+      "published": "2025-04-08T01:02:50.000Z"
+    },
+    {
+      "id": "2504.00043",
+      "title": "CrossWordBench: Evaluating the Reasoning Capabilities of LLMs and LVLMs with Controllable Puzzle Generation",
+      "authors": [
+        "Jixuan Leng",
+        "Chengsong Huang",
+        "Langlin Huang",
+        "Bill Yuchen Lin",
+        "William W. Cohen",
+        "Haohan Wang",
+        "Jiaxin Huang"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/SeanLeng1/CrossWordBench",
+      "published": "2025-03-30T20:03:36.000Z"
+    },
+    {
+      "id": "2504.05520",
+      "title": "Efficient Reinforcement Finetuning via Adaptive Curriculum Learning",
+      "authors": [
+        "Taiwei Shi",
+        "Yiyang Wu",
+        "Linxin Song",
+        "Tianyi Zhou",
+        "Jieyu Zhao"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/uscnlp-lime/verl",
+      "published": "2025-04-07T21:31:31.000Z"
+    },
+    {
+      "id": "2504.06122",
+      "title": "Leanabell-Prover: Posttraining Scaling in Formal Reasoning",
+      "authors": [
+        "Jingyuan Zhang",
+        "Qi Wang",
+        "Xingguang Ji",
+        "Yahui Liu",
+        "Yang Yue",
+        "Fuzheng Zhang",
+        "Di Zhang",
+        "Guorui Zhou",
+        "Kun Gai"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/leanabell-lm/leanabell-prover",
+      "published": "2025-04-08T15:15:26.000Z"
+    },
+    {
+      "id": "2504.02792",
+      "title": "Unified World Models: Coupling Video and Action Diffusion for Pretraining on Large Robotic Datasets",
+      "authors": [
+        "Chuning Zhu",
+        "Raymond Yu",
+        "Siyuan Feng",
+        "Benjamin Burchfiel",
+        "Paarth Shah",
+        "Abhishek Gupta"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/WEIRDLabUW/unified-world-model",
+      "published": "2025-04-03T17:38:59.000Z"
+    },
+    {
+      "id": "2504.03755",
+      "title": "ProtoGCD: Unified and Unbiased Prototype Learning for Generalized Category Discovery",
+      "authors": [
+        "Shijie Ma",
+        "Fei Zhu",
+        "Xu-Yao Zhang",
+        "Cheng-Lin Liu"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/mashijie1028/ProtoGCD",
+      "published": "2025-04-02T06:13:14.000Z"
+    }
+  ]
+}

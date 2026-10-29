@@ -1,0 +1,367 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2023-09-19",
+  "fetched_at": "2026-10-29T15:25:23.644Z",
+  "candidates": [
+    {
+      "id": "2309.09400",
+      "title": "CulturaX: A Cleaned, Enormous, and Multilingual Dataset for Large Language Models in 167 Languages",
+      "authors": [
+        "Thuat Nguyen",
+        "Chien Van Nguyen",
+        "Viet Dac Lai",
+        "Hieu Man",
+        "Nghia Trung Ngo",
+        "Franck Dernoncourt",
+        "Ryan A. Rossi",
+        "Thien Huu Nguyen"
+      ],
+      "upvotes": 88,
+      "github": null,
+      "published": "2023-09-17T23:49:10.000Z"
+    },
+    {
+      "id": "2309.09530",
+      "title": "Adapting Large Language Models via Reading Comprehension",
+      "authors": [
+        "Daixuan Cheng",
+        "Shaohan Huang",
+        "Furu Wei"
+      ],
+      "upvotes": 82,
+      "github": null,
+      "published": "2023-09-18T07:17:52.000Z"
+    },
+    {
+      "id": "2309.08872",
+      "title": "PDFTriage: Question Answering over Long, Structured Documents",
+      "authors": [
+        "Jon Saad-Falcon",
+        "Joe Barrow",
+        "Alexa Siu",
+        "Ani Nenkova",
+        "Ryan A. Rossi",
+        "Franck Dernoncourt"
+      ],
+      "upvotes": 55,
+      "github": null,
+      "published": "2023-09-16T04:29:05.000Z"
+    },
+    {
+      "id": "2309.10020",
+      "title": "Multimodal Foundation Models: From Specialists to General-Purpose Assistants",
+      "authors": [
+        "Chunyuan Li",
+        "Zhe Gan",
+        "Zhengyuan Yang",
+        "Jianwei Yang",
+        "Linjie Li",
+        "Lijuan Wang",
+        "Jianfeng Gao"
+      ],
+      "upvotes": 41,
+      "github": "https://github.com/computer-vision-in-the-wild/cvinw_readings",
+      "published": "2023-09-18T17:56:28.000Z"
+    },
+    {
+      "id": "2309.09117",
+      "title": "Contrastive Decoding Improves Reasoning in Large Language Models",
+      "authors": [
+        "Sean O'Brien",
+        "Mike Lewis"
+      ],
+      "upvotes": 39,
+      "github": null,
+      "published": "2023-09-17T00:29:32.000Z"
+    },
+    {
+      "id": "2309.08968",
+      "title": "Sorted LLaMA: Unlocking the Potential of Intermediate Layers of Large Language Models for Dynamic Inference Using Sorted Fine-Tuning (SoFT)",
+      "authors": [
+        "Parsa Kavehzadeh",
+        "Mojtaba Valipour",
+        "Marzieh Tahaei",
+        "Ali Ghodsi",
+        "Boxing Chen",
+        "Mehdi Rezagholizadeh"
+      ],
+      "upvotes": 23,
+      "github": null,
+      "published": "2023-09-16T11:58:34.000Z"
+    },
+    {
+      "id": "2309.10305",
+      "title": "Baichuan 2: Open Large-scale Language Models",
+      "authors": [
+        "Aiyuan Yang",
+        "Bin Xiao",
+        "Bingning Wang",
+        "Borong Zhang",
+        "Chao Yin",
+        "Chenxu Lv",
+        "Da Pan",
+        "Dian Wang",
+        "Dong Yan",
+        "Fan Yang",
+        "Fei Deng",
+        "Feng Wang",
+        "Feng Liu",
+        "Guangwei Ai",
+        "Guosheng Dong Haizhou Zhao",
+        "Hang Xu",
+        "Haoze Sun",
+        "Hongda Zhang",
+        "Hui Liu",
+        "Jiaming Ji",
+        "Jian Xie",
+        "Juntao Dai",
+        "Kun Fang",
+        "Lei Su Liang Song",
+        "Lifeng Liu",
+        "Liyun Ru",
+        "Luyao Ma",
+        "Mang Wang",
+        "Mickel Liu",
+        "MingAn Lin",
+        "Nuolan Nie",
+        "Peidong Guo",
+        "Ruiyang Sun",
+        "Tao Zhang",
+        "Tianpeng Li",
+        "Tianyu Li",
+        "Wei Cheng",
+        "Weipeng Chen",
+        "Xiangrong Zeng",
+        "Xiaochuan Wang",
+        "Xiaoxi Chen",
+        "Xin Men",
+        "Xin Yu",
+        "Xuehai Pan",
+        "Yanjun Shen",
+        "Yiding Wang",
+        "Yiyu Li",
+        "Youxin Jiang",
+        "Yuchen Gao",
+        "Yupeng Zhang",
+        "Zenan Zhou",
+        "Zhiying Wu"
+      ],
+      "upvotes": 21,
+      "github": null,
+      "published": "2023-09-19T04:13:22.000Z"
+    },
+    {
+      "id": "2309.09958",
+      "title": "An Empirical Study of Scaling Instruct-Tuned Large Multimodal Models",
+      "authors": [
+        "Yadong Lu",
+        "Chunyuan Li",
+        "Haotian Liu",
+        "Jianwei Yang",
+        "Jianfeng Gao",
+        "Yelong Shen"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/haotian-liu/LLaVA",
+      "published": "2023-09-18T17:30:46.000Z"
+    },
+    {
+      "id": "2309.09506",
+      "title": "LayoutNUWA: Revealing the Hidden Layout Expertise of Large Language Models",
+      "authors": [
+        "Zecheng Tang",
+        "Chenfei Wu",
+        "Juntao Li",
+        "Nan Duan"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/projectnuwa/layoutnuwa",
+      "published": "2023-09-18T06:35:10.000Z"
+    },
+    {
+      "id": "2309.08646",
+      "title": "Cure the headache of Transformers via Collinear Constrained Attention",
+      "authors": [
+        "Shiyi Zhu",
+        "Jing Ye",
+        "Wei Jiang",
+        "Qi Zhang",
+        "Yifan Wu",
+        "Jianguo Li"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/codefuse-ai/Collinear-Constrained-Attention",
+      "published": "2023-09-15T09:36:51.000Z"
+    },
+    {
+      "id": "2309.09971",
+      "title": "MindAgent: Emergent Gaming Interaction",
+      "authors": [
+        "Ran Gong",
+        "Qiuyuan Huang",
+        "Xiaojian Ma",
+        "Hoi Vo",
+        "Zane Durante",
+        "Yusuke Noda",
+        "Zilong Zheng",
+        "Song-Chun Zhu",
+        "Demetri Terzopoulos",
+        "Li Fei-Fei",
+        "Jianfeng Gao"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2023-09-18T17:52:22.000Z"
+    },
+    {
+      "id": "2309.08963",
+      "title": "Struc-Bench: Are Large Language Models Really Good at Generating Complex Structured Data?",
+      "authors": [
+        "Xiangru Tang",
+        "Yiming Zong",
+        "Yilun Zhao",
+        "Arman Cohan",
+        "Mark Gerstein"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/gersteinlab/struc-bench",
+      "published": "2023-09-16T11:31:58.000Z"
+    },
+    {
+      "id": "2309.10202",
+      "title": "Stabilizing RLHF through Advantage Model and Selective Rehearsal",
+      "authors": [
+        "Baolin Peng",
+        "Linfeng Song",
+        "Ye Tian",
+        "Lifeng Jin",
+        "Haitao Mi",
+        "Dong Yu"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2023-09-18T23:06:32.000Z"
+    },
+    {
+      "id": "2309.08637",
+      "title": "TextBind: Multi-turn Interleaved Multimodal Instruction-following",
+      "authors": [
+        "Huayang Li",
+        "Siheng Li",
+        "Deng Cai",
+        "Longyue Wang",
+        "Lemao Liu",
+        "Taro Watanabe",
+        "Yujiu Yang",
+        "Shuming Shi"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/sihengli99/textbind",
+      "published": "2023-09-14T15:34:01.000Z"
+    },
+    {
+      "id": "2309.06497",
+      "title": "A Distributed Data-Parallel PyTorch Implementation of the Distributed Shampoo Optimizer for Training Neural Networks At-Scale",
+      "authors": [
+        "Hao-Jun Michael Shi",
+        "Tsung-Hsien Lee",
+        "Shintaro Iwasaki",
+        "Jose Gallego-Posada",
+        "Zhijing Li",
+        "Kaushik Rangadurai",
+        "Dheevatsa Mudigere",
+        "Michael Rabbat"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/facebookresearch/optimizers",
+      "published": "2023-09-12T18:11:10.000Z"
+    },
+    {
+      "id": "2309.08804",
+      "title": "Stack-and-Delay: a new codebook pattern for music generation",
+      "authors": [
+        "Gael Le Lan",
+        "Varun Nagaraja",
+        "Ernie Chang",
+        "David Kant",
+        "Zhaoheng Ni",
+        "Yangyang Shi",
+        "Forrest Iandola",
+        "Vikas Chandra"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2023-09-15T22:57:25.000Z"
+    },
+    {
+      "id": "2309.08827",
+      "title": "S3-DST: Structured Open-Domain Dialogue Segmentation and State Tracking in the Era of LLMs",
+      "authors": [
+        "Sarkar Snigdha Sarathi Das",
+        "Chirag Shah",
+        "Mengting Wan",
+        "Jennifer Neville",
+        "Longqi Yang",
+        "Reid Andersen",
+        "Georg Buscher",
+        "Tara Safavi"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2023-09-16T00:59:23.000Z"
+    },
+    {
+      "id": "2309.08628",
+      "title": "Recovering from Privacy-Preserving Masking with Large Language Models",
+      "authors": [
+        "Arpita Vats",
+        "Zhe Liu",
+        "Peng Su",
+        "Debjyoti Paul",
+        "Yingyi Ma",
+        "Yutong Pang",
+        "Zeeshan Ahmed",
+        "Ozlem Kalinli"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2023-09-12T16:39:41.000Z"
+    },
+    {
+      "id": "2309.08773",
+      "title": "Enhance audio generation controllability through representation similarity regularization",
+      "authors": [
+        "Yangyang Shi",
+        "Gael Le Lan",
+        "Varun Nagaraja",
+        "Zhaoheng Ni",
+        "Xinhao Mei",
+        "Ernie Chang",
+        "Forrest Iandola",
+        "Yang Liu",
+        "Vikas Chandra"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2023-09-15T21:32:20.000Z"
+    },
+    {
+      "id": "2309.09390",
+      "title": "Augmenting text for spoken language understanding with Large Language Models",
+      "authors": [
+        "Roshan Sharma",
+        "Suyoun Kim",
+        "Daniel Lazar",
+        "Trang Le",
+        "Akshat Shrivastava",
+        "Kwanghoon Ahn",
+        "Piyush Kansal",
+        "Leda Sari",
+        "Ozlem Kalinli",
+        "Michael Seltzer"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2023-09-17T22:25:34.000Z"
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-07-28",
+  "fetched_at": "2026-10-29T15:32:41.297Z",
+  "candidates": [
+    {
+      "id": "2507.16075",
+      "title": "Deep Researcher with Test-Time Diffusion",
+      "authors": [
+        "Rujun Han",
+        "Yanfei Chen",
+        "Zoey CuiZhu",
+        "Lesly Miculicich",
+        "Guan Sun",
+        "Yuanjun Bi",
+        "Weiming Wen",
+        "Hui Wan",
+        "Chunfeng Wen",
+        "Solène Maître",
+        "George Lee",
+        "Vishy Tirumalashetty",
+        "Emily Xue",
+        "Zizhao Zhang",
+        "Salem Haykal",
+        "Burak Gokturk",
+        "Tomas Pfister",
+        "Chen-Yu Lee"
+      ],
+      "upvotes": 68,
+      "github": null,
+      "published": "2025-07-21T21:23:21.000Z"
+    },
+    {
+      "id": "2507.18553",
+      "title": "The Geometry of LLM Quantization: GPTQ as Babai's Nearest Plane Algorithm",
+      "authors": [
+        "Jiale Chen",
+        "Torsten Hoefler",
+        "Dan Alistarh"
+      ],
+      "upvotes": 42,
+      "github": "https://github.com/IST-DASLab/GPTQ-Babai",
+      "published": "2025-07-24T16:22:18.000Z"
+    },
+    {
+      "id": "2507.19457",
+      "title": "GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning",
+      "authors": [
+        "Lakshya A Agrawal",
+        "Shangyin Tan",
+        "Dilara Soylu",
+        "Noah Ziems",
+        "Rishi Khare",
+        "Krista Opsahl-Ong",
+        "Arnav Singhvi",
+        "Herumb Shandilya",
+        "Michael J Ryan",
+        "Meng Jiang",
+        "Christopher Potts",
+        "Koushik Sen",
+        "Alexandros G. Dimakis",
+        "Ion Stoica",
+        "Dan Klein",
+        "Matei Zaharia",
+        "Omar Khattab"
+      ],
+      "upvotes": 36,
+      "github": "https://github.com/gepa-ai/gepa",
+      "published": "2025-07-25T17:42:32.000Z"
+    },
+    {
+      "id": "2507.19478",
+      "title": "MMBench-GUI: Hierarchical Multi-Platform Evaluation Framework for GUI Agents",
+      "authors": [
+        "Xuehui Wang",
+        "Zhenyu Wu",
+        "JingJing Xie",
+        "Zichen Ding",
+        "Bowen Yang",
+        "Zehao Li",
+        "Zhaoyang Liu",
+        "Qingyun Li",
+        "Xuan Dong",
+        "Zhe Chen",
+        "Weiyun Wang",
+        "Xiangyu Zhao",
+        "Jixuan Chen",
+        "Haodong Duan",
+        "Tianbao Xie",
+        "Chenyu Yang",
+        "Shiqian Su",
+        "Yue Yu",
+        "Yuan Huang",
+        "Yiqian Liu",
+        "Xiao Zhang",
+        "Yanting Zhang",
+        "Xiangyu Yue",
+        "Weijie Su",
+        "Xizhou Zhu",
+        "Wei Shen",
+        "Jifeng Dai",
+        "Wenhai Wang"
+      ],
+      "upvotes": 29,
+      "github": "https://github.com/open-compass/MMBench-GUI",
+      "published": "2025-07-25T17:59:26.000Z"
+    },
+    {
+      "id": "2507.20198",
+      "title": "When Tokens Talk Too Much: A Survey of Multimodal Long-Context Token Compression across Images, Videos, and Audios",
+      "authors": [
+        "Kele Shao",
+        "Keda Tao",
+        "Kejia Zhang",
+        "Sicheng Feng",
+        "Mu Cai",
+        "Yuzhang Shang",
+        "Haoxuan You",
+        "Can Qin",
+        "Yang Sui",
+        "Huan Wang"
+      ],
+      "upvotes": 28,
+      "github": "https://github.com/cokeshao/Awesome-Multimodal-Token-Compression",
+      "published": "2025-07-27T09:33:56.000Z"
+    },
+    {
+      "id": "2507.18392",
+      "title": "CLEAR: Error Analysis via LLM-as-a-Judge Made Easy",
+      "authors": [
+        "Asaf Yehudai",
+        "Lilach Eden",
+        "Yotam Perlitz",
+        "Roy Bar-Haim",
+        "Michal Shmueli-Scheuer"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/IBM/CLEAR",
+      "published": "2025-07-24T13:15:21.000Z"
+    },
+    {
+      "id": "2507.16534",
+      "title": "Frontier AI Risk Management Framework in Practice: A Risk Analysis Technical Report",
+      "authors": [
+        "Shanghai AI Lab",
+        "Xiaoyang Chen",
+        "Yunhao Chen",
+        "Zeren Chen",
+        "Zhiyun Chen",
+        "Hanyun Cui",
+        "Yawen Duan",
+        "Jiaxuan Guo",
+        "Qi Guo",
+        "Xuhao Hu",
+        "Hong Huang",
+        "Lige Huang",
+        "Chunxiao Li",
+        "Juncheng Li",
+        "Qihao Lin",
+        "Dongrui Liu",
+        "Xinmin Liu",
+        "Zicheng Liu",
+        "Chaochao Lu",
+        "Xiaoya Lu",
+        "Jingjing Qu",
+        "Qibing Ren",
+        "Jing Shao",
+        "Jingwei Shi",
+        "Jingwei Sun",
+        "Peng Wang",
+        "Weibing Wang",
+        "Jia Xu",
+        "Lewen Yan",
+        "Xiao Yu",
+        "Yi Yu",
+        "Boxuan Zhang",
+        "Jie Zhang",
+        "Weichen Zhang",
+        "Zhijie Zheng",
+        "Tianyi Zhou",
+        "Bowen Zhou"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2025-07-22T12:44:38.000Z"
+    },
+    {
+      "id": "2507.17596",
+      "title": "PRIX: Learning to Plan from Raw Pixels for End-to-End Autonomous Driving",
+      "authors": [
+        "Maciej K. Wozniak",
+        "Lianhang Liu",
+        "Yixi Cai",
+        "Patric Jensfelt"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/maxiuw/prix",
+      "published": "2025-07-23T15:28:23.000Z"
+    },
+    {
+      "id": "2507.18742",
+      "title": "Specification Self-Correction: Mitigating In-Context Reward Hacking Through Test-Time Refinement",
+      "authors": [
+        "Víctor Gallego"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/vicgalle/specification-self-correction",
+      "published": "2025-07-24T18:44:28.000Z"
+    },
+    {
+      "id": "2507.10510",
+      "title": "Chat with AI: The Surprising Turn of Real-time Video Communication from Human to AI",
+      "authors": [
+        "Jiangkai Wu",
+        "Zhiyuan Ren",
+        "Liming Liu",
+        "Xinggong Zhang"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/pku-netvideo/DeViBench",
+      "published": "2025-07-14T17:34:49.000Z"
+    },
+    {
+      "id": "2507.17957",
+      "title": "AFRDA: Attentive Feature Refinement for Domain Adaptive Semantic Segmentation",
+      "authors": [
+        "Md. Al-Masrur Khan",
+        "Durgakant Pushp",
+        "Lantao Liu"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/Masrur02/AFRDA",
+      "published": "2025-07-23T22:02:17.000Z"
+    }
+  ]
+}

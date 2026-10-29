@@ -1,0 +1,550 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-01-12",
+  "fetched_at": "2026-10-29T15:34:23.002Z",
+  "candidates": [
+    {
+      "id": "2601.05432",
+      "title": "Thinking with Map: Reinforced Parallel Map-Augmented Agent for Geolocalization",
+      "authors": [
+        "Yuxiang Ji",
+        "Yong Wang",
+        "Ziyu Ma",
+        "Yiming Hu",
+        "Hailang Huang",
+        "Xuecai Hu",
+        "Guanhua Chen",
+        "Liaoni Wu",
+        "Xiangxiang Chu"
+      ],
+      "upvotes": 147,
+      "github": "https://github.com/AMAP-ML/Thinking-with-Map",
+      "published": "2026-01-08T23:47:30.000Z"
+    },
+    {
+      "id": "2601.04720",
+      "title": "Qwen3-VL-Embedding and Qwen3-VL-Reranker: A Unified Framework for State-of-the-Art Multimodal Retrieval and Ranking",
+      "authors": [
+        "Mingxin Li",
+        "Yanzhao Zhang",
+        "Dingkun Long",
+        "Keqin Chen",
+        "Sibo Song",
+        "Shuai Bai",
+        "Zhibo Yang",
+        "Pengjun Xie",
+        "An Yang",
+        "Dayiheng Liu",
+        "Jingren Zhou",
+        "Junyang Lin"
+      ],
+      "upvotes": 59,
+      "github": "https://github.com/QwenLM/Qwen3-VL-Embedding",
+      "published": "2026-01-08T08:36:06.000Z"
+    },
+    {
+      "id": "2601.03319",
+      "title": "CaricatureGS: Exaggerating 3D Gaussian Splatting Faces With Gaussian Curvature",
+      "authors": [
+        "Eldad Matmon",
+        "Amit Bracha",
+        "Noam Rotstein",
+        "Ron Kimmel"
+      ],
+      "upvotes": 53,
+      "github": null,
+      "published": "2026-01-06T13:56:28.000Z"
+    },
+    {
+      "id": "2601.06002",
+      "title": "The Molecular Structure of Thought: Mapping the Topology of Long Chain-of-Thought Reasoning",
+      "authors": [
+        "Qiguang Chen",
+        "Yantao Du",
+        "Ziniu Li",
+        "Jinhao Liu",
+        "Songyao Duan",
+        "Jiarui Guo",
+        "Minghao Liu",
+        "Jiaheng Liu",
+        "Tong Yang",
+        "Ge Zhang",
+        "Libo Qin",
+        "Wanxiang Che",
+        "Wenhao Huang"
+      ],
+      "upvotes": 49,
+      "github": null,
+      "published": "2026-01-09T18:39:01.000Z"
+    },
+    {
+      "id": "2601.06021",
+      "title": "Chaining the Evidence: Robust Reinforcement Learning for Deep Search Agents with Citation-Aware Rubric Rewards",
+      "authors": [
+        "Jiajie Zhang",
+        "Xin Lv",
+        "Ling Feng",
+        "Lei Hou",
+        "Juanzi Li"
+      ],
+      "upvotes": 48,
+      "github": "https://github.com/THUDM/CaRR",
+      "published": "2026-01-09T18:57:53.000Z"
+    },
+    {
+      "id": "2601.03017",
+      "title": "MMFormalizer: Multimodal Autoformalization in the Wild",
+      "authors": [
+        "Jing Xiong",
+        "Qi Han",
+        "Yunta Hsieh",
+        "Hui Shen",
+        "Huajian Xin",
+        "Chaofan Tao",
+        "Chenyang Zhao",
+        "Hengyuan Zhang",
+        "Taiqiang Wu",
+        "Zhen Zhang",
+        "Haochen Wang",
+        "Zhongwei Wan",
+        "Lingpeng Kong",
+        "Ngai Wong"
+      ],
+      "upvotes": 47,
+      "github": null,
+      "published": "2026-01-06T13:42:51.000Z"
+    },
+    {
+      "id": "2601.05808",
+      "title": "EnvScaler: Scaling Tool-Interactive Environments for LLM Agent via Programmatic Synthesis",
+      "authors": [
+        "Xiaoshuai Song",
+        "Haofei Chang",
+        "Guanting Dong",
+        "Yutao Zhu",
+        "Zhicheng Dou",
+        "Ji-Rong Wen"
+      ],
+      "upvotes": 38,
+      "github": "https://github.com/RUC-NLPIR/EnvScaler",
+      "published": "2026-01-09T14:32:06.000Z"
+    },
+    {
+      "id": "2601.04786",
+      "title": "AgentOCR: Reimagining Agent History via Optical Self-Compression",
+      "authors": [
+        "Lang Feng",
+        "Fuchao Yang",
+        "Feng Chen",
+        "Xin Cheng",
+        "Haiyang Xu",
+        "Zhenglin Wan",
+        "Ming Yan",
+        "Bo An"
+      ],
+      "upvotes": 31,
+      "github": "https://github.com/langfengQ/AgentOCR",
+      "published": "2026-01-08T10:10:20.000Z"
+    },
+    {
+      "id": "2601.05930",
+      "title": "Can We Predict Before Executing Machine Learning Agents?",
+      "authors": [
+        "Jingsheng Zheng",
+        "Jintian Zhang",
+        "Yujie Luo",
+        "Yuren Mao",
+        "Yunjun Gao",
+        "Lun Du",
+        "Huajun Chen",
+        "Ningyu Zhang"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/zjunlp/predict-before-execute",
+      "published": "2026-01-09T16:44:17.000Z"
+    },
+    {
+      "id": "2601.05966",
+      "title": "VideoAR: Autoregressive Video Generation via Next-Frame & Scale Prediction",
+      "authors": [
+        "Longbin Ji",
+        "Xiaoxiong Liu",
+        "Junyuan Shang",
+        "Shuohuan Wang",
+        "Yu Sun",
+        "Hua Wu",
+        "Haifeng Wang"
+      ],
+      "upvotes": 23,
+      "github": null,
+      "published": "2026-01-09T17:34:59.000Z"
+    },
+    {
+      "id": "2601.05905",
+      "title": "Illusions of Confidence? Diagnosing LLM Truthfulness via Neighborhood Consistency",
+      "authors": [
+        "Haoming Xu",
+        "Ningyuan Zhao",
+        "Yunzhi Yao",
+        "Weihong Xu",
+        "Hongru Wang",
+        "Xinle Deng",
+        "Shumin Deng",
+        "Jeff Z. Pan",
+        "Huajun Chen",
+        "Ningyu Zhang"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/zjunlp/belief",
+      "published": "2026-01-09T16:23:21.000Z"
+    },
+    {
+      "id": "2601.05848",
+      "title": "Goal Force: Teaching Video Models To Accomplish Physics-Conditioned Goals",
+      "authors": [
+        "Nate Gillman",
+        "Yinghua Zhou",
+        "Zitian Tang",
+        "Evan Luo",
+        "Arjan Chakravarthy",
+        "Daksh Aggarwal",
+        "Michael Freeman",
+        "Charles Herrmann",
+        "Chen Sun"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/brown-palm/goal-force",
+      "published": "2026-01-09T15:23:36.000Z"
+    },
+    {
+      "id": "2601.05882",
+      "title": "An Empirical Study on Preference Tuning Generalization and Diversity Under Domain Shift",
+      "authors": [
+        "Constantinos Karouzos",
+        "Xingwei Tan",
+        "Nikolaos Aletras"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/ckarouzos/prefadap",
+      "published": "2026-01-09T15:56:55.000Z"
+    },
+    {
+      "id": "2601.06401",
+      "title": "BizFinBench.v2: A Unified Dual-Mode Bilingual Benchmark for Expert-Level Financial Capability Alignment",
+      "authors": [
+        "Xin Guo",
+        "Rongjunchen Zhang",
+        "Guilong Lu",
+        "Xuntao Guo",
+        "Shuai Jia",
+        "Zhi Yang",
+        "Liwen Zhang"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/HiThink-Research/BizFinBench.v2",
+      "published": "2026-01-10T02:51:53.000Z"
+    },
+    {
+      "id": "2601.05403",
+      "title": "Same Claim, Different Judgment: Benchmarking Scenario-Induced Bias in Multilingual Financial Misinformation Detection",
+      "authors": [
+        "Zhiwei Liu",
+        "Yupen Cao",
+        "Yuechen Jiang",
+        "Mohsinul Kabir",
+        "Polydoros Giannouris",
+        "Chen Xu",
+        "Ziyang Xu",
+        "Tianlei Zhu",
+        "Tariquzzaman Faisal",
+        "Triantafillos Papadopoulos",
+        "Yan Wang",
+        "Lingfei Qian",
+        "Xueqing Peng",
+        "Zhuohan Xie",
+        "Ye Yuan",
+        "Saeed Almheiri",
+        "Abdulrazzaq Alnajjar",
+        "Mingbin Chen",
+        "Harry Stuart",
+        "Paul Thompson",
+        "Prayag Tiwari",
+        "Alejandro Lopez-Lira",
+        "Xue Liu",
+        "Jimin Huang",
+        "Sophia Ananiadou"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/lzw108/FMD",
+      "published": "2026-01-08T22:00:32.000Z"
+    },
+    {
+      "id": "2601.02760",
+      "title": "AnyDepth: Depth Estimation Made Easy",
+      "authors": [
+        "Zeyu Ren",
+        "Zeyu Zhang",
+        "Wukai Li",
+        "Qingxiang Liu",
+        "Hao Tang"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/AIGeeksGroup/AnyDepth",
+      "published": "2026-01-06T06:51:35.000Z"
+    },
+    {
+      "id": "2601.04726",
+      "title": "Memory Matters More: Event-Centric Memory as a Logic Map for Agent Searching and Reasoning",
+      "authors": [
+        "Yuyang Hu",
+        "Jiongnan Liu",
+        "Jiejun Tan",
+        "Yutao Zhu",
+        "Zhicheng Dou"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2026-01-08T08:44:07.000Z"
+    },
+    {
+      "id": "2601.04888",
+      "title": "SmartSearch: Process Reward-Guided Query Refinement for Search Agents",
+      "authors": [
+        "Tongyu Wen",
+        "Guanting Dong",
+        "Zhicheng Dou"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/MYVAE/SmartSearch",
+      "published": "2026-01-08T12:39:05.000Z"
+    },
+    {
+      "id": "2601.05573",
+      "title": "Orient Anything V2: Unifying Orientation and Rotation Understanding",
+      "authors": [
+        "Zehan Wang",
+        "Ziang Zhang",
+        "Jiayang Xu",
+        "Jialei Wang",
+        "Tianyu Pang",
+        "Chao Du",
+        "HengShuang Zhao",
+        "Zhou Zhao"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/SpatialVision/Orient-Anything-V2",
+      "published": "2026-01-09T06:43:59.000Z"
+    },
+    {
+      "id": "2601.04544",
+      "title": "TCAndon-Router: Adaptive Reasoning Router for Multi-Agent Collaboration",
+      "authors": [
+        "Jiuzhou Zhao",
+        "Chunrong Chen",
+        "Chenqi Qiao",
+        "Lebin Zheng",
+        "Minqi Han",
+        "Yanchi Liu Yongzhou Xu Xiaochuan Xu Min Zhang"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/Tencent/TCAndon-Router",
+      "published": "2026-01-08T03:17:33.000Z"
+    },
+    {
+      "id": "2601.04823",
+      "title": "DR-LoRA: Dynamic Rank LoRA for Fine-Tuning Mixture-of-Experts Models",
+      "authors": [
+        "Guanzhi Deng",
+        "Bo Li",
+        "Ronghao Chen",
+        "Xiujin Liu",
+        "Zhuo Han",
+        "Huacan Wang",
+        "Lijie Wen",
+        "Linqi Song"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2026-04-02T00:00:00.000Z"
+    },
+    {
+      "id": "2601.05503",
+      "title": "Over-Searching in Search-Augmented Large Language Models",
+      "authors": [
+        "Roy Xie",
+        "Deepak Gopinath",
+        "David Qiu",
+        "Dong Lin",
+        "Haitian Sun",
+        "Saloni Potdar",
+        "Bhuwan Dhingra"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/ruoyuxie/OversearchQA",
+      "published": "2026-01-09T03:24:46.000Z"
+    },
+    {
+      "id": "2601.04175",
+      "title": "Legal Alignment for Safe and Ethical AI",
+      "authors": [
+        "Noam Kolt",
+        "Nicholas Caputo",
+        "Jack Boeglin",
+        "Cullen O'Keefe",
+        "Rishi Bommasani",
+        "Stephen Casper",
+        "Mariano-Florentino Cuéllar",
+        "Noah Feldman",
+        "Iason Gabriel",
+        "Gillian K. Hadfield",
+        "Lewis Hammond",
+        "Peter Henderson",
+        "Atoosa Kasirzadeh",
+        "Seth Lazar",
+        "Anka Reuel",
+        "Kevin L. Wei",
+        "Jonathan Zittrain"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2026-01-07T18:42:04.000Z"
+    },
+    {
+      "id": "2601.05637",
+      "title": "GenCtrl -- A Formal Controllability Toolkit for Generative Models",
+      "authors": [
+        "Emily Cheng",
+        "Carmen Amo Alonso",
+        "Federico Danieli",
+        "Arno Blaas",
+        "Luca Zappella",
+        "Pau Rodriguez",
+        "Xavier Suau"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/apple/ml-genctrl",
+      "published": "2026-01-09T08:50:02.000Z"
+    },
+    {
+      "id": "2601.05899",
+      "title": "TowerMind: A Tower Defence Game Learning Environment and Benchmark for LLM as Agents",
+      "authors": [
+        "Dawei Wang",
+        "Chengming Zhou",
+        "Di Zhao",
+        "Xinyuan Liu",
+        "Marci Chi Ma",
+        "Gary Ushaw",
+        "Richard Davison"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/tb6147877/TowerMind",
+      "published": "2026-01-09T16:18:08.000Z"
+    },
+    {
+      "id": "2601.05699",
+      "title": "Afri-MCQA: Multimodal Cultural Question Answering for African Languages",
+      "authors": [
+        "Atnafu Lambebo Tonja",
+        "Srija Anand",
+        "Emilio Villa-Cueva",
+        "Israel Abebe Azime",
+        "Jesujoba Oluwadara Alabi",
+        "Muhidin A. Mohamed",
+        "Debela Desalegn Yadeta",
+        "Negasi Haile Abadi",
+        "Abigail Oppong",
+        "Nnaemeka Casmir Obiefuna",
+        "Idris Abdulmumin",
+        "Naome A Etori",
+        "Eric Peter Wairagala",
+        "Kanda Patrick Tshinu",
+        "Imanigirimbabazi Emmanuel",
+        "Gabofetswe Malema",
+        "Alham Fikri Aji",
+        "David Ifeoluwa Adelani",
+        "Thamar Solorio"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-01-09T10:40:09.000Z"
+    },
+    {
+      "id": "2601.05851",
+      "title": "Router-Suggest: Dynamic Routing for Multimodal Auto-Completion in Visually-Grounded Dialogs",
+      "authors": [
+        "Sandeep Mishra",
+        "Devichand Budagam",
+        "Anubhab Mandal",
+        "Bishal Santra",
+        "Pawan Goyal",
+        "Manish Gupta"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/devichand579/MAC",
+      "published": "2026-01-09T15:29:50.000Z"
+    },
+    {
+      "id": "2601.05870",
+      "title": "IIB-LPO: Latent Policy Optimization via Iterative Information Bottleneck",
+      "authors": [
+        "Huilin Deng",
+        "Hongchen Luo",
+        "Yue Zhu",
+        "Long Li",
+        "Zhuoyue Chen",
+        "Xinghao Zhao",
+        "Ming Li",
+        "Jihai Zhang",
+        "Mengchang Wang",
+        "Yang Cao",
+        "Yu Kang"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-01-09T15:46:40.000Z"
+    },
+    {
+      "id": "2601.05741",
+      "title": "ViTNT-FIQA: Training-Free Face Image Quality Assessment with Vision Transformers",
+      "authors": [
+        "Guray Ozgur",
+        "Eduarda Caldeira",
+        "Tahar Chettaoui",
+        "Jan Niklas Kolf",
+        "Marco Huber",
+        "Naser Damer",
+        "Fadi Boutros"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/gurayozgur/ViTNT-FIQA",
+      "published": "2026-01-09T11:46:25.000Z"
+    },
+    {
+      "id": "2601.05960",
+      "title": "Distilling Feedback into Memory-as-a-Tool",
+      "authors": [
+        "Víctor Gallego"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/vicgalle/feedback-memory-as-a-tool",
+      "published": "2026-01-09T17:26:52.000Z"
+    },
+    {
+      "id": "2601.05376",
+      "title": "The Persona Paradox: Medical Personas as Behavioral Priors in Clinical Language Models",
+      "authors": [
+        "Tassallah Abdullahi",
+        "Shrestha Ghosh",
+        "Hamish S Fraser",
+        "Daniel León Tramontini",
+        "Adeel Abbasi",
+        "Ghada Bourjeily",
+        "Carsten Eickhoff",
+        "Ritambhara Singh"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/rsinghlab/Persona_Paradox",
+      "published": "2026-01-08T21:01:11.000Z"
+    }
+  ]
+}

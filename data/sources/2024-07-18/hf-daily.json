@@ -1,0 +1,313 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-07-18",
+  "fetched_at": "2026-10-29T15:28:28.095Z",
+  "candidates": [
+    {
+      "id": "2407.12327",
+      "title": "Spectra: A Comprehensive Study of Ternary, Quantized, and FP16 Language Models",
+      "authors": [
+        "Ayush Kaushal",
+        "Tejas Pandey",
+        "Tejas Vaidhya",
+        "Aaryan Bhagat",
+        "Irina Rish"
+      ],
+      "upvotes": 79,
+      "github": "https://github.com/nolanoorg/spectrasuite",
+      "published": "2024-07-17T05:53:20.000Z"
+    },
+    {
+      "id": "2407.12077",
+      "title": "GoldFinch: High Performance RWKV/Transformer Hybrid with Linear Pre-Fill and Extreme KV-Cache Compression",
+      "authors": [
+        "Daniel Goldstein",
+        "Fares Obeid",
+        "Eric Alcaide",
+        "Guangyu Song",
+        "Eugene Cheah"
+      ],
+      "upvotes": 56,
+      "github": "https://github.com/recursal/GoldFinch-paper",
+      "published": "2024-07-16T18:00:00.000Z"
+    },
+    {
+      "id": "2407.12784",
+      "title": "AgentPoison: Red-teaming LLM Agents via Poisoning Memory or Knowledge Bases",
+      "authors": [
+        "Zhaorun Chen",
+        "Zhen Xiang",
+        "Chaowei Xiao",
+        "Dawn Song",
+        "Bo Li"
+      ],
+      "upvotes": 51,
+      "github": "https://github.com/BillChan226/AgentPoison",
+      "published": "2024-07-17T17:59:47.000Z"
+    },
+    {
+      "id": "2407.12580",
+      "title": "E5-V: Universal Embeddings with Multimodal Large Language Models",
+      "authors": [
+        "Ting Jiang",
+        "Minghui Song",
+        "Zihan Zhang",
+        "Haizhen Huang",
+        "Weiwei Deng",
+        "Feng Sun",
+        "Qi Zhang",
+        "Deqing Wang",
+        "Fuzhen Zhuang"
+      ],
+      "upvotes": 43,
+      "github": "https://github.com/kongds/e5-v",
+      "published": "2024-07-17T14:04:12.000Z"
+    },
+    {
+      "id": "2407.12772",
+      "title": "LMMs-Eval: Reality Check on the Evaluation of Large Multimodal Models",
+      "authors": [
+        "Kaichen Zhang",
+        "Bo Li",
+        "Peiyuan Zhang",
+        "Fanyi Pu",
+        "Joshua Adrian Cahyono",
+        "Kairui Hu",
+        "Shuai Liu",
+        "Yuanhan Zhang",
+        "Jingkang Yang",
+        "Chunyuan Li",
+        "Ziwei Liu"
+      ],
+      "upvotes": 35,
+      "github": "https://github.com/evolvinglmms-lab/lmms-eval",
+      "published": "2024-07-17T17:51:53.000Z"
+    },
+    {
+      "id": "2407.12665",
+      "title": "Patch-Level Training for Large Language Models",
+      "authors": [
+        "Chenze Shao",
+        "Fandong Meng",
+        "Jie Zhou"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/shaochenze/patchtrain",
+      "published": "2024-07-17T15:48:39.000Z"
+    },
+    {
+      "id": "2407.12705",
+      "title": "IMAGDressing-v1: Customizable Virtual Dressing",
+      "authors": [
+        "Fei Shen",
+        "Xin Jiang",
+        "Xin He",
+        "Hu Ye",
+        "Cong Wang",
+        "Xiaoyu Du",
+        "Zechao Li",
+        "Jinghui Tang"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/muzishen/imagdressing",
+      "published": "2024-07-17T16:26:30.000Z"
+    },
+    {
+      "id": "2407.12781",
+      "title": "VD3D: Taming Large Video Diffusion Transformers for 3D Camera Control",
+      "authors": [
+        "Sherwin Bahmani",
+        "Ivan Skorokhodov",
+        "Aliaksandr Siarohin",
+        "Willi Menapace",
+        "Guocheng Qian",
+        "Michael Vasilkovsky",
+        "Hsin-Ying Lee",
+        "Chaoyang Wang",
+        "Jiaxu Zou",
+        "Andrea Tagliasacchi",
+        "David B. Lindell",
+        "Sergey Tulyakov"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2024-07-17T17:59:05.000Z"
+    },
+    {
+      "id": "2407.12504",
+      "title": "Case2Code: Learning Inductive Reasoning with Synthetic Data",
+      "authors": [
+        "Yunfan Shao",
+        "Linyang Li",
+        "Yichuan Ma",
+        "Peiji Li",
+        "Demin Song",
+        "Qinyuan Cheng",
+        "Shimin Li",
+        "Xiaonan Li",
+        "Pengyu Wang",
+        "Qipeng Guo",
+        "Hang Yan",
+        "Xipeng Qiu",
+        "Xuanjing Huang",
+        "Dahua Lin"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/choosewhatulike/case2code",
+      "published": "2024-07-17T11:35:00.000Z"
+    },
+    {
+      "id": "2407.12679",
+      "title": "Goldfish: Vision-Language Understanding of Arbitrarily Long Videos",
+      "authors": [
+        "Kirolos Ataallah",
+        "Xiaoqian Shen",
+        "Eslam Abdelrahman",
+        "Essam Sleiman",
+        "Mingchen Zhuge",
+        "Jian Ding",
+        "Deyao Zhu",
+        "Jürgen Schmidhuber",
+        "Mohamed Elhoseiny"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2024-07-17T15:59:32.000Z"
+    },
+    {
+      "id": "2407.12563",
+      "title": "Audio Conditioning for Music Generation via Discrete Bottleneck Features",
+      "authors": [
+        "Simon Rouard",
+        "Yossi Adi",
+        "Jade Copet",
+        "Axel Roebel",
+        "Alexandre Défossez"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2024-07-17T13:47:17.000Z"
+    },
+    {
+      "id": "2407.11298",
+      "title": "ThinkGrasp: A Vision-Language System for Strategic Part Grasping in Clutter",
+      "authors": [
+        "Yaoyao Qian",
+        "Xupeng Zhu",
+        "Ondrej Biza",
+        "Shuo Jiang",
+        "Linfeng Zhao",
+        "Haojie Huang",
+        "Yu Qi",
+        "Robert Platt"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/H-Freax/ThinkGrasp",
+      "published": "2024-07-16T01:06:33.000Z"
+    },
+    {
+      "id": "2407.12306",
+      "title": "Splatfacto-W: A Nerfstudio Implementation of Gaussian Splatting for Unconstrained Photo Collections",
+      "authors": [
+        "Congrong Xu",
+        "Justin Kerr",
+        "Angjoo Kanazawa"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2024-07-17T04:02:54.000Z"
+    },
+    {
+      "id": "2407.09018",
+      "title": "AUITestAgent: Automatic Requirements Oriented GUI Function Testing",
+      "authors": [
+        "Yongxiang Hu",
+        "Xuan Wang",
+        "Yingchuan Wang",
+        "Yu Zhang",
+        "Shiyu Guo",
+        "Chaoyi Chen",
+        "Xin Wang",
+        "Yangfan Zhou"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/bz-lab/auitestagent",
+      "published": "2024-07-12T06:14:46.000Z"
+    },
+    {
+      "id": "2407.12043",
+      "title": "The Art of Saying No: Contextual Noncompliance in Language Models",
+      "authors": [
+        "Faeze Brahman",
+        "Sachin Kumar",
+        "Vidhisha Balachandran",
+        "Pradeep Dasigi",
+        "Valentina Pyatkin",
+        "Abhilasha Ravichander",
+        "Sarah Wiegreffe",
+        "Nouha Dziri",
+        "Khyathi Chandu",
+        "Jack Hessel",
+        "Yulia Tsvetkov",
+        "Noah A. Smith",
+        "Yejin Choi",
+        "Hannaneh Hajishirzi"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/allenai/compred",
+      "published": "2024-07-02T07:12:51.000Z"
+    },
+    {
+      "id": "2407.12366",
+      "title": "NavGPT-2: Unleashing Navigational Reasoning Capability for Large Vision-Language Models",
+      "authors": [
+        "Gengze Zhou",
+        "Yicong Hong",
+        "Zun Wang",
+        "Xin Eric Wang",
+        "Qi Wu"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/gengzezhou/navgpt-2",
+      "published": "2024-07-17T07:44:26.000Z"
+    },
+    {
+      "id": "2407.10223",
+      "title": "Practical Unlearning for Large Language Models",
+      "authors": [
+        "Chongyang Gao",
+        "Lixu Wang",
+        "Chenkai Weng",
+        "Xiao Wang",
+        "Qi Zhu"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/gcyzsl/o3-llm-unlearning",
+      "published": "2024-07-14T14:26:17.000Z"
+    },
+    {
+      "id": "2407.11854",
+      "title": "Zero-shot Cross-Lingual Transfer for Synthetic Data Generation in Grammatical Error Detection",
+      "authors": [
+        "Gaetan Lopez Latouche",
+        "Marc-André Carbonneau",
+        "Ben Swanson"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2024-07-16T15:35:15.000Z"
+    },
+    {
+      "id": "2407.12581",
+      "title": "Towards Understanding Unsafe Video Generation",
+      "authors": [
+        "Yan Pang",
+        "Aiping Xiong",
+        "Yang Zhang",
+        "Tianhao Wang"
+      ],
+      "upvotes": 0,
+      "github": "https://github.com/py85252876/uvd",
+      "published": "2024-07-17T14:07:22.000Z"
+    }
+  ]
+}

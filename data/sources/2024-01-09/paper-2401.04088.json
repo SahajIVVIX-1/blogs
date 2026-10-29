@@ -1,0 +1,7 @@
+{
+  "id": "2401.04088",
+  "html": "https://arxiv.org/html/2401.04088",
+  "limitations": null,
+  "conclusion": "In this paper, we introduced Mixtral 8x7B, the first mixture-of-experts network to reach a state-of-the-art performance among open-source models. Mixtral 8x7B Instruct outperforms Claude-2.1, Gemini Pro, and GPT-3.5 Turbo on human evaluation benchmarks. Because it only uses two experts at each time step, Mixtral only uses 13B active parameters per token while outperforming the previous best model using 70B parameters per token (Llama 2 70B). We are making our trained and fine-tuned models publicly available under the Apache 2.0 license. By sharing our models, we aim to facilitate the development of new techniques and applications that can benefit a wide range of industries and domains.",
+  "figure": null
+}

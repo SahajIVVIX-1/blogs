@@ -1,0 +1,270 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-02-03",
+  "fetched_at": "2026-10-29T15:30:29.864Z",
+  "candidates": [
+    {
+      "id": "2501.19393",
+      "title": "s1: Simple test-time scaling",
+      "authors": [
+        "Niklas Muennighoff",
+        "Zitong Yang",
+        "Weijia Shi",
+        "Xiang Lisa Li",
+        "Li Fei-Fei",
+        "Hannaneh Hajishirzi",
+        "Luke Zettlemoyer",
+        "Percy Liang",
+        "Emmanuel Candès",
+        "Tatsunori Hashimoto"
+      ],
+      "upvotes": 128,
+      "github": "https://github.com/simplescaling/s1",
+      "published": "2025-01-31T18:48:08.000Z"
+    },
+    {
+      "id": "2501.19324",
+      "title": "Reward-Guided Speculative Decoding for Efficient LLM Reasoning",
+      "authors": [
+        "Baohao Liao",
+        "Yuhui Xu",
+        "Hanze Dong",
+        "Junnan Li",
+        "Christof Monz",
+        "Silvio Savarese",
+        "Doyen Sahoo",
+        "Caiming Xiong"
+      ],
+      "upvotes": 39,
+      "github": null,
+      "published": "2025-01-31T17:19:57.000Z"
+    },
+    {
+      "id": "2501.14677",
+      "title": "MatAnyone: Stable Video Matting with Consistent Memory Propagation",
+      "authors": [
+        "Peiqing Yang",
+        "Shangchen Zhou",
+        "Jixin Zhao",
+        "Qingyi Tao",
+        "Chen Change Loy"
+      ],
+      "upvotes": 32,
+      "github": "https://github.com/pq-yang/MatAnyone",
+      "published": "2025-01-24T17:56:24.000Z"
+    },
+    {
+      "id": "2501.18119",
+      "title": "Self-supervised Quantized Representation for Seamlessly Integrating Knowledge Graphs with Large Language Models",
+      "authors": [
+        "Qika Lin",
+        "Tianzhe Zhao",
+        "Kai He",
+        "Zhen Peng",
+        "Fangzhi Xu",
+        "Ling Huang",
+        "Jingying Ma",
+        "Mengling Feng"
+      ],
+      "upvotes": 25,
+      "github": null,
+      "published": "2025-01-30T03:40:20.000Z"
+    },
+    {
+      "id": "2501.19399",
+      "title": "Scalable-Softmax Is Superior for Attention",
+      "authors": [
+        "Ken M. Nakanishi"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/gdevos010/Scalable-Softmax",
+      "published": "2025-01-31T18:55:35.000Z"
+    },
+    {
+      "id": "2501.19339",
+      "title": "PixelWorld: Towards Perceiving Everything as Pixels",
+      "authors": [
+        "Zhiheng Lyu",
+        "Xueguang Ma",
+        "Wenhu Chen"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/TIGER-AI-Lab/PixelWorld",
+      "published": "2025-01-31T17:39:21.000Z"
+    },
+    {
+      "id": "2411.04983",
+      "title": "DINO-WM: World Models on Pre-trained Visual Features enable Zero-shot Planning",
+      "authors": [
+        "Gaoyue Zhou",
+        "Hengkai Pan",
+        "Yann LeCun",
+        "Lerrel Pinto"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/gaoyuezhou/dino_wm",
+      "published": "2024-11-07T18:54:37.000Z"
+    },
+    {
+      "id": "2501.18837",
+      "title": "Constitutional Classifiers: Defending against Universal Jailbreaks across Thousands of Hours of Red Teaming",
+      "authors": [
+        "Mrinank Sharma",
+        "Meg Tong",
+        "Jesse Mu",
+        "Jerry Wei",
+        "Jorrit Kruthoff",
+        "Scott Goodfriend",
+        "Euan Ong",
+        "Alwin Peng",
+        "Raj Agarwal",
+        "Cem Anil",
+        "Amanda Askell",
+        "Nathan Bailey",
+        "Joe Benton",
+        "Emma Bluemke",
+        "Samuel R. Bowman",
+        "Eric Christiansen",
+        "Hoagy Cunningham",
+        "Andy Dau",
+        "Anjali Gopal",
+        "Rob Gilson",
+        "Logan Graham",
+        "Logan Howard",
+        "Nimit Kalra",
+        "Taesung Lee",
+        "Kevin Lin",
+        "Peter Lofgren",
+        "Francesco Mosconi",
+        "Clare O'Hara",
+        "Catherine Olsson",
+        "Linda Petrini",
+        "Samir Rajani",
+        "Nikhil Saxena",
+        "Alex Silverstein",
+        "Tanya Singh",
+        "Theodore Sumers",
+        "Leonard Tang",
+        "Kevin K. Troy",
+        "Constantin Weisser",
+        "Ruiqi Zhong",
+        "Giulio Zhou",
+        "Jan Leike",
+        "Jared Kaplan",
+        "Ethan Perez"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2025-01-31T01:09:32.000Z"
+    },
+    {
+      "id": "2501.18052",
+      "title": "SAeUron: Interpretable Concept Unlearning in Diffusion Models with Sparse Autoencoders",
+      "authors": [
+        "Bartosz Cywiński",
+        "Kamil Deja"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/cywinski/SAeUron",
+      "published": "2025-01-29T23:29:47.000Z"
+    },
+    {
+      "id": "2501.18965",
+      "title": "The Surprising Agreement Between Convex Optimization Theory and Learning-Rate Scheduling for Large Model Training",
+      "authors": [
+        "Fabian Schaipp",
+        "Alexander Hägele",
+        "Adrien Taylor",
+        "Umut Simsekli",
+        "Francis Bach"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/fabian-sp/lr-scheduling",
+      "published": "2025-01-31T08:55:56.000Z"
+    },
+    {
+      "id": "2501.18804",
+      "title": "Zero-Shot Novel View and Depth Synthesis with Multi-View Geometric Diffusion",
+      "authors": [
+        "Vitor Guizilini",
+        "Muhammad Zubair Irshad",
+        "Dian Chen",
+        "Greg Shakhnarovich",
+        "Rares Ambrus"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-01-30T23:43:06.000Z"
+    },
+    {
+      "id": "2501.18128",
+      "title": "Unraveling the Capabilities of Language Models in News Summarization",
+      "authors": [
+        "Abdurrahman Odabaşı",
+        "Göksel Biricik"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/odabashi/LMs-in-News-Summarization",
+      "published": "2025-01-30T04:20:16.000Z"
+    },
+    {
+      "id": "2404.07097",
+      "title": "Fast Encoder-Based 3D from Casual Videos via Point Track Processing",
+      "authors": [
+        "Yoni Kasten",
+        "Wuyue Lu",
+        "Haggai Maron"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/NVlabs/tracks-to-4d",
+      "published": "2024-04-10T15:37:00.000Z"
+    },
+    {
+      "id": "2501.18841",
+      "title": "Trading Inference-Time Compute for Adversarial Robustness",
+      "authors": [
+        "Wojciech Zaremba",
+        "Evgenia Nitishinskaya",
+        "Boaz Barak",
+        "Stephanie Lin",
+        "Sam Toyer",
+        "Yaodong Yu",
+        "Rachel Dias",
+        "Eric Wallace",
+        "Kai Xiao",
+        "Johannes Heidecke",
+        "Amelia Glaese"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-01-31T01:20:44.000Z"
+    },
+    {
+      "id": "2502.00299",
+      "title": "ChunkKV: Semantic-Preserving KV Cache Compression for Efficient Long-Context LLM Inference",
+      "authors": [
+        "Xiang Liu",
+        "Zhenheng Tang",
+        "Peijie Dong",
+        "Zeyu Li",
+        "Bo Li",
+        "Xuming Hu",
+        "Xiaowen Chu"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/NVIDIA/kvpress",
+      "published": "2025-02-01T03:49:47.000Z"
+    },
+    {
+      "id": "2501.18753",
+      "title": "INT: Instance-Specific Negative Mining for Task-Generic Promptable Segmentation",
+      "authors": [
+        "Jian Hu",
+        "Zixu Cheng",
+        "Shaogang Gong"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2025-01-30T21:07:14.000Z"
+    }
+  ]
+}

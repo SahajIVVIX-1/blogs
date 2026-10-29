@@ -1,0 +1,31 @@
+{
+  "id": "2411.10442",
+  "title": "Enhancing the Reasoning Ability of Multimodal Large Language Models via Mixed Preference Optimization",
+  "authors": [
+    "Weiyun Wang",
+    "Zhe Chen",
+    "Wenhai Wang",
+    "Yue Cao",
+    "Yangzhou Liu",
+    "Zhangwei Gao",
+    "Jinguo Zhu",
+    "Xizhou Zhu",
+    "Lewei Lu",
+    "Yu Qiao",
+    "Jifeng Dai"
+  ],
+  "published": "2024-11-15T18:59:27Z",
+  "abstract": "Existing open-source multimodal large language models (MLLMs) generally follow a training process involving pre-training and supervised fine-tuning. However, these models suffer from distribution shifts, which limit their multimodal reasoning, particularly in the Chain-of-Thought (CoT) performance. To address this, we introduce a preference optimization (PO) process to enhance the multimodal reasoning capabilities of MLLMs. Specifically, (1) on the data side, we design an automated preference data construction pipeline to create MMPR, a high-quality, large-scale multimodal reasoning preference dataset; and (2) on the model side, we explore integrating PO with MLLMs, developing a simple yet effective method, termed Mixed Preference Optimization (MPO), which boosts multimodal CoT performance. Our approach enhances the multimodal reasoning abilities of both InternVL2-8B and InternVL2-76B. Notably, our model, InternVL2-8B-MPO, achieves an accuracy of 67.0 on MathVista, outperforming InternVL2-8B by 8.7 points and achieving performance comparable to the 10$\\times$ larger InternVL2-76B. We hope this study could inspire further advancements in MLLMs. Code, data, and model are released.",
+  "categories": [
+    "cs.CL",
+    "cs.CV"
+  ],
+  "abs": "https://arxiv.org/abs/2411.10442",
+  "pdf": "https://arxiv.org/pdf/2411.10442v2",
+  "source_url": "https://export.arxiv.org/api/query?id_list=2411.10442",
+  "fetched_at": "2026-10-29T15:44:14.488Z",
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "reusable_figures": true,
+  "github": null,
+  "upvotes": 87
+}

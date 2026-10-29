@@ -1,0 +1,338 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-11-27",
+  "fetched_at": "2026-10-29T15:29:48.469Z",
+  "candidates": [
+    {
+      "id": "2411.17465",
+      "title": "ShowUI: One Vision-Language-Action Model for GUI Visual Agent",
+      "authors": [
+        "Kevin Qinghong Lin",
+        "Linjie Li",
+        "Difei Gao",
+        "Zhengyuan Yang",
+        "Shiwei Wu",
+        "Zechen Bai",
+        "Weixian Lei",
+        "Lijuan Wang",
+        "Mike Zheng Shou"
+      ],
+      "upvotes": 90,
+      "github": "https://github.com/showlab/ShowUI",
+      "published": "2024-11-26T14:29:47.000Z"
+    },
+    {
+      "id": "2411.17949",
+      "title": "ROICtrl: Boosting Instance Control for Visual Generation",
+      "authors": [
+        "Yuchao Gu",
+        "Yipin Zhou",
+        "Yunfan Ye",
+        "Yixin Nie",
+        "Licheng Yu",
+        "Pingchuan Ma",
+        "Kevin Qinghong Lin",
+        "Mike Zheng Shou"
+      ],
+      "upvotes": 87,
+      "github": null,
+      "published": "2024-11-27T00:10:27.000Z"
+    },
+    {
+      "id": "2411.17440",
+      "title": "Identity-Preserving Text-to-Video Generation by Frequency Decomposition",
+      "authors": [
+        "Shenghai Yuan",
+        "Jinfa Huang",
+        "Xianyi He",
+        "Yunyuan Ge",
+        "Yujun Shi",
+        "Liuhan Chen",
+        "Jiebo Luo",
+        "Li Yuan"
+      ],
+      "upvotes": 38,
+      "github": "https://github.com/PKU-YuanGroup/ConsisID",
+      "published": "2024-11-26T13:58:24.000Z"
+    },
+    {
+      "id": "2411.16819",
+      "title": "Pathways on the Image Manifold: Image Editing via Video Generation",
+      "authors": [
+        "Noam Rotstein",
+        "Gal Yona",
+        "Daniel Silver",
+        "Roy Velich",
+        "David Bensaïd",
+        "Ron Kimmel"
+      ],
+      "upvotes": 37,
+      "github": "https://github.com/RotsteinNoam/Frame2Frame",
+      "published": "2024-11-25T16:41:45.000Z"
+    },
+    {
+      "id": "2411.17945",
+      "title": "MARVEL-40M+: Multi-Level Visual Elaboration for High-Fidelity Text-to-3D Content Creation",
+      "authors": [
+        "Sankalp Sinha",
+        "Mohammad Sadil Khan",
+        "Muhammad Usama",
+        "Shino Sam",
+        "Didier Stricker",
+        "Sk Aziz Ali",
+        "Muhammad Zeshan Afzal"
+      ],
+      "upvotes": 26,
+      "github": "https://github.com/SadilKhan/MARVEL-FX3D",
+      "published": "2024-11-26T23:39:43.000Z"
+    },
+    {
+      "id": "2411.15296",
+      "title": "MME-Survey: A Comprehensive Survey on Evaluation of Multimodal LLMs",
+      "authors": [
+        "Chaoyou Fu",
+        "Yi-Fan Zhang",
+        "Shukang Yin",
+        "Bo Li",
+        "Xinyu Fang",
+        "Sirui Zhao",
+        "Haodong Duan",
+        "Xing Sun",
+        "Ziwei Liu",
+        "Liang Wang",
+        "Caifeng Shan",
+        "Ran He"
+      ],
+      "upvotes": 20,
+      "github": null,
+      "published": "2024-11-22T18:59:54.000Z"
+    },
+    {
+      "id": "2411.17188",
+      "title": "Interleaved Scene Graph for Interleaved Text-and-Image Generation Assessment",
+      "authors": [
+        "Dongping Chen",
+        "Ruoxi Chen",
+        "Shu Pu",
+        "Zhaoyi Liu",
+        "Yanru Wu",
+        "Caixi Chen",
+        "Benlin Liu",
+        "Yue Huang",
+        "Yao Wan",
+        "Pan Zhou",
+        "Ranjay Krishna"
+      ],
+      "upvotes": 19,
+      "github": null,
+      "published": "2024-11-26T07:55:57.000Z"
+    },
+    {
+      "id": "2411.17686",
+      "title": "Rethinking Token Reduction in MLLMs: Towards a Unified Paradigm for Training-Free Acceleration",
+      "authors": [
+        "Yuhang Han",
+        "Xuyang Liu",
+        "Pengxiang Ding",
+        "Donglin Wang",
+        "Honggang Chen",
+        "Qingsen Yan",
+        "Siteng Huang"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/kawhiiiileo/FiCoCo",
+      "published": "2024-11-26T18:53:51.000Z"
+    },
+    {
+      "id": "2411.17673",
+      "title": "SketchAgent: Language-Driven Sequential Sketch Generation",
+      "authors": [
+        "Yael Vinker",
+        "Tamar Rott Shaham",
+        "Kristine Zheng",
+        "Alex Zhao",
+        "Judith E Fan",
+        "Antonio Torralba"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2024-11-26T18:32:06.000Z"
+    },
+    {
+      "id": "2411.16856",
+      "title": "SAR3D: Autoregressive 3D Object Generation and Understanding via Multi-scale 3D VQVAE",
+      "authors": [
+        "Yongwei Chen",
+        "Yushi Lan",
+        "Shangchen Zhou",
+        "Tengfei Wang",
+        "XIngang Pan"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2024-11-25T19:00:05.000Z"
+    },
+    {
+      "id": "2411.17691",
+      "title": "Low-Bit Quantization Favors Undertrained LLMs: Scaling Laws for Quantized LLMs with 100T Training Tokens",
+      "authors": [
+        "Xu Ouyang",
+        "Tao Ge",
+        "Thomas Hartvigsen",
+        "Zhisong Zhang",
+        "Haitao Mi",
+        "Dong Yu"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2024-11-26T18:57:58.000Z"
+    },
+    {
+      "id": "2411.17451",
+      "title": "VLRewardBench: A Challenging Benchmark for Vision-Language Generative Reward Models",
+      "authors": [
+        "Lei Li",
+        "Yuancheng Wei",
+        "Zhihui Xie",
+        "Xuqing Yang",
+        "Yifan Song",
+        "Peiyi Wang",
+        "Chenxin An",
+        "Tianyu Liu",
+        "Sujian Li",
+        "Bill Yuchen Lin",
+        "Lingpeng Kong",
+        "Qi Liu"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2024-11-26T14:08:34.000Z"
+    },
+    {
+      "id": "2411.16173",
+      "title": "SALOVA: Segment-Augmented Long Video Assistant for Targeted Retrieval and Routing in Long-Form Video Analysis",
+      "authors": [
+        "Junho Kim",
+        "Hyunjun Kim",
+        "Hosu Lee",
+        "Yong Man Ro"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2024-11-25T08:04:47.000Z"
+    },
+    {
+      "id": "2411.17467",
+      "title": "Learning 3D Representations from Procedural 3D Programs",
+      "authors": [
+        "Xuweiyi Chen",
+        "Zezhou Cheng"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2024-11-25T18:59:57.000Z"
+    },
+    {
+      "id": "2411.15411",
+      "title": "FINECAPTION: Compositional Image Captioning Focusing on Wherever You Want at Any Granularity",
+      "authors": [
+        "Hang Hua",
+        "Qing Liu",
+        "Lingzhi Zhang",
+        "Jing Shi",
+        "Zhifei Zhang",
+        "Yilin Wang",
+        "Jianming Zhang",
+        "Jiebo Luo"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2024-11-23T02:20:32.000Z"
+    },
+    {
+      "id": "2411.15241",
+      "title": "EfficientViM: Efficient Vision Mamba with Hidden State Mixer based State Space Duality",
+      "authors": [
+        "Sanghyeok Lee",
+        "Joonmyung Choi",
+        "Hyunwoo J. Kim"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/mlvlab/EfficientViM",
+      "published": "2024-11-22T02:02:06.000Z"
+    },
+    {
+      "id": "2411.17383",
+      "title": "AnchorCrafter: Animate CyberAnchors Saling Your Products via Human-Object Interacting Video Generation",
+      "authors": [
+        "Ziyi Xu",
+        "Ziyao Huang",
+        "Juan Cao",
+        "Yong Zhang",
+        "Xiaodong Cun",
+        "Qing Shuai",
+        "Yuchen Wang",
+        "Linchao Bao",
+        "Jintao Li",
+        "Fan Tang"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2024-11-26T12:42:13.000Z"
+    },
+    {
+      "id": "2411.14721",
+      "title": "MolReFlect: Towards In-Context Fine-grained Alignments between Molecules and Texts",
+      "authors": [
+        "Jiatong Li",
+        "Yunqing Liu",
+        "Wei Liu",
+        "Jingdi Le",
+        "Di Zhang",
+        "Wenqi Fan",
+        "Dongzhan Zhou",
+        "Yuqiang Li",
+        "Qing Li"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2024-11-22T04:28:56.000Z"
+    },
+    {
+      "id": "2411.16801",
+      "title": "Controllable Human Image Generation with Personalized Multi-Garments",
+      "authors": [
+        "Yisol Choi",
+        "Sangkyung Kwak",
+        "Sihyun Yu",
+        "Hyungwon Choi",
+        "Jinwoo Shin"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/omnious/BootComp",
+      "published": "2024-11-25T12:37:13.000Z"
+    },
+    {
+      "id": "2411.16754",
+      "title": "Visual Counter Turing Test (VCT^2): Discovering the Challenges for AI-Generated Image Detection and Introducing Visual AI Index (V_AI)",
+      "authors": [
+        "Nasrin Imanpour",
+        "Shashwat Bajpai",
+        "Subhankar Ghosh",
+        "Sainath Reddy Sankepally",
+        "Abhilekh Borah",
+        "Hasnat Md Abdullah",
+        "Nishoak Kosaraju",
+        "Shreyas Dixit",
+        "Ashhar Aziz",
+        "Shwetangshu Biswas",
+        "Vinija Jain",
+        "Aman Chadha",
+        "Amit Sheth",
+        "Amitava Das"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2024-11-24T06:03:49.000Z"
+    }
+  ]
+}

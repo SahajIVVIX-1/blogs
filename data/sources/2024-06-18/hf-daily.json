@@ -1,0 +1,532 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-06-18",
+  "fetched_at": "2026-10-29T15:28:09.828Z",
+  "candidates": [
+    {
+      "id": "2406.11833",
+      "title": "MMDU: A Multi-Turn Multi-Image Dialog Understanding Benchmark and Instruction-Tuning Dataset for LVLMs",
+      "authors": [
+        "Ziyu Liu",
+        "Tao Chu",
+        "Yuhang Zang",
+        "Xilin Wei",
+        "Xiaoyi Dong",
+        "Pan Zhang",
+        "Zijian Liang",
+        "Yuanjun Xiong",
+        "Yu Qiao",
+        "Dahua Lin",
+        "Jiaqi Wang"
+      ],
+      "upvotes": 62,
+      "github": "https://github.com/liuziyu77/mmdu",
+      "published": "2024-06-17T17:59:47.000Z"
+    },
+    {
+      "id": "2406.11794",
+      "title": "DataComp-LM: In search of the next generation of training sets for language models",
+      "authors": [
+        "Jeffrey Li",
+        "Alex Fang",
+        "Georgios Smyrnis",
+        "Maor Ivgi",
+        "Matt Jordan",
+        "Samir Gadre",
+        "Hritik Bansal",
+        "Etash Guha",
+        "Sedrick Keh",
+        "Kushal Arora",
+        "Saurabh Garg",
+        "Rui Xin",
+        "Niklas Muennighoff",
+        "Reinhard Heckel",
+        "Jean Mercat",
+        "Mayee Chen",
+        "Suchin Gururangan",
+        "Mitchell Wortsman",
+        "Alon Albalak",
+        "Yonatan Bitton",
+        "Marianna Nezhurina",
+        "Amro Abbas",
+        "Cheng-Yu Hsieh",
+        "Dhruba Ghosh",
+        "Josh Gardner",
+        "Maciej Kilian",
+        "Hanlin Zhang",
+        "Rulin Shao",
+        "Sarah Pratt",
+        "Sunny Sanyal",
+        "Gabriel Ilharco",
+        "Giannis Daras",
+        "Kalyani Marathe",
+        "Aaron Gokaslan",
+        "Jieyu Zhang",
+        "Khyathi Chandu",
+        "Thao Nguyen",
+        "Igor Vasiljevic",
+        "Sham Kakade",
+        "Shuran Song",
+        "Sujay Sanghavi",
+        "Fartash Faghri",
+        "Sewoong Oh",
+        "Luke Zettlemoyer",
+        "Kyle Lo",
+        "Alaaeldin El-Nouby",
+        "Hadi Pouransari",
+        "Alexander Toshev",
+        "Stephanie Wang",
+        "Dirk Groeneveld",
+        "Luca Soldani",
+        "Pang Wei Koh",
+        "Jenia Jitsev",
+        "Thomas Kollar",
+        "Alexandros G. Dimakis",
+        "Yair Carmon",
+        "Achal Dave",
+        "Ludwig Schmidt",
+        "Vaishaal Shankar"
+      ],
+      "upvotes": 56,
+      "github": "https://github.com/mlfoundations/dclm",
+      "published": "2024-06-17T17:42:57.000Z"
+    },
+    {
+      "id": "2406.11839",
+      "title": "mDPO: Conditional Preference Optimization for Multimodal Large Language Models",
+      "authors": [
+        "Fei Wang",
+        "Wenxuan Zhou",
+        "James Y. Huang",
+        "Nan Xu",
+        "Sheng Zhang",
+        "Hoifung Poon",
+        "Muhao Chen"
+      ],
+      "upvotes": 40,
+      "github": "https://github.com/luka-group/mDPO",
+      "published": "2024-06-17T17:59:58.000Z"
+    },
+    {
+      "id": "2406.10996",
+      "title": "THEANINE: Revisiting Memory Management in Long-term Conversations with Timeline-augmented Response Generation",
+      "authors": [
+        "Seo Hyun Kim",
+        "Kai Tzu-iunn Ong",
+        "Taeyoon Kwon",
+        "Namyoung Kim",
+        "Keummin Ka",
+        "SeongHyeon Bae",
+        "Yohan Jo",
+        "Seung-won Hwang",
+        "Dongha Lee",
+        "Jinyoung Yeo"
+      ],
+      "upvotes": 35,
+      "github": null,
+      "published": "2024-06-16T16:17:46.000Z"
+    },
+    {
+      "id": "2406.11813",
+      "title": "How Do Large Language Models Acquire Factual Knowledge During Pretraining?",
+      "authors": [
+        "Hoyeon Chang",
+        "Jinho Park",
+        "Seonghyeon Ye",
+        "Sohee Yang",
+        "Youngkyung Seo",
+        "Du-Seong Chang",
+        "Minjoon Seo"
+      ],
+      "upvotes": 31,
+      "github": "https://github.com/kaistai/factual-knowledge-acquisition",
+      "published": "2024-06-17T17:54:40.000Z"
+    },
+    {
+      "id": "2406.10163",
+      "title": "MeshAnything: Artist-Created Mesh Generation with Autoregressive Transformers",
+      "authors": [
+        "Yiwen Chen",
+        "Tong He",
+        "Di Huang",
+        "Weicai Ye",
+        "Sijin Chen",
+        "Jiaxiang Tang",
+        "Xin Chen",
+        "Zhongang Cai",
+        "Lei Yang",
+        "Gang Yu",
+        "Guosheng Lin",
+        "Chi Zhang"
+      ],
+      "upvotes": 31,
+      "github": "https://github.com/buaacyw/meshanything",
+      "published": "2024-06-14T16:30:25.000Z"
+    },
+    {
+      "id": "2406.11816",
+      "title": "VideoLLM-online: Online Video Large Language Model for Streaming Video",
+      "authors": [
+        "Joya Chen",
+        "Zhaoyang Lv",
+        "Shiwei Wu",
+        "Kevin Qinghong Lin",
+        "Chenan Song",
+        "Difei Gao",
+        "Jia-Wei Liu",
+        "Ziteng Gao",
+        "Dongxing Mao",
+        "Mike Zheng Shou"
+      ],
+      "upvotes": 26,
+      "github": null,
+      "published": "2024-06-17T17:55:32.000Z"
+    },
+    {
+      "id": "2406.11768",
+      "title": "GAMA: A Large Audio-Language Model with Advanced Audio Understanding and Complex Reasoning Abilities",
+      "authors": [
+        "Sreyan Ghosh",
+        "Sonal Kumar",
+        "Ashish Seth",
+        "Chandra Kiran Reddy Evuru",
+        "Utkarsh Tyagi",
+        "S Sakshi",
+        "Oriol Nieto",
+        "Ramani Duraiswami",
+        "Dinesh Manocha"
+      ],
+      "upvotes": 24,
+      "github": null,
+      "published": "2024-06-17T17:31:01.000Z"
+    },
+    {
+      "id": "2406.11430",
+      "title": "A Simple and Effective L_2 Norm-Based Strategy for KV Cache Compression",
+      "authors": [
+        "Alessio Devoto",
+        "Yu Zhao",
+        "Simone Scardapane",
+        "Pasquale Minervini"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/alessiodevoto/l2compress",
+      "published": "2024-06-17T11:35:16.000Z"
+    },
+    {
+      "id": "2406.11831",
+      "title": "Exploring the Role of Large Language Models in Prompt Encoding for Diffusion Models",
+      "authors": [
+        "Bingqi Ma",
+        "Zhuofan Zong",
+        "Guanglu Song",
+        "Hongsheng Li",
+        "Yu Liu"
+      ],
+      "upvotes": 22,
+      "github": null,
+      "published": "2024-06-17T17:59:43.000Z"
+    },
+    {
+      "id": "2406.11271",
+      "title": "MINT-1T: Scaling Open-Source Multimodal Data by 10x: A Multimodal Dataset with One Trillion Tokens",
+      "authors": [
+        "Anas Awadalla",
+        "Le Xue",
+        "Oscar Lo",
+        "Manli Shu",
+        "Hannah Lee",
+        "Etash Kumar Guha",
+        "Matt Jordan",
+        "Sheng Shen",
+        "Mohamed Awadalla",
+        "Silvio Savarese",
+        "Caiming Xiong",
+        "Ran Xu",
+        "Yejin Choi",
+        "Ludwig Schmidt"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/mlfoundations/mint-1t",
+      "published": "2024-06-17T07:21:36.000Z"
+    },
+    {
+      "id": "2406.11194",
+      "title": "In-Context Editing: Learning Knowledge from Self-Induced Distributions",
+      "authors": [
+        "Siyuan Qi",
+        "Bangcheng Yang",
+        "Kailin Jiang",
+        "Xiaobo Wang",
+        "Jiaqi Li",
+        "Yifan Zhong",
+        "Yaodong Yang",
+        "Zilong Zheng"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/bigai-ai/ICE",
+      "published": "2024-06-17T04:00:04.000Z"
+    },
+    {
+      "id": "2406.11840",
+      "title": "LLaNA: Large Language and NeRF Assistant",
+      "authors": [
+        "Andrea Amaduzzi",
+        "Pierluigi Zama Ramirez",
+        "Giuseppe Lisanti",
+        "Samuele Salti",
+        "Luigi Di Stefano"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2024-06-17T17:59:59.000Z"
+    },
+    {
+      "id": "2406.10328",
+      "title": "From Pixels to Prose: A Large Dataset of Dense Image Captions",
+      "authors": [
+        "Vasu Singla",
+        "Kaiyu Yue",
+        "Sukriti Paul",
+        "Reza Shirkavand",
+        "Mayuka Jayawardhana",
+        "Alireza Ganjdanesh",
+        "Heng Huang",
+        "Abhinav Bhatele",
+        "Gowthami Somepalli",
+        "Tom Goldstein"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2024-06-14T17:59:53.000Z"
+    },
+    {
+      "id": "2406.11827",
+      "title": "WPO: Enhancing RLHF with Weighted Preference Optimization",
+      "authors": [
+        "Wenxuan Zhou",
+        "Ravi Agrawal",
+        "Shujian Zhang",
+        "Sathish Reddy Indurthi",
+        "Sanqiang Zhao",
+        "Kaiqiang Song",
+        "Silei Xu",
+        "Chenguang Zhu"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/wzhouad/wpo",
+      "published": "2024-06-17T17:59:13.000Z"
+    },
+    {
+      "id": "2406.09455",
+      "title": "Pandora: Towards General World Model with Natural Language Actions and Video States",
+      "authors": [
+        "Jiannan Xiang",
+        "Guangyi Liu",
+        "Yi Gu",
+        "Qiyue Gao",
+        "Yuting Ning",
+        "Yuheng Zha",
+        "Zeyu Feng",
+        "Tianhua Tao",
+        "Shibo Hao",
+        "Yemin Shi",
+        "Zhengzhong Liu",
+        "Eric P. Xing",
+        "Zhiting Hu"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/maitrix-org/Pandora",
+      "published": "2024-06-12T18:55:51.000Z"
+    },
+    {
+      "id": "2406.11069",
+      "title": "WildVision: Evaluating Vision-Language Models in the Wild with Human Preferences",
+      "authors": [
+        "Yujie Lu",
+        "Dongfu Jiang",
+        "Wenhu Chen",
+        "William Yang Wang",
+        "Yejin Choi",
+        "Bill Yuchen Lin"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2024-06-16T20:53:25.000Z"
+    },
+    {
+      "id": "2406.10324",
+      "title": "L4GM: Large 4D Gaussian Reconstruction Model",
+      "authors": [
+        "Jiawei Ren",
+        "Kevin Xie",
+        "Ashkan Mirzaei",
+        "Hanxue Liang",
+        "Xiaohui Zeng",
+        "Karsten Kreis",
+        "Ziwei Liu",
+        "Antonio Torralba",
+        "Sanja Fidler",
+        "Seung Wook Kim",
+        "Huan Ling"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2024-06-14T17:51:18.000Z"
+    },
+    {
+      "id": "2406.11251",
+      "title": "Unifying Multimodal Retrieval via Document Screenshot Embedding",
+      "authors": [
+        "Xueguang Ma",
+        "Sheng-Chieh Lin",
+        "Minghan Li",
+        "Wenhu Chen",
+        "Jimmy Lin"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2024-06-17T06:27:35.000Z"
+    },
+    {
+      "id": "2406.11775",
+      "title": "Task Me Anything",
+      "authors": [
+        "Jieyu Zhang",
+        "Weikai Huang",
+        "Zixian Ma",
+        "Oscar Michel",
+        "Dong He",
+        "Tanmay Gupta",
+        "Wei-Chiu Ma",
+        "Ali Farhadi",
+        "Aniruddha Kembhavi",
+        "Ranjay Krishna"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/jieyuz2/taskmeanything",
+      "published": "2024-06-17T17:32:42.000Z"
+    },
+    {
+      "id": "2406.11196",
+      "title": "Vid3D: Synthesis of Dynamic 3D Scenes using 2D Video Diffusion",
+      "authors": [
+        "Rishab Parthasarathy",
+        "Zack Ankner",
+        "Aaron Gokaslan"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/rishab-partha/Vid3D",
+      "published": "2024-06-17T04:09:04.000Z"
+    },
+    {
+      "id": "2406.10522",
+      "title": "Humor in AI: Massive Scale Crowd-Sourced Preferences and Benchmarks for Cartoon Captioning",
+      "authors": [
+        "Jifan Zhang",
+        "Lalit Jain",
+        "Yang Guo",
+        "Jiayi Chen",
+        "Kuan Lok Zhou",
+        "Siddharth Suresh",
+        "Andrew Wagenmaker",
+        "Scott Sievert",
+        "Timothy Rogers",
+        "Kevin Jamieson",
+        "Robert Mankoff",
+        "Robert Nowak"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/yguooo/cartoon-caption-generation",
+      "published": "2024-06-15T06:26:25.000Z"
+    },
+    {
+      "id": "2406.11463",
+      "title": "Just How Flexible are Neural Networks in Practice?",
+      "authors": [
+        "Ravid Shwartz-Ziv",
+        "Micah Goldblum",
+        "Arpit Bansal",
+        "C. Bayan Bruss",
+        "Yann LeCun",
+        "Andrew Gordon Wilson"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2024-06-17T12:24:45.000Z"
+    },
+    {
+      "id": "2406.11402",
+      "title": "Evaluating Open Language Models Across Task Types, Application Domains, and Reasoning Types: An In-Depth Experimental Analysis",
+      "authors": [
+        "Neelabh Sinha",
+        "Vinija Jain",
+        "Aman Chadha"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/neelabhsinha/lm-application-eval-kit",
+      "published": "2024-06-17T10:45:36.000Z"
+    },
+    {
+      "id": "2406.10803",
+      "title": "HiddenTables & PyQTax: A Cooperative Game and Dataset For TableQA to Ensure Scale and Data Privacy Across a Myriad of Taxonomies",
+      "authors": [
+        "William Watson",
+        "Nicole Cho",
+        "Tucker Balch",
+        "Manuela Veloso"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2024-06-16T04:53:29.000Z"
+    },
+    {
+      "id": "2406.10670",
+      "title": "CoLoR-Filter: Conditional Loss Reduction Filtering for Targeted Language Model Pre-training",
+      "authors": [
+        "David Brandfonbrener",
+        "Hanlin Zhang",
+        "Andreas Kirsch",
+        "Jonathan Richard Schwarz",
+        "Sham Kakade"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/davidbrandfonbrener/color-filter-olmo",
+      "published": "2024-06-15T15:28:02.000Z"
+    },
+    {
+      "id": "2406.10906",
+      "title": "Breaking the Attention Bottleneck",
+      "authors": [
+        "Kalle Hilsenbek"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2024-06-16T12:06:58.000Z"
+    },
+    {
+      "id": "2406.11202",
+      "title": "Consistency^2: Consistent and Fast 3D Painting with Latent Consistency Models",
+      "authors": [
+        "Tianfu Wang",
+        "Anton Obukhov",
+        "Konrad Schindler"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/kongdai123/consistency2",
+      "published": "2024-06-17T04:40:07.000Z"
+    },
+    {
+      "id": "2406.10023",
+      "title": "Deep Bayesian Active Learning for Preference Modeling in Large Language Models",
+      "authors": [
+        "Luckeciano C. Melo",
+        "Panagiotis Tigas",
+        "Alessandro Abate",
+        "Yarin Gal"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/luckeciano/bal-pm",
+      "published": "2024-06-14T13:32:43.000Z"
+    }
+  ]
+}

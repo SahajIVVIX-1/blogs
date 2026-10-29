@@ -1,0 +1,7 @@
+{
+  "id": "2603.03283",
+  "html": "https://arxiv.org/html/2603.03283",
+  "limitations": null,
+  "conclusion": "We present Utonia, a first step toward an all-for-one, one-for-all point encoder learned from diverse point clouds and shared for diverse point clouds. By identifying cross-domain mismatches and addressing them with minimal, domain-agnostic designs, Utonia enables joint pretraining and yields a shared representation space with emergent cross-domain benefits. Beyond 3D perception, Utonia’s features transfer to spatial reasoning in VLM backends and improve robotic manipulation when conditioning VLA policies. Future work can move further along three aspects: Query-based task interfaces. The contrasting linear-probing trends between part segmentation and object classification suggest that a single linear probe is an overly restrictive readout for diverse downstream tasks. Moreover, the gap between linear probing and full fine-tuning on part segmentation indicates that task-relevant cues may ",
+  "figure": null
+}

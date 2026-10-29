@@ -1,0 +1,311 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-09-19",
+  "fetched_at": "2026-10-29T15:29:06.516Z",
+  "candidates": [
+    {
+      "id": "2409.12186",
+      "title": "Qwen2.5-Coder Technical Report",
+      "authors": [
+        "Binyuan Hui",
+        "Jian Yang",
+        "Zeyu Cui",
+        "Jiaxi Yang",
+        "Dayiheng Liu",
+        "Lei Zhang",
+        "Tianyu Liu",
+        "Jiajun Zhang",
+        "Bowen Yu",
+        "Kai Dang",
+        "An Yang",
+        "Rui Men",
+        "Fei Huang",
+        "Xingzhang Ren",
+        "Xuancheng Ren",
+        "Jingren Zhou",
+        "Junyang Lin"
+      ],
+      "upvotes": 160,
+      "github": null,
+      "published": "2024-09-18T17:57:57.000Z"
+    },
+    {
+      "id": "2409.12191",
+      "title": "Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution",
+      "authors": [
+        "Peng Wang",
+        "Shuai Bai",
+        "Sinan Tan",
+        "Shijie Wang",
+        "Zhihao Fan",
+        "Jinze Bai",
+        "Keqin Chen",
+        "Xuejing Liu",
+        "Jialin Wang",
+        "Wenbin Ge",
+        "Yang Fan",
+        "Kai Dang",
+        "Mengfei Du",
+        "Xuancheng Ren",
+        "Rui Men",
+        "Dayiheng Liu",
+        "Chang Zhou",
+        "Jingren Zhou",
+        "Junyang Lin"
+      ],
+      "upvotes": 82,
+      "github": "https://github.com/qwenlm/qwen2-vl",
+      "published": "2024-09-18T17:59:32.000Z"
+    },
+    {
+      "id": "2409.12181",
+      "title": "A Controlled Study on Long Context Extension and Generalization in LLMs",
+      "authors": [
+        "Yi Lu",
+        "Jing Nathan Yan",
+        "Songlin Yang",
+        "Justin T. Chiu",
+        "Siyu Ren",
+        "Fei Yuan",
+        "Wenting Zhao",
+        "Zhiyong Wu",
+        "Alexander M. Rush"
+      ],
+      "upvotes": 45,
+      "github": "https://github.com/leooyii/lceg",
+      "published": "2024-09-18T17:53:17.000Z"
+    },
+    {
+      "id": "2409.12183",
+      "title": "To CoT or not to CoT? Chain-of-thought helps mainly on math and symbolic reasoning",
+      "authors": [
+        "Zayne Sprague",
+        "Fangcong Yin",
+        "Juan Diego Rodriguez",
+        "Dongwei Jiang",
+        "Manya Wadhwa",
+        "Prasann Singhal",
+        "Xinyu Zhao",
+        "Xi Ye",
+        "Kyle Mahowald",
+        "Greg Durrett"
+      ],
+      "upvotes": 39,
+      "github": "https://github.com/zayne-sprague/to-cot-or-not-to-cot",
+      "published": "2024-09-18T17:55:00.000Z"
+    },
+    {
+      "id": "2409.11901",
+      "title": "LLMs + Persona-Plug = Personalized LLMs",
+      "authors": [
+        "Jiongnan Liu",
+        "Yutao Zhu",
+        "Shuting Wang",
+        "Xiaochi Wei",
+        "Erxue Min",
+        "Yu Lu",
+        "Shuaiqiang Wang",
+        "Dawei Yin",
+        "Zhicheng Dou"
+      ],
+      "upvotes": 35,
+      "github": null,
+      "published": "2024-09-18T11:54:45.000Z"
+    },
+    {
+      "id": "2409.11564",
+      "title": "Preference Tuning with Human Feedback on Language, Speech, and Vision Tasks: A Survey",
+      "authors": [
+        "Genta Indra Winata",
+        "Hanyang Zhao",
+        "Anirban Das",
+        "Wenpin Tang",
+        "David D. Yao",
+        "Shi-Xiong Zhang",
+        "Sambit Sahu"
+      ],
+      "upvotes": 20,
+      "github": null,
+      "published": "2024-09-17T21:28:51.000Z"
+    },
+    {
+      "id": "2409.12136",
+      "title": "GRIN: GRadient-INformed MoE",
+      "authors": [
+        "Liyuan Liu",
+        "Young Jin Kim",
+        "Shuohang Wang",
+        "Chen Liang",
+        "Yelong Shen",
+        "Hao Cheng",
+        "Xiaodong Liu",
+        "Masahiro Tanaka",
+        "Xiaoxia Wu",
+        "Wenxiang Hu",
+        "Vishrav Chaudhary",
+        "Zeqi Lin",
+        "Chenruidong Zhang",
+        "Jilong Xue",
+        "Hany Awadalla",
+        "Jianfeng Gao",
+        "Weizhu Chen"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2024-09-18T17:00:20.000Z"
+    },
+    {
+      "id": "2409.12139",
+      "title": "Takin: A Cohort of Superior Quality Zero-shot Speech Generation Models",
+      "authors": [
+        "EverestAI",
+        "Sijin Chen",
+        "Yuan Feng",
+        "Laipeng He",
+        "Tianwei He",
+        "Wendi He",
+        "Yanni Hu",
+        "Bin Lin",
+        "Yiting Lin",
+        "Pengfei Tan",
+        "Chengwei Tian",
+        "Chen Wang",
+        "Zhicheng Wang",
+        "Ruoye Xie",
+        "Jingjing Yin",
+        "Jianhao Ye",
+        "Jixun Yao",
+        "Quanlei Yan",
+        "Yuguang Yang"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2024-09-18T17:03:12.000Z"
+    },
+    {
+      "id": "2409.08425",
+      "title": "SoloAudio: Target Sound Extraction with Language-oriented Audio Diffusion Transformer",
+      "authors": [
+        "Helin Wang",
+        "Jiarui Hai",
+        "Yen-Ju Lu",
+        "Karan Thakkar",
+        "Mounya Elhilali",
+        "Najim Dehak"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/wanghelin1997/soloaudio",
+      "published": "2024-09-12T23:12:25.000Z"
+    },
+    {
+      "id": "2409.12193",
+      "title": "Vista3D: Unravel the 3D Darkside of a Single Image",
+      "authors": [
+        "Qiuhong Shen",
+        "Xingyi Yang",
+        "Michael Bi Mi",
+        "Xinchao Wang"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/florinshen/vista3d",
+      "published": "2024-09-18T17:59:44.000Z"
+    },
+    {
+      "id": "2409.09401",
+      "title": "Towards Diverse and Efficient Audio Captioning via Diffusion Models",
+      "authors": [
+        "Manjie Xu",
+        "Chenxing Li",
+        "Xinyi Tu",
+        "Yong Ren",
+        "Ruibo Fu",
+        "Wei Liang",
+        "Dong Yu"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2024-09-14T10:23:35.000Z"
+    },
+    {
+      "id": "2409.12001",
+      "title": "Putting Data at the Centre of Offline Multi-Agent Reinforcement Learning",
+      "authors": [
+        "Claude Formanek",
+        "Louise Beyers",
+        "Callum Rhys Tilbury",
+        "Jonathan P. Shock",
+        "Arnu Pretorius"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2024-09-18T14:13:24.000Z"
+    },
+    {
+      "id": "2409.11074",
+      "title": "RoMath: A Mathematical Reasoning Benchmark in Romanian",
+      "authors": [
+        "Adrian Cosma",
+        "Ana-Maria Bucur",
+        "Emilian Radoi"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/cosmaadrian/romath",
+      "published": "2024-09-17T11:03:46.000Z"
+    },
+    {
+      "id": "2409.11315",
+      "title": "fMRI-3D: A Comprehensive Dataset for Enhancing fMRI-based 3D Reconstruction",
+      "authors": [
+        "Jianxiong Gao",
+        "Yuqian Fu",
+        "Yun Wang",
+        "Xuelin Qian",
+        "Jianfeng Feng",
+        "Yanwei Fu"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/JianxGao/MinD-3D",
+      "published": "2024-09-17T16:13:59.000Z"
+    },
+    {
+      "id": "2409.11363",
+      "title": "CORE-Bench: Fostering the Credibility of Published Research Through a Computational Reproducibility Agent Benchmark",
+      "authors": [
+        "Zachary S. Siegel",
+        "Sayash Kapoor",
+        "Nitya Nagdir",
+        "Benedikt Stroebl",
+        "Arvind Narayanan"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/siegelz/core-bench",
+      "published": "2024-09-17T17:13:19.000Z"
+    },
+    {
+      "id": "2409.12106",
+      "title": "Measuring Human and AI Values based on Generative Psychometrics with Large Language Models",
+      "authors": [
+        "Haoran Ye",
+        "Yuhang Xie",
+        "Yuanyi Ren",
+        "Hanjun Fang",
+        "Xin Zhang",
+        "Guojie Song"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/value4ai/gpv",
+      "published": "2024-09-18T16:26:22.000Z"
+    },
+    {
+      "id": "2409.12134",
+      "title": "BERT-VBD: Vietnamese Multi-Document Summarization Framework",
+      "authors": [
+        "Tuan-Cuong Vuong",
+        "Trang Mai Xuan",
+        "Thien Van Luong"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2024-09-18T16:56:06.000Z"
+    }
+  ]
+}

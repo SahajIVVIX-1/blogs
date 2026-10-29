@@ -1,0 +1,11 @@
+{
+  "id": "2508.18265",
+  "html": "https://arxiv.org/html/2508.18265",
+  "limitations": null,
+  "conclusion": "In this work, we introduce InternVL3.5, the latest family of InternVL models that demonstrates stronger general performance and faster speed across a wide range of tasks. InternVL3.5 adopts a new reinforcement learning (RL) framework, namely Cascade RL, which combines the benefits of offline and online RL methods to boost reasoning capabilities. In addition, two techniques are further introduced to reduce the inference cost of InternVL3.5, namely Visual Resolution Router (ViR) and Decoupled Vision-Language Deployment (DvD). Benefiting from these innovations, InternVL3.5 achieves +16.0% improvement in overall reasoning performance and 4.05 [math] speed-up in inference efficiency compared to InternVL3. Besides, InternVL3.5 has significant improvements in its versatility against InternVL3. Specifically, InternVL3.5-241B-A28B achieves the highest overall score across multimodal general, reas",
+  "figure": {
+    "path": "images/2025/paper-2508.18265.webp",
+    "src": "https://arxiv.org/html/2508.18265v2/teaser.png",
+    "caption": "Figure 1 : Comparison between InternVL3.5 and leading MLLMs in general capabilities. Hatched bars represent closed-source commercial models. We report average scores on a set of multimodal general, reasoning, text, and agentic benchmarks: MMBench v1.1 (en) [ 71 ] , MMStar [ 11 ] , BLINK [ 36 ] , HallusionBench [ 41 ] , AI2D [ 55 ] , OCRBench [ 72 ] , MMVet [ 168 ] , MME-RealWorld (en) [ 178 ] , MV"
+  }
+}

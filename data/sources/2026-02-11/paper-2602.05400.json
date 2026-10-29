@@ -1,0 +1,11 @@
+{
+  "id": "2602.05400",
+  "html": "https://arxiv.org/html/2602.05400",
+  "limitations": null,
+  "conclusion": "We introduced OPUS, a dynamic data selection framework for LLM pre-training that aligns training-time selection with the optimizer’s effective update geometry. Across model scales, optimizers, and corpus quality settings, OPUS consistently improves compute-matched pre-training, suggesting that selection can be substantially strengthened by accounting for how the optimizer actually moves parameters. A natural next step is to extend this optimizer-aligned idea to richer training regimes, such as data mixtures.",
+  "figure": {
+    "path": "images/2026/paper-2602.05400.webp",
+    "src": "https://arxiv.org/html/2602.05400v2/opus_perf.png",
+    "caption": "Figure 1: OPUS outperforms random selection by an average of 2.2% accuracy across 10 benchmarks and achieves 8 [math] reduction in computation on GPT-XL using FineWeb dataset."
+  }
+}

@@ -1,0 +1,525 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-07-08",
+  "fetched_at": "2026-10-29T15:32:04.330Z",
+  "candidates": [
+    {
+      "id": "2507.03724",
+      "title": "MemOS: A Memory OS for AI System",
+      "authors": [
+        "Zhiyu Li",
+        "Shichao Song",
+        "Chenyang Xi",
+        "Hanyu Wang",
+        "Chen Tang",
+        "Simin Niu",
+        "Ding Chen",
+        "Jiawei Yang",
+        "Chunyu Li",
+        "Qingchen Yu",
+        "Jihao Zhao",
+        "Yezhaohui Wang",
+        "Peng Liu",
+        "Zehao Lin",
+        "Pengyuan Wang",
+        "Jiahao Huo",
+        "Tianyi Chen",
+        "Kai Chen",
+        "Kehang Li",
+        "Zhen Tao",
+        "Junpeng Ren",
+        "Huayi Lai",
+        "Hao Wu",
+        "Bo Tang",
+        "Zhenren Wang",
+        "Zhaoxin Fan",
+        "Ningyu Zhang",
+        "Linfeng Zhang",
+        "Junchi Yan",
+        "Mingchuan Yang",
+        "Tong Xu",
+        "Wei Xu",
+        "Huajun Chen",
+        "Haofeng Wang",
+        "Hongkang Yang",
+        "Wentao Zhang",
+        "Zhi-Qin John Xu",
+        "Siheng Chen",
+        "Feiyu Xiong"
+      ],
+      "upvotes": 170,
+      "github": "https://github.com/MemTensor/MemOS",
+      "published": "2025-07-04T17:21:46.000Z"
+    },
+    {
+      "id": "2507.00994",
+      "title": "Should We Still Pretrain Encoders with Masked Language Modeling?",
+      "authors": [
+        "Hippolyte Gisserot-Boukhlef",
+        "Nicolas Boizard",
+        "Manuel Faysse",
+        "Duarte M. Alves",
+        "Emmanuel Malherbe",
+        "André F. T. Martins",
+        "Céline Hudelot",
+        "Pierre Colombo"
+      ],
+      "upvotes": 81,
+      "github": "https://github.com/Nicolas-BZRD/EuroBERT",
+      "published": "2025-07-01T17:45:48.000Z"
+    },
+    {
+      "id": "2507.04009",
+      "title": "Easy Dataset: A Unified and Extensible Framework for Synthesizing LLM Fine-Tuning Data from Unstructured Documents",
+      "authors": [
+        "Ziyang Miao",
+        "Qiyu Sun",
+        "Jingyuan Wang",
+        "Yuchen Gong",
+        "Yaowei Zheng",
+        "Shiqi Li",
+        "Richong Zhang"
+      ],
+      "upvotes": 55,
+      "github": "https://github.com/ConardLi/easy-dataset",
+      "published": "2025-07-05T11:38:59.000Z"
+    },
+    {
+      "id": "2507.04447",
+      "title": "DreamVLA: A Vision-Language-Action Model Dreamed with Comprehensive World Knowledge",
+      "authors": [
+        "Wenyao Zhang",
+        "Hongsi Liu",
+        "Zekun Qi",
+        "Yunnan Wang",
+        "XinQiang Yu",
+        "Jiazhao Zhang",
+        "Runpei Dong",
+        "Jiawei He",
+        "He Wang",
+        "Zhizheng Zhang",
+        "Li Yi",
+        "Wenjun Zeng",
+        "Xin Jin"
+      ],
+      "upvotes": 45,
+      "github": "https://github.com/Zhangwenyao1/DreamVLA",
+      "published": "2025-07-06T16:14:29.000Z"
+    },
+    {
+      "id": "2507.05163",
+      "title": "4DSloMo: 4D Reconstruction for High Speed Scene with Asynchronous Capture",
+      "authors": [
+        "Yutian Chen",
+        "Shi Guo",
+        "Tianshuo Yang",
+        "Lihe Ding",
+        "Xiuyuan Yu",
+        "Jinwei Gu",
+        "Tianfan Xue"
+      ],
+      "upvotes": 41,
+      "github": "https://github.com/OpenImagingLab/4DSloMo",
+      "published": "2025-07-07T16:18:35.000Z"
+    },
+    {
+      "id": "2507.05197",
+      "title": "Pre-Trained Policy Discriminators are General Reward Models",
+      "authors": [
+        "Shihan Dou",
+        "Shichun Liu",
+        "Yuming Yang",
+        "Yicheng Zou",
+        "Yunhua Zhou",
+        "Shuhao Xing",
+        "Chenhao Huang",
+        "Qiming Ge",
+        "Demin Song",
+        "Haijun Lv",
+        "Songyang Gao",
+        "Chengqi Lv",
+        "Enyu Zhou",
+        "Honglin Guo",
+        "Zhiheng Xi",
+        "Wenwei Zhang",
+        "Qipeng Guo",
+        "Qi Zhang",
+        "Xipeng Qiu",
+        "Xuanjing Huang",
+        "Tao Gui",
+        "Kai Chen"
+      ],
+      "upvotes": 40,
+      "github": "https://github.com/InternLM/POLAR",
+      "published": "2025-07-07T16:56:31.000Z"
+    },
+    {
+      "id": "2507.03745",
+      "title": "StreamDiT: Real-Time Streaming Text-to-Video Generation",
+      "authors": [
+        "Akio Kodaira",
+        "Tingbo Hou",
+        "Ji Hou",
+        "Masayoshi Tomizuka",
+        "Yue Zhao"
+      ],
+      "upvotes": 33,
+      "github": null,
+      "published": "2025-07-04T18:00:01.000Z"
+    },
+    {
+      "id": "2507.02029",
+      "title": "RoboBrain 2.0 Technical Report",
+      "authors": [
+        "BAAI RoboBrain Team",
+        "Mingyu Cao",
+        "Huajie Tan",
+        "Yuheng Ji",
+        "Minglan Lin",
+        "Zhiyu Li",
+        "Zhou Cao",
+        "Pengwei Wang",
+        "Enshen Zhou",
+        "Yi Han",
+        "Yingbo Tang",
+        "Xiangqi Xu",
+        "Wei Guo",
+        "Yaoxu Lyu",
+        "Yijie Xu",
+        "Jiayu Shi",
+        "Cheng Chi",
+        "Mengdi Zhao",
+        "Xiaoshuai Hao",
+        "Shanyu Rong",
+        "Zhengliang Cai",
+        "Bolun Zhang",
+        "Shuyi Zhang",
+        "Huaihai Lyu",
+        "Mengfei Du",
+        "Lingfeng Zhang",
+        "Xi Feng",
+        "Xiaodan Liu",
+        "Yance Jiao",
+        "Chenrui He",
+        "Mengsi Lyu",
+        "Zhuo Chen",
+        "Yulong Ao",
+        "Xue Sun",
+        "Zheqi He",
+        "Jingshu Zheng",
+        "Xi Yang",
+        "Donghai Shi",
+        "Kunchang Xie",
+        "Bochao Zhang",
+        "Shaokai Nie",
+        "Chunlei Men",
+        "Yonghua Lin",
+        "Zhongyuan Wang",
+        "Tiejun Huang",
+        "Shanghang Zhang"
+      ],
+      "upvotes": 26,
+      "github": "https://github.com/FlagOpen/RoboBrain2.0",
+      "published": "2025-07-02T17:05:33.000Z"
+    },
+    {
+      "id": "2507.03483",
+      "title": "BMMR: A Large-Scale Bilingual Multimodal Multi-Discipline Reasoning Dataset",
+      "authors": [
+        "Zhiheng Xi",
+        "Guanyu Li",
+        "Yutao Fan",
+        "Honglin Guo",
+        "Yufang Liu",
+        "Xiaoran Fan",
+        "Jiaqi Liu",
+        "Jingchao Ding",
+        "Wangmeng Zuo",
+        "Zhenfei Yin",
+        "Lei Bai",
+        "Tao Ji",
+        "Tao Gui",
+        "Qi Zhang",
+        "Xuanjing Huang"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/woooodyy/BMMR",
+      "published": "2025-07-04T11:20:09.000Z"
+    },
+    {
+      "id": "2507.03253",
+      "title": "RefineX: Learning to Refine Pre-training Data at Scale from Expert-Guided Programs",
+      "authors": [
+        "Baolong Bi",
+        "Shenghua Liu",
+        "Xingzhang Ren",
+        "Dayiheng Liu",
+        "Junyang Lin",
+        "Yiwei Wang",
+        "Lingrui Mei",
+        "Junfeng Fang",
+        "Jiafeng Guo",
+        "Xueqi Cheng"
+      ],
+      "upvotes": 19,
+      "github": null,
+      "published": "2025-07-04T02:19:58.000Z"
+    },
+    {
+      "id": "2507.02659",
+      "title": "OmniDraft: A Cross-vocabulary, Online Adaptive Drafter for On-device Speculative Decoding",
+      "authors": [
+        "Ramchalam Kinattinkara Ramakrishnan",
+        "Zhaocong Yuan",
+        "Shaojie Zhuo",
+        "Chen Feng",
+        "Yicheng Lin",
+        "Chenzheng Su",
+        "Xiaopeng Zhang"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2025-07-03T14:20:41.000Z"
+    },
+    {
+      "id": "2507.04590",
+      "title": "VLM2Vec-V2: Advancing Multimodal Embedding for Videos, Images, and Visual Documents",
+      "authors": [
+        "Rui Meng",
+        "Ziyan Jiang",
+        "Ye Liu",
+        "Mingyi Su",
+        "Xinyi Yang",
+        "Yuepeng Fu",
+        "Can Qin",
+        "Zeyuan Chen",
+        "Ran Xu",
+        "Caiming Xiong",
+        "Yingbo Zhou",
+        "Wenhu Chen",
+        "Semih Yavuz"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/TIGER-AI-Lab/VLM2Vec",
+      "published": "2025-07-07T00:51:57.000Z"
+    },
+    {
+      "id": "2507.05257",
+      "title": "Evaluating Memory in LLM Agents via Incremental Multi-Turn Interactions",
+      "authors": [
+        "Yuanzhe Hu",
+        "Yu Wang",
+        "Julian McAuley"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/HUST-AI-HYZ/MemoryAgentBench",
+      "published": "2025-07-07T17:59:54.000Z"
+    },
+    {
+      "id": "2507.03683",
+      "title": "On the rankability of visual embeddings",
+      "authors": [
+        "Ankit Sonthalia",
+        "Arnas Uselis",
+        "Seong Joon Oh"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/aktsonthalia/rankable-vision-embeddings",
+      "published": "2025-07-04T16:03:31.000Z"
+    },
+    {
+      "id": "2507.05108",
+      "title": "Reviving Cultural Heritage: A Novel Approach for Comprehensive Historical Document Restoration",
+      "authors": [
+        "Yuyi Zhang",
+        "Peirong Zhang",
+        "Zhenhua Yang",
+        "Pengyu Yan",
+        "Yongxin Shi",
+        "Pengwei Liu",
+        "Fengjun Guo",
+        "Lianwen Jin"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/SCUT-DLVCLab/AutoHDR",
+      "published": "2025-07-07T15:26:17.000Z"
+    },
+    {
+      "id": "2506.21884",
+      "title": "UnMix-NeRF: Spectral Unmixing Meets Neural Radiance Fields",
+      "authors": [
+        "Fabian Perez",
+        "Sara Rojas",
+        "Carlos Hinojosa",
+        "Hoover Rueda-Chacón",
+        "Bernard Ghanem"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/Factral/UnMix-NeRF",
+      "published": "2025-06-27T03:42:49.000Z"
+    },
+    {
+      "id": "2507.04952",
+      "title": "ArtifactsBench: Bridging the Visual-Interactive Gap in LLM Code Generation Evaluation",
+      "authors": [
+        "Chenchen Zhang",
+        "Yuhang Li",
+        "Can Xu",
+        "Jiaheng Liu",
+        "Ao Liu",
+        "Shihui Hu",
+        "Dengpeng Wu",
+        "Guanhua Huang",
+        "Kejiao Li",
+        "Qi Yi",
+        "Ruibin Xiong",
+        "Haotian Zhu",
+        "Yuanxing Zhang",
+        "Yuhao Jiang",
+        "Yue Zhang",
+        "Zenan Xu",
+        "Bohui Zhai",
+        "Guoxiang He",
+        "Hebin Li",
+        "Jie Zhao",
+        "Le Zhang",
+        "Lingyun Tan",
+        "Pengyu Guo",
+        "Xianshu Pang",
+        "Yang Ruan",
+        "Zhifeng Zhang",
+        "Zhonghu Wang",
+        "Ziyan Xu",
+        "Zuopu Yin",
+        "Wiggin Zhou",
+        "Chayse Zhou",
+        "Fengzong Lian"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2025-07-07T12:53:00.000Z"
+    },
+    {
+      "id": "2507.04036",
+      "title": "PresentAgent: Multimodal Agent for Presentation Video Generation",
+      "authors": [
+        "Jingwei Shi",
+        "Zeyu Zhang",
+        "Biao Wu",
+        "Yanjie Liang",
+        "Meng Fang",
+        "Ling Chen",
+        "Yang Zhao"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/AIGeeksGroup/PresentAgent",
+      "published": "2025-07-05T13:24:15.000Z"
+    },
+    {
+      "id": "2507.04285",
+      "title": "SeqTex: Generate Mesh Textures in Video Sequence",
+      "authors": [
+        "Ze Yuan",
+        "Xin Yu",
+        "Yangtian Sun",
+        "Yuan-Chen Guo",
+        "Yan-Pei Cao",
+        "Ding Liang",
+        "Xiaojuan Qi"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2025-07-06T07:58:36.000Z"
+    },
+    {
+      "id": "2507.03607",
+      "title": "VLAI: A RoBERTa-Based Model for Automated Vulnerability Severity Classification",
+      "authors": [
+        "Cédric Bonhomme",
+        "Alexandre Dulaunoy"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/vulnerability-lookup/VulnTrain",
+      "published": "2025-07-04T14:28:14.000Z"
+    },
+    {
+      "id": "2507.03033",
+      "title": "Preserving Privacy, Increasing Accessibility, and Reducing Cost: An On-Device Artificial Intelligence Model for Medical Transcription and Note Generation",
+      "authors": [
+        "Johnson Thomas",
+        "Ayush Mudgal",
+        "Wendao Liu",
+        "Nisten Tahiraj",
+        "Zeeshaan Mohammed",
+        "Dhruv Diddi"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2025-07-03T01:51:49.000Z"
+    },
+    {
+      "id": "2507.03336",
+      "title": "Disambiguation-Centric Finetuning Makes Enterprise Tool-Calling LLMs More Realistic and Less Risky",
+      "authors": [
+        "Ashutosh Hathidara",
+        "Julien Yu",
+        "Sebastian Schreiber"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2025-07-04T06:49:02.000Z"
+    },
+    {
+      "id": "2507.04642",
+      "title": "R1-RE: Cross-Domain Relationship Extraction with RLVR",
+      "authors": [
+        "Runpeng Dai",
+        "Tong Zheng",
+        "Run Yang",
+        "Hongtu Zhu"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2025-07-07T03:50:59.000Z"
+    },
+    {
+      "id": "2507.05259",
+      "title": "Beyond Simple Edits: X-Planner for Complex Instruction-Based Image Editing",
+      "authors": [
+        "Chun-Hsiao Yeh",
+        "Yilin Wang",
+        "Nanxuan Zhao",
+        "Richard Zhang",
+        "Yuheng Li",
+        "Yi Ma",
+        "Krishna Kumar Singh"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2025-07-07T17:59:56.000Z"
+    },
+    {
+      "id": "2507.04376",
+      "title": "MOD-X: A Modular Open Decentralized eXchange Framework proposal for Heterogeneous Interoperable Artificial Agents",
+      "authors": [
+        "Georgios Ioannides",
+        "Christos Constantinou",
+        "Vinija Jain",
+        "Aman Chadha",
+        "Aaron Elkins"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-07-06T12:46:57.000Z"
+    },
+    {
+      "id": "2507.04562",
+      "title": "Evaluating LLMs on Real-World Forecasting Against Human Superforecasters",
+      "authors": [
+        "Janna Lu"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2025-07-06T22:26:59.000Z"
+    }
+  ]
+}

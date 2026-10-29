@@ -1,0 +1,42 @@
+{
+  "id": "2603.14473",
+  "title": "AI Can Learn Scientific Taste",
+  "authors": [
+    "Jingqi Tong",
+    "Mingzhe Li",
+    "Hangcheng Li",
+    "Yongzhuo Yang",
+    "Yurong Mou",
+    "Weijie Ma",
+    "Hongji Chen",
+    "Xiaoran Liu",
+    "Qinyuan Cheng",
+    "Ming Zhang",
+    "Qiguang Chen",
+    "Weifeng Ge",
+    "Qipeng Guo",
+    "Tianlei Ying",
+    "Tianxiang Sun",
+    "Yining Zheng",
+    "Zhiheng Xi",
+    "Xinchi Chen",
+    "Jun Zhao",
+    "Ning Ding",
+    "Xuanjing Huang",
+    "Yu-Gang Jiang",
+    "Xipeng Qiu"
+  ],
+  "published": "2026-03-15T16:31:51Z",
+  "abstract": "Scientific discovery depends on expert judgement and foresight, which we call scientific taste: the ability to judge and propose research ideas with the potential for long-term scientific impact. Scientific taste is largely concentrated among highly experienced researchers, whose expertise is usually limited to a few specialised fields. If AI could learn scientific taste, it could reduce reliance on human experts and accelerate scientific discovery. Whether AI can learn this ability remains an open question. We introduce Reinforcement Learning from Community Feedback (RLCF) to learn judgement and ideation. Scientific Judge learns from community feedback, such as citations. Scientific Thinker learns to propose research ideas with high potential impact. Experiments show that Scientific Judge outperforms strong LLM baselines and that learned judgement generalises to future-year papers, other community metrics, and unseen fields. Furthermore, Scientific Thinker proposes research ideas with higher potential impact than those proposed by baselines. These results suggest that AI can learn scientific taste, marking an important step towards AI systems that could help accelerate scientific discovery.",
+  "categories": [
+    "cs.CL"
+  ],
+  "abs": "https://arxiv.org/abs/2603.14473",
+  "pdf": "https://arxiv.org/pdf/2603.14473v3",
+  "source_url": "https://export.arxiv.org/api/query?id_list=2603.14473",
+  "fetched_at": "2026-10-29T15:51:29.875Z",
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "reusable_figures": true,
+  "github": "https://github.com/tongjingqi/AI-Can-Learn-Scientific-Taste",
+  "upvotes": 319
+}

@@ -1,0 +1,351 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-03-07",
+  "fetched_at": "2026-10-29T15:30:49.143Z",
+  "candidates": [
+    {
+      "id": "2503.04625",
+      "title": "START: Self-taught Reasoner with Tools",
+      "authors": [
+        "Chengpeng Li",
+        "Mingfeng Xue",
+        "Zhenru Zhang",
+        "Jiaxi Yang",
+        "Beichen Zhang",
+        "Xiang Wang",
+        "Bowen Yu",
+        "Binyuan Hui",
+        "Junyang Lin",
+        "Dayiheng Liu"
+      ],
+      "upvotes": 112,
+      "github": null,
+      "published": "2025-03-06T17:11:51.000Z"
+    },
+    {
+      "id": "2503.04130",
+      "title": "Token-Efficient Long Video Understanding for Multimodal LLMs",
+      "authors": [
+        "Jindong Jiang",
+        "Xiuyu Li",
+        "Zhijian Liu",
+        "Muyang Li",
+        "Guo Chen",
+        "Zhiqi Li",
+        "De-An Huang",
+        "Guilin Liu",
+        "Zhiding Yu",
+        "Kurt Keutzer",
+        "Sungjin Ahn",
+        "Jan Kautz",
+        "Hongxu Yin",
+        "Yao Lu",
+        "Song Han",
+        "Wonmin Byeon"
+      ],
+      "upvotes": 97,
+      "github": "https://github.com/Sakshi113/mmau",
+      "published": "2025-03-06T06:17:38.000Z"
+    },
+    {
+      "id": "2503.04724",
+      "title": "LLMVoX: Autoregressive Streaming Text-to-Speech Model for Any LLM",
+      "authors": [
+        "Sambal Shikhar",
+        "Mohammed Irfan Kurpath",
+        "Sahal Shaji Mullappilly",
+        "Jean Lahoud",
+        "Fahad Khan",
+        "Rao Muhammad Anwer",
+        "Salman Khan",
+        "Hisham Cholakkal"
+      ],
+      "upvotes": 71,
+      "github": "https://github.com/mbzuai-oryx/LLMVoX",
+      "published": "2025-03-06T18:59:38.000Z"
+    },
+    {
+      "id": "2503.03803",
+      "title": "EgoLife: Towards Egocentric Life Assistant",
+      "authors": [
+        "Jingkang Yang",
+        "Shuai Liu",
+        "Hongming Guo",
+        "Yuhao Dong",
+        "Xiamengwei Zhang",
+        "Sicheng Zhang",
+        "Pengyun Wang",
+        "Zitang Zhou",
+        "Binzhu Xie",
+        "Ziyue Wang",
+        "Bei Ouyang",
+        "Zhengyu Lin",
+        "Marco Cominelli",
+        "Zhongang Cai",
+        "Yuanhan Zhang",
+        "Peiyuan Zhang",
+        "Fangzhou Hong",
+        "Joerg Widmer",
+        "Francesco Gringoli",
+        "Lei Yang",
+        "Bo Li",
+        "Ziwei Liu"
+      ],
+      "upvotes": 49,
+      "github": "https://github.com/EvolvingLMMs-Lab/EgoLife",
+      "published": "2025-03-05T18:54:16.000Z"
+    },
+    {
+      "id": "2503.03983",
+      "title": "Audio Flamingo 2: An Audio-Language Model with Long-Audio Understanding and Expert Reasoning Abilities",
+      "authors": [
+        "Sreyan Ghosh",
+        "Zhifeng Kong",
+        "Sonal Kumar",
+        "S Sakshi",
+        "Jaehyeon Kim",
+        "Wei Ping",
+        "Rafael Valle",
+        "Dinesh Manocha",
+        "Bryan Catanzaro"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/NVIDIA/audio-flamingo",
+      "published": "2025-03-06T00:10:26.000Z"
+    },
+    {
+      "id": "2502.20258",
+      "title": "LLM as a Broken Telephone: Iterative Generation Distorts Information",
+      "authors": [
+        "Amr Mohamed",
+        "Mingmeng Geng",
+        "Michalis Vazirgiannis",
+        "Guokan Shang"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/amr-mohamedd/LLM-as-a-Broken-Telephone",
+      "published": "2025-02-27T16:46:23.000Z"
+    },
+    {
+      "id": "2503.02972",
+      "title": "LINGOLY-TOO: Disentangling Memorisation from Reasoning with Linguistic Templatisation and Orthographic Obfuscation",
+      "authors": [
+        "Jude Khouja",
+        "Karolina Korgul",
+        "Simi Hellsten",
+        "Lingyi Yang",
+        "Vlad Neacs",
+        "Harry Mayne",
+        "Ryan Kearns",
+        "Andrew Bean",
+        "Adam Mahdi"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/jkhouja/L2",
+      "published": "2025-03-04T19:57:47.000Z"
+    },
+    {
+      "id": "2503.04644",
+      "title": "IFIR: A Comprehensive Benchmark for Evaluating Instruction-Following in Expert-Domain Information Retrieval",
+      "authors": [
+        "Tingyu Song",
+        "Guo Gan",
+        "Mingsheng Shang",
+        "Yilun Zhao"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/SighingSnow/IFIR",
+      "published": "2025-03-06T17:32:22.000Z"
+    },
+    {
+      "id": "2503.04598",
+      "title": "HybridNorm: Towards Stable and Efficient Transformer Training via Hybrid Normalization",
+      "authors": [
+        "Zhijian Zhuo",
+        "Yutao Zeng",
+        "Ya Wang",
+        "Sijun Zhang",
+        "Jian Yang",
+        "Xiaoqing Li",
+        "Xun Zhou",
+        "Jinwen Ma"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/BryceZhuo/HybridNorm",
+      "published": "2025-03-06T16:40:48.000Z"
+    },
+    {
+      "id": "2503.04725",
+      "title": "L^2M: Mutual Information Scaling Law for Long-Context Language Modeling",
+      "authors": [
+        "Zhuo Chen",
+        "Oriol Mayné i Comas",
+        "Zhuotao Jin",
+        "Di Luo",
+        "Marin Soljačić"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/LSquaredM/mutual_info_scaling_law",
+      "published": "2025-03-06T18:59:48.000Z"
+    },
+    {
+      "id": "2503.04222",
+      "title": "FuseChat-3.0: Preference Optimization Meets Heterogeneous Model Fusion",
+      "authors": [
+        "Ziyi Yang",
+        "Fanqi Wan",
+        "Longguang Zhong",
+        "Canbin Huang",
+        "Guosheng Liang",
+        "Xiaojun Quan"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/SLIT-AI/FuseChat-3.0",
+      "published": "2025-03-06T09:03:36.000Z"
+    },
+    {
+      "id": "2503.04094",
+      "title": "PokéChamp: an Expert-level Minimax Language Agent",
+      "authors": [
+        "Seth Karten",
+        "Andy Luu Nguyen",
+        "Chi Jin"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/sethkarten/pokechamp",
+      "published": "2025-03-06T05:06:27.000Z"
+    },
+    {
+      "id": "2503.01917",
+      "title": "How to Steer LLM Latents for Hallucination Detection?",
+      "authors": [
+        "Seongheon Park",
+        "Xuefeng Du",
+        "Min-Hsuan Yeh",
+        "Haobo Wang",
+        "Yixuan Li"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2025-03-01T19:19:34.000Z"
+    },
+    {
+      "id": "2503.04378",
+      "title": "Dedicated Feedback and Edit Models Empower Inference-Time Scaling for Open-Ended General-Domain Tasks",
+      "authors": [
+        "Zhilin Wang",
+        "Jiaqi Zeng",
+        "Olivier Delalleau",
+        "Daniel Egert",
+        "Ellie Evans",
+        "Hoo-Chang Shin",
+        "Felipe Soares",
+        "Yi Dong",
+        "Oleksii Kuchaiev"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2025-03-06T12:30:24.000Z"
+    },
+    {
+      "id": "2503.02495",
+      "title": "Union of Experts: Adapting Hierarchical Routing to Equivalently Decomposed Transformer",
+      "authors": [
+        "Yujiao Yang",
+        "Jing Lian",
+        "Linhui Li"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/YujiaoYang-work/UoE",
+      "published": "2025-03-04T11:01:25.000Z"
+    },
+    {
+      "id": "2503.04606",
+      "title": "The Best of Both Worlds: Integrating Language Models and Diffusion Models for Video Generation",
+      "authors": [
+        "Aoxiong Yin",
+        "Kai Shen",
+        "Yichong Leng",
+        "Xu Tan",
+        "Xinyu Zhou",
+        "Juncheng Li",
+        "Siliang Tang"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/landiff/landiff",
+      "published": "2025-03-06T16:53:14.000Z"
+    },
+    {
+      "id": "2503.01901",
+      "title": "Identifying Sensitive Weights via Post-quantization Integral",
+      "authors": [
+        "Yuezhou Hu",
+        "Weiyu Huang",
+        "Zichen Liang",
+        "Chang Chen",
+        "Jintao Zhang",
+        "Jun Zhu",
+        "Jianfei Chen"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2025-02-28T07:04:19.000Z"
+    },
+    {
+      "id": "2503.04369",
+      "title": "Lost in Literalism: How Supervised Training Shapes Translationese in LLMs",
+      "authors": [
+        "Yafu Li",
+        "Ronghao Zhang",
+        "Zhilin Wang",
+        "Huajian Zhang",
+        "Leyang Cui",
+        "Yongjing Yin",
+        "Tong Xiao",
+        "Yue Zhang"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/yafuly/LLM_Translationese",
+      "published": "2025-03-06T12:14:45.000Z"
+    },
+    {
+      "id": "2503.01375",
+      "title": "Combining Flow Matching and Transformers for Efficient Solution of Bayesian Inverse Problems",
+      "authors": [
+        "Daniil Sherki",
+        "Ivan Oseledets",
+        "Ekaterina Muravleva"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-03-03T10:17:56.000Z"
+    },
+    {
+      "id": "2503.03962",
+      "title": "On the Acquisition of Shared Grammatical Representations in Bilingual Language Models",
+      "authors": [
+        "Catherine Arnett",
+        "Tyler A. Chang",
+        "James A. Michaelov",
+        "Benjamin K. Bergen"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-03-05T23:27:58.000Z"
+    },
+    {
+      "id": "2503.02191",
+      "title": "Understanding and Predicting Derailment in Toxic Conversations on GitHub",
+      "authors": [
+        "Mia Mohammad Imran",
+        "Robert Zita",
+        "Rebekah Copeland",
+        "Preetha Chatterjee",
+        "Rahat Rizvi Rahman",
+        "Kostadin Damevski"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-03-04T02:01:37.000Z"
+    }
+  ]
+}

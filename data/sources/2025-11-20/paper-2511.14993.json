@@ -1,0 +1,11 @@
+{
+  "id": "2511.14993",
+  "html": "https://arxiv.org/html/2511.14993",
+  "limitations": "While the models from Kandinsky 5.0 family demonstrate state-of-the-art performance in generation stability and visual quality, our work has several limitations that outline promising directions for future research: • Text-Visual Alignment. Quantitative results in side-by-side (SBS) evaluations, indicate a slight lag in textual prompt understanding compared to some competing solution. We attribute this primarily to the limited context length (256 tokens) of the Qwen2.5-VL 7B text encoder used in the our pipeline. Future work will focus on improving text alignment by integrating more powerful text encoders with extended context windows and exploring advanced Reinforcement Learning (RL) based fine-tuning techniques for better prompt understanding; • Temporal Consistency for Complex Dynamics. Although the spatio-temporal attention mechanism ensures robust frame-to-frame stability, modeling ",
+  "conclusion": "In this report, we introduced Kandinsky 5.0 , a versatile and scalable family of foundation models for high-resolution image and video generation. The framework includes three core model line-ups: Kandinsky 5.0 Image Lite (6B parameters), Kandinsky 5.0 Video Lite (2B parameters), and Kandinsky 5.0 Video Pro (19B parameters), each optimized for specific generative tasks and efficiency requirements. Our key contributions include: • A comprehensive data processing pipeline that ensures high-quality, diverse, and culturally aware datasets for both image and video modalities, including specialized datasets for Russian cultural content and supervised fine-tuning. • A multi-stage training pipeline incorporating pre-training, supervised fine-tuning (SFT), distillation, and RL-based post-training, which collectively enhance visual quality, prompt alignment, and temporal consistency. • The introdu",
+  "figure": {
+    "path": "images/2025/paper-2511.14993.webp",
+    "src": "https://arxiv.org/html/2511.14993v3/images/title.png",
+    "caption": ""
+  }
+}

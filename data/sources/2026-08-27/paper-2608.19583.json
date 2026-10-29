@@ -1,0 +1,11 @@
+{
+  "id": "2608.19583",
+  "html": "https://arxiv.org/html/2608.19583",
+  "limitations": "Our benchmark has several scope-related limitations we want to make explicit. First, all tasks are designed around the typical generation length of current video models (roughly 5–10s); longer-horizon procedural reasoning, such as multi-minute multi-step assembly or long-trajectory planning, is therefore out of scope. Second, the benchmark covers only the image-to-video (i2v) setting with a fixed 16:9 aspect ratio; text-to-video, multi-image conditioning, and audio-conditioned generation are left to future work. Third, all task prompts and rubrics are written in English, so multilingual or cross-lingual evaluation is not addressed. Finally, the task suite is intentionally representative rather than exhaustive : it captures a focused slice of visual reasoning domains and difficulty levels, but does not aim to enumerate every conceivable visual reasoning scenario, and may need to be extend",
+  "conclusion": "Beyond aggregated scores, we further diagnose video reasoning across four stages: output failures, input conditions, training-time transfer, and internal denoising dynamics. This progression examines not only where the model fails, but also how their behavior changes across multiple aspects.",
+  "figure": {
+    "path": "images/2026/paper-2608.19583.webp",
+    "src": "https://arxiv.org/html/2608.19583v3/teaser.png",
+    "caption": "Figure 1: Overview of representative tasks in our benchmark. VGI-Bench adopts a double-level taxonomy : the first level groups every task into one of four mutually exclusive task domains , while the second level annotates each task with one or more (non-exclusive) skill tags , as shown in the legend at the bottom. Each panel shows a representative real-scene input image; the icons under the task n"
+  }
+}

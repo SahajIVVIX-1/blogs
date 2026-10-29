@@ -1,0 +1,263 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2023-12-06",
+  "fetched_at": "2026-10-29T15:26:11.049Z",
+  "candidates": [
+    {
+      "id": "2312.02201",
+      "title": "ImageDream: Image-Prompt Multi-view Diffusion for 3D Generation",
+      "authors": [
+        "Peng Wang",
+        "Yichun Shi"
+      ],
+      "upvotes": 33,
+      "github": "https://github.com/bytedance/imagedream",
+      "published": "2023-12-02T20:41:27.000Z"
+    },
+    {
+      "id": "2312.02696",
+      "title": "Analyzing and Improving the Training Dynamics of Diffusion Models",
+      "authors": [
+        "Tero Karras",
+        "Miika Aittala",
+        "Jaakko Lehtinen",
+        "Janne Hellsten",
+        "Timo Aila",
+        "Samuli Laine"
+      ],
+      "upvotes": 32,
+      "github": "https://github.com/nvlabs/edm2",
+      "published": "2023-12-05T11:55:47.000Z"
+    },
+    {
+      "id": "2312.03704",
+      "title": "Relightable Gaussian Codec Avatars",
+      "authors": [
+        "Shunsuke Saito",
+        "Gabriel Schwartz",
+        "Tomas Simon",
+        "Junxuan Li",
+        "Giljoo Nam"
+      ],
+      "upvotes": 31,
+      "github": null,
+      "published": "2023-12-06T18:59:58.000Z"
+    },
+    {
+      "id": "2312.02238",
+      "title": "X-Adapter: Adding Universal Compatibility of Plugins for Upgraded Diffusion Model",
+      "authors": [
+        "Lingmin Ran",
+        "Xiaodong Cun",
+        "JiaWei Liu",
+        "Rui Zhao",
+        "Song Zijie",
+        "Xintao Wang",
+        "Jussi Keppo",
+        "Mike Zheng Shou"
+      ],
+      "upvotes": 26,
+      "github": null,
+      "published": "2023-12-04T09:19:38.000Z"
+    },
+    {
+      "id": "2312.03700",
+      "title": "OneLLM: One Framework to Align All Modalities with Language",
+      "authors": [
+        "Jiaming Han",
+        "Kaixiong Gong",
+        "Yiyuan Zhang",
+        "Jiaqi Wang",
+        "Kaipeng Zhang",
+        "Dahua Lin",
+        "Yu Qiao",
+        "Peng Gao",
+        "Xiangyu Yue"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/csuhan/onellm",
+      "published": "2023-12-06T18:59:19.000Z"
+    },
+    {
+      "id": "2312.03209",
+      "title": "Cache Me if You Can: Accelerating Diffusion Models through Block Caching",
+      "authors": [
+        "Felix Wimbauer",
+        "Bichen Wu",
+        "Edgar Schoenfeld",
+        "Xiaoliang Dai",
+        "Ji Hou",
+        "Zijian He",
+        "Artsiom Sanakoyeu",
+        "Peizhao Zhang",
+        "Sam Tsai",
+        "Jonas Kohler",
+        "Christian Rupprecht",
+        "Daniel Cremers",
+        "Peter Vajda",
+        "Jialiang Wang"
+      ],
+      "upvotes": 20,
+      "github": null,
+      "published": "2023-12-06T00:51:38.000Z"
+    },
+    {
+      "id": "2312.03079",
+      "title": "LooseControl: Lifting ControlNet for Generalized Depth Conditioning",
+      "authors": [
+        "Shariq Farooq Bhat",
+        "Niloy J. Mitra",
+        "Peter Wonka"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2023-12-05T19:00:20.000Z"
+    },
+    {
+      "id": "2312.02432",
+      "title": "Orthogonal Adaptation for Modular Customization of Diffusion Models",
+      "authors": [
+        "Ryan Po",
+        "Guandao Yang",
+        "Kfir Aberman",
+        "Gordon Wetzstein"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2023-12-05T02:17:48.000Z"
+    },
+    {
+      "id": "2312.02216",
+      "title": "DragVideo: Interactive Drag-style Video Editing",
+      "authors": [
+        "Yufan Deng",
+        "Ruida Wang",
+        "Yuhao Zhang",
+        "Yu-Wing Tai",
+        "Chi-Keung Tang"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/rickyskywalker/dragvideo-official",
+      "published": "2023-12-03T10:41:06.000Z"
+    },
+    {
+      "id": "2312.02963",
+      "title": "MVHumanNet: A Large-scale Dataset of Multi-view Daily Dressing Human Captures",
+      "authors": [
+        "Zhangyang Xiong",
+        "Chenghong Li",
+        "Kenkun Liu",
+        "Hongjie Liao",
+        "Jianqiao Hu",
+        "Junyi Zhu",
+        "Shuliang Ning",
+        "Lingteng Qiu",
+        "Chongjie Wang",
+        "Shijie Wang",
+        "Shuguang Cui",
+        "Xiaoguang Han"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2023-12-05T18:50:12.000Z"
+    },
+    {
+      "id": "2312.03664",
+      "title": "Generative agent-based modeling with actions grounded in physical, social, or digital space using Concordia",
+      "authors": [
+        "Alexander Sasha Vezhnevets",
+        "John P. Agapiou",
+        "Avia Aharon",
+        "Ron Ziv",
+        "Jayd Matyas",
+        "Edgar A. Duéñez-Guzmán",
+        "William A. Cunningham",
+        "Simon Osindero",
+        "Danny Karmon",
+        "Joel Z. Leibo"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/google-deepmind/concordia",
+      "published": "2023-12-06T18:33:50.000Z"
+    },
+    {
+      "id": "2312.02981",
+      "title": "ReconFusion: 3D Reconstruction with Diffusion Priors",
+      "authors": [
+        "Rundi Wu",
+        "Ben Mildenhall",
+        "Philipp Henzler",
+        "Keunhong Park",
+        "Ruiqi Gao",
+        "Daniel Watson",
+        "Pratul P. Srinivasan",
+        "Dor Verbin",
+        "Jonathan T. Barron",
+        "Ben Poole",
+        "Aleksander Holynski"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2023-12-05T18:59:58.000Z"
+    },
+    {
+      "id": "2312.02970",
+      "title": "Alchemist: Parametric Control of Material Properties with Diffusion Models",
+      "authors": [
+        "Prafull Sharma",
+        "Varun Jampani",
+        "Yuanzhen Li",
+        "Xuhui Jia",
+        "Dmitry Lagun",
+        "Fredo Durand",
+        "William T. Freeman",
+        "Mark Matthews"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2023-12-05T18:58:26.000Z"
+    },
+    {
+      "id": "2312.02772",
+      "title": "Generating Fine-Grained Human Motions Using ChatGPT-Refined Descriptions",
+      "authors": [
+        "Xu Shi",
+        "Chuanchen Luo",
+        "Junran Peng",
+        "Hongwen Zhang",
+        "Yunlian Sun"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2023-12-05T14:01:43.000Z"
+    },
+    {
+      "id": "2312.03587",
+      "title": "Language-Informed Visual Concept Learning",
+      "authors": [
+        "Sharon Lee",
+        "Yunzhi Zhang",
+        "Shangzhe Wu",
+        "Jiajun Wu"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/sharonal10/langint",
+      "published": "2023-12-06T16:24:47.000Z"
+    },
+    {
+      "id": "2312.03632",
+      "title": "Multimodal Data and Resource Efficient Device-Directed Speech Detection with Large Foundation Models",
+      "authors": [
+        "Dominik Wagner",
+        "Alexander Churchill",
+        "Siddharth Sigtia",
+        "Panayiotis Georgiou",
+        "Matt Mirsamadi",
+        "Aarshee Mishra",
+        "Erik Marchi"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2023-12-06T17:29:03.000Z"
+    }
+  ]
+}

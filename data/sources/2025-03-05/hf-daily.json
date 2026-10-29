@@ -1,0 +1,419 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-03-05",
+  "fetched_at": "2026-10-29T15:30:47.931Z",
+  "candidates": [
+    {
+      "id": "2503.01935",
+      "title": "MultiAgentBench: Evaluating the Collaboration and Competition of LLM agents",
+      "authors": [
+        "Kunlun Zhu",
+        "Hongyi Du",
+        "Zhaochen Hong",
+        "Xiaocheng Yang",
+        "Shuyi Guo",
+        "Zhe Wang",
+        "Zhenhailong Wang",
+        "Cheng Qian",
+        "Xiangru Tang",
+        "Heng Ji",
+        "Jiaxuan You"
+      ],
+      "upvotes": 31,
+      "github": "https://github.com/MultiagentBench/MARBLE",
+      "published": "2025-03-03T05:18:50.000Z"
+    },
+    {
+      "id": "2503.02682",
+      "title": "MPO: Boosting LLM Agents with Meta Plan Optimization",
+      "authors": [
+        "Weimin Xiong",
+        "Yifan Song",
+        "Qingxiu Dong",
+        "Bingchan Zhao",
+        "Feifan Song",
+        "Xun Wang",
+        "Sujian Li"
+      ],
+      "upvotes": 29,
+      "github": "https://github.com/WeiminXiong/MPO",
+      "published": "2025-03-04T14:54:45.000Z"
+    },
+    {
+      "id": "2503.00955",
+      "title": "SemViQA: A Semantic Question Answering System for Vietnamese Information Fact-Checking",
+      "authors": [
+        "Nam V. Nguyen",
+        "Dien X. Tran",
+        "Thanh T. Tran",
+        "Anh T. Hoang",
+        "Tai V. Duong",
+        "Di T. Le",
+        "Phuc-Lu Le"
+      ],
+      "upvotes": 28,
+      "github": "https://github.com/DAVID-NGUYEN-S16/SemViQA",
+      "published": "2025-03-02T16:22:46.000Z"
+    },
+    {
+      "id": "2503.02879",
+      "title": "Wikipedia in the Era of LLMs: Evolution and Risks",
+      "authors": [
+        "Siming Huang",
+        "Yuliang Xu",
+        "Mingmeng Geng",
+        "Yao Wan",
+        "Dongping Chen"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/HSM316/LLM_Wikipedia",
+      "published": "2025-03-04T18:58:13.000Z"
+    },
+    {
+      "id": "2503.00735",
+      "title": "LADDER: Self-Improving LLMs Through Recursive Problem Decomposition",
+      "authors": [
+        "Toby Simonds",
+        "Akira Yoshiyama"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/Tufalabs/MITIntegrationBee",
+      "published": "2025-03-02T05:16:43.000Z"
+    },
+    {
+      "id": "2503.02846",
+      "title": "Mask-DPO: Generalizable Fine-grained Factuality Alignment of LLMs",
+      "authors": [
+        "Yuzhe Gu",
+        "Wenwei Zhang",
+        "Chengqi Lyu",
+        "Dahua Lin",
+        "Kai Chen"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/open-compass/ANAH",
+      "published": "2025-03-04T18:20:24.000Z"
+    },
+    {
+      "id": "2503.00069",
+      "title": "Societal Alignment Frameworks Can Improve LLM Alignment",
+      "authors": [
+        "Karolina Stańczak",
+        "Nicholas Meade",
+        "Mehar Bhatia",
+        "Hattie Zhou",
+        "Konstantin Böttinger",
+        "Jeremy Barnes",
+        "Jason Stanley",
+        "Jessica Montgomery",
+        "Richard Zemel",
+        "Nicolas Papernot",
+        "Nicolas Chapados",
+        "Denis Therien",
+        "Timothy P. Lillicrap",
+        "Ana Marasović",
+        "Sylvie Delacroix",
+        "Gillian K. Hadfield",
+        "Siva Reddy"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2025-02-27T13:26:07.000Z"
+    },
+    {
+      "id": "2503.03651",
+      "title": "DoraCycle: Domain-Oriented Adaptation of Unified Generative Model in Multimodal Cycles",
+      "authors": [
+        "Rui Zhao",
+        "Weijia Mao",
+        "Mike Zheng Shou"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/showlab/DoraCycle",
+      "published": "2025-03-05T16:26:58.000Z"
+    },
+    {
+      "id": "2503.01328",
+      "title": "PipeOffload: Improving Scalability of Pipeline Parallelism with Memory Optimization",
+      "authors": [
+        "Xinyi Wan",
+        "Penghui Qi",
+        "Guangxing Huang",
+        "Jialin Li",
+        "Min Lin"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/sail-sg/zero-bubble",
+      "published": "2025-03-03T09:11:06.000Z"
+    },
+    {
+      "id": "2503.02368",
+      "title": "Iterative Value Function Optimization for Guided Decoding",
+      "authors": [
+        "Zhenhua Liu",
+        "Lijun Li",
+        "Ruizhe Chen",
+        "Yuxian Jiang",
+        "Tong Zhu",
+        "Wenliang Chen",
+        "Jing Shao"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2025-03-04T07:49:10.000Z"
+    },
+    {
+      "id": "2503.00200",
+      "title": "Unified Video Action Model",
+      "authors": [
+        "Shuang Li",
+        "Yihuai Gao",
+        "Dorsa Sadigh",
+        "Shuran Song"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/ShuangLI59/unified_video_action",
+      "published": "2025-02-28T21:38:17.000Z"
+    },
+    {
+      "id": "2503.02537",
+      "title": "RectifiedHR: Enable Efficient High-Resolution Image Generation via Energy Rectification",
+      "authors": [
+        "Zhen Yang",
+        "Guibao Shen",
+        "Liang Hou",
+        "Mushui Liu",
+        "Luozhou Wang",
+        "Xin Tao",
+        "Pengfei Wan",
+        "Di Zhang",
+        "Ying-Cong Chen"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/EnVision-Research/RectifiedHR",
+      "published": "2025-03-04T12:03:26.000Z"
+    },
+    {
+      "id": "2503.02268",
+      "title": "AppAgentX: Evolving GUI Agents as Proficient Smartphone Users",
+      "authors": [
+        "Wenjia Jiang",
+        "Yangyang Zhuang",
+        "Chenxi Song",
+        "Xu Yang",
+        "Chi Zhang"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/Westlake-AGI-Lab/AppAgentX",
+      "published": "2025-03-04T04:34:09.000Z"
+    },
+    {
+      "id": "2503.02812",
+      "title": "Q-Filters: Leveraging QK Geometry for Efficient KV Cache Compression",
+      "authors": [
+        "Nathan Godey",
+        "Alessio Devoto",
+        "Yu Zhao",
+        "Simone Scardapane",
+        "Pasquale Minervini",
+        "Éric de la Clergerie",
+        "Benoît Sagot"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/NathanGodey/qfilters",
+      "published": "2025-03-04T17:37:49.000Z"
+    },
+    {
+      "id": "2503.02878",
+      "title": "Language Models can Self-Improve at State-Value Estimation for Better Search",
+      "authors": [
+        "Ethan Mendes",
+        "Alan Ritter"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/ethanm88/self-taught-lookahead",
+      "published": "2025-03-04T18:58:11.000Z"
+    },
+    {
+      "id": "2503.02197",
+      "title": "ATLaS: Agent Tuning via Learning Critical Steps",
+      "authors": [
+        "Zhixun Chen",
+        "Ming Li",
+        "Yuxuan Huang",
+        "Yali Du",
+        "Meng Fang",
+        "Tianyi Zhou"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2025-03-04T02:14:55.000Z"
+    },
+    {
+      "id": "2503.02357",
+      "title": "Q-Eval-100K: Evaluating Visual Quality and Alignment Level for Text-to-Vision Content",
+      "authors": [
+        "Zicheng Zhang",
+        "Tengchuan Kou",
+        "Shushi Wang",
+        "Chunyi Li",
+        "Wei Sun",
+        "Wei Wang",
+        "Xiaoyu Li",
+        "Zongyu Wang",
+        "Xuezhi Cao",
+        "Xiongkuo Min",
+        "Xiaohong Liu",
+        "Guangtao Zhai"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/zzc-1998/q-eval",
+      "published": "2025-03-04T07:28:45.000Z"
+    },
+    {
+      "id": "2503.02783",
+      "title": "IterPref: Focal Preference Learning for Code Generation via Iterative Debugging",
+      "authors": [
+        "Jie Wu",
+        "Haoling Li",
+        "Xin Zhang",
+        "Jianwen Luo",
+        "Yangyu Huang",
+        "Ruihang Chu",
+        "Yujiu Yang",
+        "Scarlett Li"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/JieWu02/Target-DPO",
+      "published": "2025-03-04T16:56:34.000Z"
+    },
+    {
+      "id": "2502.14856",
+      "title": "FR-Spec: Accelerating Large-Vocabulary Language Models via Frequency-Ranked Speculative Sampling",
+      "authors": [
+        "Weilin Zhao",
+        "Tengyu Pan",
+        "Xu Han",
+        "Yudi Zhang",
+        "Ao Sun",
+        "Yuxiang Huang",
+        "Kaihuo Zhang",
+        "Weilun Zhao",
+        "Yuxuan Li",
+        "Jianyong Wang",
+        "Zhiyuan Liu",
+        "Maosong Sun"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/thunlp/FR-Spec",
+      "published": "2025-02-20T18:58:10.000Z"
+    },
+    {
+      "id": "2503.01342",
+      "title": "UFO: A Unified Approach to Fine-grained Visual Perception via Open-ended Language Interface",
+      "authors": [
+        "Hao Tang",
+        "Chenwei Xie",
+        "Haiyang Wang",
+        "Xiaoyi Bao",
+        "Tingyu Weng",
+        "Pandeng Li",
+        "Yun Zheng",
+        "Liwei Wang"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/nnnth/UFO",
+      "published": "2025-03-03T09:27:24.000Z"
+    },
+    {
+      "id": "2503.00876",
+      "title": "Improve Representation for Imbalanced Regression through Geometric Constraints",
+      "authors": [
+        "Zijian Dong",
+        "Yilei Wu",
+        "Chongyao Chen",
+        "Yingtian Zou",
+        "Yichi Zhang",
+        "Juan Helen Zhou"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/yilei-wu/imbalanced-regression",
+      "published": "2025-03-02T12:31:34.000Z"
+    },
+    {
+      "id": "2503.02152",
+      "title": "Tabby: Tabular Data Synthesis with Language Models",
+      "authors": [
+        "Sonia Cromp",
+        "Satya Sai Srinath Namburi GNVV",
+        "Mohammed Alkhudhayri",
+        "Catherine Cao",
+        "Samuel Guo",
+        "Nicholas Roberts",
+        "Frederic Sala"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/soCromp/tabby",
+      "published": "2025-03-04T00:32:15.000Z"
+    },
+    {
+      "id": "2503.02876",
+      "title": "SPIDER: A Comprehensive Multi-Organ Supervised Pathology Dataset and Baseline Models",
+      "authors": [
+        "Dmitry Nechaev",
+        "Alexey Pchelnikov",
+        "Ekaterina Ivanova"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/HistAI/SPIDER",
+      "published": "2025-03-04T18:57:12.000Z"
+    },
+    {
+      "id": "2503.02823",
+      "title": "A Multimodal Symphony: Integrating Taste and Sound through Generative AI",
+      "authors": [
+        "Matteo Spanio",
+        "Massimiliano Zampini",
+        "Antonio Rodà",
+        "Franco Pierucci"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/matteospanio/tasty-musicgen-small",
+      "published": "2025-03-04T17:48:48.000Z"
+    },
+    {
+      "id": "2503.02304",
+      "title": "A Token-level Text Image Foundation Model for Document Understanding",
+      "authors": [
+        "Tongkun Guan",
+        "Zining Wang",
+        "Pei Fu",
+        "Zhengtao Guo",
+        "Wei Shen",
+        "Kai Zhou",
+        "Tiezhu Yue",
+        "Chen Duan",
+        "Hao Sun",
+        "Qianyi Jiang",
+        "Junfeng Luo",
+        "Xiaokang Yang"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/Token-family/TokenOCR",
+      "published": "2025-03-04T06:05:33.000Z"
+    },
+    {
+      "id": "2503.01842",
+      "title": "Discrete-Time Hybrid Automata Learning: Legged Locomotion Meets Skateboarding",
+      "authors": [
+        "Hang Liu",
+        "Sangli Teng",
+        "Ben Liu",
+        "Wei Zhang",
+        "Maani Ghaffari"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2025-03-03T18:59:23.000Z"
+    }
+  ]
+}

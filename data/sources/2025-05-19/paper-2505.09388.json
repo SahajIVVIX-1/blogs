@@ -1,0 +1,7 @@
+{
+  "id": "2505.09388",
+  "html": "https://arxiv.org/html/2505.09388",
+  "limitations": null,
+  "conclusion": "The Effectiveness of Thinking Budget To verify that Qwen3 can enhance its intelligence level by leveraging an increased thinking budget, we adjust the allocated thinking budget on four benchmarks across Mathematics, Coding, and STEM domains. The resulting scaling curves are presented in Figure 2 , Qwen3 demonstrates scalable and smooth performance improvements correlated to the allocated thinking budget. Moreover, we observe that if we further extend the output length beyond 32K, the model’s performance is expected to improve further in the future. We leave this exploration as future work. Figure 2: Performance of Qwen3-235B-A22B with respect to the thinking budget. The Effectiveness and Efficiency of On-Policy Distillation We evaluate the effectiveness and efficiency of on-policy distillation by comparing the performance and computational cost—measured in GPU hours—after undergoing dist",
+  "figure": null
+}

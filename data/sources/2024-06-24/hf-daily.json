@@ -1,0 +1,379 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-06-24",
+  "fetched_at": "2026-10-29T15:28:13.496Z",
+  "candidates": [
+    {
+      "id": "2406.15319",
+      "title": "LongRAG: Enhancing Retrieval-Augmented Generation with Long-context LLMs",
+      "authors": [
+        "Ziyan Jiang",
+        "Xueguang Ma",
+        "Wenhu Chen"
+      ],
+      "upvotes": 64,
+      "github": null,
+      "published": "2024-06-21T17:23:21.000Z"
+    },
+    {
+      "id": "2406.12624",
+      "title": "Judging the Judges: Evaluating Alignment and Vulnerabilities in LLMs-as-Judges",
+      "authors": [
+        "Aman Singh Thakur",
+        "Kartik Choudhary",
+        "Venkat Srinik Ramayapally",
+        "Sankaran Vaidyanathan",
+        "Dieuwke Hupkes"
+      ],
+      "upvotes": 37,
+      "github": "https://github.com/UMass-Meta-LLM-Eval/llm_eval",
+      "published": "2024-06-18T13:49:54.000Z"
+    },
+    {
+      "id": "2406.14938",
+      "title": "Towards Retrieval Augmented Generation over Large Video Libraries",
+      "authors": [
+        "Yannis Tevissen",
+        "Khalil Guetari",
+        "Frédéric Petitpont"
+      ],
+      "upvotes": 22,
+      "github": null,
+      "published": "2024-06-21T07:52:01.000Z"
+    },
+    {
+      "id": "2406.14213",
+      "title": "Complexity of Symbolic Representation in Working Memory of Transformer Correlates with the Complexity of a Task",
+      "authors": [
+        "Alsu Sagirova",
+        "Mikhail Burtsev"
+      ],
+      "upvotes": 21,
+      "github": null,
+      "published": "2024-06-20T11:27:29.000Z"
+    },
+    {
+      "id": "2406.15252",
+      "title": "MantisScore: Building Automatic Metrics to Simulate Fine-grained Human Feedback for Video Generation",
+      "authors": [
+        "Xuan He",
+        "Dongfu Jiang",
+        "Ge Zhang",
+        "Max Ku",
+        "Achint Soni",
+        "Sherman Siu",
+        "Haonan Chen",
+        "Abhranil Chandra",
+        "Ziyan Jiang",
+        "Aaran Arulraj",
+        "Kai Wang",
+        "Quy Duc Do",
+        "Yuansheng Ni",
+        "Bohan Lyu",
+        "Yaswanth Narsupalli",
+        "Rongqi Fan",
+        "Zhiheng Lyu",
+        "Yuchen Lin",
+        "Wenhu Chen"
+      ],
+      "upvotes": 19,
+      "github": null,
+      "published": "2024-06-21T15:43:46.000Z"
+    },
+    {
+      "id": "2406.14783",
+      "title": "Evaluating RAG-Fusion with RAGElo: an Automated Elo-based Framework",
+      "authors": [
+        "Zackary Rackauckas",
+        "Arthur Câmara",
+        "Jakub Zavrel"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2024-06-20T23:20:34.000Z"
+    },
+    {
+      "id": "2406.13457",
+      "title": "EvTexture: Event-driven Texture Enhancement for Video Super-Resolution",
+      "authors": [
+        "Dachun Kai",
+        "Jiayao Lu",
+        "Yueyi Zhang",
+        "Xiaoyan Sun"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/dachunkai/evtexture",
+      "published": "2024-06-19T11:27:44.000Z"
+    },
+    {
+      "id": "2406.14599",
+      "title": "Stylebreeder: Exploring and Democratizing Artistic Styles through Text-to-Image Models",
+      "authors": [
+        "Matthew Zheng",
+        "Enis Simsar",
+        "Hidir Yesiltepe",
+        "Federico Tombari",
+        "Joel Simon",
+        "Pinar Yanardag"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/stylebreeder/stylebreeder-code",
+      "published": "2024-06-20T17:59:56.000Z"
+    },
+    {
+      "id": "2406.15193",
+      "title": "Reward Steering with Evolutionary Heuristics for Decoding-time Alignment",
+      "authors": [
+        "Chia-Yu Hung",
+        "Navonil Majumder",
+        "Ambuj Mehrish",
+        "Soujanya Poria"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/declare-lab/darwin",
+      "published": "2024-06-21T14:35:16.000Z"
+    },
+    {
+      "id": "2406.14393",
+      "title": "Jailbreaking as a Reward Misspecification Problem",
+      "authors": [
+        "Zhihui Xie",
+        "Jiahui Gao",
+        "Lei Li",
+        "Zhenguo Li",
+        "Qi Liu",
+        "Lingpeng Kong"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/zhxieml/remiss-jailbreak",
+      "published": "2024-06-20T15:12:27.000Z"
+    },
+    {
+      "id": "2406.14035",
+      "title": "Two Giraffes in a Dirt Field: Using Game Play to Investigate Situation Modelling in Large Multimodal Models",
+      "authors": [
+        "Sherzod Hakimov",
+        "Yerkezhan Abdullayeva",
+        "Kushal Koshti",
+        "Antonia Schmidt",
+        "Yan Weiser",
+        "Anne Beyer",
+        "David Schlangen"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2024-06-20T06:56:19.000Z"
+    },
+    {
+      "id": "2406.11617",
+      "title": "DELLA-Merging: Reducing Interference in Model Merging through Magnitude-Based Sampling",
+      "authors": [
+        "Pala Tej Deep",
+        "Rishabh Bhardwaj",
+        "Soujanya Poria"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/declare-lab/della",
+      "published": "2024-06-17T15:02:45.000Z"
+    },
+    {
+      "id": "2406.15275",
+      "title": "Cognitive Map for Language Models: Optimal Planning via Verbally Representing the World Model",
+      "authors": [
+        "Doyoung Kim",
+        "Jongwon Lee",
+        "Jinho Park",
+        "Minjoon Seo"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/kaistai/language_extrapolation",
+      "published": "2024-06-21T16:10:05.000Z"
+    },
+    {
+      "id": "2406.13527",
+      "title": "4K4DGen: Panoramic 4D Generation at 4K Resolution",
+      "authors": [
+        "Renjie Li",
+        "Panwang Pan",
+        "Bangbang Yang",
+        "Dejia Xu",
+        "Shijie Zhou",
+        "Xuanyang Zhang",
+        "Zeming Li",
+        "Achuta Kadambi",
+        "Zhangyang Wang",
+        "Zhiwen Fan"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2024-06-19T13:11:02.000Z"
+    },
+    {
+      "id": "2406.13236",
+      "title": "Data Contamination Can Cross Language Barriers",
+      "authors": [
+        "Feng Yao",
+        "Yufan Zhuang",
+        "Zihao Sun",
+        "Sunan Xu",
+        "Animesh Kumar",
+        "Jingbo Shang"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/shangdatalab/deep-contam",
+      "published": "2024-06-19T05:53:27.000Z"
+    },
+    {
+      "id": "2406.14972",
+      "title": "A Tale of Trust and Accuracy: Base vs. Instruct LLMs in RAG Systems",
+      "authors": [
+        "Florin Cuconasu",
+        "Giovanni Trappolini",
+        "Nicola Tonellotto",
+        "Fabrizio Silvestri"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/florin-git/Base-vs-Instruct-LLMs-in-RAG-Systems",
+      "published": "2024-06-21T08:31:02.000Z"
+    },
+    {
+      "id": "2406.12056",
+      "title": "Learning Molecular Representation in a Cell",
+      "authors": [
+        "Gang Liu",
+        "Srijit Seal",
+        "John Arevalo",
+        "Zhenwen Liang",
+        "Anne E. Carpenter",
+        "Meng Jiang",
+        "Shantanu Singh"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/liugangcode/InfoAlign",
+      "published": "2024-06-17T19:48:42.000Z"
+    },
+    {
+      "id": "2406.11654",
+      "title": "Ruby Teaming: Improving Quality Diversity Search with Memory for Automated Red Teaming",
+      "authors": [
+        "Vernon Toh Yan Han",
+        "Rishabh Bhardwaj",
+        "Soujanya Poria"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2024-06-17T15:36:14.000Z"
+    },
+    {
+      "id": "2406.14596",
+      "title": "ICAL: Continual Learning of Multimodal Agents by Transforming Trajectories into Actionable Insights",
+      "authors": [
+        "Gabriel Sarch",
+        "Lawrence Jang",
+        "Michael J. Tarr",
+        "William W. Cohen",
+        "Kenneth Marino",
+        "Katerina Fragkiadaki"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2024-06-20T17:45:02.000Z"
+    },
+    {
+      "id": "2406.13393",
+      "title": "Style-NeRF2NeRF: 3D Style Transfer From Style-Aligned Multi-View Images",
+      "authors": [
+        "Haruo Fujiwara",
+        "Yusuke Mukuta",
+        "Tatsuya Harada"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2024-06-19T09:36:18.000Z"
+    },
+    {
+      "id": "2406.15349",
+      "title": "NAVSIM: Data-Driven Non-Reactive Autonomous Vehicle Simulation and Benchmarking",
+      "authors": [
+        "Daniel Dauner",
+        "Marcel Hallgarten",
+        "Tianyu Li",
+        "Xinshuo Weng",
+        "Zhiyu Huang",
+        "Zetong Yang",
+        "Hongyang Li",
+        "Igor Gilitschenski",
+        "Boris Ivanovic",
+        "Marco Pavone",
+        "Andreas Geiger",
+        "Kashyap Chitta"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2024-06-21T17:59:02.000Z"
+    },
+    {
+      "id": "2406.14764",
+      "title": "RE-AdaptIR: Improving Information Retrieval through Reverse Engineered Adaptation",
+      "authors": [
+        "William Fleshman",
+        "Benjamin Van Durme"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2024-06-20T22:28:11.000Z"
+    },
+    {
+      "id": "2406.11403",
+      "title": "Multimodal Structured Generation: CVPR's 2nd MMFM Challenge Technical Report",
+      "authors": [
+        "Franz Louis Cesista"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/leloykun/mmfm-challenge",
+      "published": "2024-06-17T10:45:47.000Z"
+    },
+    {
+      "id": "2406.12564",
+      "title": "Low-Resource Machine Translation through the Lens of Personalized Federated Learning",
+      "authors": [
+        "Viktor Moskvoretskii",
+        "Nazarii Tupitsa",
+        "Chris Biemann",
+        "Samuel Horváth",
+        "Eduard Gorbunov",
+        "Irina Nikishina"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/vityavitalich/meritfed",
+      "published": "2024-06-18T12:50:00.000Z"
+    },
+    {
+      "id": "2406.14835",
+      "title": "ToVo: Toxicity Taxonomy via Voting",
+      "authors": [
+        "Tinh Son Luong",
+        "Thanh-Thien Le",
+        "Thang Viet Doan",
+        "Linh Ngo Van",
+        "Thien Huu Nguyen",
+        "Diep Thi-Ngoc Nguyen"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2024-06-21T02:35:30.000Z"
+    },
+    {
+      "id": "2406.14805",
+      "title": "How Well Do LLMs Represent Values Across Cultures? Empirical Analysis of LLM Responses Based on Hofstede Cultural Dimensions",
+      "authors": [
+        "Julia Kharchenko",
+        "Tanya Roosta",
+        "Aman Chadha",
+        "Chirag Shah"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/juliakharchenko/multilingual-ai-alignment",
+      "published": "2024-06-21T00:58:01.000Z"
+    }
+  ]
+}

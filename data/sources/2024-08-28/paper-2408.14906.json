@@ -1,0 +1,7 @@
+{
+  "id": "2408.14906",
+  "html": "https://arxiv.org/html/2408.14906",
+  "limitations": null,
+  "conclusion": "In this paper, we have introduced a new inference pattern called Writing in the Margins (WiM), which leverages chunked prefill to add only a marginal computational cost, emulating the human behavior of making notes in the margins. We demonstrated that this inference pattern significantly boosts the performance of off-the-shelf models across various long-context, retrieval-oriented tasks, including multi-hop reasoning (by [math] in HotpotQA, MultiHop-RAG), and aggregation (by [math] in CWE). Remarkably, this method does not require finetuning and is compatible with any transformer model. Additionally, our approach improves end-user experience by increasing transparency in context processing. By streaming “margins” that contribute to the final model predictions, our design offers the potential for early engagement. Unlike conventional long-context inference methods, WiM allows the first re",
+  "figure": null
+}

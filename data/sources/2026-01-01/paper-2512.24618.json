@@ -1,0 +1,7 @@
+{
+  "id": "2512.24618",
+  "html": "https://arxiv.org/html/2512.24618",
+  "limitations": null,
+  "conclusion": "In this work, we introduce Youtu-LLM, a lightweight 1.96B-parameter language model that effectively unlocks native agentic potential. It successfully balances computational efficiency with deep reasoning capabilities, proving highly effective for complex agent tasks. Most notably, the integration of our scalable Agentic Mid-training paradigm enables the model to internalize planning and reflection behaviors. Extensive evaluations confirm that Youtu-LLM sets a new state-of-the-art for sub-2B models. Remarkably, it even surpasses larger LLMs like SmolLM3-3B and Qwen3-4B on challenging agentic benchmarks, demonstrating robust agentic capabilities in domains including code, deep research and math. Despite promising, we acknowledge certain limitations when compared to larger foundation models, which guide our future research roadmap: First, constrained by computational resources, a gap in age",
+  "figure": null
+}

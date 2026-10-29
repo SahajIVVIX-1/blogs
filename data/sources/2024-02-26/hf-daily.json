@@ -1,0 +1,189 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-02-26",
+  "fetched_at": "2026-10-29T15:27:00.884Z",
+  "candidates": [
+    {
+      "id": "2402.14905",
+      "title": "MobileLLM: Optimizing Sub-billion Parameter Language Models for On-Device Use Cases",
+      "authors": [
+        "Zechun Liu",
+        "Changsheng Zhao",
+        "Forrest Iandola",
+        "Chen Lai",
+        "Yuandong Tian",
+        "Igor Fedorov",
+        "Yunyang Xiong",
+        "Ernie Chang",
+        "Yangyang Shi",
+        "Raghuraman Krishnamoorthi",
+        "Liangzhen Lai",
+        "Vikas Chandra"
+      ],
+      "upvotes": 134,
+      "github": "https://github.com/facebookresearch/mobilellm",
+      "published": "2024-02-22T18:58:55.000Z"
+    },
+    {
+      "id": "2402.15391",
+      "title": "Genie: Generative Interactive Environments",
+      "authors": [
+        "Jake Bruce",
+        "Michael Dennis",
+        "Ashley Edwards",
+        "Jack Parker-Holder",
+        "Yuge Shi",
+        "Edward Hughes",
+        "Matthew Lai",
+        "Aditi Mavalankar",
+        "Richie Steigerwald",
+        "Chris Apps",
+        "Yusuf Aytar",
+        "Sarah Bechtle",
+        "Feryal Behbahani",
+        "Stephanie Chan",
+        "Nicolas Heess",
+        "Lucy Gonzalez",
+        "Simon Osindero",
+        "Sherjil Ozair",
+        "Scott Reed",
+        "Jingwei Zhang",
+        "Konrad Zolna",
+        "Jeff Clune",
+        "Nando de Freitas",
+        "Satinder Singh",
+        "Tim Rocktäschel"
+      ],
+      "upvotes": 72,
+      "github": "https://github.com/1x-technologies/1xgpt",
+      "published": "2024-02-23T15:47:26.000Z"
+    },
+    {
+      "id": "2402.14904",
+      "title": "Watermarking Makes Language Models Radioactive",
+      "authors": [
+        "Tom Sander",
+        "Pierre Fernandez",
+        "Alain Durmus",
+        "Matthijs Douze",
+        "Teddy Furon"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/facebookresearch/radioactive-watermark",
+      "published": "2024-02-22T18:55:22.000Z"
+    },
+    {
+      "id": "2402.15000",
+      "title": "Divide-or-Conquer? Which Part Should You Distill Your LLM?",
+      "authors": [
+        "Zhuofeng Wu",
+        "He Bai",
+        "Aonan Zhang",
+        "Jiatao Gu",
+        "VG Vinod Vydiswaran",
+        "Navdeep Jaitly",
+        "Yizhe Zhang"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/apple/ml-divide-or-conquer",
+      "published": "2024-02-22T22:28:46.000Z"
+    },
+    {
+      "id": "2402.15319",
+      "title": "GPTVQ: The Blessing of Dimensionality for LLM Quantization",
+      "authors": [
+        "Mart van Baalen",
+        "Andrey Kuzmin",
+        "Markus Nagel",
+        "Peter Couperus",
+        "Cedric Bastoul",
+        "Eric Mahurin",
+        "Tijmen Blankevoort",
+        "Paul Whatmough"
+      ],
+      "upvotes": 21,
+      "github": null,
+      "published": "2024-02-23T13:39:16.000Z"
+    },
+    {
+      "id": "2402.15220",
+      "title": "ChunkAttention: Efficient Self-Attention with Prefix-Aware KV Cache and Two-Phase Partition",
+      "authors": [
+        "Lu Ye",
+        "Ze Tao",
+        "Yong Huang",
+        "Yang Li"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/microsoft/chunk-attention",
+      "published": "2024-02-23T09:29:19.000Z"
+    },
+    {
+      "id": "2402.14848",
+      "title": "Same Task, More Tokens: the Impact of Input Length on the Reasoning Performance of Large Language Models",
+      "authors": [
+        "Mosh Levy",
+        "Alon Jacoby",
+        "Yoav Goldberg"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/alonj/Same-Task-More-Tokens",
+      "published": "2024-02-19T16:04:53.000Z"
+    },
+    {
+      "id": "2402.15506",
+      "title": "AgentOhana: Design Unified Data and Training Pipeline for Effective Agent Learning",
+      "authors": [
+        "Jianguo Zhang",
+        "Tian Lan",
+        "Rithesh Murthy",
+        "Zhiwei Liu",
+        "Weiran Yao",
+        "Juntao Tan",
+        "Thai Hoang",
+        "Liangwei Yang",
+        "Yihao Feng",
+        "Zuxin Liu",
+        "Tulika Awalgaonkar",
+        "Juan Carlos Niebles",
+        "Silvio Savarese",
+        "Shelby Heinecke",
+        "Huan Wang",
+        "Caiming Xiong"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2024-02-23T18:56:26.000Z"
+    },
+    {
+      "id": "2402.15509",
+      "title": "Seamless Human Motion Composition with Blended Positional Encodings",
+      "authors": [
+        "German Barquero",
+        "Sergio Escalera",
+        "Cristina Palmero"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/BarqueroGerman/FlowMDM",
+      "published": "2024-02-23T18:59:40.000Z"
+    },
+    {
+      "id": "2402.15491",
+      "title": "API-BLEND: A Comprehensive Corpora for Training and Benchmarking API LLMs",
+      "authors": [
+        "Kinjal Basu",
+        "Ibrahim Abdelaziz",
+        "Subhajit Chaudhury",
+        "Soham Dan",
+        "Maxwell Crouse",
+        "Asim Munawar",
+        "Sadhana Kumaravel",
+        "Vinod Muthusamy",
+        "Pavan Kapanipathi",
+        "Luis A. Lastras"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/ibm/api-blend",
+      "published": "2024-02-23T18:30:49.000Z"
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2023-11-15",
+  "fetched_at": "2026-10-29T15:25:58.277Z",
+  "candidates": [
+    {
+      "id": "2311.08403",
+      "title": "Instant3D: Instant Text-to-3D Generation",
+      "authors": [
+        "Ming Li",
+        "Pan Zhou",
+        "Jia-Wei Liu",
+        "Jussi Keppo",
+        "Min Lin",
+        "Shuicheng Yan",
+        "Xiangyu Xu"
+      ],
+      "upvotes": 47,
+      "github": "https://github.com/ming1993li/instant3dcodes",
+      "published": "2023-11-14T18:59:59.000Z"
+    },
+    {
+      "id": "2311.07885",
+      "title": "One-2-3-45++: Fast Single Image to 3D Objects with Consistent Multi-View Generation and 3D Diffusion",
+      "authors": [
+        "Minghua Liu",
+        "Ruoxi Shi",
+        "Linghao Chen",
+        "Zhuoyang Zhang",
+        "Chao Xu",
+        "Xinyue Wei",
+        "Hansheng Chen",
+        "Chong Zeng",
+        "Jiayuan Gu",
+        "Hao Su"
+      ],
+      "upvotes": 40,
+      "github": null,
+      "published": "2023-11-14T03:40:25.000Z"
+    },
+    {
+      "id": "2311.08401",
+      "title": "Fine-tuning Language Models for Factuality",
+      "authors": [
+        "Katherine Tian",
+        "Eric Mitchell",
+        "Huaxiu Yao",
+        "Christopher D. Manning",
+        "Chelsea Finn"
+      ],
+      "upvotes": 30,
+      "github": null,
+      "published": "2023-11-14T18:59:15.000Z"
+    },
+    {
+      "id": "2311.07989",
+      "title": "Unifying the Perspectives of NLP and Software Engineering: A Survey on Language Models for Code",
+      "authors": [
+        "Ziyin Zhang",
+        "Chaoyu Chen",
+        "Bingchang Liu",
+        "Cong Liao",
+        "Zi Gong",
+        "Hang Yu",
+        "Jianguo Li",
+        "Rui Wang"
+      ],
+      "upvotes": 26,
+      "github": "https://github.com/codefuse-ai/Awesome-Code-LLM",
+      "published": "2023-11-14T08:34:26.000Z"
+    },
+    {
+      "id": "2311.07911",
+      "title": "Instruction-Following Evaluation for Large Language Models",
+      "authors": [
+        "Jeffrey Zhou",
+        "Tianjian Lu",
+        "Swaroop Mishra",
+        "Siddhartha Brahma",
+        "Sujoy Basu",
+        "Yi Luan",
+        "Denny Zhou",
+        "Le Hou"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/google-research/google-research",
+      "published": "2023-11-14T05:13:55.000Z"
+    },
+    {
+      "id": "2311.07590",
+      "title": "Technical Report: Large Language Models can Strategically Deceive their Users when Put Under Pressure",
+      "authors": [
+        "Jérémy Scheurer",
+        "Mikita Balesni",
+        "Marius Hobbhahn"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/apolloresearch/insider-trading",
+      "published": "2023-11-09T17:12:44.000Z"
+    },
+    {
+      "id": "2311.08263",
+      "title": "Fast Chain-of-Thought: A Glance of Future from Parallel Decoding Leads to Answers Faster",
+      "authors": [
+        "Hongxuan Zhang",
+        "Zhining Liu",
+        "Jiaqi Zheng",
+        "Chenyi Zhuang",
+        "Jinjie Gu",
+        "Guihai Chen"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2023-11-14T15:56:18.000Z"
+    },
+    {
+      "id": "2311.08105",
+      "title": "DiLoCo: Distributed Low-Communication Training of Language Models",
+      "authors": [
+        "Arthur Douillard",
+        "Qixuan Feng",
+        "Andrei A. Rusu",
+        "Rachita Chhaparia",
+        "Yani Donchev",
+        "Adhiguna Kuncoro",
+        "Marc'Aurelio Ranzato",
+        "Arthur Szlam",
+        "Jiajun Shen"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2023-11-14T12:05:45.000Z"
+    },
+    {
+      "id": "2311.07961",
+      "title": "The ART of LLM Refinement: Ask, Refine, and Trust",
+      "authors": [
+        "Kumar Shridhar",
+        "Koustuv Sinha",
+        "Andrew Cohen",
+        "Tianlu Wang",
+        "Ping Yu",
+        "Ram Pasunuru",
+        "Mrinmaya Sachan",
+        "Jason Weston",
+        "Asli Celikyilmaz"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2023-11-14T07:26:32.000Z"
+    },
+    {
+      "id": "2311.07919",
+      "title": "Qwen-Audio: Advancing Universal Audio Understanding via Unified Large-Scale Audio-Language Models",
+      "authors": [
+        "Yunfei Chu",
+        "Jin Xu",
+        "Xiaohuan Zhou",
+        "Qian Yang",
+        "Shiliang Zhang",
+        "Zhijie Yan",
+        "Chang Zhou",
+        "Jingren Zhou"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/qwenlm/qwen-audio",
+      "published": "2023-11-14T05:34:50.000Z"
+    },
+    {
+      "id": "2311.07689",
+      "title": "MART: Improving LLM Safety with Multi-round Automatic Red-Teaming",
+      "authors": [
+        "Suyu Ge",
+        "Chunting Zhou",
+        "Rui Hou",
+        "Madian Khabsa",
+        "Yi-Chia Wang",
+        "Qifan Wang",
+        "Jiawei Han",
+        "Yuning Mao"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2023-11-13T19:13:29.000Z"
+    }
+  ]
+}

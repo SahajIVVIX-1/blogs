@@ -1,0 +1,242 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-07-16",
+  "fetched_at": "2026-10-29T15:32:08.972Z",
+  "candidates": [
+    {
+      "id": "2507.11407",
+      "title": "EXAONE 4.0: Unified Large Language Models Integrating Non-reasoning and Reasoning Modes",
+      "authors": [
+        "LG AI Research",
+        "Kyunghoon Bae",
+        "Eunbi Choi",
+        "Kibong Choi",
+        "Stanley Jungkyu Choi",
+        "Yemuk Choi",
+        "Kyubeen Han",
+        "Seokhee Hong",
+        "Junwon Hwang",
+        "Taewan Hwang",
+        "Joonwon Jang",
+        "Hyojin Jeon",
+        "Kijeong Jeon",
+        "Gerrard Jeongwon Jo",
+        "Hyunjik Jo",
+        "Jiyeon Jung",
+        "Euisoon Kim",
+        "Hyosang Kim",
+        "Jihoon Kim",
+        "Joonkee Kim",
+        "Seonghwan Kim",
+        "Soyeon Kim",
+        "Sunkyoung Kim",
+        "Yireun Kim",
+        "Yongil Kim",
+        "Youchul Kim",
+        "Edward Hwayoung Lee",
+        "Gwangho Lee",
+        "Haeju Lee",
+        "Honglak Lee",
+        "Jinsik Lee",
+        "Kyungmin Lee",
+        "Sangha Park",
+        "Young Min Paik",
+        "Yongmin Park",
+        "Youngyong Park",
+        "Sanghyun Seo",
+        "Sihoon Yang",
+        "Heuiyeen Yeen",
+        "Sihyuk Yi",
+        "Hyeongu Yun"
+      ],
+      "upvotes": 60,
+      "github": null,
+      "published": "2025-07-15T15:24:51.000Z"
+    },
+    {
+      "id": "2507.07104",
+      "title": "Vision-Language-Vision Auto-Encoder: Scalable Knowledge Distillation from Diffusion Models",
+      "authors": [
+        "Tiezheng Zhang",
+        "Yitong Li",
+        "Yu-cheng Chou",
+        "Jieneng Chen",
+        "Alan Yuille",
+        "Chen Wei",
+        "Junfei Xiao"
+      ],
+      "upvotes": 43,
+      "github": "https://github.com/Tiezheng11/Vision-Language-Vision",
+      "published": "2025-07-09T17:59:04.000Z"
+    },
+    {
+      "id": "2507.09404",
+      "title": "Scaling Laws for Optimal Data Mixtures",
+      "authors": [
+        "Mustafa Shukor",
+        "Louis Bethune",
+        "Dan Busbridge",
+        "David Grangier",
+        "Enrico Fini",
+        "Alaaeldin El-Nouby",
+        "Pierre Ablin"
+      ],
+      "upvotes": 39,
+      "github": null,
+      "published": "2025-07-12T21:16:08.000Z"
+    },
+    {
+      "id": "2507.09075",
+      "title": "OpenCodeReasoning-II: A Simple Test Time Scaling Approach via Self-Critique",
+      "authors": [
+        "Wasi Uddin Ahmad",
+        "Somshubra Majumdar",
+        "Aleksander Ficek",
+        "Sean Narenthiran",
+        "Mehrzad Samadi",
+        "Jocelyn Huang",
+        "Siddhartha Jain",
+        "Vahid Noroozi",
+        "Boris Ginsburg"
+      ],
+      "upvotes": 19,
+      "github": null,
+      "published": "2025-07-11T23:35:54.000Z"
+    },
+    {
+      "id": "2507.08616",
+      "title": "AgentsNet: Coordination and Collaborative Reasoning in Multi-Agent LLMs",
+      "authors": [
+        "Florian Grötschla",
+        "Luis Müller",
+        "Jan Tönshoff",
+        "Mikhail Galkin",
+        "Bryan Perozzi"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/floriangroetschla/AgentsNet",
+      "published": "2025-07-11T14:13:22.000Z"
+    },
+    {
+      "id": "2507.09082",
+      "title": "Taming generative video models for zero-shot optical flow extraction",
+      "authors": [
+        "Seungwoo Kim",
+        "Khai Loong Aw",
+        "Klemen Kotar",
+        "Cristobal Eyzaguirre",
+        "Wanhee Lee",
+        "Yunong Liu",
+        "Jared Watrous",
+        "Stefan Stojanov",
+        "Juan Carlos Niebles",
+        "Jiajun Wu",
+        "Daniel L. K. Yamins"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/neuroailab/kl_tracing",
+      "published": "2025-07-11T23:59:38.000Z"
+    },
+    {
+      "id": "2507.10787",
+      "title": "Can Multimodal Foundation Models Understand Schematic Diagrams? An Empirical Study on Information-Seeking QA over Scientific Papers",
+      "authors": [
+        "Yilun Zhao",
+        "Chengye Wang",
+        "Chuhan Li",
+        "Arman Cohan"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/yilunzhao/MISS-QA",
+      "published": "2025-07-14T20:35:25.000Z"
+    },
+    {
+      "id": "2507.04127",
+      "title": "BYOKG-RAG: Multi-Strategy Graph Retrieval for Knowledge Graph Question Answering",
+      "authors": [
+        "Costas Mavromatis",
+        "Soji Adeshina",
+        "Vassilis N. Ioannidis",
+        "Zhen Han",
+        "Qi Zhu",
+        "Ian Robinson",
+        "Bryan Thompson",
+        "Huzefa Rangwala",
+        "George Karypis"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/awslabs/graphrag-toolkit",
+      "published": "2025-07-05T18:47:14.000Z"
+    },
+    {
+      "id": "2507.11336",
+      "title": "UGC-VideoCaptioner: An Omni UGC Video Detail Caption Model and New Benchmarks",
+      "authors": [
+        "Peiran Wu",
+        "Yunze Liu",
+        "Zhengdong Zhu",
+        "Enmin Zhou",
+        "Shawn Shen"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/WPR001/UGC_VideoCaptioner",
+      "published": "2025-07-15T14:08:29.000Z"
+    },
+    {
+      "id": "2507.08333",
+      "title": "Token-based Audio Inpainting via Discrete Diffusion",
+      "authors": [
+        "Tali Dror",
+        "Iftach Shoham",
+        "Moshe Buchris",
+        "Oren Gal",
+        "Haim Permuter",
+        "Gilad Katz",
+        "Eliya Nachmani"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-07-11T06:25:49.000Z"
+    },
+    {
+      "id": "2507.09411",
+      "title": "LLMalMorph: On The Feasibility of Generating Variant Malware using Large-Language-Models",
+      "authors": [
+        "Md Ajwad Akil",
+        "Adrian Shuai Li",
+        "Imtiaz Karim",
+        "Arun Iyengar",
+        "Ashish Kundu",
+        "Vinny Parla",
+        "Elisa Bertino"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/AJAkil/LLMalMorph",
+      "published": "2025-07-12T22:11:10.000Z"
+    },
+    {
+      "id": "2507.10571",
+      "title": "Orchestrator-Agent Trust: A Modular Agentic AI Visual Classification System with Trust-Aware Orchestration and RAG-Based Reasoning",
+      "authors": [
+        "Konstantinos I. Roumeliotis",
+        "Ranjan Sapkota",
+        "Manoj Karkee",
+        "Nikolaos D. Tselikas"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/applied-ai-research-lab/orchestrator-agent-trust",
+      "published": "2025-07-09T16:39:29.000Z"
+    },
+    {
+      "id": "2507.07186",
+      "title": "Planted in Pretraining, Swayed by Finetuning: A Case Study on the Origins of Cognitive Biases in LLMs",
+      "authors": [
+        "Itay Itzhak",
+        "Yonatan Belinkov",
+        "Gabriel Stanovsky"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/itay1itzhak/planted-in-pretraining",
+      "published": "2025-07-09T18:01:14.000Z"
+    }
+  ]
+}

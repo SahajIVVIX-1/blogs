@@ -1,0 +1,29 @@
+{
+  "id": "2311.05556",
+  "title": "LCM-LoRA: A Universal Stable-Diffusion Acceleration Module",
+  "authors": [
+    "Simian Luo",
+    "Yiqin Tan",
+    "Suraj Patil",
+    "Daniel Gu",
+    "Patrick von Platen",
+    "Apolinário Passos",
+    "Longbo Huang",
+    "Jian Li",
+    "Hang Zhao"
+  ],
+  "published": "2023-11-09T18:04:15Z",
+  "abstract": "Latent Consistency Models (LCMs) have achieved impressive performance in accelerating text-to-image generative tasks, producing high-quality images with minimal inference steps. LCMs are distilled from pre-trained latent diffusion models (LDMs), requiring only ~32 A100 GPU training hours. This report further extends LCMs' potential in two aspects: First, by applying LoRA distillation to Stable-Diffusion models including SD-V1.5, SSD-1B, and SDXL, we have expanded LCM's scope to larger models with significantly less memory consumption, achieving superior image generation quality. Second, we identify the LoRA parameters obtained through LCM distillation as a universal Stable-Diffusion acceleration module, named LCM-LoRA. LCM-LoRA can be directly plugged into various Stable-Diffusion fine-tuned models or LoRAs without training, thus representing a universally applicable accelerator for diverse image generation tasks. Compared with previous numerical PF-ODE solvers such as DDIM, DPM-Solver, LCM-LoRA can be viewed as a plug-in neural PF-ODE solver that possesses strong generalization abilities. Project page: https://github.com/luosiallen/latent-consistency-model.",
+  "categories": [
+    "cs.CV",
+    "cs.LG"
+  ],
+  "abs": "https://arxiv.org/abs/2311.05556",
+  "pdf": "https://arxiv.org/pdf/2311.05556v1",
+  "source_url": "https://export.arxiv.org/api/query?id_list=2311.05556",
+  "fetched_at": "2026-10-29T15:38:40.470Z",
+  "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  "reusable_figures": false,
+  "github": "https://github.com/luosiallen/latent-consistency-model",
+  "upvotes": 85
+}

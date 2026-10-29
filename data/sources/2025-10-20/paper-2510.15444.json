@@ -1,0 +1,11 @@
+{
+  "id": "2510.15444",
+  "html": "https://arxiv.org/html/2510.15444",
+  "limitations": "In this paper, we introduce a theoretical framework for analysis the sampling-based test-time scaling methods of LLM reasoning and a new method based on our analyses. While our theoretical framework and approach offer several advantages, there remain some limitations as listed as follows: 1. Our theoretical framework is general to analysis sampling-based test-time scaling methods, however, in this paper, we only focus on the analysis on two typical methods as well as Rpc . 2. Our proposed method is a post-hoc approach that relies solely on the sampled reasoning paths and selects answers from these samples. This design makes the method straightforward to use, as it does not require any modifications to the LLM architecture or its training process. However, the performance improvements are moderate compared to approaches that involve model training. Although integrating our method with tra",
+  "conclusion": "In this paper, we present a theoretical framework for LLM reasoning problem in sampling-based test-time scaling, providing insights and principled guidance for designing better LLM reasoning methods. This framework decomposes LLM reasoning error into estimation error and model error, revealing the efficiency issues of the self-consistency method and effectiveness and degeneration issues of the perplexity method. To this end, we introduce R easoning-pruning P erplexity C onsistency ( Rpc ), which integrates internal LLM probabilities into the self-consistency framework for faster estimation error convergence while maintaining low model error and prunes low-probability reasoning paths to address the degeneration issue. Both theoretical analysis and empirical results demonstrate that Rpc achieves superior error convergence, reasoning performance, and confidence reliability. Limitations and ",
+  "figure": {
+    "path": "images/2025/paper-2510.15444.webp",
+    "src": "https://arxiv.org/html/2510.15444v1/framework.png",
+    "caption": "Figure 1 : Illustration of the Rpc approach. The Reasoning Pruning filters out low-probability answers, while the Perplexity Consistency incorporates LLM probabilities into the self-consistency framework, resulting in faster convergence of estimation error."
+  }
+}

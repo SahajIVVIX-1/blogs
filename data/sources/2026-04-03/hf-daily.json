@@ -1,0 +1,771 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-04-03",
+  "fetched_at": "2026-10-29T15:35:12.168Z",
+  "candidates": [
+    {
+      "id": "2603.26164",
+      "title": "DataFlex: A Unified Framework for Data-Centric Dynamic Training of Large Language Models",
+      "authors": [
+        "Hao Liang",
+        "Zhengyang Zhao",
+        "Meiyi Qiang",
+        "Mingrui Chen",
+        "Lu Ma",
+        "Rongyi Yu",
+        "Hengyi Feng",
+        "Shixuan Sun",
+        "Zimo Meng",
+        "Xiaochen Ma",
+        "Xuanlin Yang",
+        "Qifeng Cai",
+        "Ruichuan An",
+        "Bohan Zeng",
+        "Zhen Hao Wong",
+        "Chengyu Shen",
+        "Runming He",
+        "Zhaoyang Han",
+        "Yaowei Zheng",
+        "Fangcheng Fu",
+        "Conghui He",
+        "Bin Cui",
+        "Zhiyu Li",
+        "Weinan E",
+        "Wentao Zhang"
+      ],
+      "upvotes": 277,
+      "github": "https://github.com/OpenDCAI/DataFlex",
+      "published": "2026-03-27T08:28:02.000Z"
+    },
+    {
+      "id": "2604.02029",
+      "title": "The Latent Space: Foundation, Evolution, Mechanism, Ability, and Outlook",
+      "authors": [
+        "Xinlei Yu",
+        "Zhangquan Chen",
+        "Yongbo He",
+        "Tianyu Fu",
+        "Cheng Yang",
+        "Chengming Xu",
+        "Yue Ma",
+        "Xiaobin Hu",
+        "Zhe Cao",
+        "Jie Xu",
+        "Guibin Zhang",
+        "Jiale Tao",
+        "Jiayi Zhang",
+        "Siyuan Ma",
+        "Kaituo Feng",
+        "Haojie Huang",
+        "Youxing Li",
+        "Ronghao Chen",
+        "Huacan Wang",
+        "Chenglin Wu",
+        "Zikun Su",
+        "Xiaogang Xu",
+        "Kelu Yao",
+        "Kun Wang",
+        "Chen Gao",
+        "Yue Liao",
+        "Ruqi Huang",
+        "Tao Jin",
+        "Cheng Tan",
+        "Jiangning Zhang",
+        "Wenqi Ren",
+        "Yanwei Fu",
+        "Yong Liu",
+        "Yu Wang",
+        "Xiangyu Yue",
+        "Yu-Gang Jiang",
+        "Shuicheng Yan"
+      ],
+      "upvotes": 110,
+      "github": "https://github.com/YU-deep/Awesome-Latent-Space",
+      "published": "2026-04-02T00:00:00.000Z"
+    },
+    {
+      "id": "2604.02329",
+      "title": "Generative World Renderer",
+      "authors": [
+        "Zheng-Hui Huang",
+        "Zhixiang Wang",
+        "Jiaming Tan",
+        "Ruihan Yu",
+        "Yidan Zhang",
+        "Bo Zheng",
+        "Yu-Lun Liu",
+        "Yung-Yu Chuang",
+        "Kaipeng Zhang"
+      ],
+      "upvotes": 101,
+      "github": "https://github.com/ShandaAI/AlayaRenderer",
+      "published": "2026-04-02T00:00:00.000Z"
+    },
+    {
+      "id": "2604.02268",
+      "title": "SKILL0: In-Context Agentic Reinforcement Learning for Skill Internalization",
+      "authors": [
+        "Zhengxi Lu",
+        "Zhiyuan Yao",
+        "Jinyang Wu",
+        "Chengcheng Han",
+        "Qi Gu",
+        "Xunliang Cai",
+        "Weiming Lu",
+        "Jun Xiao",
+        "Yueting Zhuang",
+        "Yongliang Shen"
+      ],
+      "upvotes": 99,
+      "github": "https://github.com/ZJU-REAL/SkillZero",
+      "published": "2026-04-02T00:00:00.000Z"
+    },
+    {
+      "id": "2604.02327",
+      "title": "Steerable Visual Representations",
+      "authors": [
+        "Jona Ruthardt",
+        "Manu Gaur",
+        "Deva Ramanan",
+        "Makarand Tapaswi",
+        "Yuki M. Asano"
+      ],
+      "upvotes": 55,
+      "github": "https://github.com/manugaurdl/SteerViT",
+      "published": "2026-04-02T00:00:00.000Z"
+    },
+    {
+      "id": "2604.02296",
+      "title": "VOID: Video Object and Interaction Deletion",
+      "authors": [
+        "Saman Motamed",
+        "William Harvey",
+        "Benjamin Klein",
+        "Luc Van Gool",
+        "Zhuoning Yuan",
+        "Ta-Ying Cheng"
+      ],
+      "upvotes": 54,
+      "github": "https://github.com/Netflix/void-model",
+      "published": "2026-04-02T00:00:00.000Z"
+    },
+    {
+      "id": "2604.01658",
+      "title": "CORAL: Towards Autonomous Multi-Agent Evolution for Open-Ended Discovery",
+      "authors": [
+        "Ao Qu",
+        "Han Zheng",
+        "Zijian Zhou",
+        "Yihao Yan",
+        "Yihong Tang",
+        "Shao Yong Ong",
+        "Fenglu Hong",
+        "Kaichen Zhou",
+        "Chonghe Jiang",
+        "Minwei Kong",
+        "Jiacheng Zhu",
+        "Xuan Jiang",
+        "Sirui Li",
+        "Cathy Wu",
+        "Bryan Kian Hsiang Low",
+        "Jinhua Zhao",
+        "Paul Pu Liang"
+      ],
+      "upvotes": 52,
+      "github": "https://github.com/Human-Agent-Society/CORAL",
+      "published": "2026-04-02T00:00:00.000Z"
+    },
+    {
+      "id": "2604.01001",
+      "title": "EgoSim: Egocentric World Simulator for Embodied Interaction Generation",
+      "authors": [
+        "Jinkun Hao",
+        "Mingda Jia",
+        "Ruiyan Wang",
+        "Xihui Liu",
+        "Ran Yi",
+        "Lizhuang Ma",
+        "Jiangmiao Pang",
+        "Xudong Xu"
+      ],
+      "upvotes": 34,
+      "github": "https://github.com/jinkun-hao/EgoSim",
+      "published": "2026-04-01T00:00:00.000Z"
+    },
+    {
+      "id": "2604.01202",
+      "title": "Therefore I am. I Think",
+      "authors": [
+        "Esakkivel Esakkiraja",
+        "Sai Rajeswar",
+        "Denis Akhiyarov",
+        "Rajagopal Venkatesaramani"
+      ],
+      "upvotes": 31,
+      "github": null,
+      "published": "2026-04-02T00:00:00.000Z"
+    },
+    {
+      "id": "2604.01973",
+      "title": "NearID: Identity Representation Learning via Near-identity Distractors",
+      "authors": [
+        "Aleksandar Cvejic",
+        "Rameen Abdal",
+        "Abdelrahman Eldesokey",
+        "Bernard Ghanem",
+        "Peter Wonka"
+      ],
+      "upvotes": 29,
+      "github": "https://github.com/Gorluxor/NearID",
+      "published": "2026-04-02T00:00:00.000Z"
+    },
+    {
+      "id": "2604.02097",
+      "title": "LatentUM: Unleashing the Potential of Interleaved Cross-Modal Reasoning via a Latent-Space Unified Model",
+      "authors": [
+        "Jiachun Jin",
+        "Zetong Zhou",
+        "Xiao Yang",
+        "Hao Zhang",
+        "Pengfei Liu",
+        "Jun Zhu",
+        "Zhijie Deng"
+      ],
+      "upvotes": 29,
+      "github": "https://github.com/SJTU-DENG-Lab/LatentUM",
+      "published": "2026-04-02T00:00:00.000Z"
+    },
+    {
+      "id": "2603.29640",
+      "title": "ASI-Evolve: AI Accelerates AI",
+      "authors": [
+        "Weixian Xu",
+        "Tiantian Mi",
+        "Yixiu Liu",
+        "Yang Nan",
+        "Zhimeng Zhou",
+        "Lyumanshan Ye",
+        "Lin Zhang",
+        "Yu Qiao",
+        "Pengfei Liu"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/GAIR-NLP/ASI-Evolve",
+      "published": "2026-03-31T00:00:00.000Z"
+    },
+    {
+      "id": "2604.01007",
+      "title": "Omni-SimpleMem: Autoresearch-Guided Discovery of Lifelong Multimodal Agent Memory",
+      "authors": [
+        "Jiaqi Liu",
+        "Zipeng Ling",
+        "Shi Qiu",
+        "Yanqing Liu",
+        "Siwei Han",
+        "Peng Xia",
+        "Haoqin Tu",
+        "Zeyu Zheng",
+        "Cihang Xie",
+        "Charles Fleming",
+        "Mingyu Ding",
+        "Huaxiu Yao"
+      ],
+      "upvotes": 27,
+      "github": null,
+      "published": "2026-04-02T00:00:00.000Z"
+    },
+    {
+      "id": "2604.02190",
+      "title": "UniDriveVLA: Unifying Understanding, Perception, and Action Planning for Autonomous Driving",
+      "authors": [
+        "Yongkang Li",
+        "Lijun Zhou",
+        "Sixu Yan",
+        "Bencheng Liao",
+        "Tianyi Yan",
+        "Kaixin Xiong",
+        "Long Chen",
+        "Hongwei Xie",
+        "Bing Wang",
+        "Guang Chen",
+        "Hangjun Ye",
+        "Wenyu Liu",
+        "Haiyang Sun",
+        "Xinggang Wang"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/xiaomi-research/unidrivevla",
+      "published": "2026-04-02T00:00:00.000Z"
+    },
+    {
+      "id": "2604.00917",
+      "title": "Investigating Autonomous Agent Contributions in the Wild: Activity Patterns and Code Change over Time",
+      "authors": [
+        "Razvan Mihai Popescu",
+        "David Gros",
+        "Andrei Botocan",
+        "Rahul Pandita",
+        "Prem Devanbu",
+        "Maliheh Izadi"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2026-04-01T00:00:00.000Z"
+    },
+    {
+      "id": "2603.27666",
+      "title": "Gated Condition Injection without Multimodal Attention: Towards Controllable Linear-Attention Transformers",
+      "authors": [
+        "Yuhe Liu",
+        "Zhenxiong Tan",
+        "Yujia Hu",
+        "Songhua Liu",
+        "Xinchao Wang"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/Carol-lyh/GateControl",
+      "published": "2026-03-29T00:00:00.000Z"
+    },
+    {
+      "id": "2603.30043",
+      "title": "Video Models Reason Early: Exploiting Plan Commitment for Maze Solving",
+      "authors": [
+        "Kaleb Newman",
+        "Tyler Zhu",
+        "Olga Russakovsky"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2026-03-31T00:00:00.000Z"
+    },
+    {
+      "id": "2604.02289",
+      "title": "Omni123: Exploring 3D Native Foundation Models with Limited 3D Data by Unifying Text to 2D and 3D Generation",
+      "authors": [
+        "Chongjie Ye",
+        "Cheng Cao",
+        "Chuanyu Pan",
+        "Yiming Hao",
+        "Yihao Zhi",
+        "Yuanming Hu",
+        "Xiaoguang Han"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2026-04-02T00:00:00.000Z"
+    },
+    {
+      "id": "2604.02007",
+      "title": "Apriel-Reasoner: RL Post-Training for General-Purpose and Efficient Reasoning",
+      "authors": [
+        "Rafael Pardinas",
+        "Ehsan Kamalloo",
+        "David Vazquez",
+        "Alexandre Drouin"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2026-04-02T00:00:00.000Z"
+    },
+    {
+      "id": "2603.28068",
+      "title": "AIBench: Evaluating Visual-Logical Consistency in Academic Illustration Generation",
+      "authors": [
+        "Zhaohe Liao",
+        "Kaixun Jiang",
+        "Zhihang Liu",
+        "Yujie Wei",
+        "Junqiu Yu",
+        "Quanhao Li",
+        "Hong-Tao Yu",
+        "Pandeng Li",
+        "Yuzheng Wang",
+        "Zhen Xing",
+        "Shiwei Zhang",
+        "Chen-Wei Xie",
+        "Yun Zheng",
+        "Xihui Liu"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/ali-vilab/AIBench",
+      "published": "2026-03-31T00:00:00.000Z"
+    },
+    {
+      "id": "2604.01569",
+      "title": "VideoZeroBench: Probing the Limits of Video MLLMs with Spatio-Temporal Evidence Verification",
+      "authors": [
+        "Jiahao Meng",
+        "Tan Yue",
+        "Qi Xu",
+        "Haochen Wang",
+        "Zhongwei Ren",
+        "Weisong Liu",
+        "Yuhao Wang",
+        "Renrui Zhang",
+        "Yunhai Tong",
+        "Haodong Duan"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/marinero4972/VideoZeroBench",
+      "published": "2026-04-02T00:00:00.000Z"
+    },
+    {
+      "id": "2604.01676",
+      "title": "GPA: Learning GUI Process Automation from Demonstrations",
+      "authors": [
+        "Zirui Zhao",
+        "Jun Hao Liew",
+        "Yan Yang",
+        "Wenzhuo Yang",
+        "Ziyang Luo",
+        "Doyen Sahoo",
+        "Silvio Savarese",
+        "Junnan Li"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2026-04-02T00:00:00.000Z"
+    },
+    {
+      "id": "2604.01014",
+      "title": "AutoMIA: Improved Baselines for Membership Inference Attack via Agentic Self-Exploration",
+      "authors": [
+        "Ruhao Liu",
+        "Weiqi Huang",
+        "Qi Li",
+        "Xinchao Wang"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/amiya-special/AutoMIA",
+      "published": "2026-04-01T15:17:45.000Z"
+    },
+    {
+      "id": "2604.01929",
+      "title": "Woosh: A Sound Effects Foundation Model",
+      "authors": [
+        "Gaëtan Hadjeres",
+        "Marc Ferras",
+        "Khaled Koutini",
+        "Benno Weck",
+        "Alexandre Bittar",
+        "Thomas Hummel",
+        "Zineb Lahrici",
+        "Hakim Missoum",
+        "Joan Serrà",
+        "Yuki Mitsufuji"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2026-04-02T00:00:00.000Z"
+    },
+    {
+      "id": "2603.28130",
+      "title": "MDPBench: A Benchmark for Multilingual Document Parsing in Real-World Scenarios",
+      "authors": [
+        "Zhang Li",
+        "Zhibo Lin",
+        "Qiang Liu",
+        "Ziyang Zhang",
+        "Shuo Zhang",
+        "Zidun Guo",
+        "Jiajun Song",
+        "Jiarui Zhang",
+        "Xiang Bai",
+        "Yuliang Liu"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/Yuliang-Liu/MultimodalOCR",
+      "published": "2026-03-30T07:47:46.000Z"
+    },
+    {
+      "id": "2604.01619",
+      "title": "Automatic Image-Level Morphological Trait Annotation for Organismal Images",
+      "authors": [
+        "Vardaan Pahuja",
+        "Samuel Stevens",
+        "Alyson East",
+        "Sydne Record",
+        "Yu Su"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/OSU-NLP-Group/sae-trait-annotation",
+      "published": "2026-04-02T00:00:00.000Z"
+    },
+    {
+      "id": "2604.00356",
+      "title": "Signals: Trajectory Sampling and Triage for Agentic Interactions",
+      "authors": [
+        "Shuguang Chen",
+        "Adil Hafeez",
+        "Salman Paracha"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/katanemo/plano",
+      "published": "2026-04-01T00:00:00.000Z"
+    },
+    {
+      "id": "2604.01760",
+      "title": "T5Gemma-TTS Technical Report",
+      "authors": [
+        "Chihiro Arata",
+        "Kiyoshi Kurihara"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/Aratako/T5Gemma-TTS",
+      "published": "2026-04-02T00:00:00.000Z"
+    },
+    {
+      "id": "2604.01298",
+      "title": "Forecasting Supply Chain Disruptions with Foresight Learning",
+      "authors": [
+        "Benjamin Turtel",
+        "Paul Wilczewski",
+        "Kris Skotheim"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2026-04-01T00:00:00.000Z"
+    },
+    {
+      "id": "2604.01666",
+      "title": "DynaVid: Learning to Generate Highly Dynamic Videos using Synthetic Motion Data",
+      "authors": [
+        "Wonjoon Jin",
+        "Jiyun Won",
+        "Janghyeok Han",
+        "Qi Dai",
+        "Chong Luo",
+        "Seung-Hwan Baek",
+        "Sunghyun Cho"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2026-04-02T00:00:00.000Z"
+    },
+    {
+      "id": "2603.26259",
+      "title": "Working Notes on Late Interaction Dynamics: Analyzing Targeted Behaviors of Late Interaction Models",
+      "authors": [
+        "Antoine Edy",
+        "Max Conti",
+        "Quentin Macé"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2026-03-27T00:00:00.000Z"
+    },
+    {
+      "id": "2604.02330",
+      "title": "ActionParty: Multi-Subject Action Binding in Generative Video Games",
+      "authors": [
+        "Alexander Pondaven",
+        "Ziyi Wu",
+        "Igor Gilitschenski",
+        "Philip Torr",
+        "Sergey Tulyakov",
+        "Fabio Pizzati",
+        "Aliaksandr Siarohin"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/action-party/action-party",
+      "published": "2026-04-02T00:00:00.000Z"
+    },
+    {
+      "id": "2604.01328",
+      "title": "Efficient and Principled Scientific Discovery through Bayesian Optimization: A Tutorial",
+      "authors": [
+        "Zhongwei Yu",
+        "Rasul Tutunov",
+        "Alexandre Max Maraval",
+        "Zikai Xie",
+        "Zhenzhi Tan",
+        "Jiankang Wang",
+        "Zijing Li",
+        "Liangliang Xu",
+        "Qi Yang",
+        "Jun Jiang",
+        "Sanzhong Luo",
+        "Zhenxiao Guo",
+        "Haitham Bou-Ammar",
+        "Jun Wang"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2026-04-01T00:00:00.000Z"
+    },
+    {
+      "id": "2604.01618",
+      "title": "Tex3D: Objects as Attack Surfaces via Adversarial 3D Textures for Vision-Language-Action Models",
+      "authors": [
+        "Jiawei Chen",
+        "Simin Huang",
+        "Jiawei Du",
+        "Shuaihang Chen",
+        "Yu Tian",
+        "Mingjie Wei",
+        "Chao Yu",
+        "Zhaoxia Yin"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/vla-attack/tex3d",
+      "published": "2026-04-02T00:00:00.000Z"
+    },
+    {
+      "id": "2603.06679",
+      "title": "MultiGen: Level-Design for Editable Multiplayer Worlds in Diffusion Game Engines",
+      "authors": [
+        "Ryan Po",
+        "David Junhao Zhang",
+        "Amir Hertz",
+        "Gordon Wetzstein",
+        "Neal Wadhwa",
+        "Nataniel Ruiz"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-03-30T00:00:00.000Z"
+    },
+    {
+      "id": "2604.00829",
+      "title": "LinguDistill: Recovering Linguistic Ability in Vision- Language Models via Selective Cross-Modal Distillation",
+      "authors": [
+        "Patrick Amadeus Irawan",
+        "Erland Hilman Fuadi",
+        "Shanu Kumar",
+        "Alham Fikri Aji",
+        "Yova Kementchedjhieva"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-04-01T00:00:00.000Z"
+    },
+    {
+      "id": "2604.02088",
+      "title": "FlowSlider: Training-Free Continuous Image Editing via Fidelity-Steering Decomposition",
+      "authors": [
+        "Taichi Endo",
+        "Guoqing Hao",
+        "Kazuhiko Sumi"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-04-02T00:00:00.000Z"
+    },
+    {
+      "id": "2603.27449",
+      "title": "LOME: Learning Human-Object Manipulation with Action-Conditioned Egocentric World Model",
+      "authors": [
+        "Quankai Gao",
+        "Jiawei Yang",
+        "Qiangeng Xu",
+        "Le Chen",
+        "Yue Wang"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/Zerg-Overmind/LOME",
+      "published": "2026-03-28T00:00:00.000Z"
+    },
+    {
+      "id": "2603.29042",
+      "title": "An Empirical Recipe for Universal Phone Recognition",
+      "authors": [
+        "Shikhar Bharadwaj",
+        "Chin-Jou Li",
+        "Kwanghee Choi",
+        "Eunjung Yeo",
+        "William Chen",
+        "Shinji Watanabe",
+        "David R. Mortensen"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/changelinglab/PhoneticXeus",
+      "published": "2026-03-30T00:00:00.000Z"
+    },
+    {
+      "id": "2603.26233",
+      "title": "Ask or Assume? Uncertainty-Aware Clarification-Seeking in Coding Agents",
+      "authors": [
+        "Nicholas Edwards",
+        "Sebastian Schuster"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/nedwards99/ask-or-assume",
+      "published": "2026-03-27T09:56:26.000Z"
+    },
+    {
+      "id": "2604.01152",
+      "title": "Brainstacks: Cross-Domain Cognitive Capabilities via Frozen MoE-LoRA Stacks for Continual LLM Learning",
+      "authors": [
+        "Mohammad R. Abu Ayyash"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/achelousace/brainstacks",
+      "published": "2026-04-01T17:08:25.000Z"
+    },
+    {
+      "id": "2604.00491",
+      "title": "Executing as You Generate: Hiding Execution Latency in LLM Code Generation",
+      "authors": [
+        "Zhensu Sun",
+        "Zhihao Lin",
+        "Zhi Chen",
+        "Chengran Yang",
+        "Mingyi Zhou",
+        "Li Li",
+        "David Lo"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-04-01T00:00:00.000Z"
+    },
+    {
+      "id": "2604.01479",
+      "title": "UniRecGen: Unifying Multi-View 3D Reconstruction and Generation",
+      "authors": [
+        "Zhisheng Huang",
+        "Jiahao Chen",
+        "Cheng Lin",
+        "Chenyu Hu",
+        "Hanzhuo Huang",
+        "Zhengming Yu",
+        "Mengfei Li",
+        "Yuheng Liu",
+        "Zekai Gu",
+        "Zibo Zhao",
+        "Yuan Liu",
+        "Xin Li",
+        "Wenping Wang"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/zsh523/UniRecGen",
+      "published": "2026-04-01T00:00:00.000Z"
+    },
+    {
+      "id": "2604.01404",
+      "title": "Friends and Grandmothers in Silico: Localizing Entity Cells in Language Models",
+      "authors": [
+        "Itay Yona",
+        "Dan Barzilay",
+        "Michael Karasik",
+        "Mor Geva"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/1tux/in-silico",
+      "published": "2026-04-01T00:00:00.000Z"
+    },
+    {
+      "id": "2603.24257",
+      "title": "Memory-Augmented Vision-Language Agents for Persistent and Semantically Consistent Object Captioning",
+      "authors": [
+        "Tommaso Galliena",
+        "Stefano Rosa",
+        "Tommaso Apicella",
+        "Pietro Morerio",
+        "Alessio Del Bue",
+        "Lorenzo Natale"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2026-03-30T00:00:00.000Z"
+    }
+  ]
+}

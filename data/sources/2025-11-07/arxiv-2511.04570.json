@@ -1,0 +1,34 @@
+{
+  "id": "2511.04570",
+  "title": "Thinking with Video: Video Generation as a Promising Multimodal Reasoning Paradigm",
+  "authors": [
+    "Jingqi Tong",
+    "Yurong Mou",
+    "Hangcheng Li",
+    "Mingzhe Li",
+    "Yongzhuo Yang",
+    "Ming Zhang",
+    "Qiguang Chen",
+    "Tianyi Liang",
+    "Xiaomeng Hu",
+    "Yining Zheng",
+    "Xinchi Chen",
+    "Jun Zhao",
+    "Xuanjing Huang",
+    "Xipeng Qiu"
+  ],
+  "published": "2025-11-06T17:25:23Z",
+  "abstract": "The \"Thinking with Text\" and \"Thinking with Images\" paradigms significantly improve the reasoning abilities of large language models (LLMs) and Vision-Language Models (VLMs). However, these paradigms have inherent limitations. (1) Images capture only single moments and fail to represent dynamic processes or continuous changes, and (2) The separation of text and vision as distinct modalities, which hinders unified multimodal understanding and generation. Therefore, we propose \"Thinking with Video\", a new paradigm that leverages video generation models such as Sora-2 to use video frames as a unified medium for multimodal reasoning. To support this exploration, we developed the Video Thinking Benchmark (VideoThinkBench), which covers both vision-centric tasks (e.g., Eyeballing Puzzles) and text-centric tasks (e.g., GSM8K and MMMU). Our evaluation on VideoThinkBench establishes Sora-2 as a capable reasoner. On vision-centric tasks, Sora-2 is comparable to state-of-the-art (SOTA) VLMs, and even surpasses GPT-5 by 10% on eyeballing puzzles. On text-centric tasks, Sora-2 achieves 92% accuracy on MATH, and 69.2% accuracy on MMMU. Furthermore, we systematically analyze the source of these abilities. We also find that self-consistency and in-context learning can improve Sora-2's performance. In summary, our findings show that the video generation model is the potential unified multimodal understanding and generation model, positioning \"Thinking with Video\" as a potential unified multimodal reasoning paradigm.",
+  "categories": [
+    "cs.CV",
+    "cs.CL"
+  ],
+  "abs": "https://arxiv.org/abs/2511.04570",
+  "pdf": "https://arxiv.org/pdf/2511.04570v2",
+  "source_url": "https://export.arxiv.org/api/query?id_list=2511.04570",
+  "fetched_at": "2026-10-29T15:49:28.826Z",
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "reusable_figures": true,
+  "github": "https://github.com/tongjingqi/Thinking-with-Video",
+  "upvotes": 243
+}

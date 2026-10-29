@@ -1,0 +1,11 @@
+{
+  "id": "2511.18423",
+  "html": "https://arxiv.org/html/2511.18423",
+  "limitations": null,
+  "conclusion": "In this paper, we present a novel memory system called General Agentic Memory (GAM), which is developed under the just-in-time compilation principle. GAM employs a dual-framework comprising a memorizer and a researcher. During the offline stage, the memorizer extracts the key information for its incoming context with lightweight memory and preserve the complete information within a page-store. For each online request, the researcher performs deep-research over the page-store based on the pre-constructed memory, which generates concise yet informative memory to support the downstream task. We perform comprehensive empirical studies using a variety of popular memory and long-context benchmarks, whose result validates the effectiveness of GAM given its significant and consistent improvements over existing methods.",
+  "figure": {
+    "path": "images/2025/paper-2511.18423.webp",
+    "src": "https://arxiv.org/html/2511.18423v1/GAM_memory.png",
+    "caption": "Figure 1 : Overview of GAM. The memorizer generates a light memory by for agent history and keeps the complete history in the page-store during the offline stage. The researcher performs deep-research to retrieve and integrate useful information for its request in the online service."
+  }
+}

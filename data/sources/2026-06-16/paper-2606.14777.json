@@ -1,0 +1,11 @@
+{
+  "id": "2606.14777",
+  "html": "https://arxiv.org/html/2606.14777",
+  "limitations": "A fair reading of our comparison has to start with scale. The two video-call assistants we evaluate against are powered by far larger models, Seed 2.0 behind Doubao and Gemini-3.1-flash-live behind Gemini, and both are mature products tuned over time against real users and use cases. JoyAI-VL-Interaction, by comparison, is a compact 8B-scale model. We therefore expect, and do not claim otherwise, that on general turn-based ability these products are stronger than ours: broader world knowledge, a more polished one-on-one chat experience, and greater robustness on complex or rarely seen inputs. Our claim is narrower, and we think more telling. In the six event-driven scenarios this paper targets, the ones that turn on real-time presence, proactive interaction, and a sense of time, and that already carry rich deployment value, a far smaller model holds a natural advantage simply by being an",
+  "conclusion": "We set out to move large models past the turn-based paradigm, in which a model opens its eyes only when it is addressed, toward genuine streaming interaction, in which the model is present in the world and decides for itself when to act. To that end we release, to our knowledge, the first open vision-driven interaction model, together with everything needed to build on it: the time-aligned data, the training recipe, the 8B model, and a complete, deployable system. At the center is a single conviction, that interactivity should scale as a capability of the model itself rather than be simulated by a harness around it. Scaling interactivity means scaling three things at once: the model’s freedom to speak on its own when a moment is worth a word, its ability to interact in real time, and its sense of elapsed time. As these grow, a model behaves less like a tool that waits to be queried and m",
+  "figure": {
+    "path": "images/2026/paper-2606.14777.webp",
+    "src": "https://arxiv.org/html/2606.14777v2/fig_overview.png",
+    "caption": "Figure 1 : JoyAI-VL-Interaction processes a continuous video stream in real time, deciding at each step whether to respond, stay silent, or delegate complex tasks to a background model for asynchronous handling."
+  }
+}

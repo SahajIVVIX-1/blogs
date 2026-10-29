@@ -1,0 +1,186 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-04-05",
+  "fetched_at": "2026-10-29T15:27:24.562Z",
+  "candidates": [
+    {
+      "id": "2404.03592",
+      "title": "ReFT: Representation Finetuning for Language Models",
+      "authors": [
+        "Zhengxuan Wu",
+        "Aryaman Arora",
+        "Zheng Wang",
+        "Atticus Geiger",
+        "Dan Jurafsky",
+        "Christopher D. Manning",
+        "Christopher Potts"
+      ],
+      "upvotes": 101,
+      "github": "https://github.com/stanfordnlp/pyreft",
+      "published": "2024-04-04T17:00:37.000Z"
+    },
+    {
+      "id": "2404.03653",
+      "title": "CoMat: Aligning Text-to-Image Diffusion Model with Image-to-Text Concept Matching",
+      "authors": [
+        "Dongzhi Jiang",
+        "Guanglu Song",
+        "Xiaoshi Wu",
+        "Renrui Zhang",
+        "Dazhong Shen",
+        "Zhuofan Zong",
+        "Yu Liu",
+        "Hongsheng Li"
+      ],
+      "upvotes": 34,
+      "github": "https://github.com/caraj7/comat",
+      "published": "2024-04-04T17:59:46.000Z"
+    },
+    {
+      "id": "2404.03648",
+      "title": "AutoWebGLM: Bootstrap And Reinforce A Large Language Model-based Web Navigating Agent",
+      "authors": [
+        "Hanyu Lai",
+        "Xiao Liu",
+        "Iat Long Iong",
+        "Shuntian Yao",
+        "Yuxuan Chen",
+        "Pengbo Shen",
+        "Hao Yu",
+        "Hanchen Zhang",
+        "Xiaohan Zhang",
+        "Yuxiao Dong",
+        "Jie Tang"
+      ],
+      "upvotes": 28,
+      "github": "https://github.com/thudm/autowebglm",
+      "published": "2024-04-04T17:58:40.000Z"
+    },
+    {
+      "id": "2404.03413",
+      "title": "MiniGPT4-Video: Advancing Multimodal LLMs for Video Understanding with Interleaved Visual-Textual Tokens",
+      "authors": [
+        "Kirolos Ataallah",
+        "Xiaoqian Shen",
+        "Eslam Abdelrahman",
+        "Essam Sleiman",
+        "Deyao Zhu",
+        "Jian Ding",
+        "Mohamed Elhoseiny"
+      ],
+      "upvotes": 27,
+      "github": null,
+      "published": "2024-04-04T12:46:01.000Z"
+    },
+    {
+      "id": "2404.03118",
+      "title": "LVLM-Intrepret: An Interpretability Tool for Large Vision-Language Models",
+      "authors": [
+        "Gabriela Ben Melech Stan",
+        "Raanan Yehezkel Rohekar",
+        "Yaniv Gurwicz",
+        "Matthew Lyle Olson",
+        "Anahita Bhiwandiwalla",
+        "Estelle Aflalo",
+        "Chenfei Wu",
+        "Nan Duan",
+        "Shao-Yen Tseng",
+        "Vasudev Lal"
+      ],
+      "upvotes": 24,
+      "github": null,
+      "published": "2024-04-03T23:57:34.000Z"
+    },
+    {
+      "id": "2404.03626",
+      "title": "Training LLMs over Neurally Compressed Text",
+      "authors": [
+        "Brian Lester",
+        "Jaehoon Lee",
+        "Alex Alemi",
+        "Jeffrey Pennington",
+        "Adam Roberts",
+        "Jascha Sohl-Dickstein",
+        "Noah Constant"
+      ],
+      "upvotes": 22,
+      "github": null,
+      "published": "2024-04-04T17:48:28.000Z"
+    },
+    {
+      "id": "2404.03543",
+      "title": "CodeEditorBench: Evaluating Code Editing Capability of Large Language Models",
+      "authors": [
+        "Jiawei Guo",
+        "Ziming Li",
+        "Xueling Liu",
+        "Kaijing Ma",
+        "Tianyu Zheng",
+        "Zhouliang Yu",
+        "Ding Pan",
+        "Yizhi LI",
+        "Ruibo Liu",
+        "Yue Wang",
+        "Shuyue Guo",
+        "Xingwei Qu",
+        "Xiang Yue",
+        "Ge Zhang",
+        "Wenhu Chen",
+        "Jie Fu"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/CodeEditorBench/CodeEditorBench",
+      "published": "2024-04-04T15:49:49.000Z"
+    },
+    {
+      "id": "2404.03566",
+      "title": "PointInfinity: Resolution-Invariant Point Diffusion Models",
+      "authors": [
+        "Zixuan Huang",
+        "Justin Johnson",
+        "Shoubhik Debnath",
+        "James M. Rehg",
+        "Chao-Yuan Wu"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2024-04-04T16:24:32.000Z"
+    },
+    {
+      "id": "2404.03411",
+      "title": "Red Teaming GPT-4V: Are GPT-4V Safe Against Uni/Multi-Modal Jailbreak Attacks?",
+      "authors": [
+        "Shuo Chen",
+        "Zhen Han",
+        "Bailan He",
+        "Zifeng Ding",
+        "Wenqian Yu",
+        "Philip Torr",
+        "Volker Tresp",
+        "Jindong Gu"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/chenxshuo/redteaminggpt4v",
+      "published": "2024-04-04T12:38:14.000Z"
+    },
+    {
+      "id": "2404.03204",
+      "title": "RALL-E: Robust Codec Language Modeling with Chain-of-Thought Prompting for Text-to-Speech Synthesis",
+      "authors": [
+        "Detai Xin",
+        "Xu Tan",
+        "Kai Shen",
+        "Zeqian Ju",
+        "Dongchao Yang",
+        "Yuancheng Wang",
+        "Shinnosuke Takamichi",
+        "Hiroshi Saruwatari",
+        "Shujie Liu",
+        "Jinyu Li",
+        "Sheng Zhao"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2024-04-04T05:15:07.000Z"
+    }
+  ]
+}

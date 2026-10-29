@@ -1,0 +1,7 @@
+{
+  "id": "2501.00958",
+  "html": "https://arxiv.org/html/2501.00958",
+  "limitations": "Although we already designed multiple levels of filtering, our textbook may still contain some redundant keyframes, low-quality texts, and so on. We will continue to improve the quality and knowledge density of our textbook. Besides, similar to prior multimodal models, our textbook primarily focuses on multimodal understanding and text generation for interleaved contexts. During training, the loss is not computed for image tokens. However, our textbook can also be used for omni-modal models including both understanding and generation tasks. We leave this for future work.",
+  "conclusion": "We introduce a multimodal textbook to pre-train VLMs, enabling them to acquire specialized knowledge in a natural and contextual manner. By aggregating online educational videos (e.g., mathematics and physics courses) and transforming them into a frame-ASR interleaved dataset, this textbook provides a coherent and interconnected learning context, complementing traditional image-text alignment methods. Using our pipeline, we curated over 2.5 years of instructional videos (22,000 class hours) into a high-quality dataset with 6.5 million keyframes and 0.75 billion text tokens. Experiments demonstrate its effectiveness, especially in enhancing VLMs’ in-context learning capabilities.",
+  "figure": null
+}

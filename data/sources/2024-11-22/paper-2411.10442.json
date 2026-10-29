@@ -1,0 +1,7 @@
+{
+  "id": "2411.10442",
+  "html": "https://arxiv.org/html/2411.10442",
+  "limitations": null,
+  "conclusion": "In this work, we introduce a preference optimization (PO) process to enhance the multimodal reasoning capabilities of MLLMs. On the data side, we design an automated pipeline for preference data construction, which is applicable to instructions both with and without clear ground truths. Using this pipeline, we create MMPR, a high-quality, large-scale multimodal reasoning preference dataset. On the model side, we propose a simple yet effective method called Mixed Preference Optimization (MPO). This algorithm aims to learn the relative preference between pairs of responses, the absolute quality of individual responses, and the process for generating preferred responses. The resulting models, InternVL2-8B-MPO and InternVL2-76B-MPO, exhibit enhanced multimodal reasoning ability and fewer hallucinations compared to their counterparts before MPO. Notably, InternVL2-8B-MPO even achieves perform",
+  "figure": null
+}

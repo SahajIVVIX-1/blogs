@@ -1,0 +1,666 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-08-07",
+  "fetched_at": "2026-10-29T15:32:47.382Z",
+  "candidates": [
+    {
+      "id": "2508.01191",
+      "title": "Is Chain-of-Thought Reasoning of LLMs a Mirage? A Data Distribution Lens",
+      "authors": [
+        "Chengshuai Zhao",
+        "Zhen Tan",
+        "Pingchuan Ma",
+        "Dawei Li",
+        "Bohan Jiang",
+        "Yancheng Wang",
+        "Yingzhen Yang",
+        "Huan Liu"
+      ],
+      "upvotes": 191,
+      "github": "https://github.com/ChengshuaiZhao0/DataAlchemy",
+      "published": "2025-08-02T04:37:28.000Z"
+    },
+    {
+      "id": "2508.03680",
+      "title": "Agent Lightning: Train ANY AI Agents with Reinforcement Learning",
+      "authors": [
+        "Xufang Luo",
+        "Yuge Zhang",
+        "Zhiyuan He",
+        "Zilong Wang",
+        "Siyun Zhao",
+        "Dongsheng Li",
+        "Luna K. Qiu",
+        "Yuqing Yang"
+      ],
+      "upvotes": 142,
+      "github": "https://github.com/microsoft/agent-lightning",
+      "published": "2025-08-05T17:50:13.000Z"
+    },
+    {
+      "id": "2508.04026",
+      "title": "VeriGUI: Verifiable Long-Chain GUI Dataset",
+      "authors": [
+        "Shunyu Liu",
+        "Minghao Liu",
+        "Huichi Zhou",
+        "Zhenyu Cui",
+        "Yang Zhou",
+        "Yuhao Zhou",
+        "Wendong Fan",
+        "Ge Zhang",
+        "Jiajun Shi",
+        "Weihao Xuan",
+        "Jiaxing Huang",
+        "Shuang Luo",
+        "Fang Wu",
+        "Heli Qi",
+        "Qingcheng Zeng",
+        "Ziqi Ren",
+        "Jialiang Gao",
+        "Jindi Lv",
+        "Junjie Wang",
+        "Aosong Feng",
+        "Heng Zhou",
+        "Wangchunshu Zhou",
+        "Zhenfei Yin",
+        "Wenlong Zhang",
+        "Guohao Li",
+        "Wenhao Yu",
+        "Irene Li",
+        "Lei Ma",
+        "Lei Bai",
+        "Qunshu Lin",
+        "Mingli Song",
+        "Dacheng Tao"
+      ],
+      "upvotes": 127,
+      "github": "https://github.com/VeriGUI-Team/VeriWeb",
+      "published": "2025-08-06T02:38:18.000Z"
+    },
+    {
+      "id": "2508.02694",
+      "title": "Efficient Agents: Building Effective Agents While Reducing Cost",
+      "authors": [
+        "Ningning Wang",
+        "Xavier Hu",
+        "Pai Liu",
+        "He Zhu",
+        "Yue Hou",
+        "Heyuan Huang",
+        "Shengyu Zhang",
+        "Jian Yang",
+        "Jiaheng Liu",
+        "Ge Zhang",
+        "Changwang Zhang",
+        "Jun Wang",
+        "Yuchen Eleanor Jiang",
+        "Wangchunshu Zhou"
+      ],
+      "upvotes": 84,
+      "github": "https://github.com/OPPO-PersonalAI/OAgents",
+      "published": "2025-07-24T17:56:51.000Z"
+    },
+    {
+      "id": "2508.04700",
+      "title": "SEAgent: Self-Evolving Computer Use Agent with Autonomous Learning from Experience",
+      "authors": [
+        "Zeyi Sun",
+        "Ziyu Liu",
+        "Yuhang Zang",
+        "Yuhang Cao",
+        "Xiaoyi Dong",
+        "Tong Wu",
+        "Dahua Lin",
+        "Jiaqi Wang"
+      ],
+      "upvotes": 51,
+      "github": "https://github.com/SunzeY/SEAgent",
+      "published": "2025-08-06T17:58:46.000Z"
+    },
+    {
+      "id": "2508.03501",
+      "title": "Training Long-Context, Multi-Turn Software Engineering Agents with Reinforcement Learning",
+      "authors": [
+        "Alexander Golubev",
+        "Maria Trofimova",
+        "Sergei Polezhaev",
+        "Ibragim Badertdinov",
+        "Maksim Nekrashevich",
+        "Anton Shevtsov",
+        "Simon Karasik",
+        "Sergey Abramov",
+        "Andrei Andriushchenko",
+        "Filipp Fisin",
+        "Sergei Skvortsov",
+        "Boris Yangel"
+      ],
+      "upvotes": 47,
+      "github": null,
+      "published": "2025-08-05T14:30:47.000Z"
+    },
+    {
+      "id": "2508.04280",
+      "title": "Enhancing Vision-Language Model Training with Reinforcement Learning in Synthetic Worlds for Real-World Success",
+      "authors": [
+        "George Bredis",
+        "Stanislav Dereka",
+        "Viacheslav Sinii",
+        "Ruslan Rakhimov",
+        "Daniil Gavrilov"
+      ],
+      "upvotes": 32,
+      "github": "https://github.com/corl-team/VL-DAC",
+      "published": "2025-08-06T10:08:48.000Z"
+    },
+    {
+      "id": "2508.03159",
+      "title": "CoTox: Chain-of-Thought-Based Molecular Toxicity Reasoning and Prediction",
+      "authors": [
+        "Jueon Park",
+        "Yein Park",
+        "Minju Song",
+        "Soyon Park",
+        "Donghyeon Lee",
+        "Seungheun Baek",
+        "Jaewoo Kang"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/dmis-lab/CoTox",
+      "published": "2025-08-05T07:04:44.000Z"
+    },
+    {
+      "id": "2508.03560",
+      "title": "LaTCoder: Converting Webpage Design to Code with Layout-as-Thought",
+      "authors": [
+        "Yi Gui",
+        "Zhen Li",
+        "Zhongyi Zhang",
+        "Guohao Wang",
+        "Tianpeng Lv",
+        "Gaoyang Jiang",
+        "Yi Liu",
+        "Dongping Chen",
+        "Yao Wan",
+        "Hongyu Zhang",
+        "Wenbin Jiang",
+        "Xuanhua Shi",
+        "Hai Jin"
+      ],
+      "upvotes": 23,
+      "github": null,
+      "published": "2025-08-05T15:28:48.000Z"
+    },
+    {
+      "id": "2508.03905",
+      "title": "Sotopia-RL: Reward Design for Social Intelligence",
+      "authors": [
+        "Haofei Yu",
+        "Zhengyang Qi",
+        "Yining Zhao",
+        "Kolby Nottingham",
+        "Keyang Xuan",
+        "Bodhisattwa Prasad Majumder",
+        "Hao Zhu",
+        "Paul Pu Liang",
+        "Jiaxuan You"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/sotopia-lab/sotopia-rl",
+      "published": "2025-08-05T20:43:42.000Z"
+    },
+    {
+      "id": "2508.03789",
+      "title": "HPSv3: Towards Wide-Spectrum Human Preference Score",
+      "authors": [
+        "Yuhang Ma",
+        "Xiaoshi Wu",
+        "Keqiang Sun",
+        "Hongsheng Li"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/MizzenAI/HPSv3",
+      "published": "2025-08-05T17:17:13.000Z"
+    },
+    {
+      "id": "2508.01858",
+      "title": "Web-CogReasoner: Towards Knowledge-Induced Cognitive Reasoning for Web Agents",
+      "authors": [
+        "Yuhan Guo",
+        "Cong Guo",
+        "Aiwen Sun",
+        "Hongliang He",
+        "Xinyu Yang",
+        "Yue Lu",
+        "Yingji Zhang",
+        "Xuntao Guo",
+        "Dong Zhang",
+        "Jianzhuang Liu",
+        "Jiang Duan",
+        "Yijia Xiao",
+        "Liangjian Wen",
+        "Hai-Ming Xu",
+        "Yong Dai"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/Gnonymous/Web-CogReasoner",
+      "published": "2025-08-03T17:17:52.000Z"
+    },
+    {
+      "id": "2508.01630",
+      "title": "OpenMed NER: Open-Source, Domain-Adapted State-of-the-Art Transformers for Biomedical NER Across 12 Public Datasets",
+      "authors": [
+        "Maziyar Panahi"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2025-08-03T07:33:28.000Z"
+    },
+    {
+      "id": "2507.23785",
+      "title": "Gaussian Variation Field Diffusion for High-fidelity Video-to-4D Synthesis",
+      "authors": [
+        "Bowen Zhang",
+        "Sicheng Xu",
+        "Chuxin Wang",
+        "Jiaolong Yang",
+        "Feng Zhao",
+        "Dong Chen",
+        "Baining Guo"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/ForeverFancy/gvfdiffusion",
+      "published": "2025-07-31T17:59:51.000Z"
+    },
+    {
+      "id": "2508.02807",
+      "title": "DreamVVT: Mastering Realistic Video Virtual Try-On in the Wild via a Stage-Wise Diffusion Transformer Framework",
+      "authors": [
+        "Tongchun Zuo",
+        "Zaiyu Huang",
+        "Shuliang Ning",
+        "Ente Lin",
+        "Chao Liang",
+        "Zerong Zheng",
+        "Jianwen Jiang",
+        "Yuan Zhang",
+        "Mingyuan Gao",
+        "Xin Dong"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/Virtu-Lab/DreamVVT",
+      "published": "2025-08-04T18:27:55.000Z"
+    },
+    {
+      "id": "2508.04664",
+      "title": "Sculptor: Empowering LLMs with Cognitive Agency via Active Context Management",
+      "authors": [
+        "Mo Li",
+        "L. H. Xu",
+        "Qitai Tan",
+        "Ting Cao",
+        "Yunxin Liu"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2025-08-06T17:32:58.000Z"
+    },
+    {
+      "id": "2508.02215",
+      "title": "LeanK: Learnable K Cache Channel Pruning for Efficient Decoding",
+      "authors": [
+        "Yike Zhang",
+        "Zhiyuan He",
+        "Huiqiang Jiang",
+        "Chengruidong Zhang",
+        "Yuqing Yang",
+        "Jianyong Wang",
+        "Lili Qiu"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2025-08-04T09:08:43.000Z"
+    },
+    {
+      "id": "2508.04586",
+      "title": "Position: The Current AI Conference Model is Unsustainable! Diagnosing the Crisis of Centralized AI Conference",
+      "authors": [
+        "Nuo Chen",
+        "Moming Duan",
+        "Andre Huikai Lin",
+        "Qian Wang",
+        "Jiaying Wu",
+        "Bingsheng He"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2025-08-06T16:08:27.000Z"
+    },
+    {
+      "id": "2508.04440",
+      "title": "StepFun-Formalizer: Unlocking the Autoformalization Potential of LLMs through Knowledge-Reasoning Fusion",
+      "authors": [
+        "Yutong Wu",
+        "Di Huang",
+        "Ruosi Wan",
+        "Yue Peng",
+        "Shijie Shang",
+        "Chenrui Cao",
+        "Lei Qi",
+        "Rui Zhang",
+        "Zidong Du",
+        "Jie Yan",
+        "Xing Hu"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/stepfun-ai/StepFun-Formalizer",
+      "published": "2025-08-06T13:28:22.000Z"
+    },
+    {
+      "id": "2508.03983",
+      "title": "MiDashengLM: Efficient Audio Understanding with General Audio Captions",
+      "authors": [
+        "Heinrich Dinkel",
+        "Gang Li",
+        "Jizhong Liu",
+        "Jian Luan",
+        "Yadong Niu",
+        "Xingwei Sun",
+        "Tianzi Wang",
+        "Qiyang Xiao",
+        "Junbo Zhang",
+        "Jiahao Zhou"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/xiaomi-research/dasheng-lm",
+      "published": "2025-08-06T00:30:19.000Z"
+    },
+    {
+      "id": "2508.01928",
+      "title": "IAUNet: Instance-Aware U-Net",
+      "authors": [
+        "Yaroslav Prytula",
+        "Illia Tsiporenko",
+        "Ali Zeynalli",
+        "Dmytro Fishman"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/SlavkoPrytula/IAUNet",
+      "published": "2025-08-03T21:36:20.000Z"
+    },
+    {
+      "id": "2508.04010",
+      "title": "HarmonyGuard: Toward Safety and Utility in Web Agents via Adaptive Policy Enhancement and Dual-Objective Optimization",
+      "authors": [
+        "Yurun Chen",
+        "Xavier Hu",
+        "Yuhan Liu",
+        "Keting Yin",
+        "Juncheng Li",
+        "Zhuosheng Zhang",
+        "Shengyu Zhang"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/YurunChen/HarmonyGuard",
+      "published": "2025-08-06T01:49:32.000Z"
+    },
+    {
+      "id": "2508.03448",
+      "title": "SonicMaster: Towards Controllable All-in-One Music Restoration and Mastering",
+      "authors": [
+        "Jan Melechovsky",
+        "Ambuj Mehrish",
+        "Dorien Herremans"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/AMAAI-Lab/SonicMaster",
+      "published": "2025-08-05T13:49:04.000Z"
+    },
+    {
+      "id": "2508.04295",
+      "title": "EVOC2RUST: A Skeleton-guided Framework for Project-Level C-to-Rust Translation",
+      "authors": [
+        "Chaofan Wang",
+        "Tingrui Yu",
+        "Jie Wang",
+        "Dong Chen",
+        "Wenrui Zhang",
+        "Yuling Shi",
+        "Xiaodong Gu",
+        "Beijun Shen"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2025-08-06T10:31:23.000Z"
+    },
+    {
+      "id": "2508.00222",
+      "title": "RL-PLUS: Countering Capability Boundary Collapse of LLMs in Reinforcement Learning with Hybrid-policy Optimization",
+      "authors": [
+        "Yihong Dong",
+        "Xue Jiang",
+        "Yongding Tao",
+        "Huanyu Liu",
+        "Kechi Zhang",
+        "Lili Mou",
+        "Rongyu Cao",
+        "Yingwei Ma",
+        "Jue Chen",
+        "Binhua Li",
+        "Zhi Jin",
+        "Fei Huang",
+        "Yongbin Li",
+        "Ge Li"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/YihongDong/RL-PLUS",
+      "published": "2025-07-31T23:55:29.000Z"
+    },
+    {
+      "id": "2508.00599",
+      "title": "DPoser-X: Diffusion Model as Robust 3D Whole-body Human Pose Prior",
+      "authors": [
+        "Junzhe Lu",
+        "Jing Lin",
+        "Hongkun Dou",
+        "Ailing Zeng",
+        "Yue Deng",
+        "Xian Liu",
+        "Zhongang Cai",
+        "Lei Yang",
+        "Yulun Zhang",
+        "Haoqian Wang",
+        "Ziwei Liu"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/moonbow721/DPoser-X",
+      "published": "2025-08-01T12:56:39.000Z"
+    },
+    {
+      "id": "2508.03178",
+      "title": "Light-IF: Endowing LLMs with Generalizable Reasoning via Preview and Self-Checking for Complex Instruction Following",
+      "authors": [
+        "Chenyang Wang",
+        "Liang Wen",
+        "Shousheng Jia",
+        "Xiangzheng Zhang",
+        "Liang Xu"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/Qihoo360/Light-IF",
+      "published": "2025-08-05T07:42:00.000Z"
+    },
+    {
+      "id": "2508.01197",
+      "title": "A Coarse-to-Fine Approach to Multi-Modality 3D Occupancy Grounding",
+      "authors": [
+        "Zhan Shi",
+        "Song Wang",
+        "Junbo Chen",
+        "Jianke Zhu"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/RONINGOD/GroundingOcc",
+      "published": "2025-08-02T05:05:50.000Z"
+    },
+    {
+      "id": "2508.00109",
+      "title": "FACTORY: A Challenging Human-Verified Prompt Set for Long-Form Factuality",
+      "authors": [
+        "Mingda Chen",
+        "Yang Li",
+        "Xilun Chen",
+        "Adina Williams",
+        "Gargi Ghosh",
+        "Scott Yih"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-07-31T19:00:11.000Z"
+    },
+    {
+      "id": "2507.21974",
+      "title": "Reasoning Language Models for Root Cause Analysis in 5G Wireless Networks",
+      "authors": [
+        "Mohamed Sana",
+        "Nicola Piovesan",
+        "Antonio De Domenico",
+        "Yibin Kang",
+        "Haozhe Zhang",
+        "Merouane Debbah",
+        "Fadhel Ayed"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2025-07-29T16:21:42.000Z"
+    },
+    {
+      "id": "2508.00428",
+      "title": "Sel3DCraft: Interactive Visual Prompts for User-Friendly Text-to-3D Generation",
+      "authors": [
+        "Nan Xiang",
+        "Tianyi Liang",
+        "Haiwen Huang",
+        "Shiqi Jiang",
+        "Hao Huang",
+        "Yifei Huang",
+        "Liangyu Chen",
+        "Changbo Wang",
+        "Chenhui Li"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/tianyilt/sel3dcraft",
+      "published": "2025-08-01T08:36:15.000Z"
+    },
+    {
+      "id": "2508.02951",
+      "title": "MedBLINK: Probing Basic Perception in Multimodal Language Models for Medicine",
+      "authors": [
+        "Mahtab Bigverdi",
+        "Wisdom Ikezogwo",
+        "Kevin Zhang",
+        "Hyewon Jeong",
+        "Mingyu Lu",
+        "Sungjae Cho",
+        "Linda Shapiro",
+        "Ranjay Krishna"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/mahtabbigverdi/Aurora",
+      "published": "2025-08-04T23:19:18.000Z"
+    },
+    {
+      "id": "2508.01226",
+      "title": "CM^3: Calibrating Multimodal Recommendation",
+      "authors": [
+        "Xin Zhou",
+        "Yongjie Wang",
+        "Zhiqi Shen"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/enoche/CM3",
+      "published": "2025-08-02T06:44:59.000Z"
+    },
+    {
+      "id": "2508.03970",
+      "title": "Data and AI governance: Promoting equity, ethics, and fairness in large language models",
+      "authors": [
+        "Alok Abhishek",
+        "Lisa Erickson",
+        "Tushar Bandopadhyay"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2025-08-05T23:15:31.000Z"
+    },
+    {
+      "id": "2508.01778",
+      "title": "DiffSemanticFusion: Semantic Raster BEV Fusion for Autonomous Driving via Online HD Map Diffusion",
+      "authors": [
+        "Zhigang Sun",
+        "Yiru Wang",
+        "Anqing Jiang",
+        "Shuo Wang",
+        "Yu Gao",
+        "Yuwen Heng",
+        "Shouyi Zhang",
+        "An He",
+        "Hao Jiang",
+        "Jinhao Chai",
+        "Zichong Gu",
+        "Wang Jijun",
+        "Shichen Tang",
+        "Lavdim Halilaj",
+        "Juergen Luettin",
+        "Hao Sun"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/SunZhigang7/DiffSemanticFusion",
+      "published": "2025-08-03T14:32:05.000Z"
+    },
+    {
+      "id": "2508.01311",
+      "title": "C3D-AD: Toward Continual 3D Anomaly Detection via Kernel Attention with Learnable Advisor",
+      "authors": [
+        "Haoquan Lu",
+        "Hanzhe Liang",
+        "Jie Zhang",
+        "Chenxi Hu",
+        "Jinbao Wang",
+        "Can Gao"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/hzzzzzhappy/CL3AD",
+      "published": "2025-08-02T10:54:55.000Z"
+    },
+    {
+      "id": "2508.04632",
+      "title": "IFDECORATOR: Wrapping Instruction Following Reinforcement Learning with Verifiable Rewards",
+      "authors": [
+        "Xu Guo",
+        "Tianyi Liang",
+        "Tong Jian",
+        "Xiaogui Yang",
+        "Ling-I Wu",
+        "Chenhui Li",
+        "Zhihui Lu",
+        "Qipeng Guo",
+        "Kai Chen"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/guox18/IFDecorator",
+      "published": "2025-08-06T17:00:54.000Z"
+    },
+    {
+      "id": "2507.23313",
+      "title": "The Cow of Rembrandt - Analyzing Artistic Prompt Interpretation in Text-to-Image Models",
+      "authors": [
+        "Alfio Ferrara",
+        "Sergio Picascia",
+        "Elisabetta Rocchetti"
+      ],
+      "upvotes": 0,
+      "github": "https://github.com/umilISLab/artistic-prompt-interpretation",
+      "published": "2025-07-31T07:47:01.000Z"
+    }
+  ]
+}

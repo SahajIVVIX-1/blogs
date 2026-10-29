@@ -1,0 +1,7 @@
+{
+  "id": "2312.06550",
+  "html": "https://arxiv.org/html/2312.06550",
+  "limitations": null,
+  "conclusion": "In this paper, we introduce LLM360 , an initiative for comprehensive and fully open-sourced LLMs. Along with the first release of LLM360 , we released two 7B LLMs: Amber (an English general-purpose LLM) and CrystalCoder (an LLM pre-trained specifically for code generation). In terms of artifacts, we released pre-training code, configurations, hyperparameters, intermediate model checkpoints, optimizer states, as well as the data sequence and data processing code. Our vision is to significantly advance and promote transparency within the open-source LLM pre-training community. For future work, we are conducting a more detailed analysis on Amber and CrystalCoder ’s base models as well as their fine-tuned models. Detailed results will be released and discussed in their respective technical reports. Our team is also pre-training a much larger LLM, which will be fully released as soon as the p",
+  "figure": null
+}

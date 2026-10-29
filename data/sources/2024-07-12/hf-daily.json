@@ -1,0 +1,337 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-07-12",
+  "fetched_at": "2026-10-29T15:28:24.573Z",
+  "candidates": [
+    {
+      "id": "2407.08348",
+      "title": "Skywork-Math: Data Scaling Laws for Mathematical Reasoning in Large Language Models -- The Story Goes On",
+      "authors": [
+        "Liang Zeng",
+        "Liangjun Zhong",
+        "Liang Zhao",
+        "Tianwen Wei",
+        "Liu Yang",
+        "Jujie He",
+        "Cheng Cheng",
+        "Rui Hu",
+        "Yang Liu",
+        "Shuicheng Yan",
+        "Han Fang",
+        "Yahui Zhou"
+      ],
+      "upvotes": 51,
+      "github": null,
+      "published": "2024-07-11T09:56:51.000Z"
+    },
+    {
+      "id": "2407.08737",
+      "title": "Video Diffusion Alignment via Reward Gradients",
+      "authors": [
+        "Mihir Prabhudesai",
+        "Russell Mendonca",
+        "Zheyang Qin",
+        "Katerina Fragkiadaki",
+        "Deepak Pathak"
+      ],
+      "upvotes": 48,
+      "github": "https://github.com/mihirp1998/vader",
+      "published": "2024-07-11T17:59:45.000Z"
+    },
+    {
+      "id": "2407.07053",
+      "title": "Multimodal Self-Instruct: Synthetic Abstract Image and Visual Reasoning Instruction Using Language Model",
+      "authors": [
+        "Wenqi Zhang",
+        "Zhenglin Cheng",
+        "Yuanyu He",
+        "Mengna Wang",
+        "Yongliang Shen",
+        "Zeqi Tan",
+        "Guiyang Hou",
+        "Mingqian He",
+        "Yanna Ma",
+        "Weiming Lu",
+        "Yueting Zhuang"
+      ],
+      "upvotes": 45,
+      "github": "https://github.com/zwq2018/multi-modal-self-instruct",
+      "published": "2024-07-09T17:18:27.000Z"
+    },
+    {
+      "id": "2407.08083",
+      "title": "MambaVision: A Hybrid Mamba-Transformer Vision Backbone",
+      "authors": [
+        "Ali Hatamizadeh",
+        "Jan Kautz"
+      ],
+      "upvotes": 35,
+      "github": "https://github.com/nvlabs/mambavision",
+      "published": "2024-07-10T23:02:45.000Z"
+    },
+    {
+      "id": "2407.08296",
+      "title": "Q-GaLore: Quantized GaLore with INT4 Projection and Layer-Adaptive Low-Rank Gradients",
+      "authors": [
+        "Zhenyu Zhang",
+        "Ajay Jaiswal",
+        "Lu Yin",
+        "Shiwei Liu",
+        "Jiawei Zhao",
+        "Yuandong Tian",
+        "Zhangyang Wang"
+      ],
+      "upvotes": 32,
+      "github": "https://github.com/VITA-Group/Q-GaLore",
+      "published": "2024-07-11T08:42:58.000Z"
+    },
+    {
+      "id": "2407.08739",
+      "title": "MAVIS: Mathematical Visual Instruction Tuning",
+      "authors": [
+        "Renrui Zhang",
+        "Xinyu Wei",
+        "Dongzhi Jiang",
+        "Yichi Zhang",
+        "Ziyu Guo",
+        "Chengzhuo Tong",
+        "Jiaming Liu",
+        "Aojun Zhou",
+        "Bin Wei",
+        "Shanghang Zhang",
+        "Peng Gao",
+        "Hongsheng Li"
+      ],
+      "upvotes": 31,
+      "github": "https://github.com/zrrskywalker/mavis",
+      "published": "2024-07-11T17:59:47.000Z"
+    },
+    {
+      "id": "2407.06946",
+      "title": "Self-Recognition in Language Models",
+      "authors": [
+        "Tim R. Davidson",
+        "Viacheslav Surkov",
+        "Veniamin Veselovsky",
+        "Giuseppe Russo",
+        "Robert West",
+        "Caglar Gulcehre"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/trdavidson/self-recognition",
+      "published": "2024-07-09T15:23:28.000Z"
+    },
+    {
+      "id": "2407.08683",
+      "title": "SEED-Story: Multimodal Long Story Generation with Large Language Model",
+      "authors": [
+        "Shuai Yang",
+        "Yuying Ge",
+        "Yang Li",
+        "Yukang Chen",
+        "Yixiao Ge",
+        "Ying Shan",
+        "Yingcong Chen"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/tencentarc/seed-story",
+      "published": "2024-07-11T17:21:03.000Z"
+    },
+    {
+      "id": "2407.08733",
+      "title": "Is Your Model Really A Good Math Reasoner? Evaluating Mathematical Reasoning with Checklist",
+      "authors": [
+        "Zihao Zhou",
+        "Shudong Liu",
+        "Maizhen Ning",
+        "Wei Liu",
+        "Jindong Wang",
+        "Derek F. Wong",
+        "Xiaowei Huang",
+        "Qiufeng Wang",
+        "Kaizhu Huang"
+      ],
+      "upvotes": 22,
+      "github": null,
+      "published": "2024-07-11T17:58:58.000Z"
+    },
+    {
+      "id": "2407.08303",
+      "title": "DenseFusion-1M: Merging Vision Experts for Comprehensive Multimodal Perception",
+      "authors": [
+        "Xiaotong Li",
+        "Fan Zhang",
+        "Haiwen Diao",
+        "Yueze Wang",
+        "Xinlong Wang",
+        "Ling-Yu Duan"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/baaivision/densefusion",
+      "published": "2024-07-11T08:48:06.000Z"
+    },
+    {
+      "id": "2407.08713",
+      "title": "GTA: A Benchmark for General Tool Agents",
+      "authors": [
+        "Jize Wang",
+        "Zerun Ma",
+        "Yining Li",
+        "Songyang Zhang",
+        "Cailian Chen",
+        "Kai Chen",
+        "Xinyi Le"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/open-compass/GTA",
+      "published": "2024-07-11T17:50:09.000Z"
+    },
+    {
+      "id": "2407.08551",
+      "title": "Autoregressive Speech Synthesis without Vector Quantization",
+      "authors": [
+        "Lingwei Meng",
+        "Long Zhou",
+        "Shujie Liu",
+        "Sanyuan Chen",
+        "Bing Han",
+        "Shujie Hu",
+        "Yanqing Liu",
+        "Jinyu Li",
+        "Sheng Zhao",
+        "Xixin Wu",
+        "Helen Meng",
+        "Furu Wei"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2024-07-11T14:36:53.000Z"
+    },
+    {
+      "id": "2407.08701",
+      "title": "Live2Diff: Live Stream Translation via Uni-directional Attention in Video Diffusion Models",
+      "authors": [
+        "Zhening Xing",
+        "Gereon Fox",
+        "Yanhong Zeng",
+        "Xingang Pan",
+        "Mohamed Elgharib",
+        "Christian Theobalt",
+        "Kai Chen"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2024-07-11T17:34:51.000Z"
+    },
+    {
+      "id": "2407.08583",
+      "title": "The Synergy between Data and Multi-Modal Large Language Models: A Survey from Co-Development Perspective",
+      "authors": [
+        "Zhen Qin",
+        "Daoyuan Chen",
+        "Wenhao Zhang",
+        "Liuyi Yao",
+        "Yilun Huang",
+        "Bolin Ding",
+        "Yaliang Li",
+        "Shuiguang Deng"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2024-07-11T15:08:11.000Z"
+    },
+    {
+      "id": "2407.08250",
+      "title": "Gradient Boosting Reinforcement Learning",
+      "authors": [
+        "Benjamin Fuhrer",
+        "Chen Tessler",
+        "Gal Dalal"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/nvlabs/gbrl",
+      "published": "2024-07-11T07:52:33.000Z"
+    },
+    {
+      "id": "2407.08726",
+      "title": "Map It Anywhere (MIA): Empowering Bird's Eye View Mapping using Large-scale Public Data",
+      "authors": [
+        "Cherie Ho",
+        "Jiaye Zou",
+        "Omar Alama",
+        "Sai Mitheran Jagadesh Kumar",
+        "Benjamin Chiang",
+        "Taneesh Gupta",
+        "Chen Wang",
+        "Nikhil Keetha",
+        "Katia Sycara",
+        "Sebastian Scherer"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/MapItAnywhere/MapItAnywhere",
+      "published": "2024-07-11T17:57:22.000Z"
+    },
+    {
+      "id": "2407.08680",
+      "title": "Generalizable Implicit Motion Modeling for Video Frame Interpolation",
+      "authors": [
+        "Zujin Guo",
+        "Wei Li",
+        "Chen Change Loy"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2024-07-11T17:13:15.000Z"
+    },
+    {
+      "id": "2407.08642",
+      "title": "Towards Building Specialized Generalist AI with System 1 and System 2 Fusion",
+      "authors": [
+        "Kaiyan Zhang",
+        "Biqing Qi",
+        "Bowen Zhou"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2024-07-11T16:23:16.000Z"
+    },
+    {
+      "id": "2407.08447",
+      "title": "WildGaussians: 3D Gaussian Splatting in the Wild",
+      "authors": [
+        "Jonas Kulhanek",
+        "Songyou Peng",
+        "Zuzana Kukelova",
+        "Marc Pollefeys",
+        "Torsten Sattler"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/jkulhanek/wild-gaussians",
+      "published": "2024-07-11T12:41:32.000Z"
+    },
+    {
+      "id": "2407.08711",
+      "title": "OmniNOCS: A unified NOCS dataset and model for 3D lifting of 2D objects",
+      "authors": [
+        "Akshay Krishnan",
+        "Abhijit Kundu",
+        "Kevis-Kokitsi Maninis",
+        "James Hays",
+        "Matthew Brown"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2024-07-11T17:49:05.000Z"
+    },
+    {
+      "id": "2407.07176",
+      "title": "Scaling Up Personalized Aesthetic Assessment via Task Vector Customization",
+      "authors": [
+        "Jooyeol Yun",
+        "Jaegul Choo"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/YeolJ00/Personalized-Aesthetics",
+      "published": "2024-07-09T18:42:41.000Z"
+    }
+  ]
+}

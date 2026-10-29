@@ -1,0 +1,292 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-08-27",
+  "fetched_at": "2026-10-29T15:28:52.477Z",
+  "candidates": [
+    {
+      "id": "2408.14176",
+      "title": "SwiftBrush v2: Make Your One-step Diffusion Model Better Than Its Teacher",
+      "authors": [
+        "Trung Dao",
+        "Thuan Hoang Nguyen",
+        "Thanh Le",
+        "Duc Vu",
+        "Khoi Nguyen",
+        "Cuong Pham",
+        "Anh Tran"
+      ],
+      "upvotes": 62,
+      "github": "https://github.com/vinairesearch/swiftbrushv2",
+      "published": "2024-08-26T10:42:53.000Z"
+    },
+    {
+      "id": "2408.14340",
+      "title": "Foundation Models for Music: A Survey",
+      "authors": [
+        "Yinghao Ma",
+        "Anders Øland",
+        "Anton Ragni",
+        "Bleiz MacSen Del Sette",
+        "Charalampos Saitis",
+        "Chris Donahue",
+        "Chenghua Lin",
+        "Christos Plachouras",
+        "Emmanouil Benetos",
+        "Elio Quinton",
+        "Elona Shatri",
+        "Fabio Morreale",
+        "Ge Zhang",
+        "György Fazekas",
+        "Gus Xia",
+        "Huan Zhang",
+        "Ilaria Manco",
+        "Jiawen Huang",
+        "Julien Guinot",
+        "Liwei Lin",
+        "Luca Marinelli",
+        "Max W. Y. Lam",
+        "Megha Sharma",
+        "Qiuqiang Kong",
+        "Roger B. Dannenberg",
+        "Ruibin Yuan",
+        "Shangda Wu",
+        "Shih-Lun Wu",
+        "Shuqi Dai",
+        "Shun Lei",
+        "Shiyin Kang",
+        "Simon Dixon",
+        "Wenhu Chen",
+        "Wehhao Huang",
+        "Xingjian Du",
+        "Xingwei Qu",
+        "Xu Tan",
+        "Yizhi Li",
+        "Zeyue Tian",
+        "Zhiyong Wu",
+        "Zhizheng Wu",
+        "Ziyang Ma",
+        "Ziyu Wang"
+      ],
+      "upvotes": 44,
+      "github": "https://github.com/nicolaus625/fm4music",
+      "published": "2024-08-26T15:13:14.000Z"
+    },
+    {
+      "id": "2408.14354",
+      "title": "SWE-bench-java: A GitHub Issue Resolving Benchmark for Java",
+      "authors": [
+        "Daoguang Zan",
+        "Zhirong Huang",
+        "Ailun Yu",
+        "Shaoxin Lin",
+        "Yifan Shi",
+        "Wei Liu",
+        "Dong Chen",
+        "Zongshuai Qi",
+        "Hao Yu",
+        "Lei Yu",
+        "Dezhi Ran",
+        "Muhan Zeng",
+        "Bo Shen",
+        "Pan Bian",
+        "Guangtai Liang",
+        "Bei Guan",
+        "Pengjie Huang",
+        "Tao Xie",
+        "Yongji Wang",
+        "Qianxiang Wang"
+      ],
+      "upvotes": 41,
+      "github": "https://github.com/multi-swe-bench/multi-swe-bench-env",
+      "published": "2024-08-26T15:30:05.000Z"
+    },
+    {
+      "id": "2408.14468",
+      "title": "K-Sort Arena: Efficient and Reliable Benchmarking for Generative Models via K-wise Human Preferences",
+      "authors": [
+        "Zhikai Li",
+        "Xuewen Liu",
+        "Dongrong Fu",
+        "Jianquan Li",
+        "Qingyi Gu",
+        "Kurt Keutzer",
+        "Zhen Dong"
+      ],
+      "upvotes": 36,
+      "github": null,
+      "published": "2024-08-26T17:58:20.000Z"
+    },
+    {
+      "id": "2408.13467",
+      "title": "LlamaDuo: LLMOps Pipeline for Seamless Migration from Service LLMs to Small-Scale Local LLMs",
+      "authors": [
+        "Chansung Park",
+        "Juyong Jiang",
+        "Fan Wang",
+        "Sayak Paul",
+        "Jing Tang",
+        "Sunghun Kim"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/deep-diver/llamaduo",
+      "published": "2024-08-24T05:03:08.000Z"
+    },
+    {
+      "id": "2408.13423",
+      "title": "Training-free Long Video Generation with Chain of Diffusion Model Experts",
+      "authors": [
+        "Wenhao Li",
+        "Yichao Cao",
+        "Xie Su",
+        "Xi Lin",
+        "Shan You",
+        "Mingkai Zheng",
+        "Yi Chen",
+        "Chang Xu"
+      ],
+      "upvotes": 24,
+      "github": null,
+      "published": "2024-08-24T01:33:28.000Z"
+    },
+    {
+      "id": "2408.13934",
+      "title": "Learning to Move Like Professional Counter-Strike Players",
+      "authors": [
+        "David Durst",
+        "Feng Xie",
+        "Vishnu Sarukkai",
+        "Brennan Shacklett",
+        "Iuri Frosio",
+        "Chen Tessler",
+        "Joohwan Kim",
+        "Carly Taylor",
+        "Gilbert Bernstein",
+        "Sanjiban Choudhury",
+        "Pat Hanrahan",
+        "Kayvon Fatahalian"
+      ],
+      "upvotes": 23,
+      "github": null,
+      "published": "2024-08-25T20:43:34.000Z"
+    },
+    {
+      "id": "2408.13359",
+      "title": "Power Scheduler: A Batch Size and Token Number Agnostic Learning Rate Scheduler",
+      "authors": [
+        "Yikang Shen",
+        "Matthew Stallone",
+        "Mayank Mishra",
+        "Gaoyuan Zhang",
+        "Shawn Tan",
+        "Aditya Prasad",
+        "Adriana Meza Soria",
+        "David D. Cox",
+        "Rameswar Panda"
+      ],
+      "upvotes": 23,
+      "github": null,
+      "published": "2024-08-23T20:22:20.000Z"
+    },
+    {
+      "id": "2408.12757",
+      "title": "NanoFlow: Towards Optimal Large Language Model Serving Throughput",
+      "authors": [
+        "Kan Zhu",
+        "Yilong Zhao",
+        "Liangyu Zhao",
+        "Gefei Zuo",
+        "Yile Gu",
+        "Dedong Xie",
+        "Yufei Gao",
+        "Qinyu Xu",
+        "Tian Tang",
+        "Zihao Ye",
+        "Keisuke Kamahori",
+        "Chien-Yu Lin",
+        "Stephanie Wang",
+        "Arvind Krishnamurthy",
+        "Baris Kasikci"
+      ],
+      "upvotes": 19,
+      "github": null,
+      "published": "2024-08-22T23:00:40.000Z"
+    },
+    {
+      "id": "2408.13402",
+      "title": "LLaVaOLMoBitnet1B: Ternary LLM goes Multimodal!",
+      "authors": [
+        "Jainaveen Sundaram",
+        "Ravishankar Iyer"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2024-08-23T23:00:19.000Z"
+    },
+    {
+      "id": "2408.13933",
+      "title": "MobileQuant: Mobile-friendly Quantization for On-device Language Models",
+      "authors": [
+        "Fuwen Tan",
+        "Royson Lee",
+        "Łukasz Dudziak",
+        "Shell Xu Hu",
+        "Sourav Bhattacharya",
+        "Timothy Hospedales",
+        "Georgios Tzimiropoulos",
+        "Brais Martinez"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/saic-fi/mobilequant",
+      "published": "2024-08-25T20:41:22.000Z"
+    },
+    {
+      "id": "2408.13413",
+      "title": "TVG: A Training-free Transition Video Generation Method with Diffusion Models",
+      "authors": [
+        "Rui Zhang",
+        "Yaosen Chen",
+        "Yuegen Liu",
+        "Wei Wang",
+        "Xuming Wen",
+        "Hongxia Wang"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2024-08-24T00:33:14.000Z"
+    },
+    {
+      "id": "2408.11727",
+      "title": "Efficient Detection of Toxic Prompts in Large Language Models",
+      "authors": [
+        "Yi Liu",
+        "Junzhe Yu",
+        "Huijia Sun",
+        "Ling Shi",
+        "Gelei Deng",
+        "Yuqi Chen",
+        "Yang Liu"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2024-08-21T15:54:04.000Z"
+    },
+    {
+      "id": "2408.14211",
+      "title": "MagicMan: Generative Novel View Synthesis of Humans with 3D-Aware Diffusion and Iterative Refinement",
+      "authors": [
+        "Xu He",
+        "Xiaoyu Li",
+        "Di Kang",
+        "Jiangnan Ye",
+        "Chaopeng Zhang",
+        "Liyang Chen",
+        "Xiangjun Gao",
+        "Han Zhang",
+        "Zhiyong Wu",
+        "Haolin Zhuang"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2024-08-26T12:10:52.000Z"
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-07-10",
+  "fetched_at": "2026-10-29T15:28:23.505Z",
+  "candidates": [
+    {
+      "id": "2407.06581",
+      "title": "Vision language models are blind",
+      "authors": [
+        "Pooyan Rahmanzadehgervi",
+        "Logan Bolton",
+        "Mohammad Reza Taesiri",
+        "Anh Totti Nguyen"
+      ],
+      "upvotes": 82,
+      "github": "https://github.com/anguyen8/vision-llms-are-blind",
+      "published": "2024-07-09T06:20:17.000Z"
+    },
+    {
+      "id": "2407.03502",
+      "title": "AgentInstruct: Toward Generative Teaching with Agentic Flows",
+      "authors": [
+        "Arindam Mitra",
+        "Luciano Del Corro",
+        "Guoqing Zheng",
+        "Shweti Mahajan",
+        "Dany Rouhana",
+        "Andres Codas",
+        "Yadong Lu",
+        "Wei-ge Chen",
+        "Olga Vrousgos",
+        "Corby Rosset",
+        "Fillipe Silva",
+        "Hamed Khanpour",
+        "Yash Lara",
+        "Ahmed Awadallah"
+      ],
+      "upvotes": 51,
+      "github": null,
+      "published": "2024-07-03T21:01:12.000Z"
+    },
+    {
+      "id": "2407.07061",
+      "title": "Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Intelligence",
+      "authors": [
+        "Weize Chen",
+        "Ziming You",
+        "Ran Li",
+        "Yitong Guan",
+        "Chen Qian",
+        "Chenyang Zhao",
+        "Cheng Yang",
+        "Ruobing Xie",
+        "Zhiyuan Liu",
+        "Maosong Sun"
+      ],
+      "upvotes": 28,
+      "github": "https://github.com/openbmb/ioa",
+      "published": "2024-07-09T17:33:24.000Z"
+    },
+    {
+      "id": "2407.06189",
+      "title": "Video-STaR: Self-Training Enables Video Instruction Tuning with Any Supervision",
+      "authors": [
+        "Orr Zohar",
+        "Xiaohan Wang",
+        "Yonatan Bitton",
+        "Idan Szpektor",
+        "Serena Yeung-Levy"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/orrzohar/Video-STaR",
+      "published": "2024-07-08T17:59:42.000Z"
+    },
+    {
+      "id": "2407.06938",
+      "title": "RodinHD: High-Fidelity 3D Avatar Generation with Diffusion Models",
+      "authors": [
+        "Bowen Zhang",
+        "Yiji Cheng",
+        "Chunyu Wang",
+        "Ting Zhang",
+        "Jiaolong Yang",
+        "Yansong Tang",
+        "Feng Zhao",
+        "Dong Chen",
+        "Baining Guo"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/rodinhd/rodinhd",
+      "published": "2024-07-09T15:14:45.000Z"
+    },
+    {
+      "id": "2407.07080",
+      "title": "Adapting LLMs to Hebrew: Unveiling DictaLM 2.0 with Enhanced Vocabulary and Instruction Capabilities",
+      "authors": [
+        "Shaltiel Shmidman",
+        "Avi Shmidman",
+        "Amir DN Cohen",
+        "Moshe Koppel"
+      ],
+      "upvotes": 22,
+      "github": null,
+      "published": "2024-07-09T17:51:37.000Z"
+    },
+    {
+      "id": "2407.06358",
+      "title": "MiraData: A Large-Scale Video Dataset with Long Durations and Structured Captions",
+      "authors": [
+        "Xuan Ju",
+        "Yiming Gao",
+        "Zhaoyang Zhang",
+        "Ziyang Yuan",
+        "Xintao Wang",
+        "Ailing Zeng",
+        "Yu Xiong",
+        "Qiang Xu",
+        "Ying Shan"
+      ],
+      "upvotes": 19,
+      "github": null,
+      "published": "2024-07-08T19:58:59.000Z"
+    },
+    {
+      "id": "2407.03618",
+      "title": "BM25S: Orders of magnitude faster lexical search via eager sparse scoring",
+      "authors": [
+        "Xing Han Lù"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/xhluca/bm25s",
+      "published": "2024-07-04T04:01:05.000Z"
+    },
+    {
+      "id": "2407.03203",
+      "title": "TheoremLlama: Transforming General-Purpose LLMs into Lean4 Experts",
+      "authors": [
+        "Ruida Wang",
+        "Jipeng Zhang",
+        "Yizhen Jia",
+        "Rui Pan",
+        "Shizhe Diao",
+        "Renjie Pi",
+        "Tong Zhang"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/RickySkywalker/TheoremLlama",
+      "published": "2024-07-03T15:36:18.000Z"
+    },
+    {
+      "id": "2407.02880",
+      "title": "Knowledge Composition using Task Vectors with Learned Anisotropic Scaling",
+      "authors": [
+        "Frederic Z. Zhang",
+        "Paul Albert",
+        "Cristian Rodriguez-Opazo",
+        "Anton van den Hengel",
+        "Ehsan Abbasnejad"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/fredzzhang/atlas",
+      "published": "2024-07-03T07:54:08.000Z"
+    },
+    {
+      "id": "2407.07071",
+      "title": "Lookback Lens: Detecting and Mitigating Contextual Hallucinations in Large Language Models Using Only Attention Maps",
+      "authors": [
+        "Yung-Sung Chuang",
+        "Linlu Qiu",
+        "Cheng-Yu Hsieh",
+        "Ranjay Krishna",
+        "Yoon Kim",
+        "James Glass"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/voidism/lookback-lens",
+      "published": "2024-07-09T17:44:34.000Z"
+    },
+    {
+      "id": "2407.06723",
+      "title": "Graph-Based Captioning: Enhancing Visual Descriptions by Interconnecting Region Captions",
+      "authors": [
+        "Yu-Guan Hsieh",
+        "Cheng-Yu Hsieh",
+        "Shih-Ying Yeh",
+        "Louis Béthune",
+        "Hadi Pour Ansari",
+        "Pavan Kumar Anasosalu Vasu",
+        "Chun-Liang Li",
+        "Ranjay Krishna",
+        "Oncel Tuzel",
+        "Marco Cuturi"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/apple/ml-gbc",
+      "published": "2024-07-09T09:55:04.000Z"
+    },
+    {
+      "id": "2407.06304",
+      "title": "VIMI: Grounding Video Generation through Multi-modal Instruction",
+      "authors": [
+        "Yuwei Fang",
+        "Willi Menapace",
+        "Aliaksandr Siarohin",
+        "Tsai-Shien Chen",
+        "Kuan-Chien Wang",
+        "Ivan Skorokhodov",
+        "Graham Neubig",
+        "Sergey Tulyakov"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2024-07-08T18:12:49.000Z"
+    },
+    {
+      "id": "2407.06071",
+      "title": "From Loops to Oops: Fallback Behaviors of Language Models Under Uncertainty",
+      "authors": [
+        "Maor Ivgi",
+        "Ori Yoran",
+        "Jonathan Berant",
+        "Mor Geva"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/mivg/fallbacks",
+      "published": "2024-07-08T16:13:42.000Z"
+    },
+    {
+      "id": "2407.05015",
+      "title": "How do you know that? Teaching Generative Language Models to Reference Answers to Biomedical Questions",
+      "authors": [
+        "Bojana Bašaragin",
+        "Adela Ljajić",
+        "Darija Medvecki",
+        "Lorenzo Cassano",
+        "Miloš Košprdić",
+        "Nikola Milošević"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/nikolamilosevic86/verif.ai",
+      "published": "2024-07-06T09:10:05.000Z"
+    },
+    {
+      "id": "2407.06533",
+      "title": "LETS-C: Leveraging Language Embedding for Time Series Classification",
+      "authors": [
+        "Rachneet Kaur",
+        "Zhen Zeng",
+        "Tucker Balch",
+        "Manuela Veloso"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2024-07-09T04:07:57.000Z"
+    }
+  ]
+}

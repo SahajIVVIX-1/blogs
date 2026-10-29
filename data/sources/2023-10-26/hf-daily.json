@@ -1,0 +1,204 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2023-10-26",
+  "fetched_at": "2026-10-29T15:25:46.397Z",
+  "candidates": [
+    {
+      "id": "2310.16656",
+      "title": "A Picture is Worth a Thousand Words: Principled Recaptioning Improves Image Generation",
+      "authors": [
+        "Eyal Segalis",
+        "Dani Valevski",
+        "Danny Lumen",
+        "Yossi Matias",
+        "Yaniv Leviathan"
+      ],
+      "upvotes": 53,
+      "github": null,
+      "published": "2023-10-25T14:10:08.000Z"
+    },
+    {
+      "id": "2310.16825",
+      "title": "CommonCanvas: An Open Diffusion Model Trained with Creative-Commons Images",
+      "authors": [
+        "Aaron Gokaslan",
+        "A. Feder Cooper",
+        "Jasmine Collins",
+        "Landan Seguin",
+        "Austin Jacobson",
+        "Mihir Patel",
+        "Jonathan Frankle",
+        "Cory Stephenson",
+        "Volodymyr Kuleshov"
+      ],
+      "upvotes": 38,
+      "github": "https://github.com/mosaicml/diffusion",
+      "published": "2023-10-25T17:56:07.000Z"
+    },
+    {
+      "id": "2310.16818",
+      "title": "DreamCraft3D: Hierarchical 3D Generation with Bootstrapped Diffusion Prior",
+      "authors": [
+        "Jingxiang Sun",
+        "Bo Zhang",
+        "Ruizhi Shao",
+        "Lizhen Wang",
+        "Wen Liu",
+        "Zhenda Xie",
+        "Yebin Liu"
+      ],
+      "upvotes": 33,
+      "github": "https://github.com/deepseek-ai/dreamcraft3d",
+      "published": "2023-10-25T17:50:10.000Z"
+    },
+    {
+      "id": "2310.16795",
+      "title": "QMoE: Practical Sub-1-Bit Compression of Trillion-Parameter Models",
+      "authors": [
+        "Elias Frantar",
+        "Dan Alistarh"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/ist-daslab/qmoe",
+      "published": "2023-10-25T17:24:53.000Z"
+    },
+    {
+      "id": "2310.15008",
+      "title": "Wonder3D: Single Image to 3D using Cross-Domain Diffusion",
+      "authors": [
+        "Xiaoxiao Long",
+        "Yuan-Chen Guo",
+        "Cheng Lin",
+        "Yuan Liu",
+        "Zhiyang Dou",
+        "Lingjie Liu",
+        "Yuexin Ma",
+        "Song-Hai Zhang",
+        "Marc Habermann",
+        "Christian Theobalt",
+        "Wenping Wang"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/xxlong0/wonder3d",
+      "published": "2023-10-23T15:02:23.000Z"
+    },
+    {
+      "id": "2310.16534",
+      "title": "An Early Evaluation of GPT-4V(ision)",
+      "authors": [
+        "Yang Wu",
+        "Shilong Wang",
+        "Hao Yang",
+        "Tian Zheng",
+        "Hongbo Zhang",
+        "Yanyan Zhao",
+        "Bing Qin"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/albertwy/gpt-4v-evaluation",
+      "published": "2023-10-25T10:33:17.000Z"
+    },
+    {
+      "id": "2310.16764",
+      "title": "ConvNets Match Vision Transformers at Scale",
+      "authors": [
+        "Samuel L. Smith",
+        "Andrew Brock",
+        "Leonard Berrada",
+        "Soham De"
+      ],
+      "upvotes": 21,
+      "github": null,
+      "published": "2023-10-25T16:52:13.000Z"
+    },
+    {
+      "id": "2310.16836",
+      "title": "LLM-FP4: 4-Bit Floating-Point Quantized Transformers",
+      "authors": [
+        "Shih-yang Liu",
+        "Zechun Liu",
+        "Xijie Huang",
+        "Pingcheng Dong",
+        "Kwang-Ting Cheng"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/nbasyl/llm-fp4",
+      "published": "2023-10-25T17:59:32.000Z"
+    },
+    {
+      "id": "2310.16789",
+      "title": "Detecting Pretraining Data from Large Language Models",
+      "authors": [
+        "Weijia Shi",
+        "Anirudh Ajith",
+        "Mengzhou Xia",
+        "Yangsibo Huang",
+        "Daogao Liu",
+        "Terra Blevins",
+        "Danqi Chen",
+        "Luke Zettlemoyer"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/swj0419/detect-pretrain-code",
+      "published": "2023-10-25T17:21:23.000Z"
+    },
+    {
+      "id": "2310.16450",
+      "title": "CLEX: Continuous Length Extrapolation for Large Language Models",
+      "authors": [
+        "Guanzheng Chen",
+        "Xin Li",
+        "Zaiqiao Meng",
+        "Shangsong Liang",
+        "Lidong Bing"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/damo-nlp-sg/clex",
+      "published": "2023-10-25T08:13:02.000Z"
+    },
+    {
+      "id": "2310.16226",
+      "title": "TiC-CLIP: Continual Training of CLIP Models",
+      "authors": [
+        "Saurabh Garg",
+        "Mehrdad Farajtabar",
+        "Hadi Pouransari",
+        "Raviteja Vemulapalli",
+        "Sachin Mehta",
+        "Oncel Tuzel",
+        "Vaishaal Shankar",
+        "Fartash Faghri"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/apple/ml-tic-clip",
+      "published": "2023-10-24T22:41:14.000Z"
+    },
+    {
+      "id": "2310.16828",
+      "title": "TD-MPC2: Scalable, Robust World Models for Continuous Control",
+      "authors": [
+        "Nicklas Hansen",
+        "Hao Su",
+        "Xiaolong Wang"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2023-10-25T17:57:07.000Z"
+    },
+    {
+      "id": "2310.16832",
+      "title": "LightSpeed: Light and Fast Neural Light Fields on Mobile Devices",
+      "authors": [
+        "Aarush Gupta",
+        "Junli Cao",
+        "Chaoyang Wang",
+        "Ju Hu",
+        "Sergey Tulyakov",
+        "Jian Ren",
+        "László A Jeni"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2023-10-25T17:59:05.000Z"
+    }
+  ]
+}

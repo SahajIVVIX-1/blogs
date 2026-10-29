@@ -1,0 +1,7 @@
+{
+  "id": "2410.16271",
+  "html": "https://arxiv.org/html/2410.16271",
+  "limitations": null,
+  "conclusion": "We propose FrugalNeRF, a framework synthesizing novel views from extremely few inputs. To accelerate and regularize training, we use weight-sharing voxels across scales capturing varying scene frequencies and geometric adaptation via reprojection errors guiding multi-scale geometry. FrugalNeRF achieves state-of-the-art results on multiple datasets with shorter training and no external priors. Limitations. Few-shot NeRF relies on accurate camera poses for training. In scenarios with significant changes in viewpoint or sparse training views, such as the 360° dataset, the model may face challenges in generalization. Although our method introduces novel-view losses to deal with those unseen regions in training views, it is still an issue for few-shot NeRF. Acknowledgements. This research was funded by the National Science and Technology Council, Taiwan, under Grants NSTC 112-2222-E-A49-004-M",
+  "figure": null
+}

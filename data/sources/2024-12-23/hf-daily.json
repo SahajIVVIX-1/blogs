@@ -1,0 +1,212 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-12-23",
+  "fetched_at": "2026-10-29T15:30:04.256Z",
+  "candidates": [
+    {
+      "id": "2412.15119",
+      "title": "Parallelized Autoregressive Visual Generation",
+      "authors": [
+        "Yuqing Wang",
+        "Shuhuai Ren",
+        "Zhijie Lin",
+        "Yujin Han",
+        "Haoyuan Guo",
+        "Zhenheng Yang",
+        "Difan Zou",
+        "Jiashi Feng",
+        "Xihui Liu"
+      ],
+      "upvotes": 52,
+      "github": "https://github.com/Epiphqny/PAR",
+      "published": "2024-12-19T17:59:54.000Z"
+    },
+    {
+      "id": "2412.16145",
+      "title": "Offline Reinforcement Learning for LLM Multi-Step Reasoning",
+      "authors": [
+        "Huaijie Wang",
+        "Shibo Hao",
+        "Hanze Dong",
+        "Shenao Zhang",
+        "Yilin Bao",
+        "Ziran Yang",
+        "Yi Wu"
+      ],
+      "upvotes": 38,
+      "github": "https://github.com/jwhj/oreo",
+      "published": "2024-12-20T18:49:45.000Z"
+    },
+    {
+      "id": "2412.16112",
+      "title": "CLEAR: Conv-Like Linearization Revs Pre-Trained Diffusion Transformers Up",
+      "authors": [
+        "Songhua Liu",
+        "Zhenxiong Tan",
+        "Xinchao Wang"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/huage001/clear",
+      "published": "2024-12-20T17:57:09.000Z"
+    },
+    {
+      "id": "2412.15322",
+      "title": "Taming Multimodal Joint Training for High-Quality Video-to-Audio Synthesis",
+      "authors": [
+        "Ho Kei Cheng",
+        "Masato Ishii",
+        "Akio Hayakawa",
+        "Takashi Shibuya",
+        "Alexander Schwing",
+        "Yuki Mitsufuji"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/hkchengrex/MMAudio",
+      "published": "2024-12-19T18:59:55.000Z"
+    },
+    {
+      "id": "2412.13649",
+      "title": "SCOPE: Optimizing Key-Value Cache Compression in Long-context Generation",
+      "authors": [
+        "Jialong Wu",
+        "Zhenglin Wang",
+        "Linhai Zhang",
+        "Yilong Lai",
+        "Yulan He",
+        "Deyu Zhou"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/linking-ai/scope",
+      "published": "2024-12-18T09:27:33.000Z"
+    },
+    {
+      "id": "2412.15484",
+      "title": "Toward Robust Hyper-Detailed Image Captioning: A Multiagent Approach and Dual Evaluation Metrics for Factuality and Coverage",
+      "authors": [
+        "Saehyung Lee",
+        "Seunghyun Yoon",
+        "Trung Bui",
+        "Jing Shi",
+        "Sungroh Yoon"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2024-12-20T01:37:22.000Z"
+    },
+    {
+      "id": "2412.14590",
+      "title": "MixLLM: LLM Quantization with Global Mixed-precision between Output-features and Highly-efficient System Design",
+      "authors": [
+        "Zhen Zheng",
+        "Xiaonan Song",
+        "Chuanjie Liu"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/microsoft/MixLLM",
+      "published": "2024-12-19T07:15:15.000Z"
+    },
+    {
+      "id": "2412.14294",
+      "title": "TRecViT: A Recurrent Video Transformer",
+      "authors": [
+        "Viorica Pătrăucean",
+        "Xu Owen He",
+        "Joseph Heyward",
+        "Chuhan Zhang",
+        "Mehdi S. M. Sajjadi",
+        "George-Cristian Muraru",
+        "Artem Zholus",
+        "Mahdi Karami",
+        "Ross Goroshin",
+        "Yutian Chen",
+        "Simon Osindero",
+        "João Carreira",
+        "Razvan Pascanu"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/google-deepmind/trecvit",
+      "published": "2024-12-18T19:44:30.000Z"
+    },
+    {
+      "id": "2412.11525",
+      "title": "Sequence Matters: Harnessing Video Models in 3D Super-Resolution",
+      "authors": [
+        "Hyun-kyu Ko",
+        "Dongheok Park",
+        "Youngin Park",
+        "Byeonghyeon Lee",
+        "Juhee Han",
+        "Eunbyung Park"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/DHPark98/SequenceMatters",
+      "published": "2024-12-16T08:00:50.000Z"
+    },
+    {
+      "id": "2412.15487",
+      "title": "Multi-LLM Text Summarization",
+      "authors": [
+        "Jiangnan Fang",
+        "Cheng-Tse Liu",
+        "Jieun Kim",
+        "Yash Bhedaru",
+        "Ethan Liu",
+        "Nikhil Singh",
+        "Nedim Lipka",
+        "Puneet Mathur",
+        "Nesreen K. Ahmed",
+        "Franck Dernoncourt",
+        "Ryan A. Rossi",
+        "Hanieh Deilamsalehy"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2024-12-20T01:55:26.000Z"
+    },
+    {
+      "id": "2412.14963",
+      "title": "IDOL: Instant Photorealistic 3D Human Creation from a Single Image",
+      "authors": [
+        "Yiyu Zhuang",
+        "Jiaxi Lv",
+        "Hao Wen",
+        "Qing Shuai",
+        "Ailing Zeng",
+        "Hao Zhu",
+        "Shifeng Chen",
+        "Yujiu Yang",
+        "Xun Cao",
+        "Wei Liu"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/yiyuzhuang/IDOL",
+      "published": "2024-12-19T15:43:05.000Z"
+    },
+    {
+      "id": "2412.15035",
+      "title": "LLMs Lost in Translation: M-ALERT uncovers Cross-Linguistic Safety Gaps",
+      "authors": [
+        "Felix Friedrich",
+        "Simone Tedeschi",
+        "Patrick Schramowski",
+        "Manuel Brack",
+        "Roberto Navigli",
+        "Huu Nguyen",
+        "Bo Li",
+        "Kristian Kersting"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2024-12-19T16:46:54.000Z"
+    },
+    {
+      "id": "2412.15450",
+      "title": "Fietje: An open, efficient LLM for Dutch",
+      "authors": [
+        "Bram Vanroy"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/BramVanroy/fietje-2",
+      "published": "2024-12-19T23:06:01.000Z"
+    }
+  ]
+}

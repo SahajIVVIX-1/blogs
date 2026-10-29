@@ -1,0 +1,7 @@
+{
+  "id": "2409.17146",
+  "html": "https://arxiv.org/html/2409.17146",
+  "limitations": null,
+  "conclusion": "Vision encoder. We adopted OpenAI’s CLIP early on and used it for our main results and as the default in our ablations. Later, we evaluated the three alternative choices in Table . All encoders are ViT-L/14 with 336 [math] 336 pixel inputs, except for SigLIP which uses 384 [math] 384 pixels. For MetaCLIP, we started with the weights of the 224 [math] 224 model and resized the positional embeddings to 336 [math] 336 before using it in Molmo. To equalize computation, we slightly reduced the maximum number of crops for SigLIP so that the average vision token count is similar for all models. Overall, the three encoders that were trained on web-scale noisy image-text data perform very similar to each other on both metrics. Of significant note, this includes MetaCLIP which is a fully open model (data and weights) meaning that every model component and every bit of data in a Molmo model equippe",
+  "figure": null
+}

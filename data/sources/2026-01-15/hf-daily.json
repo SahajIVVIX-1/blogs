@@ -1,0 +1,457 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-01-15",
+  "fetched_at": "2026-10-29T15:34:24.834Z",
+  "candidates": [
+    {
+      "id": "2601.09688",
+      "title": "DeepResearchEval: An Automated Framework for Deep Research Task Construction and Agentic Evaluation",
+      "authors": [
+        "Yibo Wang",
+        "Lei Wang",
+        "Yue Deng",
+        "Keming Wu",
+        "Yao Xiao",
+        "Huanjin Yao",
+        "Liwei Kang",
+        "Hai Ye",
+        "Yongcheng Jing",
+        "Lidong Bing"
+      ],
+      "upvotes": 125,
+      "github": "https://github.com/Infinity-AILab/DeepResearchEval",
+      "published": "2026-01-14T18:38:31.000Z"
+    },
+    {
+      "id": "2601.09259",
+      "title": "MAXS: Meta-Adaptive Exploration with LLM Agents",
+      "authors": [
+        "Jian Zhang",
+        "Zhiyuan Wang",
+        "Zhangqi Wang",
+        "Yu He",
+        "Haoran Luo",
+        "li yuan",
+        "Lingling Zhang",
+        "Rui Mao",
+        "Qika Lin",
+        "Jun Liu"
+      ],
+      "upvotes": 94,
+      "github": "https://github.com/exoskeletonzj/MAXS",
+      "published": "2026-01-14T07:48:00.000Z"
+    },
+    {
+      "id": "2601.09274",
+      "title": "A^3-Bench: Benchmarking Memory-Driven Scientific Reasoning via Anchor and Attractor Activation",
+      "authors": [
+        "Jian Zhang",
+        "Yu He",
+        "Zhiyuan Wang",
+        "Zhangqi Wang",
+        "Kai He",
+        "Fangzhi Xu",
+        "Qika Lin",
+        "Jun Liu"
+      ],
+      "upvotes": 82,
+      "github": "https://github.com/exoskeletonzj/A3-Bench",
+      "published": "2026-01-14T08:17:41.000Z"
+    },
+    {
+      "id": "2601.07348",
+      "title": "Controlled Self-Evolution for Algorithmic Code Optimization",
+      "authors": [
+        "Tu Hu",
+        "Ronghao Chen",
+        "Shuo Zhang",
+        "Jianghao Yin",
+        "Mou Xiao Feng",
+        "Jingping Liu",
+        "Shaolei Zhang",
+        "Wenqi Jiang",
+        "Yuqi Fang",
+        "Sen Hu",
+        "Yi Xu",
+        "Huacan Wang"
+      ],
+      "upvotes": 78,
+      "github": "https://github.com/QuantaAlpha/EvoControl",
+      "published": "2026-01-12T09:23:13.000Z"
+    },
+    {
+      "id": "2601.09708",
+      "title": "Fast-ThinkAct: Efficient Vision-Language-Action Reasoning via Verbalizable Latent Planning",
+      "authors": [
+        "Chi-Pin Huang",
+        "Yunze Man",
+        "Zhiding Yu",
+        "Min-Hung Chen",
+        "Jan Kautz",
+        "Yu-Chiang Frank Wang",
+        "Fu-En Yang"
+      ],
+      "upvotes": 54,
+      "github": null,
+      "published": "2026-01-14T18:59:59.000Z"
+    },
+    {
+      "id": "2601.09088",
+      "title": "Distribution-Aligned Sequence Distillation for Superior Long-CoT Reasoning",
+      "authors": [
+        "Shaotian Yan",
+        "Kaiyuan Liu",
+        "Chen Shen",
+        "Bing Wang",
+        "Sinan Fan",
+        "Jun Zhang",
+        "Yue Wu",
+        "Zheng Wang",
+        "Jieping Ye"
+      ],
+      "upvotes": 37,
+      "github": "https://github.com/D2I-ai/dasd-thinking",
+      "published": "2026-01-14T02:43:17.000Z"
+    },
+    {
+      "id": "2601.09136",
+      "title": "SkinFlow: Efficient Information Transmission for Open Dermatological Diagnosis via Dynamic Visual Encoding and Staged RL",
+      "authors": [
+        "Lijun Liu",
+        "Linwei Chen",
+        "Zhishou Zhang",
+        "Meng Tian",
+        "Hengfu Cui",
+        "Ruiyang Li",
+        "Zhaocheng Liu",
+        "Qiang Ju",
+        "Qianxi Li",
+        "Hong-Yu Zhou"
+      ],
+      "upvotes": 36,
+      "github": null,
+      "published": "2026-01-14T04:21:07.000Z"
+    },
+    {
+      "id": "2601.09575",
+      "title": "OpenVoxel: Training-Free Grouping and Captioning Voxels for Open-Vocabulary 3D Scene Understanding",
+      "authors": [
+        "Sheng-Yu Huang",
+        "Jaesung Choe",
+        "Yu-Chiang Frank Wang",
+        "Cheng Sun"
+      ],
+      "upvotes": 26,
+      "github": null,
+      "published": "2026-01-14T15:45:57.000Z"
+    },
+    {
+      "id": "2601.09465",
+      "title": "EvoFSM: Controllable Self-Evolution for Deep Research with Finite State Machines",
+      "authors": [
+        "Shuo Zhang",
+        "Chaofa Yuan",
+        "Ryan Guo",
+        "Xiaomin Yu",
+        "Rui Xu",
+        "Zhangquan Chen",
+        "Zinuo Li",
+        "Zhi Yang",
+        "Shuhao Guan",
+        "Zhenheng Tang",
+        "Sen Hu",
+        "Liwen Zhang",
+        "Ronghao Chen",
+        "Huacan Wang"
+      ],
+      "upvotes": 26,
+      "github": null,
+      "published": "2026-01-14T13:19:13.000Z"
+    },
+    {
+      "id": "2601.09012",
+      "title": "TranslateGemma Technical Report",
+      "authors": [
+        "Mara Finkelstein",
+        "Isaac Caswell",
+        "Tobias Domhan",
+        "Jan-Thorsten Peter",
+        "Juraj Juraska",
+        "Parker Riley",
+        "Daniel Deutsch",
+        "Cole Dilanni",
+        "Colin Cherry",
+        "Eleftheria Briakou",
+        "Elizabeth Nielsen",
+        "Jiaming Luo",
+        "Kat Black",
+        "Ryan Mullins",
+        "Sweta Agrawal",
+        "Wenda Xu",
+        "Erin Kats",
+        "Stephane Jaskiewicz",
+        "Markus Freitag",
+        "David Vilar"
+      ],
+      "upvotes": 22,
+      "github": null,
+      "published": "2026-01-13T22:23:24.000Z"
+    },
+    {
+      "id": "2601.09028",
+      "title": "OpenDecoder: Open Large Language Model Decoding to Incorporate Document Quality in RAG",
+      "authors": [
+        "Fengran Mo",
+        "Zhan Su",
+        "Yuchen Hui",
+        "Jinghan Zhang",
+        "Jia Ao Sun",
+        "Zheyuan Liu",
+        "Chao Zhang",
+        "Tetsuya Sakai",
+        "Jian-Yun Nie"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/fengranMark/OpenDecoder",
+      "published": "2026-01-13T23:26:30.000Z"
+    },
+    {
+      "id": "2601.08605",
+      "title": "ExpSeek: Self-Triggered Experience Seeking for Web Agents",
+      "authors": [
+        "Wenyuan Zhang",
+        "Xinghua Zhang",
+        "Haiyang Yu",
+        "Shuaiyi Nie",
+        "Bingli Wu",
+        "Juwei Yue",
+        "Tingwen Liu",
+        "Yongbin Li"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2026-01-13T14:48:34.000Z"
+    },
+    {
+      "id": "2601.03928",
+      "title": "FocusUI: Efficient UI Grounding via Position-Preserving Visual Token Selection",
+      "authors": [
+        "Mingyu Ouyang",
+        "Kevin Qinghong Lin",
+        "Mike Zheng Shou",
+        "Hwee Tou Ng"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/showlab/FocusUI",
+      "published": "2026-01-07T13:48:12.000Z"
+    },
+    {
+      "id": "2601.08955",
+      "title": "Imagine-then-Plan: Agent Learning from Adaptive Lookahead with World Models",
+      "authors": [
+        "Youwei Liu",
+        "Jian Wang",
+        "Hanlin Wang",
+        "Beichen Guo",
+        "Wenjie Li"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/loyiv/ITP",
+      "published": "2026-01-13T19:49:58.000Z"
+    },
+    {
+      "id": "2601.06596",
+      "title": "Are LLMs Vulnerable to Preference-Undermining Attacks (PUA)? A Factorial Analysis Methodology for Diagnosing the Trade-off between Preference Alignment and Real-World Validity",
+      "authors": [
+        "Hongjun An",
+        "Yiliang Song",
+        "Jiangan Chen",
+        "Jiawei Shao",
+        "Chi Zhang",
+        "Xuelong Li"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2026-01-10T15:16:23.000Z"
+    },
+    {
+      "id": "2601.09697",
+      "title": "Efficient Camera-Controlled Video Generation of Static Scenes via Sparse Diffusion and 3D Rendering",
+      "authors": [
+        "Jieying Chen",
+        "Jeffrey Hu",
+        "Joan Lasenby",
+        "Ayush Tewari"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2026-01-14T18:50:06.000Z"
+    },
+    {
+      "id": "2601.09173",
+      "title": "Geometric Stability: The Missing Axis of Representations",
+      "authors": [
+        "Prashant C. Raju"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/prashantcraju/geometric-stability",
+      "published": "2026-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "2601.01075",
+      "title": "Flow Equivariant World Models: Memory for Partially Observed Dynamic Environments",
+      "authors": [
+        "Hansen Jin Lillemark",
+        "Benhao Huang",
+        "Fangneng Zhan",
+        "Yilun Du",
+        "Thomas Anderson Keller"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/hlillemark/flowm",
+      "published": "2026-01-03T05:22:27.000Z"
+    },
+    {
+      "id": "2601.07287",
+      "title": "Focal Guidance: Unlocking Controllability from Semantic-Weak Layers in Video Diffusion Models",
+      "authors": [
+        "Yuanyang Yin",
+        "Yufan Deng",
+        "Shenghai Yuan",
+        "Kaipeng Zhang",
+        "Xiao Yang",
+        "Feng Zhao"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2026-01-12T07:48:26.000Z"
+    },
+    {
+      "id": "2601.09113",
+      "title": "The AI Hippocampus: How Far are We From Human Memory?",
+      "authors": [
+        "Zixia Jia",
+        "Jiaqi Li",
+        "Yipeng Kang",
+        "Yuxuan Wang",
+        "Tong Wu",
+        "Quansen Wang",
+        "Xiaobo Wang",
+        "Shuyi Zhang",
+        "Junzhe Shen",
+        "Qing Li",
+        "Siyuan Qi",
+        "Yitao Liang",
+        "Di He",
+        "Zilong Zheng",
+        "Song-Chun Zhu"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/bigai-nlco/LLM-Memory-Survey",
+      "published": "2026-01-14T03:24:08.000Z"
+    },
+    {
+      "id": "2601.09536",
+      "title": "Omni-R1: Towards the Unified Generative Paradigm for Multimodal Reasoning",
+      "authors": [
+        "Dongjie Cheng",
+        "Yongqi Li",
+        "Zhixin Ma",
+        "Hongru Cai",
+        "Yupeng Hu",
+        "Wenjie Wang",
+        "Liqiang Nie",
+        "Wenjie Li"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/ModalityDance/Omni-R1",
+      "published": "2026-01-14T14:57:33.000Z"
+    },
+    {
+      "id": "2601.06794",
+      "title": "No More Stale Feedback: Co-Evolving Critics for Open-World Agent Learning",
+      "authors": [
+        "Zhicong Li",
+        "Lingjie Jiang",
+        "Yulan Hu",
+        "Xingchen Zeng",
+        "Yixia Li",
+        "Xiangwen Zhang",
+        "Guanhua Chen",
+        "Zheng Pan",
+        "Xin Li",
+        "Yong Liu"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-01-11T07:29:08.000Z"
+    },
+    {
+      "id": "2601.09609",
+      "title": "DPWriter: Reinforcement Learning with Diverse Planning Branching for Creative Writing",
+      "authors": [
+        "Qian Cao",
+        "Yahui Liu",
+        "Wei Bi",
+        "Yi Zhao",
+        "Ruihua Song",
+        "Xiting Wang",
+        "Ruiming Tang",
+        "Guorui Zhou",
+        "Han Li"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/Aman-4-Real/DPWriter",
+      "published": "2026-01-14T16:30:20.000Z"
+    },
+    {
+      "id": "2601.08472",
+      "title": "sui-1: Grounded and Verifiable Long-Form Summarization",
+      "authors": [
+        "Benedikt Droste",
+        "Jan Philipp Harries",
+        "Maximilian Idahl",
+        "Björn Plüster"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-01-13T11:59:15.000Z"
+    },
+    {
+      "id": "2601.04809",
+      "title": "SCALER:Synthetic Scalable Adaptive Learning Environment for Reasoning",
+      "authors": [
+        "Caijun Xu",
+        "Changyi Xiao",
+        "Zhongyuan Peng",
+        "Xinrun Wang",
+        "Yixin Cao"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/molumolua/SCALER",
+      "published": "2026-01-08T10:42:04.000Z"
+    },
+    {
+      "id": "2601.04469",
+      "title": "SampoNLP: A Self-Referential Toolkit for Morphological Analysis of Subword Tokenizers",
+      "authors": [
+        "Iaroslav Chelombitko",
+        "Ekaterina Chelombitko",
+        "Aleksey Komissarov"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/AragonerUA/SampoNLP",
+      "published": "2026-01-08T01:05:51.000Z"
+    },
+    {
+      "id": "2601.09282",
+      "title": "Cluster Workload Allocation: Semantic Soft Affinity Using Natural Language Processing",
+      "authors": [
+        "Leszek Sliwko",
+        "Jolanta Mizeria-Pietraszko"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2026-01-14T08:36:21.000Z"
+    }
+  ]
+}

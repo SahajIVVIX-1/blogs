@@ -1,0 +1,310 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2023-12-29",
+  "fetched_at": "2026-10-29T15:26:25.041Z",
+  "candidates": [
+    {
+      "id": "2312.16862",
+      "title": "TinyGPT-V: Efficient Multimodal Large Language Model via Small Backbones",
+      "authors": [
+        "Zhengqing Yuan",
+        "Zhaoxu Li",
+        "Lichao Sun"
+      ],
+      "upvotes": 32,
+      "github": "https://github.com/dlyuangod/tinygpt-v",
+      "published": "2023-12-28T07:11:41.000Z"
+    },
+    {
+      "id": "2312.17172",
+      "title": "Unified-IO 2: Scaling Autoregressive Multimodal Models with Vision, Language, Audio, and Action",
+      "authors": [
+        "Jiasen Lu",
+        "Christopher Clark",
+        "Sangho Lee",
+        "Zichen Zhang",
+        "Savya Khosla",
+        "Ryan Marten",
+        "Derek Hoiem",
+        "Aniruddha Kembhavi"
+      ],
+      "upvotes": 31,
+      "github": "https://github.com/allenai/unified-io-2",
+      "published": "2023-12-28T17:57:06.000Z"
+    },
+    {
+      "id": "2312.17120",
+      "title": "Generative AI for Math: Part I -- MathPile: A Billion-Token-Scale Pretraining Corpus for Math",
+      "authors": [
+        "Zengzhi Wang",
+        "Rui Xia",
+        "Pengfei Liu"
+      ],
+      "upvotes": 28,
+      "github": "https://github.com/gair-nlp/mathpile",
+      "published": "2023-12-28T16:55:40.000Z"
+    },
+    {
+      "id": "2312.16886",
+      "title": "MobileVLM : A Fast, Reproducible and Strong Vision Language Assistant for Mobile Devices",
+      "authors": [
+        "Xiangxiang Chu",
+        "Limeng Qiao",
+        "Xinyang Lin",
+        "Shuang Xu",
+        "Yang Yang",
+        "Yiming Hu",
+        "Fei Wei",
+        "Xinyu Zhang",
+        "Bo Zhang",
+        "Xiaolin Wei",
+        "Chunhua Shen"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/Meituan-AutoML/MobileVLM",
+      "published": "2023-12-28T08:21:24.000Z"
+    },
+    {
+      "id": "2312.17243",
+      "title": "Unsupervised Universal Image Segmentation",
+      "authors": [
+        "Dantong Niu",
+        "Xudong Wang",
+        "Xinyang Han",
+        "Long Lian",
+        "Roei Herzig",
+        "Trevor Darrell"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/dantong88/llarva",
+      "published": "2023-12-28T18:59:04.000Z"
+    },
+    {
+      "id": "2312.17142",
+      "title": "DreamGaussian4D: Generative 4D Gaussian Splatting",
+      "authors": [
+        "Jiawei Ren",
+        "Liang Pan",
+        "Jiaxiang Tang",
+        "Chi Zhang",
+        "Ang Cao",
+        "Gang Zeng",
+        "Ziwei Liu"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/jiawei-ren/dreamgaussian4d",
+      "published": "2023-12-28T17:16:44.000Z"
+    },
+    {
+      "id": "2312.16256",
+      "title": "DL3DV-10K: A Large-Scale Scene Dataset for Deep Learning-based 3D Vision",
+      "authors": [
+        "Lu Ling",
+        "Yichen Sheng",
+        "Zhi Tu",
+        "Wentian Zhao",
+        "Cheng Xin",
+        "Kun Wan",
+        "Lantao Yu",
+        "Qianyu Guo",
+        "Zixun Yu",
+        "Yawen Lu",
+        "Xuanmao Li",
+        "Xingpeng Sun",
+        "Rohan Ashok",
+        "Aniruddha Mukherjee",
+        "Hao Kang",
+        "Xiangrui Kong",
+        "Gang Hua",
+        "Tianti Zhang",
+        "Bedrich Benes",
+        "Aniket Bera"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/DL3DV-10K/Dataset",
+      "published": "2023-12-26T01:12:12.000Z"
+    },
+    {
+      "id": "2312.16457",
+      "title": "City-on-Web: Real-time Neural Rendering of Large-scale Scenes on the Web",
+      "authors": [
+        "Kaiwen Song",
+        "Juyong Zhang"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/USTC3DV/MERFStudio",
+      "published": "2023-12-27T08:00:47.000Z"
+    },
+    {
+      "id": "2312.16693",
+      "title": "I2V-Adapter: A General Image-to-Video Adapter for Video Diffusion Models",
+      "authors": [
+        "Xun Guo",
+        "Mingwu Zheng",
+        "Liang Hou",
+        "Yuan Gao",
+        "Yufan Deng",
+        "Chongyang Ma",
+        "Weiming Hu",
+        "Zhengjun Zha",
+        "Haibin Huang",
+        "Pengfei Wan",
+        "Di Zhang"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/KwaiVGI/I2V-Adapter",
+      "published": "2023-12-27T19:11:50.000Z"
+    },
+    {
+      "id": "2312.17135",
+      "title": "InsActor: Instruction-driven Physics-based Characters",
+      "authors": [
+        "Jiawei Ren",
+        "Mingyuan Zhang",
+        "Cunjun Yu",
+        "Xiao Ma",
+        "Liang Pan",
+        "Ziwei Liu"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2023-12-28T17:10:31.000Z"
+    },
+    {
+      "id": "2312.16812",
+      "title": "Spacetime Gaussian Feature Splatting for Real-Time Dynamic View Synthesis",
+      "authors": [
+        "Zhan Li",
+        "Zhang Chen",
+        "Zhong Li",
+        "Yi Xu"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/oppo-us-research/spacetimegaussians",
+      "published": "2023-12-28T04:14:55.000Z"
+    },
+    {
+      "id": "2312.17244",
+      "title": "The LLM Surgeon",
+      "authors": [
+        "Tycho F. A. van der Ouderaa",
+        "Markus Nagel",
+        "Mart van Baalen",
+        "Yuki M. Asano",
+        "Tijmen Blankevoort"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/qualcomm-ai-research/llm-surgeon",
+      "published": "2023-12-28T18:59:09.000Z"
+    },
+    {
+      "id": "2312.17241",
+      "title": "Compact Neural Graphics Primitives with Learned Hash Probing",
+      "authors": [
+        "Towaki Takikawa",
+        "Thomas Müller",
+        "Merlin Nimier-David",
+        "Alex Evans",
+        "Sanja Fidler",
+        "Alec Jacobson",
+        "Alexander Keller"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2023-12-28T18:58:45.000Z"
+    },
+    {
+      "id": "2312.16218",
+      "title": "Hyper-VolTran: Fast and Generalizable One-Shot Image to 3D Object Structure via HyperNetworks",
+      "authors": [
+        "Christian Simon",
+        "Sen He",
+        "Juan-Manuel Perez-Rua",
+        "Frost Xu",
+        "Amine Benhalloum",
+        "Tao Xiang"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2023-12-24T08:42:37.000Z"
+    },
+    {
+      "id": "2312.16272",
+      "title": "SSR-Encoder: Encoding Selective Subject Representation for Subject-Driven Generation",
+      "authors": [
+        "Yuxuan Zhang",
+        "Jiaming Liu",
+        "Yiren Song",
+        "Rui Wang",
+        "Hao Tang",
+        "Jinpeng Yu",
+        "Huaxia Li",
+        "Xu Tang",
+        "Yao Hu",
+        "Han Pan",
+        "Zhongliang Jing"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/Xiaojiu-z/SSR_Encoder",
+      "published": "2023-12-26T14:39:11.000Z"
+    },
+    {
+      "id": "2312.16486",
+      "title": "PanGu-Draw: Advancing Resource-Efficient Text-to-Image Synthesis with Time-Decoupled Training and Reusable Coop-Diffusion",
+      "authors": [
+        "Guansong Lu",
+        "Yuanfan Guo",
+        "Jianhua Han",
+        "Minzhe Niu",
+        "Yihan Zeng",
+        "Songcen Xu",
+        "Zeyi Huang",
+        "Zhao Zhong",
+        "Wei Zhang",
+        "Hang Xu"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2023-12-27T09:21:45.000Z"
+    },
+    {
+      "id": "2312.16837",
+      "title": "DiffusionGAN3D: Boosting Text-guided 3D Generation and Domain Adaption by Combining 3D GANs and Diffusion Priors",
+      "authors": [
+        "Biwen Lei",
+        "Kai Yu",
+        "Mengyang Feng",
+        "Miaomiao Cui",
+        "Xuansong Xie"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2023-12-28T05:46:26.000Z"
+    },
+    {
+      "id": "2312.16720",
+      "title": "Prompt Expansion for Adaptive Text-to-Image Generation",
+      "authors": [
+        "Siddhartha Datta",
+        "Alexander Ku",
+        "Deepak Ramachandran",
+        "Peter Anderson"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2023-12-27T21:12:21.000Z"
+    },
+    {
+      "id": "2312.17161",
+      "title": "Restoration by Generation with Constrained Priors",
+      "authors": [
+        "Zheng Ding",
+        "Xuaner Zhang",
+        "Zhuowen Tu",
+        "Zhihao Xia"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2023-12-28T17:50:54.000Z"
+    }
+  ]
+}

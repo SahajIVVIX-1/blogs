@@ -1,0 +1,450 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-10-13",
+  "fetched_at": "2026-10-29T15:37:09.107Z",
+  "candidates": [
+    {
+      "id": "2610.11765",
+      "title": "Thinking Inertia: LLMs Keep Thinking When Told Not To",
+      "authors": [
+        "Dianqiao Lei",
+        "Kevin Qinghong Lin",
+        "Pan Lu",
+        "Philip Torr",
+        "James Zou"
+      ],
+      "upvotes": 189,
+      "github": "https://github.com/thinking-inertia/code",
+      "published": "2026-10-08T00:00:00.000Z"
+    },
+    {
+      "id": "2609.39601",
+      "title": "GroundingPI: A Grounding Foundation Model towards Physical Intelligence with Visual Primitives",
+      "authors": [
+        "Qize Yu",
+        "Lianrui Fan",
+        "Boyu Chen",
+        "Jiaqi Liang",
+        "Xini Ding",
+        "Yue Chen",
+        "Zetian Song",
+        "Yuran Wang",
+        "Yi Zou",
+        "Kaixuan Wang",
+        "Tianxing Chen",
+        "Wenxuan Song",
+        "Bohan Zhou",
+        "Mingleyang Li",
+        "Siqiao Huang",
+        "Yuqi Ye",
+        "Caigao Jiang",
+        "Wei Wei",
+        "Ruihai Wu",
+        "Hang Zhang",
+        "Yixiao Ge",
+        "Shuchang Zhou",
+        "Shilong Liu",
+        "Xianming Liu",
+        "Ping Luo",
+        "Shiyu Huang"
+      ],
+      "upvotes": 148,
+      "github": "https://github.com/groundingpi/GroundingPI",
+      "published": "2026-09-30T00:00:00.000Z"
+    },
+    {
+      "id": "2610.13166",
+      "title": "Scaling Agentic Data for Long-Horizon Terminal Intelligence",
+      "authors": [
+        "Shun Zou",
+        "Ziyu Ma",
+        "Yi Zou",
+        "Yong Wang",
+        "Lin Chen",
+        "Zehui Chen",
+        "Guanhua Chen",
+        "Xiangxiang Chu",
+        "Feng Zhao"
+      ],
+      "upvotes": 148,
+      "github": null,
+      "published": "2026-10-09T00:00:00.000Z"
+    },
+    {
+      "id": "2610.13361",
+      "title": "AgentSWE: Can Coding Agents Build the Agent You Actually Want?",
+      "authors": [
+        "Jiahao Wang",
+        "Hongjin Qian",
+        "Yuyang Hu",
+        "Jiajun Zhang",
+        "Zheng Liu"
+      ],
+      "upvotes": 92,
+      "github": "https://github.com/VectorSpaceLab/AgentSWE",
+      "published": "2026-10-09T00:00:00.000Z"
+    },
+    {
+      "id": "2610.09326",
+      "title": "VIS-Ground: Video Interactive Storytelling with Contextual Grounding",
+      "authors": [
+        "Bingxuan Li",
+        "Yiwen Song",
+        "Xueqing Wu",
+        "Yanzhou Pan",
+        "Yang Li",
+        "Kuang Su",
+        "Jingyun Liu",
+        "Sebastian Ko",
+        "Huan Zhang",
+        "Tong Zhang",
+        "Nanyun Peng",
+        "Tomas Pfister",
+        "Yale Song"
+      ],
+      "upvotes": 74,
+      "github": "https://github.com/vis-ground/code",
+      "published": "2026-10-07T00:00:00.000Z"
+    },
+    {
+      "id": "2609.39600",
+      "title": "GroundAnything: Reconciling Parallel Decoding with Precise Visual Grounding at Flash Speed",
+      "authors": [
+        "Qize Yu",
+        "Lianrui Fan",
+        "Bowen Ping",
+        "Xini Ding",
+        "Zetian Song",
+        "Junbo Niu",
+        "Kaixuan Wang",
+        "Tianxing Chen",
+        "Yue Chen",
+        "Minghua He",
+        "Yuran Wang",
+        "Jie Huang",
+        "Haojun Zhang",
+        "Min Chen",
+        "Hao Li",
+        "Wenxuan Song",
+        "Ruihai Wu",
+        "Xianming Liu",
+        "Shilong Liu",
+        "Shuchang Zhou",
+        "Ping Luo",
+        "Shiyu Huang"
+      ],
+      "upvotes": 55,
+      "github": "https://github.com/groundingpi/GroundAnything",
+      "published": "2026-09-30T00:00:00.000Z"
+    },
+    {
+      "id": "2610.13630",
+      "title": "Multi-Stream Attention Residuals",
+      "authors": [
+        "Xiaohan Qin",
+        "Xiangdong Zhang",
+        "Tuo Dai",
+        "Sunan Zou",
+        "Huaijin Wu",
+        "Yebin Yang",
+        "Zhuo Xia",
+        "Lin Yao",
+        "Yuliang Liu",
+        "Junchi Yan"
+      ],
+      "upvotes": 52,
+      "github": "https://github.com/jianke0604/MSAR",
+      "published": "2026-10-09T00:00:00.000Z"
+    },
+    {
+      "id": "2609.36642",
+      "title": "PR-OPD: Privileged Representation On-policy Self-Distillation for Agentic Reinforcement Learning",
+      "authors": [
+        "Muyang Li",
+        "Jie Yang",
+        "Zhengyu Fang",
+        "Junchao Zhu",
+        "Zhengkun Xiao",
+        "Ruining Deng",
+        "Zhe Jiang",
+        "Shigang Chen"
+      ],
+      "upvotes": 47,
+      "github": "https://github.com/balibata/PR-OPD",
+      "published": "2026-09-29T00:00:00.000Z"
+    },
+    {
+      "id": "2609.36616",
+      "title": "CrossTimeEdit: A Decade-Spanning Cross-View Dataset and Reward-Guided Editing for Historical Street-View Generation",
+      "authors": [
+        "Hanwen Lu",
+        "Jun He",
+        "Mingjia Yang",
+        "Hao Wei",
+        "Jinhao Huang",
+        "Yi Lin",
+        "Xiang Zhang"
+      ],
+      "upvotes": 33,
+      "github": "https://github.com/LuHanwen67/CrossTimeEdit-release",
+      "published": "2026-09-29T00:00:00.000Z"
+    },
+    {
+      "id": "2610.13832",
+      "title": "SpatialASM: Internalizing Active Mentalization for Spatial Reasoning",
+      "authors": [
+        "Yuhong Liu",
+        "Shenxi Wu",
+        "Junyi Chi",
+        "Beichen Zhang",
+        "Xuanlang Dai",
+        "Jiaqi Wang",
+        "Yuhang Zang",
+        "Dahua Lin"
+      ],
+      "upvotes": 31,
+      "github": "https://github.com/InternLM/SpatialASM",
+      "published": "2026-10-09T00:00:00.000Z"
+    },
+    {
+      "id": "2609.35291",
+      "title": "Narrow Multimodal Fine-Tuning Can Induce Emergent Misalignment",
+      "authors": [
+        "Shunchang Liu",
+        "Lukas Fluri",
+        "Xin Chen",
+        "Francesco Croce"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/shunchang-liu/vlm-em",
+      "published": "2026-09-28T00:00:00.000Z"
+    },
+    {
+      "id": "2609.33304",
+      "title": "Relevance Does Not Imply Applicability: Experience Activation for Personal GUI Agents",
+      "authors": [
+        "Fuyao Zhang",
+        "Xuan Wang",
+        "Zherui Li",
+        "Jiaming Zhang",
+        "Longtao Huang",
+        "Wei Yang Bryan Lim"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/fyzhang1/ExpActivator",
+      "published": "2026-09-27T00:00:00.000Z"
+    },
+    {
+      "id": "2610.12417",
+      "title": "WOVEN: Weaving Visual World Modeling into Multimodal LLMs",
+      "authors": [
+        "Zheyu Fan",
+        "Yue Zhang",
+        "Mingkai Deng",
+        "Kangrui Wang",
+        "Qineng Wang",
+        "Canyu Chen",
+        "Jie Hao",
+        "Xing Fan",
+        "Chenlei Guo",
+        "Eric P. Xing",
+        "Mohit Bansal",
+        "Manling Li"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/mll-lab-nu/WOVEN",
+      "published": "2026-10-08T00:00:00.000Z"
+    },
+    {
+      "id": "2610.03308",
+      "title": "T3lescope: Arbitrary-Resolution High-Fidelity Generative Surface Reconstruction from Images",
+      "authors": [
+        "Atsuhiro Noguchi",
+        "Tianhan Xu",
+        "Yiming Liang",
+        "Yuta Kikuchi",
+        "Masahiro Ishiyama",
+        "Shintaro Takagi",
+        "Hitoshi Murai",
+        "Eiichi Matsumoto"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/pfnet-research/t3lescope",
+      "published": "2026-10-02T00:00:00.000Z"
+    },
+    {
+      "id": "2610.12998",
+      "title": "Evaluating LLM Creativity through Long-Tail Performance",
+      "authors": [
+        "Yichen Wang",
+        "Tenghao Huang",
+        "Vishakh Padmakumar",
+        "Mina Lee"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/YichenZW/longtail-creativity",
+      "published": "2026-10-09T00:00:00.000Z"
+    },
+    {
+      "id": "2610.12933",
+      "title": "Learning More by Training Less: Uncertainty-Guided Progressive Contraction for Efficient Reasoning Post-Training",
+      "authors": [
+        "Suorong Yang",
+        "Jiaxin Wang",
+        "Jiaming Su",
+        "Chentao Yue",
+        "Furao Shen",
+        "Peng Ye",
+        "Soujanya Poria"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/Jackbrocp/Learning-More-by-Training-Less",
+      "published": "2026-10-09T00:00:00.000Z"
+    },
+    {
+      "id": "2609.35965",
+      "title": "Systematic Multi-Agent Vision-and-Language Navigation: Formulation, Benchmark, and Method",
+      "authors": [
+        "Yunzhe Xu",
+        "Zhe Liu"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/xyz9911/MA-VLN",
+      "published": "2026-10-07T00:00:00.000Z"
+    },
+    {
+      "id": "2610.09116",
+      "title": "SPLATIFY: Reproduce, Discover, Innovate! From Papers and Ideas to Trainable 3DGS Code",
+      "authors": [
+        "Seemandhar Jain",
+        "Keshav Gupta",
+        "Manmohan Chandraker"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/seemandhar/splatify",
+      "published": "2026-10-06T00:00:00.000Z"
+    },
+    {
+      "id": "2610.09396",
+      "title": "ARCS: Towards Precise Text-to-SQL via Structured Disambiguation",
+      "authors": [
+        "Yihao Hu",
+        "Yanlin Feng",
+        "Naoki Otani",
+        "Nikita Bhutani"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/megagonlabs/tabulaflow",
+      "published": "2026-10-07T00:00:00.000Z"
+    },
+    {
+      "id": "2610.05637",
+      "title": "Visual Grounding Safety in Vision-Language Models",
+      "authors": [
+        "Erfan Shayegani",
+        "Kundan Krishna",
+        "Yue Dong",
+        "Nael Abu-Ghazaleh",
+        "Leon Gatys",
+        "Shruti Palaskar"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2026-10-05T00:00:00.000Z"
+    },
+    {
+      "id": "2610.02740",
+      "title": "Prospective Hindsight: Self-Calibrating Reinforcement Learning via Prediction-Reality Gaps",
+      "authors": [
+        "Jiaxin Zhang",
+        "Xiangyu Peng",
+        "Qinglin Chen",
+        "Yu Li",
+        "Hiroaki Hayashi",
+        "Chien-Sheng Wu"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2026-10-02T00:00:00.000Z"
+    },
+    {
+      "id": "2610.13481",
+      "title": "Branching On-Policy Distillation",
+      "authors": [
+        "Dongyang Chen",
+        "Shudong Liu",
+        "Shubo Li",
+        "Duoxun Tang",
+        "Jinwei Liang",
+        "Zehuan Wu",
+        "Lewei Lu"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2026-10-09T00:00:00.000Z"
+    },
+    {
+      "id": "2610.03039",
+      "title": "HyperThink: Text-to-Parameter Hypernetworks for Efficient Reasoning",
+      "authors": [
+        "Donggyun Kim",
+        "Jack Lu",
+        "Chanwoo Kim",
+        "Mengye Ren",
+        "Seunghoon Hong"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2026-10-02T00:00:00.000Z"
+    },
+    {
+      "id": "2610.12099",
+      "title": "UNITAS: A 3D-Native World Action Model for Embodied Manipulation",
+      "authors": [
+        "Ruixiang Wang",
+        "Yongyi Su",
+        "Wenlve Zhou",
+        "Bo Yue",
+        "Hengyan Liu",
+        "Dekun Lu",
+        "Yuxin Tian",
+        "Yihan Fang",
+        "Zerui Wu",
+        "Xing Hu",
+        "Jietao Chen",
+        "Yong Guo",
+        "Ziyan He",
+        "Junbin Yuan",
+        "Guiliang Liu",
+        "Xiaofen Xing",
+        "Kui Jia"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/DexForce/UNITAS",
+      "published": "2026-10-08T00:00:00.000Z"
+    },
+    {
+      "id": "2610.00707",
+      "title": "Initialization Improves LLM-Driven Discovery",
+      "authors": [
+        "Mansi Sakarvadia",
+        "Marco Ciccone",
+        "Colin Raffel"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/msakarvadia/llm_optimizer",
+      "published": "2026-09-30T00:00:00.000Z"
+    },
+    {
+      "id": "2610.03825",
+      "title": "Same Output, Different Gold: Measuring How Reference Choice Moves a Multilingual Benchmark Score",
+      "authors": [
+        "Parth Kulshreshtha",
+        "Shivali Dalmia",
+        "Abhishek Mukherji"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2026-10-02T00:00:00.000Z"
+    }
+  ]
+}

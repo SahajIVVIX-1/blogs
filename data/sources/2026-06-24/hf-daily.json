@@ -1,0 +1,558 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-06-24",
+  "fetched_at": "2026-10-29T15:36:01.757Z",
+  "candidates": [
+    {
+      "id": "2606.24597",
+      "title": "Qwen-AgentWorld: Language World Models for General Agents",
+      "authors": [
+        "Yuxin Zuo",
+        "Zikai Xiao",
+        "Li Sheng",
+        "Fei Huang",
+        "Jianhong Tu",
+        "Yuxuan Liu",
+        "Tianyi Tang",
+        "Xiaomeng Hu",
+        "Yang Su",
+        "Qingfeng Lan",
+        "Yantao Liu",
+        "Qin Zhu",
+        "Yinger Zhang",
+        "Bowen Yu",
+        "Haiquan Zhao",
+        "Haiyang Xu",
+        "Jianxin Yang",
+        "Jiayang Cheng",
+        "Junyang Wang",
+        "Lianghao Deng",
+        "Mingfeng Xue",
+        "Tianyi Bai",
+        "Yang Fan",
+        "Yubo Ma",
+        "Yucheng Li",
+        "Zeyu Cui",
+        "Zhihai Wang",
+        "Zhihui Xie",
+        "Zhuorui Ye",
+        "An Yang",
+        "Dayiheng Liu",
+        "Jingren Zhou",
+        "Ning Ding"
+      ],
+      "upvotes": 167,
+      "github": "https://github.com/QwenLM/Qwen-AgentWorld",
+      "published": "2026-06-23T00:00:00.000Z"
+    },
+    {
+      "id": "2606.24530",
+      "title": "NatureBench: Can Coding Agents Match the Published SOTA of Nature-Family Papers?",
+      "authors": [
+        "Yuru Wang",
+        "Lejun Cheng",
+        "Yuxin Zuo",
+        "Sihang Zeng",
+        "Bingxiang He",
+        "Che Jiang",
+        "Junlin Yang",
+        "Yuchong Wang",
+        "Kaikai Zhao",
+        "Weifeng Huang",
+        "Kai Tian",
+        "Zhenzhao Yuan",
+        "Jincheng Zhong",
+        "Weizhi Wang",
+        "Ning Ding",
+        "Bowen Zhou",
+        "Kaiyan Zhang"
+      ],
+      "upvotes": 67,
+      "github": "https://github.com/FrontisAI/NatureBench",
+      "published": "2026-06-23T00:00:00.000Z"
+    },
+    {
+      "id": "2606.24855",
+      "title": "OpenThoughts-Agent: Data Recipes for Agentic Models",
+      "authors": [
+        "Negin Raoof",
+        "Richard Zhuang",
+        "Marianna Nezhurina",
+        "Etash Guha",
+        "Atula Tejaswi",
+        "Ryan Marten",
+        "Charlie F. Ruan",
+        "Tyler Griggs",
+        "Alexander Glenn Shaw",
+        "Hritik Bansal",
+        "E. Kelly Buchanan",
+        "Artem Gazizov",
+        "Reinhard Heckel",
+        "Chinmay Hegde",
+        "Sankalp Jajee",
+        "Daanish Khazi",
+        "Emmanouil Koukoumidis",
+        "Xiangyi Li",
+        "Hange Liu",
+        "Shlok Natarajan",
+        "Harsh Raj",
+        "Nicholas Roberts",
+        "Ethan Shen",
+        "Nishad Singhi",
+        "Michael Siu",
+        "Ashima Suvarna",
+        "Hanwen Xing",
+        "Patrick Yubeaton",
+        "Robert Zhang",
+        "Leon Liangyu Chen",
+        "Xiaokun Chen",
+        "Steven Dillmann",
+        "Saadia Gabriel",
+        "Xunyi Jiang",
+        "Anurag Kashyap",
+        "Boxuan Li",
+        "Yein Park",
+        "Minh Pham",
+        "Sujay Sanghavi",
+        "Lin Shi",
+        "Ke Sun",
+        "Yixin Wang",
+        "Zhiwei Xu",
+        "Erica Zhang",
+        "Siyan Zhao",
+        "Wanjia Zhao",
+        "Jenia Jitsev",
+        "Alex Dimakis",
+        "Benjamin Feuer",
+        "Ludwig Schmidt"
+      ],
+      "upvotes": 49,
+      "github": null,
+      "published": "2026-06-23T00:00:00.000Z"
+    },
+    {
+      "id": "2606.19930",
+      "title": "MobileForge: Annotation-Free Adaptation for Mobile GUI Agents with Hierarchical Feedback-Guided Policy Optimization",
+      "authors": [
+        "Guangyi Liu",
+        "Pengxiang Zhao",
+        "Gao Wu",
+        "Yiwen Yin",
+        "Mading Li",
+        "Liang Liu",
+        "Congxiao Liu",
+        "Zhang Qi",
+        "Mengyan Wang",
+        "Liang Guo",
+        "Yong Liu"
+      ],
+      "upvotes": 44,
+      "github": "https://github.com/kwai/MobileForge",
+      "published": "2026-06-18T00:00:00.000Z"
+    },
+    {
+      "id": "2606.19926",
+      "title": "MemGUI-Agent: An End-to-End Long-Horizon Mobile GUI Agent with Proactive Context Management",
+      "authors": [
+        "Guangyi Liu",
+        "Gao Wu",
+        "Congxiao Liu",
+        "Pengxiang Zhao",
+        "Liang Liu",
+        "Mading Li",
+        "Qi Zhang",
+        "Mengyan Wang",
+        "Liang Guo",
+        "Yong Liu"
+      ],
+      "upvotes": 43,
+      "github": "https://github.com/kwai/MemGUI-Agent",
+      "published": "2026-06-18T00:00:00.000Z"
+    },
+    {
+      "id": "2606.24428",
+      "title": "Escaping the Self-Confirmation Trap: An Execute-Distill-Verify Paradigm for Agentic Experience Learning",
+      "authors": [
+        "Shiding Zhu",
+        "Yudi Qi",
+        "Yajie Wang",
+        "Jiaze Li",
+        "Chao Song",
+        "Yaorui Shi",
+        "Yibo Miao",
+        "Hanqi Gao",
+        "Kai Zhang"
+      ],
+      "upvotes": 34,
+      "github": null,
+      "published": "2026-06-23T00:00:00.000Z"
+    },
+    {
+      "id": "2606.24876",
+      "title": "FLAT: Feedforward Latent Triangle Splatting for Geometrically Accurate Scene Generation",
+      "authors": [
+        "Orest Kupyn",
+        "Goutam Bhat",
+        "Philipp Henzler",
+        "Fabian Manhardt",
+        "Christian Rupprecht",
+        "Federico Tombari"
+      ],
+      "upvotes": 26,
+      "github": null,
+      "published": "2026-06-23T00:00:00.000Z"
+    },
+    {
+      "id": "2606.23449",
+      "title": "AOHP: An Open-Source OS-Level Agent Harness for Personalized, Efficient and Secure Interaction",
+      "authors": [
+        "Shanhui Zhao",
+        "Jiacheng Liu",
+        "Guohong Liu",
+        "Jichao Yan",
+        "Jialei Ye",
+        "Yuhao Yang",
+        "Hao Wen",
+        "Shizuo Tian",
+        "Yizhen Yuan",
+        "Yuxuan Chen",
+        "Yunxin Liu",
+        "Ju Ren",
+        "Ya-Qin Zhang",
+        "Chao Huang",
+        "Yao Guo",
+        "Yuanchun Li"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/aohp-os/aohp",
+      "published": "2026-06-22T00:00:00.000Z"
+    },
+    {
+      "id": "2606.23991",
+      "title": "Critique of Agent Model",
+      "authors": [
+        "Eric Xing",
+        "Mingkai Deng",
+        "Jinyu Hou"
+      ],
+      "upvotes": 23,
+      "github": null,
+      "published": "2026-06-22T00:00:00.000Z"
+    },
+    {
+      "id": "2602.09379",
+      "title": "LingxiDiagBench: A Multi-Agent Framework for Benchmarking LLMs in Chinese Psychiatric Consultation and Diagnosis",
+      "authors": [
+        "Shihao Xu",
+        "Tiancheng Zhou",
+        "Jiatong Ma",
+        "Yanli Ding",
+        "Yiming Yan",
+        "Ming Xiao",
+        "Guoyi Li",
+        "Haiyang Geng",
+        "Yunyun Han",
+        "Jianhua Chen",
+        "Yafeng Deng"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/Lingxi-mental-health/LingxiDiagBench",
+      "published": "2026-06-11T00:00:00.000Z"
+    },
+    {
+      "id": "2606.23679",
+      "title": "Semantic Browsing: Controllable Diversity for Image Generation",
+      "authors": [
+        "Sara Dorfman",
+        "Maya Vishnevsky",
+        "Omer Dahary",
+        "Or Patashnik",
+        "Daniel Cohen-Or"
+      ],
+      "upvotes": 20,
+      "github": null,
+      "published": "2026-06-22T00:00:00.000Z"
+    },
+    {
+      "id": "2606.22875",
+      "title": "FedOT: Ownership Verification and Leakage Tracing via Watermarks for Federated LDMs",
+      "authors": [
+        "Wenlong Cheng",
+        "Yuan Gan",
+        "Yunqiu Xu",
+        "Jiaxu Miao"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/spyzixuan/FedOT",
+      "published": "2026-06-22T00:00:00.000Z"
+    },
+    {
+      "id": "2606.24133",
+      "title": "Holistic Data Scheduler for LLM Pre-training via Multi-Objective Reinforcement Learning",
+      "authors": [
+        "Chenhao Dang",
+        "Jing Ma",
+        "Mingjie Liao"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/DANG-ai/LLM-Training-Holistic-Data-Schedule",
+      "published": "2026-06-23T00:00:00.000Z"
+    },
+    {
+      "id": "2606.24548",
+      "title": "Are Text-to-Image Models Inductivist Turkeys? A Counterfactual Benchmark for Causal Reasoning",
+      "authors": [
+        "Jiayi Lei",
+        "Yuandong Pu",
+        "Xingyu Han",
+        "Rongpeng Zhu",
+        "Jing Xu",
+        "Jinyao Wang",
+        "Zijian Zhou",
+        "Bin Fu",
+        "Yuewen Cao",
+        "Yihao Liu",
+        "Yongsheng Li"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2026-06-23T00:00:00.000Z"
+    },
+    {
+      "id": "2606.24888",
+      "title": "DiffusionBench: On Holistic Evaluation of Diffusion Transformers",
+      "authors": [
+        "Xingjian Leng",
+        "Jaskirat Singh",
+        "Zhanhao Liang",
+        "Ethan Smith",
+        "Martin Bell",
+        "Aninda Saha",
+        "Yuhui Yuan",
+        "Liang Zheng"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/End2End-Diffusion/diffusion-bench",
+      "published": "2026-06-23T00:00:00.000Z"
+    },
+    {
+      "id": "2606.24742",
+      "title": "World Value Models for Robotic Manipulation",
+      "authors": [
+        "Zhihao Wang",
+        "Jianxiong Li",
+        "Yu Cui",
+        "Yuan Gao",
+        "Xianyuan Zhan",
+        "Junzhi Yu",
+        "Xiao Ma"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2026-06-23T00:00:00.000Z"
+    },
+    {
+      "id": "2606.24667",
+      "title": "DREAM: Dense Retrieval Embeddings via Autoregressive Modeling",
+      "authors": [
+        "Yixuan Tang",
+        "Yi Yang"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/yixuantt/DREAM",
+      "published": "2026-06-23T00:00:00.000Z"
+    },
+    {
+      "id": "2606.24526",
+      "title": "AGORA: An Archive-Grounded Benchmark for Agentic Workplace Document Reasoning",
+      "authors": [
+        "Honglin Guo",
+        "Qi Zhang",
+        "Yu Zhang",
+        "Weijie Li",
+        "Rui Zheng",
+        "Zhikai Lei",
+        "Qiyuan Peng",
+        "Zhiheng Xi",
+        "Tao Gui",
+        "Qi Zhang"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2026-06-23T00:00:00.000Z"
+    },
+    {
+      "id": "2606.20092",
+      "title": "EventVLA: Event-Driven Visual Evidence Memory for Long-Horizon Vision-Language-Action Policies",
+      "authors": [
+        "Ganlin Yang",
+        "Zhangzheng Tu",
+        "Yuqiang Yang",
+        "Sitong Mao",
+        "Junyi Dong",
+        "Tianxing Chen",
+        "Jiaqi Peng",
+        "Jing Xiong",
+        "Jiafei Cao",
+        "Jifeng Dai",
+        "Wengang Zhou",
+        "Yao Mu",
+        "Tai Wang"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/InternRobotics/EventVLA",
+      "published": "2026-06-18T00:00:00.000Z"
+    },
+    {
+      "id": "2606.24112",
+      "title": "ReMMD: Realistic Multilingual Multi-Image Agentic Verification for Multimodal Misinformation Detection",
+      "authors": [
+        "Chenhao Dang",
+        "Dantong Zhu",
+        "Jun Yang",
+        "Conghui He",
+        "Weijia Li"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/DANG-ai/ReMMDBench-Agent",
+      "published": "2026-06-23T00:00:00.000Z"
+    },
+    {
+      "id": "2606.23543",
+      "title": "VeriEvol: Scaling Multimodal Mathematical Reasoning via Verifiable Evol-Instruct",
+      "authors": [
+        "Haoling Li",
+        "Kai Zheng",
+        "Jie Wu",
+        "Can Xu",
+        "Qingfeng Sun",
+        "Han Hu",
+        "Yujiu Yang"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/RobertMarton/verievol",
+      "published": "2026-06-22T00:00:00.000Z"
+    },
+    {
+      "id": "2606.23997",
+      "title": "ChartWalker: Benchmarking the Cross-Chart RAG Task",
+      "authors": [
+        "Ning Tang",
+        "Chenghan Xie",
+        "Hanyang Yuan",
+        "Yi Li",
+        "Renhong Huang",
+        "Qian Kou",
+        "Xiaofeng Shi",
+        "Hua Zhou",
+        "Jiarong Xu"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/downing777/ChartWalker_Pub",
+      "published": "2026-06-22T00:00:00.000Z"
+    },
+    {
+      "id": "2606.24595",
+      "title": "MEMPROBE: Probing Long-Term Agent Memory via Hidden User-State Recovery",
+      "authors": [
+        "Enze Ma",
+        "Yufan Zhou",
+        "Wei-Chieh Huang",
+        "Jie Yang",
+        "Huanhuan Ma",
+        "Zixuan Wang",
+        "Chengze Li",
+        "Chunyu Miao",
+        "Philip S. Yu",
+        "Zhen Wang"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-06-23T00:00:00.000Z"
+    },
+    {
+      "id": "2606.20027",
+      "title": "QG-MIL: A Gated Transformer Aggregator for Domain-Agnostic Multiple Instance Learning in Medical Imaging",
+      "authors": [
+        "Luca Zedda",
+        "Davide Antonio Mura",
+        "Cecilia Di Ruberto",
+        "Maurizio Atzori",
+        "Muhammed Furkan Dasdelen",
+        "Carsten Marr",
+        "Andrea Loddo"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/unica-visual-intelligence-lab/QG-MIL",
+      "published": "2026-06-18T00:00:00.000Z"
+    },
+    {
+      "id": "2606.22197",
+      "title": "Multi4D: High-Fidelity Dynamic Gaussian Splatting via Multi-Level Competitive Allocation",
+      "authors": [
+        "Rui Wang",
+        "Quentin Lohmeyer",
+        "Siyu Tang",
+        "Mirko Meboldt"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/BatFaceWayne/Multi4D",
+      "published": "2026-06-20T00:00:00.000Z"
+    },
+    {
+      "id": "2606.24231",
+      "title": "FlowR2A: Learning Reward-to-Action Distribution for Multimodal Driving Planning",
+      "authors": [
+        "Xirui Li",
+        "Zhe Liu",
+        "Xiaoqing Ye",
+        "Wenhua Han",
+        "Yifeng Pan",
+        "Junyu Han",
+        "Hengshuang Zhao"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/lixirui142/FlowR2A",
+      "published": "2026-06-23T00:00:00.000Z"
+    },
+    {
+      "id": "2606.24874",
+      "title": "FLUX3D: High-Fidelity 3D Gaussian Generation with Diffusion-Aligned Sparse Representation",
+      "authors": [
+        "Haorui Ji",
+        "Weizhe Liu",
+        "Hongdong Li",
+        "Hengkai Guo"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2026-06-23T00:00:00.000Z"
+    },
+    {
+      "id": "2606.24884",
+      "title": "InSight: Self-Guided Skill Acquisition via Steerable VLAs",
+      "authors": [
+        "Maggie Wang",
+        "Lars Osterberg",
+        "Stephen Tian",
+        "Ola Shorinwa",
+        "Jiajun Wu",
+        "Mac Schwager"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/insight-vla/insight",
+      "published": "2026-06-23T00:00:00.000Z"
+    },
+    {
+      "id": "2606.12345",
+      "title": "An Efficient Method for the Optimal Control of Microgrids Under Uncertainties using Local Reduction",
+      "authors": [
+        "Edoardo Scaccia",
+        "Eric C. Kerrigan",
+        "Anna Sadowska"
+      ],
+      "upvotes": 0,
+      "github": "https://github.com/shidingz/EDV",
+      "published": "2026-06-10T00:00:00.000Z"
+    }
+  ]
+}

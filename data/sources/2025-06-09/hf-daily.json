@@ -1,0 +1,393 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-06-09",
+  "fetched_at": "2026-10-29T15:31:46.555Z",
+  "candidates": [
+    {
+      "id": "2505.21115",
+      "title": "Will It Still Be True Tomorrow? Multilingual Evergreen Question Classification to Improve Trustworthy QA",
+      "authors": [
+        "Sergey Pletenev",
+        "Maria Marina",
+        "Nikolay Ivanov",
+        "Daria Galimzianova",
+        "Nikita Krayko",
+        "Mikhail Salnikov",
+        "Vasily Konovalov",
+        "Alexander Panchenko",
+        "Viktor Moskvoretskii"
+      ],
+      "upvotes": 143,
+      "github": "https://github.com/s-nlp/Evergreen",
+      "published": "2025-05-27T12:35:13.000Z"
+    },
+    {
+      "id": "2506.05573",
+      "title": "PartCrafter: Structured 3D Mesh Generation via Compositional Latent Diffusion Transformers",
+      "authors": [
+        "Yuchen Lin",
+        "Chenguo Lin",
+        "Panwang Pan",
+        "Honglei Yan",
+        "Yiqiang Feng",
+        "Yadong Mu",
+        "Katerina Fragkiadaki"
+      ],
+      "upvotes": 84,
+      "github": "https://github.com/wgsxm/PartCrafter",
+      "published": "2025-06-05T20:30:28.000Z"
+    },
+    {
+      "id": "2506.04755",
+      "title": "Truth in the Few: High-Value Data Selection for Efficient Multi-Modal Reasoning",
+      "authors": [
+        "Shenshen Li",
+        "Kaiyuan Deng",
+        "Lei Wang",
+        "Hao Yang",
+        "Chong Peng",
+        "Peng Yan",
+        "Fumin Shen",
+        "Heng Tao Shen",
+        "Xing Xu"
+      ],
+      "upvotes": 38,
+      "github": "https://github.com/Leo-ssl/RAP",
+      "published": "2025-06-05T08:40:24.000Z"
+    },
+    {
+      "id": "2506.05629",
+      "title": "Leveraging Self-Attention for Input-Dependent Soft Prompting in LLMs",
+      "authors": [
+        "Ananth Muppidi",
+        "Abhilash Nandy",
+        "Sambaran Bandyopadhyay"
+      ],
+      "upvotes": 37,
+      "github": null,
+      "published": "2025-06-05T23:13:22.000Z"
+    },
+    {
+      "id": "2506.05523",
+      "title": "MORSE-500: A Programmatically Controllable Video Benchmark to Stress-Test Multimodal Reasoning",
+      "authors": [
+        "Zikui Cai",
+        "Andrew Wang",
+        "Anirudh Satheesh",
+        "Ankit Nakhawa",
+        "Hyunwoo Jae",
+        "Keenan Powell",
+        "Minghui Liu",
+        "Neel Jay",
+        "Sungbin Oh",
+        "Xiyao Wang",
+        "Yongyuan Liang",
+        "Tom Goldstein",
+        "Furong Huang"
+      ],
+      "upvotes": 34,
+      "github": "https://github.com/morse-benchmark/morse-500",
+      "published": "2025-06-05T19:12:45.000Z"
+    },
+    {
+      "id": "2506.01111",
+      "title": "FusionAudio-1.2M: Towards Fine-grained Audio Captioning with Multimodal Contextual Fusion",
+      "authors": [
+        "Shunian Chen",
+        "Xinyuan Xie",
+        "Zheshu Chen",
+        "Liyan Zhao",
+        "Owen Lee",
+        "Zhan Su",
+        "Qilin Sun",
+        "Benyou Wang"
+      ],
+      "upvotes": 32,
+      "github": "https://github.com/FreedomIntelligence/FusionAudio",
+      "published": "2025-06-01T18:29:17.000Z"
+    },
+    {
+      "id": "2506.06276",
+      "title": "STARFlow: Scaling Latent Normalizing Flows for High-resolution Image Synthesis",
+      "authors": [
+        "Jiatao Gu",
+        "Tianrong Chen",
+        "David Berthelot",
+        "Huangjie Zheng",
+        "Yuyang Wang",
+        "Ruixiang Zhang",
+        "Laurent Dinh",
+        "Miguel Angel Bautista",
+        "Josh Susskind",
+        "Shuangfei Zhai"
+      ],
+      "upvotes": 27,
+      "github": null,
+      "published": "2025-06-06T17:58:39.000Z"
+    },
+    {
+      "id": "2506.01872",
+      "title": "Is Extending Modality The Right Path Towards Omni-Modality?",
+      "authors": [
+        "Tinghui Zhu",
+        "Kai Zhang",
+        "Muhao Chen",
+        "Yu Su"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/DarthZhu/lm-extend",
+      "published": "2025-06-02T17:01:40.000Z"
+    },
+    {
+      "id": "2506.05446",
+      "title": "Sentinel: SOTA model to protect against prompt injections",
+      "authors": [
+        "Dror Ivry",
+        "Oran Nahum"
+      ],
+      "upvotes": 22,
+      "github": null,
+      "published": "2025-06-05T14:07:15.000Z"
+    },
+    {
+      "id": "2506.02327",
+      "title": "Medical World Model: Generative Simulation of Tumor Evolution for Treatment Planning",
+      "authors": [
+        "Yijun Yang",
+        "Zhao-Yang Wang",
+        "Qiuping Liu",
+        "Shuwen Sun",
+        "Kang Wang",
+        "Rama Chellappa",
+        "Zongwei Zhou",
+        "Alan Yuille",
+        "Lei Zhu",
+        "Yu-Dong Zhang",
+        "Jieneng Chen"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/scott-yjyang/MeWM",
+      "published": "2025-06-02T23:50:40.000Z"
+    },
+    {
+      "id": "2506.03828",
+      "title": "AssetOpsBench: Benchmarking AI Agents for Task Automation in Industrial Asset Operations and Maintenance",
+      "authors": [
+        "Dhaval Patel",
+        "Shuxin Lin",
+        "James Rayfield",
+        "Nianjun Zhou",
+        "Roman Vaculin",
+        "Natalia Martinez",
+        "Fearghal O'donncha",
+        "Jayant Kalagnanam"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/IBM/AssetOpsBench",
+      "published": "2025-06-04T10:57:35.000Z"
+    },
+    {
+      "id": "2506.05984",
+      "title": "Audio-Aware Large Language Models as Judges for Speaking Styles",
+      "authors": [
+        "Cheng-Han Chiang",
+        "Xiaofei Wang",
+        "Chung-Ching Lin",
+        "Kevin Lin",
+        "Linjie Li",
+        "Radu Kopetz",
+        "Yao Qian",
+        "Zhendong Wang",
+        "Zhengyuan Yang",
+        "Hung-yi Lee",
+        "Lijuan Wang"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2025-06-06T11:05:48.000Z"
+    },
+    {
+      "id": "2506.06091",
+      "title": "MIRIAD: Augmenting LLMs with millions of medical query-response pairs",
+      "authors": [
+        "Qinyue Zheng",
+        "Salman Abdullah",
+        "Sam Rawal",
+        "Cyril Zakka",
+        "Sophie Ostmeier",
+        "Maximilian Purk",
+        "Eduardo Reis",
+        "Eric J. Topol",
+        "Jure Leskovec",
+        "Michael Moor"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/eth-medical-ai-lab/MIRIAD",
+      "published": "2025-06-06T13:52:32.000Z"
+    },
+    {
+      "id": "2506.05673",
+      "title": "Peer-Ranked Precision: Creating a Foundational Dataset for Fine-Tuning Vision Models from DataSeeds' Annotated Imagery",
+      "authors": [
+        "Sajjad Abdoli",
+        "Freeman Lewin",
+        "Gediminas Vasiliauskas",
+        "Fabian Schonholz"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/DataSeeds-ai/DSD-finetune-blip-llava",
+      "published": "2025-06-06T01:50:28.000Z"
+    },
+    {
+      "id": "2506.05817",
+      "title": "CodeContests+: High-Quality Test Case Generation for Competitive Programming",
+      "authors": [
+        "Zihan Wang",
+        "Siyao Liu",
+        "Yang Sun",
+        "Hongyan Li",
+        "Kai Shen"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2025-06-06T07:29:01.000Z"
+    },
+    {
+      "id": "2506.06253",
+      "title": "Bridging Perspectives: A Survey on Cross-view Collaborative Intelligence with Egocentric-Exocentric Vision",
+      "authors": [
+        "Yuping He",
+        "Yifei Huang",
+        "Guo Chen",
+        "Lidong Lu",
+        "Baoqi Pei",
+        "Jilan Xu",
+        "Tong Lu",
+        "Yoichi Sato"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/ayiyayi/Awesome-Egocentric-and-Exocentric-Vision",
+      "published": "2025-06-06T17:25:48.000Z"
+    },
+    {
+      "id": "2506.04120",
+      "title": "Splatting Physical Scenes: End-to-End Real-to-Sim from Imperfect Robot Data",
+      "authors": [
+        "Ben Moran",
+        "Mauro Comi",
+        "Steven Bohez",
+        "Tom Erez",
+        "Zhibin Li",
+        "Leonard Hasenclever"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2025-06-04T16:14:31.000Z"
+    },
+    {
+      "id": "2506.06199",
+      "title": "3DFlowAction: Learning Cross-Embodiment Manipulation from 3D Flow World Model",
+      "authors": [
+        "Hongyan Zhi",
+        "Peihao Chen",
+        "Siyuan Zhou",
+        "Yubo Dong",
+        "Quanxi Wu",
+        "Lei Han",
+        "Mingkui Tan"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/Hoyyyaard/3DFlowAction",
+      "published": "2025-06-06T16:00:31.000Z"
+    },
+    {
+      "id": "2506.05551",
+      "title": "When Semantics Mislead Vision: Mitigating Large Multimodal Models Hallucinations in Scene Text Spotting and Understanding",
+      "authors": [
+        "Yan Shu",
+        "Hangui Lin",
+        "Yexin Liu",
+        "Yan Zhang",
+        "Gangyan Zeng",
+        "Yan Li",
+        "Yu Zhou",
+        "Ser-Nam Lim",
+        "Harry Yang",
+        "Nicu Sebe"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/shuyansy/MLLM-Semantic-Hallucination",
+      "published": "2025-06-05T19:53:19.000Z"
+    },
+    {
+      "id": "2506.05579",
+      "title": "When Models Know More Than They Can Explain: Quantifying Knowledge Transfer in Human-AI Collaboration",
+      "authors": [
+        "Quan Shi",
+        "Carlos E. Jimenez",
+        "Shunyu Yao",
+        "Nick Haber",
+        "Diyi Yang",
+        "Karthik Narasimhan"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-06-05T20:48:16.000Z"
+    },
+    {
+      "id": "2506.04255",
+      "title": "HASHIRU: Hierarchical Agent System for Hybrid Intelligent Resource Utilization",
+      "authors": [
+        "Kunal Pai",
+        "Parth Shah",
+        "Harshil Patel"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/HASHIRU-AI/HASHIRU",
+      "published": "2025-06-01T17:33:16.000Z"
+    },
+    {
+      "id": "2506.00649",
+      "title": "GuideX: Guided Synthetic Data Generation for Zero-Shot Information Extraction",
+      "authors": [
+        "Neil De La Fuente",
+        "Oscar Sainz",
+        "Iker García-Ferrero",
+        "Eneko Agirre"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/Neilus03/GUIDEX",
+      "published": "2025-05-31T17:36:18.000Z"
+    },
+    {
+      "id": "2506.05433",
+      "title": "Prefix Grouper: Efficient GRPO Training through Shared-Prefix Forward",
+      "authors": [
+        "Zikang Liu",
+        "Tongtian Yue",
+        "Yepeng Tang",
+        "Longteng Guo",
+        "Junxian Cai",
+        "Qingbin Liu",
+        "Xi Chen",
+        "Jing Liu"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/johncaged/PrefixGrouper",
+      "published": "2025-06-05T09:13:37.000Z"
+    },
+    {
+      "id": "2505.20698",
+      "title": "Sparsified State-Space Models are Efficient Highway Networks",
+      "authors": [
+        "Woomin Song",
+        "Jihoon Tack",
+        "Sangwoo Mo",
+        "Seunghyuk Oh",
+        "Jinwoo Shin"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/woominsong/simba",
+      "published": "2025-05-27T04:07:23.000Z"
+    }
+  ]
+}

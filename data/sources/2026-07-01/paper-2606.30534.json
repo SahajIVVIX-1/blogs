@@ -1,0 +1,7 @@
+{
+  "id": "2606.30534",
+  "html": "https://arxiv.org/html/2606.30534",
+  "limitations": null,
+  "conclusion": "We presented Orca, a world learner built around a world latent space. Rather than being purpose-built for isolated downstream tasks such as question answering, visual frame prediction, or action generation, Orca adopts a fundamentally different modeling paradigm: It first learns an internal representation of world states from multimodal world signals, and subsequently exposes this representation via a suite of dedicated readout interfaces. This design shifts the modeling target from next-token/frame/action prediction toward next-state prediction. Taken together, Orca constitutes an early exploratory milestone on the path toward building general-purpose world foundation models. Discussion & Limitation. Orca is still an early step toward general world foundation models. We discuss its current boundaries together with the research directions they suggest for the community. 1) Limited multim",
+  "figure": null
+}

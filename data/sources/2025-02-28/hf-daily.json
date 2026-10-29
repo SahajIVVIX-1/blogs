@@ -1,0 +1,353 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-02-28",
+  "fetched_at": "2026-10-29T15:30:44.914Z",
+  "candidates": [
+    {
+      "id": "2502.19613",
+      "title": "Self-rewarding correction for mathematical reasoning",
+      "authors": [
+        "Wei Xiong",
+        "Hanning Zhang",
+        "Chenlu Ye",
+        "Lichang Chen",
+        "Nan Jiang",
+        "Tong Zhang"
+      ],
+      "upvotes": 82,
+      "github": "https://github.com/rlhflow/self-rewarding-reasoning-llm",
+      "published": "2025-02-26T23:01:16.000Z"
+    },
+    {
+      "id": "2502.19634",
+      "title": "MedVLM-R1: Incentivizing Medical Reasoning Capability of Vision-Language Models (VLMs) via Reinforcement Learning",
+      "authors": [
+        "Jiazhen Pan",
+        "Che Liu",
+        "Junde Wu",
+        "Fenglin Liu",
+        "Jiayuan Zhu",
+        "Hongwei Bran Li",
+        "Chen Chen",
+        "Cheng Ouyang",
+        "Daniel Rueckert"
+      ],
+      "upvotes": 62,
+      "github": null,
+      "published": "2025-03-19T00:00:00.000Z"
+    },
+    {
+      "id": "2502.20395",
+      "title": "R2-T2: Re-Routing in Test-Time for Multimodal Mixture-of-Experts",
+      "authors": [
+        "Zhongyang Li",
+        "Ziyue Li",
+        "Tianyi Zhou"
+      ],
+      "upvotes": 45,
+      "github": "https://github.com/tianyi-lab/R2-T2",
+      "published": "2025-02-27T18:59:32.000Z"
+    },
+    {
+      "id": "2502.19587",
+      "title": "NeoBERT: A Next-Generation BERT",
+      "authors": [
+        "Lola Le Breton",
+        "Quentin Fournier",
+        "Mariam El Mezouar",
+        "Sarath Chandar"
+      ],
+      "upvotes": 39,
+      "github": "https://github.com/chandar-lab/NeoBERT",
+      "published": "2025-02-26T22:00:22.000Z"
+    },
+    {
+      "id": "2502.20082",
+      "title": "LongRoPE2: Near-Lossless LLM Context Window Scaling",
+      "authors": [
+        "Ning Shang",
+        "Li Lyna Zhang",
+        "Siyuan Wang",
+        "Gaokai Zhang",
+        "Gilsinia Lopez",
+        "Fan Yang",
+        "Weizhu Chen",
+        "Mao Yang"
+      ],
+      "upvotes": 36,
+      "github": null,
+      "published": "2025-02-27T13:41:07.000Z"
+    },
+    {
+      "id": "2502.20172",
+      "title": "Multimodal Representation Alignment for Image Generation: Text-Image Interleaved Control Is Easier Than You Think",
+      "authors": [
+        "Liang Chen",
+        "Shuai Bai",
+        "Wenhao Chai",
+        "Weichu Xie",
+        "Haozhe Zhao",
+        "Leon Vinci",
+        "Junyang Lin",
+        "Baobao Chang"
+      ],
+      "upvotes": 29,
+      "github": "https://github.com/chenllliang/dreamengine",
+      "published": "2025-02-27T15:08:39.000Z"
+    },
+    {
+      "id": "2502.20321",
+      "title": "UniTok: A Unified Tokenizer for Visual Generation and Understanding",
+      "authors": [
+        "Chuofan Ma",
+        "Yi Jiang",
+        "Junfeng Wu",
+        "Jihan Yang",
+        "Xin Yu",
+        "Zehuan Yuan",
+        "Bingyue Peng",
+        "Xiaojuan Qi"
+      ],
+      "upvotes": 29,
+      "github": "https://github.com/foundationvision/unitok",
+      "published": "2025-02-27T17:47:01.000Z"
+    },
+    {
+      "id": "2502.20238",
+      "title": "FINEREASON: Evaluating and Improving LLMs' Deliberate Reasoning through Reflective Puzzle Solving",
+      "authors": [
+        "Guizhen Chen",
+        "Weiwen Xu",
+        "Hao Zhang",
+        "Hou Pong Chan",
+        "Chaoqun Liu",
+        "Lidong Bing",
+        "Deli Zhao",
+        "Anh Tuan Luu",
+        "Yu Rong"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/DAMO-NLP-SG/FineReason",
+      "published": "2025-02-27T16:23:25.000Z"
+    },
+    {
+      "id": "2502.16645",
+      "title": "CODESYNC: Synchronizing Large Language Models with Dynamic Code Evolution at Scale",
+      "authors": [
+        "Chenlong Wang",
+        "Zhaoyang Chu",
+        "Zhengxiang Cheng",
+        "Xuyi Yang",
+        "Kaiyue Qiu",
+        "Yao Wan",
+        "Zhou Zhao",
+        "Xuanhua Shi",
+        "Dongping Chen"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/lucky-voyage/code-sync",
+      "published": "2025-02-23T16:46:18.000Z"
+    },
+    {
+      "id": "2502.20126",
+      "title": "FlexiDiT: Your Diffusion Transformer Can Easily Generate High-Quality Samples with Less Compute",
+      "authors": [
+        "Sotiris Anagnostidis",
+        "Gregor Bachmann",
+        "Yeongmin Kim",
+        "Jonas Kohler",
+        "Markos Georgopoulos",
+        "Artsiom Sanakoyeu",
+        "Yuming Du",
+        "Albert Pumarola",
+        "Ali Thabet",
+        "Edgar Schönfeld"
+      ],
+      "upvotes": 19,
+      "github": null,
+      "published": "2025-02-27T14:16:56.000Z"
+    },
+    {
+      "id": "2502.20307",
+      "title": "Mobius: Text to Seamless Looping Video Generation via Latent Shift",
+      "authors": [
+        "Xiuli Bi",
+        "Jianfei Yuan",
+        "Bo Liu",
+        "Yong Zhang",
+        "Xiaodong Cun",
+        "Chi-Man Pun",
+        "Bin Xiao"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/YisuiTT/Mobius",
+      "published": "2025-02-27T17:33:51.000Z"
+    },
+    {
+      "id": "2502.20388",
+      "title": "Beyond Next-Token: Next-X Prediction for Autoregressive Visual Generation",
+      "authors": [
+        "Sucheng Ren",
+        "Qihang Yu",
+        "Ju He",
+        "Xiaohui Shen",
+        "Alan Yuille",
+        "Liang-Chieh Chen"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/OliverRensu/xAR",
+      "published": "2025-02-27T18:59:08.000Z"
+    },
+    {
+      "id": "2502.19459",
+      "title": "Building Interactable Replicas of Complex Articulated Objects via Gaussian Splatting",
+      "authors": [
+        "Yu Liu",
+        "Baoxiong Jia",
+        "Ruijie Lu",
+        "Junfeng Ni",
+        "Song-Chun Zhu",
+        "Siyuan Huang"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/YuLiu-LY/ArtGS",
+      "published": "2025-02-26T10:25:32.000Z"
+    },
+    {
+      "id": "2502.16750",
+      "title": "Guardians of the Agentic System: Preventing Many Shots Jailbreak with Agentic System",
+      "authors": [
+        "Saikat Barua",
+        "Mostafizur Rahman",
+        "Md Jafor Sadek",
+        "Rafiul Islam",
+        "Shehnaz Khaled",
+        "Ahmedul Kabir"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/GitsSaikat/Guardians-Preventing-Jail-Break-Prompts",
+      "published": "2025-02-23T23:35:15.000Z"
+    },
+    {
+      "id": "2502.16111",
+      "title": "PlanGEN: A Multi-Agent Framework for Generating Planning and Reasoning Trajectories for Complex Problem Solving",
+      "authors": [
+        "Mihir Parmar",
+        "Xin Liu",
+        "Palash Goyal",
+        "Yanfei Chen",
+        "Long Le",
+        "Swaroop Mishra",
+        "Hossein Mobahi",
+        "Jindong Gu",
+        "Zifeng Wang",
+        "Hootan Nakhost",
+        "Chitta Baral",
+        "Chen-Yu Lee",
+        "Tomas Pfister",
+        "Hamid Palangi"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2025-02-22T06:21:56.000Z"
+    },
+    {
+      "id": "2502.17355",
+      "title": "On Relation-Specific Neurons in Large Language Models",
+      "authors": [
+        "Yihong Liu",
+        "Runsheng Chen",
+        "Lea Hirlimann",
+        "Ahmad Dawar Hakimi",
+        "Mingyang Wang",
+        "Amir Hossein Kargaran",
+        "Sascha Rothe",
+        "François Yvon",
+        "Hinrich Schütze"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/cisnlp/relation-specific-neurons",
+      "published": "2025-02-24T17:33:18.000Z"
+    },
+    {
+      "id": "2502.19735",
+      "title": "R1-T1: Fully Incentivizing Translation Capability in LLMs via Reasoning Learning",
+      "authors": [
+        "Minggui He",
+        "Yilun Liu",
+        "Shimin Tao",
+        "Yuanchang Luo",
+        "Hongyong Zeng",
+        "Chang Su",
+        "Li Zhang",
+        "Hongxia Ma",
+        "Daimeng Wei",
+        "Weibin Meng",
+        "Hao Yang",
+        "Boxing Chen",
+        "Osamu Yoshie"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2025-02-27T03:57:00.000Z"
+    },
+    {
+      "id": "2502.20127",
+      "title": "SoRFT: Issue Resolving with Subtask-oriented Reinforced Fine-Tuning",
+      "authors": [
+        "Zexiong Ma",
+        "Chao Peng",
+        "Pengfei Gao",
+        "Xiangxin Meng",
+        "Yanzhen Zou",
+        "Bing Xie"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2025-02-27T14:19:45.000Z"
+    },
+    {
+      "id": "2502.18197",
+      "title": "Training Consistency Models with Variational Noise Coupling",
+      "authors": [
+        "Gianluigi Silvestri",
+        "Luca Ambrogioni",
+        "Chieh-Hsin Lai",
+        "Yuhta Takida",
+        "Yuki Mitsufuji"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/sony/vct",
+      "published": "2025-02-25T13:38:04.000Z"
+    },
+    {
+      "id": "2502.16944",
+      "title": "Lean and Mean: Decoupled Value Policy Optimization with Global Value Guidance",
+      "authors": [
+        "Chenghua Huang",
+        "Lu Wang",
+        "Fangkai Yang",
+        "Pu Zhao",
+        "Zhixu Li",
+        "Qingwei Lin",
+        "Dongmei Zhang",
+        "Saravan Rajmohan",
+        "Qi Zhang"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2025-02-24T08:11:33.000Z"
+    },
+    {
+      "id": "2502.20378",
+      "title": "Efficient Gaussian Splatting for Monocular Dynamic Scene Rendering via Sparse Time-Variant Attribute Modeling",
+      "authors": [
+        "Hanyang Kong",
+        "Xingyi Yang",
+        "Xinchao Wang"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-02-27T18:53:06.000Z"
+    }
+  ]
+}

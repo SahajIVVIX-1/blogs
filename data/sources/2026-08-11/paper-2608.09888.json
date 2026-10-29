@@ -1,0 +1,7 @@
+{
+  "id": "2608.09888",
+  "html": "https://arxiv.org/html/2608.09888",
+  "limitations": null,
+  "conclusion": "The system-level result is direct: a 150M-parameter BDH-CQ reaches 29.5% pass@2 on the public ARC-AGI-1 evaluation set at a computed $0.00070 per task. This breaks through the reported cost–accuracy Pareto frontier and establishes a new state of the art in benchmark cost efficiency. The unusually low starting cost also creates room to increase model capacity and reasoning compute while remaining competitive with existing systems. The controlled experiments show what that combination can express. BDH-CQ applies dense task-specific color mappings to all 96 held-out outputs, demonstrating substantial contextual binding capacity. Boundary propagation and copying extrapolate throughout the tested ranges, while ordering and nested containment expose distinct limits. Matched demonstrations eliminate the observed depth-five nesting failures and substantially improve length-eight ordering, showin",
+  "figure": null
+}

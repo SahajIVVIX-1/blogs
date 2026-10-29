@@ -1,0 +1,220 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-02-14",
+  "fetched_at": "2026-10-29T15:26:53.567Z",
+  "candidates": [
+    {
+      "id": "2402.08093",
+      "title": "BASE TTS: Lessons from building a billion-parameter Text-to-Speech model on 100K hours of data",
+      "authors": [
+        "Mateusz Łajszczak",
+        "Guillermo Cámbara",
+        "Yang Li",
+        "Fatih Beyhan",
+        "Arent van Korlaar",
+        "Fan Yang",
+        "Arnaud Joly",
+        "Álvaro Martín-Cortinas",
+        "Ammar Abbas",
+        "Adam Michalski",
+        "Alexis Moinet",
+        "Sri Karlapati",
+        "Ewa Muszyńska",
+        "Haohan Guo",
+        "Bartosz Putrycz",
+        "Soledad López Gambino",
+        "Kayeon Yoo",
+        "Elena Sokolova",
+        "Thomas Drugman"
+      ],
+      "upvotes": 61,
+      "github": null,
+      "published": "2024-02-12T22:21:30.000Z"
+    },
+    {
+      "id": "2402.08268",
+      "title": "World Model on Million-Length Video And Language With RingAttention",
+      "authors": [
+        "Hao Liu",
+        "Wilson Yan",
+        "Matei Zaharia",
+        "Pieter Abbeel"
+      ],
+      "upvotes": 42,
+      "github": "https://github.com/LargeWorldModel/LWM",
+      "published": "2024-02-13T07:47:36.000Z"
+    },
+    {
+      "id": "2402.08609",
+      "title": "Mixtures of Experts Unlock Parameter Scaling for Deep RL",
+      "authors": [
+        "Johan Obando-Ceron",
+        "Ghada Sokar",
+        "Timon Willi",
+        "Clare Lyle",
+        "Jesse Farebrother",
+        "Jakob Foerster",
+        "Gintare Karolina Dziugaite",
+        "Doina Precup",
+        "Pablo Samuel Castro"
+      ],
+      "upvotes": 36,
+      "github": "https://github.com/google/dopamine",
+      "published": "2024-02-13T17:18:56.000Z"
+    },
+    {
+      "id": "2402.08017",
+      "title": "Lumos : Empowering Multimodal LLMs with Scene Text Recognition",
+      "authors": [
+        "Ashish Shenoy",
+        "Yichao Lu",
+        "Srihari Jayakumar",
+        "Debojeet Chatterjee",
+        "Mohsen Moslehpour",
+        "Pierce Chuang",
+        "Abhay Harpale",
+        "Vikas Bhardwaj",
+        "Di Xu",
+        "Shicong Zhao",
+        "Longfang Zhao",
+        "Ankit Ramchandani",
+        "Xin Luna Dong",
+        "Anuj Kumar"
+      ],
+      "upvotes": 27,
+      "github": null,
+      "published": "2024-02-12T19:27:26.000Z"
+    },
+    {
+      "id": "2402.07939",
+      "title": "UFO: A UI-Focused Agent for Windows OS Interaction",
+      "authors": [
+        "Chaoyun Zhang",
+        "Liqun Li",
+        "Shilin He",
+        "Xu Zhang",
+        "Bo Qiao",
+        "Si Qin",
+        "Minghua Ma",
+        "Yu Kang",
+        "Qingwei Lin",
+        "Saravan Rajmohan",
+        "Dongmei Zhang",
+        "Qi Zhang"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2024-02-08T15:40:35.000Z"
+    },
+    {
+      "id": "2402.08678",
+      "title": "Graph Mamba: Towards Learning on Graphs with State Space Models",
+      "authors": [
+        "Ali Behrouz",
+        "Farnoosh Hashemi"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2024-02-13T18:58:17.000Z"
+    },
+    {
+      "id": "2402.08303",
+      "title": "ChatCell: Facilitating Single-Cell Analysis with Natural Language",
+      "authors": [
+        "Yin Fang",
+        "Kangwei Liu",
+        "Ningyu Zhang",
+        "Xinle Deng",
+        "Penghui Yang",
+        "Zhuo Chen",
+        "Xiangru Tang",
+        "Mark Gerstein",
+        "Xiaohui Fan",
+        "Huajun Chen"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/zjunlp/chatcell",
+      "published": "2024-02-13T09:06:14.000Z"
+    },
+    {
+      "id": "2402.08682",
+      "title": "IM-3D: Iterative Multiview Diffusion and Reconstruction for High-Quality 3D Generation",
+      "authors": [
+        "Luke Melas-Kyriazi",
+        "Iro Laina",
+        "Christian Rupprecht",
+        "Natalia Neverova",
+        "Andrea Vedaldi",
+        "Oran Gafni",
+        "Filippos Kokkinos"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2024-02-13T18:59:51.000Z"
+    },
+    {
+      "id": "2402.08654",
+      "title": "Learning Continuous 3D Words for Text-to-Image Generation",
+      "authors": [
+        "Ta-Ying Cheng",
+        "Matheus Gadelha",
+        "Thibault Groueix",
+        "Matthew Fisher",
+        "Radomir Mech",
+        "Andrew Markham",
+        "Niki Trigoni"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/ttchengab/continuous_3d_words_code",
+      "published": "2024-02-13T18:34:10.000Z"
+    },
+    {
+      "id": "2402.08420",
+      "title": "Vision-Based Hand Gesture Customization from a Single Demonstration",
+      "authors": [
+        "Soroush Shahi",
+        "Cori Tymoszek Park",
+        "Richard Kang",
+        "Asaf Liberman",
+        "Oron Levy",
+        "Jun Gong",
+        "Abdelkareem Bedri",
+        "Gierad Laput"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2024-02-13T12:49:13.000Z"
+    },
+    {
+      "id": "2402.08644",
+      "title": "Tandem Transformers for Inference Efficient LLMs",
+      "authors": [
+        "Aishwarya P S",
+        "Pranav Ajit Nair",
+        "Yashas Samaga",
+        "Toby Boyd",
+        "Sanjiv Kumar",
+        "Prateek Jain",
+        "Praneeth Netrapalli"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2024-02-13T18:24:08.000Z"
+    },
+    {
+      "id": "2402.08622",
+      "title": "NeRF Analogies: Example-Based Visual Attribute Transfer for NeRFs",
+      "authors": [
+        "Michael Fischer",
+        "Zhengqin Li",
+        "Thu Nguyen-Phuoc",
+        "Aljaz Bozic",
+        "Zhao Dong",
+        "Carl Marshall",
+        "Tobias Ritschel"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2024-02-13T17:47:42.000Z"
+    }
+  ]
+}

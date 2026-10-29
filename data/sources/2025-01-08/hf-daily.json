@@ -1,0 +1,319 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-01-08",
+  "fetched_at": "2026-10-29T15:30:14.128Z",
+  "candidates": [
+    {
+      "id": "2501.03262",
+      "title": "REINFORCE++: A Simple and Efficient Approach for Aligning Large Language Models",
+      "authors": [
+        "Jian Hu"
+      ],
+      "upvotes": 102,
+      "github": "https://github.com/OpenRLHF/OpenRLHF",
+      "published": "2025-01-04T02:08:06.000Z"
+    },
+    {
+      "id": "2501.03575",
+      "title": "Cosmos World Foundation Model Platform for Physical AI",
+      "authors": [
+        "NVIDIA",
+        "Niket Agarwal",
+        "Arslan Ali",
+        "Maciej Bala",
+        "Yogesh Balaji",
+        "Erik Barker",
+        "Tiffany Cai",
+        "Prithvijit Chattopadhyay",
+        "Yongxin Chen",
+        "Yin Cui",
+        "Yifan Ding",
+        "Daniel Dworakowski",
+        "Jiaojiao Fan",
+        "Michele Fenzi",
+        "Francesco Ferroni",
+        "Sanja Fidler",
+        "Dieter Fox",
+        "Songwei Ge",
+        "Yunhao Ge",
+        "Jinwei Gu",
+        "Siddharth Gururani",
+        "Ethan He",
+        "Jiahui Huang",
+        "Jacob Huffman",
+        "Pooya Jannaty",
+        "Jingyi Jin",
+        "Seung Wook Kim",
+        "Gergely Klár",
+        "Grace Lam",
+        "Shiyi Lan",
+        "Laura Leal-Taixe",
+        "Anqi Li",
+        "Zhaoshuo Li",
+        "Chen-Hsuan Lin",
+        "Tsung-Yi Lin",
+        "Huan Ling",
+        "Ming-Yu Liu",
+        "Xian Liu",
+        "Alice Luo",
+        "Qianli Ma",
+        "Hanzi Mao",
+        "Kaichun Mo",
+        "Arsalan Mousavian",
+        "Seungjun Nah",
+        "Sriharsha Niverty",
+        "David Page",
+        "Despoina Paschalidou",
+        "Zeeshan Patel",
+        "Lindsey Pavao",
+        "Morteza Ramezanali",
+        "Fitsum Reda",
+        "Xiaowei Ren",
+        "Vasanth Rao Naik Sabavat",
+        "Ed Schmerling",
+        "Stella Shi",
+        "Bartosz Stefaniak",
+        "Shitao Tang",
+        "Lyne Tchapmi",
+        "Przemek Tredak",
+        "Wei-Cheng Tseng",
+        "Jibin Varghese",
+        "Hao Wang",
+        "Haoxiang Wang",
+        "Heng Wang",
+        "Ting-Chun Wang",
+        "Fangyin Wei",
+        "Xinyue Wei",
+        "Jay Zhangjie Wu",
+        "Jiashu Xu",
+        "Wei Yang",
+        "Lin Yen-Chen",
+        "Xiaohui Zeng",
+        "Yu Zeng",
+        "Jing Zhang",
+        "Qinsheng Zhang",
+        "Yuxuan Zhang",
+        "Qingqing Zhao",
+        "Artur Zolkowski"
+      ],
+      "upvotes": 84,
+      "github": "https://github.com/nvidia-cosmos/cosmos-predict1",
+      "published": "2025-01-07T06:55:50.000Z"
+    },
+    {
+      "id": "2501.03895",
+      "title": "LLaVA-Mini: Efficient Image and Video Large Multimodal Models with One Vision Token",
+      "authors": [
+        "Shaolei Zhang",
+        "Qingkai Fang",
+        "Zhe Yang",
+        "Yang Feng"
+      ],
+      "upvotes": 51,
+      "github": "https://github.com/ictnlp/llava-mini",
+      "published": "2025-01-07T16:03:14.000Z"
+    },
+    {
+      "id": "2501.04001",
+      "title": "Sa2VA: Marrying SAM2 with LLaVA for Dense Grounded Understanding of Images and Videos",
+      "authors": [
+        "Haobo Yuan",
+        "Xiangtai Li",
+        "Tao Zhang",
+        "Zilong Huang",
+        "Shilin Xu",
+        "Shunping Ji",
+        "Yunhai Tong",
+        "Lu Qi",
+        "Jiashi Feng",
+        "Ming-Hsuan Yang"
+      ],
+      "upvotes": 50,
+      "github": "https://github.com/magic-research/Sa2VA",
+      "published": "2025-01-07T18:58:54.000Z"
+    },
+    {
+      "id": "2501.02955",
+      "title": "MotionBench: Benchmarking and Improving Fine-grained Video Motion Understanding for Vision Language Models",
+      "authors": [
+        "Wenyi Hong",
+        "Yean Cheng",
+        "Zhuoyi Yang",
+        "Weihan Wang",
+        "Lefan Wang",
+        "Xiaotao Gu",
+        "Shiyu Huang",
+        "Yuxiao Dong",
+        "Jie Tang"
+      ],
+      "upvotes": 44,
+      "github": null,
+      "published": "2025-01-06T11:57:38.000Z"
+    },
+    {
+      "id": "2501.03936",
+      "title": "PPTAgent: Generating and Evaluating Presentations Beyond Text-to-Slides",
+      "authors": [
+        "Hao Zheng",
+        "Xinyan Guan",
+        "Hao Kong",
+        "Jia Zheng",
+        "Hongyu Lin",
+        "Yaojie Lu",
+        "Ben He",
+        "Xianpei Han",
+        "Le Sun"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/icip-cas/pptagent",
+      "published": "2025-01-07T16:53:01.000Z"
+    },
+    {
+      "id": "2501.03847",
+      "title": "Diffusion as Shader: 3D-aware Video Diffusion for Versatile Video Generation Control",
+      "authors": [
+        "Zekai Gu",
+        "Rui Yan",
+        "Jiahao Lu",
+        "Peng Li",
+        "Zhiyang Dou",
+        "Chenyang Si",
+        "Zhen Dong",
+        "Qifeng Liu",
+        "Cheng Lin",
+        "Ziwei Liu",
+        "Wenping Wang",
+        "Yuan Liu"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/igl-hkust/diffusionasshader",
+      "published": "2025-01-07T15:01:58.000Z"
+    },
+    {
+      "id": "2501.04561",
+      "title": "OpenOmni: Large Language Models Pivot Zero-shot Omnimodal Alignment across Language with Real-time Self-Aware Emotional Speech Synthesis",
+      "authors": [
+        "Run Luo",
+        "Ting-En Lin",
+        "Haonan Zhang",
+        "Yuchuan Wu",
+        "Xiong Liu",
+        "Min Yang",
+        "Yongbin Li",
+        "Longze Chen",
+        "Jiaming Li",
+        "Lei Zhang",
+        "Yangyi Chen",
+        "Hamid Alinejad-Rokny",
+        "Fei Huang"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2025-01-08T15:18:09.000Z"
+    },
+    {
+      "id": "2501.03916",
+      "title": "Dolphin: Closed-loop Open-ended Auto-research through Thinking, Practice, and Feedback",
+      "authors": [
+        "Jiakang Yuan",
+        "Xiangchao Yan",
+        "Botian Shi",
+        "Tao Chen",
+        "Wanli Ouyang",
+        "Bo Zhang",
+        "Lei Bai",
+        "Yu Qiao",
+        "Bowen Zhou"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/UniModal4Reasoning/Dolphin",
+      "published": "2025-01-07T16:31:10.000Z"
+    },
+    {
+      "id": "2501.03931",
+      "title": "Magic Mirror: ID-Preserved Video Generation in Video Diffusion Transformers",
+      "authors": [
+        "Yuechen Zhang",
+        "Yaoyang Liu",
+        "Bin Xia",
+        "Bohao Peng",
+        "Zexin Yan",
+        "Eric Lo",
+        "Jiaya Jia"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/dvlab-research/MagicMirror",
+      "published": "2025-01-07T16:48:31.000Z"
+    },
+    {
+      "id": "2501.03714",
+      "title": "MoDec-GS: Global-to-Local Motion Decomposition and Temporal Interval Adjustment for Compact Dynamic 3D Gaussian Splatting",
+      "authors": [
+        "Sangwoon Kwak",
+        "Joonsoo Kim",
+        "Jun Young Jeong",
+        "Won-Sik Cheong",
+        "Jihyong Oh",
+        "Munchurl Kim"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2025-01-07T11:43:13.000Z"
+    },
+    {
+      "id": "2501.02790",
+      "title": "Segmenting Text and Learning Their Rewards for Improved RLHF in Language Model",
+      "authors": [
+        "Yueqin Yin",
+        "Shentao Yang",
+        "Yujia Xie",
+        "Ziyi Yang",
+        "Yuting Sun",
+        "Hany Awadalla",
+        "Weizhu Chen",
+        "Mingyuan Zhou"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/yinyueqin/DenseRewardRLHF-PPO",
+      "published": "2025-01-06T06:17:56.000Z"
+    },
+    {
+      "id": "2501.02393",
+      "title": "Graph-Aware Isomorphic Attention for Adaptive Dynamics in Transformers",
+      "authors": [
+        "Markus J. Buehler"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/lamm-mit/graph-aware-transformers",
+      "published": "2025-01-04T22:30:21.000Z"
+    },
+    {
+      "id": "2501.02260",
+      "title": "MagicFace: High-Fidelity Facial Expression Editing with Action-Unit Control",
+      "authors": [
+        "Mengting Wei",
+        "Tuomas Varanka",
+        "Xingxun Jiang",
+        "Huai-Qian Khor",
+        "Guoying Zhao"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/weimengting/magicface",
+      "published": "2025-01-04T11:28:49.000Z"
+    },
+    {
+      "id": "2501.02376",
+      "title": "Generalizable Origin Identification for Text-Guided Image-to-Image Diffusion Models",
+      "authors": [
+        "Wenhao Wang",
+        "Yifan Sun",
+        "Zongxin Yang",
+        "Zhentao Tan",
+        "Zhengdong Hu",
+        "Yi Yang"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2025-01-04T20:34:53.000Z"
+    }
+  ]
+}

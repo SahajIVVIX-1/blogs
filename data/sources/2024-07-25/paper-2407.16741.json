@@ -1,0 +1,11 @@
+{
+  "id": "2407.16741",
+  "html": "https://arxiv.org/html/2407.16741",
+  "limitations": "We are excited about the foundations our vibrant community has laid in OpenHands and look forward to its continued evolution. We identify several directions for future work: Enhanced multi-modality support. While our current implementation already supports a wide range of file formats through predefined agent skills, we are interested in enabling multi-modality in a principled way through standard IPython and browser integration, such as viewing images and videos using vision-language model through a browser or processing XLSX files with code. Stronger agents. Current agents still struggle with complex tasks, and we are interested in building better agents through both training and inference time techniques. Agent editing improvements. Current agent suffers a lot when editing long files, and we are interested in exploring different approaches to improve the file editing performance of ag",
+  "conclusion": "We introduce OpenHands, a community-driven platform that enables the development of agents that interact with the world through software interfaces. By providing a powerful interaction mechanism, a safe sandboxed environment, essential agent skills, multi-agent collaboration capabilities, and a comprehensive evaluation framework, OpenHands accelerates research innovations and real-world applications of agentic AI systems. Despite challenges in developing safe and reliable agents (§ A ), we are excited about our vibrant community and look forward to OpenHands’s continued evolution.",
+  "figure": {
+    "path": "images/2024/paper-2407.16741.webp",
+    "src": "https://arxiv.org/html/2407.16741v3/screenshot-stack.png",
+    "caption": "Figure 1: OpenHands User Interface (UI, § D ) allows users to view files, check executed bash commands/Python code, observe the agent’s browser activity, and directly interact with the agent."
+  }
+}

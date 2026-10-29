@@ -1,0 +1,257 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2023-09-08",
+  "fetched_at": "2026-10-29T15:25:16.997Z",
+  "candidates": [
+    {
+      "id": "2309.03409",
+      "title": "Large Language Models as Optimizers",
+      "authors": [
+        "Chengrun Yang",
+        "Xuezhi Wang",
+        "Yifeng Lu",
+        "Hanxiao Liu",
+        "Quoc V. Le",
+        "Denny Zhou",
+        "Xinyun Chen"
+      ],
+      "upvotes": 79,
+      "github": "https://github.com/google-deepmind/opro",
+      "published": "2023-09-07T00:07:15.000Z"
+    },
+    {
+      "id": "2309.03852",
+      "title": "FLM-101B: An Open LLM and How to Train It with $100K Budget",
+      "authors": [
+        "Xiang Li",
+        "Yiqun Yao",
+        "Xin Jiang",
+        "Xuezhi Fang",
+        "Xuying Meng",
+        "Siqi Fan",
+        "Peng Han",
+        "Jing Li",
+        "Li Du",
+        "Bowen Qin",
+        "Zheng Zhang",
+        "Aixin Sun",
+        "Yequan Wang"
+      ],
+      "upvotes": 45,
+      "github": null,
+      "published": "2023-09-07T17:07:36.000Z"
+    },
+    {
+      "id": "2309.03883",
+      "title": "DoLa: Decoding by Contrasting Layers Improves Factuality in Large Language Models",
+      "authors": [
+        "Yung-Sung Chuang",
+        "Yujia Xie",
+        "Hongyin Luo",
+        "Yoon Kim",
+        "James Glass",
+        "Pengcheng He"
+      ],
+      "upvotes": 36,
+      "github": "https://github.com/voidism/dola",
+      "published": "2023-09-07T17:45:31.000Z"
+    },
+    {
+      "id": "2309.03903",
+      "title": "Tracking Anything with Decoupled Video Segmentation",
+      "authors": [
+        "Ho Kei Cheng",
+        "Seoung Wug Oh",
+        "Brian Price",
+        "Alexander Schwing",
+        "Joon-Young Lee"
+      ],
+      "upvotes": 29,
+      "github": "https://github.com/hkchengrex/Tracking-Anything-with-DEVA",
+      "published": "2023-09-07T17:59:41.000Z"
+    },
+    {
+      "id": "2309.03897",
+      "title": "ProPainter: Improving Propagation and Transformer for Video Inpainting",
+      "authors": [
+        "Shangchen Zhou",
+        "Chongyi Li",
+        "Kelvin C. K. Chan",
+        "Chen Change Loy"
+      ],
+      "upvotes": 28,
+      "github": "https://github.com/sczhou/propainter",
+      "published": "2023-09-07T17:57:29.000Z"
+    },
+    {
+      "id": "2309.03905",
+      "title": "ImageBind-LLM: Multi-modality Instruction Tuning",
+      "authors": [
+        "Jiaming Han",
+        "Renrui Zhang",
+        "Wenqi Shao",
+        "Peng Gao",
+        "Peng Xu",
+        "Han Xiao",
+        "Kaipeng Zhang",
+        "Chris Liu",
+        "Song Wen",
+        "Ziyu Guo",
+        "Xudong Lu",
+        "Shuai Ren",
+        "Yafei Wen",
+        "Xiaoxin Chen",
+        "Xiangyu Yue",
+        "Hongsheng Li",
+        "Yu Qiao"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/opengvlab/llama-adapter",
+      "published": "2023-09-07T17:59:45.000Z"
+    },
+    {
+      "id": "2309.03895",
+      "title": "InstructDiffusion: A Generalist Modeling Interface for Vision Tasks",
+      "authors": [
+        "Zigang Geng",
+        "Binxin Yang",
+        "Tiankai Hang",
+        "Chen Li",
+        "Shuyang Gu",
+        "Ting Zhang",
+        "Jianmin Bao",
+        "Zheng Zhang",
+        "Han Hu",
+        "Dong Chen",
+        "Baining Guo"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/cientgu/instructdiffusion",
+      "published": "2023-09-07T17:56:57.000Z"
+    },
+    {
+      "id": "2309.03453",
+      "title": "SyncDreamer: Generating Multiview-consistent Images from a Single-view Image",
+      "authors": [
+        "Yuan Liu",
+        "Cheng Lin",
+        "Zijiao Zeng",
+        "Xiaoxiao Long",
+        "Lingjie Liu",
+        "Taku Komura",
+        "Wenping Wang"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/liuyuan-pal/syncdreamer",
+      "published": "2023-09-07T02:28:04.000Z"
+    },
+    {
+      "id": "2309.03550",
+      "title": "Text2Control3D: Controllable 3D Avatar Generation in Neural Radiance Fields using Geometry-Guided Text-to-Image Diffusion Model",
+      "authors": [
+        "Sungwon Hwang",
+        "Junha Hyung",
+        "Jaegul Choo"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2023-09-07T08:14:46.000Z"
+    },
+    {
+      "id": "2309.03450",
+      "title": "XGen-7B Technical Report",
+      "authors": [
+        "Erik Nijkamp",
+        "Tian Xie",
+        "Hiroaki Hayashi",
+        "Bo Pang",
+        "Congying Xia",
+        "Chen Xing",
+        "Jesse Vig",
+        "Semih Yavuz",
+        "Philippe Laban",
+        "Ben Krause",
+        "Senthil Purushwalkam",
+        "Tong Niu",
+        "Wojciech Kryściński",
+        "Lidiya Murakhovs'ka",
+        "Prafulla Kumar Choubey",
+        "Alex Fabbri",
+        "Ye Liu",
+        "Rui Meng",
+        "Lifu Tu",
+        "Meghana Bhat",
+        "Chien-Sheng Wu",
+        "Silvio Savarese",
+        "Yingbo Zhou",
+        "Shafiq Joty",
+        "Caiming Xiong"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/salesforce/xgen",
+      "published": "2023-09-07T02:20:03.000Z"
+    },
+    {
+      "id": "2309.03315",
+      "title": "Robotic Table Tennis: A Case Study into a High Speed Learning System",
+      "authors": [
+        "David B. D'Ambrosio",
+        "Jonathan Abelian",
+        "Saminda Abeyruwan",
+        "Michael Ahn",
+        "Alex Bewley",
+        "Justin Boyd",
+        "Krzysztof Choromanski",
+        "Omar Cortes",
+        "Erwin Coumans",
+        "Tianli Ding",
+        "Wenbo Gao",
+        "Laura Graesser",
+        "Atil Iscen",
+        "Navdeep Jaitly",
+        "Deepali Jain",
+        "Juhana Kangaspunta",
+        "Satoshi Kataoka",
+        "Gus Kouretas",
+        "Yuheng Kuang",
+        "Nevena Lazic",
+        "Corey Lynch",
+        "Reza Mahjourian",
+        "Sherry Q. Moore",
+        "Thinh Nguyen",
+        "Ken Oslund",
+        "Barney J Reed",
+        "Krista Reymann",
+        "Pannag R. Sanketi",
+        "Anish Shankar",
+        "Pierre Sermanet",
+        "Vikas Sindhwani",
+        "Avi Singh",
+        "Vincent Vanhoucke",
+        "Grace Vesom",
+        "Peng Xu"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2023-09-06T18:56:20.000Z"
+    },
+    {
+      "id": "2309.03549",
+      "title": "Reuse and Diffuse: Iterative Denoising for Text-to-Video Generation",
+      "authors": [
+        "Jiaxi Gu",
+        "Shicong Wang",
+        "Haoyu Zhao",
+        "Tianyi Lu",
+        "Xing Zhang",
+        "Zuxuan Wu",
+        "Songcen Xu",
+        "Wei Zhang",
+        "Yu-Gang Jiang",
+        "Hang Xu"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/anonymous0x233/ReuseAndDiffuse",
+      "published": "2023-09-07T08:12:58.000Z"
+    }
+  ]
+}

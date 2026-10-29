@@ -1,0 +1,388 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-07-09",
+  "fetched_at": "2026-10-29T15:36:10.809Z",
+  "candidates": [
+    {
+      "id": "2607.07708",
+      "title": "Accurate, Interdisciplinary and Transparent Structure-property Understanding with Deep Native Structural Reasoning",
+      "authors": [
+        "Chen Tang",
+        "Yizhou Wang",
+        "Jianyu Wu",
+        "Lintao Wang",
+        "Shixiang Tang",
+        "Pengze Li",
+        "Encheng Su",
+        "Jun Yao",
+        "Jiabei Xiao",
+        "Yuqi Shi",
+        "Jielan Li",
+        "Hongxia Hao",
+        "Zhangyang Gao",
+        "Fang Wu",
+        "Ben Fei",
+        "Xiangyu Yue",
+        "Pan Tan",
+        "Bozitao Zhong",
+        "Jinouwen Zhang",
+        "Aoran Wang",
+        "Yan Lu",
+        "Jiaheng Liu",
+        "Xinzhu Ma",
+        "Liang Hong",
+        "Mingyue Zheng",
+        "Phil Torr",
+        "Bowen Zhou",
+        "Wanli Ouyang",
+        "Lei Bai"
+      ],
+      "upvotes": 81,
+      "github": "https://github.com/SpectrAI-Initiative/SciReasoner",
+      "published": "2026-07-08T00:00:00.000Z"
+    },
+    {
+      "id": "2607.07675",
+      "title": "Scaling Mixture-of-Experts Video Pretraining for Embodied Intelligence",
+      "authors": [
+        "Shuailei Ma",
+        "Jiaqi Liao",
+        "Xinyang Wang",
+        "Jingjing Wang",
+        "Chaoran Feng",
+        "Zijing Hu",
+        "Chong Bao",
+        "Zichen Xi",
+        "Yuqi Gan",
+        "Weisen Wang",
+        "Yanhong Zeng",
+        "Qin Zhao",
+        "Zifan Shi",
+        "Wei Wu",
+        "Hao Ouyang",
+        "Qiuyu Wang",
+        "Shangzhan Zhang",
+        "Jiahao Shao",
+        "Yipengjing Sun",
+        "Liangxiao Hu",
+        "Lunke Pan",
+        "Nan Xue",
+        "Kecheng Zheng",
+        "Yinghao Xu",
+        "Xing Zhu",
+        "Yujun Shen",
+        "Ka Leong Cheng"
+      ],
+      "upvotes": 63,
+      "github": "https://github.com/robbyant/lingbot-video",
+      "published": "2026-07-08T00:00:00.000Z"
+    },
+    {
+      "id": "2607.07608",
+      "title": "Dual Latent Memory in Vision-Language-Action Models for Robotic Manipulation",
+      "authors": [
+        "Hongyu Qu",
+        "Jianzhe Gao",
+        "Xiaobin Hu",
+        "Shaohuan Yang",
+        "Xinlei Yu",
+        "Rui Yan",
+        "Wenguan Wang",
+        "Xiangbo Shu",
+        "Shuicheng Yan"
+      ],
+      "upvotes": 56,
+      "github": "https://github.com/quhongyu/LaMem-VLA",
+      "published": "2026-07-08T00:00:00.000Z"
+    },
+    {
+      "id": "2607.07534",
+      "title": "Infinite Worlds with Versatile Interactions",
+      "authors": [
+        "Zelin Gao",
+        "Qiuyu Wang",
+        "Jiapeng Zhu",
+        "Jingye Chen",
+        "Zichen Liu",
+        "Qingyan Bai",
+        "Jiahao Wang",
+        "Yufeng Yuan",
+        "Hanlin Wang",
+        "Yichong Lu",
+        "Ka Leong Cheng",
+        "Haojie Zhang",
+        "Jian Gao",
+        "Tianrui Feng",
+        "Yuzheng Liu",
+        "Yao Yao",
+        "Yinghao Xu",
+        "Xing Zhu",
+        "Yujun Shen",
+        "Hao Ouyang"
+      ],
+      "upvotes": 46,
+      "github": "https://github.com/robbyant/lingbot-world-v2",
+      "published": "2026-07-08T00:00:00.000Z"
+    },
+    {
+      "id": "2607.07508",
+      "title": "Single-Rollout Asynchronous Optimization for Agentic Reinforcement Learning",
+      "authors": [
+        "Zhenyu Hou",
+        "Yujiang Li",
+        "Jie Tang",
+        "Yuxiao Dong"
+      ],
+      "upvotes": 33,
+      "github": null,
+      "published": "2026-07-08T00:00:00.000Z"
+    },
+    {
+      "id": "2607.04434",
+      "title": "RoboDojo: A Unified Sim-and-Real Benchmark for Comprehensive Evaluation of Generalist Robot Manipulation Policies",
+      "authors": [
+        "Tianxing Chen",
+        "Yue Chen",
+        "Zixuan Li",
+        "Junyuan Tang",
+        "Kailun Su",
+        "Haoran Lu",
+        "Weijie Wan",
+        "Baijun Chen",
+        "Songling Liu",
+        "Haowen Yan",
+        "Honghao Su",
+        "Zhiyang Dou",
+        "Kaixuan Wang",
+        "Dandan Zhang",
+        "Yunze Liu",
+        "Yan Qin",
+        "Qiwei Liang",
+        "Qiwei Wu",
+        "Zijian Lin",
+        "Wenwei Lin",
+        "Yuran Wang",
+        "Minghua He",
+        "Tianshu Wu",
+        "Ruihai Wu",
+        "Jingquan Zhou",
+        "Kai-Chong Lei",
+        "Haibao Yu",
+        "Yuanfeng Ji",
+        "Weiyang Jin",
+        "Guanyu Lin",
+        "Xiaofan Li",
+        "Qi Xiong",
+        "Renjing Xu",
+        "Zhongyu Li",
+        "Wenhao Chai",
+        "Enze Xie",
+        "Ziwei Wang",
+        "Yao Mu",
+        "Hao Dong",
+        "Wojciech Matusik",
+        "Mingyu Ding",
+        "Wenbo Ding",
+        "Ping Luo",
+        "Masayoshi Tomizuka"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/RoboDojo-Benchmark/RoboDojo",
+      "published": "2026-07-07T00:00:00.000Z"
+    },
+    {
+      "id": "2606.30111",
+      "title": "Automating the Design of Embodied Agent Architectures",
+      "authors": [
+        "Jian Zhou",
+        "Sihao Lin",
+        "Jin Li",
+        "Shuai Fu",
+        "Gengze Zhou",
+        "Qi Wu"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/jianzhou0420/AgentCanvas",
+      "published": "2026-07-03T00:00:00.000Z"
+    },
+    {
+      "id": "2607.06838",
+      "title": "WildCity: A Real-World City-Scale Testbed for Rendering, Simulation, and Spatial Intelligence",
+      "authors": [
+        "Xiangyu Han",
+        "Mengyu Yang",
+        "Jiaqi Li",
+        "Bowen Chang",
+        "Ziyu Chen",
+        "Hexu Zhao",
+        "Rahul Kumar Agrawal",
+        "Anthony Rodriguez",
+        "Fiona Hua",
+        "Marco Pavone",
+        "Chen Feng",
+        "Yiming Li"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/han-xiangyu/Wild-City",
+      "published": "2026-07-07T00:00:00.000Z"
+    },
+    {
+      "id": "2607.07386",
+      "title": "Sparse Delta Memory: Scaling the State of Linear RNNs through Sparsity",
+      "authors": [
+        "Loïc Cabannes",
+        "Pierre-Emmanuel Mazaré",
+        "Gergely Szilvasy",
+        "Matthijs Douze",
+        "Maria Lomeli",
+        "Ilze Amanda Auzina",
+        "Justin Carpentier",
+        "Gabriel Synnaeve",
+        "Hervé Jégou"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2026-07-08T00:00:00.000Z"
+    },
+    {
+      "id": "2607.06624",
+      "title": "AgentLens: Production-Assessed Trajectory Reviews for Coding Agent Evaluation",
+      "authors": [
+        "Andrey Podivilov",
+        "Vadim Lomshakov",
+        "Sergey Savin",
+        "Matvei Startsev",
+        "Roman Pozharskiy",
+        "Maksim Parshin",
+        "Sergey Nikolenko"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/agent-lens/agent-lens-bench",
+      "published": "2026-07-07T00:00:00.000Z"
+    },
+    {
+      "id": "2607.08766",
+      "title": "OPSD-V: On-Policy Self-Distillation for Post-Training Few-Step Autoregressive Video Generators",
+      "authors": [
+        "Hongyu Liu",
+        "Chun Wang",
+        "Feng Gao",
+        "Xuanhua He",
+        "Yue Ma",
+        "Ziyu Wan",
+        "Yong Zhang",
+        "Xiaoming Wei",
+        "Qifeng Chen"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/MeiGen-AI/OPSD-V",
+      "published": "2026-07-09T00:00:00.000Z"
+    },
+    {
+      "id": "2607.06018",
+      "title": "RoboTALES: Learning Reasoning-Guided Robot Policies via Task-Aligned Simulated Futures",
+      "authors": [
+        "Hanan Gani",
+        "Tejal Kulkarni",
+        "Madhoolika Chodavarapu",
+        "Nicklas Hansen",
+        "Manmohan Chandraker"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/hananshafi/RoboTALES",
+      "published": "2026-07-07T00:00:00.000Z"
+    },
+    {
+      "id": "2607.03949",
+      "title": "TESSERA v2: Scaling Pixel-wise Earth Foundation Models",
+      "authors": [
+        "Zhengpeng Feng",
+        "Sadiq Jaffer",
+        "Ira Shokar",
+        "Jovana Knezevic",
+        "Mark Elvers",
+        "Clement Atzberger",
+        "Robin Young",
+        "Aneesh Naik",
+        "Niall Robinson",
+        "Andrew Blake",
+        "David Coomes",
+        "Anil Madhavapeddy",
+        "Srinivasan Keshav"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/ucam-eo/tessera",
+      "published": "2026-07-04T00:00:00.000Z"
+    },
+    {
+      "id": "2607.03723",
+      "title": "OmniTacTune: Policy-Agnostic Real-World RL for Tactile Residual Adaptation of Visual Policies",
+      "authors": [
+        "Kelin Yu",
+        "Haode Zhang",
+        "Harish Ravichandar",
+        "Yunhai Han",
+        "Ruohan Gao"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-07-04T00:00:00.000Z"
+    },
+    {
+      "id": "2607.04939",
+      "title": "Teaching LLMs a Low-Resource Language: Enhancing Code Completion in Pharo",
+      "authors": [
+        "Kilian Kier",
+        "Alessandro Giagnorio",
+        "Omar AbedelKader",
+        "Oleksandr Zaitsev",
+        "Robert Peharz",
+        "Romain Robbes",
+        "Gabriele Bavota",
+        "Stéphane Ducasse"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/kilian-kier/pharo-llm-completion",
+      "published": "2026-07-06T00:00:00.000Z"
+    },
+    {
+      "id": "2607.05966",
+      "title": "Imagined Rollouts are Kinematic, Not Dynamic: A Diagnosis of Long-Horizon World-Model Failure",
+      "authors": [
+        "Finn Rasmus Schäfer",
+        "Korbinian Moller",
+        "Yuan Gao",
+        "Christian Oefinger",
+        "Sebastian Schmidt",
+        "Johannes Betz"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/TUM-AVS/iKCE",
+      "published": "2026-07-07T00:00:00.000Z"
+    },
+    {
+      "id": "2607.06309",
+      "title": "Token-Based Dual-view Fusion and Adaptation of Large Vision Models for Breast Cancer Classification",
+      "authors": [
+        "Aysan Ghayouri Pirsoltan",
+        "Shima Babakordi",
+        "Mohammad Reza Mohammadi"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/PartAI-Projects/CrossViewTokenFusion",
+      "published": "2026-07-07T00:00:00.000Z"
+    },
+    {
+      "id": "2607.00302",
+      "title": "Wake up for Touch! Mask-isolated Tactile Alignment Learning in MLLMs",
+      "authors": [
+        "Yoonhyung Park",
+        "Minji Kim",
+        "Sungwon Moon",
+        "Jiyoung Lee"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/ewha-mmai/splash",
+      "published": "2026-07-01T00:00:00.000Z"
+    }
+  ]
+}

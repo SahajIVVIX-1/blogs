@@ -1,0 +1,340 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-01-07",
+  "fetched_at": "2026-10-29T15:30:13.405Z",
+  "candidates": [
+    {
+      "id": "2501.02976",
+      "title": "STAR: Spatial-Temporal Augmentation with Text-to-Video Models for Real-World Video Super-Resolution",
+      "authors": [
+        "Rui Xie",
+        "Yinhong Liu",
+        "Penghao Zhou",
+        "Chen Zhao",
+        "Jun Zhou",
+        "Kai Zhang",
+        "Zhenyu Zhang",
+        "Jian Yang",
+        "Zhenheng Yang",
+        "Ying Tai"
+      ],
+      "upvotes": 52,
+      "github": null,
+      "published": "2025-01-06T12:36:21.000Z"
+    },
+    {
+      "id": "2501.02497",
+      "title": "Test-time Computing: from System-1 Thinking to System-2 Thinking",
+      "authors": [
+        "Yixin Ji",
+        "Juntao Li",
+        "Hai Ye",
+        "Kaixin Wu",
+        "Jia Xu",
+        "Linjian Mo",
+        "Min Zhang"
+      ],
+      "upvotes": 45,
+      "github": "https://github.com/dereck0602/awesome_test_time_llms",
+      "published": "2025-01-05T10:24:20.000Z"
+    },
+    {
+      "id": "2501.03226",
+      "title": "BoostStep: Boosting mathematical capability of Large Language Models via improved single-step reasoning",
+      "authors": [
+        "Beichen Zhang",
+        "Yuhong Liu",
+        "Xiaoyi Dong",
+        "Yuhang Zang",
+        "Pan Zhang",
+        "Haodong Duan",
+        "Yuhang Cao",
+        "Dahua Lin",
+        "Jiaqi Wang"
+      ],
+      "upvotes": 43,
+      "github": "https://github.com/beichenzbc/booststep",
+      "published": "2025-01-06T18:59:13.000Z"
+    },
+    {
+      "id": "2501.03218",
+      "title": "Dispider: Enabling Video LLMs with Active Real-Time Interaction via Disentangled Perception, Decision, and Reaction",
+      "authors": [
+        "Rui Qian",
+        "Shuangrui Ding",
+        "Xiaoyi Dong",
+        "Pan Zhang",
+        "Yuhang Zang",
+        "Yuhang Cao",
+        "Dahua Lin",
+        "Jiaqi Wang"
+      ],
+      "upvotes": 34,
+      "github": "https://github.com/mark12ding/dispider",
+      "published": "2025-01-06T18:55:10.000Z"
+    },
+    {
+      "id": "2501.02157",
+      "title": "Personalized Graph-Based Retrieval for Large Language Models",
+      "authors": [
+        "Steven Au",
+        "Cameron J. Dimacali",
+        "Ojasmitha Pedirappagari",
+        "Namyong Park",
+        "Franck Dernoncourt",
+        "Yu Wang",
+        "Nikos Kanakaris",
+        "Hanieh Deilamsalehy",
+        "Ryan A. Rossi",
+        "Nesreen K. Ahmed"
+      ],
+      "upvotes": 31,
+      "github": "https://github.com/pgraphrag-benchmark/pgr-llm",
+      "published": "2025-01-04T01:46:49.000Z"
+    },
+    {
+      "id": "2501.02423",
+      "title": "Scaling Laws for Floating Point Quantization Training",
+      "authors": [
+        "Xingwu Sun",
+        "Shuaipeng Li",
+        "Ruobing Xie",
+        "Weidong Han",
+        "Kan Wu",
+        "Zhen Yang",
+        "Yixing Li",
+        "An Wang",
+        "Shuai Li",
+        "Jinbao Xue",
+        "Yu Cheng",
+        "Yangyu Tao",
+        "Zhanhui Kang",
+        "Chengzhong Xu",
+        "Di Wang",
+        "Jie Jiang"
+      ],
+      "upvotes": 26,
+      "github": null,
+      "published": "2025-01-05T02:30:41.000Z"
+    },
+    {
+      "id": "2501.03006",
+      "title": "TransPixar: Advancing Text-to-Video Generation with Transparency",
+      "authors": [
+        "Luozhou Wang",
+        "Yijun Li",
+        "Zhifei Chen",
+        "Jui-Hsien Wang",
+        "Zhifei Zhang",
+        "He Zhang",
+        "Zhe Lin",
+        "Yingcong Chen"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/wileewang/TransPixar",
+      "published": "2025-01-06T13:32:16.000Z"
+    },
+    {
+      "id": "2501.02045",
+      "title": "METAGENE-1: Metagenomic Foundation Model for Pandemic Monitoring",
+      "authors": [
+        "Ollie Liu",
+        "Sami Jaghouar",
+        "Johannes Hagemann",
+        "Shangshang Wang",
+        "Jason Wiemels",
+        "Jeff Kaufman",
+        "Willie Neiswanger"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/metagene-ai/metagene-pretrain",
+      "published": "2025-01-03T18:44:43.000Z"
+    },
+    {
+      "id": "2501.03059",
+      "title": "Through-The-Mask: Mask-based Motion Trajectories for Image-to-Video Generation",
+      "authors": [
+        "Guy Yariv",
+        "Yuval Kirstain",
+        "Amit Zohar",
+        "Shelly Sheynin",
+        "Yaniv Taigman",
+        "Yossi Adi",
+        "Sagie Benaim",
+        "Adam Polyak"
+      ],
+      "upvotes": 22,
+      "github": null,
+      "published": "2025-01-06T14:49:26.000Z"
+    },
+    {
+      "id": "2501.01830",
+      "title": "Auto-RT: Automatic Jailbreak Strategy Exploration for Red-Teaming Large Language Models",
+      "authors": [
+        "Yanjiang Liu",
+        "Shuhen Zhou",
+        "Yaojie Lu",
+        "Huijia Zhu",
+        "Weiqiang Wang",
+        "Hongyu Lin",
+        "Ben He",
+        "Xianpei Han",
+        "Le Sun"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/icip-cas/Auto-RT",
+      "published": "2025-01-03T14:30:14.000Z"
+    },
+    {
+      "id": "2501.02576",
+      "title": "DepthMaster: Taming Diffusion Models for Monocular Depth Estimation",
+      "authors": [
+        "Ziyang Song",
+        "Zerong Wang",
+        "Bo Li",
+        "Hao Zhang",
+        "Ruijie Zhu",
+        "Li Liu",
+        "Peng-Tao Jiang",
+        "Tianzhu Zhang"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/indu1ge/DepthMaster",
+      "published": "2025-01-05T15:18:32.000Z"
+    },
+    {
+      "id": "2501.02690",
+      "title": "GS-DiT: Advancing Video Generation with Pseudo 4D Gaussian Fields through Efficient Dense 3D Point Tracking",
+      "authors": [
+        "Weikang Bian",
+        "Zhaoyang Huang",
+        "Xiaoyu Shi",
+        "Yijin Li",
+        "Fu-Yun Wang",
+        "Hongsheng Li"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/wkbian/GS-DiT",
+      "published": "2025-01-05T23:55:33.000Z"
+    },
+    {
+      "id": "2501.03124",
+      "title": "PRMBench: A Fine-grained and Challenging Benchmark for Process-Level Reward Models",
+      "authors": [
+        "Mingyang Song",
+        "Zhaochen Su",
+        "Xiaoye Qu",
+        "Jiawei Zhou",
+        "Yu Cheng"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/ssmisya/PRMBench",
+      "published": "2025-01-06T16:31:45.000Z"
+    },
+    {
+      "id": "2501.02506",
+      "title": "ToolHop: A Query-Driven Benchmark for Evaluating Large Language Models in Multi-Hop Tool Use",
+      "authors": [
+        "Junjie Ye",
+        "Zhengyin Du",
+        "Xuesong Yao",
+        "Weijian Lin",
+        "Yufei Xu",
+        "Zehui Chen",
+        "Zaiyuan Wang",
+        "Sining Zhu",
+        "Zhiheng Xi",
+        "Siyu Yuan",
+        "Tao Gui",
+        "Qi Zhang",
+        "Xuanjing Huang",
+        "Jiechao Chen"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2025-01-05T11:06:55.000Z"
+    },
+    {
+      "id": "2501.00912",
+      "title": "AutoPresent: Designing Structured Visuals from Scratch",
+      "authors": [
+        "Jiaxin Ge",
+        "Zora Zhiruo Wang",
+        "Xuhui Zhou",
+        "Yi-Hao Peng",
+        "Sanjay Subramanian",
+        "Qinyue Tan",
+        "Maarten Sap",
+        "Alane Suhr",
+        "Daniel Fried",
+        "Graham Neubig",
+        "Trevor Darrell"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/para-lost/AutoPresent",
+      "published": "2025-01-01T18:09:32.000Z"
+    },
+    {
+      "id": "2501.02832",
+      "title": "Samba-asr state-of-the-art speech recognition leveraging structured state-space models",
+      "authors": [
+        "Syed Abdul Gaffar Shakhadri",
+        "Kruthika KR",
+        "Kartik Basavaraj Angadi"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2025-01-06T08:16:06.000Z"
+    },
+    {
+      "id": "2501.01790",
+      "title": "Ingredients: Blending Custom Photos with Video Diffusion Transformers",
+      "authors": [
+        "Zhengcong Fei",
+        "Debang Li",
+        "Di Qiu",
+        "Changqian Yu",
+        "Mingyuan Fan"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/feizc/ingredients",
+      "published": "2025-01-03T12:45:22.000Z"
+    },
+    {
+      "id": "2501.03225",
+      "title": "Automated Generation of Challenging Multiple-Choice Questions for Vision Language Model Evaluation",
+      "authors": [
+        "Yuhui Zhang",
+        "Yuchang Su",
+        "Yiming Liu",
+        "Xiaohan Wang",
+        "James Burgess",
+        "Elaine Sui",
+        "Chenyu Wang",
+        "Josiah Aklilu",
+        "Alejandro Lozano",
+        "Anjiang Wei",
+        "Ludwig Schmidt",
+        "Serena Yeung-Levy"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/yuhui-zh15/autoconverter",
+      "published": "2025-01-06T18:57:31.000Z"
+    },
+    {
+      "id": "2501.03220",
+      "title": "ProTracker: Probabilistic Integration for Robust and Accurate Point Tracking",
+      "authors": [
+        "Tingyang Zhang",
+        "Chen Wang",
+        "Zhiyang Dou",
+        "Qingzhe Gao",
+        "Jiahui Lei",
+        "Baoquan Chen",
+        "Lingjie Liu"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/Michaelszj/pro-tracker",
+      "published": "2025-01-06T18:55:52.000Z"
+    }
+  ]
+}

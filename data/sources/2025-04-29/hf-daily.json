@@ -1,0 +1,254 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-04-29",
+  "fetched_at": "2026-10-29T15:31:21.505Z",
+  "candidates": [
+    {
+      "id": "2504.19413",
+      "title": "Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory",
+      "authors": [
+        "Prateek Chhikara",
+        "Dev Khant",
+        "Saket Aryan",
+        "Taranjeet Singh",
+        "Deshraj Yadav"
+      ],
+      "upvotes": 75,
+      "github": "https://github.com/mem0ai/mem0",
+      "published": "2025-04-28T01:46:35.000Z"
+    },
+    {
+      "id": "2504.19724",
+      "title": "RepText: Rendering Visual Text via Replicating",
+      "authors": [
+        "Haofan Wang",
+        "Yujia Xu",
+        "Yimeng Li",
+        "Junchen Li",
+        "Chaowei Zhang",
+        "Jing Wang",
+        "Kejia Yang",
+        "Zhibo Chen"
+      ],
+      "upvotes": 31,
+      "github": "https://github.com/Shakker-Labs/RepText",
+      "published": "2025-04-28T12:19:53.000Z"
+    },
+    {
+      "id": "2504.18919",
+      "title": "Clinical knowledge in LLMs does not translate to human interactions",
+      "authors": [
+        "Andrew M. Bean",
+        "Rebecca Payne",
+        "Guy Parsons",
+        "Hannah Rose Kirk",
+        "Juan Ciro",
+        "Rafael Mosquera",
+        "Sara Hincapié Monsalve",
+        "Aruna S. Ekanayaka",
+        "Lionel Tarassenko",
+        "Luc Rocher",
+        "Adam Mahdi"
+      ],
+      "upvotes": 26,
+      "github": "https://github.com/am-bean/HELPMed",
+      "published": "2025-04-26T13:32:49.000Z"
+    },
+    {
+      "id": "2504.19838",
+      "title": "LLM-Powered GUI Agents in Phone Automation: Surveying Progress and Prospects",
+      "authors": [
+        "Guangyi Liu",
+        "Pengxiang Zhao",
+        "Liang Liu",
+        "Yaxuan Guo",
+        "Han Xiao",
+        "Weifeng Lin",
+        "Yuxiang Chai",
+        "Yue Han",
+        "Shuai Ren",
+        "Hao Wang",
+        "Xiaoyu Liang",
+        "Wenhao Wang",
+        "Tianze Wu",
+        "Linghao Li",
+        "Hao Wang",
+        "Guanjing Xiong",
+        "Yong Liu",
+        "Hongsheng Li"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/phonellm/awesome-llm-powered-phone-gui-agents",
+      "published": "2025-04-28T14:39:25.000Z"
+    },
+    {
+      "id": "2504.19162",
+      "title": "SPC: Evolving Self-Play Critic via Adversarial Games for LLM Reasoning",
+      "authors": [
+        "Jiaqi Chen",
+        "Bang Zhang",
+        "Ruotian Ma",
+        "Peisong Wang",
+        "Xiaodan Liang",
+        "Zhaopeng Tu",
+        "Xiaolong Li",
+        "Kwan-Yee K. Wong"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/chen-judge/SPC",
+      "published": "2025-04-27T08:45:06.000Z"
+    },
+    {
+      "id": "2504.19093",
+      "title": "CipherBank: Exploring the Boundary of LLM Reasoning Capabilities through Cryptography Challenges",
+      "authors": [
+        "Yu Li",
+        "Qizhi Pei",
+        "Mengyuan Sun",
+        "Honglin Lin",
+        "Chenlin Ming",
+        "Xin Gao",
+        "Jiang Wu",
+        "Conghui He",
+        "Lijun Wu"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/Goodman-liyu/CipherBank",
+      "published": "2025-04-27T03:41:17.000Z"
+    },
+    {
+      "id": "2504.18589",
+      "title": "Benchmarking Multimodal Mathematical Reasoning with Explicit Visual Dependency",
+      "authors": [
+        "Zhikai Wang",
+        "Jiashuo Sun",
+        "Wenqi Zhang",
+        "Zhiqiang Hu",
+        "Xin Li",
+        "Fan Wang",
+        "Deli Zhao"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/alibaba-damo-academy/VCBench",
+      "published": "2025-04-24T06:16:38.000Z"
+    },
+    {
+      "id": "2504.17258",
+      "title": "Group Downsampling with Equivariant Anti-aliasing",
+      "authors": [
+        "Md Ashiqur Rahman",
+        "Raymond A. Yeh"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/ashiq24/Group_Sampling",
+      "published": "2025-04-24T05:29:51.000Z"
+    },
+    {
+      "id": "2504.16083",
+      "title": "MMInference: Accelerating Pre-filling for Long-Context VLMs via Modality-Aware Permutation Sparse Attention",
+      "authors": [
+        "Yucheng Li",
+        "Huiqiang Jiang",
+        "Chengruidong Zhang",
+        "Qianhui Wu",
+        "Xufang Luo",
+        "Surin Ahn",
+        "Amir H. Abdi",
+        "Dongsheng Li",
+        "Jianfeng Gao",
+        "Yuqing Yang",
+        "Lili Qiu"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/microsoft/MInference",
+      "published": "2025-04-22T17:59:51.000Z"
+    },
+    {
+      "id": "2504.19854",
+      "title": "NORA: A Small Open-Sourced Generalist Vision Language Action Model for Embodied Tasks",
+      "authors": [
+        "Chia-Yu Hung",
+        "Qi Sun",
+        "Pengfei Hong",
+        "Amir Zadeh",
+        "Chuan Li",
+        "U-Xuan Tan",
+        "Navonil Majumder",
+        "Soujanya Poria"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/declare-lab/nora",
+      "published": "2025-04-28T14:47:34.000Z"
+    },
+    {
+      "id": "2504.19062",
+      "title": "Versatile Framework for Song Generation with Prompt-based Control",
+      "authors": [
+        "Yu Zhang",
+        "Wenxiang Guo",
+        "Changhao Pan",
+        "Zhiyuan Zhu",
+        "Ruiqi Li",
+        "Jingyu Lu",
+        "Rongjie Huang",
+        "Ruiyuan Zhang",
+        "Zhiqing Hong",
+        "Ziyue Jiang",
+        "Zhou Zhao"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/AaronZ345/VersBand",
+      "published": "2025-04-27T01:00:06.000Z"
+    },
+    {
+      "id": "2504.15780",
+      "title": "TrustGeoGen: Scalable and Formal-Verified Data Engine for Trustworthy Multi-modal Geometric Problem Solving",
+      "authors": [
+        "Daocheng Fu",
+        "Zijun Chen",
+        "Renqiu Xia",
+        "Qi Liu",
+        "Yuan Feng",
+        "Hongbin Zhou",
+        "Renrui Zhang",
+        "Shiyang Feng",
+        "Peng Gao",
+        "Junchi Yan",
+        "Botian Shi",
+        "Bo Zhang",
+        "Yu Qiao"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/Alpha-Innovator/TrustGeoGen",
+      "published": "2025-04-22T10:45:23.000Z"
+    },
+    {
+      "id": "2504.19395",
+      "title": "ICL CIPHERS: Quantifying \"Learning'' in In-Context Learning via Substitution Ciphers",
+      "authors": [
+        "Zhouxiang Fang",
+        "Aayush Mishra",
+        "Muhan Gao",
+        "Anqi Liu",
+        "Daniel Khashabi"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/jhu-CLSP/icl-ciphers",
+      "published": "2025-04-28T00:05:29.000Z"
+    },
+    {
+      "id": "2504.19144",
+      "title": "ChiseLLM: Unleashing the Power of Reasoning LLMs for Chisel Agile Hardware Development",
+      "authors": [
+        "Bowei Wang",
+        "Jiaran Gao",
+        "Yelai Feng",
+        "Renzhi Chen",
+        "Shanshan Li",
+        "Lei Wang"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/observerw/chisellm",
+      "published": "2025-04-27T07:56:49.000Z"
+    }
+  ]
+}

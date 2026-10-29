@@ -1,0 +1,361 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-08-06",
+  "fetched_at": "2026-10-29T15:32:46.723Z",
+  "candidates": [
+    {
+      "id": "2508.02193",
+      "title": "Seed Diffusion: A Large-Scale Diffusion Language Model with High-Speed Inference",
+      "authors": [
+        "Yuxuan Song",
+        "Zheng Zhang",
+        "Cheng Luo",
+        "Pengyang Gao",
+        "Fan Xia",
+        "Hao Luo",
+        "Zheng Li",
+        "Yuehang Yang",
+        "Hongli Yu",
+        "Xingwei Qu",
+        "Yuwei Fu",
+        "Jing Su",
+        "Ge Zhang",
+        "Wenhao Huang",
+        "Mingxuan Wang",
+        "Lin Yan",
+        "Xiaoying Jia",
+        "Jingjing Liu",
+        "Wei-Ying Ma",
+        "Ya-Qin Zhang",
+        "Yonghui Wu",
+        "Hao Zhou"
+      ],
+      "upvotes": 138,
+      "github": null,
+      "published": "2025-08-04T08:43:01.000Z"
+    },
+    {
+      "id": "2508.03320",
+      "title": "Skywork UniPic: Unified Autoregressive Modeling for Visual Understanding and Generation",
+      "authors": [
+        "Peiyu Wang",
+        "Yi Peng",
+        "Yimeng Gan",
+        "Liang Hu",
+        "Tianyidan Xie",
+        "Xiaokun Wang",
+        "Yichen Wei",
+        "Chuanxin Tang",
+        "Bo Zhu",
+        "Changshi Li",
+        "Hongyang Wei",
+        "Eric Li",
+        "Xuchen Song",
+        "Yang Liu",
+        "Yahui Zhou"
+      ],
+      "upvotes": 65,
+      "github": "https://github.com/SkyworkAI/UniPic",
+      "published": "2025-08-05T10:59:01.000Z"
+    },
+    {
+      "id": "2508.03694",
+      "title": "LongVie: Multimodal-Guided Controllable Ultra-Long Video Generation",
+      "authors": [
+        "Jianxiong Gao",
+        "Zhaoxi Chen",
+        "Xian Liu",
+        "Jianfeng Feng",
+        "Chenyang Si",
+        "Yanwei Fu",
+        "Yu Qiao",
+        "Ziwei Liu"
+      ],
+      "upvotes": 52,
+      "github": null,
+      "published": "2025-08-05T17:59:58.000Z"
+    },
+    {
+      "id": "2508.03686",
+      "title": "CompassVerifier: A Unified and Robust Verifier for LLMs Evaluation and Outcome Reward",
+      "authors": [
+        "Shudong Liu",
+        "Hongwei Liu",
+        "Junnan Liu",
+        "Linchen Xiao",
+        "Songyang Gao",
+        "Chengqi Lyu",
+        "Yuzhe Gu",
+        "Wenwei Zhang",
+        "Derek F. Wong",
+        "Songyang Zhang",
+        "Kai Chen"
+      ],
+      "upvotes": 38,
+      "github": "https://github.com/open-compass/CompassVerifier",
+      "published": "2025-08-05T17:55:24.000Z"
+    },
+    {
+      "id": "2508.01780",
+      "title": "LiveMCPBench: Can Agents Navigate an Ocean of MCP Tools?",
+      "authors": [
+        "Guozhao Mo",
+        "Wenliang Zhong",
+        "Jiawei Chen",
+        "Xuanang Chen",
+        "Yaojie Lu",
+        "Hongyu Lin",
+        "Ben He",
+        "Xianpei Han",
+        "Le Sun"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/icip-cas/LiveMCPBench",
+      "published": "2025-08-03T14:36:42.000Z"
+    },
+    {
+      "id": "2508.03012",
+      "title": "Tool-integrated Reinforcement Learning for Repo Deep Search",
+      "authors": [
+        "Zexiong Ma",
+        "Chao Peng",
+        "Qunhong Zeng",
+        "Pengfei Gao",
+        "Yanzhen Zou",
+        "Bing Xie"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/Mizersy/RepoDeepSearch",
+      "published": "2025-08-05T02:44:21.000Z"
+    },
+    {
+      "id": "2508.00367",
+      "title": "Representation Shift: Unifying Token Compression with FlashAttention",
+      "authors": [
+        "Joonmyung Choi",
+        "Sanghyeok Lee",
+        "Byungoh Ko",
+        "Eunseo Kim",
+        "Jihyung Kil",
+        "Hyunwoo J. Kim"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/mlvlab/Representation-Shift",
+      "published": "2025-08-01T06:53:55.000Z"
+    },
+    {
+      "id": "2508.03613",
+      "title": "Goedel-Prover-V2: Scaling Formal Theorem Proving with Scaffolded Data Synthesis and Self-Correction",
+      "authors": [
+        "Yong Lin",
+        "Shange Tang",
+        "Bohan Lyu",
+        "Ziran Yang",
+        "Jui-Hui Chung",
+        "Haoyu Zhao",
+        "Lai Jiang",
+        "Yihan Geng",
+        "Jiawei Ge",
+        "Jingruo Sun",
+        "Jiayun Wu",
+        "Jiri Gesi",
+        "Ximing Lu",
+        "David Acuna",
+        "Kaiyu Yang",
+        "Hongzhou Lin",
+        "Yejin Choi",
+        "Danqi Chen",
+        "Sanjeev Arora",
+        "Chi Jin"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/Goedel-LM/Goedel-Prover-V2",
+      "published": "2025-08-05T16:28:22.000Z"
+    },
+    {
+      "id": "2508.02091",
+      "title": "CRINN: Contrastive Reinforcement Learning for Approximate Nearest Neighbor Search",
+      "authors": [
+        "Xiaoya Li",
+        "Xiaofei Sun",
+        "Albert Wang",
+        "Chris Shum",
+        "Jiwei Li"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/deepreinforce-ai/crinn",
+      "published": "2025-08-04T05:57:46.000Z"
+    },
+    {
+      "id": "2508.00477",
+      "title": "LAMIC: Layout-Aware Multi-Image Composition via Scalability of Multimodal Diffusion Transformer",
+      "authors": [
+        "Yuzhuo Chen",
+        "Zehua Ma",
+        "Jianhua Wang",
+        "Kai Kang",
+        "Shunyu Yao",
+        "Weiming Zhang"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/Suchenl/LAMIC",
+      "published": "2025-08-01T09:51:54.000Z"
+    },
+    {
+      "id": "2508.03050",
+      "title": "Multi-human Interactive Talking Dataset",
+      "authors": [
+        "Zeyu Zhu",
+        "Weijia Wu",
+        "Mike Zheng Shou"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/showlab/Multi-human-Talking-Video-Dataset",
+      "published": "2025-08-05T03:54:18.000Z"
+    },
+    {
+      "id": "2508.01119",
+      "title": "The Promise of RL for Autoregressive Image Editing",
+      "authors": [
+        "Saba Ahmadi",
+        "Rabiul Awal",
+        "Ankur Sikarwar",
+        "Amirhossein Kazemnejad",
+        "Ge Ya Luo",
+        "Juan A. Rodriguez",
+        "Sai Rajeswar",
+        "Siva Reddy",
+        "Christopher Pal",
+        "Benno Krojer",
+        "Aishwarya Agrawal"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/mair-lab/EARL",
+      "published": "2025-08-01T23:47:29.000Z"
+    },
+    {
+      "id": "2508.03164",
+      "title": "ChartCap: Mitigating Hallucination of Dense Chart Captioning",
+      "authors": [
+        "Junyoung Lim",
+        "Jaewoo Ahn",
+        "Gunhee Kim"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/junyoung-00/ChartCap",
+      "published": "2025-08-05T07:09:07.000Z"
+    },
+    {
+      "id": "2508.01126",
+      "title": "UniEgoMotion: A Unified Model for Egocentric Motion Reconstruction, Forecasting, and Generation",
+      "authors": [
+        "Chaitanya Patel",
+        "Hiroki Nakamura",
+        "Yuta Kyuragi",
+        "Kazuki Kozuka",
+        "Juan Carlos Niebles",
+        "Ehsan Adeli"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/chaitanya100100/UniEgoMotion",
+      "published": "2025-08-02T00:41:20.000Z"
+    },
+    {
+      "id": "2508.02629",
+      "title": "HyCodePolicy: Hybrid Language Controllers for Multimodal Monitoring and Decision in Embodied Agents",
+      "authors": [
+        "Yibin Liu",
+        "Zhixuan Liang",
+        "Zanxin Chen",
+        "Tianxing Chen",
+        "Mengkang Hu",
+        "Wanxi Dong",
+        "Congsheng Xu",
+        "Zhaoming Han",
+        "Yusen Qin",
+        "Yao Mu"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2025-08-04T17:18:14.000Z"
+    },
+    {
+      "id": "2508.02630",
+      "title": "What Is Your AI Agent Buying? Evaluation, Implications and Emerging Questions for Agentic E-Commerce",
+      "authors": [
+        "Amine Allouah",
+        "Omar Besbes",
+        "Josué D Figueroa",
+        "Yash Kanoria",
+        "Akshit Kumar"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/mycustomai/ACES",
+      "published": "2025-08-04T17:19:36.000Z"
+    },
+    {
+      "id": "2508.03793",
+      "title": "AttnTrace: Attention-based Context Traceback for Long-Context LLMs",
+      "authors": [
+        "Yanting Wang",
+        "Runpeng Geng",
+        "Ying Chen",
+        "Jinyuan Jia"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/Wang-Yanting/AttnTrace",
+      "published": "2025-08-05T17:56:51.000Z"
+    },
+    {
+      "id": "2507.23284",
+      "title": "Bidirectional Likelihood Estimation with Multi-Modal Large Language Models for Text-Video Retrieval",
+      "authors": [
+        "Dohwan Ko",
+        "Ji Soo Lee",
+        "Minhyuk Choi",
+        "Zihang Meng",
+        "Hyunwoo J. Kim"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/mlvlab/BLiM",
+      "published": "2025-07-31T06:57:28.000Z"
+    },
+    {
+      "id": "2508.02455",
+      "title": "TreeRanker: Fast and Model-agnostic Ranking System for Code Suggestions in IDEs",
+      "authors": [
+        "Daniele Cipollone",
+        "Egor Bogomolov",
+        "Arie van Deursen",
+        "Maliheh Izadi"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2025-08-04T14:20:39.000Z"
+    },
+    {
+      "id": "2508.02079",
+      "title": "AlignGuard-LoRA: Alignment-Preserving Fine-Tuning via Fisher-Guided Decomposition and Riemannian-Geodesic Collision Regularization",
+      "authors": [
+        "Amitava Das",
+        "Abhilekh Borah",
+        "Vinija Jain",
+        "Aman Chadha"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2025-08-04T05:45:24.000Z"
+    },
+    {
+      "id": "2508.02063",
+      "title": "TRACEALIGN -- Tracing the Drift: Attributing Alignment Failures to Training-Time Belief Sources in LLMs",
+      "authors": [
+        "Amitava Das",
+        "Vinija Jain",
+        "Aman Chadha"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2025-08-04T05:03:35.000Z"
+    }
+  ]
+}

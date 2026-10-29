@@ -1,0 +1,234 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-03-20",
+  "fetched_at": "2026-10-29T15:27:14.871Z",
+  "candidates": [
+    {
+      "id": "2403.12895",
+      "title": "mPLUG-DocOwl 1.5: Unified Structure Learning for OCR-free Document Understanding",
+      "authors": [
+        "Anwen Hu",
+        "Haiyang Xu",
+        "Jiabo Ye",
+        "Ming Yan",
+        "Liang Zhang",
+        "Bo Zhang",
+        "Chen Li",
+        "Ji Zhang",
+        "Qin Jin",
+        "Fei Huang",
+        "Jingren Zhou"
+      ],
+      "upvotes": 32,
+      "github": "https://github.com/x-plug/mplug-docowl",
+      "published": "2024-03-19T16:48:40.000Z"
+    },
+    {
+      "id": "2403.12968",
+      "title": "LLMLingua-2: Data Distillation for Efficient and Faithful Task-Agnostic Prompt Compression",
+      "authors": [
+        "Zhuoshi Pan",
+        "Qianhui Wu",
+        "Huiqiang Jiang",
+        "Menglin Xia",
+        "Xufang Luo",
+        "Jue Zhang",
+        "Qingwei Lin",
+        "Victor Rühle",
+        "Yuqing Yang",
+        "Chin-Yew Lin",
+        "H. Vicky Zhao",
+        "Lili Qiu",
+        "Dongmei Zhang"
+      ],
+      "upvotes": 26,
+      "github": "https://github.com/microsoft/LLMLingua",
+      "published": "2024-03-19T17:59:56.000Z"
+    },
+    {
+      "id": "2403.12173",
+      "title": "TnT-LLM: Text Mining at Scale with Large Language Models",
+      "authors": [
+        "Mengting Wan",
+        "Tara Safavi",
+        "Sujay Kumar Jauhar",
+        "Yujin Kim",
+        "Scott Counts",
+        "Jennifer Neville",
+        "Siddharth Suri",
+        "Chirag Shah",
+        "Ryen W White",
+        "Longqi Yang",
+        "Reid Andersen",
+        "Georg Buscher",
+        "Dhruv Joshi",
+        "Nagu Rangan"
+      ],
+      "upvotes": 21,
+      "github": null,
+      "published": "2024-03-18T18:45:28.000Z"
+    },
+    {
+      "id": "2403.12881",
+      "title": "Agent-FLAN: Designing Data and Methods of Effective Agent Tuning for Large Language Models",
+      "authors": [
+        "Zehui Chen",
+        "Kuikun Liu",
+        "Qiuchen Wang",
+        "Wenwei Zhang",
+        "Jiangning Liu",
+        "Dahua Lin",
+        "Kai Chen",
+        "Feng Zhao"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/internlm/agent-flan",
+      "published": "2024-03-19T16:26:10.000Z"
+    },
+    {
+      "id": "2403.12706",
+      "title": "AnimateDiff-Lightning: Cross-Model Diffusion Distillation",
+      "authors": [
+        "Shanchuan Lin",
+        "Xiao Yang"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2024-03-19T13:08:54.000Z"
+    },
+    {
+      "id": "2403.12943",
+      "title": "Vid2Robot: End-to-end Video-conditioned Policy Learning with Cross-Attention Transformers",
+      "authors": [
+        "Vidhi Jain",
+        "Maria Attarian",
+        "Nikhil J Joshi",
+        "Ayzaan Wahid",
+        "Danny Driess",
+        "Quan Vuong",
+        "Pannag R Sanketi",
+        "Pierre Sermanet",
+        "Stefan Welker",
+        "Christine Chan",
+        "Igor Gilitschenski",
+        "Yonatan Bisk",
+        "Debidatta Dwibedi"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2024-03-19T17:47:37.000Z"
+    },
+    {
+      "id": "2403.12365",
+      "title": "GaussianFlow: Splatting Gaussian Dynamics for 4D Content Creation",
+      "authors": [
+        "Quankai Gao",
+        "Qiangeng Xu",
+        "Zhe Cao",
+        "Ben Mildenhall",
+        "Wenchao Ma",
+        "Le Chen",
+        "Danhang Tang",
+        "Ulrich Neumann"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/Zerg-Overmind/GaussianFlow",
+      "published": "2024-03-19T02:22:21.000Z"
+    },
+    {
+      "id": "2403.12596",
+      "title": "Chart-based Reasoning: Transferring Capabilities from LLMs to VLMs",
+      "authors": [
+        "Victor Carbune",
+        "Hassan Mansoor",
+        "Fangyu Liu",
+        "Rahul Aralikatte",
+        "Gilles Baechler",
+        "Jindong Chen",
+        "Abhanshu Sharma"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2024-03-19T10:03:07.000Z"
+    },
+    {
+      "id": "2403.12409",
+      "title": "ComboVerse: Compositional 3D Assets Creation Using Spatially-Aware Diffusion Guidance",
+      "authors": [
+        "Yongwei Chen",
+        "Tengfei Wang",
+        "Tong Wu",
+        "Xingang Pan",
+        "Kui Jia",
+        "Ziwei Liu"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2024-03-19T03:39:43.000Z"
+    },
+    {
+      "id": "2403.12962",
+      "title": "FRESCO: Spatial-Temporal Correspondence for Zero-Shot Video Translation",
+      "authors": [
+        "Shuai Yang",
+        "Yifan Zhou",
+        "Ziwei Liu",
+        "Chen Change Loy"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/williamyang1991/fresco",
+      "published": "2024-03-19T17:59:18.000Z"
+    },
+    {
+      "id": "2403.12963",
+      "title": "FouriScale: A Frequency Perspective on Training-Free High-Resolution Image Synthesis",
+      "authors": [
+        "Linjiang Huang",
+        "Rongyao Fang",
+        "Aiping Zhang",
+        "Guanglu Song",
+        "Si Liu",
+        "Yu Liu",
+        "Hongsheng Li"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/leonhlj/fouriscale",
+      "published": "2024-03-19T17:59:33.000Z"
+    },
+    {
+      "id": "2403.12906",
+      "title": "TexDreamer: Towards Zero-Shot High-Fidelity 3D Human Texture Generation",
+      "authors": [
+        "Yufei Liu",
+        "Junwei Zhu",
+        "Junshu Tang",
+        "Shijie Zhang",
+        "Jiangning Zhang",
+        "Weijian Cao",
+        "Chengjie Wang",
+        "Yunsheng Wu",
+        "Dongjin Huang"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2024-03-19T17:02:07.000Z"
+    },
+    {
+      "id": "2403.12957",
+      "title": "GVGEN: Text-to-3D Generation with Volumetric Representation",
+      "authors": [
+        "Xianglong He",
+        "Junyi Chen",
+        "Sida Peng",
+        "Di Huang",
+        "Yangguang Li",
+        "Xiaoshui Huang",
+        "Chun Yuan",
+        "Wanli Ouyang",
+        "Tong He"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2024-03-19T17:57:52.000Z"
+    }
+  ]
+}

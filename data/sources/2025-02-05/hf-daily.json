@@ -1,0 +1,219 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-02-05",
+  "fetched_at": "2026-10-29T15:30:31.077Z",
+  "candidates": [
+    {
+      "id": "2502.02492",
+      "title": "VideoJAM: Joint Appearance-Motion Representations for Enhanced Motion Generation in Video Models",
+      "authors": [
+        "Hila Chefer",
+        "Uriel Singer",
+        "Amit Zohar",
+        "Yuval Kirstain",
+        "Adam Polyak",
+        "Yaniv Taigman",
+        "Lior Wolf",
+        "Shelly Sheynin"
+      ],
+      "upvotes": 67,
+      "github": null,
+      "published": "2025-02-04T17:07:10.000Z"
+    },
+    {
+      "id": "2502.01362",
+      "title": "Inverse Bridge Matching Distillation",
+      "authors": [
+        "Nikita Gushchin",
+        "David Li",
+        "Daniil Selikhanovych",
+        "Evgeny Burnaev",
+        "Dmitry Baranchuk",
+        "Alexander Korotin"
+      ],
+      "upvotes": 28,
+      "github": "https://github.com/ngushchin/IBMD",
+      "published": "2025-02-03T13:56:03.000Z"
+    },
+    {
+      "id": "2502.01718",
+      "title": "ACECODER: Acing Coder RL via Automated Test-Case Synthesis",
+      "authors": [
+        "Huaye Zeng",
+        "Dongfu Jiang",
+        "Haozhe Wang",
+        "Ping Nie",
+        "Xiaotong Chen",
+        "Wenhu Chen"
+      ],
+      "upvotes": 28,
+      "github": null,
+      "published": "2025-02-03T18:46:04.000Z"
+    },
+    {
+      "id": "2502.02508",
+      "title": "Satori: Reinforcement Learning with Chain-of-Action-Thought Enhances LLM Reasoning via Autoregressive Search",
+      "authors": [
+        "Maohao Shen",
+        "Guangtao Zeng",
+        "Zhenting Qi",
+        "Zhang-Wei Hong",
+        "Zhenfang Chen",
+        "Wei Lu",
+        "Gregory Wornell",
+        "Subhro Das",
+        "David Cox",
+        "Chuang Gan"
+      ],
+      "upvotes": 22,
+      "github": null,
+      "published": "2025-02-04T17:26:58.000Z"
+    },
+    {
+      "id": "2502.02584",
+      "title": "QLASS: Boosting Language Agent Inference via Q-Guided Stepwise Search",
+      "authors": [
+        "Zongyu Lin",
+        "Yao Tang",
+        "Xingcheng Yao",
+        "Da Yin",
+        "Ziniu Hu",
+        "Yizhou Sun",
+        "Kai-Wei Chang"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/rafa-zy/qlass",
+      "published": "2025-02-04T18:58:31.000Z"
+    },
+    {
+      "id": "2502.01941",
+      "title": "Can LLMs Maintain Fundamental Abilities under KV Cache Compression?",
+      "authors": [
+        "Xiang Liu",
+        "Zhenheng Tang",
+        "Hong Chen",
+        "Peijie Dong",
+        "Zeyu Li",
+        "Xiuze Zhou",
+        "Bo Li",
+        "Xuming Hu",
+        "Xiaowen Chu"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2025-02-04T02:23:06.000Z"
+    },
+    {
+      "id": "2501.19066",
+      "title": "Concept Steerers: Leveraging K-Sparse Autoencoders for Controllable Generations",
+      "authors": [
+        "Dahye Kim",
+        "Deepti Ghadiyaram"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/kim-dahye/steerers",
+      "published": "2025-01-31T11:52:47.000Z"
+    },
+    {
+      "id": "2502.00674",
+      "title": "Rethinking Mixture-of-Agents: Is Mixing Different Large Language Models Beneficial?",
+      "authors": [
+        "Wenzhe Li",
+        "Yong Lin",
+        "Mengzhou Xia",
+        "Chi Jin"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2025-02-02T05:23:29.000Z"
+    },
+    {
+      "id": "2502.01839",
+      "title": "Sample, Scrutinize and Scale: Effective Inference-Time Search by Scaling Verification",
+      "authors": [
+        "Eric Zhao",
+        "Pranjal Awasthi",
+        "Sreenivas Gollapudi"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2025-02-03T21:31:07.000Z"
+    },
+    {
+      "id": "2502.02589",
+      "title": "COCONut-PanCap: Joint Panoptic Segmentation and Grounded Captions for Fine-Grained Understanding and Generation",
+      "authors": [
+        "Xueqing Deng",
+        "Qihang Yu",
+        "Ali Athar",
+        "Chenglin Yang",
+        "Linjie Yang",
+        "Xiaojie Jin",
+        "Xiaohui Shen",
+        "Liang-Chieh Chen"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/bytedance/coconut_cvpr2024",
+      "published": "2025-02-04T18:59:46.000Z"
+    },
+    {
+      "id": "2501.19054",
+      "title": "Text-to-CAD Generation Through Infusing Visual Feedback in Large Language Models",
+      "authors": [
+        "Ruiyu Wang",
+        "Yu Yuan",
+        "Shizhao Sun",
+        "Jiang Bian"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2025-01-31T11:28:16.000Z"
+    },
+    {
+      "id": "2502.01720",
+      "title": "Generating Multi-Image Synthetic Data for Text-to-Image Customization",
+      "authors": [
+        "Nupur Kumari",
+        "Xi Yin",
+        "Jun-Yan Zhu",
+        "Ishan Misra",
+        "Samaneh Azadi"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2025-02-03T18:59:41.000Z"
+    },
+    {
+      "id": "2501.19389",
+      "title": "Federated Sketching LoRA: On-Device Collaborative Fine-Tuning of Large Language Models",
+      "authors": [
+        "Wenzhi Fang",
+        "Dong-Jun Han",
+        "Liangqi Yuan",
+        "Seyyedali Hosseinalipour",
+        "Christopher G. Brinton"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/wenzhifang/Federated-Sketching-LoRA-Implementation",
+      "published": "2025-01-31T18:44:35.000Z"
+    },
+    {
+      "id": "2502.00840",
+      "title": "Activation Approximations Can Incur Safety Vulnerabilities Even in Aligned LLMs: Comprehensive Analysis and Defense",
+      "authors": [
+        "Jiawen Zhang",
+        "Kejia Chen",
+        "Lipeng He",
+        "Jian Lou",
+        "Dan Li",
+        "Zunlei Feng",
+        "Mingli Song",
+        "Jian Liu",
+        "Kui Ren",
+        "Xiaohu Yang"
+      ],
+      "upvotes": 0,
+      "github": "https://github.com/zju-abclab/NEXUS",
+      "published": "2025-02-02T16:25:48.000Z"
+    }
+  ]
+}

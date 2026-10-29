@@ -1,0 +1,408 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-10-15",
+  "fetched_at": "2026-10-29T15:29:22.319Z",
+  "candidates": [
+    {
+      "id": "2410.10306",
+      "title": "Animate-X: Universal Character Image Animation with Enhanced Motion Representation",
+      "authors": [
+        "Shuai Tan",
+        "Biao Gong",
+        "Xiang Wang",
+        "Shiwei Zhang",
+        "Dandan Zheng",
+        "Ruobing Zheng",
+        "Kecheng Zheng",
+        "Jingdong Chen",
+        "Ming Yang"
+      ],
+      "upvotes": 57,
+      "github": "https://github.com/antgroup/animate-x",
+      "published": "2024-10-14T09:06:55.000Z"
+    },
+    {
+      "id": "2410.09732",
+      "title": "LOKI: A Comprehensive Synthetic Data Detection Benchmark using Large Multimodal Models",
+      "authors": [
+        "Junyan Ye",
+        "Baichuan Zhou",
+        "Zilong Huang",
+        "Junan Zhang",
+        "Tianyi Bai",
+        "Hengrui Kang",
+        "Jun He",
+        "Honglin Lin",
+        "Zihao Wang",
+        "Tong Wu",
+        "Zhizheng Wu",
+        "Yiping Chen",
+        "Dahua Lin",
+        "Conghui He",
+        "Weijia Li"
+      ],
+      "upvotes": 54,
+      "github": "https://github.com/opendatalab/LOKI",
+      "published": "2024-10-13T05:26:36.000Z"
+    },
+    {
+      "id": "2410.10139",
+      "title": "MMIE: Massive Multimodal Interleaved Comprehension Benchmark for Large Vision-Language Models",
+      "authors": [
+        "Peng Xia",
+        "Siwei Han",
+        "Shi Qiu",
+        "Yiyang Zhou",
+        "Zhaoyang Wang",
+        "Wenhao Zheng",
+        "Zhaorun Chen",
+        "Chenhang Cui",
+        "Mingyu Ding",
+        "Linjie Li",
+        "Lijuan Wang",
+        "Huaxiu Yao"
+      ],
+      "upvotes": 51,
+      "github": "https://github.com/Lillianwei-h/MMIE",
+      "published": "2024-10-14T04:15:00.000Z"
+    },
+    {
+      "id": "2410.09584",
+      "title": "Toward General Instruction-Following Alignment for Retrieval-Augmented Generation",
+      "authors": [
+        "Guanting Dong",
+        "Xiaoshuai Song",
+        "Yutao Zhu",
+        "Runqi Qiao",
+        "Zhicheng Dou",
+        "Ji-Rong Wen"
+      ],
+      "upvotes": 48,
+      "github": "https://github.com/dongguanting/FollowRAG",
+      "published": "2024-10-12T16:30:51.000Z"
+    },
+    {
+      "id": "2410.10563",
+      "title": "MEGA-Bench: Scaling Multimodal Evaluation to over 500 Real-World Tasks",
+      "authors": [
+        "Jiacheng Chen",
+        "Tianhao Liang",
+        "Sherman Siu",
+        "Zhengqing Wang",
+        "Kai Wang",
+        "Yubo Wang",
+        "Yuansheng Ni",
+        "Wang Zhu",
+        "Ziyan Jiang",
+        "Bohan Lyu",
+        "Dongfu Jiang",
+        "Xuan He",
+        "Yuan Liu",
+        "Hexiang Hu",
+        "Xiang Yue",
+        "Wenhu Chen"
+      ],
+      "upvotes": 37,
+      "github": "https://github.com/TIGER-AI-Lab/MEGA-Bench",
+      "published": "2024-10-14T14:42:12.000Z"
+    },
+    {
+      "id": "2410.10792",
+      "title": "Semantic Image Inversion and Editing using Rectified Stochastic Differential Equations",
+      "authors": [
+        "Litu Rout",
+        "Yujia Chen",
+        "Nataniel Ruiz",
+        "Constantine Caramanis",
+        "Sanjay Shakkottai",
+        "Wen-Sheng Chu"
+      ],
+      "upvotes": 31,
+      "github": "https://github.com/LituRout/RF-Inversion",
+      "published": "2024-10-14T17:56:24.000Z"
+    },
+    {
+      "id": "2410.07985",
+      "title": "Omni-MATH: A Universal Olympiad Level Mathematic Benchmark For Large Language Models",
+      "authors": [
+        "Bofei Gao",
+        "Feifan Song",
+        "Zhe Yang",
+        "Zefan Cai",
+        "Yibo Miao",
+        "Qingxiu Dong",
+        "Lei Li",
+        "Chenghao Ma",
+        "Liang Chen",
+        "Runxin Xu",
+        "Zhengyang Tang",
+        "Benyou Wang",
+        "Daoguang Zan",
+        "Shanghaoran Quan",
+        "Ge Zhang",
+        "Lei Sha",
+        "Yichang Zhang",
+        "Xuancheng Ren",
+        "Tianyu Liu",
+        "Baobao Chang"
+      ],
+      "upvotes": 31,
+      "github": "https://github.com/kbsdjames/omni-math",
+      "published": "2024-10-10T14:39:33.000Z"
+    },
+    {
+      "id": "2410.10594",
+      "title": "VisRAG: Vision-based Retrieval-augmented Generation on Multi-modality Documents",
+      "authors": [
+        "Shi Yu",
+        "Chaoyue Tang",
+        "Bokai Xu",
+        "Junbo Cui",
+        "Junhao Ran",
+        "Yukun Yan",
+        "Zhenghao Liu",
+        "Shuo Wang",
+        "Xu Han",
+        "Zhiyuan Liu",
+        "Maosong Sun"
+      ],
+      "upvotes": 29,
+      "github": "https://github.com/openbmb/visrag",
+      "published": "2024-10-14T15:04:18.000Z"
+    },
+    {
+      "id": "2410.10783",
+      "title": "LiveXiv -- A Multi-Modal Live Benchmark Based on Arxiv Papers Content",
+      "authors": [
+        "Nimrod Shabtay",
+        "Felipe Maia Polo",
+        "Sivan Doveh",
+        "Wei Lin",
+        "M. Jehanzeb Mirza",
+        "Leshem Chosen",
+        "Mikhail Yurochkin",
+        "Yuekai Sun",
+        "Assaf Arbelle",
+        "Leonid Karlinsky",
+        "Raja Giryes"
+      ],
+      "upvotes": 26,
+      "github": "https://github.com/nimrodshabtay/livexiv",
+      "published": "2024-10-14T17:51:23.000Z"
+    },
+    {
+      "id": "2410.10774",
+      "title": "Cavia: Camera-controllable Multi-view Video Diffusion with View-Integrated Attention",
+      "authors": [
+        "Dejia Xu",
+        "Yifan Jiang",
+        "Chen Huang",
+        "Liangchen Song",
+        "Thorsten Gernoth",
+        "Liangliang Cao",
+        "Zhangyang Wang",
+        "Hao Tang"
+      ],
+      "upvotes": 24,
+      "github": null,
+      "published": "2024-10-14T17:46:32.000Z"
+    },
+    {
+      "id": "2410.10630",
+      "title": "Thinking LLMs: General Instruction Following with Thought Generation",
+      "authors": [
+        "Tianhao Wu",
+        "Janice Lan",
+        "Weizhe Yuan",
+        "Jiantao Jiao",
+        "Jason Weston",
+        "Sainbayar Sukhbaatar"
+      ],
+      "upvotes": 20,
+      "github": null,
+      "published": "2024-10-14T15:38:56.000Z"
+    },
+    {
+      "id": "2410.09335",
+      "title": "Rethinking Data Selection at Scale: Random Selection is Almost All You Need",
+      "authors": [
+        "Tingyu Xia",
+        "Bowen Yu",
+        "Kai Dang",
+        "An Yang",
+        "Yuan Wu",
+        "Yuan Tian",
+        "Yi Chang",
+        "Junyang Lin"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/xiatingyu/sft-dataselection-at-scale",
+      "published": "2024-10-12T02:48:34.000Z"
+    },
+    {
+      "id": "2410.10818",
+      "title": "TemporalBench: Benchmarking Fine-grained Temporal Understanding for Multimodal Video Models",
+      "authors": [
+        "Mu Cai",
+        "Reuben Tan",
+        "Jianrui Zhang",
+        "Bocheng Zou",
+        "Kai Zhang",
+        "Feng Yao",
+        "Fangrui Zhu",
+        "Jing Gu",
+        "Yiwu Zhong",
+        "Yuzhang Shang",
+        "Yao Dou",
+        "Jaden Park",
+        "Jianfeng Gao",
+        "Yong Jae Lee",
+        "Jianwei Yang"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/mu-cai/TemporalBench",
+      "published": "2024-10-14T17:59:58.000Z"
+    },
+    {
+      "id": "2410.10813",
+      "title": "LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory",
+      "authors": [
+        "Di Wu",
+        "Hongwei Wang",
+        "Wenhao Yu",
+        "Yuwei Zhang",
+        "Kai-Wei Chang",
+        "Dong Yu"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/xiaowu0162/longmemeval",
+      "published": "2024-10-14T17:59:44.000Z"
+    },
+    {
+      "id": "2410.06634",
+      "title": "Tree of Problems: Improving structured problem solving with compositionality",
+      "authors": [
+        "Armel Zebaze",
+        "Benoît Sagot",
+        "Rachel Bawden"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/masoudhashemi/AWMS",
+      "published": "2024-10-09T07:35:46.000Z"
+    },
+    {
+      "id": "2410.09733",
+      "title": "MMCOMPOSITION: Revisiting the Compositionality of Pre-trained Vision-Language Models",
+      "authors": [
+        "Hang Hua",
+        "Yunlong Tang",
+        "Ziyun Zeng",
+        "Liangliang Cao",
+        "Zhengyuan Yang",
+        "Hangfeng He",
+        "Chenliang Xu",
+        "Jiebo Luo"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2024-10-13T05:35:09.000Z"
+    },
+    {
+      "id": "2410.10819",
+      "title": "DuoAttention: Efficient Long-Context LLM Inference with Retrieval and Streaming Heads",
+      "authors": [
+        "Guangxuan Xiao",
+        "Jiaming Tang",
+        "Jingwei Zuo",
+        "Junxian Guo",
+        "Shang Yang",
+        "Haotian Tang",
+        "Yao Fu",
+        "Song Han"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/mit-han-lab/duo-attention",
+      "published": "2024-10-14T17:59:58.000Z"
+    },
+    {
+      "id": "2410.10803",
+      "title": "Generalizable Humanoid Manipulation with Improved 3D Diffusion Policies",
+      "authors": [
+        "Yanjie Ze",
+        "Zixuan Chen",
+        "Wenhao Wang",
+        "Tianyi Chen",
+        "Xialin He",
+        "Ying Yuan",
+        "Xue Bin Peng",
+        "Jiajun Wu"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/YanjieZe/Improved-3D-Diffusion-Policy",
+      "published": "2024-10-14T17:59:00.000Z"
+    },
+    {
+      "id": "2410.09223",
+      "title": "The Same But Different: Structural Similarities and Differences in Multilingual Language Modeling",
+      "authors": [
+        "Ruochen Zhang",
+        "Qinan Yu",
+        "Matianyu Zang",
+        "Carsten Eickhoff",
+        "Ellie Pavlick"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2024-10-11T19:57:55.000Z"
+    },
+    {
+      "id": "2410.07752",
+      "title": "TVBench: Redesigning Video-Language Evaluation",
+      "authors": [
+        "Daniel Cores",
+        "Michael Dorkenwald",
+        "Manuel Mucientes",
+        "Cees G. M. Snoek",
+        "Yuki M. Asano"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2024-10-10T09:28:36.000Z"
+    },
+    {
+      "id": "2410.09637",
+      "title": "ReLU's Revival: On the Entropic Overload in Normalization-Free Large Language Models",
+      "authors": [
+        "Nandan Kumar Jha",
+        "Brandon Reagen"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/nandan91/relu-revival-normfree",
+      "published": "2024-10-12T20:26:01.000Z"
+    },
+    {
+      "id": "2410.11758",
+      "title": "Latent Action Pretraining from Videos",
+      "authors": [
+        "Seonghyeon Ye",
+        "Joel Jang",
+        "Byeongguk Jeon",
+        "Sejune Joo",
+        "Jianwei Yang",
+        "Baolin Peng",
+        "Ajay Mandlekar",
+        "Reuben Tan",
+        "Yu-Wei Chao",
+        "Bill Yuchen Lin",
+        "Lars Liden",
+        "Kimin Lee",
+        "Jianfeng Gao",
+        "Luke Zettlemoyer",
+        "Dieter Fox",
+        "Minjoon Seo"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2024-10-15T16:28:09.000Z"
+    }
+  ]
+}

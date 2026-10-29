@@ -1,0 +1,289 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2023-11-14",
+  "fetched_at": "2026-10-29T15:25:57.678Z",
+  "candidates": [
+    {
+      "id": "2311.07069",
+      "title": "Music ControlNet: Multiple Time-varying Controls for Music Generation",
+      "authors": [
+        "Shih-Lun Wu",
+        "Chris Donahue",
+        "Shinji Watanabe",
+        "Nicholas J. Bryan"
+      ],
+      "upvotes": 44,
+      "github": null,
+      "published": "2023-11-13T04:24:14.000Z"
+    },
+    {
+      "id": "2311.06772",
+      "title": "ChatAnything: Facetime Chat with LLM-Enhanced Personas",
+      "authors": [
+        "Yilin Zhao",
+        "Xinbin Yuan",
+        "Shanghua Gao",
+        "Zhijie Lin",
+        "Qibin Hou",
+        "Jiashi Feng",
+        "Daquan Zhou"
+      ],
+      "upvotes": 35,
+      "github": "https://github.com/zhoudaquan/ChatAnything",
+      "published": "2023-11-12T08:29:41.000Z"
+    },
+    {
+      "id": "2311.07446",
+      "title": "Story-to-Motion: Synthesizing Infinite and Controllable Character Animation from Long Text",
+      "authors": [
+        "Zhongfei Qing",
+        "Zhongang Cai",
+        "Zhitao Yang",
+        "Lei Yang"
+      ],
+      "upvotes": 29,
+      "github": null,
+      "published": "2023-11-13T16:22:38.000Z"
+    },
+    {
+      "id": "2311.06783",
+      "title": "Q-Instruct: Improving Low-level Visual Abilities for Multi-modality Foundation Models",
+      "authors": [
+        "Haoning Wu",
+        "Zicheng Zhang",
+        "Erli Zhang",
+        "Chaofeng Chen",
+        "Liang Liao",
+        "Annan Wang",
+        "Kaixin Xu",
+        "Chunyi Li",
+        "Jingwen Hou",
+        "Guangtao Zhai",
+        "Geng Xue",
+        "Wenxiu Sun",
+        "Qiong Yan",
+        "Weisi Lin"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/Q-Future/Q-Instruct",
+      "published": "2023-11-12T09:10:51.000Z"
+    },
+    {
+      "id": "2311.07574",
+      "title": "To See is to Believe: Prompting GPT-4V for Better Visual Instruction Tuning",
+      "authors": [
+        "Junke Wang",
+        "Lingchen Meng",
+        "Zejia Weng",
+        "Bo He",
+        "Zuxuan Wu",
+        "Yu-Gang Jiang"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/x2fd/lvis-instruct4v",
+      "published": "2023-11-13T18:59:31.000Z"
+    },
+    {
+      "id": "2311.06430",
+      "title": "GOAT: GO to Any Thing",
+      "authors": [
+        "Matthew Chang",
+        "Theophile Gervet",
+        "Mukul Khanna",
+        "Sriram Yenamandra",
+        "Dhruv Shah",
+        "So Yeon Min",
+        "Kavit Shah",
+        "Chris Paxton",
+        "Saurabh Gupta",
+        "Dhruv Batra",
+        "Roozbeh Mottaghi",
+        "Jitendra Malik",
+        "Devendra Singh Chaplot"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2023-11-10T23:31:51.000Z"
+    },
+    {
+      "id": "2311.07575",
+      "title": "SPHINX: The Joint Mixing of Weights, Tasks, and Visual Embeddings for Multi-modal Large Language Models",
+      "authors": [
+        "Ziyi Lin",
+        "Chris Liu",
+        "Renrui Zhang",
+        "Peng Gao",
+        "Longtian Qiu",
+        "Han Xiao",
+        "Han Qiu",
+        "Chen Lin",
+        "Wenqi Shao",
+        "Keqin Chen",
+        "Jiaming Han",
+        "Siyuan Huang",
+        "Yichi Zhang",
+        "Xuming He",
+        "Hongsheng Li",
+        "Yu Qiao"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2023-11-13T18:59:47.000Z"
+    },
+    {
+      "id": "2311.07562",
+      "title": "GPT-4V in Wonderland: Large Multimodal Models for Zero-Shot Smartphone GUI Navigation",
+      "authors": [
+        "An Yan",
+        "Zhengyuan Yang",
+        "Wanrong Zhu",
+        "Kevin Lin",
+        "Linjie Li",
+        "Jianfeng Wang",
+        "Jianwei Yang",
+        "Yiwu Zhong",
+        "Julian McAuley",
+        "Jianfeng Gao",
+        "Zicheng Liu",
+        "Lijuan Wang"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/zzxslp/mm-navigator",
+      "published": "2023-11-13T18:53:37.000Z"
+    },
+    {
+      "id": "2311.07463",
+      "title": "MEGAVERSE: Benchmarking Large Language Models Across Languages, Modalities, Models and Tasks",
+      "authors": [
+        "Sanchit Ahuja",
+        "Divyanshu Aggarwal",
+        "Varun Gumma",
+        "Ishaan Watts",
+        "Ashutosh Sathe",
+        "Millicent Ochieng",
+        "Rishav Hada",
+        "Prachi Jain",
+        "Maxamed Axmed",
+        "Kalika Bali",
+        "Sunayana Sitaram"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2023-11-13T16:45:37.000Z"
+    },
+    {
+      "id": "2311.07361",
+      "title": "The Impact of Large Language Models on Scientific Discovery: a Preliminary Study using GPT-4",
+      "authors": [
+        "Microsoft Research AI4Science",
+        "Microsoft Azure Quantum"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2023-11-13T14:26:12.000Z"
+    },
+    {
+      "id": "2311.06697",
+      "title": "Trusted Source Alignment in Large Language Models",
+      "authors": [
+        "Vasilisa Bashlovkina",
+        "Zhaobin Kuang",
+        "Riley Matthews",
+        "Edward Clifford",
+        "Yennie Jun",
+        "William W. Cohen",
+        "Simon Baumgartner"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2023-11-12T00:25:25.000Z"
+    },
+    {
+      "id": "2311.06495",
+      "title": "LayoutPrompter: Awaken the Design Ability of Large Language Models",
+      "authors": [
+        "Jiawei Lin",
+        "Jiaqi Guo",
+        "Shizhao Sun",
+        "Zijiang James Yang",
+        "Jian-Guang Lou",
+        "Dongmei Zhang"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/microsoft/layoutgeneration",
+      "published": "2023-11-11T07:15:14.000Z"
+    },
+    {
+      "id": "2311.06720",
+      "title": "Cappy: Outperforming and Boosting Large Multi-Task LMs with a Small Scorer",
+      "authors": [
+        "Bowen Tan",
+        "Yun Zhu",
+        "Lijuan Liu",
+        "Eric Xing",
+        "Zhiting Hu",
+        "Jindong Chen"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2023-11-12T03:25:34.000Z"
+    },
+    {
+      "id": "2311.06753",
+      "title": "Towards General-Purpose Speech Abilities for Large Language Models Using Unpaired Data",
+      "authors": [
+        "Yassir Fathullah",
+        "Chunyang Wu",
+        "Egor Lakomkin",
+        "Junteng Jia",
+        "Yuan Shangguan",
+        "Jay Mahadeokar",
+        "Ozlem Kalinli",
+        "Christian Fuegen",
+        "Mike Seltzer"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2023-11-12T06:56:14.000Z"
+    },
+    {
+      "id": "2311.07587",
+      "title": "Frontier Language Models are not Robust to Adversarial Arithmetic, or \"What do I need to say so you agree 2+2=5?",
+      "authors": [
+        "C. Daniel Freeman",
+        "Laura Culp",
+        "Aaron Parisi",
+        "Maxwell L Bileschi",
+        "Gamaleldin F Elsayed",
+        "Alex Rizkowsky",
+        "Isabelle Simpson",
+        "Alex Alemi",
+        "Azade Nova",
+        "Ben Adlam",
+        "Bernd Bohnet",
+        "Gaurav Mishra",
+        "Hanie Sedghi",
+        "Igor Mordatch",
+        "Izzeddin Gur",
+        "Jaehoon Lee",
+        "JD Co-Reyes",
+        "Jeffrey Pennington",
+        "Kelvin Xu",
+        "Kevin Swersky",
+        "Kshiteej Mahajan",
+        "Lechao Xiao",
+        "Rosanne Liu",
+        "Simon Kornblith",
+        "Noah Constant",
+        "Peter J. Liu",
+        "Roman Novak",
+        "Sharad Vikram",
+        "Yundi Qian",
+        "Noah Fiedel",
+        "Jascha Sohl-Dickstein"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2023-11-08T19:07:10.000Z"
+    }
+  ]
+}

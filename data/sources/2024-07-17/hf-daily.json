@@ -1,0 +1,314 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-07-17",
+  "fetched_at": "2026-10-29T15:28:27.464Z",
+  "candidates": [
+    {
+      "id": "2407.10759",
+      "title": "Qwen2-Audio Technical Report",
+      "authors": [
+        "Yunfei Chu",
+        "Jin Xu",
+        "Qian Yang",
+        "Haojie Wei",
+        "Xipin Wei",
+        "Zhifang Guo",
+        "Yichong Leng",
+        "Yuanjun Lv",
+        "Jinzheng He",
+        "Junyang Lin",
+        "Chang Zhou",
+        "Jingren Zhou"
+      ],
+      "upvotes": 64,
+      "github": "https://github.com/qwenlm/qwen2-audio",
+      "published": "2024-07-15T14:38:09.000Z"
+    },
+    {
+      "id": "2407.11963",
+      "title": "NeedleBench: Can LLMs Do Retrieval and Reasoning in 1 Million Context Window?",
+      "authors": [
+        "Mo Li",
+        "Songyang Zhang",
+        "Yunxin Liu",
+        "Kai Chen"
+      ],
+      "upvotes": 43,
+      "github": "https://github.com/open-compass/opencompass",
+      "published": "2024-07-16T17:59:06.000Z"
+    },
+    {
+      "id": "2407.11633",
+      "title": "Scaling Diffusion Transformers to 16 Billion Parameters",
+      "authors": [
+        "Zhengcong Fei",
+        "Mingyuan Fan",
+        "Changqian Yu",
+        "Debang Li",
+        "Junshi Huang"
+      ],
+      "upvotes": 26,
+      "github": "https://github.com/feizc/dit-moe",
+      "published": "2024-07-16T11:55:23.000Z"
+    },
+    {
+      "id": "2407.10957",
+      "title": "Ref-AVS: Refer and Segment Objects in Audio-Visual Scenes",
+      "authors": [
+        "Yaoting Wang",
+        "Peiwen Sun",
+        "Dongzhan Zhou",
+        "Guangyao Li",
+        "Honggang Zhang",
+        "Di Hu"
+      ],
+      "upvotes": 23,
+      "github": null,
+      "published": "2024-07-15T17:54:45.000Z"
+    },
+    {
+      "id": "2407.11691",
+      "title": "VLMEvalKit: An Open-Source Toolkit for Evaluating Large Multi-Modality Models",
+      "authors": [
+        "Haodong Duan",
+        "Junming Yang",
+        "Yuxuan Qiao",
+        "Xinyu Fang",
+        "Lin Chen",
+        "Yuan Liu",
+        "Xiaoyi Dong",
+        "Yuhang Zang",
+        "Pan Zhang",
+        "Jiaqi Wang",
+        "Dahua Lin",
+        "Kai Chen"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2024-07-16T13:06:15.000Z"
+    },
+    {
+      "id": "2407.10718",
+      "title": "Sibyl: Simple yet Effective Agent Framework for Complex Real-world Reasoning",
+      "authors": [
+        "Yulong Wang",
+        "Tianhao Shen",
+        "Lifeng Liu",
+        "Jian Xie"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/ag2s1/sibyl-system",
+      "published": "2024-07-15T13:45:40.000Z"
+    },
+    {
+      "id": "2407.11394",
+      "title": "DreamCatalyst: Fast and High-Quality 3D Editing via Controlling Editability and Identity Preservation",
+      "authors": [
+        "Jiwook Kim",
+        "Seonho Lee",
+        "Jaeyo Shin",
+        "Jiho Choi",
+        "Hyunjung Shim"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/kaist-cvml-lab/DreamCatalyst",
+      "published": "2024-07-16T05:26:14.000Z"
+    },
+    {
+      "id": "2407.11062",
+      "title": "EfficientQAT: Efficient Quantization-Aware Training for Large Language Models",
+      "authors": [
+        "Mengzhao Chen",
+        "Wenqi Shao",
+        "Peng Xu",
+        "Jiahao Wang",
+        "Peng Gao",
+        "Kaipeng Zhang",
+        "Yu Qiao",
+        "Ping Luo"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/OpenGVLab/EfficientQAT",
+      "published": "2024-07-10T17:53:30.000Z"
+    },
+    {
+      "id": "2407.11398",
+      "title": "Animate3D: Animating Any 3D Model with Multi-view Video Diffusion",
+      "authors": [
+        "Yanqin Jiang",
+        "Chaohui Yu",
+        "Chenjie Cao",
+        "Fan Wang",
+        "Weiming Hu",
+        "Jin Gao"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2024-07-16T05:35:57.000Z"
+    },
+    {
+      "id": "2407.11144",
+      "title": "YouTube-SL-25: A Large-Scale, Open-Domain Multilingual Sign Language Parallel Corpus",
+      "authors": [
+        "Garrett Tanzer",
+        "Biao Zhang"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2024-07-15T18:08:34.000Z"
+    },
+    {
+      "id": "2407.11522",
+      "title": "FIRE: A Dataset for Feedback Integration and Refinement Evaluation of Multimodal Models",
+      "authors": [
+        "Pengxiang Li",
+        "Zhi Gao",
+        "Bofei Zhang",
+        "Tao Yuan",
+        "Yuwei Wu",
+        "Mehrtash Harandi",
+        "Yunde Jia",
+        "Song-Chun Zhu",
+        "Qing Li"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2024-07-16T09:00:45.000Z"
+    },
+    {
+      "id": "2407.11966",
+      "title": "Efficient Training with Denoised Neural Weights",
+      "authors": [
+        "Yifan Gong",
+        "Zheng Zhan",
+        "Yanyu Li",
+        "Yerlan Idelbayev",
+        "Andrey Zharkov",
+        "Kfir Aberman",
+        "Sergey Tulyakov",
+        "Yanzhi Wang",
+        "Jian Ren"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2024-07-16T17:59:42.000Z"
+    },
+    {
+      "id": "2407.11239",
+      "title": "From GaLore to WeLore: How Low-Rank Weights Non-uniformly Emerge from Low-Rank Gradients",
+      "authors": [
+        "Ajay Jaiswal",
+        "Lu Yin",
+        "Zhenyu Zhang",
+        "Shiwei Liu",
+        "Jiawei Zhao",
+        "Yuandong Tian",
+        "Zhangyang Wang"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/vita-group/welore",
+      "published": "2024-07-15T21:05:20.000Z"
+    },
+    {
+      "id": "2407.11895",
+      "title": "OmniBind: Large-scale Omni Multimodal Representation via Binding Spaces",
+      "authors": [
+        "Zehan Wang",
+        "Ziang Zhang",
+        "Hang Zhang",
+        "Luping Liu",
+        "Rongjie Huang",
+        "Xize Cheng",
+        "Hengshuang Zhao",
+        "Zhou Zhao"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2024-07-16T16:24:31.000Z"
+    },
+    {
+      "id": "2407.11385",
+      "title": "Grasping Diverse Objects with Simulated Humanoids",
+      "authors": [
+        "Zhengyi Luo",
+        "Jinkun Cao",
+        "Sammy Christen",
+        "Alexander Winkler",
+        "Kris Kitani",
+        "Weipeng Xu"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2024-07-16T05:05:02.000Z"
+    },
+    {
+      "id": "2407.11784",
+      "title": "Data-Juicer Sandbox: A Comprehensive Suite for Multimodal Data-Model Co-development",
+      "authors": [
+        "Daoyuan Chen",
+        "Haibin Wang",
+        "Yilun Huang",
+        "Ce Ge",
+        "Yaliang Li",
+        "Bolin Ding",
+        "Jingren Zhou"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/modelscope/data-juicer",
+      "published": "2024-07-16T14:40:07.000Z"
+    },
+    {
+      "id": "2407.11793",
+      "title": "Click-Gaussian: Interactive Segmentation to Any 3D Gaussians",
+      "authors": [
+        "Seokhun Choi",
+        "Hyeonseop Song",
+        "Jaechul Kim",
+        "Taehyeong Kim",
+        "Hoseok Do"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2024-07-16T14:49:27.000Z"
+    },
+    {
+      "id": "2407.11828",
+      "title": "Vibravox: A Dataset of French Speech Captured with Body-conduction Audio Sensors",
+      "authors": [
+        "Julien Hauret",
+        "Malo Olivier",
+        "Thomas Joubaud",
+        "Christophe Langrenne",
+        "Sarah Poirée",
+        "Véronique Zimpfer",
+        "Éric Bavu"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/jhauret/vibravox",
+      "published": "2024-07-16T15:16:10.000Z"
+    },
+    {
+      "id": "2407.11282",
+      "title": "Uncertainty is Fragile: Manipulating Uncertainty in Large Language Models",
+      "authors": [
+        "Qingcheng Zeng",
+        "Mingyu Jin",
+        "Qinkai Yu",
+        "Zhenting Wang",
+        "Wenyue Hua",
+        "Zihao Zhou",
+        "Guangyan Sun",
+        "Yanda Meng",
+        "Shiqing Ma",
+        "Qifan Wang",
+        "Felix Juefei-Xu",
+        "Kaize Ding",
+        "Fan Yang",
+        "Ruixiang Tang",
+        "Yongfeng Zhang"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/qcznlp/uncertainty_attack",
+      "published": "2024-07-15T23:41:11.000Z"
+    }
+  ]
+}

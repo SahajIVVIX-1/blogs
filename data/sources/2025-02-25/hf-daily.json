@@ -1,0 +1,542 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-02-25",
+  "fetched_at": "2026-10-29T15:30:43.368Z",
+  "candidates": [
+    {
+      "id": "2502.17258",
+      "title": "VideoGrain: Modulating Space-Time Attention for Multi-grained Video Editing",
+      "authors": [
+        "Xiangpeng Yang",
+        "Linchao Zhu",
+        "Hehe Fan",
+        "Yi Yang"
+      ],
+      "upvotes": 78,
+      "github": "https://github.com/knightyxp/VideoGrain",
+      "published": "2025-02-24T15:39:14.000Z"
+    },
+    {
+      "id": "2502.17129",
+      "title": "Thus Spake Long-Context Large Language Model",
+      "authors": [
+        "Xiaoran Liu",
+        "Ruixiao Li",
+        "Mianqiu Huang",
+        "Zhigeng Liu",
+        "Yuerong Song",
+        "Qipeng Guo",
+        "Siyang He",
+        "Qiqi Wang",
+        "Linlin Li",
+        "Qun Liu",
+        "Yaqian Zhou",
+        "Xuanjing Huang",
+        "Xipeng Qiu"
+      ],
+      "upvotes": 73,
+      "github": "https://github.com/OpenMOSS/Thus-Spake-Long-Context-LLM",
+      "published": "2025-02-24T13:19:33.000Z"
+    },
+    {
+      "id": "2502.15814",
+      "title": "Slamming: Training a Speech Language Model on One GPU in a Day",
+      "authors": [
+        "Gallil Maimon",
+        "Avishai Elmakies",
+        "Yossi Adi"
+      ],
+      "upvotes": 69,
+      "github": "https://github.com/slp-rl/slamkit",
+      "published": "2025-02-19T17:21:15.000Z"
+    },
+    {
+      "id": "2502.17157",
+      "title": "DICEPTION: A Generalist Diffusion Model for Visual Perceptual Tasks",
+      "authors": [
+        "Canyu Zhao",
+        "Mingyu Liu",
+        "Huanyi Zheng",
+        "Muzhi Zhu",
+        "Zhiyue Zhao",
+        "Hao Chen",
+        "Tong He",
+        "Chunhua Shen"
+      ],
+      "upvotes": 51,
+      "github": "https://github.com/aim-uofa/Diception",
+      "published": "2025-02-24T13:51:06.000Z"
+    },
+    {
+      "id": "2502.16584",
+      "title": "Audio-FLAN: A Preliminary Release",
+      "authors": [
+        "Liumeng Xue",
+        "Ziya Zhou",
+        "Jiahao Pan",
+        "Zixuan Li",
+        "Shuai Fan",
+        "Yinghao Ma",
+        "Sitong Cheng",
+        "Dongchao Yang",
+        "Haohan Guo",
+        "Yujia Xiao",
+        "Xinsheng Wang",
+        "Zixuan Shen",
+        "Chuanbo Zhu",
+        "Xinshen Zhang",
+        "Tianchi Liu",
+        "Ruibin Yuan",
+        "Zeyue Tian",
+        "Haohe Liu",
+        "Emmanouil Benetos",
+        "Ge Zhang",
+        "Yike Guo",
+        "Wei Xue"
+      ],
+      "upvotes": 36,
+      "github": "https://github.com/lmxue/audio-flan",
+      "published": "2025-02-23T14:24:15.000Z"
+    },
+    {
+      "id": "2502.16894",
+      "title": "Make LoRA Great Again: Boosting LoRA with Adaptive Singular Values and Mixture-of-Experts Optimization Alignment",
+      "authors": [
+        "Chenghao Fan",
+        "Zhenyi Lu",
+        "Sichen Liu",
+        "Xiaoye Qu",
+        "Wei Wei",
+        "Chengfeng Gu",
+        "Yu Cheng"
+      ],
+      "upvotes": 33,
+      "github": "https://github.com/Facico/GOAT-PEFT",
+      "published": "2025-02-24T06:48:13.000Z"
+    },
+    {
+      "id": "2502.17435",
+      "title": "GCC: Generative Color Constancy via Diffusing a Color Checker",
+      "authors": [
+        "Chen-Wei Chang",
+        "Cheng-De Fan",
+        "Chia-Che Chang",
+        "Yi-Chen Lo",
+        "Yu-Chee Tseng",
+        "Jiun-Long Huang",
+        "Yu-Lun Liu"
+      ],
+      "upvotes": 31,
+      "github": null,
+      "published": "2025-02-24T18:59:54.000Z"
+    },
+    {
+      "id": "2502.16614",
+      "title": "CodeCriticBench: A Holistic Code Critique Benchmark for Large Language Models",
+      "authors": [
+        "Alexander Zhang",
+        "Marcus Dong",
+        "Jiaheng Liu",
+        "Wei Zhang",
+        "Yejie Wang",
+        "Jian Yang",
+        "Ge Zhang",
+        "Tianyu Liu",
+        "Zhongyuan Peng",
+        "Yingshui Tan",
+        "Yuanxing Zhang",
+        "Zhexu Wang",
+        "Weixun Wang",
+        "Yancheng He",
+        "Ken Deng",
+        "Wangchunshu Zhou",
+        "Wenhao Huang",
+        "Zhaoxiang Zhang"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/multimodal-art-projection/CodeCriticBench",
+      "published": "2025-02-23T15:36:43.000Z"
+    },
+    {
+      "id": "2502.17407",
+      "title": "Linguistic Generalizability of Test-Time Scaling in Mathematical Reasoning",
+      "authors": [
+        "Guijin Son",
+        "Jiwoo Hong",
+        "Hyunwoo Ko",
+        "James Thorne"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/gauss5930/mclm",
+      "published": "2025-02-24T18:36:15.000Z"
+    },
+    {
+      "id": "2502.17055",
+      "title": "Stable-SPAM: How to Train in 4-Bit More Stably than 16-Bit Adam",
+      "authors": [
+        "Tianjin Huang",
+        "Haotian Hu",
+        "Zhenyu Zhang",
+        "Gaojie Jin",
+        "Xiang Li",
+        "Li Shen",
+        "Tianlong Chen",
+        "Lu Liu",
+        "Qingsong Wen",
+        "Zhangyang Wang",
+        "Shiwei Liu"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/tianjinyellow/stablespam",
+      "published": "2025-02-24T11:09:15.000Z"
+    },
+    {
+      "id": "2502.15894",
+      "title": "RIFLEx: A Free Lunch for Length Extrapolation in Video Diffusion Transformers",
+      "authors": [
+        "Min Zhao",
+        "Guande He",
+        "Yixiao Chen",
+        "Hongzhou Zhu",
+        "Chongxuan Li",
+        "Jun Zhu"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/thu-ml/RIFLEx",
+      "published": "2025-02-21T19:28:05.000Z"
+    },
+    {
+      "id": "2502.16033",
+      "title": "Multimodal Inconsistency Reasoning (MMIR): A New Benchmark for Multimodal Reasoning Models",
+      "authors": [
+        "Qianqi Yan",
+        "Yue Fan",
+        "Hongquan Li",
+        "Shan Jiang",
+        "Yang Zhao",
+        "Xinze Guan",
+        "Ching-Chen Kuo",
+        "Xin Eric Wang"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/eric-ai-lab/MMIR",
+      "published": "2025-02-22T01:52:37.000Z"
+    },
+    {
+      "id": "2502.16701",
+      "title": "Beyond Release: Access Considerations for Generative AI Systems",
+      "authors": [
+        "Irene Solaiman",
+        "Rishi Bommasani",
+        "Dan Hendrycks",
+        "Ariel Herbert-Voss",
+        "Yacine Jernite",
+        "Aviya Skowron",
+        "Andrew Trask"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2025-02-23T20:06:12.000Z"
+    },
+    {
+      "id": "2502.17414",
+      "title": "X-Dancer: Expressive Music to Human Dance Video Generation",
+      "authors": [
+        "Zeyuan Chen",
+        "Hongyi Xu",
+        "Guoxian Song",
+        "You Xie",
+        "Chenxu Zhang",
+        "Xin Chen",
+        "Chao Wang",
+        "Di Chang",
+        "Linjie Luo"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2025-02-24T18:47:54.000Z"
+    },
+    {
+      "id": "2502.16707",
+      "title": "Reflective Planning: Vision-Language Models for Multi-Stage Long-Horizon Robotic Manipulation",
+      "authors": [
+        "Yunhai Feng",
+        "Jiaming Han",
+        "Zhuoran Yang",
+        "Xiangyu Yue",
+        "Sergey Levine",
+        "Jianlan Luo"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/yunhaif/reflect-vlm",
+      "published": "2025-02-23T20:42:15.000Z"
+    },
+    {
+      "id": "2502.17110",
+      "title": "Mobile-Agent-V: Learning Mobile Device Operation Through Video-Guided Multi-Agent Collaboration",
+      "authors": [
+        "Junyang Wang",
+        "Haiyang Xu",
+        "Xi Zhang",
+        "Ming Yan",
+        "Ji Zhang",
+        "Fei Huang",
+        "Jitao Sang"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2025-02-24T12:51:23.000Z"
+    },
+    {
+      "id": "2502.16810",
+      "title": "Grounded Persuasive Language Generation for Automated Marketing",
+      "authors": [
+        "Jibang Wu",
+        "Chenghao Yang",
+        "Simon Mahns",
+        "Chaoqi Wang",
+        "Hao Zhu",
+        "Fei Fang",
+        "Haifeng Xu"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/yangalan123/AI-Realtor-Codebase",
+      "published": "2025-02-24T03:36:57.000Z"
+    },
+    {
+      "id": "2502.15987",
+      "title": "Forecasting Open-Weight AI Model Growth on Hugging Face",
+      "authors": [
+        "Kushal Raj Bhandari",
+        "Pin-Yu Chen",
+        "Jianxi Gao"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2025-02-21T22:52:19.000Z"
+    },
+    {
+      "id": "2502.15425",
+      "title": "TAG: A Decentralized Framework for Multi-Agent Hierarchical Reinforcement Learning",
+      "authors": [
+        "Giuseppe Paolo",
+        "Abdelhakim Benechehab",
+        "Hamza Cherkaoui",
+        "Albert Thomas",
+        "Balázs Kégl"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/GPaolo/TAG_Framework",
+      "published": "2025-02-21T12:52:16.000Z"
+    },
+    {
+      "id": "2502.16922",
+      "title": "Benchmarking Temporal Reasoning and Alignment Across Chinese Dynasties",
+      "authors": [
+        "Zhenglin Wang",
+        "Jialong Wu",
+        "Pengfei LI",
+        "Yong Jiang",
+        "Deyu Zhou"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/Linking-ai/ctm_bench",
+      "published": "2025-02-24T07:27:54.000Z"
+    },
+    {
+      "id": "2502.15823",
+      "title": "InductionBench: LLMs Fail in the Simplest Complexity Class",
+      "authors": [
+        "Wenyue Hua",
+        "Tyler Wong",
+        "Sun Fei",
+        "Liangming Pan",
+        "Adam Jardine",
+        "William Yang Wang"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/wenyueh/inductive_reasoning_benchmark",
+      "published": "2025-02-20T03:48:00.000Z"
+    },
+    {
+      "id": "2502.15799",
+      "title": "Investigating the Impact of Quantization Methods on the Safety and Reliability of Large Language Models",
+      "authors": [
+        "Artyom Kharinaev",
+        "Viktor Moskvoretskii",
+        "Egor Shvetsov",
+        "Kseniia Studenikina",
+        "Bykov Mikhail",
+        "Evgeny Burnaev"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/On-Point-RND/OpenSafetyMini-Investigating-the-Impact-of-Quantization-Methods-on-the-Safety-and-Reliability-of-LLM",
+      "published": "2025-02-18T20:32:05.000Z"
+    },
+    {
+      "id": "2502.14247",
+      "title": "Pandora3D: A Comprehensive Framework for High-Quality 3D Shape and Texture Generation",
+      "authors": [
+        "Jiayu Yang",
+        "Taizhang Shang",
+        "Weixuan Sun",
+        "Xibin Song",
+        "Ziang Cheng",
+        "Senbo Wang",
+        "Shenzhou Chen",
+        "Weizhe Liu",
+        "Hongdong Li",
+        "Pan Ji"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/tencent/tencent-xr-3dgen",
+      "published": "2025-02-20T04:22:30.000Z"
+    },
+    {
+      "id": "2502.15872",
+      "title": "MutaGReP: Execution-Free Repository-Grounded Plan Search for Code-Use",
+      "authors": [
+        "Zaid Khan",
+        "Ali Farhadi",
+        "Ranjay Krishna",
+        "Luca Weihs",
+        "Mohit Bansal",
+        "Tanmay Gupta"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/codezakh/MutaGReP",
+      "published": "2025-02-21T18:58:17.000Z"
+    },
+    {
+      "id": "2502.17237",
+      "title": "MegaLoc: One Retrieval to Place Them All",
+      "authors": [
+        "Gabriele Berton",
+        "Carlo Masone"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/gmberton/megaloc",
+      "published": "2025-02-24T15:14:55.000Z"
+    },
+    {
+      "id": "2502.14132",
+      "title": "Can Community Notes Replace Professional Fact-Checkers?",
+      "authors": [
+        "Nadav Borenstein",
+        "Greta Warren",
+        "Desmond Elliott",
+        "Isabelle Augenstein"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-02-19T22:26:39.000Z"
+    },
+    {
+      "id": "2502.15919",
+      "title": "Mind the Gap! Static and Interactive Evaluations of Large Audio Models",
+      "authors": [
+        "Minzhi Li",
+        "William Barr Held",
+        "Michael J Ryan",
+        "Kunat Pipatanakul",
+        "Potsawee Manakul",
+        "Hao Zhu",
+        "Diyi Yang"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-02-21T20:29:02.000Z"
+    },
+    {
+      "id": "2502.14429",
+      "title": "Early-Exit and Instant Confidence Translation Quality Estimation",
+      "authors": [
+        "Vilém Zouhar",
+        "Maike Züfle",
+        "Beni Egressy",
+        "Julius Cheng",
+        "Jan Niehues"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/zouharvi/COMET-early-exit",
+      "published": "2025-02-20T10:27:13.000Z"
+    },
+    {
+      "id": "2502.15122",
+      "title": "MONSTER: Monash Scalable Time Series Evaluation Repository",
+      "authors": [
+        "Angus Dempster",
+        "Navid Mohammadi Foumani",
+        "Chang Wei Tan",
+        "Lynn Miller",
+        "Amish Mishra",
+        "Mahsa Salehi",
+        "Charlotte Pelletier",
+        "Daniel F. Schmidt",
+        "Geoffrey I. Webb"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/Navidfoumani/monster",
+      "published": "2025-02-21T00:54:40.000Z"
+    },
+    {
+      "id": "2502.15920",
+      "title": "Self-Taught Agentic Long Context Understanding",
+      "authors": [
+        "Yufan Zhuang",
+        "Xiaodong Yu",
+        "Jialian Wu",
+        "Ximeng Sun",
+        "Ze Wang",
+        "Jiang Liu",
+        "Yusheng Su",
+        "Jingbo Shang",
+        "Zicheng Liu",
+        "Emad Barsoum"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/EvanZhuang/AgenticLU",
+      "published": "2025-02-21T20:29:36.000Z"
+    },
+    {
+      "id": "2502.16622",
+      "title": "Diagnosing COVID-19 Severity from Chest X-Ray Images Using ViT and CNN Architectures",
+      "authors": [
+        "Luis Lara",
+        "Lucia Eve Berger",
+        "Rajesh Raju",
+        "Shawn Whitfield"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/stwhitfield/covid-severity",
+      "published": "2025-02-23T15:50:42.000Z"
+    },
+    {
+      "id": "2502.13074",
+      "title": "The snake in the Brownian sphere",
+      "authors": [
+        "Omer Angel",
+        "Emmanuel Jacob",
+        "Brett Kolesnik",
+        "Grégory Miermont"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2025-02-18T17:21:44.000Z"
+    },
+    {
+      "id": "2502.15167",
+      "title": "M3-AGIQA: Multimodal, Multi-Round, Multi-Aspect AI-Generated Image Quality Assessment",
+      "authors": [
+        "Chuan Cui",
+        "Kejiang Chen",
+        "Zhihua Wei",
+        "Wen Shen",
+        "Weiming Zhang",
+        "Nenghai Yu"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/strawhatboy/M3-AGIQA",
+      "published": "2025-02-21T03:05:45.000Z"
+    }
+  ]
+}

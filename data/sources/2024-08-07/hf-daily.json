@@ -1,0 +1,207 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-08-07",
+  "fetched_at": "2026-10-29T15:28:40.297Z",
+  "candidates": [
+    {
+      "id": "2408.03314",
+      "title": "Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters",
+      "authors": [
+        "Charlie Snell",
+        "Jaehoon Lee",
+        "Kelvin Xu",
+        "Aviral Kumar"
+      ],
+      "upvotes": 68,
+      "github": "https://github.com/huggingface/search-and-learn",
+      "published": "2024-08-06T17:35:05.000Z"
+    },
+    {
+      "id": "2408.03326",
+      "title": "LLaVA-OneVision: Easy Visual Task Transfer",
+      "authors": [
+        "Bo Li",
+        "Yuanhan Zhang",
+        "Dong Guo",
+        "Renrui Zhang",
+        "Feng Li",
+        "Hao Zhang",
+        "Kaichen Zhang",
+        "Yanwei Li",
+        "Ziwei Liu",
+        "Chunyuan Li"
+      ],
+      "upvotes": 61,
+      "github": "https://github.com/MindSpore-scientific-2/code-14",
+      "published": "2024-08-06T17:59:44.000Z"
+    },
+    {
+      "id": "2408.02718",
+      "title": "MMIU: Multimodal Multi-image Understanding for Evaluating Large Vision-Language Models",
+      "authors": [
+        "Fanqing Meng",
+        "Jin Wang",
+        "Chuanhao Li",
+        "Quanfeng Lu",
+        "Hao Tian",
+        "Jiaqi Liao",
+        "Xizhou Zhu",
+        "Jifeng Dai",
+        "Yu Qiao",
+        "Ping Luo",
+        "Kaipeng Zhang",
+        "Wenqi Shao"
+      ],
+      "upvotes": 60,
+      "github": null,
+      "published": "2024-08-05T17:56:41.000Z"
+    },
+    {
+      "id": "2408.03178",
+      "title": "An Object is Worth 64x64 Pixels: Generating 3D Object via Image Diffusion",
+      "authors": [
+        "Xingguang Yan",
+        "Han-Hung Lee",
+        "Ziyu Wan",
+        "Angel X. Chang"
+      ],
+      "upvotes": 40,
+      "github": null,
+      "published": "2024-08-06T13:22:51.000Z"
+    },
+    {
+      "id": "2408.02900",
+      "title": "MedTrinity-25M: A Large-scale Multimodal Dataset with Multigranular Annotations for Medicine",
+      "authors": [
+        "Yunfei Xie",
+        "Ce Zhou",
+        "Lang Gao",
+        "Juncheng Wu",
+        "Xianhang Li",
+        "Hong-Yu Zhou",
+        "Sheng Liu",
+        "Lei Xing",
+        "James Zou",
+        "Cihang Xie",
+        "Yuyin Zhou"
+      ],
+      "upvotes": 31,
+      "github": "https://github.com/UCSC-VLAA/MedTrinity-25M",
+      "published": "2024-08-06T02:09:35.000Z"
+    },
+    {
+      "id": "2408.03209",
+      "title": "IPAdapter-Instruct: Resolving Ambiguity in Image-based Conditioning using Instruct Prompts",
+      "authors": [
+        "Ciara Rowles",
+        "Shimon Vainer",
+        "Dante De Nigris",
+        "Slava Elizarov",
+        "Konstantin Kutsy",
+        "Simon Donné"
+      ],
+      "upvotes": 22,
+      "github": null,
+      "published": "2024-08-06T14:08:22.000Z"
+    },
+    {
+      "id": "2408.03325",
+      "title": "CoverBench: A Challenging Benchmark for Complex Claim Verification",
+      "authors": [
+        "Alon Jacovi",
+        "Moran Ambar",
+        "Eyal Ben-David",
+        "Uri Shaham",
+        "Amir Feder",
+        "Mor Geva",
+        "Dror Marcus",
+        "Avi Caciularu"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2024-08-06T17:58:53.000Z"
+    },
+    {
+      "id": "2408.02752",
+      "title": "Diffusion Models as Data Mining Tools",
+      "authors": [
+        "Ioannis Siglidis",
+        "Aleksander Holynski",
+        "Alexei A. Efros",
+        "Mathieu Aubry",
+        "Shiry Ginosar"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2024-07-20T17:14:31.000Z"
+    },
+    {
+      "id": "2408.03284",
+      "title": "ReSyncer: Rewiring Style-based Generator for Unified Audio-Visually Synced Facial Performer",
+      "authors": [
+        "Jiazhi Guan",
+        "Zhiliang Xu",
+        "Hang Zhou",
+        "Kaisiyuan Wang",
+        "Shengyi He",
+        "Zhanwang Zhang",
+        "Borong Liang",
+        "Haocheng Feng",
+        "Errui Ding",
+        "Jingtuo Liu",
+        "Jingdong Wang",
+        "Youjian Zhao",
+        "Ziwei Liu"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2024-08-06T16:31:45.000Z"
+    },
+    {
+      "id": "2408.03256",
+      "title": "Synthesizing Text-to-SQL Data from Weak and Strong LLMs",
+      "authors": [
+        "Jiaxi Yang",
+        "Binyuan Hui",
+        "Min Yang",
+        "Jian Yang",
+        "Junyang Lin",
+        "Chang Zhou"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2024-08-06T15:40:32.000Z"
+    },
+    {
+      "id": "2408.03281",
+      "title": "StructEval: Deepen and Broaden Large Language Model Assessment via Structured Evaluation",
+      "authors": [
+        "Boxi Cao",
+        "Mengjie Ren",
+        "Hongyu Lin",
+        "Xianpei Han",
+        "Feng Zhang",
+        "Junfeng Zhan",
+        "Le Sun"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/c-box/structeval",
+      "published": "2024-08-06T16:28:30.000Z"
+    },
+    {
+      "id": "2408.01708",
+      "title": "AVESFormer: Efficient Transformer Design for Real-Time Audio-Visual Segmentation",
+      "authors": [
+        "Zili Wang",
+        "Qi Yang",
+        "Linsu Shi",
+        "Jiazhong Yu",
+        "Qinghua Liang",
+        "Fei Li",
+        "Shiming Xiang"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/MarkXCloud/AVESFormer",
+      "published": "2024-08-03T08:25:26.000Z"
+    }
+  ]
+}

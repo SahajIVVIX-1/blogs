@@ -1,0 +1,7 @@
+{
+  "id": "2507.18071",
+  "html": "https://arxiv.org/html/2507.18071",
+  "limitations": null,
+  "conclusion": "We propose Group Sequence Policy Optimization (GSPO), a new reinforcement learning algorithm for training large language models. Following the basic principle of importance sampling, GSPO defines importance ratios based on sequence likelihood and performs sequence-level clipping, rewarding, and optimization. GSPO demonstrates notably superior training stability, efficiency, and performance compared to GRPO and exhibits particular efficacy for the large-scale RL training of MoE models, laying the foundation for the exceptional improvements in the latest Qwen3 models. With GSPO as a scalable algorithmic cornerstone, we will continue to scale RL and look forward to the resulting fundamental advances in intelligence.",
+  "figure": null
+}

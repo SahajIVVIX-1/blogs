@@ -1,0 +1,7 @@
+{
+  "id": "2406.17557",
+  "html": "https://arxiv.org/html/2406.17557",
+  "limitations": null,
+  "conclusion": "In this paper, we developed the FineWeb datasets, a collection of large-scale LLM pretraining datasets that produce performant LLMs. Specifically, we release FineWeb, a 15-trillion token dataset derived from 96 Common Crawl snapshots, as well as FineWeb-Edu, a 1.3-trillion token dataset of educational content from FineWeb. FineWeb was created through a series of experiments that provided empirical evidence for our choice of text extraction strategy, deduplication procedure, and content filters. Both datasets are publicly released, along with the code and processing library that we used and all of the models we trained during our dataset ablation experiments. While FineWeb and FineWeb-Edu attain state-of-the-art performance among public LLM pretraining datasets, we identify various paths to further improvement. First, both datasets are entirely comprised of web content scraped by Common C",
+  "figure": null
+}

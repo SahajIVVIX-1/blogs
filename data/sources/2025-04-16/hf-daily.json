@@ -1,0 +1,528 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-04-16",
+  "fetched_at": "2026-10-29T15:31:13.526Z",
+  "candidates": [
+    {
+      "id": "2504.11346",
+      "title": "Seedream 3.0 Technical Report",
+      "authors": [
+        "Yu Gao",
+        "Lixue Gong",
+        "Qiushan Guo",
+        "Xiaoxia Hou",
+        "Zhichao Lai",
+        "Fanshi Li",
+        "Liang Li",
+        "Xiaochen Lian",
+        "Chao Liao",
+        "Liyang Liu",
+        "Wei Liu",
+        "Yichun Shi",
+        "Shiqi Sun",
+        "Yu Tian",
+        "Zhi Tian",
+        "Peng Wang",
+        "Rui Wang",
+        "Xuanda Wang",
+        "Xun Wang",
+        "Ye Wang",
+        "Guofeng Wu",
+        "Jie Wu",
+        "Xin Xia",
+        "Xuefeng Xiao",
+        "Zhonghua Zhai",
+        "Xinyu Zhang",
+        "Qi Zhang",
+        "Yuwei Zhang",
+        "Shijia Zhao",
+        "Jianchao Yang",
+        "Weilin Huang"
+      ],
+      "upvotes": 71,
+      "github": null,
+      "published": "2025-04-15T16:19:07.000Z"
+    },
+    {
+      "id": "2504.10481",
+      "title": "xVerify: Efficient Answer Verifier for Reasoning Model Evaluations",
+      "authors": [
+        "Ding Chen",
+        "Qingchen Yu",
+        "Pengyuan Wang",
+        "Wentao Zhang",
+        "Bo Tang",
+        "Feiyu Xiong",
+        "Xinchi Li",
+        "Minchuan Yang",
+        "Zhiyu Li"
+      ],
+      "upvotes": 60,
+      "github": "https://github.com/IAAR-Shanghai/xVerify",
+      "published": "2025-04-14T17:59:36.000Z"
+    },
+    {
+      "id": "2504.08672",
+      "title": "Genius: A Generalizable and Purely Unsupervised Self-Training Framework For Advanced Reasoning",
+      "authors": [
+        "Fangzhi Xu",
+        "Hang Yan",
+        "Chang Ma",
+        "Haiteng Zhao",
+        "Qiushi Sun",
+        "Kanzhi Cheng",
+        "Junxian He",
+        "Jun Liu",
+        "Zhiyong Wu"
+      ],
+      "upvotes": 54,
+      "github": "https://github.com/xufangzhi/Genius",
+      "published": "2025-04-11T16:26:23.000Z"
+    },
+    {
+      "id": "2504.10766",
+      "title": "How Instruction and Reasoning Data shape Post-Training: Data Quality through the Lens of Layer-wise Gradients",
+      "authors": [
+        "Ming Li",
+        "Yanhong Li",
+        "Ziyue Li",
+        "Tianyi Zhou"
+      ],
+      "upvotes": 40,
+      "github": "https://github.com/MingLiiii/Gradient_Unified",
+      "published": "2025-04-14T23:53:47.000Z"
+    },
+    {
+      "id": "2504.10337",
+      "title": "Heimdall: test-time scaling on the generative verification",
+      "authors": [
+        "Wenlei Shi",
+        "Xing Jin"
+      ],
+      "upvotes": 31,
+      "github": null,
+      "published": "2025-04-14T15:46:33.000Z"
+    },
+    {
+      "id": "2504.10465",
+      "title": "Pixel-SAIL: Single Transformer For Pixel-Grounded Understanding",
+      "authors": [
+        "Tao Zhang",
+        "Xiangtai Li",
+        "Zilong Huang",
+        "Yanwei Li",
+        "Weixian Lei",
+        "Xueqing Deng",
+        "Shihao Chen",
+        "Shunping Ji",
+        "Jiashi Feng"
+      ],
+      "upvotes": 27,
+      "github": null,
+      "published": "2025-04-14T17:52:22.000Z"
+    },
+    {
+      "id": "2504.11442",
+      "title": "TextArena",
+      "authors": [
+        "Leon Guertler",
+        "Bobby Cheng",
+        "Simon Yu",
+        "Bo Liu",
+        "Leshem Choshen",
+        "Cheston Tan"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/LeonGuertler/TextArena",
+      "published": "2025-04-15T17:55:20.000Z"
+    },
+    {
+      "id": "2504.10903",
+      "title": "Efficient Reasoning Models: A Survey",
+      "authors": [
+        "Sicheng Feng",
+        "Gongfan Fang",
+        "Xinyin Ma",
+        "Xinchao Wang"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/fscdc/Awesome-Efficient-Reasoning-Models",
+      "published": "2025-04-15T06:28:00.000Z"
+    },
+    {
+      "id": "2504.11393",
+      "title": "DataDecide: How to Predict Best Pretraining Data with Small Experiments",
+      "authors": [
+        "Ian Magnusson",
+        "Nguyen Tai",
+        "Ben Bogin",
+        "David Heineman",
+        "Jena D. Hwang",
+        "Luca Soldaini",
+        "Akshita Bhagia",
+        "Jiacheng Liu",
+        "Dirk Groeneveld",
+        "Oyvind Tafjord",
+        "Noah A. Smith",
+        "Pang Wei Koh",
+        "Jesse Dodge"
+      ],
+      "upvotes": 20,
+      "github": null,
+      "published": "2025-04-15T17:02:15.000Z"
+    },
+    {
+      "id": "2504.11343",
+      "title": "A Minimalist Approach to LLM Reasoning: from Rejection Sampling to Reinforce",
+      "authors": [
+        "Wei Xiong",
+        "Jiarui Yao",
+        "Yuhui Xu",
+        "Bo Pang",
+        "Lei Wang",
+        "Doyen Sahoo",
+        "Junnan Li",
+        "Nan Jiang",
+        "Tong Zhang",
+        "Caiming Xiong",
+        "Hanze Dong"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/rlhflow/minimal-rl",
+      "published": "2025-04-15T16:15:02.000Z"
+    },
+    {
+      "id": "2504.11427",
+      "title": "NormalCrafter: Learning Temporally Consistent Normals from Video Diffusion Priors",
+      "authors": [
+        "Yanrui Bin",
+        "Wenbo Hu",
+        "Haoyuan Wang",
+        "Xinya Chen",
+        "Bing Wang"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/Binyr/NormalCrafter",
+      "published": "2025-04-15T17:39:07.000Z"
+    },
+    {
+      "id": "2504.11001",
+      "title": "ReZero: Enhancing LLM search ability by trying one-more-time",
+      "authors": [
+        "Alan Dao",
+        "Thinh Le"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/menloresearch/ReZero",
+      "published": "2025-04-15T09:18:21.000Z"
+    },
+    {
+      "id": "2504.10462",
+      "title": "The Scalability of Simplicity: Empirical Analysis of Vision-Language Learning with a Single Transformer",
+      "authors": [
+        "Weixian Lei",
+        "Jiacong Wang",
+        "Haochen Wang",
+        "Xiangtai Li",
+        "Jun Hao Liew",
+        "Jiashi Feng",
+        "Zilong Huang"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/bytedance/sail",
+      "published": "2025-04-14T17:50:20.000Z"
+    },
+    {
+      "id": "2504.11455",
+      "title": "SimpleAR: Pushing the Frontier of Autoregressive Visual Generation through Pretraining, SFT, and RL",
+      "authors": [
+        "Junke Wang",
+        "Zhi Tian",
+        "Xun Wang",
+        "Xinyu Zhang",
+        "Weilin Huang",
+        "Zuxuan Wu",
+        "Yu-Gang Jiang"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/wdrink/SimpleAR",
+      "published": "2025-04-15T17:59:46.000Z"
+    },
+    {
+      "id": "2504.10559",
+      "title": "Efficient Process Reward Model Training via Active Learning",
+      "authors": [
+        "Keyu Duan",
+        "Zichen Liu",
+        "Xin Mao",
+        "Tianyu Pang",
+        "Changyu Chen",
+        "Qiguang Chen",
+        "Michael Qizhe Shieh",
+        "Longxu Dou"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/sail-sg/ActivePRM",
+      "published": "2025-04-14T14:53:56.000Z"
+    },
+    {
+      "id": "2504.10342",
+      "title": "VisualPuzzles: Decoupling Multimodal Reasoning Evaluation from Domain Knowledge",
+      "authors": [
+        "Yueqi Song",
+        "Tianyue Ou",
+        "Yibo Kong",
+        "Zecheng Li",
+        "Graham Neubig",
+        "Xiang Yue"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/neulab/VisualPuzzles",
+      "published": "2025-04-14T15:50:39.000Z"
+    },
+    {
+      "id": "2504.11456",
+      "title": "DeepMath-103K: A Large-Scale, Challenging, Decontaminated, and Verifiable Mathematical Dataset for Advancing Reasoning",
+      "authors": [
+        "Zhiwei He",
+        "Tian Liang",
+        "Jiahao Xu",
+        "Qiuzhi Liu",
+        "Xingyu Chen",
+        "Yue Wang",
+        "Linfeng Song",
+        "Dian Yu",
+        "Zhenwen Liang",
+        "Wenxuan Wang",
+        "Zhuosheng Zhang",
+        "Rui Wang",
+        "Zhaopeng Tu",
+        "Haitao Mi",
+        "Dong Yu"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/zwhe99/DeepMath",
+      "published": "2025-04-15T17:59:51.000Z"
+    },
+    {
+      "id": "2504.09454",
+      "title": "D^2iT: Dynamic Diffusion Transformer for Accurate Image Generation",
+      "authors": [
+        "Weinan Jia",
+        "Mengqi Huang",
+        "Nan Chen",
+        "Lei Zhang",
+        "Zhendong Mao"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/jiawn-creator/Dynamic-DiT",
+      "published": "2025-04-13T06:33:28.000Z"
+    },
+    {
+      "id": "2504.10277",
+      "title": "RealHarm: A Collection of Real-World Language Model Application Failures",
+      "authors": [
+        "Pierre Le Jeune",
+        "Jiaen Liu",
+        "Luca Rossi",
+        "Matteo Dora"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/Giskard-AI/realharm",
+      "published": "2025-04-14T14:44:41.000Z"
+    },
+    {
+      "id": "2504.10188",
+      "title": "Efficient Generative Model Training via Embedded Representation Warmup",
+      "authors": [
+        "Deyuan Liu",
+        "Peng Sun",
+        "Xufeng Li",
+        "Tao Lin"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/LINs-lab/ERW",
+      "published": "2025-04-14T12:43:17.000Z"
+    },
+    {
+      "id": "2504.11409",
+      "title": "Efficient Hybrid Language Model Compression through Group-Aware SSM Pruning",
+      "authors": [
+        "Ali Taghibakhshi",
+        "Sharath Turuvekere Sreenivas",
+        "Saurav Muralidharan",
+        "Marcin Chochowski",
+        "Yashaswi Karnati",
+        "Raviraj Joshi",
+        "Ameya Sunil Mahabaleshwarkar",
+        "Zijia Chen",
+        "Yoshi Suhara",
+        "Oluwatobi Olabiyi",
+        "Daniel Korzekwa",
+        "Mostofa Patwary",
+        "Mohammad Shoeybi",
+        "Jan Kautz",
+        "Bryan Catanzaro",
+        "Ashwath Aithal",
+        "Nima Tajbakhsh",
+        "Pavlo Molchanov"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2025-04-15T17:26:29.000Z"
+    },
+    {
+      "id": "2504.08846",
+      "title": "AI-University: An LLM-based platform for instructional alignment to scientific classrooms",
+      "authors": [
+        "Mostafa Faghih Shojaei",
+        "Rahul Gulati",
+        "Benjamin A. Jasperson",
+        "Shangshang Wang",
+        "Simone Cimolato",
+        "Dangli Cao",
+        "Willie Neiswanger",
+        "Krishna Garikipati"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/my-ai-university/finite-element-method",
+      "published": "2025-04-11T01:26:34.000Z"
+    },
+    {
+      "id": "2504.11326",
+      "title": "PVUW 2025 Challenge Report: Advances in Pixel-level Understanding of Complex Videos in the Wild",
+      "authors": [
+        "Henghui Ding",
+        "Chang Liu",
+        "Nikhila Ravi",
+        "Shuting He",
+        "Yunchao Wei",
+        "Song Bai",
+        "Philip Torr",
+        "Kehuan Song",
+        "Xinglin Xie",
+        "Kexin Zhang",
+        "Licheng Jiao",
+        "Lingling Li",
+        "Shuyuan Yang",
+        "Xuqiang Cao",
+        "Linnan Zhao",
+        "Jiaxuan Zhao",
+        "Fang Liu",
+        "Mengjiao Wang",
+        "Junpei Zhang",
+        "Xu Liu",
+        "Yuting Yang",
+        "Mengru Ma",
+        "Hao Fang",
+        "Runmin Cong",
+        "Xiankai Lu",
+        "Zhiyang Che",
+        "Wei Zhan",
+        "Tianming Liang",
+        "Haichao Jiang",
+        "Wei-Shi Zheng",
+        "Jian-Fang Hu",
+        "Haobo Yuan",
+        "Xiangtai Li",
+        "Tao Zhang",
+        "Lu Qi",
+        "Ming-Hsuan Yang"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-04-15T16:02:47.000Z"
+    },
+    {
+      "id": "2504.11042",
+      "title": "LazyReview A Dataset for Uncovering Lazy Thinking in NLP Peer Reviews",
+      "authors": [
+        "Sukannya Purkayastha",
+        "Zhuang Li",
+        "Anne Lauscher",
+        "Lizhen Qu",
+        "Iryna Gurevych"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/ukplab/arxiv2025-lazy-review",
+      "published": "2025-04-15T10:07:33.000Z"
+    },
+    {
+      "id": "2504.11447",
+      "title": "Diffusion Distillation With Direct Preference Optimization For Efficient 3D LiDAR Scene Completion",
+      "authors": [
+        "An Zhaol",
+        "Shengyuan Zhang",
+        "Ling Yang",
+        "Zejian Li",
+        "Jiale Wu",
+        "Haoran Xu",
+        "AnYang Wei",
+        "Perry Pengyun GU Lingyun Sun"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/happyw1nd/distillationdpo",
+      "published": "2025-04-15T17:57:13.000Z"
+    },
+    {
+      "id": "2504.10443",
+      "title": "Multimodal Long Video Modeling Based on Temporal Dynamic Context",
+      "authors": [
+        "Haoran Hao",
+        "Jiaming Han",
+        "Yiyuan Zhang",
+        "Xiangyu Yue"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/Hoar012/TDC-Video",
+      "published": "2025-04-14T17:34:06.000Z"
+    },
+    {
+      "id": "2504.06949",
+      "title": "Adaptive Computation Pruning for the Forgetting Transformer",
+      "authors": [
+        "Zhixuan Lin",
+        "Johan Obando-Ceron",
+        "Xu Owen He",
+        "Aaron Courville"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/zhixuan-lin/arctic-fox",
+      "published": "2025-04-09T14:57:55.000Z"
+    },
+    {
+      "id": "2504.10049",
+      "title": "Summarization of Multimodal Presentations with Vision-Language Models: Study of the Effect of Modalities and Structure",
+      "authors": [
+        "Théo Gigant",
+        "Camille Guinaudeau",
+        "Frédéric Dufaux"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2025-04-14T09:55:01.000Z"
+    },
+    {
+      "id": "2504.11457",
+      "title": "Aligning Generative Denoising with Discriminative Objectives Unleashes Diffusion for Visual Perception",
+      "authors": [
+        "Ziqi Pang",
+        "Xin Xu",
+        "Yu-Xiong Wang"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/ziqipang/addp",
+      "published": "2025-04-15T17:59:54.000Z"
+    },
+    {
+      "id": "2504.11080",
+      "title": "Change State Space Models for Remote Sensing Change Detection",
+      "authors": [
+        "Elman Ghazaei",
+        "Erchan Aptoula"
+      ],
+      "upvotes": 0,
+      "github": "https://github.com/Elman295/CSSM",
+      "published": "2025-04-15T11:25:10.000Z"
+    }
+  ]
+}

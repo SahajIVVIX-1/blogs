@@ -1,0 +1,11 @@
+{
+  "id": "2602.15763",
+  "html": "https://arxiv.org/html/2602.15763",
+  "limitations": null,
+  "conclusion": "In this report, we have introduced GLM-5, a next-generation foundation model that fundamentally bridges the gap between high-performance reasoning and extreme computational efficiency. By transitioning from the paradigm of “vibe coding” to true “agentic engineering”, GLM-5 demonstrates that open-weight models can now rival the capabilities of top-tier proprietary systems in complex, real-world workflows. GLM-5 represents a paradigm shift in practical AI utility. By open-sourcing the model, we aim to empower the community to move beyond static benchmarks and explore the frontiers of efficient, agentic general intelligence, fostering a new era where AI agents autonomously plan, implement, and iterate on complex tasks.",
+  "figure": {
+    "path": "images/2026/paper-2602.15763.webp",
+    "src": "https://arxiv.org/html/2602.15763v2/arc_clean.png",
+    "caption": "Figure 1 : Results of GLM-5, DeepSeek-V3.2, Claude Opus 4.5, Gemini 3 Pro, and GPT-5.2 (xhigh) on 8 agentic, reasoning, and coding benchmarks: Humanity’s Last Exam, SWE-bench Verified, SWE-bench Multilingual, Terminal-Bench 2.0, BrowseComp, MCP-Atlas, [math] -Bench, Vending Bench 2."
+  }
+}

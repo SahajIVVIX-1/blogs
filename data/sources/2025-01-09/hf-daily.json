@@ -1,0 +1,233 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-01-09",
+  "fetched_at": "2026-10-29T15:30:14.603Z",
+  "candidates": [
+    {
+      "id": "2501.04519",
+      "title": "rStar-Math: Small LLMs Can Master Math Reasoning with Self-Evolved Deep Thinking",
+      "authors": [
+        "Xinyu Guan",
+        "Li Lyna Zhang",
+        "Yifei Liu",
+        "Ning Shang",
+        "Youran Sun",
+        "Yi Zhu",
+        "Fan Yang",
+        "Mao Yang"
+      ],
+      "upvotes": 290,
+      "github": null,
+      "published": "2025-01-08T14:12:57.000Z"
+    },
+    {
+      "id": "2501.05366",
+      "title": "Search-o1: Agentic Search-Enhanced Large Reasoning Models",
+      "authors": [
+        "Xiaoxi Li",
+        "Guanting Dong",
+        "Jiajie Jin",
+        "Yuyao Zhang",
+        "Yujia Zhou",
+        "Yutao Zhu",
+        "Peitian Zhang",
+        "Zhicheng Dou"
+      ],
+      "upvotes": 106,
+      "github": null,
+      "published": "2025-01-09T16:48:17.000Z"
+    },
+    {
+      "id": "2501.04682",
+      "title": "Towards System 2 Reasoning in LLMs: Learning How to Think With Meta Chain-of-Though",
+      "authors": [
+        "Violet Xiang",
+        "Charlie Snell",
+        "Kanishk Gandhi",
+        "Alon Albalak",
+        "Anikait Singh",
+        "Chase Blagden",
+        "Duy Phung",
+        "Rafael Rafailov",
+        "Nathan Lile",
+        "Dakota Mahan",
+        "Louis Castricato",
+        "Jan-Philipp Franken",
+        "Nick Haber",
+        "Chelsea Finn"
+      ],
+      "upvotes": 99,
+      "github": null,
+      "published": "2025-01-08T18:42:48.000Z"
+    },
+    {
+      "id": "2501.04227",
+      "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+      "authors": [
+        "Samuel Schmidgall",
+        "Yusheng Su",
+        "Ze Wang",
+        "Ximeng Sun",
+        "Jialian Wu",
+        "Xiaodong Yu",
+        "Jiang Liu",
+        "Zicheng Liu",
+        "Emad Barsoum"
+      ],
+      "upvotes": 96,
+      "github": "https://github.com/Masao-Taketani/LocalAgentLaboratory",
+      "published": "2025-01-08T01:58:42.000Z"
+    },
+    {
+      "id": "2501.04686",
+      "title": "URSA: Understanding and Verifying Chain-of-thought Reasoning in Multimodal Mathematics",
+      "authors": [
+        "Ruilin Luo",
+        "Zhuofan Zheng",
+        "Yifan Wang",
+        "Yiyao Yu",
+        "Xinzhe Ni",
+        "Zicheng Lin",
+        "Jin Zeng",
+        "Yujiu Yang"
+      ],
+      "upvotes": 47,
+      "github": "https://github.com/URSA-MATH/URSA-MATH",
+      "published": "2025-01-08T18:49:41.000Z"
+    },
+    {
+      "id": "2501.04306",
+      "title": "LLM4SR: A Survey on Large Language Models for Scientific Research",
+      "authors": [
+        "Ziming Luo",
+        "Zonglin Yang",
+        "Zexin Xu",
+        "Wei Yang",
+        "Xinya Du"
+      ],
+      "upvotes": 35,
+      "github": "https://github.com/du-nlp-lab/LLM4SR",
+      "published": "2025-01-08T06:44:02.000Z"
+    },
+    {
+      "id": "2501.04575",
+      "title": "InfiGUIAgent: A Multimodal Generalist GUI Agent with Native Reasoning and Reflection",
+      "authors": [
+        "Yuhang Liu",
+        "Pengxiang Li",
+        "Zishu Wei",
+        "Congkai Xie",
+        "Xueyu Hu",
+        "Xinchen Xu",
+        "Shengyu Zhang",
+        "Xiaotian Han",
+        "Hongxia Yang",
+        "Fei Wu"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/reallm-labs/infiguiagent",
+      "published": "2025-01-08T15:45:21.000Z"
+    },
+    {
+      "id": "2501.02772",
+      "title": "GeAR: Generation Augmented Retrieval",
+      "authors": [
+        "Haoyu Liu",
+        "Shaohan Huang",
+        "Jianfeng Liu",
+        "Yuefeng Zhan",
+        "Hao Sun",
+        "Weiwei Deng",
+        "Feng Sun",
+        "Furu Wei",
+        "Qi Zhang"
+      ],
+      "upvotes": 20,
+      "github": null,
+      "published": "2025-01-06T05:29:00.000Z"
+    },
+    {
+      "id": "2501.04144",
+      "title": "Chirpy3D: Continuous Part Latents for Creative 3D Bird Generation",
+      "authors": [
+        "Kam Woh Ng",
+        "Jing Yang",
+        "Jia Wei Sii",
+        "Jiankang Deng",
+        "Chee Seng Chan",
+        "Yi-Zhe Song",
+        "Tao Xiang",
+        "Xiatian Zhu"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/kamwoh/chirpy3d",
+      "published": "2025-01-07T21:14:11.000Z"
+    },
+    {
+      "id": "2501.04694",
+      "title": "EpiCoder: Encompassing Diversity and Complexity in Code Generation",
+      "authors": [
+        "Yaoxiang Wang",
+        "Haoling Li",
+        "Xin Zhang",
+        "Jie Wu",
+        "Xiao Liu",
+        "Wenxiang Hu",
+        "Zhongxin Guo",
+        "Yangyu Huang",
+        "Ying Xin",
+        "Yujiu Yang",
+        "Jinsong Su",
+        "Qi Chen",
+        "Scarlett Li"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/microsoft/EpiCoder",
+      "published": "2025-01-08T18:58:15.000Z"
+    },
+    {
+      "id": "2501.04689",
+      "title": "SPAR3D: Stable Point-Aware Reconstruction of 3D Objects from Single Images",
+      "authors": [
+        "Zixuan Huang",
+        "Mark Boss",
+        "Aaryaman Vasishta",
+        "James M. Rehg",
+        "Varun Jampani"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2025-01-08T18:52:03.000Z"
+    },
+    {
+      "id": "2501.04652",
+      "title": "Multi-task retriever fine-tuning for domain-specific and efficient RAG",
+      "authors": [
+        "Patrice Béchard",
+        "Orlando Marquez Ayala"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2025-01-08T18:05:30.000Z"
+    },
+    {
+      "id": "2501.03271",
+      "title": "DPO Kernels: A Semantically-Aware, Kernel-Enhanced, and Divergence-Rich Paradigm for Direct Preference Optimization",
+      "authors": [
+        "Amitava Das",
+        "Suranjana Trivedy",
+        "Danush Khanna",
+        "Rajarshi Roy",
+        "Gurpreet Singh",
+        "Basab Ghosh",
+        "Yaswanth Narsupalli",
+        "Vinija Jain",
+        "Vasu Sharma",
+        "Aishwarya Naresh Reganti",
+        "Aman Chadha"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2025-01-05T00:08:52.000Z"
+    }
+  ]
+}

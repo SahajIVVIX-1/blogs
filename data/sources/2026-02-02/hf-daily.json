@@ -1,0 +1,687 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-02-02",
+  "fetched_at": "2026-10-29T15:34:35.741Z",
+  "candidates": [
+    {
+      "id": "2601.23265",
+      "title": "PaperBanana: Automating Academic Illustration for AI Scientists",
+      "authors": [
+        "Dawei Zhu",
+        "Rui Meng",
+        "Yale Song",
+        "Xiyu Wei",
+        "Sujian Li",
+        "Tomas Pfister",
+        "Jinsung Yoon"
+      ],
+      "upvotes": 231,
+      "github": "https://github.com/dwzhu-pku/PaperBanana",
+      "published": "2026-01-30T18:33:37.000Z"
+    },
+    {
+      "id": "2601.22975",
+      "title": "Golden Goose: A Simple Trick to Synthesize Unlimited RLVR Tasks from Unverifiable Internet Text",
+      "authors": [
+        "Ximing Lu",
+        "David Acuna",
+        "Jaehun Jung",
+        "Jian Hu",
+        "Di Zhang",
+        "Shizhe Diao",
+        "Yunheng Zou",
+        "Shaokun Zhang",
+        "Brandon Cui",
+        "Mingjie Liu",
+        "Hyunwoo Kim",
+        "Prithviraj Ammanabrolu",
+        "Jan Kautz",
+        "Yi Dong",
+        "Yejin Choi"
+      ],
+      "upvotes": 113,
+      "github": null,
+      "published": "2026-01-30T13:39:11.000Z"
+    },
+    {
+      "id": "2601.22813",
+      "title": "Quartet II: Accurate LLM Pre-Training in NVFP4 by Improved Unbiased Gradient Estimation",
+      "authors": [
+        "Andrei Panferov",
+        "Erik Schultheis",
+        "Soroush Tabesh",
+        "Dan Alistarh"
+      ],
+      "upvotes": 63,
+      "github": "https://github.com/IST-DASLab/Quartet-II",
+      "published": "2026-01-30T10:39:11.000Z"
+    },
+    {
+      "id": "2601.21558",
+      "title": "ASTRA: Automated Synthesis of agentic Trajectories and Reinforcement Arenas",
+      "authors": [
+        "Xiaoyu Tian",
+        "Haotian Wang",
+        "Shuaiting Chen",
+        "Hao Zhou",
+        "Kaichi Yu",
+        "Yudian Zhang",
+        "Jade Ouyang",
+        "Junxi Yin",
+        "Jiong Chen",
+        "Baoyan Guo",
+        "Lei Zhang",
+        "Junjie Tao",
+        "Yuansheng Song",
+        "Ming Cui",
+        "Chengwei Liu"
+      ],
+      "upvotes": 61,
+      "github": "https://github.com/LianjiaTech/astra",
+      "published": "2026-01-29T11:22:23.000Z"
+    },
+    {
+      "id": "2601.23143",
+      "title": "THINKSAFE: Self-Generated Safety Alignment for Reasoning Models",
+      "authors": [
+        "Seanie Lee",
+        "Sangwoo Park",
+        "Yumin Choi",
+        "Gyeongman Kim",
+        "Minki Kang",
+        "Jihun Yun",
+        "Dongmin Park",
+        "Jongho Park",
+        "Sung Ju Hwang"
+      ],
+      "upvotes": 39,
+      "github": "https://github.com/seanie12/ThinkSafe",
+      "published": "2026-01-30T16:31:02.000Z"
+    },
+    {
+      "id": "2601.23184",
+      "title": "ReGuLaR: Variational Latent Reasoning Guided by Rendered Chain-of-Thought",
+      "authors": [
+        "Fanmeng Wang",
+        "Haotian Liu",
+        "Guojiang Zhao",
+        "Hongteng Xu",
+        "Zhifeng Gao"
+      ],
+      "upvotes": 35,
+      "github": "https://github.com/FanmengWang/ReGuLaR",
+      "published": "2026-01-30T17:08:06.000Z"
+    },
+    {
+      "id": "2601.21998",
+      "title": "Causal World Modeling for Robot Control",
+      "authors": [
+        "Lin Li",
+        "Qihang Zhang",
+        "Yiming Luo",
+        "Shuai Yang",
+        "Ruilin Wang",
+        "Fei Han",
+        "Mingrui Yu",
+        "Zelin Gao",
+        "Nan Xue",
+        "Xing Zhu",
+        "Yujun Shen",
+        "Yinghao Xu"
+      ],
+      "upvotes": 32,
+      "github": "https://github.com/robbyant/lingbot-va",
+      "published": "2026-01-29T17:07:43.000Z"
+    },
+    {
+      "id": "2601.22628",
+      "title": "TTCS: Test-Time Curriculum Synthesis for Self-Evolving",
+      "authors": [
+        "Chengyi Yang",
+        "Zhishang Xiang",
+        "Yunbo Tang",
+        "Zongpei Teng",
+        "Chengsong Huang",
+        "Fei Long",
+        "Yuhan Liu",
+        "Jinsong Su"
+      ],
+      "upvotes": 29,
+      "github": "https://github.com/XMUDeepLIT/TTCS",
+      "published": "2026-01-30T06:38:02.000Z"
+    },
+    {
+      "id": "2601.21468",
+      "title": "MemOCR: Layout-Aware Visual Memory for Efficient Long-Horizon Reasoning",
+      "authors": [
+        "Yaorui Shi",
+        "Shugui Liu",
+        "Yu Yang",
+        "Wenyu Mao",
+        "Yuxin Chen",
+        "Qi GU",
+        "Hui Su",
+        "Xunliang Cai",
+        "Xiang Wang",
+        "An Zhang"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/meituan/MemOCR",
+      "published": "2026-01-29T09:47:17.000Z"
+    },
+    {
+      "id": "2601.22636",
+      "title": "Statistical Estimation of Adversarial Risk in Large Language Models under Best-of-N Sampling",
+      "authors": [
+        "Mingqian Feng",
+        "Xiaodong Liu",
+        "Weiwei Yang",
+        "Chenliang Xu",
+        "Christopher White",
+        "Jianfeng Gao"
+      ],
+      "upvotes": 22,
+      "github": null,
+      "published": "2026-01-30T06:54:35.000Z"
+    },
+    {
+      "id": "2601.23182",
+      "title": "FourierSampler: Unlocking Non-Autoregressive Potential in Diffusion Language Models via Frequency-Guided Generation",
+      "authors": [
+        "Siyang He",
+        "Qiqi Wang",
+        "Xiaoran Liu",
+        "Hongnan Ma",
+        "Yiwei Shi",
+        "Yuerong Song",
+        "Ying Zhu",
+        "Tianyi Liang",
+        "Zengfeng Huang",
+        "Ziwei He",
+        "Xipeng Qiu"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/rimory6/FourierSampler",
+      "published": "2026-01-30T17:06:41.000Z"
+    },
+    {
+      "id": "2601.21957",
+      "title": "PaddleOCR-VL-1.5: Towards a Multi-Task 0.9B VLM for Robust In-the-Wild Document Parsing",
+      "authors": [
+        "Cheng Cui",
+        "Ting Sun",
+        "Suyin Liang",
+        "Tingquan Gao",
+        "Zelun Zhang",
+        "Jiaxuan Liu",
+        "Xueqing Wang",
+        "Changda Zhou",
+        "Hongen Liu",
+        "Manhui Lin",
+        "Yue Zhang",
+        "Yubo Zhang",
+        "Yi Liu",
+        "Dianhai Yu",
+        "Yanjun Ma"
+      ],
+      "upvotes": 20,
+      "github": null,
+      "published": "2026-01-29T16:35:04.000Z"
+    },
+    {
+      "id": "2601.22904",
+      "title": "DINO-SAE: DINO Spherical Autoencoder for High-Fidelity Image Reconstruction and Generation",
+      "authors": [
+        "Hun Chang",
+        "Byunghee Cha",
+        "Jong Chul Ye"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2026-01-30T12:25:34.000Z"
+    },
+    {
+      "id": "2601.22664",
+      "title": "Real-Time Aligned Reward Model beyond Semantics",
+      "authors": [
+        "Zixuan Huang",
+        "Xin Xia",
+        "Yuxi Ren",
+        "Jianbin Zheng",
+        "Xuefeng Xiao",
+        "Hongyan Xie",
+        "Li Huaqiu",
+        "Songshi Liang",
+        "Zhongxiang Dai",
+        "Fuzhen Zhuang",
+        "Jianxin Li",
+        "Yikun Ban",
+        "Deqing Wang"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2026-01-30T07:32:35.000Z"
+    },
+    {
+      "id": "2601.20218",
+      "title": "DenseGRPO: From Sparse to Dense Reward for Flow Matching Model Alignment",
+      "authors": [
+        "Haoyou Deng",
+        "Keyu Yan",
+        "Chaojie Mao",
+        "Xiang Wang",
+        "Yu Liu",
+        "Changxin Gao",
+        "Nong Sang"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2026-01-28T03:39:05.000Z"
+    },
+    {
+      "id": "2601.22491",
+      "title": "SSL: Sweet Spot Learning for Differentiated Guidance in Agentic Optimization",
+      "authors": [
+        "Jinyang Wu",
+        "Changpeng Yang",
+        "Yuhao Shen",
+        "Fangzhi Xu",
+        "Bolin Ni",
+        "Chonghua Liao",
+        "Yuchen Liu",
+        "Hongzhen Wang",
+        "Shuai Nie",
+        "Shuai Zhang",
+        "Haoran Luo",
+        "Jiaming Xu"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2026-01-30T03:02:18.000Z"
+    },
+    {
+      "id": "2601.21192",
+      "title": "Do Reasoning Models Enhance Embedding Models?",
+      "authors": [
+        "Wun Yu Chan",
+        "Shaojin Chen",
+        "Huihao Jing",
+        "Kwun Hang Lau",
+        "Elton Chun-Chai Li",
+        "Zihao Wang",
+        "Haoran Li",
+        "Yangqiu Song"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/HKUST-KnowComp/Reasoning-Embedding",
+      "published": "2026-01-29T02:48:34.000Z"
+    },
+    {
+      "id": "2601.23161",
+      "title": "DIFFA-2: A Practical Diffusion Large Language Model for General Audio Understanding",
+      "authors": [
+        "Jiaming Zhou",
+        "Xuxin Cheng",
+        "Shiwan Zhao",
+        "Yuhang Jia",
+        "Cao Liu",
+        "Ke Zeng",
+        "Xunliang Cai",
+        "Yong Qin"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2026-01-30T16:44:23.000Z"
+    },
+    {
+      "id": "2601.21716",
+      "title": "DreamActor-M2: Universal Character Image Animation via Spatiotemporal In-Context Learning",
+      "authors": [
+        "Mingshuang Luo",
+        "Shuang Liang",
+        "Zhengkun Rong",
+        "Yuxuan Luo",
+        "Tianshu Hu",
+        "Ruibing Hou",
+        "Hong Chang",
+        "Yong Li",
+        "Yuan Zhang",
+        "Mingyuan Gao"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2026-01-29T13:43:17.000Z"
+    },
+    {
+      "id": "2601.15625",
+      "title": "Robust Tool Use via Fission-GRPO: Learning to Recover from Execution Errors",
+      "authors": [
+        "Zhiwei Zhang",
+        "Fei Zhao",
+        "Rui Wang",
+        "Zezhong Wang",
+        "Bin Liang",
+        "Jiakang Wang",
+        "Yao Hu",
+        "Shaosheng Cao",
+        "Kam-Fai Wong"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2026-01-22T03:57:35.000Z"
+    },
+    {
+      "id": "2601.23188",
+      "title": "Deep Search with Hierarchical Meta-Cognitive Monitoring Inspired by Cognitive Neuroscience",
+      "authors": [
+        "Zhongxiang Sun",
+        "Qipeng Wang",
+        "Weijie Yu",
+        "Jingxuan Yang",
+        "Haolang Lu",
+        "Jun Xu"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2026-01-30T17:10:48.000Z"
+    },
+    {
+      "id": "2601.22837",
+      "title": "NativeTok: Native Visual Tokenization for Improved Image Generation",
+      "authors": [
+        "Bin Wu",
+        "Mengqi Huang",
+        "Weinan Jia",
+        "Zhendong Mao"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/wangbei1/Nativetok",
+      "published": "2026-01-30T11:01:43.000Z"
+    },
+    {
+      "id": "2602.00158",
+      "title": "RAPTOR: Ridge-Adaptive Logistic Probes",
+      "authors": [
+        "Ziqi Gao",
+        "Yaotian Zhu",
+        "Qingcheng Zeng",
+        "Xu Zhao",
+        "Ziqing Wang",
+        "Feng Ruan",
+        "Kaize Ding"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2026-01-29T19:20:27.000Z"
+    },
+    {
+      "id": "2601.23228",
+      "title": "Scaling Multiagent Systems with Process Rewards",
+      "authors": [
+        "Ed Li",
+        "Junyu Ren",
+        "Cat Yan"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/ltjed/multiagent-coaching",
+      "published": "2026-01-30T17:55:27.000Z"
+    },
+    {
+      "id": "2601.18241",
+      "title": "TAM-Eval: Evaluating LLMs for Automated Unit Test Maintenance",
+      "authors": [
+        "Elena Bruches",
+        "Vadim Alperovich",
+        "Dari Baturova",
+        "Roman Derunets",
+        "Daniil Grebenkin",
+        "Georgy Mkrtchyan",
+        "Oleg Sedukhin",
+        "Mikhail Klementev",
+        "Ivan Bondarenko",
+        "Nikolay Bushkov",
+        "Stanislav Moiseev"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/trndcenter/TAM-Eval",
+      "published": "2026-01-26T07:47:22.000Z"
+    },
+    {
+      "id": "2601.13097",
+      "title": "RM -RF: Reward Model for Run-Free Unit Test Evaluation",
+      "authors": [
+        "Elena Bruches",
+        "Daniil Grebenkin",
+        "Mikhail Klementev",
+        "Vadim Alperovich",
+        "Roman Derunets",
+        "Dari Baturova",
+        "Georgy Mkrtchyan",
+        "Oleg Sedukhin",
+        "Ivan Bondarenko",
+        "Nikolay Bushkov",
+        "Stanislav Moiseev"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/trndcenter/RM-RF-unit-tests",
+      "published": "2026-01-19T14:37:50.000Z"
+    },
+    {
+      "id": "2601.22642",
+      "title": "Pushing the Boundaries of Natural Reasoning: Interleaved Bonus from Formal-Logic Verification",
+      "authors": [
+        "Chuxue Cao",
+        "Jinluan Yang",
+        "Haoran Li",
+        "Kunhao Pan",
+        "Zijian Zhao",
+        "Zhengyu Chen",
+        "Yuchen Tian",
+        "Lijun Wu",
+        "Conghui He",
+        "Sirui Han",
+        "Yike Guo"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2026-01-30T07:01:25.000Z"
+    },
+    {
+      "id": "2601.21358",
+      "title": "Latent Chain-of-Thought as Planning: Decoupling Reasoning from Verbalization",
+      "authors": [
+        "Jiecong Wang",
+        "Hao Peng",
+        "Chunyang Liu"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2026-01-29T07:38:18.000Z"
+    },
+    {
+      "id": "2601.20732",
+      "title": "Continual GUI Agents",
+      "authors": [
+        "Ziwei Liu",
+        "Borui Kang",
+        "Hangjie Yuan",
+        "Zixiang Zhao",
+        "Wei Li",
+        "Yifan Zhu",
+        "Tao Feng"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2026-01-28T16:06:31.000Z"
+    },
+    {
+      "id": "2601.15394",
+      "title": "Memorization Dynamics in Knowledge Distillation for Language Models",
+      "authors": [
+        "Jaydeep Borkar",
+        "Karan Chadha",
+        "Niloofar Mireshghallah",
+        "Yuchen Zhang",
+        "Irina-Elena Veliche",
+        "Archi Mitra",
+        "David A. Smith",
+        "Zheng Xu",
+        "Diego Garcia-Olano"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-01-21T19:04:40.000Z"
+    },
+    {
+      "id": "2601.21525",
+      "title": "LMK > CLS: Landmark Pooling for Dense Embeddings",
+      "authors": [
+        "Meet Doshi",
+        "Aashka Trivedi",
+        "Vishwajeet Kumar",
+        "Parul Awasthy",
+        "Yulong Li",
+        "Jaydeep Sen",
+        "Radu Florian",
+        "Sachindra Joshi"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/meetdoshi90/LMK-Pooling",
+      "published": "2026-01-29T10:40:37.000Z"
+    },
+    {
+      "id": "2601.21666",
+      "title": "SONIC-O1: A Real-World Benchmark for Evaluating Multimodal Large Language Models on Audio-Video Understanding",
+      "authors": [
+        "Ahmed Y. Radwan",
+        "Christos Emmanouilidis",
+        "Hina Tabassum",
+        "Deval Pandya",
+        "Shaina Raza"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/VectorInstitute/sonic-o1",
+      "published": "2026-01-29T13:01:07.000Z"
+    },
+    {
+      "id": "2601.22666",
+      "title": "ExpAlign: Expectation-Guided Vision-Language Alignment for Open-Vocabulary Grounding",
+      "authors": [
+        "Junyi Hu",
+        "Tian Bai",
+        "Fengyi Wu",
+        "Wenyan Li",
+        "Zhenming Peng",
+        "Yi Zhang"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-01-30T07:38:04.000Z"
+    },
+    {
+      "id": "2601.21709",
+      "title": "Why Attention Patterns Exist: A Unifying Temporal Perspective Analysis",
+      "authors": [
+        "Qingyue Yang",
+        "Jie Wang",
+        "Xing Li",
+        "Yinqi Bai",
+        "Xialiang Tong",
+        "Huiling Zhen",
+        "Jianye Hao",
+        "Mingxuan Yuan",
+        "Bin Li"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/MIRALab-USTC/LLM-TAPPA",
+      "published": "2026-01-29T13:40:23.000Z"
+    },
+    {
+      "id": "2601.22141",
+      "title": "Routing the Lottery: Adaptive Subnetworks for Heterogeneous Data",
+      "authors": [
+        "Grzegorz Stefanski",
+        "Alberto Presta",
+        "Michal Byra"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-01-29T18:56:41.000Z"
+    },
+    {
+      "id": "2601.22032",
+      "title": "Drive-JEPA: Video JEPA Meets Multimodal Trajectory Distillation for End-to-End Driving",
+      "authors": [
+        "Linhan Wang",
+        "Zichong Yang",
+        "Chen Bai",
+        "Guoxiang Zhang",
+        "Xiaotong Liu",
+        "Xiaoyin Zheng",
+        "Xiao-Xiao Long",
+        "Chang-Tien Lu",
+        "Cheng Lu"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/linhanwang/Drive-JEPA",
+      "published": "2026-01-29T17:39:20.000Z"
+    },
+    {
+      "id": "2601.22108",
+      "title": "Value-Based Pre-Training with Downstream Feedback",
+      "authors": [
+        "Shuqi Ke",
+        "Giulia Fanti"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2026-01-29T18:38:09.000Z"
+    },
+    {
+      "id": "2601.22680",
+      "title": "Visual Personalization Turing Test",
+      "authors": [
+        "Rameen Abdal",
+        "James Burgess",
+        "Sergey Tulyakov",
+        "Kuan-Chieh Jackson Wang"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2026-01-30T07:53:07.000Z"
+    },
+    {
+      "id": "2601.21526",
+      "title": "KAPSO: A Knowledge-grounded framework for Autonomous Program Synthesis and Optimization",
+      "authors": [
+        "Alireza Nadaf",
+        "Alireza Mohammadshahi",
+        "Majid Yazdani"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/Leeroo-AI/kapso",
+      "published": "2026-01-29T10:40:54.000Z"
+    },
+    {
+      "id": "2601.21419",
+      "title": "Revisiting Diffusion Model Predictions Through Dimensionality",
+      "authors": [
+        "Qing Jin",
+        "Chaoyang Wang"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2026-01-29T08:56:55.000Z"
+    },
+    {
+      "id": "2601.23134",
+      "title": "Machine Learning for Energy-Performance-aware Scheduling",
+      "authors": [
+        "Zheyuan Hu",
+        "Yifei Shi"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/PeterHUistyping/ml-cpu-sched",
+      "published": "2026-01-30T16:23:06.000Z"
+    }
+  ]
+}

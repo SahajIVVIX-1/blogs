@@ -1,0 +1,204 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-08-13",
+  "fetched_at": "2026-10-29T15:28:44.040Z",
+  "candidates": [
+    {
+      "id": "2408.06292",
+      "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+      "authors": [
+        "Chris Lu",
+        "Cong Lu",
+        "Robert Tjarko Lange",
+        "Jakob Foerster",
+        "Jeff Clune",
+        "David Ha"
+      ],
+      "upvotes": 126,
+      "github": "https://github.com/sakanaai/ai-scientist",
+      "published": "2024-08-12T16:58:11.000Z"
+    },
+    {
+      "id": "2408.06195",
+      "title": "Mutual Reasoning Makes Smaller LLMs Stronger Problem-Solvers",
+      "authors": [
+        "Zhenting Qi",
+        "Mingyuan Ma",
+        "Jiahang Xu",
+        "Li Lyna Zhang",
+        "Fan Yang",
+        "Mao Yang"
+      ],
+      "upvotes": 73,
+      "github": "https://github.com/codelion/optillm",
+      "published": "2024-08-12T14:42:13.000Z"
+    },
+    {
+      "id": "2408.06070",
+      "title": "ControlNeXt: Powerful and Efficient Control for Image and Video Generation",
+      "authors": [
+        "Bohao Peng",
+        "Jian Wang",
+        "Yuechen Zhang",
+        "Wenbo Li",
+        "Ming-Chang Yang",
+        "Jiaya Jia"
+      ],
+      "upvotes": 55,
+      "github": "https://github.com/dvlab-research/controlnext",
+      "published": "2024-08-12T11:41:18.000Z"
+    },
+    {
+      "id": "2408.06142",
+      "title": "Med42-v2: A Suite of Clinical LLMs",
+      "authors": [
+        "Clément Christophe",
+        "Praveen K Kanithi",
+        "Tathagata Raha",
+        "Shadab Khan",
+        "Marco AF Pimentel"
+      ],
+      "upvotes": 52,
+      "github": null,
+      "published": "2024-08-12T13:37:31.000Z"
+    },
+    {
+      "id": "2408.06072",
+      "title": "CogVideoX: Text-to-Video Diffusion Models with An Expert Transformer",
+      "authors": [
+        "Zhuoyi Yang",
+        "Jiayan Teng",
+        "Wendi Zheng",
+        "Ming Ding",
+        "Shiyu Huang",
+        "Jiazheng Xu",
+        "Yuanming Yang",
+        "Wenyi Hong",
+        "Xiaohan Zhang",
+        "Guanyu Feng",
+        "Da Yin",
+        "Xiaotao Gu",
+        "Yuxuan Zhang",
+        "Weihan Wang",
+        "Yean Cheng",
+        "Ting Liu",
+        "Bin Xu",
+        "Yuxiao Dong",
+        "Jie Tang"
+      ],
+      "upvotes": 38,
+      "github": "https://github.com/thudm/cogvideo",
+      "published": "2024-08-12T11:47:11.000Z"
+    },
+    {
+      "id": "2408.06190",
+      "title": "FruitNeRF: A Unified Neural Radiance Field based Fruit Counting Framework",
+      "authors": [
+        "Lukas Meyer",
+        "Andreas Gilson",
+        "Ute Schmidt",
+        "Marc Stamminger"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/meyerls/FruitNeRF",
+      "published": "2024-08-12T14:40:38.000Z"
+    },
+    {
+      "id": "2408.06327",
+      "title": "VisualAgentBench: Towards Large Multimodal Models as Visual Foundation Agents",
+      "authors": [
+        "Xiao Liu",
+        "Tianjie Zhang",
+        "Yu Gu",
+        "Iat Long Iong",
+        "Yifan Xu",
+        "Xixuan Song",
+        "Shudan Zhang",
+        "Hanyu Lai",
+        "Xinyi Liu",
+        "Hanlin Zhao",
+        "Jiadai Sun",
+        "Xinyue Yang",
+        "Yu Yang",
+        "Zehan Qi",
+        "Shuntian Yao",
+        "Xueqiao Sun",
+        "Siyi Cheng",
+        "Qinkai Zheng",
+        "Hao Yu",
+        "Hanchen Zhang",
+        "Wenyi Hong",
+        "Ming Ding",
+        "Lihang Pan",
+        "Xiaotao Gu",
+        "Aohan Zeng",
+        "Zhengxiao Du",
+        "Chan Hee Song",
+        "Yu Su",
+        "Yuxiao Dong",
+        "Jie Tang"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/thudm/visualagentbench",
+      "published": "2024-08-12T17:44:17.000Z"
+    },
+    {
+      "id": "2408.06019",
+      "title": "HeadGAP: Few-shot 3D Head Avatar via Generalizable Gaussian Priors",
+      "authors": [
+        "Xiaozheng Zheng",
+        "Chao Wen",
+        "Zhaohu Li",
+        "Weiyi Zhang",
+        "Zhuo Su",
+        "Xu Chang",
+        "Yang Zhao",
+        "Zheng Lv",
+        "Xiaoyuan Zhang",
+        "Yongjie Zhang",
+        "Guidong Wang",
+        "Lan Xu"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2024-08-12T09:19:38.000Z"
+    },
+    {
+      "id": "2408.05939",
+      "title": "UniPortrait: A Unified Framework for Identity-Preserving Single- and Multi-Human Image Personalization",
+      "authors": [
+        "Junjie He",
+        "Yifeng Geng",
+        "Liefeng Bo"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/junjiehe96/UniPortrait",
+      "published": "2024-08-12T06:27:29.000Z"
+    },
+    {
+      "id": "2408.05506",
+      "title": "Your Context Is Not an Array: Unveiling Random Access Limitations in Transformers",
+      "authors": [
+        "MohammadReza Ebrahimi",
+        "Sunny Panchal",
+        "Roland Memisevic"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2024-08-10T10:12:09.000Z"
+    },
+    {
+      "id": "2408.06316",
+      "title": "Body Transformer: Leveraging Robot Embodiment for Policy Learning",
+      "authors": [
+        "Carmelo Sferrazza",
+        "Dun-Ming Huang",
+        "Fangchen Liu",
+        "Jongmin Lee",
+        "Pieter Abbeel"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/carlosferrazza/BodyTransformer",
+      "published": "2024-08-12T17:31:28.000Z"
+    }
+  ]
+}

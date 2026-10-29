@@ -1,0 +1,434 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-06-25",
+  "fetched_at": "2026-10-29T15:28:14.030Z",
+  "candidates": [
+    {
+      "id": "2406.16860",
+      "title": "Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs",
+      "authors": [
+        "Shengbang Tong",
+        "Ellis Brown",
+        "Penghao Wu",
+        "Sanghyun Woo",
+        "Manoj Middepogu",
+        "Sai Charitha Akula",
+        "Jihan Yang",
+        "Shusheng Yang",
+        "Adithya Iyer",
+        "Xichen Pan",
+        "Austin Wang",
+        "Rob Fergus",
+        "Yann LeCun",
+        "Saining Xie"
+      ],
+      "upvotes": 63,
+      "github": "https://github.com/cambrian-mllm/cambrian",
+      "published": "2024-06-24T17:59:42.000Z"
+    },
+    {
+      "id": "2406.16855",
+      "title": "DreamBench++: A Human-Aligned Benchmark for Personalized Image Generation",
+      "authors": [
+        "Yuang Peng",
+        "Yuxin Cui",
+        "Haomiao Tang",
+        "Zekun Qi",
+        "Runpei Dong",
+        "Jing Bai",
+        "Chunrui Han",
+        "Zheng Ge",
+        "Xiangyu Zhang",
+        "Shu-Tao Xia"
+      ],
+      "upvotes": 57,
+      "github": "https://github.com/yuangpeng/dreambench_plus",
+      "published": "2024-06-24T17:58:47.000Z"
+    },
+    {
+      "id": "2406.15877",
+      "title": "BigCodeBench: Benchmarking Code Generation with Diverse Function Calls and Complex Instructions",
+      "authors": [
+        "Terry Yue Zhuo",
+        "Minh Chien Vu",
+        "Jenny Chim",
+        "Han Hu",
+        "Wenhao Yu",
+        "Ratnadira Widyasari",
+        "Imam Nur Bani Yusuf",
+        "Haolan Zhan",
+        "Junda He",
+        "Indraneil Paul",
+        "Simon Brunner",
+        "Chen Gong",
+        "Thong Hoang",
+        "Armel Randy Zebaze",
+        "Xiaoheng Hong",
+        "Wen-Ding Li",
+        "Jean Kaddour",
+        "Ming Xu",
+        "Zhihan Zhang",
+        "Prateek Yadav",
+        "Naman Jain",
+        "Alex Gu",
+        "Zhoujun Cheng",
+        "Jiawei Liu",
+        "Qian Liu",
+        "Zijian Wang",
+        "David Lo",
+        "Binyuan Hui",
+        "Niklas Muennighoff",
+        "Daniel Fried",
+        "Xiaoning Du",
+        "Harm de Vries",
+        "Leandro Von Werra"
+      ],
+      "upvotes": 47,
+      "github": "https://github.com/bigcode-project/bigcodebench",
+      "published": "2024-06-22T15:52:04.000Z"
+    },
+    {
+      "id": "2406.16048",
+      "title": "Evaluating D-MERIT of Partial-annotation on Information Retrieval",
+      "authors": [
+        "Royi Rassin",
+        "Yaron Fairstein",
+        "Oren Kalinsky",
+        "Guy Kushilevitz",
+        "Nachshon Cohen",
+        "Alexander Libov",
+        "Yoav Goldberg"
+      ],
+      "upvotes": 36,
+      "github": null,
+      "published": "2024-06-23T08:24:08.000Z"
+    },
+    {
+      "id": "2406.16852",
+      "title": "Long Context Transfer from Language to Vision",
+      "authors": [
+        "Peiyuan Zhang",
+        "Kaichen Zhang",
+        "Bo Li",
+        "Guangtao Zeng",
+        "Jingkang Yang",
+        "Yuanhan Zhang",
+        "Ziyue Wang",
+        "Haoran Tan",
+        "Chunyuan Li",
+        "Ziwei Liu"
+      ],
+      "upvotes": 33,
+      "github": "https://github.com/evolvinglmms-lab/longva",
+      "published": "2024-06-24T17:58:06.000Z"
+    },
+    {
+      "id": "2406.16260",
+      "title": "Video-Infinity: Distributed Long Video Generation",
+      "authors": [
+        "Zhenxiong Tan",
+        "Xingyi Yang",
+        "Songhua Liu",
+        "Xinchao Wang"
+      ],
+      "upvotes": 30,
+      "github": null,
+      "published": "2024-06-24T01:56:12.000Z"
+    },
+    {
+      "id": "2406.16338",
+      "title": "VideoHallucer: Evaluating Intrinsic and Extrinsic Hallucinations in Large Video-Language Models",
+      "authors": [
+        "Yuxuan Wang",
+        "Yueqian Wang",
+        "Dongyan Zhao",
+        "Cihang Xie",
+        "Zilong Zheng"
+      ],
+      "upvotes": 26,
+      "github": null,
+      "published": "2024-06-24T06:21:59.000Z"
+    },
+    {
+      "id": "2406.16768",
+      "title": "WARP: On the Benefits of Weight Averaged Rewarded Policies",
+      "authors": [
+        "Alexandre Ramé",
+        "Johan Ferret",
+        "Nino Vieillard",
+        "Robert Dadashi",
+        "Léonard Hussenot",
+        "Pierre-Louis Cedoz",
+        "Pier Giuseppe Sessa",
+        "Sertan Girgin",
+        "Arthur Douillard",
+        "Olivier Bachem"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/zokost/warp_implementation",
+      "published": "2024-06-24T16:24:34.000Z"
+    },
+    {
+      "id": "2406.16690",
+      "title": "Scaling Laws for Linear Complexity Language Models",
+      "authors": [
+        "Xuyang Shen",
+        "Dong Li",
+        "Ruitao Leng",
+        "Zhen Qin",
+        "Weigao Sun",
+        "Yiran Zhong"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/opennlplab/scalinglaws",
+      "published": "2024-06-24T14:51:31.000Z"
+    },
+    {
+      "id": "2406.14833",
+      "title": "Efficient Continual Pre-training by Mitigating the Stability Gap",
+      "authors": [
+        "Yiduo Guo",
+        "Jie Fu",
+        "Huishuai Zhang",
+        "Dongyan Zhao",
+        "Yikang Shen"
+      ],
+      "upvotes": 20,
+      "github": null,
+      "published": "2024-06-21T02:28:37.000Z"
+    },
+    {
+      "id": "2406.16758",
+      "title": "Towards Fast Multilingual LLM Inference: Speculative Decoding and Specialized Drafters",
+      "authors": [
+        "Euiin Yi",
+        "Taehyeon Kim",
+        "Hongseok Jeung",
+        "Du-Seong Chang",
+        "Se-Young Yun"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/Kthyeon/Multilingual-SpecBench",
+      "published": "2024-06-24T16:06:50.000Z"
+    },
+    {
+      "id": "2406.16747",
+      "title": "Sparser is Faster and Less is More: Efficient Sparse Attention for Long-Range Transformers",
+      "authors": [
+        "Chao Lou",
+        "Zixia Jia",
+        "Zilong Zheng",
+        "Kewei Tu"
+      ],
+      "upvotes": 19,
+      "github": null,
+      "published": "2024-06-24T15:55:59.000Z"
+    },
+    {
+      "id": "2406.15718",
+      "title": "Beyond the Turn-Based Game: Enabling Real-Time Conversations with Duplex Models",
+      "authors": [
+        "Xinrong Zhang",
+        "Yingfa Chen",
+        "Shengding Hu",
+        "Xu Han",
+        "Zihang Xu",
+        "Yuanwei Xu",
+        "Weilin Zhao",
+        "Maosong Sun",
+        "Zhiyuan Liu"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/thunlp/duplex-model",
+      "published": "2024-06-22T03:20:10.000Z"
+    },
+    {
+      "id": "2406.15927",
+      "title": "Semantic Entropy Probes: Robust and Cheap Hallucination Detection in LLMs",
+      "authors": [
+        "Jannik Kossen",
+        "Jiatong Han",
+        "Muhammed Razzak",
+        "Lisa Schut",
+        "Shreshth Malik",
+        "Yarin Gal"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/oatml/semantic-entropy-probes",
+      "published": "2024-06-22T19:46:06.000Z"
+    },
+    {
+      "id": "2406.16235",
+      "title": "Preference Tuning For Toxicity Mitigation Generalizes Across Languages",
+      "authors": [
+        "Xiaochen Li",
+        "Zheng-Xin Yong",
+        "Stephen H. Bach"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/batsresearch/cross-lingual-detox",
+      "published": "2024-06-23T22:53:47.000Z"
+    },
+    {
+      "id": "2406.16714",
+      "title": "AutoDetect: Towards a Unified Framework for Automated Weakness Detection in Large Language Models",
+      "authors": [
+        "Jiale Cheng",
+        "Yida Lu",
+        "Xiaotao Gu",
+        "Pei Ke",
+        "Xiao Liu",
+        "Yuxiao Dong",
+        "Hongning Wang",
+        "Jie Tang",
+        "Minlie Huang"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/thu-coai/autodetect",
+      "published": "2024-06-24T15:16:45.000Z"
+    },
+    {
+      "id": "2406.16254",
+      "title": "Confidence Regulation Neurons in Language Models",
+      "authors": [
+        "Alessandro Stolfo",
+        "Ben Wu",
+        "Wes Gurnee",
+        "Yonatan Belinkov",
+        "Xingyi Song",
+        "Mrinmaya Sachan",
+        "Neel Nanda"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/bpwu1/confidence-regulation-neurons",
+      "published": "2024-06-24T01:31:03.000Z"
+    },
+    {
+      "id": "2406.14051",
+      "title": "How Many Parameters Does it Take to Change a Light Bulb? Evaluating Performance in Self-Play of Conversational Games as a Function of Model Characteristics",
+      "authors": [
+        "Nidhir Bhavsar",
+        "Jonathan Jordan",
+        "Sherzod Hakimov",
+        "David Schlangen"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2024-06-20T07:17:09.000Z"
+    },
+    {
+      "id": "2406.16815",
+      "title": "ClotheDreamer: Text-Guided Garment Generation with 3D Gaussians",
+      "authors": [
+        "Yufei Liu",
+        "Junshu Tang",
+        "Chu Zheng",
+        "Shijie Zhang",
+        "Jinkun Hao",
+        "Junwei Zhu",
+        "Dongjin Huang"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2024-06-24T17:25:39.000Z"
+    },
+    {
+      "id": "2406.16008",
+      "title": "Found in the Middle: Calibrating Positional Attention Bias Improves Long Context Utilization",
+      "authors": [
+        "Cheng-Yu Hsieh",
+        "Yung-Sung Chuang",
+        "Chun-Liang Li",
+        "Zifeng Wang",
+        "Long T. Le",
+        "Abhishek Kumar",
+        "James Glass",
+        "Alexander Ratner",
+        "Chen-Yu Lee",
+        "Ranjay Krishna",
+        "Tomas Pfister"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2024-06-23T04:35:42.000Z"
+    },
+    {
+      "id": "2406.15704",
+      "title": "video-SALMONN: Speech-Enhanced Audio-Visual Large Language Models",
+      "authors": [
+        "Guangzhi Sun",
+        "Wenyi Yu",
+        "Changli Tang",
+        "Xianzhao Chen",
+        "Tian Tan",
+        "Wei Li",
+        "Lu Lu",
+        "Zejun Ma",
+        "Yuxuan Wang",
+        "Chao Zhang"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2024-06-22T01:36:11.000Z"
+    },
+    {
+      "id": "2406.14540",
+      "title": "IRASim: Learning Interactive Real-Robot Action Simulators",
+      "authors": [
+        "Fangqi Zhu",
+        "Hongtao Wu",
+        "Song Guo",
+        "Yuxiao Liu",
+        "Chilam Cheang",
+        "Tao Kong"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2024-06-20T17:50:16.000Z"
+    },
+    {
+      "id": "2406.13632",
+      "title": "Can Few-shot Work in Long-Context? Recycling the Context to Generate Demonstrations",
+      "authors": [
+        "Arie Cattan",
+        "Alon Jacovi",
+        "Alex Fabrikant",
+        "Jonathan Herzig",
+        "Roee Aharoni",
+        "Hannah Rashkin",
+        "Dror Marcus",
+        "Avinatan Hassidim",
+        "Yossi Matias",
+        "Idan Szpektor",
+        "Avi Caciularu"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2024-06-19T15:28:29.000Z"
+    },
+    {
+      "id": "2406.16683",
+      "title": "Repulsive Score Distillation for Diverse Sampling of Diffusion Models",
+      "authors": [
+        "Nicolas Zilberstein",
+        "Morteza Mardani",
+        "Santiago Segarra"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/nzilberstein/Repulsive-score-distillation-RSD-",
+      "published": "2024-06-24T14:43:02.000Z"
+    },
+    {
+      "id": "2406.16772",
+      "title": "OlympicArena Medal Ranks: Who Is the Most Intelligent AI So Far?",
+      "authors": [
+        "Zhen Huang",
+        "Zengzhi Wang",
+        "Shijie Xia",
+        "Pengfei Liu"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2024-06-24T16:31:12.000Z"
+    }
+  ]
+}

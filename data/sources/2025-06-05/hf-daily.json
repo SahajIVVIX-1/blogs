@@ -1,0 +1,909 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-06-05",
+  "fetched_at": "2026-10-29T15:31:44.339Z",
+  "candidates": [
+    {
+      "id": "2506.03569",
+      "title": "MiMo-VL Technical Report",
+      "authors": [
+        "Xiaomi LLM-Core Team",
+        "Zihao Yue",
+        "Zhenru Lin",
+        "Yifan Song",
+        "Weikun Wang",
+        "Shuhuai Ren",
+        "Shuhao Gu",
+        "Shicheng Li",
+        "Peidian Li",
+        "Liang Zhao",
+        "Lei Li",
+        "Kainan Bao",
+        "Hao Tian",
+        "Hailin Zhang",
+        "Gang Wang",
+        "Dawei Zhu",
+        "Cici",
+        "Chenhong He",
+        "Bowen Ye",
+        "Bowen Shen",
+        "Zihan Zhang",
+        "Zihan Jiang",
+        "Zhixian Zheng",
+        "Zhichao Song",
+        "Zhenbo Luo",
+        "Yue Yu",
+        "Yudong Wang",
+        "Yuanyuan Tian",
+        "Yu Tu",
+        "Yihan Yan",
+        "Yi Huang",
+        "Xu Wang",
+        "Xinzhe Xu",
+        "Xingchen Song",
+        "Xing Zhang",
+        "Xing Yong",
+        "Xin Zhang",
+        "Xiangwei Deng",
+        "Wenyu Yang",
+        "Wenhan Ma",
+        "Weiwei Lv",
+        "Weiji Zhuang",
+        "Wei Liu",
+        "Sirui Deng",
+        "Shuo Liu",
+        "Shimao Chen",
+        "Shihua Yu",
+        "Shaohui Liu",
+        "Shande Wang",
+        "Rui Ma",
+        "Qiantong Wang",
+        "Peng Wang",
+        "Nuo Chen",
+        "Menghang Zhu",
+        "Kangyang Zhou",
+        "Kang Zhou",
+        "Kai Fang",
+        "Jun Shi",
+        "Jinhao Dong",
+        "Jiebao Xiao",
+        "Jiaming Xu",
+        "Huaqiu Liu",
+        "Hongshen Xu",
+        "Heng Qu",
+        "Haochen Zhao",
+        "Hanglong Lv",
+        "Guoan Wang",
+        "Duo Zhang",
+        "Dong Zhang",
+        "Di Zhang",
+        "Chong Ma",
+        "Chang Liu",
+        "Can Cai",
+        "Bingquan Xia"
+      ],
+      "upvotes": 81,
+      "github": "https://github.com/XiaomiMiMo/MiMo-VL",
+      "published": "2025-06-04T04:32:54.000Z"
+    },
+    {
+      "id": "2506.04178",
+      "title": "OpenThoughts: Data Recipes for Reasoning Models",
+      "authors": [
+        "Etash Guha",
+        "Ryan Marten",
+        "Sedrick Keh",
+        "Negin Raoof",
+        "Georgios Smyrnis",
+        "Hritik Bansal",
+        "Marianna Nezhurina",
+        "Jean Mercat",
+        "Trung Vu",
+        "Zayne Sprague",
+        "Ashima Suvarna",
+        "Benjamin Feuer",
+        "Liangyu Chen",
+        "Zaid Khan",
+        "Eric Frankel",
+        "Sachin Grover",
+        "Caroline Choi",
+        "Niklas Muennighoff",
+        "Shiye Su",
+        "Wanjia Zhao",
+        "John Yang",
+        "Shreyas Pimpalgaonkar",
+        "Kartik Sharma",
+        "Charlie Cheng-Jie Ji",
+        "Yichuan Deng",
+        "Sarah Pratt",
+        "Vivek Ramanujan",
+        "Jon Saad-Falcon",
+        "Jeffrey Li",
+        "Achal Dave",
+        "Alon Albalak",
+        "Kushal Arora",
+        "Blake Wulfe",
+        "Chinmay Hegde",
+        "Greg Durrett",
+        "Sewoong Oh",
+        "Mohit Bansal",
+        "Saadia Gabriel",
+        "Aditya Grover",
+        "Kai-Wei Chang",
+        "Vaishaal Shankar",
+        "Aaron Gokaslan",
+        "Mike A. Merrill",
+        "Tatsunori Hashimoto",
+        "Yejin Choi",
+        "Jenia Jitsev",
+        "Reinhard Heckel",
+        "Maheswaran Sathiamoorthy",
+        "Alexandros G. Dimakis",
+        "Ludwig Schmidt"
+      ],
+      "upvotes": 57,
+      "github": "https://github.com/open-thoughts/open-thoughts",
+      "published": "2025-06-04T17:25:39.000Z"
+    },
+    {
+      "id": "2506.04207",
+      "title": "Advancing Multimodal Reasoning: From Optimized Cold Start to Staged Reinforcement Learning",
+      "authors": [
+        "Shuang Chen",
+        "Yue Guo",
+        "Zhaochen Su",
+        "Yafu Li",
+        "Yulun Wu",
+        "Jiacheng Chen",
+        "Jiayu Chen",
+        "Weijie Wang",
+        "Xiaoye Qu",
+        "Yu Cheng"
+      ],
+      "upvotes": 48,
+      "github": "https://github.com/CSfufu/Revisual-R1",
+      "published": "2025-06-04T17:51:08.000Z"
+    },
+    {
+      "id": "2506.04089",
+      "title": "AmbiK: Dataset of Ambiguous Tasks in Kitchen Environment",
+      "authors": [
+        "Anastasiia Ivanova",
+        "Eva Bakaeva",
+        "Zoya Volovikova",
+        "Alexey K. Kovalev",
+        "Aleksandr I. Panov"
+      ],
+      "upvotes": 47,
+      "github": "https://github.com/cog-model/ambik-dataset",
+      "published": "2025-06-04T15:47:07.000Z"
+    },
+    {
+      "id": "2505.16968",
+      "title": "CASS: Nvidia to AMD Transpilation with Data, Models, and Benchmark",
+      "authors": [
+        "Ahmed Heakl",
+        "Sarim Hashmi",
+        "Gustavo Bertolo Stahl",
+        "Seung Hun Eddie Han",
+        "Salman Khan",
+        "Abdulrahman Mahmoud"
+      ],
+      "upvotes": 37,
+      "github": "https://github.com/GustavoStahl/CASS",
+      "published": "2025-05-22T17:48:53.000Z"
+    },
+    {
+      "id": "2506.04180",
+      "title": "SuperWriter: Reflection-Driven Long-Form Generation with Large Language Models",
+      "authors": [
+        "Yuhao Wu",
+        "Yushi Bai",
+        "Zhiqiang Hu",
+        "Juanzi Li",
+        "Roy Ka-Wei Lee"
+      ],
+      "upvotes": 35,
+      "github": "https://github.com/mozhu621/SuperWriter",
+      "published": "2025-06-04T17:27:42.000Z"
+    },
+    {
+      "id": "2506.04141",
+      "title": "MMR-V: What's Left Unsaid? A Benchmark for Multimodal Deep Reasoning in Videos",
+      "authors": [
+        "Kejian Zhu",
+        "Zhuoran Jin",
+        "Hongbang Yuan",
+        "Jiachun Li",
+        "Shangqing Tu",
+        "Pengfei Cao",
+        "Yubo Chen",
+        "Kang Liu",
+        "Jun Zhao"
+      ],
+      "upvotes": 31,
+      "github": "https://github.com/GaryStack/MMR-V",
+      "published": "2025-06-04T16:33:41.000Z"
+    },
+    {
+      "id": "2506.04142",
+      "title": "Establishing Trustworthy LLM Evaluation via Shortcut Neuron Analysis",
+      "authors": [
+        "Kejian Zhu",
+        "Shangqing Tu",
+        "Zhuoran Jin",
+        "Lei Hou",
+        "Juanzi Li",
+        "Jun Zhao"
+      ],
+      "upvotes": 28,
+      "github": "https://github.com/GaryStack/Trustworthy-Evaluation",
+      "published": "2025-06-04T16:33:44.000Z"
+    },
+    {
+      "id": "2506.04225",
+      "title": "Voyager: Long-Range and World-Consistent Video Diffusion for Explorable 3D Scene Generation",
+      "authors": [
+        "Tianyu Huang",
+        "Wangguandong Zheng",
+        "Tengfei Wang",
+        "Yuhao Liu",
+        "Zhenwei Wang",
+        "Junta Wu",
+        "Jie Jiang",
+        "Hui Li",
+        "Rynson W. H. Lau",
+        "Wangmeng Zuo",
+        "Chunchao Guo"
+      ],
+      "upvotes": 27,
+      "github": null,
+      "published": "2025-06-04T17:59:04.000Z"
+    },
+    {
+      "id": "2506.03930",
+      "title": "VisCoder: Fine-Tuning LLMs for Executable Python Visualization Code Generation",
+      "authors": [
+        "Yuansheng Ni",
+        "Ping Nie",
+        "Kai Zou",
+        "Xiang Yue",
+        "Wenhu Chen"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/TIGER-AI-Lab/VisCoder",
+      "published": "2025-06-04T13:24:44.000Z"
+    },
+    {
+      "id": "2506.02153",
+      "title": "Small Language Models are the Future of Agentic AI",
+      "authors": [
+        "Peter Belcak",
+        "Greg Heinrich",
+        "Shizhe Diao",
+        "Yonggan Fu",
+        "Xin Dong",
+        "Saurav Muralidharan",
+        "Yingyan Celine Lin",
+        "Pavlo Molchanov"
+      ],
+      "upvotes": 26,
+      "github": null,
+      "published": "2025-06-02T18:35:16.000Z"
+    },
+    {
+      "id": "2506.04158",
+      "title": "Image Editing As Programs with Diffusion Models",
+      "authors": [
+        "Yujia Hu",
+        "Songhua Liu",
+        "Zhenxiong Tan",
+        "Xingyi Yang",
+        "Xinchao Wang"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/YujiaHu1109/IEAP",
+      "published": "2025-06-04T16:57:24.000Z"
+    },
+    {
+      "id": "2506.03150",
+      "title": "IllumiCraft: Unified Geometry and Illumination Diffusion for Controllable Video Generation",
+      "authors": [
+        "Yuanze Lin",
+        "Yi-Wen Chen",
+        "Yi-Hsuan Tsai",
+        "Ronald Clark",
+        "Ming-Hsuan Yang"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/yuanze-lin/IllumiCraft",
+      "published": "2025-06-03T17:59:52.000Z"
+    },
+    {
+      "id": "2506.03099",
+      "title": "TalkingMachines: Real-Time Audio-Driven FaceTime-Style Video via Autoregressive Diffusion Models",
+      "authors": [
+        "Chetwin Low",
+        "Weimin Wang"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/aaxwaz/TalkingMachines",
+      "published": "2025-06-03T17:29:28.000Z"
+    },
+    {
+      "id": "2506.02921",
+      "title": "A Controllable Examination for Long-Context Language Models",
+      "authors": [
+        "Yijun Yang",
+        "Zeyu Huang",
+        "Wenhao Zhu",
+        "Zihan Qiu",
+        "Fei Yuan",
+        "Jeff Z. Pan",
+        "Ivan Titov"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/Thomasyyj/LongBio-Benchmark",
+      "published": "2025-06-03T14:23:06.000Z"
+    },
+    {
+      "id": "2506.01320",
+      "title": "Ψ-Sampler: Initial Particle Sampling for SMC-Based Inference-Time Reward Alignment in Score Models",
+      "authors": [
+        "Taehoon Yoon",
+        "Yunhong Min",
+        "Kyeongmin Yeo",
+        "Minhyuk Sung"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/KAIST-Visual-AI-Group/Psi-Sampler",
+      "published": "2025-06-02T05:02:33.000Z"
+    },
+    {
+      "id": "2506.03517",
+      "title": "DenseDPO: Fine-Grained Temporal Preference Optimization for Video Diffusion Models",
+      "authors": [
+        "Ziyi Wu",
+        "Anil Kag",
+        "Ivan Skorokhodov",
+        "Willi Menapace",
+        "Ashkan Mirzaei",
+        "Igor Gilitschenski",
+        "Sergey Tulyakov",
+        "Aliaksandr Siarohin"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2025-06-04T03:06:08.000Z"
+    },
+    {
+      "id": "2506.04228",
+      "title": "LayerFlow: A Unified Model for Layer-aware Video Generation",
+      "authors": [
+        "Sihui Ji",
+        "Hao Luo",
+        "Xi Chen",
+        "Yuanpeng Tu",
+        "Yiyang Wang",
+        "Hengshuang Zhao"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2025-06-04T17:59:58.000Z"
+    },
+    {
+      "id": "2506.03295",
+      "title": "Unleashing the Reasoning Potential of Pre-trained LLMs by Critique Fine-Tuning on One Problem",
+      "authors": [
+        "Yubo Wang",
+        "Ping Nie",
+        "Kai Zou",
+        "Lijun Wu",
+        "Wenhu Chen"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/TIGER-AI-Lab/One-Shot-CFT",
+      "published": "2025-06-03T18:35:52.000Z"
+    },
+    {
+      "id": "2506.04108",
+      "title": "Rectified Sparse Attention",
+      "authors": [
+        "Yutao Sun",
+        "Tianzhu Ye",
+        "Li Dong",
+        "Yuqing Xia",
+        "Jian Chen",
+        "Yizhao Gao",
+        "Shijie Cao",
+        "Jianyong Wang",
+        "Furu Wei"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2025-06-04T16:01:48.000Z"
+    },
+    {
+      "id": "2506.03610",
+      "title": "Orak: A Foundational Benchmark for Training and Evaluating LLM Agents on Diverse Video Games",
+      "authors": [
+        "Dongmin Park",
+        "Minkyu Kim",
+        "Beongjun Choi",
+        "Junhyuck Kim",
+        "Keon Lee",
+        "Jonghyun Lee",
+        "Inkyu Park",
+        "Byeong-Uk Lee",
+        "Jaeyoung Hwang",
+        "Jaewoo Ahn",
+        "Ameya S. Mahabaleshwarkar",
+        "Bilal Kartal",
+        "Pritam Biswas",
+        "Yoshi Suhara",
+        "Kangwook Lee",
+        "Jaewoong Cho"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/krafton-ai/Orak",
+      "published": "2025-06-04T06:40:33.000Z"
+    },
+    {
+      "id": "2506.00482",
+      "title": "BenchHub: A Unified Benchmark Suite for Holistic and Customizable LLM Evaluation",
+      "authors": [
+        "Eunsu Kim",
+        "Haneul Yoo",
+        "Guijin Son",
+        "Hitesh Patel",
+        "Amit Agarwal",
+        "Alice Oh"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/rladmstn1714/BenchHub",
+      "published": "2025-05-31T09:24:32.000Z"
+    },
+    {
+      "id": "2506.03139",
+      "title": "SVGenius: Benchmarking LLMs in SVG Understanding, Editing and Generation",
+      "authors": [
+        "Siqi Chen",
+        "Xinyu Dong",
+        "Haolei Xu",
+        "Xingyu Wu",
+        "Fei Tang",
+        "Hang Zhang",
+        "Yuchen Yan",
+        "Linjuan Wu",
+        "Wenqi Zhang",
+        "Guiyang Hou",
+        "Yongliang Shen",
+        "Weiming Lu",
+        "Yueting Zhuang"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/ZJU-REAL/SVGenius",
+      "published": "2025-06-03T17:58:57.000Z"
+    },
+    {
+      "id": "2506.02592",
+      "title": "Beyond the Surface: Measuring Self-Preference in LLM Judgments",
+      "authors": [
+        "Zhi-Yuan Chen",
+        "Hao Wang",
+        "Xinyu Zhang",
+        "Enrui Hu",
+        "Yankai Lin"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/zhiyuanc2001/self-preference",
+      "published": "2025-06-03T08:12:47.000Z"
+    },
+    {
+      "id": "2505.21541",
+      "title": "DiffDecompose: Layer-Wise Decomposition of Alpha-Composited Images via Diffusion Transformers",
+      "authors": [
+        "Zitong Wang",
+        "Hang Zhao",
+        "Qianyu Zhou",
+        "Xuequan Lu",
+        "Xiangtai Li",
+        "Yiren Song"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/Wangzt1121/DiffDecompose",
+      "published": "2025-05-24T16:08:04.000Z"
+    },
+    {
+      "id": "2506.03525",
+      "title": "Video-Skill-CoT: Skill-based Chain-of-Thoughts for Domain-Adaptive Video Reasoning",
+      "authors": [
+        "Daeun Lee",
+        "Jaehong Yoon",
+        "Jaemin Cho",
+        "Mohit Bansal"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/daeunni/Video-Skill-CoT",
+      "published": "2025-06-04T03:18:01.000Z"
+    },
+    {
+      "id": "2506.03355",
+      "title": "Robustness in Both Domains: CLIP Needs a Robust Text Encoder",
+      "authors": [
+        "Elias Abad Rocamora",
+        "Christian Schlarmann",
+        "Naman Deep Singh",
+        "Yongtao Wu",
+        "Matthias Hein",
+        "Volkan Cevher"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/LIONS-EPFL/LEAF",
+      "published": "2025-06-03T19:57:09.000Z"
+    },
+    {
+      "id": "2506.03106",
+      "title": "Critique-GRPO: Advancing LLM Reasoning with Natural Language and Numerical Feedback",
+      "authors": [
+        "Xiaoying Zhang",
+        "Hao Sun",
+        "Yipeng Zhang",
+        "Kaituo Feng",
+        "Chaochao Lu",
+        "Chao Yang",
+        "Helen Meng"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/zhangxy-2019/critique-GRPO",
+      "published": "2025-06-03T17:39:02.000Z"
+    },
+    {
+      "id": "2506.01344",
+      "title": "Follow the Flow: Fine-grained Flowchart Attribution with Neurosymbolic Agents",
+      "authors": [
+        "Manan Suri",
+        "Puneet Mathur",
+        "Nedim Lipka",
+        "Franck Dernoncourt",
+        "Ryan A. Rossi",
+        "Vivek Gupta",
+        "Dinesh Manocha"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2025-06-02T06:02:41.000Z"
+    },
+    {
+      "id": "2506.02294",
+      "title": "Improving Knowledge Distillation Under Unknown Covariate Shift Through Confidence-Guided Data Augmentation",
+      "authors": [
+        "Niclas Popp",
+        "Kevin Alexander Laube",
+        "Matthias Hein",
+        "Lukas Schott"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2025-06-02T22:15:59.000Z"
+    },
+    {
+      "id": "2506.02863",
+      "title": "CapSpeech: Enabling Downstream Applications in Style-Captioned Text-to-Speech",
+      "authors": [
+        "Helin Wang",
+        "Jiarui Hai",
+        "Dading Chong",
+        "Karan Thakkar",
+        "Tiantian Feng",
+        "Dongchao Yang",
+        "Junhyeok Lee",
+        "Laureano Moro Velazquez",
+        "Jesus Villalba",
+        "Zengyi Qin",
+        "Shrikanth Narayanan",
+        "Mounya Elhiali",
+        "Najim Dehak"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/WangHelin1997/CapSpeech",
+      "published": "2025-06-03T13:28:55.000Z"
+    },
+    {
+      "id": "2506.03566",
+      "title": "POSS: Position Specialist Generates Better Draft for Speculative Decoding",
+      "authors": [
+        "Langlin Huang",
+        "Chengsong Huang",
+        "Jixuan Leng",
+        "Di Huang",
+        "Jiaxin Huang"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/shrango/PosS",
+      "published": "2025-06-04T04:30:30.000Z"
+    },
+    {
+      "id": "2506.03956",
+      "title": "Adapt before Continual Learning",
+      "authors": [
+        "Aojun Lu",
+        "Tao Feng",
+        "Hangjie Yuan",
+        "Chunhui Ding",
+        "Yanan Sun"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/byyx666/ACL_code",
+      "published": "2025-06-04T13:46:33.000Z"
+    },
+    {
+      "id": "2506.03448",
+      "title": "RefEdit: A Benchmark and Method for Improving Instruction-based Image Editing Model on Referring Expressions",
+      "authors": [
+        "Bimsara Pathiraja",
+        "Maitreya Patel",
+        "Shivam Singh",
+        "Yezhou Yang",
+        "Chitta Baral"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/bimsarapathiraja/refedit",
+      "published": "2025-06-03T23:20:24.000Z"
+    },
+    {
+      "id": "2506.02945",
+      "title": "Quantitative LLM Judges",
+      "authors": [
+        "Aishwarya Sahoo",
+        "Jeevana Kruthi Karnuthala",
+        "Tushar Parmanand Budhwani",
+        "Pranchal Agarwal",
+        "Sankaran Vaidyanathan",
+        "Alexa Siu",
+        "Franck Dernoncourt",
+        "Jennifer Healey",
+        "Nedim Lipka",
+        "Ryan Rossi",
+        "Uttaran Bhattacharya",
+        "Branislav Kveton"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-06-03T14:44:23.000Z"
+    },
+    {
+      "id": "2506.04133",
+      "title": "TRiSM for Agentic AI: A Review of Trust, Risk, and Security Management in LLM-based Agentic Multi-Agent Systems",
+      "authors": [
+        "Shaina Raza",
+        "Ranjan Sapkota",
+        "Manoj Karkee",
+        "Christos Emmanouilidis"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-06-04T16:26:11.000Z"
+    },
+    {
+      "id": "2506.03837",
+      "title": "HTSC-2025: A Benchmark Dataset of Ambient-Pressure High-Temperature Superconductors for AI-Driven Critical Temperature Prediction",
+      "authors": [
+        "Xiao-Qi Han",
+        "Ze-Feng Gao",
+        "Xin-De Wang",
+        "Zhenfeng Ouyang",
+        "Peng-Jie Guo",
+        "Zhong-Yi Lu"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/xqh19970407/htsc-2025",
+      "published": "2025-06-04T11:14:00.000Z"
+    },
+    {
+      "id": "2506.02515",
+      "title": "FinChain: A Symbolic Benchmark for Verifiable Chain-of-Thought Financial Reasoning",
+      "authors": [
+        "Zhuohan Xie",
+        "Dhruv Sahnan",
+        "Debopriyo Banerjee",
+        "Georgi Georgiev",
+        "Rushil Thareja",
+        "Hachem Madmoun",
+        "Jinyan Su",
+        "Aaryamonvikram Singh",
+        "Yuxia Wang",
+        "Rui Xing",
+        "Fajri Koto",
+        "Haonan Li",
+        "Ivan Koychev",
+        "Tanmoy Chakraborty",
+        "Salem Lahlou",
+        "Veselin Stoyanov",
+        "Preslav Nakov"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/mbzuai-nlp/finchain",
+      "published": "2025-06-03T06:44:42.000Z"
+    },
+    {
+      "id": "2506.04034",
+      "title": "Rex-Thinker: Grounded Object Referring via Chain-of-Thought Reasoning",
+      "authors": [
+        "Qing Jiang",
+        "Xingyu Chen",
+        "Zhaoyang Zeng",
+        "Junzhi Yu",
+        "Lei Zhang"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/IDEA-Research/Rex-Thinker",
+      "published": "2025-06-04T14:56:57.000Z"
+    },
+    {
+      "id": "2505.24500",
+      "title": "TimeHC-RL: Temporal-aware Hierarchical Cognitive Reinforcement Learning for Enhancing LLMs' Social Intelligence",
+      "authors": [
+        "Guiyang Hou",
+        "Xing Gao",
+        "Yuchuan Wu",
+        "Xiang Huang",
+        "Wenqi Zhang",
+        "Zhe Zheng",
+        "Yongliang Shen",
+        "Jialu Du",
+        "Fei Huang",
+        "Yongbin Li",
+        "Weiming Lu"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/zju-real/timehc-rl",
+      "published": "2025-05-30T12:01:06.000Z"
+    },
+    {
+      "id": "2506.05332",
+      "title": "Unleashing Hour-Scale Video Training for Long Video-Language Understanding",
+      "authors": [
+        "Jingyang Lin",
+        "Jialian Wu",
+        "Ximeng Sun",
+        "Ze Wang",
+        "Jiang Liu",
+        "Yusheng Su",
+        "Xiaodong Yu",
+        "Hao Chen",
+        "Jiebo Luo",
+        "Zicheng Liu",
+        "Emad Barsoum"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/jylins/hourllava",
+      "published": "2025-06-05T17:59:04.000Z"
+    },
+    {
+      "id": "2505.23807",
+      "title": "DLP: Dynamic Layerwise Pruning in Large Language Models",
+      "authors": [
+        "Yuli Chen",
+        "Bo Cheng",
+        "Jiale Han",
+        "Yingying Zhang",
+        "Yingting Li",
+        "Shuhao Zhang"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/ironartisan/dlp",
+      "published": "2025-05-27T07:35:00.000Z"
+    },
+    {
+      "id": "2506.03822",
+      "title": "CRAWLDoc: A Dataset for Robust Ranking of Bibliographic Documents",
+      "authors": [
+        "Fabian Karl",
+        "Ansgar Scherp"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/FKarl/CRAWLDoc",
+      "published": "2025-06-04T10:52:55.000Z"
+    },
+    {
+      "id": "2506.04214",
+      "title": "Sounding that Object: Interactive Object-Aware Image to Audio Generation",
+      "authors": [
+        "Tingle Li",
+        "Baihe Huang",
+        "Xiaobin Zhuang",
+        "Dongya Jia",
+        "Jiawei Chen",
+        "Yuping Wang",
+        "Zhuo Chen",
+        "Gopala Anumanchipalli",
+        "Yuxuan Wang"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/Tinglok/avobject",
+      "published": "2025-06-04T17:57:26.000Z"
+    },
+    {
+      "id": "2506.02680",
+      "title": "Solving Inverse Problems with FLAIR",
+      "authors": [
+        "Julius Erbach",
+        "Dominik Narnhofer",
+        "Andreas Dombos",
+        "Bernt Schiele",
+        "Jan Eric Lenssen",
+        "Konrad Schindler"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/prs-eth/FLAIR",
+      "published": "2025-06-03T09:29:47.000Z"
+    },
+    {
+      "id": "2506.03951",
+      "title": "Rethinking the Stability-Plasticity Trade-off in Continual Learning from an Architectural Perspective",
+      "authors": [
+        "Aojun Lu",
+        "Hangjie Yuan",
+        "Tao Feng",
+        "Yanan Sun"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/byyx666/Dual-Arch",
+      "published": "2025-06-04T13:40:41.000Z"
+    },
+    {
+      "id": "2506.03538",
+      "title": "Robust Neural Rendering in the Wild with Asymmetric Dual 3D Gaussian Splatting",
+      "authors": [
+        "Chengqi Li",
+        "Zhihao Shi",
+        "Yangdi Lu",
+        "Wenbo He",
+        "Xiangyu Xu"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/steveli88/AsymGS",
+      "published": "2025-06-04T03:40:33.000Z"
+    },
+    {
+      "id": "2506.03614",
+      "title": "VLMs Can Aggregate Scattered Training Patches",
+      "authors": [
+        "Zhanhui Zhou",
+        "Lingjie Chen",
+        "Chao Yang",
+        "Chaochao Lu"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/ZHZisZZ/visual-stitching",
+      "published": "2025-06-04T06:46:06.000Z"
+    },
+    {
+      "id": "2506.00618",
+      "title": "RiOSWorld: Benchmarking the Risk of Multimodal Compter-Use Agents",
+      "authors": [
+        "Jingyi Yang",
+        "Shuai Shao",
+        "Dongrui Liu",
+        "Jing Shao"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/yjyddq/RiOSWorld",
+      "published": "2025-05-31T16:04:59.000Z"
+    },
+    {
+      "id": "2505.23564",
+      "title": "Segment Policy Optimization: Effective Segment-Level Credit Assignment in RL for Large Language Models",
+      "authors": [
+        "Yiran Guo",
+        "Lijie Xu",
+        "Jie Liu",
+        "Dan Ye",
+        "Shuang Qiu"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/AIFrameResearch/SPO",
+      "published": "2025-05-29T15:38:19.000Z"
+    }
+  ]
+}

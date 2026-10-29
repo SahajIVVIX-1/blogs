@@ -1,0 +1,351 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-06-13",
+  "fetched_at": "2026-10-29T15:28:06.724Z",
+  "candidates": [
+    {
+      "id": "2406.08464",
+      "title": "Magpie: Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing",
+      "authors": [
+        "Zhangchen Xu",
+        "Fengqing Jiang",
+        "Luyao Niu",
+        "Yuntian Deng",
+        "Radha Poovendran",
+        "Yejin Choi",
+        "Bill Yuchen Lin"
+      ],
+      "upvotes": 71,
+      "github": "https://github.com/magpie-align/magpie",
+      "published": "2024-06-12T17:52:30.000Z"
+    },
+    {
+      "id": "2406.06523",
+      "title": "NaRCan: Natural Refined Canonical Image with Integration of Diffusion Prior for Video Editing",
+      "authors": [
+        "Ting-Hsuan Chen",
+        "Jiewen Chan",
+        "Hau-Shiang Shiu",
+        "Shih-Han Yen",
+        "Chang-Han Yeh",
+        "Yu-Lun Liu"
+      ],
+      "upvotes": 51,
+      "github": "https://github.com/koi953215/NaRCan",
+      "published": "2024-06-10T17:59:46.000Z"
+    },
+    {
+      "id": "2406.08478",
+      "title": "What If We Recaption Billions of Web Images with LLaMA-3?",
+      "authors": [
+        "Xianhang Li",
+        "Haoqin Tu",
+        "Mude Hui",
+        "Zeyu Wang",
+        "Bingchen Zhao",
+        "Junfei Xiao",
+        "Sucheng Ren",
+        "Jieru Mei",
+        "Qing Liu",
+        "Huangjie Zheng",
+        "Yuyin Zhou",
+        "Cihang Xie"
+      ],
+      "upvotes": 42,
+      "github": "https://github.com/UCSC-VLAA/Recap-DataComp-1B",
+      "published": "2024-06-12T17:59:07.000Z"
+    },
+    {
+      "id": "2406.05338",
+      "title": "MotionClone: Training-Free Motion Cloning for Controllable Video Generation",
+      "authors": [
+        "Pengyang Ling",
+        "Jiazi Bu",
+        "Pan Zhang",
+        "Xiaoyi Dong",
+        "Yuhang Zang",
+        "Tong Wu",
+        "Huaian Chen",
+        "Jiaqi Wang",
+        "Yi Jin"
+      ],
+      "upvotes": 40,
+      "github": "https://github.com/bujiazi/motionclone",
+      "published": "2024-06-08T03:44:25.000Z"
+    },
+    {
+      "id": "2406.06282",
+      "title": "PowerInfer-2: Fast Large Language Model Inference on a Smartphone",
+      "authors": [
+        "Zhenliang Xue",
+        "Yixin Song",
+        "Zeyu Mi",
+        "Le Chen",
+        "Yubin Xia",
+        "Haibo Chen"
+      ],
+      "upvotes": 39,
+      "github": null,
+      "published": "2024-06-10T14:01:21.000Z"
+    },
+    {
+      "id": "2406.04338",
+      "title": "Physics3D: Learning Physical Properties of 3D Gaussians via Video Diffusion",
+      "authors": [
+        "Fangfu Liu",
+        "Hanyang Wang",
+        "Shunyu Yao",
+        "Shengjun Zhang",
+        "Jie Zhou",
+        "Yueqi Duan"
+      ],
+      "upvotes": 37,
+      "github": "https://github.com/liuff19/physics3d",
+      "published": "2024-06-06T17:59:47.000Z"
+    },
+    {
+      "id": "2406.04127",
+      "title": "Are We Done with MMLU?",
+      "authors": [
+        "Aryo Pradipta Gema",
+        "Joshua Ong Jun Leang",
+        "Giwon Hong",
+        "Alessio Devoto",
+        "Alberto Carlo Maria Mancino",
+        "Rohit Saxena",
+        "Xuanli He",
+        "Yu Zhao",
+        "Xiaotang Du",
+        "Mohammad Reza Ghasemi Madani",
+        "Claire Barale",
+        "Robert McHardy",
+        "Joshua Harris",
+        "Jean Kaddour",
+        "Emile van Krieken",
+        "Pasquale Minervini"
+      ],
+      "upvotes": 35,
+      "github": "https://github.com/aryopg/mmlu-redux",
+      "published": "2024-06-06T14:49:06.000Z"
+    },
+    {
+      "id": "2406.07476",
+      "title": "VideoLLaMA 2: Advancing Spatial-Temporal Modeling and Audio Understanding in Video-LLMs",
+      "authors": [
+        "Zesen Cheng",
+        "Sicong Leng",
+        "Hang Zhang",
+        "Yifei Xin",
+        "Xin Li",
+        "Guanzheng Chen",
+        "Yongxin Zhu",
+        "Wenqi Zhang",
+        "Ziyang Luo",
+        "Deli Zhao",
+        "Lidong Bing"
+      ],
+      "upvotes": 33,
+      "github": "https://github.com/damo-nlp-sg/videollama2",
+      "published": "2024-06-11T17:22:23.000Z"
+    },
+    {
+      "id": "2406.05132",
+      "title": "3D-GRAND: A Million-Scale Dataset for 3D-LLMs with Better Grounding and Less Hallucination",
+      "authors": [
+        "Jianing Yang",
+        "Xuweiyi Chen",
+        "Nikhil Madaan",
+        "Madhavan Iyengar",
+        "Shengyi Qian",
+        "David F. Fouhey",
+        "Joyce Chai"
+      ],
+      "upvotes": 29,
+      "github": "https://github.com/sled-group/3D-GRAND",
+      "published": "2024-06-07T17:59:59.000Z"
+    },
+    {
+      "id": "2406.05955",
+      "title": "Turbo Sparse: Achieving LLM SOTA Performance with Minimal Activated Parameters",
+      "authors": [
+        "Yixin Song",
+        "Haotong Xie",
+        "Zhengyan Zhang",
+        "Bo Wen",
+        "Li Ma",
+        "Zeyu Mi",
+        "Haibo Chen"
+      ],
+      "upvotes": 26,
+      "github": null,
+      "published": "2024-06-10T01:21:59.000Z"
+    },
+    {
+      "id": "2406.08407",
+      "title": "MMWorld: Towards Multi-discipline Multi-faceted World Model Evaluation in Videos",
+      "authors": [
+        "Xuehai He",
+        "Weixi Feng",
+        "Kaizhi Zheng",
+        "Yujie Lu",
+        "Wanrong Zhu",
+        "Jiachen Li",
+        "Yue Fan",
+        "Jianfeng Wang",
+        "Linjie Li",
+        "Zhengyuan Yang",
+        "Kevin Lin",
+        "William Yang Wang",
+        "Lijuan Wang",
+        "Xin Eric Wang"
+      ],
+      "upvotes": 26,
+      "github": "https://github.com/eric-ai-lab/mmworld",
+      "published": "2024-06-12T16:54:54.000Z"
+    },
+    {
+      "id": "2406.08392",
+      "title": "FontStudio: Shape-Adaptive Diffusion Model for Coherent and Consistent Font Effect Generation",
+      "authors": [
+        "Xinzhi Mu",
+        "Li Chen",
+        "Bohan Chen",
+        "Shuyang Gu",
+        "Jianmin Bao",
+        "Dong Chen",
+        "Ji Li",
+        "Yuhui Yuan"
+      ],
+      "upvotes": 19,
+      "github": null,
+      "published": "2024-06-12T16:43:47.000Z"
+    },
+    {
+      "id": "2406.07686",
+      "title": "AV-DiT: Efficient Audio-Visual Diffusion Transformer for Joint Audio and Video Generation",
+      "authors": [
+        "Kai Wang",
+        "Shijian Deng",
+        "Jing Shi",
+        "Dimitrios Hatzinakos",
+        "Yapeng Tian"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2024-06-11T20:05:58.000Z"
+    },
+    {
+      "id": "2406.08414",
+      "title": "Discovering Preference Optimization Algorithms with and for Large Language Models",
+      "authors": [
+        "Chris Lu",
+        "Samuel Holt",
+        "Claudio Fanconi",
+        "Alex J. Chan",
+        "Jakob Foerster",
+        "Mihaela van der Schaar",
+        "Robert Tjarko Lange"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/luchris429/DiscoPOP",
+      "published": "2024-06-12T16:58:41.000Z"
+    },
+    {
+      "id": "2406.07792",
+      "title": "Hierarchical Patch Diffusion Models for High-Resolution Video Generation",
+      "authors": [
+        "Ivan Skorokhodov",
+        "Willi Menapace",
+        "Aliaksandr Siarohin",
+        "Sergey Tulyakov"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2024-06-12T01:12:53.000Z"
+    },
+    {
+      "id": "2406.08487",
+      "title": "Beyond LLaVA-HD: Diving into High-Resolution Large Multimodal Models",
+      "authors": [
+        "Yi-Fan Zhang",
+        "Qingsong Wen",
+        "Chaoyou Fu",
+        "Xue Wang",
+        "Zhang Zhang",
+        "Liang Wang",
+        "Rong Jin"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/yfzhang114/slime",
+      "published": "2024-06-12T17:59:49.000Z"
+    },
+    {
+      "id": "2406.06462",
+      "title": "VCR: Visual Caption Restoration",
+      "authors": [
+        "Tianyu Zhang",
+        "Suyuchen Wang",
+        "Lu Li",
+        "Ge Zhang",
+        "Perouz Taslakian",
+        "Sai Rajeswar",
+        "Jie Fu",
+        "Bang Liu",
+        "Yoshua Bengio"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/tianyu-z/vcr",
+      "published": "2024-06-10T16:58:48.000Z"
+    },
+    {
+      "id": "2406.05074",
+      "title": "Hibou: A Family of Foundational Vision Transformers for Pathology",
+      "authors": [
+        "Dmitry Nechaev",
+        "Alexey Pchelnikov",
+        "Ekaterina Ivanova"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/histai/hibou",
+      "published": "2024-06-07T16:45:53.000Z"
+    },
+    {
+      "id": "2406.04320",
+      "title": "Chimera: Effectively Modeling Multivariate Time Series with 2-Dimensional State Space Models",
+      "authors": [
+        "Ali Behrouz",
+        "Michele Santacatterina",
+        "Ramin Zabih"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2024-06-06T17:58:09.000Z"
+    },
+    {
+      "id": "2406.04329",
+      "title": "Simplified and Generalized Masked Diffusion for Discrete Data",
+      "authors": [
+        "Jiaxin Shi",
+        "Kehang Han",
+        "Zhe Wang",
+        "Arnaud Doucet",
+        "Michalis K. Titsias"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/google-deepmind/md4",
+      "published": "2024-06-06T17:59:10.000Z"
+    },
+    {
+      "id": "2406.07933",
+      "title": "Large Language Model Unlearning via Embedding-Corrupted Prompts",
+      "authors": [
+        "Chris Yuhao Liu",
+        "Yaxuan Wang",
+        "Jeffrey Flanigan",
+        "Yang Liu"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/chrisliu298/llm-unlearn-eco",
+      "published": "2024-06-12T06:56:20.000Z"
+    }
+  ]
+}

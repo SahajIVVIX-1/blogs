@@ -1,0 +1,7 @@
+{
+  "id": "2603.10165",
+  "html": "https://arxiv.org/html/2603.10165",
+  "limitations": null,
+  "conclusion": "Every agent interaction produces a next-state signal that encodes how the agent performed and, often, how it should have acted differently. OpenClaw-RL is built on a single insight: these signals are stream-agnostic, and one policy can learn from all of them simultaneously. Personal conversations, terminal executions, GUI interactions, SWE tasks, and tool-call traces all flow into the same training loop. OpenClaw-RL shows that deployed agent interactions can be converted into useful online supervision by combining frequent evaluative signals with sparser but richer directive signals, with stable learning ensured through overlap-guided hint selection and log-probability-difference clipping. Two important challenges remain for real-world deployment. First, negative or adversarial user feedback, such as misleading corrections or malicious instructions, may poison the model if used directly ",
+  "figure": null
+}

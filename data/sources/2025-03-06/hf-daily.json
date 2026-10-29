@@ -1,0 +1,346 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-03-06",
+  "fetched_at": "2026-10-29T15:30:48.585Z",
+  "candidates": [
+    {
+      "id": "2503.00865",
+      "title": "Babel: Open Multilingual Large Language Models Serving Over 90% of Global Speakers",
+      "authors": [
+        "Yiran Zhao",
+        "Chaoqun Liu",
+        "Yue Deng",
+        "Jiahao Ying",
+        "Mahani Aljunied",
+        "Zhaodonghui Li",
+        "Lidong Bing",
+        "Hou Pong Chan",
+        "Yu Rong",
+        "Deli Zhao",
+        "Wenxuan Zhang"
+      ],
+      "upvotes": 64,
+      "github": "https://github.com/babel-llm/babel-llm",
+      "published": "2025-03-02T11:53:55.000Z"
+    },
+    {
+      "id": "2503.02003",
+      "title": "HoT: Highlighted Chain of Thought for Referencing Supporting Facts from Inputs",
+      "authors": [
+        "Tin Nguyen",
+        "Logan Bolton",
+        "Mohammad Reza Taesiri",
+        "Anh Totti Nguyen"
+      ],
+      "upvotes": 40,
+      "github": null,
+      "published": "2025-03-03T19:26:04.000Z"
+    },
+    {
+      "id": "2503.03746",
+      "title": "Process-based Self-Rewarding Language Models",
+      "authors": [
+        "Shimao Zhang",
+        "Xiao Liu",
+        "Xin Zhang",
+        "Junxiao Liu",
+        "Zheheng Luo",
+        "Shujian Huang",
+        "Yeyun Gong"
+      ],
+      "upvotes": 39,
+      "github": "https://github.com/shimao-zhang/process-self-rewarding",
+      "published": "2025-03-05T18:58:44.000Z"
+    },
+    {
+      "id": "2503.03751",
+      "title": "GEN3C: 3D-Informed World-Consistent Video Generation with Precise Camera Control",
+      "authors": [
+        "Xuanchi Ren",
+        "Tianchang Shen",
+        "Jiahui Huang",
+        "Huan Ling",
+        "Yifan Lu",
+        "Merlin Nimier-David",
+        "Thomas Müller",
+        "Alexander Keller",
+        "Sanja Fidler",
+        "Jun Gao"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/nv-tlabs/GEN3C",
+      "published": "2025-03-05T18:59:50.000Z"
+    },
+    {
+      "id": "2503.02951",
+      "title": "KodCode: A Diverse, Challenging, and Verifiable Synthetic Dataset for Coding",
+      "authors": [
+        "Zhangchen Xu",
+        "Yang Liu",
+        "Yueqin Yin",
+        "Mingyuan Zhou",
+        "Radha Poovendran"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/KodCode-AI/kodcode",
+      "published": "2025-03-04T19:17:36.000Z"
+    },
+    {
+      "id": "2503.00329",
+      "title": "ABC: Achieving Better Control of Multimodal Embeddings using VLMs",
+      "authors": [
+        "Benjamin Schneider",
+        "Florian Kerschbaum",
+        "Wenhu Chen"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/TIGER-AI-Lab/ABC",
+      "published": "2025-03-01T03:29:02.000Z"
+    },
+    {
+      "id": "2503.01836",
+      "title": "CrowdSelect: Synthetic Instruction Data Selection with Multi-LLM Wisdom",
+      "authors": [
+        "Yisen Li",
+        "Lingfeng Yang",
+        "Wenxuan Shen",
+        "Pan Zhou",
+        "Yao Wan",
+        "Weiwei Lin",
+        "Dongping Chen"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/listentm/crowdselect",
+      "published": "2025-03-03T18:56:44.000Z"
+    },
+    {
+      "id": "2503.03278",
+      "title": "Enhancing Abnormality Grounding for Vision Language Models with Knowledge Descriptions",
+      "authors": [
+        "Jun Li",
+        "Che Liu",
+        "Wenjia Bai",
+        "Rossella Arcucci",
+        "Cosmin I. Bercea",
+        "Julia A. Schnabel"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/LijunRio/AG-KD",
+      "published": "2025-03-05T09:02:33.000Z"
+    },
+    {
+      "id": "2503.01933",
+      "title": "Fine-Tuning Small Language Models for Domain-Specific AI: An Edge AI Perspective",
+      "authors": [
+        "Rakshit Aralimatti",
+        "Syed Abdul Gaffar Shakhadri",
+        "Kruthika KR",
+        "Kartik Basavaraj Angadi"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2025-03-03T04:53:55.000Z"
+    },
+    {
+      "id": "2503.00307",
+      "title": "Remasking Discrete Diffusion Models with Inference-Time Scaling",
+      "authors": [
+        "Guanghan Wang",
+        "Yair Schiff",
+        "Subham Sekhar Sahoo",
+        "Volodymyr Kuleshov"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/kuleshov-group/remdm",
+      "published": "2025-03-01T02:37:51.000Z"
+    },
+    {
+      "id": "2502.20317",
+      "title": "Mixture of Structural-and-Textual Retrieval over Text-rich Graph Knowledge Bases",
+      "authors": [
+        "Yongjia Lei",
+        "Haoyu Han",
+        "Ryan A. Rossi",
+        "Franck Dernoncourt",
+        "Nedim Lipka",
+        "Mahantesh M Halappanavar",
+        "Jiliang Tang",
+        "Yu Wang"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/Yoega/MoR",
+      "published": "2025-02-27T17:42:52.000Z"
+    },
+    {
+      "id": "2502.18860",
+      "title": "Exploring Rewriting Approaches for Different Conversational Tasks",
+      "authors": [
+        "Md Mehrab Tanjim",
+        "Ryan A. Rossi",
+        "Mike Rimer",
+        "Xiang Chen",
+        "Sungchul Kim",
+        "Vaishnavi Muppala",
+        "Tong Yu",
+        "Zhengmian Hu",
+        "Ritwik Sinha",
+        "Wei Zhang",
+        "Iftikhar Ahamath Burhanuddin",
+        "Franck Dernoncourt"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2025-02-26T06:05:29.000Z"
+    },
+    {
+      "id": "2503.03044",
+      "title": "QE4PE: Word-level Quality Estimation for Human Post-Editing",
+      "authors": [
+        "Gabriele Sarti",
+        "Vilém Zouhar",
+        "Grzegorz Chrupała",
+        "Ana Guerberof-Arenas",
+        "Malvina Nissim",
+        "Arianna Bisazza"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/gsarti/qe4pe",
+      "published": "2025-03-04T22:50:17.000Z"
+    },
+    {
+      "id": "2503.01729",
+      "title": "FLAME: A Federated Learning Benchmark for Robotic Manipulation",
+      "authors": [
+        "Santiago Bou Betran",
+        "Alberta Longhini",
+        "Miguel Vasco",
+        "Yuchong Zhang",
+        "Danica Kragic"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-03-03T16:49:15.000Z"
+    },
+    {
+      "id": "2503.01378",
+      "title": "CognitiveDrone: A VLA Model and Evaluation Benchmark for Real-Time Cognitive Task Solving and Reasoning in UAVs",
+      "authors": [
+        "Artem Lykov",
+        "Valerii Serpiva",
+        "Muhammad Haris Khan",
+        "Oleg Sautenkov",
+        "Artyom Myshlyaev",
+        "Grik Tadevosyan",
+        "Yasheerah Yaqoot",
+        "Dzmitry Tsetserukou"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-03-03T10:21:36.000Z"
+    },
+    {
+      "id": "2503.02954",
+      "title": "Reliable and Efficient Multi-Agent Coordination via Graph Neural Network Variational Autoencoders",
+      "authors": [
+        "Yue Meng",
+        "Nathalie Majcherczyk",
+        "Wenliang Liu",
+        "Scott Kiesel",
+        "Chuchu Fan",
+        "Federico Pecora"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/mengyuest/gnn-vae-coord",
+      "published": "2025-03-04T19:20:11.000Z"
+    },
+    {
+      "id": "2503.01763",
+      "title": "Retrieval Models Aren't Tool-Savvy: Benchmarking Tool Retrieval for Large Language Models",
+      "authors": [
+        "Zhengliang Shi",
+        "Yuhan Wang",
+        "Lingyong Yan",
+        "Pengjie Ren",
+        "Shuaiqiang Wang",
+        "Dawei Yin",
+        "Zhaochun Ren"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/mangopy/tool-retrieval-benchmark",
+      "published": "2025-03-03T17:37:16.000Z"
+    },
+    {
+      "id": "2503.01449",
+      "title": "Benchmarking Large Language Models for Multi-Language Software Vulnerability Detection",
+      "authors": [
+        "Ting Zhang",
+        "Chengran Yang",
+        "Yindu Su",
+        "Martin Weyssow",
+        "Hung Nguyen",
+        "Tan Bui",
+        "Hong Jin Kang",
+        "Yikun Li",
+        "Eng Lieh Ouh",
+        "Lwin Khin Shar",
+        "David Lo"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-03-03T11:56:00.000Z"
+    },
+    {
+      "id": "2503.01372",
+      "title": "SwiLTra-Bench: The Swiss Legal Translation Benchmark",
+      "authors": [
+        "Joel Niklaus",
+        "Jakob Merane",
+        "Luka Nenadic",
+        "Sina Ahmadi",
+        "Yingqiang Gao",
+        "Cyrill A. H. Chevalley",
+        "Claude Humbel",
+        "Christophe Gösken",
+        "Lorenzo Tanzi",
+        "Thomas Lüthi",
+        "Stefan Palombo",
+        "Spencer Poff",
+        "Boling Yang",
+        "Nan Wu",
+        "Matthew Guillod",
+        "Robin Mamié",
+        "Daniel Brunner",
+        "Julio Pereyra",
+        "Niko Grupen"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/JoelNiklaus/SwissLegalTranslations",
+      "published": "2025-03-03T10:10:30.000Z"
+    },
+    {
+      "id": "2503.02924",
+      "title": "Diverse Controllable Diffusion Policy with Signal Temporal Logic",
+      "authors": [
+        "Yue Meng",
+        "Chuchu fan"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/mengyuest/pstl-diffusion-policy",
+      "published": "2025-03-04T18:59:00.000Z"
+    },
+    {
+      "id": "2503.00502",
+      "title": "Interact, Instruct to Improve: A LLM-Driven Parallel Actor-Reasoner Framework for Enhancing Autonomous Vehicle Interactions",
+      "authors": [
+        "Shiyu Fang",
+        "Jiaqi Liu",
+        "Chengkai Xu",
+        "Chen Lv",
+        "Peng Hang",
+        "Jian Sun"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/FanGShiYuu/Actor-Reasoner",
+      "published": "2025-03-01T14:15:52.000Z"
+    }
+  ]
+}

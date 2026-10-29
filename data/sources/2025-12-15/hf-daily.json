@@ -1,0 +1,350 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-12-15",
+  "fetched_at": "2026-10-29T15:34:06.108Z",
+  "candidates": [
+    {
+      "id": "2512.08269",
+      "title": "EgoX: Egocentric Video Generation from a Single Exocentric Video",
+      "authors": [
+        "Taewoong Kang",
+        "Kinam Kim",
+        "Dohyeon Kim",
+        "Minho Park",
+        "Junha Hyung",
+        "Jaegul Choo"
+      ],
+      "upvotes": 124,
+      "github": "https://github.com/DAVIAN-Robotics/EgoX",
+      "published": "2025-12-09T05:53:39.000Z"
+    },
+    {
+      "id": "2512.11558",
+      "title": "DentalGPT: Incentivizing Multimodal Complex Reasoning in Dentistry",
+      "authors": [
+        "Zhenyang Cai",
+        "Jiaming Zhang",
+        "Junjie Zhao",
+        "Ziyi Zeng",
+        "Yanchao Li",
+        "Jingyi Liang",
+        "Junying Chen",
+        "Yunjin Yang",
+        "Jiajun You",
+        "Shuzhi Deng",
+        "Tongfei Wang",
+        "Wanting Chen",
+        "Chunxiu Hao",
+        "Ruiqi Xie",
+        "Zhenwei Wen",
+        "Xiangyi Feng",
+        "Zou Ting",
+        "Jin Zou Lin",
+        "Jianquan Li",
+        "Guangjun Yu",
+        "Liangyi Chen",
+        "Junwen Wang",
+        "Shan Jiang",
+        "Benyou Wang"
+      ],
+      "upvotes": 46,
+      "github": null,
+      "published": "2025-12-12T13:42:57.000Z"
+    },
+    {
+      "id": "2512.11253",
+      "title": "PersonaLive! Expressive Portrait Image Animation for Live Streaming",
+      "authors": [
+        "Zhiyuan Li",
+        "Chi-Man Pun",
+        "Chen Fang",
+        "Jue Wang",
+        "Xiaodong Cun"
+      ],
+      "upvotes": 41,
+      "github": "https://github.com/GVCLab/PersonaLive",
+      "published": "2025-12-12T03:24:40.000Z"
+    },
+    {
+      "id": "2512.11749",
+      "title": "SVG-T2I: Scaling Up Text-to-Image Latent Diffusion Model Without Variational Autoencoder",
+      "authors": [
+        "Minglei Shi",
+        "Haolin Wang",
+        "Borui Zhang",
+        "Wenzhao Zheng",
+        "Bohan Zeng",
+        "Ziyang Yuan",
+        "Xiaoshi Wu",
+        "Yuanxing Zhang",
+        "Huan Yang",
+        "Xintao Wang",
+        "Pengfei Wan",
+        "Kun Gai",
+        "Jie Zhou",
+        "Jiwen Lu"
+      ],
+      "upvotes": 39,
+      "github": "https://github.com/KlingTeam/SVG-T2I",
+      "published": "2025-12-12T17:45:03.000Z"
+    },
+    {
+      "id": "2512.10685",
+      "title": "Sharp Monocular View Synthesis in Less Than a Second",
+      "authors": [
+        "Lars Mescheder",
+        "Wei Dong",
+        "Shiwei Li",
+        "Xuyang Bai",
+        "Marcel Santos",
+        "Peiyun Hu",
+        "Bruno Lecouat",
+        "Mingmin Zhen",
+        "Amaël Delaunoy",
+        "Tian Fang",
+        "Yanghai Tsin",
+        "Stephan R. Richter",
+        "Vladlen Koltun"
+      ],
+      "upvotes": 31,
+      "github": "https://github.com/apple/ml-sharp",
+      "published": "2025-12-11T14:34:11.000Z"
+    },
+    {
+      "id": "2512.11799",
+      "title": "V-RGBX: Video Editing with Accurate Controls over Intrinsic Properties",
+      "authors": [
+        "Ye Fang",
+        "Tong Wu",
+        "Valentin Deschaintre",
+        "Duygu Ceylan",
+        "Iliyan Georgiev",
+        "Chun-Hao Paul Huang",
+        "Yiwei Hu",
+        "Xuelin Chen",
+        "Tuanfeng Yang Wang"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/Aleafy/V-RGBX",
+      "published": "2025-12-12T18:59:54.000Z"
+    },
+    {
+      "id": "2512.10411",
+      "title": "Sliding Window Attention Adaptation",
+      "authors": [
+        "Yijiong Yu",
+        "Jiale Liu",
+        "Qingyun Wu",
+        "Huazheng Wang",
+        "Ji Pei"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/yuyijiong/sliding-window-attention-adaptation",
+      "published": "2025-12-11T08:21:24.000Z"
+    },
+    {
+      "id": "2512.11464",
+      "title": "Exploring MLLM-Diffusion Information Transfer with MetaCanvas",
+      "authors": [
+        "Han Lin",
+        "Xichen Pan",
+        "Ziqi Huang",
+        "Ji Hou",
+        "Jialiang Wang",
+        "Weifeng Chen",
+        "Zecheng He",
+        "Felix Juefei-Xu",
+        "Junzhe Sun",
+        "Zhipeng Fan",
+        "Ali Thabet",
+        "Mohit Bansal",
+        "Chu Wang"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2025-12-12T11:07:11.000Z"
+    },
+    {
+      "id": "2512.06818",
+      "title": "MeshSplatting: Differentiable Rendering with Opaque Meshes",
+      "authors": [
+        "Jan Held",
+        "Sanghyun Son",
+        "Renaud Vandeghen",
+        "Daniel Rebain",
+        "Matheus Gadelha",
+        "Yi Zhou",
+        "Anthony Cioppa",
+        "Ming C. Lin",
+        "Marc Van Droogenbroeck",
+        "Andrea Tagliasacchi"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/meshsplatting/mesh-splatting",
+      "published": "2025-12-07T12:31:04.000Z"
+    },
+    {
+      "id": "2512.11130",
+      "title": "Fast-FoundationStereo: Real-Time Zero-Shot Stereo Matching",
+      "authors": [
+        "Bowen Wen",
+        "Shaurya Dewan",
+        "Stan Birchfield"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/NVlabs/Fast-FoundationStereo",
+      "published": "2025-12-11T21:36:29.000Z"
+    },
+    {
+      "id": "2512.11792",
+      "title": "Structure From Tracking: Distilling Structure-Preserving Motion for Video Generation",
+      "authors": [
+        "Yang Fei",
+        "George Stoica",
+        "Jingyuan Liu",
+        "Qifeng Chen",
+        "Ranjay Krishna",
+        "Xiaojuan Wang",
+        "Benlin Liu"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2025-12-12T18:56:35.000Z"
+    },
+    {
+      "id": "2512.10858",
+      "title": "Scaling Behavior of Discrete Diffusion Language Models",
+      "authors": [
+        "Dimitri von Rütte",
+        "Janis Fluri",
+        "Omead Pooladzandi",
+        "Bernhard Schölkopf",
+        "Thomas Hofmann",
+        "Antonio Orvieto"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/dvruette/gidd-easydel",
+      "published": "2025-12-11T17:54:10.000Z"
+    },
+    {
+      "id": "2512.11798",
+      "title": "Particulate: Feed-Forward 3D Object Articulation",
+      "authors": [
+        "Ruining Li",
+        "Yuxin Yao",
+        "Chuanxia Zheng",
+        "Christian Rupprecht",
+        "Joan Lasenby",
+        "Shangzhe Wu",
+        "Andrea Vedaldi"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/ruiningli/particulate",
+      "published": "2025-12-12T18:59:51.000Z"
+    },
+    {
+      "id": "2512.02901",
+      "title": "Fairy2i: Training Complex LLMs from Real LLMs with All Parameters in {pm 1, pm i}",
+      "authors": [
+        "Feiyu Wang",
+        "Xinyu Tan",
+        "Bokai Huang",
+        "Yihao Zhang",
+        "Guoan Wang",
+        "Peizhuang Cong",
+        "Tong Yang"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/PKULab1806/Fairy2i-W2",
+      "published": "2025-12-02T16:14:08.000Z"
+    },
+    {
+      "id": "2512.10605",
+      "title": "LEO-RobotAgent: A General-purpose Robotic Agent for Language-driven Embodied Operator",
+      "authors": [
+        "Lihuang Chen",
+        "Xiangyu Luo",
+        "Jun Meng"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/LegendLeoChen/LEO-RobotAgent",
+      "published": "2025-12-11T12:58:36.000Z"
+    },
+    {
+      "id": "2512.11150",
+      "title": "Causal Judge Evaluation: Calibrated Surrogate Metrics for LLM Systems",
+      "authors": [
+        "Eddie Landesberg"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/cimo-labs/cje",
+      "published": "2025-12-11T22:16:24.000Z"
+    },
+    {
+      "id": "2512.11437",
+      "title": "CLINIC: Evaluating Multilingual Trustworthiness in Language Models for Healthcare",
+      "authors": [
+        "Akash Ghosh",
+        "Srivarshinee Sridhar",
+        "Raghav Kaushik Ravi",
+        "Muhsin Muhsin",
+        "Sriparna Saha",
+        "Chirag Agarwal"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-12-12T10:19:27.000Z"
+    },
+    {
+      "id": "2512.06951",
+      "title": "Task adaptation of Vision-Language-Action model: 1st Place Solution for the 2025 BEHAVIOR Challenge",
+      "authors": [
+        "Ilia Larchenko",
+        "Gleb Zarin",
+        "Akash Karnatak"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/IliaLarchenko/behavior-1k-solution",
+      "published": "2025-12-07T18:08:45.000Z"
+    },
+    {
+      "id": "2512.10092",
+      "title": "Interpretable Embeddings with Sparse Autoencoders: A Data Analysis Toolkit",
+      "authors": [
+        "Nick Jiang",
+        "Xiaoqing Sun",
+        "Lisa Dunlap",
+        "Lewis Smith",
+        "Neel Nanda"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/nickjiang2378/interp_embed",
+      "published": "2025-12-10T21:26:24.000Z"
+    },
+    {
+      "id": "2512.10715",
+      "title": "CheXmask-U: Quantifying uncertainty in landmark-based anatomical segmentation for X-ray images",
+      "authors": [
+        "Matias Cosarinsky",
+        "Nicolas Gaggion",
+        "Rodrigo Echeveste",
+        "Enzo Ferrante"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/mcosarinsky/CheXmask-U",
+      "published": "2025-12-11T14:50:23.000Z"
+    },
+    {
+      "id": "2512.11393",
+      "title": "The N-Body Problem: Parallel Execution from Single-Person Egocentric Video",
+      "authors": [
+        "Zhifan Zhu",
+        "Yifei Huang",
+        "Yoichi Sato",
+        "Dima Damen"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2025-12-12T09:07:21.000Z"
+    }
+  ]
+}

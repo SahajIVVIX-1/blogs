@@ -1,0 +1,413 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-04-29",
+  "fetched_at": "2026-10-29T15:35:27.823Z",
+  "candidates": [
+    {
+      "id": "2604.25917",
+      "title": "Recursive Multi-Agent Systems",
+      "authors": [
+        "Jiaru Zou",
+        "Rui Pan",
+        "Ruizhong Qiu",
+        "Pan Lu",
+        "Shizhe Diao",
+        "Jindong Jiang",
+        "Hanghang Tong",
+        "Tong Zhang",
+        "Markus J. Buehler",
+        "Jingrui He",
+        "James Zou"
+      ],
+      "upvotes": 231,
+      "github": "https://github.com/RecursiveMAS/RecursiveMAS",
+      "published": "2026-07-13T00:00:00.000Z"
+    },
+    {
+      "id": "2604.24819",
+      "title": "Programming with Data: Test-Driven Data Engineering for Self-Improving LLMs from Raw Corpora",
+      "authors": [
+        "Chenkai Pan",
+        "Xinglong Xu",
+        "Yuhang Xu",
+        "Yujun Wu",
+        "Siyuan Li",
+        "Jintao Chen",
+        "Conghui He",
+        "Jingxuan Wei",
+        "Cheng Tan"
+      ],
+      "upvotes": 90,
+      "github": "https://github.com/OpenRaiser/ProDa",
+      "published": "2026-04-27T00:00:00.000Z"
+    },
+    {
+      "id": "2604.25914",
+      "title": "DV-World: Benchmarking Data Visualization Agents in Real-World Scenarios",
+      "authors": [
+        "Jinxiang Meng",
+        "Shaoping Huang",
+        "Fangyu Lei",
+        "Jingyu Guo",
+        "Haoxiang Liu",
+        "Jiahao Su",
+        "Sihan Wang",
+        "Yao Wang",
+        "Enrui Wang",
+        "Ye Yang",
+        "Hongze Chai",
+        "Jinming Lv",
+        "Anbang Yu",
+        "Huangjing Zhang",
+        "Yitong Zhang",
+        "Yiming Huang",
+        "Zeyao Ma",
+        "Shizhu He",
+        "Jun Zhao",
+        "Kang Liu"
+      ],
+      "upvotes": 42,
+      "github": "https://github.com/DA-Open/DV-World",
+      "published": "2026-04-28T00:00:00.000Z"
+    },
+    {
+      "id": "2604.25256",
+      "title": "AutoResearchBench: Benchmarking AI Agents on Complex Scientific Literature Discovery",
+      "authors": [
+        "Lei Xiong",
+        "Kun Luo",
+        "Ziyi Xia",
+        "Wenbo Zhang",
+        "Jin-Ge Yao",
+        "Zheng Liu",
+        "Jingying Shao",
+        "Jianlyu Chen",
+        "Hongjin Qian",
+        "Xi Yang",
+        "Qian Yu",
+        "Hao Li",
+        "Chen Yue",
+        "Xiaan Du",
+        "Yuyang Wang",
+        "Yesheng Liu",
+        "Haiyu Xu",
+        "Zhicheng Dou"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/CherYou/AutoResearchBench",
+      "published": "2026-04-28T00:00:00.000Z"
+    },
+    {
+      "id": "2604.24625",
+      "title": "Meta-CoT: Enhancing Granularity and Generalization in Image Editing",
+      "authors": [
+        "Shiyi Zhang",
+        "Yiji Cheng",
+        "Tiankai Hang",
+        "Zijin Yin",
+        "Runze He",
+        "Yu Xu",
+        "Wenxun Dai",
+        "Yunlong Lin",
+        "Chunyu Wang",
+        "Qinglin Lu",
+        "Yansong Tang"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/shiyi-zh0408/Meta-CoT",
+      "published": "2026-04-27T00:00:00.000Z"
+    },
+    {
+      "id": "2604.25636",
+      "title": "Refinement via Regeneration: Enlarging Modification Space Boosts Image Refinement in Unified Multimodal Models",
+      "authors": [
+        "Jiayi Guo",
+        "Linqing Wang",
+        "Jiangshan Wang",
+        "Yang Yue",
+        "Zeyu Liu",
+        "Zhiyuan Zhao",
+        "Qinglin Lu",
+        "Gao Huang",
+        "Chunyu Wang"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/LeapLabTHU/RvR",
+      "published": "2026-04-28T00:00:00.000Z"
+    },
+    {
+      "id": "2604.25819",
+      "title": "Mutual Forcing: Dual-Mode Self-Evolution for Fast Autoregressive Audio-Video Character Generation",
+      "authors": [
+        "Yupeng Zhou",
+        "Lianghua Huang",
+        "Zhifan Wu",
+        "Jiabao Wang",
+        "Yupeng Shi",
+        "Biao Jiang",
+        "Daquan Zhou",
+        "Yu Liu",
+        "Ming-Ming Cheng",
+        "Qibin Hou"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/HVision-NKU/MutualForcing",
+      "published": "2026-04-28T00:00:00.000Z"
+    },
+    {
+      "id": "2604.25719",
+      "title": "Step-Audio-R1.5 Technical Report",
+      "authors": [
+        "Yuxin Zhang",
+        "Xiangyu Tony Zhang",
+        "Daijiao Liu",
+        "Fei Tian",
+        "Yayue Deng",
+        "Jun Chen",
+        "Qingjian Lin",
+        "Haoyang Zhang",
+        "Yuxin Li",
+        "Jinglan Gong",
+        "Yechang Huang",
+        "Liang Zhao",
+        "Chengyuan Yao",
+        "Hexin Liu",
+        "Eng Siong Chng",
+        "Xuerui Yang",
+        "Gang Yu",
+        "Xiangyu Zhang",
+        "Daxin Jiang"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/stepfun-ai/Step-Audio-R1",
+      "published": "2026-04-28T00:00:00.000Z"
+    },
+    {
+      "id": "2604.24842",
+      "title": "Co-Director: Agentic Generative Video Storytelling",
+      "authors": [
+        "Yale Song",
+        "Yiwen Song",
+        "Nick Losier",
+        "Nathan Hodson",
+        "Ye Jin",
+        "Rhyard Zhu",
+        "Yan Xu",
+        "Daniel Vlasic",
+        "Carina Claassen",
+        "Jasmine Leon",
+        "Khanh G. LeViet",
+        "Zack Chomyn",
+        "Joe Timmons",
+        "Brett Slatkin",
+        "Scott Penberthy",
+        "Tomas Pfister"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/GoogleCloudPlatform/genmedia-izumi-agent",
+      "published": "2026-04-27T00:00:00.000Z"
+    },
+    {
+      "id": "2604.25727",
+      "title": "Toward Scalable Terminal Task Synthesis via Skill Graphs",
+      "authors": [
+        "Zhiyuan Fan",
+        "Tinghao Yu",
+        "Yuanjun Cai",
+        "Jiangtao Guan",
+        "Yun Yang",
+        "Dingxin Hu",
+        "Jiang Zhou",
+        "Xing Wu",
+        "Zhuo Han",
+        "Feng Zhang",
+        "Lilin Wang"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2026-04-28T00:00:00.000Z"
+    },
+    {
+      "id": "2604.24005",
+      "title": "TCOD: Exploring Temporal Curriculum in On-Policy Distillation for Multi-turn Autonomous Agents",
+      "authors": [
+        "Jiaqi Wang",
+        "Wenhao Zhang",
+        "Weijie Shi",
+        "Yaliang Li",
+        "James Cheng"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/kokolerk/TCOD",
+      "published": "2026-04-27T00:00:00.000Z"
+    },
+    {
+      "id": "2604.25203",
+      "title": "BARRED: Synthetic Training of Custom Policy Guardrails via Asymmetric Debate",
+      "authors": [
+        "Arnon Mazza",
+        "Elad Levi"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/plurai-ai/BARRED",
+      "published": "2026-04-28T00:00:00.000Z"
+    },
+    {
+      "id": "2604.21003",
+      "title": "The Last Harness You'll Ever Build",
+      "authors": [
+        "Haebin Seong",
+        "Li Yin",
+        "Haoran Zhang"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2026-04-22T00:00:00.000Z"
+    },
+    {
+      "id": "2604.25806",
+      "title": "MAIC-UI: Making Interactive Courseware with Generative UI",
+      "authors": [
+        "Shangqing Tu",
+        "Yanjia Li",
+        "Keyu Chen",
+        "Sichen Zhang",
+        "Jifan Yu",
+        "Daniel Zhang-Li",
+        "Lei Hou",
+        "Juanzi Li",
+        "Yu Zhang",
+        "Huiqin Liu"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/THU-MAIC/MAIC-UI",
+      "published": "2026-04-28T00:00:00.000Z"
+    },
+    {
+      "id": "2604.23941",
+      "title": "GoClick: Lightweight Element Grounding Model for Autonomous GUI Interaction",
+      "authors": [
+        "Hongxin Li",
+        "Yuntao Chen",
+        "Zhaoxiang Zhang"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/ZJULiHongxin/GoClick",
+      "published": "2026-04-27T00:00:00.000Z"
+    },
+    {
+      "id": "2604.23380",
+      "title": "V-GRPO: Online Reinforcement Learning for Denoising Generative Models Is Easier than You Think",
+      "authors": [
+        "Bingda Tang",
+        "Yuhui Zhang",
+        "Xiaohan Wang",
+        "Jiayuan Mao",
+        "Ludwig Schmidt",
+        "Serena Yeung-Levy"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/tang-bd/v-grpo",
+      "published": "2026-04-25T00:00:00.000Z"
+    },
+    {
+      "id": "2604.21481",
+      "title": "Preferences of a Voice-First Nation: Large-Scale Pairwise Evaluation and Preference Analysis for TTS in Indian Languages",
+      "authors": [
+        "Srija Anand",
+        "Ashwin Sankar",
+        "Ishvinder Sethi",
+        "Aaditya Pareek",
+        "Kartik Rajput",
+        "Gaurav Yadav",
+        "Nikhil Narasimhan",
+        "Adish Pandya",
+        "Deepon Halder",
+        "Mohammed Safi Ur Rahman Khan",
+        "Praveen S V",
+        "Shobhit Banga",
+        "Mitesh M Khapra"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-04-23T00:00:00.000Z"
+    },
+    {
+      "id": "2604.21523",
+      "title": "Seeing Isn't Believing: Uncovering Blind Spots in Evaluator Vision-Language Models",
+      "authors": [
+        "Mohammed Safi Ur Rahman Khan",
+        "Sanjay Suryanarayanan",
+        "Tushar Anand",
+        "Mitesh M. Khapra"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/AI4Bharat/focus",
+      "published": "2026-04-23T00:00:00.000Z"
+    },
+    {
+      "id": "2604.24441",
+      "title": "AutoGUI-v2: A Comprehensive Multi-Modal GUI Functionality Understanding Benchmark",
+      "authors": [
+        "Hongxin Li",
+        "Xiping Wang",
+        "Jingran Su",
+        "Zheng Ju",
+        "Yuntao Chen",
+        "Qing Li",
+        "Zhaoxiang Zhang"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/ZJULiHongxin/AutoGUI-v2",
+      "published": "2026-04-27T00:00:00.000Z"
+    },
+    {
+      "id": "2604.25032",
+      "title": "Offline Evaluation Measures of Fairness in Recommender Systems",
+      "authors": [
+        "Theresia Veronika Rampisela"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2026-04-27T00:00:00.000Z"
+    },
+    {
+      "id": "2604.25164",
+      "title": "IAM: Identity-Aware Human Motion and Shape Joint Generation",
+      "authors": [
+        "Wenqi Jia",
+        "Zekun Li",
+        "Abhay Mittal",
+        "Chengcheng Tang",
+        "Chuan Guo",
+        "Lezi Wang",
+        "James Matthew Rehg",
+        "Lingling Tao",
+        "Size An"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2026-04-28T00:00:00.000Z"
+    },
+    {
+      "id": "2604.25427",
+      "title": "A Systematic Post-Train Framework for Video Generation",
+      "authors": [
+        "Zeyue Xue",
+        "Siming Fu",
+        "Jie Huang",
+        "Shuai Lu",
+        "Haoran Li",
+        "Yijun Liu",
+        "Yuming Li",
+        "Xiaoxuan He",
+        "Mengzhao Chen",
+        "Haoyang Huang",
+        "Nan Duan",
+        "Ping Luo"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2026-04-28T00:00:00.000Z"
+    }
+  ]
+}

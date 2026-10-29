@@ -1,0 +1,577 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-11-18",
+  "fetched_at": "2026-10-29T15:33:49.750Z",
+  "candidates": [
+    {
+      "id": "2511.11793",
+      "title": "MiroThinker: Pushing the Performance Boundaries of Open-Source Research Agents via Model, Context, and Interactive Scaling",
+      "authors": [
+        "MiroMind Team",
+        "Song Bai",
+        "Lidong Bing",
+        "Carson Chen",
+        "Guanzheng Chen",
+        "Yuntao Chen",
+        "Zhe Chen",
+        "Ziyi Chen",
+        "Jifeng Dai",
+        "Xuan Dong",
+        "Yue Deng",
+        "Yunjie Fu",
+        "Junqi Ge",
+        "Chenxia Han",
+        "Tammy Huang",
+        "Zhenhang Huang",
+        "Jerry Jiao",
+        "Shilei Jiang",
+        "Tianyu Jiao",
+        "Xiaoqi Jian",
+        "Lei Lei",
+        "Ruilin Li",
+        "Ryan Luo",
+        "Tiantong Li",
+        "Xiang Lin",
+        "Ziyuan Liu",
+        "Zhiqi Li",
+        "Jie Ni",
+        "Qiang Ren",
+        "Pax Sun",
+        "Shiqian Su",
+        "Chenxin Tao",
+        "Bin Wang",
+        "Hellen Wang",
+        "Haonan Wang",
+        "James Wang",
+        "Jin Wang",
+        "Jojo Wang",
+        "Letian Wang",
+        "Shizun Wang",
+        "Weizhi Wang",
+        "Zixuan Wang",
+        "Jinfan Xu",
+        "Sen Xing",
+        "Chenyu Yang",
+        "Hai Ye",
+        "Jiaheng Yu",
+        "Yue Yu",
+        "Muyan Zhong",
+        "Tianchen Zhao",
+        "Xizhou Zhu",
+        "Yanpeng Zhou",
+        "Yifan Zhang",
+        "Zhi Zhu"
+      ],
+      "upvotes": 197,
+      "github": "https://github.com/MiroMindAI/MiroThinker",
+      "published": "2025-11-14T18:52:07.000Z"
+    },
+    {
+      "id": "2511.13254",
+      "title": "Souper-Model: How Simple Arithmetic Unlocks State-of-the-Art LLM Performance",
+      "authors": [
+        "Shalini Maiti",
+        "Amar Budhiraja",
+        "Bhavul Gauri",
+        "Gaurav Chaurasia",
+        "Anton Protopopov",
+        "Alexis Audran-Reiss",
+        "Michael Slater",
+        "Despoina Magka",
+        "Tatiana Shavrina",
+        "Roberta Raileanu",
+        "Yoram Bachrach"
+      ],
+      "upvotes": 140,
+      "github": "https://github.com/facebookresearch/llm_souping",
+      "published": "2025-11-17T11:13:34.000Z"
+    },
+    {
+      "id": "2511.13612",
+      "title": "P1: Mastering Physics Olympiads with Reinforcement Learning",
+      "authors": [
+        "Jiacheng Chen",
+        "Qianjia Cheng",
+        "Fangchen Yu",
+        "Haiyuan Wan",
+        "Yuchen Zhang",
+        "Shenghe Zheng",
+        "Junchi Yao",
+        "Qingyang Zhang",
+        "Haonan He",
+        "Yun Luo",
+        "Yufeng Zhao",
+        "Futing Wang",
+        "Li Sheng",
+        "Chengxing Xie",
+        "Yuxin Zuo",
+        "Yizhuo Li",
+        "Wenxauan Zeng",
+        "Yulun Wu",
+        "Rui Huang",
+        "Dongzhan Zhou",
+        "Kai Chen",
+        "Yu Qiao",
+        "Lei Bai",
+        "Yu Cheng",
+        "Ning Ding",
+        "Bowen Zhou",
+        "Peng Ye",
+        "Ganqu Cui"
+      ],
+      "upvotes": 135,
+      "github": "https://github.com/PRIME-RL/P1",
+      "published": "2025-11-17T17:18:13.000Z"
+    },
+    {
+      "id": "2511.12609",
+      "title": "Uni-MoE-2.0-Omni: Scaling Language-Centric Omnimodal Large Model with Advanced MoE, Training and Data",
+      "authors": [
+        "Yunxin Li",
+        "Xinyu Chen",
+        "Shenyuan Jiang",
+        "Haoyuan Shi",
+        "Zhenyu Liu",
+        "Xuanyu Zhang",
+        "Nanhao Deng",
+        "Zhenran Xu",
+        "Yicheng Ma",
+        "Meishan Zhang",
+        "Baotian Hu",
+        "Min Zhang"
+      ],
+      "upvotes": 107,
+      "github": "https://github.com/HITsz-TMG/Uni-MoE",
+      "published": "2025-11-16T14:10:55.000Z"
+    },
+    {
+      "id": "2511.09611",
+      "title": "MMaDA-Parallel: Multimodal Large Diffusion Language Models for Thinking-Aware Editing and Generation",
+      "authors": [
+        "Ye Tian",
+        "Ling Yang",
+        "Jiongfan Yang",
+        "Anran Wang",
+        "Yu Tian",
+        "Jiani Zheng",
+        "Haochen Wang",
+        "Zhiyang Teng",
+        "Zhuochen Wang",
+        "Yinjie Wang",
+        "Yunhai Tong",
+        "Mengdi Wang",
+        "Xiangtai Li"
+      ],
+      "upvotes": 72,
+      "github": "https://github.com/tyfeld/MMaDA-Parallel",
+      "published": "2025-11-12T18:58:21.000Z"
+    },
+    {
+      "id": "2511.13720",
+      "title": "Back to Basics: Let Denoising Generative Models Denoise",
+      "authors": [
+        "Tianhong Li",
+        "Kaiming He"
+      ],
+      "upvotes": 69,
+      "github": "https://github.com/LTH14/JiT",
+      "published": "2025-11-17T18:59:57.000Z"
+    },
+    {
+      "id": "2511.13647",
+      "title": "Part-X-MLLM: Part-aware 3D Multimodal Large Language Model",
+      "authors": [
+        "Chunshi Wang",
+        "Junliang Ye",
+        "Yunhan Yang",
+        "Yang Li",
+        "Zizhuo Lin",
+        "Jun Zhu",
+        "Zhuo Chen",
+        "Yawei Luo",
+        "Chunchao Guo"
+      ],
+      "upvotes": 62,
+      "github": "https://github.com/AiEson/Part-X-MLLM",
+      "published": "2025-11-17T17:59:52.000Z"
+    },
+    {
+      "id": "2511.13648",
+      "title": "PhysX-Anything: Simulation-Ready Physical 3D Assets from Single Image",
+      "authors": [
+        "Ziang Cao",
+        "Fangzhou Hong",
+        "Zhaoxi Chen",
+        "Liang Pan",
+        "Ziwei Liu"
+      ],
+      "upvotes": 53,
+      "github": "https://github.com/ziangcao0312/PhysX-Anything",
+      "published": "2025-11-17T17:59:53.000Z"
+    },
+    {
+      "id": "2511.11653",
+      "title": "GroupRank: A Groupwise Reranking Paradigm Driven by Reinforcement Learning",
+      "authors": [
+        "Duolin Sun",
+        "Meixiu Long",
+        "Dan Yang",
+        "Yihan Jiao",
+        "Zhehao Tan",
+        "Jie Feng",
+        "Junjie Wang",
+        "Yue Shen",
+        "Peng Wei",
+        "Jian Wang",
+        "Jinjie Gu"
+      ],
+      "upvotes": 52,
+      "github": "https://github.com/AQ-MedAI/Diver",
+      "published": "2025-11-10T15:25:31.000Z"
+    },
+    {
+      "id": "2511.13704",
+      "title": "TiViBench: Benchmarking Think-in-Video Reasoning for Video Generative Models",
+      "authors": [
+        "Harold Haodong Chen",
+        "Disen Lan",
+        "Wen-Jie Shu",
+        "Qingyang Liu",
+        "Zihan Wang",
+        "Sirui Chen",
+        "Wenkai Cheng",
+        "Kanghao Chen",
+        "Hongfei Zhang",
+        "Zixin Zhang",
+        "Rongjin Guo",
+        "Yu Cheng",
+        "Ying-Cong Chen"
+      ],
+      "upvotes": 44,
+      "github": "https://github.com/EnVision-Research/TiViBench",
+      "published": "2025-11-17T18:52:44.000Z"
+    },
+    {
+      "id": "2511.12710",
+      "title": "Evolve the Method, Not the Prompts: Evolutionary Synthesis of Jailbreak Attacks on LLMs",
+      "authors": [
+        "Yunhao Chen",
+        "Xin Wang",
+        "Juncheng Li",
+        "Yixu Wang",
+        "Jie Li",
+        "Yan Teng",
+        "Yingchun Wang",
+        "Xingjun Ma"
+      ],
+      "upvotes": 39,
+      "github": "https://github.com/dongdongunique/EvoSynth",
+      "published": "2025-11-16T17:52:07.000Z"
+    },
+    {
+      "id": "2511.11332",
+      "title": "UFO^3: Weaving the Digital Agent Galaxy",
+      "authors": [
+        "Chaoyun Zhang",
+        "Liqun Li",
+        "He Huang",
+        "Chiming Ni",
+        "Bo Qiao",
+        "Si Qin",
+        "Yu Kang",
+        "Minghua Ma",
+        "Qingwei Lin",
+        "Saravan Rajmohan",
+        "Dongmei Zhang"
+      ],
+      "upvotes": 19,
+      "github": null,
+      "published": "2025-11-14T14:05:31.000Z"
+    },
+    {
+      "id": "2511.14659",
+      "title": "NORA-1.5: A Vision-Language-Action Model Trained using World Model- and Action-based Preference Rewards",
+      "authors": [
+        "Chia-Yu Hung",
+        "Navonil Majumder",
+        "Haoyuan Deng",
+        "Liu Renhang",
+        "Yankang Ang",
+        "Amir Zadeh",
+        "Chuan Li",
+        "Dorien Herremans",
+        "Ziwei Wang",
+        "Soujanya Poria"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/declare-lab/nora-1.5",
+      "published": "2025-11-18T16:55:48.000Z"
+    },
+    {
+      "id": "2511.13714",
+      "title": "UnSAMv2: Self-Supervised Learning Enables Segment Anything at Any Granularity",
+      "authors": [
+        "Junwei Yu",
+        "Trevor Darrell",
+        "XuDong Wang"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/yujunwei04/UnSAMv2",
+      "published": "2025-11-17T18:58:34.000Z"
+    },
+    {
+      "id": "2511.13655",
+      "title": "OlmoEarth: Stable Latent Image Modeling for Multimodal Earth Observation",
+      "authors": [
+        "Henry Herzog",
+        "Favyen Bastani",
+        "Yawen Zhang",
+        "Gabriel Tseng",
+        "Joseph Redmon",
+        "Hadrien Sablon",
+        "Ryan Park",
+        "Jacob Morrison",
+        "Alexandra Buraczynski",
+        "Karen Farley",
+        "Joshua Hansen",
+        "Andrew Howe",
+        "Patrick Alan Johnson",
+        "Mark Otterlee",
+        "Ted Schmitt",
+        "Hunter Pitelka",
+        "Stephen Daspit",
+        "Rachel Ratner",
+        "Christopher Wilhelm",
+        "Sebastian Wood",
+        "Mike Jacobi",
+        "Hannah Kerner",
+        "Evan Shelhamer",
+        "Ali Farhadi",
+        "Ranjay Krishna",
+        "Patrick Beukema"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/allenai/olmoearth_pretrain",
+      "published": "2025-11-17T18:06:26.000Z"
+    },
+    {
+      "id": "2511.12997",
+      "title": "WebCoach: Self-Evolving Web Agents with Cross-Session Memory Guidance",
+      "authors": [
+        "Genglin Liu",
+        "Shijie Geng",
+        "Sha Li",
+        "Hejie Cui",
+        "Sarah Zhang",
+        "Xin Liu",
+        "Tianyi Liu"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/genglinliu/WebCoach",
+      "published": "2025-11-17T05:38:50.000Z"
+    },
+    {
+      "id": "2511.13646",
+      "title": "Live-SWE-agent: Can Software Engineering Agents Self-Evolve on the Fly?",
+      "authors": [
+        "Chunqiu Steven Xia",
+        "Zhe Wang",
+        "Yan Yang",
+        "Yuxiang Wei",
+        "Lingming Zhang"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/OpenAutoCoder/live-swe-agent",
+      "published": "2025-11-17T17:58:18.000Z"
+    },
+    {
+      "id": "2511.12797",
+      "title": "Genomic Next-Token Predictors are In-Context Learners",
+      "authors": [
+        "Nathan Breslow",
+        "Aayush Mishra",
+        "Mahler Revsine",
+        "Michael C. Schatz",
+        "Anqi Liu",
+        "Daniel Khashabi"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2025-11-16T21:56:39.000Z"
+    },
+    {
+      "id": "2511.10628",
+      "title": "Instella: Fully Open Language Models with Stellar Performance",
+      "authors": [
+        "Jiang Liu",
+        "Jialian Wu",
+        "Xiaodong Yu",
+        "Yusheng Su",
+        "Prakamya Mishra",
+        "Gowtham Ramesh",
+        "Sudhanshu Ranjan",
+        "Chaitanya Manem",
+        "Ximeng Sun",
+        "Ze Wang",
+        "Pratik Prabhanjan Brahma",
+        "Zicheng Liu",
+        "Emad Barsoum"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/AMD-AGI/Instella",
+      "published": "2025-11-13T18:52:46.000Z"
+    },
+    {
+      "id": "2511.12472",
+      "title": "Assessing LLMs for Serendipity Discovery in Knowledge Graphs: A Case for Drug Repurposing",
+      "authors": [
+        "Mengying Wang",
+        "Chenhui Ma",
+        "Ao Jiao",
+        "Tuo Liang",
+        "Pengjun Lu",
+        "Shrinidhi Hegde",
+        "Yu Yin",
+        "Evren Gurkan-Cavusoglu",
+        "Yinghui Wu"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/CWRU-DB-Group/DrugKG",
+      "published": "2025-11-16T06:19:53.000Z"
+    },
+    {
+      "id": "2511.11407",
+      "title": "MicroVQA++: High-Quality Microscopy Reasoning Dataset with Weakly Supervised Graphs for Multimodal Large Language Model",
+      "authors": [
+        "Manyu Li",
+        "Ruian He",
+        "Chenxi Ma",
+        "Weimin Tan",
+        "Bo Yan"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/ieellee/MicroVQA-PlusPlus",
+      "published": "2025-11-14T15:35:43.000Z"
+    },
+    {
+      "id": "2511.09809",
+      "title": "Test-Time Spectrum-Aware Latent Steering for Zero-Shot Generalization in Vision-Language Models",
+      "authors": [
+        "Konstantinos M. Dafnis",
+        "Dimitris N. Metaxas"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/kdafnis/STS",
+      "published": "2025-11-12T23:25:58.000Z"
+    },
+    {
+      "id": "2511.12982",
+      "title": "SafeGRPO: Self-Rewarded Multimodal Safety Alignment via Rule-Governed Policy Optimization",
+      "authors": [
+        "Xuankun Rong",
+        "Wenke Huang",
+        "Tingfeng Wang",
+        "Daiguo Zhou",
+        "Bo Du",
+        "Mang Ye"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/XuankunRong/SafeGRPO",
+      "published": "2025-11-17T05:09:49.000Z"
+    },
+    {
+      "id": "2511.02767",
+      "title": "Dynamic Reflections: Probing Video Representations with Text Alignment",
+      "authors": [
+        "Tyler Zhu",
+        "Tengda Han",
+        "Leonidas Guibas",
+        "Viorica Pătrăucean",
+        "Maks Ovsjanikov"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-11-04T17:52:14.000Z"
+    },
+    {
+      "id": "2511.13998",
+      "title": "LoCoBench-Agent: An Interactive Benchmark for LLM Agents in Long-Context Software Engineering",
+      "authors": [
+        "Jielin Qiu",
+        "Zuxin Liu",
+        "Zhiwei Liu",
+        "Rithesh Murthy",
+        "Jianguo Zhang",
+        "Haolin Chen",
+        "Shiyu Wang",
+        "Ming Zhu",
+        "Liangwei Yang",
+        "Juntao Tan",
+        "Roshan Ram",
+        "Akshara Prabhakar",
+        "Tulika Awalgaonkar",
+        "Zixiang Chen",
+        "Zhepeng Cen",
+        "Cheng Qian",
+        "Shelby Heinecke",
+        "Weiran Yao",
+        "Silvio Savarese",
+        "Caiming Xiong",
+        "Huan Wang"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/SalesforceAIResearch/LoCoBench-Agent",
+      "published": "2025-11-17T23:57:24.000Z"
+    },
+    {
+      "id": "2511.11510",
+      "title": "OpenUS: A Fully Open-Source Foundation Model for Ultrasound Image Analysis via Self-Adaptive Masked Contrastive Learning",
+      "authors": [
+        "Xiaoyu Zheng",
+        "Xu Chen",
+        "Awais Rauf",
+        "Qifan Fu",
+        "Benedetta Monosi",
+        "Felice Rivellese",
+        "Myles J. Lewis",
+        "Shaogang Gong",
+        "Gregory Slabaugh"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/XZheng0427/OpenUS",
+      "published": "2025-11-14T17:31:18.000Z"
+    },
+    {
+      "id": "2511.12133",
+      "title": "AI-Salesman: Towards Reliable Large Language Model Driven Telemarketing",
+      "authors": [
+        "Qingyu Zhang",
+        "Chunlei Xin",
+        "Xuanang Chen",
+        "Yaojie Lu",
+        "Hongyu Lin",
+        "Xianpei Han",
+        "Le Sun",
+        "Qing Ye",
+        "Qianlong Xie",
+        "Xingxing Wang"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2025-11-15T09:44:42.000Z"
+    },
+    {
+      "id": "2511.07577",
+      "title": "A Decentralized Retrieval Augmented Generation System with Source Reliabilities Secured on Blockchain",
+      "authors": [
+        "Yining Lu",
+        "Wenyi Tang",
+        "Max Johnson",
+        "Taeho Jung",
+        "Meng Jiang"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/yining610/Reliable-dRAG",
+      "published": "2025-11-10T19:40:30.000Z"
+    }
+  ]
+}

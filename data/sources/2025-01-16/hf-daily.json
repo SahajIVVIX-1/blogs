@@ -1,0 +1,204 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-01-16",
+  "fetched_at": "2026-10-29T15:30:18.839Z",
+  "candidates": [
+    {
+      "id": "2501.08365",
+      "title": "Towards Best Practices for Open Datasets for LLM Training",
+      "authors": [
+        "Stefan Baack",
+        "Stella Biderman",
+        "Kasia Odrozek",
+        "Aviya Skowron",
+        "Ayah Bdeir",
+        "Jillian Bommarito",
+        "Jennifer Ding",
+        "Maximilian Gahntz",
+        "Paul Keller",
+        "Pierre-Carl Langlais",
+        "Greg Lindahl",
+        "Sebastian Majstorovic",
+        "Nik Marda",
+        "Guilherme Penedo",
+        "Maarten Van Segbroeck",
+        "Jennifer Wang",
+        "Leandro von Werra",
+        "Mitchell Baker",
+        "Julie Belião",
+        "Kasia Chmielinski",
+        "Marzieh Fadaee",
+        "Lisa Gutermuth",
+        "Hynek Kydlíček",
+        "Greg Leppert",
+        "EM Lewis-Jong",
+        "Solana Larsen",
+        "Shayne Longpre",
+        "Angela Oduor Lungati",
+        "Cullen Miller",
+        "Victor Miller",
+        "Max Ryabinin",
+        "Kathleen Siminyu",
+        "Andrew Strait",
+        "Mark Surman",
+        "Anna Tumadóttir",
+        "Maurice Weber",
+        "Rebecca Weiss",
+        "Lee White",
+        "Thomas Wolf"
+      ],
+      "upvotes": 61,
+      "github": null,
+      "published": "2025-01-14T17:18:05.000Z"
+    },
+    {
+      "id": "2501.08828",
+      "title": "MMDocIR: Benchmarking Multi-Modal Retrieval for Long Documents",
+      "authors": [
+        "Kuicai Dong",
+        "Yujing Chang",
+        "Xin Deik Goh",
+        "Dexun Li",
+        "Ruiming Tang",
+        "Yong Liu"
+      ],
+      "upvotes": 29,
+      "github": "https://github.com/MMDocRAG/MMDocIR",
+      "published": "2025-01-15T14:30:13.000Z"
+    },
+    {
+      "id": "2501.08983",
+      "title": "CityDreamer4D: Compositional Generative Model of Unbounded 4D Cities",
+      "authors": [
+        "Haozhe Xie",
+        "Zhaoxi Chen",
+        "Fangzhou Hong",
+        "Ziwei Liu"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/hzxie/CityDreamer4D",
+      "published": "2025-01-15T17:59:56.000Z"
+    },
+    {
+      "id": "2501.08994",
+      "title": "RepVideo: Rethinking Cross-Layer Representation for Video Generation",
+      "authors": [
+        "Chenyang Si",
+        "Weichen Fan",
+        "Zhengyao Lv",
+        "Ziqi Huang",
+        "Yu Qiao",
+        "Ziwei Liu"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/Vchitect/RepVideo",
+      "published": "2025-01-15T18:20:37.000Z"
+    },
+    {
+      "id": "2501.09019",
+      "title": "Ouroboros-Diffusion: Exploring Consistent Content Generation in Tuning-free Long Video Diffusion",
+      "authors": [
+        "Jingyuan Chen",
+        "Fuchen Long",
+        "Jie An",
+        "Zhaofan Qiu",
+        "Ting Yao",
+        "Jiebo Luo",
+        "Tao Mei"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2025-01-15T18:59:15.000Z"
+    },
+    {
+      "id": "2501.09012",
+      "title": "Multimodal LLMs Can Reason about Aesthetics in Zero-Shot",
+      "authors": [
+        "Ruixiang Jiang",
+        "Changwen Chen"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/songrise/mllm4art",
+      "published": "2025-01-15T18:56:22.000Z"
+    },
+    {
+      "id": "2501.08809",
+      "title": "XMusic: Towards a Generalized and Controllable Symbolic Music Generation Framework",
+      "authors": [
+        "Sida Tian",
+        "Can Zhang",
+        "Wei Yuan",
+        "Wei Tan",
+        "Wenjie Zhu"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2025-01-15T14:08:44.000Z"
+    },
+    {
+      "id": "2501.07783",
+      "title": "Parameter-Inverted Image Pyramid Networks for Visual Perception and Multimodal Understanding",
+      "authors": [
+        "Zhaokai Wang",
+        "Xizhou Zhu",
+        "Xue Yang",
+        "Gen Luo",
+        "Hao Li",
+        "Changyao Tian",
+        "Wenhan Dou",
+        "Junqi Ge",
+        "Lewei Lu",
+        "Yu Qiao",
+        "Jifeng Dai"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/opengvlab/piip",
+      "published": "2025-01-14T01:57:41.000Z"
+    },
+    {
+      "id": "2501.08970",
+      "title": "Trusted Machine Learning Models Unlock Private Inference for Problems Currently Infeasible with Cryptography",
+      "authors": [
+        "Ilia Shumailov",
+        "Daniel Ramage",
+        "Sarah Meiklejohn",
+        "Peter Kairouz",
+        "Florian Hartmann",
+        "Borja Balle",
+        "Eugene Bagdasarian"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2025-01-15T17:28:53.000Z"
+    },
+    {
+      "id": "2501.04693",
+      "title": "Beyond Sight: Finetuning Generalist Robot Policies with Heterogeneous Sensors via Language Grounding",
+      "authors": [
+        "Joshua Jones",
+        "Oier Mees",
+        "Carmelo Sferrazza",
+        "Kyle Stachowicz",
+        "Pieter Abbeel",
+        "Sergey Levine"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/fuse-model/FuSe",
+      "published": "2025-01-08T18:57:33.000Z"
+    },
+    {
+      "id": "2412.19412",
+      "title": "MINIMA: Modality Invariant Image Matching",
+      "authors": [
+        "Xingyu Jiang",
+        "Jiangwei Ren",
+        "Zizhuo Li",
+        "Xin Zhou",
+        "Dingkang Liang",
+        "Xiang Bai"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/LSXI7/MINIMA",
+      "published": "2024-12-27T02:39:50.000Z"
+    }
+  ]
+}

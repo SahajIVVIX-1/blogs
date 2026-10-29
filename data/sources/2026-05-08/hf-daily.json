@@ -1,0 +1,635 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-05-08",
+  "fetched_at": "2026-10-29T15:35:33.295Z",
+  "candidates": [
+    {
+      "id": "2605.05242",
+      "title": "Beyond Semantic Similarity: Rethinking Retrieval for Agentic Search via Direct Corpus Interaction",
+      "authors": [
+        "Zhuofeng Li",
+        "Haoxiang Zhang",
+        "Cong Wei",
+        "Pan Lu",
+        "Ping Nie",
+        "Yi Lu",
+        "Yuyang Bai",
+        "Shangbin Feng",
+        "Hangxiao Zhu",
+        "Ming Zhong",
+        "Yuyu Zhang",
+        "Jianwen Xie",
+        "Yejin Choi",
+        "James Zou",
+        "Jiawei Han",
+        "Wenhu Chen",
+        "Jimmy Lin",
+        "Dongfu Jiang",
+        "Yu Zhang"
+      ],
+      "upvotes": 125,
+      "github": "https://github.com/DCI-Agent/DCI-Agent-Lite",
+      "published": "2026-05-03T00:00:00.000Z"
+    },
+    {
+      "id": "2605.06548",
+      "title": "Continuous Latent Diffusion Language Model",
+      "authors": [
+        "Hongcan Guo",
+        "Qinyu Zhao",
+        "Yian Zhao",
+        "Shen Nie",
+        "Rui Zhu",
+        "Qiushan Guo",
+        "Feng Wang",
+        "Tao Yang",
+        "Hengshuang Zhao",
+        "Guoqiang Wei",
+        "Yan Zeng"
+      ],
+      "upvotes": 89,
+      "github": "https://github.com/ByteDance-Seed/Cola-DLM",
+      "published": "2026-05-07T00:00:00.000Z"
+    },
+    {
+      "id": "2605.06130",
+      "title": "Skill1: Unified Evolution of Skill-Augmented Agents via Reinforcement Learning",
+      "authors": [
+        "Yaorui Shi",
+        "Yuxin Chen",
+        "Zhengxi Lu",
+        "Yuchun Miao",
+        "Shugui Liu",
+        "Qi GU",
+        "Xunliang Cai",
+        "Xiang Wang",
+        "An Zhang"
+      ],
+      "upvotes": 69,
+      "github": "https://github.com/AlphaLab-USTC/Skill1",
+      "published": "2026-05-07T00:00:00.000Z"
+    },
+    {
+      "id": "2605.06416",
+      "title": "MiA-Signature: Approximating Global Activation for Long-Context Understanding",
+      "authors": [
+        "Yuqing Li",
+        "Jiangnan Li",
+        "Mo Yu",
+        "Zheng Lin",
+        "Weiping Wang",
+        "Jie Zhou"
+      ],
+      "upvotes": 55,
+      "github": null,
+      "published": "2026-05-07T00:00:00.000Z"
+    },
+    {
+      "id": "2605.04523",
+      "title": "RaguTeam at SemEval-2026 Task 8: Meno and Friends in a Judge-Orchestrated LLM Ensemble for Faithful Multi-Turn Response Generation",
+      "authors": [
+        "Ivan Bondarenko",
+        "Roman Derunets",
+        "Oleg Sedukhin",
+        "Mikhail Komarov",
+        "Ivan Chernov",
+        "Mikhail Kulakov"
+      ],
+      "upvotes": 46,
+      "github": "https://github.com/RaguTeam/ragu_mtrag_semeval",
+      "published": "2026-05-06T00:00:00.000Z"
+    },
+    {
+      "id": "2605.06614",
+      "title": "SkillOS: Learning Skill Curation for Self-Evolving Agents",
+      "authors": [
+        "Siru Ouyang",
+        "Jun Yan",
+        "Yanfei Chen",
+        "Rujun Han",
+        "Zifeng Wang",
+        "Bhavana Dalvi Mishra",
+        "Rui Meng",
+        "Chun-Liang Li",
+        "Yizhu Jiao",
+        "Kaiwen Zha",
+        "Maohao Shen",
+        "Vishy Tirumalashetty",
+        "George Lee",
+        "Jiawei Han",
+        "Tomas Pfister",
+        "Chen-Yu Lee"
+      ],
+      "upvotes": 46,
+      "github": null,
+      "published": "2026-05-07T00:00:00.000Z"
+    },
+    {
+      "id": "2605.06222",
+      "title": "When to Trust Imagination: Adaptive Action Execution for World Action Models",
+      "authors": [
+        "Rui Wang",
+        "Yue Zhang",
+        "Jiehong Lin",
+        "Kuncheng Luo",
+        "Jianan Wang",
+        "Zhongrui Wang",
+        "Xiaojuan Qi"
+      ],
+      "upvotes": 38,
+      "github": null,
+      "published": "2026-05-07T00:00:00.000Z"
+    },
+    {
+      "id": "2605.05566",
+      "title": "Nonsense Helps: Prompt Space Perturbation Broadens Reasoning Exploration",
+      "authors": [
+        "Langlin Huang",
+        "Chengsong Huang",
+        "Jinyuan Li",
+        "Donghong Cai",
+        "Yuyi Yang",
+        "Jiaxin Huang"
+      ],
+      "upvotes": 38,
+      "github": null,
+      "published": "2026-05-07T00:00:00.000Z"
+    },
+    {
+      "id": "2605.06507",
+      "title": "MARBLE: Multi-Aspect Reward Balance for Diffusion RL",
+      "authors": [
+        "Canyu Zhao",
+        "Hao Chen",
+        "Yunze Tong",
+        "Yu Qiao",
+        "Jiacheng Li",
+        "Chunhua Shen"
+      ],
+      "upvotes": 38,
+      "github": "https://github.com/aim-uofa/MARBLE",
+      "published": "2026-05-07T00:00:00.000Z"
+    },
+    {
+      "id": "2605.04045",
+      "title": "Audio-Visual Intelligence in Large Foundation Models",
+      "authors": [
+        "You Qin",
+        "Kai Liu",
+        "Shengqiong Wu",
+        "Kai Wang",
+        "Shijian Deng",
+        "Yapeng Tian",
+        "Junbin Xiao",
+        "Yazhou Xing",
+        "Yinghao Ma",
+        "Bobo Li",
+        "Roger Zimmermann",
+        "Lei Cui",
+        "Furu Wei",
+        "Jiebo Luo",
+        "Hao Fei"
+      ],
+      "upvotes": 32,
+      "github": "https://github.com/JavisVerse/Awesome-AVI",
+      "published": "2026-05-05T00:00:00.000Z"
+    },
+    {
+      "id": "2605.06642",
+      "title": "StraTA: Incentivizing Agentic Reinforcement Learning with Strategic Trajectory Abstraction",
+      "authors": [
+        "Xiangyuan Xue",
+        "Yifan Zhou",
+        "Zidong Wang",
+        "Shengji Tang",
+        "Philip Torr",
+        "Wanli Ouyang",
+        "Lei Bai",
+        "Zhenfei Yin"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/xxyQwQ/StraTA",
+      "published": "2026-05-07T00:00:00.000Z"
+    },
+    {
+      "id": "2605.06376",
+      "title": "Continuous-Time Distribution Matching for Few-Step Diffusion Distillation",
+      "authors": [
+        "Tao Liu",
+        "Hao Yan",
+        "Mengting Chen",
+        "Taihang Hu",
+        "Zhengrong Yue",
+        "Zihao Pan",
+        "Jinsong Lan",
+        "Xiaoyong Zhu",
+        "Ming-Ming Cheng",
+        "Bo Zheng",
+        "Yaxing Wang"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/byliutao/cdm",
+      "published": "2026-05-07T00:00:00.000Z"
+    },
+    {
+      "id": "2605.06651",
+      "title": "AI Co-Mathematician: Accelerating Mathematicians with Agentic AI",
+      "authors": [
+        "Daniel Zheng",
+        "Ingrid von Glehn",
+        "Yori Zwols",
+        "Iuliya Beloshapka",
+        "Lars Buesing",
+        "Daniel M. Roy",
+        "Martin Wattenberg",
+        "Bogdan Georgiev",
+        "Tatiana Schmidt",
+        "Andrew Cowie",
+        "Fernanda Viegas",
+        "Dimitri Kanevsky",
+        "Vineet Kahlon",
+        "Hartmut Maennel",
+        "Sophia Alj",
+        "George Holland",
+        "Alex Davies",
+        "Pushmeet Kohli"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2026-05-07T00:00:00.000Z"
+    },
+    {
+      "id": "2605.06638",
+      "title": "Can RL Teach Long-Horizon Reasoning to LLMs? Expressiveness Is Key",
+      "authors": [
+        "Tianle Wang",
+        "Zhaoyang Wang",
+        "Guangchen Lan",
+        "Xinpeng Wei",
+        "Sipeng Zhang",
+        "Guanwen Qiu",
+        "Abulhair Saparov"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/wtl666wtl/ScaleLogic",
+      "published": "2026-05-07T00:00:00.000Z"
+    },
+    {
+      "id": "2605.05724",
+      "title": "Auto Research with Specialist Agents Develops Effective and Non-Trivial Training Recipes",
+      "authors": [
+        "Jingjie Ning",
+        "Xiaochuan Li",
+        "Ji Zeng",
+        "Hao Kang",
+        "Chenyan Xiong"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/cxcscmu/Auto-Research-Recipes",
+      "published": "2026-05-07T00:00:00.000Z"
+    },
+    {
+      "id": "2605.06200",
+      "title": "A^2TGPO: Agentic Turn-Group Policy Optimization with Adaptive Turn-level Clipping",
+      "authors": [
+        "Dingwei Chen",
+        "Zefang Zong",
+        "Zhipeng Ma",
+        "Leo Luo",
+        "Yang Li",
+        "Chengming Li",
+        "Peng Chen",
+        "Jie Jiang"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/CuSO4-Chen/A-TGPO",
+      "published": "2026-05-07T00:00:00.000Z"
+    },
+    {
+      "id": "2605.06665",
+      "title": "UniPool: A Globally Shared Expert Pool for Mixture-of-Experts",
+      "authors": [
+        "Minbin Huang",
+        "Han Shi",
+        "Chuanyang Zheng",
+        "Yimeng Wu",
+        "Guoxuan Chen",
+        "Xintong Yu",
+        "Yichun Yin",
+        "Hong Cheng"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/Centaurus-Alpha/UniPool",
+      "published": "2026-05-07T00:00:00.000Z"
+    },
+    {
+      "id": "2605.06663",
+      "title": "EMO: Pretraining Mixture of Experts for Emergent Modularity",
+      "authors": [
+        "Ryan Wang",
+        "Akshita Bhagia",
+        "Sewon Min"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/allenai/EMO",
+      "published": "2026-05-07T00:00:00.000Z"
+    },
+    {
+      "id": "2605.06216",
+      "title": "TIDE: Every Layer Knows the Token Beneath the Context",
+      "authors": [
+        "Ajay Jaiswal",
+        "Lauren Hannah",
+        "Han-Byul Kim",
+        "Duc Hoang",
+        "Mehrdad Farajtabar",
+        "Minsik Cho"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2026-05-07T00:00:00.000Z"
+    },
+    {
+      "id": "2605.04647",
+      "title": "ReflectDrive-2: Reinforcement-Learning-Aligned Self-Editing for Discrete Diffusion Driving",
+      "authors": [
+        "Huimin Wang",
+        "Yue Wang",
+        "Bihao Cui",
+        "Pengxiang Li",
+        "Ben Lu",
+        "Mingqian Wang",
+        "Tong Wang",
+        "Chuan Tang",
+        "Teng Zhang",
+        "Kun Zhan"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2026-05-06T00:00:00.000Z"
+    },
+    {
+      "id": "2605.06196",
+      "title": "The Granularity Axis: A Micro-to-Macro Latent Direction for Social Roles in Language Models",
+      "authors": [
+        "Chonghan Qin",
+        "Xiachong Feng",
+        "Ziyun Song",
+        "Xiaocheng Feng",
+        "Jing Xiong",
+        "Lingpeng Kong"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/qinchonghanzuibang/Granularity-Axis",
+      "published": "2026-05-07T00:00:00.000Z"
+    },
+    {
+      "id": "2605.01640",
+      "title": "Prescriptive Scaling Laws for Data Constrained Training",
+      "authors": [
+        "Justin Lovelace",
+        "Christian Belardi",
+        "Srivatsa Kundurthy",
+        "Shriya Sudhakar",
+        "Kilian Q. Weinberger"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2026-05-02T00:00:00.000Z"
+    },
+    {
+      "id": "2605.04956",
+      "title": "KernelBench-X: A Comprehensive Benchmark for Evaluating LLM-Generated GPU Kernels",
+      "authors": [
+        "Han Wang",
+        "Jintao Zhang",
+        "Kai Jiang",
+        "Haoxu Wang",
+        "Jianfei Chen",
+        "Jun Zhu"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/BonnieW05/KernelBenchX",
+      "published": "2026-05-06T00:00:00.000Z"
+    },
+    {
+      "id": "2605.04451",
+      "title": "RemoteZero: Geospatial Reasoning with Zero Human Annotations",
+      "authors": [
+        "Liang Yao",
+        "Fan Liu",
+        "Shengxiang Xu",
+        "Chuanyi Zhang",
+        "Rui Min",
+        "Shimin Di",
+        "Yuhui Zheng"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2026-05-06T00:00:00.000Z"
+    },
+    {
+      "id": "2605.04962",
+      "title": "TabEmbed: Benchmarking and Learning Generalist Embeddings for Tabular Understanding",
+      "authors": [
+        "Minjie Qiang",
+        "Mingming Zhang",
+        "Xiaoyi Bao",
+        "Xing Fu",
+        "Yu Cheng",
+        "Weiqiang Wang",
+        "Zhongqing Wang",
+        "Ningtao Wang"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/qiangminjie27/TabEmbed",
+      "published": "2026-05-06T00:00:00.000Z"
+    },
+    {
+      "id": "2605.04077",
+      "title": "Balanced Aggregation: Understanding and Fixing Aggregation Bias in GRPO",
+      "authors": [
+        "Zhiyuan Zeng",
+        "Jiameng Huang",
+        "Zhangyue Yin",
+        "Jiashuo Liu",
+        "Ziniu Li",
+        "Bingrui Li",
+        "Yuhao Wu",
+        "Yining Zheng",
+        "Ge Zhang",
+        "Wenhao Huang",
+        "Xipeng Qiu"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2026-04-14T00:00:00.000Z"
+    },
+    {
+      "id": "2605.06627",
+      "title": "PianoCoRe: Combined and Refined Piano MIDI Dataset",
+      "authors": [
+        "Ilya Borovik"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/ilya16/PianoCoRe",
+      "published": "2026-05-07T00:00:00.000Z"
+    },
+    {
+      "id": "2605.05758",
+      "title": "BioTool: A Comprehensive Tool-Calling Dataset for Enhancing Biomedical Capabilities of Large Language Models",
+      "authors": [
+        "Xin Gao",
+        "Ruiyi Zhang",
+        "Meixi Du",
+        "Peijia Qin",
+        "Pengtao Xie"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/gxx27/BioTool",
+      "published": "2026-05-07T00:00:00.000Z"
+    },
+    {
+      "id": "2605.04330",
+      "title": "The Scaling Properties of Implicit Deductive Reasoning in Transformers",
+      "authors": [
+        "Enrico Vompa",
+        "Tanel Tammet"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-05-05T00:00:00.000Z"
+    },
+    {
+      "id": "2605.06643",
+      "title": "Are We Making Progress in Multimodal Domain Generalization? A Comprehensive Benchmark Study",
+      "authors": [
+        "Hao Dong",
+        "Hongzhao Li",
+        "Shupan Li",
+        "Muhammad Haris Khan",
+        "Eleni Chatzi",
+        "Olga Fink"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/lihongzhao99/MMDG_Benchmark",
+      "published": "2026-05-07T00:00:00.000Z"
+    },
+    {
+      "id": "2605.00623",
+      "title": "Recovering Hidden Reward in Diffusion-Based Policies",
+      "authors": [
+        "Yanbiao Ji",
+        "Qiuchang Li",
+        "Yuting Hu",
+        "Shaokai Wu",
+        "Wenyuan Xie",
+        "Guodong Zhang",
+        "Qicheng He",
+        "Deyi Ji",
+        "Yue Ding",
+        "Hongtao Lu"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-05-01T00:00:00.000Z"
+    },
+    {
+      "id": "2605.06477",
+      "title": "GeoStack: A Framework for Quasi-Abelian Knowledge Composition in VLMs",
+      "authors": [
+        "Pranav Mantini",
+        "Shishir K. Shah"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/QuantitativeImagingLaboratory/GeoStack",
+      "published": "2026-05-07T00:00:00.000Z"
+    },
+    {
+      "id": "2605.04604",
+      "title": "Generative Quantum-inspired Kolmogorov-Arnold Eigensolver",
+      "authors": [
+        "Yu-Cheng Lin",
+        "Yu-Chao Hsu",
+        "I-Shan Tsai",
+        "Chun-Hua Lin",
+        "Kuo-Chung Peng",
+        "Jiun-Cheng Jiang",
+        "Yun-Yuan Wang",
+        "Tzung-Chi Huang",
+        "Tai-Yue Li",
+        "Kuan-Cheng Chen",
+        "Samuel Yen-Chi Chen",
+        "Nan-Yow Chen"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2026-05-06T00:00:00.000Z"
+    },
+    {
+      "id": "2605.05922",
+      "title": "Think, then Score: Decoupled Reasoning and Scoring for Video Reward Modeling",
+      "authors": [
+        "Yuan Wang",
+        "Ouxiang Li",
+        "Yulong Xu",
+        "Borui Liao",
+        "Jiajun Liang",
+        "Jinghan Li",
+        "Meng Wang",
+        "Xintao Wang",
+        "Pengfei Wang",
+        "Kuien Liu",
+        "Xiang Wang"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2026-05-07T00:00:00.000Z"
+    },
+    {
+      "id": "2605.06652",
+      "title": "When No Benchmark Exists: Validating Comparative LLM Safety Scoring Without Ground-Truth Labels",
+      "authors": [
+        "Sushant Gautam",
+        "Finn Schwall",
+        "Annika Willoch Olstad",
+        "Fernando Vallecillos Ruiz",
+        "Birk Torpmann-Hagen",
+        "Sunniva Maria Stordal Bjørklund",
+        "Leon Moonen",
+        "Klas Pettersen",
+        "Michael A. Riegler"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/kelkalot/simpleaudit",
+      "published": "2026-05-07T00:00:00.000Z"
+    },
+    {
+      "id": "2602.00095",
+      "title": "EDU-CIRCUIT-HW: Evaluating Multimodal Large Language Models on Real-World University-Level STEM Student Handwritten Solutions",
+      "authors": [
+        "Weiyu Sun",
+        "Liangliang Chen",
+        "Yongnuo Cai",
+        "Huiru Xie",
+        "Yi Zeng",
+        "Ying Zhang"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/gt-learning-innovation/CIRCUIT_EDU_HW_ACL",
+      "published": "2026-04-30T00:00:00.000Z"
+    },
+    {
+      "id": "2605.06535",
+      "title": "Sparkle: Realizing Lively Instruction-Guided Video Background Replacement via Decoupled Guidance",
+      "authors": [
+        "Ziyun Zeng",
+        "Yiqi Lin",
+        "Guoqiang Liang",
+        "Mike Zheng Shou"
+      ],
+      "upvotes": 0,
+      "github": "https://github.com/showlab/Sparkle",
+      "published": "2026-05-07T00:00:00.000Z"
+    }
+  ]
+}

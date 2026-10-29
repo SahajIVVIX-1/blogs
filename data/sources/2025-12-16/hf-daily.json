@@ -1,0 +1,769 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-12-16",
+  "fetched_at": "2026-10-29T15:34:06.749Z",
+  "candidates": [
+    {
+      "id": "2512.13564",
+      "title": "Memory in the Age of AI Agents",
+      "authors": [
+        "Yuyang Hu",
+        "Shichun Liu",
+        "Yanwei Yue",
+        "Guibin Zhang",
+        "Boyang Liu",
+        "Fangyi Zhu",
+        "Jiahang Lin",
+        "Honglin Guo",
+        "Shihan Dou",
+        "Zhiheng Xi",
+        "Senjie Jin",
+        "Jiejun Tan",
+        "Yanbin Yin",
+        "Jiongnan Liu",
+        "Zeyu Zhang",
+        "Zhongxiang Sun",
+        "Yutao Zhu",
+        "Hao Sun",
+        "Boci Peng",
+        "Zhenrong Cheng",
+        "Xuanbo Fan",
+        "Jiaxin Guo",
+        "Xinlei Yu",
+        "Zhenhong Zhou",
+        "Zewen Hu",
+        "Jiahao Huo",
+        "Junhao Wang",
+        "Yuwei Niu",
+        "Yu Wang",
+        "Zhenfei Yin",
+        "Xiaobin Hu",
+        "Yue Liao",
+        "Qiankun Li",
+        "Kun Wang",
+        "Wangchunshu Zhou",
+        "Yixin Liu",
+        "Dawei Cheng",
+        "Qi Zhang",
+        "Tao Gui",
+        "Shirui Pan",
+        "Yan Zhang",
+        "Philip Torr",
+        "Zhicheng Dou",
+        "Ji-Rong Wen",
+        "Xuanjing Huang",
+        "Yu-Gang Jiang",
+        "Shuicheng Yan"
+      ],
+      "upvotes": 160,
+      "github": "https://github.com/Shichun-Liu/Agent-Memory-Paper-List",
+      "published": "2025-12-15T17:22:34.000Z"
+    },
+    {
+      "id": "2512.12967",
+      "title": "QwenLong-L1.5: Post-Training Recipe for Long-Context Reasoning and Memory Management",
+      "authors": [
+        "Weizhou Shen",
+        "Ziyi Yang",
+        "Chenliang Li",
+        "Zhiyuan Lu",
+        "Miao Peng",
+        "Huashan Sun",
+        "Yingcheng Shi",
+        "Shengyi Liao",
+        "Shaopeng Lai",
+        "Bo Zhang",
+        "Dayiheng Liu",
+        "Fei Huang",
+        "Jingren Zhou",
+        "Ming Yan"
+      ],
+      "upvotes": 113,
+      "github": "https://github.com/Tongyi-Zhiwen/Qwen-Doc",
+      "published": "2025-12-15T04:11:11.000Z"
+    },
+    {
+      "id": "2512.13687",
+      "title": "Towards Scalable Pre-training of Visual Tokenizers for Generation",
+      "authors": [
+        "Jingfeng Yao",
+        "Yuda Song",
+        "Yucong Zhou",
+        "Xinggang Wang"
+      ],
+      "upvotes": 108,
+      "github": "https://github.com/MiniMax-AI/VTP",
+      "published": "2025-12-15T18:59:54.000Z"
+    },
+    {
+      "id": "2512.13586",
+      "title": "ReFusion: A Diffusion Large Language Model with Parallel Autoregressive Decoding",
+      "authors": [
+        "Jia-Nan Li",
+        "Jian Guan",
+        "Wei Wu",
+        "Chongxuan Li"
+      ],
+      "upvotes": 93,
+      "github": "https://github.com/ML-GSAI/ReFusion",
+      "published": "2025-12-15T17:41:19.000Z"
+    },
+    {
+      "id": "2512.13604",
+      "title": "LongVie 2: Multimodal Controllable Ultra-Long Video World Model",
+      "authors": [
+        "Jianxiong Gao",
+        "Zhaoxi Chen",
+        "Xian Liu",
+        "Junhao Zhuang",
+        "Chengming Xu",
+        "Jianfeng Feng",
+        "Yu Qiao",
+        "Yanwei Fu",
+        "Chenyang Si",
+        "Ziwei Liu"
+      ],
+      "upvotes": 76,
+      "github": "https://github.com/Vchitect/LongVie",
+      "published": "2025-12-15T17:59:58.000Z"
+    },
+    {
+      "id": "2512.12730",
+      "title": "NL2Repo-Bench: Towards Long-Horizon Repository Generation Evaluation of Coding Agents",
+      "authors": [
+        "Jingzhe Ding",
+        "Shengda Long",
+        "Changxin Pu",
+        "Huan Zhou",
+        "Hongwan Gao",
+        "Xiang Gao",
+        "Chao He",
+        "Yue Hou",
+        "Fei Hu",
+        "Zhaojian Li",
+        "Weiran Shi",
+        "Zaiyuan Wang",
+        "Daoguang Zan",
+        "Chenchen Zhang",
+        "Xiaoxu Zhang",
+        "Qizhi Chen",
+        "Xianfu Cheng",
+        "Bo Deng",
+        "Qingshui Gu",
+        "Kai Hua",
+        "Juntao Lin",
+        "Pai Liu",
+        "Mingchen Li",
+        "Xuanguang Pan",
+        "Zifan Peng",
+        "Yujia Qin",
+        "Yong Shan",
+        "Zhewen Tan",
+        "Weihao Xie",
+        "Zihan Wang",
+        "Yishuo Yuan",
+        "Jiayu Zhang",
+        "Enduo Zhao",
+        "Yunfei Zhao",
+        "He Zhu",
+        "Chenyang Zou",
+        "Ming Ding",
+        "Jianpeng Jiao",
+        "Jiaheng Liu",
+        "Minghao Liu",
+        "Qian Liu",
+        "Chongyao Tao",
+        "Jian Yang",
+        "Tong Yang",
+        "Zhaoxiang Zhang",
+        "Xinjie Chen",
+        "Wenhao Huang",
+        "Ge Zhang"
+      ],
+      "upvotes": 52,
+      "github": "https://github.com/multimodal-art-projection/NL2RepoBench",
+      "published": "2025-12-14T15:12:13.000Z"
+    },
+    {
+      "id": "2512.13313",
+      "title": "KlingAvatar 2.0 Technical Report",
+      "authors": [
+        "Kling Team",
+        "Jialu Chen",
+        "Yikang Ding",
+        "Zhixue Fang",
+        "Kun Gai",
+        "Yuan Gao",
+        "Kang He",
+        "Jingyun Hua",
+        "Boyuan Jiang",
+        "Mingming Lao",
+        "Xiaohan Li",
+        "Hui Liu",
+        "Jiwen Liu",
+        "Xiaoqiang Liu",
+        "Yuan Liu",
+        "Shun Lu",
+        "Yongsen Mao",
+        "Yingchao Shao",
+        "Huafeng Shi",
+        "Xiaoyu Shi",
+        "Peiqin Sun",
+        "Songlin Tang",
+        "Pengfei Wan",
+        "Chao Wang",
+        "Xuebo Wang",
+        "Haoxian Zhang",
+        "Yuanxing Zhang",
+        "Yan Zhou"
+      ],
+      "upvotes": 44,
+      "github": null,
+      "published": "2025-12-15T13:30:51.000Z"
+    },
+    {
+      "id": "2512.12602",
+      "title": "Error-Free Linear Attention is a Free Lunch: Exact Solution from Continuous-Time Dynamics",
+      "authors": [
+        "Jingdi Lei",
+        "Di Zhang",
+        "Soujanya Poria"
+      ],
+      "upvotes": 44,
+      "github": "https://github.com/declare-lab/EFLA",
+      "published": "2025-12-14T08:51:02.000Z"
+    },
+    {
+      "id": "2512.09636",
+      "title": "MentraSuite: Post-Training Large Language Models for Mental Health Reasoning and Assessment",
+      "authors": [
+        "Mengxi Xiao",
+        "Kailai Yang",
+        "Pengde Zhao",
+        "Enze Zhang",
+        "Ziyan Kuang",
+        "Zhiwei Liu",
+        "Weiguang Han",
+        "Shu Liao",
+        "Lianting Huang",
+        "Jinpeng Hu",
+        "Min Peng",
+        "Qianqian Xie",
+        "Sophia Ananiadou"
+      ],
+      "upvotes": 26,
+      "github": "https://github.com/elsa66666/MentraSuite",
+      "published": "2025-12-10T13:26:22.000Z"
+    },
+    {
+      "id": "2512.13080",
+      "title": "Spatial-Aware VLA Pretraining through Visual-Physical Alignment from Human Videos",
+      "authors": [
+        "Yicheng Feng",
+        "Wanpeng Zhang",
+        "Ye Wang",
+        "Hao Luo",
+        "Haoqi Yuan",
+        "Sipeng Zheng",
+        "Zongqing Lu"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/BeingBeyond/VIPA-VLA",
+      "published": "2025-12-15T08:31:47.000Z"
+    },
+    {
+      "id": "2512.13168",
+      "title": "Finch: Benchmarking Finance & Accounting across Spreadsheet-Centric Enterprise Workflows",
+      "authors": [
+        "Haoyu Dong",
+        "Pengkun Zhang",
+        "Yan Gao",
+        "Xuanyu Dong",
+        "Yilin Cheng",
+        "Mingzhe Lu",
+        "Adina Yakefu",
+        "Shuxin Zheng"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/FinWorkBench/Finch",
+      "published": "2025-12-15T10:28:45.000Z"
+    },
+    {
+      "id": "2512.12692",
+      "title": "WebOperator: Action-Aware Tree Search for Autonomous Agents in Web Environment",
+      "authors": [
+        "Mahir Labib Dihan",
+        "Tanzima Hashem",
+        "Mohammed Eunus Ali",
+        "Md Rizwan Parvez"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/kagnlp/WebOperator",
+      "published": "2025-12-14T13:56:54.000Z"
+    },
+    {
+      "id": "2512.13006",
+      "title": "Few-Step Distillation for Text-to-Image Generation: A Practical Guide",
+      "authors": [
+        "Yifan Pu",
+        "Yizeng Han",
+        "Zhiwei Tang",
+        "Jiasheng Tang",
+        "Fan Wang",
+        "Bohan Zhuang",
+        "Gao Huang"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/alibaba-damo-academy/T2I-Distill",
+      "published": "2025-12-15T05:58:36.000Z"
+    },
+    {
+      "id": "2512.13674",
+      "title": "Towards Interactive Intelligence for Digital Humans",
+      "authors": [
+        "Yiyi Cai",
+        "Xuangeng Chu",
+        "Xiwei Gao",
+        "Sitong Gong",
+        "Yifei Huang",
+        "Caixin Kang",
+        "Kunhang Li",
+        "Haiyang Liu",
+        "Ruicong Liu",
+        "Yun Liu",
+        "Dianwen Ng",
+        "Zixiong Su",
+        "Erwin Wu",
+        "Yuhan Wu",
+        "Dingkun Yan",
+        "Tianyu Yan",
+        "Chang Zeng",
+        "Bo Zheng",
+        "You Zhou"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2025-12-15T18:57:35.000Z"
+    },
+    {
+      "id": "2512.10794",
+      "title": "What matters for Representation Alignment: Global Information or Spatial Structure?",
+      "authors": [
+        "Jaskirat Singh",
+        "Xingjian Leng",
+        "Zongze Wu",
+        "Liang Zheng",
+        "Richard Zhang",
+        "Eli Shechtman",
+        "Saining Xie"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/end2end-diffusion/irepa",
+      "published": "2025-12-11T16:39:53.000Z"
+    },
+    {
+      "id": "2512.11470",
+      "title": "Rethinking Expert Trajectory Utilization in LLM Post-training",
+      "authors": [
+        "Bowen Ding",
+        "Yuhan Chen",
+        "Jiayang Lv",
+        "Jiyao Yuan",
+        "Qi Zhu",
+        "Shuangshuang Tian",
+        "Dantong Zhu",
+        "Futing Wang",
+        "Heyuan Deng",
+        "Fei Mi",
+        "Lifeng Shang",
+        "Tao Lin"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/LINs-lab/RETU",
+      "published": "2025-12-12T11:13:00.000Z"
+    },
+    {
+      "id": "2512.10655",
+      "title": "CAPTAIN: Semantic Feature Injection for Memorization Mitigation in Text-to-Image Diffusion Models",
+      "authors": [
+        "Tong Zhang",
+        "Carlos Hinojosa",
+        "Bernard Ghanem"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2025-12-11T14:01:47.000Z"
+    },
+    {
+      "id": "2512.11891",
+      "title": "VLSA: Vision-Language-Action Models with Plug-and-Play Safety Constraint Layer",
+      "authors": [
+        "Songqiao Hu",
+        "Zeyi Liu",
+        "Shuang Liu",
+        "Jun Cen",
+        "Zihan Meng",
+        "Xiao He"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/THU-RCSCT/vlsa-aegis",
+      "published": "2025-12-09T16:53:44.000Z"
+    },
+    {
+      "id": "2512.13250",
+      "title": "Toward Ambulatory Vision: Learning Visually-Grounded Active View Selection",
+      "authors": [
+        "Juil Koo",
+        "Daehyeon Choi",
+        "Sangwoo Youn",
+        "Phillip Y. Lee",
+        "Minhyuk Sung"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/KAIST-Visual-AI-Group/VG-AVS",
+      "published": "2025-12-15T12:04:26.000Z"
+    },
+    {
+      "id": "2512.11995",
+      "title": "V-REX: Benchmarking Exploratory Visual Reasoning via Chain-of-Questions",
+      "authors": [
+        "Chenrui Fan",
+        "Yijun Liang",
+        "Shweta Bhardwaj",
+        "Kwesi Cobbina",
+        "Ming Li",
+        "Tianyi Zhou"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/tianyi-lab/VREX",
+      "published": "2025-12-12T19:18:41.000Z"
+    },
+    {
+      "id": "2512.12799",
+      "title": "DrivePI: Spatial-aware 4D MLLM for Unified Autonomous Driving Understanding, Perception, Prediction and Planning",
+      "authors": [
+        "Zhe Liu",
+        "Runhui Huang",
+        "Rui Yang",
+        "Siming Yan",
+        "Zining Wang",
+        "Lu Hou",
+        "Di Lin",
+        "Xiang Bai",
+        "Hengshuang Zhao"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/happinesslz/DrivePI",
+      "published": "2025-12-14T18:45:54.000Z"
+    },
+    {
+      "id": "2512.13689",
+      "title": "LitePT: Lighter Yet Stronger Point Transformer",
+      "authors": [
+        "Yuanwen Yue",
+        "Damien Robert",
+        "Jianyuan Wang",
+        "Sunghwan Hong",
+        "Jan Dirk Wegner",
+        "Christian Rupprecht",
+        "Konrad Schindler"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/prs-eth/LitePT",
+      "published": "2025-12-15T18:59:57.000Z"
+    },
+    {
+      "id": "2512.13592",
+      "title": "Image Diffusion Preview with Consistency Solver",
+      "authors": [
+        "Fu-Yun Wang",
+        "Hao Zhou",
+        "Liangzhe Yuan",
+        "Sanghyun Woo",
+        "Boqing Gong",
+        "Bohyung Han",
+        "Ming-Hsuan Yang",
+        "Han Zhang",
+        "Yukun Zhu",
+        "Ting Liu",
+        "Long Zhao"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/G-U-N/consolver",
+      "published": "2025-12-15T17:47:49.000Z"
+    },
+    {
+      "id": "2512.10071",
+      "title": "Openpi Comet: Competition Solution For 2025 BEHAVIOR Challenge",
+      "authors": [
+        "Junjie Bai",
+        "Yu-Wei Chao",
+        "Qizhi Chen",
+        "Jinwei Gu",
+        "Moo Jin Kim",
+        "Zhaoshuo Li",
+        "Xuan Li",
+        "Tsung-Yi Lin",
+        "Ming-Yu Liu",
+        "Nic Ma",
+        "Kaichun Mo",
+        "Delin Qu",
+        "Shangkun Sun",
+        "Hongchi Xia",
+        "Fangyin Wei",
+        "Xiaohui Zeng"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/mli0603/openpi-comet",
+      "published": "2025-12-10T20:46:40.000Z"
+    },
+    {
+      "id": "2512.12196",
+      "title": "AutoMV: An Automatic Multi-Agent System for Music Video Generation",
+      "authors": [
+        "Xiaoxuan Tang",
+        "Xinping Lei",
+        "Chaoran Zhu",
+        "Shiyun Chen",
+        "Ruibin Yuan",
+        "Yizhi Li",
+        "Changjae Oh",
+        "Ge Zhang",
+        "Wenhao Huang",
+        "Emmanouil Benetos",
+        "Yang Liu",
+        "Jiaheng Liu",
+        "Yinghao Ma"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/multimodal-art-projection/AutoMV",
+      "published": "2025-12-13T05:53:50.000Z"
+    },
+    {
+      "id": "2512.13330",
+      "title": "FIN-bench-v2: A Unified and Robust Benchmark Suite for Evaluating Finnish Large Language Models",
+      "authors": [
+        "Joona Kytöniemi",
+        "Jousia Piha",
+        "Akseli Reunamo",
+        "Fedor Vitiugin",
+        "Farrokh Mehryary",
+        "Sampo Pyysalo"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/LumiOpen/lm-evaluation-harness",
+      "published": "2025-12-15T13:41:41.000Z"
+    },
+    {
+      "id": "2512.10927",
+      "title": "FoundationMotion: Auto-Labeling and Reasoning about Spatial Movement in Videos",
+      "authors": [
+        "Yulu Gan",
+        "Ligeng Zhu",
+        "Dandan Shan",
+        "Baifeng Shi",
+        "Hongxu Yin",
+        "Boris Ivanovic",
+        "Song Han",
+        "Trevor Darrell",
+        "Jitendra Malik",
+        "Marco Pavone",
+        "Boyi Li"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/Wolfv0/FoundationMotion",
+      "published": "2025-12-11T18:53:15.000Z"
+    },
+    {
+      "id": "2512.11883",
+      "title": "Aesthetic Alignment Risks Assimilation: How Image Generation and Reward Models Reinforce Beauty Bias and Ideological \"Censorship\"",
+      "authors": [
+        "Wenqi Marshall Guo",
+        "Qingyun Qian",
+        "Khalad Hasan",
+        "Shan Du"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/weathon/AAS",
+      "published": "2025-12-09T00:24:29.000Z"
+    },
+    {
+      "id": "2512.12777",
+      "title": "State over Tokens: Characterizing the Role of Reasoning Tokens",
+      "authors": [
+        "Mosh Levy",
+        "Zohar Elyoseph",
+        "Shauli Ravfogel",
+        "Yoav Goldberg"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-12-14T17:30:34.000Z"
+    },
+    {
+      "id": "2512.13421",
+      "title": "RecTok: Reconstruction Distillation along Rectified Flow",
+      "authors": [
+        "Qingyu Shi",
+        "Size Wu",
+        "Jinbin Bai",
+        "Kaidong Yu",
+        "Yujing Wang",
+        "Yunhai Tong",
+        "Xiangtai Li",
+        "Xuelong Li"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/Shi-qingyu/RecTok",
+      "published": "2025-12-15T15:14:20.000Z"
+    },
+    {
+      "id": "2512.12768",
+      "title": "CoRe3D: Collaborative Reasoning as a Foundation for 3D Intelligence",
+      "authors": [
+        "Tianjiao Yu",
+        "Xinzhuo Li",
+        "Yifan Shen",
+        "Yuanzhe Liu",
+        "Ismini Lourentzou"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-12-14T17:05:11.000Z"
+    },
+    {
+      "id": "2512.11438",
+      "title": "Flowception: Temporally Expansive Flow Matching for Video Generation",
+      "authors": [
+        "Tariq Berrada Ifriqi",
+        "John Nguyen",
+        "Karteek Alahari",
+        "Jakob Verbeek",
+        "Ricky T. Q. Chen"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-12-12T10:23:47.000Z"
+    },
+    {
+      "id": "2512.05272",
+      "title": "Inferring Compositional 4D Scenes without Ever Seeing One",
+      "authors": [
+        "Ahmet Berke Gokmen",
+        "Ajad Chhatkuli",
+        "Luc Van Gool",
+        "Danda Pani Paudel"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/insait-institute/COM4D",
+      "published": "2025-12-04T21:51:47.000Z"
+    },
+    {
+      "id": "2512.08400",
+      "title": "Towards Visual Re-Identification of Fish using Fine-Grained Classification for Electronic Monitoring in Fisheries",
+      "authors": [
+        "Samitha Nuwan Thilakarathna",
+        "Ercan Avsar",
+        "Martin Mathias Nielsen",
+        "Malte Pedersen"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/msamdk/Fish_Re_Identification",
+      "published": "2025-12-09T09:33:53.000Z"
+    },
+    {
+      "id": "2512.13672",
+      "title": "Directional Textual Inversion for Personalized Text-to-Image Generation",
+      "authors": [
+        "Kunhee Kim",
+        "NaHyeon Park",
+        "Kibeom Hong",
+        "Hyunjung Shim"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/kunheek/dti",
+      "published": "2025-12-15T18:57:07.000Z"
+    },
+    {
+      "id": "2512.13690",
+      "title": "DiffusionBrowser: Interactive Diffusion Previews via Multi-Branch Decoders",
+      "authors": [
+        "Susung Hong",
+        "Chongjian Ge",
+        "Zhifei Zhang",
+        "Jui-Hsien Wang"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2025-12-15T18:59:57.000Z"
+    },
+    {
+      "id": "2512.13683",
+      "title": "I-Scene: 3D Instance Models are Implicit Generalizable Spatial Learners",
+      "authors": [
+        "Lu Ling",
+        "Yunhao Ge",
+        "Yichen Sheng",
+        "Aniket Bera"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/LuLing06/I-Scene-project",
+      "published": "2025-12-15T18:59:13.000Z"
+    },
+    {
+      "id": "2512.12751",
+      "title": "GenieDrive: Towards Physics-Aware Driving World Model with 4D Occupancy Guided Video Generation",
+      "authors": [
+        "Zhenya Yang",
+        "Zhe Liu",
+        "Yuxiang Lu",
+        "Liping Hou",
+        "Chenxuan Miao",
+        "Siyi Peng",
+        "Bailan Feng",
+        "Xiang Bai",
+        "Hengshuang Zhao"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2025-12-14T16:23:51.000Z"
+    },
+    {
+      "id": "2512.08405",
+      "title": "Learning Robot Manipulation from Audio World Models",
+      "authors": [
+        "Fan Zhang",
+        "Michael Gienger"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2025-12-09T09:36:51.000Z"
+    },
+    {
+      "id": "2512.07186",
+      "title": "START: Spatial and Textual Learning for Chart Understanding",
+      "authors": [
+        "Zhuoming Liu",
+        "Xiaofeng Gao",
+        "Feiyang Niu",
+        "Qiaozi Gao",
+        "Liu Liu",
+        "Robinson Piramuthu"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/dragonlzm/START",
+      "published": "2025-12-08T05:43:14.000Z"
+    },
+    {
+      "id": "2512.09069",
+      "title": "KD-OCT: Efficient Knowledge Distillation for Clinical-Grade Retinal OCT Classification",
+      "authors": [
+        "Erfan Nourbakhsh",
+        "Nasrin Sanjari",
+        "Ali Nourbakhsh"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/erfan-nourbakhsh/KD-OCT",
+      "published": "2025-12-09T19:34:30.000Z"
+    }
+  ]
+}

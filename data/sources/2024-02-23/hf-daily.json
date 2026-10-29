@@ -1,0 +1,296 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-02-23",
+  "fetched_at": "2026-10-29T15:26:59.070Z",
+  "candidates": [
+    {
+      "id": "2402.14658",
+      "title": "OpenCodeInterpreter: Integrating Code Generation with Execution and Refinement",
+      "authors": [
+        "Tianyu Zheng",
+        "Ge Zhang",
+        "Tianhao Shen",
+        "Xueling Liu",
+        "Bill Yuchen Lin",
+        "Jie Fu",
+        "Wenhu Chen",
+        "Xiang Yue"
+      ],
+      "upvotes": 84,
+      "github": "https://github.com/opencodeinterpreter/opencodeinterpreter",
+      "published": "2024-02-22T16:06:23.000Z"
+    },
+    {
+      "id": "2402.14083",
+      "title": "Beyond A*: Better Planning with Transformers via Search Dynamics Bootstrapping",
+      "authors": [
+        "Lucas Lehnert",
+        "Sainbayar Sukhbaatar",
+        "Paul Mcvay",
+        "Michael Rabbat",
+        "Yuandong Tian"
+      ],
+      "upvotes": 47,
+      "github": "https://github.com/facebookresearch/searchformer",
+      "published": "2024-02-21T19:17:28.000Z"
+    },
+    {
+      "id": "2402.14818",
+      "title": "PALO: A Polyglot Large Multimodal Model for 5B People",
+      "authors": [
+        "Muhammad Maaz",
+        "Hanoona Rasheed",
+        "Abdelrahman Shaker",
+        "Salman Khan",
+        "Hisham Cholakal",
+        "Rao M. Anwer",
+        "Tim Baldwin",
+        "Michael Felsberg",
+        "Fahad S. Khan"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/mbzuai-oryx/palo",
+      "published": "2024-02-22T18:59:58.000Z"
+    },
+    {
+      "id": "2402.14289",
+      "title": "TinyLLaVA: A Framework of Small-scale Large Multimodal Models",
+      "authors": [
+        "Baichuan Zhou",
+        "Ying Hu",
+        "Xi Weng",
+        "Junlong Jia",
+        "Jie Luo",
+        "Xien Liu",
+        "Ji Wu",
+        "Lei Huang"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/dlcv-buaa/tinyllavabench",
+      "published": "2024-02-22T05:05:30.000Z"
+    },
+    {
+      "id": "2402.14327",
+      "title": "Subobject-level Image Tokenization",
+      "authors": [
+        "Delong Chen",
+        "Samuel Cahyawijaya",
+        "Jianfeng Liu",
+        "Baoyuan Wang",
+        "Pascale Fung"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/chendelong1999/subobjects",
+      "published": "2024-02-22T06:47:44.000Z"
+    },
+    {
+      "id": "2402.14547",
+      "title": "OmniPred: Language Models as Universal Regressors",
+      "authors": [
+        "Xingyou Song",
+        "Oscar Li",
+        "Chansoo Lee",
+        "Bangding",
+        "Yang",
+        "Daiyi Peng",
+        "Sagi Perel",
+        "Yutian Chen"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/google-research/optformer",
+      "published": "2024-02-22T13:36:53.000Z"
+    },
+    {
+      "id": "2402.14034",
+      "title": "AgentScope: A Flexible yet Robust Multi-Agent Platform",
+      "authors": [
+        "Dawei Gao",
+        "Zitao Li",
+        "Weirui Kuang",
+        "Xuchen Pan",
+        "Daoyuan Chen",
+        "Zhijian Ma",
+        "Bingchen Qian",
+        "Liuyi Yao",
+        "Lin Zhu",
+        "Chen Cheng",
+        "Hongzhu Shi",
+        "Yaliang Li",
+        "Bolin Ding",
+        "Jingren Zhou"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2024-02-21T04:11:28.000Z"
+    },
+    {
+      "id": "2402.14167",
+      "title": "T-Stitch: Accelerating Sampling in Pre-Trained Diffusion Models with Trajectory Stitching",
+      "authors": [
+        "Zizheng Pan",
+        "Bohan Zhuang",
+        "De-An Huang",
+        "Weili Nie",
+        "Zhiding Yu",
+        "Chaowei Xiao",
+        "Jianfei Cai",
+        "Anima Anandkumar"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/nvlabs/t-stitch",
+      "published": "2024-02-21T23:08:54.000Z"
+    },
+    {
+      "id": "2402.14086",
+      "title": "LexC-Gen: Generating Data for Extremely Low-Resource Languages with Large Language Models and Bilingual Lexicons",
+      "authors": [
+        "Zheng-Xin Yong",
+        "Cristina Menghini",
+        "Stephen H. Bach"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/batsresearch/lexc-gen-data-archive",
+      "published": "2024-02-21T19:20:06.000Z"
+    },
+    {
+      "id": "2402.14261",
+      "title": "Copilot Evaluation Harness: Evaluating LLM-Guided Software Programming",
+      "authors": [
+        "Anisha Agarwal",
+        "Aaron Chan",
+        "Shubham Chandel",
+        "Jinu Jang",
+        "Shaun Miller",
+        "Roshanak Zilouchian Moghaddam",
+        "Yevhen Mohylevskyy",
+        "Neel Sundaresan",
+        "Michele Tufano"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2024-02-22T03:51:34.000Z"
+    },
+    {
+      "id": "2402.14590",
+      "title": "Scaling Up LLM Reviews for Google Ads Content Moderation",
+      "authors": [
+        "Wei Qiao",
+        "Tushar Dogra",
+        "Otilia Stretcu",
+        "Yu-Han Lyu",
+        "Tiantian Fang",
+        "Dongjin Kwon",
+        "Chun-Ta Lu",
+        "Enming Luo",
+        "Yuan Wang",
+        "Chih-Chun Chia",
+        "Ariel Fuxman",
+        "Fangzhou Wang",
+        "Ranjay Krishna",
+        "Mehmet Tek"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2024-02-07T23:47:02.000Z"
+    },
+    {
+      "id": "2402.14810",
+      "title": "GeneOH Diffusion: Towards Generalizable Hand-Object Interaction Denoising via Denoising Diffusion",
+      "authors": [
+        "Xueyi Liu",
+        "Li Yi"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/meowuu7/geneoh-diffusion",
+      "published": "2024-02-22T18:59:21.000Z"
+    },
+    {
+      "id": "2402.14650",
+      "title": "GaussianPro: 3D Gaussian Splatting with Progressive Propagation",
+      "authors": [
+        "Kai Cheng",
+        "Xiaoxiao Long",
+        "Kaizhi Yang",
+        "Yao Yao",
+        "Wei Yin",
+        "Yuexin Ma",
+        "Wenping Wang",
+        "Xuejin Chen"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2024-02-22T16:00:20.000Z"
+    },
+    {
+      "id": "2402.14792",
+      "title": "Consolidating Attention Features for Multi-view Image Editing",
+      "authors": [
+        "Or Patashnik",
+        "Rinon Gal",
+        "Daniel Cohen-Or",
+        "Jun-Yan Zhu",
+        "Fernando De la Torre"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2024-02-22T18:50:18.000Z"
+    },
+    {
+      "id": "2402.14795",
+      "title": "CyberDemo: Augmenting Simulated Human Demonstration for Real-World Dexterous Manipulation",
+      "authors": [
+        "Jun Wang",
+        "Yuzhe Qin",
+        "Kaiming Kuang",
+        "Yigit Korkmaz",
+        "Akhilan Gurumoorthy",
+        "Hao Su",
+        "Xiaolong Wang"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2024-02-22T18:54:32.000Z"
+    },
+    {
+      "id": "2402.14180",
+      "title": "Linear Transformers are Versatile In-Context Learners",
+      "authors": [
+        "Max Vladymyrov",
+        "Johannes von Oswald",
+        "Mark Sandler",
+        "Rong Ge"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2024-02-21T23:45:57.000Z"
+    },
+    {
+      "id": "2402.14253",
+      "title": "MVD^2: Efficient Multiview 3D Reconstruction for Multiview Diffusion",
+      "authors": [
+        "Xin-Yang Zheng",
+        "Hao Pan",
+        "Yu-Xiao Guo",
+        "Xin Tong",
+        "Yang Liu"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2024-02-22T03:39:48.000Z"
+    },
+    {
+      "id": "2402.14194",
+      "title": "BeTAIL: Behavior Transformer Adversarial Imitation Learning from Human Racing Gameplay",
+      "authors": [
+        "Catherine Weaver",
+        "Chen Tang",
+        "Ce Hao",
+        "Kenta Kawamoto",
+        "Masayoshi Tomizuka",
+        "Wei Zhan"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2024-02-22T00:38:43.000Z"
+    }
+  ]
+}

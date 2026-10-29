@@ -1,0 +1,885 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-09-29",
+  "fetched_at": "2026-10-29T15:37:00.666Z",
+  "candidates": [
+    {
+      "id": "2609.33325",
+      "title": "VisionHOPE: Visual Backbones as Self-Modifying Learning Systems",
+      "authors": [
+        "Siran Peng",
+        "Tianshuo Zhang",
+        "Tianyu Fu",
+        "Weisong Zhao",
+        "Haoyuan Zhang",
+        "Jiankuo Zhao",
+        "Minghui Wu",
+        "Ping Jiang",
+        "Xiangyu Zhu",
+        "Chenxu Zhao",
+        "Zhen Lei"
+      ],
+      "upvotes": 322,
+      "github": "https://github.com/PSRben/VisionHOPE",
+      "published": "2026-09-27T00:00:00.000Z"
+    },
+    {
+      "id": "2609.33757",
+      "title": "YuE2: Unifying Symbolic and Audio Music Generation at Frontier Quality",
+      "authors": [
+        "Ruibin Yuan",
+        "Jiahao Pan",
+        "Junyan Jiang",
+        "Zhiyue Wu",
+        "Ziya Zhou",
+        "Jiankai Sun",
+        "Yizhi Li",
+        "Ge Zhang",
+        "Yicheng Gu",
+        "Zeyue Tian",
+        "Junyu Dai",
+        "Hanfeng Lin",
+        "Kai Li",
+        "Shangda Wu",
+        "Xuanjie Liu",
+        "Jiaming Wang",
+        "Zihan Liu",
+        "Yue Wang",
+        "Yinghao Ma",
+        "Hanzhi Yin",
+        "Kangrui Chen",
+        "Xinyue Zhang",
+        "Ziyang Ma",
+        "Mengqi Liao",
+        "Hejia Zhao",
+        "Guowei Huang",
+        "Chao Yan",
+        "Lei Ke",
+        "Jianwei Yu",
+        "Bei Liu",
+        "Joe Guo",
+        "Liumeng Xue",
+        "Gus Xia",
+        "Wei Xue",
+        "Yike Guo"
+      ],
+      "upvotes": 207,
+      "github": "https://github.com/multimodal-art-projection/YuE",
+      "published": "2026-09-27T00:00:00.000Z"
+    },
+    {
+      "id": "2609.29233",
+      "title": "Post-Training Leaves Behavioral Shadows on Unrelated Decisions",
+      "authors": [
+        "Ziyang Zhang",
+        "Yubin Jing",
+        "Yuanhao Zeng",
+        "Yuyao Li",
+        "Haofan Wang",
+        "Yichen Gong"
+      ],
+      "upvotes": 159,
+      "github": "https://github.com/myboker/ATD",
+      "published": "2026-09-24T00:00:00.000Z"
+    },
+    {
+      "id": "2609.35347",
+      "title": "Beyond Teacher Assignment: Domain-Normalized Multi-Teacher On-Policy Distillation",
+      "authors": [
+        "Xin Li",
+        "Hao Jiang",
+        "Xin Gao",
+        "Annan Wang",
+        "Yuchen Xie",
+        "Jinghao Guo",
+        "Xingwei Qu",
+        "Yichi Zhang",
+        "Chau Yuen"
+      ],
+      "upvotes": 136,
+      "github": "https://github.com/LiXin97/DN-MOPD",
+      "published": "2026-09-28T00:00:00.000Z"
+    },
+    {
+      "id": "2609.32712",
+      "title": "MassAlloc Attention: Let Attention Allocate Its Own Compute",
+      "authors": [
+        "Jingze Shi",
+        "Zhangyang Peng",
+        "Xianduo Li",
+        "Yanlin Qi",
+        "Xiaotian Lin",
+        "Haoxian Chen",
+        "Liangdong Wang",
+        "Guang Liu",
+        "Yuyu Luo"
+      ],
+      "upvotes": 76,
+      "github": "https://github.com/HKUSTDial/flash-sparse-attention",
+      "published": "2026-09-26T00:00:00.000Z"
+    },
+    {
+      "id": "2609.33295",
+      "title": "TraceDance: An Automated System for Building Agent Behavior Benchmarks from Real-World Agent Deployment Traces",
+      "authors": [
+        "Dehai Min",
+        "Daoan Zhang",
+        "Yiming Zeng",
+        "Huayi Zhang",
+        "Ziyi Chen",
+        "Yan Zhang",
+        "Qinbo Bai",
+        "Mengyuan Chao",
+        "Jing Ning",
+        "Qiyue Hua",
+        "Huiyi Chen",
+        "Hanrong Zhang",
+        "Henry Peng Zou",
+        "Jie Yang",
+        "Wei Xu",
+        "Philip S. Yu"
+      ],
+      "upvotes": 71,
+      "github": "https://github.com/ZhishanQ/TraceDance",
+      "published": "2026-09-27T00:00:00.000Z"
+    },
+    {
+      "id": "2609.35432",
+      "title": "Self-Evolving Coding Agents: From Digital Programs to Physical-World Intelligence",
+      "authors": [
+        "Hongcheng Gao",
+        "Jingjing Zhou",
+        "Zelin Zheng",
+        "Shijia Ge",
+        "Jay Zhu",
+        "Yazhe Wang",
+        "Jianshu Zeng",
+        "Xuan Shangguan",
+        "Di Wu",
+        "Lingyu He",
+        "Zhiqi Jia",
+        "Sihang Wu",
+        "Xiao He"
+      ],
+      "upvotes": 70,
+      "github": "https://github.com/HexaFuture/PhysicalCoding",
+      "published": "2026-09-28T00:00:00.000Z"
+    },
+    {
+      "id": "2609.35457",
+      "title": "How Far Are We from Removing the Visual Encoder? Scaling Laws for Encoder-Free Multimodal Pretraining",
+      "authors": [
+        "Lin Chen",
+        "Bolin Ni",
+        "Qi Yang",
+        "Lan Jiang",
+        "Kun Ding",
+        "Xiaoran Fan",
+        "Hower Yang",
+        "Ying Wang",
+        "Shiming Xiang"
+      ],
+      "upvotes": 67,
+      "github": null,
+      "published": "2026-09-28T00:00:00.000Z"
+    },
+    {
+      "id": "2609.32704",
+      "title": "CoWindow Attention: Full Causal Coverage Is a Collective Property",
+      "authors": [
+        "Jingze Shi",
+        "Zhangyang Peng",
+        "Xianduo Li",
+        "Yanlin Qi",
+        "Xiaotian Lin",
+        "Haoxian Chen",
+        "Liangdong Wang",
+        "Guang Liu",
+        "Yuyu Luo"
+      ],
+      "upvotes": 67,
+      "github": "https://github.com/flash-algo/flash-sparse-attention",
+      "published": "2026-09-26T00:00:00.000Z"
+    },
+    {
+      "id": "2609.35748",
+      "title": "Improving Test-Time Scaling with Adaptive Looped Transformers",
+      "authors": [
+        "Yichen You",
+        "Tianyu Fu",
+        "Aosong Feng",
+        "Xingtai Lv",
+        "Xuefei Ning",
+        "Ning Ding",
+        "Yu Wang"
+      ],
+      "upvotes": 63,
+      "github": "https://github.com/thu-nics/TaH",
+      "published": "2026-09-28T00:00:00.000Z"
+    },
+    {
+      "id": "2609.31948",
+      "title": "Duplex-MPE: Benchmarking Multi-Party Interaction in Full-Duplex Dialogue",
+      "authors": [
+        "Chengqian Ma",
+        "Wenhao Feng",
+        "Weixuan Jin",
+        "Gaole Dai",
+        "Tianyu Xie",
+        "Yuexiao Ma",
+        "Zhaolu Kang",
+        "Xiangyu Zhao",
+        "Xiawu Zheng",
+        "Fei Chao"
+      ],
+      "upvotes": 62,
+      "github": null,
+      "published": "2026-09-25T00:00:00.000Z"
+    },
+    {
+      "id": "2609.32577",
+      "title": "Groupwise Agentic Grading and Advantage Redistribution for Code Agent RL",
+      "authors": [
+        "Jinhao Dong",
+        "Liang Zhao",
+        "Zihao Yue",
+        "Wenhan Ma",
+        "Linghao Zhang",
+        "Lei Li",
+        "Shicheng Li",
+        "Yifan Song",
+        "Bowen Ye",
+        "Fuli Luo"
+      ],
+      "upvotes": 53,
+      "github": null,
+      "published": "2026-09-26T00:00:00.000Z"
+    },
+    {
+      "id": "2609.33848",
+      "title": "QwenGyre: An Elastic Reinforcement Learning Framework for Training xLong-Horizon Agents",
+      "authors": [
+        "Weiqi Wang",
+        "Yuxin Zhou",
+        "Mouxiang Chen",
+        "Siyuan Zhang",
+        "Yi Zhang",
+        "Yuyan Luo",
+        "Zhiyu Yin",
+        "Chencan Wu",
+        "Jiemin Jiang",
+        "Wentao Yao",
+        "Chujie Zheng",
+        "JianWei Zhang"
+      ],
+      "upvotes": 51,
+      "github": null,
+      "published": "2026-09-27T00:00:00.000Z"
+    },
+    {
+      "id": "2609.35767",
+      "title": "Learning Native Reflection in Unified Models with Interleaved Reinforcement Learning",
+      "authors": [
+        "Yijia Fan",
+        "Ziqi Huang",
+        "Zhongang Cai",
+        "Yan Li",
+        "Zimo Wen",
+        "Wanqi Yin",
+        "Haiwen Diao",
+        "Ziwei Liu"
+      ],
+      "upvotes": 50,
+      "github": "https://github.com/waltstephen/UMM-Reflection",
+      "published": "2026-09-28T00:00:00.000Z"
+    },
+    {
+      "id": "2609.33781",
+      "title": "Surprising Success, Repeated Failure: Entropy-Guided Credit Assignment for Exploration in LLM Reasoning",
+      "authors": [
+        "Woongyeong Yeo",
+        "Minki Kang",
+        "Chanuk Lee",
+        "Sangwoo Park",
+        "Jinheon Baek",
+        "Sung Ju Hwang"
+      ],
+      "upvotes": 46,
+      "github": "https://github.com/wgcyeo/EAPO",
+      "published": "2026-09-27T00:00:00.000Z"
+    },
+    {
+      "id": "2609.33378",
+      "title": "Recursive Harness Distillation across Agents for Robot Manipulation",
+      "authors": [
+        "Seungyeon Kim",
+        "Junhoo Lee",
+        "Minkyu Kim",
+        "Baekseung Kim",
+        "Nojun Kwak"
+      ],
+      "upvotes": 42,
+      "github": null,
+      "published": "2026-09-27T00:00:00.000Z"
+    },
+    {
+      "id": "2609.33665",
+      "title": "CompoWorld: Compositional Environment Scaling for General Agents",
+      "authors": [
+        "Xiao-Wen Yang",
+        "Weiyi Xu",
+        "Wen Da",
+        "Hang Xu",
+        "Canwei Li",
+        "Hong-Jie You",
+        "Pusen Dong",
+        "Yucheng Zeng",
+        "Zhaokai Luo",
+        "Yu-Feng Li",
+        "Yao Hu",
+        "Mu Chuan"
+      ],
+      "upvotes": 42,
+      "github": null,
+      "published": "2026-09-27T00:00:00.000Z"
+    },
+    {
+      "id": "2609.36246",
+      "title": "Learning from Teacher Continuations at Student States",
+      "authors": [
+        "Haojin Wang",
+        "Dylan Zhang",
+        "Huaibo Chen",
+        "Suhao Yu",
+        "Yihang Sun",
+        "Zhanyang Jin",
+        "Jiaying Ye",
+        "Dianqi Li",
+        "Prasanna Sattigeri",
+        "Kamal Youcef-Toumi",
+        "Hao Peng"
+      ],
+      "upvotes": 41,
+      "github": null,
+      "published": "2026-09-28T00:00:00.000Z"
+    },
+    {
+      "id": "2609.34327",
+      "title": "Knowing When Thinking Is Not Enough: Teaching Small Reasoning Models to Reason Beyond Their Parametric Knowledge",
+      "authors": [
+        "Chanuk Lee",
+        "Minki Kang",
+        "Sangwoo Park",
+        "Woongyeong Yeo",
+        "Jinheon Baek",
+        "Sung Ju Hwang"
+      ],
+      "upvotes": 41,
+      "github": "https://github.com/tally0818/FlyBy",
+      "published": "2026-09-28T00:00:00.000Z"
+    },
+    {
+      "id": "2609.33780",
+      "title": "Selecting Diverse SFT Traces Improves Post-RL Generalization",
+      "authors": [
+        "Dylan Zhang",
+        "Mingyuan Wu",
+        "Jinning Li"
+      ],
+      "upvotes": 38,
+      "github": null,
+      "published": "2026-09-27T00:00:00.000Z"
+    },
+    {
+      "id": "2609.33772",
+      "title": "Skill2Env: Capability-Oriented Environment Synthesis from Skills for General Agents",
+      "authors": [
+        "Weiyi Xu",
+        "Xiaowen Yang",
+        "Wen Da",
+        "Hang Xu",
+        "Canwei Li",
+        "Hongjie You",
+        "Pusen Dong",
+        "Yucheng Zeng",
+        "Zhaokai Luo",
+        "Mu Chuan"
+      ],
+      "upvotes": 37,
+      "github": null,
+      "published": "2026-09-27T00:00:00.000Z"
+    },
+    {
+      "id": "2609.32444",
+      "title": "Rethinking Training-Inference Mismatch in LLM Reinforcement Learning: Where It Arises and How to Correct It",
+      "authors": [
+        "Tianrun Yu",
+        "Kaixiang Zhao",
+        "Shangzhe Li",
+        "Yuxiao Yang",
+        "Porter Jenkins",
+        "Weitong Zhang",
+        "Taylor W. Killian"
+      ],
+      "upvotes": 36,
+      "github": "https://github.com/kzhao5/CIS-RL",
+      "published": "2026-09-26T00:00:00.000Z"
+    },
+    {
+      "id": "2609.32540",
+      "title": "In-Flight KV Cache with Clean Anchors for Faster Autoregressive Video Diffusion",
+      "authors": [
+        "Yikai Wang",
+        "Xiao Han",
+        "Mengmeng Xu",
+        "Juan Camilo Perez",
+        "Yiannis Douratsos",
+        "Sen He",
+        "Zijian Zhou",
+        "Fei Zhang",
+        "Zhaochong An",
+        "Juan-Manuel Perez-Rua",
+        "Chen Change Loy",
+        "Tao Xiang"
+      ],
+      "upvotes": 35,
+      "github": null,
+      "published": "2026-09-26T00:00:00.000Z"
+    },
+    {
+      "id": "2609.33803",
+      "title": "Diffusion Reward Models",
+      "authors": [
+        "Xiangyang Wang",
+        "Bingxiang He",
+        "Zeyuan Liu",
+        "Jiaze WangZiqing Qiao",
+        "Yuxin Zuo",
+        "Huan-ang Gao",
+        "Cheng Qian",
+        "Wenbin Zhang",
+        "Ran Li",
+        "Youbang Sun",
+        "Ning Ding",
+        "Yuanchun Shi",
+        "Zhiyuan Liu",
+        "Chaojun Xiao",
+        "Chun Yu"
+      ],
+      "upvotes": 35,
+      "github": "https://github.com/thunlp/DRM",
+      "published": "2026-09-27T00:00:00.000Z"
+    },
+    {
+      "id": "2609.35673",
+      "title": "FlowTool: Controlling Tool Parameter in Image Retouching via Flow Matching",
+      "authors": [
+        "Thanh-Long V. Le",
+        "Steven Walton",
+        "Seunghyun Yoon",
+        "Branislav Kveton",
+        "Trung Bui",
+        "Eunho Yang",
+        "Viet Lai"
+      ],
+      "upvotes": 34,
+      "github": null,
+      "published": "2026-09-28T00:00:00.000Z"
+    },
+    {
+      "id": "2609.33642",
+      "title": "Learning to Learn from Context: Synthetic Training from Perturbed Public Documents",
+      "authors": [
+        "Haoyi Wu",
+        "Yang Xiao",
+        "Yusong Sun",
+        "Wenyang Hui",
+        "Zhaokai Luo",
+        "Chengyue Jiang",
+        "Mu Chuan"
+      ],
+      "upvotes": 34,
+      "github": null,
+      "published": "2026-09-27T00:00:00.000Z"
+    },
+    {
+      "id": "2609.32534",
+      "title": "DepthBench: Measuring How Residual Connections Enable More Computational Depth",
+      "authors": [
+        "Keyu Wang",
+        "Yangyi Huang",
+        "Jiale Kang",
+        "David González-Martínez",
+        "Weiyang Liu",
+        "Shiwei Liu"
+      ],
+      "upvotes": 33,
+      "github": "https://github.com/keyu-wang-2002/DepthBench",
+      "published": "2026-09-26T00:00:00.000Z"
+    },
+    {
+      "id": "2609.35505",
+      "title": "An RL View of OPD: Least Square Policy Distillation for Sample-Efficient LLM Reasoning",
+      "authors": [
+        "Shangzhe Li",
+        "Yuxiao Yang",
+        "Tianrun Yu",
+        "Kaixiang Zhao",
+        "Xiaoyun Wang",
+        "Taylor W. Killian",
+        "Weitong Zhang"
+      ],
+      "upvotes": 32,
+      "github": "https://github.com/UNCSciML/LSPD",
+      "published": "2026-09-28T00:00:00.000Z"
+    },
+    {
+      "id": "2609.35560",
+      "title": "WorldPlay2: Extending Real-Time Interactive World Models in Control and Horizon",
+      "authors": [
+        "Haiyu Zhang",
+        "Wenqiang Sun",
+        "Tengfei Wang",
+        "Junta Wu",
+        "Jun Zhang",
+        "Yunhong Wang",
+        "Yu Qiao",
+        "Chunchao Guo"
+      ],
+      "upvotes": 31,
+      "github": "https://github.com/WorldPlay2/WorldPlay2",
+      "published": "2026-09-28T00:00:00.000Z"
+    },
+    {
+      "id": "2609.34972",
+      "title": "Just MLPs: Efficient Visual State Reconstruction for Multimodal Language Models",
+      "authors": [
+        "Jingdi lei",
+        "Junxian Li",
+        "Di Zhang",
+        "Zhanqiu Zhang",
+        "Yiwen Guo",
+        "Soujanya Poria"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/declare-lab/delta-Vision",
+      "published": "2026-09-28T00:00:00.000Z"
+    },
+    {
+      "id": "2609.28236",
+      "title": "EmbodiedMemory-Bench: Benchmarking Embodied Memory for Long-Horizon Embodied Tasks",
+      "authors": [
+        "Lizhou Liang",
+        "Xinyu Zhong",
+        "Miao Pan",
+        "Xiaohe Zhou",
+        "Xuanyu Liu",
+        "Qinfeng Li",
+        "Peng Li",
+        "Jintao Chen",
+        "Xuhong Zhang",
+        "Wenqi Zhang"
+      ],
+      "upvotes": 29,
+      "github": null,
+      "published": "2026-09-23T00:00:00.000Z"
+    },
+    {
+      "id": "2609.33616",
+      "title": "SpatialSpeak: QA-Native Reconstruction with Local and Global Context for Spatial Chain-of-Thought Reasoning",
+      "authors": [
+        "Yang Cao",
+        "Jiaxin Zhang",
+        "Dave Zhenyu Chen",
+        "Yingji Zhong",
+        "Ruiyuan Gao",
+        "Lanqing Hong",
+        "Dan Xu"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/yangcaoai/SpatialSpeak-VLM",
+      "published": "2026-09-27T00:00:00.000Z"
+    },
+    {
+      "id": "2609.32862",
+      "title": "RoboFoundry: System-as-Policy Evolution for Self-Learning Embodied Agents",
+      "authors": [
+        "Jingsong Liang",
+        "Shuhao Liao",
+        "Shizhe Zhang",
+        "Diyuan Hou",
+        "Yuxin Cai",
+        "Xinjian Deng",
+        "Chengyang He",
+        "Wenhui Huang",
+        "Runjia Tan",
+        "Zhidong Wang",
+        "Lan Yu",
+        "Xuesong Tian",
+        "Guillaume Sartoretti",
+        "Jie Luo",
+        "Yao Mu",
+        "Wenjun Wu",
+        "Wanhua Li",
+        "Chen Lv"
+      ],
+      "upvotes": 26,
+      "github": null,
+      "published": "2026-09-26T00:00:00.000Z"
+    },
+    {
+      "id": "2609.35718",
+      "title": "Hard Vision, Easy Vision: What GPT-6 Astra Reveals Across Computer Vision",
+      "authors": [
+        "Hanoona Rasheed",
+        "Mohammed Irfan Kurpath",
+        "Bin Ren",
+        "Hisham Cholakkal",
+        "Fahad Shahbaz Khan",
+        "Salman Khan"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/mbzuai-oryx/frontier-vision",
+      "published": "2026-09-28T00:00:00.000Z"
+    },
+    {
+      "id": "2609.32814",
+      "title": "Change the Product, Keep the Parameters: Associative Algebra Layers for Transformers",
+      "authors": [
+        "Ilya Koziev",
+        "Ivan Oseledets"
+      ],
+      "upvotes": 22,
+      "github": null,
+      "published": "2026-09-26T00:00:00.000Z"
+    },
+    {
+      "id": "2609.34645",
+      "title": "Nereus: Adaptive Parallelism for LLM Post-Training",
+      "authors": [
+        "Songlin Jiang",
+        "Tuo Shi",
+        "Sitong Zhang",
+        "Zeke Wang",
+        "Mario Di Francesco",
+        "Bo Zhao"
+      ],
+      "upvotes": 20,
+      "github": null,
+      "published": "2026-09-28T00:00:00.000Z"
+    },
+    {
+      "id": "2609.34470",
+      "title": "Precise Editing and Flexible Referencing for Interactable Worlds",
+      "authors": [
+        "Xinyao Liao",
+        "Xianfang Zeng",
+        "Zhu Liang",
+        "Zhoujie Fu",
+        "Qianxun Xu",
+        "Jiachi Liu",
+        "Gang Yu",
+        "Guosheng Lin"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/leoisufa/EditWorld",
+      "published": "2026-09-28T00:00:00.000Z"
+    },
+    {
+      "id": "2609.33095",
+      "title": "REALM: A Coarse-to-Fine Generative Framework for Embodied Reactive Listening",
+      "authors": [
+        "Peizhen Li",
+        "Longbing Cao",
+        "Yang Zhang"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/lipzh5/REALM",
+      "published": "2026-09-27T00:00:00.000Z"
+    },
+    {
+      "id": "2609.35134",
+      "title": "VideoPhysEdit: Physical Counterfactual Video Editing via Rigid-Body Physical Scene Reconstruction",
+      "authors": [
+        "Conghan Yue",
+        "Yuanjie Chen",
+        "Yue Han",
+        "Ya Gao",
+        "Yunyan Xiao",
+        "WeiYao Zhang",
+        "Zhineng Chen"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/Hammour-steak/VideoPhysEdit",
+      "published": "2026-09-28T00:00:00.000Z"
+    },
+    {
+      "id": "2609.32630",
+      "title": "ExpVoyager: Direct Experience Navigation for Dynamic Agent Skill Synthesis",
+      "authors": [
+        "Kwangwook Seo",
+        "Dongha Lee"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/tommyEzreal/ExpVoyager",
+      "published": "2026-09-26T00:00:00.000Z"
+    },
+    {
+      "id": "2609.33382",
+      "title": "WideSWE: Can Coding Agents Coordinate Changes Across Repositories?",
+      "authors": [
+        "Baoyi Wang",
+        "Xingliang Wang",
+        "Jinyang Wu",
+        "Keming Wu",
+        "Chen Zhi",
+        "Jianwei Yin"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/ZJU-ACES-ISE/WideSWE",
+      "published": "2026-09-27T00:00:00.000Z"
+    },
+    {
+      "id": "2609.33419",
+      "title": "TT-VidT: Decoupling the Temporal Axis for Efficient Motion-Centric Video Pretraining",
+      "authors": [
+        "Shih-Ying Yeh",
+        "Daniel Z. Kaplan",
+        "Xuehai Wang",
+        "Fu-En Yang",
+        "Min-Hung Chen",
+        "Shang-Hong Lai"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/KohakuBlueleaf/TTVidT",
+      "published": "2026-09-27T00:00:00.000Z"
+    },
+    {
+      "id": "2609.33399",
+      "title": "SciGen-Verifier: A Multimodal Reasoner for Explainable Verification in Scientific Image Generation",
+      "authors": [
+        "Jiali Chen",
+        "Zhengteng Lin",
+        "Zuqi Wang",
+        "Shirong Lin",
+        "Xi Yu",
+        "Xusen Hei",
+        "DingBa Fu",
+        "Jiayuan Xie",
+        "Yi Cai"
+      ],
+      "upvotes": 19,
+      "github": null,
+      "published": "2026-09-27T00:00:00.000Z"
+    },
+    {
+      "id": "2609.32472",
+      "title": "AdaTutoRank: Learning to Rerank Document Sets via Adaptive Tutoring Optimization for RAG and Deep Research",
+      "authors": [
+        "Kailin Jiang",
+        "Lei Liu",
+        "Jian Xi",
+        "Yangqi Chen",
+        "Hui Xu",
+        "Hongwei Zhao",
+        "Bin Li",
+        "Yu Lu",
+        "Haibo Shi"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/AdaTutoRank/AdaTutoRank",
+      "published": "2026-09-26T00:00:00.000Z"
+    },
+    {
+      "id": "2609.33203",
+      "title": "Structured Residual Connectivity Matters for Diffusion Transformers",
+      "authors": [
+        "Yuhe Liu",
+        "Xinyin Ma",
+        "Gongfan Fang",
+        "Songhua Liu",
+        "Xinchao Wang"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2026-09-27T00:00:00.000Z"
+    },
+    {
+      "id": "2609.35504",
+      "title": "SolveEdit: Benchmarking Visual Problem Solving in Generative Models",
+      "authors": [
+        "Wenjie Shu",
+        "Yexin Liu",
+        "Harold Haodong Chen",
+        "Xuerui Qiu",
+        "Zehan Wang",
+        "Yidi Zhang",
+        "Yizhan Chen",
+        "Zunwei Wang",
+        "Minghao Liu",
+        "Qi Chen",
+        "Harry Yang",
+        "Xiaogang Xu"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/WenjieShu/SolveEdit",
+      "published": "2026-09-28T00:00:00.000Z"
+    },
+    {
+      "id": "2609.35261",
+      "title": "Imprint Reader: From Weight-Update Readout to Behavioral Intervention",
+      "authors": [
+        "Guanxu Chen",
+        "Qihao Lin",
+        "Jing Shao"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/biuboomc/SMaRT-Vibe-Alignment",
+      "published": "2026-09-28T00:00:00.000Z"
+    },
+    {
+      "id": "2609.33855",
+      "title": "Program-Verified Self-Evolution for Vision-Language Models",
+      "authors": [
+        "Ahmed Heakl",
+        "Sungik Choi",
+        "Moontae Lee",
+        "Salman Khan"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/ahmedheakl/VQS",
+      "published": "2026-09-27T00:00:00.000Z"
+    },
+    {
+      "id": "2609.32241",
+      "title": "Residual Transferability in Neural Image Watermarking",
+      "authors": [
+        "Ziping Dong",
+        "Qi Li",
+        "Xinchao Wang"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2026-09-26T00:00:00.000Z"
+    },
+    {
+      "id": "2609.35743",
+      "title": "InfiniHand: Streaming World-Space Hand Motion Estimation from Egocentric Video",
+      "authors": [
+        "Kerui Ren",
+        "Kaiwen Song",
+        "Weiguang Zhao",
+        "Yuxi Wang",
+        "Yufei Liu",
+        "Bo Dai",
+        "Haoyu Guo",
+        "Chunhua Shen",
+        "Mulin Yu",
+        "Tao Lu",
+        "Junting Dong"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/infinihand/InfiniHand",
+      "published": "2026-09-28T00:00:00.000Z"
+    }
+  ]
+}

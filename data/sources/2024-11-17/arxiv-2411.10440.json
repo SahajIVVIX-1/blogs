@@ -1,0 +1,26 @@
+{
+  "id": "2411.10440",
+  "title": "LLaVA-CoT: Let Vision Language Models Reason Step-by-Step",
+  "authors": [
+    "Guowei Xu",
+    "Peng Jin",
+    "Ziang Wu",
+    "Hao Li",
+    "Yibing Song",
+    "Lichao Sun",
+    "Li Yuan"
+  ],
+  "published": "2024-11-15T18:58:31Z",
+  "abstract": "Large language models have demonstrated substantial advancements in reasoning capabilities. However, current Vision-Language Models (VLMs) often struggle to perform systematic and structured reasoning, especially when handling complex visual question-answering tasks. In this work, we introduce LLaVA-CoT, a large VLM designed to conduct autonomous multistage reasoning. Unlike chain-of-thought prompting, LLaVA-CoT independently engages in sequential stages of summarization, visual interpretation, logical reasoning, and conclusion generation. This structured approach enables LLaVA-CoT to achieve marked improvements on reasoning-intensive tasks. To accomplish this, we construct the LLaVA-CoT-100k dataset, integrating samples from various visual question answering sources and providing structured reasoning annotations. Besides, we propose a test-time stage-wise retracing search method (SWIRES), which enables effective and efficient test-time scaling. Remarkably, with only 100k training samples and test-time scaling, LLaVA-CoT not only outperforms its base model by 9.4% on a wide range of multimodal reasoning benchmarks, but also surpasses the performance of larger and even closed-source models, such as Gemini-1.5-pro, GPT-4o-mini, and Llama-3.2-90B-Vision-Instruct. The code, dataset, and pre-trained weights are publicly available at https://github.com/PKU-YuanGroup/LLaVA-CoT.",
+  "categories": [
+    "cs.CV"
+  ],
+  "abs": "https://arxiv.org/abs/2411.10440",
+  "pdf": "https://arxiv.org/pdf/2411.10440v6",
+  "source_url": "https://export.arxiv.org/api/query?id_list=2411.10440",
+  "fetched_at": "2026-10-29T15:44:08.457Z",
+  "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  "reusable_figures": false,
+  "github": "https://github.com/PKU-YuanGroup/LLaVA-CoT",
+  "upvotes": 133
+}

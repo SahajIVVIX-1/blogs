@@ -1,0 +1,325 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-03-21",
+  "fetched_at": "2026-10-29T15:27:15.489Z",
+  "candidates": [
+    {
+      "id": "2403.13372",
+      "title": "LlamaFactory: Unified Efficient Fine-Tuning of 100+ Language Models",
+      "authors": [
+        "Yaowei Zheng",
+        "Richong Zhang",
+        "Junhao Zhang",
+        "Yanhan Ye",
+        "Zheyan Luo"
+      ],
+      "upvotes": 189,
+      "github": "https://github.com/hiyouga/LLaMA-Factory",
+      "published": "2024-03-20T08:08:54.000Z"
+    },
+    {
+      "id": "2403.13248",
+      "title": "Mora: Enabling Generalist Video Generation via A Multi-Agent Framework",
+      "authors": [
+        "Zhengqing Yuan",
+        "Ruoxi Chen",
+        "Zhaoxu Li",
+        "Haolong Jia",
+        "Lifang He",
+        "Chi Wang",
+        "Lichao Sun"
+      ],
+      "upvotes": 78,
+      "github": "https://github.com/lichao-sun/mora",
+      "published": "2024-03-20T02:19:21.000Z"
+    },
+    {
+      "id": "2403.13187",
+      "title": "Evolutionary Optimization of Model Merging Recipes",
+      "authors": [
+        "Takuya Akiba",
+        "Makoto Shing",
+        "Yujin Tang",
+        "Qi Sun",
+        "David Ha"
+      ],
+      "upvotes": 58,
+      "github": "https://github.com/sakanaai/evolutionary-model-merge",
+      "published": "2024-03-19T22:56:53.000Z"
+    },
+    {
+      "id": "2403.13064",
+      "title": "SceneScript: Reconstructing Scenes With An Autoregressive Structured Language Model",
+      "authors": [
+        "Armen Avetisyan",
+        "Christopher Xie",
+        "Henry Howard-Jenkins",
+        "Tsun-Yi Yang",
+        "Samir Aroudj",
+        "Suvam Patra",
+        "Fuyang Zhang",
+        "Duncan Frost",
+        "Luke Holland",
+        "Campbell Orme",
+        "Jakob Engel",
+        "Edward Miller",
+        "Richard Newcombe",
+        "Vasileios Balntas"
+      ],
+      "upvotes": 30,
+      "github": null,
+      "published": "2024-03-19T18:01:29.000Z"
+    },
+    {
+      "id": "2403.13043",
+      "title": "When Do We Not Need Larger Vision Models?",
+      "authors": [
+        "Baifeng Shi",
+        "Ziyang Wu",
+        "Maolin Mao",
+        "Xin Wang",
+        "Trevor Darrell"
+      ],
+      "upvotes": 26,
+      "github": "https://github.com/bfshi/scaling_on_scales",
+      "published": "2024-03-19T17:58:39.000Z"
+    },
+    {
+      "id": "2403.13535",
+      "title": "IDAdapter: Learning Mixed Features for Tuning-Free Personalization of Text-to-Image Models",
+      "authors": [
+        "Siying Cui",
+        "Jiankang Deng",
+        "Jia Guo",
+        "Xiang An",
+        "Yongle Zhao",
+        "Xinyu Wei",
+        "Ziyong Feng"
+      ],
+      "upvotes": 23,
+      "github": null,
+      "published": "2024-03-20T12:13:04.000Z"
+    },
+    {
+      "id": "2403.13787",
+      "title": "RewardBench: Evaluating Reward Models for Language Modeling",
+      "authors": [
+        "Nathan Lambert",
+        "Valentina Pyatkin",
+        "Jacob Morrison",
+        "LJ Miranda",
+        "Bill Yuchen Lin",
+        "Khyathi Chandu",
+        "Nouha Dziri",
+        "Sachin Kumar",
+        "Tom Zick",
+        "Yejin Choi",
+        "Noah A. Smith",
+        "Hannaneh Hajishirzi"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/allenai/reward-bench",
+      "published": "2024-03-20T17:49:54.000Z"
+    },
+    {
+      "id": "2403.13447",
+      "title": "HyperLLaVA: Dynamic Visual and Language Expert Tuning for Multimodal Large Language Models",
+      "authors": [
+        "Wenqiao Zhang",
+        "Tianwei Lin",
+        "Jiang Liu",
+        "Fangxun Shu",
+        "Haoyuan Li",
+        "Lei Zhang",
+        "He Wanggui",
+        "Hao Zhou",
+        "Zheqi Lv",
+        "Hao Jiang",
+        "Juncheng Li",
+        "Siliang Tang",
+        "Yueting Zhuang"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/dcdmllm/hyperllava",
+      "published": "2024-03-20T09:42:43.000Z"
+    },
+    {
+      "id": "2403.13806",
+      "title": "RadSplat: Radiance Field-Informed Gaussian Splatting for Robust Real-Time Rendering with 900+ FPS",
+      "authors": [
+        "Michael Niemeyer",
+        "Fabian Manhardt",
+        "Marie-Julie Rakotosaona",
+        "Michael Oechsle",
+        "Daniel Duckworth",
+        "Rama Gosula",
+        "Keisuke Tateno",
+        "John Bates",
+        "Dominik Kaeser",
+        "Federico Tombari"
+      ],
+      "upvotes": 19,
+      "github": null,
+      "published": "2024-03-20T17:59:55.000Z"
+    },
+    {
+      "id": "2403.13788",
+      "title": "DepthFM: Fast Monocular Depth Estimation with Flow Matching",
+      "authors": [
+        "Ming Gui",
+        "Johannes S. Fischer",
+        "Ulrich Prestel",
+        "Pingchuan Ma",
+        "Dmytro Kotovenko",
+        "Olga Grebenkova",
+        "Stefan Andreas Baumann",
+        "Vincent Tao Hu",
+        "Björn Ommer"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/CompVis/depth-fm",
+      "published": "2024-03-20T17:51:53.000Z"
+    },
+    {
+      "id": "2403.13802",
+      "title": "ZigMa: Zigzag Mamba Diffusion Model",
+      "authors": [
+        "Vincent Tao Hu",
+        "Stefan Andreas Baumann",
+        "Ming Gui",
+        "Olga Grebenkova",
+        "Pingchuan Ma",
+        "Johannes Fischer",
+        "Bjorn Ommer"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/CompVis/zigma",
+      "published": "2024-03-20T17:59:14.000Z"
+    },
+    {
+      "id": "2403.13044",
+      "title": "Magic Fixup: Streamlining Photo Editing by Watching Dynamic Videos",
+      "authors": [
+        "Hadi Alzayer",
+        "Zhihao Xia",
+        "Xuaner Zhang",
+        "Eli Shechtman",
+        "Jia-Bin Huang",
+        "Michael Gharbi"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2024-03-19T17:59:58.000Z"
+    },
+    {
+      "id": "2403.13799",
+      "title": "Reverse Training to Nurse the Reversal Curse",
+      "authors": [
+        "Olga Golovneva",
+        "Zeyuan Allen-Zhu",
+        "Jason Weston",
+        "Sainbayar Sukhbaatar"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2024-03-20T17:55:35.000Z"
+    },
+    {
+      "id": "2403.13745",
+      "title": "Be-Your-Outpainter: Mastering Video Outpainting through Input-Specific Adaptation",
+      "authors": [
+        "Fu-Yun Wang",
+        "Xiaoshi Wu",
+        "Zhaoyang Huang",
+        "Xiaoyu Shi",
+        "Dazhong Shen",
+        "Guanglu Song",
+        "Yu Liu",
+        "Hongsheng Li"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/g-u-n/be-your-outpainter",
+      "published": "2024-03-20T16:53:45.000Z"
+    },
+    {
+      "id": "2403.13501",
+      "title": "VSTAR: Generative Temporal Nursing for Longer Dynamic Video Synthesis",
+      "authors": [
+        "Yumeng Li",
+        "William Beluch",
+        "Margret Keuper",
+        "Dan Zhang",
+        "Anna Khoreva"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/boschresearch/VSTAR",
+      "published": "2024-03-20T10:58:58.000Z"
+    },
+    {
+      "id": "2403.13524",
+      "title": "Compress3D: a Compressed Latent Space for 3D Generation from a Single Image",
+      "authors": [
+        "Bowen Zhang",
+        "Tianyu Yang",
+        "Yu Li",
+        "Lei Zhang",
+        "Xi Zhao"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2024-03-20T11:51:04.000Z"
+    },
+    {
+      "id": "2401.13923",
+      "title": "Towards 3D Molecule-Text Interpretation in Language Models",
+      "authors": [
+        "Sihang Li",
+        "Zhiyuan Liu",
+        "Yanchen Luo",
+        "Xiang Wang",
+        "Xiangnan He",
+        "Kenji Kawaguchi",
+        "Tat-Seng Chua",
+        "Qi Tian"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/lsh0520/3d-molm",
+      "published": "2024-01-25T03:42:00.000Z"
+    },
+    {
+      "id": "2403.13793",
+      "title": "Evaluating Frontier Models for Dangerous Capabilities",
+      "authors": [
+        "Mary Phuong",
+        "Matthew Aitchison",
+        "Elliot Catt",
+        "Sarah Cogan",
+        "Alexandre Kaskasoli",
+        "Victoria Krakovna",
+        "David Lindner",
+        "Matthew Rahtz",
+        "Yannis Assael",
+        "Sarah Hodkinson",
+        "Heidi Howard",
+        "Tom Lieberum",
+        "Ramana Kumar",
+        "Maria Abi Raad",
+        "Albert Webson",
+        "Lewis Ho",
+        "Sharon Lin",
+        "Sebastian Farquhar",
+        "Marcus Hutter",
+        "Gregoire Deletang",
+        "Anian Ruoss",
+        "Seliem El-Sayed",
+        "Sasha Brown",
+        "Anca Dragan",
+        "Rohin Shah",
+        "Allan Dafoe",
+        "Toby Shevlane"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/google-deepmind/dangerous-capability-evaluations",
+      "published": "2024-03-20T17:54:26.000Z"
+    }
+  ]
+}

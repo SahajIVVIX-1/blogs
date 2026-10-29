@@ -1,0 +1,248 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-09-17",
+  "fetched_at": "2026-10-29T15:29:05.321Z",
+  "candidates": [
+    {
+      "id": "2409.09214",
+      "title": "Seed-Music: A Unified Framework for High Quality and Controlled Music Generation",
+      "authors": [
+        "Ye Bai",
+        "Haonan Chen",
+        "Jitong Chen",
+        "Zhuo Chen",
+        "Yi Deng",
+        "Xiaohong Dong",
+        "Lamtharn Hantrakul",
+        "Weituo Hao",
+        "Qingqing Huang",
+        "Zhongyi Huang",
+        "Dongya Jia",
+        "Feihu La",
+        "Duc Le",
+        "Bochen Li",
+        "Chumin Li",
+        "Hui Li",
+        "Xingxing Li",
+        "Shouda Liu",
+        "Wei-Tsung Lu",
+        "Yiqing Lu",
+        "Andrew Shaw",
+        "Janne Spijkervet",
+        "Yakun Sun",
+        "Bo Wang",
+        "Ju-Chiang Wang",
+        "Yuping Wang",
+        "Yuxuan Wang",
+        "Ling Xu",
+        "Yifeng Yang",
+        "Chao Yao",
+        "Shuo Zhang",
+        "Yang Zhang",
+        "Yilin Zhang",
+        "Hang Zhao",
+        "Ziyi Zhao",
+        "Dejian Zhong",
+        "Shicen Zhou",
+        "Pei Zou"
+      ],
+      "upvotes": 54,
+      "github": null,
+      "published": "2024-09-13T22:06:18.000Z"
+    },
+    {
+      "id": "2409.10594",
+      "title": "Kolmogorov-Arnold Transformer",
+      "authors": [
+        "Xingyi Yang",
+        "Xinchao Wang"
+      ],
+      "upvotes": 45,
+      "github": "https://github.com/Adamdad/kat",
+      "published": "2024-09-16T17:54:51.000Z"
+    },
+    {
+      "id": "2409.10516",
+      "title": "RetrievalAttention: Accelerating Long-Context LLM Inference via Vector Retrieval",
+      "authors": [
+        "Di Liu",
+        "Meng Chen",
+        "Baotong Lu",
+        "Huiqiang Jiang",
+        "Zhenhua Han",
+        "Qianxi Zhang",
+        "Qi Chen",
+        "Chengruidong Zhang",
+        "Bailu Ding",
+        "Kai Zhang",
+        "Chen Chen",
+        "Fan Yang",
+        "Yuqing Yang",
+        "Lili Qiu"
+      ],
+      "upvotes": 43,
+      "github": null,
+      "published": "2024-09-16T17:59:52.000Z"
+    },
+    {
+      "id": "2409.10173",
+      "title": "jina-embeddings-v3: Multilingual Embeddings With Task LoRA",
+      "authors": [
+        "Saba Sturua",
+        "Isabelle Mohr",
+        "Mohammad Kalim Akram",
+        "Michael Günther",
+        "Bo Wang",
+        "Markus Krimmel",
+        "Feng Wang",
+        "Georgios Mastrapas",
+        "Andreas Koukounas",
+        "Andreas Koukounas",
+        "Nan Wang",
+        "Han Xiao"
+      ],
+      "upvotes": 35,
+      "github": null,
+      "published": "2024-09-16T11:10:29.000Z"
+    },
+    {
+      "id": "2409.09502",
+      "title": "One missing piece in Vision and Language: A Survey on Comics Understanding",
+      "authors": [
+        "Emanuele Vivoli",
+        "Andrey Barsky",
+        "Mohamed Ali Souibgui",
+        "Artemis LLabres",
+        "Marco Bertini",
+        "Dimosthenis Karatzas"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/emanuelevivoli/awesome-comics-understanding",
+      "published": "2024-09-14T18:26:26.000Z"
+    },
+    {
+      "id": "2409.06277",
+      "title": "Ferret: Federated Full-Parameter Tuning at Scale for Large Language Models",
+      "authors": [
+        "Yao Shu",
+        "Wenyang Hu",
+        "See-Kiong Ng",
+        "Bryan Kian Hsiang Low",
+        "Fei Richard Yu"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/allen4747/Ferret",
+      "published": "2024-09-10T07:28:13.000Z"
+    },
+    {
+      "id": "2409.10038",
+      "title": "On the Diagram of Thought",
+      "authors": [
+        "Yifan Zhang",
+        "Yang Yuan",
+        "Andrew Chi-Chih Yao"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/diagram-of-thought/diagram-of-thought",
+      "published": "2024-09-16T07:01:41.000Z"
+    },
+    {
+      "id": "2409.09213",
+      "title": "ReCLAP: Improving Zero Shot Audio Classification by Describing Sounds",
+      "authors": [
+        "Sreyan Ghosh",
+        "Sonal Kumar",
+        "Chandra Kiran Reddy Evuru",
+        "Oriol Nieto",
+        "Ramani Duraiswami",
+        "Dinesh Manocha"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/sreyan88/reclap",
+      "published": "2024-09-13T21:58:20.000Z"
+    },
+    {
+      "id": "2409.06957",
+      "title": "Policy Filtration in RLHF to Fine-Tune LLM for Code Generation",
+      "authors": [
+        "Wei Shen",
+        "Chuheng Zhang"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/swtheing/pf-ppo-rlhf",
+      "published": "2024-09-11T02:40:38.000Z"
+    },
+    {
+      "id": "2409.09269",
+      "title": "Guiding Vision-Language Model Selection for Visual Question-Answering Across Tasks, Domains, and Knowledge Types",
+      "authors": [
+        "Neelabh Sinha",
+        "Vinija Jain",
+        "Aman Chadha"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/neelabhsinha/vlm-selection-tasks-domains-knowledge-type",
+      "published": "2024-09-14T02:29:36.000Z"
+    },
+    {
+      "id": "2409.08831",
+      "title": "Breaking reCAPTCHAv2",
+      "authors": [
+        "Andreas Plesner",
+        "Tobias Vontobel",
+        "Roger Wattenhofer"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/aplesner/Breaking-reCAPTCHAv2",
+      "published": "2024-09-13T13:47:12.000Z"
+    },
+    {
+      "id": "2409.07012",
+      "title": "Towards Predicting Temporal Changes in a Patient's Chest X-ray Images based on Electronic Health Records",
+      "authors": [
+        "Daeun Kyung",
+        "Junu Kim",
+        "Tackeun Kim",
+        "Edward Choi"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/dek924/EHRXDiff",
+      "published": "2024-09-11T04:49:44.000Z"
+    },
+    {
+      "id": "2409.08199",
+      "title": "AudioBERT: Audio Knowledge Augmented Language Model",
+      "authors": [
+        "Hyunjong Ok",
+        "Suho Yoo",
+        "Jaeho Lee"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/hj-ok/audiobert",
+      "published": "2024-09-12T16:36:39.000Z"
+    },
+    {
+      "id": "2409.10309",
+      "title": "beeFormer: Bridging the Gap Between Semantic and Interaction Similarity in Recommender Systems",
+      "authors": [
+        "Vojtěch Vančura",
+        "Pavel Kordík",
+        "Milan Straka"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/recombee/beeformer",
+      "published": "2024-09-16T14:15:42.000Z"
+    },
+    {
+      "id": "2409.08554",
+      "title": "LLM-Powered Grapheme-to-Phoneme Conversion: Benchmark and Case Study",
+      "authors": [
+        "Mahta Fetrat Qharabagh",
+        "Zahra Dehghanian",
+        "Hamid R. Rabiee"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2024-09-13T06:13:55.000Z"
+    }
+  ]
+}

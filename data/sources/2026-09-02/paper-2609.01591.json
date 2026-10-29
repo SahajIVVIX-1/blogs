@@ -1,0 +1,7 @@
+{
+  "id": "2609.01591",
+  "html": "https://arxiv.org/html/2609.01591",
+  "limitations": null,
+  "conclusion": "StudentSim is a training framework for per-student AI student simulation built around two requirements that must hold together: behavioral fidelity ( [math] ), how well a simulator matches a student’s own responses, and guidance responsiveness ( [math] ), how reliably it updates towards where the tutor guidance leads. To measure both abilities on a common footing, StudentSimEval casts public learner corpora for research across chess, second-language English writing, and mathematics into a standardized per-student protocol on which any simulator, from our framework or a prior family, is fit and scored on the same held-out records. Under this protocol, StudentSim ’s two-stage pooled-then-specialized pipeline yields a reference family of [math] individualized simulators that are strong on both axes across all three domains, outperforming domain-specific state-tracking (weak on [math] ) and ",
+  "figure": null
+}

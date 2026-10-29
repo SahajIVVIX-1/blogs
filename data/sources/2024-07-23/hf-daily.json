@@ -1,0 +1,453 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-07-23",
+  "fetched_at": "2026-10-29T15:28:31.179Z",
+  "candidates": [
+    {
+      "id": "2407.15841",
+      "title": "SlowFast-LLaVA: A Strong Training-Free Baseline for Video Large Language Models",
+      "authors": [
+        "Mingze Xu",
+        "Mingfei Gao",
+        "Zhe Gan",
+        "Hong-You Chen",
+        "Zhengfeng Lai",
+        "Haiming Gang",
+        "Kai Kang",
+        "Afshin Dehghan"
+      ],
+      "upvotes": 39,
+      "github": "https://github.com/apple/ml-slowfast-llava",
+      "published": "2024-07-22T17:58:04.000Z"
+    },
+    {
+      "id": "2407.14679",
+      "title": "Compact Language Models via Pruning and Knowledge Distillation",
+      "authors": [
+        "Saurav Muralidharan",
+        "Sharath Turuvekere Sreenivas",
+        "Raviraj Joshi",
+        "Marcin Chochowski",
+        "Mostofa Patwary",
+        "Mohammad Shoeybi",
+        "Bryan Catanzaro",
+        "Jan Kautz",
+        "Pavlo Molchanov"
+      ],
+      "upvotes": 37,
+      "github": "https://github.com/nvlabs/minitron",
+      "published": "2024-07-19T21:47:57.000Z"
+    },
+    {
+      "id": "2407.14561",
+      "title": "NNsight and NDIF: Democratizing Access to Foundation Model Internals",
+      "authors": [
+        "Jaden Fiotto-Kaufman",
+        "Alexander R Loftus",
+        "Eric Todd",
+        "Jannik Brinkmann",
+        "Caden Juang",
+        "Koyena Pal",
+        "Can Rager",
+        "Aaron Mueller",
+        "Samuel Marks",
+        "Arnab Sen Sharma",
+        "Francesca Lucchetti",
+        "Michael Ripa",
+        "Adam Belfki",
+        "Nikhil Prakash",
+        "Sumeet Multani",
+        "Carla Brodley",
+        "Arjun Guha",
+        "Jonathan Bell",
+        "Byron Wallace",
+        "David Bau"
+      ],
+      "upvotes": 35,
+      "github": "https://github.com/ndif-team/nnsight",
+      "published": "2024-07-18T17:59:01.000Z"
+    },
+    {
+      "id": "2407.15017",
+      "title": "Knowledge Mechanisms in Large Language Models: A Survey and Perspective",
+      "authors": [
+        "Mengru Wang",
+        "Yunzhi Yao",
+        "Ziwen Xu",
+        "Shuofei Qiao",
+        "Shumin Deng",
+        "Peng Wang",
+        "Xiang Chen",
+        "Jia-Chen Gu",
+        "Yong Jiang",
+        "Pengjun Xie",
+        "Fei Huang",
+        "Huajun Chen",
+        "Ningyu Zhang"
+      ],
+      "upvotes": 34,
+      "github": null,
+      "published": "2024-07-22T06:15:59.000Z"
+    },
+    {
+      "id": "2407.15295",
+      "title": "VideoGameBunny: Towards vision assistants for video games",
+      "authors": [
+        "Mohammad Reza Taesiri",
+        "Cor-Paul Bezemer"
+      ],
+      "upvotes": 24,
+      "github": null,
+      "published": "2024-07-21T23:31:57.000Z"
+    },
+    {
+      "id": "2407.14931",
+      "title": "POGEMA: A Benchmark Platform for Cooperative Multi-Agent Navigation",
+      "authors": [
+        "Alexey Skrynnik",
+        "Anton Andreychuk",
+        "Anatolii Borzilov",
+        "Alexander Chernyavskiy",
+        "Konstantin Yakovlev",
+        "Aleksandr Panov"
+      ],
+      "upvotes": 22,
+      "github": null,
+      "published": "2024-07-20T16:37:21.000Z"
+    },
+    {
+      "id": "2407.15754",
+      "title": "LongVideoBench: A Benchmark for Long-context Interleaved Video-Language Understanding",
+      "authors": [
+        "Haoning Wu",
+        "Dongxu Li",
+        "Bei Chen",
+        "Junnan Li"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/longvideobench/longvideobench",
+      "published": "2024-07-22T16:00:55.000Z"
+    },
+    {
+      "id": "2407.14622",
+      "title": "BOND: Aligning LLMs with Best-of-N Distillation",
+      "authors": [
+        "Pier Giuseppe Sessa",
+        "Robert Dadashi",
+        "Léonard Hussenot",
+        "Johan Ferret",
+        "Nino Vieillard",
+        "Alexandre Ramé",
+        "Bobak Shariari",
+        "Sarah Perrin",
+        "Abe Friesen",
+        "Geoffrey Cideron",
+        "Sertan Girgin",
+        "Piotr Stanczyk",
+        "Andrea Michi",
+        "Danila Sinopalnikov",
+        "Sabela Ramos",
+        "Amélie Héliou",
+        "Aliaksei Severyn",
+        "Matt Hoffman",
+        "Nikola Momchev",
+        "Olivier Bachem"
+      ],
+      "upvotes": 19,
+      "github": null,
+      "published": "2024-07-19T18:38:25.000Z"
+    },
+    {
+      "id": "2407.15848",
+      "title": "BoostMVSNeRFs: Boosting MVS-based NeRFs to Generalizable View Synthesis in Large-scale Scenes",
+      "authors": [
+        "Chih-Hai Su",
+        "Chih-Yao Hu",
+        "Shr-Ruei Tsai",
+        "Jie-Ying Lee",
+        "Chin-Yang Lin",
+        "Yu-Lun Liu"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2024-07-22T17:59:46.000Z"
+    },
+    {
+      "id": "2407.15595",
+      "title": "Discrete Flow Matching",
+      "authors": [
+        "Itai Gat",
+        "Tal Remez",
+        "Neta Shaul",
+        "Felix Kreuk",
+        "Ricky T. Q. Chen",
+        "Gabriel Synnaeve",
+        "Yossi Adi",
+        "Yaron Lipman"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2024-07-22T12:33:27.000Z"
+    },
+    {
+      "id": "2407.15842",
+      "title": "Artist: Aesthetically Controllable Text-Driven Stylization without Training",
+      "authors": [
+        "Ruixiang Jiang",
+        "Changwen Chen"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/songrise/Artist",
+      "published": "2024-07-22T17:58:05.000Z"
+    },
+    {
+      "id": "2407.14933",
+      "title": "Consent in Crisis: The Rapid Decline of the AI Data Commons",
+      "authors": [
+        "Shayne Longpre",
+        "Robert Mahari",
+        "Ariel Lee",
+        "Campbell Lund",
+        "Hamidah Oderinwale",
+        "William Brannon",
+        "Nayan Saxena",
+        "Naana Obeng-Marnu",
+        "Tobin South",
+        "Cole Hunter",
+        "Kevin Klyman",
+        "Christopher Klamm",
+        "Hailey Schoelkopf",
+        "Nikhil Singh",
+        "Manuel Cherep",
+        "Ahmad Anis",
+        "An Dinh",
+        "Caroline Chitongo",
+        "Da Yin",
+        "Damien Sileo",
+        "Deividas Mataciunas",
+        "Diganta Misra",
+        "Emad Alghamdi",
+        "Enrico Shippole",
+        "Jianguo Zhang",
+        "Joanna Materzynska",
+        "Kun Qian",
+        "Kush Tiwary",
+        "Lester Miranda",
+        "Manan Dey",
+        "Minnie Liang",
+        "Mohammed Hamdy",
+        "Niklas Muennighoff",
+        "Seonghyeon Ye",
+        "Seungone Kim",
+        "Shrestha Mohanty",
+        "Vipul Gupta",
+        "Vivek Sharma",
+        "Vu Minh Chien",
+        "Xuhui Zhou",
+        "Yizhi Li",
+        "Caiming Xiong",
+        "Luis Villa",
+        "Stella Biderman",
+        "Hanlin Li",
+        "Daphne Ippolito",
+        "Sara Hooker",
+        "Jad Kabbara",
+        "Sandy Pentland"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2024-07-20T16:50:18.000Z"
+    },
+    {
+      "id": "2407.15187",
+      "title": "HoloDreamer: Holistic 3D Panoramic World Generation from Text Descriptions",
+      "authors": [
+        "Haiyang Zhou",
+        "Xinhua Cheng",
+        "Wangbo Yu",
+        "Yonghong Tian",
+        "Li Yuan"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/zhouhyOcean/HoloDreamer",
+      "published": "2024-07-21T14:52:51.000Z"
+    },
+    {
+      "id": "2407.15642",
+      "title": "Cinemo: Consistent and Controllable Image Animation with Motion Diffusion Models",
+      "authors": [
+        "Xin Ma",
+        "Yaohui Wang",
+        "Gengyu Jia",
+        "Xinyuan Chen",
+        "Yuan-Fang Li",
+        "Cunjian Chen",
+        "Yu Qiao"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/maxin-cn/Cinemo",
+      "published": "2024-07-22T14:00:03.000Z"
+    },
+    {
+      "id": "2407.15762",
+      "title": "Conditioned Language Policy: A General Framework for Steerable Multi-Objective Finetuning",
+      "authors": [
+        "Kaiwen Wang",
+        "Rahul Kidambi",
+        "Ryan Sullivan",
+        "Alekh Agarwal",
+        "Christoph Dann",
+        "Andrea Michi",
+        "Marco Gelmi",
+        "Yunxuan Li",
+        "Raghav Gupta",
+        "Avinava Dubey",
+        "Alexandre Ramé",
+        "Johan Ferret",
+        "Geoffrey Cideron",
+        "Le Hou",
+        "Hongkun Yu",
+        "Amr Ahmed",
+        "Aranyak Mehta",
+        "Léonard Hussenot",
+        "Olivier Bachem",
+        "Edouard Leurent"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2024-07-22T16:13:38.000Z"
+    },
+    {
+      "id": "2407.15272",
+      "title": "MIBench: Evaluating Multimodal Large Language Models over Multiple Images",
+      "authors": [
+        "Haowei Liu",
+        "Xi Zhang",
+        "Haiyang Xu",
+        "Yaya Shi",
+        "Chaoya Jiang",
+        "Ming Yan",
+        "Ji Zhang",
+        "Fei Huang",
+        "Chunfeng Yuan",
+        "Bing Li",
+        "Weiming Hu"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2024-07-21T21:22:58.000Z"
+    },
+    {
+      "id": "2407.15060",
+      "title": "MusiConGen: Rhythm and Chord Control for Transformer-Based Text-to-Music Generation",
+      "authors": [
+        "Yun-Han Lan",
+        "Wen-Yi Hsiao",
+        "Hao-Chung Cheng",
+        "Yi-Hsuan Yang"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/Cyan0731/MusiConGen",
+      "published": "2024-07-21T05:27:53.000Z"
+    },
+    {
+      "id": "2407.15711",
+      "title": "AssistantBench: Can Web Agents Solve Realistic and Time-Consuming Tasks?",
+      "authors": [
+        "Ori Yoran",
+        "Samuel Joseph Amouyal",
+        "Chaitanya Malaviya",
+        "Ben Bogin",
+        "Ofir Press",
+        "Jonathan Berant"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2024-07-22T15:18:45.000Z"
+    },
+    {
+      "id": "2407.15233",
+      "title": "CGB-DM: Content and Graphic Balance Layout Generation with Transformer-based Diffusion Model",
+      "authors": [
+        "Yu Li",
+        "Yifan Chen",
+        "Gongye Liu",
+        "Jie Wu",
+        "Yujiu Yang"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2024-07-21T17:58:21.000Z"
+    },
+    {
+      "id": "2407.15420",
+      "title": "Local All-Pair Correspondence for Point Tracking",
+      "authors": [
+        "Seokju Cho",
+        "Jiahui Huang",
+        "Jisu Nam",
+        "Honggyu An",
+        "Seungryong Kim",
+        "Joon-Young Lee"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/ku-cvlab/locotrack",
+      "published": "2024-07-22T06:49:56.000Z"
+    },
+    {
+      "id": "2407.15337",
+      "title": "ThermalNeRF: Thermal Radiance Fields",
+      "authors": [
+        "Yvette Y. Lin",
+        "Xin-Yi Pan",
+        "Sara Fridovich-Keil",
+        "Gordon Wetzstein"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2024-07-22T02:51:29.000Z"
+    },
+    {
+      "id": "2407.14958",
+      "title": "Temporal Residual Jacobians For Rig-free Motion Transfer",
+      "authors": [
+        "Sanjeev Muralikrishnan",
+        "Niladri Shekhar Dutt",
+        "Siddhartha Chaudhuri",
+        "Noam Aigerman",
+        "Vladimir Kim",
+        "Matthew Fisher",
+        "Niloy J. Mitra"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2024-07-20T18:29:22.000Z"
+    },
+    {
+      "id": "2407.15002",
+      "title": "GET-Zero: Graph Embodiment Transformer for Zero-shot Embodiment Generalization",
+      "authors": [
+        "Austin Patel",
+        "Shuran Song"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/real-stanford/get_zero",
+      "published": "2024-07-20T22:39:12.000Z"
+    },
+    {
+      "id": "2407.13766",
+      "title": "Visual Haystacks: Answering Harder Questions About Sets of Images",
+      "authors": [
+        "Tsung-Han Wu",
+        "Giscard Biamby",
+        "Jerome Quenum",
+        "Ritwik Gupta",
+        "Joseph E. Gonzalez",
+        "Trevor Darrell",
+        "David M. Chan"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/visual-haystacks/vhs_benchmark",
+      "published": "2024-07-18T17:59:30.000Z"
+    }
+  ]
+}

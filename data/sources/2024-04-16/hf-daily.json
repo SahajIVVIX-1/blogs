@@ -1,0 +1,189 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-04-16",
+  "fetched_at": "2026-10-29T15:27:31.268Z",
+  "candidates": [
+    {
+      "id": "2404.09656",
+      "title": "Learn Your Reference Model for Real Good Alignment",
+      "authors": [
+        "Alexey Gorbatovski",
+        "Boris Shaposhnikov",
+        "Alexey Malakhov",
+        "Nikita Surnachev",
+        "Yaroslav Aksenov",
+        "Ian Maksimov",
+        "Nikita Balagansky",
+        "Daniil Gavrilov"
+      ],
+      "upvotes": 91,
+      "github": null,
+      "published": "2024-04-15T10:44:31.000Z"
+    },
+    {
+      "id": "2404.08801",
+      "title": "Megalodon: Efficient LLM Pretraining and Inference with Unlimited Context Length",
+      "authors": [
+        "Xuezhe Ma",
+        "Xiaomeng Yang",
+        "Wenhan Xiong",
+        "Beidi Chen",
+        "Lili Yu",
+        "Hao Zhang",
+        "Jonathan May",
+        "Luke Zettlemoyer",
+        "Omer Levy",
+        "Chunting Zhou"
+      ],
+      "upvotes": 66,
+      "github": "https://github.com/xuezhemax/megalodon",
+      "published": "2024-04-12T20:28:14.000Z"
+    },
+    {
+      "id": "2404.09173",
+      "title": "TransformerFAM: Feedback attention is working memory",
+      "authors": [
+        "Dongseong Hwang",
+        "Weiran Wang",
+        "Zhuoyuan Huo",
+        "Khe Chai Sim",
+        "Pedro Moreno Mengibar"
+      ],
+      "upvotes": 43,
+      "github": null,
+      "published": "2024-04-14T07:43:45.000Z"
+    },
+    {
+      "id": "2404.09833",
+      "title": "Video2Game: Real-time, Interactive, Realistic and Browser-Compatible Environment from a Single Video",
+      "authors": [
+        "Hongchi Xia",
+        "Zhi-Hao Lin",
+        "Wei-Chiu Ma",
+        "Shenlong Wang"
+      ],
+      "upvotes": 30,
+      "github": null,
+      "published": "2024-04-15T14:32:32.000Z"
+    },
+    {
+      "id": "2404.09937",
+      "title": "Compression Represents Intelligence Linearly",
+      "authors": [
+        "Yuzhen Huang",
+        "Jinghan Zhang",
+        "Zifei Shan",
+        "Junxian He"
+      ],
+      "upvotes": 28,
+      "github": "https://github.com/hkust-nlp/llm-compression-intelligence",
+      "published": "2024-04-15T17:03:41.000Z"
+    },
+    {
+      "id": "2404.09967",
+      "title": "Ctrl-Adapter: An Efficient and Versatile Framework for Adapting Diverse Controls to Any Diffusion Model",
+      "authors": [
+        "Han Lin",
+        "Jaemin Cho",
+        "Abhay Zala",
+        "Mohit Bansal"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/HL-hanlin/Ctrl-Adapter",
+      "published": "2024-04-15T17:45:36.000Z"
+    },
+    {
+      "id": "2404.09990",
+      "title": "HQ-Edit: A High-Quality Dataset for Instruction-based Image Editing",
+      "authors": [
+        "Mude Hui",
+        "Siwei Yang",
+        "Bingchen Zhao",
+        "Yichun Shi",
+        "Heng Wang",
+        "Peng Wang",
+        "Yuyin Zhou",
+        "Cihang Xie"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/UCSC-VLAA/HQ-Edit",
+      "published": "2024-04-15T17:59:31.000Z"
+    },
+    {
+      "id": "2404.08856",
+      "title": "On Speculative Decoding for Multimodal Large Language Models",
+      "authors": [
+        "Mukul Gagrani",
+        "Raghavv Goel",
+        "Wonseok Jeon",
+        "Junyoung Park",
+        "Mingu Lee",
+        "Christopher Lott"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2024-04-13T00:02:36.000Z"
+    },
+    {
+      "id": "2404.09204",
+      "title": "TextHawk: Exploring Efficient Fine-Grained Perception of Multimodal Large Language Models",
+      "authors": [
+        "Ya-Qi Yu",
+        "Minghui Liao",
+        "Jihao Wu",
+        "Yongxin Liao",
+        "Xiaoyu Zheng",
+        "Wei Zeng"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/yuyq96/texthawk",
+      "published": "2024-04-14T09:48:37.000Z"
+    },
+    {
+      "id": "2404.09956",
+      "title": "Tango 2: Aligning Diffusion-based Text-to-Audio Generations through Direct Preference Optimization",
+      "authors": [
+        "Navonil Majumder",
+        "Chia-Yu Hung",
+        "Deepanway Ghosal",
+        "Wei-Ning Hsu",
+        "Rada Mihalcea",
+        "Soujanya Poria"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/declare-lab/tango",
+      "published": "2024-04-15T17:31:22.000Z"
+    },
+    {
+      "id": "2404.09458",
+      "title": "CompGS: Efficient 3D Scene Representation via Compressed Gaussian Splatting",
+      "authors": [
+        "Xiangrui Liu",
+        "Xinju Wu",
+        "Pingping Zhang",
+        "Shiqi Wang",
+        "Zhu Li",
+        "Sam Kwong"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2024-04-15T04:50:39.000Z"
+    },
+    {
+      "id": "2404.09995",
+      "title": "Taming Latent Diffusion Model for Neural Radiance Field Inpainting",
+      "authors": [
+        "Chieh Hubert Lin",
+        "Changil Kim",
+        "Jia-Bin Huang",
+        "Qinbo Li",
+        "Chih-Yao Ma",
+        "Johannes Kopf",
+        "Ming-Hsuan Yang",
+        "Hung-Yu Tseng"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2024-04-15T17:59:57.000Z"
+    }
+  ]
+}

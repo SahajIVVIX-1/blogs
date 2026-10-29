@@ -1,0 +1,392 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-03-26",
+  "fetched_at": "2026-10-29T15:35:07.359Z",
+  "candidates": [
+    {
+      "id": "2603.24440",
+      "title": "CUA-Suite: Massive Human-annotated Video Demonstrations for Computer-Use Agents",
+      "authors": [
+        "Xiangru Jian",
+        "Shravan Nayak",
+        "Kevin Qinghong Lin",
+        "Aarash Feizi",
+        "Kaixin Li",
+        "Patrice Bechard",
+        "Spandana Gella",
+        "Sai Rajeswar"
+      ],
+      "upvotes": 97,
+      "github": null,
+      "published": "2026-03-25T15:52:56.000Z"
+    },
+    {
+      "id": "2603.24472",
+      "title": "Why Does Self-Distillation (Sometimes) Degrade the Reasoning Capability of LLMs?",
+      "authors": [
+        "Jeonghye Kim",
+        "Xufang Luo",
+        "Minbeom Kim",
+        "Sangmook Lee",
+        "Dohyung Kim",
+        "Jiwon Jeon",
+        "Dongsheng Li",
+        "Yuqing Yang"
+      ],
+      "upvotes": 57,
+      "github": "https://github.com/beanie00/self-distillation-analysis",
+      "published": "2026-03-25T16:14:52.000Z"
+    },
+    {
+      "id": "2603.24533",
+      "title": "UI-Voyager: A Self-Evolving GUI Agent Learning via Failed Experience",
+      "authors": [
+        "Zichuan Lin",
+        "Feiyu Liu",
+        "Yijun Yang",
+        "Jiafei Lyu",
+        "Yiming Gao",
+        "Yicheng Liu",
+        "Zhicong Lu",
+        "Yangbin Yu",
+        "Mingyu Yang",
+        "Junyou Li",
+        "Deheng Ye",
+        "Jie Jiang"
+      ],
+      "upvotes": 45,
+      "github": "https://github.com/ui-voyager/UI-Voyager",
+      "published": "2026-03-25T17:10:29.000Z"
+    },
+    {
+      "id": "2603.22918",
+      "title": "EVA: Efficient Reinforcement Learning for End-to-End Video Agent",
+      "authors": [
+        "Yaolun Zhang",
+        "Ruohui Wang",
+        "Jiahao Wang",
+        "Yepeng Tang",
+        "Xuanyu Zheng",
+        "Haonan Duan",
+        "Hao Lu",
+        "Hanming Deng",
+        "Lewei Lu"
+      ],
+      "upvotes": 42,
+      "github": "https://github.com/wangruohui/EfficientVideoAgent",
+      "published": "2026-03-24T08:06:29.000Z"
+    },
+    {
+      "id": "2603.22341",
+      "title": "T-MAP: Red-Teaming LLM Agents with Trajectory-aware Evolutionary Search",
+      "authors": [
+        "Hyomin Lee",
+        "Sangwoo Park",
+        "Yumin Choi",
+        "Sohyun An",
+        "Seanie Lee",
+        "Sung Ju Hwang"
+      ],
+      "upvotes": 36,
+      "github": "https://github.com/pwnhyo/T-MAP",
+      "published": "2026-03-21T12:33:34.000Z"
+    },
+    {
+      "id": "2603.23994",
+      "title": "Understanding the Challenges in Iterative Generative Optimization with LLMs",
+      "authors": [
+        "Allen Nie",
+        "Xavier Daull",
+        "Zhiyi Kuang",
+        "Abhinav Akkiraju",
+        "Anish Chaudhuri",
+        "Max Piasevoli",
+        "Ryan Rong",
+        "YuCheng Yuan",
+        "Prerit Choudhary",
+        "Shannon Xiao",
+        "Rasool Fakoor",
+        "Adith Swaminathan",
+        "Ching-An Cheng"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/ameliakuang/LLM-Game-Playing-Agents",
+      "published": "2026-03-25T06:49:24.000Z"
+    },
+    {
+      "id": "2603.24329",
+      "title": "GameplayQA: A Benchmarking Framework for Decision-Dense POV-Synced Multi-Video Understanding of 3D Virtual Agents",
+      "authors": [
+        "Yunzhe Wang",
+        "Runhui Xu",
+        "Kexin Zheng",
+        "Tianyi Zhang",
+        "Jayavibhav Niranjan Kogundi",
+        "Soham Hans",
+        "Volkan Ustun"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/wangyz1999/sync-video-label",
+      "published": "2026-03-25T14:10:45.000Z"
+    },
+    {
+      "id": "2603.14375",
+      "title": "The Pulse of Motion: Measuring Physical Frame Rate from Visual Dynamics",
+      "authors": [
+        "Xiangbo Gao",
+        "Mingyang Wu",
+        "Siyuan Yang",
+        "Jiongze Yu",
+        "Pardis Taghavi",
+        "Fangzhou Lin",
+        "Zhengzhong Tu"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/taco-group/Pulse-of-Motion",
+      "published": "2026-03-15T13:29:31.000Z"
+    },
+    {
+      "id": "2603.21289",
+      "title": "When Models Judge Themselves: Unsupervised Self-Evolution for Multimodal Reasoning",
+      "authors": [
+        "Zhengxian Wu",
+        "Kai Shi",
+        "Chuanrui Zhang",
+        "Zirui Liao",
+        "Jun Yang",
+        "Ni Yang",
+        "Qiuying Peng",
+        "Luyuan Zhang",
+        "Hangrui Xu",
+        "Tianhuang Su",
+        "Zhenyu Yang",
+        "Haonan Lu",
+        "Haoqian Wang"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/OPPO-Mente-Lab/LLM-Self-Judge",
+      "published": "2026-03-22T15:22:19.000Z"
+    },
+    {
+      "id": "2603.22120",
+      "title": "StreamingClaw Technical Report",
+      "authors": [
+        "Jiawei Chen",
+        "Zhe Chen",
+        "Chaoqun Du",
+        "Maokui He",
+        "Wei He",
+        "Hengtao Li",
+        "Qizhen Li",
+        "Zide Liu",
+        "Hao Ma",
+        "Xuhao Pan",
+        "Chang Ren",
+        "Xudong Rao",
+        "Xintian Shen",
+        "Chenfeng Wang",
+        "Tao Wei",
+        "Chengjun Yu",
+        "Pengfei Yu",
+        "Shengyu Yao",
+        "Chunpeng Zhou",
+        "Kun Zhan",
+        "Lihao Zheng",
+        "Pan Zhou",
+        "Xuhan Zhu",
+        "Yufei Zheng"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2026-03-23T15:43:52.000Z"
+    },
+    {
+      "id": "2603.21618",
+      "title": "4DGS360: 360° Gaussian Reconstruction of Dynamic Objects from a Single Video",
+      "authors": [
+        "Jae Won Jang",
+        "Yeonjin Chang",
+        "Wonsik Shin",
+        "Juhwan Cho",
+        "Nojun Kwak"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2026-03-23T06:30:46.000Z"
+    },
+    {
+      "id": "2603.20176",
+      "title": "LagerNVS: Latent Geometry for Fully Neural Real-time Novel View Synthesis",
+      "authors": [
+        "Stanislaw Szymanowicz",
+        "Minghao Chen",
+        "Jianyuan Wang",
+        "Christian Rupprecht",
+        "Andrea Vedaldi"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/facebookresearch/lagernvs",
+      "published": "2026-03-20T17:53:06.000Z"
+    },
+    {
+      "id": "2603.23638",
+      "title": "Can LLM Agents Be CFOs? A Benchmark for Resource Allocation in Dynamic Enterprise Environments",
+      "authors": [
+        "Yi Han",
+        "Lingfei Qian",
+        "Yan Wang",
+        "Yueru He",
+        "Xueqing Peng",
+        "Dongji Feng",
+        "Yankai Chen",
+        "Haohang Li",
+        "Yupeng Cao",
+        "Jimin Huang",
+        "Xue Liu",
+        "Jian-Yun Nie",
+        "Sophia Ananiadou"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2026-03-24T18:25:00.000Z"
+    },
+    {
+      "id": "2603.23522",
+      "title": "Qworld: Question-Specific Evaluation Criteria for LLMs",
+      "authors": [
+        "Shanghua Gao",
+        "Yuchang Su",
+        "Pengwei Sui",
+        "Curtis Ginder",
+        "Marinka Zitnik"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/mims-harvard/qworld",
+      "published": "2026-03-06T15:20:45.000Z"
+    },
+    {
+      "id": "2603.18742",
+      "title": "6Bit-Diffusion: Inference-Time Mixed-Precision Quantization for Video Diffusion Models",
+      "authors": [
+        "Rundong Su",
+        "Jintao Zhang",
+        "Zhihang Yuan",
+        "Haojie Duanmu",
+        "Jianfei Chen",
+        "Jun Zhu"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2026-03-19T10:45:11.000Z"
+    },
+    {
+      "id": "2603.24458",
+      "title": "OmniWeaving: Towards Unified Video Generation with Free-form Composition and Reasoning",
+      "authors": [
+        "Kaihang Pan",
+        "Qi Tian",
+        "Jianwei Zhang",
+        "Weijie Kong",
+        "Jiangfeng Xiong",
+        "Yanxin Long",
+        "Shixue Zhang",
+        "Haiyi Qiu",
+        "Tan Wang",
+        "Zheqi Lv",
+        "Yue Wu",
+        "Liefeng Bo",
+        "Siliang Tang",
+        "Zhao Zhong"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/Tencent-Hunyuan/OmniWeaving",
+      "published": "2026-03-25T16:08:18.000Z"
+    },
+    {
+      "id": "2603.24157",
+      "title": "CarePilot: A Multi-Agent Framework for Long-Horizon Computer Task Automation in Healthcare",
+      "authors": [
+        "Akash Ghosh",
+        "Tajamul Ashraf",
+        "Rishu Kumar Singh",
+        "Numan Saeed",
+        "Sriparna Saha",
+        "Xiuying Chen",
+        "Salman Khan"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/AkashGhosh/CarePilot",
+      "published": "2026-03-25T10:25:48.000Z"
+    },
+    {
+      "id": "2603.23404",
+      "title": "Unleashing Spatial Reasoning in Multimodal Large Language Models via Textual Representation Guided Reasoning",
+      "authors": [
+        "Jiacheng Hua",
+        "Yishu Yin",
+        "Yuhang Wu",
+        "Tai Wang",
+        "Yifei Huang",
+        "Miao Liu"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-03-24T16:38:09.000Z"
+    },
+    {
+      "id": "2603.24506",
+      "title": "Toward Physically Consistent Driving Video World Models under Challenging Trajectories",
+      "authors": [
+        "Jiawei Zhou",
+        "Zhenxin Zhu",
+        "Lingyi Du",
+        "Linye Lyu",
+        "Lijun Zhou",
+        "Zhanqian Wu",
+        "Hongcheng Luo",
+        "Zhuotao Tian",
+        "Bing Wang",
+        "Guang Chen",
+        "Hangjun Ye",
+        "Haiyang Sun",
+        "Yu Li"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-03-25T16:47:39.000Z"
+    },
+    {
+      "id": "2603.24036",
+      "title": "SpectralSplats: Robust Differentiable Tracking via Spectral Moment Supervision",
+      "authors": [
+        "Avigail Cohen Rimon",
+        "Amir Mann",
+        "Mirela Ben Chen",
+        "Or Litany"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2026-03-25T07:48:22.000Z"
+    },
+    {
+      "id": "2603.23539",
+      "title": "PLDR-LLMs Reason At Self-Organized Criticality",
+      "authors": [
+        "Burc Gokden"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/burcgokden/PLDR-LLM-Self-Organized-Criticality",
+      "published": "2026-03-12T19:09:06.000Z"
+    },
+    {
+      "id": "2603.23478",
+      "title": "UniFunc3D: Unified Active Spatial-Temporal Grounding for 3D Functionality Segmentation",
+      "authors": [
+        "Jiaying Lin",
+        "Dan Xu"
+      ],
+      "upvotes": 0,
+      "github": null,
+      "published": "2026-03-24T17:42:31.000Z"
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-02-09",
+  "fetched_at": "2026-10-29T15:26:50.532Z",
+  "candidates": [
+    {
+      "id": "2402.05120",
+      "title": "More Agents Is All You Need",
+      "authors": [
+        "Junyou Li",
+        "Qin Zhang",
+        "Yangbin Yu",
+        "Qiang Fu",
+        "Deheng Ye"
+      ],
+      "upvotes": 59,
+      "github": "https://github.com/moreagentsisallyouneed/agentforest",
+      "published": "2024-02-03T05:55:24.000Z"
+    },
+    {
+      "id": "2402.05930",
+      "title": "WebLINX: Real-World Website Navigation with Multi-Turn Dialogue",
+      "authors": [
+        "Xing Han Lù",
+        "Zdeněk Kasner",
+        "Siva Reddy"
+      ],
+      "upvotes": 39,
+      "github": "https://github.com/McGill-NLP/weblinx",
+      "published": "2024-02-08T18:58:02.000Z"
+    },
+    {
+      "id": "2402.05929",
+      "title": "An Interactive Agent Foundation Model",
+      "authors": [
+        "Zane Durante",
+        "Bidipta Sarkar",
+        "Ran Gong",
+        "Rohan Taori",
+        "Yusuke Noda",
+        "Paul Tang",
+        "Ehsan Adeli",
+        "Shrinidhi Kowshika Lakshmikanth",
+        "Kevin Schulman",
+        "Arnold Milstein",
+        "Demetri Terzopoulos",
+        "Ade Famoti",
+        "Noboru Kuno",
+        "Ashley Llorens",
+        "Hoi Vo",
+        "Katsu Ikeuchi",
+        "Li Fei-Fei",
+        "Jianfeng Gao",
+        "Naoki Wake",
+        "Qiuyuan Huang"
+      ],
+      "upvotes": 29,
+      "github": null,
+      "published": "2024-02-08T18:58:02.000Z"
+    },
+    {
+      "id": "2402.05140",
+      "title": "Tag-LLM: Repurposing General-Purpose LLMs for Specialized Domains",
+      "authors": [
+        "Junhong Shen",
+        "Neil Tenenholtz",
+        "James Brian Hall",
+        "David Alvarez-Melis",
+        "Nicolo Fusi"
+      ],
+      "upvotes": 24,
+      "github": "https://github.com/sjunhongshen/tag-llm",
+      "published": "2024-02-06T20:11:54.000Z"
+    },
+    {
+      "id": "2402.05672",
+      "title": "Multilingual E5 Text Embeddings: A Technical Report",
+      "authors": [
+        "Liang Wang",
+        "Nan Yang",
+        "Xiaolong Huang",
+        "Linjun Yang",
+        "Rangan Majumder",
+        "Furu Wei"
+      ],
+      "upvotes": 23,
+      "github": null,
+      "published": "2024-02-08T13:47:50.000Z"
+    },
+    {
+      "id": "2402.05195",
+      "title": "λ-ECLIPSE: Multi-Concept Personalized Text-to-Image Diffusion Models by Leveraging CLIP Latent Space",
+      "authors": [
+        "Maitreya Patel",
+        "Sangmin Jung",
+        "Chitta Baral",
+        "Yezhou Yang"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/eclipse-t2i/lambda-eclipse-inference",
+      "published": "2024-02-07T19:07:10.000Z"
+    },
+    {
+      "id": "2402.05935",
+      "title": "SPHINX-X: Scaling Data and Parameters for a Family of Multi-modal Large Language Models",
+      "authors": [
+        "Peng Gao",
+        "Renrui Zhang",
+        "Chris Liu",
+        "Longtian Qiu",
+        "Siyuan Huang",
+        "Weifeng Lin",
+        "Shitian Zhao",
+        "Shijie Geng",
+        "Ziyi Lin",
+        "Peng Jin",
+        "Kaipeng Zhang",
+        "Wenqi Shao",
+        "Chao Xu",
+        "Conghui He",
+        "Junjun He",
+        "Hao Shao",
+        "Pan Lu",
+        "Hongsheng Li",
+        "Yu Qiao"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/alpha-vllm/llama2-accessory",
+      "published": "2024-02-08T18:59:48.000Z"
+    },
+    {
+      "id": "2402.05403",
+      "title": "In-Context Principle Learning from Mistakes",
+      "authors": [
+        "Tianjun Zhang",
+        "Aman Madaan",
+        "Luyu Gao",
+        "Steven Zheng",
+        "Swaroop Mishra",
+        "Yiming Yang",
+        "Niket Tandon",
+        "Uri Alon"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2024-02-08T04:42:29.000Z"
+    },
+    {
+      "id": "2402.05755",
+      "title": "SpiRit-LM: Interleaved Spoken and Written Language Model",
+      "authors": [
+        "Tu Anh Nguyen",
+        "Benjamin Muller",
+        "Bokai Yu",
+        "Marta R. Costa-jussa",
+        "Maha Elbayad",
+        "Sravya Popuri",
+        "Paul-Ambroise Duquenne",
+        "Robin Algayres",
+        "Ruslan Mavlyutov",
+        "Itai Gat",
+        "Gabriel Synnaeve",
+        "Juan Pino",
+        "Benoit Sagot",
+        "Emmanuel Dupoux"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/facebookresearch/spiritlm",
+      "published": "2024-02-08T15:39:32.000Z"
+    },
+    {
+      "id": "2402.05937",
+      "title": "InstaGen: Enhancing Object Detection by Training on Synthetic Dataset",
+      "authors": [
+        "Chengjian Feng",
+        "Yujie Zhong",
+        "Zequn Jie",
+        "Weidi Xie",
+        "Lin Ma"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2024-02-08T18:59:53.000Z"
+    },
+    {
+      "id": "2402.05861",
+      "title": "Memory Consolidation Enables Long-Context Video Understanding",
+      "authors": [
+        "Ivana Balažević",
+        "Yuge Shi",
+        "Pinelopi Papalampidi",
+        "Rahma Chaabouni",
+        "Skanda Koppula",
+        "Olivier J. Hénaff"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2024-02-08T17:50:22.000Z"
+    },
+    {
+      "id": "2402.05472",
+      "title": "Question Aware Vision Transformer for Multimodal Reasoning",
+      "authors": [
+        "Roy Ganz",
+        "Yair Kittenplon",
+        "Aviad Aberdam",
+        "Elad Ben Avraham",
+        "Oren Nuriel",
+        "Shai Mazor",
+        "Ron Litman"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2024-02-08T08:03:39.000Z"
+    },
+    {
+      "id": "2402.05468",
+      "title": "Implicit Diffusion: Efficient Optimization through Stochastic Sampling",
+      "authors": [
+        "Pierre Marion",
+        "Anna Korba",
+        "Peter Bartlett",
+        "Mathieu Blondel",
+        "Valentin De Bortoli",
+        "Arnaud Doucet",
+        "Felipe Llinares-López",
+        "Courtney Paquette",
+        "Quentin Berthet"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2024-02-08T08:00:11.000Z"
+    },
+    {
+      "id": "2402.05546",
+      "title": "Offline Actor-Critic Reinforcement Learning Scales to Large Models",
+      "authors": [
+        "Jost Tobias Springenberg",
+        "Abbas Abdolmaleki",
+        "Jingwei Zhang",
+        "Oliver Groth",
+        "Michael Bloesch",
+        "Thomas Lampe",
+        "Philemon Brakel",
+        "Sarah Bechtle",
+        "Steven Kapturowski",
+        "Roland Hafner",
+        "Nicolas Heess",
+        "Martin Riedmiller"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2024-02-08T10:29:46.000Z"
+    },
+    {
+      "id": "2402.05932",
+      "title": "Driving Everywhere with Large Language Model Policy Adaptation",
+      "authors": [
+        "Boyi Li",
+        "Yue Wang",
+        "Jiageng Mao",
+        "Boris Ivanovic",
+        "Sushant Veer",
+        "Karen Leung",
+        "Marco Pavone"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2024-02-08T18:59:03.000Z"
+    }
+  ]
+}

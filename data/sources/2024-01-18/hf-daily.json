@@ -1,0 +1,244 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-01-18",
+  "fetched_at": "2026-10-29T15:26:37.162Z",
+  "candidates": [
+    {
+      "id": "2401.10020",
+      "title": "Self-Rewarding Language Models",
+      "authors": [
+        "Weizhe Yuan",
+        "Richard Yuanzhe Pang",
+        "Kyunghyun Cho",
+        "Sainbayar Sukhbaatar",
+        "Jing Xu",
+        "Jason Weston"
+      ],
+      "upvotes": 156,
+      "github": "https://github.com/gagan3012/self_rewarding_models",
+      "published": "2024-01-18T14:43:47.000Z"
+    },
+    {
+      "id": "2401.09417",
+      "title": "Vision Mamba: Efficient Visual Representation Learning with Bidirectional State Space Model",
+      "authors": [
+        "Lianghui Zhu",
+        "Bencheng Liao",
+        "Qian Zhang",
+        "Xinlong Wang",
+        "Wenyu Liu",
+        "Xinggang Wang"
+      ],
+      "upvotes": 62,
+      "github": "https://github.com/Elman295/Vision-Mamba-MNIST-",
+      "published": "2024-01-17T18:56:18.000Z"
+    },
+    {
+      "id": "2401.10225",
+      "title": "ChatQA: Building GPT-4 Level Conversational QA Models",
+      "authors": [
+        "Zihan Liu",
+        "Wei Ping",
+        "Rajarshi Roy",
+        "Peng Xu",
+        "Mohammad Shoeybi",
+        "Bryan Catanzaro"
+      ],
+      "upvotes": 35,
+      "github": null,
+      "published": "2024-01-18T18:59:11.000Z"
+    },
+    {
+      "id": "2401.08967",
+      "title": "ReFT: Reasoning with Reinforced Fine-Tuning",
+      "authors": [
+        "Trung Quoc Luong",
+        "Xinbo Zhang",
+        "Zhanming Jie",
+        "Peng Sun",
+        "Xiaoran Jin",
+        "Hang Li"
+      ],
+      "upvotes": 32,
+      "github": "https://github.com/lqtrung1998/mwp_reft",
+      "published": "2024-01-17T04:43:21.000Z"
+    },
+    {
+      "id": "2401.09419",
+      "title": "GARField: Group Anything with Radiance Fields",
+      "authors": [
+        "Chung Min Kim",
+        "Mingxuan Wu",
+        "Justin Kerr",
+        "Ken Goldberg",
+        "Matthew Tancik",
+        "Angjoo Kanazawa"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/chungmin99/garfield",
+      "published": "2024-01-17T18:57:53.000Z"
+    },
+    {
+      "id": "2401.09340",
+      "title": "SceneVerse: Scaling 3D Vision-Language Learning for Grounded Scene Understanding",
+      "authors": [
+        "Baoxiong Jia",
+        "Yixin Chen",
+        "Huangyue Yu",
+        "Yan Wang",
+        "Xuesong Niu",
+        "Tengyu Liu",
+        "Qing Li",
+        "Siyuan Huang"
+      ],
+      "upvotes": 20,
+      "github": null,
+      "published": "2024-01-17T17:04:35.000Z"
+    },
+    {
+      "id": "2401.09985",
+      "title": "WorldDreamer: Towards General World Models for Video Generation via Predicting Masked Tokens",
+      "authors": [
+        "Xiaofeng Wang",
+        "Zheng Zhu",
+        "Guan Huang",
+        "Boyuan Wang",
+        "Xinze Chen",
+        "Jiwen Lu"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2024-01-18T14:01:20.000Z"
+    },
+    {
+      "id": "2401.09084",
+      "title": "UniVG: Towards UNIfied-modal Video Generation",
+      "authors": [
+        "Ludan Ruan",
+        "Lei Tian",
+        "Chuanwei Huang",
+        "Xu Zhang",
+        "Xinyan Xiao"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2024-01-17T09:46:13.000Z"
+    },
+    {
+      "id": "2401.08671",
+      "title": "DeepSpeed-FastGen: High-throughput Text Generation for LLMs via MII and DeepSpeed-Inference",
+      "authors": [
+        "Connor Holmes",
+        "Masahiro Tanaka",
+        "Michael Wyatt",
+        "Ammar Ahmad Awan",
+        "Jeff Rasley",
+        "Samyam Rajbhandari",
+        "Reza Yazdani Aminabadi",
+        "Heyang Qin",
+        "Arash Bakhtiari",
+        "Lev Kurilenko",
+        "Yuxiong He"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2024-01-09T06:49:40.000Z"
+    },
+    {
+      "id": "2401.09047",
+      "title": "VideoCrafter2: Overcoming Data Limitations for High-Quality Video Diffusion Models",
+      "authors": [
+        "Haoxin Chen",
+        "Yong Zhang",
+        "Xiaodong Cun",
+        "Menghan Xia",
+        "Xintao Wang",
+        "Chao Weng",
+        "Ying Shan"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/ailab-cvc/videocrafter",
+      "published": "2024-01-17T08:30:32.000Z"
+    },
+    {
+      "id": "2401.08740",
+      "title": "SiT: Exploring Flow and Diffusion-based Generative Models with Scalable Interpolant Transformers",
+      "authors": [
+        "Nanye Ma",
+        "Mark Goldstein",
+        "Michael S. Albergo",
+        "Nicholas M. Boffi",
+        "Eric Vanden-Eijnden",
+        "Saining Xie"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/willisma/sit",
+      "published": "2024-01-16T18:55:25.000Z"
+    },
+    {
+      "id": "2401.09135",
+      "title": "Asynchronous Local-SGD Training for Language Modeling",
+      "authors": [
+        "Bo Liu",
+        "Rachita Chhaparia",
+        "Arthur Douillard",
+        "Satyen Kale",
+        "Andrei A. Rusu",
+        "Jiajun Shen",
+        "Arthur Szlam",
+        "Marc'Aurelio Ranzato"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/google-deepmind/asyncdiloco",
+      "published": "2024-01-17T11:17:04.000Z"
+    },
+    {
+      "id": "2401.09416",
+      "title": "TextureDreamer: Image-guided Texture Synthesis through Geometry-aware Diffusion",
+      "authors": [
+        "Yu-Ying Yeh",
+        "Jia-Bin Huang",
+        "Changil Kim",
+        "Lei Xiao",
+        "Thu Nguyen-Phuoc",
+        "Numair Khan",
+        "Cheng Zhang",
+        "Manmohan Chandraker",
+        "Carl S Marshall",
+        "Zhao Dong",
+        "Zhengqin Li"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2024-01-17T18:55:49.000Z"
+    },
+    {
+      "id": "2401.09048",
+      "title": "Compose and Conquer: Diffusion-Based 3D Depth Aware Composable Image Synthesis",
+      "authors": [
+        "Jonghyun Lee",
+        "Hansam Cho",
+        "Youngjoon Yoo",
+        "Seoung Bum Kim",
+        "Yonghyun Jeong"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/tomtom1103/compose-and-conquer",
+      "published": "2024-01-17T08:30:47.000Z"
+    },
+    {
+      "id": "2401.08937",
+      "title": "ICON: Incremental CONfidence for Joint Pose and Radiance Field Optimization",
+      "authors": [
+        "Weiyao Wang",
+        "Pierre Gleize",
+        "Hao Tang",
+        "Xingyu Chen",
+        "Kevin J Liang",
+        "Matt Feiszli"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2024-01-17T03:18:02.000Z"
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-12-30",
+  "fetched_at": "2026-10-29T15:30:08.651Z",
+  "candidates": [
+    {
+      "id": "2412.18925",
+      "title": "HuatuoGPT-o1, Towards Medical Complex Reasoning with LLMs",
+      "authors": [
+        "Junying Chen",
+        "Zhenyang Cai",
+        "Ke Ji",
+        "Xidong Wang",
+        "Wanlong Liu",
+        "Rongsheng Wang",
+        "Jianye Hou",
+        "Benyou Wang"
+      ],
+      "upvotes": 107,
+      "github": "https://github.com/freedomintelligence/huatuogpt-o1",
+      "published": "2024-12-25T15:12:34.000Z"
+    },
+    {
+      "id": "2412.18653",
+      "title": "1.58-bit FLUX",
+      "authors": [
+        "Chenglin Yang",
+        "Celong Liu",
+        "Xueqing Deng",
+        "Dongwon Kim",
+        "Xing Mei",
+        "Xiaohui Shen",
+        "Liang-Chieh Chen"
+      ],
+      "upvotes": 87,
+      "github": null,
+      "published": "2024-12-24T19:00:02.000Z"
+    },
+    {
+      "id": "2412.18619",
+      "title": "Next Token Prediction Towards Multimodal Intelligence: A Comprehensive Survey",
+      "authors": [
+        "Liang Chen",
+        "Zekun Wang",
+        "Shuhuai Ren",
+        "Lei Li",
+        "Haozhe Zhao",
+        "Yunshui Li",
+        "Zefan Cai",
+        "Hongcheng Guo",
+        "Lei Zhang",
+        "Yizhe Xiong",
+        "Yichi Zhang",
+        "Ruoyu Wu",
+        "Qingxiu Dong",
+        "Ge Zhang",
+        "Jian Yang",
+        "Lingwei Meng",
+        "Shujie Hu",
+        "Yulong Chen",
+        "Junyang Lin",
+        "Shuai Bai",
+        "Andreas Vlachos",
+        "Xu Tan",
+        "Minjia Zhang",
+        "Wen Xiao",
+        "Aaron Yee",
+        "Tianyu Liu",
+        "Baobao Chang"
+      ],
+      "upvotes": 53,
+      "github": "https://github.com/lmm101/awesome-multimodal-next-token-prediction",
+      "published": "2024-12-16T05:02:25.000Z"
+    },
+    {
+      "id": "2412.18605",
+      "title": "Orient Anything: Learning Robust Object Orientation Estimation from Rendering 3D Models",
+      "authors": [
+        "Zehan Wang",
+        "Ziang Zhang",
+        "Tianyu Pang",
+        "Chao Du",
+        "Hengshuang Zhao",
+        "Zhou Zhao"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/SpatialVision/Orient-Anything",
+      "published": "2024-12-24T18:58:43.000Z"
+    },
+    {
+      "id": "2412.19326",
+      "title": "Task Preference Optimization: Improving Multimodal Large Language Models with Vision Task Alignment",
+      "authors": [
+        "Ziang Yan",
+        "Zhilin Li",
+        "Yinan He",
+        "Chenting Wang",
+        "Kunchang Li",
+        "Xinhao Li",
+        "Xiangyu Zeng",
+        "Zilei Wang",
+        "Yali Wang",
+        "Yu Qiao",
+        "Limin Wang",
+        "Yi Wang"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/opengvlab/tpo",
+      "published": "2024-12-26T18:56:05.000Z"
+    },
+    {
+      "id": "2412.19712",
+      "title": "From Elements to Design: A Layered Approach for Automatic Graphic Design Composition",
+      "authors": [
+        "Jiawei Lin",
+        "Shizhao Sun",
+        "Danqing Huang",
+        "Ting Liu",
+        "Ji Li",
+        "Jiang Bian"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2024-12-27T16:13:08.000Z"
+    },
+    {
+      "id": "2412.17762",
+      "title": "The Superposition of Diffusion Models Using the Itô Density Estimator",
+      "authors": [
+        "Marta Skreta",
+        "Lazar Atanackovic",
+        "Avishek Joey Bose",
+        "Alexander Tong",
+        "Kirill Neklyudov"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/necludov/super-diffusion",
+      "published": "2024-12-23T18:18:07.000Z"
+    },
+    {
+      "id": "2412.19645",
+      "title": "VideoMaker: Zero-shot Customized Video Generation with the Inherent Force of Video Diffusion Models",
+      "authors": [
+        "Tao Wu",
+        "Yong Zhang",
+        "Xiaodong Cun",
+        "Zhongang Qi",
+        "Junfu Pu",
+        "Huanzhang Dou",
+        "Guangcong Zheng",
+        "Ying Shan",
+        "Xi Li"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/wutao-cs/videomaker",
+      "published": "2024-12-27T13:49:25.000Z"
+    },
+    {
+      "id": "2412.19512",
+      "title": "Safeguard Fine-Tuned LLMs Through Pre- and Post-Tuning Model Merging",
+      "authors": [
+        "Hua Farn",
+        "Hsuan Su",
+        "Shachi H Kumar",
+        "Saurav Sahay",
+        "Shang-Tse Chen",
+        "Hung-yi Lee"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2024-12-27T08:03:22.000Z"
+    },
+    {
+      "id": "2412.18702",
+      "title": "CypherBench: Towards Precise Retrieval over Full-scale Modern Knowledge Graphs in the LLM Era",
+      "authors": [
+        "Yanlin Feng",
+        "Simone Papicchio",
+        "Sajjadur Rahman"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/megagonlabs/cypherbench",
+      "published": "2024-12-24T23:22:04.000Z"
+    },
+    {
+      "id": "2412.17606",
+      "title": "SBS Figures: Pre-training Figure QA from Stage-by-Stage Synthesized Images",
+      "authors": [
+        "Risa Shinoda",
+        "Kuniaki Saito",
+        "Shohei Tanaka",
+        "Tosho Hirasawa",
+        "Yoshitaka Ushiku"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/omron-sinicx/sbsfigures",
+      "published": "2024-12-23T14:25:33.000Z"
+    }
+  ]
+}

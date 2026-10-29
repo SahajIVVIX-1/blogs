@@ -1,0 +1,448 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-03-18",
+  "fetched_at": "2026-10-29T15:30:55.966Z",
+  "candidates": [
+    {
+      "id": "2503.06053",
+      "title": "DropletVideo: A Dataset and Approach to Explore Integral Spatio-Temporal Consistent Video Generation",
+      "authors": [
+        "Runze Zhang",
+        "Guoguang Du",
+        "Xiaochuan Li",
+        "Qi Jia",
+        "Liang Jin",
+        "Lu Liu",
+        "Jingjing Wang",
+        "Cong Xu",
+        "Zhenhua Guo",
+        "Yaqian Zhao",
+        "Xiaoli Gong",
+        "Rengang Li",
+        "Baoyu Fan"
+      ],
+      "upvotes": 137,
+      "github": "https://github.com/IEIT-AGI/DropletVideo",
+      "published": "2025-03-08T04:37:38.000Z"
+    },
+    {
+      "id": "2503.12533",
+      "title": "Being-0: A Humanoid Robotic Agent with Vision-Language Models and Modular Skills",
+      "authors": [
+        "Haoqi Yuan",
+        "Yu Bai",
+        "Yuhui Fu",
+        "Bohan Zhou",
+        "Yicheng Feng",
+        "Xinrun Xu",
+        "Yi Zhan",
+        "Börje F. Karlsson",
+        "Zongqing Lu"
+      ],
+      "upvotes": 68,
+      "github": "https://github.com/BeingBeyond/being-0",
+      "published": "2025-03-16T14:53:53.000Z"
+    },
+    {
+      "id": "2503.12590",
+      "title": "Personalize Anything for Free with Diffusion Transformer",
+      "authors": [
+        "Haoran Feng",
+        "Zehuan Huang",
+        "Lin Li",
+        "Hairong Lv",
+        "Lu Sheng"
+      ],
+      "upvotes": 44,
+      "github": "https://github.com/fenghora/personalize-anything",
+      "published": "2025-03-16T17:51:16.000Z"
+    },
+    {
+      "id": "2503.12885",
+      "title": "DreamRenderer: Taming Multi-Instance Attribute Control in Large-Scale Text-to-Image Models",
+      "authors": [
+        "Dewei Zhou",
+        "Mingwei Li",
+        "Zongxin Yang",
+        "Yi Yang"
+      ],
+      "upvotes": 43,
+      "github": "https://github.com/limuloo/DreamRenderer",
+      "published": "2025-03-17T07:30:16.000Z"
+    },
+    {
+      "id": "2503.12605",
+      "title": "Multimodal Chain-of-Thought Reasoning: A Comprehensive Survey",
+      "authors": [
+        "Yaoting Wang",
+        "Shengqiong Wu",
+        "Yuecheng Zhang",
+        "William Wang",
+        "Ziwei Liu",
+        "Jiebo Luo",
+        "Hao Fei"
+      ],
+      "upvotes": 35,
+      "github": "https://github.com/yaotingwangofficial/Awesome-MCoT",
+      "published": "2025-03-16T18:39:13.000Z"
+    },
+    {
+      "id": "2503.12349",
+      "title": "SPIN-Bench: How Well Do LLMs Plan Strategically and Reason Socially?",
+      "authors": [
+        "Jianzhu Yao",
+        "Kevin Wang",
+        "Ryan Hsieh",
+        "Haisu Zhou",
+        "Tianqing Zou",
+        "Zerui Cheng",
+        "Zhangyang Wang",
+        "Pramod Viswanath"
+      ],
+      "upvotes": 34,
+      "github": "https://github.com/spinbench/spinbench",
+      "published": "2025-03-16T04:10:53.000Z"
+    },
+    {
+      "id": "2503.12937",
+      "title": "R1-VL: Learning to Reason with Multimodal Large Language Models via Step-wise Group Relative Policy Optimization",
+      "authors": [
+        "Jingyi Zhang",
+        "Jiaxing Huang",
+        "Huanjin Yao",
+        "Shunyu Liu",
+        "Xikun Zhang",
+        "Shijian Lu",
+        "Dacheng Tao"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/jingyi0000/R1-VL",
+      "published": "2025-03-17T08:51:44.000Z"
+    },
+    {
+      "id": "2503.13327",
+      "title": "Edit Transfer: Learning Image Editing via Vision In-Context Relations",
+      "authors": [
+        "Lan Chen",
+        "Qi Mao",
+        "Yuchao Gu",
+        "Mike Zheng Shou"
+      ],
+      "upvotes": 29,
+      "github": "https://github.com/CUC-MIPG/Edit-Transfer",
+      "published": "2025-03-17T16:04:44.000Z"
+    },
+    {
+      "id": "2503.13434",
+      "title": "BlobCtrl: A Unified and Flexible Framework for Element-level Image Generation and Editing",
+      "authors": [
+        "Yaowei Li",
+        "Lingen Li",
+        "Zhaoyang Zhang",
+        "Xiaoyu Li",
+        "Guangzhi Wang",
+        "Hongxiang Li",
+        "Xiaodong Cun",
+        "Ying Shan",
+        "Yuexian Zou"
+      ],
+      "upvotes": 28,
+      "github": "https://github.com/TencentARC/BlobCtrl",
+      "published": "2025-03-17T17:58:05.000Z"
+    },
+    {
+      "id": "2503.13399",
+      "title": "MicroVQA: A Multimodal Reasoning Benchmark for Microscopy-Based Scientific Research",
+      "authors": [
+        "James Burgess",
+        "Jeffrey J Nirschl",
+        "Laura Bravo-Sánchez",
+        "Alejandro Lozano",
+        "Sanket Rajan Gupte",
+        "Jesus G. Galaz-Montoya",
+        "Yuhui Zhang",
+        "Yuchang Su",
+        "Disha Bhowmik",
+        "Zachary Coman",
+        "Sarina M. Hasan",
+        "Alexandra Johannesson",
+        "William D. Leineweber",
+        "Malvika G Nair",
+        "Ridhi Yarlagadda",
+        "Connor Zuraski",
+        "Wah Chiu",
+        "Sarah Cohen",
+        "Jan N. Hansen",
+        "Manuel D Leonetti",
+        "Chad Liu",
+        "Emma Lundberg",
+        "Serena Yeung-Levy"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/jmhb0/microvqa",
+      "published": "2025-03-17T17:33:10.000Z"
+    },
+    {
+      "id": "2503.13444",
+      "title": "VideoMind: A Chain-of-LoRA Agent for Long Video Reasoning",
+      "authors": [
+        "Ye Liu",
+        "Kevin Qinghong Lin",
+        "Chang Wen Chen",
+        "Mike Zheng Shou"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/yeliudev/VideoMind",
+      "published": "2025-03-17T17:59:33.000Z"
+    },
+    {
+      "id": "2503.11751",
+      "title": "reWordBench: Benchmarking and Improving the Robustness of Reward Models with Transformed Inputs",
+      "authors": [
+        "Zhaofeng Wu",
+        "Michihiro Yasunaga",
+        "Andrew Cohen",
+        "Yoon Kim",
+        "Asli Celikyilmaz",
+        "Marjan Ghazvininejad"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2025-03-14T17:59:41.000Z"
+    },
+    {
+      "id": "2503.13435",
+      "title": "WideRange4D: Enabling High-Quality 4D Reconstruction with Wide-Range Movements and Scenes",
+      "authors": [
+        "Ling Yang",
+        "Kaixin Zhu",
+        "Juanxi Tian",
+        "Bohan Zeng",
+        "Mingbao Lin",
+        "Hongjuan Pei",
+        "Wentao Zhang",
+        "Shuicheng Yan"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/Gen-Verse/WideRange4D",
+      "published": "2025-03-17T17:58:18.000Z"
+    },
+    {
+      "id": "2503.11495",
+      "title": "V-STaR: Benchmarking Video-LLMs on Video Spatio-Temporal Reasoning",
+      "authors": [
+        "Zixu Cheng",
+        "Jian Hu",
+        "Ziquan Liu",
+        "Chenyang Si",
+        "Wei Li",
+        "Shaogang Gong"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/V-STaR-Bench/V-STaR",
+      "published": "2025-03-14T15:21:44.000Z"
+    },
+    {
+      "id": "2503.13082",
+      "title": "Free-form language-based robotic reasoning and grasping",
+      "authors": [
+        "Runyu Jiao",
+        "Alice Fasoli",
+        "Francesco Giuliari",
+        "Matteo Bortolon",
+        "Sergio Povoli",
+        "Guofeng Mei",
+        "Yiming Wang",
+        "Fabio Poiesi"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/tev-fbk/FreeGrasp_code",
+      "published": "2025-03-17T11:41:16.000Z"
+    },
+    {
+      "id": "2503.11412",
+      "title": "MTV-Inpaint: Multi-Task Long Video Inpainting",
+      "authors": [
+        "Shiyuan Yang",
+        "Zheng Gu",
+        "Liang Hou",
+        "Xin Tao",
+        "Pengfei Wan",
+        "Xiaodong Chen",
+        "Jing Liao"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/ysy31415/MTV-Inpaint",
+      "published": "2025-03-14T13:54:10.000Z"
+    },
+    {
+      "id": "2503.13070",
+      "title": "Rewards Are Enough for Fast Photo-Realistic Text-to-image Generation",
+      "authors": [
+        "Yihong Luo",
+        "Tianyang Hu",
+        "Weijian Luo",
+        "Kenji Kawaguchi",
+        "Jing Tang"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/Luo-Yihong/R0",
+      "published": "2025-03-17T11:21:43.000Z"
+    },
+    {
+      "id": "2503.10719",
+      "title": "Long-Video Audio Synthesis with Multi-Agent Collaboration",
+      "authors": [
+        "Yehang Zhang",
+        "Xinli Xu",
+        "Xiaojie Xu",
+        "Li Liu",
+        "Yingcong Chen"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/ZYH-Lightyear/LVAS",
+      "published": "2025-03-13T07:58:23.000Z"
+    },
+    {
+      "id": "2503.12964",
+      "title": "Training Video Foundation Models with NVIDIA NeMo",
+      "authors": [
+        "Zeeshan Patel",
+        "Ethan He",
+        "Parth Mannan",
+        "Xiaowei Ren",
+        "Ryan Wolf",
+        "Niket Agarwal",
+        "Jacob Huffman",
+        "Zhuoyao Wang",
+        "Carl Wang",
+        "Jack Chang",
+        "Yan Bai",
+        "Tommy Huang",
+        "Linnan Wang",
+        "Sahil Jain",
+        "Shanmugam Ramasamy",
+        "Joseph Jennings",
+        "Ekaterina Sirazitdinova",
+        "Oleg Sudakov",
+        "Mingyuan Ma",
+        "Bobby Chen",
+        "Forrest Lin",
+        "Hao Wang",
+        "Vasanth Rao Naik Sabavat",
+        "Sriharsha Niverty",
+        "Rong Ou",
+        "Pallab Bhattacharya",
+        "David Page",
+        "Nima Tajbakhsh",
+        "Ashwath Aithal"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/NVIDIA/NeMo",
+      "published": "2025-03-17T09:19:12.000Z"
+    },
+    {
+      "id": "2503.13369",
+      "title": "Sightation Counts: Leveraging Sighted User Feedback in Building a BLV-aligned Dataset of Diagram Descriptions",
+      "authors": [
+        "Wan Ju Kang",
+        "Eunki Kim",
+        "Na Min An",
+        "Sangryul Kim",
+        "Haemin Choi",
+        "Ki Hoon Kwak",
+        "James Thorne"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2025-03-17T16:52:46.000Z"
+    },
+    {
+      "id": "2503.12720",
+      "title": "GenStereo: Towards Open-World Generation of Stereo Images and Unsupervised Matching",
+      "authors": [
+        "Feng Qiao",
+        "Zhexiao Xiong",
+        "Eric Xing",
+        "Nathan Jacobs"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/Qjizhi/GenStereo",
+      "published": "2025-03-17T01:19:28.000Z"
+    },
+    {
+      "id": "2503.10704",
+      "title": "Error Analyses of Auto-Regressive Video Diffusion Models: A Unified Framework",
+      "authors": [
+        "Jing Wang",
+        "Fengzhuo Zhang",
+        "Xiaoli Li",
+        "Vincent Y. F. Tan",
+        "Tianyu Pang",
+        "Chao Du",
+        "Aixin Sun",
+        "Zhuoran Yang"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/sail-sg/Meta-ARVDM",
+      "published": "2025-03-12T15:32:44.000Z"
+    },
+    {
+      "id": "2503.06269",
+      "title": "Using Mechanistic Interpretability to Craft Adversarial Attacks against Large Language Models",
+      "authors": [
+        "Thomas Winninger",
+        "Boussad Addad",
+        "Katarzyna Kapusta"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/Sckathach/subspace-rerouting",
+      "published": "2025-03-08T16:29:45.000Z"
+    },
+    {
+      "id": "2503.08153",
+      "title": "WISA: World Simulator Assistant for Physics-Aware Text-to-Video Generation",
+      "authors": [
+        "Jing Wang",
+        "Ao Ma",
+        "Ke Cao",
+        "Jun Zheng",
+        "Zhanjie Zhang",
+        "Jiasong Feng",
+        "Shanyuan Liu",
+        "Yuhang Ma",
+        "Bo Cheng",
+        "Dawei Leng",
+        "Yuhui Yin",
+        "Xiaodan Liang"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/360CVGroup/WISA",
+      "published": "2025-03-11T08:10:03.000Z"
+    },
+    {
+      "id": "2503.12528",
+      "title": "Investigating Human-Aligned Large Language Model Uncertainty",
+      "authors": [
+        "Kyle Moore",
+        "Jesse Roberts",
+        "Daryl Watson",
+        "Pamela Wisniewski"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-03-16T14:45:43.000Z"
+    },
+    {
+      "id": "2503.12530",
+      "title": "Basic Category Usage in Vision Language Models",
+      "authors": [
+        "Hunter Sawyer",
+        "Jesse Roberts",
+        "Kyle Moore"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2025-03-16T14:50:54.000Z"
+    }
+  ]
+}

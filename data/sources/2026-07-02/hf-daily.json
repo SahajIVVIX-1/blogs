@@ -1,0 +1,549 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-07-02",
+  "fetched_at": "2026-10-29T15:36:06.593Z",
+  "candidates": [
+    {
+      "id": "2606.28322",
+      "title": "PerceptionRubrics: Calibrating Multimodal Evaluation to Human Perception",
+      "authors": [
+        "Yana Wei",
+        "Hongbo Peng",
+        "Yanlin Lai",
+        "Liang Zhao",
+        "Kangheng Lin",
+        "En Yu",
+        "Keyu Lv",
+        "Han Zhou",
+        "Yin Tang",
+        "Haodong Li",
+        "Mitt Huang",
+        "Hangyu Guo",
+        "Jianjian Sun",
+        "Zheng Ge",
+        "Xiangyu Zhang",
+        "Daxin Jiang",
+        "Vishal M. Patel"
+      ],
+      "upvotes": 41,
+      "github": "https://github.com/M1chaelPeng/PerceptionRubrics",
+      "published": "2026-06-26T00:00:00.000Z"
+    },
+    {
+      "id": "2606.19271",
+      "title": "TurboServe: Serving Streaming Video Generation Efficiently and Economically",
+      "authors": [
+        "Youhe Jiang",
+        "Haoxu Wang",
+        "Haotong Bao",
+        "Kai Jiang",
+        "Jianfei Chen",
+        "Jun Zhu",
+        "Fangcheng Fu",
+        "Jintao Zhang"
+      ],
+      "upvotes": 34,
+      "github": "https://github.com/shengshu-ai/TurboServe",
+      "published": "2026-06-17T00:00:00.000Z"
+    },
+    {
+      "id": "2607.00248",
+      "title": "Seed2.0 Model Card: Towards Intelligence Frontier for Real-World Complexity",
+      "authors": [
+        "Bytedance Seed"
+      ],
+      "upvotes": 30,
+      "github": null,
+      "published": "2026-06-30T00:00:00.000Z"
+    },
+    {
+      "id": "2607.00461",
+      "title": "Multimodal Continuous Reasoning via Asymmetric Mutual Variational Learning",
+      "authors": [
+        "Shijie Li",
+        "Yilin Gao",
+        "Siyuan Yang",
+        "Tieyuan Chen",
+        "Chaofan Gan",
+        "Zhihao He",
+        "Zicheng Zhao",
+        "Yuyu Guo",
+        "Weiyao Lin",
+        "Hang Yu"
+      ],
+      "upvotes": 25,
+      "github": null,
+      "published": "2026-07-01T00:00:00.000Z"
+    },
+    {
+      "id": "2607.00272",
+      "title": "ASPIRE: Agentic /Skills Discovery for Robotics",
+      "authors": [
+        "Runyu Lu",
+        "Yubo Wu",
+        "Ethan Kou",
+        "Letian Fu",
+        "Wenli Xiao",
+        "Ajay Mandlekar",
+        "Yinzhen Xu",
+        "Guanya Shi",
+        "Ken Goldberg",
+        "Ang Chen",
+        "Mosharaf Chowdhury",
+        "Yuke Zhu",
+        "Linxi \"Jim\" Fan",
+        "Guanzhi Wang"
+      ],
+      "upvotes": 25,
+      "github": null,
+      "published": "2026-06-30T00:00:00.000Z"
+    },
+    {
+      "id": "2607.01071",
+      "title": "MemSyco-Bench: Benchmarking Sycophancy in Agent Memory",
+      "authors": [
+        "Zhishang Xiang",
+        "Zerui Chen",
+        "Yunbo Tang",
+        "Zhimin Wei",
+        "Ruqin Ning",
+        "Yujie Lin",
+        "Qinggang Zhang",
+        "Jinsong Su"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/XMUDeepLIT/MemSyco-Bench",
+      "published": "2026-07-01T00:00:00.000Z"
+    },
+    {
+      "id": "2607.00466",
+      "title": "ELDR: Expert-Locality-Aware Decode Routing for PD-Disaggregated MoE Serving",
+      "authors": [
+        "Sangjin Choi",
+        "Sukmin Cho",
+        "Yifan Xiong",
+        "Ziyue Yang",
+        "Youngjin Kwon",
+        "Peng Cheng"
+      ],
+      "upvotes": 24,
+      "github": null,
+      "published": "2026-07-01T00:00:00.000Z"
+    },
+    {
+      "id": "2607.00666",
+      "title": "Domain Arithmetic: One-Shot VLA Adaptation under Environmental Shifts",
+      "authors": [
+        "Taewook Kang",
+        "Taeheon Kim",
+        "Donghyun Shin",
+        "Jonghyun Choi"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/snumprlab/dart",
+      "published": "2026-07-01T00:00:00.000Z"
+    },
+    {
+      "id": "2606.31551",
+      "title": "AutoTrainess: Teaching Language Models to Improve Language Models Autonomously",
+      "authors": [
+        "Zhaojian Yu",
+        "Penghao Yin",
+        "Shuzheng Gao",
+        "Shilin He",
+        "Kai Cai",
+        "Xiao-Ping Zhang"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/simple-agent-lab/AutoTrainess",
+      "published": "2026-06-30T00:00:00.000Z"
+    },
+    {
+      "id": "2607.01104",
+      "title": "CausalMix: Data Mixture as Causal Inference for Language Model Training",
+      "authors": [
+        "Zinan Tang",
+        "Yukun Zhang",
+        "Shaomian Zheng",
+        "Zhuoshi Pan",
+        "Qizhi Pei",
+        "Dingnan Jin",
+        "Jun Zhou",
+        "Yujun Wang",
+        "Biqing Huang"
+      ],
+      "upvotes": 19,
+      "github": null,
+      "published": "2026-07-01T00:00:00.000Z"
+    },
+    {
+      "id": "2607.01191",
+      "title": "Perceive-to-Reason: Decoupling Perception and Reasoning for Fine-Grained Visual Reasoning",
+      "authors": [
+        "Hongxing Li",
+        "Xiufeng Huang",
+        "Dingming Li",
+        "Wenjing Jiang",
+        "Zixuan Wang",
+        "Haolei Xu",
+        "Hanrong Zhang",
+        "Haiwen Hong",
+        "Longtao Huang",
+        "Hui Xue",
+        "Weiming Lu",
+        "Jun Xiao",
+        "Yueting Zhuang",
+        "Yongliang Shen"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/ZJU-REAL/Perceive-to-Reason",
+      "published": "2026-07-01T00:00:00.000Z"
+    },
+    {
+      "id": "2607.00678",
+      "title": "ABot-M0.5: Unified Mobility-and-Manipulation World Action Model",
+      "authors": [
+        "Ronghan Chen",
+        "Yandan Yang",
+        "Zuojin Tang",
+        "Dongjie Huo",
+        "Tong Lin",
+        "Haoning Wu",
+        "Haoyun Liu",
+        "Yuzhi Chen",
+        "Lulu Zheng",
+        "Botai Yuan",
+        "Tianlun Li",
+        "Mingxin Wang",
+        "Dekang Qi",
+        "Bin Hu",
+        "Wei Mei",
+        "Yuze Xuan",
+        "Haolong Yang",
+        "Yanqing Zhu",
+        "Mu Xu",
+        "Zhiheng Ma",
+        "Xinyuan Chang"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2026-07-01T00:00:00.000Z"
+    },
+    {
+      "id": "2607.00917",
+      "title": "Valdi: Value Diffusion World Models",
+      "authors": [
+        "Christopher Lindenberg",
+        "Kashyap Chitta"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/Kit115/ValueDiffusionWorldModels",
+      "published": "2026-07-01T00:00:00.000Z"
+    },
+    {
+      "id": "2607.01211",
+      "title": "Are Performance-Optimization Benchmarks Reliably Measuring Coding Agents?",
+      "authors": [
+        "Zhi Chen",
+        "Zhensu Sun",
+        "Yuling Shi",
+        "David Lo",
+        "Lingxiao Jiang"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2026-07-01T00:00:00.000Z"
+    },
+    {
+      "id": "2607.00115",
+      "title": "PixelEyes: Decoupling Perception and Reasoning for Pinpoint Visual Evidence Seeking",
+      "authors": [
+        "Dengxian Gong",
+        "Yuanzheng Wu",
+        "Haobo Yuan",
+        "Zhengdong Hu",
+        "Tao Zhang",
+        "Yikang Zhou",
+        "Shihao Chen",
+        "Quanzhu Niu",
+        "Kai Wang",
+        "Jason Li",
+        "Haochen Wang",
+        "Lu Qi",
+        "Shunping Ji",
+        "Ming-Hsuan Yang"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/godx-7/PixelEyes-train-infer-eval",
+      "published": "2026-06-30T00:00:00.000Z"
+    },
+    {
+      "id": "2607.01218",
+      "title": "The State-Prediction Separation Hypothesis",
+      "authors": [
+        "Giovanni Monea",
+        "Nathan Godey",
+        "Kianté Brantley",
+        "Yoav Artzi"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2026-07-01T00:00:00.000Z"
+    },
+    {
+      "id": "2606.20997",
+      "title": "BioInsight: Multi-Agent Orchestration for Interactive Biomedical Knowledge Discovery",
+      "authors": [
+        "Jieyi Wang",
+        "Bingxuan Li",
+        "Nanyi Jiang",
+        "Desong Meng",
+        "Zirui Fan",
+        "Yuxin Guo",
+        "Jiayu Liu",
+        "Kunlun Zhu",
+        "Eddie Yang",
+        "Xiusi Chen",
+        "Pan Lu",
+        "Bingxin Zhao"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2026-06-19T00:00:00.000Z"
+    },
+    {
+      "id": "2607.00924",
+      "title": "Graph-Native Reinforcement Learning Enables Traceable Scientific Hypothesis Generation through Conceptual Recombination",
+      "authors": [
+        "Subhadeep Pal",
+        "Shashwat Sourav",
+        "Tirthankar Ghosal",
+        "Markus J. Buehler"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/lamm-mit/graph-preflexor-grpo",
+      "published": "2026-07-01T00:00:00.000Z"
+    },
+    {
+      "id": "2607.00152",
+      "title": "GRPO, Dr. GRPO, and DAPO Are Three Operations on One Number: The Group-Standard-Deviation Identity",
+      "authors": [
+        "Yong Yi Bay",
+        "Kathleen A. Yearick"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/bay-yearick-lab/grpo-standard-deviation-identity",
+      "published": "2026-06-30T00:00:00.000Z"
+    },
+    {
+      "id": "2606.32029",
+      "title": "When LLMs Read Tables Carelessly: Measuring and Reducing Data Referencing Errors",
+      "authors": [
+        "Yuqing Yang",
+        "Qi Zhu",
+        "Zhen Han",
+        "Boran Han",
+        "Zhengyuan Shen",
+        "Shuai Wang",
+        "Vassilis N. Ioannidis",
+        "Huzefa Rangwala"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/ayyyq/table-referencing",
+      "published": "2026-06-30T00:00:00.000Z"
+    },
+    {
+      "id": "2606.31179",
+      "title": "HealthAgentBench: A Unified Benchmark Suite of Realistic Agentic Healthcare Environments for Challenging Frontier AI Agents",
+      "authors": [
+        "Qianchu Liu",
+        "Sheng Zhang",
+        "Guanghui Qin",
+        "Jeya Maria Jose Valanarasu",
+        "Maximilian Rokuss",
+        "Mingyu Lu",
+        "Timothy Ossowski",
+        "Juan Manuel Zambrano Chaves",
+        "Cliff Wong",
+        "Peniel Argaw",
+        "Yashna Hasija",
+        "Mu Wei",
+        "Wen-wai Yim",
+        "Qin Liu",
+        "Zilin Jing",
+        "Jason Entenmann",
+        "Naoto Usuyama",
+        "Tristan Naumann",
+        "Hoifung Poon"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/microsoft/HealthAgentBench",
+      "published": "2026-06-30T00:00:00.000Z"
+    },
+    {
+      "id": "2607.00407",
+      "title": "Personalization as Inverse Planning: Learning Latent Design Intents for Agentic Slide Generation via Structural Denoising",
+      "authors": [
+        "Tianci Liu",
+        "Zihan Dong",
+        "Linjun Zhang",
+        "Haoyu Wang",
+        "jing Gao",
+        "Emre Kiciman",
+        "Ranveer Chandra",
+        "Wei-Ting Chen"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2026-07-01T00:00:00.000Z"
+    },
+    {
+      "id": "2606.28430",
+      "title": "Building to the Test: Coding Agents Deliver What You Check, Not What You Requested",
+      "authors": [
+        "Yanuo Ma",
+        "Ben Kereopa-Yorke",
+        "Ben Schultz"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/yanuoma/b2t",
+      "published": "2026-06-26T00:00:00.000Z"
+    },
+    {
+      "id": "2606.30124",
+      "title": "SciIR: A Large-scale Training Dataset and Benchmark for Scientific Image Reasoning Generation",
+      "authors": [
+        "Zhiyuan Ma",
+        "Zhengfeng Shi",
+        "Yuning An",
+        "Peize Li",
+        "Jiabao Wei",
+        "Ruijie Li",
+        "Junhao Xiao",
+        "Jianjun Li",
+        "Bowen Zhou"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/MAIR-Lab-HUST/SciIR",
+      "published": "2026-06-29T00:00:00.000Z"
+    },
+    {
+      "id": "2606.26040",
+      "title": "AI translation of literary texts is \"fine\", but readers still prefer human translations",
+      "authors": [
+        "Yves Ferstler",
+        "Adam Podoxin",
+        "Ty Brassington",
+        "Roman Grundkiewicz",
+        "Maite Taboada",
+        "Marzena Karpinska"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/Yves575/lait",
+      "published": "2026-06-24T00:00:00.000Z"
+    },
+    {
+      "id": "2607.00553",
+      "title": "Cross-Domain Generalization Failure in Lightweight Intrusion Detection Models for IIoT Networks",
+      "authors": [
+        "MD Azizul Hakim",
+        "Md Shihab Uddin",
+        "Talha Ibne Anis"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2026-07-01T00:00:00.000Z"
+    },
+    {
+      "id": "2607.01131",
+      "title": "Autonomous Scientific Discovery via Iterative Meta-Reflection",
+      "authors": [
+        "Bingchen Zhao",
+        "Sara Beery",
+        "Oisin Mac Aodha"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2026-07-01T00:00:00.000Z"
+    },
+    {
+      "id": "2606.31292",
+      "title": "AtomiMed: Hierarchical Atomic Fact-Checking for Universal Clinical-Aware Medical Report Evaluation",
+      "authors": [
+        "Yuan Wang",
+        "Wanxing Chang",
+        "Songtao Jiang",
+        "Shujian Gao",
+        "Xiaotian Zhang",
+        "Ruifeng Yuan",
+        "Weiwei Cao",
+        "Bowen Shi",
+        "Ling Zhang",
+        "Zuozhu Liu",
+        "Jianpeng Zhang"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/Venn2336/MRGEvalkit",
+      "published": "2026-06-30T00:00:00.000Z"
+    },
+    {
+      "id": "2606.28661",
+      "title": "When More Sampling Hurts: The Modal Ceiling and Correlation Ceiling of Test-Time Scaling",
+      "authors": [
+        "Yong Yi Bay",
+        "Kathleen A. Yearick"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/bay-yearick-lab/sampling-ceilings",
+      "published": "2026-06-27T00:00:00.000Z"
+    },
+    {
+      "id": "2606.29464",
+      "title": "Rank-Aware Hyperbolic Alignment for Vision-Language Dataset Distillation",
+      "authors": [
+        "Jongoh Jeong",
+        "Sun-Kyung Lee",
+        "Kuk-Jin Yoon"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/andyj1/raha",
+      "published": "2026-06-28T00:00:00.000Z"
+    },
+    {
+      "id": "2606.30030",
+      "title": "CogSENet: Blind Image Deblurring with Blur-Conditioned Semantic Routing and Explicit Frequency Fusion",
+      "authors": [
+        "Pan Wang",
+        "Yihao Hu",
+        "Xiujin Liu"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-06-29T00:00:00.000Z"
+    },
+    {
+      "id": "2607.00529",
+      "title": "NoPA: Non-Parametric Online 3D Scene Graph Generation",
+      "authors": [
+        "Qi Xun Yeo",
+        "Seungjun Lee",
+        "Yan Li",
+        "Gim Hee Lee"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/qixun1/nopa",
+      "published": "2026-07-01T00:00:00.000Z"
+    },
+    {
+      "id": "2606.31719",
+      "title": "Seeing Is Not Sharing: Some Vision-Language Models Overestimate Common Ground in Asymmetric Dialogue",
+      "authors": [
+        "Nan Li",
+        "Albert Gatt",
+        "Massimo Poesio"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/chnln/seeing-is-not-sharing",
+      "published": "2026-06-30T00:00:00.000Z"
+    }
+  ]
+}

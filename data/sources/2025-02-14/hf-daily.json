@@ -1,0 +1,342 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-02-14",
+  "fetched_at": "2026-10-29T15:30:36.458Z",
+  "candidates": [
+    {
+      "id": "2502.08910",
+      "title": "InfiniteHiP: Extending Language Model Context Up to 3 Million Tokens on a Single GPU",
+      "authors": [
+        "Heejun Lee",
+        "Geon Park",
+        "Jaduk Suh",
+        "Sung Ju Hwang"
+      ],
+      "upvotes": 149,
+      "github": "https://github.com/Deepauto-AI/hip-attention",
+      "published": "2025-02-13T02:52:01.000Z"
+    },
+    {
+      "id": "2502.08946",
+      "title": "The Stochastic Parrot on LLM's Shoulder: A Summative Assessment of Physical Concept Understanding",
+      "authors": [
+        "Mo Yu",
+        "Lemao Liu",
+        "Junjie Wu",
+        "Tsz Ting Chung",
+        "Shunchi Zhang",
+        "Jiangnan Li",
+        "Dit-Yan Yeung",
+        "Jie Zhou"
+      ],
+      "upvotes": 130,
+      "github": "https://github.com/physico-benchmark/physico",
+      "published": "2025-02-13T04:00:03.000Z"
+    },
+    {
+      "id": "2502.08690",
+      "title": "Skrr: Skip and Re-use Text Encoder Layers for Memory Efficient Text-to-Image Generation",
+      "authors": [
+        "Hoigi Seo",
+        "Wongi Jeong",
+        "Jae-sun Seo",
+        "Se Young Chun"
+      ],
+      "upvotes": 41,
+      "github": null,
+      "published": "2025-02-12T15:03:26.000Z"
+    },
+    {
+      "id": "2502.06608",
+      "title": "TripoSG: High-Fidelity 3D Shape Synthesis using Large-Scale Rectified Flow Models",
+      "authors": [
+        "Yangguang Li",
+        "Zi-Xin Zou",
+        "Zexiang Liu",
+        "Dehu Wang",
+        "Yuan Liang",
+        "Zhipeng Yu",
+        "Xingchao Liu",
+        "Yuan-Chen Guo",
+        "Ding Liang",
+        "Wanli Ouyang",
+        "Yan-Pei Cao"
+      ],
+      "upvotes": 38,
+      "github": "https://github.com/VAST-AI-Research/TripoSG",
+      "published": "2025-02-10T16:07:54.000Z"
+    },
+    {
+      "id": "2502.09619",
+      "title": "Can this Model Also Recognize Dogs? Zero-Shot Model Search from Weights",
+      "authors": [
+        "Jonathan Kahana",
+        "Or Nathan",
+        "Eliahu Horwitz",
+        "Yedid Hoshen"
+      ],
+      "upvotes": 36,
+      "github": null,
+      "published": "2025-02-13T18:59:44.000Z"
+    },
+    {
+      "id": "2502.09604",
+      "title": "SelfCite: Self-Supervised Alignment for Context Attribution in Large Language Models",
+      "authors": [
+        "Yung-Sung Chuang",
+        "Benjamin Cohen-Wang",
+        "Shannon Zejiang Shen",
+        "Zhaofeng Wu",
+        "Hu Xu",
+        "Xi Victoria Lin",
+        "James Glass",
+        "Shang-Wen Li",
+        "Wen-tau Yih"
+      ],
+      "upvotes": 36,
+      "github": "https://github.com/facebookresearch/SelfCite",
+      "published": "2025-02-13T18:55:13.000Z"
+    },
+    {
+      "id": "2502.09560",
+      "title": "EmbodiedBench: Comprehensive Benchmarking Multi-modal Large Language Models for Vision-Driven Embodied Agents",
+      "authors": [
+        "Rui Yang",
+        "Hanyang Chen",
+        "Junyu Zhang",
+        "Mark Zhao",
+        "Cheng Qian",
+        "Kangrui Wang",
+        "Qineng Wang",
+        "Teja Venkat Koripella",
+        "Marziyeh Movahedi",
+        "Manling Li",
+        "Heng Ji",
+        "Huan Zhang",
+        "Tong Zhang"
+      ],
+      "upvotes": 35,
+      "github": "https://github.com/EmbodiedBench/EmbodiedBench",
+      "published": "2025-02-13T18:11:34.000Z"
+    },
+    {
+      "id": "2502.09082",
+      "title": "CoSER: Coordinating LLM-Based Persona Simulation of Established Roles",
+      "authors": [
+        "Xintao Wang",
+        "Heng Wang",
+        "Yifei Zhang",
+        "Xinfeng Yuan",
+        "Rui Xu",
+        "Jen-tse Huang",
+        "Siyu Yuan",
+        "Haoran Guo",
+        "Jiangjie Chen",
+        "Wei Wang",
+        "Yanghua Xiao",
+        "Shuchang Zhou"
+      ],
+      "upvotes": 32,
+      "github": "https://github.com/Neph0s/CoSER",
+      "published": "2025-02-13T08:55:24.000Z"
+    },
+    {
+      "id": "2502.09056",
+      "title": "Adapting Language-Specific LLMs to a Reasoning Model in One Day via Model Merging -- An Open Recipe",
+      "authors": [
+        "Kunat Pipatanakul",
+        "Pittawat Taveekitworachai",
+        "Potsawee Manakul",
+        "Kasima Tharnpipitchai"
+      ],
+      "upvotes": 32,
+      "github": null,
+      "published": "2025-02-13T08:10:45.000Z"
+    },
+    {
+      "id": "2502.09621",
+      "title": "MME-CoT: Benchmarking Chain-of-Thought in Large Multimodal Models for Reasoning Quality, Robustness, and Efficiency",
+      "authors": [
+        "Dongzhi Jiang",
+        "Renrui Zhang",
+        "Ziyu Guo",
+        "Yanwei Li",
+        "Yu Qi",
+        "Xinyan Chen",
+        "Liuhui Wang",
+        "Jianhan Jin",
+        "Claire Guo",
+        "Shen Yan",
+        "Bo Zhang",
+        "Chaoyou Fu",
+        "Peng Gao",
+        "Hongsheng Li"
+      ],
+      "upvotes": 28,
+      "github": "https://github.com/CaraJ7/MME-CoT",
+      "published": "2025-02-13T18:59:46.000Z"
+    },
+    {
+      "id": "2502.09620",
+      "title": "Exploring the Potential of Encoder-free Architectures in 3D LMMs",
+      "authors": [
+        "Yiwen Tang",
+        "Zoey Guo",
+        "Zhuhao Wang",
+        "Ray Zhang",
+        "Qizhi Chen",
+        "Junli Liu",
+        "Delin Qu",
+        "Zhigang Wang",
+        "Dong Wang",
+        "Xuelong Li",
+        "Bin Zhao"
+      ],
+      "upvotes": 26,
+      "github": "https://github.com/Ivan-Tang-3D/ENEL",
+      "published": "2025-02-13T18:59:45.000Z"
+    },
+    {
+      "id": "2502.09100",
+      "title": "Logical Reasoning in Large Language Models: A Survey",
+      "authors": [
+        "Hanmeng Liu",
+        "Zhizhang Fu",
+        "Mengru Ding",
+        "Ruoxi Ning",
+        "Chaoli Zhang",
+        "Xiaozhang Liu",
+        "Yue Zhang"
+      ],
+      "upvotes": 23,
+      "github": null,
+      "published": "2025-02-13T09:19:14.000Z"
+    },
+    {
+      "id": "2502.09042",
+      "title": "Typhoon T1: An Open Thai Reasoning Model",
+      "authors": [
+        "Pittawat Taveekitworachai",
+        "Potsawee Manakul",
+        "Kasima Tharnpipitchai",
+        "Kunat Pipatanakul"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2025-02-13T07:55:54.000Z"
+    },
+    {
+      "id": "2502.08468",
+      "title": "mmE5: Improving Multimodal Multilingual Embeddings via High-quality Synthetic Data",
+      "authors": [
+        "Haonan Chen",
+        "Liang Wang",
+        "Nan Yang",
+        "Yutao Zhu",
+        "Ziliang Zhao",
+        "Furu Wei",
+        "Zhicheng Dou"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/haon-chen/mme5",
+      "published": "2025-02-12T15:03:33.000Z"
+    },
+    {
+      "id": "2502.09390",
+      "title": "SQuARE: Sequential Question Answering Reasoning Engine for Enhanced Chain-of-Thought in Large Language Models",
+      "authors": [
+        "Daniel Fleischer",
+        "Moshe Berchansky",
+        "Gad Markovits",
+        "Moshe Wasserblat"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/IntelLabs/RAG-FiT",
+      "published": "2025-02-13T15:07:20.000Z"
+    },
+    {
+      "id": "2502.09601",
+      "title": "CoT-Valve: Length-Compressible Chain-of-Thought Tuning",
+      "authors": [
+        "Xinyin Ma",
+        "Guangnian Wan",
+        "Runpeng Yu",
+        "Gongfan Fang",
+        "Xinchao Wang"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/horseee/cot-valve",
+      "published": "2025-02-13T18:52:36.000Z"
+    },
+    {
+      "id": "2502.05979",
+      "title": "VFX Creator: Animated Visual Effect Generation with Controllable Diffusion Transformer",
+      "authors": [
+        "Xinyu Liu",
+        "Ailing Zeng",
+        "Wei Xue",
+        "Harry Yang",
+        "Wenhan Luo",
+        "Qifeng Liu",
+        "Yike Guo"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/vfx-creator0/VFXCreator",
+      "published": "2025-02-09T18:12:25.000Z"
+    },
+    {
+      "id": "2502.08680",
+      "title": "Mathematical Reasoning in Large Language Models: Assessing Logical and Arithmetic Errors across Wide Numerical Ranges",
+      "authors": [
+        "Safal Shrestha",
+        "Minwu Kim",
+        "Keith Ross"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/minwukim/GSM-Ranges",
+      "published": "2025-02-12T09:53:10.000Z"
+    },
+    {
+      "id": "2502.09614",
+      "title": "DexTrack: Towards Generalizable Neural Tracking Control for Dexterous Manipulation from Human References",
+      "authors": [
+        "Xueyi Liu",
+        "Jianibieke Adalibieke",
+        "Qianwei Han",
+        "Yuzhe Qin",
+        "Li Yi"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/meowuu7/dextrack",
+      "published": "2025-02-13T18:59:13.000Z"
+    },
+    {
+      "id": "2502.05761",
+      "title": "3CAD: A Large-Scale Real-World 3C Product Dataset for Unsupervised Anomaly",
+      "authors": [
+        "Enquan Yang",
+        "Peng Xing",
+        "Hanyang Sun",
+        "Wenbo Guo",
+        "Yuanwei Ma",
+        "Zechao Li",
+        "Dan Zeng"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/enquanyang2022/3cad",
+      "published": "2025-02-09T03:37:54.000Z"
+    },
+    {
+      "id": "2502.09613",
+      "title": "Latent Radiance Fields with 3D-aware 2D Representations",
+      "authors": [
+        "Chaoyi Zhou",
+        "Xi Liu",
+        "Feng Luo",
+        "Siyu Huang"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-02-13T18:59:09.000Z"
+    }
+  ]
+}

@@ -1,0 +1,670 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-02-20",
+  "fetched_at": "2026-10-29T15:30:40.145Z",
+  "candidates": [
+    {
+      "id": "2502.13923",
+      "title": "Qwen2.5-VL Technical Report",
+      "authors": [
+        "Shuai Bai",
+        "Keqin Chen",
+        "Xuejing Liu",
+        "Jialin Wang",
+        "Wenbin Ge",
+        "Sibo Song",
+        "Kai Dang",
+        "Peng Wang",
+        "Shijie Wang",
+        "Jun Tang",
+        "Humen Zhong",
+        "Yuanzhi Zhu",
+        "Mingkun Yang",
+        "Zhaohai Li",
+        "Jianqiang Wan",
+        "Pengfei Wang",
+        "Wei Ding",
+        "Zheren Fu",
+        "Yiheng Xu",
+        "Jiabo Ye",
+        "Xi Zhang",
+        "Tianbao Xie",
+        "Zesen Cheng",
+        "Hang Zhang",
+        "Zhibo Yang",
+        "Haiyang Xu",
+        "Junyang Lin"
+      ],
+      "upvotes": 219,
+      "github": "https://github.com/QwenLM/Qwen2.5-VL",
+      "published": "2025-02-19T18:00:14.000Z"
+    },
+    {
+      "id": "2502.13595",
+      "title": "MMTEB: Massive Multilingual Text Embedding Benchmark",
+      "authors": [
+        "Kenneth Enevoldsen",
+        "Isaac Chung",
+        "Imene Kerboua",
+        "Márton Kardos",
+        "Ashwin Mathur",
+        "David Stap",
+        "Jay Gala",
+        "Wissam Siblini",
+        "Dominik Krzemiński",
+        "Genta Indra Winata",
+        "Saba Sturua",
+        "Saiteja Utpala",
+        "Mathieu Ciancone",
+        "Marion Schaeffer",
+        "Gabriel Sequeira",
+        "Diganta Misra",
+        "Shreeya Dhakal",
+        "Jonathan Rystrøm",
+        "Roman Solomatin",
+        "Ömer Çağatan",
+        "Akash Kundu",
+        "Martin Bernstorff",
+        "Shitao Xiao",
+        "Akshita Sukhlecha",
+        "Bhavish Pahwa",
+        "Rafał Poświata",
+        "Kranthi Kiran GV",
+        "Shawon Ashraf",
+        "Daniel Auras",
+        "Björn Plüster",
+        "Jan Philipp Harries",
+        "Loïc Magne",
+        "Isabelle Mohr",
+        "Mariya Hendriksen",
+        "Dawei Zhu",
+        "Hippolyte Gisserot-Boukhlef",
+        "Tom Aarsen",
+        "Jan Kostkan",
+        "Konrad Wojtasik",
+        "Taemin Lee",
+        "Marek Šuppa",
+        "Crystina Zhang",
+        "Roberta Rocca",
+        "Mohammed Hamdy",
+        "Andrianos Michail",
+        "John Yang",
+        "Manuel Faysse",
+        "Aleksei Vatolin",
+        "Nandan Thakur",
+        "Manan Dey",
+        "Dipam Vasani",
+        "Pranjal Chitale",
+        "Simone Tedeschi",
+        "Nguyen Tai",
+        "Artem Snegirev",
+        "Michael Günther",
+        "Mengzhou Xia",
+        "Weijia Shi",
+        "Xing Han Lù",
+        "Jordan Clive",
+        "Gayatri Krishnakumar",
+        "Anna Maksimova",
+        "Silvan Wehrli",
+        "Maria Tikhonova",
+        "Henil Panchal",
+        "Aleksandr Abramov",
+        "Malte Ostendorff",
+        "Zheng Liu",
+        "Simon Clematide",
+        "Lester James Miranda",
+        "Alena Fenogenova",
+        "Guangyu Song",
+        "Ruqiya Bin Safi",
+        "Wen-Ding Li",
+        "Alessia Borghini",
+        "Federico Cassano",
+        "Hongjin Su",
+        "Jimmy Lin",
+        "Howard Yen",
+        "Lasse Hansen",
+        "Sara Hooker",
+        "Chenghao Xiao",
+        "Vaibhav Adlakha",
+        "Orion Weller",
+        "Siva Reddy",
+        "Niklas Muennighoff"
+      ],
+      "upvotes": 48,
+      "github": "https://github.com/embeddings-benchmark/mteb",
+      "published": "2025-02-19T10:13:43.000Z"
+    },
+    {
+      "id": "2502.14296",
+      "title": "On the Trustworthiness of Generative Foundation Models: Guideline, Assessment, and Perspective",
+      "authors": [
+        "Yue Huang",
+        "Chujie Gao",
+        "Siyuan Wu",
+        "Haoran Wang",
+        "Xiangqi Wang",
+        "Yujun Zhou",
+        "Yanbo Wang",
+        "Jiayi Ye",
+        "Jiawen Shi",
+        "Qihui Zhang",
+        "Yuan Li",
+        "Han Bao",
+        "Zhaoyi Liu",
+        "Tianrui Guan",
+        "Dongping Chen",
+        "Ruoxi Chen",
+        "Kehan Guo",
+        "Andy Zou",
+        "Bryan Hooi Kuen-Yew",
+        "Caiming Xiong",
+        "Elias Stengel-Eskin",
+        "Hongyang Zhang",
+        "Hongzhi Yin",
+        "Huan Zhang",
+        "Huaxiu Yao",
+        "Jaehong Yoon",
+        "Jieyu Zhang",
+        "Kai Shu",
+        "Kaijie Zhu",
+        "Ranjay Krishna",
+        "Swabha Swayamdipta",
+        "Taiwei Shi",
+        "Weijia Shi",
+        "Xiang Li",
+        "Yiwei Li",
+        "Yuexing Hao",
+        "Yuexing Hao",
+        "Zhihao Jia",
+        "Zhize Li",
+        "Xiuying Chen",
+        "Zhengzhong Tu",
+        "Xiyang Hu",
+        "Tianyi Zhou",
+        "Jieyu Zhao",
+        "Lichao Sun",
+        "Furong Huang",
+        "Or Cohen Sasson",
+        "Prasanna Sattigeri",
+        "Anka Reuel",
+        "Max Lamparth",
+        "Yue Zhao",
+        "Nouha Dziri",
+        "Yu Su",
+        "Huan Sun",
+        "Heng Ji",
+        "Chaowei Xiao",
+        "Mohit Bansal",
+        "Nitesh V. Chawla",
+        "Jian Pei",
+        "Jianfeng Gao",
+        "Michael Backes",
+        "Philip S. Yu",
+        "Neil Zhenqiang Gong",
+        "Pin-Yu Chen",
+        "Bo Li",
+        "Xiangliang Zhang"
+      ],
+      "upvotes": 45,
+      "github": "https://github.com/TrustGen/TrustEval-toolkit",
+      "published": "2025-02-20T06:20:36.000Z"
+    },
+    {
+      "id": "2502.13128",
+      "title": "SongGen: A Single Stage Auto-regressive Transformer for Text-to-Song Generation",
+      "authors": [
+        "Zihan Liu",
+        "Shuangrui Ding",
+        "Zhixiong Zhang",
+        "Xiaoyi Dong",
+        "Pan Zhang",
+        "Yuhang Zang",
+        "Yuhang Cao",
+        "Dahua Lin",
+        "Jiaqi Wang"
+      ],
+      "upvotes": 41,
+      "github": "https://github.com/liuzh-19/songgen",
+      "published": "2025-02-18T18:52:21.000Z"
+    },
+    {
+      "id": "2502.12143",
+      "title": "Small Models Struggle to Learn from Strong Reasoners",
+      "authors": [
+        "Yuetai Li",
+        "Xiang Yue",
+        "Zhangchen Xu",
+        "Fengqing Jiang",
+        "Luyao Niu",
+        "Bill Yuchen Lin",
+        "Bhaskar Ramasubramanian",
+        "Radha Poovendran"
+      ],
+      "upvotes": 40,
+      "github": "https://github.com/Small-Model-Gap/Small-Model-Learnability-Gap",
+      "published": "2025-02-17T18:56:15.000Z"
+    },
+    {
+      "id": "2502.13144",
+      "title": "RAD: Training an End-to-End Driving Policy via Large-Scale 3DGS-based Reinforcement Learning",
+      "authors": [
+        "Hao Gao",
+        "Shaoyu Chen",
+        "Bo Jiang",
+        "Bencheng Liao",
+        "Yiang Shi",
+        "Xiaoyang Guo",
+        "Yuechuan Pu",
+        "Haoran Yin",
+        "Xiangyu Li",
+        "Xinbang Zhang",
+        "Ying Zhang",
+        "Wenyu Liu",
+        "Qian Zhang",
+        "Xinggang Wang"
+      ],
+      "upvotes": 38,
+      "github": null,
+      "published": "2025-02-18T18:59:21.000Z"
+    },
+    {
+      "id": "2502.13685",
+      "title": "MoM: Linear Sequence Modeling with Mixture-of-Memories",
+      "authors": [
+        "Jusen Du",
+        "Weigao Sun",
+        "Disen Lan",
+        "Jiaxi Hu",
+        "Yu Cheng"
+      ],
+      "upvotes": 36,
+      "github": "https://github.com/OpenSparseLLMs/MoM",
+      "published": "2025-02-19T12:53:55.000Z"
+    },
+    {
+      "id": "2502.13347",
+      "title": "Craw4LLM: Efficient Web Crawling for LLM Pretraining",
+      "authors": [
+        "Shi Yu",
+        "Zhiyuan Liu",
+        "Chenyan Xiong"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/cxcscmu/crawl4llm",
+      "published": "2025-02-19T00:31:43.000Z"
+    },
+    {
+      "id": "2502.13922",
+      "title": "LongPO: Long Context Self-Evolution of Large Language Models through Short-to-Long Preference Optimization",
+      "authors": [
+        "Guanzheng Chen",
+        "Xin Li",
+        "Michael Qizhe Shieh",
+        "Lidong Bing"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/DAMO-NLP-SG/LongPO",
+      "published": "2025-02-19T17:59:03.000Z"
+    },
+    {
+      "id": "2502.13962",
+      "title": "Is That Your Final Answer? Test-Time Scaling Improves Selective Question Answering",
+      "authors": [
+        "William Jurayj",
+        "Jeffrey Cheng",
+        "Benjamin Van Durme"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/wjurayj/final_answer",
+      "published": "2025-02-19T18:58:31.000Z"
+    },
+    {
+      "id": "2502.13965",
+      "title": "Autellix: An Efficient Serving Engine for LLM Agents as General Programs",
+      "authors": [
+        "Michael Luo",
+        "Xiaoxiang Shi",
+        "Colin Cai",
+        "Tianjun Zhang",
+        "Justin Wong",
+        "Yichuan Wang",
+        "Chi Wang",
+        "Yanping Huang",
+        "Zhifeng Chen",
+        "Joseph E. Gonzalez",
+        "Ion Stoica"
+      ],
+      "upvotes": 19,
+      "github": null,
+      "published": "2025-02-19T18:59:30.000Z"
+    },
+    {
+      "id": "2502.13173",
+      "title": "Thinking Preference Optimization",
+      "authors": [
+        "Wang Yang",
+        "Hongye Jin",
+        "Jingfeng Yang",
+        "Vipin Chaudhary",
+        "Xiaotian Han"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/uservan/ThinkPO",
+      "published": "2025-02-17T19:56:21.000Z"
+    },
+    {
+      "id": "2502.13233",
+      "title": "SearchRAG: Can Search Engines Be Helpful for LLM-based Medical Question Answering?",
+      "authors": [
+        "Yucheng Shi",
+        "Tianze Yang",
+        "Canyu Chen",
+        "Quanzheng Li",
+        "Tianming Liu",
+        "Xiang Li",
+        "Ninghao Liu"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2025-02-18T19:12:15.000Z"
+    },
+    {
+      "id": "2502.13533",
+      "title": "Train Small, Infer Large: Memory-Efficient LoRA Training for Large Language Models",
+      "authors": [
+        "Jun Zhang",
+        "Jue Wang",
+        "Huan Li",
+        "Lidan Shou",
+        "Ke Chen",
+        "Yang You",
+        "Guiming Xie",
+        "Xuejian Gong",
+        "Kunlong Zhou"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/junzhang-zj/LoRAM",
+      "published": "2025-02-19T08:39:15.000Z"
+    },
+    {
+      "id": "2502.11995",
+      "title": "Presumed Cultural Identity: How Names Shape LLM Responses",
+      "authors": [
+        "Siddhesh Pawar",
+        "Arnav Arora",
+        "Lucie-Aimée Kaffee",
+        "Isabelle Augenstein"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/copenlu/cultural-name-bias",
+      "published": "2025-02-17T16:35:15.000Z"
+    },
+    {
+      "id": "2502.13946",
+      "title": "Why Safeguarded Ships Run Aground? Aligned Large Language Models' Safety Mechanisms Tend to Be Anchored in The Template Region",
+      "authors": [
+        "Chak Tou Leong",
+        "Qingyu Yin",
+        "Jian Wang",
+        "Wenjie Li"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2025-02-19T18:42:45.000Z"
+    },
+    {
+      "id": "2502.11573",
+      "title": "InfiR : Crafting Effective Small Language Models and Multimodal Small Language Models in Reasoning",
+      "authors": [
+        "Congkai Xie",
+        "Shuo Cai",
+        "Wenjun Wang",
+        "Pengxiang Li",
+        "Zhijie Sang",
+        "Kejing Yang",
+        "Yiming Zhang",
+        "Zhen Li",
+        "Guanghao Zhu",
+        "Zeyu Liu",
+        "Yang Yu",
+        "Yuhang Liu",
+        "Su Lu",
+        "Baoyi He",
+        "Qi Zhou",
+        "Xiaotian Han",
+        "Jianbo Yuan",
+        "Shengyu Zhang",
+        "Fei Wu",
+        "Hongxia Yang"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/Reallm-Labs/InfiR",
+      "published": "2025-02-17T09:07:32.000Z"
+    },
+    {
+      "id": "2502.12638",
+      "title": "NExT-Mol: 3D Diffusion Meets 1D Language Modeling for 3D Molecule Generation",
+      "authors": [
+        "Zhiyuan Liu",
+        "Yanchen Luo",
+        "Han Huang",
+        "Enzhi Zhang",
+        "Sihang Li",
+        "Junfeng Fang",
+        "Yaorui Shi",
+        "Xiang Wang",
+        "Kenji Kawaguchi",
+        "Tat-Seng Chua"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/acharkq/next-mol",
+      "published": "2025-02-18T08:40:13.000Z"
+    },
+    {
+      "id": "2502.13943",
+      "title": "AdaptiveStep: Automatically Dividing Reasoning Step through Model Confidence",
+      "authors": [
+        "Yuliang Liu",
+        "Junjie Lu",
+        "Zhaoling Chen",
+        "Chaofeng Qu",
+        "Jason Klein Liu",
+        "Chonghan Liu",
+        "Zefan Cai",
+        "Yunhui Xia",
+        "Li Zhao",
+        "Jiang Bian",
+        "Chuheng Zhang",
+        "Wei Shen",
+        "Zhouhan Lin"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/lux0926/asprm",
+      "published": "2025-02-19T18:35:55.000Z"
+    },
+    {
+      "id": "2502.13138",
+      "title": "AIDE: AI-Driven Exploration in the Space of Code",
+      "authors": [
+        "Zhengyao Jiang",
+        "Dominik Schmidt",
+        "Dhruv Srikanth",
+        "Dixing Xu",
+        "Ian Kaplan",
+        "Deniss Jacenko",
+        "Yuxiang Wu"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/WecoAI/aideml",
+      "published": "2025-02-18T18:57:21.000Z"
+    },
+    {
+      "id": "2502.13270",
+      "title": "REALTALK: A 21-Day Real-World Dataset for Long-Term Conversation",
+      "authors": [
+        "Dong-Ho Lee",
+        "Adyasha Maharana",
+        "Jay Pujara",
+        "Xiang Ren",
+        "Francesco Barbieri"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/danny911kr/REALTALK",
+      "published": "2025-02-18T20:29:01.000Z"
+    },
+    {
+      "id": "2502.13791",
+      "title": "From Tools to Teammates: Evaluating LLMs in Multi-Session Coding Interactions",
+      "authors": [
+        "Nathanaël Carraz Rakotonirina",
+        "Mohammed Hamdy",
+        "Jon Ander Campos",
+        "Lucas Weber",
+        "Alberto Testoni",
+        "Marzieh Fadaee",
+        "Sandro Pezzelle",
+        "Marco Del Tredici"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/Cohere-Labs-Community/MemoryCode",
+      "published": "2025-02-19T14:58:04.000Z"
+    },
+    {
+      "id": "2502.13917",
+      "title": "TESS 2: A Large-Scale Generalist Diffusion Language Model",
+      "authors": [
+        "Jaesung Tae",
+        "Hamish Ivison",
+        "Sachin Kumar",
+        "Arman Cohan"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/hamishivi/tess-2",
+      "published": "2025-02-19T17:50:31.000Z"
+    },
+    {
+      "id": "2502.13581",
+      "title": "ActionPiece: Contextually Tokenizing Action Sequences for Generative Recommendation",
+      "authors": [
+        "Yupeng Hou",
+        "Jianmo Ni",
+        "Zhankui He",
+        "Noveen Sachdeva",
+        "Wang-Cheng Kang",
+        "Ed H. Chi",
+        "Julian McAuley",
+        "Derek Zhiyuan Cheng"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/google-deepmind/action_piece",
+      "published": "2025-02-19T09:45:29.000Z"
+    },
+    {
+      "id": "2502.14127",
+      "title": "Which of These Best Describes Multiple Choice Evaluation with LLMs? A) Forced B) Flawed C) Fixable D) All of the Above",
+      "authors": [
+        "Nishant Balepur",
+        "Rachel Rudinger",
+        "Jordan Lee Boyd-Graber"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-02-19T22:11:52.000Z"
+    },
+    {
+      "id": "2502.13908",
+      "title": "Judging the Judges: A Collection of LLM-Generated Relevance Judgements",
+      "authors": [
+        "Hossein A. Rahmani",
+        "Clemencia Siro",
+        "Mohammad Aliannejadi",
+        "Nick Craswell",
+        "Charles L. A. Clarke",
+        "Guglielmo Faggioli",
+        "Bhaskar Mitra",
+        "Paul Thomas",
+        "Emine Yilmaz"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/llm4eval/LLMJudge",
+      "published": "2025-02-19T17:40:32.000Z"
+    },
+    {
+      "id": "2502.12752",
+      "title": "High-Fidelity Novel View Synthesis via Splatting-Guided Diffusion",
+      "authors": [
+        "Xiang Zhang",
+        "Yang Zhang",
+        "Lukas Mehl",
+        "Markus Gross",
+        "Christopher Schroers"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-02-18T11:13:06.000Z"
+    },
+    {
+      "id": "2502.13622",
+      "title": "REFIND: Retrieval-Augmented Factuality Hallucination Detection in Large Language Models",
+      "authors": [
+        "DongGeon Lee",
+        "Hwanjo Yu"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/oneonlee/REFIND",
+      "published": "2025-02-19T10:59:05.000Z"
+    },
+    {
+      "id": "2502.13573",
+      "title": "Noise May Contain Transferable Knowledge: Understanding Semi-supervised Heterogeneous Domain Adaptation from an Empirical Perspective",
+      "authors": [
+        "Yuan Yao",
+        "Xiaopu Zhang",
+        "Yu Zhang",
+        "Jian Jin",
+        "Qiang Yang"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/yyyaoyuan/SHDA",
+      "published": "2025-02-19T09:27:03.000Z"
+    },
+    {
+      "id": "2502.13766",
+      "title": "GIMMICK -- Globally Inclusive Multimodal Multitask Cultural Knowledge Benchmarking",
+      "authors": [
+        "Florian Schneider",
+        "Carolin Holtermann",
+        "Chris Biemann",
+        "Anne Lauscher"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/floschne/gimmick",
+      "published": "2025-02-19T14:27:40.000Z"
+    },
+    {
+      "id": "2502.13369",
+      "title": "Reducing Hallucinations in Language Model-based SPARQL Query Generation Using Post-Generation Memory Retrieval",
+      "authors": [
+        "Aditya Sharma",
+        "Luis Lara",
+        "Amal Zouaq",
+        "Christopher J. Pal"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2025-02-19T02:08:13.000Z"
+    },
+    {
+      "id": "2502.12852",
+      "title": "MVL-SIB: A Massively Multilingual Vision-Language Benchmark for Cross-Modal Topical Matching",
+      "authors": [
+        "Fabian David Schmidt",
+        "Florian Schneider",
+        "Chris Biemann",
+        "Goran Glavaš"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2025-02-18T13:40:05.000Z"
+    }
+  ]
+}

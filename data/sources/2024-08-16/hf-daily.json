@@ -1,0 +1,231 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-08-16",
+  "fetched_at": "2026-10-29T15:28:45.747Z",
+  "candidates": [
+    {
+      "id": "2408.08152",
+      "title": "DeepSeek-Prover-V1.5: Harnessing Proof Assistant Feedback for Reinforcement Learning and Monte-Carlo Tree Search",
+      "authors": [
+        "Huajian Xin",
+        "Z. Z. Ren",
+        "Junxiao Song",
+        "Zhihong Shao",
+        "Wanjia Zhao",
+        "Haocheng Wang",
+        "Bo Liu",
+        "Liyue Zhang",
+        "Xuan Lu",
+        "Qiushi Du",
+        "Wenjun Gao",
+        "Qihao Zhu",
+        "Dejian Yang",
+        "Zhibin Gou",
+        "Z. F. Wu",
+        "Fuli Luo",
+        "Chong Ruan"
+      ],
+      "upvotes": 64,
+      "github": "https://github.com/deepseek-ai/deepseek-prover-v1.5",
+      "published": "2024-08-15T13:40:03.000Z"
+    },
+    {
+      "id": "2408.08072",
+      "title": "I-SHEEP: Self-Alignment of LLM from Scratch through an Iterative Self-Enhancement Paradigm",
+      "authors": [
+        "Yiming Liang",
+        "Ge Zhang",
+        "Xingwei Qu",
+        "Tianyu Zheng",
+        "Jiawei Guo",
+        "Xinrun Du",
+        "Zhenzhu Yang",
+        "Jiaheng Liu",
+        "Chenghua Lin",
+        "Lei Ma",
+        "Wenhao Huang",
+        "Jiajun Zhang"
+      ],
+      "upvotes": 34,
+      "github": "https://github.com/multimodal-art-projection/I-SHEEP",
+      "published": "2024-08-15T10:44:38.000Z"
+    },
+    {
+      "id": "2408.08172",
+      "title": "Towards flexible perception with visual memory",
+      "authors": [
+        "Robert Geirhos",
+        "Priyank Jaini",
+        "Austin Stone",
+        "Sourabh Medapati",
+        "Xi Yi",
+        "George Toderici",
+        "Abhijit Ogale",
+        "Jonathon Shlens"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/google-deepmind/visual-memory",
+      "published": "2024-08-15T14:19:13.000Z"
+    },
+    {
+      "id": "2408.08201",
+      "title": "Heavy Labels Out! Dataset Distillation with Label Space Lightening",
+      "authors": [
+        "Ruonan Yu",
+        "Songhua Liu",
+        "Zigeng Chen",
+        "Jingwen Ye",
+        "Xinchao Wang"
+      ],
+      "upvotes": 22,
+      "github": null,
+      "published": "2024-08-15T15:08:58.000Z"
+    },
+    {
+      "id": "2408.08189",
+      "title": "FancyVideo: Towards Dynamic and Consistent Video Generation via Cross-frame Textual Guidance",
+      "authors": [
+        "Jiasong Feng",
+        "Ao Ma",
+        "Jing Wang",
+        "Bo Cheng",
+        "Xiaodan Liang",
+        "Dawei Leng",
+        "Yuhui Yin"
+      ],
+      "upvotes": 18,
+      "github": "https://github.com/360CVGroup/FancyVideo",
+      "published": "2024-08-15T14:47:44.000Z"
+    },
+    {
+      "id": "2408.07852",
+      "title": "Training Language Models on the Knowledge Graph: Insights on Hallucinations and Their Detectability",
+      "authors": [
+        "Jiri Hron",
+        "Laura Culp",
+        "Gamaleldin Elsayed",
+        "Rosanne Liu",
+        "Ben Adlam",
+        "Maxwell Bileschi",
+        "Bernd Bohnet",
+        "JD Co-Reyes",
+        "Noah Fiedel",
+        "C. Daniel Freeman",
+        "Izzeddin Gur",
+        "Kathleen Kenealy",
+        "Jaehoon Lee",
+        "Peter J. Liu",
+        "Gaurav Mishra",
+        "Igor Mordatch",
+        "Azade Nova",
+        "Roman Novak",
+        "Aaron Parisi",
+        "Jeffrey Pennington",
+        "Alex Rizkowsky",
+        "Isabelle Simpson",
+        "Hanie Sedghi",
+        "Jascha Sohl-dickstein",
+        "Kevin Swersky",
+        "Sharad Vikram",
+        "Tris Warkentin",
+        "Lechao Xiao",
+        "Kelvin Xu",
+        "Jasper Snoek",
+        "Simon Kornblith"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2024-08-14T23:34:28.000Z"
+    },
+    {
+      "id": "2408.07990",
+      "title": "FuseChat: Knowledge Fusion of Chat Models",
+      "authors": [
+        "Fanqi Wan",
+        "Longguang Zhong",
+        "Ziyi Yang",
+        "Ruijun Chen",
+        "Xiaojun Quan"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/fanqiwan/fuseai",
+      "published": "2024-08-15T07:37:24.000Z"
+    },
+    {
+      "id": "2408.08274",
+      "title": "BAM! Just Like That: Simple and Efficient Parameter Upcycling for Mixture of Experts",
+      "authors": [
+        "Qizhen Zhang",
+        "Nikolas Gritsch",
+        "Dwaraknath Gnaneshwar",
+        "Simon Guo",
+        "David Cairuz",
+        "Bharat Venkitesh",
+        "Jakob Foerster",
+        "Phil Blunsom",
+        "Sebastian Ruder",
+        "Ahmet Ustun",
+        "Acyr Locatelli"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2024-08-15T17:19:12.000Z"
+    },
+    {
+      "id": "2408.08019",
+      "title": "Accelerating High-Fidelity Waveform Generation via Adversarial Flow Matching Optimization",
+      "authors": [
+        "Sang-Hoon Lee",
+        "Ha-Yeong Choi",
+        "Seong-Whan Lee"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/sh-lee-prml/periodwave",
+      "published": "2024-08-15T08:34:00.000Z"
+    },
+    {
+      "id": "2408.08291",
+      "title": "The ShareLM Collection and Plugin: Contributing Human-Model Chats for the Benefit of the Community",
+      "authors": [
+        "Shachar Don-Yehiya",
+        "Leshem Choshen",
+        "Omri Abend"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/shachardon/share-lm",
+      "published": "2024-08-15T17:46:54.000Z"
+    },
+    {
+      "id": "2408.08000",
+      "title": "MVInpainter: Learning Multi-View Consistent Inpainting to Bridge 2D and 3D Editing",
+      "authors": [
+        "Chenjie Cao",
+        "Chaohui Yu",
+        "Yanwei Fu",
+        "Fan Wang",
+        "Xiangyang Xue"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2024-08-15T07:57:28.000Z"
+    },
+    {
+      "id": "2408.08313",
+      "title": "Can Large Language Models Understand Symbolic Graphics Programs?",
+      "authors": [
+        "Zeju Qiu",
+        "Weiyang Liu",
+        "Haiwen Feng",
+        "Zhen Liu",
+        "Tim Z. Xiao",
+        "Katherine M. Collins",
+        "Joshua B. Tenenbaum",
+        "Adrian Weller",
+        "Michael J. Black",
+        "Bernhard Schölkopf"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2024-08-15T17:59:57.000Z"
+    }
+  ]
+}

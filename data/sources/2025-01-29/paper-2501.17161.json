@@ -1,0 +1,11 @@
+{
+  "id": "2501.17161",
+  "html": "https://arxiv.org/html/2501.17161",
+  "limitations": "In this paper, we present a comprehensive analysis of the generalization effects of foundation model post-training techniques, specifically RL and SFT. Through extensive experiments on the GeneralPoints and V-IRL tasks, we demonstrated that RL exhibits superior performance in learning generalizable knowledge, while SFT tends to merely memorize the training data, across both the rule and visual variations. This phenomenon consistently occurs across multimodal arithmetic and spatial reasoning capabilities. In addition, we studied the effect of RL on visual recognition, the role of SFT, and the role of verification steps. During our study, two challenges were not resolved. Failure of SFT on GP-VL . In Figure 5 for GP-VL , we observe that SFT fails to achieve a comparable in-distribution performance with RL. To mitigate the variance introduced by hyperparameter choices, we additionally condu",
+  "conclusion": "In this paper, we present a comprehensive analysis of the generalization effects of foundation model post-training techniques, specifically RL and SFT. Through extensive experiments on the GeneralPoints and V-IRL tasks, we demonstrated that RL exhibits superior performance in learning generalizable knowledge, while SFT tends to merely memorize the training data, across both the rule and visual variations. This phenomenon consistently occurs across multimodal arithmetic and spatial reasoning capabilities. In addition, we studied the effect of RL on visual recognition, the role of SFT, and the role of verification steps. During our study, two challenges were not resolved. Failure of SFT on GP-VL . In Figure 5 for GP-VL , we observe that SFT fails to achieve a comparable in-distribution performance with RL. To mitigate the variance introduced by hyperparameter choices, we additionally condu",
+  "figure": {
+    "path": "images/2025/paper-2501.17161.webp",
+    "src": "https://arxiv.org/html/2501.17161v2/teaser_v3.png",
+    "caption": "Figure 1: A comparative study of RL and SFT on the visual navigation environment V-IRL ( Yang et al., 2024a ) for OOD generalization. OOD curves represent performance on the same task, using a different textual action space . See detailed descriptions of the task in Section 5.1 ."
+  }
+}

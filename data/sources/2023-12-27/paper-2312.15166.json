@@ -1,0 +1,11 @@
+{
+  "id": "2312.15166",
+  "html": "https://arxiv.org/html/2312.15166",
+  "limitations": "Our study on the Depth Up-Scaling (DUS) has important limitations and considerations. One key limitation is the need for more thorough explorations of hyperparameters used in the DUS approach. Namely, we removed [math] layers from both ends of our base model, primarily due to hardware limitations. However, we have not yet determined if this value is optimal for enhancing performance. The extended time and cost of continued pretraining made it challenging to conduct more comprehensive experiments, which we aim to address in future work through various comparative analyses. In terms of the model’s broader implications, there are several points to note. The model’s significant computational demands for training and inference might limit its use, especially for those with restricted computational resources. Additionally, like all machine learning models, it is vulnerable to biases in its tra",
+  "conclusion": "We introduce SOLAR 10.7B and its fine-tuned variant SOLAR 10.7B-Instruct, which are depth up-scaled (DUS) models with 10.7 billion parameters 4 4 4 Preprint version is available on https://arxiv.org/abs/2312.15166 . . They show superior performance over models like Llama 2, Mistral 7B, and Mixtral-7B-Instruct in essential NLP tasks while maintaining computational efficiency. Thus, DUS is effective in scaling-up highly performant LLMs from smaller ones. With more exploration, DUS could be further improved, paving a new path to efficiently scaling LLMs.",
+  "figure": {
+    "path": "images/2023/paper-2312.15166.webp",
+    "src": "https://arxiv.org/html/2312.15166v3/images/dus_final.png",
+    "caption": "Figure 1: Depth up-scaling for the case with [math] and [math] . Depth up-scaling is achieved through a dual-stage process of depthwise scaling followed by continued pretraining."
+  }
+}

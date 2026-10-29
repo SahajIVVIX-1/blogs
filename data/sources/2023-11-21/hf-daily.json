@@ -1,0 +1,256 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2023-11-21",
+  "fetched_at": "2026-10-29T15:26:01.883Z",
+  "candidates": [
+    {
+      "id": "2311.10770",
+      "title": "Exponentially Faster Language Modelling",
+      "authors": [
+        "Peter Belcak",
+        "Roger Wattenhofer"
+      ],
+      "upvotes": 119,
+      "github": "https://github.com/pbelcak/fastbert",
+      "published": "2023-11-15T18:42:50.000Z"
+    },
+    {
+      "id": "2311.11045",
+      "title": "Orca 2: Teaching Small Language Models How to Reason",
+      "authors": [
+        "Arindam Mitra",
+        "Luciano Del Corro",
+        "Shweti Mahajan",
+        "Andres Codas",
+        "Clarisse Simoes",
+        "Sahaj Agrawal",
+        "Xuxi Chen",
+        "Anastasia Razdaibiedina",
+        "Erik Jones",
+        "Kriti Aggarwal",
+        "Hamid Palangi",
+        "Guoqing Zheng",
+        "Corby Rosset",
+        "Hamed Khanpour",
+        "Ahmed Awadallah"
+      ],
+      "upvotes": 77,
+      "github": null,
+      "published": "2023-11-18T11:44:52.000Z"
+    },
+    {
+      "id": "2311.10982",
+      "title": "Make Pixels Dance: High-Dynamic Video Generation",
+      "authors": [
+        "Yan Zeng",
+        "Guoqiang Wei",
+        "Jiani Zheng",
+        "Jiaxin Zou",
+        "Yang Wei",
+        "Yuchen Zhang",
+        "Hang Li"
+      ],
+      "upvotes": 67,
+      "github": null,
+      "published": "2023-11-18T06:25:58.000Z"
+    },
+    {
+      "id": "2311.11829",
+      "title": "System 2 Attention (is something you might need too)",
+      "authors": [
+        "Jason Weston",
+        "Sainbayar Sukhbaatar"
+      ],
+      "upvotes": 43,
+      "github": null,
+      "published": "2023-11-20T15:04:50.000Z"
+    },
+    {
+      "id": "2311.12022",
+      "title": "GPQA: A Graduate-Level Google-Proof Q&A Benchmark",
+      "authors": [
+        "David Rein",
+        "Betty Li Hou",
+        "Asa Cooper Stickland",
+        "Jackson Petty",
+        "Richard Yuanzhe Pang",
+        "Julien Dirani",
+        "Julian Michael",
+        "Samuel R. Bowman"
+      ],
+      "upvotes": 38,
+      "github": "https://github.com/idavidrein/gpqa",
+      "published": "2023-11-20T18:57:34.000Z"
+    },
+    {
+      "id": "2311.11501",
+      "title": "MultiLoRA: Democratizing LoRA for Better Multi-Task Learning",
+      "authors": [
+        "Yiming Wang",
+        "Yu Lin",
+        "Xiaodong Zeng",
+        "Guannan Zhang"
+      ],
+      "upvotes": 36,
+      "github": null,
+      "published": "2023-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "2311.11077",
+      "title": "Adapters: A Unified Library for Parameter-Efficient and Modular Transfer Learning",
+      "authors": [
+        "Clifton Poth",
+        "Hannah Sterz",
+        "Indraneil Paul",
+        "Sukannya Purkayastha",
+        "Leon Engländer",
+        "Timo Imhof",
+        "Ivan Vulić",
+        "Sebastian Ruder",
+        "Iryna Gurevych",
+        "Jonas Pfeiffer"
+      ],
+      "upvotes": 28,
+      "github": "https://github.com/adapter-hub/adapters",
+      "published": "2023-11-18T13:53:26.000Z"
+    },
+    {
+      "id": "2311.10794",
+      "title": "Text-to-Sticker: Style Tailoring Latent Diffusion Models for Human Expression",
+      "authors": [
+        "Animesh Sinha",
+        "Bo Sun",
+        "Anmol Kalia",
+        "Arantxa Casanova",
+        "Elliot Blanchard",
+        "David Yan",
+        "Winnie Zhang",
+        "Tony Nelli",
+        "Jiahui Chen",
+        "Hardik Shah",
+        "Licheng Yu",
+        "Mitesh Kumar Singh",
+        "Ankit Ramchandani",
+        "Maziar Sanjabi",
+        "Sonal Gupta",
+        "Amy Bearman",
+        "Dhruv Mahajan"
+      ],
+      "upvotes": 27,
+      "github": null,
+      "published": "2023-11-17T03:00:29.000Z"
+    },
+    {
+      "id": "2311.11284",
+      "title": "LucidDreamer: Towards High-Fidelity Text-to-3D Generation via Interval Score Matching",
+      "authors": [
+        "Yixun Liang",
+        "Xin Yang",
+        "Jiantao Lin",
+        "Haodong Li",
+        "Xiaogang Xu",
+        "Yingcong Chen"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/envision-research/luciddreamer",
+      "published": "2023-11-19T09:59:09.000Z"
+    },
+    {
+      "id": "2311.10768",
+      "title": "Memory Augmented Language Models through Mixture of Word Experts",
+      "authors": [
+        "Cicero Nogueira dos Santos",
+        "James Lee-Thorp",
+        "Isaac Noble",
+        "Chung-Ching Chang",
+        "David Uthus"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2023-11-15T18:19:56.000Z"
+    },
+    {
+      "id": "2311.11243",
+      "title": "AutoStory: Generating Diverse Storytelling Images with Minimal Human Effort",
+      "authors": [
+        "Wen Wang",
+        "Canyu Zhao",
+        "Hao Chen",
+        "Zhekai Chen",
+        "Kecheng Zheng",
+        "Chunhua Shen"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/aim-uofa/AutoStory",
+      "published": "2023-11-19T06:07:37.000Z"
+    },
+    {
+      "id": "2311.10751",
+      "title": "ProAgent: From Robotic Process Automation to Agentic Process Automation",
+      "authors": [
+        "Yining Ye",
+        "Xin Cong",
+        "Shizuo Tian",
+        "Jiannan Cao",
+        "Hao Wang",
+        "Yujia Qin",
+        "Yaxi Lu",
+        "Heyang Yu",
+        "Huadong Wang",
+        "Yankai Lin",
+        "Zhiyuan Liu",
+        "Maosong Sun"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/openbmb/proagent",
+      "published": "2023-11-02T14:32:16.000Z"
+    },
+    {
+      "id": "2311.11315",
+      "title": "TPTU-v2: Boosting Task Planning and Tool Usage of Large Language Model-based Agents in Real-world Systems",
+      "authors": [
+        "Yilun Kong",
+        "Jingqing Ruan",
+        "Yihong Chen",
+        "Bin Zhang",
+        "Tianpeng Bao",
+        "Shiwei Shi",
+        "Guoqing Du",
+        "Xiaoru Hu",
+        "Hangyu Mao",
+        "Ziyue Li",
+        "Xingyu Zeng",
+        "Rui Zhao"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2023-11-19T12:37:30.000Z"
+    },
+    {
+      "id": "2311.11255",
+      "title": "M^{2}UGen: Multi-modal Music Understanding and Generation with the Power of Large Language Models",
+      "authors": [
+        "Atin Sakkeer Hussain",
+        "Shansong Liu",
+        "Chenshuo Sun",
+        "Ying Shan"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/shansongliu/M2UGen",
+      "published": "2023-11-19T06:50:52.000Z"
+    },
+    {
+      "id": "2311.12015",
+      "title": "GPT-4V(ision) for Robotics: Multimodal Task Planning from Human Demonstration",
+      "authors": [
+        "Naoki Wake",
+        "Atsushi Kanehira",
+        "Kazuhiro Sasabuchi",
+        "Jun Takamatsu",
+        "Katsushi Ikeuchi"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2023-11-20T18:54:39.000Z"
+    }
+  ]
+}

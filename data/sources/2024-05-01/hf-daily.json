@@ -1,0 +1,215 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-05-01",
+  "fetched_at": "2026-10-29T15:27:40.487Z",
+  "candidates": [
+    {
+      "id": "2404.19296",
+      "title": "Octopus v4: Graph of language models",
+      "authors": [
+        "Wei Chen",
+        "Zhiyuan Li"
+      ],
+      "upvotes": 116,
+      "github": null,
+      "published": "2024-04-30T06:55:45.000Z"
+    },
+    {
+      "id": "2404.19756",
+      "title": "KAN: Kolmogorov-Arnold Networks",
+      "authors": [
+        "Ziming Liu",
+        "Yixuan Wang",
+        "Sachin Vaidya",
+        "Fabian Ruehle",
+        "James Halverson",
+        "Marin Soljačić",
+        "Thomas Y. Hou",
+        "Max Tegmark"
+      ],
+      "upvotes": 115,
+      "github": "https://github.com/kindxiaoming/pykan",
+      "published": "2024-04-30T17:58:29.000Z"
+    },
+    {
+      "id": "2404.19737",
+      "title": "Better & Faster Large Language Models via Multi-token Prediction",
+      "authors": [
+        "Fabian Gloeckle",
+        "Badr Youbi Idrissi",
+        "Baptiste Rozière",
+        "David Lopez-Paz",
+        "Gabriel Synnaeve"
+      ],
+      "upvotes": 82,
+      "github": null,
+      "published": "2024-04-30T17:33:57.000Z"
+    },
+    {
+      "id": "2404.19427",
+      "title": "InstantFamily: Masked Attention for Zero-shot Multi-ID Image Generation",
+      "authors": [
+        "Chanran Kim",
+        "Jeongin Lee",
+        "Shichang Joung",
+        "Bongmo Kim",
+        "Yeul-Min Baek"
+      ],
+      "upvotes": 74,
+      "github": null,
+      "published": "2024-04-30T10:16:21.000Z"
+    },
+    {
+      "id": "2404.19733",
+      "title": "Iterative Reasoning Preference Optimization",
+      "authors": [
+        "Richard Yuanzhe Pang",
+        "Weizhe Yuan",
+        "Kyunghyun Cho",
+        "He He",
+        "Sainbayar Sukhbaatar",
+        "Jason Weston"
+      ],
+      "upvotes": 50,
+      "github": null,
+      "published": "2024-04-30T17:28:05.000Z"
+    },
+    {
+      "id": "2404.19553",
+      "title": "Extending Llama-3's Context Ten-Fold Overnight",
+      "authors": [
+        "Peitian Zhang",
+        "Ninglu Shao",
+        "Zheng Liu",
+        "Shitao Xiao",
+        "Hongjin Qian",
+        "Qiwei Ye",
+        "Zhicheng Dou"
+      ],
+      "upvotes": 34,
+      "github": "https://github.com/flagopen/flagembedding",
+      "published": "2024-04-30T13:25:20.000Z"
+    },
+    {
+      "id": "2404.19759",
+      "title": "MotionLCM: Real-time Controllable Motion Generation via Latent Consistency Model",
+      "authors": [
+        "Wenxun Dai",
+        "Ling-Hao Chen",
+        "Jingbo Wang",
+        "Jinpeng Liu",
+        "Bo Dai",
+        "Yansong Tang"
+      ],
+      "upvotes": 28,
+      "github": "https://github.com/Dai-Wenxun/MotionLCM",
+      "published": "2024-04-30T17:59:47.000Z"
+    },
+    {
+      "id": "2404.19752",
+      "title": "Visual Fact Checker: Enabling High-Fidelity Detailed Caption Generation",
+      "authors": [
+        "Yunhao Ge",
+        "Xiaohui Zeng",
+        "Jacob Samuel Huffman",
+        "Tsung-Yi Lin",
+        "Ming-Yu Liu",
+        "Yin Cui"
+      ],
+      "upvotes": 24,
+      "github": null,
+      "published": "2024-04-30T17:55:27.000Z"
+    },
+    {
+      "id": "2404.19702",
+      "title": "GS-LRM: Large Reconstruction Model for 3D Gaussian Splatting",
+      "authors": [
+        "Kai Zhang",
+        "Sai Bi",
+        "Hao Tan",
+        "Yuanbo Xiangli",
+        "Nanxuan Zhao",
+        "Kalyan Sunkavalli",
+        "Zexiang Xu"
+      ],
+      "upvotes": 20,
+      "github": null,
+      "published": "2024-04-30T16:47:46.000Z"
+    },
+    {
+      "id": "2404.19149",
+      "title": "SAGS: Structure-Aware 3D Gaussian Splatting",
+      "authors": [
+        "Evangelos Ververas",
+        "Rolandos Alexandros Potamias",
+        "Jifei Song",
+        "Jiankang Deng",
+        "Stefanos Zafeiriou"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2024-04-29T23:26:30.000Z"
+    },
+    {
+      "id": "2404.19753",
+      "title": "DOCCI: Descriptions of Connected and Contrasting Images",
+      "authors": [
+        "Yasumasa Onoe",
+        "Sunayana Rane",
+        "Zachary Berger",
+        "Yonatan Bitton",
+        "Jaemin Cho",
+        "Roopal Garg",
+        "Alexander Ku",
+        "Zarana Parekh",
+        "Jordi Pont-Tuset",
+        "Garrett Tanzer",
+        "Su Wang",
+        "Jason Baldridge"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2024-04-30T17:56:24.000Z"
+    },
+    {
+      "id": "2404.19758",
+      "title": "Invisible Stitch: Generating Smooth 3D Scenes with Depth Inpainting",
+      "authors": [
+        "Paul Engstler",
+        "Andrea Vedaldi",
+        "Iro Laina",
+        "Christian Rupprecht"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/paulengstler/invisible-stitch",
+      "published": "2024-04-30T17:59:40.000Z"
+    },
+    {
+      "id": "2404.19525",
+      "title": "MicroDreamer: Zero-shot 3D Generation in sim20 Seconds by Score-based Iterative Reconstruction",
+      "authors": [
+        "Luxi Chen",
+        "Zhengyi Wang",
+        "Chongxuan Li",
+        "Tingting Gao",
+        "Hang Su",
+        "Jun Zhu"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/ml-gsai/microdreamer",
+      "published": "2024-04-30T12:56:14.000Z"
+    },
+    {
+      "id": "2404.19760",
+      "title": "Lightplane: Highly-Scalable Components for Neural 3D Fields",
+      "authors": [
+        "Ang Cao",
+        "Justin Johnson",
+        "Andrea Vedaldi",
+        "David Novotny"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/facebookresearch/lightplane",
+      "published": "2024-04-30T17:59:51.000Z"
+    }
+  ]
+}

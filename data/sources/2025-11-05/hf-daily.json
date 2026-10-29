@@ -1,0 +1,456 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-11-05",
+  "fetched_at": "2026-10-29T15:33:41.926Z",
+  "candidates": [
+    {
+      "id": "2510.25616",
+      "title": "Don't Blind Your VLA: Aligning Visual Representations for OOD Generalization",
+      "authors": [
+        "Nikita Kachaev",
+        "Mikhail Kolosov",
+        "Daniil Zelezetsky",
+        "Alexey K. Kovalev",
+        "Aleksandr I. Panov"
+      ],
+      "upvotes": 107,
+      "github": "https://github.com/CognitiveAISystems/BlindVLA",
+      "published": "2025-10-29T15:20:10.000Z"
+    },
+    {
+      "id": "2511.02778",
+      "title": "VCode: a Multimodal Coding Benchmark with SVG as Symbolic Visual Representation",
+      "authors": [
+        "Kevin Qinghong Lin",
+        "Yuhao Zheng",
+        "Hangyu Ran",
+        "Dantong Zhu",
+        "Dongxing Mao",
+        "Linjie Li",
+        "Philip Torr",
+        "Alex Jinpeng Wang"
+      ],
+      "upvotes": 104,
+      "github": "https://github.com/CSU-JPG/VCode",
+      "published": "2025-11-04T18:00:18.000Z"
+    },
+    {
+      "id": "2511.02779",
+      "title": "When Visualizing is the First Step to Reasoning: MIRA, a Benchmark for Visual Chain-of-Thought",
+      "authors": [
+        "Yiyang Zhou",
+        "Haoqin Tu",
+        "Zijun Wang",
+        "Zeyu Wang",
+        "Niklas Muennighoff",
+        "Fan Nie",
+        "Yejin Choi",
+        "James Zou",
+        "Chaorui Deng",
+        "Shen Yan",
+        "Haoqi Fan",
+        "Cihang Xie",
+        "Huaxiu Yao",
+        "Qinghao Ye"
+      ],
+      "upvotes": 60,
+      "github": null,
+      "published": "2025-11-04T18:00:51.000Z"
+    },
+    {
+      "id": "2511.03601",
+      "title": "Step-Audio-EditX Technical Report",
+      "authors": [
+        "Chao Yan",
+        "Boyong Wu",
+        "Peng Yang",
+        "Pengfei Tan",
+        "Guoqiang Hu",
+        "Yuxin Zhang",
+        "Xiangyu",
+        "Zhang",
+        "Fei Tian",
+        "Xuerui Yang",
+        "Xiangyu Zhang",
+        "Daxin Jiang",
+        "Gang Yu"
+      ],
+      "upvotes": 31,
+      "github": "https://github.com/stepfun-ai/Step-Audio-EditX",
+      "published": "2025-11-05T16:22:19.000Z"
+    },
+    {
+      "id": "2511.02243",
+      "title": "When Modalities Conflict: How Unimodal Reasoning Uncertainty Governs Preference Dynamics in MLLMs",
+      "authors": [
+        "Zhuoran Zhang",
+        "Tengyue Wang",
+        "Xilin Gong",
+        "Yang Shi",
+        "Haotian Wang",
+        "Di Wang",
+        "Lijie Hu"
+      ],
+      "upvotes": 25,
+      "github": null,
+      "published": "2025-11-04T04:11:31.000Z"
+    },
+    {
+      "id": "2511.02687",
+      "title": "The Collaboration Gap",
+      "authors": [
+        "Tim R. Davidson",
+        "Adam Fourney",
+        "Saleema Amershi",
+        "Robert West",
+        "Eric Horvitz",
+        "Ece Kamar"
+      ],
+      "upvotes": 23,
+      "github": null,
+      "published": "2025-11-04T16:10:57.000Z"
+    },
+    {
+      "id": "2510.25976",
+      "title": "Brain-IT: Image Reconstruction from fMRI via Brain-Interaction Transformer",
+      "authors": [
+        "Roman Beliy",
+        "Amit Zalcher",
+        "Jonathan Kogman",
+        "Navve Wasserman",
+        "Michal Irani"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2025-10-29T21:21:54.000Z"
+    },
+    {
+      "id": "2511.01937",
+      "title": "Shorter but not Worse: Frugal Reasoning via Easy Samples as Length Regularizers in Math RLVR",
+      "authors": [
+        "Abdelaziz Bounhar",
+        "Hadi Abdine",
+        "Evan Dufraisse",
+        "Ahmad Chamma",
+        "Amr Mohamed",
+        "Dani Bouch",
+        "Michalis Vazirgiannis",
+        "Guokan Shang"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/MBZUAI-Paris/Frugal-AI-Math",
+      "published": "2025-11-02T17:29:16.000Z"
+    },
+    {
+      "id": "2510.17950",
+      "title": "RoboChallenge: Large-scale Real-robot Evaluation of Embodied Policies",
+      "authors": [
+        "Adina Yakefu",
+        "Bin Xie",
+        "Chongyang Xu",
+        "Enwen Zhang",
+        "Erjin Zhou",
+        "Fan Jia",
+        "Haitao Yang",
+        "Haoqiang Fan",
+        "Haowei Zhang",
+        "Hongyang Peng",
+        "Jing Tan",
+        "Junwen Huang",
+        "Kai Liu",
+        "Kaixin Liu",
+        "Kefan Gu",
+        "Qinglun Zhang",
+        "Ruitao Zhang",
+        "Saike Huang",
+        "Shen Cheng",
+        "Shuaicheng Liu",
+        "Tiancai Wang",
+        "Tiezhen Wang",
+        "Wei Sun",
+        "Wenbin Tang",
+        "Yajun Wei",
+        "Yang Chen",
+        "Youqiang Gui",
+        "Yucheng Zhao",
+        "Yunchao Ma",
+        "Yunfei Wei",
+        "Yunhuan Yang",
+        "Yutong Guo",
+        "Ze Chen",
+        "Zhengyuan Du",
+        "Ziheng Zhang",
+        "Ziming Liu",
+        "Ziwei Yan"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2025-10-20T17:59:14.000Z"
+    },
+    {
+      "id": "2511.00839",
+      "title": "CodeClash: Benchmarking Goal-Oriented Software Engineering",
+      "authors": [
+        "John Yang",
+        "Kilian Lieret",
+        "Joyce Yang",
+        "Carlos E. Jimenez",
+        "Ofir Press",
+        "Ludwig Schmidt",
+        "Diyi Yang"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/CodeClash-ai/CodeClash",
+      "published": "2025-11-02T07:42:51.000Z"
+    },
+    {
+      "id": "2511.02650",
+      "title": "Can Visual Input Be Compressed? A Visual Token Compression Benchmark for Large Multimodal Models",
+      "authors": [
+        "Tianfan Peng",
+        "Yuntao Du",
+        "Pengzhou Ji",
+        "Shijie Dong",
+        "Kailin Jiang",
+        "Mingchuan Ma",
+        "Yijun Tian",
+        "Jinhe Bi",
+        "Qian Li",
+        "Wei Du",
+        "Feng Xiao",
+        "Lizhen Cui"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2025-11-04T15:17:06.000Z"
+    },
+    {
+      "id": "2511.02832",
+      "title": "TWIST2: Scalable, Portable, and Holistic Humanoid Data Collection System",
+      "authors": [
+        "Yanjie Ze",
+        "Siheng Zhao",
+        "Weizhuo Wang",
+        "Angjoo Kanazawa",
+        "Rocky Duan",
+        "Pieter Abbeel",
+        "Guanya Shi",
+        "Jiajun Wu",
+        "C. Karen Liu"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/amazon-far/TWIST2",
+      "published": "2025-11-04T18:58:35.000Z"
+    },
+    {
+      "id": "2510.24932",
+      "title": "RiddleBench: A New Generative Reasoning Benchmark for LLMs",
+      "authors": [
+        "Deepon Halder",
+        "Alan Saji",
+        "Thanmay Jayakumar",
+        "Ratish Puduppully",
+        "Anoop Kunchukuttan",
+        "Raj Dabre"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2025-10-28T19:58:24.000Z"
+    },
+    {
+      "id": "2511.02347",
+      "title": "LTD-Bench: Evaluating Large Language Models by Letting Them Draw",
+      "authors": [
+        "Liuhao Lin",
+        "Ke Li",
+        "Zihan Xu",
+        "Yuchen Shi",
+        "Yulei Qin",
+        "Yan Zhang",
+        "Xing Sun",
+        "Rongrong Ji"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/walktaster/LTD-Bench",
+      "published": "2025-11-04T08:11:23.000Z"
+    },
+    {
+      "id": "2511.01914",
+      "title": "iFlyBot-VLA Technical Report",
+      "authors": [
+        "Yuan Zhang",
+        "Chenyu Xue",
+        "Wenjie Xu",
+        "Chao Ji",
+        "Jiajia wu",
+        "Jia Pan"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/xuwenjie401/iFlyBot-VLA",
+      "published": "2025-11-01T06:24:56.000Z"
+    },
+    {
+      "id": "2511.01202",
+      "title": "Forget BIT, It is All about TOKEN: Towards Semantic Information Theory for LLMs",
+      "authors": [
+        "Bo Bai"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2025-11-03T03:56:34.000Z"
+    },
+    {
+      "id": "2511.02712",
+      "title": "VidEmo: Affective-Tree Reasoning for Emotion-Centric Video Foundation Models",
+      "authors": [
+        "Zhicheng Zhang",
+        "Weicheng Wang",
+        "Yongjie Zhu",
+        "Wenyu Qin",
+        "Pengfei Wan",
+        "Di Zhang",
+        "Jufeng Yang"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2025-11-04T16:31:09.000Z"
+    },
+    {
+      "id": "2511.02374",
+      "title": "AyurParam: A State-of-the-Art Bilingual Language Model for Ayurveda",
+      "authors": [
+        "Mohd Nauman",
+        "Sravan Gvm",
+        "Vijay Devane",
+        "Shyam Pawar",
+        "Viraj Thakur",
+        "Kundeshwar Pundalik",
+        "Piyush Sawarkar",
+        "Rohit Saluja",
+        "Maunendra Desarkar",
+        "Ganesh Ramakrishnan"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-11-04T08:53:21.000Z"
+    },
+    {
+      "id": "2511.02415",
+      "title": "ChartM^3: A Multi-Stage Code-Driven Pipeline for Constructing Multi-Dimensional and Multi-Step Visual Reasoning Data in Chart Comprehension",
+      "authors": [
+        "Duo Xu",
+        "Hao Cheng",
+        "Xin Lin",
+        "Zhen Xie",
+        "Hao Wang"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-11-04T09:45:34.000Z"
+    },
+    {
+      "id": "2511.02490",
+      "title": "BRAINS: A Retrieval-Augmented System for Alzheimer's Detection and Monitoring",
+      "authors": [
+        "Rajan Das Gupta",
+        "Md Kishor Morol",
+        "Nafiz Fahad",
+        "Md Tanzib Hosain",
+        "Sumaya Binte Zilani Choya",
+        "Md Jakir Hossen"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-11-04T11:27:03.000Z"
+    },
+    {
+      "id": "2511.02366",
+      "title": "LiveSecBench: A Dynamic and Culturally-Relevant AI Safety Benchmark for LLMs in Chinese Context",
+      "authors": [
+        "Yudong Li",
+        "Zhongliang Yang",
+        "Kejiang Chen",
+        "Wenxuan Wang",
+        "Tianxin Zhang",
+        "Sifang Wan",
+        "Kecheng Wang",
+        "Haitian Li",
+        "Xu Wang",
+        "Lefan Cheng",
+        "Youdan Yang",
+        "Baocheng Chen",
+        "Ziyu Liu",
+        "Yufei Sun",
+        "Liyan Wu",
+        "Wenya Wen",
+        "Xingchi Gu",
+        "Peiru Yang"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/ydli-ai/LiveSecBench",
+      "published": "2025-11-04T08:44:09.000Z"
+    },
+    {
+      "id": "2510.19278",
+      "title": "D2D: Detector-to-Differentiable Critic for Improved Numeracy in Text-to-Image Generation",
+      "authors": [
+        "Nobline Yoo",
+        "Olga Russakovsky",
+        "Ye Zhu"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2025-10-22T06:27:05.000Z"
+    },
+    {
+      "id": "2511.02219",
+      "title": "TabDSR: Decompose, Sanitize, and Reason for Complex Numerical Reasoning in Tabular Data",
+      "authors": [
+        "Changjiang Jiang",
+        "Fengchang Yu",
+        "Haihua Chen",
+        "Wei Lu",
+        "Jin Zeng"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/arnodjiang/TabDSR",
+      "published": "2025-11-04T03:13:02.000Z"
+    },
+    {
+      "id": "2511.01502",
+      "title": "Discriminately Treating Motion Components Evolves Joint Depth and Ego-Motion Learning",
+      "authors": [
+        "Mengtan Zhang",
+        "Zizhan Guo",
+        "Hongbo Zhao",
+        "Yi Feng",
+        "Zuyi Xiong",
+        "Yue Wang",
+        "Shaoyi Du",
+        "Hanli Wang",
+        "Rui Fan"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2025-11-03T12:14:52.000Z"
+    },
+    {
+      "id": "2511.01450",
+      "title": "Reg-DPO: SFT-Regularized Direct Preference Optimization with GT-Pair for Improving Video Generation",
+      "authors": [
+        "Jie Du",
+        "Xinyu Gong",
+        "Qingshan Tan",
+        "Wen Li",
+        "Yangming Cheng",
+        "Weitao Wang",
+        "Chenlu Zhan",
+        "Suhui Wu",
+        "Hao Zhang",
+        "Jun Zhang"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2025-11-03T11:04:22.000Z"
+    }
+  ]
+}

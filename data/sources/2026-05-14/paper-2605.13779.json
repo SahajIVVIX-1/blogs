@@ -1,0 +1,7 @@
+{
+  "id": "2605.13779",
+  "html": "https://arxiv.org/html/2605.13779",
+  "limitations": null,
+  "conclusion": "Post-training now couples rollout, update, evaluation, serving, scheduling, and data movement around many policy variants over a small number of expensive base-model deployments. Full-checkpoint workflows make every task branch, benchmark candidate, product version, tenant variant, rollback point, or personal policy look like another complete model deployment. This abstraction does not scale when the target workload is a large and continuously changing population of trained behaviors over shared frontier bases. MinT makes exported LoRA adapter revisions the managed unit for this setting. Base-model deployments remain resident, while adapter revisions carry trained behavior through rollout, update, export, evaluation, serving, and rollback. The adapter revision is the behavior-carrying payload; the policy record is the service state that makes that payload reproducible, schedulable, and d",
+  "figure": null
+}

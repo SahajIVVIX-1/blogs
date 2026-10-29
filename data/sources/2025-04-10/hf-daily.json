@@ -1,0 +1,344 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-04-10",
+  "fetched_at": "2026-10-29T15:31:09.982Z",
+  "candidates": [
+    {
+      "id": "2504.07096",
+      "title": "OLMoTrace: Tracing Language Model Outputs Back to Trillions of Training Tokens",
+      "authors": [
+        "Jiacheng Liu",
+        "Taylor Blanton",
+        "Yanai Elazar",
+        "Sewon Min",
+        "YenSung Chen",
+        "Arnavi Chheda-Kothary",
+        "Huy Tran",
+        "Byron Bischoff",
+        "Eric Marsh",
+        "Michael Schmitz",
+        "Cassidy Trier",
+        "Aaron Sarnat",
+        "Jenna James",
+        "Jon Borchardt",
+        "Bailey Kuehl",
+        "Evie Cheng",
+        "Karen Farley",
+        "Sruthi Sreeram",
+        "Taira Anderson",
+        "David Albright",
+        "Carissa Schoenick",
+        "Luca Soldaini",
+        "Dirk Groeneveld",
+        "Rock Yuren Pang",
+        "Pang Wei Koh",
+        "Noah A. Smith",
+        "Sophie Lebrecht",
+        "Yejin Choi",
+        "Hannaneh Hajishirzi",
+        "Ali Farhadi",
+        "Jesse Dodge"
+      ],
+      "upvotes": 78,
+      "github": "https://github.com/allenai/infinigram-api",
+      "published": "2025-04-09T17:59:35.000Z"
+    },
+    {
+      "id": "2504.05741",
+      "title": "DDT: Decoupled Diffusion Transformer",
+      "authors": [
+        "Shuai Wang",
+        "Zhi Tian",
+        "Weilin Huang",
+        "Limin Wang"
+      ],
+      "upvotes": 77,
+      "github": "https://github.com/MCG-NJU/DDT",
+      "published": "2025-04-08T07:17:45.000Z"
+    },
+    {
+      "id": "2504.06514",
+      "title": "Missing Premise exacerbates Overthinking: Are Reasoning Models losing Critical Thinking Skill?",
+      "authors": [
+        "Chenrui Fan",
+        "Ming Li",
+        "Lichao Sun",
+        "Tianyi Zhou"
+      ],
+      "upvotes": 39,
+      "github": "https://github.com/tianyi-lab/MiP-Overthinking",
+      "published": "2025-04-09T01:25:27.000Z"
+    },
+    {
+      "id": "2504.04842",
+      "title": "FantasyTalking: Realistic Talking Portrait Generation via Coherent Motion Synthesis",
+      "authors": [
+        "Mengchao Wang",
+        "Qiang Wang",
+        "Fan Jiang",
+        "Yaqi Fan",
+        "Yunpeng Zhang",
+        "Yonggang Qi",
+        "Kun Zhao",
+        "Mu Xu"
+      ],
+      "upvotes": 35,
+      "github": "https://github.com/Fantasy-AMAP/fantasy-talking",
+      "published": "2025-04-07T08:56:01.000Z"
+    },
+    {
+      "id": "2504.07046",
+      "title": "A Unified Agentic Framework for Evaluating Conditional Image Generation",
+      "authors": [
+        "Jifang Wang",
+        "Xue Yang",
+        "Longyue Wang",
+        "Zhenran Xu",
+        "Yiyu Wang",
+        "Yaowei Wang",
+        "Weihua Luo",
+        "Kaifu Zhang",
+        "Baotian Hu",
+        "Min Zhang"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/HITsz-TMG/Agentic-CIGEval",
+      "published": "2025-04-09T17:04:14.000Z"
+    },
+    {
+      "id": "2504.07083",
+      "title": "GenDoP: Auto-regressive Camera Trajectory Generation as a Director of Photography",
+      "authors": [
+        "Mengchen Zhang",
+        "Tong Wu",
+        "Jing Tan",
+        "Ziwei Liu",
+        "Gordon Wetzstein",
+        "Dahua Lin"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/3DTopia/GenDoP",
+      "published": "2025-04-09T17:56:01.000Z"
+    },
+    {
+      "id": "2504.07089",
+      "title": "OmniCaptioner: One Captioner to Rule Them All",
+      "authors": [
+        "Yiting Lu",
+        "Jiakang Yuan",
+        "Zhen Li",
+        "Shitian Zhao",
+        "Qi Qin",
+        "Xinyue Li",
+        "Le Zhuo",
+        "Licheng Wen",
+        "Dongyang Liu",
+        "Yuewen Cao",
+        "Xiangchao Yan",
+        "Xin Li",
+        "Botian Shi",
+        "Tao Chen",
+        "Zhibo Chen",
+        "Lei Bai",
+        "Bo Zhang",
+        "Peng Gao"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/alpha-innovator/omnicaptioner",
+      "published": "2025-04-09T17:58:58.000Z"
+    },
+    {
+      "id": "2504.07086",
+      "title": "A Sober Look at Progress in Language Model Reasoning: Pitfalls and Paths to Reproducibility",
+      "authors": [
+        "Andreas Hochlehnert",
+        "Hardik Bhatnagar",
+        "Vishaal Udandarao",
+        "Samuel Albanie",
+        "Ameya Prabhu",
+        "Matthias Bethge"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/bethgelab/sober-reasoning",
+      "published": "2025-04-09T17:58:17.000Z"
+    },
+    {
+      "id": "2504.07081",
+      "title": "Self-Steering Language Models",
+      "authors": [
+        "Gabriel Grand",
+        "Joshua B. Tenenbaum",
+        "Vikash K. Mansinghka",
+        "Alexander K. Lew",
+        "Jacob Andreas"
+      ],
+      "upvotes": 19,
+      "github": null,
+      "published": "2025-04-09T17:54:22.000Z"
+    },
+    {
+      "id": "2504.05541",
+      "title": "Caption Anything in Video: Fine-grained Object-centric Captioning via Spatiotemporal Multimodal Prompting",
+      "authors": [
+        "Yunlong Tang",
+        "Jing Bi",
+        "Chao Huang",
+        "Susan Liang",
+        "Daiki Shimada",
+        "Hang Hua",
+        "Yunzhong Xiao",
+        "Yizhi Song",
+        "Pinxin Liu",
+        "Mingqian Feng",
+        "Junjia Guo",
+        "Zhuo Liu",
+        "Luchuan Song",
+        "Ali Vosoughi",
+        "Jinxi He",
+        "Liu He",
+        "Zeliang Zhang",
+        "Jiebo Luo",
+        "Chenliang Xu"
+      ],
+      "upvotes": 16,
+      "github": "https://github.com/yunlong10/CAT-V",
+      "published": "2025-04-07T22:35:36.000Z"
+    },
+    {
+      "id": "2504.06958",
+      "title": "VideoChat-R1: Enhancing Spatio-Temporal Perception via Reinforcement Fine-Tuning",
+      "authors": [
+        "Xinhao Li",
+        "Ziang Yan",
+        "Desen Meng",
+        "Lu Dong",
+        "Xiangyu Zeng",
+        "Yinan He",
+        "Yali Wang",
+        "Yu Qiao",
+        "Yi Wang",
+        "Limin Wang"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/opengvlab/videochat-r1",
+      "published": "2025-04-09T15:09:27.000Z"
+    },
+    {
+      "id": "2504.03886",
+      "title": "WildGS-SLAM: Monocular Gaussian Splatting SLAM in Dynamic Environments",
+      "authors": [
+        "Jianhao Zheng",
+        "Zihan Zhu",
+        "Valentin Bieri",
+        "Marc Pollefeys",
+        "Songyou Peng",
+        "Iro Armeni"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/GradientSpaces/WildGS-SLAM",
+      "published": "2025-04-04T19:19:40.000Z"
+    },
+    {
+      "id": "2504.04010",
+      "title": "DiTaiListener: Controllable High Fidelity Listener Video Generation with Diffusion",
+      "authors": [
+        "Maksim Siniukov",
+        "Di Chang",
+        "Minh Tran",
+        "Hongkun Gong",
+        "Ashutosh Chaubey",
+        "Mohammad Soleymani"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2025-04-05T01:19:46.000Z"
+    },
+    {
+      "id": "2504.06719",
+      "title": "Masked Scene Modeling: Narrowing the Gap Between Supervised and Self-Supervised Learning in 3D Scene Understanding",
+      "authors": [
+        "Pedro Hermosilla",
+        "Christian Stippel",
+        "Leon Sick"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/phermosilla/msm",
+      "published": "2025-04-09T09:19:49.000Z"
+    },
+    {
+      "id": "2504.07092",
+      "title": "Are We Done with Object-Centric Learning?",
+      "authors": [
+        "Alexander Rubinstein",
+        "Ameya Prabhu",
+        "Matthias Bethge",
+        "Seong Joon Oh"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/AlexanderRubinstein/OCCAM",
+      "published": "2025-04-09T17:59:05.000Z"
+    },
+    {
+      "id": "2504.05287",
+      "title": "RobustDexGrasp: Robust Dexterous Grasping of General Objects from Single-view Perception",
+      "authors": [
+        "Hui Zhang",
+        "Zijian Wu",
+        "Linyi Huang",
+        "Sammy Christen",
+        "Jie Song"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/zdchan/RobustDexGrasp",
+      "published": "2025-04-07T17:38:19.000Z"
+    },
+    {
+      "id": "2504.05523",
+      "title": "Pretraining Language Models for Diachronic Linguistic Change Discovery",
+      "authors": [
+        "Elisabeth Fittschen",
+        "Sabrina Li",
+        "Tom Lippincott",
+        "Leshem Choshen",
+        "Craig Messner"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/comp-int-hum/historical-perspectival-lm",
+      "published": "2025-04-07T21:51:32.000Z"
+    },
+    {
+      "id": "2504.06947",
+      "title": "RuOpinionNE-2024: Extraction of Opinion Tuples from Russian News Texts",
+      "authors": [
+        "Natalia Loukachevitch",
+        "Natalia Tkachenko",
+        "Anna Lapanitsyna",
+        "Mikhail Tikhomirov",
+        "Nicolay Rusnachenko"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/dialogue-evaluation/RuOpinionNE-2024",
+      "published": "2025-04-09T14:54:00.000Z"
+    },
+    {
+      "id": "2504.05410",
+      "title": "Fast Controlled Generation from Language Models with Adaptive Weighted Rejection Sampling",
+      "authors": [
+        "Benjamin Lipkin",
+        "Benjamin LeBrun",
+        "Jacob Hoover Vigly",
+        "João Loula",
+        "David R. MacIver",
+        "Li Du",
+        "Jason Eisner",
+        "Ryan Cotterell",
+        "Vikash Mansinghka",
+        "Timothy J. O'Donnell",
+        "Alexander K. Lew",
+        "Tim Vieira"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2025-04-07T18:30:18.000Z"
+    }
+  ]
+}

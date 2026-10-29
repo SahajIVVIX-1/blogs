@@ -1,0 +1,185 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-03-22",
+  "fetched_at": "2026-10-29T15:27:16.108Z",
+  "candidates": [
+    {
+      "id": "2403.14624",
+      "title": "MathVerse: Does Your Multi-modal LLM Truly See the Diagrams in Visual Math Problems?",
+      "authors": [
+        "Renrui Zhang",
+        "Dongzhi Jiang",
+        "Yichi Zhang",
+        "Haokun Lin",
+        "Ziyu Guo",
+        "Pengshuo Qiu",
+        "Aojun Zhou",
+        "Pan Lu",
+        "Kai-Wei Chang",
+        "Peng Gao",
+        "Hongsheng Li"
+      ],
+      "upvotes": 52,
+      "github": null,
+      "published": "2024-03-21T17:59:50.000Z"
+    },
+    {
+      "id": "2403.14613",
+      "title": "DreamReward: Text-to-3D Generation with Human Preference",
+      "authors": [
+        "Junliang Ye",
+        "Fangfu Liu",
+        "Qixiu Li",
+        "Zhengyi Wang",
+        "Yikai Wang",
+        "Xinzhou Wang",
+        "Yueqi Duan",
+        "Jun Zhu"
+      ],
+      "upvotes": 36,
+      "github": null,
+      "published": "2024-03-21T17:58:04.000Z"
+    },
+    {
+      "id": "2403.14520",
+      "title": "Cobra: Extending Mamba to Multi-Modal Large Language Model for Efficient Inference",
+      "authors": [
+        "Han Zhao",
+        "Min Zhang",
+        "Wei Zhao",
+        "Pengxiang Ding",
+        "Siteng Huang",
+        "Donglin Wang"
+      ],
+      "upvotes": 34,
+      "github": "https://github.com/h-zhao1997/cobra",
+      "published": "2024-03-21T16:17:57.000Z"
+    },
+    {
+      "id": "2403.14468",
+      "title": "AnyV2V: A Plug-and-Play Framework For Any Video-to-Video Editing Tasks",
+      "authors": [
+        "Max Ku",
+        "Cong Wei",
+        "Weiming Ren",
+        "Huan Yang",
+        "Wenhu Chen"
+      ],
+      "upvotes": 26,
+      "github": "https://github.com/TIGER-AI-Lab/AnyV2V",
+      "published": "2024-03-21T15:15:00.000Z"
+    },
+    {
+      "id": "2403.14602",
+      "title": "ReNoise: Real Image Inversion Through Iterative Noising",
+      "authors": [
+        "Daniel Garibi",
+        "Or Patashnik",
+        "Andrey Voynov",
+        "Hadar Averbuch-Elor",
+        "Daniel Cohen-Or"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/garibida/ReNoise-Inversion",
+      "published": "2024-03-21T17:52:08.000Z"
+    },
+    {
+      "id": "2403.14148",
+      "title": "Efficient Video Diffusion Models via Content-Frame Motion-Latent Decomposition",
+      "authors": [
+        "Sihyun Yu",
+        "Weili Nie",
+        "De-An Huang",
+        "Boyi Li",
+        "Jinwoo Shin",
+        "Anima Anandkumar"
+      ],
+      "upvotes": 20,
+      "github": null,
+      "published": "2024-03-21T05:48:48.000Z"
+    },
+    {
+      "id": "2403.14599",
+      "title": "MyVLM: Personalizing VLMs for User-Specific Queries",
+      "authors": [
+        "Yuval Alaluf",
+        "Elad Richardson",
+        "Sergey Tulyakov",
+        "Kfir Aberman",
+        "Daniel Cohen-Or"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2024-03-21T17:51:01.000Z"
+    },
+    {
+      "id": "2403.14621",
+      "title": "GRM: Large Gaussian Reconstruction Model for Efficient 3D Reconstruction and Generation",
+      "authors": [
+        "Yinghao Xu",
+        "Zifan Shi",
+        "Wang Yifan",
+        "Hansheng Chen",
+        "Ceyuan Yang",
+        "Sida Peng",
+        "Yujun Shen",
+        "Gordon Wetzstein"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/justimyhxu/grm",
+      "published": "2024-03-21T17:59:34.000Z"
+    },
+    {
+      "id": "2403.14554",
+      "title": "Gaussian Frosting: Editable Complex Radiance Fields with Real-Time Rendering",
+      "authors": [
+        "Antoine Guédon",
+        "Vincent Lepetit"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2024-03-21T16:53:03.000Z"
+    },
+    {
+      "id": "2403.14611",
+      "title": "Explorative Inbetweening of Time and Space",
+      "authors": [
+        "Haiwen Feng",
+        "Zheng Ding",
+        "Zhihao Xia",
+        "Simon Niklaus",
+        "Victoria Abrevaya",
+        "Michael J. Black",
+        "Xuaner Zhang"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2024-03-21T17:57:31.000Z"
+    },
+    {
+      "id": "2403.14186",
+      "title": "StyleCineGAN: Landscape Cinemagraph Generation using a Pre-trained StyleGAN",
+      "authors": [
+        "Jongwoo Choi",
+        "Kwanggyoon Seo",
+        "Amirsaman Ashtari",
+        "Junyong Noh"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/jeolpyeoni/StyleCineGAN",
+      "published": "2024-03-21T07:21:51.000Z"
+    },
+    {
+      "id": "2403.14467",
+      "title": "Recourse for reclamation: Chatting with generative language models",
+      "authors": [
+        "Jennifer Chien",
+        "Kevin R. McKee",
+        "Jackie Kay",
+        "William Isaac"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2024-03-21T15:14:25.000Z"
+    }
+  ]
+}

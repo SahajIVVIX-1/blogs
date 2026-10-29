@@ -1,0 +1,481 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2025-10-27",
+  "fetched_at": "2026-10-29T15:33:36.481Z",
+  "candidates": [
+    {
+      "id": "2510.21618",
+      "title": "DeepAgent: A General Reasoning Agent with Scalable Toolsets",
+      "authors": [
+        "Xiaoxi Li",
+        "Wenxiang Jiao",
+        "Jiarui Jin",
+        "Guanting Dong",
+        "Jiajie Jin",
+        "Yinuo Wang",
+        "Hao Wang",
+        "Yutao Zhu",
+        "Ji-Rong Wen",
+        "Yuan Lu",
+        "Zhicheng Dou"
+      ],
+      "upvotes": 103,
+      "github": "https://github.com/RUC-NLPIR/DeepAgent",
+      "published": "2025-10-24T16:24:01.000Z"
+    },
+    {
+      "id": "2510.20888",
+      "title": "Video-As-Prompt: Unified Semantic Control for Video Generation",
+      "authors": [
+        "Yuxuan Bian",
+        "Xin Chen",
+        "Zenan Li",
+        "Tiancheng Zhi",
+        "Shen Sang",
+        "Linjie Luo",
+        "Qiang Xu"
+      ],
+      "upvotes": 51,
+      "github": "https://github.com/bytedance/Video-As-Prompt",
+      "published": "2025-10-23T17:59:52.000Z"
+    },
+    {
+      "id": "2510.14901",
+      "title": "Reasoning with Sampling: Your Base Model is Smarter Than You Think",
+      "authors": [
+        "Aayush Karan",
+        "Yilun Du"
+      ],
+      "upvotes": 47,
+      "github": "https://github.com/aakaran/reasoning-with-sampling",
+      "published": "2025-10-16T17:18:11.000Z"
+    },
+    {
+      "id": "2510.21682",
+      "title": "WorldGrow: Generating Infinite 3D World",
+      "authors": [
+        "Sikuang Li",
+        "Chen Yang",
+        "Jiemin Fang",
+        "Taoran Yi",
+        "Jia Lu",
+        "Jiazhong Cen",
+        "Lingxi Xie",
+        "Wei Shen",
+        "Qi Tian"
+      ],
+      "upvotes": 42,
+      "github": "https://github.com/world-grow/WorldGrow",
+      "published": "2025-10-24T17:39:52.000Z"
+    },
+    {
+      "id": "2510.18212",
+      "title": "A Definition of AGI",
+      "authors": [
+        "Dan Hendrycks",
+        "Dawn Song",
+        "Christian Szegedy",
+        "Honglak Lee",
+        "Yarin Gal",
+        "Erik Brynjolfsson",
+        "Sharon Li",
+        "Andy Zou",
+        "Lionel Levine",
+        "Bo Han",
+        "Jie Fu",
+        "Ziwei Liu",
+        "Jinwoo Shin",
+        "Kimin Lee",
+        "Mantas Mazeika",
+        "Long Phan",
+        "George Ingebretsen",
+        "Adam Khoja",
+        "Cihang Xie",
+        "Olawale Salaudeen",
+        "Matthias Hein",
+        "Kevin Zhao",
+        "Alexander Pan",
+        "David Duvenaud",
+        "Bo Li",
+        "Steve Omohundro",
+        "Gabriel Alfour",
+        "Max Tegmark",
+        "Kevin McGrew",
+        "Gary Marcus",
+        "Jaan Tallinn",
+        "Eric Schmidt",
+        "Yoshua Bengio"
+      ],
+      "upvotes": 36,
+      "github": null,
+      "published": "2025-10-21T01:28:35.000Z"
+    },
+    {
+      "id": "2510.19871",
+      "title": "From Denoising to Refining: A Corrective Framework for Vision-Language Diffusion Model",
+      "authors": [
+        "Yatai Ji",
+        "Teng Wang",
+        "Yuying Ge",
+        "Zhiheng Liu",
+        "Sidi Yang",
+        "Ying Shan",
+        "Ping Luo"
+      ],
+      "upvotes": 31,
+      "github": "https://github.com/jiyt17/ReDiff",
+      "published": "2025-10-22T06:58:55.000Z"
+    },
+    {
+      "id": "2510.21270",
+      "title": "Sparser Block-Sparse Attention via Token Permutation",
+      "authors": [
+        "Xinghao Wang",
+        "Pengyu Wang",
+        "Dong Zhang",
+        "Chenkun Tan",
+        "Shaojun Zhou",
+        "Zhaoxiang Liu",
+        "Shiguo Lian",
+        "Fangxu Liu",
+        "Kai Song",
+        "Xipeng Qiu"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/xinghaow99/pbs-attn",
+      "published": "2025-10-24T09:11:50.000Z"
+    },
+    {
+      "id": "2510.21583",
+      "title": "Sample By Step, Optimize By Chunk: Chunk-Level GRPO For Text-to-Image Generation",
+      "authors": [
+        "Yifu Luo",
+        "Penghui Du",
+        "Bo Li",
+        "Sinan Du",
+        "Tiantian Zhang",
+        "Yongzhe Chang",
+        "Kai Wu",
+        "Kun Gai",
+        "Xueqian Wang"
+      ],
+      "upvotes": 20,
+      "github": null,
+      "published": "2025-10-24T15:50:36.000Z"
+    },
+    {
+      "id": "2510.20286",
+      "title": "UI-Ins: Enhancing GUI Grounding with Multi-Perspective Instruction-as-Reasoning",
+      "authors": [
+        "Liangyu Chen",
+        "Hanzhang Zhou",
+        "Chenglin Cai",
+        "Jianan Zhang",
+        "Panrong Tong",
+        "Quyu Kong",
+        "Xu Zhang",
+        "Chen Liu",
+        "Yuqi Liu",
+        "Wenxuan Wang",
+        "Yue Wang",
+        "Qin Jin",
+        "Steven Hoi"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/alibaba/UI-Ins",
+      "published": "2025-10-23T07:18:32.000Z"
+    },
+    {
+      "id": "2510.21697",
+      "title": "Visual Diffusion Models are Geometric Solvers",
+      "authors": [
+        "Nir Goren",
+        "Shai Yehezkel",
+        "Omer Dahary",
+        "Andrey Voynov",
+        "Or Patashnik",
+        "Daniel Cohen-Or"
+      ],
+      "upvotes": 20,
+      "github": "https://github.com/kariander1/visual-geo-solver",
+      "published": "2025-10-24T17:57:31.000Z"
+    },
+    {
+      "id": "2510.20206",
+      "title": "RAPO++: Cross-Stage Prompt Optimization for Text-to-Video Generation via Data Alignment and Test-Time Scaling",
+      "authors": [
+        "Bingjie Gao",
+        "Qianli Ma",
+        "Xiaoxue Wu",
+        "Shuai Yang",
+        "Guanzhou Lan",
+        "Haonan Zhao",
+        "Jiaxuan Chen",
+        "Qingyang Liu",
+        "Yu Qiao",
+        "Xinyuan Chen",
+        "Yaohui Wang",
+        "Li Niu"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/Vchitect/RAPO",
+      "published": "2025-10-23T04:45:09.000Z"
+    },
+    {
+      "id": "2510.20479",
+      "title": "RECALL: REpresentation-aligned Catastrophic-forgetting ALLeviation via Hierarchical Model Merging",
+      "authors": [
+        "Bowen Wang",
+        "Haiyuan Wan",
+        "Liwen Shi",
+        "Chen Yang",
+        "Peng He",
+        "Yue Ma",
+        "Haochen Han",
+        "Wenhao Li",
+        "Tiao Tan",
+        "Yongjian Li",
+        "Fangming Liu",
+        "Yifan Gong",
+        "Sheng Zhang"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/bw-wang19/RECALL",
+      "published": "2025-10-23T12:17:37.000Z"
+    },
+    {
+      "id": "2510.21223",
+      "title": "Model Merging with Functional Dual Anchors",
+      "authors": [
+        "Kexuan Shi",
+        "Yandong Wen",
+        "Weiyang Liu"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/Sphere-AI-Lab/fda",
+      "published": "2025-10-24T07:54:06.000Z"
+    },
+    {
+      "id": "2510.20535",
+      "title": "ARC-Encoder: learning compressed text representations for large language models",
+      "authors": [
+        "Hippolyte Pilchen",
+        "Edouard Grave",
+        "Patrick Pérez"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/kyutai-labs/ARC-Encoder",
+      "published": "2025-10-23T13:20:57.000Z"
+    },
+    {
+      "id": "2510.21440",
+      "title": "Redefining Retrieval Evaluation in the Era of LLMs",
+      "authors": [
+        "Giovanni Trappolini",
+        "Florin Cuconasu",
+        "Simone Filice",
+        "Yoelle Maarek",
+        "Fabrizio Silvestri"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/GiovanniTRA/UDCG",
+      "published": "2025-10-24T13:17:00.000Z"
+    },
+    {
+      "id": "2510.13251",
+      "title": "Map the Flow: Revealing Hidden Pathways of Information in VideoLLMs",
+      "authors": [
+        "Minji Kim",
+        "Taekyung Kim",
+        "Bohyung Han"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/byminji/map-the-flow",
+      "published": "2025-10-15T07:59:06.000Z"
+    },
+    {
+      "id": "2510.21057",
+      "title": "Soft Instruction De-escalation Defense",
+      "authors": [
+        "Nils Philipp Walter",
+        "Chawin Sitawarin",
+        "Jamie Hayes",
+        "David Stutz",
+        "Ilia Shumailov"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-10-24T00:04:07.000Z"
+    },
+    {
+      "id": "2510.20780",
+      "title": "Are Large Reasoning Models Good Translation Evaluators? Analysis and Performance Boost",
+      "authors": [
+        "Runzhe Zhan",
+        "Zhihong Huang",
+        "Xinyi Yang",
+        "Lidia S. Chao",
+        "Min Yang",
+        "Derek F. Wong"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/NLP2CT/ThinMQM",
+      "published": "2025-10-23T17:48:36.000Z"
+    },
+    {
+      "id": "2510.17234",
+      "title": "Taming Modality Entanglement in Continual Audio-Visual Segmentation",
+      "authors": [
+        "Yuyang Hong",
+        "Qi Yang",
+        "Tao Zhang",
+        "Zili Wang",
+        "Zhaojin Fu",
+        "Kun Ding",
+        "Bin Fan",
+        "Shiming Xiang"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-10-20T07:23:36.000Z"
+    },
+    {
+      "id": "2510.21553",
+      "title": "Document Understanding, Measurement, and Manipulation Using Category Theory",
+      "authors": [
+        "Jared Claypoole",
+        "Yunye Gong",
+        "Noson S. Yanofsky",
+        "Ajay Divakaran"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2025-10-24T15:12:08.000Z"
+    },
+    {
+      "id": "2510.21447",
+      "title": "PhysWorld: From Real Videos to World Models of Deformable Objects via Physics-Aware Demonstration Synthesis",
+      "authors": [
+        "Yu Yang",
+        "Zhilu Zhang",
+        "Xiang Zhang",
+        "Yihan Zeng",
+        "Hui Li",
+        "Wangmeng Zuo"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/AlanYoung123/PhysWorld",
+      "published": "2025-10-24T13:25:39.000Z"
+    },
+    {
+      "id": "2510.21581",
+      "title": "Foley Control: Aligning a Frozen Latent Text-to-Audio Model to Video",
+      "authors": [
+        "Ciara Rowles",
+        "Varun Jampani",
+        "Simon Donné",
+        "Shimon Vainer",
+        "Julian Parker",
+        "Zach Evans"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-10-24T15:49:54.000Z"
+    },
+    {
+      "id": "2510.11370",
+      "title": "Stabilizing MoE Reinforcement Learning by Aligning Training and Inference Routers",
+      "authors": [
+        "Wenhan Ma",
+        "Hailin Zhang",
+        "Liang Zhao",
+        "Yifan Song",
+        "Yudong Wang",
+        "Zhifang Sui",
+        "Fuli Luo"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2025-10-13T13:11:27.000Z"
+    },
+    {
+      "id": "2510.21652",
+      "title": "AstaBench: Rigorous Benchmarking of AI Agents with a Scientific Research Suite",
+      "authors": [
+        "Jonathan Bragg",
+        "Mike D'Arcy",
+        "Nishant Balepur",
+        "Dan Bareket",
+        "Bhavana Dalvi",
+        "Sergey Feldman",
+        "Dany Haddad",
+        "Jena D. Hwang",
+        "Peter Jansen",
+        "Varsha Kishore",
+        "Bodhisattwa Prasad Majumder",
+        "Aakanksha Naik",
+        "Sigal Rahamimov",
+        "Kyle Richardson",
+        "Amanpreet Singh",
+        "Harshit Surana",
+        "Aryeh Tiktinsky",
+        "Rosni Vasu",
+        "Guy Wiener",
+        "Chloe Anastasiades",
+        "Stefan Candra",
+        "Jason Dunkelberger",
+        "Dan Emery",
+        "Rob Evans",
+        "Malachi Hamada",
+        "Regan Huff",
+        "Rodney Kinney",
+        "Matt Latzke",
+        "Jaron Lochner",
+        "Ruben Lozano-Aguilera",
+        "Cecile Nguyen",
+        "Smita Rao",
+        "Amber Tanaka",
+        "Brooke Vlahos",
+        "Peter Clark",
+        "Doug Downey",
+        "Yoav Goldberg",
+        "Ashish Sabharwal",
+        "Daniel S. Weld"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/allenai/asta-bench",
+      "published": "2025-10-24T17:10:26.000Z"
+    },
+    {
+      "id": "2510.21111",
+      "title": "PhysVLM-AVR: Active Visual Reasoning for Multimodal Large Language Models in Physical Environments",
+      "authors": [
+        "Weijie Zhou",
+        "Xuantang Xiong",
+        "Yi Peng",
+        "Manli Tao",
+        "Chaoyang Zhao",
+        "Honghui Dong",
+        "Ming Tang",
+        "Jinqiao Wang"
+      ],
+      "upvotes": 3,
+      "github": null,
+      "published": "2025-10-24T02:59:00.000Z"
+    },
+    {
+      "id": "2510.20708",
+      "title": "ALICE-LRI: A General Method for Lossless Range Image Generation for Spinning LiDAR Sensors without Calibration Metadata",
+      "authors": [
+        "Samuel Soutullo",
+        "Miguel Yermo",
+        "David L. Vilariño",
+        "Óscar G. Lorenzo",
+        "José C. Cabaleiro",
+        "Francisco F. Rivera"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/alice-lri/alice-lri",
+      "published": "2025-10-23T16:22:58.000Z"
+    }
+  ]
+}

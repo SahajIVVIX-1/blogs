@@ -1,0 +1,259 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-07-11",
+  "fetched_at": "2026-10-29T15:28:23.811Z",
+  "candidates": [
+    {
+      "id": "2407.07726",
+      "title": "PaliGemma: A versatile 3B VLM for transfer",
+      "authors": [
+        "Lucas Beyer",
+        "Andreas Steiner",
+        "André Susano Pinto",
+        "Alexander Kolesnikov",
+        "Xiao Wang",
+        "Daniel Salz",
+        "Maxim Neumann",
+        "Ibrahim Alabdulmohsin",
+        "Michael Tschannen",
+        "Emanuele Bugliarello",
+        "Thomas Unterthiner",
+        "Daniel Keysers",
+        "Skanda Koppula",
+        "Fangyu Liu",
+        "Adam Grycner",
+        "Alexey Gritsenko",
+        "Neil Houlsby",
+        "Manoj Kumar",
+        "Keran Rong",
+        "Julian Eisenschlos",
+        "Rishabh Kabra",
+        "Matthias Bauer",
+        "Matko Bošnjak",
+        "Xi Chen",
+        "Matthias Minderer",
+        "Paul Voigtlaender",
+        "Ioana Bica",
+        "Ivana Balazevic",
+        "Joan Puigcerver",
+        "Pinelopi Papalampidi",
+        "Olivier Henaff",
+        "Xi Xiong",
+        "Radu Soricut",
+        "Jeremiah Harmsen",
+        "Xiaohua Zhai"
+      ],
+      "upvotes": 73,
+      "github": null,
+      "published": "2024-07-10T14:57:46.000Z"
+    },
+    {
+      "id": "2407.07304",
+      "title": "Inference Performance Optimization for Large Language Models on CPUs",
+      "authors": [
+        "Pujiang He",
+        "Shan Zhou",
+        "Wenhuan Huang",
+        "Changqing Li",
+        "Duyi Wang",
+        "Bin Guo",
+        "Chen Meng",
+        "Sheng Gui",
+        "Weifei Yu",
+        "Yi Xie"
+      ],
+      "upvotes": 53,
+      "github": "https://github.com/intel/xfastertransformer",
+      "published": "2024-07-10T01:53:49.000Z"
+    },
+    {
+      "id": "2407.07895",
+      "title": "LLaVA-NeXT-Interleave: Tackling Multi-image, Video, and 3D in Large Multimodal Models",
+      "authors": [
+        "Feng Li",
+        "Renrui Zhang",
+        "Hao Zhang",
+        "Yuanhan Zhang",
+        "Bo Li",
+        "Wei Li",
+        "Zejun Ma",
+        "Chunyuan Li"
+      ],
+      "upvotes": 42,
+      "github": null,
+      "published": "2024-07-10T17:59:43.000Z"
+    },
+    {
+      "id": "2407.07860",
+      "title": "Controlling Space and Time with Diffusion Models",
+      "authors": [
+        "Daniel Watson",
+        "Saurabh Saxena",
+        "Lala Li",
+        "Andrea Tagliasacchi",
+        "David J. Fleet"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2024-07-10T17:23:33.000Z"
+    },
+    {
+      "id": "2407.07667",
+      "title": "VEnhancer: Generative Space-Time Enhancement for Video Generation",
+      "authors": [
+        "Jingwen He",
+        "Tianfan Xue",
+        "Dongyang Liu",
+        "Xinqi Lin",
+        "Peng Gao",
+        "Dahua Lin",
+        "Yu Qiao",
+        "Wanli Ouyang",
+        "Ziwei Liu"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2024-07-10T13:46:08.000Z"
+    },
+    {
+      "id": "2407.07464",
+      "title": "Video-to-Audio Generation with Hidden Alignment",
+      "authors": [
+        "Manjie Xu",
+        "Chenxing Li",
+        "Yong Ren",
+        "Rilin Chen",
+        "Yu Gu",
+        "Wei Liang",
+        "Dong Yu"
+      ],
+      "upvotes": 16,
+      "github": null,
+      "published": "2024-07-10T08:40:39.000Z"
+    },
+    {
+      "id": "2407.08674",
+      "title": "Still-Moving: Customized Video Generation without Customized Video Data",
+      "authors": [
+        "Hila Chefer",
+        "Shiran Zada",
+        "Roni Paiss",
+        "Ariel Ephrat",
+        "Omer Tov",
+        "Michael Rubinstein",
+        "Lior Wolf",
+        "Tali Dekel",
+        "Tomer Michaeli",
+        "Inbar Mosseri"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2024-07-11T17:06:53.000Z"
+    },
+    {
+      "id": "2302.06555",
+      "title": "Do Vision and Language Models Share Concepts? A Vector Space Alignment Study",
+      "authors": [
+        "Jiaang Li",
+        "Yova Kementchedjhieva",
+        "Constanza Fierro",
+        "Anders Søgaard"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/jiaangli/vlca",
+      "published": "2023-02-13T17:55:54.000Z"
+    },
+    {
+      "id": "2407.07315",
+      "title": "CosmoCLIP: Generalizing Large Vision-Language Models for Astronomical Imaging",
+      "authors": [
+        "Raza Imam",
+        "Mohammed Talha Alam",
+        "Umaima Rahman",
+        "Mohsen Guizani",
+        "Fakhri Karray"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2024-07-10T02:24:43.000Z"
+    },
+    {
+      "id": "2407.07565",
+      "title": "On Leakage of Code Generation Evaluation Datasets",
+      "authors": [
+        "Alexandre Matton",
+        "Tom Sherborne",
+        "Dennis Aumiller",
+        "Elena Tommasone",
+        "Milad Alizadeh",
+        "Jingyi He",
+        "Raymond Ma",
+        "Maxime Voisin",
+        "Ellen Gilsenan-McMahon",
+        "Matthias Gallé"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2024-07-10T11:50:20.000Z"
+    },
+    {
+      "id": "2407.06188",
+      "title": "CrowdMoGen: Zero-Shot Text-Driven Collective Motion Generation",
+      "authors": [
+        "Xinying Guo",
+        "Mingyuan Zhang",
+        "Haozhe Xie",
+        "Chenyang Gu",
+        "Ziwei Liu"
+      ],
+      "upvotes": 2,
+      "github": null,
+      "published": "2024-07-08T17:59:36.000Z"
+    },
+    {
+      "id": "2407.05528",
+      "title": "An accurate detection is not all you need to combat label noise in web-noisy datasets",
+      "authors": [
+        "Paul Albert",
+        "Jack Valmadre",
+        "Eric Arazo",
+        "Tarun Krishna",
+        "Noel E. O'Connor",
+        "Kevin McGuinness"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/paulalbert31/lsa",
+      "published": "2024-07-08T00:21:42.000Z"
+    },
+    {
+      "id": "2407.05530",
+      "title": "This&That: Language-Gesture Controlled Video Generation for Robot Planning",
+      "authors": [
+        "Boyang Wang",
+        "Nikhil Sridhar",
+        "Chao Feng",
+        "Mark Van der Merwe",
+        "Adam Fishman",
+        "Nima Fazeli",
+        "Jeong Joon Park"
+      ],
+      "upvotes": 1,
+      "github": null,
+      "published": "2024-07-08T00:28:41.000Z"
+    },
+    {
+      "id": "2407.07788",
+      "title": "BiGym: A Demo-Driven Mobile Bi-Manual Manipulation Benchmark",
+      "authors": [
+        "Nikita Chernyadev",
+        "Nicholas Backshall",
+        "Xiao Ma",
+        "Yunfan Lu",
+        "Younggyo Seo",
+        "Stephen James"
+      ],
+      "upvotes": 1,
+      "github": "https://github.com/chernyadev/bigym",
+      "published": "2024-07-10T16:04:18.000Z"
+    }
+  ]
+}

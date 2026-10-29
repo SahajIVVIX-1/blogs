@@ -1,0 +1,287 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-01-02",
+  "fetched_at": "2026-10-29T15:26:27.446Z",
+  "candidates": [
+    {
+      "id": "2401.00908",
+      "title": "DocLLM: A layout-aware generative language model for multimodal document understanding",
+      "authors": [
+        "Dongsheng Wang",
+        "Natraj Raman",
+        "Mathieu Sibue",
+        "Zhiqiang Ma",
+        "Petr Babkin",
+        "Simerjot Kaur",
+        "Yulong Pei",
+        "Armineh Nourbakhsh",
+        "Xiaomo Liu"
+      ],
+      "upvotes": 192,
+      "github": null,
+      "published": "2023-12-31T22:37:52.000Z"
+    },
+    {
+      "id": "2401.00368",
+      "title": "Improving Text Embeddings with Large Language Models",
+      "authors": [
+        "Liang Wang",
+        "Nan Yang",
+        "Xiaolong Huang",
+        "Linjun Yang",
+        "Rangan Majumder",
+        "Furu Wei"
+      ],
+      "upvotes": 84,
+      "github": "https://github.com/kamalkraj/e5-mistral-7b-instruct",
+      "published": "2023-12-31T02:13:18.000Z"
+    },
+    {
+      "id": "2401.01335",
+      "title": "Self-Play Fine-Tuning Converts Weak Language Models to Strong Language Models",
+      "authors": [
+        "Zixiang Chen",
+        "Yihe Deng",
+        "Huizhuo Yuan",
+        "Kaixuan Ji",
+        "Quanquan Gu"
+      ],
+      "upvotes": 69,
+      "github": "https://github.com/uclaml/SPIN",
+      "published": "2024-01-02T18:53:13.000Z"
+    },
+    {
+      "id": "2401.01055",
+      "title": "LLaMA Beyond English: An Empirical Study on Language Capability Transfer",
+      "authors": [
+        "Jun Zhao",
+        "Zhihao Zhang",
+        "Qi Zhang",
+        "Tao Gui",
+        "Xuanjing Huang"
+      ],
+      "upvotes": 54,
+      "github": null,
+      "published": "2024-01-02T06:29:02.000Z"
+    },
+    {
+      "id": "2401.00448",
+      "title": "Beyond Chinchilla-Optimal: Accounting for Inference in Language Model Scaling Laws",
+      "authors": [
+        "Nikhil Sardana",
+        "Jonathan Frankle"
+      ],
+      "upvotes": 31,
+      "github": null,
+      "published": "2023-12-31T10:53:58.000Z"
+    },
+    {
+      "id": "2401.01325",
+      "title": "LLM Maybe LongLM: Self-Extend LLM Context Window Without Tuning",
+      "authors": [
+        "Hongye Jin",
+        "Xiaotian Han",
+        "Jingfeng Yang",
+        "Zhimeng Jiang",
+        "Zirui Liu",
+        "Chia-Yuan Chang",
+        "Huiyuan Chen",
+        "Xia Hu"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/datamllab/LongLM",
+      "published": "2024-01-02T18:30:51.000Z"
+    },
+    {
+      "id": "2401.00788",
+      "title": "Astraios: Parameter-Efficient Instruction Tuning Code Large Language Models",
+      "authors": [
+        "Terry Yue Zhuo",
+        "Armel Zebaze",
+        "Nitchakarn Suppattarachai",
+        "Leandro von Werra",
+        "Harm de Vries",
+        "Qian Liu",
+        "Niklas Muennighoff"
+      ],
+      "upvotes": 23,
+      "github": "https://github.com/bigcode-project/astraios",
+      "published": "2024-01-01T15:30:19.000Z"
+    },
+    {
+      "id": "2401.01256",
+      "title": "VideoDrafter: Content-Consistent Multi-Scene Video Generation with LLM",
+      "authors": [
+        "Fuchen Long",
+        "Zhaofan Qiu",
+        "Ting Yao",
+        "Tao Mei"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/fuchenustc/videostudio",
+      "published": "2024-01-02T15:56:48.000Z"
+    },
+    {
+      "id": "2401.01286",
+      "title": "A Comprehensive Study of Knowledge Editing for Large Language Models",
+      "authors": [
+        "Ningyu Zhang",
+        "Yunzhi Yao",
+        "Bozhong Tian",
+        "Peng Wang",
+        "Shumin Deng",
+        "Mengru Wang",
+        "Zekun Xi",
+        "Shengyu Mao",
+        "Jintian Zhang",
+        "Yuansheng Ni",
+        "Siyuan Cheng",
+        "Ziwen Xu",
+        "Xin Xu",
+        "Jia-Chen Gu",
+        "Yong Jiang",
+        "Pengjun Xie",
+        "Fei Huang",
+        "Lei Liang",
+        "Zhiqiang Zhang",
+        "Xiaowei Zhu",
+        "Jun Zhou",
+        "Huajun Chen"
+      ],
+      "upvotes": 19,
+      "github": "https://github.com/zjunlp/knowledgeeditingpapers",
+      "published": "2024-01-02T16:54:58.000Z"
+    },
+    {
+      "id": "2401.00849",
+      "title": "COSMO: COntrastive Streamlined MultimOdal Model with Interleaved Pre-Training",
+      "authors": [
+        "Alex Jinpeng Wang",
+        "Linjie Li",
+        "Kevin Qinghong Lin",
+        "Jianfeng Wang",
+        "Kevin Lin",
+        "Zhengyuan Yang",
+        "Lijuan Wang",
+        "Mike Zheng Shou"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2024-01-01T18:58:42.000Z"
+    },
+    {
+      "id": "2401.00896",
+      "title": "TrailBlazer: Trajectory Control for Diffusion-Based Video Generation",
+      "authors": [
+        "Wan-Duo Kurt Ma",
+        "J. P. Lewis",
+        "W. Bastiaan Kleijn"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/hohonu-vicml/trailblazer",
+      "published": "2023-12-31T10:51:52.000Z"
+    },
+    {
+      "id": "2401.00134",
+      "title": "Unicron: Economizing Self-Healing LLM Training at Scale",
+      "authors": [
+        "Tao He",
+        "Xue Li",
+        "Zhibin Wang",
+        "Kun Qian",
+        "Jingbo Xu",
+        "Wenyuan Yu",
+        "Jingren Zhou"
+      ],
+      "upvotes": 12,
+      "github": null,
+      "published": "2023-12-30T04:06:16.000Z"
+    },
+    {
+      "id": "2401.00246",
+      "title": "Boosting Large Language Model for Speech Synthesis: An Empirical Study",
+      "authors": [
+        "Hongkun Hao",
+        "Long Zhou",
+        "Shujie Liu",
+        "Jinyu Li",
+        "Shujie Hu",
+        "Rui Wang",
+        "Furu Wei"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2023-12-30T14:20:04.000Z"
+    },
+    {
+      "id": "2401.01117",
+      "title": "Q-Refine: A Perceptual Quality Refiner for AI-Generated Image",
+      "authors": [
+        "Chunyi Li",
+        "Haoning Wu",
+        "Zicheng Zhang",
+        "Hongkun Hao",
+        "Kaiwei Zhang",
+        "Lei Bai",
+        "Xiaohong Liu",
+        "Xiongkuo Min",
+        "Weisi Lin",
+        "Guangtao Zhai"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/q-future/q-refine",
+      "published": "2024-01-02T09:11:23.000Z"
+    },
+    {
+      "id": "2401.00434",
+      "title": "GeoGalactica: A Scientific Large Language Model in Geoscience",
+      "authors": [
+        "Zhouhan Lin",
+        "Cheng Deng",
+        "Le Zhou",
+        "Tianhang Zhang",
+        "Yi Xu",
+        "Yutong Xu",
+        "Zhongmou He",
+        "Yuanyuan Shi",
+        "Beiya Dai",
+        "Yunchong Song",
+        "Boyi Zeng",
+        "Qiyuan Chen",
+        "Tao Shi",
+        "Tianyu Huang",
+        "Yiwei Xu",
+        "Shu Wang",
+        "Luoyi Fu",
+        "Weinan Zhang",
+        "Junxian He",
+        "Chao Ma",
+        "Yunqiang Zhu",
+        "Xinbing Wang",
+        "Chenghu Zhou"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/geobrain-ai/geogalactica",
+      "published": "2023-12-31T09:22:54.000Z"
+    },
+    {
+      "id": "2401.00604",
+      "title": "SteinDreamer: Variance Reduction for Text-to-3D Score Distillation via Stein Identity",
+      "authors": [
+        "Peihao Wang",
+        "Zhiwen Fan",
+        "Dejia Xu",
+        "Dilin Wang",
+        "Sreyas Mohan",
+        "Forrest Iandola",
+        "Rakesh Ranjan",
+        "Yilei Li",
+        "Qiang Liu",
+        "Zhangyang Wang",
+        "Vikas Chandra"
+      ],
+      "upvotes": 5,
+      "github": null,
+      "published": "2023-12-31T23:04:25.000Z"
+    }
+  ]
+}

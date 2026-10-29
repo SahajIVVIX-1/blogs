@@ -1,0 +1,203 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2023-12-18",
+  "fetched_at": "2026-10-29T15:26:18.358Z",
+  "candidates": [
+    {
+      "id": "2312.09911",
+      "title": "Amphion: An Open-Source Audio, Music and Speech Generation Toolkit",
+      "authors": [
+        "Xueyao Zhang",
+        "Liumeng Xue",
+        "Yuancheng Wang",
+        "Yicheng Gu",
+        "Xi Chen",
+        "Zihao Fang",
+        "Haopeng Chen",
+        "Lexiao Zou",
+        "Chaoren Wang",
+        "Jun Han",
+        "Kai Chen",
+        "Haizhou Li",
+        "Zhizheng Wu"
+      ],
+      "upvotes": 54,
+      "github": "https://github.com/open-mmlab/amphion",
+      "published": "2023-12-15T16:23:21.000Z"
+    },
+    {
+      "id": "2312.10003",
+      "title": "ReST meets ReAct: Self-Improvement for Multi-Step Reasoning LLM Agent",
+      "authors": [
+        "Renat Aksitov",
+        "Sobhan Miryoosefi",
+        "Zonglin Li",
+        "Daliang Li",
+        "Sheila Babayan",
+        "Kavya Kopparapu",
+        "Zachary Fisher",
+        "Ruiqi Guo",
+        "Sushant Prakash",
+        "Pranesh Srinivasan",
+        "Manzil Zaheer",
+        "Felix Yu",
+        "Sanjiv Kumar"
+      ],
+      "upvotes": 43,
+      "github": null,
+      "published": "2023-12-15T18:20:15.000Z"
+    },
+    {
+      "id": "2312.09767",
+      "title": "DreamTalk: When Expressive Talking Head Generation Meets Diffusion Probabilistic Models",
+      "authors": [
+        "Yifeng Ma",
+        "Shiwei Zhang",
+        "Jiayu Wang",
+        "Xiang Wang",
+        "Yingya Zhang",
+        "Zhidong Deng"
+      ],
+      "upvotes": 25,
+      "github": "https://github.com/ali-vilab/dreamtalk",
+      "published": "2023-12-15T13:15:42.000Z"
+    },
+    {
+      "id": "2312.09579",
+      "title": "MobileSAMv2: Faster Segment Anything to Everything",
+      "authors": [
+        "Chaoning Zhang",
+        "Dongshen Han",
+        "Sheng Zheng",
+        "Jinwoo Choi",
+        "Tae-Ho Kim",
+        "Choong Seon Hong"
+      ],
+      "upvotes": 24,
+      "github": null,
+      "published": "2023-12-15T07:21:12.000Z"
+    },
+    {
+      "id": "2312.10035",
+      "title": "Point Transformer V3: Simpler, Faster, Stronger",
+      "authors": [
+        "Xiaoyang Wu",
+        "Li Jiang",
+        "Peng-Shuai Wang",
+        "Zhijian Liu",
+        "Xihui Liu",
+        "Yu Qiao",
+        "Wanli Ouyang",
+        "Tong He",
+        "Hengshuang Zhao"
+      ],
+      "upvotes": 21,
+      "github": "https://github.com/Pointcept/PointTransformerV3",
+      "published": "2023-12-15T18:59:59.000Z"
+    },
+    {
+      "id": "2312.09571",
+      "title": "Extending Context Window of Large Language Models via Semantic Compression",
+      "authors": [
+        "Weizhi Fei",
+        "Xueyan Niu",
+        "Pingyi Zhou",
+        "Lu Hou",
+        "Bo Bai",
+        "Lei Deng",
+        "Wei Han"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2023-12-15T07:04:33.000Z"
+    },
+    {
+      "id": "2312.09608",
+      "title": "Faster Diffusion: Rethinking the Role of UNet Encoder in Diffusion Models",
+      "authors": [
+        "Senmao Li",
+        "Taihang Hu",
+        "Fahad Shahbaz Khan",
+        "Linxuan Li",
+        "Shiqi Yang",
+        "Yaxing Wang",
+        "Ming-Ming Cheng",
+        "Jian Yang"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/hutaihang/faster-diffusion",
+      "published": "2023-12-15T08:46:43.000Z"
+    },
+    {
+      "id": "2312.10007",
+      "title": "Faithful Persona-based Conversational Dataset Generation with Large Language Models",
+      "authors": [
+        "Pegah Jandaghi",
+        "XiangHai Sheng",
+        "Xinyi Bai",
+        "Jay Pujara",
+        "Hakim Sidahmed"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/google-research-datasets/Synthetic-Persona-Chat",
+      "published": "2023-12-15T18:23:50.000Z"
+    },
+    {
+      "id": "2312.09305",
+      "title": "Stable Score Distillation for High-Quality 3D Generation",
+      "authors": [
+        "Boshi Tang",
+        "Jianan Wang",
+        "Zhiyong Wu",
+        "Lei Zhang"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2023-12-14T19:18:38.000Z"
+    },
+    {
+      "id": "2312.10029",
+      "title": "Challenges with unsupervised LLM knowledge discovery",
+      "authors": [
+        "Sebastian Farquhar",
+        "Vikrant Varma",
+        "Zachary Kenton",
+        "Johannes Gasteiger",
+        "Vladimir Mikulik",
+        "Rohin Shah"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2023-12-15T18:49:43.000Z"
+    },
+    {
+      "id": "2312.10034",
+      "title": "SlimmeRF: Slimmable Radiance Fields",
+      "authors": [
+        "Shiran Yuan",
+        "Hao Zhao"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/shiran-yuan/slimmerf",
+      "published": "2023-12-15T18:59:55.000Z"
+    },
+    {
+      "id": "2312.09323",
+      "title": "Perspectives on the State and Future of Deep Learning - 2023",
+      "authors": [
+        "Micah Goldblum",
+        "Anima Anandkumar",
+        "Richard Baraniuk",
+        "Tom Goldstein",
+        "Kyunghyun Cho",
+        "Zachary C Lipton",
+        "Melanie Mitchell",
+        "Preetum Nakkiran",
+        "Max Welling",
+        "Andrew Gordon Wilson"
+      ],
+      "upvotes": 6,
+      "github": null,
+      "published": "2023-12-07T19:58:37.000Z"
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2024-02-22",
+  "fetched_at": "2026-10-29T15:26:58.453Z",
+  "candidates": [
+    {
+      "id": "2402.13753",
+      "title": "LongRoPE: Extending LLM Context Window Beyond 2 Million Tokens",
+      "authors": [
+        "Yiran Ding",
+        "Li Lyna Zhang",
+        "Chengruidong Zhang",
+        "Yuanyuan Xu",
+        "Ning Shang",
+        "Jiahang Xu",
+        "Fan Yang",
+        "Mao Yang"
+      ],
+      "upvotes": 116,
+      "github": "https://github.com/microsoft/longrope",
+      "published": "2024-02-21T12:30:33.000Z"
+    },
+    {
+      "id": "2402.13616",
+      "title": "YOLOv9: Learning What You Want to Learn Using Programmable Gradient Information",
+      "authors": [
+        "Chien-Yao Wang",
+        "I-Hau Yeh",
+        "Hong-Yuan Mark Liao"
+      ],
+      "upvotes": 49,
+      "github": "https://github.com/ibaiGorordo/ONNX-YOLOv9-MIT-Object-Detection",
+      "published": "2024-02-21T08:42:53.000Z"
+    },
+    {
+      "id": "2402.13349",
+      "title": "Aria Everyday Activities Dataset",
+      "authors": [
+        "Zhaoyang Lv",
+        "Nickolas Charron",
+        "Pierre Moulon",
+        "Alexander Gamino",
+        "Cheng Peng",
+        "Chris Sweeney",
+        "Edward Miller",
+        "Huixuan Tang",
+        "Jeff Meissner",
+        "Jing Dong",
+        "Kiran Somasundaram",
+        "Luis Pesqueira",
+        "Mark Schwesinger",
+        "Omkar Parkhi",
+        "Qiao Gu",
+        "Renzo De Nardi",
+        "Shangyi Cheng",
+        "Steve Saarinen",
+        "Vijay Baiyya",
+        "Yuyang Zou",
+        "Richard Newcombe",
+        "Jakob Julian Engel",
+        "Xiaqing Pan",
+        "Carl Ren"
+      ],
+      "upvotes": 31,
+      "github": "https://github.com/facebookresearch/projectaria_tools",
+      "published": "2024-02-20T19:53:15.000Z"
+    },
+    {
+      "id": "2402.13929",
+      "title": "SDXL-Lightning: Progressive Adversarial Diffusion Distillation",
+      "authors": [
+        "Shanchuan Lin",
+        "Anran Wang",
+        "Xiao Yang"
+      ],
+      "upvotes": 27,
+      "github": null,
+      "published": "2024-02-21T16:51:05.000Z"
+    },
+    {
+      "id": "2402.13598",
+      "title": "User-LLM: Efficient LLM Contextualization with User Embeddings",
+      "authors": [
+        "Lin Ning",
+        "Luyang Liu",
+        "Jiaxing Wu",
+        "Neo Wu",
+        "Devora Berlowitz",
+        "Sushant Prakash",
+        "Bradley Green",
+        "Shawn O'Banion",
+        "Jun Xie"
+      ],
+      "upvotes": 22,
+      "github": null,
+      "published": "2024-02-21T08:03:27.000Z"
+    },
+    {
+      "id": "2402.14797",
+      "title": "Snap Video: Scaled Spatiotemporal Transformers for Text-to-Video Synthesis",
+      "authors": [
+        "Willi Menapace",
+        "Aliaksandr Siarohin",
+        "Ivan Skorokhodov",
+        "Ekaterina Deyneka",
+        "Tsai-Shien Chen",
+        "Anil Kag",
+        "Yuwei Fang",
+        "Aleksei Stoliar",
+        "Elisa Ricci",
+        "Jian Ren",
+        "Sergey Tulyakov"
+      ],
+      "upvotes": 21,
+      "github": null,
+      "published": "2024-02-22T18:55:08.000Z"
+    },
+    {
+      "id": "2402.12479",
+      "title": "In deep reinforcement learning, a pruned network is a good network",
+      "authors": [
+        "Johan Obando-Ceron",
+        "Aaron Courville",
+        "Pablo Samuel Castro"
+      ],
+      "upvotes": 19,
+      "github": null,
+      "published": "2024-02-19T19:34:07.000Z"
+    },
+    {
+      "id": "2402.14020",
+      "title": "Coercing LLMs to do and reveal (almost) anything",
+      "authors": [
+        "Jonas Geiping",
+        "Alex Stein",
+        "Manli Shu",
+        "Khalid Saifullah",
+        "Yuxin Wen",
+        "Tom Goldstein"
+      ],
+      "upvotes": 13,
+      "github": "https://github.com/jonasgeiping/carving",
+      "published": "2024-02-21T18:59:13.000Z"
+    },
+    {
+      "id": "2402.13573",
+      "title": "ToDo: Token Downsampling for Efficient Generation of High-Resolution Images",
+      "authors": [
+        "Ethan Smith",
+        "Nayan Saxena",
+        "Aninda Saha"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/ethansmith2000/ImprovedTokenMerge",
+      "published": "2024-02-21T07:10:28.000Z"
+    },
+    {
+      "id": "2402.13763",
+      "title": "Music Style Transfer with Time-Varying Inversion of Diffusion Models",
+      "authors": [
+        "Sifei Li",
+        "Yuxin Zhang",
+        "Fan Tang",
+        "Chongyang Ma",
+        "Weiming dong",
+        "Changsheng Xu"
+      ],
+      "upvotes": 10,
+      "github": "https://github.com/lsfhuihuiff/MusicTI_AAAI2024",
+      "published": "2024-02-21T12:38:48.000Z"
+    },
+    {
+      "id": "2402.13577",
+      "title": "BBA: Bi-Modal Behavioral Alignment for Reasoning with Large Vision-Language Models",
+      "authors": [
+        "Xueliang Zhao",
+        "Xinting Huang",
+        "Tingchen Fu",
+        "Qintong Li",
+        "Shansan Gong",
+        "Lemao Liu",
+        "Wei Bi",
+        "Lingpeng Kong"
+      ],
+      "upvotes": 9,
+      "github": null,
+      "published": "2024-02-21T07:16:29.000Z"
+    },
+    {
+      "id": "2402.14017",
+      "title": "D-Flow: Differentiating through Flows for Controlled Generation",
+      "authors": [
+        "Heli Ben-Hamu",
+        "Omri Puny",
+        "Itai Gat",
+        "Brian Karrer",
+        "Uriel Singer",
+        "Yaron Lipman"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2024-02-21T18:56:03.000Z"
+    },
+    {
+      "id": "2402.13720",
+      "title": "Ouroboros: Speculative Decoding with Large Model Enhanced Drafting",
+      "authors": [
+        "Weilin Zhao",
+        "Yuxiang Huang",
+        "Xu Han",
+        "Chaojun Xiao",
+        "Zhiyuan Liu",
+        "Maosong Sun"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/thunlp/ouroboros",
+      "published": "2024-02-21T11:31:28.000Z"
+    }
+  ]
+}

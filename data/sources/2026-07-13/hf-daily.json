@@ -1,0 +1,297 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-07-13",
+  "fetched_at": "2026-10-29T15:36:13.244Z",
+  "candidates": [
+    {
+      "id": "2607.09024",
+      "title": "Video Generation Models are General-Purpose Vision Learners",
+      "authors": [
+        "Letian Wang",
+        "Chuhan Zhang",
+        "Rishabh Kabra",
+        "Jasper Uijlings",
+        "Steven Waslander",
+        "Andrew Zisserman",
+        "Joao Carreira",
+        "Kaiming He",
+        "Misha Andriluka",
+        "Eduard Gabriel Bazavan",
+        "Andrei Zanfir",
+        "Cristian Sminchisescu"
+      ],
+      "upvotes": 82,
+      "github": null,
+      "published": "2026-07-10T00:00:00.000Z"
+    },
+    {
+      "id": "2607.08964",
+      "title": "Long-Horizon-Terminal-Bench: Testing the Limits of Agents on Long-Horizon Terminal Tasks with Dense Reward-Based Grading",
+      "authors": [
+        "Zongxia Li",
+        "Zhongzhi Li",
+        "Yucheng Shi",
+        "Ruhan Wang",
+        "Junyao Yang",
+        "Zhichao Liu",
+        "Xiyang Wu",
+        "Anhao Li",
+        "Yue Yu",
+        "Ninghao Liu",
+        "Lichao Sun",
+        "Haotao Mi",
+        "LeoweiLiang"
+      ],
+      "upvotes": 78,
+      "github": "https://github.com/zli12321/LHTB",
+      "published": "2026-07-09T00:00:00.000Z"
+    },
+    {
+      "id": "2607.09657",
+      "title": "Scalable Visual Pretraining for Language Intelligence",
+      "authors": [
+        "Yiming Zhang",
+        "Zhonghan Zhao",
+        "Wenwei Zhang",
+        "Haiteng Zhao",
+        "Tianyang Lin",
+        "Yunhua Zhou",
+        "Demin Song",
+        "Kuikun Liu",
+        "Haochen Ye",
+        "Haian Huang",
+        "Yuzhe Gu",
+        "Haijun Lv",
+        "Qipeng Guo",
+        "Bin Liu",
+        "Gaoang Wang",
+        "Kai Chen"
+      ],
+      "upvotes": 55,
+      "github": null,
+      "published": "2026-07-10T00:00:00.000Z"
+    },
+    {
+      "id": "2607.04751",
+      "title": "Trust Region Policy Distillation",
+      "authors": [
+        "Zhengpeng Xie",
+        "Li Lyna Zhang",
+        "Zeke Xie",
+        "Mao Yang"
+      ],
+      "upvotes": 34,
+      "github": null,
+      "published": "2026-07-06T00:00:00.000Z"
+    },
+    {
+      "id": "2607.07964",
+      "title": "KronQ: LLM Quantization via Kronecker-Factored Hessian",
+      "authors": [
+        "Donghyun Lee",
+        "Yuhang Li",
+        "Ruokai Yin",
+        "Priyadarshini Panda"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/Intelligent-Computing-Lab-Panda/KronQ",
+      "published": "2026-07-08T00:00:00.000Z"
+    },
+    {
+      "id": "2607.06553",
+      "title": "From RGB Generation to Dense Field Readout: Pixel-Space Dense Prediction with Text-to-Image Models",
+      "authors": [
+        "Zanyi Wang",
+        "Xin Lin",
+        "Haodong Li",
+        "Dengyang Jiang",
+        "Yijiang Li"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/xmz111/ReChannel",
+      "published": "2026-07-09T00:00:00.000Z"
+    },
+    {
+      "id": "2607.08393",
+      "title": "Towards Mechanistically Understanding Why Memorized Knowledge Fails to Generalize in Large Language Model Finetuning",
+      "authors": [
+        "Lu Dai",
+        "Ziyang Rao",
+        "Yili Wang",
+        "Hanqing Wang",
+        "Hao Liu",
+        "Hui Xiong"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2026-07-09T12:17:28.000Z"
+    },
+    {
+      "id": "2607.09415",
+      "title": "Self-Guided Test-Time Training for Long-Context LLMs",
+      "authors": [
+        "Xinyu Zhu",
+        "Zhe Xu",
+        "Xiaohan Wei",
+        "Yunchen Pu",
+        "Fei Tian",
+        "Chonglin Sun",
+        "Kaushik Rangadurai",
+        "Hua Zhi",
+        "Frank Shyu",
+        "Sandeep Pandey",
+        "Luke Simon",
+        "Yu Meng",
+        "Xi Liu"
+      ],
+      "upvotes": 13,
+      "github": null,
+      "published": "2026-07-10T00:00:00.000Z"
+    },
+    {
+      "id": "2607.09661",
+      "title": "PanoWorld: Real-World Panoramic Generation",
+      "authors": [
+        "Haoyuan Li",
+        "Dizhe Zhang",
+        "Yuemei Zhou",
+        "Xiangkai Zhang",
+        "Haoran Feng",
+        "Xiaofan Lin",
+        "Wenjie Jiang",
+        "Bo Du",
+        "Ming-Hsuan Yang",
+        "Lu Qi"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/Insta360-Research-Team/PanoWorld",
+      "published": "2026-07-10T00:00:00.000Z"
+    },
+    {
+      "id": "2607.09424",
+      "title": "A Sovereign, Open-Source Foundation Model for German and English",
+      "authors": [
+        "The Soofi-Team",
+        "Benedikt Droste",
+        "David Fitzek",
+        "Ruben Härle",
+        "Lukas Helff",
+        "Maximilian Idahl",
+        "Alex Jude",
+        "Abbas Goher Khan",
+        "Maurice Kraus",
+        "Timm Ruland",
+        "Richard Rutmann",
+        "Sebastian Sztwiertnia",
+        "Markus Frey",
+        "Daniil Gurgurov",
+        "Jan Pfister",
+        "Tom Röhr",
+        "Sebastian von Rohrscheidt",
+        "Jörg Bienert",
+        "Nicolas Flores-Herr",
+        "Simon Gottschalk",
+        "Andreas Hotho",
+        "Kristian Kersting",
+        "Joachim Köhler",
+        "Alexander Löser",
+        "Wolfgang Nejdl",
+        "Simon Ostermann",
+        "Jan Plogsties",
+        "Patrick Putzky",
+        "Mehdi Ali",
+        "Michael Fromm",
+        "Max Lübbering"
+      ],
+      "upvotes": 10,
+      "github": null,
+      "published": "2026-07-10T00:00:00.000Z"
+    },
+    {
+      "id": "2607.07673",
+      "title": "MedPMC: A Systematic Framework for Scaling High-Fidelity Medical Multimodal Data for Foundation Models",
+      "authors": [
+        "Hyunjae Kim",
+        "Dain Kim",
+        "Pan Xiao",
+        "Serina S. Applebaum",
+        "Younjoon Chung",
+        "Xuguang Ai",
+        "Yu Yin",
+        "Roy Jiang",
+        "Yuexi Du",
+        "Yawen Wei",
+        "Yiming Kong",
+        "Tuo Guo",
+        "Zhiyuan Cao",
+        "Mengmeng Du",
+        "Yuelei Fu",
+        "Yan Hu",
+        "Rui Shi",
+        "Gui Yang",
+        "Kevin W. Jin",
+        "Yuntian Liu",
+        "Yuxuan Tian",
+        "Jonathan Marquez",
+        "Zhen Chen",
+        "Sheng Zhang",
+        "Hoifung Poon",
+        "Hua Xu",
+        "Jaewoo Kang",
+        "Qingyu Chen"
+      ],
+      "upvotes": 8,
+      "github": "https://github.com/Yale-BIDS-Chen-Lab/MedPMC",
+      "published": "2026-07-08T00:00:00.000Z"
+    },
+    {
+      "id": "2607.06957",
+      "title": "Flow-ERD: Agent-type Aware Flow Matching with Entropy-Regularized Distillation for Diverse Traffic Simulation",
+      "authors": [
+        "Seulbin Hwang",
+        "Kiyoung Om",
+        "Daejung Kim",
+        "Jinhan Lee"
+      ],
+      "upvotes": 8,
+      "github": null,
+      "published": "2026-07-08T00:00:00.000Z"
+    },
+    {
+      "id": "2607.06374",
+      "title": "VaseMuseum: Digital Intelligent Museum for Ancient Greek Pottery",
+      "authors": [
+        "Jiazi Wang",
+        "Nonghai Zhang",
+        "Qiushi Xie",
+        "Zeyu Zhang",
+        "Yufeng Chen",
+        "Yang Zhao",
+        "Ling Shao",
+        "Hao Tang"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/AIGeeksGroup/VaseMuseum",
+      "published": "2026-07-07T00:00:00.000Z"
+    },
+    {
+      "id": "2607.09020",
+      "title": "Phone Segmentation and Recognition through Phonological Activation Mapping",
+      "authors": [
+        "Shikhar Bharadwaj",
+        "Kwanghee Choi",
+        "Stephen McIntosh",
+        "Chin-Jou Li",
+        "Eunjung Yeo",
+        "Daisuke Saito",
+        "Nobuaki Minematsu",
+        "Shinji Watanabe",
+        "Jian Zhu",
+        "David Harwath",
+        "David R. Mortensen"
+      ],
+      "upvotes": 4,
+      "github": "https://github.com/juice500ml/phonespam",
+      "published": "2026-07-10T00:00:00.000Z"
+    }
+  ]
+}
