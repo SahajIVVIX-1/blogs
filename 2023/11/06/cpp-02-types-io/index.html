@@ -1,0 +1,76 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>C++ · Variables, types and I/O · Sahaj&#39;s blog</title><meta name="description" content="Static types in C++, sizes of the built-in types, integer overflow, auto, const, and reading input with cin."><link rel="canonical" href="https://info.sahaj.si/blogs/2023/11/06/cpp-02-types-io/"><link rel="alternate" type="application/rss+xml" title="Sahaj's blog" href="/blogs/rss.xml"><link rel="icon" href="/blogs/favicon.svg" type="image/svg+xml"><meta property="og:title" content="C++ · Variables, types and I/O · Sahaj's blog"><meta property="og:description" content="Static types in C++, sizes of the built-in types, integer overflow, auto, const, and reading input with cin."><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@1,6..72,400;1,6..72,500&family=Source+Sans+3:wght@400;600&display=swap"><script>
+    try { const t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script><link rel="stylesheet" href="/blogs/_astro/Base.DWhaOG-g.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-head"><div class="wide"><a class="brand" href="/blogs/">Sahaj<span>.</span>blogs</a><nav class="nav" aria-label="Main"><a href="/blogs/learning-path/">Learning path</a><a href="/blogs/study/">Study</a><a href="/blogs/ai/">AI updates</a><a href="/blogs/papers/">Papers</a><a href="/blogs/archive/">Archive</a><a href="/blogs/search/">Search</a><a href="/blogs/about/">About</a></nav><button class="theme-btn" id="theme" type="button" aria-label="Toggle colour theme">◐ theme</button></div></header><main id="main"><div class="wrap"><article data-pagefind-body><div><a class="label" href="/blogs/2023/11/06/">6 Nov 2023</a><span class="label muted"> · </span><span class="chip cat" data-pagefind-filter="category">Study</span><a class="chip" href="/blogs/learning-path/#phase-2">Phase 2 · C++</a></div><h1>C++ · Variables, types and I/O</h1><p class="muted" style="font-size:1.05rem">Static types in C++, sizes of the built-in types, integer overflow, auto, const, and reading input with cin.</p><div class="prose"><p>In Python a name can point to anything. In C++ every variable has a <strong>static type</strong> that is fixed at compile time.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>type</th><th>typical size</th><th>notes</th></tr></thead><tbody><tr><td><code>int</code></td><td>4 bytes</td><td>about ±2.1 billion</td></tr><tr><td><code>long long</code></td><td>8 bytes</td><td>use it for big counts</td></tr><tr><td><code>double</code></td><td>8 bytes</td><td>the default floating-point type</td></tr><tr><td><code>char</code></td><td>1 byte</td><td>a single character</td></tr><tr><td><code>bool</code></td><td>1 byte</td><td><code>true</code> / <code>false</code></td></tr></tbody></table>
+<ul>
+<li><code>auto</code> lets the compiler deduce the type from the initialiser. The type is still static.</li>
+<li><code>const</code> makes a variable read-only.</li>
+<li>Overflowing a <strong>signed</strong> integer is <em>undefined behaviour</em>, unlike Python’s unlimited ints. Use <code>long long</code> when values can get big.</li>
+<li><code>std::cin >> x</code> reads input. I used a <code>std::istringstream</code> below so the example runs without typing anything.</li>
+</ul>
+<pre class="astro-code astro-code-themes github-light github-dark-dimmed" style="background-color:#fff;--shiki-dark-bg:#22272e;color:#24292e;--shiki-dark:#adbac7; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word;" tabindex="0" data-language="cpp"><code><span class="line"><span style="color:#D73A49;--shiki-dark:#F47067">#include</span><span style="color:#032F62;--shiki-dark:#96D0FF"> &#x3C;iostream></span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F47067">#include</span><span style="color:#032F62;--shiki-dark:#96D0FF"> &#x3C;sstream></span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F47067">#include</span><span style="color:#032F62;--shiki-dark:#96D0FF"> &#x3C;limits></span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F47067">int</span><span style="color:#6F42C1;--shiki-dark:#DCBDFB"> main</span><span style="color:#24292E;--shiki-dark:#ADBAC7">() {</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F47067">    const</span><span style="color:#D73A49;--shiki-dark:#F47067"> double</span><span style="color:#24292E;--shiki-dark:#ADBAC7"> pi </span><span style="color:#D73A49;--shiki-dark:#F47067">=</span><span style="color:#005CC5;--shiki-dark:#6CB6FF"> 3.14159</span><span style="color:#24292E;--shiki-dark:#ADBAC7">;</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F47067">    auto</span><span style="color:#24292E;--shiki-dark:#ADBAC7"> count </span><span style="color:#D73A49;--shiki-dark:#F47067">=</span><span style="color:#005CC5;--shiki-dark:#6CB6FF"> 42</span><span style="color:#24292E;--shiki-dark:#ADBAC7">;</span><span style="color:#6A737D;--shiki-dark:#768390">            // int</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F47067">    auto</span><span style="color:#24292E;--shiki-dark:#ADBAC7"> ratio </span><span style="color:#D73A49;--shiki-dark:#F47067">=</span><span style="color:#005CC5;--shiki-dark:#6CB6FF"> 0.75</span><span style="color:#24292E;--shiki-dark:#ADBAC7">;</span><span style="color:#6A737D;--shiki-dark:#768390">          // double</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F47067">    long</span><span style="color:#D73A49;--shiki-dark:#F47067"> long</span><span style="color:#24292E;--shiki-dark:#ADBAC7"> big </span><span style="color:#D73A49;--shiki-dark:#F47067">=</span><span style="color:#005CC5;--shiki-dark:#6CB6FF"> 3'000'000'000</span><span style="color:#D73A49;--shiki-dark:#F47067">LL</span><span style="color:#24292E;--shiki-dark:#ADBAC7">;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#F69D50">    std</span><span style="color:#24292E;--shiki-dark:#ADBAC7">::cout </span><span style="color:#D73A49;--shiki-dark:#F47067">&#x3C;&#x3C;</span><span style="color:#032F62;--shiki-dark:#96D0FF"> "int max: "</span><span style="color:#D73A49;--shiki-dark:#F47067"> &#x3C;&#x3C;</span><span style="color:#6F42C1;--shiki-dark:#F69D50"> std</span><span style="color:#24292E;--shiki-dark:#ADBAC7">::</span><span style="color:#6F42C1;--shiki-dark:#F69D50">numeric_limits</span><span style="color:#24292E;--shiki-dark:#ADBAC7">&#x3C;</span><span style="color:#D73A49;--shiki-dark:#F47067">int</span><span style="color:#24292E;--shiki-dark:#ADBAC7">>::</span><span style="color:#6F42C1;--shiki-dark:#DCBDFB">max</span><span style="color:#24292E;--shiki-dark:#ADBAC7">() </span><span style="color:#D73A49;--shiki-dark:#F47067">&#x3C;&#x3C;</span><span style="color:#032F62;--shiki-dark:#96D0FF"> '</span><span style="color:#005CC5;--shiki-dark:#F47067">\n</span><span style="color:#032F62;--shiki-dark:#96D0FF">'</span><span style="color:#24292E;--shiki-dark:#ADBAC7">;</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#F69D50">    std</span><span style="color:#24292E;--shiki-dark:#ADBAC7">::cout </span><span style="color:#D73A49;--shiki-dark:#F47067">&#x3C;&#x3C;</span><span style="color:#032F62;--shiki-dark:#96D0FF"> "big: "</span><span style="color:#D73A49;--shiki-dark:#F47067"> &#x3C;&#x3C;</span><span style="color:#24292E;--shiki-dark:#ADBAC7"> big </span><span style="color:#D73A49;--shiki-dark:#F47067">&#x3C;&#x3C;</span><span style="color:#032F62;--shiki-dark:#96D0FF"> ", count: "</span><span style="color:#D73A49;--shiki-dark:#F47067"> &#x3C;&#x3C;</span><span style="color:#24292E;--shiki-dark:#ADBAC7"> count </span><span style="color:#D73A49;--shiki-dark:#F47067">&#x3C;&#x3C;</span><span style="color:#032F62;--shiki-dark:#96D0FF"> ", ratio: "</span><span style="color:#D73A49;--shiki-dark:#F47067"> &#x3C;&#x3C;</span><span style="color:#24292E;--shiki-dark:#ADBAC7"> ratio </span><span style="color:#D73A49;--shiki-dark:#F47067">&#x3C;&#x3C;</span><span style="color:#032F62;--shiki-dark:#96D0FF"> '</span><span style="color:#005CC5;--shiki-dark:#F47067">\n</span><span style="color:#032F62;--shiki-dark:#96D0FF">'</span><span style="color:#24292E;--shiki-dark:#ADBAC7">;</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#F69D50">    std</span><span style="color:#24292E;--shiki-dark:#ADBAC7">::cout </span><span style="color:#D73A49;--shiki-dark:#F47067">&#x3C;&#x3C;</span><span style="color:#032F62;--shiki-dark:#96D0FF"> "7/2 = "</span><span style="color:#D73A49;--shiki-dark:#F47067"> &#x3C;&#x3C;</span><span style="color:#005CC5;--shiki-dark:#6CB6FF"> 7</span><span style="color:#D73A49;--shiki-dark:#F47067"> /</span><span style="color:#005CC5;--shiki-dark:#6CB6FF"> 2</span><span style="color:#D73A49;--shiki-dark:#F47067"> &#x3C;&#x3C;</span><span style="color:#032F62;--shiki-dark:#96D0FF"> ", 7.0/2 = "</span><span style="color:#D73A49;--shiki-dark:#F47067"> &#x3C;&#x3C;</span><span style="color:#005CC5;--shiki-dark:#6CB6FF"> 7.0</span><span style="color:#D73A49;--shiki-dark:#F47067"> /</span><span style="color:#005CC5;--shiki-dark:#6CB6FF"> 2</span><span style="color:#D73A49;--shiki-dark:#F47067"> &#x3C;&#x3C;</span><span style="color:#032F62;--shiki-dark:#96D0FF"> '</span><span style="color:#005CC5;--shiki-dark:#F47067">\n</span><span style="color:#032F62;--shiki-dark:#96D0FF">'</span><span style="color:#24292E;--shiki-dark:#ADBAC7">;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#F69D50">    std</span><span style="color:#24292E;--shiki-dark:#ADBAC7">::</span><span style="color:#6F42C1;--shiki-dark:#F69D50">istringstream</span><span style="color:#6F42C1;--shiki-dark:#DCBDFB"> in</span><span style="color:#24292E;--shiki-dark:#ADBAC7">(</span><span style="color:#032F62;--shiki-dark:#96D0FF">"Sahaj 19"</span><span style="color:#24292E;--shiki-dark:#ADBAC7">);</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#F69D50">    std</span><span style="color:#24292E;--shiki-dark:#ADBAC7">::</span><span style="color:#6F42C1;--shiki-dark:#F69D50">string</span><span style="color:#24292E;--shiki-dark:#ADBAC7"> name; </span><span style="color:#D73A49;--shiki-dark:#F47067">int</span><span style="color:#24292E;--shiki-dark:#ADBAC7"> age;</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#ADBAC7">    in </span><span style="color:#D73A49;--shiki-dark:#F47067">>></span><span style="color:#24292E;--shiki-dark:#ADBAC7"> name </span><span style="color:#D73A49;--shiki-dark:#F47067">>></span><span style="color:#24292E;--shiki-dark:#ADBAC7"> age;</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#F69D50">    std</span><span style="color:#24292E;--shiki-dark:#ADBAC7">::cout </span><span style="color:#D73A49;--shiki-dark:#F47067">&#x3C;&#x3C;</span><span style="color:#24292E;--shiki-dark:#ADBAC7"> name </span><span style="color:#D73A49;--shiki-dark:#F47067">&#x3C;&#x3C;</span><span style="color:#032F62;--shiki-dark:#96D0FF"> " is "</span><span style="color:#D73A49;--shiki-dark:#F47067"> &#x3C;&#x3C;</span><span style="color:#24292E;--shiki-dark:#ADBAC7"> age </span><span style="color:#D73A49;--shiki-dark:#F47067">&#x3C;&#x3C;</span><span style="color:#032F62;--shiki-dark:#96D0FF"> ", area of r=2 circle: "</span><span style="color:#D73A49;--shiki-dark:#F47067"> &#x3C;&#x3C;</span><span style="color:#24292E;--shiki-dark:#ADBAC7"> pi </span><span style="color:#D73A49;--shiki-dark:#F47067">*</span><span style="color:#005CC5;--shiki-dark:#6CB6FF"> 2</span><span style="color:#D73A49;--shiki-dark:#F47067"> *</span><span style="color:#005CC5;--shiki-dark:#6CB6FF"> 2</span><span style="color:#D73A49;--shiki-dark:#F47067"> &#x3C;&#x3C;</span><span style="color:#032F62;--shiki-dark:#96D0FF"> '</span><span style="color:#005CC5;--shiki-dark:#F47067">\n</span><span style="color:#032F62;--shiki-dark:#96D0FF">'</span><span style="color:#24292E;--shiki-dark:#ADBAC7">;</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#ADBAC7">}</span></span></code></pre>
+<p>Output:</p>
+<pre class="astro-code astro-code-themes github-light github-dark-dimmed" style="background-color:#fff;--shiki-dark-bg:#22272e;color:#24292e;--shiki-dark:#adbac7; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word;" tabindex="0" data-language="text"><code><span class="line"><span>int max: 2147483647</span></span>
+<span class="line"><span>big: 3000000000, count: 42, ratio: 0.75</span></span>
+<span class="line"><span>7/2 = 3, 7.0/2 = 3.5</span></span>
+<span class="line"><span>Sahaj is 19, area of r=2 circle: 12.5664</span></span></code></pre></div><p><a class="chip" href="/blogs/tags/cpp/">#cpp</a><a class="chip" href="/blogs/tags/types/">#types</a></p><section class="sources"><h2 style="font-size:1.2rem">Sources</h2><ol><li><a href="https://en.cppreference.com/w/cpp/language/types">Fundamental types</a> <span class="muted">— cppreference.com</span></li><li><a href="https://en.cppreference.com/w/cpp/language/auto">Placeholder type specifiers (auto)</a> <span class="muted">— cppreference.com</span></li><li><a href="https://www.learncpp.com/cpp-tutorial/introduction-to-fundamental-data-types/">Introduction to fundamental data types</a> <span class="muted">— LearnCpp.com</span></li></ol></section></article><nav class="pager" aria-label="Learning path navigation"><a href="/blogs/2023/11/01/cpp-01-basics/">← C++ · Basics: compiling and hello world</a><a href="/blogs/2023/11/09/cpp-03-control-flow/">C++ · Control flow →</a></nav></div></main><footer class="site-foot"><div class="wide">© Sahaj Saliya · <a href="https://info.sahaj.si">portfolio</a> · <a href="https://github.com/SahajIVVIX-1">GitHub</a> · <a href="/blogs/rss.xml">RSS</a></div></footer><script>
+    document.getElementById('theme').addEventListener('click', () => {
+      const root = document.documentElement;
+      const dark = root.dataset.theme ? root.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+      root.dataset.theme = dark ? 'light' : 'dark';
+      try { localStorage.setItem('theme', root.dataset.theme); } catch (e) {}
+    });
+  </script></body></html>

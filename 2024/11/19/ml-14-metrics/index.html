@@ -1,0 +1,83 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Machine Learning · Model evaluation metrics · Sahaj&#39;s blog</title><meta name="description" content="Confusion matrix, accuracy and why it fails on imbalanced data, precision, recall, F1, ROC-AUC, and regression metrics."><link rel="canonical" href="https://info.sahaj.si/blogs/2024/11/19/ml-14-metrics/"><link rel="alternate" type="application/rss+xml" title="Sahaj's blog" href="/blogs/rss.xml"><link rel="icon" href="/blogs/favicon.svg" type="image/svg+xml"><meta property="og:title" content="Machine Learning · Model evaluation metrics · Sahaj's blog"><meta property="og:description" content="Confusion matrix, accuracy and why it fails on imbalanced data, precision, recall, F1, ROC-AUC, and regression metrics."><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@1,6..72,400;1,6..72,500&family=Source+Sans+3:wght@400;600&display=swap"><script>
+    try { const t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script><link rel="stylesheet" href="/blogs/_astro/Base.DWhaOG-g.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-head"><div class="wide"><a class="brand" href="/blogs/">Sahaj<span>.</span>blogs</a><nav class="nav" aria-label="Main"><a href="/blogs/learning-path/">Learning path</a><a href="/blogs/study/">Study</a><a href="/blogs/ai/">AI updates</a><a href="/blogs/papers/">Papers</a><a href="/blogs/archive/">Archive</a><a href="/blogs/search/">Search</a><a href="/blogs/about/">About</a></nav><button class="theme-btn" id="theme" type="button" aria-label="Toggle colour theme">◐ theme</button></div></header><main id="main"><div class="wrap"><article data-pagefind-body><div><a class="label" href="/blogs/2024/11/19/">19 Nov 2024</a><span class="label muted"> · </span><span class="chip cat" data-pagefind-filter="category">Study</span><a class="chip" href="/blogs/learning-path/#phase-7">Phase 7 · Machine Learning</a></div><h1>Machine Learning · Model evaluation metrics</h1><p class="muted" style="font-size:1.05rem">Confusion matrix, accuracy and why it fails on imbalanced data, precision, recall, F1, ROC-AUC, and regression metrics.</p><div class="prose"><p><strong>Classification</strong>, starting from the confusion matrix (TP, FP, FN, TN):</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>metric</th><th>formula</th><th>answers</th></tr></thead><tbody><tr><td>accuracy</td><td>(TP+TN)/all</td><td>how often am I right? (misleading when classes are imbalanced)</td></tr><tr><td>precision</td><td>TP/(TP+FP)</td><td>of the cases I flagged, how many were real?</td></tr><tr><td>recall</td><td>TP/(TP+FN)</td><td>of the real cases, how many did I catch?</td></tr><tr><td>F1</td><td>harmonic mean of P and R</td><td>one balanced number</td></tr><tr><td>ROC-AUC</td><td>area under the TPR–FPR curve</td><td>ranking quality across all thresholds</td></tr></tbody></table>
+<p><strong>Regression</strong>: MAE, RMSE (punishes big errors), R².</p>
+<p>The demo is a heavily imbalanced problem (about 1.5% positives). A “model” that always says “negative” scores about 98.5% accuracy and catches nothing.</p>
+<pre class="astro-code astro-code-themes github-light github-dark-dimmed" style="background-color:#fff;--shiki-dark-bg:#22272e;color:#24292e;--shiki-dark:#adbac7; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word;" tabindex="0" data-language="python"><code><span class="line"><span style="color:#D73A49;--shiki-dark:#F47067">import</span><span style="color:#24292E;--shiki-dark:#ADBAC7"> numpy </span><span style="color:#D73A49;--shiki-dark:#F47067">as</span><span style="color:#24292E;--shiki-dark:#ADBAC7"> np</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F47067">from</span><span style="color:#24292E;--shiki-dark:#ADBAC7"> sklearn.datasets </span><span style="color:#D73A49;--shiki-dark:#F47067">import</span><span style="color:#24292E;--shiki-dark:#ADBAC7"> make_classification</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F47067">from</span><span style="color:#24292E;--shiki-dark:#ADBAC7"> sklearn.model_selection </span><span style="color:#D73A49;--shiki-dark:#F47067">import</span><span style="color:#24292E;--shiki-dark:#ADBAC7"> train_test_split</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F47067">from</span><span style="color:#24292E;--shiki-dark:#ADBAC7"> sklearn.dummy </span><span style="color:#D73A49;--shiki-dark:#F47067">import</span><span style="color:#24292E;--shiki-dark:#ADBAC7"> DummyClassifier</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F47067">from</span><span style="color:#24292E;--shiki-dark:#ADBAC7"> sklearn.linear_model </span><span style="color:#D73A49;--shiki-dark:#F47067">import</span><span style="color:#24292E;--shiki-dark:#ADBAC7"> LogisticRegression</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F47067">from</span><span style="color:#24292E;--shiki-dark:#ADBAC7"> sklearn.metrics </span><span style="color:#D73A49;--shiki-dark:#F47067">import</span><span style="color:#24292E;--shiki-dark:#ADBAC7"> accuracy_score, confusion_matrix, classification_report, roc_auc_score</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#ADBAC7">X, y </span><span style="color:#D73A49;--shiki-dark:#F47067">=</span><span style="color:#24292E;--shiki-dark:#ADBAC7"> make_classification(</span><span style="color:#E36209;--shiki-dark:#F69D50">n_samples</span><span style="color:#D73A49;--shiki-dark:#F47067">=</span><span style="color:#005CC5;--shiki-dark:#6CB6FF">20_000</span><span style="color:#24292E;--shiki-dark:#ADBAC7">, </span><span style="color:#E36209;--shiki-dark:#F69D50">weights</span><span style="color:#D73A49;--shiki-dark:#F47067">=</span><span style="color:#24292E;--shiki-dark:#ADBAC7">[</span><span style="color:#005CC5;--shiki-dark:#6CB6FF">0.99</span><span style="color:#24292E;--shiki-dark:#ADBAC7">], </span><span style="color:#E36209;--shiki-dark:#F69D50">n_informative</span><span style="color:#D73A49;--shiki-dark:#F47067">=</span><span style="color:#005CC5;--shiki-dark:#6CB6FF">5</span><span style="color:#24292E;--shiki-dark:#ADBAC7">, </span><span style="color:#E36209;--shiki-dark:#F69D50">random_state</span><span style="color:#D73A49;--shiki-dark:#F47067">=</span><span style="color:#005CC5;--shiki-dark:#6CB6FF">0</span><span style="color:#24292E;--shiki-dark:#ADBAC7">)</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#ADBAC7">X_tr, X_te, y_tr, y_te </span><span style="color:#D73A49;--shiki-dark:#F47067">=</span><span style="color:#24292E;--shiki-dark:#ADBAC7"> train_test_split(X, y, </span><span style="color:#E36209;--shiki-dark:#F69D50">stratify</span><span style="color:#D73A49;--shiki-dark:#F47067">=</span><span style="color:#24292E;--shiki-dark:#ADBAC7">y, </span><span style="color:#E36209;--shiki-dark:#F69D50">random_state</span><span style="color:#D73A49;--shiki-dark:#F47067">=</span><span style="color:#005CC5;--shiki-dark:#6CB6FF">0</span><span style="color:#24292E;--shiki-dark:#ADBAC7">)</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#6CB6FF">print</span><span style="color:#24292E;--shiki-dark:#ADBAC7">(</span><span style="color:#032F62;--shiki-dark:#96D0FF">"positive rate:"</span><span style="color:#24292E;--shiki-dark:#ADBAC7">, y.mean().round(</span><span style="color:#005CC5;--shiki-dark:#6CB6FF">4</span><span style="color:#24292E;--shiki-dark:#ADBAC7">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#ADBAC7">dummy </span><span style="color:#D73A49;--shiki-dark:#F47067">=</span><span style="color:#24292E;--shiki-dark:#ADBAC7"> DummyClassifier(</span><span style="color:#E36209;--shiki-dark:#F69D50">strategy</span><span style="color:#D73A49;--shiki-dark:#F47067">=</span><span style="color:#032F62;--shiki-dark:#96D0FF">"most_frequent"</span><span style="color:#24292E;--shiki-dark:#ADBAC7">).fit(X_tr, y_tr)</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#6CB6FF">print</span><span style="color:#24292E;--shiki-dark:#ADBAC7">(</span><span style="color:#032F62;--shiki-dark:#96D0FF">"dummy accuracy:"</span><span style="color:#24292E;--shiki-dark:#ADBAC7">, </span><span style="color:#005CC5;--shiki-dark:#6CB6FF">round</span><span style="color:#24292E;--shiki-dark:#ADBAC7">(accuracy_score(y_te, dummy.predict(X_te)), </span><span style="color:#005CC5;--shiki-dark:#6CB6FF">4</span><span style="color:#24292E;--shiki-dark:#ADBAC7">), </span><span style="color:#032F62;--shiki-dark:#96D0FF">"&#x3C;- catches zero positives"</span><span style="color:#24292E;--shiki-dark:#ADBAC7">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#ADBAC7">clf </span><span style="color:#D73A49;--shiki-dark:#F47067">=</span><span style="color:#24292E;--shiki-dark:#ADBAC7"> LogisticRegression(</span><span style="color:#E36209;--shiki-dark:#F69D50">max_iter</span><span style="color:#D73A49;--shiki-dark:#F47067">=</span><span style="color:#005CC5;--shiki-dark:#6CB6FF">1000</span><span style="color:#24292E;--shiki-dark:#ADBAC7">, </span><span style="color:#E36209;--shiki-dark:#F69D50">class_weight</span><span style="color:#D73A49;--shiki-dark:#F47067">=</span><span style="color:#032F62;--shiki-dark:#96D0FF">"balanced"</span><span style="color:#24292E;--shiki-dark:#ADBAC7">).fit(X_tr, y_tr)</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#ADBAC7">pred </span><span style="color:#D73A49;--shiki-dark:#F47067">=</span><span style="color:#24292E;--shiki-dark:#ADBAC7"> clf.predict(X_te)</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#6CB6FF">print</span><span style="color:#24292E;--shiki-dark:#ADBAC7">(confusion_matrix(y_te, pred))</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#6CB6FF">print</span><span style="color:#24292E;--shiki-dark:#ADBAC7">(classification_report(y_te, pred, </span><span style="color:#E36209;--shiki-dark:#F69D50">digits</span><span style="color:#D73A49;--shiki-dark:#F47067">=</span><span style="color:#005CC5;--shiki-dark:#6CB6FF">3</span><span style="color:#24292E;--shiki-dark:#ADBAC7">))</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#6CB6FF">print</span><span style="color:#24292E;--shiki-dark:#ADBAC7">(</span><span style="color:#032F62;--shiki-dark:#96D0FF">"ROC-AUC:"</span><span style="color:#24292E;--shiki-dark:#ADBAC7">, </span><span style="color:#005CC5;--shiki-dark:#6CB6FF">round</span><span style="color:#24292E;--shiki-dark:#ADBAC7">(roc_auc_score(y_te, clf.predict_proba(X_te)[:, </span><span style="color:#005CC5;--shiki-dark:#6CB6FF">1</span><span style="color:#24292E;--shiki-dark:#ADBAC7">]), </span><span style="color:#005CC5;--shiki-dark:#6CB6FF">3</span><span style="color:#24292E;--shiki-dark:#ADBAC7">))</span></span></code></pre>
+<p>Output:</p>
+<pre class="astro-code astro-code-themes github-light github-dark-dimmed" style="background-color:#fff;--shiki-dark-bg:#22272e;color:#24292e;--shiki-dark:#adbac7; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word;" tabindex="0" data-language="text"><code><span class="line"><span>positive rate: 0.015</span></span>
+<span class="line"><span>dummy accuracy: 0.985 &#x3C;- catches zero positives</span></span>
+<span class="line"><span>[[4126  799]</span></span>
+<span class="line"><span> [  34   41]]</span></span>
+<span class="line"><span>              precision    recall  f1-score   support</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>           0      0.992     0.838     0.908      4925</span></span>
+<span class="line"><span>           1      0.049     0.547     0.090        75</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>    accuracy                          0.833      5000</span></span>
+<span class="line"><span>   macro avg      0.520     0.692     0.499      5000</span></span>
+<span class="line"><span>weighted avg      0.978     0.833     0.896      5000</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>ROC-AUC: 0.752</span></span></code></pre>
+<p>The real model catches more than half the positives, but most of the cases it flags are false alarms (low precision). Accuracy alone would have hidden both facts.</p></div><p><a class="chip" href="/blogs/tags/machine-learning/">#machine-learning</a><a class="chip" href="/blogs/tags/evaluation/">#evaluation</a></p><section class="sources"><h2 style="font-size:1.2rem">Sources</h2><ol><li><a href="https://scikit-learn.org/stable/modules/model_evaluation.html">scikit-learn: Metrics and scoring</a> <span class="muted">— scikit-learn</span></li><li><a href="https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall">Google ML Crash Course: Accuracy, precision, recall</a> <span class="muted">— Google for Developers</span></li><li><a href="https://scikit-learn.org/stable/modules/generated/sklearn.metrics.classification_report.html">sklearn.metrics.classification_report</a> <span class="muted">— scikit-learn</span></li></ol></section></article><nav class="pager" aria-label="Learning path navigation"><a href="/blogs/2024/11/11/ml-13-pca/">← Machine Learning · PCA</a><a href="/blogs/2024/11/27/ml-15-cross-validation/">Machine Learning · Cross-validation →</a></nav></div></main><footer class="site-foot"><div class="wide">© Sahaj Saliya · <a href="https://info.sahaj.si">portfolio</a> · <a href="https://github.com/SahajIVVIX-1">GitHub</a> · <a href="/blogs/rss.xml">RSS</a></div></footer><script>
+    document.getElementById('theme').addEventListener('click', () => {
+      const root = document.documentElement;
+      const dark = root.dataset.theme ? root.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+      root.dataset.theme = dark ? 'light' : 'dark';
+      try { localStorage.setItem('theme', root.dataset.theme); } catch (e) {}
+    });
+  </script></body></html>

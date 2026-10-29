@@ -1,0 +1,66 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Python · Files: reading and writing · Sahaj&#39;s blog</title><meta name="description" content="Opening files with with-blocks, text vs binary modes, encodings, reading line by line, and pathlib."><link rel="canonical" href="https://info.sahaj.si/blogs/2023/09/29/python-15-files/"><link rel="alternate" type="application/rss+xml" title="Sahaj's blog" href="/blogs/rss.xml"><link rel="icon" href="/blogs/favicon.svg" type="image/svg+xml"><meta property="og:title" content="Python · Files: reading and writing · Sahaj's blog"><meta property="og:description" content="Opening files with with-blocks, text vs binary modes, encodings, reading line by line, and pathlib."><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@1,6..72,400;1,6..72,500&family=Source+Sans+3:wght@400;600&display=swap"><script>
+    try { const t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script><link rel="stylesheet" href="/blogs/_astro/Base.DWhaOG-g.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-head"><div class="wide"><a class="brand" href="/blogs/">Sahaj<span>.</span>blogs</a><nav class="nav" aria-label="Main"><a href="/blogs/learning-path/">Learning path</a><a href="/blogs/study/">Study</a><a href="/blogs/ai/">AI updates</a><a href="/blogs/papers/">Papers</a><a href="/blogs/archive/">Archive</a><a href="/blogs/search/">Search</a><a href="/blogs/about/">About</a></nav><button class="theme-btn" id="theme" type="button" aria-label="Toggle colour theme">◐ theme</button></div></header><main id="main"><div class="wrap"><article data-pagefind-body><div><a class="label" href="/blogs/2023/09/29/">29 Sept 2023</a><span class="label muted"> · </span><span class="chip cat" data-pagefind-filter="category">Study</span><a class="chip" href="/blogs/learning-path/#phase-1">Phase 1 · Python</a></div><h1>Python · Files: reading and writing</h1><p class="muted" style="font-size:1.05rem">Opening files with with-blocks, text vs binary modes, encodings, reading line by line, and pathlib.</p><div class="prose"><p><code>open(path, mode)</code> returns a file object. The modes I need most:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>mode</th><th>meaning</th></tr></thead><tbody><tr><td><code>"r"</code></td><td>read text (the default)</td></tr><tr><td><code>"w"</code></td><td>write text; <strong>truncates</strong> the file</td></tr><tr><td><code>"a"</code></td><td>append</td></tr><tr><td><code>"rb"</code> / <code>"wb"</code></td><td>read/write bytes</td></tr></tbody></table>
+<p>Always use <code>with open(...) as f:</code>. It closes the file even if an exception happens.</p>
+<p>Pass <code>encoding="utf-8"</code> explicitly. On Windows the default text encoding can be a locale code page, so a file that reads fine on Linux can break here.</p>
+<p>Iterating over a file object yields one line at a time, so even a huge file never sits in memory all at once. <code>pathlib.Path</code> makes path handling cleaner than string concatenation.</p>
+<pre class="astro-code astro-code-themes github-light github-dark-dimmed" style="background-color:#fff;--shiki-dark-bg:#22272e;color:#24292e;--shiki-dark:#adbac7; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word;" tabindex="0" data-language="python"><code><span class="line"><span style="color:#D73A49;--shiki-dark:#F47067">from</span><span style="color:#24292E;--shiki-dark:#ADBAC7"> pathlib </span><span style="color:#D73A49;--shiki-dark:#F47067">import</span><span style="color:#24292E;--shiki-dark:#ADBAC7"> Path</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F47067">import</span><span style="color:#24292E;--shiki-dark:#ADBAC7"> tempfile</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#ADBAC7">folder </span><span style="color:#D73A49;--shiki-dark:#F47067">=</span><span style="color:#24292E;--shiki-dark:#ADBAC7"> Path(tempfile.mkdtemp())</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#ADBAC7">p </span><span style="color:#D73A49;--shiki-dark:#F47067">=</span><span style="color:#24292E;--shiki-dark:#ADBAC7"> folder </span><span style="color:#D73A49;--shiki-dark:#F47067">/</span><span style="color:#032F62;--shiki-dark:#96D0FF"> "notes.txt"</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F47067">with</span><span style="color:#005CC5;--shiki-dark:#6CB6FF"> open</span><span style="color:#24292E;--shiki-dark:#ADBAC7">(p, </span><span style="color:#032F62;--shiki-dark:#96D0FF">"w"</span><span style="color:#24292E;--shiki-dark:#ADBAC7">, </span><span style="color:#E36209;--shiki-dark:#F69D50">encoding</span><span style="color:#D73A49;--shiki-dark:#F47067">=</span><span style="color:#032F62;--shiki-dark:#96D0FF">"utf-8"</span><span style="color:#24292E;--shiki-dark:#ADBAC7">) </span><span style="color:#D73A49;--shiki-dark:#F47067">as</span><span style="color:#24292E;--shiki-dark:#ADBAC7"> f:</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#ADBAC7">    f.write(</span><span style="color:#032F62;--shiki-dark:#96D0FF">"line one</span><span style="color:#005CC5;--shiki-dark:#F47067">\n</span><span style="color:#032F62;--shiki-dark:#96D0FF">"</span><span style="color:#24292E;--shiki-dark:#ADBAC7">)</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#ADBAC7">    f.write(</span><span style="color:#032F62;--shiki-dark:#96D0FF">"line two – with a dash</span><span style="color:#005CC5;--shiki-dark:#F47067">\n</span><span style="color:#032F62;--shiki-dark:#96D0FF">"</span><span style="color:#24292E;--shiki-dark:#ADBAC7">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F47067">with</span><span style="color:#005CC5;--shiki-dark:#6CB6FF"> open</span><span style="color:#24292E;--shiki-dark:#ADBAC7">(p, </span><span style="color:#032F62;--shiki-dark:#96D0FF">"a"</span><span style="color:#24292E;--shiki-dark:#ADBAC7">, </span><span style="color:#E36209;--shiki-dark:#F69D50">encoding</span><span style="color:#D73A49;--shiki-dark:#F47067">=</span><span style="color:#032F62;--shiki-dark:#96D0FF">"utf-8"</span><span style="color:#24292E;--shiki-dark:#ADBAC7">) </span><span style="color:#D73A49;--shiki-dark:#F47067">as</span><span style="color:#24292E;--shiki-dark:#ADBAC7"> f:</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#6CB6FF">    print</span><span style="color:#24292E;--shiki-dark:#ADBAC7">(</span><span style="color:#032F62;--shiki-dark:#96D0FF">"line three"</span><span style="color:#24292E;--shiki-dark:#ADBAC7">, </span><span style="color:#E36209;--shiki-dark:#F69D50">file</span><span style="color:#D73A49;--shiki-dark:#F47067">=</span><span style="color:#24292E;--shiki-dark:#ADBAC7">f)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F47067">with</span><span style="color:#005CC5;--shiki-dark:#6CB6FF"> open</span><span style="color:#24292E;--shiki-dark:#ADBAC7">(p, </span><span style="color:#E36209;--shiki-dark:#F69D50">encoding</span><span style="color:#D73A49;--shiki-dark:#F47067">=</span><span style="color:#032F62;--shiki-dark:#96D0FF">"utf-8"</span><span style="color:#24292E;--shiki-dark:#ADBAC7">) </span><span style="color:#D73A49;--shiki-dark:#F47067">as</span><span style="color:#24292E;--shiki-dark:#ADBAC7"> f:</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F47067">    for</span><span style="color:#24292E;--shiki-dark:#ADBAC7"> i, line </span><span style="color:#D73A49;--shiki-dark:#F47067">in</span><span style="color:#005CC5;--shiki-dark:#6CB6FF"> enumerate</span><span style="color:#24292E;--shiki-dark:#ADBAC7">(f, </span><span style="color:#005CC5;--shiki-dark:#6CB6FF">1</span><span style="color:#24292E;--shiki-dark:#ADBAC7">):</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#6CB6FF">        print</span><span style="color:#24292E;--shiki-dark:#ADBAC7">(i, line.rstrip())</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#6CB6FF">print</span><span style="color:#24292E;--shiki-dark:#ADBAC7">(p.name, p.suffix, p.stat().st_size, </span><span style="color:#032F62;--shiki-dark:#96D0FF">"bytes"</span><span style="color:#24292E;--shiki-dark:#ADBAC7">)</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#6CB6FF">print</span><span style="color:#24292E;--shiki-dark:#ADBAC7">(p.read_text(</span><span style="color:#E36209;--shiki-dark:#F69D50">encoding</span><span style="color:#D73A49;--shiki-dark:#F47067">=</span><span style="color:#032F62;--shiki-dark:#96D0FF">"utf-8"</span><span style="color:#24292E;--shiki-dark:#ADBAC7">).count(</span><span style="color:#032F62;--shiki-dark:#96D0FF">"</span><span style="color:#005CC5;--shiki-dark:#F47067">\n</span><span style="color:#032F62;--shiki-dark:#96D0FF">"</span><span style="color:#24292E;--shiki-dark:#ADBAC7">), </span><span style="color:#032F62;--shiki-dark:#96D0FF">"lines"</span><span style="color:#24292E;--shiki-dark:#ADBAC7">)</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#6CB6FF">print</span><span style="color:#24292E;--shiki-dark:#ADBAC7">(</span><span style="color:#005CC5;--shiki-dark:#6CB6FF">sorted</span><span style="color:#24292E;--shiki-dark:#ADBAC7">(x.name </span><span style="color:#D73A49;--shiki-dark:#F47067">for</span><span style="color:#24292E;--shiki-dark:#ADBAC7"> x </span><span style="color:#D73A49;--shiki-dark:#F47067">in</span><span style="color:#24292E;--shiki-dark:#ADBAC7"> folder.iterdir()))</span></span></code></pre>
+<p>Output:</p>
+<pre class="astro-code astro-code-themes github-light github-dark-dimmed" style="background-color:#fff;--shiki-dark-bg:#22272e;color:#24292e;--shiki-dark:#adbac7; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word;" tabindex="0" data-language="text"><code><span class="line"><span>1 line one</span></span>
+<span class="line"><span>2 line two � with a dash</span></span>
+<span class="line"><span>3 line three</span></span>
+<span class="line"><span>notes.txt .txt 48 bytes</span></span>
+<span class="line"><span>3 lines</span></span>
+<span class="line"><span>['notes.txt']</span></span></code></pre></div><p><a class="chip" href="/blogs/tags/python/">#python</a><a class="chip" href="/blogs/tags/files/">#files</a></p><section class="sources"><h2 style="font-size:1.2rem">Sources</h2><ol><li><a href="https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files">Reading and Writing Files</a> <span class="muted">— Python Software Foundation</span></li><li><a href="https://docs.python.org/3/library/pathlib.html">pathlib: object-oriented filesystem paths</a> <span class="muted">— Python Software Foundation</span></li><li><a href="https://docs.python.org/3/library/functions.html#open">Built-in functions: open</a> <span class="muted">— Python Software Foundation</span></li></ol></section></article><nav class="pager" aria-label="Learning path navigation"><a href="/blogs/2023/09/26/python-14-modules/">← Python · Modules and imports</a><a href="/blogs/2023/10/03/python-16-exceptions/">Python · Exceptions →</a></nav></div></main><footer class="site-foot"><div class="wide">© Sahaj Saliya · <a href="https://info.sahaj.si">portfolio</a> · <a href="https://github.com/SahajIVVIX-1">GitHub</a> · <a href="/blogs/rss.xml">RSS</a></div></footer><script>
+    document.getElementById('theme').addEventListener('click', () => {
+      const root = document.documentElement;
+      const dark = root.dataset.theme ? root.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+      root.dataset.theme = dark ? 'light' : 'dark';
+      try { localStorage.setItem('theme', root.dataset.theme); } catch (e) {}
+    });
+  </script></body></html>
