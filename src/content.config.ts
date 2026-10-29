@@ -27,7 +27,7 @@ const posts = defineCollection({
     categories: z.array(z.enum(['study', 'ai', 'papers', 'projects'])),
     tags: z.array(z.string()).default([]),
     summary: z.string(),
-    sources: z.array(source).min(1),
+    sources: z.array(source).default([]),
     papers: z.array(paper).default([]),
     cover: z.string().optional(),
     cover_credit: z.string().optional(),
@@ -42,6 +42,9 @@ const posts = defineCollection({
       .object({ task: z.string(), method: z.string(), data: z.string().optional(), result: z.string() })
       .optional(),
     draft: z.boolean().default(false),
+  }).refine((p) => p.draft || p.sources.length > 0, {
+    message: 'published posts must list at least one source',
+    path: ['sources'],
   }),
 });
 
