@@ -25,6 +25,13 @@ const nav = [
   <link rel="icon" href={base('favicon.svg')} type="image/svg+xml" />
   <meta property="og:title" content={fullTitle} />
   <meta property="og:description" content={description} />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Sahaj's blog" />
+  <meta property="og:url" content={new URL(path, Astro.site)} />
+  <meta name="author" content="Sahaj Saliya" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:creator" content="@SahajS59" />
+  <meta name="theme-color" content="#0b1324" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <!-- fonts load without blocking first paint; system fallbacks show until they arrive -->
