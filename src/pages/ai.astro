@@ -1,0 +1,11 @@
+---
+import Base from '../layouts/Base.astro';
+import PostList from '../components/PostList.astro';
+import { allPosts } from '../lib/posts';
+const posts = (await allPosts()).filter((p) => p.data.categories.includes('ai'));
+---
+<Base title="AI updates">
+  <h1>AI updates</h1>
+  <p class="muted">Summaries of releases and announcements from official sources, dated by the source's publish date.</p>
+  <PostList posts={posts} />
+</Base>

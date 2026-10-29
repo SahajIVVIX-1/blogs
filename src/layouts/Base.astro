@@ -1,0 +1,66 @@
+---
+import '../styles/global.css';
+import 'katex/dist/katex.min.css';
+import { base } from '../lib/posts';
+
+interface Props { title?: string; description?: string; wide?: boolean }
+const { title, description = 'Day-wise study notes, AI updates and paper summaries by Sahaj Saliya.', wide = false } = Astro.props;
+const fullTitle = title ? `${title} · Sahaj's blog` : "Sahaj's blog";
+const path = Astro.url.pathname;
+const nav = [
+  ['learning-path/', 'Learning path'], ['study/', 'Study'], ['ai/', 'AI updates'], ['papers/', 'Papers'],
+  ['archive/', 'Archive'], ['search/', 'Search'], ['about/', 'About'],
+];
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{fullTitle}</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={new URL(path, Astro.site)} />
+  <link rel="alternate" type="application/rss+xml" title="Sahaj's blog" href={base('rss.xml')} />
+  <link rel="icon" href={base('favicon.svg')} type="image/svg+xml" />
+  <meta property="og:title" content={fullTitle} />
+  <meta property="og:description" content={description} />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@1,6..72,400;1,6..72,500&family=Source+Sans+3:wght@400;600&display=swap" />
+  <script is:inline>
+    try { const t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-head">
+    <div class="wide">
+      <a class="brand" href={base()}>Sahaj<span>.</span>blogs</a>
+      <nav class="nav" aria-label="Main">
+        {nav.map(([href, label]) => (
+          <a href={base(href)} aria-current={path.startsWith(base(href)) ? 'page' : undefined}>{label}</a>
+        ))}
+      </nav>
+      <button class="theme-btn" id="theme" type="button" aria-label="Toggle colour theme">◐ theme</button>
+    </div>
+  </header>
+  <main id="main">
+    <div class={wide ? 'wide' : 'wrap'}>
+      <slot />
+    </div>
+  </main>
+  <footer class="site-foot">
+    <div class="wide">
+      © Sahaj Saliya · <a href="https://info.sahaj.si">portfolio</a> · <a href="https://github.com/SahajIVVIX-1">GitHub</a> · <a href={base('rss.xml')}>RSS</a>
+    </div>
+  </footer>
+  <script is:inline>
+    document.getElementById('theme').addEventListener('click', () => {
+      const root = document.documentElement;
+      const dark = root.dataset.theme ? root.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+      root.dataset.theme = dark ? 'light' : 'dark';
+      try { localStorage.setItem('theme', root.dataset.theme); } catch (e) {}
+    });
+  </script>
+</body>
+</html>

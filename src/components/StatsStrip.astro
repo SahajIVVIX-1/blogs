@@ -1,0 +1,12 @@
+---
+import { stats, type Post } from '../lib/posts';
+interface Props { posts: Post[] }
+const s = stats(Astro.props.posts);
+---
+<div class="stats">
+  <div class="stat"><b>{s.days}</b><span class="label muted">days with posts</span></div>
+  <div class="stat"><b>{s.study}</b><span class="label muted">study notes</span></div>
+  <div class="stat"><b>{s.papers}</b><span class="label muted">paper summaries</span></div>
+  <div class="stat"><b>{s.ai}</b><span class="label muted">AI updates</span></div>
+  <div class="stat"><b>{s.streak}</b><span class="label muted">current streak (days)</span></div>
+</div>

@@ -1,0 +1,51 @@
+---
+import Base from '../layouts/Base.astro';
+import { allPosts, byDay, dayUrl, postUrl, START, today, base } from '../lib/posts';
+const posts = await allPosts();
+const days = byDay(posts);
+const tree = new Map<string, Map<string, string[]>>();
+for (const k of [...days.keys()].sort().reverse()) {
+  const y = k.slice(0, 4), m = k.slice(0, 7);
+  if (!tree.has(y)) tree.set(y, new Map());
+  if (!tree.get(y)!.has(m)) tree.get(y)!.set(m, []);
+  tree.get(y)!.get(m)!.push(k);
+}
+const monthName = (m: string) => new Date(m + '-01T00:00:00Z').toLocaleDateString('en-GB', { month: 'long', timeZone: 'UTC' });
+---
+<Base title="Archive">
+  <h1>Archive</h1>
+  <form id="jump" style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+    <label for="d" class="label">Jump to a day</label>
+    <input type="date" id="d" min={START} max={today()} required />
+    <button class="theme-btn" type="submit">Go</button>
+    <span id="msg" class="muted" role="status" style="font-size:0.9rem"></span>
+  </form>
+  <p class="muted">{posts.length} posts on {days.size} days.</p>
+  {[...tree].map(([y, months]) => (
+    <section>
+      <h2>{y}</h2>
+      {[...months].map(([m, ks]) => (
+        <details open={m === [...tree.values()][0].keys().next().value}>
+          <summary><b>{monthName(m)}</b> <span class="muted">· {ks.reduce((n, k) => n + days.get(k)!.length, 0)} posts</span></summary>
+          <ul>
+            {ks.map((k) => (
+              <li>
+                <a href={dayUrl(k)} class="label">{k}</a>
+                <ul>{days.get(k)!.map((p) => <li><a href={postUrl(p)}>{p.data.title}</a></li>)}</ul>
+              </li>
+            ))}
+          </ul>
+        </details>
+      ))}
+    </section>
+  ))}
+  <script is:inline define:vars={{ have: [...days.keys()], root: base() }}>
+    const set = new Set(have);
+    document.getElementById('jump').addEventListener('submit', (e) => {
+      e.preventDefault();
+      const v = document.getElementById('d').value;
+      if (set.has(v)) location.href = root + v.replaceAll('-', '/') + '/';
+      else document.getElementById('msg').textContent = 'No posts on that day.';
+    });
+  </script>
+</Base>

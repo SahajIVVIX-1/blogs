@@ -1,0 +1,89 @@
+---
+import { render } from 'astro:content';
+import Base from '../../../../layouts/Base.astro';
+import { allPosts, slugOf, dayKey, dayUrl, postUrl, fmtDate, base, CATEGORY_LABEL, type Post } from '../../../../lib/posts';
+import phases from '../../../../data/learning-path.json';
+
+export async function getStaticPaths() {
+  const posts = await allPosts();
+  return posts.map((p) => {
+    const [year, month, day] = dayKey(p.data.date).split('-');
+    const study = p.data.phase
+      ? posts.filter((q) => q.data.phase === p.data.phase && q.data.step).sort((a, b) => a.data.step! - b.data.step!)
+      : [];
+    const i = study.findIndex((q) => q.id === p.id);
+    return {
+      params: { year, month, day, slug: slugOf(p) },
+      props: { post: p, prev: i > 0 ? study[i - 1] : undefined, next: i >= 0 ? study[i + 1] : undefined },
+    };
+  });
+}
+const { post, prev, next } = Astro.props as { post: Post; prev?: Post; next?: Post };
+const { Content } = await render(post);
+const d = post.data;
+const phase = d.phase ? phases.find((p) => p.n === d.phase) : undefined;
+const key = dayKey(d.date);
+---
+<Base title={d.title} description={d.summary}>
+  <article data-pagefind-body>
+    <div>
+      <a class="label" href={dayUrl(key)}>{fmtDate(d.date)}</a>
+      <span class="label muted"> · </span>
+      {d.categories.map((c) => <span class="chip cat" data-pagefind-filter="category">{CATEGORY_LABEL[c]}</span>)}
+      {phase && <a class="chip" href={base('learning-path/') + '#phase-' + phase.n}>Phase {phase.n} · {phase.name}</a>}
+    </div>
+    <h1>{d.title}</h1>
+    <p class="muted" style="font-size:1.05rem">{d.summary}</p>
+
+    {d.card && d.papers[0] && (
+      <aside class="model-card" aria-label="Paper card">
+        <span class="label muted">Paper card</span>
+        <dl>
+          <dt>Paper</dt><dd>{d.papers[0].title} ({d.papers[0].year})</dd>
+          <dt>Authors</dt><dd>{d.papers[0].authors.slice(0, 6).join(', ')}{d.papers[0].authors.length > 6 ? ' et al.' : ''}</dd>
+          <dt>Task</dt><dd>{d.card.task}</dd>
+          <dt>Method</dt><dd>{d.card.method}</dd>
+          {d.card.data && <><dt>Data</dt><dd>{d.card.data}</dd></>}
+          <dt>Result</dt><dd>{d.card.result}</dd>
+          <dt>Links</dt><dd>
+            {d.papers[0].arxiv && <a href={d.papers[0].arxiv}>arXiv</a>}
+            {d.papers[0].pdf && <> · <a href={d.papers[0].pdf}>PDF</a></>}
+            {d.papers[0].code && <> · <a href={d.papers[0].code}>code</a></>}
+          </dd>
+        </dl>
+      </aside>
+    )}
+
+    {d.cover && (
+      <figure>
+        <img class="cover" src={base(d.cover)} alt={d.images[0]?.alt ?? ''} loading="lazy" decoding="async" />
+        {d.cover_credit && <figcaption set:html={d.cover_credit} />}
+      </figure>
+    )}
+
+    <div class="prose"><Content /></div>
+
+    {d.tags.length > 0 && (
+      <p>{d.tags.map((t) => <a class="chip" href={base(`tags/${t}/`)}>#{t}</a>)}</p>
+    )}
+
+    <section class="sources">
+      <h2 style="font-size:1.2rem">Sources</h2>
+      <ol>
+        {d.sources.map((s) => (
+          <li><a href={s.url}>{s.title}</a> <span class="muted">— {s.publisher}</span></li>
+        ))}
+      </ol>
+      {!d.categories.includes('study') && (
+        <p class="muted" style="font-size:0.88rem">This is a summary written from the linked public sources. Figures and numbers are as reported there.</p>
+      )}
+    </section>
+  </article>
+
+  {(prev || next) && (
+    <nav class="pager" aria-label="Learning path navigation">
+      {prev ? <a href={postUrl(prev)}>← {prev.data.title}</a> : <span />}
+      {next ? <a href={postUrl(next)}>{next.data.title} →</a> : <span />}
+    </nav>
+  )}
+</Base>

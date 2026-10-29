@@ -1,0 +1,31 @@
+---
+import Base from '../layouts/Base.astro';
+import { allPosts, phaseProgress, postUrl, fmtDate } from '../lib/posts';
+const phases = phaseProgress(await allPosts());
+const totalDone = phases.reduce((n, p) => n + p.done, 0);
+const total = phases.reduce((n, p) => n + p.total, 0);
+---
+<Base title="Learning path">
+  <h1>Learning path</h1>
+  <p class="muted">Fifteen phases, from my first Python script in August 2023 to agentic AI. Each phase lists its notes in order. {totalDone} of {total} topics written up.</p>
+  <ol class="roadmap">
+    {phases.map((ph) => {
+      const pct = Math.round((ph.done / ph.total) * 100);
+      return (
+        <li id={`phase-${ph.n}`}>
+          <span class={`dot ${pct === 100 ? 'full' : ''}`} aria-hidden="true" />
+          <span class="label muted">Phase {ph.n} · {fmtDate(ph.from)} – {fmtDate(ph.to)}</span>
+          <h2 style="margin:0.1rem 0 0.4rem;font-size:1.4rem">{ph.name}</h2>
+          <div class="bar" role="progressbar" aria-valuenow={pct} aria-valuemin="0" aria-valuemax="100" aria-label={`${ph.name} progress`}><i style={`width:${pct}%`} /></div>
+          <span class="label muted">{ph.done}/{ph.total} topics</span>
+          {ph.posts.length > 0 && (
+            <details>
+              <summary>Show notes</summary>
+              <ol>{ph.posts.map((p) => <li><a href={postUrl(p)}>{p.data.title}</a> <span class="label muted">{fmtDate(p.data.date)}</span></li>)}</ol>
+            </details>
+          )}
+        </li>
+      );
+    })}
+  </ol>
+</Base>
