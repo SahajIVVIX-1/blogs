@@ -6,6 +6,7 @@ import { base } from '../lib/posts';
 interface Props { title?: string; description?: string; wide?: boolean }
 const { title, description = 'Day-wise study notes, AI updates and paper summaries by Sahaj Saliya.', wide = false } = Astro.props;
 const fullTitle = title ? `${title} · Sahaj's blog` : "Sahaj's blog";
+const FONTS = 'https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@1,6..72,400;1,6..72,500&family=Source+Sans+3:wght@400;600&display=swap';
 const path = Astro.url.pathname;
 const nav = [
   ['learning-path/', 'Learning path'], ['study/', 'Study'], ['ai/', 'AI updates'], ['papers/', 'Papers'],
@@ -26,7 +27,9 @@ const nav = [
   <meta property="og:description" content={description} />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@1,6..72,400;1,6..72,500&family=Source+Sans+3:wght@400;600&display=swap" />
+  <!-- fonts load without blocking first paint; system fallbacks show until they arrive -->
+  <link rel="preload" as="style" href={FONTS} onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript><link rel="stylesheet" href={FONTS} /></noscript>
   <script is:inline>
     try { const t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
   </script>

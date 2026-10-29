@@ -1,6 +1,6 @@
 ---
 // GitHub-style calendar: one cell per day from START to today, grouped by year.
-import { START, today, dayKey, dayUrl, CATEGORY_LABEL, type Post } from '../lib/posts';
+import { START, today, dayKey, dayUrl, base, CATEGORY_LABEL, type Post } from '../lib/posts';
 interface Props { days: Map<string, Post[]> }
 const { days } = Astro.props;
 
@@ -25,15 +25,22 @@ const level = (n: number) => (n === 0 ? '' : n === 1 ? 'l1' : n === 2 ? 'l2' : n
     <>
       <div class="heat-year">{year}</div>
       <div class="heat-scroll">
-        <div class="heat">
+        <div class="heat" aria-hidden="true">
           {cells.map((c) =>
-            !c ? <span class="pad" aria-hidden="true" /> :
-            c.n ? <a class={level(c.n)} href={dayUrl(c.key)} title={`${c.key}: ${c.n} post${c.n > 1 ? 's' : ''} · ${c.cats.join(', ')}`} aria-label={`${c.key}, ${c.n} posts: ${c.cats.join(', ')}`} /> :
+            !c ? <span class="pad" /> :
+            c.n ? <span class={`${level(c.n)} has`} data-href={dayUrl(c.key)} title={`${c.key}: ${c.n} post${c.n > 1 ? 's' : ''} · ${c.cats.join(', ')}`} /> :
             <span title={`${c.key}: no posts`} />
           )}
         </div>
       </div>
     </>
   ))}
-  <div class="heat-legend">less <i style="background:var(--heat-0)" /><i style="background:var(--heat-1)" /><i style="background:var(--heat-2)" /><i style="background:var(--heat-3)" /><i style="background:var(--heat-4)" /> more</div>
+  <div class="heat-legend">less <i style="background:var(--heat-0)" /><i style="background:var(--heat-1)" /><i style="background:var(--heat-2)" /><i style="background:var(--heat-3)" /><i style="background:var(--heat-4)" /> more · click a day to open it, or <a href={base('archive/')}>pick a date in the archive</a></div>
 </section>
+<script is:inline>
+  // Cells are too small to be individual links (touch-target size), so one handler opens the clicked day.
+  document.querySelectorAll('.heat').forEach((grid) => grid.addEventListener('click', (e) => {
+    const href = e.target.dataset && e.target.dataset.href;
+    if (href) location.href = href;
+  }));
+</script>
