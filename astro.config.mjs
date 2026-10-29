@@ -9,13 +9,16 @@ import rehypeKatex from 'rehype-katex';
 export const BASE = '/';
 export const SITE = 'https://blog.sahaj.si';
 
-// Posts write images as /images/...; prefix the base path and lazy-load them.
+// Posts write images as /images/... and internal links as /YYYY/...; prefix the base path, lazy-load images.
 function rehypeImages() {
   const walk = (node) => {
     if (node.tagName === 'img' && node.properties?.src?.startsWith('/images/')) {
       node.properties.src = BASE.replace(/\/$/, '') + node.properties.src;
       node.properties.loading = 'lazy';
       node.properties.decoding = 'async';
+    }
+    if (node.tagName === 'a' && /^\/(?!\/)/.test(node.properties?.href ?? '') && BASE !== '/') {
+      node.properties.href = BASE.replace(/\/$/, '') + node.properties.href;
     }
     node.children?.forEach(walk);
   };

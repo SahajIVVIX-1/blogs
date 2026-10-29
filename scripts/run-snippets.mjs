@@ -14,7 +14,8 @@ const PY = path.join(ROOT, '.venv/Scripts/python.exe');
 const GPP = process.env.GPP ?? path.join(ROOT, '.tmp/mingw64/bin/g++.exe');
 const TMP = path.join(ROOT, '.tmp');
 const FIG = path.join(TMP, 'fig.png');
-const BLOCK = /```(python|cpp) run\n([\s\S]*?)```\n\nOutput:\n\n```text\n[\s\S]*?```(\n\n!\[[^\]]*\]\((\/images\/[^)]+\.webp)\))?/g;
+// the output fence may be longer than ``` when the output itself contains backticks
+const BLOCK = /```(python|cpp) run\n([\s\S]*?)```\n\nOutput:\n\n(`{3,})text\n[\s\S]*?\3(?!`)(\n\n!\[[^\]]*\]\((\/images\/[^)]+\.webp)\))?/g;
 
 async function files(p) {
   const s = await stat(p);
@@ -25,8 +26,8 @@ async function files(p) {
 function run(lang, code) {
   if (lang === 'python') {
     return execFileSync(PY, ['-I', '-X', 'utf8', '-c', code], {
-      cwd: TMP, encoding: 'utf8', timeout: 600000,
-      env: { ...process.env, PYTHONIOENCODING: 'utf-8', MPLBACKEND: 'Agg', SNIPPET_FIG: FIG },
+      cwd: TMP, encoding: 'utf8', timeout: 2400000,
+      env: { ...process.env, PYTHONIOENCODING: 'utf-8', MPLBACKEND: 'Agg', SNIPPET_FIG: FIG, TRANSFORMERS_VERBOSITY: 'error', HF_HUB_DISABLE_SYMLINKS_WARNING: '1', TQDM_DISABLE: '1' },
     });
   }
   const exe = path.join(TMP, 'snippet.exe');
@@ -41,7 +42,7 @@ for (const f of (await Promise.all(process.argv.slice(2).map(files))).flat()) {
   const src = await readFile(f, 'utf8');
   let out = '', last = 0, changed = false;
   for (const m of src.matchAll(BLOCK)) {
-    const [, lang, code, figLine = '', figPath] = m;
+    const [, lang, code, , figLine = '', figPath] = m;
     out += src.slice(last, m.index);
     last = m.index + m[0].length;
     await rm(FIG, { force: true });
@@ -56,7 +57,8 @@ for (const f of (await Promise.all(process.argv.slice(2).map(files))).flat()) {
         throw new Error(`expected a figure at $SNIPPET_FIG for ${figPath}`);
       }
       n++; changed = true;
-      out += '```' + lang + ' run\n' + code + '```\n\nOutput:\n\n```text\n' + result + '\n```' + figLine;
+      const fence = '`'.repeat(Math.max(3, ...[...result.matchAll(/`+/g)].map((r) => r[0].length + 1)));
+      out += '```' + lang + ' run\n' + code + '```\n\nOutput:\n\n' + fence + 'text\n' + result + '\n' + fence + figLine;
     } catch (e) {
       failed++;
       console.error(`FAIL ${path.relative(ROOT, f)}\n${(e.stderr || e.message).toString().slice(-1200)}`);
