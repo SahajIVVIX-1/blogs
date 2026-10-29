@@ -33,7 +33,14 @@ export async function cachedFetch(url, { binary = false, maxAgeDays = Infinity }
   await mkdir(CACHE, { recursive: true });
   for (let attempt = 0; attempt < 4; attempt++) {
     await throttle(new URL(url).host);
-    const res = await fetch(url, { headers: { 'user-agent': UA } });
+    let res;
+    try {
+      res = await fetch(url, { headers: { 'user-agent': UA }, signal: AbortSignal.timeout(60000) });
+    } catch (e) {
+      // network hiccup (ECONNRESET, timeout): back off and retry
+      await sleep(5000 * (attempt + 1));
+      continue;
+    }
     if (res.status === 429 || res.status >= 500) { await sleep(5000 * (attempt + 1)); continue; }
     const body = binary ? Buffer.from(await res.arrayBuffer()) : await res.text();
     const fetched_at = new Date().toISOString();
