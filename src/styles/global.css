@@ -133,9 +133,10 @@ pre.astro-code, pre.astro-code span { background-color: var(--code-bg) !importan
 /* heatmap */
 .heat-scroll { overflow-x: auto; padding-bottom: 6px; }
 .heat { display: grid; grid-auto-flow: column; grid-template-rows: repeat(7, 11px); gap: 3px; width: max-content; }
-.heat a, .heat span { width: 11px; height: 11px; border-radius: 2px; background: var(--heat-0); display: block; }
+.heat span { width: 11px; height: 11px; border-radius: 2px; background: var(--heat-0); display: block; }
 .heat .l1 { background: var(--heat-1); } .heat .l2 { background: var(--heat-2); } .heat .l3 { background: var(--heat-3); } .heat .l4 { background: var(--heat-4); }
 .heat .pad { visibility: hidden; }
+.heat .has { cursor: pointer; }
 .heat-legend { display: flex; gap: 3px; align-items: center; font-size: 0.75rem; color: var(--muted); margin-top: 6px; }
 .heat-legend i { width: 11px; height: 11px; border-radius: 2px; display: inline-block; }
 .heat-year { font-family: var(--mono); font-size: 0.75rem; color: var(--muted); margin: 0.8rem 0 0.3rem; }
