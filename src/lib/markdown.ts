@@ -109,13 +109,12 @@ export async function markdownToHtml(markdown: string): Promise<string> {
     .use(remarkGfm)
     .use(remarkMath, { singleDollarTextMath: true })
     .use(remarkRehype, { allowDangerousHtml: true })
+    .use(rehypeShikiPlugin, highlighter)
     .use(rehypeRaw)
     .use(rehypeKatex)
     .use(rehypeSlug)
-    .use(rehypeShikiPlugin, highlighter)
-    .use(rehypeStringify)
+    .use(rehypeStringify, { allowDangerousHtml: true })
     .process(markdown);
 
   return String(file);
 }
-
