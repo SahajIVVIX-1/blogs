@@ -22,7 +22,7 @@ sh('git fetch -q origin gh-pages');
 if (existsSync(site)) sh(`git worktree remove --force "${fwd(site)}"`);
 sh(`git worktree add -f -B gh-pages "${fwd(site)}" origin/gh-pages`);
 for (const f of readdirSync(site)) if (f !== '.git') rmSync(path.join(site, f), { recursive: true, force: true });
-cpSync(path.join(out, 'dist'), site, { recursive: true });
+cpSync(path.join(out, 'out'), site, { recursive: true });
 sh('git add -A', site);
 sh(`git commit -q --author="Sahaj Saliya <143813294+SahajIVVIX-1@users.noreply.github.com>" -m "Deploy ${sha}" || echo "nothing to deploy"`, site);
 sh('git push -q origin gh-pages', site);

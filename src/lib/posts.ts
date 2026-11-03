@@ -1,45 +1,95 @@
-import { getCollection, type CollectionEntry } from 'astro:content';
-import phases from '../data/learning-path.json';
+import fs from 'fs';
+import path from 'path';
+import matter from 'gray-matter';
+import phasesData from '@/data/learning-path.json';
+import {
+  type Post,
+  type PostData,
+  dayKey,
+  slugOf,
+} from './constants';
 
-export type Post = CollectionEntry<'posts'>;
-export const START = '2023-08-04';
+export * from './constants';
 
-export const CATEGORY_LABEL: Record<string, string> = {
-  study: 'Study Note',
-  ai: 'AI Update',
-  papers: 'Paper Summary',
-  projects: 'Project',
-};
-
-export const CATEGORY_ICON: Record<string, string> = {
-  study: '📚',
-  ai: '⚡',
-  papers: '📄',
-  projects: '🛠️',
-};
-
-export const base = (p = '') => `${import.meta.env.BASE_URL.replace(/\/$/, '')}/${p.replace(/^\//, '')}`;
-
-export const dayKey = (d: Date) => d.toISOString().slice(0, 10);
-export const dayUrl = (key: string) => base(`${key.replaceAll('-', '/')}/`);
-export const slugOf = (p: Post) => p.id.split('/').pop()!.replace(/^\d{4}-\d{2}-\d{2}-/, '');
-export const postUrl = (p: Post) => base(`${dayKey(p.data.date).replaceAll('-', '/')}/${slugOf(p)}/`);
-
-export function readingTime(p: Post): string {
-  const text = (p.body ?? '') + ' ' + (p.data.summary ?? '');
-  const words = text.trim().split(/\s+/).length;
-  const mins = Math.max(1, Math.ceil(words / 220));
-  return `${mins} min read`;
-}
+export const phases = phasesData;
 
 export function phaseOf(n?: number) {
   if (!n) return undefined;
   return phases.find((ph) => ph.n === n);
 }
 
-export async function allPosts(): Promise<Post[]> {
-  const posts = await getCollection('posts', (p) => !p.data.draft);
-  return posts.sort((a, b) => b.data.date.getTime() - a.data.date.getTime() || a.id.localeCompare(b.id));
+const POSTS_DIR = path.join(process.cwd(), 'src/content/posts');
+
+function getAllFiles(dirPath: string, arrayOfFiles: string[] = []): string[] {
+  if (!fs.existsSync(dirPath)) return arrayOfFiles;
+  const files = fs.readdirSync(dirPath);
+
+  for (const file of files) {
+    const fullPath = path.join(dirPath, file);
+    if (fs.statSync(fullPath).isDirectory()) {
+      arrayOfFiles = getAllFiles(fullPath, arrayOfFiles);
+    } else if (file.endsWith('.md') || file.endsWith('.mdx')) {
+      arrayOfFiles.push(fullPath);
+    }
+  }
+
+  return arrayOfFiles;
+}
+
+let cachedPosts: Post[] | null = null;
+
+export function allPosts(): Post[] {
+  if (cachedPosts) return cachedPosts;
+
+  const filePaths = getAllFiles(POSTS_DIR);
+  const posts: Post[] = [];
+
+  for (const filePath of filePaths) {
+    const fileContent = fs.readFileSync(filePath, 'utf8');
+    const { data, content } = matter(fileContent);
+
+    if (data.draft) continue;
+
+    const relativeId = path.relative(POSTS_DIR, filePath).replaceAll('\\', '/');
+    const dateVal = data.date ? new Date(data.date) : new Date();
+
+    const post: Post = {
+      id: relativeId,
+      slug: slugOf({ id: relativeId } as Post),
+      body: content,
+      data: {
+        title: data.title || '',
+        date: dateVal,
+        categories: data.categories || ['study'],
+        tags: data.tags || [],
+        summary: data.summary || '',
+        sources: data.sources || [],
+        papers: data.papers || [],
+        cover: data.cover,
+        cover_credit: data.cover_credit,
+        images: data.images || [],
+        phase: data.phase,
+        step: data.step,
+        highlights: data.highlights || [],
+        card: data.card,
+        draft: !!data.draft,
+      },
+    };
+
+    posts.push(post);
+  }
+
+  posts.sort((a, b) => b.data.date.getTime() - a.data.date.getTime() || a.id.localeCompare(b.id));
+  cachedPosts = posts;
+  return posts;
+}
+
+export function getPostBySlug(year: string, month: string, day: string, slug: string): Post | undefined {
+  const posts = allPosts();
+  const targetKey = `${year}-${month}-${day}`;
+  return posts.find((p) => {
+    return dayKey(p.data.date) === targetKey && slugOf(p) === slug;
+  });
 }
 
 export function byDay(posts: Post[]): Map<string, Post[]> {
@@ -59,7 +109,6 @@ export function today(): string {
 export function stats(posts: Post[]) {
   const days = byDay(posts);
   const count = (c: string) => posts.filter((p) => p.data.categories.includes(c as any)).length;
-  // current streak: consecutive days with posts ending at the latest post day
   const keys = [...days.keys()].sort();
   let streak = 0;
   if (keys.length) {
@@ -69,7 +118,15 @@ export function stats(posts: Post[]) {
       d.setUTCDate(d.getUTCDate() - 1);
     }
   }
-  return { days: days.size, total: posts.length, papers: count('papers'), ai: count('ai'), study: count('study'), projects: count('projects'), streak };
+  return {
+    days: days.size,
+    total: posts.length,
+    papers: count('papers'),
+    ai: count('ai'),
+    study: count('study'),
+    projects: count('projects'),
+    streak,
+  };
 }
 
 export function phaseProgress(posts: Post[]) {
@@ -83,5 +140,8 @@ export function phaseProgress(posts: Post[]) {
 
 export const fmtDate = (d: Date | string) =>
   new Date(typeof d === 'string' ? d + 'T00:00:00Z' : d).toLocaleDateString('en-GB', {
-    day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC',
+    day: 'numeric',
+    month: 'short',
+    year: 'numeric',
+    timeZone: 'UTC',
   });
