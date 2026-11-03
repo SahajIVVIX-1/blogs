@@ -15,7 +15,7 @@ rmSync(out, { recursive: true, force: true });
 mkdirSync(out, { recursive: true });
 sh(`git archive HEAD | tar -x -C "${fwd(out)}"`);
 if (!existsSync(path.join(out, 'node_modules'))) symlinkSync(path.join(ROOT, 'node_modules'), path.join(out, 'node_modules'), 'junction');
-sh('npx astro build && npx pagefind --site dist', out);
+sh('npm.cmd run build', out);
 
 const sha = execSync('git rev-parse --short HEAD', { cwd: ROOT, encoding: 'utf8' }).trim();
 sh('git fetch -q origin gh-pages');
