@@ -71,7 +71,7 @@ const overallPct = Math.round((totalDone / total) * 100);
                   const stepNum = idx + 1;
                   const post = ph.posts.find((p) => p.data.step === stepNum);
                   return (
-                    <div style="display:flex;align-items:center;justify-content:space-between;padding:8px 12px;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-sm);font-size:0.9rem;">
+                    <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;padding:8px 12px;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-sm);font-size:0.9rem;">
                       <div style="display:flex;align-items:center;gap:10px;">
                         <span class="mono" style="color:var(--muted);font-size:0.8rem;width:28px;">#{String(stepNum).padStart(2, '0')}</span>
                         {post ? (
