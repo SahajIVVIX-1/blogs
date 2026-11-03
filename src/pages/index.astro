@@ -3,17 +3,101 @@ import Base from '../layouts/Base.astro';
 import PostList from '../components/PostList.astro';
 import Heatmap from '../components/Heatmap.astro';
 import StatsStrip from '../components/StatsStrip.astro';
+import PhaseGrid from '../components/PhaseGrid.astro';
 import { allPosts, byDay, base } from '../lib/posts';
+
 const posts = await allPosts();
+const studyPosts = posts.filter((p) => p.data.categories.includes('study'));
+const paperPosts = posts.filter((p) => p.data.categories.includes('papers'));
+const aiPosts = posts.filter((p) => p.data.categories.includes('ai'));
+const projectPosts = posts.filter((p) => p.data.categories.includes('projects'));
 ---
 <Base wide>
-  <h1>Learning in public, one day at a time</h1>
-  <p class="muted" style="max-width:62ch">Study notes from my path through Python, ML and AI, plus summaries of AI news and papers from public sources. Every post links its sources.</p>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-pill">
+      <span>✦</span> Engineering Notebook & Research Log
+    </div>
+    <h1 class="hero-title">
+      Engineering in Public: From Core Math to Autonomous AI
+    </h1>
+    <p class="hero-desc">
+      I'm <strong>Sahaj Saliya</strong>, B.Tech ICT student at PDEU, Gandhinagar (2023–2027). This site is my day-by-day technical log: in-depth curriculum study notes with runnable code, arXiv research paper breakdowns, and verified AI release summaries.
+    </p>
+    <div class="hero-actions">
+      <a href={base('learning-path/')} class="btn btn-primary">
+        Explore 15-Phase Curriculum →
+      </a>
+      <a href={base('papers/')} class="btn btn-outline">
+        Browse Research Papers ({paperPosts.length})
+      </a>
+      <a href={base('study/')} class="btn btn-outline">
+        Study Guides ({studyPosts.length})
+      </a>
+      <a href={base('search/')} class="btn btn-outline">
+        🔍 Instant Search
+      </a>
+    </div>
+  </section>
+
+  <!-- Metric Overview -->
   <StatsStrip posts={posts} />
+
+  <!-- Curriculum Roadmap Preview -->
+  <section style="margin: 2.5rem 0;">
+    <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
+      <div>
+        <h2 style="margin: 0 0 0.3rem;">Curriculum Roadmaps</h2>
+        <p class="muted" style="margin: 0;">Step-by-step master tracks spanning 15 phases from Python to Agentic Systems.</p>
+      </div>
+      <a href={base('learning-path/')} class="btn btn-outline" style="padding: 6px 12px; font-size: 0.85rem;">
+        View Detailed Roadmap →
+      </a>
+    </div>
+    <PhaseGrid posts={posts} limit={6} />
+  </section>
+
+  <!-- Filter & Latest Posts Stream -->
+  <section style="margin: 2.5rem 0;">
+    <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
+      <div>
+        <h2 style="margin: 0 0 0.3rem;">Recent Technical Posts</h2>
+        <p class="muted" style="margin: 0;">Every post links its verified public sources, math formulations, and code outputs.</p>
+      </div>
+      <a href={base('archive/')} class="btn btn-outline" style="padding: 6px 12px; font-size: 0.85rem;">
+        View Chronological Archive →
+      </a>
+    </div>
+
+    <!-- Filter Tabs -->
+    <div class="filter-tabs">
+      <a href={base()} class="filter-tab active">
+        All Posts <span class="badge-count">{posts.length}</span>
+      </a>
+      <a href={base('study/')} class="filter-tab">
+        📚 Study Notes <span class="badge-count">{studyPosts.length}</span>
+      </a>
+      <a href={base('papers/')} class="filter-tab">
+        📄 Research Papers <span class="badge-count">{paperPosts.length}</span>
+      </a>
+      <a href={base('ai/')} class="filter-tab">
+        ⚡ AI Releases <span class="badge-count">{aiPosts.length}</span>
+      </a>
+      <a href={base('archive/')} class="filter-tab">
+        🛠️ Projects <span class="badge-count">{projectPosts.length}</span>
+      </a>
+    </div>
+
+    <!-- Cards Grid -->
+    <PostList posts={posts.slice(0, 12)} />
+    
+    <div style="text-align: center; margin: 2rem 0;">
+      <a href={base('archive/')} class="btn btn-outline" style="padding: 10px 24px;">
+        Browse All {posts.length} Posts in Archive →
+      </a>
+    </div>
+  </section>
+
+  <!-- Publishing Activity Calendar (Collapsible & Non-intrusive) -->
   <Heatmap days={byDay(posts)} />
-  <div class="wrap" style="padding:0;margin:2rem 0 0">
-    <h2>Latest</h2>
-    <PostList posts={posts.slice(0, 15)} />
-    <p><a href={base('archive/')}>All posts in the archive →</a></p>
-  </div>
 </Base>

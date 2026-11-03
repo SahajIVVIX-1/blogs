@@ -2,10 +2,27 @@
 import Base from '../layouts/Base.astro';
 import PostList from '../components/PostList.astro';
 import { allPosts } from '../lib/posts';
+
 const posts = (await allPosts()).filter((p) => p.data.categories.includes('ai'));
 ---
-<Base title="AI updates">
-  <h1>AI updates</h1>
-  <p class="muted">Summaries of releases and announcements from official sources, dated by the source's publish date.</p>
-  <PostList posts={posts} />
+<Base title="AI Releases & Industry Updates" wide>
+  <section class="hero" style="padding-top:1.5rem;padding-bottom:1.5rem;">
+    <div class="hero-pill">
+      <span>⚡</span> Model Releases & Announcements
+    </div>
+    <h1 class="hero-title" style="font-size: clamp(2rem, 4vw, 2.8rem);">
+      AI Industry Releases & Updates
+    </h1>
+    <p class="hero-desc">
+      Verified technical summaries of frontier foundation models, architectural shifts, and open-source library releases from OpenAI, Anthropic, Google DeepMind, Meta AI, Mistral, and Hugging Face.
+    </p>
+  </section>
+
+  <section style="margin: 2rem 0;">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1.2rem;">
+      <h2 style="margin:0;">Latest Releases ({posts.length})</h2>
+      <span class="label muted">Dated by official publish date</span>
+    </div>
+    <PostList posts={posts} />
+  </section>
 </Base>

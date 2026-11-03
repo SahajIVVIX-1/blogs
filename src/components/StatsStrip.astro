@@ -3,10 +3,25 @@ import { stats, type Post } from '../lib/posts';
 interface Props { posts: Post[] }
 const s = stats(Astro.props.posts);
 ---
-<div class="stats">
-  <div class="stat"><b>{s.days}</b><span class="label muted">days with posts</span></div>
-  <div class="stat"><b>{s.study}</b><span class="label muted">study notes</span></div>
-  <div class="stat"><b>{s.papers}</b><span class="label muted">paper summaries</span></div>
-  <div class="stat"><b>{s.ai}</b><span class="label muted">AI updates</span></div>
-  <div class="stat"><b>{s.streak}</b><span class="label muted">current streak (days)</span></div>
+<div class="stats-grid">
+  <div class="stat-card">
+    <span class="stat-num">{s.total}</span>
+    <span class="stat-label">📚 Published Technical Notes</span>
+  </div>
+  <div class="stat-card">
+    <span class="stat-num">{s.study}</span>
+    <span class="stat-label">🎓 Curriculum Study Guides</span>
+  </div>
+  <div class="stat-card">
+    <span class="stat-num">{s.papers}</span>
+    <span class="stat-label">📄 Research Paper Digests</span>
+  </div>
+  <div class="stat-card">
+    <span class="stat-num">{s.ai}</span>
+    <span class="stat-label">⚡ Major AI Releases</span>
+  </div>
+  <div class="stat-card">
+    <span class="stat-num">{s.days}</span>
+    <span class="stat-label">🗓️ Total Active Posting Days</span>
+  </div>
 </div>

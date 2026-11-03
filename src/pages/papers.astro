@@ -1,38 +1,77 @@
 ---
 import Base from '../layouts/Base.astro';
 import { allPosts, postUrl, dayKey } from '../lib/posts';
+
 const posts = (await allPosts()).filter((p) => p.data.categories.includes('papers'));
 const rows = posts.map((p) => {
   const paper = p.data.papers[0];
   return {
-    date: dayKey(p.data.date), title: p.data.title.replace(/^Paper summary:\s*/, ''), url: postUrl(p),
+    date: dayKey(p.data.date),
+    title: p.data.title.replace(/^Paper summary:\s*/, ''),
+    url: postUrl(p),
     authors: paper ? paper.authors.slice(0, 3).join(', ') + (paper.authors.length > 3 ? ' et al.' : '') : '',
-    topic: p.data.tags[0] ?? '', arxiv: paper?.arxiv, pdf: paper?.pdf, code: paper?.code,
+    topic: p.data.tags[0] ?? 'ML',
+    arxiv: paper?.arxiv,
+    pdf: paper?.pdf,
+    code: paper?.code,
   };
 });
 ---
-<Base title="Papers" wide>
-  <h1>Paper summaries</h1>
-  <p class="muted" style="max-width:65ch">One notable paper on many days, picked from arXiv or Hugging Face Daily Papers. These are summaries of the papers, written from the papers themselves. Click a column header to sort.</p>
-  <div class="table-wrap">
-    <table class="data" id="papers">
-      <thead><tr>
-        <th><button data-k="0">Date</button></th><th><button data-k="1">Title</button></th>
-        <th><button data-k="2">Authors</button></th><th><button data-k="3">Topic</button></th><th>Links</th>
-      </tr></thead>
-      <tbody>
-        {rows.map((r) => (
+<Base title="Research Paper Digests" wide>
+  <section class="hero" style="padding-top:1.5rem;padding-bottom:1.5rem;">
+    <div class="hero-pill">
+      <span>📄</span> arXiv & HF Research Digests
+    </div>
+    <h1 class="hero-title" style="font-size: clamp(2rem, 4vw, 2.8rem);">
+      AI Research Paper Breakdowns
+    </h1>
+    <p class="hero-desc">
+      Rigorous, structured summaries of notable machine learning and artificial intelligence papers from arXiv (cs.CL, cs.AI, cs.LG, cs.CV) and Hugging Face Daily Papers. Each digest covers the core problem, architecture/method, benchmarks, and key limitations.
+    </p>
+  </section>
+
+  <!-- Table Container -->
+  <section style="margin: 2rem 0;">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;">
+      <span class="label muted" style="font-size:0.9rem;">
+        Showing {rows.length} verified research paper digests · Click table headers to sort
+      </span>
+    </div>
+
+    <div class="table-wrap">
+      <table class="data" id="papers">
+        <thead>
           <tr>
-            <td class="label">{r.date}</td>
-            <td><a href={r.url}>{r.title}</a></td>
-            <td>{r.authors}</td>
-            <td><span class="chip">{r.topic}</span></td>
-            <td class="label">{r.arxiv && <a href={r.arxiv}>arXiv</a>} {r.pdf && <a href={r.pdf}>PDF</a>} {r.code && <a href={r.code}>code</a>}</td>
+            <th><button data-k="0">Date ↕</button></th>
+            <th><button data-k="1">Paper Title ↕</button></th>
+            <th><button data-k="2">Authors ↕</button></th>
+            <th><button data-k="3">Domain ↕</button></th>
+            <th>Direct Links</th>
           </tr>
-        ))}
-      </tbody>
-    </table>
-  </div>
+        </thead>
+        <tbody>
+          {rows.map((r) => (
+            <tr>
+              <td class="mono" style="font-size:0.82rem;white-space:nowrap;color:var(--muted);">{r.date}</td>
+              <td style="font-weight:600;">
+                <a href={r.url} style="color:var(--ink);">{r.title}</a>
+              </td>
+              <td style="font-size:0.88rem;color:var(--muted);">{r.authors}</td>
+              <td>
+                <span class="badge badge-papers" style="font-size:0.7rem;">#{r.topic}</span>
+              </td>
+              <td style="white-space:nowrap;font-size:0.82rem;">
+                {r.arxiv && <a href={r.arxiv} target="_blank" rel="noopener" class="btn btn-outline" style="padding:2px 8px;font-size:0.75rem;margin-right:4px;">arXiv</a>}
+                {r.pdf && <a href={r.pdf} target="_blank" rel="noopener" class="btn btn-outline" style="padding:2px 8px;font-size:0.75rem;margin-right:4px;">PDF</a>}
+                {r.code && <a href={r.code} target="_blank" rel="noopener" class="btn btn-outline" style="padding:2px 8px;font-size:0.75rem;">Code</a>}
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
   <script is:inline>
     const t = document.getElementById('papers');
     let dir = {};
