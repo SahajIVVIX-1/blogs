@@ -1,0 +1,85 @@
+[
+  {
+    "id": "2404.12387",
+    "title": "Reka Core, Flash, and Edge: A Series of Powerful Multimodal Language Models",
+    "authors": [
+      "Aitor Ormazabal",
+      "Che Zheng",
+      "Cyprien de Masson d'Autume",
+      "Dani Yogatama",
+      "Deyu Fu",
+      "Donovan Ong",
+      "Eric Chen",
+      "Eugenie Lamprecht",
+      "Hai Pham",
+      "Isaac Ong",
+      "Kaloyan Aleksiev",
+      "Lei Li",
+      "Matthew Henderson",
+      "Max Bain",
+      "Mikel Artetxe",
+      "Nishant Relan",
+      "Piotr Padlewski",
+      "Qi Liu",
+      "Ren Chen",
+      "Samuel Phua",
+      "Yazheng Yang",
+      "Yi Tay",
+      "Yuqi Wang",
+      "Zhongkai Zhu",
+      "Zhihui Xie"
+    ],
+    "summary": "We introduce Reka Core, Flash, and Edge, a series of powerful multimodal language models trained from scratch by Reka. Reka models are able to process and reason with text, images, video, and audio inputs. This technical report discusses details of training some of these models and provides comprehensive evaluation results. We show that Reka Edge and Reka Flash are not only state-of-the-art but also outperform many much larger models, delivering outsized values for their respective compute class. Meanwhile, our most capable and largest model, Reka Core, approaches the best frontier models on both automatic evaluations and blind human evaluations. On image question answering benchmarks (e.g. MMMU, VQAv2), Core performs competitively to GPT4-V. Meanwhile, on multimodal chat, Core ranks as the second most preferred model under a blind third-party human evaluation setup, outperforming other models such as Claude 3 Opus. On text benchmarks, Core not only performs competitively to other frontier models on a set of well-established benchmarks (e.g. MMLU, GSM8K) but also outperforms GPT4-0613 on human evaluation. On video question answering (Perception-Test), Core outperforms Gemini Ultra. Models are shipped in production at http://chat.reka.ai . A showcase of non cherry picked qualitative examples can also be found at http://showcase.reka.ai .",
+    "upvotes": 41,
+    "github": null,
+    "published": "2024-04-18T17:59:48.000Z"
+  },
+  {
+    "id": "2404.12390",
+    "title": "BLINK: Multimodal Large Language Models Can See but Not Perceive",
+    "authors": [
+      "Xingyu Fu",
+      "Yushi Hu",
+      "Bangzheng Li",
+      "Yu Feng",
+      "Haoyu Wang",
+      "Xudong Lin",
+      "Dan Roth",
+      "Noah A. Smith",
+      "Wei-Chiu Ma",
+      "Ranjay Krishna"
+    ],
+    "summary": "We introduce Blink, a new benchmark for multimodal language models (LLMs) that focuses on core visual perception abilities not found in other evaluations. Most of the Blink tasks can be solved by humans \"within a blink\" (e.g., relative depth estimation, visual correspondence, forensics detection, and multi-view reasoning). However, we find these perception-demanding tasks cast significant challenges for current multimodal LLMs because they resist mediation through natural language. Blink reformats 14 classic computer vision tasks into 3,807 multiple-choice questions, paired with single or multiple images and visual prompting. While humans get 95.70% accuracy on average, Blink is surprisingly challenging for existing multimodal LLMs: even the best-performing GPT-4V and Gemini achieve accuracies of 51.26% and 45.72%, only 13.17% and 7.63% higher than random guessing, indicating that such perception abilities have not \"emerged\" yet in recent multimodal LLMs. Our analysis also highlights that specialist CV models could solve these problems much better, suggesting potential pathways for future improvements. We believe Blink will stimulate the community to help multimodal LLMs catch up with human-level visual perception.",
+    "upvotes": 27,
+    "github": null,
+    "published": "2024-04-18T17:59:54.000Z"
+  },
+  {
+    "id": "2404.12195",
+    "title": "OpenBezoar: Small, Cost-Effective and Open Models Trained on Mixes of Instruction Data",
+    "authors": [
+      "Chandeepa Dissanayake",
+      "Lahiru Lowe",
+      "Sachith Gunasekara",
+      "Yasiru Ratnayake"
+    ],
+    "summary": "Instruction fine-tuning pretrained LLMs for diverse downstream tasks has demonstrated remarkable success and has captured the interest of both academics and practitioners. To ensure such fine-tuned LLMs align with human preferences, techniques such as RLHF and DPO have emerged. At the same time, there is increasing interest in smaller parameter counts for models. In this work, using OpenLLaMA 3Bv2 as a base model, we describe the recipe used to fine-tune the OpenBezoar family of models. In this recipe: We first generate synthetic instruction fine-tuning data using an open and commercially non-restrictive instruction fine-tuned variant of the Falcon-40B model under three schemes based on: LaMini-LM, WizardLM/Evol-Instruct (with databricks-dolly-15k as a seed dataset) and Orca (with the Flan Collection as a seed dataset), then filter these generations using GPT-4 as a human proxy. We then perform cost-effective QLoRA-based supervised fine-tuning sequentially with each scheme. The resulting checkpoint is further fine-tuned with a subset of the HH-RLHF dataset to minimize distribution shift prior to using the DPO loss to obtain the final checkpoint. Evaluation is done with the LM Eval Harness tasks/metrics as well as on MT-Bench using the \"LLM-as-a-judge\" framework with Claude 2.1, with the finding that the final checkpoint, \"OpenBezoar-HH-RLHF-DPO\", demonstrates superior performance over many models at the 3B parameter scale, even outperforming the top model in one of the categories on the Huggingface Open LLM Leaderboard. We release \"OpenBezoar-SFT\", \"OpenBezoar-HH-RLHF-SFT\", \"OpenBezoar-HH-RLHF-DPO\" checkpoints, alongside our generated datasets on HuggingFace at https://huggingface.co/collections/SurgeGlobal/open-bezoar-6620a24923e12127e9e2b9cc and our codebase at https://bitbucket.org/paladinanalytics/workspace/projects/OP.",
+    "upvotes": 12,
+    "github": null,
+    "published": "2024-04-18T13:57:18.000Z"
+  },
+  {
+    "id": "2404.12347",
+    "title": "AniClipart: Clipart Animation with Text-to-Video Priors",
+    "authors": [
+      "Ronghuan Wu",
+      "Wanchao Su",
+      "Kede Ma",
+      "Jing Liao"
+    ],
+    "summary": "Clipart, a pre-made graphic art form, offers a convenient and efficient way of illustrating visual content. Traditional workflows to convert static clipart images into motion sequences are laborious and time-consuming, involving numerous intricate steps like rigging, key animation and in-betweening. Recent advancements in text-to-video generation hold great potential in resolving this problem. Nevertheless, direct application of text-to-video generation models often struggles to retain the visual identity of clipart images or generate cartoon-style motions, resulting in unsatisfactory animation outcomes. In this paper, we introduce AniClipart, a system that transforms static clipart images into high-quality motion sequences guided by text-to-video priors. To generate cartoon-style and smooth motion, we first define B\\'{e}zier curves over keypoints of the clipart image as a form of motion regularization. We then align the motion trajectories of the keypoints with the provided text prompt by optimizing the Video Score Distillation Sampling (VSDS) loss, which encodes adequate knowledge of natural motion within a pretrained text-to-video diffusion model. With a differentiable As-Rigid-As-Possible shape deformation algorithm, our method can be end-to-end optimized while maintaining deformation rigidity. Experimental results show that the proposed AniClipart consistently outperforms existing image-to-video generation models, in terms of text-video alignment, visual identity preservation, and motion consistency. Furthermore, we showcase the versatility of AniClipart by adapting it to generate a broader array of animation formats, such as layered animation, which allows topological changes.",
+    "upvotes": 12,
+    "github": null,
+    "published": "2024-04-18T17:24:28.000Z"
+  }
+]
