@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
-import { allPosts, byDay, dayUrl, postUrl, START, today, base } from '../lib/posts';
+import { allPosts, byDay, dayUrl, postUrl, fmtDate, START, today, base } from '../lib/posts';
+
 const posts = await allPosts();
 const days = byDay(posts);
 const tree = new Map<string, Map<string, string[]>>();
@@ -10,42 +11,83 @@ for (const k of [...days.keys()].sort().reverse()) {
   if (!tree.get(y)!.has(m)) tree.get(y)!.set(m, []);
   tree.get(y)!.get(m)!.push(k);
 }
-const monthName = (m: string) => new Date(m + '-01T00:00:00Z').toLocaleDateString('en-GB', { month: 'long', timeZone: 'UTC' });
+const monthName = (m: string) => new Date(m + '-01T00:00:00Z').toLocaleDateString('en-GB', { month: 'long', year: 'numeric', timeZone: 'UTC' });
 ---
-<Base title="Archive">
-  <h1>Archive</h1>
-  <form id="jump" style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
-    <label for="d" class="label">Jump to a day</label>
-    <input type="date" id="d" min={START} max={today()} required />
-    <button class="theme-btn" type="submit">Go</button>
-    <span id="msg" class="muted" role="status" style="font-size:0.9rem"></span>
-  </form>
-  <p class="muted">{posts.length} posts on {days.size} days.</p>
-  {[...tree].map(([y, months]) => (
-    <section>
-      <h2>{y}</h2>
-      {[...months].map(([m, ks]) => (
-        <details open={m === [...tree.values()][0].keys().next().value}>
-          <summary><b>{monthName(m)}</b> <span class="muted">· {ks.reduce((n, k) => n + days.get(k)!.length, 0)} posts</span></summary>
-          <ul>
-            {ks.map((k) => (
-              <li>
-                <a href={dayUrl(k)} class="label">{k}</a>
-                <ul>{days.get(k)!.map((p) => <li><a href={postUrl(p)}>{p.data.title}</a></li>)}</ul>
-              </li>
-            ))}
-          </ul>
-        </details>
-      ))}
-    </section>
-  ))}
+<Base title="Chronological Archive" wide>
+  <section class="hero" style="padding-top:1.5rem;padding-bottom:1.5rem;">
+    <div class="hero-pill">
+      <span>🗄️</span> Complete Chronology
+    </div>
+    <h1 class="hero-title" style="font-size: clamp(2rem, 4vw, 2.8rem);">
+      Chronological Archive
+    </h1>
+    <p class="hero-desc">
+      Every single entry from 4 August 2023 onward, organized by year, month, and day. Total of {posts.length} entries across {days.size} active recording days.
+    </p>
+
+    <!-- Quick Jump Date Input -->
+    <form id="jump" style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-md);padding:1rem;max-width:550px;">
+      <label for="d" style="font-weight:600;font-size:0.9rem;">Jump to Date:</label>
+      <input type="date" id="d" min={START} max={today()} required />
+      <button class="btn btn-primary" type="submit" style="padding:7px 16px;font-size:0.85rem;">Go to Day</button>
+      <span id="msg" class="muted" role="status" style="font-size:0.85rem;width:100%;"></span>
+    </form>
+  </section>
+
+  <!-- Years Tree -->
+  <section style="margin:2rem 0;">
+    {[...tree].map(([y, months]) => (
+      <div style="margin-bottom:2.5rem;">
+        <h2 style="font-size:1.6rem;border-bottom:1px solid var(--line);padding-bottom:0.4rem;margin-bottom:1.2rem;">
+          📅 Year {y}
+        </h2>
+        
+        <div style="display:grid;gap:12px;">
+          {[...months].map(([m, ks]) => {
+            const count = ks.reduce((n, k) => n + days.get(k)!.length, 0);
+            return (
+              <details open={m === [...tree.values()][0].keys().next().value} style="background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-md);padding:0.8rem 1.2rem;">
+                <summary style="cursor:pointer;display:flex;justify-content:space-between;align-items:center;font-weight:600;font-size:1.05rem;">
+                  <span>{monthName(m)}</span>
+                  <span class="badge badge-phase">{count} post{count > 1 ? 's' : ''}</span>
+                </summary>
+                
+                <div style="margin-top:1rem;display:grid;gap:12px;padding-top:0.8rem;border-top:1px solid var(--line-subtle);">
+                  {ks.map((k) => (
+                    <div style="background:var(--bg);border:1px solid var(--line);border-radius:var(--radius-sm);padding:0.8rem 1rem;">
+                      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.4rem;">
+                        <a href={dayUrl(k)} class="mono" style="font-weight:700;color:var(--accent);">
+                          📍 {fmtDate(k)}
+                        </a>
+                        <span class="muted" style="font-size:0.8rem;">{days.get(k)!.length} entry</span>
+                      </div>
+                      <ul style="margin:0;padding-left:1.2rem;display:grid;gap:4px;">
+                        {days.get(k)!.map((p) => (
+                          <li style="font-size:0.92rem;">
+                            <a href={postUrl(p)} style="color:var(--ink);font-weight:500;">
+                              {p.data.title}
+                            </a>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  ))}
+                </div>
+              </details>
+            );
+          })}
+        </div>
+      </div>
+    ))}
+  </section>
+
   <script is:inline define:vars={{ have: [...days.keys()], root: base() }}>
     const set = new Set(have);
     document.getElementById('jump').addEventListener('submit', (e) => {
       e.preventDefault();
       const v = document.getElementById('d').value;
       if (set.has(v)) location.href = root + v.replaceAll('-', '/') + '/';
-      else document.getElementById('msg').textContent = 'No posts on that day.';
+      else document.getElementById('msg').textContent = 'No published entries found on that date.';
     });
   </script>
 </Base>

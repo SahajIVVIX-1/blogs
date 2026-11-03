@@ -5,10 +5,17 @@ export type Post = CollectionEntry<'posts'>;
 export const START = '2023-08-04';
 
 export const CATEGORY_LABEL: Record<string, string> = {
-  study: 'Study',
-  ai: 'AI updates',
-  papers: 'Paper summary',
-  projects: 'Projects',
+  study: 'Study Note',
+  ai: 'AI Update',
+  papers: 'Paper Summary',
+  projects: 'Project',
+};
+
+export const CATEGORY_ICON: Record<string, string> = {
+  study: '📚',
+  ai: '⚡',
+  papers: '📄',
+  projects: '🛠️',
 };
 
 export const base = (p = '') => `${import.meta.env.BASE_URL.replace(/\/$/, '')}/${p.replace(/^\//, '')}`;
@@ -17,6 +24,18 @@ export const dayKey = (d: Date) => d.toISOString().slice(0, 10);
 export const dayUrl = (key: string) => base(`${key.replaceAll('-', '/')}/`);
 export const slugOf = (p: Post) => p.id.split('/').pop()!.replace(/^\d{4}-\d{2}-\d{2}-/, '');
 export const postUrl = (p: Post) => base(`${dayKey(p.data.date).replaceAll('-', '/')}/${slugOf(p)}/`);
+
+export function readingTime(p: Post): string {
+  const text = (p.body ?? '') + ' ' + (p.data.summary ?? '');
+  const words = text.trim().split(/\s+/).length;
+  const mins = Math.max(1, Math.ceil(words / 220));
+  return `${mins} min read`;
+}
+
+export function phaseOf(n?: number) {
+  if (!n) return undefined;
+  return phases.find((ph) => ph.n === n);
+}
 
 export async function allPosts(): Promise<Post[]> {
   const posts = await getCollection('posts', (p) => !p.data.draft);
@@ -50,7 +69,7 @@ export function stats(posts: Post[]) {
       d.setUTCDate(d.getUTCDate() - 1);
     }
   }
-  return { days: days.size, papers: count('papers'), ai: count('ai'), study: count('study'), streak };
+  return { days: days.size, total: posts.length, papers: count('papers'), ai: count('ai'), study: count('study'), projects: count('projects'), streak };
 }
 
 export function phaseProgress(posts: Post[]) {

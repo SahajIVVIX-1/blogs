@@ -4,9 +4,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "astro dev",
-    "build": "astro build && pagefind --site dist",
-    "preview": "astro preview",
+    "dev": "node -r ./scripts/lib/node-compat.cjs ./node_modules/astro/bin/astro.mjs dev",
+    "build": "node -r ./scripts/lib/node-compat.cjs ./node_modules/astro/bin/astro.mjs build && pagefind --site dist",
+    "preview": "node -r ./scripts/lib/node-compat.cjs ./node_modules/astro/bin/astro.mjs preview",
     "fetch": "node scripts/fetch.mjs",
     "new": "node scripts/new.mjs",
     "daily": "node scripts/daily.mjs",

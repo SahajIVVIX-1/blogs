@@ -20,25 +20,50 @@ for (let y = Number(START.slice(0, 4)); y <= end.getUTCFullYear(); y++) {
 }
 const level = (n: number) => (n === 0 ? '' : n === 1 ? 'l1' : n === 2 ? 'l2' : n === 3 ? 'l3' : 'l4');
 ---
-<section aria-label="Posting calendar">
-  {years.map(({ year, cells }) => (
-    <>
-      <div class="heat-year">{year}</div>
-      <div class="heat-scroll">
-        <div class="heat" aria-hidden="true">
-          {cells.map((c) =>
-            !c ? <span class="pad" /> :
-            c.n ? <span class={`${level(c.n)} has`} data-href={dayUrl(c.key)} title={`${c.key}: ${c.n} post${c.n > 1 ? 's' : ''} · ${c.cats.join(', ')}`} /> :
-            <span title={`${c.key}: no posts`} />
-          )}
+<section class="activity-card" aria-label="Posting Activity Calendar">
+  <details>
+    <summary class="activity-card-header">
+      <h3 class="activity-card-title">
+        <span>📅</span> Daily Publishing Activity & Streak Heatmap
+      </h3>
+      <span class="btn btn-outline" style="padding:4px 10px;font-size:0.8rem">Toggle Calendar</span>
+    </summary>
+    
+    <p class="activity-desc">
+      Every active square represents published, verified learning notes, arXiv paper digests, or official AI releases. Click any day to jump to its daily journal.
+    </p>
+
+    {years.map(({ year, cells }) => (
+      <div style="margin-top:1rem">
+        <div class="heat-year">{year}</div>
+        <div class="heat-scroll">
+          <div class="heat" aria-hidden="true">
+            {cells.map((c) =>
+              !c ? <span class="pad" /> :
+              c.n ? <span class={`${level(c.n)} has`} data-href={dayUrl(c.key)} title={`${c.key}: ${c.n} post${c.n > 1 ? 's' : ''} · ${c.cats.join(', ')}`} /> :
+              <span title={`${c.key}: no posts`} />
+            )}
+          </div>
         </div>
       </div>
-    </>
-  ))}
-  <div class="heat-legend">less <i style="background:var(--heat-0)" /><i style="background:var(--heat-1)" /><i style="background:var(--heat-2)" /><i style="background:var(--heat-3)" /><i style="background:var(--heat-4)" /> more · click a day to open it, or <a href={base('archive/')}>pick a date in the archive</a></div>
+    ))}
+    
+    <div class="heat-legend">
+      <span>Less</span>
+      <i style="background:var(--heat-0)" />
+      <i style="background:var(--heat-1)" />
+      <i style="background:var(--heat-2)" />
+      <i style="background:var(--heat-3)" />
+      <i style="background:var(--heat-4)" />
+      <span>More active</span>
+      <span style="margin-left:auto">
+        <a href={base('archive/')}>Browse full archive by date →</a>
+      </span>
+    </div>
+  </details>
 </section>
+
 <script is:inline>
-  // Cells are too small to be individual links (touch-target size), so one handler opens the clicked day.
   document.querySelectorAll('.heat').forEach((grid) => grid.addEventListener('click', (e) => {
     const href = e.target.dataset && e.target.dataset.href;
     if (href) location.href = href;

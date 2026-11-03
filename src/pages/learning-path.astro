@@ -1,31 +1,130 @@
 ---
 import Base from '../layouts/Base.astro';
-import { allPosts, phaseProgress, postUrl, fmtDate } from '../lib/posts';
-const phases = phaseProgress(await allPosts());
+import { allPosts, phaseProgress, postUrl, fmtDate, base } from '../lib/posts';
+
+const posts = await allPosts();
+const phases = phaseProgress(posts);
 const totalDone = phases.reduce((n, p) => n + p.done, 0);
 const total = phases.reduce((n, p) => n + p.total, 0);
+const overallPct = Math.round((totalDone / total) * 100);
 ---
-<Base title="Learning path">
-  <h1>Learning path</h1>
-  <p class="muted">Fifteen phases, from my first Python script in August 2023 to agentic AI. Each phase lists its notes in order. {totalDone} of {total} topics written up.</p>
-  <ol class="roadmap">
-    {phases.map((ph) => {
-      const pct = Math.round((ph.done / ph.total) * 100);
-      return (
-        <li id={`phase-${ph.n}`}>
-          <span class={`dot ${pct === 100 ? 'full' : ''}`} aria-hidden="true" />
-          <span class="label muted">Phase {ph.n} · {fmtDate(ph.from)} – {fmtDate(ph.to)}</span>
-          <h2 style="margin:0.1rem 0 0.4rem;font-size:1.4rem">{ph.name}</h2>
-          <div class="bar" role="progressbar" aria-valuenow={pct} aria-valuemin="0" aria-valuemax="100" aria-label={`${ph.name} progress`}><i style={`width:${pct}%`} /></div>
-          <span class="label muted">{ph.done}/{ph.total} topics</span>
-          {ph.posts.length > 0 && (
-            <details>
-              <summary>Show notes</summary>
-              <ol>{ph.posts.map((p) => <li><a href={postUrl(p)}>{p.data.title}</a> <span class="label muted">{fmtDate(p.data.date)}</span></li>)}</ol>
+<Base title="Curriculum Roadmap" wide>
+  <section class="hero" style="padding-top:1.5rem;padding-bottom:1.5rem;">
+    <div class="hero-pill">
+      <span>🗺️</span> 15-Phase Master Curriculum
+    </div>
+    <h1 class="hero-title" style="font-size: clamp(2rem, 4vw, 2.8rem);">
+      Learning Path & Technical Roadmap
+    </h1>
+    <p class="hero-desc">
+      A comprehensive sequence of 15 curriculum tracks covering software engineering, statistics, classical ML, deep learning, vision, NLP, LLMs, and autonomous agents. Each phase links its detailed study notes and runnable implementations.
+    </p>
+
+    <!-- Overall Progress Meter -->
+    <div style="background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-lg);padding:1.4rem;max-width:650px;box-shadow:var(--shadow-sm);">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.6rem;">
+        <span style="font-weight:700;font-size:1.05rem;">Overall Curriculum Progress</span>
+        <span class="label" style="font-weight:700;color:var(--accent);font-size:0.95rem;">{totalDone} / {total} Topics ({overallPct}%)</span>
+      </div>
+      <div style="height:10px;background:var(--line);border-radius:var(--radius-full);overflow:hidden;">
+        <div style={`height:100%;background:var(--accent);width:${overallPct}%;border-radius:var(--radius-full);`}></div>
+      </div>
+      <p class="muted" style="font-size:0.85rem;margin:0.6rem 0 0;">
+        From 4 August 2023 to today. Study guides are published continuously following verified academic and industry syllabi.
+      </p>
+    </div>
+  </section>
+
+  <!-- Detailed Phase Roadmap -->
+  <section style="margin: 2.5rem 0;">
+    <div class="roadmap-container">
+      {phases.map((ph) => {
+        const pct = Math.round((ph.done / ph.total) * 100);
+        const isComplete = pct === 100;
+        return (
+          <div class="roadmap-phase-card" id={`phase-${ph.n}`}>
+            <div class="roadmap-phase-header">
+              <div>
+                <span class="badge badge-study">Phase {ph.n}</span>
+                <span class="muted" style="font-size:0.85rem;margin-left:8px;">{fmtDate(ph.from)} – {fmtDate(ph.to)}</span>
+                <h2 style="margin:0.4rem 0 0.2rem;font-size:1.5rem;">{ph.name}</h2>
+              </div>
+              <div style="text-align:right;">
+                <span class="label" style="font-size:0.9rem;font-weight:700;color:var(--accent);">{ph.done}/{ph.total} guides</span>
+                <div style="font-size:0.8rem;color:var(--muted);">{isComplete ? '✓ Completed' : `${pct}% completed`}</div>
+              </div>
+            </div>
+
+            <!-- Progress Bar -->
+            <div style="height:6px;background:var(--line);border-radius:var(--radius-full);overflow:hidden;margin:0.8rem 0 1.2rem;">
+              <div style={`height:100%;background:var(--accent);width:${pct}%;border-radius:var(--radius-full);`}></div>
+            </div>
+
+            <!-- Topics & Notes Accordion / List -->
+            <details open={ph.n >= 14 || ph.n === 7} style="background:var(--bg);border:1px solid var(--line);border-radius:var(--radius-md);padding:0.8rem 1rem;">
+              <summary style="cursor:pointer;font-weight:600;font-size:0.92rem;color:var(--ink);">
+                View Curriculum Topics ({ph.topics.length}) & Published Guides ({ph.posts.length})
+              </summary>
+              
+              <div style="margin-top:1rem;display:grid;gap:8px;">
+                {ph.topics.map((topic, idx) => {
+                  const stepNum = idx + 1;
+                  const post = ph.posts.find((p) => p.data.step === stepNum);
+                  return (
+                    <div style="display:flex;align-items:center;justify-content:space-between;padding:8px 12px;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-sm);font-size:0.9rem;">
+                      <div style="display:flex;align-items:center;gap:10px;">
+                        <span class="mono" style="color:var(--muted);font-size:0.8rem;width:28px;">#{String(stepNum).padStart(2, '0')}</span>
+                        {post ? (
+                          <a href={postUrl(post)} style="font-weight:600;color:var(--ink);">
+                            {topic}
+                          </a>
+                        ) : (
+                          <span style="color:var(--muted);">{topic}</span>
+                        )}
+                      </div>
+                      <div>
+                        {post ? (
+                          <a href={postUrl(post)} class="post-card-action" style="font-size:0.82rem;">
+                            Read Guide →
+                          </a>
+                        ) : (
+                          <span class="label muted" style="font-size:0.75rem;">In Progress</span>
+                        )}
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
             </details>
-          )}
-        </li>
-      );
-    })}
-  </ol>
+          </div>
+        );
+      })}
+    </div>
+  </section>
 </Base>
+
+<style>
+  .roadmap-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+  }
+  .roadmap-phase-card {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-lg);
+    padding: 1.5rem 1.8rem;
+    box-shadow: var(--shadow-sm);
+    transition: border-color 0.2s ease;
+  }
+  .roadmap-phase-card:hover {
+    border-color: var(--accent-border);
+  }
+  .roadmap-phase-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+</style>
