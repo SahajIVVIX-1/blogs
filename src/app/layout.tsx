@@ -15,7 +15,12 @@ export const metadata: Metadata = {
   description: 'Personal day-wise engineering blog, comprehensive study handbooks, AI news, and research paper summaries by Sahaj Saliya.',
   authors: [{ name: 'Sahaj Saliya', url: 'https://blog.sahaj.si' }],
   icons: {
-    icon: '/favicon.svg',
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/icon-32.png', sizes: '32x32', type: 'image/png' },
+    ],
+    apple: '/apple-touch-icon.png',
   },
   openGraph: {
     title: 'Sahaj Saliya · AI & Engineering Handbook',
@@ -44,6 +49,9 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Inter:wght@400;450;500;600;700&family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;1,400&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,600&display=swap"
           rel="stylesheet"
         />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <script
           dangerouslySetInnerHTML={{
             __html: `
