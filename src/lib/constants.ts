@@ -40,7 +40,7 @@ export interface ImageMeta {
 export interface PostData {
   title: string;
   date: Date;
-  categories: ('study' | 'ai' | 'papers' | 'projects')[];
+  categories: ('study' | 'ai' | 'papers' | 'projects' | 'personal')[];
   tags: string[];
   summary: string;
   sources: Source[];
@@ -69,6 +69,7 @@ export const CATEGORY_LABEL: Record<string, string> = {
   ai: 'AI Update',
   papers: 'Paper Summary',
   projects: 'Project',
+  personal: 'Personal & Mindset',
 };
 
 export const CATEGORY_ICON: Record<string, string> = {
@@ -76,6 +77,7 @@ export const CATEGORY_ICON: Record<string, string> = {
   ai: '⚡',
   papers: '📄',
   projects: '🛠️',
+  personal: '🌱',
 };
 
 export const base = (p = '') => {

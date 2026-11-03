@@ -9,18 +9,19 @@ interface StatsProps {
     ai: number;
     study: number;
     projects: number;
+    personal?: number;
     streak: number;
   };
 }
 
 export default function StatsStrip({ stats }: StatsProps) {
   const items = [
-    { label: 'Total Articles', value: stats.total.toLocaleString(), href: '/archive/', icon: '📚' },
-    { label: 'Active Days', value: stats.days.toLocaleString(), href: '/archive/', icon: '🗓️' },
-    { label: 'Research Papers', value: stats.papers.toLocaleString(), href: '/papers/', icon: '📄' },
-    { label: 'AI Updates', value: stats.ai.toLocaleString(), href: '/ai/', icon: '⚡' },
-    { label: 'Study Modules', value: stats.study.toLocaleString(), href: '/study/', icon: '🧠' },
-    { label: 'Current Streak', value: `${stats.streak}d`, href: '/archive/', icon: '🔥' },
+    { label: 'Total Articles', value: stats.total.toLocaleString(), href: '/archive/', icon: '📚', color: 'emerald' },
+    { label: 'Active Days', value: stats.days.toLocaleString(), href: '/archive/', icon: '🗓️', color: 'blue' },
+    { label: 'Study Modules', value: stats.study.toLocaleString(), href: '/study/', icon: '🧠', color: 'indigo' },
+    { label: 'Research Papers', value: stats.papers.toLocaleString(), href: '/papers/', icon: '📄', color: 'teal' },
+    { label: 'AI Updates', value: stats.ai.toLocaleString(), href: '/ai/', icon: '⚡', color: 'purple' },
+    { label: 'Personal & Mindset', value: (stats.personal || 0).toLocaleString(), href: '/personal/', icon: '🌱', color: 'amber' },
   ];
 
   return (
@@ -29,13 +30,13 @@ export default function StatsStrip({ stats }: StatsProps) {
         <Link
           key={item.label}
           href={item.href}
-          className="group flex flex-col rounded-xl border border-border bg-surface p-3.5 transition-all hover:border-emerald-500/50 hover:bg-surface/80"
+          className="group relative overflow-hidden rounded-xl border border-border/80 bg-surface/70 p-4 backdrop-blur-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-emerald-500/40 hover:bg-surface hover:shadow-lg hover:shadow-emerald-500/5"
         >
-          <div className="flex items-center justify-between text-xs text-ink-muted">
-            <span>{item.label}</span>
-            <span className="text-sm">{item.icon}</span>
+          <div className="flex items-center justify-between text-xs font-medium text-ink-muted">
+            <span className="truncate">{item.label}</span>
+            <span className="text-base select-none">{item.icon}</span>
           </div>
-          <div className="mt-1.5 font-serif text-2xl font-bold tracking-tight text-ink group-hover:text-emerald-400 transition-colors">
+          <div className="mt-2 font-serif text-2xl font-bold tracking-tight text-ink group-hover:text-emerald-400 transition-colors">
             {item.value}
           </div>
         </Link>

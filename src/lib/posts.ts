@@ -125,6 +125,7 @@ export function stats(posts: Post[]) {
     ai: count('ai'),
     study: count('study'),
     projects: count('projects'),
+    personal: count('personal'),
     streak,
   };
 }

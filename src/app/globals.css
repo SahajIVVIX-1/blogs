@@ -31,7 +31,11 @@
     -moz-osx-font-smoothing: grayscale;
   }
 
-  h1, h2, h3, h4, .font-serif {
+  h1,
+  h2,
+  h3,
+  h4,
+  .font-serif {
     font-family: 'Newsreader', Georgia, serif;
     font-optical-sizing: auto;
   }
@@ -52,7 +56,7 @@
   overflow-y: hidden !important;
 }
 
-.prose .katex-display > .katex {
+.prose .katex-display>.katex {
   display: inline-block !important;
   text-align: initial !important;
 }

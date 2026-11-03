@@ -6,11 +6,11 @@ import { usePathname } from 'next/navigation';
 
 const NAV_LINKS = [
   { href: '/learning-path/', label: 'Curriculum' },
-  { href: '/study/', label: 'Study Notes' },
-  { href: '/papers/', label: 'Research Papers' },
-  { href: '/ai/', label: 'AI Updates' },
+  { href: '/study/', label: 'Study' },
+  { href: '/papers/', label: 'Papers' },
+  { href: '/ai/', label: 'AI Releases' },
+  { href: '/personal/', label: 'Personal & Mindset' },
   { href: '/archive/', label: 'Archive' },
-  { href: '/search/', label: 'Search' },
   { href: '/about/', label: 'About' },
 ];
 
