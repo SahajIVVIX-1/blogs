@@ -12,6 +12,7 @@ interface PersonalPostSummary {
   summary: string;
   tags: string[];
   readingTime: string;
+  number?: number;
 }
 
 interface PersonalClientProps {
@@ -145,6 +146,11 @@ export default function PersonalClient({ posts }: PersonalClientProps) {
                   <span className="inline-flex items-center gap-1 rounded-md border border-amber-500/30 bg-amber-500/10 px-2 py-0.5 font-medium text-amber-400">
                     🌱 Personal & Mindset
                   </span>
+                  {p.number && (
+                    <span className="font-mono text-[11px] font-semibold text-amber-400 bg-amber-500/10 border border-amber-500/30 rounded px-1.5 py-0.5">
+                      #{String(p.number).padStart(4, '0')}
+                    </span>
+                  )}
                   <span className="ml-auto text-[11px] font-mono text-ink-muted">{p.readingTime}</span>
                 </div>
 
@@ -230,3 +236,4 @@ export default function PersonalClient({ posts }: PersonalClientProps) {
     </div>
   );
 }
+

@@ -79,6 +79,13 @@ export function allPosts(): Post[] {
     posts.push(post);
   }
 
+  // Assign permanent unique sequential blog numbers chronologically
+  posts.sort((a, b) => a.data.date.getTime() - b.data.date.getTime() || a.id.localeCompare(b.id));
+  for (let i = 0; i < posts.length; i++) {
+    posts[i].number = i + 1;
+  }
+
+  // Sort newest first for default feeds
   posts.sort((a, b) => b.data.date.getTime() - a.data.date.getTime() || a.id.localeCompare(b.id));
   cachedPosts = posts;
   return posts;

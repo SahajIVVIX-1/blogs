@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { postUrl, fmtDate, CATEGORY_LABEL, CATEGORY_ICON, readingTime, phaseOf, type Post } from '@/lib/constants';
+import { postUrl, fmtDate, formatBlogNo, CATEGORY_LABEL, CATEGORY_ICON, readingTime, phaseOf, type Post } from '@/lib/constants';
 
 interface PostListProps {
   posts: Post[];
@@ -43,6 +43,11 @@ export default function PostList({ posts, showDate = true }: PostListProps) {
                 <span className={`inline-flex items-center gap-1 rounded-md border px-2 py-0.5 font-medium ${getBadgeClass(cat)}`}>
                   {CATEGORY_ICON[cat]} {CATEGORY_LABEL[cat]}
                 </span>
+                {p.number && (
+                  <span className="font-mono text-[11px] font-semibold text-emerald-400 bg-emerald-500/10 border border-emerald-500/30 rounded px-1.5 py-0.5">
+                    #{formatBlogNo(p.number)}
+                  </span>
+                )}
                 {phase && (
                   <span className="rounded-md border border-border bg-canvas/80 px-2 py-0.5 text-[11px] text-ink-muted">
                     Phase {phase.n}
