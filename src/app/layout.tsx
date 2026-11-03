@@ -3,6 +3,7 @@ import './globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ContextAddressBar from '@/components/ContextAddressBar';
+import NavigationLoader from '@/components/NavigationLoader';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://blog.sahaj.si'),
@@ -34,7 +35,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" data-theme="dark" className="dark">
+    <html lang="en" data-theme="dark" className="dark scroll-smooth">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
@@ -53,17 +54,6 @@ export default function RootLayout({
                 } else {
                   document.documentElement.dataset.theme = 'dark';
                   document.documentElement.classList.add('dark');
-                }
-              } catch (e) {}
-
-              // Background IP lookup matching info.sahaj.si
-              try {
-                var cached = sessionStorage.getItem('visitorIp');
-                if (!cached) {
-                  fetch('https://api.ipify.org?format=json', { cache: 'no-store' })
-                    .then(function(r) { return r.json(); })
-                    .then(function(j) { if (j && j.ip) sessionStorage.setItem('visitorIp', j.ip); })
-                    .catch(function() {});
                 }
               } catch (e) {}
 
@@ -86,9 +76,10 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-screen bg-canvas text-ink flex flex-col antialiased selection:bg-emerald-500/20 selection:text-emerald-300">
+        <NavigationLoader />
         <ContextAddressBar />
         <Navbar />
-        <main id="main" className="flex-1 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
+        <main id="main" className="flex-1 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 animate-in fade-in duration-200">
           {children}
         </main>
         <Footer />

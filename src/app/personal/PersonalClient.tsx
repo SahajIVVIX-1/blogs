@@ -68,9 +68,16 @@ export default function PersonalClient({ posts }: PersonalClientProps) {
   const startIndex = (validPage - 1) * POSTS_PER_PAGE;
   const paginatedPosts = filteredPosts.slice(startIndex, startIndex + POSTS_PER_PAGE);
 
+  const goToPage = (p: number) => {
+    setCurrentPage(p);
+    try {
+      window.scrollTo({ top: 350, behavior: 'smooth' });
+    } catch {}
+  };
+
   const handleTopicChange = (topicId: string) => {
     setActiveTopic(topicId);
-    setCurrentPage(1);
+    goToPage(1);
   };
 
   const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -199,14 +206,14 @@ export default function PersonalClient({ posts }: PersonalClientProps) {
       {totalPages > 1 && (
         <div className="flex flex-wrap items-center justify-center gap-2 pt-6">
           <button
-            onClick={() => setCurrentPage(1)}
+            onClick={() => goToPage(1)}
             disabled={validPage === 1}
             className="rounded-lg border border-border bg-surface px-2.5 py-1.5 text-xs font-medium text-ink-muted hover:text-ink disabled:opacity-40 disabled:hover:text-ink-muted"
           >
             « First
           </button>
           <button
-            onClick={() => setCurrentPage((p) => Math.max(1, p - 1))}
+            onClick={() => goToPage(Math.max(1, validPage - 1))}
             disabled={validPage === 1}
             className="rounded-lg border border-border bg-surface px-3 py-1.5 text-xs font-medium text-ink-muted hover:text-ink disabled:opacity-40 disabled:hover:text-ink-muted"
           >
@@ -218,14 +225,14 @@ export default function PersonalClient({ posts }: PersonalClientProps) {
           </span>
 
           <button
-            onClick={() => setCurrentPage((p) => Math.min(totalPages, p + 1))}
+            onClick={() => goToPage(Math.min(totalPages, validPage + 1))}
             disabled={validPage === totalPages}
             className="rounded-lg border border-border bg-surface px-3 py-1.5 text-xs font-medium text-ink-muted hover:text-ink disabled:opacity-40 disabled:hover:text-ink-muted"
           >
             Next →
           </button>
           <button
-            onClick={() => setCurrentPage(totalPages)}
+            onClick={() => goToPage(totalPages)}
             disabled={validPage === totalPages}
             className="rounded-lg border border-border bg-surface px-2.5 py-1.5 text-xs font-medium text-ink-muted hover:text-ink disabled:opacity-40 disabled:hover:text-ink-muted"
           >

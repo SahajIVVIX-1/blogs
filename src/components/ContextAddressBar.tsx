@@ -3,151 +3,140 @@
 import { useEffect, useRef } from 'react';
 import { usePathname } from 'next/navigation';
 
-const STEP = 50; // ms per token
-const THROTTLE = 450; // ms between scroll updates
+const THROTTLE = 400; // ms between scroll updates
 
 declare global {
   interface Window {
-    __ip?: string;
-    __ipPromise?: Promise<string | null>;
-    __blogMap?: Record<string, string>;
+    __visitorIp?: string;
+    __ipPromise?: Promise<string>;
   }
+}
+
+// Background, non-blocking IP resolver
+function resolveIpInBackground(): Promise<string> {
+  // Check in-memory cache
+  if (typeof window !== 'undefined' && window.__visitorIp) {
+    return Promise.resolve(window.__visitorIp);
+  }
+
+  // Check sessionStorage cache
+  try {
+    const cached = sessionStorage.getItem('visitorIp');
+    if (cached && /^[0-9a-fA-F:.]+$/.test(cached)) {
+      window.__visitorIp = cached;
+      return Promise.resolve(cached);
+    }
+  } catch {}
+
+  // Check ongoing promise
+  if (typeof window !== 'undefined' && window.__ipPromise) {
+    return window.__ipPromise;
+  }
+
+  // Start background fetch (never blocks page render or interaction)
+  const promise = (async () => {
+    try {
+      const ctl = typeof AbortController !== 'undefined' ? new AbortController() : null;
+      const timer = setTimeout(() => ctl?.abort(), 3500);
+      const res = await fetch('https://api.ipify.org?format=json', {
+        signal: ctl?.signal,
+        cache: 'no-store',
+        referrerPolicy: 'no-referrer',
+      });
+      clearTimeout(timer);
+      const data = await res.json();
+      if (data?.ip && /^[0-9a-fA-F:.]+$/.test(data.ip)) {
+        window.__visitorIp = data.ip;
+        try {
+          sessionStorage.setItem('visitorIp', data.ip);
+        } catch {}
+        return data.ip;
+      }
+    } catch {}
+
+    return 'anonymous';
+  })();
+
+  if (typeof window !== 'undefined') {
+    window.__ipPromise = promise;
+  }
+
+  return promise;
 }
 
 export default function ContextAddressBar() {
   const pathname = usePathname();
-  const typingRef = useRef(false);
+  const mountedRef = useRef(false);
 
   useEffect(() => {
-    // 1. Resolve visitor IP
-    const getIp = async (): Promise<string> => {
-      try {
-        const cached = sessionStorage.getItem('visitorIp');
-        if (cached && /^[0-9a-fA-F:.]+$/.test(cached)) {
-          window.__ip = cached;
-          return cached;
-        }
-      } catch {}
-
-      if (window.__ipPromise) {
-        const ip = await window.__ipPromise;
-        if (ip) return ip;
-      }
-
-      try {
-        const ctl = typeof AbortController !== 'undefined' ? new AbortController() : null;
-        const timer = setTimeout(() => ctl?.abort(), 3500);
-        const res = await fetch('https://api.ipify.org?format=json', {
-          signal: ctl?.signal,
-          cache: 'no-store',
-          referrerPolicy: 'no-referrer',
-        });
-        clearTimeout(timer);
-        const data = await res.json();
-        if (data?.ip) {
-          window.__ip = data.ip;
-          try {
-            sessionStorage.setItem('visitorIp', data.ip);
-          } catch {}
-          return data.ip;
-        }
-      } catch {}
-
-      return 'anonymous';
-    };
-
-    // 2. Detect current blog number if on a post page
-    const detectBlogNo = async (): Promise<string | null> => {
-      // Check article DOM attribute
-      const articleEl = document.querySelector('article[data-blog-no]');
-      if (articleEl) {
-        const no = articleEl.getAttribute('data-blog-no');
-        if (no) return no;
-      }
-
-      // Check current path against blog-index.json
-      if (/^\/\d{4}\/\d{2}\/\d{2}\/[^/]+\/?$/.test(pathname)) {
-        try {
-          if (!window.__blogMap) {
-            const res = await fetch('/blog-index.json');
-            window.__blogMap = await res.json();
-          }
-          const cleanPath = pathname.endsWith('/') ? pathname : pathname + '/';
-          for (const [num, url] of Object.entries(window.__blogMap || {})) {
-            if (url === cleanPath) {
-              return String(num).padStart(4, '0');
-            }
-          }
-        } catch {}
-      }
-
-      return null;
-    };
-
+    mountedRef.current = true;
     let cancelled = false;
 
-    async function runTypewriter() {
-      if (typingRef.current) return;
-      typingRef.current = true;
+    // Detect blog number from DOM instantly (0ms synchronous lookup)
+    const article = document.querySelector('article[data-blog-no]');
+    const blogNo = article ? article.getAttribute('data-blog-no') : null;
 
-      const [ip, blogNo] = await Promise.all([getIp(), detectBlogNo()]);
-      if (cancelled) return;
+    // Background asynchronous IP resolution (website loads instantly!)
+    resolveIpInBackground().then(async (ip) => {
+      if (cancelled || !mountedRef.current) return;
 
-      // Broadcast context info to Navbar and UI
+      // Notify Navbar and UI of live context
       window.dispatchEvent(
         new CustomEvent('sahaj:context', {
           detail: { ip, blogNo, total: 4306 },
         })
       );
 
-      // Preserve other query parameters (e.g. ?theme, ?utm_*)
+      // Preserve existing unrelated query parameters (e.g. ?theme, ?utm_*)
       const existingParams = new URLSearchParams(window.location.search);
       existingParams.delete('context');
       existingParams.delete('blog');
       existingParams.delete('read');
+      const rest = existingParams.toString();
+      const restSuffix = rest ? `&${rest}` : '';
 
-      const restQuery = existingParams.toString();
-      const restSuffix = restQuery ? `&${restQuery}` : '';
-
-      // Construct target tokens:
-      // Pattern: context=you@<IP>&blog=<blogNo> (or context=you@<IP> on homepage)
       const targetQuery = blogNo
         ? `context=you@${ip}&blog=${blogNo}`
         : `context=you@${ip}`;
 
-      // Build token stream for animated typing
-      const tokens: string[] = ['context', '=', 'you', '@', ...ip.split(/([.:])/).filter(Boolean)];
-      if (blogNo) {
-        tokens.push('&', 'blog', '=', blogNo);
-      }
-
-      // Check prefers-reduced-motion
-      const reducedMotion = window.matchMedia?.('(prefers-reduced-motion: reduce)')?.matches;
-      if (reducedMotion) {
-        try {
-          const finalUrl = `${window.location.pathname}?${targetQuery}${restSuffix}${window.location.hash}`;
-          window.history.replaceState(window.history.state, '', finalUrl);
-        } catch {}
-        typingRef.current = false;
+      // Check if already applied
+      const currentSearch = window.location.search;
+      if (currentSearch.includes(`context=you@${ip}`)) {
         return;
       }
 
-      // Animate token by token into address bar
-      let accumulated = '';
-      for (const token of tokens) {
-        if (cancelled) break;
-        accumulated += token;
+      // Smooth 3-step typewriter into address bar (clean, instant, zero tab-spinner lag)
+      const reducedMotion = window.matchMedia?.('(prefers-reduced-motion: reduce)')?.matches;
+      if (reducedMotion) {
         try {
-          const currentUrl = `${window.location.pathname}?${accumulated}${restSuffix}${window.location.hash}`;
-          window.history.replaceState(window.history.state, '', currentUrl);
+          window.history.replaceState(
+            window.history.state,
+            '',
+            `${window.location.pathname}?${targetQuery}${restSuffix}${window.location.hash}`
+          );
         } catch {}
-        await new Promise((r) => setTimeout(r, STEP));
+      } else {
+        const steps = [
+          `context=you@`,
+          `context=you@${ip}`,
+          targetQuery,
+        ];
+
+        for (const step of steps) {
+          if (cancelled) break;
+          try {
+            window.history.replaceState(
+              window.history.state,
+              '',
+              `${window.location.pathname}?${step}${restSuffix}${window.location.hash}`
+            );
+          } catch {}
+          await new Promise((r) => setTimeout(r, 60));
+        }
       }
 
-      typingRef.current = false;
-
-      // Setup scroll progress tracking on blog post pages
-      if (blogNo) {
+      // Throttled scroll reading progress on blog posts
+      if (blogNo && !cancelled) {
         let lastScroll = 0;
         let scrollPending: any = null;
 
@@ -177,15 +166,11 @@ export default function ContextAddressBar() {
           if (scrollPending) clearTimeout(scrollPending);
         };
       }
-    }
-
-    // Small delay to allow Next.js hydration to stabilize
-    const timeout = setTimeout(runTypewriter, 150);
+    });
 
     return () => {
       cancelled = true;
-      clearTimeout(timeout);
-      typingRef.current = false;
+      mountedRef.current = false;
     };
   }, [pathname]);
 
