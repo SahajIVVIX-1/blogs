@@ -867,7 +867,77 @@ img {
   line-height: 1.6;
   border: 1px solid var(--code-border);
   background: var(--code-bg) !important;
+  color: var(--ink) !important;
   margin: 1.5rem 0;
+}
+
+.prose pre code {
+  color: inherit;
+  background: transparent !important;
+  font-family: var(--mono);
+  font-size: 0.88em;
+}
+
+/* Shiki Dual-Theme Token Invariants & Dark Mode Contrast */
+html[data-theme='dark'] .astro-code,
+html[data-theme='dark'] .astro-code code,
+html[data-theme='dark'] .astro-code span {
+  color: var(--shiki-dark, #e1e4e8) !important;
+  background-color: transparent !important;
+  font-style: var(--shiki-dark-font-style) !important;
+  font-weight: var(--shiki-dark-font-weight) !important;
+  text-decoration: var(--shiki-dark-text-decoration) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme='light']) .astro-code,
+  html:not([data-theme='light']) .astro-code code,
+  html:not([data-theme='light']) .astro-code span {
+    color: var(--shiki-dark, #e1e4e8) !important;
+    background-color: transparent !important;
+    font-style: var(--shiki-dark-font-style) !important;
+    font-weight: var(--shiki-dark-font-weight) !important;
+    text-decoration: var(--shiki-dark-text-decoration) !important;
+  }
+}
+
+/* Plain text, ASCII schematics & console stdout must use high-contrast ink */
+.astro-code[data-language="text"],
+.astro-code[data-language="text"] code,
+.astro-code[data-language="text"] span,
+.astro-code[data-language="plaintext"],
+.astro-code[data-language="plaintext"] code,
+.astro-code[data-language="plaintext"] span,
+.astro-code:not([data-language]),
+.astro-code:not([data-language]) code,
+.astro-code:not([data-language]) span {
+  color: var(--ink) !important;
+}
+
+html[data-theme='dark'] .astro-code[data-language="text"],
+html[data-theme='dark'] .astro-code[data-language="text"] code,
+html[data-theme='dark'] .astro-code[data-language="text"] span,
+html[data-theme='dark'] .astro-code[data-language="plaintext"],
+html[data-theme='dark'] .astro-code[data-language="plaintext"] code,
+html[data-theme='dark'] .astro-code[data-language="plaintext"] span,
+html[data-theme='dark'] .astro-code:not([data-language]),
+html[data-theme='dark'] .astro-code:not([data-language]) code,
+html[data-theme='dark'] .astro-code:not([data-language]) span {
+  color: #f1f5f9 !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme='light']) .astro-code[data-language="text"],
+  html:not([data-theme='light']) .astro-code[data-language="text"] code,
+  html:not([data-theme='light']) .astro-code[data-language="text"] span,
+  html:not([data-theme='light']) .astro-code[data-language="plaintext"],
+  html:not([data-theme='light']) .astro-code[data-language="plaintext"] code,
+  html:not([data-theme='light']) .astro-code[data-language="plaintext"] span,
+  html:not([data-theme='light']) .astro-code:not([data-language]),
+  html:not([data-theme='light']) .astro-code:not([data-language]) code,
+  html:not([data-theme='light']) .astro-code:not([data-language]) span {
+    color: #f1f5f9 !important;
+  }
 }
 
 .prose code {
@@ -881,6 +951,15 @@ img {
   padding: 0.15em 0.4em;
   border-radius: 4px;
   border: 1px solid var(--line);
+}
+
+.prose img {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--line);
+  margin: 1.5rem 0;
+  display: block;
 }
 
 .prose blockquote {
@@ -925,7 +1004,21 @@ figcaption {
 .prose .katex-display {
   overflow-x: auto;
   overflow-y: hidden;
-  padding: 0.5rem 0;
+  padding: 0.9rem 1.2rem;
+  margin: 1.5rem 0;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  color: var(--ink);
+}
+
+.katex {
+  font-size: 1.05em;
+  color: var(--ink);
+}
+
+.katex-html {
+  color: var(--ink);
 }
 
 /* Paper Model Card */

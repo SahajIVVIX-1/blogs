@@ -47,3 +47,4 @@ console.log(`Found ${toRemove.length} legacy stubs to clean up out of ${Object.k
 for (const item of toRemove.slice(0, 10)) {
   console.log(`Will remove legacy stub: ${item.file} (${item.lines} lines, ${item.size} bytes)`);
 }
+
