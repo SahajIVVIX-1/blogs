@@ -43,3 +43,4 @@ export default function StatsStrip({ stats }: StatsProps) {
     </div>
   );
 }
+

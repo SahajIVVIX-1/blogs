@@ -86,3 +86,4 @@ if (fs.existsSync(path.join(process.cwd(), 'out'))) {
   fs.writeFileSync(path.join(process.cwd(), 'out/rss.xml'), rssXml, 'utf8');
 }
 console.log(`Generated RSS feed with ${topPosts.length} items`);
+
