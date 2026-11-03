@@ -4,9 +4,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "node --max-old-space-size=6144 -r ./scripts/lib/node-compat.cjs ./node_modules/astro/bin/astro.mjs dev",
-    "build": "node --max-old-space-size=6144 -r ./scripts/lib/node-compat.cjs ./node_modules/astro/bin/astro.mjs build && pagefind --site dist",
-    "preview": "node --max-old-space-size=6144 -r ./scripts/lib/node-compat.cjs ./node_modules/astro/bin/astro.mjs preview",
+    "dev": "node --max-old-space-size=8192 -r ./scripts/lib/node-compat.cjs ./node_modules/astro/bin/astro.mjs dev",
+    "build": "node --max-old-space-size=8192 -r ./scripts/lib/node-compat.cjs ./node_modules/astro/bin/astro.mjs build && pagefind --site dist",
+    "preview": "node --max-old-space-size=8192 -r ./scripts/lib/node-compat.cjs ./node_modules/astro/bin/astro.mjs preview",
     "fetch": "node scripts/fetch.mjs",
     "new": "node scripts/new.mjs",
     "daily": "node scripts/daily.mjs",

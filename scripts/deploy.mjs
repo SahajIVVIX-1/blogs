@@ -8,7 +8,7 @@ import { ROOT } from './lib/cache.mjs';
 
 const out = path.join(ROOT, '.tmp/deploy');
 const site = path.join(ROOT, '.tmp/gh-pages');
-const sh = (cmd, cwd = ROOT) => execSync(cmd, { cwd, stdio: 'inherit' });
+const sh = (cmd, cwd = ROOT) => execSync(cmd, { cwd, stdio: 'inherit', env: { ...process.env, NODE_OPTIONS: '--max-old-space-size=8192' } });
 const fwd = (p) => p.replaceAll('\\', '/');
 
 rmSync(out, { recursive: true, force: true });
@@ -24,7 +24,7 @@ sh(`git worktree add -f -B gh-pages "${fwd(site)}" origin/gh-pages`);
 for (const f of readdirSync(site)) if (f !== '.git') rmSync(path.join(site, f), { recursive: true, force: true });
 cpSync(path.join(out, 'dist'), site, { recursive: true });
 sh('git add -A', site);
-sh(`git commit -q -m "Deploy ${sha}" || echo "nothing to deploy"`, site);
+sh(`git commit -q --author="Sahaj Saliya <143813294+SahajIVVIX-1@users.noreply.github.com>" -m "Deploy ${sha}" || echo "nothing to deploy"`, site);
 sh('git push -q origin gh-pages', site);
 sh(`git worktree remove --force "${fwd(site)}"`);
 console.log(`Published ${sha} to gh-pages`);
