@@ -44,7 +44,7 @@
   display: block !important;
   text-align: center !important;
   margin: 2.2rem 0 !important;
-  padding: 0.6rem 0 !important;
+  padding: 0.8rem 0 !important;
   background: transparent !important;
   border: none !important;
   box-shadow: none !important;
@@ -57,63 +57,88 @@
   text-align: initial !important;
 }
 
+/* Fallback for single-line display math wrapped in a paragraph */
+.prose p:has(> .katex:only-child) {
+  text-align: center !important;
+  margin: 2rem 0 !important;
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+}
+
 .katex {
   font-family: KaTeX_Main, 'Latin Modern Math', 'Computer Modern', serif !important;
-  font-size: 1.05em !important;
+  font-size: 1.08em !important;
   text-rendering: auto !important;
 }
 
 .dark .katex,
 :root[data-theme='dark'] .katex {
+  color: #f8fafc !important;
   text-shadow: 0 0 0.4px rgba(248, 250, 252, 0.35);
   -webkit-font-smoothing: antialiased;
 }
 
 /* ==========================================================================
-   CODE BLOCKS & SHIKI SYNTAX HIGHLIGHTING DUAL THEME
+   CODE BLOCKS, ASCII GRAPHS & SHIKI SYNTAX HIGHLIGHTING
    ========================================================================== */
-.prose pre {
+.prose pre,
+.prose pre.shiki {
   overflow-x: auto !important;
   white-space: pre !important;
   word-wrap: normal !important;
   word-break: normal !important;
   border-radius: 0.5rem !important;
-  border: 1px solid var(--border) !important;
+  border: 1px solid #1e293b !important;
   background-color: #0d1527 !important;
   padding: 1.25rem 1.5rem !important;
   color: #f1f5f9 !important;
+  line-height: 1.6 !important;
+  tab-size: 4 !important;
 }
 
-.prose pre code {
-  font-family: 'JetBrains Mono', Menlo, Monaco, monospace !important;
+.prose pre code,
+.prose pre.shiki code {
+  font-family: 'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace !important;
   font-size: 0.88rem !important;
-  line-height: 1.6 !important;
-  white-space: pre !important;
+  line-height: inherit !important;
+  white-space: inherit !important;
   background-color: transparent !important;
   padding: 0 !important;
   color: inherit !important;
 }
 
-/* Dual-theme tokens */
-html[data-theme='dark'] .shiki span,
-.dark .shiki span {
-  color: var(--shiki-dark) !important;
-  font-style: var(--shiki-dark-font-style) !important;
-  font-weight: var(--shiki-dark-font-weight) !important;
-  text-decoration: var(--shiki-dark-text-decoration) !important;
-}
-
-html:not([data-theme='dark']) .shiki span:not(.dark *) {
-  color: var(--shiki-light) !important;
-  font-style: var(--shiki-light-font-style) !important;
-  font-weight: var(--shiki-light-font-weight) !important;
-  text-decoration: var(--shiki-light-text-decoration) !important;
-}
-
-/* Plaintext / terminal fallback */
-.shiki[data-language="text"] span,
-.shiki[data-language="plaintext"] span,
-.prose pre code > span {
+/* Default color for all unhighlighted tokens, ASCII diagrams & terminal outputs */
+.prose pre.shiki .line,
+.prose pre.shiki .line span {
   color: #f1f5f9;
 }
 
+/* Dark mode token colors from Shiki variables */
+.dark .shiki span,
+html[data-theme='dark'] .shiki span,
+:root[data-theme='dark'] .shiki span {
+  color: var(--shiki-dark, #f1f5f9) !important;
+  font-style: var(--shiki-dark-font-style, inherit) !important;
+  font-weight: var(--shiki-dark-font-weight, inherit) !important;
+  text-decoration: var(--shiki-dark-text-decoration, inherit) !important;
+}
+
+/* Light mode overrides */
+html:not([data-theme='dark']):not(.dark) .prose pre,
+html:not([data-theme='dark']):not(.dark) .prose pre.shiki {
+  background-color: #f8fafc !important;
+  border-color: #e2e8f0 !important;
+  color: #0f172a !important;
+}
+
+html:not([data-theme='dark']):not(.dark) .prose pre.shiki .line,
+html:not([data-theme='dark']):not(.dark) .prose pre.shiki .line span {
+  color: #0f172a;
+}
+
+html:not([data-theme='dark']):not(.dark) .shiki span {
+  color: var(--shiki-light, #0f172a) !important;
+  font-style: var(--shiki-light-font-style, inherit) !important;
+  font-weight: var(--shiki-light-font-weight, inherit) !important;
+  text-decoration: var(--shiki-light-text-decoration, inherit) !important;
+}
