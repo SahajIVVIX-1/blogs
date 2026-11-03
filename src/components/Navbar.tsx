@@ -181,7 +181,9 @@ export default function Navbar() {
                   <span className="text-ink-muted/60">·</span>
                 </>
               )}
-              <span className="hidden sm:inline text-ink-muted">you@{formatIpShort(visitorIp)}</span>
+              <span className="hidden sm:inline text-ink-muted">
+                {visitorIp && visitorIp !== 'detecting...' ? `you@${formatIpShort(visitorIp)}` : 'you'}
+              </span>
               <span className="sm:hidden text-ink-muted">you</span>
             </button>
 
@@ -207,7 +209,7 @@ export default function Navbar() {
                   <div>
                     <div className="text-[10px] uppercase tracking-wider text-ink-muted">Visitor Endpoint</div>
                     <div className="mt-0.5 rounded border border-border bg-canvas/70 px-2 py-1 text-ink break-all select-all">
-                      you@{visitorIp}
+                      {visitorIp && visitorIp !== 'detecting...' ? `you@${visitorIp}` : 'you (resolving in background)'}
                     </div>
                   </div>
 

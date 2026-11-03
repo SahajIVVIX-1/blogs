@@ -54,3 +54,4 @@ for (let i = 0; i < posts.length; i++) {
 
 fs.writeFileSync(OUT_FILE, JSON.stringify(map), 'utf8');
 console.log(`Generated blog index with ${posts.length} entries at ${OUT_FILE}`);
+

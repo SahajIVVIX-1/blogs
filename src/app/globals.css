@@ -22,6 +22,10 @@
     --ink-muted: #94a3b8;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     background-color: var(--canvas);
     color: var(--ink);
@@ -29,6 +33,14 @@
     font-feature-settings: 'cv02' 1, 'cv03' 1, 'cv04' 1, 'cv11' 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+  }
+
+  button, a {
+    transition: color 150ms ease, background-color 150ms ease, border-color 150ms ease, transform 120ms cubic-bezier(0.16, 1, 0.3, 1), opacity 150ms ease;
+  }
+
+  button:active, a:active {
+    transform: scale(0.982);
   }
 
   h1,
