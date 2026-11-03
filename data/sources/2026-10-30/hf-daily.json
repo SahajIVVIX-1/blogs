@@ -1,0 +1,653 @@
+{
+  "url": "https://huggingface.co/api/daily_papers?date=2026-10-30",
+  "fetched_at": "2026-11-03T03:12:40.747Z",
+  "candidates": [
+    {
+      "id": "2610.36671",
+      "title": "Look Only When Needed: Certificate-Guided Visual Routing for Efficient Diffusion VLMs",
+      "authors": [
+        "Donghyeon Cho",
+        "Joowon Kim",
+        "Seungho Shin",
+        "Eunho Yang"
+      ],
+      "upvotes": 125,
+      "github": "https://github.com/hyeon9698/LOWN",
+      "published": "2026-10-27T00:00:00.000Z"
+    },
+    {
+      "id": "2610.29927",
+      "title": "Your Benchmark Is an Empirical Measure Over Difficulty",
+      "authors": [
+        "Yifan Sun",
+        "Naicheng Yu",
+        "Jiawen Gong",
+        "Jingyan Shen",
+        "Huan Zhang"
+      ],
+      "upvotes": 112,
+      "github": "https://github.com/ASTRAL-Group/benchmark-difficulty-measure",
+      "published": "2026-10-21T00:00:00.000Z"
+    },
+    {
+      "id": "2610.38568",
+      "title": "A-RSI: Adaptive Task Refresh for Zero-Data Multimodal Self-Improvement",
+      "authors": [
+        "Yu Liu",
+        "Youxing Li",
+        "Yuedong Tan",
+        "Zhiwei Yang",
+        "Zihan Su",
+        "Hanqi Feng",
+        "Shaojie Zhang",
+        "Libin Liao",
+        "Zihao Wan",
+        "Chenxu Wu",
+        "Cong Cao",
+        "Fangfang Yuan",
+        "Yanbing Liu",
+        "Ziheng Chen",
+        "Pei Fu",
+        "Radu Timofte",
+        "Zongwei Wu",
+        "Nicu Sebe",
+        "Barnabas Poczos",
+        "Jian Luan"
+      ],
+      "upvotes": 85,
+      "github": null,
+      "published": "2026-10-28T00:00:00.000Z"
+    },
+    {
+      "id": "2610.39302",
+      "title": "Proving and Improving the Platonic Representation Hypothesis with JEPAs",
+      "authors": [
+        "Randall Balestriero",
+        "Yann LeCun"
+      ],
+      "upvotes": 71,
+      "github": "https://github.com/galilai-group/prh-proof",
+      "published": "2026-10-29T00:00:00.000Z"
+    },
+    {
+      "id": "2610.37161",
+      "title": "WorkFactory: Turning Professional Intents into Executable Work for Scalable Agent Training",
+      "authors": [
+        "Ziyang Zeng",
+        "Tingyang Chen",
+        "Jia Deng",
+        "Qiyao Wang",
+        "Shuo Tang",
+        "Yike Yang",
+        "Tao Ren",
+        "Wayne Xin Zhao",
+        "Feng Chang",
+        "Jujie He",
+        "Chuan Hao",
+        "Ran Tao",
+        "Bryan Dai"
+      ],
+      "upvotes": 64,
+      "github": "https://github.com/IQuestLab/WorkFactory",
+      "published": "2026-10-27T00:00:00.000Z"
+    },
+    {
+      "id": "2610.40614",
+      "title": "L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian Memory",
+      "authors": [
+        "Jinhyeok Choi",
+        "JoungBin Lee",
+        "Jongmin Lee",
+        "Minkyeong Jeon",
+        "Jiyoung Kim",
+        "Kaeun Han",
+        "Yoonjin Yoon",
+        "Seungryong Kim"
+      ],
+      "upvotes": 51,
+      "github": "https://github.com/cvlab-kaist/L3G-World",
+      "published": "2026-10-29T00:00:00.000Z"
+    },
+    {
+      "id": "2610.32411",
+      "title": "A Broader Look into MLLM's Retrieval Heads",
+      "authors": [
+        "Jia Wang",
+        "Yuqing Li",
+        "Jiangnan Li",
+        "Zheng Lin",
+        "Mo Yu"
+      ],
+      "upvotes": 42,
+      "github": null,
+      "published": "2026-10-23T00:00:00.000Z"
+    },
+    {
+      "id": "2610.40599",
+      "title": "HairDeck: Animation-Ready Stylized Hair Cards from a Single Image",
+      "authors": [
+        "Yuze He",
+        "Yixiang Wei",
+        "Wang Zhao",
+        "Chuhao Chen",
+        "Yanning Zhou",
+        "Yong-Jin Liu"
+      ],
+      "upvotes": 41,
+      "github": "https://github.com/hyz317/HairDeck",
+      "published": "2026-10-29T00:00:00.000Z"
+    },
+    {
+      "id": "2610.33106",
+      "title": "VibeGame: Prompt-to-Game Development with AI-Native Engine and Self-Evolving Adversarial Agent Team",
+      "authors": [
+        "Wenbo Hu",
+        "Ken Li",
+        "Jiazhe Wei",
+        "Yukang Cao",
+        "Weiyi Hong",
+        "Jiayi Dai",
+        "Chenjun Bai",
+        "Jiajun Liang",
+        "Yucheng Liao",
+        "Ruichuan An",
+        "Zeyu Lou",
+        "Haofan Wang",
+        "Yueming Lyu",
+        "Jingkang Yang",
+        "Ziwei Liu",
+        "Chenyang Si"
+      ],
+      "upvotes": 40,
+      "github": "https://github.com/tettethu/VibeGame",
+      "published": "2026-10-22T00:00:00.000Z"
+    },
+    {
+      "id": "2610.39633",
+      "title": "Intrinsic Distribution Matching",
+      "authors": [
+        "Deyuan Liu",
+        "Yansen Han",
+        "Kaiwen Zheng",
+        "Jun Xie",
+        "Jiacheng Liu",
+        "Zhenglin Cheng",
+        "Peng Sun",
+        "Jintao Zhang",
+        "Jianguo Li",
+        "Tao Lin"
+      ],
+      "upvotes": 35,
+      "github": "https://github.com/inclusionAI/IDM",
+      "published": "2026-10-29T00:00:00.000Z"
+    },
+    {
+      "id": "2610.40647",
+      "title": "Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers",
+      "authors": [
+        "Jiongfan Yang",
+        "Weichen Fan",
+        "Haiwen Diao",
+        "Zhongang Cai",
+        "Ziwei Liu"
+      ],
+      "upvotes": 30,
+      "github": "https://github.com/JiongfanYang/SpecSlot",
+      "published": "2026-10-29T00:00:00.000Z"
+    },
+    {
+      "id": "2610.37786",
+      "title": "WebAnything: From the Wild Web to Scalable Agent Environments",
+      "authors": [
+        "Tianci Xie",
+        "Zikun Cai",
+        "Chaoyun Zhang",
+        "Pinxue Guo",
+        "Bingxuan Li",
+        "Rui Zheng",
+        "Hang Yan"
+      ],
+      "upvotes": 29,
+      "github": "https://github.com/china-qijizhifeng/Web-Anything",
+      "published": "2026-10-27T00:00:00.000Z"
+    },
+    {
+      "id": "2610.38352",
+      "title": "WeVisCut: The Whole Editing Room in One Agent From Narration to Long-Form Video",
+      "authors": [
+        "Chenyu Mu",
+        "Wenming Weng",
+        "Qinrui Wang",
+        "Xingsong Ye",
+        "Hao Yu",
+        "Jun He",
+        "Chong Sun",
+        "Chen Li",
+        "Jing Lyu",
+        "Erkun Yang",
+        "Cheng Deng"
+      ],
+      "upvotes": 27,
+      "github": "https://github.com/Tencent/WeVisCut",
+      "published": "2026-10-28T00:00:00.000Z"
+    },
+    {
+      "id": "2610.35138",
+      "title": "Co-Design Bench: Multimodal Collaborative Coding Evaluation for Agentic Models",
+      "authors": [
+        "Xilin Wei",
+        "Shengyuan Ding",
+        "Xinyu Fang",
+        "Tiancheng Gu",
+        "Yuchi Wang",
+        "Zhixun Li",
+        "Ziyu Liu",
+        "Yuhang Zang",
+        "Weixiang Yu",
+        "Cheng Lu",
+        "Chonggao Sun",
+        "Tong Zhou",
+        "Dahua Lin",
+        "Hang Zhang",
+        "Shuai Bai",
+        "Dayiheng Liu"
+      ],
+      "upvotes": 26,
+      "github": "https://github.com/Wiselnn570/Co-Design-Bench",
+      "published": "2026-10-26T00:00:00.000Z"
+    },
+    {
+      "id": "2610.38331",
+      "title": "Multi-Token Prediction Done Right",
+      "authors": [
+        "Jayden Teoh"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/JaydenTeoh/Soft-MTP",
+      "published": "2026-10-28T00:00:00.000Z"
+    },
+    {
+      "id": "2610.38425",
+      "title": "IntReal: A Real-World Dataset and Benchmark for Multimodal Interleaved Generation",
+      "authors": [
+        "Shaohan Yu",
+        "Jie Qin",
+        "Wende Tan",
+        "Haiwen Diao",
+        "Limeng Qiao",
+        "Yueming Lyu",
+        "Chenyang Si"
+      ],
+      "upvotes": 22,
+      "github": "https://github.com/yushaohan/IntReal",
+      "published": "2026-10-28T00:00:00.000Z"
+    },
+    {
+      "id": "2610.39264",
+      "title": "Online Dense Reinforcement Learning with Planning-Grounding Agent for UI Navigation on Live IOS Apps",
+      "authors": [
+        "Peitong Duan",
+        "Khashayar Gatmiry",
+        "Jeffrey Nichols",
+        "Samy Bengio",
+        "Emmanuel Abbe"
+      ],
+      "upvotes": 18,
+      "github": null,
+      "published": "2026-10-29T00:00:00.000Z"
+    },
+    {
+      "id": "2610.38678",
+      "title": "AskStream: When and What to Ask Proactively under Uncertainty in Streaming Video Understanding",
+      "authors": [
+        "Lu Wang",
+        "Zhuoran Jin",
+        "Longxiang Wang",
+        "Junhong Chen",
+        "Yupu Hao",
+        "Yao Xu",
+        "Daojian Zeng",
+        "Yubo Chen",
+        "Kang Liu",
+        "Guang Liu",
+        "Jun Zhao"
+      ],
+      "upvotes": 17,
+      "github": "https://github.com/wanglu-cs/AskStream",
+      "published": "2026-10-28T00:00:00.000Z"
+    },
+    {
+      "id": "2610.39664",
+      "title": "EditAgent: Rethinking Agentic Image Editing",
+      "authors": [
+        "Haiyang Xu",
+        "Tianyu Wang",
+        "Jialu Li",
+        "Jiteng Mu",
+        "Yuanjun Xiong",
+        "Jianming Zhang",
+        "Zhuowen Tu",
+        "Mingze Xu"
+      ],
+      "upvotes": 17,
+      "github": null,
+      "published": "2026-10-29T00:00:00.000Z"
+    },
+    {
+      "id": "2610.39301",
+      "title": "Youtu-Parsing-Omni: One Encoder, One Schema, All Modalities",
+      "authors": [
+        "Yunhang Shen",
+        "Zhangquan Chen",
+        "Xiaotian Li",
+        "Zhongpeng Cai",
+        "Qing Zhou",
+        "Zekai Zhang",
+        "Kun Zhang",
+        "Zezhong Wu",
+        "Jian Hu",
+        "Haihan Gao",
+        "Heting Gao",
+        "Xin Li",
+        "Yinsong Liu",
+        "Deqian Jiang",
+        "Di Yin",
+        "Haoyu Cao",
+        "Xing Sun",
+        "Bing Liu",
+        "Yanqiu Qu",
+        "Yunfei Wu",
+        "Kun Yin",
+        "Zhixiang Wei",
+        "Yongxiang Hua",
+        "Qianyu Li",
+        "Xiaoxing Hu",
+        "Peiyuan Zhang",
+        "Lijiang Li",
+        "Dong Xu",
+        "Zhenchuan Yang",
+        "Yiliang Jiang"
+      ],
+      "upvotes": 15,
+      "github": null,
+      "published": "2026-10-29T00:00:00.000Z"
+    },
+    {
+      "id": "2610.21143",
+      "title": "CoSTA: Compressed Speech Token Adaptation for Efficient Spoken Dialogue Models",
+      "authors": [
+        "Yingzhuo Deng",
+        "Chong Li",
+        "Bingxin Liu",
+        "Yi Shu",
+        "Tianyu Peng",
+        "Can Xie",
+        "Siyao Song",
+        "Shuo Ren",
+        "Jiajun Zhang"
+      ],
+      "upvotes": 15,
+      "github": "https://github.com/yingzhuodeng/CoSTA",
+      "published": "2026-10-15T00:00:00.000Z"
+    },
+    {
+      "id": "2610.38342",
+      "title": "Investor's Last Exam: Can AI Agents Do Equity Investment Without Seeing the Future?",
+      "authors": [
+        "Huangfei Jiang",
+        "Anning Hu",
+        "Kai Sheng",
+        "Yuchen Cai",
+        "Rui Ge",
+        "Xiangyu Kong",
+        "Jianghao Lin",
+        "Shuzi Chen",
+        "Jiyi Weng",
+        "Junchi Yan"
+      ],
+      "upvotes": 14,
+      "github": "https://github.com/Prophetlab/Investor-Last-Exam",
+      "published": "2026-10-28T00:00:00.000Z"
+    },
+    {
+      "id": "2610.40454",
+      "title": "Glance: The Generator Is Its Own Reranker",
+      "authors": [
+        "Adilet Metinov",
+        "Chingiz Arziev"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2026-10-29T00:00:00.000Z"
+    },
+    {
+      "id": "2610.40362",
+      "title": "Your LR Schedule May Not Be Principled: Effective Learning Rate Scheduling in Weight-Normalized Training",
+      "authors": [
+        "Qifan Yu",
+        "Xinyu Ma",
+        "Xingyan Bin",
+        "Di He"
+      ],
+      "upvotes": 14,
+      "github": null,
+      "published": "2026-10-29T00:00:00.000Z"
+    },
+    {
+      "id": "2610.40564",
+      "title": "Training Foundation Models with a Single Algorithm",
+      "authors": [
+        "Yuda Song",
+        "Alvin Zhang",
+        "Fahim Tajwar",
+        "Daman Arora",
+        "Jeff Schneider",
+        "Daniel Khashabi",
+        "Ruslan Salakhutdinov",
+        "J. Andrew Bagnell",
+        "Aarti Singh",
+        "Andrea Zanette"
+      ],
+      "upvotes": 12,
+      "github": "https://github.com/yudasong/unified-training",
+      "published": "2026-10-29T00:00:00.000Z"
+    },
+    {
+      "id": "2610.40453",
+      "title": "PhysInsert: Physically Plausible Object Insertion with Geometric Priors and Bidirectional Object-Scene Interactions",
+      "authors": [
+        "Yue Gong",
+        "Le Zhang",
+        "Rui Chen",
+        "Song Chang",
+        "Xiaochao Qu",
+        "Luoqi Liu",
+        "Ting Liu",
+        "Yebin Liu"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2026-10-29T00:00:00.000Z"
+    },
+    {
+      "id": "2610.39663",
+      "title": "AB-Attention: Accurate Block Attention for Accelerating Video Diffusion Transformers",
+      "authors": [
+        "Bin Xu",
+        "Mo Zhang",
+        "Zhengfeiyang Zhang",
+        "Xinfeng Yang",
+        "Yixing Ma",
+        "Wei Wang",
+        "HeXin Wang",
+        "Pengfei Zhou",
+        "Wangbo Zhao"
+      ],
+      "upvotes": 11,
+      "github": "https://github.com/InfRec-Cardinal/AB-Attention",
+      "published": "2026-10-29T00:00:00.000Z"
+    },
+    {
+      "id": "2610.37695",
+      "title": "After One-Click Video: The Inflow of Service-Type Content, the Failure of the Recommendation Pool Mechanism, and the BoLe System",
+      "authors": [
+        "Bo Zou",
+        "Chao Xu"
+      ],
+      "upvotes": 11,
+      "github": null,
+      "published": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "id": "2610.36420",
+      "title": "SO-101 Bench: Accessible Spatial Manipulation",
+      "authors": [
+        "Truman Hickok"
+      ],
+      "upvotes": 9,
+      "github": "https://github.com/5hadytru/so101_bench",
+      "published": "2026-10-27T00:00:00.000Z"
+    },
+    {
+      "id": "2609.05881",
+      "title": "Broken on Arrival: Non-Functional Quantized LLM Artifacts in Public Model Registries and How to Catch Them",
+      "authors": [
+        "Aditi Patodiya"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/aditi-p31/quantcheck",
+      "published": "2026-10-25T00:00:00.000Z"
+    },
+    {
+      "id": "2610.38174",
+      "title": "Scaling Lean Theorem Proving for Real-World Code Verification",
+      "authors": [
+        "Debargha Ganguly",
+        "Divya Raghunathan",
+        "Dejan Jovanović",
+        "Vikash Singh",
+        "Soonho Kong",
+        "Aaron Tomb",
+        "Aman Goel",
+        "Ferhat Erata",
+        "Sam Bayless"
+      ],
+      "upvotes": 7,
+      "github": null,
+      "published": "2026-10-28T00:00:00.000Z"
+    },
+    {
+      "id": "2610.39287",
+      "title": "OpenFlyV2: An onboard vision-language-action model for aerial perception and navigation",
+      "authors": [
+        "Junli Liu",
+        "Zhongrui You",
+        "Chenhui Li",
+        "Zhen Li",
+        "Yuyang Tian",
+        "Qizhen Chen",
+        "Delin Qu",
+        "Haoming Song",
+        "Dong Wang",
+        "Xuelong Li",
+        "Zhigang Wang",
+        "Bin Zhao"
+      ],
+      "upvotes": 7,
+      "github": "https://github.com/Ideal-ljl/AeroBrain",
+      "published": "2026-10-29T00:00:00.000Z"
+    },
+    {
+      "id": "2610.25276",
+      "title": "Holo4D: Holistic 4D Reconstruction as Geometric Control for Video Diffusion",
+      "authors": [
+        "Yushi Lan",
+        "Zeren Jiang",
+        "Koichi Namekata",
+        "Xingang Pan",
+        "Chuanxia Zheng",
+        "Andrea Vedaldi"
+      ],
+      "upvotes": 6,
+      "github": "https://github.com/NIRVANALAN/Holo4D",
+      "published": "2026-10-18T00:00:00.000Z"
+    },
+    {
+      "id": "2610.34298",
+      "title": "Matched Capabilities, Different Behaviors: A Controlled Study of MCP and CLI Interfaces for Language Agents",
+      "authors": [
+        "Zhenning Shi",
+        "Liang Pang",
+        "Yongqi Li"
+      ],
+      "upvotes": 5,
+      "github": "https://github.com/ModalityDance/MICA",
+      "published": "2026-10-25T00:00:00.000Z"
+    },
+    {
+      "id": "2610.23656",
+      "title": "ABF-Bench: A Verifiable Benchmark for Agentic Blockchain Forensics",
+      "authors": [
+        "Xiaohang Yu",
+        "Hejia Geng",
+        "William Knottenbelt"
+      ],
+      "upvotes": 4,
+      "github": null,
+      "published": "2026-10-16T00:00:00.000Z"
+    },
+    {
+      "id": "2610.38293",
+      "title": "EPSBench: Benchmarking LLM Agents for Earnings Forecasting",
+      "authors": [
+        "Yanbin Yin",
+        "Chuyu Xu",
+        "Liqin Ye",
+        "Jing Peng",
+        "Chao Zhang"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/JadeXu16/epsbench",
+      "published": "2026-10-28T05:24:11.000Z"
+    },
+    {
+      "id": "2610.38681",
+      "title": "Weaken to Strengthen: Weakening-Induced On-Policy Self-Distillation for Large Reasoning Models",
+      "authors": [
+        "Yecheng Wu",
+        "Song Han",
+        "Han Cai"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/jet-ai-projects/WISD",
+      "published": "2026-10-28T00:00:00.000Z"
+    },
+    {
+      "id": "2610.39293",
+      "title": "Unlocking Any-Order Generation in Pretrained Autoregressive Image Models",
+      "authors": [
+        "Rishav Pramanik",
+        "Marco Pedersoli",
+        "Zhaozheng Yin"
+      ],
+      "upvotes": 3,
+      "github": "https://github.com/Ordered-AR/unlockedadaptation",
+      "published": "2026-10-29T00:00:00.000Z"
+    },
+    {
+      "id": "2610.39423",
+      "title": "FDSML: Formula-Driven Supervised Metric Learning with Parameter-Aware Triplet Loss",
+      "authors": [
+        "Hina Otake",
+        "Shinei Arakawa",
+        "Keitaro Tanaka",
+        "Yoshihiro Fukuhara",
+        "Hirokatsu Kataoka",
+        "Shigeo Morishima"
+      ],
+      "upvotes": 2,
+      "github": "https://github.com/ShineiArakawa/fdsml",
+      "published": "2026-10-29T00:00:00.000Z"
+    }
+  ]
+}
