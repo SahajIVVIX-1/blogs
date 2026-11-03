@@ -1,0 +1,118 @@
+@import 'katex/dist/katex.min.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --canvas: #f8fafc;
+    --surface: #ffffff;
+    --border: #e2e8f0;
+    --ink: #0f172a;
+    --ink-muted: #64748b;
+  }
+
+  :root[data-theme='dark'],
+  .dark {
+    --canvas: #090d16;
+    --surface: #0e1526;
+    --border: #1e293b;
+    --ink: #f8fafc;
+    --ink-muted: #94a3b8;
+  }
+
+  body {
+    background-color: var(--canvas);
+    color: var(--ink);
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-feature-settings: 'cv02' 1, 'cv03' 1, 'cv04' 1, 'cv11' 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, .font-serif {
+    font-family: 'Newsreader', Georgia, serif;
+    font-optical-sizing: auto;
+  }
+}
+
+/* ==========================================================================
+   AUTHENTIC COMPUTER MODERN LATEX DISPLAY & INLINE MATH
+   ========================================================================== */
+.prose .katex-display {
+  display: block !important;
+  text-align: center !important;
+  margin: 2.2rem 0 !important;
+  padding: 0.6rem 0 !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+}
+
+.prose .katex-display > .katex {
+  display: inline-block !important;
+  text-align: initial !important;
+}
+
+.katex {
+  font-family: KaTeX_Main, 'Latin Modern Math', 'Computer Modern', serif !important;
+  font-size: 1.05em !important;
+  text-rendering: auto !important;
+}
+
+.dark .katex,
+:root[data-theme='dark'] .katex {
+  text-shadow: 0 0 0.4px rgba(248, 250, 252, 0.35);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ==========================================================================
+   CODE BLOCKS & SHIKI SYNTAX HIGHLIGHTING DUAL THEME
+   ========================================================================== */
+.prose pre {
+  overflow-x: auto !important;
+  white-space: pre !important;
+  word-wrap: normal !important;
+  word-break: normal !important;
+  border-radius: 0.5rem !important;
+  border: 1px solid var(--border) !important;
+  background-color: #0d1527 !important;
+  padding: 1.25rem 1.5rem !important;
+  color: #f1f5f9 !important;
+}
+
+.prose pre code {
+  font-family: 'JetBrains Mono', Menlo, Monaco, monospace !important;
+  font-size: 0.88rem !important;
+  line-height: 1.6 !important;
+  white-space: pre !important;
+  background-color: transparent !important;
+  padding: 0 !important;
+  color: inherit !important;
+}
+
+/* Dual-theme tokens */
+html[data-theme='dark'] .shiki span,
+.dark .shiki span {
+  color: var(--shiki-dark) !important;
+  font-style: var(--shiki-dark-font-style) !important;
+  font-weight: var(--shiki-dark-font-weight) !important;
+  text-decoration: var(--shiki-dark-text-decoration) !important;
+}
+
+html:not([data-theme='dark']) .shiki span:not(.dark *) {
+  color: var(--shiki-light) !important;
+  font-style: var(--shiki-light-font-style) !important;
+  font-weight: var(--shiki-light-font-weight) !important;
+  text-decoration: var(--shiki-light-text-decoration) !important;
+}
+
+/* Plaintext / terminal fallback */
+.shiki[data-language="text"] span,
+.shiki[data-language="plaintext"] span,
+.prose pre code > span {
+  color: #f1f5f9;
+}
