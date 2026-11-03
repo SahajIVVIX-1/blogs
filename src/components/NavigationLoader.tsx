@@ -1,11 +1,10 @@
 'use client';
 
 import React, { useEffect, useState, useRef } from 'react';
-import { usePathname, useSearchParams } from 'next/navigation';
+import { usePathname } from 'next/navigation';
 
 export default function NavigationLoader() {
   const pathname = usePathname();
-  const searchParams = useSearchParams();
   const [progress, setProgress] = useState(0);
   const [visible, setVisible] = useState(false);
   const [showPill, setShowPill] = useState(false);
@@ -86,7 +85,7 @@ export default function NavigationLoader() {
         window.scrollTo({ top: 0, behavior: 'instant' });
       } catch {}
     }
-  }, [pathname, searchParams]);
+  }, [pathname]);
 
   // Global click interceptor for internal links
   useEffect(() => {
