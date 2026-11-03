@@ -9,6 +9,7 @@ import {
   dayKey,
   postUrl,
   fmtDate,
+  formatBlogNo,
   readingTime,
   phases,
   CATEGORY_LABEL,
@@ -106,7 +107,7 @@ export default async function PostDetailPage({ params }: PageProps) {
   };
 
   return (
-    <article className="mx-auto max-w-4xl" data-pagefind-body>
+    <article className="mx-auto max-w-4xl" data-pagefind-body data-blog-no={formatBlogNo(post.number)}>
       <ReadingProgressBar />
       {/* Breadcrumb Navigation */}
       <nav aria-label="Breadcrumb" className="mb-6 flex flex-wrap items-center gap-1.5 text-xs text-ink-muted">
@@ -126,11 +127,16 @@ export default async function PostDetailPage({ params }: PageProps) {
           </Link>
         )}
         <span>/</span>
-        <span className="text-ink">{key}</span>
+        <span className="text-ink font-mono font-semibold">Blog #{formatBlogNo(post.number)}</span>
       </nav>
 
       {/* Header Meta */}
       <div className="mb-4 flex flex-wrap items-center gap-2 text-xs">
+        {post.number && (
+          <span className="inline-flex items-center gap-1 rounded-md border border-emerald-500/40 bg-emerald-500/10 px-2.5 py-0.5 font-mono text-xs font-bold text-emerald-400">
+            Blog #{formatBlogNo(post.number)}
+          </span>
+        )}
         {d.categories.map((c) => (
           <span
             key={c}

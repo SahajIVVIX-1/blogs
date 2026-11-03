@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "node --max-old-space-size=8192 ./node_modules/next/dist/bin/next dev",
-    "build": "node --max-old-space-size=8192 ./node_modules/next/dist/bin/next build && node scripts/generate-rss.mjs && pagefind --site out",
+    "build": "node scripts/generate-blog-index.mjs && node --max-old-space-size=8192 ./node_modules/next/dist/bin/next build && node scripts/generate-rss.mjs && pagefind --site out",
     "start": "node ./node_modules/next/dist/bin/next start",
     "deploy": "node scripts/deploy.mjs",
     "daily": "node scripts/daily.mjs",

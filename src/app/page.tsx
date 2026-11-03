@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { allPosts, stats as getStats, phaseProgress, byDay, CATEGORY_LABEL, postUrl, fmtDate, readingTime } from '@/lib/posts';
+import { allPosts, stats as getStats, phaseProgress, byDay, CATEGORY_LABEL, postUrl, fmtDate, formatBlogNo, readingTime } from '@/lib/posts';
 import StatsStrip from '@/components/StatsStrip';
 import PhaseGrid from '@/components/PhaseGrid';
 import PostList from '@/components/PostList';
@@ -187,6 +187,12 @@ export default function HomePage() {
             <div className="space-y-2">
               <div className="flex items-center gap-2 text-xs font-semibold text-amber-400">
                 <span>✦ SPOTLIGHT ESSAY ON MINDSET & MASTERY</span>
+                {featuredPersonal.number && (
+                  <>
+                    <span>·</span>
+                    <span className="font-mono">#{formatBlogNo(featuredPersonal.number)}</span>
+                  </>
+                )}
                 <span>·</span>
                 <span className="font-mono">{fmtDate(featuredPersonal.data.date)}</span>
               </div>

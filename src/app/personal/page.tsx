@@ -20,6 +20,7 @@ export default function PersonalPage() {
       summary: p.data.summary,
       tags: p.data.tags || [],
       readingTime: readingTime(p),
+      number: p.number,
     }));
 
   return (
@@ -53,3 +54,4 @@ export default function PersonalPage() {
     </div>
   );
 }
+

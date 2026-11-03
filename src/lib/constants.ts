@@ -59,8 +59,14 @@ export interface Post {
   id: string;
   slug: string;
   body: string;
+  number?: number;
   data: PostData;
 }
+
+export const formatBlogNo = (n?: number) => {
+  if (!n) return '';
+  return String(n).padStart(4, '0');
+};
 
 export const START = '2023-08-04';
 

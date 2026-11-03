@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import ContextAddressBar from '@/components/ContextAddressBar';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://blog.sahaj.si'),
@@ -54,11 +55,38 @@ export default function RootLayout({
                   document.documentElement.classList.add('dark');
                 }
               } catch (e) {}
+
+              // Background IP lookup matching info.sahaj.si
+              try {
+                var cached = sessionStorage.getItem('visitorIp');
+                if (!cached) {
+                  fetch('https://api.ipify.org?format=json', { cache: 'no-store' })
+                    .then(function(r) { return r.json(); })
+                    .then(function(j) { if (j && j.ip) sessionStorage.setItem('visitorIp', j.ip); })
+                    .catch(function() {});
+                }
+              } catch (e) {}
+
+              // Direct shortlink support: ?blog=4305 or ?b=4305
+              try {
+                var params = new URLSearchParams(location.search);
+                var bNum = params.get('blog') || params.get('b');
+                if (bNum && (location.pathname === '/' || location.pathname === '')) {
+                  fetch('/blog-index.json')
+                    .then(function(r) { return r.json(); })
+                    .then(function(map) {
+                      var target = map[bNum] || map[String(bNum).padStart(4, '0')];
+                      if (target) location.replace(target + location.search + location.hash);
+                    })
+                    .catch(function() {});
+                }
+              } catch (e) {}
             `,
           }}
         />
       </head>
       <body className="min-h-screen bg-canvas text-ink flex flex-col antialiased selection:bg-emerald-500/20 selection:text-emerald-300">
+        <ContextAddressBar />
         <Navbar />
         <main id="main" className="flex-1 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
           {children}
