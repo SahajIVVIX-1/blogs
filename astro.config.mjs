@@ -3,7 +3,6 @@ import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
-import { unified } from '@astrojs/markdown-remark';
 
 // The one place the base path and site URL live. The repo's Pages custom domain is blog.sahaj.si
 // (served at the root). For a project path like https://info.sahaj.si/blogs/ set BASE = '/blogs'.
@@ -31,17 +30,18 @@ export default defineConfig({
   base: BASE,
   trailingSlash: 'always',
   integrations: [
-    mdx(),
-    sitemap(),
-  ],
-  markdown: {
-    processor: unified({
+    mdx({
       remarkPlugins: [remarkMath],
       rehypePlugins: [rehypeKatex, rehypeImages],
     }),
+    sitemap(),
+  ],
+  markdown: {
+    remarkPlugins: [remarkMath],
+    rehypePlugins: [rehypeKatex, rehypeImages],
     shikiConfig: {
       themes: { light: 'github-light', dark: 'github-dark' },
-      wrap: true,
+      wrap: false,
     },
   },
 });
