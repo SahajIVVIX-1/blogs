@@ -17,6 +17,7 @@ import {
 } from '@/lib/posts';
 import { markdownToHtml } from '@/lib/markdown';
 import PaperCard from '@/components/PaperCard';
+import ReadingProgressBar from '@/components/ReadingProgressBar';
 
 interface PageProps {
   params: Promise<{
@@ -92,11 +93,13 @@ export default async function PostDetailPage({ params }: PageProps) {
       case 'study':
         return 'border-indigo-500/30 bg-indigo-500/10 text-indigo-400';
       case 'ai':
-        return 'border-amber-500/30 bg-amber-500/10 text-amber-400';
+        return 'border-purple-500/30 bg-purple-500/10 text-purple-400';
       case 'papers':
         return 'border-emerald-500/30 bg-emerald-500/10 text-emerald-400';
       case 'projects':
-        return 'border-blue-500/30 bg-blue-500/10 text-blue-400';
+        return 'border-cyan-500/30 bg-cyan-500/10 text-cyan-400';
+      case 'personal':
+        return 'border-amber-500/30 bg-amber-500/10 text-amber-400';
       default:
         return 'border-border bg-subtle text-ink-muted';
     }
@@ -104,6 +107,7 @@ export default async function PostDetailPage({ params }: PageProps) {
 
   return (
     <article className="mx-auto max-w-4xl" data-pagefind-body>
+      <ReadingProgressBar />
       {/* Breadcrumb Navigation */}
       <nav aria-label="Breadcrumb" className="mb-6 flex flex-wrap items-center gap-1.5 text-xs text-ink-muted">
         <Link href="/" className="hover:text-ink">Home</Link>
@@ -213,6 +217,37 @@ export default async function PostDetailPage({ params }: PageProps) {
           )}
         </section>
       )}
+
+      {/* Author Bio Card */}
+      <section className="mt-12 rounded-2xl border border-border/80 bg-surface/70 p-6 backdrop-blur-sm">
+        <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+          <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-emerald-500 to-teal-600 font-serif text-xl font-bold text-slate-950 shadow-md">
+            SS
+          </div>
+          <div className="flex-1 space-y-1">
+            <div className="flex flex-wrap items-center justify-between gap-2">
+              <h4 className="font-serif text-base font-bold text-ink">Sahaj Saliya</h4>
+              <span className="text-xs text-ink-muted">PDEU Gandhinagar · 2023–2027</span>
+            </div>
+            <p className="text-xs leading-relaxed text-ink-muted">
+              B.Tech ICT Student researching LLMs, Autonomous Multi-Agent Architectures, Computer Vision, and cognitive frameworks for deep learning.
+            </p>
+            <div className="flex items-center gap-3 pt-1 text-xs">
+              <a href="https://info.sahaj.si" target="_blank" rel="noopener noreferrer" className="font-medium text-emerald-400 hover:underline">
+                Portfolio ↗
+              </a>
+              <span className="text-border">·</span>
+              <a href="https://github.com/SahajIVVIX-1" target="_blank" rel="noopener noreferrer" className="text-ink-muted hover:text-ink">
+                GitHub ↗
+              </a>
+              <span className="text-border">·</span>
+              <a href="https://x.com/SahajS59" target="_blank" rel="noopener noreferrer" className="text-ink-muted hover:text-ink">
+                X / Twitter ↗
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Curriculum Navigation Pager */}
       {(prev || next) && (
