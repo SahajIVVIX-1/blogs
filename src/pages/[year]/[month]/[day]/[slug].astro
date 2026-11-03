@@ -6,11 +6,20 @@ import phases from '../../../../data/learning-path.json';
 
 export async function getStaticPaths() {
   const posts = await allPosts();
+  const studyByPhase = new Map<number, Post[]>();
+  for (const q of posts) {
+    if (q.data.phase && q.data.step) {
+      if (!studyByPhase.has(q.data.phase)) studyByPhase.set(q.data.phase, []);
+      studyByPhase.get(q.data.phase)!.push(q);
+    }
+  }
+  for (const list of studyByPhase.values()) {
+    list.sort((a, b) => a.data.step! - b.data.step!);
+  }
+
   return posts.map((p) => {
     const [year, month, day] = dayKey(p.data.date).split('-');
-    const study = p.data.phase
-      ? posts.filter((q) => q.data.phase === p.data.phase && q.data.step).sort((a, b) => a.data.step! - b.data.step!)
-      : [];
+    const study = p.data.phase ? (studyByPhase.get(p.data.phase) ?? []) : [];
     const i = study.findIndex((q) => q.id === p.id);
     return {
       params: { year, month, day, slug: slugOf(p) },

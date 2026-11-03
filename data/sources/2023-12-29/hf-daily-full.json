@@ -1,0 +1,325 @@
+[
+  {
+    "id": "2312.17172",
+    "title": "Unified-IO 2: Scaling Autoregressive Multimodal Models with Vision, Language, Audio, and Action",
+    "authors": [
+      "Jiasen Lu",
+      "Christopher Clark",
+      "Sangho Lee",
+      "Zichen Zhang",
+      "Savya Khosla",
+      "Ryan Marten",
+      "Derek Hoiem",
+      "Aniruddha Kembhavi"
+    ],
+    "summary": "We present Unified-IO 2, the first autoregressive multimodal model that is capable of understanding and generating image, text, audio, and action. To unify different modalities, we tokenize inputs and outputs -- images, text, audio, action, bounding boxes, etc., into a shared semantic space and then process them with a single encoder-decoder transformer model. Since training with such diverse modalities is challenging, we propose various architectural improvements to stabilize model training. We train our model from scratch on a large multimodal pre-training corpus from diverse sources with a multimodal mixture of denoisers objective. To learn an expansive set of skills, such as following multimodal instructions, we construct and finetune on an ensemble of 120 datasets with prompts and augmentations. With a single unified model, Unified-IO 2 achieves state-of-the-art performance on the GRIT benchmark and strong results in more than 35 benchmarks, including image generation and understanding, natural language understanding, video and audio understanding, and robotic manipulation. We release all our models to the research community.",
+    "upvotes": 31,
+    "github": "https://github.com/allenai/unified-io-2",
+    "published": "2023-12-28T17:57:06.000Z"
+  },
+  {
+    "id": "2312.16862",
+    "title": "TinyGPT-V: Efficient Multimodal Large Language Model via Small Backbones",
+    "authors": [
+      "Zhengqing Yuan",
+      "Zhaoxu Li",
+      "Lichao Sun"
+    ],
+    "summary": "In the era of advanced multimodel learning, multimodal large language models (MLLMs) such as GPT-4V have made remarkable strides towards bridging language and visual elements. However, the closed-source nature and considerable computational demand present notable challenges for universal usage and modifications. This is where open-source MLLMs like LLaVA and MiniGPT-4 come in, presenting groundbreaking achievements across tasks. Despite these accomplishments, computational efficiency remains an unresolved issue, as these models, like LLaVA-v1.5-13B, require substantial resources. Addressing these issues, we introduce TinyGPT-V, a new-wave model marrying impressive performance with commonplace computational capacity. It stands out by requiring merely a 24G GPU for training and an 8G GPU or CPU for inference. Built upon Phi-2, TinyGPT-V couples an effective language backbone with pre-trained vision modules from BLIP-2 or CLIP. TinyGPT-V's 2.8B parameters can undergo a unique quantisation process, suitable for local deployment and inference tasks on 8G various devices. Our work fosters further developments for designing cost-effective, efficient, and high-performing MLLMs, expanding their applicability in a broad array of real-world scenarios. Furthermore this paper proposed a new paradigm of Multimodal Large Language Model via small backbones. Our code and training weights are placed at: https://github.com/DLYuanGod/TinyGPT-V and https://huggingface.co/Tyrannosaurus/TinyGPT-V respectively.",
+    "upvotes": 31,
+    "github": "https://github.com/dlyuangod/tinygpt-v",
+    "published": "2023-12-28T07:11:41.000Z"
+  },
+  {
+    "id": "2312.17120",
+    "title": "Generative AI for Math: Part I -- MathPile: A Billion-Token-Scale Pretraining Corpus for Math",
+    "authors": [
+      "Zengzhi Wang",
+      "Rui Xia",
+      "Pengfei Liu"
+    ],
+    "summary": "High-quality, large-scale corpora are the cornerstone of building foundation models. In this work, we introduce MathPile, a diverse and high-quality math-centric corpus comprising about 9.5 billion tokens. Throughout its creation, we adhered to the principle of ``less is more'', firmly believing in the supremacy of data quality over quantity, even in the pre-training phase. Our meticulous data collection and processing efforts included a complex suite of preprocessing, prefiltering, language identification, cleaning, filtering, and deduplication, ensuring the high quality of our corpus. Furthermore, we performed data contamination detection on downstream benchmark test sets to eliminate duplicates. We hope our MathPile can help to enhance the mathematical reasoning abilities of language models. We plan to open-source different versions of \\mathpile with the scripts used for processing, to facilitate future developments in this field.",
+    "upvotes": 28,
+    "github": "https://github.com/gair-nlp/mathpile",
+    "published": "2023-12-28T16:55:40.000Z"
+  },
+  {
+    "id": "2312.16886",
+    "title": "MobileVLM : A Fast, Reproducible and Strong Vision Language Assistant for Mobile Devices",
+    "authors": [
+      "Xiangxiang Chu",
+      "Limeng Qiao",
+      "Xinyang Lin",
+      "Shuang Xu",
+      "Yang Yang",
+      "Yiming Hu",
+      "Fei Wei",
+      "Xinyu Zhang",
+      "Bo Zhang",
+      "Xiaolin Wei",
+      "Chunhua Shen"
+    ],
+    "summary": "We present MobileVLM, a competent multimodal vision language model (MMVLM) targeted to run on mobile devices. It is an amalgamation of a myriad of architectural designs and techniques that are mobile-oriented, which comprises a set of language models at the scale of 1.4B and 2.7B parameters, trained from scratch, a multimodal vision model that is pre-trained in the CLIP fashion, cross-modality interaction via an efficient projector. We evaluate MobileVLM on several typical VLM benchmarks. Our models demonstrate on par performance compared with a few much larger models. More importantly, we measure the inference speed on both a Qualcomm Snapdragon 888 CPU and an NVIDIA Jeston Orin GPU, and we obtain state-of-the-art performance of 21.5 tokens and 65.3 tokens per second, respectively. Our code will be made available at: https://github.com/Meituan-AutoML/MobileVLM.",
+    "upvotes": 23,
+    "github": "https://github.com/Meituan-AutoML/MobileVLM",
+    "published": "2023-12-28T08:21:24.000Z"
+  },
+  {
+    "id": "2312.17243",
+    "title": "Unsupervised Universal Image Segmentation",
+    "authors": [
+      "Dantong Niu",
+      "Xudong Wang",
+      "Xinyang Han",
+      "Long Lian",
+      "Roei Herzig",
+      "Trevor Darrell"
+    ],
+    "summary": "Several unsupervised image segmentation approaches have been proposed which eliminate the need for dense manually-annotated segmentation masks; current models separately handle either semantic segmentation (e.g., STEGO) or class-agnostic instance segmentation (e.g., CutLER), but not both (i.e., panoptic segmentation). We propose an Unsupervised Universal Segmentation model (U2Seg) adept at performing various image segmentation tasks -- instance, semantic and panoptic -- using a novel unified framework. U2Seg generates pseudo semantic labels for these segmentation tasks via leveraging self-supervised models followed by clustering; each cluster represents different semantic and/or instance membership of pixels. We then self-train the model on these pseudo semantic labels, yielding substantial performance gains over specialized methods tailored to each task: a +2.6 AP^{box} boost vs. CutLER in unsupervised instance segmentation on COCO and a +7.0 PixelAcc increase (vs. STEGO) in unsupervised semantic segmentation on COCOStuff. Moreover, our method sets up a new baseline for unsupervised panoptic segmentation, which has not been previously explored. U2Seg is also a strong pretrained model for few-shot segmentation, surpassing CutLER by +5.0 AP^{mask} when trained on a low-data regime, e.g., only 1% COCO labels. We hope our simple yet effective method can inspire more research on unsupervised universal image segmentation.",
+    "upvotes": 20,
+    "github": "https://github.com/dantong88/llarva",
+    "published": "2023-12-28T18:59:04.000Z"
+  },
+  {
+    "id": "2312.17142",
+    "title": "DreamGaussian4D: Generative 4D Gaussian Splatting",
+    "authors": [
+      "Jiawei Ren",
+      "Liang Pan",
+      "Jiaxiang Tang",
+      "Chi Zhang",
+      "Ang Cao",
+      "Gang Zeng",
+      "Ziwei Liu"
+    ],
+    "summary": "Remarkable progress has been made in 4D content generation recently. However, existing methods suffer from long optimization time, lack of motion controllability, and a low level of detail. In this paper, we introduce DreamGaussian4D, an efficient 4D generation framework that builds on 4D Gaussian Splatting representation. Our key insight is that the explicit modeling of spatial transformations in Gaussian Splatting makes it more suitable for the 4D generation setting compared with implicit representations. DreamGaussian4D reduces the optimization time from several hours to just a few minutes, allows flexible control of the generated 3D motion, and produces animated meshes that can be efficiently rendered in 3D engines.",
+    "upvotes": 18,
+    "github": "https://github.com/jiawei-ren/dreamgaussian4d",
+    "published": "2023-12-28T17:16:44.000Z"
+  },
+  {
+    "id": "2312.16256",
+    "title": "DL3DV-10K: A Large-Scale Scene Dataset for Deep Learning-based 3D Vision",
+    "authors": [
+      "Lu Ling",
+      "Yichen Sheng",
+      "Zhi Tu",
+      "Wentian Zhao",
+      "Cheng Xin",
+      "Kun Wan",
+      "Lantao Yu",
+      "Qianyu Guo",
+      "Zixun Yu",
+      "Yawen Lu",
+      "Xuanmao Li",
+      "Xingpeng Sun",
+      "Rohan Ashok",
+      "Aniruddha Mukherjee",
+      "Hao Kang",
+      "Xiangrui Kong",
+      "Gang Hua",
+      "Tianti Zhang",
+      "Bedrich Benes",
+      "Aniket Bera"
+    ],
+    "summary": "We have witnessed significant progress in deep learning-based 3D vision, ranging from neural radiance field (NeRF) based 3D representation learning to applications in novel view synthesis (NVS). However, existing scene-level datasets for deep learning-based 3D vision, limited to either synthetic environments or a narrow selection of real-world scenes, are quite insufficient. This insufficiency not only hinders a comprehensive benchmark of existing methods but also caps what could be explored in deep learning-based 3D analysis. To address this critical gap, we present DL3DV-10K, a large-scale scene dataset, featuring 51.2 million frames from 10,510 videos captured from 65 types of point-of-interest (POI) locations, covering both bounded and unbounded scenes, with different levels of reflection, transparency, and lighting. We conducted a comprehensive benchmark of recent NVS methods on DL3DV-10K, which revealed valuable insights for future research in NVS. In addition, we have obtained encouraging results in a pilot study to learn generalizable NeRF from DL3DV-10K, which manifests the necessity of a large-scale scene-level dataset to forge a path toward a foundation model for learning 3D representation. Our DL3DV-10K dataset, benchmark results, and models will be publicly accessible at https://dl3dv-10k.github.io/DL3DV-10K/.",
+    "upvotes": 18,
+    "github": "https://github.com/DL3DV-10K/Dataset",
+    "published": "2023-12-26T01:12:12.000Z"
+  },
+  {
+    "id": "2312.16457",
+    "title": "City-on-Web: Real-time Neural Rendering of Large-scale Scenes on the Web",
+    "authors": [
+      "Kaiwen Song",
+      "Juyong Zhang"
+    ],
+    "summary": "NeRF has significantly advanced 3D scene reconstruction, capturing intricate details across various environments. Existing methods have successfully leveraged radiance field baking to facilitate real-time rendering of small scenes. However, when applied to large-scale scenes, these techniques encounter significant challenges, struggling to provide a seamless real-time experience due to limited resources in computation, memory, and bandwidth. In this paper, we propose City-on-Web, which represents the whole scene by partitioning it into manageable blocks, each with its own Level-of-Detail, ensuring high fidelity, efficient memory management and fast rendering. Meanwhile, we carefully design the training and inference process such that the final rendering result on web is consistent with training. Thanks to our novel representation and carefully designed training/inference process, we are the first to achieve real-time rendering of large-scale scenes in resource-constrained environments. Extensive experimental results demonstrate that our method facilitates real-time rendering of large-scale scenes on a web platform, achieving 32FPS at 1080P resolution with an RTX 3060 GPU, while simultaneously achieving a quality that closely rivals that of state-of-the-art methods. Project page: https://ustc3dv.github.io/City-on-Web/",
+    "upvotes": 15,
+    "github": "https://github.com/USTC3DV/MERFStudio",
+    "published": "2023-12-27T08:00:47.000Z"
+  },
+  {
+    "id": "2312.16693",
+    "title": "I2V-Adapter: A General Image-to-Video Adapter for Video Diffusion Models",
+    "authors": [
+      "Xun Guo",
+      "Mingwu Zheng",
+      "Liang Hou",
+      "Yuan Gao",
+      "Yufan Deng",
+      "Chongyang Ma",
+      "Weiming Hu",
+      "Zhengjun Zha",
+      "Haibin Huang",
+      "Pengfei Wan",
+      "Di Zhang"
+    ],
+    "summary": "In the rapidly evolving domain of digital content generation, the focus has shifted from text-to-image (T2I) models to more advanced video diffusion models, notably text-to-video (T2V) and image-to-video (I2V). This paper addresses the intricate challenge posed by I2V: converting static images into dynamic, lifelike video sequences while preserving the original image fidelity. Traditional methods typically involve integrating entire images into diffusion processes or using pretrained encoders for cross attention. However, these approaches often necessitate altering the fundamental weights of T2I models, thereby restricting their reusability. We introduce a novel solution, namely I2V-Adapter, designed to overcome such limitations. Our approach preserves the structural integrity of T2I models and their inherent motion modules. The I2V-Adapter operates by processing noised video frames in parallel with the input image, utilizing a lightweight adapter module. This module acts as a bridge, efficiently linking the input to the model's self-attention mechanism, thus maintaining spatial details without requiring structural changes to the T2I model. Moreover, I2V-Adapter requires only a fraction of the parameters of conventional models and ensures compatibility with existing community-driven T2I models and controlling tools. Our experimental results demonstrate I2V-Adapter's capability to produce high-quality video outputs. This performance, coupled with its versatility and reduced need for trainable parameters, represents a substantial advancement in the field of AI-driven video generation, particularly for creative applications.",
+    "upvotes": 14,
+    "github": "https://github.com/KwaiVGI/I2V-Adapter",
+    "published": "2023-12-27T19:11:50.000Z"
+  },
+  {
+    "id": "2312.17135",
+    "title": "InsActor: Instruction-driven Physics-based Characters",
+    "authors": [
+      "Jiawei Ren",
+      "Mingyuan Zhang",
+      "Cunjun Yu",
+      "Xiao Ma",
+      "Liang Pan",
+      "Ziwei Liu"
+    ],
+    "summary": "Generating animation of physics-based characters with intuitive control has long been a desirable task with numerous applications. However, generating physically simulated animations that reflect high-level human instructions remains a difficult problem due to the complexity of physical environments and the richness of human language. In this paper, we present InsActor, a principled generative framework that leverages recent advancements in diffusion-based human motion models to produce instruction-driven animations of physics-based characters. Our framework empowers InsActor to capture complex relationships between high-level human instructions and character motions by employing diffusion policies for flexibly conditioned motion planning. To overcome invalid states and infeasible state transitions in planned motions, InsActor discovers low-level skills and maps plans to latent skill sequences in a compact latent space. Extensive experiments demonstrate that InsActor achieves state-of-the-art results on various tasks, including instruction-driven motion generation and instruction-driven waypoint heading. Notably, the ability of InsActor to generate physically simulated animations using high-level human instructions makes it a valuable tool, particularly in executing long-horizon tasks with a rich set of instructions.",
+    "upvotes": 10,
+    "github": null,
+    "published": "2023-12-28T17:10:31.000Z"
+  },
+  {
+    "id": "2312.16812",
+    "title": "Spacetime Gaussian Feature Splatting for Real-Time Dynamic View Synthesis",
+    "authors": [
+      "Zhan Li",
+      "Zhang Chen",
+      "Zhong Li",
+      "Yi Xu"
+    ],
+    "summary": "Novel view synthesis of dynamic scenes has been an intriguing yet challenging problem. Despite recent advancements, simultaneously achieving high-resolution photorealistic results, real-time rendering, and compact storage remains a formidable task. To address these challenges, we propose Spacetime Gaussian Feature Splatting as a novel dynamic scene representation, composed of three pivotal components. First, we formulate expressive Spacetime Gaussians by enhancing 3D Gaussians with temporal opacity and parametric motion/rotation. This enables Spacetime Gaussians to capture static, dynamic, as well as transient content within a scene. Second, we introduce splatted feature rendering, which replaces spherical harmonics with neural features. These features facilitate the modeling of view- and time-dependent appearance while maintaining small size. Third, we leverage the guidance of training error and coarse depth to sample new Gaussians in areas that are challenging to converge with existing pipelines. Experiments on several established real-world datasets demonstrate that our method achieves state-of-the-art rendering quality and speed, while retaining compact storage. At 8K resolution, our lite-version model can render at 60 FPS on an Nvidia RTX 4090 GPU.",
+    "upvotes": 10,
+    "github": "https://github.com/oppo-us-research/spacetimegaussians",
+    "published": "2023-12-28T04:14:55.000Z"
+  },
+  {
+    "id": "2312.17244",
+    "title": "The LLM Surgeon",
+    "authors": [
+      "Tycho F. A. van der Ouderaa",
+      "Markus Nagel",
+      "Mart van Baalen",
+      "Yuki M. Asano",
+      "Tijmen Blankevoort"
+    ],
+    "summary": "State-of-the-art language models are becoming increasingly large in an effort to achieve the highest performance on large corpora of available textual data. However, the sheer size of the Transformer architectures makes it difficult to deploy models within computational, environmental or device-specific constraints. We explore data-driven compression of existing pretrained models as an alternative to training smaller models from scratch. To do so, we scale Kronecker-factored curvature approximations of the target loss landscape to large language models. In doing so, we can compute both the dynamic allocation of structures that can be removed as well as updates of remaining weights that account for the removal. We provide a general framework for unstructured, semi-structured and structured pruning and improve upon weight updates to capture more correlations between weights, while remaining computationally efficient. Experimentally, our method can prune rows and columns from a range of OPT models and Llamav2-7B by 20%-30%, with a negligible loss in performance, and achieve state-of-the-art results in unstructured and semi-structured pruning of large language models.",
+    "upvotes": 9,
+    "github": "https://github.com/qualcomm-ai-research/llm-surgeon",
+    "published": "2023-12-28T18:59:09.000Z"
+  },
+  {
+    "id": "2312.17241",
+    "title": "Compact Neural Graphics Primitives with Learned Hash Probing",
+    "authors": [
+      "Towaki Takikawa",
+      "Thomas Müller",
+      "Merlin Nimier-David",
+      "Alex Evans",
+      "Sanja Fidler",
+      "Alec Jacobson",
+      "Alexander Keller"
+    ],
+    "summary": "Neural graphics primitives are faster and achieve higher quality when their neural networks are augmented by spatial data structures that hold trainable features arranged in a grid. However, existing feature grids either come with a large memory footprint (dense or factorized grids, trees, and hash tables) or slow performance (index learning and vector quantization). In this paper, we show that a hash table with learned probes has neither disadvantage, resulting in a favorable combination of size and speed. Inference is faster than unprobed hash tables at equal quality while training is only 1.2-2.6x slower, significantly outperforming prior index learning approaches. We arrive at this formulation by casting all feature grids into a common framework: they each correspond to a lookup function that indexes into a table of feature vectors. In this framework, the lookup functions of existing data structures can be combined by simple arithmetic combinations of their indices, resulting in Pareto optimal compression and speed.",
+    "upvotes": 8,
+    "github": null,
+    "published": "2023-12-28T18:58:45.000Z"
+  },
+  {
+    "id": "2312.16218",
+    "title": "Hyper-VolTran: Fast and Generalizable One-Shot Image to 3D Object Structure via HyperNetworks",
+    "authors": [
+      "Christian Simon",
+      "Sen He",
+      "Juan-Manuel Perez-Rua",
+      "Frost Xu",
+      "Amine Benhalloum",
+      "Tao Xiang"
+    ],
+    "summary": "Solving image-to-3D from a single view is an ill-posed problem, and current neural reconstruction methods addressing it through diffusion models still rely on scene-specific optimization, constraining their generalization capability. To overcome the limitations of existing approaches regarding generalization and consistency, we introduce a novel neural rendering technique. Our approach employs the signed distance function as the surface representation and incorporates generalizable priors through geometry-encoding volumes and HyperNetworks. Specifically, our method builds neural encoding volumes from generated multi-view inputs. We adjust the weights of the SDF network conditioned on an input image at test-time to allow model adaptation to novel scenes in a feed-forward manner via HyperNetworks. To mitigate artifacts derived from the synthesized views, we propose the use of a volume transformer module to improve the aggregation of image features instead of processing each viewpoint separately. Through our proposed method, dubbed as Hyper-VolTran, we avoid the bottleneck of scene-specific optimization and maintain consistency across the images generated from multiple viewpoints. Our experiments show the advantages of our proposed approach with consistent results and rapid generation.",
+    "upvotes": 8,
+    "github": null,
+    "published": "2023-12-24T08:42:37.000Z"
+  },
+  {
+    "id": "2312.16272",
+    "title": "SSR-Encoder: Encoding Selective Subject Representation for Subject-Driven Generation",
+    "authors": [
+      "Yuxuan Zhang",
+      "Jiaming Liu",
+      "Yiren Song",
+      "Rui Wang",
+      "Hao Tang",
+      "Jinpeng Yu",
+      "Huaxia Li",
+      "Xu Tang",
+      "Yao Hu",
+      "Han Pan",
+      "Zhongliang Jing"
+    ],
+    "summary": "Recent advancements in subject-driven image generation have led to zero-shot generation, yet precise selection and focus on crucial subject representations remain challenging. Addressing this, we introduce the SSR-Encoder, a novel architecture designed for selectively capturing any subject from single or multiple reference images. It responds to various query modalities including text and masks, without necessitating test-time fine-tuning. The SSR-Encoder combines a Token-to-Patch Aligner that aligns query inputs with image patches and a Detail-Preserving Subject Encoder for extracting and preserving fine features of the subjects, thereby generating subject embeddings. These embeddings, used in conjunction with original text embeddings, condition the generation process. Characterized by its model generalizability and efficiency, the SSR-Encoder adapts to a range of custom models and control modules. Enhanced by the Embedding Consistency Regularization Loss for improved training, our extensive experiments demonstrate its effectiveness in versatile and high-quality image generation, indicating its broad applicability. Project page: https://ssr-encoder.github.io",
+    "upvotes": 7,
+    "github": "https://github.com/Xiaojiu-z/SSR_Encoder",
+    "published": "2023-12-26T14:39:11.000Z"
+  },
+  {
+    "id": "2312.16486",
+    "title": "PanGu-Draw: Advancing Resource-Efficient Text-to-Image Synthesis with Time-Decoupled Training and Reusable Coop-Diffusion",
+    "authors": [
+      "Guansong Lu",
+      "Yuanfan Guo",
+      "Jianhua Han",
+      "Minzhe Niu",
+      "Yihan Zeng",
+      "Songcen Xu",
+      "Zeyi Huang",
+      "Zhao Zhong",
+      "Wei Zhang",
+      "Hang Xu"
+    ],
+    "summary": "Current large-scale diffusion models represent a giant leap forward in conditional image synthesis, capable of interpreting diverse cues like text, human poses, and edges. However, their reliance on substantial computational resources and extensive data collection remains a bottleneck. On the other hand, the integration of existing diffusion models, each specialized for different controls and operating in unique latent spaces, poses a challenge due to incompatible image resolutions and latent space embedding structures, hindering their joint use. Addressing these constraints, we present \"PanGu-Draw\", a novel latent diffusion model designed for resource-efficient text-to-image synthesis that adeptly accommodates multiple control signals. We first propose a resource-efficient Time-Decoupling Training Strategy, which splits the monolithic text-to-image model into structure and texture generators. Each generator is trained using a regimen that maximizes data utilization and computational efficiency, cutting data preparation by 48% and reducing training resources by 51%. Secondly, we introduce \"Coop-Diffusion\", an algorithm that enables the cooperative use of various pre-trained diffusion models with different latent spaces and predefined resolutions within a unified denoising process. This allows for multi-control image synthesis at arbitrary resolutions without the necessity for additional data or retraining. Empirical validations of Pangu-Draw show its exceptional prowess in text-to-image and multi-control image generation, suggesting a promising direction for future model training efficiencies and generation versatility. The largest 5B T2I PanGu-Draw model is released on the Ascend platform. Project page: https://pangu-draw.github.io",
+    "upvotes": 7,
+    "github": null,
+    "published": "2023-12-27T09:21:45.000Z"
+  },
+  {
+    "id": "2312.16837",
+    "title": "DiffusionGAN3D: Boosting Text-guided 3D Generation and Domain Adaption by Combining 3D GANs and Diffusion Priors",
+    "authors": [
+      "Biwen Lei",
+      "Kai Yu",
+      "Mengyang Feng",
+      "Miaomiao Cui",
+      "Xuansong Xie"
+    ],
+    "summary": "Text-guided domain adaption and generation of 3D-aware portraits find many applications in various fields. However, due to the lack of training data and the challenges in handling the high variety of geometry and appearance, the existing methods for these tasks suffer from issues like inflexibility, instability, and low fidelity. In this paper, we propose a novel framework DiffusionGAN3D, which boosts text-guided 3D domain adaption and generation by combining 3D GANs and diffusion priors. Specifically, we integrate the pre-trained 3D generative models (e.g., EG3D) and text-to-image diffusion models. The former provides a strong foundation for stable and high-quality avatar generation from text. And the diffusion models in turn offer powerful priors and guide the 3D generator finetuning with informative direction to achieve flexible and efficient text-guided domain adaption. To enhance the diversity in domain adaption and the generation capability in text-to-avatar, we introduce the relative distance loss and case-specific learnable triplane respectively. Besides, we design a progressive texture refinement module to improve the texture quality for both tasks above. Extensive experiments demonstrate that the proposed framework achieves excellent results in both domain adaption and text-to-avatar tasks, outperforming existing methods in terms of generation quality and efficiency. The project homepage is at https://younglbw.github.io/DiffusionGAN3D-homepage/.",
+    "upvotes": 6,
+    "github": null,
+    "published": "2023-12-28T05:46:26.000Z"
+  },
+  {
+    "id": "2312.16720",
+    "title": "Prompt Expansion for Adaptive Text-to-Image Generation",
+    "authors": [
+      "Siddhartha Datta",
+      "Alexander Ku",
+      "Deepak Ramachandran",
+      "Peter Anderson"
+    ],
+    "summary": "Text-to-image generation models are powerful but difficult to use. Users craft specific prompts to get better images, though the images can be repetitive. This paper proposes a Prompt Expansion framework that helps users generate high-quality, diverse images with less effort. The Prompt Expansion model takes a text query as input and outputs a set of expanded text prompts that are optimized such that when passed to a text-to-image model, generates a wider variety of appealing images. We conduct a human evaluation study that shows that images generated through Prompt Expansion are more aesthetically pleasing and diverse than those generated by baseline methods. Overall, this paper presents a novel and effective approach to improving the text-to-image generation experience.",
+    "upvotes": 5,
+    "github": null,
+    "published": "2023-12-27T21:12:21.000Z"
+  },
+  {
+    "id": "2312.17161",
+    "title": "Restoration by Generation with Constrained Priors",
+    "authors": [
+      "Zheng Ding",
+      "Xuaner Zhang",
+      "Zhuowen Tu",
+      "Zhihao Xia"
+    ],
+    "summary": "The inherent generative power of denoising diffusion models makes them well-suited for image restoration tasks where the objective is to find the optimal high-quality image within the generative space that closely resembles the input image. We propose a method to adapt a pretrained diffusion model for image restoration by simply adding noise to the input image to be restored and then denoise. Our method is based on the observation that the space of a generative model needs to be constrained. We impose this constraint by finetuning the generative model with a set of anchor images that capture the characteristics of the input image. With the constrained space, we can then leverage the sampling strategy used for generation to do image restoration. We evaluate against previous methods and show superior performances on multiple real-world restoration datasets in preserving identity and image quality. We also demonstrate an important and practical application on personalized restoration, where we use a personal album as the anchor images to constrain the generative space. This approach allows us to produce results that accurately preserve high-frequency details, which previous works are unable to do. Project webpage: https://gen2res.github.io.",
+    "upvotes": 4,
+    "github": null,
+    "published": "2023-12-28T17:50:54.000Z"
+  }
+]

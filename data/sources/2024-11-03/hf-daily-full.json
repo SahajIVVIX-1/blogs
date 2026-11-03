@@ -1,0 +1,18 @@
+[
+  {
+    "id": "2411.00412",
+    "title": "Adapting While Learning: Grounding LLMs for Scientific Problems with Intelligent Tool Usage Adaptation",
+    "authors": [
+      "Bohan Lyu",
+      "Yadi Cao",
+      "Duncan Watson-Parris",
+      "Leon Bergen",
+      "Taylor Berg-Kirkpatrick",
+      "Rose Yu"
+    ],
+    "summary": "Large Language Models (LLMs) demonstrate promising capabilities in solving simple scientific problems but often produce hallucinations for complex ones. While integrating LLMs with tools can increase reliability, this approach typically results in over-reliance on tools, diminishing the model's ability to solve simple problems through basic reasoning. In contrast, human experts first assess problem complexity using domain knowledge before choosing an appropriate solution approach. Inspired by this human problem-solving process, we propose a novel two-component fine-tuning method. In the first component World Knowledge Distillation (WKD), LLMs learn directly from solutions generated using tool's information to internalize domain knowledge. In the second component Tool Usage Adaptation (TUA), we partition problems into easy and hard categories based on the model's direct answering accuracy. While maintaining the same alignment target for easy problems as in WKD, we train the model to intelligently switch to tool usage for more challenging problems. We validate our method on six scientific benchmark datasets, spanning mathematics, climate science and epidemiology. On average, our models demonstrate a 28.18% improvement in answer accuracy and a 13.89% increase in tool usage precision across all datasets, surpassing state-of-the-art models including GPT-4o and Claude-3.5.",
+    "upvotes": 10,
+    "github": "https://github.com/Rose-STL-Lab/Adapting-While-Learning",
+    "published": "2024-11-01T07:18:31.000Z"
+  }
+]
