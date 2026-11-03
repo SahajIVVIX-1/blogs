@@ -179,7 +179,7 @@ The following script verifies the mathematical equivalence between:
 3. SVD Pseudoinverse
 4. Scikit-Learn `LinearRegression`
 
-```python run
+```python
 import numpy as np
 from sklearn.datasets import load_diabetes
 from sklearn.linear_model import LinearRegression

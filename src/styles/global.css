@@ -242,20 +242,22 @@ img {
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(248, 250, 252, 0.85);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
+  background: rgba(248, 250, 252, 0.98);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   border-bottom: 1px solid var(--line);
   transition: border-color 0.2s ease, background-color 0.2s ease;
 }
 
-:root[data-theme='dark'] .site-head {
-  background: rgba(9, 13, 22, 0.85);
+:root[data-theme='dark'] .site-head,
+html[data-theme='dark'] .site-head {
+  background: rgba(9, 13, 22, 0.98);
 }
 
 @media (prefers-color-scheme: dark) {
-  :root:not([data-theme='light']) .site-head {
-    background: rgba(9, 13, 22, 0.85);
+  :root:not([data-theme='light']) .site-head,
+  html:not([data-theme='light']) .site-head {
+    background: rgba(9, 13, 22, 0.98);
   }
 }
 
@@ -862,7 +864,7 @@ img {
 .prose pre {
   padding: 1.2rem 1.4rem;
   border-radius: var(--radius-md);
-  overflow-x: auto;
+  overflow-x: auto !important;
   -webkit-overflow-scrolling: touch;
   max-width: 100%;
   box-sizing: border-box;
@@ -872,6 +874,10 @@ img {
   background: var(--code-bg) !important;
   color: var(--ink) !important;
   margin: 1.5rem 0;
+  white-space: pre !important;
+  word-wrap: normal !important;
+  word-break: normal !important;
+  scrollbar-width: thin;
 }
 
 .prose pre code {
@@ -879,11 +885,24 @@ img {
   background: transparent !important;
   font-family: var(--mono);
   font-size: 0.88em;
+  white-space: inherit !important;
+}
+
+/* Ensure code blocks don't word-wrap and mangle ASCII diagrams */
+.astro-code {
+  white-space: pre !important;
+  word-wrap: normal !important;
+  word-break: normal !important;
+  background-color: var(--code-bg) !important;
 }
 
 /* Shiki Dual-Theme Token Invariants & Dark Mode Contrast */
 html[data-theme='dark'] .astro-code,
-html[data-theme='dark'] .astro-code code,
+html[data-theme='dark'] .astro-code code {
+  color: #e1e4e8 !important;
+  background-color: var(--code-bg) !important;
+}
+
 html[data-theme='dark'] .astro-code span {
   color: var(--shiki-dark, #e1e4e8) !important;
   background-color: transparent !important;
@@ -894,7 +913,10 @@ html[data-theme='dark'] .astro-code span {
 
 @media (prefers-color-scheme: dark) {
   html:not([data-theme='light']) .astro-code,
-  html:not([data-theme='light']) .astro-code code,
+  html:not([data-theme='light']) .astro-code code {
+    color: #e1e4e8 !important;
+    background-color: var(--code-bg) !important;
+  }
   html:not([data-theme='light']) .astro-code span {
     color: var(--shiki-dark, #e1e4e8) !important;
     background-color: transparent !important;
@@ -1398,6 +1420,9 @@ html, body {
     font-size: 0.8rem;
     margin: 1.2rem 0;
     border-radius: var(--radius-sm);
+    white-space: pre !important;
+    word-wrap: normal !important;
+    overflow-x: auto !important;
   }
 
   .prose .katex-display {
