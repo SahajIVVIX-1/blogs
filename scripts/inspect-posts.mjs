@@ -39,3 +39,4 @@ for (const f of files) {
 
 console.log('Categories:', cats);
 console.log('Study prefixes in filename:', studyPhases);
+

@@ -30,11 +30,17 @@ export default defineConfig({
   site: SITE,
   base: BASE,
   trailingSlash: 'always',
-  integrations: [mdx(), sitemap()],
+  integrations: [
+    mdx(),
+    sitemap(),
+  ],
   markdown: {
-    processor: unified({ remarkPlugins: [remarkMath], rehypePlugins: [rehypeKatex, rehypeImages] }),
+    processor: unified({
+      remarkPlugins: [remarkMath],
+      rehypePlugins: [rehypeKatex, rehypeImages],
+    }),
     shikiConfig: {
-      themes: { light: 'github-light', dark: 'github-dark-dimmed' },
+      themes: { light: 'github-light', dark: 'github-dark' },
       wrap: true,
     },
   },

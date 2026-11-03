@@ -72,3 +72,4 @@ The authors propose **LOWN** (*Look Only When Needed*), an adaptive decoding mec
 ## Limitations
 
 The certificate check requires storing the previous step's hidden logits in GPU memory, introducing a modest memory overhead. In domains demanding extreme spatial precision (e.g. fine-grained visual coordinate grounding), agreement rates drop, reducing FLOP savings.
+

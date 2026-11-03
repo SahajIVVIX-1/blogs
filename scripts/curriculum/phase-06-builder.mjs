@@ -220,3 +220,4 @@ for (let i = 0; i < phase.topics.length; i++) {
 }
 
 console.log(`Successfully generated all ${generatedCount} deep-dive posts for Phase 6!`);
+

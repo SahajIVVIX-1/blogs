@@ -92,3 +92,4 @@ export function getStatsTopicDetails(topicIndex, topicTitle) {
 
   return { subfield, paper, tags };
 }
+

@@ -69,3 +69,4 @@ ${spec.sources.map(s => `- [${s.title}](${s.url}) — *${s.publisher}*`).join('\
     body
   };
 }
+

@@ -74,3 +74,4 @@ Lin et al. present **FrameForge**, modeling conditional image generation through
 ## Limitations
 
 Introducing the intermediate latent reasoning token increases peak GPU VRAM allocation during the diffusion reverse process by approximately 18% compared to standard single-frame diffusion passes.
+

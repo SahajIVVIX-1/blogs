@@ -31,3 +31,4 @@ const spec1 = {
 const post = renderPostMarkdown(spec1, dates[0], 6, phaseData.name);
 const words = post.body.trim().split(/\s+/).length;
 console.log(`Word count for step 1 test post: ${words} words`);
+

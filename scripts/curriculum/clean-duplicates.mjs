@@ -44,3 +44,4 @@ for (const [key, list] of Object.entries(duplicates)) {
 }
 
 console.log(`Successfully removed ${removedCount} legacy stubs.`);
+
