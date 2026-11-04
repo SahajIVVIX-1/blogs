@@ -8,11 +8,10 @@ export default function ReadingProgressBar() {
   useEffect(() => {
     const updateScrollProgress = () => {
       const currentProgress = window.scrollY;
-      const scrollHeight = document.body.scrollHeight - window.innerHeight;
-      if (scrollHeight) {
-        setCompletion(
-          Number((currentProgress / scrollHeight).toFixed(3)) * 100
-        );
+      const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
+      if (scrollHeight > 0) {
+        const pct = Math.min(100, Math.max(0, (currentProgress / scrollHeight) * 100));
+        setCompletion(pct);
       }
     };
 

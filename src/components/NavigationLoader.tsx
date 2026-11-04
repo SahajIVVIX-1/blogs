@@ -53,6 +53,15 @@ export default function NavigationLoader() {
         if (activeRef.current) setProgress(92);
       }, 900)
     );
+
+    // Hard safety timeout: auto-finish within 3.5s so loader NEVER gets stuck
+    timerRef.current.push(
+      setTimeout(() => {
+        if (activeRef.current) {
+          finishLoading();
+        }
+      }, 3500)
+    );
   };
 
   const finishLoading = () => {
@@ -82,7 +91,7 @@ export default function NavigationLoader() {
       finishLoading();
       // Scroll to top smoothly on page transition
       try {
-        window.scrollTo({ top: 0, behavior: 'instant' });
+        window.scrollTo(0, 0);
       } catch {}
     }
   }, [pathname]);
@@ -92,6 +101,7 @@ export default function NavigationLoader() {
     const handleDocumentClick = (e: MouseEvent) => {
       // Ignore right clicks or meta/ctrl/shift clicks
       if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+      if (e.defaultPrevented) return;
 
       const target = (e.target as HTMLElement)?.closest('a');
       if (!target || !target.href) return;
@@ -104,8 +114,8 @@ export default function NavigationLoader() {
         // Only internal links
         if (url.origin !== window.location.origin) return;
 
-        // Ignore hash jumps on the same page
-        if (url.pathname === window.location.pathname && url.search === window.location.search) {
+        // Ignore hash jumps or identical pathname
+        if (url.pathname === window.location.pathname) {
           return;
         }
 
@@ -159,33 +169,30 @@ export default function NavigationLoader() {
           style={{
             width: `${progress}%`,
             opacity: visible ? 1 : 0,
-            boxShadow: '0 0 10px rgba(16, 185, 129, 0.7), 0 0 5px rgba(20, 184, 166, 0.5)',
+            boxShadow: progress > 0 ? '0 0 12px rgba(16, 185, 129, 0.8), 0 0 4px rgba(245, 158, 11, 0.6)' : 'none',
           }}
         >
-          {/* Luminous Glow Spark at leading tip */}
-          <div
-            className="absolute top-0 right-0 bottom-0 w-24 translate-x-3 pointer-events-none"
-            style={{
-              boxShadow: '0 0 14px 3px rgba(16, 185, 129, 0.95), 0 0 8px 1px rgba(245, 158, 11, 0.8)',
-            }}
-          />
+          {/* Subtle pulse glow on the tip of the progress bar */}
+          {visible && progress < 100 && (
+            <div className="absolute right-0 top-0 bottom-0 w-24 bg-gradient-to-r from-transparent to-white/90 animate-pulse shadow-[0_0_8px_#10b981]" />
+          )}
         </div>
       </div>
 
-      {/* Medium-style Subtle Floating Transition Screen Indicator */}
+      {/* Medium-style floating status indicator pill */}
       {showPill && (
         <div
-          className="fixed top-5 left-1/2 -translate-x-1/2 z-[99990] pointer-events-none flex items-center gap-2.5 rounded-full border border-emerald-500/40 bg-surface/95 px-4 py-1.5 shadow-2xl shadow-emerald-500/20 backdrop-blur-md animate-in fade-in zoom-in-95 duration-150"
+          className="fixed bottom-6 right-6 z-[99998] pointer-events-none flex items-center gap-2.5 rounded-full border border-border/80 bg-surface/90 px-4 py-2 shadow-2xl backdrop-blur-md animate-in fade-in slide-in-from-bottom-2 duration-150"
+          role="status"
           aria-live="polite"
         >
           <span className="relative flex h-2 w-2">
-            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-80"></span>
+            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75"></span>
             <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-500"></span>
           </span>
-          <span className="font-mono text-xs font-semibold text-ink tracking-tight">
+          <span className="font-mono text-xs font-medium text-ink">
             {pillText}
           </span>
-          <span className="text-[10px] text-emerald-400 font-mono">···</span>
         </div>
       )}
     </>
