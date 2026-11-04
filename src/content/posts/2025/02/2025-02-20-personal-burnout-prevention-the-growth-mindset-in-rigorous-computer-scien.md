@@ -1,6 +1,7 @@
 ---
 title: "The Growth Mindset in Rigorous Computer Science: Moving from Fixed to Plastic: Lessons from Systems Architecture"
 date: "2025-02-20"
+draft: true
 categories:
   - personal
 tags:

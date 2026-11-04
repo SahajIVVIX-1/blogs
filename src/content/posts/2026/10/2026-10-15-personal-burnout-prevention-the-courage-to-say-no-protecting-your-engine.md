@@ -1,6 +1,7 @@
 ---
 title: "The Courage to Say No: Protecting Your Engineering Core from Scope Creep: A Letter to My Future Self"
 date: "2026-10-15"
+draft: true
 categories:
   - personal
 tags:

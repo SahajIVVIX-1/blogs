@@ -1,6 +1,7 @@
 ---
 title: "Probabilistic Thinking: Bayesian Updating in Ambiguous Debugging Scenarios: Part IV: The Structural Mechanism"
 date: "2024-06-07"
+draft: true
 categories:
   - personal
 tags:

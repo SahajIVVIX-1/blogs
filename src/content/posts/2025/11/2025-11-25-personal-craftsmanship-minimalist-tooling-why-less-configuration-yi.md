@@ -1,6 +1,7 @@
 ---
 title: "Minimalist Tooling: Why Less Configuration Yields Superior Engineering Velocity: The Art of Ruthless Execution"
 date: "2025-11-25"
+draft: true
 categories:
   - personal
 tags:

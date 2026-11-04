@@ -1,6 +1,7 @@
 ---
 title: "Deep Reading in the Skimming Era: How to Absorb 500 Pages of Dense Theory: The First-Principles Analysis"
 date: "2025-04-07"
+draft: true
 categories:
   - personal
 tags:

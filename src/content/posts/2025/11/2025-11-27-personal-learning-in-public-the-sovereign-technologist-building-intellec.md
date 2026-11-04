@@ -1,6 +1,7 @@
 ---
 title: "The Sovereign Technologist: Building Intellectual Independence from Big Tech Platforms: The Art of Ruthless Execution"
 date: "2025-11-27"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Managing High-Velocity Stress: Cortisol Regulation for Engineers on On-Call Duty: The Art of Ruthless Execution"
 date: "2026-01-04"
+draft: true
 categories:
   - personal
 tags:

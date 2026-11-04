@@ -1,6 +1,7 @@
 ---
 title: "Cognitive Cache Invalidation: Clearing Working Memory Before Hard Architectural Pivots: Part IV: The Structural Mechanism"
 date: "2024-06-10"
+draft: true
 categories:
   - personal
 tags:

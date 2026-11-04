@@ -1,6 +1,7 @@
 ---
 title: "Amor Fati in Debugging: Loving the Heisenbug That Forced Real Learning: A Framework for Deep Mastery"
 date: "2026-07-11"
+draft: true
 categories:
   - personal
 tags:

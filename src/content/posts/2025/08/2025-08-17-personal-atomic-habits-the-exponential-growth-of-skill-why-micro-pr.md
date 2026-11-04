@@ -1,6 +1,7 @@
 ---
 title: "The Exponential Growth of Skill: Why Micro-Progress Trumps Heroic Sprints: Overcoming the Resistance"
 date: "2025-08-17"
+draft: true
 categories:
   - personal
 tags:

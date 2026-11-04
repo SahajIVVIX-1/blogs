@@ -1,6 +1,7 @@
 ---
 title: "Architectural Integrity: Resisting the Allure of Trendy Over-Engineering: The Subconscious Incubation Effect"
 date: "2026-03-15"
+draft: true
 categories:
   - personal
 tags:

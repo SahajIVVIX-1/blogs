@@ -1,6 +1,7 @@
 ---
 title: "Cultivating Psychological Safety Within Yourself: Forgiving Early Technical Mistakes: A Practical Field Guide"
 date: "2024-08-08"
+draft: true
 categories:
   - personal
 tags:

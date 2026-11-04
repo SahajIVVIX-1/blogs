@@ -1,6 +1,7 @@
 ---
 title: "Memento Mori for Founders & Engineers: Keeping Stress in Cosmic Perspective: Part IV: The Structural Mechanism"
 date: "2024-05-04"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Zero-Defect Mentality: Cultivating Precision Without Becoming Paralyzed: Part I: The Psychological Foundation"
 date: "2023-09-14"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Environmental Anchors: Designing a Workspace Immune to Cognitive Drift: A Framework for Deep Mastery"
 date: "2026-07-26"
+draft: true
 categories:
   - personal
 tags:

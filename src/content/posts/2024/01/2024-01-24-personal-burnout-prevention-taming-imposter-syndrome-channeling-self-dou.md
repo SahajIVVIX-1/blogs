@@ -1,6 +1,7 @@
 ---
 title: "Taming Imposter Syndrome: Channeling Self-Doubt into Rigorous Code Verification: Part III: The Mental Model Shift"
 date: "2024-01-24"
+draft: true
 categories:
   - personal
 tags:

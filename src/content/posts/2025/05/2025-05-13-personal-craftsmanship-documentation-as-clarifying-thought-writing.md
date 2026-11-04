@@ -1,6 +1,7 @@
 ---
 title: "Documentation as Clarifying Thought: Writing Before Implementation: The First-Principles Analysis"
 date: "2025-05-13"
+draft: true
 categories:
   - personal
 tags:

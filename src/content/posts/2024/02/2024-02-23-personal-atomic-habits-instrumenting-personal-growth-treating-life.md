@@ -1,6 +1,7 @@
 ---
 title: "Instrumenting Personal Growth: Treating Life Habits as a Observability Pipeline: Part III: The Mental Model Shift"
 date: "2024-02-23"
+draft: true
 categories:
   - personal
 tags:

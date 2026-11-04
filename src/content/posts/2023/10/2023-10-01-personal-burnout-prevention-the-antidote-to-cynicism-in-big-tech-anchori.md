@@ -1,6 +1,7 @@
 ---
 title: "The Antidote to Cynicism in Big Tech: Anchoring to Fundamental Curiosity: Part I: The Psychological Foundation"
 date: "2023-10-01"
+draft: true
 categories:
   - personal
 tags:

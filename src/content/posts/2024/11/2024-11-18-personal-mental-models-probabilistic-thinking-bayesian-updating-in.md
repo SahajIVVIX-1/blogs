@@ -1,6 +1,7 @@
 ---
 title: "Probabilistic Thinking: Bayesian Updating in Ambiguous Debugging Scenarios: Deconstructing the Cognitive Friction"
 date: "2024-11-18"
+draft: true
 categories:
   - personal
 tags:

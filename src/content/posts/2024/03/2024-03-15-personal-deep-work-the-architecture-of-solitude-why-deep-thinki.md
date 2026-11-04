@@ -1,6 +1,7 @@
 ---
 title: "The Architecture of Solitude: Why Deep Thinking Requires Absolute Silence: Part III: The Mental Model Shift"
 date: "2024-03-15"
+draft: true
 categories:
   - personal
 tags:

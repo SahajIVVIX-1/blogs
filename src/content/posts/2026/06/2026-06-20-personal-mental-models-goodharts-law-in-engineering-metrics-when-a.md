@@ -1,6 +1,7 @@
 ---
 title: "Goodhart's Law in Engineering Metrics: When a Measure Becomes the Target: Why Most Engineers Fail Here"
 date: "2026-06-20"
+draft: true
 categories:
   - personal
 tags:

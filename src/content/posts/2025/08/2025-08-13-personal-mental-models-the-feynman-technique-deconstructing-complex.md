@@ -1,6 +1,7 @@
 ---
 title: "The Feynman Technique: Deconstructing Complex Algorithms to First Principles: Overcoming the Resistance"
 date: "2025-08-13"
+draft: true
 categories:
   - personal
 tags:

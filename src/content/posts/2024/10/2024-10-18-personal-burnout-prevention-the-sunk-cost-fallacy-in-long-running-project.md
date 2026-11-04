@@ -1,6 +1,7 @@
 ---
 title: "The Sunk Cost Fallacy in Long-Running Projects: Knowing When to Pull the Plug: Deconstructing the Cognitive Friction"
 date: "2024-10-18"
+draft: true
 categories:
   - personal
 tags:

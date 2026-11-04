@@ -1,6 +1,7 @@
 ---
 title: "Inversion Thinking: Charlie Munger's Blueprint for Avoiding Catastrophic Architecture: The Stoic Lens"
 date: "2025-05-28"
+draft: true
 categories:
   - personal
 tags:

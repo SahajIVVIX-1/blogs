@@ -1,6 +1,7 @@
 ---
 title: "Epictetus on Perceptions: Outages are Neutral, Only Panicked Reactions Destroy: The Art of Ruthless Execution"
 date: "2025-11-23"
+draft: true
 categories:
   - personal
 tags:

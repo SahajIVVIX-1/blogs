@@ -1,6 +1,7 @@
 ---
 title: "Learning in Public: Why Open Technical Notes Create Unstoppable Serendipity: Why Most Engineers Fail Here"
 date: "2026-04-24"
+draft: true
 categories:
   - personal
 tags:

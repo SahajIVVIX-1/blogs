@@ -1,6 +1,7 @@
 ---
 title: "Habit Loops in High-Intensity Tech: Cue, Routine, Reward, and Craving: Part III: The Mental Model Shift"
 date: "2024-03-22"
+draft: true
 categories:
   - personal
 tags:

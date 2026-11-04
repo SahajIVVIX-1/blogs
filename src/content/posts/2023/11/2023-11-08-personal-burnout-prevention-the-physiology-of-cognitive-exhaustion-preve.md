@@ -1,6 +1,7 @@
 ---
 title: "The Physiology of Cognitive Exhaustion: Preventing Prefrontal Cortex Drain: Part II: The Daily Protocol"
 date: "2023-11-08"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Instrumenting Personal Growth: Treating Life Habits as a Observability Pipeline: Lessons from Systems Architecture"
 date: "2025-01-16"
+draft: true
 categories:
   - personal
 tags:

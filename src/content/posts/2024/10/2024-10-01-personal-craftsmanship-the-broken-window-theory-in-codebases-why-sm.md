@@ -1,6 +1,7 @@
 ---
 title: "The Broken Window Theory in Codebases: Why Small Warnings Snowball into Decay: Deconstructing the Cognitive Friction"
 date: "2024-10-01"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Goodhart's Law in Engineering Metrics: When a Measure Becomes the Target: Part III: The Mental Model Shift"
 date: "2024-03-22"
+draft: true
 categories:
   - personal
 tags:

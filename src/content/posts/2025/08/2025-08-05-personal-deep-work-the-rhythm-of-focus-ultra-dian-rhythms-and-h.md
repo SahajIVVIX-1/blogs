@@ -1,6 +1,7 @@
 ---
 title: "The Rhythm of Focus: Ultra-Dian Rhythms and High-Performance Coding Sprints: The Stoic Lens"
 date: "2025-08-05"
+draft: true
 categories:
   - personal
 tags:

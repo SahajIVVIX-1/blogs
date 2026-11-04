@@ -1,6 +1,7 @@
 ---
 title: "The 20-Second Friction Rule: Structuring Your Environment for Immediate Action: Part II: The Daily Protocol"
 date: "2023-11-17"
+draft: true
 categories:
   - personal
 tags:

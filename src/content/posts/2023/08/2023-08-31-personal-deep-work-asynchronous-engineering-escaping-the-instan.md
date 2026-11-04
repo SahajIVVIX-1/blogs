@@ -1,6 +1,7 @@
 ---
 title: "Asynchronous Engineering: Escaping the Instant Gratification Communication Trap: Part I: The Psychological Foundation"
 date: "2023-08-31"
+draft: true
 categories:
   - personal
 tags:

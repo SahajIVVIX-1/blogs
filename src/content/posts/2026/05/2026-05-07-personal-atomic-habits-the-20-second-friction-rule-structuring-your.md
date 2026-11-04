@@ -1,6 +1,7 @@
 ---
 title: "The 20-Second Friction Rule: Structuring Your Environment for Immediate Action: Why Most Engineers Fail Here"
 date: "2026-05-07"
+draft: true
 categories:
   - personal
 tags:

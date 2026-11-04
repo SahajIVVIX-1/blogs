@@ -1,6 +1,7 @@
 ---
 title: "The Antifragile Engineer: Becoming Stronger Through Unexpected Cluster Failures: The Subconscious Incubation Effect"
 date: "2026-02-22"
+draft: true
 categories:
   - personal
 tags:

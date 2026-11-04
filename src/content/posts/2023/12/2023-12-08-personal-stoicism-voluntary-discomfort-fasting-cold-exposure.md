@@ -1,6 +1,7 @@
 ---
 title: "Voluntary Discomfort: Fasting, Cold Exposure, and Engineering Mental Toughness: Part II: The Daily Protocol"
 date: "2023-12-08"
+draft: true
 categories:
   - personal
 tags:

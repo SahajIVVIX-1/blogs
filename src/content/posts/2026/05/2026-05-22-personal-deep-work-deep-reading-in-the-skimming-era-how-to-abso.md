@@ -1,6 +1,7 @@
 ---
 title: "Deep Reading in the Skimming Era: How to Absorb 500 Pages of Dense Theory: Why Most Engineers Fail Here"
 date: "2026-05-22"
+draft: true
 categories:
   - personal
 tags:

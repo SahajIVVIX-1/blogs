@@ -1,6 +1,7 @@
 ---
 title: "Readability Over Cleverness: The Elegance of Code That Any Junior Can Audit: Deconstructing the Cognitive Friction"
 date: "2024-10-17"
+draft: true
 categories:
   - personal
 tags:

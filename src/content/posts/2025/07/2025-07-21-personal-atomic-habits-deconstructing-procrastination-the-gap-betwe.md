@@ -1,6 +1,7 @@
 ---
 title: "Deconstructing Procrastination: The Gap Between Intention and Micro-Action: The Stoic Lens"
 date: "2025-07-21"
+draft: true
 categories:
   - personal
 tags:

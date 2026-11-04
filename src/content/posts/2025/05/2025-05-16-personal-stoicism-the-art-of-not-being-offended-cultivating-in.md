@@ -1,6 +1,7 @@
 ---
 title: "The Art of Not Being Offended: Cultivating Intellectual Detachment: The First-Principles Analysis"
 date: "2025-05-16"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Cognitive Load Management: Preventing Brain Overflow in Dense Systems: The Subconscious Incubation Effect"
 date: "2026-02-27"
+draft: true
 categories:
   - personal
 tags:

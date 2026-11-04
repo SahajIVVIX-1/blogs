@@ -1,6 +1,7 @@
 ---
 title: "Deconstructing Procrastination: The Gap Between Intention and Micro-Action: Why Most Engineers Fail Here"
 date: "2026-06-14"
+draft: true
 categories:
   - personal
 tags:

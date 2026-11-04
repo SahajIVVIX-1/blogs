@@ -1,6 +1,7 @@
 ---
 title: "Playing Long-Term Games with Long-Term People: The Ultimate Career Heuristic: Overcoming the Resistance"
 date: "2025-08-26"
+draft: true
 categories:
   - personal
 tags:

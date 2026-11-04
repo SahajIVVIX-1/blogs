@@ -1,6 +1,7 @@
 ---
 title: "The Growth Mindset in Rigorous Computer Science: Moving from Fixed to Plastic: Part II: The Daily Protocol"
 date: "2024-01-07"
+draft: true
 categories:
   - personal
 tags:

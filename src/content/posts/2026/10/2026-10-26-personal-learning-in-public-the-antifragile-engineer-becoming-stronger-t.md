@@ -1,6 +1,7 @@
 ---
 title: "The Antifragile Engineer: Becoming Stronger Through Unexpected Cluster Failures: A Letter to My Future Self"
 date: "2026-10-26"
+draft: true
 categories:
   - personal
 tags:

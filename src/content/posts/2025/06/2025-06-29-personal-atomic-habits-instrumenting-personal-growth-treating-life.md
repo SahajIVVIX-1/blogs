@@ -1,6 +1,7 @@
 ---
 title: "Instrumenting Personal Growth: Treating Life Habits as a Observability Pipeline: The Stoic Lens"
 date: "2025-06-29"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Wealth of Free Time: Valuing Autonomous Schedule Control Above Raw Status: Lessons from Systems Architecture"
 date: "2025-02-27"
+draft: true
 categories:
   - personal
 tags:

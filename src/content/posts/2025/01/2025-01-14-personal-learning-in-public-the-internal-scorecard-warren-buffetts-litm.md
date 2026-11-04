@@ -1,6 +1,7 @@
 ---
 title: "The Internal Scorecard: Warren Buffett's Litmus Test for Authentic Integrity: Lessons from Systems Architecture"
 date: "2025-01-14"
+draft: true
 categories:
   - personal
 tags:

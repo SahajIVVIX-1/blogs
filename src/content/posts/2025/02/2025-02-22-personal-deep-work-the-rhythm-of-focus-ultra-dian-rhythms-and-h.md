@@ -1,6 +1,7 @@
 ---
 title: "The Rhythm of Focus: Ultra-Dian Rhythms and High-Performance Coding Sprints: Lessons from Systems Architecture"
 date: "2025-02-22"
+draft: true
 categories:
   - personal
 tags:

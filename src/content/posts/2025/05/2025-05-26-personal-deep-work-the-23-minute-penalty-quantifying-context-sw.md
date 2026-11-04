@@ -1,6 +1,7 @@
 ---
 title: "The 23-Minute Penalty: Quantifying Context-Switching in Complex Systems: The Stoic Lens"
 date: "2025-05-26"
+draft: true
 categories:
   - personal
 tags:

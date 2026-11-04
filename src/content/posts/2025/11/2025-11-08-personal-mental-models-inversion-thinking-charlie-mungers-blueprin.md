@@ -1,6 +1,7 @@
 ---
 title: "Inversion Thinking: Charlie Munger's Blueprint for Avoiding Catastrophic Architecture: The Art of Ruthless Execution"
 date: "2025-11-08"
+draft: true
 categories:
   - personal
 tags:

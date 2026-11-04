@@ -1,6 +1,7 @@
 ---
 title: "The Architecture of Solitude: Why Deep Thinking Requires Absolute Silence: Part II: The Daily Protocol"
 date: "2023-12-24"
+draft: true
 categories:
   - personal
 tags:

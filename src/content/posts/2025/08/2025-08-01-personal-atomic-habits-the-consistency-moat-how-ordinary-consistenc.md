@@ -1,6 +1,7 @@
 ---
 title: "The Consistency Moat: How Ordinary Consistency Beats Occasional Genius: The Stoic Lens"
 date: "2025-08-01"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The 10-Year Horizon: Escaping Quarterly Thinking and Investing in Fundamentals: Lessons from Systems Architecture"
 date: "2024-12-12"
+draft: true
 categories:
   - personal
 tags:

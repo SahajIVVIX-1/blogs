@@ -1,6 +1,7 @@
 ---
 title: "Mastery of the Command Line: Treating Shell Scripting as an Artisan's Chisel: Deconstructing the Cognitive Friction"
 date: "2024-12-05"
+draft: true
 categories:
   - personal
 tags:

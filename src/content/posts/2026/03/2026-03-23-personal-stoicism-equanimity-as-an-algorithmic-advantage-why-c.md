@@ -1,6 +1,7 @@
 ---
 title: "Equanimity as an Algorithmic Advantage: Why Calm Engineers Solve Faster: The Subconscious Incubation Effect"
 date: "2026-03-23"
+draft: true
 categories:
   - personal
 tags:

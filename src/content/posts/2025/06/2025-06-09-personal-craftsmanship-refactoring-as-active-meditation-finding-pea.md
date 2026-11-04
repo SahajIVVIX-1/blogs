@@ -1,6 +1,7 @@
 ---
 title: "Refactoring as Active Meditation: Finding Peace in Cleaning Structural Debt: The Stoic Lens"
 date: "2025-06-09"
+draft: true
 categories:
   - personal
 tags:

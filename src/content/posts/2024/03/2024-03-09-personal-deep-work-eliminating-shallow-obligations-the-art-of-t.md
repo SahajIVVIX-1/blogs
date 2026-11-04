@@ -1,6 +1,7 @@
 ---
 title: "Eliminating Shallow Obligations: The Art of Technical Refusal: Part III: The Mental Model Shift"
 date: "2024-03-09"
+draft: true
 categories:
   - personal
 tags:

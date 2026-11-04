@@ -1,6 +1,7 @@
 ---
 title: "Building Mental Calluses: Overcoming Resistance to Difficult Theoretical Proofs: Part I: The Psychological Foundation"
 date: "2023-09-20"
+draft: true
 categories:
   - personal
 tags:

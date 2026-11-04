@@ -1,6 +1,7 @@
 ---
 title: "The Rhythm of Focus: Ultra-Dian Rhythms and High-Performance Coding Sprints: Part III: The Mental Model Shift"
 date: "2024-03-31"
+draft: true
 categories:
   - personal
 tags:

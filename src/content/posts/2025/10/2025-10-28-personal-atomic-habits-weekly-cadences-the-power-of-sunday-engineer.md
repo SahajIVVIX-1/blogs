@@ -1,6 +1,7 @@
 ---
 title: "Weekly Cadences: The Power of Sunday Engineering Audits & Retrospectives: Overcoming the Resistance"
 date: "2025-10-28"
+draft: true
 categories:
   - personal
 tags:

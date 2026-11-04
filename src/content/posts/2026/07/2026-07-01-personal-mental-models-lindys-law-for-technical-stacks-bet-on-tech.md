@@ -1,6 +1,7 @@
 ---
 title: "Lindy's Law for Technical Stacks: Bet on Technologies That Have Stood for Decades: Why Most Engineers Fail Here"
 date: "2026-07-01"
+draft: true
 categories:
   - personal
 tags:

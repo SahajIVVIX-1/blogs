@@ -1,6 +1,7 @@
 ---
 title: "Atomic Habits for Software Engineers: The Power of 1% Daily Improvements: The Stoic Lens"
 date: "2025-05-22"
+draft: true
 categories:
   - personal
 tags:

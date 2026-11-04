@@ -1,6 +1,7 @@
 ---
 title: "Playing Long-Term Games with Long-Term People: The Ultimate Career Heuristic: Lessons from Systems Architecture"
 date: "2024-12-23"
+draft: true
 categories:
   - personal
 tags:

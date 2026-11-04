@@ -1,6 +1,7 @@
 ---
 title: "Asynchronous Engineering: Escaping the Instant Gratification Communication Trap: A Practical Field Guide"
 date: "2024-07-24"
+draft: true
 categories:
   - personal
 tags:

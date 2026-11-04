@@ -1,6 +1,7 @@
 ---
 title: "The Solitary Walker: Why Daily 30-Minute Walks Unlock Stuck Algorithms: Lessons from Systems Architecture"
 date: "2025-02-15"
+draft: true
 categories:
   - personal
 tags:

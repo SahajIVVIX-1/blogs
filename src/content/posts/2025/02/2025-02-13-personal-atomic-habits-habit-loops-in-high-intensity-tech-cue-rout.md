@@ -1,6 +1,7 @@
 ---
 title: "Habit Loops in High-Intensity Tech: Cue, Routine, Reward, and Craving: Lessons from Systems Architecture"
 date: "2025-02-13"
+draft: true
 categories:
   - personal
 tags:

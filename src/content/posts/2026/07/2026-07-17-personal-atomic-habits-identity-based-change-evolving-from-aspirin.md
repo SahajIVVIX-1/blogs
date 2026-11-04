@@ -1,6 +1,7 @@
 ---
 title: "Identity-Based Change: Evolving from 'Aspiring Coder' to 'Disciplined Builder': A Framework for Deep Mastery"
 date: "2026-07-17"
+draft: true
 categories:
   - personal
 tags:

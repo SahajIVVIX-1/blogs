@@ -1,6 +1,7 @@
 ---
 title: "The Stoic View of Criticism: Decoding Hostile Code Reviews into Pure Data: Lessons from Systems Architecture"
 date: "2025-02-12"
+draft: true
 categories:
   - personal
 tags:

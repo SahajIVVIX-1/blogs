@@ -1,6 +1,7 @@
 ---
 title: "The Wealth of Free Time: Valuing Autonomous Schedule Control Above Raw Status: The Subconscious Incubation Effect"
 date: "2026-04-13"
+draft: true
 categories:
   - personal
 tags:

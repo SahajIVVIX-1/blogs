@@ -1,6 +1,7 @@
 ---
 title: "Environmental Anchors: Designing a Workspace Immune to Cognitive Drift: Part IV: The Structural Mechanism"
 date: "2024-04-27"
+draft: true
 categories:
   - personal
 tags:

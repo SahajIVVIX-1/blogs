@@ -1,6 +1,7 @@
 ---
 title: "Writing as an Engine of Clarity: Why You Don't Understand What You Cannot Articulate: Deconstructing the Cognitive Friction"
 date: "2024-11-04"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Consistency Moat: How Ordinary Consistency Beats Occasional Genius: Part III: The Mental Model Shift"
 date: "2024-03-27"
+draft: true
 categories:
   - personal
 tags:

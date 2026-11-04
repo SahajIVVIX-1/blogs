@@ -1,6 +1,7 @@
 ---
 title: "The Sunk Cost Fallacy in Long-Running Projects: Knowing When to Pull the Plug: Part IV: The Structural Mechanism"
 date: "2024-05-07"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Technical Debt as Financial Leverage: When to Borrow and When to Repay: The Art of Ruthless Execution"
 date: "2025-12-28"
+draft: true
 categories:
   - personal
 tags:

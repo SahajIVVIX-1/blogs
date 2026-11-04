@@ -1,6 +1,7 @@
 ---
 title: "The Zen of Software Craftsmanship: Clean Interfaces as Moral Duty: A Practical Field Guide"
 date: "2024-06-30"
+draft: true
 categories:
   - personal
 tags:

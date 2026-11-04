@@ -1,6 +1,7 @@
 ---
 title: "Deep Reading in the Skimming Era: How to Absorb 500 Pages of Dense Theory: Overcoming the Resistance"
 date: "2025-09-18"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Dealing with Technical Rejection: Viewing Failed RFCs as Data Extraction: The Stoic Lens"
 date: "2025-06-15"
+draft: true
 categories:
   - personal
 tags:

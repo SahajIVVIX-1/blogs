@@ -1,6 +1,7 @@
 ---
 title: "Grit in Mathematics: Embracing the Confusion Phase as the Necessary Fore-runner of Insight: Lessons from Systems Architecture"
 date: "2025-02-26"
+draft: true
 categories:
   - personal
 tags:

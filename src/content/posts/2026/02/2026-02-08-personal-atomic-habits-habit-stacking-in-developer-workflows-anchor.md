@@ -1,6 +1,7 @@
 ---
 title: "Habit Stacking in Developer Workflows: Anchoring Tests to Daily Triggers: The Subconscious Incubation Effect"
 date: "2026-02-08"
+draft: true
 categories:
   - personal
 tags:

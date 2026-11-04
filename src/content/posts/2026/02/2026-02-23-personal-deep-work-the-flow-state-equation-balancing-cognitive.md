@@ -1,6 +1,7 @@
 ---
 title: "The Flow State Equation: Balancing Cognitive Load Against Skill Thresholds: The Subconscious Incubation Effect"
 date: "2026-02-23"
+draft: true
 categories:
   - personal
 tags:

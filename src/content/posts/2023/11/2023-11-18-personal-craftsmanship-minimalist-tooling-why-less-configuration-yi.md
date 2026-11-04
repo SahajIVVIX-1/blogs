@@ -1,6 +1,7 @@
 ---
 title: "Minimalist Tooling: Why Less Configuration Yields Superior Engineering Velocity: Part II: The Daily Protocol"
 date: "2023-11-18"
+draft: true
 categories:
   - personal
 tags:

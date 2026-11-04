@@ -1,6 +1,7 @@
 ---
 title: "Bimodal Deep Work: Scheduling Deep Research Sprints in High-Noise Environments: Lessons from Systems Architecture"
 date: "2025-01-26"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "First-Principles Problem Decomposition: Boiling Software Requirements to Bedrock Truths: The Stoic Lens"
 date: "2025-07-16"
+draft: true
 categories:
   - personal
 tags:

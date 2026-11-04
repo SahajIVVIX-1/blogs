@@ -1,6 +1,7 @@
 ---
 title: "The Physiology of Cognitive Exhaustion: Preventing Prefrontal Cortex Drain: Why Most Engineers Fail Here"
 date: "2026-04-28"
+draft: true
 categories:
   - personal
 tags:

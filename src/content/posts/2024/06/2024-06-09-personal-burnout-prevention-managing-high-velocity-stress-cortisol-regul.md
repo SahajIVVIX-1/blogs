@@ -1,6 +1,7 @@
 ---
 title: "Managing High-Velocity Stress: Cortisol Regulation for Engineers on On-Call Duty: Part IV: The Structural Mechanism"
 date: "2024-06-09"
+draft: true
 categories:
   - personal
 tags:

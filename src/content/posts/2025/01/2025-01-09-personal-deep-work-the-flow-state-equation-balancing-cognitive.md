@@ -1,6 +1,7 @@
 ---
 title: "The Flow State Equation: Balancing Cognitive Load Against Skill Thresholds: Lessons from Systems Architecture"
 date: "2025-01-09"
+draft: true
 categories:
   - personal
 tags:

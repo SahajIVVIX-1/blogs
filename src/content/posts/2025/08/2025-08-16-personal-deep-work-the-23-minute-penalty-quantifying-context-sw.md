@@ -1,6 +1,7 @@
 ---
 title: "The 23-Minute Penalty: Quantifying Context-Switching in Complex Systems: Overcoming the Resistance"
 date: "2025-08-16"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Memento Mori for Founders & Engineers: Keeping Stress in Cosmic Perspective: The Stoic Lens"
 date: "2025-06-18"
+draft: true
 categories:
   - personal
 tags:

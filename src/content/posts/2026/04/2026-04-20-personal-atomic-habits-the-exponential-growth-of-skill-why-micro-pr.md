@@ -1,6 +1,7 @@
 ---
 title: "The Exponential Growth of Skill: Why Micro-Progress Trumps Heroic Sprints: Why Most Engineers Fail Here"
 date: "2026-04-20"
+draft: true
 categories:
   - personal
 tags:

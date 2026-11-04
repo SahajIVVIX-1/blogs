@@ -1,6 +1,7 @@
 ---
 title: "Deconstructing Procrastination: The Gap Between Intention and Micro-Action: A Framework for Deep Mastery"
 date: "2026-09-04"
+draft: true
 categories:
   - personal
 tags:

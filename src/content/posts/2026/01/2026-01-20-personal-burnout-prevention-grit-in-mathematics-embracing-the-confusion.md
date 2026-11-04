@@ -1,6 +1,7 @@
 ---
 title: "Grit in Mathematics: Embracing the Confusion Phase as the Necessary Fore-runner of Insight: The Art of Ruthless Execution"
 date: "2026-01-20"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The 10-Year Horizon: Escaping Quarterly Thinking and Investing in Fundamentals: Why Most Engineers Fail Here"
 date: "2026-04-18"
+draft: true
 categories:
   - personal
 tags:

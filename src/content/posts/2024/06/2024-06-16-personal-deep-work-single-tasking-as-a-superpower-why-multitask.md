@@ -1,6 +1,7 @@
 ---
 title: "Single-Tasking as a Superpower: Why Multitasking is an Engineering Fallacy: Part IV: The Structural Mechanism"
 date: "2024-06-16"
+draft: true
 categories:
   - personal
 tags:

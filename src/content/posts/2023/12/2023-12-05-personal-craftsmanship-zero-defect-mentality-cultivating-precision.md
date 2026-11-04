@@ -1,6 +1,7 @@
 ---
 title: "Zero-Defect Mentality: Cultivating Precision Without Becoming Paralyzed: Part II: The Daily Protocol"
 date: "2023-12-05"
+draft: true
 categories:
   - personal
 tags:

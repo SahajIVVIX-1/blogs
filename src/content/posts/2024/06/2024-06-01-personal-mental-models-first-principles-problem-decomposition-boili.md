@@ -1,6 +1,7 @@
 ---
 title: "First-Principles Problem Decomposition: Boiling Software Requirements to Bedrock Truths: Part IV: The Structural Mechanism"
 date: "2024-06-01"
+draft: true
 categories:
   - personal
 tags:

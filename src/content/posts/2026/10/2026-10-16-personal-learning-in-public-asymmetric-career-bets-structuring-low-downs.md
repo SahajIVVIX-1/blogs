@@ -1,6 +1,7 @@
 ---
 title: "Asymmetric Career Bets: Structuring Low Downside with Infinite Upside: A Letter to My Future Self"
 date: "2026-10-16"
+draft: true
 categories:
   - personal
 tags:

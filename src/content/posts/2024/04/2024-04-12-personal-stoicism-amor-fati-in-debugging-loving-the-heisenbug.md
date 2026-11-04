@@ -1,6 +1,7 @@
 ---
 title: "Amor Fati in Debugging: Loving the Heisenbug That Forced Real Learning: Part IV: The Structural Mechanism"
 date: "2024-04-12"
+draft: true
 categories:
   - personal
 tags:

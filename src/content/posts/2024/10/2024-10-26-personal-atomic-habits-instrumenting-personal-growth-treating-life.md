@@ -1,6 +1,7 @@
 ---
 title: "Instrumenting Personal Growth: Treating Life Habits as a Observability Pipeline: Deconstructing the Cognitive Friction"
 date: "2024-10-26"
+draft: true
 categories:
   - personal
 tags:

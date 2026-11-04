@@ -51,7 +51,7 @@ export default function HomePage() {
           </h1>
 
           <p className="mt-5 max-w-3xl text-sm leading-relaxed text-ink-muted sm:text-base">
-            I&apos;m <strong>Sahaj Saliya</strong>, B.Tech ICT student at PDEU, Gandhinagar (2023–2027). This site documents my daily technical journey: sequential curriculum handbooks with verified math derivations and runnable code, arXiv research paper breakdowns, industry AI releases, and over <strong>1,500+ personal essays</strong> on deep work, stoic equanimity, and engineering philosophy.
+            I&apos;m <strong>Sahaj Saliya</strong>, B.Tech ICT student at PDEU, Gandhinagar (2023–2027). This site documents my daily technical journey: sequential curriculum handbooks with verified math derivations and runnable code, arXiv research paper breakdowns, and industry AI releases.
           </p>
 
           <div className="mt-8 flex flex-wrap items-center gap-3">
@@ -61,12 +61,14 @@ export default function HomePage() {
             >
               15-Phase Curriculum Roadmap →
             </Link>
-            <Link
-              href="/personal/"
-              className="rounded-xl border border-amber-500/40 bg-amber-500/10 px-5 py-3 text-xs font-semibold text-amber-300 transition-all hover:bg-amber-500/20 hover:border-amber-500"
-            >
-              🌱 Personal & Mindset ({personalPosts.length.toLocaleString()})
-            </Link>
+            {personalPosts.length > 0 && (
+              <Link
+                href="/personal/"
+                className="rounded-xl border border-amber-500/40 bg-amber-500/10 px-5 py-3 text-xs font-semibold text-amber-300 transition-all hover:bg-amber-500/20 hover:border-amber-500"
+              >
+                🌱 Personal & Mindset ({personalPosts.length.toLocaleString()})
+              </Link>
+            )}
             <Link
               href="/papers/"
               className="rounded-xl border border-border/80 bg-surface px-5 py-3 text-xs font-semibold text-ink transition-all hover:border-emerald-500 hover:text-emerald-400"
@@ -93,7 +95,7 @@ export default function HomePage() {
           <p className="text-xs text-ink-muted">Explore structured tracks across foundational science, state-of-the-art AI, and cognitive mastery.</p>
         </div>
 
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <div className={`grid grid-cols-1 gap-4 sm:grid-cols-2 ${personalPosts.length > 0 ? "lg:grid-cols-4" : "lg:grid-cols-3"}`}>
           <Link
             href="/learning-path/"
             className="group relative overflow-hidden rounded-2xl border border-indigo-500/30 bg-surface/80 p-6 transition-all hover:-translate-y-1 hover:border-indigo-500 hover:shadow-xl hover:shadow-indigo-500/10"
@@ -115,26 +117,28 @@ export default function HomePage() {
             </div>
           </Link>
 
-          <Link
-            href="/personal/"
-            className="group relative overflow-hidden rounded-2xl border border-amber-500/30 bg-surface/80 p-6 transition-all hover:-translate-y-1 hover:border-amber-500 hover:shadow-xl hover:shadow-amber-500/10"
-          >
-            <div className="flex items-center justify-between">
-              <span className="text-2xl">🌱</span>
-              <span className="rounded-md border border-amber-500/30 bg-amber-500/10 px-2 py-0.5 text-xs font-semibold text-amber-400">
-                {personalPosts.length.toLocaleString()} Essays
-              </span>
-            </div>
-            <h3 className="mt-4 font-serif text-lg font-bold text-ink group-hover:text-amber-400 transition-colors">
-              Personal & Mindset
-            </h3>
-            <p className="mt-2 text-xs leading-relaxed text-ink-muted">
-              Deep work rituals, stoic equanimity under technical crises, mental models, atomic habits, and lifelong compounding systems.
-            </p>
-            <div className="mt-4 text-xs font-semibold text-amber-400 flex items-center gap-1">
-              Read Essays <span>→</span>
-            </div>
-          </Link>
+          {personalPosts.length > 0 && (
+            <Link
+              href="/personal/"
+              className="group relative overflow-hidden rounded-2xl border border-amber-500/30 bg-surface/80 p-6 transition-all hover:-translate-y-1 hover:border-amber-500 hover:shadow-xl hover:shadow-amber-500/10"
+            >
+              <div className="flex items-center justify-between">
+                <span className="text-2xl">🌱</span>
+                <span className="rounded-md border border-amber-500/30 bg-amber-500/10 px-2 py-0.5 text-xs font-semibold text-amber-400">
+                  {personalPosts.length.toLocaleString()} Essays
+                </span>
+              </div>
+              <h3 className="mt-4 font-serif text-lg font-bold text-ink group-hover:text-amber-400 transition-colors">
+                Personal & Mindset
+              </h3>
+              <p className="mt-2 text-xs leading-relaxed text-ink-muted">
+                Deep work rituals, stoic equanimity under technical crises, mental models, atomic habits, and lifelong compounding systems.
+              </p>
+              <div className="mt-4 text-xs font-semibold text-amber-400 flex items-center gap-1">
+                Read Essays <span>→</span>
+              </div>
+            </Link>
+          )}
 
           <Link
             href="/papers/"
@@ -253,9 +257,11 @@ export default function HomePage() {
           <Link href="/archive/" className="rounded-xl border border-emerald-500/50 bg-emerald-500/10 px-3.5 py-1.5 font-semibold text-emerald-400">
             All Articles ({posts.length.toLocaleString()})
           </Link>
-          <Link href="/personal/" className="rounded-xl border border-amber-500/30 bg-surface px-3.5 py-1.5 text-ink-muted hover:border-amber-500 hover:text-amber-400">
-            🌱 Personal & Mindset ({personalPosts.length.toLocaleString()})
-          </Link>
+          {personalPosts.length > 0 && (
+            <Link href="/personal/" className="rounded-xl border border-amber-500/30 bg-surface px-3.5 py-1.5 text-ink-muted hover:border-amber-500 hover:text-amber-400">
+              🌱 Personal & Mindset ({personalPosts.length.toLocaleString()})
+            </Link>
+          )}
           <Link href="/study/" className="rounded-xl border border-border bg-surface px-3.5 py-1.5 text-ink-muted hover:border-indigo-500 hover:text-ink">
             📚 Study Notes ({studyPosts.length.toLocaleString()})
           </Link>

@@ -1,6 +1,7 @@
 ---
 title: "Marcus Aurelius on Legacy Code: Maintaining Equanimity with Imperfect Systems: The Art of Ruthless Execution"
 date: "2025-11-12"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Solitary Walker: Why Daily 30-Minute Walks Unlock Stuck Algorithms: Deconstructing the Cognitive Friction"
 date: "2024-11-25"
+draft: true
 categories:
   - personal
 tags:

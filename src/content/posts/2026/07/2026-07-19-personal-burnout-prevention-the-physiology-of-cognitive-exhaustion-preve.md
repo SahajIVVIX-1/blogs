@@ -1,6 +1,7 @@
 ---
 title: "The Physiology of Cognitive Exhaustion: Preventing Prefrontal Cortex Drain: A Framework for Deep Mastery"
 date: "2026-07-19"
+draft: true
 categories:
   - personal
 tags:

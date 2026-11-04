@@ -1,6 +1,7 @@
 ---
 title: "The Anatomy of Beautiful Functions: Small, Pure, and Unambiguous: A Framework for Deep Mastery"
 date: "2026-09-11"
+draft: true
 categories:
   - personal
 tags:

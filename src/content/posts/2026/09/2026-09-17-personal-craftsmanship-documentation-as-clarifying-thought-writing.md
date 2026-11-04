@@ -1,6 +1,7 @@
 ---
 title: "Documentation as Clarifying Thought: Writing Before Implementation: A Framework for Deep Mastery"
 date: "2026-09-17"
+draft: true
 categories:
   - personal
 tags:

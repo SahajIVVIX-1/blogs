@@ -1,6 +1,7 @@
 ---
 title: "The Architecture of Solitude: Why Deep Thinking Requires Absolute Silence: A Framework for Deep Mastery"
 date: "2026-09-03"
+draft: true
 categories:
   - personal
 tags:

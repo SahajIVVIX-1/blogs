@@ -1,6 +1,7 @@
 ---
 title: "Cognitive Load Management: Preventing Brain Overflow in Dense Systems: Lessons from Systems Architecture"
 date: "2025-01-13"
+draft: true
 categories:
   - personal
 tags:

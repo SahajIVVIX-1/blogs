@@ -1,6 +1,7 @@
 ---
 title: "Cognitive Load Management: Preventing Brain Overflow in Dense Systems: The First-Principles Analysis"
 date: "2025-04-05"
+draft: true
 categories:
   - personal
 tags:

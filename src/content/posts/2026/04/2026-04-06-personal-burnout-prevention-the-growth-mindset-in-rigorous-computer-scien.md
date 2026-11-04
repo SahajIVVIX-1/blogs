@@ -1,6 +1,7 @@
 ---
 title: "The Growth Mindset in Rigorous Computer Science: Moving from Fixed to Plastic: The Subconscious Incubation Effect"
 date: "2026-04-06"
+draft: true
 categories:
   - personal
 tags:

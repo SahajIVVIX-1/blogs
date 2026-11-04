@@ -1,6 +1,7 @@
 ---
 title: "Chesterton's Fence in Code Refactoring: Understanding Why the Hack Was Written: Part I: The Psychological Foundation"
 date: "2023-08-17"
+draft: true
 categories:
   - personal
 tags:

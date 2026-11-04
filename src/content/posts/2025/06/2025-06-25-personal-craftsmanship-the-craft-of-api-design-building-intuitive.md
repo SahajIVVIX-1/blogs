@@ -1,6 +1,7 @@
 ---
 title: "The Craft of API Design: Building Intuitive, Misuse-Resistant Interfaces: The Stoic Lens"
 date: "2025-06-25"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Wealth of Free Time: Valuing Autonomous Schedule Control Above Raw Status: A Framework for Deep Mastery"
 date: "2026-09-24"
+draft: true
 categories:
   - personal
 tags:

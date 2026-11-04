@@ -1,6 +1,7 @@
 ---
 title: "Inversion Thinking: Charlie Munger's Blueprint for Avoiding Catastrophic Architecture: Part I: The Psychological Foundation"
 date: "2023-08-11"
+draft: true
 categories:
   - personal
 tags:

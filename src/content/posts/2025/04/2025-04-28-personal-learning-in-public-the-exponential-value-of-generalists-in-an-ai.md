@@ -1,6 +1,7 @@
 ---
 title: "The Exponential Value of Generalists in an AI-Accelerated World: The First-Principles Analysis"
 date: "2025-04-28"
+draft: true
 categories:
   - personal
 tags:

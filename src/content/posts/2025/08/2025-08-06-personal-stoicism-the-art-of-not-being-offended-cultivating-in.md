@@ -1,6 +1,7 @@
 ---
 title: "The Art of Not Being Offended: Cultivating Intellectual Detachment: The Stoic Lens"
 date: "2025-08-06"
+draft: true
 categories:
   - personal
 tags:

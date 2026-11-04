@@ -1,6 +1,7 @@
 ---
 title: "The Feynman Technique: Deconstructing Complex Algorithms to First Principles: A Letter to My Future Self"
 date: "2026-09-27"
+draft: true
 categories:
   - personal
 tags:

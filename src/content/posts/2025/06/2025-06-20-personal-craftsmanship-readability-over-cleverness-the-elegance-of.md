@@ -1,6 +1,7 @@
 ---
 title: "Readability Over Cleverness: The Elegance of Code That Any Junior Can Audit: The Stoic Lens"
 date: "2025-06-20"
+draft: true
 categories:
   - personal
 tags:

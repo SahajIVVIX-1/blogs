@@ -1,6 +1,7 @@
 ---
 title: "Technical Debt as Financial Leverage: When to Borrow and When to Repay: The Subconscious Incubation Effect"
 date: "2026-03-20"
+draft: true
 categories:
   - personal
 tags:

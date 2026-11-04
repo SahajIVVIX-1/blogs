@@ -1,6 +1,7 @@
 ---
 title: "Memento Mori for Founders & Engineers: Keeping Stress in Cosmic Perspective: Part I: The Psychological Foundation"
 date: "2023-09-01"
+draft: true
 categories:
   - personal
 tags:

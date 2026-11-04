@@ -1,6 +1,7 @@
 ---
 title: "The Broken Window Theory in Codebases: Why Small Warnings Snowball into Decay: A Letter to My Future Self"
 date: "2026-10-09"
+draft: true
 categories:
   - personal
 tags:

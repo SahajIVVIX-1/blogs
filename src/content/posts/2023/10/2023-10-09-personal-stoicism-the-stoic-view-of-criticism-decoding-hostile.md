@@ -1,6 +1,7 @@
 ---
 title: "The Stoic View of Criticism: Decoding Hostile Code Reviews into Pure Data: Part I: The Psychological Foundation"
 date: "2023-10-09"
+draft: true
 categories:
   - personal
 tags:

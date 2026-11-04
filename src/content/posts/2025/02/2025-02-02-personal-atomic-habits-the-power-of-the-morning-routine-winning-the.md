@@ -1,6 +1,7 @@
 ---
 title: "The Power of the Morning Routine: Winning the First 90 Minutes of Every Day: Lessons from Systems Architecture"
 date: "2025-02-02"
+draft: true
 categories:
   - personal
 tags:

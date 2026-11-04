@@ -1,6 +1,7 @@
 ---
 title: "The Craftsman vs The Mercenary: Choosing Deep Fulfillment Over Superficial Hype: Part III: The Mental Model Shift"
 date: "2024-03-08"
+draft: true
 categories:
   - personal
 tags:

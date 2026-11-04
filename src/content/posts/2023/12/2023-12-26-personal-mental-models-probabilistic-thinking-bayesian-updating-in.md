@@ -1,6 +1,7 @@
 ---
 title: "Probabilistic Thinking: Bayesian Updating in Ambiguous Debugging Scenarios: Part II: The Daily Protocol"
 date: "2023-12-26"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Monk Mode Protocol: Architecting Unbroken 4-Hour Engineering Blocks: Part III: The Mental Model Shift"
 date: "2024-01-14"
+draft: true
 categories:
   - personal
 tags:

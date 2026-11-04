@@ -1,6 +1,7 @@
 ---
 title: "Process Over Outcome: Why Systems-Focused Engineers Outperform Dreamers: A Framework for Deep Mastery"
 date: "2026-08-08"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Goodhart's Law in Engineering Metrics: When a Measure Becomes the Target: Part IV: The Structural Mechanism"
 date: "2024-06-12"
+draft: true
 categories:
   - personal
 tags:

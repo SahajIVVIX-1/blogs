@@ -1,6 +1,7 @@
 ---
 title: "Writing as an Engine of Clarity: Why You Don't Understand What You Cannot Articulate: Part III: The Mental Model Shift"
 date: "2024-03-03"
+draft: true
 categories:
   - personal
 tags:

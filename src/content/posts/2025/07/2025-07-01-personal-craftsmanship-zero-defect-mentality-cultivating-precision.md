@@ -1,6 +1,7 @@
 ---
 title: "Zero-Defect Mentality: Cultivating Precision Without Becoming Paralyzed: The Stoic Lens"
 date: "2025-07-01"
+draft: true
 categories:
   - personal
 tags:

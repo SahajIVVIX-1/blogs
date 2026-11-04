@@ -1,6 +1,7 @@
 ---
 title: "Deep Reading in the Skimming Era: How to Absorb 500 Pages of Dense Theory: The Art of Ruthless Execution"
 date: "2025-12-09"
+draft: true
 categories:
   - personal
 tags:

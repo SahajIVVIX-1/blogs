@@ -1,6 +1,7 @@
 ---
 title: "Playing Long-Term Games with Long-Term People: The Ultimate Career Heuristic: A Framework for Deep Mastery"
 date: "2026-07-20"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Attention Residue in Distributed Systems Design: The Hidden Tax of Slack: A Letter to My Future Self"
 date: "2026-10-11"
+draft: true
 categories:
   - personal
 tags:

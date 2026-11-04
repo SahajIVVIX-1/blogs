@@ -1,6 +1,7 @@
 ---
 title: "The Pragmatic Programmer Ethos: Taking Uncompromising Ownership of Code: Why Most Engineers Fail Here"
 date: "2026-04-22"
+draft: true
 categories:
   - personal
 tags:

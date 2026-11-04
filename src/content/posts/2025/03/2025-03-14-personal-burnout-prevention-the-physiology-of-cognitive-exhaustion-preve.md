@@ -1,6 +1,7 @@
 ---
 title: "The Physiology of Cognitive Exhaustion: Preventing Prefrontal Cortex Drain: The First-Principles Analysis"
 date: "2025-03-14"
+draft: true
 categories:
   - personal
 tags:

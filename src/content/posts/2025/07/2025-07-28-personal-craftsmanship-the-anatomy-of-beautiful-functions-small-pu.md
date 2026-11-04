@@ -1,6 +1,7 @@
 ---
 title: "The Anatomy of Beautiful Functions: Small, Pure, and Unambiguous: The Stoic Lens"
 date: "2025-07-28"
+draft: true
 categories:
   - personal
 tags:

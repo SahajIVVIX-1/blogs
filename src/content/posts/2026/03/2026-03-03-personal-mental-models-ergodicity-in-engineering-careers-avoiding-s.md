@@ -1,6 +1,7 @@
 ---
 title: "Ergodicity in Engineering Careers: Avoiding Strategies with Non-Zero Ruin Probability: The Subconscious Incubation Effect"
 date: "2026-03-03"
+draft: true
 categories:
   - personal
 tags:

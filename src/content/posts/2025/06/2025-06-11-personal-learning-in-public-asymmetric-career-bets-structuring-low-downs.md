@@ -1,6 +1,7 @@
 ---
 title: "Asymmetric Career Bets: Structuring Low Downside with Infinite Upside: The Stoic Lens"
 date: "2025-06-11"
+draft: true
 categories:
   - personal
 tags:

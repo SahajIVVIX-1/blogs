@@ -1,6 +1,7 @@
 ---
 title: "The Internal Scorecard: Warren Buffett's Litmus Test for Authentic Integrity: Part I: The Psychological Foundation"
 date: "2023-09-10"
+draft: true
 categories:
   - personal
 tags:

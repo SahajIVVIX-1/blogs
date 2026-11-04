@@ -1,6 +1,7 @@
 ---
 title: "Playing Long-Term Games with Long-Term People: The Ultimate Career Heuristic: The Subconscious Incubation Effect"
 date: "2026-02-06"
+draft: true
 categories:
   - personal
 tags:

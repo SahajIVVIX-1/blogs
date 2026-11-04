@@ -1,6 +1,7 @@
 ---
 title: "The Dichotomy of Control in Production Crises: Staying Calm Under P0 Alerts: The Subconscious Incubation Effect"
 date: "2026-01-22"
+draft: true
 categories:
   - personal
 tags:

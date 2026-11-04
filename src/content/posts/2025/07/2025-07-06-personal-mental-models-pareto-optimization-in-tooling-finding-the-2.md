@@ -1,6 +1,7 @@
 ---
 title: "Pareto Optimization in Tooling: Finding the 20% of Tools Powering 80% of Leverage: The Stoic Lens"
 date: "2025-07-06"
+draft: true
 categories:
   - personal
 tags:

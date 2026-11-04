@@ -1,6 +1,7 @@
 ---
 title: "Technical Debt as Financial Leverage: When to Borrow and When to Repay: A Practical Field Guide"
 date: "2024-08-23"
+draft: true
 categories:
   - personal
 tags:

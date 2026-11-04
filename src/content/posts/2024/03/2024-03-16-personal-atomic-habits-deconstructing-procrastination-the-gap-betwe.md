@@ -1,6 +1,7 @@
 ---
 title: "Deconstructing Procrastination: The Gap Between Intention and Micro-Action: Part III: The Mental Model Shift"
 date: "2024-03-16"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Ergodicity in Engineering Careers: Avoiding Strategies with Non-Zero Ruin Probability: The First-Principles Analysis"
 date: "2025-04-09"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Probabilistic Thinking: Bayesian Updating in Ambiguous Debugging Scenarios: A Practical Field Guide"
 date: "2024-08-28"
+draft: true
 categories:
   - personal
 tags:

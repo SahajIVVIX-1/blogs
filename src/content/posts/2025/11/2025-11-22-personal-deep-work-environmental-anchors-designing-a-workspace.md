@@ -1,6 +1,7 @@
 ---
 title: "Environmental Anchors: Designing a Workspace Immune to Cognitive Drift: The Art of Ruthless Execution"
 date: "2025-11-22"
+draft: true
 categories:
   - personal
 tags:

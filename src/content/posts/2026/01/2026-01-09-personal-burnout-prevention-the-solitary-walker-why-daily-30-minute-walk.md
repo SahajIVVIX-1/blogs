@@ -1,6 +1,7 @@
 ---
 title: "The Solitary Walker: Why Daily 30-Minute Walks Unlock Stuck Algorithms: The Art of Ruthless Execution"
 date: "2026-01-09"
+draft: true
 categories:
   - personal
 tags:

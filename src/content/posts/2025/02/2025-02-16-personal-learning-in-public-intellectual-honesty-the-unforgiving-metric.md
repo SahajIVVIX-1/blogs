@@ -1,6 +1,7 @@
 ---
 title: "Intellectual Honesty: The Unforgiving Metric of the True Scientist: Lessons from Systems Architecture"
 date: "2025-02-16"
+draft: true
 categories:
   - personal
 tags:

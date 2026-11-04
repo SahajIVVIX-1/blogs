@@ -1,6 +1,7 @@
 ---
 title: "Refactoring as Active Meditation: Finding Peace in Cleaning Structural Debt: Part III: The Mental Model Shift"
 date: "2024-02-03"
+draft: true
 categories:
   - personal
 tags:

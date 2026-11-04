@@ -1,6 +1,7 @@
 ---
 title: "Technical Debt as Financial Leverage: When to Borrow and When to Repay: Overcoming the Resistance"
 date: "2025-10-07"
+draft: true
 categories:
   - personal
 tags:

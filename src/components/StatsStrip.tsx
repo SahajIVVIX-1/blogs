@@ -21,11 +21,13 @@ export default function StatsStrip({ stats }: StatsProps) {
     { label: 'Study Modules', value: stats.study.toLocaleString(), href: '/study/', icon: '🧠', color: 'indigo' },
     { label: 'Research Papers', value: stats.papers.toLocaleString(), href: '/papers/', icon: '📄', color: 'teal' },
     { label: 'AI Updates', value: stats.ai.toLocaleString(), href: '/ai/', icon: '⚡', color: 'purple' },
-    { label: 'Personal & Mindset', value: (stats.personal || 0).toLocaleString(), href: '/personal/', icon: '🌱', color: 'amber' },
+    ...(stats.personal
+      ? [{ label: 'Personal & Mindset', value: stats.personal.toLocaleString(), href: '/personal/', icon: '🌱', color: 'amber' }]
+      : []),
   ];
 
   return (
-    <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
+    <div className={`grid grid-cols-2 gap-3 sm:grid-cols-3 ${items.length === 6 ? 'lg:grid-cols-6' : 'lg:grid-cols-5'}`}>
       {items.map((item) => (
         <Link
           key={item.label}

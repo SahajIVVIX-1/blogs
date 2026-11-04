@@ -1,6 +1,7 @@
 ---
 title: "Digital Dopamine Fasting: Rewiring Boredom for Breakthrough Problem-Solving: A Letter to My Future Self"
 date: "2026-10-05"
+draft: true
 categories:
   - personal
 tags:

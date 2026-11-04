@@ -1,6 +1,7 @@
 ---
 title: "Dealing with Technical Rejection: Viewing Failed RFCs as Data Extraction: Part II: The Daily Protocol"
 date: "2023-11-19"
+draft: true
 categories:
   - personal
 tags:

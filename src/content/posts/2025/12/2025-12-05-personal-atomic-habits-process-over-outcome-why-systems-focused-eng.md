@@ -1,6 +1,7 @@
 ---
 title: "Process Over Outcome: Why Systems-Focused Engineers Outperform Dreamers: The Art of Ruthless Execution"
 date: "2025-12-05"
+draft: true
 categories:
   - personal
 tags:

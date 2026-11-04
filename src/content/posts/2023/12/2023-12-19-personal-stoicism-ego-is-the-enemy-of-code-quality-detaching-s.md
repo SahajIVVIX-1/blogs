@@ -1,6 +1,7 @@
 ---
 title: "Ego is the Enemy of Code Quality: Detaching Self-Worth from Pull Requests: Part II: The Daily Protocol"
 date: "2023-12-19"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Goodhart's Law in Engineering Metrics: When a Measure Becomes the Target: Part II: The Daily Protocol"
 date: "2023-12-31"
+draft: true
 categories:
   - personal
 tags:

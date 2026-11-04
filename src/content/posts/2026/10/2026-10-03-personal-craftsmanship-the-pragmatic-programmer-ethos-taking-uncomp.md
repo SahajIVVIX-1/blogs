@@ -1,6 +1,7 @@
 ---
 title: "The Pragmatic Programmer Ethos: Taking Uncompromising Ownership of Code: A Letter to My Future Self"
 date: "2026-10-03"
+draft: true
 categories:
   - personal
 tags:

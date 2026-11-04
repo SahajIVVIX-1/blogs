@@ -1,6 +1,7 @@
 ---
 title: "Pareto Optimization in Tooling: Finding the 20% of Tools Powering 80% of Leverage: Part II: The Daily Protocol"
 date: "2023-12-10"
+draft: true
 categories:
   - personal
 tags:

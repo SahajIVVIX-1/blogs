@@ -1,6 +1,7 @@
 ---
 title: "The Compounding Portfolio of Knowledge: Building Asymmetric Learning Curvature: Why Most Engineers Fail Here"
 date: "2026-06-03"
+draft: true
 categories:
   - personal
 tags:

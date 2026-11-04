@@ -1,6 +1,7 @@
 ---
 title: "The Internal Scorecard: Warren Buffett's Litmus Test for Authentic Integrity: Part IV: The Structural Mechanism"
 date: "2024-05-13"
+draft: true
 categories:
   - personal
 tags:

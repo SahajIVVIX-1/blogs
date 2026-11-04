@@ -1,6 +1,7 @@
 ---
 title: "Documentation as Clarifying Thought: Writing Before Implementation: Lessons from Systems Architecture"
 date: "2025-02-20"
+draft: true
 categories:
   - personal
 tags:

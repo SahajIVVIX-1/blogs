@@ -1,6 +1,7 @@
 ---
 title: "The Courage to Say No: Protecting Your Engineering Core from Scope Creep: Why Most Engineers Fail Here"
 date: "2026-05-04"
+draft: true
 categories:
   - personal
 tags:

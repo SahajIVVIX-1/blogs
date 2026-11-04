@@ -1,6 +1,7 @@
 ---
 title: "Bimodal Deep Work: Scheduling Deep Research Sprints in High-Noise Environments: The Stoic Lens"
 date: "2025-07-09"
+draft: true
 categories:
   - personal
 tags:

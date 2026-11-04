@@ -1,6 +1,7 @@
 ---
 title: "The Antidote to Cynicism in Big Tech: Anchoring to Fundamental Curiosity: A Practical Field Guide"
 date: "2024-08-24"
+draft: true
 categories:
   - personal
 tags:

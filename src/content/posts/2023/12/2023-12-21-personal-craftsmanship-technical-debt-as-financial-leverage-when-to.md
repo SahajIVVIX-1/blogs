@@ -1,6 +1,7 @@
 ---
 title: "Technical Debt as Financial Leverage: When to Borrow and When to Repay: Part II: The Daily Protocol"
 date: "2023-12-21"
+draft: true
 categories:
   - personal
 tags:

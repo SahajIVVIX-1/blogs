@@ -1,6 +1,7 @@
 ---
 title: "Asynchronous Engineering: Escaping the Instant Gratification Communication Trap: Part II: The Daily Protocol"
 date: "2023-11-21"
+draft: true
 categories:
   - personal
 tags:

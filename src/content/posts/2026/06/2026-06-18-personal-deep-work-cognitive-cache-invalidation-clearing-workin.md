@@ -1,6 +1,7 @@
 ---
 title: "Cognitive Cache Invalidation: Clearing Working Memory Before Hard Architectural Pivots: Why Most Engineers Fail Here"
 date: "2026-06-18"
+draft: true
 categories:
   - personal
 tags:

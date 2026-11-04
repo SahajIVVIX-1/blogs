@@ -1,6 +1,7 @@
 ---
 title: "Readability Over Cleverness: The Elegance of Code That Any Junior Can Audit: The Subconscious Incubation Effect"
 date: "2026-02-21"
+draft: true
 categories:
   - personal
 tags:

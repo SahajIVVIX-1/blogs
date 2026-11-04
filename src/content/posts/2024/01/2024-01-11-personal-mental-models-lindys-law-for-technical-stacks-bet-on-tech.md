@@ -1,6 +1,7 @@
 ---
 title: "Lindy's Law for Technical Stacks: Bet on Technologies That Have Stood for Decades: Part II: The Daily Protocol"
 date: "2024-01-11"
+draft: true
 categories:
   - personal
 tags:

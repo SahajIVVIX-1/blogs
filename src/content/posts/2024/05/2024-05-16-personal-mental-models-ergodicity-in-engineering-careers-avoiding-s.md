@@ -1,6 +1,7 @@
 ---
 title: "Ergodicity in Engineering Careers: Avoiding Strategies with Non-Zero Ruin Probability: Part IV: The Structural Mechanism"
 date: "2024-05-16"
+draft: true
 categories:
   - personal
 tags:

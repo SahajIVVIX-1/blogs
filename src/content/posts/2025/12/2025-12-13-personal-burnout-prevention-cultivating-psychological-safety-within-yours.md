@@ -1,6 +1,7 @@
 ---
 title: "Cultivating Psychological Safety Within Yourself: Forgiving Early Technical Mistakes: The Art of Ruthless Execution"
 date: "2025-12-13"
+draft: true
 categories:
   - personal
 tags:

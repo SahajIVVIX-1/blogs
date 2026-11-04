@@ -1,6 +1,7 @@
 ---
 title: "The Map is Not the Territory: Dissecting the Difference Between Spec and Reality: The First-Principles Analysis"
 date: "2025-04-04"
+draft: true
 categories:
   - personal
 tags:

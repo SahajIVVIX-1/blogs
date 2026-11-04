@@ -1,6 +1,7 @@
 ---
 title: "The Map is Not the Territory: Dissecting the Difference Between Spec and Reality: Part III: The Mental Model Shift"
 date: "2024-02-19"
+draft: true
 categories:
   - personal
 tags:

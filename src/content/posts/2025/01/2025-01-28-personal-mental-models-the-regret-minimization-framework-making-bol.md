@@ -1,6 +1,7 @@
 ---
 title: "The Regret Minimization Framework: Making Bold Career Pivots Without Anxiety: Lessons from Systems Architecture"
 date: "2025-01-28"
+draft: true
 categories:
   - personal
 tags:

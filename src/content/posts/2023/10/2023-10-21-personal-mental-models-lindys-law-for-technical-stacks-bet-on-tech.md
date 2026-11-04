@@ -1,6 +1,7 @@
 ---
 title: "Lindy's Law for Technical Stacks: Bet on Technologies That Have Stood for Decades: Part I: The Psychological Foundation"
 date: "2023-10-21"
+draft: true
 categories:
   - personal
 tags:

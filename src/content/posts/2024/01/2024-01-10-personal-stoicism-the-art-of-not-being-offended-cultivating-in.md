@@ -1,6 +1,7 @@
 ---
 title: "The Art of Not Being Offended: Cultivating Intellectual Detachment: Part II: The Daily Protocol"
 date: "2024-01-10"
+draft: true
 categories:
   - personal
 tags:

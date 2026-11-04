@@ -1,6 +1,7 @@
 ---
 title: "The 20-Second Friction Rule: Structuring Your Environment for Immediate Action: The Subconscious Incubation Effect"
 date: "2026-02-14"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Sovereign Technologist: Building Intellectual Independence from Big Tech Platforms: A Practical Field Guide"
 date: "2024-07-23"
+draft: true
 categories:
   - personal
 tags:

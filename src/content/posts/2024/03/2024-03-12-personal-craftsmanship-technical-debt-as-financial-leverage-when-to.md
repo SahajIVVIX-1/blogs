@@ -1,6 +1,7 @@
 ---
 title: "Technical Debt as Financial Leverage: When to Borrow and When to Repay: Part III: The Mental Model Shift"
 date: "2024-03-12"
+draft: true
 categories:
   - personal
 tags:

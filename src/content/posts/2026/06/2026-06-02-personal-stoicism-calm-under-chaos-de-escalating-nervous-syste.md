@@ -1,6 +1,7 @@
 ---
 title: "Calm Under Chaos: De-escalating Nervous System Arousal During Live Deployments: Why Most Engineers Fail Here"
 date: "2026-06-02"
+draft: true
 categories:
   - personal
 tags:

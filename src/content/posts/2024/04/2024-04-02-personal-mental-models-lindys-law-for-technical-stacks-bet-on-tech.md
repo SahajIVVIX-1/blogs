@@ -1,6 +1,7 @@
 ---
 title: "Lindy's Law for Technical Stacks: Bet on Technologies That Have Stood for Decades: Part III: The Mental Model Shift"
 date: "2024-04-02"
+draft: true
 categories:
   - personal
 tags:

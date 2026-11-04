@@ -1,6 +1,7 @@
 ---
 title: "The Exponential Value of Generalists in an AI-Accelerated World: Lessons from Systems Architecture"
 date: "2025-02-05"
+draft: true
 categories:
   - personal
 tags:

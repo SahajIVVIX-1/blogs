@@ -1,6 +1,7 @@
 ---
 title: "Habit Stacking in Developer Workflows: Anchoring Tests to Daily Triggers: Deconstructing the Cognitive Friction"
 date: "2024-10-04"
+draft: true
 categories:
   - personal
 tags:

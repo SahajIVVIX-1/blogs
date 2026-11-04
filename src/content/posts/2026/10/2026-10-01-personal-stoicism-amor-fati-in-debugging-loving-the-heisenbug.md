@@ -1,6 +1,7 @@
 ---
 title: "Amor Fati in Debugging: Loving the Heisenbug That Forced Real Learning: A Letter to My Future Self"
 date: "2026-10-01"
+draft: true
 categories:
   - personal
 tags:

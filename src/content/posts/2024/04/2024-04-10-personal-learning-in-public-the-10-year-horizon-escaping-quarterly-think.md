@@ -1,6 +1,7 @@
 ---
 title: "The 10-Year Horizon: Escaping Quarterly Thinking and Investing in Fundamentals: Part IV: The Structural Mechanism"
 date: "2024-04-10"
+draft: true
 categories:
   - personal
 tags:

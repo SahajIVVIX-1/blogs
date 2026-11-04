@@ -1,6 +1,7 @@
 ---
 title: "Marcus Aurelius on Legacy Code: Maintaining Equanimity with Imperfect Systems: Part IV: The Structural Mechanism"
 date: "2024-04-17"
+draft: true
 categories:
   - personal
 tags:

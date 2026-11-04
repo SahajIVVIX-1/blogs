@@ -1,6 +1,7 @@
 ---
 title: "Dealing with Technical Rejection: Viewing Failed RFCs as Data Extraction: Part I: The Psychological Foundation"
 date: "2023-08-29"
+draft: true
 categories:
   - personal
 tags:

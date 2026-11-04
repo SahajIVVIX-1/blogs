@@ -1,6 +1,7 @@
 ---
 title: "The Craft of API Design: Building Intuitive, Misuse-Resistant Interfaces: The Art of Ruthless Execution"
 date: "2025-12-06"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Antidote to Cynicism in Big Tech: Anchoring to Fundamental Curiosity: The First-Principles Analysis"
 date: "2025-04-27"
+draft: true
 categories:
   - personal
 tags:

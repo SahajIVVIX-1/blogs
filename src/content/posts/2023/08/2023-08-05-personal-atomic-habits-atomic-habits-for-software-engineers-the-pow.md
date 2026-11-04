@@ -1,6 +1,7 @@
 ---
 title: "Atomic Habits for Software Engineers: The Power of 1% Daily Improvements: Part I: The Psychological Foundation"
 date: "2023-08-05"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Atomic Habits for Software Engineers: The Power of 1% Daily Improvements: A Framework for Deep Mastery"
 date: "2026-07-06"
+draft: true
 categories:
   - personal
 tags:

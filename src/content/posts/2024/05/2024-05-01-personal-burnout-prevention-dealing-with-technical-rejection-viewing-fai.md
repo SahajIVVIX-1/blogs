@@ -1,6 +1,7 @@
 ---
 title: "Dealing with Technical Rejection: Viewing Failed RFCs as Data Extraction: Part IV: The Structural Mechanism"
 date: "2024-05-01"
+draft: true
 categories:
   - personal
 tags:

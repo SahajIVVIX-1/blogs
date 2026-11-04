@@ -1,6 +1,7 @@
 ---
 title: "Chesterton's Fence in Code Refactoring: Understanding Why the Hack Was Written: Part III: The Mental Model Shift"
 date: "2024-01-28"
+draft: true
 categories:
   - personal
 tags:

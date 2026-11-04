@@ -1,6 +1,7 @@
 ---
 title: "Hanlon's Razor in Team Dynamics: Attributing Friction to Chaos, Not Malice: Part II: The Daily Protocol"
 date: "2024-01-06"
+draft: true
 categories:
   - personal
 tags:

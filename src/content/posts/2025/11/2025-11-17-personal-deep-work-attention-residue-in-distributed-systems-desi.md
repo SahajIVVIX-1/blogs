@@ -1,6 +1,7 @@
 ---
 title: "Attention Residue in Distributed Systems Design: The Hidden Tax of Slack: The Art of Ruthless Execution"
 date: "2025-11-17"
+draft: true
 categories:
   - personal
 tags:

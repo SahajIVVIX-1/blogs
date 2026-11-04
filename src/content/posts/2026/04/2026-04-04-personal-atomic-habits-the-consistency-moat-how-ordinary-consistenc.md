@@ -1,6 +1,7 @@
 ---
 title: "The Consistency Moat: How Ordinary Consistency Beats Occasional Genius: The Subconscious Incubation Effect"
 date: "2026-04-04"
+draft: true
 categories:
   - personal
 tags:

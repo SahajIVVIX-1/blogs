@@ -1,6 +1,7 @@
 ---
 title: "Refactoring as Active Meditation: Finding Peace in Cleaning Structural Debt: The Art of Ruthless Execution"
 date: "2025-11-20"
+draft: true
 categories:
   - personal
 tags:

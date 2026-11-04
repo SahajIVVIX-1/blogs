@@ -1,6 +1,7 @@
 ---
 title: "The Growth Mindset in Rigorous Computer Science: Moving from Fixed to Plastic: The Art of Ruthless Execution"
 date: "2026-01-14"
+draft: true
 categories:
   - personal
 tags:

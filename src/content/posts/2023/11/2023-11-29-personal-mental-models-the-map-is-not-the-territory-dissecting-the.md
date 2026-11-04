@@ -1,6 +1,7 @@
 ---
 title: "The Map is Not the Territory: Dissecting the Difference Between Spec and Reality: Part II: The Daily Protocol"
 date: "2023-11-29"
+draft: true
 categories:
   - personal
 tags:

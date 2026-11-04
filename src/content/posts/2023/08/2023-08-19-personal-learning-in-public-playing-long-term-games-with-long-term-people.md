@@ -1,6 +1,7 @@
 ---
 title: "Playing Long-Term Games with Long-Term People: The Ultimate Career Heuristic: Part I: The Psychological Foundation"
 date: "2023-08-19"
+draft: true
 categories:
   - personal
 tags:

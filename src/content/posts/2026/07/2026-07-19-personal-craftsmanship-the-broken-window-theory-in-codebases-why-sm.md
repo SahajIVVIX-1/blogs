@@ -1,6 +1,7 @@
 ---
 title: "The Broken Window Theory in Codebases: Why Small Warnings Snowball into Decay: A Framework for Deep Mastery"
 date: "2026-07-19"
+draft: true
 categories:
   - personal
 tags:

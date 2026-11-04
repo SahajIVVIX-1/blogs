@@ -1,6 +1,7 @@
 ---
 title: "Building Mental Calluses: Overcoming Resistance to Difficult Theoretical Proofs: The Art of Ruthless Execution"
 date: "2025-12-18"
+draft: true
 categories:
   - personal
 tags:

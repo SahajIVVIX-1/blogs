@@ -1,6 +1,7 @@
 ---
 title: "Managing High-Velocity Stress: Cortisol Regulation for Engineers on On-Call Duty: The Subconscious Incubation Effect"
 date: "2026-03-26"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Inner Citadel: Building an Unshakeable Core Against Technical Uncertainty: Overcoming the Resistance"
 date: "2025-09-19"
+draft: true
 categories:
   - personal
 tags:

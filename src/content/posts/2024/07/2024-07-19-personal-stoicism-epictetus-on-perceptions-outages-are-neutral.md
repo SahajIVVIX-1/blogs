@@ -1,6 +1,7 @@
 ---
 title: "Epictetus on Perceptions: Outages are Neutral, Only Panicked Reactions Destroy: A Practical Field Guide"
 date: "2024-07-19"
+draft: true
 categories:
   - personal
 tags:

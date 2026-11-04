@@ -1,6 +1,7 @@
 ---
 title: "The Exponential Growth of Skill: Why Micro-Progress Trumps Heroic Sprints: The Art of Ruthless Execution"
 date: "2025-11-07"
+draft: true
 categories:
   - personal
 tags:

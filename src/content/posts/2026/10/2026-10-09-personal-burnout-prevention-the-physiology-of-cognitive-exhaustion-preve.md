@@ -1,6 +1,7 @@
 ---
 title: "The Physiology of Cognitive Exhaustion: Preventing Prefrontal Cortex Drain: A Letter to My Future Self"
 date: "2026-10-09"
+draft: true
 categories:
   - personal
 tags:

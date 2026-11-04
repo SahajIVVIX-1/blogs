@@ -1,6 +1,7 @@
 ---
 title: "Zero-Defect Mentality: Cultivating Precision Without Becoming Paralyzed: A Practical Field Guide"
 date: "2024-08-07"
+draft: true
 categories:
   - personal
 tags:

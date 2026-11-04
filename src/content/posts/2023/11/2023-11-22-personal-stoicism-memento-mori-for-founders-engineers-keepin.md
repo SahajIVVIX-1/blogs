@@ -1,6 +1,7 @@
 ---
 title: "Memento Mori for Founders & Engineers: Keeping Stress in Cosmic Perspective: Part II: The Daily Protocol"
 date: "2023-11-22"
+draft: true
 categories:
   - personal
 tags:

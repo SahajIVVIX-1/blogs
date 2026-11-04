@@ -1,6 +1,7 @@
 ---
 title: "The Cognitive Budget: Why Willpower is Finite and Routines are Essential: The Stoic Lens"
 date: "2025-07-03"
+draft: true
 categories:
   - personal
 tags:

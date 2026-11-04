@@ -1,6 +1,7 @@
 ---
 title: "The Pragmatic Programmer Ethos: Taking Uncompromising Ownership of Code: Part II: The Daily Protocol"
 date: "2023-11-02"
+draft: true
 categories:
   - personal
 tags:

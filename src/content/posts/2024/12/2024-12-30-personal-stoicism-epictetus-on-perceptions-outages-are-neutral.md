@@ -1,6 +1,7 @@
 ---
 title: "Epictetus on Perceptions: Outages are Neutral, Only Panicked Reactions Destroy: Lessons from Systems Architecture"
 date: "2024-12-30"
+draft: true
 categories:
   - personal
 tags:

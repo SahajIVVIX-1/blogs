@@ -1,6 +1,7 @@
 ---
 title: "The Renaissance Developer: Integrating Mathematics, Art, Hardware, and Code: Part III: The Mental Model Shift"
 date: "2024-03-30"
+draft: true
 categories:
   - personal
 tags:

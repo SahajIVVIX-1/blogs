@@ -1,6 +1,7 @@
 ---
 title: "The Courage to Say No: Protecting Your Engineering Core from Scope Creep: Part IV: The Structural Mechanism"
 date: "2024-04-26"
+draft: true
 categories:
   - personal
 tags:

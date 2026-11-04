@@ -1,6 +1,7 @@
 ---
 title: "Goodhart's Law in Engineering Metrics: When a Measure Becomes the Target: Lessons from Systems Architecture"
 date: "2025-02-13"
+draft: true
 categories:
   - personal
 tags:

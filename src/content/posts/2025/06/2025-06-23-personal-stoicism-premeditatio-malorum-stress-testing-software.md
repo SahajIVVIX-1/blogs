@@ -1,6 +1,7 @@
 ---
 title: "Premeditatio Malorum: Stress-Testing Software Psychology with Inversion: The Stoic Lens"
 date: "2025-06-23"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Marcus Aurelius on Legacy Code: Maintaining Equanimity with Imperfect Systems: Part I: The Psychological Foundation"
 date: "2023-08-15"
+draft: true
 categories:
   - personal
 tags:

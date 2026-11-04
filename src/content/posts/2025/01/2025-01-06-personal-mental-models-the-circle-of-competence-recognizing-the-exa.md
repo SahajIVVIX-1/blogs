@@ -1,6 +1,7 @@
 ---
 title: "The Circle of Competence: Recognizing the Exact Boundary of Your Engineering Knowledge: Lessons from Systems Architecture"
 date: "2025-01-06"
+draft: true
 categories:
   - personal
 tags:

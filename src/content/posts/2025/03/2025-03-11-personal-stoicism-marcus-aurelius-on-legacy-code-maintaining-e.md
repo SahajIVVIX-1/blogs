@@ -1,6 +1,7 @@
 ---
 title: "Marcus Aurelius on Legacy Code: Maintaining Equanimity with Imperfect Systems: The First-Principles Analysis"
 date: "2025-03-11"
+draft: true
 categories:
   - personal
 tags:

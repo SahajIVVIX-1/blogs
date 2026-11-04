@@ -1,6 +1,7 @@
 ---
 title: "Atomic Habits for Software Engineers: The Power of 1% Daily Improvements: A Letter to My Future Self"
 date: "2026-09-26"
+draft: true
 categories:
   - personal
 tags:

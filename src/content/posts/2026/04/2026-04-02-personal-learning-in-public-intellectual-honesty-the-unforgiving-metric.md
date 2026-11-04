@@ -1,6 +1,7 @@
 ---
 title: "Intellectual Honesty: The Unforgiving Metric of the True Scientist: The Subconscious Incubation Effect"
 date: "2026-04-02"
+draft: true
 categories:
   - personal
 tags:

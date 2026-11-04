@@ -1,6 +1,7 @@
 ---
 title: "The Sovereign Technologist: Building Intellectual Independence from Big Tech Platforms: Lessons from Systems Architecture"
 date: "2025-01-03"
+draft: true
 categories:
   - personal
 tags:

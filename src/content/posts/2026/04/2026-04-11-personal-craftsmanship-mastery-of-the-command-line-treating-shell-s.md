@@ -1,6 +1,7 @@
 ---
 title: "Mastery of the Command Line: Treating Shell Scripting as an Artisan's Chisel: The Subconscious Incubation Effect"
 date: "2026-04-11"
+draft: true
 categories:
   - personal
 tags:

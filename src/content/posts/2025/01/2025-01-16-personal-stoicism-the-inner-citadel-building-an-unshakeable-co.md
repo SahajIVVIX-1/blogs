@@ -1,6 +1,7 @@
 ---
 title: "The Inner Citadel: Building an Unshakeable Core Against Technical Uncertainty: Lessons from Systems Architecture"
 date: "2025-01-16"
+draft: true
 categories:
   - personal
 tags:

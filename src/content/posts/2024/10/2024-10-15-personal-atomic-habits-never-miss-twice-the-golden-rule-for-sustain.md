@@ -1,6 +1,7 @@
 ---
 title: "Never Miss Twice: The Golden Rule for Sustained Habit Retention: Deconstructing the Cognitive Friction"
 date: "2024-10-15"
+draft: true
 categories:
   - personal
 tags:

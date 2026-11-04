@@ -1,6 +1,7 @@
 ---
 title: "Habit Stacking in Developer Workflows: Anchoring Tests to Daily Triggers: A Framework for Deep Mastery"
 date: "2026-07-22"
+draft: true
 categories:
   - personal
 tags:

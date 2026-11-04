@@ -1,6 +1,7 @@
 ---
 title: "Chesterton's Fence in Code Refactoring: Understanding Why the Hack Was Written: Part IV: The Structural Mechanism"
 date: "2024-04-19"
+draft: true
 categories:
   - personal
 tags:

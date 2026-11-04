@@ -1,6 +1,7 @@
 ---
 title: "Weekly Cadences: The Power of Sunday Engineering Audits & Retrospectives: Deconstructing the Cognitive Friction"
 date: "2024-12-04"
+draft: true
 categories:
   - personal
 tags:

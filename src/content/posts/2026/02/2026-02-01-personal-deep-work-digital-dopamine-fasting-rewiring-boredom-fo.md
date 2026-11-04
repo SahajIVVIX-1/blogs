@@ -1,6 +1,7 @@
 ---
 title: "Digital Dopamine Fasting: Rewiring Boredom for Breakthrough Problem-Solving: The Subconscious Incubation Effect"
 date: "2026-02-01"
+draft: true
 categories:
   - personal
 tags:

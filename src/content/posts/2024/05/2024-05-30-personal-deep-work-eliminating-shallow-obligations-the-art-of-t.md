@@ -1,6 +1,7 @@
 ---
 title: "Eliminating Shallow Obligations: The Art of Technical Refusal: Part IV: The Structural Mechanism"
 date: "2024-05-30"
+draft: true
 categories:
   - personal
 tags:

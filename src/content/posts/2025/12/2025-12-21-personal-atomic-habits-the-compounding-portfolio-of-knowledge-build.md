@@ -1,6 +1,7 @@
 ---
 title: "The Compounding Portfolio of Knowledge: Building Asymmetric Learning Curvature: The Art of Ruthless Execution"
 date: "2025-12-21"
+draft: true
 categories:
   - personal
 tags:

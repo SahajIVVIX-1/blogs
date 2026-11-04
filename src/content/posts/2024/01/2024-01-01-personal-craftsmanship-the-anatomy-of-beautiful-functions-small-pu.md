@@ -1,6 +1,7 @@
 ---
 title: "The Anatomy of Beautiful Functions: Small, Pure, and Unambiguous: Part II: The Daily Protocol"
 date: "2024-01-01"
+draft: true
 categories:
   - personal
 tags:

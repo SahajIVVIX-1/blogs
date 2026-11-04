@@ -1,6 +1,7 @@
 ---
 title: "Grit in Mathematics: Embracing the Confusion Phase as the Necessary Fore-runner of Insight: Why Most Engineers Fail Here"
 date: "2026-07-03"
+draft: true
 categories:
   - personal
 tags:

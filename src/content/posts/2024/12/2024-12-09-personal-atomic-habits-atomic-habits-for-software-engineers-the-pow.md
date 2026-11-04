@@ -1,6 +1,7 @@
 ---
 title: "Atomic Habits for Software Engineers: The Power of 1% Daily Improvements: Lessons from Systems Architecture"
 date: "2024-12-09"
+draft: true
 categories:
   - personal
 tags:

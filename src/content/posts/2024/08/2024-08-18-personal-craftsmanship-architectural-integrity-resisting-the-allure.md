@@ -1,6 +1,7 @@
 ---
 title: "Architectural Integrity: Resisting the Allure of Trendy Over-Engineering: A Practical Field Guide"
 date: "2024-08-18"
+draft: true
 categories:
   - personal
 tags:

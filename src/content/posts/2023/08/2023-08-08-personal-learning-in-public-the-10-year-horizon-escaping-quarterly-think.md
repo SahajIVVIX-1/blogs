@@ -1,6 +1,7 @@
 ---
 title: "The 10-Year Horizon: Escaping Quarterly Thinking and Investing in Fundamentals: Part I: The Psychological Foundation"
 date: "2023-08-08"
+draft: true
 categories:
   - personal
 tags:

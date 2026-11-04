@@ -1,6 +1,7 @@
 ---
 title: "The Art of Not Being Offended: Cultivating Intellectual Detachment: The Subconscious Incubation Effect"
 date: "2026-04-09"
+draft: true
 categories:
   - personal
 tags:

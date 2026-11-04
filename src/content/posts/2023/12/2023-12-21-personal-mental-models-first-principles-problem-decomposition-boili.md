@@ -1,6 +1,7 @@
 ---
 title: "First-Principles Problem Decomposition: Boiling Software Requirements to Bedrock Truths: Part II: The Daily Protocol"
 date: "2023-12-21"
+draft: true
 categories:
   - personal
 tags:

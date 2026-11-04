@@ -1,6 +1,7 @@
 ---
 title: "Habit Stacking in Developer Workflows: Anchoring Tests to Daily Triggers: A Practical Field Guide"
 date: "2024-07-14"
+draft: true
 categories:
   - personal
 tags:

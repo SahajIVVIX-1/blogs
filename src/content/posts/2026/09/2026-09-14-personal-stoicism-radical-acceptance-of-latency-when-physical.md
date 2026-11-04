@@ -1,6 +1,7 @@
 ---
 title: "Radical Acceptance of Latency: When Physical Constraints Meet Impatient Minds: A Framework for Deep Mastery"
 date: "2026-09-14"
+draft: true
 categories:
   - personal
 tags:

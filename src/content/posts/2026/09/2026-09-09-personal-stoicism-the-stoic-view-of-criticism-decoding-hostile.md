@@ -1,6 +1,7 @@
 ---
 title: "The Stoic View of Criticism: Decoding Hostile Code Reviews into Pure Data: A Framework for Deep Mastery"
 date: "2026-09-09"
+draft: true
 categories:
   - personal
 tags:

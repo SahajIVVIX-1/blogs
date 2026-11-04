@@ -1,6 +1,7 @@
 ---
 title: "The Courage to Say No: Protecting Your Engineering Core from Scope Creep: The Subconscious Incubation Effect"
 date: "2026-02-11"
+draft: true
 categories:
   - personal
 tags:

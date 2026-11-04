@@ -1,6 +1,7 @@
 ---
 title: "Single-Tasking as a Superpower: Why Multitasking is an Engineering Fallacy: Deconstructing the Cognitive Friction"
 date: "2024-11-27"
+draft: true
 categories:
   - personal
 tags:

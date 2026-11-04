@@ -1,6 +1,7 @@
 ---
 title: "Mastery of the Command Line: Treating Shell Scripting as an Artisan's Chisel: Lessons from Systems Architecture"
 date: "2025-02-25"
+draft: true
 categories:
   - personal
 tags:

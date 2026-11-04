@@ -1,6 +1,7 @@
 ---
 title: "Refactoring as Active Meditation: Finding Peace in Cleaning Structural Debt: The Subconscious Incubation Effect"
 date: "2026-02-10"
+draft: true
 categories:
   - personal
 tags:

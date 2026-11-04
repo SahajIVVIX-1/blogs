@@ -1,6 +1,7 @@
 ---
 title: "Writing as an Engine of Clarity: Why You Don't Understand What You Cannot Articulate: Part IV: The Structural Mechanism"
 date: "2024-05-24"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Eliminating Shallow Obligations: The Art of Technical Refusal: A Framework for Deep Mastery"
 date: "2026-08-28"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Pareto Optimization in Tooling: Finding the 20% of Tools Powering 80% of Leverage: Part III: The Mental Model Shift"
 date: "2024-03-01"
+draft: true
 categories:
   - personal
 tags:

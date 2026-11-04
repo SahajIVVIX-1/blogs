@@ -1,6 +1,7 @@
 ---
 title: "Chesterton's Fence in Code Refactoring: Understanding Why the Hack Was Written: The Subconscious Incubation Effect"
 date: "2026-02-04"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Attention Residue in Distributed Systems Design: The Hidden Tax of Slack: Part II: The Daily Protocol"
 date: "2023-11-10"
+draft: true
 categories:
   - personal
 tags:

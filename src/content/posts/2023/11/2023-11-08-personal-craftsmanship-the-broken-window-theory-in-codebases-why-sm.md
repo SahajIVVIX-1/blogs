@@ -1,6 +1,7 @@
 ---
 title: "The Broken Window Theory in Codebases: Why Small Warnings Snowball into Decay: Part II: The Daily Protocol"
 date: "2023-11-08"
+draft: true
 categories:
   - personal
 tags:

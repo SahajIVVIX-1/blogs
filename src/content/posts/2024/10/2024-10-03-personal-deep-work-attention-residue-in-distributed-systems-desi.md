@@ -1,6 +1,7 @@
 ---
 title: "Attention Residue in Distributed Systems Design: The Hidden Tax of Slack: Deconstructing the Cognitive Friction"
 date: "2024-10-03"
+draft: true
 categories:
   - personal
 tags:

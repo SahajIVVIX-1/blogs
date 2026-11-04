@@ -1,6 +1,7 @@
 ---
 title: "The Inner Citadel: Building an Unshakeable Core Against Technical Uncertainty: The Subconscious Incubation Effect"
 date: "2026-03-02"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Seneca's Letters on Time: Treating Working Hours as Non-Renewable Assets: The Subconscious Incubation Effect"
 date: "2026-02-08"
+draft: true
 categories:
   - personal
 tags:

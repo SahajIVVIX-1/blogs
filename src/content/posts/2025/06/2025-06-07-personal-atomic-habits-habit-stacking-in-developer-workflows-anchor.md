@@ -1,6 +1,7 @@
 ---
 title: "Habit Stacking in Developer Workflows: Anchoring Tests to Daily Triggers: The Stoic Lens"
 date: "2025-06-07"
+draft: true
 categories:
   - personal
 tags:

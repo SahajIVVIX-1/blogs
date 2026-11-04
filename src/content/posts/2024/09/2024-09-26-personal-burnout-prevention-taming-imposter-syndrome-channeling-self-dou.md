@@ -1,6 +1,7 @@
 ---
 title: "Taming Imposter Syndrome: Channeling Self-Doubt into Rigorous Code Verification: Deconstructing the Cognitive Friction"
 date: "2024-09-26"
+draft: true
 categories:
   - personal
 tags:

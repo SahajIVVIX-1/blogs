@@ -1,6 +1,7 @@
 ---
 title: "Deconstructing Procrastination: The Gap Between Intention and Micro-Action: Overcoming the Resistance"
 date: "2025-10-11"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Zen of Software Craftsmanship: Clean Interfaces as Moral Duty: Deconstructing the Cognitive Friction"
 date: "2024-09-20"
+draft: true
 categories:
   - personal
 tags:

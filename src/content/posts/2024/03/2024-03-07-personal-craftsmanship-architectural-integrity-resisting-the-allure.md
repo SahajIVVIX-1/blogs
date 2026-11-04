@@ -1,6 +1,7 @@
 ---
 title: "Architectural Integrity: Resisting the Allure of Trendy Over-Engineering: Part III: The Mental Model Shift"
 date: "2024-03-07"
+draft: true
 categories:
   - personal
 tags:

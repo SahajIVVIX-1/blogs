@@ -1,6 +1,7 @@
 ---
 title: "The 10-Year Horizon: Escaping Quarterly Thinking and Investing in Fundamentals: Part II: The Daily Protocol"
 date: "2023-10-29"
+draft: true
 categories:
   - personal
 tags:

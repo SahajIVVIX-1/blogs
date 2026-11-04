@@ -1,6 +1,7 @@
 ---
 title: "Writing Tests as a Love Letter to Your Future Self: The Discipline of TDD: Why Most Engineers Fail Here"
 date: "2026-06-16"
+draft: true
 categories:
   - personal
 tags:

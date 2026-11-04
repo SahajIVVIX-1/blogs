@@ -1,6 +1,7 @@
 ---
 title: "Lindy's Law for Technical Stacks: Bet on Technologies That Have Stood for Decades: Lessons from Systems Architecture"
 date: "2025-02-24"
+draft: true
 categories:
   - personal
 tags:

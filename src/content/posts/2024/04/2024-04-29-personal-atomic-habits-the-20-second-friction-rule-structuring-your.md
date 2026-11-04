@@ -1,6 +1,7 @@
 ---
 title: "The 20-Second Friction Rule: Structuring Your Environment for Immediate Action: Part IV: The Structural Mechanism"
 date: "2024-04-29"
+draft: true
 categories:
   - personal
 tags:

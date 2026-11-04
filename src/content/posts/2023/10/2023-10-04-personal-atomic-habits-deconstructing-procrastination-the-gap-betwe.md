@@ -1,6 +1,7 @@
 ---
 title: "Deconstructing Procrastination: The Gap Between Intention and Micro-Action: Part I: The Psychological Foundation"
 date: "2023-10-04"
+draft: true
 categories:
   - personal
 tags:

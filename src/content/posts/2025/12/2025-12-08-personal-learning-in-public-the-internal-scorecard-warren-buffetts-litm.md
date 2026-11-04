@@ -1,6 +1,7 @@
 ---
 title: "The Internal Scorecard: Warren Buffett's Litmus Test for Authentic Integrity: The Art of Ruthless Execution"
 date: "2025-12-08"
+draft: true
 categories:
   - personal
 tags:

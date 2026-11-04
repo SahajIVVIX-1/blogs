@@ -1,6 +1,7 @@
 ---
 title: "The Map is Not the Territory: Dissecting the Difference Between Spec and Reality: A Framework for Deep Mastery"
 date: "2026-08-09"
+draft: true
 categories:
   - personal
 tags:

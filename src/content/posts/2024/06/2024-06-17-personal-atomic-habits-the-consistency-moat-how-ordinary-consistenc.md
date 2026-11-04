@@ -1,6 +1,7 @@
 ---
 title: "The Consistency Moat: How Ordinary Consistency Beats Occasional Genius: Part IV: The Structural Mechanism"
 date: "2024-06-17"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Attention Residue in Distributed Systems Design: The Hidden Tax of Slack: Why Most Engineers Fail Here"
 date: "2026-04-30"
+draft: true
 categories:
   - personal
 tags:

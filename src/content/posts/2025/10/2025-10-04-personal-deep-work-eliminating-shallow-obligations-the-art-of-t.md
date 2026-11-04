@@ -1,6 +1,7 @@
 ---
 title: "Eliminating Shallow Obligations: The Art of Technical Refusal: Overcoming the Resistance"
 date: "2025-10-04"
+draft: true
 categories:
   - personal
 tags:

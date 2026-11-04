@@ -1,6 +1,7 @@
 ---
 title: "Occam's Razor vs Hickam's Dictum: Diagnosing Concurrency Bugs with Elegance: Part III: The Mental Model Shift"
 date: "2024-02-08"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Sleep Architecture & Cognitive Retention: Optimizing SWS for Math Mastery: The First-Principles Analysis"
 date: "2025-04-14"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Compounding Portfolio of Knowledge: Building Asymmetric Learning Curvature: The First-Principles Analysis"
 date: "2025-04-19"
+draft: true
 categories:
   - personal
 tags:

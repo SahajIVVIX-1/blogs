@@ -1,6 +1,7 @@
 ---
 title: "Memento Mori for Founders & Engineers: Keeping Stress in Cosmic Perspective: A Practical Field Guide"
 date: "2024-07-25"
+draft: true
 categories:
   - personal
 tags:

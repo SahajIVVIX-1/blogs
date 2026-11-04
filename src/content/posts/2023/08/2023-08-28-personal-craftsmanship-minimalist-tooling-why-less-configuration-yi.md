@@ -1,6 +1,7 @@
 ---
 title: "Minimalist Tooling: Why Less Configuration Yields Superior Engineering Velocity: Part I: The Psychological Foundation"
 date: "2023-08-28"
+draft: true
 categories:
   - personal
 tags:

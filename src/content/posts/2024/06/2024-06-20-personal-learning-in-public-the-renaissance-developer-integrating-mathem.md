@@ -1,6 +1,7 @@
 ---
 title: "The Renaissance Developer: Integrating Mathematics, Art, Hardware, and Code: Part IV: The Structural Mechanism"
 date: "2024-06-20"
+draft: true
 categories:
   - personal
 tags:

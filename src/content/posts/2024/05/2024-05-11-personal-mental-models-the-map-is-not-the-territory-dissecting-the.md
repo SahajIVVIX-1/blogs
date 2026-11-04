@@ -1,6 +1,7 @@
 ---
 title: "The Map is Not the Territory: Dissecting the Difference Between Spec and Reality: Part IV: The Structural Mechanism"
 date: "2024-05-11"
+draft: true
 categories:
   - personal
 tags:

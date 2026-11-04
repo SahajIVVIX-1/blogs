@@ -1,6 +1,7 @@
 ---
 title: "The Exponential Growth of Skill: Why Micro-Progress Trumps Heroic Sprints: Lessons from Systems Architecture"
 date: "2024-12-15"
+draft: true
 categories:
   - personal
 tags:

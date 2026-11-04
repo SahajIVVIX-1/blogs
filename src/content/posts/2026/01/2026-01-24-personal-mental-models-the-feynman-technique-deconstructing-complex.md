@@ -1,6 +1,7 @@
 ---
 title: "The Feynman Technique: Deconstructing Complex Algorithms to First Principles: The Subconscious Incubation Effect"
 date: "2026-01-24"
+draft: true
 categories:
   - personal
 tags:

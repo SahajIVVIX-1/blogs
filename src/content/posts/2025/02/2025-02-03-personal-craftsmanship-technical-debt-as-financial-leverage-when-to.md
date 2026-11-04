@@ -1,6 +1,7 @@
 ---
 title: "Technical Debt as Financial Leverage: When to Borrow and When to Repay: Lessons from Systems Architecture"
 date: "2025-02-03"
+draft: true
 categories:
   - personal
 tags:

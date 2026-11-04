@@ -1,6 +1,7 @@
 ---
 title: "The Consistency Moat: How Ordinary Consistency Beats Occasional Genius: A Practical Field Guide"
 date: "2024-09-07"
+draft: true
 categories:
   - personal
 tags:

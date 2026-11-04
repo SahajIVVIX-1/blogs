@@ -1,6 +1,7 @@
 ---
 title: "The Circle of Competence: Recognizing the Exact Boundary of Your Engineering Knowledge: Part I: The Psychological Foundation"
 date: "2023-09-02"
+draft: true
 categories:
   - personal
 tags:

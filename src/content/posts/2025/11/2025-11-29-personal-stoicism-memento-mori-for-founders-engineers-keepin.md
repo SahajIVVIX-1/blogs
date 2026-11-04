@@ -1,6 +1,7 @@
 ---
 title: "Memento Mori for Founders & Engineers: Keeping Stress in Cosmic Perspective: The Art of Ruthless Execution"
 date: "2025-11-29"
+draft: true
 categories:
   - personal
 tags:

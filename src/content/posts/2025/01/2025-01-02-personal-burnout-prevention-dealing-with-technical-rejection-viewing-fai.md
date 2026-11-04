@@ -1,6 +1,7 @@
 ---
 title: "Dealing with Technical Rejection: Viewing Failed RFCs as Data Extraction: Lessons from Systems Architecture"
 date: "2025-01-02"
+draft: true
 categories:
   - personal
 tags:

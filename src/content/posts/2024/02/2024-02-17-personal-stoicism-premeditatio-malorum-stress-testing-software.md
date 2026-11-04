@@ -1,6 +1,7 @@
 ---
 title: "Premeditatio Malorum: Stress-Testing Software Psychology with Inversion: Part III: The Mental Model Shift"
 date: "2024-02-17"
+draft: true
 categories:
   - personal
 tags:

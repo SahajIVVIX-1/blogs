@@ -1,6 +1,7 @@
 ---
 title: "Asynchronous Engineering: Escaping the Instant Gratification Communication Trap: The Stoic Lens"
 date: "2025-06-17"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Chesterton's Fence in Code Refactoring: Understanding Why the Hack Was Written: Part II: The Daily Protocol"
 date: "2023-11-07"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Courage to Say No: Protecting Your Engineering Core from Scope Creep: Part I: The Psychological Foundation"
 date: "2023-08-24"
+draft: true
 categories:
   - personal
 tags:

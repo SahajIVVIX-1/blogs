@@ -1,6 +1,7 @@
 ---
 title: "Weekly Cadences: The Power of Sunday Engineering Audits & Retrospectives: The First-Principles Analysis"
 date: "2025-05-17"
+draft: true
 categories:
   - personal
 tags:

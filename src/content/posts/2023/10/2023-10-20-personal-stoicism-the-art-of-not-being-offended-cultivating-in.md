@@ -1,6 +1,7 @@
 ---
 title: "The Art of Not Being Offended: Cultivating Intellectual Detachment: Part I: The Psychological Foundation"
 date: "2023-10-20"
+draft: true
 categories:
   - personal
 tags:

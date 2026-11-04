@@ -1,6 +1,7 @@
 ---
 title: "Technical Debt as Financial Leverage: When to Borrow and When to Repay: The First-Principles Analysis"
 date: "2025-04-26"
+draft: true
 categories:
   - personal
 tags:

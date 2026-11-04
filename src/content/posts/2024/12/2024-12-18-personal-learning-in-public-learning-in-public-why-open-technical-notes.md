@@ -1,6 +1,7 @@
 ---
 title: "Learning in Public: Why Open Technical Notes Create Unstoppable Serendipity: Lessons from Systems Architecture"
 date: "2024-12-18"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Craftsman vs The Mercenary: Choosing Deep Fulfillment Over Superficial Hype: Lessons from Systems Architecture"
 date: "2025-01-30"
+draft: true
 categories:
   - personal
 tags:

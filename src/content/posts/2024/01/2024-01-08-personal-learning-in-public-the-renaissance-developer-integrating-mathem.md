@@ -1,6 +1,7 @@
 ---
 title: "The Renaissance Developer: Integrating Mathematics, Art, Hardware, and Code: Part II: The Daily Protocol"
 date: "2024-01-08"
+draft: true
 categories:
   - personal
 tags:

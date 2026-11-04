@@ -1,6 +1,7 @@
 ---
 title: "The Wealth of Free Time: Valuing Autonomous Schedule Control Above Raw Status: Part II: The Daily Protocol"
 date: "2024-01-14"
+draft: true
 categories:
   - personal
 tags:

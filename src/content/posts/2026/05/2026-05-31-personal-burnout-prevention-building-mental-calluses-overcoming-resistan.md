@@ -1,6 +1,7 @@
 ---
 title: "Building Mental Calluses: Overcoming Resistance to Difficult Theoretical Proofs: Why Most Engineers Fail Here"
 date: "2026-05-31"
+draft: true
 categories:
   - personal
 tags:

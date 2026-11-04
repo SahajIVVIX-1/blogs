@@ -1,6 +1,7 @@
 ---
 title: "The Myth of the 10x Engineer: Consistent Pragmatism Beats Sporadic Heroics: The Art of Ruthless Execution"
 date: "2025-12-17"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Inner Citadel: Building an Unshakeable Core Against Technical Uncertainty: Part I: The Psychological Foundation"
 date: "2023-09-12"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Mastery of the Command Line: Treating Shell Scripting as an Artisan's Chisel: Part IV: The Structural Mechanism"
 date: "2024-06-24"
+draft: true
 categories:
   - personal
 tags:

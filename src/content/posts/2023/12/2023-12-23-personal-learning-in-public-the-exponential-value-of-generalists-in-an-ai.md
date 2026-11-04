@@ -1,6 +1,7 @@
 ---
 title: "The Exponential Value of Generalists in an AI-Accelerated World: Part II: The Daily Protocol"
 date: "2023-12-23"
+draft: true
 categories:
   - personal
 tags:

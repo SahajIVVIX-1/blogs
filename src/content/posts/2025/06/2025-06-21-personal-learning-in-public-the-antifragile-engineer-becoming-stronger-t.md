@@ -1,6 +1,7 @@
 ---
 title: "The Antifragile Engineer: Becoming Stronger Through Unexpected Cluster Failures: The Stoic Lens"
 date: "2025-06-21"
+draft: true
 categories:
   - personal
 tags:

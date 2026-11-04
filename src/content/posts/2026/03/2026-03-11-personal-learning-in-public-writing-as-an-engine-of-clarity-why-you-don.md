@@ -1,6 +1,7 @@
 ---
 title: "Writing as an Engine of Clarity: Why You Don't Understand What You Cannot Articulate: The Subconscious Incubation Effect"
 date: "2026-03-11"
+draft: true
 categories:
   - personal
 tags:

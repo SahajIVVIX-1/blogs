@@ -1,6 +1,7 @@
 ---
 title: "Documentation as Clarifying Thought: Writing Before Implementation: The Art of Ruthless Execution"
 date: "2026-01-14"
+draft: true
 categories:
   - personal
 tags:

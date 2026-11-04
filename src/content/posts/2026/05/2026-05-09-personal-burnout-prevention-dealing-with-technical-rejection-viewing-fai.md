@@ -1,6 +1,7 @@
 ---
 title: "Dealing with Technical Rejection: Viewing Failed RFCs as Data Extraction: Why Most Engineers Fail Here"
 date: "2026-05-09"
+draft: true
 categories:
   - personal
 tags:

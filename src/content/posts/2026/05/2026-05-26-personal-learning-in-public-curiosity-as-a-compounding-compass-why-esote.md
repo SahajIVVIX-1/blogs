@@ -1,6 +1,7 @@
 ---
 title: "Curiosity as a Compounding Compass: Why Esoteric Math Yields the Best Innovations: Why Most Engineers Fail Here"
 date: "2026-05-26"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Ergodicity in Engineering Careers: Avoiding Strategies with Non-Zero Ruin Probability: Deconstructing the Cognitive Friction"
 date: "2024-10-27"
+draft: true
 categories:
   - personal
 tags:

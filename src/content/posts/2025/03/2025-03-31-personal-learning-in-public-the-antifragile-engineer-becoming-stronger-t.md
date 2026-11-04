@@ -1,6 +1,7 @@
 ---
 title: "The Antifragile Engineer: Becoming Stronger Through Unexpected Cluster Failures: The First-Principles Analysis"
 date: "2025-03-31"
+draft: true
 categories:
   - personal
 tags:

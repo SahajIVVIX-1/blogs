@@ -1,6 +1,7 @@
 ---
 title: "The Solitary Walker: Why Daily 30-Minute Walks Unlock Stuck Algorithms: The Subconscious Incubation Effect"
 date: "2026-04-01"
+draft: true
 categories:
   - personal
 tags:

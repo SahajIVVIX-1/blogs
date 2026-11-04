@@ -1,6 +1,7 @@
 ---
 title: "Mastery of the Command Line: Treating Shell Scripting as an Artisan's Chisel: Part II: The Daily Protocol"
 date: "2024-01-12"
+draft: true
 categories:
   - personal
 tags:

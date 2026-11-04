@@ -1,6 +1,7 @@
 ---
 title: "The 20-Second Friction Rule: Structuring Your Environment for Immediate Action: The Stoic Lens"
 date: "2025-06-13"
+draft: true
 categories:
   - personal
 tags:

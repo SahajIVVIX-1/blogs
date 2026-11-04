@@ -1,6 +1,7 @@
 ---
 title: "The Antidote to Cynicism in Big Tech: Anchoring to Fundamental Curiosity: The Art of Ruthless Execution"
 date: "2025-12-29"
+draft: true
 categories:
   - personal
 tags:

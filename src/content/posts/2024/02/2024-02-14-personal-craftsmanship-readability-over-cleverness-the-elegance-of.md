@@ -1,6 +1,7 @@
 ---
 title: "Readability Over Cleverness: The Elegance of Code That Any Junior Can Audit: Part III: The Mental Model Shift"
 date: "2024-02-14"
+draft: true
 categories:
   - personal
 tags:

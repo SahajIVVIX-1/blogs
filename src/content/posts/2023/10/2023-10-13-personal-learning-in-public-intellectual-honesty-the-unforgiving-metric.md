@@ -1,6 +1,7 @@
 ---
 title: "Intellectual Honesty: The Unforgiving Metric of the True Scientist: Part I: The Psychological Foundation"
 date: "2023-10-13"
+draft: true
 categories:
   - personal
 tags:

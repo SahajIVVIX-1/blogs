@@ -1,6 +1,7 @@
 ---
 title: "The Architecture of Solitude: Why Deep Thinking Requires Absolute Silence: The Art of Ruthless Execution"
 date: "2025-12-31"
+draft: true
 categories:
   - personal
 tags:

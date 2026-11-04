@@ -1,6 +1,7 @@
 ---
 title: "Identity-Based Change: Evolving from 'Aspiring Coder' to 'Disciplined Builder': Part II: The Daily Protocol"
 date: "2023-11-06"
+draft: true
 categories:
   - personal
 tags:

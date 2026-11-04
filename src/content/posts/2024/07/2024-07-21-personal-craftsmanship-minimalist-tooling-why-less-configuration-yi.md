@@ -1,6 +1,7 @@
 ---
 title: "Minimalist Tooling: Why Less Configuration Yields Superior Engineering Velocity: A Practical Field Guide"
 date: "2024-07-21"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Dichotomy of Control in Production Crises: Staying Calm Under P0 Alerts: Part I: The Psychological Foundation"
 date: "2023-08-04"
+draft: true
 categories:
   - personal
 tags:

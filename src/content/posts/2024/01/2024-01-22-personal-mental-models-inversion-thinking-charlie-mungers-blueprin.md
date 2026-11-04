@@ -1,6 +1,7 @@
 ---
 title: "Inversion Thinking: Charlie Munger's Blueprint for Avoiding Catastrophic Architecture: Part III: The Mental Model Shift"
 date: "2024-01-22"
+draft: true
 categories:
   - personal
 tags:

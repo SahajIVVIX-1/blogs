@@ -1,6 +1,7 @@
 ---
 title: "The Antifragile Engineer: Becoming Stronger Through Unexpected Cluster Failures: Part III: The Mental Model Shift"
 date: "2024-02-16"
+draft: true
 categories:
   - personal
 tags:

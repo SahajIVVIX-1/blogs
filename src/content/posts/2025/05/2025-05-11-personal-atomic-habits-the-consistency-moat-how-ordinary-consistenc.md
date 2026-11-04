@@ -1,6 +1,7 @@
 ---
 title: "The Consistency Moat: How Ordinary Consistency Beats Occasional Genius: The First-Principles Analysis"
 date: "2025-05-11"
+draft: true
 categories:
   - personal
 tags:

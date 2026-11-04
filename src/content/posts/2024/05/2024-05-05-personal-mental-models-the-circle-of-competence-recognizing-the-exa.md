@@ -1,6 +1,7 @@
 ---
 title: "The Circle of Competence: Recognizing the Exact Boundary of Your Engineering Knowledge: Part IV: The Structural Mechanism"
 date: "2024-05-05"
+draft: true
 categories:
   - personal
 tags:

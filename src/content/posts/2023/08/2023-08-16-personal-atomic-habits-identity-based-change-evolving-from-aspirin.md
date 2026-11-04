@@ -1,6 +1,7 @@
 ---
 title: "Identity-Based Change: Evolving from 'Aspiring Coder' to 'Disciplined Builder': Part I: The Psychological Foundation"
 date: "2023-08-16"
+draft: true
 categories:
   - personal
 tags:

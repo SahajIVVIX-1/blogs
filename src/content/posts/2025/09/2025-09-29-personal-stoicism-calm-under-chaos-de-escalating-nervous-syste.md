@@ -1,6 +1,7 @@
 ---
 title: "Calm Under Chaos: De-escalating Nervous System Arousal During Live Deployments: Overcoming the Resistance"
 date: "2025-09-29"
+draft: true
 categories:
   - personal
 tags:

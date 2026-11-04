@@ -1,6 +1,7 @@
 ---
 title: "Process Over Outcome: Why Systems-Focused Engineers Outperform Dreamers: Part IV: The Structural Mechanism"
 date: "2024-05-10"
+draft: true
 categories:
   - personal
 tags:

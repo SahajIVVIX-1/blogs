@@ -1,6 +1,7 @@
 ---
 title: "Writing Tests as a Love Letter to Your Future Self: The Discipline of TDD: The First-Principles Analysis"
 date: "2025-05-02"
+draft: true
 categories:
   - personal
 tags:

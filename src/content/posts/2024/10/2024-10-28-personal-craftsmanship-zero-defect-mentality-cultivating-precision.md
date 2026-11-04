@@ -1,6 +1,7 @@
 ---
 title: "Zero-Defect Mentality: Cultivating Precision Without Becoming Paralyzed: Deconstructing the Cognitive Friction"
 date: "2024-10-28"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Active Rest vs Passive Numbing: Why Scrolling Social Feeds Prevents Real Recovery: A Practical Field Guide"
 date: "2024-08-19"
+draft: true
 categories:
   - personal
 tags:

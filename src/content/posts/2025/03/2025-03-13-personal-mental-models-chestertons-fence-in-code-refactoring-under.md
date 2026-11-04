@@ -1,6 +1,7 @@
 ---
 title: "Chesterton's Fence in Code Refactoring: Understanding Why the Hack Was Written: The First-Principles Analysis"
 date: "2025-03-13"
+draft: true
 categories:
   - personal
 tags:

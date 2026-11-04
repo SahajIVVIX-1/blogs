@@ -1,6 +1,7 @@
 ---
 title: "Premeditatio Malorum: Stress-Testing Software Psychology with Inversion: Lessons from Systems Architecture"
 date: "2025-01-10"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Anatomy of Beautiful Functions: Small, Pure, and Unambiguous: A Practical Field Guide"
 date: "2024-09-03"
+draft: true
 categories:
   - personal
 tags:

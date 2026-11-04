@@ -1,6 +1,7 @@
 ---
 title: "Intellectual Honesty: The Unforgiving Metric of the True Scientist: Part IV: The Structural Mechanism"
 date: "2024-06-15"
+draft: true
 categories:
   - personal
 tags:

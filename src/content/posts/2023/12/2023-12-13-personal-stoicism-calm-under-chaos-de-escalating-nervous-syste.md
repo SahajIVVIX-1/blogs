@@ -1,6 +1,7 @@
 ---
 title: "Calm Under Chaos: De-escalating Nervous System Arousal During Live Deployments: Part II: The Daily Protocol"
 date: "2023-12-13"
+draft: true
 categories:
   - personal
 tags:

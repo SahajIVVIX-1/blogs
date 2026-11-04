@@ -1,6 +1,7 @@
 ---
 title: "Grit in Mathematics: Embracing the Confusion Phase as the Necessary Fore-runner of Insight: Deconstructing the Cognitive Friction"
 date: "2024-12-06"
+draft: true
 categories:
   - personal
 tags:

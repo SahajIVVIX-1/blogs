@@ -1,6 +1,7 @@
 ---
 title: "The Exponential Growth of Skill: Why Micro-Progress Trumps Heroic Sprints: A Letter to My Future Self"
 date: "2026-10-01"
+draft: true
 categories:
   - personal
 tags:

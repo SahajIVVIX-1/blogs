@@ -1,6 +1,7 @@
 ---
 title: "The 10-Year Horizon: Escaping Quarterly Thinking and Investing in Fundamentals: The First-Principles Analysis"
 date: "2025-03-04"
+draft: true
 categories:
   - personal
 tags:

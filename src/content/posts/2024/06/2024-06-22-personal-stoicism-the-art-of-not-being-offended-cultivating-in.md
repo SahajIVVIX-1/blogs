@@ -1,6 +1,7 @@
 ---
 title: "The Art of Not Being Offended: Cultivating Intellectual Detachment: Part IV: The Structural Mechanism"
 date: "2024-06-22"
+draft: true
 categories:
   - personal
 tags:

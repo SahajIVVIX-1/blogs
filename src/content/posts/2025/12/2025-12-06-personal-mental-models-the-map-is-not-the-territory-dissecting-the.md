@@ -1,6 +1,7 @@
 ---
 title: "The Map is Not the Territory: Dissecting the Difference Between Spec and Reality: The Art of Ruthless Execution"
 date: "2025-12-06"
+draft: true
 categories:
   - personal
 tags:

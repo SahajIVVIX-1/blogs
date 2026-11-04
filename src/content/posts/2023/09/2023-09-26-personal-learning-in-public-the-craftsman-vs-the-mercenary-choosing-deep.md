@@ -1,6 +1,7 @@
 ---
 title: "The Craftsman vs The Mercenary: Choosing Deep Fulfillment Over Superficial Hype: Part I: The Psychological Foundation"
 date: "2023-09-26"
+draft: true
 categories:
   - personal
 tags:

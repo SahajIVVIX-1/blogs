@@ -1,6 +1,7 @@
 ---
 title: "Documentation as Clarifying Thought: Writing Before Implementation: Part III: The Mental Model Shift"
 date: "2024-03-29"
+draft: true
 categories:
   - personal
 tags:

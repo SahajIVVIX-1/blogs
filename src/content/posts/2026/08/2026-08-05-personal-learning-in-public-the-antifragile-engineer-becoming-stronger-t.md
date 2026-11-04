@@ -1,6 +1,7 @@
 ---
 title: "The Antifragile Engineer: Becoming Stronger Through Unexpected Cluster Failures: A Framework for Deep Mastery"
 date: "2026-08-05"
+draft: true
 categories:
   - personal
 tags:

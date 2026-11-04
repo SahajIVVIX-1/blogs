@@ -1,6 +1,7 @@
 ---
 title: "Equanimity as an Algorithmic Advantage: Why Calm Engineers Solve Faster: Part II: The Daily Protocol"
 date: "2023-12-24"
+draft: true
 categories:
   - personal
 tags:

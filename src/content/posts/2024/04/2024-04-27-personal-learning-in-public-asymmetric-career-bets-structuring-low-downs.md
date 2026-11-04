@@ -1,6 +1,7 @@
 ---
 title: "Asymmetric Career Bets: Structuring Low Downside with Infinite Upside: Part IV: The Structural Mechanism"
 date: "2024-04-27"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Courage to Say No: Protecting Your Engineering Core from Scope Creep: The First-Principles Analysis"
 date: "2025-03-20"
+draft: true
 categories:
   - personal
 tags:

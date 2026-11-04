@@ -1,6 +1,7 @@
 ---
 title: "Eliminating Shallow Obligations: The Art of Technical Refusal: The Stoic Lens"
 date: "2025-07-14"
+draft: true
 categories:
   - personal
 tags:

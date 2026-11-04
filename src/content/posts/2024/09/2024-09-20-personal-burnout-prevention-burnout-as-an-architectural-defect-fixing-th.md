@@ -1,6 +1,7 @@
 ---
 title: "Burnout as an Architectural Defect: Fixing the Asymmetry of Input and Recovery: Deconstructing the Cognitive Friction"
 date: "2024-09-20"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Marcus Aurelius on Legacy Code: Maintaining Equanimity with Imperfect Systems: Part III: The Mental Model Shift"
 date: "2024-01-26"
+draft: true
 categories:
   - personal
 tags:

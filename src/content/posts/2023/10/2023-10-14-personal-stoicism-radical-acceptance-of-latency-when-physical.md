@@ -1,6 +1,7 @@
 ---
 title: "Radical Acceptance of Latency: When Physical Constraints Meet Impatient Minds: Part I: The Psychological Foundation"
 date: "2023-10-14"
+draft: true
 categories:
   - personal
 tags:

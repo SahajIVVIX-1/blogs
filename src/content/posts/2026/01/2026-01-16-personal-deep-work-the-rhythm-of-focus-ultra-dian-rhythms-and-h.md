@@ -1,6 +1,7 @@
 ---
 title: "The Rhythm of Focus: Ultra-Dian Rhythms and High-Performance Coding Sprints: The Art of Ruthless Execution"
 date: "2026-01-16"
+draft: true
 categories:
   - personal
 tags:

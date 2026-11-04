@@ -1,6 +1,7 @@
 ---
 title: "Asymmetric Career Bets: Structuring Low Downside with Infinite Upside: Part I: The Psychological Foundation"
 date: "2023-08-25"
+draft: true
 categories:
   - personal
 tags:

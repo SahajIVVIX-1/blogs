@@ -1,6 +1,7 @@
 ---
 title: "Taming Imposter Syndrome: Channeling Self-Doubt into Rigorous Code Verification: Part IV: The Structural Mechanism"
 date: "2024-04-15"
+draft: true
 categories:
   - personal
 tags:

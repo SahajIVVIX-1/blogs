@@ -1,6 +1,7 @@
 ---
 title: "The 20-Second Friction Rule: Structuring Your Environment for Immediate Action: Overcoming the Resistance"
 date: "2025-09-03"
+draft: true
 categories:
   - personal
 tags:

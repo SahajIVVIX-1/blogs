@@ -1,6 +1,7 @@
 ---
 title: "The Courage to Say No: Protecting Your Engineering Core from Scope Creep: Deconstructing the Cognitive Friction"
 date: "2024-10-07"
+draft: true
 categories:
   - personal
 tags:

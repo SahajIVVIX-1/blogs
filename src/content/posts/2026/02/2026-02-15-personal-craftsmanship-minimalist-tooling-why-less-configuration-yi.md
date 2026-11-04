@@ -1,6 +1,7 @@
 ---
 title: "Minimalist Tooling: Why Less Configuration Yields Superior Engineering Velocity: The Subconscious Incubation Effect"
 date: "2026-02-15"
+draft: true
 categories:
   - personal
 tags:

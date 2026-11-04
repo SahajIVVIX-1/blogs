@@ -1,6 +1,7 @@
 ---
 title: "Learning in Public: Why Open Technical Notes Create Unstoppable Serendipity: The Subconscious Incubation Effect"
 date: "2026-02-01"
+draft: true
 categories:
   - personal
 tags:

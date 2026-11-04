@@ -1,6 +1,7 @@
 ---
 title: "Writing as an Engine of Clarity: Why You Don't Understand What You Cannot Articulate: The Art of Ruthless Execution"
 date: "2025-12-19"
+draft: true
 categories:
   - personal
 tags:

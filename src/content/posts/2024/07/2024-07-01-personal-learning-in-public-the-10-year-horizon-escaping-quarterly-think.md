@@ -1,6 +1,7 @@
 ---
 title: "The 10-Year Horizon: Escaping Quarterly Thinking and Investing in Fundamentals: A Practical Field Guide"
 date: "2024-07-01"
+draft: true
 categories:
   - personal
 tags:

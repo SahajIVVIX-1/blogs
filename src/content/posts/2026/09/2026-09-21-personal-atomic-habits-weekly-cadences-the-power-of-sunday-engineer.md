@@ -1,6 +1,7 @@
 ---
 title: "Weekly Cadences: The Power of Sunday Engineering Audits & Retrospectives: A Framework for Deep Mastery"
 date: "2026-09-21"
+draft: true
 categories:
   - personal
 tags:

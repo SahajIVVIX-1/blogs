@@ -1,6 +1,7 @@
 ---
 title: "Epictetus on Perceptions: Outages are Neutral, Only Panicked Reactions Destroy: Overcoming the Resistance"
 date: "2025-09-02"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Building Mental Calluses: Overcoming Resistance to Difficult Theoretical Proofs: The First-Principles Analysis"
 date: "2025-04-16"
+draft: true
 categories:
   - personal
 tags:

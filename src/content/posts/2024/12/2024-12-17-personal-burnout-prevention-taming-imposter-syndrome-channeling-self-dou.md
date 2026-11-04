@@ -1,6 +1,7 @@
 ---
 title: "Taming Imposter Syndrome: Channeling Self-Doubt into Rigorous Code Verification: Lessons from Systems Architecture"
 date: "2024-12-17"
+draft: true
 categories:
   - personal
 tags:

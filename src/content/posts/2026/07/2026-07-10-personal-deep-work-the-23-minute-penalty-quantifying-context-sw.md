@@ -1,6 +1,7 @@
 ---
 title: "The 23-Minute Penalty: Quantifying Context-Switching in Complex Systems: A Framework for Deep Mastery"
 date: "2026-07-10"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Courage to Say No: Protecting Your Engineering Core from Scope Creep: Lessons from Systems Architecture"
 date: "2024-12-28"
+draft: true
 categories:
   - personal
 tags:

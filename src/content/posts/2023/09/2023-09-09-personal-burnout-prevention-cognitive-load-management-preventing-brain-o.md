@@ -1,6 +1,7 @@
 ---
 title: "Cognitive Load Management: Preventing Brain Overflow in Dense Systems: Part I: The Psychological Foundation"
 date: "2023-09-09"
+draft: true
 categories:
   - personal
 tags:

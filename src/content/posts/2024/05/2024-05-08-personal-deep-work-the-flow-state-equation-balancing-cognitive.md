@@ -1,6 +1,7 @@
 ---
 title: "The Flow State Equation: Balancing Cognitive Load Against Skill Thresholds: Part IV: The Structural Mechanism"
 date: "2024-05-08"
+draft: true
 categories:
   - personal
 tags:

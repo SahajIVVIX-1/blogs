@@ -1,6 +1,7 @@
 ---
 title: "Intellectual Honesty: The Unforgiving Metric of the True Scientist: Part III: The Mental Model Shift"
 date: "2024-03-25"
+draft: true
 categories:
   - personal
 tags:

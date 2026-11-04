@@ -1,6 +1,7 @@
 ---
 title: "Documentation as Clarifying Thought: Writing Before Implementation: Why Most Engineers Fail Here"
 date: "2026-06-27"
+draft: true
 categories:
   - personal
 tags:

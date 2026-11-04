@@ -1,6 +1,7 @@
 ---
 title: "Cognitive Load Management: Preventing Brain Overflow in Dense Systems: A Letter to My Future Self"
 date: "2026-10-31"
+draft: true
 categories:
   - personal
 tags:

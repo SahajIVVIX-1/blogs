@@ -1,6 +1,7 @@
 ---
 title: "The Compounding Portfolio of Knowledge: Building Asymmetric Learning Curvature: Lessons from Systems Architecture"
 date: "2025-01-27"
+draft: true
 categories:
   - personal
 tags:

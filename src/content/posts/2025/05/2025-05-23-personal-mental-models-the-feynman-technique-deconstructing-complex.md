@@ -1,6 +1,7 @@
 ---
 title: "The Feynman Technique: Deconstructing Complex Algorithms to First Principles: The Stoic Lens"
 date: "2025-05-23"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Instrumenting Personal Growth: Treating Life Habits as a Observability Pipeline: The Art of Ruthless Execution"
 date: "2025-12-10"
+draft: true
 categories:
   - personal
 tags:

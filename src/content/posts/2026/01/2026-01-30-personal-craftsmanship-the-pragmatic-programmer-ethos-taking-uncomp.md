@@ -1,6 +1,7 @@
 ---
 title: "The Pragmatic Programmer Ethos: Taking Uncompromising Ownership of Code: The Subconscious Incubation Effect"
 date: "2026-01-30"
+draft: true
 categories:
   - personal
 tags:

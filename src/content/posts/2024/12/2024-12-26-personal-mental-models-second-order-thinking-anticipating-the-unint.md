@@ -1,6 +1,7 @@
 ---
 title: "Second-Order Thinking: Anticipating the Unintended Cascades of Microservices: Lessons from Systems Architecture"
 date: "2024-12-26"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Second-Order Thinking: Anticipating the Unintended Cascades of Microservices: Part I: The Psychological Foundation"
 date: "2023-08-22"
+draft: true
 categories:
   - personal
 tags:

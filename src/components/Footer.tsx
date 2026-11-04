@@ -21,7 +21,6 @@ export default function Footer() {
             <Link href="/study/" className="hover:text-ink transition-colors">Study</Link>
             <Link href="/papers/" className="hover:text-ink transition-colors">Papers</Link>
             <Link href="/ai/" className="hover:text-ink transition-colors">AI Releases</Link>
-            <Link href="/personal/" className="hover:text-ink transition-colors">Personal</Link>
             <Link href="/archive/" className="hover:text-ink transition-colors">Archive</Link>
             <Link href="/rss.xml" className="hover:text-ink transition-colors">RSS Feed</Link>
             <a href="https://github.com/SahajIVVIX-1" target="_blank" rel="noopener noreferrer" className="hover:text-ink transition-colors">

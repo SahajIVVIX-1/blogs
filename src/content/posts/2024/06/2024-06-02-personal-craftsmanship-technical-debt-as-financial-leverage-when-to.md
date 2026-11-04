@@ -1,6 +1,7 @@
 ---
 title: "Technical Debt as Financial Leverage: When to Borrow and When to Repay: Part IV: The Structural Mechanism"
 date: "2024-06-02"
+draft: true
 categories:
   - personal
 tags:

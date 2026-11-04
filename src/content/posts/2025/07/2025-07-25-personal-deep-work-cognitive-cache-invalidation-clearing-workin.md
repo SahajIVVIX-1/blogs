@@ -1,6 +1,7 @@
 ---
 title: "Cognitive Cache Invalidation: Clearing Working Memory Before Hard Architectural Pivots: The Stoic Lens"
 date: "2025-07-25"
+draft: true
 categories:
   - personal
 tags:

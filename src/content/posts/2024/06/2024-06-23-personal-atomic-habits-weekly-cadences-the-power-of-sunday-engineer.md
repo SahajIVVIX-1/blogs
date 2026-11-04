@@ -1,6 +1,7 @@
 ---
 title: "Weekly Cadences: The Power of Sunday Engineering Audits & Retrospectives: Part IV: The Structural Mechanism"
 date: "2024-06-23"
+draft: true
 categories:
   - personal
 tags:

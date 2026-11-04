@@ -1,6 +1,7 @@
 ---
 title: "Curiosity as a Compounding Compass: Why Esoteric Math Yields the Best Innovations: Deconstructing the Cognitive Friction"
 date: "2024-10-29"
+draft: true
 categories:
   - personal
 tags:

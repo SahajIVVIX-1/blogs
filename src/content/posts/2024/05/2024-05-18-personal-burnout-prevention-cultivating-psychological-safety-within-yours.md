@@ -1,6 +1,7 @@
 ---
 title: "Cultivating Psychological Safety Within Yourself: Forgiving Early Technical Mistakes: Part IV: The Structural Mechanism"
 date: "2024-05-18"
+draft: true
 categories:
   - personal
 tags:

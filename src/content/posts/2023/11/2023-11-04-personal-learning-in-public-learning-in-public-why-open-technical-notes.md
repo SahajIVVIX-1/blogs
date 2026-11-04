@@ -1,6 +1,7 @@
 ---
 title: "Learning in Public: Why Open Technical Notes Create Unstoppable Serendipity: Part II: The Daily Protocol"
 date: "2023-11-04"
+draft: true
 categories:
   - personal
 tags:

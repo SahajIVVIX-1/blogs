@@ -1,6 +1,7 @@
 ---
 title: "Zero-Defect Mentality: Cultivating Precision Without Becoming Paralyzed: The Art of Ruthless Execution"
 date: "2025-12-12"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Inner Citadel: Building an Unshakeable Core Against Technical Uncertainty: Part II: The Daily Protocol"
 date: "2023-12-03"
+draft: true
 categories:
   - personal
 tags:

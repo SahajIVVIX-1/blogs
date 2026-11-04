@@ -1,6 +1,7 @@
 ---
 title: "The Flow State Equation: Balancing Cognitive Load Against Skill Thresholds: Part II: The Daily Protocol"
 date: "2023-11-26"
+draft: true
 categories:
   - personal
 tags:

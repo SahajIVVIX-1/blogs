@@ -1,6 +1,7 @@
 ---
 title: "Probabilistic Thinking: Bayesian Updating in Ambiguous Debugging Scenarios: The Subconscious Incubation Effect"
 date: "2026-03-25"
+draft: true
 categories:
   - personal
 tags:

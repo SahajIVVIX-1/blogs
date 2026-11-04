@@ -1,6 +1,7 @@
 ---
 title: "Writing Tests as a Love Letter to Your Future Self: The Discipline of TDD: Part III: The Mental Model Shift"
 date: "2024-03-18"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Inversion Thinking: Charlie Munger's Blueprint for Avoiding Catastrophic Architecture: A Framework for Deep Mastery"
 date: "2026-07-12"
+draft: true
 categories:
   - personal
 tags:

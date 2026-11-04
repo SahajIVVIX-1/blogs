@@ -1,6 +1,7 @@
 ---
 title: "The Regret Minimization Framework: Making Bold Career Pivots Without Anxiety: Why Most Engineers Fail Here"
 date: "2026-06-04"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Voluntary Discomfort: Fasting, Cold Exposure, and Engineering Mental Toughness: Lessons from Systems Architecture"
 date: "2025-01-21"
+draft: true
 categories:
   - personal
 tags:

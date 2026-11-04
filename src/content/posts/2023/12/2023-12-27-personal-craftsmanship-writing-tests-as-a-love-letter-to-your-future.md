@@ -1,6 +1,7 @@
 ---
 title: "Writing Tests as a Love Letter to Your Future Self: The Discipline of TDD: Part II: The Daily Protocol"
 date: "2023-12-27"
+draft: true
 categories:
   - personal
 tags:

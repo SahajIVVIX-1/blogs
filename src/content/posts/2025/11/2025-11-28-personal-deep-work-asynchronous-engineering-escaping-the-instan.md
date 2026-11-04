@@ -1,6 +1,7 @@
 ---
 title: "Asynchronous Engineering: Escaping the Instant Gratification Communication Trap: The Art of Ruthless Execution"
 date: "2025-11-28"
+draft: true
 categories:
   - personal
 tags:

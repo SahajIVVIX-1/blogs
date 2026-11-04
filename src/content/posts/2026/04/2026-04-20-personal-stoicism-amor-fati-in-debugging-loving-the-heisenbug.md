@@ -1,6 +1,7 @@
 ---
 title: "Amor Fati in Debugging: Loving the Heisenbug That Forced Real Learning: Why Most Engineers Fail Here"
 date: "2026-04-20"
+draft: true
 categories:
   - personal
 tags:

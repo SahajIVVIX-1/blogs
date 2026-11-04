@@ -1,6 +1,7 @@
 ---
 title: "Instrumenting Personal Growth: Treating Life Habits as a Observability Pipeline: Overcoming the Resistance"
 date: "2025-09-19"
+draft: true
 categories:
   - personal
 tags:

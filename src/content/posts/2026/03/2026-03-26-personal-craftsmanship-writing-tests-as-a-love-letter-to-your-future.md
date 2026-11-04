@@ -1,6 +1,7 @@
 ---
 title: "Writing Tests as a Love Letter to Your Future Self: The Discipline of TDD: The Subconscious Incubation Effect"
 date: "2026-03-26"
+draft: true
 categories:
   - personal
 tags:

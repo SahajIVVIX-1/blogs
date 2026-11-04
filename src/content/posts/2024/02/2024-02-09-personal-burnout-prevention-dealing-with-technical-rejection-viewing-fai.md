@@ -1,6 +1,7 @@
 ---
 title: "Dealing with Technical Rejection: Viewing Failed RFCs as Data Extraction: Part III: The Mental Model Shift"
 date: "2024-02-09"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Radical Acceptance of Latency: When Physical Constraints Meet Impatient Minds: A Practical Field Guide"
 date: "2024-09-06"
+draft: true
 categories:
   - personal
 tags:

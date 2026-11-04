@@ -1,6 +1,7 @@
 ---
 title: "Process Over Outcome: Why Systems-Focused Engineers Outperform Dreamers: The Subconscious Incubation Effect"
 date: "2026-02-25"
+draft: true
 categories:
   - personal
 tags:

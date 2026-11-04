@@ -1,6 +1,7 @@
 ---
 title: "Occam's Razor vs Hickam's Dictum: Diagnosing Concurrency Bugs with Elegance: Part IV: The Structural Mechanism"
 date: "2024-04-30"
+draft: true
 categories:
   - personal
 tags:

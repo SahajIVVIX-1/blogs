@@ -1,6 +1,7 @@
 ---
 title: "The Rhythm of Focus: Ultra-Dian Rhythms and High-Performance Coding Sprints: Why Most Engineers Fail Here"
 date: "2026-06-29"
+draft: true
 categories:
   - personal
 tags:

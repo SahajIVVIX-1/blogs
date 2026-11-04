@@ -1,6 +1,7 @@
 ---
 title: "Single-Tasking as a Superpower: Why Multitasking is an Engineering Fallacy: Overcoming the Resistance"
 date: "2025-10-21"
+draft: true
 categories:
   - personal
 tags:

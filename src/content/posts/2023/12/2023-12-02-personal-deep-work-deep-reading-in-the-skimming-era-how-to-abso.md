@@ -1,6 +1,7 @@
 ---
 title: "Deep Reading in the Skimming Era: How to Absorb 500 Pages of Dense Theory: Part II: The Daily Protocol"
 date: "2023-12-02"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Craft of API Design: Building Intuitive, Misuse-Resistant Interfaces: Part IV: The Structural Mechanism"
 date: "2024-05-11"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Feynman Technique: Deconstructing Complex Algorithms to First Principles: Part IV: The Structural Mechanism"
 date: "2024-04-08"
+draft: true
 categories:
   - personal
 tags:

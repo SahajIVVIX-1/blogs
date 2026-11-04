@@ -1,6 +1,7 @@
 ---
 title: "Identity-Based Change: Evolving from 'Aspiring Coder' to 'Disciplined Builder': The Stoic Lens"
 date: "2025-06-02"
+draft: true
 categories:
   - personal
 tags:

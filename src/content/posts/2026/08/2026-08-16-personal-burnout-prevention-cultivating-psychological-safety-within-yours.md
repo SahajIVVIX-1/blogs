@@ -1,6 +1,7 @@
 ---
 title: "Cultivating Psychological Safety Within Yourself: Forgiving Early Technical Mistakes: A Framework for Deep Mastery"
 date: "2026-08-16"
+draft: true
 categories:
   - personal
 tags:

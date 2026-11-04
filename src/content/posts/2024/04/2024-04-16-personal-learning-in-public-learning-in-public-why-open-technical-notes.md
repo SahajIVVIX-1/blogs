@@ -1,6 +1,7 @@
 ---
 title: "Learning in Public: Why Open Technical Notes Create Unstoppable Serendipity: Part IV: The Structural Mechanism"
 date: "2024-04-16"
+draft: true
 categories:
   - personal
 tags:

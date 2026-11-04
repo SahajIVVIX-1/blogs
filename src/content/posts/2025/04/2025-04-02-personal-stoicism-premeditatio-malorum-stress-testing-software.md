@@ -1,6 +1,7 @@
 ---
 title: "Premeditatio Malorum: Stress-Testing Software Psychology with Inversion: The First-Principles Analysis"
 date: "2025-04-02"
+draft: true
 categories:
   - personal
 tags:

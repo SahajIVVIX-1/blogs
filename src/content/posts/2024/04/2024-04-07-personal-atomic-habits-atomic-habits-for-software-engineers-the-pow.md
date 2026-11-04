@@ -1,6 +1,7 @@
 ---
 title: "Atomic Habits for Software Engineers: The Power of 1% Daily Improvements: Part IV: The Structural Mechanism"
 date: "2024-04-07"
+draft: true
 categories:
   - personal
 tags:

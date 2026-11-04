@@ -1,6 +1,7 @@
 ---
 title: "Deconstructing Procrastination: The Gap Between Intention and Micro-Action: The Subconscious Incubation Effect"
 date: "2026-03-24"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Occam's Razor vs Hickam's Dictum: Diagnosing Concurrency Bugs with Elegance: The First-Principles Analysis"
 date: "2025-03-24"
+draft: true
 categories:
   - personal
 tags:

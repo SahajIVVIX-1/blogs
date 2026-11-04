@@ -1,6 +1,7 @@
 ---
 title: "The Exponential Growth of Skill: Why Micro-Progress Trumps Heroic Sprints: The First-Principles Analysis"
 date: "2025-03-07"
+draft: true
 categories:
   - personal
 tags:

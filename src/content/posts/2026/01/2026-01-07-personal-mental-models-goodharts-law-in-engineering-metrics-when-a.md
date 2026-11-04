@@ -1,6 +1,7 @@
 ---
 title: "Goodhart's Law in Engineering Metrics: When a Measure Becomes the Target: The Art of Ruthless Execution"
 date: "2026-01-07"
+draft: true
 categories:
   - personal
 tags:

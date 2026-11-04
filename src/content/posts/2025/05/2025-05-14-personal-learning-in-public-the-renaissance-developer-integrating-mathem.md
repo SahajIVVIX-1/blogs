@@ -1,6 +1,7 @@
 ---
 title: "The Renaissance Developer: Integrating Mathematics, Art, Hardware, and Code: The First-Principles Analysis"
 date: "2025-05-14"
+draft: true
 categories:
   - personal
 tags:

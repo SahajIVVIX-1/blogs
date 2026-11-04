@@ -1,6 +1,7 @@
 ---
 title: "The Pragmatic Programmer Ethos: Taking Uncompromising Ownership of Code: A Practical Field Guide"
 date: "2024-07-05"
+draft: true
 categories:
   - personal
 tags:

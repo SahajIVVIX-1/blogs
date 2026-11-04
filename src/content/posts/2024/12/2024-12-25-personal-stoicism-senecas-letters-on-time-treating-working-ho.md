@@ -1,6 +1,7 @@
 ---
 title: "Seneca's Letters on Time: Treating Working Hours as Non-Renewable Assets: Lessons from Systems Architecture"
 date: "2024-12-25"
+draft: true
 categories:
   - personal
 tags:

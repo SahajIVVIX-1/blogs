@@ -1,6 +1,7 @@
 ---
 title: "The Antifragile Engineer: Becoming Stronger Through Unexpected Cluster Failures: Part I: The Psychological Foundation"
 date: "2023-09-05"
+draft: true
 categories:
   - personal
 tags:

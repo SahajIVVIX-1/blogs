@@ -1,6 +1,7 @@
 ---
 title: "Ego is the Enemy of Code Quality: Detaching Self-Worth from Pull Requests: The Subconscious Incubation Effect"
 date: "2026-03-18"
+draft: true
 categories:
   - personal
 tags:

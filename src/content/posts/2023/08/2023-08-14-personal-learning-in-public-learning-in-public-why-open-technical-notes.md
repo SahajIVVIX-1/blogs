@@ -1,6 +1,7 @@
 ---
 title: "Learning in Public: Why Open Technical Notes Create Unstoppable Serendipity: Part I: The Psychological Foundation"
 date: "2023-08-14"
+draft: true
 categories:
   - personal
 tags:

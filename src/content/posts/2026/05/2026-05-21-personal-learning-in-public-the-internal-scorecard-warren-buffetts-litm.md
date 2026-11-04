@@ -1,6 +1,7 @@
 ---
 title: "The Internal Scorecard: Warren Buffett's Litmus Test for Authentic Integrity: Why Most Engineers Fail Here"
 date: "2026-05-21"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Probabilistic Thinking: Bayesian Updating in Ambiguous Debugging Scenarios: Lessons from Systems Architecture"
 date: "2025-02-08"
+draft: true
 categories:
   - personal
 tags:

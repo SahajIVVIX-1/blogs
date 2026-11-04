@@ -1,6 +1,7 @@
 ---
 title: "Ergodicity in Engineering Careers: Avoiding Strategies with Non-Zero Ruin Probability: The Stoic Lens"
 date: "2025-06-30"
+draft: true
 categories:
   - personal
 tags:

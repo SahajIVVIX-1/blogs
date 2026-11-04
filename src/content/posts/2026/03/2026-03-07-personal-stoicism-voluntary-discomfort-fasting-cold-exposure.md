@@ -1,6 +1,7 @@
 ---
 title: "Voluntary Discomfort: Fasting, Cold Exposure, and Engineering Mental Toughness: The Subconscious Incubation Effect"
 date: "2026-03-07"
+draft: true
 categories:
   - personal
 tags:

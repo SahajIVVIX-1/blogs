@@ -1,6 +1,7 @@
 ---
 title: "The 23-Minute Penalty: Quantifying Context-Switching in Complex Systems: Part IV: The Structural Mechanism"
 date: "2024-04-11"
+draft: true
 categories:
   - personal
 tags:

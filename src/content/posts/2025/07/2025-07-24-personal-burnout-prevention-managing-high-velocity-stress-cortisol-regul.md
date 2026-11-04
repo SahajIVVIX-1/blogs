@@ -1,6 +1,7 @@
 ---
 title: "Managing High-Velocity Stress: Cortisol Regulation for Engineers on On-Call Duty: The Stoic Lens"
 date: "2025-07-24"
+draft: true
 categories:
   - personal
 tags:

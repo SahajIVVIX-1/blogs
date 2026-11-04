@@ -1,6 +1,7 @@
 ---
 title: "The Zen of Software Craftsmanship: Clean Interfaces as Moral Duty: A Letter to My Future Self"
 date: "2026-09-28"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Amor Fati in Debugging: Loving the Heisenbug That Forced Real Learning: The First-Principles Analysis"
 date: "2025-03-06"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Antifragile Engineer: Becoming Stronger Through Unexpected Cluster Failures: Lessons from Systems Architecture"
 date: "2025-01-08"
+draft: true
 categories:
   - personal
 tags:

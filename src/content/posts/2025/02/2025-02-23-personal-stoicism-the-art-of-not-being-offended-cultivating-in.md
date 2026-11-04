@@ -1,6 +1,7 @@
 ---
 title: "The Art of Not Being Offended: Cultivating Intellectual Detachment: Lessons from Systems Architecture"
 date: "2025-02-23"
+draft: true
 categories:
   - personal
 tags:

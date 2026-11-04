@@ -1,6 +1,7 @@
 ---
 title: "Writing Tests as a Love Letter to Your Future Self: The Discipline of TDD: A Framework for Deep Mastery"
 date: "2026-09-06"
+draft: true
 categories:
   - personal
 tags:

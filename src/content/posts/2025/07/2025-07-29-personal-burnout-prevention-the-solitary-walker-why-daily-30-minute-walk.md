@@ -1,6 +1,7 @@
 ---
 title: "The Solitary Walker: Why Daily 30-Minute Walks Unlock Stuck Algorithms: The Stoic Lens"
 date: "2025-07-29"
+draft: true
 categories:
   - personal
 tags:

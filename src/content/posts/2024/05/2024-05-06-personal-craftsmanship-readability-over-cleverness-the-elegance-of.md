@@ -1,6 +1,7 @@
 ---
 title: "Readability Over Cleverness: The Elegance of Code That Any Junior Can Audit: Part IV: The Structural Mechanism"
 date: "2024-05-06"
+draft: true
 categories:
   - personal
 tags:

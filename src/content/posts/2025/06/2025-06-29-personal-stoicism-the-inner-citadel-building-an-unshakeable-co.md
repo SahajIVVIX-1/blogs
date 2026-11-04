@@ -1,6 +1,7 @@
 ---
 title: "The Inner Citadel: Building an Unshakeable Core Against Technical Uncertainty: The Stoic Lens"
 date: "2025-06-29"
+draft: true
 categories:
   - personal
 tags:

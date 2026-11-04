@@ -1,6 +1,7 @@
 ---
 title: "The 23-Minute Penalty: Quantifying Context-Switching in Complex Systems: Deconstructing the Cognitive Friction"
 date: "2024-09-22"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Readability Over Cleverness: The Elegance of Code That Any Junior Can Audit: The Art of Ruthless Execution"
 date: "2025-12-01"
+draft: true
 categories:
   - personal
 tags:

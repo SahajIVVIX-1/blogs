@@ -1,6 +1,7 @@
 ---
 title: "Ergodicity in Engineering Careers: Avoiding Strategies with Non-Zero Ruin Probability: Lessons from Systems Architecture"
 date: "2025-01-17"
+draft: true
 categories:
   - personal
 tags:

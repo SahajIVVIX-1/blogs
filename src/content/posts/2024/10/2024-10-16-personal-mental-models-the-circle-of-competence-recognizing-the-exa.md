@@ -1,6 +1,7 @@
 ---
 title: "The Circle of Competence: Recognizing the Exact Boundary of Your Engineering Knowledge: Deconstructing the Cognitive Friction"
 date: "2024-10-16"
+draft: true
 categories:
   - personal
 tags:

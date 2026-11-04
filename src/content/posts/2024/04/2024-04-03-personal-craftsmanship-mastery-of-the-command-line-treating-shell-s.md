@@ -1,6 +1,7 @@
 ---
 title: "Mastery of the Command Line: Treating Shell Scripting as an Artisan's Chisel: Part III: The Mental Model Shift"
 date: "2024-04-03"
+draft: true
 categories:
   - personal
 tags:

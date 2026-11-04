@@ -1,6 +1,7 @@
 ---
 title: "Readability Over Cleverness: The Elegance of Code That Any Junior Can Audit: Why Most Engineers Fail Here"
 date: "2026-05-14"
+draft: true
 categories:
   - personal
 tags:

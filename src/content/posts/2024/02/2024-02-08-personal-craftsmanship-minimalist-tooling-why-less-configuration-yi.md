@@ -1,6 +1,7 @@
 ---
 title: "Minimalist Tooling: Why Less Configuration Yields Superior Engineering Velocity: Part III: The Mental Model Shift"
 date: "2024-02-08"
+draft: true
 categories:
   - personal
 tags:

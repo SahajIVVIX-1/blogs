@@ -1,6 +1,7 @@
 ---
 title: "Habit Stacking in Developer Workflows: Anchoring Tests to Daily Triggers: Part II: The Daily Protocol"
 date: "2023-11-11"
+draft: true
 categories:
   - personal
 tags:

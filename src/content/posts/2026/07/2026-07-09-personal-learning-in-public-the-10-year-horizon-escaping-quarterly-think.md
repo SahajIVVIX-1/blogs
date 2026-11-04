@@ -1,6 +1,7 @@
 ---
 title: "The 10-Year Horizon: Escaping Quarterly Thinking and Investing in Fundamentals: A Framework for Deep Mastery"
 date: "2026-07-09"
+draft: true
 categories:
   - personal
 tags:

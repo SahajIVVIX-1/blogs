@@ -1,6 +1,7 @@
 ---
 title: "The Antidote to Cynicism in Big Tech: Anchoring to Fundamental Curiosity: The Stoic Lens"
 date: "2025-07-18"
+draft: true
 categories:
   - personal
 tags:

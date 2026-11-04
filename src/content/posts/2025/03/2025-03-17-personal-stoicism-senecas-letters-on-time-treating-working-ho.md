@@ -1,6 +1,7 @@
 ---
 title: "Seneca's Letters on Time: Treating Working Hours as Non-Renewable Assets: The First-Principles Analysis"
 date: "2025-03-17"
+draft: true
 categories:
   - personal
 tags:

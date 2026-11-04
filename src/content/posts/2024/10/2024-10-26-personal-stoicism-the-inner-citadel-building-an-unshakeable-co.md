@@ -1,6 +1,7 @@
 ---
 title: "The Inner Citadel: Building an Unshakeable Core Against Technical Uncertainty: Deconstructing the Cognitive Friction"
 date: "2024-10-26"
+draft: true
 categories:
   - personal
 tags:

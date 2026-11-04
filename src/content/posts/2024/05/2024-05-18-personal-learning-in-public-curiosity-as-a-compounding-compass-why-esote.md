@@ -1,6 +1,7 @@
 ---
 title: "Curiosity as a Compounding Compass: Why Esoteric Math Yields the Best Innovations: Part IV: The Structural Mechanism"
 date: "2024-05-18"
+draft: true
 categories:
   - personal
 tags:

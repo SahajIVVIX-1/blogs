@@ -1,6 +1,7 @@
 ---
 title: "Marcus Aurelius on Legacy Code: Maintaining Equanimity with Imperfect Systems: Deconstructing the Cognitive Friction"
 date: "2024-09-28"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Digital Dopamine Fasting: Rewiring Boredom for Breakthrough Problem-Solving: The Stoic Lens"
 date: "2025-05-31"
+draft: true
 categories:
   - personal
 tags:

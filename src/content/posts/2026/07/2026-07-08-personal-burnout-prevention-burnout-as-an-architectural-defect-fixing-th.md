@@ -1,6 +1,7 @@
 ---
 title: "Burnout as an Architectural Defect: Fixing the Asymmetry of Input and Recovery: A Framework for Deep Mastery"
 date: "2026-07-08"
+draft: true
 categories:
   - personal
 tags:

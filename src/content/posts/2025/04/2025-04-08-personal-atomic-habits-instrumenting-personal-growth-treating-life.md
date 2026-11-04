@@ -1,6 +1,7 @@
 ---
 title: "Instrumenting Personal Growth: Treating Life Habits as a Observability Pipeline: The First-Principles Analysis"
 date: "2025-04-08"
+draft: true
 categories:
   - personal
 tags:

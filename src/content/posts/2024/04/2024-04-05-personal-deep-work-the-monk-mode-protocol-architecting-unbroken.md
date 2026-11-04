@@ -1,6 +1,7 @@
 ---
 title: "The Monk Mode Protocol: Architecting Unbroken 4-Hour Engineering Blocks: Part IV: The Structural Mechanism"
 date: "2024-04-05"
+draft: true
 categories:
   - personal
 tags:

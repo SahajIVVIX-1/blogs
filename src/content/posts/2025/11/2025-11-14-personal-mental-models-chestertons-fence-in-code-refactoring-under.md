@@ -1,6 +1,7 @@
 ---
 title: "Chesterton's Fence in Code Refactoring: Understanding Why the Hack Was Written: The Art of Ruthless Execution"
 date: "2025-11-14"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Wealth of Free Time: Valuing Autonomous Schedule Control Above Raw Status: Why Most Engineers Fail Here"
 date: "2026-07-04"
+draft: true
 categories:
   - personal
 tags:

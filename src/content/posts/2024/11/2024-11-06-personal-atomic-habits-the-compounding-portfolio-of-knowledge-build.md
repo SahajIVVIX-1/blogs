@@ -1,6 +1,7 @@
 ---
 title: "The Compounding Portfolio of Knowledge: Building Asymmetric Learning Curvature: Deconstructing the Cognitive Friction"
 date: "2024-11-06"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Managing High-Velocity Stress: Cortisol Regulation for Engineers on On-Call Duty: Part II: The Daily Protocol"
 date: "2023-12-28"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Curiosity as a Compounding Compass: Why Esoteric Math Yields the Best Innovations: The Art of Ruthless Execution"
 date: "2025-12-13"
+draft: true
 categories:
   - personal
 tags:

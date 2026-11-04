@@ -1,6 +1,7 @@
 ---
 title: "Epictetus on Perceptions: Outages are Neutral, Only Panicked Reactions Destroy: Part III: The Mental Model Shift"
 date: "2024-02-06"
+draft: true
 categories:
   - personal
 tags:

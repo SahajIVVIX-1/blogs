@@ -1,6 +1,7 @@
 ---
 title: "The Monk Mode Protocol: Architecting Unbroken 4-Hour Engineering Blocks: Part I: The Psychological Foundation"
 date: "2023-08-04"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Attention Residue in Distributed Systems Design: The Hidden Tax of Slack: A Framework for Deep Mastery"
 date: "2026-07-21"
+draft: true
 categories:
   - personal
 tags:

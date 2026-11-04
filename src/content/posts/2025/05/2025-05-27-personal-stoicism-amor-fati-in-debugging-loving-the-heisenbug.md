@@ -1,6 +1,7 @@
 ---
 title: "Amor Fati in Debugging: Loving the Heisenbug That Forced Real Learning: The Stoic Lens"
 date: "2025-05-27"
+draft: true
 categories:
   - personal
 tags:

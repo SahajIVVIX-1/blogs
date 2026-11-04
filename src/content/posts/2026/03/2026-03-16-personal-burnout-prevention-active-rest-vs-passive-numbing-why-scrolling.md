@@ -1,6 +1,7 @@
 ---
 title: "Active Rest vs Passive Numbing: Why Scrolling Social Feeds Prevents Real Recovery: The Subconscious Incubation Effect"
 date: "2026-03-16"
+draft: true
 categories:
   - personal
 tags:

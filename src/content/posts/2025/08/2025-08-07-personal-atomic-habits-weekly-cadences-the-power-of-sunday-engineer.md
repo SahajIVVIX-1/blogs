@@ -1,6 +1,7 @@
 ---
 title: "Weekly Cadences: The Power of Sunday Engineering Audits & Retrospectives: The Stoic Lens"
 date: "2025-08-07"
+draft: true
 categories:
   - personal
 tags:

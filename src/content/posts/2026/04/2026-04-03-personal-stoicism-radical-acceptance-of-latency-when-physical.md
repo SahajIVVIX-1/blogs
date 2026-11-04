@@ -1,6 +1,7 @@
 ---
 title: "Radical Acceptance of Latency: When Physical Constraints Meet Impatient Minds: The Subconscious Incubation Effect"
 date: "2026-04-03"
+draft: true
 categories:
   - personal
 tags:

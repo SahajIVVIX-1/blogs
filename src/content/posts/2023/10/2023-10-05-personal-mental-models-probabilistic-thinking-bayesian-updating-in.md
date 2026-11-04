@@ -1,6 +1,7 @@
 ---
 title: "Probabilistic Thinking: Bayesian Updating in Ambiguous Debugging Scenarios: Part I: The Psychological Foundation"
 date: "2023-10-05"
+draft: true
 categories:
   - personal
 tags:

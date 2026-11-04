@@ -1,6 +1,7 @@
 ---
 title: "Voluntary Discomfort: Fasting, Cold Exposure, and Engineering Mental Toughness: Part IV: The Structural Mechanism"
 date: "2024-05-20"
+draft: true
 categories:
   - personal
 tags:

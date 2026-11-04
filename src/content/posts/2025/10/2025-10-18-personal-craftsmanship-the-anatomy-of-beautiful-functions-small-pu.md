@@ -1,6 +1,7 @@
 ---
 title: "The Anatomy of Beautiful Functions: Small, Pure, and Unambiguous: Overcoming the Resistance"
 date: "2025-10-18"
+draft: true
 categories:
   - personal
 tags:

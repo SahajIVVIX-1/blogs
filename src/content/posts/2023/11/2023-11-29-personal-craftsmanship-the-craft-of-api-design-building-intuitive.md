@@ -1,6 +1,7 @@
 ---
 title: "The Craft of API Design: Building Intuitive, Misuse-Resistant Interfaces: Part II: The Daily Protocol"
 date: "2023-11-29"
+draft: true
 categories:
   - personal
 tags:

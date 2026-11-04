@@ -1,6 +1,7 @@
 ---
 title: "Asynchronous Engineering: Escaping the Instant Gratification Communication Trap: Part III: The Mental Model Shift"
 date: "2024-02-11"
+draft: true
 categories:
   - personal
 tags:

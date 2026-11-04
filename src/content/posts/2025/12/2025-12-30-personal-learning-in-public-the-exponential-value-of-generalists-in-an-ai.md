@@ -1,6 +1,7 @@
 ---
 title: "The Exponential Value of Generalists in an AI-Accelerated World: The Art of Ruthless Execution"
 date: "2025-12-30"
+draft: true
 categories:
   - personal
 tags:

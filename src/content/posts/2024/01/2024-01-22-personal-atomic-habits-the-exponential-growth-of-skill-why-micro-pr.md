@@ -1,6 +1,7 @@
 ---
 title: "The Exponential Growth of Skill: Why Micro-Progress Trumps Heroic Sprints: Part III: The Mental Model Shift"
 date: "2024-01-22"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Hanlon's Razor in Team Dynamics: Attributing Friction to Chaos, Not Malice: The Subconscious Incubation Effect"
 date: "2026-04-05"
+draft: true
 categories:
   - personal
 tags:

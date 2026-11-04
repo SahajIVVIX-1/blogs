@@ -1,6 +1,7 @@
 ---
 title: "The Dichotomy of Control in Production Crises: Staying Calm Under P0 Alerts: Part II: The Daily Protocol"
 date: "2023-10-25"
+draft: true
 categories:
   - personal
 tags:

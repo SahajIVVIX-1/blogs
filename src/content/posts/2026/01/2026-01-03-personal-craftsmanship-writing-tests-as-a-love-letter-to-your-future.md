@@ -1,6 +1,7 @@
 ---
 title: "Writing Tests as a Love Letter to Your Future Self: The Discipline of TDD: The Art of Ruthless Execution"
 date: "2026-01-03"
+draft: true
 categories:
   - personal
 tags:

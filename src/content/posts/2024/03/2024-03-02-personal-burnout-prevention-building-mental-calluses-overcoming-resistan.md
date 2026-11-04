@@ -1,6 +1,7 @@
 ---
 title: "Building Mental Calluses: Overcoming Resistance to Difficult Theoretical Proofs: Part III: The Mental Model Shift"
 date: "2024-03-02"
+draft: true
 categories:
   - personal
 tags:

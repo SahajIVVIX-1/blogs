@@ -1,6 +1,7 @@
 ---
 title: "Atomic Habits for Software Engineers: The Power of 1% Daily Improvements: The Subconscious Incubation Effect"
 date: "2026-01-23"
+draft: true
 categories:
   - personal
 tags:

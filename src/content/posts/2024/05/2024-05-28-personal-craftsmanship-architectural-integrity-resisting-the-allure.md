@@ -1,6 +1,7 @@
 ---
 title: "Architectural Integrity: Resisting the Allure of Trendy Over-Engineering: Part IV: The Structural Mechanism"
 date: "2024-05-28"
+draft: true
 categories:
   - personal
 tags:

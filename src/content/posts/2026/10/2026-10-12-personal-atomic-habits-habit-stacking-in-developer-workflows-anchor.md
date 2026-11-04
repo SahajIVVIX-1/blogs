@@ -1,6 +1,7 @@
 ---
 title: "Habit Stacking in Developer Workflows: Anchoring Tests to Daily Triggers: A Letter to My Future Self"
 date: "2026-10-12"
+draft: true
 categories:
   - personal
 tags:

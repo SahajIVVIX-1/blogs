@@ -1,6 +1,7 @@
 ---
 title: "Weekly Cadences: The Power of Sunday Engineering Audits & Retrospectives: Part II: The Daily Protocol"
 date: "2024-01-11"
+draft: true
 categories:
   - personal
 tags:

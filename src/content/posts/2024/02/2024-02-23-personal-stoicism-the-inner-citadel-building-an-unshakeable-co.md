@@ -1,6 +1,7 @@
 ---
 title: "The Inner Citadel: Building an Unshakeable Core Against Technical Uncertainty: Part III: The Mental Model Shift"
 date: "2024-02-23"
+draft: true
 categories:
   - personal
 tags:

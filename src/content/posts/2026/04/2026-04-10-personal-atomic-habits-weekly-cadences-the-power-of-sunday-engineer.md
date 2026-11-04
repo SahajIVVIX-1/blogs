@@ -1,6 +1,7 @@
 ---
 title: "Weekly Cadences: The Power of Sunday Engineering Audits & Retrospectives: The Subconscious Incubation Effect"
 date: "2026-04-10"
+draft: true
 categories:
   - personal
 tags:

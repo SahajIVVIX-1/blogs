@@ -1,6 +1,7 @@
 ---
 title: "Amor Fati in Debugging: Loving the Heisenbug That Forced Real Learning: Lessons from Systems Architecture"
 date: "2024-12-14"
+draft: true
 categories:
   - personal
 tags:

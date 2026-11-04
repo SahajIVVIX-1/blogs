@@ -1,6 +1,7 @@
 ---
 title: "The Circle of Competence: Recognizing the Exact Boundary of Your Engineering Knowledge: The Stoic Lens"
 date: "2025-06-19"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Writing Tests as a Love Letter to Your Future Self: The Discipline of TDD: Part I: The Psychological Foundation"
 date: "2023-10-06"
+draft: true
 categories:
   - personal
 tags:

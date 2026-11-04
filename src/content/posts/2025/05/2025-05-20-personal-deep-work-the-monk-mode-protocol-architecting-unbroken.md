@@ -1,6 +1,7 @@
 ---
 title: "The Monk Mode Protocol: Architecting Unbroken 4-Hour Engineering Blocks: The Stoic Lens"
 date: "2025-05-20"
+draft: true
 categories:
   - personal
 tags:

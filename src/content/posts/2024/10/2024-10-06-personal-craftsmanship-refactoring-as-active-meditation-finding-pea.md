@@ -1,6 +1,7 @@
 ---
 title: "Refactoring as Active Meditation: Finding Peace in Cleaning Structural Debt: Deconstructing the Cognitive Friction"
 date: "2024-10-06"
+draft: true
 categories:
   - personal
 tags:

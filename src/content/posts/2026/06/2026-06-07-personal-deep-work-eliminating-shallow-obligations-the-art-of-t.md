@@ -1,6 +1,7 @@
 ---
 title: "Eliminating Shallow Obligations: The Art of Technical Refusal: Why Most Engineers Fail Here"
 date: "2026-06-07"
+draft: true
 categories:
   - personal
 tags:

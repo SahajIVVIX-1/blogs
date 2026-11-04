@@ -1,6 +1,7 @@
 ---
 title: "Premeditatio Malorum: Stress-Testing Software Psychology with Inversion: A Practical Field Guide"
 date: "2024-07-30"
+draft: true
 categories:
   - personal
 tags:

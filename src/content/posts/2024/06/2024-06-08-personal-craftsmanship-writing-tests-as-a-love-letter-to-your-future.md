@@ -1,6 +1,7 @@
 ---
 title: "Writing Tests as a Love Letter to Your Future Self: The Discipline of TDD: Part IV: The Structural Mechanism"
 date: "2024-06-08"
+draft: true
 categories:
   - personal
 tags:

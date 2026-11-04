@@ -1,6 +1,7 @@
 ---
 title: "Deconstructing Procrastination: The Gap Between Intention and Micro-Action: Deconstructing the Cognitive Friction"
 date: "2024-11-17"
+draft: true
 categories:
   - personal
 tags:

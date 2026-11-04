@@ -1,6 +1,7 @@
 ---
 title: "Burnout as an Architectural Defect: Fixing the Asymmetry of Input and Recovery: Lessons from Systems Architecture"
 date: "2024-12-11"
+draft: true
 categories:
   - personal
 tags:

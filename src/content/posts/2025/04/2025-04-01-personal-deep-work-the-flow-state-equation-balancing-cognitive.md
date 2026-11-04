@@ -1,6 +1,7 @@
 ---
 title: "The Flow State Equation: Balancing Cognitive Load Against Skill Thresholds: The First-Principles Analysis"
 date: "2025-04-01"
+draft: true
 categories:
   - personal
 tags:

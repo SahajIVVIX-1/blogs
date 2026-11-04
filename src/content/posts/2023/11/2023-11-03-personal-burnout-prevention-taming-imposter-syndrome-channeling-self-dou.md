@@ -1,6 +1,7 @@
 ---
 title: "Taming Imposter Syndrome: Channeling Self-Doubt into Rigorous Code Verification: Part II: The Daily Protocol"
 date: "2023-11-03"
+draft: true
 categories:
   - personal
 tags:

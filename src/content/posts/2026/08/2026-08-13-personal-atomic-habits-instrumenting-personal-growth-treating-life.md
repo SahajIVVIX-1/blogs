@@ -1,6 +1,7 @@
 ---
 title: "Instrumenting Personal Growth: Treating Life Habits as a Observability Pipeline: A Framework for Deep Mastery"
 date: "2026-08-13"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Sovereign Technologist: Building Intellectual Independence from Big Tech Platforms: Part III: The Mental Model Shift"
 date: "2024-02-10"
+draft: true
 categories:
   - personal
 tags:

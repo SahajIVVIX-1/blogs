@@ -1,6 +1,7 @@
 ---
 title: "Hanlon's Razor in Team Dynamics: Attributing Friction to Chaos, Not Malice: A Framework for Deep Mastery"
 date: "2026-09-16"
+draft: true
 categories:
   - personal
 tags:

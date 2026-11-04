@@ -1,6 +1,7 @@
 ---
 title: "Writing Tests as a Love Letter to Your Future Self: The Discipline of TDD: Overcoming the Resistance"
 date: "2025-10-13"
+draft: true
 categories:
   - personal
 tags:

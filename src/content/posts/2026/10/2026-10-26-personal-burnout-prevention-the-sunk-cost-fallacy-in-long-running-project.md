@@ -1,6 +1,7 @@
 ---
 title: "The Sunk Cost Fallacy in Long-Running Projects: Knowing When to Pull the Plug: A Letter to My Future Self"
 date: "2026-10-26"
+draft: true
 categories:
   - personal
 tags:

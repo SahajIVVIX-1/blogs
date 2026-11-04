@@ -1,6 +1,7 @@
 ---
 title: "Cognitive Load Management: Preventing Brain Overflow in Dense Systems: Overcoming the Resistance"
 date: "2025-09-16"
+draft: true
 categories:
   - personal
 tags:

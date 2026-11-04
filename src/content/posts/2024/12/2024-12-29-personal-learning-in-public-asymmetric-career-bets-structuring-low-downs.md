@@ -1,6 +1,7 @@
 ---
 title: "Asymmetric Career Bets: Structuring Low Downside with Infinite Upside: Lessons from Systems Architecture"
 date: "2024-12-29"
+draft: true
 categories:
   - personal
 tags:

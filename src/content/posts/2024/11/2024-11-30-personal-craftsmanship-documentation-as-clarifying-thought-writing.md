@@ -1,6 +1,7 @@
 ---
 title: "Documentation as Clarifying Thought: Writing Before Implementation: Deconstructing the Cognitive Friction"
 date: "2024-11-30"
+draft: true
 categories:
   - personal
 tags:

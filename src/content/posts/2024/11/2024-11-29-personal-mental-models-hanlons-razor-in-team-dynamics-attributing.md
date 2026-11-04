@@ -1,6 +1,7 @@
 ---
 title: "Hanlon's Razor in Team Dynamics: Attributing Friction to Chaos, Not Malice: Deconstructing the Cognitive Friction"
 date: "2024-11-29"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Antidote to Cynicism in Big Tech: Anchoring to Fundamental Curiosity: The Subconscious Incubation Effect"
 date: "2026-03-21"
+draft: true
 categories:
   - personal
 tags:

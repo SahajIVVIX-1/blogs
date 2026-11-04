@@ -1,6 +1,7 @@
 ---
 title: "Second-Order Thinking: Anticipating the Unintended Cascades of Microservices: Part IV: The Structural Mechanism"
 date: "2024-04-24"
+draft: true
 categories:
   - personal
 tags:

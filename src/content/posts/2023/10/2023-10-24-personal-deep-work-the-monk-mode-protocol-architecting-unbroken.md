@@ -1,6 +1,7 @@
 ---
 title: "The Monk Mode Protocol: Architecting Unbroken 4-Hour Engineering Blocks: Part II: The Daily Protocol"
 date: "2023-10-24"
+draft: true
 categories:
   - personal
 tags:

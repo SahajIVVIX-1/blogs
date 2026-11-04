@@ -1,6 +1,7 @@
 ---
 title: "Eliminating Shallow Obligations: The Art of Technical Refusal: Part I: The Psychological Foundation"
 date: "2023-09-27"
+draft: true
 categories:
   - personal
 tags:

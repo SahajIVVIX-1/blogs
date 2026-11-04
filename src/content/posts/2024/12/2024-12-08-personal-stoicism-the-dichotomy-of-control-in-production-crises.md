@@ -1,6 +1,7 @@
 ---
 title: "The Dichotomy of Control in Production Crises: Staying Calm Under P0 Alerts: Lessons from Systems Architecture"
 date: "2024-12-08"
+draft: true
 categories:
   - personal
 tags:

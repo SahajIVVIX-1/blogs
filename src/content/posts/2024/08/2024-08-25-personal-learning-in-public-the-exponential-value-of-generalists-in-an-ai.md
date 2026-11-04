@@ -1,6 +1,7 @@
 ---
 title: "The Exponential Value of Generalists in an AI-Accelerated World: A Practical Field Guide"
 date: "2024-08-25"
+draft: true
 categories:
   - personal
 tags:

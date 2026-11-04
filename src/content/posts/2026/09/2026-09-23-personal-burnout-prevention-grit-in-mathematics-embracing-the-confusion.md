@@ -1,6 +1,7 @@
 ---
 title: "Grit in Mathematics: Embracing the Confusion Phase as the Necessary Fore-runner of Insight: A Framework for Deep Mastery"
 date: "2026-09-23"
+draft: true
 categories:
   - personal
 tags:

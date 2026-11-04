@@ -1,6 +1,7 @@
 ---
 title: "The Sovereign Technologist: Building Intellectual Independence from Big Tech Platforms: Deconstructing the Cognitive Friction"
 date: "2024-10-13"
+draft: true
 categories:
   - personal
 tags:

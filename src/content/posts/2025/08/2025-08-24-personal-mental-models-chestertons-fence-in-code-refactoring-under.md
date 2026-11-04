@@ -1,6 +1,7 @@
 ---
 title: "Chesterton's Fence in Code Refactoring: Understanding Why the Hack Was Written: Overcoming the Resistance"
 date: "2025-08-24"
+draft: true
 categories:
   - personal
 tags:

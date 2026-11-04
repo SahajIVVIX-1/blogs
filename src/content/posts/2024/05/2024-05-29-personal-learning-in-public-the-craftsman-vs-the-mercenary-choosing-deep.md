@@ -1,6 +1,7 @@
 ---
 title: "The Craftsman vs The Mercenary: Choosing Deep Fulfillment Over Superficial Hype: Part IV: The Structural Mechanism"
 date: "2024-05-29"
+draft: true
 categories:
   - personal
 tags:

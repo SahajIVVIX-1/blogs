@@ -1,6 +1,7 @@
 ---
 title: "The Wealth of Free Time: Valuing Autonomous Schedule Control Above Raw Status: Part III: The Mental Model Shift"
 date: "2024-04-05"
+draft: true
 categories:
   - personal
 tags:

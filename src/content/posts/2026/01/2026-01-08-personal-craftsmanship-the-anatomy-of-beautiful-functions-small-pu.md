@@ -1,6 +1,7 @@
 ---
 title: "The Anatomy of Beautiful Functions: Small, Pure, and Unambiguous: The Art of Ruthless Execution"
 date: "2026-01-08"
+draft: true
 categories:
   - personal
 tags:

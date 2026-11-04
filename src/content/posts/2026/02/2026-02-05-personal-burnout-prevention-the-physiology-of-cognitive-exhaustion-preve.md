@@ -1,6 +1,7 @@
 ---
 title: "The Physiology of Cognitive Exhaustion: Preventing Prefrontal Cortex Drain: The Subconscious Incubation Effect"
 date: "2026-02-05"
+draft: true
 categories:
   - personal
 tags:

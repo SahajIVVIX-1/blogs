@@ -1,6 +1,7 @@
 ---
 title: "Eliminating Shallow Obligations: The Art of Technical Refusal: A Practical Field Guide"
 date: "2024-08-20"
+draft: true
 categories:
   - personal
 tags:

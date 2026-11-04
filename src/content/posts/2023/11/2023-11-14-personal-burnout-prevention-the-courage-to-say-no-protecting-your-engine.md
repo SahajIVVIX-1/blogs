@@ -1,6 +1,7 @@
 ---
 title: "The Courage to Say No: Protecting Your Engineering Core from Scope Creep: Part II: The Daily Protocol"
 date: "2023-11-14"
+draft: true
 categories:
   - personal
 tags:

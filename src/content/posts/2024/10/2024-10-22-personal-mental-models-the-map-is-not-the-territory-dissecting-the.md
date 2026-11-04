@@ -1,6 +1,7 @@
 ---
 title: "The Map is Not the Territory: Dissecting the Difference Between Spec and Reality: Deconstructing the Cognitive Friction"
 date: "2024-10-22"
+draft: true
 categories:
   - personal
 tags:

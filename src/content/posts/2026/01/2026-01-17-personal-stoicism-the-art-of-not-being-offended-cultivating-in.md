@@ -1,6 +1,7 @@
 ---
 title: "The Art of Not Being Offended: Cultivating Intellectual Detachment: The Art of Ruthless Execution"
 date: "2026-01-17"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Asynchronous Engineering: Escaping the Instant Gratification Communication Trap: Why Most Engineers Fail Here"
 date: "2026-05-11"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The 23-Minute Penalty: Quantifying Context-Switching in Complex Systems: The Art of Ruthless Execution"
 date: "2025-11-06"
+draft: true
 categories:
   - personal
 tags:

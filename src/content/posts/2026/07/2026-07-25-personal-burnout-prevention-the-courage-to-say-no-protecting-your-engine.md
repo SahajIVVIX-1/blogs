@@ -1,6 +1,7 @@
 ---
 title: "The Courage to Say No: Protecting Your Engineering Core from Scope Creep: A Framework for Deep Mastery"
 date: "2026-07-25"
+draft: true
 categories:
   - personal
 tags:

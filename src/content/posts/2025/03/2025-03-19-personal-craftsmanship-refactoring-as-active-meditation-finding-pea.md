@@ -1,6 +1,7 @@
 ---
 title: "Refactoring as Active Meditation: Finding Peace in Cleaning Structural Debt: The First-Principles Analysis"
 date: "2025-03-19"
+draft: true
 categories:
   - personal
 tags:

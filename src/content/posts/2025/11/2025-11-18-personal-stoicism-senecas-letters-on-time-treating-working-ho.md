@@ -1,6 +1,7 @@
 ---
 title: "Seneca's Letters on Time: Treating Working Hours as Non-Renewable Assets: The Art of Ruthless Execution"
 date: "2025-11-18"
+draft: true
 categories:
   - personal
 tags:

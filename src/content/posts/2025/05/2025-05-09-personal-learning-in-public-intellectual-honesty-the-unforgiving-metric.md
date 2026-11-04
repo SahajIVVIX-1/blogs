@@ -1,6 +1,7 @@
 ---
 title: "Intellectual Honesty: The Unforgiving Metric of the True Scientist: The First-Principles Analysis"
 date: "2025-05-09"
+draft: true
 categories:
   - personal
 tags:

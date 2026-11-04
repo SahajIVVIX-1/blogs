@@ -1,6 +1,7 @@
 ---
 title: "Writing Tests as a Love Letter to Your Future Self: The Discipline of TDD: Lessons from Systems Architecture"
 date: "2025-02-09"
+draft: true
 categories:
   - personal
 tags:

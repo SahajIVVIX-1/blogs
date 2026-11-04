@@ -1,6 +1,7 @@
 ---
 title: "Ergodicity in Engineering Careers: Avoiding Strategies with Non-Zero Ruin Probability: The Art of Ruthless Execution"
 date: "2025-12-11"
+draft: true
 categories:
   - personal
 tags:

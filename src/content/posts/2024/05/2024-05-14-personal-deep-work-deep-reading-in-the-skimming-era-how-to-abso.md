@@ -1,6 +1,7 @@
 ---
 title: "Deep Reading in the Skimming Era: How to Absorb 500 Pages of Dense Theory: Part IV: The Structural Mechanism"
 date: "2024-05-14"
+draft: true
 categories:
   - personal
 tags:

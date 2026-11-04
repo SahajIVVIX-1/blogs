@@ -1,6 +1,7 @@
 ---
 title: "Atomic Habits for Software Engineers: The Power of 1% Daily Improvements: The First-Principles Analysis"
 date: "2025-03-01"
+draft: true
 categories:
   - personal
 tags:

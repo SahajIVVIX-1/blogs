@@ -1,6 +1,7 @@
 ---
 title: "Goodhart's Law in Engineering Metrics: When a Measure Becomes the Target: The First-Principles Analysis"
 date: "2025-05-06"
+draft: true
 categories:
   - personal
 tags:

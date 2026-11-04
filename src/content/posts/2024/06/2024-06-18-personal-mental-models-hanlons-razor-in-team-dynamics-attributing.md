@@ -1,6 +1,7 @@
 ---
 title: "Hanlon's Razor in Team Dynamics: Attributing Friction to Chaos, Not Malice: Part IV: The Structural Mechanism"
 date: "2024-06-18"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "First-Principles Problem Decomposition: Boiling Software Requirements to Bedrock Truths: A Practical Field Guide"
 date: "2024-08-22"
+draft: true
 categories:
   - personal
 tags:

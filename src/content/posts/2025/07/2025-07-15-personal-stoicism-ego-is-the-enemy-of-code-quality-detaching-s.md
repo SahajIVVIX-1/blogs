@@ -1,6 +1,7 @@
 ---
 title: "Ego is the Enemy of Code Quality: Detaching Self-Worth from Pull Requests: The Stoic Lens"
 date: "2025-07-15"
+draft: true
 categories:
   - personal
 tags:

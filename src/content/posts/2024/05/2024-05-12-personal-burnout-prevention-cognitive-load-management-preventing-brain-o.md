@@ -1,6 +1,7 @@
 ---
 title: "Cognitive Load Management: Preventing Brain Overflow in Dense Systems: Part IV: The Structural Mechanism"
 date: "2024-05-12"
+draft: true
 categories:
   - personal
 tags:

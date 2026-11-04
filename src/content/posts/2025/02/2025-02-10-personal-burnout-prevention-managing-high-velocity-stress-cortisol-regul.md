@@ -1,6 +1,7 @@
 ---
 title: "Managing High-Velocity Stress: Cortisol Regulation for Engineers on On-Call Duty: Lessons from Systems Architecture"
 date: "2025-02-10"
+draft: true
 categories:
   - personal
 tags:

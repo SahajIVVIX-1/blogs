@@ -1,6 +1,7 @@
 ---
 title: "Mastery of the Command Line: Treating Shell Scripting as an Artisan's Chisel: The First-Principles Analysis"
 date: "2025-05-18"
+draft: true
 categories:
   - personal
 tags:

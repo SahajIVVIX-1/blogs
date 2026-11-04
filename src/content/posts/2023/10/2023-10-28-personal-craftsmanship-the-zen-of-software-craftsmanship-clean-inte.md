@@ -1,6 +1,7 @@
 ---
 title: "The Zen of Software Craftsmanship: Clean Interfaces as Moral Duty: Part II: The Daily Protocol"
 date: "2023-10-28"
+draft: true
 categories:
   - personal
 tags:

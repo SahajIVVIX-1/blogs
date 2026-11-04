@@ -1,6 +1,7 @@
 ---
 title: "Refactoring as Active Meditation: Finding Peace in Cleaning Structural Debt: A Letter to My Future Self"
 date: "2026-10-14"
+draft: true
 categories:
   - personal
 tags:

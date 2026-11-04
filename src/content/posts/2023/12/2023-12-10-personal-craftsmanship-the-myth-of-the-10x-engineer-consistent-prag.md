@@ -1,6 +1,7 @@
 ---
 title: "The Myth of the 10x Engineer: Consistent Pragmatism Beats Sporadic Heroics: Part II: The Daily Protocol"
 date: "2023-12-10"
+draft: true
 categories:
   - personal
 tags:

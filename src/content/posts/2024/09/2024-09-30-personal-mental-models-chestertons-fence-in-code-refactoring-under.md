@@ -1,6 +1,7 @@
 ---
 title: "Chesterton's Fence in Code Refactoring: Understanding Why the Hack Was Written: Deconstructing the Cognitive Friction"
 date: "2024-09-30"
+draft: true
 categories:
   - personal
 tags:

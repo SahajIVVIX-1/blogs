@@ -1,6 +1,7 @@
 ---
 title: "The Exponential Value of Generalists in an AI-Accelerated World: The Stoic Lens"
 date: "2025-07-19"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Inversion Thinking: Charlie Munger's Blueprint for Avoiding Catastrophic Architecture: Deconstructing the Cognitive Friction"
 date: "2024-09-24"
+draft: true
 categories:
   - personal
 tags:

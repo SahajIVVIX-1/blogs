@@ -1,6 +1,7 @@
 ---
 title: "The Renaissance Developer: Integrating Mathematics, Art, Hardware, and Code: Overcoming the Resistance"
 date: "2025-10-25"
+draft: true
 categories:
   - personal
 tags:

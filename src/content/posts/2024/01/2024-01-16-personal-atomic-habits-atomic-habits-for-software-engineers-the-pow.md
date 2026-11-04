@@ -1,6 +1,7 @@
 ---
 title: "Atomic Habits for Software Engineers: The Power of 1% Daily Improvements: Part III: The Mental Model Shift"
 date: "2024-01-16"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Intellectual Honesty: The Unforgiving Metric of the True Scientist: Deconstructing the Cognitive Friction"
 date: "2024-11-26"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The 20-Second Friction Rule: Structuring Your Environment for Immediate Action: A Practical Field Guide"
 date: "2024-07-20"
+draft: true
 categories:
   - personal
 tags:

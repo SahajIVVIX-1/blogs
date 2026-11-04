@@ -1,6 +1,7 @@
 ---
 title: "The Zen of Software Craftsmanship: Clean Interfaces as Moral Duty: The Stoic Lens"
 date: "2025-05-24"
+draft: true
 categories:
   - personal
 tags:

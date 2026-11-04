@@ -1,6 +1,7 @@
 ---
 title: "Intellectual Honesty: The Unforgiving Metric of the True Scientist: Why Most Engineers Fail Here"
 date: "2026-06-23"
+draft: true
 categories:
   - personal
 tags:

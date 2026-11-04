@@ -1,6 +1,7 @@
 ---
 title: "The Craftsman vs The Mercenary: Choosing Deep Fulfillment Over Superficial Hype: A Framework for Deep Mastery"
 date: "2026-08-27"
+draft: true
 categories:
   - personal
 tags:

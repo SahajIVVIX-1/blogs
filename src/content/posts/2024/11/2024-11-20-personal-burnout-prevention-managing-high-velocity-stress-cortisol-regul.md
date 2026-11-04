@@ -1,6 +1,7 @@
 ---
 title: "Managing High-Velocity Stress: Cortisol Regulation for Engineers on On-Call Duty: Deconstructing the Cognitive Friction"
 date: "2024-11-20"
+draft: true
 categories:
   - personal
 tags:

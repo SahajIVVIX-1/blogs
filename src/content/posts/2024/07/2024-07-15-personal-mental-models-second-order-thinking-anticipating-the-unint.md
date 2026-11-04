@@ -1,6 +1,7 @@
 ---
 title: "Second-Order Thinking: Anticipating the Unintended Cascades of Microservices: A Practical Field Guide"
 date: "2024-07-15"
+draft: true
 categories:
   - personal
 tags:

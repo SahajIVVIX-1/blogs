@@ -1,6 +1,7 @@
 ---
 title: "Asymmetric Career Bets: Structuring Low Downside with Infinite Upside: A Practical Field Guide"
 date: "2024-07-18"
+draft: true
 categories:
   - personal
 tags:

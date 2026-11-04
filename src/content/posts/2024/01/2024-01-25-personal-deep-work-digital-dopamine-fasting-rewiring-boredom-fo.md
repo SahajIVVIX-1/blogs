@@ -1,6 +1,7 @@
 ---
 title: "Digital Dopamine Fasting: Rewiring Boredom for Breakthrough Problem-Solving: Part III: The Mental Model Shift"
 date: "2024-01-25"
+draft: true
 categories:
   - personal
 tags:

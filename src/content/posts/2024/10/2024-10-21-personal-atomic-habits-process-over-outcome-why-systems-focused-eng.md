@@ -1,6 +1,7 @@
 ---
 title: "Process Over Outcome: Why Systems-Focused Engineers Outperform Dreamers: Deconstructing the Cognitive Friction"
 date: "2024-10-21"
+draft: true
 categories:
   - personal
 tags:

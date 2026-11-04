@@ -1,6 +1,7 @@
 ---
 title: "Weekly Cadences: The Power of Sunday Engineering Audits & Retrospectives: Part I: The Psychological Foundation"
 date: "2023-10-21"
+draft: true
 categories:
   - personal
 tags:

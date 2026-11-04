@@ -1,6 +1,7 @@
 ---
 title: "Occam's Razor vs Hickam's Dictum: Diagnosing Concurrency Bugs with Elegance: The Stoic Lens"
 date: "2025-06-14"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Dichotomy of Control in Production Crises: Staying Calm Under P0 Alerts: The First-Principles Analysis"
 date: "2025-02-28"
+draft: true
 categories:
   - personal
 tags:

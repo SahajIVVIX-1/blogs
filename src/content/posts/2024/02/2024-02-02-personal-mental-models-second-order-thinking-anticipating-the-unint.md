@@ -1,6 +1,7 @@
 ---
 title: "Second-Order Thinking: Anticipating the Unintended Cascades of Microservices: Part III: The Mental Model Shift"
 date: "2024-02-02"
+draft: true
 categories:
   - personal
 tags:

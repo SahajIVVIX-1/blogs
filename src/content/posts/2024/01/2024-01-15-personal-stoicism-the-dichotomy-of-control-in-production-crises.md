@@ -1,6 +1,7 @@
 ---
 title: "The Dichotomy of Control in Production Crises: Staying Calm Under P0 Alerts: Part III: The Mental Model Shift"
 date: "2024-01-15"
+draft: true
 categories:
   - personal
 tags:

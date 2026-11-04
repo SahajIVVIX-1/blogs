@@ -1,6 +1,7 @@
 ---
 title: "Attention Residue in Distributed Systems Design: The Hidden Tax of Slack: The Subconscious Incubation Effect"
 date: "2026-02-07"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Regret Minimization Framework: Making Bold Career Pivots Without Anxiety: Part III: The Mental Model Shift"
 date: "2024-03-06"
+draft: true
 categories:
   - personal
 tags:

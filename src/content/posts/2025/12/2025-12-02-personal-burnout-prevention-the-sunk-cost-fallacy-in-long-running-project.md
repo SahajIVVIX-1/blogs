@@ -1,6 +1,7 @@
 ---
 title: "The Sunk Cost Fallacy in Long-Running Projects: Knowing When to Pull the Plug: The Art of Ruthless Execution"
 date: "2025-12-02"
+draft: true
 categories:
   - personal
 tags:

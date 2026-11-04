@@ -1,6 +1,7 @@
 ---
 title: "Sleep Architecture & Cognitive Retention: Optimizing SWS for Math Mastery: Why Most Engineers Fail Here"
 date: "2026-05-29"
+draft: true
 categories:
   - personal
 tags:

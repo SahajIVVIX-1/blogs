@@ -1,6 +1,7 @@
 ---
 title: "Pareto Optimization in Tooling: Finding the 20% of Tools Powering 80% of Leverage: Part IV: The Structural Mechanism"
 date: "2024-05-22"
+draft: true
 categories:
   - personal
 tags:

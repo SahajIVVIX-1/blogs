@@ -1,6 +1,7 @@
 ---
 title: "The Myth of the 10x Engineer: Consistent Pragmatism Beats Sporadic Heroics: The Stoic Lens"
 date: "2025-07-06"
+draft: true
 categories:
   - personal
 tags:

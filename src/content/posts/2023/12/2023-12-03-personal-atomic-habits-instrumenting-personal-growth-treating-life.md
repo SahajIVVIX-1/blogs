@@ -1,6 +1,7 @@
 ---
 title: "Instrumenting Personal Growth: Treating Life Habits as a Observability Pipeline: Part II: The Daily Protocol"
 date: "2023-12-03"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Playing Long-Term Games with Long-Term People: The Ultimate Career Heuristic: The Art of Ruthless Execution"
 date: "2025-11-16"
+draft: true
 categories:
   - personal
 tags:

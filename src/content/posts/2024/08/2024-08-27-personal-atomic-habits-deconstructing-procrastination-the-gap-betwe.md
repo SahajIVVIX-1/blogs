@@ -1,6 +1,7 @@
 ---
 title: "Deconstructing Procrastination: The Gap Between Intention and Micro-Action: A Practical Field Guide"
 date: "2024-08-27"
+draft: true
 categories:
   - personal
 tags:

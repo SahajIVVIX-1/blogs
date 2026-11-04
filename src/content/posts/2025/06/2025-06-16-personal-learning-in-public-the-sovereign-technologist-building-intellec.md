@@ -1,6 +1,7 @@
 ---
 title: "The Sovereign Technologist: Building Intellectual Independence from Big Tech Platforms: The Stoic Lens"
 date: "2025-06-16"
+draft: true
 categories:
   - personal
 tags:

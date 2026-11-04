@@ -1,6 +1,7 @@
 ---
 title: "Dealing with Technical Rejection: Viewing Failed RFCs as Data Extraction: The Art of Ruthless Execution"
 date: "2025-11-26"
+draft: true
 categories:
   - personal
 tags:

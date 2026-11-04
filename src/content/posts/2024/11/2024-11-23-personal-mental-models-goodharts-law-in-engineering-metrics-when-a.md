@@ -1,6 +1,7 @@
 ---
 title: "Goodhart's Law in Engineering Metrics: When a Measure Becomes the Target: Deconstructing the Cognitive Friction"
 date: "2024-11-23"
+draft: true
 categories:
   - personal
 tags:

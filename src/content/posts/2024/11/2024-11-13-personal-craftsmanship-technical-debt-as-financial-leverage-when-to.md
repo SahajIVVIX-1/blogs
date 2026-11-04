@@ -1,6 +1,7 @@
 ---
 title: "Technical Debt as Financial Leverage: When to Borrow and When to Repay: Deconstructing the Cognitive Friction"
 date: "2024-11-13"
+draft: true
 categories:
   - personal
 tags:

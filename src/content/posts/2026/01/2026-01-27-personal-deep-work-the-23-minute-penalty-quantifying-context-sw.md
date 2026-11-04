@@ -1,6 +1,7 @@
 ---
 title: "The 23-Minute Penalty: Quantifying Context-Switching in Complex Systems: The Subconscious Incubation Effect"
 date: "2026-01-27"
+draft: true
 categories:
   - personal
 tags:

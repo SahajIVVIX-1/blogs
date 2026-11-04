@@ -1,6 +1,7 @@
 ---
 title: "Weekly Cadences: The Power of Sunday Engineering Audits & Retrospectives: A Practical Field Guide"
 date: "2024-09-13"
+draft: true
 categories:
   - personal
 tags:

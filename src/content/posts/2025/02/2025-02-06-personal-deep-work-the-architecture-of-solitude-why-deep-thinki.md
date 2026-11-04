@@ -1,6 +1,7 @@
 ---
 title: "The Architecture of Solitude: Why Deep Thinking Requires Absolute Silence: Lessons from Systems Architecture"
 date: "2025-02-06"
+draft: true
 categories:
   - personal
 tags:

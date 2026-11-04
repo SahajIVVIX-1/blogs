@@ -1,6 +1,7 @@
 ---
 title: "The Antifragile Engineer: Becoming Stronger Through Unexpected Cluster Failures: A Practical Field Guide"
 date: "2024-07-29"
+draft: true
 categories:
   - personal
 tags:

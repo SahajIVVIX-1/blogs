@@ -1,6 +1,7 @@
 ---
 title: "First-Principles Problem Decomposition: Boiling Software Requirements to Bedrock Truths: The First-Principles Analysis"
 date: "2025-04-25"
+draft: true
 categories:
   - personal
 tags:

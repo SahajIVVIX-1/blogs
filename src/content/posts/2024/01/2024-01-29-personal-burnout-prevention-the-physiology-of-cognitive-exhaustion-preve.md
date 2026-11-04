@@ -1,6 +1,7 @@
 ---
 title: "The Physiology of Cognitive Exhaustion: Preventing Prefrontal Cortex Drain: Part III: The Mental Model Shift"
 date: "2024-01-29"
+draft: true
 categories:
   - personal
 tags:

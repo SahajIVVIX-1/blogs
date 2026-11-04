@@ -1,6 +1,7 @@
 ---
 title: "Grit in Mathematics: Embracing the Confusion Phase as the Necessary Fore-runner of Insight: The Subconscious Incubation Effect"
 date: "2026-04-12"
+draft: true
 categories:
   - personal
 tags:

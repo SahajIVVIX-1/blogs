@@ -1,6 +1,7 @@
 ---
 title: "Sleep Architecture & Cognitive Retention: Optimizing SWS for Math Mastery: Deconstructing the Cognitive Friction"
 date: "2024-11-01"
+draft: true
 categories:
   - personal
 tags:

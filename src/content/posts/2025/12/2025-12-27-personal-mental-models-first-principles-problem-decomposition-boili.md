@@ -1,6 +1,7 @@
 ---
 title: "First-Principles Problem Decomposition: Boiling Software Requirements to Bedrock Truths: The Art of Ruthless Execution"
 date: "2025-12-27"
+draft: true
 categories:
   - personal
 tags:

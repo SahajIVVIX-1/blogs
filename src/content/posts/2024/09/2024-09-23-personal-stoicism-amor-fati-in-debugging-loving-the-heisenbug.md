@@ -1,6 +1,7 @@
 ---
 title: "Amor Fati in Debugging: Loving the Heisenbug That Forced Real Learning: Deconstructing the Cognitive Friction"
 date: "2024-09-23"
+draft: true
 categories:
   - personal
 tags:

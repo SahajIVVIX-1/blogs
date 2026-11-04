@@ -1,6 +1,7 @@
 ---
 title: "Curiosity as a Compounding Compass: Why Esoteric Math Yields the Best Innovations: The Subconscious Incubation Effect"
 date: "2026-03-05"
+draft: true
 categories:
   - personal
 tags:

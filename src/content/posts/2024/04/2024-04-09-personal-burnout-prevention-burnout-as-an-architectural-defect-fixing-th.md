@@ -1,6 +1,7 @@
 ---
 title: "Burnout as an Architectural Defect: Fixing the Asymmetry of Input and Recovery: Part IV: The Structural Mechanism"
 date: "2024-04-09"
+draft: true
 categories:
   - personal
 tags:

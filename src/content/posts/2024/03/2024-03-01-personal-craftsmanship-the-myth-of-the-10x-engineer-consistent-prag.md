@@ -1,6 +1,7 @@
 ---
 title: "The Myth of the 10x Engineer: Consistent Pragmatism Beats Sporadic Heroics: Part III: The Mental Model Shift"
 date: "2024-03-01"
+draft: true
 categories:
   - personal
 tags:

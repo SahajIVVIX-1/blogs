@@ -1,6 +1,7 @@
 ---
 title: "The Anatomy of Beautiful Functions: Small, Pure, and Unambiguous: Part I: The Psychological Foundation"
 date: "2023-10-11"
+draft: true
 categories:
   - personal
 tags:

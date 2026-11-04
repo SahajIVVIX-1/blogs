@@ -1,6 +1,7 @@
 ---
 title: "The Architecture of Solitude: Why Deep Thinking Requires Absolute Silence: The Subconscious Incubation Effect"
 date: "2026-03-23"
+draft: true
 categories:
   - personal
 tags:

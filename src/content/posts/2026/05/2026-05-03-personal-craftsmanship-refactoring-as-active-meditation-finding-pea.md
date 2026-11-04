@@ -1,6 +1,7 @@
 ---
 title: "Refactoring as Active Meditation: Finding Peace in Cleaning Structural Debt: Why Most Engineers Fail Here"
 date: "2026-05-03"
+draft: true
 categories:
   - personal
 tags:

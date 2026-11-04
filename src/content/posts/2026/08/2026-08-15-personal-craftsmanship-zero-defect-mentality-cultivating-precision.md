@@ -1,6 +1,7 @@
 ---
 title: "Zero-Defect Mentality: Cultivating Precision Without Becoming Paralyzed: A Framework for Deep Mastery"
 date: "2026-08-15"
+draft: true
 categories:
   - personal
 tags:

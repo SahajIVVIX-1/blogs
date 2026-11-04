@@ -1,6 +1,7 @@
 ---
 title: "The Antidote to Cynicism in Big Tech: Anchoring to Fundamental Curiosity: Lessons from Systems Architecture"
 date: "2025-02-04"
+draft: true
 categories:
   - personal
 tags:

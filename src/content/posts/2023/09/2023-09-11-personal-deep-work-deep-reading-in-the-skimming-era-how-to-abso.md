@@ -1,6 +1,7 @@
 ---
 title: "Deep Reading in the Skimming Era: How to Absorb 500 Pages of Dense Theory: Part I: The Psychological Foundation"
 date: "2023-09-11"
+draft: true
 categories:
   - personal
 tags:

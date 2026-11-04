@@ -1,6 +1,7 @@
 ---
 title: "Playing Long-Term Games with Long-Term People: The Ultimate Career Heuristic: A Letter to My Future Self"
 date: "2026-10-10"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Pragmatic Programmer Ethos: Taking Uncompromising Ownership of Code: Part I: The Psychological Foundation"
 date: "2023-08-12"
+draft: true
 categories:
   - personal
 tags:

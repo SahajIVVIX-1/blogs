@@ -1,6 +1,7 @@
 ---
 title: "Deconstructing Procrastination: The Gap Between Intention and Micro-Action: Part IV: The Structural Mechanism"
 date: "2024-06-06"
+draft: true
 categories:
   - personal
 tags:

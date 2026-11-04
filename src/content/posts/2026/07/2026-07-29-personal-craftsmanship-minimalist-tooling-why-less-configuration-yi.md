@@ -1,6 +1,7 @@
 ---
 title: "Minimalist Tooling: Why Less Configuration Yields Superior Engineering Velocity: A Framework for Deep Mastery"
 date: "2026-07-29"
+draft: true
 categories:
   - personal
 tags:

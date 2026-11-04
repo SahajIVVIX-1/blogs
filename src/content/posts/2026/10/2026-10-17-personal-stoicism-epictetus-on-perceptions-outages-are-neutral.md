@@ -1,6 +1,7 @@
 ---
 title: "Epictetus on Perceptions: Outages are Neutral, Only Panicked Reactions Destroy: A Letter to My Future Self"
 date: "2026-10-17"
+draft: true
 categories:
   - personal
 tags:
