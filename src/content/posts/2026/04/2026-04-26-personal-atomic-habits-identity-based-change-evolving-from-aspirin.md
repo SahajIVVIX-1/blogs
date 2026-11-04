@@ -1,6 +1,7 @@
 ---
 title: "Identity-Based Change: Evolving from 'Aspiring Coder' to 'Disciplined Builder': Why Most Engineers Fail Here"
 date: "2026-04-26"
+draft: true
 categories:
   - personal
 tags:

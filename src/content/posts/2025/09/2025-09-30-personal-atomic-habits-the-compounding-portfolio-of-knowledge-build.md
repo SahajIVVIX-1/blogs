@@ -1,6 +1,7 @@
 ---
 title: "The Compounding Portfolio of Knowledge: Building Asymmetric Learning Curvature: Overcoming the Resistance"
 date: "2025-09-30"
+draft: true
 categories:
   - personal
 tags:

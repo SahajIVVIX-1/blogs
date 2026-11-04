@@ -1,6 +1,7 @@
 ---
 title: "The Flow State Equation: Balancing Cognitive Load Against Skill Thresholds: The Stoic Lens"
 date: "2025-06-22"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Chesterton's Fence in Code Refactoring: Understanding Why the Hack Was Written: The Stoic Lens"
 date: "2025-06-03"
+draft: true
 categories:
   - personal
 tags:

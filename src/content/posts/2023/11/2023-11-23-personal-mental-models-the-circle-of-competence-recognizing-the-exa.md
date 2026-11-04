@@ -1,6 +1,7 @@
 ---
 title: "The Circle of Competence: Recognizing the Exact Boundary of Your Engineering Knowledge: Part II: The Daily Protocol"
 date: "2023-11-23"
+draft: true
 categories:
   - personal
 tags:

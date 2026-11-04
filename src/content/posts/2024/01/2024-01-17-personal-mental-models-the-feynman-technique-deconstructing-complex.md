@@ -1,6 +1,7 @@
 ---
 title: "The Feynman Technique: Deconstructing Complex Algorithms to First Principles: Part III: The Mental Model Shift"
 date: "2024-01-17"
+draft: true
 categories:
   - personal
 tags:

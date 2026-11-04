@@ -1,6 +1,7 @@
 ---
 title: "The Physiology of Cognitive Exhaustion: Preventing Prefrontal Cortex Drain: Part IV: The Structural Mechanism"
 date: "2024-04-20"
+draft: true
 categories:
   - personal
 tags:

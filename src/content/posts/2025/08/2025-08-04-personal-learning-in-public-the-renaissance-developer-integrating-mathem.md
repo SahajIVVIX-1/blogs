@@ -1,6 +1,7 @@
 ---
 title: "The Renaissance Developer: Integrating Mathematics, Art, Hardware, and Code: The Stoic Lens"
 date: "2025-08-04"
+draft: true
 categories:
   - personal
 tags:

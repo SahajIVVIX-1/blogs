@@ -1,6 +1,7 @@
 ---
 title: "Second-Order Thinking: Anticipating the Unintended Cascades of Microservices: Deconstructing the Cognitive Friction"
 date: "2024-10-05"
+draft: true
 categories:
   - personal
 tags:

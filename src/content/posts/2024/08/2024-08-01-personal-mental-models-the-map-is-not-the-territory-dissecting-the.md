@@ -1,6 +1,7 @@
 ---
 title: "The Map is Not the Territory: Dissecting the Difference Between Spec and Reality: A Practical Field Guide"
 date: "2024-08-01"
+draft: true
 categories:
   - personal
 tags:

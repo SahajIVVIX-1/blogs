@@ -1,6 +1,7 @@
 ---
 title: "The Myth of the 10x Engineer: Consistent Pragmatism Beats Sporadic Heroics: Part I: The Psychological Foundation"
 date: "2023-09-19"
+draft: true
 categories:
   - personal
 tags:

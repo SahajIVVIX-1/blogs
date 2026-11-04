@@ -1,6 +1,7 @@
 ---
 title: "The Circle of Competence: Recognizing the Exact Boundary of Your Engineering Knowledge: The First-Principles Analysis"
 date: "2025-03-29"
+draft: true
 categories:
   - personal
 tags:

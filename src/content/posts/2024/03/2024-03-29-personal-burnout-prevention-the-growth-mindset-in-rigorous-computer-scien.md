@@ -1,6 +1,7 @@
 ---
 title: "The Growth Mindset in Rigorous Computer Science: Moving from Fixed to Plastic: Part III: The Mental Model Shift"
 date: "2024-03-29"
+draft: true
 categories:
   - personal
 tags:

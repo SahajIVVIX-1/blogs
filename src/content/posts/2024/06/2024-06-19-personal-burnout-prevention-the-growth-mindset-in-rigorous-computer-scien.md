@@ -1,6 +1,7 @@
 ---
 title: "The Growth Mindset in Rigorous Computer Science: Moving from Fixed to Plastic: Part IV: The Structural Mechanism"
 date: "2024-06-19"
+draft: true
 categories:
   - personal
 tags:

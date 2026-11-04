@@ -1,6 +1,7 @@
 ---
 title: "The Sovereign Technologist: Building Intellectual Independence from Big Tech Platforms: Part IV: The Structural Mechanism"
 date: "2024-05-02"
+draft: true
 categories:
   - personal
 tags:

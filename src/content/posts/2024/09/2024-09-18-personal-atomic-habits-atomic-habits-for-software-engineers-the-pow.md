@@ -1,6 +1,7 @@
 ---
 title: "Atomic Habits for Software Engineers: The Power of 1% Daily Improvements: Deconstructing the Cognitive Friction"
 date: "2024-09-18"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Writing as an Engine of Clarity: Why You Don't Understand What You Cannot Articulate: Overcoming the Resistance"
 date: "2025-09-28"
+draft: true
 categories:
   - personal
 tags:

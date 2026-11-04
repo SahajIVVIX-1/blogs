@@ -1,6 +1,7 @@
 ---
 title: "Intellectual Honesty: The Unforgiving Metric of the True Scientist: The Stoic Lens"
 date: "2025-07-30"
+draft: true
 categories:
   - personal
 tags:

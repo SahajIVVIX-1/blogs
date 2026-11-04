@@ -1,6 +1,7 @@
 ---
 title: "The Power of the Morning Routine: Winning the First 90 Minutes of Every Day: Deconstructing the Cognitive Friction"
 date: "2024-11-12"
+draft: true
 categories:
   - personal
 tags:

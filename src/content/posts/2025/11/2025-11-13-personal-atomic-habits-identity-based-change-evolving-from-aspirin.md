@@ -1,6 +1,7 @@
 ---
 title: "Identity-Based Change: Evolving from 'Aspiring Coder' to 'Disciplined Builder': The Art of Ruthless Execution"
 date: "2025-11-13"
+draft: true
 categories:
   - personal
 tags:

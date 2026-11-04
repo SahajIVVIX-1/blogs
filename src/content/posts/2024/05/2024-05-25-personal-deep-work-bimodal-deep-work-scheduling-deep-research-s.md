@@ -1,6 +1,7 @@
 ---
 title: "Bimodal Deep Work: Scheduling Deep Research Sprints in High-Noise Environments: Part IV: The Structural Mechanism"
 date: "2024-05-25"
+draft: true
 categories:
   - personal
 tags:

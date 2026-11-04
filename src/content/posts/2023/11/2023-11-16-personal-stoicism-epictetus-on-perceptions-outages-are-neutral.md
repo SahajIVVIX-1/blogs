@@ -1,6 +1,7 @@
 ---
 title: "Epictetus on Perceptions: Outages are Neutral, Only Panicked Reactions Destroy: Part II: The Daily Protocol"
 date: "2023-11-16"
+draft: true
 categories:
   - personal
 tags:

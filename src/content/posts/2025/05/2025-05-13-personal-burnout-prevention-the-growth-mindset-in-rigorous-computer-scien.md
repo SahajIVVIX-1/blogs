@@ -1,6 +1,7 @@
 ---
 title: "The Growth Mindset in Rigorous Computer Science: Moving from Fixed to Plastic: The First-Principles Analysis"
 date: "2025-05-13"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Asymmetric Career Bets: Structuring Low Downside with Infinite Upside: Why Most Engineers Fail Here"
 date: "2026-05-05"
+draft: true
 categories:
   - personal
 tags:

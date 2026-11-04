@@ -1,6 +1,7 @@
 ---
 title: "Second-Order Thinking: Anticipating the Unintended Cascades of Microservices: The Stoic Lens"
 date: "2025-06-08"
+draft: true
 categories:
   - personal
 tags:

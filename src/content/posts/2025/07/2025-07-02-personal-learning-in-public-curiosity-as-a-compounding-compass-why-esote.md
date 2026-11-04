@@ -1,6 +1,7 @@
 ---
 title: "Curiosity as a Compounding Compass: Why Esoteric Math Yields the Best Innovations: The Stoic Lens"
 date: "2025-07-02"
+draft: true
 categories:
   - personal
 tags:

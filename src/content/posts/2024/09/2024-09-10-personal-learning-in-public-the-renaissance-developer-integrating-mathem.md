@@ -1,6 +1,7 @@
 ---
 title: "The Renaissance Developer: Integrating Mathematics, Art, Hardware, and Code: A Practical Field Guide"
 date: "2024-09-10"
+draft: true
 categories:
   - personal
 tags:

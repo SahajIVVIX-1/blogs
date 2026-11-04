@@ -1,6 +1,7 @@
 ---
 title: "The Exponential Growth of Skill: Why Micro-Progress Trumps Heroic Sprints: Part IV: The Structural Mechanism"
 date: "2024-04-13"
+draft: true
 categories:
   - personal
 tags:

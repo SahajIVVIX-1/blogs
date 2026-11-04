@@ -1,6 +1,7 @@
 ---
 title: "Burnout as an Architectural Defect: Fixing the Asymmetry of Input and Recovery: The Subconscious Incubation Effect"
 date: "2026-01-25"
+draft: true
 categories:
   - personal
 tags:

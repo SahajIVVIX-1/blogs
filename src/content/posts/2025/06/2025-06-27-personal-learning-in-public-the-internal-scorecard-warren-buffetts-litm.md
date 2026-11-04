@@ -1,6 +1,7 @@
 ---
 title: "The Internal Scorecard: Warren Buffett's Litmus Test for Authentic Integrity: The Stoic Lens"
 date: "2025-06-27"
+draft: true
 categories:
   - personal
 tags:

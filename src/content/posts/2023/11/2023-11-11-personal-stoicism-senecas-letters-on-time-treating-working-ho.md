@@ -1,6 +1,7 @@
 ---
 title: "Seneca's Letters on Time: Treating Working Hours as Non-Renewable Assets: Part II: The Daily Protocol"
 date: "2023-11-11"
+draft: true
 categories:
   - personal
 tags:

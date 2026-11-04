@@ -1,6 +1,7 @@
 ---
 title: "The Antifragile Engineer: Becoming Stronger Through Unexpected Cluster Failures: Deconstructing the Cognitive Friction"
 date: "2024-10-19"
+draft: true
 categories:
   - personal
 tags:

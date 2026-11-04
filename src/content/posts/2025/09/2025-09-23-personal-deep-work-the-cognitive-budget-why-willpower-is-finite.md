@@ -1,6 +1,7 @@
 ---
 title: "The Cognitive Budget: Why Willpower is Finite and Routines are Essential: Overcoming the Resistance"
 date: "2025-09-23"
+draft: true
 categories:
   - personal
 tags:

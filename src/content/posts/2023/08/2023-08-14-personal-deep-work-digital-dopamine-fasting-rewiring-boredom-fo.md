@@ -1,6 +1,7 @@
 ---
 title: "Digital Dopamine Fasting: Rewiring Boredom for Breakthrough Problem-Solving: Part I: The Psychological Foundation"
 date: "2023-08-14"
+draft: true
 categories:
   - personal
 tags:

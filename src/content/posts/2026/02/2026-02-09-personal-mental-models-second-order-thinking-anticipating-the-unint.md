@@ -1,6 +1,7 @@
 ---
 title: "Second-Order Thinking: Anticipating the Unintended Cascades of Microservices: The Subconscious Incubation Effect"
 date: "2026-02-09"
+draft: true
 categories:
   - personal
 tags:

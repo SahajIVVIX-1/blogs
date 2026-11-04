@@ -1,6 +1,7 @@
 ---
 title: "Writing as an Engine of Clarity: Why You Don't Understand What You Cannot Articulate: A Framework for Deep Mastery"
 date: "2026-08-22"
+draft: true
 categories:
   - personal
 tags:

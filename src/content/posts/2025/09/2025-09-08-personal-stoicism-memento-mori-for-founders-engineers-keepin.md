@@ -1,6 +1,7 @@
 ---
 title: "Memento Mori for Founders & Engineers: Keeping Stress in Cosmic Perspective: Overcoming the Resistance"
 date: "2025-09-08"
+draft: true
 categories:
   - personal
 tags:

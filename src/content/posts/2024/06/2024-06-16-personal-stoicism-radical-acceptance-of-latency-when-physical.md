@@ -1,6 +1,7 @@
 ---
 title: "Radical Acceptance of Latency: When Physical Constraints Meet Impatient Minds: Part IV: The Structural Mechanism"
 date: "2024-06-16"
+draft: true
 categories:
   - personal
 tags:

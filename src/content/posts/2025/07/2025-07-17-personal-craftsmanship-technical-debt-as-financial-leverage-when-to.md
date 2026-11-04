@@ -1,6 +1,7 @@
 ---
 title: "Technical Debt as Financial Leverage: When to Borrow and When to Repay: The Stoic Lens"
 date: "2025-07-17"
+draft: true
 categories:
   - personal
 tags:

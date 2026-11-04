@@ -1,6 +1,7 @@
 ---
 title: "Burnout as an Architectural Defect: Fixing the Asymmetry of Input and Recovery: A Letter to My Future Self"
 date: "2026-09-28"
+draft: true
 categories:
   - personal
 tags:

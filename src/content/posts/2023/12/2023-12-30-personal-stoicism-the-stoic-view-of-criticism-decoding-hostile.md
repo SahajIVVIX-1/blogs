@@ -1,6 +1,7 @@
 ---
 title: "The Stoic View of Criticism: Decoding Hostile Code Reviews into Pure Data: Part II: The Daily Protocol"
 date: "2023-12-30"
+draft: true
 categories:
   - personal
 tags:

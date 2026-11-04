@@ -1,6 +1,7 @@
 ---
 title: "Deep Reading in the Skimming Era: How to Absorb 500 Pages of Dense Theory: A Letter to My Future Self"
 date: "2026-11-02"
+draft: true
 categories:
   - personal
 tags:

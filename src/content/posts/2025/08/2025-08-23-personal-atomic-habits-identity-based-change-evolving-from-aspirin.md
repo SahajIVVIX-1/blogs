@@ -1,6 +1,7 @@
 ---
 title: "Identity-Based Change: Evolving from 'Aspiring Coder' to 'Disciplined Builder': Overcoming the Resistance"
 date: "2025-08-23"
+draft: true
 categories:
   - personal
 tags:

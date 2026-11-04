@@ -1,6 +1,7 @@
 ---
 title: "The Inner Citadel: Building an Unshakeable Core Against Technical Uncertainty: The First-Principles Analysis"
 date: "2025-04-08"
+draft: true
 categories:
   - personal
 tags:

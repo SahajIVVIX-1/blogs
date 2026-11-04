@@ -1,6 +1,7 @@
 ---
 title: "The Consistency Moat: How Ordinary Consistency Beats Occasional Genius: Deconstructing the Cognitive Friction"
 date: "2024-11-28"
+draft: true
 categories:
   - personal
 tags:

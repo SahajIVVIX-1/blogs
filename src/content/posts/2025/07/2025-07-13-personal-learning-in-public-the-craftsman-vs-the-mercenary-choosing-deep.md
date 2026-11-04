@@ -1,6 +1,7 @@
 ---
 title: "The Craftsman vs The Mercenary: Choosing Deep Fulfillment Over Superficial Hype: The Stoic Lens"
 date: "2025-07-13"
+draft: true
 categories:
   - personal
 tags:

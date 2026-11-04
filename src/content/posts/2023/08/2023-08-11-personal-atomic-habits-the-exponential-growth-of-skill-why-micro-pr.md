@@ -1,6 +1,7 @@
 ---
 title: "The Exponential Growth of Skill: Why Micro-Progress Trumps Heroic Sprints: Part I: The Psychological Foundation"
 date: "2023-08-11"
+draft: true
 categories:
   - personal
 tags:

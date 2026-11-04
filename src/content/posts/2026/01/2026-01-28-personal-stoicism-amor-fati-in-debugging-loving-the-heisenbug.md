@@ -1,6 +1,7 @@
 ---
 title: "Amor Fati in Debugging: Loving the Heisenbug That Forced Real Learning: The Subconscious Incubation Effect"
 date: "2026-01-28"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Bimodal Deep Work: Scheduling Deep Research Sprints in High-Noise Environments: The Subconscious Incubation Effect"
 date: "2026-03-12"
+draft: true
 categories:
   - personal
 tags:

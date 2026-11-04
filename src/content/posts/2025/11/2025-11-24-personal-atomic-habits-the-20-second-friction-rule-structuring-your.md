@@ -1,6 +1,7 @@
 ---
 title: "The 20-Second Friction Rule: Structuring Your Environment for Immediate Action: The Art of Ruthless Execution"
 date: "2025-11-24"
+draft: true
 categories:
   - personal
 tags:

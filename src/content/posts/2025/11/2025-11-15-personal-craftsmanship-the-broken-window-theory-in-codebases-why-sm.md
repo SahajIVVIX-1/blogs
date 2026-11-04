@@ -1,6 +1,7 @@
 ---
 title: "The Broken Window Theory in Codebases: Why Small Warnings Snowball into Decay: The Art of Ruthless Execution"
 date: "2025-11-15"
+draft: true
 categories:
   - personal
 tags:

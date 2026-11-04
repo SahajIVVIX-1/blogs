@@ -1,6 +1,7 @@
 ---
 title: "Architectural Integrity: Resisting the Allure of Trendy Over-Engineering: The First-Principles Analysis"
 date: "2025-04-21"
+draft: true
 categories:
   - personal
 tags:

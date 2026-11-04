@@ -1,6 +1,7 @@
 ---
 title: "The Broken Window Theory in Codebases: Why Small Warnings Snowball into Decay: The Subconscious Incubation Effect"
 date: "2026-02-05"
+draft: true
 categories:
   - personal
 tags:

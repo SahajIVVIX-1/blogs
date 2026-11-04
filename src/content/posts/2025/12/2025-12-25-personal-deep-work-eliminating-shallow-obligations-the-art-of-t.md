@@ -1,6 +1,7 @@
 ---
 title: "Eliminating Shallow Obligations: The Art of Technical Refusal: The Art of Ruthless Execution"
 date: "2025-12-25"
+draft: true
 categories:
   - personal
 tags:

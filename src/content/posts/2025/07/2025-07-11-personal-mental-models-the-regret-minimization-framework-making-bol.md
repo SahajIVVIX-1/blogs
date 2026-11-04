@@ -1,6 +1,7 @@
 ---
 title: "The Regret Minimization Framework: Making Bold Career Pivots Without Anxiety: The Stoic Lens"
 date: "2025-07-11"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Ergodicity in Engineering Careers: Avoiding Strategies with Non-Zero Ruin Probability: Part III: The Mental Model Shift"
 date: "2024-02-24"
+draft: true
 categories:
   - personal
 tags:

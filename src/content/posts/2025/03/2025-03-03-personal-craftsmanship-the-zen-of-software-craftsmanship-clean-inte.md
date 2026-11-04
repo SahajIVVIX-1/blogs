@@ -1,6 +1,7 @@
 ---
 title: "The Zen of Software Craftsmanship: Clean Interfaces as Moral Duty: The First-Principles Analysis"
 date: "2025-03-03"
+draft: true
 categories:
   - personal
 tags:

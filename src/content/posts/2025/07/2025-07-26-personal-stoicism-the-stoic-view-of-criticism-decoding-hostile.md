@@ -1,6 +1,7 @@
 ---
 title: "The Stoic View of Criticism: Decoding Hostile Code Reviews into Pure Data: The Stoic Lens"
 date: "2025-07-26"
+draft: true
 categories:
   - personal
 tags:

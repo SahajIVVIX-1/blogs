@@ -1,6 +1,7 @@
 ---
 title: "The Exponential Value of Generalists in an AI-Accelerated World: Part III: The Mental Model Shift"
 date: "2024-03-14"
+draft: true
 categories:
   - personal
 tags:

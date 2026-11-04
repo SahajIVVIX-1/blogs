@@ -1,6 +1,7 @@
 ---
 title: "Amor Fati in Debugging: Loving the Heisenbug That Forced Real Learning: Part II: The Daily Protocol"
 date: "2023-10-31"
+draft: true
 categories:
   - personal
 tags:

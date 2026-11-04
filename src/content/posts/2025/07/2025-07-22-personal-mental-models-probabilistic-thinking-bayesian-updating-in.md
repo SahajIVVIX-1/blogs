@@ -1,6 +1,7 @@
 ---
 title: "Probabilistic Thinking: Bayesian Updating in Ambiguous Debugging Scenarios: The Stoic Lens"
 date: "2025-07-22"
+draft: true
 categories:
   - personal
 tags:

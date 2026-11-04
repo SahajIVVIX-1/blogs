@@ -1,6 +1,7 @@
 ---
 title: "Cultivating Psychological Safety Within Yourself: Forgiving Early Technical Mistakes: Part II: The Daily Protocol"
 date: "2023-12-06"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Amor Fati in Debugging: Loving the Heisenbug That Forced Real Learning: A Practical Field Guide"
 date: "2024-07-03"
+draft: true
 categories:
   - personal
 tags:

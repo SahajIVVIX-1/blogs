@@ -1,6 +1,7 @@
 ---
 title: "The Exponential Value of Generalists in an AI-Accelerated World: A Framework for Deep Mastery"
 date: "2026-09-02"
+draft: true
 categories:
   - personal
 tags:

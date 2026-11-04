@@ -1,6 +1,7 @@
 ---
 title: "The Craft of API Design: Building Intuitive, Misuse-Resistant Interfaces: Part III: The Mental Model Shift"
 date: "2024-02-19"
+draft: true
 categories:
   - personal
 tags:

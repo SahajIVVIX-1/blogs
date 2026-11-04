@@ -1,6 +1,7 @@
 ---
 title: "Radical Acceptance of Latency: When Physical Constraints Meet Impatient Minds: Lessons from Systems Architecture"
 date: "2025-02-17"
+draft: true
 categories:
   - personal
 tags:

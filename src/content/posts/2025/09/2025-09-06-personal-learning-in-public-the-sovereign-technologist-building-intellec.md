@@ -1,6 +1,7 @@
 ---
 title: "The Sovereign Technologist: Building Intellectual Independence from Big Tech Platforms: Overcoming the Resistance"
 date: "2025-09-06"
+draft: true
 categories:
   - personal
 tags:

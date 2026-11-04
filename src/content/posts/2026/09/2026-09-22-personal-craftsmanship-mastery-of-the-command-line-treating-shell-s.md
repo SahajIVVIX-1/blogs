@@ -1,6 +1,7 @@
 ---
 title: "Mastery of the Command Line: Treating Shell Scripting as an Artisan's Chisel: A Framework for Deep Mastery"
 date: "2026-09-22"
+draft: true
 categories:
   - personal
 tags:

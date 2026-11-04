@@ -1,6 +1,7 @@
 ---
 title: "Digital Dopamine Fasting: Rewiring Boredom for Breakthrough Problem-Solving: Why Most Engineers Fail Here"
 date: "2026-04-24"
+draft: true
 categories:
   - personal
 tags:

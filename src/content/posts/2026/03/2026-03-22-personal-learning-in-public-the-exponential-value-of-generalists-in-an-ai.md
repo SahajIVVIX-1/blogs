@@ -1,6 +1,7 @@
 ---
 title: "The Exponential Value of Generalists in an AI-Accelerated World: The Subconscious Incubation Effect"
 date: "2026-03-22"
+draft: true
 categories:
   - personal
 tags:

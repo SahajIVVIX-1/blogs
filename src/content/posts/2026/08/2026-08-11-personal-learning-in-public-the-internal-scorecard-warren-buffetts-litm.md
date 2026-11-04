@@ -1,6 +1,7 @@
 ---
 title: "The Internal Scorecard: Warren Buffett's Litmus Test for Authentic Integrity: A Framework for Deep Mastery"
 date: "2026-08-11"
+draft: true
 categories:
   - personal
 tags:

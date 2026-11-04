@@ -1,6 +1,7 @@
 ---
 title: "Radical Acceptance of Latency: When Physical Constraints Meet Impatient Minds: The Stoic Lens"
 date: "2025-07-31"
+draft: true
 categories:
   - personal
 tags:

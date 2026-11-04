@@ -1,6 +1,7 @@
 ---
 title: "The Monk Mode Protocol: Architecting Unbroken 4-Hour Engineering Blocks: A Practical Field Guide"
 date: "2024-06-26"
+draft: true
 categories:
   - personal
 tags:

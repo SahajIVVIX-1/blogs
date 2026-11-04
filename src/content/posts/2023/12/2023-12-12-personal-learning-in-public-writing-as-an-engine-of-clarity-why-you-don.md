@@ -1,6 +1,7 @@
 ---
 title: "Writing as an Engine of Clarity: Why You Don't Understand What You Cannot Articulate: Part II: The Daily Protocol"
 date: "2023-12-12"
+draft: true
 categories:
   - personal
 tags:

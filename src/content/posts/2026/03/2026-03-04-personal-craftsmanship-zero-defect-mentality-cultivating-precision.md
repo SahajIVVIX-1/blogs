@@ -1,6 +1,7 @@
 ---
 title: "Zero-Defect Mentality: Cultivating Precision Without Becoming Paralyzed: The Subconscious Incubation Effect"
 date: "2026-03-04"
+draft: true
 categories:
   - personal
 tags:

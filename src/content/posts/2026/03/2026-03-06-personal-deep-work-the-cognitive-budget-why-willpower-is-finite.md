@@ -1,6 +1,7 @@
 ---
 title: "The Cognitive Budget: Why Willpower is Finite and Routines are Essential: The Subconscious Incubation Effect"
 date: "2026-03-06"
+draft: true
 categories:
   - personal
 tags:

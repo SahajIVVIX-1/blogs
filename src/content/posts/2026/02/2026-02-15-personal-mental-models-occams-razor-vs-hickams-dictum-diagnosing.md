@@ -1,6 +1,7 @@
 ---
 title: "Occam's Razor vs Hickam's Dictum: Diagnosing Concurrency Bugs with Elegance: The Subconscious Incubation Effect"
 date: "2026-02-15"
+draft: true
 categories:
   - personal
 tags:

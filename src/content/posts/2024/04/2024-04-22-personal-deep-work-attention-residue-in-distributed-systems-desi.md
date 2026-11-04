@@ -1,6 +1,7 @@
 ---
 title: "Attention Residue in Distributed Systems Design: The Hidden Tax of Slack: Part IV: The Structural Mechanism"
 date: "2024-04-22"
+draft: true
 categories:
   - personal
 tags:

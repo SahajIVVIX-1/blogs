@@ -1,6 +1,7 @@
 ---
 title: "The Stoic View of Criticism: Decoding Hostile Code Reviews into Pure Data: Part III: The Mental Model Shift"
 date: "2024-03-21"
+draft: true
 categories:
   - personal
 tags:

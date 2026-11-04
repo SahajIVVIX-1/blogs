@@ -1,6 +1,7 @@
 ---
 title: "Asynchronous Engineering: Escaping the Instant Gratification Communication Trap: Lessons from Systems Architecture"
 date: "2025-01-04"
+draft: true
 categories:
   - personal
 tags:

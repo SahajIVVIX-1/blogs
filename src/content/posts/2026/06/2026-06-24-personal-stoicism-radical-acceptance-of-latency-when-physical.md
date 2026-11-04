@@ -1,6 +1,7 @@
 ---
 title: "Radical Acceptance of Latency: When Physical Constraints Meet Impatient Minds: Why Most Engineers Fail Here"
 date: "2026-06-24"
+draft: true
 categories:
   - personal
 tags:

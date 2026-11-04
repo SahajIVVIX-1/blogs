@@ -1,6 +1,7 @@
 ---
 title: "Dealing with Technical Rejection: Viewing Failed RFCs as Data Extraction: The Subconscious Incubation Effect"
 date: "2026-02-16"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Attention Residue in Distributed Systems Design: The Hidden Tax of Slack: The First-Principles Analysis"
 date: "2025-03-16"
+draft: true
 categories:
   - personal
 tags:

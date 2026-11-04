@@ -1,6 +1,7 @@
 ---
 title: "Architectural Integrity: Resisting the Allure of Trendy Over-Engineering: The Art of Ruthless Execution"
 date: "2025-12-23"
+draft: true
 categories:
   - personal
 tags:

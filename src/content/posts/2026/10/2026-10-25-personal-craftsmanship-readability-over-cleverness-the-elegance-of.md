@@ -1,6 +1,7 @@
 ---
 title: "Readability Over Cleverness: The Elegance of Code That Any Junior Can Audit: A Letter to My Future Self"
 date: "2026-10-25"
+draft: true
 categories:
   - personal
 tags:

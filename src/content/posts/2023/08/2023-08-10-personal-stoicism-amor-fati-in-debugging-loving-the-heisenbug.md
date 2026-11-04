@@ -1,6 +1,7 @@
 ---
 title: "Amor Fati in Debugging: Loving the Heisenbug That Forced Real Learning: Part I: The Psychological Foundation"
 date: "2023-08-10"
+draft: true
 categories:
   - personal
 tags:

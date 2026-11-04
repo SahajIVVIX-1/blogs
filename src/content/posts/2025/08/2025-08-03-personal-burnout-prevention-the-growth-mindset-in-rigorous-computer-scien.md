@@ -1,6 +1,7 @@
 ---
 title: "The Growth Mindset in Rigorous Computer Science: Moving from Fixed to Plastic: The Stoic Lens"
 date: "2025-08-03"
+draft: true
 categories:
   - personal
 tags:

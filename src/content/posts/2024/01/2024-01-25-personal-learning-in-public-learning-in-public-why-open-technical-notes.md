@@ -1,6 +1,7 @@
 ---
 title: "Learning in Public: Why Open Technical Notes Create Unstoppable Serendipity: Part III: The Mental Model Shift"
 date: "2024-01-25"
+draft: true
 categories:
   - personal
 tags:

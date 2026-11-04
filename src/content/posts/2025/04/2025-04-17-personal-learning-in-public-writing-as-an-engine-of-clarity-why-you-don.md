@@ -1,6 +1,7 @@
 ---
 title: "Writing as an Engine of Clarity: Why You Don't Understand What You Cannot Articulate: The First-Principles Analysis"
 date: "2025-04-17"
+draft: true
 categories:
   - personal
 tags:

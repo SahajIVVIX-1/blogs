@@ -1,6 +1,7 @@
 ---
 title: "Architectural Integrity: Resisting the Allure of Trendy Over-Engineering: Part II: The Daily Protocol"
 date: "2023-12-16"
+draft: true
 categories:
   - personal
 tags:

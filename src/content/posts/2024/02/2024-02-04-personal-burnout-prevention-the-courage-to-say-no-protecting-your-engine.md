@@ -1,6 +1,7 @@
 ---
 title: "The Courage to Say No: Protecting Your Engineering Core from Scope Creep: Part III: The Mental Model Shift"
 date: "2024-02-04"
+draft: true
 categories:
   - personal
 tags:

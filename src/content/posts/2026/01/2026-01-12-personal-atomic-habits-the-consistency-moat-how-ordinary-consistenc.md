@@ -1,6 +1,7 @@
 ---
 title: "The Consistency Moat: How Ordinary Consistency Beats Occasional Genius: The Art of Ruthless Execution"
 date: "2026-01-12"
+draft: true
 categories:
   - personal
 tags:

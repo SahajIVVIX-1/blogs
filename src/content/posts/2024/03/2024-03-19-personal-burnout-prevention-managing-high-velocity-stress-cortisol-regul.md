@@ -1,6 +1,7 @@
 ---
 title: "Managing High-Velocity Stress: Cortisol Regulation for Engineers on On-Call Duty: Part III: The Mental Model Shift"
 date: "2024-03-19"
+draft: true
 categories:
   - personal
 tags:

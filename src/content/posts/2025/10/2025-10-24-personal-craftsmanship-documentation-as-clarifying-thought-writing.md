@@ -1,6 +1,7 @@
 ---
 title: "Documentation as Clarifying Thought: Writing Before Implementation: Overcoming the Resistance"
 date: "2025-10-24"
+draft: true
 categories:
   - personal
 tags:

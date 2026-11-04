@@ -1,6 +1,7 @@
 ---
 title: "Technical Debt as Financial Leverage: When to Borrow and When to Repay: Why Most Engineers Fail Here"
 date: "2026-06-10"
+draft: true
 categories:
   - personal
 tags:

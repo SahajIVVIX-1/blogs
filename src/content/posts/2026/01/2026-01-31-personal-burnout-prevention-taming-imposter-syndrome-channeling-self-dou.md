@@ -1,6 +1,7 @@
 ---
 title: "Taming Imposter Syndrome: Channeling Self-Doubt into Rigorous Code Verification: The Subconscious Incubation Effect"
 date: "2026-01-31"
+draft: true
 categories:
   - personal
 tags:

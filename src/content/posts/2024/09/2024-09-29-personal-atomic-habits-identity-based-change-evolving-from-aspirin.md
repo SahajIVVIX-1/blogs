@@ -1,6 +1,7 @@
 ---
 title: "Identity-Based Change: Evolving from 'Aspiring Coder' to 'Disciplined Builder': Deconstructing the Cognitive Friction"
 date: "2024-09-29"
+draft: true
 categories:
   - personal
 tags:

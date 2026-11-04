@@ -1,6 +1,7 @@
 ---
 title: "The Sunk Cost Fallacy in Long-Running Projects: Knowing When to Pull the Plug: A Practical Field Guide"
 date: "2024-07-28"
+draft: true
 categories:
   - personal
 tags:

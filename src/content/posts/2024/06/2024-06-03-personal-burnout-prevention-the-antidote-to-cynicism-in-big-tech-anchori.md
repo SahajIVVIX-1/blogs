@@ -1,6 +1,7 @@
 ---
 title: "The Antidote to Cynicism in Big Tech: Anchoring to Fundamental Curiosity: Part IV: The Structural Mechanism"
 date: "2024-06-03"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Asynchronous Engineering: Escaping the Instant Gratification Communication Trap: Part IV: The Structural Mechanism"
 date: "2024-05-03"
+draft: true
 categories:
   - personal
 tags:

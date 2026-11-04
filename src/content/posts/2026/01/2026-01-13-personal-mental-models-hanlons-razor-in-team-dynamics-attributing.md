@@ -1,6 +1,7 @@
 ---
 title: "Hanlon's Razor in Team Dynamics: Attributing Friction to Chaos, Not Malice: The Art of Ruthless Execution"
 date: "2026-01-13"
+draft: true
 categories:
   - personal
 tags:

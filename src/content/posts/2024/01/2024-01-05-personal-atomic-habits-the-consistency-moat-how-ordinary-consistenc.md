@@ -1,6 +1,7 @@
 ---
 title: "The Consistency Moat: How Ordinary Consistency Beats Occasional Genius: Part II: The Daily Protocol"
 date: "2024-01-05"
+draft: true
 categories:
   - personal
 tags:

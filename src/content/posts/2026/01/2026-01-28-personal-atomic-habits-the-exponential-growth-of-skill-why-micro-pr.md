@@ -1,6 +1,7 @@
 ---
 title: "The Exponential Growth of Skill: Why Micro-Progress Trumps Heroic Sprints: The Subconscious Incubation Effect"
 date: "2026-01-28"
+draft: true
 categories:
   - personal
 tags:

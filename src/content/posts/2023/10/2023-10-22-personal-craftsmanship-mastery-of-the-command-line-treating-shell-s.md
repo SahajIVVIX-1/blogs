@@ -1,6 +1,7 @@
 ---
 title: "Mastery of the Command Line: Treating Shell Scripting as an Artisan's Chisel: Part I: The Psychological Foundation"
 date: "2023-10-22"
+draft: true
 categories:
   - personal
 tags:

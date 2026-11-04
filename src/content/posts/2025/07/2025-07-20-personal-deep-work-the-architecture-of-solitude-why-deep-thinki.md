@@ -1,6 +1,7 @@
 ---
 title: "The Architecture of Solitude: Why Deep Thinking Requires Absolute Silence: The Stoic Lens"
 date: "2025-07-20"
+draft: true
 categories:
   - personal
 tags:

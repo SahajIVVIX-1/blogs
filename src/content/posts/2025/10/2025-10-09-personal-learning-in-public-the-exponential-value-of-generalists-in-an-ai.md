@@ -1,6 +1,7 @@
 ---
 title: "The Exponential Value of Generalists in an AI-Accelerated World: Overcoming the Resistance"
 date: "2025-10-09"
+draft: true
 categories:
   - personal
 tags:

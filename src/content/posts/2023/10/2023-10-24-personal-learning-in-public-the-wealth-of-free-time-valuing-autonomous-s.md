@@ -1,6 +1,7 @@
 ---
 title: "The Wealth of Free Time: Valuing Autonomous Schedule Control Above Raw Status: Part I: The Psychological Foundation"
 date: "2023-10-24"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Power of the Morning Routine: Winning the First 90 Minutes of Every Day: Part IV: The Structural Mechanism"
 date: "2024-06-01"
+draft: true
 categories:
   - personal
 tags:

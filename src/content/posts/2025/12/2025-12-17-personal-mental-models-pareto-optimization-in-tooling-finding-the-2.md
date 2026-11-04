@@ -1,6 +1,7 @@
 ---
 title: "Pareto Optimization in Tooling: Finding the 20% of Tools Powering 80% of Leverage: The Art of Ruthless Execution"
 date: "2025-12-17"
+draft: true
 categories:
   - personal
 tags:

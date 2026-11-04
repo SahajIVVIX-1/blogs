@@ -1,6 +1,7 @@
 ---
 title: "Seneca's Letters on Time: Treating Working Hours as Non-Renewable Assets: Part I: The Psychological Foundation"
 date: "2023-08-21"
+draft: true
 categories:
   - personal
 tags:

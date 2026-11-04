@@ -1,6 +1,7 @@
 ---
 title: "First-Principles Problem Decomposition: Boiling Software Requirements to Bedrock Truths: Part III: The Mental Model Shift"
 date: "2024-03-12"
+draft: true
 categories:
   - personal
 tags:

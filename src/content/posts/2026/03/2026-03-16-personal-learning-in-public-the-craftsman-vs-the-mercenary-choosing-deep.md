@@ -1,6 +1,7 @@
 ---
 title: "The Craftsman vs The Mercenary: Choosing Deep Fulfillment Over Superficial Hype: The Subconscious Incubation Effect"
 date: "2026-03-16"
+draft: true
 categories:
   - personal
 tags:

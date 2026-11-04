@@ -1,6 +1,7 @@
 ---
 title: "The Antidote to Cynicism in Big Tech: Anchoring to Fundamental Curiosity: Deconstructing the Cognitive Friction"
 date: "2024-11-14"
+draft: true
 categories:
   - personal
 tags:

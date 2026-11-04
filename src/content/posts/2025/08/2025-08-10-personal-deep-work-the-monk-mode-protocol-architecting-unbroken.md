@@ -1,6 +1,7 @@
 ---
 title: "The Monk Mode Protocol: Architecting Unbroken 4-Hour Engineering Blocks: Overcoming the Resistance"
 date: "2025-08-10"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Physiology of Cognitive Exhaustion: Preventing Prefrontal Cortex Drain: The Stoic Lens"
 date: "2025-06-04"
+draft: true
 categories:
   - personal
 tags:

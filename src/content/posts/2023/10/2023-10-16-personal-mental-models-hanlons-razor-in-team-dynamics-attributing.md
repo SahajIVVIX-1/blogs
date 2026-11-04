@@ -1,6 +1,7 @@
 ---
 title: "Hanlon's Razor in Team Dynamics: Attributing Friction to Chaos, Not Malice: Part I: The Psychological Foundation"
 date: "2023-10-16"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Broken Window Theory in Codebases: Why Small Warnings Snowball into Decay: Part III: The Mental Model Shift"
 date: "2024-01-29"
+draft: true
 categories:
   - personal
 tags:

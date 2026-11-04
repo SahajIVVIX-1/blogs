@@ -1,6 +1,7 @@
 ---
 title: "Atomic Habits for Software Engineers: The Power of 1% Daily Improvements: Part II: The Daily Protocol"
 date: "2023-10-26"
+draft: true
 categories:
   - personal
 tags:

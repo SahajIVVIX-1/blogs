@@ -1,6 +1,7 @@
 ---
 title: "The Broken Window Theory in Codebases: Why Small Warnings Snowball into Decay: The Stoic Lens"
 date: "2025-06-04"
+draft: true
 categories:
   - personal
 tags:

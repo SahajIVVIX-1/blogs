@@ -1,6 +1,7 @@
 ---
 title: "The Circle of Competence: Recognizing the Exact Boundary of Your Engineering Knowledge: Overcoming the Resistance"
 date: "2025-09-09"
+draft: true
 categories:
   - personal
 tags:

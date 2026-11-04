@@ -1,6 +1,7 @@
 ---
 title: "Building Mental Calluses: Overcoming Resistance to Difficult Theoretical Proofs: Part IV: The Structural Mechanism"
 date: "2024-05-23"
+draft: true
 categories:
   - personal
 tags:

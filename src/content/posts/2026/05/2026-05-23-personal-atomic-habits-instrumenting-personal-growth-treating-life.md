@@ -1,6 +1,7 @@
 ---
 title: "Instrumenting Personal Growth: Treating Life Habits as a Observability Pipeline: Why Most Engineers Fail Here"
 date: "2026-05-23"
+draft: true
 categories:
   - personal
 tags:

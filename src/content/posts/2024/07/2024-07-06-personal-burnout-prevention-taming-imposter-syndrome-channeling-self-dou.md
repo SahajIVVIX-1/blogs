@@ -1,6 +1,7 @@
 ---
 title: "Taming Imposter Syndrome: Channeling Self-Doubt into Rigorous Code Verification: A Practical Field Guide"
 date: "2024-07-06"
+draft: true
 categories:
   - personal
 tags:

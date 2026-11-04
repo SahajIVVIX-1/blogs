@@ -1,6 +1,7 @@
 ---
 title: "Building Mental Calluses: Overcoming Resistance to Difficult Theoretical Proofs: Lessons from Systems Architecture"
 date: "2025-01-24"
+draft: true
 categories:
   - personal
 tags:

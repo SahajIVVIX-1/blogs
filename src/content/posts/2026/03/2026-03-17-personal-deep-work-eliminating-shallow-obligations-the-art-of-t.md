@@ -1,6 +1,7 @@
 ---
 title: "Eliminating Shallow Obligations: The Art of Technical Refusal: The Subconscious Incubation Effect"
 date: "2026-03-17"
+draft: true
 categories:
   - personal
 tags:

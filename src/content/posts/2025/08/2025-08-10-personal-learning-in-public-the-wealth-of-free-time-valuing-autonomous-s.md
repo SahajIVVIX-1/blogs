@@ -1,6 +1,7 @@
 ---
 title: "The Wealth of Free Time: Valuing Autonomous Schedule Control Above Raw Status: The Stoic Lens"
 date: "2025-08-10"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Craft of API Design: Building Intuitive, Misuse-Resistant Interfaces: Deconstructing the Cognitive Friction"
 date: "2024-10-22"
+draft: true
 categories:
   - personal
 tags:

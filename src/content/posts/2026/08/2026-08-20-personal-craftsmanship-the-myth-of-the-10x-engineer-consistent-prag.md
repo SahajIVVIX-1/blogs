@@ -1,6 +1,7 @@
 ---
 title: "The Myth of the 10x Engineer: Consistent Pragmatism Beats Sporadic Heroics: A Framework for Deep Mastery"
 date: "2026-08-20"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Equanimity as an Algorithmic Advantage: Why Calm Engineers Solve Faster: A Practical Field Guide"
 date: "2024-08-26"
+draft: true
 categories:
   - personal
 tags:

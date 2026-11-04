@@ -1,6 +1,7 @@
 ---
 title: "The Antidote to Cynicism in Big Tech: Anchoring to Fundamental Curiosity: Why Most Engineers Fail Here"
 date: "2026-06-11"
+draft: true
 categories:
   - personal
 tags:

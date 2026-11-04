@@ -1,6 +1,7 @@
 ---
 title: "The Broken Window Theory in Codebases: Why Small Warnings Snowball into Decay: Lessons from Systems Architecture"
 date: "2024-12-22"
+draft: true
 categories:
   - personal
 tags:

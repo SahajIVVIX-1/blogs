@@ -1,6 +1,7 @@
 ---
 title: "Asymmetric Career Bets: Structuring Low Downside with Infinite Upside: Part II: The Daily Protocol"
 date: "2023-11-15"
+draft: true
 categories:
   - personal
 tags:

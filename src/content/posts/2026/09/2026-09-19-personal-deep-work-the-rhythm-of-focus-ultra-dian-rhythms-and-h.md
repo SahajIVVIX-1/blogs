@@ -1,6 +1,7 @@
 ---
 title: "The Rhythm of Focus: Ultra-Dian Rhythms and High-Performance Coding Sprints: A Framework for Deep Mastery"
 date: "2026-09-19"
+draft: true
 categories:
   - personal
 tags:

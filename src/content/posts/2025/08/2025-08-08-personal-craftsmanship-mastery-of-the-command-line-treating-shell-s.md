@@ -1,6 +1,7 @@
 ---
 title: "Mastery of the Command Line: Treating Shell Scripting as an Artisan's Chisel: The Stoic Lens"
 date: "2025-08-08"
+draft: true
 categories:
   - personal
 tags:

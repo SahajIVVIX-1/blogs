@@ -1,6 +1,7 @@
 ---
 title: "The Exponential Value of Generalists in an AI-Accelerated World: Part IV: The Structural Mechanism"
 date: "2024-06-04"
+draft: true
 categories:
   - personal
 tags:

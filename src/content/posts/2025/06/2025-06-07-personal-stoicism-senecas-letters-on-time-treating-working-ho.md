@@ -1,6 +1,7 @@
 ---
 title: "Seneca's Letters on Time: Treating Working Hours as Non-Renewable Assets: The Stoic Lens"
 date: "2025-06-07"
+draft: true
 categories:
   - personal
 tags:

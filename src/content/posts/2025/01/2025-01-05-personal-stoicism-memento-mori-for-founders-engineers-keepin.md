@@ -1,6 +1,7 @@
 ---
 title: "Memento Mori for Founders & Engineers: Keeping Stress in Cosmic Perspective: Lessons from Systems Architecture"
 date: "2025-01-05"
+draft: true
 categories:
   - personal
 tags:

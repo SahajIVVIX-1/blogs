@@ -1,6 +1,7 @@
 ---
 title: "Deconstructing Procrastination: The Gap Between Intention and Micro-Action: Lessons from Systems Architecture"
 date: "2025-02-07"
+draft: true
 categories:
   - personal
 tags:

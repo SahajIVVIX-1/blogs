@@ -1,6 +1,7 @@
 ---
 title: "Equanimity as an Algorithmic Advantage: Why Calm Engineers Solve Faster: The Stoic Lens"
 date: "2025-07-20"
+draft: true
 categories:
   - personal
 tags:

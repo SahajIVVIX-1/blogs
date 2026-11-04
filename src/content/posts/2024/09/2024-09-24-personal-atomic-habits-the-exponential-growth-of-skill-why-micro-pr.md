@@ -1,6 +1,7 @@
 ---
 title: "The Exponential Growth of Skill: Why Micro-Progress Trumps Heroic Sprints: Deconstructing the Cognitive Friction"
 date: "2024-09-24"
+draft: true
 categories:
   - personal
 tags:

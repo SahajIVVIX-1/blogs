@@ -1,6 +1,7 @@
 ---
 title: "The 23-Minute Penalty: Quantifying Context-Switching in Complex Systems: A Letter to My Future Self"
 date: "2026-09-30"
+draft: true
 categories:
   - personal
 tags:

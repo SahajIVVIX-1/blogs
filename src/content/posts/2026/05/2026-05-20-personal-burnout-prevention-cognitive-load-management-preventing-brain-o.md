@@ -1,6 +1,7 @@
 ---
 title: "Cognitive Load Management: Preventing Brain Overflow in Dense Systems: Why Most Engineers Fail Here"
 date: "2026-05-20"
+draft: true
 categories:
   - personal
 tags:

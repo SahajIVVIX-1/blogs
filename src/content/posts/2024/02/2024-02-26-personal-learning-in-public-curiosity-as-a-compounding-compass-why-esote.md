@@ -1,6 +1,7 @@
 ---
 title: "Curiosity as a Compounding Compass: Why Esoteric Math Yields the Best Innovations: Part III: The Mental Model Shift"
 date: "2024-02-26"
+draft: true
 categories:
   - personal
 tags:

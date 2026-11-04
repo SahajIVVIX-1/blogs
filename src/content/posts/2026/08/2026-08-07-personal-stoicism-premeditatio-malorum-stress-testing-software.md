@@ -1,6 +1,7 @@
 ---
 title: "Premeditatio Malorum: Stress-Testing Software Psychology with Inversion: A Framework for Deep Mastery"
 date: "2026-08-07"
+draft: true
 categories:
   - personal
 tags:

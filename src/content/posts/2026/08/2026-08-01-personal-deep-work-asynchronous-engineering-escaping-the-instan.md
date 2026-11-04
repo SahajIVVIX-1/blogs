@@ -1,6 +1,7 @@
 ---
 title: "Asynchronous Engineering: Escaping the Instant Gratification Communication Trap: A Framework for Deep Mastery"
 date: "2026-08-01"
+draft: true
 categories:
   - personal
 tags:

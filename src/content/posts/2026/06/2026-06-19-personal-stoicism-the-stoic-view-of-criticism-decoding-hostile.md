@@ -1,6 +1,7 @@
 ---
 title: "The Stoic View of Criticism: Decoding Hostile Code Reviews into Pure Data: Why Most Engineers Fail Here"
 date: "2026-06-19"
+draft: true
 categories:
   - personal
 tags:

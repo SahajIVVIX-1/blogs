@@ -1,6 +1,7 @@
 ---
 title: "The Pragmatic Programmer Ethos: Taking Uncompromising Ownership of Code: Part IV: The Structural Mechanism"
 date: "2024-04-14"
+draft: true
 categories:
   - personal
 tags:

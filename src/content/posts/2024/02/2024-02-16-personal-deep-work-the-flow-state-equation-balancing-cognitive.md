@@ -1,6 +1,7 @@
 ---
 title: "The Flow State Equation: Balancing Cognitive Load Against Skill Thresholds: Part III: The Mental Model Shift"
 date: "2024-02-16"
+draft: true
 categories:
   - personal
 tags:

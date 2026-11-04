@@ -1,6 +1,7 @@
 ---
 title: "Mastery of the Command Line: Treating Shell Scripting as an Artisan's Chisel: Why Most Engineers Fail Here"
 date: "2026-07-02"
+draft: true
 categories:
   - personal
 tags:

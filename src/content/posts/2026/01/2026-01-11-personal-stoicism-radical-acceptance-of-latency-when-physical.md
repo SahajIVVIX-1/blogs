@@ -1,6 +1,7 @@
 ---
 title: "Radical Acceptance of Latency: When Physical Constraints Meet Impatient Minds: The Art of Ruthless Execution"
 date: "2026-01-11"
+draft: true
 categories:
   - personal
 tags:

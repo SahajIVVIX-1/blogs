@@ -1,6 +1,7 @@
 ---
 title: "Curiosity as a Compounding Compass: Why Esoteric Math Yields the Best Innovations: Overcoming the Resistance"
 date: "2025-09-22"
+draft: true
 categories:
   - personal
 tags:

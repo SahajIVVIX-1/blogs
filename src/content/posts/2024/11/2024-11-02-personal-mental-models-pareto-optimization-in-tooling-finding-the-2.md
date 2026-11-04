@@ -1,6 +1,7 @@
 ---
 title: "Pareto Optimization in Tooling: Finding the 20% of Tools Powering 80% of Leverage: Deconstructing the Cognitive Friction"
 date: "2024-11-02"
+draft: true
 categories:
   - personal
 tags:

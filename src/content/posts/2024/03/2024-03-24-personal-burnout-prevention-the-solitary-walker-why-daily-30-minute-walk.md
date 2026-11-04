@@ -1,6 +1,7 @@
 ---
 title: "The Solitary Walker: Why Daily 30-Minute Walks Unlock Stuck Algorithms: Part III: The Mental Model Shift"
 date: "2024-03-24"
+draft: true
 categories:
   - personal
 tags:

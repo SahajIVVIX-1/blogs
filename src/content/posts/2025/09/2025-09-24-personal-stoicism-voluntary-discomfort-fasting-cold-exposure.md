@@ -1,6 +1,7 @@
 ---
 title: "Voluntary Discomfort: Fasting, Cold Exposure, and Engineering Mental Toughness: Overcoming the Resistance"
 date: "2025-09-24"
+draft: true
 categories:
   - personal
 tags:

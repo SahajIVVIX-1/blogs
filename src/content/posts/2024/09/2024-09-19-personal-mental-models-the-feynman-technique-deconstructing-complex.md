@@ -1,6 +1,7 @@
 ---
 title: "The Feynman Technique: Deconstructing Complex Algorithms to First Principles: Deconstructing the Cognitive Friction"
 date: "2024-09-19"
+draft: true
 categories:
   - personal
 tags:

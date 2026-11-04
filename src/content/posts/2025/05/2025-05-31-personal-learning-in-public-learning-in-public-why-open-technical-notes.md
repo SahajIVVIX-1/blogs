@@ -1,6 +1,7 @@
 ---
 title: "Learning in Public: Why Open Technical Notes Create Unstoppable Serendipity: The Stoic Lens"
 date: "2025-05-31"
+draft: true
 categories:
   - personal
 tags:

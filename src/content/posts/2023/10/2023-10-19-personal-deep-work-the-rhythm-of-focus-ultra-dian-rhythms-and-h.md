@@ -1,6 +1,7 @@
 ---
 title: "The Rhythm of Focus: Ultra-Dian Rhythms and High-Performance Coding Sprints: Part I: The Psychological Foundation"
 date: "2023-10-19"
+draft: true
 categories:
   - personal
 tags:

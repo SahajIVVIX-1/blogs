@@ -1,6 +1,7 @@
 ---
 title: "Occam's Razor vs Hickam's Dictum: Diagnosing Concurrency Bugs with Elegance: Part II: The Daily Protocol"
 date: "2023-11-18"
+draft: true
 categories:
   - personal
 tags:

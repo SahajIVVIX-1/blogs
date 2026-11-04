@@ -1,6 +1,7 @@
 ---
 title: "Taming Imposter Syndrome: Channeling Self-Doubt into Rigorous Code Verification: The Art of Ruthless Execution"
 date: "2025-11-10"
+draft: true
 categories:
   - personal
 tags:

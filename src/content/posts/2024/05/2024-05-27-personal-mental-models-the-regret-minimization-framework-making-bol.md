@@ -1,6 +1,7 @@
 ---
 title: "The Regret Minimization Framework: Making Bold Career Pivots Without Anxiety: Part IV: The Structural Mechanism"
 date: "2024-05-27"
+draft: true
 categories:
   - personal
 tags:

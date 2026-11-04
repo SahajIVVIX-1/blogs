@@ -1,6 +1,7 @@
 ---
 title: "Calm Under Chaos: De-escalating Nervous System Arousal During Live Deployments: The Art of Ruthless Execution"
 date: "2025-12-20"
+draft: true
 categories:
   - personal
 tags:

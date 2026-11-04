@@ -1,6 +1,7 @@
 ---
 title: "Probabilistic Thinking: Bayesian Updating in Ambiguous Debugging Scenarios: A Framework for Deep Mastery"
 date: "2026-09-05"
+draft: true
 categories:
   - personal
 tags:

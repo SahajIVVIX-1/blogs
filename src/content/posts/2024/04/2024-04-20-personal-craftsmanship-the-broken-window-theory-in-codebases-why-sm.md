@@ -1,6 +1,7 @@
 ---
 title: "The Broken Window Theory in Codebases: Why Small Warnings Snowball into Decay: Part IV: The Structural Mechanism"
 date: "2024-04-20"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Bimodal Deep Work: Scheduling Deep Research Sprints in High-Noise Environments: Part I: The Psychological Foundation"
 date: "2023-09-22"
+draft: true
 categories:
   - personal
 tags:

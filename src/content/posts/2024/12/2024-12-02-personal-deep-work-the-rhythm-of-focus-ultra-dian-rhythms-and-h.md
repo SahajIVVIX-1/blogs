@@ -1,6 +1,7 @@
 ---
 title: "The Rhythm of Focus: Ultra-Dian Rhythms and High-Performance Coding Sprints: Deconstructing the Cognitive Friction"
 date: "2024-12-02"
+draft: true
 categories:
   - personal
 tags:

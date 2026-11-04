@@ -1,6 +1,7 @@
 ---
 title: "Never Miss Twice: The Golden Rule for Sustained Habit Retention: Lessons from Systems Architecture"
 date: "2025-01-05"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Dealing with Technical Rejection: Viewing Failed RFCs as Data Extraction: The First-Principles Analysis"
 date: "2025-03-25"
+draft: true
 categories:
   - personal
 tags:

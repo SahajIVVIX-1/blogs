@@ -1,6 +1,7 @@
 ---
 title: "The 10-Year Horizon: Escaping Quarterly Thinking and Investing in Fundamentals: The Stoic Lens"
 date: "2025-05-25"
+draft: true
 categories:
   - personal
 tags:

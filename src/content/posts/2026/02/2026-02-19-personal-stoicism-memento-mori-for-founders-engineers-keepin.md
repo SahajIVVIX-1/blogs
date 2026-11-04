@@ -1,6 +1,7 @@
 ---
 title: "Memento Mori for Founders & Engineers: Keeping Stress in Cosmic Perspective: The Subconscious Incubation Effect"
 date: "2026-02-19"
+draft: true
 categories:
   - personal
 tags:

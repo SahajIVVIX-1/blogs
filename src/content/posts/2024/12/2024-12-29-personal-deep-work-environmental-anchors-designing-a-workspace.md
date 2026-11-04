@@ -1,6 +1,7 @@
 ---
 title: "Environmental Anchors: Designing a Workspace Immune to Cognitive Drift: Lessons from Systems Architecture"
 date: "2024-12-29"
+draft: true
 categories:
   - personal
 tags:

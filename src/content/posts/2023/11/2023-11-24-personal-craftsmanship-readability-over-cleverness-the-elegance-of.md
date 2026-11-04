@@ -1,6 +1,7 @@
 ---
 title: "Readability Over Cleverness: The Elegance of Code That Any Junior Can Audit: Part II: The Daily Protocol"
 date: "2023-11-24"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Physiology of Cognitive Exhaustion: Preventing Prefrontal Cortex Drain: The Art of Ruthless Execution"
 date: "2025-11-15"
+draft: true
 categories:
   - personal
 tags:

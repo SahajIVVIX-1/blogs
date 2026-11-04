@@ -1,6 +1,7 @@
 ---
 title: "Premeditatio Malorum: Stress-Testing Software Psychology with Inversion: Part IV: The Structural Mechanism"
 date: "2024-05-09"
+draft: true
 categories:
   - personal
 tags:

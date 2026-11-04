@@ -1,6 +1,7 @@
 ---
 title: "Cognitive Cache Invalidation: Clearing Working Memory Before Hard Architectural Pivots: Part II: The Daily Protocol"
 date: "2023-12-29"
+draft: true
 categories:
   - personal
 tags:

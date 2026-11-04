@@ -1,6 +1,7 @@
 ---
 title: "Marcus Aurelius on Legacy Code: Maintaining Equanimity with Imperfect Systems: A Letter to My Future Self"
 date: "2026-10-06"
+draft: true
 categories:
   - personal
 tags:

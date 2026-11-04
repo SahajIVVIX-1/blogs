@@ -1,6 +1,7 @@
 ---
 title: "The Sovereign Technologist: Building Intellectual Independence from Big Tech Platforms: Why Most Engineers Fail Here"
 date: "2026-05-10"
+draft: true
 categories:
   - personal
 tags:

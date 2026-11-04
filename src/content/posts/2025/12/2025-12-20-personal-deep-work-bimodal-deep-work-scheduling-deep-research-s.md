@@ -1,6 +1,7 @@
 ---
 title: "Bimodal Deep Work: Scheduling Deep Research Sprints in High-Noise Environments: The Art of Ruthless Execution"
 date: "2025-12-20"
+draft: true
 categories:
   - personal
 tags:

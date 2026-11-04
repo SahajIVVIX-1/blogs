@@ -1,6 +1,7 @@
 ---
 title: "Deep Reading in the Skimming Era: How to Absorb 500 Pages of Dense Theory: The Subconscious Incubation Effect"
 date: "2026-03-01"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Architectural Integrity: Resisting the Allure of Trendy Over-Engineering: Deconstructing the Cognitive Friction"
 date: "2024-11-08"
+draft: true
 categories:
   - personal
 tags:

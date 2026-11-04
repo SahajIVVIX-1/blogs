@@ -1,6 +1,7 @@
 ---
 title: "Playing Long-Term Games with Long-Term People: The Ultimate Career Heuristic: Part IV: The Structural Mechanism"
 date: "2024-04-21"
+draft: true
 categories:
   - personal
 tags:

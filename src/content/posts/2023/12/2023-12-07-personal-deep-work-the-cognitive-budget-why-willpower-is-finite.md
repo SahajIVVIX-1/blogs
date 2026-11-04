@@ -1,6 +1,7 @@
 ---
 title: "The Cognitive Budget: Why Willpower is Finite and Routines are Essential: Part II: The Daily Protocol"
 date: "2023-12-07"
+draft: true
 categories:
   - personal
 tags:

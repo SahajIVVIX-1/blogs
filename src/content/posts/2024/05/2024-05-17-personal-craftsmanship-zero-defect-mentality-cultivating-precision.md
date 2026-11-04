@@ -1,6 +1,7 @@
 ---
 title: "Zero-Defect Mentality: Cultivating Precision Without Becoming Paralyzed: Part IV: The Structural Mechanism"
 date: "2024-05-17"
+draft: true
 categories:
   - personal
 tags:

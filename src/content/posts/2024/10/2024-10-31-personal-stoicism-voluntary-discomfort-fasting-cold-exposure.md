@@ -1,6 +1,7 @@
 ---
 title: "Voluntary Discomfort: Fasting, Cold Exposure, and Engineering Mental Toughness: Deconstructing the Cognitive Friction"
 date: "2024-10-31"
+draft: true
 categories:
   - personal
 tags:

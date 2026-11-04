@@ -1,6 +1,7 @@
 ---
 title: "Readability Over Cleverness: The Elegance of Code That Any Junior Can Audit: Overcoming the Resistance"
 date: "2025-09-10"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Inner Citadel: Building an Unshakeable Core Against Technical Uncertainty: A Framework for Deep Mastery"
 date: "2026-08-13"
+draft: true
 categories:
   - personal
 tags:

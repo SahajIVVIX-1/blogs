@@ -1,6 +1,7 @@
 ---
 title: "Goodhart's Law in Engineering Metrics: When a Measure Becomes the Target: Overcoming the Resistance"
 date: "2025-10-17"
+draft: true
 categories:
   - personal
 tags:

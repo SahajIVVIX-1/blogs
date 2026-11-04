@@ -1,6 +1,7 @@
 ---
 title: "Calm Under Chaos: De-escalating Nervous System Arousal During Live Deployments: Part III: The Mental Model Shift"
 date: "2024-03-04"
+draft: true
 categories:
   - personal
 tags:

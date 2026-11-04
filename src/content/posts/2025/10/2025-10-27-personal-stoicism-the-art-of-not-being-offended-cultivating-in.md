@@ -1,6 +1,7 @@
 ---
 title: "The Art of Not Being Offended: Cultivating Intellectual Detachment: Overcoming the Resistance"
 date: "2025-10-27"
+draft: true
 categories:
   - personal
 tags:

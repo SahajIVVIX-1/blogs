@@ -1,6 +1,7 @@
 ---
 title: "The Growth Mindset in Rigorous Computer Science: Moving from Fixed to Plastic: Deconstructing the Cognitive Friction"
 date: "2024-11-30"
+draft: true
 categories:
   - personal
 tags:

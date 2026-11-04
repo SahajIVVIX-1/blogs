@@ -1,6 +1,7 @@
 ---
 title: "The Craft of API Design: Building Intuitive, Misuse-Resistant Interfaces: A Framework for Deep Mastery"
 date: "2026-08-09"
+draft: true
 categories:
   - personal
 tags:

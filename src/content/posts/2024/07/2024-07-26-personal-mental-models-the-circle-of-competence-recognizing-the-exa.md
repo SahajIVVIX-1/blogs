@@ -1,6 +1,7 @@
 ---
 title: "The Circle of Competence: Recognizing the Exact Boundary of Your Engineering Knowledge: A Practical Field Guide"
 date: "2024-07-26"
+draft: true
 categories:
   - personal
 tags:

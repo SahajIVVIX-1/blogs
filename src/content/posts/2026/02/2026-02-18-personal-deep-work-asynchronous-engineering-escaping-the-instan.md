@@ -1,6 +1,7 @@
 ---
 title: "Asynchronous Engineering: Escaping the Instant Gratification Communication Trap: The Subconscious Incubation Effect"
 date: "2026-02-18"
+draft: true
 categories:
   - personal
 tags:

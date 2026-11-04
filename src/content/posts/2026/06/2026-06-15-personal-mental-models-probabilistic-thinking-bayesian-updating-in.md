@@ -1,6 +1,7 @@
 ---
 title: "Probabilistic Thinking: Bayesian Updating in Ambiguous Debugging Scenarios: Why Most Engineers Fail Here"
 date: "2026-06-15"
+draft: true
 categories:
   - personal
 tags:

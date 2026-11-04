@@ -1,6 +1,7 @@
 ---
 title: "The Renaissance Developer: Integrating Mathematics, Art, Hardware, and Code: Lessons from Systems Architecture"
 date: "2025-02-21"
+draft: true
 categories:
   - personal
 tags:

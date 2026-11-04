@@ -1,6 +1,7 @@
 ---
 title: "Chesterton's Fence in Code Refactoring: Understanding Why the Hack Was Written: A Letter to My Future Self"
 date: "2026-10-08"
+draft: true
 categories:
   - personal
 tags:

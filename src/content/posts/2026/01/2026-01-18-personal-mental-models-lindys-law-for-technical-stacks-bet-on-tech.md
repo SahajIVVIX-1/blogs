@@ -1,6 +1,7 @@
 ---
 title: "Lindy's Law for Technical Stacks: Bet on Technologies That Have Stood for Decades: The Art of Ruthless Execution"
 date: "2026-01-18"
+draft: true
 categories:
   - personal
 tags:

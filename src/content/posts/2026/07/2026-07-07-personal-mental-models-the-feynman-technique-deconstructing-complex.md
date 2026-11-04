@@ -1,6 +1,7 @@
 ---
 title: "The Feynman Technique: Deconstructing Complex Algorithms to First Principles: A Framework for Deep Mastery"
 date: "2026-07-07"
+draft: true
 categories:
   - personal
 tags:

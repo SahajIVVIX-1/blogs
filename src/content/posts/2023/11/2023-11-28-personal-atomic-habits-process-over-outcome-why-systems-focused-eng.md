@@ -1,6 +1,7 @@
 ---
 title: "Process Over Outcome: Why Systems-Focused Engineers Outperform Dreamers: Part II: The Daily Protocol"
 date: "2023-11-28"
+draft: true
 categories:
   - personal
 tags:

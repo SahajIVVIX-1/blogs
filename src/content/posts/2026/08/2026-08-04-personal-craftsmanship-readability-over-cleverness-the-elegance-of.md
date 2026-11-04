@@ -1,6 +1,7 @@
 ---
 title: "Readability Over Cleverness: The Elegance of Code That Any Junior Can Audit: A Framework for Deep Mastery"
 date: "2026-08-04"
+draft: true
 categories:
   - personal
 tags:

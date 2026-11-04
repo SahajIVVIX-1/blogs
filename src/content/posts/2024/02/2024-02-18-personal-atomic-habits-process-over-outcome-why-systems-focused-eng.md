@@ -1,6 +1,7 @@
 ---
 title: "Process Over Outcome: Why Systems-Focused Engineers Outperform Dreamers: Part III: The Mental Model Shift"
 date: "2024-02-18"
+draft: true
 categories:
   - personal
 tags:

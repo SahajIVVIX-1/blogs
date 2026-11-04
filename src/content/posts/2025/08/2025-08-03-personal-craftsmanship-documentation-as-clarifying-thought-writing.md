@@ -1,6 +1,7 @@
 ---
 title: "Documentation as Clarifying Thought: Writing Before Implementation: The Stoic Lens"
 date: "2025-08-03"
+draft: true
 categories:
   - personal
 tags:

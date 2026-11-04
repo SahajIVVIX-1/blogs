@@ -1,6 +1,7 @@
 ---
 title: "Minimalist Tooling: Why Less Configuration Yields Superior Engineering Velocity: A Letter to My Future Self"
 date: "2026-10-19"
+draft: true
 categories:
   - personal
 tags:

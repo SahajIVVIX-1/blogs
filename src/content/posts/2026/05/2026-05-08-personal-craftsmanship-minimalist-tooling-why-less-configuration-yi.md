@@ -1,6 +1,7 @@
 ---
 title: "Minimalist Tooling: Why Less Configuration Yields Superior Engineering Velocity: Why Most Engineers Fail Here"
 date: "2026-05-08"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Mastery of the Command Line: Treating Shell Scripting as an Artisan's Chisel: Overcoming the Resistance"
 date: "2025-10-29"
+draft: true
 categories:
   - personal
 tags:

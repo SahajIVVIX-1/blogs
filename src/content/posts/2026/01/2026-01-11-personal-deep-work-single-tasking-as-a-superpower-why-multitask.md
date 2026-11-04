@@ -1,6 +1,7 @@
 ---
 title: "Single-Tasking as a Superpower: Why Multitasking is an Engineering Fallacy: The Art of Ruthless Execution"
 date: "2026-01-11"
+draft: true
 categories:
   - personal
 tags:

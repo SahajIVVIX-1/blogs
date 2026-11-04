@@ -1,6 +1,7 @@
 ---
 title: "Dealing with Technical Rejection: Viewing Failed RFCs as Data Extraction: A Letter to My Future Self"
 date: "2026-10-20"
+draft: true
 categories:
   - personal
 tags:

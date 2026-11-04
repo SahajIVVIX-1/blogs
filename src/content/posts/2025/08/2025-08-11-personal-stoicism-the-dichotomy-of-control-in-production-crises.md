@@ -1,6 +1,7 @@
 ---
 title: "The Dichotomy of Control in Production Crises: Staying Calm Under P0 Alerts: Overcoming the Resistance"
 date: "2025-08-11"
+draft: true
 categories:
   - personal
 tags:

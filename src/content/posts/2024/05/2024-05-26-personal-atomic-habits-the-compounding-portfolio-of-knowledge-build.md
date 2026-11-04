@@ -1,6 +1,7 @@
 ---
 title: "The Compounding Portfolio of Knowledge: Building Asymmetric Learning Curvature: Part IV: The Structural Mechanism"
 date: "2024-05-26"
+draft: true
 categories:
   - personal
 tags:

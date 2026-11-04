@@ -1,6 +1,7 @@
 ---
 title: "Zero-Defect Mentality: Cultivating Precision Without Becoming Paralyzed: Lessons from Systems Architecture"
 date: "2025-01-18"
+draft: true
 categories:
   - personal
 tags:

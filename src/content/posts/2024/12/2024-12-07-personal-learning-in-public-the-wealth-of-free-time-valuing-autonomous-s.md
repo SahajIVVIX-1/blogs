@@ -1,6 +1,7 @@
 ---
 title: "The Wealth of Free Time: Valuing Autonomous Schedule Control Above Raw Status: Deconstructing the Cognitive Friction"
 date: "2024-12-07"
+draft: true
 categories:
   - personal
 tags:

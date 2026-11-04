@@ -1,6 +1,7 @@
 ---
 title: "Writing as an Engine of Clarity: Why You Don't Understand What You Cannot Articulate: A Practical Field Guide"
 date: "2024-08-14"
+draft: true
 categories:
   - personal
 tags:

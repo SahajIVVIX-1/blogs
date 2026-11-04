@@ -1,6 +1,7 @@
 ---
 title: "Premeditatio Malorum: Stress-Testing Software Psychology with Inversion: Part II: The Daily Protocol"
 date: "2023-11-27"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Physiology of Cognitive Exhaustion: Preventing Prefrontal Cortex Drain: Deconstructing the Cognitive Friction"
 date: "2024-10-01"
+draft: true
 categories:
   - personal
 tags:

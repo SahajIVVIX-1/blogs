@@ -1,6 +1,7 @@
 ---
 title: "Grit in Mathematics: Embracing the Confusion Phase as the Necessary Fore-runner of Insight: Part II: The Daily Protocol"
 date: "2024-01-13"
+draft: true
 categories:
   - personal
 tags:

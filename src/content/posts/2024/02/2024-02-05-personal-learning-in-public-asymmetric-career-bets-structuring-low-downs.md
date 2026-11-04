@@ -1,6 +1,7 @@
 ---
 title: "Asymmetric Career Bets: Structuring Low Downside with Infinite Upside: Part III: The Mental Model Shift"
 date: "2024-02-05"
+draft: true
 categories:
   - personal
 tags:

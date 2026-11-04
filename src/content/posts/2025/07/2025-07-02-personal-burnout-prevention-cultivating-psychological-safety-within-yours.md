@@ -1,6 +1,7 @@
 ---
 title: "Cultivating Psychological Safety Within Yourself: Forgiving Early Technical Mistakes: The Stoic Lens"
 date: "2025-07-02"
+draft: true
 categories:
   - personal
 tags:

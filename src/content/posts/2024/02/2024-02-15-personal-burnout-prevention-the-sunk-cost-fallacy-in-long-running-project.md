@@ -1,6 +1,7 @@
 ---
 title: "The Sunk Cost Fallacy in Long-Running Projects: Knowing When to Pull the Plug: Part III: The Mental Model Shift"
 date: "2024-02-15"
+draft: true
 categories:
   - personal
 tags:

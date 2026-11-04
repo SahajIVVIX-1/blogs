@@ -1,6 +1,7 @@
 ---
 title: "Second-Order Thinking: Anticipating the Unintended Cascades of Microservices: Why Most Engineers Fail Here"
 date: "2026-05-02"
+draft: true
 categories:
   - personal
 tags:

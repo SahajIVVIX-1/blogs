@@ -1,6 +1,7 @@
 ---
 title: "The Craft of API Design: Building Intuitive, Misuse-Resistant Interfaces: Part I: The Psychological Foundation"
 date: "2023-09-08"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Ergodicity in Engineering Careers: Avoiding Strategies with Non-Zero Ruin Probability: Part I: The Psychological Foundation"
 date: "2023-09-13"
+draft: true
 categories:
   - personal
 tags:

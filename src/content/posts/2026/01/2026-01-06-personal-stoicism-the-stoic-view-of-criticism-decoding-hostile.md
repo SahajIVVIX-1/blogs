@@ -1,6 +1,7 @@
 ---
 title: "The Stoic View of Criticism: Decoding Hostile Code Reviews into Pure Data: The Art of Ruthless Execution"
 date: "2026-01-06"
+draft: true
 categories:
   - personal
 tags:

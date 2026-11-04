@@ -1,6 +1,7 @@
 ---
 title: "The Regret Minimization Framework: Making Bold Career Pivots Without Anxiety: Part II: The Daily Protocol"
 date: "2023-12-15"
+draft: true
 categories:
   - personal
 tags:

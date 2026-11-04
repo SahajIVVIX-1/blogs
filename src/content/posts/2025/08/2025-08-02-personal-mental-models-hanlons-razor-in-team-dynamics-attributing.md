@@ -1,6 +1,7 @@
 ---
 title: "Hanlon's Razor in Team Dynamics: Attributing Friction to Chaos, Not Malice: The Stoic Lens"
 date: "2025-08-02"
+draft: true
 categories:
   - personal
 tags:

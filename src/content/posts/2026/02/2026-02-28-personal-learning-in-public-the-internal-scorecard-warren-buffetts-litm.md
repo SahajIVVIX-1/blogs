@@ -1,6 +1,7 @@
 ---
 title: "The Internal Scorecard: Warren Buffett's Litmus Test for Authentic Integrity: The Subconscious Incubation Effect"
 date: "2026-02-28"
+draft: true
 categories:
   - personal
 tags:

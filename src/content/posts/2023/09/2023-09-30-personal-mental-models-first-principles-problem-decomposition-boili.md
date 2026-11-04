@@ -1,6 +1,7 @@
 ---
 title: "First-Principles Problem Decomposition: Boiling Software Requirements to Bedrock Truths: Part I: The Psychological Foundation"
 date: "2023-09-30"
+draft: true
 categories:
   - personal
 tags:

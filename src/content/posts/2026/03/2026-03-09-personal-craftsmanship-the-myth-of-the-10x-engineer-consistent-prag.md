@@ -1,6 +1,7 @@
 ---
 title: "The Myth of the 10x Engineer: Consistent Pragmatism Beats Sporadic Heroics: The Subconscious Incubation Effect"
 date: "2026-03-09"
+draft: true
 categories:
   - personal
 tags:

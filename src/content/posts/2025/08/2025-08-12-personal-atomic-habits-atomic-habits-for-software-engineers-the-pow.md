@@ -1,6 +1,7 @@
 ---
 title: "Atomic Habits for Software Engineers: The Power of 1% Daily Improvements: Overcoming the Resistance"
 date: "2025-08-12"
+draft: true
 categories:
   - personal
 tags:

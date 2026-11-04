@@ -1,6 +1,7 @@
 ---
 title: "Radical Acceptance of Latency: When Physical Constraints Meet Impatient Minds: Part III: The Mental Model Shift"
 date: "2024-03-26"
+draft: true
 categories:
   - personal
 tags:

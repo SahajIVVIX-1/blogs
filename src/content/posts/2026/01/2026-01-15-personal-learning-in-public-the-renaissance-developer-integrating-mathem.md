@@ -1,6 +1,7 @@
 ---
 title: "The Renaissance Developer: Integrating Mathematics, Art, Hardware, and Code: The Art of Ruthless Execution"
 date: "2026-01-15"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Habit Loops in High-Intensity Tech: Cue, Routine, Reward, and Craving: Deconstructing the Cognitive Friction"
 date: "2024-11-23"
+draft: true
 categories:
   - personal
 tags:

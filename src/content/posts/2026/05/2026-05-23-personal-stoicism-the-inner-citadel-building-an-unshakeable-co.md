@@ -1,6 +1,7 @@
 ---
 title: "The Inner Citadel: Building an Unshakeable Core Against Technical Uncertainty: Why Most Engineers Fail Here"
 date: "2026-05-23"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Map is Not the Territory: Dissecting the Difference Between Spec and Reality: The Stoic Lens"
 date: "2025-06-25"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Burnout as an Architectural Defect: Fixing the Asymmetry of Input and Recovery: Part III: The Mental Model Shift"
 date: "2024-01-18"
+draft: true
 categories:
   - personal
 tags:

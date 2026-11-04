@@ -1,6 +1,7 @@
 ---
 title: "Calm Under Chaos: De-escalating Nervous System Arousal During Live Deployments: Part IV: The Structural Mechanism"
 date: "2024-05-25"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Taming Imposter Syndrome: Channeling Self-Doubt into Rigorous Code Verification: A Letter to My Future Self"
 date: "2026-10-04"
+draft: true
 categories:
   - personal
 tags:

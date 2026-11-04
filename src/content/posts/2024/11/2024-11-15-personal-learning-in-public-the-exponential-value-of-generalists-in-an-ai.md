@@ -1,6 +1,7 @@
 ---
 title: "The Exponential Value of Generalists in an AI-Accelerated World: Deconstructing the Cognitive Friction"
 date: "2024-11-15"
+draft: true
 categories:
   - personal
 tags:

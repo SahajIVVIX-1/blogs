@@ -1,6 +1,7 @@
 ---
 title: "The Craft of API Design: Building Intuitive, Misuse-Resistant Interfaces: The Subconscious Incubation Effect"
 date: "2026-02-26"
+draft: true
 categories:
   - personal
 tags:

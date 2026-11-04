@@ -1,6 +1,7 @@
 ---
 title: "Occam's Razor vs Hickam's Dictum: Diagnosing Concurrency Bugs with Elegance: Why Most Engineers Fail Here"
 date: "2026-05-08"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Grit in Mathematics: Embracing the Confusion Phase as the Necessary Fore-runner of Insight: The Stoic Lens"
 date: "2025-08-09"
+draft: true
 categories:
   - personal
 tags:

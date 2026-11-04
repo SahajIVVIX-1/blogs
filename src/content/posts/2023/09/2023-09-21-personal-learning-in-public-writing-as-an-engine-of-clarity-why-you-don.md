@@ -1,6 +1,7 @@
 ---
 title: "Writing as an Engine of Clarity: Why You Don't Understand What You Cannot Articulate: Part I: The Psychological Foundation"
 date: "2023-09-21"
+draft: true
 categories:
   - personal
 tags:

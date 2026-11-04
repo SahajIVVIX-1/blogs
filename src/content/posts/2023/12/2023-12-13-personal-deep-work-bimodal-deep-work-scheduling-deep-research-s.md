@@ -1,6 +1,7 @@
 ---
 title: "Bimodal Deep Work: Scheduling Deep Research Sprints in High-Noise Environments: Part II: The Daily Protocol"
 date: "2023-12-13"
+draft: true
 categories:
   - personal
 tags:

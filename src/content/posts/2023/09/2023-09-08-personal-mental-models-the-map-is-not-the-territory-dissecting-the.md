@@ -1,6 +1,7 @@
 ---
 title: "The Map is Not the Territory: Dissecting the Difference Between Spec and Reality: Part I: The Psychological Foundation"
 date: "2023-09-08"
+draft: true
 categories:
   - personal
 tags:

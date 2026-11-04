@@ -1,6 +1,7 @@
 ---
 title: "The Anatomy of Beautiful Functions: Small, Pure, and Unambiguous: The Subconscious Incubation Effect"
 date: "2026-03-31"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Regret Minimization Framework: Making Bold Career Pivots Without Anxiety: The Subconscious Incubation Effect"
 date: "2026-03-14"
+draft: true
 categories:
   - personal
 tags:

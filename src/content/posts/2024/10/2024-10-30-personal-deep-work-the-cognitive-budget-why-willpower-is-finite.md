@@ -1,6 +1,7 @@
 ---
 title: "The Cognitive Budget: Why Willpower is Finite and Routines are Essential: Deconstructing the Cognitive Friction"
 date: "2024-10-30"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Exponential Growth of Skill: Why Micro-Progress Trumps Heroic Sprints: Part II: The Daily Protocol"
 date: "2023-11-01"
+draft: true
 categories:
   - personal
 tags:

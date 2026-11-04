@@ -1,6 +1,7 @@
 ---
 title: "Voluntary Discomfort: Fasting, Cold Exposure, and Engineering Mental Toughness: The Stoic Lens"
 date: "2025-07-04"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Sovereign Technologist: Building Intellectual Independence from Big Tech Platforms: The Subconscious Incubation Effect"
 date: "2026-02-17"
+draft: true
 categories:
   - personal
 tags:

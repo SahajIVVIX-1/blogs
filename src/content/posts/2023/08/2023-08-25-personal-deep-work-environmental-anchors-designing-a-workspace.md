@@ -1,6 +1,7 @@
 ---
 title: "Environmental Anchors: Designing a Workspace Immune to Cognitive Drift: Part I: The Psychological Foundation"
 date: "2023-08-25"
+draft: true
 categories:
   - personal
 tags:

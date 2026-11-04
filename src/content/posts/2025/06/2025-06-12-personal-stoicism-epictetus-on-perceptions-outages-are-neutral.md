@@ -1,6 +1,7 @@
 ---
 title: "Epictetus on Perceptions: Outages are Neutral, Only Panicked Reactions Destroy: The Stoic Lens"
 date: "2025-06-12"
+draft: true
 categories:
   - personal
 tags:

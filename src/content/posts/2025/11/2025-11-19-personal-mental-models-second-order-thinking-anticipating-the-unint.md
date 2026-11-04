@@ -1,6 +1,7 @@
 ---
 title: "Second-Order Thinking: Anticipating the Unintended Cascades of Microservices: The Art of Ruthless Execution"
 date: "2025-11-19"
+draft: true
 categories:
   - personal
 tags:

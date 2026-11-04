@@ -1,6 +1,7 @@
 ---
 title: "Epictetus on Perceptions: Outages are Neutral, Only Panicked Reactions Destroy: The First-Principles Analysis"
 date: "2025-03-22"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Wealth of Free Time: Valuing Autonomous Schedule Control Above Raw Status: Part IV: The Structural Mechanism"
 date: "2024-06-26"
+draft: true
 categories:
   - personal
 tags:

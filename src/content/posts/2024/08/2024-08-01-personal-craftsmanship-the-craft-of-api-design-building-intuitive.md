@@ -1,6 +1,7 @@
 ---
 title: "The Craft of API Design: Building Intuitive, Misuse-Resistant Interfaces: A Practical Field Guide"
 date: "2024-08-01"
+draft: true
 categories:
   - personal
 tags:

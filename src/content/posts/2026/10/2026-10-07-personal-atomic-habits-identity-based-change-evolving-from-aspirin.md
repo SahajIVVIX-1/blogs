@@ -1,6 +1,7 @@
 ---
 title: "Identity-Based Change: Evolving from 'Aspiring Coder' to 'Disciplined Builder': A Letter to My Future Self"
 date: "2026-10-07"
+draft: true
 categories:
   - personal
 tags:

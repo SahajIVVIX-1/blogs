@@ -1,6 +1,7 @@
 ---
 title: "Marcus Aurelius on Legacy Code: Maintaining Equanimity with Imperfect Systems: Lessons from Systems Architecture"
 date: "2024-12-19"
+draft: true
 categories:
   - personal
 tags:

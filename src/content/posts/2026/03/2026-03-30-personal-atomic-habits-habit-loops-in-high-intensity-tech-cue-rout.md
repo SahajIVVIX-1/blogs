@@ -1,6 +1,7 @@
 ---
 title: "Habit Loops in High-Intensity Tech: Cue, Routine, Reward, and Craving: The Subconscious Incubation Effect"
 date: "2026-03-30"
+draft: true
 categories:
   - personal
 tags:

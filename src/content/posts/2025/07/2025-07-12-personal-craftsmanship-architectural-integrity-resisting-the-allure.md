@@ -1,6 +1,7 @@
 ---
 title: "Architectural Integrity: Resisting the Allure of Trendy Over-Engineering: The Stoic Lens"
 date: "2025-07-12"
+draft: true
 categories:
   - personal
 tags:

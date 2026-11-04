@@ -1,6 +1,7 @@
 ---
 title: "The 20-Second Friction Rule: Structuring Your Environment for Immediate Action: Lessons from Systems Architecture"
 date: "2024-12-31"
+draft: true
 categories:
   - personal
 tags:

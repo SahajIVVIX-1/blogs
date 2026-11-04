@@ -1,6 +1,7 @@
 ---
 title: "The Sovereign Technologist: Building Intellectual Independence from Big Tech Platforms: Part II: The Daily Protocol"
 date: "2023-11-20"
+draft: true
 categories:
   - personal
 tags:

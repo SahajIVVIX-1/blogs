@@ -1,6 +1,7 @@
 ---
 title: "Attention Residue in Distributed Systems Design: The Hidden Tax of Slack: The Stoic Lens"
 date: "2025-06-06"
+draft: true
 categories:
   - personal
 tags:

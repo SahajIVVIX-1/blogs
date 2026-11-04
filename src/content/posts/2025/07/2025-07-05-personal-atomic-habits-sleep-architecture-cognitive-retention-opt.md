@@ -1,6 +1,7 @@
 ---
 title: "Sleep Architecture & Cognitive Retention: Optimizing SWS for Math Mastery: The Stoic Lens"
 date: "2025-07-05"
+draft: true
 categories:
   - personal
 tags:

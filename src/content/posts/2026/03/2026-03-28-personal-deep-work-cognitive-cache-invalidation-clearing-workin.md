@@ -1,6 +1,7 @@
 ---
 title: "Cognitive Cache Invalidation: Clearing Working Memory Before Hard Architectural Pivots: The Subconscious Incubation Effect"
 date: "2026-03-28"
+draft: true
 categories:
   - personal
 tags:

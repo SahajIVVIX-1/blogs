@@ -1,6 +1,7 @@
 ---
 title: "Asynchronous Engineering: Escaping the Instant Gratification Communication Trap: A Letter to My Future Self"
 date: "2026-10-22"
+draft: true
 categories:
   - personal
 tags:

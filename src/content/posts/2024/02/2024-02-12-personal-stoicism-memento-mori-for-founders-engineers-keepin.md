@@ -1,6 +1,7 @@
 ---
 title: "Memento Mori for Founders & Engineers: Keeping Stress in Cosmic Perspective: Part III: The Mental Model Shift"
 date: "2024-02-12"
+draft: true
 categories:
   - personal
 tags:

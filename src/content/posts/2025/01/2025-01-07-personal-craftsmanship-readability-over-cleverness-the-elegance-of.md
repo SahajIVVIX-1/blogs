@@ -1,6 +1,7 @@
 ---
 title: "Readability Over Cleverness: The Elegance of Code That Any Junior Can Audit: Lessons from Systems Architecture"
 date: "2025-01-07"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Power of the Morning Routine: Winning the First 90 Minutes of Every Day: The Stoic Lens"
 date: "2025-07-16"
+draft: true
 categories:
   - personal
 tags:

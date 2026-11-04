@@ -1,6 +1,7 @@
 ---
 title: "The Solitary Walker: Why Daily 30-Minute Walks Unlock Stuck Algorithms: Part IV: The Structural Mechanism"
 date: "2024-06-14"
+draft: true
 categories:
   - personal
 tags:

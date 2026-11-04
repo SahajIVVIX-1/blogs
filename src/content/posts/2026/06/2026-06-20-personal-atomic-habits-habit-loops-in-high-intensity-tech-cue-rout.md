@@ -1,6 +1,7 @@
 ---
 title: "Habit Loops in High-Intensity Tech: Cue, Routine, Reward, and Craving: Why Most Engineers Fail Here"
 date: "2026-06-20"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Learning in Public: Why Open Technical Notes Create Unstoppable Serendipity: A Letter to My Future Self"
 date: "2026-10-05"
+draft: true
 categories:
   - personal
 tags:

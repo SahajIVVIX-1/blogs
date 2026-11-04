@@ -1,6 +1,7 @@
 ---
 title: "Habit Stacking in Developer Workflows: Anchoring Tests to Daily Triggers: Part IV: The Structural Mechanism"
 date: "2024-04-23"
+draft: true
 categories:
   - personal
 tags:

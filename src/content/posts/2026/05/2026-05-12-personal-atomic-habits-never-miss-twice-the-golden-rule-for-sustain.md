@@ -1,6 +1,7 @@
 ---
 title: "Never Miss Twice: The Golden Rule for Sustained Habit Retention: Why Most Engineers Fail Here"
 date: "2026-05-12"
+draft: true
 categories:
   - personal
 tags:

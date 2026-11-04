@@ -1,6 +1,7 @@
 ---
 title: "The Wealth of Free Time: Valuing Autonomous Schedule Control Above Raw Status: The Art of Ruthless Execution"
 date: "2026-01-21"
+draft: true
 categories:
   - personal
 tags:

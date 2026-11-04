@@ -1,6 +1,7 @@
 ---
 title: "The Regret Minimization Framework: Making Bold Career Pivots Without Anxiety: Overcoming the Resistance"
 date: "2025-10-01"
+draft: true
 categories:
   - personal
 tags:

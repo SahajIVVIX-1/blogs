@@ -1,6 +1,7 @@
 ---
 title: "Playing Long-Term Games with Long-Term People: The Ultimate Career Heuristic: The Stoic Lens"
 date: "2025-06-05"
+draft: true
 categories:
   - personal
 tags:

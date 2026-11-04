@@ -1,6 +1,7 @@
 ---
 title: "The Pragmatic Programmer Ethos: Taking Uncompromising Ownership of Code: Deconstructing the Cognitive Friction"
 date: "2024-09-25"
+draft: true
 categories:
   - personal
 tags:

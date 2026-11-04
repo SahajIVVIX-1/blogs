@@ -1,6 +1,7 @@
 ---
 title: "The Compounding Portfolio of Knowledge: Building Asymmetric Learning Curvature: A Practical Field Guide"
 date: "2024-08-16"
+draft: true
 categories:
   - personal
 tags:

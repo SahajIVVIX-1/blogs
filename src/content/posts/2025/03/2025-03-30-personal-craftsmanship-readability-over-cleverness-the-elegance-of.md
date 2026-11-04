@@ -1,6 +1,7 @@
 ---
 title: "Readability Over Cleverness: The Elegance of Code That Any Junior Can Audit: The First-Principles Analysis"
 date: "2025-03-30"
+draft: true
 categories:
   - personal
 tags:

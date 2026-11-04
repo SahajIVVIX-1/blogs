@@ -1,6 +1,7 @@
 ---
 title: "The Broken Window Theory in Codebases: Why Small Warnings Snowball into Decay: Part I: The Psychological Foundation"
 date: "2023-08-18"
+draft: true
 categories:
   - personal
 tags:

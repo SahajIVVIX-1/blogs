@@ -1,6 +1,7 @@
 ---
 title: "The Zen of Software Craftsmanship: Clean Interfaces as Moral Duty: Why Most Engineers Fail Here"
 date: "2026-04-17"
+draft: true
 categories:
   - personal
 tags:

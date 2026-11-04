@@ -1,6 +1,7 @@
 ---
 title: "Seneca's Letters on Time: Treating Working Hours as Non-Renewable Assets: Deconstructing the Cognitive Friction"
 date: "2024-10-04"
+draft: true
 categories:
   - personal
 tags:

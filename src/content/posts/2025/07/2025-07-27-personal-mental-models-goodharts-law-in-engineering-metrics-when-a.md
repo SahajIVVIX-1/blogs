@@ -1,6 +1,7 @@
 ---
 title: "Goodhart's Law in Engineering Metrics: When a Measure Becomes the Target: The Stoic Lens"
 date: "2025-07-27"
+draft: true
 categories:
   - personal
 tags:

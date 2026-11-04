@@ -1,6 +1,7 @@
 ---
 title: "Intellectual Honesty: The Unforgiving Metric of the True Scientist: The Art of Ruthless Execution"
 date: "2026-01-10"
+draft: true
 categories:
   - personal
 tags:

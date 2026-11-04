@@ -1,6 +1,7 @@
 ---
 title: "Instrumenting Personal Growth: Treating Life Habits as a Observability Pipeline: Part I: The Psychological Foundation"
 date: "2023-09-12"
+draft: true
 categories:
   - personal
 tags:

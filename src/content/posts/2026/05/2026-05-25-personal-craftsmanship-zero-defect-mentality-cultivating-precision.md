@@ -1,6 +1,7 @@
 ---
 title: "Zero-Defect Mentality: Cultivating Precision Without Becoming Paralyzed: Why Most Engineers Fail Here"
 date: "2026-05-25"
+draft: true
 categories:
   - personal
 tags:

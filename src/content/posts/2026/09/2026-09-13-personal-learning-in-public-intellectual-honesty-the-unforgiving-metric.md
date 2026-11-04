@@ -1,6 +1,7 @@
 ---
 title: "Intellectual Honesty: The Unforgiving Metric of the True Scientist: A Framework for Deep Mastery"
 date: "2026-09-13"
+draft: true
 categories:
   - personal
 tags:

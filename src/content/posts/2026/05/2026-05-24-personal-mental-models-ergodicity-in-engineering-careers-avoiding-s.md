@@ -1,6 +1,7 @@
 ---
 title: "Ergodicity in Engineering Careers: Avoiding Strategies with Non-Zero Ruin Probability: Why Most Engineers Fail Here"
 date: "2026-05-24"
+draft: true
 categories:
   - personal
 tags:

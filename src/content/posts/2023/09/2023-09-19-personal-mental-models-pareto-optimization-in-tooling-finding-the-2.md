@@ -1,6 +1,7 @@
 ---
 title: "Pareto Optimization in Tooling: Finding the 20% of Tools Powering 80% of Leverage: Part I: The Psychological Foundation"
 date: "2023-09-19"
+draft: true
 categories:
   - personal
 tags:

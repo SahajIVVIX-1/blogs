@@ -1,6 +1,7 @@
 ---
 title: "The Exponential Growth of Skill: Why Micro-Progress Trumps Heroic Sprints: The Stoic Lens"
 date: "2025-05-28"
+draft: true
 categories:
   - personal
 tags:

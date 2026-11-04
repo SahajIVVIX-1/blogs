@@ -1,6 +1,7 @@
 ---
 title: "The Antidote to Cynicism in Big Tech: Anchoring to Fundamental Curiosity: Overcoming the Resistance"
 date: "2025-10-08"
+draft: true
 categories:
   - personal
 tags:

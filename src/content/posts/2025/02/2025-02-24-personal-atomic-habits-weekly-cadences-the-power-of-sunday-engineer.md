@@ -1,6 +1,7 @@
 ---
 title: "Weekly Cadences: The Power of Sunday Engineering Audits & Retrospectives: Lessons from Systems Architecture"
 date: "2025-02-24"
+draft: true
 categories:
   - personal
 tags:

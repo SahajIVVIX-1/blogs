@@ -1,6 +1,7 @@
 ---
 title: "The Sunk Cost Fallacy in Long-Running Projects: Knowing When to Pull the Plug: The Stoic Lens"
 date: "2025-06-21"
+draft: true
 categories:
   - personal
 tags:

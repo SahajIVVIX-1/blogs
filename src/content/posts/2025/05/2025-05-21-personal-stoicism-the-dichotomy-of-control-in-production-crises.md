@@ -1,6 +1,7 @@
 ---
 title: "The Dichotomy of Control in Production Crises: Staying Calm Under P0 Alerts: The Stoic Lens"
 date: "2025-05-21"
+draft: true
 categories:
   - personal
 tags:

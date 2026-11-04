@@ -1,6 +1,7 @@
 ---
 title: "Active Rest vs Passive Numbing: Why Scrolling Social Feeds Prevents Real Recovery: The Stoic Lens"
 date: "2025-07-13"
+draft: true
 categories:
   - personal
 tags:

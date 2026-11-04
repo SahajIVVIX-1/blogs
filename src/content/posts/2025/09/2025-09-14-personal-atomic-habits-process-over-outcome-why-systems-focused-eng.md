@@ -1,6 +1,7 @@
 ---
 title: "Process Over Outcome: Why Systems-Focused Engineers Outperform Dreamers: Overcoming the Resistance"
 date: "2025-09-14"
+draft: true
 categories:
   - personal
 tags:

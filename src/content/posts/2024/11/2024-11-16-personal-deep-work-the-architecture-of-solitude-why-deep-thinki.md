@@ -1,6 +1,7 @@
 ---
 title: "The Architecture of Solitude: Why Deep Thinking Requires Absolute Silence: Deconstructing the Cognitive Friction"
 date: "2024-11-16"
+draft: true
 categories:
   - personal
 tags:

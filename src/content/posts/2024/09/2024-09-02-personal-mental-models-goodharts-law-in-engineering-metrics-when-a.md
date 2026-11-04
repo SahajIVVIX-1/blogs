@@ -1,6 +1,7 @@
 ---
 title: "Goodhart's Law in Engineering Metrics: When a Measure Becomes the Target: A Practical Field Guide"
 date: "2024-09-02"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Dichotomy of Control in Production Crises: Staying Calm Under P0 Alerts: Deconstructing the Cognitive Friction"
 date: "2024-09-17"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Bimodal Deep Work: Scheduling Deep Research Sprints in High-Noise Environments: A Framework for Deep Mastery"
 date: "2026-08-23"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Internal Scorecard: Warren Buffett's Litmus Test for Authentic Integrity: Deconstructing the Cognitive Friction"
 date: "2024-10-24"
+draft: true
 categories:
   - personal
 tags:

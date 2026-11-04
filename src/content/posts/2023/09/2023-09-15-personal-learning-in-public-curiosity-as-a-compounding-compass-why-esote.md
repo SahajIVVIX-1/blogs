@@ -1,6 +1,7 @@
 ---
 title: "Curiosity as a Compounding Compass: Why Esoteric Math Yields the Best Innovations: Part I: The Psychological Foundation"
 date: "2023-09-15"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Map is Not the Territory: Dissecting the Difference Between Spec and Reality: A Letter to My Future Self"
 date: "2026-10-30"
+draft: true
 categories:
   - personal
 tags:

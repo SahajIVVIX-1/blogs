@@ -1,6 +1,7 @@
 ---
 title: "The Courage to Say No: Protecting Your Engineering Core from Scope Creep: The Stoic Lens"
 date: "2025-06-10"
+draft: true
 categories:
   - personal
 tags:

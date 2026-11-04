@@ -1,6 +1,7 @@
 ---
 title: "The Renaissance Developer: Integrating Mathematics, Art, Hardware, and Code: A Framework for Deep Mastery"
 date: "2026-09-18"
+draft: true
 categories:
   - personal
 tags:

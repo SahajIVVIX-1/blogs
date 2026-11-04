@@ -1,6 +1,7 @@
 ---
 title: "Calm Under Chaos: De-escalating Nervous System Arousal During Live Deployments: The Stoic Lens"
 date: "2025-07-09"
+draft: true
 categories:
   - personal
 tags:

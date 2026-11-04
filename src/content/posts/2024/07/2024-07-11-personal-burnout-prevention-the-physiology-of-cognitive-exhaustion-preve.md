@@ -1,6 +1,7 @@
 ---
 title: "The Physiology of Cognitive Exhaustion: Preventing Prefrontal Cortex Drain: A Practical Field Guide"
 date: "2024-07-11"
+draft: true
 categories:
   - personal
 tags:

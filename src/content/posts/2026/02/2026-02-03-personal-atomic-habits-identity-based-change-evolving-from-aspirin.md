@@ -1,6 +1,7 @@
 ---
 title: "Identity-Based Change: Evolving from 'Aspiring Coder' to 'Disciplined Builder': The Subconscious Incubation Effect"
 date: "2026-02-03"
+draft: true
 categories:
   - personal
 tags:

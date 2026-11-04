@@ -1,6 +1,7 @@
 ---
 title: "The Internal Scorecard: Warren Buffett's Litmus Test for Authentic Integrity: Part III: The Mental Model Shift"
 date: "2024-02-21"
+draft: true
 categories:
   - personal
 tags:

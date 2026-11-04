@@ -1,6 +1,7 @@
 ---
 title: "The Monk Mode Protocol: Architecting Unbroken 4-Hour Engineering Blocks: A Letter to My Future Self"
 date: "2026-09-24"
+draft: true
 categories:
   - personal
 tags:

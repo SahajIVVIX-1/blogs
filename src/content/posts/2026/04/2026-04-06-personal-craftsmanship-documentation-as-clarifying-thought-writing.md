@@ -1,6 +1,7 @@
 ---
 title: "Documentation as Clarifying Thought: Writing Before Implementation: The Subconscious Incubation Effect"
 date: "2026-04-06"
+draft: true
 categories:
   - personal
 tags:

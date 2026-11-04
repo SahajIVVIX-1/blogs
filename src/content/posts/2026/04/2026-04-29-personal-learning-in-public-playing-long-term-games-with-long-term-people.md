@@ -1,6 +1,7 @@
 ---
 title: "Playing Long-Term Games with Long-Term People: The Ultimate Career Heuristic: Why Most Engineers Fail Here"
 date: "2026-04-29"
+draft: true
 categories:
   - personal
 tags:

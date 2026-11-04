@@ -1,6 +1,7 @@
 ---
 title: "The Circle of Competence: Recognizing the Exact Boundary of Your Engineering Knowledge: The Subconscious Incubation Effect"
 date: "2026-02-20"
+draft: true
 categories:
   - personal
 tags:

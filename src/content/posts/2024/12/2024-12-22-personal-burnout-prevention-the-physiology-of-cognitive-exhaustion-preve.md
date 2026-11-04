@@ -1,6 +1,7 @@
 ---
 title: "The Physiology of Cognitive Exhaustion: Preventing Prefrontal Cortex Drain: Lessons from Systems Architecture"
 date: "2024-12-22"
+draft: true
 categories:
   - personal
 tags:

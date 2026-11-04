@@ -1,6 +1,7 @@
 ---
 title: "Cognitive Load Management: Preventing Brain Overflow in Dense Systems: A Framework for Deep Mastery"
 date: "2026-08-10"
+draft: true
 categories:
   - personal
 tags:

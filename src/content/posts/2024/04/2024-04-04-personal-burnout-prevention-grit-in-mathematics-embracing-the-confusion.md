@@ -1,6 +1,7 @@
 ---
 title: "Grit in Mathematics: Embracing the Confusion Phase as the Necessary Fore-runner of Insight: Part III: The Mental Model Shift"
 date: "2024-04-04"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Environmental Anchors: Designing a Workspace Immune to Cognitive Drift: The Subconscious Incubation Effect"
 date: "2026-02-12"
+draft: true
 categories:
   - personal
 tags:

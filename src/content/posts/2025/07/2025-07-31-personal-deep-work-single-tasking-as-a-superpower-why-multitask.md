@@ -1,6 +1,7 @@
 ---
 title: "Single-Tasking as a Superpower: Why Multitasking is an Engineering Fallacy: The Stoic Lens"
 date: "2025-07-31"
+draft: true
 categories:
   - personal
 tags:

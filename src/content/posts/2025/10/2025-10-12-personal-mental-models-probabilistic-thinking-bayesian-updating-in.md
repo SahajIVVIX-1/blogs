@@ -1,6 +1,7 @@
 ---
 title: "Probabilistic Thinking: Bayesian Updating in Ambiguous Debugging Scenarios: Overcoming the Resistance"
 date: "2025-10-12"
+draft: true
 categories:
   - personal
 tags:

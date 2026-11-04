@@ -1,6 +1,7 @@
 ---
 title: "The Antifragile Engineer: Becoming Stronger Through Unexpected Cluster Failures: Part II: The Daily Protocol"
 date: "2023-11-26"
+draft: true
 categories:
   - personal
 tags:

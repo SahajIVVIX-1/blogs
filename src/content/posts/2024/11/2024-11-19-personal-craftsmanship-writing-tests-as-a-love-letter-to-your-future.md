@@ -1,6 +1,7 @@
 ---
 title: "Writing Tests as a Love Letter to Your Future Self: The Discipline of TDD: Deconstructing the Cognitive Friction"
 date: "2024-11-19"
+draft: true
 categories:
   - personal
 tags:

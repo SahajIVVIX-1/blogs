@@ -1,6 +1,7 @@
 ---
 title: "Hanlon's Razor in Team Dynamics: Attributing Friction to Chaos, Not Malice: Part III: The Mental Model Shift"
 date: "2024-03-28"
+draft: true
 categories:
   - personal
 tags:

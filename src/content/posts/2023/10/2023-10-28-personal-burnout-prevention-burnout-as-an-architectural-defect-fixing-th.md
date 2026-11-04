@@ -1,6 +1,7 @@
 ---
 title: "Burnout as an Architectural Defect: Fixing the Asymmetry of Input and Recovery: Part II: The Daily Protocol"
 date: "2023-10-28"
+draft: true
 categories:
   - personal
 tags:

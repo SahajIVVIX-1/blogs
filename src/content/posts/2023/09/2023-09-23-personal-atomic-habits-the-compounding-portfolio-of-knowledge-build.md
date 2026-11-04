@@ -1,6 +1,7 @@
 ---
 title: "The Compounding Portfolio of Knowledge: Building Asymmetric Learning Curvature: Part I: The Psychological Foundation"
 date: "2023-09-23"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Identity-Based Change: Evolving from 'Aspiring Coder' to 'Disciplined Builder': Part IV: The Structural Mechanism"
 date: "2024-04-18"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Probabilistic Thinking: Bayesian Updating in Ambiguous Debugging Scenarios: The Art of Ruthless Execution"
 date: "2026-01-02"
+draft: true
 categories:
   - personal
 tags:

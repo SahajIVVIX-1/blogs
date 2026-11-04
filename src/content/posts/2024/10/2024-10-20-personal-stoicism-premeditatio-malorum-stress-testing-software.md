@@ -1,6 +1,7 @@
 ---
 title: "Premeditatio Malorum: Stress-Testing Software Psychology with Inversion: Deconstructing the Cognitive Friction"
 date: "2024-10-20"
+draft: true
 categories:
   - personal
 tags:

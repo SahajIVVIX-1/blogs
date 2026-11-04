@@ -1,6 +1,7 @@
 ---
 title: "Architectural Integrity: Resisting the Allure of Trendy Over-Engineering: A Framework for Deep Mastery"
 date: "2026-08-26"
+draft: true
 categories:
   - personal
 tags:

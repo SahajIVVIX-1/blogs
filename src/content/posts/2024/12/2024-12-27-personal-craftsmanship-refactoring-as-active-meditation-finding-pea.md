@@ -1,6 +1,7 @@
 ---
 title: "Refactoring as Active Meditation: Finding Peace in Cleaning Structural Debt: Lessons from Systems Architecture"
 date: "2024-12-27"
+draft: true
 categories:
   - personal
 tags:

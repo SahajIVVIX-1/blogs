@@ -1,6 +1,7 @@
 ---
 title: "Epictetus on Perceptions: Outages are Neutral, Only Panicked Reactions Destroy: Deconstructing the Cognitive Friction"
 date: "2024-10-09"
+draft: true
 categories:
   - personal
 tags:

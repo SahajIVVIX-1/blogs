@@ -1,6 +1,7 @@
 ---
 title: "Asymmetric Career Bets: Structuring Low Downside with Infinite Upside: Deconstructing the Cognitive Friction"
 date: "2024-10-08"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Grit in Mathematics: Embracing the Confusion Phase as the Necessary Fore-runner of Insight: A Practical Field Guide"
 date: "2024-09-15"
+draft: true
 categories:
   - personal
 tags:

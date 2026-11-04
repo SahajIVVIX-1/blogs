@@ -1,6 +1,7 @@
 ---
 title: "The Rhythm of Focus: Ultra-Dian Rhythms and High-Performance Coding Sprints: The Subconscious Incubation Effect"
 date: "2026-04-08"
+draft: true
 categories:
   - personal
 tags:

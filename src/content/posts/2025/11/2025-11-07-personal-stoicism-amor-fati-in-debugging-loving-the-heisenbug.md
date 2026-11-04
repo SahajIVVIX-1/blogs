@@ -1,6 +1,7 @@
 ---
 title: "Amor Fati in Debugging: Loving the Heisenbug That Forced Real Learning: The Art of Ruthless Execution"
 date: "2025-11-07"
+draft: true
 categories:
   - personal
 tags:

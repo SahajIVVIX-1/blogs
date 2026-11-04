@@ -1,6 +1,7 @@
 ---
 title: "Memento Mori for Founders & Engineers: Keeping Stress in Cosmic Perspective: Deconstructing the Cognitive Friction"
 date: "2024-10-15"
+draft: true
 categories:
   - personal
 tags:

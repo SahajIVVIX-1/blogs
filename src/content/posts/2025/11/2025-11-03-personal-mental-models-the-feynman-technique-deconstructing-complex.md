@@ -1,6 +1,7 @@
 ---
 title: "The Feynman Technique: Deconstructing Complex Algorithms to First Principles: The Art of Ruthless Execution"
 date: "2025-11-03"
+draft: true
 categories:
   - personal
 tags:

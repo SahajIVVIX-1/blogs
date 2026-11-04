@@ -1,6 +1,7 @@
 ---
 title: "Cognitive Cache Invalidation: Clearing Working Memory Before Hard Architectural Pivots: The Art of Ruthless Execution"
 date: "2026-01-05"
+draft: true
 categories:
   - personal
 tags:

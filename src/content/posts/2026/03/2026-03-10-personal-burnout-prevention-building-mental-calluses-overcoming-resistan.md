@@ -1,6 +1,7 @@
 ---
 title: "Building Mental Calluses: Overcoming Resistance to Difficult Theoretical Proofs: The Subconscious Incubation Effect"
 date: "2026-03-10"
+draft: true
 categories:
   - personal
 tags:

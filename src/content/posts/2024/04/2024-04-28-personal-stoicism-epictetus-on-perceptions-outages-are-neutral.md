@@ -1,6 +1,7 @@
 ---
 title: "Epictetus on Perceptions: Outages are Neutral, Only Panicked Reactions Destroy: Part IV: The Structural Mechanism"
 date: "2024-04-28"
+draft: true
 categories:
   - personal
 tags:

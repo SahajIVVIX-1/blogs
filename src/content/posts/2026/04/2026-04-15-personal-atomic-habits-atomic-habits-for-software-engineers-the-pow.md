@@ -1,6 +1,7 @@
 ---
 title: "Atomic Habits for Software Engineers: The Power of 1% Daily Improvements: Why Most Engineers Fail Here"
 date: "2026-04-15"
+draft: true
 categories:
   - personal
 tags:

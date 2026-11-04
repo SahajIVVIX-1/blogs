@@ -1,6 +1,7 @@
 ---
 title: "Building Mental Calluses: Overcoming Resistance to Difficult Theoretical Proofs: Deconstructing the Cognitive Friction"
 date: "2024-11-03"
+draft: true
 categories:
   - personal
 tags:

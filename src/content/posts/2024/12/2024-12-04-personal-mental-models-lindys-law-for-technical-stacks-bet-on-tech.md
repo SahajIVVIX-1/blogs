@@ -1,6 +1,7 @@
 ---
 title: "Lindy's Law for Technical Stacks: Bet on Technologies That Have Stood for Decades: Deconstructing the Cognitive Friction"
 date: "2024-12-04"
+draft: true
 categories:
   - personal
 tags:

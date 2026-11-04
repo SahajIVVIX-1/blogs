@@ -1,6 +1,7 @@
 ---
 title: "The Circle of Competence: Recognizing the Exact Boundary of Your Engineering Knowledge: Part III: The Mental Model Shift"
 date: "2024-02-13"
+draft: true
 categories:
   - personal
 tags:

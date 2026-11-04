@@ -1,6 +1,7 @@
 ---
 title: "Eliminating Shallow Obligations: The Art of Technical Refusal: The First-Principles Analysis"
 date: "2025-04-23"
+draft: true
 categories:
   - personal
 tags:

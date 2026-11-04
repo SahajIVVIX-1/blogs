@@ -1,6 +1,7 @@
 ---
 title: "Instrumenting Personal Growth: Treating Life Habits as a Observability Pipeline: Part IV: The Structural Mechanism"
 date: "2024-05-15"
+draft: true
 categories:
   - personal
 tags:

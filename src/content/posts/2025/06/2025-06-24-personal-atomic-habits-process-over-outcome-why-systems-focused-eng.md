@@ -1,6 +1,7 @@
 ---
 title: "Process Over Outcome: Why Systems-Focused Engineers Outperform Dreamers: The Stoic Lens"
 date: "2025-06-24"
+draft: true
 categories:
   - personal
 tags:

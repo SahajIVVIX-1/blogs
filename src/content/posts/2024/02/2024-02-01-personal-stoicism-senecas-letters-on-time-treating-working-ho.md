@@ -1,6 +1,7 @@
 ---
 title: "Seneca's Letters on Time: Treating Working Hours as Non-Renewable Assets: Part III: The Mental Model Shift"
 date: "2024-02-01"
+draft: true
 categories:
   - personal
 tags:

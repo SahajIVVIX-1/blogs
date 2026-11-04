@@ -1,6 +1,7 @@
 ---
 title: "Cultivating Psychological Safety Within Yourself: Forgiving Early Technical Mistakes: Deconstructing the Cognitive Friction"
 date: "2024-10-29"
+draft: true
 categories:
   - personal
 tags:

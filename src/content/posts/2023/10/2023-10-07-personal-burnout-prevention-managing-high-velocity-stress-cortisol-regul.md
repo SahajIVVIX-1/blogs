@@ -1,6 +1,7 @@
 ---
 title: "Managing High-Velocity Stress: Cortisol Regulation for Engineers on On-Call Duty: Part I: The Psychological Foundation"
 date: "2023-10-07"
+draft: true
 categories:
   - personal
 tags:

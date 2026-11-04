@@ -1,6 +1,7 @@
 ---
 title: "The Sunk Cost Fallacy in Long-Running Projects: Knowing When to Pull the Plug: Part II: The Daily Protocol"
 date: "2023-11-25"
+draft: true
 categories:
   - personal
 tags:

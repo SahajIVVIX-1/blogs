@@ -1,6 +1,7 @@
 ---
 title: "The Power of the Morning Routine: Winning the First 90 Minutes of Every Day: The First-Principles Analysis"
 date: "2025-04-25"
+draft: true
 categories:
   - personal
 tags:

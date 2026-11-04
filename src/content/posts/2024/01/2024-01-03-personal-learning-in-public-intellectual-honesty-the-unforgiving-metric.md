@@ -1,6 +1,7 @@
 ---
 title: "Intellectual Honesty: The Unforgiving Metric of the True Scientist: Part II: The Daily Protocol"
 date: "2024-01-03"
+draft: true
 categories:
   - personal
 tags:

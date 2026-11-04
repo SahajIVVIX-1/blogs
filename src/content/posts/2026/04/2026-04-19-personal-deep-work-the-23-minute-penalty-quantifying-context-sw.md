@@ -1,6 +1,7 @@
 ---
 title: "The 23-Minute Penalty: Quantifying Context-Switching in Complex Systems: Why Most Engineers Fail Here"
 date: "2026-04-19"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Pragmatic Programmer Ethos: Taking Uncompromising Ownership of Code: Lessons from Systems Architecture"
 date: "2024-12-16"
+draft: true
 categories:
   - personal
 tags:

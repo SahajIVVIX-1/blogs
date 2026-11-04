@@ -1,6 +1,7 @@
 ---
 title: "Writing as an Engine of Clarity: Why You Don't Understand What You Cannot Articulate: Lessons from Systems Architecture"
 date: "2025-01-25"
+draft: true
 categories:
   - personal
 tags:

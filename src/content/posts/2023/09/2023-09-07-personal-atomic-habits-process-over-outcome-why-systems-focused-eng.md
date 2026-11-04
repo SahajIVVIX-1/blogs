@@ -1,6 +1,7 @@
 ---
 title: "Process Over Outcome: Why Systems-Focused Engineers Outperform Dreamers: Part I: The Psychological Foundation"
 date: "2023-09-07"
+draft: true
 categories:
   - personal
 tags:

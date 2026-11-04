@@ -1,6 +1,7 @@
 ---
 title: "Writing Tests as a Love Letter to Your Future Self: The Discipline of TDD: The Stoic Lens"
 date: "2025-07-23"
+draft: true
 categories:
   - personal
 tags:

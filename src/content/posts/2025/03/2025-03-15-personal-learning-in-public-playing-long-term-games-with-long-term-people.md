@@ -1,6 +1,7 @@
 ---
 title: "Playing Long-Term Games with Long-Term People: The Ultimate Career Heuristic: The First-Principles Analysis"
 date: "2025-03-15"
+draft: true
 categories:
   - personal
 tags:

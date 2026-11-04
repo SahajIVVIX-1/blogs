@@ -1,6 +1,7 @@
 ---
 title: "Pareto Optimization in Tooling: Finding the 20% of Tools Powering 80% of Leverage: Overcoming the Resistance"
 date: "2025-09-26"
+draft: true
 categories:
   - personal
 tags:

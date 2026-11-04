@@ -1,6 +1,7 @@
 ---
 title: "Epictetus on Perceptions: Outages are Neutral, Only Panicked Reactions Destroy: The Subconscious Incubation Effect"
 date: "2026-02-13"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The 10-Year Horizon: Escaping Quarterly Thinking and Investing in Fundamentals: Part III: The Mental Model Shift"
 date: "2024-01-19"
+draft: true
 categories:
   - personal
 tags:

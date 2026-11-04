@@ -1,6 +1,7 @@
 ---
 title: "Environmental Anchors: Designing a Workspace Immune to Cognitive Drift: Part III: The Mental Model Shift"
 date: "2024-02-05"
+draft: true
 categories:
   - personal
 tags:

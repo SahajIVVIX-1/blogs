@@ -1,6 +1,7 @@
 ---
 title: "The Craftsman vs The Mercenary: Choosing Deep Fulfillment Over Superficial Hype: Why Most Engineers Fail Here"
 date: "2026-06-06"
+draft: true
 categories:
   - personal
 tags:

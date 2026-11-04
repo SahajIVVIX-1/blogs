@@ -1,6 +1,7 @@
 ---
 title: "Attention Residue in Distributed Systems Design: The Hidden Tax of Slack: Part III: The Mental Model Shift"
 date: "2024-01-31"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Flow State Equation: Balancing Cognitive Load Against Skill Thresholds: A Letter to My Future Self"
 date: "2026-10-27"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Cognitive Cache Invalidation: Clearing Working Memory Before Hard Architectural Pivots: Part III: The Mental Model Shift"
 date: "2024-03-20"
+draft: true
 categories:
   - personal
 tags:

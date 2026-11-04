@@ -1,6 +1,7 @@
 ---
 title: "The 10-Year Horizon: Escaping Quarterly Thinking and Investing in Fundamentals: Overcoming the Resistance"
 date: "2025-08-15"
+draft: true
 categories:
   - personal
 tags:

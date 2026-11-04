@@ -1,6 +1,7 @@
 ---
 title: "Ergodicity in Engineering Careers: Avoiding Strategies with Non-Zero Ruin Probability: A Framework for Deep Mastery"
 date: "2026-08-14"
+draft: true
 categories:
   - personal
 tags:

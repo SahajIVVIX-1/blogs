@@ -1,6 +1,7 @@
 ---
 title: "The Pragmatic Programmer Ethos: Taking Uncompromising Ownership of Code: The Stoic Lens"
 date: "2025-05-29"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Sovereign Technologist: Building Intellectual Independence from Big Tech Platforms: Part I: The Psychological Foundation"
 date: "2023-08-30"
+draft: true
 categories:
   - personal
 tags:

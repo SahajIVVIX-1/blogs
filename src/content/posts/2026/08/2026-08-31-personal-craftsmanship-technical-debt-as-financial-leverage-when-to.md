@@ -1,6 +1,7 @@
 ---
 title: "Technical Debt as Financial Leverage: When to Borrow and When to Repay: A Framework for Deep Mastery"
 date: "2026-08-31"
+draft: true
 categories:
   - personal
 tags:

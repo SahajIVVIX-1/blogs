@@ -1,6 +1,7 @@
 ---
 title: "Seneca's Letters on Time: Treating Working Hours as Non-Renewable Assets: Part IV: The Structural Mechanism"
 date: "2024-04-23"
+draft: true
 categories:
   - personal
 tags:

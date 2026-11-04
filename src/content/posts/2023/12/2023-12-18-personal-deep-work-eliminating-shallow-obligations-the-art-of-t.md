@@ -1,6 +1,7 @@
 ---
 title: "Eliminating Shallow Obligations: The Art of Technical Refusal: Part II: The Daily Protocol"
 date: "2023-12-18"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Cognitive Budget: Why Willpower is Finite and Routines are Essential: A Framework for Deep Mastery"
 date: "2026-08-17"
+draft: true
 categories:
   - personal
 tags:

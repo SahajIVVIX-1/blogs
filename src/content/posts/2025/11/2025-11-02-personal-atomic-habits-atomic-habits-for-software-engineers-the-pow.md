@@ -1,6 +1,7 @@
 ---
 title: "Atomic Habits for Software Engineers: The Power of 1% Daily Improvements: The Art of Ruthless Execution"
 date: "2025-11-02"
+draft: true
 categories:
   - personal
 tags:

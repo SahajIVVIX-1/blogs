@@ -1,6 +1,7 @@
 ---
 title: "The Antifragile Engineer: Becoming Stronger Through Unexpected Cluster Failures: The Art of Ruthless Execution"
 date: "2025-12-02"
+draft: true
 categories:
   - personal
 tags:

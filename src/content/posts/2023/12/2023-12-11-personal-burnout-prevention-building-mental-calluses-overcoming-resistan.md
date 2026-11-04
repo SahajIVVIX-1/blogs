@@ -1,6 +1,7 @@
 ---
 title: "Building Mental Calluses: Overcoming Resistance to Difficult Theoretical Proofs: Part II: The Daily Protocol"
 date: "2023-12-11"
+draft: true
 categories:
   - personal
 tags:

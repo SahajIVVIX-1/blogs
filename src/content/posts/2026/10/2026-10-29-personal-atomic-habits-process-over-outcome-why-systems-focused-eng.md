@@ -1,6 +1,7 @@
 ---
 title: "Process Over Outcome: Why Systems-Focused Engineers Outperform Dreamers: A Letter to My Future Self"
 date: "2026-10-29"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Eliminating Shallow Obligations: The Art of Technical Refusal: Lessons from Systems Architecture"
 date: "2025-01-31"
+draft: true
 categories:
   - personal
 tags:

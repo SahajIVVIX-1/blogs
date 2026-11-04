@@ -1,6 +1,7 @@
 ---
 title: "Bimodal Deep Work: Scheduling Deep Research Sprints in High-Noise Environments: Deconstructing the Cognitive Friction"
 date: "2024-11-05"
+draft: true
 categories:
   - personal
 tags:

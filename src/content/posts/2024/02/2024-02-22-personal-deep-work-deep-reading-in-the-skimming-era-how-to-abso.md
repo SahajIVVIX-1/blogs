@@ -1,6 +1,7 @@
 ---
 title: "Deep Reading in the Skimming Era: How to Absorb 500 Pages of Dense Theory: Part III: The Mental Model Shift"
 date: "2024-02-22"
+draft: true
 categories:
   - personal
 tags:

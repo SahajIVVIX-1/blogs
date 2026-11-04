@@ -1,6 +1,7 @@
 ---
 title: "The Art of Not Being Offended: Cultivating Intellectual Detachment: A Practical Field Guide"
 date: "2024-09-12"
+draft: true
 categories:
   - personal
 tags:

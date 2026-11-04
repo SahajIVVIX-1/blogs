@@ -1,6 +1,7 @@
 ---
 title: "Asymmetric Career Bets: Structuring Low Downside with Infinite Upside: The Subconscious Incubation Effect"
 date: "2026-02-12"
+draft: true
 categories:
   - personal
 tags:

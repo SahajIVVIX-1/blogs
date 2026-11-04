@@ -1,6 +1,7 @@
 ---
 title: "The 10-Year Horizon: Escaping Quarterly Thinking and Investing in Fundamentals: Deconstructing the Cognitive Friction"
 date: "2024-09-21"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Refactoring as Active Meditation: Finding Peace in Cleaning Structural Debt: Part IV: The Structural Mechanism"
 date: "2024-04-25"
+draft: true
 categories:
   - personal
 tags:

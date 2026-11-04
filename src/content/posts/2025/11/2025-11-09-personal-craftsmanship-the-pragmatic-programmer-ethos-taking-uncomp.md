@@ -1,6 +1,7 @@
 ---
 title: "The Pragmatic Programmer Ethos: Taking Uncompromising Ownership of Code: The Art of Ruthless Execution"
 date: "2025-11-09"
+draft: true
 categories:
   - personal
 tags:

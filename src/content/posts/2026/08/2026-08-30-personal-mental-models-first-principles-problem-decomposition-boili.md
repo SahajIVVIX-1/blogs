@@ -1,6 +1,7 @@
 ---
 title: "First-Principles Problem Decomposition: Boiling Software Requirements to Bedrock Truths: A Framework for Deep Mastery"
 date: "2026-08-30"
+draft: true
 categories:
   - personal
 tags:

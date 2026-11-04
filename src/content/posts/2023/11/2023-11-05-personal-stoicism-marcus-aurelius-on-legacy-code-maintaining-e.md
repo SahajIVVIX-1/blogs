@@ -1,6 +1,7 @@
 ---
 title: "Marcus Aurelius on Legacy Code: Maintaining Equanimity with Imperfect Systems: Part II: The Daily Protocol"
 date: "2023-11-05"
+draft: true
 categories:
   - personal
 tags:

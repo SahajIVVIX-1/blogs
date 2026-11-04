@@ -1,6 +1,7 @@
 ---
 title: "The Craftsman vs The Mercenary: Choosing Deep Fulfillment Over Superficial Hype: The Art of Ruthless Execution"
 date: "2025-12-24"
+draft: true
 categories:
   - personal
 tags:

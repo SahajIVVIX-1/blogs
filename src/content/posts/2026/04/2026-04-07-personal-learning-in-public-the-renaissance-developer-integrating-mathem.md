@@ -1,6 +1,7 @@
 ---
 title: "The Renaissance Developer: Integrating Mathematics, Art, Hardware, and Code: The Subconscious Incubation Effect"
 date: "2026-04-07"
+draft: true
 categories:
   - personal
 tags:

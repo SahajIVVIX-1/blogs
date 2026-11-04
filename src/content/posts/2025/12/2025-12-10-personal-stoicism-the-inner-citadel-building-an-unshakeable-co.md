@@ -1,6 +1,7 @@
 ---
 title: "The Inner Citadel: Building an Unshakeable Core Against Technical Uncertainty: The Art of Ruthless Execution"
 date: "2025-12-10"
+draft: true
 categories:
   - personal
 tags:

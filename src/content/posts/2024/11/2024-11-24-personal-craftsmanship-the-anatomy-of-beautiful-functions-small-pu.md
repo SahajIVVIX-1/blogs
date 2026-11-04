@@ -1,6 +1,7 @@
 ---
 title: "The Anatomy of Beautiful Functions: Small, Pure, and Unambiguous: Deconstructing the Cognitive Friction"
 date: "2024-11-24"
+draft: true
 categories:
   - personal
 tags:

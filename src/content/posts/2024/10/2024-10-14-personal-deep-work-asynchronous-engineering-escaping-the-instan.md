@@ -1,6 +1,7 @@
 ---
 title: "Asynchronous Engineering: Escaping the Instant Gratification Communication Trap: Deconstructing the Cognitive Friction"
 date: "2024-10-14"
+draft: true
 categories:
   - personal
 tags:

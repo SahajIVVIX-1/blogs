@@ -1,6 +1,7 @@
 ---
 title: "The Myth of the 10x Engineer: Consistent Pragmatism Beats Sporadic Heroics: Part IV: The Structural Mechanism"
 date: "2024-05-22"
+draft: true
 categories:
   - personal
 tags:

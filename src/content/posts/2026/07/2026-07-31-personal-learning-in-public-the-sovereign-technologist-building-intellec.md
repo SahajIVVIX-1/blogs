@@ -1,6 +1,7 @@
 ---
 title: "The Sovereign Technologist: Building Intellectual Independence from Big Tech Platforms: A Framework for Deep Mastery"
 date: "2026-07-31"
+draft: true
 categories:
   - personal
 tags:

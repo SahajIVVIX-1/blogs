@@ -1,6 +1,7 @@
 ---
 title: "The Map is Not the Territory: Dissecting the Difference Between Spec and Reality: Overcoming the Resistance"
 date: "2025-09-15"
+draft: true
 categories:
   - personal
 tags:

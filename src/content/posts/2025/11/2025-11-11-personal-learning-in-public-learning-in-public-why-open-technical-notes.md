@@ -1,6 +1,7 @@
 ---
 title: "Learning in Public: Why Open Technical Notes Create Unstoppable Serendipity: The Art of Ruthless Execution"
 date: "2025-11-11"
+draft: true
 categories:
   - personal
 tags:

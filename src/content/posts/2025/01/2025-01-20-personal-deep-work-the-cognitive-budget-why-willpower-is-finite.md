@@ -1,6 +1,7 @@
 ---
 title: "The Cognitive Budget: Why Willpower is Finite and Routines are Essential: Lessons from Systems Architecture"
 date: "2025-01-20"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Second-Order Thinking: Anticipating the Unintended Cascades of Microservices: A Framework for Deep Mastery"
 date: "2026-07-23"
+draft: true
 categories:
   - personal
 tags:

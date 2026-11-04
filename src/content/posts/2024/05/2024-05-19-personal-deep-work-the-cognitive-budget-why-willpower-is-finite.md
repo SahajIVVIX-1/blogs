@@ -1,6 +1,7 @@
 ---
 title: "The Cognitive Budget: Why Willpower is Finite and Routines are Essential: Part IV: The Structural Mechanism"
 date: "2024-05-19"
+draft: true
 categories:
   - personal
 tags:

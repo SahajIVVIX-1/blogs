@@ -1,6 +1,7 @@
 ---
 title: "The Flow State Equation: Balancing Cognitive Load Against Skill Thresholds: A Framework for Deep Mastery"
 date: "2026-08-06"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Deep Reading in the Skimming Era: How to Absorb 500 Pages of Dense Theory: Lessons from Systems Architecture"
 date: "2025-01-15"
+draft: true
 categories:
   - personal
 tags:

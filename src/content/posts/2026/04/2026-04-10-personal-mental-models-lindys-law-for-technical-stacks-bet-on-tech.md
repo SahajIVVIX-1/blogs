@@ -1,6 +1,7 @@
 ---
 title: "Lindy's Law for Technical Stacks: Bet on Technologies That Have Stood for Decades: The Subconscious Incubation Effect"
 date: "2026-04-10"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Sovereign Technologist: Building Intellectual Independence from Big Tech Platforms: The First-Principles Analysis"
 date: "2025-03-26"
+draft: true
 categories:
   - personal
 tags:

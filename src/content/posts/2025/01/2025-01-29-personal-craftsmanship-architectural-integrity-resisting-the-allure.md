@@ -1,6 +1,7 @@
 ---
 title: "Architectural Integrity: Resisting the Allure of Trendy Over-Engineering: Lessons from Systems Architecture"
 date: "2025-01-29"
+draft: true
 categories:
   - personal
 tags:

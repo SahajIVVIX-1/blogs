@@ -1,6 +1,7 @@
 ---
 title: "The Wealth of Free Time: Valuing Autonomous Schedule Control Above Raw Status: A Practical Field Guide"
 date: "2024-09-16"
+draft: true
 categories:
   - personal
 tags:

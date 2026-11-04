@@ -1,6 +1,7 @@
 ---
 title: "Cognitive Cache Invalidation: Clearing Working Memory Before Hard Architectural Pivots: Deconstructing the Cognitive Friction"
 date: "2024-11-21"
+draft: true
 categories:
   - personal
 tags:

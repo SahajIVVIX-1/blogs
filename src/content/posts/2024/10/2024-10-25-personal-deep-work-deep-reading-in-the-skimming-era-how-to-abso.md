@@ -1,6 +1,7 @@
 ---
 title: "Deep Reading in the Skimming Era: How to Absorb 500 Pages of Dense Theory: Deconstructing the Cognitive Friction"
 date: "2024-10-25"
+draft: true
 categories:
   - personal
 tags:

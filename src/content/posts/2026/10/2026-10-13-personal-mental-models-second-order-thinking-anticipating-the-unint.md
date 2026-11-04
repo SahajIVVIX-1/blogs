@@ -1,6 +1,7 @@
 ---
 title: "Second-Order Thinking: Anticipating the Unintended Cascades of Microservices: A Letter to My Future Self"
 date: "2026-10-13"
+draft: true
 categories:
   - personal
 tags:

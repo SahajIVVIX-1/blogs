@@ -1,6 +1,7 @@
 ---
 title: "The Solitary Walker: Why Daily 30-Minute Walks Unlock Stuck Algorithms: Part II: The Daily Protocol"
 date: "2024-01-02"
+draft: true
 categories:
   - personal
 tags:

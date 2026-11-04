@@ -1,6 +1,7 @@
 ---
 title: "The 23-Minute Penalty: Quantifying Context-Switching in Complex Systems: Lessons from Systems Architecture"
 date: "2024-12-13"
+draft: true
 categories:
   - personal
 tags:

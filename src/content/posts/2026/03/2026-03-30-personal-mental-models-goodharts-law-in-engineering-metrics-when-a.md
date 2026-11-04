@@ -1,6 +1,7 @@
 ---
 title: "Goodhart's Law in Engineering Metrics: When a Measure Becomes the Target: The Subconscious Incubation Effect"
 date: "2026-03-30"
+draft: true
 categories:
   - personal
 tags:

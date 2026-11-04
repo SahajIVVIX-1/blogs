@@ -1,6 +1,7 @@
 ---
 title: "The Feynman Technique: Deconstructing Complex Algorithms to First Principles: Part I: The Psychological Foundation"
 date: "2023-08-06"
+draft: true
 categories:
   - personal
 tags:

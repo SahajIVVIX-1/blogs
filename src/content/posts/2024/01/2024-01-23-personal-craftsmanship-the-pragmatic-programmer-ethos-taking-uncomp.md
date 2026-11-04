@@ -1,6 +1,7 @@
 ---
 title: "The Pragmatic Programmer Ethos: Taking Uncompromising Ownership of Code: Part III: The Mental Model Shift"
 date: "2024-01-23"
+draft: true
 categories:
   - personal
 tags:

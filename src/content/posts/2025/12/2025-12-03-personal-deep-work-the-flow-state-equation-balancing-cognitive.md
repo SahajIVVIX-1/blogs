@@ -1,6 +1,7 @@
 ---
 title: "The Flow State Equation: Balancing Cognitive Load Against Skill Thresholds: The Art of Ruthless Execution"
 date: "2025-12-03"
+draft: true
 categories:
   - personal
 tags:

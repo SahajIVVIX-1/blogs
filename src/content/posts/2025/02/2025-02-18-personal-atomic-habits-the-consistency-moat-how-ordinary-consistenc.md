@@ -1,6 +1,7 @@
 ---
 title: "The Consistency Moat: How Ordinary Consistency Beats Occasional Genius: Lessons from Systems Architecture"
 date: "2025-02-18"
+draft: true
 categories:
   - personal
 tags:

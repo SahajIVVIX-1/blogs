@@ -1,6 +1,7 @@
 ---
 title: "The Courage to Say No: Protecting Your Engineering Core from Scope Creep: The Art of Ruthless Execution"
 date: "2025-11-21"
+draft: true
 categories:
   - personal
 tags:

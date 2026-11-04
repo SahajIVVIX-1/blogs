@@ -1,6 +1,7 @@
 ---
 title: "The Monk Mode Protocol: Architecting Unbroken 4-Hour Engineering Blocks: Why Most Engineers Fail Here"
 date: "2026-04-13"
+draft: true
 categories:
   - personal
 tags:

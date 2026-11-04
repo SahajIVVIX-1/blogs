@@ -1,6 +1,7 @@
 ---
 title: "The Antidote to Cynicism in Big Tech: Anchoring to Fundamental Curiosity: A Framework for Deep Mastery"
 date: "2026-09-01"
+draft: true
 categories:
   - personal
 tags:

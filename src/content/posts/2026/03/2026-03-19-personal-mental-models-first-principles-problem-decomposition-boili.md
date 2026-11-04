@@ -1,6 +1,7 @@
 ---
 title: "First-Principles Problem Decomposition: Boiling Software Requirements to Bedrock Truths: The Subconscious Incubation Effect"
 date: "2026-03-19"
+draft: true
 categories:
   - personal
 tags:

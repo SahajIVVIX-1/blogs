@@ -1,6 +1,7 @@
 ---
 title: "Taming Imposter Syndrome: Channeling Self-Doubt into Rigorous Code Verification: The Stoic Lens"
 date: "2025-05-30"
+draft: true
 categories:
   - personal
 tags:

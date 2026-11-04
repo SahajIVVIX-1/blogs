@@ -1,6 +1,7 @@
 ---
 title: "Bimodal Deep Work: Scheduling Deep Research Sprints in High-Noise Environments: Part III: The Mental Model Shift"
 date: "2024-03-04"
+draft: true
 categories:
   - personal
 tags:

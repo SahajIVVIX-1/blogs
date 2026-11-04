@@ -1,6 +1,7 @@
 ---
 title: "Playing Long-Term Games with Long-Term People: The Ultimate Career Heuristic: Deconstructing the Cognitive Friction"
 date: "2024-10-02"
+draft: true
 categories:
   - personal
 tags:

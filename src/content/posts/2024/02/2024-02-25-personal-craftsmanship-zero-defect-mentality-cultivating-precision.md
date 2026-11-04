@@ -1,6 +1,7 @@
 ---
 title: "Zero-Defect Mentality: Cultivating Precision Without Becoming Paralyzed: Part III: The Mental Model Shift"
 date: "2024-02-25"
+draft: true
 categories:
   - personal
 tags:

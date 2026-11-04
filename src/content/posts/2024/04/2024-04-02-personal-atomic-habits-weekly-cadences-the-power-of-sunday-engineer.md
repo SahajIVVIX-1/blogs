@@ -1,6 +1,7 @@
 ---
 title: "Weekly Cadences: The Power of Sunday Engineering Audits & Retrospectives: Part III: The Mental Model Shift"
 date: "2024-04-02"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Readability Over Cleverness: The Elegance of Code That Any Junior Can Audit: Part I: The Psychological Foundation"
 date: "2023-09-03"
+draft: true
 categories:
   - personal
 tags:

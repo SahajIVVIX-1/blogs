@@ -1,6 +1,7 @@
 ---
 title: "Identity-Based Change: Evolving from 'Aspiring Coder' to 'Disciplined Builder': Lessons from Systems Architecture"
 date: "2024-12-20"
+draft: true
 categories:
   - personal
 tags:

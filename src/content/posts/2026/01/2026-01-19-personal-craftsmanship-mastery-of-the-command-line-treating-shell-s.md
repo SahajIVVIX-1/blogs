@@ -1,6 +1,7 @@
 ---
 title: "Mastery of the Command Line: Treating Shell Scripting as an Artisan's Chisel: The Art of Ruthless Execution"
 date: "2026-01-19"
+draft: true
 categories:
   - personal
 tags:

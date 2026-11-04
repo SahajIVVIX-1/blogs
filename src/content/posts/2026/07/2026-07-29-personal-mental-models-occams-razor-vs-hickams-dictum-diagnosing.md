@@ -1,6 +1,7 @@
 ---
 title: "Occam's Razor vs Hickam's Dictum: Diagnosing Concurrency Bugs with Elegance: A Framework for Deep Mastery"
 date: "2026-07-29"
+draft: true
 categories:
   - personal
 tags:

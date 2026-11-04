@@ -1,6 +1,7 @@
 ---
 title: "Identity-Based Change: Evolving from 'Aspiring Coder' to 'Disciplined Builder': Part III: The Mental Model Shift"
 date: "2024-01-27"
+draft: true
 categories:
   - personal
 tags:

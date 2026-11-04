@@ -1,6 +1,7 @@
 ---
 title: "Writing as an Engine of Clarity: Why You Don't Understand What You Cannot Articulate: Why Most Engineers Fail Here"
 date: "2026-06-01"
+draft: true
 categories:
   - personal
 tags:

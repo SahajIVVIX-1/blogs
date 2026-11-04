@@ -1,6 +1,7 @@
 ---
 title: "The Dichotomy of Control in Production Crises: Staying Calm Under P0 Alerts: The Art of Ruthless Execution"
 date: "2025-11-01"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Dichotomy of Control in Production Crises: Staying Calm Under P0 Alerts: A Letter to My Future Self"
 date: "2026-09-25"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Cognitive Load Management: Preventing Brain Overflow in Dense Systems: Part II: The Daily Protocol"
 date: "2023-11-30"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Deep Reading in the Skimming Era: How to Absorb 500 Pages of Dense Theory: The Stoic Lens"
 date: "2025-06-28"
+draft: true
 categories:
   - personal
 tags:

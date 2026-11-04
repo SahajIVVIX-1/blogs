@@ -1,6 +1,7 @@
 ---
 title: "Weekly Cadences: The Power of Sunday Engineering Audits & Retrospectives: Why Most Engineers Fail Here"
 date: "2026-07-01"
+draft: true
 categories:
   - personal
 tags:

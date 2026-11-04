@@ -1,6 +1,7 @@
 ---
 title: "The Dichotomy of Control in Production Crises: Staying Calm Under P0 Alerts: Part IV: The Structural Mechanism"
 date: "2024-04-06"
+draft: true
 categories:
   - personal
 tags:

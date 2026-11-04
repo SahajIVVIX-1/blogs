@@ -1,6 +1,7 @@
 ---
 title: "The Power of the Morning Routine: Winning the First 90 Minutes of Every Day: Part II: The Daily Protocol"
 date: "2023-12-20"
+draft: true
 categories:
   - personal
 tags:

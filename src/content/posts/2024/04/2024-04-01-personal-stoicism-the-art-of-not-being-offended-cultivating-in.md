@@ -1,6 +1,7 @@
 ---
 title: "The Art of Not Being Offended: Cultivating Intellectual Detachment: Part III: The Mental Model Shift"
 date: "2024-04-01"
+draft: true
 categories:
   - personal
 tags:

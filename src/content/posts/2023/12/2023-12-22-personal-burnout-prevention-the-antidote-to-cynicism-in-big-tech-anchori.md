@@ -1,6 +1,7 @@
 ---
 title: "The Antidote to Cynicism in Big Tech: Anchoring to Fundamental Curiosity: Part II: The Daily Protocol"
 date: "2023-12-22"
+draft: true
 categories:
   - personal
 tags:

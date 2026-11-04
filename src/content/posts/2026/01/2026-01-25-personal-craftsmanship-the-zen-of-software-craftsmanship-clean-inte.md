@@ -1,6 +1,7 @@
 ---
 title: "The Zen of Software Craftsmanship: Clean Interfaces as Moral Duty: The Subconscious Incubation Effect"
 date: "2026-01-25"
+draft: true
 categories:
   - personal
 tags:

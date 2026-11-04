@@ -1,6 +1,7 @@
 ---
 title: "Calm Under Chaos: De-escalating Nervous System Arousal During Live Deployments: Lessons from Systems Architecture"
 date: "2025-01-26"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Premeditatio Malorum: Stress-Testing Software Psychology with Inversion: A Letter to My Future Self"
 date: "2026-10-28"
+draft: true
 categories:
   - personal
 tags:

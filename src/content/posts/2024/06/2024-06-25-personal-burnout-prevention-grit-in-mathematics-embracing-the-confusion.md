@@ -1,6 +1,7 @@
 ---
 title: "Grit in Mathematics: Embracing the Confusion Phase as the Necessary Fore-runner of Insight: Part IV: The Structural Mechanism"
 date: "2024-06-25"
+draft: true
 categories:
   - personal
 tags:

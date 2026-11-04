@@ -1,6 +1,7 @@
 ---
 title: "Curiosity as a Compounding Compass: Why Esoteric Math Yields the Best Innovations: Lessons from Systems Architecture"
 date: "2025-01-19"
+draft: true
 categories:
   - personal
 tags:

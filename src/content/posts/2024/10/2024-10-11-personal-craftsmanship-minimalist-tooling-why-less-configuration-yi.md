@@ -1,6 +1,7 @@
 ---
 title: "Minimalist Tooling: Why Less Configuration Yields Superior Engineering Velocity: Deconstructing the Cognitive Friction"
 date: "2024-10-11"
+draft: true
 categories:
   - personal
 tags:

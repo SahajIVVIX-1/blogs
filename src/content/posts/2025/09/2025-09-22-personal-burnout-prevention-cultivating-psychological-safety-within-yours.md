@@ -1,6 +1,7 @@
 ---
 title: "Cultivating Psychological Safety Within Yourself: Forgiving Early Technical Mistakes: Overcoming the Resistance"
 date: "2025-09-22"
+draft: true
 categories:
   - personal
 tags:

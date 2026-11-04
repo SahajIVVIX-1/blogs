@@ -1,6 +1,7 @@
 ---
 title: "Lindy's Law for Technical Stacks: Bet on Technologies That Have Stood for Decades: A Practical Field Guide"
 date: "2024-09-13"
+draft: true
 categories:
   - personal
 tags:

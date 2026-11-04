@@ -1,6 +1,7 @@
 ---
 title: "Inversion Thinking: Charlie Munger's Blueprint for Avoiding Catastrophic Architecture: The Subconscious Incubation Effect"
 date: "2026-01-29"
+draft: true
 categories:
   - personal
 tags:

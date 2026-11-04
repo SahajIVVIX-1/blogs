@@ -1,6 +1,7 @@
 ---
 title: "Playing Long-Term Games with Long-Term People: The Ultimate Career Heuristic: Part II: The Daily Protocol"
 date: "2023-11-09"
+draft: true
 categories:
   - personal
 tags:

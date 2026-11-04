@@ -1,6 +1,7 @@
 ---
 title: "Voluntary Discomfort: Fasting, Cold Exposure, and Engineering Mental Toughness: Part III: The Mental Model Shift"
 date: "2024-02-28"
+draft: true
 categories:
   - personal
 tags:

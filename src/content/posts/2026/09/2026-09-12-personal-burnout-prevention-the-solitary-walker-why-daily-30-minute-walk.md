@@ -1,6 +1,7 @@
 ---
 title: "The Solitary Walker: Why Daily 30-Minute Walks Unlock Stuck Algorithms: A Framework for Deep Mastery"
 date: "2026-09-12"
+draft: true
 categories:
   - personal
 tags:

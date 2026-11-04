@@ -1,6 +1,7 @@
 ---
 title: "Intellectual Honesty: The Unforgiving Metric of the True Scientist: A Practical Field Guide"
 date: "2024-09-05"
+draft: true
 categories:
   - personal
 tags:

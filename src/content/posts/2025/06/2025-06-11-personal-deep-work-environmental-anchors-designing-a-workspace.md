@@ -1,6 +1,7 @@
 ---
 title: "Environmental Anchors: Designing a Workspace Immune to Cognitive Drift: The Stoic Lens"
 date: "2025-06-11"
+draft: true
 categories:
   - personal
 tags:

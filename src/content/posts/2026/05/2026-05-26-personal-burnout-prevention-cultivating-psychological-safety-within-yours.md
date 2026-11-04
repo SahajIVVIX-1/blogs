@@ -1,6 +1,7 @@
 ---
 title: "Cultivating Psychological Safety Within Yourself: Forgiving Early Technical Mistakes: Why Most Engineers Fail Here"
 date: "2026-05-26"
+draft: true
 categories:
   - personal
 tags:

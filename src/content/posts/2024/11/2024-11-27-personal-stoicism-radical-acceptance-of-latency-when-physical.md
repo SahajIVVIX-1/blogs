@@ -1,6 +1,7 @@
 ---
 title: "Radical Acceptance of Latency: When Physical Constraints Meet Impatient Minds: Deconstructing the Cognitive Friction"
 date: "2024-11-27"
+draft: true
 categories:
   - personal
 tags:

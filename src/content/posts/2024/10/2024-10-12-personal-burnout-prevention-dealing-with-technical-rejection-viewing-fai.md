@@ -1,6 +1,7 @@
 ---
 title: "Dealing with Technical Rejection: Viewing Failed RFCs as Data Extraction: Deconstructing the Cognitive Friction"
 date: "2024-10-12"
+draft: true
 categories:
   - personal
 tags:

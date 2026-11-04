@@ -1,6 +1,7 @@
 ---
 title: "The Feynman Technique: Deconstructing Complex Algorithms to First Principles: Lessons from Systems Architecture"
 date: "2024-12-10"
+draft: true
 categories:
   - personal
 tags:

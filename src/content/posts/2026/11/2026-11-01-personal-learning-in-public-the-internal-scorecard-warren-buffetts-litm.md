@@ -1,6 +1,7 @@
 ---
 title: "The Internal Scorecard: Warren Buffett's Litmus Test for Authentic Integrity: A Letter to My Future Self"
 date: "2026-11-01"
+draft: true
 categories:
   - personal
 tags:

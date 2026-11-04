@@ -1,6 +1,7 @@
 ---
 title: "The Exponential Value of Generalists in an AI-Accelerated World: Part I: The Psychological Foundation"
 date: "2023-10-02"
+draft: true
 categories:
   - personal
 tags:

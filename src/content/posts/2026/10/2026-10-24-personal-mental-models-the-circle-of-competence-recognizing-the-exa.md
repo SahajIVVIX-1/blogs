@@ -1,6 +1,7 @@
 ---
 title: "The Circle of Competence: Recognizing the Exact Boundary of Your Engineering Knowledge: A Letter to My Future Self"
 date: "2026-10-24"
+draft: true
 categories:
   - personal
 tags:

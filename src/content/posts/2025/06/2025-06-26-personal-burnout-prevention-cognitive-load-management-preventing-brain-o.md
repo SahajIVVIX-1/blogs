@@ -1,6 +1,7 @@
 ---
 title: "Cognitive Load Management: Preventing Brain Overflow in Dense Systems: The Stoic Lens"
 date: "2025-06-26"
+draft: true
 categories:
   - personal
 tags:

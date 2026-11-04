@@ -1,6 +1,7 @@
 ---
 title: "Learning in Public: Why Open Technical Notes Create Unstoppable Serendipity: Deconstructing the Cognitive Friction"
 date: "2024-09-27"
+draft: true
 categories:
   - personal
 tags:

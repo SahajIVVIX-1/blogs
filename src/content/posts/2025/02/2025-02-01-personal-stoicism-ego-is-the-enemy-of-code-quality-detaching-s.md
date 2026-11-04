@@ -1,6 +1,7 @@
 ---
 title: "Ego is the Enemy of Code Quality: Detaching Self-Worth from Pull Requests: Lessons from Systems Architecture"
 date: "2025-02-01"
+draft: true
 categories:
   - personal
 tags:

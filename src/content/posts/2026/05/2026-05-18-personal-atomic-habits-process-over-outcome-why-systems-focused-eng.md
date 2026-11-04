@@ -1,6 +1,7 @@
 ---
 title: "Process Over Outcome: Why Systems-Focused Engineers Outperform Dreamers: Why Most Engineers Fail Here"
 date: "2026-05-18"
+draft: true
 categories:
   - personal
 tags:

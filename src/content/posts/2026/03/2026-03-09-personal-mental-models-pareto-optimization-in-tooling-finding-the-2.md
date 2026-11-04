@@ -1,6 +1,7 @@
 ---
 title: "Pareto Optimization in Tooling: Finding the 20% of Tools Powering 80% of Leverage: The Subconscious Incubation Effect"
 date: "2026-03-09"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Cognitive Load Management: Preventing Brain Overflow in Dense Systems: Part III: The Mental Model Shift"
 date: "2024-02-20"
+draft: true
 categories:
   - personal
 tags:

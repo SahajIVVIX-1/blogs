@@ -1,6 +1,7 @@
 ---
 title: "The Internal Scorecard: Warren Buffett's Litmus Test for Authentic Integrity: Part II: The Daily Protocol"
 date: "2023-12-01"
+draft: true
 categories:
   - personal
 tags:

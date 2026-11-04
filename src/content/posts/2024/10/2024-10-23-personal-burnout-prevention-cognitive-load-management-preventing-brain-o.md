@@ -1,6 +1,7 @@
 ---
 title: "Cognitive Load Management: Preventing Brain Overflow in Dense Systems: Deconstructing the Cognitive Friction"
 date: "2024-10-23"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The 20-Second Friction Rule: Structuring Your Environment for Immediate Action: Part III: The Mental Model Shift"
 date: "2024-02-07"
+draft: true
 categories:
   - personal
 tags:

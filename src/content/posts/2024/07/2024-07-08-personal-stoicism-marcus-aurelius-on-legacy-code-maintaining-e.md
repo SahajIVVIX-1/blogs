@@ -1,6 +1,7 @@
 ---
 title: "Marcus Aurelius on Legacy Code: Maintaining Equanimity with Imperfect Systems: A Practical Field Guide"
 date: "2024-07-08"
+draft: true
 categories:
   - personal
 tags:

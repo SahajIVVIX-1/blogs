@@ -1,6 +1,7 @@
 ---
 title: "Probabilistic Thinking: Bayesian Updating in Ambiguous Debugging Scenarios: Part III: The Mental Model Shift"
 date: "2024-03-17"
+draft: true
 categories:
   - personal
 tags:

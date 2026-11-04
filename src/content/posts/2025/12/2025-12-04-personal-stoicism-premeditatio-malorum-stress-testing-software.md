@@ -1,6 +1,7 @@
 ---
 title: "Premeditatio Malorum: Stress-Testing Software Psychology with Inversion: The Art of Ruthless Execution"
 date: "2025-12-04"
+draft: true
 categories:
   - personal
 tags:

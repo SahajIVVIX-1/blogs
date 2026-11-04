@@ -1,6 +1,7 @@
 ---
 title: "Intellectual Honesty: The Unforgiving Metric of the True Scientist: Overcoming the Resistance"
 date: "2025-10-20"
+draft: true
 categories:
   - personal
 tags:

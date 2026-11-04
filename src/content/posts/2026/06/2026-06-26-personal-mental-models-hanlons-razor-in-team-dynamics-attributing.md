@@ -1,6 +1,7 @@
 ---
 title: "Hanlon's Razor in Team Dynamics: Attributing Friction to Chaos, Not Malice: Why Most Engineers Fail Here"
 date: "2026-06-26"
+draft: true
 categories:
   - personal
 tags:

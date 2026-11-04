@@ -1,6 +1,7 @@
 ---
 title: "Seneca's Letters on Time: Treating Working Hours as Non-Renewable Assets: A Letter to My Future Self"
 date: "2026-10-12"
+draft: true
 categories:
   - personal
 tags:

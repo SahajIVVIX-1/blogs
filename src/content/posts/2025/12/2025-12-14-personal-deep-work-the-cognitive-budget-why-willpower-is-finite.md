@@ -1,6 +1,7 @@
 ---
 title: "The Cognitive Budget: Why Willpower is Finite and Routines are Essential: The Art of Ruthless Execution"
 date: "2025-12-14"
+draft: true
 categories:
   - personal
 tags:

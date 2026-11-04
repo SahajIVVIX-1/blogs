@@ -1,6 +1,7 @@
 ---
 title: "Ergodicity in Engineering Careers: Avoiding Strategies with Non-Zero Ruin Probability: A Practical Field Guide"
 date: "2024-08-06"
+draft: true
 categories:
   - personal
 tags:

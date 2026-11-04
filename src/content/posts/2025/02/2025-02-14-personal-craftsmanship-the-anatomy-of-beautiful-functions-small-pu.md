@@ -1,6 +1,7 @@
 ---
 title: "The Anatomy of Beautiful Functions: Small, Pure, and Unambiguous: Lessons from Systems Architecture"
 date: "2025-02-14"
+draft: true
 categories:
   - personal
 tags:

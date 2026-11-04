@@ -1,6 +1,7 @@
 ---
 title: "Second-Order Thinking: Anticipating the Unintended Cascades of Microservices: Part II: The Daily Protocol"
 date: "2023-11-12"
+draft: true
 categories:
   - personal
 tags:

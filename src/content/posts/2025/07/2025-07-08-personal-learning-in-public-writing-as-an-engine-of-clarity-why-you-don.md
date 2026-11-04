@@ -1,6 +1,7 @@
 ---
 title: "Writing as an Engine of Clarity: Why You Don't Understand What You Cannot Articulate: The Stoic Lens"
 date: "2025-07-08"
+draft: true
 categories:
   - personal
 tags:

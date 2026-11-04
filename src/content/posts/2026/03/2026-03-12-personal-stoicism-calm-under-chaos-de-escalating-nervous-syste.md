@@ -1,6 +1,7 @@
 ---
 title: "Calm Under Chaos: De-escalating Nervous System Arousal During Live Deployments: The Subconscious Incubation Effect"
 date: "2026-03-12"
+draft: true
 categories:
   - personal
 tags:

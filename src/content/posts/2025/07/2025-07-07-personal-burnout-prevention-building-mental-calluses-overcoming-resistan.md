@@ -1,6 +1,7 @@
 ---
 title: "Building Mental Calluses: Overcoming Resistance to Difficult Theoretical Proofs: The Stoic Lens"
 date: "2025-07-07"
+draft: true
 categories:
   - personal
 tags:

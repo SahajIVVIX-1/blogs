@@ -1,6 +1,7 @@
 ---
 title: "The Dichotomy of Control in Production Crises: Staying Calm Under P0 Alerts: A Framework for Deep Mastery"
 date: "2026-07-05"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Ergodicity in Engineering Careers: Avoiding Strategies with Non-Zero Ruin Probability: Part II: The Daily Protocol"
 date: "2023-12-04"
+draft: true
 categories:
   - personal
 tags:

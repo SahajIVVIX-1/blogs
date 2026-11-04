@@ -1,6 +1,7 @@
 ---
 title: "The Flow State Equation: Balancing Cognitive Load Against Skill Thresholds: Deconstructing the Cognitive Friction"
 date: "2024-10-19"
+draft: true
 categories:
   - personal
 tags:

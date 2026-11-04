@@ -1,6 +1,7 @@
 ---
 title: "Eliminating Shallow Obligations: The Art of Technical Refusal: Deconstructing the Cognitive Friction"
 date: "2024-11-10"
+draft: true
 categories:
   - personal
 tags:

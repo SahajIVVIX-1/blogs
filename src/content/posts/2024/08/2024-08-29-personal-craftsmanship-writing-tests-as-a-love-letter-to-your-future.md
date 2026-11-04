@@ -1,6 +1,7 @@
 ---
 title: "Writing Tests as a Love Letter to Your Future Self: The Discipline of TDD: A Practical Field Guide"
 date: "2024-08-29"
+draft: true
 categories:
   - personal
 tags:

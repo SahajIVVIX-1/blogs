@@ -1,6 +1,7 @@
 ---
 title: "The Art of Not Being Offended: Cultivating Intellectual Detachment: Deconstructing the Cognitive Friction"
 date: "2024-12-03"
+draft: true
 categories:
   - personal
 tags:

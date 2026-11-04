@@ -1,6 +1,7 @@
 ---
 title: "Never Miss Twice: The Golden Rule for Sustained Habit Retention: The First-Principles Analysis"
 date: "2025-03-28"
+draft: true
 categories:
   - personal
 tags:

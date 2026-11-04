@@ -1,6 +1,7 @@
 ---
 title: "The Circle of Competence: Recognizing the Exact Boundary of Your Engineering Knowledge: A Framework for Deep Mastery"
 date: "2026-08-03"
+draft: true
 categories:
   - personal
 tags:

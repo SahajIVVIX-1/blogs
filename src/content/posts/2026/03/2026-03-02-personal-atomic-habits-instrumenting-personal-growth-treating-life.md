@@ -1,6 +1,7 @@
 ---
 title: "Instrumenting Personal Growth: Treating Life Habits as a Observability Pipeline: The Subconscious Incubation Effect"
 date: "2026-03-02"
+draft: true
 categories:
   - personal
 tags:

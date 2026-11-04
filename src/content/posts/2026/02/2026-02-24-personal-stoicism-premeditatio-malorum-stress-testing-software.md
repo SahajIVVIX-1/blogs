@@ -1,6 +1,7 @@
 ---
 title: "Premeditatio Malorum: Stress-Testing Software Psychology with Inversion: The Subconscious Incubation Effect"
 date: "2026-02-24"
+draft: true
 categories:
   - personal
 tags:

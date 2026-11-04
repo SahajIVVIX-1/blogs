@@ -1,6 +1,7 @@
 ---
 title: "The Map is Not the Territory: Dissecting the Difference Between Spec and Reality: Why Most Engineers Fail Here"
 date: "2026-05-19"
+draft: true
 categories:
   - personal
 tags:

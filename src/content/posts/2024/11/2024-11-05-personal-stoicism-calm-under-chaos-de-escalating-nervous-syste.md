@@ -1,6 +1,7 @@
 ---
 title: "Calm Under Chaos: De-escalating Nervous System Arousal During Live Deployments: Deconstructing the Cognitive Friction"
 date: "2024-11-05"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Monk Mode Protocol: Architecting Unbroken 4-Hour Engineering Blocks: Deconstructing the Cognitive Friction"
 date: "2024-09-16"
+draft: true
 categories:
   - personal
 tags:

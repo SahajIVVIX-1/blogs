@@ -1,6 +1,7 @@
 ---
 title: "Building Mental Calluses: Overcoming Resistance to Difficult Theoretical Proofs: A Framework for Deep Mastery"
 date: "2026-08-21"
+draft: true
 categories:
   - personal
 tags:

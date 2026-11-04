@@ -1,6 +1,7 @@
 ---
 title: "Lindy's Law for Technical Stacks: Bet on Technologies That Have Stood for Decades: The Stoic Lens"
 date: "2025-08-07"
+draft: true
 categories:
   - personal
 tags:

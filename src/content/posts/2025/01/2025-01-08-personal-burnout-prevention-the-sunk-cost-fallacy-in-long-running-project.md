@@ -1,6 +1,7 @@
 ---
 title: "The Sunk Cost Fallacy in Long-Running Projects: Knowing When to Pull the Plug: Lessons from Systems Architecture"
 date: "2025-01-08"
+draft: true
 categories:
   - personal
 tags:

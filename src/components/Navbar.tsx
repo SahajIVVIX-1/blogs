@@ -9,7 +9,6 @@ const NAV_LINKS = [
   { href: '/study/', label: 'Study' },
   { href: '/papers/', label: 'Papers' },
   { href: '/ai/', label: 'AI Releases' },
-  { href: '/personal/', label: 'Personal & Mindset' },
   { href: '/archive/', label: 'Archive' },
   { href: '/about/', label: 'About' },
 ];

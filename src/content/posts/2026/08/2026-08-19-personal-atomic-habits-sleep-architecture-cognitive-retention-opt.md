@@ -1,6 +1,7 @@
 ---
 title: "Sleep Architecture & Cognitive Retention: Optimizing SWS for Math Mastery: A Framework for Deep Mastery"
 date: "2026-08-19"
+draft: true
 categories:
   - personal
 tags:

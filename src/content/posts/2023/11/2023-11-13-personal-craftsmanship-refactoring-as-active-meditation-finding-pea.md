@@ -1,6 +1,7 @@
 ---
 title: "Refactoring as Active Meditation: Finding Peace in Cleaning Structural Debt: Part II: The Daily Protocol"
 date: "2023-11-13"
+draft: true
 categories:
   - personal
 tags:

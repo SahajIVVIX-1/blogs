@@ -1,6 +1,7 @@
 ---
 title: "Memento Mori for Founders & Engineers: Keeping Stress in Cosmic Perspective: A Letter to My Future Self"
 date: "2026-10-23"
+draft: true
 categories:
   - personal
 tags:

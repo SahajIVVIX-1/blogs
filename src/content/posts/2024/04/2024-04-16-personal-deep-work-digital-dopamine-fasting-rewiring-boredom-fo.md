@@ -1,6 +1,7 @@
 ---
 title: "Digital Dopamine Fasting: Rewiring Boredom for Breakthrough Problem-Solving: Part IV: The Structural Mechanism"
 date: "2024-04-16"
+draft: true
 categories:
   - personal
 tags:

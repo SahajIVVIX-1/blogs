@@ -1,6 +1,7 @@
 ---
 title: "The Map is Not the Territory: Dissecting the Difference Between Spec and Reality: Lessons from Systems Architecture"
 date: "2025-01-12"
+draft: true
 categories:
   - personal
 tags:

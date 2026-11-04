@@ -1,6 +1,7 @@
 ---
 title: "Curiosity as a Compounding Compass: Why Esoteric Math Yields the Best Innovations: A Framework for Deep Mastery"
 date: "2026-08-16"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Craft of API Design: Building Intuitive, Misuse-Resistant Interfaces: Lessons from Systems Architecture"
 date: "2025-01-12"
+draft: true
 categories:
   - personal
 tags:

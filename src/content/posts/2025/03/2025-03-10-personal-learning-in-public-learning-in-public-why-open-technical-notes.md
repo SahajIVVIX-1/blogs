@@ -1,6 +1,7 @@
 ---
 title: "Learning in Public: Why Open Technical Notes Create Unstoppable Serendipity: The First-Principles Analysis"
 date: "2025-03-10"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "The Antidote to Cynicism in Big Tech: Anchoring to Fundamental Curiosity: Part III: The Mental Model Shift"
 date: "2024-03-13"
+draft: true
 categories:
   - personal
 tags:

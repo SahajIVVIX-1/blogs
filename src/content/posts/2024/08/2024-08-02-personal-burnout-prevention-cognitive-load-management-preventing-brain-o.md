@@ -1,6 +1,7 @@
 ---
 title: "Cognitive Load Management: Preventing Brain Overflow in Dense Systems: A Practical Field Guide"
 date: "2024-08-02"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Documentation as Clarifying Thought: Writing Before Implementation: Part I: The Psychological Foundation"
 date: "2023-10-17"
+draft: true
 categories:
   - personal
 tags:

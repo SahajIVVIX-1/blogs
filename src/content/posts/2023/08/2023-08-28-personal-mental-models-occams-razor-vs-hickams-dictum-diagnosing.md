@@ -1,6 +1,7 @@
 ---
 title: "Occam's Razor vs Hickam's Dictum: Diagnosing Concurrency Bugs with Elegance: Part I: The Psychological Foundation"
 date: "2023-08-28"
+draft: true
 categories:
   - personal
 tags:

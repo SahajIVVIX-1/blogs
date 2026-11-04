@@ -1,6 +1,7 @@
 ---
 title: "Goodhart's Law in Engineering Metrics: When a Measure Becomes the Target: A Framework for Deep Mastery"
 date: "2026-09-10"
+draft: true
 categories:
   - personal
 tags:

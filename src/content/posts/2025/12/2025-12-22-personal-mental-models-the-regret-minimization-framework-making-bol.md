@@ -1,6 +1,7 @@
 ---
 title: "The Regret Minimization Framework: Making Bold Career Pivots Without Anxiety: The Art of Ruthless Execution"
 date: "2025-12-22"
+draft: true
 categories:
   - personal
 tags:

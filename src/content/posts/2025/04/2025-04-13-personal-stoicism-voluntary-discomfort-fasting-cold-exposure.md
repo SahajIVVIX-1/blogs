@@ -1,6 +1,7 @@
 ---
 title: "Voluntary Discomfort: Fasting, Cold Exposure, and Engineering Mental Toughness: The First-Principles Analysis"
 date: "2025-04-13"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Dealing with Technical Rejection: Viewing Failed RFCs as Data Extraction: A Framework for Deep Mastery"
 date: "2026-07-30"
+draft: true
 categories:
   - personal
 tags:

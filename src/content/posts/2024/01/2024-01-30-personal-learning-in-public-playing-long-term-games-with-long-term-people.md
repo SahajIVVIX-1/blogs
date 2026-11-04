@@ -1,6 +1,7 @@
 ---
 title: "Playing Long-Term Games with Long-Term People: The Ultimate Career Heuristic: Part III: The Mental Model Shift"
 date: "2024-01-30"
+draft: true
 categories:
   - personal
 tags:

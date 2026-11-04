@@ -1,6 +1,7 @@
 ---
 title: "The Monk Mode Protocol: Architecting Unbroken 4-Hour Engineering Blocks: The Art of Ruthless Execution"
 date: "2025-10-31"
+draft: true
 categories:
   - personal
 tags:

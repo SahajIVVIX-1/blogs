@@ -1,6 +1,7 @@
 ---
 title: "The Monk Mode Protocol: Architecting Unbroken 4-Hour Engineering Blocks: The Subconscious Incubation Effect"
 date: "2026-01-21"
+draft: true
 categories:
   - personal
 tags:

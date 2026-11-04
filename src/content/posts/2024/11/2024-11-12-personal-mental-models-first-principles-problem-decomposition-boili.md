@@ -1,6 +1,7 @@
 ---
 title: "First-Principles Problem Decomposition: Boiling Software Requirements to Bedrock Truths: Deconstructing the Cognitive Friction"
 date: "2024-11-12"
+draft: true
 categories:
   - personal
 tags:

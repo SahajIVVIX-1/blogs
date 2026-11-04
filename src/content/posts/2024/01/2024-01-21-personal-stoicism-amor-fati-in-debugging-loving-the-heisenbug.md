@@ -1,6 +1,7 @@
 ---
 title: "Amor Fati in Debugging: Loving the Heisenbug That Forced Real Learning: Part III: The Mental Model Shift"
 date: "2024-01-21"
+draft: true
 categories:
   - personal
 tags:

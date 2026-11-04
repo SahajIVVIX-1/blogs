@@ -1,6 +1,7 @@
 ---
 title: "Deconstructing Procrastination: The Gap Between Intention and Micro-Action: The Art of Ruthless Execution"
 date: "2026-01-01"
+draft: true
 categories:
   - personal
 tags:

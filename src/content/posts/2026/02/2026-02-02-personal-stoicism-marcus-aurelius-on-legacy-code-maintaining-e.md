@@ -1,6 +1,7 @@
 ---
 title: "Marcus Aurelius on Legacy Code: Maintaining Equanimity with Imperfect Systems: The Subconscious Incubation Effect"
 date: "2026-02-02"
+draft: true
 categories:
   - personal
 tags:

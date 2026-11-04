@@ -1,6 +1,7 @@
 ---
 title: "Weekly Cadences: The Power of Sunday Engineering Audits & Retrospectives: The Art of Ruthless Execution"
 date: "2026-01-18"
+draft: true
 categories:
   - personal
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Equanimity as an Algorithmic Advantage: Why Calm Engineers Solve Faster: Part IV: The Structural Mechanism"
 date: "2024-06-05"
+draft: true
 categories:
   - personal
 tags:

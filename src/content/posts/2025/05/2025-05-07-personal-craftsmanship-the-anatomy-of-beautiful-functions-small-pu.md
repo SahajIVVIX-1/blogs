@@ -1,6 +1,7 @@
 ---
 title: "The Anatomy of Beautiful Functions: Small, Pure, and Unambiguous: The First-Principles Analysis"
 date: "2025-05-07"
+draft: true
 categories:
   - personal
 tags:

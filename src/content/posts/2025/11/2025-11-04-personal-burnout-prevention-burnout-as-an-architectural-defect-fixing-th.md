@@ -1,6 +1,7 @@
 ---
 title: "Burnout as an Architectural Defect: Fixing the Asymmetry of Input and Recovery: The Art of Ruthless Execution"
 date: "2025-11-04"
+draft: true
 categories:
   - personal
 tags:

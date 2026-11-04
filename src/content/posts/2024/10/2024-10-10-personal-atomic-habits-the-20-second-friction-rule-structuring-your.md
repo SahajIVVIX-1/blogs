@@ -1,6 +1,7 @@
 ---
 title: "The 20-Second Friction Rule: Structuring Your Environment for Immediate Action: Deconstructing the Cognitive Friction"
 date: "2024-10-10"
+draft: true
 categories:
   - personal
 tags:

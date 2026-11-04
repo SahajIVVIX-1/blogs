@@ -1,6 +1,7 @@
 ---
 title: "Learning in Public: Why Open Technical Notes Create Unstoppable Serendipity: A Practical Field Guide"
 date: "2024-07-07"
+draft: true
 categories:
   - personal
 tags:

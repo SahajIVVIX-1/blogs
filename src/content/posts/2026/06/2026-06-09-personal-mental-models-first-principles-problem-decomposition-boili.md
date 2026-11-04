@@ -1,6 +1,7 @@
 ---
 title: "First-Principles Problem Decomposition: Boiling Software Requirements to Bedrock Truths: Why Most Engineers Fail Here"
 date: "2026-06-09"
+draft: true
 categories:
   - personal
 tags:

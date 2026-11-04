@@ -1,6 +1,7 @@
 ---
 title: "The 10-Year Horizon: Escaping Quarterly Thinking and Investing in Fundamentals: The Subconscious Incubation Effect"
 date: "2026-01-26"
+draft: true
 categories:
   - personal
 tags:

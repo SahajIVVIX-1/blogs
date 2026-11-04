@@ -1,6 +1,7 @@
 ---
 title: "The Craftsman vs The Mercenary: Choosing Deep Fulfillment Over Superficial Hype: Part II: The Daily Protocol"
 date: "2023-12-17"
+draft: true
 categories:
   - personal
 tags:

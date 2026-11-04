@@ -1,6 +1,7 @@
 ---
 title: "Voluntary Discomfort: Fasting, Cold Exposure, and Engineering Mental Toughness: A Framework for Deep Mastery"
 date: "2026-08-18"
+draft: true
 categories:
   - personal
 tags:

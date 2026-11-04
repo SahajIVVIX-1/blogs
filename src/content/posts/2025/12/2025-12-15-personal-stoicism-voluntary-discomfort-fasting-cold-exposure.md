@@ -1,6 +1,7 @@
 ---
 title: "Voluntary Discomfort: Fasting, Cold Exposure, and Engineering Mental Toughness: The Art of Ruthless Execution"
 date: "2025-12-15"
+draft: true
 categories:
   - personal
 tags:

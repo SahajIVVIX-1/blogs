@@ -1,6 +1,7 @@
 ---
 title: "The Sovereign Technologist: Building Intellectual Independence from Big Tech Platforms: A Letter to My Future Self"
 date: "2026-10-21"
+draft: true
 categories:
   - personal
 tags:

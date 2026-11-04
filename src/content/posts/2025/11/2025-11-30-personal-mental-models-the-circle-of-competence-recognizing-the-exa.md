@@ -1,6 +1,7 @@
 ---
 title: "The Circle of Competence: Recognizing the Exact Boundary of Your Engineering Knowledge: The Art of Ruthless Execution"
 date: "2025-11-30"
+draft: true
 categories:
   - personal
 tags:
