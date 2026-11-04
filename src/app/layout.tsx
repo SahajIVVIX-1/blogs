@@ -65,21 +65,6 @@ export default function RootLayout({
                   document.documentElement.classList.add('dark');
                 }
               } catch (e) {}
-
-              // Direct shortlink support: ?blog=4305 or ?b=4305
-              try {
-                var params = new URLSearchParams(location.search);
-                var bNum = params.get('blog') || params.get('b');
-                if (bNum && (location.pathname === '/' || location.pathname === '')) {
-                  fetch('/blog-index.json')
-                    .then(function(r) { return r.json(); })
-                    .then(function(map) {
-                      var target = map[bNum] || map[String(bNum).padStart(4, '0')];
-                      if (target) location.replace(target + location.search + location.hash);
-                    })
-                    .catch(function() {});
-                }
-              } catch (e) {}
             `,
           }}
         />
@@ -88,7 +73,9 @@ export default function RootLayout({
         <Suspense fallback={null}>
           <NavigationLoader />
         </Suspense>
-        <ContextAddressBar />
+        <Suspense fallback={null}>
+          <ContextAddressBar />
+        </Suspense>
         <Navbar />
         <main id="main" className="flex-1 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 animate-in fade-in duration-200">
           {children}
