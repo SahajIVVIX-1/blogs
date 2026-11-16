@@ -72,6 +72,7 @@ export default function Heatmap({ daysMap }: HeatmapProps) {
                       <Link
                         key={c.key}
                         href={`/archive/#date-${c.key}`}
+                        prefetch={false}
                         title={`${c.key}: ${c.n} post${c.n > 1 ? 's' : ''} · ${c.cats.join(', ')}`}
                         className={`h-3 w-3 rounded-sm transition-transform hover:scale-125 ${getHeatClass(c.n)}`}
                       />
