@@ -82,6 +82,7 @@ export default function ArchivePage() {
                                 <li key={p.id} className="flex items-baseline justify-between gap-3 text-xs">
                                   <Link
                                     href={postUrl(p)}
+                                    prefetch={false}
                                     className="font-medium text-ink hover:text-emerald-400 transition-colors"
                                   >
                                     {p.data.title}

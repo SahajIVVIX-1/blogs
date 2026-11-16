@@ -60,7 +60,7 @@ export default function PapersPage() {
                 <tr key={idx} className="transition-colors hover:bg-canvas/50">
                   <td className="px-4 py-3 font-mono text-ink-muted whitespace-nowrap">{r.date}</td>
                   <td className="px-4 py-3 font-semibold text-ink">
-                    <Link href={r.url} className="hover:text-emerald-400 transition-colors">
+                    <Link href={r.url} prefetch={false} className="hover:text-emerald-400 transition-colors">
                       {r.title}
                     </Link>
                   </td>

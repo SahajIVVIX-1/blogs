@@ -57,7 +57,7 @@ export default function PostList({ posts, showDate = true }: PostListProps) {
               </div>
 
               <h3 className="mt-3 font-serif text-lg font-bold leading-snug text-ink group-hover:text-emerald-400 transition-colors">
-                <Link href={url} className="after:absolute after:inset-0">
+                <Link href={url} prefetch={false} className="after:absolute after:inset-0">
                   {p.data.title}
                 </Link>
               </h3>
