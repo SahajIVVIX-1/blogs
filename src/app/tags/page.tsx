@@ -34,6 +34,7 @@ export default function TagsIndexPage() {
           <Link
             key={tag}
             href={`/tags/${tag}/`}
+            prefetch={false}
             className="flex items-center gap-1.5 rounded-lg border border-border bg-surface px-3 py-1.5 text-xs text-ink transition-colors hover:border-emerald-500 hover:text-emerald-400"
           >
             <span>#{tag}</span>

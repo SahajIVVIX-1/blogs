@@ -28,6 +28,7 @@ export default function PhaseGrid({ phases, limit }: PhaseGridProps) {
           <Link
             key={ph.n}
             href={`/learning-path/#phase-${ph.n}`}
+            prefetch={false}
             className="group flex flex-col justify-between rounded-xl border border-border bg-surface p-5 transition-all hover:border-emerald-500/50 hover:bg-surface/80"
           >
             <div>

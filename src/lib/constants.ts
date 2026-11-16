@@ -68,6 +68,8 @@ export const formatBlogNo = (n?: number) => {
   return String(n).padStart(4, '0');
 };
 
+export const TOTAL_POSTS = 2786;
+
 export const START = '2023-08-04';
 
 export const CATEGORY_LABEL: Record<string, string> = {

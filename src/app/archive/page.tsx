@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import { allPosts, byDay, postUrl, fmtDate } from '@/lib/posts';
+import ArchiveHashScroll from '@/components/ArchiveHashScroll';
 
 export const metadata: Metadata = {
   title: 'Chronological Archive',
@@ -30,6 +31,7 @@ export default function ArchivePage() {
 
   return (
     <div className="space-y-12">
+      <ArchiveHashScroll />
       <section className="space-y-4">
         <div className="inline-flex items-center gap-1.5 rounded-full border border-border bg-surface px-3 py-1 text-xs font-semibold text-ink-muted">
           <span>🗄️</span>

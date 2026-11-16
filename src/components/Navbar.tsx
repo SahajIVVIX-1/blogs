@@ -2,7 +2,8 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+import { usePathname, useRouter } from 'next/navigation';
+import { TOTAL_POSTS } from '@/lib/constants';
 
 const NAV_LINKS = [
   { href: '/learning-path/', label: 'Curriculum' },
@@ -15,6 +16,7 @@ const NAV_LINKS = [
 
 export default function Navbar() {
   const pathname = usePathname();
+  const router = useRouter();
   const [theme, setTheme] = useState<'dark' | 'light'>('dark');
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [contextOpen, setContextOpen] = useState(false);
@@ -74,11 +76,21 @@ export default function Navbar() {
     };
     document.addEventListener('mousedown', handleClickOutside);
 
+    // Global Command/Ctrl + K shortcut to open search
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
+        e.preventDefault();
+        router.push('/search/');
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+
     return () => {
       window.removeEventListener('sahaj:context', handleContextEvent);
       document.removeEventListener('mousedown', handleClickOutside);
+      window.removeEventListener('keydown', handleKeyDown);
     };
-  }, []);
+  }, [router]);
 
   // Update active blog number on pathname change
   useEffect(() => {
@@ -217,14 +229,14 @@ export default function Navbar() {
                       <div className="text-[10px] uppercase tracking-wider text-ink-muted">Unique Article Serial</div>
                       <div className="mt-0.5 flex items-center justify-between rounded border border-emerald-500/30 bg-emerald-500/5 px-2 py-1 text-emerald-400 font-bold">
                         <span>Blog #{activeBlogNo}</span>
-                        <span className="text-[10px] text-ink-muted font-normal">of 4,306 posts</span>
+                        <span className="text-[10px] text-ink-muted font-normal">of {TOTAL_POSTS.toLocaleString()} posts</span>
                       </div>
                     </div>
                   ) : (
                     <div>
                       <div className="text-[10px] uppercase tracking-wider text-ink-muted">Archive Catalog</div>
                       <div className="mt-0.5 rounded border border-border bg-canvas/70 px-2 py-1 text-ink">
-                        4,306 total indexed entries
+                        {TOTAL_POSTS.toLocaleString()} total indexed entries
                       </div>
                     </div>
                   )}
