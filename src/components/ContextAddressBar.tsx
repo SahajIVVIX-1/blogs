@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from 'react';
 import { usePathname } from 'next/navigation';
+import { TOTAL_POSTS } from '@/lib/constants';
 
 const THROTTLE = 500; // ms between scroll updates
 
@@ -133,7 +134,7 @@ export default function ContextAddressBar() {
       try {
         window.dispatchEvent(
           new CustomEvent('sahaj:context', {
-            detail: { ip, blogNo, total: 4306 },
+            detail: { ip, blogNo, total: TOTAL_POSTS },
           })
         );
       } catch {}
@@ -152,13 +153,17 @@ export default function ContextAddressBar() {
 
       // Check if already applied
       const currentSearch = window.location.search;
+      const initialPathname = window.location.pathname;
+
       if (!currentSearch.includes(`context=you@${ip}`)) {
         // Smooth typewriter into address bar using safe native replaceState
         const reducedMotion = window.matchMedia?.('(prefers-reduced-motion: reduce)')?.matches;
         if (reducedMotion) {
-          safeNativeReplaceState(
-            `${window.location.pathname}?${targetQuery}${restSuffix}${window.location.hash}`
-          );
+          if (window.location.pathname === initialPathname) {
+            safeNativeReplaceState(
+              `${initialPathname}?${targetQuery}${restSuffix}${window.location.hash}`
+            );
+          }
         } else {
           const steps = [
             `context=you@`,
@@ -167,9 +172,9 @@ export default function ContextAddressBar() {
           ];
 
           for (const step of steps) {
-            if (cancelled || !mountedRef.current) break;
+            if (cancelled || !mountedRef.current || window.location.pathname !== initialPathname) break;
             safeNativeReplaceState(
-              `${window.location.pathname}?${step}${restSuffix}${window.location.hash}`
+              `${initialPathname}?${step}${restSuffix}${window.location.hash}`
             );
             await new Promise((r) => setTimeout(r, 60));
           }

@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useEffect, useState } from 'react';
+import { TOTAL_POSTS } from '@/lib/constants';
 
 declare global {
   interface Window {
@@ -13,37 +14,58 @@ export default function SearchPage() {
   const [error, setError] = useState(false);
 
   useEffect(() => {
-    // Load Pagefind UI CSS
-    const link = document.createElement('link');
-    link.rel = 'stylesheet';
-    link.href = '/pagefind/pagefind-ui.css';
-    document.head.appendChild(link);
+    let script: HTMLScriptElement | null = null;
+    let link: HTMLLinkElement | null = null;
 
-    // Load Pagefind UI Script
-    const script = document.createElement('script');
-    script.src = '/pagefind/pagefind-ui.js';
-    script.async = true;
-    script.onload = () => {
-      if (window.PagefindUI) {
-        new window.PagefindUI({
-          element: '#search-container',
-          showSubResults: true,
-          showImages: false,
-          autofocus: true,
-        });
-        setLoaded(true);
+    const initUI = () => {
+      try {
+        const container = document.getElementById('search-container');
+        if (container && window.PagefindUI) {
+          container.innerHTML = '';
+          new window.PagefindUI({
+            element: '#search-container',
+            showSubResults: true,
+            showImages: false,
+            autofocus: true,
+          });
+          setLoaded(true);
+        }
+      } catch (e) {
+        setError(true);
       }
     };
-    script.onerror = () => {
-      setError(true);
-    };
-    document.body.appendChild(script);
+
+    // If PagefindUI is already in memory from a previous page visit, initialize immediately!
+    if (typeof window !== 'undefined' && window.PagefindUI) {
+      initUI();
+    } else {
+      // Ensure stylesheet exists
+      if (!document.querySelector('link[href="/pagefind/pagefind-ui.css"]')) {
+        link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.href = '/pagefind/pagefind-ui.css';
+        document.head.appendChild(link);
+      }
+
+      // Load Pagefind UI Script
+      script = document.createElement('script');
+      script.src = '/pagefind/pagefind-ui.js';
+      script.async = true;
+      script.onload = () => {
+        initUI();
+      };
+      script.onerror = () => {
+        setError(true);
+      };
+      document.body.appendChild(script);
+    }
 
     return () => {
-      try {
-        document.head.removeChild(link);
-        document.body.removeChild(script);
-      } catch (e) {}
+      // Clean up injected elements if needed
+      const container = document.getElementById('search-container');
+      if (container) {
+        container.innerHTML = '';
+      }
     };
   }, []);
 
@@ -52,7 +74,7 @@ export default function SearchPage() {
       <div className="space-y-2">
         <h1 className="font-serif text-3xl sm:text-4xl font-bold text-ink">Search Handbooks & Papers</h1>
         <p className="text-xs text-ink-muted">
-          Instant client-side full-text search indexing all 2,780+ engineering posts, research digests, and topics.
+          Instant client-side full-text search indexing all {TOTAL_POSTS.toLocaleString()} engineering posts, research digests, and topics.
         </p>
       </div>
 

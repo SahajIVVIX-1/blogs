@@ -162,7 +162,7 @@ export default function PersonalClient({ posts }: PersonalClientProps) {
                 </div>
 
                 <h3 className="mt-3 font-serif text-lg font-bold leading-snug text-ink group-hover:text-amber-400 transition-colors">
-                  <Link href={p.url} className="after:absolute after:inset-0">
+                  <Link href={p.url} prefetch={false} className="after:absolute after:inset-0">
                     {p.title}
                   </Link>
                 </h3>
@@ -195,6 +195,30 @@ export default function PersonalClient({ posts }: PersonalClientProps) {
               </div>
             </article>
           ))}
+        </div>
+      ) : posts.length === 0 ? (
+        <div className="rounded-2xl border border-amber-500/20 bg-surface/80 p-10 text-center space-y-4">
+          <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-amber-500/10 border border-amber-500/30 text-2xl">
+            🌱
+          </div>
+          <h3 className="font-serif text-xl font-bold text-ink">Personal Essays Compendium Under Preparation</h3>
+          <p className="max-w-md mx-auto text-xs sm:text-sm text-ink-muted leading-relaxed">
+            Personal essays on deep work, stoic resilience, and mental models are currently being curated and will be published sequentially alongside the engineering handbooks.
+          </p>
+          <div className="pt-2 flex flex-wrap justify-center gap-3">
+            <Link
+              href="/study/"
+              className="rounded-xl bg-emerald-500 px-4 py-2 text-xs font-bold text-slate-950 hover:bg-emerald-400 transition-colors"
+            >
+              Browse Study Guides →
+            </Link>
+            <Link
+              href="/papers/"
+              className="rounded-xl border border-border bg-surface px-4 py-2 text-xs font-semibold text-ink hover:border-emerald-500 hover:text-emerald-400 transition-colors"
+            >
+              Explore Research Papers →
+            </Link>
+          </div>
         </div>
       ) : (
         <div className="rounded-xl border border-dashed border-border p-12 text-center text-xs text-ink-muted">

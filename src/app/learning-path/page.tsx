@@ -109,7 +109,7 @@ export default function LearningPathPage() {
                         <div className="flex items-center gap-2.5">
                           <span className="font-mono text-ink-muted w-7 text-right">#{String(stepNum).padStart(2, '0')}</span>
                           {post ? (
-                            <Link href={postUrl(post)} className="font-medium text-ink hover:text-emerald-400">
+                            <Link href={postUrl(post)} prefetch={false} className="font-medium text-ink hover:text-emerald-400">
                               {topic}
                             </Link>
                           ) : (
@@ -121,6 +121,7 @@ export default function LearningPathPage() {
                           {post ? (
                             <Link
                               href={postUrl(post)}
+                              prefetch={false}
                               className="font-medium text-emerald-400 hover:underline"
                             >
                               Read Guide →

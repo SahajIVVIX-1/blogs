@@ -33,7 +33,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-8 border-t border-border/50 pt-6 text-center text-xs text-ink-muted/80">
-          © {new Date().getFullYear()} Sahaj Saliya. All content published under open technical learning principles.
+          © <span suppressHydrationWarning>{new Date().getFullYear()}</span> Sahaj Saliya. All content published under open technical learning principles.
         </div>
       </div>
     </footer>
