@@ -3,6 +3,7 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import { allPosts, phaseProgress, postUrl, fmtDate } from '@/lib/posts';
 import { PageHeader, Icon, Chip } from '@/components/ui';
+import PhaseHashOpen from '@/components/PhaseHashOpen';
 
 export const metadata: Metadata = {
   title: 'Curriculum Roadmap',
@@ -18,6 +19,7 @@ export default function LearningPathPage() {
 
   return (
     <div>
+      <PhaseHashOpen />
       <PageHeader
         eyebrow="15-phase master curriculum"
         title={<>Learning path &amp; technical <em>roadmap</em></>}
@@ -57,7 +59,7 @@ export default function LearningPathPage() {
                 </div>
               </div>
 
-              <details open={ph.n >= 11} className="group mt-6 md:ml-[calc(4rem+2.5rem)]">
+              <details className="group mt-6 md:ml-[calc(4rem+2.5rem)]">
                 <summary className="btn btn-ghost btn-sm inline-flex list-none select-none [&::-webkit-details-marker]:hidden">
                   <span>Topics ({ph.topics.length}) &middot; Guides ({ph.posts.length})</span>
                   <Icon name="chevron" size={14} className="transition-transform group-open:rotate-180" />

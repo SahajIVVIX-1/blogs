@@ -81,22 +81,20 @@ export default function Navbar() {
     };
     document.addEventListener('mousedown', handleClickOutside);
 
-    // Global Command/Ctrl + K shortcut to open search
-    const handleKeyDown = (e: KeyboardEvent) => {
-      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
-        e.preventDefault();
-        router.push('/search/');
-      }
-    };
-    window.addEventListener('keydown', handleKeyDown);
-
     return () => {
       window.removeEventListener('sahaj:context', handleContextEvent);
       document.removeEventListener('mousedown', handleClickOutside);
-      window.removeEventListener('keydown', handleKeyDown);
       sys.removeEventListener('change', onSys);
     };
   }, [router]);
+
+  // Esc closes the mobile menu
+  useEffect(() => {
+    if (!mobileMenuOpen) return;
+    const onKey = (e: KeyboardEvent) => e.key === 'Escape' && setMobileMenuOpen(false);
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [mobileMenuOpen]);
 
   // Update active blog number on pathname change
   useEffect(() => {
@@ -109,6 +107,8 @@ export default function Navbar() {
       setActiveBlogNo(null);
     }
   }, [pathname]);
+
+  const openSearch = () => window.dispatchEvent(new Event('sahaj:search-open'));
 
   const toggleTheme = () => {
     const next = theme === 'auto' ? 'light' : theme === 'light' ? 'dark' : 'auto';
@@ -255,8 +255,9 @@ export default function Navbar() {
             )}
           </div>
 
-          <Link
-            href="/search/"
+          <button
+            type="button"
+            onClick={openSearch}
             className="inline-flex h-9 items-center justify-center gap-2.5 rounded-full border border-rule-2 text-ink-soft transition-colors hover:border-ink-muted hover:text-ink w-9 xl:w-auto xl:pl-3 xl:pr-2"
             aria-label="Search (Ctrl K)"
             title="Search (Ctrl K)"
@@ -264,7 +265,7 @@ export default function Navbar() {
             <svg viewBox="0 0 16 16" width="15" height="15" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" aria-hidden="true"><circle cx="6.8" cy="6.8" r="4.6" /><path d="M10.2 10.2 14 14" /></svg>
             <span className="hidden font-mono text-[.78em] xl:inline">Search</span>
             <kbd className="hidden rounded-md border border-border bg-surface px-1.5 py-1 font-mono text-[11px] leading-none text-ink-soft xl:inline">Ctrl K</kbd>
-          </Link>
+          </button>
 
           <button
             type="button"
@@ -286,42 +287,63 @@ export default function Navbar() {
             aria-expanded={mobileMenuOpen}
             aria-controls="mobile-menu"
           >
-            <svg viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" aria-hidden="true">
-              {mobileMenuOpen ? <path d="M3 3l10 10M13 3L3 13" /> : <path d="M2.5 5h11M2.5 11h11" />}
+            <svg viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" aria-hidden="true" className={`burger${mobileMenuOpen ? ' is-open' : ''}`}>
+              <path className="burger-1" d="M2.5 5h11" />
+              <path className="burger-2" d="M2.5 11h11" />
             </svg>
           </button>
         </div>
       </div>
 
-      {/* Menu panel (below 1024px) */}
-      {mobileMenuOpen && (
-        <div id="mobile-menu" className="max-h-[calc(100dvh-65px)] overflow-y-auto border-t border-border bg-canvas px-[var(--gutter)] pb-6 pt-3 lg:hidden">
-          <nav className="flex flex-col" aria-label="Menu">
-            {NAV_LINKS.map(({ href, label }) => {
-              const active = pathname === href || pathname.startsWith(href);
-              return (
-                <Link
-                  key={href}
-                  href={href}
-                  onClick={() => setMobileMenuOpen(false)}
-                  aria-current={active ? 'page' : undefined}
-                  className={`flex items-baseline justify-between border-b border-border py-3.5 font-serif text-[1.7rem] italic leading-none ${active ? 'text-accent' : 'text-ink'}`}
-                >
-                  <span>{label}</span>
-                  <span className="font-mono text-[11px] not-italic text-ink-muted" aria-hidden="true">→</span>
-                </Link>
-              );
-            })}
-            <a href="https://info.sahaj.si/" className="flex items-baseline justify-between border-b border-border py-3.5 font-serif text-[1.7rem] italic leading-none text-ink-soft">
-              <span>Portfolio</span>
-              <span className="font-mono text-[11px] not-italic text-ink-muted" aria-hidden="true">↗</span>
-            </a>
-          </nav>
-          <p className="mt-5 font-mono text-[11px] text-ink-muted">
-            ctx · {activeBlogNo ? `#${activeBlogNo} · ` : ''}{visitorIp && visitorIp !== 'detecting...' ? `you@${formatIpShort(visitorIp)}` : 'you'}
-          </p>
+      {/* Menu panel (below 1024px): always mounted so it can animate in and out */}
+      <div id="mobile-menu" className={`mm lg:hidden${mobileMenuOpen ? ' is-open' : ''}`} aria-hidden={!mobileMenuOpen} inert={!mobileMenuOpen}>
+        <div className="mm-clip">
+          <div className="mm-inner px-[var(--gutter)] pb-6 pt-3">
+            <nav className="flex flex-col" aria-label="Menu">
+              {NAV_LINKS.map(({ href, label }, i) => {
+                const active = pathname === href || pathname.startsWith(href);
+                return (
+                  <Link
+                    key={href}
+                    href={href}
+                    onClick={() => setMobileMenuOpen(false)}
+                    aria-current={active ? 'page' : undefined}
+                    style={{ ['--i' as string]: i }}
+                    className={`mm-item flex items-baseline justify-between border-b border-border py-3.5 font-serif text-[1.7rem] italic leading-none ${active ? 'text-accent' : 'text-ink'}`}
+                  >
+                    <span>{label}</span>
+                    <span className="font-mono text-[11px] not-italic text-ink-muted" aria-hidden="true">&rarr;</span>
+                  </Link>
+                );
+              })}
+              <a
+                href="https://info.sahaj.si/"
+                style={{ ['--i' as string]: NAV_LINKS.length }}
+                className="mm-item flex items-baseline justify-between border-b border-border py-3.5 font-serif text-[1.7rem] italic leading-none text-ink-soft"
+              >
+                <span>Portfolio</span>
+                <span className="font-mono text-[11px] not-italic text-ink-muted" aria-hidden="true">↗</span>
+              </a>
+            </nav>
+            <p className="mm-item mt-5 flex flex-wrap items-center gap-x-2 gap-y-1 font-mono text-[11.5px] text-ink-muted" style={{ ['--i' as string]: NAV_LINKS.length + 1 }}>
+              <span className="relative flex h-2 w-2" aria-hidden="true">
+                <span className="relative inline-flex h-2 w-2 rounded-full bg-accent" />
+              </span>
+              <span className="font-semibold text-accent">ctx</span>
+              <span aria-hidden="true">&middot;</span>
+              {activeBlogNo && (
+                <>
+                  <span className="font-semibold text-ink">#{activeBlogNo}</span>
+                  <span aria-hidden="true">&middot;</span>
+                </>
+              )}
+              <span className="break-all text-ink-soft">
+                {visitorIp && visitorIp !== 'detecting...' && visitorIp !== 'anonymous' ? `you@${visitorIp}` : 'you'}
+              </span>
+            </p>
+          </div>
         </div>
-      )}
+      </div>
     </header>
   );
 }

@@ -75,36 +75,20 @@ The mathematical guarantees established in this derivation demonstrate that unde
 
 To translate the theoretical principles into a scalable engineering system, the authors construct a modular pipeline engineered for massive distributed parallelism across accelerator clusters.
 
-```text
-+-------------------------------------------------------------------------+
-|                  DEEP AUTOREGRESSIVE REASONING PIPELINE                 |
-+-------------------------------------------------------------------------+
-                                                                         
- [ Input Token Sequence x_{1:t} ]                                        
-                 |                                                       
-                 v                                                       
- [ Rotary Positional Encoding (RoPE) & RMSNorm ]                         
-                 |                                                       
-                 v                                                       
- +---------------------------------------------------------------+       
- | Grouped-Query Attention Block (GQA)                           |       
- | Q = x * W_q,  K = x * W_k (shared),  V = x * W_v (shared)      |       
- +---------------------------------------------------------------+       
-                 |                                                       
-                 v                                                       
- [ SwiGLU Feed-Forward Network: (xW_gate * swish(xW_up)) * W_down ]      
-                 |                                                       
-                 v                                                       
- [ Residual Accumulator & Pre-Layer Normalization ]                      
-                 |                                                       
-                 +-----------------------+-----------------------+       
-                 |                                               |       
-                 v                                               v       
- [ Direct Next-Token Logits ]                   [ Implicit Reward Head ] 
-                 |                                               |       
-                 v                                               v       
- [ Temperature-Scaled Top-p Sampling ]          [ Alignment Loss Check ] 
-+-------------------------------------------------------------------------+
+```mermaid
+flowchart TD
+    T(["DEEP AUTOREGRESSIVE REASONING PIPELINE"]):::title
+    X(["Input Token Sequence x_{1:t}"]):::io --> N["Rotary Positional Encoding (RoPE) #amp; RMSNorm"]
+    N --> G["<b>Grouped-Query Attention Block (GQA)</b><br/>Q = x * W_q, K = x * W_k (shared), V = x * W_v (shared)"]
+    G --> S["SwiGLU Feed-Forward Network: (xW_gate * swish(xW_up)) * W_down"]
+    S --> R["Residual Accumulator #amp; Pre-Layer Normalization"]
+    R --> H1(["Direct Next-Token Logits"])
+    R --> H2(["Implicit Reward Head"])
+    H1 --> P1["Temperature-Scaled Top-p Sampling"]
+    H2 --> P2["Alignment Loss Check"]
+    T ~~~ X
+    classDef title fill:transparent,stroke:transparent,font-weight:700;
+    classDef io fill:transparent,stroke-dasharray:4 3;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

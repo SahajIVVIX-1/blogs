@@ -5,6 +5,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ContextAddressBar from '@/components/ContextAddressBar';
 import NavigationLoader from '@/components/NavigationLoader';
+import SearchPalette from '@/components/SearchPalette';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://blog.sahaj.si'),
@@ -16,11 +17,11 @@ export const metadata: Metadata = {
   authors: [{ name: 'Sahaj Saliya', url: 'https://blog.sahaj.si' }],
   icons: {
     icon: [
-      { url: '/favicon.svg', type: 'image/svg+xml' },
-      { url: '/favicon.ico', sizes: 'any' },
-      { url: '/icon-32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/favicon.svg?v=4', type: 'image/svg+xml' },
+      { url: '/favicon.ico?v=4', sizes: 'any' },
+      { url: '/icon-32.png?v=4', sizes: '32x32', type: 'image/png' },
     ],
-    apple: '/apple-touch-icon.png',
+    apple: '/apple-touch-icon.png?v=4',
   },
   openGraph: {
     title: 'Sahaj Saliya · AI & Engineering Handbook',
@@ -48,9 +49,9 @@ export default function RootLayout({
         <meta name="color-scheme" content="light dark" />
         <meta name="theme-color" media="(prefers-color-scheme: light)" content="#F6F2EA" />
         <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0B1020" />
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=4" />
+        <link rel="icon" href="/favicon.ico?v=4" sizes="any" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=4" />
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -73,6 +74,7 @@ export default function RootLayout({
           <ContextAddressBar />
         </Suspense>
         <Navbar />
+        <SearchPalette />
         <main id="main" className="flex-1 w-full max-w-[1800px] mx-auto px-[var(--gutter)] py-8 sm:py-12 animate-in fade-in duration-200">
           {children}
         </main>

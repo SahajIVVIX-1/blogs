@@ -39,23 +39,18 @@ Consider how energy and working memory operate in software development:
 2. **The Friction Gradient**: Whatever behavior is frictionless will dominate your daily output. If distracting feeds are one click away and documentation requires searching, the brain naturally gravitates toward path-of-least-resistance dopamine loops.
 3. **Internal Scorecard**: True engineering craftsmanship cannot be measured by external corporate validation or social metrics. It is grounded in the intrinsic standard of the work itself.
 
-```
-  +-----------------------------------------------------------+
-  |              COGNITIVE RECOVERY & FOCUS ENGINE            |
-  +-----------------------------------------------------------+
-  |                                                           |
-  |  [Input Stimulus] ---> [Cognitive Filter]                 |
-  |                              |                            |
-  |                     Is it within control?                 |
-  |                        /            \                    |
-  |                     [Yes]           [No]                  |
-  |                      /                \                   |
-  |             [Action Protocol]     [Stoic Equanimity]      |
-  |                      \                /                   |
-  |                   +----------------------+                |
-  |                   |  High-Fidelity Output |                |
-  |                   +----------------------+                |
-  +-----------------------------------------------------------+
+```mermaid
+flowchart TD
+    T(["COGNITIVE RECOVERY #amp; FOCUS ENGINE"]):::title
+    A(["Input Stimulus"]) --> B["Cognitive Filter"]
+    B --> C{"Is it within control?"}
+    C -- Yes --> D["Action Protocol"]
+    C -- No --> E["Stoic Equanimity"]
+    D --> F["High-Fidelity Output"]
+    E --> F
+    T ~~~ A
+    classDef title fill:transparent,stroke:transparent,font-weight:700;
+    classDef io fill:transparent,stroke-dasharray:4 3;
 ```
 
 ---

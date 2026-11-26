@@ -425,3 +425,88 @@ html[data-theme='dark'] .shiki span,
 .pagefind-ui__result-title a { font-family: 'Inter Tight', sans-serif; font-weight: 450; letter-spacing: -.015em; }
 .pagefind-ui__result-link:hover { color: var(--accent); }
 .pagefind-ui__result { border-top-color: var(--rule); }
+
+/* ===== in-page search palette ===== */
+.sp-backdrop {
+  position: fixed; inset: 0; z-index: 300; display: flex; justify-content: center; align-items: flex-start;
+  padding: clamp(12px, 9vh, 96px) 14px 14px;
+  background: color-mix(in srgb, var(--paper) 62%, transparent);
+  backdrop-filter: blur(10px) saturate(1.1); -webkit-backdrop-filter: blur(10px) saturate(1.1);
+  animation: spFade .16s ease-out both;
+}
+@keyframes spFade { from { opacity: 0; } }
+.sp-panel {
+  width: min(760px, 100%); max-height: min(78vh, 720px); display: flex; flex-direction: column; overflow: hidden;
+  border: 1px solid var(--rule-2); border-radius: 20px; background: var(--paper);
+  box-shadow: 0 30px 80px -24px rgb(0 0 0 / .45), 0 0 0 1px rgb(var(--ink-rgb) / .03);
+  animation: spIn .22s var(--ease-out) both;
+}
+@keyframes spIn { from { opacity: 0; transform: translateY(-8px) scale(.985); } }
+.sp-input-row { display: flex; align-items: center; gap: 12px; padding: 14px 16px 14px 20px; border-bottom: 1px solid var(--rule); }
+.sp-ico { color: var(--ink-3); flex: none; }
+.sp-input { flex: 1; min-width: 0; border: 0; outline: 0; background: transparent; color: var(--ink); font: 450 clamp(1.05rem, 1.4vw, 1.3rem)/1.3 'Inter Tight', sans-serif; letter-spacing: -.01em; }
+.sp-input::placeholder { color: var(--ink-3); }
+.sp-clear, .sp-esc { flex: none; border: 1px solid var(--rule-2); border-radius: 999px; background: transparent; color: var(--ink-2); cursor: pointer; font: 500 11px/1 'JetBrains Mono', monospace; padding: 7px 10px; letter-spacing: .02em; transition: border-color .2s, color .2s; }
+.sp-clear:hover, .sp-esc:hover { border-color: var(--ink-3); color: var(--ink); }
+.sp-status { padding: 11px 20px; border-bottom: 1px solid var(--rule); font: 500 11.5px/1.5 'JetBrains Mono', monospace; letter-spacing: .01em; color: var(--ink-3); }
+.sp-status button { border: 0; background: none; padding: 0; color: var(--accent); cursor: pointer; font: inherit; text-decoration: underline; text-underline-offset: 3px; }
+.sp-list { margin: 0; padding: 6px; overflow-y: auto; flex: 1; list-style: none; overscroll-behavior: contain; }
+.sp-item { display: flex; align-items: center; gap: 14px; padding: 12px 14px; border-radius: 12px; cursor: pointer; }
+.sp-item[data-active='true'] { background: var(--accent-soft); }
+.sp-item-main { display: flex; flex-direction: column; gap: 5px; min-width: 0; flex: 1; }
+.sp-title { font: 450 1.02rem/1.3 'Inter Tight', sans-serif; letter-spacing: -.012em; color: var(--ink); overflow-wrap: anywhere; }
+.sp-item[data-active='true'] .sp-title { color: var(--accent); }
+.sp-meta { font: 500 11px/1.4 'JetBrains Mono', monospace; letter-spacing: .02em; color: var(--ink-3); }
+.sp-exc { font-size: .88rem; line-height: 1.5; color: var(--ink-2); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.sp-exc mark, .sp-mark { background: var(--accent-soft); color: var(--accent); border-radius: 3px; padding: 0 2px; }
+.sp-go { flex: none; color: var(--ink-3); opacity: 0; transform: translateX(-4px); transition: opacity .15s, transform .2s var(--ease-out); }
+.sp-item[data-active='true'] .sp-go { opacity: 1; transform: none; color: var(--accent); }
+.sp-none { padding: 36px 20px; text-align: center; color: var(--ink-3); font-size: .95rem; line-height: 1.6; }
+.sp-none code { font: 500 .85em 'JetBrains Mono', monospace; color: var(--accent); }
+.sp-foot { display: flex; flex-wrap: wrap; gap: 6px 18px; align-items: center; padding: 11px 20px; border-top: 1px solid var(--rule); font: 500 11px/1 'JetBrains Mono', monospace; color: var(--ink-3); }
+.sp-foot kbd { margin-right: 4px; }
+.sp-foot-r { margin-left: auto; }
+@media (max-width: 640px) { .sp-foot-r { display: none; } .sp-foot span:nth-child(1) { display: none; } .sp-clear { display: none; } }
+@media (prefers-reduced-motion: reduce) { .sp-backdrop, .sp-panel { animation: none; } }
+
+kbd { font: 500 11px/1 'JetBrains Mono', ui-monospace, monospace; padding: 4px 6px; border-radius: 6px; background: var(--paper-2); border: 1px solid var(--rule); color: var(--ink-2); }
+
+/* ===== mobile menu: smooth open / close ===== */
+.mm {
+  display: grid; grid-template-rows: 0fr; opacity: 0; visibility: hidden; border-top: 1px solid transparent; background: var(--paper);
+  transition: grid-template-rows .42s var(--ease-out), opacity .3s ease, border-color .3s, visibility 0s linear .42s;
+}
+.mm.is-open { grid-template-rows: 1fr; opacity: 1; visibility: visible; border-top-color: var(--rule); transition-delay: 0s; }
+.mm-clip { overflow: hidden; min-height: 0; }
+.mm-inner { max-height: calc(100dvh - 66px); overflow-y: auto; }
+.mm-item { opacity: 0; transform: translateY(10px); transition: opacity .25s ease, transform .35s var(--ease-out); }
+.mm.is-open .mm-item { opacity: 1; transform: none; transition-delay: calc(60ms + var(--i, 0) * 45ms); }
+
+.burger path { transform-box: fill-box; transform-origin: center; transition: transform .35s var(--ease-out); }
+.burger.is-open .burger-1 { transform: translateY(3px) rotate(45deg); }
+.burger.is-open .burger-2 { transform: translateY(-3px) rotate(-45deg); }
+
+@media (prefers-reduced-motion: reduce) {
+  .mm, .mm-item, .burger path { transition-duration: .01s; transition-delay: 0s; }
+}
+
+/* curriculum chapter reached from a link */
+.phase-flash { animation: phaseFlash 2.2s var(--ease) both; }
+@keyframes phaseFlash { 0%, 55% { background: var(--accent-soft); } 100% { background: transparent; } }
+
+/* ===== Mermaid diagrams (rendered client-side, like GitHub) ===== */
+.mermaid-fig { margin: 2.4rem 0; padding: 1.6rem 0; border-block: 1px solid var(--rule); overflow-x: auto; }
+.prose .mermaid-fig pre.mermaid, .mermaid-fig pre.mermaid {
+  display: flex; justify-content: center; margin: 0; padding: 0 !important; background: transparent !important; border: 0 !important;
+  white-space: pre; font: 500 12px/1.5 'JetBrains Mono', ui-monospace, monospace; color: var(--ink-3) !important; overflow: visible !important;
+}
+.mermaid-fig pre.mermaid:not(.is-rendered):not(.is-failed) { font-size: 0; min-height: 150px; align-items: center; }
+.mermaid-fig pre.mermaid:not(.is-rendered):not(.is-failed)::after { content: "Rendering diagram…"; font: 500 11px/1 'JetBrains Mono', ui-monospace, monospace; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); }
+.mermaid-fig pre.mermaid.is-rendered { white-space: normal; }
+.mermaid-fig pre.mermaid svg { max-width: 100%; height: auto; }
+.mermaid-fig pre.mermaid.is-failed { justify-content: flex-start; overflow-x: auto !important; }
+/* Typography inside diagrams must not change the text metrics Mermaid measured with. */
+.mermaid-fig .nodeLabel p, .mermaid-fig .edgeLabel p, .mermaid-fig .label p, .mermaid-fig foreignObject p { margin: 0 !important; line-height: 1.5 !important; }
+.mermaid-fig foreignObject b, .mermaid-fig foreignObject strong { font-weight: 700; color: inherit; }
+.mermaid-fig .edgeLabel, .mermaid-fig .edgeLabel p { background: var(--paper) !important; color: var(--ink-2) !important; }
+.mermaid-fig .node rect, .mermaid-fig .node polygon, .mermaid-fig .node path, .mermaid-fig .node circle { rx: 10; ry: 10; }

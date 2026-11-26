@@ -66,35 +66,24 @@ The mathematical guarantees established in this derivation demonstrate that unde
 
 To translate the theoretical principles into a scalable engineering system, the authors construct a modular pipeline engineered for massive distributed parallelism across accelerator clusters.
 
-```text
-+-------------------------------------------------------------------------+
-|                  AUTONOMOUS AGENT ORCHESTRATION PIPELINE                |
-+-------------------------------------------------------------------------+
-       |                                                                 
-       v                                                                 
- [ Environment ] ---> [ Multi-Modal State Observation o_t ]              
-       ^                                    |                            
-       |                                    v                            
-       |                  +----------------------------------+           
-       |                  | Episodic & Semantic Memory Store |           
-       |                  +----------------------------------+           
-       |                                    |                            
-       |                                    v                            
-       |     +-----------------------------------------------------+     
-       |     |   Planning & Decomposition Module (LLM / Reasoner)  |     
-       |     +-----------------------------------------------------+     
-       |                                    |                            
-       |           +------------------------+------------------------+   
-       |           |                                                 |   
-       |           v                                                 v   
-       |    [ Tool Selection Head ]                           [ Self-Critic ]
-       |           |                                                 |   
-       |           v                                                 v   
-       |    [ Tool Execution Call ] <------- [ Verification Passed? ]+   
-       |           |                                    | (No: Re-plan)  
-       |           v                                    v                
-       +---- [ Action a_t ] <---------------+ [ Reflection State Update ]
-+-------------------------------------------------------------------------+
+```mermaid
+flowchart TD
+    T(["AUTONOMOUS AGENT ORCHESTRATION PIPELINE"]):::title
+    ENV(["Environment"]):::io --> OBS(["Multi-Modal State Observation o_t"])
+    OBS --> MEM["Episodic #amp; Semantic Memory Store"]
+    MEM --> PLAN["Planning #amp; Decomposition Module (LLM / Reasoner)"]
+    PLAN --> SEL(["Tool Selection Head"])
+    PLAN --> CRIT(["Self-Critic"])
+    SEL --> EXE["Tool Execution Call"]
+    CRIT --> VER{"Verification Passed?"}
+    VER -- Yes --> EXE
+    VER -- "No: re-plan" --> REF["Reflection State Update"]
+    EXE --> ACT(["Action a_t"])
+    REF --> ACT
+    ACT --> ENV
+    T ~~~ ENV
+    classDef title fill:transparent,stroke:transparent,font-weight:700;
+    classDef io fill:transparent,stroke-dasharray:4 3;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

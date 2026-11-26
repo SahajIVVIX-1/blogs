@@ -45,34 +45,22 @@ The goal of this guide is to deliver an exhaustive, first-principles exploration
 
 The operational topology, tensor dataflow, and execution lifecycle of **ScaNN (Scalable Nearest Neighbors)** are detailed in the schematic below:
 
-```text
-  +-------------------------------------------------------------------------+
-  |               SYSTEM ARCHITECTURE: SCANN (SCALABLE NEAREST NEIGHBORS) |
-  +-------------------------------------------------------------------------+
-                                       |
-                [Input Tensors / State Vectors / Action Space]
-                                       |
-        +------------------------------+------------------------------+
-        |                                                             |
-        v                                                             v
-  [Forward Transformation & Projections]                        [Memory & State Management]
-  - High-Dimensional Subspace Mapping                           - Continuous Paged Buffers / KV Cache
-  - Residual Connections & Normalization                        - Zero-Copy Sharding Across Ranks
-  - Attention Masking & Boundary Routing                        - Bounded Latency & Active Context
-        |                                                             |
-        +------------------------------+------------------------------+
-                                       |
-                                       v
-                    [Execution Pipeline & Distributed Kernels]
-                    - Flash Attention / Fused GEMM Operations
-                    - Memory-Bandwidth-Bound vs Compute-Bound Balancing
-                    - Asymptotic Complexity: O(n log n) or O(n)
-                                       |
-                                       v
-                     [Empirical Output & Production Serving]
-                     - Deterministic Decoding & Stopping Criteria
-                     - Latency Profiling & Memory Footprint Verification
-                     - Resilient Fault Recovery & Health Checks
+```mermaid
+flowchart TD
+    T(["SYSTEM ARCHITECTURE: SCANN (SCALABLE NEAREST NEIGHBORS)"]):::title
+    I(["Input Tensors / State Vectors / Action Space"]):::io
+    L["<b>Forward Transformation #amp; Projections</b><br/>• High-Dimensional Subspace Mapping<br/>• Residual Connections #amp; Normalization<br/>• Attention Masking #amp; Boundary Routing"]
+    R["<b>Memory #amp; State Management</b><br/>• Continuous Paged Buffers / KV Cache<br/>• Zero-Copy Sharding Across Ranks<br/>• Bounded Latency #amp; Active Context"]
+    E["<b>Execution Pipeline #amp; Distributed Kernels</b><br/>• Flash Attention / Fused GEMM Operations<br/>• Memory-Bandwidth-Bound vs Compute-Bound Balancing<br/>• Asymptotic Complexity: O(n log n) or O(n)"]
+    O["<b>Empirical Output #amp; Production Serving</b><br/>• Deterministic Decoding #amp; Stopping Criteria<br/>• Latency Profiling #amp; Memory Footprint Verification<br/>• Resilient Fault Recovery #amp; Health Checks"]
+    T ~~~ I
+    I --> L
+    I --> R
+    L --> E
+    R --> E
+    E --> O
+    classDef title fill:transparent,stroke:transparent,font-weight:700;
+    classDef io fill:transparent,stroke-dasharray:4 3;
 ```
 
 This topology illustrates how abstract mathematical representations translate directly onto modern accelerator hardware (GPUs/TPUs), minimizing inter-node communication latency and memory bandwidth stalls.

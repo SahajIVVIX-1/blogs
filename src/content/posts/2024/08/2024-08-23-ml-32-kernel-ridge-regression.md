@@ -49,34 +49,22 @@ The goal of this study guide is to deliver an exhaustive, first-principles explo
 
 The structural geometry, functional mappings, and algorithmic pipeline of **Kernel Ridge Regression** are detailed in the schematic below:
 
-```text
-  +-------------------------------------------------------------------------+
-  |                   ALGORITHMIC TOPOLOGY: KERNEL RIDGE REGRESSION       |
-  +-------------------------------------------------------------------------+
-                                       |
-                 [Input Feature Matrix: X ∈ R^{n × d}, Labels: y ∈ Y]
-                                       |
-        +------------------------------+------------------------------+
-        |                                                             |
-        v                                                             v
-  [Feature Mapping / Space Geometry]                            [Loss Formulation]
-  - Subspace Projection / Kernel Space                          - Objective: L(w; X, y)
-  - Orthonormal Coordinates & Basis                             - Regularization Penalty R(w)
-  - Geometric Decision Boundaries                               - Convex Convexity Bounds
-        |                                                             |
-        +------------------------------+------------------------------+
-                                       |
-                                       v
-                    [Optimization & Analytical Solution]
-                    - Gradient: ∇_w L(w) = 0
-                    - Hessian Curvature: H = ∇^2 L(w) ≻ 0
-                    - Iterative Updates: w_{t+1} = w_t - η · H^{-1} ∇L
-                                       |
-                                       v
-                     [Empirical Generalization & Inference]
-                     - Out-of-Sample Risk R_emp(f)
-                     - Variance-Bias Frontier Calibration
-                     - High-Throughput Production Serving
+```mermaid
+flowchart TD
+    T(["ALGORITHMIC TOPOLOGY: KERNEL RIDGE REGRESSION"]):::title
+    I(["Input Feature Matrix: X ∈ R^{n × d}, Labels: y ∈ Y"]):::io
+    L["<b>Feature Mapping / Space Geometry</b><br/>• Subspace Projection / Kernel Space<br/>• Orthonormal Coordinates #amp; Basis<br/>• Geometric Decision Boundaries"]
+    R["<b>Loss Formulation</b><br/>• Objective: L(w; X, y)<br/>• Regularization Penalty R(w)<br/>• Convex Convexity Bounds"]
+    E["<b>Optimization #amp; Analytical Solution</b><br/>• Gradient: ∇_w L(w) = 0<br/>• Hessian Curvature: H = ∇^2 L(w) ≻ 0<br/>• Iterative Updates: w_{t+1} = w_t - η · H^{-1} ∇L"]
+    O["<b>Empirical Generalization #amp; Inference</b><br/>• Out-of-Sample Risk R_emp(f)<br/>• Variance-Bias Frontier Calibration<br/>• High-Throughput Production Serving"]
+    T ~~~ I
+    I --> L
+    I --> R
+    L --> E
+    R --> E
+    E --> O
+    classDef title fill:transparent,stroke:transparent,font-weight:700;
+    classDef io fill:transparent,stroke-dasharray:4 3;
 ```
 
 This operational diagram illustrates how high-dimensional feature points are transformed, regularized, and mapped to objective losses to achieve minimal out-of-sample generalization error.

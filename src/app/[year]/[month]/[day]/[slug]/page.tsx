@@ -17,6 +17,7 @@ import {
 } from '@/lib/posts';
 import { markdownToHtml } from '@/lib/markdown';
 import PaperCard from '@/components/PaperCard';
+import MermaidRender from '@/components/MermaidRender';
 import { Icon, Chip, CATEGORY_ICON_NAME } from '@/components/ui';
 import ReadingProgressBar from '@/components/ReadingProgressBar';
 
@@ -92,6 +93,7 @@ export default async function PostDetailPage({ params }: PageProps) {
   return (
     <article className="mx-auto max-w-[1120px]" data-pagefind-body data-blog-no={formatBlogNo(post.number)}>
       <ReadingProgressBar />
+      <MermaidRender />
       {/* Breadcrumb */}
       <nav aria-label="Breadcrumb" className="mb-8 flex flex-wrap items-center gap-2 font-mono text-[11.5px] uppercase tracking-wider text-ink-muted">
         <Link href="/" className="tok-link">Home</Link>

@@ -71,46 +71,23 @@ The mathematical guarantees established in this derivation demonstrate that unde
 
 To translate the theoretical principles into a scalable engineering system, the authors construct a modular pipeline engineered for massive distributed parallelism across accelerator clusters.
 
-```text
-+-------------------------------------------------------------------------+
-|                  LATENT FLOW MATCHING & SYNTHESIS PIPELINE              |
-+-------------------------------------------------------------------------+
-                                                                         
- [ Gaussian Noise x_1 ~ N(0, I) ]             [ Prompt / Condition c ]   
-               |                                         |               
-               v                                         v               
-    +----------------------+                   +-------------------+     
-    |  Timestep Embedding  |                   | Cross-Attention   |     
-    |      t in [0, 1]     |                   | Text Encoder Head |     
-    +----------------------+                   +-------------------+     
-               |                                         |               
-               +--------------------+--------------------+               
-                                    |                                    
-                                    v                                    
-                     +-----------------------------+                     
-                     | Latent Vector Field Network |                     
-                     |   v_theta(x_t, t, c)        |                     
-                     +-----------------------------+                     
-                                    |                                    
-                                    v                                    
-            [ Velocity Vector Prediction: dx_t / dt ]                    
-                                    |                                    
-                     +-----------------------------+                     
-                     | Numerical ODE Solver Step   |                     
-                     |  x_{t - dt} = x_t - v * dt  |                     
-                     +-----------------------------+                     
-                                    |  (Iterate N Steps)                 
-                                    v                                    
-                   [ Synthesized Latent State x_0 ]                      
-                                    |                                    
-                                    v                                    
-                   +---------------------------------+                   
-                   | Variational Autoencoder Decoder |                   
-                   +---------------------------------+                   
-                                    |                                    
-                                    v                                    
-                       [ High-Fidelity Output Image ]                    
-+-------------------------------------------------------------------------+
+```mermaid
+flowchart TD
+    T(["LATENT FLOW MATCHING #amp; SYNTHESIS PIPELINE"]):::title
+    N(["Gaussian Noise x_1 ~ N(0, I)"]):::io --> TE["<b>Timestep Embedding</b><br/>t in [0, 1]"]
+    C(["Prompt / Condition c"]):::io --> CA["<b>Cross-Attention</b><br/>Text Encoder Head"]
+    TE --> VF["<b>Latent Vector Field Network</b><br/>v_theta(x_t, t, c)"]
+    CA --> VF
+    VF --> VP(["Velocity Vector Prediction: dx_t / dt"])
+    VP --> ODE["<b>Numerical ODE Solver Step</b><br/>x_{t - dt} = x_t - v * dt"]
+    ODE -- "iterate N steps" --> VF
+    ODE --> Z(["Synthesized Latent State x_0"])
+    Z --> D["Variational Autoencoder Decoder"]
+    D --> OUT(["High-Fidelity Output Image"]):::io
+    T ~~~ N
+    T ~~~ C
+    classDef title fill:transparent,stroke:transparent,font-weight:700;
+    classDef io fill:transparent,stroke-dasharray:4 3;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

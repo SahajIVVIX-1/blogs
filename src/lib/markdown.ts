@@ -59,6 +59,7 @@ function rehypeShikiPlugin(highlighter: Highlighter) {
             const langClass = className.find((c) => c.startsWith('language-'));
             let lang = langClass ? langClass.replace('language-', '').toLowerCase() : 'text';
 
+            const isMermaid = lang === 'mermaid';
             if (!LOADED_LANGS.has(lang)) {
               lang = 'text';
             }
@@ -71,6 +72,16 @@ function rehypeShikiPlugin(highlighter: Highlighter) {
             }
             codeEl.children.forEach(extractText);
             rawCode = rawCode.replace(/\n$/, '');
+
+            // ```mermaid: emit a <pre class="mermaid"> that the client renders as a diagram (like GitHub)
+            if (isMermaid) {
+              const escaped = rawCode.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+              node.children[i] = {
+                type: 'raw',
+                value: `<figure class="mermaid-fig" data-pagefind-ignore><pre class="mermaid">${escaped}</pre></figure>`,
+              };
+              continue;
+            }
 
             try {
               const highlightedHtml = highlighter.codeToHtml(rawCode, {

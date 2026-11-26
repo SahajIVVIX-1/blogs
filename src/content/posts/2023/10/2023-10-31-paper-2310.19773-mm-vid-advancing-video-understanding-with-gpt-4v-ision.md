@@ -75,47 +75,22 @@ The mathematical guarantees established in this derivation demonstrate that unde
 
 To translate the theoretical principles into a scalable engineering system, the authors construct a modular pipeline engineered for massive distributed parallelism across accelerator clusters.
 
-```text
-+-------------------------------------------------------------------------+
-|                  MULTIMODAL VISION-LANGUAGE ARCHITECTURE                |
-+-------------------------------------------------------------------------+
-                                                                         
- [ Input Image I ]                               [ User Text Query T ]   
-        |                                                  |             
-        v                                                  v             
- +-------------------+                            +------------------+   
- | Vision Transformer|                            | Word & Position  |   
- | Encoder (ViT-H/14)|                            | Token Embeddings |   
- +-------------------+                            +------------------+   
-        |                                                  |             
-        v                                                  |             
- [ Patch Tokens Z_v ]                                      |             
-        |                                                  |             
-        v                                                  |             
- +----------------------------------+                      |             
- | Multi-Layer Projection Adapter g |                      |             
- +----------------------------------+                      |             
-        |                                                  |             
-        v                                                  |             
- [ Aligned Visual Tokens H_v ]                             |             
-        |                                                  |             
-        +------------------------+-------------------------+             
-                                 |                                       
-                                 v                                       
-                 +-------------------------------+                       
-                 | Interleaved Multimodal Context|                       
-                 |     [ H_v || E(T) ]           |                       
-                 +-------------------------------+                       
-                                 |                                       
-                                 v                                       
-                 +-------------------------------+                       
-                 | Autoregressive LLM Backbone   |                       
-                 | (RoPE, GQA, SwiGLU Attention) |                       
-                 +-------------------------------+                       
-                                 |                                       
-                                 v                                       
-                    [ Grounded Textual Response ]                        
-+-------------------------------------------------------------------------+
+```mermaid
+flowchart TD
+    T(["MULTIMODAL VISION-LANGUAGE ARCHITECTURE"]):::title
+    IMG(["Input Image I"]):::io --> VIT["<b>Vision Transformer</b><br/>Encoder (ViT-H/14)"]
+    TXT(["User Text Query T"]):::io --> TOK["<b>Word #amp; Position</b><br/>Token Embeddings"]
+    VIT --> PT(["Patch Tokens Z_v"])
+    PT --> ADP["Multi-Layer Projection Adapter g"]
+    ADP --> HV(["Aligned Visual Tokens H_v"])
+    HV --> CTX["<b>Interleaved Multimodal Context</b><br/>[ H_v || E(T) ]"]
+    TOK --> CTX
+    CTX --> LLM["<b>Autoregressive LLM Backbone</b><br/>(RoPE, GQA, SwiGLU Attention)"]
+    LLM --> RESP(["Grounded Textual Response"]):::io
+    T ~~~ IMG
+    T ~~~ TXT
+    classDef title fill:transparent,stroke:transparent,font-weight:700;
+    classDef io fill:transparent,stroke-dasharray:4 3;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.
