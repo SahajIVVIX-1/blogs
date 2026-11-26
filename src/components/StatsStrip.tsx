@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import { Icon, type IconName } from '@/components/ui';
 
 interface StatsProps {
   stats: {
@@ -15,35 +16,29 @@ interface StatsProps {
 }
 
 export default function StatsStrip({ stats }: StatsProps) {
-  const items = [
-    { label: 'Total Articles', value: stats.total.toLocaleString(), href: '/archive/', icon: '📚', color: 'emerald' },
-    { label: 'Active Days', value: stats.days.toLocaleString(), href: '/archive/', icon: '🗓️', color: 'blue' },
-    { label: 'Study Modules', value: stats.study.toLocaleString(), href: '/study/', icon: '🧠', color: 'indigo' },
-    { label: 'Research Papers', value: stats.papers.toLocaleString(), href: '/papers/', icon: '📄', color: 'teal' },
-    { label: 'AI Updates', value: stats.ai.toLocaleString(), href: '/ai/', icon: '⚡', color: 'purple' },
+  const items: { label: string; value: string; href: string; icon: IconName }[] = [
+    { label: 'Articles', value: stats.total.toLocaleString(), href: '/archive/', icon: 'layers' },
+    { label: 'Active days', value: stats.days.toLocaleString(), href: '/archive/', icon: 'calendar' },
+    { label: 'Study modules', value: stats.study.toLocaleString(), href: '/study/', icon: 'book' },
+    { label: 'Research papers', value: stats.papers.toLocaleString(), href: '/papers/', icon: 'paper' },
+    { label: 'AI updates', value: stats.ai.toLocaleString(), href: '/ai/', icon: 'bolt' },
     ...(stats.personal
-      ? [{ label: 'Personal & Mindset', value: stats.personal.toLocaleString(), href: '/personal/', icon: '🌱', color: 'amber' }]
+      ? [{ label: 'Mindset essays', value: stats.personal.toLocaleString(), href: '/personal/', icon: 'leaf' as IconName }]
       : []),
   ];
 
   return (
-    <div className={`grid grid-cols-2 gap-3 sm:grid-cols-3 ${items.length === 6 ? 'lg:grid-cols-6' : 'lg:grid-cols-5'}`}>
+    <div className="stats" style={{ ['--cols' as string]: items.length }}>
       {items.map((item) => (
-        <Link
-          key={item.label}
-          href={item.href}
-          className="group relative overflow-hidden rounded-xl border border-border/80 bg-surface/70 p-4 backdrop-blur-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-emerald-500/40 hover:bg-surface hover:shadow-lg hover:shadow-emerald-500/5"
-        >
-          <div className="flex items-center justify-between text-xs font-medium text-ink-muted">
-            <span className="truncate">{item.label}</span>
-            <span className="text-base select-none">{item.icon}</span>
+        <Link key={item.label} href={item.href} className="stat" prefetch={false}>
+          <div className="stat-top">
+            <span className="stat-label">{item.label}</span>
+            <Icon name={item.icon} size={16} />
           </div>
-          <div className="mt-2 font-serif text-2xl tracking-tight text-ink group-hover:text-emerald-400 transition-colors">
-            {item.value}
-          </div>
+          <div className="stat-val">{item.value}</div>
+          <Icon name="up" size={16} className="stat-arrow absolute right-4 bottom-4" />
         </Link>
       ))}
     </div>
   );
 }
-

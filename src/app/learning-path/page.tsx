@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import { allPosts, phaseProgress, postUrl, fmtDate } from '@/lib/posts';
+import { PageHeader, Icon, Chip } from '@/components/ui';
 
 export const metadata: Metadata = {
   title: 'Curriculum Roadmap',
@@ -16,129 +17,82 @@ export default function LearningPathPage() {
   const overallPct = Math.min(100, Math.round((totalDone / Math.max(1, total)) * 100));
 
   return (
-    <div className="space-y-10">
-      {/* Hero Header */}
-      <section className="space-y-4">
-        <div className="inline-flex items-center gap-1.5 rounded-full border border-indigo-500/30 bg-indigo-500/10 px-3 py-1 text-xs font-semibold text-indigo-400">
-          <span>🗺️</span>
-          <span>15-Phase Master Curriculum</span>
-        </div>
-        <h1 className="text-3xl sm:text-5xl tracking-tight text-ink">
-          Learning path &amp; technical <em>roadmap</em>
-        </h1>
-        <p className="max-w-3xl text-sm leading-relaxed text-ink-muted sm:text-base">
-          A rigorous sequence of 15 curriculum tracks covering software engineering, statistics, classical machine learning, deep neural networks, computer vision, transformers, LLMs, and agentic workflows.
-        </p>
+    <div>
+      <PageHeader
+        eyebrow="15-phase master curriculum"
+        title={<>Learning path &amp; technical <em>roadmap</em></>}
+        lede="A rigorous sequence of 15 curriculum tracks covering software engineering, statistics, classical machine learning, deep neural networks, computer vision, transformers, LLMs and agentic workflows."
+      />
 
-        {/* Overall Progress Meter */}
-        <div className="mt-6 max-w-xl rounded-xl border border-border bg-surface p-5 shadow-sm">
-          <div className="flex items-center justify-between text-sm font-bold text-ink">
-            <span>Overall Curriculum Progress</span>
-            <span className="text-emerald-400 font-mono">{totalDone} / {total} Topics ({overallPct}%)</span>
-          </div>
-          <div className="mt-3 h-2.5 w-full overflow-hidden rounded-full bg-border">
-            <div
-              className="h-full rounded-full bg-gradient-to-r from-emerald-500 to-teal-400 transition-all duration-500"
-              style={{ width: `${overallPct}%` }}
-            />
-          </div>
-          <p className="mt-3 text-xs text-ink-muted">
-            From 4 August 2023 to today. Study guides are published continuously following verified academic curricula.
-          </p>
+      {/* Overall progress */}
+      <div className="mb-16 max-w-3xl">
+        <div className="flex flex-wrap items-baseline justify-between gap-2">
+          <p className="eyebrow">Overall progress</p>
+          <p className="font-mono text-sm text-ink"><b className="font-medium text-accent">{totalDone.toLocaleString()}</b> / {total.toLocaleString()} topics &middot; {overallPct}%</p>
         </div>
-      </section>
+        <div className="bar mt-4" style={{ height: 3 }}><i style={{ width: `${overallPct}%` }} /></div>
+        <p className="mt-3 text-sm text-ink-muted">From 4 August 2023 to today. Guides are published continuously following verified academic curricula.</p>
+      </div>
 
-      {/* Detailed Phase Roadmap */}
-      <section className="space-y-6">
+      {/* Phases */}
+      <div className="border-t border-border">
         {phases.map((ph) => {
           const pct = Math.min(100, Math.round((ph.done / Math.max(1, ph.total)) * 100));
           const isComplete = pct === 100;
 
           return (
-            <div
-              key={ph.n}
-              id={`phase-${ph.n}`}
-              className="rounded-xl border border-border bg-surface p-6 shadow-sm transition-all hover:border-emerald-500/30"
-            >
-              <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-4">
+            <section key={ph.n} id={`phase-${ph.n}`} className="border-b border-border py-8 sm:py-10">
+              <div className="grid gap-6 md:grid-cols-[4rem_minmax(0,1fr)_minmax(220px,320px)] md:gap-10">
+                <span className="pt-2 font-mono text-xs tracking-wider text-ink-muted">{String(ph.n).padStart(2, '0')}</span>
                 <div>
-                  <div className="flex items-center gap-2 text-xs">
-                    <span className="rounded-md border border-indigo-500/30 bg-indigo-500/10 px-2 py-0.5 font-semibold text-indigo-400">
-                      Phase {ph.n}
-                    </span>
-                    <span className="text-ink-muted">{fmtDate(ph.from)} – {fmtDate(ph.to)}</span>
+                  <h2 className="text-[clamp(1.5rem,2.6vw,2.2rem)] leading-tight">{ph.name}</h2>
+                  <p className="mt-2 font-mono text-[11.5px] text-ink-muted">Phase {ph.n} &middot; {fmtDate(ph.from)} &ndash; {fmtDate(ph.to)}</p>
+                </div>
+                <div>
+                  <div className="bar"><i style={{ width: `${pct}%` }} /></div>
+                  <div className="bar-meta">
+                    <span>{ph.done} / {ph.total} guides</span>
+                    <b className="inline-flex items-center gap-1.5">{isComplete && <Icon name="check" size={12} />}{isComplete ? 'Completed' : `${pct}%`}</b>
                   </div>
-                  <h2 className="mt-2 text-xl sm:text-2xl text-ink">
-                    {ph.name}
-                  </h2>
-                </div>
-                <div className="sm:text-right">
-                  <div className="font-mono text-sm font-bold text-emerald-400">{ph.done} / {ph.total} guides</div>
-                  <div className="text-xs text-ink-muted">{isComplete ? '✓ Completed' : `${pct}% completed`}</div>
                 </div>
               </div>
 
-              {/* Progress Bar */}
-              <div className="my-4 h-1.5 w-full overflow-hidden rounded-full bg-border">
-                <div
-                  className="h-full rounded-full bg-emerald-500 transition-all duration-500"
-                  style={{ width: `${pct}%` }}
-                />
-              </div>
-
-              {/* Topics List Details Accordion */}
-              <details
-                open={ph.n >= 11}
-                className="group mt-4 rounded-lg border border-border bg-canvas/70 p-4 transition-colors"
-              >
-                <summary className="cursor-pointer font-medium text-xs text-ink-muted hover:text-ink select-none flex items-center justify-between">
-                  <span>View Curriculum Topics ({ph.topics.length}) & Published Guides ({ph.posts.length})</span>
-                  <span className="text-xs group-open:rotate-180 transition-transform">▼</span>
+              <details open={ph.n >= 11} className="group mt-6 md:ml-[calc(4rem+2.5rem)]">
+                <summary className="btn btn-ghost btn-sm inline-flex list-none select-none [&::-webkit-details-marker]:hidden">
+                  <span>Topics ({ph.topics.length}) &middot; Guides ({ph.posts.length})</span>
+                  <Icon name="chevron" size={14} className="transition-transform group-open:rotate-180" />
                 </summary>
 
-                <div className="mt-4 grid grid-cols-1 gap-2 pt-2 border-t border-border/50">
+                <ol className="mt-5">
                   {ph.topics.map((topic, idx) => {
                     const stepNum = idx + 1;
                     const post = ph.posts.find((p) => p.data.step === stepNum);
-
                     return (
-                      <div
-                        key={idx}
-                        className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 rounded-lg border border-border/70 bg-surface/80 px-3.5 py-2 text-xs transition-colors hover:border-emerald-500/40"
-                      >
-                        <div className="flex items-center gap-2.5">
-                          <span className="font-mono text-ink-muted w-7 text-right">#{String(stepNum).padStart(2, '0')}</span>
+                      <li key={idx} className="flex flex-col gap-1 border-t border-border/60 py-3 sm:flex-row sm:items-center sm:justify-between sm:gap-6">
+                        <div className="flex items-baseline gap-4">
+                          <span className="w-8 shrink-0 font-mono text-[11.5px] text-ink-muted">{String(stepNum).padStart(2, '0')}</span>
                           {post ? (
-                            <Link href={postUrl(post)} prefetch={false} className="font-medium text-ink hover:text-emerald-400">
-                              {topic}
-                            </Link>
+                            <Link href={postUrl(post)} prefetch={false} className="tok-link text-[15px] text-ink">{topic}</Link>
                           ) : (
-                            <span className="text-ink-muted">{topic}</span>
+                            <span className="text-[15px] text-ink-muted">{topic}</span>
                           )}
                         </div>
-
-                        <div>
+                        <div className="pl-12 sm:pl-0">
                           {post ? (
-                            <Link
-                              href={postUrl(post)}
-                              prefetch={false}
-                              className="font-medium text-emerald-400 hover:underline"
-                            >
-                              Read Guide →
-                            </Link>
+                            <Link href={postUrl(post)} prefetch={false} className="lnk">Read guide<Icon name="arrow" size={11} /></Link>
                           ) : (
-                            <span className="rounded bg-subtle px-1.5 py-0.5 text-[10px] text-ink-muted">In Progress</span>
+                            <Chip>In progress</Chip>
                           )}
                         </div>
-                      </div>
+                      </li>
                     );
                   })}
-                </div>
+                </ol>
               </details>
-            </div>
+            </section>
           );
         })}
-      </section>
+      </div>
     </div>
   );
 }

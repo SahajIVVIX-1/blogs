@@ -2,6 +2,7 @@
 
 import React, { useState, useMemo } from 'react';
 import Link from 'next/link';
+import { Icon, Chip } from '@/components/ui';
 
 interface PersonalPostSummary {
   id: string;
@@ -87,181 +88,99 @@ export default function PersonalClient({ posts }: PersonalClientProps) {
 
   return (
     <div className="space-y-8">
-      {/* Subtopic Filter Bar */}
-      <div className="flex flex-wrap items-center gap-2">
-        {SUBTOPICS.map((topic) => {
-          const isActive = activeTopic === topic.id;
-          return (
-            <button
-              key={topic.id}
-              onClick={() => handleTopicChange(topic.id)}
-              className={`inline-flex items-center gap-1.5 rounded-xl px-3.5 py-2 text-xs font-medium transition-all ${
-                isActive
-                  ? 'border border-amber-500/50 bg-amber-500/15 text-amber-300 shadow-sm shadow-amber-500/10'
-                  : 'border border-border/80 bg-surface/70 text-ink-muted hover:border-amber-500/30 hover:bg-surface hover:text-ink'
-              }`}
-            >
-              <span>{topic.icon}</span>
-              <span>{topic.label}</span>
-            </button>
-          );
-        })}
+      {/* Subtopic filter */}
+      <div className="tabs" style={{ marginBottom: 0 }}>
+        {SUBTOPICS.map((topic) => (
+          <button
+            key={topic.id}
+            onClick={() => handleTopicChange(topic.id)}
+            className={`tab${activeTopic === topic.id ? ' is-on' : ''}`}
+            aria-pressed={activeTopic === topic.id}
+          >
+            {topic.label}
+          </button>
+        ))}
       </div>
 
-      {/* Search and Results Count */}
-      <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-4 rounded-xl border border-border/80 bg-surface/50 p-3 sm:p-4 backdrop-blur-sm">
-        <div className="relative flex-1">
+      {/* Search and results count */}
+      <div className="flex flex-col items-stretch justify-between gap-4 sm:flex-row sm:items-center">
+        <div className="relative flex-1 sm:max-w-xl">
+          <span className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-ink-muted"><Icon name="search" size={15} /></span>
           <input
             type="text"
             value={searchQuery}
             onChange={handleSearchChange}
-            placeholder="Search mindset essays, mental models, focus rituals..."
-            className="w-full rounded-lg border border-border bg-canvas/80 px-3.5 py-2 pl-9 text-xs text-ink placeholder-ink-muted focus:border-amber-500/60 focus:outline-none focus:ring-1 focus:ring-amber-500/30"
+            placeholder="Search essays, mental models, focus rituals"
+            aria-label="Search essays"
+            className="h-11 w-full rounded-full border border-rule-2 bg-transparent pl-11 pr-10 text-[15px] text-ink placeholder-ink-muted outline-none transition-colors focus:border-accent"
           />
-          <span className="absolute left-3 top-2.5 text-xs text-ink-muted">🔍</span>
           {searchQuery && (
             <button
               onClick={() => { setSearchQuery(''); setCurrentPage(1); }}
-              className="absolute right-2.5 top-2 text-xs text-ink-muted hover:text-ink"
+              className="absolute right-3 top-1/2 -translate-y-1/2 text-ink-muted hover:text-ink"
+              aria-label="Clear search"
             >
-              ✕
+              &#10005;
             </button>
           )}
         </div>
-
-        <div className="flex items-center justify-between sm:justify-end gap-3 text-xs text-ink-muted">
-          <span>
-            Showing <strong className="text-amber-400 font-mono">{filteredPosts.length.toLocaleString()}</strong> of {posts.length.toLocaleString()} essays
-          </span>
-          <span className="hidden sm:inline text-border">|</span>
-          <span className="font-mono text-[11px]">
-            Page {validPage} of {totalPages}
-          </span>
-        </div>
+        <p className="font-mono text-[11.5px] uppercase tracking-wider text-ink-muted">
+          Showing <b className="font-medium text-accent">{filteredPosts.length.toLocaleString()}</b> of {posts.length.toLocaleString()} essays &middot; page {validPage}/{totalPages}
+        </p>
       </div>
 
-      {/* Grid of Essays */}
+      {/* Essays */}
       {paginatedPosts.length > 0 ? (
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="posts">
           {paginatedPosts.map((p) => (
-            <article
-              key={p.id}
-              className="group relative flex flex-col justify-between rounded-xl border border-border/80 bg-surface/70 p-5 backdrop-blur-sm transition-all duration-200 hover:-translate-y-0.5 hover:border-amber-500/40 hover:bg-surface hover:shadow-xl hover:shadow-amber-500/5"
-            >
+            <article key={p.id} className="post-row">
+              <div className="post-date">
+                {p.dateStr}
+                {p.number ? <span className="block text-ink-muted/70">#{String(p.number).padStart(4, '0')}</span> : null}
+              </div>
               <div>
-                <div className="flex flex-wrap items-center gap-2 text-xs">
-                  <span className="inline-flex items-center gap-1 rounded-md border border-amber-500/30 bg-amber-500/10 px-2 py-0.5 font-medium text-amber-400">
-                    🌱 Personal & Mindset
-                  </span>
-                  {p.number && (
-                    <span className="font-mono text-[11px] font-semibold text-amber-400 bg-amber-500/10 border border-amber-500/30 rounded px-1.5 py-0.5">
-                      #{String(p.number).padStart(4, '0')}
-                    </span>
-                  )}
-                  <span className="ml-auto text-[11px] font-mono text-ink-muted">{p.readingTime}</span>
-                </div>
-
-                <h3 className="mt-3 text-lg leading-snug text-ink group-hover:text-amber-400 transition-colors">
-                  <Link href={p.url} prefetch={false} className="after:absolute after:inset-0">
-                    {p.title}
-                  </Link>
+                <h3 className="post-title">
+                  <Link href={p.url} prefetch={false}>{p.title}</Link>
                 </h3>
-
-                {p.summary && (
-                  <p className="mt-2.5 line-clamp-3 text-xs leading-relaxed text-ink-muted">
-                    {p.summary}
-                  </p>
-                )}
-
-                {p.tags.length > 0 && (
-                  <div className="mt-3 flex flex-wrap gap-1.5">
-                    {p.tags.slice(0, 3).map((tag) => (
-                      <span
-                        key={tag}
-                        className="rounded border border-border/60 bg-canvas/60 px-1.5 py-0.5 text-[10px] text-ink-muted"
-                      >
-                        #{tag}
-                      </span>
-                    ))}
-                  </div>
-                )}
+                {p.summary && <p className="post-sum">{p.summary}</p>}
               </div>
-
-              <div className="mt-5 flex items-center justify-between border-t border-border/60 pt-3 text-xs text-ink-muted">
-                <span className="text-[11px] font-mono">{p.dateStr}</span>
-                <span className="font-semibold text-amber-400 group-hover:translate-x-0.5 transition-transform flex items-center gap-0.5 text-xs">
-                  Read Essay <span>→</span>
-                </span>
+              <div className="post-tags">
+                <Chip accent><Icon name="leaf" size={12} />Mindset</Chip>
+                {p.tags.slice(0, 2).map((tag) => <Chip key={tag}>#{tag}</Chip>)}
+                <Chip><Icon name="clock" size={12} />{p.readingTime}</Chip>
               </div>
+              <span className="post-go" aria-hidden="true"><Icon name="arrow" size={15} /></span>
             </article>
           ))}
         </div>
       ) : posts.length === 0 ? (
-        <div className="rounded-2xl border border-amber-500/20 bg-surface/80 p-10 text-center space-y-4">
-          <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-amber-500/10 border border-amber-500/30 text-2xl">
-            🌱
-          </div>
-          <h3 className="text-xl text-ink">Personal Essays Compendium Under Preparation</h3>
-          <p className="max-w-md mx-auto text-xs sm:text-sm text-ink-muted leading-relaxed">
-            Personal essays on deep work, stoic resilience, and mental models are currently being curated and will be published sequentially alongside the engineering handbooks.
+        <div className="border-y border-border py-16 text-center">
+          <p className="eyebrow justify-center">Coming soon</p>
+          <h3 className="mt-5 text-3xl">Essays under <em>preparation</em></h3>
+          <p className="mx-auto mt-4 max-w-md text-[15px] leading-relaxed text-ink-muted">
+            Personal essays on deep work, stoic resilience and mental models are being curated and will be published alongside the engineering handbooks.
           </p>
-          <div className="pt-2 flex flex-wrap justify-center gap-3">
-            <Link
-              href="/study/"
-              className="rounded-xl bg-emerald-500 px-4 py-2 text-xs font-bold text-slate-950 hover:bg-emerald-400 transition-colors"
-            >
-              Browse Study Guides →
-            </Link>
-            <Link
-              href="/papers/"
-              className="rounded-xl border border-border bg-surface px-4 py-2 text-xs font-semibold text-ink hover:border-emerald-500 hover:text-emerald-400 transition-colors"
-            >
-              Explore Research Papers →
-            </Link>
+          <div className="mt-8 flex flex-wrap justify-center gap-3">
+            <Link href="/study/" prefetch={false} className="btn btn-primary">Browse study guides <Icon name="arrow" size={14} /></Link>
+            <Link href="/papers/" prefetch={false} className="btn btn-ghost">Explore papers</Link>
           </div>
         </div>
       ) : (
-        <div className="rounded-xl border border-dashed border-border p-12 text-center text-xs text-ink-muted">
-          No essays found matching your criteria. Try resetting your search or topic filter.
+        <div className="border-y border-dashed border-border py-14 text-center text-[15px] text-ink-muted">
+          No essays match your search. Try resetting the search or topic filter.
         </div>
       )}
 
-      {/* Pagination Controls */}
+      {/* Pagination */}
       {totalPages > 1 && (
-        <div className="flex flex-wrap items-center justify-center gap-2 pt-6">
-          <button
-            onClick={() => goToPage(1)}
-            disabled={validPage === 1}
-            className="rounded-lg border border-border bg-surface px-2.5 py-1.5 text-xs font-medium text-ink-muted hover:text-ink disabled:opacity-40 disabled:hover:text-ink-muted"
-          >
-            « First
-          </button>
-          <button
-            onClick={() => goToPage(Math.max(1, validPage - 1))}
-            disabled={validPage === 1}
-            className="rounded-lg border border-border bg-surface px-3 py-1.5 text-xs font-medium text-ink-muted hover:text-ink disabled:opacity-40 disabled:hover:text-ink-muted"
-          >
-            ← Previous
-          </button>
-
-          <span className="px-3 text-xs font-mono text-ink-muted">
-            Page <strong className="text-amber-400">{validPage}</strong> / {totalPages}
+        <div className="flex flex-wrap items-center justify-center gap-2 pt-8">
+          <button onClick={() => goToPage(1)} disabled={validPage === 1} className="btn btn-ghost btn-sm disabled:opacity-40">First</button>
+          <button onClick={() => goToPage(Math.max(1, validPage - 1))} disabled={validPage === 1} className="btn btn-ghost btn-sm disabled:opacity-40">Previous</button>
+          <span className="px-3 font-mono text-xs text-ink-muted">
+            Page <b className="font-medium text-accent">{validPage}</b> / {totalPages}
           </span>
-
-          <button
-            onClick={() => goToPage(Math.min(totalPages, validPage + 1))}
-            disabled={validPage === totalPages}
-            className="rounded-lg border border-border bg-surface px-3 py-1.5 text-xs font-medium text-ink-muted hover:text-ink disabled:opacity-40 disabled:hover:text-ink-muted"
-          >
-            Next →
-          </button>
-          <button
-            onClick={() => goToPage(totalPages)}
-            disabled={validPage === totalPages}
-            className="rounded-lg border border-border bg-surface px-2.5 py-1.5 text-xs font-medium text-ink-muted hover:text-ink disabled:opacity-40 disabled:hover:text-ink-muted"
-          >
-            Last »
-          </button>
+          <button onClick={() => goToPage(Math.min(totalPages, validPage + 1))} disabled={validPage === totalPages} className="btn btn-ghost btn-sm disabled:opacity-40">Next</button>
+          <button onClick={() => goToPage(totalPages)} disabled={validPage === totalPages} className="btn btn-ghost btn-sm disabled:opacity-40">Last</button>
         </div>
       )}
     </div>

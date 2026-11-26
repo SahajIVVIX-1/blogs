@@ -1,12 +1,12 @@
 import React from 'react';
-import Link from 'next/link';
 import type { Metadata } from 'next';
 import { allPosts, phaseProgress } from '@/lib/posts';
 import PhaseGrid from '@/components/PhaseGrid';
 import PostList from '@/components/PostList';
+import { Btn, PageHeader, SectionHead } from '@/components/ui';
 
 export const metadata: Metadata = {
-  title: 'Study notes &amp; engineering <em>guides</em>',
+  title: 'Study Notes & Engineering Guides',
   description: 'In-depth, topic-by-topic learning guides organized sequentially from foundational programming and mathematics to modern Agentic AI.',
 };
 
@@ -16,43 +16,25 @@ export default function StudyPage() {
   const phases = phaseProgress(all);
 
   return (
-    <div className="space-y-12">
-      <section className="space-y-4">
-        <div className="inline-flex items-center gap-1.5 rounded-full border border-indigo-500/30 bg-indigo-500/10 px-3 py-1 text-xs font-semibold text-indigo-400">
-          <span>📚</span>
-          <span>Structured Curriculum Tracks</span>
-        </div>
-        <h1 className="text-3xl sm:text-5xl tracking-tight text-ink">
-          Study Notes & Engineering Guides
-        </h1>
-        <p className="max-w-3xl text-sm leading-relaxed text-ink-muted sm:text-base">
-          In-depth, topic-by-topic learning guides organized sequentially from foundational programming and mathematics to modern Agentic AI. Every study guide includes conceptual explanations, mathematical derivations, runnable code snippets, and verified outputs.
-        </p>
-        <div>
-          <Link
-            href="/learning-path/"
-            className="inline-block rounded-lg bg-emerald-500 px-4 py-2 text-sm font-semibold text-slate-950 transition-colors hover:bg-emerald-400"
-          >
-            View Vertical Learning Roadmap →
-          </Link>
-        </div>
-      </section>
+    <div>
+      <PageHeader
+        eyebrow="Structured curriculum tracks"
+        title={<>Study notes &amp; engineering <em>guides</em></>}
+        lede="In-depth, topic-by-topic guides organised sequentially from foundational programming and mathematics to modern agentic AI. Every guide includes conceptual explanations, derivations, runnable code and verified outputs."
+        actions={<Btn href="/learning-path/" icon="map">Vertical learning roadmap</Btn>}
+      />
 
-      {/* Phase Overview Grid */}
-      <section className="space-y-4">
-        <div>
-          <h2 className="text-2xl text-ink">Curriculum Tracks (15 Phases)</h2>
-          <p className="text-xs text-ink-muted">Click any track to explore its sequential lessons and topics.</p>
-        </div>
+      <section>
+        <SectionHead kicker="Tracks" title={<>Fifteen <em>phases</em></>} sub="Open any track to explore its sequential lessons and topics." />
         <PhaseGrid phases={phases} />
       </section>
 
-      {/* Guides Feed */}
-      <section className="space-y-6">
-        <div>
-          <h2 className="text-2xl text-ink">All Study Guides ({posts.length.toLocaleString()})</h2>
-          <p className="text-xs text-ink-muted">Chronological stream of technical study notes across all phases.</p>
-        </div>
+      <section className="section">
+        <SectionHead
+          kicker="All guides"
+          title={<>Every study <em>guide</em></>}
+          sub={`${posts.length.toLocaleString()} notes, newest first, across all phases.`}
+        />
         <PostList posts={posts} />
       </section>
     </div>

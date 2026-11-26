@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { allPosts } from '@/lib/posts';
 import PostList from '@/components/PostList';
+import { Btn, PageHeader } from '@/components/ui';
 
 interface TagPageProps {
   params: Promise<{
@@ -44,18 +45,13 @@ export default async function TagDetailPage({ params }: TagPageProps) {
   }
 
   return (
-    <div className="space-y-8">
-      <section className="space-y-2">
-        <div className="inline-flex items-center gap-1.5 rounded-full border border-border bg-surface px-3 py-1 text-xs font-semibold text-emerald-400">
-          <span>🏷️</span>
-          <span>Topic Filter</span>
-        </div>
-        <h1 className="text-3xl sm:text-4xl text-ink">#{decoded}</h1>
-        <p className="text-xs text-ink-muted">
-          Showing {posts.length} verified technical article{posts.length > 1 ? 's' : ''} tagged with #{decoded}.
-        </p>
-      </section>
-
+    <div>
+      <PageHeader
+        eyebrow="Topic filter"
+        title={<>#{decoded}</>}
+        lede={`${posts.length} verified technical article${posts.length > 1 ? 's' : ''} tagged with #${decoded}.`}
+        actions={<Btn href="/tags/" variant="ghost" icon="tag" trailing={null}>All tags</Btn>}
+      />
       <PostList posts={posts} />
     </div>
   );

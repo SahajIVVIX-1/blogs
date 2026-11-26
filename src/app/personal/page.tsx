@@ -2,9 +2,10 @@ import React from 'react';
 import type { Metadata } from 'next';
 import { allPosts, postUrl, fmtDate, readingTime } from '@/lib/posts';
 import PersonalClient from './PersonalClient';
+import { PageHeader } from '@/components/ui';
 
 export const metadata: Metadata = {
-  title: 'Personal &amp; <em>mindset</em> handbooks',
+  title: 'Personal & Mindset Handbooks',
   description: 'Reflections on deep work, stoic equanimity, first-principles thinking, compounding engineering habits, and maintaining intellectual vitality.',
 };
 
@@ -24,34 +25,23 @@ export default function PersonalPage() {
     }));
 
   return (
-    <div className="space-y-10">
-      {/* Editorial Header */}
-      <section className="space-y-4">
-        <div className="inline-flex items-center gap-1.5 rounded-full border border-amber-500/30 bg-amber-500/10 px-3 py-1 text-xs font-semibold text-amber-400">
-          <span>🌱</span>
-          <span>Essays on Mastery, Focus & Systems</span>
-        </div>
-        <h1 className="text-3xl sm:text-5xl tracking-tight text-ink">
-          Personal & Mindset Handbooks
-        </h1>
-        <p className="max-w-3xl text-sm leading-relaxed text-ink-muted sm:text-base">
-          A dedicated compendium of personal essays, cognitive frameworks, and motivational models. Covering deep work protocols, stoic resilience in engineering crises, mental models for rapid learning, habit systems, and maintaining clarity in an era of information overload.
-        </p>
+    <div>
+      <PageHeader
+        eyebrow="Essays on mastery, focus & systems"
+        title={<>Personal &amp; <em>mindset</em> handbooks</>}
+        lede="A compendium of personal essays, cognitive frameworks and motivational models: deep work protocols, stoic resilience in engineering crises, mental models for rapid learning, habit systems, and clarity in an era of information overload."
+      />
 
-        {/* Highlight Aphorism Banner */}
-        <div className="mt-4 rounded-xl border border-amber-500/20 bg-gradient-to-r from-amber-500/5 via-surface to-amber-500/5 p-4 sm:p-5">
-          <blockquote className="font-serif text-sm sm:text-base italic text-ink-muted">
-            &ldquo;You have power over your mind - not outside events. Realize this, and you will find strength. The happiness of your life depends upon the quality of your thoughts.&rdquo;
-          </blockquote>
-          <div className="mt-2 text-xs font-medium text-amber-400">
-            — Marcus Aurelius, <span className="italic">Meditations</span>
-          </div>
-        </div>
-      </section>
+      <figure className="mb-16 max-w-4xl border-l-2 border-accent pl-6 sm:pl-10">
+        <blockquote className="text-[clamp(1.4rem,2.6vw,2.2rem)] italic leading-snug text-ink" style={{ fontFamily: "'Instrument Serif', Georgia, serif" }}>
+          &ldquo;You have power over your mind &ndash; not outside events. Realize this, and you will find strength. The happiness of your life depends upon the quality of your thoughts.&rdquo;
+        </blockquote>
+        <figcaption className="mt-4 font-mono text-[11.5px] uppercase tracking-wider text-ink-muted">
+          Marcus Aurelius &middot; Meditations
+        </figcaption>
+      </figure>
 
-      {/* Interactive Client Post Grid */}
       <PersonalClient posts={posts} />
     </div>
   );
 }
-

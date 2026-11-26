@@ -13,11 +13,11 @@ import {
   readingTime,
   phases,
   CATEGORY_LABEL,
-  CATEGORY_ICON,
   type Post,
 } from '@/lib/posts';
 import { markdownToHtml } from '@/lib/markdown';
 import PaperCard from '@/components/PaperCard';
+import { Icon, Chip, CATEGORY_ICON_NAME } from '@/components/ui';
 import ReadingProgressBar from '@/components/ReadingProgressBar';
 
 interface PageProps {
@@ -89,85 +89,58 @@ export default async function PostDetailPage({ params }: PageProps) {
 
   const html = await markdownToHtml(post.body);
 
-  const getBadgeClass = (cat: string) => {
-    switch (cat) {
-      case 'study':
-        return 'border-indigo-500/30 bg-indigo-500/10 text-indigo-400';
-      case 'ai':
-        return 'border-purple-500/30 bg-purple-500/10 text-purple-400';
-      case 'papers':
-        return 'border-emerald-500/30 bg-emerald-500/10 text-emerald-400';
-      case 'projects':
-        return 'border-cyan-500/30 bg-cyan-500/10 text-cyan-400';
-      case 'personal':
-        return 'border-amber-500/30 bg-amber-500/10 text-amber-400';
-      default:
-        return 'border-border bg-subtle text-ink-muted';
-    }
-  };
-
   return (
     <article className="mx-auto max-w-[1120px]" data-pagefind-body data-blog-no={formatBlogNo(post.number)}>
       <ReadingProgressBar />
-      {/* Breadcrumb Navigation */}
-      <nav aria-label="Breadcrumb" className="mb-6 flex flex-wrap items-center gap-1.5 text-xs text-ink-muted">
-        <Link href="/" className="hover:text-ink">Home</Link>
-        <span>/</span>
+      {/* Breadcrumb */}
+      <nav aria-label="Breadcrumb" className="mb-8 flex flex-wrap items-center gap-2 font-mono text-[11.5px] uppercase tracking-wider text-ink-muted">
+        <Link href="/" className="tok-link">Home</Link>
+        <span aria-hidden="true">/</span>
         {phase ? (
           <>
-            <Link href="/study/" className="hover:text-ink">Study</Link>
-            <span>/</span>
-            <Link href={`/learning-path/#phase-${phase.n}`} className="hover:text-ink">
-              Phase {phase.n}: {phase.name}
-            </Link>
+            <Link href="/study/" className="tok-link">Study</Link>
+            <span aria-hidden="true">/</span>
+            <Link href={`/learning-path/#phase-${phase.n}`} className="tok-link">Phase {phase.n}</Link>
           </>
         ) : (
-          <Link href={`/${d.categories[0]}/`} className="hover:text-ink">
+          <Link href={`/${d.categories[0]}/`} className="tok-link">
             {CATEGORY_LABEL[d.categories[0]] ?? 'Archive'}
           </Link>
         )}
-        <span>/</span>
-        <span className="text-ink font-mono font-semibold">Blog #{formatBlogNo(post.number)}</span>
+        <span aria-hidden="true">/</span>
+        <span className="text-ink">#{formatBlogNo(post.number)}</span>
       </nav>
 
-      {/* Header Meta */}
-      <div className="mb-4 flex flex-wrap items-center gap-2 text-xs">
-        {post.number && (
-          <span className="inline-flex items-center gap-1 rounded-md border border-emerald-500/40 bg-emerald-500/10 px-2.5 py-0.5 font-mono text-xs font-bold text-emerald-400">
-            Blog #{formatBlogNo(post.number)}
-          </span>
-        )}
+      {/* Meta */}
+      <div className="mb-6 flex flex-wrap items-center gap-2">
+        {post.number && <Chip accent>Blog #{formatBlogNo(post.number)}</Chip>}
         {d.categories.map((c) => (
-          <span
-            key={c}
-            className={`inline-flex items-center gap-1 rounded-md border px-2.5 py-0.5 font-medium ${getBadgeClass(c)}`}
-            data-pagefind-filter="category"
-          >
-            {CATEGORY_ICON[c]} {CATEGORY_LABEL[c]}
+          <span key={c} data-pagefind-filter="category">
+            <Chip>
+              <Icon name={CATEGORY_ICON_NAME[c] ?? 'book'} size={12} />
+              {CATEGORY_LABEL[c]}
+            </Chip>
           </span>
         ))}
         {phase && (
-          <Link
-            href={`/learning-path/#phase-${phase.n}`}
-            className="rounded-md border border-border bg-surface px-2.5 py-0.5 font-medium text-ink-muted hover:text-ink hover:border-emerald-500/50"
-          >
-            Phase {phase.n} · {phase.name} {d.step ? `(Step ${d.step})` : ''}
+          <Link href={`/learning-path/#phase-${phase.n}`} className="chip hover:border-accent hover:text-accent">
+            Phase {phase.n} &middot; {phase.name} {d.step ? `(Step ${d.step})` : ''}
           </Link>
         )}
-        <span className="text-ink-muted">⏱️ {read}</span>
-        <span className="text-ink-muted">· Published {fmtDate(d.date)}</span>
+        <Chip><Icon name="clock" size={12} />{read}</Chip>
+        <Chip><Icon name="calendar" size={12} />{fmtDate(d.date)}</Chip>
       </div>
 
-      {/* Article Title */}
-      <h1 className="text-3xl sm:text-4xl lg:text-5xl tracking-tight text-ink leading-tight">
+      {/* Title */}
+      <h1 className="max-w-[26ch] text-[clamp(2rem,4.4vw,3.6rem)] leading-[1.05] tracking-tight text-ink">
         {d.title}
       </h1>
 
-      {/* Executive Summary Abstract */}
+      {/* Abstract */}
       {d.summary && (
-        <div className="mt-4 rounded-xl border-l-4 border-emerald-500 bg-surface/60 p-4 text-base italic leading-relaxed text-ink-muted">
+        <p className="mt-8 max-w-[70ch] border-l-2 border-accent pl-5 text-[clamp(1.25rem,.7vw+1.1rem,1.6rem)] italic leading-snug text-ink-soft" style={{ fontFamily: "'Instrument Serif', Georgia, serif" }}>
           {d.summary}
-        </div>
+        </p>
       )}
 
       {/* Research Paper Card */}
@@ -183,97 +156,77 @@ export default async function PostDetailPage({ params }: PageProps) {
 
       {/* Tags */}
       {d.tags && d.tags.length > 0 && (
-        <div className="mt-12 flex flex-wrap items-center gap-2 border-t border-border pt-6 text-xs">
-          <span className="font-bold tracking-wider text-ink-muted uppercase">Tags:</span>
+        <div className="mt-14 flex flex-wrap items-center gap-2 border-t border-border pt-6">
+          <span className="eyebrow mr-2">Tags</span>
           {d.tags.map((t) => (
-            <Link
-              key={t}
-              href={`/tags/${t}/`}
-              className="rounded-md border border-border bg-surface px-2.5 py-1 text-ink-muted transition-colors hover:border-emerald-500 hover:text-emerald-400"
-            >
+            <Link key={t} href={`/tags/${t}/`} className="chip hover:border-accent hover:text-accent">
               #{t}
             </Link>
           ))}
         </div>
       )}
 
-      {/* Verified Primary Sources */}
+      {/* Verified primary sources */}
       {d.sources && d.sources.length > 0 && (
-        <section className="mt-10 rounded-xl border border-border bg-surface p-5">
-          <h3 className="text-lg text-ink">Verified Primary Sources</h3>
-          <ol className="mt-3 list-decimal list-inside space-y-1.5 text-xs text-ink-muted">
+        <section className="mt-12 border-t border-border pt-8">
+          <p className="eyebrow">Verified sources</p>
+          <ol className="mt-5 space-y-3">
             {d.sources.map((s, idx) => (
-              <li key={idx}>
-                <a
-                  href={s.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-emerald-400 hover:underline"
-                >
-                  {s.title}
-                </a>
-                <span> — {s.publisher}</span>
+              <li key={idx} className="grid grid-cols-[2.5rem_minmax(0,1fr)] gap-2 text-[15px]">
+                <span className="font-mono text-[11.5px] text-ink-muted">{String(idx + 1).padStart(2, '0')}</span>
+                <span>
+                  <a href={s.url} target="_blank" rel="noopener noreferrer" className="tok-link text-ink">
+                    {s.title}
+                  </a>
+                  <span className="text-ink-muted"> &mdash; {s.publisher}</span>
+                </span>
               </li>
             ))}
           </ol>
           {!d.categories.includes('study') && (
-            <p className="mt-3 text-[11px] text-ink-muted/80">
+            <p className="mt-4 text-sm text-ink-muted">
               This article is a factual summary composed strictly from verified public technical reports and official releases.
             </p>
           )}
         </section>
       )}
 
-      {/* Author Bio Card */}
-      <section className="mt-12 rounded-2xl border border-border/80 bg-surface/70 p-6 backdrop-blur-sm">
-        <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
-          <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-emerald-500 to-teal-600 font-serif text-xl font-bold text-slate-950 shadow-md">
-            SS
+      {/* Author */}
+      <section className="mt-14 grid gap-5 border-t border-border pt-8 sm:grid-cols-[auto_minmax(0,1fr)] sm:items-center">
+        <span className="flex h-14 w-14 items-center justify-center rounded-full border border-rule-2 text-2xl italic text-accent" style={{ fontFamily: "'Instrument Serif', Georgia, serif" }}>
+          S
+        </span>
+        <div>
+          <div className="flex flex-wrap items-baseline justify-between gap-2">
+            <h4 className="text-lg">Sahaj Saliya</h4>
+            <span className="font-mono text-[11.5px] text-ink-muted">PDEU Gandhinagar &middot; 2023-2027</span>
           </div>
-          <div className="flex-1 space-y-1">
-            <div className="flex flex-wrap items-center justify-between gap-2">
-              <h4 className="text-base text-ink">Sahaj Saliya</h4>
-              <span className="text-xs text-ink-muted">PDEU Gandhinagar · 2023–2027</span>
-            </div>
-            <p className="text-xs leading-relaxed text-ink-muted">
-              B.Tech ICT Student researching LLMs, Autonomous Multi-Agent Architectures, Computer Vision, and cognitive frameworks for deep learning.
-            </p>
-            <div className="flex items-center gap-3 pt-1 text-xs">
-              <a href="https://info.sahaj.si" target="_blank" rel="noopener noreferrer" className="font-medium text-emerald-400 hover:underline">
-                Portfolio ↗
-              </a>
-              <span className="text-border">·</span>
-              <a href="https://github.com/SahajIVVIX-1" target="_blank" rel="noopener noreferrer" className="text-ink-muted hover:text-ink">
-                GitHub ↗
-              </a>
-              <span className="text-border">·</span>
-              <a href="https://x.com/SahajS59" target="_blank" rel="noopener noreferrer" className="text-ink-muted hover:text-ink">
-                X / Twitter ↗
-              </a>
-            </div>
+          <p className="mt-1.5 max-w-[70ch] text-[15px] leading-relaxed text-ink-muted">
+            B.Tech ICT student researching LLMs, autonomous multi-agent architectures, computer vision and cognitive frameworks for deep learning.
+          </p>
+          <div className="mt-3 flex flex-wrap gap-2">
+            <a href="https://info.sahaj.si" className="lnk">Portfolio<Icon name="up" size={11} /></a>
+            <a href="https://github.com/SahajIVVIX-1" target="_blank" rel="noopener noreferrer" className="lnk">GitHub<Icon name="up" size={11} /></a>
+            <a href="https://x.com/SahajS59" target="_blank" rel="noopener noreferrer" className="lnk">X<Icon name="up" size={11} /></a>
           </div>
         </div>
       </section>
 
-      {/* Curriculum Navigation Pager */}
+      {/* Pager */}
       {(prev || next) && (
-        <nav className="mt-12 flex flex-col sm:flex-row items-center justify-between gap-4 border-t border-border pt-6" aria-label="Curriculum Navigation">
+        <nav className="mt-14 grid gap-4 border-t border-border pt-8 sm:grid-cols-2" aria-label="Curriculum Navigation">
           {prev ? (
-            <Link
-              href={postUrl(prev)}
-              className="flex w-full sm:w-auto items-center gap-2 rounded-xl border border-border bg-surface px-4 py-2.5 text-xs font-semibold text-ink transition-colors hover:border-emerald-500 hover:text-emerald-400"
-            >
-              ← Previous: {prev.data.title}
+            <Link href={postUrl(prev)} className="group block rounded-none border-l-2 border-border pl-5 transition-colors hover:border-accent">
+              <span className="eyebrow" style={{ color: 'var(--ink-3)' }}>Previous</span>
+              <span className="mt-2 block text-lg leading-snug text-ink transition-colors group-hover:text-accent">{prev.data.title}</span>
             </Link>
           ) : (
             <span />
           )}
           {next ? (
-            <Link
-              href={postUrl(next)}
-              className="flex w-full sm:w-auto items-center justify-end gap-2 rounded-xl bg-emerald-500 px-4 py-2.5 text-xs font-bold text-slate-950 transition-colors hover:bg-emerald-400 ml-auto"
-            >
-              Next: {next.data.title} →
+            <Link href={postUrl(next)} className="group block border-l-2 border-border pl-5 transition-colors hover:border-accent sm:text-right sm:border-l-0 sm:border-r-2 sm:pl-0 sm:pr-5">
+              <span className="eyebrow" style={{ color: 'var(--ink-3)' }}>Next</span>
+              <span className="mt-2 block text-lg leading-snug text-ink transition-colors group-hover:text-accent">{next.data.title}</span>
             </Link>
           ) : (
             <span />

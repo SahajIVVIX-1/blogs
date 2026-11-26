@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { fmtDate } from '@/lib/constants';
+import { Icon } from '@/components/ui';
 
 interface PhaseProgressItem {
   n: number;
@@ -17,44 +18,33 @@ interface PhaseGridProps {
   limit?: number;
 }
 
+// "4 Aug 2023" -> "Aug 2023"
+const monthYear = (d: string) => fmtDate(d).replace(/^\d+\s+/, '');
+
 export default function PhaseGrid({ phases, limit }: PhaseGridProps) {
   const displayPhases = limit ? phases.slice(0, limit) : phases;
 
   return (
-    <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+    <div className="idx">
       {displayPhases.map((ph) => {
         const pct = Math.min(100, Math.round((ph.done / Math.max(1, ph.total)) * 100));
         return (
-          <Link
-            key={ph.n}
-            href={`/learning-path/#phase-${ph.n}`}
-            prefetch={false}
-            className="group flex flex-col justify-between rounded-xl border border-border bg-surface p-5 transition-all hover:border-emerald-500/50 hover:bg-surface/80"
-          >
-            <div>
-              <div className="flex items-center justify-between text-xs text-ink-muted">
-                <span className="rounded-md border border-indigo-500/30 bg-indigo-500/10 px-2 py-0.5 font-semibold text-indigo-400">
-                  Phase {ph.n}
-                </span>
-                <span>{fmtDate(ph.from).slice(3)} – {fmtDate(ph.to).slice(3)}</span>
-              </div>
-              <h3 className="mt-3 text-lg text-ink group-hover:text-emerald-400 transition-colors">
-                {ph.name}
-              </h3>
-            </div>
-
-            <div className="mt-6">
-              <div className="h-1.5 w-full overflow-hidden rounded-full bg-border">
-                <div
-                  className="h-full rounded-full bg-gradient-to-r from-emerald-500 to-teal-400 transition-all duration-500"
-                  style={{ width: `${pct}%` }}
-                />
-              </div>
-              <div className="mt-2 flex items-center justify-between text-xs text-ink-muted">
-                <span>{ph.done} of {ph.total} guides</span>
-                <span className="font-semibold text-ink">{pct}%</span>
-              </div>
-            </div>
+          <Link key={ph.n} href={`/learning-path/#phase-${ph.n}`} prefetch={false} className="idx-row">
+            <span className="idx-n">{String(ph.n).padStart(2, '0')}</span>
+            <span>
+              <span className="idx-title block">{ph.name}</span>
+              <span className="idx-meta block">
+                Phase {ph.n} · {monthYear(ph.from)} &ndash; {monthYear(ph.to)}
+              </span>
+            </span>
+            <span className="idx-prog">
+              <span className="bar block"><i style={{ width: `${pct}%` }} /></span>
+              <span className="bar-meta">
+                <span>{ph.done} / {ph.total} guides</span>
+                <b>{pct}%</b>
+              </span>
+            </span>
+            <span className="idx-go"><Icon name="arrow" size={16} /></span>
           </Link>
         );
       })}

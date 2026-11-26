@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
+import { Icon } from '@/components/ui';
 import { START, today, dayKey, CATEGORY_LABEL, type Post } from '@/lib/constants';
 
 interface HeatmapProps {
@@ -31,35 +32,28 @@ export default function Heatmap({ daysMap }: HeatmapProps) {
     years.unshift({ year: y, cells });
   }
 
-  const getHeatClass = (n: number) => {
-    if (n === 0) return 'bg-subtle/40 border border-border/40';
-    if (n === 1) return 'bg-emerald-950 border border-emerald-800 text-emerald-200';
-    if (n === 2) return 'bg-emerald-800 border border-emerald-600 text-emerald-100';
-    if (n === 3) return 'bg-emerald-600 border border-emerald-400 text-white';
-    return 'bg-emerald-500 border border-emerald-300 text-white shadow-sm';
-  };
+  // one accent, four intensities
+  const heat = (n: number) => (n <= 1 ? '.28' : n === 2 ? '.5' : n === 3 ? '.75' : '1');
 
   return (
-    <section className="rounded-xl border border-border bg-surface p-4 sm:p-6" aria-label="Posting Activity Calendar">
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+    <section aria-label="Posting Activity Calendar">
+      <div className="sec-head" style={{ marginBottom: open ? undefined : 0 }}>
         <div>
-          <h3 className="flex items-center gap-2 text-lg text-ink">
-            <span>📅</span> Daily Publishing Activity & Streak Heatmap
-          </h3>
-          <p className="mt-1 text-xs text-ink-muted">
+          <p className="eyebrow">Activity</p>
+          <h2>Every day, <em>on the record</em></h2>
+          <p className="sub">
             Continuous engineering timeline across {years.length} years of daily learning and research paper analysis.
           </p>
         </div>
-        <button
-          onClick={() => setOpen(!open)}
-          className="self-start sm:self-auto rounded-lg border border-border bg-canvas px-3 py-1.5 text-xs font-medium text-ink transition-colors hover:border-emerald-500 hover:text-emerald-400"
-        >
-          {open ? 'Hide Calendar ↑' : 'View Calendar ↓'}
+        <button onClick={() => setOpen(!open)} className="btn btn-ghost btn-sm" aria-expanded={open}>
+          <Icon name="calendar" size={14} />
+          <span>{open ? 'Hide calendar' : 'View calendar'}</span>
+          <Icon name="chevron" size={14} className={open ? 'rotate-180 transition-transform' : 'transition-transform'} />
         </button>
       </div>
 
       {open && (
-        <div className="mt-6 space-y-6 pt-4 border-t border-border">
+        <div className="space-y-6 border-t border-border pt-6">
           {years.map(({ year, cells }) => (
             <div key={year} className="space-y-2">
               <div className="text-xs font-semibold text-ink-muted">{year}</div>
@@ -74,13 +68,14 @@ export default function Heatmap({ daysMap }: HeatmapProps) {
                         href={`/archive/#date-${c.key}`}
                         prefetch={false}
                         title={`${c.key}: ${c.n} post${c.n > 1 ? 's' : ''} · ${c.cats.join(', ')}`}
-                        className={`h-3 w-3 rounded-sm transition-transform hover:scale-125 ${getHeatClass(c.n)}`}
+                        className="h-3 w-3 rounded-sm transition-transform hover:scale-125"
+                        style={{ background: `rgb(var(--accent-rgb) / ${heat(c.n)})` }}
                       />
                     ) : (
                       <span
                         key={c.key}
                         title={`${c.key}: no posts`}
-                        className="h-3 w-3 rounded-sm bg-border/30"
+                        className="h-3 w-3 rounded-sm bg-border/50"
                       />
                     )
                   )}
@@ -89,16 +84,15 @@ export default function Heatmap({ daysMap }: HeatmapProps) {
             </div>
           ))}
 
-          <div className="flex items-center gap-2 pt-2 text-[11px] text-ink-muted">
+          <div className="flex items-center gap-2 pt-2 font-mono text-[11px] text-ink-muted">
             <span>Less</span>
-            <span className="h-2.5 w-2.5 rounded-sm bg-border/30" />
-            <span className="h-2.5 w-2.5 rounded-sm bg-emerald-950 border border-emerald-800" />
-            <span className="h-2.5 w-2.5 rounded-sm bg-emerald-800 border border-emerald-600" />
-            <span className="h-2.5 w-2.5 rounded-sm bg-emerald-600 border border-emerald-400" />
-            <span className="h-2.5 w-2.5 rounded-sm bg-emerald-500 border border-emerald-300" />
+            <span className="h-2.5 w-2.5 rounded-sm bg-border/50" />
+            {['.28', '.5', '.75', '1'].map((o) => (
+              <span key={o} className="h-2.5 w-2.5 rounded-sm" style={{ background: `rgb(var(--accent-rgb) / ${o})` }} />
+            ))}
             <span>More</span>
-            <Link href="/archive/" className="ml-auto text-emerald-400 hover:underline">
-              Browse full archive by date →
+            <Link href="/archive/" className="tok-link ml-auto text-ink-soft">
+              Browse the archive by date
             </Link>
           </div>
         </div>
