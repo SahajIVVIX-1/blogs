@@ -16,17 +16,22 @@ export default function ErrorBoundary({ error, reset }: ErrorProps) {
 
     // If the error is a transient interrupted stream / network drop ("Connection closed.", "Failed to fetch", etc.)
     // automatically trigger a clean page reload so the user is never stranded on this screen!
+    const msg = error?.message || '';
     const isTransientNetworkError =
-      error?.message?.includes('Connection closed') ||
-      error?.message?.includes('Failed to fetch') ||
-      error?.message?.includes('Load failed') ||
-      error?.message?.includes('NetworkError') ||
-      error?.message?.includes('aborted');
+      /Connection closed|Failed to fetch|Load failed|NetworkError|aborted|enqueueModel|reading 'enqueueModel'|Cannot read properties of null/i.test(msg);
 
-    if (isTransientNetworkError) {
+    // Reload at most once per 15 s so a persistent bug can never cause a reload loop.
+    let recentlyReloaded = false;
+    try {
+      const last = Number(sessionStorage.getItem('errReloadAt') || 0);
+      recentlyReloaded = Date.now() - last < 15000;
+    } catch {}
+
+    if (isTransientNetworkError && !recentlyReloaded) {
       setRetrying(true);
       const timer = setTimeout(() => {
         try {
+          sessionStorage.setItem('errReloadAt', String(Date.now()));
           window.location.reload();
         } catch {
           reset();
