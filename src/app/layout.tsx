@@ -73,7 +73,7 @@ export default function RootLayout({
           <ContextAddressBar />
         </Suspense>
         <Navbar />
-        <main id="main" className="flex-1 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 animate-in fade-in duration-200">
+        <main id="main" className="flex-1 w-full max-w-[1800px] mx-auto px-[var(--gutter)] py-8 sm:py-12 animate-in fade-in duration-200">
           {children}
         </main>
         <Footer />

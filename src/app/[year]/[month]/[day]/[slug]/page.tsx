@@ -107,7 +107,7 @@ export default async function PostDetailPage({ params }: PageProps) {
   };
 
   return (
-    <article className="mx-auto max-w-4xl" data-pagefind-body data-blog-no={formatBlogNo(post.number)}>
+    <article className="mx-auto max-w-[1120px]" data-pagefind-body data-blog-no={formatBlogNo(post.number)}>
       <ReadingProgressBar />
       {/* Breadcrumb Navigation */}
       <nav aria-label="Breadcrumb" className="mb-6 flex flex-wrap items-center gap-1.5 text-xs text-ink-muted">
@@ -177,7 +177,7 @@ export default async function PostDetailPage({ params }: PageProps) {
 
       {/* Markdown Content */}
       <div
-        className="prose prose-invert max-w-none mt-8 text-ink text-base leading-relaxed"
+        className="prose dark:prose-invert max-w-none mt-8 text-ink text-base leading-relaxed"
         dangerouslySetInnerHTML={{ __html: html }}
       />
 

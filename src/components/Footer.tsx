@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <footer className="mx-auto mt-20 w-full max-w-[1320px] border-t border-border px-4 py-5 text-[13.5px] leading-snug text-ink-muted sm:px-6 lg:px-8">
+    <footer className="mx-auto mt-20 w-full max-w-[1800px] border-t border-border px-[var(--gutter)] py-5 text-[13.5px] leading-snug text-ink-muted">
       <div className="flex flex-wrap items-center gap-x-7 gap-y-2">
         <div className="mr-auto flex flex-wrap gap-x-[18px] gap-y-1">
           <Link href="/learning-path/" className="tok-link text-ink-soft">Curriculum</Link>

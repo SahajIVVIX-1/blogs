@@ -4,6 +4,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
 import { TOTAL_POSTS } from '@/lib/constants';
+import Brand from '@/components/Brand';
 
 const NAV_LINKS = [
   { href: '/learning-path/', label: 'Curriculum' },
@@ -143,16 +144,8 @@ export default function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border bg-canvas/80 backdrop-blur-[14px] backdrop-saturate-[1.2] transition-colors">
-      <div className="mx-auto flex max-w-[1320px] items-center gap-3 px-4 py-3 sm:gap-4 sm:px-6 lg:px-8">
-        <Link href="/" className="inline-flex items-center gap-2.5 rounded-full text-ink no-underline" aria-label="blog@sahaj.si, Sahaj Saliya, home">
-          <svg className="brand-logo" viewBox="0 0 40 40" width="40" height="40" aria-hidden="true" focusable="false">
-            <circle className="ring-track" cx="20" cy="20" r="19.25" />
-            <g transform="rotate(-90 20 20)"><circle className="ring-prog" cx="20" cy="20" r="19.25" pathLength="100" strokeDasharray="100 100" /></g>
-            <image className="logo-img logo-l" href="/brand/logo-light.webp" x="3" y="3" width="34" height="34" />
-            <image className="logo-img logo-d" href="/brand/logo-dark.webp" x="3" y="3" width="34" height="34" />
-          </svg>
-          <span className="brand-text">blog@sahaj.si</span>
-        </Link>
+      <div className="flex w-full items-center gap-3 px-[var(--gutter)] py-3.5 sm:gap-4">
+        <Brand />
 
         {/* Desktop Navigation */}
         <nav className="ml-auto hidden items-center gap-5 text-[15px] lg:flex xl:gap-[22px]" aria-label="Main Navigation">
@@ -302,8 +295,8 @@ export default function Navbar() {
 
       {/* Menu panel (below 1024px) */}
       {mobileMenuOpen && (
-        <div id="mobile-menu" className="max-h-[calc(100dvh-65px)] overflow-y-auto border-t border-border bg-canvas px-4 pb-6 pt-3 sm:px-6 lg:hidden">
-          <nav className="mx-auto flex max-w-[1320px] flex-col" aria-label="Menu">
+        <div id="mobile-menu" className="max-h-[calc(100dvh-65px)] overflow-y-auto border-t border-border bg-canvas px-[var(--gutter)] pb-6 pt-3 lg:hidden">
+          <nav className="flex flex-col" aria-label="Menu">
             {NAV_LINKS.map(({ href, label }) => {
               const active = pathname === href || pathname.startsWith(href);
               return (
@@ -324,7 +317,7 @@ export default function Navbar() {
               <span className="font-mono text-[11px] not-italic text-ink-muted" aria-hidden="true">↗</span>
             </a>
           </nav>
-          <p className="mx-auto mt-5 max-w-[1320px] font-mono text-[11px] text-ink-muted">
+          <p className="mt-5 font-mono text-[11px] text-ink-muted">
             ctx · {activeBlogNo ? `#${activeBlogNo} · ` : ''}{visitorIp && visitorIp !== 'detecting...' ? `you@${formatIpShort(visitorIp)}` : 'you'}
           </p>
         </div>

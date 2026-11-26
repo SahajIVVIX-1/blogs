@@ -155,6 +155,14 @@ export default function NavigationLoader() {
     };
   }, []);
 
+  // the header logo's ring spins while a page is loading
+  useEffect(() => {
+    const r = document.documentElement;
+    if (visible) r.setAttribute('data-thinking', '');
+    else r.removeAttribute('data-thinking');
+    return () => r.removeAttribute('data-thinking');
+  }, [visible]);
+
   if (!visible && progress === 0) return null;
 
   return (
@@ -165,16 +173,16 @@ export default function NavigationLoader() {
         aria-hidden="true"
       >
         <div
-          className="h-full bg-gradient-to-r from-emerald-500 via-teal-400 to-amber-400 transition-all duration-200 ease-out relative"
+          className="h-full bg-gradient-to-r from-accent to-accent transition-all duration-200 ease-out relative"
           style={{
             width: `${progress}%`,
             opacity: visible ? 1 : 0,
-            boxShadow: progress > 0 ? '0 0 12px rgba(16, 185, 129, 0.8), 0 0 4px rgba(245, 158, 11, 0.6)' : 'none',
+            boxShadow: progress > 0 ? '0 0 12px rgb(var(--accent-rgb) / .6)' : 'none',
           }}
         >
           {/* Subtle pulse glow on the tip of the progress bar */}
           {visible && progress < 100 && (
-            <div className="absolute right-0 top-0 bottom-0 w-24 bg-gradient-to-r from-transparent to-white/90 animate-pulse shadow-[0_0_8px_#10b981]" />
+            <div className="absolute right-0 top-0 bottom-0 w-24 bg-gradient-to-r from-transparent to-accent/60 animate-pulse" />
           )}
         </div>
       </div>
