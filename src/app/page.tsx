@@ -46,8 +46,8 @@ export default function HomePage() {
             <span>THE INTELLECTUAL & ENGINEERING COMPENDIUM</span>
           </div>
 
-          <h1 className="mt-5 font-serif text-3xl font-bold tracking-tight text-ink sm:text-5xl lg:text-6xl max-w-4xl leading-[1.12]">
-            Frontier AI, Core Mathematics & The Mindset of Mastery
+          <h1 className="mt-5 text-3xl tracking-tight text-ink sm:text-5xl lg:text-6xl max-w-4xl leading-[1.12]">
+            Frontier AI, core <em>mathematics</em> &amp; the mindset of <em>mastery</em>
           </h1>
 
           <p className="mt-5 max-w-3xl text-sm leading-relaxed text-ink-muted sm:text-base">
@@ -91,7 +91,7 @@ export default function HomePage() {
       {/* Category Exploration Showcase */}
       <section className="space-y-4">
         <div>
-          <h2 className="font-serif text-2xl font-bold text-ink">Compendium Domains</h2>
+          <h2 className="text-2xl text-ink">Compendium Domains</h2>
           <p className="text-xs text-ink-muted">Explore structured tracks across foundational science, state-of-the-art AI, and cognitive mastery.</p>
         </div>
 
@@ -106,7 +106,7 @@ export default function HomePage() {
                 15 Phases
               </span>
             </div>
-            <h3 className="mt-4 font-serif text-lg font-bold text-ink group-hover:text-indigo-400 transition-colors">
+            <h3 className="mt-4 text-lg text-ink group-hover:text-indigo-400 transition-colors">
               Curriculum Roadmap
             </h3>
             <p className="mt-2 text-xs leading-relaxed text-ink-muted">
@@ -128,7 +128,7 @@ export default function HomePage() {
                   {personalPosts.length.toLocaleString()} Essays
                 </span>
               </div>
-              <h3 className="mt-4 font-serif text-lg font-bold text-ink group-hover:text-amber-400 transition-colors">
+              <h3 className="mt-4 text-lg text-ink group-hover:text-amber-400 transition-colors">
                 Personal & Mindset
               </h3>
               <p className="mt-2 text-xs leading-relaxed text-ink-muted">
@@ -150,7 +150,7 @@ export default function HomePage() {
                 {paperPosts.length.toLocaleString()} Digests
               </span>
             </div>
-            <h3 className="mt-4 font-serif text-lg font-bold text-ink group-hover:text-emerald-400 transition-colors">
+            <h3 className="mt-4 text-lg text-ink group-hover:text-emerald-400 transition-colors">
               arXiv Paper Digests
             </h3>
             <p className="mt-2 text-xs leading-relaxed text-ink-muted">
@@ -171,7 +171,7 @@ export default function HomePage() {
                 {aiPosts.length.toLocaleString()} Releases
               </span>
             </div>
-            <h3 className="mt-4 font-serif text-lg font-bold text-ink group-hover:text-purple-400 transition-colors">
+            <h3 className="mt-4 text-lg text-ink group-hover:text-purple-400 transition-colors">
               AI Industry Releases
             </h3>
             <p className="mt-2 text-xs leading-relaxed text-ink-muted">
@@ -200,7 +200,7 @@ export default function HomePage() {
                 <span>·</span>
                 <span className="font-mono">{fmtDate(featuredPersonal.data.date)}</span>
               </div>
-              <h3 className="font-serif text-xl sm:text-2xl font-bold text-ink hover:text-amber-400 transition-colors">
+              <h3 className="text-xl sm:text-2xl text-ink hover:text-amber-400 transition-colors">
                 <Link href={postUrl(featuredPersonal)}>{featuredPersonal.data.title}</Link>
               </h3>
               <p className="max-w-3xl text-xs sm:text-sm leading-relaxed text-ink-muted">
@@ -224,7 +224,7 @@ export default function HomePage() {
       <section className="space-y-4">
         <div className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-2">
           <div>
-            <h2 className="font-serif text-2xl font-bold text-ink">Curriculum Tracks (15 Phases)</h2>
+            <h2 className="text-2xl text-ink">Curriculum Tracks (15 Phases)</h2>
             <p className="text-xs text-ink-muted">Step-by-step master tracks spanning 15 phases from Python to Agentic Systems.</p>
           </div>
           <Link
@@ -241,7 +241,7 @@ export default function HomePage() {
       <section className="space-y-6">
         <div className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-2">
           <div>
-            <h2 className="font-serif text-2xl font-bold text-ink">Latest Technical & Mindset Dispatches</h2>
+            <h2 className="text-2xl text-ink">Latest Technical & Mindset Dispatches</h2>
             <p className="text-xs text-ink-muted">Every entry links verified primary sources, derivations, and actionable takeaways.</p>
           </div>
           <Link

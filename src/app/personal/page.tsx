@@ -4,7 +4,7 @@ import { allPosts, postUrl, fmtDate, readingTime } from '@/lib/posts';
 import PersonalClient from './PersonalClient';
 
 export const metadata: Metadata = {
-  title: 'Personal & Mindset Handbooks',
+  title: 'Personal &amp; <em>mindset</em> handbooks',
   description: 'Reflections on deep work, stoic equanimity, first-principles thinking, compounding engineering habits, and maintaining intellectual vitality.',
 };
 
@@ -31,7 +31,7 @@ export default function PersonalPage() {
           <span>🌱</span>
           <span>Essays on Mastery, Focus & Systems</span>
         </div>
-        <h1 className="font-serif text-3xl sm:text-5xl font-bold tracking-tight text-ink">
+        <h1 className="text-3xl sm:text-5xl tracking-tight text-ink">
           Personal & Mindset Handbooks
         </h1>
         <p className="max-w-3xl text-sm leading-relaxed text-ink-muted sm:text-base">

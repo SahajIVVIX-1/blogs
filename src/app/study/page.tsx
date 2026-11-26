@@ -6,7 +6,7 @@ import PhaseGrid from '@/components/PhaseGrid';
 import PostList from '@/components/PostList';
 
 export const metadata: Metadata = {
-  title: 'Study Notes & Engineering Guides',
+  title: 'Study notes &amp; engineering <em>guides</em>',
   description: 'In-depth, topic-by-topic learning guides organized sequentially from foundational programming and mathematics to modern Agentic AI.',
 };
 
@@ -22,7 +22,7 @@ export default function StudyPage() {
           <span>📚</span>
           <span>Structured Curriculum Tracks</span>
         </div>
-        <h1 className="font-serif text-3xl sm:text-5xl font-bold tracking-tight text-ink">
+        <h1 className="text-3xl sm:text-5xl tracking-tight text-ink">
           Study Notes & Engineering Guides
         </h1>
         <p className="max-w-3xl text-sm leading-relaxed text-ink-muted sm:text-base">
@@ -41,7 +41,7 @@ export default function StudyPage() {
       {/* Phase Overview Grid */}
       <section className="space-y-4">
         <div>
-          <h2 className="font-serif text-2xl font-bold text-ink">Curriculum Tracks (15 Phases)</h2>
+          <h2 className="text-2xl text-ink">Curriculum Tracks (15 Phases)</h2>
           <p className="text-xs text-ink-muted">Click any track to explore its sequential lessons and topics.</p>
         </div>
         <PhaseGrid phases={phases} />
@@ -50,7 +50,7 @@ export default function StudyPage() {
       {/* Guides Feed */}
       <section className="space-y-6">
         <div>
-          <h2 className="font-serif text-2xl font-bold text-ink">All Study Guides ({posts.length.toLocaleString()})</h2>
+          <h2 className="text-2xl text-ink">All Study Guides ({posts.length.toLocaleString()})</h2>
           <p className="text-xs text-ink-muted">Chronological stream of technical study notes across all phases.</p>
         </div>
         <PostList posts={posts} />

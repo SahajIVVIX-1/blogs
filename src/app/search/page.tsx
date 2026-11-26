@@ -72,7 +72,7 @@ export default function SearchPage() {
   return (
     <div className="mx-auto max-w-4xl space-y-6">
       <div className="space-y-2">
-        <h1 className="font-serif text-3xl sm:text-4xl font-bold text-ink">Search Handbooks & Papers</h1>
+        <h1 className="text-3xl sm:text-4xl text-ink">Search <em>handbooks</em> &amp; papers</h1>
         <p className="text-xs text-ink-muted">
           Instant client-side full-text search indexing all {TOTAL_POSTS.toLocaleString()} engineering posts, research digests, and topics.
         </p>

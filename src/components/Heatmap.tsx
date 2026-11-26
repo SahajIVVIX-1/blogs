@@ -43,7 +43,7 @@ export default function Heatmap({ daysMap }: HeatmapProps) {
     <section className="rounded-xl border border-border bg-surface p-4 sm:p-6" aria-label="Posting Activity Calendar">
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
         <div>
-          <h3 className="flex items-center gap-2 font-serif text-lg font-bold text-ink">
+          <h3 className="flex items-center gap-2 text-lg text-ink">
             <span>📅</span> Daily Publishing Activity & Streak Heatmap
           </h3>
           <p className="mt-1 text-xs text-ink-muted">

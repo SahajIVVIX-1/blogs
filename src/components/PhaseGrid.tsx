@@ -38,7 +38,7 @@ export default function PhaseGrid({ phases, limit }: PhaseGridProps) {
                 </span>
                 <span>{fmtDate(ph.from).slice(3)} – {fmtDate(ph.to).slice(3)}</span>
               </div>
-              <h3 className="mt-3 font-serif text-lg font-bold text-ink group-hover:text-emerald-400 transition-colors">
+              <h3 className="mt-3 text-lg text-ink group-hover:text-emerald-400 transition-colors">
                 {ph.name}
               </h3>
             </div>

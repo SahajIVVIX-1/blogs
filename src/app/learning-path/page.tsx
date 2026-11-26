@@ -23,8 +23,8 @@ export default function LearningPathPage() {
           <span>🗺️</span>
           <span>15-Phase Master Curriculum</span>
         </div>
-        <h1 className="font-serif text-3xl sm:text-5xl font-bold tracking-tight text-ink">
-          Learning Path & Technical Roadmap
+        <h1 className="text-3xl sm:text-5xl tracking-tight text-ink">
+          Learning path &amp; technical <em>roadmap</em>
         </h1>
         <p className="max-w-3xl text-sm leading-relaxed text-ink-muted sm:text-base">
           A rigorous sequence of 15 curriculum tracks covering software engineering, statistics, classical machine learning, deep neural networks, computer vision, transformers, LLMs, and agentic workflows.
@@ -68,7 +68,7 @@ export default function LearningPathPage() {
                     </span>
                     <span className="text-ink-muted">{fmtDate(ph.from)} – {fmtDate(ph.to)}</span>
                   </div>
-                  <h2 className="mt-2 font-serif text-xl sm:text-2xl font-bold text-ink">
+                  <h2 className="mt-2 text-xl sm:text-2xl text-ink">
                     {ph.name}
                   </h2>
                 </div>

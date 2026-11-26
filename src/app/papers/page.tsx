@@ -4,7 +4,7 @@ import type { Metadata } from 'next';
 import { allPosts, postUrl, dayKey } from '@/lib/posts';
 
 export const metadata: Metadata = {
-  title: 'AI Research Paper Breakdowns',
+  title: 'AI research paper <em>breakdowns</em>',
   description: 'Rigorous, structured summaries of notable machine learning and artificial intelligence papers from arXiv and Hugging Face.',
 };
 
@@ -31,7 +31,7 @@ export default function PapersPage() {
           <span>📄</span>
           <span>arXiv & HF Research Digests</span>
         </div>
-        <h1 className="font-serif text-3xl sm:text-5xl font-bold tracking-tight text-ink">
+        <h1 className="text-3xl sm:text-5xl tracking-tight text-ink">
           AI Research Paper Breakdowns
         </h1>
         <p className="max-w-3xl text-sm leading-relaxed text-ink-muted sm:text-base">

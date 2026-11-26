@@ -38,7 +38,7 @@ export default function StatsStrip({ stats }: StatsProps) {
             <span className="truncate">{item.label}</span>
             <span className="text-base select-none">{item.icon}</span>
           </div>
-          <div className="mt-2 font-serif text-2xl font-bold tracking-tight text-ink group-hover:text-emerald-400 transition-colors">
+          <div className="mt-2 font-serif text-2xl tracking-tight text-ink group-hover:text-emerald-400 transition-colors">
             {item.value}
           </div>
         </Link>

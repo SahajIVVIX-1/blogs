@@ -56,7 +56,7 @@ export default function PostList({ posts, showDate = true }: PostListProps) {
                 <span className="ml-auto text-[11px] text-ink-muted font-mono">{read}</span>
               </div>
 
-              <h3 className="mt-3 font-serif text-lg font-bold leading-snug text-ink group-hover:text-emerald-400 transition-colors">
+              <h3 className="mt-3 text-lg leading-snug text-ink group-hover:text-emerald-400 transition-colors">
                 <Link href={url} prefetch={false} className="after:absolute after:inset-0">
                   {p.data.title}
                 </Link>

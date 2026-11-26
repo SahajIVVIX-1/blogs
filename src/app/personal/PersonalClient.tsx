@@ -161,7 +161,7 @@ export default function PersonalClient({ posts }: PersonalClientProps) {
                   <span className="ml-auto text-[11px] font-mono text-ink-muted">{p.readingTime}</span>
                 </div>
 
-                <h3 className="mt-3 font-serif text-lg font-bold leading-snug text-ink group-hover:text-amber-400 transition-colors">
+                <h3 className="mt-3 text-lg leading-snug text-ink group-hover:text-amber-400 transition-colors">
                   <Link href={p.url} prefetch={false} className="after:absolute after:inset-0">
                     {p.title}
                   </Link>
@@ -201,7 +201,7 @@ export default function PersonalClient({ posts }: PersonalClientProps) {
           <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-amber-500/10 border border-amber-500/30 text-2xl">
             🌱
           </div>
-          <h3 className="font-serif text-xl font-bold text-ink">Personal Essays Compendium Under Preparation</h3>
+          <h3 className="text-xl text-ink">Personal Essays Compendium Under Preparation</h3>
           <p className="max-w-md mx-auto text-xs sm:text-sm text-ink-muted leading-relaxed">
             Personal essays on deep work, stoic resilience, and mental models are currently being curated and will be published sequentially alongside the engineering handbooks.
           </p>

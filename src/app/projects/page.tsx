@@ -4,7 +4,7 @@ import { allPosts } from '@/lib/posts';
 import PostList from '@/components/PostList';
 
 export const metadata: Metadata = {
-  title: 'Engineering Projects & Systems',
+  title: 'Engineering <em>projects</em> &amp; systems',
   description: 'Verified implementations, production suites, open-source AI tooling, and systems software built by Sahaj Saliya.',
 };
 
@@ -18,7 +18,7 @@ export default function ProjectsPage() {
           <span>🛠️</span>
           <span>Implementations & Codebases</span>
         </div>
-        <h1 className="font-serif text-3xl sm:text-5xl font-bold tracking-tight text-ink">
+        <h1 className="text-3xl sm:text-5xl tracking-tight text-ink">
           Engineering Projects & Systems
         </h1>
         <p className="max-w-3xl text-sm leading-relaxed text-ink-muted sm:text-base">
@@ -28,7 +28,7 @@ export default function ProjectsPage() {
 
       <section className="space-y-6">
         <div className="flex items-center justify-between text-xs text-ink-muted">
-          <h2 className="font-serif text-2xl font-bold text-ink">All Projects ({posts.length.toLocaleString()})</h2>
+          <h2 className="text-2xl text-ink">All Projects ({posts.length.toLocaleString()})</h2>
           <span>Sorted chronologically</span>
         </div>
         <PostList posts={posts} />

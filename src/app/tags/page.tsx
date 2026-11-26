@@ -23,7 +23,7 @@ export default function TagsIndexPage() {
   return (
     <div className="space-y-8">
       <section className="space-y-2">
-        <h1 className="font-serif text-3xl sm:text-4xl font-bold text-ink">Technical Tags & Topics</h1>
+        <h1 className="text-3xl sm:text-4xl text-ink">Technical <em>tags</em> &amp; topics</h1>
         <p className="text-xs text-ink-muted">
           Showing {sortedTags.length.toLocaleString()} technical tags cataloging topics across machine learning, systems, and AI.
         </p>

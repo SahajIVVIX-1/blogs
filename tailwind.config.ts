@@ -1,5 +1,9 @@
 import type { Config } from 'tailwindcss';
 
+const v = (n: string) => `rgb(var(--${n}-rgb) / <alpha-value>)`;
+const ramp = () =>
+  Object.fromEntries([50, 100, 200, 300, 400, 500, 600, 700, 800, 900, 950].map((k) => [k, v('accent')]));
+
 const config: Config = {
   darkMode: ['class', '[data-theme="dark"]'],
   content: [
@@ -9,36 +13,30 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        serif: ['Newsreader', 'Georgia', 'Cambria', 'serif'],
-        sans: ['Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
-        mono: ['JetBrains Mono', 'Menlo', 'Monaco', 'Courier New', 'monospace'],
+        serif: ['"Instrument Serif"', '"Iowan Old Style"', 'Georgia', 'serif'],
+        sans: ['"Inter Tight"', 'ui-sans-serif', 'system-ui', '-apple-system', '"Segoe UI"', 'sans-serif'],
+        mono: ['"JetBrains Mono"', 'ui-monospace', '"Cascadia Mono"', 'Consolas', 'monospace'],
       },
       colors: {
-        canvas: {
-          light: '#f8fafc',
-          DEFAULT: '#090d16',
-          dark: '#090d16',
-        },
-        surface: {
-          light: '#ffffff',
-          DEFAULT: '#0e1526',
-          dark: '#0e1526',
-        },
-        border: {
-          light: '#e2e8f0',
-          DEFAULT: '#1e293b',
-          dark: '#1e293b',
-        },
-        ink: {
-          light: '#0f172a',
-          DEFAULT: '#f8fafc',
-          muted: '#94a3b8',
-        },
+        canvas: v('paper'),
+        surface: v('paper-2'),
+        subtle: v('paper-3'),
+        border: v('rule'),
+        'rule-2': v('rule-2'),
+        ink: { DEFAULT: v('ink'), light: v('ink'), muted: v('ink-3'), soft: v('ink-2') },
+        accent: { DEFAULT: v('accent'), ink: v('accent-ink') },
+        // the portfolio has ONE accent (vermilion). Every legacy hue maps onto it.
+        emerald: ramp(),
+        amber: ramp(),
+        indigo: ramp(),
+        blue: ramp(),
+        sky: ramp(),
+        slate: { ...ramp(), 300: v('ink-2'), 400: v('ink-3'), 950: v('accent-ink') },
         category: {
-          study: '#6366f1',
-          ai: '#f59e0b',
-          papers: '#10b981',
-          projects: '#3b82f6',
+          study: v('accent'),
+          ai: v('accent'),
+          papers: v('accent'),
+          projects: v('accent'),
         },
       },
       typography: ({ theme }: { theme: any }) => ({
@@ -47,34 +45,36 @@ const config: Config = {
             maxWidth: '72ch',
             color: 'inherit',
             a: {
-              color: '#38bdf8',
+              color: 'rgb(var(--accent-rgb))',
               textDecoration: 'underline',
               textUnderlineOffset: '3px',
               '&:hover': {
-                color: '#7dd3fc',
+                color: 'rgb(var(--accent-rgb))',
               },
             },
             h1: {
-              fontFamily: theme('fontFamily.serif').join(', '),
-              fontWeight: '600',
+              fontFamily: theme('fontFamily.sans').join(', '),
+              fontWeight: '450',
               letterSpacing: '-0.02em',
               color: 'inherit',
             },
             h2: {
-              fontFamily: theme('fontFamily.serif').join(', '),
-              fontWeight: '600',
+              fontFamily: theme('fontFamily.sans').join(', '),
+              fontWeight: '450',
               letterSpacing: '-0.015em',
               color: 'inherit',
             },
             h3: {
-              fontFamily: theme('fontFamily.serif').join(', '),
-              fontWeight: '600',
+              fontFamily: theme('fontFamily.sans').join(', '),
+              fontWeight: '450',
               color: 'inherit',
             },
+            em: { fontFamily: theme('fontFamily.serif').join(', '), fontSize: '1.08em' },
+            blockquote: { fontFamily: theme('fontFamily.serif').join(', '), fontStyle: 'italic', fontSize: '1.2em', borderLeftColor: 'rgb(var(--accent-rgb))', color: 'rgb(var(--ink-2-rgb))' },
             code: {
               fontFamily: theme('fontFamily.mono').join(', '),
-              color: '#38bdf8',
-              backgroundColor: 'rgba(30, 41, 59, 0.7)',
+              color: 'rgb(var(--accent-rgb))',
+              backgroundColor: 'rgb(var(--paper-3-rgb))',
               padding: '0.2em 0.4em',
               borderRadius: '0.25rem',
               fontWeight: '400',
@@ -86,13 +86,13 @@ const config: Config = {
               content: '""',
             },
             pre: {
-              backgroundColor: '#0d1527 !important',
-              border: '1px solid #1e293b',
+              backgroundColor: 'rgb(var(--paper-2-rgb)) !important',
+              border: '1px solid rgb(var(--rule-rgb))',
               borderRadius: '0.5rem',
               padding: '1.2rem 1.4rem',
               overflowX: 'auto',
               whiteSpace: 'pre !important',
-              color: '#f1f5f9 !important',
+              color: 'rgb(var(--ink-rgb)) !important',
             },
             'pre code': {
               backgroundColor: 'transparent !important',

@@ -50,7 +50,7 @@ export default function ErrorBoundary({ error, reset }: ErrorProps) {
       <span className="font-mono text-xs font-semibold uppercase tracking-wider text-amber-400">
         Safe Client Recovery
       </span>
-      <h1 className="mt-2 font-serif text-2xl sm:text-3xl font-bold text-ink">
+      <h1 className="mt-2 text-2xl sm:text-3xl text-ink">
         {retrying ? 'Refreshing Connection...' : 'Interface Navigation Recovered'}
       </h1>
       <p className="mt-2.5 max-w-md text-xs sm:text-sm text-ink-muted leading-relaxed">

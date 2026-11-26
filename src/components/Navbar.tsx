@@ -14,10 +14,17 @@ const NAV_LINKS = [
   { href: '/about/', label: 'About' },
 ];
 
+function applyTheme(mode: 'auto' | 'light' | 'dark') {
+  const dark = mode === 'dark' || (mode === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+  const root = document.documentElement;
+  root.dataset.theme = dark ? 'dark' : 'light';
+  root.classList.toggle('dark', dark);
+}
+
 export default function Navbar() {
   const pathname = usePathname();
   const router = useRouter();
-  const [theme, setTheme] = useState<'dark' | 'light'>('dark');
+  const [theme, setTheme] = useState<'auto' | 'light' | 'dark'>('auto');
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [contextOpen, setContextOpen] = useState(false);
   const [copied, setCopied] = useState(false);
@@ -28,22 +35,19 @@ export default function Navbar() {
   const contextRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    // Theme initialization
+    // Theme initialization (the inline script in layout.tsx already applied it before paint)
     try {
-      const stored = localStorage.getItem('theme') as 'dark' | 'light' | null;
-      if (stored) {
-        setTheme(stored);
-        document.documentElement.dataset.theme = stored;
-        if (stored === 'dark') {
-          document.documentElement.classList.add('dark');
-        } else {
-          document.documentElement.classList.remove('dark');
-        }
-      } else {
-        document.documentElement.dataset.theme = 'dark';
-        document.documentElement.classList.add('dark');
-      }
+      const stored = localStorage.getItem('theme');
+      setTheme(stored === 'light' || stored === 'dark' ? stored : 'auto');
     } catch (e) {}
+    const sys = window.matchMedia('(prefers-color-scheme: dark)');
+    const onSys = () => {
+      let m: string | null = null;
+      try { m = localStorage.getItem('theme'); } catch (e) {}
+      if (m === 'light' || m === 'dark') return;
+      applyTheme('auto');
+    };
+    sys.addEventListener('change', onSys);
 
     // Check cached visitor IP
     try {
@@ -89,11 +93,13 @@ export default function Navbar() {
       window.removeEventListener('sahaj:context', handleContextEvent);
       document.removeEventListener('mousedown', handleClickOutside);
       window.removeEventListener('keydown', handleKeyDown);
+      sys.removeEventListener('change', onSys);
     };
   }, [router]);
 
   // Update active blog number on pathname change
   useEffect(() => {
+    setMobileMenuOpen(false);
     const article = document.querySelector('article[data-blog-no]');
     if (article) {
       const no = article.getAttribute('data-blog-no');
@@ -104,16 +110,12 @@ export default function Navbar() {
   }, [pathname]);
 
   const toggleTheme = () => {
-    const next = theme === 'dark' ? 'light' : 'dark';
+    const next = theme === 'auto' ? 'light' : theme === 'light' ? 'dark' : 'auto';
     setTheme(next);
-    document.documentElement.dataset.theme = next;
-    if (next === 'dark') {
-      document.documentElement.classList.add('dark');
-    } else {
-      document.documentElement.classList.remove('dark');
-    }
+    applyTheme(next);
     try {
-      localStorage.setItem('theme', next);
+      if (next === 'auto') localStorage.removeItem('theme');
+      else localStorage.setItem('theme', next);
     } catch (e) {}
   };
 
@@ -140,30 +142,24 @@ export default function Navbar() {
   };
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-border/80 bg-canvas/90 backdrop-blur-md transition-colors">
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
-        <Link href="/" className="flex items-center gap-2 text-lg font-bold tracking-tight text-ink hover:opacity-90">
-          <span className="relative flex h-2.5 w-2.5">
-            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75"></span>
-            <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-emerald-500"></span>
-          </span>
-          <span>Sahaj<span className="text-emerald-400">.</span>blogs</span>
+    <header className="sticky top-0 z-50 w-full border-b border-border bg-canvas/80 backdrop-blur-[14px] backdrop-saturate-[1.2] transition-colors">
+      <div className="mx-auto flex max-w-[1320px] items-center gap-3 px-4 py-3 sm:gap-4 sm:px-6 lg:px-8">
+        <Link href="/" className="inline-flex items-center gap-2.5 rounded-full text-ink no-underline" aria-label="blog@sahaj.si, Sahaj Saliya, home">
+          <svg className="brand-logo" viewBox="0 0 40 40" width="40" height="40" aria-hidden="true" focusable="false">
+            <circle className="ring-track" cx="20" cy="20" r="19.25" />
+            <g transform="rotate(-90 20 20)"><circle className="ring-prog" cx="20" cy="20" r="19.25" pathLength="100" strokeDasharray="100 100" /></g>
+            <image className="logo-img logo-l" href="/brand/logo-light.webp" x="3" y="3" width="34" height="34" />
+            <image className="logo-img logo-d" href="/brand/logo-dark.webp" x="3" y="3" width="34" height="34" />
+          </svg>
+          <span className="brand-text">blog@sahaj.si</span>
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden items-center gap-1 md:flex" aria-label="Main Navigation">
+        <nav className="ml-auto hidden items-center gap-5 text-[15px] lg:flex xl:gap-[22px]" aria-label="Main Navigation">
           {NAV_LINKS.map(({ href, label }) => {
             const active = pathname === href || pathname.startsWith(href);
             return (
-              <Link
-                key={href}
-                href={href}
-                className={`rounded-md px-3 py-1.5 text-sm font-medium transition-colors ${
-                  active
-                    ? 'bg-surface text-ink font-semibold border border-border shadow-sm'
-                    : 'text-ink-muted hover:bg-surface/50 hover:text-ink'
-                }`}
-              >
+              <Link key={href} href={href} className="tok-link" aria-current={active ? 'page' : undefined}>
                 {label}
               </Link>
             );
@@ -171,12 +167,12 @@ export default function Navbar() {
         </nav>
 
         {/* Right Actions */}
-        <div className="flex items-center gap-2">
+        <div className="ml-auto flex items-center gap-2 lg:ml-0">
           {/* Dynamic Context Chip (Matching info.sahaj.si identity architecture) */}
-          <div className="relative" ref={contextRef}>
+          <div className="relative hidden xl:block" ref={contextRef}>
             <button
               onClick={() => setContextOpen(!contextOpen)}
-              className="flex items-center gap-1.5 rounded-lg border border-border bg-surface/80 px-2.5 py-1.5 font-mono text-xs text-ink-muted transition-colors hover:border-emerald-500/50 hover:text-ink"
+              className="flex items-center gap-1.5 rounded-full border border-rule-2 bg-transparent px-2.5 py-1.5 font-mono text-xs text-ink-muted transition-colors hover:border-emerald-500/50 hover:text-ink"
               title="Click to view visitor context & unique blog identifier"
               aria-label="Context identifier"
             >
@@ -268,38 +264,46 @@ export default function Navbar() {
 
           <Link
             href="/search/"
-            className="hidden items-center gap-1.5 rounded-lg border border-border bg-surface/80 px-2.5 py-1.5 text-xs font-medium text-ink-muted transition-colors hover:border-emerald-500/50 hover:text-ink sm:flex"
-            aria-label="Search"
+            className="inline-flex h-9 items-center justify-center gap-2.5 rounded-full border border-rule-2 text-ink-soft transition-colors hover:border-ink-muted hover:text-ink w-9 xl:w-auto xl:pl-3 xl:pr-2"
+            aria-label="Search (Ctrl K)"
+            title="Search (Ctrl K)"
           >
-            <span>🔍</span>
-            <span>Search</span>
-            <kbd className="ml-1 rounded border border-border bg-canvas px-1.5 py-0.5 text-[10px] text-ink-muted">⌘K</kbd>
+            <svg viewBox="0 0 16 16" width="15" height="15" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" aria-hidden="true"><circle cx="6.8" cy="6.8" r="4.6" /><path d="M10.2 10.2 14 14" /></svg>
+            <span className="hidden font-mono text-[.78em] xl:inline">Search</span>
+            <kbd className="hidden rounded-md border border-border bg-surface px-1.5 py-1 font-mono text-[11px] leading-none text-ink-soft xl:inline">Ctrl K</kbd>
           </Link>
 
           <button
+            type="button"
             onClick={toggleTheme}
-            className="flex h-8 w-8 items-center justify-center rounded-lg border border-border bg-surface text-sm transition-colors hover:bg-subtle text-ink"
-            aria-label="Toggle theme"
-            title="Toggle theme"
+            className="temp"
+            data-theme-state={theme}
+            aria-label={`temp ${theme}, theme ${theme === 'auto' ? 'follow system' : theme}. Click to change.`}
           >
-            {theme === 'dark' ? '☀️' : '🌙'}
+            <span className="temp-label">temp</span>
+            <span className="temp-track" aria-hidden="true"><span className="temp-knob" /></span>
+            <span className="temp-val hidden sm:inline">{theme === 'light' ? 'τ 0.2' : theme === 'dark' ? 'τ 0.9' : 'auto'}</span>
           </button>
 
-          {/* Mobile hamburger button */}
+          {/* Menu button (below 1024px) */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="flex h-8 w-8 items-center justify-center rounded-lg border border-border bg-surface text-ink md:hidden"
-            aria-label="Open menu"
+            className="flex h-9 w-9 items-center justify-center rounded-full border border-rule-2 text-ink lg:hidden"
+            aria-label={mobileMenuOpen ? 'Close menu' : 'Open menu'}
+            aria-expanded={mobileMenuOpen}
+            aria-controls="mobile-menu"
           >
-            {mobileMenuOpen ? '✕' : '☰'}
+            <svg viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" aria-hidden="true">
+              {mobileMenuOpen ? <path d="M3 3l10 10M13 3L3 13" /> : <path d="M2.5 5h11M2.5 11h11" />}
+            </svg>
           </button>
         </div>
       </div>
 
-      {/* Mobile Menu Dropdown */}
+      {/* Menu panel (below 1024px) */}
       {mobileMenuOpen && (
-        <div className="border-b border-border bg-canvas/98 px-4 py-3 md:hidden">
-          <nav className="flex flex-col gap-1.5">
+        <div id="mobile-menu" className="max-h-[calc(100dvh-65px)] overflow-y-auto border-t border-border bg-canvas px-4 pb-6 pt-3 sm:px-6 lg:hidden">
+          <nav className="mx-auto flex max-w-[1320px] flex-col" aria-label="Menu">
             {NAV_LINKS.map(({ href, label }) => {
               const active = pathname === href || pathname.startsWith(href);
               return (
@@ -307,23 +311,22 @@ export default function Navbar() {
                   key={href}
                   href={href}
                   onClick={() => setMobileMenuOpen(false)}
-                  className={`rounded-md px-3 py-2 text-sm font-medium transition-colors ${
-                    active ? 'bg-surface text-ink font-semibold border border-border' : 'text-ink-muted hover:text-ink'
-                  }`}
+                  aria-current={active ? 'page' : undefined}
+                  className={`flex items-baseline justify-between border-b border-border py-3.5 font-serif text-[1.7rem] italic leading-none ${active ? 'text-accent' : 'text-ink'}`}
                 >
-                  {label}
+                  <span>{label}</span>
+                  <span className="font-mono text-[11px] not-italic text-ink-muted" aria-hidden="true">→</span>
                 </Link>
               );
             })}
-            <Link
-              href="/search/"
-              onClick={() => setMobileMenuOpen(false)}
-              className="mt-2 flex items-center justify-center gap-2 rounded-lg border border-border bg-surface py-2 text-sm text-ink"
-            >
-              <span>🔍</span>
-              <span>Search posts...</span>
-            </Link>
+            <a href="https://info.sahaj.si/" className="flex items-baseline justify-between border-b border-border py-3.5 font-serif text-[1.7rem] italic leading-none text-ink-soft">
+              <span>Portfolio</span>
+              <span className="font-mono text-[11px] not-italic text-ink-muted" aria-hidden="true">↗</span>
+            </a>
           </nav>
+          <p className="mx-auto mt-5 max-w-[1320px] font-mono text-[11px] text-ink-muted">
+            ctx · {activeBlogNo ? `#${activeBlogNo} · ` : ''}{visitorIp && visitorIp !== 'detecting...' ? `you@${formatIpShort(visitorIp)}` : 'you'}
+          </p>
         </div>
       )}
     </header>

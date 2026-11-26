@@ -5,7 +5,7 @@ import { allPosts, byDay, postUrl, fmtDate } from '@/lib/posts';
 import ArchiveHashScroll from '@/components/ArchiveHashScroll';
 
 export const metadata: Metadata = {
-  title: 'Chronological Archive',
+  title: 'Chronological <em>archive</em>',
   description: 'Every single article from August 2023 onward, organized chronologically by year, month, and day.',
 };
 
@@ -37,7 +37,7 @@ export default function ArchivePage() {
           <span>🗄️</span>
           <span>Complete Chronology</span>
         </div>
-        <h1 className="font-serif text-3xl sm:text-5xl font-bold tracking-tight text-ink">
+        <h1 className="text-3xl sm:text-5xl tracking-tight text-ink">
           Chronological Archive
         </h1>
         <p className="max-w-3xl text-sm leading-relaxed text-ink-muted sm:text-base">
@@ -49,7 +49,7 @@ export default function ArchivePage() {
       <section className="space-y-10">
         {[...tree].map(([y, months]) => (
           <div key={y} className="space-y-4">
-            <h2 className="font-serif text-2xl font-bold text-ink border-b border-border pb-2">
+            <h2 className="text-2xl text-ink border-b border-border pb-2">
               📅 Year {y}
             </h2>
 

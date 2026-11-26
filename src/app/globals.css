@@ -1,57 +1,131 @@
-@import 'katex/dist/katex.min.css';
+﻿@import 'katex/dist/katex.min.css';
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@font-face { font-family: "Instrument Serif"; src: url("/fonts/instrument-serif-latin-400-italic.woff2") format("woff2"); font-style: italic; font-weight: 400; font-display: swap; }
+@font-face { font-family: "Instrument Serif"; src: url("/fonts/instrument-serif-latin-400-normal.woff2") format("woff2"); font-style: normal; font-weight: 400; font-display: swap; }
+@font-face { font-family: "Inter Tight"; src: url("/fonts/inter-tight-latin-wght-normal.woff2") format("woff2"); font-weight: 100 900; font-display: swap; }
+@font-face { font-family: "JetBrains Mono"; src: url("/fonts/jetbrains-mono-latin-wght-normal.woff2") format("woff2"); font-weight: 100 800; font-display: swap; }
+@font-face { font-family: "Anthropic Serif"; src: url("/fonts/anthropic-serif/anthropic-serif-text-500-italic.woff2") format("woff2"); font-style: italic; font-weight: 500; font-display: swap; }
+
+/* Tokens copied from info.sahaj.si: one vermilion accent, paper (light) / night (dark). */
 @layer base {
   :root {
-    --canvas: #f8fafc;
-    --surface: #ffffff;
-    --border: #e2e8f0;
-    --ink: #0f172a;
-    --ink-muted: #64748b;
+    --paper-rgb: 246 242 234; --paper-2-rgb: 238 232 220; --paper-3-rgb: 230 222 207;
+    --ink-rgb: 22 20 15; --ink-2-rgb: 72 68 59; --ink-3-rgb: 106 100 88;
+    --rule-rgb: 217 208 191; --rule-2-rgb: 201 191 171;
+    --accent-rgb: 178 62 14; --accent-ink-rgb: 255 248 242;
+    --paper: rgb(var(--paper-rgb)); --paper-2: rgb(var(--paper-2-rgb)); --paper-3: rgb(var(--paper-3-rgb));
+    --ink: rgb(var(--ink-rgb)); --ink-2: rgb(var(--ink-2-rgb)); --ink-3: rgb(var(--ink-3-rgb));
+    --rule: rgb(var(--rule-rgb)); --rule-2: rgb(var(--rule-2-rgb));
+    --accent: rgb(var(--accent-rgb)); --accent-ink: rgb(var(--accent-ink-rgb));
+    --accent-soft: rgb(var(--accent-rgb) / .12);
+    --ease: cubic-bezier(.2, .7, .1, 1);
+    --ease-out: cubic-bezier(.16, 1, .3, 1);
+    color-scheme: light;
   }
 
-  :root[data-theme='dark'],
-  .dark {
-    --canvas: #090d16;
-    --surface: #0e1526;
-    --border: #1e293b;
-    --ink: #f8fafc;
-    --ink-muted: #94a3b8;
+  :root[data-theme='dark'] {
+    --paper-rgb: 11 16 32; --paper-2-rgb: 16 23 44; --paper-3-rgb: 23 32 64;
+    --ink-rgb: 236 232 222; --ink-2-rgb: 185 181 170; --ink-3-rgb: 143 140 132;
+    --rule-rgb: 30 39 66; --rule-2-rgb: 42 53 87;
+    --accent-rgb: 255 138 91; --accent-ink-rgb: 26 11 4;
+    --accent-soft: rgb(var(--accent-rgb) / .14);
+    color-scheme: dark;
   }
 
-  html {
-    scroll-behavior: smooth;
-  }
+  html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; scroll-padding-top: 84px; background: var(--paper); }
 
   body {
-    background-color: var(--canvas);
+    background-color: var(--paper);
     color: var(--ink);
-    font-family: 'Inter', system-ui, -apple-system, sans-serif;
-    font-feature-settings: 'cv02' 1, 'cv03' 1, 'cv04' 1, 'cv11' 1;
+    font-family: 'Inter Tight', ui-sans-serif, system-ui, sans-serif;
+    font-size: clamp(16px, .25vw + 15px, 18px);
+    line-height: 1.6;
+    font-feature-settings: 'ss01', 'cv11';
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    transition: background-color .5s var(--ease), color .5s var(--ease);
   }
+
+  /* paper grain, same pre-rendered tile as the portfolio */
+  body::before {
+    content: ""; position: fixed; inset: 0; pointer-events: none; z-index: 100;
+    background: url("/img/grain-light.png");
+  }
+  :root[data-theme='dark'] body::before { background-image: url("/img/grain-dark.png"); }
+
+  ::selection { background: var(--accent); color: var(--accent-ink); }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
 
   button, a {
     transition: color 150ms ease, background-color 150ms ease, border-color 150ms ease, transform 120ms cubic-bezier(0.16, 1, 0.3, 1), opacity 150ms ease;
   }
+  button:active, a:active { transform: scale(0.982); }
 
-  button:active, a:active {
-    transform: scale(0.982);
+  /* Headings follow the portfolio: tight sans, with key words in serif italic (<em>) and the accent colour. */
+  h1, h2, h3, h4 {
+    font-family: 'Inter Tight', ui-sans-serif, system-ui, sans-serif;
+    font-weight: 450;
+    letter-spacing: -.03em;
+    line-height: 1.1;
+    text-wrap: balance;
   }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  .font-serif {
-    font-family: 'Newsreader', Georgia, serif;
-    font-optical-sizing: auto;
+  h1 { font-size: clamp(1.85rem, 4.2vw, 3.3rem); line-height: 1.08; letter-spacing: -.03em; }
+  h2 { font-size: clamp(1.4rem, 2.6vw, 1.9rem); }
+  h3 { font-size: clamp(1.1rem, 1.8vw, 1.3rem); font-weight: 500; letter-spacing: -.02em; }
+  h4 { font-weight: 500; letter-spacing: -.01em; }
+  h1 em, h2 em, h3 em {
+    font-family: 'Instrument Serif', 'Iowan Old Style', Georgia, serif;
+    font-style: italic; font-weight: 400; letter-spacing: -.01em;
+    font-size: 1.1em; color: var(--accent);
   }
+  em { font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-size: 1.08em; }
+  p, li { text-wrap: pretty; }
 }
+
+/* ---- portfolio header pieces ---- */
+.tok-link {
+  text-decoration: none; position: relative;
+  -webkit-box-decoration-break: clone; box-decoration-break: clone;
+  background: linear-gradient(var(--accent-soft), var(--accent-soft)) no-repeat 0 100% / 0% 100%,
+              linear-gradient(currentColor, currentColor) no-repeat 0 100% / 100% 1px;
+  transition: background-size .45s var(--ease-out), color .2s;
+  padding: 0 .12em; margin: 0 -.12em; border-radius: 2px;
+}
+.tok-link:hover, .tok-link:focus-visible, .tok-link[aria-current='page'] { background-size: 100% 100%, 100% 1px; color: var(--accent); }
+
+.brand-logo { width: 40px; height: 40px; margin: -3px; overflow: visible; flex: none; }
+.brand-logo .ring-track { fill: none; stroke: var(--rule); stroke-width: 1; }
+.brand-logo .ring-prog { fill: none; stroke: var(--accent); stroke-width: 1.5; stroke-linecap: round; }
+.brand-logo .logo-d { opacity: 0; }
+:root[data-theme='dark'] .brand-logo .logo-l { opacity: 0; }
+:root[data-theme='dark'] .brand-logo .logo-d { opacity: 1; }
+.brand-text { font: italic 500 19.5px/1 'Anthropic Serif', 'Source Serif 4', Georgia, serif; letter-spacing: -.01em; }
+
+/* temperature switch = theme toggle */
+.temp {
+  display: inline-flex; align-items: center; gap: 8px; min-height: 36px; min-width: 44px; padding: 0 10px;
+  border: 1px solid var(--rule-2); border-radius: 999px; background: transparent; cursor: pointer; color: var(--ink-2);
+}
+.temp:hover { color: var(--ink); border-color: var(--ink-3); }
+.temp-track { position: relative; width: 34px; height: 6px; border-radius: 6px; background: linear-gradient(90deg, #2C3E78, #8C8A86 50%, var(--accent)); opacity: .85; }
+.temp-knob {
+  position: absolute; top: 50%; left: 50%; width: 12px; height: 12px; margin: -6px 0 0 -6px; border-radius: 50%;
+  background: var(--paper); border: 2px solid var(--ink); transition: left .45s var(--ease-out);
+}
+.temp[data-theme-state='light'] .temp-knob { left: 15%; }
+.temp[data-theme-state='dark'] .temp-knob { left: 85%; }
+.temp-val { min-width: 3.4ch; font-size: 11px; font-family: 'JetBrains Mono', monospace; }
+.temp-label { display: none; font-size: 11px; color: var(--ink-3); font-family: 'JetBrains Mono', monospace; }
+@media (min-width: 900px) { .temp-label { display: inline; } }
+
+/* no visible scrollbars, like the portfolio */
+html, body, * { scrollbar-width: none; -ms-overflow-style: none; }
+html::-webkit-scrollbar, body::-webkit-scrollbar, *::-webkit-scrollbar { display: none; width: 0; height: 0; }
 
 /* ==========================================================================
    AUTHENTIC COMPUTER MODERN LATEX DISPLAY & INLINE MATH
@@ -89,8 +163,7 @@
 
 .dark .katex,
 :root[data-theme='dark'] .katex {
-  color: #f8fafc !important;
-  text-shadow: 0 0 0.4px rgba(248, 250, 252, 0.35);
+  color: var(--ink) !important;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -104,10 +177,10 @@
   word-wrap: normal !important;
   word-break: normal !important;
   border-radius: 0.5rem !important;
-  border: 1px solid #1e293b !important;
-  background-color: #0d1527 !important;
+  border: 1px solid var(--rule) !important;
+  background-color: var(--paper-2) !important;
   padding: 1.25rem 1.5rem !important;
-  color: #f1f5f9 !important;
+  color: var(--ink) !important;
   line-height: 1.6 !important;
   tab-size: 4 !important;
 }
@@ -126,35 +199,31 @@
 /* Default color for all unhighlighted tokens, ASCII diagrams & terminal outputs */
 .prose pre.shiki .line,
 .prose pre.shiki .line span {
-  color: #f1f5f9;
+  color: var(--ink);
 }
 
 /* Dark mode token colors from Shiki variables */
 .dark .shiki span,
 html[data-theme='dark'] .shiki span,
 :root[data-theme='dark'] .shiki span {
-  color: var(--shiki-dark, #f1f5f9) !important;
+  color: var(--shiki-dark, var(--ink)) !important;
   font-style: var(--shiki-dark-font-style, inherit) !important;
   font-weight: var(--shiki-dark-font-weight, inherit) !important;
   text-decoration: var(--shiki-dark-text-decoration, inherit) !important;
 }
 
-/* Light mode overrides */
-html:not([data-theme='dark']):not(.dark) .prose pre,
-html:not([data-theme='dark']):not(.dark) .prose pre.shiki {
-  background-color: #f8fafc !important;
-  border-color: #e2e8f0 !important;
-  color: #0f172a !important;
-}
-
-html:not([data-theme='dark']):not(.dark) .prose pre.shiki .line,
-html:not([data-theme='dark']):not(.dark) .prose pre.shiki .line span {
-  color: #0f172a;
-}
-
-html:not([data-theme='dark']):not(.dark) .shiki span {
-  color: var(--shiki-light, #0f172a) !important;
+/* Light mode: shiki's light token colours */
+:root:not([data-theme='dark']) .shiki span {
+  color: var(--shiki-light, var(--ink)) !important;
   font-style: var(--shiki-light-font-style, inherit) !important;
   font-weight: var(--shiki-light-font-weight, inherit) !important;
   text-decoration: var(--shiki-light-text-decoration, inherit) !important;
 }
+/* very small phones (<=359px): keep the whole header on one row */
+@media (max-width: 359px) {
+  .brand-text { font-size: 14px; }
+  .brand-logo { width: 34px; height: 34px; }
+  .temp { padding: 0 8px; min-width: 40px; }
+  .temp-track { width: 26px; }
+}
+@media (max-width: 640px) { .brand-text { font-size: 17px; } }

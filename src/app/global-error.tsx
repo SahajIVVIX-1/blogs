@@ -19,7 +19,7 @@ export default function RootGlobalError({ error, reset }: GlobalErrorProps) {
           <div className="mx-auto mb-4 h-12 w-12 rounded-xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-xl text-emerald-400">
             ⚡
           </div>
-          <h2 className="text-xl font-bold tracking-tight text-white font-serif">
+          <h2 className="text-xl tracking-tight text-white ">
             Sahaj Saliya · Handbooks
           </h2>
           <p className="mt-2 text-xs text-slate-400 leading-relaxed">

@@ -18,8 +18,8 @@ export default function AiPage() {
           <span>⚡</span>
           <span>Model Releases & Announcements</span>
         </div>
-        <h1 className="font-serif text-3xl sm:text-5xl font-bold tracking-tight text-ink">
-          AI Industry Releases & Updates
+        <h1 className="text-3xl sm:text-5xl tracking-tight text-ink">
+          AI industry <em>releases</em> &amp; updates
         </h1>
         <p className="max-w-3xl text-sm leading-relaxed text-ink-muted sm:text-base">
           Verified technical summaries of frontier foundation models, architectural shifts, and open-source library releases from OpenAI, Anthropic, Google DeepMind, Meta AI, Mistral, and Hugging Face.
@@ -28,7 +28,7 @@ export default function AiPage() {
 
       <section className="space-y-6">
         <div className="flex items-center justify-between text-xs text-ink-muted">
-          <h2 className="font-serif text-2xl font-bold text-ink">Latest Releases ({posts.length.toLocaleString()})</h2>
+          <h2 className="text-2xl text-ink">Latest Releases ({posts.length.toLocaleString()})</h2>
           <span>Dated by official announcement date</span>
         </div>
         <PostList posts={posts} />

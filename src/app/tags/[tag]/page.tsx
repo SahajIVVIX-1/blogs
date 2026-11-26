@@ -50,7 +50,7 @@ export default async function TagDetailPage({ params }: TagPageProps) {
           <span>🏷️</span>
           <span>Topic Filter</span>
         </div>
-        <h1 className="font-serif text-3xl sm:text-4xl font-bold text-ink">#{decoded}</h1>
+        <h1 className="text-3xl sm:text-4xl text-ink">#{decoded}</h1>
         <p className="text-xs text-ink-muted">
           Showing {posts.length} verified technical article{posts.length > 1 ? 's' : ''} tagged with #{decoded}.
         </p>

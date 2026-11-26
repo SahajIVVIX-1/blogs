@@ -41,14 +41,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" data-theme="dark" className="dark scroll-smooth">
+    <html lang="en" data-theme="light" className="scroll-smooth" suppressHydrationWarning>
       <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;450;500;600;700&family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;1,400&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,600&display=swap"
-          rel="stylesheet"
-        />
+        <link rel="preload" href="/fonts/instrument-serif-latin-400-italic.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+        <link rel="preload" href="/fonts/inter-tight-latin-wght-normal.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+        <meta name="color-scheme" content="light dark" />
+        <meta name="theme-color" media="(prefers-color-scheme: light)" content="#F6F2EA" />
+        <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0B1020" />
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
@@ -56,20 +55,17 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{
             __html: `
               try {
-                const t = localStorage.getItem('theme');
-                if (t === 'light') {
-                  document.documentElement.dataset.theme = 'light';
-                  document.documentElement.classList.remove('dark');
-                } else {
-                  document.documentElement.dataset.theme = 'dark';
-                  document.documentElement.classList.add('dark');
-                }
+                var m = localStorage.getItem('theme');
+                var dark = m === 'dark' || (m !== 'light' && matchMedia('(prefers-color-scheme: dark)').matches);
+                var r = document.documentElement;
+                r.dataset.theme = dark ? 'dark' : 'light';
+                r.classList.toggle('dark', dark);
               } catch (e) {}
             `,
           }}
         />
       </head>
-      <body className="min-h-screen bg-canvas text-ink flex flex-col antialiased selection:bg-emerald-500/20 selection:text-emerald-300">
+      <body className="min-h-screen bg-canvas text-ink flex flex-col antialiased ">
         <Suspense fallback={null}>
           <NavigationLoader />
         </Suspense>

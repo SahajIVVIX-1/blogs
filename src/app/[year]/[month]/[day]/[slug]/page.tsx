@@ -159,7 +159,7 @@ export default async function PostDetailPage({ params }: PageProps) {
       </div>
 
       {/* Article Title */}
-      <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-ink leading-tight">
+      <h1 className="text-3xl sm:text-4xl lg:text-5xl tracking-tight text-ink leading-tight">
         {d.title}
       </h1>
 
@@ -200,7 +200,7 @@ export default async function PostDetailPage({ params }: PageProps) {
       {/* Verified Primary Sources */}
       {d.sources && d.sources.length > 0 && (
         <section className="mt-10 rounded-xl border border-border bg-surface p-5">
-          <h3 className="font-serif text-lg font-bold text-ink">Verified Primary Sources</h3>
+          <h3 className="text-lg text-ink">Verified Primary Sources</h3>
           <ol className="mt-3 list-decimal list-inside space-y-1.5 text-xs text-ink-muted">
             {d.sources.map((s, idx) => (
               <li key={idx}>
@@ -232,7 +232,7 @@ export default async function PostDetailPage({ params }: PageProps) {
           </div>
           <div className="flex-1 space-y-1">
             <div className="flex flex-wrap items-center justify-between gap-2">
-              <h4 className="font-serif text-base font-bold text-ink">Sahaj Saliya</h4>
+              <h4 className="text-base text-ink">Sahaj Saliya</h4>
               <span className="text-xs text-ink-muted">PDEU Gandhinagar · 2023–2027</span>
             </div>
             <p className="text-xs leading-relaxed text-ink-muted">
