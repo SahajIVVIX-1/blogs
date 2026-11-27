@@ -1,0 +1,1242 @@
+@15.1
+a=Environment state
+b=Sense: observe
+c=Plan: choose an action
+d=Act: call a tool
+e=Environment changes
+f?=Goal reached?
+g!=Agent stops
+a>b>c>d>e>f
+f-no>b
+f-yes>g
+@15.2
+a=Goal and context
+b=LLM reasoning engine
+c=Context memory
+d=Tool dispatcher
+e?=Stopping condition met?
+f!=Final answer
+a>b>d>c>b
+b>e
+e-yes>f
+e-no>d
+@15.3
+a=Question
+b=Thought: reason about what is needed
+c=Action: call a tool
+d=Observation: tool result
+e?=Enough to answer?
+f!=Final answer
+a>b>c>d>e
+e-no>b
+e-yes>f
+@15.4
+a=Function declared with JSON Schema
+b=Model sees names, types, descriptions
+c=Model emits a call with arguments
+d?=Arguments valid?
+e=Execute function
+f=Return error to the model
+g=Result appended to messages
+h!=Model continues
+a>b>c>d
+d-yes>e>g>h
+d-no>f>b
+@15.5
+a=Required output format
+b?=Method?
+c=Outlines: regex or FSM masks tokens
+d=Jsonformer: fill values into a fixed JSON skeleton
+e=CFG grammar constrains decoding
+f=Only valid tokens allowed
+g!=Guaranteed valid output
+a>b
+b-fsm>c>f>g
+b-skeleton>d>f>g
+b-cfg>e>f>g
+@15.6
+a=Complex task
+b=Planner writes a step-by-step plan
+c=Executor runs each step
+d?=Plan complete?
+e=Revise remaining steps
+f!=Result
+a>b>c>d
+d-no>e>c
+d-yes>f
+@15.7
+a=Attempt the task
+b=Evaluator scores the outcome
+c?=Success?
+d=Self-reflection in words
+e=Store reflection in episodic memory
+f=Retry with reflections in context
+g!=Solved
+a>b>c
+c-yes>g
+c-no>d>e>f>a
+@15.8
+a=Root state
+b=Select a node by UCT
+c=Expand with LLM actions
+d=Evaluate with a value function and feedback
+e=Reflect on failures
+f=Backpropagate value
+g?=Solution found?
+h!=Best trajectory
+a>b>c>d>e>f>g
+g-no>b
+g-yes>h
+@15.9
+a=Task
+b=Generate candidate thoughts
+c=Evaluate each state by a heuristic
+d?=Promising?
+e=Expand with BFS or DFS
+f=Prune and backtrack
+g!=Solution path
+a>b>c>d
+d-yes>e>g
+d-no>f>b
+@15.10
+a=Initial output
+b=Model critiques it
+c=Feedback listing issues
+d=Model refines the output
+e?=Converged?
+f!=Final output
+a>b>c>d>e
+e-no>b
+e-yes>f
+@15.11
+a=Model-proposed arguments (strings)
+b=Serialize and validate against the schema
+c=Type coercion: "3" to 3
+d?=Execution error?
+e=Structured error back to the model
+f=Result back to the model
+g!=Retry or proceed
+a>b>c>d
+d-yes>e>g
+d-no>f>g
+@15.12
+a=Independent tool needs
+b=Model emits several calls in one turn
+c=Dispatcher runs them concurrently
+d=Collect results by call id
+e=Append all results
+f!=One round trip
+a>b>c>d>e>f
+@15.13
+a=Streaming tokens of a call
+b=Incremental JSON parser
+c?=Arguments complete?
+d=Start execution early
+e=Keep buffering
+f!=Lower time to first result
+a>b>c
+c-yes>d>f
+c-no>e>b
+@15.14
+a=Thousands of tools
+b=Embed tool descriptions
+c=Query embedding from the task
+d=Retrieve top-k tools
+e=Rerank
+f=Put only chosen tool schemas in the prompt
+g!=Scalable tool selection
+a>b>d
+c>d>e>f>g
+@15.15
+a=Ambiguous request
+b=Estimate uncertainty
+c?=Confident?
+d=Proceed with the tool call
+e?=Cost of a wrong action high?
+f=Ask a clarifying question
+g=Choose the safest default and say so
+h!=Action
+a>b>c
+c-yes>d>h
+c-no>e
+e-yes>f>h
+e-no>g>h
+@15.16
+a=Agent memory
+b=Working: current context
+c=Episodic: past experiences
+d=Semantic: facts and entities
+e=Procedural: skills and workflows
+f!=Combined recall
+a>b>f
+a>c>f
+a>d>f
+a>e>f
+@15.17
+a=Growing conversation
+b?=Context nearly full?
+c=Sliding window keeps recent turns
+d=Truncate old tool outputs
+e=Serialize active state into a scratchpad
+f!=Bounded working memory
+a>b
+b-yes>c>d>e>f
+b-no>f
+@15.18
+a=Finished trajectory
+b=Store summary with outcome
+c=Embed and index
+d=New task: retrieve similar episodes
+e=Insert lessons into the prompt
+f!=Learning from experience
+a>b>c
+d>c>e>f
+@15.19
+a=Conversations
+b=Extract entities and facts
+c=Update the knowledge graph
+d=Resolve conflicts with newer facts
+e=Persistent entity store
+f!=Semantic memory
+a>b>c>d>e>f
+@15.20
+a=Successful workflow
+b=Abstract into a reusable skill
+c=Store with a description
+d=Retrieve for similar tasks
+e=Fill parameters and execute
+f!=Procedural memory
+a>b>c>d>e>f
+@15.21
+a=New messages
+b=LLM extracts candidate facts
+c=Compare with existing memories
+d?=Relation?
+e=ADD new fact
+f=UPDATE changed fact
+g=DELETE contradicted fact
+h=NOOP duplicate
+i!=Consistent memory layer
+a>b>c>d
+d-new>e>i
+d-changed>f>i
+d-conflict>g>i
+d-same>h>i
+@15.22
+a=Main context (RAM)
+b?=Context pressure?
+c=Evict messages to archival storage (disk)
+d=Recursive summary stays
+e=Agent calls memory functions to page in
+f=Interrupts for heartbeats
+g!=Unbounded effective memory
+a>b
+b-yes>c>d>e>g
+b-no>f>g
+@15.23
+a=Long-running agent history
+b=Summarize old segments recursively
+c=Keep semantic deltas: decisions, open items
+d=Drop redundant tool output
+e=Rebuild a compact context
+f!=Sustained long sessions
+a>b>c>d>e>f
+@15.24
+a=Context exceeds the window
+b?=Strategy?
+c=Compaction summary
+d=Offload to files and retrieve
+e=Spawn a fresh subagent with a handoff
+f=Hard fail
+g!=Resume with a compact state
+a>b
+b-compact>c>g
+b-offload>d>g
+b-handoff>e>g
+b-none>f
+@15.25
+a=Multi-agent design
+b?=Topology?
+c=Centralized supervisor
+d=Decentralized peers
+e=Single point of control
+f=Resilient but harder to coordinate
+g!=Choose by task coupling
+a>b
+b-central>c>e>g
+b-peer>d>f>g
+@15.26
+a=User task
+b=Supervisor decomposes
+c=Worker: research
+d=Worker: code
+e=Worker: review
+f=Results aggregated
+g?=Complete?
+h!=Final response
+a>b>c>f
+b>d>f
+b>e>f
+f>g
+g-no>b
+g-yes>h
+@15.27
+a=Agent A message
+b=Message bus
+c=Direct addressing to agent B
+d=Broadcast topics to many
+e=Agents react to messages
+f!=Decentralized coordination
+a>b>c>e
+b>d>e>f
+@15.28
+a=Shared state with reducers
+b=Supervisor node
+c=Agent nodes
+d?=Route?
+e=Next agent
+f=END
+g!=LangGraph multi-agent
+a>b>d
+d-delegate>e>c>a
+d-done>f>g
+@15.29
+a=Agents with role, goal, backstory
+b=Tasks with expected outputs
+c?=Process?
+d=Sequential: one after another
+e=Hierarchical: manager delegates
+f!=Crew result
+a>b>c
+c-seq>d>f
+c-hier>e>f
+@15.30
+a=Conversable agents
+b=Group chat manager selects next speaker
+c=Speaker replies
+d?=Human input needed?
+e=Human proxy responds
+f?=Termination?
+g!=Result
+a>b>c>d
+d-yes>e>f
+d-no>f
+f-no>b
+f-yes>g
+@15.31
+a=Requirement from the CEO role
+b=CTO designs architecture
+c=Programmer writes code
+d=Reviewer comments
+e=Tester runs checks
+f?=Passes?
+g!=Delivered software
+a>b>c>d>e>f
+f-no>c
+f-yes>g
+@15.32
+a=Agents disagree
+b?=Resolution?
+c=Voting: majority or weighted
+d=Debate rounds exchange arguments
+e=Arbiter agent decides
+f=Record rationale
+g!=Resolved decision
+a>b
+b-vote>c>f>g
+b-debate>d>f>g
+b-arbiter>e>f>g
+@15.33
+a=Swarm of agents
+b=Local interaction rules
+c=Specialization emerges
+d=Coordination without a leader
+e?=Runaway dynamics?
+f=Infinite delegation loop
+g=Budgets and guards
+h!=Stable swarm
+a>b>c>d>e
+e-yes>f>g>h
+e-no>h
+@15.34
+a=N applications x M tools
+b=Custom integration each: N x M
+c=MCP standard protocol
+d=Each app implements a client once
+e=Each tool implements a server once
+f!=N + M integrations
+a>b>c
+c>d>f
+c>e>f
+@15.35
+a=Host application (IDE)
+b=MCP client per server
+c=MCP server A (files)
+d=MCP server B (database)
+e=Capabilities negotiated
+f!=Tools in the model's context
+a>b>c>e
+b>d>e>f
+@15.36
+a=MCP server
+b=Resources: data to read
+c=Tools: actions to execute
+d=Prompts: reusable templates
+e!=Three primitives
+a>b>e
+a>c>e
+a>d>e
+@15.37
+a=Choose transport
+b?=Where does the server run?
+c=Local subprocess: stdio
+d=Remote service: HTTP with SSE or streamable HTTP
+e=Lines of JSON-RPC over pipes
+f=Auth and TLS required
+g!=Connected
+a>b
+b-local>c>e>g
+b-remote>d>f>g
+@15.38
+a=Client request: id, method, params
+b=Server handles the method
+c?=Success?
+d=Response with result and the same id
+e=Error object with code and message
+f=Notifications have no id
+g!=JSON-RPC 2.0
+a>b>c
+c-yes>d>g
+c-no>e>g
+f>g
+@15.39
+a=Create Server with the TypeScript SDK
+b=Declare tools with input schemas
+c=Register request handlers
+d=Connect a transport
+e=Initialize handshake
+f!=Running MCP server
+a>b>c>d>e>f
+@15.40
+a=FastMCP instance
+b=Decorate functions as tools
+c=Type hints become the schema
+d=Async handlers
+e=Run with stdio
+f!=Python MCP server
+a>b>c>d>e>f
+@15.41
+a=Resource URI scheme
+b=Static resources and URI templates
+c=Client lists and reads
+d?=Subscribed?
+e=Server sends update notifications
+f!=Fresh context
+a>b>c>d
+d-yes>e>f
+d-no>f
+@15.42
+a=Tool definition
+b=Pydantic model as input schema
+c=Validate arguments
+d?=Execution raises?
+e=Return isError with message
+f=Return content
+g!=Tool result
+a>b>c>d
+d-yes>e>g
+d-no>f>g
+@15.43
+a=Server defines prompt templates with arguments
+b=Host lists prompts
+c=User selects one
+d=Server renders messages
+e!=Parameterized workflows
+a>b>c>d>e
+@15.44
+a=Server needs an LLM step
+b=Sends sampling request to the client
+c=Client reviews and approves
+d=Host LLM generates
+e=Result returned to the server
+f!=Nested intelligence
+a>b>c>d>e>f
+@15.45
+a=Requested tool call
+b?=Dangerous?
+c=Read-only enforced by default
+d=User approval prompt
+e=Permission scopes per server
+f=Sandbox the process
+g!=Safe execution
+a>b
+b-no>c>e>g
+b-yes>d>f>g
+@15.46
+a=Remote MCP server
+b=HTTPS and streamable transport
+c=OAuth 2.1 authorization
+d=Per-user scopes
+e=Audit logging
+f!=Enterprise deployment
+a>b>c>d>e>f
+@15.47
+a=Issue description
+b=Explore repository
+c=Edit files
+d=Run tests in a sandbox
+e?=Tests pass?
+f!=Pull request
+a>b>c>d>e
+e-no>c
+e-yes>f
+@15.48
+a=GitHub issue and repository snapshot
+b=Agent produces a patch
+c=Apply patch
+d=Run the hidden tests
+e?=FAIL_TO_PASS now pass and PASS_TO_PASS still pass?
+f=Resolved
+g=Unresolved
+a>b>c>d>e
+e-yes>f
+e-no>g
+@15.49
+a=Repository
+b=Tree-sitter parses to ASTs
+c=Extract symbols and references
+d=Symbol graph
+e=Embed code chunks
+f=Query by name or meaning
+g!=Repository index
+a>b>c>d>f
+a>e>f>g
+@15.50
+a=Find relevant code
+b?=Method?
+c=grep or ripgrep on patterns
+d=File finder by name
+e=Outline summary of large files
+f=Read only needed ranges
+g!=Token-efficient navigation
+a>b
+b-text>c>f>g
+b-names>d>f>g
+b-structure>e>f>g
+@15.51
+a=Code change
+b?=Edit format?
+c=Whole-file overwrite
+d=Unified diff
+e=Search-replace blocks
+f?=Patch applies cleanly?
+g!=Updated files
+a>b
+b-whole>c>f
+b-diff>d>f
+b-block>e>f
+f-yes>g
+f-no>b
+@15.52
+a=Write code
+b=Run pytest or jest
+c?=Failures?
+d=Read the traceback
+e=Fix the code
+f!=Green tests
+a>b>c
+c-yes>d>e>b
+c-no>f
+@15.53
+a=Task start
+b=Create a branch
+c=Make atomic changes
+d=Commit with a clear message
+e=Open a pull request
+f!=Reviewable history
+a>b>c>d>e>f
+@15.54
+a=Agent goal
+b=Headless browser via Playwright or CDP
+c=Navigate and observe page state
+d=Click, type, scroll
+e?=Goal achieved?
+f!=Task done
+a>b>c>d>e
+e-no>c
+e-yes>f
+@15.55
+a=Raw DOM is huge
+b=Accessibility tree
+c=Prune invisible and decorative nodes
+d=Lightweight Markdown or element list
+e=Fit the context window
+f!=Compact page view
+a>b>c>d>e>f
+@15.56
+a=Screenshot
+b=Detect interactive elements
+c=Overlay numbered marks (Set-of-Marks)
+d=Model chooses a mark number
+e=Map the mark to coordinates
+f!=Grounded click
+a>b>c>d>e>f
+@15.57
+a=GUI screenshot
+b=Detect interactable regions
+c=Caption each icon's function
+d=Structured element list
+e=LLM picks an action
+f!=Vision-only GUI parsing
+a>b>c>d>e>f
+@15.58
+a=Live web apps in containers
+b=Task: end-to-end goal
+c=Agent acts via the browser
+d=Programmatic state checker
+e?=Goal state reached?
+f=Success
+g=Failure
+a>b>c>d>e
+e-yes>f
+e-no>g
+@15.59
+a=Real desktop environment (VM)
+b=Task across apps
+c=Agent sees screenshots and controls keyboard and mouse
+d=Execution-based evaluation script
+e!=Success rate
+a>b>c>d>e
+@15.60
+a=Research question
+b=Plan sub-questions
+c=Search many sources
+d=Read and extract
+e=Follow citations recursively
+f?=Coverage enough?
+g=Synthesize a cited report
+h!=Report
+a>b>c>d>e>f
+f-no>c
+f-yes>g>h
+@15.61
+a=Dataset
+b=Automated EDA
+c=Generate pandas code
+d=Execute in a sandbox
+e=Plot charts
+f?=Errors?
+g=Fix the code
+h!=Insights summary
+a>b>c>d>f
+f-yes>g>c
+f-no>e>h
+@15.62
+a=Trigger from Slack or Jira
+b=Agent reads the event
+c=Calls SaaS APIs: GitHub, Linear, Notion
+d?=Needs approval?
+e=Human approves
+f=Complete the workflow
+g!=Automated workflow
+a>b>c>d
+d-yes>e>f>g
+d-no>f>g
+@15.63
+a=Execution traces
+b=Evaluate successes and failures
+c=Distill better prompts and tools
+d=Update the agent configuration
+e?=Metrics improve?
+f!=Self-improved agent
+a>b>c>d>e
+e-yes>f
+e-no>c
+@15.64
+a=Minecraft task
+b=Curriculum proposes the next goal
+c=LLM writes skill code
+d=Run in the environment with feedback
+e?=Success?
+f=Store the skill in the library
+g=Refine with the error message
+a>b>c>d>e
+e-yes>f>b
+e-no>g>c
+@15.65
+a=Parent agent
+b=Spawn an ephemeral child with a single task
+c=Child has isolated context and tools
+d=Child works and returns a summary only
+e=Parent continues with a clean context
+f!=Delegation
+a>b>c>d>e>f
+@15.66
+a=Agent run
+b?=Failure mode?
+c=Infinite loop
+d=Hallucinated tool call
+e=Context overflow
+f=Detect and stop
+g!=Recover or escalate
+a>b
+b-loop>c>f>g
+b-bad>d>f>g
+b-full>e>f>g
+@15.67
+a=Step counter and token budget
+b=Repeated action detection
+c?=Limit hit or loop detected?
+d=Hard stop
+e=Break the loop with a new strategy
+f!=Safe termination
+a>b>c
+c-yes>d>f
+c-yes>e>f
+c-no>a
+@15.68
+a=Agent reads a web page or email
+b=Hidden instructions inside the content
+c?=Treated as commands?
+d=Tool call hijacked
+e=Exfiltrate data or act maliciously
+f=Content treated as data only
+g!=Attack outcome
+a>b>c
+c-yes>d>e>g
+c-no>f>g
+@15.69
+a=Untrusted content
+b=Quarantined LLM processes it, no tools
+c=Privileged LLM has tools, sees only sanitized output
+d=Allowlist of actions
+e=Output checked
+f!=Injection-resistant agent
+a>b>c>d>e>f
+@15.70
+a=Agent-written code
+b?=Isolation?
+c=Docker container
+d=gVisor user-space kernel
+e=Firecracker microVM
+f=WebAssembly
+g=No network, resource limits
+h!=Safe execution
+a>b
+b-c>c>g>h
+b-g>d>g
+b-f>e>g
+b-w>f>g
+@15.71
+a=Planned action
+b?=High risk?
+c=Payment, delete, send external
+d=Approval gate to a human
+e?=Approved?
+f=Execute
+g=Cancel and tell the model
+h!=Safe autonomy
+a>b
+b-yes>c>d>e
+b-no>f>h
+e-yes>f>h
+e-no>g>h
+@15.72
+a=User input and model output
+b=Input rails: Llama Guard, topic rules
+c=Model call
+d=Output rails: validators in Python
+e?=Violation?
+f=Block or rewrite
+g!=Safe response
+a>b>c>d>e
+e-yes>f>g
+e-no>g
+@15.73
+a=Agent decision with confidence
+b?=Confidence above threshold?
+c=Execute the agent plan
+d=Fall back to deterministic rules
+e!=Reliable behavior
+a>b
+b-yes>c>e
+b-no>d>e
+@15.74
+a=Agent run
+b=Instrument with OpenTelemetry
+c=Traces to LangSmith, Langfuse, Phoenix
+d=Cost, latency, errors
+e=Alerts
+f!=Observability
+a>b>c>d>e>f
+@15.75
+a=Trace of a run
+b=Spans per LLM call
+c=Nested subagent spans
+d=Tool call spans
+e=Timeline view
+f?=Slow or failing span?
+g!=Root cause
+a>b>e
+a>c>e
+a>d>e>f
+f-yes>g
+@15.76
+a=Agent under test
+b?=Benchmark?
+c=AgentBench: diverse environments
+d=ToolBench: API usage
+e=Simulation sandbox
+f=Automated scoring
+g!=Comparable results
+a>b
+b-env>c>f>g
+b-api>d>f>g
+b-sim>e>f>g
+@15.77
+a=Agent cost
+b=Token budgets per step
+c=Cache tool results
+d=Route simple steps to small models
+e=Prompt caching of fixed prefixes
+f!=Lower cost and latency
+a>b>f
+a>c>f
+a>d>f
+a>e>f
+@15.78
+a=Tool invocation
+b?=Complexity?
+c=Low: 8B specialist
+d=High: frontier model
+e=Router decides
+f!=Cost-aware execution
+a>e>b
+b-low>c>f
+b-high>d>f
+@15.79
+a=Multi-turn agent
+b=Freeze system prompt and tool definitions first
+c=Append new turns after the cached prefix
+d?=Prefix identical?
+e=Cache hit, lower cost
+f=Cache miss, recompute
+g!=Cheaper turns
+a>b>c>d
+d-yes>e>g
+d-no>f>g
+@15.80
+a=Private environment
+b=Ollama, LocalAI, vLLM
+c=Local model runtime
+d=Agent loop on device
+e!=Privacy-preserving agent
+a>b>c>d>e
+@15.81
+a=User speaks
+b=Streaming ASR
+c=LLM agent reasoning
+d=Streaming TTS
+e?=User interrupts?
+f=Cancel audio and listen
+g!=Voice conversation
+a>b>c>d>e
+e-yes>f>b
+e-no>g
+@15.82
+a=Screenshots, audio, sensors
+b=Encode modalities
+c=Unified context
+d=Agent decides actions
+e=Execute and observe
+f!=Continuous multimodal loop
+a>b>c>d>e>f
+@15.83
+a=High-level language plan
+b=Ground steps into ROS2 actions
+c=Low-level controllers
+d=Sensors feed back
+e?=Step succeeded?
+f!=Task complete
+a>b>c>d>e
+e-no>b
+e-yes>f
+@15.84
+a=Instruction
+b=LLM proposes candidate skills (SayCan)
+c=Affordance model scores feasibility
+d=Pick skill by usefulness x feasibility
+e=Robot executes
+f!=PaLM-E and RT-2 ground vision to actions
+a>b>c>d>e>f
+@15.85
+a=Market data and news
+b=Sentiment monitoring
+c=Strategy proposal
+d=Risk and position limits
+e?=Within limits?
+f=Order via API with approval
+g=Reject
+a>b>c>d>e
+e-yes>f
+e-no>g
+@15.86
+a=Network and code
+b=Vulnerability scanning
+c=Prioritize by exploitability
+d=Generate and test a patch
+e?=Safe in staging?
+f=Deploy
+g=Escalate to a human
+a>b>c>d>e
+e-yes>f
+e-no>g
+@15.87
+a=Target agent
+b=Automated adversarial prompts
+c=Fuzz tool inputs
+d=Observe unsafe actions
+e=Report vulnerabilities
+f=Harden and re-test
+g!=Red-team loop
+a>b>d
+a>c>d>e>f>g
+@15.88
+a=Autonomous decision causes harm
+b=Who is liable?
+c=Developer
+d=Operator
+e=User
+f=Compliance: logging, consent, human oversight
+g!=Accountability framework
+a>b>c>f
+b>d>f
+b>e>f>g
+@15.89
+a=Each thought and tool call
+b=Hash and sign cryptographically
+c=Append to a tamper-evident log
+d=Verify the chain later
+e!=Verifiable audit
+a>b>c>d>e
+@15.90
+a=Complex goal
+b?=Planner?
+c=HTN: predefined methods decompose tasks
+d=LLM plans dynamically
+e=Predictable and verifiable
+f=Flexible but less guaranteed
+g!=Hybrid planning
+a>b
+b-htn>c>e>g
+b-llm>d>f>g
+@15.91
+a=State s
+b=Action a
+c=Transition P(s' | s, a)
+d=Reward r
+e=Policy pi(a | s)
+f=Maximize expected return
+g!=MDP agent
+a>b>c>d>f
+e>b
+@15.92
+a=Partial observations
+b=Belief state: distribution over states
+c=Action
+d=New observation
+e=Bayes update of the belief
+f!=POMDP agent
+a>b>c>d>e>b
+e>f
+@15.93
+a=Uncertain belief
+b?=Expected information gain worth the cost?
+c=Gather more information first
+d=Commit to the action
+e!=Active perception
+a>b
+b-yes>c>a
+b-no>d>e
+@15.94
+a=Choose a tool or action
+b?=Strategy?
+c=Epsilon-greedy: random with probability epsilon
+d=UCB: mean + exploration bonus
+e=Thompson sampling: sample from the posterior
+f=Observe reward
+g!=Balanced learning
+a>b
+b-eps>c>f
+b-ucb>d>f
+b-ts>e>f
+f>g
+@15.95
+a=50-step trajectory with final reward
+b=Which step caused the outcome?
+c=Process reward per step
+d=Counterfactual replay
+e=Advantage estimates
+f!=Credit assignment
+a>b>c>e
+b>d>e>f
+@15.96
+a=Agent samples trajectories with tools
+b=Execution rewards
+c=Advantage estimation
+d=PPO update
+e?=Improving?
+f!=Better tool policy
+a>b>c>d>e
+e-no>a
+e-yes>f
+@15.97
+a=Frontier model trajectories
+b=Filter by success
+c=Fine-tune a 7B student
+d=Evaluate on held-out tasks
+e!=Distilled agent
+a>b>c>d>e
+@15.98
+a=Seed tasks
+b=Generate execution paths
+c=Inject errors and corrections
+d=Verify final outcomes
+e=Training set of self-correcting trajectories
+f!=Synthetic data
+a>b>c>d>e>f
+@15.99
+a=Context features
+b=Bandit policy chooses an API
+c=Observe reward: success, cost, latency
+d=Update arm statistics
+e!=Adaptive tool routing
+a>b>c>d>b
+d>e
+@15.100
+a=API call fails (429 or 5xx)
+b=Wait base x 2^attempt
+c=Add random jitter
+d?=Retries left?
+e=Retry
+f=Give up and report
+a>b>c>d
+d-yes>e>a
+d-no>f
+@15.101
+a=Network glitch, retry needed
+b=Client sends an idempotency key
+c?=Key seen before?
+d=Return the stored result
+e=Execute once and store
+f!=Safe retries
+a>b>c
+c-yes>d>f
+c-no>e>f
+@15.102
+a=Agent trace
+b=Formal state machine model
+c?=Transition allowed?
+d=Continue
+e=Violation: block the action
+f!=Verified execution
+a>b>c
+c-yes>d>f
+c-no>e>f
+@15.103
+a=Independent tool calls
+b=Event loop schedules coroutines
+c=Await concurrently
+d?=Cancel or timeout?
+e=Cancel tasks cleanly
+f=Gather results
+g!=Concurrent execution
+a>b>c>d
+d-yes>e>g
+d-no>f>g
+@15.104
+a=Agent tasks
+b=Queue: Celery or Ray
+c=Workers run agents
+d=Temporal workflows retry durably
+e?=Worker dies?
+f=Resume elsewhere
+g!=Resilient swarm
+a>b>c>d>e
+e-yes>f>g
+e-no>g
+@15.105
+a=Long task running
+b=Checkpoint state to disk
+c?=Interrupted?
+d=Reload the latest checkpoint
+e=Resume the next step
+f!=Completed task
+a>b>c
+c-yes>d>e>f
+c-no>f
+@15.106
+a=Requests from tenants
+b=Authenticate
+c=Rate limits and quotas per tenant
+d?=Within quota?
+e=Route to the agent runtime
+f=Reject with 429
+g!=Isolated multi-tenancy
+a>b>c>d
+d-yes>e>g
+d-no>f>g
+@15.107
+a=Agent events
+b=Stream over SSE or WebSocket
+c=UI shows thought bubbles
+d=Tool call cards
+e=Artifacts render live
+f!=Transparent progress
+a>b>c>f
+b>d>f
+b>e>f
+@15.108
+a=Agent output intent
+b=Select a UI component
+c=Charts, forms, tables
+d=Render dynamically
+e=User interacts
+f=Events return to the agent
+g!=Generative UI
+a>b>c>d>e>f>a
+d>g
+@15.109
+a=Untrusted code
+b=WebContainers or Pyodide in the browser
+c=No server needed
+d=Browser security sandbox
+e!=Safe in-browser execution
+a>b>c>d>e
+@15.110
+a=Code cell from the agent
+b=Jupyter Kernel Gateway
+c=Isolated kernel per session
+d=State persists across cells
+e=Return outputs and plots
+f!=Code interpreter
+a>b>c>d>e>f
+@15.111
+a=Natural language question
+b=Provide the schema
+c=Text-to-SQL generation
+d=Validate and explain the plan
+e?=Safe and correct?
+f=Execute read-only
+g=Fix the query
+h!=Answer
+a>b>c>d>e
+e-yes>f>h
+e-no>g>c
+@15.112
+a=CI build fails
+b=Agent reads logs
+c=Diagnose root cause
+d=Propose a fix
+e=Run CI again
+f?=Green?
+g!=Merged fix
+a>b>c>d>e>f
+f-no>b
+f-yes>g
+@15.113
+a=Customer message
+b=Detect sentiment and intent
+c=Ground in the knowledge base
+d=Draft a reply
+e?=Confident and safe?
+f=Send
+g=Escalate to a human agent
+a>b>c>d>e
+e-yes>f
+e-no>g
+@15.114
+a=Clinical question
+b=PHI handled under HIPAA
+c=Evidence retrieval
+d=Diagnostic suggestion verified
+e=Physician review required
+f!=Clinician-approved output
+a>b>c>d>e>f
+@15.115
+a=Student answer
+b=Diagnose knowledge gaps
+c=Socratic question
+d=Adapt difficulty
+e?=Mastered?
+f=Next topic
+g!=Personalized learning
+a>b>c>d>e
+e-no>c
+e-yes>f>g
+@15.116
+a=Research goal
+b=Literature synthesis
+c=Hypothesis formulation
+d=Design experiment
+e=Run and analyze
+f?=Supports hypothesis?
+g!=Discovery
+a>b>c>d>e>f
+f-no>c
+f-yes>g
+@15.117
+a=Candidate crystal predicted
+b=Plan synthesis recipe
+c=Robotic lab executes
+d=Characterize by XRD
+e=ML analyzes the phase
+f?=Target phase?
+g=Adjust the recipe
+h!=Novel material
+a>b>c>d>e>f
+f-no>g>b
+f-yes>h
+@15.118
+a=Proprietary APIs per vendor
+b=Open standards emerge
+c=MCP for tools
+d=Agent-to-agent protocols
+e!=Interoperable agents
+a>b>c>e
+b>d>e
+@15.119
+a=Tool call outputs
+b=Parameter precision
+c=Hallucinated flag detection
+d=Schema adherence rate
+e=Aggregate accuracy
+f!=Tool accuracy score
+a>b>e
+a>c>e
+a>d>e>f
+@15.120
+a=Agent run timings
+b=Time to first action
+c=Step latency distribution
+d=Find bottleneck: LLM, tool, or network
+e=Optimize
+f!=Faster agent
+a>b>d
+a>c>d>e>f
+@15.121
+a=Developer hours saved x rate
+b=Minus API inference cost
+c=Minus maintenance and review time
+d=Net ROI
+e?=Positive?
+f!=Deploy more
+a>b>c>d>e
+e-yes>f
+@15.122
+a=Today: scripted tool use
+b=Longer-horizon autonomy
+c=Self-evolving skills
+d=Verified and safe oversight
+e!=General-purpose digital workers
+a>b>c>d>e

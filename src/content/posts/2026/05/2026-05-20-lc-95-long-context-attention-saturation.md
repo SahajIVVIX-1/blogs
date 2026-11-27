@@ -47,20 +47,22 @@ The operational topology, tensor dataflow, and execution lifecycle of **Long-Con
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM ARCHITECTURE: LONG-CONTEXT ATTENTION SATURATION"]):::title
-    I(["Input Tensors / State Vectors / Action Space"]):::io
-    L["<b>Forward Transformation #amp; Projections</b><br/>• High-Dimensional Subspace Mapping<br/>• Residual Connections #amp; Normalization<br/>• Attention Masking #amp; Boundary Routing"]
-    R["<b>Memory #amp; State Management</b><br/>• Continuous Paged Buffers / KV Cache<br/>• Zero-Copy Sharding Across Ranks<br/>• Bounded Latency #amp; Active Context"]
-    E["<b>Execution Pipeline #amp; Distributed Kernels</b><br/>• Flash Attention / Fused GEMM Operations<br/>• Memory-Bandwidth-Bound vs Compute-Bound Balancing<br/>• Asymptotic Complexity: O(n log n) or O(n)"]
-    O["<b>Empirical Output #amp; Production Serving</b><br/>• Deterministic Decoding #amp; Stopping Criteria<br/>• Latency Profiling #amp; Memory Footprint Verification<br/>• Resilient Fault Recovery #amp; Health Checks"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["LangChain, RAG #amp; Vector Systems · Long-Context Attention Saturation: When RAG Outperforms Massive Context Windows on Complex Reasoning"]):::title
+    a["Very long context"]
+    b["Attention saturates"]
+    c["Needle accuracy drops on complex tasks"]
+    d["RAG focuses the model"]
+    e(["RAG can win"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c --> d
+    d --> e
+    class e term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This topology illustrates how abstract mathematical representations translate directly onto modern accelerator hardware (GPUs/TPUs), minimizing inter-node communication latency and memory bandwidth stalls.

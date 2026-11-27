@@ -47,20 +47,23 @@ The operational topology, tensor dataflow, and execution lifecycle of **Adversar
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM ARCHITECTURE: ADVERSARIAL DIFFUSION DISTILLATION (ADD #amp; SDXL-TURBO)"]):::title
-    I(["Input Tensors / State Vectors / Action Space"]):::io
-    L["<b>Forward Transformation #amp; Projections</b><br/>• High-Dimensional Subspace Mapping<br/>• Residual Connections #amp; Normalization<br/>• Attention Masking #amp; Boundary Routing"]
-    R["<b>Memory #amp; State Management</b><br/>• Continuous Paged Buffers / KV Cache<br/>• Zero-Copy Sharding Across Ranks<br/>• Bounded Latency #amp; Active Context"]
-    E["<b>Execution Pipeline #amp; Distributed Kernels</b><br/>• Flash Attention / Fused GEMM Operations<br/>• Memory-Bandwidth-Bound vs Compute-Bound Balancing<br/>• Asymptotic Complexity: O(n log n) or O(n)"]
-    O["<b>Empirical Output #amp; Production Serving</b><br/>• Deterministic Decoding #amp; Stopping Criteria<br/>• Latency Profiling #amp; Memory Footprint Verification<br/>• Resilient Fault Recovery #amp; Health Checks"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Generative AI #amp; Multimodal Models · Adversarial Diffusion Distillation (ADD #amp; SDXL-Turbo): Real-Time Single-Step High-Fidelity Synthesis"]):::title
+    a["Student diffusion, teacher diffusion"]
+    b["Adversarial loss with a discriminator"]
+    c["Distillation loss from the teacher"]
+    d["Single-step high-fidelity samples"]
+    e(["SDXL-Turbo"])
+    T ~~~ a
+    a --> b
+    b --> d
+    a --> c
+    c --> d
+    d --> e
+    class e term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This topology illustrates how abstract mathematical representations translate directly onto modern accelerator hardware (GPUs/TPUs), minimizing inter-node communication latency and memory bandwidth stalls.

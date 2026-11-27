@@ -47,20 +47,25 @@ The operational topology, tensor dataflow, and execution lifecycle of **Benchmar
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM ARCHITECTURE: BENCHMARKING AGENT SPEED"]):::title
-    I(["Input Tensors / State Vectors / Action Space"]):::io
-    L["<b>Forward Transformation #amp; Projections</b><br/>• High-Dimensional Subspace Mapping<br/>• Residual Connections #amp; Normalization<br/>• Attention Masking #amp; Boundary Routing"]
-    R["<b>Memory #amp; State Management</b><br/>• Continuous Paged Buffers / KV Cache<br/>• Zero-Copy Sharding Across Ranks<br/>• Bounded Latency #amp; Active Context"]
-    E["<b>Execution Pipeline #amp; Distributed Kernels</b><br/>• Flash Attention / Fused GEMM Operations<br/>• Memory-Bandwidth-Bound vs Compute-Bound Balancing<br/>• Asymptotic Complexity: O(n log n) or O(n)"]
-    O["<b>Empirical Output #amp; Production Serving</b><br/>• Deterministic Decoding #amp; Stopping Criteria<br/>• Latency Profiling #amp; Memory Footprint Verification<br/>• Resilient Fault Recovery #amp; Health Checks"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Agentic AI #amp; MCP Systems · Benchmarking Agent Speed: Time-to-First-Action (TTFA), Step Latency, and Bottleneck Profiling"]):::title
+    a["Agent run timings"]
+    b["Time to first action"]
+    c["Step latency distribution"]
+    d["Find bottleneck: LLM, tool, or network"]
+    e["Optimize"]
+    f(["Faster agent"])
+    T ~~~ a
+    a --> b
+    b --> d
+    a --> c
+    c --> d
+    d --> e
+    e --> f
+    class f term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This topology illustrates how abstract mathematical representations translate directly onto modern accelerator hardware (GPUs/TPUs), minimizing inter-node communication latency and memory bandwidth stalls.

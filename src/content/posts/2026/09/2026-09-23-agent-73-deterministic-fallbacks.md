@@ -47,20 +47,24 @@ The operational topology, tensor dataflow, and execution lifecycle of **Determin
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM ARCHITECTURE: DETERMINISTIC FALLBACKS"]):::title
-    I(["Input Tensors / State Vectors / Action Space"]):::io
-    L["<b>Forward Transformation #amp; Projections</b><br/>• High-Dimensional Subspace Mapping<br/>• Residual Connections #amp; Normalization<br/>• Attention Masking #amp; Boundary Routing"]
-    R["<b>Memory #amp; State Management</b><br/>• Continuous Paged Buffers / KV Cache<br/>• Zero-Copy Sharding Across Ranks<br/>• Bounded Latency #amp; Active Context"]
-    E["<b>Execution Pipeline #amp; Distributed Kernels</b><br/>• Flash Attention / Fused GEMM Operations<br/>• Memory-Bandwidth-Bound vs Compute-Bound Balancing<br/>• Asymptotic Complexity: O(n log n) or O(n)"]
-    O["<b>Empirical Output #amp; Production Serving</b><br/>• Deterministic Decoding #amp; Stopping Criteria<br/>• Latency Profiling #amp; Memory Footprint Verification<br/>• Resilient Fault Recovery #amp; Health Checks"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Agentic AI #amp; MCP Systems · Deterministic Fallbacks: Reverting to Rule-Based Code When Agent Confidence Drops Below Safety Thresholds"]):::title
+    a["Agent decision with confidence"]
+    b{"Confidence above threshold?"}
+    c["Execute the agent plan"]
+    d["Fall back to deterministic rules"]
+    e(["Reliable behavior"])
+    T ~~~ a
+    a --> b
+    b -- "yes" --> c
+    c --> e
+    b -- "no" --> d
+    d --> e
+    class b dec
+    class e term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This topology illustrates how abstract mathematical representations translate directly onto modern accelerator hardware (GPUs/TPUs), minimizing inter-node communication latency and memory bandwidth stalls.

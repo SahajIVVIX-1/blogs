@@ -47,20 +47,31 @@ The operational topology, tensor dataflow, and execution lifecycle of **Tool Use
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM ARCHITECTURE: TOOL USE UNDER AMBIGUITY"]):::title
-    I(["Input Tensors / State Vectors / Action Space"]):::io
-    L["<b>Forward Transformation #amp; Projections</b><br/>• High-Dimensional Subspace Mapping<br/>• Residual Connections #amp; Normalization<br/>• Attention Masking #amp; Boundary Routing"]
-    R["<b>Memory #amp; State Management</b><br/>• Continuous Paged Buffers / KV Cache<br/>• Zero-Copy Sharding Across Ranks<br/>• Bounded Latency #amp; Active Context"]
-    E["<b>Execution Pipeline #amp; Distributed Kernels</b><br/>• Flash Attention / Fused GEMM Operations<br/>• Memory-Bandwidth-Bound vs Compute-Bound Balancing<br/>• Asymptotic Complexity: O(n log n) or O(n)"]
-    O["<b>Empirical Output #amp; Production Serving</b><br/>• Deterministic Decoding #amp; Stopping Criteria<br/>• Latency Profiling #amp; Memory Footprint Verification<br/>• Resilient Fault Recovery #amp; Health Checks"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Agentic AI #amp; MCP Systems · Tool Use Under Ambiguity: Clarification Strategies, Uncertainty Quantification, and Confirmation Gates"]):::title
+    a["Ambiguous request"]
+    b["Estimate uncertainty"]
+    c{"Confident?"}
+    d["Proceed with the tool call"]
+    e{"Cost of a wrong action high?"}
+    f["Ask a clarifying question"]
+    g["Choose the safest default and say so"]
+    h(["Action"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c -- "yes" --> d
+    d --> h
+    c -- "no" --> e
+    e -- "yes" --> f
+    f --> h
+    e -- "no" --> g
+    g --> h
+    class c,e dec
+    class h term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This topology illustrates how abstract mathematical representations translate directly onto modern accelerator hardware (GPUs/TPUs), minimizing inter-node communication latency and memory bandwidth stalls.

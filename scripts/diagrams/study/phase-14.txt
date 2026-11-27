@@ -1,0 +1,1075 @@
+@14.1
+a=Data distribution p(x)
+b?=Family?
+c=Autoregressive: chain rule, exact likelihood
+d=VAE: latent variables, ELBO
+e=GAN: adversarial game, no likelihood
+f=Flow: invertible maps, exact likelihood
+g=Diffusion: learned denoising
+h!=Trade-offs: speed, quality, coverage
+a>b
+b-ar>c>h
+b-vae>d>h
+b-gan>e>h
+b-flow>f>h
+b-diff>g>h
+@14.2
+a=Observed x
+b=Latent z ~ p(z)
+c=Decoder p(x | z)
+d=Marginal p(x) = integral p(x | z) p(z) dz
+e?=Integral tractable?
+f=Intractable: introduce encoder q(z | x)
+g!=Variational inference
+a>b>c>d>e
+e-no>f>g
+@14.3
+a=log p(x)
+b=Introduce q(z | x)
+c=Jensen inequality
+d=ELBO = E_q[log p(x | z)] - KL(q || p)
+e=Reconstruction term
+f=KL regularizer
+g=Gap = KL(q(z | x) || p(z | x))
+h!=Maximize the ELBO
+a>b>c>d
+d>e>h
+d>f>h
+d>g
+@14.4
+a=Sampling z ~ N(mu, sigma^2) blocks gradients
+b=Rewrite z = mu + sigma * epsilon
+c=epsilon ~ N(0, I) is external noise
+d=Gradient flows to mu and sigma
+e!=Pathwise gradient estimator
+a>b>c>d>e
+@14.5
+a=q = N(mu, sigma^2), p = N(0, I)
+b=KL = 1/2 sum (mu^2 + sigma^2 - log sigma^2 - 1)
+c=No sampling needed
+d=Differentiable regularizer
+e!=Closed-form KL
+a>b>c>d>e
+@14.6
+a=Strong decoder ignores z
+b=KL goes to zero
+c?=Collapsed?
+d=KL annealing from 0 to 1
+e=Free bits: minimum KL per dimension
+f=Weaker decoder or skip connections
+g!=Informative latents
+a>b>c
+c-yes>d>g
+c-yes>e>g
+c-yes>f>g
+c-no>g
+@14.7
+a=Label y
+b=Encoder q(z | x, y)
+c=Decoder p(x | z, y)
+d=Prior p(z) independent of y
+e=Sample z, choose y
+f!=Controlled generation
+a>b>c
+a>c
+d>e>c>f
+@14.8
+a=Encoder output z_e
+b=Nearest codebook vector e_k
+c=Quantized z_q
+d=Straight-through gradient copies grad to z_e
+e=Codebook loss moves e_k toward z_e
+f=Commitment loss keeps z_e near e_k
+g=Decoder reconstructs
+h!=Discrete latent codes
+a>b>c>g>h
+c>d
+b>e
+a>f
+@14.9
+a=Image
+b=Top level: coarse global structure
+c=Bottom level: local detail conditioned on top
+d=PixelCNN priors per level
+e=Sample top, then bottom, then decode
+f!=High-fidelity images
+a>b>c
+b>d
+c>d>e>f
+@14.10
+a=Image
+b=CNN encoder and VQ codebook
+c=Decoder
+d=Perceptual loss
+e=PatchGAN discriminator
+f=Transformer models the code sequence
+g!=Compact codes for high resolution
+a>b>c
+c>d
+c>e
+b>f>g
+@14.11
+a=Noise z
+b=Generator G(z)
+c=Real or fake image
+d=Discriminator D
+e=D maximizes log D(x) + log(1 - D(G(z)))
+f=G minimizes log(1 - D(G(z)))
+g?=Equilibrium?
+h!=Optimal D = 1/2, JS divergence zero
+a>b>c>d
+d>e>g
+d>f>g
+g-yes>h
+g-no>b
+@14.12
+a=Noise vector
+b=Transposed convolutions upsample
+c=BatchNorm and ReLU
+d=Generator output with tanh
+e=Discriminator: strided conv, LeakyReLU
+f!=DCGAN guidelines
+a>b>c>d>e>f
+@14.13
+a=JS divergence saturates when supports are disjoint
+b=Earth Mover distance stays informative
+c=Dual form: sup over 1-Lipschitz critics
+d=Critic without sigmoid
+e=Weight clipping enforces Lipschitz
+f!=WGAN
+a>b>c>d>e>f
+@14.14
+a=Weight clipping hurts capacity
+b=Interpolate between real and fake
+c=Penalize (||grad D|| - 1)^2
+d=Soft Lipschitz constraint
+e!=WGAN-GP
+a>b>c>d>e
+@14.15
+a=Layer weight W
+b=Estimate largest singular value by power iteration
+c=Divide W by sigma(W)
+d=Lipschitz constant bounded per layer
+e!=Stable discriminator
+a>b>c>d>e
+@14.16
+a=Generator finds a few outputs that fool D
+b=Mode collapse
+c?=Defense?
+d=Minibatch discrimination
+e=Unrolled GAN steps
+f=WGAN losses
+g!=Diverse samples
+a>b>c
+c-feat>d>g
+c-unroll>e>g
+c-loss>f>g
+@14.17
+a=Domain X and Y, unpaired
+b=G: X to Y, F: Y to X
+c=Adversarial losses in both domains
+d=Cycle consistency F(G(x)) = x
+e=Identity loss optional
+f!=Unpaired translation
+a>b>c>f
+b>d>f
+b>e>f
+@14.18
+a=Paired input and target images
+b=U-Net generator
+c=PatchGAN judges local patches
+d=Adversarial loss
+e=L1 loss to target
+f!=Pix2Pix
+a>b>c>d>f
+b>e>f
+@14.19
+a=Latent z
+b=Mapping network to w
+c=Style vector per layer
+d=AdaIN modulates feature statistics
+e=Per-layer noise adds stochastic detail
+f=Synthesis from a learned constant
+g!=Controllable synthesis
+a>b>c>d
+f>d>e>g
+@14.20
+a=AdaIN produces droplet artifacts
+b=Weight demodulation
+c=Path length regularization
+d=Smoother latent mapping
+e!=StyleGAN2
+a>b>e
+a>c>d>e
+@14.21
+a=Texture sticks to screen coordinates
+b=Aliasing from non-ideal upsampling
+c=Treat feature maps as continuous signals
+d=Alias-free filters
+e!=Equivariant to translation and rotation
+a>b>c>d>e
+@14.22
+a=Simple base density p(z)
+b=Invertible map f with data x = f(z)
+c=Change of variables: p(x) = p(z) |det J|
+d?=Jacobian cheap?
+e=Exact likelihood
+f=Design layers with easy determinants
+g!=Normalizing flow
+a>b>c>d
+d-yes>e>g
+d-no>f>d
+@14.23
+a=Split input into x1 and x2
+b=y1 = x1
+c=y2 = x2 * exp(s(x1)) + t(x1)
+d=Triangular Jacobian
+e=Inverse is cheap
+f!=RealNVP coupling
+a>b>c>d>f
+c>e>f
+@14.24
+a=Squeeze, then flow steps
+b=Actnorm
+c=Invertible 1x1 convolution
+d=Affine coupling
+e=Multi-scale split
+f!=Glow
+a>b>c>d>e>f
+@14.25
+a=Hidden state h(t)
+b=dh/dt = f(h, t) neural network
+c=ODE solver integrates
+d=Adjoint method for memory-efficient gradients
+e=Continuous normalizing flow
+f!=Neural ODE
+a>b>c>e
+c>d>f
+e>f
+@14.26
+a=Diffuse data into noise slowly
+b=Learn to reverse the process
+c=Thermodynamic non-equilibrium view
+d=Reverse chain of small Gaussian steps
+e!=Diffusion models
+a>b>d>e
+c>b
+@14.27
+a=x_0 clean data
+b=Forward: x_t = sqrt(1 - beta_t) x_(t-1) + sqrt(beta_t) eps
+c=After T steps nearly pure noise
+d=Reverse p_theta(x_(t-1) | x_t)
+e?=Learned denoiser accurate?
+f!=Sample from the data distribution
+a>b>c>d>e
+e-yes>f
+e-no>d
+@14.28
+a=Alpha-bar_t = product of (1 - beta_s)
+b=x_t = sqrt(alpha-bar_t) x_0 + sqrt(1 - alpha-bar_t) eps
+c=Jump to any timestep directly
+d!=Fast training sample generation
+a>b>c>d
+@14.29
+a=Noise schedule beta_t
+b?=Schedule?
+c=Linear: destroys information early
+d=Cosine: gentle near ends
+e=Sigmoid: tunable smoothness
+f=Signal-to-noise ratio over time
+g!=Schedule choice
+a>b
+b-lin>c>f>g
+b-cos>d>f>g
+b-sig>e>f>g
+@14.30
+a=Sample x_0, t, eps
+b=Form x_t
+c=Network predicts eps_theta(x_t, t)
+d=L2 loss ||eps - eps_theta||^2
+e=Gradient step
+f!=Simple DDPM objective
+a>b>c>d>e>f
+@14.31
+a=Score = grad_x log p(x)
+b=Denoising score matching
+c=Train s_theta at several noise levels
+d=Langevin dynamics follow the score with noise
+e!=Sample from the learned distribution
+a>b>c>d>e
+@14.32
+a=Forward SDE dx = f dt + g dW
+b=Reverse SDE needs the score
+c=DDPM = variance-preserving SDE
+d=NCSN = variance-exploding SDE
+e=Euler-Maruyama or predictor-corrector
+f!=Unified framework
+a>b>e>f
+c>a
+d>a
+@14.33
+a=Reverse SDE
+b=Same marginals as a deterministic ODE
+c=Probability flow ODE
+d=Invertible: encode data into noise
+e=Exact likelihood by change of variables
+f!=Deterministic sampling
+a>b>c>d>e>f
+@14.34
+a=DDPM trained model
+b=Non-Markovian forward process
+c=Deterministic update with sigma = 0
+d=Skip timesteps
+e=20 to 50 steps
+f!=DDIM
+a>b>c>d>e>f
+@14.35
+a=Diffusion ODE is semi-linear
+b=Exact linear part, approximate nonlinear part
+c=Higher-order multistep solver
+d=Data-prediction form (++)
+e?=Guided sampling?
+f=Stable at high guidance scale
+g!=About 20 steps
+a>b>c>d>e
+e-yes>f>g
+e-no>g
+@14.36
+a=Noisy image x_t
+b=Classifier p(y | x_t) trained on noisy data
+c=Gradient of log p(y | x_t)
+d=Shift the mean of the denoiser
+e!=Class-guided sampling
+a>b>c>d>e
+@14.37
+a=Train with condition dropped at random
+b=Conditional eps(x_t, c)
+c=Unconditional eps(x_t, null)
+d=eps_hat = eps_u + w (eps_c - eps_u)
+e?=w greater than 1?
+f=Sharper, less diverse
+g!=No classifier needed
+a>b>d
+a>c>d>e
+e-yes>f>g
+e-no>g
+@14.38
+a=Image
+b=Autoencoder compresses to latent z
+c=Diffusion in latent space
+d=Decoder returns to pixels
+e=Cross-attention conditioning
+f!=Efficient high-resolution generation
+a>b>c>d>f
+e>c
+@14.39
+a=Text prompt
+b=CLIP text encoder
+c=U-Net with ResNet and attention blocks
+d=Timestep embedding
+e=Cross-attention to text tokens
+f=VAE decoder
+g!=Stable Diffusion image
+a>b>e
+c>e>f>g
+d>c
+@14.40
+a=Prompt
+b=CLIP ViT-L encoder
+c=OpenCLIP ViT-bigG encoder
+d=Concatenate embeddings plus pooled vector
+e=Larger U-Net base
+f=Optional refiner for fine detail
+g!=SDXL
+a>b>d
+a>c>d>e>f>g
+@14.41
+a=Text tokens and image tokens
+b=Separate weights per modality
+c=Joint attention over both streams
+d=Flow-matching objective
+e!=MMDiT in Stable Diffusion 3
+a>b>c>d>e
+@14.42
+a=Noise x_0 and data x_1
+b=Define a path x_t
+c=Regress the velocity field v_theta(x_t, t)
+d=Integrate the ODE for sampling
+e!=Flow matching
+a>b>c>d>e
+@14.43
+a=Optimal transport coupling
+b=Straight-line paths between pairs
+c=Constant velocity targets
+d=Lower transport cost, fewer steps
+e!=OT flow matching
+a>b>c>d>e
+@14.44
+a=Learn a flow from noise to data
+b=Reflow: retrain on the model's own pairs
+c?=Paths straight?
+d=Repeat reflow
+e=Few-step or one-step sampling
+f!=Rectified flow
+a>b>c
+c-no>d>b
+c-yes>e>f
+@14.45
+a=Prompt
+b=Text encoders T5 and CLIP
+c=Hybrid transformer blocks
+d=Rotary position embeddings
+e=Flow matching sampler
+f!=Flux image
+a>b>c>e>f
+d>c
+@14.46
+a=Pretrained diffusion U-Net
+b=Locked copy preserves quality
+c=Trainable copy takes conditioning (edges, depth, pose)
+d=Zero-initialized convolutions
+e=Add outputs to the locked network
+f!=Spatial control
+a>b>e
+a>c>d>e>f
+@14.47
+a=Condition image
+b=Small adapter network
+c=Multi-scale features
+d=Add to U-Net encoder features
+e=Light and plug-in
+f!=T2I-Adapter
+a>b>c>d>e>f
+@14.48
+a=Reference image
+b=CLIP image encoder
+c=Projected image tokens
+d=Separate cross-attention for image
+e=Combine with text attention
+f!=Image-prompted generation
+a>b>c>d>e>f
+@14.49
+a=Frozen diffusion weights
+b=Low-rank deltas on cross-attention projections
+c=Train on a few images
+d=Small file to share
+e=Merge or swap at inference
+f!=Concept and style adapters
+a>b>c>d>e>f
+@14.50
+a=3 to 5 subject photos
+b=Prompt with rare identifier token
+c=Fine-tune the model
+d=Prior preservation loss with class images
+e?=Language drift?
+f=Prior loss keeps class diversity
+g!=Personalized model
+a>b>c>d>e
+e-yes>f>g
+e-no>g
+@14.51
+a=Few images of a concept
+b=New pseudo-word embedding
+c=Optimize only that embedding
+d=Model weights frozen
+e!=Reusable concept token
+a>b>c>d>e
+@14.52
+a=Trajectory from noise to data via ODE
+b=Learn f(x_t, t) mapping to the trajectory origin
+c=Self-consistency across points on the path
+d=One-step generation
+e=Few-step refinement improves quality
+f!=Consistency model
+a>b>c>d>e>f
+@14.53
+a=Pretrained latent diffusion
+b=Distill consistency into the guided ODE
+c=Skip steps with augmented PF-ODE
+d=2 to 4 step inference
+e!=LCM
+a>b>c>d>e
+@14.54
+a=Student diffusion, teacher diffusion
+b=Adversarial loss with a discriminator
+c=Distillation loss from the teacher
+d=Single-step high-fidelity samples
+e!=SDXL-Turbo
+a>b>d
+a>c>d>e
+@14.55
+a=Batch of image-text pairs
+b=Image encoder and text encoder
+c=N x N similarity matrix
+d=InfoNCE both directions
+e=Zero-shot classification via prompts
+f!=CLIP
+a>b>c>d>e>f
+@14.56
+a=LAION-5B and DataComp-1B
+b=Train larger CLIP models
+c=Scaling laws for contrastive learning
+d=Open weights
+e!=OpenCLIP
+a>b>c>d>e
+@14.57
+a=CLIP softmax needs the global batch
+b=Sigmoid loss on each pair independently
+c=Positive pairs label 1, others 0
+d=Works with small and large batches
+e!=SigLIP
+a>b>c>d>e
+@14.58
+a=Frozen image encoder
+b=Q-Former with learned queries
+c=Cross-attention extracts visual features
+d=Frozen LLM
+e=Stage 1: alignment with the image encoder
+f=Stage 2: generation with the LLM
+g!=BLIP-2
+a>b>c>e
+c>d>f>g
+@14.59
+a=Image
+b=CLIP vision encoder
+c=Linear projector to LLM space
+d=Visual tokens plus text tokens
+e=LLM generates the answer
+f!=LLaVA
+a>b>c>d>e>f
+@14.60
+a=High-resolution image
+b=Split into tiles on a grid
+c=Encode tiles and a global thumbnail
+d=Concatenate visual tokens
+e=Fewer distortions, more detail
+f!=Any-resolution LLaVA
+a>b>c>d>e>f
+@14.61
+a=Interleaved images and text
+b=Perceiver resampler compresses visual features
+c=Gated cross-attention layers in a frozen LM
+d=tanh gate starts at zero
+e=Few-shot multimodal learning
+f!=Flamingo
+a>b>c>d>e>f
+@14.62
+a=6B vision foundation model
+b=Progressive alignment with LLMs
+c=Large image-text data
+d=Strong benchmark scores
+e!=InternVL
+a>b>c>d>e
+@14.63
+a=Image
+b=Vision encoder
+c=Position-aware adapter with learned queries
+d=Fixed number of visual tokens
+e=Multilingual LLM
+f!=Qwen-VL
+a>b>c>d>e>f
+@14.64
+a=SigLIP encoder
+b=Linear projection
+c=Gemma decoder
+d=Prefix-LM attention over image and prompt
+e!=PaliGemma
+a>b>c>d>e
+@14.65
+a=Image-text data
+b?=Objective?
+c=Captioning
+d=Visual question answering
+e=Grounding and OCR tasks
+f=Mixture of tasks
+g!=VLM pretraining
+a>b
+b-cap>c>f>g
+b-vqa>d>f>g
+b-ground>e>f>g
+@14.66
+a=Thousands of visual patches
+b=Resampler or C-Abstractor
+c=Learned queries pool the features
+d=Hundreds of tokens
+e?=Detail lost?
+f=Increase query count for OCR
+g!=Efficient visual tokens
+a>b>c>d>e
+e-yes>f>g
+e-no>g
+@14.67
+a=Large image with varied aspect ratio
+b=Select the best grid cropping
+c=Encode crops and a thumbnail
+d=Merge tokens
+e!=High-resolution VLM input
+a>b>c>d>e
+@14.68
+a=Images and captions
+b=GPT-4V writes instructions and answers
+c=Filter for quality
+d=Instruction tuning data
+e!=Visual instruction tuning
+a>b>c>d>e
+@14.69
+a=Region of interest
+b=Boxes as coordinate tokens
+c=Model predicts [ymin, xmin, ymax, xmax]
+d=Normalized 0..1000 grid
+e!=Spatial grounding
+a>b>c>d>e
+@14.70
+a=Image with text
+b?=Pipeline?
+c=Classic: detect, recognize, post-process
+d=VLM: read text directly
+e=High-resolution inputs help
+f!=OCR-free text reading
+a>b
+b-classic>c
+b-vlm>d>e>f
+@14.71
+a=Document or chart image
+b?=Model?
+c=Donut: image encoder, text decoder
+d=Pix2Struct: screenshot parsing
+e=ChartQA: reasoning over charts
+f=Structured output
+g!=Document understanding
+a>b
+b-donut>c>f>g
+b-pix>d>f>g
+b-chart>e>f>g
+@14.72
+a=VLM describes objects not in the image
+b?=Cause?
+c=Co-occurrence bias from training text
+d=Weak visual grounding
+e=Mitigation: contrastive decoding, preference data
+f!=Fewer hallucinations
+a>b
+b-bias>c>e>f
+b-grounding>d>e>f
+@14.73
+a=Image, prompt, preferred and rejected answers
+b=Preference loss on responses
+c=Conditional preference on the image
+d=Anchored loss keeps chosen likelihood high
+e!=mDPO
+a>b>c>d>e
+@14.74
+a=VLM answers
+b=Penalize hallucinated boxes and facts
+c=Fine-grained rewards per claim
+d=Policy update
+e!=Visual RLHF
+a>b>c>d>e
+@14.75
+a=Audio samples as a sequence
+b=Autoregressive p(x_t | x_<t)
+c=Dilated causal convolutions
+d=Receptive field grows exponentially
+e=mu-law quantization to 256 classes
+f!=WaveNet
+a>b>c>d>f
+a>e>b
+@14.76
+a=Waveform
+b=STFT: windowed Fourier transforms
+c=Magnitude spectrogram
+d=Mel filterbank
+e=Log compression
+f=Phase lost, reconstruct with Griffin-Lim or a vocoder
+g!=Mel spectrogram
+a>b>c>d>e>g
+c>f
+@14.77
+a=Audio waveform
+b=Convolutional encoder
+c=Residual vector quantization, multiple codebooks
+d=Discrete tokens
+e=Decoder reconstructs audio
+f!=SoundStream / EnCodec
+a>b>c>d>e>f
+@14.78
+a=Text prompt
+b=CLAP text embedding
+c=Latent diffusion on mel latents
+d=VAE decoder
+e=Vocoder
+f!=AudioLDM audio
+a>b>c>d>e>f
+@14.79
+a=Text description
+b=MuLan joint music-text embedding
+c=Semantic tokens stage
+d=Acoustic tokens stage
+e=SoundStream decoder
+f!=MusicLM
+a>b>c>d>e>f
+@14.80
+a=Audio 30 s windows
+b=Log-mel spectrogram
+c=Transformer encoder
+d=Decoder with task tokens
+e=Transcribe, translate, timestamps
+f!=Whisper
+a>b>c>d>e>f
+@14.81
+a=Speech with masked segments
+b=Text and context conditioning
+c=Flow matching predicts the masked speech
+d=Non-autoregressive generation
+e=Editing, infilling, cross-lingual TTS
+f!=Voicebox
+a>b>c>d>e>f
+@14.82
+a=Text prompt
+b=Semantic tokens GPT
+c=Coarse acoustic tokens GPT
+d=Fine acoustic tokens
+e=EnCodec decoder
+f!=Bark audio
+a>b>c>d>e>f
+@14.83
+a=Short reference clip
+b=Speaker encoder embedding
+c=Condition the TTS model
+d=Style modulation in layers
+e=Vocoder
+f!=Cloned voice
+a>b>c>d>e>f
+@14.84
+a=Video = frames over time
+b=Spatial quality per frame
+c=Temporal consistency across frames
+d=Motion modeling
+e?=Flicker or drift?
+f=Add temporal layers
+g!=Coherent video
+a>b>c>d>e
+e-yes>f>g
+e-no>g
+@14.85
+a=Image diffusion U-Net
+b=Factorized spatial and temporal convolutions
+c=Pseudo-3D attention
+d=Joint image and video training
+e!=VDM
+a>b>c>d>e
+@14.86
+a=Frozen text-to-image model
+b=Insert motion modules with temporal attention
+c=Train on video clips
+d=Plug into personalized checkpoints
+e!=AnimateDiff
+a>b>c>d>e
+@14.87
+a=Stage 1: image pretraining
+b=Stage 2: video pretraining on curated data
+c=Stage 3: high-quality fine-tuning
+d=Conditioning on optical flow and motion
+e!=Stable Video Diffusion
+a>b>c>d>e
+@14.88
+a=Video
+b=3D VAE compresses time and space
+c=Spacetime patches as tokens
+d=Diffusion Transformer
+e=Text conditioning
+f!=Sora-style generation
+a>b>c>d>f
+e>d
+@14.89
+a=Frame tokens
+b=Spatial self-attention within a frame
+c=Temporal attention across frames at the same position
+d=Causal mask for streaming
+e!=Temporal attention
+a>b>c>d>e
+@14.90
+a=Camera trajectory
+b=Per-pixel Plücker ray embeddings
+c=Camera encoder
+d=Inject into video diffusion
+e!=CameraCtrl
+a>b>c>d>e
+@14.91
+a=Generated video
+b=Physics checks: gravity, fluids, collisions
+c?=Physically plausible?
+d=Accept
+e=Failure modes: object permanence, contact
+f!=Simulation gap
+a>b>c
+c-yes>d>f
+c-no>e>f
+@14.92
+a=3D representations
+b?=Type?
+c=Voxels
+d=Point clouds
+e=Meshes
+f=Implicit fields
+g!=Choose by task
+a>b
+b-grid>c>g
+b-points>d>g
+b-surface>e>g
+b-neural>f>g
+@14.93
+a=Position (x, y, z) and view direction
+b=MLP outputs color and density
+c=Volume rendering along rays
+d=Photometric loss on pixels
+e=Positional encoding
+f!=NeRF scene
+a>b>c>d>f
+e>a
+@14.94
+a=Ray with samples
+b=Transmittance T and density
+c=Quadrature: C = sum T_i alpha_i c_i
+d=Stratified sampling
+e=Hierarchical sampling from the coarse network
+f!=Rendered pixel
+a>b>c>f
+a>d>e>c
+@14.95
+a=3D coordinate
+b=Multiresolution hash grid lookup
+c=Small MLP
+d=Density and color
+e=Seconds to minutes of training
+f!=Instant-NGP
+a>b>c>d>e>f
+@14.96
+a=Sparse points initialize Gaussians
+b=Project to 2D splats
+c=Sort by depth in tiles
+d=Alpha blending
+e=Loss against the photograph
+f!=Real-time rendering
+a>b>c>d>e>f
+@14.97
+a=Optimization step
+b?=Large gradient?
+c?=Gaussian large or small?
+d=Split large ones
+e=Clone small ones
+f=Prune low opacity
+g=Optionally refine camera poses
+h!=Adaptive density control
+a>b
+b-yes>c
+c-large>d>h
+c-small>e>h
+b-no>f>g>h
+@14.98
+a=Text prompt
+b=Render the NeRF from a random camera
+c=Add noise, score with a frozen 2D diffusion model
+d=Score distillation gradient
+e=Update NeRF
+f?=Converged?
+g!=3D asset
+a>b>c>d>e>f
+f-no>b
+f-yes>g
+@14.99
+a=Single input image
+b=Relative camera transform
+c=Diffusion conditioned on image and viewpoint
+d=Novel view
+e=Multi-view set for 3D reconstruction
+f!=Zero123
+a>b>c>d>e>f
+@14.100
+a=Single image
+b=Transformer predicts triplane or Gaussians
+c=Feed-forward in seconds
+d=Extract mesh
+e!=TripoSR / LGM
+a>b>c>d>e
+@14.101
+a=Latent image
+b=Patchify to tokens
+c=Transformer blocks
+d=adaLN-Zero conditioning on t and class
+e=Unpatchify to noise prediction
+f!=DiT
+a>b>c>e>f
+d>c
+@14.102
+a=Vary patch size and model size
+b=Smaller patch means more tokens and more FLOPs
+c=FID falls as compute rises
+d?=Best for budget?
+e=Scale the model with compute
+f!=DiT scaling
+a>b>c>d>e>f
+@14.103
+a=Images, audio, video latents
+b=Tokenize each modality
+c=Flow-matching transformer
+d=Shared architecture
+e!=Unified generator
+a>b>c>d>e
+@14.104
+a=Generated media
+b?=Provenance?
+c=C2PA signed manifest
+d=Invisible watermark
+e=Detection classifier
+f=Verify and label
+g!=Safety layers
+a>b
+b-sig>c>f>g
+b-mark>d>f>g
+b-detect>e>f>g
+@14.105
+a=Suspect video or image
+b=Frequency-domain artifacts
+c=Temporal consistency audit
+d=Face forensics
+e=Combine detector scores
+f?=Above threshold?
+g=Flag as synthetic
+h!=Authentic
+a>b>e
+a>c>e
+a>d>e>f
+f-yes>g
+f-no>h
+@14.106
+a=Training data
+b?=License status?
+c=Licensed or public domain
+d=Opt-out registry honored
+e=Scraped, unclear rights
+f=Provenance logging
+g!=Clean datasets
+a>b
+b-clean>c>f>g
+b-optout>d>f>g
+b-unclear>e>f
+@14.107
+a=Diffusion pipeline
+b=TensorRT plugins
+c=FlashAttention
+d=FP16 or INT8 quantization
+e=Fewer steps via distillation
+f!=Lower latency
+a>b>f
+a>c>f
+a>d>f
+a>e>f
+@14.108
+a=Phone GPU or NPU
+b=Compact U-Net, fewer attention blocks
+c=Quantized weights
+d=Step distillation
+e=Under 1 second per image
+f!=MobileDiffusion
+a>b>c>d>e>f
+@14.109
+a=Two latent codes z1 and z2
+b=Interpolate z = (1 - t) z1 + t z2
+c?=Spherical for Gaussians?
+d=Slerp keeps norm
+e=Decode each point
+f!=Smooth semantic morph
+a>b>c
+c-yes>d>e>f
+c-no>e>f
+@14.110
+a=Content and style images
+b=Content features from a deep layer
+c=Style Gram matrices across layers
+d=Optimize pixels to match both
+e!=Gatys style transfer
+a>b>d
+a>c>d>e
+@14.111
+a=Image and mask
+b=Diffusion generates masked region
+c=Keep known pixels at each step
+d=Blend boundary
+e?=Outpainting?
+f=Extend canvas and mask the border
+g!=Coherent fill
+a>b>c>d>e
+e-yes>f>g
+e-no>g
+@14.112
+a=Low-resolution image
+b?=Approach?
+c=Real-ESRGAN: degradations and GAN
+d=Latent upscaler
+e=Diffusion adds detail
+f!=High-resolution output
+a>b
+b-gan>c>f
+b-latent>d>f
+b-diff>e>f
+@14.113
+a=Degraded face
+b=Detect and align
+c=Encode to codebook tokens
+d=Transformer predicts clean codes
+e=Decode restored face
+f!=CodeFormer
+a>b>c>d>e>f
+@14.114
+a=Generated and real images
+b?=Metric?
+c=FID: Frechet distance of Inception features
+d=IS: quality and diversity from class scores
+e=Precision and recall
+f=Compare to real distribution
+g!=Generative evaluation
+a>b
+b-fid>c>f>g
+b-is>d>f>g
+b-pr>e>f>g
+@14.115
+a=Multimodal models
+b?=Benchmark?
+c=MMMU: college-level questions
+d=MathVista: visual math
+e=RealWorldQA
+f=DocVQA
+g!=Standard protocols
+a>b
+b-expert>c>g
+b-math>d>g
+b-real>e>g
+b-doc>f>g
+@14.116
+a=Text prompt
+b=Generate a mesh
+c=Texture synthesis
+d=Export GLTF or USD
+e=Game or film pipeline
+f!=Production-ready asset
+a>b>c>d>e>f
+@14.117
+a=Video and action data
+b=Learn latent dynamics
+c=Predict next frames given actions
+d?=Consistent physics?
+e=Interactive environment
+f!=World model
+a>b>c>d
+d-yes>e>f
+d-no>b
+@14.118
+a=Frontier
+b=Unified continuous multimodal models
+c=Real-time generation
+d=Controllable world simulation
+e!=Next generative era
+a>b>e
+a>c>e
+a>d>e

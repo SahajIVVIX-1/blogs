@@ -1,0 +1,1155 @@
+@13.1
+a=User question
+b?=Knowledge size and freshness?
+c=Small and static: stuff into long context
+d=Large or changing: RAG
+e=Retrieve top-k chunks
+f=Generate grounded answer
+g?=Cost and latency acceptable?
+h=Hybrid: RAG plus long context
+i!=Chosen architecture
+a>b
+b-small>c>g
+b-large>d>e>f>g
+g-yes>i
+g-no>h>i
+@13.2
+a=Prompt template
+b=Model provider wrapper
+c=Output parser
+d=Chain: prompt | model | parser
+e=Retriever supplies context
+f=Invoke
+g!=Typed result
+a>b>c>d>f>g
+e>a
+@13.3
+a=Runnable steps
+b=Pipe operator composes: a | b | c
+c=Batch many inputs in parallel
+d=Stream partial tokens
+e?=Step fails?
+f=Fallback chain
+g=Async execution
+h!=Declarative pipeline
+a>b>c>g>h
+b>d>h
+b>e
+e-yes>f>h
+@13.4
+a=PDF or HTML file
+b?=Layout type?
+c=Text PDF: extract text blocks
+d=Scanned: OCR
+e=Detect tables
+f=Table to structured rows
+g=Semantic layout: headings, lists
+h!=Parsed elements
+a>b
+b-text>c>g
+b-scan>d>g
+g>e>f>h
+@13.5
+a=Document text
+b?=Chunking?
+c=Fixed size with overlap
+d=Recursive characters: paragraph, sentence, word
+e=Token-aware limits
+f=Markdown headers keep structure
+g=Attach metadata
+h!=Chunks
+a>b
+b-fixed>c>g
+b-recursive>d>g
+b-tokens>e>g
+b-structure>f>g
+g>h
+@13.6
+a=Sentences embedded
+b=Cosine distance between neighbors
+c?=Distance above threshold?
+d=Start a new chunk
+e=Extend current chunk
+f=Percentile-based dynamic cutoff
+g!=Topic-coherent chunks
+a>b>c
+c-yes>d>g
+c-no>e>g
+f>c
+@13.7
+a=Document
+b=Parent chunks (large)
+c=Child chunks (small)
+d=Embed children
+e=Retrieve best children
+f=Return their parents to the LLM
+g!=Precise retrieval, rich context
+a>b>c>d>e>f>g
+@13.8
+a=Chunk without context
+b=LLM writes a short document-level context
+c=Prepend context to the chunk
+d=Embed and BM25 index the enriched chunk
+e=Fewer retrieval failures
+f!=Contextual retrieval
+a>b>c>d>e>f
+@13.9
+a=Text
+b=Sentence-Transformers encoder
+c=Mean pooling and normalization
+d=Dense vector
+e=Cosine similarity compares vectors
+f!=Semantic space
+a>b>c>d>e>f
+@13.10
+a=Embedding model
+b=MTEB tasks: retrieval, clustering, classification
+c=Aggregate scores
+d?=Domain matches the benchmark?
+e=Trust the ranking
+f=Evaluate on your own data
+g!=Model choice
+a>b>c>d
+d-yes>e>g
+d-no>f>g
+@13.11
+a=Query
+b?=Representation?
+c=Dense: semantic matches
+d=Sparse BM25: exact terms
+e=Miss synonyms
+f=Miss rare identifiers
+g=Combine both
+h!=Hybrid recall
+a>b
+b-dense>c>f>g
+b-sparse>d>e>g
+g>h
+@13.12
+a=Text
+b=BERT head scores vocabulary terms
+c=Learned term expansion with weights
+d=Sparse vector
+e=Inverted index serves it efficiently
+f!=SPLADE
+a>b>c>d>e>f
+@13.13
+a=BGE-M3 encoder
+b=Dense retrieval
+c=Sparse lexical weights
+d=Multi-vector ColBERT mode
+e=100+ languages, up to 8192 tokens
+f!=One model, three modes
+a>b>f
+a>c>f
+a>d>f
+a>e>f
+@13.14
+a=Embedding of dimension 1024
+b=MRL training: loss at nested prefixes
+c=Truncate to 256, 128, 64
+d?=Storage constrained?
+e=Use short prefix
+f=Use full vector
+g!=Truncatable embeddings
+a>b>c>d
+d-yes>e>g
+d-no>f>g
+@13.15
+a=Vectors
+b?=Metric?
+c=Cosine: angle, normalized
+d=Dot product: magnitude matters
+e=Euclidean L2
+f?=Vectors normalized?
+g=All three give the same ranking
+h!=Match the training metric
+a>b
+b-angle>c>f
+b-ip>d>f
+b-l2>e>f
+f-yes>g>h
+f-no>h
+@13.16
+a=Query vector
+b?=Index type?
+c=Exact k-NN: scan everything
+d=ANN: approximate graph or cluster
+e?=Millions of vectors?
+f=Linear scan too slow
+g=Recall versus latency trade-off
+h!=Top-k neighbors
+a>b
+b-exact>c>e
+b-approx>d>g>h
+e-yes>f>d
+e-no>h
+@13.17
+a=Insert vector at a random max layer
+b=Greedy descent through upper layers
+c=Connect to M neighbors per layer
+d=Query: enter at the top
+e?=Closer neighbor?
+f=Hop
+g=Drop a layer
+h!=Logarithmic search
+a>b>c
+d>e
+e-yes>f>e
+e-no>g>h
+@13.18
+a=Vectors
+b=k-means coarse centroids (IVF)
+c=Assign each vector to a cell
+d=Split into sub-vectors, PQ codebooks
+e=Store compact codes
+f=Query: probe nprobe nearest cells
+g=Asymmetric distance tables
+h!=Compressed ANN
+a>b>c>d>e
+f>g>h
+e>g
+@13.19
+a=Maximum inner product search
+b=Anisotropic quantization loss
+c=Penalize error parallel to the vector more
+d=Learned codebooks
+e=Fast scoring with SIMD
+f!=ScaNN
+a>b>c>d>e>f
+@13.20
+a=Billion-scale vectors
+b=Vamana graph on SSD
+c=Compressed vectors in RAM
+d=Beam search reads few SSD pages
+e=Rerank with full vectors
+f!=DiskANN
+a>b>c>d>e>f
+@13.21
+a=Vectors and metadata
+b=Write-ahead log
+c=Segments in memory then flush
+d=Background compaction merges segments
+e=Raft replicates shards
+f?=Node fails?
+g=Replica takes over
+h!=Distributed vector store
+a>b>c>d>e>f
+f-yes>g>h
+f-no>h
+@13.22
+a=Points with payload
+b=Rust engine, HNSW index
+c=Payload indexes for filtering
+d?=Filter very selective?
+e=Filterable HNSW traversal
+f=Scan filtered subset
+g!=Qdrant
+a>b>c>d
+d-no>e>g
+d-yes>f>g
+@13.23
+a=Upsert vectors with metadata
+b=Serverless index separates storage and compute
+c=Namespaces isolate tenants
+d=Metadata filter at query
+e=Autoscaled read replicas
+f!=Pinecone
+a>b>c>d>e>f
+@13.24
+a=Collection
+b=Proxy routes requests
+c=Segments: growing and sealed
+d=Etcd coordinates metadata
+e=Index builds on sealed segments
+f=Object storage persistence
+g!=Milvus
+a>b>c>e>f>g
+d>b
+@13.25
+a=Postgres table with vector column
+b=CREATE INDEX USING hnsw or ivfflat
+c=SELECT ... ORDER BY embedding <-> query
+d=Combine with SQL filters and joins
+e=pgvectorscale adds StreamingDiskANN
+f!=Vectors inside the relational DB
+a>b>c>d>f
+b>e>f
+@13.26
+a=Local prototype
+b=Chroma in-process client
+c=Persist to a local directory
+d=Add documents with embeddings
+e=Query with where filters
+f!=Fast iteration
+a>b>c>d>e>f
+@13.27
+a=Lance columnar file
+b=Zero-copy reads
+c=Vector index on disk
+d=Versioned datasets
+e=Serverless queries from object storage
+f!=LanceDB
+a>b>c>d>e>f
+@13.28
+a=Query
+b=BM25 retrieval
+c=Dense ANN retrieval
+d=Merge the two candidate lists
+e=Fusion score
+f!=Hybrid result
+a>b>d
+a>c>d>e>f
+@13.29
+a=Ranked list 1 and ranked list 2
+b=For each document: score += 1 / (k + rank)
+c=k = 60 smoothing
+d=Sort by total score
+e=No score calibration needed
+f!=RRF
+a>b>c>d>e>f
+@13.30
+a=Dense scores and sparse scores
+b=Normalize each to 0..1
+c=Blend alpha x dense + (1 - alpha) x sparse
+d?=Tune alpha on labeled queries
+e=Pick best alpha
+f!=Weighted blend
+a>b>c>d>e>f
+@13.31
+a=Filter condition
+b?=Strategy?
+c=Pre-filter: restrict then search
+d=Post-filter: search then drop
+e=Single-stage filtered graph traversal
+f?=Highly selective?
+g=Pre-filter exact scan
+h=Post-filter may return too few
+i!=Filtered results
+a>b
+b-pre>c>f
+b-post>d>h
+b-single>e>i
+f-yes>g>i
+f-no>c>i
+@13.32
+a=User query is vague
+b?=Transformation?
+c=Rewrite into a clear search query
+d=Expand with synonyms
+e=Add domain terms
+f=Retrieve with improved queries
+g!=Better recall
+a>b
+b-rewrite>c>f
+b-expand>d>f
+b-augment>e>f
+f>g
+@13.33
+a=Original question
+b=LLM generates N paraphrases
+c=Retrieve for each
+d=Union and deduplicate
+e=Rerank
+f!=Multi-perspective retrieval
+a>b>c>d>e>f
+@13.34
+a=Complex question
+b=Decompose into sub-questions
+c=Retrieve for each independently
+d=Answer each sub-question
+e=Compose final answer
+f!=Multi-hop handling
+a>b>c>d>e>f
+@13.35
+a=Specific question
+b=Generate a step-back, more general question
+c=Retrieve foundational principles
+d=Retrieve for the original question
+e=Answer with both contexts
+f!=Step-back prompting
+a>b>c>e
+a>d>e>f
+@13.36
+a=Query
+b=LLM writes a hypothetical answer
+c=Embed the hypothetical document
+d=Search with that vector
+e=Real documents near it
+f!=HyDE
+a>b>c>d>e>f
+@13.37
+a=Query
+b=ANN fetches top 100 fast
+c=Cross-encoder rescores each pair
+d=Keep top 5
+e?=Latency budget?
+f=Smaller reranker or fewer candidates
+g!=Two-stage retrieval
+a>b>c>d>e
+e-yes>g
+e-no>f>c
+@13.38
+a=Query and passage concatenated
+b=Full cross-attention across all tokens
+c=Relevance score
+d=More accurate than bi-encoder
+e=Cannot precompute
+f!=Cross-encoder rerank
+a>b>c>d>e>f
+@13.39
+a=Candidate documents
+b=Rerank API call
+c=Long passages chunked and rescored
+d=Relevance scores returned
+e!=Cohere Rerank
+a>b>c>d>e
+@13.40
+a=Query and candidates
+b=BGE-reranker multilingual
+c=Score each pair
+d=Sort
+e!=Open-weights reranker
+a>b>c>d>e
+@13.41
+a=Query tokens and document tokens
+b=Per-token embeddings
+c=MaxSim: each query token to best document token
+d=Sum of MaxSim scores
+e=Precompute document tokens
+f!=Late interaction
+a>b>c>d
+e>b
+d>f
+@13.42
+a=Token embedding collection
+b=Centroids cluster the tokens
+c=Residual compression
+d=Candidate generation by centroids
+e=Filter and rescore with MaxSim
+f!=PLAID
+a>b>c>d>e>f
+@13.43
+a=Naive RAG: embed, retrieve, stuff
+b?=Quality low?
+c=Advanced: query rewriting, hybrid search, reranking
+d=Iterative multi-step retrieval
+e=Evaluate with a test set
+f!=Progression
+a>b
+b-yes>c>d>e>f
+b-no>f
+@13.44
+a=Modules
+b=Router
+c=Retriever
+d=Transformer of query or context
+e=Fusion
+f=Generator
+g!=Composable RAG
+a>b>c>d>e>f>g
+@13.45
+a=Question
+b?=Retrieve needed?
+c=Reflection token: retrieve
+d=Generate with passages
+e=Critique: relevant, supported, useful
+f?=Supported?
+g!=Final answer
+a>b
+b-yes>c>d>e>f
+b-no>g
+f-yes>g
+f-no>c
+@13.46
+a=Retrieved documents
+b=Evaluator scores confidence
+c?=Confidence?
+d=Correct: refine knowledge strips
+e=Ambiguous: also web search
+f=Incorrect: web search fallback
+g=Generate answer
+h!=CRAG
+a>b>c
+c-high>d>g
+c-mid>e>g
+c-low>f>g
+g>h
+@13.47
+a=Query
+b=Classifier estimates complexity
+c?=Complexity?
+d=Simple: answer directly
+e=Moderate: single-step RAG
+f=Complex: iterative multi-hop RAG
+g!=Adaptive routing
+a>b>c
+c-simple>d>g
+c-moderate>e>g
+c-complex>f>g
+@13.48
+a=Generating the answer
+b=Look ahead at next sentence
+c?=Low-confidence tokens?
+d=Use the sentence as a query
+e=Retrieve and regenerate
+f=Keep sentence
+g!=FLARE
+a>b>c
+c-yes>d>e>g
+c-no>f>g
+@13.49
+a=Documents
+b=LLM extracts entities and relations
+c=Knowledge graph
+d=Community detection
+e=Community summaries
+f=Global question answered from summaries
+g!=GraphRAG
+a>b>c>d>e>f>g
+@13.50
+a=Text chunks
+b=LLM entity extraction
+c=Relation linking
+d=Entity resolution and deduplication
+e=Merge into the graph
+f?=Conflicts?
+g=Resolve or flag
+h!=Knowledge graph
+a>b>c>d>e>f
+f-yes>g>h
+f-no>h
+@13.51
+a=Question
+b=Vector search finds seed nodes
+c=Traverse graph edges multiple hops
+d=Collect connected context
+e=Rank and generate
+f!=Graph-augmented retrieval
+a>b>c>d>e>f
+@13.52
+a=Top-k chunks
+b=Rank by relevance
+c=Place most relevant at start and end
+d=Weakest in the middle
+e=Prompt assembly
+f!=Mitigates lost in the middle
+a>b>c>d>e>f
+@13.53
+a=Retrieved passages
+b=Extract sentences relevant to the query
+c=Drop distractors
+d=Shorter context
+e!=Compressed context
+a>b>c>d>e
+@13.54
+a=Prompt with retrieved text
+b=Small LM scores token perplexity
+c=Drop low-information tokens
+d=Budget controller
+e=4x shorter prompt
+f!=LLMLingua
+a>b>c>d>e>f
+@13.55
+a=Repeated document chunks
+b=Stable prefix ordering
+c?=Cache hit?
+d=Reuse KV cache
+e=Compute fresh
+f=Lower cost and latency
+g!=Prompt caching in RAG
+a>b>c
+c-yes>d>f>g
+c-no>e>g
+@13.56
+a=Production RAG
+b=Build ground-truth question set
+c=Measure retrieval and generation separately
+d?=Regression after a change?
+e=Block release
+f!=Reliable iteration
+a>b>c>d
+d-yes>e>b
+d-no>f
+@13.57
+a=Query, context, answer
+b=Context relevance
+c=Groundedness
+d=Answer relevance
+e=Judge scores each edge
+f!=RAG triad
+a>b>e
+a>c>e
+a>d>e>f
+@13.58
+a=RAG outputs
+b=Faithfulness
+c=Answer relevance
+d=Context precision
+e=Context recall
+f!=RAGAS report
+a>b>f
+a>c>f
+a>d>f
+a>e>f
+@13.59
+a=Documents
+b=Generate simple questions
+c=Evolve: multi-context, reasoning, conditional
+d=Filter bad questions
+e=Test set with ground truths
+f!=Synthetic RAG tests
+a>b>c>d>e>f
+@13.60
+a=Small human-labeled validation set
+b=Fine-tune LLM judges
+c=Prediction-powered inference
+d=Confidence intervals on scores
+e!=ARES
+a>b>c>d>e
+@13.61
+a=Source: PDF, text, CSV, web
+b?=Loader?
+c=PyPDFLoader: pages
+d=TextLoader
+e=CSVLoader: rows
+f=WebBaseLoader: HTML
+g=Document objects with metadata
+h!=Loaded documents
+a>b
+b-pdf>c>g
+b-txt>d>g
+b-csv>e>g
+b-web>f>g
+g>h
+@13.62
+a=Document
+b?=Splitter?
+c=RecursiveCharacterTextSplitter
+d=Try separators in order
+e=MarkdownHeaderTextSplitter keeps hierarchy
+f=Metadata carries headers
+g!=Chunks
+a>b
+b-generic>c>d>g
+b-markdown>e>f>g
+@13.63
+a=Application code
+b=VectorStore interface: add, search
+c?=Backend?
+d=In-memory
+e=Distributed engine
+f=Swap with one line
+g!=Uniform API
+a>b>c
+c-local>d>f
+c-prod>e>f
+f>g
+@13.64
+a=Retriever
+b?=Type?
+c=VectorStoreRetriever
+d=EnsembleRetriever merges several with RRF
+e=ContextualCompressionRetriever filters content
+f!=Documents for the chain
+a>b
+b-basic>c>f
+b-ensemble>d>f
+b-compress>e>f
+@13.65
+a=Conversation
+b?=Memory?
+c=Buffer: full history
+d=Summary: LLM condenses
+e=Vector memory: retrieve relevant turns
+f=Inject into the prompt
+g!=Context across turns
+a>b
+b-all>c>f
+b-summary>d>f
+b-semantic>e>f
+f>g
+@13.66
+a=LLM text output
+b?=Parser?
+c=Pydantic: typed schema
+d=Structured: key-value fields
+e?=Parse fails?
+f=OutputFixingParser asks the LLM to repair
+g!=Validated object
+a>b
+b-typed>c>e
+b-fields>d>e
+e-yes>f>e
+e-no>g
+@13.67
+a=Chain run
+b=Callbacks fire on start, token, end, error
+c=Trace spans
+d=Token cost accounting
+e=Latency metrics
+f!=Observability
+a>b>c>f
+b>d>f
+b>e>f
+@13.68
+a=Define State
+b=Nodes: functions that update state
+c=Edges: control flow
+d=Compile the graph
+e=Invoke with initial state
+f!=Deterministic workflow
+a>b>c>d>e>f
+@13.69
+a=State TypedDict
+b=Each key may have a reducer
+c=Node returns partial update
+d=Reducer merges it (append or overwrite)
+e!=Consistent state
+a>b>c>d>e
+@13.70
+a=Node output
+b?=Route?
+c=Tool call requested
+d=Final answer
+e=Tools node
+f=END
+g!=Dynamic control flow
+a>b
+b-tool>c>e>g
+b-done>d>f>g
+@13.71
+a=Agent node
+b?=Tool call?
+c=Run tool
+d=Back to the agent
+e?=Step limit reached?
+f=Stop with partial result
+g=Return answer
+a>b
+b-yes>c>d>e
+e-yes>f
+e-no>a
+b-no>g
+@13.72
+a=Graph step completes
+b=Checkpointer saves state per step
+c?=Backend?
+d=In-memory for tests
+e=SQLite for local
+f=Postgres for production
+g=Resume from thread_id
+h!=Durable workflows
+a>b>c
+c-mem>d>g
+c-sqlite>e>g
+c-pg>f>g
+g>h
+@13.73
+a=Run history of checkpoints
+b=Select an earlier step
+c=Rewind the state
+d=Edit state and fork
+e=Replay from the fork
+f!=Time-travel debugging
+a>b>c>d>e>f
+@13.74
+a=Graph reaches a sensitive action
+b=Interrupt before the node
+c=Show state to a human
+d?=Approve?
+e=Resume execution
+f=Edit or reject
+g!=Human-in-the-loop
+a>b>c>d
+d-yes>e>g
+d-no>f>g
+@13.75
+a=Supervisor agent
+b=Routes tasks to specialist agents
+c=Researcher
+d=Coder
+e=Reviewer
+f=Messages pass through shared state
+g?=Done?
+h!=Result
+a>b>c>f
+b>d>f
+b>e>f
+f>g
+g-no>b
+g-yes>h
+@13.76
+a=Data connectors
+b=Node parsers split documents
+c=Index: vector, summary, keyword
+d=Retriever
+e=Response synthesizer
+f=Query engine
+g!=Answer
+a>b>c>d>e>f>g
+@13.77
+a=Documents
+b=LLM summary per document
+c=Summary index
+d=Query matches summaries first
+e=Open the best documents only
+f=Answer
+g!=Hierarchical routing
+a>b>c>d>e>f>g
+@13.78
+a=Query
+b=Router chooses an engine
+c?=Which?
+d=Summary index: overview questions
+e=Vector index: specific facts
+f=SQL: structured data
+g!=Routed answer
+a>b>c
+c-summary>d>g
+c-fact>e>g
+c-table>f>g
+@13.79
+a=Components
+b=Pipeline graph: retriever, ranker, generator
+c=Typed inputs and outputs
+d=Serialize to YAML
+e=Deploy REST
+f!=Haystack
+a>b>c>d>e>f
+@13.80
+a=New query
+b=Embed it
+c=Search the cache of past queries
+d?=Similarity above threshold?
+e=Return cached answer
+f=Call the LLM
+g=Store new pair
+h!=Lower latency and cost
+a>b>c>d
+d-yes>e>h
+d-no>f>g>h
+@13.81
+a=Documents before ingestion
+b=Detect PII: names, emails, IDs
+c=Mask or replace with tokens
+d?=Need re-identification?
+e=Store mapping in a vault
+f=Embed redacted text
+g!=Safer index
+a>b>c>d
+d-yes>e>f
+d-no>f
+f>g
+@13.82
+a=User query and identity
+b=Resolve permissions and tenant
+c=Metadata filter on every search
+d?=Authorized?
+e=Return allowed chunks
+f=Deny
+g!=Secure multi-tenancy
+a>b>c>d
+d-yes>e>g
+d-no>f>g
+@13.83
+a=Source document updated
+b=Delete old chunks by document id
+c=Upsert new chunks
+d=Tombstones hide deleted entries
+e=Compaction later reclaims space
+f!=Fresh index
+a>b>c>d>e>f
+@13.84
+a=Markdown table
+b=Parse into rows
+c=Convert to a SQL table
+d?=Question type?
+e=Aggregation: SQL query
+f=Lookup: semantic retrieval of rows
+g!=Dual query path
+a>b>c>d
+d-agg>e>g
+d-lookup>f>g
+@13.85
+a=Tabular question
+b?=Approach?
+c=Text-to-SQL generation
+d=Execute and return rows
+e=Semantic retrieval of row text
+f?=Complex aggregations?
+g=Prefer SQL
+h!=Hybrid ingestion
+a>b
+b-sql>c>d>f
+b-semantic>e>f
+f-yes>g>h
+f-no>h
+@13.86
+a=Codebase
+b=Parse AST
+c=Extract functions and classes
+d=Chunk by symbol with signatures
+e=Embed code and docstrings
+f=Navigate by call graph
+g!=Semantic code search
+a>b>c>d>e>f>g
+@13.87
+a=Images and text
+b=CLIP embeds both into one space
+c=Query retrieves either modality
+d=Pass image and text to a VLM
+e!=Multi-modal RAG
+a>b>c>d>e
+@13.88
+a=Document page image
+b=Vision-language model produces patch embeddings
+c=ColBERT-style late interaction with query tokens
+d=Retrieve pages directly
+e!=ColPali
+a>b>c>d>e
+@13.89
+a=Scanned PDFs
+b?=OCR pipeline?
+c=Fragile: layout and table errors
+d=Vision retrieval on page images
+e=Skip OCR entirely
+f!=OCR-free retrieval
+a>b
+b-ocr>c>d
+b-vision>d>e>f
+@13.90
+a=Air-gapped environment
+b=Ollama or vLLM serves a local model
+c=Local embedding model
+d=Local vector store
+e=LangChain connects components
+f!=Private RAG
+a>b>e
+a>c>e
+a>d>e>f
+@13.91
+a=Request
+b=Retrieve context
+c=Start generation
+d=Server-sent events stream tokens
+e=First token quickly
+f!=Low perceived latency
+a>b>c>d>e>f
+@13.92
+a=Question
+b=Agent plans a retrieval step
+c=Tool: vector search or filter
+d=Evaluate results
+e?=Enough evidence?
+f=Re-retrieve with a refined query
+g=Answer
+a>b>c>d>e
+e-no>f>c
+e-yes>g
+@13.93
+a=Answer draft
+b=Verify against context
+c?=Fails verification?
+d=Re-query the vector store
+e=Regenerate
+f!=Accepted answer
+a>b>c
+c-yes>d>e>b
+c-no>f
+@13.94
+a=Question over a big corpus
+b?=Corpus size?
+c=Context stuffing: cost scales with every call
+d=RAG: retrieve only relevant chunks
+e=Latency and accuracy trade-offs
+f!=Pick by economics
+a>b
+b-small>c>e>f
+b-large>d>e>f
+@13.95
+a=Very long context
+b=Attention saturates
+c=Needle accuracy drops on complex tasks
+d=RAG focuses the model
+e!=RAG can win
+a>b>c>d>e
+@13.96
+a=Millions of documents
+b=Ray or Spark workers parallelize
+c=Batch embedding on GPUs
+d=Write to the vector DB in bulk
+e?=Failures?
+f=Retry idempotent batches
+g!=High-throughput ingestion
+a>b>c>d>e
+e-yes>f>d
+e-no>g
+@13.97
+a=Vector database cost
+b?=Lever?
+c=Quantization shrinks memory
+d=SSD offloading with DiskANN
+e=Lower dimension via MRL
+f=Measure recall
+g!=Cost-recall frontier
+a>b
+b-quantize>c>f
+b-ssd>d>f
+b-dims>e>f
+f>g
+@13.98
+a=Production RAG
+b=Multi-region replicas
+c=Health checks
+d?=Primary fails?
+e=Fail over to replica
+f=Fallback knowledge source
+g!=High availability
+a>b>c>d
+d-yes>e>f>g
+d-no>g
+@13.99
+a=Per-tenant requests
+b=Rate limiter
+c=Token budget per tenant
+d?=Quota exceeded?
+e=Queue or reject
+f=Proceed
+g!=Fair usage
+a>b>c>d
+d-yes>e>g
+d-no>f>g
+@13.100
+a=Retrieved web page with hidden instruction
+b=Model reads it as context
+c?=Guarded?
+d=Isolate untrusted text, strip instructions
+e=Output filters and least-privilege tools
+f=Model may obey the injected command
+g!=Indirect injection defense
+a>b>c
+c-yes>d>e>g
+c-no>f>g
+@13.101
+a=Incoming documents
+b=MinHash or SimHash fingerprints
+c?=Near duplicate?
+d=Skip or merge
+e=Index it
+f!=No index bloat
+a>b>c
+c-yes>d>f
+c-no>e>f
+@13.102
+a=Domain query-passage pairs
+b=Mine hard negatives
+c=InfoNCE contrastive loss
+d=Fine-tune the embedder
+e=Evaluate recall
+f!=Domain-tuned embeddings
+a>b>c>d>e>f
+@13.103
+a=Search logs with clicks
+b=Hard negative mining
+c=Margin MSE with teacher scores
+d=Fine-tune the reranker
+e!=Enterprise reranker
+a>b>c>d>e
+@13.104
+a=User feedback: clicks and thumbs
+b=Log query, results, signal
+c=Mine positives and negatives
+d=Adjust retrieval weights or retrain
+e=A/B test
+f!=Continuous improvement
+a>b>c>d>e>f
+@13.105
+a=Generated answer
+b=Align claims to source passages
+c=Character offsets of evidence
+d=Highlight and cite in the UI
+e!=Explainable answer
+a>b>c>d>e
+@13.106
+a=Follow-up question with pronouns
+b=Coreference resolution
+c=Standalone question rewriting
+d=Retrieve with the standalone query
+e=Answer
+f!=Conversational RAG
+a>b>c>d>e>f
+@13.107
+a=Chat history and new turn
+b=Condense into a search query
+c=Retriever
+d=Answer using history and context
+e!=History-aware retrieval
+a>b>c>d>e
+@13.108
+a=Candidate chunks with scores
+b?=Above calibrated threshold?
+c=Include
+d=Drop low-relevance chunks
+e?=None left?
+f=Say "I don't know" or fall back
+g!=No noisy context
+a>b
+b-yes>c>g
+b-no>d>e
+e-yes>f>g
+@13.109
+a=Index atomic sentences
+b=Retrieve the best sentence
+c=Expand to its paragraph window
+d=Deduplicate overlapping windows
+e!=Precise match, full context
+a>b>c>d>e
+@13.110
+a=Generated chunks
+b=LLM judges coherence
+c?=Coherent?
+d=Keep
+e=Re-split
+f!=Quality-checked chunks
+a>b>c
+c-yes>d>f
+c-no>e>b
+@13.111
+a=Documentation repo
+b=Watch Git commits
+c=Detect changed files
+d=Re-index modified chunks
+e=Flag obsolete content
+f!=Fresh knowledge base
+a>b>c>d>e>f
+@13.112
+a=RAG pipeline change
+b=CI runs benchmark questions
+c=Compare metrics with baseline
+d?=Regression?
+e=Fail the build
+f=Merge
+g!=Continuous RAG testing
+a>b>c>d
+d-yes>e>g
+d-no>f>g
+@13.113
+a=SharePoint, Confluence, Notion, Jira
+b=Connectors with permissions
+c=Unified index
+d=Federated query
+e=Merge and rerank
+f!=Enterprise search RAG
+a>b>c>d>e>f
+@13.114
+a=Future directions
+b=Dynamic memory ingestion
+c=Unified retrieval and generation
+d=Agentic retrieval loops
+e=Learned indexes
+f!=Next-generation RAG
+a>b>f
+a>c>f
+a>d>f
+a>e>f

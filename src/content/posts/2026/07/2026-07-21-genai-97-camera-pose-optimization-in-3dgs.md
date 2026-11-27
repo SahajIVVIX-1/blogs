@@ -47,20 +47,31 @@ The operational topology, tensor dataflow, and execution lifecycle of **Camera P
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM ARCHITECTURE: CAMERA POSE OPTIMIZATION IN 3DGS"]):::title
-    I(["Input Tensors / State Vectors / Action Space"]):::io
-    L["<b>Forward Transformation #amp; Projections</b><br/>• High-Dimensional Subspace Mapping<br/>• Residual Connections #amp; Normalization<br/>• Attention Masking #amp; Boundary Routing"]
-    R["<b>Memory #amp; State Management</b><br/>• Continuous Paged Buffers / KV Cache<br/>• Zero-Copy Sharding Across Ranks<br/>• Bounded Latency #amp; Active Context"]
-    E["<b>Execution Pipeline #amp; Distributed Kernels</b><br/>• Flash Attention / Fused GEMM Operations<br/>• Memory-Bandwidth-Bound vs Compute-Bound Balancing<br/>• Asymptotic Complexity: O(n log n) or O(n)"]
-    O["<b>Empirical Output #amp; Production Serving</b><br/>• Deterministic Decoding #amp; Stopping Criteria<br/>• Latency Profiling #amp; Memory Footprint Verification<br/>• Resilient Fault Recovery #amp; Health Checks"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Generative AI #amp; Multimodal Models · Camera Pose Optimization in 3DGS: Adaptive Density Control, Splat Splitting, and Pruning Mechanics"]):::title
+    a["Optimization step"]
+    b{"Large gradient?"}
+    c{"Gaussian large or small?"}
+    d["Split large ones"]
+    e["Clone small ones"]
+    f["Prune low opacity"]
+    g["Optionally refine camera poses"]
+    h(["Adaptive density control"])
+    T ~~~ a
+    a --> b
+    b -- "yes" --> c
+    c -- "large" --> d
+    d --> h
+    c -- "small" --> e
+    e --> h
+    b -- "no" --> f
+    f --> g
+    g --> h
+    class b,c dec
+    class h term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This topology illustrates how abstract mathematical representations translate directly onto modern accelerator hardware (GPUs/TPUs), minimizing inter-node communication latency and memory bandwidth stalls.

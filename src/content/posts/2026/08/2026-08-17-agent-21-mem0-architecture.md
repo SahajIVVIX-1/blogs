@@ -47,20 +47,34 @@ The operational topology, tensor dataflow, and execution lifecycle of **Mem0 Arc
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM ARCHITECTURE: MEM0 ARCHITECTURE"]):::title
-    I(["Input Tensors / State Vectors / Action Space"]):::io
-    L["<b>Forward Transformation #amp; Projections</b><br/>• High-Dimensional Subspace Mapping<br/>• Residual Connections #amp; Normalization<br/>• Attention Masking #amp; Boundary Routing"]
-    R["<b>Memory #amp; State Management</b><br/>• Continuous Paged Buffers / KV Cache<br/>• Zero-Copy Sharding Across Ranks<br/>• Bounded Latency #amp; Active Context"]
-    E["<b>Execution Pipeline #amp; Distributed Kernels</b><br/>• Flash Attention / Fused GEMM Operations<br/>• Memory-Bandwidth-Bound vs Compute-Bound Balancing<br/>• Asymptotic Complexity: O(n log n) or O(n)"]
-    O["<b>Empirical Output #amp; Production Serving</b><br/>• Deterministic Decoding #amp; Stopping Criteria<br/>• Latency Profiling #amp; Memory Footprint Verification<br/>• Resilient Fault Recovery #amp; Health Checks"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Agentic AI #amp; MCP Systems · Mem0 Architecture: Scalable Dynamic Memory Layer with Selective Fact Updating and Conflict Resolution"]):::title
+    a["New messages"]
+    b["LLM extracts candidate facts"]
+    c["Compare with existing memories"]
+    d{"Relation?"}
+    e["ADD new fact"]
+    f["UPDATE changed fact"]
+    g["DELETE contradicted fact"]
+    h["NOOP duplicate"]
+    i(["Consistent memory layer"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c --> d
+    d -- "new" --> e
+    e --> i
+    d -- "changed" --> f
+    f --> i
+    d -- "conflict" --> g
+    g --> i
+    d -- "same" --> h
+    h --> i
+    class d dec
+    class i term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This topology illustrates how abstract mathematical representations translate directly onto modern accelerator hardware (GPUs/TPUs), minimizing inter-node communication latency and memory bandwidth stalls.

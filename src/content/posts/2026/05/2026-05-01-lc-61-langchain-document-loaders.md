@@ -47,20 +47,32 @@ The operational topology, tensor dataflow, and execution lifecycle of **LangChai
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM ARCHITECTURE: LANGCHAIN DOCUMENT LOADERS"]):::title
-    I(["Input Tensors / State Vectors / Action Space"]):::io
-    L["<b>Forward Transformation #amp; Projections</b><br/>• High-Dimensional Subspace Mapping<br/>• Residual Connections #amp; Normalization<br/>• Attention Masking #amp; Boundary Routing"]
-    R["<b>Memory #amp; State Management</b><br/>• Continuous Paged Buffers / KV Cache<br/>• Zero-Copy Sharding Across Ranks<br/>• Bounded Latency #amp; Active Context"]
-    E["<b>Execution Pipeline #amp; Distributed Kernels</b><br/>• Flash Attention / Fused GEMM Operations<br/>• Memory-Bandwidth-Bound vs Compute-Bound Balancing<br/>• Asymptotic Complexity: O(n log n) or O(n)"]
-    O["<b>Empirical Output #amp; Production Serving</b><br/>• Deterministic Decoding #amp; Stopping Criteria<br/>• Latency Profiling #amp; Memory Footprint Verification<br/>• Resilient Fault Recovery #amp; Health Checks"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["LangChain, RAG #amp; Vector Systems · LangChain Document Loaders: PyPDFLoader, TextLoader, CSVLoader, and WebBaseLoader Internals"]):::title
+    a["Source: PDF, text, CSV, web"]
+    b{"Loader?"}
+    c["PyPDFLoader: pages"]
+    d["TextLoader"]
+    e["CSVLoader: rows"]
+    f["WebBaseLoader: HTML"]
+    g["Document objects with metadata"]
+    h(["Loaded documents"])
+    T ~~~ a
+    a --> b
+    b -- "pdf" --> c
+    c --> g
+    b -- "txt" --> d
+    d --> g
+    b -- "csv" --> e
+    e --> g
+    b -- "web" --> f
+    f --> g
+    g --> h
+    class b dec
+    class h term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This topology illustrates how abstract mathematical representations translate directly onto modern accelerator hardware (GPUs/TPUs), minimizing inter-node communication latency and memory bandwidth stalls.

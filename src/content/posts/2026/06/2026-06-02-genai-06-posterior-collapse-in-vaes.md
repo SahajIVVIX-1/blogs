@@ -47,20 +47,30 @@ The operational topology, tensor dataflow, and execution lifecycle of **Posterio
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM ARCHITECTURE: POSTERIOR COLLAPSE IN VAES"]):::title
-    I(["Input Tensors / State Vectors / Action Space"]):::io
-    L["<b>Forward Transformation #amp; Projections</b><br/>• High-Dimensional Subspace Mapping<br/>• Residual Connections #amp; Normalization<br/>• Attention Masking #amp; Boundary Routing"]
-    R["<b>Memory #amp; State Management</b><br/>• Continuous Paged Buffers / KV Cache<br/>• Zero-Copy Sharding Across Ranks<br/>• Bounded Latency #amp; Active Context"]
-    E["<b>Execution Pipeline #amp; Distributed Kernels</b><br/>• Flash Attention / Fused GEMM Operations<br/>• Memory-Bandwidth-Bound vs Compute-Bound Balancing<br/>• Asymptotic Complexity: O(n log n) or O(n)"]
-    O["<b>Empirical Output #amp; Production Serving</b><br/>• Deterministic Decoding #amp; Stopping Criteria<br/>• Latency Profiling #amp; Memory Footprint Verification<br/>• Resilient Fault Recovery #amp; Health Checks"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Generative AI #amp; Multimodal Models · Posterior Collapse in VAEs: Causes, Free Bits Mitigation, and KL Annealing Schedules"]):::title
+    a["Strong decoder ignores z"]
+    b["KL goes to zero"]
+    c{"Collapsed?"}
+    d["KL annealing from 0 to 1"]
+    e["Free bits: minimum KL per dimension"]
+    f["Weaker decoder or skip connections"]
+    g(["Informative latents"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c -- "yes" --> d
+    d --> g
+    c -- "yes" --> e
+    e --> g
+    c -- "yes" --> f
+    f --> g
+    c -- "no" --> g
+    class c dec
+    class g term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This topology illustrates how abstract mathematical representations translate directly onto modern accelerator hardware (GPUs/TPUs), minimizing inter-node communication latency and memory bandwidth stalls.

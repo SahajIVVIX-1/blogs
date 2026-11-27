@@ -47,20 +47,20 @@ The operational topology, tensor dataflow, and execution lifecycle of **Closed-F
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM ARCHITECTURE: CLOSED-FORM FORWARD DIFFUSION"]):::title
-    I(["Input Tensors / State Vectors / Action Space"]):::io
-    L["<b>Forward Transformation #amp; Projections</b><br/>• High-Dimensional Subspace Mapping<br/>• Residual Connections #amp; Normalization<br/>• Attention Masking #amp; Boundary Routing"]
-    R["<b>Memory #amp; State Management</b><br/>• Continuous Paged Buffers / KV Cache<br/>• Zero-Copy Sharding Across Ranks<br/>• Bounded Latency #amp; Active Context"]
-    E["<b>Execution Pipeline #amp; Distributed Kernels</b><br/>• Flash Attention / Fused GEMM Operations<br/>• Memory-Bandwidth-Bound vs Compute-Bound Balancing<br/>• Asymptotic Complexity: O(n log n) or O(n)"]
-    O["<b>Empirical Output #amp; Production Serving</b><br/>• Deterministic Decoding #amp; Stopping Criteria<br/>• Latency Profiling #amp; Memory Footprint Verification<br/>• Resilient Fault Recovery #amp; Health Checks"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Generative AI #amp; Multimodal Models · Closed-Form Forward Diffusion: Sampling x_t Directly from x_0 via Cumulative Alpha Schedules"]):::title
+    a["Alpha-bar_t = product of (1 - beta_s)"]
+    b["x_t = sqrt(alpha-bar_t) x_0 + sqrt(1 - alpha-bar_t) eps"]
+    c["Jump to any timestep directly"]
+    d(["Fast training sample generation"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c --> d
+    class d term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This topology illustrates how abstract mathematical representations translate directly onto modern accelerator hardware (GPUs/TPUs), minimizing inter-node communication latency and memory bandwidth stalls.

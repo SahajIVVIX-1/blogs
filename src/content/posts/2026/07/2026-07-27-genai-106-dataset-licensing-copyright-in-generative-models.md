@@ -47,20 +47,30 @@ The operational topology, tensor dataflow, and execution lifecycle of **Dataset 
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM ARCHITECTURE: DATASET LICENSING #amp; COPYRIGHT IN GENERATIVE MODELS"]):::title
-    I(["Input Tensors / State Vectors / Action Space"]):::io
-    L["<b>Forward Transformation #amp; Projections</b><br/>• High-Dimensional Subspace Mapping<br/>• Residual Connections #amp; Normalization<br/>• Attention Masking #amp; Boundary Routing"]
-    R["<b>Memory #amp; State Management</b><br/>• Continuous Paged Buffers / KV Cache<br/>• Zero-Copy Sharding Across Ranks<br/>• Bounded Latency #amp; Active Context"]
-    E["<b>Execution Pipeline #amp; Distributed Kernels</b><br/>• Flash Attention / Fused GEMM Operations<br/>• Memory-Bandwidth-Bound vs Compute-Bound Balancing<br/>• Asymptotic Complexity: O(n log n) or O(n)"]
-    O["<b>Empirical Output #amp; Production Serving</b><br/>• Deterministic Decoding #amp; Stopping Criteria<br/>• Latency Profiling #amp; Memory Footprint Verification<br/>• Resilient Fault Recovery #amp; Health Checks"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Generative AI #amp; Multimodal Models · Dataset Licensing #amp; Copyright in Generative Models: Clean Datasets, Opt-Out Protocols, and Ethical Sourcing"]):::title
+    a["Training data"]
+    b{"License status?"}
+    c["Licensed or public domain"]
+    d["Opt-out registry honored"]
+    e["Scraped, unclear rights"]
+    f["Provenance logging"]
+    g(["Clean datasets"])
+    T ~~~ a
+    a --> b
+    b -- "clean" --> c
+    c --> f
+    f --> g
+    b -- "optout" --> d
+    d --> f
+    f --> g
+    b -- "unclear" --> e
+    e --> f
+    class b dec
+    class g term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This topology illustrates how abstract mathematical representations translate directly onto modern accelerator hardware (GPUs/TPUs), minimizing inter-node communication latency and memory bandwidth stalls.

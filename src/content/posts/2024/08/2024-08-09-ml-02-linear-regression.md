@@ -47,22 +47,28 @@ Consider a dataset containing $n$ observations and $d$ features, arranged in a d
 
 Consequently, the linear system $X\mathbf{w} = \mathbf{y}$ is **overdetermined**: there is almost never an exact linear combination of the columns of $X$ that equals $\mathbf{y}$, because $\mathbf{y}$ lies outside the column space $\mathcal{C}(X) \subset \mathbb{R}^n$.
 
-```text
-                       y (Actual target vector in R^n)
-                      /|
-                     / |
-                    /  |  Residual error vector:
-                   /   |  e = y - y_hat
-                  /    |  (Perpendicular to subspace)
-                 /     |
-                /      |
-               v       v
- [Origin 0] ---------> y_hat = X w* (Orthogonal projection onto C(X))
-             \       /
-              \     /   Column Space C(X) = span(x_1, x_2, ..., x_d)
-               \   /    (Subspace of dimension d in R^n)
-                \ /
-                 v
+```mermaid
+flowchart TD
+    T(["Linear Regression: Orthogonal Projection onto the Column Space"]):::title
+    a["Target y outside the column space"]
+    b["Find closest point in col(X)"]
+    c["Residual orthogonal to every column"]
+    d["X^T (y - X beta) = 0"]
+    e["Projection matrix P = X (X^T X)^-1 X^T"]
+    f["y_hat = P y"]
+    g(["Least squares as orthogonal projection"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c --> d
+    d --> e
+    e --> f
+    f --> g
+    class g term
+    classDef title fill:transparent,stroke:transparent,font-weight:700;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The fundamental goal of Ordinary Least Squares is to find the vector $\hat{\mathbf{y}} \in \mathcal{C}(X)$ that is **closest in Euclidean distance** to $\mathbf{y}$. 

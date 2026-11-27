@@ -53,7 +53,7 @@ for (const f of walkPosts()) {
   else if (ASCII.test(text)) { text = text.replace(ASCII, () => block); bump('ascii-replaced'); }
   else if (cat === 'ai' && text.includes('## Why it matters')) {
     text = text.replace('## Why it matters', () => `## How it fits together\n\nThe flowchart below maps this announcement's main points and what depends on them.\n\n${block}\n\n## Why it matters`);
-  } else { bump('no-slot'); continue; }
+  } else { bump('no-slot'); console.log('NOSLOT', f); continue; }
   if (WRITE && text !== p.text) writePostText(f, text, p.crlf);
 }
 console.log(WRITE ? 'WRITTEN' : 'DRY RUN', stats);
