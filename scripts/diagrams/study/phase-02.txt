@@ -1,0 +1,898 @@
+@2.1
+a=main.cpp and headers
+b@=Preprocessor: expand #include, #define
+c=Translation unit
+d@=Compiler: parse, optimize, emit assembly
+e=Assembler produces object file .o
+f$=Symbol table: defined and undefined symbols
+g@=Linker resolves symbols
+h?=Undefined reference?
+i=Fix missing definition or library order
+j=Relocate addresses, merge sections
+k!=Executable
+a>b>c>d>e>f>g>h
+h-yes>i>g
+h-no>j>k
+@2.2
+a=Process starts
+b$=Virtual address space
+c=Text segment: machine code, read-only
+d=Data and BSS: globals
+e=Heap grows up via new / malloc
+f=Stack grows down per call frame
+g?=Stack and heap meet?
+h=Stack overflow or bad_alloc
+i=MMU maps virtual pages to RAM
+j?=Page present?
+k=Page fault: kernel loads page
+l!=Access completes
+a>b>c
+b>d
+b>e
+b>f>g
+g-yes>h
+g-no>i>j
+j-no>k>i
+j-yes>l
+@2.3
+a=int x = 5
+b=Pointer p holds address of x
+c=Reference r is an alias bound once
+d?=Need to rebind or be null?
+e=Use pointer
+f=Use reference
+g=*p dereferences address
+h=p + 1 advances by sizeof(int)
+i?=Two names refer to one object?
+j=Aliasing blocks compiler optimizations
+k=Use __restrict to promise no alias
+l!=Safe, fast access
+a>b
+a>c
+b>d
+d-yes>e>g>h
+d-no>f
+g>i
+f>i
+i-yes>j>k>l
+i-no>l
+@2.4
+a=Declare variable or pointer
+b?=What must stay constant?
+c=const int* p: pointee read-only
+d=int* const p: pointer fixed
+e=const int* const p: both fixed
+f?=Value known at compile time?
+g=constexpr: computed by the compiler
+h=Runtime const only
+i=Const member function guards this
+j=Violation rejected at compile time
+k!=Const-correct interface
+a>b
+b-data>c>f
+b-pointer>d>f
+b-both>e>f
+f-yes>g>k
+f-no>h>k
+c>i
+i>j
+@2.5
+a=Expression in C++
+b?=Has identity?
+c?=Can be moved from?
+d=xvalue: expiring, e.g. std::move(x)
+e=lvalue: named, persistent
+f?=Movable without identity?
+g=prvalue: temporary, e.g. 42 or f()
+h=glvalue = lvalue or xvalue
+i=rvalue = xvalue or prvalue
+j=Binding rules pick overload
+k!=T&, const T&, T&& chosen
+a>b
+b-yes>c
+b-no>f
+c-yes>d>h
+c-no>e>h
+f-yes>g>i
+d>i
+h>j
+i>j>k
+@2.6
+a=Return or pass large object
+b?=Source is temporary or std::move?
+c=Overload T&& chosen
+d=Steal buffer pointer
+e=Leave source valid but empty
+f=Deep copy: allocate and copy
+g?=Move noexcept?
+h=std::vector reuses move on reallocation
+i=Falls back to copy for strong guarantee
+j!=O(1) transfer instead of O(n) copy
+a>b
+b-yes>c>d>e>g
+b-no>f
+g-yes>h>j
+g-no>i
+@2.7
+a=template wrapper(T&& arg)
+b?=Argument is lvalue or rvalue?
+c=Deduce T = U&, collapses to U&
+d=Deduce T = U, parameter is U&&
+e=Reference collapsing rules
+f=std::forward<T>(arg) restores category
+g=Call target(arg) preserving value category
+h?=Lvalue reaches const T& overload?
+i=Copy
+j=Move
+k!=Zero-overhead perfect forwarding
+a>b
+b-lvalue>c>e
+b-rvalue>d>e
+e>f>g>h
+h-yes>i>k
+h-no>j>k
+@2.8
+a=Acquire resource in constructor
+b$=Object owns file, lock or memory
+c=Use resource in scope
+d?=Exception thrown?
+e=Stack unwinding starts
+f=Destructor runs automatically
+g=Scope exits normally
+h=Resource released deterministically
+i=Compare: manual cleanup with goto
+j=Leaks on early return
+k!=No leaks on any path
+a>b>c>d
+d-yes>e>f>h
+d-no>g>f
+h>k
+c>i>j
+@2.9
+a=std::make_unique<T>()
+b$=unique_ptr: raw pointer + deleter
+c=Copy deleted, move allowed
+d?=Custom deleter supplied?
+e=Stored in object or stateless: zero overhead
+f=default_delete calls delete
+g=Ownership moves via std::move
+h?=Scope ends or reset()?
+i=Deleter invoked exactly once
+j!=Exclusive ownership, no leaks
+a>b>c>d
+d-yes>e
+d-no>f
+c>g>h
+e>h
+f>h
+h-yes>i>j
+@2.10
+a=make_shared<T>()
+b$=Control block: strong, weak, deleter
+c=Object and block in one allocation
+d=Copy shared_ptr: atomic increment
+e?=strong count hits zero?
+f=Destroy object
+g?=weak count zero too?
+h=Free control block
+i=weak_ptr::lock checks expiry
+j=Breaks reference cycles
+k!=Shared ownership with safe observation
+a>b>c>d>e
+e-yes>f>g
+e-no>d
+g-yes>h>k
+g-no>i
+i>j>k
+@2.11
+a=Class owns a resource
+b?=Resource management needed?
+c=Rule of Zero: use members that manage themselves
+d=Rule of Three: destructor, copy ctor, copy assign
+e=Rule of Five adds move ctor and move assign
+f=Compiler generates special members
+g?=Any one is user-declared?
+h=Others implicitly suppressed or deprecated
+i=Define or =default all five
+j!=Consistent object lifecycle
+a>b
+b-no>c>f>j
+b-yes>d>e>g
+g-yes>h>i>j
+g-no>f
+@2.12
+a=Base* p = new Derived
+b$=Object holds hidden vptr
+c$=vtable: array of function pointers
+d=Call p->speak()
+e=Load vptr from object
+f=Index vtable slot
+g=Indirect call to override
+h?=Method marked virtual?
+i=Direct call, can inline
+j=Cost: extra load plus lost inlining
+k!=Runtime polymorphism
+a>b
+b>e
+c>f
+d>h
+h-yes>e>f>g>j>k
+h-no>i>k
+@2.13
+a=class D: B, C both derive from A
+b?=Inherit A virtually?
+c=Two A subobjects: ambiguity
+d=Single shared A subobject
+e=vbptr stores offset to virtual base
+f=Compute A address at runtime
+g=Most-derived class constructs A
+h=Call D::f resolves unambiguously
+i=Cost: larger objects, extra indirection
+j!=Diamond solved
+a>b
+b-no>c
+b-yes>d>e>f>g>h>i>j
+@2.14
+a=template<typename T> T max(T a, T b)
+b=Call max(3, 4)
+c@=Deduce T = int
+d?=Instantiation already exists?
+e=Reuse generated function
+f=Instantiate: substitute T in the body
+g?=Body valid for int?
+h=Compile error at instantiation
+i=Emit machine code for max<int>
+j=Class templates instantiate per type argument
+k!=Zero-cost generic code
+a>b>c>d
+d-yes>e>k
+d-no>f>g
+g-no>h
+g-yes>i>k
+j>f
+@2.15
+a=Primary template Traits<T>
+b?=Special case needed?
+c=Full specialization: Traits<int>
+d=Partial specialization: Traits<T*>
+e=Overload resolution picks most specialized
+f=Struct traits expose ::value or ::type
+g?=Match more than one specialization?
+h=Ambiguity error
+i=Compile-time dispatch on type
+j!=Per-type behavior without runtime cost
+a>b
+b-exact type>c>e
+b-pattern>d>e
+b-none>f
+e>g
+g-yes>h
+g-no>f>i>j
+@2.16
+a=Overload candidate set
+b@=SFINAE: substitute template arguments
+c?=Substitution fails in the signature?
+d=Candidate silently removed
+e=Candidate stays viable
+f=std::enable_if_t<cond, T> gates it
+g=Type trait: is_integral, is_pointer
+h=Compile-time boolean value
+i?=Single viable candidate remains?
+j=Call it
+k=Ambiguity or no match error
+a>b>c
+c-yes>d>i
+c-no>e>i
+g>h>f>b
+i-yes>j
+i-no>k
+@2.17
+a=template<C T> void f(T x)
+b=Concept C = requires clauses
+c?=Type satisfies the constraints?
+d=Overload participates
+e=Clear diagnostic: constraint not satisfied
+f=Subsumption orders overloads
+g?=One constraint set stricter?
+h=More constrained overload wins
+i=Replaces enable_if and SFINAE tricks
+j!=Readable, checked templates
+a>b>c
+c-yes>d>f>g
+c-no>e
+g-yes>h>j
+g-no>j
+j>i
+@2.18
+a=push_back on full std::vector
+b?=size equals capacity?
+c=Construct element in place
+d=Allocate new buffer, about 2x capacity
+e?=Move constructor noexcept?
+f=Move elements across
+g=Copy elements across
+h=Free old buffer
+i=All iterators, pointers, references invalidated
+j!=Amortized O(1) append
+a>b
+b-no>c>j
+b-yes>d>e
+e-yes>f>h
+e-no>g>h
+h>i>j
+@2.19
+a=Need key to value lookup
+b?=Need sorted iteration or range queries?
+c=std::map: red-black tree
+d=O(log n) find, insert, erase
+e=Stable iterators
+f=std::unordered_map: bucket array
+g=Hash key, index bucket
+h?=Collision in bucket?
+i=Walk chain, compare keys
+j=Rehash when load factor exceeded
+k!=Choose by ordering and speed needs
+a>b
+b-yes>c>d>e>k
+b-no>f>g>h
+h-yes>i>j
+h-no>j
+j>k
+@2.20
+a=Pick a sequence container
+b?=Need contiguous memory?
+c?=Size fixed at compile time?
+d=std::array: stack storage, no allocation
+e=std::vector: best cache behavior
+f?=Frequent insert in the middle with stable pointers?
+g=std::list: node per element, O(1) splice
+h=std::deque: chunked, O(1) at both ends
+i=Pointer chasing hurts the cache
+j!=Container matches access pattern
+a>b
+b-yes>c
+c-yes>d>j
+c-no>e>j
+b-no>f
+f-yes>g>i>j
+f-no>h>j
+@2.21
+a=Algorithm requires an iterator
+b@=iterator_traits<It>::iterator_category
+c?=Category?
+d=Input / Output: single pass
+e=Forward: multi-pass
+f=Bidirectional: also --it
+g=Random access: it + n in O(1)
+h?=Algorithm needs jumps?
+i=std::sort requires random access
+j=std::list uses its own sort member
+k!=Tag dispatch picks the fastest implementation
+a>b>c
+c-input>d>k
+c-forward>e>k
+c-bidirectional>f>h
+c-random>g>h
+h-yes>i>k
+h-no>j>k
+@2.22
+a=std::sort(first, last, comp)
+b=Introsort starts with quicksort
+c?=Recursion depth exceeds 2 log n?
+d=Switch to heapsort
+e=Partition around pivot
+f?=Partition size under 16?
+g=Insertion sort finishes
+h=Custom predicate: strict weak ordering
+i=Sorted range enables binary_search, lower_bound
+j!=O(n log n) worst case
+a>b>c
+c-yes>d>j
+c-no>e>f
+f-yes>g>j
+f-no>b
+h>b
+j>i
+@2.23
+a=[captures](args){ body }
+b@=Compiler generates closure class
+c?=Capture mode?
+d=By value [=]: copy into closure
+e=By reference [&]: stores reference
+f?=Closure outlives the referenced variable?
+g=Dangling reference bug
+h=mutable allows modifying the copies
+i=auto parameter makes operator() a template
+j=Generic lambda instantiates per argument type
+k!=Callable object, inlinable
+a>b>c
+c-value>d>h>i
+c-reference>e>f
+f-yes>g
+f-no>i
+i>j>k
+@2.24
+a=new T(args)
+b@=operator new allocates raw bytes
+c@=Constructor runs in that storage
+d=delete: destructor, then operator delete
+e?=Need to separate allocation and construction?
+f=Placement new on a prepared buffer
+g=Call destructor explicitly
+h?=Allocation pattern special?
+i=Custom allocator: pool, arena, bump
+j=malloc/free for C interop
+k!=Controlled lifetime and layout
+a>b>c>d
+d>e
+e-yes>f>g>h
+e-no>h
+h-yes>i>k
+h-no>j>k
+@2.25
+a=CPU reads address
+b?=Line in L1 cache?
+c=Hit: about 4 cycles
+d=Miss: fetch 64-byte line from L2, L3, RAM
+e?=Next access nearby?
+f=Spatial locality: line already loaded
+g=Temporal locality: reuse while cached
+h?=Two cores write different variables in one line?
+i=False sharing: line ping-pongs between cores
+j=Pad to 64 bytes with alignas
+k!=Cache-friendly layout
+a>b
+b-yes>c>g>k
+b-no>d>e
+e-yes>f>k
+e-no>g
+d>h
+h-yes>i>j>k
+@2.26
+a=push_back(x)
+b?=size == capacity?
+c=Allocate 2x buffer, move elements
+d=Placement new at end slot
+e=Destroy and free old buffer
+f=size++
+g?=Exception during move?
+h=Strong guarantee: keep old buffer
+i=operator[] is pointer arithmetic
+j!=Amortized O(1) vector
+a>b
+b-yes>c>g
+g-yes>h
+g-no>e>d
+b-no>d
+d>f>j
+i>j
+@2.27
+a=insert node after position
+b=Allocate node first
+c?=Allocation threw?
+d=List unchanged: exception safe
+e=Relink next and prev pointers
+f=Doubly linked: update four pointers
+g?=Head or tail?
+h=Update head or tail pointer
+i=Destructor walks and deletes iteratively
+j!=Consistent list under exceptions
+a>b>c
+c-yes>d
+c-no>e>f>g
+g-yes>h>i
+g-no>i
+i>j
+@2.28
+a$=Fixed array of capacity N
+b=Head and tail indices
+c=push: write at tail
+d?=Queue full?
+e=Reject or grow
+f=tail = (tail + 1) mod N
+g=pop: read at head
+h?=Queue empty?
+i=Underflow
+j=head = (head + 1) mod N
+k!=Stack LIFO and ring-buffer FIFO in O(1)
+a>b>c>d
+d-yes>e
+d-no>f>g>h
+h-yes>i
+h-no>j>k
+@2.29
+a=Insert key into BST
+b?=key < node?
+c=Go left
+d=Go right
+e?=Child null?
+f=Attach new node
+g=Traversal
+h=Inorder: left, node, right gives sorted keys
+i=Preorder: node first, copies tree
+j=Postorder: children first, safe delete
+k!=Ordered set operations
+a>b
+b-yes>c>e
+b-no>d>e
+e-no>b
+e-yes>f>g
+g>h>k
+g>i>k
+g>j>k
+@2.30
+a=Insert into AVL tree
+b=BST insert, walk back to root
+c=Update height of each ancestor
+d?=Balance factor outside -1..1?
+e?=Which imbalance case?
+f=Single right rotation (left-left)
+g=Single left rotation (right-right)
+h=Left-right double rotation
+i=Right-left double rotation
+j!=Height O(log n) maintained
+a>b>c>d
+d-no>j
+d-yes>e
+e-LL>f>j
+e-RR>g>j
+e-LR>h>j
+e-RL>i>j
+@2.31
+a=Insert node colored red
+b?=Parent is black?
+c=Done
+d?=Uncle is red?
+e=Recolor parent, uncle, grandparent
+f=Continue from grandparent
+g?=Zig-zag shape?
+h=Rotate to straighten
+i=Rotate grandparent, recolor
+j=Root recolored black
+k!=Invariants: black height equal, no red-red
+a>b
+b-yes>c>k
+b-no>d
+d-yes>e>f>b
+d-no>g
+g-yes>h>i
+g-no>i
+i>j>k
+@2.32
+a=Array as complete binary tree
+b=Insert: append at end
+c=Sift up while larger than parent
+d=Extract max: swap root with last
+e=Sift down
+f?=Larger child greater than node?
+g=Swap and continue
+h=Heap property restored
+i=Heapsort: build heap in O(n)
+j=Repeat extract into sorted suffix
+k!=Priority queue in O(log n)
+a>b>c>h
+a>d>e>f
+f-yes>g>f
+f-no>h>k
+a>i>j>k
+@2.33
+a=insert(key, value)
+b=h = hash(key) mod m
+c?=Collision strategy?
+d=Chaining: append to bucket list
+e=Linear probing: scan next free slot
+f?=Load factor above threshold?
+g=Rehash into 2x table
+h?=Probe hits tombstone?
+i=Reuse slot after delete
+j=find follows the same probe order
+k!=Average O(1) with good hash
+a>b>c
+c-chain>d>f
+c-open>e>h
+h-yes>i>f
+h-no>f
+f-yes>g>j
+f-no>j>k
+@2.34
+a=insert(word)
+b=Start at root
+c=Next character
+d?=Child edge exists?
+e=Create node, link edge
+f=Descend to child
+g?=End of word?
+h=Mark terminal
+i=Prefix query walks the same path
+j=Collect all words below the node
+k!=O(length) lookup, autocomplete
+a>b>c>d
+d-no>e>f
+d-yes>f
+f>g
+g-no>c
+g-yes>h>k
+h>i>j>k
+@2.35
+a=find(x)
+b?=parent[x] == x?
+c=Root found
+d=Recurse on parent
+e=Path compression: point x at root
+f=union(x, y)
+g=Find both roots
+h?=Same root?
+i=Already connected
+j=Attach smaller rank under larger
+k!=Near-constant amortized time
+a>b
+b-yes>c>k
+b-no>d>e>b
+f>g>h
+h-yes>i
+h-no>j>k
+@2.36
+a=Algorithm with input size n
+b=Count dominant operations T(n)
+c?=Recursive structure?
+d=Write recurrence T(n) = a T(n/b) + f(n)
+e@=Master theorem: compare f(n) with n^(log_b a)
+f?=Which case?
+g=f smaller: Theta(n^(log_b a))
+h=Equal: Theta(n^(log_b a) log n)
+i=f larger: Theta(f(n))
+j=Bound as O upper, Omega lower, Theta tight
+k!=Complexity class
+a>b>c
+c-yes>d>e>f
+c-no>j
+f-1>g>j
+f-2>h>j
+f-3>i>j
+j>k
+@2.37
+a=merge_sort(A)
+b?=Length at most 1?
+c=Return A
+d=Split into halves
+e=Sort each half recursively
+f=Merge two sorted halves
+g?=Left element greater than right?
+h=Count inversions: remaining left elements
+i=Take smaller element
+j=T(n) = 2T(n/2) + n
+k!=O(n log n) sort and inversion count
+a>b
+b-yes>c
+b-no>d>e>f>g
+g-yes>h>i
+g-no>i
+i>j>k
+@2.38
+a=quick_sort(A, lo, hi)
+b=Choose pivot
+c?=Pivot strategy?
+d=Median of three
+e=Random pivot
+f=3-way partition: less, equal, greater
+g=Dutch national flag pointers lt, i, gt
+h?=Many duplicates?
+i=Equal block skipped
+j=Recurse on smaller part first
+k!=Average O(n log n), few worst cases
+a>b>c
+c-median>d>f
+c-random>e>f
+f>g>h
+h-yes>i>j
+h-no>j>k
+i>j
+@2.39
+a=Search sorted array
+b=lo, hi bounds
+c=mid = lo + (hi - lo) / 2
+d?=Condition at mid?
+e=Lower bound: first index >= x
+f=Upper bound: first index > x
+g=Move hi to mid
+h=Move lo to mid + 1
+i?=lo < hi?
+j=Search on answer: binary search over monotone predicate
+k!=O(log n) decisions
+a>b>c>d
+d-lower bound>e>g>i
+d-upper bound>f>h>i
+i-yes>c
+i-no>k
+j>c
+@2.40
+a=Graph with V vertices, E edges
+b?=Graph density?
+c$=Adjacency matrix V x V
+d$=Adjacency list per vertex
+e=CSR: offsets + targets arrays
+f?=Static after build?
+g=Edge test O(1), memory V squared
+h=Iterate neighbors in O(deg)
+i=Contiguous neighbors: cache friendly
+j!=Layout chosen for workload
+a>b
+b-dense>c>g>j
+b-sparse>d>f
+f-yes>e>i>j
+f-no>h>j
+@2.41
+a=BFS(source)
+b=dist[source]=0, enqueue
+c?=Queue empty?
+d=Dequeue u
+e=For each neighbor v
+f?=dist[v] unset?
+g=dist[v] = dist[u] + 1
+h=parent[v] = u, enqueue v
+i=Reconstruct path via parent
+j!=Shortest paths by edge count
+a>b>c
+c-no>d>e>f
+f-yes>g>h>e
+f-no>e
+c-yes>i>j
+@2.42
+a=DFS(u)
+b=Mark visiting (gray)
+c=For each neighbor v
+d?=State of v?
+e=Unvisited: recurse DFS(v)
+f=Gray: back edge means a cycle
+g=Black: already finished
+h=Mark finished (black)
+i?=More start vertices?
+j=Each DFS tree is a component
+k!=Cycles and components found
+a>b>c>d
+d-white>e>c
+d-gray>f>c
+d-black>g>c
+c>h>i
+i-yes>a
+i-no>j>k
+@2.43
+a=Directed acyclic graph
+b?=Method?
+c=Kahn: compute in-degrees
+d=Queue all in-degree 0 vertices
+e=Pop u, append to order
+f=Decrement neighbors in-degree
+g?=Order length equals V?
+h=Cycle detected
+i=DFS: push vertex after children
+j=Reverse post-order
+k!=Valid dependency order
+a>b
+b-Kahn>c>d>e>f>g
+f>d
+g-no>h
+g-yes>k
+b-DFS>i>j>k
+@2.44
+a=Dijkstra(source)
+b=dist = infinity, dist[s] = 0
+c$=Min-heap of (distance, vertex)
+d?=Heap empty?
+e=Pop smallest (d, u)
+f?=d greater than dist[u]?
+g=Stale entry skipped
+h=Relax each edge (u, v, w)
+i?=dist[u] + w < dist[v]?
+j=Update and push
+k!=Shortest paths, non-negative weights
+a>b>c>d
+d-no>e>f
+f-yes>g>d
+f-no>h>i
+i-yes>j>d
+i-no>d
+d-yes>k
+@2.45
+a=Weighted undirected graph
+b?=Algorithm?
+c=Kruskal: sort edges by weight
+d=Take next lightest edge
+e?=Endpoints in different DSU sets?
+f=Union sets, keep edge
+g=Skip, would form a cycle
+h=Prim: grow tree from one vertex
+i=Heap of crossing edges
+j=Add minimum crossing edge
+k!=Minimum spanning tree
+a>b
+b-Kruskal>c>d>e
+e-yes>f>k
+e-no>g>d
+b-Prim>h>i>j>k
+j>i
+@2.46
+a=std::thread t(task)
+b=Thread starts running
+c?=Joined or detached before destructor?
+d=join: wait for completion
+e=detach: runs independently
+f=terminate() if neither
+g?=Detached thread uses local variables?
+h=Dangling reference risk
+i=Pass by value or shared_ptr
+j!=Safe thread lifecycle
+a>b>c
+c-join>d>j
+c-detach>e>g
+c-neither>f
+g-yes>h>i>j
+g-no>j
+@2.47
+a=Shared counter
+b?=Need to lock?
+c=std::mutex m
+d=std::scoped_lock lock(m1, m2)
+e=Acquires all, deadlock-free ordering
+f?=Need to unlock early or with condition variable?
+g=std::unique_lock: movable, can unlock
+h=Critical section
+i=RAII releases on scope exit
+j!=Data race free
+a>b
+b-yes>c>d>e>h
+b-flexible>g>h
+h>i>j
+c>f
+f-yes>g
+@2.48
+a=Producer thread
+b=Lock mutex, push item
+c=notify_one()
+d$=Shared queue
+e=Consumer waits on condition_variable
+f?=Predicate true: queue not empty?
+g=Spurious wakeup: wait again
+h=Pop item, unlock
+i=Process item
+j!=Producer-consumer pipeline
+a>b>d>c
+c>e>f
+f-no>g>e
+f-yes>h>i>j
+@2.49
+a=std::atomic<int> counter
+b?=Memory order?
+c=seq_cst: single global order
+d=acquire / release: pair synchronization
+e=relaxed: atomicity only
+f=fetch_add is one indivisible step
+g?=Need ordering with other data?
+h=Use release on writer, acquire on reader
+i=Counters and statistics only
+j!=Lock-free correctness
+a>b
+b-seq_cst>c>f
+b-acq_rel>d>g
+b-relaxed>e>i
+g-yes>h>j
+g-no>i>j
+f>j
+@2.50
+a=Hot numeric loop
+b?=Compiler auto-vectorizes?
+c=Check aliasing, alignment, trip count
+d=Intrinsics: _mm512_add_ps
+e=Load 16 floats into zmm register
+f=Operate on all lanes at once
+g?=Array length multiple of 16?
+h=Scalar tail loop for the remainder
+i=Store results
+j=Compare speed with scalar baseline
+k!=Data-parallel speed-up
+a>b
+b-yes>c>j
+b-no>d>e>f>g
+g-no>h>i
+g-yes>i
+i>j>k

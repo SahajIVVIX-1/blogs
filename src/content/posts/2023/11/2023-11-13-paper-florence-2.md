@@ -77,20 +77,40 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["MULTIMODAL VISION-LANGUAGE ARCHITECTURE"]):::title
-    IMG(["Input Image I"]):::io --> VIT["<b>Vision Transformer</b><br/>Encoder (ViT-H/14)"]
-    TXT(["User Text Query T"]):::io --> TOK["<b>Word #amp; Position</b><br/>Token Embeddings"]
-    VIT --> PT(["Patch Tokens Z_v"])
-    PT --> ADP["Multi-Layer Projection Adapter g"]
-    ADP --> HV(["Aligned Visual Tokens H_v"])
-    HV --> CTX["<b>Interleaved Multimodal Context</b><br/>[ H_v || E(T) ]"]
-    TOK --> CTX
-    CTX --> LLM["<b>Autoregressive LLM Backbone</b><br/>(RoPE, GQA, SwiGLU Attention)"]
-    LLM --> RESP(["Grounded Textual Response"]):::io
-    T ~~~ IMG
-    T ~~~ TXT
+    T(["Florence-2: Advancing a Unified Representation for a Variety of Vision Tasks"]):::title
+    n1[["Introduce Florence-2, a novel vision foundation model with a unified, prompt-based representation for…"]]
+    n7[/"Evaluated against baselines"/]
+    n8{"Generalizes beyond training?"}
+    n9["Extensive evaluations on numerous tasks demonstrated Florence-2 to be a strong vision foundation model…"]
+    n10{{"Reported: 5B"}}
+    n11(["Code released with the paper"])
+    n12["Area: multimodal · vlms · vision-language · deep-learning"]
+    subgraph G0["How it works"]
+        n2["While existing large vision models excel in transfer learning, they struggle to perform a diversity of…"]
+        n3["Florence-2 was designed to take text-prompt as task instructions and generate desirable results in text…"]
+        n4["This multi-task learning setup demands large-scale, high-quality annotated data"]
+        n5["Co-developed FLD-5B that consists of 5.4 billion comprehensive visual annotations on 126 million images…"]
+        n6["Adopted a sequence-to-sequence structure to train Florence-2 to perform versatile and comprehensive vision…"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n4 --> n5
+    n5 --> n6
+    n6 --> n7
+    n7 --> n8
+    n8 -- "no, refine" --> n2
+    n8 -- "yes" --> n9
+    n9 --> n10
+    n10 --> n11
+    n12 --> n1
+    class n8 dec
+    class n11 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

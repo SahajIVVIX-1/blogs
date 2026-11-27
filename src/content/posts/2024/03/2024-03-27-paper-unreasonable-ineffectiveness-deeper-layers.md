@@ -77,18 +77,34 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["DEEP AUTOREGRESSIVE REASONING PIPELINE"]):::title
-    X(["Input Token Sequence x_{1:t}"]):::io --> N["Rotary Positional Encoding (RoPE) #amp; RMSNorm"]
-    N --> G["<b>Grouped-Query Attention Block (GQA)</b><br/>Q = x * W_q, K = x * W_k (shared), V = x * W_v (shared)"]
-    G --> S["SwiGLU Feed-Forward Network: (xW_gate * swish(xW_up)) * W_down"]
-    S --> R["Residual Accumulator #amp; Pre-Layer Normalization"]
-    R --> H1(["Direct Next-Token Logits"])
-    R --> H2(["Implicit Reward Head"])
-    H1 --> P1["Temperature-Scaled Top-p Sampling"]
-    H2 --> P2["Alignment Loss Check"]
-    T ~~~ X
+    T(["The Unreasonable Ineffectiveness of the Deeper Layers"]):::title
+    n1[["Empirically study a simple layer-pruning strategy for popular families of open-weight pretrained LLMs…"]]
+    n2["To prune these models, we identify the optimal block of layers to prune by considering similarity across…"]
+    n5[/"Evaluated against baselines"/]
+    n6{"Holds on the benchmarks?"}
+    n7["From a practical perspective, these results suggest that layer pruning methods can complement other PEFT…"]
+    n8(["Code released with the paper"])
+    n9["Area: efficiency · quantization · inference-acceleration · llm-systems"]
+    subgraph G0["How it works"]
+        n3["In particular, we use parameter-efficient finetuning (PEFT) methods, specifically quantization and Low…"]
+        n4["From a scientific perspective, the robustness of these LLMs to the deletion of layers implies either that…"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n4 --> n5
+    n5 --> n6
+    n6 -- "yes" --> n7
+    n7 --> n8
+    n6 -- "no" --> n8
+    n9 --> n1
+    class n6 dec
+    class n8 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

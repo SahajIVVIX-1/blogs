@@ -51,20 +51,30 @@ The structural geometry, functional mappings, and algorithmic pipeline of **Nega
 
 ```mermaid
 flowchart TD
-    T(["ALGORITHMIC TOPOLOGY: NEGATIVE BINOMIAL REGRESSION"]):::title
-    I(["Input Feature Matrix: X ∈ R^{n × d}, Labels: y ∈ Y"]):::io
-    L["<b>Feature Mapping / Space Geometry</b><br/>• Subspace Projection / Kernel Space<br/>• Orthonormal Coordinates #amp; Basis<br/>• Geometric Decision Boundaries"]
-    R["<b>Loss Formulation</b><br/>• Objective: L(w; X, y)<br/>• Regularization Penalty R(w)<br/>• Convex Convexity Bounds"]
-    E["<b>Optimization #amp; Analytical Solution</b><br/>• Gradient: ∇_w L(w) = 0<br/>• Hessian Curvature: H = ∇^2 L(w) ≻ 0<br/>• Iterative Updates: w_{t+1} = w_t - η · H^{-1} ∇L"]
-    O["<b>Empirical Generalization #amp; Inference</b><br/>• Out-of-Sample Risk R_emp(f)<br/>• Variance-Bias Frontier Calibration<br/>• High-Throughput Production Serving"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Machine Learning · Negative Binomial Regression: Handling Overdispersed Count Data with Ancillary Variance"]):::title
+    a["Overdispersed counts"]
+    b["Gamma-distributed rate heterogeneity"]
+    c["Negative binomial: variance mu + mu^2 / r"]
+    d["Dispersion parameter alpha estimated"]
+    e["Same log link as Poisson"]
+    f{"alpha near zero?"}
+    g["Poisson suffices"]
+    h(["Count model with extra variance"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c --> d
+    d --> e
+    e --> f
+    f -- "yes" --> g
+    g --> h
+    f -- "no" --> h
+    class f dec
+    class h term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational diagram illustrates how high-dimensional feature points are transformed, regularized, and mapped to objective losses to achieve minimal out-of-sample generalization error.

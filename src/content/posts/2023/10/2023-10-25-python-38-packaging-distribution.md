@@ -43,20 +43,42 @@ The structural flow, component relationships, and operational hierarchy of **Pac
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM TOPOLOGY: PACKAGING #amp; DISTRIBUTION"]):::title
-    I(["Primary Input / Data Descriptor Space"]):::io
-    L["<b>Memory Layout #amp; Internal State</b><br/>• Contiguous Buffer / Cache Lines<br/>• Invariant Constraints #amp; Headers<br/>• Structural Hierarchy (O(1) Access)"]
-    R["<b>Algorithmic Control Flow</b><br/>• Transformation Kernel / Pipeline<br/>• Dispatch Table / Virtual Methods<br/>• Dynamic Resolution / Graph Routing"]
-    E["<b>Execution Pipeline #amp; Vectorization</b><br/>• Cache Locality Optimization (Spatial #amp; Temporal)<br/>• Bounded Asymptotic Complexity: O(n) Time, O(1) Space<br/>• Deterministic Memory Deallocation #amp; Lifecycle"]
-    O["<b>High-Throughput Production Serving</b><br/>• Zero-Copy Slicing / Shared References<br/>• Lock-Free Concurrency #amp; Thread Safety<br/>• Monitored Latency #amp; Error Resilience"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Python for AI #amp; Systems · Packaging #amp; Distribution: Pyproject.toml, Wheels, Setuptools, and Flit"]):::title
+    a["Source tree + pyproject.toml"]
+    b["[build-system] requires and backend"]
+    c{"Backend choice"}
+    d["setuptools: build_meta"]
+    e["flit: pure Python, minimal config"]
+    f[["Isolated build environment"]]
+    g["Build sdist (source archive)"]
+    h["Build wheel (zip of ready files)"]
+    i{"Compiled extension?"}
+    j["Platform-tagged wheel"]
+    k["Universal py3-none-any wheel"]
+    l[("PyPI upload with twine")]
+    m(["pip install uses the wheel"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c -- "setuptools" --> d
+    d --> f
+    c -- "flit" --> e
+    e --> f
+    f --> g
+    g --> h
+    h --> i
+    i -- "yes" --> j
+    j --> l
+    i -- "no" --> k
+    k --> l
+    l --> m
+    class c,i dec
+    class m term
+    class l store
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational blueprint illustrates how abstract abstractions map directly to physical hardware architectures, optimizing memory locality and instruction throughput.

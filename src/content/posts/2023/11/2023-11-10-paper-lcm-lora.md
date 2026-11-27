@@ -73,21 +73,36 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["LATENT FLOW MATCHING #amp; SYNTHESIS PIPELINE"]):::title
-    N(["Gaussian Noise x_1 ~ N(0, I)"]):::io --> TE["<b>Timestep Embedding</b><br/>t in [0, 1]"]
-    C(["Prompt / Condition c"]):::io --> CA["<b>Cross-Attention</b><br/>Text Encoder Head"]
-    TE --> VF["<b>Latent Vector Field Network</b><br/>v_theta(x_t, t, c)"]
-    CA --> VF
-    VF --> VP(["Velocity Vector Prediction: dx_t / dt"])
-    VP --> ODE["<b>Numerical ODE Solver Step</b><br/>x_{t - dt} = x_t - v * dt"]
-    ODE -- "iterate N steps" --> VF
-    ODE --> Z(["Synthesized Latent State x_0"])
-    Z --> D["Variational Autoencoder Decoder"]
-    D --> OUT(["High-Fidelity Output Image"]):::io
-    T ~~~ N
-    T ~~~ C
+    T(["LCM-LoRA: A Universal Stable-Diffusion Acceleration Module"]):::title
+    n3[["LCM-LoRA: This report further extends LCMs' potential in two aspects: First, by applying LoRA…"]]
+    n4["Second, we identify the LoRA parameters obtained through LCM distillation as a universal Stable-Diffusion…"]
+    n5["LCM-LoRA can be directly plugged into various Stable-Diffusion fine-tuned models or LoRAs without…"]
+    n6[/"Evaluated against baselines"/]
+    n7{"Efficiency gain holds?"}
+    n8["Compared with previous numerical PF-ODE solvers such as DDIM, DPM-Solver, LCM-LoRA can be viewed as a…"]
+    n9(["Project page: https://github.com/luosiallen/latent-consistency-model"])
+    n10["Area: generative-ai · diffusion-models · image-synthesis · multimodal"]
+    subgraph G0["Problem and gap"]
+        n1["Latent Consistency Models (LCMs) have achieved impressive performance in accelerating text-to-image…"]
+        n2["LCMs are distilled from pre-trained latent diffusion models (LDMs), requiring only ~32 A100 GPU training…"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n4 --> n5
+    n5 --> n6
+    n6 --> n7
+    n7 -- "yes" --> n8
+    n8 --> n9
+    n7 -- "no" --> n9
+    n10 --> n3
+    class n7 dec
+    class n9 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

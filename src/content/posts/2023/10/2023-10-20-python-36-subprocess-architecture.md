@@ -43,20 +43,40 @@ The structural flow, component relationships, and operational hierarchy of **Sub
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM TOPOLOGY: SUBPROCESS ARCHITECTURE"]):::title
-    I(["Primary Input / Data Descriptor Space"]):::io
-    L["<b>Memory Layout #amp; Internal State</b><br/>• Contiguous Buffer / Cache Lines<br/>• Invariant Constraints #amp; Headers<br/>• Structural Hierarchy (O(1) Access)"]
-    R["<b>Algorithmic Control Flow</b><br/>• Transformation Kernel / Pipeline<br/>• Dispatch Table / Virtual Methods<br/>• Dynamic Resolution / Graph Routing"]
-    E["<b>Execution Pipeline #amp; Vectorization</b><br/>• Cache Locality Optimization (Spatial #amp; Temporal)<br/>• Bounded Asymptotic Complexity: O(n) Time, O(1) Space<br/>• Deterministic Memory Deallocation #amp; Lifecycle"]
-    O["<b>High-Throughput Production Serving</b><br/>• Zero-Copy Slicing / Shared References<br/>• Lock-Free Concurrency #amp; Thread Safety<br/>• Monitored Latency #amp; Error Resilience"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Python for AI #amp; Systems · Subprocess Architecture: Pipelining, Non-blocking Pipes, and Signals"]):::title
+    a["Popen(cmd, stdout=PIPE, stderr=PIPE)"]
+    b["fork + exec child process"]
+    c[("OS pipes: stdin, stdout, stderr")]
+    d["Set pipes non-blocking"]
+    e["selectors poll for readable pipes"]
+    f{"Child still running?"}
+    g["Read chunk without blocking"]
+    h["Feed chunk to line parser"]
+    i{"Timeout or SIGTERM?"}
+    j["send_signal(SIGTERM), then kill"]
+    k["wait() collects exit status"]
+    l(["returncode checked"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c --> d
+    d --> e
+    e --> f
+    f -- "yes" --> g
+    g --> h
+    h --> i
+    i -- "no" --> e
+    i -- "yes" --> j
+    j --> k
+    f -- "no" --> k
+    k --> l
+    class f,i dec
+    class l term
+    class c store
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational blueprint illustrates how abstract abstractions map directly to physical hardware architectures, optimizing memory locality and instruction throughput.

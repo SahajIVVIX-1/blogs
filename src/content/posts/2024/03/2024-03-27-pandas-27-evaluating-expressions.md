@@ -43,20 +43,32 @@ The structural flow, component relationships, and operational hierarchy of **Eva
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM TOPOLOGY: EVALUATING EXPRESSIONS"]):::title
-    I(["Primary Input / Data Descriptor Space"]):::io
-    L["<b>Memory Layout #amp; Internal State</b><br/>• Contiguous Buffer / Cache Lines<br/>• Invariant Constraints #amp; Headers<br/>• Structural Hierarchy (O(1) Access)"]
-    R["<b>Algorithmic Control Flow</b><br/>• Transformation Kernel / Pipeline<br/>• Dispatch Table / Virtual Methods<br/>• Dynamic Resolution / Graph Routing"]
-    E["<b>Execution Pipeline #amp; Vectorization</b><br/>• Cache Locality Optimization (Spatial #amp; Temporal)<br/>• Bounded Asymptotic Complexity: O(n) Time, O(1) Space<br/>• Deterministic Memory Deallocation #amp; Lifecycle"]
-    O["<b>High-Throughput Production Serving</b><br/>• Zero-Copy Slicing / Shared References<br/>• Lock-Free Concurrency #amp; Thread Safety<br/>• Monitored Latency #amp; Error Resilience"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Pandas #amp; Large Data Engineering · Evaluating Expressions: pd.eval and DataFrame.query for Memory-Efficient In-Place Operations"]):::title
+    a["df.query('a #gt; b and c #lt; 3')"]
+    b[["numexpr compiles expression"]]
+    c["Evaluate in blocks, no temporaries"]
+    d{"Large frame?"}
+    e["Lower memory and faster"]
+    f["Overhead exceeds gain"]
+    g["pd.eval assigns inside frame"]
+    h["Local variables via @name"]
+    i(["Memory-efficient filtering"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c --> d
+    d -- "yes" --> e
+    e --> g
+    d -- "no" --> f
+    f --> g
+    g --> h
+    h --> i
+    class d dec
+    class i term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational blueprint illustrates how abstract abstractions map directly to physical hardware architectures, optimizing memory locality and instruction throughput.

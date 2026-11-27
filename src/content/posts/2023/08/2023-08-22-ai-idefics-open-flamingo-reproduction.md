@@ -28,6 +28,45 @@ Hugging Face released **IDEFICS** (Image-aware Decoder Enhanced à la Flamingo w
 - two variants, **base** and **instructed**, each at **9B** and **80B** parameters
 - the announcement says it's comparable in performance to the original Flamingo
 
+## How it fits together
+
+The flowchart below maps this announcement's main points and what depends on them.
+
+```mermaid
+flowchart TD
+    T(["IDEFICS: an open reproduction of Flamingo"]):::title
+    n1(["Hugging Face: IDEFICS: an open reproduction of Flamingo"])
+    n2["Hugging Face released IDEFICS, an open visual language model in 9B and 80B sizes that reproduces DeepMind's…"]
+    n6[/"built only on publicly available data and models: LLaMA v1 for language and OpenCLIP for vision"/]
+    n7{"Ready beyond the demo?"}
+    n8["The blog frames IDEFICS as a transparency effort: public data only, tools to explore the training data, a shared…"]
+    n9(["Track the rollout and follow-up releases"])
+    n10["Topics: multimodal · open-source · hugging-face"]
+    subgraph G0["What it adds"]
+        n3["accepts arbitrary sequences of images and text and produces text: answering questions about images, describing…"]
+        n4["two variants, base and instructed, each at 9B and 80B parameters"]
+        n5["the announcement says it's comparable in performance to the original Flamingo"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n2 --> n4
+    n2 --> n5
+    n3 --> n7
+    n4 --> n7
+    n5 --> n7
+    n7 -- "yes" --> n6
+    n6 --> n8
+    n8 --> n9
+    n10 --> n2
+    class n7 dec
+    class n1,n9 term
+    classDef title fill:transparent,stroke:transparent,font-weight:700;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
+```
+
 ## Why it matters
 
 The blog frames IDEFICS as a transparency effort: public data only, tools to explore the training data, a shared log of technical lessons and mistakes, and adversarial red-teaming before release. It joined OpenFlamingo (a 9B reproduction) as an open base for multimodal research at a time when the leading multimodal systems were closed.

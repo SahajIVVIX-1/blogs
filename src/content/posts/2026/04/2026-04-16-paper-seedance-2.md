@@ -68,21 +68,32 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["LATENT FLOW MATCHING #amp; SYNTHESIS PIPELINE"]):::title
-    N(["Gaussian Noise x_1 ~ N(0, I)"]):::io --> TE["<b>Timestep Embedding</b><br/>t in [0, 1]"]
-    C(["Prompt / Condition c"]):::io --> CA["<b>Cross-Attention</b><br/>Text Encoder Head"]
-    TE --> VF["<b>Latent Vector Field Network</b><br/>v_theta(x_t, t, c)"]
-    CA --> VF
-    VF --> VP(["Velocity Vector Prediction: dx_t / dt"])
-    VP --> ODE["<b>Numerical ODE Solver Step</b><br/>x_{t - dt} = x_t - v * dt"]
-    ODE -- "iterate N steps" --> VF
-    ODE --> Z(["Synthesized Latent State x_0"])
-    Z --> D["Variational Autoencoder Decoder"]
-    D --> OUT(["High-Fidelity Output Image"]):::io
-    T ~~~ N
-    T ~~~ C
+    T(["Seedance 2.0: Advancing Video Generation for World Complexity"]):::title
+    a(["Seedance 2.0: Advancing Video Generation for World Complexity"])
+    b["Task: High-fidelity continuous generative modeling, controllable synthesis, and sample efficiency"]
+    c[["Method: Flow-matching / score-based generative formulation parameterized across continuous latent…"]]
+    e[/"Data: LAION-5B, ImageNet, WebVid, MS-COCO, and high-resolution synthetic benchmarks"/]
+    f{"Beats strong baselines?"}
+    g["Result: State-of-the-art Fréchet Inception Distance (FID) with significantly reduced sampling steps"]
+    h["Limitations: scope, data and compute assumptions"]
+    i(["arXiv 2604.14148"])
+    j["Area: generative-ai · diffusion-models · image-synthesis · multimodal"]
+    T ~~~ a
+    a --> b
+    b --> c
+    c --> e
+    e --> f
+    f -- "yes" --> g
+    g --> h
+    h --> i
+    f -- "no" --> c
+    j --> b
+    class f dec
+    class a,i term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

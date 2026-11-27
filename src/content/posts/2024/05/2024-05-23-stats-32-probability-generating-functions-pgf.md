@@ -51,18 +51,34 @@ To build intuitive geometric comprehension, the operational mechanics and struct
 
 ```mermaid
 flowchart TD
-    T(["THEORETICAL FOUNDATION: PROBABILITY GENERATING FUNCTIONS (PGF)"]):::title
-    I(["Mathematical Measure Space (Ω, F, P)"]):::io
-    L["<b>Analytical Formulation</b><br/>• Probability Density / PMF<br/>• Parameter Vector θ ∈ Θ<br/>• Closed-form Derivation"]
-    R["<b>Empirical Space</b><br/>• Sample Realizations (x_1..x_N)<br/>• Sufficient Statistics T(X)<br/>• Monte Carlo Estimators"]
-    E["<b>Asymptotic Convergence #amp; Limits</b><br/>• Large Sample Consistency: n -#gt; ∞<br/>• Fisher Information #amp; Asymptotic Efficiency<br/>• Bounded Variance #amp; Asymptotic Normality"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
+    T(["Probability #amp; Statistics · Probability Generating Functions (PGF): Branching Processes and Extinction Probabilities"]):::title
+    a["PGF G(s) = E[s^X]"]
+    b["G(1) = 1"]
+    c["G'(1) = E[X]"]
+    d["Branching process: offspring PGF"]
+    e["Generation n: n-fold composition"]
+    f{"Mean offspring #gt; 1?"}
+    g["Extinction probability #lt; 1"]
+    h["Smallest root of s = G(s)"]
+    i["Subcritical: certain extinction"]
+    j(["Population growth model"])
+    T ~~~ a
+    a --> b
+    b --> c
+    a --> d
+    d --> e
+    e --> f
+    f -- "yes" --> g
+    g --> h
+    h --> j
+    f -- "no" --> i
+    i --> j
+    class f dec
+    class j term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This conceptual blueprint highlights how abstract probability spaces project down into observable sample geometries, connecting theoretical expectation functionals with concrete sample statistics.

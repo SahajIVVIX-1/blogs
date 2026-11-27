@@ -51,18 +51,30 @@ To build intuitive geometric comprehension, the operational mechanics and struct
 
 ```mermaid
 flowchart TD
-    T(["THEORETICAL FOUNDATION: TRANSFORMATIONS OF DISCRETE RANDOM VARIABLES"]):::title
-    I(["Mathematical Measure Space (Ω, F, P)"]):::io
-    L["<b>Analytical Formulation</b><br/>• Probability Density / PMF<br/>• Parameter Vector θ ∈ Θ<br/>• Closed-form Derivation"]
-    R["<b>Empirical Space</b><br/>• Sample Realizations (x_1..x_N)<br/>• Sufficient Statistics T(X)<br/>• Monte Carlo Estimators"]
-    E["<b>Asymptotic Convergence #amp; Limits</b><br/>• Large Sample Consistency: n -#gt; ∞<br/>• Fisher Information #amp; Asymptotic Efficiency<br/>• Bounded Variance #amp; Asymptotic Normality"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
+    T(["Probability #amp; Statistics · Transformations of Discrete Random Variables: Derived Distributions and PMF Inversion"]):::title
+    a["Y = g(X), X discrete"]
+    b{"g one-to-one?"}
+    c["p_Y(y) = p_X(g^-1(y))"]
+    d["Sum over all x with g(x) = y"]
+    e["Collect preimages"]
+    f["Derived PMF sums to 1"]
+    g["Example: Y = X^2 merges x and -x"]
+    h(["Distribution of a transform"])
+    T ~~~ a
+    a --> b
+    b -- "yes" --> c
+    c --> f
+    b -- "no" --> d
+    d --> e
+    e --> f
+    f --> g
+    g --> h
+    class b dec
+    class h term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This conceptual blueprint highlights how abstract probability spaces project down into observable sample geometries, connecting theoretical expectation functionals with concrete sample statistics.

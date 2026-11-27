@@ -51,18 +51,29 @@ To build intuitive geometric comprehension, the operational mechanics and struct
 
 ```mermaid
 flowchart TD
-    T(["THEORETICAL FOUNDATION: HOEFFDING'S INEQUALITY"]):::title
-    I(["Mathematical Measure Space (Ω, F, P)"]):::io
-    L["<b>Analytical Formulation</b><br/>• Probability Density / PMF<br/>• Parameter Vector θ ∈ Θ<br/>• Closed-form Derivation"]
-    R["<b>Empirical Space</b><br/>• Sample Realizations (x_1..x_N)<br/>• Sufficient Statistics T(X)<br/>• Monte Carlo Estimators"]
-    E["<b>Asymptotic Convergence #amp; Limits</b><br/>• Large Sample Consistency: n -#gt; ∞<br/>• Fisher Information #amp; Asymptotic Efficiency<br/>• Bounded Variance #amp; Asymptotic Normality"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
+    T(["Probability #amp; Statistics · Hoeffding's Inequality: Bounding Sums of Independent Bounded Random Variables"]):::title
+    a["Independent X_i in [a_i, b_i]"]
+    b["Sum S_n with mean mu"]
+    c["Bound MGF of each bounded variable"]
+    d[["Hoeffding lemma"]]
+    e["P(S - mu #gt;= t) #lt;= exp(-2 t^2 / sum (b_i - a_i)^2)"]
+    f["Confidence intervals for means"]
+    g["Generalization bounds in learning"]
+    h(["Concentration for bounded sums"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c --> d
+    d --> e
+    e --> f
+    f --> h
+    e --> g
+    g --> h
+    class h term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This conceptual blueprint highlights how abstract probability spaces project down into observable sample geometries, connecting theoretical expectation functionals with concrete sample statistics.

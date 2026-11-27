@@ -29,6 +29,43 @@ The idea is extreme compression:
 - Würstchen reaches **42×** with a two-stage **decoder**: **Stage A** (a VQGAN) and **Stage B** (a diffusion autoencoder)
 - the text-conditional **Stage C** ("the Prior") is trained in that tiny latent space
 
+## How it fits together
+
+The flowchart below maps this announcement's main points and what depends on them.
+
+```mermaid
+flowchart TD
+    T(["Würstchen: diffusion in a 42× compressed latent space"]):::title
+    n1(["Hugging Face: Würstchen: diffusion in a 42× compressed latent space"])
+    n2["Würstchen is a text-to-image diffusion model whose text-conditional stage works in a latent space compressed…"]
+    n6{"Ready beyond the demo?"}
+    n7["Working in a smaller latent space cuts cost."]
+    n8(["Track the rollout and follow-up releases"])
+    n9["Topics: genai · diffusion · efficiency"]
+    subgraph G0["What it adds"]
+        n3["typical latent diffusion uses about 4–8× spatial compression. According to the post, common methods fail to…"]
+        n4["Würstchen reaches 42× with a two-stage decoder: Stage A (a VQGAN) and Stage B (a diffusion autoencoder)"]
+        n5["the text-conditional Stage C (#quot;the Prior#quot;) is trained in that tiny latent space"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n2 --> n4
+    n2 --> n5
+    n3 --> n6
+    n4 --> n6
+    n5 --> n6
+    n6 --> n7
+    n7 --> n8
+    n9 --> n2
+    class n6 dec
+    class n1,n8 term
+    classDef title fill:transparent,stroke:transparent,font-weight:700;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
+```
+
 ## Why it matters
 
 Working in a smaller latent space cuts cost. The post reports:

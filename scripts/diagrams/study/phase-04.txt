@@ -1,0 +1,487 @@
+@4.1
+a=pd.DataFrame(data)
+b@=BlockManager groups columns by dtype
+c$=2D block: all float64 columns together
+d$=2D block: all int64 columns together
+e=Axes: row Index and column Index
+f=Series = one column view into a block
+g?=Operation touches many dtypes?
+h=Per-block vectorized loops
+i=Consolidation copies blocks
+j!=Columnar, dtype-grouped storage
+a>b>c>e
+b>d>e
+e>f>g
+g-yes>i>h
+g-no>h>j
+i>j
+@4.2
+a=Column of strings
+b?=Backend?
+c=NumPy object array of Python str pointers
+d=PyArrow string array: offsets + UTF-8 bytes
+e=Each element a separate heap object
+f=One contiguous buffer, validity bitmap
+g?=Pass to another Arrow tool?
+h=Zero-copy via Arrow C data interface
+i=Convert to Python objects, slow
+j!=Lower memory, faster string ops
+a>b
+b-numpy>c>e>g
+b-pyarrow>d>f>g
+g-yes>h>j
+g-no>i>j
+f>j
+@4.3
+a=df.loc[label]
+b?=Index type?
+c=RangeIndex: start, stop, step arithmetic
+d=Int64Index: hash table of labels
+e=MultiIndex: levels + codes arrays
+f=Label to position in O(1)
+g=Position computed without storage
+h=Tuple key walks level codes
+i?=Index sorted and unique?
+j=Binary search for slices
+k=Hash lookup
+l!=Fast label access
+a>b
+b-range>c>g>i
+b-integer>d>f>i
+b-multi>e>h>i
+i-yes>j>l
+i-no>k>l
+@4.4
+a$=Large CSV on disk
+b=read_csv(chunksize=100_000)
+c=Parser yields DataFrame chunks
+d=Specify dtype and usecols up front
+e=Process each chunk
+f?=Aggregate or filter?
+g=Keep reduced result only
+h=Free chunk
+i?=More chunks?
+j=Concat partial results
+k!=Memory-bounded ingestion
+a>b>d>c>e>f
+f-yes>g>h>i
+f-no>h
+i-yes>c
+i-no>j>k
+@4.5
+a=DataFrame to save
+b=to_parquet(compression='snappy')
+c=Split into row groups
+d=Each column stored contiguously
+e=Dictionary and run-length encoding
+f=Snappy compresses each page
+g$=Parquet file with footer statistics
+h=Reader selects columns only
+i?=Predicate on a column?
+j=Skip row groups using min and max
+k!=Columnar I/O far faster than CSV
+a>b>c>d>e>f>g
+g>h>i
+i-yes>j>k
+i-no>k
+@4.6
+a=df[mask]['col'] = value
+b?=Chained indexing?
+c=First call may return a copy
+d=Assignment lands on the temporary
+e=SettingWithCopyWarning
+f=Use df.loc[mask, 'col'] = value
+g?=Label or position?
+h=loc: labels, inclusive slices
+i=iloc: integers, exclusive end
+j=Index alignment on assignment
+k!=Predictable updates
+a>b
+b-yes>c>d>e>f
+b-no>f
+f>g
+g-label>h>j>k
+g-position>i>j>k
+@4.7
+a=Column with repeated strings
+b=astype('category')
+c$=Categories array + integer codes
+d?=Few unique values?
+e=Memory drops sharply
+f=High cardinality: little gain
+g=Operations on codes are integer ops
+h=Ordered categories allow comparisons
+i?=New value not in categories?
+j=Add category or NaN
+k!=Large RAM reduction
+a>b>c>d
+d-yes>e>g>h
+d-no>f
+g>i
+i-yes>j>k
+i-no>k
+h>k
+@4.8
+a=Missing value
+b?=Dtype of the column?
+c=float: np.nan propagates
+d=int forced to float64
+e=Nullable Int64 with pd.NA
+f=Boolean mask stores validity
+g?=Comparison involving NA?
+h=Three-valued logic: result is NA
+i=isna() and notna() handle all kinds
+j=Sentinel -999 hides missing data
+k!=Explicit missing-data semantics
+a>b
+b-float>c>i
+b-int>d>e
+b-nullable>e>f
+e>g
+g-yes>h>i
+j>i
+i>k
+@4.9
+a=Gaps in a time-ordered column
+b?=Strategy?
+c=ffill: carry last value forward
+d=bfill: pull next value back
+e=interpolate: linear, time, spline
+f=Domain imputer: group median or model
+g?=Gap longer than limit?
+h=Leave NaN, flag it
+i=Add missing indicator column
+j!=Documented imputation
+a>b
+b-last>c>g
+b-next>d>g
+b-smooth>e>g
+b-domain>f>g
+g-yes>h>i>j
+g-no>i>j
+@4.10
+a=Dirty text column
+b=.str.strip().str.lower()
+c=Regex with .str.replace / .str.extract
+d?=Duplicate rows?
+e=duplicated(subset, keep='first')
+f=drop_duplicates
+g?=Fuzzy duplicates remain?
+h=Normalize keys, then group
+i=Vectorized, no Python loop
+j!=Clean unique records
+a>b>c>d
+d-yes>e>f>g
+d-no>g
+g-yes>h>i>j
+g-no>i>j
+@4.11
+a=Transform a column
+b?=Pure arithmetic or string op?
+c=Vectorized expression
+d?=Result same length per group?
+e=groupby.transform keeps index
+f=apply with Python function per row
+g=map for dict or Series lookup
+h=Python loop overhead
+i=Prefer vectorized or numba
+j!=Fastest valid method
+a>b
+b-yes>c>j
+b-no>d
+d-yes>e>j
+d-no>f>h>i>j
+a>g>j
+@4.12
+a=df.groupby('key')
+b=Split: factorize keys into group codes
+c$=Group index: rows per group
+d=Apply function to each group
+e?=Built-in reduction?
+f=Cython kernel sum, mean, count
+g=Python function per group
+h=Combine results into one object
+i=Result indexed by group key
+j!=Split-apply-combine
+a>b>c>d>e
+e-yes>f>h
+e-no>g>h
+h>i>j
+@4.13
+a=groupby with several outputs
+b=Named aggregation: out=('col', 'sum')
+c=One pass computes all reductions
+d?=Custom lambda inside agg?
+e=Falls back to slow Python path
+f=Pre-compute columns, then use built-ins
+g=Cython-optimized reductions
+h=observed=True for categoricals
+i=sort=False skips key sorting
+j!=Fast grouped aggregation
+a>b>c>d
+d-yes>e>f>g
+d-no>g
+g>h>i>j
+@4.14
+a=merge(left, right, on='key')
+b?=Join algorithm?
+c=Hash join: build table on smaller side
+d=Probe with the other side
+e=Sorted keys: merge pass
+f?=Join type?
+g=inner: matches only
+h=left: keep all left rows
+i=outer: union of keys
+j=validate='one_to_many' guards duplicates
+k!=Correct join with checked cardinality
+a>b
+b-hash>c>d>f
+b-sorted>e>f
+f-inner>g>j
+f-left>h>j
+f-outer>i>j
+j>k
+@4.15
+a=pd.concat([df1, df2], axis=0)
+b?=Join type for the other axis?
+c=outer: union of labels, NaN fill
+d=inner: intersection only
+e=Align on index labels
+f?=Duplicate index labels?
+g=ignore_index=True renumbers
+h=Keys build a MultiIndex
+i!=Stacked frame
+a>b
+b-outer>c>e
+b-inner>d>e
+e>f
+f-yes>g>i
+f-no>h>i
+@4.16
+a=Wide table: one column per month
+b@=melt(id_vars, var_name, value_name)
+c=Long table: one row per observation
+d=Tidy data for groupby and plotting
+e@=pivot(index, columns, values)
+f?=Duplicate index-column pairs?
+g=ValueError: use pivot_table
+h=Wide table restored
+i!=Reshape both directions
+a>b>c>d>e>f
+f-yes>g
+f-no>h>i
+d>i
+@4.17
+a=Long sales data
+b@=pivot_table(values, index, columns, aggfunc)
+c=Group by two keys
+d=Aggregate each cell with sum or mean
+e?=margins=True?
+f=Add All row and column
+g=fill_value for empty cells
+h=crosstab counts category pairs
+i=normalize='index' gives proportions
+j!=Multi-dimensional summary
+a>b>c>d>e
+e-yes>f>g>j
+e-no>g
+a>h>i>j
+@4.18
+a=String timestamps
+b=pd.to_datetime
+c?=Index kind?
+d=DatetimeIndex: instants at ns precision
+e=PeriodIndex: spans like 2024-03
+f=Partial string slicing df['2024-03']
+g=tz_localize then tz_convert
+h?=Out of range for ns?
+i=Use unit or Period
+j!=Time-aware indexing
+a>b>c
+c-instants>d>f
+c-spans>e>f
+d>g>h
+h-yes>i>j
+h-no>j
+f>j
+@4.19
+a=Date arithmetic
+b?=Calendar or fixed length?
+c=Timedelta: exact duration
+d=DateOffset: month ends, weeks
+e=BDay: skip weekends
+f=CustomBusinessDay with holiday list
+g?=Month length varies?
+h=MonthEnd rolls correctly
+i!=Calendar-correct dates
+a>b
+b-fixed>c>i
+b-calendar>d>g
+g-yes>h>i
+g-no>e>f>i
+@4.20
+a=Irregular or fine-grained series
+b?=Direction?
+c=Downsample: resample('D').mean()
+d=Upsample: asfreq or resample().ffill()
+e=Choose label and closed edges
+f=Aggregate each bin
+g=New rows created with NaN
+h=Interpolate or forward fill
+i!=Series at the target frequency
+a>b
+b-down>c>e>f>i
+b-up>d>g>h>i
+@4.21
+a=Noisy series
+b?=Window kind?
+c=rolling(30).mean(): fixed window
+d=ewm(span=30).mean(): decaying weights
+e=min_periods controls the start
+f=alpha = 2 / (span + 1)
+g?=Need centered smoothing?
+h=center=True looks ahead
+i=Trailing only, no leakage
+j!=Smoothed signal
+a>b
+b-fixed>c>e>g
+b-exponential>d>f>g
+g-yes>h>j
+g-no>i>j
+@4.22
+a=Ordered values
+b?=Aggregation over?
+c=expanding().mean(): all history
+d=cumsum: running total
+e=cummax: running peak
+f=Drawdown = value minus cummax
+g=Per group with groupby.cumsum
+h!=Cumulative features
+a>b
+b-history>c>h
+b-sum>d>g>h
+b-peak>e>f>h
+@4.23
+a=Messy cleaning script
+b=df.pipe(clean).assign(...).query(...)
+c?=Each step pure?
+d=Returns new frame, no side effects
+e=Hard to test: mutates in place
+f=Name steps as functions
+g=Unit test each function
+h=Read top to bottom
+i!=Idiomatic chained pipeline
+a>b>c
+c-yes>d>f>g>h>i
+c-no>e>f
+@4.24
+a=DataFrame uses 4 GB
+b=memory_usage(deep=True)
+c?=Column type?
+d=Numeric: downcast with pd.to_numeric
+e=Strings: category if low cardinality
+f=Dates: datetime64
+g=Re-measure memory
+h?=Saved enough?
+i=Chunk or switch backend
+j!=Benchmarked, smaller frame
+a>b>c
+c-numeric>d>g
+c-strings>e>g
+c-dates>f>g
+g>h
+h-yes>j
+h-no>i>j
+@4.25
+a=Dataset beyond RAM
+b?=Tool?
+c=Pandas chunking: manual loop
+d=Dask: partitioned DataFrame
+e=Polars: lazy, multithreaded
+f=Build task graph
+g?=Operation shuffles data?
+h=Expensive network or disk shuffle
+i=Streaming execution
+j!=Scale-out data processing
+a>b
+b-chunks>c>i>j
+b-dask>d>f>g
+b-polars>e>i>j
+g-yes>h>j
+g-no>j
+@4.26
+a=Hierarchical index (country, year)
+b=set_index([...])
+c@=xs(key, level) cross-section
+d=Slicers pd.IndexSlice
+e?=Need to move a level to columns?
+f=unstack(level)
+g=stack back to rows
+h?=Index lexsorted?
+i=sort_index for fast slicing
+j!=Navigate multi-level data
+a>b>c>d>h
+h-yes>e
+h-no>i>e
+e-yes>f>g>j
+e-no>j
+@4.27
+a=df.query('a > b and c < 3')
+b@=numexpr compiles expression
+c=Evaluate in blocks, no temporaries
+d?=Large frame?
+e=Lower memory and faster
+f=Overhead exceeds gain
+g=pd.eval assigns inside frame
+h=Local variables via @name
+i!=Memory-efficient filtering
+a>b>c>d
+d-yes>e>g
+d-no>f>g
+g>h>i
+@4.28
+a=Column holding lists or dicts
+b?=Structure?
+c=explode: one row per list element
+d=json_normalize flattens nested dicts
+e=Repeat other columns on each row
+f=Prefix names with dots
+g=Index reset to stay unique
+h?=Empty list?
+i=NaN row kept
+j!=Flat analyzable table
+a>b
+b-list>c>e>g
+b-dict>d>f>g
+c>h
+h-yes>i>j
+h-no>g>j
+@4.29
+a=Clean DataFrame
+b?=Destination?
+c=to_sql(method='multi', chunksize)
+d=to_parquet with schema
+e=Validate schema and dtypes first
+f?=Violations found?
+g=Fail fast with report
+h=Transaction: all or nothing
+i!=Trustworthy export
+a>e>f
+f-yes>g
+f-no>b
+b-database>c>h>i
+b-file>d>i
+@4.30
+a=Production data pipeline
+b=Assertions on shape, keys, ranges
+c=Schema validation (pandera or manual)
+d?=Checks pass?
+e=Stop and alert early
+f=Idempotent transform steps
+g=pytest on sample frames
+h=Property tests with random inputs
+i=Log row counts per stage
+j!=Defensive, testable pipeline
+a>b>c>d
+d-no>e
+d-yes>f>g>h>i>j

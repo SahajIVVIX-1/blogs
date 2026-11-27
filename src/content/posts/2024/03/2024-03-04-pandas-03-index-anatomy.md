@@ -43,20 +43,40 @@ The structural flow, component relationships, and operational hierarchy of **Ind
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM TOPOLOGY: INDEX ANATOMY"]):::title
-    I(["Primary Input / Data Descriptor Space"]):::io
-    L["<b>Memory Layout #amp; Internal State</b><br/>• Contiguous Buffer / Cache Lines<br/>• Invariant Constraints #amp; Headers<br/>• Structural Hierarchy (O(1) Access)"]
-    R["<b>Algorithmic Control Flow</b><br/>• Transformation Kernel / Pipeline<br/>• Dispatch Table / Virtual Methods<br/>• Dynamic Resolution / Graph Routing"]
-    E["<b>Execution Pipeline #amp; Vectorization</b><br/>• Cache Locality Optimization (Spatial #amp; Temporal)<br/>• Bounded Asymptotic Complexity: O(n) Time, O(1) Space<br/>• Deterministic Memory Deallocation #amp; Lifecycle"]
-    O["<b>High-Throughput Production Serving</b><br/>• Zero-Copy Slicing / Shared References<br/>• Lock-Free Concurrency #amp; Thread Safety<br/>• Monitored Latency #amp; Error Resilience"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Pandas #amp; Large Data Engineering · Index Anatomy: Int64Index, RangeIndex, MultiIndex, and O(1) Label Hash Lookups"]):::title
+    a["df.loc[label]"]
+    b{"Index type?"}
+    c["RangeIndex: start, stop, step arithmetic"]
+    d["Int64Index: hash table of labels"]
+    e["MultiIndex: levels + codes arrays"]
+    f["Label to position in O(1)"]
+    g["Position computed without storage"]
+    h["Tuple key walks level codes"]
+    i{"Index sorted and unique?"}
+    j["Binary search for slices"]
+    k["Hash lookup"]
+    l(["Fast label access"])
+    T ~~~ a
+    a --> b
+    b -- "range" --> c
+    c --> g
+    g --> i
+    b -- "integer" --> d
+    d --> f
+    f --> i
+    b -- "multi" --> e
+    e --> h
+    h --> i
+    i -- "yes" --> j
+    j --> l
+    i -- "no" --> k
+    k --> l
+    class b,i dec
+    class l term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational blueprint illustrates how abstract abstractions map directly to physical hardware architectures, optimizing memory locality and instruction throughput.

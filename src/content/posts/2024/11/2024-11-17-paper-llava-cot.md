@@ -73,22 +73,46 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["AUTONOMOUS AGENT ORCHESTRATION PIPELINE"]):::title
-    ENV(["Environment"]):::io --> OBS(["Multi-Modal State Observation o_t"])
-    OBS --> MEM["Episodic #amp; Semantic Memory Store"]
-    MEM --> PLAN["Planning #amp; Decomposition Module (LLM / Reasoner)"]
-    PLAN --> SEL(["Tool Selection Head"])
-    PLAN --> CRIT(["Self-Critic"])
-    SEL --> EXE["Tool Execution Call"]
-    CRIT --> VER{"Verification Passed?"}
-    VER -- Yes --> EXE
-    VER -- "No: re-plan" --> REF["Reflection State Update"]
-    EXE --> ACT(["Action a_t"])
-    REF --> ACT
-    ACT --> ENV
-    T ~~~ ENV
+    T(["LLaVA-CoT: Let Vision Language Models Reason Step-by-Step"]):::title
+    n3[["Introduce LLaVA-CoT, a large VLM designed to conduct autonomous multistage reasoning"]]
+    n4["To accomplish this, we construct the LLaVA-CoT-100k dataset, integrating samples from various visual…"]
+    n7[/"Evaluated against baselines"/]
+    n8{"Holds on the benchmarks?"}
+    n11{{"Reported: 9.4% · 90B"}}
+    n12(["The code, dataset, and pre-trained weights are publicly available at…"])
+    n13["Area: agents · autonomous-systems · tool-use · decision-making"]
+    subgraph G0["Problem and gap"]
+        n1["Large language models have demonstrated substantial advancements in reasoning capabilities"]
+        n2["However, current Vision-Language Models (VLMs) often struggle to perform systematic and structured…"]
+    end
+    subgraph G1["How it works"]
+        n5["Unlike chain-of-thought prompting, LLaVA-CoT independently engages in sequential stages of summarization…"]
+        n6["Propose a test-time stage-wise retracing search method (SWIRES), which enables effective and efficient…"]
+    end
+    subgraph G2["Evidence"]
+        n9["This structured approach enables LLaVA-CoT to achieve marked improvements on reasoning-intensive tasks"]
+        n10["Remarkably, with only 100k training samples and test-time scaling, LLaVA-CoT not only outperforms its base…"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n4 --> n5
+    n5 --> n6
+    n6 --> n7
+    n7 --> n8
+    n8 -- "yes" --> n9
+    n8 -- "yes" --> n10
+    n10 --> n11
+    n11 --> n12
+    n8 -- "no" --> n12
+    n13 --> n3
+    class n8 dec
+    class n12 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

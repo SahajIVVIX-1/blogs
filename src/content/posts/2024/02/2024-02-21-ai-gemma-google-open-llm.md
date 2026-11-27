@@ -31,6 +31,49 @@ From the Hugging Face post:
 - based on technology from **Gemini**
 - all variants can run on consumer hardware **without quantisation**
 
+## How it fits together
+
+The flowchart below maps this announcement's main points and what depends on them.
+
+```mermaid
+flowchart TD
+    T(["Google releases Gemma, open models based on Gemini"]):::title
+    n1(["Hugging Face: Google releases Gemma, open models based on Gemini"])
+    n2["Google released Gemma, open LLMs in 2B and 7B sizes (base and instruction-tuned) with an 8K context, built…"]
+    n8{"Available to me today?"}
+    n9["A major lab releasing open weights in small sizes was a big deal for local and on-device use."]
+    n10(["Track the rollout and follow-up releases"])
+    n11["Topics: llm · open-weights · google"]
+    subgraph G0["What it adds"]
+        n3["two sizes: 7B (efficient on consumer GPUs and TPUs) and 2B (CPU and on-device)"]
+        n4["each with base and instruction-tuned versions: four models in total"]
+        n5["8K-token context"]
+        n6["based on technology from Gemini"]
+        n7["all variants can run on consumer hardware without quantisation"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n2 --> n4
+    n2 --> n5
+    n2 --> n6
+    n2 --> n7
+    n3 --> n8
+    n4 --> n8
+    n5 --> n8
+    n6 --> n8
+    n7 --> n8
+    n8 --> n9
+    n9 --> n10
+    n11 --> n2
+    class n8 dec
+    class n1,n10 term
+    classDef title fill:transparent,stroke:transparent,font-weight:700;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
+```
+
 ## Why it matters
 
 A major lab releasing open weights in small sizes was a big deal for local and on-device use. Gemma later grew into several generations (Gemma 2, 3, 3n and 4 appear in later posts here).

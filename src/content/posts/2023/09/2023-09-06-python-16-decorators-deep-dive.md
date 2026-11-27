@@ -43,20 +43,39 @@ The structural flow, component relationships, and operational hierarchy of **Dec
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM TOPOLOGY: DECORATORS DEEP DIVE"]):::title
-    I(["Primary Input / Data Descriptor Space"]):::io
-    L["<b>Memory Layout #amp; Internal State</b><br/>• Contiguous Buffer / Cache Lines<br/>• Invariant Constraints #amp; Headers<br/>• Structural Hierarchy (O(1) Access)"]
-    R["<b>Algorithmic Control Flow</b><br/>• Transformation Kernel / Pipeline<br/>• Dispatch Table / Virtual Methods<br/>• Dynamic Resolution / Graph Routing"]
-    E["<b>Execution Pipeline #amp; Vectorization</b><br/>• Cache Locality Optimization (Spatial #amp; Temporal)<br/>• Bounded Asymptotic Complexity: O(n) Time, O(1) Space<br/>• Deterministic Memory Deallocation #amp; Lifecycle"]
-    O["<b>High-Throughput Production Serving</b><br/>• Zero-Copy Slicing / Shared References<br/>• Lock-Free Concurrency #amp; Thread Safety<br/>• Monitored Latency #amp; Error Resilience"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Python for AI #amp; Systems · Decorators Deep Dive: Parameterized Wrappers, functools.wraps, and Decorator Classes"]):::title
+    a["@decorator on def f"]
+    b["f is passed to decorator(f)"]
+    c{"Decorator takes arguments?"}
+    d["Call factory first, then apply result"]
+    e["Define wrapper(*args, **kwargs)"]
+    f["functools.wraps copies name, doc, __wrapped__"]
+    g["Wrapper runs pre-call logic"]
+    h["Call original function"]
+    i["Post-call logic: timing or caching"]
+    j{"Class-based decorator?"}
+    k["Instance with __call__ holds state"]
+    l(["Name f now bound to wrapper"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c -- "yes" --> d
+    d --> e
+    c -- "no" --> e
+    e --> f
+    f --> g
+    g --> h
+    h --> i
+    i --> l
+    b --> j
+    j -- "yes" --> k
+    k --> l
+    class c,j dec
+    class l term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational blueprint illustrates how abstract abstractions map directly to physical hardware architectures, optimizing memory locality and instruction throughput.

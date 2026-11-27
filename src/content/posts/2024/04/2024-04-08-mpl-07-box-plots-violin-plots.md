@@ -43,20 +43,35 @@ The structural flow, component relationships, and operational hierarchy of **Box
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM TOPOLOGY: BOX PLOTS #amp; VIOLIN PLOTS"]):::title
-    I(["Primary Input / Data Descriptor Space"]):::io
-    L["<b>Memory Layout #amp; Internal State</b><br/>• Contiguous Buffer / Cache Lines<br/>• Invariant Constraints #amp; Headers<br/>• Structural Hierarchy (O(1) Access)"]
-    R["<b>Algorithmic Control Flow</b><br/>• Transformation Kernel / Pipeline<br/>• Dispatch Table / Virtual Methods<br/>• Dynamic Resolution / Graph Routing"]
-    E["<b>Execution Pipeline #amp; Vectorization</b><br/>• Cache Locality Optimization (Spatial #amp; Temporal)<br/>• Bounded Asymptotic Complexity: O(n) Time, O(1) Space<br/>• Deterministic Memory Deallocation #amp; Lifecycle"]
-    O["<b>High-Throughput Production Serving</b><br/>• Zero-Copy Slicing / Shared References<br/>• Lock-Free Concurrency #amp; Thread Safety<br/>• Monitored Latency #amp; Error Resilience"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Matplotlib, Seaborn #amp; Scientific Viz · Box Plots #amp; Violin Plots: Quartiles, Whiskers, Outliers, and Distribution Shapes"]):::title
+    a["Groups of samples"]
+    b["Compute quartiles Q1, median, Q3"]
+    c["Whiskers at 1.5 IQR"]
+    d{"Point beyond whiskers?"}
+    e["Plot as outlier marker"]
+    f{"Shape matters, not only summary?"}
+    g["Violin: KDE mirrored around the axis"]
+    h["Box shows spread compactly"]
+    i["Overlay raw points"]
+    j(["Distribution comparison"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c --> d
+    d -- "yes" --> e
+    e --> f
+    d -- "no" --> f
+    f -- "yes" --> g
+    g --> i
+    i --> j
+    f -- "no" --> h
+    h --> j
+    class d,f dec
+    class j term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational blueprint illustrates how abstract abstractions map directly to physical hardware architectures, optimizing memory locality and instruction throughput.

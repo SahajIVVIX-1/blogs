@@ -72,20 +72,30 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["MULTIMODAL VISION-LANGUAGE ARCHITECTURE"]):::title
-    IMG(["Input Image I"]):::io --> VIT["<b>Vision Transformer</b><br/>Encoder (ViT-H/14)"]
-    TXT(["User Text Query T"]):::io --> TOK["<b>Word #amp; Position</b><br/>Token Embeddings"]
-    VIT --> PT(["Patch Tokens Z_v"])
-    PT --> ADP["Multi-Layer Projection Adapter g"]
-    ADP --> HV(["Aligned Visual Tokens H_v"])
-    HV --> CTX["<b>Interleaved Multimodal Context</b><br/>[ H_v || E(T) ]"]
-    TOK --> CTX
-    CTX --> LLM["<b>Autoregressive LLM Backbone</b><br/>(RoPE, GQA, SwiGLU Attention)"]
-    LLM --> RESP(["Grounded Textual Response"]):::io
-    T ~~~ IMG
-    T ~~~ TXT
+    T(["Expanding Performance Boundaries of Open-Source Multimodal Models with Model, Data, and Test-Time Scaling"]):::title
+    n1[["Introduce InternVL 2.5, an advanced multimodal large language model (MLLM) series that builds upon…"]]
+    n2["Delve into the relationship between model scaling and performance, systematically exploring the…"]
+    n3["Through extensive evaluations on a wide range of benchmarks, including multi-discipline reasoning…"]
+    n4[/"Evaluated against baselines"/]
+    n5{"Better than prior methods?"}
+    n6["HuggingFace demo see https://huggingface.co/spaces/OpenGVLab/InternVL"]
+    n7(["Our model is the first open-source MLLMs to surpass 70% on the MMMU benchmark, achieving…"])
+    n8["Area: multimodal · vlms · vision-language · deep-learning"]
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n4 --> n5
+    n5 -- "yes" --> n6
+    n6 --> n7
+    n5 -- "no" --> n7
+    n8 --> n1
+    class n5 dec
+    class n7 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

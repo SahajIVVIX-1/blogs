@@ -43,20 +43,41 @@ The structural flow, component relationships, and operational hierarchy of **Str
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM TOPOLOGY: STRINGS #amp; TEXT INTERNALS"]):::title
-    I(["Primary Input / Data Descriptor Space"]):::io
-    L["<b>Memory Layout #amp; Internal State</b><br/>• Contiguous Buffer / Cache Lines<br/>• Invariant Constraints #amp; Headers<br/>• Structural Hierarchy (O(1) Access)"]
-    R["<b>Algorithmic Control Flow</b><br/>• Transformation Kernel / Pipeline<br/>• Dispatch Table / Virtual Methods<br/>• Dynamic Resolution / Graph Routing"]
-    E["<b>Execution Pipeline #amp; Vectorization</b><br/>• Cache Locality Optimization (Spatial #amp; Temporal)<br/>• Bounded Asymptotic Complexity: O(n) Time, O(1) Space<br/>• Deterministic Memory Deallocation #amp; Lifecycle"]
-    O["<b>High-Throughput Production Serving</b><br/>• Zero-Copy Slicing / Shared References<br/>• Lock-Free Concurrency #amp; Thread Safety<br/>• Monitored Latency #amp; Error Resilience"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Python for AI #amp; Systems · Strings #amp; Text Internals: Unicode UTF-8/UTF-16/UTF-32 Representation and Interning"]):::title
+    a["Text typed as str"]
+    b["Sequence of Unicode code points"]
+    c{"Choose encoding for bytes"}
+    d["UTF-8: 1 to 4 bytes per code point"]
+    e["UTF-16: 2 or 4 bytes, surrogate pairs"]
+    f["UTF-32: fixed 4 bytes"]
+    g["Internal PEP 393 layout: 1, 2 or 4 bytes"]
+    h{"Identifier-like short string?"}
+    i["Interned in global string table"]
+    j["Compared by pointer identity"]
+    k["Separate object, compared by value"]
+    l(["Encoded bytes or str object"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c -- "utf8" --> d
+    d --> l
+    c -- "utf16" --> e
+    e --> l
+    c -- "utf32" --> f
+    f --> l
+    b --> g
+    g --> h
+    h -- "yes" --> i
+    i --> j
+    j --> l
+    h -- "no" --> k
+    k --> l
+    class c,h dec
+    class l term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational blueprint illustrates how abstract abstractions map directly to physical hardware architectures, optimizing memory locality and instruction throughput.

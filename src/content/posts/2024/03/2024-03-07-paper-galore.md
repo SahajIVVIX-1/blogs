@@ -77,18 +77,45 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["DEEP AUTOREGRESSIVE REASONING PIPELINE"]):::title
-    X(["Input Token Sequence x_{1:t}"]):::io --> N["Rotary Positional Encoding (RoPE) #amp; RMSNorm"]
-    N --> G["<b>Grouped-Query Attention Block (GQA)</b><br/>Q = x * W_q, K = x * W_k (shared), V = x * W_v (shared)"]
-    G --> S["SwiGLU Feed-Forward Network: (xW_gate * swish(xW_up)) * W_down"]
-    S --> R["Residual Accumulator #amp; Pre-Layer Normalization"]
-    R --> H1(["Direct Next-Token Logits"])
-    R --> H2(["Implicit Reward Head"])
-    H1 --> P1["Temperature-Scaled Top-p Sampling"]
-    H2 --> P2["Alignment Loss Check"]
-    T ~~~ X
+    T(["GaLore: Memory-Efficient LLM Training by Gradient Low-Rank Projection"]):::title
+    n4[["Propose Gradient Low-Rank Projection (GaLore), a training strategy that allows full-parameter learning…"]]
+    n5[/"Evaluated against baselines"/]
+    n6{"Efficiency gain holds?"}
+    n10{{"Reported: 65.5% · 1B · 7B · 19.7B · 82.5% · 63.3%"}}
+    n11(["Code released with the paper"])
+    n12["Area: efficiency · quantization · inference-acceleration · llm-systems"]
+    subgraph G0["Problem and gap"]
+        n1["Training Large Language Models (LLMs) presents significant memory challenges, predominantly due to the…"]
+        n2["Common memory-reduction approaches, such as low-rank adaptation (LoRA), add a trainable low-rank matrix to…"]
+        n3["However, such approaches typically underperform training with full-rank weights in both pre-training and…"]
+    end
+    subgraph G1["Evidence"]
+        n7["Our approach reduces memory usage by up to 65.5% in optimizer states while maintaining both efficiency and…"]
+        n8["Our 8-bit GaLore further reduces optimizer memory by up to 82.5% and total training memory by 63.3%…"]
+        n9["Demonstrate, for the first time, the feasibility of pre-training a 7B model on consumer GPUs with 24GB…"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n4 --> n5
+    n1 --> n5
+    n5 --> n6
+    n6 -- "yes" --> n7
+    n6 -- "yes" --> n8
+    n6 -- "yes" --> n9
+    n6 -- "no" --> n1
+    n10 --> n11
+    n7 --> n10
+    n8 --> n10
+    n9 --> n10
+    n12 --> n4
+    class n6 dec
+    class n11 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

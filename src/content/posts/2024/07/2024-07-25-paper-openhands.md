@@ -73,22 +73,43 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["AUTONOMOUS AGENT ORCHESTRATION PIPELINE"]):::title
-    ENV(["Environment"]):::io --> OBS(["Multi-Modal State Observation o_t"])
-    OBS --> MEM["Episodic #amp; Semantic Memory Store"]
-    MEM --> PLAN["Planning #amp; Decomposition Module (LLM / Reasoner)"]
-    PLAN --> SEL(["Tool Selection Head"])
-    PLAN --> CRIT(["Self-Critic"])
-    SEL --> EXE["Tool Execution Call"]
-    CRIT --> VER{"Verification Passed?"}
-    VER -- Yes --> EXE
-    VER -- "No: re-plan" --> REF["Reflection State Update"]
-    EXE --> ACT(["Action a_t"])
-    REF --> ACT
-    ACT --> ENV
-    T ~~~ ENV
+    T(["OpenDevin: An Open Platform for AI Software Developers as Generalist Agents"]):::title
+    n4[["Introduce OpenDevin, a platform for the development of powerful and flexible AI agents that interact…"]]
+    n7[/"Evaluated against baselines"/]
+    n8{"Beats strong baselines?"}
+    n9["Released under the permissive MIT license, OpenDevin is a community project spanning academia and industry…"]
+    n10{{"Reported: 3K"}}
+    n11(["Code released with the paper"])
+    n12["Area: agents · autonomous-systems · tool-use · decision-making"]
+    subgraph G0["Problem and gap"]
+        n1["Software is one of the most powerful tools that we humans have at our disposal"]
+        n2["It allows a skilled programmer to interact with the world in complex and profound ways"]
+        n3["At the same time, thanks to improvements in large language models (LLMs), there has also been a rapid…"]
+    end
+    subgraph G1["How it works"]
+        n5["Describe how the platform allows for the implementation of new agents, safe interaction with sandboxed…"]
+        n6["Based on our currently incorporated benchmarks, we perform an evaluation of agents over 15 challenging…"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n4 --> n5
+    n5 --> n6
+    n3 --> n4
+    n6 --> n7
+    n1 --> n7
+    n7 --> n8
+    n8 -- "yes" --> n9
+    n8 -- "no" --> n1
+    n10 --> n11
+    n9 --> n10
+    n12 --> n4
+    class n8 dec
+    class n11 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

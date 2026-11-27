@@ -73,21 +73,38 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["LATENT FLOW MATCHING #amp; SYNTHESIS PIPELINE"]):::title
-    N(["Gaussian Noise x_1 ~ N(0, I)"]):::io --> TE["<b>Timestep Embedding</b><br/>t in [0, 1]"]
-    C(["Prompt / Condition c"]):::io --> CA["<b>Cross-Attention</b><br/>Text Encoder Head"]
-    TE --> VF["<b>Latent Vector Field Network</b><br/>v_theta(x_t, t, c)"]
-    CA --> VF
-    VF --> VP(["Velocity Vector Prediction: dx_t / dt"])
-    VP --> ODE["<b>Numerical ODE Solver Step</b><br/>x_{t - dt} = x_t - v * dt"]
-    ODE -- "iterate N steps" --> VF
-    ODE --> Z(["Synthesized Latent State x_0"])
-    Z --> D["Variational Autoencoder Decoder"]
-    D --> OUT(["High-Fidelity Output Image"]):::io
-    T ~~~ N
-    T ~~~ C
+    T(["Transformer Explainer: Interactive Learning of Text-Generative Models"]):::title
+    n1["Transformers have revolutionized machine learning, yet their inner workings remain opaque to many"]
+    n2[["Present Transformer Explainer, an interactive visualization tool designed for non-experts to learn…"]]
+    n6[/"Evaluated against baselines"/]
+    n7{"Result holds up?"}
+    n8["A video demo is available at https://youtu.be/ECR4oAwocjs"]
+    n9(["Our open-sourced tool is available at https://poloclub.github.io/transformer-explainer/"])
+    n10["Area: generative-ai · diffusion-models · image-synthesis · multimodal"]
+    subgraph G0["How it works"]
+        n3["Our tool helps users understand complex Transformer concepts by integrating a model overview and enabling…"]
+        n4["It runs a live GPT-2 instance locally in the user's browser, empowering users to experiment with their own…"]
+        n5["Our tool requires no installation or special hardware, broadening the public's education access to modern…"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n2 --> n4
+    n2 --> n5
+    n3 --> n6
+    n4 --> n6
+    n5 --> n6
+    n6 --> n7
+    n7 -- "yes" --> n8
+    n7 -- "no" --> n2
+    n8 --> n9
+    n10 --> n1
+    class n7 dec
+    class n9 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

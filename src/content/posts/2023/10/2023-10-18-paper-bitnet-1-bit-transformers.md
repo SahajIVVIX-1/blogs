@@ -77,18 +77,33 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["DEEP AUTOREGRESSIVE REASONING PIPELINE"]):::title
-    X(["Input Token Sequence x_{1:t}"]):::io --> N["Rotary Positional Encoding (RoPE) #amp; RMSNorm"]
-    N --> G["<b>Grouped-Query Attention Block (GQA)</b><br/>Q = x * W_q, K = x * W_k (shared), V = x * W_v (shared)"]
-    G --> S["SwiGLU Feed-Forward Network: (xW_gate * swish(xW_up)) * W_down"]
-    S --> R["Residual Accumulator #amp; Pre-Layer Normalization"]
-    R --> H1(["Direct Next-Token Logits"])
-    R --> H2(["Implicit Reward Head"])
-    H1 --> P1["Temperature-Scaled Top-p Sampling"]
-    H2 --> P2["Alignment Loss Check"]
-    T ~~~ X
+    T(["BitNet: Scaling 1-bit Transformers for Large Language Models"]):::title
+    n1["The increasing size of large language models has posed challenges for deployment and raised concerns about…"]
+    n2[["Introduce BitNet, a scalable and stable 1-bit Transformer architecture designed for large language…"]]
+    n3["Introduce BitLinear as a drop-in replacement of the nn.Linear layer in order to train 1-bit weights from…"]
+    n4["BitNet exhibits a scaling law akin to full-precision Transformers, suggesting its potential for effective…"]
+    n5[/"Evaluated against baselines"/]
+    n6{"Beats strong baselines?"}
+    n7["Experimental results on language modeling show that BitNet achieves competitive performance while…"]
+    n8(["Code released with the paper"])
+    n9["Area: efficiency · quantization · inference-acceleration · llm-systems"]
+    T ~~~ n1
+    n2 --> n3
+    n3 --> n4
+    n1 --> n2
+    n4 --> n5
+    n1 --> n5
+    n5 --> n6
+    n6 -- "yes" --> n7
+    n6 -- "no" --> n1
+    n7 --> n8
+    n9 --> n2
+    class n6 dec
+    class n8 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

@@ -43,20 +43,40 @@ The structural flow, component relationships, and operational hierarchy of **Asy
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM TOPOLOGY: ASYNCIO NETWORKING"]):::title
-    I(["Primary Input / Data Descriptor Space"]):::io
-    L["<b>Memory Layout #amp; Internal State</b><br/>• Contiguous Buffer / Cache Lines<br/>• Invariant Constraints #amp; Headers<br/>• Structural Hierarchy (O(1) Access)"]
-    R["<b>Algorithmic Control Flow</b><br/>• Transformation Kernel / Pipeline<br/>• Dispatch Table / Virtual Methods<br/>• Dynamic Resolution / Graph Routing"]
-    E["<b>Execution Pipeline #amp; Vectorization</b><br/>• Cache Locality Optimization (Spatial #amp; Temporal)<br/>• Bounded Asymptotic Complexity: O(n) Time, O(1) Space<br/>• Deterministic Memory Deallocation #amp; Lifecycle"]
-    O["<b>High-Throughput Production Serving</b><br/>• Zero-Copy Slicing / Shared References<br/>• Lock-Free Concurrency #amp; Thread Safety<br/>• Monitored Latency #amp; Error Resilience"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Python for AI #amp; Systems · Asyncio Networking: Building Asynchronous HTTP/TCP Clients and Streaming Protocols"]):::title
+    a["open_connection(host, port)"]
+    b[["Transport and protocol over selector"]]
+    c["StreamWriter.write queues bytes"]
+    d{"Buffer above high-water mark?"}
+    e["await drain applies backpressure"]
+    f["Send on socket when writable"]
+    g["StreamReader.readuntil or read"]
+    h{"Data arrived?"}
+    i["Feed parser incrementally"]
+    j{"Message complete?"}
+    k["Dispatch response, keep connection alive"]
+    l(["Connection closed gracefully"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c --> d
+    d -- "yes" --> e
+    e --> f
+    d -- "no" --> f
+    f --> g
+    g --> h
+    h -- "no" --> g
+    h -- "yes" --> i
+    i --> j
+    j -- "no" --> g
+    j -- "yes" --> k
+    k --> l
+    class d,h,j dec
+    class l term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational blueprint illustrates how abstract abstractions map directly to physical hardware architectures, optimizing memory locality and instruction throughput.

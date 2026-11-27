@@ -29,6 +29,42 @@ From the Hugging Face post:
 - a **router** sends each token to **2 of 8** experts, so the model decodes at roughly the speed of a **12B dense model** despite having about 4× the effective parameters
 - the post says it sets a new state of the art for open-access models and **outperforms GPT-3.5** on many benchmarks
 
+## How it fits together
+
+The flowchart below maps this announcement's main points and what depends on them.
+
+```mermaid
+flowchart TD
+    T(["Mixtral 8x7B arrives on Hugging Face"]):::title
+    n1(["Hugging Face: Mixtral 8x7B arrives on Hugging Face"])
+    n2["Mistral released Mixtral 8x7B, a sparse mixture-of-experts LLM under Apache 2.0; Hugging Face integrated it…"]
+    n5[/"the post says it sets a new state of the art for open-access models and outperforms GPT-3.5 on…"/]
+    n6{"Fits production use?"}
+    n7["Mixtral made mixture-of-experts mainstream in open models."]
+    n8(["Track the rollout and follow-up releases"])
+    n9["Topics: llm · mixture-of-experts · open-weights"]
+    subgraph G0["What it adds"]
+        n3["the architecture is like Mistral 7B, but some feed-forward layers are replaced with a sparse…"]
+        n4["a router sends each token to 2 of 8 experts, so the model decodes at roughly the speed of a 12B dense model…"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n2 --> n4
+    n3 --> n6
+    n4 --> n6
+    n6 -- "yes" --> n5
+    n5 --> n7
+    n7 --> n8
+    n9 --> n2
+    class n6 dec
+    class n1,n8 term
+    classDef title fill:transparent,stroke:transparent,font-weight:700;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
+```
+
 ## Why it matters
 
 Mixtral made mixture-of-experts mainstream in open models. The paper came out a month later (summarised here on 9 Jan 2024). The catch: **all** experts still have to fit in memory, which is why the post also covers 4-bit and GPTQ quantisation.

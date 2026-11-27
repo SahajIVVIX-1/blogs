@@ -43,20 +43,34 @@ The structural flow, component relationships, and operational hierarchy of **Mat
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM TOPOLOGY: MATPLOTLIB ARCHITECTURE"]):::title
-    I(["Primary Input / Data Descriptor Space"]):::io
-    L["<b>Memory Layout #amp; Internal State</b><br/>• Contiguous Buffer / Cache Lines<br/>• Invariant Constraints #amp; Headers<br/>• Structural Hierarchy (O(1) Access)"]
-    R["<b>Algorithmic Control Flow</b><br/>• Transformation Kernel / Pipeline<br/>• Dispatch Table / Virtual Methods<br/>• Dynamic Resolution / Graph Routing"]
-    E["<b>Execution Pipeline #amp; Vectorization</b><br/>• Cache Locality Optimization (Spatial #amp; Temporal)<br/>• Bounded Asymptotic Complexity: O(n) Time, O(1) Space<br/>• Deterministic Memory Deallocation #amp; Lifecycle"]
-    O["<b>High-Throughput Production Serving</b><br/>• Zero-Copy Slicing / Shared References<br/>• Lock-Free Concurrency #amp; Thread Safety<br/>• Monitored Latency #amp; Error Resilience"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Matplotlib, Seaborn #amp; Scientific Viz · Matplotlib Architecture: Backend Layer, Artist Layer, and Scripting Layer"]):::title
+    a["plt.plot(x, y)"]
+    b[["Scripting layer: pyplot state machine"]]
+    c[["Artist layer: Figure, Axes, Line2D objects"]]
+    d["Artists form a tree"]
+    e[["Backend layer: Agg, SVG, PDF, interactive"]]
+    f{"Interactive or file output?"}
+    g["Event loop and canvas window"]
+    h["Rasterize or emit vector commands"]
+    i["draw() traverses the artist tree"]
+    j(["Figure rendered"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c --> d
+    d --> i
+    i --> f
+    f -- "interactive" --> g
+    g --> e
+    f -- "file" --> h
+    h --> e
+    e --> j
+    class f dec
+    class j term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational blueprint illustrates how abstract abstractions map directly to physical hardware architectures, optimizing memory locality and instruction throughput.

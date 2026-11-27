@@ -68,22 +68,39 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["AUTONOMOUS AGENT ORCHESTRATION PIPELINE"]):::title
-    ENV(["Environment"]):::io --> OBS(["Multi-Modal State Observation o_t"])
-    OBS --> MEM["Episodic #amp; Semantic Memory Store"]
-    MEM --> PLAN["Planning #amp; Decomposition Module (LLM / Reasoner)"]
-    PLAN --> SEL(["Tool Selection Head"])
-    PLAN --> CRIT(["Self-Critic"])
-    SEL --> EXE["Tool Execution Call"]
-    CRIT --> VER{"Verification Passed?"}
-    VER -- Yes --> EXE
-    VER -- "No: re-plan" --> REF["Reflection State Update"]
-    EXE --> ACT(["Action a_t"])
-    REF --> ACT
-    ACT --> ENV
-    T ~~~ ENV
+    T(["OpenCoder: The Open Cookbook for Top-Tier Code Large Language Models"]):::title
+    n4[["To address the gap, we introduce OpenCoder, a top-tier code LLM that not only achieves performance…"]]
+    n5["Unlike most prior efforts, we release not only model weights and inference code, but also the reproducible…"]
+    n6["Through this comprehensive release, we identify the key ingredients for building a top-tier code LLM: code…"]
+    n7[/"Evaluated against baselines"/]
+    n8{"Result holds up?"}
+    n9["By offering this level of openness, we aim to broaden access to all aspects of a top-tier code LLM, with…"]
+    n10(["arXiv 2411.04905"])
+    n11["Area: agents · autonomous-systems · tool-use · decision-making"]
+    subgraph G0["Problem and gap"]
+        n1["Large language models (LLMs) for code have become indispensable in various domains, including code…"]
+        n2["The scarcity is due to various challenges, including resource constraints, ethical considerations"]
+        n3["The competitive advantages of keeping models advanced"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n4 --> n5
+    n5 --> n6
+    n3 --> n4
+    n6 --> n7
+    n1 --> n7
+    n7 --> n8
+    n8 -- "yes" --> n9
+    n8 -- "no" --> n1
+    n9 --> n10
+    n11 --> n4
+    class n8 dec
+    class n10 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

@@ -72,20 +72,33 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["MULTIMODAL VISION-LANGUAGE ARCHITECTURE"]):::title
-    IMG(["Input Image I"]):::io --> VIT["<b>Vision Transformer</b><br/>Encoder (ViT-H/14)"]
-    TXT(["User Text Query T"]):::io --> TOK["<b>Word #amp; Position</b><br/>Token Embeddings"]
-    VIT --> PT(["Patch Tokens Z_v"])
-    PT --> ADP["Multi-Layer Projection Adapter g"]
-    ADP --> HV(["Aligned Visual Tokens H_v"])
-    HV --> CTX["<b>Interleaved Multimodal Context</b><br/>[ H_v || E(T) ]"]
-    TOK --> CTX
-    CTX --> LLM["<b>Autoregressive LLM Backbone</b><br/>(RoPE, GQA, SwiGLU Attention)"]
-    LLM --> RESP(["Grounded Textual Response"]):::io
-    T ~~~ IMG
-    T ~~~ TXT
+    T(["PaliGemma 2: A Family of Versatile VLMs for Transfer"]):::title
+    n4[["PaliGemma 2: Increase the number and breadth of transfer tasks beyond the scope of PaliGemma…"]]
+    n5[/"Evaluated against baselines"/]
+    n6{"Beats strong baselines?"}
+    n7(["arXiv 2412.03555"])
+    n8["Area: multimodal · vlms · vision-language · deep-learning"]
+    subgraph G0["Problem and gap"]
+        n1["PaliGemma 2 is an upgrade of the PaliGemma open Vision-Language Model based on the Gemma 2 family of…"]
+        n2["Combine the SigLIP-So400m vision encoder that was also used by PaliGemma with the whole range of Gemma 2…"]
+        n3["Train these models at three resolutions (224px, 448px, and 896px) in multiple stages to equip them with…"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n4 --> n5
+    n1 --> n5
+    n5 --> n6
+    n6 -- "no" --> n1
+    n6 --> n7
+    n8 --> n4
+    class n6 dec
+    class n7 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

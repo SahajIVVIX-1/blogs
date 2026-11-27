@@ -68,21 +68,38 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["LATENT FLOW MATCHING #amp; SYNTHESIS PIPELINE"]):::title
-    N(["Gaussian Noise x_1 ~ N(0, I)"]):::io --> TE["<b>Timestep Embedding</b><br/>t in [0, 1]"]
-    C(["Prompt / Condition c"]):::io --> CA["<b>Cross-Attention</b><br/>Text Encoder Head"]
-    TE --> VF["<b>Latent Vector Field Network</b><br/>v_theta(x_t, t, c)"]
-    CA --> VF
-    VF --> VP(["Velocity Vector Prediction: dx_t / dt"])
-    VP --> ODE["<b>Numerical ODE Solver Step</b><br/>x_{t - dt} = x_t - v * dt"]
-    ODE -- "iterate N steps" --> VF
-    ODE --> Z(["Synthesized Latent State x_0"])
-    Z --> D["Variational Autoencoder Decoder"]
-    D --> OUT(["High-Fidelity Output Image"]):::io
-    T ~~~ N
-    T ~~~ C
+    T(["An Introduction to Vision-Language Modeling"]):::title
+    n4[["To better understand the mechanics behind mapping vision to language, we present this introduction to…"]]
+    n5["First, we introduce what VLMs are, how they work, and how to train them"]
+    n6["Then, we present and discuss approaches to evaluate VLMs"]
+    n7[/"Evaluated against baselines"/]
+    n8{"Result holds up?"}
+    n9["Although this work primarily focuses on mapping images to language, we also discuss extending VLMs to videos"]
+    n10(["arXiv 2405.17247"])
+    n11["Area: generative-ai · diffusion-models · image-synthesis · multimodal"]
+    subgraph G0["Problem and gap"]
+        n1["Following the recent popularity of Large Language Models (LLMs), several attempts have been made to extend…"]
+        n2["From having a visual assistant that could guide us through unfamiliar environments to generative models…"]
+        n3["However, there are many challenges that need to be addressed to improve the reliability of those models"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n4 --> n5
+    n5 --> n6
+    n6 --> n7
+    n7 --> n8
+    n8 -- "yes" --> n9
+    n9 --> n10
+    n8 -- "no" --> n10
+    n11 --> n4
+    class n8 dec
+    class n10 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

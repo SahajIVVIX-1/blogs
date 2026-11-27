@@ -77,18 +77,52 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["DEEP AUTOREGRESSIVE REASONING PIPELINE"]):::title
-    X(["Input Token Sequence x_{1:t}"]):::io --> N["Rotary Positional Encoding (RoPE) #amp; RMSNorm"]
-    N --> G["<b>Grouped-Query Attention Block (GQA)</b><br/>Q = x * W_q, K = x * W_k (shared), V = x * W_v (shared)"]
-    G --> S["SwiGLU Feed-Forward Network: (xW_gate * swish(xW_up)) * W_down"]
-    S --> R["Residual Accumulator #amp; Pre-Layer Normalization"]
-    R --> H1(["Direct Next-Token Logits"])
-    R --> H2(["Implicit Reward Head"])
-    H1 --> P1["Temperature-Scaled Top-p Sampling"]
-    H2 --> P2["Alignment Loss Check"]
-    T ~~~ X
+    T(["LongLoRA: Efficient Fine-tuning of Long-Context Large Language Models"]):::title
+    n1[["Present LongLoRA, an efficient fine-tuning approach that extends the context sizes of pre-trained…"]]
+    n2["Speed up the context extension of LLMs in two aspects"]
+    n8[/"Evaluated against baselines"/]
+    n9{"Gains without quality loss?"}
+    n13{{"Reported: 16x · 7B · 13B · 70B · 8x"}}
+    n14(["Code released with the paper"])
+    n15["Area: efficiency · quantization · inference-acceleration · llm-systems"]
+    subgraph G0["How it works"]
+        n3["Typically, training LLMs with long context sizes is computationally expensive, requiring extensive…"]
+        n4["On the one hand, although dense global attention is needed during inference, fine-tuning the model can be…"]
+        n5["The proposed shift short attention effectively enables context extension, leading to non-trivial…"]
+        n6["Particularly, it can be implemented with only two lines of code in training, while being optional in…"]
+        n7["On the other hand, we revisit the parameter-efficient fine-tuning regime for context expansion"]
+    end
+    subgraph G1["Evidence"]
+        n10["For example, training on the context length of 8192 needs 16x computational costs in self-attention layers…"]
+        n11["LongLoRA demonstrates strong empirical results on various tasks on LLaMA2 models from 7B/13B to 70B"]
+        n12["LongLoRA adopts LLaMA2 7B from 4k context to 100k, or LLaMA2 70B to 32k on a single 8x A100 machine"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n4 --> n5
+    n5 --> n6
+    n6 --> n7
+    n1 --> n1
+    n7 --> n8
+    n1 --> n8
+    n8 --> n9
+    n9 -- "yes" --> n10
+    n9 -- "yes" --> n11
+    n9 -- "yes" --> n12
+    n9 -- "no" --> n1
+    n13 --> n14
+    n10 --> n13
+    n11 --> n13
+    n12 --> n13
+    n15 --> n1
+    class n9 dec
+    class n14 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

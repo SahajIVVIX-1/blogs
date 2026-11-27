@@ -73,21 +73,32 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["LATENT FLOW MATCHING #amp; SYNTHESIS PIPELINE"]):::title
-    N(["Gaussian Noise x_1 ~ N(0, I)"]):::io --> TE["<b>Timestep Embedding</b><br/>t in [0, 1]"]
-    C(["Prompt / Condition c"]):::io --> CA["<b>Cross-Attention</b><br/>Text Encoder Head"]
-    TE --> VF["<b>Latent Vector Field Network</b><br/>v_theta(x_t, t, c)"]
-    CA --> VF
-    VF --> VP(["Velocity Vector Prediction: dx_t / dt"])
-    VP --> ODE["<b>Numerical ODE Solver Step</b><br/>x_{t - dt} = x_t - v * dt"]
-    ODE -- "iterate N steps" --> VF
-    ODE --> Z(["Synthesized Latent State x_0"])
-    Z --> D["Variational Autoencoder Decoder"]
-    D --> OUT(["High-Fidelity Output Image"]):::io
-    T ~~~ N
-    T ~~~ C
+    T(["MVDream: Multi-view Diffusion for 3D Generation"]):::title
+    n1[["Propose MVDream, a multi-view diffusion model that is able to generate geometrically consistent…"]]
+    n2["Show that the multi-view diffusion model can also be fine-tuned under a few shot setting for personalized…"]
+    n3[/"Evaluated against baselines"/]
+    n4{"Robust across settings?"}
+    n7(["Code released with the paper"])
+    n8["Area: generative-ai · diffusion-models · image-synthesis · multimodal"]
+    subgraph G0["Evidence"]
+        n5["By leveraging image diffusion models pre-trained on large-scale web datasets and a multi-view dataset…"]
+        n6["Such a model can thus be applied as a multi-view prior for 3D generation via Score Distillation Sampling…"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n4 -- "yes" --> n5
+    n4 -- "yes" --> n6
+    n6 --> n7
+    n4 -- "no" --> n7
+    n8 --> n1
+    class n4 dec
+    class n7 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

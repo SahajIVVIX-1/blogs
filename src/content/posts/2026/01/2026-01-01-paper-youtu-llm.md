@@ -73,22 +73,32 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["AUTONOMOUS AGENT ORCHESTRATION PIPELINE"]):::title
-    ENV(["Environment"]):::io --> OBS(["Multi-Modal State Observation o_t"])
-    OBS --> MEM["Episodic #amp; Semantic Memory Store"]
-    MEM --> PLAN["Planning #amp; Decomposition Module (LLM / Reasoner)"]
-    PLAN --> SEL(["Tool Selection Head"])
-    PLAN --> CRIT(["Self-Critic"])
-    SEL --> EXE["Tool Execution Call"]
-    CRIT --> VER{"Verification Passed?"}
-    VER -- Yes --> EXE
-    VER -- "No: re-plan" --> REF["Reflection State Update"]
-    EXE --> ACT(["Action a_t"])
-    REF --> ACT
-    ACT --> ENV
-    T ~~~ ENV
+    T(["Youtu-LLM: Unlocking the Native Agentic Potential for Lightweight Large Language Models"]):::title
+    a(["Youtu-LLM: Unlocking the Native Agentic Potential for Lightweight Large Language Models"])
+    b["Task: Autonomous multi-step reasoning, tool coordination, and goal-directed environment interaction"]
+    c[["Method: Closed-loop Sense-Plan-Act architecture with iterative feedback verification and memory integration"]]
+    e[/"Data: AgentBench, WebArena, ALFWorld, ToolBench, and interactive API environments"/]
+    f{"Gains without quality loss?"}
+    g["Result: Substantial reduction in task divergence and trajectory failure rates compared to unguided LLM…"]
+    h["Limitations: scope, data and compute assumptions"]
+    i(["Code released with the paper"])
+    j["Area: agents · autonomous-systems · tool-use · decision-making"]
+    T ~~~ a
+    a --> b
+    b --> c
+    c --> e
+    e --> f
+    f -- "yes" --> g
+    g --> h
+    h --> i
+    f -- "no" --> c
+    j --> b
+    class f dec
+    class a,i term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

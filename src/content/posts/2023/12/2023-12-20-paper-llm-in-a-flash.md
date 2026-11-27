@@ -72,18 +72,40 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["DEEP AUTOREGRESSIVE REASONING PIPELINE"]):::title
-    X(["Input Token Sequence x_{1:t}"]):::io --> N["Rotary Positional Encoding (RoPE) #amp; RMSNorm"]
-    N --> G["<b>Grouped-Query Attention Block (GQA)</b><br/>Q = x * W_q, K = x * W_k (shared), V = x * W_v (shared)"]
-    G --> S["SwiGLU Feed-Forward Network: (xW_gate * swish(xW_up)) * W_down"]
-    S --> R["Residual Accumulator #amp; Pre-Layer Normalization"]
-    R --> H1(["Direct Next-Token Logits"])
-    R --> H2(["Implicit Reward Head"])
-    H1 --> P1["Temperature-Scaled Top-p Sampling"]
-    H2 --> P2["Alignment Loss Check"]
-    T ~~~ X
+    T(["LLM in a flash: Efficient Large Language Model Inference with Limited Memory"]):::title
+    n3[["This paper tackles the challenge of efficiently running LLMs that exceed the available DRAM capacity…"]]
+    n4["Within this flash memory-informed framework, we introduce two principal techniques"]
+    n5["Our integration of sparsity awareness, context-adaptive loading, and a hardware-oriented design paves the…"]
+    n6[/"Evaluated against baselines"/]
+    n7{"Efficiency gain holds?"}
+    n10(["These methods collectively enable running models up to twice the size of the available…"])
+    n11["Area: llm · pretraining · instruction-tuning · nlp"]
+    subgraph G0["Problem and gap"]
+        n1["Large language models (LLMs) are central to modern natural language processing, delivering exceptional…"]
+        n2["However, their intensive computational and memory requirements present challenges, especially for devices…"]
+    end
+    subgraph G1["Evidence"]
+        n8["Our method involves constructing an inference cost model that harmonizes with the flash memory behavior…"]
+        n9["First, #quot;windowing'#quot; strategically reduces data transfer by reusing previously activated neurons, and…"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n4 --> n5
+    n5 --> n6
+    n6 --> n7
+    n7 -- "yes" --> n8
+    n7 -- "yes" --> n9
+    n9 --> n10
+    n7 -- "no" --> n10
+    n11 --> n3
+    class n7 dec
+    class n10 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

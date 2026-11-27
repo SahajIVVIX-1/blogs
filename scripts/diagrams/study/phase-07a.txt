@@ -1,0 +1,1251 @@
+@7.1
+a=Feature matrix X (n x d)
+b=Column space: span of features
+c=Null space: directions mapped to zero
+d@=Rank-nullity: rank + nullity = d
+e?=Rank below d?
+f=Redundant features, non-unique weights
+g=Full column rank: unique solution
+h!=Understand what X can represent
+a>b>d
+a>c>d
+d>e
+e-yes>f>h
+e-no>g>h
+@7.2
+a=Target y outside the column space
+b=Find closest point in col(X)
+c=Residual orthogonal to every column
+d=X^T (y - X beta) = 0
+e=Projection matrix P = X (X^T X)^-1 X^T
+f=y_hat = P y
+g!=Least squares as orthogonal projection
+a>b>c>d>e>f>g
+@7.3
+a=Matrix A
+b?=Which norm?
+c=Frobenius: sqrt of sum of squares
+d=Induced L1: max column sum
+e=Induced L2 (spectral): largest singular value
+f=Bounds amplification of any vector
+g=Frobenius equals sqrt of sum of sigma^2
+h!=Measure of matrix size
+a>b
+b-entrywise>c>g>h
+b-L1>d>f>h
+b-spectral>e>f>h
+@7.4
+a=Symmetric matrix A
+b@=A = Q Lambda Q^T
+c?=All eigenvalues positive?
+d=Positive definite: x^T A x > 0
+e=Quadratic bowl, unique minimum
+f=Eigenvalue sign flips: saddle
+g=Condition number lambda_max / lambda_min
+h=Slow gradient descent when large
+i!=Eigenstructure governs optimization
+a>b>c
+c-yes>d>e>g>h>i
+c-no>f>i
+@7.5
+a=Matrix A (m x n)
+b=A^T A symmetric positive semidefinite
+c=Eigenvectors give V, eigenvalues sigma^2
+d=U columns = A v / sigma
+e@=A = U Sigma V^T
+f=Rotate, scale, rotate geometric picture
+g=Unit sphere maps to an ellipsoid
+h!=Singular values as axis lengths
+a>b>c>d>e>f>g>h
+@7.6
+a=Data matrix A
+b@=SVD A = U Sigma V^T
+c=Keep top k singular values
+d@=Eckart-Young-Mirsky: A_k is the best rank-k
+e=Error = sigma_(k+1) in spectral norm
+f?=Energy kept above threshold?
+g=Compressed storage k(m + n + 1)
+h=Increase k
+i!=Optimal low-rank approximation
+a>b>c>d>e>f
+f-yes>g>i
+f-no>h>c
+@7.7
+a=f: R^n to R^m
+b=Partial derivatives
+c=Gradient (m = 1): steepest ascent direction
+d=Directional derivative = grad . u
+e=Jacobian: m x n matrix of partials
+f=Chain rule multiplies Jacobians
+g!=Linearization of vector functions
+a>b>c>d
+b>e>f>g
+d>g
+@7.8
+a=Twice-differentiable f
+b=Hessian H of second derivatives
+c=Gradient equals zero at a critical point
+d?=Eigenvalues of H?
+e=All positive: local minimum
+f=All negative: local maximum
+g=Mixed signs: saddle point
+h=Zero eigenvalue: inconclusive
+i!=Classify critical points
+a>b>c>d
+d-positive>e>i
+d-negative>f>i
+d-mixed>g>i
+d-zero>h>i
+@7.9
+a=Scalar loss L(W)
+b=Differentials dL = tr(G^T dW)
+c=Trace tricks: cyclic, transpose
+d=Read off the gradient G
+e=Example: d/dW tr(AW) = A^T
+f?=Matrix-vector forms?
+g=Vectorize with Kronecker product
+h=Verify numerically with finite differences
+i!=Vectorized gradient derivation
+a>b>c>d>f
+d>e>h
+f-yes>g>h
+f-no>h
+h>i
+@7.10
+a=Function near a point x0
+b=First order: f(x0) + grad . dx
+c=Linear model, tangent plane
+d=Second order adds 1/2 dx^T H dx
+e=Quadratic model captures curvature
+f?=Step small enough for the approximation?
+g=Gradient descent uses first order
+h=Newton uses second order
+i!=Local surface models
+a>b>c>g>f
+a>d>e>h>f
+f-yes>i
+f-no>a
+@7.11
+a=Set C and function f
+b?=Segment between any two points inside C?
+c=Convex set
+d=f(lx + (1-l)y) <= l f(x) + (1-l) f(y)
+e=Epigraph is convex
+f@=Jensen: f(E[X]) <= E[f(X)]
+g=Sublevel sets are convex
+h!=Any local minimum is global
+a>b
+b-yes>c>d>e>f>g>h
+@7.12
+a=Convex differentiable f
+b=Gradient zero is necessary and sufficient
+c=Descent direction -grad f
+d=Line search or fixed step
+e?=Norm of gradient small?
+f=Update x
+g!=Global minimizer
+a>b>c>d>f>e
+e-no>c
+e-yes>g
+@7.13
+a=min f(x) subject to g(x) = 0
+b=Lagrangian L = f + lambda g
+c=Stationarity: grad f = -lambda grad g
+d=Gradients parallel at optimum
+e=Dual function d(lambda) = min over x of L
+f=Maximize d(lambda)
+g!=Constrained optimum
+a>b>c>d>g
+b>e>f>g
+@7.14
+a=Inequality problem min f s.t. g_i <= 0
+b=Primal feasibility g_i(x) <= 0
+c=Dual feasibility lambda_i >= 0
+d=Stationarity grad L = 0
+e@=Complementary slackness lambda_i g_i = 0
+f?=Constraint active?
+g=lambda_i can be positive
+h=lambda_i = 0, constraint ignored
+i!=KKT conditions satisfied
+a>b>d
+a>c>d
+d>e>f
+f-yes>g>i
+f-no>h>i
+@7.15
+a=Primal problem value p*
+b=Dual problem value d*
+c=Weak duality: d* <= p*
+d?=Convex and Slater point exists?
+e=Strong duality: d* = p*
+f=Duality gap may remain
+g=Solve the easier of primal or dual
+h!=Dual certificate of optimality
+a>c
+b>c>d
+d-yes>e>g>h
+d-no>f>h
+@7.16
+a=Gradient Lipschitz constant L
+b=Step size eta = 1/L
+c?=Smooth and convex?
+d=f(x_k) - f* <= ||x0 - x*||^2 / (2 eta k)
+e=Rate O(1/k)
+f=Strongly convex: linear rate
+g=Too large step: divergence
+h=Backtracking line search
+i!=Convergence guarantees
+a>b>c
+c-yes>d>e>f>i
+b>g>h>i
+@7.17
+a=Current point x_k
+b=Gradient g and Hessian H
+c=Solve H d = -g
+d=Update x + d
+e?=Hessian positive definite?
+f=Quadratic convergence near optimum
+g=Damping or regularize H
+h=Cost O(n^3) per solve
+i!=Second-order method
+a>b>e
+e-yes>c>d>f>i
+e-no>g>c
+c>h
+@7.18
+a=Gradient history
+b=Secant condition H s = y
+c@=BFGS inverse Hessian update
+d?=Memory limited?
+e=L-BFGS: keep last m pairs
+f=Two-loop recursion applies H without forming it
+g=Full matrix storage O(n^2)
+h=Superlinear convergence
+i!=Curvature without second derivatives
+a>b>c>d
+d-yes>e>f>h>i
+d-no>g>h>i
+@7.19
+a=Non-differentiable f at a kink
+b=Subgradient set at the point
+c=f(y) >= f(x) + g (y - x)
+d=|x| at 0: any g in [-1, 1]
+e=Hinge loss kink at margin 1
+f=Subgradient descent step
+g?=Diminishing step sizes?
+h=Converges slowly O(1/sqrt k)
+i!=Optimize L1 and hinge objectives
+a>b>c>d>f
+c>e>f
+f>g
+g-yes>h>i
+g-no>f
+@7.20
+a=Mini-batch gradient estimate
+b=Unbiased with variance sigma^2 / B
+c@=Robbins-Monro: sum eta = inf, sum eta^2 < inf
+d?=Step size schedule?
+e=Decay eta_t
+f=Constant step: noise floor
+g=Larger batch lowers variance
+h=Converges to a stationary point
+i!=Stochastic optimization
+a>b>c>d
+d-decay>e>h>i
+d-constant>f>g>h
+b>g
+@7.21
+a=Targets y, features X
+b=Predictions X beta lie in col(X)
+c=Closest point = orthogonal projection of y
+d=Residual perpendicular to col(X)
+e?=Columns orthonormal?
+f=beta = Q^T y directly
+g=General: solve normal equations
+h!=OLS geometry
+a>b>c>d>e
+e-yes>f>h
+e-no>g>h
+@7.22
+a=Loss ||y - X beta||^2
+b=Differentiate with respect to beta
+c=-2 X^T (y - X beta) = 0
+d=Normal equations X^T X beta = X^T y
+e?=X^T X invertible?
+f=beta = (X^T X)^-1 X^T y
+g=Use pseudo-inverse or ridge
+h=Hessian 2 X^T X is PSD: minimum
+i!=Closed-form OLS
+a>b>c>d>e
+e-yes>f>h>i
+e-no>g>i
+@7.23
+a=Linear model y = X beta + e
+b=Linearity in parameters
+c=Errors mean zero, uncorrelated
+d=Constant variance
+e=No perfect collinearity
+f@=Gauss-Markov theorem
+g=OLS is BLUE
+h?=Heteroscedastic?
+i=Use weighted or robust errors
+j!=Assumptions for optimality
+a>b>f
+a>c>f
+a>d>f
+a>e>f
+f>g>h
+h-yes>i>j
+h-no>j
+@7.24
+a=Fitted model
+b=RSS = sum (y - y_hat)^2
+c=TSS = sum (y - ybar)^2
+d=R^2 = 1 - RSS / TSS
+e?=Added features?
+f=R^2 never decreases
+g=Adjusted R^2 penalizes parameters
+h!=Variance explained
+a>b>d
+a>c>d
+d>e
+e-yes>f>g>h
+e-no>h
+@7.25
+a=Correlated predictors
+b=X^T X nearly singular
+c=Condition number large
+d=VIF_j = 1 / (1 - R_j^2)
+e?=VIF above 10?
+f=Coefficient variance inflated
+g=Drop, combine, or regularize features
+h=Stable estimates
+i!=Multicollinearity handled
+a>b>c>d>e
+e-yes>f>g>h>i
+e-no>i
+@7.26
+a=Minimize ||y - X b||^2 + lambda ||b||^2
+b=Gradient zero
+c=(X^T X + lambda I) b = X^T y
+d=Matrix always invertible for lambda > 0
+e=Shrinks coefficients toward zero
+f?=lambda large?
+g=Underfit: high bias
+h=Overfit: variance
+i!=Tikhonov regularization
+a>b>c>d>e>f
+f-yes>g>i
+f-no>h>i
+@7.27
+a=X = U S V^T
+b=Ridge coefficients V diag(s/(s^2 + lambda)) U^T y
+c=Each direction shrunk by s^2 / (s^2 + lambda)
+d?=Small singular value?
+e=Heavily shrunk, stabilizes noise
+f=Large singular value barely changed
+g=Effective df = sum s^2 / (s^2 + lambda)
+h!=Spectral view of ridge
+a>b>c>d
+d-yes>e>g>h
+d-no>f>g>h
+@7.28
+a=Penalty lambda ||b||_1
+b=Constraint region is a diamond
+c=Loss contours touch at corners
+d=Many coefficients exactly zero
+e=Non-differentiable at zero
+f=Subgradient optimality
+g=Feature selection built in
+h!=Sparse models
+a>b>c>d>g>h
+a>e>f>d
+@7.29
+a=Lasso objective
+b=Cycle through coordinates
+c=Compute partial residual correlation rho_j
+d@=Soft-threshold S(rho_j, lambda)
+e?=|rho_j| <= lambda?
+f=Coefficient set to zero
+g=Shrink toward zero by lambda
+h?=Change small for all j?
+i!=Converged lasso path
+a>b>c>d>e
+e-yes>f>h
+e-no>g>h
+h-no>b
+h-yes>i
+@7.30
+a=Correlated feature group
+b?=Penalty type?
+c=Lasso picks one, drops the rest
+d=Ridge keeps all, no sparsity
+e=ElasticNet: l1 + (1 - l1) l2
+f=Grouping effect: correlated features share weight
+g=Tune alpha and l1_ratio by cross-validation
+h!=Sparse and stable
+a>b
+b-L1>c>e
+b-L2>d>e
+e>f>g>h
+@7.31
+a=Feature x
+b=Expand to x, x^2, ..., x^d
+c=Linear regression on powers
+d?=Degree d large?
+e=Overfits: wild oscillation at edges
+f=Runge's phenomenon
+g=Chebyshev nodes or splines
+h=Regularize or cross-validate d
+i!=Flexible but controlled fit
+a>b>c>d
+d-yes>e>f>g>i
+d-no>h>i
+@7.32
+a=Ridge in weight space
+b=Representer: w = sum alpha_i phi(x_i)
+c=Solve (K + lambda I) alpha = y
+d@=Kernel matrix K_ij = k(x_i, x_j)
+e=Predict sum alpha_i k(x_i, x)
+f?=Large n?
+g=O(n^3) cost, use low-rank approximations
+h!=Ridge in infinite-dimensional features
+a>b>c>d>e>f
+f-yes>g>h
+f-no>h
+@7.33
+a=Want the tau-th conditional quantile
+b=Check function rho_tau(u) = u (tau - 1[u < 0])
+c=Asymmetric weighting of residuals
+d?=tau = 0.5?
+e=Median regression: absolute deviations
+f=Other quantiles: prediction intervals
+g=Solved as a linear program
+h!=Model the whole distribution
+a>b>c>d
+d-yes>e>g>h
+d-no>f>g>h
+@7.34
+a=Data with outliers
+b@=Huber loss
+c?=|residual| below delta?
+d=Quadratic: efficient on clean points
+e=Linear: bounded influence
+f=IRLS with weights psi(r)/r
+g=Resistant to heavy tails
+h!=Robust M-estimate
+a>b>c
+c-yes>d>f
+c-no>e>f
+f>g>h
+@7.35
+a=Data with many outliers
+b=Sample minimal subset
+c=Fit model to the subset
+d=Count inliers within tolerance
+e?=Best consensus so far?
+f=Keep model
+g?=Enough iterations?
+h=Refit on all inliers
+i!=Robust fit
+a>b>c>d>e
+e-yes>f>g
+e-no>g
+g-no>b
+g-yes>h>i
+@7.36
+a=Response from exponential dispersion family
+b=Linear predictor eta = X beta
+c@=Link g(mu) = eta
+d?=Canonical link?
+e=Natural parameter equals eta
+f=Fit by IRLS
+g=Deviance for goodness of fit
+h!=GLM unifies regressions
+a>b>c>d
+d-yes>e>f>g>h
+d-no>f
+@7.37
+a=Count response
+b=Poisson with log link: mu = exp(X beta)
+c=Coefficients are log rate ratios
+d=Fit by maximum likelihood
+e?=Variance exceeds mean?
+f=Overdispersion test
+g=Move to negative binomial
+h!=Rate model for counts
+a>b>c>d>e
+e-yes>f>g>h
+e-no>h
+@7.38
+a=Overdispersed counts
+b=Gamma-distributed rate heterogeneity
+c=Negative binomial: variance mu + mu^2 / r
+d=Dispersion parameter alpha estimated
+e=Same log link as Poisson
+f?=alpha near zero?
+g=Poisson suffices
+h!=Count model with extra variance
+a>b>c>d>e>f
+f-yes>g>h
+f-no>h
+@7.39
+a=Positive skewed target
+b=Gamma distribution
+c=Variance proportional to mu^2
+d?=Link?
+e=Log link: multiplicative effects
+f=Inverse link: canonical
+g=Fit by IRLS
+h!=Model costs, durations, claims
+a>b>c>d
+d-log>e>g>h
+d-inverse>f>g>h
+@7.40
+a=Noise in X and y
+b=OLS ignores x errors
+c=Minimize orthogonal distances
+d@=SVD of the augmented matrix [X y]
+e=Smallest singular vector gives the fit
+f?=Error variances equal?
+g=Standard TLS
+h=Scale the columns first
+i!=Errors-in-variables fit
+a>b>c>d>e>f
+f-yes>g>i
+f-no>h>d
+@7.41
+a=Features x
+b=Score z = w . x + b
+c=Sigmoid p = 1 / (1 + e^-z)
+d=Log-odds equals z
+e=exp(w_j) is the odds ratio
+f=Bernoulli likelihood p^y (1-p)^(1-y)
+g=Threshold at 0.5 for labels
+h!=Binary classifier
+a>b>c>d>e
+c>f>g>h
+@7.42
+a=Negative log-likelihood
+b=L = -[y log p + (1 - y) log(1 - p)]
+c=Gradient (p - y) x
+d=Hessian X^T diag(p(1-p)) X
+e?=Hessian positive semidefinite?
+f=Loss is convex
+g=No local minima
+h!=Log-loss properties
+a>b>c>d>e
+e-yes>f>g>h
+@7.43
+a=Initial weights
+b=Compute p and W = diag(p(1-p))
+c=Working response z = Xw + W^-1 (y - p)
+d=Weighted least squares solve
+e=Update weights
+f?=Deviance change small?
+g=Newton steps equal IRLS
+h!=Converged logistic fit
+a>b>c>d>e>f
+f-no>b
+f-yes>g>h
+@7.44
+a=K classes
+b=Scores z_k = w_k . x
+c=Softmax p_k = e^z_k / sum e^z_j
+d=Cross-entropy -sum y_k log p_k
+e=Subtracting a constant leaves p unchanged
+f=Weights have one redundant direction
+g!=Multiclass probabilities
+a>b>c>d>g
+c>e>f>g
+@7.45
+a=Rare positive class
+b=Majority dominates the loss
+c?=Fix?
+d=Weighted cross-entropy by class frequency
+e=Focal loss: (1 - p_t)^gamma
+f=Down-weights easy examples
+g=Tune threshold on a validation set
+h!=Balanced learning
+a>b>c
+c-weights>d>g
+c-focal>e>f>g
+g>h
+@7.46
+a=Classification with n examples
+b?=Model type?
+c=Discriminative: learn p(y|x) directly
+d=Generative: learn p(x|y) and p(y)
+e=Lower asymptotic error
+f=Reaches its error with fewer samples
+g=Ng and Jordan: generative wins early, discriminative later
+h!=Choose by data size
+a>b
+b-disc>c>e>g
+b-gen>d>f>g
+g>h
+@7.47
+a=Continuous features
+b=Assume independence given class
+c=Per-class Gaussian per feature
+d=MLE: class means and variances
+e=Prior from class frequencies
+f=Score = log prior + sum log N(x_j)
+g=Pick the class with the largest score
+h!=Gaussian naive Bayes
+a>b>c>d>f
+e>f>g>h
+@7.48
+a=Document word counts
+b=Class-conditional word probabilities
+c=Add-one Laplace smoothing
+d=log P(class) + sum count_w log P(w | class)
+e?=Unseen word?
+f=Smoothed nonzero probability
+g=Argmax class
+h!=Text classifier
+a>b>c>d>e
+e-yes>f>g>h
+e-no>g>h
+@7.49
+a=Binary presence features
+b=P(x_j = 1 | class) per word
+c?=Word absent?
+d=Absence also counts: log(1 - p_j)
+e=Differs from multinomial NB
+f=Short documents and binary data
+g!=Bernoulli naive Bayes
+a>b>c
+c-yes>d>e>f>g
+@7.50
+a=Labeled data in d dimensions
+b=Within-class scatter Sw
+c=Between-class scatter Sb
+d@=Maximize w^T Sb w / w^T Sw w
+e=w = Sw^-1 (mu1 - mu2)
+f?=More than two classes?
+g=Top C - 1 generalized eigenvectors
+h!=Projection that separates classes
+a>b>d
+a>c>d
+d>e>f
+f-yes>g>h
+f-no>h
+@7.51
+a=Each class has its own covariance
+b=Quadratic discriminant function
+c?=Covariances equal?
+d=Reduces to LDA, linear boundary
+e=Curved boundary
+f=More parameters: d(d + 1)/2 per class
+g?=Few samples per class?
+h=Unstable covariance estimates
+i!=Quadratic decision rule
+a>b>c
+c-yes>d>i
+c-no>e>f>g
+g-yes>h>i
+g-no>i
+@7.52
+a=Covariance estimates
+b=Shrink class covariance toward pooled
+c=Sigma_k(alpha) = alpha S_k + (1 - alpha) S
+d=alpha = 0: LDA, alpha = 1: QDA
+e=Also shrink toward identity
+f=Choose by cross-validation
+g!=Interpolates between LDA and QDA
+a>b>c>d>f
+c>e>f>g
+@7.53
+a=Data from K hidden clusters
+b=Latent z picks a component
+c=x | z=k is Gaussian
+d=Mixture weights pi_k
+e@=Marginal p(x) = sum pi_k N(x | mu_k, S_k)
+f=Soft assignments (responsibilities)
+g!=Density model with latent structure
+a>b>c>d>e>f>g
+@7.54
+a=Initialize pi, mu, Sigma
+b@=E-step: responsibilities r_ik
+c=M-step: pi_k = mean of r_ik
+d=mu_k and S_k as weighted averages
+e?=Log-likelihood improved by less than tol?
+f!=Fitted mixture
+a>b>c>d>e
+e-no>b
+e-yes>f
+@7.55
+a=Log-likelihood has a sum inside the log
+b@=Jensen's inequality
+c=ELBO lower bound
+d=E-step: tighten bound with the posterior
+e=M-step: maximize the bound
+f=Likelihood never decreases
+g?=Reached a local optimum?
+h!=EM convergence argument
+a>b>c>d>e>f>g
+g-no>d
+g-yes>h
+@7.56
+a=Linearly separable data
+b=Hyperplane w . x + b = 0
+c=Margin = 2 / ||w||
+d=Constraints y_i (w . x_i + b) >= 1
+e=Minimize ||w||^2 / 2
+f=Quadratic program
+g!=Maximal-margin classifier
+a>b>c>d>e>f>g
+@7.57
+a=Overlapping classes
+b=Slack variables xi_i >= 0
+c=Hinge loss max(0, 1 - y f(x))
+d=Objective ||w||^2 / 2 + C sum xi
+e?=C large?
+f=Narrow margin, fewer violations
+g=Wide margin, more slack
+h!=Soft-margin trade-off
+a>b>c>d>e
+e-yes>f>h
+e-no>g>h
+@7.58
+a=Primal SVM
+b=Lagrangian with multipliers alpha_i
+c=Stationarity: w = sum alpha_i y_i x_i
+d=Dual: maximize sum alpha - 1/2 sum alpha alpha y y x.x
+e=Constraints 0 <= alpha <= C, sum alpha y = 0
+f?=alpha_i > 0?
+g=Support vector
+h=Not a support vector
+i!=Solution depends on support vectors only
+a>b>c>d>e>f
+f-yes>g>i
+f-no>h>i
+@7.59
+a=Feature map phi(x)
+b@=Kernel k(x, y) = phi(x) . phi(y)
+c=Replace dot products in the dual
+d?=Valid kernel?
+e@=Mercer: symmetric positive semidefinite
+f=Implicit RKHS of functions
+g=Never compute phi explicitly
+h!=Kernel trick
+a>b>d
+d-yes>e>c>f>g>h
+d-no>a
+@7.60
+a=Pick a kernel
+b?=Structure of the data?
+c=Linear: x . y, high-dimensional sparse
+d=Polynomial (x . y + c)^d: interactions
+e=Gaussian RBF exp(-gamma ||x - y||^2)
+f=Sigmoid tanh: neural-net flavor
+g=Cross-validate kernel and parameters
+h!=Kernel matches data geometry
+a>b
+b-linear>c>g
+b-interactions>d>g
+b-local>e>g
+b-sigmoid>f>g
+g>h
+@7.61
+a=RBF SVM
+b?=gamma large?
+c=Narrow bumps: overfit, many support vectors
+d=Smooth boundary: underfit
+e?=C large?
+f=Few errors allowed, complex boundary
+g=More slack, simpler
+h=Grid search over (C, gamma)
+i!=Balanced capacity
+a>b
+b-yes>c>h
+b-no>d>h
+a>e
+e-yes>f>h
+e-no>g>h
+h>i
+@7.62
+a=Regression targets
+b=Epsilon tube around the function
+c=Loss zero inside the tube
+d=Linear loss outside: |y - f| - eps
+e=Slack variables above and below
+f=Dual with alpha and alpha*
+g=Support vectors lie on or outside the tube
+h!=Sparse regression
+a>b>c>d>e>f>g>h
+@7.63
+a=Normal data only
+b=Separate data from the origin
+c=Maximize margin in feature space
+d=nu bounds the outlier fraction
+e=Decision function sign
+f?=Score below zero?
+g=Novelty flagged
+h=Inside the learned region
+i!=Outlier detector
+a>b>c>d>e>f
+f-yes>g>i
+f-no>h>i
+@7.64
+a=SVM decision values f(x)
+b?=Calibration method?
+c=Platt: sigmoid 1 / (1 + exp(A f + B))
+d=Isotonic: monotone step function
+e=Fit on held-out data
+f?=Few calibration samples?
+g=Platt more stable
+h=Isotonic more flexible
+i!=Probabilities from margins
+a>b
+b-parametric>c>e>f
+b-nonparametric>d>e>f
+f-yes>g>i
+f-no>h>i
+@7.65
+a=K classes
+b?=Strategy?
+c=OvR: K binary classifiers
+d=Pick the largest score
+e=OvO: K(K-1)/2 pairwise classifiers
+f=Voting among pairs
+g=Smaller training sets per model
+h!=Multiclass SVM
+a>b
+b-OvR>c>d>h
+b-OvO>e>f>g>h
+@7.66
+a=Training data at a node
+b=Try every feature and threshold
+c=Score each split
+d?=Best split improves purity?
+e=Create left and right children
+f=Recurse on each child
+g=Stop: make a leaf
+h!=Greedy recursive tree
+a>b>c>d
+d-yes>e>f>a
+d-no>g>h
+@7.67
+a=Class distribution at a node
+b?=Criterion?
+c=Entropy -sum p log p
+d=Gini 1 - sum p^2
+e=Information gain = parent - weighted children
+f=Gini decrease similar and cheaper
+g=Choose split with largest gain
+h!=Purest children
+a>b
+b-entropy>c>e>g
+b-gini>d>f>g
+g>h
+@7.68
+a=Continuous targets in a node
+b?=Criterion?
+c=MSE: variance reduction
+d=MAE: median-based leaves
+e=Leaf prediction = mean
+f=Leaf prediction = median
+g=Pick split with largest reduction
+h!=Regression tree split
+a>b
+b-mse>c>e>g
+b-mae>d>f>g
+g>h
+@7.69
+a=CART root
+b=Binary splits only
+c=Search best (feature, threshold)
+d=Grow to purity
+e=Prune with cost-complexity
+f=Choose subtree by validation
+g!=CART tree
+a>b>c>d>e>f>g
+@7.70
+a=Categorical attributes
+b=ID3: information gain
+c?=Many-valued attribute favored?
+d=Bias toward high-cardinality
+e=C4.5: gain ratio = gain / split info
+f=Multi-way split per value
+g=Handles continuous by thresholds
+h!=Gain-ratio tree
+a>b>c
+c-yes>d>e>f>g>h
+c-no>f
+@7.71
+a=Fully grown tree overfits
+b?=Regularize how?
+c=max_depth cap
+d=min_samples_split
+e=min_samples_leaf
+f=min_impurity_decrease
+g=Validate on held-out data
+h!=Smaller, more general tree
+a>b
+b-depth>c>g
+b-split>d>g
+b-leaf>e>g
+b-gain>f>g
+g>h
+@7.72
+a=Full tree T0
+b=Cost R_alpha(T) = error + alpha |leaves|
+c=Weakest link: smallest increase in error per leaf
+d=Prune that subtree
+e?=Only root left?
+f=Sequence of nested subtrees
+g=Pick alpha by cross-validation
+h!=Pruned tree
+a>b>c>d>e
+e-no>c
+e-yes>f>g>h
+@7.73
+a=Missing values and categories
+b?=Tree type?
+c=CART: surrogate splits mimic the primary split
+d=Native categorical: order by target mean
+e=Send missing in the best direction
+f=Avoid one-hot explosion
+g!=Robust handling
+a>b
+b-cart>c>g
+b-native>d>f>g
+d>e>g
+@7.74
+a=Many weak voters, each p > 0.5
+b=Independent errors
+c@=Condorcet's jury theorem
+d=Majority accuracy tends to 1
+e?=Errors correlated?
+f=Gain shrinks
+g=Diversify models
+h!=Why ensembles work
+a>b>c>d>e
+e-yes>f>g>h
+e-no>h
+@7.75
+a=Training set size n
+b=Draw B bootstrap samples with replacement
+c=Fit one model per sample
+d=Average or vote predictions
+e=Variance falls, bias unchanged
+f?=High-variance base learner?
+g=Large gain (deep trees)
+h=Little gain (linear models)
+i!=Bagged predictor
+a>b>c>d>e>f
+f-yes>g>i
+f-no>h>i
+@7.76
+a=Each bootstrap leaves out about 37 percent
+b=Out-of-bag samples for tree t
+c=Predict them with trees that never saw them
+d=Aggregate OOB predictions
+e=OOB error approximates test error
+f=No separate validation set
+g!=Free generalization estimate
+a>b>c>d>e>f>g
+@7.77
+a=Bootstrap sample
+b=At each split pick mtry random features
+c=Best split among them only
+d=Trees become decorrelated
+e=Average many deep trees
+f?=mtry small?
+g=Lower correlation, higher bias
+h=Higher correlation
+i!=Random forest
+a>b>c>d>e>f
+f-yes>g>i
+f-no>h>i
+@7.78
+a=Node and random features
+b=Random threshold per feature
+c=Pick the best of the random splits
+d=No bootstrap by default
+e=Cheaper training, smoother boundaries
+f?=Noisy data?
+g=Extra randomness cuts variance
+h!=ExtraTrees
+a>b>c>d>e>f
+f-yes>g>h
+f-no>h
+@7.79
+a=Trained forest
+b?=Importance method?
+c=MDI: impurity decrease summed over splits
+d=Biased to high-cardinality features
+e=Permutation: shuffle a feature, measure drop
+f=Use held-out data
+g=Correlated features share importance
+h!=Ranked features
+a>b
+b-mdi>c>d>h
+b-perm>e>f>g>h
+@7.80
+a=Pairs of samples
+b=Count trees where they share a leaf
+c=Proximity matrix
+d=1 - proximity as a distance
+e?=Purpose?
+f=Cluster or visualize with MDS
+g=Impute missing values by weighted neighbors
+h!=Tree-based similarity
+a>b>c>d>e
+e-cluster>f>h
+e-impute>g>h
+@7.81
+a=Weak learner, slightly better than chance
+b=Fit sequentially
+c=Focus on what previous models got wrong
+d=Additive model F = sum alpha_m h_m
+e?=Stop?
+f=Validation score stops improving
+g!=Strong learner
+a>b>c>d>e
+e-no>b
+e-yes>f>g
+@7.82
+a=Equal sample weights
+b=Fit weak classifier h_m
+c=Weighted error eps_m
+d=alpha_m = 1/2 log((1 - eps)/eps)
+e=Increase weights of mistakes by exp(alpha)
+f=Renormalize weights
+g=Final sign of sum alpha_m h_m
+h!=AdaBoost
+a>b>c>d>e>f>b
+d>g>h
+@7.83
+a=Loss L(y, F)
+b=Compute negative gradients (pseudo-residuals)
+c=Fit a tree to the residuals
+d=Line search for step size
+e=F += nu x step x tree
+f?=More rounds?
+g=Boosting is gradient descent in function space
+h!=Gradient boosting machine
+a>b>c>d>e>f
+f-yes>b
+f-no>g>h
+@7.84
+a=Choose the loss
+b?=Task and noise?
+c=Squared error: residual y - F
+d=Absolute error: sign of residual
+e=Binomial deviance: y - p
+f=Huber: clipped residual
+g=Pseudo-residuals follow from the loss
+h!=Loss controls robustness
+a>b
+b-clean>c>g
+b-median>d>g
+b-binary>e>g
+b-outliers>f>g
+g>h
+@7.85
+a=Boosted model overfits
+b?=Regularize?
+c=Shrinkage: small learning rate nu
+d=Subsample rows each round
+e=Limit tree depth and leaves
+f=More trees compensate for small nu
+g=Early stopping on validation
+h!=Regularized GBM
+a>b
+b-nu>c>f>g
+b-rows>d>g
+b-trees>e>g
+g>h
+@7.86
+a=Find best split on a feature
+b?=Data size?
+c=Exact greedy: scan sorted values
+d=Approximate: weighted quantile sketch
+e=Histogram bins of candidate thresholds
+f=Accumulate gradient statistics per bin
+g=Evaluate split gain per bin boundary
+h!=Scalable split search
+a>b
+b-small>c>g
+b-large>d>e>f>g
+g>h
+@7.87
+a=Regularized objective
+b=Second-order Taylor expansion
+c=Gradient g_i and Hessian h_i per sample
+d=Loss approx = sum (g f + 1/2 h f^2) + Omega
+e=Omega = gamma T + 1/2 lambda sum w^2
+f=Optimal leaf weight w = -G / (H + lambda)
+g!=Closed-form tree structure score
+a>b>c>d>e>f>g
+@7.88
+a=Candidate split of a leaf
+b=Left sums G_L, H_L; right G_R, H_R
+c=Gain = 1/2 [G_L^2/(H_L + l) + G_R^2/(H_R + l) - G^2/(H + l)] - gamma
+d?=Gain positive?
+e=Accept the split
+f=Prune: gamma penalty exceeds gain
+g=Pick the best candidate
+h!=Principled split and prune rule
+a>b>c>d
+d-yes>e>g>h
+d-no>f>h
+@7.89
+a=Feature with missing values
+b=Learn a default direction per split
+c=Try sending missing left, compute gain
+d=Try sending missing right, compute gain
+e=Keep the better direction
+f=Only non-missing entries scanned
+g?=Sparse features?
+h=Faster by sparsity
+i!=Sparsity-aware splitting
+a>b>c>e
+b>d>e
+e>f>g
+g-yes>h>i
+g-no>i
+@7.90
+a=Samples with gradients
+b=Sort by absolute gradient
+c=Keep the top a fraction
+d=Sample b fraction of the rest
+e=Amplify the sampled small-gradient rows by (1 - a)/b
+f=Estimate gain on the reduced set
+g!=GOSS: speed without bias
+a>b>c>f
+b>d>e>f>g
+@7.91
+a=Sparse features rarely nonzero together
+b=Build conflict graph
+c=Greedy graph coloring into bundles
+d=Merge bundle features with offsets
+e?=Conflicts within tolerance?
+f=Fewer effective features
+g!=Exclusive feature bundling
+a>b>c>e
+e-yes>d>f>g
+e-no>c
+@7.92
+a=Grow a tree
+b?=Strategy?
+c=Depth-wise: split all leaves per level
+d=Leaf-wise: split the leaf with the largest gain
+e=Lower loss for the same number of leaves
+f?=Small data?
+g=Deeper, risk overfit: set num_leaves, min_data
+h!=Best-first growth
+a>b
+b-level>c>h
+b-best-first>d>e>f
+f-yes>g>h
+f-no>h
+@7.93
+a=Categorical data and boosting
+b=Symmetric oblivious tree: same split per level
+c=Index a leaf by bit pattern
+d=Fast, regularized predictions
+e=Ordered boosting with permutations
+f=Avoid target leakage
+g!=CatBoost design
+a>b>c>d>g
+a>e>f>g
+@7.94
+a=High-cardinality category
+b?=One-hot?
+c=Explodes dimensionality
+d=Target statistics per category
+e=Computed from preceding rows in a random permutation
+f=Prior smoothing
+g=Combinations of categorical features
+h!=Compact categorical encoding
+a>b
+b-yes>c>d
+b-no>d>e>f>g>h
+@7.95
+a=Base models
+b=Out-of-fold predictions
+c=Meta-features
+d=Meta-learner fits on them
+e?=Leakage avoided?
+f=Predict test with base models fit on all data
+g=Blending: single holdout instead
+h!=Stacked ensemble
+a>b>c>d>e
+e-yes>f>h
+e-no>b
+d>g>h
+@7.96
+a=Query point
+b=Compute distance to all training points
+c=Take the k nearest
+d?=Weighting?
+e=Majority vote
+f=Inverse distance weights
+g=Return class
+h!=kNN prediction
+a>b>c>d
+d-uniform>e>g>h
+d-weighted>f>g>h
+@7.97
+a=Query point x
+b=Find k nearest targets
+c?=Local model?
+d=Local constant: average of neighbors
+e=Local linear: weighted fit near x
+f=Reduces bias at the edges
+g=Kernel weights w(distance)
+h!=Nonparametric regression
+a>b>c
+c-constant>d>g>h
+c-linear>e>f>g>h
+@7.98
+a=Two vectors
+b?=Metric?
+c=Euclidean L2: straight line
+d=Manhattan L1: sum of absolute differences
+e=Minkowski Lp: general p
+f=Chebyshev: maximum coordinate gap
+g?=High dimension?
+h=Distances concentrate
+i!=Metric choice affects neighbors
+a>b
+b-l2>c>g
+b-l1>d>g
+b-p>e>g
+b-max>f>g
+g-yes>h>i
+g-no>i
+@7.99
+a=Vectors u and v
+b?=Compare how?
+c=Dot product: magnitude and direction
+d=Cosine distance: direction only
+e=Pearson distance: centered cosine
+f=Normalize vectors first
+g?=Magnitude meaningful?
+h=Use the dot product
+i=Use cosine or correlation
+j!=Match the metric to the semantics
+a>b
+b-dot>c>g
+b-angle>d>f>g
+b-centered>e>g
+g-yes>h>j
+g-no>i>j
+@7.100
+a=Features with different scales and correlations
+b=Covariance matrix S
+c=d(x, y) = sqrt((x - y)^T S^-1 (x - y))
+d=Whiten: S^-1/2 transform
+e=Equals Euclidean after whitening
+f=Invariant to linear transformations
+g?=Outlier detection?
+h=Large distance from the mean flags outliers
+i!=Covariance-aware distance
+a>b>c>d>e>f>g
+g-yes>h>i
+g-no>i

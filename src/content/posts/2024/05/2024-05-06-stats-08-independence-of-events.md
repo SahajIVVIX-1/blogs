@@ -51,18 +51,33 @@ To build intuitive geometric comprehension, the operational mechanics and struct
 
 ```mermaid
 flowchart TD
-    T(["THEORETICAL FOUNDATION: INDEPENDENCE OF EVENTS"]):::title
-    I(["Mathematical Measure Space (Ω, F, P)"]):::io
-    L["<b>Analytical Formulation</b><br/>• Probability Density / PMF<br/>• Parameter Vector θ ∈ Θ<br/>• Closed-form Derivation"]
-    R["<b>Empirical Space</b><br/>• Sample Realizations (x_1..x_N)<br/>• Sufficient Statistics T(X)<br/>• Monte Carlo Estimators"]
-    E["<b>Asymptotic Convergence #amp; Limits</b><br/>• Large Sample Consistency: n -#gt; ∞<br/>• Fisher Information #amp; Asymptotic Efficiency<br/>• Bounded Variance #amp; Asymptotic Normality"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
+    T(["Probability #amp; Statistics · Independence of Events: Pairwise Independence vs Mutual Independence Counterexamples"]):::title
+    a["Events A, B, C"]
+    b{"P(A n B) = P(A) P(B) for all pairs?"}
+    c["Pairwise independent"]
+    d{"P(A n B n C) = P(A) P(B) P(C)?"}
+    e["Mutually independent"]
+    f["Counterexample: two coin flips and XOR event"]
+    g["Pairwise holds, triple fails"]
+    h["Mutual implies pairwise, not the reverse"]
+    i(["Check every subcollection"])
+    T ~~~ a
+    a --> b
+    b -- "yes" --> c
+    c --> d
+    b -- "no" --> i
+    d -- "yes" --> e
+    e --> h
+    h --> i
+    d -- "no" --> f
+    f --> g
+    g --> h
+    class b,d dec
+    class i term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This conceptual blueprint highlights how abstract probability spaces project down into observable sample geometries, connecting theoretical expectation functionals with concrete sample statistics.

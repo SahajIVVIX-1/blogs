@@ -43,20 +43,41 @@ The structural flow, component relationships, and operational hierarchy of **Adv
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM TOPOLOGY: ADVANCED NUMERIC TYPES"]):::title
-    I(["Primary Input / Data Descriptor Space"]):::io
-    L["<b>Memory Layout #amp; Internal State</b><br/>• Contiguous Buffer / Cache Lines<br/>• Invariant Constraints #amp; Headers<br/>• Structural Hierarchy (O(1) Access)"]
-    R["<b>Algorithmic Control Flow</b><br/>• Transformation Kernel / Pipeline<br/>• Dispatch Table / Virtual Methods<br/>• Dynamic Resolution / Graph Routing"]
-    E["<b>Execution Pipeline #amp; Vectorization</b><br/>• Cache Locality Optimization (Spatial #amp; Temporal)<br/>• Bounded Asymptotic Complexity: O(n) Time, O(1) Space<br/>• Deterministic Memory Deallocation #amp; Lifecycle"]
-    O["<b>High-Throughput Production Serving</b><br/>• Zero-Copy Slicing / Shared References<br/>• Lock-Free Concurrency #amp; Thread Safety<br/>• Monitored Latency #amp; Error Resilience"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Python for AI #amp; Systems · Advanced Numeric Types: Floating Point Precision, Decimal, and Fraction Arithmetic"]):::title
+    a["Decimal literal 0.1"]
+    b["Stored as IEEE 754 binary64"]
+    c[("Sign, 11-bit exponent, 52-bit mantissa")]
+    d{"Exactly representable in binary?"}
+    e["Rounded to nearest double"]
+    f["Accumulated rounding error"]
+    g{"Need exact base-10 arithmetic?"}
+    h["decimal.Decimal with context precision"]
+    i{"Need exact rational numbers?"}
+    j["fractions.Fraction: numerator/denominator"]
+    k["math.isclose with tolerance"]
+    l(["Chosen numeric type"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c --> d
+    d -- "no" --> e
+    e --> f
+    d -- "yes" --> g
+    f --> g
+    g -- "yes" --> h
+    h --> l
+    g -- "no" --> i
+    i -- "yes" --> j
+    j --> l
+    i -- "no" --> k
+    k --> l
+    class d,g,i dec
+    class l term
+    class c store
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational blueprint illustrates how abstract abstractions map directly to physical hardware architectures, optimizing memory locality and instruction throughput.

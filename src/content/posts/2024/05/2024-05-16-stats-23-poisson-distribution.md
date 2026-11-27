@@ -51,18 +51,32 @@ To build intuitive geometric comprehension, the operational mechanics and struct
 
 ```mermaid
 flowchart TD
-    T(["THEORETICAL FOUNDATION: POISSON DISTRIBUTION"]):::title
-    I(["Mathematical Measure Space (Ω, F, P)"]):::io
-    L["<b>Analytical Formulation</b><br/>• Probability Density / PMF<br/>• Parameter Vector θ ∈ Θ<br/>• Closed-form Derivation"]
-    R["<b>Empirical Space</b><br/>• Sample Realizations (x_1..x_N)<br/>• Sufficient Statistics T(X)<br/>• Monte Carlo Estimators"]
-    E["<b>Asymptotic Convergence #amp; Limits</b><br/>• Large Sample Consistency: n -#gt; ∞<br/>• Fisher Information #amp; Asymptotic Efficiency<br/>• Bounded Variance #amp; Asymptotic Normality"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
+    T(["Probability #amp; Statistics · Poisson Distribution: Law of Rare Events, Poisson Limit Theorem, and PMF Derivation"]):::title
+    a["Binomial(n, p) with n large, p small"]
+    b["Keep lambda = n p fixed"]
+    c[["Limit n to infinity"]]
+    d["P(X = k) = e^-lambda lambda^k / k!"]
+    e["E[X] = Var(X) = lambda"]
+    f{"Events rare and independent?"}
+    g["Poisson law of rare events"]
+    h["Sum of Poissons is Poisson"]
+    i(["Count model for rare events"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c --> d
+    d --> e
+    e --> f
+    f -- "yes" --> g
+    g --> h
+    h --> i
+    f -- "no" --> i
+    class f dec
+    class i term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This conceptual blueprint highlights how abstract probability spaces project down into observable sample geometries, connecting theoretical expectation functionals with concrete sample statistics.

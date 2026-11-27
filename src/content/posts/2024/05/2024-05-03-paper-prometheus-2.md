@@ -72,18 +72,36 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["DEEP AUTOREGRESSIVE REASONING PIPELINE"]):::title
-    X(["Input Token Sequence x_{1:t}"]):::io --> N["Rotary Positional Encoding (RoPE) #amp; RMSNorm"]
-    N --> G["<b>Grouped-Query Attention Block (GQA)</b><br/>Q = x * W_q, K = x * W_k (shared), V = x * W_v (shared)"]
-    G --> S["SwiGLU Feed-Forward Network: (xW_gate * swish(xW_up)) * W_down"]
-    S --> R["Residual Accumulator #amp; Pre-Layer Normalization"]
-    R --> H1(["Direct Next-Token Logits"])
-    R --> H2(["Implicit Reward Head"])
-    H1 --> P1["Temperature-Scaled Top-p Sampling"]
-    H2 --> P2["Alignment Loss Check"]
-    T ~~~ X
+    T(["Prometheus 2: An Open Source Language Model Specialized in Evaluating Other Language Models"]):::title
+    n4[["Introduce Prometheus 2, a more powerful evaluator LM than its predecessor that closely mirrors human…"]]
+    n5["It is capable of processing both direct assessment and pair-wise ranking formats grouped with a…"]
+    n6[/"Evaluated against baselines"/]
+    n7{"Holds on the benchmarks?"}
+    n8["On four direct assessment benchmarks and four pairwise ranking benchmarks, Prometheus 2 scores the highest…"]
+    n9(["However, concerns including transparency, controllability, and affordability strongly…"])
+    n10["Area: llm · pretraining · instruction-tuning · nlp"]
+    subgraph G0["Problem and gap"]
+        n1["Proprietary LMs such as GPT-4 are often employed to assess the quality of responses from various LMs"]
+        n2["On the other hand, existing open evaluator LMs exhibit critical shortcomings: 1) they issue scores that…"]
+        n3["They do not possess the ability to evaluate based on custom evaluation criteria, focusing instead on…"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n4 --> n5
+    n5 --> n6
+    n6 --> n7
+    n7 -- "yes" --> n8
+    n8 --> n9
+    n7 -- "no" --> n9
+    n10 --> n4
+    class n7 dec
+    class n9 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

@@ -43,20 +43,38 @@ The structural flow, component relationships, and operational hierarchy of **Ite
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM TOPOLOGY: ITERATORS #amp; THE ITERATION PROTOCOL"]):::title
-    I(["Primary Input / Data Descriptor Space"]):::io
-    L["<b>Memory Layout #amp; Internal State</b><br/>• Contiguous Buffer / Cache Lines<br/>• Invariant Constraints #amp; Headers<br/>• Structural Hierarchy (O(1) Access)"]
-    R["<b>Algorithmic Control Flow</b><br/>• Transformation Kernel / Pipeline<br/>• Dispatch Table / Virtual Methods<br/>• Dynamic Resolution / Graph Routing"]
-    E["<b>Execution Pipeline #amp; Vectorization</b><br/>• Cache Locality Optimization (Spatial #amp; Temporal)<br/>• Bounded Asymptotic Complexity: O(n) Time, O(1) Space<br/>• Deterministic Memory Deallocation #amp; Lifecycle"]
-    O["<b>High-Throughput Production Serving</b><br/>• Zero-Copy Slicing / Shared References<br/>• Lock-Free Concurrency #amp; Thread Safety<br/>• Monitored Latency #amp; Error Resilience"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Python for AI #amp; Systems · Iterators #amp; The Iteration Protocol: __iter__ and __next__ Under the Hood"]):::title
+    a["for x in iterable"]
+    b["iter(obj) calls __iter__"]
+    c{"Object returns itself as iterator?"}
+    d["Iterator holds position state"]
+    e["next(it) calls __next__"]
+    f{"StopIteration raised?"}
+    g["Bind value to x, run loop body"]
+    h["Loop ends cleanly"]
+    i{"Only __getitem__ defined?"}
+    j["Legacy sequence protocol with index 0, 1, 2"]
+    k(["Iteration complete"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c -- "yes" --> d
+    c -- "no" --> i
+    i -- "yes" --> j
+    j --> d
+    i -- "no" --> k
+    d --> e
+    e --> f
+    f -- "no" --> g
+    g --> e
+    f -- "yes" --> h
+    h --> k
+    class c,f,i dec
+    class k term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational blueprint illustrates how abstract abstractions map directly to physical hardware architectures, optimizing memory locality and instruction throughput.

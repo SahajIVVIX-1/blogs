@@ -43,20 +43,41 @@ The structural flow, component relationships, and operational hierarchy of **Dat
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM TOPOLOGY: DATA TYPES (DTYPES)"]):::title
-    I(["Primary Input / Data Descriptor Space"]):::io
-    L["<b>Memory Layout #amp; Internal State</b><br/>• Contiguous Buffer / Cache Lines<br/>• Invariant Constraints #amp; Headers<br/>• Structural Hierarchy (O(1) Access)"]
-    R["<b>Algorithmic Control Flow</b><br/>• Transformation Kernel / Pipeline<br/>• Dispatch Table / Virtual Methods<br/>• Dynamic Resolution / Graph Routing"]
-    E["<b>Execution Pipeline #amp; Vectorization</b><br/>• Cache Locality Optimization (Spatial #amp; Temporal)<br/>• Bounded Asymptotic Complexity: O(n) Time, O(1) Space<br/>• Deterministic Memory Deallocation #amp; Lifecycle"]
-    O["<b>High-Throughput Production Serving</b><br/>• Zero-Copy Slicing / Shared References<br/>• Lock-Free Concurrency #amp; Thread Safety<br/>• Monitored Latency #amp; Error Resilience"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["NumPy #amp; Numerical Computing · Data Types (dtypes): Primitive Encoding, Precision Limits, and Endianness"]):::title
+    a["Array dtype chosen"]
+    b{"Kind of data?"}
+    c["int8..int64 / uint: two's complement"]
+    d["float16, 32, 64: IEEE 754"]
+    e["bool: one byte"]
+    f{"Value exceeds range?"}
+    g["Silent overflow wraps around"]
+    h["Precision loss on float rounding"]
+    i{"Reading binary from another machine?"}
+    j["Set byte order with #lt; or #gt; prefix"]
+    k["astype converts with a copy"]
+    l(["Dtype matches data and platform"])
+    T ~~~ a
+    a --> b
+    b -- "integer" --> c
+    c --> f
+    b -- "float" --> d
+    d --> h
+    b -- "bool" --> e
+    e --> l
+    f -- "yes" --> g
+    g --> k
+    h --> k
+    f -- "no" --> i
+    i -- "yes" --> j
+    j --> l
+    i -- "no" --> l
+    k --> l
+    class b,f,i dec
+    class l term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational blueprint illustrates how abstract abstractions map directly to physical hardware architectures, optimizing memory locality and instruction throughput.

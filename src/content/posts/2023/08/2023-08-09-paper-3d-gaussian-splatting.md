@@ -77,18 +77,39 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["DEEP AUTOREGRESSIVE REASONING PIPELINE"]):::title
-    X(["Input Token Sequence x_{1:t}"]):::io --> N["Rotary Positional Encoding (RoPE) #amp; RMSNorm"]
-    N --> G["<b>Grouped-Query Attention Block (GQA)</b><br/>Q = x * W_q, K = x * W_k (shared), V = x * W_v (shared)"]
-    G --> S["SwiGLU Feed-Forward Network: (xW_gate * swish(xW_up)) * W_down"]
-    S --> R["Residual Accumulator #amp; Pre-Layer Normalization"]
-    R --> H1(["Direct Next-Token Logits"])
-    R --> H2(["Implicit Reward Head"])
-    H1 --> P1["Temperature-Scaled Top-p Sampling"]
-    H2 --> P2["Alignment Loss Check"]
-    T ~~~ X
+    T(["3D Gaussian Splatting for Real-Time Radiance Field Rendering"]):::title
+    n4[["Introduce three key elements that allow us to achieve state-of-the-art visual quality while…"]]
+    n5[/"Evaluated against baselines"/]
+    n6{"Beats strong baselines?"}
+    n9(["Code released with the paper"])
+    n10["Area: computer-vision · representation-learning · scene-understanding · deep-learning"]
+    subgraph G0["Problem and gap"]
+        n1["Radiance Field methods have recently revolutionized novel-view synthesis of scenes captured with multiple…"]
+        n2["However, achieving high visual quality still requires neural networks that are costly to train and render"]
+        n3["Recent faster methods inevitably trade off speed for quality"]
+    end
+    subgraph G1["Evidence"]
+        n7["First, starting from sparse points produced during camera calibration, we represent the scene with 3D…"]
+        n8["Demonstrate state-of-the-art visual quality and real-time rendering on several established datasets"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n4 --> n5
+    n1 --> n5
+    n5 --> n6
+    n6 -- "yes" --> n7
+    n6 -- "yes" --> n8
+    n6 -- "no" --> n1
+    n8 --> n9
+    n10 --> n4
+    class n6 dec
+    class n9 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

@@ -72,18 +72,52 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["DEEP AUTOREGRESSIVE REASONING PIPELINE"]):::title
-    X(["Input Token Sequence x_{1:t}"]):::io --> N["Rotary Positional Encoding (RoPE) #amp; RMSNorm"]
-    N --> G["<b>Grouped-Query Attention Block (GQA)</b><br/>Q = x * W_q, K = x * W_k (shared), V = x * W_v (shared)"]
-    G --> S["SwiGLU Feed-Forward Network: (xW_gate * swish(xW_up)) * W_down"]
-    S --> R["Residual Accumulator #amp; Pre-Layer Normalization"]
-    R --> H1(["Direct Next-Token Logits"])
-    R --> H2(["Implicit Reward Head"])
-    H1 --> P1["Temperature-Scaled Top-p Sampling"]
-    H2 --> P2["Alignment Loss Check"]
-    T ~~~ X
+    T(["Jamba: A Hybrid Transformer-Mamba Language Model"]):::title
+    n1[["Present Jamba, a new base large language model based on a novel hybrid Transformer-Mamba…"]]
+    n2["Study various architectural decisions, such as how to combine Transformer and Mamba layers, and how to mix…"]
+    n8[/"Evaluated against baselines"/]
+    n9{"Better than prior methods?"}
+    n12{{"Reported: 256K"}}
+    n13(["Make the weights of our implementation of Jamba publicly available under a permissive…"])
+    n14["Area: efficiency · quantization · inference-acceleration · llm-systems"]
+    subgraph G0["How it works"]
+        n3["Jamba interleaves blocks of Transformer and Mamba layers, enjoying the benefits of both model families"]
+        n4["This flexible architecture allows resource- and objective-specific configurations"]
+        n5["In the particular configuration we have implemented, we end up with a powerful model that fits in a single…"]
+        n6["Remarkably, the model presents strong results for up to 256K tokens context length"]
+        n7["Describe several interesting properties of these architectures which the training and evaluation of Jamba…"]
+    end
+    subgraph G1["Evidence"]
+        n10["MoE is added in some of these layers to increase model capacity while keeping active parameter usage…"]
+        n11["Built at large scale, Jamba provides high throughput and small memory footprint compared to vanilla…"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n1 --> n3
+    n1 --> n4
+    n1 --> n5
+    n1 --> n6
+    n1 --> n7
+    n3 --> n8
+    n4 --> n8
+    n5 --> n8
+    n6 --> n8
+    n7 --> n8
+    n2 --> n8
+    n8 --> n9
+    n9 -- "yes" --> n10
+    n9 -- "yes" --> n11
+    n9 -- "no" --> n1
+    n12 --> n13
+    n10 --> n12
+    n11 --> n12
+    n14 --> n1
+    class n9 dec
+    class n13 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

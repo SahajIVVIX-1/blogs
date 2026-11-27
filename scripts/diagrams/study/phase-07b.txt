@@ -1,0 +1,1188 @@
+@7.101
+a=Points in dimension d
+b=Pairwise distances computed
+c?=Dimension large?
+d=Distances concentrate: max/min ratio tends to 1
+e=Nearest neighbor barely nearer than farthest
+f=Space mostly empty: data sparse
+g=Need exponential data to cover it
+h=Reduce dimension or learn a metric
+i!=Distance methods degrade
+a>b>c
+c-yes>d>e>f>g>h>i
+c-no>i
+@7.102
+a=Build: choose axis by largest spread
+b=Split at the median
+c=Recurse until small leaves
+d$=Binary tree of axis-aligned cells
+e=Query: descend to the cell of q
+f=Backtrack: check other branch
+g?=Splitting plane closer than best distance?
+h=Search the sibling subtree
+i=Prune it
+j!=About O(log N) nearest neighbor in low d
+a>b>c>d>e>f>g
+g-yes>h>f
+g-no>i>j
+@7.103
+a=Points in metric space
+b=Pick a center and radius
+c=Hypersphere contains a subset
+d$=Nested balls tree
+e=Query distance to a ball center
+f?=dist - radius > best so far?
+g=Skip the whole ball
+h=Descend into children
+i!=Works better than KD-tree in higher d
+a>b>c>d>e>f
+f-yes>g>i
+f-no>h>f
+@7.104
+a=High-dimensional vectors
+b=Random hash h(x) = sign(r . x)
+c=Concatenate k bits per table
+d=L tables
+e?=Query collides with a point in some table?
+f=Candidate set
+g=Rerank candidates by exact distance
+h=Collision probability rises with similarity
+i!=Sublinear approximate neighbors
+a>b>c>d>e
+e-yes>f>g>i
+e-no>d
+b>h
+@7.105
+a=Insert vector
+b=Random top layer by exponential distribution
+c=Greedy search from the entry point
+d=Connect to M nearest at each layer
+e$=Layered proximity graph
+f=Query: start at top, hop greedily
+g?=Closer neighbor exists?
+h=Move to it
+i=Drop to the next layer
+j!=Log-scale vector search
+a>b>c>d>e
+e>f>g
+g-yes>h>g
+g-no>i>j
+@7.106
+a=Vectors
+b=Pick two random points, split by the hyperplane between them
+c=Recurse to leaves of size K
+d$=One tree
+e=Build a forest of trees
+f=Query descends each tree
+g=Merge candidate leaves
+h=Rank by true distance
+i!=Fast memory-mapped ANN
+a>b>c>d>e>f>g>h>i
+@7.107
+a=Labeled data
+b=Target neighbors from the same class
+c=Impostors from other classes
+d=Learn linear map L
+e=Pull targets close, push impostors beyond a margin
+f=Hinge penalty on violations
+g=Convex in M = L^T L
+h!=Metric tuned for kNN
+a>b>d
+a>c>d
+d>e>f>g>h
+@7.108
+a=Linear map A
+b=Soft neighbor probabilities p_ij = softmax(-||Ax_i - Ax_j||^2)
+c=Probability point i is classified correctly
+d=Maximize expected correct count
+e=Gradient ascent on A
+f?=Low-rank A?
+g=Supervised dimensionality reduction
+h!=Learned metric
+a>b>c>d>e>f
+f-yes>g>h
+f-no>h
+@7.109
+a=1-NN decision rule
+b=Each point owns a Voronoi cell
+c=Boundary edges between differently labeled cells
+d=Delaunay triangulation is the dual graph
+e?=Noisy labels?
+f=Jagged boundary
+g=Larger k smooths it
+h!=Piecewise-linear boundary
+a>b>c>d>e
+e-yes>f>g>h
+e-no>h
+@7.110
+a=kNN in production
+b?=Problem?
+c=Features unscaled: large ranges dominate
+d=Store all training data
+e=Prediction scans all points
+f=Standardize features
+g=Use KD-tree or ANN index
+h=Latency within budget
+i!=Fixed kNN pitfalls
+a>b
+b-scale>c>f>h
+b-memory>d>g>h
+b-latency>e>g>h
+h>i
+@7.111
+a=Unlabeled data
+b?=Cluster notion?
+c=Partitioning: k-means, centers
+d=Density: DBSCAN, dense regions
+e=Hierarchical: dendrogram
+f?=Know number of clusters?
+g=Use partitioning
+h=Use density or hierarchy
+i!=Algorithm matches structure
+a>b
+b-centroid>c>f
+b-dense>d>f
+b-nested>e>f
+f-yes>g>i
+f-no>h>i
+@7.112
+a=Choose k clusters
+b=Objective: sum over clusters of squared distances to centroid
+c=WCSS = sum ||x - mu_c||^2
+d?=Exact optimum?
+e=NP-hard in general
+f=Heuristic: Lloyd's algorithm
+g=Total variance = within + between
+h!=Compact spherical clusters
+a>b>c>d
+d-exact>e>f>g>h
+@7.113
+a=Initial centroids
+b=Assignment: nearest centroid
+c=Update: mean of each cluster
+d?=Assignments changed?
+e=Repeat
+f!=Converged clustering
+a>b>c>d
+d-yes>e>b
+d-no>f
+@7.114
+a=Each iteration
+b=Assignment lowers WCSS
+c=Mean update lowers WCSS
+d=Objective monotonically non-increasing
+e=Finite number of partitions
+f=Terminates
+g?=Global optimum?
+h=Local minimum depends on start
+i=Run several restarts
+j!=Convergence guaranteed, optimality not
+a>b>c>d>e>f>g
+g-no>h>i>j
+@7.115
+a=Choose the first center uniformly
+b=Compute D(x)^2 to nearest chosen center
+c=Pick next center with probability proportional to D^2
+d?=k centers chosen?
+e=Run Lloyd from these seeds
+f=Expected cost O(log k) times optimal
+g!=Spread-out initialization
+a>b>c>d
+d-no>b
+d-yes>e>f>g
+@7.116
+a=Run k-means for k = 1..K
+b=Record inertia (WCSS)
+c=Plot inertia vs k
+d?=Sharp bend (elbow)?
+e=Pick k at the bend
+f=Ambiguous curve
+g=Add silhouette or gap statistic
+h!=Chosen k
+a>b>c>d
+d-yes>e>h
+d-no>f>g>h
+@7.117
+a=Point i
+b=a(i) mean distance within its cluster
+c=b(i) mean distance to the nearest other cluster
+d=s(i) = (b - a) / max(a, b)
+e?=s near 1?
+f=Well clustered
+g?=s near 0 or negative?
+h=Boundary or misassigned
+i!=Average silhouette per clustering
+a>b>d
+a>c>d
+d>e
+e-yes>f>i
+e-no>g
+g-yes>h>i
+@7.118
+a=Cluster assignments, no labels
+b=Davies-Bouldin: mean worst ratio of scatter to separation
+c=Lower is better
+d=Calinski-Harabasz: between over within variance
+e=Higher is better
+f=Compare across k
+g!=Internal validity indices
+a>b>c>f
+a>d>e>f>g
+@7.119
+a=Cluster centers must be data points
+b=Cost = sum of distances to medoids
+c@=PAM: swap medoid and non-medoid
+d?=Swap lowers cost?
+e=Accept swap
+f=Reject
+g?=No improving swap left?
+h=Robust to outliers via L1
+i!=K-medoids
+a>b>c>d
+d-yes>e>g
+d-no>f>g
+g-no>c
+g-yes>h>i
+@7.120
+a=Stream of mini-batches
+b=Assign batch points to nearest centers
+c=Per-center count n_c
+d=Update center with learning rate 1 / n_c
+e?=Centers stable?
+f=Next batch
+g!=Web-scale k-means
+a>b>c>d>e
+e-no>f>b
+e-yes>g
+@7.121
+a=n points as n clusters
+b=Distance matrix
+c=Merge the closest two clusters
+d=Update distances to the new cluster
+e?=One cluster left?
+f=Dendrogram of merge heights
+g=Cut the tree at a height
+h!=Hierarchical clustering
+a>b>c>d>e
+e-no>c
+e-yes>f>g>h
+@7.122
+a=Choose linkage
+b?=Distance between clusters?
+c=Single: minimum pairwise
+d=Chaining effect, long snakes
+e=Complete: maximum pairwise
+f=Compact balanced clusters
+g=Average: mean pairwise
+h!=Linkage matches expected shapes
+a>b
+b-min>c>d>h
+b-max>e>f>h
+b-mean>g>h
+@7.123
+a=Candidate merge A and B
+b=Increase in total within-cluster variance
+c=Delta = nA nB / (nA + nB) ||mu_A - mu_B||^2
+d=Merge with the smallest increase
+e=Equivalent to greedy k-means objective
+f=Prefers equal-size spherical clusters
+g!=Ward linkage
+a>b>c>d>e>f>g
+@7.124
+a=Point p
+b?=At least MinPts neighbors within eps?
+c=Core point
+d=Expand cluster by density reachability
+e?=Within eps of a core point?
+f=Border point
+g=Noise
+h!=Arbitrary-shaped clusters
+a>b
+b-yes>c>d>h
+b-no>e
+e-yes>f>h
+e-no>g>h
+@7.125
+a=Choose MinPts about 2 x dimensions
+b=Compute k-distance for every point
+c=Sort descending
+d=Plot the k-distance graph
+e?=Visible knee?
+f=eps at the knee
+g=Try several values
+h!=Tuned DBSCAN
+a>b>c>d>e
+e-yes>f>h
+e-no>g>h
+@7.126
+a=Points and eps_max
+b=Process points by reachability order
+c=Core distance and reachability distance
+d=Output ordering
+e$=Reachability plot
+f=Valleys are clusters
+g=Extract clusters at any eps
+h!=Varying-density structure
+a>b>c>d>e>f>g>h
+@7.127
+a=Mutual reachability distance
+b=Minimum spanning tree
+c=Condensed cluster hierarchy
+d=Cluster stability: excess of mass
+e?=Child clusters more stable than parent?
+f=Keep children
+g=Keep parent
+h!=Flat clustering with noise
+a>b>c>d>e
+e-yes>f>h
+e-no>g>h
+@7.128
+a=Similarity graph W
+b=Degree matrix D
+c?=Laplacian type?
+d=Unnormalized L = D - W
+e=Normalized random walk L_rw = I - D^-1 W
+f=Symmetric L_sym = I - D^-1/2 W D^-1/2
+g=Smallest eigenvectors
+h=k-means on the embedding
+i!=Spectral clustering
+a>b>c
+c-un>d>g
+c-rw>e>g
+c-sym>f>g
+g>h>i
+@7.129
+a=Graph with weights
+b=Cut(A, B) sum of crossing edges
+c?=Balanced objective?
+d=RatioCut: divide by |A|, |B|
+e=NCut: divide by volumes
+f=Relax to a continuous problem
+g=Fiedler vector: second smallest eigenvector
+h=Split by its sign
+i!=Graph partition
+a>b>c
+c-size>d>f
+c-volume>e>f
+f>g>h>i
+@7.130
+a=Samples x features matrix
+b=Bipartite graph of rows and columns
+c=SVD of normalized matrix
+d=Embed rows and columns together
+e=k-means on the joint embedding
+f=Blocks of samples with feature subsets
+g!=Co-clustering
+a>b>c>d>e>f>g
+@7.131
+a=Need fewer dimensions
+b?=Supervised labels available?
+c=Supervised: LDA
+d?=Linear structure?
+e=Linear: PCA, factor analysis
+f=Nonlinear manifold: Isomap, t-SNE, UMAP
+g=Choose to preserve variance, distances, or neighbors
+h!=Method matches goal
+a>b
+b-yes>c>g
+b-no>d
+d-yes>e>g
+d-no>f>g
+g>h
+@7.132
+a=Centered data X
+b=Find unit direction w
+c=Maximize Var(Xw)
+d=First principal component
+e=Next components orthogonal to previous
+f=Project onto top k
+g!=Variance-preserving subspace
+a>b>c>d>e>f>g
+@7.133
+a=Covariance C = X^T X / (n - 1)
+b=Maximize w^T C w subject to w^T w = 1
+c=Lagrangian: C w = lambda w
+d=Eigenvectors are components
+e=Eigenvalues are explained variances
+f=Sort descending
+g!=PCA from eigendecomposition
+a>b>c>d>e>f>g
+@7.134
+a=Centered X
+b@=SVD X = U S V^T
+c=Components = columns of V
+d=Variances = s^2 / (n - 1)
+e=Scores = U S
+f?=Tall matrix?
+g=Never form X^T X: avoids squaring the condition number
+h!=Stable PCA
+a>b>c>d>e>f
+f-yes>g>h
+f-no>h
+@7.135
+a=Project then reconstruct x_hat = W W^T x
+b=Error ||x - x_hat||^2
+c=Minimizing error = maximizing projected variance
+d=Equal because total variance is fixed
+e!=Two views, one solution
+a>b>c>d>e
+@7.136
+a=Eigenvalues of all components
+b?=Rule?
+c=Scree plot: look for the elbow
+d=Kaiser: keep eigenvalue above 1
+e=Cumulative variance reaches 90 to 95 percent
+f=Cross-validate reconstruction
+g!=Chosen number of components
+a>b
+b-visual>c>g
+b-rule>d>g
+b-threshold>e>g
+b-predictive>f>g
+@7.137
+a=Nonlinear structure
+b=Kernel matrix K
+c=Center K in feature space
+d=Eigendecompose K
+e=Scale eigenvectors by 1 / sqrt(lambda)
+f=Project new points via kernel evaluations
+g!=Nonlinear PCA without explicit features
+a>b>c>d>e>f>g
+@7.138
+a=Data in mini-batches
+b=Keep running mean and SVD
+c=Stack current components with the new batch
+d=Truncated SVD
+e?=More batches?
+f!=Out-of-core PCA
+a>b>c>d>e
+e-yes>c
+e-no>f
+@7.139
+a=Dense loadings are hard to read
+b=Add L1 penalty on components
+c=Alternate: fit scores, then soft-threshold loadings
+d=Many loadings exactly zero
+e=Interpretable component with few features
+f=Trade explained variance for sparsity
+g!=Sparse PCA
+a>b>c>d>e>f>g
+@7.140
+a=Observed x = L f + e
+b=Latent common factors f
+c=Unique variances Psi
+d=Covariance = L L^T + Psi
+e=Maximum likelihood via EM
+f=Rotate loadings (varimax) for interpretability
+g!=Latent factor model
+a>b>d
+a>c>d
+d>e>f>g
+@7.141
+a=Observed mixtures x = A s
+b=Independent non-Gaussian sources s
+c?=Sources Gaussian?
+d=Not identifiable
+e=Maximize non-Gaussianity: kurtosis or negentropy
+f=Unmixing W approximates A^-1
+g!=Blind source separation
+a>b>c
+c-yes>d
+c-no>e>f>g
+@7.142
+a=Whiten the data
+b=Random initial w
+c=Fixed-point update w = E[x g(w.x)] - E[g'(w.x)] w
+d=Normalize w
+e=Decorrelate from earlier components
+f?=Converged?
+g!=Independent components
+a>b>c>d>e>f
+f-no>c
+f-yes>g
+@7.143
+a=Pairwise distance matrix
+b?=Variant?
+c=Classical: double-center, eigendecompose
+d=Coordinates from top eigenvectors
+e=Non-metric: preserve rank order
+f=Minimize stress iteratively
+g!=Distance-preserving map
+a>b
+b-metric>c>d>g
+b-rank>e>f>g
+@7.144
+a=k-nearest-neighbor graph
+b=Edge weights = Euclidean distance
+c=Shortest paths approximate geodesics
+d=Geodesic distance matrix
+e@=Classical MDS
+f=Unrolled manifold coordinates
+g?=Graph disconnected?
+h=Increase k
+i!=Isomap embedding
+a>b>c>d>e>f>g
+g-yes>h>a
+g-no>i
+@7.145
+a=Each point and its neighbors
+b=Reconstruction weights W from neighbors
+c=Minimize ||x_i - sum w_ij x_j||^2, rows sum to 1
+d=Fixed weights, find low-d y
+e=Eigenvectors of (I - W)^T (I - W)
+f=Local geometry preserved
+g!=LLE embedding
+a>b>c>d>e>f>g
+@7.146
+a=High-dimensional points
+b=Gaussian affinity p(j|i) with perplexity-tuned sigma_i
+c=Symmetrize p_ij
+d=Binary search sigma for target perplexity
+e!=Neighbor probabilities in high-d
+a>d>b>c>e
+@7.147
+a=Low-dimensional points y
+b=Student-t affinities q_ij with 1 dof
+c=Heavy tails push moderate-distance points apart
+d=Mitigates the crowding problem
+e=Cost KL(P || Q)
+f!=Embedding objective
+a>b>c>d>e>f
+@7.148
+a=Gradient dC/dy_i = 4 sum (p_ij - q_ij)(y_i - y_j)(1 + ||y_i - y_j||^2)^-1
+b=Early exaggeration multiplies P
+c=Momentum gradient descent
+d?=Perplexity?
+e=Low: local structure
+f=High: more global structure
+g?=Clusters formed?
+h!=t-SNE map
+a>b>c>d
+d-low>e>g
+d-high>f>g
+g-no>c
+g-yes>h
+@7.149
+a=Local fuzzy simplicial set from kNN graph
+b=Local metric via adaptive sigma
+c=Fuzzy union symmetrizes
+d=Low-dimensional fuzzy set
+e=Cross-entropy between the two
+f=SGD with negative sampling
+g!=UMAP layout
+a>b>c>d>e>f>g
+@7.150
+a=Compare embeddings
+b?=Method?
+c=t-SNE: local clusters, global layout arbitrary
+d=UMAP: better global structure
+e=UMAP faster on large data
+f?=Reproducible runs?
+g=Both depend on seeds
+h!=Pick by purpose
+a>b
+b-tsne>c>f
+b-umap>d>e>f
+f>g>h
+@7.151
+a=Data with gaps
+b?=Why missing?
+c=MCAR: independent of everything
+d=MAR: depends on observed values
+e=MNAR: depends on the missing value
+f=Listwise deletion is unbiased
+g=Model-based imputation works
+h=Needs a model of missingness
+i!=Mechanism sets the method
+a>b
+b-random>c>f>i
+b-observed>d>g>i
+b-itself>e>h>i
+@7.152
+a=Columns with missing values
+b=Fill with initial guesses
+c=For each column fit a model on the others
+d=Impute from the model
+e?=Cycles complete?
+f=Repeat m times for multiple imputations
+g!=MICE
+a>b>c>d>e
+e-no>c
+e-yes>f>g
+@7.153
+a=Row with missing feature
+b=Distance on observed features
+c=Find k nearest complete rows
+d=Weighted average of neighbors' values
+e?=Large dataset?
+f=Quadratic cost: use ANN
+g!=KNN imputation
+a>b>c>d>e
+e-yes>f>g
+e-no>g
+@7.154
+a=Categorical feature with K levels
+b=One-hot: K binary columns
+c?=Linear model with intercept?
+d=Dummy variable trap: columns sum to 1
+e=Drop one level
+f?=High cardinality?
+g=Sparse matrix storage
+h!=Encoded categories
+a>b>c
+c-yes>d>e>f
+c-no>f
+f-yes>g>h
+f-no>h
+@7.155
+a=Category values
+b?=Natural order?
+c=Ordinal: map to ranks
+d=Imposes distances
+e=Frequency encoding: count of occurrences
+f=Leaks popularity, loses identity
+g!=Compact numeric codes
+a>b
+b-yes>c>d>g
+b-no>e>f>g
+@7.156
+a=Category c
+b=Replace by mean target of c
+c=Strong feature for trees and linear models
+d?=Rare category?
+e=Mean from few rows: overfit
+f=Training rows see their own label
+g=Leakage inflates validation
+h!=Needs regularization
+a>b>c>d
+d-yes>e>f>g>h
+d-no>h
+@7.157
+a=Encode category with smoothing
+b=m-estimate: (n mean_c + m prior) / (n + m)
+c=Shrinks rare categories to the global mean
+d=K-fold out-of-fold: each row encoded without its own fold
+e=Fit on train folds only
+f!=Leak-free target encoding
+a>b>c>f
+a>d>e>f
+@7.158
+a=Rows in a random permutation
+b=Statistic for row i uses only rows before i
+c=Online target statistic with prior
+d=Several permutations
+e=No label of the row itself used
+f!=Ordered target statistics
+a>b>c>d>e>f
+@7.159
+a=Numeric feature
+b?=Scaler?
+c=Standard: (x - mean) / std
+d=MinMax: (x - min) / (max - min)
+e=Robust: (x - median) / IQR
+f?=Outliers present?
+g=Robust or clip first
+h=Fit on train, transform test
+i!=Comparable scales
+a>b
+b-gaussian>c>f
+b-bounded>d>f
+b-quantile>e>f
+f-yes>g>h>i
+f-no>h>i
+@7.160
+a=Positive skewed feature
+b=Box-Cox: (x^l - 1) / l, log at l = 0
+c=Choose l by maximum likelihood
+d=More Gaussian shape
+e?=Zeros or negatives?
+f=Not allowed
+g=Use Yeo-Johnson
+h!=Variance-stabilized feature
+a>b>c>d>e
+e-yes>f>g>h
+e-no>h
+@7.161
+a=Feature with negatives and zeros
+b=Piecewise power transform
+c=Different formulas for x >= 0 and x < 0
+d=Lambda by maximum likelihood
+e=Symmetrizes the distribution
+f!=Yeo-Johnson
+a>b>c>d>e>f
+@7.162
+a=Feature distribution
+b=Estimate the empirical CDF
+c?=Target distribution?
+d=Uniform: rank-based
+e=Gaussian: apply inverse normal CDF
+f=Monotone, robust to outliers
+g=Distorts linear relations
+h!=Quantile-normalized feature
+a>b>c
+c-uniform>d>f
+c-normal>e>f
+f>g>h
+@7.163
+a=Continuous feature
+b?=Binning?
+c=Equal-width bins
+d=Equal-frequency quantile bins
+e=Tree discretizer: supervised splits
+f=Piecewise-constant effect
+g?=Bins too many?
+h=Merge sparse bins
+i!=Discrete feature
+a>b
+b-width>c>f
+b-quantile>d>f
+b-tree>e>f
+f>g
+g-yes>h>i
+g-no>i
+@7.164
+a=Base features
+b=Polynomial combinations
+c=Multiplicative interactions
+d=Ratio indicators
+e?=Feature count exploded?
+f=Select with L1 or trees
+g!=Interaction features
+a>b>e
+a>c>e
+a>d>e
+e-yes>f>g
+e-no>g
+@7.165
+a=Text documents
+b=Tokenize
+c=Bag-of-words counts
+d=n-grams capture local order
+e?=Vocabulary huge?
+f=HashingVectorizer: hash tokens into fixed buckets
+g=Collisions tolerated
+h!=Sparse matrix
+a>b>c>d>e
+e-yes>f>g>h
+e-no>h
+@7.166
+a=Term counts tf
+b=idf = log(N / df)
+c=tf x idf downweights common words
+d=Sublinear tf: 1 + log tf
+e=L2-normalize rows
+f!=TF-IDF vectors
+a>b>c>d>e>f
+@7.167
+a=Features and target
+b?=Filter score?
+c=Pearson: linear dependence
+d=Mutual information: any dependence
+e=KSG kNN estimator for continuous data
+f=Rank features, keep top k
+g!=Univariate selection
+a>b
+b-linear>c>f
+b-any>d>e>f
+f>g
+@7.168
+a=Full feature set
+b=Fit model
+c=Rank features by coefficient or importance
+d=Drop the weakest
+e?=Target size reached?
+f=Selected subset
+g=Sequential selection adds the best feature each step
+a>b>c>d>e
+e-no>b
+e-yes>f
+b>g
+@7.169
+a=L1 penalized model
+b=Coefficient path over lambda
+c=Features enter as lambda decreases
+d=Stability selection: refit on subsamples
+e=Keep features selected often
+f!=Embedded selection
+a>b>c>d>e>f
+@7.170
+a=Original features
+b=Create shadow copies, permute values
+c=Train random forest
+d=Compare importance with the max shadow importance
+e?=Feature beats shadows significantly?
+f=Confirmed
+g=Rejected
+h!=All-relevant set
+a>b>c>d>e
+e-yes>f>h
+e-no>g>h
+@7.171
+a=Predictions and truth
+b=True positives
+c=False positives
+d=True negatives
+e=False negatives
+f=2x2 table
+g=Derive accuracy, precision, recall
+h!=Confusion matrix
+a>b>f
+a>c>f
+a>d>f
+a>e>f
+f>g>h
+@7.172
+a=TP, FP, FN
+b=Precision = TP / (TP + FP)
+c=Recall = TP / (TP + FN)
+d=F-beta weights recall beta times more
+e?=Missing positives costlier?
+f=beta above 1
+g=beta below 1 favors precision
+h!=Threshold trade-off
+a>b>d
+a>c>d
+d>e
+e-yes>f>h
+e-no>g>h
+@7.173
+a=Per-class metrics
+b?=Average?
+c=Macro: unweighted mean of classes
+d=Micro: pool all decisions
+e=Weighted: by class support
+f?=Imbalance?
+g=Macro exposes rare-class failures
+h=Micro tracks overall accuracy
+i!=Chosen average
+a>b
+b-macro>c>f
+b-micro>d>f
+b-weighted>e>f
+f-yes>g>i
+f-no>h>i
+@7.174
+a=Scores and labels
+b=Sweep the threshold
+c=TPR = TP / P
+d=FPR = FP / N
+e=Plot TPR vs FPR
+f=Diagonal is chance
+g!=ROC curve
+a>b>c>e
+b>d>e>f>g
+@7.175
+a=Random positive and random negative
+b=Score of positive above negative?
+c=AUC = P(score+ > score-)
+d=Equals area under ROC
+e=Equivalent to the Mann-Whitney U statistic
+f?=Heavy class imbalance?
+g=AUC can look optimistic
+h=Check precision-recall
+i!=Ranking quality
+a>b>c>d>e>f
+f-yes>g>h>i
+f-no>i
+@7.176
+a=Rare positives
+b=Precision vs recall across thresholds
+c=Baseline precision = prevalence
+d=Average precision summarizes the curve
+e=Not inflated by many true negatives
+f!=PR-AUC for imbalance
+a>b>c>d>e>f
+@7.177
+a=Predicted probabilities
+b?=Proper scoring rule?
+c=Brier: mean squared error of probabilities
+d=Log-loss: penalizes confident mistakes
+e=Minimized only by true probabilities
+f=Decompose into reliability and resolution
+g!=Probabilistic forecast quality
+a>b
+b-squared>c>e>f>g
+b-log>d>e>f>g
+@7.178
+a=Predictions bucketed by confidence
+b=Compare mean prediction with observed frequency
+c=Reliability diagram
+d?=Curve below diagonal?
+e=Overconfident
+f=Above diagonal: underconfident
+g=Calibrate probabilities
+h!=Diagnosed calibration
+a>b>c>d
+d-yes>e>g>h
+d-no>f>g>h
+@7.179
+a=Held-out scores
+b?=Method?
+c=Platt: logistic sigmoid fit
+d=Isotonic: monotone nonparametric
+e?=Small calibration set?
+f=Platt less variance
+g=Isotonic needs more data
+h!=Calibrated probabilities
+a>b
+b-param>c>e
+b-nonparam>d>e
+e-yes>f>h
+e-no>g>h
+@7.180
+a=Dataset
+b?=Scheme?
+c=K-fold: rotate the held-out fold
+d=Stratified: keep class proportions
+e=LOOCV: one sample held out
+f=Average scores
+g?=Small data?
+h=LOOCV low bias, high variance
+i!=Performance estimate
+a>b
+b-kfold>c>f
+b-imbalance>d>f
+b-loo>e>f
+f>g
+g-yes>h>i
+g-no>i
+@7.181
+a=Rows belong to entities
+b?=Same entity in train and test?
+c=Leakage via correlated rows
+d=GroupKFold keeps groups intact
+e=StratifiedGroupKFold keeps class balance too
+f!=Honest validation for non-iid data
+a>b
+b-yes>c>d>e>f
+b-no>f
+@7.182
+a=Time-ordered data
+b=Training window then a later test window
+c?=Window?
+d=Expanding: grow training set
+e=Rolling: fixed-size window
+f=No shuffling, no lookahead
+g!=Temporal validation
+a>b>c
+c-expand>d>f
+c-roll>e>f
+f>g
+@7.183
+a=Expected squared error at x
+b=Bias^2 = (E[f_hat] - f)^2
+c=Variance = Var(f_hat)
+d=Irreducible noise sigma^2
+e=Sum of the three terms
+f?=Model flexibility increases?
+g=Bias falls, variance rises
+h!=Generalization trade-off
+a>b>e
+a>c>e
+a>d>e
+e>f>g>h
+@7.184
+a=Train and validation score vs data size
+b?=Pattern?
+c=Both low and close: high bias
+d=Big gap: high variance
+e=More features or capacity
+f=More data or regularization
+g=Curves converge: sufficient
+h!=Diagnosis
+a>b
+b-both low>c>e>h
+b-gap>d>f>h
+b-converged>g>h
+@7.185
+a=Suspiciously high validation score
+b?=Leak source?
+c=Target leakage: feature derived from the label
+d=Feature contamination: uses future data
+e=Split contamination: preprocessing before the split
+f=Fit transformers inside the CV folds
+g=Audit feature timestamps
+h!=Leak-free evaluation
+a>b
+b-target>c>g>h
+b-future>d>g>h
+b-split>e>f>h
+@7.186
+a=Estimator object
+b=fit(X, y) learns from data
+c=predict(X) for predictors
+d=transform(X) for transformers
+e=Hyperparameters as constructor args
+f=Learned attributes end with underscore
+g!=Consistent API
+a>e>b>f
+b>c>g
+b>d>g
+@7.187
+a=Subclass BaseEstimator and TransformerMixin
+b=__init__ stores parameters only
+c=fit computes statistics
+d=transform applies them
+e=get_feature_names_out for column names
+f=Usable inside Pipeline
+g!=Custom transformer
+a>b>c>d>e>f>g
+@7.188
+a=Custom estimator class
+b=fit returns self
+c=predict from learned state
+d=score default metric
+e=check_estimator test suite
+f?=Checks pass?
+g=Compatible with GridSearchCV
+h=Fix violations
+a>b>c>d>e>f
+f-yes>g
+f-no>h>e
+@7.189
+a=Raw data
+b=Step 1: imputer
+c=Step 2: scaler
+d=Step 3: estimator
+e=fit runs each step in order
+f=Prevents leakage in cross-validation
+g=Tune step parameters with step__param
+h!=One object end to end
+a>b>c>d>e>f>g>h
+@7.190
+a=Mixed columns
+b=Numeric: impute and scale
+c=Categorical: one-hot
+d=Text: vectorizer
+e?=Unlisted columns?
+f=remainder='drop' or 'passthrough'
+g=Concatenate outputs
+h!=Per-column preprocessing
+a>b>g
+a>c>g
+a>d>g
+a>e>f>g>h
+@7.191
+a=Same input
+b=Branch 1: PCA features
+c=Branch 2: selected raw features
+d=Run branches in parallel
+e=Concatenate horizontally
+f!=Combined feature set
+a>b>d
+a>c>d
+d>e>f
+@7.192
+a=Search space
+b?=Method?
+c=Grid: every combination
+d=Random: sample n configurations
+e=Random finds good regions faster in high dimensions
+f=Cross-validate each configuration
+g=Best score selects hyperparameters
+h!=Tuned model
+a>b
+b-grid>c>f
+b-random>d>e>f
+f>g>h
+@7.193
+a=Observed trials
+b=Gaussian process surrogate of the objective
+c=Acquisition function
+d?=Which acquisition?
+e=Expected improvement
+f=Upper confidence bound
+g=Evaluate the proposed point
+h=Update the surrogate
+i!=Best configuration with few trials
+a>b>c>d
+d-EI>e>g
+d-UCB>f>g
+g>h>b
+h>i
+@7.194
+a=Fitted model and validation data
+b=Shuffle one feature
+c=Measure score drop
+d?=Correlated features?
+e=Importance split or hidden
+f=Group correlated features
+g!=Permutation importance
+a>b>c>d
+d-yes>e>f>g
+d-no>g
+@7.195
+a=Feature of interest
+b=Vary it over a grid
+c=Average predictions: partial dependence
+d=Individual curves per row: ICE
+e?=Curves diverge?
+f=Interactions hidden in the average
+g!=Marginal effect plots
+a>b>c>e
+b>d>e
+e-yes>f>g
+e-no>g
+@7.196
+a=Prediction to explain
+b=All feature coalitions
+c=Marginal contribution of a feature
+d=Weighted average over coalitions: Shapley value
+e@=Axioms: efficiency, symmetry, dummy, additivity
+f=Contributions sum to prediction minus baseline
+g!=SHAP attributions
+a>b>c>d>e>f>g
+@7.197
+a=Tree ensemble
+b=Track the proportion of paths through each node
+c=Polynomial-time Shapley computation
+d=Complexity O(T L D^2)
+e=Exact, no sampling
+f!=TreeSHAP
+a>b>c>d>e>f
+@7.198
+a=Trained model
+b?=Format?
+c=Pickle: arbitrary code on load
+d=Joblib: efficient for numpy arrays
+e=ONNX: portable graph runtime
+f?=Untrusted file?
+g=Never unpickle
+h!=Deployable artifact
+a>b
+b-pickle>c>f
+b-joblib>d>f
+b-onnx>e>h
+f-yes>g>h
+f-no>h
+@7.199
+a=Latency budget
+b?=Optimization?
+c=SIMD vectorized traversal
+d=Treelite compiles trees to C
+e=Quantize thresholds and leaf values
+f=Batch requests
+g=Measure p99 latency
+h!=Low-latency serving
+a>b
+b-simd>c>g
+b-compile>d>g
+b-quantize>e>g
+b-batch>f>g
+g>h
+@7.200
+a=Production data stream
+b?=Shift type?
+c=Covariate shift: P(x) changes
+d=Concept drift: P(y|x) changes
+e=Population Stability Index per feature
+f=Wasserstein distance between distributions
+g?=Drift above threshold?
+h=Alert and investigate
+i=Retrain on recent data
+j!=Monitored model
+a>b
+b-inputs>c>e>g
+b-relation>d>f>g
+g-yes>h>i>j
+g-no>j

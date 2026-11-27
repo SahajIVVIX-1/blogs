@@ -43,20 +43,40 @@ The structural flow, component relationships, and operational hierarchy of **Dat
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM TOPOLOGY: DATA MODEL #amp; DUNDER PROTOCOLS"]):::title
-    I(["Primary Input / Data Descriptor Space"]):::io
-    L["<b>Memory Layout #amp; Internal State</b><br/>• Contiguous Buffer / Cache Lines<br/>• Invariant Constraints #amp; Headers<br/>• Structural Hierarchy (O(1) Access)"]
-    R["<b>Algorithmic Control Flow</b><br/>• Transformation Kernel / Pipeline<br/>• Dispatch Table / Virtual Methods<br/>• Dynamic Resolution / Graph Routing"]
-    E["<b>Execution Pipeline #amp; Vectorization</b><br/>• Cache Locality Optimization (Spatial #amp; Temporal)<br/>• Bounded Asymptotic Complexity: O(n) Time, O(1) Space<br/>• Deterministic Memory Deallocation #amp; Lifecycle"]
-    O["<b>High-Throughput Production Serving</b><br/>• Zero-Copy Slicing / Shared References<br/>• Lock-Free Concurrency #amp; Thread Safety<br/>• Monitored Latency #amp; Error Resilience"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Python for AI #amp; Systems · Data Model #amp; Dunder Protocols: __repr__, __str__, and Attribute Resolution"]):::title
+    a["Expression evaluates an object"]
+    b{"Which protocol is invoked?"}
+    c["repr(x) calls type(x).__repr__"]
+    d["str(x) calls __str__, falls back to __repr__"]
+    e["x.attr triggers __getattribute__"]
+    f{"Data descriptor on the type?"}
+    g["Use descriptor __get__ or __set__"]
+    h{"Name in instance __dict__?"}
+    i["Return instance value"]
+    j["Non-data descriptor or class attribute"]
+    k{"Still not found?"}
+    l["Call __getattr__ fallback"]
+    m(["AttributeError or value"])
+    T ~~~ a
+    a --> b
+    b -- "repr" --> c
+    b -- "str" --> d
+    b -- "attr" --> e
+    e --> f
+    f -- "yes" --> g
+    f -- "no" --> h
+    h -- "yes" --> i
+    h -- "no" --> j
+    j --> k
+    k -- "yes" --> l
+    l --> m
+    k -- "no" --> m
+    class b,f,h,k dec
+    class m term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational blueprint illustrates how abstract abstractions map directly to physical hardware architectures, optimizing memory locality and instruction throughput.

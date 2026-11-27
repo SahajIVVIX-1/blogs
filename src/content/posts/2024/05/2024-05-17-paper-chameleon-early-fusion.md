@@ -77,20 +77,40 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["MULTIMODAL VISION-LANGUAGE ARCHITECTURE"]):::title
-    IMG(["Input Image I"]):::io --> VIT["<b>Vision Transformer</b><br/>Encoder (ViT-H/14)"]
-    TXT(["User Text Query T"]):::io --> TOK["<b>Word #amp; Position</b><br/>Token Embeddings"]
-    VIT --> PT(["Patch Tokens Z_v"])
-    PT --> ADP["Multi-Layer Projection Adapter g"]
-    ADP --> HV(["Aligned Visual Tokens H_v"])
-    HV --> CTX["<b>Interleaved Multimodal Context</b><br/>[ H_v || E(T) ]"]
-    TOK --> CTX
-    CTX --> LLM["<b>Autoregressive LLM Backbone</b><br/>(RoPE, GQA, SwiGLU Attention)"]
-    LLM --> RESP(["Grounded Textual Response"]):::io
-    T ~~~ IMG
-    T ~~~ TXT
+    T(["Chameleon: Mixed-Modal Early-Fusion Foundation Models"]):::title
+    n1[["Present Chameleon, a family of early-fusion token-based mixed-modal models capable of understanding…"]]
+    n5[/"Evaluated against baselines"/]
+    n6{"Holds on the benchmarks?"}
+    n9{{"Reported: 8x"}}
+    n10(["Code released with the paper"])
+    n11["Area: multimodal · vlms · vision-language · deep-learning"]
+    subgraph G0["How it works"]
+        n2["Outline a stable training approach from inception, an alignment recipe, and an architectural…"]
+        n3["The models are evaluated on a comprehensive range of tasks, including visual question answering, image…"]
+        n4["It also matches or exceeds the performance of much larger models, including Gemini Pro and GPT-4V…"]
+    end
+    subgraph G1["Evidence"]
+        n7["Chameleon demonstrates broad and general capabilities, including state-of-the-art performance in image…"]
+        n8["Chameleon marks a significant step forward in a unified modeling of full multimodal documents"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n4 --> n5
+    n5 --> n6
+    n6 -- "yes" --> n7
+    n6 -- "yes" --> n8
+    n8 --> n9
+    n9 --> n10
+    n6 -- "no" --> n10
+    n11 --> n1
+    class n6 dec
+    class n10 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

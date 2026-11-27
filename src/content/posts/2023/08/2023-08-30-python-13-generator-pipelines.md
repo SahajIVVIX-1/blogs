@@ -43,20 +43,41 @@ The structural flow, component relationships, and operational hierarchy of **Gen
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM TOPOLOGY: GENERATOR PIPELINES"]):::title
-    I(["Primary Input / Data Descriptor Space"]):::io
-    L["<b>Memory Layout #amp; Internal State</b><br/>• Contiguous Buffer / Cache Lines<br/>• Invariant Constraints #amp; Headers<br/>• Structural Hierarchy (O(1) Access)"]
-    R["<b>Algorithmic Control Flow</b><br/>• Transformation Kernel / Pipeline<br/>• Dispatch Table / Virtual Methods<br/>• Dynamic Resolution / Graph Routing"]
-    E["<b>Execution Pipeline #amp; Vectorization</b><br/>• Cache Locality Optimization (Spatial #amp; Temporal)<br/>• Bounded Asymptotic Complexity: O(n) Time, O(1) Space<br/>• Deterministic Memory Deallocation #amp; Lifecycle"]
-    O["<b>High-Throughput Production Serving</b><br/>• Zero-Copy Slicing / Shared References<br/>• Lock-Free Concurrency #amp; Thread Safety<br/>• Monitored Latency #amp; Error Resilience"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Python for AI #amp; Systems · Generator Pipelines: Low-Memory Streaming Architecture for Gigabyte Datasets"]):::title
+    a[("Gigabyte file on disk")]
+    b["Generator: read one line at a time"]
+    c["Generator: parse record"]
+    d{"Record valid?"}
+    e["Drop and count error"]
+    f["Generator: transform fields"]
+    g["Generator: batch 1000 rows"]
+    h["Consumer pulls next batch"]
+    i{"Memory above budget?"}
+    j["Backpressure: pull slower"]
+    k["Write batch to sink"]
+    l(["Constant memory, any file size"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c --> d
+    d -- "no" --> e
+    e --> b
+    d -- "yes" --> f
+    f --> g
+    g --> h
+    h --> i
+    i -- "yes" --> j
+    j --> h
+    i -- "no" --> k
+    k --> b
+    k --> l
+    class d,i dec
+    class l term
+    class a store
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational blueprint illustrates how abstract abstractions map directly to physical hardware architectures, optimizing memory locality and instruction throughput.

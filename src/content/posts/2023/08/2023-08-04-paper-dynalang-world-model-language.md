@@ -68,22 +68,40 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["AUTONOMOUS AGENT ORCHESTRATION PIPELINE"]):::title
-    ENV(["Environment"]):::io --> OBS(["Multi-Modal State Observation o_t"])
-    OBS --> MEM["Episodic #amp; Semantic Memory Store"]
-    MEM --> PLAN["Planning #amp; Decomposition Module (LLM / Reasoner)"]
-    PLAN --> SEL(["Tool Selection Head"])
-    PLAN --> CRIT(["Self-Critic"])
-    SEL --> EXE["Tool Execution Call"]
-    CRIT --> VER{"Verification Passed?"}
-    VER -- Yes --> EXE
-    VER -- "No: re-plan" --> REF["Reflection State Update"]
-    EXE --> ACT(["Action a_t"])
-    REF --> ACT
-    ACT --> ENV
-    T ~~~ ENV
+    T(["Learning to Model the World with Language"]):::title
+    n4[["Present Dynalang, an agent that learns a multimodal world model that predicts future text and image…"]]
+    n7[/"Evaluated against baselines"/]
+    n8{"Evidence supports the claim?"}
+    n9["From using language hints in grid worlds to navigating photorealistic scans of homes, Dynalang utilizes…"]
+    n10(["arXiv 2308.01399"])
+    n11["Area: agents · autonomous-systems · tool-use · decision-making"]
+    subgraph G0["Problem and gap"]
+        n1["To interact with humans in the world, agents need to understand the diverse types of language that people…"]
+        n2["While current agents learn to execute simple language instructions from task rewards, we aim to build…"]
+        n3["Our key idea is that language helps agents predict the future: what will be observed, how the world will…"]
+    end
+    subgraph G1["How it works"]
+        n5["Unlike traditional agents that use language only to predict actions, Dynalang acquires rich language…"]
+        n6["To learning from online interaction in an environment, Dynalang can be pretrained on datasets of text…"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n4 --> n5
+    n5 --> n6
+    n6 --> n7
+    n7 --> n8
+    n8 -- "no, refine" --> n5
+    n8 -- "yes" --> n9
+    n9 --> n10
+    n11 --> n4
+    class n8 dec
+    class n10 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

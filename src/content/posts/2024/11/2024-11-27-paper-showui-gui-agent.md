@@ -73,22 +73,40 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["AUTONOMOUS AGENT ORCHESTRATION PIPELINE"]):::title
-    ENV(["Environment"]):::io --> OBS(["Multi-Modal State Observation o_t"])
-    OBS --> MEM["Episodic #amp; Semantic Memory Store"]
-    MEM --> PLAN["Planning #amp; Decomposition Module (LLM / Reasoner)"]
-    PLAN --> SEL(["Tool Selection Head"])
-    PLAN --> CRIT(["Self-Critic"])
-    SEL --> EXE["Tool Execution Call"]
-    CRIT --> VER{"Verification Passed?"}
-    VER -- Yes --> EXE
-    VER -- "No: re-plan" --> REF["Reflection State Update"]
-    EXE --> ACT(["Action a_t"])
-    REF --> ACT
-    ACT --> ENV
-    T ~~~ ENV
+    T(["ShowUI: One Vision-Language-Action Model for GUI Visual Agent"]):::title
+    n3[["Develop a vision-language-action model in digital world, namely ShowUI, which features the following…"]]
+    n4["Navigation experiments across web Mind2Web, mobile AITW, and online MiniWob environments further…"]
+    n5[/"Evaluated against baselines"/]
+    n6{"Gains without quality loss?"}
+    n9{{"Reported: 2B · 256K · 75.1% · 33% · 1.4x"}}
+    n10(["The models are available at https://github.com/showlab/ShowUI"])
+    n11["Area: agents · autonomous-systems · tool-use · decision-making"]
+    subgraph G0["Problem and gap"]
+        n1["Building Graphical User Interface assistants holds significant promise for enhancing human workflow…"]
+        n2["While most agents are language-based, relying on closed-source API with text-rich meta-information (e.g.…"]
+    end
+    subgraph G1["Evidence"]
+        n7["With above components, ShowUI, a lightweight 2B model using 256K data, achieves a strong 75.1% accuracy in…"]
+        n8["Its UI-guided token selection further reduces 33% of redundant visual tokens during training and speeds up…"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n4 --> n5
+    n5 --> n6
+    n6 -- "yes" --> n7
+    n6 -- "yes" --> n8
+    n8 --> n9
+    n9 --> n10
+    n6 -- "no" --> n10
+    n11 --> n3
+    class n6 dec
+    class n10 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

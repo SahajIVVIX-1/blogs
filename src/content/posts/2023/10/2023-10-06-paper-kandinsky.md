@@ -73,21 +73,49 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["LATENT FLOW MATCHING #amp; SYNTHESIS PIPELINE"]):::title
-    N(["Gaussian Noise x_1 ~ N(0, I)"]):::io --> TE["<b>Timestep Embedding</b><br/>t in [0, 1]"]
-    C(["Prompt / Condition c"]):::io --> CA["<b>Cross-Attention</b><br/>Text Encoder Head"]
-    TE --> VF["<b>Latent Vector Field Network</b><br/>v_theta(x_t, t, c)"]
-    CA --> VF
-    VF --> VP(["Velocity Vector Prediction: dx_t / dt"])
-    VP --> ODE["<b>Numerical ODE Solver Step</b><br/>x_{t - dt} = x_t - v * dt"]
-    ODE -- "iterate N steps" --> VF
-    ODE --> Z(["Synthesized Latent State x_0"])
-    Z --> D["Variational Autoencoder Decoder"]
-    D --> OUT(["High-Fidelity Output Image"]):::io
-    T ~~~ N
-    T ~~~ C
+    T(["Kandinsky: an Improved Text-to-Image Synthesis with Image Prior and Latent Diffusion"]):::title
+    n4[["Present Kandinsky1, a novel exploration of latent diffusion architecture, combining the principles of…"]]
+    n9[/"Evaluated against baselines"/]
+    n10{"Result holds up?"}
+    n11["Released the source code and checkpoints for the Kandinsky models"]
+    n12{{"Reported: 3.3B"}}
+    n13(["Experimental evaluations demonstrate a FID score of 8.03 on the COCO-30K dataset…"])
+    n14["Area: generative-ai · diffusion-models · image-synthesis · multimodal"]
+    subgraph G0["Problem and gap"]
+        n1["Text-to-image generation is a significant domain in modern computer vision and has achieved substantial…"]
+        n2["Among these, there are diffusion-based models that have demonstrated essential quality enhancements"]
+        n3["These models are generally split into two categories: pixel-level and latent-level approaches"]
+    end
+    subgraph G1["How it works"]
+        n5["The image prior model is trained separately to map text embeddings to image embeddings of CLIP"]
+        n6["Another distinct feature of the proposed model is the modified MoVQ implementation, which serves as the…"]
+        n7["The designed model contains 3.3B parameters"]
+        n8["Deployed a user-friendly demo system that supports diverse generative modes such as text-to-image…"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n4 --> n5
+    n4 --> n6
+    n4 --> n7
+    n4 --> n8
+    n5 --> n9
+    n6 --> n9
+    n7 --> n9
+    n8 --> n9
+    n9 --> n10
+    n10 -- "yes" --> n11
+    n10 -- "no" --> n4
+    n12 --> n13
+    n11 --> n12
+    n14 --> n1
+    class n10 dec
+    class n13 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

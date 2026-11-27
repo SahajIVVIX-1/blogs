@@ -72,18 +72,35 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["DEEP AUTOREGRESSIVE REASONING PIPELINE"]):::title
-    X(["Input Token Sequence x_{1:t}"]):::io --> N["Rotary Positional Encoding (RoPE) #amp; RMSNorm"]
-    N --> G["<b>Grouped-Query Attention Block (GQA)</b><br/>Q = x * W_q, K = x * W_k (shared), V = x * W_v (shared)"]
-    G --> S["SwiGLU Feed-Forward Network: (xW_gate * swish(xW_up)) * W_down"]
-    S --> R["Residual Accumulator #amp; Pre-Layer Normalization"]
-    R --> H1(["Direct Next-Token Logits"])
-    R --> H2(["Implicit Reward Head"])
-    H1 --> P1["Temperature-Scaled Top-p Sampling"]
-    H2 --> P2["Alignment Loss Check"]
-    T ~~~ X
+    T(["The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits"]):::title
+    n1["Recent research, such as BitNet, is paving the way for a new era of 1-bit Large Language Models (LLMs)"]
+    n2[["Introduce a 1-bit LLM variant, namely BitNet b1.58, in which every single parameter (or weight) of the…"]]
+    n5[/"Evaluated against baselines"/]
+    n6{"Gains without quality loss?"}
+    n7["It matches the full-precision (i.e., FP16 or BF16) Transformer LLM with the same model size and training…"]
+    n8(["arXiv 2402.17764"])
+    n9["Area: efficiency · quantization · inference-acceleration · llm-systems"]
+    subgraph G0["How it works"]
+        n3["More profoundly, the 1.58-bit LLM defines a new scaling law and recipe for training new generations of…"]
+        n4["It enables a new computation paradigm and opens the door for designing specific hardware optimized for…"]
+    end
+    T ~~~ n1
+    n2 --> n3
+    n3 --> n4
+    n1 --> n2
+    n4 --> n5
+    n1 --> n5
+    n5 --> n6
+    n6 -- "yes" --> n7
+    n6 -- "no" --> n1
+    n7 --> n8
+    n9 --> n2
+    class n6 dec
+    class n8 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

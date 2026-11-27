@@ -43,20 +43,38 @@ The structural flow, component relationships, and operational hierarchy of **Alg
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM TOPOLOGY: ALGORITHMS"]):::title
-    I(["Primary Input / Data Descriptor Space"]):::io
-    L["<b>Memory Layout #amp; Internal State</b><br/>• Contiguous Buffer / Cache Lines<br/>• Invariant Constraints #amp; Headers<br/>• Structural Hierarchy (O(1) Access)"]
-    R["<b>Algorithmic Control Flow</b><br/>• Transformation Kernel / Pipeline<br/>• Dispatch Table / Virtual Methods<br/>• Dynamic Resolution / Graph Routing"]
-    E["<b>Execution Pipeline #amp; Vectorization</b><br/>• Cache Locality Optimization (Spatial #amp; Temporal)<br/>• Bounded Asymptotic Complexity: O(n) Time, O(1) Space<br/>• Deterministic Memory Deallocation #amp; Lifecycle"]
-    O["<b>High-Throughput Production Serving</b><br/>• Zero-Copy Slicing / Shared References<br/>• Lock-Free Concurrency #amp; Thread Safety<br/>• Monitored Latency #amp; Error Resilience"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["C++ #amp; High-Performance DSA · Algorithms: Minimum Spanning Tree (Kruskal's with DSU and Prim's Algorithm)"]):::title
+    a["Weighted undirected graph"]
+    b{"Algorithm?"}
+    c["Kruskal: sort edges by weight"]
+    d["Take next lightest edge"]
+    e{"Endpoints in different DSU sets?"}
+    f["Union sets, keep edge"]
+    g["Skip, would form a cycle"]
+    h["Prim: grow tree from one vertex"]
+    i["Heap of crossing edges"]
+    j["Add minimum crossing edge"]
+    k(["Minimum spanning tree"])
+    T ~~~ a
+    a --> b
+    b -- "Kruskal" --> c
+    c --> d
+    d --> e
+    e -- "yes" --> f
+    f --> k
+    e -- "no" --> g
+    g --> d
+    b -- "Prim" --> h
+    h --> i
+    i --> j
+    j --> k
+    j --> i
+    class b,e dec
+    class k term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational blueprint illustrates how abstract abstractions map directly to physical hardware architectures, optimizing memory locality and instruction throughput.

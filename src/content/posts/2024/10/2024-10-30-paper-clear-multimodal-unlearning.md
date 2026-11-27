@@ -77,20 +77,38 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["MULTIMODAL VISION-LANGUAGE ARCHITECTURE"]):::title
-    IMG(["Input Image I"]):::io --> VIT["<b>Vision Transformer</b><br/>Encoder (ViT-H/14)"]
-    TXT(["User Text Query T"]):::io --> TOK["<b>Word #amp; Position</b><br/>Token Embeddings"]
-    VIT --> PT(["Patch Tokens Z_v"])
-    PT --> ADP["Multi-Layer Projection Adapter g"]
-    ADP --> HV(["Aligned Visual Tokens H_v"])
-    HV --> CTX["<b>Interleaved Multimodal Context</b><br/>[ H_v || E(T) ]"]
-    TOK --> CTX
-    CTX --> LLM["<b>Autoregressive LLM Backbone</b><br/>(RoPE, GQA, SwiGLU Attention)"]
-    LLM --> RESP(["Grounded Textual Response"]):::io
-    T ~~~ IMG
-    T ~~~ TXT
+    T(["CLEAR: Character Unlearning in Textual and Visual Modalities"]):::title
+    n1["Machine Unlearning is critical for enhancing privacy and security in deep learning models, particularly in…"]
+    n2[["Introduce CLEAR, a new benchmark designed to evaluate MMU methods"]]
+    n6[/"Evaluated against baselines"/]
+    n7{"Holds on the benchmarks?"}
+    n8["Demonstrate that simple ell_1 regularization on LoRA weights significantly mitigates catastrophic…"]
+    n9(["While MU has made significant progress in textual and visual modalities, multimodal…"])
+    n10["Area: multimodal · vlms · vision-language · deep-learning"]
+    subgraph G0["How it works"]
+        n3["CLEAR contains 200 fictitious individuals and 3,700 images linked with corresponding question-answer pairs"]
+        n4["A thorough evaluation across modalities"]
+        n5["Assess 10 MU methods, adapting them for MMU, and highlight new challenges specific to multimodal forgetting"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n2 --> n4
+    n2 --> n5
+    n3 --> n6
+    n4 --> n6
+    n5 --> n6
+    n6 --> n7
+    n7 -- "yes" --> n8
+    n7 -- "no" --> n2
+    n8 --> n9
+    n10 --> n1
+    class n7 dec
+    class n9 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

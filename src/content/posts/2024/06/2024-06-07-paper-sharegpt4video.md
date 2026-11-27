@@ -73,21 +73,52 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["LATENT FLOW MATCHING #amp; SYNTHESIS PIPELINE"]):::title
-    N(["Gaussian Noise x_1 ~ N(0, I)"]):::io --> TE["<b>Timestep Embedding</b><br/>t in [0, 1]"]
-    C(["Prompt / Condition c"]):::io --> CA["<b>Cross-Attention</b><br/>Text Encoder Head"]
-    TE --> VF["<b>Latent Vector Field Network</b><br/>v_theta(x_t, t, c)"]
-    CA --> VF
-    VF --> VP(["Velocity Vector Prediction: dx_t / dt"])
-    VP --> ODE["<b>Numerical ODE Solver Step</b><br/>x_{t - dt} = x_t - v * dt"]
-    ODE -- "iterate N steps" --> VF
-    ODE --> Z(["Synthesized Latent State x_0"])
-    Z --> D["Variational Autoencoder Decoder"]
-    D --> OUT(["High-Fidelity Output Image"]):::io
-    T ~~~ N
-    T ~~~ C
+    T(["ShareGPT4Video: Improving Video Understanding and Generation with Better Captions"]):::title
+    n1[["Present the ShareGPT4Video series, aiming to facilitate the video understanding of large…"]]
+    n2["Based on it, we construct ShareGPT4Video, which contains 40K high-quality videos spanning a wide range of…"]
+    n8[/"Evaluated against baselines"/]
+    n9{"Beats strong baselines?"}
+    n12{{"Reported: 8B · 40K · 8M"}}
+    n13(["Code released with the paper"])
+    n14["Area: generative-ai · diffusion-models · image-synthesis · multimodal"]
+    subgraph G0["How it works"]
+        n3["The series comprises: 1) ShareGPT4Video, 40K GPT4V annotated dense captions of videos with various lengths…"]
+        n4["2) ShareCaptioner-Video, an efficient and capable captioning model for arbitrary videos, with 4.8M…"]
+        n5["Argue the challenge of designing a high-quality video captioning strategy lies in three aspects: 1)…"]
+        n6["2) Intra-frame detailed content description"]
+        n7["3) Frame-number scalability for arbitrary-length videos"]
+    end
+    subgraph G1["Evidence"]
+        n10["3) ShareGPT4Video-8B, a simple yet superb LVLM that reached SOTA performance on three advancing video…"]
+        n11["To achieve this, taking aside the non-scalable costly human annotators, we find using GPT4V to caption…"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n1 --> n3
+    n1 --> n4
+    n1 --> n5
+    n1 --> n6
+    n1 --> n7
+    n3 --> n8
+    n4 --> n8
+    n5 --> n8
+    n6 --> n8
+    n7 --> n8
+    n2 --> n8
+    n8 --> n9
+    n9 -- "yes" --> n10
+    n9 -- "yes" --> n11
+    n9 -- "no" --> n1
+    n12 --> n13
+    n10 --> n12
+    n11 --> n12
+    n14 --> n1
+    class n9 dec
+    class n13 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

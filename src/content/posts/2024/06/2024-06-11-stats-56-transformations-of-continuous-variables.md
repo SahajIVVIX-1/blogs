@@ -51,18 +51,33 @@ To build intuitive geometric comprehension, the operational mechanics and struct
 
 ```mermaid
 flowchart TD
-    T(["THEORETICAL FOUNDATION: TRANSFORMATIONS OF CONTINUOUS VARIABLES"]):::title
-    I(["Mathematical Measure Space (Ω, F, P)"]):::io
-    L["<b>Analytical Formulation</b><br/>• Probability Density / PMF<br/>• Parameter Vector θ ∈ Θ<br/>• Closed-form Derivation"]
-    R["<b>Empirical Space</b><br/>• Sample Realizations (x_1..x_N)<br/>• Sufficient Statistics T(X)<br/>• Monte Carlo Estimators"]
-    E["<b>Asymptotic Convergence #amp; Limits</b><br/>• Large Sample Consistency: n -#gt; ∞<br/>• Fisher Information #amp; Asymptotic Efficiency<br/>• Bounded Variance #amp; Asymptotic Normality"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
+    T(["Probability #amp; Statistics · Transformations of Continuous Variables: Jacobian Determinant Method for 1D and Multidimensional Variables"]):::title
+    a["Y = g(X)"]
+    b{"g monotone?"}
+    c["f_Y(y) = f_X(g^-1(y)) |d g^-1 / dy|"]
+    d["Split into monotone pieces and sum"]
+    e{"Several variables?"}
+    f["Jacobian determinant |det J|"]
+    g["Multiply density by |det J|"]
+    h["Polar coordinates for Gaussian integrals"]
+    i(["Change-of-variables density"])
+    T ~~~ a
+    a --> b
+    b -- "yes" --> c
+    c --> e
+    b -- "no" --> d
+    d --> e
+    e -- "yes" --> f
+    f --> g
+    g --> h
+    h --> i
+    e -- "no" --> i
+    class b,e dec
+    class i term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This conceptual blueprint highlights how abstract probability spaces project down into observable sample geometries, connecting theoretical expectation functionals with concrete sample statistics.

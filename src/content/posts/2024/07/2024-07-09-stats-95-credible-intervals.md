@@ -51,18 +51,33 @@ To build intuitive geometric comprehension, the operational mechanics and struct
 
 ```mermaid
 flowchart TD
-    T(["THEORETICAL FOUNDATION: CREDIBLE INTERVALS"]):::title
-    I(["Mathematical Measure Space (Ω, F, P)"]):::io
-    L["<b>Analytical Formulation</b><br/>• Probability Density / PMF<br/>• Parameter Vector θ ∈ Θ<br/>• Closed-form Derivation"]
-    R["<b>Empirical Space</b><br/>• Sample Realizations (x_1..x_N)<br/>• Sufficient Statistics T(X)<br/>• Monte Carlo Estimators"]
-    E["<b>Asymptotic Convergence #amp; Limits</b><br/>• Large Sample Consistency: n -#gt; ∞<br/>• Fisher Information #amp; Asymptotic Efficiency<br/>• Bounded Variance #amp; Asymptotic Normality"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
+    T(["Probability #amp; Statistics · Credible Intervals: Highest Posterior Density (HPD) vs Equal-Tailed Credible Regions"]):::title
+    a["Posterior density"]
+    b{"Interval type?"}
+    c["Equal-tailed: alpha/2 in each tail"]
+    d["HPD: shortest interval with mass 1 - alpha"]
+    e["Density threshold c"]
+    f{"Posterior skewed or multimodal?"}
+    g["HPD can be a union of intervals"]
+    h["Equal-tailed is easy to compute"]
+    i(["Credible region"])
+    T ~~~ a
+    a --> b
+    b -- "quantiles" --> c
+    c --> f
+    b -- "density" --> d
+    d --> e
+    e --> f
+    f -- "yes" --> g
+    g --> i
+    f -- "no" --> h
+    h --> i
+    class b,f dec
+    class i term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This conceptual blueprint highlights how abstract probability spaces project down into observable sample geometries, connecting theoretical expectation functionals with concrete sample statistics.

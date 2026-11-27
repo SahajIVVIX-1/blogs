@@ -77,18 +77,40 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["DEEP AUTOREGRESSIVE REASONING PIPELINE"]):::title
-    X(["Input Token Sequence x_{1:t}"]):::io --> N["Rotary Positional Encoding (RoPE) #amp; RMSNorm"]
-    N --> G["<b>Grouped-Query Attention Block (GQA)</b><br/>Q = x * W_q, K = x * W_k (shared), V = x * W_v (shared)"]
-    G --> S["SwiGLU Feed-Forward Network: (xW_gate * swish(xW_up)) * W_down"]
-    S --> R["Residual Accumulator #amp; Pre-Layer Normalization"]
-    R --> H1(["Direct Next-Token Logits"])
-    R --> H2(["Implicit Reward Head"])
-    H1 --> P1["Temperature-Scaled Top-p Sampling"]
-    H2 --> P2["Alignment Loss Check"]
-    T ~~~ X
+    T(["LongRoPE: Extending LLM Context Window Beyond 2 Million Tokens"]):::title
+    n3[["This paper introduces LongRoPE that, for the first time, extends the context window of pre-trained…"]]
+    n4["Models extended via LongRoPE retain the original architecture with minor modifications to the positional…"]
+    n5[/"Evaluated against baselines"/]
+    n6{"Gains without quality loss?"}
+    n9{{"Reported: 8x"}}
+    n10(["Code released with the paper"])
+    n11["Area: transformers · model-architecture · state-space-models · attention-mechanisms"]
+    subgraph G0["Problem and gap"]
+        n1["Large context window is a desirable feature in large language models (LLMs)"]
+        n2["However, due to high fine-tuning costs, scarcity of long texts, and catastrophic values introduced by new…"]
+    end
+    subgraph G1["Evidence"]
+        n7["This is achieved by three key innovations: we identify and exploit two forms of non-uniformities in…"]
+        n8["Extensive experiments on LLaMA2 and Mistral across various tasks demonstrate the effectiveness of our method"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n4 --> n5
+    n5 --> n6
+    n6 -- "yes" --> n7
+    n6 -- "yes" --> n8
+    n8 --> n9
+    n9 --> n10
+    n6 -- "no" --> n10
+    n11 --> n3
+    class n6 dec
+    class n10 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

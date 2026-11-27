@@ -30,6 +30,46 @@ The release notes are a list of changes since 0.3.27. The notable ones:
 - `state_schema` support in **`create_agent`**
 - **Python 3.14** support
 
+## How it fits together
+
+The flowchart below maps this announcement's main points and what depends on them.
+
+```mermaid
+flowchart TD
+    T(["LangChain 1.0 released"]):::title
+    n1(["langchain-ai/langchain: LangChain 1.0 released"])
+    n2["LangChain reached 1.0. The release notes list the final changes before it: new middleware (shell, file search…"]
+    n6[/"an injectable ToolRuntime, so tools can access runtime context and state"/]
+    n7{"Does upgrading need changes?"}
+    n8["When I studied LangChain in April–May 2026, I used version 1.4."]
+    n9(["Upgrade with the checklist above"])
+    n10["Topics: langchain · agents · release"]
+    subgraph G0["What changed"]
+        n3["middleware: ShellToolMiddleware and ClaudeBashToolMiddleware, file-search middleware, tool retry middleware…"]
+        n4["state_schema support in create_agent"]
+        n5["Python 3.14 support"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n2 --> n4
+    n2 --> n5
+    n3 --> n7
+    n4 --> n7
+    n5 --> n7
+    n7 -- "no" --> n8
+    n2 --> n6
+    n6 --> n8
+    n8 --> n9
+    n10 --> n2
+    class n7 dec
+    class n1,n9 term
+    classDef title fill:transparent,stroke:transparent,font-weight:700;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
+```
+
 ## Why it matters
 
 When I studied LangChain in April–May 2026, I used version 1.4. The 1.0 API is the base of what I learned: `create_agent` plus middleware around tool calls, with LangGraph underneath. These notes only list changes, so the design explanation is in LangChain's agent docs, linked above.

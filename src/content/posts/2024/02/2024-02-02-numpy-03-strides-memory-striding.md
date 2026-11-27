@@ -43,20 +43,39 @@ The structural flow, component relationships, and operational hierarchy of **Str
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM TOPOLOGY: STRIDES #amp; MEMORY STRIDING"]):::title
-    I(["Primary Input / Data Descriptor Space"]):::io
-    L["<b>Memory Layout #amp; Internal State</b><br/>• Contiguous Buffer / Cache Lines<br/>• Invariant Constraints #amp; Headers<br/>• Structural Hierarchy (O(1) Access)"]
-    R["<b>Algorithmic Control Flow</b><br/>• Transformation Kernel / Pipeline<br/>• Dispatch Table / Virtual Methods<br/>• Dynamic Resolution / Graph Routing"]
-    E["<b>Execution Pipeline #amp; Vectorization</b><br/>• Cache Locality Optimization (Spatial #amp; Temporal)<br/>• Bounded Asymptotic Complexity: O(n) Time, O(1) Space<br/>• Deterministic Memory Deallocation #amp; Lifecycle"]
-    O["<b>High-Throughput Production Serving</b><br/>• Zero-Copy Slicing / Shared References<br/>• Lock-Free Concurrency #amp; Thread Safety<br/>• Monitored Latency #amp; Error Resilience"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["NumPy #amp; Numerical Computing · Strides #amp; Memory Striding: How Strides Enable Zero-Copy Slicing and Views"]):::title
+    a["a = np.arange(12).reshape(3, 4)"]
+    b["strides = (32, 8) bytes"]
+    c["a[:, 1] has stride 32"]
+    d["a[::2] doubles the row stride"]
+    e["a.T swaps strides, no data moved"]
+    f[("Same buffer, different stride tuple")]
+    g{"Resulting view contiguous?"}
+    h["Fast vectorized loops"]
+    i["Strided access, cache misses"]
+    j["np.ascontiguousarray copies once"]
+    k(["Zero-copy slicing and views"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c --> f
+    b --> d
+    d --> f
+    b --> e
+    e --> f
+    f --> g
+    g -- "yes" --> h
+    h --> k
+    g -- "no" --> i
+    i --> j
+    j --> k
+    class g dec
+    class k term
+    class f store
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational blueprint illustrates how abstract abstractions map directly to physical hardware architectures, optimizing memory locality and instruction throughput.

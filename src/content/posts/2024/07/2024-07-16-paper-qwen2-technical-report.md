@@ -77,20 +77,46 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["MULTIMODAL VISION-LANGUAGE ARCHITECTURE"]):::title
-    IMG(["Input Image I"]):::io --> VIT["<b>Vision Transformer</b><br/>Encoder (ViT-H/14)"]
-    TXT(["User Text Query T"]):::io --> TOK["<b>Word #amp; Position</b><br/>Token Embeddings"]
-    VIT --> PT(["Patch Tokens Z_v"])
-    PT --> ADP["Multi-Layer Projection Adapter g"]
-    ADP --> HV(["Aligned Visual Tokens H_v"])
-    HV --> CTX["<b>Interleaved Multimodal Context</b><br/>[ H_v || E(T) ]"]
-    TOK --> CTX
-    CTX --> LLM["<b>Autoregressive LLM Backbone</b><br/>(RoPE, GQA, SwiGLU Attention)"]
-    LLM --> RESP(["Grounded Textual Response"]):::io
-    T ~~~ IMG
-    T ~~~ TXT
+    T(["Qwen2 Technical Report"]):::title
+    n1[["This report introduces the Qwen2 series, the latest addition to our large language models and large…"]]
+    n2["Release a comprehensive suite of foundational and instruction-tuned language models, encompassing a…"]
+    n6[/"Evaluated against baselines"/]
+    n7{"Better than prior methods?"}
+    n10{{"Reported: 72B"}}
+    n11(["To foster community innovation and accessibility, we have made the Qwen2 model weights…"])
+    n12["Area: multimodal · vlms · vision-language · deep-learning"]
+    subgraph G0["How it works"]
+        n3["The flagship model, Qwen2-72B, showcases remarkable performance: 84.2 on MMLU, 37.9 on GPQA, 64.6 on…"]
+        n4["The instruction-tuned variant, Qwen2-72B-Instruct, attains 9.1 on MT-Bench, 48.1 on Arena-Hard, and 35.7…"]
+        n5["These platforms also include resources for quantization, fine-tuning, and deployment, facilitating a wide…"]
+    end
+    subgraph G1["Evidence"]
+        n8["Qwen2 surpasses most prior open-weight models, including its predecessor Qwen1.5, and exhibits competitive…"]
+        n9["Qwen2 demonstrates robust multilingual capabilities, proficient in approximately 30 languages, spanning…"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n1 --> n3
+    n1 --> n4
+    n1 --> n5
+    n3 --> n6
+    n4 --> n6
+    n5 --> n6
+    n2 --> n6
+    n6 --> n7
+    n7 -- "yes" --> n8
+    n7 -- "yes" --> n9
+    n7 -- "no" --> n1
+    n10 --> n11
+    n8 --> n10
+    n9 --> n10
+    n12 --> n1
+    class n7 dec
+    class n11 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

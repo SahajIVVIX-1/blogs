@@ -43,20 +43,39 @@ The structural flow, component relationships, and operational hierarchy of **Tup
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM TOPOLOGY: TUPLE INTERNALS"]):::title
-    I(["Primary Input / Data Descriptor Space"]):::io
-    L["<b>Memory Layout #amp; Internal State</b><br/>• Contiguous Buffer / Cache Lines<br/>• Invariant Constraints #amp; Headers<br/>• Structural Hierarchy (O(1) Access)"]
-    R["<b>Algorithmic Control Flow</b><br/>• Transformation Kernel / Pipeline<br/>• Dispatch Table / Virtual Methods<br/>• Dynamic Resolution / Graph Routing"]
-    E["<b>Execution Pipeline #amp; Vectorization</b><br/>• Cache Locality Optimization (Spatial #amp; Temporal)<br/>• Bounded Asymptotic Complexity: O(n) Time, O(1) Space<br/>• Deterministic Memory Deallocation #amp; Lifecycle"]
-    O["<b>High-Throughput Production Serving</b><br/>• Zero-Copy Slicing / Shared References<br/>• Lock-Free Concurrency #amp; Thread Safety<br/>• Monitored Latency #amp; Error Resilience"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Python for AI #amp; Systems · Tuple Internals: Struct Memory Layout, Immutability, and the Freelists Optimization"]):::title
+    a["Create tuple of n items"]
+    b{"Size already has a free list?"}
+    c["Reuse cached tuple object"]
+    d["Allocate PyTupleObject with inline items"]
+    e[("Header + ob_item[n] in one block")]
+    f["Items are immutable references"]
+    g{"Contains a mutable element?"}
+    h["Hash raises TypeError"]
+    i["Hash combines item hashes"]
+    j["Usable as dict key"]
+    k["Freed tuple returns to its free list"]
+    l(["Fast small tuples"])
+    T ~~~ a
+    a --> b
+    b -- "yes" --> c
+    c --> e
+    b -- "no" --> d
+    d --> e
+    e --> f
+    f --> g
+    g -- "yes" --> h
+    g -- "no" --> i
+    i --> j
+    j --> k
+    k --> l
+    class b,g dec
+    class l term
+    class e store
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational blueprint illustrates how abstract abstractions map directly to physical hardware architectures, optimizing memory locality and instruction throughput.

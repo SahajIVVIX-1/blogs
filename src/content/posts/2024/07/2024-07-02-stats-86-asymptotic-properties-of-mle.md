@@ -51,18 +51,30 @@ To build intuitive geometric comprehension, the operational mechanics and struct
 
 ```mermaid
 flowchart TD
-    T(["THEORETICAL FOUNDATION: ASYMPTOTIC PROPERTIES OF MLE"]):::title
-    I(["Mathematical Measure Space (Ω, F, P)"]):::io
-    L["<b>Analytical Formulation</b><br/>• Probability Density / PMF<br/>• Parameter Vector θ ∈ Θ<br/>• Closed-form Derivation"]
-    R["<b>Empirical Space</b><br/>• Sample Realizations (x_1..x_N)<br/>• Sufficient Statistics T(X)<br/>• Monte Carlo Estimators"]
-    E["<b>Asymptotic Convergence #amp; Limits</b><br/>• Large Sample Consistency: n -#gt; ∞<br/>• Fisher Information #amp; Asymptotic Efficiency<br/>• Bounded Variance #amp; Asymptotic Normality"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
+    T(["Probability #amp; Statistics · Asymptotic Properties of MLE: Consistency, Asymptotic Efficiency, and Asymptotic Normality"]):::title
+    a["MLE under regularity conditions"]
+    b["Consistent: tends to the true theta"]
+    c["sqrt(n)(MLE - theta) tends to N(0, 1/I)"]
+    d["Asymptotically efficient: attains the CRLB"]
+    e["Invariance: g(MLE) is the MLE of g(theta)"]
+    f{"Regularity violated?"}
+    g["Boundary or non-smooth cases"]
+    h(["Large-sample optimality"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c --> d
+    d --> e
+    e --> f
+    f -- "yes" --> g
+    g --> h
+    f -- "no" --> h
+    class f dec
+    class h term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This conceptual blueprint highlights how abstract probability spaces project down into observable sample geometries, connecting theoretical expectation functionals with concrete sample statistics.

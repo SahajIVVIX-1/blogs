@@ -77,18 +77,44 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["DEEP AUTOREGRESSIVE REASONING PIPELINE"]):::title
-    X(["Input Token Sequence x_{1:t}"]):::io --> N["Rotary Positional Encoding (RoPE) #amp; RMSNorm"]
-    N --> G["<b>Grouped-Query Attention Block (GQA)</b><br/>Q = x * W_q, K = x * W_k (shared), V = x * W_v (shared)"]
-    G --> S["SwiGLU Feed-Forward Network: (xW_gate * swish(xW_up)) * W_down"]
-    S --> R["Residual Accumulator #amp; Pre-Layer Normalization"]
-    R --> H1(["Direct Next-Token Logits"])
-    R --> H2(["Implicit Reward Head"])
-    H1 --> P1["Temperature-Scaled Top-p Sampling"]
-    H2 --> P2["Alignment Loss Check"]
-    T ~~~ X
+    T(["Large Language Models as Optimizers"]):::title
+    n3[["Propose Optimization by PROmpting (OPRO), a simple and effective approach to leverage large language…"]]
+    n6[/"Evaluated against baselines"/]
+    n7{"Better than prior methods?"}
+    n10{{"Reported: 8% · 50%"}}
+    n11(["Code released with the paper"])
+    n12["Area: llm · reasoning · mathematical-reasoning · code-generation"]
+    subgraph G0["Problem and gap"]
+        n1["Optimization is ubiquitous"]
+        n2["While derivative-based algorithms have been powerful tools for various problems, the absence of gradient…"]
+    end
+    subgraph G1["How it works"]
+        n4["In each optimization step, the LLM generates new solutions from the prompt that contains previously…"]
+        n5["Showcase OPRO on linear regression and traveling salesman problems, then move on to prompt optimization…"]
+    end
+    subgraph G2["Evidence"]
+        n8["With a variety of LLMs, we demonstrate that the best prompts optimized by OPRO outperform human-designed…"]
+        n9["By up to 50% on Big-Bench Hard tasks"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n4 --> n5
+    n5 --> n6
+    n6 --> n7
+    n7 -- "yes" --> n8
+    n7 -- "yes" --> n9
+    n9 --> n10
+    n10 --> n11
+    n7 -- "no" --> n11
+    n12 --> n3
+    class n7 dec
+    class n11 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

@@ -77,18 +77,34 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["DEEP AUTOREGRESSIVE REASONING PIPELINE"]):::title
-    X(["Input Token Sequence x_{1:t}"]):::io --> N["Rotary Positional Encoding (RoPE) #amp; RMSNorm"]
-    N --> G["<b>Grouped-Query Attention Block (GQA)</b><br/>Q = x * W_q, K = x * W_k (shared), V = x * W_v (shared)"]
-    G --> S["SwiGLU Feed-Forward Network: (xW_gate * swish(xW_up)) * W_down"]
-    S --> R["Residual Accumulator #amp; Pre-Layer Normalization"]
-    R --> H1(["Direct Next-Token Logits"])
-    R --> H2(["Implicit Reward Head"])
-    H1 --> P1["Temperature-Scaled Top-p Sampling"]
-    H2 --> P2["Alignment Loss Check"]
-    T ~~~ X
+    T(["Scaling Synthetic Data Creation with 1,000,000,000 Personas"]):::title
+    n1[["Propose a novel persona-driven data synthesis methodology that leverages various perspectives within a…"]]
+    n2["To fully exploit this methodology at scale, we introduce Persona Hub -- a collection of 1 billion diverse…"]
+    n3[/"Evaluated against baselines"/]
+    n4{"Evidence supports the claim?"}
+    n7{{"Reported: 13%"}}
+    n8(["Code released with the paper"])
+    n9["Area: llm · reasoning · mathematical-reasoning · code-generation"]
+    subgraph G0["Evidence"]
+        n5["These 1 billion personas (~13% of the world's total population), acting as distributed carriers of world…"]
+        n6["By showcasing Persona Hub's use cases in synthesizing high-quality mathematical and logical reasoning…"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n4 -- "yes" --> n5
+    n4 -- "yes" --> n6
+    n6 --> n7
+    n7 --> n8
+    n4 -- "no" --> n8
+    n9 --> n1
+    class n4 dec
+    class n8 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

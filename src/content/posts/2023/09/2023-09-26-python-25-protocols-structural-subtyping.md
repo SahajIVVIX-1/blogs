@@ -43,20 +43,37 @@ The structural flow, component relationships, and operational hierarchy of **Pro
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM TOPOLOGY: PROTOCOLS #amp; STRUCTURAL SUBTYPING"]):::title
-    I(["Primary Input / Data Descriptor Space"]):::io
-    L["<b>Memory Layout #amp; Internal State</b><br/>• Contiguous Buffer / Cache Lines<br/>• Invariant Constraints #amp; Headers<br/>• Structural Hierarchy (O(1) Access)"]
-    R["<b>Algorithmic Control Flow</b><br/>• Transformation Kernel / Pipeline<br/>• Dispatch Table / Virtual Methods<br/>• Dynamic Resolution / Graph Routing"]
-    E["<b>Execution Pipeline #amp; Vectorization</b><br/>• Cache Locality Optimization (Spatial #amp; Temporal)<br/>• Bounded Asymptotic Complexity: O(n) Time, O(1) Space<br/>• Deterministic Memory Deallocation #amp; Lifecycle"]
-    O["<b>High-Throughput Production Serving</b><br/>• Zero-Copy Slicing / Shared References<br/>• Lock-Free Concurrency #amp; Thread Safety<br/>• Monitored Latency #amp; Error Resilience"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Python for AI #amp; Systems · Protocols #amp; Structural Subtyping: Duck Typing with Runtime Validation"]):::title
+    a["Define typing.Protocol"]
+    b["Declare required methods"]
+    c{"Class has all members?"}
+    d["Static checker accepts structurally"]
+    e["No inheritance needed"]
+    f{"@runtime_checkable?"}
+    g["isinstance checks attribute presence"]
+    h["Only static analysis"]
+    i{"Signature compatible?"}
+    j["Type error reported"]
+    k(["Duck typing with validation"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c -- "yes" --> d
+    d --> e
+    e --> f
+    c -- "no" --> j
+    f -- "yes" --> g
+    g --> i
+    f -- "no" --> h
+    h --> k
+    i -- "yes" --> k
+    i -- "no" --> j
+    class c,f,i dec
+    class k term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational blueprint illustrates how abstract abstractions map directly to physical hardware architectures, optimizing memory locality and instruction throughput.

@@ -51,18 +51,27 @@ To build intuitive geometric comprehension, the operational mechanics and struct
 
 ```mermaid
 flowchart TD
-    T(["THEORETICAL FOUNDATION: CONTINUOUS MGFS"]):::title
-    I(["Mathematical Measure Space (Ω, F, P)"]):::io
-    L["<b>Analytical Formulation</b><br/>• Probability Density / PMF<br/>• Parameter Vector θ ∈ Θ<br/>• Closed-form Derivation"]
-    R["<b>Empirical Space</b><br/>• Sample Realizations (x_1..x_N)<br/>• Sufficient Statistics T(X)<br/>• Monte Carlo Estimators"]
-    E["<b>Asymptotic Convergence #amp; Limits</b><br/>• Large Sample Consistency: n -#gt; ∞<br/>• Fisher Information #amp; Asymptotic Efficiency<br/>• Bounded Variance #amp; Asymptotic Normality"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
+    T(["Probability #amp; Statistics · Continuous MGFs: Moment Extraction and Sums of Independent Continuous Variates"]):::title
+    a["Continuous MGF M(t)"]
+    b{"Finite near zero?"}
+    c["Derivatives give moments"]
+    d["Sum of independent: multiply MGFs"]
+    e["Identify Gamma, Normal families"]
+    f["Chernoff bounds use the MGF"]
+    g(["Moment and sum calculations"])
+    T ~~~ a
+    a --> b
+    b -- "yes" --> c
+    c --> d
+    d --> e
+    e --> f
+    f --> g
+    class b dec
+    class g term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This conceptual blueprint highlights how abstract probability spaces project down into observable sample geometries, connecting theoretical expectation functionals with concrete sample statistics.

@@ -51,20 +51,31 @@ The structural geometry, functional mappings, and algorithmic pipeline of **Resi
 
 ```mermaid
 flowchart TD
-    T(["ALGORITHMIC TOPOLOGY: RESIDUAL SUM OF SQUARES, TOTAL SUM OF SQUARES, AND COEFFICIENT OF DETERMINATION (R^2)"]):::title
-    I(["Input Feature Matrix: X ∈ R^{n × d}, Labels: y ∈ Y"]):::io
-    L["<b>Feature Mapping / Space Geometry</b><br/>• Subspace Projection / Kernel Space<br/>• Orthonormal Coordinates #amp; Basis<br/>• Geometric Decision Boundaries"]
-    R["<b>Loss Formulation</b><br/>• Objective: L(w; X, y)<br/>• Regularization Penalty R(w)<br/>• Convex Convexity Bounds"]
-    E["<b>Optimization #amp; Analytical Solution</b><br/>• Gradient: ∇_w L(w) = 0<br/>• Hessian Curvature: H = ∇^2 L(w) ≻ 0<br/>• Iterative Updates: w_{t+1} = w_t - η · H^{-1} ∇L"]
-    O["<b>Empirical Generalization #amp; Inference</b><br/>• Out-of-Sample Risk R_emp(f)<br/>• Variance-Bias Frontier Calibration<br/>• High-Throughput Production Serving"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Machine Learning · Residual Sum of Squares, Total Sum of Squares, and Coefficient of Determination (R^2)"]):::title
+    a["Fitted model"]
+    b["RSS = sum (y - y_hat)^2"]
+    c["TSS = sum (y - ybar)^2"]
+    d["R^2 = 1 - RSS / TSS"]
+    e{"Added features?"}
+    f["R^2 never decreases"]
+    g["Adjusted R^2 penalizes parameters"]
+    h(["Variance explained"])
+    T ~~~ a
+    a --> b
+    b --> d
+    a --> c
+    c --> d
+    d --> e
+    e -- "yes" --> f
+    f --> g
+    g --> h
+    e -- "no" --> h
+    class e dec
+    class h term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational diagram illustrates how high-dimensional feature points are transformed, regularized, and mapped to objective losses to achieve minimal out-of-sample generalization error.

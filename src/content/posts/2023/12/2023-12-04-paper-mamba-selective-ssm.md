@@ -77,18 +77,55 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["DEEP AUTOREGRESSIVE REASONING PIPELINE"]):::title
-    X(["Input Token Sequence x_{1:t}"]):::io --> N["Rotary Positional Encoding (RoPE) #amp; RMSNorm"]
-    N --> G["<b>Grouped-Query Attention Block (GQA)</b><br/>Q = x * W_q, K = x * W_k (shared), V = x * W_v (shared)"]
-    G --> S["SwiGLU Feed-Forward Network: (xW_gate * swish(xW_up)) * W_down"]
-    S --> R["Residual Accumulator #amp; Pre-Layer Normalization"]
-    R --> H1(["Direct Next-Token Logits"])
-    R --> H2(["Implicit Reward Head"])
-    H1 --> P1["Temperature-Scaled Top-p Sampling"]
-    H2 --> P2["Alignment Loss Check"]
-    T ~~~ X
+    T(["Mamba: Linear-Time Sequence Modeling with Selective State Spaces"]):::title
+    n3[["Mamba: Identify that a key weakness of such models is their inability to perform content-based…"]]
+    n4["Second, even though this change prevents the use of efficient convolutions, we design a hardware-aware…"]
+    n8[/"Evaluated against baselines"/]
+    n9{"Holds on the benchmarks?"}
+    n13{{"Reported: 3B"}}
+    n14(["Code released with the paper"])
+    n15["Area: efficiency · quantization · inference-acceleration · llm-systems"]
+    subgraph G0["Problem and gap"]
+        n1["Foundation models, now powering most of the exciting applications in deep learning, are almost universally…"]
+        n2["Many subquadratic-time architectures such as linear attention, gated convolution and recurrent models, and…"]
+    end
+    subgraph G1["How it works"]
+        n5["First, simply letting the SSM parameters be functions of the input addresses their weakness with discrete…"]
+        n6["The model to selectively propagate or forget information along the sequence length dimension depending on…"]
+        n7["Integrate these selective SSMs into a simplified end-to-end neural network architecture without attention…"]
+    end
+    subgraph G2["Evidence"]
+        n10["Mamba enjoys fast inference (5times higher throughput than Transformers) and linear scaling in sequence…"]
+        n11["As a general sequence model backbone, Mamba achieves state-of-the-art performance across several…"]
+        n12["On language modeling, our Mamba-3B model outperforms Transformers of the same size and matches…"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n3 --> n5
+    n3 --> n6
+    n3 --> n7
+    n5 --> n8
+    n6 --> n8
+    n7 --> n8
+    n4 --> n8
+    n8 --> n9
+    n9 -- "yes" --> n10
+    n9 -- "yes" --> n11
+    n9 -- "yes" --> n12
+    n9 -- "no" --> n3
+    n13 --> n14
+    n10 --> n13
+    n11 --> n13
+    n12 --> n13
+    n15 --> n1
+    class n9 dec
+    class n14 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

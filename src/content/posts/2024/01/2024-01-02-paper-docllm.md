@@ -68,21 +68,48 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["LATENT FLOW MATCHING #amp; SYNTHESIS PIPELINE"]):::title
-    N(["Gaussian Noise x_1 ~ N(0, I)"]):::io --> TE["<b>Timestep Embedding</b><br/>t in [0, 1]"]
-    C(["Prompt / Condition c"]):::io --> CA["<b>Cross-Attention</b><br/>Text Encoder Head"]
-    TE --> VF["<b>Latent Vector Field Network</b><br/>v_theta(x_t, t, c)"]
-    CA --> VF
-    VF --> VP(["Velocity Vector Prediction: dx_t / dt"])
-    VP --> ODE["<b>Numerical ODE Solver Step</b><br/>x_{t - dt} = x_t - v * dt"]
-    ODE -- "iterate N steps" --> VF
-    ODE --> Z(["Synthesized Latent State x_0"])
-    Z --> D["Variational Autoencoder Decoder"]
-    D --> OUT(["High-Fidelity Output Image"]):::io
-    T ~~~ N
-    T ~~~ C
+    T(["DocLLM: A layout-aware generative language model for multimodal document understanding"]):::title
+    n3[["Present DocLLM, a lightweight extension to traditional large language models (LLMs) for reasoning over…"]]
+    n4["Devise a pre-training objective that learns to infill text segments"]
+    n9[/"Evaluated against baselines"/]
+    n10{"Holds on the benchmarks?"}
+    n11["Demonstrate that our solution outperforms SotA LLMs on 14 out of 16 datasets across all tasks, and…"]
+    n12(["arXiv 2401.00908"])
+    n13["Area: generative-ai · diffusion-models · image-synthesis · multimodal"]
+    subgraph G0["Problem and gap"]
+        n1["Enterprise documents such as forms, invoices, receipts, reports, contracts, and other similar records…"]
+        n2["The visual cues offered by their complex layouts play a crucial role in comprehending these documents…"]
+    end
+    subgraph G1["How it works"]
+        n5["Our model differs from existing multimodal LLMs by avoiding expensive image encoders and focuses…"]
+        n6["The cross-alignment between text and spatial modalities is captured by decomposing the attention mechanism…"]
+        n7["This approach allows us to address irregular layouts and heterogeneous content frequently encountered in…"]
+        n8["The pre-trained model is fine-tuned using a large-scale instruction dataset, covering four core document…"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n3 --> n5
+    n3 --> n6
+    n3 --> n7
+    n3 --> n8
+    n5 --> n9
+    n6 --> n9
+    n7 --> n9
+    n8 --> n9
+    n4 --> n9
+    n9 --> n10
+    n10 -- "yes" --> n11
+    n10 -- "no" --> n3
+    n11 --> n12
+    n13 --> n1
+    class n10 dec
+    class n12 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

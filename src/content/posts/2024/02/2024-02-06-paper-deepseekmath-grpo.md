@@ -77,18 +77,36 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["DEEP AUTOREGRESSIVE REASONING PIPELINE"]):::title
-    X(["Input Token Sequence x_{1:t}"]):::io --> N["Rotary Positional Encoding (RoPE) #amp; RMSNorm"]
-    N --> G["<b>Grouped-Query Attention Block (GQA)</b><br/>Q = x * W_q, K = x * W_k (shared), V = x * W_v (shared)"]
-    G --> S["SwiGLU Feed-Forward Network: (xW_gate * swish(xW_up)) * W_down"]
-    S --> R["Residual Accumulator #amp; Pre-Layer Normalization"]
-    R --> H1(["Direct Next-Token Logits"])
-    R --> H2(["Implicit Reward Head"])
-    H1 --> P1["Temperature-Scaled Top-p Sampling"]
-    H2 --> P2["Alignment Loss Check"]
-    T ~~~ X
+    T(["DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models"]):::title
+    n1["Mathematical reasoning poses a significant challenge for language models due to its complex and structured…"]
+    n2[["Introduce DeepSeekMath 7B, which continues pre-training DeepSeek-Coder-Base-v1.5 7B with 120B…"]]
+    n3["Second, we introduce Group Relative Policy Optimization (GRPO), a variant of Proximal Policy Optimization…"]
+    n4[/"Evaluated against baselines"/]
+    n5{"Holds on the benchmarks?"}
+    n8{{"Reported: 7B · 51.7% · 60.9%"}}
+    n9(["The mathematical reasoning capability of DeepSeekMath is attributed to two key factors…"])
+    n10["Area: llm · reasoning · mathematical-reasoning · code-generation"]
+    subgraph G0["Evidence"]
+        n6["DeepSeekMath 7B has achieved an impressive score of 51.7% on the competition-level MATH benchmark without…"]
+        n7["Self-consistency over 64 samples from DeepSeekMath 7B achieves 60.9% on MATH"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n4 --> n5
+    n5 -- "yes" --> n6
+    n5 -- "yes" --> n7
+    n7 --> n8
+    n8 --> n9
+    n5 -- "no" --> n9
+    n10 --> n2
+    class n5 dec
+    class n9 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

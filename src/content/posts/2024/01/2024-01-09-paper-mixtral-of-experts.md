@@ -77,18 +77,48 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["DEEP AUTOREGRESSIVE REASONING PIPELINE"]):::title
-    X(["Input Token Sequence x_{1:t}"]):::io --> N["Rotary Positional Encoding (RoPE) #amp; RMSNorm"]
-    N --> G["<b>Grouped-Query Attention Block (GQA)</b><br/>Q = x * W_q, K = x * W_k (shared), V = x * W_v (shared)"]
-    G --> S["SwiGLU Feed-Forward Network: (xW_gate * swish(xW_up)) * W_down"]
-    S --> R["Residual Accumulator #amp; Pre-Layer Normalization"]
-    R --> H1(["Direct Next-Token Logits"])
-    R --> H2(["Implicit Reward Head"])
-    H1 --> P1["Temperature-Scaled Top-p Sampling"]
-    H2 --> P2["Alignment Loss Check"]
-    T ~~~ X
+    T(["Mixtral of Experts"]):::title
+    n1[["Introduce Mixtral 8x7B, a Sparse Mixture of Experts (SMoE) language model"]]
+    n6[/"Evaluated against baselines"/]
+    n7{"Beats strong baselines?"}
+    n11{{"Reported: 70B · 8x · 7B · 47B · 13B"}}
+    n12(["Both the base and instruct models are released under the Apache 2.0 license"])
+    n13["Area: llm · reasoning · mathematical-reasoning · code-generation"]
+    subgraph G0["How it works"]
+        n2["Mixtral has the same architecture as Mistral 7B, with the difference that each layer is composed of 8…"]
+        n3["For every token, at each layer, a router network selects two experts to process the current state and…"]
+        n4["Even though each token only sees two experts, the selected experts can be different at each timestep"]
+        n5["As a result, each token has access to 47B parameters, but only uses 13B active parameters during inference"]
+    end
+    subgraph G1["Evidence"]
+        n8["Mixtral was trained with a context size of 32k tokens and it outperforms or matches Llama 2 70B and…"]
+        n9["In particular, Mixtral vastly outperforms Llama 2 70B on mathematics, code generation, and multilingual…"]
+        n10["Provide a model fine-tuned to follow instructions, Mixtral 8x7B - Instruct, that surpasses GPT-3.5 Turbo…"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n4 --> n5
+    n1 --> n1
+    n5 --> n6
+    n1 --> n6
+    n6 --> n7
+    n7 -- "yes" --> n8
+    n7 -- "yes" --> n9
+    n7 -- "yes" --> n10
+    n7 -- "no" --> n1
+    n11 --> n12
+    n8 --> n11
+    n9 --> n11
+    n10 --> n11
+    n13 --> n1
+    class n7 dec
+    class n12 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

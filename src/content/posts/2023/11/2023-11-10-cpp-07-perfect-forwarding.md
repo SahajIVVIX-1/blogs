@@ -43,20 +43,37 @@ The structural flow, component relationships, and operational hierarchy of **Per
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM TOPOLOGY: PERFECT FORWARDING"]):::title
-    I(["Primary Input / Data Descriptor Space"]):::io
-    L["<b>Memory Layout #amp; Internal State</b><br/>• Contiguous Buffer / Cache Lines<br/>• Invariant Constraints #amp; Headers<br/>• Structural Hierarchy (O(1) Access)"]
-    R["<b>Algorithmic Control Flow</b><br/>• Transformation Kernel / Pipeline<br/>• Dispatch Table / Virtual Methods<br/>• Dynamic Resolution / Graph Routing"]
-    E["<b>Execution Pipeline #amp; Vectorization</b><br/>• Cache Locality Optimization (Spatial #amp; Temporal)<br/>• Bounded Asymptotic Complexity: O(n) Time, O(1) Space<br/>• Deterministic Memory Deallocation #amp; Lifecycle"]
-    O["<b>High-Throughput Production Serving</b><br/>• Zero-Copy Slicing / Shared References<br/>• Lock-Free Concurrency #amp; Thread Safety<br/>• Monitored Latency #amp; Error Resilience"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["C++ #amp; High-Performance DSA · Perfect Forwarding: Universal References, Forwarding References, and std::forward"]):::title
+    a["template wrapper(T#amp;#amp; arg)"]
+    b{"Argument is lvalue or rvalue?"}
+    c["Deduce T = U#amp;, collapses to U#amp;"]
+    d["Deduce T = U, parameter is U#amp;#amp;"]
+    e["Reference collapsing rules"]
+    f["std::forward#lt;T#gt;(arg) restores category"]
+    g["Call target(arg) preserving value category"]
+    h{"Lvalue reaches const T#amp; overload?"}
+    i["Copy"]
+    j["Move"]
+    k(["Zero-overhead perfect forwarding"])
+    T ~~~ a
+    a --> b
+    b -- "lvalue" --> c
+    c --> e
+    b -- "rvalue" --> d
+    d --> e
+    e --> f
+    f --> g
+    g --> h
+    h -- "yes" --> i
+    i --> k
+    h -- "no" --> j
+    j --> k
+    class b,h dec
+    class k term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational blueprint illustrates how abstract abstractions map directly to physical hardware architectures, optimizing memory locality and instruction throughput.

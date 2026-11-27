@@ -51,18 +51,34 @@ To build intuitive geometric comprehension, the operational mechanics and struct
 
 ```mermaid
 flowchart TD
-    T(["THEORETICAL FOUNDATION: COX PROPORTIONAL HAZARDS MODEL"]):::title
-    I(["Mathematical Measure Space (Ω, F, P)"]):::io
-    L["<b>Analytical Formulation</b><br/>• Probability Density / PMF<br/>• Parameter Vector θ ∈ Θ<br/>• Closed-form Derivation"]
-    R["<b>Empirical Space</b><br/>• Sample Realizations (x_1..x_N)<br/>• Sufficient Statistics T(X)<br/>• Monte Carlo Estimators"]
-    E["<b>Asymptotic Convergence #amp; Limits</b><br/>• Large Sample Consistency: n -#gt; ∞<br/>• Fisher Information #amp; Asymptotic Efficiency<br/>• Bounded Variance #amp; Asymptotic Normality"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
+    T(["Probability #amp; Statistics · Cox Proportional Hazards Model: Semi-Parametric Hazard Modeling and Partial Likelihood"]):::title
+    a["Covariates x and event times"]
+    b["Hazard h(t | x) = h0(t) exp(beta^T x)"]
+    c["Baseline h0 left unspecified"]
+    d[["Partial likelihood over event times"]]
+    e["Risk set at each event"]
+    f["Maximize for beta"]
+    g{"Proportional hazards holds?"}
+    h["Hazard ratio exp(beta)"]
+    i["Stratify or add time interaction"]
+    j(["Semi-parametric survival regression"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c --> d
+    d --> e
+    e --> f
+    f --> g
+    g -- "yes" --> h
+    h --> j
+    g -- "no" --> i
+    i --> j
+    class g dec
+    class j term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This conceptual blueprint highlights how abstract probability spaces project down into observable sample geometries, connecting theoretical expectation functionals with concrete sample statistics.

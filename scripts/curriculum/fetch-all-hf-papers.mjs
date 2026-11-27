@@ -9,7 +9,7 @@ const ROOT = path.resolve(__dirname, '../..');
 const SOURCES_DIR = path.join(ROOT, 'data/sources');
 
 const startDate = new Date('2023-08-04T00:00:00Z');
-const endDate = new Date('2026-11-03T00:00:00Z');
+const endDate = new Date(process.env.END_DATE || new Date().toISOString().slice(0, 10) + 'T00:00:00Z');
 
 const allDates = [];
 for (let d = new Date(startDate); d <= endDate; d.setUTCDate(d.getUTCDate() + 1)) {

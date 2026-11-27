@@ -68,21 +68,36 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["LATENT FLOW MATCHING #amp; SYNTHESIS PIPELINE"]):::title
-    N(["Gaussian Noise x_1 ~ N(0, I)"]):::io --> TE["<b>Timestep Embedding</b><br/>t in [0, 1]"]
-    C(["Prompt / Condition c"]):::io --> CA["<b>Cross-Attention</b><br/>Text Encoder Head"]
-    TE --> VF["<b>Latent Vector Field Network</b><br/>v_theta(x_t, t, c)"]
-    CA --> VF
-    VF --> VP(["Velocity Vector Prediction: dx_t / dt"])
-    VP --> ODE["<b>Numerical ODE Solver Step</b><br/>x_{t - dt} = x_t - v * dt"]
-    ODE -- "iterate N steps" --> VF
-    ODE --> Z(["Synthesized Latent State x_0"])
-    Z --> D["Variational Autoencoder Decoder"]
-    D --> OUT(["High-Fidelity Output Image"]):::io
-    T ~~~ N
-    T ~~~ C
+    T(["CodeFusion: A Pre-trained Diffusion Model for Code Generation"]):::title
+    n3[["Introduce CodeFusion, a pre-trained diffusion code generation model that addresses this limitation by…"]]
+    n4["Evaluate CodeFusion on the task of natural language to code generation for Bash, Python, and Microsoft…"]
+    n5[/"Evaluated against baselines"/]
+    n6{"Holds on the benchmarks?"}
+    n7["Experiments show that CodeFusion (75M parameters) performs on par with state-of-the-art auto-regressive…"]
+    n8{{"Reported: 75M · 350M · 175B"}}
+    n9(["arXiv 2310.17680"])
+    n10["Area: generative-ai · diffusion-models · image-synthesis · multimodal"]
+    subgraph G0["Problem and gap"]
+        n1["Imagine a developer who can only change their last line of code, how often would they have to start…"]
+        n2["Auto-regressive models for code generation from natural language have a similar limitation: they do not…"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n4 --> n5
+    n5 --> n6
+    n6 -- "yes" --> n7
+    n7 --> n8
+    n8 --> n9
+    n6 -- "no" --> n9
+    n10 --> n3
+    class n6 dec
+    class n9 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

@@ -72,20 +72,52 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["MULTIMODAL VISION-LANGUAGE ARCHITECTURE"]):::title
-    IMG(["Input Image I"]):::io --> VIT["<b>Vision Transformer</b><br/>Encoder (ViT-H/14)"]
-    TXT(["User Text Query T"]):::io --> TOK["<b>Word #amp; Position</b><br/>Token Embeddings"]
-    VIT --> PT(["Patch Tokens Z_v"])
-    PT --> ADP["Multi-Layer Projection Adapter g"]
-    ADP --> HV(["Aligned Visual Tokens H_v"])
-    HV --> CTX["<b>Interleaved Multimodal Context</b><br/>[ H_v || E(T) ]"]
-    TOK --> CTX
-    CTX --> LLM["<b>Autoregressive LLM Backbone</b><br/>(RoPE, GQA, SwiGLU Attention)"]
-    LLM --> RESP(["Grounded Textual Response"]):::io
-    T ~~~ IMG
-    T ~~~ TXT
+    T(["MM1: Methods, Analysis #amp; Insights from Multimodal LLM Pre-training"]):::title
+    n1[["MM1: Discuss building performant Multimodal Large Language Models (MLLMs)"]]
+    n2["In particular, we study the importance of various architecture components and data choices"]
+    n8[/"Evaluated against baselines"/]
+    n9{"Holds on the benchmarks?"}
+    n12{{"Reported: 30B"}}
+    n13(["arXiv 2403.09611"])
+    n14["Area: multimodal · vlms · vision-language · deep-learning"]
+    subgraph G0["How it works"]
+        n3["Through careful and comprehensive ablations of the image encoder, the vision language connector, and…"]
+        n4["Further, we show that the image encoder together with image resolution and the image token count has…"]
+        n5["The vision-language connector design is of comparatively negligible importance"]
+        n6["Thanks to large-scale pre-training, MM1 enjoys appealing properties such as enhanced in-context learning…"]
+        n7["Few-shot chain-of-thought prompting"]
+    end
+    subgraph G1["Evidence"]
+        n10["For example, we demonstrate that for large-scale multimodal pre-training using a careful mix of…"]
+        n11["By scaling up the presented recipe, we build MM1, a family of multimodal models up to 30B parameters…"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n1 --> n3
+    n1 --> n4
+    n1 --> n5
+    n1 --> n6
+    n1 --> n7
+    n3 --> n8
+    n4 --> n8
+    n5 --> n8
+    n6 --> n8
+    n7 --> n8
+    n2 --> n8
+    n8 --> n9
+    n9 -- "yes" --> n10
+    n9 -- "yes" --> n11
+    n9 -- "no" --> n1
+    n12 --> n13
+    n10 --> n12
+    n11 --> n12
+    n14 --> n1
+    class n9 dec
+    class n13 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

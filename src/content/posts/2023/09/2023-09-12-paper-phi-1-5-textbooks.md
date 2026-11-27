@@ -72,18 +72,32 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["DEEP AUTOREGRESSIVE REASONING PIPELINE"]):::title
-    X(["Input Token Sequence x_{1:t}"]):::io --> N["Rotary Positional Encoding (RoPE) #amp; RMSNorm"]
-    N --> G["<b>Grouped-Query Attention Block (GQA)</b><br/>Q = x * W_q, K = x * W_k (shared), V = x * W_v (shared)"]
-    G --> S["SwiGLU Feed-Forward Network: (xW_gate * swish(xW_up)) * W_down"]
-    S --> R["Residual Accumulator #amp; Pre-Layer Normalization"]
-    R --> H1(["Direct Next-Token Logits"])
-    R --> H2(["Implicit Reward Head"])
-    H1 --> P1["Temperature-Scaled Top-p Sampling"]
-    H2 --> P2["Alignment Loss Check"]
-    T ~~~ X
+    T(["Textbooks Are All You Need II: phi-1.5 technical report"]):::title
+    n4[["More generally, phi-1.5 exhibits many of the traits of much larger LLMs, both good -- such as the…"]]
+    n5[/"Evaluated against baselines"/]
+    n6{"Holds on the benchmarks?"}
+    n7(["Open-source phi-1.5 to promote further research on these urgent topics"])
+    n8["Area: llm · reasoning · mathematical-reasoning · code-generation"]
+    subgraph G0["Problem and gap"]
+        n1["Continue the investigation into the power of smaller Transformer-based language models as initiated by…"]
+        n2["The latter work proposed to use existing Large Language Models (LLMs) to generate ``textbook quality#quot; data…"]
+        n3["Follow the ``Textbooks Are All You Need#quot; approach, focusing this time on common sense reasoning in natural…"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n4 --> n5
+    n5 --> n6
+    n6 --> n7
+    n6 -- "no" --> n7
+    n8 --> n4
+    class n6 dec
+    class n7 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

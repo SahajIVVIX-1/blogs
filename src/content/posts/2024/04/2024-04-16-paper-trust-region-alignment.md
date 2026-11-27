@@ -72,18 +72,44 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["DEEP AUTOREGRESSIVE REASONING PIPELINE"]):::title
-    X(["Input Token Sequence x_{1:t}"]):::io --> N["Rotary Positional Encoding (RoPE) #amp; RMSNorm"]
-    N --> G["<b>Grouped-Query Attention Block (GQA)</b><br/>Q = x * W_q, K = x * W_k (shared), V = x * W_v (shared)"]
-    G --> S["SwiGLU Feed-Forward Network: (xW_gate * swish(xW_up)) * W_down"]
-    S --> R["Residual Accumulator #amp; Pre-Layer Normalization"]
-    R --> H1(["Direct Next-Token Logits"])
-    R --> H2(["Implicit Reward Head"])
-    H1 --> P1["Temperature-Scaled Top-p Sampling"]
-    H2 --> P2["Alignment Loss Check"]
-    T ~~~ X
+    T(["Learn Your Reference Model for Real Good Alignment"]):::title
+    n4[["In our paper, we argue that this implicit limitation in the DPO method leads to sub-optimal results"]]
+    n5["Propose a new method called Trust Region DPO (TR-DPO), which updates the reference policy during training"]
+    n6[/"Evaluated against baselines"/]
+    n7{"Better than prior methods?"}
+    n11{{"Reported: 19%"}}
+    n12(["arXiv 2404.09656"])
+    n13["Area: llm · alignment · rlhf-dpo · safety-guardrails"]
+    subgraph G0["Problem and gap"]
+        n1["The complexity of the alignment problem stems from the fact that existing methods are unstable"]
+        n2["Researchers continuously invent various tricks to address this shortcoming"]
+        n3["For instance, in the fundamental Reinforcement Learning From Human Feedback (RLHF) technique of Language…"]
+    end
+    subgraph G1["Evidence"]
+        n8["With such a straightforward update, we demonstrate the effectiveness of TR-DPO against DPO on the…"]
+        n9["Show that TR-DPO outperforms DPO by up to 19%, measured by automatic evaluation with GPT-4"]
+        n10["The new alignment approach that we propose allows us to improve the quality of models across several…"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n4 --> n5
+    n5 --> n6
+    n6 --> n7
+    n7 -- "yes" --> n8
+    n7 -- "yes" --> n9
+    n7 -- "yes" --> n10
+    n10 --> n11
+    n11 --> n12
+    n7 -- "no" --> n12
+    n13 --> n4
+    class n7 dec
+    class n12 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

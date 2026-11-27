@@ -43,20 +43,37 @@ The structural flow, component relationships, and operational hierarchy of **Mem
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM TOPOLOGY: MEMORY ALLOCATION INTERNALS"]):::title
-    I(["Primary Input / Data Descriptor Space"]):::io
-    L["<b>Memory Layout #amp; Internal State</b><br/>• Contiguous Buffer / Cache Lines<br/>• Invariant Constraints #amp; Headers<br/>• Structural Hierarchy (O(1) Access)"]
-    R["<b>Algorithmic Control Flow</b><br/>• Transformation Kernel / Pipeline<br/>• Dispatch Table / Virtual Methods<br/>• Dynamic Resolution / Graph Routing"]
-    E["<b>Execution Pipeline #amp; Vectorization</b><br/>• Cache Locality Optimization (Spatial #amp; Temporal)<br/>• Bounded Asymptotic Complexity: O(n) Time, O(1) Space<br/>• Deterministic Memory Deallocation #amp; Lifecycle"]
-    O["<b>High-Throughput Production Serving</b><br/>• Zero-Copy Slicing / Shared References<br/>• Lock-Free Concurrency #amp; Thread Safety<br/>• Monitored Latency #amp; Error Resilience"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["C++ #amp; High-Performance DSA · Memory Allocation Internals: new, delete, malloc, Placement New, and Custom Allocators"]):::title
+    a["new T(args)"]
+    b[["operator new allocates raw bytes"]]
+    c[["Constructor runs in that storage"]]
+    d["delete: destructor, then operator delete"]
+    e{"Need to separate allocation and construction?"}
+    f["Placement new on a prepared buffer"]
+    g["Call destructor explicitly"]
+    h{"Allocation pattern special?"}
+    i["Custom allocator: pool, arena, bump"]
+    j["malloc/free for C interop"]
+    k(["Controlled lifetime and layout"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c --> d
+    d --> e
+    e -- "yes" --> f
+    f --> g
+    g --> h
+    e -- "no" --> h
+    h -- "yes" --> i
+    i --> k
+    h -- "no" --> j
+    j --> k
+    class e,h dec
+    class k term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational blueprint illustrates how abstract abstractions map directly to physical hardware architectures, optimizing memory locality and instruction throughput.

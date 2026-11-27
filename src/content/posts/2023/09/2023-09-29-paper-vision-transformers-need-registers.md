@@ -77,18 +77,33 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["DEEP AUTOREGRESSIVE REASONING PIPELINE"]):::title
-    X(["Input Token Sequence x_{1:t}"]):::io --> N["Rotary Positional Encoding (RoPE) #amp; RMSNorm"]
-    N --> G["<b>Grouped-Query Attention Block (GQA)</b><br/>Q = x * W_q, K = x * W_k (shared), V = x * W_v (shared)"]
-    G --> S["SwiGLU Feed-Forward Network: (xW_gate * swish(xW_up)) * W_down"]
-    S --> R["Residual Accumulator #amp; Pre-Layer Normalization"]
-    R --> H1(["Direct Next-Token Logits"])
-    R --> H2(["Implicit Reward Head"])
-    H1 --> P1["Temperature-Scaled Top-p Sampling"]
-    H2 --> P2["Alignment Loss Check"]
-    T ~~~ X
+    T(["Vision Transformers Need Registers"]):::title
+    n1["Transformers have recently emerged as a powerful tool for learning visual representations"]
+    n2[["Identify and characterize artifacts in feature maps of both supervised and self-supervised ViT networks"]]
+    n3["Propose a simple yet effective solution based on providing additional tokens to the input sequence of the…"]
+    n4["The artifacts correspond to high-norm tokens appearing during inference primarily in low-informative…"]
+    n5[/"Evaluated against baselines"/]
+    n6{"Result holds up?"}
+    n7["Show that this solution fixes that problem entirely for both supervised and self-supervised models, sets a…"]
+    n8(["Code released with the paper"])
+    n9["Area: llm · pretraining · instruction-tuning · nlp"]
+    T ~~~ n1
+    n2 --> n3
+    n3 --> n4
+    n1 --> n2
+    n4 --> n5
+    n1 --> n5
+    n5 --> n6
+    n6 -- "yes" --> n7
+    n6 -- "no" --> n1
+    n7 --> n8
+    n9 --> n2
+    class n6 dec
+    class n8 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

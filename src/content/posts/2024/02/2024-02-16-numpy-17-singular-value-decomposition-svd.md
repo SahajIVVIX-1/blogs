@@ -43,20 +43,37 @@ The structural flow, component relationships, and operational hierarchy of **Sin
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM TOPOLOGY: SINGULAR VALUE DECOMPOSITION (SVD)"]):::title
-    I(["Primary Input / Data Descriptor Space"]):::io
-    L["<b>Memory Layout #amp; Internal State</b><br/>• Contiguous Buffer / Cache Lines<br/>• Invariant Constraints #amp; Headers<br/>• Structural Hierarchy (O(1) Access)"]
-    R["<b>Algorithmic Control Flow</b><br/>• Transformation Kernel / Pipeline<br/>• Dispatch Table / Virtual Methods<br/>• Dynamic Resolution / Graph Routing"]
-    E["<b>Execution Pipeline #amp; Vectorization</b><br/>• Cache Locality Optimization (Spatial #amp; Temporal)<br/>• Bounded Asymptotic Complexity: O(n) Time, O(1) Space<br/>• Deterministic Memory Deallocation #amp; Lifecycle"]
-    O["<b>High-Throughput Production Serving</b><br/>• Zero-Copy Slicing / Shared References<br/>• Lock-Free Concurrency #amp; Thread Safety<br/>• Monitored Latency #amp; Error Resilience"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["NumPy #amp; Numerical Computing · Singular Value Decomposition (SVD): np.linalg.svd, Low-Rank Approximations, and Pseudo-Inverse"]):::title
+    a["Matrix A (m x n)"]
+    b[["np.linalg.svd"]]
+    c["U, singular values s, V^T"]
+    d["Sort singular values descending"]
+    e{"Keep top k values?"}
+    f["Low-rank approximation A_k"]
+    g["Error equals the next singular value"]
+    h["Pseudo-inverse V s^-1 U^T"]
+    i{"Singular values below tolerance?"}
+    j["Zero them, avoid blow-up"]
+    k(["Compression and stable least squares"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c --> d
+    d --> e
+    e -- "yes" --> f
+    f --> g
+    g --> k
+    e -- "no" --> h
+    h --> i
+    i -- "yes" --> j
+    j --> k
+    i -- "no" --> k
+    class e,i dec
+    class k term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational blueprint illustrates how abstract abstractions map directly to physical hardware architectures, optimizing memory locality and instruction throughput.

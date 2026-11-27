@@ -73,22 +73,45 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["AUTONOMOUS AGENT ORCHESTRATION PIPELINE"]):::title
-    ENV(["Environment"]):::io --> OBS(["Multi-Modal State Observation o_t"])
-    OBS --> MEM["Episodic #amp; Semantic Memory Store"]
-    MEM --> PLAN["Planning #amp; Decomposition Module (LLM / Reasoner)"]
-    PLAN --> SEL(["Tool Selection Head"])
-    PLAN --> CRIT(["Self-Critic"])
-    SEL --> EXE["Tool Execution Call"]
-    CRIT --> VER{"Verification Passed?"}
-    VER -- Yes --> EXE
-    VER -- "No: re-plan" --> REF["Reflection State Update"]
-    EXE --> ACT(["Action a_t"])
-    REF --> ACT
-    ACT --> ENV
-    T ~~~ ENV
+    T(["Self-Rewarding Language Models"]):::title
+    n4[["Study Self-Rewarding Language Models, where the language model itself is used via LLM-as-a-Judge…"]]
+    n5[/"Evaluated against baselines"/]
+    n6{"Beats strong baselines?"}
+    n10{{"Reported: 70B"}}
+    n11(["Code released with the paper"])
+    n12["Area: agents · autonomous-systems · tool-use · decision-making"]
+    subgraph G0["Problem and gap"]
+        n1["Posit that to achieve superhuman agents, future models require superhuman feedback in order to provide an…"]
+        n2["Current approaches commonly train reward models from human preferences"]
+        n3["May then be bottlenecked by human performance level, and secondly these separate frozen reward models…"]
+    end
+    subgraph G1["Evidence"]
+        n7["Show that during Iterative DPO training that not only does instruction following ability improve, but also…"]
+        n8["Fine-tuning Llama 2 70B on three iterations of our approach yields a model that outperforms many existing…"]
+        n9["While only a preliminary study, this work opens the door to the possibility of models that can continually…"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n4 --> n5
+    n1 --> n5
+    n5 --> n6
+    n6 -- "yes" --> n7
+    n6 -- "yes" --> n8
+    n6 -- "yes" --> n9
+    n6 -- "no" --> n1
+    n10 --> n11
+    n7 --> n10
+    n8 --> n10
+    n9 --> n10
+    n12 --> n4
+    class n6 dec
+    class n11 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

@@ -28,6 +28,51 @@ From the post:
 - **2K and 4K** output
 - available to coding agents in **Google Antigravity** (e.g. generating UI mockups), and integrated by Adobe and Figma
 
+## How it fits together
+
+The flowchart below maps this announcement's main points and what depends on them.
+
+```mermaid
+flowchart TD
+    T(["Nano Banana Pro (Gemini 3 Pro Image) for developers"]):::title
+    n1(["Google DeepMind: Nano Banana Pro (Gemini 3 Pro Image) for developers"])
+    n2["Google DeepMind released Nano Banana Pro, an image generation and editing model built on Gemini 3 Pro, with…"]
+    n8[/"available to coding agents in Google Antigravity (e.g. generating UI mockups), and integrated by…"/]
+    n9{"Ready beyond the demo?"}
+    n10["Image models are converging with language models: the same backbone that reasons and searches also draws."]
+    n11(["Track the rollout and follow-up releases"])
+    n12["Topics: genai · image-generation · google"]
+    subgraph G0["What it adds"]
+        n3["built on Gemini 3 Pro, for higher-fidelity generation and editing"]
+        n4["more accurate text rendering in images"]
+        n5["grounding with Google Search, to retrieve facts relevant to the prompt"]
+        n6["control over lighting, camera, focus and colour grading, and over composition"]
+        n7["2K and 4K output"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n2 --> n4
+    n2 --> n5
+    n2 --> n6
+    n2 --> n7
+    n3 --> n9
+    n4 --> n9
+    n5 --> n9
+    n6 --> n9
+    n7 --> n9
+    n9 -- "yes" --> n8
+    n8 --> n10
+    n10 --> n11
+    n12 --> n2
+    class n9 dec
+    class n1,n11 term
+    classDef title fill:transparent,stroke:transparent,font-weight:700;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
+```
+
 ## Why it matters
 
 Image models are converging with language models: the same backbone that reasons and searches also draws. Text rendering, a classic weak point, is also what Qwen-Image targeted (August 2025 paper summary).

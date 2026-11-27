@@ -77,18 +77,34 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["DEEP AUTOREGRESSIVE REASONING PIPELINE"]):::title
-    X(["Input Token Sequence x_{1:t}"]):::io --> N["Rotary Positional Encoding (RoPE) #amp; RMSNorm"]
-    N --> G["<b>Grouped-Query Attention Block (GQA)</b><br/>Q = x * W_q, K = x * W_k (shared), V = x * W_v (shared)"]
-    G --> S["SwiGLU Feed-Forward Network: (xW_gate * swish(xW_up)) * W_down"]
-    S --> R["Residual Accumulator #amp; Pre-Layer Normalization"]
-    R --> H1(["Direct Next-Token Logits"])
-    R --> H2(["Implicit Reward Head"])
-    H1 --> P1["Temperature-Scaled Top-p Sampling"]
-    H2 --> P2["Alignment Loss Check"]
-    T ~~~ X
+    T(["LlamaFactory: Unified Efficient Fine-Tuning of 100+ Language Models"]):::title
+    n3[["Present LlamaFactory, a unified framework that integrates a suite of cutting-edge efficient training…"]]
+    n4["It allows users to flexibly customize the fine-tuning of 100+ LLMs without the need for coding through the…"]
+    n5[/"Evaluated against baselines"/]
+    n6{"Gains without quality loss?"}
+    n7["Empirically validate the efficiency and effectiveness of our framework on language modeling and text…"]
+    n8(["It has been released at https://github.com/hiyouga/LLaMA-Factory and already received…"])
+    n9["Area: efficiency · quantization · inference-acceleration · llm-systems"]
+    subgraph G0["Problem and gap"]
+        n1["Efficient fine-tuning is vital for adapting large language models (LLMs) to downstream tasks"]
+        n2["However, it requires non-trivial efforts to implement these methods on different models"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n4 --> n5
+    n5 --> n6
+    n6 -- "yes" --> n7
+    n7 --> n8
+    n6 -- "no" --> n8
+    n9 --> n3
+    class n6 dec
+    class n8 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

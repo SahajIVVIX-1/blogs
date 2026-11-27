@@ -51,20 +51,30 @@ The structural geometry, functional mappings, and algorithmic pipeline of **Dual
 
 ```mermaid
 flowchart TD
-    T(["ALGORITHMIC TOPOLOGY: DUALITY IN OPTIMIZATION"]):::title
-    I(["Input Feature Matrix: X ∈ R^{n × d}, Labels: y ∈ Y"]):::io
-    L["<b>Feature Mapping / Space Geometry</b><br/>• Subspace Projection / Kernel Space<br/>• Orthonormal Coordinates #amp; Basis<br/>• Geometric Decision Boundaries"]
-    R["<b>Loss Formulation</b><br/>• Objective: L(w; X, y)<br/>• Regularization Penalty R(w)<br/>• Convex Convexity Bounds"]
-    E["<b>Optimization #amp; Analytical Solution</b><br/>• Gradient: ∇_w L(w) = 0<br/>• Hessian Curvature: H = ∇^2 L(w) ≻ 0<br/>• Iterative Updates: w_{t+1} = w_t - η · H^{-1} ∇L"]
-    O["<b>Empirical Generalization #amp; Inference</b><br/>• Out-of-Sample Risk R_emp(f)<br/>• Variance-Bias Frontier Calibration<br/>• High-Throughput Production Serving"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Machine Learning · Duality in Optimization: Weak Duality, Strong Duality, and Slater's Condition"]):::title
+    a["Primal problem value p*"]
+    b["Dual problem value d*"]
+    c["Weak duality: d* #lt;= p*"]
+    d{"Convex and Slater point exists?"}
+    e["Strong duality: d* = p*"]
+    f["Duality gap may remain"]
+    g["Solve the easier of primal or dual"]
+    h(["Dual certificate of optimality"])
+    T ~~~ a
+    a --> c
+    b --> c
+    c --> d
+    d -- "yes" --> e
+    e --> g
+    g --> h
+    d -- "no" --> f
+    f --> h
+    class d dec
+    class h term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational diagram illustrates how high-dimensional feature points are transformed, regularized, and mapped to objective losses to achieve minimal out-of-sample generalization error.

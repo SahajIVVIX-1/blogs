@@ -43,20 +43,38 @@ The structural flow, component relationships, and operational hierarchy of **Adv
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM TOPOLOGY: ADVANCED FANCY INDEXING"]):::title
-    I(["Primary Input / Data Descriptor Space"]):::io
-    L["<b>Memory Layout #amp; Internal State</b><br/>• Contiguous Buffer / Cache Lines<br/>• Invariant Constraints #amp; Headers<br/>• Structural Hierarchy (O(1) Access)"]
-    R["<b>Algorithmic Control Flow</b><br/>• Transformation Kernel / Pipeline<br/>• Dispatch Table / Virtual Methods<br/>• Dynamic Resolution / Graph Routing"]
-    E["<b>Execution Pipeline #amp; Vectorization</b><br/>• Cache Locality Optimization (Spatial #amp; Temporal)<br/>• Bounded Asymptotic Complexity: O(n) Time, O(1) Space<br/>• Deterministic Memory Deallocation #amp; Lifecycle"]
-    O["<b>High-Throughput Production Serving</b><br/>• Zero-Copy Slicing / Shared References<br/>• Lock-Free Concurrency #amp; Thread Safety<br/>• Monitored Latency #amp; Error Resilience"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["NumPy #amp; Numerical Computing · Advanced Fancy Indexing: Integer Array Indexing Mechanics and Memory Copy Traps"]):::title
+    a["a[[0, 2, 4]]"]
+    b["Index array broadcast against axes"]
+    c["Gather elements by position"]
+    d[("New buffer allocated")]
+    e{"Assignment instead of read?"}
+    f["a[idx] = v scatters writes"]
+    g{"Duplicate indices?"}
+    h["Last write wins, no accumulation"]
+    i["np.add.at accumulates correctly"]
+    j["Memory trap: result is a copy"]
+    k(["Gather or scatter semantics clear"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c --> d
+    d --> j
+    a --> e
+    e -- "yes" --> f
+    f --> g
+    g -- "yes" --> h
+    h --> i
+    i --> k
+    g -- "no" --> k
+    j --> k
+    class e,g dec
+    class k term
+    class d store
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational blueprint illustrates how abstract abstractions map directly to physical hardware architectures, optimizing memory locality and instruction throughput.

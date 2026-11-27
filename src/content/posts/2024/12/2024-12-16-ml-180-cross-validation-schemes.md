@@ -51,20 +51,34 @@ The structural geometry, functional mappings, and algorithmic pipeline of **Cros
 
 ```mermaid
 flowchart TD
-    T(["ALGORITHMIC TOPOLOGY: CROSS-VALIDATION SCHEMES"]):::title
-    I(["Input Feature Matrix: X ∈ R^{n × d}, Labels: y ∈ Y"]):::io
-    L["<b>Feature Mapping / Space Geometry</b><br/>• Subspace Projection / Kernel Space<br/>• Orthonormal Coordinates #amp; Basis<br/>• Geometric Decision Boundaries"]
-    R["<b>Loss Formulation</b><br/>• Objective: L(w; X, y)<br/>• Regularization Penalty R(w)<br/>• Convex Convexity Bounds"]
-    E["<b>Optimization #amp; Analytical Solution</b><br/>• Gradient: ∇_w L(w) = 0<br/>• Hessian Curvature: H = ∇^2 L(w) ≻ 0<br/>• Iterative Updates: w_{t+1} = w_t - η · H^{-1} ∇L"]
-    O["<b>Empirical Generalization #amp; Inference</b><br/>• Out-of-Sample Risk R_emp(f)<br/>• Variance-Bias Frontier Calibration<br/>• High-Throughput Production Serving"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Machine Learning · Cross-Validation Schemes: K-Fold, Stratified K-Fold for Imbalance, and Leave-One-Out (LOOCV)"]):::title
+    a["Dataset"]
+    b{"Scheme?"}
+    c["K-fold: rotate the held-out fold"]
+    d["Stratified: keep class proportions"]
+    e["LOOCV: one sample held out"]
+    f["Average scores"]
+    g{"Small data?"}
+    h["LOOCV low bias, high variance"]
+    i(["Performance estimate"])
+    T ~~~ a
+    a --> b
+    b -- "kfold" --> c
+    c --> f
+    b -- "imbalance" --> d
+    d --> f
+    b -- "loo" --> e
+    e --> f
+    f --> g
+    g -- "yes" --> h
+    h --> i
+    g -- "no" --> i
+    class b,g dec
+    class i term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational diagram illustrates how high-dimensional feature points are transformed, regularized, and mapped to objective losses to achieve minimal out-of-sample generalization error.

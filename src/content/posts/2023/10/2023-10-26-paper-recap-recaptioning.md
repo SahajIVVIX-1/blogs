@@ -68,21 +68,48 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["LATENT FLOW MATCHING #amp; SYNTHESIS PIPELINE"]):::title
-    N(["Gaussian Noise x_1 ~ N(0, I)"]):::io --> TE["<b>Timestep Embedding</b><br/>t in [0, 1]"]
-    C(["Prompt / Condition c"]):::io --> CA["<b>Cross-Attention</b><br/>Text Encoder Head"]
-    TE --> VF["<b>Latent Vector Field Network</b><br/>v_theta(x_t, t, c)"]
-    CA --> VF
-    VF --> VP(["Velocity Vector Prediction: dx_t / dt"])
-    VP --> ODE["<b>Numerical ODE Solver Step</b><br/>x_{t - dt} = x_t - v * dt"]
-    ODE -- "iterate N steps" --> VF
-    ODE --> Z(["Synthesized Latent State x_0"])
-    Z --> D["Variational Autoencoder Decoder"]
-    D --> OUT(["High-Fidelity Output Image"]):::io
-    T ~~~ N
-    T ~~~ C
+    T(["A Picture is Worth a Thousand Words: Principled Recaptioning Improves Image Generation"]):::title
+    n4[["Observe that these captions are often of low quality, and argue that this significantly affects the…"]]
+    n7[/"Evaluated against baselines"/]
+    n8{"Efficiency gain holds?"}
+    n12{{"Reported: 64.3%"}}
+    n13(["arXiv 2310.16656"])
+    n14["Area: generative-ai · diffusion-models · image-synthesis · multimodal"]
+    subgraph G0["Problem and gap"]
+        n1["Text-to-image diffusion models achieved a remarkable leap in capabilities over the last few years"]
+        n2["High-quality and diverse synthesis of images from a textual prompt"]
+        n3["However, even the most advanced models often struggle to precisely follow all of the directions in their…"]
+    end
+    subgraph G1["How it works"]
+        n5["Show that by relabeling the corpus with a specialized automatic captioning model and training a…"]
+        n6["Second, in semantic alignment, e.g. semantic object accuracy 84.34 vs. 78.90, counting alignment errors…"]
+    end
+    subgraph G2["Evidence"]
+        n9["First, in overall image quality: e.g. FID 14.84 vs. the baseline of 17.87, and 64.3% improvement in…"]
+        n10["Analyze various ways to relabel the corpus and provide evidence that this technique"]
+        n11["Call RECAP, both reduces the train-inference discrepancy and provides the model with more information per…"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n4 --> n5
+    n5 --> n6
+    n6 --> n7
+    n7 --> n8
+    n8 -- "yes" --> n9
+    n8 -- "yes" --> n10
+    n8 -- "yes" --> n11
+    n11 --> n12
+    n12 --> n13
+    n8 -- "no" --> n13
+    n14 --> n4
+    class n8 dec
+    class n13 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

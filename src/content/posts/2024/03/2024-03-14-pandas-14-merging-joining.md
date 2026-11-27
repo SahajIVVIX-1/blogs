@@ -43,20 +43,38 @@ The structural flow, component relationships, and operational hierarchy of **Mer
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM TOPOLOGY: MERGING #amp; JOINING"]):::title
-    I(["Primary Input / Data Descriptor Space"]):::io
-    L["<b>Memory Layout #amp; Internal State</b><br/>• Contiguous Buffer / Cache Lines<br/>• Invariant Constraints #amp; Headers<br/>• Structural Hierarchy (O(1) Access)"]
-    R["<b>Algorithmic Control Flow</b><br/>• Transformation Kernel / Pipeline<br/>• Dispatch Table / Virtual Methods<br/>• Dynamic Resolution / Graph Routing"]
-    E["<b>Execution Pipeline #amp; Vectorization</b><br/>• Cache Locality Optimization (Spatial #amp; Temporal)<br/>• Bounded Asymptotic Complexity: O(n) Time, O(1) Space<br/>• Deterministic Memory Deallocation #amp; Lifecycle"]
-    O["<b>High-Throughput Production Serving</b><br/>• Zero-Copy Slicing / Shared References<br/>• Lock-Free Concurrency #amp; Thread Safety<br/>• Monitored Latency #amp; Error Resilience"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Pandas #amp; Large Data Engineering · Merging #amp; Joining: merge Mechanics, Hash Joins vs Sort-Merge Joins, and Merge Types"]):::title
+    a["merge(left, right, on='key')"]
+    b{"Join algorithm?"}
+    c["Hash join: build table on smaller side"]
+    d["Probe with the other side"]
+    e["Sorted keys: merge pass"]
+    f{"Join type?"}
+    g["inner: matches only"]
+    h["left: keep all left rows"]
+    i["outer: union of keys"]
+    j["validate='one_to_many' guards duplicates"]
+    k(["Correct join with checked cardinality"])
+    T ~~~ a
+    a --> b
+    b -- "hash" --> c
+    c --> d
+    d --> f
+    b -- "sorted" --> e
+    e --> f
+    f -- "inner" --> g
+    g --> j
+    f -- "left" --> h
+    h --> j
+    f -- "outer" --> i
+    i --> j
+    j --> k
+    class b,f dec
+    class k term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational blueprint illustrates how abstract abstractions map directly to physical hardware architectures, optimizing memory locality and instruction throughput.

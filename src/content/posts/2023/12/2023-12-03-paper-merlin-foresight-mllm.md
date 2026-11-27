@@ -72,20 +72,51 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["MULTIMODAL VISION-LANGUAGE ARCHITECTURE"]):::title
-    IMG(["Input Image I"]):::io --> VIT["<b>Vision Transformer</b><br/>Encoder (ViT-H/14)"]
-    TXT(["User Text Query T"]):::io --> TOK["<b>Word #amp; Position</b><br/>Token Embeddings"]
-    VIT --> PT(["Patch Tokens Z_v"])
-    PT --> ADP["Multi-Layer Projection Adapter g"]
-    ADP --> HV(["Aligned Visual Tokens H_v"])
-    HV --> CTX["<b>Interleaved Multimodal Context</b><br/>[ H_v || E(T) ]"]
-    TOK --> CTX
-    CTX --> LLM["<b>Autoregressive LLM Backbone</b><br/>(RoPE, GQA, SwiGLU Attention)"]
-    LLM --> RESP(["Grounded Textual Response"]):::io
-    T ~~~ IMG
-    T ~~~ TXT
+    T(["Merlin:Empowering Multimodal LLMs with Foresight Minds"]):::title
+    n3[["Merlin: Introduce the integration of future modeling into the existing learning frameworks of…"]]
+    n4["Propose two innovative methods to empower MLLMs with foresight minds, Foresight Pre-Training and Foresight…"]
+    n10[/"Evaluated against baselines"/]
+    n11{"Result holds up?"}
+    n12["Experimental results show Merlin powerful foresight minds with impressive performance on both future…"]
+    n13(["arXiv 2312.00589"])
+    n14["Area: multimodal · vlms · vision-language · deep-learning"]
+    subgraph G0["Problem and gap"]
+        n1["Humans possess the remarkable ability to foresee the future to a certain extent based on present…"]
+        n2["However, this capability remains largely under explored within existing Multimodal Large Language Models…"]
+    end
+    subgraph G1["How it works"]
+        n5["By utilizing the subject trajectory, a highly structured representation of a consecutive frame sequence…"]
+        n6["FPT jointly training various tasks centered on trajectories"]
+        n7["MLLMs to learn how to attend and predict entire trajectories from a given initial observation"]
+        n8["Then, FIT requires MLLMs to first predict trajectories of related objects and then reason about potential…"]
+        n9["Aided by FPT and FIT, we build a novel and unified MLLM named Merlin that supports multi-images input and…"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n3 --> n5
+    n3 --> n6
+    n3 --> n7
+    n3 --> n8
+    n3 --> n9
+    n5 --> n10
+    n6 --> n10
+    n7 --> n10
+    n8 --> n10
+    n9 --> n10
+    n4 --> n10
+    n10 --> n11
+    n11 -- "yes" --> n12
+    n11 -- "no" --> n3
+    n12 --> n13
+    n14 --> n1
+    class n11 dec
+    class n13 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

@@ -72,20 +72,45 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["MULTIMODAL VISION-LANGUAGE ARCHITECTURE"]):::title
-    IMG(["Input Image I"]):::io --> VIT["<b>Vision Transformer</b><br/>Encoder (ViT-H/14)"]
-    TXT(["User Text Query T"]):::io --> TOK["<b>Word #amp; Position</b><br/>Token Embeddings"]
-    VIT --> PT(["Patch Tokens Z_v"])
-    PT --> ADP["Multi-Layer Projection Adapter g"]
-    ADP --> HV(["Aligned Visual Tokens H_v"])
-    HV --> CTX["<b>Interleaved Multimodal Context</b><br/>[ H_v || E(T) ]"]
-    TOK --> CTX
-    CTX --> LLM["<b>Autoregressive LLM Backbone</b><br/>(RoPE, GQA, SwiGLU Attention)"]
-    LLM --> RESP(["Grounded Textual Response"]):::io
-    T ~~~ IMG
-    T ~~~ TXT
+    T(["Enhancing the Reasoning Ability of Multimodal Large Language Models via Mixed Preference Optimization"]):::title
+    n3[["Introduce a preference optimization process to enhance the multimodal reasoning capabilities of MLLMs"]]
+    n4["Hope this study could inspire further advancements in MLLMs"]
+    n5[/"Evaluated against baselines"/]
+    n6{"Beats strong baselines?"}
+    n10{{"Reported: 8B · 8.7points · 10x · 76B"}}
+    n11(["Code, data, and model shall be publicly released"])
+    n12["Area: multimodal · vlms · vision-language · deep-learning"]
+    subgraph G0["Problem and gap"]
+        n1["Existing open-source multimodal large language models (MLLMs) generally follow a training process…"]
+        n2["However, these models suffer from distribution shifts, which limit their multimodal reasoning…"]
+    end
+    subgraph G1["Evidence"]
+        n7["on the data side, we design an automated preference data construction pipeline to create MMPR, a…"]
+        n8["Our approach demonstrates improved performance across multiple benchmarks, particularly in multimodal…"]
+        n9["Our model, InternVL2-8B-MPO, achieves an accuracy of 67.0 on MathVista, outperforming InternVL2-8B by 8.7…"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n3 --> n4
+    n2 --> n3
+    n4 --> n5
+    n1 --> n5
+    n5 --> n6
+    n6 -- "yes" --> n7
+    n6 -- "yes" --> n8
+    n6 -- "yes" --> n9
+    n6 -- "no" --> n1
+    n10 --> n11
+    n7 --> n10
+    n8 --> n10
+    n9 --> n10
+    n12 --> n3
+    class n6 dec
+    class n11 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

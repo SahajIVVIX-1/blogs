@@ -43,20 +43,42 @@ The structural flow, component relationships, and operational hierarchy of **Fir
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM TOPOLOGY: FIRST-CLASS FUNCTIONS"]):::title
-    I(["Primary Input / Data Descriptor Space"]):::io
-    L["<b>Memory Layout #amp; Internal State</b><br/>• Contiguous Buffer / Cache Lines<br/>• Invariant Constraints #amp; Headers<br/>• Structural Hierarchy (O(1) Access)"]
-    R["<b>Algorithmic Control Flow</b><br/>• Transformation Kernel / Pipeline<br/>• Dispatch Table / Virtual Methods<br/>• Dynamic Resolution / Graph Routing"]
-    E["<b>Execution Pipeline #amp; Vectorization</b><br/>• Cache Locality Optimization (Spatial #amp; Temporal)<br/>• Bounded Asymptotic Complexity: O(n) Time, O(1) Space<br/>• Deterministic Memory Deallocation #amp; Lifecycle"]
-    O["<b>High-Throughput Production Serving</b><br/>• Zero-Copy Slicing / Shared References<br/>• Lock-Free Concurrency #amp; Thread Safety<br/>• Monitored Latency #amp; Error Resilience"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Python for AI #amp; Systems · First-Class Functions: Closures, Free Variables, and __closure__ Tuples"]):::title
+    a["def outer(x): def inner(): return x"]
+    b["Compiler finds free variable x"]
+    c["x stored in a cell object"]
+    d["outer returns inner"]
+    e["inner.__closure__ tuple of cells"]
+    f[("Cell holds reference to the value")]
+    g["Call inner later"]
+    h{"Name local to inner?"}
+    i["Use fast local"]
+    j["Dereference cell contents"]
+    k{"nonlocal assignment?"}
+    l["Rebind the cell, outer sees it"]
+    m(["Closure keeps state alive"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c --> d
+    d --> e
+    e --> f
+    f --> g
+    g --> h
+    h -- "yes" --> i
+    i --> m
+    h -- "no" --> j
+    j --> k
+    k -- "yes" --> l
+    l --> m
+    k -- "no" --> m
+    class h,k dec
+    class m term
+    class f store
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational blueprint illustrates how abstract abstractions map directly to physical hardware architectures, optimizing memory locality and instruction throughput.

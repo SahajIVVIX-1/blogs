@@ -43,20 +43,39 @@ The structural flow, component relationships, and operational hierarchy of **Fun
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM TOPOLOGY: FUNCTOOLS SUITE"]):::title
-    I(["Primary Input / Data Descriptor Space"]):::io
-    L["<b>Memory Layout #amp; Internal State</b><br/>• Contiguous Buffer / Cache Lines<br/>• Invariant Constraints #amp; Headers<br/>• Structural Hierarchy (O(1) Access)"]
-    R["<b>Algorithmic Control Flow</b><br/>• Transformation Kernel / Pipeline<br/>• Dispatch Table / Virtual Methods<br/>• Dynamic Resolution / Graph Routing"]
-    E["<b>Execution Pipeline #amp; Vectorization</b><br/>• Cache Locality Optimization (Spatial #amp; Temporal)<br/>• Bounded Asymptotic Complexity: O(n) Time, O(1) Space<br/>• Deterministic Memory Deallocation #amp; Lifecycle"]
-    O["<b>High-Throughput Production Serving</b><br/>• Zero-Copy Slicing / Shared References<br/>• Lock-Free Concurrency #amp; Thread Safety<br/>• Monitored Latency #amp; Error Resilience"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Python for AI #amp; Systems · Functools Suite: lru_cache Mechanics, partial Applications, and singledispatch"]):::title
+    a["Call cached function f(x)"]
+    b[["lru_cache: key = args tuple"]]
+    c[("Hash map + doubly linked usage list")]
+    d{"Key in cache?"}
+    e["Move entry to most-recent end"]
+    f["Compute f(x)"]
+    g{"Cache full (maxsize)?"}
+    h["Evict least recently used"]
+    i["Store result"]
+    j["functools.partial pre-binds arguments"]
+    k["singledispatch picks implementation by type"]
+    l(["Result returned"])
+    T ~~~ a
+    a --> b
+    b --> d
+    d -- "yes" --> e
+    e --> l
+    d -- "no" --> f
+    f --> g
+    g -- "yes" --> h
+    h --> i
+    g -- "no" --> i
+    i --> l
+    j --> a
+    k --> f
+    class d,g dec
+    class l term
+    class c store
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational blueprint illustrates how abstract abstractions map directly to physical hardware architectures, optimizing memory locality and instruction throughput.

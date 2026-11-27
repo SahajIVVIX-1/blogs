@@ -43,20 +43,36 @@ The structural flow, component relationships, and operational hierarchy of **Num
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM TOPOLOGY: NUMPY NDARRAY ARCHITECTURE"]):::title
-    I(["Primary Input / Data Descriptor Space"]):::io
-    L["<b>Memory Layout #amp; Internal State</b><br/>• Contiguous Buffer / Cache Lines<br/>• Invariant Constraints #amp; Headers<br/>• Structural Hierarchy (O(1) Access)"]
-    R["<b>Algorithmic Control Flow</b><br/>• Transformation Kernel / Pipeline<br/>• Dispatch Table / Virtual Methods<br/>• Dynamic Resolution / Graph Routing"]
-    E["<b>Execution Pipeline #amp; Vectorization</b><br/>• Cache Locality Optimization (Spatial #amp; Temporal)<br/>• Bounded Asymptotic Complexity: O(n) Time, O(1) Space<br/>• Deterministic Memory Deallocation #amp; Lifecycle"]
-    O["<b>High-Throughput Production Serving</b><br/>• Zero-Copy Slicing / Shared References<br/>• Lock-Free Concurrency #amp; Thread Safety<br/>• Monitored Latency #amp; Error Resilience"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["NumPy #amp; Numerical Computing · NumPy ndarray Architecture: Memory Buffers, Data Pointers, and C-Structs"]):::title
+    a["np.array([[1,2],[3,4]])"]
+    b[("Contiguous data buffer")]
+    c["ndarray header: data pointer, dtype, shape, strides"]
+    d["PyArrayObject C struct"]
+    e{"Operation needs new memory?"}
+    f["View: new header, same buffer"]
+    g["Copy: allocate and fill new buffer"]
+    h["Base pointer keeps parent alive"]
+    i["ufuncs loop over the buffer in C"]
+    j(["Fast homogeneous array"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c --> d
+    d --> e
+    e -- "no" --> f
+    f --> h
+    h --> i
+    i --> j
+    e -- "yes" --> g
+    g --> i
+    b --> c
+    class e dec
+    class j term
+    class b store
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational blueprint illustrates how abstract abstractions map directly to physical hardware architectures, optimizing memory locality and instruction throughput.

@@ -1,0 +1,501 @@
+@3.1
+a=np.array([[1,2],[3,4]])
+b$=Contiguous data buffer
+c=ndarray header: data pointer, dtype, shape, strides
+d=PyArrayObject C struct
+e?=Operation needs new memory?
+f=View: new header, same buffer
+g=Copy: allocate and fill new buffer
+h=Base pointer keeps parent alive
+i=ufuncs loop over the buffer in C
+j!=Fast homogeneous array
+a>b>c>d>e
+e-no>f>h>i>j
+e-yes>g>i
+b>c
+@3.2
+a=Array dtype chosen
+b?=Kind of data?
+c=int8..int64 / uint: two's complement
+d=float16, 32, 64: IEEE 754
+e=bool: one byte
+f?=Value exceeds range?
+g=Silent overflow wraps around
+h=Precision loss on float rounding
+i?=Reading binary from another machine?
+j=Set byte order with < or > prefix
+k=astype converts with a copy
+l!=Dtype matches data and platform
+a>b
+b-integer>c>f
+b-float>d>h
+b-bool>e>l
+f-yes>g>k
+h>k
+f-no>i
+i-yes>j>l
+i-no>l
+k>l
+@3.3
+a=a = np.arange(12).reshape(3, 4)
+b=strides = (32, 8) bytes
+c=a[:, 1] has stride 32
+d=a[::2] doubles the row stride
+e=a.T swaps strides, no data moved
+f$=Same buffer, different stride tuple
+g?=Resulting view contiguous?
+h=Fast vectorized loops
+i=Strided access, cache misses
+j=np.ascontiguousarray copies once
+k!=Zero-copy slicing and views
+a>b>c>f
+b>d>f
+b>e>f
+f>g
+g-yes>h>k
+g-no>i>j>k
+@3.4
+a=Array of shape (n, m)
+b?=Memory order?
+c=C order: last axis contiguous
+d=Fortran order: first axis contiguous
+e?=Loop over which axis?
+f=Row sums fast in C order
+g=Column sums fast in F order
+h=Wrong traversal strides across cache lines
+i=np.asfortranarray or ascontiguousarray
+j=LAPACK routines prefer column-major
+k!=Layout matches access pattern
+a>b
+b-C>c>e
+b-F>d>e
+e-rows>f>k
+e-columns>g>k
+e>h>i>k
+d>j
+@3.5
+a=b = a[2:5]
+b$=Shared memory buffer
+c?=Basic slice or fancy index?
+d=Basic slice returns a view
+e=Write through b changes a
+f=Fancy index returns a copy
+g=Edits do not propagate
+h=np.shares_memory(a, b) checks overlap
+i=b.base points to the owner
+j=Call .copy() to detach
+k!=Know when memory is shared
+a>b>c
+c-slice>d>e>i
+c-fancy>f>g
+d>h
+i>j>k
+g>k
+@3.6
+a=a[[0, 2, 4]]
+b=Index array broadcast against axes
+c=Gather elements by position
+d$=New buffer allocated
+e?=Assignment instead of read?
+f=a[idx] = v scatters writes
+g?=Duplicate indices?
+h=Last write wins, no accumulation
+i=np.add.at accumulates correctly
+j=Memory trap: result is a copy
+k!=Gather or scatter semantics clear
+a>b>c>d>j
+a>e
+e-yes>f>g
+g-yes>h>i>k
+g-no>k
+j>k
+@3.7
+a=x = np.array([...])
+b=mask = x > threshold
+c$=Boolean array same shape
+d?=Combine conditions?
+e=Use & | ~ with parentheses
+f=x[mask] selects True positions
+g=np.where(mask, x, y) chooses elementwise
+h=np.where(mask) returns indices
+i=Result is a copy
+j=Count with mask.sum()
+k!=Vectorized filtering, no Python loop
+a>b>c>d
+d-yes>e>f
+d-no>f
+f>i
+c>g
+c>h
+c>j
+i>k
+@3.8
+a=Shapes (3, 1) and (1, 4)
+b=Align shapes from the right
+c?=Each axis equal or one of them 1?
+d=Stretch the size-1 axis virtually
+e=Broadcast error
+f=Result shape (3, 4)
+g=Stride 0 repeats without copying
+h=Outer operation: a[:, None] + b[None, :]
+i?=Memory blow-up from huge result?
+j=Chunk or use np.einsum
+k!=Vectorized expansion, no data copy
+a>b>c
+c-yes>d>g>f
+c-no>e
+f>h>i
+i-yes>j>k
+i-no>k
+@3.9
+a=Python loop over elements
+b=Interpreter overhead per iteration
+c@=ufunc: compiled C inner loop
+d=Type-resolved loop selected by dtype
+e=SIMD and unrolled kernels
+f?=Output array preallocated with out=?
+g=Write results in place
+h=Allocate temporary result
+i=Speed-up 10 to 100x
+j!=Eliminate Python overhead
+a>b>c>d>e>f
+f-yes>g>i>j
+f-no>h>i
+@3.10
+a=np.add.reduce(x, axis)
+b=Collapse an axis with a binary ufunc
+c=accumulate keeps running results
+d=outer builds all pairs
+e=reduceat for segmented reductions
+f?=Associative operation?
+g=Order of evaluation does not matter
+h=Floating error depends on order
+i=Cumulative sum, product, maximum
+j=Outer product a[i] * b[j]
+k!=Higher-order patterns on any ufunc
+a>b
+b>f
+f-yes>g>k
+f-no>h>k
+b>c>i>k
+b>d>j>k
+b>e>k
+@3.11
+a?=Initial contents needed?
+b=np.empty: allocate, do not initialize
+c=np.zeros / np.ones: fill value
+d=np.full or arange for specific values
+e=np.asarray: reuse existing buffer if possible
+f?=Read before writing?
+g=Garbage from old memory: nondeterministic bugs
+h=Safe
+i=np.array copies by default
+j!=Allocation matches intent
+a-no>b>f
+a-yes>c>h
+a-values>d>h
+a>e>i
+f-yes>g
+f-no>h
+h>j
+i>j
+@3.12
+a=Array of 12 elements
+b?=Need a different shape?
+c=reshape((3, 4)): view when strides allow
+d=ravel: view if contiguous
+e=flatten: always copy
+f=squeeze removes size-1 axes
+g=transpose swaps axes via strides
+h?=Layout compatible for a view?
+i=Copy made silently
+j!=Shape changed with minimal copying
+a>b
+b-reshape>c>h
+b-flatten>d>h
+b-copy>e>j
+b-squeeze>f>j
+b-transpose>g>j
+h-yes>j
+h-no>i>j
+@3.13
+a=Arrays to join
+b?=Axis to join along?
+c=np.concatenate: allocate result once
+d=vstack: axis 0
+e=hstack: axis 1
+f=Copy every input into the result
+g?=Repeated concatenation in a loop?
+h=Quadratic copying
+i=Collect in a list, join once
+j=np.split / array_split return views
+k!=Join with a single allocation
+a>b
+b-axis>c>f
+b-rows>d>f
+b-columns>e>f
+f>g
+g-yes>h>i>k
+g-no>k
+f>j
+@3.14
+a=A @ B for matrices
+b?=Dtype and layout BLAS-compatible?
+c=Dispatch to BLAS gemm
+d=Blocked, multithreaded kernel
+e=Cache tiling and SIMD
+f=Fallback loop, slow
+g=np.dot differs for N-d arrays
+h?=Need batched products?
+i=matmul broadcasts leading dimensions
+j!=Near-peak FLOPS
+a>b
+b-yes>c>d>e>j
+b-no>f>j
+a>g
+g>h
+h-yes>i>j
+@3.15
+a=Solve A x = b
+b?=Need the inverse explicitly?
+c=Avoid inv(A), numerically worse
+d=LU factorization with partial pivoting P A = L U
+e=Forward substitution L y = P b
+f=Back substitution U x = y
+g?=Singular or tiny pivot?
+h=LinAlgError or large error
+i=Reuse factors for many right-hand sides
+j!=np.linalg.solve result
+a>b
+b-yes>c>d
+b-no>d
+d>g
+g-yes>h
+g-no>e>f>i>j
+@3.16
+a=Square matrix A
+b@=np.linalg.eig
+c=Eigenvalues lambda and eigenvectors v
+d?=A symmetric?
+e=Use eigh: real, orthogonal eigenvectors
+f=General eig: complex values possible
+g=A v = lambda v
+h=Spectral interpretation: directions that only scale
+i=Power iteration finds dominant eigenpair
+j!=Decomposition A = V diag(lambda) V^-1
+a>b>c>d
+d-yes>e>g
+d-no>f>g
+g>h>j
+c>i
+@3.17
+a=Matrix A (m x n)
+b@=np.linalg.svd
+c=U, singular values s, V^T
+d=Sort singular values descending
+e?=Keep top k values?
+f=Low-rank approximation A_k
+g=Error equals the next singular value
+h=Pseudo-inverse V s^-1 U^T
+i?=Singular values below tolerance?
+j=Zero them, avoid blow-up
+k!=Compression and stable least squares
+a>b>c>d>e
+e-yes>f>g>k
+e-no>h>i
+i-yes>j>k
+i-no>k
+@3.18
+a=Covariance matrix S
+b?=Symmetric positive definite?
+c@=np.linalg.cholesky
+d=S = L L^T, L lower triangular
+e?=Factorization fails?
+f=Add jitter to the diagonal
+g=Solve L y = b then L^T x = y
+h=Sample correlated normals: L z
+i!=Fast, stable covariance solves
+a>b
+b-yes>c>e
+b-no>f>c
+e-yes>f
+e-no>d>g>i
+d>h>i
+@3.19
+a=Solve with matrix A
+b=Compute condition number cond(A)
+c?=cond(A) large?
+d=Ill-conditioned: small noise, large error
+e=Digits lost about log10 cond
+f=Regularize (ridge) or rescale
+g=Use SVD pseudo-inverse
+h=Inverse is trustworthy
+i!=Numerically safe solve
+a>b>c
+c-yes>d>e>f>g>i
+c-no>h>i
+@3.20
+a=rng = np.random.default_rng(seed)
+b=SeedSequence expands seed to entropy
+c@=PCG64 BitGenerator
+d=Stream of 64-bit integers
+e=Distribution transforms bits to samples
+f?=Parallel workers?
+g=spawn child SeedSequences
+h=Independent streams, no overlap
+i=Same seed reproduces exactly
+j!=Reproducible random experiments
+a>b>c>d>e>f
+f-yes>g>h>j
+f-no>i>j
+@3.21
+a=Stream of values
+b?=Naive sum of squares formula?
+c=Catastrophic cancellation
+d@=Welford online update
+e=delta = x - mean
+f=mean += delta / n
+g=M2 += delta * (x - mean)
+h=var = M2 / (n - 1)
+i=Single pass, stable
+j!=Accurate mean and variance
+a>b
+b-yes>c>d
+b-no>d
+d>e>f>g>h>i>j
+@3.22
+a=np.sort(a)
+b?=Which algorithm?
+c=quicksort (introsort) default
+d=mergesort / stable: keeps equal order
+e=argsort returns index order
+f=Apply order to other arrays
+g?=Only top k needed?
+h=np.partition: O(n) selection
+i=Full sort O(n log n)
+j!=Right sort for the question
+a>b
+b-fast>c>g
+b-stable>d>g
+a>e>f>g
+g-yes>h>j
+g-no>i>j
+@3.23
+a=Noisy samples (x, y)
+b=Choose polynomial degree
+c@=np.polyfit least squares
+d=Vandermonde matrix solve
+e?=High degree and wide range?
+f=Ill-conditioned, wild oscillation
+g=Chebyshev basis: stable nodes
+h=poly1d evaluates and differentiates
+i!=Stable polynomial approximation
+a>b>c>d>e
+e-yes>f>g>h>i
+e-no>h>i
+@3.24
+a=Signal sampled at rate fs
+b@=np.fft.fft
+c=Complex spectrum of N bins
+d=Bin k frequency = k fs / N
+e?=Real input?
+f=rfft: half spectrum, twice as fast
+g=Abs gives magnitude, angle gives phase
+h=2D FFT for images
+i=Filter in frequency, inverse transform
+j!=Frequency-domain analysis
+a>b>c>d>e
+e-yes>f>g
+e-no>g
+g>h>i>j
+@3.25
+a=Heterogeneous records
+b=dtype = [(name, U10), (age, i4), (score, f8)]
+c$=One contiguous buffer of fixed-size records
+d=Field access arr['age'] returns a view
+e?=Need string-heavy or ragged data?
+f=Use pandas instead
+g=Record array allows attribute access
+h=Vectorized operations per field
+i!=Compact compound types
+a>b>c>d>e
+e-yes>f>i
+e-no>g>h>i
+@3.26
+a$=Dataset larger than RAM
+b=np.memmap(file, dtype, mode, shape)
+c=OS maps file pages lazily
+d?=Page already in memory?
+e=Access at RAM speed
+f=Page fault loads page from disk
+g=Slice processes one chunk
+h?=Writing?
+i=flush() syncs dirty pages
+j!=Large arrays without loading all
+a>b>c>d
+d-yes>e>g
+d-no>f>g
+g>h
+h-yes>i>j
+h-no>j
+@3.27
+a=Data with NaN or sentinel -999
+b=ma.masked_invalid or masked_equal
+c$=Data array + boolean mask
+d=Reductions skip masked values
+e?=Mask shared with source?
+f=Copy mask to avoid side effects
+g=fill_value restores a concrete array
+h=Propagation rules in arithmetic
+i!=Robust statistics on dirty data
+a>b>c>d
+c>e
+e-yes>f>g
+e-no>g
+d>h>i
+g>i
+@3.28
+a=y = a * b + c
+b=Temporary t = a * b
+c=Second temporary t + c
+d?=Use out= or in-place operators?
+e=np.multiply(a, b, out=t); t += c
+f=Allocate three arrays, extra GC pressure
+g=Memory spike on large arrays
+h=Fewer allocations, better cache use
+i!=Lower peak memory
+a>b>c>d
+d-no>f>g
+d-yes>e>h>i
+@3.29
+a=np.einsum('ij,jk->ik', A, B)
+b=Subscripts name every axis
+c?=Index in output?
+d=Kept axis
+e=Summed (contracted) axis
+f=Optimize contraction path
+g=Fewest intermediate FLOPs and memory
+h=Batch matmul: bij,bjk->bik
+i=Trace, transpose, outer in one syntax
+j!=Tensor contractions expressed compactly
+a>b>c
+c-yes>d>f
+c-no>e>f
+f>g>h>j
+g>i>j
+@3.30
+a=Same loop in NumPy and C
+b=Measure time and memory bandwidth
+c?=Memory bound or compute bound?
+d=Bandwidth limits both equally
+e=SIMD matters more
+f?=Cache misses high?
+g=Block or tile the loops
+h=Temporary arrays cost extra passes
+i=Numba or C fuses loops
+j!=NumPy near C when vectorized
+a>b>c
+c-memory>d>f
+c-compute>e>f
+f-yes>g>j
+f-no>h>i>j

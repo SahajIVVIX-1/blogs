@@ -1,0 +1,418 @@
+@5.1
+a=plt.plot(x, y)
+b@=Scripting layer: pyplot state machine
+c@=Artist layer: Figure, Axes, Line2D objects
+d=Artists form a tree
+e@=Backend layer: Agg, SVG, PDF, interactive
+f?=Interactive or file output?
+g=Event loop and canvas window
+h=Rasterize or emit vector commands
+i=draw() traverses the artist tree
+j!=Figure rendered
+a>b>c>d>i>f
+f-interactive>g>e
+f-file>h>e
+e>j
+@5.2
+a?=How to create plots?
+b=pyplot state: plt.plot uses current axes
+c=Object-oriented: fig, ax = plt.subplots()
+d=Implicit global state
+e=Explicit Axes handles
+f?=Several figures or axes?
+g=State confusion, wrong axes modified
+h=Control each Axes independently
+i=Scripts and quick looks only
+j!=Reusable, testable plotting code
+a-quick>b>d>f
+a-explicit>c>e>f
+f-yes>g>h>j
+f-no>i>j
+e>h
+@5.3
+a=ax.plot(x, y)
+b=Choose marker, linestyle, linewidth
+c?=Overlapping lines?
+d=alpha blending reveals density
+e?=Different scales?
+f=Secondary axis for the second series
+g=Log scale for decades of range
+h=Label axes with units
+i=Legend entry per line
+j!=Readable line chart
+a>b>c
+c-yes>d>e
+c-no>e
+e-yes>f>h
+e-wide>g>h
+e-no>h
+h>i>j
+@5.4
+a=ax.scatter(x, y, s, c)
+b=Map third variable to marker size s
+c=Map fourth variable to color c
+d@=ScalarMappable with Normalize and colormap
+e=Colorbar explains the mapping
+f?=Too many points overplot?
+g=alpha transparency shows density
+h=Hexbin or 2D histogram instead
+i!=Multi-variable scatter
+a>b>c>d>e>f
+f-yes>g>h>i
+f-no>i
+@5.5
+a=Categories with values
+b?=Layout?
+c=Grouped: offset bars per series
+d=Stacked: bottom= previous total
+e=Horizontal barh for long labels
+f?=Show uncertainty?
+g=yerr error bars from std or CI
+h=Sort bars by value
+i=Zero baseline kept
+j!=Honest bar chart
+a>b
+b-compare>c>f
+b-parts>d>f
+b-labels>e>f
+f-yes>g>h
+f-no>h
+h>i>j
+@5.6
+a=Continuous samples
+b?=Bin count rule?
+c=Freedman-Diaconis: width = 2 IQR / n^(1/3)
+d=Sturges or square-root rule
+e=Count per bin
+f?=Compare different sample sizes?
+g=density=True: area equals one
+h=KDE: smooth with bandwidth h
+i=Overlay KDE on histogram
+j!=Distribution shape visible
+a>b
+b-robust>c>e
+b-simple>d>e
+e>f
+f-yes>g>h
+f-no>h
+h>i>j
+@5.7
+a=Groups of samples
+b=Compute quartiles Q1, median, Q3
+c=Whiskers at 1.5 IQR
+d?=Point beyond whiskers?
+e=Plot as outlier marker
+f?=Shape matters, not only summary?
+g=Violin: KDE mirrored around the axis
+h=Box shows spread compactly
+i=Overlay raw points
+j!=Distribution comparison
+a>b>c>d
+d-yes>e>f
+d-no>f
+f-yes>g>i>j
+f-no>h>j
+@5.8
+a=Several panels needed
+b?=Layout complexity?
+c=plt.subplots(nrows, ncols)
+d=GridSpec with spans and ratios
+e=SubplotMosaic from an ASCII layout
+f?=Shared axes?
+g=sharex / sharey link limits
+h=constrained_layout avoids overlap
+i=Label panels (a), (b), (c)
+j!=Multi-panel figure
+a>b
+b-regular>c>f
+b-uneven>d>f
+b-named>e>f
+f-yes>g>h
+f-no>h
+h>i>j
+@5.9
+a=Map values to colors
+b?=Data type?
+c=Sequential: one direction, light to dark
+d=Diverging: meaningful midpoint
+e=Qualitative: unordered categories
+f?=Colormap perceptually uniform?
+g=Viridis / Plasma: equal steps look equal
+h=Rainbow/jet distorts, creates false edges
+i?=Color-blind safe and grayscale safe?
+j=Test with a simulator
+k!=Honest color encoding
+a>b
+b-ordered>c>f
+b-signed>d>f
+b-groups>e>f
+f-yes>g>i
+f-no>h>g
+i>j>k
+@5.10
+a=Axes ticks and scales
+b?=Scale type?
+c=linear
+d=log for orders of magnitude
+e=symlog around zero
+f@=Locator chooses tick positions
+g@=Formatter writes tick labels
+h?=Minor ticks needed?
+i=AutoMinorLocator
+j=Date or percent formatter
+k!=Readable axes
+a>b
+b-linear>c>f
+b-log>d>f
+b-signed>e>f
+f>g>h
+h-yes>i>j>k
+h-no>j>k
+@5.11
+a=ax.annotate(text, xy, xytext)
+b=Arrow from text to data point
+c?=Need math?
+d=LaTeX engine: r'$\\alpha$'
+e=mathtext without installed LaTeX
+f=bbox sets text background
+g?=Overlaps other text?
+h=adjust_text or manual offsets
+i=Transform: data vs axes coordinates
+j!=Clear annotated figure
+a>b>c
+c-yes>d>f
+c-quick>e>f
+f>g
+g-yes>h>i
+g-no>i
+i>j
+@5.12
+a=Plot with many artists
+b=legend(handles, labels)
+c?=Where to place?
+d=loc='best' picks emptiest corner
+e=bbox_to_anchor outside the axes
+f?=Many entries?
+g=ncol columns
+h=Custom handler for patches or lines
+i=Single figure legend fig.legend
+j!=Uncluttered legend
+a>b>c
+c-auto>d>f
+c-outside>e>f
+f-yes>g>h
+f-no>h
+h>i>j
+@5.13
+a=Two series, different units
+b?=Truly related quantities?
+c=ax2 = ax.twinx()
+d=Share x, independent y scale
+e=Color axes to match their lines
+f?=Scale choice distorts correlation?
+g=Misleading visual crossing
+h=Prefer two panels
+i!=Dual axes used responsibly
+a>b
+b-yes>c>d>e>f
+b-no>h>i
+f-yes>g>h
+f-no>i
+@5.14
+a=2D array of values
+b?=Function?
+c=imshow: regular image grid
+d=pcolormesh: irregular cell edges
+e=aspect: equal or auto
+f?=Interpolation artifacts?
+g=nearest for discrete data
+h=Smooth interpolation for images
+i=Colorbar with fixed vmin, vmax
+j!=Accurate heatmap
+a>b
+b-grid>c>e
+b-mesh>d>e
+e>f
+f-discrete>g>i
+f-continuous>h>i
+i>j
+@5.15
+a=Scalar field f(x, y)
+b=Sample on a mesh
+c@=contour: lines at levels
+d@=contourf: filled bands
+e?=Choose levels?
+f=Linear or percentile spacing
+g=Gradient arrows via quiver
+h=Gradient is perpendicular to contour lines
+i!=Level sets visualized
+a>b>c>e
+b>d>e
+e>f>g>h>i
+@5.16
+a=Z = f(X, Y)
+b=mplot3d Axes3D
+c?=Surface type?
+d=plot_surface: shaded mesh
+e=plot_wireframe: edges only
+f=view_init(elev, azim)
+g?=Occlusion hides features?
+h=Rotate or use contour projection
+i=Resolution rstride, cstride
+j!=3D surface view
+a>b>c
+c-solid>d>f
+c-lines>e>f
+f>g
+g-yes>h>i>j
+g-no>i>j
+@5.17
+a=Seaborn plot call
+b?=Plot family?
+c=relplot: relationships
+d=catplot: categories
+e=displot: distributions
+f=Figure-level: creates FacetGrid
+g=Axes-level: draws on given ax
+h=Data in tidy DataFrame
+i=Map columns to x, y, hue, col
+j!=Declarative statistical graphics
+a>b
+b-relation>c>f
+b-category>d>f
+b-distribution>e>f
+f>h>i
+g>h
+i>j
+@5.18
+a=relplot(data, x, y, hue, col)
+b=FacetGrid splits by col and row
+c?=Kind?
+d=scatterplot per facet
+e=lineplot aggregates repeated x
+f=Mean and 95% CI by bootstrap
+g=hue, style, size encode variables
+h=Shared legend
+i!=Faceted relational plots
+a>b>c
+c-scatter>d>g
+c-line>e>f>g
+g>h>i
+@5.19
+a=catplot(kind=...)
+b?=Show raw points or summary?
+c=strip/swarm: every observation
+d=box/boxen: quantiles
+e=bar/point: mean with CI
+f?=Overlap of points?
+g=Swarm: nudge to avoid overlap
+h=Jitter in strip
+i?=Large n?
+j=boxenplot shows more quantiles
+k!=Categorical comparison
+a>b
+b-raw>c>f
+b-quantiles>d>i
+b-mean>e>k
+f-yes>g>k
+f-no>h>k
+i-yes>j>k
+i-no>d
+@5.20
+a=displot(data, x, kind)
+b?=Kind?
+c=hist: counts
+d=kde: smooth density
+e=ecdf: cumulative proportion
+f=bw_adjust tunes smoothness
+g=ECDF needs no binning choice
+h=rug marks each observation
+i!=Distribution comparison by hue
+a>b
+b-hist>c>h
+b-kde>d>f>h
+b-ecdf>e>g>h
+h>i
+@5.21
+a=Many variables
+b?=Grid type?
+c=PairGrid: every pair
+d=FacetGrid: subsets of data
+e=JointGrid: bivariate + marginals
+f=map_diag, map_offdiag
+g=map to each facet
+h=plot_joint, plot_marginals
+i?=Too many panels?
+j=Select key variables
+k!=Customized multi-plot grid
+a>b
+b-pairs>c>f>i
+b-facets>d>g>i
+b-joint>e>h>i
+i-yes>j>k
+i-no>k
+@5.22
+a=Matrix of values
+b?=Reorder rows and columns?
+c=heatmap: fixed order, annot=True
+d=clustermap: hierarchical clustering
+e=Distance matrix then linkage
+f=Dendrogram orders leaves
+g?=Scale differs per row?
+h=standard_scale or z_score
+i=center=0 with diverging map
+j!=Structure revealed in matrix
+a>b
+b-no>c>g
+b-yes>d>e>f>g
+g-yes>h>i>j
+g-no>i>j
+@5.23
+a=Finished figure
+b?=Destination?
+c=Paper: vector PDF or SVG
+d=Web: PNG at 150 to 200 DPI
+e=Slides: large fonts
+f=fig.savefig(dpi, bbox_inches='tight')
+g=Embed fonts type 42
+h=Check final size in inches
+i!=Publication-quality export
+a>b
+b-paper>c>g>f
+b-web>d>f
+b-slides>e>f
+f>h>i
+g>h
+@5.24
+a=Static figure
+b=Add widgets Slider, Button
+c=Connect event handlers
+d@=mpl_connect: click, key, motion events
+e?=Event fires?
+f=Update artist data with set_data
+g=canvas.draw_idle
+h=Debounce rapid updates
+i!=Interactive exploration
+a>b>c>d>e
+e-yes>f>g>h>i
+e-no>d
+@5.25
+a=Real-world dataset
+b=Load and inspect shape, dtypes
+c=Missing and outlier checks
+d?=Quality issues?
+e=Clean and document decisions
+f=Univariate plots: histograms
+g=Bivariate: scatter, pair plot
+h=Correlation heatmap
+i?=Pattern or anomaly found?
+j=Zoom in with grouped plots
+k=Summarize insights and caveats
+l!=Reproducible EDA notebook
+a>b>c>d
+d-yes>e>f
+d-no>f
+f>g>h>i
+i-yes>j>k
+i-no>k
+k>l

@@ -77,20 +77,32 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["MULTIMODAL VISION-LANGUAGE ARCHITECTURE"]):::title
-    IMG(["Input Image I"]):::io --> VIT["<b>Vision Transformer</b><br/>Encoder (ViT-H/14)"]
-    TXT(["User Text Query T"]):::io --> TOK["<b>Word #amp; Position</b><br/>Token Embeddings"]
-    VIT --> PT(["Patch Tokens Z_v"])
-    PT --> ADP["Multi-Layer Projection Adapter g"]
-    ADP --> HV(["Aligned Visual Tokens H_v"])
-    HV --> CTX["<b>Interleaved Multimodal Context</b><br/>[ H_v || E(T) ]"]
-    TOK --> CTX
-    CTX --> LLM["<b>Autoregressive LLM Backbone</b><br/>(RoPE, GQA, SwiGLU Attention)"]
-    LLM --> RESP(["Grounded Textual Response"]):::io
-    T ~~~ IMG
-    T ~~~ TXT
+    T(["Green-VLA: Staged Vision-Language-Action Model for Generalist Robots"]):::title
+    a(["Green-VLA: Staged Vision-Language-Action Model for Generalist Robots"])
+    b["Task: Cross-modal visual reasoning, vision-language instruction alignment, and multimodal groundings"]
+    c[["Method: Interleaved cross-attention architecture bridging spatial visual feature grids and autoregressive…"]]
+    e[/"Data: MMBench, ScienceQA, POPE, TextVQA, and LLaVA-Instruct 150K"/]
+    f{"Better than prior methods?"}
+    g["Result: Substantial reduction in visual hallucination rates while achieving state-of-the-art vision QA…"]
+    h["Limitations: scope, data and compute assumptions"]
+    i(["Code released with the paper"])
+    j["Area: multimodal · vlms · vision-language · deep-learning"]
+    T ~~~ a
+    a --> b
+    b --> c
+    c --> e
+    e --> f
+    f -- "yes" --> g
+    g --> h
+    h --> i
+    f -- "no" --> c
+    j --> b
+    class f dec
+    class a,i term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

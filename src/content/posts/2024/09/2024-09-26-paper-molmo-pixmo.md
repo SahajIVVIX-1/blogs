@@ -77,20 +77,44 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["MULTIMODAL VISION-LANGUAGE ARCHITECTURE"]):::title
-    IMG(["Input Image I"]):::io --> VIT["<b>Vision Transformer</b><br/>Encoder (ViT-H/14)"]
-    TXT(["User Text Query T"]):::io --> TOK["<b>Word #amp; Position</b><br/>Token Embeddings"]
-    VIT --> PT(["Patch Tokens Z_v"])
-    PT --> ADP["Multi-Layer Projection Adapter g"]
-    ADP --> HV(["Aligned Visual Tokens H_v"])
-    HV --> CTX["<b>Interleaved Multimodal Context</b><br/>[ H_v || E(T) ]"]
-    TOK --> CTX
-    CTX --> LLM["<b>Autoregressive LLM Backbone</b><br/>(RoPE, GQA, SwiGLU Attention)"]
-    LLM --> RESP(["Grounded Textual Response"]):::io
-    T ~~~ IMG
-    T ~~~ TXT
+    T(["Molmo and PixMo: Open Weights and Open Data for State-of-the-Art Multimodal Models"]):::title
+    n4[["Molmo and PixMo: Present Molmo, a new family of VLMs that are state-of-the-art in their class of openness"]]
+    n5["To enable a wide array of user interactions, we also introduce a diverse dataset mixture for fine-tuning…"]
+    n8[/"Evaluated against baselines"/]
+    n9{"Better than prior methods?"}
+    n10["The best-in-class 72B model within the Molmo family not only outperforms others in the class of open…"]
+    n11{{"Reported: 72B"}}
+    n12(["The success of our approach relies on careful choices for the model architecture…"])
+    n13["Area: multimodal · vlms · vision-language · deep-learning"]
+    subgraph G0["Problem and gap"]
+        n1["Today's most advanced multimodal models remain proprietary"]
+        n2["The strongest open-weight models rely heavily on synthetic data from proprietary VLMs to achieve good…"]
+        n3["As a result, the community is still missing foundational knowledge about how to build performant VLMs from…"]
+    end
+    subgraph G1["How it works"]
+        n6["Our key innovation is a novel, highly detailed image caption dataset collected entirely from human…"]
+        n7["Will be releasing all of our model weights, captioning and fine-tuning data, and source code in the near…"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n4 --> n5
+    n5 --> n6
+    n6 --> n7
+    n7 --> n8
+    n8 --> n9
+    n9 -- "yes" --> n10
+    n10 --> n11
+    n11 --> n12
+    n9 -- "no" --> n12
+    n13 --> n4
+    class n9 dec
+    class n12 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

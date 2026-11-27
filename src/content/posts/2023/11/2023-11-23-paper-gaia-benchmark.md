@@ -72,18 +72,45 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["DEEP AUTOREGRESSIVE REASONING PIPELINE"]):::title
-    X(["Input Token Sequence x_{1:t}"]):::io --> N["Rotary Positional Encoding (RoPE) #amp; RMSNorm"]
-    N --> G["<b>Grouped-Query Attention Block (GQA)</b><br/>Q = x * W_q, K = x * W_k (shared), V = x * W_v (shared)"]
-    G --> S["SwiGLU Feed-Forward Network: (xW_gate * swish(xW_up)) * W_down"]
-    S --> R["Residual Accumulator #amp; Pre-Layer Normalization"]
-    R --> H1(["Direct Next-Token Logits"])
-    R --> H2(["Implicit Reward Head"])
-    H1 --> P1["Temperature-Scaled Top-p Sampling"]
-    H2 --> P2["Alignment Loss Check"]
-    T ~~~ X
+    T(["GAIA: a benchmark for General AI Assistants"]):::title
+    n1[["Introduce GAIA, a benchmark for General AI Assistants that, if solved, would represent a milestone in…"]]
+    n2["Using GAIA's methodology, we devise 466 questions and their answer"]
+    n8[/"Evaluated against baselines"/]
+    n9{"Holds on the benchmarks?"}
+    n10["This notable performance disparity contrasts with the recent trend of LLMs outperforming humans on tasks…"]
+    n11(["arXiv 2311.12983"])
+    n12["Area: llm · reasoning · mathematical-reasoning · code-generation"]
+    subgraph G0["How it works"]
+        n3["GAIA proposes real-world questions that require a set of fundamental abilities such as reasoning…"]
+        n4["GAIA questions are conceptually simple for humans yet challenging for most advanced AIs: we show that…"]
+        n5["GAIA's philosophy departs from the current trend in AI benchmarks suggesting to target tasks that are ever…"]
+        n6["Posit that the advent of Artificial General Intelligence hinges on a system's capability to exhibit…"]
+        n7["Release our questions while retaining answers to 300 of them to power a leader-board available at…"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n1 --> n3
+    n1 --> n4
+    n1 --> n5
+    n1 --> n6
+    n1 --> n7
+    n3 --> n8
+    n4 --> n8
+    n5 --> n8
+    n6 --> n8
+    n7 --> n8
+    n2 --> n8
+    n8 --> n9
+    n9 -- "yes" --> n10
+    n9 -- "no" --> n1
+    n10 --> n11
+    n12 --> n1
+    class n9 dec
+    class n11 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

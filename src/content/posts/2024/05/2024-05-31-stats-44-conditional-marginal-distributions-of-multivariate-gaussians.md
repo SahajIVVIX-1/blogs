@@ -51,18 +51,33 @@ To build intuitive geometric comprehension, the operational mechanics and struct
 
 ```mermaid
 flowchart TD
-    T(["THEORETICAL FOUNDATION: CONDITIONAL #amp; MARGINAL DISTRIBUTIONS OF MULTIVARIATE GAUSSIANS"]):::title
-    I(["Mathematical Measure Space (Ω, F, P)"]):::io
-    L["<b>Analytical Formulation</b><br/>• Probability Density / PMF<br/>• Parameter Vector θ ∈ Θ<br/>• Closed-form Derivation"]
-    R["<b>Empirical Space</b><br/>• Sample Realizations (x_1..x_N)<br/>• Sufficient Statistics T(X)<br/>• Monte Carlo Estimators"]
-    E["<b>Asymptotic Convergence #amp; Limits</b><br/>• Large Sample Consistency: n -#gt; ∞<br/>• Fisher Information #amp; Asymptotic Efficiency<br/>• Bounded Variance #amp; Asymptotic Normality"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
+    T(["Probability #amp; Statistics · Conditional #amp; Marginal Distributions of Multivariate Gaussians: Exact Closed-Form Formulas"]):::title
+    a["Partition (x1, x2) of a Gaussian vector"]
+    b["Marginal of x1: take sub-block of mu and Sigma"]
+    c["Conditional x1 | x2"]
+    d["Mean mu1 + S12 S22^-1 (x2 - mu2)"]
+    e["Covariance S11 - S12 S22^-1 S21"]
+    f["Schur complement shrinks variance"]
+    g{"x2 uninformative?"}
+    h["S12 = 0: no change"]
+    i(["Closed-form conditioning"])
+    T ~~~ a
+    a --> b
+    b --> i
+    a --> c
+    c --> d
+    d --> e
+    e --> f
+    f --> g
+    g -- "yes" --> h
+    h --> i
+    g -- "no" --> i
+    class g dec
+    class i term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This conceptual blueprint highlights how abstract probability spaces project down into observable sample geometries, connecting theoretical expectation functionals with concrete sample statistics.

@@ -1,0 +1,741 @@
+@6.71
+a=Xn converges in distribution to X
+b=Yn converges in probability to constant c
+c@=Slutsky's theorem
+d=Xn + Yn tends to X + c
+e=Xn Yn tends to c X
+f?=c != 0?
+g=Xn / Yn tends to X / c
+h=Replace unknown sigma by a consistent estimate
+i!=t-statistic stays asymptotically normal
+a>c
+b>c
+c>d>h
+c>e>h
+c>f
+f-yes>g>h
+h>i
+@6.72
+a=Xn converges to X
+b?=g continuous at the limit?
+c@=Continuous mapping theorem
+d=g(Xn) converges to g(X)
+e=Holds in probability, a.s., and in distribution
+f=Discontinuity set has probability zero
+g=Example: Xn^2 and 1 / Xn
+h!=Convergence preserved by transforms
+a>b
+b-yes>c>d>e>h
+b-no>f>c
+d>g>h
+@6.73
+a=Sample X1..Xn with true CDF F
+b=Empirical CDF F_n(x) = fraction of Xi <= x
+c=Pointwise convergence by the law of large numbers
+d@=Glivenko-Cantelli
+e=sup over x of |F_n - F| tends to 0 almost surely
+f=DKW inequality gives the rate
+g=Basis for the Kolmogorov-Smirnov test
+h!=Uniform convergence of the empirical CDF
+a>b>c>d>e>f>g>h
+@6.74
+a=Maxima of n i.i.d. samples
+b=Normalize M_n by a_n and b_n
+c@=Fisher-Tippett-Gnedenko theorem
+d?=Tail behavior of F?
+e=Light tail: Gumbel
+f=Heavy tail: Frechet
+g=Bounded tail: reversed Weibull
+h=Generalized extreme value family
+i=Fit GEV to block maxima
+j!=Return levels for rare events
+a>b>c>d
+d-exponential>e>h
+d-power law>f>h
+d-bounded>g>h
+h>i>j
+@6.75
+a=Points in dimension d
+b=Volume of the unit ball shrinks
+c=Mass of a sphere concentrates near the surface
+d=Thin shell: radius is almost constant
+e=Random vectors are almost orthogonal
+f=Distances between points concentrate
+g?=Nearest-neighbor search in high d?
+h=Neighbors barely closer than far points
+i!=Curse of dimensionality
+a>b>c>d>e>f>g
+g-yes>h>i
+g-no>i
+@6.76
+a=Estimator of theta
+b=Bias = E[theta_hat] - theta
+c=Variance of theta_hat
+d@=MSE = Bias^2 + Variance
+e?=Reduce MSE by accepting some bias?
+f=Shrinkage estimators
+g=Unbiased but noisy
+h=Choose by loss and sample size
+i!=Bias-variance trade-off
+a>b>d
+a>c>d
+d>e
+e-yes>f>h>i
+e-no>g>h>i
+@6.77
+a=Sample X1..Xn
+b=Sample mean is unbiased for mu
+c=Plain 1/n variance underestimates sigma^2
+d=Sum of squares around the sample mean
+e=E[sum (Xi - mean)^2] = (n - 1) sigma^2
+f@=Bessel's correction divides by n - 1
+g=Unbiased S^2
+h!=One degree of freedom spent on the mean
+a>b
+a>c>d>e>f>g>h
+@6.78
+a=Estimator sequence theta_n
+b?=Converges to theta in probability?
+c=Consistent
+d?=sqrt(n)(theta_n - theta) approaches Normal?
+e=Asymptotically normal
+f=Variance gives asymptotic efficiency
+g=Standard errors from the limit
+h=Inconsistent: more data will not help
+i!=Large-sample guarantees
+a>b
+b-yes>c>d
+b-no>h
+d-yes>e>f>g>i
+d-no>i
+@6.79
+a=Statistic T(X) of the sample
+b@=Neyman-Fisher factorization
+c=Density factors as g(T(x), theta) h(x)
+d?=Factorization exists?
+e=T is sufficient
+f=Given T, data carry no extra information about theta
+g=Compress data without loss
+h=Not sufficient: information lost
+i!=Information compression
+a>b>c>d
+d-yes>e>f>g>i
+d-no>h
+@6.80
+a=Any unbiased estimator W
+b=Sufficient statistic T
+c@=Rao-Blackwell: replace W by E[W | T]
+d=Still unbiased
+e=Variance never increases
+f?=T minimal sufficient and complete?
+g=Result is unique, best possible
+h=Further improvement may exist
+i!=Variance reduction by conditioning
+a>c
+b>c
+c>d>e>f
+f-yes>g>i
+f-no>h>i
+@6.81
+a=Complete sufficient statistic T
+b=Unbiased function g(T) of theta
+c@=Lehmann-Scheffe theorem
+d=g(T) is the unique UMVUE
+e?=Any unbiased estimator available?
+f=Rao-Blackwellize it with T
+g=Search with Fisher information bound
+h!=Best unbiased estimator
+a>c
+b>c
+c>d>h
+e-yes>f>c
+e-no>g>h
+@6.82
+a=Log-likelihood l(theta)
+b=Score s = dl/dtheta
+c?=Expected score at truth?
+d=E[s] = 0
+e=Fisher information I = Var(s)
+f=Equivalent: minus expected second derivative
+g=Matrix form for vector theta
+h=Curvature measures information
+i!=How much data say about theta
+a>b>c
+c-always>d>e>f>h
+e>g>i
+h>i
+@6.83
+a=Unbiased estimator W of theta
+b=Cov(W, score) = 1
+c@=Cauchy-Schwarz
+d=Var(W) >= 1 / (n I(theta))
+e?=Estimator attains the bound?
+f=Efficient estimator
+g=Room for improvement or bound unattainable
+h!=Lower limit on variance
+a>b>c>d>e
+e-yes>f>h
+e-no>g>h
+@6.84
+a=Model with k parameters
+b=Population moments as functions of theta
+c=Sample moments from data
+d=Set them equal
+e=Solve k equations for theta
+f?=Closed form?
+g=Direct estimator
+h=Numerical solve
+i!=Method-of-moments estimate
+a>b>d
+a>c>d
+d>e>f
+f-yes>g>i
+f-no>h>i
+@6.85
+a=Data x1..xn
+b=Likelihood L(theta) = product p(xi | theta)
+c=Log-likelihood sum log p
+d=Differentiate: score = 0
+e?=Closed-form root?
+f=Solve analytically
+g=Numerical optimizer
+h?=Second derivative negative?
+i!=MLE theta_hat is a maximum
+a>b>c>d>e
+e-yes>f>h
+e-no>g>h
+h-yes>i
+h-no>g
+@6.86
+a=MLE under regularity conditions
+b=Consistent: tends to the true theta
+c=sqrt(n)(MLE - theta) tends to N(0, 1/I)
+d=Asymptotically efficient: attains the CRLB
+e=Invariance: g(MLE) is the MLE of g(theta)
+f?=Regularity violated?
+g=Boundary or non-smooth cases
+h!=Large-sample optimality
+a>b>c>d>e>f
+f-yes>g>h
+f-no>h
+@6.87
+a=Choose model
+b?=Which family?
+c=Normal: mean = sample mean, variance = 1/n sum
+d=Poisson: lambda = sample mean
+e=Bernoulli: p = fraction of ones
+f=Hessian negative definite
+g=Standard errors from inverse information
+h!=Closed-form MLEs
+a>b
+b-normal>c>f
+b-poisson>d>f
+b-bernoulli>e>f
+f>g>h
+@6.88
+a=Start theta0
+b=Score and Hessian at current point
+c=Newton step theta - H^-1 s
+d?=Use expected information instead?
+e=Fisher scoring step
+f?=Converged: small step and gradient?
+g=Update and repeat
+h!=MLE found
+a>b>d
+d-no>c>f
+d-yes>e>f
+f-no>g>b
+f-yes>h
+@6.89
+a=Parameters (theta, nuisance phi)
+b=Fix theta, maximize over phi
+c=Profile likelihood L_p(theta)
+d=Likelihood ratio drop from the peak
+e@=Cutoff chi-square(1) / 2
+f=Interval where profile stays above the cutoff
+g=Asymmetric intervals allowed
+h!=Likelihood-based confidence interval
+a>b>c>d>e>f>g>h
+@6.90
+a=Normal sample, mean unknown
+b=Pivot: (mean - mu) / (S / sqrt n)
+c=Distribution free of mu: Student t(n-1)
+d=Pick critical value t* for level 1 - alpha
+e=Interval mean +/- t* S / sqrt n
+f?=Sigma known?
+g=Use z instead of t
+h!=Confidence interval for the mean
+a>b>c>d>e>h
+f-yes>g>e
+@6.91
+a=Normal sample
+b=Pivot (n - 1) S^2 / sigma^2
+c=Chi-square(n - 1)
+d=Lower and upper chi-square quantiles
+e=Invert for sigma^2
+f=Interval ((n-1)S^2 / upper, (n-1)S^2 / lower)
+g=Asymmetric around S^2
+h!=Interval for variance
+a>b>c>d>e>f>g>h
+@6.92
+a=k successes in n trials
+b?=Interval method?
+c=Wald: p_hat +/- z sqrt(p(1-p)/n)
+d=Poor near 0 or 1, small n
+e=Wilson score: invert the score test
+f=Agresti-Coull: add 2 successes, 2 failures
+g=Better coverage
+h!=Coverage-checked proportion interval
+a>b
+b-wald>c>d
+b-wilson>e>g>h
+b-ac>f>g>h
+d>e
+@6.93
+a=Sample of size n
+b=Resample with replacement B times
+c=Compute statistic each time
+d$=Bootstrap distribution
+e?=Which interval?
+f=Percentile: 2.5 and 97.5 quantiles
+g=BCa: bias and acceleration corrections
+h!=Interval without a formula
+a>b>c>d>e
+e-simple>f>h
+e-corrected>g>h
+@6.94
+a=Posterior p(theta | data)
+b?=Loss function?
+c=Squared error L2
+d=Posterior mean
+e=Absolute error L1
+f=Posterior median
+g=0-1 loss
+h=MAP: posterior mode
+i!=Bayes estimator for the loss
+a>b
+b-L2>c>d>i
+b-L1>e>f>i
+b-0-1>g>h>i
+@6.95
+a=Posterior density
+b?=Interval type?
+c=Equal-tailed: alpha/2 in each tail
+d=HPD: shortest interval with mass 1 - alpha
+e=Density threshold c
+f?=Posterior skewed or multimodal?
+g=HPD can be a union of intervals
+h=Equal-tailed is easy to compute
+i!=Credible region
+a>b
+b-quantiles>c>f
+b-density>d>e>f
+f-yes>g>i
+f-no>h>i
+@6.96
+a=Target density p(x), current state x
+b=Propose x' from q(x' | x)
+c=Ratio r = p(x') q(x | x') / (p(x) q(x' | x))
+d?=Uniform u < min(1, r)?
+e=Accept: move to x'
+f=Reject: stay at x
+g=Record sample
+h?=Burn-in done and mixed?
+i!=Samples from the target
+a>b>c>d
+d-yes>e>g
+d-no>f>g
+g>h
+h-no>b
+h-yes>i
+@6.97
+a=Joint p(x, y) hard to sample
+b=Full conditionals p(x | y), p(y | x)
+c=Draw x from p(x | y)
+d=Draw y from p(y | x)
+e=Cycle the two draws
+f=Bivariate normal: conditionals are normal
+g?=Strong correlation?
+h=Slow mixing, block updates
+i!=Samples from the joint
+a>b>c>d>e>g
+b>f
+g-yes>h>i
+g-no>i
+@6.98
+a=Many similar units with data
+b=Marginal likelihood of the data
+c=Estimate prior hyperparameters from all units
+d=Plug prior into each posterior
+e=James-Stein shrinks each estimate toward the grand mean
+f?=Dimension at least 3?
+g=Beats the MLE in total squared error
+h!=Borrowing strength across units
+a>b>c>d>e>f
+f-yes>g>h
+f-no>h
+@6.99
+a=Time-to-event data with censoring
+b=Survival S(t) = P(T > t)
+c=Hazard h(t) = f(t) / S(t)
+d@=Kaplan-Meier product-limit
+e=At each event time multiply (1 - d_i / n_i)
+f?=Censored subject?
+g=Leaves the risk set, no drop
+h=Stepwise survival curve
+i!=Non-parametric survival estimate
+a>b>c>d>e>f
+f-yes>g>h
+f-no>h
+h>i
+@6.100
+a=Covariates x and event times
+b=Hazard h(t | x) = h0(t) exp(beta^T x)
+c=Baseline h0 left unspecified
+d@=Partial likelihood over event times
+e=Risk set at each event
+f=Maximize for beta
+g?=Proportional hazards holds?
+h=Hazard ratio exp(beta)
+i=Stratify or add time interaction
+j!=Semi-parametric survival regression
+a>b>c>d>e>f>g
+g-yes>h>j
+g-no>i>j
+@6.101
+a=Research question
+b=Null H0 and alternative H1
+c=Choose test statistic and alpha
+d=Compute statistic from data
+e?=In the rejection region?
+f=Reject H0
+g=Fail to reject H0
+h=Type I error: reject a true H0
+i=Type II error: miss a real effect
+j!=Decision with known error rates
+a>b>c>d>e
+e-yes>f>h>j
+e-no>g>i>j
+@6.102
+a=Fix significance level alpha
+b=Rejection region under H0
+c=Power function beta(theta) = P(reject | theta)
+d=Power = 1 - P(Type II)
+e?=Power below 80 percent?
+f=Increase n or effect size
+g=Relax alpha
+h=Sample-size calculation
+i!=Adequately powered study
+a>b>c>d>e
+e-yes>f>h>i
+e-yes>g>h
+e-no>i
+@6.103
+a=Observed statistic t_obs
+b=p = P(statistic at least as extreme | H0)
+c?=Misread as P(H0 | data)?
+d=Wrong: p is not the probability H0 is true
+e=Correct reading: surprise under H0
+f?=Many looks at the data?
+g=p-hacking inflates false positives
+h=Pre-register and correct for multiplicity
+i!=Honest p-values
+a>b>c
+c-yes>d>e
+c-no>e
+e>f
+f-yes>g>h>i
+f-no>i
+@6.104
+a=Simple H0 vs simple H1
+b=Likelihood ratio Lambda(x) = p1(x) / p0(x)
+c@=Neyman-Pearson lemma
+d=Reject when Lambda exceeds k
+e=k set so that size equals alpha
+f=Most powerful test of that size
+g?=Monotone likelihood ratio for composite H1?
+h=UMP extends one-sided
+i!=Optimal test construction
+a>b>c>d>e>f>g
+g-yes>h>i
+g-no>i
+@6.105
+a=Composite H0 within a model
+b=Maximize likelihood under H0
+c=Maximize likelihood unrestricted
+d=Lambda = -2 log (L0 / L1)
+e@=Wilks' theorem
+f=Lambda tends to chi-square(df = parameter difference)
+g=Compare with chi-square quantile
+h!=Large-sample likelihood ratio test
+a>b>d
+a>c>d
+d>e>f>g>h
+@6.106
+a=Test H0: theta = theta0
+b=Wald: (theta_hat - theta0)^2 / Var
+c=Fit unrestricted model only
+d=LRT: compare log-likelihoods
+e=Fit both models
+f=Score: gradient at theta0
+g=Fit restricted model only
+h=Asymptotically equivalent chi-square tests
+i!=Choose by what is cheap to fit
+a>b>c>h
+a>d>e>h
+a>f>g>h
+h>i
+@6.107
+a=Test mean mu = mu0
+b?=Variance known?
+c=Z = (mean - mu0) / (sigma / sqrt n)
+d=Compare with normal quantile
+e=T = (mean - mu0) / (S / sqrt n)
+f=Compare with t(n-1) quantile
+g?=Small n and non-normal?
+h=Check normality, use a rank test
+i!=Decision about the mean
+a>b
+b-yes>c>d>i
+b-no>e>f>g
+g-yes>h>i
+g-no>i
+@6.108
+a=Two independent groups
+b?=Equal variances plausible?
+c=Pooled variance Sp^2
+d=Student t, df = n1 + n2 - 2
+e=Welch: separate variances
+f=Welch-Satterthwaite degrees of freedom
+g=Default to Welch when unsure
+h!=Difference in means test
+a>b
+b-yes>c>d>h
+b-no>e>f>g>h
+@6.109
+a=Before and after on the same subjects
+b=Compute differences d_i
+c=Reduce to a one-sample problem
+d=t = mean(d) / (S_d / sqrt n)
+e?=Differences roughly normal?
+f=Paired t-test valid
+g=Wilcoxon signed-rank instead
+h!=Test for dependent samples
+a>b>c>d>e
+e-yes>f>h
+e-no>g>h
+@6.110
+a=Observed category counts
+b=Expected counts under H0 probabilities
+c=Statistic sum (O - E)^2 / E
+d?=All expected counts at least 5?
+e=Compare with chi-square(k - 1 - fitted params)
+f=Merge sparse categories
+g=Reject: model fits poorly
+h!=Goodness-of-fit decision
+a>b>c>d
+d-yes>e>g>h
+d-no>f>c
+@6.111
+a=Contingency table of two categorical variables
+b=Expected E_ij = row total x column total / N
+c=Statistic sum (O - E)^2 / E
+d=df = (r - 1)(c - 1)
+e?=Small expected counts?
+f=Use Fisher exact or simulation
+g=Compare with chi-square(d)
+h!=Association test
+a>b>c>d>e
+e-yes>f>h
+e-no>g>h
+@6.112
+a=2x2 table with fixed margins
+b=Count a in the top-left cell
+c=Hypergeometric probability of the table
+d=Enumerate tables as extreme or more
+e=Sum their probabilities
+f=Two-sided: double or sum smaller probabilities
+g?=Small n?
+h!=Exact p-value
+a>b>c>d>e>f>h
+g-yes>c
+@6.113
+a=k groups of observations
+b=Total sum of squares SST
+c=Between-group SSB
+d=Within-group SSW
+e=SST = SSB + SSW
+f=F = (SSB/(k-1)) / (SSW/(N-k))
+g?=F large?
+h=Group means differ
+i=No evidence of difference
+j!=ANOVA decision
+a>b>e
+a>c>e
+a>d>e
+e>f>g
+g-yes>h>j
+g-no>i>j
+@6.114
+a=Two factors A and B
+b=Main effect of A
+c=Main effect of B
+d=Interaction A x B
+e=Balanced cells: orthogonal sums of squares
+f=F test for each term
+g?=Interaction significant?
+h=Interpret simple effects separately
+i=Interpret main effects directly
+j!=Factorial design analysis
+a>b>e
+a>c>e
+a>d>e
+e>f>g
+g-yes>h>j
+g-no>i>j
+@6.115
+a=m hypothesis tests
+b=Chance of at least one false positive grows
+c?=Control FWER?
+d=Bonferroni: alpha / m each
+e=Holm: sort p-values, step down
+f=Holm uniformly more powerful
+g=Conservative but safe
+h!=Family-wise error controlled
+a>b>c
+c-simple>d>g>h
+c-better>e>f>h
+@6.116
+a=m p-values
+b=Sort ascending p(1)..p(m)
+c=Find largest k with p(k) <= k q / m
+d=Reject hypotheses 1..k
+e=Controls FDR at level q
+f?=Tests independent or positively dependent?
+g=Guarantee holds
+h=Use BY correction
+i!=Large-scale discovery
+a>b>c>d>e>f
+f-yes>g>i
+f-no>h>i
+@6.117
+a=Two independent samples
+b=Pool and rank all values
+c=Sum ranks of group 1
+d=U = R1 - n1(n1 + 1)/2
+e?=Large samples?
+f=Normal approximation with tie correction
+g=Exact distribution
+h=Tests stochastic dominance
+i!=Distribution-free two-sample test
+a>b>c>d>e
+e-yes>f>h>i
+e-no>g>h>i
+@6.118
+a=Paired differences d_i
+b=Drop zeros
+c=Rank |d_i|
+d=Sum ranks of positive differences W+
+e?=Ties and large n?
+f=Normal approximation
+g=Exact tables
+h=Assumes symmetric differences
+i!=Paired non-parametric test
+a>b>c>d>e
+e-yes>f>h>i
+e-no>g>h>i
+@6.119
+a=k independent groups
+b=Rank all observations together
+c=Mean rank per group
+d=H = 12/(N(N+1)) sum n_i (mean rank_i)^2 - 3(N+1)
+e=Compare with chi-square(k - 1)
+f?=Significant?
+g=Post-hoc Dunn tests with correction
+h=Groups not shown to differ
+i!=Rank-based ANOVA
+a>b>c>d>e>f
+f-yes>g>i
+f-no>h>i
+@6.120
+a=Sample vs reference CDF
+b=Statistic D = max |F_n(x) - F(x)|
+c?=Two samples instead?
+d=D = max |F_n1 - F_n2|
+e=Compare with Kolmogorov distribution
+f?=Parameters estimated from data?
+g=Lilliefors correction needed
+h=Reject or keep fit
+i!=Distribution comparison
+a>b>c
+c-yes>d>e
+c-no>e
+e>f
+f-yes>g>h>i
+f-no>h>i
+@6.121
+a=Paired variables
+b?=Relationship type?
+c=Pearson: linear, uses values
+d=Spearman: monotonic, uses ranks
+e=Kendall: concordant versus discordant pairs
+f?=Outliers or non-linearity?
+g=Prefer rank methods
+h=Pearson fine
+i!=Right association measure
+a>b
+b-linear>c>f
+b-monotone>d>f
+b-ordinal>e>f
+f-yes>g>i
+f-no>h>i
+@6.122
+a=Data (x_i, y_i)
+b=Minimize sum of squared residuals
+c=Normal equations X^T X beta = X^T y
+d=beta1 = Sxy / Sxx, beta0 = ybar - beta1 xbar
+e@=Gauss-Markov conditions
+f=Linear, unbiased, homoscedastic, uncorrelated errors
+g=OLS is BLUE: minimum variance linear unbiased
+h!=Fitted line
+a>b>c>d>e>f>g>h
+@6.123
+a=Fitted regression
+b=Residual variance s^2 = RSS / (n - p)
+c=Var(beta_hat) = s^2 (X^T X)^-1
+d=Standard error per coefficient
+e=t = beta_hat / SE, df = n - p
+f=ANOVA table: SSR, SSE, F test
+g=R-squared and adjusted R-squared
+h!=Coefficient inference
+a>b>c>d>e>h
+b>f>g>h
+@6.124
+a=Residuals e_i
+b=Plot residuals vs fitted
+c?=Fan shape?
+d=Heteroscedasticity: transform or weights
+e=Q-Q plot against normal quantiles
+f?=Heavy tails or skew?
+g=Leverage and Cook's distance
+h=Influential points inspected
+i!=Validated model assumptions
+a>b>c
+c-yes>d>e
+c-no>e
+e>f>g>h>i
+@6.125
+a=Candidate models
+b=Log-likelihood of each fit
+c=AIC = 2k - 2 log L
+d=BIC = k log n - 2 log L
+e?=Large n?
+f=BIC penalizes complexity more
+g=AIC favors prediction
+h=Smaller value preferred
+i!=Model selected
+a>b>c>h
+b>d>h
+e-yes>f>h
+e-no>g>h
+h>i

@@ -51,20 +51,36 @@ The structural geometry, functional mappings, and algorithmic pipeline of **Cosi
 
 ```mermaid
 flowchart TD
-    T(["ALGORITHMIC TOPOLOGY: COSINE DISTANCE VS DOT PRODUCT VS PEARSON CORRELATION DISTANCE"]):::title
-    I(["Input Feature Matrix: X ∈ R^{n × d}, Labels: y ∈ Y"]):::io
-    L["<b>Feature Mapping / Space Geometry</b><br/>• Subspace Projection / Kernel Space<br/>• Orthonormal Coordinates #amp; Basis<br/>• Geometric Decision Boundaries"]
-    R["<b>Loss Formulation</b><br/>• Objective: L(w; X, y)<br/>• Regularization Penalty R(w)<br/>• Convex Convexity Bounds"]
-    E["<b>Optimization #amp; Analytical Solution</b><br/>• Gradient: ∇_w L(w) = 0<br/>• Hessian Curvature: H = ∇^2 L(w) ≻ 0<br/>• Iterative Updates: w_{t+1} = w_t - η · H^{-1} ∇L"]
-    O["<b>Empirical Generalization #amp; Inference</b><br/>• Out-of-Sample Risk R_emp(f)<br/>• Variance-Bias Frontier Calibration<br/>• High-Throughput Production Serving"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Machine Learning · Cosine Distance vs Dot Product vs Pearson Correlation Distance: Geometric Differences"]):::title
+    a["Vectors u and v"]
+    b{"Compare how?"}
+    c["Dot product: magnitude and direction"]
+    d["Cosine distance: direction only"]
+    e["Pearson distance: centered cosine"]
+    f["Normalize vectors first"]
+    g{"Magnitude meaningful?"}
+    h["Use the dot product"]
+    i["Use cosine or correlation"]
+    j(["Match the metric to the semantics"])
+    T ~~~ a
+    a --> b
+    b -- "dot" --> c
+    c --> g
+    b -- "angle" --> d
+    d --> f
+    f --> g
+    b -- "centered" --> e
+    e --> g
+    g -- "yes" --> h
+    h --> j
+    g -- "no" --> i
+    i --> j
+    class b,g dec
+    class j term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational diagram illustrates how high-dimensional feature points are transformed, regularized, and mapped to objective losses to achieve minimal out-of-sample generalization error.

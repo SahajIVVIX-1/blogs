@@ -51,20 +51,30 @@ The structural geometry, functional mappings, and algorithmic pipeline of **XGBo
 
 ```mermaid
 flowchart TD
-    T(["ALGORITHMIC TOPOLOGY: XGBOOST SPLIT FINDING"]):::title
-    I(["Input Feature Matrix: X ∈ R^{n × d}, Labels: y ∈ Y"]):::io
-    L["<b>Feature Mapping / Space Geometry</b><br/>• Subspace Projection / Kernel Space<br/>• Orthonormal Coordinates #amp; Basis<br/>• Geometric Decision Boundaries"]
-    R["<b>Loss Formulation</b><br/>• Objective: L(w; X, y)<br/>• Regularization Penalty R(w)<br/>• Convex Convexity Bounds"]
-    E["<b>Optimization #amp; Analytical Solution</b><br/>• Gradient: ∇_w L(w) = 0<br/>• Hessian Curvature: H = ∇^2 L(w) ≻ 0<br/>• Iterative Updates: w_{t+1} = w_t - η · H^{-1} ∇L"]
-    O["<b>Empirical Generalization #amp; Inference</b><br/>• Out-of-Sample Risk R_emp(f)<br/>• Variance-Bias Frontier Calibration<br/>• High-Throughput Production Serving"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Machine Learning · XGBoost Split Finding: Gain Equation from Optimal Leaf Weights and Gamma Pruning Penalty"]):::title
+    a["Candidate split of a leaf"]
+    b["Left sums G_L, H_L; right G_R, H_R"]
+    c["Gain = 1/2 [G_L^2/(H_L + l) + G_R^2/(H_R + l) - G^2/(H + l)] - gamma"]
+    d{"Gain positive?"}
+    e["Accept the split"]
+    f["Prune: gamma penalty exceeds gain"]
+    g["Pick the best candidate"]
+    h(["Principled split and prune rule"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c --> d
+    d -- "yes" --> e
+    e --> g
+    g --> h
+    d -- "no" --> f
+    f --> h
+    class d dec
+    class h term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational diagram illustrates how high-dimensional feature points are transformed, regularized, and mapped to objective losses to achieve minimal out-of-sample generalization error.

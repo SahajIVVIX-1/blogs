@@ -43,20 +43,38 @@ The structural flow, component relationships, and operational hierarchy of **Dat
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM TOPOLOGY: DATA STRUCTURES"]):::title
-    I(["Primary Input / Data Descriptor Space"]):::io
-    L["<b>Memory Layout #amp; Internal State</b><br/>• Contiguous Buffer / Cache Lines<br/>• Invariant Constraints #amp; Headers<br/>• Structural Hierarchy (O(1) Access)"]
-    R["<b>Algorithmic Control Flow</b><br/>• Transformation Kernel / Pipeline<br/>• Dispatch Table / Virtual Methods<br/>• Dynamic Resolution / Graph Routing"]
-    E["<b>Execution Pipeline #amp; Vectorization</b><br/>• Cache Locality Optimization (Spatial #amp; Temporal)<br/>• Bounded Asymptotic Complexity: O(n) Time, O(1) Space<br/>• Deterministic Memory Deallocation #amp; Lifecycle"]
-    O["<b>High-Throughput Production Serving</b><br/>• Zero-Copy Slicing / Shared References<br/>• Lock-Free Concurrency #amp; Thread Safety<br/>• Monitored Latency #amp; Error Resilience"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["C++ #amp; High-Performance DSA · Data Structures: Hash Tables with Chaining and Open Addressing Linear Probing"]):::title
+    a["insert(key, value)"]
+    b["h = hash(key) mod m"]
+    c{"Collision strategy?"}
+    d["Chaining: append to bucket list"]
+    e["Linear probing: scan next free slot"]
+    f{"Load factor above threshold?"}
+    g["Rehash into 2x table"]
+    h{"Probe hits tombstone?"}
+    i["Reuse slot after delete"]
+    j["find follows the same probe order"]
+    k(["Average O(1) with good hash"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c -- "chain" --> d
+    d --> f
+    c -- "open" --> e
+    e --> h
+    h -- "yes" --> i
+    i --> f
+    h -- "no" --> f
+    f -- "yes" --> g
+    g --> j
+    f -- "no" --> j
+    j --> k
+    class c,f,h dec
+    class k term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational blueprint illustrates how abstract abstractions map directly to physical hardware architectures, optimizing memory locality and instruction throughput.

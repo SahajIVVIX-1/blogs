@@ -72,20 +72,36 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["MULTIMODAL VISION-LANGUAGE ARCHITECTURE"]):::title
-    IMG(["Input Image I"]):::io --> VIT["<b>Vision Transformer</b><br/>Encoder (ViT-H/14)"]
-    TXT(["User Text Query T"]):::io --> TOK["<b>Word #amp; Position</b><br/>Token Embeddings"]
-    VIT --> PT(["Patch Tokens Z_v"])
-    PT --> ADP["Multi-Layer Projection Adapter g"]
-    ADP --> HV(["Aligned Visual Tokens H_v"])
-    HV --> CTX["<b>Interleaved Multimodal Context</b><br/>[ H_v || E(T) ]"]
-    TOK --> CTX
-    CTX --> LLM["<b>Autoregressive LLM Backbone</b><br/>(RoPE, GQA, SwiGLU Attention)"]
-    LLM --> RESP(["Grounded Textual Response"]):::io
-    T ~~~ IMG
-    T ~~~ TXT
+    T(["xGen-MM (BLIP-3): A Family of Open Large Multimodal Models"]):::title
+    n1[["This report introduces xGen-MM (also known as BLIP-3), a framework for developing Large Multimodal…"]]
+    n5[/"Evaluated against baselines"/]
+    n6{"Beats strong baselines?"}
+    n7["Introduce a safety-tuned model with DPO, aiming to mitigate harmful behaviors such as hallucinations and…"]
+    n8(["Our pre-trained base model exhibits strong in-context learning capabilities and the…"])
+    n9["Area: multimodal · vlms · vision-language · deep-learning"]
+    subgraph G0["How it works"]
+        n2["The framework comprises meticulously curated datasets, a training recipe, model architectures, and a…"]
+        n3["Our models undergo rigorous evaluation across a range of tasks, including both single and multi-image…"]
+        n4["Associated resources will be available on our project page above"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n1 --> n1
+    n4 --> n5
+    n1 --> n5
+    n5 --> n6
+    n6 -- "yes" --> n7
+    n6 -- "no" --> n1
+    n7 --> n8
+    n9 --> n1
+    class n6 dec
+    class n8 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

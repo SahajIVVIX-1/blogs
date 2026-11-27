@@ -43,20 +43,39 @@ The structural flow, component relationships, and operational hierarchy of **Gen
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM TOPOLOGY: GENERATORS #amp; COROUTINES"]):::title
-    I(["Primary Input / Data Descriptor Space"]):::io
-    L["<b>Memory Layout #amp; Internal State</b><br/>• Contiguous Buffer / Cache Lines<br/>• Invariant Constraints #amp; Headers<br/>• Structural Hierarchy (O(1) Access)"]
-    R["<b>Algorithmic Control Flow</b><br/>• Transformation Kernel / Pipeline<br/>• Dispatch Table / Virtual Methods<br/>• Dynamic Resolution / Graph Routing"]
-    E["<b>Execution Pipeline #amp; Vectorization</b><br/>• Cache Locality Optimization (Spatial #amp; Temporal)<br/>• Bounded Asymptotic Complexity: O(n) Time, O(1) Space<br/>• Deterministic Memory Deallocation #amp; Lifecycle"]
-    O["<b>High-Throughput Production Serving</b><br/>• Zero-Copy Slicing / Shared References<br/>• Lock-Free Concurrency #amp; Thread Safety<br/>• Monitored Latency #amp; Error Resilience"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Python for AI #amp; Systems · Generators #amp; Coroutines: Stack Frames, Yield Expressions, and Resumable Functions"]):::title
+    a["Call generator function"]
+    b["Create generator object and frame"]
+    c[("Suspended frame: locals + instruction pointer")]
+    d["next() or send(value)"]
+    e["Resume frame at last yield"]
+    f{"Reach yield expression?"}
+    g["Save frame state, return value to caller"]
+    h{"Function returns?"}
+    i["Raise StopIteration(value)"]
+    j["throw() injects exception at yield"]
+    k(["Generator finished"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c --> d
+    d --> e
+    e --> f
+    f -- "yes" --> g
+    g --> c
+    f -- "no" --> h
+    h -- "yes" --> i
+    i --> k
+    h -- "no" --> e
+    d --> j
+    j --> e
+    class f,h dec
+    class k term
+    class c store
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational blueprint illustrates how abstract abstractions map directly to physical hardware architectures, optimizing memory locality and instruction throughput.

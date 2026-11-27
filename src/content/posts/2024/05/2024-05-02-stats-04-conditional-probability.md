@@ -51,18 +51,32 @@ To build intuitive geometric comprehension, the operational mechanics and struct
 
 ```mermaid
 flowchart TD
-    T(["THEORETICAL FOUNDATION: CONDITIONAL PROBABILITY"]):::title
-    I(["Mathematical Measure Space (Ω, F, P)"]):::io
-    L["<b>Analytical Formulation</b><br/>• Probability Density / PMF<br/>• Parameter Vector θ ∈ Θ<br/>• Closed-form Derivation"]
-    R["<b>Empirical Space</b><br/>• Sample Realizations (x_1..x_N)<br/>• Sufficient Statistics T(X)<br/>• Monte Carlo Estimators"]
-    E["<b>Asymptotic Convergence #amp; Limits</b><br/>• Large Sample Consistency: n -#gt; ∞<br/>• Fisher Information #amp; Asymptotic Efficiency<br/>• Bounded Variance #amp; Asymptotic Normality"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
+    T(["Probability #amp; Statistics · Conditional Probability: Definition, Product Rule, and Reduced Sample Spaces"]):::title
+    a["Reduced sample space B"]
+    b{"P(B) #gt; 0?"}
+    c["Undefined conditional probability"]
+    d["P(A|B) = P(A n B) / P(B)"]
+    e["Renormalize probabilities inside B"]
+    f["Product rule P(A n B) = P(A|B) P(B)"]
+    g["Chain rule for many events"]
+    h["Tree diagram for sequential draws"]
+    i(["Updated probability after information"])
+    T ~~~ a
+    a --> b
+    b -- "no" --> c
+    b -- "yes" --> d
+    d --> e
+    e --> f
+    f --> g
+    f --> h
+    h --> i
+    g --> i
+    class b dec
+    class i term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This conceptual blueprint highlights how abstract probability spaces project down into observable sample geometries, connecting theoretical expectation functionals with concrete sample statistics.

@@ -51,18 +51,35 @@ To build intuitive geometric comprehension, the operational mechanics and struct
 
 ```mermaid
 flowchart TD
-    T(["THEORETICAL FOUNDATION: PROBABILITY SPACES"]):::title
-    I(["Mathematical Measure Space (Ω, F, P)"]):::io
-    L["<b>Analytical Formulation</b><br/>• Probability Density / PMF<br/>• Parameter Vector θ ∈ Θ<br/>• Closed-form Derivation"]
-    R["<b>Empirical Space</b><br/>• Sample Realizations (x_1..x_N)<br/>• Sufficient Statistics T(X)<br/>• Monte Carlo Estimators"]
-    E["<b>Asymptotic Convergence #amp; Limits</b><br/>• Large Sample Consistency: n -#gt; ∞<br/>• Fisher Information #amp; Asymptotic Efficiency<br/>• Bounded Variance #amp; Asymptotic Normality"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
+    T(["Probability #amp; Statistics · Probability Spaces: Sample Spaces, Sigma-Algebras, and Kolmogorov's Probability Axioms"]):::title
+    a["Random experiment"]
+    b["Sample space Omega: all outcomes"]
+    c[["Sigma-algebra F: closed events"]]
+    d{"Complement and countable unions in F?"}
+    e["Add missing events"]
+    f["Probability measure P on F"]
+    g{"Axioms hold?"}
+    h["P(A) #gt;= 0, P(Omega) = 1"]
+    i["Countable additivity for disjoint events"]
+    j(["Probability space (Omega, F, P)"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c --> d
+    d -- "no" --> e
+    e --> c
+    d -- "yes" --> f
+    f --> g
+    g -- "yes" --> h
+    h --> i
+    i --> j
+    g -- "no" --> f
+    class d,g dec
+    class j term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This conceptual blueprint highlights how abstract probability spaces project down into observable sample geometries, connecting theoretical expectation functionals with concrete sample statistics.

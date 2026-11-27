@@ -72,18 +72,36 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["DEEP AUTOREGRESSIVE REASONING PIPELINE"]):::title
-    X(["Input Token Sequence x_{1:t}"]):::io --> N["Rotary Positional Encoding (RoPE) #amp; RMSNorm"]
-    N --> G["<b>Grouped-Query Attention Block (GQA)</b><br/>Q = x * W_q, K = x * W_k (shared), V = x * W_v (shared)"]
-    G --> S["SwiGLU Feed-Forward Network: (xW_gate * swish(xW_up)) * W_down"]
-    S --> R["Residual Accumulator #amp; Pre-Layer Normalization"]
-    R --> H1(["Direct Next-Token Logits"])
-    R --> H2(["Implicit Reward Head"])
-    H1 --> P1["Temperature-Scaled Top-p Sampling"]
-    H2 --> P2["Alignment Loss Check"]
-    T ~~~ X
+    T(["The FineWeb Datasets: Decanting the Web for the Finest Text Data at Scale"]):::title
+    n1["The performance of a large language model depends heavily on the quality and size of its pretraining dataset"]
+    n2[["The FineWeb Datasets: Introduce FineWeb, a 15-trillion token dataset derived from 96 Common Crawl snapshots…"]]
+    n3["Introduce FineWeb-Edu, a 1.3-trillion token collection of educational text filtered from FineWeb"]
+    n6[/"Evaluated against baselines"/]
+    n7{"Holds on the benchmarks?"}
+    n8["Along with our datasets, we publicly release our data curation codebase and all of the models trained…"]
+    n9(["However, the pretraining datasets for state-of-the-art open LLMs like Llama 3 and…"])
+    n10["Area: llm · reasoning · mathematical-reasoning · code-generation"]
+    subgraph G0["How it works"]
+        n4["To advance the understanding of how best to curate high-quality pretraining datasets, we carefully…"]
+        n5["LLMs pretrained on FineWeb-Edu exhibit dramatically better performance on knowledge- and…"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n4 --> n5
+    n5 --> n6
+    n6 --> n7
+    n7 -- "yes" --> n8
+    n8 --> n9
+    n7 -- "no" --> n9
+    n10 --> n2
+    class n7 dec
+    class n9 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

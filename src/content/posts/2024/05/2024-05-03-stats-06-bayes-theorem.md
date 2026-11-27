@@ -51,18 +51,35 @@ To build intuitive geometric comprehension, the operational mechanics and struct
 
 ```mermaid
 flowchart TD
-    T(["THEORETICAL FOUNDATION: BAYES' THEOREM"]):::title
-    I(["Mathematical Measure Space (Ω, F, P)"]):::io
-    L["<b>Analytical Formulation</b><br/>• Probability Density / PMF<br/>• Parameter Vector θ ∈ Θ<br/>• Closed-form Derivation"]
-    R["<b>Empirical Space</b><br/>• Sample Realizations (x_1..x_N)<br/>• Sufficient Statistics T(X)<br/>• Monte Carlo Estimators"]
-    E["<b>Asymptotic Convergence #amp; Limits</b><br/>• Large Sample Consistency: n -#gt; ∞<br/>• Fisher Information #amp; Asymptotic Efficiency<br/>• Bounded Variance #amp; Asymptotic Normality"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
+    T(["Probability #amp; Statistics · Bayes' Theorem: Prior, Likelihood, Marginal Likelihood, and Posterior Formulations"]):::title
+    a["Prior P(H)"]
+    b["Observe evidence E"]
+    c["Likelihood P(E|H)"]
+    d["Marginal P(E) by total probability"]
+    e[["Bayes: posterior = likelihood x prior / marginal"]]
+    f{"Prior very small?"}
+    g["Base-rate neglect: posterior stays small"]
+    h["Evidence overturns the prior"]
+    i["Posterior becomes next prior"]
+    j(["Updated belief P(H|E)"])
+    T ~~~ a
+    a --> e
+    b --> c
+    c --> e
+    a --> d
+    e --> f
+    f -- "yes" --> g
+    g --> j
+    f -- "no" --> h
+    h --> j
+    j --> i
+    i --> a
+    class f dec
+    class j term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This conceptual blueprint highlights how abstract probability spaces project down into observable sample geometries, connecting theoretical expectation functionals with concrete sample statistics.

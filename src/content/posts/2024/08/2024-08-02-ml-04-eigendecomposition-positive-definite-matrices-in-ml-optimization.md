@@ -51,20 +51,32 @@ The structural geometry, functional mappings, and algorithmic pipeline of **Eige
 
 ```mermaid
 flowchart TD
-    T(["ALGORITHMIC TOPOLOGY: EIGENDECOMPOSITION #amp; POSITIVE DEFINITE MATRICES IN ML OPTIMIZATION"]):::title
-    I(["Input Feature Matrix: X ∈ R^{n × d}, Labels: y ∈ Y"]):::io
-    L["<b>Feature Mapping / Space Geometry</b><br/>• Subspace Projection / Kernel Space<br/>• Orthonormal Coordinates #amp; Basis<br/>• Geometric Decision Boundaries"]
-    R["<b>Loss Formulation</b><br/>• Objective: L(w; X, y)<br/>• Regularization Penalty R(w)<br/>• Convex Convexity Bounds"]
-    E["<b>Optimization #amp; Analytical Solution</b><br/>• Gradient: ∇_w L(w) = 0<br/>• Hessian Curvature: H = ∇^2 L(w) ≻ 0<br/>• Iterative Updates: w_{t+1} = w_t - η · H^{-1} ∇L"]
-    O["<b>Empirical Generalization #amp; Inference</b><br/>• Out-of-Sample Risk R_emp(f)<br/>• Variance-Bias Frontier Calibration<br/>• High-Throughput Production Serving"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Machine Learning · Eigendecomposition #amp; Positive Definite Matrices in ML Optimization"]):::title
+    a["Symmetric matrix A"]
+    b[["A = Q Lambda Q^T"]]
+    c{"All eigenvalues positive?"}
+    d["Positive definite: x^T A x #gt; 0"]
+    e["Quadratic bowl, unique minimum"]
+    f["Eigenvalue sign flips: saddle"]
+    g["Condition number lambda_max / lambda_min"]
+    h["Slow gradient descent when large"]
+    i(["Eigenstructure governs optimization"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c -- "yes" --> d
+    d --> e
+    e --> g
+    g --> h
+    h --> i
+    c -- "no" --> f
+    f --> i
+    class c dec
+    class i term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational diagram illustrates how high-dimensional feature points are transformed, regularized, and mapped to objective losses to achieve minimal out-of-sample generalization error.

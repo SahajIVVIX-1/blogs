@@ -51,18 +51,28 @@ To build intuitive geometric comprehension, the operational mechanics and struct
 
 ```mermaid
 flowchart TD
-    T(["THEORETICAL FOUNDATION: UNBIASED ESTIMATORS"]):::title
-    I(["Mathematical Measure Space (Ω, F, P)"]):::io
-    L["<b>Analytical Formulation</b><br/>• Probability Density / PMF<br/>• Parameter Vector θ ∈ Θ<br/>• Closed-form Derivation"]
-    R["<b>Empirical Space</b><br/>• Sample Realizations (x_1..x_N)<br/>• Sufficient Statistics T(X)<br/>• Monte Carlo Estimators"]
-    E["<b>Asymptotic Convergence #amp; Limits</b><br/>• Large Sample Consistency: n -#gt; ∞<br/>• Fisher Information #amp; Asymptotic Efficiency<br/>• Bounded Variance #amp; Asymptotic Normality"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
+    T(["Probability #amp; Statistics · Unbiased Estimators: Sample Mean, Sample Variance with Bessel's Correction (N-1 Proof)"]):::title
+    a["Sample X1..Xn"]
+    b["Sample mean is unbiased for mu"]
+    c["Plain 1/n variance underestimates sigma^2"]
+    d["Sum of squares around the sample mean"]
+    e["E[sum (Xi - mean)^2] = (n - 1) sigma^2"]
+    f[["Bessel's correction divides by n - 1"]]
+    g["Unbiased S^2"]
+    h(["One degree of freedom spent on the mean"])
+    T ~~~ a
+    a --> b
+    a --> c
+    c --> d
+    d --> e
+    e --> f
+    f --> g
+    g --> h
+    class h term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This conceptual blueprint highlights how abstract probability spaces project down into observable sample geometries, connecting theoretical expectation functionals with concrete sample statistics.

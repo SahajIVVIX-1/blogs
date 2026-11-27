@@ -51,18 +51,34 @@ To build intuitive geometric comprehension, the operational mechanics and struct
 
 ```mermaid
 flowchart TD
-    T(["THEORETICAL FOUNDATION: BAYESIAN INFERENCE FROM SCRATCH"]):::title
-    I(["Mathematical Measure Space (Ω, F, P)"]):::io
-    L["<b>Analytical Formulation</b><br/>• Probability Density / PMF<br/>• Parameter Vector θ ∈ Θ<br/>• Closed-form Derivation"]
-    R["<b>Empirical Space</b><br/>• Sample Realizations (x_1..x_N)<br/>• Sufficient Statistics T(X)<br/>• Monte Carlo Estimators"]
-    E["<b>Asymptotic Convergence #amp; Limits</b><br/>• Large Sample Consistency: n -#gt; ∞<br/>• Fisher Information #amp; Asymptotic Efficiency<br/>• Bounded Variance #amp; Asymptotic Normality"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
+    T(["Probability #amp; Statistics · Bayesian Inference from Scratch: Updating Beliefs with Conjugate Beta-Binomial Models"]):::title
+    a["Beta(alpha, beta) prior on p"]
+    b["Observe k successes in n trials"]
+    c[["Binomial likelihood p^k (1-p)^(n-k)"]]
+    d["Multiply: prior kernel times likelihood"]
+    e["Same Beta form: conjugacy"]
+    f["Posterior Beta(alpha + k, beta + n - k)"]
+    g{"More data arrives?"}
+    h["Posterior becomes the new prior"]
+    i["Posterior mean (alpha + k) / (alpha + beta + n)"]
+    j(["Credible interval for p"])
+    T ~~~ a
+    a --> d
+    b --> c
+    c --> d
+    d --> e
+    e --> f
+    f --> g
+    g -- "yes" --> h
+    h --> d
+    g -- "no" --> i
+    i --> j
+    class g dec
+    class j term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This conceptual blueprint highlights how abstract probability spaces project down into observable sample geometries, connecting theoretical expectation functionals with concrete sample statistics.

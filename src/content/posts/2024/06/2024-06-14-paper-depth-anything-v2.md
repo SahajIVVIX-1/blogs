@@ -73,21 +73,44 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["LATENT FLOW MATCHING #amp; SYNTHESIS PIPELINE"]):::title
-    N(["Gaussian Noise x_1 ~ N(0, I)"]):::io --> TE["<b>Timestep Embedding</b><br/>t in [0, 1]"]
-    C(["Prompt / Condition c"]):::io --> CA["<b>Cross-Attention</b><br/>Text Encoder Head"]
-    TE --> VF["<b>Latent Vector Field Network</b><br/>v_theta(x_t, t, c)"]
-    CA --> VF
-    VF --> VP(["Velocity Vector Prediction: dx_t / dt"])
-    VP --> ODE["<b>Numerical ODE Solver Step</b><br/>x_{t - dt} = x_t - v * dt"]
-    ODE -- "iterate N steps" --> VF
-    ODE --> Z(["Synthesized Latent State x_0"])
-    Z --> D["Variational Autoencoder Decoder"]
-    D --> OUT(["High-Fidelity Output Image"]):::io
-    T ~~~ N
-    T ~~~ C
+    T(["Depth Anything V2"]):::title
+    n1[["This work presents Depth Anything V2"]]
+    n2["Offer models of different scales (ranging from 25M to 1.3B params) to support extensive scenarios"]
+    n7[/"Evaluated against baselines"/]
+    n8{"Beats strong baselines?"}
+    n9["Compared with the latest models built on Stable Diffusion, our models are significantly more efficient…"]
+    n10{{"Reported: 10x"}}
+    n11(["Code released with the paper"])
+    n12["Area: generative-ai · diffusion-models · image-synthesis · multimodal"]
+    subgraph G0["How it works"]
+        n3["Without pursuing fancy techniques, we aim to reveal crucial findings to pave the way towards building a…"]
+        n4["Compared with V1, this version produces much finer and more robust depth predictions through three key…"]
+        n5["Benefiting from their strong generalization capability, we fine-tune them with metric depth labels to…"]
+        n6["To our models, considering the limited diversity and frequent noise in current test sets, we construct a…"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n1 --> n3
+    n1 --> n4
+    n1 --> n5
+    n1 --> n6
+    n3 --> n7
+    n4 --> n7
+    n5 --> n7
+    n6 --> n7
+    n2 --> n7
+    n7 --> n8
+    n8 -- "yes" --> n9
+    n8 -- "no" --> n1
+    n10 --> n11
+    n9 --> n10
+    n12 --> n1
+    class n8 dec
+    class n11 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

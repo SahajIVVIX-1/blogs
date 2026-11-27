@@ -43,20 +43,43 @@ The structural flow, component relationships, and operational hierarchy of **The
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM TOPOLOGY: THE GLOBAL INTERPRETER LOCK (GIL)"]):::title
-    I(["Primary Input / Data Descriptor Space"]):::io
-    L["<b>Memory Layout #amp; Internal State</b><br/>• Contiguous Buffer / Cache Lines<br/>• Invariant Constraints #amp; Headers<br/>• Structural Hierarchy (O(1) Access)"]
-    R["<b>Algorithmic Control Flow</b><br/>• Transformation Kernel / Pipeline<br/>• Dispatch Table / Virtual Methods<br/>• Dynamic Resolution / Graph Routing"]
-    E["<b>Execution Pipeline #amp; Vectorization</b><br/>• Cache Locality Optimization (Spatial #amp; Temporal)<br/>• Bounded Asymptotic Complexity: O(n) Time, O(1) Space<br/>• Deterministic Memory Deallocation #amp; Lifecycle"]
-    O["<b>High-Throughput Production Serving</b><br/>• Zero-Copy Slicing / Shared References<br/>• Lock-Free Concurrency #amp; Thread Safety<br/>• Monitored Latency #amp; Error Resilience"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Python for AI #amp; Systems · The Global Interpreter Lock (GIL): Threading Bottlenecks and Free-Threaded Python 3.13"]):::title
+    a["Threads start in one interpreter"]
+    b[("GIL: one lock per interpreter")]
+    c{"Thread holds the GIL?"}
+    d["Execute bytecode for 5 ms interval"]
+    e{"Blocking I/O or interval expired?"}
+    f["Release GIL, signal waiting thread"]
+    g["Wait on GIL condition variable"]
+    h{"CPU-bound workload?"}
+    i["Threads serialize: no parallel speed-up"]
+    j["Threads overlap during I/O"]
+    k{{"Free-threaded build (3.13, PEP 703)"}}
+    l["Per-object locks, biased refcounts"]
+    m(["True multicore parallel threads"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c -- "no" --> g
+    g --> c
+    c -- "yes" --> d
+    d --> e
+    e -- "yes" --> f
+    f --> g
+    e -- "no" --> d
+    f --> h
+    h -- "yes" --> i
+    h -- "no" --> j
+    i --> k
+    k --> l
+    l --> m
+    class c,e,h dec
+    class m term
+    class b store
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational blueprint illustrates how abstract abstractions map directly to physical hardware architectures, optimizing memory locality and instruction throughput.

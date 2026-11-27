@@ -72,18 +72,44 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["DEEP AUTOREGRESSIVE REASONING PIPELINE"]):::title
-    X(["Input Token Sequence x_{1:t}"]):::io --> N["Rotary Positional Encoding (RoPE) #amp; RMSNorm"]
-    N --> G["<b>Grouped-Query Attention Block (GQA)</b><br/>Q = x * W_q, K = x * W_k (shared), V = x * W_v (shared)"]
-    G --> S["SwiGLU Feed-Forward Network: (xW_gate * swish(xW_up)) * W_down"]
-    S --> R["Residual Accumulator #amp; Pre-Layer Normalization"]
-    R --> H1(["Direct Next-Token Logits"])
-    R --> H2(["Implicit Reward Head"])
-    H1 --> P1["Temperature-Scaled Top-p Sampling"]
-    H2 --> P2["Alignment Loss Check"]
-    T ~~~ X
+    T(["FrugalNeRF: Fast Convergence for Few-shot Novel View Synthesis without Learned Priors"]):::title
+    n3[["Introduce FrugalNeRF, a novel few-shot NeRF framework that leverages weight-sharing voxels across…"]]
+    n7[/"Evaluated against baselines"/]
+    n8{"Holds on the benchmarks?"}
+    n9["Experiments on LLFF, DTU, and RealEstate-10K show that FrugalNeRF outperforms other few-shot NeRF methods…"]
+    n10{{"Reported: 10K"}}
+    n11(["arXiv 2410.16271"])
+    n12["Area: computer-vision · representation-learning · scene-understanding · deep-learning"]
+    subgraph G0["Problem and gap"]
+        n1["Neural Radiance Fields (NeRF) face significant challenges in few-shot scenarios, primarily due to…"]
+        n2["Existing methods, such as FreeNeRF and SparseNeRF, use frequency regularization or pre-trained priors but…"]
+    end
+    subgraph G1["How it works"]
+        n4["Our key contribution is a cross-scale geometric adaptation scheme that selects pseudo ground truth depth…"]
+        n5["This guides training without relying on externally learned priors, enabling full utilization of the…"]
+        n6["It can also integrate pre-trained priors, enhancing quality without slowing convergence"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n3 --> n5
+    n3 --> n6
+    n4 --> n7
+    n5 --> n7
+    n6 --> n7
+    n7 --> n8
+    n8 -- "yes" --> n9
+    n8 -- "no" --> n3
+    n10 --> n11
+    n9 --> n10
+    n12 --> n1
+    class n8 dec
+    class n11 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

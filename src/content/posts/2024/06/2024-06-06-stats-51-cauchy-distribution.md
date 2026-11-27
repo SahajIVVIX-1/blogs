@@ -51,18 +51,29 @@ To build intuitive geometric comprehension, the operational mechanics and struct
 
 ```mermaid
 flowchart TD
-    T(["THEORETICAL FOUNDATION: CAUCHY DISTRIBUTION"]):::title
-    I(["Mathematical Measure Space (Ω, F, P)"]):::io
-    L["<b>Analytical Formulation</b><br/>• Probability Density / PMF<br/>• Parameter Vector θ ∈ Θ<br/>• Closed-form Derivation"]
-    R["<b>Empirical Space</b><br/>• Sample Realizations (x_1..x_N)<br/>• Sufficient Statistics T(X)<br/>• Monte Carlo Estimators"]
-    E["<b>Asymptotic Convergence #amp; Limits</b><br/>• Large Sample Consistency: n -#gt; ∞<br/>• Fisher Information #amp; Asymptotic Efficiency<br/>• Bounded Variance #amp; Asymptotic Normality"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
+    T(["Probability #amp; Statistics · Cauchy Distribution: The Undefined Mean, Ratio of Standard Normals, and Heavy-Tailed Extremes"]):::title
+    a["Z1 / Z2 ratio of independent normals"]
+    b["Cauchy density 1 / (pi (1 + x^2))"]
+    c{"Mean exists?"}
+    d["Integral diverges: undefined mean"]
+    e["Sample mean no better than one draw"]
+    f["Heavy-tailed extremes dominate"]
+    g["Use the median instead"]
+    h(["Pathological but useful counterexample"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c -- "no" --> d
+    d --> e
+    e --> f
+    f --> g
+    g --> h
+    class c dec
+    class h term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This conceptual blueprint highlights how abstract probability spaces project down into observable sample geometries, connecting theoretical expectation functionals with concrete sample statistics.

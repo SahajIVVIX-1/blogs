@@ -51,18 +51,32 @@ To build intuitive geometric comprehension, the operational mechanics and struct
 
 ```mermaid
 flowchart TD
-    T(["THEORETICAL FOUNDATION: CONSISTENCY #amp; ASYMPTOTIC NORMALITY OF ESTIMATORS"]):::title
-    I(["Mathematical Measure Space (Ω, F, P)"]):::io
-    L["<b>Analytical Formulation</b><br/>• Probability Density / PMF<br/>• Parameter Vector θ ∈ Θ<br/>• Closed-form Derivation"]
-    R["<b>Empirical Space</b><br/>• Sample Realizations (x_1..x_N)<br/>• Sufficient Statistics T(X)<br/>• Monte Carlo Estimators"]
-    E["<b>Asymptotic Convergence #amp; Limits</b><br/>• Large Sample Consistency: n -#gt; ∞<br/>• Fisher Information #amp; Asymptotic Efficiency<br/>• Bounded Variance #amp; Asymptotic Normality"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
+    T(["Probability #amp; Statistics · Consistency #amp; Asymptotic Normality of Estimators: Criteria for Large-Sample Convergence"]):::title
+    a["Estimator sequence theta_n"]
+    b{"Converges to theta in probability?"}
+    c["Consistent"]
+    d{"sqrt(n)(theta_n - theta) approaches Normal?"}
+    e["Asymptotically normal"]
+    f["Variance gives asymptotic efficiency"]
+    g["Standard errors from the limit"]
+    h["Inconsistent: more data will not help"]
+    i(["Large-sample guarantees"])
+    T ~~~ a
+    a --> b
+    b -- "yes" --> c
+    c --> d
+    b -- "no" --> h
+    d -- "yes" --> e
+    e --> f
+    f --> g
+    g --> i
+    d -- "no" --> i
+    class b,d dec
+    class i term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This conceptual blueprint highlights how abstract probability spaces project down into observable sample geometries, connecting theoretical expectation functionals with concrete sample statistics.

@@ -51,18 +51,34 @@ To build intuitive geometric comprehension, the operational mechanics and struct
 
 ```mermaid
 flowchart TD
-    T(["THEORETICAL FOUNDATION: HYPOTHESIS TESTING FRAMEWORK"]):::title
-    I(["Mathematical Measure Space (Ω, F, P)"]):::io
-    L["<b>Analytical Formulation</b><br/>• Probability Density / PMF<br/>• Parameter Vector θ ∈ Θ<br/>• Closed-form Derivation"]
-    R["<b>Empirical Space</b><br/>• Sample Realizations (x_1..x_N)<br/>• Sufficient Statistics T(X)<br/>• Monte Carlo Estimators"]
-    E["<b>Asymptotic Convergence #amp; Limits</b><br/>• Large Sample Consistency: n -#gt; ∞<br/>• Fisher Information #amp; Asymptotic Efficiency<br/>• Bounded Variance #amp; Asymptotic Normality"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
+    T(["Probability #amp; Statistics · Hypothesis Testing Framework: Null (H0) vs Alternative (H1), Type I #amp; Type II Errors"]):::title
+    a["Research question"]
+    b["Null H0 and alternative H1"]
+    c["Choose test statistic and alpha"]
+    d["Compute statistic from data"]
+    e{"In the rejection region?"}
+    f["Reject H0"]
+    g["Fail to reject H0"]
+    h["Type I error: reject a true H0"]
+    i["Type II error: miss a real effect"]
+    j(["Decision with known error rates"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c --> d
+    d --> e
+    e -- "yes" --> f
+    f --> h
+    h --> j
+    e -- "no" --> g
+    g --> i
+    i --> j
+    class e dec
+    class j term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This conceptual blueprint highlights how abstract probability spaces project down into observable sample geometries, connecting theoretical expectation functionals with concrete sample statistics.

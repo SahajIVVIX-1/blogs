@@ -77,18 +77,43 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["DEEP AUTOREGRESSIVE REASONING PIPELINE"]):::title
-    X(["Input Token Sequence x_{1:t}"]):::io --> N["Rotary Positional Encoding (RoPE) #amp; RMSNorm"]
-    N --> G["<b>Grouped-Query Attention Block (GQA)</b><br/>Q = x * W_q, K = x * W_k (shared), V = x * W_v (shared)"]
-    G --> S["SwiGLU Feed-Forward Network: (xW_gate * swish(xW_up)) * W_down"]
-    S --> R["Residual Accumulator #amp; Pre-Layer Normalization"]
-    R --> H1(["Direct Next-Token Logits"])
-    R --> H2(["Implicit Reward Head"])
-    H1 --> P1["Temperature-Scaled Top-p Sampling"]
-    H2 --> P2["Alignment Loss Check"]
-    T ~~~ X
+    T(["Writing in the Margins: Better Inference Pattern for Long Context Retrieval"]):::title
+    n1[["Introduce Writing in the Margins, a new inference pattern for Large Language Models designed to…"]]
+    n5[/"Evaluated against baselines"/]
+    n6{"Efficiency gain holds?"}
+    n9{{"Reported: 7.5% · 30.0%"}}
+    n10(["Release our implementation of WiM using Hugging Face Transformers library at…"])
+    n11["Area: transformers · model-architecture · state-space-models · attention-mechanisms"]
+    subgraph G0["How it works"]
+        n2["This approach leverages the chunked prefill of the key-value cache to perform segment-wise inference"]
+        n3["Enables efficient processing of extensive contexts along with the generation and classification of…"]
+        n4["Show how the proposed pattern fits into an interactive retrieval design that provides end-users with…"]
+    end
+    subgraph G1["Evidence"]
+        n7["This method increases computational overhead marginally while significantly enhancing the performance of…"]
+        n8["Observe that WiM provides an average enhancement of 7.5% in accuracy for reasoning skills (HotpotQA…"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n1 --> n3
+    n1 --> n4
+    n2 --> n5
+    n3 --> n5
+    n4 --> n5
+    n5 --> n6
+    n6 -- "yes" --> n7
+    n6 -- "yes" --> n8
+    n6 -- "no" --> n1
+    n9 --> n10
+    n7 --> n9
+    n8 --> n9
+    n11 --> n1
+    class n6 dec
+    class n10 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

@@ -51,18 +51,33 @@ To build intuitive geometric comprehension, the operational mechanics and struct
 
 ```mermaid
 flowchart TD
-    T(["THEORETICAL FOUNDATION: BAYESIAN POINT ESTIMATION"]):::title
-    I(["Mathematical Measure Space (Ω, F, P)"]):::io
-    L["<b>Analytical Formulation</b><br/>• Probability Density / PMF<br/>• Parameter Vector θ ∈ Θ<br/>• Closed-form Derivation"]
-    R["<b>Empirical Space</b><br/>• Sample Realizations (x_1..x_N)<br/>• Sufficient Statistics T(X)<br/>• Monte Carlo Estimators"]
-    E["<b>Asymptotic Convergence #amp; Limits</b><br/>• Large Sample Consistency: n -#gt; ∞<br/>• Fisher Information #amp; Asymptotic Efficiency<br/>• Bounded Variance #amp; Asymptotic Normality"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
+    T(["Probability #amp; Statistics · Bayesian Point Estimation: Posterior Mean (L2 loss), Posterior Median (L1 loss), and MAP (0-1 loss)"]):::title
+    a["Posterior p(theta | data)"]
+    b{"Loss function?"}
+    c["Squared error L2"]
+    d["Posterior mean"]
+    e["Absolute error L1"]
+    f["Posterior median"]
+    g["0-1 loss"]
+    h["MAP: posterior mode"]
+    i(["Bayes estimator for the loss"])
+    T ~~~ a
+    a --> b
+    b -- "L2" --> c
+    c --> d
+    d --> i
+    b -- "L1" --> e
+    e --> f
+    f --> i
+    b -- "0-1" --> g
+    g --> h
+    h --> i
+    class b dec
+    class i term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This conceptual blueprint highlights how abstract probability spaces project down into observable sample geometries, connecting theoretical expectation functionals with concrete sample statistics.

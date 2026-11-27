@@ -73,22 +73,50 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["AUTONOMOUS AGENT ORCHESTRATION PIPELINE"]):::title
-    ENV(["Environment"]):::io --> OBS(["Multi-Modal State Observation o_t"])
-    OBS --> MEM["Episodic #amp; Semantic Memory Store"]
-    MEM --> PLAN["Planning #amp; Decomposition Module (LLM / Reasoner)"]
-    PLAN --> SEL(["Tool Selection Head"])
-    PLAN --> CRIT(["Self-Critic"])
-    SEL --> EXE["Tool Execution Call"]
-    CRIT --> VER{"Verification Passed?"}
-    VER -- Yes --> EXE
-    VER -- "No: re-plan" --> REF["Reflection State Update"]
-    EXE --> ACT(["Action a_t"])
-    REF --> ACT
-    ACT --> ENV
-    T ~~~ ENV
+    T(["The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery"]):::title
+    n3[["The AI Scientist: This paper presents the first comprehensive framework for fully automatic scientific…"]]
+    n4["Introduce The AI Scientist, which generates novel research ideas, writes code, executes experiments…"]
+    n9[/"Evaluated against baselines"/]
+    n10{"Gains without quality loss?"}
+    n14(["Our code is open-sourced at https://github.com/SakanaAI/AI-Scientist"])
+    n15["Area: agents · autonomous-systems · tool-use · decision-making"]
+    subgraph G0["Problem and gap"]
+        n1["One of the grand challenges of artificial general intelligence is developing agents capable of conducting…"]
+        n2["While frontier models have already been used as aids to human scientists, e.g. for brainstorming ideas…"]
+    end
+    subgraph G1["How it works"]
+        n5["In principle, this process can be repeated to iteratively develop ideas in an open-ended fashion, acting…"]
+        n6["Each idea is implemented and developed into a full paper at a cost of less than $15 per paper"]
+        n7["The AI Scientist can produce papers that exceed the acceptance threshold at a top machine learning…"]
+        n8["This approach signifies the beginning of a new era in scientific discovery in machine learning: bringing…"]
+    end
+    subgraph G2["Evidence"]
+        n11["Demonstrate its versatility by applying it to three distinct subfields of machine learning: diffusion…"]
+        n12["To evaluate the generated papers, we design and validate an automated reviewer"]
+        n13["Show achieves near-human performance in evaluating paper scores"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n4 --> n5
+    n5 --> n6
+    n6 --> n7
+    n7 --> n8
+    n8 --> n9
+    n9 --> n10
+    n10 -- "yes" --> n11
+    n10 -- "yes" --> n12
+    n10 -- "yes" --> n13
+    n13 --> n14
+    n10 -- "no" --> n14
+    n15 --> n3
+    class n10 dec
+    class n14 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

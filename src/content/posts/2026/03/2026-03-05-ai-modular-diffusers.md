@@ -27,6 +27,46 @@ From the post:
 - custom blocks can be written and composed
 - integration with **Mellon**, a node-based visual workflow tool for wiring blocks together
 
+## How it fits together
+
+The flowchart below maps this announcement's main points and what depends on them.
+
+```mermaid
+flowchart TD
+    T(["Modular Diffusers: diffusion pipelines from composable blocks"]):::title
+    n1(["Hugging Face: Modular Diffusers: diffusion pipelines from composable blocks"])
+    n2["Hugging Face Diffusers introduced ModularPipeline, which builds diffusion pipelines from reusable blocks (text…"]
+    n7["each block has its own inputs and outputs, can run independently, and can be added, removed or…"]
+    n8{"Fits production use?"}
+    n9["The blocks map one-to-one onto the Stable Diffusion anatomy from my July 2026 study post: text encoder, VAE…"]
+    n10(["Track the rollout and follow-up releases"])
+    n11["Topics: genai · diffusion · hugging-face"]
+    subgraph G0["What it adds"]
+        n3["ModularPipeline.from_pretrained(...) defines the workflow without loading weights, and load_components(...)…"]
+        n4["the pipeline is made of inspectable blocks. For FLUX.2 Klein 4B: text_encoder → vae_encoder → denoise → decode"]
+        n5["custom blocks can be written and composed"]
+        n6["integration with Mellon, a node-based visual workflow tool for wiring blocks together"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n2 --> n5
+    n5 --> n6
+    n4 --> n8
+    n6 --> n8
+    n8 -- "no" --> n7
+    n7 --> n9
+    n9 --> n10
+    n11 --> n2
+    class n8 dec
+    class n1,n10 term
+    classDef title fill:transparent,stroke:transparent,font-weight:700;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
+```
+
 ## Why it matters
 
 The blocks map one-to-one onto the Stable Diffusion anatomy from my July 2026 study post: text encoder, VAE, denoiser, decoder. Making them explicit turns "a pipeline" into something you can debug and remix.

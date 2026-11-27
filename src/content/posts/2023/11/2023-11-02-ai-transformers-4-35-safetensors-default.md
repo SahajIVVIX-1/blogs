@@ -33,6 +33,43 @@ From the release notes:
 - **Fuyu-8B** (from Adept): a **decoder-only** multimodal model. A linear layer embeds image patches, which are then treated **like text tokens**, with a special image-newline token marking row ends.
 - Also added: Kosmos-2, SeamlessM4T and Owl-v2.
 
+## How it fits together
+
+The flowchart below maps this announcement's main points and what depends on them.
+
+```mermaid
+flowchart TD
+    T(["Transformers 4.35: safetensors by default, Distil-Whisper, Fuyu"]):::title
+    n1(["huggingface/transformers: Transformers 4.35: safetensors by default, Distil-Whisper, Fuyu"])
+    n2["Hugging Face Transformers v4.35 made safetensors the default serialization format and added models including…"]
+    n6{"Does upgrading need changes?"}
+    n7["The safetensors docs describe the format as a safe alternative to pickle-based checkpoints, which can execute code…"]
+    n8(["Upgrade with the checklist above"])
+    n9["Topics: hugging-face · transformers · release"]
+    subgraph G0["What changed"]
+        n3["Distil-Whisper: a distilled Whisper that's 6× faster, 49% smaller, and within 1% word error rate on…"]
+        n4["Fuyu-8B (from Adept): a decoder-only multimodal model. A linear layer embeds image patches, which are then…"]
+        n5["Also added: Kosmos-2, SeamlessM4T and Owl-v2."]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n2 --> n4
+    n2 --> n5
+    n3 --> n6
+    n4 --> n6
+    n5 --> n6
+    n6 -- "no" --> n7
+    n7 --> n8
+    n9 --> n2
+    class n6 dec
+    class n1,n8 term
+    classDef title fill:transparent,stroke:transparent,font-weight:700;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
+```
+
 ## Why it matters
 
 The safetensors docs describe the format as a safe alternative to pickle-based checkpoints, which can execute code when loaded. Making it the default is a security improvement for everyone downloading models. I ran into the same issue during my NLP phase, when a pickle-format model download was blocked and I switched to plain-text GloVe vectors.

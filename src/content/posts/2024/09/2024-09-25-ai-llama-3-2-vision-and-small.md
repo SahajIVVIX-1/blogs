@@ -26,6 +26,45 @@ From the Hugging Face post:
 - **Llama Guard 3** with **vision** support, plus a small **1B** Llama Guard
 - the post also has a section on licence changes for the vision models that affect users in the EU
 
+## How it fits together
+
+The flowchart below maps this announcement's main points and what depends on them.
+
+```mermaid
+flowchart TD
+    T(["Llama 3.2: vision models and small on-device models"]):::title
+    n1(["Hugging Face: Llama 3.2: vision models and small on-device models"])
+    n2["Meta's Llama 3.2 added vision models (11B and 90B) and small text-only models (1B and 3B) for on-device use…"]
+    n6[/"the post also has a section on licence changes for the vision models that affect users in the EU"/]
+    n7{"Available to me today?"}
+    n8["Two directions in one release: multimodality for the Llama family, and genuinely small models for phones and…"]
+    n9(["Track the rollout and follow-up releases"])
+    n10["Topics: llm · multimodal · on-device"]
+    subgraph G0["What it adds"]
+        n3["Llama 3.2 Vision: 11B (consumer GPU) and 90B (large-scale), base and instruction-tuned"]
+        n4["small text models: 1B and 3B, base and instruct, designed to run on-device"]
+        n5["Llama Guard 3 with vision support, plus a small 1B Llama Guard"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n2 --> n4
+    n2 --> n5
+    n3 --> n7
+    n4 --> n7
+    n5 --> n7
+    n7 -- "yes" --> n6
+    n6 --> n8
+    n8 --> n9
+    n10 --> n2
+    class n7 dec
+    class n1,n9 term
+    classDef title fill:transparent,stroke:transparent,font-weight:700;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
+```
+
 ## Why it matters
 
 Two directions in one release: multimodality for the Llama family, and genuinely small models for phones and laptops. Both trends show up in my paper summaries (SmolVLM in April 2025, Phi-3 in April 2024).

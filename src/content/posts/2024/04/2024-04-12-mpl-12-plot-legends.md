@@ -43,20 +43,35 @@ The structural flow, component relationships, and operational hierarchy of **Plo
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM TOPOLOGY: PLOT LEGENDS"]):::title
-    I(["Primary Input / Data Descriptor Space"]):::io
-    L["<b>Memory Layout #amp; Internal State</b><br/>• Contiguous Buffer / Cache Lines<br/>• Invariant Constraints #amp; Headers<br/>• Structural Hierarchy (O(1) Access)"]
-    R["<b>Algorithmic Control Flow</b><br/>• Transformation Kernel / Pipeline<br/>• Dispatch Table / Virtual Methods<br/>• Dynamic Resolution / Graph Routing"]
-    E["<b>Execution Pipeline #amp; Vectorization</b><br/>• Cache Locality Optimization (Spatial #amp; Temporal)<br/>• Bounded Asymptotic Complexity: O(n) Time, O(1) Space<br/>• Deterministic Memory Deallocation #amp; Lifecycle"]
-    O["<b>High-Throughput Production Serving</b><br/>• Zero-Copy Slicing / Shared References<br/>• Lock-Free Concurrency #amp; Thread Safety<br/>• Monitored Latency #amp; Error Resilience"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Matplotlib, Seaborn #amp; Scientific Viz · Plot Legends: Complex Positioning, Multi-Column Legends, and Custom Legend Handlers"]):::title
+    a["Plot with many artists"]
+    b["legend(handles, labels)"]
+    c{"Where to place?"}
+    d["loc='best' picks emptiest corner"]
+    e["bbox_to_anchor outside the axes"]
+    f{"Many entries?"}
+    g["ncol columns"]
+    h["Custom handler for patches or lines"]
+    i["Single figure legend fig.legend"]
+    j(["Uncluttered legend"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c -- "auto" --> d
+    d --> f
+    c -- "outside" --> e
+    e --> f
+    f -- "yes" --> g
+    g --> h
+    f -- "no" --> h
+    h --> i
+    i --> j
+    class c,f dec
+    class j term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational blueprint illustrates how abstract abstractions map directly to physical hardware architectures, optimizing memory locality and instruction throughput.

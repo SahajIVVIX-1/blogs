@@ -43,20 +43,36 @@ The structural flow, component relationships, and operational hierarchy of **Lin
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM TOPOLOGY: LINE PLOTS"]):::title
-    I(["Primary Input / Data Descriptor Space"]):::io
-    L["<b>Memory Layout #amp; Internal State</b><br/>• Contiguous Buffer / Cache Lines<br/>• Invariant Constraints #amp; Headers<br/>• Structural Hierarchy (O(1) Access)"]
-    R["<b>Algorithmic Control Flow</b><br/>• Transformation Kernel / Pipeline<br/>• Dispatch Table / Virtual Methods<br/>• Dynamic Resolution / Graph Routing"]
-    E["<b>Execution Pipeline #amp; Vectorization</b><br/>• Cache Locality Optimization (Spatial #amp; Temporal)<br/>• Bounded Asymptotic Complexity: O(n) Time, O(1) Space<br/>• Deterministic Memory Deallocation #amp; Lifecycle"]
-    O["<b>High-Throughput Production Serving</b><br/>• Zero-Copy Slicing / Shared References<br/>• Lock-Free Concurrency #amp; Thread Safety<br/>• Monitored Latency #amp; Error Resilience"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Matplotlib, Seaborn #amp; Scientific Viz · Line Plots: Custom Markers, Line Styles, Alpha Blending, and Multi-Scale Axes"]):::title
+    a["ax.plot(x, y)"]
+    b["Choose marker, linestyle, linewidth"]
+    c{"Overlapping lines?"}
+    d["alpha blending reveals density"]
+    e{"Different scales?"}
+    f["Secondary axis for the second series"]
+    g["Log scale for decades of range"]
+    h["Label axes with units"]
+    i["Legend entry per line"]
+    j(["Readable line chart"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c -- "yes" --> d
+    d --> e
+    c -- "no" --> e
+    e -- "yes" --> f
+    f --> h
+    e -- "wide" --> g
+    g --> h
+    e -- "no" --> h
+    h --> i
+    i --> j
+    class c,e dec
+    class j term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational blueprint illustrates how abstract abstractions map directly to physical hardware architectures, optimizing memory locality and instruction throughput.

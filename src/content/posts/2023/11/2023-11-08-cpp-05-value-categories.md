@@ -43,20 +43,38 @@ The structural flow, component relationships, and operational hierarchy of **Val
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM TOPOLOGY: VALUE CATEGORIES"]):::title
-    I(["Primary Input / Data Descriptor Space"]):::io
-    L["<b>Memory Layout #amp; Internal State</b><br/>• Contiguous Buffer / Cache Lines<br/>• Invariant Constraints #amp; Headers<br/>• Structural Hierarchy (O(1) Access)"]
-    R["<b>Algorithmic Control Flow</b><br/>• Transformation Kernel / Pipeline<br/>• Dispatch Table / Virtual Methods<br/>• Dynamic Resolution / Graph Routing"]
-    E["<b>Execution Pipeline #amp; Vectorization</b><br/>• Cache Locality Optimization (Spatial #amp; Temporal)<br/>• Bounded Asymptotic Complexity: O(n) Time, O(1) Space<br/>• Deterministic Memory Deallocation #amp; Lifecycle"]
-    O["<b>High-Throughput Production Serving</b><br/>• Zero-Copy Slicing / Shared References<br/>• Lock-Free Concurrency #amp; Thread Safety<br/>• Monitored Latency #amp; Error Resilience"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["C++ #amp; High-Performance DSA · Value Categories: lvalues, rvalues, glvalues, prvalues, and xvalues"]):::title
+    a["Expression in C++"]
+    b{"Has identity?"}
+    c{"Can be moved from?"}
+    d["xvalue: expiring, e.g. std::move(x)"]
+    e["lvalue: named, persistent"]
+    f{"Movable without identity?"}
+    g["prvalue: temporary, e.g. 42 or f()"]
+    h["glvalue = lvalue or xvalue"]
+    i["rvalue = xvalue or prvalue"]
+    j["Binding rules pick overload"]
+    k(["T#amp;, const T#amp;, T#amp;#amp; chosen"])
+    T ~~~ a
+    a --> b
+    b -- "yes" --> c
+    b -- "no" --> f
+    c -- "yes" --> d
+    d --> h
+    c -- "no" --> e
+    e --> h
+    f -- "yes" --> g
+    g --> i
+    d --> i
+    h --> j
+    i --> j
+    j --> k
+    class b,c,f dec
+    class k term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational blueprint illustrates how abstract abstractions map directly to physical hardware architectures, optimizing memory locality and instruction throughput.

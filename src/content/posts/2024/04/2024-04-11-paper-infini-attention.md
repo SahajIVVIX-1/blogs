@@ -72,18 +72,36 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["DEEP AUTOREGRESSIVE REASONING PIPELINE"]):::title
-    X(["Input Token Sequence x_{1:t}"]):::io --> N["Rotary Positional Encoding (RoPE) #amp; RMSNorm"]
-    N --> G["<b>Grouped-Query Attention Block (GQA)</b><br/>Q = x * W_q, K = x * W_k (shared), V = x * W_v (shared)"]
-    G --> S["SwiGLU Feed-Forward Network: (xW_gate * swish(xW_up)) * W_down"]
-    S --> R["Residual Accumulator #amp; Pre-Layer Normalization"]
-    R --> H1(["Direct Next-Token Logits"])
-    R --> H2(["Implicit Reward Head"])
-    H1 --> P1["Temperature-Scaled Top-p Sampling"]
-    H2 --> P2["Alignment Loss Check"]
-    T ~~~ X
+    T(["Leave No Context Behind: Efficient Infinite Context Transformers with Infini-attention"]):::title
+    n1[["This work introduces an efficient method to scale Transformer-based Large Language Models (LLMs) to…"]]
+    n5[/"Evaluated against baselines"/]
+    n6{"Better than prior methods?"}
+    n7["Demonstrate the effectiveness of our approach on long-context language modeling benchmarks, 1M sequence…"]
+    n8{{"Reported: 1M · 500K · 1B · 8B"}}
+    n9(["arXiv 2404.07143"])
+    n10["Area: transformers · model-architecture · state-space-models · attention-mechanisms"]
+    subgraph G0["How it works"]
+        n2["A key component in our proposed approach is a new attention technique dubbed Infini-attention"]
+        n3["The Infini-attention incorporates a compressive memory into the vanilla attention mechanism and builds in…"]
+        n4["Our approach introduces minimal bounded memory parameters and enables fast streaming inference for LLMs"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n4 --> n5
+    n5 --> n6
+    n6 -- "yes" --> n7
+    n7 --> n8
+    n8 --> n9
+    n6 -- "no" --> n9
+    n10 --> n1
+    class n6 dec
+    class n9 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

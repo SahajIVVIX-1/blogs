@@ -72,18 +72,44 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["DEEP AUTOREGRESSIVE REASONING PIPELINE"]):::title
-    X(["Input Token Sequence x_{1:t}"]):::io --> N["Rotary Positional Encoding (RoPE) #amp; RMSNorm"]
-    N --> G["<b>Grouped-Query Attention Block (GQA)</b><br/>Q = x * W_q, K = x * W_k (shared), V = x * W_v (shared)"]
-    G --> S["SwiGLU Feed-Forward Network: (xW_gate * swish(xW_up)) * W_down"]
-    S --> R["Residual Accumulator #amp; Pre-Layer Normalization"]
-    R --> H1(["Direct Next-Token Logits"])
-    R --> H2(["Implicit Reward Head"])
-    H1 --> P1["Temperature-Scaled Top-p Sampling"]
-    H2 --> P2["Alignment Loss Check"]
-    T ~~~ X
+    T(["Chain-of-Thought Reasoning Without Prompting"]):::title
+    n3[["Our study takes a novel approach by asking: Can LLMs reason effectively without prompting"]]
+    n4["Rather than conventional greedy decoding, we investigate the top-k alternative tokens, uncovering that CoT…"]
+    n9[/"Evaluated against baselines"/]
+    n10{"Better than prior methods?"}
+    n11["Extensive empirical studies on various reasoning benchmarks show that the proposed CoT-decoding…"]
+    n12(["arXiv 2402.10200"])
+    n13["Area: llm · reasoning · mathematical-reasoning · code-generation"]
+    subgraph G0["Problem and gap"]
+        n1["In enhancing the reasoning capabilities of large language models (LLMs), prior research primarily focuses…"]
+        n2["These methods, while effective, often involve manually intensive prompt engineering"]
+    end
+    subgraph G1["How it works"]
+        n5["Our findings reveal that, intriguingly, CoT reasoning paths can be elicited from pre-trained LLMs by…"]
+        n6["This approach not only bypasses the confounders of prompting but also allows us to assess the LLMs'…"]
+        n7["Observe that the presence of a CoT in the decoding path correlates with a higher confidence in the model's…"]
+        n8["This confidence metric effectively differentiates between CoT and non-CoT paths"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n4 --> n5
+    n5 --> n6
+    n6 --> n7
+    n7 --> n8
+    n8 --> n9
+    n9 --> n10
+    n10 -- "yes" --> n11
+    n11 --> n12
+    n10 -- "no" --> n12
+    n13 --> n3
+    class n10 dec
+    class n12 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

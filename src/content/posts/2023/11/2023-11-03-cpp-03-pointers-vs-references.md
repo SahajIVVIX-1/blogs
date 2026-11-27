@@ -43,20 +43,39 @@ The structural flow, component relationships, and operational hierarchy of **Poi
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM TOPOLOGY: POINTERS VS REFERENCES"]):::title
-    I(["Primary Input / Data Descriptor Space"]):::io
-    L["<b>Memory Layout #amp; Internal State</b><br/>• Contiguous Buffer / Cache Lines<br/>• Invariant Constraints #amp; Headers<br/>• Structural Hierarchy (O(1) Access)"]
-    R["<b>Algorithmic Control Flow</b><br/>• Transformation Kernel / Pipeline<br/>• Dispatch Table / Virtual Methods<br/>• Dynamic Resolution / Graph Routing"]
-    E["<b>Execution Pipeline #amp; Vectorization</b><br/>• Cache Locality Optimization (Spatial #amp; Temporal)<br/>• Bounded Asymptotic Complexity: O(n) Time, O(1) Space<br/>• Deterministic Memory Deallocation #amp; Lifecycle"]
-    O["<b>High-Throughput Production Serving</b><br/>• Zero-Copy Slicing / Shared References<br/>• Lock-Free Concurrency #amp; Thread Safety<br/>• Monitored Latency #amp; Error Resilience"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["C++ #amp; High-Performance DSA · Pointers vs References: Indirection Semantics, Pointer Arithmetic, and Aliasing"]):::title
+    a["int x = 5"]
+    b["Pointer p holds address of x"]
+    c["Reference r is an alias bound once"]
+    d{"Need to rebind or be null?"}
+    e["Use pointer"]
+    f["Use reference"]
+    g["*p dereferences address"]
+    h["p + 1 advances by sizeof(int)"]
+    i{"Two names refer to one object?"}
+    j["Aliasing blocks compiler optimizations"]
+    k["Use __restrict to promise no alias"]
+    l(["Safe, fast access"])
+    T ~~~ a
+    a --> b
+    a --> c
+    b --> d
+    d -- "yes" --> e
+    e --> g
+    g --> h
+    d -- "no" --> f
+    g --> i
+    f --> i
+    i -- "yes" --> j
+    j --> k
+    k --> l
+    i -- "no" --> l
+    class d,i dec
+    class l term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational blueprint illustrates how abstract abstractions map directly to physical hardware architectures, optimizing memory locality and instruction throughput.

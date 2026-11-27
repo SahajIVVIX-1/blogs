@@ -73,21 +73,41 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["LATENT FLOW MATCHING #amp; SYNTHESIS PIPELINE"]):::title
-    N(["Gaussian Noise x_1 ~ N(0, I)"]):::io --> TE["<b>Timestep Embedding</b><br/>t in [0, 1]"]
-    C(["Prompt / Condition c"]):::io --> CA["<b>Cross-Attention</b><br/>Text Encoder Head"]
-    TE --> VF["<b>Latent Vector Field Network</b><br/>v_theta(x_t, t, c)"]
-    CA --> VF
-    VF --> VP(["Velocity Vector Prediction: dx_t / dt"])
-    VP --> ODE["<b>Numerical ODE Solver Step</b><br/>x_{t - dt} = x_t - v * dt"]
-    ODE -- "iterate N steps" --> VF
-    ODE --> Z(["Synthesized Latent State x_0"])
-    Z --> D["Variational Autoencoder Decoder"]
-    D --> OUT(["High-Fidelity Output Image"]):::io
-    T ~~~ N
-    T ~~~ C
+    T(["Emu3: Next-Token Prediction is All You Need"]):::title
+    n1["While next-token prediction is considered a promising path towards artificial general intelligence, it has…"]
+    n2[["Introduce Emu3, a new suite of state-of-the-art multimodal models trained solely with next-token…"]]
+    n6[/"Evaluated against baselines"/]
+    n7{"Beats strong baselines?"}
+    n10(["Open-source key techniques and models to support further research in this direction"])
+    n11["Area: generative-ai · diffusion-models · image-synthesis · multimodal"]
+    subgraph G0["How it works"]
+        n3["By tokenizing images, text, and videos into a discrete space, we train a single transformer from scratch…"]
+        n4["Emu3 is also capable of generating high-fidelity video via predicting the next token in a video sequence"]
+        n5["Simplify complex multimodal model designs by converging on a singular focus: tokens, unlocking great…"]
+    end
+    subgraph G1["Evidence"]
+        n8["Emu3 outperforms several well-established task-specific models in both generation and perception tasks…"]
+        n9["Our results demonstrate that next-token prediction is a promising path towards building general multimodal…"]
+    end
+    T ~~~ n1
+    n2 --> n3
+    n3 --> n4
+    n4 --> n5
+    n1 --> n2
+    n5 --> n6
+    n1 --> n6
+    n6 --> n7
+    n7 -- "yes" --> n8
+    n7 -- "yes" --> n9
+    n7 -- "no" --> n1
+    n9 --> n10
+    n11 --> n2
+    class n7 dec
+    class n10 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

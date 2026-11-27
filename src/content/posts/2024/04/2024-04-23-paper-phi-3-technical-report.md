@@ -72,18 +72,34 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["DEEP AUTOREGRESSIVE REASONING PIPELINE"]):::title
-    X(["Input Token Sequence x_{1:t}"]):::io --> N["Rotary Positional Encoding (RoPE) #amp; RMSNorm"]
-    N --> G["<b>Grouped-Query Attention Block (GQA)</b><br/>Q = x * W_q, K = x * W_k (shared), V = x * W_v (shared)"]
-    G --> S["SwiGLU Feed-Forward Network: (xW_gate * swish(xW_up)) * W_down"]
-    S --> R["Residual Accumulator #amp; Pre-Layer Normalization"]
-    R --> H1(["Direct Next-Token Logits"])
-    R --> H2(["Implicit Reward Head"])
-    H1 --> P1["Temperature-Scaled Top-p Sampling"]
-    H2 --> P2["Alignment Loss Check"]
-    T ~~~ X
+    T(["Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone"]):::title
+    n1[["Phi-3 Technical Report: Introduce phi-3-mini, a 3.8 billion parameter language model trained on 3.3 trillion…"]]
+    n4[/"Evaluated against baselines"/]
+    n5{"Holds on the benchmarks?"}
+    n6["Provide some initial parameter-scaling results with a 7B and 14B models trained for 4.8T tokens, called…"]
+    n7{{"Reported: 7B · 14B · 75% · 78%"}}
+    n8(["arXiv 2404.14219"])
+    n9["Area: llm · alignment · rlhf-dpo · safety-guardrails"]
+    subgraph G0["How it works"]
+        n2["The innovation lies entirely in our dataset for training, a scaled-up version of the one used for phi-2…"]
+        n3["The model is also further aligned for robustness, safety, and chat format"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n4 --> n5
+    n5 -- "yes" --> n6
+    n6 --> n7
+    n7 --> n8
+    n5 -- "no" --> n8
+    n9 --> n1
+    class n5 dec
+    class n8 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

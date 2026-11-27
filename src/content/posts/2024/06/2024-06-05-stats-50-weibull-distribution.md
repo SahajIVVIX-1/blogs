@@ -51,18 +51,33 @@ To build intuitive geometric comprehension, the operational mechanics and struct
 
 ```mermaid
 flowchart TD
-    T(["THEORETICAL FOUNDATION: WEIBULL DISTRIBUTION"]):::title
-    I(["Mathematical Measure Space (Ω, F, P)"]):::io
-    L["<b>Analytical Formulation</b><br/>• Probability Density / PMF<br/>• Parameter Vector θ ∈ Θ<br/>• Closed-form Derivation"]
-    R["<b>Empirical Space</b><br/>• Sample Realizations (x_1..x_N)<br/>• Sufficient Statistics T(X)<br/>• Monte Carlo Estimators"]
-    E["<b>Asymptotic Convergence #amp; Limits</b><br/>• Large Sample Consistency: n -#gt; ∞<br/>• Fisher Information #amp; Asymptotic Efficiency<br/>• Bounded Variance #amp; Asymptotic Normality"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
+    T(["Probability #amp; Statistics · Weibull Distribution: Aging, Reliability Engineering, and Time-to-Failure Analysis"]):::title
+    a["Time to failure T"]
+    b["Weibull(shape k, scale lambda)"]
+    c{"Shape k?"}
+    d["k #lt; 1: infant mortality, falling hazard"]
+    e["k = 1: exponential, constant hazard"]
+    f["k #gt; 1: wear-out, rising hazard"]
+    g["Survival S(t) = exp(-(t/lambda)^k)"]
+    h["Fit k by maximum likelihood"]
+    i(["Reliability engineering"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c -- "lt1" --> d
+    d --> g
+    c -- "eq1" --> e
+    e --> g
+    c -- "gt1" --> f
+    f --> g
+    g --> h
+    h --> i
+    class c dec
+    class i term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This conceptual blueprint highlights how abstract probability spaces project down into observable sample geometries, connecting theoretical expectation functionals with concrete sample statistics.

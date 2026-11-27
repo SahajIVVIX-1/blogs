@@ -51,18 +51,29 @@ To build intuitive geometric comprehension, the operational mechanics and struct
 
 ```mermaid
 flowchart TD
-    T(["THEORETICAL FOUNDATION: BETA DISTRIBUTION"]):::title
-    I(["Mathematical Measure Space (Ω, F, P)"]):::io
-    L["<b>Analytical Formulation</b><br/>• Probability Density / PMF<br/>• Parameter Vector θ ∈ Θ<br/>• Closed-form Derivation"]
-    R["<b>Empirical Space</b><br/>• Sample Realizations (x_1..x_N)<br/>• Sufficient Statistics T(X)<br/>• Monte Carlo Estimators"]
-    E["<b>Asymptotic Convergence #amp; Limits</b><br/>• Large Sample Consistency: n -#gt; ∞<br/>• Fisher Information #amp; Asymptotic Efficiency<br/>• Bounded Variance #amp; Asymptotic Normality"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
+    T(["Probability #amp; Statistics · Beta Distribution: Support on [0, 1], Shape Parameters, and Bayesian Conjugacy for Binomials"]):::title
+    a["Beta(alpha, beta) on [0, 1]"]
+    b["Density x^(a-1) (1-x)^(b-1) / B(a, b)"]
+    c["Shapes: U, bell, skewed"]
+    d["Mean alpha / (alpha + beta)"]
+    e["Conjugate prior for Binomial probability"]
+    f["Posterior adds successes and failures"]
+    g["Order statistics of uniforms are Beta"]
+    h(["Distribution of probabilities"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c --> d
+    b --> e
+    e --> f
+    f --> h
+    b --> g
+    g --> h
+    class h term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This conceptual blueprint highlights how abstract probability spaces project down into observable sample geometries, connecting theoretical expectation functionals with concrete sample statistics.

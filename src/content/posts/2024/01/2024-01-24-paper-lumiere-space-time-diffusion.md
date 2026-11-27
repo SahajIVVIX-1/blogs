@@ -68,21 +68,34 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["LATENT FLOW MATCHING #amp; SYNTHESIS PIPELINE"]):::title
-    N(["Gaussian Noise x_1 ~ N(0, I)"]):::io --> TE["<b>Timestep Embedding</b><br/>t in [0, 1]"]
-    C(["Prompt / Condition c"]):::io --> CA["<b>Cross-Attention</b><br/>Text Encoder Head"]
-    TE --> VF["<b>Latent Vector Field Network</b><br/>v_theta(x_t, t, c)"]
-    CA --> VF
-    VF --> VP(["Velocity Vector Prediction: dx_t / dt"])
-    VP --> ODE["<b>Numerical ODE Solver Step</b><br/>x_{t - dt} = x_t - v * dt"]
-    ODE -- "iterate N steps" --> VF
-    ODE --> Z(["Synthesized Latent State x_0"])
-    Z --> D["Variational Autoencoder Decoder"]
-    D --> OUT(["High-Fidelity Output Image"]):::io
-    T ~~~ N
-    T ~~~ C
+    T(["Lumiere: A Space-Time Diffusion Model for Video Generation"]):::title
+    n1[["Introduce Lumiere -- a text-to-video diffusion model designed for synthesizing videos that portray…"]]
+    n2["Introduce a Space-Time U-Net architecture that generates the entire temporal duration of the video at…"]
+    n3["By deploying both spatial and (importantly) temporal down- and up-sampling and leveraging a pre-trained…"]
+    n4[/"Evaluated against baselines"/]
+    n5{"Better than prior methods?"}
+    n8(["arXiv 2401.12945"])
+    n9["Area: generative-ai · diffusion-models · image-synthesis · multimodal"]
+    subgraph G0["Evidence"]
+        n6["This is in contrast to existing video models which synthesize distant keyframes followed by temporal…"]
+        n7["Demonstrate state-of-the-art text-to-video generation results, and show that our design easily facilitates…"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n4 --> n5
+    n5 -- "yes" --> n6
+    n5 -- "yes" --> n7
+    n7 --> n8
+    n5 -- "no" --> n8
+    n9 --> n1
+    class n5 dec
+    class n8 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

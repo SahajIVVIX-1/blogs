@@ -43,20 +43,36 @@ The structural flow, component relationships, and operational hierarchy of **Vec
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM TOPOLOGY: VECTORIZED TRANSFORMATIONS"]):::title
-    I(["Primary Input / Data Descriptor Space"]):::io
-    L["<b>Memory Layout #amp; Internal State</b><br/>• Contiguous Buffer / Cache Lines<br/>• Invariant Constraints #amp; Headers<br/>• Structural Hierarchy (O(1) Access)"]
-    R["<b>Algorithmic Control Flow</b><br/>• Transformation Kernel / Pipeline<br/>• Dispatch Table / Virtual Methods<br/>• Dynamic Resolution / Graph Routing"]
-    E["<b>Execution Pipeline #amp; Vectorization</b><br/>• Cache Locality Optimization (Spatial #amp; Temporal)<br/>• Bounded Asymptotic Complexity: O(n) Time, O(1) Space<br/>• Deterministic Memory Deallocation #amp; Lifecycle"]
-    O["<b>High-Throughput Production Serving</b><br/>• Zero-Copy Slicing / Shared References<br/>• Lock-Free Concurrency #amp; Thread Safety<br/>• Monitored Latency #amp; Error Resilience"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Pandas #amp; Large Data Engineering · Vectorized Transformations: apply vs transform vs map vs Vectorized Expressions"]):::title
+    a["Transform a column"]
+    b{"Pure arithmetic or string op?"}
+    c["Vectorized expression"]
+    d{"Result same length per group?"}
+    e["groupby.transform keeps index"]
+    f["apply with Python function per row"]
+    g["map for dict or Series lookup"]
+    h["Python loop overhead"]
+    i["Prefer vectorized or numba"]
+    j(["Fastest valid method"])
+    T ~~~ a
+    a --> b
+    b -- "yes" --> c
+    c --> j
+    b -- "no" --> d
+    d -- "yes" --> e
+    e --> j
+    d -- "no" --> f
+    f --> h
+    h --> i
+    i --> j
+    a --> g
+    g --> j
+    class b,d dec
+    class j term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational blueprint illustrates how abstract abstractions map directly to physical hardware architectures, optimizing memory locality and instruction throughput.

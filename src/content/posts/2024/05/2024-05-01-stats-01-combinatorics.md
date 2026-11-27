@@ -51,18 +51,38 @@ To build intuitive geometric comprehension, the operational mechanics and struct
 
 ```mermaid
 flowchart TD
-    T(["THEORETICAL FOUNDATION: COMBINATORICS"]):::title
-    I(["Mathematical Measure Space (Ω, F, P)"]):::io
-    L["<b>Analytical Formulation</b><br/>• Probability Density / PMF<br/>• Parameter Vector θ ∈ Θ<br/>• Closed-form Derivation"]
-    R["<b>Empirical Space</b><br/>• Sample Realizations (x_1..x_N)<br/>• Sufficient Statistics T(X)<br/>• Monte Carlo Estimators"]
-    E["<b>Asymptotic Convergence #amp; Limits</b><br/>• Large Sample Consistency: n -#gt; ∞<br/>• Fisher Information #amp; Asymptotic Efficiency<br/>• Bounded Variance #amp; Asymptotic Normality"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
+    T(["Probability #amp; Statistics · Combinatorics: Permutations, Combinations, Partitioning, and Multinomial Coefficients"]):::title
+    a["Count arrangements of n items"]
+    b{"Does order matter?"}
+    c{"Repetition allowed?"}
+    d["Permutations n! / (n-k)!"]
+    e["Combinations n! / (k! (n-k)!)"]
+    f["n^k sequences"]
+    g["Multichoose C(n+k-1, k)"]
+    h["Partition into groups of sizes k1..km"]
+    i["Multinomial n! / (k1! ... km!)"]
+    j["Binomial theorem coefficients"]
+    k(["Count of outcomes"])
+    T ~~~ a
+    a --> b
+    b -- "yes" --> c
+    b -- "no" --> e
+    e --> j
+    c -- "no" --> d
+    d --> k
+    c -- "yes" --> f
+    f --> k
+    e --> g
+    e --> h
+    h --> i
+    i --> k
+    j --> k
+    class b,c dec
+    class k term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This conceptual blueprint highlights how abstract probability spaces project down into observable sample geometries, connecting theoretical expectation functionals with concrete sample statistics.

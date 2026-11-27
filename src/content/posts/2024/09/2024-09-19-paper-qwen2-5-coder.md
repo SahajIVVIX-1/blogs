@@ -72,18 +72,40 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["DEEP AUTOREGRESSIVE REASONING PIPELINE"]):::title
-    X(["Input Token Sequence x_{1:t}"]):::io --> N["Rotary Positional Encoding (RoPE) #amp; RMSNorm"]
-    N --> G["<b>Grouped-Query Attention Block (GQA)</b><br/>Q = x * W_q, K = x * W_k (shared), V = x * W_v (shared)"]
-    G --> S["SwiGLU Feed-Forward Network: (xW_gate * swish(xW_up)) * W_down"]
-    S --> R["Residual Accumulator #amp; Pre-Layer Normalization"]
-    R --> H1(["Direct Next-Token Logits"])
-    R --> H2(["Implicit Reward Head"])
-    H1 --> P1["Temperature-Scaled Top-p Sampling"]
-    H2 --> P2["Alignment Loss Check"]
-    T ~~~ X
+    T(["Qwen2.5-Coder Technical Report"]):::title
+    n1[["Introduce the Qwen2.5-Coder series, a significant upgrade from its predecessor, CodeQwen1.5"]]
+    n5[/"Evaluated against baselines"/]
+    n6{"Holds on the benchmarks?"}
+    n9{{"Reported: 1.5B · 7B"}}
+    n10(["arXiv 2409.12186"])
+    n11["Area: llm · reasoning · mathematical-reasoning · code-generation"]
+    subgraph G0["How it works"]
+        n2["This series includes two models: Qwen2.5-Coder-1.5B and Qwen2.5-Coder-7B"]
+        n3["As a code-specific model, Qwen2.5-Coder is built upon the Qwen2.5 architecture and continues pretrained on…"]
+        n4["Believe that the release of the Qwen2.5-Coder series will not only push the boundaries of research in code…"]
+    end
+    subgraph G1["Evidence"]
+        n7["Through meticulous data cleaning, scalable synthetic data generation, and balanced data mixing…"]
+        n8["The model has been evaluated on a wide range of code-related tasks, achieving state-of-the-art (SOTA)…"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n4 --> n5
+    n5 --> n6
+    n6 -- "yes" --> n7
+    n6 -- "yes" --> n8
+    n8 --> n9
+    n9 --> n10
+    n6 -- "no" --> n10
+    n11 --> n1
+    class n6 dec
+    class n10 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

@@ -51,20 +51,31 @@ The structural geometry, functional mappings, and algorithmic pipeline of **k-Ne
 
 ```mermaid
 flowchart TD
-    T(["ALGORITHMIC TOPOLOGY: K-NEAREST NEIGHBORS (KNN)"]):::title
-    I(["Input Feature Matrix: X ∈ R^{n × d}, Labels: y ∈ Y"]):::io
-    L["<b>Feature Mapping / Space Geometry</b><br/>• Subspace Projection / Kernel Space<br/>• Orthonormal Coordinates #amp; Basis<br/>• Geometric Decision Boundaries"]
-    R["<b>Loss Formulation</b><br/>• Objective: L(w; X, y)<br/>• Regularization Penalty R(w)<br/>• Convex Convexity Bounds"]
-    E["<b>Optimization #amp; Analytical Solution</b><br/>• Gradient: ∇_w L(w) = 0<br/>• Hessian Curvature: H = ∇^2 L(w) ≻ 0<br/>• Iterative Updates: w_{t+1} = w_t - η · H^{-1} ∇L"]
-    O["<b>Empirical Generalization #amp; Inference</b><br/>• Out-of-Sample Risk R_emp(f)<br/>• Variance-Bias Frontier Calibration<br/>• High-Throughput Production Serving"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Machine Learning · k-Nearest Neighbors (kNN): Non-Parametric Estimation, Majority Voting, and Inverse Distance Weighting"]):::title
+    a["Query point"]
+    b["Compute distance to all training points"]
+    c["Take the k nearest"]
+    d{"Weighting?"}
+    e["Majority vote"]
+    f["Inverse distance weights"]
+    g["Return class"]
+    h(["kNN prediction"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c --> d
+    d -- "uniform" --> e
+    e --> g
+    g --> h
+    d -- "weighted" --> f
+    f --> g
+    g --> h
+    class d dec
+    class h term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational diagram illustrates how high-dimensional feature points are transformed, regularized, and mapped to objective losses to achieve minimal out-of-sample generalization error.

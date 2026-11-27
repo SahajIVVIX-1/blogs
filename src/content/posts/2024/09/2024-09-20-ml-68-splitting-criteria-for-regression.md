@@ -51,20 +51,30 @@ The structural geometry, functional mappings, and algorithmic pipeline of **Spli
 
 ```mermaid
 flowchart TD
-    T(["ALGORITHMIC TOPOLOGY: SPLITTING CRITERIA FOR REGRESSION"]):::title
-    I(["Input Feature Matrix: X ∈ R^{n × d}, Labels: y ∈ Y"]):::io
-    L["<b>Feature Mapping / Space Geometry</b><br/>• Subspace Projection / Kernel Space<br/>• Orthonormal Coordinates #amp; Basis<br/>• Geometric Decision Boundaries"]
-    R["<b>Loss Formulation</b><br/>• Objective: L(w; X, y)<br/>• Regularization Penalty R(w)<br/>• Convex Convexity Bounds"]
-    E["<b>Optimization #amp; Analytical Solution</b><br/>• Gradient: ∇_w L(w) = 0<br/>• Hessian Curvature: H = ∇^2 L(w) ≻ 0<br/>• Iterative Updates: w_{t+1} = w_t - η · H^{-1} ∇L"]
-    O["<b>Empirical Generalization #amp; Inference</b><br/>• Out-of-Sample Risk R_emp(f)<br/>• Variance-Bias Frontier Calibration<br/>• High-Throughput Production Serving"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Machine Learning · Splitting Criteria for Regression: Mean Squared Error, Mean Absolute Error, and Variance Reduction"]):::title
+    a["Continuous targets in a node"]
+    b{"Criterion?"}
+    c["MSE: variance reduction"]
+    d["MAE: median-based leaves"]
+    e["Leaf prediction = mean"]
+    f["Leaf prediction = median"]
+    g["Pick split with largest reduction"]
+    h(["Regression tree split"])
+    T ~~~ a
+    a --> b
+    b -- "mse" --> c
+    c --> e
+    e --> g
+    b -- "mae" --> d
+    d --> f
+    f --> g
+    g --> h
+    class b dec
+    class h term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational diagram illustrates how high-dimensional feature points are transformed, regularized, and mapped to objective losses to achieve minimal out-of-sample generalization error.

@@ -77,18 +77,35 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["DEEP AUTOREGRESSIVE REASONING PIPELINE"]):::title
-    X(["Input Token Sequence x_{1:t}"]):::io --> N["Rotary Positional Encoding (RoPE) #amp; RMSNorm"]
-    N --> G["<b>Grouped-Query Attention Block (GQA)</b><br/>Q = x * W_q, K = x * W_k (shared), V = x * W_v (shared)"]
-    G --> S["SwiGLU Feed-Forward Network: (xW_gate * swish(xW_up)) * W_down"]
-    S --> R["Residual Accumulator #amp; Pre-Layer Normalization"]
-    R --> H1(["Direct Next-Token Logits"])
-    R --> H2(["Implicit Reward Head"])
-    H1 --> P1["Temperature-Scaled Top-p Sampling"]
-    H2 --> P2["Alignment Loss Check"]
-    T ~~~ X
+    T(["Towards a Unified View of Preference Learning for Large Language Models: A Survey"]):::title
+    n4[["Present detailed working examples of prevalent existing algorithms to facilitate a comprehensive…"]]
+    n5["Based on our unified perspective, we explore the challenges and future research directions for aligning…"]
+    n6[/"Evaluated against baselines"/]
+    n7{"Efficiency gain holds?"}
+    n8(["Code released with the paper"])
+    n9["Area: llm · alignment · rlhf-dpo · safety-guardrails"]
+    subgraph G0["Problem and gap"]
+        n1["Large Language Models (LLMs) exhibit remarkably powerful capabilities"]
+        n2["One of the crucial factors to achieve success is aligning the LLM's output with human preferences"]
+        n3["This alignment process often requires only a small amount of data to efficiently enhance the LLM's…"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n4 --> n5
+    n3 --> n4
+    n5 --> n6
+    n1 --> n6
+    n6 --> n7
+    n7 -- "no" --> n1
+    n7 --> n8
+    n9 --> n4
+    class n7 dec
+    class n8 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

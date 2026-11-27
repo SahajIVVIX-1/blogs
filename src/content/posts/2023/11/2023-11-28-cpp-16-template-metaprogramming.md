@@ -43,20 +43,35 @@ The structural flow, component relationships, and operational hierarchy of **Tem
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM TOPOLOGY: TEMPLATE METAPROGRAMMING"]):::title
-    I(["Primary Input / Data Descriptor Space"]):::io
-    L["<b>Memory Layout #amp; Internal State</b><br/>• Contiguous Buffer / Cache Lines<br/>• Invariant Constraints #amp; Headers<br/>• Structural Hierarchy (O(1) Access)"]
-    R["<b>Algorithmic Control Flow</b><br/>• Transformation Kernel / Pipeline<br/>• Dispatch Table / Virtual Methods<br/>• Dynamic Resolution / Graph Routing"]
-    E["<b>Execution Pipeline #amp; Vectorization</b><br/>• Cache Locality Optimization (Spatial #amp; Temporal)<br/>• Bounded Asymptotic Complexity: O(n) Time, O(1) Space<br/>• Deterministic Memory Deallocation #amp; Lifecycle"]
-    O["<b>High-Throughput Production Serving</b><br/>• Zero-Copy Slicing / Shared References<br/>• Lock-Free Concurrency #amp; Thread Safety<br/>• Monitored Latency #amp; Error Resilience"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["C++ #amp; High-Performance DSA · Template Metaprogramming: Type Traits, SFINAE, and std::enable_if"]):::title
+    a["Overload candidate set"]
+    b[["SFINAE: substitute template arguments"]]
+    c{"Substitution fails in the signature?"}
+    d["Candidate silently removed"]
+    e["Candidate stays viable"]
+    f["std::enable_if_t#lt;cond, T#gt; gates it"]
+    g["Type trait: is_integral, is_pointer"]
+    h["Compile-time boolean value"]
+    i{"Single viable candidate remains?"}
+    j["Call it"]
+    k["Ambiguity or no match error"]
+    T ~~~ a
+    a --> b
+    b --> c
+    c -- "yes" --> d
+    d --> i
+    c -- "no" --> e
+    e --> i
+    g --> h
+    h --> f
+    f --> b
+    i -- "yes" --> j
+    i -- "no" --> k
+    class c,i dec
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational blueprint illustrates how abstract abstractions map directly to physical hardware architectures, optimizing memory locality and instruction throughput.

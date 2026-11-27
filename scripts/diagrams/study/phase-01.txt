@@ -1,0 +1,799 @@
+@1.1
+a=Python source file
+b@=Tokenizer and PEG parser
+c=Abstract syntax tree
+d@=Compiler emits bytecode
+e$=Code object: co_code, co_consts, co_names
+f@=Eval loop fetches next opcode
+g=Operate on the value stack
+h?=Opcode is a call?
+i=Push new frame, jump into callee
+j?=More instructions?
+k=PyObject header: refcount + type pointer
+l!=Return value to caller
+a>b>c>d>e>f>g>h
+h-yes>i>f
+h-no>j
+j-yes>f
+j-no>l
+g>k
+[PyObject world: g k]
+@1.2
+a=New object allocated
+b$=Arena (256 KB) > pool > block
+c=ob_refcnt = 1
+d?=Reference added or dropped?
+e=INCREF on new reference
+f=DECREF on release
+g?=Refcount reaches zero?
+h=Deallocate and return block to pool
+i=Container objects tracked by GC
+j@=Cycle detector: generational scan
+k?=Unreachable cycle found?
+l=Break cycle and free members
+m!=Memory reclaimed
+a>b>c>d
+d-add>e>d
+d-drop>f>g
+g-yes>h>m
+g-no>d
+c>i>j>k
+k-yes>l>m
+k-no>j
+@1.3
+a=Threads start in one interpreter
+b$=GIL: one lock per interpreter
+c?=Thread holds the GIL?
+d=Execute bytecode for 5 ms interval
+e?=Blocking I/O or interval expired?
+f=Release GIL, signal waiting thread
+g=Wait on GIL condition variable
+h?=CPU-bound workload?
+i=Threads serialize: no parallel speed-up
+j=Threads overlap during I/O
+k#=Free-threaded build (3.13, PEP 703)
+l=Per-object locks, biased refcounts
+m!=True multicore parallel threads
+a>b>c
+c-no>g>c
+c-yes>d>e
+e-yes>f>g
+e-no>d
+f>h
+h-yes>i
+h-no>j
+i>k>l>m
+@1.4
+a=Expression evaluates an object
+b?=Which protocol is invoked?
+c=repr(x) calls type(x).__repr__
+d=str(x) calls __str__, falls back to __repr__
+e=x.attr triggers __getattribute__
+f?=Data descriptor on the type?
+g=Use descriptor __get__ or __set__
+h?=Name in instance __dict__?
+i=Return instance value
+j=Non-data descriptor or class attribute
+k?=Still not found?
+l=Call __getattr__ fallback
+m!=AttributeError or value
+a>b
+b-repr>c
+b-str>d
+b-attr>e>f
+f-yes>g
+f-no>h
+h-yes>i
+h-no>j>k
+k-yes>l>m
+k-no>m
+@1.5
+a=Decimal literal 0.1
+b=Stored as IEEE 754 binary64
+c$=Sign, 11-bit exponent, 52-bit mantissa
+d?=Exactly representable in binary?
+e=Rounded to nearest double
+f=Accumulated rounding error
+g?=Need exact base-10 arithmetic?
+h=decimal.Decimal with context precision
+i?=Need exact rational numbers?
+j=fractions.Fraction: numerator/denominator
+k=math.isclose with tolerance
+l!=Chosen numeric type
+a>b>c>d
+d-no>e>f
+d-yes>g
+f>g
+g-yes>h>l
+g-no>i
+i-yes>j>l
+i-no>k>l
+@1.6
+a=Text typed as str
+b=Sequence of Unicode code points
+c?=Choose encoding for bytes
+d=UTF-8: 1 to 4 bytes per code point
+e=UTF-16: 2 or 4 bytes, surrogate pairs
+f=UTF-32: fixed 4 bytes
+g=Internal PEP 393 layout: 1, 2 or 4 bytes
+h?=Identifier-like short string?
+i=Interned in global string table
+j=Compared by pointer identity
+k=Separate object, compared by value
+l!=Encoded bytes or str object
+a>b>c
+c-utf8>d>l
+c-utf16>e>l
+c-utf32>f>l
+b>g>h
+h-yes>i>j>l
+h-no>k>l
+@1.7
+a=list.append(x)
+b?=len equals allocated capacity?
+c=Write into the free slot
+d=Compute new capacity (about 1.125x growth)
+e=realloc a larger contiguous array
+f=Copy pointers, keep spare slots
+g$=Over-allocated pointer array
+h=Amortized O(1) per append
+i=list.insert(0, x) shifts every pointer
+j!=O(n) cost on the front
+a>b
+b-no>c>g
+b-yes>d>e>f>g
+g>h
+g>i>j
+@1.8
+a=Create tuple of n items
+b?=Size already has a free list?
+c=Reuse cached tuple object
+d=Allocate PyTupleObject with inline items
+e$=Header + ob_item[n] in one block
+f=Items are immutable references
+g?=Contains a mutable element?
+h=Hash raises TypeError
+i=Hash combines item hashes
+j=Usable as dict key
+k=Freed tuple returns to its free list
+l!=Fast small tuples
+a>b
+b-yes>c>e
+b-no>d>e
+e>f>g
+g-yes>h
+g-no>i>j
+j>k>l
+@1.9
+a=d[key] = value
+b=hash(key)
+c$=Compact index array + entries array
+d=Probe slot: index = hash mod size
+e?=Slot empty?
+f=Append entry, store its index
+g?=Same key (identity or equality)?
+h=Overwrite stored value
+i=Perturb: j = 5*j + 1 + perturb
+j?=Load factor above 2/3?
+k=Resize and reinsert entries
+l!=Insertion order preserved
+a>b>d>e
+e-yes>f>j
+e-no>g
+g-yes>h>l
+g-no>i>d
+j-yes>k>l
+j-no>l
+c>d
+@1.10
+a=Add element to set
+b=Compute hash
+c$=Open-addressing table of hash+key
+d?=Probe slot occupied?
+e=Store hash and key
+f?=Hash equal and key equal?
+g=Duplicate ignored
+h=Linear probe to next slot
+i?=Table more than 60 percent full?
+j=Resize to larger table
+k=Membership test x in s
+l!=Average O(1) lookup
+a>b>d
+d-no>e>i
+d-yes>f
+f-yes>g
+f-no>h>d
+i-yes>j>l
+i-no>l
+c>d
+b>k>d
+@1.11
+a=for x in iterable
+b=iter(obj) calls __iter__
+c?=Object returns itself as iterator?
+d=Iterator holds position state
+e=next(it) calls __next__
+f?=StopIteration raised?
+g=Bind value to x, run loop body
+h=Loop ends cleanly
+i?=Only __getitem__ defined?
+j=Legacy sequence protocol with index 0, 1, 2
+k!=Iteration complete
+a>b>c
+c-yes>d
+c-no>i
+i-yes>j>d
+i-no>k
+d>e>f
+f-no>g>e
+f-yes>h>k
+@1.12
+a=Call generator function
+b=Create generator object and frame
+c$=Suspended frame: locals + instruction pointer
+d=next() or send(value)
+e=Resume frame at last yield
+f?=Reach yield expression?
+g=Save frame state, return value to caller
+h?=Function returns?
+i=Raise StopIteration(value)
+j=throw() injects exception at yield
+k!=Generator finished
+a>b>c>d>e>f
+f-yes>g>c
+f-no>h
+h-yes>i>k
+h-no>e
+d>j>e
+@1.13
+a$=Gigabyte file on disk
+b=Generator: read one line at a time
+c=Generator: parse record
+d?=Record valid?
+e=Drop and count error
+f=Generator: transform fields
+g=Generator: batch 1000 rows
+h=Consumer pulls next batch
+i?=Memory above budget?
+j=Backpressure: pull slower
+k=Write batch to sink
+l!=Constant memory, any file size
+a>b>c>d
+d-no>e>b
+d-yes>f>g>h
+h>i
+i-yes>j>h
+i-no>k>b
+k>l
+@1.14
+a=with open(path) as f:
+b=Evaluate context expression
+c@=Call __enter__
+d=Bind returned resource to f
+e=Run the block body
+f?=Exception raised in the block?
+g=Call __exit__ with exc type, value, traceback
+h?=__exit__ returns True?
+i=Exception suppressed
+j=Exception re-raised
+k=Call __exit__(None, None, None)
+l!=Resource always released
+a>b>c>d>e>f
+f-yes>g>h
+h-yes>i>l
+h-no>j>l
+f-no>k>l
+@1.15
+a=def outer(x): def inner(): return x
+b=Compiler finds free variable x
+c=x stored in a cell object
+d=outer returns inner
+e=inner.__closure__ tuple of cells
+f$=Cell holds reference to the value
+g=Call inner later
+h?=Name local to inner?
+i=Use fast local
+j=Dereference cell contents
+k?=nonlocal assignment?
+l=Rebind the cell, outer sees it
+m!=Closure keeps state alive
+a>b>c>d>e>f
+f>g>h
+h-yes>i>m
+h-no>j>k
+k-yes>l>m
+k-no>m
+@1.16
+a=@decorator on def f
+b=f is passed to decorator(f)
+c?=Decorator takes arguments?
+d=Call factory first, then apply result
+e=Define wrapper(*args, **kwargs)
+f=functools.wraps copies name, doc, __wrapped__
+g=Wrapper runs pre-call logic
+h=Call original function
+i=Post-call logic: timing or caching
+j?=Class-based decorator?
+k=Instance with __call__ holds state
+l!=Name f now bound to wrapper
+a>b>c
+c-yes>d>e
+c-no>e
+e>f>g>h>i>l
+b>j
+j-yes>k>l
+@1.17
+a=Call f(1, 2, k=3, *rest, **opts)
+b=Match positional arguments in order
+c?=More positionals than parameters?
+d=Collect extras into *args tuple
+e=Bind named arguments
+f?=Duplicate or unknown keyword?
+g=Collect unknown keywords into **kwargs dict
+h=TypeError raised
+i?=Required parameter missing?
+j=Apply defaults evaluated at def time
+k!=Parameters bound, frame runs
+a>b>c
+c-yes>d>e
+c-no>e
+e>f
+f-yes>g>i
+f-no>h
+i-yes>h
+i-no>j>k
+@1.18
+a=Name lookup for x
+b?=Assigned in this function?
+c=Local scope (fast locals)
+d?=Defined in an enclosing function?
+e=Enclosing scope via cell
+f?=Module global?
+g=Global namespace dict
+h=Builtins module
+i?=Found?
+j=NameError
+k=nonlocal or global statement rebinding
+l!=Resolved value
+a>b
+b-yes>c>l
+b-no>d
+d-yes>e>l
+d-no>f
+f-yes>g>l
+f-no>h>i
+i-yes>l
+i-no>j
+k>b
+@1.19
+a=class Meta: attributes and methods
+b=Gather namespace into dict
+c@=type(name, bases, namespace)
+d=New class object created
+e?=Need class built at runtime?
+f=Factory function returns type(...) result
+g=Generate methods from a spec table
+h=Instantiate class
+i=__new__ allocates, __init__ configures
+j=Register in plugin registry
+k$=Registry of generated classes
+l!=Instances of dynamic type
+a>b>c>d
+d>e
+e-yes>f>g>j>k
+e-no>h
+f>h
+h>i>l
+@1.20
+a=class D(B, C) with diamond bases
+b=Collect linearizations of B, C and [B, C]
+c@=C3 merge algorithm
+d?=Head of first list not in tail of others?
+e=Take head into MRO result
+f=Remove it from every list
+g?=Lists empty?
+h=Candidate rejected, try next list head
+i=Inconsistent hierarchy: TypeError
+j!=MRO: D, B, C, A, object
+k=super() walks MRO after current class
+a>b>c>d
+d-yes>e>f>g
+d-no>h>d
+g-no>d
+g-yes>j>k
+h>i
+@1.21
+a=Define abc.ABC subclass
+b$=@abstractmethod registry
+c=Subclass created
+d?=All abstract methods overridden?
+e=Instantiation allowed
+f=TypeError at instantiation
+g=Register unrelated class: ABC.register
+h=Virtual subclass, no inheritance
+i=isinstance consults __subclasshook__
+j?=Structural match of methods?
+k=Treated as subclass
+l!=Interface checked at runtime
+a>b>c>d
+d-yes>e>l
+d-no>f
+g>h>i>j
+j-yes>k>l
+j-no>l
+@1.22
+a=class statement runs
+b=Resolve metaclass from bases or keyword
+c@=Meta.__prepare__ returns namespace
+d=Execute class body in that namespace
+e@=Meta.__new__ (name, bases, ns)
+f=Inspect or modify namespace
+g?=Validation rules satisfied?
+h=Create class via type.__new__
+i=Raise error at definition time
+j@=Meta.__init__ finalizes class
+k=Register class, add methods, wrap attributes
+l!=Customized class object
+a>b>c>d>e>f>g
+g-yes>h>j>k>l
+g-no>i
+@1.23
+a=Access obj.x
+b=Find x on type(obj)
+c?=Is it a data descriptor?
+d=Call __get__(obj, type)
+e?=Instance __dict__ has x?
+f=Return instance value
+g?=Non-data descriptor?
+h=Call its __get__ (functions bind as methods)
+i=Return plain class attribute
+j=@property = descriptor with getter, setter
+k=staticmethod returns function unbound
+l=classmethod binds the class
+m!=Resolved attribute
+a>b>c
+c-yes>d>m
+c-no>e
+e-yes>f>m
+e-no>g
+g-yes>h>m
+g-no>i>m
+j>d
+k>h
+l>h
+@1.24
+a=Annotated source: x: list[int]
+b=Runtime stores annotations dict
+c@=Mypy parses and infers types
+d=Build type graph with generics TypeVar
+e?=Call matches parameter types?
+f=Narrow types after isinstance checks
+g=Report error with location
+h?=Strict mode enabled?
+i=Require annotations everywhere
+j=Continue with Any
+k$=CI gate: mypy must pass
+l!=Static guarantees before runtime
+a>b
+a>c>d>e
+e-yes>f>h
+e-no>g>k
+h-yes>i>k
+h-no>j>k
+k>l
+@1.25
+a=Define typing.Protocol
+b=Declare required methods
+c?=Class has all members?
+d=Static checker accepts structurally
+e=No inheritance needed
+f?=@runtime_checkable?
+g=isinstance checks attribute presence
+h=Only static analysis
+i?=Signature compatible?
+j=Type error reported
+k!=Duck typing with validation
+a>b>c
+c-yes>d>e>f
+c-no>j
+f-yes>g>i
+f-no>h>k
+i-yes>k
+i-no>j
+@1.26
+a=Exception raised
+b=Create exception, attach __traceback__
+c=Unwind stack frame by frame
+d?=Matching except clause?
+e=Run handler, bind name
+f?=ExceptionGroup raised?
+g@=except* splits group by type
+h=Unmatched subgroup re-raised
+i=finally block always runs
+j?=raise ... from cause?
+k=__cause__ chain preserved
+l!=Handled or propagated to top
+a>b>c>d
+d-yes>e>i
+d-no>c
+b>f
+f-yes>g>h>i
+e>j
+j-yes>k>i
+i>l
+@1.27
+a=open(path, mode, encoding)
+b=OS returns file descriptor
+c=Wrap in BufferedReader or Writer
+d=TextIOWrapper decodes with chosen encoding
+e?=Need random access on large file?
+f=mmap maps file pages into memory
+g=Slice bytes without read() copies
+h=read() fills buffer from the kernel
+i=Process line by line
+j?=Write buffer full or flush called?
+k=write() syscall to the OS
+l!=Data on disk, descriptor closed
+a>b>c>d>e
+e-yes>f>g>l
+e-no>h>i>j
+j-yes>k>l
+j-no>i
+@1.28
+a=Python object to persist
+b?=Interoperable and safe format needed?
+c=json.dumps: dict, list, str, number only
+d?=Need arbitrary Python objects?
+e=pickle opcodes rebuild objects
+f=Unpickling can execute code: trusted data only
+g?=Fixed binary record layout?
+h=struct.pack with format string
+i=Bytes with endianness and size
+j=Reader validates and decodes
+k!=Serialized payload
+a>b
+b-yes>c>j
+b-no>d
+d-yes>e>f>j
+d-no>g
+g-yes>h>i>j
+g-no>c
+j>k
+@1.29
+a=Choose a container
+b?=Need O(1) pops at both ends?
+c=deque (doubly linked blocks)
+d?=Missing key default needed?
+e=defaultdict(factory)
+f?=Count hashable items?
+g=Counter: most_common(n)
+h?=Remember insertion order and reorder?
+i=OrderedDict.move_to_end
+j=Plain dict suffices
+k!=Right data structure
+a>b
+b-yes>c>k
+b-no>d
+d-yes>e>k
+d-no>f
+f-yes>g>k
+f-no>h
+h-yes>i>k
+h-no>j>k
+@1.30
+a$=Iterable inputs
+b=count(), cycle(), repeat() infinite iterators
+c=islice bounds the stream
+d=chain and zip_longest merge streams
+e=groupby on sorted keys
+f?=Need combinatorics?
+g=product, permutations, combinations
+h=Lazy: items produced on demand
+i=Pipeline composes iterators
+j=starmap and accumulate apply functions
+k!=Vectorized iteration with O(1) memory
+a>b>c>d>e>f
+f-yes>g>h
+f-no>h
+h>i>j>k
+@1.31
+a=Call cached function f(x)
+b@=lru_cache: key = args tuple
+c$=Hash map + doubly linked usage list
+d?=Key in cache?
+e=Move entry to most-recent end
+f=Compute f(x)
+g?=Cache full (maxsize)?
+h=Evict least recently used
+i=Store result
+j=functools.partial pre-binds arguments
+k=singledispatch picks implementation by type
+l!=Result returned
+a>b>d
+d-yes>e>l
+d-no>f>g
+g-yes>h>i
+g-no>i
+i>l
+j>a
+k>f
+@1.32
+a=I/O or CPU workload
+b?=Mostly waiting on I/O?
+c=Thousands of connections?
+d=asyncio: one thread, cooperative tasks
+e=Threads: blocking calls overlap
+f?=CPU-bound Python code?
+g=multiprocessing: separate interpreters
+h=Cost: pickling and IPC
+i?=Native extension releases GIL?
+j=Threads give real parallelism
+k!=Model matches workload
+a>b
+b-yes>c
+c-yes>d>k
+c-no>e>k
+b-no>f
+f-yes>g>h>k
+f-no>i
+i-yes>j>k
+i-no>g
+@1.33
+a=asyncio.run(main())
+b@=Event loop starts, selector registered
+c=Create Task from coroutine
+d=Task step runs until await
+e?=Awaited future done?
+f=Task suspends, loop runs other tasks
+g=Selector waits for socket readiness
+h=Callback sets future result
+i=Schedule task wake-up
+j?=Coroutine finished?
+k=Task result or exception stored
+l!=Loop closes when no tasks remain
+a>b>c>d>e
+e-no>f>g>h>i>d
+e-yes>j
+j-no>d
+j-yes>k>l
+@1.34
+a=open_connection(host, port)
+b@=Transport and protocol over selector
+c=StreamWriter.write queues bytes
+d?=Buffer above high-water mark?
+e=await drain applies backpressure
+f=Send on socket when writable
+g=StreamReader.readuntil or read
+h?=Data arrived?
+i=Feed parser incrementally
+j?=Message complete?
+k=Dispatch response, keep connection alive
+l!=Connection closed gracefully
+a>b>c>d
+d-yes>e>f
+d-no>f
+f>g>h
+h-no>g
+h-yes>i>j
+j-no>g
+j-yes>k>l
+@1.35
+a=Pool(processes=n)
+b=Fork or spawn worker processes
+c$=SharedMemory block
+d=Workers attach by name
+e=task queue: args pickled over pipe
+f=Worker runs function
+g?=Result large?
+h=Write into shared memory, return handle
+i=Pickle result back to parent
+j=Semaphore guards critical section
+k=Pool.map gathers ordered results
+l!=join() and cleanup
+a>b>d>e>f>g
+c>d
+g-yes>h>k
+g-no>i>k
+f>j>f
+k>l
+@1.36
+a=Popen(cmd, stdout=PIPE, stderr=PIPE)
+b=fork + exec child process
+c$=OS pipes: stdin, stdout, stderr
+d=Set pipes non-blocking
+e=selectors poll for readable pipes
+f?=Child still running?
+g=Read chunk without blocking
+h=Feed chunk to line parser
+i?=Timeout or SIGTERM?
+j=send_signal(SIGTERM), then kill
+k=wait() collects exit status
+l!=returncode checked
+a>b>c>d>e>f
+f-yes>g>h>i
+i-no>e
+i-yes>j>k
+f-no>k
+k>l
+@1.37
+a=python -m venv .venv
+b=Create directory with pyvenv.cfg
+c=Copy or symlink interpreter
+d$=site-packages inside the venv
+e=Activate: PATH points to venv bin
+f=import statement runs
+g=sys.path: script dir, stdlib, site-packages
+h?=Module found in order?
+i=Load module from the first match
+j=ModuleNotFoundError
+k=pip install resolves into the venv
+l!=Isolated dependency set
+a>b>c>d>e
+d>g
+f>g>h
+h-yes>i>l
+h-no>j
+k>d
+@1.38
+a=Source tree + pyproject.toml
+b=[build-system] requires and backend
+c?=Backend choice
+d=setuptools: build_meta
+e=flit: pure Python, minimal config
+f@=Isolated build environment
+g=Build sdist (source archive)
+h=Build wheel (zip of ready files)
+i?=Compiled extension?
+j=Platform-tagged wheel
+k=Universal py3-none-any wheel
+l$=PyPI upload with twine
+m!=pip install uses the wheel
+a>b>c
+c-setuptools>d>f
+c-flit>e>f
+f>g>h>i
+i-yes>j>l
+i-no>k>l
+l>m
+@1.39
+a=Profile finds hot inner loop
+b=Write .pyx with cdef types
+c@=Cython translates to C
+d=Compile with C compiler
+e$=Extension module .so or .pyd
+f?=Releases the GIL with nogil?
+g=Parallel threads in C
+h=Still holds the GIL
+i=Typed memoryviews avoid boxing
+j=Import from Python
+k?=Speed-up enough?
+l!=Native speed for critical loop
+a>b>c>d>e
+b>i
+e>j>k
+k-no>b
+k-yes>f
+f-yes>g>l
+f-no>h>l
+@1.40
+a=Slow program
+b?=Where to look first?
+c=cProfile: calls and cumulative time
+d=line_profiler: per-line cost
+e=tracemalloc / memory_profiler: allocations
+f$=Stats file sorted by cumtime
+g=Flame graph (py-spy or snakeviz)
+h?=Hot function found?
+i=Optimize algorithm or data structure
+j=Re-profile and compare
+k?=Faster and still correct?
+l!=Keep the change
+a>b
+b-time>c>f
+b-line>d>f
+b-memory>e>f
+f>g>h
+h-yes>i>j>k
+h-no>b
+k-yes>l
+k-no>i

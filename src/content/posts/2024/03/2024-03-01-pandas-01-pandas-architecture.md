@@ -43,20 +43,37 @@ The structural flow, component relationships, and operational hierarchy of **Pan
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM TOPOLOGY: PANDAS ARCHITECTURE"]):::title
-    I(["Primary Input / Data Descriptor Space"]):::io
-    L["<b>Memory Layout #amp; Internal State</b><br/>• Contiguous Buffer / Cache Lines<br/>• Invariant Constraints #amp; Headers<br/>• Structural Hierarchy (O(1) Access)"]
-    R["<b>Algorithmic Control Flow</b><br/>• Transformation Kernel / Pipeline<br/>• Dispatch Table / Virtual Methods<br/>• Dynamic Resolution / Graph Routing"]
-    E["<b>Execution Pipeline #amp; Vectorization</b><br/>• Cache Locality Optimization (Spatial #amp; Temporal)<br/>• Bounded Asymptotic Complexity: O(n) Time, O(1) Space<br/>• Deterministic Memory Deallocation #amp; Lifecycle"]
-    O["<b>High-Throughput Production Serving</b><br/>• Zero-Copy Slicing / Shared References<br/>• Lock-Free Concurrency #amp; Thread Safety<br/>• Monitored Latency #amp; Error Resilience"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Pandas #amp; Large Data Engineering · Pandas Architecture: BlockManager, Series, and 2D DataFrame Internals"]):::title
+    a["pd.DataFrame(data)"]
+    b[["BlockManager groups columns by dtype"]]
+    c[("2D block: all float64 columns together")]
+    d[("2D block: all int64 columns together")]
+    e["Axes: row Index and column Index"]
+    f["Series = one column view into a block"]
+    g{"Operation touches many dtypes?"}
+    h["Per-block vectorized loops"]
+    i["Consolidation copies blocks"]
+    j(["Columnar, dtype-grouped storage"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c --> e
+    b --> d
+    d --> e
+    e --> f
+    f --> g
+    g -- "yes" --> i
+    i --> h
+    g -- "no" --> h
+    h --> j
+    i --> j
+    class g dec
+    class j term
+    class c,d store
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational blueprint illustrates how abstract abstractions map directly to physical hardware architectures, optimizing memory locality and instruction throughput.

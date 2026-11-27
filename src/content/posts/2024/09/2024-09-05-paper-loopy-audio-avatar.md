@@ -68,21 +68,41 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["LATENT FLOW MATCHING #amp; SYNTHESIS PIPELINE"]):::title
-    N(["Gaussian Noise x_1 ~ N(0, I)"]):::io --> TE["<b>Timestep Embedding</b><br/>t in [0, 1]"]
-    C(["Prompt / Condition c"]):::io --> CA["<b>Cross-Attention</b><br/>Text Encoder Head"]
-    TE --> VF["<b>Latent Vector Field Network</b><br/>v_theta(x_t, t, c)"]
-    CA --> VF
-    VF --> VP(["Velocity Vector Prediction: dx_t / dt"])
-    VP --> ODE["<b>Numerical ODE Solver Step</b><br/>x_{t - dt} = x_t - v * dt"]
-    ODE -- "iterate N steps" --> VF
-    ODE --> Z(["Synthesized Latent State x_0"])
-    Z --> D["Variational Autoencoder Decoder"]
-    D --> OUT(["High-Fidelity Output Image"]):::io
-    T ~~~ N
-    T ~~~ C
+    T(["Loopy: Taming Audio-Driven Portrait Avatar with Long-Term Motion Dependency"]):::title
+    n3[["Propose an end-to-end audio-only conditioned video diffusion model named Loopy"]]
+    n4["This method removes the need for manually specified spatial motion templates used in existing methods to…"]
+    n5[/"Evaluated against baselines"/]
+    n6{"Beats strong baselines?"}
+    n10(["arXiv 2409.02634"])
+    n11["Area: generative-ai · diffusion-models · image-synthesis · multimodal"]
+    subgraph G0["Problem and gap"]
+        n1["With the introduction of diffusion-based video generation techniques, audio-conditioned human video…"]
+        n2["Due to the limited control of audio signals in driving human motion, existing methods often add auxiliary…"]
+    end
+    subgraph G1["Evidence"]
+        n7["Designed an inter- and intra-clip temporal module and an audio-to-latents module"]
+        n8["The model to leverage long-term motion information from the data to learn natural motion patterns and…"]
+        n9["Extensive experiments show that Loopy outperforms recent audio-driven portrait diffusion models…"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n3 --> n4
+    n2 --> n3
+    n4 --> n5
+    n1 --> n5
+    n5 --> n6
+    n6 -- "yes" --> n7
+    n6 -- "yes" --> n8
+    n6 -- "yes" --> n9
+    n6 -- "no" --> n1
+    n9 --> n10
+    n11 --> n3
+    class n6 dec
+    class n10 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

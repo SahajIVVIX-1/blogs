@@ -51,20 +51,32 @@ The structural geometry, functional mappings, and algorithmic pipeline of **Maha
 
 ```mermaid
 flowchart TD
-    T(["ALGORITHMIC TOPOLOGY: MAHALANOBIS DISTANCE"]):::title
-    I(["Input Feature Matrix: X ∈ R^{n × d}, Labels: y ∈ Y"]):::io
-    L["<b>Feature Mapping / Space Geometry</b><br/>• Subspace Projection / Kernel Space<br/>• Orthonormal Coordinates #amp; Basis<br/>• Geometric Decision Boundaries"]
-    R["<b>Loss Formulation</b><br/>• Objective: L(w; X, y)<br/>• Regularization Penalty R(w)<br/>• Convex Convexity Bounds"]
-    E["<b>Optimization #amp; Analytical Solution</b><br/>• Gradient: ∇_w L(w) = 0<br/>• Hessian Curvature: H = ∇^2 L(w) ≻ 0<br/>• Iterative Updates: w_{t+1} = w_t - η · H^{-1} ∇L"]
-    O["<b>Empirical Generalization #amp; Inference</b><br/>• Out-of-Sample Risk R_emp(f)<br/>• Variance-Bias Frontier Calibration<br/>• High-Throughput Production Serving"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Machine Learning · Mahalanobis Distance: Covariance-Weighted Distances and Invariance to Linear Transformations"]):::title
+    a["Features with different scales and correlations"]
+    b["Covariance matrix S"]
+    c["d(x, y) = sqrt((x - y)^T S^-1 (x - y))"]
+    d["Whiten: S^-1/2 transform"]
+    e["Equals Euclidean after whitening"]
+    f["Invariant to linear transformations"]
+    g{"Outlier detection?"}
+    h["Large distance from the mean flags outliers"]
+    i(["Covariance-aware distance"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c --> d
+    d --> e
+    e --> f
+    f --> g
+    g -- "yes" --> h
+    h --> i
+    g -- "no" --> i
+    class g dec
+    class i term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational diagram illustrates how high-dimensional feature points are transformed, regularized, and mapped to objective losses to achieve minimal out-of-sample generalization error.

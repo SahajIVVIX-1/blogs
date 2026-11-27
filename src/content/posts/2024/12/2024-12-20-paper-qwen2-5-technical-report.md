@@ -77,20 +77,50 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["MULTIMODAL VISION-LANGUAGE ARCHITECTURE"]):::title
-    IMG(["Input Image I"]):::io --> VIT["<b>Vision Transformer</b><br/>Encoder (ViT-H/14)"]
-    TXT(["User Text Query T"]):::io --> TOK["<b>Word #amp; Position</b><br/>Token Embeddings"]
-    VIT --> PT(["Patch Tokens Z_v"])
-    PT --> ADP["Multi-Layer Projection Adapter g"]
-    ADP --> HV(["Aligned Visual Tokens H_v"])
-    HV --> CTX["<b>Interleaved Multimodal Context</b><br/>[ H_v || E(T) ]"]
-    TOK --> CTX
-    CTX --> LLM["<b>Autoregressive LLM Backbone</b><br/>(RoPE, GQA, SwiGLU Attention)"]
-    LLM --> RESP(["Grounded Textual Response"]):::io
-    T ~~~ IMG
-    T ~~~ TXT
+    T(["Qwen2.5 Technical Report"]):::title
+    n1[["Introduce Qwen2.5, a comprehensive series of large language models (LLMs) designed to meet diverse needs"]]
+    n2["To handle diverse and varied use cases effectively, we present Qwen2.5 LLM series in rich sizes"]
+    n8[/"Evaluated against baselines"/]
+    n9{"Holds on the benchmarks?"}
+    n13{{"Reported: 72B · 405B"}}
+    n14(["Open-weight offerings include base and instruction-tuned models, with quantized versions…"])
+    n15["Area: multimodal · vlms · vision-language · deep-learning"]
+    subgraph G0["How it works"]
+        n3["In terms of pre-training, we have scaled the high-quality pre-training datasets from the previous 7…"]
+        n4["This provides a strong foundation for common sense, expert knowledge, and reasoning capabilities"]
+        n5["In terms of post-training, we implement intricate supervised finetuning with over 1 million samples, as…"]
+        n6["Qwen2.5-Turbo and Qwen2.5-Plus offer superior cost-effectiveness while performing competitively against…"]
+        n7["As the foundation, Qwen2.5 models have been instrumental in training specialized models such as…"]
+    end
+    subgraph G1["Evidence"]
+        n10["Compared to previous iterations, Qwen 2.5 has been significantly improved during both the pre-training and…"]
+        n11["Post-training techniques enhance human preference, and notably improve long text generation, structural…"]
+        n12["Qwen2.5 has demonstrated top-tier performance on a wide range of benchmarks evaluating language…"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n4 --> n5
+    n5 --> n6
+    n6 --> n7
+    n7 --> n8
+    n8 --> n9
+    n9 -- "no, refine" --> n3
+    n9 -- "yes" --> n10
+    n9 -- "yes" --> n11
+    n9 -- "yes" --> n12
+    n10 --> n13
+    n11 --> n13
+    n12 --> n13
+    n13 --> n14
+    n15 --> n1
+    class n9 dec
+    class n14 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.

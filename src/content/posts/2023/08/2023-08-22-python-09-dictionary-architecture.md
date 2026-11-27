@@ -43,20 +43,41 @@ The structural flow, component relationships, and operational hierarchy of **Dic
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM TOPOLOGY: DICTIONARY ARCHITECTURE"]):::title
-    I(["Primary Input / Data Descriptor Space"]):::io
-    L["<b>Memory Layout #amp; Internal State</b><br/>• Contiguous Buffer / Cache Lines<br/>• Invariant Constraints #amp; Headers<br/>• Structural Hierarchy (O(1) Access)"]
-    R["<b>Algorithmic Control Flow</b><br/>• Transformation Kernel / Pipeline<br/>• Dispatch Table / Virtual Methods<br/>• Dynamic Resolution / Graph Routing"]
-    E["<b>Execution Pipeline #amp; Vectorization</b><br/>• Cache Locality Optimization (Spatial #amp; Temporal)<br/>• Bounded Asymptotic Complexity: O(n) Time, O(1) Space<br/>• Deterministic Memory Deallocation #amp; Lifecycle"]
-    O["<b>High-Throughput Production Serving</b><br/>• Zero-Copy Slicing / Shared References<br/>• Lock-Free Concurrency #amp; Thread Safety<br/>• Monitored Latency #amp; Error Resilience"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Python for AI #amp; Systems · Dictionary Architecture: Compact Hash Tables, Perturbation Probing, and Open Addressing"]):::title
+    a["d[key] = value"]
+    b["hash(key)"]
+    c[("Compact index array + entries array")]
+    d["Probe slot: index = hash mod size"]
+    e{"Slot empty?"}
+    f["Append entry, store its index"]
+    g{"Same key (identity or equality)?"}
+    h["Overwrite stored value"]
+    i["Perturb: j = 5*j + 1 + perturb"]
+    j{"Load factor above 2/3?"}
+    k["Resize and reinsert entries"]
+    l(["Insertion order preserved"])
+    T ~~~ a
+    a --> b
+    b --> d
+    d --> e
+    e -- "yes" --> f
+    f --> j
+    e -- "no" --> g
+    g -- "yes" --> h
+    h --> l
+    g -- "no" --> i
+    i --> d
+    j -- "yes" --> k
+    k --> l
+    j -- "no" --> l
+    c --> d
+    class e,g,j dec
+    class l term
+    class c store
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational blueprint illustrates how abstract abstractions map directly to physical hardware architectures, optimizing memory locality and instruction throughput.

@@ -51,18 +51,34 @@ To build intuitive geometric comprehension, the operational mechanics and struct
 
 ```mermaid
 flowchart TD
-    T(["THEORETICAL FOUNDATION: BERNOULLI #amp; BINOMIAL DISTRIBUTIONS"]):::title
-    I(["Mathematical Measure Space (Ω, F, P)"]):::io
-    L["<b>Analytical Formulation</b><br/>• Probability Density / PMF<br/>• Parameter Vector θ ∈ Θ<br/>• Closed-form Derivation"]
-    R["<b>Empirical Space</b><br/>• Sample Realizations (x_1..x_N)<br/>• Sufficient Statistics T(X)<br/>• Monte Carlo Estimators"]
-    E["<b>Asymptotic Convergence #amp; Limits</b><br/>• Large Sample Consistency: n -#gt; ∞<br/>• Fisher Information #amp; Asymptotic Efficiency<br/>• Bounded Variance #amp; Asymptotic Normality"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
+    T(["Probability #amp; Statistics · Bernoulli #amp; Binomial Distributions: PMF Derivation, Expectation, and Variance Proofs"]):::title
+    a["Bernoulli trial with probability p"]
+    b["Sum of n independent trials"]
+    c["P(X = k) = C(n, k) p^k (1-p)^(n-k)"]
+    d["Choose positions of k successes"]
+    e["E[X] = n p by linearity"]
+    f["Var(X) = n p (1 - p)"]
+    g{"n large, p small?"}
+    h["Poisson approximation"]
+    i["Normal approximation for large n"]
+    j(["Binomial model"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c --> d
+    c --> e
+    c --> f
+    f --> g
+    g -- "yes" --> h
+    h --> j
+    g -- "no" --> i
+    i --> j
+    class g dec
+    class j term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This conceptual blueprint highlights how abstract probability spaces project down into observable sample geometries, connecting theoretical expectation functionals with concrete sample statistics.

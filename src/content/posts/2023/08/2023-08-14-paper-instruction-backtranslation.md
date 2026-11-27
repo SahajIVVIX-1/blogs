@@ -77,18 +77,36 @@ To translate the theoretical principles into a scalable engineering system, the 
 
 ```mermaid
 flowchart TD
-    T(["DEEP AUTOREGRESSIVE REASONING PIPELINE"]):::title
-    X(["Input Token Sequence x_{1:t}"]):::io --> N["Rotary Positional Encoding (RoPE) #amp; RMSNorm"]
-    N --> G["<b>Grouped-Query Attention Block (GQA)</b><br/>Q = x * W_q, K = x * W_k (shared), V = x * W_v (shared)"]
-    G --> S["SwiGLU Feed-Forward Network: (xW_gate * swish(xW_up)) * W_down"]
-    S --> R["Residual Accumulator #amp; Pre-Layer Normalization"]
-    R --> H1(["Direct Next-Token Logits"])
-    R --> H2(["Implicit Reward Head"])
-    H1 --> P1["Temperature-Scaled Top-p Sampling"]
-    H2 --> P2["Alignment Loss Check"]
-    T ~~~ X
+    T(["Self-Alignment with Instruction Backtranslation"]):::title
+    n1[["Present a scalable method to build a high quality instruction following language model by…"]]
+    n5[/"Evaluated against baselines"/]
+    n6{"Beats strong baselines?"}
+    n7["Finetuning LLaMa on two iterations of our approach yields a model that outperforms all other LLaMa-based…"]
+    n8(["Code released with the paper"])
+    n9["Area: efficiency · quantization · inference-acceleration · llm-systems"]
+    subgraph G0["How it works"]
+        n2["Our approach, named instruction backtranslation, starts with a language model finetuned on a small amount…"]
+        n3["The seed model is used to construct training examples by generating instruction prompts for web documents…"]
+        n4["This data is then used to finetune a stronger model"]
+    end
+    T ~~~ n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n1 --> n1
+    n4 --> n5
+    n1 --> n5
+    n5 --> n6
+    n6 -- "yes" --> n7
+    n6 -- "no" --> n1
+    n7 --> n8
+    n9 --> n1
+    class n6 dec
+    class n8 term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 The end-to-end dataflow guarantees that token representations, visual embeddings, or intermediate trajectory checkpoints are continuously aligned, preventing representations from diverging during deep forward passes.
