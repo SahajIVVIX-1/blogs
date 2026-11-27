@@ -6,6 +6,7 @@ import Footer from '@/components/Footer';
 import ContextAddressBar from '@/components/ContextAddressBar';
 import NavigationLoader from '@/components/NavigationLoader';
 import SearchPalette from '@/components/SearchPalette';
+import HardNav from '@/components/HardNav';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://blog.sahaj.si'),
@@ -75,6 +76,7 @@ export default function RootLayout({
         </Suspense>
         <Navbar />
         <SearchPalette />
+        <HardNav />
         <main id="main" className="flex-1 w-full max-w-[1800px] mx-auto px-[var(--gutter)] py-8 sm:py-12 animate-in fade-in duration-200">
           {children}
         </main>

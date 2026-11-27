@@ -124,12 +124,12 @@ export default function HomePage() {
           hrefLabel={`Full archive (${posts.length.toLocaleString()})`}
         />
         <div className="tabs">
-          <Link href="/archive/" className="tab is-on">All <span className="n">{posts.length.toLocaleString()}</span></Link>
-          <Link href="/study/" className="tab"><Icon name="book" size={14} />Study <span className="n">{studyPosts.length.toLocaleString()}</span></Link>
-          <Link href="/papers/" className="tab"><Icon name="paper" size={14} />Papers <span className="n">{paperPosts.length.toLocaleString()}</span></Link>
-          <Link href="/ai/" className="tab"><Icon name="bolt" size={14} />AI <span className="n">{aiPosts.length.toLocaleString()}</span></Link>
+          <Link prefetch={false} href="/archive/" className="tab is-on">All <span className="n">{posts.length.toLocaleString()}</span></Link>
+          <Link prefetch={false} href="/study/" className="tab"><Icon name="book" size={14} />Study <span className="n">{studyPosts.length.toLocaleString()}</span></Link>
+          <Link prefetch={false} href="/papers/" className="tab"><Icon name="paper" size={14} />Papers <span className="n">{paperPosts.length.toLocaleString()}</span></Link>
+          <Link prefetch={false} href="/ai/" className="tab"><Icon name="bolt" size={14} />AI <span className="n">{aiPosts.length.toLocaleString()}</span></Link>
           {personalPosts.length > 0 && (
-            <Link href="/personal/" className="tab"><Icon name="leaf" size={14} />Mindset <span className="n">{personalPosts.length.toLocaleString()}</span></Link>
+            <Link prefetch={false} href="/personal/" className="tab"><Icon name="leaf" size={14} />Mindset <span className="n">{personalPosts.length.toLocaleString()}</span></Link>
           )}
         </div>
         <PostList posts={posts.slice(0, 10)} />

@@ -1,7 +1,6 @@
 'use client';
 
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { useRouter } from 'next/navigation';
 import { Icon } from '@/components/ui';
 
 /**
@@ -169,7 +168,6 @@ function localSearch(docs: Doc[], query: string): { hits: Doc[]; label: string; 
 }
 
 export default function SearchPalette() {
-  const router = useRouter();
   const [open, setOpen] = useState(false);
   const [q, setQ] = useState('');
   const [docs, setDocs] = useState<Doc[]>([]);
@@ -304,7 +302,7 @@ export default function SearchPalette() {
   const go = (h?: Hit) => {
     if (!h) return;
     close();
-    router.push(h.url);
+    window.location.assign(h.url);
   };
 
   const onInputKey = (e: React.KeyboardEvent) => {

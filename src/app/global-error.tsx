@@ -1,51 +1,56 @@
 'use client';
 
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 
 interface GlobalErrorProps {
   error: Error & { digest?: string };
   reset: () => void;
 }
 
-export default function RootGlobalError({ error, reset }: GlobalErrorProps) {
+/**
+ * Last-resort boundary. Almost every error here is a transient loading glitch, so it silently reloads the page
+ * (at most once every 15 s, so a real bug can never cause a loop) and only then shows a calm screen.
+ */
+export default function RootGlobalError({ error }: GlobalErrorProps) {
+  const [reloading, setReloading] = useState(false);
+
   useEffect(() => {
-    console.error('Fatal Root Client Error caught in global-error:', error);
+    console.error('Root client error:', error);
+    let recent = false;
+    try {
+      recent = Date.now() - Number(sessionStorage.getItem('errReloadAt') || 0) < 15000;
+    } catch {}
+    if (!recent) {
+      setReloading(true);
+      try {
+        sessionStorage.setItem('errReloadAt', String(Date.now()));
+      } catch {}
+      const t = setTimeout(() => window.location.reload(), 50);
+      return () => clearTimeout(t);
+    }
   }, [error]);
 
   return (
-    <html lang="en" data-theme="dark" className="dark">
-      <body className="min-h-screen bg-[#0a0f1d] text-[#e2e8f0] flex flex-col items-center justify-center p-6 font-sans">
-        <div className="max-w-md w-full rounded-2xl border border-white/10 bg-white/[0.03] p-8 text-center backdrop-blur-md shadow-2xl">
-          <div className="mx-auto mb-4 h-12 w-12 rounded-xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-xl text-emerald-400">
-            ⚡
-          </div>
-          <h2 className="text-xl tracking-tight text-white ">
-            Sahaj Saliya · Handbooks
-          </h2>
-          <p className="mt-2 text-xs text-slate-400 leading-relaxed">
-            The application intercepted a client-side navigation exception. Click below to reload the handbook interface.
+    <html lang="en">
+      <body style={{ margin: 0, minHeight: '100vh', display: 'grid', placeItems: 'center', padding: 24, background: '#0B1020', color: '#ECE8DE', fontFamily: "'Inter Tight', ui-sans-serif, system-ui, sans-serif" }}>
+        <main style={{ maxWidth: 460, width: '100%' }}>
+          <p style={{ margin: 0, font: "500 11.5px/1 'JetBrains Mono', ui-monospace, monospace", letterSpacing: '.08em', textTransform: 'uppercase', color: '#FF8A5B' }}>
+            {reloading ? 'Reloading' : 'Something went wrong'}
           </p>
-          <div className="mt-6 flex flex-col gap-2 sm:flex-row sm:justify-center">
-            <button
-              onClick={() => {
-                try {
-                  reset();
-                } catch {
-                  window.location.href = '/';
-                }
-              }}
-              className="rounded-lg bg-emerald-500 px-4 py-2 text-xs font-semibold text-slate-950 hover:bg-emerald-400 transition-colors"
-            >
-              Reload Page
-            </button>
-            <a
-              href="/"
-              className="rounded-lg border border-white/10 bg-white/5 px-4 py-2 text-xs font-medium text-slate-300 hover:text-white transition-colors"
-            >
-              Go to Home
-            </a>
-          </div>
-        </div>
+          <h1 style={{ margin: '18px 0 0', fontWeight: 450, fontSize: 'clamp(2rem, 8vw, 3rem)', lineHeight: 1.05, letterSpacing: '-.03em' }}>
+            {reloading ? 'One moment…' : 'Please reload the page.'}
+          </h1>
+          {!reloading && (
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: 10, marginTop: 28 }}>
+              <button onClick={() => window.location.reload()} style={{ minHeight: 44, padding: '0 20px', borderRadius: 999, border: 0, background: '#FF8A5B', color: '#1A0B04', font: "500 14.5px/1 'Inter Tight', sans-serif", cursor: 'pointer' }}>
+                Reload page
+              </button>
+              <a href="/" style={{ minHeight: 44, display: 'inline-flex', alignItems: 'center', padding: '0 20px', borderRadius: 999, border: '1px solid #2A3557', color: '#ECE8DE', textDecoration: 'none', font: "500 14.5px/1 'Inter Tight', sans-serif" }}>
+                Go home
+              </a>
+            </div>
+          )}
+        </main>
       </body>
     </html>
   );

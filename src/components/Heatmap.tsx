@@ -91,7 +91,7 @@ export default function Heatmap({ daysMap }: HeatmapProps) {
               <span key={o} className="h-2.5 w-2.5 rounded-sm" style={{ background: `rgb(var(--accent-rgb) / ${o})` }} />
             ))}
             <span>More</span>
-            <Link href="/archive/" className="tok-link ml-auto text-ink-soft">
+            <Link prefetch={false} href="/archive/" className="tok-link ml-auto text-ink-soft">
               Browse the archive by date
             </Link>
           </div>

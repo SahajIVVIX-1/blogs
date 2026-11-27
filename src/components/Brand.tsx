@@ -218,7 +218,7 @@ export default function Brand() {
   };
 
   return (
-    <Link
+    <Link prefetch={false}
       ref={brandRef}
       href="/"
       onClick={onClick}

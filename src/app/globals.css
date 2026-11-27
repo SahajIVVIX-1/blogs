@@ -510,3 +510,10 @@ kbd { font: 500 11px/1 'JetBrains Mono', ui-monospace, monospace; padding: 4px 6
 .mermaid-fig foreignObject b, .mermaid-fig foreignObject strong { font-weight: 700; color: inherit; }
 .mermaid-fig .edgeLabel, .mermaid-fig .edgeLabel p { background: var(--paper) !important; color: var(--ink-2) !important; }
 .mermaid-fig .node rect, .mermaid-fig .node polygon, .mermaid-fig .node path, .mermaid-fig .node circle { rx: 10; ry: 10; }
+
+/* author logo (site favicon artwork), light / dark swap */
+.author-logo { display: inline-flex; width: 56px; height: 56px; border-radius: 50%; overflow: hidden; border: 1px solid var(--rule-2); background: var(--paper-2); }
+.author-logo img { width: 100%; height: 100%; object-fit: cover; }
+.author-logo .logo-d { display: none; }
+:root[data-theme='dark'] .author-logo .logo-l { display: none; }
+:root[data-theme='dark'] .author-logo .logo-d { display: block; }

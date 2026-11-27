@@ -96,16 +96,16 @@ export default async function PostDetailPage({ params }: PageProps) {
       <MermaidRender />
       {/* Breadcrumb */}
       <nav aria-label="Breadcrumb" className="mb-8 flex flex-wrap items-center gap-2 font-mono text-[11.5px] uppercase tracking-wider text-ink-muted">
-        <Link href="/" className="tok-link">Home</Link>
+        <Link prefetch={false} href="/" className="tok-link">Home</Link>
         <span aria-hidden="true">/</span>
         {phase ? (
           <>
-            <Link href="/study/" className="tok-link">Study</Link>
+            <Link prefetch={false} href="/study/" className="tok-link">Study</Link>
             <span aria-hidden="true">/</span>
-            <Link href={`/learning-path/#phase-${phase.n}`} className="tok-link">Phase {phase.n}</Link>
+            <Link prefetch={false} href={`/learning-path/#phase-${phase.n}`} className="tok-link">Phase {phase.n}</Link>
           </>
         ) : (
-          <Link href={`/${d.categories[0]}/`} className="tok-link">
+          <Link prefetch={false} href={`/${d.categories[0]}/`} className="tok-link">
             {CATEGORY_LABEL[d.categories[0]] ?? 'Archive'}
           </Link>
         )}
@@ -125,7 +125,7 @@ export default async function PostDetailPage({ params }: PageProps) {
           </span>
         ))}
         {phase && (
-          <Link href={`/learning-path/#phase-${phase.n}`} className="chip hover:border-accent hover:text-accent">
+          <Link prefetch={false} href={`/learning-path/#phase-${phase.n}`} className="chip hover:border-accent hover:text-accent">
             Phase {phase.n} &middot; {phase.name} {d.step ? `(Step ${d.step})` : ''}
           </Link>
         )}
@@ -161,7 +161,7 @@ export default async function PostDetailPage({ params }: PageProps) {
         <div className="mt-14 flex flex-wrap items-center gap-2 border-t border-border pt-6">
           <span className="eyebrow mr-2">Tags</span>
           {d.tags.map((t) => (
-            <Link key={t} href={`/tags/${t}/`} className="chip hover:border-accent hover:text-accent">
+            <Link prefetch={false} key={t} href={`/tags/${t}/`} className="chip hover:border-accent hover:text-accent">
               #{t}
             </Link>
           ))}
@@ -195,8 +195,11 @@ export default async function PostDetailPage({ params }: PageProps) {
 
       {/* Author */}
       <section className="mt-14 grid gap-5 border-t border-border pt-8 sm:grid-cols-[auto_minmax(0,1fr)] sm:items-center">
-        <span className="flex h-14 w-14 items-center justify-center rounded-full border border-rule-2 text-2xl italic text-accent" style={{ fontFamily: "'Instrument Serif', Georgia, serif" }}>
-          S
+        <span className="author-logo" aria-hidden="true">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img className="logo-l" src="/brand/logo-light.webp" alt="" width="56" height="56" />
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img className="logo-d" src="/brand/logo-dark.webp" alt="" width="56" height="56" />
         </span>
         <div>
           <div className="flex flex-wrap items-baseline justify-between gap-2">
@@ -218,7 +221,7 @@ export default async function PostDetailPage({ params }: PageProps) {
       {(prev || next) && (
         <nav className="mt-14 grid gap-4 border-t border-border pt-8 sm:grid-cols-2" aria-label="Curriculum Navigation">
           {prev ? (
-            <Link href={postUrl(prev)} className="group block rounded-none border-l-2 border-border pl-5 transition-colors hover:border-accent">
+            <Link prefetch={false} href={postUrl(prev)} className="group block rounded-none border-l-2 border-border pl-5 transition-colors hover:border-accent">
               <span className="eyebrow" style={{ color: 'var(--ink-3)' }}>Previous</span>
               <span className="mt-2 block text-lg leading-snug text-ink transition-colors group-hover:text-accent">{prev.data.title}</span>
             </Link>
@@ -226,7 +229,7 @@ export default async function PostDetailPage({ params }: PageProps) {
             <span />
           )}
           {next ? (
-            <Link href={postUrl(next)} className="group block border-l-2 border-border pl-5 transition-colors hover:border-accent sm:text-right sm:border-l-0 sm:border-r-2 sm:pl-0 sm:pr-5">
+            <Link prefetch={false} href={postUrl(next)} className="group block border-l-2 border-border pl-5 transition-colors hover:border-accent sm:text-right sm:border-l-0 sm:border-r-2 sm:pl-0 sm:pr-5">
               <span className="eyebrow" style={{ color: 'var(--ink-3)' }}>Next</span>
               <span className="mt-2 block text-lg leading-snug text-ink transition-colors group-hover:text-accent">{next.data.title}</span>
             </Link>

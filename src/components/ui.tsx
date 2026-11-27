@@ -96,7 +96,7 @@ export function SectionHead({
         {sub && <p className="sub">{sub}</p>}
       </div>
       {href && (
-        <Link href={href} className="btn btn-ghost btn-sm">
+        <Link prefetch={false} href={href} className="btn btn-ghost btn-sm">
           <span>{hrefLabel ?? 'View all'}</span>
           <Icon name="arrow" size={14} />
         </Link>

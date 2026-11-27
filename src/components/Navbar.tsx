@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
-import { usePathname, useRouter } from 'next/navigation';
+import { usePathname } from 'next/navigation';
 import { TOTAL_POSTS } from '@/lib/constants';
 import Brand from '@/components/Brand';
 
@@ -24,7 +24,6 @@ function applyTheme(mode: 'auto' | 'light' | 'dark') {
 
 export default function Navbar() {
   const pathname = usePathname();
-  const router = useRouter();
   const [theme, setTheme] = useState<'auto' | 'light' | 'dark'>('auto');
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [contextOpen, setContextOpen] = useState(false);
@@ -86,7 +85,7 @@ export default function Navbar() {
       document.removeEventListener('mousedown', handleClickOutside);
       sys.removeEventListener('change', onSys);
     };
-  }, [router]);
+  }, []);
 
   // Esc closes the mobile menu
   useEffect(() => {
@@ -152,7 +151,7 @@ export default function Navbar() {
           {NAV_LINKS.map(({ href, label }) => {
             const active = pathname === href || pathname.startsWith(href);
             return (
-              <Link key={href} href={href} className="tok-link" aria-current={active ? 'page' : undefined}>
+              <Link prefetch={false} key={href} href={href} className="tok-link" aria-current={active ? 'page' : undefined}>
                 {label}
               </Link>
             );
@@ -303,7 +302,7 @@ export default function Navbar() {
               {NAV_LINKS.map(({ href, label }, i) => {
                 const active = pathname === href || pathname.startsWith(href);
                 return (
-                  <Link
+                  <Link prefetch={false}
                     key={href}
                     href={href}
                     onClick={() => setMobileMenuOpen(false)}
