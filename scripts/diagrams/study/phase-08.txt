@@ -1,0 +1,1046 @@
+@8.1
+a=Input x, weights w, bias b
+b=Predict sign(w . x + b)
+c?=Prediction correct?
+d=Update w += eta y x
+e?=Any mistake in the pass?
+f!=Converged: separating hyperplane
+g=Novikoff bound: mistakes <= (R / gamma)^2
+a>b>c
+c-no>d>e
+c-yes>e
+e-yes>b
+e-no>f>g
+@8.2
+a=Four XOR points
+b=Single line must separate classes
+c?=Linearly separable?
+d=No line exists
+e=Minsky and Papert critique
+f=Add a hidden layer
+g=Nonlinear features make it separable
+h!=XOR solved by an MLP
+a>b>c
+c-no>d>e>f>g>h
+c-yes>h
+@8.3
+a=Target continuous function on a compact set
+b=One hidden layer with sigmoid units
+c@=Cybenko: dense in C(K) via Hahn-Banach
+d=Finite sums of sigmoids approximate any target
+e?=Width enough?
+f=Error below epsilon
+g=Add hidden units
+h!=Existence, not learnability
+a>b>c>d>e
+e-yes>f>h
+e-no>g>e
+@8.4
+a=Program builds a computation graph
+b=Forward pass stores intermediate values
+c?=Mode?
+d=Forward mode: one input direction per pass
+e=Reverse mode: one backward sweep, all gradients
+f?=Many inputs, one scalar loss?
+g=Reverse mode is efficient
+h!=Gradients via autograd
+a>b>c
+c-forward>d>h
+c-reverse>e>f
+f-yes>g>h
+@8.5
+a=Loss L(y_hat, y)
+b=dL/dy_hat at the output
+c=Backpropagate delta through layer l
+d=delta_l = (W_(l+1)^T delta_(l+1)) * f'(z_l)
+e=Weight gradient dW_l = delta_l a_(l-1)^T
+f?=First layer reached?
+g!=All gradients available
+a>b>c>d>e>f
+f-no>c
+f-yes>g
+@8.6
+a=Non-convex loss landscape
+b?=Critical point type?
+c=Local minima: mostly good in high dimension
+d=Saddle points: dominate high-d critical points
+e=Hessian has negative curvature directions
+f=SGD noise escapes saddles
+g!=Optimization finds low loss anyway
+a>b
+b-minima>c>g
+b-saddles>d>e>f>g
+@8.7
+a=Activation choice
+b?=Function?
+c=Sigmoid/tanh: derivative at most 0.25 / 1
+d=Saturation shrinks gradients layer by layer
+e=ReLU: gradient 1 for positive inputs
+f?=Unit stuck negative?
+g=Dead neuron: zero gradient forever
+h!=Trade-off between saturation and dying
+a>b
+b-saturating>c>d>h
+b-relu>e>f
+f-yes>g>h
+f-no>h
+@8.8
+a=ReLU dead zone
+b?=Variant?
+c=Leaky: small slope for negatives
+d=PReLU: learn the slope
+e=ELU: smooth exponential negative branch
+f=SELU: scaled ELU, self-normalizing
+g=Mean near zero, no dying units
+h!=Better negative-side behavior
+a>b
+b-fixed>c>g
+b-learned>d>g
+b-smooth>e>g
+b-self-norm>f>g
+g>h
+@8.9
+a=Need smooth activation
+b=GELU: x Phi(x)
+c=Weights input by its Gaussian CDF
+d=Swish / SiLU: x sigmoid(x)
+e=Non-monotonic dip below zero
+f=Smooth gradients everywhere
+g?=Transformers?
+h=Default in BERT, GPT, many LLMs
+i!=Smooth gating activations
+a>b>c>f
+a>d>e>f
+f>g
+g-yes>h>i
+g-no>i
+@8.10
+a=Prediction and target
+b?=Task?
+c=Regression: MSE
+d=Classification: softmax cross-entropy
+e=Compute log-sum-exp with max subtraction
+f=No overflow in exp
+g=PolyLoss adds polynomial terms to cross-entropy
+h!=Stable loss computation
+a>b
+b-regress>c>h
+b-class>d>e>f>g>h
+@8.11
+a=Mini-batch gradient
+b=Noisy estimate of the true gradient
+c=Update weights
+d=Noise acts as regularization
+e?=Near a saddle?
+f=Noise pushes off the flat direction
+g=Converges to wide minima
+h!=SGD dynamics
+a>b>c>d>e
+e-yes>f>g>h
+e-no>g>h
+@8.12
+a=Gradient g_t
+b=Classical: v = mu v + g, step at current w
+c=Nesterov: gradient at the look-ahead w + mu v
+d=Velocity accumulates along consistent directions
+e=Damps oscillations across narrow valleys
+f?=Look-ahead helps?
+g=Corrects overshoot earlier
+h!=Accelerated convergence
+a>b>d
+a>c>d
+d>e>f
+f-yes>g>h
+f-no>h
+@8.13
+a=Per-parameter gradient history
+b=Accumulate G += g^2
+c=Step eta g / sqrt(G + eps)
+d?=Sparse feature seen rarely?
+e=Small G: large steps for rare features
+f=Frequent features get small steps
+g?=Training long?
+h=G grows, learning rate decays to zero
+i!=AdaGrad
+a>b>c>d
+d-yes>e>g
+d-no>f>g
+g-yes>h>i
+g-no>i
+@8.14
+a=Squared gradients
+b=Exponential moving average v = rho v + (1 - rho) g^2
+c=Step eta g / sqrt(v + eps)
+d=Forgets old gradients
+e?=Learning rate vanishing?
+f=No: window stays bounded
+g!=RMSprop
+a>b>c>d>e
+e-no>f>g
+@8.15
+a=Gradient g_t
+b=First moment m = b1 m + (1 - b1) g
+c=Second moment v = b2 v + (1 - b2) g^2
+d=Bias correction m / (1 - b1^t), v / (1 - b2^t)
+e=Step eta m_hat / (sqrt(v_hat) + eps)
+f?=Early steps?
+g=Correction fixes zero-initialization bias
+h!=Adam update
+a>b>d
+a>c>d
+d>e>f
+f-yes>g>h
+f-no>h
+@8.16
+a=Adam with L2 in the loss
+b=Penalty gradient enters m and v
+c=Decay scaled by 1 / sqrt(v): uneven shrinkage
+d=AdamW: apply weight decay directly to w
+e=w -= eta lambda w, outside the adaptive step
+f=Decay independent of gradient scale
+g!=Cleaner regularization
+a>b>c>d>e>f>g
+@8.17
+a=Large-model optimizer memory
+b?=Optimizer?
+c=Lion: sign of momentum, one state
+d=Update magnitude uniform
+e=Adafactor: factor second moment rows and columns
+f=Memory O(n + m) instead of O(nm)
+g!=Smaller optimizer state
+a>b
+b-sign>c>d>g
+b-factored>e>f>g
+@8.18
+a=Layer with n_in inputs, n_out outputs
+b=Want Var(output) = Var(input)
+c=Linear or tanh activation
+d=Var(w) = 2 / (n_in + n_out)
+e=Balances forward and backward variance
+f=Uniform in +/- sqrt(6 / (n_in + n_out))
+g!=Xavier / Glorot
+a>b>c>d>e>f>g
+@8.19
+a=ReLU zeroes half the activations
+b=Second moment halves per layer
+c=Compensate: Var(w) = 2 / n_in
+d=He normal initialization
+e=Signal variance stable across depth
+f?=fan_out mode?
+g=Preserve backward variance instead
+h!=Kaiming initialization
+a>b>c>d>e>f
+f-yes>g>h
+f-no>h
+@8.20
+a=Square weight matrix
+b=Orthogonal W: W^T W = I
+c=Preserves vector norms
+d=Dirac init: identity-like conv kernels
+e=Signal energy survives depth
+f?=Residual-free deep stack?
+g=Orthogonal helps gradients
+h!=Stable deep signals
+a>b>c>e
+a>d>e
+e>f
+f-yes>g>h
+f-no>h
+@8.21
+a=Backprop multiplies Jacobians
+b?=Spectral radius?
+c=Below 1: gradient shrinks exponentially
+d=Above 1: gradient explodes
+e=Near 1: stable
+f=Condition number controls spread
+g?=Fix?
+h=Initialization, normalization, residuals, clipping
+i!=Stable gradient flow
+a>b
+b-lt1>c>f
+b-gt1>d>f
+b-eq1>e>i
+f>g>h>i
+@8.22
+a=Gradient norm spike
+b?=Clip how?
+c=By value: clamp each element
+d=Distorts direction
+e=By global norm: scale all gradients
+f=Direction preserved
+g?=Norm above threshold?
+h=Scale by threshold / norm
+i!=Bounded updates
+a>b
+b-value>c>d>i
+b-norm>e>g
+g-yes>h>f>i
+g-no>i
+@8.23
+a=Learning rate schedule
+b?=Type?
+c=Exponential decay
+d=Cosine annealing from eta_max to eta_min
+e=Warm restarts: reset at each cycle
+f?=Stuck in a poor basin?
+g=Restart explores again
+h!=Scheduled learning rate
+a>b
+b-exp>c>h
+b-cosine>d>e>f
+f-yes>g>h
+f-no>h
+@8.24
+a=Cycle: ramp up then ramp down
+b=Peak learning rate very high
+c=Acts as regularization
+d=Momentum moves opposite to the rate
+e=Final phase anneals far below the start
+f=Few epochs reach strong accuracy
+g!=Super-convergence
+a>b>c>d>e>f>g
+@8.25
+a=Parameter space geometry
+b=Fisher information matrix F
+c=Natural gradient F^-1 grad
+d=Steepest descent in KL divergence
+e?=Full F too large?
+f=Approximate: K-FAC, diagonal
+g=Invariant to reparameterization
+h!=Second-order step for networks
+a>b>c>d>e
+e-yes>f>g>h
+e-no>g>h
+@8.26
+a=Normalization layers help training
+b?=Explanation?
+c=Internal covariate shift: input distributions drift
+d=Optimization smoothing: Lipschitz loss and gradients
+e=Experiments favor smoothing
+f=Larger stable learning rates
+g!=What normalization really does
+a>b
+b-shift>c>e
+b-smoothing>d>e
+e>f>g
+@8.27
+a=Mini-batch activations
+b=Per-channel mean and variance
+c=Normalize (x - mean) / sqrt(var + eps)
+d=Scale and shift: gamma, beta
+e?=Training?
+f=Update running averages
+g=Inference uses running statistics
+h!=BatchNorm
+a>b>c>d>e
+e-yes>f>h
+e-no>g>h
+@8.28
+a=BatchNorm deployment
+b?=Issue?
+c=Train and test statistics differ
+d=Tiny batch: noisy statistics
+e=Use running stats, recalibrate
+f=Ghost BN: normalize virtual sub-batches
+g=Switch to GroupNorm or LayerNorm
+h!=Robust normalization
+a>b
+b-mismatch>c>e>h
+b-small batch>d>f>g>h
+@8.29
+a=Activations of one sample
+b=Mean and variance over the feature dimension
+c=Normalize, then scale and shift
+d=No batch dependence
+e?=Sequence or attention model?
+f=Standard in RNNs and Transformers
+g!=LayerNorm
+a>b>c>d>e
+e-yes>f>g
+e-no>g
+@8.30
+a=Image feature map
+b=Statistics per sample and per channel over H x W
+c=Remove instance contrast
+d=Style transfer: swap affine parameters
+e=AdaIN uses style statistics
+f!=Instance normalization
+a>b>c>d>e>f
+@8.31
+a=Channels split into G groups
+b=Statistics over each group and the spatial dimensions
+c=Normalize per group
+d=Independent of batch size
+e?=Small-batch detection or segmentation?
+f=GroupNorm matches or beats BatchNorm
+g!=GroupNorm
+a>b>c>d>e
+e-yes>f>g
+e-no>g
+@8.32
+a=Vector x
+b=Skip mean subtraction
+c=Divide by root mean square sqrt(mean(x^2) + eps)
+d=Learned scale only
+e=Fewer operations than LayerNorm
+f=Used in LLaMA-style models
+g!=RMSNorm
+a>b>c>d>e>f>g
+@8.33
+a=Training stability of a discriminator
+b?=Constraint?
+c=Weight norm: w = g v / ||v||
+d=Spectral norm: divide by the largest singular value
+e=Power iteration estimates sigma_max
+f=Lipschitz constant bounded
+g!=Stable GAN training
+a>b
+b-reparam>c>f>g
+b-lipschitz>d>e>f>g
+@8.34
+a=Penalty on weights
+b?=Norm?
+c=L2: Gaussian prior, shrinks weights
+d=Weight decay equals L2 for plain SGD
+e=L1: Laplace prior, sparse weights
+f=Different geometry: ball vs diamond
+g!=Regularization as a prior
+a>b
+b-l2>c>d>f>g
+b-l1>e>f>g
+@8.35
+a=Training forward pass
+b=Zero each unit with probability p
+c=Scale kept units by 1 / (1 - p)
+d=Expected activation preserved
+e?=Inference?
+f=Use all units, no scaling
+g=Implicit ensemble of sub-networks
+h!=Dropout
+a>b>c>d>e
+e-yes>f>g>h
+@8.36
+a=Trained network with dropout
+b=Keep dropout on at inference
+c=T stochastic forward passes
+d=Predictive mean
+e=Predictive variance: epistemic uncertainty
+f?=Variance large?
+g=Flag uncertain input
+h!=MC Dropout
+a>b>c>d>e>f
+f-yes>g>h
+f-no>h
+@8.37
+a=Residual block
+b=Sample keep or drop for this block
+c?=Dropped?
+d=Pass only the identity shortcut
+e=Run the block, scale by survival probability
+f=Survival decays with depth
+g!=Stochastic depth
+a>b>c
+c-yes>d>g
+c-no>e>g
+f>b
+@8.38
+a=Hard one-hot target
+b=Soft target: 1 - eps on the truth, eps / K elsewhere
+c=Loss no longer pushes logits to infinity
+d=Better calibration
+e?=Used with distillation?
+f=Can hurt teacher information
+g!=Label smoothing
+a>b>c>d>e
+e-yes>f>g
+e-no>g
+@8.39
+a=Training epochs
+b=Monitor validation loss
+c?=Improved?
+d=Save best checkpoint, reset patience
+e=Patience counter up
+f?=Patience exhausted?
+g=Stop and restore best weights
+h!=Early stopping
+a>b>c
+c-yes>d>a
+c-no>e>f
+f-yes>g>h
+f-no>a
+@8.40
+a=Labeled images
+b=Apply label-preserving transforms
+c=Group actions: flips, crops, rotations
+d=Network learns invariance
+e?=Transform preserves the label?
+f=Keep
+g=Discard or adjust label
+h!=Effective larger dataset
+a>b>c>e
+e-yes>f>d>h
+e-no>g>b
+@8.41
+a=Image tensor C_in x H x W
+b=Kernel slides over positions
+c=Deep learning uses cross-correlation (no flip)
+d=Multiply and sum per channel
+e=Sum across input channels
+f=One output channel per kernel
+g!=Feature maps
+a>b>c>d>e>f>g
+@8.42
+a=Conv layer settings
+b=Kernel size k
+c=Stride s
+d?=Padding?
+e=Valid: no padding, output shrinks
+f=Same: pad so output = input / s
+g=Output size floor((n + 2p - k) / s) + 1
+h!=Layer geometry
+a>b>g
+a>c>g
+a>d
+d-valid>e>g
+d-same>f>g
+g>h
+@8.43
+a=Dilation rate r
+b=Kernel taps spaced r apart
+c=Receptive field grows with no extra parameters
+d?=Stack layers with doubling r?
+e=Exponential field growth
+f=Gridding artifacts if r shares factors
+g!=Dilated convolutions
+a>b>c>d
+d-yes>e>f>g
+d-no>g
+@8.44
+a=Layer l: kernel k_l, stride s_l
+b=r_l = r_(l-1) + (k_l - 1) prod of earlier strides
+c=Theoretical receptive field
+d=Effective receptive field is Gaussian-shaped
+e?=Larger than needed?
+f=Add dilation or downsampling
+g!=Know what each unit sees
+a>b>c>d>e
+e-yes>f>g
+e-no>g
+@8.45
+a=Upsample feature map
+b=Transposed convolution
+c=Insert zeros between inputs, then convolve
+d?=Kernel size divisible by stride?
+e=Uneven overlap: checkerboard artifacts
+f=Even overlap
+g=Alternative: resize then convolve
+h!=Learned upsampling
+a>b>c>d
+d-no>e>g>h
+d-yes>f>h
+@8.46
+a=Standard conv: spatial and channel mixing together
+b=Depthwise: one filter per channel
+c=Pointwise 1x1: mix channels
+d=Cost drops by about 1/C_out + 1/k^2
+e?=Mobile budget?
+f=MobileNet blocks
+g!=Separable convolution
+a>b>c>d>e
+e-yes>f>g
+e-no>g
+@8.47
+a=Channels split into G groups
+b=Convolve each group independently
+c=Concatenate outputs
+d=Cardinality as a new dimension
+e=Split-transform-merge block
+f=ResNeXt
+g!=Grouped convolution
+a>b>c>d>e>f>g
+@8.48
+a=Standard sampling grid
+b=Predict 2D offset per kernel tap
+c=Sample at fractional positions by bilinear interpolation
+d=Receptive field adapts to object shape
+e!=Deformable convolution
+a>b>c>d>e
+@8.49
+a=Feature map
+b?=Pooling?
+c=Max: strongest response
+d=Average: smooth summary
+e=Fractional max: random non-integer strides
+f=Translation tolerance, downsampling
+g!=Pooled map
+a>b
+b-max>c>f>g
+b-avg>d>f>g
+b-fractional>e>f>g
+@8.50
+a=Final feature maps C x H x W
+b=Average each map to one number
+c=Vector of length C
+d=Linear classifier on top
+e=No large dense layers
+f=Fewer parameters, less overfitting
+g!=Global average pooling
+a>b>c>d>e>f>g
+@8.51
+a=32x32 digit image
+b=Conv 5x5 to 6 maps
+c=Subsample (pool)
+d=Conv 5x5 to 16 maps
+e=Subsample
+f=Fully connected layers
+g!=Digit scores
+a>b>c>d>e>f>g
+@8.52
+a=ImageNet image
+b=Five conv layers with ReLU
+c=Overlapping max pooling
+d=Local response normalization
+e=Train on two GPUs
+f=Dropout in dense layers
+g!=1000-class prediction
+a>b>c>d>e>f>g
+@8.53
+a=Stack of 3x3 convolutions
+b=Two 3x3 equal one 5x5 receptive field
+c=Fewer parameters, more nonlinearity
+d=Depth 16 or 19 layers
+e=Homogeneous blocks then max pool
+f=Large dense head
+g!=VGG
+a>b>c>d>e>f>g
+@8.54
+a=Input feature map
+b=1x1 conv reduces channels
+c=Parallel branches
+d=3x3, 5x5, and pooling paths
+e=Concatenate along channels
+f=Multi-scale features at low cost
+g!=Inception module
+a>b>c>d>e>f>g
+@8.55
+a=Plain deep network degrades
+b=Learn residual F(x) instead of H(x)
+c=Shortcut adds identity x
+d=y = F(x) + x
+e?=Dimensions change?
+f=1x1 projection shortcut
+g=Gradient flows through identity
+h!=Very deep trainable networks
+a>b>c>d>e
+e-yes>f>g
+e-no>g>h
+f>h
+@8.56
+a=ResNet baseline
+b?=Variant?
+c=Wide ResNet: more channels, fewer layers
+d=Pre-activation: BN, ReLU before conv
+e=ResNeSt: split-attention groups
+f=Cleaner identity path
+g!=Accuracy and speed trade-offs
+a>b
+b-wide>c>g
+b-preact>d>f>g
+b-split>e>g
+@8.57
+a=Layer l input
+b=Concatenate all earlier feature maps
+c=Dense block
+d=Growth rate k new maps per layer
+e=Feature reuse, short paths to the loss
+f=Transition: 1x1 conv and pooling
+g!=DenseNet
+a>b>c>d>e>f>g
+@8.58
+a=Feature map C x H x W
+b=Squeeze: global average pooling per channel
+c=Excite: bottleneck MLP with sigmoid
+d=Per-channel weights
+e=Rescale the channels
+f!=Channel attention
+a>b>c>d>e>f
+@8.59
+a=ResNet baseline
+b=Patchify stem
+c=Inverted bottleneck
+d=Large 7x7 depthwise kernels
+e=LayerNorm and GELU
+f=Fewer activation layers
+g!=ConvNeXt
+a>b>c>d>e>f>g
+@8.60
+a=Baseline network from architecture search
+b=Scale depth d = alpha^phi
+c=Scale width w = beta^phi
+d=Scale resolution r = gamma^phi
+e=Constraint alpha beta^2 gamma^2 about 2
+f=Choose compound coefficient phi
+g!=EfficientNet family
+a>b>e
+a>c>e
+a>d>e
+e>f>g
+@8.61
+a=Sequence x_1..x_T
+b=Hidden state h_t = f(W h_(t-1) + U x_t)
+c=Same weights at every step
+d=State carries context
+e?=Output at each step or final?
+f=Per-step outputs
+g=Final summary vector
+h!=Recurrent sequence model
+a>b>c>d>e
+e-each>f>h
+e-last>g>h
+@8.62
+a=Unroll the RNN over T steps
+b=Loss at the end
+c=Backpropagate through each step
+d=Product of Jacobians W^T diag(f')
+e?=Largest singular value below 1?
+f=Gradient vanishes exponentially
+g=Long dependencies lost
+h!=BPTT limitation
+a>b>c>d>e
+e-yes>f>g>h
+@8.63
+a=Very long sequence
+b=Split into chunks of length k
+c=Backprop only within a chunk
+d=Carry hidden state, detach gradient
+e?=Memory bounded?
+f=Yes: cost O(k)
+g=Dependencies beyond k not learned
+h!=Truncated BPTT
+a>b>c>d>e
+e-yes>f>g>h
+@8.64
+a=Large recurrent weights
+b=Gradient norm explodes
+c?=Mitigation?
+d=Orthogonal initialization
+e=Clip gradient norm
+f=Spectral norm saturation
+g!=Stable recurrent training
+a>b>c
+c-init>d>g
+c-clip>e>g
+c-constrain>f>g
+@8.65
+a=Cell state c_t
+b=Additive update c = f * c_prev + i * g
+c=Constant error carousel
+d=Gradient flows through the cell if f is near 1
+e=Gates decide what to keep
+f!=LSTM mitigates vanishing gradients
+a>b>c>d>e>f
+@8.66
+a=Previous h and current x
+b=Forget gate f = sigma(...)
+c=Input gate i = sigma(...)
+d=Candidate g = tanh(...)
+e=c = f * c_prev + i * g
+f=Output gate o = sigma(...)
+g=h = o * tanh(c)
+h!=LSTM step
+a>b>e
+a>c>e
+a>d>e
+a>f>g
+e>g>h
+@8.67
+a=Standard LSTM gates
+b?=Variant?
+c=Peephole: gates also read the cell state
+d=Coupled: input gate = 1 - forget gate
+e=Fewer parameters
+f=Timing-sensitive tasks
+g!=LSTM variants
+a>b
+b-peephole>c>f>g
+b-coupled>d>e>g
+@8.68
+a=h_prev and x
+b=Reset gate r decides how much past to use
+c=Update gate z blends old and candidate
+d=Candidate tanh(W x + U (r * h_prev))
+e=h = (1 - z) * h_prev + z * candidate
+f=No separate cell state
+g!=GRU
+a>b>d
+a>c>e
+d>e>f>g
+@8.69
+a=Sequence
+b=Forward RNN left to right
+c=Backward RNN right to left
+d=Concatenate h_forward and h_backward
+e=Each position sees past and future
+f?=Online prediction needed?
+g=Cannot use backward pass
+h!=Bidirectional RNN
+a>b>d
+a>c>d
+d>e>f
+f-yes>g>h
+f-no>h
+@8.70
+a=Input sequence
+b=Layer 1 RNN
+c=Layer 2 RNN on layer 1 outputs
+d=Layer 3 RNN
+e=Lower layers: local patterns
+f=Higher layers: abstract structure
+g?=Too deep?
+h=Add residual connections
+i!=Stacked recurrent network
+a>b>c>d>g
+b>e
+d>f
+g-yes>h>i
+g-no>i
+@8.71
+a=Source sequence
+b=Encoder RNN
+c=Fixed-size context vector
+d=Decoder RNN generates the target
+e?=Long source?
+f=Single vector bottleneck loses detail
+g=Attention fixes it
+h!=Seq2seq
+a>b>c>d>e
+e-yes>f>g>h
+e-no>h
+@8.72
+a=Decoder training step
+b?=Input at step t?
+c=Teacher forcing: ground-truth previous token
+d=Fast, stable
+e=But exposure bias at test time
+f=Scheduled sampling: mix model predictions in
+g=Anneal the mixing probability
+h!=Training/inference mismatch reduced
+a>b
+b-truth>c>d>e>f>g>h
+b-model>f>g>h
+@8.73
+a=Decoder state s and encoder states h_j
+b=Score e_j = v^T tanh(W s + U h_j)
+c=Softmax weights alpha_j
+d=Context = sum alpha_j h_j
+e=Feed context into the decoder
+f!=Bahdanau attention
+a>b>c>d>e>f
+@8.74
+a=Decoder state s and encoder states h_j
+b?=Scoring function?
+c=Dot: s . h
+d=General: s^T W h
+e=Concat: v^T tanh(W [s; h])
+f=Softmax then weighted sum
+g!=Luong attention
+a>b
+b-dot>c>f
+b-general>d>f
+b-concat>e>f
+f>g
+@8.75
+a=Start token
+b=Keep B best partial hypotheses
+c=Expand each by every next token
+d=Score by log-probability
+e=Length penalty and coverage norm
+f?=Hypotheses ended or length limit?
+g=Return best finished hypothesis
+h!=Beam search
+a>b>c>d>e>f
+f-no>b
+f-yes>g>h
+@8.76
+a=torch.add(a, b) in Python
+b@=Dispatcher selects backend and dtype kernel
+c=ATen operator
+d=Autograd records the op
+e=Caching allocator provides memory
+f?=Device?
+g=CPU or CUDA kernel runs
+h!=Result tensor
+a>b>c>d>e>f>g>h
+@8.77
+a=Host memory
+b?=Pinned (page-locked)?
+c=Async DMA copy to device
+d=Pageable: staged copy, slower
+e=Device memory holds tensors
+f=Unified virtual addressing
+g=Streams overlap copy and compute
+h!=Efficient transfers
+a>b
+b-yes>c>e
+b-no>d>e
+e>f>g>h
+@8.78
+a=FP32 master weights
+b=Cast to FP16 / BF16 for matmuls
+c=Loss scaling to avoid underflow
+d?=Gradient overflow?
+e=Skip step, reduce scale
+f=Unscale gradients, update FP32 weights
+g!=Mixed precision training
+a>b>c>d
+d-yes>e>b
+d-no>f>g
+@8.79
+a=Each GPU holds a model replica
+b=Forward and backward on its shard of data
+c=Ring all-reduce averages gradients
+d=Bucketed, overlapped with backprop
+e=Every replica applies the same update
+f?=DataParallel instead?
+g=Single process, GIL bound, scatter-gather
+h!=DDP scales better
+a>b>c>d>e>h
+f-yes>g>h
+@8.80
+a=Replicated training state is large
+b=ZeRO-1: shard optimizer states
+c=ZeRO-2: also shard gradients
+d=ZeRO-3 / FSDP: also shard parameters
+e=All-gather parameters just in time
+f=Reduce-scatter gradients
+g!=Memory scales with 1 / N
+a>b>c>d>e>f>g
+@8.81
+a=Linear layer Y = X W
+b?=Split W how?
+c=Column-wise: each GPU computes part of Y
+d=Row-wise: partial sums need all-reduce
+e=MLP: column then row
+f=One all-reduce per block
+g!=Tensor parallelism
+a>b
+b-column>c>e
+b-row>d>e
+e>f>g
+@8.82
+a=Layers split into stages
+b=Micro-batches enter the pipeline
+c?=Schedule?
+d=GPipe: all forwards, then all backwards
+e=1F1B: alternate forward and backward
+f=Pipeline bubble idle time
+g=More micro-batches shrink the bubble
+h!=Pipeline parallelism
+a>b>c
+c-gpipe>d>f
+c-1f1b>e>f
+f>g>h
+@8.83
+a=Forward pass
+b?=Store activations?
+c=Keep only checkpoint boundaries
+d=Backward: recompute segments
+e=Memory drops about sqrt(n)
+f=Compute rises by one extra forward
+g!=Gradient checkpointing
+a>b
+b-selective>c>d>e>f>g
+@8.84
+a=Python model code
+b@=TorchDynamo captures FX graph from bytecode
+c?=Graph break?
+d=Fall back to eager for that part
+e@=AOTAutograd traces backward
+f@=Inductor generates Triton kernels
+g=Fused kernels run on GPU
+h!=torch.compile speed-up
+a>b>c
+c-yes>d>b
+c-no>e>f>g>h
+@8.85
+a=Kernel operations
+b=Arithmetic intensity FLOPs per byte
+c?=Compare with machine balance?
+d=Below: memory-bandwidth bound
+e=Above: compute bound
+f=Fuse elementwise ops to cut memory traffic
+g=Roofline model
+h!=Optimization target chosen
+a>b>c
+c-low>d>f>h
+c-high>e>h
+f>g
+@8.86
+a=Slow training step
+b?=Tool?
+c=PyTorch Profiler: operator timeline
+d=Nsight Systems: GPU and CPU trace
+e=CUDA kernel tracing
+f=Find idle gaps and hot kernels
+g=Fix data loading, sync points, small kernels
+h!=Profile-guided speed-up
+a>b
+b-ops>c>f
+b-system>d>f
+b-kernels>e>f
+f>g>h
+@8.87
+a=FP32 model
+b?=Approach?
+c=PTQ: calibrate on sample data
+d=QAT: simulate quantization during training
+e=Fake-quant nodes with straight-through gradient
+f?=Accuracy drop acceptable?
+g=Deploy INT8
+h=Use QAT or higher precision layers
+i!=Quantized model
+a>b
+b-post>c>f
+b-aware>d>e>f
+f-yes>g>i
+f-no>h>i
+@8.88
+a=Dense trained network
+b?=Pruning style?
+c=Magnitude: remove smallest weights
+d=Structured: remove whole channels
+e=Fine-tune after pruning
+f=Lottery ticket: sparse subnetwork trains alone
+g?=Hardware speed-up?
+h=Structured pruning gives real speed
+i!=Smaller model
+a>b
+b-unstructured>c>e>f>i
+b-structured>d>e>g
+g-yes>h>i
+@8.89
+a=Teacher logits
+b=Soften with temperature T
+c=Student matches soft targets
+d=KL divergence at temperature T
+e=Plus cross-entropy with hard labels
+f=Dark knowledge: class similarities
+g!=Distilled student
+a>b>c>d>e>g
+a>f>c
+@8.90
+a=Trained PyTorch model
+b?=Export?
+c=TorchScript tracing: records one path
+d=TorchScript scripting: keeps control flow
+e=ONNX export for portability
+f=TensorRT: fuse layers, pick kernels
+g?=Dynamic shapes?
+h=Define dynamic axes
+i!=Optimized deployment artifact
+a>b
+b-trace>c>e
+b-script>d>e
+e>f>g
+g-yes>h>i
+g-no>i

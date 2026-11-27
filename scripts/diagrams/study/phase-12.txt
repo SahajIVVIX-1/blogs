@@ -1,0 +1,1271 @@
+@12.1
+a=Web crawl (WARC)
+b=Extract text, detect language
+c=Heuristic quality filters
+d=MinHash dedup
+e=Model-based quality classifier
+f?=Passes thresholds?
+g=Drop document
+h=Tokenize and shard
+i!=Pretraining corpus
+a>b>c>d>e>f
+f-no>g
+f-yes>h>i
+@12.2
+a=Raw sources
+b?=Dataset?
+c=Common Crawl: broad web
+d=The Pile: curated mix
+e=FineWeb / RefinedWeb: filtered web
+f=Synthetic textbooks
+g=Mix with sampling weights
+h=Quality and decontamination
+i!=Data mixture
+a>b
+b-web>c>g
+b-mix>d>g
+b-filtered>e>g
+b-synthetic>f>g
+g>h>i
+@12.3
+a=Compute budget C
+b?=Scaling law?
+c=Kaplan: grow model faster than data
+d=Chinchilla: scale N and D equally
+e=Optimal D about 20 tokens per parameter
+f=Train smaller model longer
+g?=Inference cost matters?
+h=Overtrain beyond compute-optimal
+i!=Chosen model and token count
+a>b
+b-kaplan>c>g
+b-chinchilla>d>e>f>g
+g-yes>h>i
+g-no>i
+@12.4
+a=Corpus
+b?=Vocabulary size?
+c=32k: small embedding table
+d=128k: shorter sequences
+e=256k: multilingual coverage
+f=Byte-level fallback for unknown characters
+g=Embedding and softmax cost grow with V
+h!=Chosen vocabulary
+a>b
+b-small>c>f
+b-mid>d>f
+b-large>e>f
+f>g>h
+@12.5
+a=Text in a language
+b=Bytes per token
+c?=Language under-represented?
+d=More tokens per word, higher cost
+e=Number splitting: digits tokenized inconsistently
+f=Digit-level tokenization fix
+g!=Fair compression
+a>b>c
+c-yes>d>g
+c-no>e>f>g
+@12.6
+a=Tokenizer library
+b?=Which?
+c=SentencePiece: language-agnostic, no pre-tokenization
+d=Tiktoken: regex pre-split then BPE merges
+e=Byte-level merges
+f=Speed and consistency
+g!=Token ids
+a>b
+b-sp>c>f>g
+b-tik>d>e>f>g
+@12.7
+a=Documents
+b=Shingle into n-grams
+c=MinHash signatures
+d=LSH bands find candidate pairs
+e=Jaccard above threshold?
+f=Cluster duplicates
+g=Keep one per cluster
+h=Suffix array finds repeated substrings
+i!=Deduplicated corpus
+a>b>c>d>e
+e-yes>f>g>i
+e-no>i
+g>h>i
+@12.8
+a=Document
+b=Gopher rules: length, symbols, stop words
+c=Repetition ratios
+d=Perplexity under a reference LM
+e?=Within accepted bands?
+f=Keep
+g=Discard
+h!=Cleaned text
+a>b>c>d>e
+e-yes>f>h
+e-no>g
+@12.9
+a=Seed topics and prompts
+b=Strong LLM writes textbook-style text
+c=Diversity controls: audiences, styles
+d=Filter and deduplicate
+e?=Quality high?
+f=Add to the mix
+g=Regenerate
+h!=Synthetic pretraining data
+a>b>c>d>e
+e-yes>f>h
+e-no>g>b
+@12.10
+a=Public repositories
+b=License filter
+c=Deduplicate files and near-duplicates
+d=Remove secrets and PII
+e=Language and quality heuristics
+f=Fill-in-the-middle formatting
+g!=Code pretraining set
+a>b>c>d>e>f>g
+@12.11
+a=Math web pages
+b=OpenWebMath extraction keeps LaTeX
+c=Formal proofs and problem sets
+d=Synthetic reasoning trajectories
+e=Verify answers
+f=Upsample in the data mix
+g!=Math-capable model
+a>b>f
+c>f
+d>e>f>g
+@12.12
+a=Many languages
+b=Temperature sampling p_i^(1/T)
+c=Balance high and low resource languages
+d?=Too few tokens per language?
+e=Curse of multilinguality: capacity dilution
+f=Increase model size or upsample
+g!=Balanced multilingual model
+a>b>c>d
+d-yes>e>f>g
+d-no>g
+@12.13
+a=Pretraining stages
+b=Early: diverse web, short sequences
+c=Later: longer sequences
+d=Anneal: shift mix to high-quality data
+e=Decay learning rate at the end
+f!=Curriculum improves final quality
+a>b>c>d>e>f
+@12.14
+a=Token sequence
+b=Teacher forcing: input is ground truth
+c=Logits per position
+d=Cross-entropy with next token
+e?=Label smoothing?
+f=Mix uniform mass
+g=Average over tokens
+h!=Pretraining loss
+a>b>c>d>e
+e-yes>f>g
+e-no>g
+g>h
+@12.15
+a=FLOP budget C = 6 N D
+b=Choose N and D on the Chinchilla frontier
+c=Estimate cluster size and time
+d=Topology: tensor, pipeline, data parallel
+e?=MFU realistic?
+f=Plan with 35 to 50 percent
+g!=Training plan
+a>b>c>d>e
+e-yes>f>g
+e-no>d
+@12.16
+a=Model too large for one GPU
+b=Tensor parallel inside a node
+c=Pipeline parallel across nodes
+d=Data parallel across replicas
+e=Map groups to NVLink and InfiniBand
+f=Interleaved 1F1B schedule
+g!=3D parallelism
+a>b>e
+a>c>e
+a>d>e>f>g
+@12.17
+a=Sharded parameters
+b=All-gather layer before forward
+c=Free after use
+d=Backward: all-gather again
+e=Reduce-scatter gradients
+f=Prefetch overlaps communication
+g!=FSDP
+a>b>c>d>e>f>g
+@12.18
+a=Optimizer, gradient and parameter memory
+b?=Stage?
+c=ZeRO-1: shard optimizer states
+d=ZeRO-2: plus gradients
+e=ZeRO-3: plus parameters
+f=Offload to CPU or NVMe optionally
+g!=100B+ trainable
+a>b
+b-1>c>f
+b-2>d>f
+b-3>e>f
+f>g
+@12.19
+a=Target batch 4M tokens
+b=Micro-batch fits in memory
+c=Accumulate gradients over k micro-batches
+d?=Reached target batch?
+e=Optimizer step
+f=Scale loss by 1 / k
+g!=Large effective batch
+a>b>f>c>d
+d-no>b
+d-yes>e>g
+@12.20
+a=Training state
+b=Each rank saves its shard asynchronously
+c=Write to fast storage, then object store
+d=Manifest of shards
+e?=Failure?
+f=Reload shards, resharding if world size changed
+g!=Fast recovery
+a>b>c>d>e
+e-yes>f>g
+e-no>g
+@12.21
+a=Thousands of GPUs
+b?=Fault type?
+c=Hard failure: node dies
+d=Straggler: slow GPU
+e=Silent data corruption
+f=Detect via loss spikes and checksums
+g=Auto-restart from checkpoint, evict bad nodes
+h!=Resilient training
+a>b
+b-crash>c>g
+b-slow>d>g
+b-silent>e>f>g
+g>h
+@12.22
+a=Base model
+b=Instruction datasets: FLAN, Alpaca, ShareGPT, UltraChat
+c=Format with chat template
+d=Train on responses
+e?=Quality high?
+f=Curate and deduplicate
+g!=Instruction-following model
+a>b>c>d>e
+e-no>f>c
+e-yes>g
+@12.23
+a=Prompt and completion tokens
+b=Mask prompt labels with -100
+c=Loss only on completion tokens
+d?=Multi-turn?
+e=Mask user turns, train assistant turns
+f!=Focused gradients
+a>b>c>d
+d-yes>e>f
+d-no>f
+@12.24
+a=Narrow SFT data
+b?=Forgetting general skills?
+c=Catastrophic forgetting
+d=Mix replay of pretraining data
+e=Freeze early layers or use LoRA
+f=Lower learning rate
+g!=Balanced specialization
+a>b
+b-yes>c>d>g
+c>e>g
+c>f>g
+b-no>g
+@12.25
+a=Freeze base weights
+b?=Adapter type?
+c=Bottleneck adapters between layers
+d=Prefix tuning: trainable key-value prefixes
+e=Prompt tuning: soft input tokens
+f=LoRA: low-rank weight deltas
+g=Train under 1 percent of parameters
+h!=PEFT
+a>b
+b-adapter>c>g
+b-prefix>d>g
+b-prompt>e>g
+b-lowrank>f>g
+g>h
+@12.26
+a=Frozen W0
+b=Delta W = (alpha / r) B A
+c=B zero init, A random
+d=Train only A and B
+e=Merge W0 + delta W for inference
+f!=No added latency
+a>b>c>d>e>f
+@12.27
+a=Base weights in NF4
+b=Double quantization of scales
+c=Paged optimizer states
+d=Dequantize to BF16 per layer
+e=LoRA adapters in BF16 train
+f=Backprop through frozen 4-bit weights
+g!=65B on one GPU
+a>b>d>e>f>g
+c>e
+@12.28
+a=Pretrained weight W
+b=Decompose magnitude and direction
+c=Direction updated by LoRA
+d=Magnitude trained separately
+e=Closer to full fine-tuning behavior
+f!=DoRA
+a>b>c>e
+b>d>e>f
+@12.29
+a=LoRA scaling alpha / r
+b?=Rank r large?
+c=Gradient collapse, no benefit from rank
+d=rsLoRA: alpha / sqrt(r)
+e=Stable learning at high rank
+f!=Higher ranks help
+a>b
+b-yes>c>d>e>f
+b-no>f
+@12.30
+a=Many fine-tuned adapters
+b=Keep base model resident
+c=Store adapters in host memory
+d=Batch requests across adapters
+e=Unified paging for adapter weights
+f?=Adapter missing on GPU?
+g=Load on demand
+h!=Thousands of adapters served
+a>b>c>d>e>f
+f-yes>g>h
+f-no>h
+@12.31
+a=Aligned assistant goals
+b=Helpful: follows intent
+c=Honest: accurate and calibrated
+d=Harmless: avoids harm
+e?=Goals conflict?
+f=Prioritize safety, then honesty, then help
+g!=HHH framework
+a>b>e
+a>c>e
+a>d>e
+e-yes>f>g
+e-no>g
+@12.32
+a=SFT model
+b=Collect human preference comparisons
+c=Train reward model
+d=Sample responses from policy
+e=Score with reward model
+f=Policy update (PPO) with KL penalty
+g?=Reward improving without drift?
+h!=Aligned policy
+a>b>c>d>e>f>g
+g-no>d
+g-yes>h
+@12.33
+a=Responses y_w preferred over y_l
+b=Bradley-Terry: P(y_w > y_l) = sigma(r_w - r_l)
+c=Log-likelihood of observed preferences
+d=Fit scalar rewards
+e!=Pairwise preference model
+a>b>c>d>e
+@12.34
+a=Reward model on (prompt, response)
+b=Scalar head
+c=Loss -log sigma(r_w - r_l)
+d=Optional margin penalty
+e?=Preference inversion in data?
+f=Noisy labels, ensemble or filter
+g!=Reward model
+a>b>c>d>e
+e-yes>f>g
+e-no>g
+@12.35
+a=Optimize against a learned reward
+b?=Exploit?
+c=Mode collapse to a few high-reward styles
+d=Length bias: longer answers score higher
+e=Sycophancy: agree with the user
+f=KL penalty, reward ensembles, held-out evals
+g!=Mitigate reward hacking
+a>b
+b-collapse>c>f>g
+b-length>d>f>g
+b-agree>e>f>g
+@12.36
+a=Four models
+b=Actor generates responses
+c=Reference keeps SFT behavior
+d=Reward model scores
+e=Critic estimates values
+f=GAE advantages
+g=Clipped PPO objective
+h=Update actor and critic
+i!=PPO alignment
+a>b>d>f
+a>c>g
+a>e>f>g>h>i
+@12.37
+a=Policy pi, reference pi_ref
+b=Per-token KL(pi || pi_ref)
+c=Reward minus beta x KL
+d?=KL too large?
+e=Raise beta
+f=Keep training
+g!=Controlled drift
+a>b>c>d
+d-yes>e>f
+d-no>f>g
+@12.38
+a=Preference pairs
+b=Reparameterize reward as beta log(pi / pi_ref)
+c=Loss -log sigma(beta [log ratio_w - log ratio_l])
+d=Direct gradient on policy
+e=No reward model, no sampling loop
+f!=DPO
+a>b>c>d>e>f
+@12.39
+a=Binary good/bad labels
+b=Prospect-theory value function
+c=Loss aversion: penalize bad more
+d=Reference point from KL estimate
+e=No pairs required
+f!=KTO
+a>b>c>d>e>f
+@12.40
+a=DPO overfits deterministic preferences
+b=IPO: regularize log-ratio gap to a target 1/(2 beta)
+c=Squared loss instead of logistic
+d=Prevents saturation
+e!=IPO
+a>b>c>d>e
+@12.41
+a=Single stage
+b=SFT loss on chosen response
+c=Odds-ratio penalty against rejected
+d=No reference model
+e=One training pass
+f!=ORPO
+a>b>c>d>e>f
+@12.42
+a=Average log-probability as implicit reward
+b=Length-normalized margin
+c=Target margin gamma
+d=No reference model
+e!=SimPO
+a>b>c>d>e
+@12.43
+a=Tasks with automatic verification
+b=Sample several solutions
+c=Verifier: unit tests or answer check
+d=Reward 1 or 0
+e=Policy-gradient update (GRPO)
+f?=Pass rate rising?
+g!=Reasoning improves
+a>b>c>d>e>f
+f-no>b
+f-yes>g
+@12.44
+a=Problems with answers
+b=Model generates rationale
+c?=Correct answer?
+d=Keep rationale
+e=Rationalization: give answer as hint
+f=Fine-tune on kept rationales
+g?=Improving?
+h!=Bootstrapped reasoner
+a>b>c
+c-yes>d>f
+c-no>e>f
+f>g
+g-yes>b
+g-no>h
+@12.45
+a=Prompt
+b=Sample N responses
+c=Verifier or reward model scores
+d=Pick the best
+e?=Use for training?
+f=Fine-tune on winners
+g!=Best-of-N
+a>b>c>d>e
+e-yes>f>g
+e-no>g
+@12.46
+a=Solution steps
+b?=Reward type?
+c=ORM: one reward for the final answer
+d=PRM: reward per step
+e=Locate the first wrong step
+f=Guide search toward valid steps
+g!=Step-level verification
+a>b
+b-outcome>c>g
+b-process>d>e>f>g
+@12.47
+a=Root: current partial solution
+b=Select child by UCB with value network
+c=Expand with LLM proposals
+d=Evaluate with value or rollout
+e=Backpropagate values
+f?=Budget left?
+g!=Best action sequence
+a>b>c>d>e>f
+f-yes>b
+f-no>g
+@12.48
+a=Fixed model
+b=Spend more inference tokens
+c?=How?
+d=Longer chains of thought
+e=Tree search with verifiers
+f=Self-verification and revision loops
+g=Accuracy grows with test-time compute
+h!=Inference scaling
+a>b>c
+c-longer>d>g
+c-search>e>g
+c-revise>f>g
+g>h
+@12.49
+a=Question
+b?=Prompting?
+c=Few-shot with worked rationales
+d=Zero-shot: let's think step by step
+e=Intermediate reasoning tokens
+f=Final answer
+g!=CoT
+a>b
+b-few>c>e
+b-zero>d>e
+e>f>g
+@12.50
+a=Query
+b?=Mode?
+c=System 1: direct fast answer
+d=System 2: deliberate reasoning trace
+e?=Hard problem?
+f=Route to deliberation
+g!=Adaptive effort
+a>e
+e-no>c>g
+e-yes>f>d>g
+@12.51
+a=Prompt with CoT
+b=Sample k reasoning paths
+c=Extract final answers
+d=Majority vote
+e=Marginalizes over paths
+f!=Self-consistency
+a>b>c>d>e>f
+@12.52
+a=Problem
+b=Generate candidate thoughts
+c=Evaluate each state
+d?=Promising?
+e=Expand deeper
+f=Backtrack
+g?=Solved?
+h!=Solution path
+a>b>c>d
+d-yes>e>g
+d-no>f>b
+g-no>b
+g-yes>h
+@12.53
+a=Thoughts as graph nodes
+b=Generate several branches
+c=Aggregate: merge thoughts
+d=Refine: improve a thought
+e=Score and prune
+f?=Goal reached?
+g!=Final merged answer
+a>b>c>d>e>f
+f-no>b
+f-yes>g
+@12.54
+a=Examples in the prompt
+b=Attention builds a function over examples
+c=Implicit gradient-descent-like update in activations
+d=Query processed with the induced function
+e!=ICL without weight updates
+a>b>c>d>e
+@12.55
+a=Relevant fact at varying position
+b?=Position?
+c=Start or end: retrieved well
+d=Middle: accuracy dips
+e=U-shaped curve
+f=Position bias from attention patterns
+g!=Lost in the middle
+a>b
+b-edge>c>e>g
+b-middle>d>e>f>g
+@12.56
+a=Insert a needle sentence in a long haystack
+b=Vary depth and context length
+c=Ask a question about the needle
+d=Score retrieval
+e=Heatmap of depth by length
+f!=Long-context stress test
+a>b>c>d>e>f
+@12.57
+a=Trained length L
+b?=Longer test length?
+c=Extrapolation: positions never seen
+d=Interpolation: compress positions into the range
+e=Fine-tune briefly
+f=Frequency compression bounds
+g!=Extended context
+a>b
+b-extrap>c>g
+b-interp>d>e>f>g
+@12.58
+a=FP16 model
+b?=Method?
+c=PTQ: calibrate, no training
+d=QAT: train with fake quantization
+e?=Accuracy drop acceptable?
+f=Ship
+g=Use QAT or higher precision
+h!=Quantized model
+a>b
+b-post>c>e
+b-aware>d>e
+e-yes>f>h
+e-no>g>h
+@12.59
+a=Matmul X W in INT8
+b=Outlier feature dimensions
+c=Decompose: outliers in FP16, rest INT8
+d=Vector-wise quantization scales
+e=Sum both results
+f!=LLM.int8()
+a>b>c>d>e>f
+@12.60
+a=Layer weights
+b=Hessian from calibration data
+c=Quantize one column at a time
+d=Compensate remaining columns via inverse Hessian
+e=Lazy batch updates
+f!=GPTQ 4-bit
+a>b>c>d>e>f
+@12.61
+a=Activations show salient channels
+b=About 1 percent of weights matter most
+c=Scale up salient channels before quantizing
+d=Per-channel scales search
+e=No backprop, no mixed precision
+f!=AWQ
+a>b>c>d>e>f
+@12.62
+a=Activation outliers
+b=Scale vector s per channel
+c=X / s and W * s
+d=Output unchanged
+e=Both tensors quantizable
+f!=W8A8
+a>b>c>d>e>f
+@12.63
+a=FP8 formats
+b?=Use?
+c=E4M3: more precision, activations
+d=E5M2: more range, gradients
+e=Per-tensor scaling with amax
+f!=FP8 inference
+a>b
+b-act>c>e>f
+b-grad>d>e>f
+@12.64
+a=GGUF file
+b=Memory-map tensors
+c=Quantized blocks (Q4_K, Q8_0)
+d?=Fits in VRAM?
+e=Full GPU offload
+f=Offload N layers, rest on CPU
+g!=Edge inference with llama.cpp
+a>b>c>d
+d-yes>e>g
+d-no>f>g
+@12.65
+a=Incoming requests
+b=Paged KV allocator
+c=Continuous batching scheduler
+d=CUDA graphs for decode
+e=Multi-tenant batching
+f!=High throughput
+a>c>b>d>e>f
+@12.66
+a=Request queue
+b=Each iteration: schedule running + new requests
+c=Selective batching of attention
+d=Finished requests exit immediately
+e!=Orca iteration-level scheduling
+a>b>c>d>e
+@12.67
+a=New request
+b=Walk radix tree on prompt tokens
+c?=Longest prefix cached?
+d=Reuse KV blocks
+e=Prefill only the suffix
+f=Insert new blocks
+g!=Prefix cache hit
+a>b>c
+c-yes>d>e>f>g
+c-no>e>f>g
+@12.68
+a=Long prompt arrives mid-decode
+b=Split into chunks
+c=Co-schedule with decode batch
+d=Bounded time-to-first-token and inter-token delay
+e!=No starvation
+a>b>c>d>e
+@12.69
+a=Model graph
+b=Kernel fusion and custom plugins
+c=In-flight batching
+d=FP8/INT4 kernels
+e=Engine build per GPU
+f!=TensorRT-LLM
+a>b>c>d>e>f
+@12.70
+a=gRPC streaming server
+b=Router with token batching
+c=Sharded model workers
+d=Flash and paged attention
+e=Stream tokens to clients
+f!=TGI
+a>b>c>d>e>f
+@12.71
+a=Structured program of LLM calls
+b=RadixAttention reuses KV across calls
+c=Constrained decoding with grammars
+d=Runtime schedules parallel branches
+e!=SGLang
+a>b>c>d>e
+@12.72
+a=Draft model proposes k tokens
+b=Target verifies in one pass
+c?=Draft token accepted?
+d=Accept
+e=Resample and stop
+f=Output matches the target distribution
+g!=Faster decoding
+a>b>c
+c-yes>d>f>g
+c-no>e>f>g
+@12.73
+a=Backbone hidden state
+b=Medusa heads predict future tokens
+c=Candidate tree
+d=Tree attention verification
+e=Accept longest valid path
+f!=One model, several tokens per step
+a>b>c>d>e>f
+@12.74
+a=Features from the target model
+b=Draft head predicts next feature then token
+c=Context-aware dynamic draft tree
+d=Verify and accept
+e=3x speed-up
+f!=EAGLE-2
+a>b>c>d>e>f
+@12.75
+a=Growing KV cache
+b?=Policy?
+c=H2O: keep heavy-hitter tokens
+d=Scissorhands: keep persistent important tokens
+e=Low-rank SVD of keys and values
+f?=Quality retained?
+g!=Smaller cache
+a>b
+b-evict>c>f
+b-pivotal>d>f
+b-lowrank>e>f
+f-yes>g
+f-no>b
+@12.76
+a=Confident wrong answer
+b?=Cause?
+c=Softmax saturation hides uncertainty
+d=Training data conflicts
+e=Parametric knowledge gaps
+f=Fluency without grounding
+g!=Hallucination
+a>b
+b-softmax>c>f>g
+b-data>d>f>g
+b-gap>e>f>g
+@12.77
+a=Generation
+b=Ground in retrieved sources
+c=Attribute claims to citations
+d=Verify with an entailment model
+e?=Claim unsupported?
+f=Remove or revise
+g!=Verified answer
+a>b>c>d>e
+e-yes>f>g
+e-no>g
+@12.78
+a=User states a belief
+b=Model agrees to please
+c=Trained on approval signals
+d=Reward model favors agreement
+e=Counter: neutrality data, truth-focused rewards
+f!=Sycophancy mitigation
+a>b>c>d>e>f
+@12.79
+a=Attack prompts
+b?=Technique?
+c=Prefix injection: start with affirmative text
+d=Base64 or cipher smuggling
+e=Universal adversarial suffix
+f=Bypass refusal training
+g=Red-team and adversarially train
+h!=Robustness
+a>b
+b-prefix>c>f>g>h
+b-encode>d>f>g>h
+b-suffix>e>f>g>h
+@12.80
+a=Untrusted content inside prompts
+b?=Defense?
+c=Dual-LLM: quarantined model reads untrusted data
+d=Delimiters mark data vs instructions
+e=Semantic guardrail checks outputs
+f=Least-privilege tools
+g!=Injection resilience
+a>b
+b-isolate>c>f>g
+b-delimit>d>f>g
+b-check>e>f>g
+@12.81
+a=User input
+b=Input classifier (Llama Guard)
+c?=Unsafe?
+d=Refuse
+e=Model generates
+f=Output classifier
+g=Programmable rails (NeMo)
+h!=Moderated response
+a>b>c
+c-yes>d>h
+c-no>e>f>g>h
+@12.82
+a=Prompt
+b=Hash previous token to split vocabulary
+c=Green list gets a logit boost
+d=Sample next token
+e=Detector counts green tokens
+f?=Z-score high?
+g=Watermarked
+h!=Detection result
+a>b>c>d>e>f
+f-yes>g>h
+f-no>h
+@12.83
+a=Data to forget
+b=Gradient ascent on the forget set
+c=Or negative preference optimization
+d=Retain-set loss preserves utility
+e?=Forgotten without damage?
+f!=Unlearned model
+a>b>d
+a>c>d
+d>e
+e-yes>f
+e-no>d
+@12.84
+a=Fact to edit: subject, relation, new object
+b=Locate the MLP layer storing it
+c=ROME: rank-one weight update
+d=MEMIT: batch many edits across layers
+e?=Edits generalize and stay local?
+f!=Edited model
+a>b>c>e
+b>d>e
+e-yes>f
+@12.85
+a=Neurons are polysemantic
+b=Features in superposition
+c=Goal: monosemantic directions
+d=Dictionary of features
+e!=Interpretable units
+a>b>c>d>e
+@12.86
+a=Residual stream activations
+b=Encoder to a wide sparse code
+c=Sparsity penalty
+d=Decoder reconstructs
+e=Features become interpretable
+f!=SAE
+a>b>c>d>e>f
+@12.87
+a=Task: indirect object identification
+b=Activation patching finds important heads
+c=Name mover heads
+d=S-inhibition heads
+e=Duplicate token heads
+f!=Circuit diagram
+a>b>c>f
+b>d>f
+b>e>f
+@12.88
+a=Contrast prompts (honest vs dishonest)
+b=Difference of mean activations
+c=Direction vector
+d=Add scaled vector at a layer
+e?=Behavior shifts?
+f!=Steering
+a>b>c>d>e
+e-yes>f
+e-no>d
+@12.89
+a=57 subjects, multiple choice
+b=Few-shot prompt
+c=Pick option by logit
+d=Average accuracy
+e?=Contamination or prompt sensitivity?
+f=Report format and decontamination
+g!=MMLU
+a>b>c>d>e
+e-yes>f>g
+e-no>g
+@12.90
+a=Math word problems
+b?=Benchmark?
+c=GSM8K: grade school
+d=MATH: competition
+e=Reasoning chain + final answer
+f=Exact match on answer
+g!=Math reasoning score
+a>b
+b-easy>c>e
+b-hard>d>e
+e>f>g
+@12.91
+a=Coding tasks
+b?=Benchmark?
+c=HumanEval: write functions
+d=pass@k with unit tests
+e=SWE-bench: fix real GitHub issues
+f=Run repository test suite
+g!=Coding capability
+a>b
+b-small>c>d>g
+b-real>e>f>g
+@12.92
+a=Two anonymous model responses
+b=Human votes for the better one
+c=Bradley-Terry / Elo ratings
+d=Confidence intervals
+e!=Arena leaderboard
+a>b>c>d>e
+@12.93
+a=Responses
+b=Judge LLM compares or grades
+c?=Biases?
+d=Position bias: swap order
+e=Verbosity bias: control length
+f=Self-enhancement bias
+g=Calibrate with human labels
+h!=Automated evaluation
+a>b>c
+c-pos>d>g>h
+c-len>e>g>h
+c-self>f>g>h
+@12.94
+a=Multi-turn questions
+b=Judge scores each turn
+c=AlpacaEval: win rate vs reference
+d=Length-controlled correction
+e!=Conversation quality
+a>b>e
+a>c>d>e
+@12.95
+a=Lower perplexity
+b?=Better downstream?
+c=Correlation only partial
+d=Emergent abilities need scale
+e=Evaluate on tasks
+f!=Perplexity is not enough
+a>b>c>d>e>f
+@12.96
+a=LLaMA 1 to 3.3
+b=Architecture: RMSNorm, SwiGLU, RoPE
+c=GQA from LLaMA 2 70B
+d=Larger vocabulary and more tokens
+e=Long-context 128k
+f!=Open-weights progression
+a>b>c>d>e>f
+@12.97
+a=DeepSeek-V2/V3
+b=Multi-head latent attention
+c=DeepSeekMoE with shared experts
+d=Multi-token prediction objective
+e=FP8 training
+f!=Efficient frontier model
+a>b>c>d>e>f
+@12.98
+a=Base model
+b=Cold-start long CoT data
+c=Reasoning RL with verifiable rewards
+d=Rejection sampling for SFT data
+e=Second RL stage for helpfulness
+f=Distill into smaller models
+g!=DeepSeek-R1
+a>b>c>d>e>f>g
+@12.99
+a=Mistral 7B
+b=Sliding window attention + GQA
+c=Mixtral 8x7B: 8 experts, top-2
+d=About 13B active of 47B
+e!=Dense then sparse
+a>b>c>d>e
+@12.100
+a=Qwen 1.5 / 2 / 2.5
+b=Dense and MoE sizes
+c=Context to 128k
+d=Multilingual data
+e=Code and math specialists
+f!=Qwen family
+a>b>c>d>e>f
+@12.101
+a=Gemma 1 / 2
+b=GeGLU, RMSNorm, RoPE
+c=Interleaved local and global attention
+d=Logit soft-capping
+e=Distillation from larger models
+f!=Gemma
+a>b>c>d>e>f
+@12.102
+a=Textbook-quality synthetic data
+b=Phi-2 / 3 / 4 small models
+c=Filter web for educational value
+d?=Small but capable?
+e=Strong reasoning for size
+f!=SLMs by data quality
+a>b>c>d
+d-yes>e>f
+@12.103
+a=Enterprise RAG workloads
+b=Command R: long context, citations
+c=Grounded generation with inline citations
+d=Multilingual tool use
+e!=Command R+
+a>b>c>d>e
+@12.104
+a=Constitution of principles
+b=Model critiques and revises its own outputs
+c=Train preference model on AI feedback
+d=RLAIF
+e=Automated red-teaming
+f!=Constitutional AI
+a>b>c>d>e>f
+@12.105
+a=GPT-4 family
+b?=Architecture hypothesis?
+c=Dense transformer
+d=Mixture of experts
+e=GPT-4o: native text, audio, vision in one network
+f!=Omni-modal model
+a>b
+b-dense>c>e>f
+b-moe>d>e>f
+@12.106
+a=Prompt
+b=Hidden chain of thought tokens
+c=RL trained over reasoning traces
+d=Thinking budget controls length
+e=Answer after reasoning
+f!=o1 / o3 paradigm
+a>b>c>d>e>f
+@12.107
+a=Small model
+b=Quantize to 4 bits
+c=Offload to NPU
+d?=Latency within budget?
+e=Deploy on device
+f=Reduce context or use speculative decoding
+g!=On-device LLM
+a>b>c>d
+d-yes>e>g
+d-no>f>d
+@12.108
+a=Fine-tuned models from one base
+b?=Merge?
+c=SLERP: spherical interpolation
+d=TIES: trim, elect sign, merge
+e=DARE: drop and rescale deltas
+f=Evaluate merged model
+g!=Merged capability
+a>b
+b-interp>c>f
+b-sign>d>f
+b-sparse>e>f
+f>g
+@12.109
+a=Training checkpoints along a trajectory
+b?=Average?
+c=SWA: running average of weights
+d=Model soup: average fine-tuned models
+e=Flatter minimum, better generalization
+f!=Weight averaging
+a>b
+b-trajectory>c>e>f
+b-models>d>e>f
+@12.110
+a=Teacher with reasoning traces and logits
+b=Student under 7B
+c=Train on teacher traces
+d=Match logits with KL
+e?=Student approaches teacher?
+f!=Distilled model
+a>b>c>e
+a>d>e
+e-yes>f
+e-no>c
+@12.111
+a=Long prompt
+b?=Compress?
+c=Prompt pruning by token importance
+d=LLMLingua: small LM drops low-information tokens
+e=Attention-based filtering
+f=Fewer tokens, similar answers
+g!=Compressed context
+a>b
+b-prune>c>f
+b-semantic>d>f
+b-attn>e>f
+f>g
+@12.112
+a=Long-context training
+b=Sequence parallelism splits tokens
+c=RingAttention exchanges KV blocks
+d=Staged length increases
+e=Position scaling
+f!=Long-context model
+a>b>c>d>e>f
+@12.113
+a=Text corpus
+b=LLM proposes API call insertions
+c=Execute the calls
+d=Keep calls that reduce loss
+e=Fine-tune on annotated text
+f!=Toolformer
+a>b>c>d>e>f
+@12.114
+a=Tool schema (JSON Schema)
+b=Model emits a function call
+c=Constrained decoding enforces the grammar
+d?=Valid arguments?
+e=Execute and return result
+f=Multi-turn loop
+g=Error message back to the model
+h!=Reliable tool use
+a>b>c>d
+d-yes>e>f>h
+d-no>g>b
+@12.115
+a=Model-written code
+b?=Sandbox?
+c=Docker container
+d=Firecracker microVM
+e=WebAssembly runtime
+f=Resource limits and no network
+g!=Safe execution
+a>b
+b-container>c>f>g
+b-vm>d>f>g
+b-wasm>e>f>g
+@12.116
+a=LLM as CPU
+b=Context window as RAM
+c=Tools as peripherals
+d=Controller loop
+e?=Goal done?
+f!=Agent result
+a>b>d
+a>c>d
+d>e
+e-no>d
+e-yes>f
+@12.117
+a=Interaction history
+b=Working context: recent turns
+c=Episodic memory in a vector store
+d=Long-term summaries
+e=Retrieve relevant memories
+f?=Context full?
+g=Summarize and evict
+h!=Agent memory
+a>b>f
+a>c>e
+a>d>e
+f-yes>g>e
+f-no>e>h
+@12.118
+a=Image
+b=Vision encoder patches
+c=Projector into LLM embedding dimension
+d=Interleave with text tokens
+e=LLM decodes the answer
+f!=Multi-modal LLM
+a>b>c>d>e>f
+@12.119
+a=Image-text pairs
+b=Contrastive alignment
+c=Interleaved documents
+d=Visual tokens in the sequence
+e=Instruction tuning on vision tasks
+f!=Vision-language pretraining
+a>b>d
+c>d>e>f
+@12.120
+a=Speech
+b=Discrete audio tokenizer
+c=Semantic and acoustic token streams
+d=Dual heads in the language model
+e=Decode to waveform
+f!=Audio-language LLM
+a>b>c>d>e>f
+@12.121
+a=Camera images and instruction
+b=Vision-language backbone
+c=Action tokenizer
+d=Predict robot actions
+e=Execute and observe
+f?=Task done?
+g!=VLA policy
+a>b>c>d>e>f
+f-no>a
+f-yes>g
+@12.122
+a=Training cluster
+b=Power draw in megawatts
+c=PUE of the data center
+d=Energy and carbon estimate
+e=Hardware and cloud cost
+f!=Footprint and cost
+a>b>c>d>e>f
+@12.123
+a=Frontier directions
+b=Test-time compute
+c=Continual pretraining
+d=Post-transformer architectures
+e=Agentic systems
+f!=Next LLM era
+a>b>f
+a>c>f
+a>d>f
+a>e>f

@@ -47,20 +47,31 @@ The operational topology, tensor dataflow, and execution lifecycle of **GeGLU an
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM ARCHITECTURE: GEGLU AND REGLU"]):::title
-    I(["Input Tensors / State Vectors / Action Space"]):::io
-    L["<b>Forward Transformation #amp; Projections</b><br/>• High-Dimensional Subspace Mapping<br/>• Residual Connections #amp; Normalization<br/>• Attention Masking #amp; Boundary Routing"]
-    R["<b>Memory #amp; State Management</b><br/>• Continuous Paged Buffers / KV Cache<br/>• Zero-Copy Sharding Across Ranks<br/>• Bounded Latency #amp; Active Context"]
-    E["<b>Execution Pipeline #amp; Distributed Kernels</b><br/>• Flash Attention / Fused GEMM Operations<br/>• Memory-Bandwidth-Bound vs Compute-Bound Balancing<br/>• Asymptotic Complexity: O(n log n) or O(n)"]
-    O["<b>Empirical Output #amp; Production Serving</b><br/>• Deterministic Decoding #amp; Stopping Criteria<br/>• Latency Profiling #amp; Memory Footprint Verification<br/>• Resilient Fault Recovery #amp; Health Checks"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Transformers #amp; Attention Mechanisms · GeGLU and ReGLU: Architectural Variants of Gated Activations in Large Transformers"]):::title
+    a["Gated linear unit family"]
+    b{"Gate nonlinearity?"}
+    c["ReGLU: ReLU gate"]
+    d["GeGLU: GELU gate"]
+    e["SwiGLU: Swish gate"]
+    f["Element-wise product with linear branch"]
+    g(["Gated FFN variants"])
+    T ~~~ a
+    a --> b
+    b -- "relu" --> c
+    c --> f
+    f --> g
+    b -- "gelu" --> d
+    d --> f
+    f --> g
+    b -- "swish" --> e
+    e --> f
+    f --> g
+    class b dec
+    class g term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This topology illustrates how abstract mathematical representations translate directly onto modern accelerator hardware (GPUs/TPUs), minimizing inter-node communication latency and memory bandwidth stalls.

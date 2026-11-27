@@ -47,20 +47,22 @@ The operational topology, tensor dataflow, and execution lifecycle of **In-Conte
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM ARCHITECTURE: IN-CONTEXT LEARNING (ICL) MECHANICS"]):::title
-    I(["Input Tensors / State Vectors / Action Space"]):::io
-    L["<b>Forward Transformation #amp; Projections</b><br/>• High-Dimensional Subspace Mapping<br/>• Residual Connections #amp; Normalization<br/>• Attention Masking #amp; Boundary Routing"]
-    R["<b>Memory #amp; State Management</b><br/>• Continuous Paged Buffers / KV Cache<br/>• Zero-Copy Sharding Across Ranks<br/>• Bounded Latency #amp; Active Context"]
-    E["<b>Execution Pipeline #amp; Distributed Kernels</b><br/>• Flash Attention / Fused GEMM Operations<br/>• Memory-Bandwidth-Bound vs Compute-Bound Balancing<br/>• Asymptotic Complexity: O(n log n) or O(n)"]
-    O["<b>Empirical Output #amp; Production Serving</b><br/>• Deterministic Decoding #amp; Stopping Criteria<br/>• Latency Profiling #amp; Memory Footprint Verification<br/>• Resilient Fault Recovery #amp; Health Checks"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Large Language Models (LLMs) · In-Context Learning (ICL) Mechanics: Implicit Gradient Descent Within Inner Attention Activation Streams"]):::title
+    a["Examples in the prompt"]
+    b["Attention builds a function over examples"]
+    c["Implicit gradient-descent-like update in activations"]
+    d["Query processed with the induced function"]
+    e(["ICL without weight updates"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c --> d
+    d --> e
+    class e term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This topology illustrates how abstract mathematical representations translate directly onto modern accelerator hardware (GPUs/TPUs), minimizing inter-node communication latency and memory bandwidth stalls.

@@ -47,20 +47,34 @@ The operational topology, tensor dataflow, and execution lifecycle of **Pretrain
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM ARCHITECTURE: PRETRAINING DATASETS"]):::title
-    I(["Input Tensors / State Vectors / Action Space"]):::io
-    L["<b>Forward Transformation #amp; Projections</b><br/>• High-Dimensional Subspace Mapping<br/>• Residual Connections #amp; Normalization<br/>• Attention Masking #amp; Boundary Routing"]
-    R["<b>Memory #amp; State Management</b><br/>• Continuous Paged Buffers / KV Cache<br/>• Zero-Copy Sharding Across Ranks<br/>• Bounded Latency #amp; Active Context"]
-    E["<b>Execution Pipeline #amp; Distributed Kernels</b><br/>• Flash Attention / Fused GEMM Operations<br/>• Memory-Bandwidth-Bound vs Compute-Bound Balancing<br/>• Asymptotic Complexity: O(n log n) or O(n)"]
-    O["<b>Empirical Output #amp; Production Serving</b><br/>• Deterministic Decoding #amp; Stopping Criteria<br/>• Latency Profiling #amp; Memory Footprint Verification<br/>• Resilient Fault Recovery #amp; Health Checks"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Large Language Models (LLMs) · Pretraining Datasets: Common Crawl, The Pile, FineWeb, RefinedWeb, and Synthetic Text Synthesis"]):::title
+    a["Raw sources"]
+    b{"Dataset?"}
+    c["Common Crawl: broad web"]
+    d["The Pile: curated mix"]
+    e["FineWeb / RefinedWeb: filtered web"]
+    f["Synthetic textbooks"]
+    g["Mix with sampling weights"]
+    h["Quality and decontamination"]
+    i(["Data mixture"])
+    T ~~~ a
+    a --> b
+    b -- "web" --> c
+    c --> g
+    b -- "mix" --> d
+    d --> g
+    b -- "filtered" --> e
+    e --> g
+    b -- "synthetic" --> f
+    f --> g
+    g --> h
+    h --> i
+    class b dec
+    class i term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This topology illustrates how abstract mathematical representations translate directly onto modern accelerator hardware (GPUs/TPUs), minimizing inter-node communication latency and memory bandwidth stalls.

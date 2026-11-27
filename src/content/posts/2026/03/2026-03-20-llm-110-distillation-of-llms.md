@@ -47,20 +47,27 @@ The operational topology, tensor dataflow, and execution lifecycle of **Distilla
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM ARCHITECTURE: DISTILLATION OF LLMS"]):::title
-    I(["Input Tensors / State Vectors / Action Space"]):::io
-    L["<b>Forward Transformation #amp; Projections</b><br/>• High-Dimensional Subspace Mapping<br/>• Residual Connections #amp; Normalization<br/>• Attention Masking #amp; Boundary Routing"]
-    R["<b>Memory #amp; State Management</b><br/>• Continuous Paged Buffers / KV Cache<br/>• Zero-Copy Sharding Across Ranks<br/>• Bounded Latency #amp; Active Context"]
-    E["<b>Execution Pipeline #amp; Distributed Kernels</b><br/>• Flash Attention / Fused GEMM Operations<br/>• Memory-Bandwidth-Bound vs Compute-Bound Balancing<br/>• Asymptotic Complexity: O(n log n) or O(n)"]
-    O["<b>Empirical Output #amp; Production Serving</b><br/>• Deterministic Decoding #amp; Stopping Criteria<br/>• Latency Profiling #amp; Memory Footprint Verification<br/>• Resilient Fault Recovery #amp; Health Checks"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Large Language Models (LLMs) · Distillation of LLMs: Transferring Reasoning Trajectories and Teacher Logits to Sub-7B Models"]):::title
+    a["Teacher with reasoning traces and logits"]
+    b["Student under 7B"]
+    c["Train on teacher traces"]
+    d["Match logits with KL"]
+    e{"Student approaches teacher?"}
+    f(["Distilled model"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c --> e
+    a --> d
+    d --> e
+    e -- "yes" --> f
+    e -- "no" --> c
+    class e dec
+    class f term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This topology illustrates how abstract mathematical representations translate directly onto modern accelerator hardware (GPUs/TPUs), minimizing inter-node communication latency and memory bandwidth stalls.

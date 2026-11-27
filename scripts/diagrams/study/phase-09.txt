@@ -1,0 +1,657 @@
+@9.1
+a=Raw text from many sources
+b?=Visually identical but different code points?
+c=Normalize: NFC composes, NFD decomposes
+d=NFKC/NFKD also fold compatibility characters
+e=Case folding for matching
+f=Regex cleanup of whitespace and punctuation
+g=Canonical text
+h!=Stable tokens and keys
+a>b
+b-yes>c>d>e
+b-no>e
+e>f>g>h
+@9.2
+a=Word form: running, flies
+b?=Stemmer?
+c=Porter: ordered suffix rules
+d=Lancaster: aggressive iterative rules
+e?=Over-stemming risk?
+f=Different words collapse together
+g=Under-stemming: related forms stay apart
+h!=Stem used as a feature
+a>b
+b-porter>c>e
+b-lancaster>d>e
+e-yes>f>h
+e-no>g>h
+@9.3
+a=Token and sentence context
+b=POS tag the token
+c=WordNet lookup by (lemma, POS)
+d?=Entry found?
+e=Return base form
+f=Return the word unchanged
+g=Synsets give sense inventory
+h!=Lemma
+a>b>c>d
+d-yes>e>g>h
+d-no>f>h
+@9.4
+a=Text with periods
+b?=Approach?
+c=Rules: abbreviation list, capital next word
+d=Learned: classifier on punctuation context
+e?=Period ends a sentence?
+f=Split
+g=Keep (Dr., e.g., 3.14)
+h!=Sentence list
+a>b
+b-rules>c>e
+b-ml>d>e
+e-yes>f>h
+e-no>g>h
+@9.5
+a=Corpus split into characters
+b=Count adjacent symbol pairs
+c=Merge the most frequent pair
+d=Add merged symbol to the vocabulary
+e?=Vocabulary size reached?
+f=Segment new text with learned merges
+g!=Subword tokens
+a>b>c>d>e
+e-no>b
+e-yes>f>g
+@9.6
+a=Initial character vocabulary
+b=Score pair by count(ab) / (count(a) count(b))
+c=Merge the highest score
+d=Continuation pieces marked ##
+e?=Vocab full?
+f=Greedy longest-match tokenization
+g!=WordPiece tokens
+a>b>c>d>e
+e-no>b
+e-yes>f>g
+@9.7
+a=Large seed vocabulary
+b=Unigram LM: token probabilities
+c@=EM estimates probabilities
+d=Loss increase if a token is removed
+e=Prune the lowest-loss tokens
+f?=Target size reached?
+g=Viterbi segmentation, sampling alternatives
+h!=SentencePiece model
+a>b>c>d>e>f
+f-no>c
+f-yes>g>h
+@9.8
+a=Text as UTF-8 bytes
+b=Base vocabulary of 256 bytes
+c=BPE merges on byte pairs
+d=Any string representable
+e=No unknown token
+f!=Byte-level BPE
+a>b>c>d>e>f
+@9.9
+a=Training corpus
+b=Count n-grams and their histories
+c=P(w | history) = count(history, w) / count(history)
+d=Transition probability table
+e?=Unseen n-gram?
+f=Zero probability: needs smoothing
+g=Score sentences by chain rule
+h!=N-gram language model
+a>b>c>d>e
+e-yes>f>g>h
+e-no>g>h
+@9.10
+a=Unseen events have zero mass
+b?=Method?
+c=Laplace: add 1 to every count
+d=Good-Turing: reuse mass of singletons
+e=Absolute discounting: subtract d from each count
+f=Redistribute to unseen
+g!=Smoothed probabilities
+a>b
+b-add1>c>f
+b-gt>d>f
+b-discount>e>f
+f>g
+@9.11
+a=Bigram (u, w)
+b=Absolute discount from observed counts
+c=Continuation probability: how many contexts w follows
+d=Interpolate with lower order
+e=Backoff weight lambda(u)
+f?=Word often follows many contexts?
+g=Higher lower-order weight
+h!=Kneser-Ney
+a>b>d
+a>c>d
+d>e>f
+f-yes>g>h
+f-no>h
+@9.12
+a=Held-out text
+b=Cross-entropy H = -1/N sum log2 P(w_i)
+c=Perplexity = 2^H
+d=Lower is better
+e?=Different tokenizers?
+f=Compare in bits per character
+g!=Intrinsic LM evaluation
+a>b>c>d>e
+e-yes>f>g
+e-no>g
+@9.13
+a=Documents
+b=Vocabulary built from all words
+c=Document-term matrix counts
+d=Very sparse
+e?=Vocabulary large?
+f=Prune rare terms, hash features
+g!=Bag-of-words vectors
+a>b>c>d>e
+e-yes>f>g
+e-no>g
+@9.14
+a=Term t in document d
+b=tf(t, d) with log scaling
+c=idf(t) = log(N / df_t)
+d=Weight tf x idf
+e=Sublinear dampening 1 + log tf
+f=Normalize vector length
+g!=TF-IDF
+a>b>d
+a>c>d
+d>e>f>g
+@9.15
+a=Words in contexts
+b=Harris: similar contexts, similar meaning
+c=Firth: know a word by the company it keeps
+d=Co-occurrence statistics
+e=Represent a word by its context distribution
+f!=Foundation of embeddings
+a>b>d
+a>c>d
+d>e>f
+@9.16
+a=Co-occurrence counts
+b=PMI = log P(w, c) / (P(w) P(c))
+c=Negative values noisy: clip to PPMI
+d=Sparse PPMI matrix
+e@=Truncated SVD
+f=Dense low-rank word vectors
+g!=Count-based embeddings
+a>b>c>d>e>f>g
+@9.17
+a=Center word w
+b=Predict surrounding context words
+c=Softmax over the whole vocabulary
+d?=Vocabulary huge?
+e=Softmax denominator is the bottleneck
+f=Approximate: negative sampling or hierarchical softmax
+g!=Skip-gram embeddings
+a>b>c>d
+d-yes>e>f>g
+d-no>g
+@9.18
+a=Positive pair (w, c)
+b=Sample k noise words from unigram^0.75
+c=Maximize log sigma(v_w . v_c)
+d=Minimize log sigma(v_w . v_noise)
+e=Binary classification replaces softmax
+f!=SGNS
+a>b>c>d>e>f
+@9.19
+a=Context window words
+b=Average their input vectors
+c=Project to output layer
+d=Predict the center word
+e=Faster, smooths over context
+f?=Rare words?
+g=Skip-gram handles rare words better
+h!=CBOW
+a>b>c>d>e>f
+f-yes>g>h
+f-no>h
+@9.20
+a=Vocabulary of V words
+b=Huffman tree by frequency
+c=Each word is a leaf path
+d=Probability = product of branch sigmoids
+e=O(log V) per prediction
+f!=Hierarchical softmax
+a>b>c>d>e>f
+@9.21
+a=Global co-occurrence matrix X
+b=Model w_i . w_j + b_i + b_j = log X_ij
+c=Weighted least squares with f(X_ij)
+d=Down-weight rare and very frequent pairs
+e=Train with AdaGrad
+f!=GloVe vectors
+a>b>c>d>e>f
+@9.22
+a=Trained embeddings
+b=Vector offsets encode relations
+c=king - man + woman
+d=Nearest neighbor by cosine
+e?=Returns queen?
+f=Analogy solved
+g=Biases and noise also appear
+h!=Linear structure in embedding space
+a>b>c>d>e
+e-yes>f>h
+e-no>g>h
+@9.23
+a=Word as character n-grams
+b=Embed each n-gram
+c=Word vector = sum of its n-gram vectors
+d?=Out-of-vocabulary word?
+e=Composed from known n-grams
+f=Morphology shared across forms
+g!=FastText
+a>b>c>d
+d-yes>e>g
+d-no>f>g
+@9.24
+a=Word vectors
+b?=Benchmark?
+c=WordSim-353: relatedness
+d=SimLex-999: true similarity
+e=Analogy sets
+f=Spearman correlation with human scores
+g!=Intrinsic evaluation
+a>b
+b-related>c>f>g
+b-similar>d>f>g
+b-analogy>e>g
+@9.25
+a=Embeddings of two languages
+b=Seed dictionary of translation pairs
+c=Orthogonal Procrustes: W = U V^T from SVD
+d?=No dictionary?
+e=Adversarial or iterative self-learning init
+f=Map source into target space
+g!=Cross-lingual alignment
+a>b>c
+d-yes>e>c
+c>f>g
+@9.26
+a=One vector per word type
+b=bank: river and finance senses
+c=Vector averages the senses
+d=Polysemy collisions
+e=Context needed
+f!=Motivates contextual models
+a>b>c>d>e>f
+@9.27
+a=Static embedding lookup
+b=Same vector in every sentence
+c?=Context-dependent meaning?
+d=Deep encoder computes a vector per occurrence
+e=Representation depends on the whole sentence
+f!=Contextualized embeddings
+a>b>c
+c-yes>d>e>f
+@9.28
+a=Sentence tokens
+b=Penn Treebank tagset
+c=Disambiguate by context
+d?=Ambiguous word like "back"?
+e=Use neighboring tags
+f=Assign NN, VB, JJ, ...
+g!=POS sequence
+a>b>c>d
+d-yes>e>f>g
+d-no>f>g
+@9.29
+a=Tokens in text
+b?=Tagging scheme?
+c=BIO: B-, I-, O
+d=BILOU adds last and unit tags
+e=Tag each token
+f=Decode spans of entities
+g!=Entity boundaries
+a>b
+b-bio>c>e
+b-bilou>d>e
+e>f>g
+@9.30
+a=Hidden tag sequence
+b=Transition probabilities P(tag | prev)
+c=Emission probabilities P(word | tag)
+d=Joint P(words, tags)
+e=Estimate by counting
+f!=HMM tagger
+a>b>d
+a>c>d
+d>e>f
+@9.31
+a=Observation sequence
+b=Initialize with start probabilities
+c=For each step, keep the best score per state
+d=Store back-pointers
+e?=End of sequence?
+f=Pick best final state
+g=Backtrack the path
+h!=Most likely tags
+a>b>c>d>e
+e-no>c
+e-yes>f>g>h
+@9.32
+a=Forward alpha_t(s): prefix probability
+b=Backward beta_t(s): suffix probability
+c=Posterior gamma_t(s) proportional to alpha x beta
+d=Expected transitions xi_t(s, s')
+e=Used in Baum-Welch EM
+f!=Posterior state marginals
+a>c
+b>c
+c>d>e>f
+@9.33
+a=Predict each tag given previous tag and the words
+b=Local softmax per position
+c=Normalization at every step
+d?=State with few outgoing options?
+e=Label bias: observations ignored
+f=Global normalization instead
+g!=Why CRFs
+a>b>c>d
+d-yes>e>f>g
+d-no>g
+@9.34
+a=Feature functions on (y_t, y_(t-1), x)
+b=Score of a whole tag sequence
+c=Partition function Z(x) over all sequences
+d@=Forward algorithm computes Z
+e=P(y | x) = exp(score) / Z
+f!=Linear-chain CRF
+a>b>e
+b>c>d>e>f
+@9.35
+a=Training sequences
+b=Negative log-likelihood plus L2
+c=Gradient = observed - expected features
+d@=Forward-backward gives expectations
+e=L-BFGS update
+f?=Converged?
+g!=Trained CRF weights
+a>b>c>d>e>f
+f-no>c
+f-yes>g
+@9.36
+a=Word embeddings
+b=BiLSTM contextual features
+c=Emission scores per tag
+d=CRF layer with transition matrix
+e=Viterbi decoding
+f?=Illegal tag transition?
+g=Prevented by CRF scores
+h!=BiLSTM-CRF tagger
+a>b>c>d>e>f
+f-yes>g>h
+f-no>h
+@9.37
+a=Grammar rules S -> NP VP
+b?=Rule shape?
+c=Convert to Chomsky Normal Form
+d=Binary rules A -> B C
+e=Terminal rules A -> a
+f=Remove unit and epsilon rules
+g!=CNF grammar for CKY
+a>b
+b-general>c>f>d>g
+b-terminal>e>g
+@9.38
+a=Sentence w_1..w_n
+b=Fill chart cell (i, j)
+c=For each split k
+d?=Rule A -> B C with B in (i, k), C in (k, j)?
+e=Add A to the cell
+f?=All spans done?
+g?=S in the top cell?
+h=Parse exists
+i=No parse
+a>b>c>d
+d-yes>e>f
+d-no>f
+f-no>b
+f-yes>g
+g-yes>h
+g-no>i
+@9.39
+a=Sentence
+b=Each word has one head
+c=Labeled relations nsubj, obj, ...
+d=Tree rooted at the main verb
+e=Universal Dependencies cross-lingual scheme
+f!=Dependency tree
+a>b>c>d>e>f
+@9.40
+a=Stack, buffer, empty arc set
+b?=Next action?
+c=SHIFT: move buffer word to stack
+d=LEFT-ARC: head is the buffer front
+e=RIGHT-ARC: head is the stack top
+f=Classifier or oracle picks the action
+g?=Buffer empty and stack done?
+h!=Parse tree
+a>b>f
+b-shift>c>g
+b-left>d>g
+b-right>e>g
+g-no>b
+g-yes>h
+@9.41
+a=Scores for every candidate arc
+b=Complete directed graph of words
+c=Chu-Liu-Edmonds: pick best head per word
+d?=Cycle formed?
+e=Contract the cycle, rescore
+f=Expand to a tree
+g!=Maximum spanning tree
+a>b>c>d
+d-yes>e>c
+d-no>f>g
+@9.42
+a=Sentence with two entities
+b=Dependency parse
+c=Shortest path between entities
+d=Path words as features
+e=Relation classifier
+f=Semantic role labeling: who did what to whom
+g!=Extracted relations
+a>b>c>d>e>g
+b>f>g
+@9.43
+a=Sentence word vectors
+b=Convolutions with widths 3, 4, 5
+c=Max-over-time pooling
+d=Concatenate features
+e=Dropout, softmax classifier
+f!=Kim CNN
+a>b>c>d>e>f
+@9.44
+a=Characters as one-hot or embeddings
+b=Convolution over character sequence
+c=Pooling to a text vector
+d?=Typos or rare words?
+e=Robust: no vocabulary needed
+f=Needs more data
+g!=Char-CNN classifier
+a>b>c>d
+d-yes>e>g
+d-no>f>g
+@9.45
+a=Review text
+b?=Method?
+c=Lexicon: VADER rule scores
+d=Supervised classifier
+e=Aspect-based: find aspect, then polarity
+f!=Sentiment label
+a>b
+b-lexicon>c>f
+b-supervised>d>f
+b-aspect>e>f
+@9.46
+a=Choose topic mixture theta ~ Dirichlet(alpha)
+b=For each word position
+c=Draw topic z ~ theta
+d=Draw word w ~ phi_z
+e?=More words?
+f!=Generated document
+a>b>c>d>e
+e-yes>b
+e-no>f
+@9.47
+a=Posterior over topics is intractable
+b?=Inference?
+c=Collapsed Gibbs: resample each z_i
+d=Variational: optimize ELBO over q
+e=Update document-topic and topic-word counts
+f?=Converged?
+g!=Topics and mixtures
+a>b
+b-gibbs>c>e>f
+b-vi>d>f
+f-no>b
+f-yes>g
+@9.48
+a=Document bag-of-words
+b=Encoder network to logistic-normal posterior
+c=Approximate Dirichlet prior
+d=Sample latent topic proportions
+e=Decoder softmax over words
+f!=ProdLDA reconstruction
+a>b>c>d>e>f
+@9.49
+a=Source sentence
+b=Encoder states
+c=Decoder state at step t
+d=Attention over encoder states
+e=Predict next target token
+f?=End token?
+g!=Translation
+a>b>c>d>e>f
+f-no>c
+f-yes>g
+@9.50
+a=Attention history
+b=Coverage vector sums past attention
+c=Penalty on repeated attention
+d?=Source word ignored?
+e=Coverage low: encourage attending
+f=Fewer repeats and drops
+g!=Coverage mechanism
+a>b>c>d
+d-yes>e>f>g
+d-no>f>g
+@9.51
+a=Document
+b?=Summarization type?
+c=Extractive: TextRank / LexRank graph ranking
+d=Select top sentences
+e=Abstractive: generate new text
+f?=Faithful to the source?
+g=Check hallucinations
+h!=Summary
+a>b
+b-extract>c>d>h
+b-abstract>e>f
+f-yes>h
+f-no>g>h
+@9.52
+a=Question and passage
+b=Encode jointly
+c=Predict start and end positions
+d=Extract the span
+e=Exact match and F1 over tokens
+f!=Extractive QA
+a>b>c>d>e>f
+@9.53
+a=User utterance
+b?=System type?
+c=Task-oriented: track dialogue state slots
+d=Policy chooses action
+e=Open-domain: generate a free response
+f=Natural language generation
+g!=Reply
+a>b
+b-task>c>d>f>g
+b-open>e>g
+@9.54
+a=Sentence pair
+b=Encode each to a vector
+c=Cosine similarity
+d=Compare with human scores
+e=Spearman rank correlation
+f!=STS evaluation
+a>b>c>d>e>f
+@9.55
+a=Pair scoring need
+b?=Architecture?
+c=Cross-encoder: both texts in one pass
+d=High accuracy, slow for many pairs
+e=Bi-encoder: independent vectors
+f=Index with ANN, fast retrieval
+g?=Rerank top candidates?
+h=Cross-encoder reranks bi-encoder results
+i!=Two-stage retrieval
+a>b
+b-cross>c>d>g
+b-bi>e>f>g
+g-yes>h>i
+@9.56
+a=Sentence
+b?=Model?
+c=InferSent: BiLSTM trained on NLI
+d=Universal Sentence Encoder
+e=Siamese network shares weights
+f=Fixed-size vector
+g!=Sentence embedding
+a>b
+b-nli>c>f>g
+b-use>d>f>g
+b-siamese>e>f>g
+@9.57
+a=Pretrained BERT
+b=Siamese pooling to sentence vectors
+c=Triplet or cosine-similarity loss
+d=Fine-tune on pairs
+e=Precompute corpus embeddings
+f=Search millions with ANN
+g!=Fast semantic search
+a>b>c>d>e>f>g
+@9.58
+a=Candidate and reference translations
+b=Clipped n-gram precision, n = 1..4
+c=Geometric mean
+d=Brevity penalty if too short
+e=BLEU = BP x exp(sum w log p_n)
+f!=Translation score
+a>b>c>e
+a>d>e>f
+@9.59
+a=Generated text and reference
+b?=Metric?
+c=ROUGE: n-gram recall
+d=METEOR: alignment with stems and synonyms
+e=BERTScore: embedding token matching
+f=Better correlation with meaning
+g!=Generation evaluation
+a>b
+b-recall>c>g
+b-align>d>g
+b-embed>e>f>g
+@9.60
+a=Benchmark suite
+b=GLUE and SuperGLUE tasks
+c=Models near human scores
+d?=Annotation artifacts?
+e=Models exploit hypothesis-only cues
+f=Build harder or adversarial sets
+g!=Interpret leaderboards carefully
+a>b>c>d
+d-yes>e>f>g
+d-no>g

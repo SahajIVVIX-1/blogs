@@ -43,20 +43,28 @@ The structural flow, component relationships, and operational hierarchy of **Los
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM TOPOLOGY: LOSS SURFACES"]):::title
-    I(["Primary Input / Data Descriptor Space"]):::io
-    L["<b>Memory Layout #amp; Internal State</b><br/>• Contiguous Buffer / Cache Lines<br/>• Invariant Constraints #amp; Headers<br/>• Structural Hierarchy (O(1) Access)"]
-    R["<b>Algorithmic Control Flow</b><br/>• Transformation Kernel / Pipeline<br/>• Dispatch Table / Virtual Methods<br/>• Dynamic Resolution / Graph Routing"]
-    E["<b>Execution Pipeline #amp; Vectorization</b><br/>• Cache Locality Optimization (Spatial #amp; Temporal)<br/>• Bounded Asymptotic Complexity: O(n) Time, O(1) Space<br/>• Deterministic Memory Deallocation #amp; Lifecycle"]
-    O["<b>High-Throughput Production Serving</b><br/>• Zero-Copy Slicing / Shared References<br/>• Lock-Free Concurrency #amp; Thread Safety<br/>• Monitored Latency #amp; Error Resilience"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Deep Learning Foundations · Loss Surfaces: Non-Convex Optimization, Critical Points, and High-Dimensional Saddles"]):::title
+    a["Non-convex loss landscape"]
+    b{"Critical point type?"}
+    c["Local minima: mostly good in high dimension"]
+    d["Saddle points: dominate high-d critical points"]
+    e["Hessian has negative curvature directions"]
+    f["SGD noise escapes saddles"]
+    g(["Optimization finds low loss anyway"])
+    T ~~~ a
+    a --> b
+    b -- "minima" --> c
+    c --> g
+    b -- "saddles" --> d
+    d --> e
+    e --> f
+    f --> g
+    class b dec
+    class g term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational blueprint illustrates how abstract abstractions map directly to physical hardware architectures, optimizing memory locality and instruction throughput.

@@ -47,20 +47,27 @@ The operational topology, tensor dataflow, and execution lifecycle of **RetNet (
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM ARCHITECTURE: RETNET (RETENTION NETWORKS)"]):::title
-    I(["Input Tensors / State Vectors / Action Space"]):::io
-    L["<b>Forward Transformation #amp; Projections</b><br/>• High-Dimensional Subspace Mapping<br/>• Residual Connections #amp; Normalization<br/>• Attention Masking #amp; Boundary Routing"]
-    R["<b>Memory #amp; State Management</b><br/>• Continuous Paged Buffers / KV Cache<br/>• Zero-Copy Sharding Across Ranks<br/>• Bounded Latency #amp; Active Context"]
-    E["<b>Execution Pipeline #amp; Distributed Kernels</b><br/>• Flash Attention / Fused GEMM Operations<br/>• Memory-Bandwidth-Bound vs Compute-Bound Balancing<br/>• Asymptotic Complexity: O(n log n) or O(n)"]
-    O["<b>Empirical Output #amp; Production Serving</b><br/>• Deterministic Decoding #amp; Stopping Criteria<br/>• Latency Profiling #amp; Memory Footprint Verification<br/>• Resilient Fault Recovery #amp; Health Checks"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Transformers #amp; Attention Mechanisms · RetNet (Retention Networks): Recurrent, Parallel, and Chunkwise Representations for Transformers"]):::title
+    a["Retention: exponential decay of past"]
+    b{"Representation?"}
+    c["Parallel for training"]
+    d["Recurrent for O(1) inference"]
+    e["Chunkwise for long sequences"]
+    f(["RetNet"])
+    T ~~~ a
+    a --> b
+    b -- "train" --> c
+    c --> f
+    b -- "infer" --> d
+    d --> f
+    b -- "long" --> e
+    e --> f
+    class b dec
+    class f term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This topology illustrates how abstract mathematical representations translate directly onto modern accelerator hardware (GPUs/TPUs), minimizing inter-node communication latency and memory bandwidth stalls.

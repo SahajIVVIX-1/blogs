@@ -47,20 +47,30 @@ The operational topology, tensor dataflow, and execution lifecycle of **Why Scal
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM ARCHITECTURE: WHY SCALE BY SQRT(D_K)? PROOF OF VARIANCE PRESERVATION IN HIGH-DIMENSIONAL INNER PRODUCTS"]):::title
-    I(["Input Tensors / State Vectors / Action Space"]):::io
-    L["<b>Forward Transformation #amp; Projections</b><br/>• High-Dimensional Subspace Mapping<br/>• Residual Connections #amp; Normalization<br/>• Attention Masking #amp; Boundary Routing"]
-    R["<b>Memory #amp; State Management</b><br/>• Continuous Paged Buffers / KV Cache<br/>• Zero-Copy Sharding Across Ranks<br/>• Bounded Latency #amp; Active Context"]
-    E["<b>Execution Pipeline #amp; Distributed Kernels</b><br/>• Flash Attention / Fused GEMM Operations<br/>• Memory-Bandwidth-Bound vs Compute-Bound Balancing<br/>• Asymptotic Complexity: O(n log n) or O(n)"]
-    O["<b>Empirical Output #amp; Production Serving</b><br/>• Deterministic Decoding #amp; Stopping Criteria<br/>• Latency Profiling #amp; Memory Footprint Verification<br/>• Resilient Fault Recovery #amp; Health Checks"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Transformers #amp; Attention Mechanisms · Why Scale by sqrt(d_k)? Proof of Variance Preservation in High-Dimensional Inner Products"]):::title
+    a["q, k components i.i.d. mean 0, variance 1"]
+    b["Dot product sum of d_k terms"]
+    c["Var(q . k) = d_k"]
+    d["Logits scale like sqrt(d_k)"]
+    e{"Large d_k unscaled?"}
+    f["Softmax saturates, gradients vanish"]
+    g["Divide by sqrt(d_k): variance 1"]
+    h(["Stable training signal"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c --> d
+    d --> e
+    e -- "yes" --> f
+    f --> g
+    g --> h
+    e -- "no" --> h
+    class e dec
+    class h term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This topology illustrates how abstract mathematical representations translate directly onto modern accelerator hardware (GPUs/TPUs), minimizing inter-node communication latency and memory bandwidth stalls.

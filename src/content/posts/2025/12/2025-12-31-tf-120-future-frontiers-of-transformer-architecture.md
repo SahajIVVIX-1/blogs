@@ -47,20 +47,28 @@ The operational topology, tensor dataflow, and execution lifecycle of **Future F
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM ARCHITECTURE: FUTURE FRONTIERS OF TRANSFORMER ARCHITECTURE"]):::title
-    I(["Input Tensors / State Vectors / Action Space"]):::io
-    L["<b>Forward Transformation #amp; Projections</b><br/>• High-Dimensional Subspace Mapping<br/>• Residual Connections #amp; Normalization<br/>• Attention Masking #amp; Boundary Routing"]
-    R["<b>Memory #amp; State Management</b><br/>• Continuous Paged Buffers / KV Cache<br/>• Zero-Copy Sharding Across Ranks<br/>• Bounded Latency #amp; Active Context"]
-    E["<b>Execution Pipeline #amp; Distributed Kernels</b><br/>• Flash Attention / Fused GEMM Operations<br/>• Memory-Bandwidth-Bound vs Compute-Bound Balancing<br/>• Asymptotic Complexity: O(n log n) or O(n)"]
-    O["<b>Empirical Output #amp; Production Serving</b><br/>• Deterministic Decoding #amp; Stopping Criteria<br/>• Latency Profiling #amp; Memory Footprint Verification<br/>• Resilient Fault Recovery #amp; Health Checks"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Transformers #amp; Attention Mechanisms · Future Frontiers of Transformer Architecture: Unified Continuous-Discrete Representations"]):::title
+    a["Continuous modalities and discrete tokens"]
+    b{"Unified model?"}
+    c["Shared tokenization of everything"]
+    d["Continuous diffusion heads with discrete LM"]
+    e["Long-context and agentic inference"]
+    f["Efficiency from sparsity and state space"]
+    g(["Next transformer frontiers"])
+    T ~~~ a
+    a --> b
+    b -- "tokens" --> c
+    c --> e
+    e --> g
+    b -- "hybrid" --> d
+    d --> f
+    f --> g
+    class b dec
+    class g term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This topology illustrates how abstract mathematical representations translate directly onto modern accelerator hardware (GPUs/TPUs), minimizing inter-node communication latency and memory bandwidth stalls.

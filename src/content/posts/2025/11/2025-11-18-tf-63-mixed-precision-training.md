@@ -47,20 +47,30 @@ The operational topology, tensor dataflow, and execution lifecycle of **Mixed Pr
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM ARCHITECTURE: MIXED PRECISION TRAINING"]):::title
-    I(["Input Tensors / State Vectors / Action Space"]):::io
-    L["<b>Forward Transformation #amp; Projections</b><br/>• High-Dimensional Subspace Mapping<br/>• Residual Connections #amp; Normalization<br/>• Attention Masking #amp; Boundary Routing"]
-    R["<b>Memory #amp; State Management</b><br/>• Continuous Paged Buffers / KV Cache<br/>• Zero-Copy Sharding Across Ranks<br/>• Bounded Latency #amp; Active Context"]
-    E["<b>Execution Pipeline #amp; Distributed Kernels</b><br/>• Flash Attention / Fused GEMM Operations<br/>• Memory-Bandwidth-Bound vs Compute-Bound Balancing<br/>• Asymptotic Complexity: O(n log n) or O(n)"]
-    O["<b>Empirical Output #amp; Production Serving</b><br/>• Deterministic Decoding #amp; Stopping Criteria<br/>• Latency Profiling #amp; Memory Footprint Verification<br/>• Resilient Fault Recovery #amp; Health Checks"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Transformers #amp; Attention Mechanisms · Mixed Precision Training: FP32 Master Weights, FP16/BF16 Compute, and Loss Dynamic Scaling"]):::title
+    a["FP32 master weights"]
+    b["Cast copies to FP16 or BF16"]
+    c["Forward and backward in low precision"]
+    d{"FP16?"}
+    e["Dynamic loss scaling to avoid underflow"]
+    f["BF16: wide range, no scaling"]
+    g["Update FP32 weights"]
+    h(["Faster, lighter training"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c --> d
+    d -- "fp16" --> e
+    e --> g
+    d -- "bf16" --> f
+    f --> g
+    g --> h
+    class d dec
+    class h term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This topology illustrates how abstract mathematical representations translate directly onto modern accelerator hardware (GPUs/TPUs), minimizing inter-node communication latency and memory bandwidth stalls.

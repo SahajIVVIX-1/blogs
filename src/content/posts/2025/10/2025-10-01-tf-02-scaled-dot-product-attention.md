@@ -47,20 +47,32 @@ The operational topology, tensor dataflow, and execution lifecycle of **Scaled D
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM ARCHITECTURE: SCALED DOT-PRODUCT ATTENTION"]):::title
-    I(["Input Tensors / State Vectors / Action Space"]):::io
-    L["<b>Forward Transformation #amp; Projections</b><br/>• High-Dimensional Subspace Mapping<br/>• Residual Connections #amp; Normalization<br/>• Attention Masking #amp; Boundary Routing"]
-    R["<b>Memory #amp; State Management</b><br/>• Continuous Paged Buffers / KV Cache<br/>• Zero-Copy Sharding Across Ranks<br/>• Bounded Latency #amp; Active Context"]
-    E["<b>Execution Pipeline #amp; Distributed Kernels</b><br/>• Flash Attention / Fused GEMM Operations<br/>• Memory-Bandwidth-Bound vs Compute-Bound Balancing<br/>• Asymptotic Complexity: O(n log n) or O(n)"]
-    O["<b>Empirical Output #amp; Production Serving</b><br/>• Deterministic Decoding #amp; Stopping Criteria<br/>• Latency Profiling #amp; Memory Footprint Verification<br/>• Resilient Fault Recovery #amp; Health Checks"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Transformers #amp; Attention Mechanisms · Scaled Dot-Product Attention: Matrix Formulation (QK^T / sqrt(d_k)) and Numerical Stability"]):::title
+    a["Queries Q, keys K, values V"]
+    b["Scores S = Q K^T"]
+    c["Divide by sqrt(d_k)"]
+    d["Optional mask adds -inf"]
+    e["Row-wise softmax"]
+    f["Weighted sum A V"]
+    g{"Large scores saturate softmax?"}
+    h["Subtract row max for numerical stability"]
+    i(["Attention output"])
+    T ~~~ a
+    a --> b
+    b --> c
+    c --> d
+    d --> e
+    e --> f
+    f --> i
+    c --> g
+    g -- "yes" --> h
+    h --> e
+    class g dec
+    class i term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This topology illustrates how abstract mathematical representations translate directly onto modern accelerator hardware (GPUs/TPUs), minimizing inter-node communication latency and memory bandwidth stalls.

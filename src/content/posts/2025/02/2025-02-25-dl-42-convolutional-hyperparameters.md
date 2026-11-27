@@ -43,20 +43,32 @@ The structural flow, component relationships, and operational hierarchy of **Con
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM TOPOLOGY: CONVOLUTIONAL HYPERPARAMETERS"]):::title
-    I(["Primary Input / Data Descriptor Space"]):::io
-    L["<b>Memory Layout #amp; Internal State</b><br/>• Contiguous Buffer / Cache Lines<br/>• Invariant Constraints #amp; Headers<br/>• Structural Hierarchy (O(1) Access)"]
-    R["<b>Algorithmic Control Flow</b><br/>• Transformation Kernel / Pipeline<br/>• Dispatch Table / Virtual Methods<br/>• Dynamic Resolution / Graph Routing"]
-    E["<b>Execution Pipeline #amp; Vectorization</b><br/>• Cache Locality Optimization (Spatial #amp; Temporal)<br/>• Bounded Asymptotic Complexity: O(n) Time, O(1) Space<br/>• Deterministic Memory Deallocation #amp; Lifecycle"]
-    O["<b>High-Throughput Production Serving</b><br/>• Zero-Copy Slicing / Shared References<br/>• Lock-Free Concurrency #amp; Thread Safety<br/>• Monitored Latency #amp; Error Resilience"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Deep Learning Foundations · Convolutional Hyperparameters: Kernel Size, Stride, Zero-Padding (Valid vs Same)"]):::title
+    a["Conv layer settings"]
+    b["Kernel size k"]
+    c["Stride s"]
+    d{"Padding?"}
+    e["Valid: no padding, output shrinks"]
+    f["Same: pad so output = input / s"]
+    g["Output size floor((n + 2p - k) / s) + 1"]
+    h(["Layer geometry"])
+    T ~~~ a
+    a --> b
+    b --> g
+    a --> c
+    c --> g
+    a --> d
+    d -- "valid" --> e
+    e --> g
+    d -- "same" --> f
+    f --> g
+    g --> h
+    class d dec
+    class h term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational blueprint illustrates how abstract abstractions map directly to physical hardware architectures, optimizing memory locality and instruction throughput.

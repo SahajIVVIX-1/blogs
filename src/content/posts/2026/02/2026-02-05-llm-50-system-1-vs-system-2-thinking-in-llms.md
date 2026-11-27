@@ -47,20 +47,27 @@ The operational topology, tensor dataflow, and execution lifecycle of **System 1
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM ARCHITECTURE: SYSTEM 1 VS SYSTEM 2 THINKING IN LLMS"]):::title
-    I(["Input Tensors / State Vectors / Action Space"]):::io
-    L["<b>Forward Transformation #amp; Projections</b><br/>• High-Dimensional Subspace Mapping<br/>• Residual Connections #amp; Normalization<br/>• Attention Masking #amp; Boundary Routing"]
-    R["<b>Memory #amp; State Management</b><br/>• Continuous Paged Buffers / KV Cache<br/>• Zero-Copy Sharding Across Ranks<br/>• Bounded Latency #amp; Active Context"]
-    E["<b>Execution Pipeline #amp; Distributed Kernels</b><br/>• Flash Attention / Fused GEMM Operations<br/>• Memory-Bandwidth-Bound vs Compute-Bound Balancing<br/>• Asymptotic Complexity: O(n log n) or O(n)"]
-    O["<b>Empirical Output #amp; Production Serving</b><br/>• Deterministic Decoding #amp; Stopping Criteria<br/>• Latency Profiling #amp; Memory Footprint Verification<br/>• Resilient Fault Recovery #amp; Health Checks"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Large Language Models (LLMs) · System 1 vs System 2 Thinking in LLMs: Fast Intuitive Generation vs Deliberative Reasoning"]):::title
+    a["Query"]
+    b{"Mode?"}
+    c["System 1: direct fast answer"]
+    d["System 2: deliberate reasoning trace"]
+    e{"Hard problem?"}
+    f["Route to deliberation"]
+    g(["Adaptive effort"])
+    T ~~~ a
+    a --> e
+    e -- "no" --> c
+    c --> g
+    e -- "yes" --> f
+    f --> d
+    d --> g
+    class b,e dec
+    class g term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This topology illustrates how abstract mathematical representations translate directly onto modern accelerator hardware (GPUs/TPUs), minimizing inter-node communication latency and memory bandwidth stalls.

@@ -47,20 +47,34 @@ The operational topology, tensor dataflow, and execution lifecycle of **Communic
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM ARCHITECTURE: COMMUNICATION OVERHEAD IN DISTRIBUTED TRANSFORMERS"]):::title
-    I(["Input Tensors / State Vectors / Action Space"]):::io
-    L["<b>Forward Transformation #amp; Projections</b><br/>• High-Dimensional Subspace Mapping<br/>• Residual Connections #amp; Normalization<br/>• Attention Masking #amp; Boundary Routing"]
-    R["<b>Memory #amp; State Management</b><br/>• Continuous Paged Buffers / KV Cache<br/>• Zero-Copy Sharding Across Ranks<br/>• Bounded Latency #amp; Active Context"]
-    E["<b>Execution Pipeline #amp; Distributed Kernels</b><br/>• Flash Attention / Fused GEMM Operations<br/>• Memory-Bandwidth-Bound vs Compute-Bound Balancing<br/>• Asymptotic Complexity: O(n log n) or O(n)"]
-    O["<b>Empirical Output #amp; Production Serving</b><br/>• Deterministic Decoding #amp; Stopping Criteria<br/>• Latency Profiling #amp; Memory Footprint Verification<br/>• Resilient Fault Recovery #amp; Health Checks"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Transformers #amp; Attention Mechanisms · Communication Overhead in Distributed Transformers: All-Reduce, All-to-All, and P2P Latency"]):::title
+    a["Distributed step"]
+    b{"Collective?"}
+    c["All-reduce: gradients in data parallel"]
+    d["All-to-all: MoE token routing"]
+    e["Point-to-point: pipeline activations"]
+    f["Latency and bandwidth"]
+    g{"Overlap with compute?"}
+    h["Hide communication"]
+    i(["Overhead managed"])
+    T ~~~ a
+    a --> b
+    b -- "grads" --> c
+    c --> f
+    b -- "moe" --> d
+    d --> f
+    b -- "pipe" --> e
+    e --> f
+    f --> g
+    g -- "yes" --> h
+    h --> i
+    g -- "no" --> i
+    class b,g dec
+    class i term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This topology illustrates how abstract mathematical representations translate directly onto modern accelerator hardware (GPUs/TPUs), minimizing inter-node communication latency and memory bandwidth stalls.

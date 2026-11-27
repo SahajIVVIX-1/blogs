@@ -47,20 +47,32 @@ The operational topology, tensor dataflow, and execution lifecycle of **Paramete
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM ARCHITECTURE: PARAMETER-EFFICIENT FINE-TUNING (PEFT)"]):::title
-    I(["Input Tensors / State Vectors / Action Space"]):::io
-    L["<b>Forward Transformation #amp; Projections</b><br/>• High-Dimensional Subspace Mapping<br/>• Residual Connections #amp; Normalization<br/>• Attention Masking #amp; Boundary Routing"]
-    R["<b>Memory #amp; State Management</b><br/>• Continuous Paged Buffers / KV Cache<br/>• Zero-Copy Sharding Across Ranks<br/>• Bounded Latency #amp; Active Context"]
-    E["<b>Execution Pipeline #amp; Distributed Kernels</b><br/>• Flash Attention / Fused GEMM Operations<br/>• Memory-Bandwidth-Bound vs Compute-Bound Balancing<br/>• Asymptotic Complexity: O(n log n) or O(n)"]
-    O["<b>Empirical Output #amp; Production Serving</b><br/>• Deterministic Decoding #amp; Stopping Criteria<br/>• Latency Profiling #amp; Memory Footprint Verification<br/>• Resilient Fault Recovery #amp; Health Checks"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Large Language Models (LLMs) · Parameter-Efficient Fine-Tuning (PEFT): Taxonomy of Adapters, Prefix Tuning, and Prompt Tuning"]):::title
+    a["Freeze base weights"]
+    b{"Adapter type?"}
+    c["Bottleneck adapters between layers"]
+    d["Prefix tuning: trainable key-value prefixes"]
+    e["Prompt tuning: soft input tokens"]
+    f["LoRA: low-rank weight deltas"]
+    g["Train under 1 percent of parameters"]
+    h(["PEFT"])
+    T ~~~ a
+    a --> b
+    b -- "adapter" --> c
+    c --> g
+    b -- "prefix" --> d
+    d --> g
+    b -- "prompt" --> e
+    e --> g
+    b -- "lowrank" --> f
+    f --> g
+    g --> h
+    class b dec
+    class h term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This topology illustrates how abstract mathematical representations translate directly onto modern accelerator hardware (GPUs/TPUs), minimizing inter-node communication latency and memory bandwidth stalls.

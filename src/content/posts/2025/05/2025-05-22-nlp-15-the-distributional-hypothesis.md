@@ -43,20 +43,25 @@ The structural flow, component relationships, and operational hierarchy of **The
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM TOPOLOGY: THE DISTRIBUTIONAL HYPOTHESIS"]):::title
-    I(["Primary Input / Data Descriptor Space"]):::io
-    L["<b>Memory Layout #amp; Internal State</b><br/>• Contiguous Buffer / Cache Lines<br/>• Invariant Constraints #amp; Headers<br/>• Structural Hierarchy (O(1) Access)"]
-    R["<b>Algorithmic Control Flow</b><br/>• Transformation Kernel / Pipeline<br/>• Dispatch Table / Virtual Methods<br/>• Dynamic Resolution / Graph Routing"]
-    E["<b>Execution Pipeline #amp; Vectorization</b><br/>• Cache Locality Optimization (Spatial #amp; Temporal)<br/>• Bounded Asymptotic Complexity: O(n) Time, O(1) Space<br/>• Deterministic Memory Deallocation #amp; Lifecycle"]
-    O["<b>High-Throughput Production Serving</b><br/>• Zero-Copy Slicing / Shared References<br/>• Lock-Free Concurrency #amp; Thread Safety<br/>• Monitored Latency #amp; Error Resilience"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Natural Language Processing (NLP) · The Distributional Hypothesis: Harris #amp; Firth's Formulation ('You shall know a word by its company')"]):::title
+    a["Words in contexts"]
+    b["Harris: similar contexts, similar meaning"]
+    c["Firth: know a word by the company it keeps"]
+    d["Co-occurrence statistics"]
+    e["Represent a word by its context distribution"]
+    f(["Foundation of embeddings"])
+    T ~~~ a
+    a --> b
+    b --> d
+    a --> c
+    c --> d
+    d --> e
+    e --> f
+    class f term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational blueprint illustrates how abstract abstractions map directly to physical hardware architectures, optimizing memory locality and instruction throughput.

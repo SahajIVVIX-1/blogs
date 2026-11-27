@@ -1,0 +1,1209 @@
+@11.1
+a=Source tokens
+b=Embeddings + sinusoidal positions
+c=Encoder x6: self-attention, FFN, residual + LayerNorm
+d=Memory (encoder output)
+e=Target tokens shifted right
+f=Decoder x6: masked self-attn, cross-attn, FFN
+g=Linear + softmax
+h!=Next-token distribution
+a>b>c>d
+e>f>g>h
+d>f
+@11.2
+a=Queries Q, keys K, values V
+b=Scores S = Q K^T
+c=Divide by sqrt(d_k)
+d=Optional mask adds -inf
+e=Row-wise softmax
+f=Weighted sum A V
+g?=Large scores saturate softmax?
+h=Subtract row max for numerical stability
+i!=Attention output
+a>b>c>d>e>f>i
+c>g
+g-yes>h>e
+@11.3
+a=q, k components i.i.d. mean 0, variance 1
+b=Dot product sum of d_k terms
+c=Var(q . k) = d_k
+d=Logits scale like sqrt(d_k)
+e?=Large d_k unscaled?
+f=Softmax saturates, gradients vanish
+g=Divide by sqrt(d_k): variance 1
+h!=Stable training signal
+a>b>c>d>e
+e-yes>f>g>h
+e-no>h
+@11.4
+a=Input X (n x d_model)
+b=Project to h heads with W_Q, W_K, W_V
+c=Attention per head in d_k = d_model / h
+d=Concatenate heads
+e=Output projection W_O
+f?=Heads learn different subspaces?
+g=Syntax, coreference, position patterns
+h!=Multi-head output
+a>b>c>d>e>f
+f-yes>g>h
+f-no>h
+@11.5
+a=Many query heads
+b=Single shared K and V head
+c=KV cache shrinks by n_heads
+d=Decoding bandwidth drops
+e?=Quality loss?
+f=Small but measurable
+g!=Multi-query attention
+a>b>c>d>e
+e-yes>f>g
+e-no>g
+@11.6
+a=Query heads H
+b=Group into G key-value heads
+c?=G value?
+d=G = H: MHA
+e=G = 1: MQA
+f=1 < G < H: GQA
+g=Cache reduced by H / G
+h!=Quality near MHA, memory near MQA
+a>b>c
+c-all>d>g
+c-one>e>g
+c-between>f>g
+g>h
+@11.7
+a=Decoder hidden states
+b=Queries from the decoder
+c=Keys and values from the encoder output
+d=Each target position attends over the source
+e=Context added to the decoder stream
+f!=Alignment between sequences
+a>b>d
+c>d>e>f
+@11.8
+a=Scores matrix n x n
+b=Lower-triangular mask
+c=Upper triangle set to -inf
+d=Softmax gives zero weight to the future
+e?=Training in parallel?
+f=All positions computed at once
+g!=No information leaks backward
+a>b>c>d>e
+e-yes>f>g
+e-no>g
+@11.9
+a=Position pos, dimension 2i
+b=PE = sin(pos / 10000^(2i/d))
+c=PE(2i+1) = cos(...)
+d=Geometric wavelengths 2 pi to 10000 2 pi
+e=Offset k is a linear map of PE(pos)
+f?=Longer than training?
+g=Extrapolates in principle
+h!=Fixed positional encoding
+a>b>d
+a>c>d
+d>e>f
+f-yes>g>h
+f-no>h
+@11.10
+a=Embedding table of max_len positions
+b=Add to token embeddings
+c=Learned end to end
+d?=Position beyond max_len?
+e=No embedding: fails to extrapolate
+f=Interpolate or extend table
+g!=Learned absolute positions
+a>b>c>d
+d-yes>e>f>g
+d-no>g
+@11.11
+a=Query and key vectors
+b=Rotate pairs by angle m theta_i
+c=q_m^T k_n depends on (m - n)
+d=Relative position in inner product
+e=Frequencies theta_i = 10000^(-2i/d)
+f=No added position vectors
+g!=RoPE
+a>b>c>d>f>g
+e>b
+@11.12
+a=Attention scores
+b=Subtract slope x distance
+c=Head-specific geometric slopes
+d=Penalizes far tokens linearly
+e?=Test length longer than train?
+f=Extrapolates without retraining
+g!=ALiBi
+a>b>c>d>e
+e-yes>f>g
+e-no>g
+@11.13
+a=Pair of positions (i, j)
+b=Relative distance j - i
+c=Bucket distances logarithmically
+d=Learned scalar bias per bucket and head
+e=Add to attention logits
+f!=T5 relative bias
+a>b>c>d>e>f
+@11.14
+a=Model trained at length L
+b?=Extend context to L'?
+c=Linear interpolation: scale positions by L / L'
+d=NTK-aware: scale base frequency
+e=YaRN: per-dimension ramp + attention temperature
+f=Short fine-tune
+g?=Perplexity stable at L'?
+h!=Extended context
+a>b
+b-simple>c>f
+b-ntk>d>f
+b-yarn>e>f
+f>g
+g-yes>h
+g-no>f
+@11.15
+a=Long sequences
+b?=Technique?
+c=LongRoPE: search non-uniform rescale factors
+d=CoPE: positions counted over context-selected tokens
+e=Progressive extension fine-tuning
+f=Gating decides which tokens advance position
+g!=Beyond fixed distance
+a>b
+b-rope>c>e>g
+b-cope>d>f>g
+@11.16
+a=Hidden vector x
+b=Mean and variance over features
+c=(x - mean) / sqrt(var + eps)
+d=Learned gain and bias
+e=Same behavior at train and test
+f!=LayerNorm
+a>b>c>d>e>f
+@11.17
+a=Vector x
+b=rms = sqrt(mean(x^2) + eps)
+c=x / rms times learned gain
+d=No centering, no bias
+e=Fewer ops than LayerNorm
+f!=RMSNorm
+a>b>c>d>e>f
+@11.18
+a=Residual block
+b?=Norm placement?
+c=Post-LN: norm after the residual add
+d=Gradients shrink near the input
+e=Needs warmup
+f=Pre-LN: norm inside the branch
+g=Identity path stays clean
+h!=Stable deep training
+a>b
+b-post>c>d>e>h
+b-pre>f>g>h
+@11.19
+a=Very deep transformer
+b=DeepNorm: x + alpha F(x), then LayerNorm
+c=Scaled initialization beta
+d=Bounded model update per layer
+e=ScaleNorm: single learned scalar
+f!=1000-layer stability
+a>b>c>d>f
+e>f
+@11.20
+a=Token vector (d)
+b=Up-projection to 4d
+c=Nonlinearity
+d=Down-projection to d
+e=Per-token, no mixing across positions
+f!=Position-wise FFN
+a>b>c>d>e>f
+@11.21
+a=Input x
+b=GELU(x) = x Phi(x)
+c=Phi = Gaussian CDF
+d=Smooth ReLU: stochastic gating interpretation
+e=Approximation x sigmoid(1.702 x)
+f!=Transformer activation
+a>b>c>d>f
+b>e
+@11.22
+a=x
+b=Two projections: W1 x and W2 x
+c=Swish(W1 x) times W2 x
+d=Down-projection
+e=Hidden size 2/3 x 4d to match parameters
+f?=Better than GELU FFN?
+g=Empirically yes
+h!=SwiGLU
+a>b>c>d>e>f
+f-yes>g>h
+@11.23
+a=Gated linear unit family
+b?=Gate nonlinearity?
+c=ReGLU: ReLU gate
+d=GeGLU: GELU gate
+e=SwiGLU: Swish gate
+f=Element-wise product with linear branch
+g!=Gated FFN variants
+a>b
+b-relu>c>f>g
+b-gelu>d>f>g
+b-swish>e>f>g
+@11.24
+a=Layer output F(x)
+b=Add the input: x + F(x)
+c=Identity path for gradients
+d=Deep supervision of early layers
+e?=Branch fails to help?
+f=Layer becomes near identity
+g!=Trainable depth
+a>b>c>d>e
+e-yes>f>g
+e-no>g
+@11.25
+a=Token embeddings
+b=Bidirectional self-attention
+c=FFN and residuals
+d=Stack N layers
+e=Contextual representation per token
+f!=Encoder (BERT-style)
+a>b>c>d>e>f
+@11.26
+a=Shifted target tokens
+b=Causal self-attention
+c=Cross-attention to encoder memory
+d=FFN
+e=Next-token logits
+f?=Generation?
+g=Autoregressive: feed back sampled token
+h!=Decoder
+a>b>c>d>e>f
+f-yes>g>a
+f-no>h
+@11.27
+a=Input sequence
+b=Encoder
+c=Decoder with cross-attention
+d?=Task?
+e=Translation, summarization
+f=T5 text-to-text for any task
+g!=Seq2seq model
+a>b>c>d
+d-mt>e>g
+d-unified>f>g
+@11.28
+a=Q, K, V in HBM
+b=Tile into blocks that fit in SRAM
+c=Compute block scores on chip
+d=Online softmax: running max and sum
+e=Accumulate output
+f?=More key blocks?
+g=Write O to HBM once
+h!=No n x n matrix in HBM
+a>b>c>d>e>f
+f-yes>c
+f-no>g>h
+@11.29
+a=FlashAttention loop order
+b=Parallelize across sequence blocks and batch*heads
+c=Split work across warps within a block
+d=Fewer non-matmul FLOPs
+e=Better GPU occupancy
+f!=About 2x faster than v1
+a>b>c>d>e>f
+@11.30
+a=Hopper GPU
+b=Asynchronous TMA copies and WGMMA tensor cores
+c=Warp specialization: producers and consumers
+d=Overlap softmax with matmul
+e=FP8 with block quantization
+f!=Higher utilization
+a>b>c>d>e>f
+@11.31
+a=Decoding: one query token
+b=KV cache is long
+c=Split keys across thread blocks
+d=Each block computes partial softmax
+e=Reduce with log-sum-exp
+f!=Fast long-context decode
+a>b>c>d>e>f
+@11.32
+a=Sequence needs a growing KV cache
+b?=Contiguous allocation?
+c=Fragmentation and over-reservation
+d=PagedAttention: fixed-size blocks
+e=Block table maps logical to physical
+f=Share blocks for common prefixes
+g!=Near-zero waste
+a>b
+b-yes>c
+b-no>d>e>f>g
+@11.33
+a=Prompt of n tokens
+b=Prefill: all tokens in parallel
+c=Compute bound
+d=Decode: one token per step
+e=Reads weights and the whole KV cache
+f=Memory-bandwidth bound
+g!=Different latency regimes
+a>b>c
+b>d>e>f>g
+@11.34
+a=FP16 KV cache
+b?=Quantize to?
+c=FP8
+d=INT8 per-head scales
+e=INT4 with grouping
+f=Dequantize on the fly
+g?=Perplexity within bound?
+h!=Smaller cache, longer context
+a>b
+b-8>c>f
+b-int8>d>f
+b-int4>e>f
+f>g
+g-yes>h
+g-no>b
+@11.35
+a=Hidden state h
+b=Down-project to a low-rank latent c_KV
+c=Cache only the latent
+d=Up-project to K and V when needed
+e=Absorb up-projection into the query matrix
+f!=Much smaller KV cache
+a>b>c>d>e>f
+@11.36
+a=Full attention is O(n^2)
+b?=Sparse pattern?
+c=Local blocks
+d=Strided
+e=Fixed factorized
+f=Combine patterns across heads
+g!=Sub-quadratic cost
+a>b
+b-local>c>f
+b-stride>d>f
+b-fixed>e>f
+f>g
+@11.37
+a=Token at position i
+b=Attend only to the last W tokens
+c=Rolling buffer cache of size W
+d=Stacked layers extend reach to L x W
+e!=Mistral sliding window
+a>b>c>d>e
+@11.38
+a=Long document
+b=Sliding window local attention
+c=Dilated windows in upper layers
+d=Global tokens attend everywhere
+e=Linear in sequence length
+f!=Longformer
+a>b>e
+a>c>e
+a>d>e>f
+@11.39
+a=Tokens
+b=Window attention
+c=Random blocks
+d=Global tokens
+e=Union pattern
+f=O(n) attention with long-range paths
+g!=BigBird
+a>b>e
+a>c>e
+a>d>e
+e>f>g
+@11.40
+a=Keys and values n x d
+b=Project sequence length n down to k
+c=Attention over k keys
+d=Cost O(n k)
+e?=Low-rank assumption holds?
+f=Good approximation
+g!=Linformer
+a>b>c>d>e
+e-yes>f>g
+e-no>g
+@11.41
+a=Softmax kernel exp(q . k)
+b=Random features phi(x) (FAVOR+)
+c=Positive orthogonal random features
+d=Reorder: phi(Q) (phi(K)^T V)
+e=Linear in n
+f!=Performer
+a>b>c>d>e>f
+@11.42
+a=Queries and keys
+b=LSH buckets similar vectors
+c=Sort into chunks and attend within buckets
+d=Reversible residual layers recompute activations
+e=Memory independent of depth
+f!=Reformer
+a>b>c>e
+a>d>e>f
+@11.43
+a=Replace softmax with a feature map
+b=(phi(Q) phi(K)^T) V
+c=Associativity: phi(Q) (phi(K)^T V)
+d=Constant-size running state for decoding
+e!=Linear attention
+a>b>c>d>e
+@11.44
+a=Retention: exponential decay of past
+b?=Representation?
+c=Parallel for training
+d=Recurrent for O(1) inference
+e=Chunkwise for long sequences
+f!=RetNet
+a>b
+b-train>c>f
+b-infer>d>f
+b-long>e>f
+@11.45
+a=Continuous state x' = A x + B u
+b=Discretize with step delta
+c=Recurrent form
+d=Convolutional form
+e?=Training or inference?
+f=Parallel convolution
+g=Constant-memory recurrence
+h!=SSM
+a>b>c>d>e
+e-train>f>h
+e-infer>g>h
+@11.46
+a=Input-dependent B, C, delta
+b=Selection: remember or forget per token
+c=Breaks convolutional form
+d=Hardware-aware parallel scan
+e=State kept in fast memory
+f!=Mamba
+a>b>c>d>e>f
+@11.47
+a=Layer stack
+b=Mamba blocks for long-range cheap mixing
+c=Occasional attention layers for precise recall
+d=Optional MoE in some layers
+e=Small KV cache
+f!=Jamba-style hybrid
+a>b>c>d>e>f
+@11.48
+a=Token hidden state
+b=Router scores all experts
+c=Top-k gating
+d?=Expert over capacity?
+e=Drop or overflow token
+f=Run chosen experts
+g=Weighted sum of outputs
+h!=Sparse FFN
+a>b>c>d
+d-yes>e>g
+d-no>f>g>h
+@11.49
+a=Router logits
+b=Top-1 expert per token
+c=Capacity factor limits tokens per expert
+d=Auxiliary loss: fraction x probability balance
+e?=Experts collapse?
+f=Load-balancing gradient
+g!=Switch Transformer
+a>b>c>d>e
+e-yes>f>g
+e-no>g
+@11.50
+a=Standard few large experts
+b=Fine-grained: split into many small experts
+c=More combinations per token
+d=Shared experts always active
+e=Routed experts specialize
+f!=DeepSeekMoE
+a>b>c>e
+a>d>e>f
+@11.51
+a=Token-choice routing overloads experts
+b?=Alternative?
+c=Expert choice: experts pick tokens
+d=Soft MoE: soft mixtures of tokens per slot
+e=Perfect load balance
+f=Fully differentiable
+g!=Balanced routing
+a>b
+b-expert>c>e>g
+b-soft>d>f>g
+@11.52
+a=Model with N parameters
+b=About 2N FLOPs per token forward
+c=Arithmetic intensity FLOPs / byte
+d?=Batch size small?
+e=Memory-bound decoding
+f=Compute-bound with large batches
+g!=Hardware profile
+a>b>c>d
+d-yes>e>g
+d-no>f>g
+@11.53
+a=Training memory
+b=Weights
+c=Gradients
+d=Optimizer states (2x for Adam)
+e=Activations
+f=KV cache for inference
+g!=Total footprint
+a>b>g
+a>c>g
+a>d>g
+a>e>g
+a>f>g
+@11.54
+a=Forward pass
+b=Save only layer inputs
+c=Backward: recompute the forward of each segment
+d=Memory falls to about sqrt(L) segments
+e=Extra forward costs about 33 percent
+f!=Compute for memory
+a>b>c>d>e>f
+@11.55
+a=Data-parallel ranks hold full states
+b=Partition optimizer state across ranks
+c=Each rank updates its slice
+d=All-gather updated parameters
+e=Memory for states / N
+f!=ZeRO-1
+a>b>c>d>e>f
+@11.56
+a=ZeRO-1 plus gradient sharding
+b=Reduce-scatter gradients to owners
+c=Free non-owned gradients
+d=Owner updates its parameter shard
+e=All-gather parameters
+f!=ZeRO-2
+a>b>c>d>e>f
+@11.57
+a=Parameters sharded too
+b=All-gather layer weights just before use
+c=Compute forward or backward
+d=Discard gathered weights
+e=Reduce-scatter gradients
+f=Memory scales with 1 / N
+g!=ZeRO-3 / FSDP
+a>b>c>d>e>f>g
+@11.58
+a=MLP block Y = GeLU(X A) B
+b=Split A by columns across GPUs
+c=Local GeLU needs no communication
+d=Split B by rows
+e=All-reduce partial outputs
+f!=Two collectives per layer
+a>b>c>d>e>f
+@11.59
+a=Layers divided into stages on different GPUs
+b=Micro-batches flow through
+c?=Schedule?
+d=GPipe: bubble at start and end
+e=1F1B: steady state alternates F and B
+f=Point-to-point activation transfers
+g!=Pipeline parallelism
+a>b>c
+c-gpipe>d>f>g
+c-1f1b>e>f>g
+@11.60
+a=Within tensor parallel group
+b=LayerNorm and dropout replicate activations
+c=Shard activations along the sequence dimension
+d=All-gather before attention and MLP
+e=Reduce-scatter after
+f!=Lower activation memory
+a>b>c>d>e>f
+@11.61
+a=Sequence split across devices
+b=Each holds one block of Q, K, V
+c=Pass KV blocks around a ring
+d=Overlap communication with block attention
+e=Accumulate with online softmax
+f!=Context length scales with devices
+a>b>c>d>e>f
+@11.62
+a=Long context
+b=Split query and KV along sequence across nodes
+c=Exchange KV via ring or all-gather
+d=Causal load balancing: zigzag chunks
+e!=Context parallelism
+a>b>c>d>e
+@11.63
+a=FP32 master weights
+b=Cast copies to FP16 or BF16
+c=Forward and backward in low precision
+d?=FP16?
+e=Dynamic loss scaling to avoid underflow
+f=BF16: wide range, no scaling
+g=Update FP32 weights
+h!=Faster, lighter training
+a>b>c>d
+d-fp16>e>g
+d-bf16>f>g
+g>h
+@11.64
+a=Choose FP8 format
+b?=Use?
+c=E4M3: precision, forward tensors
+d=E5M2: range, gradients
+e=Per-tensor scale factors
+f=Amax history for dynamic scaling
+g!=FP8 training
+a>b
+b-fwd>c>e
+b-grad>d>e
+e>f>g
+@11.65
+a=Gradient step
+b=Adam moments from gradient only
+c=Decoupled weight decay w -= lr wd w
+d=Decay independent of adaptive scaling
+e=Better generalization
+f!=AdamW
+a>b>c>d>e>f
+@11.66
+a=Step t
+b?=Phase?
+c=Linear warmup from 0
+d=Cosine decay to the floor
+e=Minimum LR about 10 percent of peak
+f!=Schedule
+a>b
+b-start>c>f
+b-main>d>e>f
+@11.67
+a=Gradient norm g
+b?=g above threshold c?
+c=Scale: g * c / ||g||
+d=Keep unchanged
+e=Prevents loss spikes
+f!=Bounded update
+a>b
+b-yes>c>e>f
+b-no>d>f
+@11.68
+a=Initialize layer weights
+b?=Scheme?
+c=Xavier: variance 2 / (fan_in + fan_out)
+d=He: variance 2 / fan_in
+e=Residual output scaled by 1 / sqrt(2L)
+f!=Stable signal propagation
+a>b
+b-tanh>c>f
+b-relu>d>f
+b-deep>e>f
+@11.69
+a=Dropout locations
+b=Attention weights dropout
+c=Residual dropout
+d=Hidden dropout in FFN
+e?=Large pretraining data?
+f=Often zero dropout
+g=Regularize small fine-tunes
+h!=Regularization choice
+a>b>e
+a>c>e
+a>d>e
+e-yes>f>h
+e-no>g>h
+@11.70
+a=L2 penalty inside Adam
+b=Penalty gradient divided by sqrt(v)
+c=Weights with large gradients decay less
+d=Uneven regularization
+e=Decoupled decay fixes it
+f!=Uniform shrinkage
+a>b>c>d>e>f
+@11.71
+a=Input embedding matrix E (V x d)
+b=Output head W = E^T
+c=Tie weights
+d=Fewer parameters
+e=Consistent token geometry
+f!=Weight tying
+a>c
+b>c>d>e>f
+@11.72
+a=Logits z
+b=Divide by temperature T
+c?=T?
+d=T < 1: sharper, more deterministic
+e=T > 1: flatter, more random
+f=Softmax
+g!=Controlled entropy
+a>b>c
+c-low>d>f>g
+c-high>e>f>g
+@11.73
+a=Prompt
+b?=Search?
+c=Greedy: take argmax each step
+d=Beam: keep B best hypotheses
+e=Diversity penalty between beams
+f=Length normalization
+g!=Output sequence
+a>b
+b-greedy>c>g
+b-beam>d>e>f>g
+@11.74
+a=Next-token distribution
+b=Keep the k most likely tokens
+c=Renormalize
+d=Sample
+e?=k too large or small?
+f=Large: incoherent tail
+g=Small: repetitive
+h!=Top-k sampling
+a>b>c>d>e
+e-large>f>h
+e-small>g>h
+@11.75
+a=Sort probabilities descending
+b=Add until cumulative mass >= p
+c=Nucleus of variable size
+d=Renormalize and sample
+e?=Confident prediction?
+f=Tiny nucleus
+g=Flat distribution: larger nucleus
+h!=Adaptive truncation
+a>b>c>d>e
+e-yes>f>h
+e-no>g>h
+@11.76
+a=Top token probability p_max
+b=Threshold = min_p x p_max
+c=Drop tokens below the threshold
+d=Scales with confidence
+e!=Min-P sampling
+a>b>c>d>e
+@11.77
+a=Generated history
+b?=Penalty?
+c=Repetition: divide logits of seen tokens
+d=Frequency: subtract count x penalty
+e=Presence: flat penalty once seen
+f=Discourages loops
+g!=Less repetitive text
+a>b
+b-repeat>c>f>g
+b-freq>d>f>g
+b-presence>e>f>g
+@11.78
+a=Small draft model proposes k tokens
+b=Target model scores all in one pass
+c=Compare draft and target probabilities
+d?=Token accepted?
+e=Accept with probability min(1, p / q)
+f=Reject: resample from the residual
+g=Output distribution equals the target
+h!=Faster decoding
+a>b>c>d
+d-yes>e>g
+d-no>f>g
+g>h
+@11.79
+a=Base LLM hidden state
+b=Extra Medusa heads predict tokens t+2, t+3, ...
+c=Candidate tree
+d=Verify with tree attention
+e=Accept the longest valid prefix
+f!=No separate draft model
+a>b>c>d>e>f
+@11.80
+a=Draft at feature level
+b=Predict next hidden features from current features and token
+c=Draft tokens from predicted features
+d=Tree verification by target
+e=Higher acceptance rate
+f!=EAGLE
+a>b>c>d>e>f
+@11.81
+a=Request arrives
+b=Prefill: process prompt in parallel
+c=Compute-bound, high utilization
+d=Decode loop: one token per step
+e=Bound by memory bandwidth
+f?=Optimize which?
+g=Prefill: bigger tiles, FLOPs
+h=Decode: batching, KV compression
+i!=Match optimization to phase
+a>b>c>d>e>f
+f-prompt>g>i
+f-generation>h>i
+@11.82
+a=Static batching waits for the slowest sequence
+b=Continuous batching: schedule per iteration
+c=Finished sequences leave immediately
+d=New requests join the batch
+e=No padding waste
+f!=Higher throughput
+a>b>c>d>e>f
+@11.83
+a=Long prompt blocks decoding
+b=Split prefill into chunks
+c=Mix chunk with decode tokens in each step
+d=Bounded inter-token latency
+e!=SLA-friendly serving
+a>b>c>d>e
+@11.84
+a=Many requests share a prefix
+b=Radix tree keyed by token blocks
+c?=Prefix match?
+d=Reuse cached KV blocks
+e=Compute only the new suffix
+f=Evict least recently used
+g!=Prompt caching
+a>b>c
+c-yes>d>e>g
+c-no>e>f>g
+@11.85
+a=Text with 15 percent tokens masked
+b=Bidirectional encoder
+c=Predict masked tokens (MLM)
+d=Sentence pair
+e=Predict next-sentence label (NSP)
+f=Sum of losses
+g!=BERT pretraining
+a>b>c>f
+d>b>e>f>g
+@11.86
+a=BERT recipe
+b=Remove NSP
+c=Dynamic masking each epoch
+d=Larger batches, more data
+e=Longer training
+f!=RoBERTa
+a>b>c>d>e>f
+@11.87
+a=Token content and position vectors
+b=Disentangled attention: content-to-content, content-to-position, position-to-content
+c=Enhanced mask decoder adds absolute positions late
+d=Stronger NLU results
+e!=DeBERTa
+a>b>c>d>e
+@11.88
+a=Small generator fills masked tokens
+b=Replace tokens in the input
+c=Discriminator labels each token original or replaced
+d=Loss over all positions
+e=More sample-efficient than MLM
+f!=ELECTRA
+a>b>c>d>e>f
+@11.89
+a=Any task as text in, text out
+b=Prefix names the task
+c=Encoder-decoder transformer
+d=Span corruption pretraining
+e=Relative position bias
+f!=T5
+a>b>c>d>e>f
+@11.90
+a=Clean text
+b?=Noising?
+c=Mask spans, delete tokens, shuffle sentences
+d=Bidirectional encoder
+e=Autoregressive decoder reconstructs the text
+f!=BART
+a>b>c>d>e>f
+@11.91
+a=Token embedding
+b=Residual stream carries information
+c=Each attention head reads and writes subspaces
+d=Each MLP reads and writes
+e=Final unembedding
+f!=Shared communication bus
+a>b>c>d>e>f
+@11.92
+a=Pattern A B ... A
+b=Layer 1 head: previous-token head
+c=Layer 2 head: match earlier A, attend to the token after it
+d=Copy B to the output
+e?=In-context learning?
+f=Induction heads form during a phase change
+g!=Pattern completion circuit
+a>b>c>d>e
+e-yes>f>g
+e-no>g
+@11.93
+a=Attention matrices per layer
+b=Add residual identity, renormalize
+c=Multiply across layers (rollout)
+d=Input tokens to output attribution
+e=Attention flow: max-flow variant
+f!=Information propagation map
+a>b>c>d>f
+a>e>f
+@11.94
+a=Intermediate hidden state at layer l
+b=Apply final LayerNorm and unembedding
+c=Decode a token distribution
+d=Watch predictions form across depth
+e!=Logit lens
+a>b>c>d>e
+@11.95
+a=Frozen hidden states
+b=Train a linear probe for a property
+c?=Probe accuracy high?
+d=Property linearly decodable
+e=Not represented or non-linear
+f=Control task guards against probe memorizing
+g!=Probing result
+a>b>c
+c-yes>d>f>g
+c-no>e>g
+@11.96
+a=Layer representations
+b=Anisotropy: vectors share a dominant direction
+c=Cosine similarity high for unrelated tokens
+d=Dimensional collapse in some dimensions
+e=Whitening or normalization
+f!=Healthier geometry
+a>b>c>d>e>f
+@11.97
+a=First token position
+b=Absorbs large softmax mass
+c=Acts as a no-op sink
+d=Independent of semantics
+e!=Attention sink
+a>b>c>d>e
+@11.98
+a=Streaming input beyond context
+b=Keep the sink tokens
+c=Keep a rolling window of recent KV
+d=Evict the middle
+e=Stable perplexity on infinite streams
+f!=StreamingLLM
+a>b>c>d>e>f
+@11.99
+a=Large transformer hidden states
+b=A few channels with huge magnitude
+c?=Quantize activations?
+d=Outliers dominate the range
+e=Other channels lose precision
+f=Handle outliers specially
+g!=Outlier features
+a>b>c
+c-yes>d>e>f>g
+@11.100
+a=Activation outliers per channel
+b=Per-channel scale s_j
+c=Divide activations by s
+d=Multiply weights by s
+e=Math unchanged
+f=Both tensors easy to quantize to INT8
+g!=SmoothQuant W8A8
+a>b>c>e
+b>d>e>f>g
+@11.101
+a=FP16 weights
+b?=Method?
+c=GPTQ: layer-wise error compensation with Hessian
+d=AWQ: protect salient weights using activation scales
+e=Group-wise INT4 with scales
+f=Dequantize in matmul
+g!=Weight-only INT4
+a>b
+b-gptq>c>e
+b-awq>d>e
+e>f>g
+@11.102
+a=Quantizing activations
+b?=Scale source?
+c=Static: calibration set ranges
+d=Dynamic per-token at runtime
+e=Outlier tokens hurt static ranges
+f=Dynamic costs extra compute
+g!=Activation quantization trade-off
+a>b
+b-static>c>e>g
+b-dynamic>d>f>g
+@11.103
+a=Logits and true token
+b=Softmax probabilities
+c=-log p(true token)
+d=Label smoothing mixes in uniform target
+e=Average over tokens
+f!=Training loss
+a>b>c>e>f
+d>c
+@11.104
+a=Held-out tokens
+b=Average cross-entropy H
+c=Perplexity = exp(H)
+d=Effective branching factor
+e?=Different tokenizers?
+f=Not directly comparable
+g!=Intrinsic LM metric
+a>b>c>d>e
+e-yes>f>g
+e-no>g
+@11.105
+a=Attention weights over context
+b=Few high-salience tokens
+c=Diffuse mass on the rest
+d=Bimodal distribution
+e?=Sparsify?
+f=Keep top-k only
+g!=Exploit separation
+a>b>d
+a>c>d>e
+e-yes>f>g
+e-no>g
+@11.106
+a=Attention output A V
+b=Scores need q and k in the same dimension d_k
+c=Values may differ in d_v
+d?=Residual stream shape?
+e=Output projection maps h d_v back to d_model
+f=Convention d_k = d_v = d_model / h
+g!=Dimension consistency
+a>b>c>d>e>f>g
+@11.107
+a=Fixed d_model
+b?=More heads?
+c=Smaller d_k per head
+d=More parallel patterns
+e=Each head has less capacity
+f?=Optimum?
+g=Typical d_k 64 to 128
+h!=Head dimension choice
+a>b
+b-more>c>d>e>f
+f-balance>g>h
+@11.108
+a=Sequence n, width d
+b=QK^T: 2 n^2 d FLOPs
+c=Softmax: O(n^2)
+d=AV: 2 n^2 d FLOPs
+e=Causal halves useful work
+f=Total about 4 n^2 d
+g!=Attention FLOPs
+a>b>c>d>e>f>g
+@11.109
+a=SwiGLU FFN with width d_ffn
+b=Three matrices d x d_ffn
+c=FLOPs 2 n d d_ffn each
+d=Gate and up: 4 n d d_ffn
+e=Down: 2 n d d_ffn
+f=Total about 6 n d d_ffn
+g!=FFN FLOPs
+a>b>c>d>e>f>g
+@11.110
+a=Measured training throughput
+b=Model FLOPs per token x tokens per second
+c=Divide by hardware peak FLOPS
+d=MFU
+e?=MFU below 40 percent?
+f=Look for communication, memory stalls, small kernels
+g!=Efficiency benchmark
+a>b>c>d>e
+e-yes>f>g
+e-no>g
+@11.111
+a=Distributed step
+b?=Collective?
+c=All-reduce: gradients in data parallel
+d=All-to-all: MoE token routing
+e=Point-to-point: pipeline activations
+f=Latency and bandwidth
+g?=Overlap with compute?
+h=Hide communication
+i!=Overhead managed
+a>b
+b-grads>c>f
+b-moe>d>f
+b-pipe>e>f
+f>g
+g-yes>h>i
+g-no>i
+@11.112
+a=Gradients on N GPUs
+b?=Algorithm?
+c=Ring: reduce-scatter then all-gather
+d=Bandwidth optimal 2(N-1)/N
+e=Tree: logarithmic latency
+f=NCCL picks by size and topology
+g!=Collective primitive
+a>b
+b-ring>c>d>f>g
+b-tree>e>f>g
+@11.113
+a=Autoregressive decoding is sequential
+b=Predict all tokens in parallel
+c=Iterative refinement rounds
+d=Mask and re-predict low-confidence tokens
+e?=Quality gap?
+f=More rounds close it
+g!=Non-autoregressive generation
+a>b>c>d>e
+e-yes>f>g
+e-no>g
+@11.114
+a=Image
+b=Patch embeddings
+c=Prepend CLS token
+d=Add position embeddings
+e=Transformer encoder
+f=CLS to classifier
+g!=ViT
+a>b>c>d>e>f>g
+@11.115
+a=Mask 75 percent of patches
+b=Encoder on visible patches only
+c=Lightweight decoder with mask tokens
+d=Reconstruct pixels
+e=Cheap pretraining
+f!=MAE
+a>b>c>d>e>f
+@11.116
+a=Text and image inputs
+b?=Fusion design?
+c=Separate encoders, late fusion
+d=Joint attention over all tokens
+e=Cross-attention between streams
+f=Richer interaction
+g!=Cross-modal transformer
+a>b
+b-separate>c>g
+b-joint>d>f>g
+b-cross>e>f>g
+@11.117
+a=Audio waveform
+b=Log-mel spectrogram
+c=Split into time-frequency patches
+d=Linear projection plus position
+e=Transformer encoder
+f=Audio class prediction
+g!=AST
+a>b>c>d>e>f>g
+@11.118
+a=Noisy image latent
+b=Patchify to tokens
+c=Transformer blocks with adaptive layer norm
+d=Conditioned on timestep and class
+e=Predict noise
+f=Scales with compute
+g!=DiT
+a>b>c>d>e>f>g
+@11.119
+a=Segment of a long sequence
+b=Process with the transformer
+c=Memory of past segments
+d=Compress old memories
+e=Attend to compressed memory next segment
+f!=Recurrent transformer
+a>b>c>d>e>f
+@11.120
+a=Continuous modalities and discrete tokens
+b?=Unified model?
+c=Shared tokenization of everything
+d=Continuous diffusion heads with discrete LM
+e=Long-context and agentic inference
+f=Efficiency from sparsity and state space
+g!=Next transformer frontiers
+a>b
+b-tokens>c>e>g
+b-hybrid>d>f>g

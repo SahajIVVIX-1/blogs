@@ -47,20 +47,30 @@ The operational topology, tensor dataflow, and execution lifecycle of **Pre-LN v
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM ARCHITECTURE: PRE-LN VS POST-LN ARCHITECTURE"]):::title
-    I(["Input Tensors / State Vectors / Action Space"]):::io
-    L["<b>Forward Transformation #amp; Projections</b><br/>• High-Dimensional Subspace Mapping<br/>• Residual Connections #amp; Normalization<br/>• Attention Masking #amp; Boundary Routing"]
-    R["<b>Memory #amp; State Management</b><br/>• Continuous Paged Buffers / KV Cache<br/>• Zero-Copy Sharding Across Ranks<br/>• Bounded Latency #amp; Active Context"]
-    E["<b>Execution Pipeline #amp; Distributed Kernels</b><br/>• Flash Attention / Fused GEMM Operations<br/>• Memory-Bandwidth-Bound vs Compute-Bound Balancing<br/>• Asymptotic Complexity: O(n log n) or O(n)"]
-    O["<b>Empirical Output #amp; Production Serving</b><br/>• Deterministic Decoding #amp; Stopping Criteria<br/>• Latency Profiling #amp; Memory Footprint Verification<br/>• Resilient Fault Recovery #amp; Health Checks"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Transformers #amp; Attention Mechanisms · Pre-LN vs Post-LN Architecture: Vanishing Gradients, Learning Rate Warmup, and Training Stability"]):::title
+    a["Residual block"]
+    b{"Norm placement?"}
+    c["Post-LN: norm after the residual add"]
+    d["Gradients shrink near the input"]
+    e["Needs warmup"]
+    f["Pre-LN: norm inside the branch"]
+    g["Identity path stays clean"]
+    h(["Stable deep training"])
+    T ~~~ a
+    a --> b
+    b -- "post" --> c
+    c --> d
+    d --> e
+    e --> h
+    b -- "pre" --> f
+    f --> g
+    g --> h
+    class b dec
+    class h term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This topology illustrates how abstract mathematical representations translate directly onto modern accelerator hardware (GPUs/TPUs), minimizing inter-node communication latency and memory bandwidth stalls.

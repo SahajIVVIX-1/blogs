@@ -43,20 +43,31 @@ The structural flow, component relationships, and operational hierarchy of **LST
 
 ```mermaid
 flowchart TD
-    T(["SYSTEM TOPOLOGY: LSTM GATES MECHANICS"]):::title
-    I(["Primary Input / Data Descriptor Space"]):::io
-    L["<b>Memory Layout #amp; Internal State</b><br/>• Contiguous Buffer / Cache Lines<br/>• Invariant Constraints #amp; Headers<br/>• Structural Hierarchy (O(1) Access)"]
-    R["<b>Algorithmic Control Flow</b><br/>• Transformation Kernel / Pipeline<br/>• Dispatch Table / Virtual Methods<br/>• Dynamic Resolution / Graph Routing"]
-    E["<b>Execution Pipeline #amp; Vectorization</b><br/>• Cache Locality Optimization (Spatial #amp; Temporal)<br/>• Bounded Asymptotic Complexity: O(n) Time, O(1) Space<br/>• Deterministic Memory Deallocation #amp; Lifecycle"]
-    O["<b>High-Throughput Production Serving</b><br/>• Zero-Copy Slicing / Shared References<br/>• Lock-Free Concurrency #amp; Thread Safety<br/>• Monitored Latency #amp; Error Resilience"]
-    T ~~~ I
-    I --> L
-    I --> R
-    L --> E
-    R --> E
-    E --> O
+    T(["Deep Learning Foundations · LSTM Gates Mechanics: Forget Gate (Sigmoid), Input Gate, Candidate State, and Output Gate"]):::title
+    a["Previous h and current x"]
+    b["Forget gate f = sigma(...)"]
+    c["Input gate i = sigma(...)"]
+    d["Candidate g = tanh(...)"]
+    e["c = f * c_prev + i * g"]
+    f["Output gate o = sigma(...)"]
+    g["h = o * tanh(c)"]
+    h(["LSTM step"])
+    T ~~~ a
+    a --> b
+    b --> e
+    a --> c
+    c --> e
+    a --> d
+    d --> e
+    a --> f
+    f --> g
+    e --> g
+    g --> h
+    class h term
     classDef title fill:transparent,stroke:transparent,font-weight:700;
-    classDef io fill:transparent,stroke-dasharray:4 3;
+    classDef term stroke-width:2px;
+    classDef store stroke-dasharray:4 3;
+    classDef dec stroke-width:2px;
 ```
 
 This operational blueprint illustrates how abstract abstractions map directly to physical hardware architectures, optimizing memory locality and instruction throughput.
